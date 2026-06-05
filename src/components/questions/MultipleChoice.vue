@@ -34,6 +34,7 @@ const emit = defineEmits(['answer', 'first-wrong', 'complete']);
 const shuffled = ref([]);
 const hadWrong = ref(false);
 const finalised = ref(false);
+const wrongPicks = ref([]);   // options the learner clicked but were wrong
 
 onMounted(() => {
   shuffled.value = shuffle((props.question.options || []).slice());
@@ -45,6 +46,20 @@ const renderedPrompt = computed(() =>
     : props.question.prompt || '',
 );
 
+const correctValue = computed(() => String(props.question.correct ?? '').trim());
+
+/**
+ * Returns true iff `option` matches the declared correct answer. The
+ * comparison trims whitespace defensively so a stray YAML space cannot
+ * break the visual feedback.
+ *
+ * @param {string} option
+ * @return {boolean}
+ */
+function isCorrectOption(option) {
+  return String(option ?? '').trim() === correctValue.value;
+}
+
 /**
  * Click handler for each answer button.
  *
@@ -52,13 +67,16 @@ const renderedPrompt = computed(() =>
  */
 function pick(option) {
   if (finalised.value) return;
-  const isCorrect = option === props.question.correct;
 
-  if (isCorrect) {
+  if (isCorrectOption(option)) {
     finalised.value = true;
     emit('answer', { isCorrect: !hadWrong.value });
     emit('complete');
     return;
+  }
+
+  if (!wrongPicks.value.includes(option)) {
+    wrongPicks.value = [...wrongPicks.value, option];
   }
 
   if (hadWrong.value) {
@@ -72,18 +90,27 @@ function pick(option) {
 }
 
 /**
- * CSS class helper used to colour the buttons after the answer is
- * resolved (or after a first wrong click).
+ * CSS class helper. Three states:
+ *   1. The learner has just picked a wrong option (not yet finalised)
+ *      → only THAT option turns red.
+ *   2. The question is finalised
+ *      → the correct option is green, every previously-picked wrong
+ *        option is red. Untouched options stay neutral so the screen
+ *        is not visually overwhelming.
+ *   3. Otherwise → no class.
  *
  * @param {string} option
  * @return {!Object<string, boolean>}
  */
 function classFor(option) {
-  if (!finalised.value) return {};
-  return {
-    correct: option === props.question.correct,
-    wrong: option !== props.question.correct,
-  };
+  const wasPickedWrong = wrongPicks.value.includes(option);
+  if (finalised.value) {
+    return {
+      correct: isCorrectOption(option),
+      wrong: wasPickedWrong,
+    };
+  }
+  return { wrong: wasPickedWrong };
 }
 </script>
 
