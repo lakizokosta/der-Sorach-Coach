@@ -2,21 +2,24 @@
 /**
  * MultipleChoice — single-answer radio question (`select-one`).
  *
- * Behaviour copied from the Blogger trainer:
+ * Behaviour:
  *   - The answer options are shuffled on mount.
- *   - The first click decides the answer (correct or wrong).
- *   - A wrong click counts as an error but the learner gets ONE second
- *     chance to pick the correct option (which is then highlighted in
- *     green without affecting the score).
+ *   - A wrong click highlights the picked button RED and is added to
+ *     the persistent "wrong picks" set. The learner keeps trying — the
+ *     question is NOT finalised until the correct answer is picked.
+ *   - The first wrong click also emits `first-wrong` so the parent can
+ *     count the error (once) and show its retry banner.
+ *   - When the correct option is finally picked it turns GREEN and the
+ *     `answer` event fires with `isCorrect = !hadAnyWrongPick`.
  *
  * Question shape (from `parseQuestionFile`):
  *   { id, type:'select-one', prompt, options: string[], correct: string }
  *
  * Emits:
- *   - 'first-wrong'              — fired once when the learner picks an
- *     incorrect option on the first attempt.
- *   - 'answer' { isCorrect }     — fired once when the question is
- *     finally resolved.
+ *   - 'first-wrong'              — fired exactly once on the very first
+ *     wrong click.
+ *   - 'answer' { isCorrect }     — fired once when the correct option
+ *     is finally picked.
  *   - 'complete'                 — fired together with 'answer'.
  */
 
@@ -61,7 +64,9 @@ function isCorrectOption(option) {
 }
 
 /**
- * Click handler for each answer button.
+ * Click handler for each answer button. Wrong clicks accumulate in
+ * `wrongPicks` and do NOT end the question — the learner keeps trying
+ * until the correct option is found.
  *
  * @param {string} option
  */
@@ -75,15 +80,12 @@ function pick(option) {
     return;
   }
 
+  // Wrong pick — track it visually and notify the parent ONCE so it
+  // can count the error. Subsequent wrong picks just turn red.
   if (!wrongPicks.value.includes(option)) {
     wrongPicks.value = [...wrongPicks.value, option];
   }
-
-  if (hadWrong.value) {
-    finalised.value = true;
-    emit('answer', { isCorrect: false });
-    emit('complete');
-  } else {
+  if (!hadWrong.value) {
     hadWrong.value = true;
     emit('first-wrong');
   }

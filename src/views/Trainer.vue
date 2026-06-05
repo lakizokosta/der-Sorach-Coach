@@ -137,17 +137,27 @@ function ensureTimerStarted() {
 
 /**
  * Handles the (final) `answer` event from any question component.
- * Marks the head question as solved (or wrong → re-queued) on the
- * adaptive queue exactly once per question, regardless of whether
- * the user already saw the "first-wrong" retry banner.
+ *
+ * Two cases collapse into one:
+ *   - The MultipleChoice widget only fires `answer` after the learner
+ *     picks the CORRECT option. `payload.isCorrect` is true iff there
+ *     were no wrong clicks in between (i.e. `showRetry` is still false).
+ *   - The other widgets (MultiSelect / DragDrop / FillBlank) fire
+ *     `answer` exactly once at the end of the question.
+ *
+ * The score / queue are updated exactly once per question. If the
+ * learner already saw the first-wrong banner the answer is counted
+ * as wrong regardless of what `payload.isCorrect` says.
  *
  * @param {{isCorrect:boolean}} payload
  */
 function onAnswer(payload) {
   ensureTimerStarted();
+  const isCorrect = payload.isCorrect && !showRetry.value;
+
   if (!showRetry.value) {
     answered.value += 1;
-    if (payload.isCorrect) {
+    if (isCorrect) {
       correct.value += 1;
     } else {
       recordWrongTopic();
@@ -155,9 +165,9 @@ function onAnswer(payload) {
       if (!isPrem.value) refreshUpsell();
     }
   }
-  // Update the queue: correct removes the question, wrong re-queues it.
+
   if (queue.value) {
-    if (payload.isCorrect && !showRetry.value) queue.value.consumeCorrect();
+    if (isCorrect) queue.value.consumeCorrect();
     else queue.value.consumeWrong();
   }
   lastAnswerResolved.value = true;
@@ -165,9 +175,9 @@ function onAnswer(payload) {
 
 /**
  * Reacts to the MultipleChoice "first-wrong" intermediate event.
- * Counts the question as answered (wrong) and reveals the retry hint.
- * The queue is NOT mutated yet — that happens in `onAnswer` once the
- * learner makes their second pick.
+ * Records the wrong attempt (only once per question) and reveals the
+ * retry banner. The queue is NOT mutated — the question stays at the
+ * head until the learner finally picks the correct answer.
  */
 function onFirstWrong() {
   ensureTimerStarted();
@@ -306,11 +316,12 @@ const wrongTopicList = computed(() =>
  * Whether the Weiter button should be enabled. A question is "done"
  * after the active widget has emitted its final `answer` event — we
  * track that via `lastAnswerResolved`, which is reset on every `next()`.
+ *
+ * The `showRetry` banner can still be visible at this point (the user
+ * had a wrong click before getting the answer right); that does NOT
+ * block advancing.
  */
-const canAdvance = computed(() => {
-  if (showRetry.value) return false;
-  return lastAnswerResolved.value;
-});
+const canAdvance = computed(() => lastAnswerResolved.value);
 </script>
 
 <template>
