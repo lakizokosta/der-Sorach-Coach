@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && wrangler deploy"
   },
   "dependencies": {
     "vue": "^3.5.13",
@@ -15,7 +16,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.0.7"
+    "vite": "^6.0.7",
+    "wrangler": "^4.98.0"
   },
   "engines": {
     "node": ">=20.0.0"
