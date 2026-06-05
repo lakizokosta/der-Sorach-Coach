@@ -12,7 +12,7 @@
  *   /trainer?level=B2&topic=PASSIVB2&mode=premium
  */
 
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue';
+import { computed, onBeforeUnmount, onMounted, ref, shallowRef } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
@@ -43,8 +43,14 @@ const topic = ref(route.query.topic || '');
 const forcedPremium = route.query.mode === 'premium';
 const isPrem = computed(() => forcedPremium || isPremium.value);
 
-const queue = ref(null);                  // AdaptiveQueue instance
-const queueVersion = ref(0);              // bumped to force renderer remount
+// `shallowRef` so Vue's reactivity does NOT deeply proxy the queue's
+// internal array. Otherwise `consumeCorrect()` would mutate the inner
+// array, Vue would notice, `currentQuestion` would re-compute to the
+// new head, and the displayed question would jump on the same click —
+// the learner would never see the green colour. Advance is driven
+// explicitly by bumping `queueVersion` from `next()`.
+const queue = shallowRef(null);           // AdaptiveQueue instance (raw)
+const queueVersion = ref(0);              // bumped by next() to advance
 const answered = ref(0);
 const correct = ref(0);
 const finished = ref(false);
@@ -67,16 +73,24 @@ const wrongCount = computed(() => answered.value - correct.value);
 const scorePct = computed(() =>
   answered.value > 0 ? Math.round((correct.value / answered.value) * 100) : 0,
 );
-const progressPct = computed(() => (queue.value ? queue.value.progressPct : 0));
-// Re-read both `queueVersion` and the queue on every advance so the
-// renderer remounts with a fresh `currentQuestion` reference.
+// All queue-derived values depend on `queueVersion`, which is bumped
+// only by `next()`. That makes the displayed question / progress /
+// counter advance exactly when the learner clicks Weiter, never on
+// the answer click itself.
 const currentQuestion = computed(() => {
   // eslint-disable-next-line no-unused-expressions
   queueVersion.value;
   return queue.value ? queue.value.peek() : null;
 });
+const progressPct = computed(() => {
+  // eslint-disable-next-line no-unused-expressions
+  queueVersion.value;
+  return queue.value ? queue.value.progressPct : 0;
+});
 const totalQuestions = computed(() => (queue.value ? queue.value.total : 0));
 const questionNumber = computed(() => {
+  // eslint-disable-next-line no-unused-expressions
+  queueVersion.value;
   if (!queue.value) return 0;
   // 1-based: solved count + 1, but never past the total.
   return Math.min(queue.value.solvedCount + 1, queue.value.total);
