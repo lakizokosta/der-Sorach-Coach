@@ -26,8 +26,8 @@ const message = ref('');
 const hintVisible = ref(false);
 const inputRef = ref(null);
 
-const parts = (props.question.sentence || '').split('___');
-const acceptable = (props.question.correct || []).map((s) => s.toLowerCase());
+const parts = (props.question.prompt || '').split('___');
+const acceptable = (props.question.correct || []).map((s) => String(s).toLowerCase());
 
 const partLeftHtml = computed(() =>
   props.premium ? wrapWordsForDictionary(parts[0] || '') : escapeHtml(parts[0] || ''),

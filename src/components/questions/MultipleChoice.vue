@@ -1,21 +1,23 @@
 <script setup>
 /**
- * MultipleChoice — classic single-answer quiz buttons.
+ * MultipleChoice — single-answer radio question (`select-one`).
  *
  * Behaviour copied from the Blogger trainer:
- *   - The four answer options are shuffled on mount.
+ *   - The answer options are shuffled on mount.
  *   - The first click decides the answer (correct or wrong).
  *   - A wrong click counts as an error but the learner gets ONE second
- *     chance to also pick the correct option (which is then highlighted
- *     in green without affecting the score).
+ *     chance to pick the correct option (which is then highlighted in
+ *     green without affecting the score).
+ *
+ * Question shape (from `parseQuestionFile`):
+ *   { id, type:'select-one', prompt, options: string[], correct: string }
  *
  * Emits:
- *   - 'first-wrong' — fired exactly once when the learner picks an
- *      incorrect option on the first attempt. Lets the parent show the
- *      retry hint and a grammar tip without affecting the score twice.
- *   - 'answer' { isCorrect:boolean } — fired exactly once when the
- *      question is finally resolved.
- *   - 'complete' — fired together with 'answer'.
+ *   - 'first-wrong'              — fired once when the learner picks an
+ *     incorrect option on the first attempt.
+ *   - 'answer' { isCorrect }     — fired once when the question is
+ *     finally resolved.
+ *   - 'complete'                 — fired together with 'answer'.
  */
 
 import { computed, ref, onMounted } from 'vue';
@@ -34,31 +36,31 @@ const hadWrong = ref(false);
 const finalised = ref(false);
 
 onMounted(() => {
-  shuffled.value = shuffle(props.question.options || []);
+  shuffled.value = shuffle((props.question.options || []).slice());
 });
 
-const renderedTitle = computed(() =>
-  props.premium ? wrapWordsForDictionary(props.question.title) : props.question.title,
+const renderedPrompt = computed(() =>
+  props.premium
+    ? wrapWordsForDictionary(props.question.prompt || '')
+    : props.question.prompt || '',
 );
 
 /**
  * Click handler for each answer button.
  *
- * @param {{text:string, correct:boolean}} option
- * @param {number} index
+ * @param {string} option
  */
-function pick(option, index) {
+function pick(option) {
   if (finalised.value) return;
+  const isCorrect = option === props.question.correct;
 
-  if (option.correct) {
+  if (isCorrect) {
     finalised.value = true;
-    // If a wrong click already happened, the answer counts as wrong.
     emit('answer', { isCorrect: !hadWrong.value });
     emit('complete');
     return;
   }
 
-  // Wrong pick.
   if (hadWrong.value) {
     finalised.value = true;
     emit('answer', { isCorrect: false });
@@ -70,42 +72,36 @@ function pick(option, index) {
 }
 
 /**
- * CSS class helper for a given option index.
+ * CSS class helper used to colour the buttons after the answer is
+ * resolved (or after a first wrong click).
  *
- * @param {number} index
+ * @param {string} option
  * @return {!Object<string, boolean>}
  */
-function classFor(index) {
-  if (!finalised.value && !hadWrong.value) return {};
-  const opt = shuffled.value[index];
-  if (!opt) return {};
-  if (finalised.value) {
-    return { correct: opt.correct, wrong: !opt.correct };
-  }
-  // Only a wrong pick has happened so far: just mark wrong picks.
-  return {};
+function classFor(option) {
+  if (!finalised.value) return {};
+  return {
+    correct: option === props.question.correct,
+    wrong: option !== props.question.correct,
+  };
 }
 </script>
 
 <template>
   <div>
-    <div class="question-box" v-html="renderedTitle" />
-
-    <div v-if="hadWrong && !finalised" class="retry-hint">
-      ❌ Falsch! Wähle jetzt die richtige Antwort.
-    </div>
+    <div class="question-box" v-html="renderedPrompt" />
 
     <div class="answers-box">
       <button
         v-for="(opt, i) in shuffled"
-        :key="opt.text + i"
+        :key="opt + '-' + i"
         type="button"
         class="answer-btn"
-        :class="classFor(i)"
+        :class="classFor(opt)"
         :disabled="finalised"
-        @click="pick(opt, i)"
+        @click="pick(opt)"
       >
-        {{ opt.text }}
+        {{ opt }}
       </button>
     </div>
   </div>

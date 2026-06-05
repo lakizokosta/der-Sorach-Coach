@@ -25,9 +25,9 @@ import { useXp, getLevel } from '@/composables/useXp.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { useTimer, formatMmSs } from '@/composables/useTimer.js';
 
-import { getQuestionsByLevel, getQuestionsByTopic } from '@/data/sampleQuestions.js';
+import { getQuestionsByLevel, getQuestionsByTopic } from '@/data/questions.js';
 import { PREMIUM_TOPICS } from '@/data/premiumTopics.js';
-import { buildVariedQueue } from '@/utils/random.js';
+import { AdaptiveQueue } from '@/utils/queue.js';
 
 const FREE_SECONDS_PER_DAY = 300;
 const FREE_SESSION_KEY = 'lzd_free_start_ms';
@@ -43,16 +43,17 @@ const topic = ref(route.query.topic || '');
 const forcedPremium = route.query.mode === 'premium';
 const isPrem = computed(() => forcedPremium || isPremium.value);
 
-const queue = ref([]);
-const idx = ref(0);
+const queue = ref(null);                  // AdaptiveQueue instance
+const queueVersion = ref(0);              // bumped to force renderer remount
 const answered = ref(0);
 const correct = ref(0);
 const finished = ref(false);
 const showRetry = ref(false);
 const dictTarget = ref(null);
 const showGrammarTip = ref(false);
-const wrongTopics = ref({});      // key -> { name, level, count }
+const wrongTopics = ref({});              // key -> { name, level, count }
 const upsellHtml = ref('');
+const lastAnswerResolved = ref(false);    // is the head question fully resolved?
 
 const timer = useTimer(
   isPrem.value || isBasis.value
@@ -66,18 +67,28 @@ const wrongCount = computed(() => answered.value - correct.value);
 const scorePct = computed(() =>
   answered.value > 0 ? Math.round((correct.value / answered.value) * 100) : 0,
 );
-const progressPct = computed(() =>
-  queue.value.length ? Math.round((idx.value / queue.value.length) * 100) : 0,
-);
-const currentQuestion = computed(() => queue.value[idx.value] || null);
+const progressPct = computed(() => (queue.value ? queue.value.progressPct : 0));
+// Re-read both `queueVersion` and the queue on every advance so the
+// renderer remounts with a fresh `currentQuestion` reference.
+const currentQuestion = computed(() => {
+  // eslint-disable-next-line no-unused-expressions
+  queueVersion.value;
+  return queue.value ? queue.value.peek() : null;
+});
+const totalQuestions = computed(() => (queue.value ? queue.value.total : 0));
+const questionNumber = computed(() => {
+  if (!queue.value) return 0;
+  // 1-based: solved count + 1, but never past the total.
+  return Math.min(queue.value.solvedCount + 1, queue.value.total);
+});
 
 /** Loads the queue, restores any free-session timer, kicks things off. */
 onMounted(() => {
   const all = topic.value
     ? getQuestionsByTopic(level.value, topic.value)
     : getQuestionsByLevel(level.value);
-  queue.value = buildVariedQueue(all);
-  if (queue.value.length === 0) {
+  queue.value = new AdaptiveQueue(all);
+  if (!queue.value.hasNext()) {
     finished.value = true;
     return;
   }
@@ -126,13 +137,14 @@ function ensureTimerStarted() {
 
 /**
  * Handles the (final) `answer` event from any question component.
+ * Marks the head question as solved (or wrong → re-queued) on the
+ * adaptive queue exactly once per question, regardless of whether
+ * the user already saw the "first-wrong" retry banner.
  *
  * @param {{isCorrect:boolean}} payload
  */
 function onAnswer(payload) {
   ensureTimerStarted();
-  // If the MultipleChoice already fired 'first-wrong', we have already
-  // counted this question as answered; skip double-counting.
   if (!showRetry.value) {
     answered.value += 1;
     if (payload.isCorrect) {
@@ -143,11 +155,19 @@ function onAnswer(payload) {
       if (!isPrem.value) refreshUpsell();
     }
   }
+  // Update the queue: correct removes the question, wrong re-queues it.
+  if (queue.value) {
+    if (payload.isCorrect && !showRetry.value) queue.value.consumeCorrect();
+    else queue.value.consumeWrong();
+  }
+  lastAnswerResolved.value = true;
 }
 
 /**
  * Reacts to the MultipleChoice "first-wrong" intermediate event.
  * Counts the question as answered (wrong) and reveals the retry hint.
+ * The queue is NOT mutated yet — that happens in `onAnswer` once the
+ * learner makes their second pick.
  */
 function onFirstWrong() {
   ensureTimerStarted();
@@ -170,12 +190,13 @@ function onComplete() {
  * post-session "Themen mit Fehlern" panel.
  */
 function recordWrongTopic() {
-  if (!currentQuestion.value) return;
-  const key = currentQuestion.value.topic || topic.value;
+  const q = currentQuestion.value;
+  if (!q) return;
+  const key = q.topic || topic.value;
   if (!key) return;
   const upper = String(key).toUpperCase();
   let displayName = upper;
-  let topicLevel = currentQuestion.value.level || level.value;
+  let topicLevel = q.level || level.value;
   // Lookup a friendly name from PREMIUM_TOPICS.
   for (const lvl of ['A1', 'A2', 'B1', 'B2']) {
     const found = (PREMIUM_TOPICS[lvl] || []).find(
@@ -209,8 +230,9 @@ function next() {
   showRetry.value = false;
   showGrammarTip.value = false;
   upsellHtml.value = '';
-  idx.value += 1;
-  if (idx.value >= queue.value.length) {
+  lastAnswerResolved.value = false;
+  queueVersion.value += 1;
+  if (!queue.value || !queue.value.hasNext()) {
     finish('Fragen zu Ende');
   }
 }
@@ -281,17 +303,13 @@ const wrongTopicList = computed(() =>
 );
 
 /**
- * Whether the Weiter button should be enabled.
- *
- * Drag/Drop, FillBlank, Lesen, Sprach — these all emit `complete`
- * when fully resolved, so we can rely on `!showRetry && answered > idx`.
+ * Whether the Weiter button should be enabled. A question is "done"
+ * after the active widget has emitted its final `answer` event — we
+ * track that via `lastAnswerResolved`, which is reset on every `next()`.
  */
 const canAdvance = computed(() => {
   if (showRetry.value) return false;
-  // The MC component finalises on its own; the others always finalise.
-  // We deduce "this question is done" by checking that the answered
-  // counter has caught up with the current index + 1.
-  return answered.value >= idx.value + 1;
+  return lastAnswerResolved.value;
 });
 </script>
 
@@ -546,7 +564,7 @@ const canAdvance = computed(() => {
     </div>
 
     <h2 style="margin: 6px 0 12px 0;">
-      Frage {{ Math.min(answered + (showRetry ? 0 : 1), queue.length) }} von {{ queue.length }}
+      Frage {{ questionNumber }} von {{ totalQuestions }}
     </h2>
 
     <QuestionRenderer

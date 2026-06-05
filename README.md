@@ -105,12 +105,11 @@ der-Sorach-Coach/
     │   ├── GrammarTip.vue
     │   ├── DictionaryPopup.vue
     │   └── questions/
-    │       ├── QuestionRenderer.vue   # dispatcher
-    │       ├── MultipleChoice.vue     # type: 'mc'
-    │       ├── DragDrop.vue           # type: 'sort'
-    │       ├── FillBlank.vue          # type: 'fill'
-    │       ├── LesenMC.vue            # type: 'lesen'
-    │       └── Sprachbausteine.vue    # type: 'sprachbausteine'
+    │       ├── QuestionRenderer.vue   # dispatcher (4 types)
+    │       ├── MultipleChoice.vue     # type: 'select-one'
+    │       ├── MultiSelect.vue        # type: 'multi-select'
+    │       ├── DragDrop.vue           # type: 'dropbox'
+    │       └── FillBlank.vue          # type: 'input-text'
     ├── composables/
     │   ├── useStorage.js   # safe localStorage wrapper
     │   ├── useStreak.js    # daily streak + freezes + medals
@@ -123,15 +122,25 @@ der-Sorach-Coach/
     │   ├── grammarHints.js   # DE / RU / EN explanations
     │   ├── premiumTopics.js  # A1–B2 topic catalogue
     │   ├── stopwords.js      # words that should NOT trigger the dictionary
-    │   └── sampleQuestions.js # bundled question bank for all 5 types
+    │   └── questions.js      # build-time Markdown question loader
     ├── utils/
-    │   ├── api.js            # Apps Script HTTP client
-    │   ├── deviceId.js       # canvas fingerprint + sticky device ID
-    │   ├── random.js         # shuffle + varied-queue builder
-    │   ├── dictionary.js     # MyMemory lookup + word wrapping
-    │   └── shareCard.js      # Canvas → PNG → Web Share / download
+    │   ├── api.js               # Apps Script HTTP client
+    │   ├── deviceId.js          # canvas fingerprint + sticky device ID
+    │   ├── random.js            # Fisher-Yates shuffle
+    │   ├── queue.js             # AdaptiveQueue (repeat-on-wrong)
+    │   ├── markdownQuestion.js  # frontmatter parser for question MDs
+    │   ├── dictionary.js        # MyMemory lookup + word wrapping
+    │   └── shareCard.js         # Canvas → PNG → Web Share / download
+    ├── questions/                  # ★ the question bank lives here ★
+    │   ├── A1/<TOPIC>/<slug>.md
+    │   ├── A2/<TOPIC>/<slug>.md
+    │   ├── B1/<TOPIC>/<slug>.md
+    │   └── B2/<TOPIC>/<slug>.md
     └── styles/
         └── main.css
+
+scripts/
+└── verify-questions.mjs   # lint every .md through the parser (CI-friendly)
 ```
 
 ---
@@ -180,69 +189,148 @@ A topic is considered "mastered" after **50 correct answers** on it
 
 ---
 
-## Question types
+## Question bank — Markdown on disk
 
-Every question is a plain JavaScript object. The shared shape is:
+All questions live as small Markdown files under
+`src/questions/<LEVEL>/<TOPIC>/<slug>.md`. Vite scans the folder at
+**build time** via `import.meta.glob`, parses every file through the
+tiny frontmatter parser in `src/utils/markdownQuestion.js` and ships the
+result inside the production bundle. There is no runtime fetch and no
+server round-trip — adding a question is purely a file-system change.
 
-```js
-{
-  id: 'a1-mc-1',
-  type: 'mc' | 'sort' | 'fill' | 'lesen' | 'sprachbausteine',
-  level: 'A1',
-  topic: 'artikel',        // optional, used for topic-focused training
-  prompt: '…',             // markdown-free plain text shown above the choices
-  // type-specific fields below…
-}
+### Folder layout
+
+```
+src/questions/
+├── A1/
+│   ├── ARTIKEL/
+│   │   ├── a1-art-1.md
+│   │   └── a1-art-2.md
+│   ├── AKKUSATIVA1/
+│   ├── DATIVA1/
+│   ├── PLURAL/
+│   └── …
+├── A2/
+├── B1/
+└── B2/
 ```
 
-### `mc` — Multiple choice
+- The **level** comes from the first folder (must be `A1`, `A2`, `B1`,
+  or `B2`).
+- The **topic key** comes from the second folder (uppercase, matches
+  the `key` field in `src/data/premiumTopics.js`).
+- The file name is purely human-readable — the canonical id lives in
+  the frontmatter.
 
-```js
-{ type: 'mc', prompt: '___ ist mein Buch.', options: ['Der', 'Die', 'Das'], answer: 'Das' }
+### File format
+
+Each `.md` file is a YAML frontmatter block followed by the question
+prompt (free-form text). Four `type` values are supported and they map
+1:1 to the four components in `src/components/questions/`:
+
+| `type:`        | UI                | Required frontmatter            |
+| -------------- | ----------------- | ------------------------------- |
+| `select-one`   | radio buttons     | `options:` (≥2), `correct:` (string) |
+| `multi-select` | checkboxes        | `options:` (≥2), `correct:` (string OR list) |
+| `dropbox`      | drag-and-drop     | `words:` (≥2). Optional `codes:` for TeKaMoLo |
+| `input-text`   | typed answer      | `correct:` (string OR list of accepted strings) |
+
+`hint` is optional on every type — when present it powers the 💡 button
+on `input-text` and the post-answer banner on the others.
+
+#### `select-one`
+
+```markdown
+---
+id: a1-art-1
+type: select-one
+options:
+  - Der
+  - Die
+  - Das
+  - Den
+correct: Der
+---
+
+___ Tisch ist neu.
 ```
 
-The component shuffles `options`, lets the user pick, and emits
-`first-wrong` on a first incorrect choice (so the user gets a hint and a
-second chance) and `answer` once the question is fully resolved.
+#### `multi-select`
 
-### `sort` — Drag & drop ordering
+```markdown
+---
+id: a2-modal-multi-1
+type: multi-select
+options:
+  - können
+  - müssen
+  - laufen
+  - dürfen
+correct:
+  - können
+  - müssen
+  - dürfen
+hint: Modalverben drücken eine Modalität aus.
+---
 
-```js
-{ type: 'sort', prompt: 'Ich · gehe · ins · Kino', words: [...], correctOrder: [0,1,2,3] }
+Welche der folgenden Verben sind Modalverben?
 ```
 
-### `fill` — Lückentext
+#### `dropbox` (drag & drop)
 
-```js
-{ type: 'fill', prompt: 'Ich ___ (gehen) nach Hause.', answer: 'gehe', alternatives: ['gehe'] }
+```markdown
+---
+id: a1-sort-1
+type: dropbox
+words:
+  - Heute
+  - gehe
+  - ich
+  - ins
+  - Kino
+---
+
+Ordne die Wörter zum richtigen Satz:
 ```
 
-Comes with a virtual German keyboard for `ä ö ü ß`, plus
-case-insensitive matching against `answer` + `alternatives`.
+#### `input-text` (Lückentext)
 
-### `lesen` — Reading comprehension
+```markdown
+---
+id: a2-fill-1
+type: input-text
+correct:
+  - habe
+  - hatte
+hint: Perfekt mit haben — ich-Form.
+---
 
-```js
-{ type: 'lesen', text: '…', questions: [ { q: '…', options: [...], answer: '…' } ] }
+Als Kind ___ ich oft im Park gespielt. (haben)
 ```
 
-### `sprachbausteine` — Inline dropdowns
+### Randomization, topic gating, repeat-on-wrong
 
-```js
-{
-  type: 'sprachbausteine',
-  parts: [
-    { text: 'Ich ' },
-    { gap: true, options: ['gehe','geht','gehst'], answer: 'gehe' },
-    { text: ' nach Hause.' },
-  ],
-}
-```
+- **Randomization** — `AdaptiveQueue` shuffles the question pool once
+  per session with Fisher–Yates (`src/utils/random.js`).
+- **Repeat-on-wrong** — when the learner answers a question incorrectly
+  the queue re-inserts it 2–5 positions deeper so it pops up again
+  before the session ends. A question is dropped after 3 wrong attempts
+  to avoid an endless loop.
+- **Topic gating for Premium** — free users get the entire level pool;
+  Premium users can target a specific topic via
+  `?level=…&topic=<TOPIC>&mode=premium`. The Trainer reads both fields
+  and asks the loader for either `getQuestionsByLevel` or
+  `getQuestionsByTopic`.
 
-A bundled question set covers all five types for every CEFR level — see
-`src/data/sampleQuestions.js`. Drop new questions into the same file
-(or fetch them from an API and feed the same shape into `Trainer.vue`)
-and the trainer picks them up automatically.
+### Adding a question
+
+1. Pick the right level + topic folder (create the topic folder if it
+   does not exist yet — match the `key` from `premiumTopics.js`).
+2. Drop a new `.md` file in that folder. Use any slug for the filename.
+3. Save. The Vite dev server picks it up via HMR; production builds
+   pick it up via the next `npm run build`.
+4. Optionally run `npm run questions:verify` to lint every file through
+   the parser (great for CI).
 
 ---
 
@@ -454,11 +542,13 @@ No images leave the device unless the OS share sheet does so.
 
 ## Scripts
 
-| Command           | What it does                                  |
-| ----------------- | --------------------------------------------- |
-| `npm run dev`     | Vite dev server with HMR on `:5173`.          |
-| `npm run build`   | Production build → `dist/`.                   |
-| `npm run preview` | Serve the production build locally.           |
+| Command                    | What it does                                  |
+| -------------------------- | --------------------------------------------- |
+| `npm run dev`              | Vite dev server with HMR on `:5173`.          |
+| `npm run build`            | Production build → `dist/`.                   |
+| `npm run preview`          | Serve the production build locally.           |
+| `npm run deploy`           | `vite build && wrangler deploy` (Cloudflare). |
+| `npm run questions:verify` | Lint every `src/questions/**/*.md` through the parser. |
 
 ---
 

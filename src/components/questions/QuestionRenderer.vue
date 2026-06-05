@@ -1,11 +1,19 @@
 <script setup>
 /**
  * QuestionRenderer — dispatches the right `<component>` based on the
- * `question.type` discriminator. Keeping the dispatch in one place lets
- * the Trainer view stay generic.
+ * `question.type` discriminator. Keeping the dispatch in one place
+ * lets the Trainer view stay generic.
  *
- * The component re-emits the `answer` and `complete` events that the
- * inner question components fire, so the parent can stay loosely coupled.
+ * The four supported types map 1:1 to the Markdown question format
+ * declared in `src/utils/markdownQuestion.js`:
+ *
+ *   select-one     → MultipleChoice
+ *   multi-select   → MultiSelect
+ *   dropbox        → DragDrop
+ *   input-text     → FillBlank
+ *
+ * The component re-emits `answer`, `first-wrong` and `complete` events
+ * so the parent stays loosely coupled to the actual widget.
  *
  * @prop {!Object}  question  The active question object.
  * @prop {boolean}  premium   Whether the learner has Premium active.
@@ -14,10 +22,9 @@
 import { computed } from 'vue';
 
 import MultipleChoice from './MultipleChoice.vue';
+import MultiSelect from './MultiSelect.vue';
 import DragDrop from './DragDrop.vue';
 import FillBlank from './FillBlank.vue';
-import LesenMC from './LesenMC.vue';
-import Sprachbausteine from './Sprachbausteine.vue';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -26,15 +33,16 @@ const props = defineProps({
 
 defineEmits(['answer', 'first-wrong', 'complete']);
 
-const componentByType = {
-  mc: MultipleChoice,
-  sort: DragDrop,
-  fill: FillBlank,
-  lesen: LesenMC,
-  sprach: Sprachbausteine,
+const COMPONENT_BY_TYPE = {
+  'select-one': MultipleChoice,
+  'multi-select': MultiSelect,
+  'dropbox': DragDrop,
+  'input-text': FillBlank,
 };
 
-const view = computed(() => componentByType[props.question.type] || MultipleChoice);
+const view = computed(
+  () => COMPONENT_BY_TYPE[props.question.type] || MultipleChoice,
+);
 </script>
 
 <template>

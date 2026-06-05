@@ -21,7 +21,7 @@ import { useRoute, useRouter } from 'vue-router';
 import LzdLogo from '@/components/LzdLogo.vue';
 
 import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
-import { getQuestionsByTopic } from '@/data/sampleQuestions.js';
+import { getQuestionsByTopic } from '@/data/questions.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp, getLevel } from '@/composables/useXp.js';

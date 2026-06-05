@@ -144,7 +144,9 @@ const chipClass = computed(() => (word) => {
 
 <template>
   <div>
-    <div class="question-box">Ordne die Wörter zum richtigen Satz:</div>
+    <div class="question-box">
+      {{ question.prompt || 'Ordne die Wörter zum richtigen Satz:' }}
+    </div>
 
     <div class="dd-drop">
       <span v-if="drop.length === 0" class="dd-placeholder">Tippe auf Wörter ↓</span>
