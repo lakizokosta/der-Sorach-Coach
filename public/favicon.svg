@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <circle cx="200" cy="200" r="185" fill="#AB4DBB"/>
+  <polygon points="80,112 100,135 90,135 90,268 145,268 145,290 70,290 70,135 60,135" fill="white"/>
+  <path d="M 157,115 H 232 V 135 L 179,270 H 232 V 290 H 157 V 270 L 210,135 H 157 Z" fill="white"/>
+  <path d="M 244,115 H 268 A 62,87.5,0,0,1,268,290 H 244 Z M 280,140 A 32,62,0,0,1,280,265 Z" fill="white" fill-rule="evenodd"/>
+</svg>
