@@ -2,42 +2,84 @@
 /**
  * ContactModal — a simple contact form rendered inside a modal overlay.
  *
- * In the original trainer this posted to a Google Apps Script endpoint.
- * In this rebuild the form runs in "demo mode": it validates inputs,
- * displays a confirmation message, and resets the form. Hook it into a
- * real backend by replacing the body of `submit()`.
+ * Submits to the Apps Script `sendContactForm` endpoint when a
+ * backend URL is configured (see `src/data/payment.js`). With no
+ * backend configured, the form falls back to a local confirmation so
+ * the SPA stays usable offline.
  *
  * Emits:
  *   - 'close' — when the user clicks the × button or the backdrop.
  */
 
 import { ref } from 'vue';
+import { hasBackend, sendContactForm } from '@/utils/api.js';
+import { usePremium } from '@/composables/usePremium.js';
+import { loadString, saveString } from '@/composables/useStorage.js';
 
 const emit = defineEmits(['close']);
 
+const { isPremium } = usePremium();
+
+const USER_EMAIL_KEY = 'userEmail';
 const name = ref('');
-const email = ref('');
+const email = ref(loadString(USER_EMAIL_KEY) || '');
 const message = ref('');
 const status = ref({ text: '', color: '#888' });
+const submitting = ref(false);
 
-/** Validates the form and shows a fake success notification (demo mode). */
-function submit() {
+/**
+ * Validates the form and submits it. When `SCRIPT_URL` is set, the
+ * payload is POSTed to the Apps Script; otherwise a local "demo"
+ * confirmation is shown.
+ */
+async function submit() {
+  if (submitting.value) return;
   if (!message.value.trim()) {
     status.value = { text: 'Bitte gib eine Nachricht ein.', color: '#ed4545' };
     return;
   }
-  status.value = { text: 'Wird gesendet...', color: '#888' };
-  // Demo mode: pretend the request succeeded after a short delay.
-  setTimeout(() => {
-    status.value = { text: '✔ Nachricht gesendet (Demo)!', color: '#69c43b' };
+  submitting.value = true;
+  status.value = { text: 'Wird gesendet…', color: '#888' };
+  const trimmedEmail = email.value.trim();
+  if (trimmedEmail) saveString(USER_EMAIL_KEY, trimmedEmail);
+
+  if (!hasBackend()) {
     setTimeout(() => {
-      name.value = '';
-      email.value = '';
-      message.value = '';
-      status.value = { text: '', color: '#888' };
-      emit('close');
-    }, 1500);
-  }, 600);
+      status.value = { text: '✔ Nachricht gesendet (Demo).', color: '#69c43b' };
+      finishAndClose();
+    }, 600);
+    return;
+  }
+
+  const res = await sendContactForm({
+    name: name.value.trim(),
+    email: trimmedEmail,
+    message: message.value.trim(),
+    isPremium: !!isPremium.value,
+    page: typeof location !== 'undefined' ? location.href : '',
+  });
+  submitting.value = false;
+
+  if (res && res.ok) {
+    status.value = { text: '✔ Nachricht gesendet. Danke!', color: '#69c43b' };
+    finishAndClose();
+  } else {
+    status.value = {
+      text: `✖ ${(res && res.error) || 'Senden fehlgeschlagen.'}`,
+      color: '#ed4545',
+    };
+  }
+}
+
+/** Clears the form and closes the modal after a short delay. */
+function finishAndClose() {
+  submitting.value = false;
+  setTimeout(() => {
+    name.value = '';
+    message.value = '';
+    status.value = { text: '', color: '#888' };
+    emit('close');
+  }, 1500);
 }
 
 /** Closes the modal when the click target is the backdrop itself. */
@@ -80,6 +122,7 @@ function backdropClick(event) {
 
       <button
         type="button"
+        :disabled="submitting"
         @click="submit"
         style="
           width: 100%;
@@ -92,8 +135,9 @@ function backdropClick(event) {
           font-size: 16px;
           cursor: pointer;
         "
+        :style="submitting ? 'opacity: 0.6; cursor: progress;' : ''"
       >
-        Nachricht senden
+        {{ submitting ? 'Wird gesendet…' : 'Nachricht senden' }}
       </button>
 
       <div
@@ -109,8 +153,7 @@ function backdropClick(event) {
       </div>
 
       <p style="font-size: 11px; color: #999; margin-top: 16px; text-align: center;">
-        Wir antworten in der Regel innerhalb von 24 Stunden. (Demo-Modus —
-        keine echten Nachrichten werden versendet.)
+        Wir antworten in der Regel innerhalb von 24 Stunden.
       </p>
     </div>
   </div>

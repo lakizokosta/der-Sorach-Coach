@@ -31,7 +31,7 @@ The rebuild deliberately follows the **KISS principle**:
 6. [Data model & persistence](#data-model--persistence)
 7. [Composables](#composables)
 8. [Routing](#routing)
-9. [Premium activation (demo)](#premium-activation-demo)
+9. [Payments (Stripe + PayPal)](#payments-stripe--paypal)
 10. [Sharing & dictionary](#sharing--dictionary)
 11. [Coding conventions](#coding-conventions)
 12. [Scripts](#scripts)
@@ -100,7 +100,8 @@ der-Sorach-Coach/
     │   └── Profile.vue     # XP / streak / mastery dashboard + share card
     ├── components/
     │   ├── LzdLogo.vue
-    │   ├── ContactModal.vue
+    │   ├── ContactModal.vue        # POSTs to sendContactForm endpoint
+    │   ├── BootstrapHandler.vue    # ?stripe_success / ?activate / ?mltoken
     │   ├── GrammarTip.vue
     │   ├── DictionaryPopup.vue
     │   └── questions/
@@ -114,14 +115,18 @@ der-Sorach-Coach/
     │   ├── useStorage.js   # safe localStorage wrapper
     │   ├── useStreak.js    # daily streak + freezes + medals
     │   ├── useXp.js        # XP, level, per-topic mastery
-    │   ├── usePremium.js   # Premium / Basis status + demo activation
+    │   ├── usePremium.js   # async activateCode + revalidateOnLoad
+    │   ├── useAuth.js      # 7-day Magic-Link user session
     │   └── useTimer.js     # count-up / count-down timer
     ├── data/
+    │   ├── payment.js        # SCRIPT_URL + Stripe / PayPal config
     │   ├── grammarHints.js   # DE / RU / EN explanations
     │   ├── premiumTopics.js  # A1–B2 topic catalogue
     │   ├── stopwords.js      # words that should NOT trigger the dictionary
     │   └── sampleQuestions.js # bundled question bank for all 5 types
     ├── utils/
+    │   ├── api.js            # Apps Script HTTP client
+    │   ├── deviceId.js       # canvas fingerprint + sticky device ID
     │   ├── random.js         # shuffle + varied-queue builder
     │   ├── dictionary.js     # MyMemory lookup + word wrapping
     │   └── shareCard.js      # Canvas → PNG → Web Share / download
@@ -297,22 +302,111 @@ Unknown routes redirect to `landing`.
 
 ---
 
-## Premium activation (demo)
+## Payments (Stripe + PayPal)
 
-The original page integrates Stripe + PayPal via a Google Apps Script
-backend. The rebuild ships a **demo activator** so the project is
-self-contained.
+The Premium screen embeds the same checkout flow as the original:
+**Stripe-hosted Payment Links** (primary) plus a **PayPal.me fallback**.
+No SDKs and no card data ever touch the SPA — both buttons just open
+the provider's hosted checkout in a new tab.
 
-In `src/composables/usePremium.js`:
+After a successful Stripe payment the user is redirected back to the
+site with `?stripe_success=1`. `BootstrapHandler.vue` (mounted in
+`App.vue`) picks this up, shows the green confirmation banner, strips
+the query parameter from the URL and navigates the user to `/premium`
+so they can paste in the activation code they received by e-mail.
 
-- Codes starting with `PREMIUM_` unlock the Premium tier.
-- Codes starting with `BASIS_` unlock the (cheaper) Basis tier.
-- Any other code is rejected with a friendly error.
-- No network calls are ever made.
+### Architecture (client ↔ Apps Script)
 
-For a real deployment, replace `activateCode()` with a `fetch()` to your
-billing backend — the rest of the app already reacts to `isPremium` and
-`isBasis` everywhere.
+```
+[user] ─ pays at hosted checkout ─► Stripe / PayPal
+                                         │ webhook / IPN
+                                         ▼
+                            ┌─────────────────────────┐
+                            │ Google Apps Script       │  ← src/data/payment.js · SCRIPT_URL
+                            │ (payments backend)        │
+                            │  • generates code         │
+                            │  • emails code to buyer   │
+                            │  • validateCode endpoint  │
+                            │  • magic-link login       │
+                            │  • trial-code endpoint    │
+                            └────────────┬─────────────┘
+                                         │ fetch (GET / POST)
+                                         ▼
+                              [Vue 3 SPA in browser]
+                                src/utils/api.js
+```
+
+The backend lives outside this repo as a **Google Apps Script Web
+App**. The full source was kept in git history (see `payments-old.js`)
+— deploy it once and put the resulting `https://script.google.com/macros/s/.../exec`
+URL in `src/data/payment.js → SCRIPT_URL`.
+
+When `SCRIPT_URL` is empty the SPA falls back to a **local demo
+activator** (`PREMIUM_*` / `BASIS_*` prefix codes) so everything
+remains usable offline.
+
+### Configuring the checkout URLs
+
+All URLs live in **one place** — `src/data/payment.js`:
+
+```js
+export const SCRIPT_URL =
+  'https://script.google.com/macros/s/AKfycbw0oS.../exec';
+export const STRIPE_LINKS = {
+  '1month':   'https://buy.stripe.com/00w7sF80EaP70ih8PsbII00',
+  '3months':  'https://buy.stripe.com/bJedR35SwaP76GFaXAbII01',
+  '12months': 'https://buy.stripe.com/eVq9ANdkYe1j2qp1n0bII02',
+};
+export const STRIPE_BASIS_LINK = 'https://buy.stripe.com/6oUfZbft60ate973v8bII03';
+export const PAYPAL_HANDLE  = 'lehrermann';
+export const PAYPAL_AMOUNTS = { '1month': '19EUR', '3months': '49EUR', '12months': '99EUR' };
+```
+
+For **production** you need to:
+
+1. In the **Stripe Dashboard → Payment Links → Create link**, create one
+   live (non-test) link per plan and replace the four `https://buy.stripe.com/...`
+   URLs above.
+2. On each Stripe link, set the **success URL** to
+   `https://your-domain/?stripe_success=1` (the param name is
+   configurable via `STRIPE_SUCCESS_PARAM`).
+3. In the Stripe Dashboard add a **webhook** that POSTs
+   `checkout.session.completed` events to the `SCRIPT_URL`. The Apps
+   Script generates an activation code and e-mails it to the buyer.
+4. Replace `PAYPAL_HANDLE` with your own paypal.me handle (and adjust
+   `PAYPAL_AMOUNTS` if you change the prices).
+5. Configure PayPal **IPN** to also POST to `SCRIPT_URL`. Same
+   behaviour as Stripe: code generated server-side, mailed to payer.
+
+### Activation flows the SPA supports
+
+| Flow                | URL / UI entry                  | What happens client-side                                   |
+| ------------------- | ------------------------------- | ---------------------------------------------------------- |
+| Paste code          | Premium → "🔑 Aktivierungscode" | `validateCode` against `SCRIPT_URL`. Server returns expiry + 2-hour HMAC session token. |
+| One-click deep-link | `…/?activate=<CODE>` (in e-mail)| Stashed in `sessionStorage`; consumed after Magic-Link login finishes. |
+| Magic-Link login    | Premium → "✉️ Anmelden mit Email" | `requestMagicLink` POST → user receives `…?mltoken=<TOKEN>` → `validateMagicToken` GET on next load → 7-day session. |
+| Free 1-day trial    | Premium → "🎁 1 Tag gratis testen" | `requestTrial` POST → backend e-mails a `TEST1-*` code → user pastes it back in. |
+| Stripe redirect     | `…/?stripe_success=1`           | Green banner + auto-nav to `/premium`. |
+
+### Demo activator (no backend)
+
+When `SCRIPT_URL` is empty:
+
+- Codes starting with `PREMIUM_` unlock the Premium tier (e.g. `PREMIUM_DEMO`).
+- Codes starting with `BASIS_` unlock the Basis tier (e.g. `BASIS_TEST`).
+- The Magic-Link / trial / contact endpoints are hidden.
+
+### Backend API surface (Apps Script)
+
+| Call                        | HTTP                                       | Returns                                                                     |
+| --------------------------- | ------------------------------------------ | --------------------------------------------------------------------------- |
+| `validateCode`              | `GET ?action=validateCode&code=…&email=…&deviceId=…` | `{ok, expires, sessionToken, sessionExpires}` or `{ok:false, error}` |
+| `validateMagicToken`        | `GET ?action=validateMagicToken&token=…&deviceId=…`  | `{ok, email, sessionToken, sessionExpires, isPremium, premiumExpires}`        |
+| `requestMagicLink`          | `POST {requestMagicLink, email, deviceId}` | `{ok, message}` (rate-limit: 3 per 10 min per e-mail)                        |
+| `requestTrial`              | `POST {requestTrial, email, deviceId}`     | `{ok}` (one per (email, device); emails a `TEST1-*` code)                     |
+| `sendContactForm`           | `POST {contactForm, name, email, message, isPremium, page}` | `{ok}`                                          |
+| Stripe webhook              | `POST {type:'checkout.session.completed', data:{...}}`      | `'ok'` (writes Codes sheet + e-mails buyer)     |
+| PayPal IPN                  | `POST` (form-encoded)                       | `''` (validates with `ipnpb.paypal.com`, then writes Codes sheet)            |
 
 ---
 

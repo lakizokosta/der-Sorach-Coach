@@ -6,11 +6,14 @@
 
 import { ref } from 'vue';
 import ContactModal from '@/components/ContactModal.vue';
+import BootstrapHandler from '@/components/BootstrapHandler.vue';
 
 const showContact = ref(false);
 </script>
 
 <template>
+  <BootstrapHandler />
+
   <router-view />
 
   <button
