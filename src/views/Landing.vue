@@ -52,10 +52,15 @@ function openProfile() {
   router.push({ name: 'profile' });
 }
 
-/** Demo handler for the "Basis" upsell button. */
+/**
+ * Demo handler for the "Basis" upsell button.
+ *
+ * Navigates to the Premium screen with a `focus=basis` hint so the
+ * activation form pre-emphasises the BASIS code flow instead of using
+ * a jarring native browser alert.
+ */
 function payBasis() {
-  alert('Demo-Modus: aktiviere einen Code, der mit BASIS... beginnt, um das Zeitlimit aufzuheben.');
-  router.push({ name: 'premium' });
+  router.push({ name: 'premium', query: { focus: 'basis' } });
 }
 </script>
 

@@ -14,7 +14,7 @@
  */
 
 import { computed, ref } from 'vue';
-import { useRouter } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
 
@@ -26,6 +26,7 @@ import { useXp, getLevel } from '@/composables/useXp.js';
 import { isTopicMastered } from '@/composables/useXp.js';
 
 const router = useRouter();
+const route = useRoute();
 const { isPremium, isBasis, activateCode, clearPremium, clearBasis } = usePremium();
 const { state: streak, medalsFor } = useStreak();
 const { state: xp, level: liveLevel } = useXp();
@@ -34,6 +35,7 @@ const activeLevel = ref('A1');
 const code = ref('');
 const status = ref({ text: '', color: '#888' });
 
+const focusBasis = computed(() => route.query.focus === 'basis');
 const topics = computed(() => getTopicsForLevel(activeLevel.value));
 
 /**
@@ -75,10 +77,7 @@ function deactivate() {
  * @param {string} topicKey
  */
 function trainTopic(topicKey) {
-  if (!isPremium.value) {
-    alert('Premium nicht aktiv.');
-    return;
-  }
+  if (!isPremium.value) return;
   router.push({
     name: 'trainer',
     query: { level: activeLevel.value, topic: topicKey, mode: 'premium' },
@@ -134,6 +133,27 @@ function topicMastered(key) {
 
         <!-- LOCKED VIEW: activation + price block -->
         <div v-if="!isPremium" style="text-align: left;">
+          <div
+            v-if="focusBasis"
+            style="
+              background: linear-gradient(135deg, #f3e8ff, #fdf4ff);
+              border: 1.5px solid #C86DD7;
+              border-radius: 14px;
+              padding: 12px 14px;
+              margin-bottom: 14px;
+              font-size: 13px;
+              color: #5b1f6a;
+              line-height: 1.45;
+            "
+          >
+            <strong style="display: block; margin-bottom: 2px;">
+              ⏱️ Zeitlimit aufheben (Demo)
+            </strong>
+            Gib unten einen Code ein, der mit <strong>BASIS</strong> beginnt
+            (z.&nbsp;B. <code>BASIS_TEST</code>), um das 5-Minuten-Limit
+            dauerhaft zu entfernen.
+          </div>
+
           <div
             style="
               background: #f9f9f9;
