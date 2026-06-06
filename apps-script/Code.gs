@@ -619,7 +619,10 @@ function sendMagicLinkEmail_(email, token) {
 }
 
 /**
- * Sends the 1-day trial code.
+ * Sends the 1-day trial code. The e-mail contains a one-click
+ * activation link, the bare URL as a fallback (in case the styled
+ * button is stripped by the mail client), and a bare link to the
+ * app's landing page.
  *
  * @param {string} email
  * @param {string} code
@@ -627,26 +630,65 @@ function sendMagicLinkEmail_(email, token) {
 function sendTrialCodeEmail_(email, code) {
   const link = `${APP_BASE_URL}/?activate=${encodeURIComponent(code)}`;
   const subject = '🎁 Dein 1-Tag SprachCoach Trial';
+
   const html = `
-<div style="font-family:Arial,Helvetica,sans-serif;max-width:520px;margin:0 auto;padding:24px;color:#222;">
-  <h1 style="color:#AB4DBB;font-size:20px;margin:0 0 12px 0;">Dein Trial-Code</h1>
-  <p style="line-height:1.5;">Du kannst Premium 24 Stunden lang testen.</p>
-  <div style="background:#f6f1ff;border:2px dashed #AB4DBB;border-radius:12px;padding:16px;text-align:center;margin:18px 0;font-family:'Courier New',monospace;font-size:20px;font-weight:900;color:#4a148c;">
-    ${escapeHtml_(code)}
+<div style="font-family:Arial,Helvetica,sans-serif;max-width:560px;margin:0 auto;background:#fff;border-radius:14px;padding:28px;color:#222;">
+  <h1 style="color:#AB4DBB;margin:0 0 8px 0;font-size:22px;">🎁 Dein Gratis-Trial ist da!</h1>
+  <p style="margin:0 0 18px 0;line-height:1.5;">
+    Du kannst <strong>Der SprachCoach</strong> 24 Stunden lang kostenlos testen — mit allen Premium-Funktionen.
+  </p>
+
+  <div style="background:#f6f1ff;border:2px dashed #AB4DBB;border-radius:12px;padding:20px;text-align:center;margin:18px 0;">
+    <div style="font-size:12px;color:#7a3b86;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:6px;">
+      Dein Trial-Code (24 h gültig)
+    </div>
+    <div style="font-family:'Courier New',monospace;font-size:22px;font-weight:900;letter-spacing:2px;color:#4a148c;">
+      ${escapeHtml_(code)}
+    </div>
   </div>
-  <p style="text-align:center;">
-    <a href="${link}" style="background:#AB4DBB;color:#fff;text-decoration:none;padding:12px 24px;border-radius:10px;font-weight:900;display:inline-block;">
+
+  <p style="text-align:center;margin:24px 0;">
+    <a href="${link}"
+       style="background:#AB4DBB;color:#fff;text-decoration:none;padding:14px 28px;border-radius:10px;font-weight:900;display:inline-block;">
       → Jetzt aktivieren
     </a>
   </p>
+
+  <p style="font-size:13px;color:#666;line-height:1.5;margin:18px 0 6px 0;">
+    Funktioniert der Button nicht? Kopiere diese Adresse in deinen Browser:
+  </p>
+  <p style="font-size:12px;color:#888;word-break:break-all;margin:0 0 18px 0;">
+    ${escapeHtml_(link)}
+  </p>
+
+  <p style="font-size:13px;color:#666;line-height:1.5;margin:0 0 6px 0;">
+    Oder öffne die App und gib den Code manuell ein:
+  </p>
+  <p style="font-size:13px;margin:0 0 18px 0;">
+    <a href="${APP_BASE_URL}" style="color:#AB4DBB;">${escapeHtml_(APP_BASE_URL)}</a>
+  </p>
+
+  <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
+  <p style="font-size:11px;color:#aaa;text-align:center;margin:0;">
+    Der Trial-Code ist 24 Stunden ab Aktivierung gültig.
+    Bei Fragen antworte einfach auf diese E-Mail.
+  </p>
 </div>`;
+
+  const text =
+    `Dein 1-Tag SprachCoach Trial\n\n` +
+    `Trial-Code: ${code}\n` +
+    `Gültig: 24 Stunden ab Aktivierung\n\n` +
+    `Direkt aktivieren:\n${link}\n\n` +
+    `Oder gib den Code manuell in der App ein: ${APP_BASE_URL}\n`;
+
   MailApp.sendEmail({
     to: email,
     replyTo: SUPPORT_EMAIL,
     name: FROM_NAME,
     subject,
     htmlBody: html,
-    body: `Trial-Code (24 h gültig): ${code}\n${link}\n`,
+    body: text,
   });
 }
 
