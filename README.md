@@ -139,6 +139,13 @@ der-Sorach-Coach/
     └── styles/
         └── main.css
 
+apps-script/
+├── Code.gs           # Backend: Stripe/PayPal webhooks → code + activation e-mail,
+│                     # magic-link login, trial codes, contact-form relay,
+│                     # code & magic-token validation endpoints.
+├── appsscript.json   # Manifest (Sheets / send-mail / URL-fetch scopes).
+└── README.md         # Step-by-step deployment guide.
+
 scripts/
 └── verify-questions.mjs   # lint every .md through the parser (CI-friendly)
 ```
@@ -424,10 +431,22 @@ so they can paste in the activation code they received by e-mail.
                                 src/utils/api.js
 ```
 
-The backend lives outside this repo as a **Google Apps Script Web
-App**. The full source was kept in git history (see `payments-old.js`)
-— deploy it once and put the resulting `https://script.google.com/macros/s/.../exec`
-URL in `src/data/payment.js → SCRIPT_URL`.
+The full backend source is checked in under **`apps-script/`**:
+
+- [`apps-script/Code.gs`](apps-script/Code.gs) — single-file backend.
+- [`apps-script/appsscript.json`](apps-script/appsscript.json) — manifest with the three required OAuth scopes (Sheets / send-mail / external fetch).
+- [`apps-script/README.md`](apps-script/README.md) — step-by-step deployment + Stripe / PayPal wiring guide.
+
+Workflow after a successful Stripe / PayPal payment:
+
+1. Buyer pays at the hosted checkout.
+2. Stripe (`checkout.session.completed`) or PayPal IPN POSTs the event to
+   the Apps Script Web App URL (with a shared secret in the URL).
+3. The script generates a fresh activation code (`PREMIUM-XXXX-XXXX-XXXX` or `BASIS-…`), saves it to the `Codes` Google Sheet (idempotent via the Stripe event id), and **e-mails the buyer**:
+   - The plain-text code.
+   - A 1-click activation button → `https://<APP_BASE_URL>/?activate=<CODE>`.
+   - A reply-to of `SUPPORT_EMAIL` in case of questions.
+4. The SPA's `BootstrapHandler` reads `?activate=<CODE>` from the link, runs `validateCode` against the backend, and instantly unlocks Premium / Basis for the buyer's device.
 
 When `SCRIPT_URL` is empty the SPA falls back to a **local demo
 activator** (`PREMIUM_*` / `BASIS_*` prefix codes) so everything

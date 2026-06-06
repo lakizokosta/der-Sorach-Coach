@@ -20,8 +20,8 @@
 /**
  * Apps Script Web App endpoint.
  *
- * Re-deploy `payments-old.js` (kept in git history for reference) as
- * a Google Apps Script Web App (Deploy → New deployment → Web app,
+ * Deploy `apps-script/Code.gs` (see `apps-script/README.md`) as a
+ * Google Apps Script Web App (Deploy → New deployment → Web app,
  * "Execute as: Me", "Who has access: Anyone"). Replace the URL below
  * with the resulting `https://script.google.com/macros/s/.../exec`.
  *
@@ -31,6 +31,18 @@
  */
 export const SCRIPT_URL =
   'https://script.google.com/macros/s/AKfycbw0oSHhowmjag6KMvsSd8C7nBkTduQ93L25Vv1yn6mY_7y6D_XEMxDRg5UuAvN36nkuRA/exec';
+
+/**
+ * Public base URL of the deployed SPA. Used to:
+ *   - Build the activation link embedded in payment confirmation /
+ *     magic-link e-mails sent by the Apps Script backend (which
+ *     reads the same constant from its own config).
+ *   - Build the Stripe success redirect URL (`?stripe_success=1`).
+ *
+ * Keep this in sync with the `APP_BASE_URL` constant in
+ * `apps-script/Code.gs`.
+ */
+export const APP_BASE_URL = 'https://der-sprachcoach.workers.dev';
 
 /**
  * Stripe price (in cents) → plan mapping. Mirrors `STRIPE_AMOUNT_MAP`
