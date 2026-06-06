@@ -39,10 +39,16 @@ export const SCRIPT_URL =
  *     reads the same constant from its own config).
  *   - Build the Stripe success redirect URL (`?stripe_success=1`).
  *
- * Keep this in sync with the `APP_BASE_URL` constant in
- * `apps-script/Code.gs`.
+ * IMPORTANT: NO trailing `/#/` — query parameters
+ * (`?activate=…`, `?stripe_success=…`, `?mltoken=…`) must sit BEFORE
+ * the hash so `window.location.search` is non-empty when
+ * `BootstrapHandler.vue` reads them on page load. The Vue Router
+ * (hash mode) takes over after BootstrapHandler runs.
+ *
+ * Keep this in sync with the `BASE_URL` / `APP_BASE_URL` constant in
+ * the deployed Apps Script.
  */
-export const APP_BASE_URL = 'https://der-sprachcoach.workers.dev';
+export const APP_BASE_URL = 'https://lernziel-deutsch.de';
 
 /**
  * Stripe price (in cents) → plan mapping. Mirrors `STRIPE_AMOUNT_MAP`

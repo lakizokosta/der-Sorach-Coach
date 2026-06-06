@@ -31,8 +31,18 @@
 /** Spreadsheet ID that stores the Codes / Sessions / Magic / Trial tabs. */
 const SHEET_ID = 'REPLACE_WITH_YOUR_SPREADSHEET_ID';
 
-/** Public URL of the deployed SPA — used in every e-mail link. */
-const APP_BASE_URL = 'https://der-sprachcoach.workers.dev';
+/**
+ * Public URL of the deployed SPA — used in every e-mail link.
+ *
+ * IMPORTANT: NO trailing `/#/`. The SPA's Vue Router runs in hash
+ * mode, but BootstrapHandler.vue reads activation parameters from
+ * `window.location.search`, which only contains the part of the URL
+ * BEFORE the `#`. The correct outgoing link shape is therefore
+ *   https://lernziel-deutsch.de/?activate=ABC
+ * NOT
+ *   https://lernziel-deutsch.de/#/?activate=ABC  ← would be ignored.
+ */
+const APP_BASE_URL = 'https://lernziel-deutsch.de';
 
 /** "From" address shown in outgoing e-mails (must be the script owner). */
 const FROM_NAME = 'Der SprachCoach';

@@ -1,0 +1,44 @@
+---
+description: How to deploy and update the Google Apps Script backend for Der SprachCoach
+globs: apps-script/**/*
+alwaysApply: false
+---
+
+# Apps Script deployment (Der SprachCoach)
+
+## What it is
+`apps-script/Code.gs` is the backend. It runs on Google's servers, not on Cloudflare.
+It sends e-mails, stores codes in Google Sheets, and talks to Stripe/PayPal.
+
+## First-time setup (once)
+1. Create a Google Sheet → copy its ID from the URL.
+2. Go to https://script.google.com → New project.
+3. Paste `apps-script/Code.gs` and `apps-script/appsscript.json`.
+4. Edit constants at the top of `Code.gs`:
+   - `SHEET_ID` — spreadsheet ID
+   - `APP_BASE_URL` — `https://lernziel-deutsch.de` (NO `/#/` suffix)
+   - `SUPPORT_EMAIL`, `WEBHOOK_SECRET`, `PAYPAL_MERCHANT_EMAIL`
+5. Deploy → New deployment → Web app:
+   - Execute as: **Me**
+   - Who has access: **Anyone**
+6. Copy the `/exec` URL into `src/data/payment.js` → `SCRIPT_URL`.
+7. Rebuild and deploy the SPA (`npm run build` + deploy).
+8. Stripe: webhook URL = `/exec?action=stripeWebhook&secret=WEBHOOK_SECRET`
+9. Stripe Payment Links: success redirect = `https://lernziel-deutsch.de/?stripe_success=1`
+
+## Updating after code changes (every time)
+1. Edit `apps-script/Code.gs` in the repo.
+2. Copy-paste into the Apps Script editor (script.google.com).
+3. **Deploy → Manage deployments → ⚙ Edit → New version → Deploy**
+4. The `/exec` URL stays the same — SPA rebuild is NOT required unless `SCRIPT_URL` changed.
+
+## URL rules
+- `APP_BASE_URL` / `BASE_URL` must be `https://lernziel-deutsch.de` (no `/#/`).
+- E-mail links must look like `https://lernziel-deutsch.de/?activate=CODE` (query BEFORE hash).
+- Keep `APP_BASE_URL` in sync in both `apps-script/Code.gs` and `src/data/payment.js`.
+
+## Two separate deploys
+| What | Where | When to redeploy |
+| --- | --- | --- |
+| Frontend (Vue SPA) | Cloudflare / hosting | After UI or `src/` changes |
+| Backend (Code.gs) | Google Apps Script | After `apps-script/Code.gs` changes |
