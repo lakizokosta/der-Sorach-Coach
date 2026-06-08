@@ -96,6 +96,25 @@ const questionNumber = computed(() => {
   return Math.min(queue.value.solvedCount + 1, queue.value.total);
 });
 
+const xpPerAnswer = computed(() => (isPrem.value ? 2 : 1));
+
+/** Canonical topic key for mastery / XP attribution. */
+function activeTopicKey() {
+  const q = currentQuestion.value;
+  return String(q?.topic || topic.value || '').toUpperCase();
+}
+
+/**
+ * Applies an immediate XP change visible in the live badge.
+ *
+ * @param {boolean} wasCorrect
+ */
+function applyAnswerXp(wasCorrect) {
+  const delta = wasCorrect ? xpPerAnswer.value : -xpPerAnswer.value;
+  const topicKey = activeTopicKey();
+  addXP(delta, topicKey || undefined, wasCorrect ? 1 : topicKey ? -1 : undefined);
+}
+
 /** Loads the queue, restores any free-session timer, kicks things off. */
 onMounted(() => {
   const all = topic.value
@@ -134,11 +153,7 @@ onBeforeUnmount(() => {
  */
 function saveProgressEarly() {
   if (finished.value) return;
-  if (correct.value > 0) {
-    addXP(correct.value * (isPrem.value ? 2 : 1), topic.value, correct.value);
-    if (answered.value > 0) recordActivityToday();
-    correct.value = 0;
-  }
+  if (answered.value > 0) recordActivityToday();
 }
 
 /** Starts the timer + records the free-mode session start (once). */
@@ -173,7 +188,9 @@ function onAnswer(payload) {
     answered.value += 1;
     if (isCorrect) {
       correct.value += 1;
+      applyAnswerXp(true);
     } else {
+      applyAnswerXp(false);
       recordWrongTopic();
       showGrammarTip.value = isPrem.value;
       if (!isPrem.value) refreshUpsell();
@@ -197,6 +214,7 @@ function onFirstWrong() {
   ensureTimerStarted();
   if (!showRetry.value) {
     answered.value += 1;
+    applyAnswerXp(false);
     recordWrongTopic();
     showRetry.value = true;
     showGrammarTip.value = isPrem.value;
@@ -271,10 +289,6 @@ function finish(_reason) {
   finished.value = true;
   timer.stop();
   if (answered.value > 0) recordActivityToday();
-  if (correct.value > 0) {
-    addXP(correct.value * (isPrem.value ? 2 : 1), topic.value, correct.value);
-    correct.value = correct.value; // keep value for result screen
-  }
 }
 
 /**

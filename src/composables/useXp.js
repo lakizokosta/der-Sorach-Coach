@@ -2,7 +2,8 @@
  * @fileoverview XP and leveling composable.
  *
  * The XP system mirrors the original trainer:
- *   - Correct answer = 1 XP (Free) or 2 XP (Premium).
+ *   - Correct answer = +1 XP (Free) or +2 XP (Premium).
+ *   - Wrong answer = −1 XP (Free) or −2 XP (Premium); total never below 0.
  *   - Every correct answer increments a per-topic counter; a topic is
  *     considered "mastered" once 50 correct answers are recorded for it.
  *   - Levels: 1 Anfänger → 5 Meister with the same XP thresholds.
@@ -69,19 +70,22 @@ export function getLevel(xp) {
 }
 
 /**
- * Adds XP to the running total and (optionally) credits correct-answer
- * counts to a specific topic.
+ * Adjusts XP immediately (positive = reward, negative = penalty) and
+ * optionally updates per-topic mastery counters.
  *
- * @param {number} amount        XP to add (positive integer).
- * @param {string} [topicKey]    Canonical topic key for mastery tracking.
- * @param {number} [correctCount] Number of correct answers in this batch.
+ * @param {number} amount         XP delta (+1/−1 free, +2/−2 premium).
+ * @param {string} [topicKey]     Canonical topic key for mastery tracking.
+ * @param {number} [correctDelta] Topic correct-count delta (+1 / −1).
  */
-export function addXP(amount, topicKey, correctCount) {
-  if (!amount || amount <= 0) return;
-  state.totalXP += amount;
-  if (topicKey && correctCount) {
+export function addXP(amount, topicKey, correctDelta) {
+  if (!amount) return;
+  state.totalXP = Math.max(0, state.totalXP + amount);
+  if (topicKey && correctDelta) {
     const key = String(topicKey).toUpperCase();
-    state.topicCorrect[key] = (state.topicCorrect[key] || 0) + correctCount;
+    state.topicCorrect[key] = Math.max(
+      0,
+      (state.topicCorrect[key] || 0) + correctDelta,
+    );
   }
   persist();
 }
