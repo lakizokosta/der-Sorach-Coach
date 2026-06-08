@@ -12,6 +12,8 @@ import { useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
 import LoginPanel from '@/components/LoginPanel.vue';
+import DailyGoalCard from '@/components/DailyGoalCard.vue';
+import ActivityCalendar from '@/components/ActivityCalendar.vue';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
 import { usePremium } from '@/composables/usePremium.js';
@@ -92,6 +94,11 @@ function payBasis() {
     />
 
     <LoginPanel />
+
+    <div class="landing-progress">
+      <DailyGoalCard />
+      <ActivityCalendar />
+    </div>
 
     <div style="text-align: center; margin: 6px auto 10px auto;">
       <button

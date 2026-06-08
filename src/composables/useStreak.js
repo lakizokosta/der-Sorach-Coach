@@ -94,6 +94,19 @@ function yesterdayISO() {
 }
 
 /**
+ * Adds today to `activeDays` for the calendar without touching streak
+ * counters. Safe to call after every answered question.
+ */
+export function markActiveDay() {
+  const today = todayISO();
+  if (!state.activeDays.includes(today)) {
+    state.activeDays.push(today);
+    if (state.activeDays.length > 42) state.activeDays = state.activeDays.slice(-42);
+    persist();
+  }
+}
+
+/**
  * Records that the user finished a training session today. Idempotent —
  * called multiple times on the same day it will only count once.
  *
@@ -126,8 +139,7 @@ export function recordActivityToday() {
     state.freezes += 1;
   }
   state.lastActiveDate = today;
-  if (!state.activeDays.includes(today)) state.activeDays.push(today);
-  if (state.activeDays.length > 42) state.activeDays = state.activeDays.slice(-42);
+  markActiveDay();
   persist();
 }
 
@@ -168,9 +180,9 @@ export function medalsFor(longest) {
 /**
  * Public hook exposing reactive streak state plus mutator helpers.
  *
- * @return {{state:object, recordActivityToday:Function,
+ * @return {{state:object, recordActivityToday:Function, markActiveDay:Function,
  *           spendFreeze:Function, medalsFor:Function}}
  */
 export function useStreak() {
-  return { state, recordActivityToday, spendFreeze, medalsFor };
+  return { state, recordActivityToday, markActiveDay, spendFreeze, medalsFor };
 }

@@ -23,6 +23,7 @@ import QuestionRenderer from '@/components/questions/QuestionRenderer.vue';
 import { usePremium } from '@/composables/usePremium.js';
 import { useXp, getLevel } from '@/composables/useXp.js';
 import { useStreak } from '@/composables/useStreak.js';
+import { recordQuestionAnswered } from '@/composables/useDailyGoal.js';
 import { useTimer, formatMmSs } from '@/composables/useTimer.js';
 
 import { getQuestionsByLevel, getQuestionsByTopic } from '@/data/questions.js';
@@ -232,6 +233,7 @@ function onAnswer(payload) {
 
   if (!showRetry.value) {
     answered.value += 1;
+    recordQuestionAnswered();
     if (isCorrect) {
       correct.value += 1;
       applyAnswerXp(true);
@@ -260,6 +262,7 @@ function onFirstWrong() {
   ensureTimerStarted();
   if (!showRetry.value) {
     answered.value += 1;
+    recordQuestionAnswered();
     applyAnswerXp(false);
     recordWrongTopic();
     showRetry.value = true;

@@ -453,6 +453,7 @@ function validateMagicToken(p) {
       isBasis: ent.isBasis,
       streakData: progress.streakJson,
       xpData: progress.xpJson,
+      dailyGoalData: progress.dailyGoalJson,
     };
   }
   return { ok: false, error: 'Link ungültig' };
@@ -936,20 +937,23 @@ function getEntitlementsForEmail_(email) {
  * Reads stored progress JSON for an e-mail from the `Progress` sheet.
  *
  * @param {string} email
- * @return {{streakJson:string, xpJson:string}}
+ * @return {{streakJson:string, xpJson:string, dailyGoalJson:string}}
  */
 function readProgressRow_(email) {
   const norm = String(email || '').toLowerCase().trim();
-  const empty = { streakJson: '', xpJson: '' };
+  const empty = { streakJson: '', xpJson: '', dailyGoalJson: '' };
   if (!norm) return empty;
 
-  const sheet = sheet_('Progress', ['email', 'streakJson', 'xpJson', 'updatedAt']);
+  const sheet = sheet_('Progress', [
+    'email', 'streakJson', 'xpJson', 'updatedAt', 'dailyGoalJson',
+  ]);
   const data = sheet.getDataRange().getValues();
   for (let r = 1; r < data.length; r++) {
     if (String(data[r][0]).toLowerCase().trim() === norm) {
       return {
         streakJson: String(data[r][1] || ''),
         xpJson: String(data[r][2] || ''),
+        dailyGoalJson: String(data[r][4] || ''),
       };
     }
   }
@@ -997,7 +1001,10 @@ function loadProgressByEmail_(body, streakOnly) {
 
   const progress = readProgressRow_(email);
   const payload = { ok: true, streakData: progress.streakJson };
-  if (!streakOnly) payload.xpData = progress.xpJson;
+  if (!streakOnly) {
+    payload.xpData = progress.xpJson;
+    payload.dailyGoalData = progress.dailyGoalJson;
+  }
   return payload;
 }
 
@@ -1016,7 +1023,9 @@ function saveProgressByEmail_(body, streakOnly) {
     return { ok: false, error: 'Nicht angemeldet' };
   }
 
-  const sheet = sheet_('Progress', ['email', 'streakJson', 'xpJson', 'updatedAt']);
+  const sheet = sheet_('Progress', [
+    'email', 'streakJson', 'xpJson', 'updatedAt', 'dailyGoalJson',
+  ]);
   const data = sheet.getDataRange().getValues();
   let rowIdx = -1;
   for (let r = 1; r < data.length; r++) {
@@ -1028,14 +1037,16 @@ function saveProgressByEmail_(body, streakOnly) {
 
   const streakJson = String(body.streakData || '');
   const xpJson = streakOnly ? '' : String(body.xpData || '');
+  const dailyGoalJson = streakOnly ? '' : String(body.dailyGoalData || '');
   const now = new Date();
 
   if (rowIdx > 0) {
     if (streakJson) sheet.getRange(rowIdx, 2).setValue(streakJson);
     if (!streakOnly && xpJson) sheet.getRange(rowIdx, 3).setValue(xpJson);
     sheet.getRange(rowIdx, 4).setValue(now);
+    if (!streakOnly && dailyGoalJson) sheet.getRange(rowIdx, 5).setValue(dailyGoalJson);
   } else {
-    sheet.appendRow([email, streakJson, xpJson, now]);
+    sheet.appendRow([email, streakJson, xpJson, now, dailyGoalJson]);
   }
   return { ok: true };
 }

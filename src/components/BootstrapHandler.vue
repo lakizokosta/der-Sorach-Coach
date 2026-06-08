@@ -140,7 +140,7 @@ async function handleMagicToken() {
   }
 
   setSession(res);
-  applyServerProgress(res.streakData, res.xpData);
+  applyServerProgress(res.streakData, res.xpData, res.dailyGoalData);
 
   let pendingCode = '';
   try {

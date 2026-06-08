@@ -11,7 +11,13 @@ import { useAuth } from '@/composables/useAuth.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { importStreakData, getStreakSnapshot } from '@/composables/useStreak.js';
 import { importXpData, getXpSnapshot } from '@/composables/useXp.js';
-import { mergeStreak, mergeXp, parseProgressJson } from '@/utils/progressMerge.js';
+import { importDailyGoalData, getDailyGoalSnapshot } from '@/composables/useDailyGoal.js';
+import {
+  mergeStreak,
+  mergeXp,
+  mergeDailyGoal,
+  parseProgressJson,
+} from '@/utils/progressMerge.js';
 
 let pushTimer = null;
 let skipPush = false;
@@ -19,10 +25,11 @@ let skipPush = false;
 /**
  * Applies server payloads and merges them with local state.
  *
- * @param {string} [streakRaw]  JSON string from the server.
- * @param {string} [xpRaw]      JSON string from the server.
+ * @param {string} [streakRaw]     JSON string from the server.
+ * @param {string} [xpRaw]         JSON string from the server.
+ * @param {string} [dailyGoalRaw]  JSON string from the server.
  */
-export function applyServerProgress(streakRaw, xpRaw) {
+export function applyServerProgress(streakRaw, xpRaw, dailyGoalRaw) {
   skipPush = true;
   try {
     if (streakRaw) {
@@ -35,6 +42,12 @@ export function applyServerProgress(streakRaw, xpRaw) {
       const server = parseProgressJson(xpRaw, null);
       if (server) {
         importXpData(mergeXp(getXpSnapshot(), server));
+      }
+    }
+    if (dailyGoalRaw) {
+      const server = parseProgressJson(dailyGoalRaw, null);
+      if (server) {
+        importDailyGoalData(mergeDailyGoal(getDailyGoalSnapshot(), server));
       }
     }
   } finally {
@@ -54,7 +67,7 @@ export async function pullProgressFromServer() {
 
   const res = await loadProgress(state.email, state.sessionToken);
   if (!res || !res.ok) return;
-  applyServerProgress(res.streakData, res.xpData);
+  applyServerProgress(res.streakData, res.xpData, res.dailyGoalData);
 }
 
 /**
@@ -84,6 +97,7 @@ export async function pushProgressToServer() {
       sessionToken: state.sessionToken,
       streakData: JSON.stringify(getStreakSnapshot()),
       xpData: JSON.stringify(getXpSnapshot()),
+      dailyGoalData: JSON.stringify(getDailyGoalSnapshot()),
     });
     return;
   }

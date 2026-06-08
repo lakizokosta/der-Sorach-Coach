@@ -47,6 +47,23 @@ export function mergeXp(local, server) {
 }
 
 /**
+ * @param {{date:string, count:number}} local
+ * @param {{date:string, count:number}} server
+ * @return {{date:string, count:number}}
+ */
+export function mergeDailyGoal(local, server) {
+  const today = new Date().toISOString().split('T')[0];
+  const a = local || { date: '', count: 0 };
+  const b = server || { date: '', count: 0 };
+  if (a.date === today && b.date === today) {
+    return { date: today, count: Math.max(a.count, b.count) };
+  }
+  if (a.date === today) return { ...a };
+  if (b.date === today) return { ...b };
+  return { date: today, count: 0 };
+}
+
+/**
  * Safely parses a JSON progress blob from the server.
  *
  * @param {string} raw

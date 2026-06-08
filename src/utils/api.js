@@ -171,7 +171,8 @@ export function loadProgress(email, sessionToken) {
 /**
  * Saves XP + streak for a logged-in user (requires magic session).
  *
- * @param {{email:string, sessionToken:string, streakData:string, xpData:string}} data
+ * @param {{email:string, sessionToken:string, streakData:string, xpData:string,
+ *   dailyGoalData?:string}} data
  * @return {Promise<{ok:boolean, error?:string}>}
  */
 export function saveProgress(data) {
@@ -181,6 +182,7 @@ export function saveProgress(data) {
     sessionToken: String(data.sessionToken || '').trim(),
     streakData: data.streakData || '',
     xpData: data.xpData || '',
+    dailyGoalData: data.dailyGoalData || '',
   });
 }
 
