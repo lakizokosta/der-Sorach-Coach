@@ -21,6 +21,7 @@ const DEFAULT_SESSION = {
   sessionExpires: '',
   isPremium: false,
   premiumExpires: '',
+  isBasis: false,
 };
 
 const state = reactive({ ...DEFAULT_SESSION, ...loadJSON(SESSION_KEY, {}) });
@@ -41,6 +42,7 @@ function persist() {
     sessionExpires: state.sessionExpires,
     isPremium: state.isPremium,
     premiumExpires: state.premiumExpires,
+    isBasis: state.isBasis,
   });
 }
 
@@ -49,7 +51,7 @@ function persist() {
  * successful `validateMagicToken` round-trip.
  *
  * @param {{email:string, sessionToken:string, sessionExpires:string,
- *   isPremium?:boolean, premiumExpires?:string}} payload
+ *   isPremium?:boolean, premiumExpires?:string, isBasis?:boolean}} payload
  */
 function setSession(payload) {
   state.email = String(payload.email || '').trim().toLowerCase();
@@ -57,6 +59,7 @@ function setSession(payload) {
   state.sessionExpires = payload.sessionExpires || '';
   state.isPremium = !!payload.isPremium;
   state.premiumExpires = payload.premiumExpires || '';
+  state.isBasis = !!payload.isBasis;
   persist();
 }
 

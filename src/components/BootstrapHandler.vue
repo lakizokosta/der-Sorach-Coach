@@ -27,9 +27,13 @@ import { onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 import { STRIPE_SUCCESS_PARAM } from '@/data/payment.js';
-import { hasBackend, validateMagicToken, validateCode } from '@/utils/api.js';
+import { hasBackend, validateMagicToken } from '@/utils/api.js';
 import { useAuth } from '@/composables/useAuth.js';
-import { usePremium } from '@/composables/usePremium.js';
+import { activateCode, usePremium } from '@/composables/usePremium.js';
+import {
+  applyServerProgress,
+  pullProgressFromServer,
+} from '@/composables/useProgressSync.js';
 
 const router = useRouter();
 const { setSession } = useAuth();
@@ -136,6 +140,7 @@ async function handleMagicToken() {
   }
 
   setSession(res);
+  applyServerProgress(res.streakData, res.xpData);
 
   let pendingCode = '';
   try {
@@ -146,8 +151,14 @@ async function handleMagicToken() {
   }
 
   if (pendingCode) {
-    const ad = await validateCode(pendingCode, res.email);
+    const ad = await activateCode(pendingCode, res.email);
     if (ad && ad.ok) {
+      setSession({
+        ...res,
+        isPremium: ad.type === 'premium',
+        isBasis: ad.type === 'basis',
+        premiumExpires: ad.expires || res.premiumExpires || '',
+      });
       showToast('✅ Willkommen & Code aktiviert!');
       setTimeout(() => window.location.reload(), 1500);
       return;
@@ -168,6 +179,7 @@ onMounted(async () => {
   handleActivateParam();
   await handleMagicToken();
   await revalidateOnLoad();
+  await pullProgressFromServer();
 });
 </script>
 

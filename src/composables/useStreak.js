@@ -37,7 +37,7 @@ function defaultState() {
 const state = reactive(loadJSON(KEY, defaultState()));
 
 /** Persists the current reactive `state` to localStorage. */
-function persist() {
+function persist(options = {}) {
   saveJSON(KEY, {
     currentStreak: state.currentStreak,
     longestStreak: state.longestStreak,
@@ -45,6 +45,34 @@ function persist() {
     lastActiveDate: state.lastActiveDate,
     activeDays: state.activeDays,
   });
+  if (!options.silent) {
+    import('@/composables/useProgressSync.js').then((m) => m.scheduleProgressPush());
+  }
+}
+
+/**
+ * Returns a plain snapshot of the current streak state.
+ *
+ * @return {typeof state}
+ */
+export function getStreakSnapshot() {
+  return {
+    currentStreak: state.currentStreak,
+    longestStreak: state.longestStreak,
+    freezes: state.freezes,
+    lastActiveDate: state.lastActiveDate,
+    activeDays: [...state.activeDays],
+  };
+}
+
+/**
+ * Replaces streak state (e.g. after a server merge) without triggering push.
+ *
+ * @param {Partial<typeof state>} data
+ */
+export function importStreakData(data) {
+  Object.assign(state, defaultState(), data);
+  persist({ silent: true });
 }
 
 /**

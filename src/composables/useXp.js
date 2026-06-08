@@ -21,9 +21,35 @@ const state = reactive({
 });
 
 /** Persists the current reactive state to localStorage. */
-function persist() {
+function persist(options = {}) {
   saveJSON(KEY_XP, state.totalXP);
   saveJSON(KEY_TOPICS, state.topicCorrect);
+  if (!options.silent) {
+    import('@/composables/useProgressSync.js').then((m) => m.scheduleProgressPush());
+  }
+}
+
+/**
+ * Returns a plain snapshot of the current XP state.
+ *
+ * @return {{totalXP:number, topicCorrect:object}}
+ */
+export function getXpSnapshot() {
+  return {
+    totalXP: state.totalXP,
+    topicCorrect: { ...state.topicCorrect },
+  };
+}
+
+/**
+ * Replaces XP state (e.g. after a server merge) without triggering push.
+ *
+ * @param {{totalXP?:number, topicCorrect?:object}} data
+ */
+export function importXpData(data) {
+  if (data.totalXP != null) state.totalXP = Number(data.totalXP) || 0;
+  if (data.topicCorrect) state.topicCorrect = { ...data.topicCorrect };
+  persist({ silent: true });
 }
 
 /**

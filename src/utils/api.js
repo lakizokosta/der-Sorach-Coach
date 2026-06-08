@@ -152,3 +152,49 @@ export function sendContactForm(data) {
     page: data.page || (typeof location !== 'undefined' ? location.href : ''),
   });
 }
+
+/**
+ * Loads XP + streak for a logged-in user (requires magic session).
+ *
+ * @param {string} email
+ * @param {string} sessionToken
+ * @return {Promise<{ok:boolean, streakData?:string, xpData?:string, error?:string}>}
+ */
+export function loadProgress(email, sessionToken) {
+  return postJson({
+    action: 'loadProgressByEmail',
+    email: String(email || '').trim().toLowerCase(),
+    sessionToken: String(sessionToken || '').trim(),
+  });
+}
+
+/**
+ * Saves XP + streak for a logged-in user (requires magic session).
+ *
+ * @param {{email:string, sessionToken:string, streakData:string, xpData:string}} data
+ * @return {Promise<{ok:boolean, error?:string}>}
+ */
+export function saveProgress(data) {
+  return postJson({
+    action: 'saveProgressByEmail',
+    email: String(data.email || '').trim().toLowerCase(),
+    sessionToken: String(data.sessionToken || '').trim(),
+    streakData: data.streakData || '',
+    xpData: data.xpData || '',
+  });
+}
+
+/**
+ * Legacy: saves streak JSON keyed by a Premium activation code.
+ *
+ * @param {string} code
+ * @param {string} streakData  Serialised streak object.
+ * @return {Promise<object>}
+ */
+export function saveStreakByCode(code, streakData) {
+  return postJson({
+    saveStreak: true,
+    code: String(code || '').trim().toUpperCase(),
+    streakData: streakData || '',
+  });
+}

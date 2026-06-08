@@ -152,6 +152,18 @@ function doPost(e) {
     if (body.requestTrial)     return json(requestTrial(body));
     if (body.contactForm)      return json(sendContactForm(body));
 
+    // Progress sync (email account — cross-device XP + streak).
+    if (body.action === 'loadStreakByEmail')  return json(loadProgressByEmail_(body, true));
+    if (body.action === 'saveStreakByEmail')  return json(saveProgressByEmail_(body, true));
+    if (body.action === 'loadProgressByEmail') return json(loadProgressByEmail_(body, false));
+    if (body.action === 'saveProgressByEmail') return json(saveProgressByEmail_(body, false));
+    if (body.loadProgress)  return json(loadProgressByEmail_(body, false));
+    if (body.saveProgress)  return json(saveProgressByEmail_(body, false));
+
+    // Legacy: streak keyed by activation code (premium without login).
+    if (body.loadStreak) return json(loadStreakByCode_(body));
+    if (body.saveStreak) return json(saveStreakByCode_(body));
+
     return json({ ok: false, error: 'Unknown request' });
   } catch (err) {
     log('doPost', String(err && err.stack || err));
@@ -428,13 +440,19 @@ function validateMagicToken(p) {
     }
 
     sheet.getRange(r + 1, 5).setValue(new Date());
-    const email = row[1];
+    const email = String(row[1]).toLowerCase().trim();
+    const ent = getEntitlementsForEmail_(email);
+    const progress = readProgressRow_(email);
     return {
       ok: true,
       email,
       sessionToken: issueMagicSessionToken_(email, deviceId),
       sessionExpires: new Date(Date.now() + MAGIC_SESSION_LIFETIME_MS).toISOString(),
-      isPremium: hasActivePremium_(email),
+      isPremium: ent.isPremium,
+      premiumExpires: ent.premiumExpires,
+      isBasis: ent.isBasis,
+      streakData: progress.streakJson,
+      xpData: progress.xpJson,
     };
   }
   return { ok: false, error: 'Link ungültig' };
@@ -852,19 +870,224 @@ function eventAlreadyProcessed_(txId) {
  * @return {boolean}
  */
 function hasActivePremium_(email) {
+  return getEntitlementsForEmail_(email).isPremium;
+}
+
+/**
+ * Resolves Premium / Basis entitlements tied to an e-mail address.
+ *
+ * @param {string} email
+ * @return {{isPremium:boolean, premiumExpires:string, isBasis:boolean}}
+ */
+function getEntitlementsForEmail_(email) {
+  const norm = String(email || '').toLowerCase().trim();
+  const out = { isPremium: false, premiumExpires: '', isBasis: false };
+  if (!norm) return out;
+
   const sheet = sheet_('Codes');
   const data = sheet.getDataRange().getValues();
   const now = Date.now();
+
   for (let r = 1; r < data.length; r++) {
     const row = data[r];
-    if (String(row[1]).toLowerCase() !== email) continue;
-    if (row[2] !== 'basis' && row[3] > 0) {
-      const issued = new Date(row[4]).getTime();
-      const expires = issued + Number(row[3]) * 30 * 24 * 60 * 60 * 1000;
-      if (expires > now) return true;
+    if (String(row[1]).toLowerCase().trim() !== norm) continue;
+
+    const plan = String(row[2] || '').toLowerCase();
+    const months = Number(row[3]) || 0;
+    const createdAt = row[4];
+    const usedAt = row[5];
+
+    if (plan === 'basis') {
+      out.isBasis = true;
+      continue;
+    }
+
+    if (plan === 'trial') {
+      const anchor = usedAt ? new Date(usedAt).getTime() : 0;
+      if (!anchor) continue;
+      const expires = anchor + 24 * 60 * 60 * 1000;
+      if (expires > now) {
+        out.isPremium = true;
+        out.premiumExpires = new Date(expires).toISOString().split('T')[0];
+      }
+      continue;
+    }
+
+    if (months > 0) {
+      const issued = usedAt ? new Date(usedAt).getTime() : new Date(createdAt).getTime();
+      const expires = issued + months * 30 * 24 * 60 * 60 * 1000;
+      if (expires > now) {
+        out.isPremium = true;
+        const iso = new Date(expires).toISOString().split('T')[0];
+        if (!out.premiumExpires || iso > out.premiumExpires) {
+          out.premiumExpires = iso;
+        }
+      }
     }
   }
+  return out;
+}
+
+/* ────────────────────────────────────────────────────────────────
+   Progress sync (XP + streak per e-mail account).
+   ──────────────────────────────────────────────────────────────── */
+
+/**
+ * Reads stored progress JSON for an e-mail from the `Progress` sheet.
+ *
+ * @param {string} email
+ * @return {{streakJson:string, xpJson:string}}
+ */
+function readProgressRow_(email) {
+  const norm = String(email || '').toLowerCase().trim();
+  const empty = { streakJson: '', xpJson: '' };
+  if (!norm) return empty;
+
+  const sheet = sheet_('Progress', ['email', 'streakJson', 'xpJson', 'updatedAt']);
+  const data = sheet.getDataRange().getValues();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][0]).toLowerCase().trim() === norm) {
+      return {
+        streakJson: String(data[r][1] || ''),
+        xpJson: String(data[r][2] || ''),
+      };
+    }
+  }
+  return empty;
+}
+
+/**
+ * Returns true when the opaque magic-session token is still valid.
+ *
+ * @param {string} email
+ * @param {string} token
+ * @return {boolean}
+ */
+function validateMagicSession_(email, token) {
+  const norm = String(email || '').toLowerCase().trim();
+  const tok = String(token || '').trim();
+  if (!norm || !tok) return false;
+
+  const sheet = sheet_('MagicSessions');
+  const data = sheet.getDataRange().getValues();
+  const now = Date.now();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][0]).trim() !== tok) continue;
+    if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
+    const exp = data[r][4];
+    if (exp && new Date(exp).getTime() > now) return true;
+  }
   return false;
+}
+
+/**
+ * Loads XP + streak for a logged-in user (magic session required).
+ *
+ * @param {!Object} body  {email, sessionToken}.
+ * @param {boolean} [streakOnly]  Legacy `loadStreakByEmail` shape.
+ * @return {!Object}
+ */
+function loadProgressByEmail_(body, streakOnly) {
+  const email = String(body.email || '').toLowerCase().trim();
+  const token = String(body.sessionToken || '').trim();
+  if (!email) return { ok: false, error: 'Keine E-Mail' };
+  if (!validateMagicSession_(email, token)) {
+    return { ok: false, error: 'Nicht angemeldet' };
+  }
+
+  const progress = readProgressRow_(email);
+  const payload = { ok: true, streakData: progress.streakJson };
+  if (!streakOnly) payload.xpData = progress.xpJson;
+  return payload;
+}
+
+/**
+ * Saves XP + streak for a logged-in user (magic session required).
+ *
+ * @param {!Object} body  {email, sessionToken, streakData, xpData?}.
+ * @param {boolean} [streakOnly]  Legacy `saveStreakByEmail` — streak only.
+ * @return {!Object}
+ */
+function saveProgressByEmail_(body, streakOnly) {
+  const email = String(body.email || '').toLowerCase().trim();
+  const token = String(body.sessionToken || '').trim();
+  if (!email) return { ok: false, error: 'Keine E-Mail' };
+  if (!validateMagicSession_(email, token)) {
+    return { ok: false, error: 'Nicht angemeldet' };
+  }
+
+  const sheet = sheet_('Progress', ['email', 'streakJson', 'xpJson', 'updatedAt']);
+  const data = sheet.getDataRange().getValues();
+  let rowIdx = -1;
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][0]).toLowerCase().trim() === email) {
+      rowIdx = r + 1;
+      break;
+    }
+  }
+
+  const streakJson = String(body.streakData || '');
+  const xpJson = streakOnly ? '' : String(body.xpData || '');
+  const now = new Date();
+
+  if (rowIdx > 0) {
+    if (streakJson) sheet.getRange(rowIdx, 2).setValue(streakJson);
+    if (!streakOnly && xpJson) sheet.getRange(rowIdx, 3).setValue(xpJson);
+    sheet.getRange(rowIdx, 4).setValue(now);
+  } else {
+    sheet.appendRow([email, streakJson, xpJson, now]);
+  }
+  return { ok: true };
+}
+
+/**
+ * Legacy: load streak JSON keyed by activation code.
+ *
+ * @param {!Object} body  {code}.
+ * @return {!Object}
+ */
+function loadStreakByCode_(body) {
+  const code = String(body.code || '').toUpperCase().trim();
+  if (!code) return { success: false, error: 'Kein Code' };
+
+  const sheet = sheet_('StreakByCode', ['code', 'streakJson', 'updatedAt']);
+  const data = sheet.getDataRange().getValues();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][0]).toUpperCase().trim() === code) {
+      return { success: true, streakData: String(data[r][1] || '') };
+    }
+  }
+  return { success: true, streakData: '' };
+}
+
+/**
+ * Legacy: save streak JSON keyed by activation code.
+ *
+ * @param {!Object} body  {code, streakData}.
+ * @return {!Object}
+ */
+function saveStreakByCode_(body) {
+  const code = String(body.code || '').toUpperCase().trim();
+  if (!code) return { success: false, error: 'Kein Code' };
+
+  const sheet = sheet_('StreakByCode', ['code', 'streakJson', 'updatedAt']);
+  const data = sheet.getDataRange().getValues();
+  const streakJson = String(body.streakData || '');
+  const now = new Date();
+  let rowIdx = -1;
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][0]).toUpperCase().trim() === code) {
+      rowIdx = r + 1;
+      break;
+    }
+  }
+  if (rowIdx > 0) {
+    sheet.getRange(rowIdx, 2).setValue(streakJson);
+    sheet.getRange(rowIdx, 3).setValue(now);
+  } else {
+    sheet.appendRow([code, streakJson, now]);
+  }
+  return { success: true };
 }
 
 /**

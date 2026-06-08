@@ -22,6 +22,7 @@
 import { reactive, computed } from 'vue';
 import { loadJSON, saveJSON, removeKey } from './useStorage.js';
 import { validateCode as validateOnServer, hasBackend } from '@/utils/api.js';
+import { useAuth } from './useAuth.js';
 
 const KEY = 'lzd_premium';
 const SESSION_TOKEN_KEY = 'lzd_premium_session_token';
@@ -241,9 +242,21 @@ export function clearAll() {
  *           clearBasis:Function, clearAll:Function,
  *           revalidateOnLoad:Function}}
  */
+function isPremiumFromAuth() {
+  const { state, isLoggedIn } = useAuth();
+  if (!isLoggedIn.value || !state.isPremium) return false;
+  if (!state.premiumExpires) return true;
+  return new Date().toISOString().split('T')[0] <= state.premiumExpires;
+}
+
+function isBasisFromAuth() {
+  const { state, isLoggedIn } = useAuth();
+  return isLoggedIn.value && state.isBasis;
+}
+
 export function usePremium() {
-  const isPremium = computed(isPremiumActive);
-  const isBasis = computed(isBasisActive);
+  const isPremium = computed(() => isPremiumFromAuth() || isPremiumActive());
+  const isBasis = computed(() => isBasisFromAuth() || isBasisActive());
   return {
     state,
     isPremium,
