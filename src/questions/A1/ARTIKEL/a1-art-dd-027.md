@@ -1,0 +1,11 @@
+---
+id: a1-art-dd-027
+type: dropbox
+words:
+  - Das
+  - ist
+  - kein
+  - Problem
+---
+
+[Schule] Ordne die Wörter zum richtigen Satz: (Artikel — kein Problem)
