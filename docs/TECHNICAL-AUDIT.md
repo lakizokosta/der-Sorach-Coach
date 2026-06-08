@@ -96,7 +96,7 @@
 | **2** | Premium-профиль и контакт | ✅ P1: Free-профиль, unified `/premium`; контакт ✅ |
 | **3** | Аудит тренажёра | ✅ См. [TRAINER-AUDIT.md](./TRAINER-AUDIT.md) |
 | **4** | Автопроверки (build, questions:verify) | ⏳ Ожидает |
-| **5** | Ручной чеклист (A1–B2, Free/Premium) | ⏳ Ожидает |
+| **5** | Ручной чеклист (A1–B2, Free/Premium) | 🔄 См. [STAGE5-CHECKLIST.md](./STAGE5-CHECKLIST.md) |
 | **6** | Сравнение с Blogger | ⏳ Ожидает |
 | **7** | План фиксов по приоритету | ⏳ Ожидает |
 
@@ -335,6 +335,8 @@ npm run questions:verify   # линт всех .md вопросов
 | --- | --- | --- |
 | `npm run build` | ✅ Успех | 2026-06-08 |
 | `npm run questions:verify` | ✅ 60 файлов | 2026-06-08 |
+| `npm run backend:verify` | ✅ 6/6 | 2026-06-08 |
+| Прод `index-BFu_d-2b.js` | ✅ FIX-301 live | 2026-06-08 |
 
 ---
 
@@ -431,6 +433,8 @@ npm run questions:verify   # линт всех .md вопросов
 | 2026-06-08 | Trial `Serverfehler` — исправлен `SHEET_ID` (`4L1J2`→`4LlJ2`) | 1 | AI | ⏳ ждёт redeploy |
 | 2026-06-08 | P0/P1 закрыты; геймификация (3 пункта) | 1–2 | AI | ✅ |
 | 2026-06-08 | Этап 3: аудит тренажёра → `TRAINER-AUDIT.md` | 3 | AI | ✅ |
+| 2026-06-08 | FIX-300/301 streak + free daily limit | 3 | AI | ✅ |
+| 2026-06-08 | Этап 5 чеклист → `STAGE5-CHECKLIST.md`, прод `BFu_d-2b` | 5 | AI | 🔄 |
 | | | | | |
 
 ---
