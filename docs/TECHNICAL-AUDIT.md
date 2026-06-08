@@ -92,7 +92,7 @@
 
 | Этап | Фокус | Статус |
 | --- | --- | --- |
-| **1** | Платежи и e-mail | 🔄 В процессе (диагностика) |
+| **1** | Платежи и e-mail | 🔄 P0 — новый скрипт на GET/POST, Stripe E2E в проверке |
 | **2** | Premium-профиль и контакт | ⏳ Ожидает |
 | **3** | Аудит тренажёра | ⏳ Ожидает |
 | **4** | Автопроверки (build, questions:verify) | ⏳ Ожидает |
@@ -112,9 +112,9 @@
 | 1.2 | Stripe Payment Links (4 шт.) в коде | ✅ | basis, 1month, 3months, 12months |
 | 1.3 | Stripe Webhooks настроены | ✅ | По вашим словам — нужно проверить логи |
 | 1.4 | `APP_BASE_URL` = `https://lernziel-deutsch.de` | ✅ | В `payment.js` |
-| 1.5 | Живой Apps Script = новый `Code.gs` из репо? | ❌ | GET отвечает **по-русски** → старый скрипт |
-| 1.6 | GET `validateCode` работает | ⚠️ | JSON приходит, но старая логика |
-| 1.7 | POST `requestTrial` работает | ❓ | curl вернул HTML; нужен тест с сайта |
+| 1.5 | Живой Apps Script = новый `Code.gs` из репо? | ✅ | GET: `Code nicht gefunden` (нем.) |
+| 1.6 | GET `validateCode` работает | ✅ | Новая логика из репо |
+| 1.7 | POST `requestTrial` работает | ✅ | `fetch` / `verify-backend.mjs`; curl -L вводит в заблуждение |
 | 1.8 | POST `contactForm` работает | ✅ | Подтверждено: письмо пришло 2026-06-08 |
 | 1.9 | POST Stripe webhook доставляется | ❓ | Проверить Stripe Dashboard |
 | 1.10 | E-mail после оплаты приходит | ❓ | Нужен ваш тест / лог |
@@ -122,19 +122,22 @@
 | 1.12 | Premium активируется после клика по ссылке | ❓ | Не проверено end-to-end |
 | 1.13 | Stripe success redirect `?stripe_success=1` | ❓ | Проверить в Stripe Payment Links |
 
-### Критическая находка (2026-06-08)
+### Обновление P0 (2026-06-08)
 
-**Живой backend отвечает по-разному на GET и POST:**
+**Новый `Code.gs` задеплоен** — GET и POST отвечают по-немецки / JSON.
 
 ```bash
-# GET — работает (старый скрипт)
+# GET — новый скрипт
 curl ".../exec?action=validateCode&code=TEST"
-→ {"ok":false,"error":"Код не найден"}
+→ {"ok":false,"error":"Code nicht gefunden"}
 
-# POST — не работает (HTML вместо JSON)
-curl -X POST ".../exec" -d '{"requestTrial":true,...}'
-→ HTML-страница Google «страница не найдена»
+# POST — работает через fetch (браузер / node scripts/verify-backend.mjs)
+→ {"ok":true,...} после 302 redirect
+
+# curl -L с application/json может показать HTML — это артефакт curl, не баг backend
 ```
+
+Полный чеклист: [P0-DEPLOY-CHECKLIST.md](./P0-DEPLOY-CHECKLIST.md)
 
 **Уточнение (2026-06-08):** контактная форма **работает** — тестовое письмо пришло
 (имя `Audit`, email `test@example.com`, тело `test`). Значит `doPost` для контакта

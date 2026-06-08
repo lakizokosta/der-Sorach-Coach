@@ -5,8 +5,8 @@
  * When Premium is NOT active, this screen shows (top to bottom):
  *   - An optional "Zeitlimit aufheben" Basis quick-buy banner when
  *     the user arrives from `?focus=basis`.
- *   - The activation form — code + e-mail field, with an inline
- *     Magic-Link request and a Trial-Code request.
+ *   - Unified account flow: Step 1 Magic Link login → Step 2 code
+ *     activation (e-mail taken from the session). Optional trial block.
  *   - The Premium buy form (plan picker + Stripe + PayPal).
  *
  * When Premium IS active, this screen shows:
@@ -15,7 +15,7 @@
  *   - A topic count badge per topic (read from the sample bank).
  */
 
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
@@ -48,30 +48,58 @@ const { state: xp, level: liveLevel } = useXp();
 const { state: auth, isLoggedIn, logout } = useAuth();
 
 const USER_EMAIL_KEY = 'userEmail';
+const PENDING_CODE_KEY = 'pendingActivationCode';
 const backendOn = hasBackend();
 
 const activeLevel = ref('A1');
 const code = ref('');
-const activationEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
+/** Single e-mail field for login, trial, and checkout when not logged in. */
+const accountEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
 const status = ref({ text: '', color: '#888' });
 const submitting = ref(false);
 
 const focusBasis = computed(() => route.query.focus === 'basis');
 const topics = computed(() => getTopicsForLevel(activeLevel.value));
 
+/** E-mail used for code activation, trial, and payment pre-fill. */
+const sharedEmail = computed(() =>
+  isLoggedIn.value
+    ? String(auth.email || '').trim().toLowerCase()
+    : accountEmail.value.trim().toLowerCase(),
+);
+
 const plan = ref('1month');
-const email = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
 const agbChecked = ref(false);
 const buyStatus = ref({ text: '', color: '#888' });
-const basisEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
 
-const magicEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
 const magicStatus = ref({ text: '', color: '#888' });
 const magicSubmitting = ref(false);
 
-const trialEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
 const trialStatus = ref({ text: '', color: '#888' });
 const trialSubmitting = ref(false);
+
+watch(
+  () => auth.email,
+  (value) => {
+    if (value) accountEmail.value = value;
+  },
+);
+
+onMounted(() => {
+  try {
+    const pending = sessionStorage.getItem(PENDING_CODE_KEY) || '';
+    if (pending && !code.value) {
+      code.value = pending.toUpperCase();
+      sessionStorage.removeItem(PENDING_CODE_KEY);
+      status.value = {
+        text: 'Code aus der E-Mail übernommen — bitte einloggen und aktivieren.',
+        color: '#AB4DBB',
+      };
+    }
+  } catch {
+    /* ignored */
+  }
+});
 
 /**
  * Validates the buy form (email + AGB checkbox).
@@ -80,9 +108,14 @@ const trialSubmitting = ref(false);
  *   `buyStatus` to an error message and returns false.
  */
 function validateBuyForm() {
-  const value = email.value.trim();
+  const value = sharedEmail.value;
   if (!value || !value.includes('@')) {
-    buyStatus.value = { text: '✖ Bitte gültige Email-Adresse eingeben.', color: '#ed4545' };
+    buyStatus.value = {
+      text: isLoggedIn.value
+        ? '✖ Keine E-Mail in der Sitzung.'
+        : '✖ Bitte zuerst in Schritt 1 deine E-Mail eingeben.',
+      color: '#ed4545',
+    };
     return false;
   }
   if (!agbChecked.value) {
@@ -99,10 +132,10 @@ function validateBuyForm() {
  */
 function payWithStripe() {
   if (!validateBuyForm()) return;
-  const url = buildStripePremiumUrl(plan.value, email.value.trim());
+  const url = buildStripePremiumUrl(plan.value, sharedEmail.value);
   window.open(url, '_blank', 'noopener');
   buyStatus.value = {
-    text: `💳 Stripe-Seite geöffnet. Nach der Zahlung erhältst du deinen Code per E-Mail an ${email.value.trim()}.`,
+    text: `💳 Stripe-Seite geöffnet. Nach der Zahlung erhältst du deinen Code per E-Mail an ${sharedEmail.value}.`,
     color: '#635BFF',
   };
 }
@@ -116,7 +149,7 @@ function payWithPaypal() {
   const url = buildPaypalUrl(plan.value);
   window.open(url, '_blank', 'noopener');
   buyStatus.value = {
-    text: `💳 PayPal-Seite geöffnet. Nach der Zahlung schicken wir den Code an ${email.value.trim()}.`,
+    text: `💳 PayPal-Seite geöffnet. Nach der Zahlung schicken wir den Code an ${sharedEmail.value}.`,
     color: '#0070BA',
   };
 }
@@ -127,10 +160,16 @@ function payWithPaypal() {
  * mini-form (or the stored userEmail) for pre-fill.
  */
 function payBasis() {
-  const value = (basisEmail.value || '').trim();
-  if (value) saveString(USER_EMAIL_KEY, value);
-  const url = buildStripeBasisUrl(value);
-  window.open(url, '_blank', 'noopener');
+  const value = sharedEmail.value;
+  if (!value || !value.includes('@')) {
+    buyStatus.value = {
+      text: '✖ Bitte zuerst deine E-Mail in Schritt 1 eingeben.',
+      color: '#ed4545',
+    };
+    return;
+  }
+  saveString(USER_EMAIL_KEY, value);
+  window.open(buildStripeBasisUrl(value), '_blank', 'noopener');
 }
 
 /**
@@ -150,12 +189,24 @@ function questionCount(topicKey) {
  */
 async function submitCode() {
   if (submitting.value) return;
+  const trimmedCode = code.value.trim();
+  if (!trimmedCode) {
+    status.value = { text: '✖ Bitte Code eingeben.', color: '#ed4545' };
+    return;
+  }
+  if (backendOn && !isLoggedIn.value) {
+    status.value = {
+      text: '✖ Bitte zuerst in Schritt 1 einloggen (gleiche E-Mail wie beim Kauf).',
+      color: '#ed4545',
+    };
+    return;
+  }
+
   submitting.value = true;
   status.value = { text: 'Wird überprüft…', color: '#888' };
-  const trimmedEmail = activationEmail.value.trim();
-  if (trimmedEmail) saveString(USER_EMAIL_KEY, trimmedEmail);
 
-  const res = await activateCode(code.value, trimmedEmail);
+  const emailForCode = backendOn ? auth.email : sharedEmail.value;
+  const res = await activateCode(trimmedCode, emailForCode);
   submitting.value = false;
 
   if (res.ok) {
@@ -164,6 +215,7 @@ async function submitCode() {
       color: '#69c43b',
     };
     code.value = '';
+    setTimeout(() => window.location.reload(), 1500);
   } else {
     status.value = { text: `✖ ${res.error}`, color: '#ed4545' };
   }
@@ -175,8 +227,8 @@ async function submitCode() {
  * app startup by `BootstrapHandler.vue`.
  */
 async function submitMagicLink() {
-  if (magicSubmitting.value) return;
-  const value = magicEmail.value.trim();
+  if (magicSubmitting.value || isLoggedIn.value) return;
+  const value = accountEmail.value.trim().toLowerCase();
   if (!value || !value.includes('@')) {
     magicStatus.value = { text: '✖ Bitte gültige Email-Adresse eingeben.', color: '#ed4545' };
     return;
@@ -209,9 +261,14 @@ async function submitMagicLink() {
  */
 async function submitTrial() {
   if (trialSubmitting.value) return;
-  const value = trialEmail.value.trim();
+  const value = sharedEmail.value;
   if (!value || !value.includes('@')) {
-    trialStatus.value = { text: '✖ Bitte gültige Email-Adresse eingeben.', color: '#ed4545' };
+    trialStatus.value = {
+      text: isLoggedIn.value
+        ? '✖ Keine E-Mail in der Sitzung.'
+        : '✖ Bitte zuerst in Schritt 1 deine E-Mail eingeben.',
+      color: '#ed4545',
+    };
     return;
   }
   trialSubmitting.value = true;
@@ -341,20 +398,18 @@ function topicMastered(key) {
               Einmalzahlung · kein Abo · sofort aktiv. Nach der Zahlung erhältst
               du den Aktivierungscode per E-Mail.
             </p>
-            <input
-              v-model="basisEmail"
-              type="email"
-              placeholder="Deine Email-Adresse"
-              style="
-                width: 100%;
-                padding: 12px;
-                border-radius: 12px;
-                border: 1px solid #ddd;
-                font-size: 14px;
-                margin-bottom: 10px;
-                box-sizing: border-box;
-              "
-            />
+            <p
+              v-if="sharedEmail"
+              style="font-size: 13px; color: #5b1f6a; margin: 0 0 10px 0;"
+            >
+              📧 Code an: <strong>{{ sharedEmail }}</strong>
+            </p>
+            <p
+              v-else
+              style="font-size: 12px; color: #888; margin: 0 0 10px 0;"
+            >
+              Gib unten in Schritt 1 deine E-Mail ein.
+            </p>
             <button
               type="button"
               @click="payBasis"
@@ -377,41 +432,94 @@ function topicMastered(key) {
             </p>
           </div>
 
-          <div
-            v-if="isLoggedIn"
-            style="
-              background: linear-gradient(135deg, #FFD700, #FFB700);
-              border-radius: 14px;
-              padding: 12px 16px;
-              margin-bottom: 14px;
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              gap: 10px;
-            "
-          >
-            <div style="font-size: 13px; font-weight: 900; color: #000; overflow: hidden; text-overflow: ellipsis;">
-              👤 {{ auth.email }}
+          <section v-if="backendOn" class="premium-flow" aria-label="Konto und Aktivierung">
+            <div class="premium-flow__head">
+              <span class="premium-flow__title">👤 Konto &amp; Aktivierung</span>
             </div>
-            <button
-              type="button"
-              @click="signOut"
-              style="
-                background: rgba(0, 0, 0, 0.18);
-                color: #000;
-                border: none;
-                border-radius: 999px;
-                padding: 6px 14px;
-                font-size: 12px;
-                font-weight: 900;
-                cursor: pointer;
-              "
+            <p class="premium-flow__intro">
+              <strong>Schritt 1:</strong> Mit derselben E-Mail einloggen, die du beim Kauf nutzt.
+              <strong>Schritt 2:</strong> Code aus der E-Mail eingeben.
+            </p>
+
+            <div class="premium-flow__step">
+              <div class="premium-flow__step-label">
+                <span class="premium-flow__step-num">1</span>
+                Einloggen (Magic Link)
+              </div>
+
+              <div v-if="isLoggedIn" class="premium-flow__logged-in">
+                <span class="premium-flow__logged-email">✅ {{ auth.email }}</span>
+                <button type="button" class="premium-flow__signout" @click="signOut">
+                  Abmelden
+                </button>
+              </div>
+
+              <template v-else>
+                <input
+                  v-model="accountEmail"
+                  type="email"
+                  class="premium-flow__input"
+                  placeholder="deine@email.de"
+                />
+                <button
+                  type="button"
+                  class="premium-flow__btn premium-flow__btn--login"
+                  :disabled="magicSubmitting"
+                  @click="submitMagicLink"
+                >
+                  {{ magicSubmitting ? 'Wird gesendet…' : 'Login-Link senden' }}
+                </button>
+                <p class="premium-flow__hint">
+                  Link ist 30 Minuten gültig · Fortschritt wird auf allen Geräten gespeichert.
+                </p>
+                <div
+                  v-if="magicStatus.text"
+                  class="premium-flow__status"
+                  :style="{ color: magicStatus.color }"
+                >
+                  {{ magicStatus.text }}
+                </div>
+              </template>
+            </div>
+
+            <div
+              class="premium-flow__step"
+              :class="{ 'premium-flow__step--locked': backendOn && !isLoggedIn }"
             >
-              Abmelden
-            </button>
-          </div>
+              <div class="premium-flow__step-label">
+                <span class="premium-flow__step-num">2</span>
+                Aktivierungscode
+              </div>
+              <input
+                v-model="code"
+                type="text"
+                class="premium-flow__input premium-flow__input--code"
+                :placeholder="backendOn ? 'Code aus der E-Mail (z.B. STRIPE_…)' : 'z.B. PREMIUM_DEMO'"
+                :disabled="backendOn && !isLoggedIn"
+              />
+              <button
+                type="button"
+                class="premium-flow__btn premium-flow__btn--code"
+                :disabled="submitting || (backendOn && !isLoggedIn)"
+                @click="submitCode"
+              >
+                {{ submitting ? 'Wird überprüft…' : 'Code aktivieren' }}
+              </button>
+              <p v-if="backendOn && !isLoggedIn" class="premium-flow__hint">
+                Bitte zuerst Schritt 1 abschließen.
+              </p>
+              <div
+                v-if="status.text"
+                class="premium-flow__status"
+                :style="{ color: status.color }"
+              >
+                {{ status.text }}
+              </div>
+            </div>
+          </section>
 
           <div
+            v-else
             style="
               background: #f9f9f9;
               border-radius: 16px;
@@ -419,11 +527,11 @@ function topicMastered(key) {
               margin-bottom: 16px;
             "
           >
-            <div style="font-weight: 700; margin-bottom: 8px;">🔑 Aktivierungscode</div>
+            <div style="font-weight: 700; margin-bottom: 8px;">🔑 Aktivierungscode (Demo)</div>
             <input
               v-model="code"
               type="text"
-              :placeholder="backendOn ? 'Aktivierungscode (z.B. STRIPE_…, BASIS_…)' : 'z.B. PREMIUM_DEMO oder BASIS_TEST'"
+              placeholder="z.B. PREMIUM_DEMO oder BASIS_TEST"
               style="
                 width: 100%;
                 padding: 14px;
@@ -435,185 +543,50 @@ function topicMastered(key) {
                 box-sizing: border-box;
               "
             />
-            <input
-              v-if="backendOn"
-              v-model="activationEmail"
-              type="email"
-              placeholder="Deine Email-Adresse (für Verifizierung)"
-              style="
-                width: 100%;
-                padding: 14px;
-                border-radius: 12px;
-                border: 1px solid #ddd;
-                font-size: 15px;
-                margin-bottom: 8px;
-                box-sizing: border-box;
-              "
-            />
             <button
               type="button"
+              class="premium-flow__btn premium-flow__btn--code"
               :disabled="submitting"
               @click="submitCode"
-              style="
-                width: 100%;
-                padding: 12px;
-                border-radius: 12px;
-                border: none;
-                background: #AB4DBB;
-                color: #fff;
-                font-weight: 900;
-                font-size: 14px;
-                cursor: pointer;
-              "
-              :style="submitting ? 'opacity: 0.6; cursor: progress;' : ''"
             >
               {{ submitting ? 'Wird überprüft…' : 'Code aktivieren' }}
             </button>
             <div
+              v-if="status.text"
               style="font-size: 13px; margin-top: 12px; min-height: 18px;"
               :style="{ color: status.color }"
             >
               {{ status.text }}
             </div>
-            <p v-if="!backendOn" style="font-size: 11px; color: #999; margin-top: 12px;">
-              Demo-Modus: jeder Code, der mit <strong>PREMIUM</strong> beginnt,
-              schaltet Premium für 30 Tage frei; <strong>BASIS</strong>-Codes
-              heben das Zeitlimit dauerhaft auf.
-            </p>
           </div>
 
-          <details
-            v-if="backendOn"
-            style="
-              background: #f3f7ff;
-              border: 1px solid #cfd9ef;
-              border-radius: 16px;
-              padding: 12px 16px;
-              margin-bottom: 16px;
-            "
-          >
-            <summary
-              style="
-                cursor: pointer;
-                font-weight: 700;
-                color: #2a4dbf;
-                font-size: 14px;
-              "
+          <details v-if="backendOn" class="premium-flow-trial">
+            <summary>🎁 1 Tag gratis testen</summary>
+            <p class="premium-flow__hint">
+              <template v-if="isLoggedIn">
+                Trial-Code wird an <strong>{{ auth.email }}</strong> gesendet.
+              </template>
+              <template v-else-if="sharedEmail">
+                Trial-Code wird an <strong>{{ sharedEmail }}</strong> gesendet.
+              </template>
+              <template v-else>
+                Gib zuerst in Schritt 1 deine E-Mail ein.
+              </template>
+            </p>
+            <button
+              type="button"
+              class="premium-flow__btn premium-flow__btn--trial"
+              :disabled="trialSubmitting"
+              @click="submitTrial"
             >
-              ✉️ Anmelden mit Email (Magic Link)
-            </summary>
-            <div style="margin-top: 12px;">
-              <input
-                v-model="magicEmail"
-                type="email"
-                placeholder="Deine Email-Adresse"
-                style="
-                  width: 100%;
-                  padding: 12px;
-                  border-radius: 10px;
-                  border: 1px solid #cfd9ef;
-                  font-size: 14px;
-                  margin-bottom: 8px;
-                  box-sizing: border-box;
-                "
-              />
-              <button
-                type="button"
-                :disabled="magicSubmitting"
-                @click="submitMagicLink"
-                style="
-                  width: 100%;
-                  padding: 12px;
-                  border-radius: 10px;
-                  border: none;
-                  background: #2a4dbf;
-                  color: #fff;
-                  font-weight: 900;
-                  font-size: 14px;
-                  cursor: pointer;
-                "
-                :style="magicSubmitting ? 'opacity:0.6;cursor:progress;' : ''"
-              >
-                {{ magicSubmitting ? 'Wird gesendet…' : 'Link senden' }}
-              </button>
-              <div
-                v-if="magicStatus.text"
-                style="font-size: 12px; margin-top: 10px; min-height: 14px;"
-                :style="{ color: magicStatus.color }"
-              >
-                {{ magicStatus.text }}
-              </div>
-              <p style="font-size: 11px; color: #888; margin-top: 8px;">
-                Wir senden dir einen Link – der Link ist 15 Minuten gültig
-                und meldet dich automatisch an.
-              </p>
-            </div>
-          </details>
-
-          <details
-            v-if="backendOn"
-            style="
-              background: #f4fff0;
-              border: 1px solid #cfe9c0;
-              border-radius: 16px;
-              padding: 12px 16px;
-              margin-bottom: 16px;
-            "
-          >
-            <summary
-              style="
-                cursor: pointer;
-                font-weight: 700;
-                color: #2e7d32;
-                font-size: 14px;
-              "
+              {{ trialSubmitting ? 'Wird angefordert…' : 'Gratis-Code anfordern' }}
+            </button>
+            <div
+              v-if="trialStatus.text"
+              class="premium-flow__status"
+              :style="{ color: trialStatus.color }"
             >
-              🎁 1 Tag gratis testen
-            </summary>
-            <div style="margin-top: 12px;">
-              <input
-                v-model="trialEmail"
-                type="email"
-                placeholder="Deine Email-Adresse"
-                style="
-                  width: 100%;
-                  padding: 12px;
-                  border-radius: 10px;
-                  border: 1px solid #cfe9c0;
-                  font-size: 14px;
-                  margin-bottom: 8px;
-                  box-sizing: border-box;
-                "
-              />
-              <button
-                type="button"
-                :disabled="trialSubmitting"
-                @click="submitTrial"
-                style="
-                  width: 100%;
-                  padding: 12px;
-                  border-radius: 10px;
-                  border: none;
-                  background: #2e7d32;
-                  color: #fff;
-                  font-weight: 900;
-                  font-size: 14px;
-                  cursor: pointer;
-                "
-                :style="trialSubmitting ? 'opacity:0.6;cursor:progress;' : ''"
-              >
-                {{ trialSubmitting ? 'Wird angefordert…' : 'Gratis-Code anfordern' }}
-              </button>
-              <div
-                v-if="trialStatus.text"
-                style="font-size: 12px; margin-top: 10px; min-height: 14px;"
-                :style="{ color: trialStatus.color }"
-              >
-                {{ trialStatus.text }}
-              </div>
-              <p style="font-size: 11px; color: #888; margin-top: 8px;">
-                Einmaliger Gratis-Code (24 h) — ein Code pro Email und Gerät.
-              </p>
+              {{ trialStatus.text }}
             </div>
           </details>
 
@@ -660,23 +633,14 @@ function topicMastered(key) {
               </label>
             </div>
 
-            <div style="font-size: 13px; color: #666; margin-bottom: 6px;">
-              Gib deine Email ein:
-            </div>
-            <input
-              v-model="email"
-              type="email"
-              placeholder="Deine Email-Adresse"
-              style="
-                width: 100%;
-                padding: 14px;
-                border-radius: 12px;
-                border: 1px solid #ddd;
-                font-size: 15px;
-                margin-bottom: 12px;
-                box-sizing: border-box;
-              "
-            />
+            <p style="font-size: 13px; color: #666; margin: 0 0 12px 0;">
+              <template v-if="sharedEmail">
+                Code nach Zahlung an: <strong>{{ sharedEmail }}</strong>
+              </template>
+              <template v-else>
+                Gib oben in <strong>Schritt 1</strong> deine E-Mail ein — dieselbe für Stripe.
+              </template>
+            </p>
 
             <label
               style="

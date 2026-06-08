@@ -35,7 +35,7 @@ Every outgoing e-mail uses the script owner's Gmail (free tier limit: **100 e-ma
    | Constant | Value |
    | --- | --- |
    | `SHEET_ID` | The ID from step 1. |
-   | `APP_BASE_URL` | Public URL of the deployed SPA (e.g. `https://der-sprachcoach.workers.dev`). MUST match `APP_BASE_URL` in `src/data/payment.js`. |
+   | `APP_BASE_URL` | Public URL of the deployed SPA (`https://lernziel-deutsch.de`). MUST match `APP_BASE_URL` in `src/data/payment.js`. |
    | `SUPPORT_EMAIL` | Address that receives contact-form mails. |
    | `WEBHOOK_SECRET` | Generate a long random string (e.g. `openssl rand -hex 24`). |
    | `PAYPAL_MERCHANT_EMAIL` | Your PayPal account's primary e-mail. |
@@ -87,7 +87,7 @@ Re-build and re-deploy the SPA so the new URL is bundled.
 For each Stripe Payment Link, set the **After payment** redirect to:
 
 ```
-https://der-sprachcoach.workers.dev/?stripe_success=1
+https://lernziel-deutsch.de/?stripe_success=1
 ```
 
 The SPA's `BootstrapHandler` then shows the *"Prüfe deine E-Mail"* banner.
