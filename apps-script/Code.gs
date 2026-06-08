@@ -80,6 +80,15 @@ const STRIPE_AMOUNT_MAP = {
   9000: { months: 12, plan: '12months', label: '12 Monate Premium'         },
 };
 
+/**
+ * TEMPORARY trial QA flag — set to `false` before production.
+ *
+ * When `true`, addresses whose local part contains `+test`
+ * (e.g. `you+test@gmail.com`) may request unlimited trial codes:
+ * the Trial-sheet deduplication (one per e-mail / device) is skipped.
+ */
+const TRIAL_TEST_MODE = true;
+
 /** Magic-link rate limit per e-mail address (sliding window). */
 const MAGIC_LINK_RATE = { count: 3, windowMs: 10 * 60 * 1000 };
 
@@ -454,7 +463,23 @@ function issueMagicSessionToken_(email, deviceId) {
    ──────────────────────────────────────────────────────────────── */
 
 /**
+ * Returns true when `TRIAL_TEST_MODE` is on and the address is a QA
+ * inbox (`+test` in the local part, e.g. `user+test@gmail.com`).
+ *
+ * @param {string} email  Normalised lower-case e-mail.
+ * @return {boolean}
+ */
+function isTrialTestBypassEmail_(email) {
+  if (!TRIAL_TEST_MODE) return false;
+  return String(email || '').toLowerCase().includes('+test');
+}
+
+/**
  * Issues one 1-day trial code per (e-mail, device) pair.
+ *
+ * QA bypass: when `TRIAL_TEST_MODE` is true and the e-mail contains
+ * `+test`, deduplication is skipped so the same device can be tested
+ * repeatedly (each request still creates a fresh code + e-mail).
  *
  * @param {!Object} body  {email, deviceId}.
  * @return {!Object}
@@ -464,12 +489,16 @@ function requestTrial(body) {
   const deviceId = String(body.deviceId || '').trim();
   if (!isValidEmail_(email)) return { ok: false, error: 'Ungültige E-Mail' };
 
-  const sheet = sheet_('Trial', ['email', 'deviceId', 'code', 'issuedAt']);
-  const data = sheet.getDataRange().getValues();
-  for (let r = 1; r < data.length; r++) {
-    if (String(data[r][0]).toLowerCase() === email
-        || String(data[r][1]) === deviceId) {
-      return { ok: false, error: 'Du hast bereits einen Trial-Code erhalten.' };
+  const testBypass = isTrialTestBypassEmail_(email);
+
+  if (!testBypass) {
+    const trialSheet = sheet_('Trial', ['email', 'deviceId', 'code', 'issuedAt']);
+    const data = trialSheet.getDataRange().getValues();
+    for (let r = 1; r < data.length; r++) {
+      if (String(data[r][0]).toLowerCase() === email
+          || String(data[r][1]) === deviceId) {
+        return { ok: false, error: 'Du hast bereits einen Trial-Code erhalten.' };
+      }
     }
   }
 
@@ -481,9 +510,12 @@ function requestTrial(body) {
     code, email, 'trial', 0, new Date(), '', '', 'trial',
     new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
   ]);
-  sheet.appendRow([email, deviceId, code, new Date()]);
+  if (!testBypass) {
+    const trialSheet = sheet_('Trial', ['email', 'deviceId', 'code', 'issuedAt']);
+    trialSheet.appendRow([email, deviceId, code, new Date()]);
+  }
   sendTrialCodeEmail_(email, code);
-  return { ok: true };
+  return { ok: true, testMode: testBypass };
 }
 
 /* ────────────────────────────────────────────────────────────────
