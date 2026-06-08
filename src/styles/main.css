@@ -527,15 +527,95 @@ button { font-family: inherit; }
 
 /* ── Misc ───────────────────────────────────────────────────────────────── */
 .small-note { font-size: 12px; color: #666; margin-top: 6px; }
+.training-badges-wrap {
+  position: relative;
+  margin: -6px auto 8px auto;
+  max-width: 560px;
+}
 .training-badges {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
-  margin: -6px 0 8px;
   font-size: 12px;
   font-weight: 700;
   color: #ab4dbb;
+}
+.training-badge {
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+.training-badge--streak {
+  background: #fff3e0;
+  border: 1px solid #ffcc80;
+}
+.training-badge--xp {
+  background: #f3e5f5;
+  border: 1px solid #ce93d8;
+  color: #6a1b9a;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.training-badge--prem {
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  color: #b8860b;
+}
+.training-badge--pulse {
+  animation: xp-badge-pulse 0.5s ease;
+}
+@keyframes xp-badge-pulse {
+  0%   { transform: scale(1);    box-shadow: 0 0 0 0 rgba(171, 77, 187, 0.45); }
+  45%  { transform: scale(1.08); box-shadow: 0 0 0 8px rgba(171, 77, 187, 0); }
+  100% { transform: scale(1);    box-shadow: 0 0 0 0 rgba(171, 77, 187, 0); }
+}
+.micro-feedback {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 6px);
+  transform: translateX(-50%);
+  min-width: 140px;
+  padding: 8px 14px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.35;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.14);
+  pointer-events: none;
+  z-index: 5;
+}
+.micro-feedback__line + .micro-feedback__line {
+  margin-top: 2px;
+  font-size: 12px;
+}
+.micro-feedback--good {
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  border: 1.5px solid #81c784;
+  color: #2e7d32;
+}
+.micro-feedback--bad {
+  background: linear-gradient(135deg, #ffebee, #ffcdd2);
+  border: 1.5px solid #e57373;
+  color: #c62828;
+}
+.micro-feedback--celebrate {
+  background: linear-gradient(135deg, #fff8e1, #ffe082);
+  border: 1.5px solid #ffb300;
+  color: #6a1b00;
+}
+.micro-fb-enter-active {
+  animation: micro-fb-in 0.35s ease forwards;
+}
+.micro-fb-leave-active {
+  animation: micro-fb-out 0.3s ease forwards;
+}
+@keyframes micro-fb-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(8px) scale(0.92); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0) scale(1); }
+}
+@keyframes micro-fb-out {
+  from { opacity: 1; transform: translateX(-50%) translateY(0) scale(1); }
+  to   { opacity: 0; transform: translateX(-50%) translateY(-10px) scale(0.95); }
 }
 .live-score {
   display: flex;

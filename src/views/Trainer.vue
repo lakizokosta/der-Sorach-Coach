@@ -35,7 +35,7 @@ const FREE_SESSION_KEY = 'lzd_free_start_ms';
 const route = useRoute();
 const router = useRouter();
 const { isPremium, isBasis } = usePremium();
-const { addXP, state: xpState, level: liveLevel } = useXp();
+const { addXP, state: xpState, level: liveLevel, MASTERY_THRESHOLD } = useXp();
 const { state: streakState, recordActivityToday } = useStreak();
 
 const level = ref(route.query.level || 'A1');
@@ -60,6 +60,11 @@ const showGrammarTip = ref(false);
 const wrongTopics = ref({});              // key -> { name, level, count }
 const upsellHtml = ref('');
 const lastAnswerResolved = ref(false);    // is the head question fully resolved?
+
+/** Short-lived toast after each answer (+XP, level-up, mastery). */
+const microFeedback = ref({ visible: false, lines: [], tone: 'good' });
+const xpBadgePulse = ref(false);
+let microFeedbackTimer = null;
 
 const timer = useTimer(
   isPrem.value || isBasis.value
@@ -105,14 +110,55 @@ function activeTopicKey() {
 }
 
 /**
- * Applies an immediate XP change visible in the live badge.
+ * Shows a floating micro-feedback toast near the XP badge.
+ *
+ * @param {string[]} lines
+ * @param {('good'|'bad'|'celebrate')} tone
+ */
+function showMicroFeedback(lines, tone) {
+  if (!lines.length) return;
+  if (microFeedbackTimer) clearTimeout(microFeedbackTimer);
+  microFeedback.value = { visible: true, lines, tone };
+  xpBadgePulse.value = true;
+  setTimeout(() => {
+    xpBadgePulse.value = false;
+  }, 500);
+  microFeedbackTimer = setTimeout(() => {
+    microFeedback.value = { ...microFeedback.value, visible: false };
+  }, 2200);
+}
+
+/**
+ * Applies an immediate XP change and triggers micro-feedback.
  *
  * @param {boolean} wasCorrect
  */
 function applyAnswerXp(wasCorrect) {
   const delta = wasCorrect ? xpPerAnswer.value : -xpPerAnswer.value;
   const topicKey = activeTopicKey();
+  const levelBefore = getLevel(xpState.totalXP);
+  const topicCountBefore = topicKey ? (xpState.topicCorrect[topicKey] || 0) : 0;
+
   addXP(delta, topicKey || undefined, wasCorrect ? 1 : topicKey ? -1 : undefined);
+
+  const lines = [wasCorrect ? `+${delta} XP` : `${delta} XP`];
+  const levelAfter = getLevel(xpState.totalXP);
+  let tone = wasCorrect ? 'good' : 'bad';
+
+  if (levelAfter.num > levelBefore.num) {
+    lines.push(`🎉 Lv${levelAfter.num} — ${levelAfter.name}!`);
+    tone = 'celebrate';
+  }
+
+  if (wasCorrect && topicKey) {
+    const countAfter = xpState.topicCorrect[topicKey] || 0;
+    if (topicCountBefore < MASTERY_THRESHOLD && countAfter >= MASTERY_THRESHOLD) {
+      lines.push('🏆 Thema gemeistert!');
+      tone = 'celebrate';
+    }
+  }
+
+  showMicroFeedback(lines, tone);
 }
 
 /** Loads the queue, restores any free-session timer, kicks things off. */
@@ -143,7 +189,7 @@ onMounted(() => {
 });
 
 onBeforeUnmount(() => {
-  // Save partial XP when navigating away mid-session.
+  if (microFeedbackTimer) clearTimeout(microFeedbackTimer);
   saveProgressEarly();
 });
 
@@ -565,41 +611,42 @@ const canAdvance = computed(() => lastAnswerResolved.value);
       </div>
     </div>
 
-    <div class="training-badges">
-      <span
-        v-if="streakState.currentStreak > 0"
-        style="
-          background: #fff3e0;
-          border: 1px solid #ffcc80;
-          border-radius: 20px;
-          padding: 4px 12px;
-        "
-      >
-        🔥 Tag {{ streakState.currentStreak }}
-      </span>
-      <span
-        style="
-          background: #f3e5f5;
-          border: 1px solid #ce93d8;
-          border-radius: 20px;
-          padding: 4px 12px;
-          color: #6a1b9a;
-        "
-      >
-        ⭐ {{ xpState.totalXP }} XP · Lv{{ liveLevel.num }}
-      </span>
-      <span
-        v-if="isPrem"
-        style="
-          background: #fff8e1;
-          border: 1px solid #ffe082;
-          border-radius: 20px;
-          padding: 4px 12px;
-          color: #b8860b;
-        "
-      >
-        💎 ×2 XP
-      </span>
+    <div class="training-badges-wrap">
+      <div class="training-badges">
+        <span
+          v-if="streakState.currentStreak > 0"
+          class="training-badge training-badge--streak"
+        >
+          🔥 Tag {{ streakState.currentStreak }}
+        </span>
+        <span
+          class="training-badge training-badge--xp"
+          :class="{ 'training-badge--pulse': xpBadgePulse }"
+        >
+          ⭐ {{ xpState.totalXP }} XP · Lv{{ liveLevel.num }}
+        </span>
+        <span v-if="isPrem" class="training-badge training-badge--prem">
+          💎 ×2 XP
+        </span>
+      </div>
+
+      <Transition name="micro-fb">
+        <div
+          v-if="microFeedback.visible"
+          class="micro-feedback"
+          :class="`micro-feedback--${microFeedback.tone}`"
+          role="status"
+          aria-live="polite"
+        >
+          <div
+            v-for="(line, idx) in microFeedback.lines"
+            :key="idx"
+            class="micro-feedback__line"
+          >
+            {{ line }}
+          </div>
+        </div>
+      </Transition>
     </div>
 
     <h2 style="margin: 6px 0 12px 0;">
