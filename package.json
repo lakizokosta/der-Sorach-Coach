@@ -11,6 +11,7 @@
     "deploy": "vite build && wrangler deploy",
     "questions:verify": "node scripts/verify-questions.mjs",
     "questions:stats": "node scripts/question-stats.mjs",
+    "questions:generate-a1": "node scripts/generate-a1-select-one.mjs",
     "backend:verify": "node scripts/verify-backend.mjs"
   },
   "dependencies": {

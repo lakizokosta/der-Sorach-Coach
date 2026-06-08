@@ -1,0 +1,12 @@
+---
+id: a1-wech-007
+type: select-one
+options:
+  - an die
+  - in der
+  - im
+  - ins
+correct: im
+---
+
+[Stadt] Ich bin ___ Park. (Ort → Dativ)

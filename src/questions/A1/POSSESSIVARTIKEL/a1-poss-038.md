@@ -1,0 +1,12 @@
+---
+id: a1-poss-038
+type: select-one
+options:
+  - dein
+  - deinen
+  - seinen
+  - seinem
+correct: seinem
+---
+
+[Hobby] Ich spiele mit ___ Computer. (er)

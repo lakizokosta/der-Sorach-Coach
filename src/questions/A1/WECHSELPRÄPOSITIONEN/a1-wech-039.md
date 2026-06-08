@@ -1,0 +1,12 @@
+---
+id: a1-wech-039
+type: select-one
+options:
+  - in der
+  - auf dem
+  - an der
+  - ins
+correct: auf dem
+---
+
+[Essen] Ich liegt ___ Tisch. (Ort → Dativ)

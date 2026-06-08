@@ -1,0 +1,12 @@
+---
+id: a1-wech-014
+type: select-one
+options:
+  - auf dem
+  - ins
+  - im
+  - auf das
+correct: auf das
+---
+
+[Stadt] Ich klettere ___ Dach. (Bewegung → Akkusativ)
