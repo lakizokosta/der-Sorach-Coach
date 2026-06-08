@@ -14,9 +14,10 @@ import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..', 'src', 'questions');
 
-/** Recursively yields every `.md` file under `dir`. */
+/** Recursively yields every `.md` file under `dir` (skips `_` folders). */
 function* walk(dir) {
   for (const entry of readdirSync(dir)) {
+    if (entry.startsWith('_')) continue;
     const full = join(dir, entry);
     const s = statSync(full);
     if (s.isDirectory()) yield* walk(full);

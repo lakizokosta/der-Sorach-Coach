@@ -95,8 +95,8 @@
 | **1** | Платежи и e-mail | ✅ P0 закрыт (Magic Link, Stripe redirect, backend) |
 | **2** | Premium-профиль и контакт | ✅ P1: Free-профиль, unified `/premium`; контакт ✅ |
 | **3** | Аудит тренажёра | ✅ См. [TRAINER-AUDIT.md](./TRAINER-AUDIT.md) |
-| **4** | Автопроверки (build, questions:verify) | ⏳ Ожидает |
-| **5** | Ручной чеклист (A1–B2, Free/Premium) | 🔄 См. [STAGE5-CHECKLIST.md](./STAGE5-CHECKLIST.md) |
+| **4** | Автопроверки (build, questions:verify) | ✅ + `questions:stats` |
+| **5** | Ручной чеклист (A1–B2, Free/Premium) | ✅ Подтверждено на проде |
 | **6** | Сравнение с Blogger | ⏳ Ожидает |
 | **7** | План фиксов по приоритету | ⏳ Ожидает |
 
@@ -435,6 +435,7 @@ npm run questions:verify   # линт всех .md вопросов
 | 2026-06-08 | Этап 3: аудит тренажёра → `TRAINER-AUDIT.md` | 3 | AI | ✅ |
 | 2026-06-08 | FIX-300/301 streak + free daily limit | 3 | AI | ✅ |
 | 2026-06-08 | Этап 5 чеклист → `STAGE5-CHECKLIST.md`, прод `BFu_d-2b` | 5 | AI | 🔄 |
+| 2026-06-08 | Ручной прогон на проде — «всё работает» | 5 | Вы | ✅ |
 | | | | | |
 
 ---
