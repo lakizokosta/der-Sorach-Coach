@@ -6,7 +6,7 @@
  *   - trainer  (`/trainer`)  The question-flow screen. Requires `level`
  *                            query param plus optional `topic` and `mode`.
  *   - premium  (`/premium`)  Activation + topic-selection screen.
- *   - profile  (`/profile`)  Premium-only mastery dashboard.
+ *   - profile  (`/profile`)  Learner dashboard (mini for Free, full for Premium).
  */
 
 import { createRouter, createWebHashHistory } from 'vue-router';

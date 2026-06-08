@@ -26,20 +26,25 @@ import { useXp, getLevel, recordTopicWrong } from '@/composables/useXp.js';
 import { getWeakestTopics, getQuestionsForWeakTopics } from '@/utils/weakTopics.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { recordQuestionAnswered } from '@/composables/useDailyGoal.js';
+import {
+  FREE_SECONDS_PER_DAY,
+  getFreeSecondsRemaining,
+  addFreeSecondsUsed,
+} from '@/composables/useFreeDailyLimit.js';
 import { useTimer, formatMmSs } from '@/composables/useTimer.js';
 
 import { getQuestionsByLevel, getQuestionsByTopic } from '@/data/questions.js';
 import { PREMIUM_TOPICS } from '@/data/premiumTopics.js';
 import { AdaptiveQueue } from '@/utils/queue.js';
 
-const FREE_SECONDS_PER_DAY = 300;
-const FREE_SESSION_KEY = 'lzd_free_start_ms';
-
 const route = useRoute();
 const router = useRouter();
 const { isPremium, isBasis } = usePremium();
 const { addXP, state: xpState, level: liveLevel, MASTERY_THRESHOLD } = useXp();
-const { state: streakState, recordActivityToday } = useStreak();
+const { state: streakState } = useStreak();
+
+/** Free countdown at session start — used to persist seconds used today. */
+let freeTimerBaseline = null;
 
 const level = ref(route.query.level || 'A1');
 const topic = ref(route.query.topic || '');
@@ -194,18 +199,11 @@ onMounted(() => {
     return;
   }
 
-  // For free mode, restore "time used today" from sessionStorage so
-  // reload doesn't reset the daily allowance.
   if (!isPrem.value && !isBasis.value) {
-    const stored = Number(sessionStorage.getItem(FREE_SESSION_KEY) || 0);
-    if (stored > 0 && stored <= Date.now()) {
-      const elapsed = Math.floor((Date.now() - stored) / 1000);
-      const remaining = Math.max(0, FREE_SECONDS_PER_DAY - elapsed);
-      timer.reset(remaining, false);
-      if (remaining <= 0) {
-        finish('Zeit abgelaufen');
-        return;
-      }
+    const remaining = getFreeSecondsRemaining();
+    timer.reset(remaining, false);
+    if (remaining <= 0) {
+      finish('Zeit abgelaufen');
     }
   }
 });
@@ -216,18 +214,28 @@ onBeforeUnmount(() => {
 });
 
 /**
- * Persists partial XP & streak when the user leaves mid-session so
- * answered work is never lost.
+ * Persists free-mode seconds used today (localStorage, per calendar day).
+ */
+function persistFreeTimeUsed() {
+  if (isPrem.value || isBasis.value || freeTimerBaseline == null) return;
+  const used = Math.max(0, freeTimerBaseline - timer.value.value);
+  addFreeSecondsUsed(used);
+  freeTimerBaseline = timer.value.value;
+}
+
+/**
+ * Called when the user leaves mid-session. XP is already persisted per
+ * answer; streak is tied to the daily goal (5 Fragen), not early exit.
  */
 function saveProgressEarly() {
   if (finished.value) return;
-  if (answered.value > 0) recordActivityToday();
+  persistFreeTimeUsed();
 }
 
-/** Starts the timer + records the free-mode session start (once). */
+/** Starts the timer and snapshots the free countdown baseline. */
 function ensureTimerStarted() {
-  if (!isPrem.value && !isBasis.value && !sessionStorage.getItem(FREE_SESSION_KEY)) {
-    sessionStorage.setItem(FREE_SESSION_KEY, String(Date.now()));
+  if (!isPrem.value && !isBasis.value && freeTimerBaseline == null) {
+    freeTimerBaseline = timer.value.value;
   }
   timer.start();
 }
@@ -357,9 +365,9 @@ function next() {
  */
 function finish(_reason) {
   if (finished.value) return;
+  persistFreeTimeUsed();
   finished.value = true;
   timer.stop();
-  if (answered.value > 0) recordActivityToday();
 }
 
 /**

@@ -1,15 +1,9 @@
 <script setup>
 /**
- * Profile — the Premium-only learner dashboard.
+ * Profile — learner dashboard.
  *
- * Displays:
- *   - Level + XP progress bar.
- *   - Streak / record / freezes summary with medals.
- *   - Per-topic mastery grid for every CEFR level.
- *   - "Share progress card" button (uses HTML5 Canvas + Web Share API).
- *
- * In the original trainer this was Premium-only; we keep the same gate
- * but show a friendly upsell card for free users.
+ * Premium: full view with topic mastery grid + share card.
+ * Free/Basis: mini profile (XP, level, streak, daily goal, calendar).
  */
 
 import { computed } from 'vue';
@@ -19,13 +13,19 @@ import LzdLogo from '@/components/LzdLogo.vue';
 import { usePremium } from '@/composables/usePremium.js';
 import { useXp, isTopicMastered } from '@/composables/useXp.js';
 import { useStreak } from '@/composables/useStreak.js';
+import { useDailyGoal } from '@/composables/useDailyGoal.js';
+import { useAuth } from '@/composables/useAuth.js';
 import { PREMIUM_TOPICS, getAllTopics } from '@/data/premiumTopics.js';
 import { shareProgressCard } from '@/utils/shareCard.js';
 
 const router = useRouter();
 const { isPremium } = usePremium();
+const { isLoggedIn } = useAuth();
 const { state: xp, level: liveLevel } = useXp();
 const { state: streak, medalsFor } = useStreak();
+const { goal: dailyGoal, todayCount, isMet: dailyGoalMet, progressPct: dailyGoalPct } = useDailyGoal();
+
+const activeDaysCount = computed(() => (streak.activeDays || []).length);
 
 const allTopics = getAllTopics();
 const masteredCount = computed(() => allTopics.filter((t) => isTopicMastered(t.key)).length);
@@ -54,36 +54,122 @@ function shareCard() {
     <LzdLogo small />
 
     <section v-if="!isPremium" class="section">
-      <div class="card premium-card" style="text-align: center;">
-        <div style="font-size: 40px; margin-bottom: 10px;">💎</div>
-        <div style="font-size: 18px; font-weight: 900; margin-bottom: 8px;">
-          Nur für Premium-Mitglieder
+      <div class="card premium-card profile-free">
+        <div class="profile-free__head">
+          <div class="profile-free__title">🏅 Mein Fortschritt</div>
+          <div class="profile-free__sub">Dein Lernstand auf einen Blick</div>
         </div>
-        <div style="font-size: 14px; color: #666; margin-bottom: 20px;">
-          Das Profil mit XP, Level und Themen-Fortschritt ist ein Premium-Feature.
-        </div>
-        <button
-          type="button"
-          @click="router.push({ name: 'premium' })"
-          style="
-            width: 100%;
-            padding: 13px;
-            border: none;
-            border-radius: 14px;
-            background: linear-gradient(135deg, #FFD700, #FFB700);
-            color: #000;
-            font-weight: 900;
-            font-size: 15px;
-            cursor: pointer;
-            margin-bottom: 10px;
-          "
+
+        <div
+          v-if="!isLoggedIn"
+          class="profile-free__login-hint"
         >
-          💎 Premium freischalten
-        </button>
+          📱 <router-link :to="{ name: 'landing' }">Auf der Startseite einloggen</router-link>,
+          um Fortschritt auf allen Geräten zu speichern.
+        </div>
+
+        <!-- XP + Level -->
+        <div class="profile-free__block profile-free__block--xp">
+          <div class="profile-free__xp-row">
+            <div
+              class="profile-free__level-badge"
+              :style="{ background: liveLevel.color }"
+            >
+              Lv{{ liveLevel.num }}
+            </div>
+            <div class="profile-free__xp-text">
+              <div class="profile-free__level-name">{{ liveLevel.name }}</div>
+              <div class="small-note">
+                ⭐ {{ xp.totalXP }} XP
+                <template v-if="liveLevel.next">
+                  · noch <strong>{{ xpToNext }} XP</strong> bis Lv{{ liveLevel.num + 1 }}
+                </template>
+                <template v-else>
+                  · <strong>Maximales Level!</strong>
+                </template>
+              </div>
+            </div>
+          </div>
+          <div class="profile-free__bar-track">
+            <div
+              class="profile-free__bar-fill"
+              :style="{
+                width: `${xpPct}%`,
+                background: `linear-gradient(90deg, ${liveLevel.color}, #AB4DBB)`,
+              }"
+            />
+          </div>
+        </div>
+
+        <!-- Streak -->
+        <div class="profile-free__block profile-free__block--streak">
+          <div class="profile-free__block-title">🔥 Streak</div>
+          <div class="profile-free__stats">
+            <div>
+              <div class="profile-free__stat-num">{{ streak.currentStreak }}</div>
+              <div class="small-note">Aktuell</div>
+            </div>
+            <div>
+              <div class="profile-free__stat-num">{{ streak.longestStreak }}</div>
+              <div class="small-note">Rekord 🏆</div>
+            </div>
+            <div>
+              <div class="profile-free__stat-num profile-free__stat-num--muted">
+                {{ activeDaysCount }}
+              </div>
+              <div class="small-note">Aktive Tage</div>
+            </div>
+          </div>
+          <div v-if="streak.longestStreak > 0" class="profile-free__medals small-note">
+            🏅 {{ medalsFor(streak.longestStreak) }}
+          </div>
+        </div>
+
+        <!-- Daily goal -->
+        <section
+          class="daily-goal profile-free__daily"
+          :class="{ 'daily-goal--met': dailyGoalMet }"
+          aria-label="Tagesziel"
+        >
+          <div class="daily-goal__row">
+            <span class="daily-goal__title">
+              {{ dailyGoalMet ? '✅ Tagesziel geschafft!' : '🎯 Heutiges Ziel' }}
+            </span>
+            <span class="daily-goal__count">{{ todayCount }} / {{ dailyGoal }} Fragen</span>
+          </div>
+          <div class="daily-goal__bar">
+            <div class="daily-goal__fill" :style="{ width: `${dailyGoalPct}%` }" />
+          </div>
+          <p class="daily-goal__hint">
+            {{
+              dailyGoalMet
+                ? 'Streak für heute gesichert — weiter üben bringt extra XP!'
+                : `Noch ${dailyGoal - todayCount} Frage${dailyGoal - todayCount === 1 ? '' : 'n'} bis zum Tagesziel.`
+            }}
+          </p>
+        </section>
+
+        <!-- Premium upsell -->
+        <div class="profile-free__upsell">
+          <div class="profile-free__upsell-title">💎 Mehr mit Premium</div>
+          <ul class="profile-free__upsell-list">
+            <li>Themen-Fortschritt &amp; Meisterschaft (50/50)</li>
+            <li>Schwächen-Modus &amp; Grammatik-Tipps</li>
+            <li>Streak-Freezes &amp; Fortschritts-Karte teilen</li>
+          </ul>
+          <button
+            type="button"
+            class="profile-free__upsell-btn"
+            @click="router.push({ name: 'premium' })"
+          >
+            Premium freischalten
+          </button>
+        </div>
+
         <button
           type="button"
           class="soft-btn"
-          style="width: 100%; margin: 0;"
+          style="max-width: 100%; margin: 14px 0 0 0;"
           @click="router.push({ name: 'landing' })"
         >
           ← Zurück

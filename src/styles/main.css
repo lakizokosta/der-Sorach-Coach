@@ -1041,3 +1041,136 @@ button { font-family: inherit; }
 .premium-flow-trial > div {
   margin-top: 10px;
 }
+
+/* ── Profile: Free mini dashboard ──────────────────────────────────────── */
+.profile-free {
+  text-align: left;
+}
+.profile-free__head {
+  text-align: center;
+  margin-bottom: 14px;
+}
+.profile-free__title {
+  font-size: 18px;
+  font-weight: 900;
+  color: #ab4dbb;
+}
+.profile-free__sub {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
+.profile-free__login-hint {
+  font-size: 12px;
+  color: #666;
+  background: #f9f0fc;
+  border: 1px solid #e0d0f0;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  line-height: 1.45;
+}
+.profile-free__login-hint a {
+  color: #ab4dbb;
+  font-weight: 700;
+}
+.profile-free__block {
+  border-radius: 14px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+.profile-free__block--xp {
+  background: linear-gradient(135deg, #f5f0ff, #fff);
+  border: 1px solid rgba(171, 77, 187, 0.2);
+}
+.profile-free__block--streak {
+  background: #fff9f0;
+  border: 1px solid #ffcc80;
+}
+.profile-free__block-title {
+  font-size: 14px;
+  font-weight: 900;
+  color: #e65100;
+  margin-bottom: 10px;
+}
+.profile-free__xp-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.profile-free__level-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 900;
+  color: #fff;
+  flex-shrink: 0;
+}
+.profile-free__level-name {
+  font-size: 17px;
+  font-weight: 900;
+}
+.profile-free__bar-track {
+  background: #ecdff8;
+  border-radius: 8px;
+  height: 10px;
+  overflow: hidden;
+}
+.profile-free__bar-fill {
+  height: 10px;
+  border-radius: 8px;
+  transition: width 0.8s;
+}
+.profile-free__stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.profile-free__stat-num {
+  font-size: 26px;
+  font-weight: 900;
+}
+.profile-free__stat-num--muted {
+  color: #ab4dbb;
+}
+.profile-free__medals {
+  margin-top: 8px;
+  text-align: center;
+}
+.profile-free__daily {
+  margin-bottom: 12px;
+}
+.profile-free__upsell {
+  background: linear-gradient(135deg, #fff9e6, #fff);
+  border: 1.5px solid #ffe082;
+  border-radius: 14px;
+  padding: 14px;
+}
+.profile-free__upsell-title {
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.profile-free__upsell-list {
+  margin: 0 0 12px 0;
+  padding-left: 18px;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+}
+.profile-free__upsell-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ffd700, #ffb700);
+  color: #000;
+  font-weight: 900;
+  font-size: 14px;
+  cursor: pointer;
+}

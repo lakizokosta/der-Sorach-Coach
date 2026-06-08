@@ -92,9 +92,9 @@
 
 | Этап | Фокус | Статус |
 | --- | --- | --- |
-| **1** | Платежи и e-mail | 🔄 P0 — новый скрипт на GET/POST, Stripe E2E в проверке |
-| **2** | Premium-профиль и контакт | ⏳ Ожидает |
-| **3** | Аудит тренажёра | ⏳ Ожидает |
+| **1** | Платежи и e-mail | ✅ P0 закрыт (Magic Link, Stripe redirect, backend) |
+| **2** | Premium-профиль и контакт | ✅ P1: Free-профиль, unified `/premium`; контакт ✅ |
+| **3** | Аудит тренажёра | ✅ См. [TRAINER-AUDIT.md](./TRAINER-AUDIT.md) |
 | **4** | Автопроверки (build, questions:verify) | ⏳ Ожидает |
 | **5** | Ручной чеклист (A1–B2, Free/Premium) | ⏳ Ожидает |
 | **6** | Сравнение с Blogger | ⏳ Ожидает |
@@ -116,11 +116,11 @@
 | 1.6 | GET `validateCode` работает | ✅ | Новая логика из репо |
 | 1.7 | POST `requestTrial` работает | ✅ | `fetch` / `verify-backend.mjs`; curl -L вводит в заблуждение |
 | 1.8 | POST `contactForm` работает | ✅ | Подтверждено: письмо пришло 2026-06-08 |
-| 1.9 | POST Stripe webhook доставляется | ❓ | Проверить Stripe Dashboard |
-| 1.10 | E-mail после оплаты приходит | ❓ | Нужен ваш тест / лог |
-| 1.11 | Ссылка в письме `/?activate=CODE` | ❓ | Зависит от `BASE_URL` в старом скрипте |
-| 1.12 | Premium активируется после клика по ссылке | ❓ | Не проверено end-to-end |
-| 1.13 | Stripe success redirect `?stripe_success=1` | ❓ | Проверить в Stripe Payment Links |
+| 1.9 | POST Stripe webhook доставляется | ✅ | Premium aktiv после оплаты (подтверждено) |
+| 1.10 | E-mail после оплаты приходит | ✅ | Подтверждено пользователем |
+| 1.11 | Ссылка в письме `/?activate=CODE` | ✅ | `APP_BASE_URL` = lernziel-deutsch.de |
+| 1.12 | Premium активируется после клика по ссылке | ✅ | E2E подтверждено |
+| 1.13 | Stripe success redirect `?stripe_success=1` | ✅ | Баннер на скриншоте |
 
 ### Обновление P0 (2026-06-08)
 
@@ -268,11 +268,12 @@ https://script.google.com/macros/s/<ВАШ_ID>/exec?action=stripeWebhook&secret=
 
 | # | Проверка | Статус | Зависит от |
 | --- | --- | --- | --- |
-| 2.1 | `/profile` открывается для Premium | ❓ | Активация кода |
-| 2.2 | Mastery / статистика по темам | ❓ | XP composable |
-| 2.3 | Magic Link login | ❓ | POST backend |
+| 2.1 | `/profile` открывается для Free + Premium | ✅ | Free: мини-профиль; Premium: полный |
+| 2.2 | Mastery / статистика по темам | ✅ | Premium-only в полном профиле |
+| 2.3 | Magic Link login | ✅ | Подтверждено на главной |
 | 2.4 | Контактная форма отправляется | ✅ | Подтверждено пользователем |
-| 2.5 | Письмо контакта приходит на inbox | ✅ | Тема `[LZD] Nachricht von Audit` |
+| 2.5 | Письмо контакта приходит на inbox | ✅ | Тема `[SprachCoach Kontakt]` |
+| 2.6 | Unified login на `/premium` | ✅ | Schritt 1 → 2 |
 
 ---
 
@@ -305,18 +306,21 @@ https://script.google.com/macros/s/<ВАШ_ID>/exec?action=stripeWebhook&secret=
 
 ### Чеклист кода тренажёра
 
+Полный отчёт: **[TRAINER-AUDIT.md](./TRAINER-AUDIT.md)**
+
 | # | Компонент | Файл | Статус |
 | --- | --- | --- | --- |
-| 3.1 | Очередь вопросов | `src/utils/queue.js` | ❓ |
-| 3.2 | Загрузчик MD | `src/data/questions.js` | ❓ |
-| 3.3 | MultipleChoice | `src/components/questions/MultipleChoice.vue` | ❓ |
-| 3.4 | MultiSelect | `src/components/questions/MultiSelect.vue` | ❓ |
-| 3.5 | DragDrop | `src/components/questions/DragDrop.vue` | ❓ |
-| 3.6 | FillBlank | `src/components/questions/FillBlank.vue` | ❓ |
-| 3.7 | Trainer view | `src/views/Trainer.vue` | ❓ |
-| 3.8 | Таймер | `src/composables/useTimer.js` | ❓ |
-| 3.9 | Streak / XP | `useStreak.js`, `useXp.js` | ❓ |
-| 3.10 | Дневная блокировка | ❓ | Сравнить с Blogger |
+| 3.1 | Очередь вопросов | `src/utils/queue.js` | ✅ |
+| 3.2 | Загрузчик MD | `src/data/questions.js` | ✅ 60 файлов |
+| 3.3 | MultipleChoice | `MultipleChoice.vue` | ✅ |
+| 3.4 | MultiSelect | `MultiSelect.vue` | ✅ |
+| 3.5 | DragDrop | `DragDrop.vue` | ✅ |
+| 3.6 | FillBlank | `FillBlank.vue` | ✅ |
+| 3.7 | Trainer view | `Trainer.vue` | ✅ ⚠️ FIX-300, FIX-301 |
+| 3.8 | Таймер | `useTimer.js` | ✅ ⚠️ обход через новую вкладку |
+| 3.9 | Streak / XP | `useStreak.js`, `useXp.js` | ✅ ⚠️ streak vs Tagesziel |
+| 3.10 | Дневная цель 5 Fragen | `useDailyGoal.js` | ✅ |
+| 3.11 | Schwächen-Modus | `weakTopics.js` | ✅ |
 
 ---
 
@@ -425,6 +429,8 @@ npm run questions:verify   # линт всех .md вопросов
 | 2026-06-08 | Добавлен `TRIAL_TEST_MODE` (+test bypass) в `Code.gs` | 1 | AI | ⏳ ждёт деплой в Google |
 | 2026-06-08 | Константы из live `Код.gs` вставлены в `apps-script/Code.gs` | 1 | AI | ⏳ ждёт copy+deploy в Google |
 | 2026-06-08 | Trial `Serverfehler` — исправлен `SHEET_ID` (`4L1J2`→`4LlJ2`) | 1 | AI | ⏳ ждёт redeploy |
+| 2026-06-08 | P0/P1 закрыты; геймификация (3 пункта) | 1–2 | AI | ✅ |
+| 2026-06-08 | Этап 3: аудит тренажёра → `TRAINER-AUDIT.md` | 3 | AI | ✅ |
 | | | | | |
 
 ---
