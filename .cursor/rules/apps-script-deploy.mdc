@@ -13,7 +13,7 @@ It sends e-mails, stores codes in Google Sheets, and talks to Stripe/PayPal.
 ## First-time setup (once)
 1. Create a Google Sheet → copy its ID from the URL.
 2. Go to https://script.google.com → New project.
-3. Paste `apps-script/Code.gs` and `apps-script/appsscript.json`.
+3. Paste `apps-script/Code.gs` (includes inline logo) and `apps-script/appsscript.json`.
 4. Edit constants at the top of `Code.gs`:
    - `SHEET_ID` — spreadsheet ID
    - `APP_BASE_URL` — `https://lernziel-deutsch.de` (NO `/#/` suffix)
