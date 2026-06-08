@@ -1,0 +1,8 @@
+---
+id: a1-neg-in-003
+type: input-text
+correct:
+  - keinen
+---
+
+[Essen] Ich habe ___ Hunger. (kein, mask.)

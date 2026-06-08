@@ -1,0 +1,8 @@
+---
+id: a1-dat-in-016
+type: input-text
+correct:
+  - dem Ball
+---
+
+[Sport] Ich spiele mit ___ Ball. (der Ball, Dat.)

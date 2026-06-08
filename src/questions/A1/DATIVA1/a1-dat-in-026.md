@@ -1,0 +1,8 @@
+---
+id: a1-dat-in-026
+type: input-text
+correct:
+  - dem Fenster
+---
+
+[Stadt] Aus ___ Fenster sehe ich den Park. (das Fenster, Dat.)

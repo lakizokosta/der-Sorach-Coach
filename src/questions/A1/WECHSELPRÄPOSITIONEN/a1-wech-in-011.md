@@ -1,0 +1,8 @@
+---
+id: a1-wech-in-011
+type: input-text
+correct:
+  - in die
+---
+
+[Reisen] Das Flugzeug fliegt ___ Wolken. (in + die, Bewegung)

@@ -1,0 +1,8 @@
+---
+id: a1-pl-in-041
+type: input-text
+correct:
+  - Minuten
+---
+
+[Transport] Der Zug kommt in fünf ___. (Plural: Minute)

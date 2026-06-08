@@ -1,0 +1,8 @@
+---
+id: a1-neg-in-027
+type: input-text
+correct:
+  - nicht
+---
+
+[Wetter] Es regnet ___ heute. (nicht)

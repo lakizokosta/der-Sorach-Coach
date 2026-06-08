@@ -1,0 +1,8 @@
+---
+id: a1-pl-in-040
+type: input-text
+correct:
+  - Wochen
+---
+
+[Schule] Die Ferien dauern zwei ___. (Plural: Woche)

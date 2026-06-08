@@ -1,0 +1,8 @@
+---
+id: a1-konj-in-007
+type: input-text
+correct:
+  - singen
+---
+
+[Musik] Die Kinder ___ ein Lied. (singen, sie Pl.)
