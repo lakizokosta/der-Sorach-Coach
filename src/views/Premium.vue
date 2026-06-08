@@ -202,8 +202,10 @@ async function submitMagicLink() {
 }
 
 /**
- * Requests a free 1-day trial code. The backend e-mails a `TEST1-…`
- * activation code (one trial per e-mail / device).
+ * Requests a free 1-day trial code. The backend e-mails a `TRIAL-…`
+ * code (one trial per e-mail / device). QA: e-mails with `+test` in the
+ * local part bypass device deduplication when `TRIAL_TEST_MODE` is on
+ * in the deployed Apps Script.
  */
 async function submitTrial() {
   if (trialSubmitting.value) return;

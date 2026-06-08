@@ -28,40 +28,36 @@
    Configuration — edit these to match your deployment.
    ──────────────────────────────────────────────────────────────── */
 
-/** Spreadsheet ID that stores the Codes / Sessions / Magic / Trial tabs. */
-const SHEET_ID = 'REPLACE_WITH_YOUR_SPREADSHEET_ID';
+/**
+ * Spreadsheet ID — migrated from the live `Код.gs` (v7.8) constant
+ * `SHEET_ID`. Verify against the Sheets URL if anything breaks.
+ */
+const SHEET_ID = '1vqKJV1jV9Rq_Owb5gDA4LlJ2GgcQvYkurVnBUfUp8WU';
 
 /**
- * Public URL of the deployed SPA — used in every e-mail link.
- *
- * IMPORTANT: NO trailing `/#/`. The SPA's Vue Router runs in hash
- * mode, but BootstrapHandler.vue reads activation parameters from
- * `window.location.search`, which only contains the part of the URL
- * BEFORE the `#`. The correct outgoing link shape is therefore
- *   https://lernziel-deutsch.de/?activate=ABC
- * NOT
- *   https://lernziel-deutsch.de/#/?activate=ABC  ← would be ignored.
+ * Public URL of the deployed SPA — migrated from live `BASE_URL`.
+ * E-mail links use `/?activate=CODE` (query before any hash).
  */
 const APP_BASE_URL = 'https://lernziel-deutsch.de';
 
 /** "From" address shown in outgoing e-mails (must be the script owner). */
 const FROM_NAME = 'Der SprachCoach';
 
-/** Where the contact form is forwarded. */
-const SUPPORT_EMAIL = 'support@der-sprachcoach.de';
+/** Inbox for contact-form submissions (confirm matches your live script). */
+const SUPPORT_EMAIL = 'lakizo.kosta@gmail.com';
 
 /**
- * Shared secret appended to webhook URLs as `?secret=…`.
- *
- * Apps Script does not give us access to HTTP request headers, so we
- * cannot verify the Stripe HMAC signature the canonical way. Instead
- * the deployment URLs include an unguessable shared secret; Stripe
- * and PayPal include it because the URL is configured once in their
- * dashboards. Rotate it by editing this constant + the webhook URLs.
+ * Shared secret for Stripe / PayPal webhook URLs (`?secret=…`).
+ * Migrated from the live `TOKEN_SECRET` — keep in sync with Stripe
+ * Dashboard webhook URL.
  */
-const WEBHOOK_SECRET = 'REPLACE_WITH_A_LONG_RANDOM_STRING';
+const WEBHOOK_SECRET = 'LZD_S3cr3t_T0k3n_K3y_2024_xQ9mR7';
 
-/** PayPal merchant e-mail for IPN sanity check. */
+/**
+ * PayPal primary e-mail for IPN receiver check.
+ * TODO: replace with the exact address from your PayPal account if IPN
+ * verification fails (paypal.me handle is `lehrermann`).
+ */
 const PAYPAL_MERCHANT_EMAIL = 'lehrermann@example.com';
 
 /** Whether IPN verification calls the live PayPal endpoint or sandbox. */
@@ -118,7 +114,7 @@ function doGet(e) {
     }
   } catch (err) {
     log('doGet', String(err && err.stack || err));
-    return json({ ok: false, error: 'Serverfehler' });
+    return json(serverError_(err));
   }
 }
 
@@ -153,7 +149,7 @@ function doPost(e) {
     return json({ ok: false, error: 'Unknown request' });
   } catch (err) {
     log('doPost', String(err && err.stack || err));
-    return json({ ok: false, error: 'Serverfehler' });
+    return json(serverError_(err));
   }
 }
 
@@ -504,12 +500,7 @@ function requestTrial(body) {
 
   const planInfo = { plan: 'trial', months: 0, label: '1 Tag Trial' };
   const code = `TRIAL-${Utilities.getUuid().split('-')[0].toUpperCase()}`;
-  const codeSheet = sheet_('Codes');
-  // Trial expires in 24h, so we record months as 0 but stamp custom expiry.
-  codeSheet.appendRow([
-    code, email, 'trial', 0, new Date(), '', '', 'trial',
-    new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
-  ]);
+  saveActivationCode_(code, email, planInfo, 'trial', '');
   if (!testBypass) {
     const trialSheet = sheet_('Trial', ['email', 'deviceId', 'code', 'issuedAt']);
     trialSheet.appendRow([email, deviceId, code, new Date()]);
@@ -865,6 +856,22 @@ function json(payload) {
   return ContentService
     .createTextOutput(JSON.stringify(payload))
     .setMimeType(ContentService.MimeType.JSON);
+}
+
+/**
+ * Builds a safe API error payload. While `TRIAL_TEST_MODE` is on the
+ * underlying exception message is included to speed up QA; otherwise
+ * only the generic label is returned.
+ *
+ * @param {*} err
+ * @return {!Object}
+ */
+function serverError_(err) {
+  const detail = String((err && err.message) || err || '');
+  if (TRIAL_TEST_MODE && detail) {
+    return { ok: false, error: `Serverfehler: ${detail}` };
+  }
+  return { ok: false, error: 'Serverfehler' };
 }
 
 /**

@@ -419,6 +419,9 @@ npm run questions:verify   # линт всех .md вопросов
 | --- | --- | --- | --- | --- |
 | 2026-06-08 | Создан документ аудита, диагностика Этапа 1 | 1 | AI | ✅ |
 | 2026-06-08 | Контактная форма: тест Audit → письмо получено | 1–2 | AI + вы | ✅ |
+| 2026-06-08 | Добавлен `TRIAL_TEST_MODE` (+test bypass) в `Code.gs` | 1 | AI | ⏳ ждёт деплой в Google |
+| 2026-06-08 | Константы из live `Код.gs` вставлены в `apps-script/Code.gs` | 1 | AI | ⏳ ждёт copy+deploy в Google |
+| 2026-06-08 | Trial `Serverfehler` — исправлен `SHEET_ID` (`4L1J2`→`4LlJ2`) | 1 | AI | ⏳ ждёт redeploy |
 | | | | | |
 
 ---
