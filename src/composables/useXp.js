@@ -14,17 +14,20 @@ import { loadJSON, saveJSON } from './useStorage.js';
 
 const KEY_XP = 'lzd_xp';
 const KEY_TOPICS = 'lzd_topic_correct';
+const KEY_TOPIC_WRONG = 'lzd_topic_wrong';
 const MASTERY_THRESHOLD = 50;
 
 const state = reactive({
   totalXP: loadJSON(KEY_XP, 0),
   topicCorrect: loadJSON(KEY_TOPICS, {}),
+  topicWrong: loadJSON(KEY_TOPIC_WRONG, {}),
 });
 
 /** Persists the current reactive state to localStorage. */
 function persist(options = {}) {
   saveJSON(KEY_XP, state.totalXP);
   saveJSON(KEY_TOPICS, state.topicCorrect);
+  saveJSON(KEY_TOPIC_WRONG, state.topicWrong);
   if (!options.silent) {
     import('@/composables/useProgressSync.js').then((m) => m.scheduleProgressPush());
   }
@@ -39,6 +42,7 @@ export function getXpSnapshot() {
   return {
     totalXP: state.totalXP,
     topicCorrect: { ...state.topicCorrect },
+    topicWrong: { ...state.topicWrong },
   };
 }
 
@@ -50,7 +54,20 @@ export function getXpSnapshot() {
 export function importXpData(data) {
   if (data.totalXP != null) state.totalXP = Number(data.totalXP) || 0;
   if (data.topicCorrect) state.topicCorrect = { ...data.topicCorrect };
+  if (data.topicWrong) state.topicWrong = { ...data.topicWrong };
   persist({ silent: true });
+}
+
+/**
+ * Records a wrong answer for Schwächen-Modus ranking.
+ *
+ * @param {string} topicKey
+ */
+export function recordTopicWrong(topicKey) {
+  const key = String(topicKey || '').toUpperCase();
+  if (!key) return;
+  state.topicWrong[key] = (state.topicWrong[key] || 0) + 1;
+  persist();
 }
 
 /**
@@ -104,10 +121,10 @@ export function isTopicMastered(topicKey) {
 /**
  * Public hook exposing reactive XP state plus level computeds.
  *
- * @return {{state:object, level:object, addXP:Function,
+ * @return {{state:object, level:object, addXP:Function, recordTopicWrong:Function,
  *           isTopicMastered:Function, MASTERY_THRESHOLD:number}}
  */
 export function useXp() {
   const level = computed(() => getLevel(state.totalXP));
-  return { state, level, addXP, isTopicMastered, MASTERY_THRESHOLD };
+  return { state, level, addXP, recordTopicWrong, isTopicMastered, MASTERY_THRESHOLD };
 }

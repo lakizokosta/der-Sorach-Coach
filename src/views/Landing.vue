@@ -14,6 +14,7 @@ import LzdLogo from '@/components/LzdLogo.vue';
 import LoginPanel from '@/components/LoginPanel.vue';
 import DailyGoalCard from '@/components/DailyGoalCard.vue';
 import ActivityCalendar from '@/components/ActivityCalendar.vue';
+import SchwaechenCard from '@/components/SchwaechenCard.vue';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
 import { usePremium } from '@/composables/usePremium.js';
@@ -97,6 +98,7 @@ function payBasis() {
 
     <div class="landing-progress">
       <DailyGoalCard />
+      <SchwaechenCard />
       <ActivityCalendar />
     </div>
 

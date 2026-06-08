@@ -40,9 +40,14 @@ export function mergeXp(local, server) {
   Object.entries(a.topicCorrect || {}).forEach(([key, val]) => {
     topicCorrect[key] = Math.max(Number(topicCorrect[key]) || 0, Number(val) || 0);
   });
+  const topicWrong = { ...(b.topicWrong || {}) };
+  Object.entries(a.topicWrong || {}).forEach(([key, val]) => {
+    topicWrong[key] = Math.max(Number(topicWrong[key]) || 0, Number(val) || 0);
+  });
   return {
     totalXP: Math.max(Number(a.totalXP) || 0, Number(b.totalXP) || 0),
     topicCorrect,
+    topicWrong,
   };
 }
 

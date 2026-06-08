@@ -10,6 +10,7 @@
  * Route examples:
  *   /trainer?level=A1
  *   /trainer?level=B2&topic=PASSIVB2&mode=premium
+ *   /trainer?mode=schwaechen
  */
 
 import { computed, onBeforeUnmount, onMounted, ref, shallowRef } from 'vue';
@@ -21,7 +22,8 @@ import DictionaryPopup from '@/components/DictionaryPopup.vue';
 import QuestionRenderer from '@/components/questions/QuestionRenderer.vue';
 
 import { usePremium } from '@/composables/usePremium.js';
-import { useXp, getLevel } from '@/composables/useXp.js';
+import { useXp, getLevel, recordTopicWrong } from '@/composables/useXp.js';
+import { getWeakestTopics, getQuestionsForWeakTopics } from '@/utils/weakTopics.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { recordQuestionAnswered } from '@/composables/useDailyGoal.js';
 import { useTimer, formatMmSs } from '@/composables/useTimer.js';
@@ -41,8 +43,10 @@ const { state: streakState, recordActivityToday } = useStreak();
 
 const level = ref(route.query.level || 'A1');
 const topic = ref(route.query.topic || '');
-const forcedPremium = route.query.mode === 'premium';
+const schwaechenMode = route.query.mode === 'schwaechen';
+const forcedPremium = route.query.mode === 'premium' || schwaechenMode;
 const isPrem = computed(() => forcedPremium || isPremium.value);
+const schwaechenTopics = ref([]);
 
 // `shallowRef` so Vue's reactivity does NOT deeply proxy the queue's
 // internal array. Otherwise `consumeCorrect()` would mutate the inner
@@ -164,9 +168,26 @@ function applyAnswerXp(wasCorrect) {
 
 /** Loads the queue, restores any free-session timer, kicks things off. */
 onMounted(() => {
-  const all = topic.value
-    ? getQuestionsByTopic(level.value, topic.value)
-    : getQuestionsByLevel(level.value);
+  if (schwaechenMode && !isPremium.value) {
+    router.replace({ name: 'premium' });
+    return;
+  }
+
+  let all;
+
+  if (schwaechenMode) {
+    schwaechenTopics.value = getWeakestTopics(
+      xpState.topicWrong,
+      xpState.topicCorrect,
+      3,
+    );
+    all = getQuestionsForWeakTopics(schwaechenTopics.value);
+  } else if (topic.value) {
+    all = getQuestionsByTopic(level.value, topic.value);
+  } else {
+    all = getQuestionsByLevel(level.value);
+  }
+
   queue.value = new AdaptiveQueue(all);
   if (!queue.value.hasNext()) {
     finished.value = true;
@@ -303,6 +324,7 @@ function recordWrongTopic() {
     wrongTopics.value[upper] = { name: displayName, level: topicLevel, count: 0 };
   }
   wrongTopics.value[upper].count += 1;
+  recordTopicWrong(upper);
 }
 
 /** Pick a randomised upsell message for free users on every wrong answer. */
@@ -344,7 +366,8 @@ function finish(_reason) {
  * Re-routes after the session ends (back to landing or premium menu).
  */
 function exitSession() {
-  if (isPrem.value) router.push({ name: 'premium' });
+  if (schwaechenMode) router.push({ name: 'landing' });
+  else if (isPrem.value) router.push({ name: 'premium' });
   else router.push({ name: 'landing' });
 }
 
@@ -412,7 +435,10 @@ const canAdvance = computed(() => lastAnswerResolved.value);
   <div v-else-if="!currentQuestion && finished && answered === 0" class="app-shell">
     <LzdLogo />
     <h2>Keine Fragen gefunden</h2>
-    <p>Für dieses Thema gibt es noch keine Fragen.</p>
+    <p v-if="schwaechenMode">
+      Noch keine Schwachstellen erfasst. Trainiere Premium-Themen — dann erscheinen hier deine 3 schwächsten Themen.
+    </p>
+    <p v-else>Für dieses Thema gibt es noch keine Fragen.</p>
     <button class="soft-btn" type="button" @click="exitSession">← Zurück</button>
   </div>
 
@@ -595,8 +621,16 @@ const canAdvance = computed(() => lastAnswerResolved.value);
     <LzdLogo small />
 
     <div class="small-note">
-      {{ isPrem ? `Premium - ${level}` : `Kostenlos - ${level}` }}
-      <span v-if="topic"> / {{ topic }}</span>
+      <template v-if="schwaechenMode">
+        🎯 Schwächen-Modus
+        <span v-if="schwaechenTopics.length">
+          — {{ schwaechenTopics.map((t) => t.name).join(' · ') }}
+        </span>
+      </template>
+      <template v-else>
+        {{ isPrem ? `Premium - ${level}` : `Kostenlos - ${level}` }}
+        <span v-if="topic"> / {{ topic }}</span>
+      </template>
     </div>
 
     <div v-if="!isBasis" class="timer-circle">{{ timerLabel }}</div>
