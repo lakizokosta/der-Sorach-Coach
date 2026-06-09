@@ -1,0 +1,13 @@
+---
+id: a2-akk-dd-002
+type: dropbox
+words:
+  - Er
+  - denkt
+  - an
+  - seinen
+  - Urlaub
+  - oft
+---
+
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den Urlaub)

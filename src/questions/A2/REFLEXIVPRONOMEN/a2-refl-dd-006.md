@@ -1,0 +1,13 @@
+---
+id: a2-refl-dd-006
+type: dropbox
+words:
+  - Er
+  - wäscht
+  - sich
+  - vor
+  - dem
+  - Essen
+---
+
+Ordne die Wörter zum richtigen Satz: (Reflexiv — wäscht sich)

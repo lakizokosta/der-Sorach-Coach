@@ -1,0 +1,12 @@
+---
+id: a2-poss-dd-005
+type: dropbox
+words:
+  - Wir
+  - besuchen
+  - unsere
+  - Großeltern
+  - sonntags
+---
+
+Ordne die Wörter zum richtigen Satz: (Possessiv — unsere Großeltern)

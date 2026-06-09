@@ -1,0 +1,12 @@
+---
+id: a2-akk-dd-020
+type: dropbox
+words:
+  - Wir
+  - fahren
+  - durch
+  - den
+  - Stadtpark
+---
+
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den Stadtpark)

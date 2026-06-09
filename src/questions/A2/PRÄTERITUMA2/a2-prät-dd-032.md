@@ -1,0 +1,12 @@
+---
+id: a2-prät-dd-032
+type: dropbox
+words:
+  - Ich
+  - wollte
+  - auf
+  - Schule
+  - bleiben
+---
+
+Ordne die Wörter zum richtigen Satz: (Präteritum — wollte)

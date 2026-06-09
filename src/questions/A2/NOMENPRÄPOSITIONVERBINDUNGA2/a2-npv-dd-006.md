@@ -1,0 +1,13 @@
+---
+id: a2-npv-dd-006
+type: dropbox
+words:
+  - Ich
+  - habe
+  - Hoffnung
+  - auf
+  - besseres
+  - Wetter
+---
+
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Hoffnung auf)

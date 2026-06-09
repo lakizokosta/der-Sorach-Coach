@@ -1,0 +1,13 @@
+---
+id: a2-trenn-dd-021
+type: dropbox
+words:
+  - Wir
+  - stehen
+  - um
+  - acht
+  - Uhr
+  - auf
+---
+
+Ordne die Wörter zum richtigen Satz: (Trennbar — aufstehen)

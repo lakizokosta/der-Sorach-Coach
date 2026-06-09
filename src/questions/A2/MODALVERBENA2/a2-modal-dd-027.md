@@ -1,0 +1,12 @@
+---
+id: a2-modal-dd-027
+type: dropbox
+words:
+  - Wir
+  - wollen
+  - heute
+  - ins
+  - Schwimmbad
+---
+
+Ordne die Wörter zum richtigen Satz: (Modalverb — wollen)

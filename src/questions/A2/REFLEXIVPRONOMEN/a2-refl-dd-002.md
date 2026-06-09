@@ -1,0 +1,13 @@
+---
+id: a2-refl-dd-002
+type: dropbox
+words:
+  - Er
+  - freut
+  - sich
+  - auf
+  - die
+  - Prüfung
+---
+
+Ordne die Wörter zum richtigen Satz: (Reflexiv — freut sich)

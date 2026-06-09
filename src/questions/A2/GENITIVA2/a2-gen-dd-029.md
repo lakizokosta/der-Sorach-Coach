@@ -1,0 +1,13 @@
+---
+id: a2-gen-dd-029
+type: dropbox
+words:
+  - Während
+  - der
+  - Ferien
+  - freuen
+  - sich
+  - Kinder
+---
+
+Ordne die Wörter zum richtigen Satz: (Genitiv — Während der Ferien)

@@ -1,0 +1,13 @@
+---
+id: a2-fest-dd-008
+type: dropbox
+words:
+  - Sie
+  - ärgert
+  - sich
+  - über
+  - den
+  - Fehler
+---
+
+Ordne die Wörter zum richtigen Satz: (Feste Präp. — ärgern über)
