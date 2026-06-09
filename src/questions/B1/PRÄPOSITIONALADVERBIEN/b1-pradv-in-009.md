@@ -1,0 +1,8 @@
+---
+id: b1-pradv-in-009
+type: input-text
+correct:
+  - darüber
+---
+
+Ärgerst du dich über die Nachricht? — Ich ärgere mich ___. (Pronominaladverb)

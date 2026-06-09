@@ -1,0 +1,8 @@
+---
+id: b1-poss-in-037
+type: input-text
+correct:
+  - seine
+---
+
+Er kennt ___ Nachbarn schon lange. (Possessivartikel — Possessivartikel)
