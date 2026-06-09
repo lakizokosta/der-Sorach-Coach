@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Das ist ___ interessant. (nicht)
-
+Das ist ___ interessant. (Negation)

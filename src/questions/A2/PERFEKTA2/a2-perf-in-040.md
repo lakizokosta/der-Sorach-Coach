@@ -5,4 +5,4 @@ correct:
   - sind
 ---
 
-Wir ___ im Stadtpark spaziert. (Perfekt — sein/wir)
+Wir ___ im Stadtpark spaziert. (Perfekt — wir)

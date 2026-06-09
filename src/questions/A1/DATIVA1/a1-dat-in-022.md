@@ -5,5 +5,4 @@ correct:
   - meiner Oma
 ---
 
-Ich schenke ___ Oma Blumen. (meine Oma, Dat.)
-
+Ich schenke ___ Oma Blumen. (Dativ — meine Oma, Dat.)

@@ -5,5 +5,4 @@ correct:
   - keine
 ---
 
-Wir hören ___ Musik. (kein, fem.)
-
+Wir hören ___ Musik. (Negation)

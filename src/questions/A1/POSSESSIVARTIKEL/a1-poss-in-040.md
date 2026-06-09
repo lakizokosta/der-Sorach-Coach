@@ -5,5 +5,4 @@ correct:
   - ihr
 ---
 
-Das ist ___ Handy. (sie Pl., neutr., Nom.)
-
+Das ist ___ Handy. (Possessivartikel — sie Pl., neutr., Nom.)

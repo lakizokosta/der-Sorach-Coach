@@ -5,5 +5,4 @@ correct:
   - den
 ---
 
-Du liest ___ Text. (der Text, Akk.)
-
+Du liest ___ Text. (Akkusativ — Akk.)

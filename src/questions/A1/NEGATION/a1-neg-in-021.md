@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Das schmeckt ___ gut. (nicht)
-
+Das schmeckt ___ gut. (Negation)

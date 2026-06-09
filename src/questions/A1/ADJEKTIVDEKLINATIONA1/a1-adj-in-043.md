@@ -5,5 +5,4 @@ correct:
   - neue
 ---
 
-Der Arzt gibt mir gute ___ Medizin. (neu, fem., Akk.)
-
+Der Arzt gibt mir gute ___ Medizin. (Adjektivdeklination — fem., Akk.)

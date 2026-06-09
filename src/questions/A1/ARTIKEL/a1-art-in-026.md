@@ -5,5 +5,4 @@ correct:
   - kein
 ---
 
-Ich habe ___ Geld. (kein Geld, neutr.)
-
+Ich habe ___ Geld. (Artikel — neutr.)

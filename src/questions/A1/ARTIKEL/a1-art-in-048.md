@@ -5,5 +5,4 @@ correct:
   - Der
 ---
 
-___ Vogel singt morgens. (der Vogel, Nom.)
-
+___ Vogel singt morgens. (Artikel — Nom.)

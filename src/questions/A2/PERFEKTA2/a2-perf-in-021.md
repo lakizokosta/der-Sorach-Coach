@@ -5,4 +5,4 @@ correct:
   - ist
 ---
 
-Sie ___ nach Berlin gefahren. (Perfekt — sein/sie)
+Sie ___ nach Berlin gefahren. (Perfekt — sie)

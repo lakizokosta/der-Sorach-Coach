@@ -5,5 +5,4 @@ correct:
   - den
 ---
 
-Sie trinkt ___ Tee. (der Tee, Akk.)
-
+Sie trinkt ___ Tee. (Akkusativ — Akk.)

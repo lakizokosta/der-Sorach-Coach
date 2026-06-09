@@ -5,5 +5,4 @@ correct:
   - meiner
 ---
 
-Ich übe auf ___ Gitarre. (ich, fem., Dat.)
-
+Ich übe auf ___ Gitarre. (Possessivartikel — fem., Dat.)

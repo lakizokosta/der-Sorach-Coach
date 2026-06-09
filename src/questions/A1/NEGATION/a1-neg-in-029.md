@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Er singt ___ laut. (nicht)
-
+Er singt ___ laut. (Negation)

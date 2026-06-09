@@ -5,5 +5,4 @@ correct:
   - meine
 ---
 
-Ich lade ___ Kollegin ein. (meine Kollegin, Akk.)
-
+Ich lade ___ Kollegin ein. (Akkusativ — meine Kollegin, Akk.)

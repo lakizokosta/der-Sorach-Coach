@@ -5,4 +5,4 @@ correct:
   - jüngste
 ---
 
-Er ist der ___ Spieler im Team. (Superlativ — jung, mask., Nom.)
+Er ist der ___ Spieler im Team. (Superlativ — mask., Nom.)

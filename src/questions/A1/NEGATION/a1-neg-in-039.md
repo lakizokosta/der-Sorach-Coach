@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Das ist ___ mein Koffer. (nicht)
-
+Das ist ___ mein Koffer. (Negation)

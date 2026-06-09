@@ -5,4 +5,4 @@ correct:
   - in einer
 ---
 
-Ich wohne ___ kleinen Stadt. (Wo? — in + Dat.)
+Ich wohne ___ kleinen Stadt. (Wechselpräpositionen — Wo?)

@@ -5,5 +5,4 @@ correct:
   - Der
 ---
 
-___ Tisch ist aus Holz. (der Tisch, Nom.)
-
+___ Tisch ist aus Holz. (Artikel — Nom.)

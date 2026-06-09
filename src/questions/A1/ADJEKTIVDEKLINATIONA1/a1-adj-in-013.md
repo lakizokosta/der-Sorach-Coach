@@ -5,5 +5,4 @@ correct:
   - gutes
 ---
 
-Ich suche ein ___ Geschenk. (gut, neutr., Akk.)
-
+Ich suche ein ___ Geschenk. (Adjektivdeklination — neutr., Akk.)

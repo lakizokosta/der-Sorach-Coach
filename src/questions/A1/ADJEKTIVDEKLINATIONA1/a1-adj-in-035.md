@@ -5,5 +5,4 @@ correct:
   - hohen
 ---
 
-Ich sehe einen ___ Turm. (hoch, mask., Akk.)
-
+Ich sehe einen ___ Turm. (Adjektivdeklination — mask., Akk.)

@@ -5,5 +5,4 @@ correct:
   - kein
 ---
 
-Ich kaufe ___ Brot. (kein, neutr.)
-
+Ich kaufe ___ Brot. (Negation)

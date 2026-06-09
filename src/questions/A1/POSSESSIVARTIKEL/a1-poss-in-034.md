@@ -5,5 +5,4 @@ correct:
   - Mein
 ---
 
-___ Kopf tut weh. (ich, mask., Nom.)
-
+___ Kopf tut weh. (Possessivartikel — mask., Nom.)

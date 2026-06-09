@@ -5,4 +5,4 @@ correct:
   - machst
 ---
 
-Du ___ die Tür auf. (trennbar — aufmachen/du)
+Du ___ die Tür auf. (Trennbare Verben — du)

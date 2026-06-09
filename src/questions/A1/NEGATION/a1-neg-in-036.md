@@ -5,5 +5,4 @@ correct:
   - kein
 ---
 
-Sie isst ___ Obst. (kein, neutr.)
-
+Sie isst ___ Obst. (Negation)

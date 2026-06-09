@@ -5,5 +5,4 @@ correct:
   - an der
 ---
 
-Das Plakat ist ___ Wand. (an + der, Ort)
-
+Das Plakat ist ___ Wand. (Wechselpräpositionen — Ort)

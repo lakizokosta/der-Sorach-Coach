@@ -5,4 +5,4 @@ correct:
   - seinem
 ---
 
-Er schreibt ___ Freund eine Nachricht. (Possessiv — sein Freund, Dat.)
+Er schreibt ___ Freund eine Nachricht. (Dativ — sein Freund, Dat.)

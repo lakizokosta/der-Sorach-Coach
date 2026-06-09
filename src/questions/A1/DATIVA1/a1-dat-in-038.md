@@ -5,5 +5,4 @@ correct:
   - dem Messer
 ---
 
-Mit ___ Messer schneide ich Brot. (das Messer, Dat.)
-
+Mit ___ Messer schneide ich Brot. (Dativ — Dat.)

@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Das ist ___ richtig. (nicht)
-
+Das ist ___ richtig. (Negation)

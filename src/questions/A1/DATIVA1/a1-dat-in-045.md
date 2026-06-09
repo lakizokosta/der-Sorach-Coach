@@ -5,5 +5,4 @@ correct:
   - dem Taxi
 ---
 
-Mit ___ Taxi komme ich schnell an. (das Taxi, Dat.)
-
+Mit ___ Taxi komme ich schnell an. (Dativ — Dat.)

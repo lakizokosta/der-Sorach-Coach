@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Das Team verliert ___. (nicht)
-
+Das Team verliert ___. (Negation)

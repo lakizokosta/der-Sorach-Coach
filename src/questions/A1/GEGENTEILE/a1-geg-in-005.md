@@ -5,5 +5,4 @@ correct:
   - teuer
 ---
 
-Das Hemd ist billig, die Jacke ist ___. (Gegenteil von billig)
-
+Das Hemd ist billig, die Jacke ist ___. (Gegenteile)

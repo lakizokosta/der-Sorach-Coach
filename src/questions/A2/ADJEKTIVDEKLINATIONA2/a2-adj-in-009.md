@@ -5,4 +5,4 @@ correct:
   - heißen
 ---
 
-Ich trinke ___ heißen Tee. (Adj. — mask., Akk.)
+Ich trinke ___ heißen Tee. (Adjektivdeklination — mask., Akk.)

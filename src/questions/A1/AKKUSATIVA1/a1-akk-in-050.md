@@ -5,5 +5,4 @@ correct:
   - die
 ---
 
-Er sammelt ___ Briefmarken. (die Briefmarken, Akk.)
-
+Er sammelt ___ Briefmarken. (Akkusativ — Akk.)

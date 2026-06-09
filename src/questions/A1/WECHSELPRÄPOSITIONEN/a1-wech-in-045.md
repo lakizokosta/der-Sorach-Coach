@@ -5,5 +5,4 @@ correct:
   - auf dem
 ---
 
-Wir treffen uns ___ Platz. (auf + dem, Ort)
-
+Wir treffen uns ___ Platz. (Wechselpräpositionen — Ort)

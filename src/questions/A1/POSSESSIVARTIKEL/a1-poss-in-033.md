@@ -5,5 +5,4 @@ correct:
   - mein
 ---
 
-Wo ist ___ Schuh? (ich, mask., Nom.)
-
+Wo ist ___ Schuh? (Possessivartikel — mask., Nom.)

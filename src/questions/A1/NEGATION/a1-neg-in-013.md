@@ -5,5 +5,4 @@ correct:
   - kein
 ---
 
-Wir haben ___ Geld. (kein, neutr.)
-
+Wir haben ___ Geld. (Negation)

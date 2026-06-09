@@ -5,5 +5,4 @@ correct:
   - einen
 ---
 
-Sie hat ___ Bruder. (ein Bruder, mask., Akk.)
-
+Sie hat ___ Bruder. (Artikel — mask., Akk.)

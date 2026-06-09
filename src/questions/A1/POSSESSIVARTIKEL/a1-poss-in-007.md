@@ -5,5 +5,4 @@ correct:
   - Mein
 ---
 
-___ Fahrrad ist neu. (ich, neutr., Nom.)
-
+___ Fahrrad ist neu. (Possessivartikel — neutr., Nom.)

@@ -5,4 +5,4 @@ correct:
   - war
 ---
 
-Gestern ___ ich den ganzen Tag zu Hause. (Präteritum — sein/ich)
+Gestern ___ ich den ganzen Tag zu Hause. (Präteritum — ich)

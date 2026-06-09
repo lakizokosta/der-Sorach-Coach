@@ -5,5 +5,4 @@ correct:
   - im
 ---
 
-Er arbeitet ___ Büro. (in + dem, Ort)
-
+Er arbeitet ___ Büro. (Wechselpräpositionen — Ort)

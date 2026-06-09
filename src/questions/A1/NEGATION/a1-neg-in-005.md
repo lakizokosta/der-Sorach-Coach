@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Ich bin ___ müde. (nicht)
-
+Ich bin ___ müde. (Negation)

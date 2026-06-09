@@ -5,4 +5,4 @@ correct:
   - in die
 ---
 
-Wir fahren ___ Berge. (Wohin? — in + Akk.)
+Wir fahren ___ Berge. (Wechselpräpositionen — Wohin?)

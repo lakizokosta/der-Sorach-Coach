@@ -5,4 +5,4 @@ correct:
   - erholen
 ---
 
-Wir ___ uns im Schwimmbad. (Reflexiv — erholen/wir)
+Wir ___ uns im Schwimmbad. (Reflexivpronomen — wir)

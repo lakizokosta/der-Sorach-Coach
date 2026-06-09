@@ -5,5 +5,4 @@ correct:
   - Äpfel
 ---
 
-Auf dem Tisch liegen fünf ___. (Plural: Apfel)
-
+Auf dem Tisch liegen fünf ___. (Plural)

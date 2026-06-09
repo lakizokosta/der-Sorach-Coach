@@ -5,5 +5,4 @@ correct:
   - die
 ---
 
-Ich höre ___ Musik. (die Musik, Akk.)
-
+Ich höre ___ Musik. (Akkusativ — Akk.)

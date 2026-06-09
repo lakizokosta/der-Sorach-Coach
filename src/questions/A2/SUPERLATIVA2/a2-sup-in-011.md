@@ -5,4 +5,4 @@ correct:
   - bekannteste
 ---
 
-Das ist der ___ Film des Jahres. (Superlativ — bekannt, mask., Nom.)
+Das ist der ___ Film des Jahres. (Superlativ — mask., Nom.)

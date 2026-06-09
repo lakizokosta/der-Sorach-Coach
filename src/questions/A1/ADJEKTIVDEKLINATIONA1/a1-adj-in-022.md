@@ -5,5 +5,4 @@ correct:
   - frischen
 ---
 
-Ich esse einen ___ Salat. (frisch, mask., Akk.)
-
+Ich esse einen ___ Salat. (Adjektivdeklination — mask., Akk.)

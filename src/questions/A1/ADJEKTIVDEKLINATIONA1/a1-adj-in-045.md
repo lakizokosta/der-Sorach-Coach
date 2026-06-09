@@ -5,5 +5,4 @@ correct:
   - sonnigen
 ---
 
-Auf dem ___ Balkon frühstücken wir. (sonnig, mask., Dat.)
-
+Auf dem ___ Balkon frühstücken wir. (Adjektivdeklination — mask., Dat.)

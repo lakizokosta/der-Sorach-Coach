@@ -5,4 +5,4 @@ correct:
   - unseren
 ---
 
-Wir essen mit ___ Freunden. (Possessiv — unsere Freunde, Dat.)
+Wir essen mit ___ Freunden. (Dativ — unsere Freunde, Dat.)

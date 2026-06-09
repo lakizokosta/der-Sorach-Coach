@@ -5,5 +5,4 @@ correct:
   - den
 ---
 
-Ich spiele ___ Ball. (der Ball, Akk.)
-
+Ich spiele ___ Ball. (Akkusativ — Akk.)

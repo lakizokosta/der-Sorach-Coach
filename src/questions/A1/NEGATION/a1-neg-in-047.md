@@ -5,5 +5,4 @@ correct:
   - keinen
 ---
 
-Er hat ___ Chef. (kein, mask.)
-
+Er hat ___ Chef. (Negation)

@@ -5,5 +5,4 @@ correct:
   - salzig
 ---
 
-Der Kuchen ist süß, der Salat ist ___. (Gegenteil von süß)
-
+Der Kuchen ist süß, der Salat ist ___. (Gegenteile)

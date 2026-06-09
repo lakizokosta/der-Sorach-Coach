@@ -5,4 +5,4 @@ correct:
   - ist
 ---
 
-Sie ___ spät nach Hause gekommen. (Perfekt — sein/sie)
+Sie ___ spät nach Hause gekommen. (Perfekt — sie)

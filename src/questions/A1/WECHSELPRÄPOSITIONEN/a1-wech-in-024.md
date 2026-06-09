@@ -5,5 +5,4 @@ correct:
   - im
 ---
 
-Ich bin ___ Supermarkt. (in + dem, Ort)
-
+Ich bin ___ Supermarkt. (Wechselpräpositionen — Ort)

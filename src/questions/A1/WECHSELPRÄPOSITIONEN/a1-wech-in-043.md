@@ -5,5 +5,4 @@ correct:
   - in den
 ---
 
-Bei Sturm gehe ich ___ Keller. (in + den, Bewegung)
-
+Bei Sturm gehe ich ___ Keller. (Wechselpräpositionen — Bewegung)

@@ -5,5 +5,4 @@ correct:
   - fahrt
 ---
 
-Ihr ___ nach Österreich. (fahren, ihr)
-
+Ihr ___ nach Österreich. (Verbkonjugation — ihr)

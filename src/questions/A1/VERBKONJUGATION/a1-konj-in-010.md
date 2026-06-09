@@ -5,5 +5,4 @@ correct:
   - hört
 ---
 
-Tom ___ gern Popmusik. (hören, er)
-
+Tom ___ gern Popmusik. (Verbkonjugation — er)

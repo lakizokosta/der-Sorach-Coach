@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Das ist ___ mein Fahrrad. (nicht)
-
+Das ist ___ mein Fahrrad. (Negation)

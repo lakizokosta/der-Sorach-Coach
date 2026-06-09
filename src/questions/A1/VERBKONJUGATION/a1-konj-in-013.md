@@ -5,5 +5,4 @@ correct:
   - schwimmt
 ---
 
-Im Sommer ___ er im See. (schwimmen, er)
-
+Im Sommer ___ er im See. (Verbkonjugation — er)

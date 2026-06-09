@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Ich schaue ___ fern. (nicht)
-
+Ich schaue ___ fern. (Negation)

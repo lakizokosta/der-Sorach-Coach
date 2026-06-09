@@ -5,5 +5,4 @@ correct:
   - auf der
 ---
 
-Sie steht ___ Brücke. (auf + der, Ort)
-
+Sie steht ___ Brücke. (Wechselpräpositionen — Ort)

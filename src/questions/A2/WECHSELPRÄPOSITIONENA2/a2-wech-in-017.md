@@ -5,4 +5,4 @@ correct:
   - im
 ---
 
-Das Kind spielt ___ Garten. (Wo? — im)
+Das Kind spielt ___ Garten. (Wechselpräpositionen — Wo?)

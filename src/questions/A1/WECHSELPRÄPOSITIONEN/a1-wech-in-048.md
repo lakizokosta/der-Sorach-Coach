@@ -5,5 +5,4 @@ correct:
   - auf dem
 ---
 
-Sie kauft Obst ___ Markt. (auf + dem, Ort)
-
+Sie kauft Obst ___ Markt. (Wechselpräpositionen — Ort)

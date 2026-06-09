@@ -5,4 +5,4 @@ correct:
   - meine
 ---
 
-Ich liebe ___ Stadt. (Possessiv — ich, fem., Akk.)
+Ich liebe ___ Stadt. (Possessivartikel — fem., Akk.)

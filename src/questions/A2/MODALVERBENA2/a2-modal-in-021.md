@@ -5,4 +5,4 @@ correct:
   - wollen
 ---
 
-Wir ___ morgen früh losfahren. (Modalverb — wollen/wir)
+Wir ___ morgen früh losfahren. (Modalverb — wir)

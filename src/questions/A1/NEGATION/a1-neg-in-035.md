@@ -5,5 +5,4 @@ correct:
   - kein
 ---
 
-Wir haben ___ Ticket. (kein, neutr.)
-
+Wir haben ___ Ticket. (Negation)

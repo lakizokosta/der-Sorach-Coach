@@ -5,4 +5,4 @@ correct:
   - nach
 ---
 
-Nach der Schule gehe ich ___ Haus. (Wohin? — nach)
+Nach der Schule gehe ich ___ Haus. (Wechselpräpositionen — Wohin?)

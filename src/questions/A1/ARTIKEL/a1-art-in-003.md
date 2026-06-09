@@ -5,5 +5,4 @@ correct:
   - Das
 ---
 
-___ Kind spielt draußen. (das Kind, Nom.)
-
+___ Kind spielt draußen. (Artikel — Nom.)

@@ -5,5 +5,4 @@ correct:
   - meine
 ---
 
-Ich lese gern ___ Bücher. (ich, Pl., Akk.)
-
+Ich lese gern ___ Bücher. (Possessivartikel — Pl., Akk.)

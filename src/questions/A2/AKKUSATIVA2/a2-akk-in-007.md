@@ -5,4 +5,4 @@ correct:
   - seinen
 ---
 
-Er geht ohne ___ Mantel. (Possessiv — sein Mantel, Akk.)
+Er geht ohne ___ Mantel. (Akkusativ — sein Mantel, Akk.)

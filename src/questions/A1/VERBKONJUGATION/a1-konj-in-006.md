@@ -5,5 +5,4 @@ correct:
   - tanzt
 ---
 
-Ihr ___ gern auf der Party. (tanzen, ihr)
-
+Ihr ___ gern auf der Party. (Verbkonjugation — ihr)

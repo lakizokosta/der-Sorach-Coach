@@ -5,4 +5,4 @@ correct:
   - dir
 ---
 
-Das schmeckt ___ gut. (Personalpronomen — du, Dat.)
+Das schmeckt ___ gut. (Dativ — Personalpronomen — du, Dat.)

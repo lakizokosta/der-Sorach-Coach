@@ -5,4 +5,4 @@ correct:
   - Meine
 ---
 
-___ Kindheit war schön. (Possessiv — ich, fem., Nom.)
+___ Kindheit war schön. (Possessivartikel — fem., Nom.)

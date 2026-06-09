@@ -5,5 +5,4 @@ correct:
   - an die
 ---
 
-Ich stelle mich ___ Ecke. (an + die, Bewegung)
-
+Ich stelle mich ___ Ecke. (Wechselpräpositionen — Bewegung)

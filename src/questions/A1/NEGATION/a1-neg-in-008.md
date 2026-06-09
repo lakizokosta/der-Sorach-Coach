@@ -5,5 +5,4 @@ correct:
   - keine
 ---
 
-Ich habe ___ Freunde in Berlin. (kein, Pl.)
-
+Ich habe ___ Freunde in Berlin. (Negation)

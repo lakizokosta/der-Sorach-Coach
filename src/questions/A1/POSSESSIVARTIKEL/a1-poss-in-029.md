@@ -5,5 +5,4 @@ correct:
   - sein
 ---
 
-Das ist ___ Fahrrad. (er, neutr., Nom.)
-
+Das ist ___ Fahrrad. (Possessivartikel — neutr., Nom.)

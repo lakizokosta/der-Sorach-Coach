@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Es regnet ___ heute. (nicht)
-
+Es regnet ___ heute. (Negation)

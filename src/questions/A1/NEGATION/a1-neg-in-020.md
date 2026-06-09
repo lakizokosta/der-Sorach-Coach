@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Der Bus fährt ___ hier. (nicht)
-
+Der Bus fährt ___ hier. (Negation)

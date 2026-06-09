@@ -5,5 +5,4 @@ correct:
   - auf der
 ---
 
-Er liegt ___ Matte. (auf + der, Ort)
-
+Er liegt ___ Matte. (Wechselpräpositionen — Ort)

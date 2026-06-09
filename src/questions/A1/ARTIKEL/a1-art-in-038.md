@@ -5,5 +5,4 @@ correct:
   - Der
 ---
 
-___ Bahnhof ist groß. (der Bahnhof, Nom.)
-
+___ Bahnhof ist groß. (Artikel — Nom.)

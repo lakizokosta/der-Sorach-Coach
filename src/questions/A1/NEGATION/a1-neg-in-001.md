@@ -5,5 +5,4 @@ correct:
   - keine
 ---
 
-Ich habe ___ Zeit. (kein, fem.)
-
+Ich habe ___ Zeit. (Negation)

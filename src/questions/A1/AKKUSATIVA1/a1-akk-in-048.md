@@ -5,5 +5,4 @@ correct:
   - ein
 ---
 
-Sie kauft ___ Ticket. (ein Ticket, Akk.)
-
+Sie kauft ___ Ticket. (Akkusativ — Akk.)

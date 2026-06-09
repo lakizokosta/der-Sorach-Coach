@@ -5,4 +5,4 @@ correct:
   - meines
 ---
 
-Das ist das Auto ___ Vaters. (Possessiv — ich, mask., Gen.)
+Das ist das Auto ___ Vaters. (Possessivartikel — mask., Gen.)

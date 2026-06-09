@@ -5,5 +5,4 @@ correct:
   - keinen
 ---
 
-Ich trage ___ Hut. (kein, mask.)
-
+Ich trage ___ Hut. (Negation)

@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Er ___ sich für den Tanzsport interessiert. (Perfekt — haben/er)
+Er ___ sich für den Tanzsport interessiert. (Perfekt — er)

@@ -5,4 +5,4 @@ correct:
   - hast
 ---
 
-Du ___ schon viel für die Prüfung gelernt. (Perfekt — haben/du)
+Du ___ schon viel für die Prüfung gelernt. (Perfekt — du)

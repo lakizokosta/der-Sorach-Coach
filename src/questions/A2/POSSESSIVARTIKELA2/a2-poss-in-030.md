@@ -5,4 +5,4 @@ correct:
   - meiner
 ---
 
-Das Fahrrad ___ Schwester ist neu. (Possessiv — ich, fem., Gen.)
+Das Fahrrad ___ Schwester ist neu. (Possessivartikel — fem., Gen.)

@@ -5,5 +5,4 @@ correct:
   - an der
 ---
 
-Das Café ist ___ Ecke. (an + der, Ort)
-
+Das Café ist ___ Ecke. (Wechselpräpositionen — Ort)

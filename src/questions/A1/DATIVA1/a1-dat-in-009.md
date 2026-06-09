@@ -5,5 +5,4 @@ correct:
   - dir
 ---
 
-Das schmeckt ___ gut. (du, Dat.)
-
+Das schmeckt ___ gut. (Dativ — Dat.)

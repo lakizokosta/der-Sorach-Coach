@@ -5,4 +5,4 @@ correct:
   - Nachdem
 ---
 
-___ wir die Reise gebucht haben, sind wir glücklich. (Temporal — nachdem)
+___ wir die Reise gebucht haben, sind wir glücklich. (Temporalsatz)

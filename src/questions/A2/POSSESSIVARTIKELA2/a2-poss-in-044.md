@@ -5,4 +5,4 @@ correct:
   - seines
 ---
 
-Die Wohnung ___ Freundes ist schön. (Possessiv — er, mask., Gen.)
+Die Wohnung ___ Freundes ist schön. (Possessivartikel — mask., Gen.)

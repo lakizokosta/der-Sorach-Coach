@@ -5,5 +5,4 @@ correct:
   - leise
 ---
 
-Die Musik ist laut, die Nachbarn wollen es ___. (Gegenteil von laut)
-
+Die Musik ist laut, die Nachbarn wollen es ___. (Gegenteile)

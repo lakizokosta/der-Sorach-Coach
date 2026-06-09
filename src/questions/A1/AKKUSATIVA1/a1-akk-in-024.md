@@ -5,5 +5,4 @@ correct:
   - die
 ---
 
-Ich streichle ___ Katze. (die Katze, Akk.)
-
+Ich streichle ___ Katze. (Akkusativ — Akk.)

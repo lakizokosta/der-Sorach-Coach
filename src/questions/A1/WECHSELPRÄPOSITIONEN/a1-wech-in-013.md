@@ -5,5 +5,4 @@ correct:
   - auf dem
 ---
 
-Die Katze sitzt ___ Sofa. (auf + dem, Ort)
-
+Die Katze sitzt ___ Sofa. (Wechselpräpositionen — Ort)

@@ -5,5 +5,4 @@ correct:
   - einen
 ---
 
-Ich kaufe ___ Apfel. (ein Apfel, Akk.)
-
+Ich kaufe ___ Apfel. (Akkusativ — Akk.)

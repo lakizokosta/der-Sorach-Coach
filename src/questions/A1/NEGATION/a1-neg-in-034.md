@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Ich kenne ___ diese Straße. (nicht)
-
+Ich kenne ___ diese Straße. (Negation)

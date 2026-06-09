@@ -5,4 +5,4 @@ correct:
   - sollte
 ---
 
-Er ___ Detektiv werden. (Präteritum — sollen/er)
+Er ___ Detektiv werden. (Präteritum — er)

@@ -5,5 +5,4 @@ correct:
   - auf der
 ---
 
-Ich laufe ___ Straße. (auf + der, Ort)
-
+Ich laufe ___ Straße. (Wechselpräpositionen — Ort)

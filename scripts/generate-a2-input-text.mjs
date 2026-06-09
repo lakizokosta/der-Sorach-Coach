@@ -10,6 +10,7 @@ import { fileURLToPath } from 'node:url';
 
 import { md } from './a2-input-text-shared.mjs';
 import { BANK } from './a2-input-text-data.mjs';
+import { transformHint } from './fix-input-text-hints.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A2');
 
@@ -44,7 +45,12 @@ function writeTopic(folder, prefix, items) {
     const num = String(i + 1).padStart(3, '0');
     const path = join(ROOT, folder, `${prefix}-${num}.md`);
     if (existsSync(path)) return;
-    const prompt = item[0].replace(/^\[[^\]]+]\s+/, '');
+    const raw = item[0].replace(/^\[[^\]]+]\s+/, '');
+    const m = raw.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
+    const ans = Array.isArray(item[1]) ? item[1] : [item[1]];
+    const prompt = m
+      ? `${m[1].trimEnd()} (${transformHint(m[2], folder, ans)})`
+      : raw;
     writeFileSync(path, md(`${prefix}-${num}`, prompt, item[1]), 'utf8');
     n += 1;
   });

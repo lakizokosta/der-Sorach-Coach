@@ -5,4 +5,4 @@ correct:
   - beste
 ---
 
-Sie ist die ___ Schülerin in der Klasse. (Superlativ — gut, fem., Nom.)
+Sie ist die ___ Schülerin in der Klasse. (Superlativ — fem., Nom.)

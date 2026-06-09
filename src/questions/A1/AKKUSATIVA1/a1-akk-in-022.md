@@ -5,5 +5,4 @@ correct:
   - einen
 ---
 
-Er sucht ___ Job. (ein Job, Akk.)
-
+Er sucht ___ Job. (Akkusativ — Akk.)

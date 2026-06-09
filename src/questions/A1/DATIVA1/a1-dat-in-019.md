@@ -5,5 +5,4 @@ correct:
   - der
 ---
 
-Bei ___ Arbeit lerne ich viel. (die Arbeit, Dat.)
-
+Bei ___ Arbeit lerne ich viel. (Dativ — Dat.)

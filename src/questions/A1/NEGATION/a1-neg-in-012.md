@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Er kommt ___ heute. (nicht)
-
+Er kommt ___ heute. (Negation)

@@ -5,4 +5,4 @@ correct:
   - neuem
 ---
 
-Mit ___ neuem Auto fährt er gern. (Adj. — neutr., Dat.)
+Mit ___ neuem Auto fährt er gern. (Adjektivdeklination — neutr., Dat.)

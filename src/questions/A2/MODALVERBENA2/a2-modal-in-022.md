@@ -5,4 +5,4 @@ correct:
   - kann
 ---
 
-Er ___ sehr gut Deutsch. (Modalverb — können/er)
+Er ___ sehr gut Deutsch. (Modalverb — er)

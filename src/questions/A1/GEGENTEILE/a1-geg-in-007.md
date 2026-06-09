@@ -5,5 +5,4 @@ correct:
   - schwer
 ---
 
-Die Aufgabe ist leicht, die Prüfung ist ___. (Gegenteil von leicht)
-
+Die Aufgabe ist leicht, die Prüfung ist ___. (Gegenteile)

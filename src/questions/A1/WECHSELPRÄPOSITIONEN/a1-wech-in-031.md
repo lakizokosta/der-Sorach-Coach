@@ -5,5 +5,4 @@ correct:
   - auf die
 ---
 
-Sie geht ___ Brücke. (auf + die, Bewegung)
-
+Sie geht ___ Brücke. (Wechselpräpositionen — Bewegung)

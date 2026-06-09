@@ -5,5 +5,4 @@ correct:
   - der
 ---
 
-Ich gebe ___ Frau die Blume. (die Frau, Dat.)
-
+Ich gebe ___ Frau die Blume. (Dativ — Dat.)

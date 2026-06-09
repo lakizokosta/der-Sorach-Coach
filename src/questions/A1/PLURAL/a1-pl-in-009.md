@@ -5,5 +5,4 @@ correct:
   - Hobbys
 ---
 
-Meine ___ sind Lesen und Sport. (Plural: Hobby)
-
+Meine ___ sind Lesen und Sport. (Plural)

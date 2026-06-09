@@ -5,4 +5,4 @@ correct:
   - schönes
 ---
 
-Das ist ___ schönes Geschenk. (Adj. — ein + neutr., Nom.)
+Das ist ___ schönes Geschenk. (Adjektivdeklination — ein + neutr., Nom.)

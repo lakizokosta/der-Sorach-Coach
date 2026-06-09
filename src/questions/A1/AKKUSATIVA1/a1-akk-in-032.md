@@ -5,5 +5,4 @@ correct:
   - die
 ---
 
-Ich lerne ___ Wörter. (die Wörter, Akk.)
-
+Ich lerne ___ Wörter. (Akkusativ — Akk.)

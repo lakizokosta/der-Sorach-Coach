@@ -5,5 +5,4 @@ correct:
   - unsere
 ---
 
-Wir suchen ___ Wohnung. (wir, fem., Akk.)
-
+Wir suchen ___ Wohnung. (Possessivartikel — fem., Akk.)

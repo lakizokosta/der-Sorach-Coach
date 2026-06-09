@@ -5,5 +5,4 @@ correct:
   - auf dem
 ---
 
-Das Buch liegt ___ Tisch. (auf + der, Ort)
-
+Das Buch liegt ___ Tisch. (Wechselpräpositionen — Ort)

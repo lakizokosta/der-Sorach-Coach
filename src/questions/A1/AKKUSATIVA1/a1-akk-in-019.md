@@ -5,5 +5,4 @@ correct:
   - den
 ---
 
-Ich verpasse ___ Zug. (der Zug, Akk.)
-
+Ich verpasse ___ Zug. (Akkusativ — Akk.)

@@ -5,5 +5,4 @@ correct:
   - Der
 ---
 
-___ Park ist in der Nähe. (der Park, Nom.)
-
+___ Park ist in der Nähe. (Artikel — Nom.)

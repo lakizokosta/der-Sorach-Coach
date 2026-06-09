@@ -5,4 +5,4 @@ correct:
   - fahren
 ---
 
-Wir ___ nach Hause ein. (trennbar — einfahren/wir)
+Wir ___ nach Hause ein. (Trennbare Verben — wir)

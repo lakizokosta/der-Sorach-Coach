@@ -5,5 +5,4 @@ correct:
   - Tomaten
 ---
 
-Für den Salat kaufe ich sechs ___. (Plural: Tomate)
-
+Für den Salat kaufe ich sechs ___. (Plural)

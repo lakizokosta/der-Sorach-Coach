@@ -5,4 +5,4 @@ correct:
   - macht
 ---
 
-Er ___ das Radio an. (trennbar — anmachen/er)
+Er ___ das Radio an. (Trennbare Verben — er)

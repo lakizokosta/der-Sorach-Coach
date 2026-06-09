@@ -5,4 +5,4 @@ correct:
   - bester
 ---
 
-Das ist mein ___ Freund. (Superlativ — gut, mask., Nom.)
+Das ist mein ___ Freund. (Superlativ — mask., Nom.)

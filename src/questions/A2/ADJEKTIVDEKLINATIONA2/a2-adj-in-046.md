@@ -5,4 +5,4 @@ correct:
   - ruhiger
 ---
 
-In ___ ruhiger Straße wohnt sie. (Adj. — fem., Dat.)
+In ___ ruhiger Straße wohnt sie. (Adjektivdeklination — fem., Dat.)

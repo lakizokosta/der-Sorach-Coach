@@ -5,5 +5,4 @@ correct:
   - keinen
 ---
 
-Ich trinke ___ Kaffee. (kein, mask., Akk.)
-
+Ich trinke ___ Kaffee. (Negation)

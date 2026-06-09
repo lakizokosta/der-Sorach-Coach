@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Das ist ___ billig. (nicht)
-
+Das ist ___ billig. (Negation)

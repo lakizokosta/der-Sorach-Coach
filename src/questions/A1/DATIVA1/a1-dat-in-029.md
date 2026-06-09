@@ -5,5 +5,4 @@ correct:
   - Regen
 ---
 
-Bei ___ Regen bleibe ich drinnen. (der Regen, Dat.)
-
+Bei ___ Regen bleibe ich drinnen. (Dativ — Dat.)

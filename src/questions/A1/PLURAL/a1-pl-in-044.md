@@ -5,5 +5,4 @@ correct:
   - Länder
 ---
 
-Wir besuchen gern neue ___. (Plural: Land)
-
+Wir besuchen gern neue ___. (Plural)

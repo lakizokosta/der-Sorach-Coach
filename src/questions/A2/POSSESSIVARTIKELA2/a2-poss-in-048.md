@@ -5,4 +5,4 @@ correct:
   - euren
 ---
 
-Wir feiern ___ Geburtstag. (Possessiv — ihr, mask., Akk.)
+Wir feiern ___ Geburtstag. (Possessivartikel — mask., Akk.)

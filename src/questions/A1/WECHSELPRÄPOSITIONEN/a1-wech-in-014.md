@@ -5,5 +5,4 @@ correct:
   - auf den
 ---
 
-Wir laufen ___ Sportplatz. (auf + den, Bewegung)
-
+Wir laufen ___ Sportplatz. (Wechselpräpositionen — Bewegung)

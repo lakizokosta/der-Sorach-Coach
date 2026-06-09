@@ -5,5 +5,4 @@ correct:
   - Kinder
 ---
 
-Im Garten spielen viele ___. (Plural: Kind)
-
+Im Garten spielen viele ___. (Plural)

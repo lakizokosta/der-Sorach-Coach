@@ -5,5 +5,4 @@ correct:
   - den Schuhen
 ---
 
-In ___ Schuhen laufe ich schnell. (die Schuhe, Dat.)
-
+In ___ Schuhen laufe ich schnell. (Dativ — Dat.)

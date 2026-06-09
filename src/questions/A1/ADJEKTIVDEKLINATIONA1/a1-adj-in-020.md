@@ -5,5 +5,4 @@ correct:
   - großen
 ---
 
-Auf dem ___ Markt kaufe ich Obst. (groß, mask., Dat.)
-
+Auf dem ___ Markt kaufe ich Obst. (Adjektivdeklination — mask., Dat.)

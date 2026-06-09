@@ -5,5 +5,4 @@ correct:
   - geht
 ---
 
-Sie ___ in die Stadt. (gehen, sie)
-
+Sie ___ in die Stadt. (Verbkonjugation — sie)

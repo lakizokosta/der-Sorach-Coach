@@ -5,4 +5,4 @@ correct:
   - meinem
 ---
 
-Ich habe ___ Mann ein Geschenk gekauft. (Possessiv — ich, mask., Dat.)
+Ich habe ___ Mann ein Geschenk gekauft. (Possessivartikel — mask., Dat.)

@@ -5,5 +5,4 @@ correct:
   - aufs
 ---
 
-Wir fahren ___ Land. (auf + das, Bewegung)
-
+Wir fahren ___ Land. (Wechselpräpositionen — Bewegung)

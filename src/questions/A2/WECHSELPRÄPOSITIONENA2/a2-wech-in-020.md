@@ -5,4 +5,4 @@ correct:
   - im
 ---
 
-Wo ist das Kind? — Es ist ___ Park. (Wo? — in + Dat.)
+Wo ist das Kind? — Es ist ___ Park. (Wechselpräpositionen — Wo?)

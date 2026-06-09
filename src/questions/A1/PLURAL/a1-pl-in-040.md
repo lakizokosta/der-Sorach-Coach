@@ -5,5 +5,4 @@ correct:
   - Wochen
 ---
 
-Die Ferien dauern zwei ___. (Plural: Woche)
-
+Die Ferien dauern zwei ___. (Plural)

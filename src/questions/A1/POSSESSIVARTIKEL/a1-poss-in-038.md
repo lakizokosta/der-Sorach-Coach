@@ -5,5 +5,4 @@ correct:
   - dein
 ---
 
-Spielst du ___ Spiel? (du, neutr., Akk.)
-
+Spielst du ___ Spiel? (Possessivartikel — neutr., Akk.)

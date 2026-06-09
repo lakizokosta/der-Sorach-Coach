@@ -5,4 +5,4 @@ correct:
   - tolle
 ---
 
-Das ist ja eine ___ Wohnung! (Adj. — fem., Nom.)
+Das ist ja eine ___ Wohnung! (Adjektivdeklination — fem., Nom.)

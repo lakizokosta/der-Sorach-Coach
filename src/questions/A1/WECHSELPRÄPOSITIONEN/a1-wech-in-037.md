@@ -5,5 +5,4 @@ correct:
   - ins
 ---
 
-Stell die Flasche ___ Regal. (in + das, Bewegung)
-
+Stell die Flasche ___ Regal. (Wechselpräpositionen — Bewegung)

@@ -5,5 +5,4 @@ correct:
   - ihrem
 ---
 
-Sie fährt mit ___ Auto. (sie, neutr., Dat.)
-
+Sie fährt mit ___ Auto. (Possessivartikel — neutr., Dat.)

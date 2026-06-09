@@ -5,5 +5,4 @@ correct:
   - der
 ---
 
-In ___ Stadt wohne ich. (die Stadt, Dat.)
-
+In ___ Stadt wohne ich. (Dativ — Dat.)

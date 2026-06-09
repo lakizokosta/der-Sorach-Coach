@@ -5,5 +5,4 @@ correct:
   - macht
 ---
 
-Er ___ die Hausaufgaben. (machen, er)
-
+Er ___ die Hausaufgaben. (Verbkonjugation — er)

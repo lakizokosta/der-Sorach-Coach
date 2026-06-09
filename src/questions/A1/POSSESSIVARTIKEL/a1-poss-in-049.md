@@ -5,5 +5,4 @@ correct:
   - ihr
 ---
 
-Sie sucht ___ Geschenk. (sie, neutr., Akk.)
-
+Sie sucht ___ Geschenk. (Possessivartikel — neutr., Akk.)

@@ -5,4 +5,4 @@ correct:
   - beeilt
 ---
 
-Sie ___ sich, weil der Zug kommt. (Reflexiv — beeilen/sie)
+Sie ___ sich, weil der Zug kommt. (Reflexivpronomen — sie)

@@ -5,4 +5,4 @@ correct:
   - Darf
 ---
 
-___ man hier fotografieren? (Modalverb — dürfen/man)
+___ man hier fotografieren? (Modalverb — man)

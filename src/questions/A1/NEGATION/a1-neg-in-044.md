@@ -5,5 +5,4 @@ correct:
   - keine
 ---
 
-Es gibt ___ Milch. (kein, fem.)
-
+Es gibt ___ Milch. (Negation)

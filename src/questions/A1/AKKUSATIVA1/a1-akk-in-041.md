@@ -5,5 +5,4 @@ correct:
   - den
 ---
 
-Er wirft ___ Frisbee. (der Frisbee, Akk.)
-
+Er wirft ___ Frisbee. (Akkusativ — Akk.)

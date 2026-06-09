@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Ich ___ meine Freunde im Park getroffen. (Perfekt — haben/ich)
+Ich ___ meine Freunde im Park getroffen. (Perfekt — ich)

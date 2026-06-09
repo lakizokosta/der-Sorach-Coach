@@ -5,5 +5,4 @@ correct:
   - in den
 ---
 
-Wir wandern ___ Bergen. (in + den, Ort)
-
+Wir wandern ___ Bergen. (Wechselpräpositionen — Ort)

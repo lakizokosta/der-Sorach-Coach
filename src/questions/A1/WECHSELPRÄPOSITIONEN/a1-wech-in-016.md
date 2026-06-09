@@ -5,5 +5,4 @@ correct:
   - auf der
 ---
 
-Sie singt ___ Bühne. (auf + der, Ort)
-
+Sie singt ___ Bühne. (Wechselpräpositionen — Ort)

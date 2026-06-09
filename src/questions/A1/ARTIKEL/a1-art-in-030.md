@@ -5,5 +5,4 @@ correct:
   - ein
 ---
 
-Wir suchen ___ Café. (ein Café, neutr., Akk.)
-
+Wir suchen ___ Café. (Artikel — neutr., Akk.)

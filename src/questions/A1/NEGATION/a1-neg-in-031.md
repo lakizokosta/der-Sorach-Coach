@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Der Test ist ___ schwer. (nicht)
-
+Der Test ist ___ schwer. (Negation)

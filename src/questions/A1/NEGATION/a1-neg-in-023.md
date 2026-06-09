@@ -5,5 +5,4 @@ correct:
   - keine
 ---
 
-Ich nehme ___ Medizin. (kein, fem.)
-
+Ich nehme ___ Medizin. (Negation)

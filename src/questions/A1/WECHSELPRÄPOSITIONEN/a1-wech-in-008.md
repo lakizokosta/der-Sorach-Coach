@@ -5,5 +5,4 @@ correct:
   - auf die
 ---
 
-Wir fahren ___ Straße. (auf + die, Bewegung)
-
+Wir fahren ___ Straße. (Wechselpräpositionen — Bewegung)

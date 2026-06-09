@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Ich ___ lange geschlafen. (Perfekt — haben/ich)
+Ich ___ lange geschlafen. (Perfekt — ich)

@@ -5,5 +5,4 @@ correct:
   - an der
 ---
 
-Das Bild hängt ___ Wand. (an + die, Ort)
-
+Das Bild hängt ___ Wand. (Wechselpräpositionen — Ort)

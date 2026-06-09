@@ -5,5 +5,4 @@ correct:
   - sanft
 ---
 
-Das Training ist hart, die Pause ist ___. (Gegenteil von hart)
-
+Das Training ist hart, die Pause ist ___. (Gegenteile)

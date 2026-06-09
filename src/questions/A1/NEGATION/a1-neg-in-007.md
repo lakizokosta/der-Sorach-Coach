@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Das Wetter ist ___ schön. (nicht)
-
+Das Wetter ist ___ schön. (Negation)

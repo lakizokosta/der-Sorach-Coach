@@ -5,5 +5,4 @@ correct:
   - meinen
 ---
 
-Ich rufe ___ Bruder an. (mein Bruder, Akk.)
-
+Ich rufe ___ Bruder an. (Akkusativ — mein Bruder, Akk.)

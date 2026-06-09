@@ -5,5 +5,4 @@ correct:
   - Ideen
 ---
 
-In der Diskussion kommen gute ___. (Plural: Idee)
-
+In der Diskussion kommen gute ___. (Plural)

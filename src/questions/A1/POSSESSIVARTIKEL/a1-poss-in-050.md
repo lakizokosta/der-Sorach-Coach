@@ -5,5 +5,4 @@ correct:
   - Unsere
 ---
 
-___ Kollegen sind nett. (wir, Pl., Nom.)
-
+___ Kollegen sind nett. (Possessivartikel — Pl., Nom.)

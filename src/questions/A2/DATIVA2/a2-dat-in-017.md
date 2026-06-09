@@ -5,4 +5,4 @@ correct:
   - Ihnen
 ---
 
-Ich helfe ___ beim Ausfüllen. (Personalpronomen — Sie, Dat.)
+Ich helfe ___ beim Ausfüllen. (Dativ — Personalpronomen — Sie, Dat.)

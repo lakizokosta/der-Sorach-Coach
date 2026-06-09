@@ -5,5 +5,4 @@ correct:
   - ein
 ---
 
-Wir nehmen ___ Taxi. (ein Taxi, neutr., Akk.)
-
+Wir nehmen ___ Taxi. (Artikel — neutr., Akk.)

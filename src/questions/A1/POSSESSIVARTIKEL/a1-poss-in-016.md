@@ -5,5 +5,4 @@ correct:
   - Ihr
 ---
 
-___ Kaninchen ist süß. (sie Pl., neutr., Nom.)
-
+___ Kaninchen ist süß. (Possessivartikel — sie Pl., neutr., Nom.)

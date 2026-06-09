@@ -5,4 +5,4 @@ correct:
   - kaltem
 ---
 
-Mit ___ kalten Wetter bleibe ich drinnen. (Adj. — neutr., Dat.)
+Mit ___ kalten Wetter bleibe ich drinnen. (Adjektivdeklination — neutr., Dat.)

@@ -5,5 +5,4 @@ correct:
   - Brote
 ---
 
-Im Laden gibt es frische ___. (Plural: Brot)
-
+Im Laden gibt es frische ___. (Plural)

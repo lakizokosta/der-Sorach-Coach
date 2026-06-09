@@ -5,5 +5,4 @@ correct:
   - kalt
 ---
 
-Gestern war es warm, heute ist es ___. (Gegenteil von warm)
-
+Gestern war es warm, heute ist es ___. (Gegenteile)

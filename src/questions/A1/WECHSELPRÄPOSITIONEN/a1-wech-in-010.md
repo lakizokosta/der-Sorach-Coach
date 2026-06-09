@@ -5,5 +5,4 @@ correct:
   - ins
 ---
 
-Wir gehen ___ Restaurant. (in + das, Bewegung)
-
+Wir gehen ___ Restaurant. (Wechselpräpositionen — Bewegung)

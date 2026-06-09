@@ -5,5 +5,4 @@ correct:
   - in der
 ---
 
-Ich lerne ___ Schule. (in + der, Ort)
-
+Ich lerne ___ Schule. (Wechselpräpositionen — Ort)

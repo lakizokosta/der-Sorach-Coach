@@ -5,5 +5,4 @@ correct:
   - Seine
 ---
 
-___ Arbeit beginnt um 8 Uhr. (er, fem., Nom.)
-
+___ Arbeit beginnt um 8 Uhr. (Possessivartikel — fem., Nom.)

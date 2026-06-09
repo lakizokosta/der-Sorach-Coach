@@ -5,5 +5,4 @@ correct:
   - Lampen
 ---
 
-Im Wohnzimmer hängen zwei ___. (Plural: Lampe)
-
+Im Wohnzimmer hängen zwei ___. (Plural)

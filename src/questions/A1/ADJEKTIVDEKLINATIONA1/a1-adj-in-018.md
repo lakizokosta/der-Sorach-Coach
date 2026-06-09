@@ -5,5 +5,4 @@ correct:
   - kaltes
 ---
 
-Nach dem Sport trinke ich ___ Wasser. (kalt, neutr., Akk.)
-
+Nach dem Sport trinke ich ___ Wasser. (Adjektivdeklination — neutr., Akk.)

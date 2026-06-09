@@ -5,5 +5,4 @@ correct:
   - klein
 ---
 
-Mein Vater ist groß, ich bin ___. (Gegenteil von groß)
-
+Mein Vater ist groß, ich bin ___. (Gegenteile)

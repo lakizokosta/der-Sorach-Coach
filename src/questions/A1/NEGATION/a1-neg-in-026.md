@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Sie antwortet ___ sofort. (nicht)
-
+Sie antwortet ___ sofort. (Negation)

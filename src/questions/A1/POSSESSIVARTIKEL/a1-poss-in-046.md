@@ -5,5 +5,4 @@ correct:
   - deine
 ---
 
-Zieh ___ Handschuhe an! (du, Pl., Akk.)
-
+Zieh ___ Handschuhe an! (Possessivartikel — Pl., Akk.)

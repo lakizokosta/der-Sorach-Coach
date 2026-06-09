@@ -5,5 +5,4 @@ correct:
   - Der
 ---
 
-___ Regen dauert den ganzen Tag. (der Regen, Nom.)
-
+___ Regen dauert den ganzen Tag. (Artikel — Nom.)

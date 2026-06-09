@@ -5,4 +5,4 @@ correct:
   - wollte
 ---
 
-Ich ___ auf meiner Schule bleiben. (Präteritum — wollen/ich)
+Ich ___ auf meiner Schule bleiben. (Präteritum — ich)

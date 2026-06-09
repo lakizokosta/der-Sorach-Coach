@@ -5,5 +5,4 @@ correct:
   - den
 ---
 
-Ich nehme ___ Bus. (der Bus, Akk.)
-
+Ich nehme ___ Bus. (Akkusativ — Akk.)

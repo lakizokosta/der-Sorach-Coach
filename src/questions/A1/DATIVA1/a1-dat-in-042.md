@@ -5,5 +5,4 @@ correct:
   - meiner Schwester
 ---
 
-Mit ___ Schwester spiele ich Karten. (meine Schwester, Dat.)
-
+Mit ___ Schwester spiele ich Karten. (Dativ — meine Schwester, Dat.)

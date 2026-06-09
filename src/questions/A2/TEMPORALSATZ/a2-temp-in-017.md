@@ -5,4 +5,4 @@ correct:
   - Wenn
 ---
 
-___ ich aufwache, trinke ich Kaffee. (Temporal — wenn)
+___ ich aufwache, trinke ich Kaffee. (Temporalsatz)

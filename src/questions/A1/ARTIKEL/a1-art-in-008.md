@@ -5,5 +5,4 @@ correct:
   - Die
 ---
 
-___ Sonne scheint heute. (die Sonne, Nom.)
-
+___ Sonne scheint heute. (Artikel — Nom.)

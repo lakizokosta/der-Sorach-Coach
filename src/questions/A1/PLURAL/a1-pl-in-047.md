@@ -5,5 +5,4 @@ correct:
   - Museen
 ---
 
-Am Samstag besuchen wir zwei ___. (Plural: Museum)
-
+Am Samstag besuchen wir zwei ___. (Plural)

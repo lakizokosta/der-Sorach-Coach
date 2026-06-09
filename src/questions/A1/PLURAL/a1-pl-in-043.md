@@ -5,5 +5,4 @@ correct:
   - Namen
 ---
 
-Ich kenne alle ___ in der Klasse. (Plural: Name)
-
+Ich kenne alle ___ in der Klasse. (Plural)

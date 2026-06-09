@@ -5,5 +5,4 @@ correct:
   - backt
 ---
 
-Sie ___ einen Kuchen. (backen, sie)
-
+Sie ___ einen Kuchen. (Verbkonjugation — sie)

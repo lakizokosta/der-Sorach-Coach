@@ -5,5 +5,4 @@ correct:
   - den
 ---
 
-Ich buche ___ Flug. (der Flug, Akk.)
-
+Ich buche ___ Flug. (Akkusativ — Akk.)

@@ -5,5 +5,4 @@ correct:
   - Unsere
 ---
 
-___ Küche ist klein. (wir, fem., Nom.)
-
+___ Küche ist klein. (Possessivartikel — fem., Nom.)

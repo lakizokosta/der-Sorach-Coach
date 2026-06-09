@@ -5,5 +5,4 @@ correct:
   - ein
 ---
 
-Er isst ___ Brot. (ein Brot, neutr., Akk.)
-
+Er isst ___ Brot. (Artikel — neutr., Akk.)

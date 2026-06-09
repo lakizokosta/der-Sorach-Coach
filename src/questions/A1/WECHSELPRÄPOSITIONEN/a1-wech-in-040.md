@@ -5,5 +5,4 @@ correct:
   - auf der
 ---
 
-Wir sind ___ Insel. (auf + der, Ort)
-
+Wir sind ___ Insel. (Wechselpräpositionen — Ort)

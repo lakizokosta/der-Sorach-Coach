@@ -5,5 +5,4 @@ correct:
   - Ihre
 ---
 
-___ Mannschaft trainiert viel. (Sie, fem., Nom.)
-
+___ Mannschaft trainiert viel. (Possessivartikel — fem., Nom.)

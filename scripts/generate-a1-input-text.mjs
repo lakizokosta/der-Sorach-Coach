@@ -5,6 +5,8 @@ import { mkdirSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { transformHint } from './fix-input-text-hints.mjs';
+
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A1');
 
 const TOPICS = {
@@ -26,6 +28,15 @@ function md(id, prompt, correct) {
   return `---\nid: ${id}\ntype: input-text\ncorrect:\n${ans}\n---\n\n${prompt}\n`;
 }
 
+function fixPrompt(raw, topic, correct) {
+  const stripped = raw.replace(/^\[[^\]]+]\s+/, '');
+  const m = stripped.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
+  if (!m) return stripped;
+  const ans = Array.isArray(correct) ? correct : [correct];
+  const hint = transformHint(m[2], topic, ans);
+  return `${m[1].trimEnd()} (${hint})`;
+}
+
 function writeTopic(folder, prefix, items) {
   mkdirSync(join(ROOT, folder), { recursive: true });
   let n = 0;
@@ -33,7 +44,7 @@ function writeTopic(folder, prefix, items) {
     const num = String(i + 1).padStart(3, '0');
     const path = join(ROOT, folder, `${prefix}-${num}.md`);
     if (existsSync(path)) return;
-    const prompt = item[0].replace(/^\[[^\]]+]\s+/, '');
+    const prompt = fixPrompt(item[0], folder, item[1]);
     writeFileSync(path, md(`${prefix}-${num}`, prompt, item[1]), 'utf8');
     n += 1;
   });

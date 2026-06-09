@@ -5,5 +5,4 @@ correct:
   - einen
 ---
 
-Sie kauft ___ Rock. (ein Rock, Akk.)
-
+Sie kauft ___ Rock. (Akkusativ — Akk.)

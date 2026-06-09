@@ -5,4 +5,4 @@ correct:
   - wollen
 ---
 
-Wir ___ heute ins Schwimmbad gehen. (Modalverb — wollen/wir)
+Wir ___ heute ins Schwimmbad gehen. (Modalverb — wir)

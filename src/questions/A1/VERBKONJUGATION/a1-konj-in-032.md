@@ -5,5 +5,4 @@ correct:
   - feiern
 ---
 
-Wir ___ heute einen Geburtstag. (feiern, wir)
-
+Wir ___ heute einen Geburtstag. (Verbkonjugation — wir)

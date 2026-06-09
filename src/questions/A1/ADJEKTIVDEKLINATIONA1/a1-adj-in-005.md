@@ -5,5 +5,4 @@ correct:
   - große
 ---
 
-Ich habe keine ___ Wohnung. (groß, fem., Akk.)
-
+Ich habe keine ___ Wohnung. (Adjektivdeklination — fem., Akk.)

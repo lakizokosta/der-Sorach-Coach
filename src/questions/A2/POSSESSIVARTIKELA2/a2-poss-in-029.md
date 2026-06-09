@@ -5,4 +5,4 @@ correct:
   - seinen
 ---
 
-Er sucht ___ Schlüssel. (Possessiv — er, mask., Akk.)
+Er sucht ___ Schlüssel. (Possessivartikel — mask., Akk.)

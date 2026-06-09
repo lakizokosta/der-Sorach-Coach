@@ -5,5 +5,4 @@ correct:
   - pessimistisch
 ---
 
-Sie ist optimistisch, er ist ___. (Gegenteil von optimistisch)
-
+Sie ist optimistisch, er ist ___. (Gegenteile)

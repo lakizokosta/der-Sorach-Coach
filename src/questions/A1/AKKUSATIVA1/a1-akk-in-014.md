@@ -5,5 +5,4 @@ correct:
   - den
 ---
 
-Ich finde ___ Film toll. (der Film, Akk.)
-
+Ich finde ___ Film toll. (Akkusativ — Akk.)

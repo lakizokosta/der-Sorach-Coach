@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Ich verstehe ___ die Frage. (nicht)
-
+Ich verstehe ___ die Frage. (Negation)

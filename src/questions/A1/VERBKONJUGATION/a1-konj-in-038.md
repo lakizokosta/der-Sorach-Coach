@@ -5,5 +5,4 @@ correct:
   - grillen
 ---
 
-Im Sommer ___ wir im Garten. (grillen, wir)
-
+Im Sommer ___ wir im Garten. (Verbkonjugation — wir)

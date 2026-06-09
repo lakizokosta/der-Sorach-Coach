@@ -5,4 +5,4 @@ correct:
   - meiner
 ---
 
-Die Idee ___ Kollegin ist gut. (Possessiv — ich, fem., Gen.)
+Die Idee ___ Kollegin ist gut. (Possessivartikel — fem., Gen.)

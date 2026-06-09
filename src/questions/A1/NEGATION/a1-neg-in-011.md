@@ -5,5 +5,4 @@ correct:
   - noch nie
 ---
 
-Ich war ___ in Paris. (noch nie)
-
+Ich war ___ in Paris. (Negation)

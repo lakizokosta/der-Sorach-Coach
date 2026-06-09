@@ -5,5 +5,4 @@ correct:
   - Städte
 ---
 
-In Deutschland gibt es viele schöne ___. (Plural: Stadt)
-
+In Deutschland gibt es viele schöne ___. (Plural)

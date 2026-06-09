@@ -5,4 +5,4 @@ correct:
   - sollst
 ---
 
-Du ___ leiser sprechen. (Modalverb — sollen/du)
+Du ___ leiser sprechen. (Modalverb — du)

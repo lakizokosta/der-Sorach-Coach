@@ -5,4 +5,4 @@ correct:
   - in den
 ---
 
-Deshalb möchte ich ___ Zoo. (Wohin? — in + Akk.)
+Deshalb möchte ich ___ Zoo. (Wechselpräpositionen — Wohin?)

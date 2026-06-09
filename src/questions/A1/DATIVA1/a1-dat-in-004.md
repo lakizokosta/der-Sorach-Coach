@@ -5,5 +5,4 @@ correct:
   - dem
 ---
 
-Das gehört ___ Bruder. (der Bruder, Dat.)
-
+Das gehört ___ Bruder. (Dativ — Dat.)

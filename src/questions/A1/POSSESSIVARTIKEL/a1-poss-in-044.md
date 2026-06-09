@@ -5,5 +5,4 @@ correct:
   - deine
 ---
 
-Probier ___ Suppe! (du, fem., Akk.)
-
+Probier ___ Suppe! (Possessivartikel — fem., Akk.)

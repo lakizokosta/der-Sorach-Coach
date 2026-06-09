@@ -5,4 +5,4 @@ correct:
   - ein
 ---
 
-Sie liest ___ interessantes Buch. (Adj. — ein + neutr., Akk.)
+Sie liest ___ interessantes Buch. (Adjektivdeklination — ein + neutr., Akk.)

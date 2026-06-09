@@ -5,5 +5,4 @@ correct:
   - in die
 ---
 
-Wir fahren ___ Berge. (in + die, Bewegung)
-
+Wir fahren ___ Berge. (Wechselpräpositionen — Bewegung)

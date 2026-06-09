@@ -5,4 +5,4 @@ correct:
   - fuhren
 ---
 
-Wir ___ mit dem Zug nach Italien. (Präteritum — fahren/wir)
+Wir ___ mit dem Zug nach Italien. (Präteritum — wir)

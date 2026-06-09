@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Sie sucht ___ billige Wohnung. (Adj. — eine + fem., Akk.)
+Sie sucht ___ billige Wohnung. (Adjektivdeklination — Akk.)

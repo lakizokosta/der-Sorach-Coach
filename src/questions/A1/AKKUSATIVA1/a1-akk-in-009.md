@@ -5,5 +5,4 @@ correct:
   - ein
 ---
 
-Ich suche ___ Hotel. (ein Hotel, Akk.)
-
+Ich suche ___ Hotel. (Akkusativ — Akk.)

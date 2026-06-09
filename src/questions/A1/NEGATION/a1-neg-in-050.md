@@ -5,5 +5,4 @@ correct:
   - keine
 ---
 
-Sie hat ___ Kinder. (kein, Pl.)
-
+Sie hat ___ Kinder. (Negation)

@@ -5,4 +5,4 @@ correct:
   - schlief
 ---
 
-Er ___ die ganze Nacht. (Präteritum — schlafen/er)
+Er ___ die ganze Nacht. (Präteritum — er)

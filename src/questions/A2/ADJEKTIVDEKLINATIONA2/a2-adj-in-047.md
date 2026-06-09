@@ -5,4 +5,4 @@ correct:
   - frisches
 ---
 
-Er isst ___ frisches Brot. (Adj. — neutr., Akk.)
+Er isst ___ frisches Brot. (Adjektivdeklination — neutr., Akk.)

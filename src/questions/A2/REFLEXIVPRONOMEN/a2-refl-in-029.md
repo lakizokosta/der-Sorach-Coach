@@ -5,4 +5,4 @@ correct:
   - fühle
 ---
 
-Ich ___ mich nicht gut. (Reflexiv — fühlen/ich)
+Ich ___ mich nicht gut. (Reflexivpronomen — ich)

@@ -5,4 +5,4 @@ correct:
   - gute
 ---
 
-Ohne ___ gute Vorbereitung geht das nicht. (Adj. — fem., Akk.)
+Ohne ___ gute Vorbereitung geht das nicht. (Adjektivdeklination — fem., Akk.)

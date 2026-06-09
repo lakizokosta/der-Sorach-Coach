@@ -5,4 +5,4 @@ correct:
   - großer
 ---
 
-In ___ großen Stadt wohne ich gern. (Adj. — fem., Dat.)
+In ___ großen Stadt wohne ich gern. (Adjektivdeklination — fem., Dat.)

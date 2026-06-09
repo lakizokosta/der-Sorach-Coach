@@ -5,5 +5,4 @@ correct:
   - Das
 ---
 
-___ Schwimmbad ist neu. (das Schwimmbad, Nom.)
-
+___ Schwimmbad ist neu. (Artikel — Nom.)

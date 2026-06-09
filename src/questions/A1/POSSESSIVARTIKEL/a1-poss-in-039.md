@@ -5,5 +5,4 @@ correct:
   - meine
 ---
 
-Ich liebe ___ Oma. (ich, fem., Akk.)
-
+Ich liebe ___ Oma. (Possessivartikel — fem., Akk.)

@@ -5,5 +5,4 @@ correct:
   - mir
 ---
 
-Kannst du ___ helfen? (ich, Dat.)
-
+Kannst du ___ helfen? (Dativ — Dat.)

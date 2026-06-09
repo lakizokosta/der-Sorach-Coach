@@ -5,5 +5,4 @@ correct:
   - in der
 ---
 
-Wir sind ___ Schweiz. (in + der, Ort)
-
+Wir sind ___ Schweiz. (Wechselpräpositionen — Ort)

@@ -5,5 +5,4 @@ correct:
   - Das
 ---
 
-___ Essen schmeckt gut. (das Essen, Nom.)
-
+___ Essen schmeckt gut. (Artikel — Nom.)

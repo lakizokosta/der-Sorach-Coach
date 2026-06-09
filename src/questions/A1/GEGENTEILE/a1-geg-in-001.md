@@ -5,5 +5,4 @@ correct:
   - klein
 ---
 
-Der Turm ist groß, das Haus daneben ist ___. (Gegenteil von groß)
-
+Der Turm ist groß, das Haus daneben ist ___. (Gegenteile)

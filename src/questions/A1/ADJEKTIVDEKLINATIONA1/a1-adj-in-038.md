@@ -5,5 +5,4 @@ correct:
   - bekanntes
 ---
 
-Er singt ein ___ Lied. (bekannt, neutr., Akk.)
-
+Er singt ein ___ Lied. (Adjektivdeklination — neutr., Akk.)

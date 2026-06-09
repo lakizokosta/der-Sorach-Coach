@@ -5,5 +5,4 @@ correct:
   - der Party
 ---
 
-Auf ___ Party tanzen alle. (die Party, Dat.)
-
+Auf ___ Party tanzen alle. (Dativ — Dat.)

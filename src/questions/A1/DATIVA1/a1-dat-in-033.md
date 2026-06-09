@@ -5,5 +5,4 @@ correct:
   - dem Team
 ---
 
-Ich gratuliere ___ Team. (das Team, Dat.)
-
+Ich gratuliere ___ Team. (Dativ — Dat.)

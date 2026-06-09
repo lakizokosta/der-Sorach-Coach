@@ -5,5 +5,4 @@ correct:
   - Stunden
 ---
 
-Das Konzert dauert zwei ___. (Plural: Stunde)
-
+Das Konzert dauert zwei ___. (Plural)

@@ -5,4 +5,4 @@ correct:
   - steige
 ---
 
-Ich ___ in den Bus ein. (trennbar — einsteigen/ich)
+Ich ___ in den Bus ein. (Trennbare Verben — ich)

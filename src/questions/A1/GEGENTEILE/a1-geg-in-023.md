@@ -5,5 +5,4 @@ correct:
   - unpünktlich
 ---
 
-Der Zug ist pünktlich, der Bus ist ___. (Gegenteil von pünktlich)
-
+Der Zug ist pünktlich, der Bus ist ___. (Gegenteile)

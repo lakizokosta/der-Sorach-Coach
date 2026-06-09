@@ -5,4 +5,4 @@ correct:
   - einen
 ---
 
-Ich kaufe ___ neuen Computer. (Adj. — ein + mask., Akk.)
+Ich kaufe ___ neuen Computer. (Adjektivdeklination — ein + mask., Akk.)

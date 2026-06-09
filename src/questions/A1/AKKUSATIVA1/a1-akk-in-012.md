@@ -5,5 +5,4 @@ correct:
   - ein
 ---
 
-Ich mache ___ Foto. (ein Foto, Akk.)
-
+Ich mache ___ Foto. (Akkusativ — Akk.)

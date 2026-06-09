@@ -5,5 +5,4 @@ correct:
   - meinen
 ---
 
-Ich vergesse ___ Stift. (ich, mask., Akk.)
-
+Ich vergesse ___ Stift. (Possessivartikel — mask., Akk.)

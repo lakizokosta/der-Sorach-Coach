@@ -5,4 +5,4 @@ correct:
   - deine
 ---
 
-Das Geschenk ist für ___ Schwester. (Possessiv — deine Schwester, Akk.)
+Das Geschenk ist für ___ Schwester. (Akkusativ — deine Schwester, Akk.)

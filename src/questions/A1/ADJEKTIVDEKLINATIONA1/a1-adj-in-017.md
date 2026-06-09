@@ -5,5 +5,4 @@ correct:
   - junge
 ---
 
-Meine ___ Schwester wohnt in Berlin. (jung, fem., Nom.)
-
+Meine ___ Schwester wohnt in Berlin. (Adjektivdeklination — fem., Nom.)

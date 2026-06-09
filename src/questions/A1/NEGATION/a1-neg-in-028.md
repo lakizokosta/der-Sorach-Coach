@@ -5,5 +5,4 @@ correct:
   - keinen
 ---
 
-Ich mache ___ Sport. (kein, mask.)
-
+Ich mache ___ Sport. (Negation)

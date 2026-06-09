@@ -5,5 +5,4 @@ correct:
   - Die
 ---
 
-___ Gitarre liegt auf dem Bett. (die Gitarre, Nom.)
-
+___ Gitarre liegt auf dem Bett. (Artikel — Nom.)

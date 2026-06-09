@@ -5,5 +5,4 @@ correct:
   - einen
 ---
 
-Er kauft ___ Ball. (ein Ball, mask., Akk.)
-
+Er kauft ___ Ball. (Artikel — mask., Akk.)

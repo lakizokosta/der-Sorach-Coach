@@ -5,5 +5,4 @@ correct:
   - im
 ---
 
-Wir sind ___ Park. (in + der, Ort)
-
+Wir sind ___ Park. (Wechselpräpositionen — Ort)

@@ -5,4 +5,4 @@ correct:
   - freue
 ---
 
-Ich ___ mich über das Geschenk. (Reflexiv — freuen/ich)
+Ich ___ mich über das Geschenk. (Reflexivpronomen — ich)

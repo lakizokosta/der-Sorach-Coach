@@ -5,5 +5,4 @@ correct:
   - alt
 ---
 
-Die Schuhe sind neu, die Socken sind ___. (Gegenteil von neu)
-
+Die Schuhe sind neu, die Socken sind ___. (Gegenteile)

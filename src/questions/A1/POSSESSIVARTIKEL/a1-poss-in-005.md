@@ -5,5 +5,4 @@ correct:
   - mein
 ---
 
-Wo ist ___ Heft? (ich, neutr., Nom.)
-
+Wo ist ___ Heft? (Possessivartikel — neutr., Nom.)

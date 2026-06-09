@@ -5,5 +5,4 @@ correct:
   - in die
 ---
 
-Ich komme ___ Schule. (in + die, Bewegung)
-
+Ich komme ___ Schule. (Wechselpräpositionen — Bewegung)

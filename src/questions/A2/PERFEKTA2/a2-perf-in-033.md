@@ -5,4 +5,4 @@ correct:
   - haben
 ---
 
-Wir ___ die Reise im Reisebüro gebucht. (Perfekt — haben/wir)
+Wir ___ die Reise im Reisebüro gebucht. (Perfekt — wir)

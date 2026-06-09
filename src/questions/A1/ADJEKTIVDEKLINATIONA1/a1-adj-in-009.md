@@ -5,5 +5,4 @@ correct:
   - schlechtem
 ---
 
-Bei ___ Wetter bleibe ich zu Hause. (schlecht, neutr., Dat.)
-
+Bei ___ Wetter bleibe ich zu Hause. (Adjektivdeklination — neutr., Dat.)

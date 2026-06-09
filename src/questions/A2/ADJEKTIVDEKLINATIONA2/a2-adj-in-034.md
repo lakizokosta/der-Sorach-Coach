@@ -5,4 +5,4 @@ correct:
   - schlecht
 ---
 
-Gutes Wetter wäre auch nicht ___. (Adj. — neutr., Nom.)
+Gutes Wetter wäre auch nicht ___. (Adjektivdeklination — neutr., Nom.)

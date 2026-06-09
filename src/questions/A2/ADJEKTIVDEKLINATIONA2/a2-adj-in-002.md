@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Das ist ___ alte Lampe. (Adj. — eine + fem., Nom.)
+Das ist ___ alte Lampe. (Adjektivdeklination — Nom.)

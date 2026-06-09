@@ -5,5 +5,4 @@ correct:
   - keinen
 ---
 
-Ich habe ___ Hunger. (kein, mask.)
-
+Ich habe ___ Hunger. (Negation)

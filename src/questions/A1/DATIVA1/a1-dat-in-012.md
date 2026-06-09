@@ -5,5 +5,4 @@ correct:
   - ihm
 ---
 
-Es geht ___ schlecht. (er, Dat.)
-
+Es geht ___ schlecht. (Dativ — Dat.)

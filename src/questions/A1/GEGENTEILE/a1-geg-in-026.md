@@ -5,5 +5,4 @@ correct:
   - bewölkt
 ---
 
-Der Himmel ist klar, morgen ist er ___. (Gegenteil von klar)
-
+Der Himmel ist klar, morgen ist er ___. (Gegenteile)

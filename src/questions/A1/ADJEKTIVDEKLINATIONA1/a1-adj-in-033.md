@@ -5,4 +5,4 @@ correct:
   - liebes
 ---
 
-Das ist mein ___ Buch. (lieb, neutr., Nom.)
+Das ist mein ___ Buch. (Adjektivdeklination — neutr., Nom.)

@@ -5,5 +5,4 @@ correct:
   - meine
 ---
 
-Ich packe ___ Tasche. (ich, fem., Akk.)
-
+Ich packe ___ Tasche. (Possessivartikel — fem., Akk.)

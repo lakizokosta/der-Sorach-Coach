@@ -5,5 +5,4 @@ correct:
   - schöne
 ---
 
-Ich habe eine ___ Katze. (schön, fem., Akk.)
-
+Ich habe eine ___ Katze. (Adjektivdeklination — fem., Akk.)

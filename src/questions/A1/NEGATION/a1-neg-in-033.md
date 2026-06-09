@@ -5,5 +5,4 @@ correct:
   - nicht
 ---
 
-Das ist ___ meine Mutter. (nicht)
-
+Das ist ___ meine Mutter. (Negation)

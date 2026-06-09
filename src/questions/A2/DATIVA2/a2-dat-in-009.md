@@ -5,4 +5,4 @@ correct:
   - meinen
 ---
 
-Ich wohne bei ___ Eltern. (Possessiv — meine Eltern, Dat.)
+Ich wohne bei ___ Eltern. (Dativ — meine Eltern, Dat.)

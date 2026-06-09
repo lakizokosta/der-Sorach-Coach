@@ -5,5 +5,4 @@ correct:
   - ins
 ---
 
-Er geht ___ Büro. (in + das, Bewegung)
-
+Er geht ___ Büro. (Wechselpräpositionen — Bewegung)

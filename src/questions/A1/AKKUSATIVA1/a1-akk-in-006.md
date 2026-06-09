@@ -5,5 +5,4 @@ correct:
   - meine
 ---
 
-Ich besuche ___ Freundin. (meine Freundin, Akk.)
-
+Ich besuche ___ Freundin. (Akkusativ — meine Freundin, Akk.)

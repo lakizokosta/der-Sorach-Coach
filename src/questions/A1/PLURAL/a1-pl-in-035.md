@@ -5,5 +5,4 @@ correct:
   - Fotos
 ---
 
-Auf dem Handy habe ich viele ___. (Plural: Foto)
-
+Auf dem Handy habe ich viele ___. (Plural)

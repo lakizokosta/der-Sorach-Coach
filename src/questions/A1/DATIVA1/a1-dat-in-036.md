@@ -5,5 +5,4 @@ correct:
   - meinem Freund
 ---
 
-Ich vertraue ___ Freund. (mein Freund, Dat.)
-
+Ich vertraue ___ Freund. (Dativ — mein Freund, Dat.)

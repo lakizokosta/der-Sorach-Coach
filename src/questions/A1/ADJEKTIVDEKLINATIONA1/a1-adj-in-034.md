@@ -5,5 +5,4 @@ correct:
   - alten
 ---
 
-Sie wohnt in einem ___ Haus. (alt, neutr., Dat.)
-
+Sie wohnt in einem ___ Haus. (Adjektivdeklination — neutr., Dat.)

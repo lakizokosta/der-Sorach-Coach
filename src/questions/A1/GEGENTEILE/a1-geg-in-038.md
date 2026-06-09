@@ -5,5 +5,4 @@ correct:
   - langsam
 ---
 
-Das Taxi ist schnell, das Fahrrad ist ___. (Gegenteil von schnell)
-
+Das Taxi ist schnell, das Fahrrad ist ___. (Gegenteile)

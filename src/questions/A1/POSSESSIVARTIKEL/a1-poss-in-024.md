@@ -5,5 +5,4 @@ correct:
   - eure
 ---
 
-Kennst du ___ Nachbarn? (ihr, Pl., Akk.)
-
+Kennst du ___ Nachbarn? (Possessivartikel — Pl., Akk.)

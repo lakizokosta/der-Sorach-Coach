@@ -5,5 +5,4 @@ correct:
   - junge
 ---
 
-Der ___ Lehrer erklärt gut. (jung, mask., Nom.)
-
+Der ___ Lehrer erklärt gut. (Adjektivdeklination — mask., Nom.)

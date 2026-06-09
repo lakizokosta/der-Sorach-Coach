@@ -5,4 +5,4 @@ correct:
   - sollst
 ---
 
-Du ___ mehr Wasser trinken. (Modalverb — sollen/du)
+Du ___ mehr Wasser trinken. (Modalverb — du)

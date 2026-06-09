@@ -5,5 +5,4 @@ correct:
   - meinem
 ---
 
-Ich zeige ___ Freund die Stadt. (ich, mask., Dat.)
-
+Ich zeige ___ Freund die Stadt. (Possessivartikel — mask., Dat.)

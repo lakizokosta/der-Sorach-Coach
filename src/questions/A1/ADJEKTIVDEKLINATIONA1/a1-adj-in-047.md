@@ -5,5 +5,4 @@ correct:
   - wichtiges
 ---
 
-Das ist ein ___ Projekt. (wichtig, neutr., Nom.)
-
+Das ist ein ___ Projekt. (Adjektivdeklination — neutr., Nom.)

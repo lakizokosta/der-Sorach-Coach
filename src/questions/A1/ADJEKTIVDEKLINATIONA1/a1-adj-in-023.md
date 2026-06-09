@@ -5,5 +5,4 @@ correct:
   - spannendes
 ---
 
-Das ist ein ___ Spiel. (spannend, neutr., Nom.)
-
+Das ist ein ___ Spiel. (Adjektivdeklination — neutr., Nom.)

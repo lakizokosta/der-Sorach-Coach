@@ -5,5 +5,4 @@ correct:
   - den Kindern
 ---
 
-Das Lied gefällt ___ Kindern. (die Kinder, Dat.)
-
+Das Lied gefällt ___ Kindern. (Dativ — Dat.)

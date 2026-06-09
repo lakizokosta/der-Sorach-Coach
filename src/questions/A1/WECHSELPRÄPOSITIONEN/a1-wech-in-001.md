@@ -5,5 +5,4 @@ correct:
   - ins
 ---
 
-Heute gehe ich ___ Kino. (in + das, Bewegung)
-
+Heute gehe ich ___ Kino. (Wechselpräpositionen — Bewegung)

@@ -5,4 +5,4 @@ correct:
   - in die
 ---
 
-Die Gäste kommen ___ Wohnung. (Wohin? — in + Akk.)
+Die Gäste kommen ___ Wohnung. (Wechselpräpositionen — Wohin?)

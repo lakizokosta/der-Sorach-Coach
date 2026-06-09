@@ -5,5 +5,4 @@ correct:
   - Die
 ---
 
-___ Schule beginnt um 8 Uhr. (die Schule, Nom.)
-
+___ Schule beginnt um 8 Uhr. (Artikel — Nom.)

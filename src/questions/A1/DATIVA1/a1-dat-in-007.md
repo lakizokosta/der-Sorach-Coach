@@ -5,5 +5,4 @@ correct:
   - den Kindern
 ---
 
-Ich erzähle ___ Kindern eine Geschichte. (die Kinder, Dat.)
-
+Ich erzähle ___ Kindern eine Geschichte. (Dativ — Dat.)

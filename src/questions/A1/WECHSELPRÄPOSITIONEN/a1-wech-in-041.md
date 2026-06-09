@@ -5,5 +5,4 @@ correct:
   - auf die
 ---
 
-Er springt ___ Matte. (auf + die, Bewegung)
-
+Er springt ___ Matte. (Wechselpräpositionen — Bewegung)

@@ -5,4 +5,4 @@ correct:
   - an die
 ---
 
-Stellen Sie die Leiter ___ Wand. (Wohin? — an + Akk.)
+Stellen Sie die Leiter ___ Wand. (Wechselpräpositionen — Wohin?)

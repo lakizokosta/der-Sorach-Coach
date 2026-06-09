@@ -5,5 +5,4 @@ correct:
   - deine
 ---
 
-Das ist ___ Schwester. (du, fem., Nom.)
-
+Das ist ___ Schwester. (Possessivartikel — fem., Nom.)

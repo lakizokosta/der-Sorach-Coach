@@ -5,4 +5,4 @@ correct:
   - ihren
 ---
 
-Ich kenne ___ Bruder. (Possessiv — sie, mask., Akk.)
+Ich kenne ___ Bruder. (Possessivartikel — mask., Akk.)

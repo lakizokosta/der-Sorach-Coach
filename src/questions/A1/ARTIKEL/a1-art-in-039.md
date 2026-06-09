@@ -5,5 +5,4 @@ correct:
   - Die
 ---
 
-___ Suppe ist fertig. (die Suppe, Nom.)
-
+___ Suppe ist fertig. (Artikel — Nom.)

@@ -5,4 +5,4 @@ correct:
   - muss
 ---
 
-Ich ___ heute nicht arbeiten. (Modalverb — müssen/ich)
+Ich ___ heute nicht arbeiten. (Modalverb — ich)

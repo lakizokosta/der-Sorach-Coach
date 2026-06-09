@@ -5,5 +5,4 @@ correct:
   - kleinen
 ---
 
-Im ___ Zimmer schlafe ich gut. (klein, neutr., Dat.)
-
+Im ___ Zimmer schlafe ich gut. (Adjektivdeklination — neutr., Dat.)

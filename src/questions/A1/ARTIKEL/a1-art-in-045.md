@@ -5,5 +5,4 @@ correct:
   - eine
 ---
 
-Sie kauft ___ Bluse. (eine Bluse, fem., Akk.)
-
+Sie kauft ___ Bluse. (Artikel — fem., Akk.)

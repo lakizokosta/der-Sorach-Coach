@@ -5,5 +5,4 @@ correct:
   - auf dem
 ---
 
-Wir sind ___ Land. (auf + dem, Ort)
-
+Wir sind ___ Land. (Wechselpräpositionen — Ort)

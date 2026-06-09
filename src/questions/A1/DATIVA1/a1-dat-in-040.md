@@ -5,5 +5,4 @@ correct:
   - mir
 ---
 
-Mein Chef gibt ___ eine Aufgabe. (ich, Dat.)
-
+Mein Chef gibt ___ eine Aufgabe. (Dativ — Dat.)

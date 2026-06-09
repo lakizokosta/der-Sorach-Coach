@@ -5,4 +5,4 @@ correct:
   - auf der
 ---
 
-Wo steht der Bus? — ___ Straße. (Wo? — auf + Dat.)
+Wo steht der Bus? — ___ Straße. (Wechselpräpositionen — Wo?)

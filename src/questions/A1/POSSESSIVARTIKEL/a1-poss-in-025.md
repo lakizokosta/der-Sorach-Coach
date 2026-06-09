@@ -5,5 +5,4 @@ correct:
   - Unser
 ---
 
-___ Lehrer erklärt die Aufgabe. (wir, mask., Nom.)
-
+___ Lehrer erklärt die Aufgabe. (Possessivartikel — mask., Nom.)

@@ -5,5 +5,4 @@ correct:
   - unseren
 ---
 
-Wir werfen ___ Ball. (wir, mask., Akk.)
-
+Wir werfen ___ Ball. (Possessivartikel — mask., Akk.)

@@ -5,5 +5,4 @@ correct:
   - müde
 ---
 
-Nach dem Sport bin ich fit, vorher war ich ___. (Gegenteil von fit)
-
+Nach dem Sport bin ich fit, vorher war ich ___. (Gegenteile)

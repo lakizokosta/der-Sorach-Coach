@@ -5,5 +5,4 @@ correct:
   - kein
 ---
 
-Ich habe ___ Auto. (kein, neutr.)
-
+Ich habe ___ Auto. (Negation)

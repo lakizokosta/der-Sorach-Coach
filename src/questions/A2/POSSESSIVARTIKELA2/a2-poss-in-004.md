@@ -5,4 +5,4 @@ correct:
   - des
 ---
 
-Das Zimmer ___ Kindes ist klein. (Artikel — das Kind, Gen.)
+Das Zimmer ___ Kindes ist klein. (Possessivartikel — Artikel — das Kind, Gen.)

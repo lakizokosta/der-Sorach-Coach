@@ -5,4 +5,4 @@ correct:
   - steht
 ---
 
-Sie ___ um 7 Uhr auf. (trennbar — aufstehen/sie)
+Sie ___ um 7 Uhr auf. (Trennbare Verben — sie)

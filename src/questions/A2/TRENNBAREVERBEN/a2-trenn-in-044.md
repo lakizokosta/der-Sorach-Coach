@@ -5,4 +5,4 @@ correct:
   - rufe
 ---
 
-Ich ___ meine Freundin an. (trennbar — anrufen/ich)
+Ich ___ meine Freundin an. (Trennbare Verben — ich)

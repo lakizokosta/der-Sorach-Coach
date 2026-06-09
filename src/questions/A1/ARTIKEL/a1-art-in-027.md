@@ -5,5 +5,4 @@ correct:
   - keinen
 ---
 
-Ich habe ___ Hunger. (kein Hunger, mask.)
-
+Ich habe ___ Hunger. (Artikel — mask.)

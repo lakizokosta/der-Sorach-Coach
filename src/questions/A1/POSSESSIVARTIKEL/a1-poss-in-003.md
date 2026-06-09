@@ -5,5 +5,4 @@ correct:
   - meine
 ---
 
-Ich besuche ___ Freundin. (ich, fem., Akk.)
-
+Ich besuche ___ Freundin. (Possessivartikel — fem., Akk.)

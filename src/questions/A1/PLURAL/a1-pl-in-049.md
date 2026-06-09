@@ -5,5 +5,4 @@ correct:
   - Sportarten
 ---
 
-Im Verein machen wir verschiedene ___. (Plural: Sportart)
-
+Im Verein machen wir verschiedene ___. (Plural)

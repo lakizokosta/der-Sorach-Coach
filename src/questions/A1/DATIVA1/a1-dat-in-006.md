@@ -5,5 +5,4 @@ correct:
   - den
 ---
 
-Wir gratulieren ___ Eltern. (die Eltern, Dat.)
-
+Wir gratulieren ___ Eltern. (Dativ — Dat.)

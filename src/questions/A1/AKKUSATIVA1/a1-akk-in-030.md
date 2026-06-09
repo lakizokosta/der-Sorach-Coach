@@ -5,5 +5,4 @@ correct:
   - meinen
 ---
 
-Ich treffe ___ Freund. (mein Freund, Akk.)
-
+Ich treffe ___ Freund. (Akkusativ — mein Freund, Akk.)

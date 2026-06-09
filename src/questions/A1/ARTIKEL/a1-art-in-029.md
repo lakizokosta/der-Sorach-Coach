@@ -5,5 +5,4 @@ correct:
   - ein
 ---
 
-Das ist ___ Freund von mir. (ein Freund, mask., Nom.)
-
+Das ist ___ Freund von mir. (Artikel — mask., Nom.)

@@ -5,5 +5,4 @@ correct:
   - keine
 ---
 
-Ich habe ___ Zeit. (keine Zeit, fem.)
-
+Ich habe ___ Zeit. (Artikel — fem.)

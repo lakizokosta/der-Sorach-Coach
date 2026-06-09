@@ -5,4 +5,4 @@ correct:
   - haben
 ---
 
-Wir ___ zusammen Pizza gegessen. (Perfekt — haben/wir)
+Wir ___ zusammen Pizza gegessen. (Perfekt — wir)
