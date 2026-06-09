@@ -15,6 +15,7 @@ import LoginPanel from '@/components/LoginPanel.vue';
 import DailyGoalCard from '@/components/DailyGoalCard.vue';
 import ActivityCalendar from '@/components/ActivityCalendar.vue';
 import SchwaechenCard from '@/components/SchwaechenCard.vue';
+import LegalFooter from '@/components/LegalFooter.vue';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
 import { usePremium } from '@/composables/usePremium.js';
@@ -302,23 +303,6 @@ function payBasis() {
       </div>
     </div>
 
-    <footer
-      style="
-        text-align: center;
-        padding: 20px;
-        font-size: 12px;
-        color: #999;
-        margin-top: 10px;
-      "
-    >
-      <div style="max-width: 720px; margin: 0 auto;">
-        <a href="#" style="margin: 0 12px; color: #999;">AGB</a>
-        <a href="#" style="margin: 0 12px; color: #999;">Datenschutz</a>
-        <a href="#" style="margin: 0 12px; color: #999;">Impressum</a>
-      </div>
-      <div style="margin-top: 12px; font-size: 11px;">
-        © 2026 Lernziel Deutsch | Der SprachCoach
-      </div>
-    </footer>
+    <LegalFooter />
   </div>
 </template>

@@ -1,7 +1,7 @@
 /**
  * @fileoverview Vue Router configuration for Der SprachCoach.
  *
- * Four named routes:
+ * Named routes:
  *   - landing  (`/`)         The home screen.
  *   - trainer  (`/trainer`)  The question-flow screen. Requires `level`
  *                            query param plus optional `topic` and `mode`.
@@ -15,6 +15,7 @@ import Landing from '@/views/Landing.vue';
 import Trainer from '@/views/Trainer.vue';
 import Premium from '@/views/Premium.vue';
 import Profile from '@/views/Profile.vue';
+import Legal from '@/views/Legal.vue';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -23,6 +24,12 @@ const router = createRouter({
     { path: '/trainer',  name: 'trainer', component: Trainer },
     { path: '/premium',  name: 'premium', component: Premium },
     { path: '/profile',  name: 'profile', component: Profile },
+    {
+      path: '/legal/:slug(agb|datenschutz|impressum)',
+      name: 'legal',
+      component: Legal,
+      props: true,
+    },
     { path: '/:pathMatch(.*)*', redirect: { name: 'landing' } },
   ],
   scrollBehavior() {

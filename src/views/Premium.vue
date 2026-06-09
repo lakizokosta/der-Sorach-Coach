@@ -660,12 +660,11 @@ function topicMastered(key) {
               />
               <span>
                 Ich stimme den
-                <a
-                  href="https://www.lernziel-deutsch.de/p/agb.html"
+                <router-link
+                  :to="{ name: 'legal', params: { slug: 'agb' } }"
                   target="_blank"
-                  rel="noopener noreferrer"
                   style="color: #AB4DBB; text-decoration: underline;"
-                >AGB</a>
+                >AGB</router-link>
                 zu und bestätige, dass das Widerrufsrecht mit Bereitstellung
                 des Codes erlischt.
               </span>
