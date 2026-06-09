@@ -5,6 +5,7 @@ words:
   - Ich
   - komme
   - von
+  - der
   - Stadt
 ---
 

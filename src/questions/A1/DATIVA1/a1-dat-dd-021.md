@@ -5,6 +5,7 @@ words:
   - Der
   - Lehrer
   - gibt
+  - dem
   - Schüler
 ---
 

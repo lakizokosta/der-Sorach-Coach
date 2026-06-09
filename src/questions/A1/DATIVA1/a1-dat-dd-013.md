@@ -5,6 +5,7 @@ words:
   - Er
   - spielt
   - mit
+  - der
   - Gitarre
 ---
 

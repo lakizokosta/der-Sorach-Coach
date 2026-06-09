@@ -5,6 +5,7 @@ words:
   - Er
   - geht
   - aus
+  - dem
   - Kurs
 ---
 

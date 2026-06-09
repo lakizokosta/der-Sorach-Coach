@@ -5,6 +5,7 @@ words:
   - Ich
   - spiele
   - mit
+  - der
   - Schwester
 ---
 

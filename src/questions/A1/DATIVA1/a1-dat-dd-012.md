@@ -5,6 +5,7 @@ words:
   - Wir
   - spielen
   - mit
+  - dem
   - Ball
 ---
 

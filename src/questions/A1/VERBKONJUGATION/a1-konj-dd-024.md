@@ -5,6 +5,7 @@ words:
   - Ich
   - gehe
   - in
+  - die
   - Stadt
 ---
 

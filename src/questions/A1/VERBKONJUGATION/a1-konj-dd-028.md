@@ -6,6 +6,7 @@ words:
   - Kurs
   - beginnt
   - um
+  - acht
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verb — beginnen, der)

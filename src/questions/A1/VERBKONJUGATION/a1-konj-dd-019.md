@@ -5,6 +5,7 @@ words:
   - Er
   - wartet
   - auf
+  - den
   - Zug
 ---
 

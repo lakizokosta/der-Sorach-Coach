@@ -5,6 +5,7 @@ words:
   - Mama
   - kocht
   - in
+  - der
   - Küche
 ---
 

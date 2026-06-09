@@ -5,6 +5,7 @@ words:
   - Ich
   - wohne
   - in
+  - der
   - Stadt
 ---
 

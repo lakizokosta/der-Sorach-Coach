@@ -5,6 +5,7 @@ words:
   - Ich
   - steige
   - in
+  - den
   - Bus
 ---
 

@@ -5,6 +5,7 @@ words:
   - Sie
   - bezahlt
   - an
+  - der
   - Kasse
 ---
 

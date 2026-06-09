@@ -21,6 +21,7 @@ const drop = ref([]);
 const wrongChecks = ref(0);
 const hadWrong = ref(false);
 const finalised = ref(false);
+const succeeded = ref(false);
 const showSolution = ref(false);
 const message = ref({ html: '', color: '' });
 
@@ -52,6 +53,7 @@ function popChip(index) {
 
 function finalise(isCorrect) {
   finalised.value = true;
+  succeeded.value = isCorrect;
   if (isCorrect) {
     message.value = { html: '✅ Richtig! Sehr gut!', color: '#4caf50' };
   }
@@ -104,6 +106,7 @@ function reset() {
   if (finalised.value) return;
   wrongChecks.value = 0;
   hadWrong.value = false;
+  succeeded.value = false;
   showSolution.value = false;
   scrambleBank();
   message.value = { html: '', color: '' };
@@ -150,7 +153,7 @@ function renderTekamoloBreakdown(words, codes) {
 }
 
 const chipClass = computed(() => (word, index) => {
-  if (showSolution.value) return 'correct';
+  if (showSolution.value || (finalised.value && succeeded.value)) return 'correct';
   if (!finalised.value || wrongChecks.value < 2) return '';
   return drop.value[index] === correct[index] ? 'correct' : 'wrong';
 });

@@ -5,6 +5,7 @@ words:
   - Ich
   - fahre
   - mit
+  - dem
   - Bus
 ---
 

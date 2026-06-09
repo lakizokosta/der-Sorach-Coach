@@ -5,6 +5,7 @@ words:
   - Ich
   - schneide
   - mit
+  - dem
   - Messer
 ---
 

@@ -5,6 +5,7 @@ words:
   - Der
   - Arzt
   - hilft
+  - dem
   - Patient
 ---
 

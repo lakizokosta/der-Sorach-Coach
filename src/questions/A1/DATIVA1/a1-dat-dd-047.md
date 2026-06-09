@@ -5,6 +5,7 @@ words:
   - Ich
   - sende
   - ihr
+  - eine
   - Nachricht
 ---
 

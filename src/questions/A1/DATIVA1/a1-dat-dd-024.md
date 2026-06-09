@@ -5,6 +5,7 @@ words:
   - Wir
   - tanzen
   - auf
+  - der
   - Party
 ---
 
