@@ -41,7 +41,7 @@ const TOPICS = {
   VERBNOMENVERBINDUNGB1: 'b1-vnv-dd',
   VERBLASSEN: 'b1-lass-dd',
   WORTSCHATZB1: 'b1-ws-dd',
-  SPRACHBAUSTEINEB1: 'b1-sprach-dd',
+  // SPRACHBAUSTEINEB1: exam format only (select-one + lesen), no dropbox
 };
 
 let total = 0;

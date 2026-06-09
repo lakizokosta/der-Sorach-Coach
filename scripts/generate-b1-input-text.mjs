@@ -43,7 +43,7 @@ const TOPICS = {
   VERBNOMENVERBINDUNGB1: { prefix: 'b1-vnv-in', gen: G.genVerbNomenVerbindungB1 },
   VERBLASSEN: { prefix: 'b1-lass-in', gen: G.genVerblassen },
   WORTSCHATZB1: { prefix: 'b1-ws-in', gen: G.genWortschatzB1 },
-  SPRACHBAUSTEINEB1: { prefix: 'b1-sprach-in', gen: G.genSprachbausteineB1 },
+  // SPRACHBAUSTEINEB1: exam format only (select-one + lesen), no input-text
 };
 
 /** Default hint suffix per topic (inner part before transformHint). */
@@ -75,7 +75,6 @@ const HINT = {
   VERBNOMENVERBINDUNGB1: 'Verb-Nomen-Verbindung',
   VERBLASSEN: 'lassen + Infinitiv',
   WORTSCHATZB1: 'Wortschatz B1',
-  SPRACHBAUSTEINEB1: 'Sprachbaustein',
 };
 
 /** Per-prompt hints for Adjektivdeklination (blank = adjective ending). */

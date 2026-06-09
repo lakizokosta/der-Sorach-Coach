@@ -546,25 +546,6 @@ const BANK_RAW = {
     { hint: 'Wortschatz — Umweltschutz', words: ['Umweltschutz', 'wird', 'Medien', 'oft', 'diskutiert'] },
   ],
 
-  SPRACHBAUSTEINEB1: [
-    { hint: 'Sprachbaustein — bevorstehende', words: ['Hiermit', 'informieren', 'über', 'bevorstehende', 'Terminverschiebung'] },
-    { hint: 'Sprachbaustein — bis Freitag', words: ['Reichen', 'Unterlagen', 'bitte', 'bis', 'Freitag', 'ein'] },
-    { hint: 'Sprachbaustein — Aufgrund', words: ['Aufgrund', 'hoher', 'Nachfrage', 'bieten', 'Termine'] },
-    { hint: 'Sprachbaustein — per E-Mail', words: ['Ergebnisse', 'werden', 'per', 'Mail', 'zugesandt'] },
-    { hint: 'Sprachbaustein — im Seminarraum', words: ['Erscheinen', 'bitte', 'pünktlich', 'im', 'Seminarraum'] },
-    { hint: 'Sprachbaustein — zur Verfügung', words: ['Für', 'Rückfragen', 'stehe', 'zur', 'Verfügung'] },
-    { hint: 'Sprachbaustein — eingehende', words: ['Danach', 'berücksichtigen', 'keine', 'eingehenden', 'Bewerbungen'] },
-    { hint: 'Sprachbaustein — Hierfür', words: ['Hierfür', 'freue', 'mich', 'positive', 'Rückmeldung'] },
-    { hint: 'Sprachbaustein — verbindlich', words: ['Anmeldung', 'ist', 'ab', 'sofort', 'verbindlich'] },
-    { hint: 'Sprachbaustein — gemäß', words: ['Veranstaltung', 'findet', 'gemäß', 'Hygienevorschriften', 'statt'] },
-    { hint: 'Sprachbaustein — ein Hotel', words: ['Buchen', 'frühzeitig', 'ein', 'Hotel', 'Reise'] },
-    { hint: 'Sprachbaustein — Für Informationen', words: ['Für', 'Informationen', 'besuchen', 'Website', 'bitte'] },
-    { hint: 'Sprachbaustein — erforderlich', words: ['Teilnahme', 'ist', 'kostenlos', 'Anmeldung', 'erforderlich'] },
-    { hint: 'Sprachbaustein — Ihren Ausweis', words: ['Bringen', 'bitte', 'Ihren', 'Ausweis', 'mit'] },
-    { hint: 'Sprachbaustein — für Interesse', words: ['Wir', 'danken', 'für', 'Ihr', 'Interesse'] },
-    { hint: 'Sprachbaustein — laut Plan', words: ['Projekt', 'startet', 'laut', 'Plan', 'April'] },
-    { hint: 'Sprachbaustein — in Kürze', words: ['Weitere', 'Details', 'folgen', 'in', 'Kürze'] },
-  ],
 };
 
 export const BANK = Object.fromEntries(
