@@ -5,4 +5,4 @@ correct:
   - deinen
 ---
 
-Ich warte auf ___ Bus. (Possessivartikel — mask., Akk.)
+Ich warte auf ___ Bus. (Possessivartikel — du, mask., Akk.)

@@ -5,4 +5,4 @@ correct:
   - meinen
 ---
 
-Ich rufe ___ Bruder an. (Possessivartikel — mask., Akk.)
+Ich rufe ___ Bruder an. (Possessivartikel — ich, mask., Akk.)

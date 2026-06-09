@@ -5,4 +5,4 @@ correct:
   - ihren
 ---
 
-Ich füttere ___ Hund. (Possessivartikel — mask., Akk.)
+Ich füttere ___ Hund. (Possessivartikel — sie, mask., Akk.)

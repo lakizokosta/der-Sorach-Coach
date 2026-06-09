@@ -5,4 +5,4 @@ correct:
   - unseren
 ---
 
-Wir finden ___ Weg nicht. (Possessivartikel — mask., Akk.)
+Wir finden ___ Weg nicht. (Possessivartikel — wir, mask., Akk.)

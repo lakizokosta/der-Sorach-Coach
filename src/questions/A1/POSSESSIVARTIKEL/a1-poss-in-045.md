@@ -5,4 +5,4 @@ correct:
   - sein
 ---
 
-Er repariert ___ Fahrrad. (Possessivartikel — neutr., Akk.)
+Er repariert ___ Fahrrad. (Possessivartikel — er, neutr., Akk.)

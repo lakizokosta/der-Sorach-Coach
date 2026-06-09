@@ -5,4 +5,4 @@ correct:
   - sein
 ---
 
-Er verlässt ___ Büro. (Possessivartikel — neutr., Akk.)
+Er verlässt ___ Büro. (Possessivartikel — er, neutr., Akk.)

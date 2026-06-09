@@ -5,4 +5,4 @@ correct:
   - deine
 ---
 
-Nimm ___ Jacke mit! (Possessivartikel — fem., Akk.)
+Nimm ___ Jacke mit! (Possessivartikel — du, fem., Akk.)

@@ -5,4 +5,4 @@ correct:
   - meinen
 ---
 
-Bei Regen brauche ich ___ Regenschirm. (Possessivartikel — mask., Akk.)
+Bei Regen brauche ich ___ Regenschirm. (Possessivartikel — ich, mask., Akk.)

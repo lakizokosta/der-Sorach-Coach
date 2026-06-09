@@ -640,10 +640,15 @@ const BANK = {
   ],
 };
 
-let total = 0;
-for (const [folder, prefix] of Object.entries(TOPICS)) {
-  const n = writeTopic(folder, prefix, BANK[folder]);
-  total += n;
-  console.log(`${folder}: +${n}`);
+export { BANK, fixPrompt, md };
+
+const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+if (isMain) {
+  let total = 0;
+  for (const [folder, prefix] of Object.entries(TOPICS)) {
+    const n = writeTopic(folder, prefix, BANK[folder]);
+    total += n;
+    console.log(`${folder}: +${n}`);
+  }
+  console.log(`\nTotal new input-text files: ${total}`);
 }
-console.log(`\nTotal new input-text files: ${total}`);

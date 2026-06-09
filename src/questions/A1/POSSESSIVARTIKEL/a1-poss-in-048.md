@@ -5,4 +5,4 @@ correct:
   - deinen
 ---
 
-Vergiss ___ Pass nicht! (Possessivartikel — mask., Akk.)
+Vergiss ___ Pass nicht! (Possessivartikel — du, mask., Akk.)

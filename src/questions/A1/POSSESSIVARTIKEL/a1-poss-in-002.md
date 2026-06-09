@@ -5,4 +5,4 @@ correct:
   - Meine
 ---
 
-___ Mutter kocht heute Suppe. (Possessivartikel — fem., Nom.)
+___ Mutter kocht heute Suppe. (Possessivartikel — ich, fem., Nom.)

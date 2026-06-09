@@ -90,12 +90,13 @@ export function transformHint(inner, topic, correct) {
     return sub && sub !== 'Antwortpartikel' ? `Antwortpartikel — ${sub}` : 'Antwortpartikel';
   }
 
-  // Possessiv: drop person, keep case
-  if (topic === 'POSSESSIVARTIKEL' || topic === 'POSSESSIVARTIKELA2') {
+  // Possessiv: person (ich/du/er …) is required — it does not leak the ending.
+  if (topic === 'POSSESSIVARTIKEL' || topic === 'POSSESSIVARTIKELA2' || topic === 'POSSESSIVARTIKELB1') {
     let rest = inner.replace(/^Possessiv(?:artikel)?\s*—\s*/i, '').trim();
+    if (!rest) rest = inner.replace(/^Possessiv\s*—\s*/i, '').trim();
     const parts = rest.split(',').map((s) => s.trim());
     if (parts.length && PERSON_MARK.test(parts[0])) {
-      rest = parts.slice(1).join(', ');
+      return `Possessivartikel — ${parts.join(', ')}`;
     }
     return rest ? `Possessivartikel — ${rest}` : 'Possessivartikel';
   }
@@ -195,31 +196,36 @@ function parseMd(content) {
   return { fm, body, id, type, correct };
 }
 
-let changed = 0;
-let scanned = 0;
+const isMain =
+  process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
 
-for (const full of walkMd(ROOT)) {
-  const topic = full.split(/[/\\]/).slice(-2, -1)[0];
-  const parsed = parseMd(readFileSync(full, 'utf8'));
-  if (!parsed || parsed.type !== 'input-text') continue;
-  scanned += 1;
+if (isMain) {
+  let changed = 0;
+  let scanned = 0;
 
-  const lines = parsed.body.split('\n');
-  const lastIdx = lines.length - 1;
-  const line = lines[lastIdx];
-  const hintMatch = line.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
-  if (!hintMatch) continue;
+  for (const full of walkMd(ROOT)) {
+    const topic = full.split(/[/\\]/).slice(-2, -1)[0];
+    const parsed = parseMd(readFileSync(full, 'utf8'));
+    if (!parsed || parsed.type !== 'input-text') continue;
+    scanned += 1;
 
-  const sentence = hintMatch[1].trimEnd();
-  const oldInner = hintMatch[2];
-  const newInner = transformHint(oldInner, topic, parsed.correct);
+    const lines = parsed.body.split('\n');
+    const lastIdx = lines.length - 1;
+    const line = lines[lastIdx];
+    const hintMatch = line.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
+    if (!hintMatch) continue;
 
-  if (newInner === oldInner && !hintLeaksAnswer(oldInner, parsed.correct)) continue;
+    const sentence = hintMatch[1].trimEnd();
+    const oldInner = hintMatch[2];
+    const newInner = transformHint(oldInner, topic, parsed.correct);
 
-  lines[lastIdx] = `${sentence} (${newInner})`;
-  const newBody = `${lines.join('\n')}\n`;
-  writeFileSync(full, `---\n${parsed.fm}\n---\n\n${newBody}`, 'utf8');
-  changed += 1;
+    if (newInner === oldInner && !hintLeaksAnswer(oldInner, parsed.correct)) continue;
+
+    lines[lastIdx] = `${sentence} (${newInner})`;
+    const newBody = `${lines.join('\n')}\n`;
+    writeFileSync(full, `---\n${parsed.fm}\n---\n\n${newBody}`, 'utf8');
+    changed += 1;
+  }
+
+  console.log(`Scanned ${scanned} input-text files, updated ${changed}.`);
 }
-
-console.log(`Scanned ${scanned} input-text files, updated ${changed}.`);

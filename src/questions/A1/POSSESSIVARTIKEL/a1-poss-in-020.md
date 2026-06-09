@@ -5,4 +5,4 @@ correct:
   - meinem
 ---
 
-In ___ Zimmer ist es ruhig. (Possessivartikel — neutr., Dat.)
+In ___ Zimmer ist es ruhig. (Possessivartikel — ich, neutr., Dat.)

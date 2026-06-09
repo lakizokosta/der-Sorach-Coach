@@ -5,4 +5,4 @@ correct:
   - meinen
 ---
 
-Im Winter trage ich ___ Mantel. (Possessivartikel — mask., Akk.)
+Im Winter trage ich ___ Mantel. (Possessivartikel — ich, mask., Akk.)

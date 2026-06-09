@@ -5,4 +5,4 @@ correct:
   - unser
 ---
 
-Wir buchen ___ Hotel. (Possessivartikel — neutr., Akk.)
+Wir buchen ___ Hotel. (Possessivartikel — wir, neutr., Akk.)

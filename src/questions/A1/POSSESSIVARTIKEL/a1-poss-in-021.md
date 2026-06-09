@@ -5,4 +5,4 @@ correct:
   - Deine
 ---
 
-___ Uhr ist teuer. (Possessivartikel — fem., Nom.)
+___ Uhr ist teuer. (Possessivartikel — du, fem., Nom.)

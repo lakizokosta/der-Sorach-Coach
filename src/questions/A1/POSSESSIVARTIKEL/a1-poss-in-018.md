@@ -5,4 +5,4 @@ correct:
   - meinen
 ---
 
-Ich packe ___ Koffer. (Possessivartikel — mask., Akk.)
+Ich packe ___ Koffer. (Possessivartikel — ich, mask., Akk.)

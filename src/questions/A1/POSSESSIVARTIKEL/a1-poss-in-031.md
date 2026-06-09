@@ -5,4 +5,4 @@ correct:
   - seine
 ---
 
-Er hört gern ___ Lieder. (Possessivartikel — Pl., Akk.)
+Er hört gern ___ Lieder. (Possessivartikel — er, Pl., Akk.)

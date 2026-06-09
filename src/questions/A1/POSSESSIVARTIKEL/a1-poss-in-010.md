@@ -5,4 +5,4 @@ correct:
   - seinen
 ---
 
-Er isst ___ Apfel. (Possessivartikel — mask., Akk.)
+Er isst ___ Apfel. (Possessivartikel — er, mask., Akk.)

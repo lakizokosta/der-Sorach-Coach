@@ -5,4 +5,4 @@ correct:
   - mein
 ---
 
-Das ist ___ Vater. (Possessivartikel — mask., Nom.)
+Das ist ___ Vater. (Possessivartikel — ich, mask., Nom.)

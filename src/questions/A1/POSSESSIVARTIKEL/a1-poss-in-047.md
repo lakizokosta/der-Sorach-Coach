@@ -5,4 +5,4 @@ correct:
   - Euer
 ---
 
-___ Konzert war toll. (Possessivartikel — neutr., Nom.)
+___ Konzert war toll. (Possessivartikel — ihr, neutr., Nom.)

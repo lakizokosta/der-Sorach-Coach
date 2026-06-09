@@ -5,4 +5,4 @@ correct:
   - Ihre
 ---
 
-___ Pizza schmeckt super. (Possessivartikel — fem., Nom.)
+___ Pizza schmeckt super. (Possessivartikel — sie, fem., Nom.)
