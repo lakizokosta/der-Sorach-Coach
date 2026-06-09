@@ -1,0 +1,8 @@
+---
+id: a2-lokal-in-010
+type: input-text
+correct:
+  - auf
+---
+
+Wir treffen uns ___ dem Platz. (Lokalpräposition)

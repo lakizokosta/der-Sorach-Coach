@@ -1,0 +1,8 @@
+---
+id: a2-konj-in-011
+type: input-text
+correct:
+  - weil
+---
+
+Ich bleibe zu Hause, ___ ich noch viel zu tun habe. (Konjunktion — Grund)

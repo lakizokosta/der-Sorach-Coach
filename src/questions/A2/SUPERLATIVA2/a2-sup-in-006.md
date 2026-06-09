@@ -1,0 +1,8 @@
+---
+id: a2-sup-in-006
+type: input-text
+correct:
+  - billigste
+---
+
+Das ist das ___ Hotel an der Mosel. (Superlativ — billig, neutr., Nom.)
