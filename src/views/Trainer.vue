@@ -25,7 +25,15 @@ import { usePremium } from '@/composables/usePremium.js';
 import { useXp, getLevel, recordTopicWrong } from '@/composables/useXp.js';
 import { getWeakestTopics, getQuestionsForWeakTopics } from '@/utils/weakTopics.js';
 import { useStreak } from '@/composables/useStreak.js';
-import { recordQuestionAnswered } from '@/composables/useDailyGoal.js';
+import {
+  DAILY_GOAL_QUESTIONS,
+  getDailyGoalSnapshot,
+  recordQuestionAnswered,
+} from '@/composables/useDailyGoal.js';
+import {
+  POST_GOAL_BONUS_XP,
+  recordBonusProgress,
+} from '@/composables/useDailyBonus.js';
 import {
   FREE_SECONDS_PER_DAY,
   getFreeSecondsRemaining,
@@ -70,6 +78,7 @@ const showGrammarTip = ref(false);
 const wrongTopics = ref({});              // key -> { name, level, count }
 const upsellHtml = ref('');
 const lastAnswerResolved = ref(false);    // is the head question fully resolved?
+const sessionStreak = ref(0);             // consecutive correct answers this session
 
 /** Short-lived toast after each answer (+XP, level-up, mastery). */
 const microFeedback = ref({ visible: false, lines: [], tone: 'good' });
@@ -142,8 +151,9 @@ function showMicroFeedback(lines, tone) {
  * Applies an immediate XP change and triggers micro-feedback.
  *
  * @param {boolean} wasCorrect
+ * @param {string[]} [extraLines]
  */
-function applyAnswerXp(wasCorrect) {
+function applyAnswerXp(wasCorrect, extraLines = []) {
   const delta = wasCorrect ? xpPerAnswer.value : -xpPerAnswer.value;
   const topicKey = activeTopicKey();
   const levelBefore = getLevel(xpState.totalXP);
@@ -151,7 +161,7 @@ function applyAnswerXp(wasCorrect) {
 
   addXP(delta, topicKey || undefined, wasCorrect ? 1 : topicKey ? -1 : undefined);
 
-  const lines = [wasCorrect ? `+${delta} XP` : `${delta} XP`];
+  const lines = [wasCorrect ? `+${delta} XP` : `${delta} XP`, ...extraLines];
   const levelAfter = getLevel(xpState.totalXP);
   let tone = wasCorrect ? 'good' : 'bad';
 
@@ -168,7 +178,44 @@ function applyAnswerXp(wasCorrect) {
     }
   }
 
+  if (extraLines.some((line) => line.includes('🎁'))) {
+    tone = 'celebrate';
+  }
+
   showMicroFeedback(lines, tone);
+}
+
+/**
+ * Tracks bonus missions and awards post-goal XP after Tagesziel is exceeded.
+ *
+ * @param {boolean} wasCorrect
+ * @return {string[]}
+ */
+function collectBonusLines(wasCorrect) {
+  if (wasCorrect) sessionStreak.value += 1;
+  else sessionStreak.value = 0;
+
+  const snap = getDailyGoalSnapshot();
+  const today = new Date().toISOString().split('T')[0];
+  const todayCount = snap.date === today ? snap.count : 0;
+  const lines = [];
+
+  if (wasCorrect && todayCount > DAILY_GOAL_QUESTIONS) {
+    addXP(POST_GOAL_BONUS_XP);
+    lines.push(`+${POST_GOAL_BONUS_XP} Bonus-XP`);
+  }
+
+  const rewards = recordBonusProgress({
+    level: level.value,
+    topic: activeTopicKey(),
+    sessionStreak: sessionStreak.value,
+    todayCount,
+  });
+  for (const reward of rewards) {
+    lines.push(`🎁 +${reward.amount} XP — ${reward.label}`);
+  }
+
+  return lines;
 }
 
 /** Loads the queue, restores any free-session timer, kicks things off. */
@@ -268,8 +315,9 @@ function onAnswer(payload) {
     recordQuestionAnswered();
     if (isCorrect) {
       correct.value += 1;
-      applyAnswerXp(true);
+      applyAnswerXp(true, collectBonusLines(true));
     } else {
+      collectBonusLines(false);
       applyAnswerXp(false);
       recordWrongTopic();
       showGrammarTip.value = isPrem.value;
@@ -295,6 +343,7 @@ function onFirstWrong() {
   if (!showRetry.value) {
     answered.value += 1;
     recordQuestionAnswered();
+    collectBonusLines(false);
     applyAnswerXp(false);
     recordWrongTopic();
     showRetry.value = true;

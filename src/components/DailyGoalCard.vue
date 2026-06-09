@@ -28,7 +28,7 @@ const { goal, todayCount, isMet, progressPct } = useDailyGoal();
     <p class="daily-goal__hint">
       {{
         isMet
-          ? 'Super — dein Streak ist für heute gesichert. Weiter üben bringt extra XP!'
+          ? 'Super — dein Streak ist gesichert. Nimm die Bonus-Aufgaben unten an!'
           : `Noch ${goal - todayCount} Frage${goal - todayCount === 1 ? '' : 'n'} bis zum Tagesziel.`
       }}
     </p>

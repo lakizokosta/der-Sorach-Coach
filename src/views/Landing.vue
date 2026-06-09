@@ -13,6 +13,7 @@ import { useRouter } from 'vue-router';
 import LzdLogo from '@/components/LzdLogo.vue';
 import LoginPanel from '@/components/LoginPanel.vue';
 import DailyGoalCard from '@/components/DailyGoalCard.vue';
+import BonusMissionsCard from '@/components/BonusMissionsCard.vue';
 import ActivityCalendar from '@/components/ActivityCalendar.vue';
 import SchwaechenCard from '@/components/SchwaechenCard.vue';
 import LegalFooter from '@/components/LegalFooter.vue';
@@ -99,6 +100,7 @@ function payBasis() {
 
     <div class="landing-progress">
       <DailyGoalCard />
+      <BonusMissionsCard />
       <SchwaechenCard />
       <ActivityCalendar />
     </div>
