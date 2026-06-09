@@ -5,4 +5,4 @@ correct:
   - Findest
 ---
 
-___ du den Weg? (Verbkonjugation — du)
+___ du den Weg? (Verbkonjugation)

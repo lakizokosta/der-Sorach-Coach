@@ -359,21 +359,23 @@ export function genFestePraep() {
 
 export function genAdjDekl() {
   const items = [
-    ['Ich kaufe ___ neuen Computer.', 'einen', ['ein', 'eine', 'einer', 'einem']],
-    ['Das ist ___ alte Lampe.', 'eine', ['ein', 'einen', 'einer', 'einem']],
-    ['Mit ___ kalten Wetter bleibe ich drinnen.', 'kaltem', ['kalten', 'kalte', 'kaltes', 'kalter']],
-    ['Er trägt ___ warmen Mantel.', 'einen', ['ein', 'eine', 'einer', 'einem']],
-    ['In ___ großen Stadt wohne ich gern.', 'großer', ['große', 'großen', 'großes', 'großem']],
-    ['Sie liest ___ interessantes Buch.', 'ein', ['eine', 'einen', 'einer', 'einem']],
-    ['Ohne ___ gute Vorbereitung geht das nicht.', 'gute', ['guter', 'guten', 'gutes', 'gutem']],
-    ['Der ___ kleine Hund bellt.', 'kleine', ['kleiner', 'kleinen', 'kleines', 'kleinem']],
-    ['Ich trinke ___ heißen Tee.', 'heißen', ['heiße', 'heißer', 'heißes', 'heißem']],
-    ['Mit ___ neuem Auto fährt er gern.', 'neuem', ['neuen', 'neue', 'neues', 'neuer']],
-    ['Sie sucht ___ billige Wohnung.', 'eine', ['ein', 'einen', 'einer', 'einem']],
-    ['In ___ ruhiger Straße wohnt sie.', 'ruhiger', ['ruhige', 'ruhigen', 'ruhiges', 'ruhigem']],
-    ['Er isst ___ frisches Brot.', 'frisches', ['frischer', 'frischen', 'frische', 'frischem']],
-    ['Ich sehe ___ hohen Turm.', 'einen', ['ein', 'eine', 'einer', 'einem']],
-    ['Das ist ___ schönes Geschenk.', 'ein', ['eine', 'einen', 'einer', 'einem']],
+    ['Ich kaufe einen ___ Computer.', 'neuen', ['neuer', 'neue', 'neues', 'neuem']],
+    ['Das ist eine ___ Lampe.', 'alte', ['alter', 'alten', 'altes', 'altem']],
+    ['Mit ___ Wetter bleibe ich drinnen.', 'kaltem', ['kalten', 'kalte', 'kaltes', 'kalter']],
+    ['Er trägt einen ___ Mantel.', 'warmen', ['warme', 'warmer', 'warmes', 'warmem']],
+    ['In ___ Stadt wohne ich gern.', 'großer', ['große', 'großen', 'großes', 'großem']],
+    ['Sie liest ein ___ Buch.', 'interessantes', ['interessanter', 'interessante', 'interessanten', 'interessantem']],
+    ['Ohne ___ Vorbereitung geht das nicht.', 'gute', ['guter', 'guten', 'gutes', 'gutem']],
+    ['Der ___ Hund bellt laut.', 'kleine', ['kleiner', 'kleinen', 'kleines', 'kleinem']],
+    ['Ich trinke ___ Tee.', 'heißen', ['heiße', 'heißer', 'heißes', 'heißem']],
+    ['Mit ___ Auto fährt er gern.', 'neuem', ['neuen', 'neue', 'neues', 'neuer']],
+    ['Sie sucht eine ___ Wohnung.', 'billige', ['billiger', 'billigen', 'billiges', 'billigem']],
+    ['In ___ Straße wohnt sie.', 'ruhiger', ['ruhige', 'ruhigen', 'ruhiges', 'ruhigem']],
+    ['Er isst ___ Brot.', 'frisches', ['frischer', 'frischen', 'frische', 'frischem']],
+    ['Ich sehe einen ___ Turm.', 'hohen', ['hohe', 'hoher', 'hohes', 'hohem']],
+    ['Das ist ein ___ Geschenk.', 'schönes', ['schöner', 'schöne', 'schönen', 'schönem']],
+    ['Das ist ja eine ___ Wohnung!', 'tolle', ['toller', 'tollen', 'tolles', 'tollem']],
+    ['Bei ___ Wind bleibe ich zu Hause.', 'starkem', ['starken', 'starke', 'starker', 'starkes']],
   ];
   return ensure50(() => {
     const out = [];

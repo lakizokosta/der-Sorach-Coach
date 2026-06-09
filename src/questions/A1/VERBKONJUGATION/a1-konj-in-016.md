@@ -5,4 +5,4 @@ correct:
   - arbeite
 ---
 
-Ich ___ von 9 bis 17 Uhr. (Verbkonjugation — ich)
+Ich ___ von 9 bis 17 Uhr. (Verbkonjugation)

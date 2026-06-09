@@ -2,7 +2,7 @@
 id: a2-adj-in-047
 type: input-text
 correct:
-  - frisches
+  - interessanten
 ---
 
-Er isst ___ frisches Brot. (Adjektivdeklination — neutr., Akk.)
+Er liest einen ___ Roman. (Adjektivdeklination — mask., Akk.)

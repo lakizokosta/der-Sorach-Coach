@@ -5,4 +5,4 @@ correct:
   - kochen
 ---
 
-Wir ___ zusammen Pasta. (Verbkonjugation — wir)
+Wir ___ zusammen Pasta. (Verbkonjugation)

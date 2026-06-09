@@ -2,7 +2,7 @@
 id: a2-adj-in-003
 type: input-text
 correct:
-  - kaltem
+  - schöne
 ---
 
-Mit ___ kalten Wetter bleibe ich drinnen. (Adjektivdeklination — neutr., Dat.)
+Ich habe eine ___ Katze. (Adjektivdeklination — fem., Akk.)

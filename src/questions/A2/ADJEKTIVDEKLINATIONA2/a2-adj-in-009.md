@@ -2,7 +2,7 @@
 id: a2-adj-in-009
 type: input-text
 correct:
-  - heißen
+  - schlechtem
 ---
 
-Ich trinke ___ heißen Tee. (Adjektivdeklination — mask., Akk.)
+Bei ___ Wetter bleibe ich zu Hause. (Adjektivdeklination — neutr., Dat.)

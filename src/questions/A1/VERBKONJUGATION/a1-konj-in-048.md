@@ -5,4 +5,4 @@ correct:
   - spielt
 ---
 
-Er ___ Tennis. (Verbkonjugation — er)
+Er ___ Tennis. (Verbkonjugation)

@@ -2,7 +2,7 @@
 id: a2-adj-in-018
 type: input-text
 correct:
-  - einen
+  - kaltes
 ---
 
-Ich kaufe ___ neuen Computer. (Adjektivdeklination — ein + mask., Akk.)
+Nach dem Sport trinke ich ___ Wasser. (Adjektivdeklination — neutr., Akk.)

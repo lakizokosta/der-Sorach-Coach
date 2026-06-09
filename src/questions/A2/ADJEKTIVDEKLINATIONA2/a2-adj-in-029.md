@@ -2,7 +2,7 @@
 id: a2-adj-in-029
 type: input-text
 correct:
-  - ruhiger
+  - braune
 ---
 
-In ___ ruhiger Straße wohnt sie. (Adjektivdeklination — fem., Dat.)
+Das ___ Pferd läuft schnell. (Adjektivdeklination — neutr., Nom.)

@@ -2,7 +2,7 @@
 id: a2-adj-in-033
 type: input-text
 correct:
-  - tolle
+  - liebes
 ---
 
-Das ist ja eine ___ Wohnung! (Adjektivdeklination — fem., Nom.)
+Das ist mein ___ Buch. (Adjektivdeklination — neutr., Nom.)

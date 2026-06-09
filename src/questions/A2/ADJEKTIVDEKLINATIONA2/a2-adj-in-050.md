@@ -2,7 +2,7 @@
 id: a2-adj-in-050
 type: input-text
 correct:
-  - tolle
+  - neuen
 ---
 
-Das ist ja eine ___ Wohnung! (Adjektivdeklination — fem., Nom.)
+Ich kaufe einen ___ Computer. (Adjektivdeklination — mask., Akk.)

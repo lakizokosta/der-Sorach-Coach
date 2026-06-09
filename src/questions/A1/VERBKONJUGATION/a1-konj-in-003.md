@@ -5,4 +5,4 @@ correct:
   - fährt
 ---
 
-Peter ___ mit dem Bus zur Arbeit. (Verbkonjugation — er)
+Peter ___ mit dem Bus zur Arbeit. (Verbkonjugation)

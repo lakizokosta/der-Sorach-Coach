@@ -2,7 +2,7 @@
 id: a2-adj-in-039
 type: input-text
 correct:
-  - großer
+  - fünften
 ---
 
-In ___ großen Stadt wohne ich gern. (Adjektivdeklination — fem., Dat.)
+In der ___ Klasse sind 25 Schüler. (Adjektivdeklination — fem., Dat.)

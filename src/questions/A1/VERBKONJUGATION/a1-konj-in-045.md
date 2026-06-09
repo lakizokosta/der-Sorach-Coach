@@ -5,4 +5,4 @@ correct:
   - Stehst
 ---
 
-___ du früh auf? (Verbkonjugation — du)
+___ du früh auf? (Verbkonjugation)

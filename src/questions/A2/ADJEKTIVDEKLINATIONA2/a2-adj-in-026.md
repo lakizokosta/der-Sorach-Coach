@@ -2,7 +2,7 @@
 id: a2-adj-in-026
 type: input-text
 correct:
-  - heißen
+  - freundliche
 ---
 
-Ich trinke ___ heißen Tee. (Adjektivdeklination — mask., Akk.)
+Ich kenne eine ___ Familie. (Adjektivdeklination — fem., Akk.)

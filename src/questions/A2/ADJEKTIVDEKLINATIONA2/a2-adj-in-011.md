@@ -2,7 +2,7 @@
 id: a2-adj-in-011
 type: input-text
 correct:
-  - eine
+  - warme
 ---
 
-Sie sucht ___ billige Wohnung. (Adjektivdeklination — Akk.)
+Der Kellner bringt eine ___ Suppe. (Adjektivdeklination — fem., Akk.)

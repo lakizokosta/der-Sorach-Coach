@@ -5,4 +5,4 @@ correct:
   - trinke
 ---
 
-Morgens ___ ich Kaffee. (Verbkonjugation — ich)
+Morgens ___ ich Kaffee. (Verbkonjugation)

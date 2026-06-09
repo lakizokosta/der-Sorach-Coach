@@ -2,7 +2,7 @@
 id: a2-adj-in-044
 type: input-text
 correct:
-  - neuem
+  - sonnigen
 ---
 
-Mit ___ neuem Auto fährt er gern. (Adjektivdeklination — neutr., Dat.)
+Auf dem ___ Balkon frühstücken wir. (Adjektivdeklination — mask., Dat.)

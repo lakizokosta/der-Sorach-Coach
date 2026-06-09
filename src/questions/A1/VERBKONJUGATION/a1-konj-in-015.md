@@ -5,4 +5,4 @@ correct:
   - spielt
 ---
 
-Ihr ___ Computerspiele. (Verbkonjugation — ihr)
+Ihr ___ Computerspiele. (Verbkonjugation)

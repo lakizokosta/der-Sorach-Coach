@@ -2,7 +2,7 @@
 id: a2-adj-in-024
 type: input-text
 correct:
-  - gute
+  - teure
 ---
 
-Ohne ___ gute Vorbereitung geht das nicht. (Adjektivdeklination — fem., Akk.)
+Sie spielt eine ___ Gitarre. (Adjektivdeklination — fem., Akk.)

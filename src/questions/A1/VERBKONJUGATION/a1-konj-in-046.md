@@ -5,4 +5,4 @@ correct:
   - stehen
 ---
 
-Wir ___ zusammen auf. (Verbkonjugation — wir)
+Wir ___ zusammen auf. (Verbkonjugation)

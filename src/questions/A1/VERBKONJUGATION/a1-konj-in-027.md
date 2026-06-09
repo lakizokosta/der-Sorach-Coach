@@ -5,4 +5,4 @@ correct:
   - Siehst
 ---
 
-___ du den Turm? (Verbkonjugation — du)
+___ du den Turm? (Verbkonjugation)

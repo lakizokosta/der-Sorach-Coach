@@ -5,4 +5,4 @@ correct:
   - liest
 ---
 
-Anna ___ jeden Abend ein Buch. (Verbkonjugation — sie)
+Anna ___ jeden Abend ein Buch. (Verbkonjugation)

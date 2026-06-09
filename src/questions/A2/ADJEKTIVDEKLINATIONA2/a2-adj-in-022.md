@@ -2,7 +2,7 @@
 id: a2-adj-in-022
 type: input-text
 correct:
-  - großer
+  - frischen
 ---
 
-In ___ großen Stadt wohne ich gern. (Adjektivdeklination — fem., Dat.)
+Ich esse einen ___ Salat. (Adjektivdeklination — mask., Akk.)

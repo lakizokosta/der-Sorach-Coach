@@ -2,7 +2,7 @@
 id: a2-adj-in-046
 type: input-text
 correct:
-  - ruhiger
+  - wichtiges
 ---
 
-In ___ ruhiger Straße wohnt sie. (Adjektivdeklination — fem., Dat.)
+Das ist ein ___ Projekt. (Adjektivdeklination — neutr., Nom.)

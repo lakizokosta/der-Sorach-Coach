@@ -5,4 +5,4 @@ correct:
   - liebe
 ---
 
-Ich ___ meine Familie. (Verbkonjugation — ich)
+Ich ___ meine Familie. (Verbkonjugation)

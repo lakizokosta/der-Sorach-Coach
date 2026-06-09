@@ -2,7 +2,7 @@
 id: a2-adj-in-043
 type: input-text
 correct:
-  - heißen
+  - rotes
 ---
 
-Ich trinke ___ heißen Tee. (Adjektivdeklination — mask., Akk.)
+Sie kauft ein ___ Kleid. (Adjektivdeklination — neutr., Akk.)

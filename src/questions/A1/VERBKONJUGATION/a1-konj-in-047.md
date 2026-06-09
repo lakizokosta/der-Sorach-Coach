@@ -5,4 +5,4 @@ correct:
   - kaufe
 ---
 
-Ich ___ ein Geschenk. (Verbkonjugation — ich)
+Ich ___ ein Geschenk. (Verbkonjugation)

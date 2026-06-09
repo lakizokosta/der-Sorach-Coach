@@ -5,4 +5,4 @@ correct:
   - nehme
 ---
 
-Ich ___ den Zug um 8 Uhr. (Verbkonjugation — ich)
+Ich ___ den Zug um 8 Uhr. (Verbkonjugation)

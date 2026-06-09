@@ -2,7 +2,7 @@
 id: a2-adj-in-008
 type: input-text
 correct:
-  - kleine
+  - neuen
 ---
 
-Der ___ kleine Hund bellt. (Adjektivdeklination — mask., Nom.)
+In der ___ Schule lerne ich Deutsch. (Adjektivdeklination — fem., Dat.)

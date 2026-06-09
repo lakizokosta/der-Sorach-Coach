@@ -2,7 +2,7 @@
 id: a2-adj-in-015
 type: input-text
 correct:
-  - schönes
+  - alte
 ---
 
-Das ist ___ schönes Geschenk. (Adjektivdeklination — ein + neutr., Nom.)
+Wir besuchen eine ___ Stadt. (Adjektivdeklination — fem., Akk.)

@@ -2,7 +2,7 @@
 id: a2-adj-in-007
 type: input-text
 correct:
-  - gute
+  - netten
 ---
 
-Ohne ___ gute Vorbereitung geht das nicht. (Adjektivdeklination — fem., Akk.)
+Sie hat einen ___ Freund. (Adjektivdeklination — mask., Akk.)

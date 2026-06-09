@@ -2,7 +2,7 @@
 id: a2-adj-in-037
 type: input-text
 correct:
-  - kaltem
+  - harten
 ---
 
-Mit ___ kalten Wetter bleibe ich drinnen. (Adjektivdeklination — neutr., Dat.)
+Nach dem ___ Training bin ich müde. (Adjektivdeklination — neutr., Dat.)

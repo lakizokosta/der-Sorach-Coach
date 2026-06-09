@@ -2,7 +2,7 @@
 id: a2-adj-in-042
 type: input-text
 correct:
-  - kleine
+  - schnellen
 ---
 
-Der ___ kleine Hund bellt. (Adjektivdeklination — mask., Nom.)
+Wir fahren mit der ___ Bahn. (Adjektivdeklination — fem., Dat.)

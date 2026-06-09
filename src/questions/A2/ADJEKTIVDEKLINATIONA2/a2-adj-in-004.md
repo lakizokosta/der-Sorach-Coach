@@ -2,7 +2,7 @@
 id: a2-adj-in-004
 type: input-text
 correct:
-  - warmen
+  - neue
 ---
 
-Er trägt ___ warmen Mantel. (Adjektivdeklination — Akk.)
+Das ___ Auto ist schnell. (Adjektivdeklination — neutr., Nom.)

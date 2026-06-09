@@ -2,7 +2,7 @@
 id: a2-adj-in-034
 type: input-text
 correct:
-  - schlecht
+  - alten
 ---
 
-Gutes Wetter wäre auch nicht ___. (Adjektivdeklination — neutr., Nom.)
+Sie wohnt in einem ___ Haus. (Adjektivdeklination — neutr., Dat.)

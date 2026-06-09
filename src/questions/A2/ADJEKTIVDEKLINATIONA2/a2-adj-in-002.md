@@ -2,7 +2,7 @@
 id: a2-adj-in-002
 type: input-text
 correct:
-  - eine
+  - kleine
 ---
 
-Das ist ___ alte Lampe. (Adjektivdeklination — Nom.)
+Der ___ Hund bellt laut. (Adjektivdeklination — mask., Nom.)

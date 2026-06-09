@@ -2,7 +2,7 @@
 id: a2-adj-in-028
 type: input-text
 correct:
-  - eine
+  - hellen
 ---
 
-Sie sucht ___ billige Wohnung. (Adjektivdeklination — Akk.)
+In der ___ Küche kocht meine Mutter. (Adjektivdeklination — fem., Dat.)

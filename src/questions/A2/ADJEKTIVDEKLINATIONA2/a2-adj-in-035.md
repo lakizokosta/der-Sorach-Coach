@@ -2,7 +2,7 @@
 id: a2-adj-in-035
 type: input-text
 correct:
-  - einen
+  - hohen
 ---
 
-Ich kaufe ___ neuen Computer. (Adjektivdeklination — ein + mask., Akk.)
+Ich sehe einen ___ Turm. (Adjektivdeklination — mask., Akk.)

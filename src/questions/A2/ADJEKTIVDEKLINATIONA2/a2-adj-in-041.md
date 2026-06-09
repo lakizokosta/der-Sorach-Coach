@@ -2,7 +2,7 @@
 id: a2-adj-in-041
 type: input-text
 correct:
-  - gute
+  - starkem
 ---
 
-Ohne ___ gute Vorbereitung geht das nicht. (Adjektivdeklination — fem., Akk.)
+Bei ___ Wind ziehe ich eine Jacke an. (Adjektivdeklination — mask., Dat.)

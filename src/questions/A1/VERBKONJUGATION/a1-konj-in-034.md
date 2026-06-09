@@ -5,4 +5,4 @@ correct:
   - wohnen
 ---
 
-Sie ___ in Hamburg. (Verbkonjugation — sie Pl.)
+Sie ___ in Hamburg. (Verbkonjugation)

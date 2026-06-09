@@ -5,4 +5,4 @@ correct:
   - kaufst
 ---
 
-Du ___ heute Brot und Milch. (Verbkonjugation — du)
+Du ___ heute Brot und Milch. (Verbkonjugation)

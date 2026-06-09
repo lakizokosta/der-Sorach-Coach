@@ -5,4 +5,4 @@ correct:
   - mache
 ---
 
-Ich ___ Yoga am Morgen. (Verbkonjugation — ich)
+Ich ___ Yoga am Morgen. (Verbkonjugation)

@@ -2,7 +2,7 @@
 id: a2-adj-in-019
 type: input-text
 correct:
-  - eine
+  - warmen
 ---
 
-Das ist ___ alte Lampe. (Adjektivdeklination — Nom.)
+Sie trägt einen ___ Mantel. (Adjektivdeklination — mask., Akk.)

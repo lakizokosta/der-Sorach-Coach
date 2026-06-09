@@ -5,4 +5,4 @@ correct:
   - frage
 ---
 
-Ich ___ den Lehrer. (Verbkonjugation — ich)
+Ich ___ den Lehrer. (Verbkonjugation)

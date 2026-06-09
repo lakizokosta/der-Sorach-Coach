@@ -2,7 +2,7 @@
 id: a2-adj-in-017
 type: input-text
 correct:
-  - schlecht
+  - junge
 ---
 
-Gutes Wetter wäre auch nicht ___. (Adjektivdeklination — neutr., Nom.)
+Meine ___ Schwester wohnt in Berlin. (Adjektivdeklination — fem., Nom.)

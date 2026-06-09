@@ -2,7 +2,7 @@
 id: a2-adj-in-014
 type: input-text
 correct:
-  - hohen
+  - neuer
 ---
 
-Ich sehe ___ hohen Turm. (Adjektivdeklination — Akk.)
+Mein ___ Job gefällt mir. (Adjektivdeklination — mask., Nom.)

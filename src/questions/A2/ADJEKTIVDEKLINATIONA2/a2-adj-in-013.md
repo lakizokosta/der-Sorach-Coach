@@ -2,7 +2,7 @@
 id: a2-adj-in-013
 type: input-text
 correct:
-  - frisches
+  - gutes
 ---
 
-Er isst ___ frisches Brot. (Adjektivdeklination — neutr., Akk.)
+Ich suche ein ___ Geschenk. (Adjektivdeklination — neutr., Akk.)

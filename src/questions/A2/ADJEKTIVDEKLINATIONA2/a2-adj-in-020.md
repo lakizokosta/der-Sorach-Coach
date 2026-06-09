@@ -2,7 +2,7 @@
 id: a2-adj-in-020
 type: input-text
 correct:
-  - kaltem
+  - großen
 ---
 
-Mit ___ kalten Wetter bleibe ich drinnen. (Adjektivdeklination — neutr., Dat.)
+Auf dem ___ Markt kaufe ich Obst. (Adjektivdeklination — mask., Dat.)

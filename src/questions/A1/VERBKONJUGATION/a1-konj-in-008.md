@@ -5,4 +5,4 @@ correct:
   - wohne
 ---
 
-Ich ___ in einer kleinen Wohnung. (Verbkonjugation — ich)
+Ich ___ in einer kleinen Wohnung. (Verbkonjugation)

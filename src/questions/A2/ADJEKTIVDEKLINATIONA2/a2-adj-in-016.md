@@ -2,7 +2,7 @@
 id: a2-adj-in-016
 type: input-text
 correct:
-  - tolle
+  - schweres
 ---
 
-Das ist ja eine ___ Wohnung! (Adjektivdeklination — fem., Nom.)
+Das ist kein ___ Problem. (Adjektivdeklination — neutr., Nom.)

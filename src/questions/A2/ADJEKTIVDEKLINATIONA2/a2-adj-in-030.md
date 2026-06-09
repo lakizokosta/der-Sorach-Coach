@@ -2,7 +2,7 @@
 id: a2-adj-in-030
 type: input-text
 correct:
-  - frisches
+  - billigen
 ---
 
-Er isst ___ frisches Brot. (Adjektivdeklination — neutr., Akk.)
+Wir übernachten in einem ___ Hotel. (Adjektivdeklination — neutr., Dat.)

@@ -2,7 +2,7 @@
 id: a2-adj-in-023
 type: input-text
 correct:
-  - ein
+  - spannendes
 ---
 
-Sie liest ___ interessantes Buch. (Adjektivdeklination — ein + neutr., Akk.)
+Das ist ein ___ Spiel. (Adjektivdeklination — neutr., Nom.)

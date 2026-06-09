@@ -5,4 +5,4 @@ correct:
   - lernst
 ---
 
-Du ___ fleißig Deutsch. (Verbkonjugation — du)
+Du ___ fleißig Deutsch. (Verbkonjugation)

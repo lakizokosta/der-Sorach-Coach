@@ -5,4 +5,4 @@ correct:
   - stehe
 ---
 
-Ich ___ um 7 Uhr auf. (Verbkonjugation — ich)
+Ich ___ um 7 Uhr auf. (Verbkonjugation)

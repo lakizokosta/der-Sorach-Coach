@@ -2,7 +2,7 @@
 id: a2-adj-in-032
 type: input-text
 correct:
-  - schönes
+  - kleinen
 ---
 
-Das ist ___ schönes Geschenk. (Adjektivdeklination — ein + neutr., Nom.)
+Im ___ Laden ist alles günstig. (Adjektivdeklination — mask., Dat.)

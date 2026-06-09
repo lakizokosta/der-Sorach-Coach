@@ -5,4 +5,4 @@ correct:
   - Helft
 ---
 
-___ mir bitte! (Verbkonjugation — ihr)
+___ mir bitte! (Verbkonjugation)

@@ -2,7 +2,7 @@
 id: a2-adj-in-001
 type: input-text
 correct:
-  - einen
+  - kleiner
 ---
 
-Ich kaufe ___ neuen Computer. (Adjektivdeklination — ein + mask., Akk.)
+Das ist ein ___ Hund. (Adjektivdeklination — mask., Nom.)

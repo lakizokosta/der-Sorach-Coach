@@ -5,4 +5,4 @@ correct:
   - trägt
 ---
 
-Sie ___ einen blauen Mantel. (Verbkonjugation — sie)
+Sie ___ einen blauen Mantel. (Verbkonjugation)

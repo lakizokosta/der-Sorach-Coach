@@ -5,4 +5,4 @@ correct:
   - trinkt
 ---
 
-Ihr ___ Wasser nach dem Sport. (Verbkonjugation — ihr)
+Ihr ___ Wasser nach dem Sport. (Verbkonjugation)

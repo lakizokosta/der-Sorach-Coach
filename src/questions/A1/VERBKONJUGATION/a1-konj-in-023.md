@@ -5,4 +5,4 @@ correct:
   - besuchen
 ---
 
-Wir ___ unsere Großeltern. (Verbkonjugation — wir)
+Wir ___ unsere Großeltern. (Verbkonjugation)

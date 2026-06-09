@@ -15,6 +15,7 @@
     "questions:generate-a2": "node scripts/generate-a2-select-one.mjs",
     "questions:generate-a2-input": "node scripts/generate-a2-input-text.mjs",
     "questions:generate-a2-dropbox": "node scripts/generate-a2-dropbox.mjs",
+    "questions:generate-b1": "node scripts/generate-b1-select-one.mjs",
     "questions:fix-input-hints": "node scripts/fix-input-text-hints.mjs",
     "questions:generate-a1-input": "node scripts/generate-a1-input-text.mjs",
     "questions:generate-a1-dropbox": "node scripts/generate-a1-dropbox.mjs",

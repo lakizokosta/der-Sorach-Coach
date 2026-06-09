@@ -2,7 +2,7 @@
 id: a2-adj-in-005
 type: input-text
 correct:
-  - großer
+  - große
 ---
 
-In ___ großen Stadt wohne ich gern. (Adjektivdeklination — fem., Dat.)
+Ich habe keine ___ Wohnung. (Adjektivdeklination — fem., Akk.)

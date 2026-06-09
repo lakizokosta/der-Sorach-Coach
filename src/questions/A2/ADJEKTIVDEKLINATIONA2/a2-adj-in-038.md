@@ -2,7 +2,7 @@
 id: a2-adj-in-038
 type: input-text
 correct:
-  - warmen
+  - bekanntes
 ---
 
-Er trägt ___ warmen Mantel. (Adjektivdeklination — Akk.)
+Er singt ein ___ Lied. (Adjektivdeklination — neutr., Akk.)

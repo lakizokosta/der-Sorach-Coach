@@ -5,4 +5,4 @@ correct:
   - regnet
 ---
 
-Heute ___ es den ganzen Tag. (Verbkonjugation — es)
+Heute ___ es den ganzen Tag. (Verbkonjugation)

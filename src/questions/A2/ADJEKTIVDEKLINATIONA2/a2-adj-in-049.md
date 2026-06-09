@@ -2,7 +2,7 @@
 id: a2-adj-in-049
 type: input-text
 correct:
-  - schönes
+  - ruhigen
 ---
 
-Das ist ___ schönes Geschenk. (Adjektivdeklination — ein + neutr., Nom.)
+In der ___ Straße wohne ich. (Adjektivdeklination — fem., Dat.)

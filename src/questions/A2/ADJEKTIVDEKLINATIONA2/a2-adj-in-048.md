@@ -2,7 +2,7 @@
 id: a2-adj-in-048
 type: input-text
 correct:
-  - hohen
+  - große
 ---
 
-Ich sehe ___ hohen Turm. (Adjektivdeklination — Akk.)
+Ich bestelle eine ___ Pizza. (Adjektivdeklination — fem., Akk.)

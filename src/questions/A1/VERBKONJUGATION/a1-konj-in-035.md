@@ -5,4 +5,4 @@ correct:
   - rufe
 ---
 
-Ich ___ meine Freundin an. (Verbkonjugation — ich)
+Ich ___ meine Freundin an. (Verbkonjugation)

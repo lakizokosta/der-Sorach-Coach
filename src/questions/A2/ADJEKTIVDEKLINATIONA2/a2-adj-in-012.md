@@ -2,7 +2,7 @@
 id: a2-adj-in-012
 type: input-text
 correct:
-  - ruhiger
+  - kleinen
 ---
 
-In ___ ruhiger Straße wohnt sie. (Adjektivdeklination — fem., Dat.)
+Im ___ Zimmer schlafe ich gut. (Adjektivdeklination — neutr., Dat.)

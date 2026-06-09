@@ -5,4 +5,4 @@ correct:
   - antwortest
 ---
 
-Du ___ bitte laut. (Verbkonjugation — du)
+Du ___ bitte laut. (Verbkonjugation)

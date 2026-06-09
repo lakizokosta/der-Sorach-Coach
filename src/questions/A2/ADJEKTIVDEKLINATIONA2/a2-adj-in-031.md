@@ -2,7 +2,7 @@
 id: a2-adj-in-031
 type: input-text
 correct:
-  - hohen
+  - gute
 ---
 
-Ich sehe ___ hohen Turm. (Adjektivdeklination — Akk.)
+Er hat eine ___ Idee. (Adjektivdeklination — fem., Akk.)
