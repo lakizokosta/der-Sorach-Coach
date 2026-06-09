@@ -5,4 +5,5 @@ correct:
   - wartet
 ---
 
-[Transport] Er ___ auf den Bus. (warten, er)
+Er ___ auf den Bus. (warten, er)
+

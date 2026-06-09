@@ -5,4 +5,5 @@ correct:
   - brauche
 ---
 
-[Gesundheit] Ich ___ einen Termin beim Arzt. (brauchen, ich)
+Ich ___ einen Termin beim Arzt. (brauchen, ich)
+

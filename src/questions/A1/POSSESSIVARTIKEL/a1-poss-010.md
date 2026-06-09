@@ -9,4 +9,5 @@ options:
 correct: unser
 ---
 
-[Schule] Wo ist ___ Heft? (wir)
+Wo ist ___ Heft? (wir)
+

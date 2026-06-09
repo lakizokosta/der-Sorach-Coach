@@ -5,4 +5,5 @@ correct:
   - ihr
 ---
 
-[Essen] Sie kocht ___ Lieblingsessen. (sie, neutr., Akk.)
+Sie kocht ___ Lieblingsessen. (sie, neutr., Akk.)
+

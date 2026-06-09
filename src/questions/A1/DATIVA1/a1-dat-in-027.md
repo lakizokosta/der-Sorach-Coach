@@ -5,4 +5,5 @@ correct:
   - meinen Freunden
 ---
 
-[Essen] Mit ___ Freunden esse ich gern. (meine Freunde, Dat.)
+Mit ___ Freunden esse ich gern. (meine Freunde, Dat.)
+

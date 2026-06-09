@@ -5,4 +5,5 @@ correct:
   - Das
 ---
 
-[Hobby] ___ Buch ist spannend. (das Buch, Nom.)
+___ Buch ist spannend. (das Buch, Nom.)
+

@@ -5,4 +5,5 @@ correct:
   - auf dem
 ---
 
-[Zuhause] Die Katze sitzt ___ Sofa. (auf + dem, Ort)
+Die Katze sitzt ___ Sofa. (auf + dem, Ort)
+

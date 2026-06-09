@@ -8,4 +8,5 @@ words:
   - Nachricht
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Dativ — ihr eine Nachricht senden)
+Ordne die Wörter zum richtigen Satz: (Dativ — ihr eine Nachricht senden)
+

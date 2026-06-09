@@ -8,4 +8,5 @@ words:
   - gern
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Dativ — dir vertrauen)
+Ordne die Wörter zum richtigen Satz: (Dativ — dir vertrauen)
+

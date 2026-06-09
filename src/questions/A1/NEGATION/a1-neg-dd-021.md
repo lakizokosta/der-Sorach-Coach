@@ -8,4 +8,5 @@ words:
   - gut
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Negation — nicht gut)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht gut)
+

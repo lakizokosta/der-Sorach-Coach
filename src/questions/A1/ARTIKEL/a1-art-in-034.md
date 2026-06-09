@@ -5,4 +5,5 @@ correct:
   - keine
 ---
 
-[Gesundheit] Ich habe ___ Zeit. (keine Zeit, fem.)
+Ich habe ___ Zeit. (keine Zeit, fem.)
+

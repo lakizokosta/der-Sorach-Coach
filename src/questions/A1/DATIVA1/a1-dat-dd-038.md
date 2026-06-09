@@ -8,4 +8,5 @@ words:
   - Schuhen
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Dativ — in den Schuhen laufen)
+Ordne die Wörter zum richtigen Satz: (Dativ — in den Schuhen laufen)
+

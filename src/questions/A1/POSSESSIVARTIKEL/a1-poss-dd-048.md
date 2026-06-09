@@ -2,10 +2,10 @@
 id: a1-poss-dd-048
 type: dropbox
 words:
-  - Sie
-  - packt
-  - ihrer
-  - Kamera
+  - Er
+  - liebt
+  - seinen
+  - Hund
 ---
 
-[Reisen] Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinen)

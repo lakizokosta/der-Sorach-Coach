@@ -9,4 +9,5 @@ options:
 correct: trinkt
 ---
 
-[Transport] Er ___ Wasser nach dem Training. (trinken)
+Er ___ Wasser nach dem Training. (trinken)
+

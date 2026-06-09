@@ -5,4 +5,5 @@ correct:
   - Wann
 ---
 
-[Schule] ___ beginnt der Kurs? — Um 9 Uhr. (Frage nach Zeit)
+___ beginnt der Kurs? — Um 9 Uhr. (Frage nach Zeit)
+

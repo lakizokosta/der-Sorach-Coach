@@ -8,4 +8,5 @@ words:
   - schmutzig
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Gegenteil — sauber / schmutzig)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — sauber / schmutzig)
+

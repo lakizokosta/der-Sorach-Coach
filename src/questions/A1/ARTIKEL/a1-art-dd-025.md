@@ -8,4 +8,5 @@ words:
   - Geld
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Artikel — kein Geld)
+Ordne die Wörter zum richtigen Satz: (Artikel — kein Geld)
+

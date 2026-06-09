@@ -5,4 +5,5 @@ correct:
   - groß
 ---
 
-[Familie] Das Baby ist klein, der Vater ist ___. (Gegenteil von klein)
+Das Baby ist klein, der Vater ist ___. (Gegenteil von klein)
+

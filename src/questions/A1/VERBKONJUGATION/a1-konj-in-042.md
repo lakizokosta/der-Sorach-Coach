@@ -5,4 +5,5 @@ correct:
   - bringt
 ---
 
-[Essen] Er ___ das Essen mit. (bringen, er)
+Er ___ das Essen mit. (bringen, er)
+

@@ -8,4 +8,5 @@ words:
   - Laden
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Laden (Ort))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Laden (Ort))
+

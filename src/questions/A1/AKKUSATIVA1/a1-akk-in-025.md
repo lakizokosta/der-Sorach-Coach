@@ -5,4 +5,5 @@ correct:
   - einen
 ---
 
-[Kleidung] Sie kauft ___ Rock. (ein Rock, Akk.)
+Sie kauft ___ Rock. (ein Rock, Akk.)
+

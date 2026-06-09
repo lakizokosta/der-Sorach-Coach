@@ -8,4 +8,5 @@ words:
   - Freund
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Akkusativ — meinen Freund treffen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — meinen Freund treffen)
+

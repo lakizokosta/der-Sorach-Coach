@@ -8,4 +8,5 @@ words:
   - früh
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Possessivartikel — seine)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — seine)
+

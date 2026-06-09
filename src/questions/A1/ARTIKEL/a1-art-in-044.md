@@ -5,4 +5,5 @@ correct:
   - eine
 ---
 
-[Reisen] Wir besuchen ___ Insel. (eine Insel, fem., Akk.)
+Wir besuchen ___ Insel. (eine Insel, fem., Akk.)
+

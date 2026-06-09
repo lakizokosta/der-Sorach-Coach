@@ -5,4 +5,5 @@ correct:
   - Anna
 ---
 
-[Freunde] Ich schreibe ___ einen Brief. (Anna, Dat.)
+Ich schreibe ___ einen Brief. (Anna, Dat.)
+

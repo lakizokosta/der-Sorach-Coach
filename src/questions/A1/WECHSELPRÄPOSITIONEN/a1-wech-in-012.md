@@ -5,4 +5,5 @@ correct:
   - ins
 ---
 
-[Wetter] Bei Gewitter gehe ich ___ Haus. (in + das, Bewegung)
+Bei Gewitter gehe ich ___ Haus. (in + das, Bewegung)
+

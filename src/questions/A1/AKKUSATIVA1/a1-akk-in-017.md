@@ -5,4 +5,5 @@ correct:
   - die
 ---
 
-[Schule] Ich schreibe ___ Aufgabe. (die Aufgabe, Akk.)
+Ich schreibe ___ Aufgabe. (die Aufgabe, Akk.)
+

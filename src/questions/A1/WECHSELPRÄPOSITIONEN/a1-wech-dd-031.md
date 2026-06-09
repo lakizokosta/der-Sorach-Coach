@@ -9,4 +9,5 @@ words:
   - Land
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Land (Ort))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Land (Ort))
+

@@ -8,4 +8,5 @@ words:
   - warm
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Artikel — die Jacke)
+Ordne die Wörter zum richtigen Satz: (Artikel — die Jacke)
+

@@ -8,4 +8,5 @@ words:
   - du
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (W-Frage — Mit wem gehen?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Mit wem gehen?)
+

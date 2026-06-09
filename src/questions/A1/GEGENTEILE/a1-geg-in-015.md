@@ -5,4 +5,5 @@ correct:
   - schwach
 ---
 
-[Sport] Er ist stark, sein Bruder ist ___. (Gegenteil von stark)
+Er ist stark, sein Bruder ist ___. (Gegenteil von stark)
+

@@ -9,4 +9,5 @@ words:
   - modern
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Adjektiv — eine helle Küche)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — eine helle Küche)
+

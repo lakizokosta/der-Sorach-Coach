@@ -5,4 +5,5 @@ correct:
   - langweilig
 ---
 
-[Hobby] Der Roman ist spannend, das Buch ist ___. (Gegenteil von spannend)
+Der Roman ist spannend, das Buch ist ___. (Gegenteil von spannend)
+

@@ -5,4 +5,5 @@ correct:
   - keine
 ---
 
-[Schule] Es gibt ___ Hausaufgaben. (kein, Pl.)
+Es gibt ___ Hausaufgaben. (kein, Pl.)
+

@@ -8,4 +8,5 @@ words:
   - heute
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Verb — tanzen, ihr)
+Ordne die Wörter zum richtigen Satz: (Verb — tanzen, ihr)
+

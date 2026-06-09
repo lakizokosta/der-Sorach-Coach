@@ -5,4 +5,5 @@ correct:
   - uns
 ---
 
-[Schule] Der Lehrer erklärt ___ die Regel. (wir, Dat.)
+Der Lehrer erklärt ___ die Regel. (wir, Dat.)
+

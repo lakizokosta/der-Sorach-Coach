@@ -5,4 +5,5 @@ correct:
   - Die
 ---
 
-[Wetter] ___ Sonne scheint heute. (die Sonne, Nom.)
+___ Sonne scheint heute. (die Sonne, Nom.)
+

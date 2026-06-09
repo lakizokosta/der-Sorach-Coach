@@ -5,4 +5,5 @@ correct:
   - langsam
 ---
 
-[Sport] Er läuft schnell, ich laufe ___. (Gegenteil von schnell)
+Er läuft schnell, ich laufe ___. (Gegenteil von schnell)
+

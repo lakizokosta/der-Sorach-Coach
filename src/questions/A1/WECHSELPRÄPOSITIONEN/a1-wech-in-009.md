@@ -5,4 +5,5 @@ correct:
   - auf der
 ---
 
-[Stadt] Ich laufe ___ Straße. (auf + der, Ort)
+Ich laufe ___ Straße. (auf + der, Ort)
+

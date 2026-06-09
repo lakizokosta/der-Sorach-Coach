@@ -8,4 +8,5 @@ words:
   - Kaffee
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Artikel — keinen Kaffee)
+Ordne die Wörter zum richtigen Satz: (Artikel — keinen Kaffee)
+

@@ -8,4 +8,5 @@ words:
   - altmodisch
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Gegenteil — modern / altmodisch)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — modern / altmodisch)
+

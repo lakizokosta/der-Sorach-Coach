@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Hobby] Ich gehe ___ ins Kino. (nicht)
+Ich gehe ___ ins Kino. (nicht)
+

@@ -8,4 +8,5 @@ words:
   - klein
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Plural — die Zimmer)
+Ordne die Wörter zum richtigen Satz: (Plural — die Zimmer)
+

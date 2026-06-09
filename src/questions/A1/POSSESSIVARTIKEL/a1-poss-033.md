@@ -9,4 +9,5 @@ options:
 correct: ihren
 ---
 
-[Freunde] Ich rufe ___ Freund an. (sie)
+Ich rufe ___ Freund an. (sie)
+

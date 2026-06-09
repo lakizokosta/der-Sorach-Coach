@@ -9,4 +9,5 @@ words:
   - richtig
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein kluger Schüler)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein kluger Schüler)
+

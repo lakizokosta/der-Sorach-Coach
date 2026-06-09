@@ -8,4 +8,5 @@ words:
   - unfreundlich
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Gegenteil — freundlich / unfreundlich)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — freundlich / unfreundlich)
+

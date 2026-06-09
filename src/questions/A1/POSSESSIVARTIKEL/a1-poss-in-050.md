@@ -5,4 +5,5 @@ correct:
   - Unsere
 ---
 
-[Arbeit] ___ Kollegen sind nett. (wir, Pl., Nom.)
+___ Kollegen sind nett. (wir, Pl., Nom.)
+

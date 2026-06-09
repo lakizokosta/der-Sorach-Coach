@@ -8,4 +8,5 @@ words:
   - hin
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (W-Frage — Wie zur Schule?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wie zur Schule?)
+

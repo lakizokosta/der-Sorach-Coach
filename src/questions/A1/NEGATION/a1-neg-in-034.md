@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Stadt] Ich kenne ___ diese Straße. (nicht)
+Ich kenne ___ diese Straße. (nicht)
+

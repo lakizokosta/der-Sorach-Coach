@@ -5,4 +5,5 @@ correct:
   - dem Verkäufer
 ---
 
-[Einkaufen] Ich gebe ___ Verkäufer Geld. (der Verkäufer, Dat.)
+Ich gebe ___ Verkäufer Geld. (der Verkäufer, Dat.)
+

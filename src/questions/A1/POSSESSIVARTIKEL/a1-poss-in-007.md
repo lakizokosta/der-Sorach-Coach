@@ -5,4 +5,5 @@ correct:
   - Mein
 ---
 
-[Hobby] ___ Fahrrad ist neu. (ich, neutr., Nom.)
+___ Fahrrad ist neu. (ich, neutr., Nom.)
+

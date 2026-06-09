@@ -9,4 +9,5 @@ words:
   - mich
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein günstiger Preis)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein günstiger Preis)
+

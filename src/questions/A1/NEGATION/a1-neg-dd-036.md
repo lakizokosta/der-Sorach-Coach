@@ -8,4 +8,5 @@ words:
   - Obst
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Negation — kein Obst)
+Ordne die Wörter zum richtigen Satz: (Negation — kein Obst)
+

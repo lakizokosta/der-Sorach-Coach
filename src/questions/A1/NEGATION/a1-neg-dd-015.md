@@ -8,4 +8,5 @@ words:
   - Gitarre
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Negation — keine Gitarre)
+Ordne die Wörter zum richtigen Satz: (Negation — keine Gitarre)
+

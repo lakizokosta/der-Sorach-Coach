@@ -5,4 +5,5 @@ correct:
   - in den
 ---
 
-[Reisen] Wir wandern ___ Bergen. (in + den, Ort)
+Wir wandern ___ Bergen. (in + den, Ort)
+

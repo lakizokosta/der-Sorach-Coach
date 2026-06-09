@@ -8,4 +8,5 @@ words:
   - pessimistisch
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Gegenteil — optimistisch / pessimistisch)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — optimistisch / pessimistisch)
+

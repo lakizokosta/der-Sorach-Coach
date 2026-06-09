@@ -8,4 +8,5 @@ words:
   - Medizin
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Negation — keine Medizin)
+Ordne die Wörter zum richtigen Satz: (Negation — keine Medizin)
+

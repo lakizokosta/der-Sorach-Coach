@@ -8,4 +8,5 @@ words:
   - Kasse
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Verb — bezahlen, sie)
+Ordne die Wörter zum richtigen Satz: (Verb — bezahlen, sie)
+

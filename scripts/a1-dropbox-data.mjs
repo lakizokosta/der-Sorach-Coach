@@ -49,9 +49,9 @@ export const POSSESSIVARTIKEL = [
   { theme: 'Wetter', hint: 'Possessivartikel — deinem', words: ['Ich', 'folge', 'deinem', 'Rat'] },
   { theme: 'Musik', hint: 'Possessivartikel — seinen', words: ['Er', 'liebt', 'seinen', 'Hund'] },
   { theme: 'Reisen', hint: 'Possessivartikel — ihrer', words: ['Sie', 'packt', 'ihrer', 'Kamera'] },
-  { theme: 'Arbeit', hint: 'Possessivartikel — meines', words: ['Das', 'ist', 'meines', 'Vaters'] },
-  { theme: 'Zuhause', hint: 'Possessivartikel — deines', words: ['Das', 'ist', 'deines', 'Bruders'] },
-  { theme: 'Familie', hint: 'Possessivartikel — unseres', words: ['Das', 'ist', 'unseres', 'Kindes'] },
+  { theme: 'Freunde', hint: 'Possessivartikel — ihrer', words: ['Sie', 'schickt', 'ihrer', 'Freundin'] },
+  { theme: 'Kleidung', hint: 'Possessivartikel — meine', words: ['Ich', 'kaufe', 'meine', 'Jacke'] },
+  { theme: 'Hobby', hint: 'Possessivartikel — seinen', words: ['Er', 'sucht', 'seinen', 'Stift'] },
 ];
 
 export const PLURAL = [

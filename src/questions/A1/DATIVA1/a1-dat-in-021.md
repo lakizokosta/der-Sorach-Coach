@@ -5,4 +5,5 @@ correct:
   - dem Schüler
 ---
 
-[Schule] Der Stift gehört ___ Schüler. (der Schüler, Dat.)
+Der Stift gehört ___ Schüler. (der Schüler, Dat.)
+

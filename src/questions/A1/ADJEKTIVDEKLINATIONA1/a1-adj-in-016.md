@@ -5,4 +5,5 @@ correct:
   - schweres
 ---
 
-[Hobby] Das ist kein ___ Problem. (schwer, neutr., Nom.)
+Das ist kein ___ Problem. (schwer, neutr., Nom.)
+

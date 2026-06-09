@@ -8,4 +8,5 @@ words:
   - Vater
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Dativ — meinem Vater helfen)
+Ordne die Wörter zum richtigen Satz: (Dativ — meinem Vater helfen)
+

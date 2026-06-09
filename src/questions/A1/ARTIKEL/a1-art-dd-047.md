@@ -8,4 +8,5 @@ words:
   - morgens
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Artikel — der Vogel)
+Ordne die Wörter zum richtigen Satz: (Artikel — der Vogel)
+

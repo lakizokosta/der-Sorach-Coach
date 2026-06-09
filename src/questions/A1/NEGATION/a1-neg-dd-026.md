@@ -8,4 +8,5 @@ words:
   - sofort
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Negation — nicht sofort)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht sofort)
+

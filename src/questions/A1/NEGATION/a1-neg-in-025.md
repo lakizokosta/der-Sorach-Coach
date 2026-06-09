@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Hobby] Das ist ___ interessant. (nicht)
+Das ist ___ interessant. (nicht)
+

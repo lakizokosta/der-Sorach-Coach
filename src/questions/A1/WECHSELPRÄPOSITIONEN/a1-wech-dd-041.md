@@ -10,4 +10,5 @@ words:
   - Markt
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Markt (Ort))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Markt (Ort))
+

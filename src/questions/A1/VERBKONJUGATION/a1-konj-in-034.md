@@ -5,4 +5,5 @@ correct:
   - wohnen
 ---
 
-[Stadt] Sie ___ in Hamburg. (wohnen, sie Pl.)
+Sie ___ in Hamburg. (wohnen, sie Pl.)
+

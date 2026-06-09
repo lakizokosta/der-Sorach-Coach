@@ -8,4 +8,5 @@ words:
   - Angebot
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Akkusativ — das Angebot finden)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — das Angebot finden)
+

@@ -5,4 +5,5 @@ correct:
   - deinen
 ---
 
-[Transport] Ich warte auf ___ Bus. (du, mask., Akk.)
+Ich warte auf ___ Bus. (du, mask., Akk.)
+

@@ -5,4 +5,5 @@ correct:
   - eine
 ---
 
-[Hobby] Ich schaue ___ Serie. (eine Serie, Akk.)
+Ich schaue ___ Serie. (eine Serie, Akk.)
+

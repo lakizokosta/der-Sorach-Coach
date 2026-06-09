@@ -5,4 +5,5 @@ correct:
   - Meine
 ---
 
-[Familie] ___ Mutter kocht heute Suppe. (ich, fem., Nom.)
+___ Mutter kocht heute Suppe. (ich, fem., Nom.)
+

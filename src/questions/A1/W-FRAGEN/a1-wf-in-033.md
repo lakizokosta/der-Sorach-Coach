@@ -5,4 +5,5 @@ correct:
   - Welches
 ---
 
-[Sport] ___ Team gewinnt? — Unser Team. (Frage nach Person/Team)
+___ Team gewinnt? — Unser Team. (Frage nach Person/Team)
+

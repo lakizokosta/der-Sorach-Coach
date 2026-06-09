@@ -8,4 +8,5 @@ words:
   - Mutter
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Dativ — meiner Mutter schenken)
+Ordne die Wörter zum richtigen Satz: (Dativ — meiner Mutter schenken)
+

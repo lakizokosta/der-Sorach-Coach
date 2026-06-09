@@ -9,4 +9,5 @@ options:
 correct: auf dem
 ---
 
-[Stadt] Ich klettere ___ Dach. (Ort → Dativ)
+Ich klettere ___ Dach. (Ort → Dativ)
+

@@ -9,4 +9,5 @@ options:
 correct: im
 ---
 
-[Stadt] Ich bin ___ Park. (Ort → Dativ)
+Ich bin ___ Park. (Ort → Dativ)
+

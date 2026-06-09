@@ -5,4 +5,5 @@ correct:
   - den
 ---
 
-[Reisen] Ich buche ___ Flug. (der Flug, Akk.)
+Ich buche ___ Flug. (der Flug, Akk.)
+

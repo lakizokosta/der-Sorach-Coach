@@ -9,4 +9,5 @@ options:
 correct: deinem
 ---
 
-[Hobby] Ich spiele mit ___ Computer. (du)
+Ich spiele mit ___ Computer. (du)
+

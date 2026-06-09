@@ -5,4 +5,5 @@ correct:
   - Die
 ---
 
-[Essen] ___ Suppe ist fertig. (die Suppe, Nom.)
+___ Suppe ist fertig. (die Suppe, Nom.)
+

@@ -8,4 +8,5 @@ words:
   - Familie
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Verb — lieben, ich)
+Ordne die Wörter zum richtigen Satz: (Verb — lieben, ich)
+

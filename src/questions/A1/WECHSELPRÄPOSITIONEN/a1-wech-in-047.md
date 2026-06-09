@@ -5,4 +5,5 @@ correct:
   - auf den
 ---
 
-[Stadt] Sie fährt ___ Markt. (auf + den, Bewegung)
+Sie fährt ___ Markt. (auf + den, Bewegung)
+

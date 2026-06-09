@@ -5,4 +5,5 @@ correct:
   - dem Hotel
 ---
 
-[Reisen] In ___ Hotel übernachten wir. (das Hotel, Dat.)
+In ___ Hotel übernachten wir. (das Hotel, Dat.)
+

@@ -8,4 +8,5 @@ words:
   - herzlich
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Dativ — Ihnen danken)
+Ordne die Wörter zum richtigen Satz: (Dativ — Ihnen danken)
+

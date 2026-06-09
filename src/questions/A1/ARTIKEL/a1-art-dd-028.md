@@ -8,4 +8,5 @@ words:
   - Freund
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Artikel — ein Freund)
+Ordne die Wörter zum richtigen Satz: (Artikel — ein Freund)
+

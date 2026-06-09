@@ -9,4 +9,5 @@ options:
 correct: fährt
 ---
 
-[Wetter] Peter ___ mit dem Bus zur Schule. (fahren)
+Peter ___ mit dem Bus zur Schule. (fahren)
+

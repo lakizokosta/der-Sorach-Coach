@@ -5,4 +5,5 @@ correct:
   - meinen
 ---
 
-[Familie] Ich rufe ___ Bruder an. (mein Bruder, Akk.)
+Ich rufe ___ Bruder an. (mein Bruder, Akk.)
+

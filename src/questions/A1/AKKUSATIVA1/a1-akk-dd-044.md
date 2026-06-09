@@ -8,4 +8,5 @@ words:
   - gern
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Akkusativ — Briefmarken sammeln)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — Briefmarken sammeln)
+

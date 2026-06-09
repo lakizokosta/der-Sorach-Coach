@@ -9,4 +9,5 @@ words:
   - mir
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein leckeres Essen)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein leckeres Essen)
+

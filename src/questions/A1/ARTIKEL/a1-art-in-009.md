@@ -5,4 +5,5 @@ correct:
   - Der
 ---
 
-[Freunde] ___ Freund wohnt in Berlin. (der Freund, Nom.)
+___ Freund wohnt in Berlin. (der Freund, Nom.)
+

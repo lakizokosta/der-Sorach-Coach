@@ -9,4 +9,5 @@ options:
 correct: singt
 ---
 
-[Transport] Er ___ laut im Chor. (singen)
+Er ___ laut im Chor. (singen)
+

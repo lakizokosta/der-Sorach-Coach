@@ -8,4 +8,5 @@ words:
   - heute
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (W-Frage — Was machen?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Was machen?)
+

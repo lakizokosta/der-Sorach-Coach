@@ -5,4 +5,5 @@ correct:
   - Der
 ---
 
-[Einkaufen] ___ Markt öffnet um 7 Uhr. (der Markt, Nom.)
+___ Markt öffnet um 7 Uhr. (der Markt, Nom.)
+

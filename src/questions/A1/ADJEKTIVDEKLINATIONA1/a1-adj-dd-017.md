@@ -9,4 +9,5 @@ words:
   - gut
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Adjektiv — frische Luft)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — frische Luft)
+

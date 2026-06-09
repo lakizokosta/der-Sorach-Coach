@@ -5,4 +5,5 @@ correct:
   - einen
 ---
 
-[Familie] Sie hat ___ Bruder. (ein Bruder, mask., Akk.)
+Sie hat ___ Bruder. (ein Bruder, mask., Akk.)
+

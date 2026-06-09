@@ -8,4 +8,5 @@ words:
   - morgens
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Plural — die Vögel)
+Ordne die Wörter zum richtigen Satz: (Plural — die Vögel)
+

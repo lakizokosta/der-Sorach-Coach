@@ -5,4 +5,5 @@ correct:
   - die
 ---
 
-[Hobby] Er sammelt ___ Briefmarken. (die Briefmarken, Akk.)
+Er sammelt ___ Briefmarken. (die Briefmarken, Akk.)
+

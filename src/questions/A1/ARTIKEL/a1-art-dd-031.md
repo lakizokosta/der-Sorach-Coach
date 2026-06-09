@@ -8,4 +8,5 @@ words:
   - Ticket
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Artikel — ein Ticket)
+Ordne die Wörter zum richtigen Satz: (Artikel — ein Ticket)
+

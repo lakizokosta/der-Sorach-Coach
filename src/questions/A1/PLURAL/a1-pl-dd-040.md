@@ -8,4 +8,5 @@ words:
   - spät
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Plural — die Gäste)
+Ordne die Wörter zum richtigen Satz: (Plural — die Gäste)
+

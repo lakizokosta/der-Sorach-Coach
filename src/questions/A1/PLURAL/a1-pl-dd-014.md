@@ -8,4 +8,5 @@ words:
   - hell
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Plural — die Lampen)
+Ordne die Wörter zum richtigen Satz: (Plural — die Lampen)
+

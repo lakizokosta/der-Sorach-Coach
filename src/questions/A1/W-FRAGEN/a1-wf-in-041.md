@@ -5,4 +5,5 @@ correct:
   - Welches
 ---
 
-[Zuhause] ___ Zimmer ist das? — Das Schlafzimmer. (Frage nach Raum)
+___ Zimmer ist das? — Das Schlafzimmer. (Frage nach Raum)
+

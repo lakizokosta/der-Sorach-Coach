@@ -9,6 +9,8 @@ import * as D3 from './a1-dropbox-data-3.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A1');
 
+const DROPBOX_KEEP_THEME = new Set(['Transport', 'Reisen', 'Stadt', 'Sport', 'Wetter']);
+
 const TOPICS = {
   POSSESSIVARTIKEL: { prefix: 'a1-poss-dd', bank: D1.POSSESSIVARTIKEL },
   PLURAL: { prefix: 'a1-pl-dd', bank: D1.PLURAL },
@@ -52,7 +54,8 @@ for (const [folder, { prefix, bank }] of Object.entries(TOPICS)) {
       errors.push(e.message);
       return;
     }
-    const prompt = `[${item.theme}] Ordne die Wörter zum richtigen Satz: (${item.hint})`;
+    const prefix = DROPBOX_KEEP_THEME.has(item.theme) ? `[${item.theme}] ` : '';
+    const prompt = `${prefix}Ordne die Wörter zum richtigen Satz: (${item.hint})`;
     writeFileSync(path, md(`${prefix}-${num}`, prompt, item.words), 'utf8');
     n += 1;
     total += 1;

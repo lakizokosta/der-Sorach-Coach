@@ -5,4 +5,5 @@ correct:
   - schnelles
 ---
 
-[Sport] Er fährt ein ___ Fahrrad. (schnell, neutr., Akk.)
+Er fährt ein ___ Fahrrad. (schnell, neutr., Akk.)
+

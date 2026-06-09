@@ -5,4 +5,5 @@ correct:
   - Was
 ---
 
-[Schule] ___ ist dein Lieblingsfach? — Deutsch. (Frage nach Fach)
+___ ist dein Lieblingsfach? — Deutsch. (Frage nach Fach)
+

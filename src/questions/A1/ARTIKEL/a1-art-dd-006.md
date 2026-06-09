@@ -8,4 +8,5 @@ words:
   - gut
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Artikel — das Essen)
+Ordne die Wörter zum richtigen Satz: (Artikel — das Essen)
+

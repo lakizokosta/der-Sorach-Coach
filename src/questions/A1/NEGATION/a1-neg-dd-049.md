@@ -8,4 +8,5 @@ words:
   - Hund
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Negation — keinen Hund)
+Ordne die Wörter zum richtigen Satz: (Negation — keinen Hund)
+

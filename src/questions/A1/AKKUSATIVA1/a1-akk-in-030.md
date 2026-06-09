@@ -5,4 +5,5 @@ correct:
   - meinen
 ---
 
-[Freunde] Ich treffe ___ Freund. (mein Freund, Akk.)
+Ich treffe ___ Freund. (mein Freund, Akk.)
+

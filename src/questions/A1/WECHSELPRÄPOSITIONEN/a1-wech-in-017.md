@@ -5,4 +5,5 @@ correct:
   - an die
 ---
 
-[Stadt] Ich stelle mich ___ Ecke. (an + die, Bewegung)
+Ich stelle mich ___ Ecke. (an + die, Bewegung)
+

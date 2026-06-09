@@ -5,4 +5,5 @@ correct:
   - das
 ---
 
-[Sport] Wir gewinnen ___ Spiel. (das Spiel, Akk.)
+Wir gewinnen ___ Spiel. (das Spiel, Akk.)
+

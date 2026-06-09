@@ -9,4 +9,5 @@ words:
   - ruhig
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein kleines Zimmer)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein kleines Zimmer)
+

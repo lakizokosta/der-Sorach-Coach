@@ -9,4 +9,5 @@ words:
   - Lied
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein lautes Lied)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein lautes Lied)
+

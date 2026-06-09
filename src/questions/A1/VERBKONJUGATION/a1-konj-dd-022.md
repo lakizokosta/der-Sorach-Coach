@@ -8,4 +8,5 @@ words:
   - Text
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Verb — schreiben, du)
+Ordne die Wörter zum richtigen Satz: (Verb — schreiben, du)
+

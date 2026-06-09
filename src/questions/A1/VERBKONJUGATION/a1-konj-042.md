@@ -9,4 +9,5 @@ options:
 correct: tanzt
 ---
 
-[Familie] Anna ___ gern am Wochenende. (tanzen)
+Anna ___ gern am Wochenende. (tanzen)
+

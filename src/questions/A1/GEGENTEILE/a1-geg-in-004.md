@@ -5,4 +5,5 @@ correct:
   - alt
 ---
 
-[Familie] Mein Bruder ist jung, meine Oma ist ___. (Gegenteil von jung)
+Mein Bruder ist jung, meine Oma ist ___. (Gegenteil von jung)
+

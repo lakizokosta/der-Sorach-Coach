@@ -9,4 +9,5 @@ options:
 correct: lesen
 ---
 
-[Schule] Sie ___ ein Buch über Reisen. (lesen)
+Sie ___ ein Buch über Reisen. (lesen)
+

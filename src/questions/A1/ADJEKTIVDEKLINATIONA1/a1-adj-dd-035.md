@@ -9,4 +9,5 @@ words:
   - schnell
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Adjektiv — gute Medizin)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — gute Medizin)
+

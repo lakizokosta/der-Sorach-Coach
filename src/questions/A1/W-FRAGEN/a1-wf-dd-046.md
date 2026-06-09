@@ -9,4 +9,5 @@ words:
   - du
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (W-Frage — Wie viele Geschwister?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wie viele Geschwister?)
+

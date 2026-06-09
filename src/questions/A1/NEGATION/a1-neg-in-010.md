@@ -5,4 +5,5 @@ correct:
   - kein
 ---
 
-[Essen] Ich esse ___ Fleisch. (kein, neutr.)
+Ich esse ___ Fleisch. (kein, neutr.)
+

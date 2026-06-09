@@ -8,4 +8,5 @@ words:
   - Frau
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Dativ — der Frau geben)
+Ordne die Wörter zum richtigen Satz: (Dativ — der Frau geben)
+

@@ -8,4 +8,5 @@ words:
   - Kindern
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Dativ — den Kindern singen)
+Ordne die Wörter zum richtigen Satz: (Dativ — den Kindern singen)
+

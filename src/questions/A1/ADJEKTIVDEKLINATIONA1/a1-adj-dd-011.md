@@ -9,4 +9,5 @@ words:
   - gut
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Adjektiv — eine warme Suppe)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — eine warme Suppe)
+

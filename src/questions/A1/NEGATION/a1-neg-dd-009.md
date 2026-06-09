@@ -9,4 +9,5 @@ words:
   - Kino
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Negation — nicht ins Kino)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht ins Kino)
+

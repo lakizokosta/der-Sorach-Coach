@@ -9,4 +9,5 @@ options:
 correct: unseren
 ---
 
-[Sport] Wir werfen ___ Freund. (wir)
+Wir werfen ___ Freund. (wir)
+

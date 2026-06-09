@@ -8,4 +8,5 @@ words:
   - Hausaufgaben
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Negation — keine Hausaufgaben)
+Ordne die Wörter zum richtigen Satz: (Negation — keine Hausaufgaben)
+

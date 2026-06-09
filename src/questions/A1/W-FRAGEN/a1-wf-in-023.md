@@ -5,4 +5,5 @@ correct:
   - Wann
 ---
 
-[Transport] ___ fährt der Bus? — Um halb neun. (Frage nach Zeit)
+___ fährt der Bus? — Um halb neun. (Frage nach Zeit)
+

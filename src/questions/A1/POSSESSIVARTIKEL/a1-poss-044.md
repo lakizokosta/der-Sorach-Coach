@@ -9,4 +9,5 @@ options:
 correct: seinen
 ---
 
-[Transport] Ich warte auf ___ Freund. (er)
+Ich warte auf ___ Freund. (er)
+

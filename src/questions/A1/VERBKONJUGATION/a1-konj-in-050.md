@@ -5,4 +5,5 @@ correct:
   - liebe
 ---
 
-[Familie] Ich ___ meine Familie. (lieben, ich)
+Ich ___ meine Familie. (lieben, ich)
+

@@ -5,4 +5,5 @@ correct:
   - wichtiges
 ---
 
-[Arbeit] Das ist ein ___ Projekt. (wichtig, neutr., Nom.)
+Das ist ein ___ Projekt. (wichtig, neutr., Nom.)
+

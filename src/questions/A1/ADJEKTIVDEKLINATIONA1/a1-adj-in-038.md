@@ -5,4 +5,5 @@ correct:
   - bekanntes
 ---
 
-[Musik] Er singt ein ___ Lied. (bekannt, neutr., Akk.)
+Er singt ein ___ Lied. (bekannt, neutr., Akk.)
+

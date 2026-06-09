@@ -8,4 +8,5 @@ words:
   - leise
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Gegenteil — laut / leise)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — laut / leise)
+

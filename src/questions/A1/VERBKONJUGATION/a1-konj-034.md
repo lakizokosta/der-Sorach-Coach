@@ -9,4 +9,5 @@ options:
 correct: essen
 ---
 
-[Musik] Meine Freunde ___ Obst zum Frühstück. (essen)
+Meine Freunde ___ Obst zum Frühstück. (essen)
+

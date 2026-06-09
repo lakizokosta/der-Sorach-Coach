@@ -5,4 +5,5 @@ correct:
   - Wie alt
 ---
 
-[Familie] ___ alt ist dein Bruder? — 12 Jahre. (Frage nach Alter)
+___ alt ist dein Bruder? — 12 Jahre. (Frage nach Alter)
+

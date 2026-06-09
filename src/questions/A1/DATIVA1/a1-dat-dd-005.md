@@ -8,4 +8,5 @@ words:
   - Freundin
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Dativ — der Freundin antworten)
+Ordne die Wörter zum richtigen Satz: (Dativ — der Freundin antworten)
+

@@ -9,4 +9,5 @@ options:
 correct: deinen
 ---
 
-[Transport] Ich warte auf ___ Freund. (du)
+Ich warte auf ___ Freund. (du)
+

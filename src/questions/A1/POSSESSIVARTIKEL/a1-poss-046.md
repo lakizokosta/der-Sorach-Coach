@@ -9,4 +9,5 @@ options:
 correct: unserer
 ---
 
-[Musik] Ich übe auf ___ Gitarre. (wir)
+Ich übe auf ___ Gitarre. (wir)
+

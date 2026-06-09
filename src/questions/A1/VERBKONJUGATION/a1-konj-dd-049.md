@@ -8,4 +8,5 @@ words:
   - Tag
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Verb — üben, ich)
+Ordne die Wörter zum richtigen Satz: (Verb — üben, ich)
+

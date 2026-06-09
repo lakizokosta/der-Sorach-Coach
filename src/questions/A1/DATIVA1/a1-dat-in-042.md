@@ -5,4 +5,5 @@ correct:
   - meiner Schwester
 ---
 
-[Hobby] Mit ___ Schwester spiele ich Karten. (meine Schwester, Dat.)
+Mit ___ Schwester spiele ich Karten. (meine Schwester, Dat.)
+

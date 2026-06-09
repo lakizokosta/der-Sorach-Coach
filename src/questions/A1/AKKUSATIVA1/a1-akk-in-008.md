@@ -5,4 +5,5 @@ correct:
   - einen
 ---
 
-[Wetter] Ich brauche ___ Regenschirm. (ein Regenschirm, Akk.)
+Ich brauche ___ Regenschirm. (ein Regenschirm, Akk.)
+

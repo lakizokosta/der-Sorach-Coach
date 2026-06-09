@@ -9,4 +9,5 @@ options:
 correct: fährt
 ---
 
-[Transport] Er ___ mit dem Bus zur Schule. (fahren)
+Er ___ mit dem Bus zur Schule. (fahren)
+

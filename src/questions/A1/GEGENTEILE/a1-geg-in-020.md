@@ -5,4 +5,5 @@ correct:
   - schlecht
 ---
 
-[Essen] Das Essen ist gut, das alte Brot ist ___. (Gegenteil von gut)
+Das Essen ist gut, das alte Brot ist ___. (Gegenteil von gut)
+

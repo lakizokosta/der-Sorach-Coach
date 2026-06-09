@@ -5,4 +5,5 @@ correct:
   - Welches
 ---
 
-[Reisen] ___ Ticket brauchst du? — Ein Zugticket. (Frage nach Sache)
+___ Ticket brauchst du? — Ein Zugticket. (Frage nach Sache)
+

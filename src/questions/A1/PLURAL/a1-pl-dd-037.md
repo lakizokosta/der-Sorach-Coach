@@ -8,4 +8,5 @@ words:
   - gut
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Plural — die Pizzen)
+Ordne die Wörter zum richtigen Satz: (Plural — die Pizzen)
+

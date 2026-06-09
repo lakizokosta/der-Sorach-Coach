@@ -8,4 +8,5 @@ words:
   - draußen
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Artikel — das Kind)
+Ordne die Wörter zum richtigen Satz: (Artikel — das Kind)
+

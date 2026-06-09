@@ -5,4 +5,5 @@ correct:
   - Was
 ---
 
-[Gesundheit] ___ tut dir weh? — Der Kopf. (Frage nach Körperteil)
+___ tut dir weh? — Der Kopf. (Frage nach Körperteil)
+

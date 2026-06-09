@@ -8,4 +8,5 @@ words:
   - Termin
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Termin brauchen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Termin brauchen)
+

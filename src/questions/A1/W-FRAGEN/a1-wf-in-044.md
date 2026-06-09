@@ -5,4 +5,5 @@ correct:
   - Welche
 ---
 
-[Kleidung] ___ Farbe magst du? — Blau. (Frage nach Farbe)
+___ Farbe magst du? — Blau. (Frage nach Farbe)
+

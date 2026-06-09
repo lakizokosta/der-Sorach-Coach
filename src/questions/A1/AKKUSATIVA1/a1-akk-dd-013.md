@@ -8,4 +8,5 @@ words:
   - Bruder
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Akkusativ — meinen Bruder rufen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — meinen Bruder rufen)
+

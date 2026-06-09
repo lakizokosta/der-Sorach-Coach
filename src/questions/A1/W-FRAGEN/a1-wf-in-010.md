@@ -5,4 +5,5 @@ correct:
   - Wie
 ---
 
-[Wetter] ___ ist das Wetter? — Schön und warm. (Frage nach Zustand)
+___ ist das Wetter? — Schön und warm. (Frage nach Zustand)
+

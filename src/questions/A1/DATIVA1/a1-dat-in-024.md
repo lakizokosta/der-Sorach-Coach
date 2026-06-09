@@ -5,4 +5,5 @@ correct:
   - euch
 ---
 
-[Hobby] Das gefällt ___ sehr. (ihr, Dat.)
+Das gefällt ___ sehr. (ihr, Dat.)
+

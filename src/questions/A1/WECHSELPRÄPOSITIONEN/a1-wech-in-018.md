@@ -5,4 +5,5 @@ correct:
   - an der
 ---
 
-[Stadt] Das Café ist ___ Ecke. (an + der, Ort)
+Das Café ist ___ Ecke. (an + der, Ort)
+

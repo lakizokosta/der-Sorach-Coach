@@ -8,4 +8,5 @@ words:
   - Museum
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Museum (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Museum (Bewegung))
+

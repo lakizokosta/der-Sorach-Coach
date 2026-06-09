@@ -8,4 +8,5 @@ words:
   - Hund
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Hund spazieren führen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den Hund spazieren führen)
+

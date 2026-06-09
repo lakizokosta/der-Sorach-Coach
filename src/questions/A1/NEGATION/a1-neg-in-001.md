@@ -5,4 +5,5 @@ correct:
   - keine
 ---
 
-[Schule] Ich habe ___ Zeit. (kein, fem.)
+Ich habe ___ Zeit. (kein, fem.)
+

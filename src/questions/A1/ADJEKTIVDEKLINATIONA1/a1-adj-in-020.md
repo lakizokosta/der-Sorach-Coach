@@ -5,4 +5,5 @@ correct:
   - großen
 ---
 
-[Stadt] Auf dem ___ Markt kaufe ich Obst. (groß, mask., Dat.)
+Auf dem ___ Markt kaufe ich Obst. (groß, mask., Dat.)
+

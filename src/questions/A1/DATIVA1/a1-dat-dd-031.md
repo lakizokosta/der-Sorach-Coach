@@ -8,4 +8,5 @@ words:
   - Eltern
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Dativ — den Eltern helfen)
+Ordne die Wörter zum richtigen Satz: (Dativ — den Eltern helfen)
+

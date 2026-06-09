@@ -9,4 +9,5 @@ words:
   - Geschenk
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein teures Geschenk)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein teures Geschenk)
+

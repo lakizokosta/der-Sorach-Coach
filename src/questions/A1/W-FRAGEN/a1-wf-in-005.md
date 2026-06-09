@@ -5,4 +5,5 @@ correct:
   - Wie
 ---
 
-[Freunde] ___ heißt du? — Anna. (Frage nach Name)
+___ heißt du? — Anna. (Frage nach Name)
+

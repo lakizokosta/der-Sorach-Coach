@@ -9,4 +9,5 @@ options:
 correct: dein
 ---
 
-[Gesundheit] Der Arzt gibt mir ___ Medikament. (du)
+Der Arzt gibt mir ___ Medikament. (du)
+

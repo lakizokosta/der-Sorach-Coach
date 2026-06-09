@@ -5,4 +5,5 @@ correct:
   - geschlossen
 ---
 
-[Stadt] Das Geschäft ist offen, die Bank ist ___. (Gegenteil von offen)
+Das Geschäft ist offen, die Bank ist ___. (Gegenteil von offen)
+

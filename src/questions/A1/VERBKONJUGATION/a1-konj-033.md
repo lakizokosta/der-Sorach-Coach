@@ -9,4 +9,5 @@ options:
 correct: trinkt
 ---
 
-[Wetter] Peter ___ Wasser nach dem Training. (trinken)
+Peter ___ Wasser nach dem Training. (trinken)
+

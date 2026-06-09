@@ -9,4 +9,5 @@ words:
   - beliebt
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein modernes Lied)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein modernes Lied)
+

@@ -5,4 +5,5 @@ correct:
   - Ihre
 ---
 
-[Sport] ___ Mannschaft trainiert viel. (Sie, fem., Nom.)
+___ Mannschaft trainiert viel. (Sie, fem., Nom.)
+

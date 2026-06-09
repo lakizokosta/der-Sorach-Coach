@@ -5,4 +5,5 @@ correct:
   - meine
 ---
 
-[Familie] Ich liebe ___ Oma. (ich, fem., Akk.)
+Ich liebe ___ Oma. (ich, fem., Akk.)
+

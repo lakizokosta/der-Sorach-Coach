@@ -5,4 +5,5 @@ correct:
   - sein
 ---
 
-[Transport] Er repariert ___ Fahrrad. (er, neutr., Akk.)
+Er repariert ___ Fahrrad. (er, neutr., Akk.)
+

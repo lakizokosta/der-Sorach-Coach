@@ -8,4 +8,5 @@ words:
   - kalt
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Gegenteil — heiß / kalt)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — heiß / kalt)
+

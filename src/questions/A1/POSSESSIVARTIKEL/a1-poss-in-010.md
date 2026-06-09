@@ -5,4 +5,5 @@ correct:
   - seinen
 ---
 
-[Essen] Er isst ___ Apfel. (er, mask., Akk.)
+Er isst ___ Apfel. (er, mask., Akk.)
+

@@ -5,4 +5,5 @@ correct:
   - alt
 ---
 
-[Transport] Das Auto ist neu, das Fahrrad ist ___. (Gegenteil von neu)
+Das Auto ist neu, das Fahrrad ist ___. (Gegenteil von neu)
+

@@ -5,4 +5,5 @@ correct:
   - Das
 ---
 
-[Hobby] ___ Hobby macht Spaß. (das Hobby, Nom.)
+___ Hobby macht Spaß. (das Hobby, Nom.)
+

@@ -7,4 +7,5 @@ words:
   - du
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (W-Frage — Wie heißen?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wie heißen?)
+

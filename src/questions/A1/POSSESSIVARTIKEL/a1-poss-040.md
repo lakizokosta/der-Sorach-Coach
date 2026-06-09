@@ -9,4 +9,5 @@ options:
 correct: unserem
 ---
 
-[Stadt] Im Sommer arbeite ich in ___ Computer. (wir)
+Im Sommer arbeite ich in ___ Computer. (wir)
+

@@ -5,4 +5,5 @@ correct:
   - mache
 ---
 
-[Sport] Ich ___ Yoga am Morgen. (machen, ich)
+Ich ___ Yoga am Morgen. (machen, ich)
+

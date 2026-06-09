@@ -9,4 +9,5 @@ options:
 correct: schwimmen
 ---
 
-[Reisen] Wir ___ im See im Sommer. (schwimmen)
+Wir ___ im See im Sommer. (schwimmen)
+

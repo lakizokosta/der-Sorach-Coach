@@ -10,4 +10,5 @@ words:
   - Platz
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Platz (Ort))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Platz (Ort))
+

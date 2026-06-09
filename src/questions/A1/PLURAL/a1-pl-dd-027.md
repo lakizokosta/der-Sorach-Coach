@@ -8,4 +8,5 @@ words:
   - viel
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Plural — die Katzen)
+Ordne die Wörter zum richtigen Satz: (Plural — die Katzen)
+

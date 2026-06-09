@@ -5,4 +5,5 @@ correct:
   - im
 ---
 
-[Essen] Die Flasche steht ___ Regal. (in + dem, Ort)
+Die Flasche steht ___ Regal. (in + dem, Ort)
+

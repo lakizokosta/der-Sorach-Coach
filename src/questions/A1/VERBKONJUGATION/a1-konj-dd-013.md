@@ -8,4 +8,5 @@ words:
   - Zimmer
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Verb — putzen, er)
+Ordne die Wörter zum richtigen Satz: (Verb — putzen, er)
+

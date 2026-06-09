@@ -9,4 +9,5 @@ words:
   - Laden
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in den Laden (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in den Laden (Bewegung))
+

@@ -5,4 +5,5 @@ correct:
   - hässlich
 ---
 
-[Freunde] Sie ist schön, der Film ist ___. (Gegenteil von schön)
+Sie ist schön, der Film ist ___. (Gegenteil von schön)
+

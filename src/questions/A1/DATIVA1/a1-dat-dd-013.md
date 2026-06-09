@@ -8,4 +8,5 @@ words:
   - Gitarre
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Dativ — mit der Gitarre spielen)
+Ordne die Wörter zum richtigen Satz: (Dativ — mit der Gitarre spielen)
+

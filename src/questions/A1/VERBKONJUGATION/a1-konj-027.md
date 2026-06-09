@@ -9,4 +9,5 @@ options:
 correct: tanzt
 ---
 
-[Essen] Du ___ gern am Wochenende. (tanzen)
+Du ___ gern am Wochenende. (tanzen)
+

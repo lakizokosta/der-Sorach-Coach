@@ -9,4 +9,5 @@ options:
 correct: ihrem
 ---
 
-[Stadt] Im Sommer arbeite ich in ___ Computer. (sie)
+Im Sommer arbeite ich in ___ Computer. (sie)
+

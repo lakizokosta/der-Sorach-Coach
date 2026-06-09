@@ -9,4 +9,5 @@ options:
 correct: lernt
 ---
 
-[Stadt] Ihr ___ Deutsch für die Schule. (lernen)
+Ihr ___ Deutsch für die Schule. (lernen)
+

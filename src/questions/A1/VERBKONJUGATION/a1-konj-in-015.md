@@ -5,4 +5,5 @@ correct:
   - spielt
 ---
 
-[Hobby] Ihr ___ Computerspiele. (spielen, ihr)
+Ihr ___ Computerspiele. (spielen, ihr)
+

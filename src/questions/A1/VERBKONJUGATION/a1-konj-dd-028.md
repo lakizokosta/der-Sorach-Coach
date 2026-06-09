@@ -8,4 +8,5 @@ words:
   - um
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Verb — beginnen, der)
+Ordne die Wörter zum richtigen Satz: (Verb — beginnen, der)
+

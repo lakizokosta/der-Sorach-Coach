@@ -8,4 +8,5 @@ words:
   - hässlich
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Gegenteil — schön / hässlich)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — schön / hässlich)
+

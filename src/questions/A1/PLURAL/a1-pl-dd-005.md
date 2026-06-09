@@ -8,4 +8,5 @@ words:
   - hier
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Plural — die Bücher)
+Ordne die Wörter zum richtigen Satz: (Plural — die Bücher)
+

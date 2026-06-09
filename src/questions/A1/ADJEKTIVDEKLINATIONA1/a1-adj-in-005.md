@@ -5,4 +5,5 @@ correct:
   - große
 ---
 
-[Stadt] Ich habe keine ___ Wohnung. (groß, fem., Akk.)
+Ich habe keine ___ Wohnung. (groß, fem., Akk.)
+

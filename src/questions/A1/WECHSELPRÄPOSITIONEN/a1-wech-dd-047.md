@@ -8,4 +8,5 @@ words:
   - Krankenhaus
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Krankenhaus (Ort))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Krankenhaus (Ort))
+

@@ -8,4 +8,5 @@ words:
   - du
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (W-Frage — Welche Farbe?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Welche Farbe?)
+

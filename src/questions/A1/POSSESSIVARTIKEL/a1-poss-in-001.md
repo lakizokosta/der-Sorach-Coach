@@ -5,4 +5,5 @@ correct:
   - mein
 ---
 
-[Familie] Das ist ___ Vater. (ich, mask., Nom.)
+Das ist ___ Vater. (ich, mask., Nom.)
+

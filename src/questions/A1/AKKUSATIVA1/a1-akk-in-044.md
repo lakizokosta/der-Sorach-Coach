@@ -5,4 +5,5 @@ correct:
   - meine
 ---
 
-[Freunde] Ich lade ___ Kollegin ein. (meine Kollegin, Akk.)
+Ich lade ___ Kollegin ein. (meine Kollegin, Akk.)
+

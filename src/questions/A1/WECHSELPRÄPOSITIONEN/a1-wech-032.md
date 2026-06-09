@@ -9,4 +9,5 @@ options:
 correct: in die
 ---
 
-[Schule] Ich lerne ___ Schule. (Bewegung → Akkusativ)
+Ich lerne ___ Schule. (Bewegung → Akkusativ)
+

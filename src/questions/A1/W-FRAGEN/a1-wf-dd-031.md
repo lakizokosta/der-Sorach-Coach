@@ -8,4 +8,5 @@ words:
   - du
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (W-Frage — Wie lange arbeiten?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wie lange arbeiten?)
+

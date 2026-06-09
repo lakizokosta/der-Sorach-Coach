@@ -9,4 +9,5 @@ words:
   - Markt
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf den Markt (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf den Markt (Bewegung))
+

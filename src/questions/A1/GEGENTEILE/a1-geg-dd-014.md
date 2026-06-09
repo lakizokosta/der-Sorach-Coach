@@ -8,4 +8,5 @@ words:
   - leer
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Gegenteil — voll / leer)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — voll / leer)
+

@@ -8,4 +8,5 @@ words:
   - nett
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere)
+

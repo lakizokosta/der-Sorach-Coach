@@ -8,4 +8,5 @@ words:
   - du
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (W-Frage — Welchen Sport?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Welchen Sport?)
+

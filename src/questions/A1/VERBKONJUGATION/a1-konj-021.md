@@ -9,4 +9,5 @@ options:
 correct: spielt
 ---
 
-[Stadt] Ihr ___ Fußball im Park. (spielen)
+Ihr ___ Fußball im Park. (spielen)
+

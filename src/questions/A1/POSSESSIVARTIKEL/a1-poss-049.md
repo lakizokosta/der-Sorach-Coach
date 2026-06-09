@@ -9,4 +9,5 @@ options:
 correct: deinen
 ---
 
-[Kleidung] Im Winter trage ich ___ Freund. (du)
+Im Winter trage ich ___ Freund. (du)
+

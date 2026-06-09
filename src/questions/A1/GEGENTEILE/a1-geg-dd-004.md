@@ -8,4 +8,5 @@ words:
   - alt
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Gegenteil — jung / alt)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — jung / alt)
+

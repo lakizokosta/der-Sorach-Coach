@@ -5,4 +5,5 @@ correct:
   - diese
 ---
 
-[Reisen] Ich liebe ___ Stadt. (diese Stadt, Akk.)
+Ich liebe ___ Stadt. (diese Stadt, Akk.)
+

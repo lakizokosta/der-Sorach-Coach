@@ -8,4 +8,5 @@ words:
   - Zeit
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Negation — keine Zeit)
+Ordne die Wörter zum richtigen Satz: (Negation — keine Zeit)
+

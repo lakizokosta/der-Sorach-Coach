@@ -8,4 +8,5 @@ words:
   - hier
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Plural — die Eltern)
+Ordne die Wörter zum richtigen Satz: (Plural — die Eltern)
+

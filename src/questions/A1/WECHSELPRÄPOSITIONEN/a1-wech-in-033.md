@@ -5,4 +5,5 @@ correct:
   - an die
 ---
 
-[Schule] Er hängt das Plakat ___ Wand. (an + die, Bewegung)
+Er hängt das Plakat ___ Wand. (an + die, Bewegung)
+

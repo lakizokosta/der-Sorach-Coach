@@ -8,4 +8,5 @@ words:
   - Restaurant
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Restaurant (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Restaurant (Bewegung))
+

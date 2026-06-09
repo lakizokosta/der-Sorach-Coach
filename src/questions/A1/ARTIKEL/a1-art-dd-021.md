@@ -8,4 +8,5 @@ words:
   - Idee
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Artikel — eine Idee)
+Ordne die Wörter zum richtigen Satz: (Artikel — eine Idee)
+

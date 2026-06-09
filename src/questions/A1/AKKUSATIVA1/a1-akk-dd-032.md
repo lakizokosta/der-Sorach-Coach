@@ -8,4 +8,5 @@ words:
   - Serie
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Serie schauen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Serie schauen)
+

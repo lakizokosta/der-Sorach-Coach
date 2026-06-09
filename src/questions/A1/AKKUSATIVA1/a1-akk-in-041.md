@@ -5,4 +5,5 @@ correct:
   - den
 ---
 
-[Sport] Er wirft ___ Frisbee. (der Frisbee, Akk.)
+Er wirft ___ Frisbee. (der Frisbee, Akk.)
+

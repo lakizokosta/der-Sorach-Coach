@@ -8,4 +8,5 @@ words:
   - Kurs
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Dativ — aus dem Kurs gehen)
+Ordne die Wörter zum richtigen Satz: (Dativ — aus dem Kurs gehen)
+

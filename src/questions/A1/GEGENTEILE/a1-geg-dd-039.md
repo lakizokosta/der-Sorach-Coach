@@ -8,4 +8,5 @@ words:
   - langweilig
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Gegenteil — spannend / langweilig)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — spannend / langweilig)
+

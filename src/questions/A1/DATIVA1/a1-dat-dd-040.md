@@ -8,4 +8,5 @@ words:
   - Freunden
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Dativ — mit den Freunden essen)
+Ordne die Wörter zum richtigen Satz: (Dativ — mit den Freunden essen)
+

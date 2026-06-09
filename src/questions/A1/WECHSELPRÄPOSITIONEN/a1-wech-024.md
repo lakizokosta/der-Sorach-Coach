@@ -9,4 +9,5 @@ options:
 correct: auf den
 ---
 
-[Essen] Ich liegt ___ Tisch. (Bewegung → Akkusativ)
+Ich liegt ___ Tisch. (Bewegung → Akkusativ)
+

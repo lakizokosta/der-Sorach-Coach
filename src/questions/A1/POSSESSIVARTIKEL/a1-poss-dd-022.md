@@ -8,4 +8,5 @@ words:
   - heute
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Possessivartikel — eure)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — eure)
+

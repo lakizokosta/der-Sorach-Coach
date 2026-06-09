@@ -5,4 +5,5 @@ correct:
   - schnellen
 ---
 
-[Transport] Wir fahren mit der ___ Bahn. (schnell, fem., Dat.)
+Wir fahren mit der ___ Bahn. (schnell, fem., Dat.)
+

@@ -9,4 +9,5 @@ words:
   - Regal
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Regal (Ort))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Regal (Ort))
+

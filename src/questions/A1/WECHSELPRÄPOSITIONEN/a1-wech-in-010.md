@@ -5,4 +5,5 @@ correct:
   - ins
 ---
 
-[Essen] Wir gehen ___ Restaurant. (in + das, Bewegung)
+Wir gehen ___ Restaurant. (in + das, Bewegung)
+

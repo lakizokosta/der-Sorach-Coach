@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Stadt] Der Laden ist ___ geöffnet. (nicht)
+Der Laden ist ___ geöffnet. (nicht)
+

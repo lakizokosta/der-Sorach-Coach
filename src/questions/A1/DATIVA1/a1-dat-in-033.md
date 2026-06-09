@@ -5,4 +5,5 @@ correct:
   - dem Team
 ---
 
-[Sport] Ich gratuliere ___ Team. (das Team, Dat.)
+Ich gratuliere ___ Team. (das Team, Dat.)
+

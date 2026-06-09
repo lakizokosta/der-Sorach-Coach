@@ -5,4 +5,5 @@ correct:
   - antwortest
 ---
 
-[Schule] Du ___ bitte laut. (antworten, du)
+Du ___ bitte laut. (antworten, du)
+

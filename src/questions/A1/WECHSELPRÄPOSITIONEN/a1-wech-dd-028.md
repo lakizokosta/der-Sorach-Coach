@@ -9,4 +9,5 @@ words:
   - Platz
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf den Platz (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf den Platz (Bewegung))
+

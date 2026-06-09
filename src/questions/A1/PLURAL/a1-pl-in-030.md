@@ -5,4 +5,5 @@ correct:
   - Tickets
 ---
 
-[Reisen] Für die Fahrt brauchen wir zwei ___. (Plural: Ticket)
+Für die Fahrt brauchen wir zwei ___. (Plural: Ticket)
+

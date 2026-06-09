@@ -8,4 +8,5 @@ words:
   - bunt
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Plural — die Hüte)
+Ordne die Wörter zum richtigen Satz: (Plural — die Hüte)
+

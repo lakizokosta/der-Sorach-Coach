@@ -5,4 +5,5 @@ correct:
   - in die
 ---
 
-[Reisen] Wir fahren ___ Berge. (in + die, Bewegung)
+Wir fahren ___ Berge. (in + die, Bewegung)
+

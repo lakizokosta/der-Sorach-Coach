@@ -5,4 +5,5 @@ correct:
   - leer
 ---
 
-[Essen] Das Glas ist voll, die Flasche ist ___. (Gegenteil von voll)
+Das Glas ist voll, die Flasche ist ___. (Gegenteil von voll)
+

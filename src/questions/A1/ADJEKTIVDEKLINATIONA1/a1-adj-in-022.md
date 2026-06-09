@@ -5,4 +5,5 @@ correct:
   - frischen
 ---
 
-[Essen] Ich esse einen ___ Salat. (frisch, mask., Akk.)
+Ich esse einen ___ Salat. (frisch, mask., Akk.)
+

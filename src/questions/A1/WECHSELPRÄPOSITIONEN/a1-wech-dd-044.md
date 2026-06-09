@@ -10,4 +10,5 @@ words:
   - Klasse
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in die Klasse (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in die Klasse (Bewegung))
+

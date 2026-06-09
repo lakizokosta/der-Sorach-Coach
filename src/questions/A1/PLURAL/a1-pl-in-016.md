@@ -5,4 +5,5 @@ correct:
   - Tiere
 ---
 
-[Tiere] Im Zoo leben viele ___. (Plural: Tier)
+Im Zoo leben viele ___. (Plural: Tier)
+

@@ -5,4 +5,5 @@ correct:
   - Die
 ---
 
-[Familie] ___ Mutter kocht gern. (die Mutter, Nom.)
+___ Mutter kocht gern. (die Mutter, Nom.)
+

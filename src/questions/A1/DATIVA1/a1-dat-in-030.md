@@ -5,4 +5,5 @@ correct:
   - dem Patient
 ---
 
-[Gesundheit] Der Arzt hilft ___ Patient. (der Patient, Dat.)
+Der Arzt hilft ___ Patient. (der Patient, Dat.)
+

@@ -8,4 +8,5 @@ words:
   - neu
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Plural — die Kinofilme)
+Ordne die Wörter zum richtigen Satz: (Plural — die Kinofilme)
+

@@ -8,4 +8,5 @@ words:
   - langsam
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Artikel — der Lehrer)
+Ordne die Wörter zum richtigen Satz: (Artikel — der Lehrer)
+

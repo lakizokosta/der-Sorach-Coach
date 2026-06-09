@@ -8,4 +8,5 @@ words:
   - Deutsch
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Plural — die Schüler)
+Ordne die Wörter zum richtigen Satz: (Plural — die Schüler)
+

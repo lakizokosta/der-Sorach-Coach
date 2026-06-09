@@ -5,4 +5,5 @@ correct:
   - Welchen
 ---
 
-[Arbeit] ___ Job suchst du? — Einen Bürojob. (Frage nach Beruf)
+___ Job suchst du? — Einen Bürojob. (Frage nach Beruf)
+

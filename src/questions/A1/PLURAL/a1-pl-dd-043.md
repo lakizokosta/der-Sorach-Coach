@@ -8,4 +8,5 @@ words:
   - laut
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Plural — die Bands)
+Ordne die Wörter zum richtigen Satz: (Plural — die Bands)
+

@@ -5,4 +5,5 @@ correct:
   - Wohin
 ---
 
-[Reisen] ___ fährst du? — Nach Hamburg. (Frage nach Ziel)
+___ fährst du? — Nach Hamburg. (Frage nach Ziel)
+

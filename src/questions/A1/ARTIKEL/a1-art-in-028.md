@@ -5,4 +5,5 @@ correct:
   - kein
 ---
 
-[Schule] Es gibt ___ Problem. (kein Problem, neutr.)
+Es gibt ___ Problem. (kein Problem, neutr.)
+

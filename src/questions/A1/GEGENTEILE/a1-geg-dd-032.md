@@ -8,4 +8,5 @@ words:
   - gewachsen
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Gegenteil — groß / klein)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — groß / klein)
+

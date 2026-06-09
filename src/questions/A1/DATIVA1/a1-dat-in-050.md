@@ -5,4 +5,5 @@ correct:
   - ihr
 ---
 
-[Freunde] Ich schicke ___ eine Nachricht. (sie, Dat.)
+Ich schicke ___ eine Nachricht. (sie, Dat.)
+

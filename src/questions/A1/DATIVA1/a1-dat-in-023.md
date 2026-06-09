@@ -5,4 +5,5 @@ correct:
   - uns
 ---
 
-[Freunde] Das passt ___ gut. (wir, Dat.)
+Das passt ___ gut. (wir, Dat.)
+

@@ -8,4 +8,5 @@ words:
   - Vater
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Possessivartikel — mein)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — mein)
+

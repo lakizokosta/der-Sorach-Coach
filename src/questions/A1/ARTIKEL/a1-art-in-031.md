@@ -5,4 +5,5 @@ correct:
   - einen
 ---
 
-[Sport] Er kauft ___ Ball. (ein Ball, mask., Akk.)
+Er kauft ___ Ball. (ein Ball, mask., Akk.)
+

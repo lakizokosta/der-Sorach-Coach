@@ -8,4 +8,5 @@ words:
   - Wasser
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Dativ — dem Hund Wasser geben)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem Hund Wasser geben)
+

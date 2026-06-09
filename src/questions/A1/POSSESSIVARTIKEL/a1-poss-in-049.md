@@ -5,4 +5,5 @@ correct:
   - ihr
 ---
 
-[Einkaufen] Sie sucht ___ Geschenk. (sie, neutr., Akk.)
+Sie sucht ___ Geschenk. (sie, neutr., Akk.)
+

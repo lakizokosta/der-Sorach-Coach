@@ -8,4 +8,5 @@ words:
   - jetzt
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Artikel — der Hund)
+Ordne die Wörter zum richtigen Satz: (Artikel — der Hund)
+

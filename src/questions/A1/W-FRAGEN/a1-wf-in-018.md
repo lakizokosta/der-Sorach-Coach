@@ -5,4 +5,5 @@ correct:
   - Wo
 ---
 
-[Arbeit] ___ arbeitest du? — In einem Büro. (Frage nach Ort)
+___ arbeitest du? — In einem Büro. (Frage nach Ort)
+

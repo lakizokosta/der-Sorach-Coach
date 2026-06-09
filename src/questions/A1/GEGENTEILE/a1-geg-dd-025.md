@@ -8,4 +8,5 @@ words:
   - krank
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Gegenteil — gesund / krank)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — gesund / krank)
+

@@ -5,4 +5,5 @@ correct:
   - das
 ---
 
-[Arbeit] Ich beende ___ Projekt. (das Projekt, Akk.)
+Ich beende ___ Projekt. (das Projekt, Akk.)
+

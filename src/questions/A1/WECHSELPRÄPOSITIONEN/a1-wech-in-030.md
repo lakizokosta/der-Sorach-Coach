@@ -5,4 +5,5 @@ correct:
   - im
 ---
 
-[Sport] Wir sind ___ Schwimmbad. (in + dem, Ort)
+Wir sind ___ Schwimmbad. (in + dem, Ort)
+

@@ -9,4 +9,5 @@ options:
 correct: mein
 ---
 
-[Tiere] ___ Heft ist süß. (ich)
+___ Heft ist süß. (ich)
+

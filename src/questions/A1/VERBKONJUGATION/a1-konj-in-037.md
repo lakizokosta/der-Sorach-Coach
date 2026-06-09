@@ -5,4 +5,5 @@ correct:
   - putzt
 ---
 
-[Zuhause] Er ___ das Zimmer. (putzen, er)
+Er ___ das Zimmer. (putzen, er)
+

@@ -9,4 +9,5 @@ words:
   - Katze
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Adjektiv — eine schöne Katze)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — eine schöne Katze)
+

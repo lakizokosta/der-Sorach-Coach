@@ -5,4 +5,5 @@ correct:
   - keinen
 ---
 
-[Essen] Ich trinke ___ Kaffee. (kein, mask., Akk.)
+Ich trinke ___ Kaffee. (kein, mask., Akk.)
+

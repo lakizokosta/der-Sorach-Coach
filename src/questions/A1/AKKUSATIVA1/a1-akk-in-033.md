@@ -5,4 +5,5 @@ correct:
   - eine
 ---
 
-[Essen] Sie isst ___ Banane. (eine Banane, Akk.)
+Sie isst ___ Banane. (eine Banane, Akk.)
+

@@ -5,4 +5,5 @@ correct:
   - auf die
 ---
 
-[Transport] Wir fahren ___ Straße. (auf + die, Bewegung)
+Wir fahren ___ Straße. (auf + die, Bewegung)
+

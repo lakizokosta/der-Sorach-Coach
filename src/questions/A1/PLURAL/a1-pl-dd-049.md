@@ -8,4 +8,5 @@ words:
   - gut
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Plural — die Projekte)
+Ordne die Wörter zum richtigen Satz: (Plural — die Projekte)
+

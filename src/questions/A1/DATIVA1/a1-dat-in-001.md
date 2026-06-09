@@ -5,4 +5,5 @@ correct:
   - dem
 ---
 
-[Familie] Ich helfe ___ Kind. (das Kind, Dat.)
+Ich helfe ___ Kind. (das Kind, Dat.)
+

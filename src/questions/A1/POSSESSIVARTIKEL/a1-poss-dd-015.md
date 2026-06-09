@@ -8,4 +8,5 @@ words:
   - Jacke
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Possessivartikel — deine)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — deine)
+

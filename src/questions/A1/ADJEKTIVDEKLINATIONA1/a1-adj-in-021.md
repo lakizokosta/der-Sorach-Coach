@@ -5,4 +5,5 @@ correct:
   - vollen
 ---
 
-[Transport] Wir steigen in den ___ Bus ein. (voll, mask., Akk.)
+Wir steigen in den ___ Bus ein. (voll, mask., Akk.)
+

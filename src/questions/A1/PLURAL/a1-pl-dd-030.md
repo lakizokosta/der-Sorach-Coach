@@ -8,4 +8,5 @@ words:
   - früh
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Plural — die Geschäfte)
+Ordne die Wörter zum richtigen Satz: (Plural — die Geschäfte)
+

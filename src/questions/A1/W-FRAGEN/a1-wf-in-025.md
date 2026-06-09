@@ -5,4 +5,5 @@ correct:
   - Was
 ---
 
-[Einkaufen] ___ kaufst du ein? — Ein Geschenk. (Frage nach Sache)
+___ kaufst du ein? — Ein Geschenk. (Frage nach Sache)
+

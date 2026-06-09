@@ -8,4 +8,5 @@ words:
   - das
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (W-Frage — Wie viel kosten?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wie viel kosten?)
+

@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Stadt] Das ist ___ richtig. (nicht)
+Das ist ___ richtig. (nicht)
+

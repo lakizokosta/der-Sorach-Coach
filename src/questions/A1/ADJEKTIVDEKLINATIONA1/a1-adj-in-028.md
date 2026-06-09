@@ -5,4 +5,5 @@ correct:
   - hellen
 ---
 
-[Zuhause] In der ___ Küche kocht meine Mutter. (hell, fem., Dat.)
+In der ___ Küche kocht meine Mutter. (hell, fem., Dat.)
+

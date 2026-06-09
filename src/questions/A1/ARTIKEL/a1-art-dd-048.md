@@ -8,4 +8,5 @@ words:
   - klein
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Artikel — der Schuh)
+Ordne die Wörter zum richtigen Satz: (Artikel — der Schuh)
+

@@ -8,4 +8,5 @@ words:
   - krank
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Negation — nicht krank)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht krank)
+

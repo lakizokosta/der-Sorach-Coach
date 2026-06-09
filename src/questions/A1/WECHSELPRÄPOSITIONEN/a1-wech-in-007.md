@@ -5,4 +5,5 @@ correct:
   - in der
 ---
 
-[Schule] Ich lerne ___ Schule. (in + der, Ort)
+Ich lerne ___ Schule. (in + der, Ort)
+

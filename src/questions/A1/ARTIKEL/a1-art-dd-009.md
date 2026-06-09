@@ -8,4 +8,5 @@ words:
   - nah
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Artikel — der Freund)
+Ordne die Wörter zum richtigen Satz: (Artikel — der Freund)
+

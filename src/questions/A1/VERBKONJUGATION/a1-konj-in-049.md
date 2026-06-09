@@ -5,4 +5,5 @@ correct:
   - backt
 ---
 
-[Essen] Sie ___ einen Kuchen. (backen, sie)
+Sie ___ einen Kuchen. (backen, sie)
+

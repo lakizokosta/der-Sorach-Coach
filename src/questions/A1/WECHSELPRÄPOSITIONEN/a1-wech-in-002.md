@@ -5,4 +5,5 @@ correct:
   - im
 ---
 
-[Stadt] Wir sind ___ Park. (in + der, Ort)
+Wir sind ___ Park. (in + der, Ort)
+

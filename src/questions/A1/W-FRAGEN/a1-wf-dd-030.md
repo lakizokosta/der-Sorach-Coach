@@ -9,4 +9,5 @@ words:
   - Bruder
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (W-Frage — Wie alt Bruder?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wie alt Bruder?)
+

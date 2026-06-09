@@ -8,4 +8,5 @@ words:
   - du
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (W-Frage — Welchen Lehrer?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Welchen Lehrer?)
+

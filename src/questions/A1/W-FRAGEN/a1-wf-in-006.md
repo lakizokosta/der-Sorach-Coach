@@ -5,4 +5,5 @@ correct:
   - Was
 ---
 
-[Hobby] ___ machst du heute? — Sport. (Frage nach Tätigkeit)
+___ machst du heute? — Sport. (Frage nach Tätigkeit)
+

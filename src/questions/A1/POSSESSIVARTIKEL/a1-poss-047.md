@@ -9,4 +9,5 @@ options:
 correct: euren
 ---
 
-[Sport] Wir werfen ___ Freund. (ihr)
+Wir werfen ___ Freund. (ihr)
+

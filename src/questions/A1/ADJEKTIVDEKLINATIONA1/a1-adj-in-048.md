@@ -5,4 +5,5 @@ correct:
   - interessanten
 ---
 
-[Hobby] Er liest einen ___ Roman. (interessant, mask., Akk.)
+Er liest einen ___ Roman. (interessant, mask., Akk.)
+

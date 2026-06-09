@@ -8,4 +8,5 @@ words:
   - Geschenk
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Possessivartikel — dein)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — dein)
+

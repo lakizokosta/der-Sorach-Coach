@@ -5,4 +5,5 @@ correct:
   - kleinen
 ---
 
-[Zuhause] Im ___ Zimmer schlafe ich gut. (klein, neutr., Dat.)
+Im ___ Zimmer schlafe ich gut. (klein, neutr., Dat.)
+

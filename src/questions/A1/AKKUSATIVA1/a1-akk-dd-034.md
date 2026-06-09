@@ -8,4 +8,5 @@ words:
   - Tee
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Tee trinken)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den Tee trinken)
+

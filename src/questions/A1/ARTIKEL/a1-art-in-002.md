@@ -5,4 +5,5 @@ correct:
   - Die
 ---
 
-[Zuhause] ___ Lampe leuchtet hell. (die Lampe, Nom.)
+___ Lampe leuchtet hell. (die Lampe, Nom.)
+

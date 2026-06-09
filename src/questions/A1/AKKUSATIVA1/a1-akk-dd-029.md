@@ -8,4 +8,5 @@ words:
   - Banane
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Banane essen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Banane essen)
+

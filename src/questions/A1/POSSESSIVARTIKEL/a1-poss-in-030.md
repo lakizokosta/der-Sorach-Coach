@@ -5,4 +5,5 @@ correct:
   - deine
 ---
 
-[Wetter] Nimm ___ Jacke mit! (du, fem., Akk.)
+Nimm ___ Jacke mit! (du, fem., Akk.)
+

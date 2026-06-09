@@ -5,4 +5,5 @@ correct:
   - in den
 ---
 
-[Wetter] Bei Sturm gehe ich ___ Keller. (in + den, Bewegung)
+Bei Sturm gehe ich ___ Keller. (in + den, Bewegung)
+

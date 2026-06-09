@@ -8,4 +8,5 @@ words:
   - ihn
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (W-Frage — Woher kennen?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Woher kennen?)
+

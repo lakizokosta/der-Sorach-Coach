@@ -5,4 +5,5 @@ correct:
   - den
 ---
 
-[Schule] Du liest ___ Text. (der Text, Akk.)
+Du liest ___ Text. (der Text, Akk.)
+

@@ -8,4 +8,5 @@ words:
   - Schüler
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Dativ — dem Schüler geben)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem Schüler geben)
+

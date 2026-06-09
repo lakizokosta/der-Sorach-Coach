@@ -8,4 +8,5 @@ words:
   - Filme
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Plural — die Filme)
+Ordne die Wörter zum richtigen Satz: (Plural — die Filme)
+

@@ -29,7 +29,8 @@ const TOPICS = {
 
 function md({ id, prompt, options, correct }) {
   const opts = options.map((o) => `  - ${o}`).join('\n');
-  return `---\nid: ${id}\ntype: select-one\noptions:\n${opts}\ncorrect: ${correct}\n---\n\n${prompt}\n`;
+  const text = String(prompt).replace(/^\[[^\]]+]\s+/, '');
+  return `---\nid: ${id}\ntype: select-one\noptions:\n${opts}\ncorrect: ${correct}\n---\n\n${text}\n`;
 }
 
 function writeTopic(folder, prefix, questions, from = 6, to = 50) {

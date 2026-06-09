@@ -5,4 +5,5 @@ correct:
   - langweilig
 ---
 
-[Hobby] Das Buch ist interessant, der Vortrag ist ___. (Gegenteil von interessant)
+Das Buch ist interessant, der Vortrag ist ___. (Gegenteil von interessant)
+

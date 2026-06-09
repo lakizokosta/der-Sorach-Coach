@@ -7,4 +7,5 @@ words:
   - du
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (W-Frage — Wo arbeiten?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wo arbeiten?)
+

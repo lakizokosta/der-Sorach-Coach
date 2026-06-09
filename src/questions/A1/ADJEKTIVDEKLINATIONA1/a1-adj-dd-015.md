@@ -9,4 +9,5 @@ words:
   - viel
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Adjektiv — die junge Schwester)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — die junge Schwester)
+

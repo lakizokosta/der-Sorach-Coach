@@ -8,4 +8,5 @@ words:
   - teuer
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Plural — die Schuhe)
+Ordne die Wörter zum richtigen Satz: (Plural — die Schuhe)
+

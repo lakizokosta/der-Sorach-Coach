@@ -8,4 +8,5 @@ words:
   - gern
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Plural — die Ärzte)
+Ordne die Wörter zum richtigen Satz: (Plural — die Ärzte)
+

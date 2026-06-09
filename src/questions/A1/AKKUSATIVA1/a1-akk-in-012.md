@@ -5,4 +5,5 @@ correct:
   - ein
 ---
 
-[Hobby] Ich mache ___ Foto. (ein Foto, Akk.)
+Ich mache ___ Foto. (ein Foto, Akk.)
+

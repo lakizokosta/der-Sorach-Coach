@@ -8,4 +8,5 @@ words:
   - Rock
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Rock kaufen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Rock kaufen)
+

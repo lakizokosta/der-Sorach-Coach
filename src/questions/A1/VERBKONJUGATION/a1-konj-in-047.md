@@ -5,4 +5,5 @@ correct:
   - kaufe
 ---
 
-[Einkaufen] Ich ___ ein Geschenk. (kaufen, ich)
+Ich ___ ein Geschenk. (kaufen, ich)
+

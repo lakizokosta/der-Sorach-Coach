@@ -5,4 +5,5 @@ correct:
   - hört
 ---
 
-[Musik] Tom ___ gern Popmusik. (hören, er)
+Tom ___ gern Popmusik. (hören, er)
+

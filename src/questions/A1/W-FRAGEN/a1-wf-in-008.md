@@ -5,4 +5,5 @@ correct:
   - Warum
 ---
 
-[Schule] ___ lernst du Deutsch? — Für die Arbeit. (Frage nach Grund)
+___ lernst du Deutsch? — Für die Arbeit. (Frage nach Grund)
+

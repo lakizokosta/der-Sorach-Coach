@@ -5,4 +5,5 @@ correct:
   - auf der
 ---
 
-[Reisen] Wir sind ___ Insel. (auf + der, Ort)
+Wir sind ___ Insel. (auf + der, Ort)
+

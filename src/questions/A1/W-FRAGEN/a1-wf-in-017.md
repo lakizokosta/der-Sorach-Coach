@@ -5,4 +5,5 @@ correct:
   - Wer
 ---
 
-[Familie] ___ hat heute Geburtstag? — Meine Schwester. (Frage nach Person)
+___ hat heute Geburtstag? — Meine Schwester. (Frage nach Person)
+

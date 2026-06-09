@@ -9,4 +9,5 @@ options:
 correct: unseren
 ---
 
-[Essen] Ich esse ___ Freund. (wir)
+Ich esse ___ Freund. (wir)
+

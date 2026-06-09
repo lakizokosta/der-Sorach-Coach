@@ -9,4 +9,5 @@ words:
   - Lesen
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein interessantes Hobby)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein interessantes Hobby)
+

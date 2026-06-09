@@ -5,4 +5,5 @@ correct:
   - ins
 ---
 
-[Essen] Stell die Flasche ___ Regal. (in + das, Bewegung)
+Stell die Flasche ___ Regal. (in + das, Bewegung)
+

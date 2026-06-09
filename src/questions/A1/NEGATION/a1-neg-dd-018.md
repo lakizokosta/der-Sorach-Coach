@@ -8,4 +8,5 @@ words:
   - Geschwister
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Negation — keine Geschwister)
+Ordne die Wörter zum richtigen Satz: (Negation — keine Geschwister)
+

@@ -9,4 +9,5 @@ words:
   - Schule
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in die Schule (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in die Schule (Bewegung))
+

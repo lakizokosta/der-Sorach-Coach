@@ -5,4 +5,5 @@ correct:
   - keinen
 ---
 
-[Wetter] Es gibt ___ Wind heute. (kein Wind, mask.)
+Es gibt ___ Wind heute. (kein Wind, mask.)
+

@@ -5,4 +5,5 @@ correct:
   - stehe
 ---
 
-[Arbeit] Ich ___ um 7 Uhr auf. (aufstehen, ich)
+Ich ___ um 7 Uhr auf. (aufstehen, ich)
+

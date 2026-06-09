@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Transport] Der Bus fährt ___ hier. (nicht)
+Der Bus fährt ___ hier. (nicht)
+

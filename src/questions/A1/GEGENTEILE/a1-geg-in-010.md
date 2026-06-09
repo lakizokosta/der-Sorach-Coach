@@ -5,4 +5,5 @@ correct:
   - falsch
 ---
 
-[Schule] Die Antwort ist richtig, diese Lösung ist ___. (Gegenteil von richtig)
+Die Antwort ist richtig, diese Lösung ist ___. (Gegenteil von richtig)
+

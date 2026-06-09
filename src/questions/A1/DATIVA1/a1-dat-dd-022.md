@@ -8,4 +8,5 @@ words:
   - Messer
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Dativ — mit dem Messer schneiden)
+Ordne die Wörter zum richtigen Satz: (Dativ — mit dem Messer schneiden)
+

@@ -8,4 +8,5 @@ words:
   - Freund
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Possessivartikel — deinen)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — deinen)
+

@@ -9,4 +9,5 @@ options:
 correct: an der
 ---
 
-[Zuhause] Ich hängt ___ Wand. (Ort → Dativ)
+Ich hängt ___ Wand. (Ort → Dativ)
+

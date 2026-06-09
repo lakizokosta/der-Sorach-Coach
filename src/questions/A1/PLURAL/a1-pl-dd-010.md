@@ -8,4 +8,5 @@ words:
   - bekannt
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Plural — die Lieder)
+Ordne die Wörter zum richtigen Satz: (Plural — die Lieder)
+

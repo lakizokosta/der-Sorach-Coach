@@ -9,4 +9,5 @@ options:
 correct: sein
 ---
 
-[Gesundheit] Der Arzt gibt mir ___ Medikament. (er)
+Der Arzt gibt mir ___ Medikament. (er)
+

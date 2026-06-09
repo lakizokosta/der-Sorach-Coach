@@ -9,4 +9,5 @@ options:
 correct: euer
 ---
 
-[Schule] Wo ist ___ Heft? (ihr)
+Wo ist ___ Heft? (ihr)
+

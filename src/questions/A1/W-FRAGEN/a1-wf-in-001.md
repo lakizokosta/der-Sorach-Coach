@@ -5,4 +5,5 @@ correct:
   - Wo
 ---
 
-[Stadt] ___ wohnst du? — In München. (Frage nach Ort)
+___ wohnst du? — In München. (Frage nach Ort)
+

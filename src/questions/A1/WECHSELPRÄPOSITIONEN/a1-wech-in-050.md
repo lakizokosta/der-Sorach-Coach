@@ -5,4 +5,5 @@ correct:
   - in der
 ---
 
-[Reisen] Wir sind ___ Schweiz. (in + der, Ort)
+Wir sind ___ Schweiz. (in + der, Ort)
+

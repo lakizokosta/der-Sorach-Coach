@@ -5,4 +5,5 @@ correct:
   - warmen
 ---
 
-[Kleidung] Sie trägt einen ___ Mantel. (warm, mask., Akk.)
+Sie trägt einen ___ Mantel. (warm, mask., Akk.)
+

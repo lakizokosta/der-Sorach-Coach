@@ -5,4 +5,5 @@ correct:
   - Welches
 ---
 
-[Tiere] ___ Tier ist das? — Ein Hund. (Frage nach Tierart)
+___ Tier ist das? — Ein Hund. (Frage nach Tierart)
+

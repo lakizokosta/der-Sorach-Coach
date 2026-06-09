@@ -9,4 +9,5 @@ options:
 correct: an die
 ---
 
-[Zuhause] Ich hänge ___ Wand. (Bewegung → Akkusativ)
+Ich hänge ___ Wand. (Bewegung → Akkusativ)
+

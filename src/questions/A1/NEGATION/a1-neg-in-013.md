@@ -5,4 +5,5 @@ correct:
   - kein
 ---
 
-[Einkaufen] Wir haben ___ Geld. (kein, neutr.)
+Wir haben ___ Geld. (kein, neutr.)
+

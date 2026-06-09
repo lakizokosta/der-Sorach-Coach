@@ -5,4 +5,5 @@ correct:
   - Filme
 ---
 
-[Hobby] Am Abend schauen wir gern ___. (Plural: Film)
+Am Abend schauen wir gern ___. (Plural: Film)
+

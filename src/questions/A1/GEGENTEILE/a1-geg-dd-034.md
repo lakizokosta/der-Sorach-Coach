@@ -8,4 +8,5 @@ words:
   - laut
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Gegenteil — ruhig / laut)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — ruhig / laut)
+

@@ -8,4 +8,5 @@ words:
   - Hut
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Negation — keinen Hut)
+Ordne die Wörter zum richtigen Satz: (Negation — keinen Hut)
+

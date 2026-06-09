@@ -5,4 +5,5 @@ correct:
   - Blumen
 ---
 
-[Stadt] Im Park wachsen bunte ___. (Plural: Blume)
+Im Park wachsen bunte ___. (Plural: Blume)
+

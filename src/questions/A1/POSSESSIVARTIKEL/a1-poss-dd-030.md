@@ -8,4 +8,5 @@ words:
   - Gitarre
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+

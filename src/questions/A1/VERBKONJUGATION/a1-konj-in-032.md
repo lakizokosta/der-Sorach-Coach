@@ -5,4 +5,5 @@ correct:
   - feiern
 ---
 
-[Familie] Wir ___ heute einen Geburtstag. (feiern, wir)
+Wir ___ heute einen Geburtstag. (feiern, wir)
+

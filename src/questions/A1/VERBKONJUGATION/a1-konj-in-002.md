@@ -5,4 +5,5 @@ correct:
   - kaufst
 ---
 
-[Einkaufen] Du ___ heute Brot und Milch. (kaufen, du)
+Du ___ heute Brot und Milch. (kaufen, du)
+

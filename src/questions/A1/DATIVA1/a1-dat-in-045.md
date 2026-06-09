@@ -5,4 +5,5 @@ correct:
   - dem Taxi
 ---
 
-[Transport] Mit ___ Taxi komme ich schnell an. (das Taxi, Dat.)
+Mit ___ Taxi komme ich schnell an. (das Taxi, Dat.)
+

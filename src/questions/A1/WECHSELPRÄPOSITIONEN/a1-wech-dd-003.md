@@ -10,4 +10,5 @@ words:
   - Tisch
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf den Tisch (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf den Tisch (Bewegung))
+

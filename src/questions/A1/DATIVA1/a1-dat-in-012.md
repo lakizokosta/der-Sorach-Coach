@@ -5,4 +5,5 @@ correct:
   - ihm
 ---
 
-[Gesundheit] Es geht ___ schlecht. (er, Dat.)
+Es geht ___ schlecht. (er, Dat.)
+

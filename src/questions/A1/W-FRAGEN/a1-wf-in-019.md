@@ -5,4 +5,5 @@ correct:
   - Wo
 ---
 
-[Sport] ___ spielst du Fußball? — Im Park. (Frage nach Ort)
+___ spielst du Fußball? — Im Park. (Frage nach Ort)
+

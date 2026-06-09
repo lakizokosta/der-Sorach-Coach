@@ -8,4 +8,5 @@ words:
   - das
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (W-Frage — Welches Tier?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Welches Tier?)
+

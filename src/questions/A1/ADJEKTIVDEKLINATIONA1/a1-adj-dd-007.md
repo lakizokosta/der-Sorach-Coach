@@ -9,4 +9,5 @@ words:
   - Freund
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein netter Freund)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein netter Freund)
+

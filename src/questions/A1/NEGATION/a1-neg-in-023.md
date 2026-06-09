@@ -5,4 +5,5 @@ correct:
   - keine
 ---
 
-[Gesundheit] Ich nehme ___ Medizin. (kein, fem.)
+Ich nehme ___ Medizin. (kein, fem.)
+

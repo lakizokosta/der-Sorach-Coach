@@ -8,4 +8,5 @@ words:
   - Hund
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Verb — füttern, sie)
+Ordne die Wörter zum richtigen Satz: (Verb — füttern, sie)
+

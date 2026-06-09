@@ -9,4 +9,5 @@ options:
 correct: hörst
 ---
 
-[Essen] Du ___ Musik beim Sport. (hören)
+Du ___ Musik beim Sport. (hören)
+

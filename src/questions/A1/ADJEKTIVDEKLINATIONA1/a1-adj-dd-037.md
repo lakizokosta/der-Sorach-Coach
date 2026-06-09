@@ -9,4 +9,5 @@ words:
   - gern
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein süßes Kaninchen)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein süßes Kaninchen)
+

@@ -5,4 +5,5 @@ correct:
   - schreibst
 ---
 
-[Schule] Du ___ einen Brief. (schreiben, du)
+Du ___ einen Brief. (schreiben, du)
+

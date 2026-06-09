@@ -5,4 +5,5 @@ correct:
   - Wie lange
 ---
 
-[Arbeit] ___ lange arbeitest du? — Acht Stunden. (Frage nach Dauer)
+___ lange arbeitest du? — Acht Stunden. (Frage nach Dauer)
+

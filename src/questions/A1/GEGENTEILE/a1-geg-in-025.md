@@ -5,4 +5,5 @@ correct:
   - krank
 ---
 
-[Gesundheit] Ich bin gesund, mein Freund ist ___. (Gegenteil von gesund)
+Ich bin gesund, mein Freund ist ___. (Gegenteil von gesund)
+

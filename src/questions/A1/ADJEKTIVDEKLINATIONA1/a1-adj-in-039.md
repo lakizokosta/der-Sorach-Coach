@@ -5,4 +5,5 @@ correct:
   - fünften
 ---
 
-[Schule] In der ___ Klasse sind 25 Schüler. (fünft, fem., Dat.)
+In der ___ Klasse sind 25 Schüler. (fünft, fem., Dat.)
+

@@ -5,4 +5,5 @@ correct:
   - Unsere
 ---
 
-[Zuhause] ___ Küche ist klein. (wir, fem., Nom.)
+___ Küche ist klein. (wir, fem., Nom.)
+

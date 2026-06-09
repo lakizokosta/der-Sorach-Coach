@@ -5,4 +5,5 @@ correct:
   - meine
 ---
 
-[Schule] Ich packe ___ Tasche. (ich, fem., Akk.)
+Ich packe ___ Tasche. (ich, fem., Akk.)
+

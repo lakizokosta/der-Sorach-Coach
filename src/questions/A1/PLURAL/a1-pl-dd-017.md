@@ -8,4 +8,5 @@ words:
   - da
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Plural — die Jacken)
+Ordne die Wörter zum richtigen Satz: (Plural — die Jacken)
+

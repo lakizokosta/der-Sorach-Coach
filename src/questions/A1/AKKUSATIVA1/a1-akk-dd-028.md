@@ -8,4 +8,5 @@ words:
   - Oma
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Akkusativ — meine Oma besuchen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — meine Oma besuchen)
+

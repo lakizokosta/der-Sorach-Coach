@@ -5,4 +5,5 @@ correct:
   - meiner Mutter
 ---
 
-[Reisen] Ich kaufe ___ Mutter eine Karte. (meine Mutter, Dat.)
+Ich kaufe ___ Mutter eine Karte. (meine Mutter, Dat.)
+

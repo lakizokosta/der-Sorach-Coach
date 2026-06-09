@@ -8,4 +8,5 @@ words:
   - laut
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Plural — die Hunde)
+Ordne die Wörter zum richtigen Satz: (Plural — die Hunde)
+

@@ -8,4 +8,5 @@ words:
   - toll
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Artikel — das Konzert)
+Ordne die Wörter zum richtigen Satz: (Artikel — das Konzert)
+

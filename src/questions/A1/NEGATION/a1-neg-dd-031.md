@@ -9,4 +9,5 @@ words:
   - schwer
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Negation — nicht schwer)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht schwer)
+

@@ -5,4 +5,5 @@ correct:
   - der Freundin
 ---
 
-[Musik] Sie singt mit ___ Freundin. (die Freundin, Dat.)
+Sie singt mit ___ Freundin. (die Freundin, Dat.)
+

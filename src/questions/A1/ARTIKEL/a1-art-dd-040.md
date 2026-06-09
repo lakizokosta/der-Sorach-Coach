@@ -8,4 +8,5 @@ words:
   - gern
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Artikel — die Mutter)
+Ordne die Wörter zum richtigen Satz: (Artikel — die Mutter)
+

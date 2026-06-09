@@ -5,4 +5,5 @@ correct:
   - reisen
 ---
 
-[Reisen] Im Urlaub ___ wir gern. (reisen, wir)
+Im Urlaub ___ wir gern. (reisen, wir)
+

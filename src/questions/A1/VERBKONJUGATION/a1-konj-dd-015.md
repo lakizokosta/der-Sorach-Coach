@@ -8,4 +8,5 @@ words:
   - gern
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Verb — helfen, ich)
+Ordne die Wörter zum richtigen Satz: (Verb — helfen, ich)
+

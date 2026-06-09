@@ -5,4 +5,5 @@ correct:
   - teure
 ---
 
-[Musik] Sie spielt eine ___ Gitarre. (teuer, fem., Akk.)
+Sie spielt eine ___ Gitarre. (teuer, fem., Akk.)
+

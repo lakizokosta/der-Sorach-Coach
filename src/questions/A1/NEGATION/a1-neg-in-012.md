@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Freunde] Er kommt ___ heute. (nicht)
+Er kommt ___ heute. (nicht)
+

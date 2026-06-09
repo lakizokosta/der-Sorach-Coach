@@ -8,4 +8,5 @@ words:
   - Patient
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Dativ — dem Patient helfen)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem Patient helfen)
+

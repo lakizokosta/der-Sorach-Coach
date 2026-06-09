@@ -5,4 +5,5 @@ correct:
   - die
 ---
 
-[Essen] Wir teilen ___ Pizza. (die Pizza, Akk.)
+Wir teilen ___ Pizza. (die Pizza, Akk.)
+

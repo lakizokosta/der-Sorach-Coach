@@ -8,4 +8,5 @@ words:
   - gut
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Plural — die Tabletten)
+Ordne die Wörter zum richtigen Satz: (Plural — die Tabletten)
+

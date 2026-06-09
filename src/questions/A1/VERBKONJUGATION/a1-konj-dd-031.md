@@ -8,4 +8,5 @@ words:
   - Wasser
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Verb — trinken, du)
+Ordne die Wörter zum richtigen Satz: (Verb — trinken, du)
+

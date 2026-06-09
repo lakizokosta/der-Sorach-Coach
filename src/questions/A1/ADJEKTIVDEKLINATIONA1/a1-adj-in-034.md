@@ -5,4 +5,5 @@ correct:
   - alten
 ---
 
-[Familie] Sie wohnt in einem ___ Haus. (alt, neutr., Dat.)
+Sie wohnt in einem ___ Haus. (alt, neutr., Dat.)
+

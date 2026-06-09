@@ -9,4 +9,5 @@ words:
   - groß
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Adjektiv — die neue Schule)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — die neue Schule)
+

@@ -5,4 +5,5 @@ correct:
   - sein
 ---
 
-[Arbeit] Er verlässt ___ Büro. (er, neutr., Akk.)
+Er verlässt ___ Büro. (er, neutr., Akk.)
+

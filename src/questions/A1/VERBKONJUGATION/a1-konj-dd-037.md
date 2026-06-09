@@ -8,4 +8,5 @@ words:
   - Kuchen
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Verb — backen, sie)
+Ordne die Wörter zum richtigen Satz: (Verb — backen, sie)
+

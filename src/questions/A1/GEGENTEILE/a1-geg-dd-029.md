@@ -8,4 +8,5 @@ words:
   - tief
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Gegenteil — hoch / tief)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — hoch / tief)
+

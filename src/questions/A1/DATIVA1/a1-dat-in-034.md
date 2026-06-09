@@ -5,4 +5,5 @@ correct:
   - dir
 ---
 
-[Schule] Ich leihe ___ Buch. (du, Dat.)
+Ich leihe ___ Buch. (du, Dat.)
+

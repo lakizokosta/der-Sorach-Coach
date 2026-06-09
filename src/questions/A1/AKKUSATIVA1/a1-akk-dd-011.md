@@ -8,4 +8,5 @@ words:
   - Foto
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Foto machen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Foto machen)
+

@@ -5,4 +5,5 @@ correct:
   - Welchen
 ---
 
-[Essen] ___ Geschmack magst du? — Süß. (Frage nach Eigenschaft)
+___ Geschmack magst du? — Süß. (Frage nach Eigenschaft)
+

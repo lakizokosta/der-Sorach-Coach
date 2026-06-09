@@ -10,4 +10,5 @@ words:
   - Wand
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — an der Wand (Ort))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — an der Wand (Ort))
+

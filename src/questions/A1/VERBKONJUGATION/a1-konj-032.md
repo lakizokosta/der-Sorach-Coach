@@ -9,4 +9,5 @@ options:
 correct: hört
 ---
 
-[Familie] Anna ___ Musik beim Sport. (hören)
+Anna ___ Musik beim Sport. (hören)
+

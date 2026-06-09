@@ -8,4 +8,5 @@ words:
   - Konzert
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Akkusativ — das Konzert hören)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — das Konzert hören)
+

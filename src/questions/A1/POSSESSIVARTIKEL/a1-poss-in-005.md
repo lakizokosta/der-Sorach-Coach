@@ -5,4 +5,5 @@ correct:
   - mein
 ---
 
-[Schule] Wo ist ___ Heft? (ich, neutr., Nom.)
+Wo ist ___ Heft? (ich, neutr., Nom.)
+

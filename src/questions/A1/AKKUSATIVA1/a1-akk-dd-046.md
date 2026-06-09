@@ -8,4 +8,5 @@ words:
   - Familie
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Akkusativ — seine Familie lieben)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — seine Familie lieben)
+

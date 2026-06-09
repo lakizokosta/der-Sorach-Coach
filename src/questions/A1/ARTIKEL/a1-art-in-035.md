@@ -5,4 +5,5 @@ correct:
   - keinen
 ---
 
-[Arbeit] Er trinkt ___ Kaffee. (kein Kaffee, mask.)
+Er trinkt ___ Kaffee. (kein Kaffee, mask.)
+

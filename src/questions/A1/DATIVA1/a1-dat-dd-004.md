@@ -8,4 +8,5 @@ words:
   - Bruder
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Dativ — dem Bruder gehören)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem Bruder gehören)
+

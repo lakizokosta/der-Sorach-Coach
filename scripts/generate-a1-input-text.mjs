@@ -33,7 +33,8 @@ function writeTopic(folder, prefix, items) {
     const num = String(i + 1).padStart(3, '0');
     const path = join(ROOT, folder, `${prefix}-${num}.md`);
     if (existsSync(path)) return;
-    writeFileSync(path, md(`${prefix}-${num}`, item[0], item[1]), 'utf8');
+    const prompt = item[0].replace(/^\[[^\]]+]\s+/, '');
+    writeFileSync(path, md(`${prefix}-${num}`, prompt, item[1]), 'utf8');
     n += 1;
   });
   return n;

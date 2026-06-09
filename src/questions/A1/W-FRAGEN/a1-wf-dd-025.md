@@ -8,4 +8,5 @@ words:
   - ein
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (W-Frage — Was kaufen?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Was kaufen?)
+

@@ -8,4 +8,5 @@ words:
   - Konzert
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Konzert (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Konzert (Bewegung))
+

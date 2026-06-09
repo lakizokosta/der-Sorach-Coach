@@ -8,4 +8,5 @@ words:
   - Freund
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Dativ — meinem Freund schreiben)
+Ordne die Wörter zum richtigen Satz: (Dativ — meinem Freund schreiben)
+

@@ -5,4 +5,5 @@ correct:
   - ins
 ---
 
-[Arbeit] Er geht ___ Büro. (in + das, Bewegung)
+Er geht ___ Büro. (in + das, Bewegung)
+

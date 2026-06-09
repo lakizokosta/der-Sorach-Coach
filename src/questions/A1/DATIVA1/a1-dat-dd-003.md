@@ -8,4 +8,5 @@ words:
   - Lehrer
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Dativ — dem Lehrer danken)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem Lehrer danken)
+

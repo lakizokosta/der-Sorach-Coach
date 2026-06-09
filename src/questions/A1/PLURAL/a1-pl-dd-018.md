@@ -8,4 +8,5 @@ words:
   - zusammen
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Plural — die Frauen)
+Ordne die Wörter zum richtigen Satz: (Plural — die Frauen)
+

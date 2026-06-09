@@ -9,4 +9,5 @@ options:
 correct: kocht
 ---
 
-[Stadt] Ihr ___ Pasta zum Abendessen. (kochen)
+Ihr ___ Pasta zum Abendessen. (kochen)
+

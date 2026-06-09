@@ -5,4 +5,5 @@ correct:
   - Die
 ---
 
-[Stadt] ___ Straße ist sehr lang. (die Straße, Nom.)
+___ Straße ist sehr lang. (die Straße, Nom.)
+

@@ -5,4 +5,5 @@ correct:
   - bezahlt
 ---
 
-[Einkaufen] Er ___ an der Kasse. (bezahlen, er)
+Er ___ an der Kasse. (bezahlen, er)
+

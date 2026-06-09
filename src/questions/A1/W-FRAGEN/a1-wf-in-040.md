@@ -5,4 +5,5 @@ correct:
   - Mit wie vielen
 ---
 
-[Freunde] ___ Freunde kommst du mit? — Mit zwei Freunden. (Frage nach Anzahl)
+___ Freunde kommst du mit? — Mit zwei Freunden. (Frage nach Anzahl)
+

@@ -5,4 +5,5 @@ correct:
   - kalte
 ---
 
-[Essen] Wir trinken eine ___ Limonade. (kalt, fem., Akk.)
+Wir trinken eine ___ Limonade. (kalt, fem., Akk.)
+

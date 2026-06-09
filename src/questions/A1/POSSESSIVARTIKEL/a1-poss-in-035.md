@@ -5,4 +5,5 @@ correct:
   - unser
 ---
 
-[Reisen] Wir buchen ___ Hotel. (wir, neutr., Akk.)
+Wir buchen ___ Hotel. (wir, neutr., Akk.)
+

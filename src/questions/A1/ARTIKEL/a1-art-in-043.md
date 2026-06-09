@@ -5,4 +5,5 @@ correct:
   - ein
 ---
 
-[Freunde] Ich kenne ___ Mädchen. (ein Mädchen, neutr., Akk.)
+Ich kenne ___ Mädchen. (ein Mädchen, neutr., Akk.)
+

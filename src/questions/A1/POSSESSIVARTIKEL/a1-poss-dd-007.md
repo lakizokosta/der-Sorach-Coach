@@ -8,4 +8,5 @@ words:
   - schön
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Possessivartikel — unser)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — unser)
+

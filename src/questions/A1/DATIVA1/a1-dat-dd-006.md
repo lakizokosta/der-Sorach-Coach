@@ -8,4 +8,5 @@ words:
   - Kindern
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Dativ — den Kindern erzählen)
+Ordne die Wörter zum richtigen Satz: (Dativ — den Kindern erzählen)
+

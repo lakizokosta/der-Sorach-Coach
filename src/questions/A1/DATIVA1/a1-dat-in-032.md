@@ -5,4 +5,5 @@ correct:
   - der Gitarre
 ---
 
-[Musik] Mit ___ Gitarre spielt er ein Lied. (die Gitarre, Dat.)
+Mit ___ Gitarre spielt er ein Lied. (die Gitarre, Dat.)
+

@@ -5,4 +5,5 @@ correct:
   - warm
 ---
 
-[Wetter] Im Winter ist es kalt, im Sommer ist es ___. (Gegenteil von kalt)
+Im Winter ist es kalt, im Sommer ist es ___. (Gegenteil von kalt)
+

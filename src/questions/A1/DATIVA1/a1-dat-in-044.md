@@ -5,4 +5,5 @@ correct:
   - dem Bad
 ---
 
-[Zuhause] In ___ Bad dusche ich morgens. (das Bad, Dat.)
+In ___ Bad dusche ich morgens. (das Bad, Dat.)
+

@@ -5,4 +5,5 @@ correct:
   - freundliche
 ---
 
-[Freunde] Ich kenne eine ___ Familie. (freundlich, fem., Akk.)
+Ich kenne eine ___ Familie. (freundlich, fem., Akk.)
+

@@ -9,4 +9,5 @@ options:
 correct: seinem
 ---
 
-[Hobby] Ich spiele mit ___ Computer. (er)
+Ich spiele mit ___ Computer. (er)
+

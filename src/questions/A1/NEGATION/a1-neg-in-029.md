@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Musik] Er singt ___ laut. (nicht)
+Er singt ___ laut. (nicht)
+

@@ -9,4 +9,5 @@ words:
   - dunkel
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Gegenteil — hell / dunkel)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — hell / dunkel)
+

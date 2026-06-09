@@ -5,4 +5,5 @@ correct:
   - auf dem
 ---
 
-[Familie] Wir sind ___ Land. (auf + dem, Ort)
+Wir sind ___ Land. (auf + dem, Ort)
+

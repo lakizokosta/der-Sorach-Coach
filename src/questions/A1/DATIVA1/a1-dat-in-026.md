@@ -5,4 +5,5 @@ correct:
   - dem Fenster
 ---
 
-[Stadt] Aus ___ Fenster sehe ich den Park. (das Fenster, Dat.)
+Aus ___ Fenster sehe ich den Park. (das Fenster, Dat.)
+

@@ -8,4 +8,5 @@ words:
   - kurz
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Gegenteil — lang / kurz)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — lang / kurz)
+

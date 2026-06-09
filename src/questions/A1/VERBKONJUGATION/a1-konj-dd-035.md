@@ -8,4 +8,5 @@ words:
   - Lehrer
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Verb — fragen, ich)
+Ordne die Wörter zum richtigen Satz: (Verb — fragen, ich)
+

@@ -9,4 +9,5 @@ options:
 correct: lerne
 ---
 
-[Sport] Ich ___ Deutsch für die Schule. (lernen)
+Ich ___ Deutsch für die Schule. (lernen)
+

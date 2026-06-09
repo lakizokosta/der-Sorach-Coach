@@ -9,4 +9,5 @@ options:
 correct: euer
 ---
 
-[Tiere] ___ Heft ist süß. (ihr)
+___ Heft ist süß. (ihr)
+

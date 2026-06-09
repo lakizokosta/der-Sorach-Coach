@@ -8,4 +8,5 @@ words:
   - du
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (W-Frage — Wie oft lesen?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wie oft lesen?)
+

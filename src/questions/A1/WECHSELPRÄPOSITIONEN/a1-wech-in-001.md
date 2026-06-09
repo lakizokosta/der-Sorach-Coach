@@ -5,4 +5,5 @@ correct:
   - ins
 ---
 
-[Hobby] Heute gehe ich ___ Kino. (in + das, Bewegung)
+Heute gehe ich ___ Kino. (in + das, Bewegung)
+

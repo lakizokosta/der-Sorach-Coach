@@ -5,4 +5,5 @@ correct:
   - junge
 ---
 
-[Familie] Meine ___ Schwester wohnt in Berlin. (jung, fem., Nom.)
+Meine ___ Schwester wohnt in Berlin. (jung, fem., Nom.)
+

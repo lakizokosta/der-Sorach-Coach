@@ -5,4 +5,5 @@ correct:
   - Wie oft
 ---
 
-[Hobby] ___ oft liest du? — Jeden Tag. (Frage nach Häufigkeit)
+___ oft liest du? — Jeden Tag. (Frage nach Häufigkeit)
+

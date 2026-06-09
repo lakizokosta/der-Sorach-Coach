@@ -5,4 +5,5 @@ correct:
   - meinen
 ---
 
-[Freunde] Ich rufe ___ Bruder an. (ich, mask., Akk.)
+Ich rufe ___ Bruder an. (ich, mask., Akk.)
+

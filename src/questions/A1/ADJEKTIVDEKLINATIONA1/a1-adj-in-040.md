@@ -5,4 +5,5 @@ correct:
   - offizielle
 ---
 
-[Freunde] Das ist eine ___ Einladung. (offiziell, fem., Nom.)
+Das ist eine ___ Einladung. (offiziell, fem., Nom.)
+

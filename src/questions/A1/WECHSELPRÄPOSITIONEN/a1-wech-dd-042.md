@@ -10,4 +10,5 @@ words:
   - Stuhl
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf den Stuhl (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf den Stuhl (Bewegung))
+

@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Einkaufen] Das ist ___ billig. (nicht)
+Das ist ___ billig. (nicht)
+

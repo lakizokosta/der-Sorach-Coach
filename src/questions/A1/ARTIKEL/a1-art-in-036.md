@@ -5,4 +5,5 @@ correct:
   - Das
 ---
 
-[Zuhause] ___ Fenster ist offen. (das Fenster, Nom.)
+___ Fenster ist offen. (das Fenster, Nom.)
+

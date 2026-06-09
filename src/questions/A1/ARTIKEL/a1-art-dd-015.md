@@ -8,4 +8,5 @@ words:
   - früh
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Artikel — der Markt)
+Ordne die Wörter zum richtigen Satz: (Artikel — der Markt)
+

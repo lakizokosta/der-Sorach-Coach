@@ -5,4 +5,5 @@ correct:
   - Museen
 ---
 
-[Stadt] Am Samstag besuchen wir zwei ___. (Plural: Museum)
+Am Samstag besuchen wir zwei ___. (Plural: Museum)
+

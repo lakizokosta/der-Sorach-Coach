@@ -5,4 +5,5 @@ correct:
   - den
 ---
 
-[Transport] Ich nehme ___ Bus. (der Bus, Akk.)
+Ich nehme ___ Bus. (der Bus, Akk.)
+

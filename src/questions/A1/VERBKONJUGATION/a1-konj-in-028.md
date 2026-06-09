@@ -5,4 +5,5 @@ correct:
   - regnet
 ---
 
-[Wetter] Heute ___ es den ganzen Tag. (regnen, es)
+Heute ___ es den ganzen Tag. (regnen, es)
+

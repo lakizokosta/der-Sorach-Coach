@@ -5,4 +5,5 @@ correct:
   - ihr
 ---
 
-[Freunde] Das ist ___ Handy. (sie Pl., neutr., Nom.)
+Das ist ___ Handy. (sie Pl., neutr., Nom.)
+

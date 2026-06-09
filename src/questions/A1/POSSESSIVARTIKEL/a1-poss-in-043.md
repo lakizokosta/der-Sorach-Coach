@@ -5,4 +5,5 @@ correct:
   - unseren
 ---
 
-[Stadt] Wir finden ___ Weg nicht. (wir, mask., Akk.)
+Wir finden ___ Weg nicht. (wir, mask., Akk.)
+

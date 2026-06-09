@@ -5,4 +5,5 @@ correct:
   - meine
 ---
 
-[Freunde] Ich besuche ___ Freundin. (ich, fem., Akk.)
+Ich besuche ___ Freundin. (ich, fem., Akk.)
+

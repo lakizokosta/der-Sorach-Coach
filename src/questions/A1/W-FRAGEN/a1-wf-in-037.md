@@ -5,4 +5,5 @@ correct:
   - Welche
 ---
 
-[Transport] ___ Linie nimmst du? — Die Linie 5. (Frage nach Liniennummer)
+___ Linie nimmst du? — Die Linie 5. (Frage nach Liniennummer)
+

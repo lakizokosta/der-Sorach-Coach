@@ -5,4 +5,5 @@ correct:
   - kein
 ---
 
-[Essen] Sie isst ___ Obst. (kein, neutr.)
+Sie isst ___ Obst. (kein, neutr.)
+

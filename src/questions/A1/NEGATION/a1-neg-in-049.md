@@ -5,4 +5,5 @@ correct:
   - keinen
 ---
 
-[Tiere] Wir haben ___ Hund. (kein, mask.)
+Wir haben ___ Hund. (kein, mask.)
+

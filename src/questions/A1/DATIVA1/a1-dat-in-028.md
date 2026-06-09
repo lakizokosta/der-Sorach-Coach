@@ -5,4 +5,5 @@ correct:
   - der Arbeit
 ---
 
-[Transport] Nach ___ Arbeit fahre ich nach Hause. (die Arbeit, Dat.)
+Nach ___ Arbeit fahre ich nach Hause. (die Arbeit, Dat.)
+

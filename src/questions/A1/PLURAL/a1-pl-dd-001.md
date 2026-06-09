@@ -8,4 +8,5 @@ words:
   - draußen
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Plural — die Kinder)
+Ordne die Wörter zum richtigen Satz: (Plural — die Kinder)
+

@@ -8,4 +8,5 @@ words:
   - an
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Verb — anziehen, du)
+Ordne die Wörter zum richtigen Satz: (Verb — anziehen, du)
+

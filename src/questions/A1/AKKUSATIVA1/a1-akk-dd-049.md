@@ -8,4 +8,5 @@ words:
   - Bluse
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Akkusativ — die Bluse kaufen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — die Bluse kaufen)
+

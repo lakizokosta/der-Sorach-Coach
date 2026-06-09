@@ -5,4 +5,5 @@ correct:
   - neuer
 ---
 
-[Arbeit] Mein ___ Job gefällt mir. (neu, mask., Nom.)
+Mein ___ Job gefällt mir. (neu, mask., Nom.)
+

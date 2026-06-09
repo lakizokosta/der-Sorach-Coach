@@ -8,4 +8,5 @@ words:
   - früh
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Artikel — die Schule)
+Ordne die Wörter zum richtigen Satz: (Artikel — die Schule)
+

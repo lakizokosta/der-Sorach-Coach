@@ -10,4 +10,5 @@ words:
   - Sofa
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Sofa (Ort))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Sofa (Ort))
+

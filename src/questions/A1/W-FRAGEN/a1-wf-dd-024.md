@@ -8,4 +8,5 @@ words:
   - weh
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (W-Frage — Was tut weh?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Was tut weh?)
+

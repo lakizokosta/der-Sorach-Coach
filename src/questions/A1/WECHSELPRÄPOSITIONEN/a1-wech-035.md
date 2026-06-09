@@ -9,4 +9,5 @@ options:
 correct: im
 ---
 
-[Essen] Ich gehe ___ Restaurant. (Ort → Dativ)
+Ich gehe ___ Restaurant. (Ort → Dativ)
+

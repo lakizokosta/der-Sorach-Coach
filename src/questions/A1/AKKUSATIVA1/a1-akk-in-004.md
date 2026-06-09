@@ -5,4 +5,5 @@ correct:
   - das
 ---
 
-[Essen] Ich trinke ___ Wasser. (das Wasser, Akk.)
+Ich trinke ___ Wasser. (das Wasser, Akk.)
+

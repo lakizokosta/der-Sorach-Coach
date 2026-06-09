@@ -8,4 +8,5 @@ words:
   - Arbeit
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Dativ — bei der Arbeit sein)
+Ordne die Wörter zum richtigen Satz: (Dativ — bei der Arbeit sein)
+

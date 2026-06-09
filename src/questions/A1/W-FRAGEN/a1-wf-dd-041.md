@@ -8,4 +8,5 @@ words:
   - du
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (W-Frage — Welche Größe?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Welche Größe?)
+

@@ -5,4 +5,5 @@ correct:
   - Der
 ---
 
-[Tiere] ___ Vogel singt morgens. (der Vogel, Nom.)
+___ Vogel singt morgens. (der Vogel, Nom.)
+

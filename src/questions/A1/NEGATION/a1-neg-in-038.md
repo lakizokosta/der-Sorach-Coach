@@ -5,4 +5,5 @@ correct:
   - kein
 ---
 
-[Freunde] Er hat ___ Handy. (kein, neutr.)
+Er hat ___ Handy. (kein, neutr.)
+

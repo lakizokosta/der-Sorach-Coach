@@ -9,4 +9,5 @@ words:
   - toll
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Adjektiv — eine lustige Party)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — eine lustige Party)
+

@@ -8,4 +8,5 @@ words:
   - Fleisch
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Negation — kein Fleisch)
+Ordne die Wörter zum richtigen Satz: (Negation — kein Fleisch)
+

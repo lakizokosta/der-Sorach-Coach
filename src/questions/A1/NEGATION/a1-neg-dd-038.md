@@ -8,4 +8,5 @@ words:
   - Handy
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Negation — kein Handy)
+Ordne die Wörter zum richtigen Satz: (Negation — kein Handy)
+

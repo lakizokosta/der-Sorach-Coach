@@ -9,4 +9,5 @@ words:
   - Job
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein guter Job)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein guter Job)
+

@@ -8,4 +8,5 @@ words:
   - gut
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Dativ — dir schmecken)
+Ordne die Wörter zum richtigen Satz: (Dativ — dir schmecken)
+

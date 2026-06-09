@@ -5,4 +5,5 @@ correct:
   - lernst
 ---
 
-[Schule] Du ___ fleißig Deutsch. (lernen, du)
+Du ___ fleißig Deutsch. (lernen, du)
+

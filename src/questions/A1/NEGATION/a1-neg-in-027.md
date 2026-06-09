@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Wetter] Es regnet ___ heute. (nicht)
+Es regnet ___ heute. (nicht)
+

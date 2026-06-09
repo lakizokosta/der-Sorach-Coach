@@ -8,4 +8,5 @@ words:
   - Geschäft
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Dativ — in dem Geschäft kaufen)
+Ordne die Wörter zum richtigen Satz: (Dativ — in dem Geschäft kaufen)
+

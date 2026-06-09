@@ -5,4 +5,5 @@ correct:
   - im
 ---
 
-[Einkaufen] Ich bin ___ Supermarkt. (in + dem, Ort)
+Ich bin ___ Supermarkt. (in + dem, Ort)
+

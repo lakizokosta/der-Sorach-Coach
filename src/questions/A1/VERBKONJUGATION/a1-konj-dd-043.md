@@ -8,4 +8,5 @@ words:
   - Essen
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Verb — kochen, sie)
+Ordne die Wörter zum richtigen Satz: (Verb — kochen, sie)
+

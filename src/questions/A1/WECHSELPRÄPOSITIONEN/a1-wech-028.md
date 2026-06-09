@@ -9,4 +9,5 @@ options:
 correct: ins
 ---
 
-[Hobby] Ich sitze ___ Kino. (Bewegung → Akkusativ)
+Ich sitze ___ Kino. (Bewegung → Akkusativ)
+

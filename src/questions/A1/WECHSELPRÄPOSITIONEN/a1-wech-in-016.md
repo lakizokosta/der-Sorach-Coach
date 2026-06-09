@@ -5,4 +5,5 @@ correct:
   - auf der
 ---
 
-[Musik] Sie singt ___ Bühne. (auf + der, Ort)
+Sie singt ___ Bühne. (auf + der, Ort)
+

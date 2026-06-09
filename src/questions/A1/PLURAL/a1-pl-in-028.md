@@ -5,4 +5,5 @@ correct:
   - Computer
 ---
 
-[Arbeit] Im Büro stehen zehn ___. (Plural: Computer)
+Im Büro stehen zehn ___. (Plural: Computer)
+

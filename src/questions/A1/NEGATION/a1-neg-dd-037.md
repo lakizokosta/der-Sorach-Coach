@@ -8,4 +8,5 @@ words:
   - fern
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Negation — nicht fernsehen)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht fernsehen)
+

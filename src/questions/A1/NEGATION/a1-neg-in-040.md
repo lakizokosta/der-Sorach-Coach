@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Gesundheit] Ich bin ___ krank. (nicht)
+Ich bin ___ krank. (nicht)
+

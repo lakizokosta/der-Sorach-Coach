@@ -5,4 +5,5 @@ correct:
   - keine
 ---
 
-[Reisen] Wir haben ___ Koffer dabei. (kein, Pl.)
+Wir haben ___ Koffer dabei. (kein, Pl.)
+

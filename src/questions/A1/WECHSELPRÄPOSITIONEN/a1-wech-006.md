@@ -9,4 +9,5 @@ options:
 correct: in den
 ---
 
-[Stadt] Ich gehe ___ Park. (Bewegung → Akkusativ)
+Ich gehe ___ Park. (Bewegung → Akkusativ)
+

@@ -5,4 +5,5 @@ correct:
   - Monate
 ---
 
-[Arbeit] Im Sommer habe ich zwei freie ___. (Plural: Monat)
+Im Sommer habe ich zwei freie ___. (Plural: Monat)
+

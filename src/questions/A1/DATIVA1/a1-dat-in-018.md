@@ -5,4 +5,5 @@ correct:
   - der
 ---
 
-[Zuhause] In ___ Küche kocht Papa. (die Küche, Dat.)
+In ___ Küche kocht Papa. (die Küche, Dat.)
+

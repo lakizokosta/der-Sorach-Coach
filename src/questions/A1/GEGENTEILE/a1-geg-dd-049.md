@@ -8,4 +8,5 @@ words:
   - niedrig
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Gegenteil — hoch / niedrig)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — hoch / niedrig)
+

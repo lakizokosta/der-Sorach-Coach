@@ -8,4 +8,5 @@ words:
   - leicht
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Gegenteil — schwer / leicht)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — schwer / leicht)
+

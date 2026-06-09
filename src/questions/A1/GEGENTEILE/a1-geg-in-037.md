@@ -5,4 +5,5 @@ correct:
   - schwierig
 ---
 
-[Schule] Die Frage ist einfach, die Aufgabe ist ___. (Gegenteil von einfach)
+Die Frage ist einfach, die Aufgabe ist ___. (Gegenteil von einfach)
+

@@ -8,4 +8,5 @@ words:
   - alles
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Dativ — euch zeigen)
+Ordne die Wörter zum richtigen Satz: (Dativ — euch zeigen)
+

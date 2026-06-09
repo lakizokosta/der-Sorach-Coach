@@ -5,4 +5,5 @@ correct:
   - singen
 ---
 
-[Musik] Die Kinder ___ ein Lied. (singen, sie Pl.)
+Die Kinder ___ ein Lied. (singen, sie Pl.)
+

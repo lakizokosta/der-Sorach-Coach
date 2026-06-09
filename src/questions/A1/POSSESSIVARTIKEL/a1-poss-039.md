@@ -9,4 +9,5 @@ options:
 correct: ihre
 ---
 
-[Stadt] Wir suchen ___ Freundin. (sie)
+Wir suchen ___ Freundin. (sie)
+

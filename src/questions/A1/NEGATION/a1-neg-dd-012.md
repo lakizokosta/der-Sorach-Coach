@@ -8,4 +8,5 @@ words:
   - heute
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Negation — nicht heute)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht heute)
+

@@ -5,4 +5,5 @@ correct:
   - in die
 ---
 
-[Reisen] Das Flugzeug fliegt ___ Wolken. (in + die, Bewegung)
+Das Flugzeug fliegt ___ Wolken. (in + die, Bewegung)
+

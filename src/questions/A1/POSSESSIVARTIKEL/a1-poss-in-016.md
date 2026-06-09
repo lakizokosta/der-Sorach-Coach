@@ -5,4 +5,5 @@ correct:
   - Ihr
 ---
 
-[Tiere] ___ Kaninchen ist süß. (sie Pl., neutr., Nom.)
+___ Kaninchen ist süß. (sie Pl., neutr., Nom.)
+

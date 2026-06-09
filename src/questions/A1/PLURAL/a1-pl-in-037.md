@@ -5,4 +5,5 @@ correct:
   - Schuhe
 ---
 
-[Einkaufen] Im Schrank stehen fünf ___. (Plural: Schuh)
+Im Schrank stehen fünf ___. (Plural: Schuh)
+

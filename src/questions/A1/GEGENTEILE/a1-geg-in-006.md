@@ -5,4 +5,5 @@ correct:
   - dunkel
 ---
 
-[Zuhause] Im Sommer ist es hell, im Winter ist es ___. (Gegenteil von hell)
+Im Sommer ist es hell, im Winter ist es ___. (Gegenteil von hell)
+

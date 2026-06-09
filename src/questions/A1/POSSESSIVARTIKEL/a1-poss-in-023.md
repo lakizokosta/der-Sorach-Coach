@@ -5,4 +5,5 @@ correct:
   - deine
 ---
 
-[Familie] Das ist ___ Schwester. (du, fem., Nom.)
+Das ist ___ Schwester. (du, fem., Nom.)
+

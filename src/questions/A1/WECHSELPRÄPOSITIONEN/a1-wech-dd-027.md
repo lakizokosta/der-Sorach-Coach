@@ -10,4 +10,5 @@ words:
   - Wand
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — an die Wand (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — an die Wand (Bewegung))
+

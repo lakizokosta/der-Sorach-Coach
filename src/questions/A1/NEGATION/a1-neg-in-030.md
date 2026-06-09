@@ -5,4 +5,5 @@ correct:
   - kein
 ---
 
-[Einkaufen] Ich kaufe ___ Brot. (kein, neutr.)
+Ich kaufe ___ Brot. (kein, neutr.)
+

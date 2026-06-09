@@ -7,4 +7,5 @@ words:
   - du
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (W-Frage — Wann kommen?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wann kommen?)
+

@@ -8,4 +8,5 @@ words:
   - schlecht
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Gegenteil — gut / schlecht)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — gut / schlecht)
+

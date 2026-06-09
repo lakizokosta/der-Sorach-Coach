@@ -5,4 +5,5 @@ correct:
   - das
 ---
 
-[Zuhause] Ich putze ___ Zimmer. (das Zimmer, Akk.)
+Ich putze ___ Zimmer. (das Zimmer, Akk.)
+

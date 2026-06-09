@@ -9,4 +9,5 @@ words:
   - Kleid
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein rotes Kleid)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein rotes Kleid)
+

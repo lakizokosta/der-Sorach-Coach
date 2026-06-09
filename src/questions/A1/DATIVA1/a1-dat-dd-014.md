@@ -8,4 +8,5 @@ words:
   - Küche
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Dativ — in der Küche kochen)
+Ordne die Wörter zum richtigen Satz: (Dativ — in der Küche kochen)
+

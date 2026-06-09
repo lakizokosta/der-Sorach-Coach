@@ -5,4 +5,5 @@ correct:
   - Woher
 ---
 
-[Reisen] ___ kommst du? — Aus Polen. (Frage nach Herkunft)
+___ kommst du? — Aus Polen. (Frage nach Herkunft)
+

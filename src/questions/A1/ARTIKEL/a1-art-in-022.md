@@ -5,4 +5,5 @@ correct:
   - eine
 ---
 
-[Schule] Ich habe ___ Idee. (eine Idee, fem., Akk.)
+Ich habe ___ Idee. (eine Idee, fem., Akk.)
+

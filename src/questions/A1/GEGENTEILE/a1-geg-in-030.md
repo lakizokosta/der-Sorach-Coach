@@ -5,4 +5,5 @@ correct:
   - kalt
 ---
 
-[Essen] Die Suppe ist heiß, das Wasser ist ___. (Gegenteil von heiß)
+Die Suppe ist heiß, das Wasser ist ___. (Gegenteil von heiß)
+

@@ -8,4 +8,5 @@ words:
   - faul
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Gegenteil — fleißig / faul)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — fleißig / faul)
+

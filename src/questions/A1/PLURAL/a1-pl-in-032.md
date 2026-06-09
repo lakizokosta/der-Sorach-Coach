@@ -5,4 +5,5 @@ correct:
   - Salate
 ---
 
-[Essen] Im Restaurant gibt es drei ___. (Plural: Salat)
+Im Restaurant gibt es drei ___. (Plural: Salat)
+

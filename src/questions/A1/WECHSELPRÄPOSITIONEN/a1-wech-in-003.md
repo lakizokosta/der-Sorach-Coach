@@ -5,4 +5,5 @@ correct:
   - auf den
 ---
 
-[Essen] Leg das Buch ___ Tisch. (auf + der, Bewegung)
+Leg das Buch ___ Tisch. (auf + der, Bewegung)
+

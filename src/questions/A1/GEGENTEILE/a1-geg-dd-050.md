@@ -8,4 +8,5 @@ words:
   - groß
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Gegenteil — klein / groß)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — klein / groß)
+

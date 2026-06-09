@@ -5,4 +5,5 @@ correct:
   - Welches
 ---
 
-[Musik] ___ Instrument spielst du? — Gitarre. (Frage nach Sache)
+___ Instrument spielst du? — Gitarre. (Frage nach Sache)
+

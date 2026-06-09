@@ -8,4 +8,5 @@ words:
   - Musik
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (W-Frage — Wann Musik hören?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wann Musik hören?)
+

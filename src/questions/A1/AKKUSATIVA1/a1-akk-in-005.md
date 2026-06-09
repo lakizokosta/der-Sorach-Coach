@@ -5,4 +5,5 @@ correct:
   - ein
 ---
 
-[Schule] Ich lese ___ Buch. (ein Buch, Akk.)
+Ich lese ___ Buch. (ein Buch, Akk.)
+

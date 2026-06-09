@@ -5,4 +5,5 @@ correct:
   - Wann
 ---
 
-[Freunde] ___ kommst du? — Um 18 Uhr. (Frage nach Zeit)
+___ kommst du? — Um 18 Uhr. (Frage nach Zeit)
+

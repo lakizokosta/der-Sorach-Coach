@@ -8,4 +8,5 @@ words:
   - Hund
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinen)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinen)
+

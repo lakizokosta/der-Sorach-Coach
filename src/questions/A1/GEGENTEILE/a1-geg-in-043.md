@@ -5,4 +5,5 @@ correct:
   - altmodisch
 ---
 
-[Musik] Das Lied ist modern, die Melodie ist ___. (Gegenteil von modern)
+Das Lied ist modern, die Melodie ist ___. (Gegenteil von modern)
+

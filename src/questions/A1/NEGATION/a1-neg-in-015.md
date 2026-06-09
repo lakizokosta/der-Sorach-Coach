@@ -5,4 +5,5 @@ correct:
   - keine
 ---
 
-[Musik] Ich spiele ___ Gitarre. (kein, fem.)
+Ich spiele ___ Gitarre. (kein, fem.)
+

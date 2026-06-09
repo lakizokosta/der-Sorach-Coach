@@ -8,4 +8,5 @@ words:
   - Suppe
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihre)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihre)
+

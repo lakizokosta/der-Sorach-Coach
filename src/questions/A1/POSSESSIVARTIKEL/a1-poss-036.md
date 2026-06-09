@@ -9,4 +9,5 @@ options:
 correct: meine
 ---
 
-[Schule] Ich packe ___ Freundin. (ich)
+Ich packe ___ Freundin. (ich)
+

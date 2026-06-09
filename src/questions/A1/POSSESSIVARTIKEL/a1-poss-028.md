@@ -9,4 +9,5 @@ options:
 correct: unserem
 ---
 
-[Zuhause] In ___ Auto ist es ruhig. (wir)
+In ___ Auto ist es ruhig. (wir)
+

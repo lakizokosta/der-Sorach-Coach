@@ -8,4 +8,5 @@ words:
   - Hunger
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Artikel — keinen Hunger)
+Ordne die Wörter zum richtigen Satz: (Artikel — keinen Hunger)
+

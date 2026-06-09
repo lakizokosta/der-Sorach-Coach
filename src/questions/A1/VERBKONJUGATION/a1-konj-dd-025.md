@@ -8,4 +8,5 @@ words:
   - Bild
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Verb — malen, er)
+Ordne die Wörter zum richtigen Satz: (Verb — malen, er)
+

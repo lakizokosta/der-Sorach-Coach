@@ -5,4 +5,5 @@ correct:
   - isst
 ---
 
-[Essen] Du ___ gern Obst. (essen, du)
+Du ___ gern Obst. (essen, du)
+

@@ -9,4 +9,5 @@ words:
   - Mantel
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein warmer Mantel)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein warmer Mantel)
+

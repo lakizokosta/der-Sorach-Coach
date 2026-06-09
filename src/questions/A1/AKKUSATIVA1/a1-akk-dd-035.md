@@ -8,4 +8,5 @@ words:
   - Projekt
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Akkusativ — das Projekt beenden)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — das Projekt beenden)
+

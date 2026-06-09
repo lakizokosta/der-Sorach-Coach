@@ -5,4 +5,5 @@ correct:
   - meiner Oma
 ---
 
-[Familie] Ich schenke ___ Oma Blumen. (meine Oma, Dat.)
+Ich schenke ___ Oma Blumen. (meine Oma, Dat.)
+

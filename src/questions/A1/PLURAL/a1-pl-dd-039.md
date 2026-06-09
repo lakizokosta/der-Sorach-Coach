@@ -8,4 +8,5 @@ words:
   - leicht
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Plural — die Aufgaben)
+Ordne die Wörter zum richtigen Satz: (Plural — die Aufgaben)
+

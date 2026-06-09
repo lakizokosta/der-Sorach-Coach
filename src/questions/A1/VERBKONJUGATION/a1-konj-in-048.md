@@ -5,4 +5,5 @@ correct:
   - spielt
 ---
 
-[Sport] Er ___ Tennis. (spielen, er)
+Er ___ Tennis. (spielen, er)
+

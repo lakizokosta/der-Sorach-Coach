@@ -9,4 +9,5 @@ options:
 correct: singt
 ---
 
-[Wetter] Peter ___ laut im Chor. (singen)
+Peter ___ laut im Chor. (singen)
+

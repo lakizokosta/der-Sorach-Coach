@@ -9,4 +9,5 @@ words:
   - Buch
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein spannendes Buch)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein spannendes Buch)
+

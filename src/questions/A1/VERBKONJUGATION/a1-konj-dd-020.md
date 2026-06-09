@@ -8,4 +8,5 @@ words:
   - Lied
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Verb — singen, wir)
+Ordne die Wörter zum richtigen Satz: (Verb — singen, wir)
+

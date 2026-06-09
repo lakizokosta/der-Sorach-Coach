@@ -5,4 +5,5 @@ correct:
   - Das
 ---
 
-[Reisen] ___ Hotel hat ein Schwimmbad. (das Hotel, Nom.)
+___ Hotel hat ein Schwimmbad. (das Hotel, Nom.)
+

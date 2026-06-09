@@ -8,4 +8,5 @@ words:
   - Stift
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Possessivartikel — meinen)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — meinen)
+

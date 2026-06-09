@@ -5,4 +5,5 @@ correct:
   - Wann
 ---
 
-[Musik] ___ hörst du gern Musik? — Abends. (Frage nach Zeit)
+___ hörst du gern Musik? — Abends. (Frage nach Zeit)
+

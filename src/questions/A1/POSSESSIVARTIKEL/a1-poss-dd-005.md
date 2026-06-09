@@ -8,4 +8,5 @@ words:
   - Heft
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Possessivartikel — sein)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — sein)
+

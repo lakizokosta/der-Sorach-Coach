@@ -8,4 +8,5 @@ words:
   - Stadt
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Verb — fotografieren, er)
+Ordne die Wörter zum richtigen Satz: (Verb — fotografieren, er)
+

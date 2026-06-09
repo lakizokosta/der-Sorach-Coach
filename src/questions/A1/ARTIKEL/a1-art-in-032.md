@@ -5,4 +5,5 @@ correct:
   - ein
 ---
 
-[Musik] Sie hat ___ Ticket. (ein Ticket, neutr., Akk.)
+Sie hat ___ Ticket. (ein Ticket, neutr., Akk.)
+

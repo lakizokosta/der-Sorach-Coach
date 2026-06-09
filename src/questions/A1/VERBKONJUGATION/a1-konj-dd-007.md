@@ -8,4 +8,5 @@ words:
   - Deutsch
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Verb — lernen, sie Pl.)
+Ordne die Wörter zum richtigen Satz: (Verb — lernen, sie Pl.)
+

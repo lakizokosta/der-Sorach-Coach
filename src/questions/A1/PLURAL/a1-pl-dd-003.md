@@ -8,4 +8,5 @@ words:
   - frisch
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Plural — die Äpfel)
+Ordne die Wörter zum richtigen Satz: (Plural — die Äpfel)
+

@@ -8,4 +8,5 @@ words:
   - Bruder
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Artikel — einen Bruder)
+Ordne die Wörter zum richtigen Satz: (Artikel — einen Bruder)
+

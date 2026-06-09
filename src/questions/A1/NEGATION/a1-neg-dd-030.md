@@ -8,4 +8,5 @@ words:
   - Brot
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Negation — kein Brot)
+Ordne die Wörter zum richtigen Satz: (Negation — kein Brot)
+

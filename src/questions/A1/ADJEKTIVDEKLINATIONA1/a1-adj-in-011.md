@@ -5,4 +5,5 @@ correct:
   - warme
 ---
 
-[Essen] Der Kellner bringt eine ___ Suppe. (warm, fem., Akk.)
+Der Kellner bringt eine ___ Suppe. (warm, fem., Akk.)
+

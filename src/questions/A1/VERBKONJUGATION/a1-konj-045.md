@@ -9,4 +9,5 @@ options:
 correct: wohnen
 ---
 
-[Reisen] Wir ___ in einer kleinen Wohnung. (wohnen)
+Wir ___ in einer kleinen Wohnung. (wohnen)
+

@@ -5,4 +5,5 @@ correct:
   - Straßen
 ---
 
-[Stadt] Die ___ in der Altstadt sind eng. (Plural: Straße)
+Die ___ in der Altstadt sind eng. (Plural: Straße)
+

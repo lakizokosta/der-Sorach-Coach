@@ -8,4 +8,5 @@ words:
   - Bluse
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Artikel — eine Bluse)
+Ordne die Wörter zum richtigen Satz: (Artikel — eine Bluse)
+

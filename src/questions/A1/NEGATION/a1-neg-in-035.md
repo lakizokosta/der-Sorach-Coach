@@ -5,4 +5,5 @@ correct:
   - kein
 ---
 
-[Transport] Wir haben ___ Ticket. (kein, neutr.)
+Wir haben ___ Ticket. (kein, neutr.)
+

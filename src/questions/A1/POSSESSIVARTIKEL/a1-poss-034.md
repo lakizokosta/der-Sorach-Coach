@@ -9,4 +9,5 @@ options:
 correct: unsere
 ---
 
-[Freunde] Ich besuche ___ Freundin. (wir)
+Ich besuche ___ Freundin. (wir)
+

@@ -5,4 +5,5 @@ correct:
   - ihrem
 ---
 
-[Transport] Sie fährt mit ___ Auto. (sie, neutr., Dat.)
+Sie fährt mit ___ Auto. (sie, neutr., Dat.)
+

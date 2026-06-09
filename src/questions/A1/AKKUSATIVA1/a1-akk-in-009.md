@@ -5,4 +5,5 @@ correct:
   - ein
 ---
 
-[Reisen] Ich suche ___ Hotel. (ein Hotel, Akk.)
+Ich suche ___ Hotel. (ein Hotel, Akk.)
+

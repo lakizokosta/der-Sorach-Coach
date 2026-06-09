@@ -5,4 +5,5 @@ correct:
   - meiner
 ---
 
-[Musik] Ich übe auf ___ Gitarre. (ich, fem., Dat.)
+Ich übe auf ___ Gitarre. (ich, fem., Dat.)
+

@@ -5,4 +5,5 @@ correct:
   - Der
 ---
 
-[Tiere] ___ Hund bellt laut. (der Hund, Nom.)
+___ Hund bellt laut. (der Hund, Nom.)
+

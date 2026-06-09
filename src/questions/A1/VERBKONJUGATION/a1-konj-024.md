@@ -9,4 +9,5 @@ options:
 correct: lesen
 ---
 
-[Musik] Meine Freunde ___ ein Buch über Reisen. (lesen)
+Meine Freunde ___ ein Buch über Reisen. (lesen)
+

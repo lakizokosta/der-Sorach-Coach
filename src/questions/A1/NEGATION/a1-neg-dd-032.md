@@ -8,4 +8,5 @@ words:
   - Termin
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Negation — keinen Termin)
+Ordne die Wörter zum richtigen Satz: (Negation — keinen Termin)
+

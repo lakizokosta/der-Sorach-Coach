@@ -5,4 +5,5 @@ correct:
   - schwimmt
 ---
 
-[Sport] Im Sommer ___ er im See. (schwimmen, er)
+Im Sommer ___ er im See. (schwimmen, er)
+

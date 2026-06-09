@@ -5,4 +5,5 @@ correct:
   - in den
 ---
 
-[Einkaufen] Ich gehe ___ Supermarkt. (in + den, Bewegung)
+Ich gehe ___ Supermarkt. (in + den, Bewegung)
+

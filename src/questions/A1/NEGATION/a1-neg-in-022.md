@@ -5,4 +5,5 @@ correct:
   - kein
 ---
 
-[Zuhause] Ich habe ___ Haustier. (kein, neutr.)
+Ich habe ___ Haustier. (kein, neutr.)
+

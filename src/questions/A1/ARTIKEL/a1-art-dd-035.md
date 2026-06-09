@@ -8,4 +8,5 @@ words:
   - offen
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Artikel — das Fenster)
+Ordne die Wörter zum richtigen Satz: (Artikel — das Fenster)
+

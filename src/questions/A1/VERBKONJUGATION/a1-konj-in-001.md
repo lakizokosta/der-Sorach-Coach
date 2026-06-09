@@ -5,4 +5,5 @@ correct:
   - spiele
 ---
 
-[Sport] Ich ___ gern Fußball. (spielen, ich)
+Ich ___ gern Fußball. (spielen, ich)
+

@@ -9,4 +9,5 @@ words:
   - Hund
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein kleiner Hund)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein kleiner Hund)
+

@@ -8,4 +8,5 @@ words:
   - Haustier
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Negation — kein Haustier)
+Ordne die Wörter zum richtigen Satz: (Negation — kein Haustier)
+

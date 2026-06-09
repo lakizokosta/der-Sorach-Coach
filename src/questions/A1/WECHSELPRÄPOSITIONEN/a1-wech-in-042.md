@@ -5,4 +5,5 @@ correct:
   - auf der
 ---
 
-[Sport] Er liegt ___ Matte. (auf + der, Ort)
+Er liegt ___ Matte. (auf + der, Ort)
+

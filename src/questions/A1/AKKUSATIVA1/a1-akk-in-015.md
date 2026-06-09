@@ -5,4 +5,5 @@ correct:
   - eine
 ---
 
-[Einkaufen] Ich kaufe ___ Jacke. (eine Jacke, Akk.)
+Ich kaufe ___ Jacke. (eine Jacke, Akk.)
+

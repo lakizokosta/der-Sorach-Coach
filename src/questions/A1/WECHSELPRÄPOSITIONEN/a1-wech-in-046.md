@@ -5,4 +5,5 @@ correct:
   - auf den
 ---
 
-[Freunde] Komm ___ Platz! (auf + den, Bewegung)
+Komm ___ Platz! (auf + den, Bewegung)
+

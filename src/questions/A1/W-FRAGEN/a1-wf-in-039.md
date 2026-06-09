@@ -5,4 +5,5 @@ correct:
   - Welchen
 ---
 
-[Schule] ___ Lehrer hast du? — Herr Müller. (Frage nach Person)
+___ Lehrer hast du? — Herr Müller. (Frage nach Person)
+

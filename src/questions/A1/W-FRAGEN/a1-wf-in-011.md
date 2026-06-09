@@ -5,4 +5,5 @@ correct:
   - Wo
 ---
 
-[Transport] ___ ist der Bahnhof? — Dort drüben. (Frage nach Ort)
+___ ist der Bahnhof? — Dort drüben. (Frage nach Ort)
+

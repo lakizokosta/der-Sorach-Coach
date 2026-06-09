@@ -5,4 +5,5 @@ correct:
   - auf der
 ---
 
-[Stadt] Sie steht ___ Brücke. (auf + der, Ort)
+Sie steht ___ Brücke. (auf + der, Ort)
+

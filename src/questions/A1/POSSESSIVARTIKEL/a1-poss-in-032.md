@@ -5,4 +5,5 @@ correct:
   - ihren
 ---
 
-[Tiere] Ich füttere ___ Hund. (sie, mask., Akk.)
+Ich füttere ___ Hund. (sie, mask., Akk.)
+

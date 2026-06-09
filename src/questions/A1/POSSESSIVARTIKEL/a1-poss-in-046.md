@@ -5,4 +5,5 @@ correct:
   - deine
 ---
 
-[Wetter] Zieh ___ Handschuhe an! (du, Pl., Akk.)
+Zieh ___ Handschuhe an! (du, Pl., Akk.)
+

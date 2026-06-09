@@ -8,4 +8,5 @@ words:
   - Salat
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Salat bestellen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Salat bestellen)
+

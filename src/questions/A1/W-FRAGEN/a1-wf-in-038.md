@@ -5,4 +5,5 @@ correct:
   - Welche
 ---
 
-[Stadt] ___ Straße ist das? — Die Goethestraße. (Frage nach Name)
+___ Straße ist das? — Die Goethestraße. (Frage nach Name)
+

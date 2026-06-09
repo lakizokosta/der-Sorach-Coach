@@ -5,4 +5,5 @@ correct:
   - lautes
 ---
 
-[Musik] Wir hören ein ___ Lied. (laut, neutr., Akk.)
+Wir hören ein ___ Lied. (laut, neutr., Akk.)
+

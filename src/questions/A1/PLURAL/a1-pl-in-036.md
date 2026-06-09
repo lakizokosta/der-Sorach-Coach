@@ -5,4 +5,5 @@ correct:
   - Lieder
 ---
 
-[Musik] Das Kind singt viele ___. (Plural: Lied)
+Das Kind singt viele ___. (Plural: Lied)
+

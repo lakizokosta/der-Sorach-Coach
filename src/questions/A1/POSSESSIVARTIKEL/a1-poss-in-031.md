@@ -5,4 +5,5 @@ correct:
   - seine
 ---
 
-[Musik] Er hört gern ___ Lieder. (er, Pl., Akk.)
+Er hört gern ___ Lieder. (er, Pl., Akk.)
+

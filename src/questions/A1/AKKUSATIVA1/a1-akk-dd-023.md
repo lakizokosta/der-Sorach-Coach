@@ -8,4 +8,5 @@ words:
   - Song
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Song hören)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den Song hören)
+

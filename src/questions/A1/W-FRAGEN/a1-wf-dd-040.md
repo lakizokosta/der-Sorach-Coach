@@ -8,4 +8,5 @@ words:
   - deins
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (W-Frage — Welches Zimmer?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Welches Zimmer?)
+

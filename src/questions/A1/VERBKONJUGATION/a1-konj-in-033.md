@@ -5,4 +5,5 @@ correct:
   - trinkt
 ---
 
-[Essen] Ihr ___ Wasser nach dem Sport. (trinken, ihr)
+Ihr ___ Wasser nach dem Sport. (trinken, ihr)
+

@@ -5,4 +5,5 @@ correct:
   - eine
 ---
 
-[Einkaufen] Sie kauft ___ Bluse. (eine Bluse, fem., Akk.)
+Sie kauft ___ Bluse. (eine Bluse, fem., Akk.)
+

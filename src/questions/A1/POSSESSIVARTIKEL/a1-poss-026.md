@@ -9,4 +9,5 @@ options:
 correct: seinen
 ---
 
-[Reisen] Ich packe ___ Freund. (er)
+Ich packe ___ Freund. (er)
+

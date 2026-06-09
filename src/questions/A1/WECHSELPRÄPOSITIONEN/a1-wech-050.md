@@ -9,4 +9,5 @@ options:
 correct: in das
 ---
 
-[Essen] Ich gehe ___ Restaurant. (Bewegung → Akkusativ)
+Ich gehe ___ Restaurant. (Bewegung → Akkusativ)
+

@@ -8,4 +8,5 @@ words:
   - Geburtstag
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Verb — feiern, wir)
+Ordne die Wörter zum richtigen Satz: (Verb — feiern, wir)
+

@@ -8,4 +8,5 @@ words:
   - du
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (W-Frage — Welches Instrument?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Welches Instrument?)
+

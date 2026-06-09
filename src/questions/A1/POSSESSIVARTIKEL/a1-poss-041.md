@@ -9,4 +9,5 @@ options:
 correct: euren
 ---
 
-[Essen] Ich esse ___ Freund. (ihr)
+Ich esse ___ Freund. (ihr)
+

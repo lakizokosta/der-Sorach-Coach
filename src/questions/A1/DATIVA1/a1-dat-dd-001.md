@@ -8,4 +8,5 @@ words:
   - Kind
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Dativ — dem Kind helfen)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem Kind helfen)
+

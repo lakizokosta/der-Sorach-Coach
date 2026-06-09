@@ -9,4 +9,5 @@ options:
 correct: ihre
 ---
 
-[Arbeit] ___ Mutter beginnt um 8 Uhr. (sie)
+___ Mutter beginnt um 8 Uhr. (sie)
+

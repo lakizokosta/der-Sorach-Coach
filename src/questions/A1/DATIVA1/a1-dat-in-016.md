@@ -5,4 +5,5 @@ correct:
   - dem Ball
 ---
 
-[Sport] Ich spiele mit ___ Ball. (der Ball, Dat.)
+Ich spiele mit ___ Ball. (der Ball, Dat.)
+

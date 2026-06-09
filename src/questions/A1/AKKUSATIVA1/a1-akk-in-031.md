@@ -5,4 +5,5 @@ correct:
   - meine
 ---
 
-[Familie] Ich besuche ___ Großmutter. (meine Großmutter, Akk.)
+Ich besuche ___ Großmutter. (meine Großmutter, Akk.)
+

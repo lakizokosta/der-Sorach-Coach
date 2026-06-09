@@ -5,4 +5,5 @@ correct:
   - den
 ---
 
-[Musik] Er hört ___ Song. (der Song, Akk.)
+Er hört ___ Song. (der Song, Akk.)
+

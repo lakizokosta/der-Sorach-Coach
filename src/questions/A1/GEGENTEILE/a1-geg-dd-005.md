@@ -8,4 +8,5 @@ words:
   - teuer
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Gegenteil — billig / teuer)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — billig / teuer)
+

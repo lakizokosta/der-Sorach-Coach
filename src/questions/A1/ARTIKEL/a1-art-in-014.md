@@ -5,4 +5,5 @@ correct:
   - Das
 ---
 
-[Sport] ___ Fahrrad steht im Hof. (das Fahrrad, Nom.)
+___ Fahrrad steht im Hof. (das Fahrrad, Nom.)
+

@@ -5,4 +5,5 @@ correct:
   - tief
 ---
 
-[Musik] Die Stimme ist hoch, seine Stimme ist ___. (Gegenteil von hoch)
+Die Stimme ist hoch, seine Stimme ist ___. (Gegenteil von hoch)
+

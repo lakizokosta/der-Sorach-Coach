@@ -8,4 +8,5 @@ words:
   - voll
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Plural — die Termine)
+Ordne die Wörter zum richtigen Satz: (Plural — die Termine)
+

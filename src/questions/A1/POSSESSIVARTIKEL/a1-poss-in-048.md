@@ -5,4 +5,5 @@ correct:
   - deinen
 ---
 
-[Reisen] Vergiss ___ Pass nicht! (du, mask., Akk.)
+Vergiss ___ Pass nicht! (du, mask., Akk.)
+

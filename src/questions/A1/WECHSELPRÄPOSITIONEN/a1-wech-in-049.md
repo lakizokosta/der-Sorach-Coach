@@ -5,4 +5,5 @@ correct:
   - in die
 ---
 
-[Reisen] Wir fliegen ___ Schweiz. (in + die, Bewegung)
+Wir fliegen ___ Schweiz. (in + die, Bewegung)
+

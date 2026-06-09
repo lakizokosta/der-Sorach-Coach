@@ -5,4 +5,5 @@ correct:
   - Das
 ---
 
-[Transport] ___ Auto steht da. (das Auto, Nom.)
+___ Auto steht da. (das Auto, Nom.)
+

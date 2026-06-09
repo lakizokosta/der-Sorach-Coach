@@ -5,4 +5,5 @@ correct:
   - einen
 ---
 
-[Essen] Ich kaufe ___ Apfel. (ein Apfel, Akk.)
+Ich kaufe ___ Apfel. (ein Apfel, Akk.)
+

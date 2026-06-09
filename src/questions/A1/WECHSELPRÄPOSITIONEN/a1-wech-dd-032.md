@@ -8,4 +8,5 @@ words:
   - Schwimmbad
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Schwimmbad (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Schwimmbad (Bewegung))
+

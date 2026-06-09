@@ -5,4 +5,5 @@ correct:
   - macht
 ---
 
-[Zuhause] Er ___ die Hausaufgaben. (machen, er)
+Er ___ die Hausaufgaben. (machen, er)
+

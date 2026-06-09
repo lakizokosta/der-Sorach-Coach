@@ -5,4 +5,5 @@ correct:
   - in die
 ---
 
-[Schule] Ich komme ___ Schule. (in + die, Bewegung)
+Ich komme ___ Schule. (in + die, Bewegung)
+

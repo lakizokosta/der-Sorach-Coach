@@ -9,4 +9,5 @@ options:
 correct: kauft
 ---
 
-[Familie] Anna ___ Brot im Supermarkt. (kaufen)
+Anna ___ Brot im Supermarkt. (kaufen)
+

@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Familie] Das ist ___ meine Mutter. (nicht)
+Das ist ___ meine Mutter. (nicht)
+

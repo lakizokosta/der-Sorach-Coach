@@ -5,4 +5,5 @@ correct:
   - im
 ---
 
-[Arbeit] Er arbeitet ___ Büro. (in + dem, Ort)
+Er arbeitet ___ Büro. (in + dem, Ort)
+

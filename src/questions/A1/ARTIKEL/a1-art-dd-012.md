@@ -8,4 +8,5 @@ words:
   - nett
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Artikel — der Arzt)
+Ordne die Wörter zum richtigen Satz: (Artikel — der Arzt)
+

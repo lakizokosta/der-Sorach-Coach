@@ -8,4 +8,5 @@ words:
   - falsch
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Gegenteil — richtig / falsch)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — richtig / falsch)
+

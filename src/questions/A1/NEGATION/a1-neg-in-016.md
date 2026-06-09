@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Arbeit] Sie arbeitet ___ am Sonntag. (nicht)
+Sie arbeitet ___ am Sonntag. (nicht)
+

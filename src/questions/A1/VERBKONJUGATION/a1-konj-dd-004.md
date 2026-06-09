@@ -8,4 +8,5 @@ words:
   - Buch
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Verb — lesen, sie)
+Ordne die Wörter zum richtigen Satz: (Verb — lesen, sie)
+

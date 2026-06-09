@@ -8,4 +8,5 @@ words:
   - heiß
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Artikel — die Pizza)
+Ordne die Wörter zum richtigen Satz: (Artikel — die Pizza)
+

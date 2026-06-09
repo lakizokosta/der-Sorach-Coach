@@ -5,4 +5,5 @@ correct:
   - Stehst
 ---
 
-[Schule] ___ du früh auf? (aufstehen, du)
+___ du früh auf? (aufstehen, du)
+

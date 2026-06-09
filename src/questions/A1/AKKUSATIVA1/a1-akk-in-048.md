@@ -5,4 +5,5 @@ correct:
   - ein
 ---
 
-[Transport] Sie kauft ___ Ticket. (ein Ticket, Akk.)
+Sie kauft ___ Ticket. (ein Ticket, Akk.)
+

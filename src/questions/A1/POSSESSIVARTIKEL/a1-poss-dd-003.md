@@ -8,4 +8,5 @@ words:
   - Freund
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Possessivartikel — dein)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — dein)
+

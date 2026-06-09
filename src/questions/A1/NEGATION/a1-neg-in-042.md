@@ -5,4 +5,5 @@ correct:
   - keine
 ---
 
-[Musik] Wir hören ___ Musik. (kein, fem.)
+Wir hören ___ Musik. (kein, fem.)
+

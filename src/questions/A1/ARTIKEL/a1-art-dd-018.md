@@ -8,4 +8,5 @@ words:
   - groß
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Artikel — das Büro)
+Ordne die Wörter zum richtigen Satz: (Artikel — das Büro)
+

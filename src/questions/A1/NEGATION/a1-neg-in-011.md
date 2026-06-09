@@ -5,4 +5,5 @@ correct:
   - noch nie
 ---
 
-[Reisen] Ich war ___ in Paris. (noch nie)
+Ich war ___ in Paris. (noch nie)
+

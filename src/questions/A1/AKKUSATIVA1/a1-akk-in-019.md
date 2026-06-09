@@ -5,4 +5,5 @@ correct:
   - den
 ---
 
-[Transport] Ich verpasse ___ Zug. (der Zug, Akk.)
+Ich verpasse ___ Zug. (der Zug, Akk.)
+

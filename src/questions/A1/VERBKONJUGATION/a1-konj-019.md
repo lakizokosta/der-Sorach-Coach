@@ -9,4 +9,5 @@ options:
 correct: essen
 ---
 
-[Schule] Sie ___ Obst zum Frühstück. (essen)
+Sie ___ Obst zum Frühstück. (essen)
+

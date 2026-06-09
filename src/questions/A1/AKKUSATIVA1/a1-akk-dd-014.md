@@ -8,4 +8,5 @@ words:
   - Aufgabe
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Akkusativ — die Aufgabe schreiben)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — die Aufgabe schreiben)
+

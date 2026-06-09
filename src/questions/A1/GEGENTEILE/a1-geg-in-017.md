@@ -5,4 +5,5 @@ correct:
   - kurz
 ---
 
-[Hobby] Der Film ist lang, die Werbung ist ___. (Gegenteil von lang)
+Der Film ist lang, die Werbung ist ___. (Gegenteil von lang)
+

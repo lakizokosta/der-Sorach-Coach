@@ -5,4 +5,5 @@ correct:
   - Nachbarn
 ---
 
-[Stadt] Unsere ___ sind sehr nett. (Plural: Nachbar)
+Unsere ___ sind sehr nett. (Plural: Nachbar)
+

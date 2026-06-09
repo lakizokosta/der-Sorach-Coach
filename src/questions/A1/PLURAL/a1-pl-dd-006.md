@@ -8,4 +8,5 @@ words:
   - heute
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Plural — die Freunde)
+Ordne die Wörter zum richtigen Satz: (Plural — die Freunde)
+

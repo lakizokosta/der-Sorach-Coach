@@ -5,4 +5,5 @@ correct:
   - Wie warm
 ---
 
-[Wetter] ___ ist es heute draußen? — 20 Grad. (Frage nach Temperatur)
+___ ist es heute draußen? — 20 Grad. (Frage nach Temperatur)
+

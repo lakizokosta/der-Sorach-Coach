@@ -8,4 +8,5 @@ words:
   - billig
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Negation — nicht billig)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht billig)
+

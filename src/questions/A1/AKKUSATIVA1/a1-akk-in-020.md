@@ -5,4 +5,5 @@ correct:
   - die
 ---
 
-[Stadt] Ich kenne ___ Straße gut. (die Straße, Akk.)
+Ich kenne ___ Straße gut. (die Straße, Akk.)
+

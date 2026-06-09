@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Sport] Das ist ___ mein Fahrrad. (nicht)
+Das ist ___ mein Fahrrad. (nicht)
+

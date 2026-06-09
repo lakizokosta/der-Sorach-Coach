@@ -5,4 +5,5 @@ correct:
   - Wie viele
 ---
 
-[Familie] ___ Eltern hast du? — Zwei. (Frage nach Anzahl)
+___ Eltern hast du? — Zwei. (Frage nach Anzahl)
+

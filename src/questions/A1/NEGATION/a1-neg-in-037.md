@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Hobby] Ich schaue ___ fern. (nicht)
+Ich schaue ___ fern. (nicht)
+

@@ -5,4 +5,5 @@ correct:
   - die
 ---
 
-[Tiere] Ich streichle ___ Katze. (die Katze, Akk.)
+Ich streichle ___ Katze. (die Katze, Akk.)
+

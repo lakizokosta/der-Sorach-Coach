@@ -9,4 +9,5 @@ options:
 correct: in der
 ---
 
-[Schule] Ich komme ___ Schule. (Ort → Dativ)
+Ich komme ___ Schule. (Ort → Dativ)
+

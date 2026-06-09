@@ -8,4 +8,5 @@ words:
   - Pizza
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Akkusativ — die Pizza teilen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — die Pizza teilen)
+

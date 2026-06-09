@@ -9,4 +9,5 @@ options:
 correct: auf dem
 ---
 
-[Essen] Ich liegt ___ Tisch. (Ort → Dativ)
+Ich liegt ___ Tisch. (Ort → Dativ)
+

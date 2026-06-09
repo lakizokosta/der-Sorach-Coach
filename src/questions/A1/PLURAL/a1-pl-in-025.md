@@ -5,4 +5,5 @@ correct:
   - Katzen
 ---
 
-[Tiere] Im Tierheim warten viele ___. (Plural: Katze)
+Im Tierheim warten viele ___. (Plural: Katze)
+

@@ -5,4 +5,5 @@ correct:
   - auf den
 ---
 
-[Zuhause] Ich lege die Jacke ___ Stuhl. (auf + den, Bewegung)
+Ich lege die Jacke ___ Stuhl. (auf + den, Bewegung)
+

@@ -5,4 +5,5 @@ correct:
   - alte
 ---
 
-[Reisen] Wir besuchen eine ___ Stadt. (alt, fem., Akk.)
+Wir besuchen eine ___ Stadt. (alt, fem., Akk.)
+

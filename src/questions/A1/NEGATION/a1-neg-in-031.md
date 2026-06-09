@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Schule] Der Test ist ___ schwer. (nicht)
+Der Test ist ___ schwer. (nicht)
+

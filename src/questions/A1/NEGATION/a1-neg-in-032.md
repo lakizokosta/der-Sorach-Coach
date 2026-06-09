@@ -5,4 +5,5 @@ correct:
   - keinen
 ---
 
-[Arbeit] Ich habe ___ Termin. (kein, mask.)
+Ich habe ___ Termin. (kein, mask.)
+

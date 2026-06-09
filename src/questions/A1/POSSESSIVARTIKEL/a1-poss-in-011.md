@@ -5,4 +5,5 @@ correct:
   - Ihre
 ---
 
-[Essen] ___ Pizza schmeckt super. (sie, fem., Nom.)
+___ Pizza schmeckt super. (sie, fem., Nom.)
+

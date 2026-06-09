@@ -5,4 +5,5 @@ correct:
   - neue
 ---
 
-[Gesundheit] Der Arzt gibt mir gute ___ Medizin. (neu, fem., Akk.)
+Der Arzt gibt mir gute ___ Medizin. (neu, fem., Akk.)
+

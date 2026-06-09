@@ -8,4 +8,5 @@ words:
   - Jacke
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Jacke kaufen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Jacke kaufen)
+

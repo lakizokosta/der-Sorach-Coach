@@ -8,4 +8,5 @@ words:
   - laut
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Negation — nicht laut)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht laut)
+

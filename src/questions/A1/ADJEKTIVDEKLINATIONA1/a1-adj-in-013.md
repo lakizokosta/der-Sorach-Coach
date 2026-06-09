@@ -5,4 +5,5 @@ correct:
   - gutes
 ---
 
-[Einkaufen] Ich suche ein ___ Geschenk. (gut, neutr., Akk.)
+Ich suche ein ___ Geschenk. (gut, neutr., Akk.)
+

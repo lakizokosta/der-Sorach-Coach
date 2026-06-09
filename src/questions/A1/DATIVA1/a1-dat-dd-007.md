@@ -8,4 +8,5 @@ words:
   - helfen
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Dativ — mir helfen)
+Ordne die Wörter zum richtigen Satz: (Dativ — mir helfen)
+

@@ -5,4 +5,5 @@ correct:
   - meinen
 ---
 
-[Kleidung] Im Winter trage ich ___ Mantel. (ich, mask., Akk.)
+Im Winter trage ich ___ Mantel. (ich, mask., Akk.)
+

@@ -5,4 +5,5 @@ correct:
   - das
 ---
 
-[Reisen] Wir besuchen ___ Museum. (das Museum, Akk.)
+Wir besuchen ___ Museum. (das Museum, Akk.)
+

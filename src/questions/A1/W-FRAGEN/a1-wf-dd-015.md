@@ -8,4 +8,5 @@ words:
   - Hobby
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (W-Frage — Was ist Hobby?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Was ist Hobby?)
+

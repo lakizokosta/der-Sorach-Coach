@@ -9,4 +9,5 @@ words:
   - schnell
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein braunes Pferd)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein braunes Pferd)
+

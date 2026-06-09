@@ -5,4 +5,5 @@ correct:
   - schöne
 ---
 
-[Essen] Ich habe eine ___ Katze. (schön, fem., Akk.)
+Ich habe eine ___ Katze. (schön, fem., Akk.)
+

@@ -9,4 +9,5 @@ options:
 correct: eure
 ---
 
-[Schule] Ich packe ___ Freundin. (ihr)
+Ich packe ___ Freundin. (ihr)
+

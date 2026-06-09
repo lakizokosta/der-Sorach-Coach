@@ -8,4 +8,5 @@ words:
   - Kinder
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Negation — keine Kinder)
+Ordne die Wörter zum richtigen Satz: (Negation — keine Kinder)
+

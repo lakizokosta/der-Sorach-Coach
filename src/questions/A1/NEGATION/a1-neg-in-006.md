@@ -5,4 +5,5 @@ correct:
   - kein
 ---
 
-[Transport] Ich habe ___ Auto. (kein, neutr.)
+Ich habe ___ Auto. (kein, neutr.)
+

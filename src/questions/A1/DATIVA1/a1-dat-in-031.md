@@ -5,4 +5,5 @@ correct:
   - den Schuhen
 ---
 
-[Kleidung] In ___ Schuhen laufe ich schnell. (die Schuhe, Dat.)
+In ___ Schuhen laufe ich schnell. (die Schuhe, Dat.)
+

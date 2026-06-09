@@ -5,4 +5,5 @@ correct:
   - Frauen
 ---
 
-[Arbeit] In der Firma arbeiten zehn ___. (Plural: Frau)
+In der Firma arbeiten zehn ___. (Plural: Frau)
+

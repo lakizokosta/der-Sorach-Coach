@@ -5,4 +5,5 @@ correct:
   - sein
 ---
 
-[Transport] Das ist ___ Fahrrad. (er, neutr., Nom.)
+Das ist ___ Fahrrad. (er, neutr., Nom.)
+

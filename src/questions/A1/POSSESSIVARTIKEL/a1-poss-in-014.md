@@ -5,4 +5,5 @@ correct:
   - meinen
 ---
 
-[Wetter] Bei Regen brauche ich ___ Regenschirm. (ich, mask., Akk.)
+Bei Regen brauche ich ___ Regenschirm. (ich, mask., Akk.)
+

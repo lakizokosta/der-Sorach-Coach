@@ -9,4 +9,5 @@ words:
   - kurz
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein schwerer Test)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein schwerer Test)
+

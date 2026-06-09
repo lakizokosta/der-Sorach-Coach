@@ -8,4 +8,5 @@ words:
   - Mädchen
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Artikel — ein Mädchen)
+Ordne die Wörter zum richtigen Satz: (Artikel — ein Mädchen)
+

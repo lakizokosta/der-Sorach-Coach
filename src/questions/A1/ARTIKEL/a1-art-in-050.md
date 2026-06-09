@@ -5,4 +5,5 @@ correct:
   - Das
 ---
 
-[Arbeit] ___ Meeting beginnt jetzt. (das Meeting, Nom.)
+___ Meeting beginnt jetzt. (das Meeting, Nom.)
+

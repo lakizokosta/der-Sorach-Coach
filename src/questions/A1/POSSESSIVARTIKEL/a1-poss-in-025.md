@@ -5,4 +5,5 @@ correct:
   - Unser
 ---
 
-[Schule] ___ Lehrer erklärt die Aufgabe. (wir, mask., Nom.)
+___ Lehrer erklärt die Aufgabe. (wir, mask., Nom.)
+

@@ -8,4 +8,5 @@ words:
   - Job
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Job suchen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Job suchen)
+

@@ -5,4 +5,5 @@ correct:
   - trinke
 ---
 
-[Essen] Morgens ___ ich Kaffee. (trinken, ich)
+Morgens ___ ich Kaffee. (trinken, ich)
+

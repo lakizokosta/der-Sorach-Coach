@@ -8,4 +8,5 @@ words:
   - fertig
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Artikel — die Suppe)
+Ordne die Wörter zum richtigen Satz: (Artikel — die Suppe)
+

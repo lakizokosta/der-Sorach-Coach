@@ -8,4 +8,5 @@ words:
   - offen
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Plural — die Fenster)
+Ordne die Wörter zum richtigen Satz: (Plural — die Fenster)
+

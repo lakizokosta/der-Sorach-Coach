@@ -5,4 +5,5 @@ correct:
   - harten
 ---
 
-[Sport] Nach dem ___ Training bin ich müde. (hart, neutr., Dat.)
+Nach dem ___ Training bin ich müde. (hart, neutr., Dat.)
+

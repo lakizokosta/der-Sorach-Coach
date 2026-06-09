@@ -8,4 +8,5 @@ words:
   - Freundin
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Akkusativ — meine Freundin besuchen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — meine Freundin besuchen)
+

@@ -5,4 +5,5 @@ correct:
   - rufe
 ---
 
-[Freunde] Ich ___ meine Freundin an. (anrufen, ich)
+Ich ___ meine Freundin an. (anrufen, ich)
+

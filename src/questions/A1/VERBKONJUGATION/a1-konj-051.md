@@ -9,4 +9,5 @@ options:
 correct: regnet
 ---
 
-[Wetter] Es ___ heute den ganzen Tag.
+Es ___ heute den ganzen Tag.
+

@@ -9,4 +9,5 @@ options:
 correct: kaufst
 ---
 
-[Essen] Du ___ Brot im Supermarkt. (kaufen)
+Du ___ Brot im Supermarkt. (kaufen)
+

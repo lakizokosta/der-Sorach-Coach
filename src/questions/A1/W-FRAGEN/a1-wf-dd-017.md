@@ -8,4 +8,5 @@ words:
   - Geburtstag
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (W-Frage — Wer hat Geburtstag?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wer hat Geburtstag?)
+

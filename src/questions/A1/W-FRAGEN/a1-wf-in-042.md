@@ -5,4 +5,5 @@ correct:
   - Welche
 ---
 
-[Einkaufen] ___ Größe hast du? — Größe M. (Frage nach Größe)
+___ Größe hast du? — Größe M. (Frage nach Größe)
+

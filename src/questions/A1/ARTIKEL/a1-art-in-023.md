@@ -5,4 +5,5 @@ correct:
   - ein
 ---
 
-[Essen] Er isst ___ Brot. (ein Brot, neutr., Akk.)
+Er isst ___ Brot. (ein Brot, neutr., Akk.)
+

@@ -8,4 +8,5 @@ words:
   - Lehrer
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinem)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinem)
+

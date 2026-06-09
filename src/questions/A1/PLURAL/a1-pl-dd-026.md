@@ -8,4 +8,5 @@ words:
   - spät
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Plural — die Konzerte)
+Ordne die Wörter zum richtigen Satz: (Plural — die Konzerte)
+

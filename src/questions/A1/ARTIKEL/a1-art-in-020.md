@@ -5,4 +5,5 @@ correct:
   - Die
 ---
 
-[Kleidung] ___ Jacke ist warm. (die Jacke, Nom.)
+___ Jacke ist warm. (die Jacke, Nom.)
+

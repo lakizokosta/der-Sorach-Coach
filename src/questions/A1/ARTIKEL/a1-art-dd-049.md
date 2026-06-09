@@ -8,4 +8,5 @@ words:
   - jetzt
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Artikel — das Meeting)
+Ordne die Wörter zum richtigen Satz: (Artikel — das Meeting)
+

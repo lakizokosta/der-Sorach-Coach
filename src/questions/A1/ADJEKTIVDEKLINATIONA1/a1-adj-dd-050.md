@@ -9,4 +9,5 @@ words:
   - neu
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein schönes Foto)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein schönes Foto)
+

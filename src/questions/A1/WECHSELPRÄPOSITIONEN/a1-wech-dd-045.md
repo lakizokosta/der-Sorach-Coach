@@ -9,4 +9,5 @@ words:
   - Klasse
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in der Klasse (Ort))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in der Klasse (Ort))
+

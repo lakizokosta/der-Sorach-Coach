@@ -5,4 +5,5 @@ correct:
   - spannendes
 ---
 
-[Sport] Das ist ein ___ Spiel. (spannend, neutr., Nom.)
+Das ist ein ___ Spiel. (spannend, neutr., Nom.)
+

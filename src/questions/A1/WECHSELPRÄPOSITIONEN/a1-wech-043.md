@@ -9,4 +9,5 @@ options:
 correct: im
 ---
 
-[Hobby] Ich sitze ___ Kino. (Ort → Dativ)
+Ich sitze ___ Kino. (Ort → Dativ)
+

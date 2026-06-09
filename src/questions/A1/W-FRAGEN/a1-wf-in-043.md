@@ -5,4 +5,5 @@ correct:
   - Wie
 ---
 
-[Gesundheit] ___ fühlst du dich? — Gut. (Frage nach Befinden)
+___ fühlst du dich? — Gut. (Frage nach Befinden)
+

@@ -5,4 +5,5 @@ correct:
   - Obstsorten
 ---
 
-[Essen] Auf dem Markt gibt es viele ___. (Plural: Obstsorte)
+Auf dem Markt gibt es viele ___. (Plural: Obstsorte)
+

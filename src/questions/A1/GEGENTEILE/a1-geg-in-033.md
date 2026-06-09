@@ -5,4 +5,5 @@ correct:
   - schlecht
 ---
 
-[Reisen] Die Reise war schön, das Wetter war ___. (Gegenteil von schön)
+Die Reise war schön, das Wetter war ___. (Gegenteil von schön)
+

@@ -8,4 +8,5 @@ words:
   - Stunden
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Verb — schlafen, ich)
+Ordne die Wörter zum richtigen Satz: (Verb — schlafen, ich)
+

@@ -5,4 +5,5 @@ correct:
   - ein
 ---
 
-[Reisen] Wir suchen ___ Café. (ein Café, neutr., Akk.)
+Wir suchen ___ Café. (ein Café, neutr., Akk.)
+

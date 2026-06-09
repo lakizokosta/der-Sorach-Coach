@@ -9,4 +9,5 @@ words:
   - heute
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Adjektiv — eine bekannte Band)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — eine bekannte Band)
+

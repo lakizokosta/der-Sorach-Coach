@@ -9,4 +9,5 @@ options:
 correct: ihre
 ---
 
-[Freunde] Ich besuche ___ Freundin. (sie)
+Ich besuche ___ Freundin. (sie)
+

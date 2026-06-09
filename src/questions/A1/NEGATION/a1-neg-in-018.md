@@ -5,4 +5,5 @@ correct:
   - keine
 ---
 
-[Familie] Ich habe ___ Geschwister. (kein, Pl.)
+Ich habe ___ Geschwister. (kein, Pl.)
+

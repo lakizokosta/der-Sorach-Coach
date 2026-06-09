@@ -8,4 +8,5 @@ words:
   - Kaffee
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Negation — keinen Kaffee)
+Ordne die Wörter zum richtigen Satz: (Negation — keinen Kaffee)
+

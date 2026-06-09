@@ -8,4 +8,5 @@ words:
   - müde
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Gegenteil — fit / müde)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — fit / müde)
+

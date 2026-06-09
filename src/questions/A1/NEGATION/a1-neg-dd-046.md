@@ -9,4 +9,5 @@ words:
   - nicht
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Negation — Frage nicht verstehen)
+Ordne die Wörter zum richtigen Satz: (Negation — Frage nicht verstehen)
+

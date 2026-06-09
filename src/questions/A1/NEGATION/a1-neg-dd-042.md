@@ -8,4 +8,5 @@ words:
   - Musik
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Negation — keine Musik)
+Ordne die Wörter zum richtigen Satz: (Negation — keine Musik)
+

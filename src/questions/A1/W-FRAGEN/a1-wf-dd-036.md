@@ -8,4 +8,5 @@ words:
   - du
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (W-Frage — Welchen Geschmack?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Welchen Geschmack?)
+

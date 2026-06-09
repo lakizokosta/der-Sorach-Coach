@@ -8,4 +8,5 @@ words:
   - alt
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Gegenteil — neu / alt)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — neu / alt)
+

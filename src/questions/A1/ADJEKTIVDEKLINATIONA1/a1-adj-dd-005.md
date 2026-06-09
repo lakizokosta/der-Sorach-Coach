@@ -9,4 +9,5 @@ words:
   - Wohnung
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Adjektiv — keine große Wohnung)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — keine große Wohnung)
+

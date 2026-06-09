@@ -5,4 +5,5 @@ correct:
   - auf den
 ---
 
-[Sport] Wir laufen ___ Sportplatz. (auf + den, Bewegung)
+Wir laufen ___ Sportplatz. (auf + den, Bewegung)
+

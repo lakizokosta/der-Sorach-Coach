@@ -8,4 +8,5 @@ words:
   - schön
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Plural — die Fotos)
+Ordne die Wörter zum richtigen Satz: (Plural — die Fotos)
+

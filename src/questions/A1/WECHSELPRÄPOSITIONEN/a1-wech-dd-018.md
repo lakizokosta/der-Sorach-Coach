@@ -8,4 +8,5 @@ words:
   - Büro
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Büro (Ort))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Büro (Ort))
+

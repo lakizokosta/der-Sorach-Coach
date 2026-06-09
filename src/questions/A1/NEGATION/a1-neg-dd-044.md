@@ -8,4 +8,5 @@ words:
   - Milch
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Negation — keine Milch)
+Ordne die Wörter zum richtigen Satz: (Negation — keine Milch)
+

@@ -5,4 +5,5 @@ correct:
   - Welchen
 ---
 
-[Hobby] ___ Sport machst du? — Tennis. (Frage nach Sportart)
+___ Sport machst du? — Tennis. (Frage nach Sportart)
+

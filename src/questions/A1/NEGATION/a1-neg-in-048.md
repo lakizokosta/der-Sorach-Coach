@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Wetter] Der Wind weht ___ stark. (nicht)
+Der Wind weht ___ stark. (nicht)
+

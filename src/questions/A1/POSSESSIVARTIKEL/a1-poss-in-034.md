@@ -5,4 +5,5 @@ correct:
   - Mein
 ---
 
-[Gesundheit] ___ Kopf tut weh. (ich, mask., Nom.)
+___ Kopf tut weh. (ich, mask., Nom.)
+

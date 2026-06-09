@@ -8,4 +8,5 @@ words:
   - Text
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Text lesen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den Text lesen)
+

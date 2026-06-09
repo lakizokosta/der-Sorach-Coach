@@ -8,4 +8,5 @@ words:
   - Katze
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Akkusativ — die Katze streicheln)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — die Katze streicheln)
+

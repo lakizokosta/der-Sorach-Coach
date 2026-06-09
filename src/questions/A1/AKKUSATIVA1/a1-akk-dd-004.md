@@ -8,4 +8,5 @@ words:
   - Buch
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Buch lesen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Buch lesen)
+

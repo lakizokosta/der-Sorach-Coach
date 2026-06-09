@@ -9,4 +9,5 @@ words:
   - morgen
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein neues Projekt)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein neues Projekt)
+

@@ -9,4 +9,5 @@ words:
   - laut
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Adjektiv — ein liebes Kind)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — ein liebes Kind)
+

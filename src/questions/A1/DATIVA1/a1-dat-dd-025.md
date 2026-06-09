@@ -8,4 +8,5 @@ words:
   - Schwester
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Dativ — mit der Schwester spielen)
+Ordne die Wörter zum richtigen Satz: (Dativ — mit der Schwester spielen)
+

@@ -8,4 +8,5 @@ words:
   - Katze
 ---
 
-[Tiere] Ordne die Wörter zum richtigen Satz: (Verb — streicheln, ich)
+Ordne die Wörter zum richtigen Satz: (Verb — streicheln, ich)
+

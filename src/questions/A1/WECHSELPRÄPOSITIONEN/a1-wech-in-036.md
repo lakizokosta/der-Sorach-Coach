@@ -5,4 +5,5 @@ correct:
   - auf dem
 ---
 
-[Zuhause] Die Jacke liegt ___ Stuhl. (auf + dem, Ort)
+Die Jacke liegt ___ Stuhl. (auf + dem, Ort)
+

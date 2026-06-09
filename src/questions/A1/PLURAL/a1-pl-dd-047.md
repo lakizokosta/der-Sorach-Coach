@@ -8,4 +8,5 @@ words:
   - hoch
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Plural — die Preise)
+Ordne die Wörter zum richtigen Satz: (Plural — die Preise)
+

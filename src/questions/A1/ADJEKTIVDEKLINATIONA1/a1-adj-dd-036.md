@@ -9,4 +9,5 @@ words:
   - neu
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Adjektiv — blaue Schuhe)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — blaue Schuhe)
+

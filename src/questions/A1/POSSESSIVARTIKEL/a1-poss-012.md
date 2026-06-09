@@ -9,4 +9,5 @@ options:
 correct: mein
 ---
 
-[Hobby] ___ Heft ist neu. (ich)
+___ Heft ist neu. (ich)
+

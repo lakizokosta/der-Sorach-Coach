@@ -5,4 +5,5 @@ correct:
   - aufs
 ---
 
-[Familie] Wir fahren ___ Land. (auf + das, Bewegung)
+Wir fahren ___ Land. (auf + das, Bewegung)
+

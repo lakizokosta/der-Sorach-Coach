@@ -5,4 +5,5 @@ correct:
   - Wie
 ---
 
-[Schule] ___ kommst du zur Schule? — Mit dem Bus. (Frage nach Art und Weise)
+___ kommst du zur Schule? — Mit dem Bus. (Frage nach Art und Weise)
+

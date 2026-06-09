@@ -5,4 +5,5 @@ correct:
   - kochen
 ---
 
-[Essen] Wir ___ zusammen Pasta. (kochen, wir)
+Wir ___ zusammen Pasta. (kochen, wir)
+

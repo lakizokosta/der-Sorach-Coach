@@ -5,4 +5,5 @@ correct:
   - das
 ---
 
-[Musik] Wir hören ___ Konzert. (das Konzert, Akk.)
+Wir hören ___ Konzert. (das Konzert, Akk.)
+

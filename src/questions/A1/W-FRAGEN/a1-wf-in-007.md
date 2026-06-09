@@ -5,4 +5,5 @@ correct:
   - Wer
 ---
 
-[Familie] ___ ist das? — Mein Bruder. (Frage nach Person)
+___ ist das? — Mein Bruder. (Frage nach Person)
+

@@ -5,4 +5,5 @@ correct:
   - an der
 ---
 
-[Schule] Das Plakat ist ___ Wand. (an + der, Ort)
+Das Plakat ist ___ Wand. (an + der, Ort)
+

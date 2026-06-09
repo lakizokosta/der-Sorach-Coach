@@ -5,4 +5,5 @@ correct:
   - ruhigen
 ---
 
-[Stadt] In der ___ Straße wohne ich. (ruhig, fem., Dat.)
+In der ___ Straße wohne ich. (ruhig, fem., Dat.)
+

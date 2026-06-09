@@ -9,4 +9,5 @@ options:
 correct: koche
 ---
 
-[Sport] Ich ___ Pasta zum Abendessen. (kochen)
+Ich ___ Pasta zum Abendessen. (kochen)
+

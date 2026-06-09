@@ -5,4 +5,5 @@ correct:
   - meinem
 ---
 
-[Stadt] Ich zeige ___ Freund die Stadt. (ich, mask., Dat.)
+Ich zeige ___ Freund die Stadt. (ich, mask., Dat.)
+

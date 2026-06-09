@@ -5,4 +5,5 @@ correct:
   - Welches
 ---
 
-[Musik] ___ Lied singst du? — Ein deutsches Lied. (Frage nach Lied)
+___ Lied singst du? — Ein deutsches Lied. (Frage nach Lied)
+

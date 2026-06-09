@@ -8,4 +8,5 @@ words:
   - Brot
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Artikel — ein Brot)
+Ordne die Wörter zum richtigen Satz: (Artikel — ein Brot)
+

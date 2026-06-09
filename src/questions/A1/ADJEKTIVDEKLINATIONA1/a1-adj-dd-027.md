@@ -9,4 +9,5 @@ words:
   - Familie
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Adjektiv — eine freundliche Familie)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — eine freundliche Familie)
+

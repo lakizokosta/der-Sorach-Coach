@@ -5,4 +5,5 @@ correct:
   - meinem
 ---
 
-[Zuhause] In ___ Zimmer ist es ruhig. (ich, neutr., Dat.)
+In ___ Zimmer ist es ruhig. (ich, neutr., Dat.)
+

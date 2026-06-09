@@ -8,4 +8,5 @@ words:
   - Musik
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Verb — hören, ich)
+Ordne die Wörter zum richtigen Satz: (Verb — hören, ich)
+

@@ -8,4 +8,5 @@ words:
   - Zimmer
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Akkusativ — das Zimmer putzen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — das Zimmer putzen)
+

@@ -9,4 +9,5 @@ options:
 correct: arbeiten
 ---
 
-[Musik] Meine Freunde ___ im Büro in der Stadt. (arbeiten)
+Meine Freunde ___ im Büro in der Stadt. (arbeiten)
+

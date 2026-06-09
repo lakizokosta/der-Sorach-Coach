@@ -5,4 +5,5 @@ correct:
   - trägt
 ---
 
-[Kleidung] Sie ___ einen blauen Mantel. (tragen, sie)
+Sie ___ einen blauen Mantel. (tragen, sie)
+

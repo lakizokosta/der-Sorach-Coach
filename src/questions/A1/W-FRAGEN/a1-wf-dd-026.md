@@ -8,4 +8,5 @@ words:
   - Lieblingsfach
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (W-Frage — Was Lieblingsfach?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Was Lieblingsfach?)
+

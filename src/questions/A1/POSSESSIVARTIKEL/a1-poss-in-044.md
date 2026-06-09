@@ -5,4 +5,5 @@ correct:
   - deine
 ---
 
-[Essen] Probier ___ Suppe! (du, fem., Akk.)
+Probier ___ Suppe! (du, fem., Akk.)
+

@@ -9,4 +9,5 @@ words:
   - Sonntag
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Negation — nicht am Sonntag)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht am Sonntag)
+

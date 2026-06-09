@@ -5,4 +5,5 @@ correct:
   - nicht
 ---
 
-[Reisen] Das ist ___ mein Koffer. (nicht)
+Das ist ___ mein Koffer. (nicht)
+

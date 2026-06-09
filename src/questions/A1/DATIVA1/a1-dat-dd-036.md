@@ -8,4 +8,5 @@ words:
   - Bad
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Dativ — in dem Bad duschen)
+Ordne die Wörter zum richtigen Satz: (Dativ — in dem Bad duschen)
+

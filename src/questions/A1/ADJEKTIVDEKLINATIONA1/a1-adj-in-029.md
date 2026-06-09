@@ -5,4 +5,5 @@ correct:
   - braune
 ---
 
-[Tiere] Das ___ Pferd läuft schnell. (braun, neutr., Nom.)
+Das ___ Pferd läuft schnell. (braun, neutr., Nom.)
+

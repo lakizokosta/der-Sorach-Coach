@@ -5,4 +5,5 @@ correct:
   - unseren
 ---
 
-[Sport] Wir werfen ___ Ball. (wir, mask., Akk.)
+Wir werfen ___ Ball. (wir, mask., Akk.)
+

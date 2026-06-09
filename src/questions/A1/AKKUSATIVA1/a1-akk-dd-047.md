@@ -8,4 +8,5 @@ words:
   - Kollegin
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Akkusativ — meine Kollegin einladen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — meine Kollegin einladen)
+

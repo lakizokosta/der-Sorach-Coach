@@ -5,4 +5,5 @@ correct:
   - fährt
 ---
 
-[Transport] Peter ___ mit dem Bus zur Arbeit. (fahren, er)
+Peter ___ mit dem Bus zur Arbeit. (fahren, er)
+

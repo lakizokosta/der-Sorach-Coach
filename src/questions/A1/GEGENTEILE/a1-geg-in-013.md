@@ -5,4 +5,5 @@ correct:
   - schmutzig
 ---
 
-[Zuhause] Die Küche ist sauber, das Bad ist ___. (Gegenteil von sauber)
+Die Küche ist sauber, das Bad ist ___. (Gegenteil von sauber)
+

@@ -8,4 +8,5 @@ words:
   - Chef
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Negation — keinen Chef)
+Ordne die Wörter zum richtigen Satz: (Negation — keinen Chef)
+

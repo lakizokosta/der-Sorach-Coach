@@ -5,4 +5,5 @@ correct:
   - sonnigen
 ---
 
-[Zuhause] Auf dem ___ Balkon frühstücken wir. (sonnig, mask., Dat.)
+Auf dem ___ Balkon frühstücken wir. (sonnig, mask., Dat.)
+

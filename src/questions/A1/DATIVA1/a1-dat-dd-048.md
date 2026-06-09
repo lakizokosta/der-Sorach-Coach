@@ -8,4 +8,5 @@ words:
   - uns
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Dativ — uns erklären)
+Ordne die Wörter zum richtigen Satz: (Dativ — uns erklären)
+

@@ -8,4 +8,5 @@ words:
   - Ärztin
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Dativ — der Ärztin vertrauen)
+Ordne die Wörter zum richtigen Satz: (Dativ — der Ärztin vertrauen)
+

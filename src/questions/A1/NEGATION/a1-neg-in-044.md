@@ -5,4 +5,5 @@ correct:
   - keine
 ---
 
-[Zuhause] Es gibt ___ Milch. (kein, fem.)
+Es gibt ___ Milch. (kein, fem.)
+

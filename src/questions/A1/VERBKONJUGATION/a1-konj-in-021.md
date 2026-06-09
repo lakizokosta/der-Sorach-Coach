@@ -5,4 +5,5 @@ correct:
   - Findest
 ---
 
-[Stadt] ___ du den Weg? (finden, du)
+___ du den Weg? (finden, du)
+

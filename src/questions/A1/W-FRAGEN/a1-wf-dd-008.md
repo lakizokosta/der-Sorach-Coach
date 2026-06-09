@@ -8,4 +8,5 @@ words:
   - Deutsch
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (W-Frage — Warum lernen?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Warum lernen?)
+

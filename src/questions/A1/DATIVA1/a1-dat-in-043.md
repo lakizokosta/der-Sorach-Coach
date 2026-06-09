@@ -5,4 +5,5 @@ correct:
   - dem Hund
 ---
 
-[Tiere] Ich gebe ___ Hund Wasser. (der Hund, Dat.)
+Ich gebe ___ Hund Wasser. (der Hund, Dat.)
+

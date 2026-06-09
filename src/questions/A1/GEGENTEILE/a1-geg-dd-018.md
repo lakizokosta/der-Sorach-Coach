@@ -8,4 +8,5 @@ words:
   - dünn
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Gegenteil — dick / dünn)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — dick / dünn)
+

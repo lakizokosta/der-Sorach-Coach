@@ -5,4 +5,5 @@ correct:
   - dem
 ---
 
-[Tiere] Ich folge ___ Hund. (der Hund, Dat.)
+Ich folge ___ Hund. (der Hund, Dat.)
+

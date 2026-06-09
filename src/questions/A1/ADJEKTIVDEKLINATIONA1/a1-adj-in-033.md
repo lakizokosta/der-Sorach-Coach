@@ -5,4 +5,5 @@ correct:
   - liebstes
 ---
 
-[Hobby] Das ist mein ___ Buch. (lieb, neutr., Nom.)
+Das ist mein ___ Buch. (lieb, neutr., Nom.)
+

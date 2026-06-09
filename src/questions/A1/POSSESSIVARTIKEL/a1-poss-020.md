@@ -9,4 +9,5 @@ options:
 correct: seinen
 ---
 
-[Wetter] Bei Regen brauche ich ___ Freund. (er)
+Bei Regen brauche ich ___ Freund. (er)
+

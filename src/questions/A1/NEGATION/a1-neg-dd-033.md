@@ -9,4 +9,5 @@ words:
   - Mutter
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Negation — nicht meine Mutter)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht meine Mutter)
+

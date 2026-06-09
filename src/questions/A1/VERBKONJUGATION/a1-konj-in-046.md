@@ -5,4 +5,5 @@ correct:
   - stehen
 ---
 
-[Familie] Wir ___ zusammen auf. (aufstehen, wir)
+Wir ___ zusammen auf. (aufstehen, wir)
+

@@ -8,4 +8,5 @@ words:
   - Spaß
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Artikel — das Hobby)
+Ordne die Wörter zum richtigen Satz: (Artikel — das Hobby)
+

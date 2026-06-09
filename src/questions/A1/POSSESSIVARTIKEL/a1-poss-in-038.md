@@ -5,4 +5,5 @@ correct:
   - dein
 ---
 
-[Hobby] Spielst du ___ Spiel? (du, neutr., Akk.)
+Spielst du ___ Spiel? (du, neutr., Akk.)
+

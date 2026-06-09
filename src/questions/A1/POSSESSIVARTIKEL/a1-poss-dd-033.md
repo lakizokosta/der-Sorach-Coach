@@ -8,4 +8,5 @@ words:
   - gesund
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Possessivartikel — meine)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — meine)
+

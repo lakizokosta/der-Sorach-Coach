@@ -5,4 +5,5 @@ correct:
   - einen
 ---
 
-[Gesundheit] Ich brauche ___ Termin. (ein Termin, Akk.)
+Ich brauche ___ Termin. (ein Termin, Akk.)
+

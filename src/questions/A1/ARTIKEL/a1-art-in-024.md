@@ -5,4 +5,5 @@ correct:
   - ein
 ---
 
-[Transport] Wir nehmen ___ Taxi. (ein Taxi, neutr., Akk.)
+Wir nehmen ___ Taxi. (ein Taxi, neutr., Akk.)
+

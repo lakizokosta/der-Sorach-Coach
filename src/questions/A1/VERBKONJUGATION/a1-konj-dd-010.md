@@ -8,4 +8,5 @@ words:
   - Oma
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Verb — besuchen, wir)
+Ordne die Wörter zum richtigen Satz: (Verb — besuchen, wir)
+

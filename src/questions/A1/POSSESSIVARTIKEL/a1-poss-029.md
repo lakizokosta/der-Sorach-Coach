@@ -9,4 +9,5 @@ options:
 correct: eure
 ---
 
-[Einkaufen] ___ Mutter ist teuer. (ihr)
+___ Mutter ist teuer. (ihr)
+

@@ -5,4 +5,5 @@ correct:
   - der Party
 ---
 
-[Stadt] Auf ___ Party tanzen alle. (die Party, Dat.)
+Auf ___ Party tanzen alle. (die Party, Dat.)
+

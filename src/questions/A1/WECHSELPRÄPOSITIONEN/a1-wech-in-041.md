@@ -5,4 +5,5 @@ correct:
   - auf die
 ---
 
-[Sport] Er springt ___ Matte. (auf + die, Bewegung)
+Er springt ___ Matte. (auf + die, Bewegung)
+

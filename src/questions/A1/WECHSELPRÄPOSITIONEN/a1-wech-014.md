@@ -9,4 +9,5 @@ options:
 correct: auf das
 ---
 
-[Stadt] Ich klettere ___ Dach. (Bewegung → Akkusativ)
+Ich klettere ___ Dach. (Bewegung → Akkusativ)
+

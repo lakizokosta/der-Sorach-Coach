@@ -8,4 +8,5 @@ words:
   - hell
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Artikel — die Lampe)
+Ordne die Wörter zum richtigen Satz: (Artikel — die Lampe)
+

@@ -8,4 +8,5 @@ words:
   - Freunde
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Negation — keine Freunde)
+Ordne die Wörter zum richtigen Satz: (Negation — keine Freunde)
+

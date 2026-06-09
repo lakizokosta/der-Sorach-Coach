@@ -8,4 +8,5 @@ words:
   - Büro
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Verb — arbeiten, ich)
+Ordne die Wörter zum richtigen Satz: (Verb — arbeiten, ich)
+

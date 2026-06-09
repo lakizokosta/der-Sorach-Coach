@@ -8,4 +8,5 @@ words:
   - interessant
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Negation — nicht interessant)
+Ordne die Wörter zum richtigen Satz: (Negation — nicht interessant)
+

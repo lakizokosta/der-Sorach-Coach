@@ -5,4 +5,5 @@ correct:
   - den
 ---
 
-[Gesundheit] Sie trinkt ___ Tee. (der Tee, Akk.)
+Sie trinkt ___ Tee. (der Tee, Akk.)
+

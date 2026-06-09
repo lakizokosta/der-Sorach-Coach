@@ -5,4 +5,5 @@ correct:
   - neue
 ---
 
-[Transport] Das ___ Auto ist schnell. (neu, neutr., Nom.)
+Das ___ Auto ist schnell. (neu, neutr., Nom.)
+

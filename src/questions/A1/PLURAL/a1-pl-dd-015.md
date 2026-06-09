@@ -8,4 +8,5 @@ words:
   - nett
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Plural — die Kollegen)
+Ordne die Wörter zum richtigen Satz: (Plural — die Kollegen)
+

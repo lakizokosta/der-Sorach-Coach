@@ -8,4 +8,5 @@ words:
   - Mantel
 ---
 
-[Kleidung] Ordne die Wörter zum richtigen Satz: (Verb — tragen, ich)
+Ordne die Wörter zum richtigen Satz: (Verb — tragen, ich)
+

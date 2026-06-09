@@ -5,4 +5,5 @@ correct:
   - auf dem
 ---
 
-[Essen] Das Buch liegt ___ Tisch. (auf + der, Ort)
+Das Buch liegt ___ Tisch. (auf + der, Ort)
+

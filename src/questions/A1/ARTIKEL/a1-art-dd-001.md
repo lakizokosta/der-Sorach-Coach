@@ -8,4 +8,5 @@ words:
   - neu
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Artikel — der Tisch)
+Ordne die Wörter zum richtigen Satz: (Artikel — der Tisch)
+

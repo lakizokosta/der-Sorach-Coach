@@ -8,4 +8,5 @@ words:
   - rot
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Plural — die Tomaten)
+Ordne die Wörter zum richtigen Satz: (Plural — die Tomaten)
+

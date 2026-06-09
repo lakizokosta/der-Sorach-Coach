@@ -8,4 +8,5 @@ words:
   - heute
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Verb — kaufen, du)
+Ordne die Wörter zum richtigen Satz: (Verb — kaufen, du)
+

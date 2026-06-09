@@ -5,4 +5,5 @@ correct:
   - Wo
 ---
 
-[Reisen] ___ warst du im Urlaub? — In Spanien. (Frage nach Ort)
+___ warst du im Urlaub? — In Spanien. (Frage nach Ort)
+

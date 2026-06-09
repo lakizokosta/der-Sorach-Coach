@@ -9,4 +9,5 @@ words:
   - Bühne
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf die Bühne (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf die Bühne (Bewegung))
+

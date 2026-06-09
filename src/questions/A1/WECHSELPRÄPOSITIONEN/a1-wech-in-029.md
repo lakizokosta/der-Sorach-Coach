@@ -5,4 +5,5 @@ correct:
   - ins
 ---
 
-[Hobby] Ich gehe ___ Schwimmbad. (in + das, Bewegung)
+Ich gehe ___ Schwimmbad. (in + das, Bewegung)
+

@@ -8,4 +8,5 @@ words:
   - schwierig
 ---
 
-[Schule] Ordne die Wörter zum richtigen Satz: (Gegenteil — einfach / schwierig)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — einfach / schwierig)
+

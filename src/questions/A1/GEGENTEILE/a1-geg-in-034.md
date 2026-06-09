@@ -5,4 +5,5 @@ correct:
   - laut
 ---
 
-[Zuhause] Das Zimmer ist ruhig, die Straße ist ___. (Gegenteil von ruhig)
+Das Zimmer ist ruhig, die Straße ist ___. (Gegenteil von ruhig)
+

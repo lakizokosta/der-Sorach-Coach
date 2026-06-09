@@ -9,4 +9,5 @@ words:
   - Regal
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Regal (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Regal (Bewegung))
+

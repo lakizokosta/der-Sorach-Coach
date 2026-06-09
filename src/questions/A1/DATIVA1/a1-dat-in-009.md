@@ -5,4 +5,5 @@ correct:
   - dir
 ---
 
-[Essen] Das schmeckt ___ gut. (du, Dat.)
+Das schmeckt ___ gut. (du, Dat.)
+

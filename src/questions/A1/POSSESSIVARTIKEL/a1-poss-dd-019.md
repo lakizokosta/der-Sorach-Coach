@@ -9,4 +9,5 @@ words:
   - Zimmer
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Possessivartikel — meinem)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — meinem)
+

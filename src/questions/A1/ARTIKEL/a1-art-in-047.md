@@ -5,4 +5,5 @@ correct:
   - Das
 ---
 
-[Musik] ___ Konzert war laut. (das Konzert, Nom.)
+___ Konzert war laut. (das Konzert, Nom.)
+

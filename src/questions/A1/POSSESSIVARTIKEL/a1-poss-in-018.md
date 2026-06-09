@@ -5,4 +5,5 @@ correct:
   - meinen
 ---
 
-[Reisen] Ich packe ___ Koffer. (ich, mask., Akk.)
+Ich packe ___ Koffer. (ich, mask., Akk.)
+

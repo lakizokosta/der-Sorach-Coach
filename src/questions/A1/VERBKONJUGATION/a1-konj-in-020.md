@@ -5,4 +5,5 @@ correct:
   - nehme
 ---
 
-[Transport] Ich ___ den Zug um 8 Uhr. (nehmen, ich)
+Ich ___ den Zug um 8 Uhr. (nehmen, ich)
+

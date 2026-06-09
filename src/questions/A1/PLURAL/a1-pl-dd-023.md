@@ -8,4 +8,5 @@ words:
   - freundlich
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Plural — die Nachbarn)
+Ordne die Wörter zum richtigen Satz: (Plural — die Nachbarn)
+

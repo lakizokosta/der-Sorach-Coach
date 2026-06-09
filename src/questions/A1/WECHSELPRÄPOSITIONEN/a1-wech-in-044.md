@@ -5,4 +5,5 @@ correct:
   - im
 ---
 
-[Wetter] Wir sind ___ Keller. (in + dem, Ort)
+Wir sind ___ Keller. (in + dem, Ort)
+

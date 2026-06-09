@@ -8,4 +8,5 @@ words:
   - schön
 ---
 
-[Musik] Ordne die Wörter zum richtigen Satz: (Artikel — die Gitarre)
+Ordne die Wörter zum richtigen Satz: (Artikel — die Gitarre)
+

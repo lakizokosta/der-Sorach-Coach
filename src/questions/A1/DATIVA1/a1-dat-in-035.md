@@ -5,4 +5,5 @@ correct:
   - den Kindern
 ---
 
-[Familie] Ich bringe ___ Kindern Süßigkeiten. (die Kinder, Dat.)
+Ich bringe ___ Kindern Süßigkeiten. (die Kinder, Dat.)
+

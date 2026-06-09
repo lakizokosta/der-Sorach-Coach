@@ -9,4 +9,5 @@ options:
 correct: spiele
 ---
 
-[Sport] Ich ___ Fußball im Park. (spielen)
+Ich ___ Fußball im Park. (spielen)
+

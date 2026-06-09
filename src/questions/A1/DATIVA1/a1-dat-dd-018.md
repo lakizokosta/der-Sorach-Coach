@@ -8,4 +8,5 @@ words:
   - Verkäufer
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Dativ — dem Verkäufer danken)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem Verkäufer danken)
+

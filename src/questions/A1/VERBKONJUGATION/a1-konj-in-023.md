@@ -5,4 +5,5 @@ correct:
   - besuchen
 ---
 
-[Familie] Wir ___ unsere Großeltern. (besuchen, wir)
+Wir ___ unsere Großeltern. (besuchen, wir)
+

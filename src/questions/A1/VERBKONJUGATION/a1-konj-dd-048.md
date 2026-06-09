@@ -8,4 +8,5 @@ words:
   - Angebot
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Verb — finden, wir)
+Ordne die Wörter zum richtigen Satz: (Verb — finden, wir)
+

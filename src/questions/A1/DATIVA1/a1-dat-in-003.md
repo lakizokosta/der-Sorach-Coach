@@ -5,4 +5,5 @@ correct:
   - dem
 ---
 
-[Schule] Ich danke ___ Lehrer. (der Lehrer, Dat.)
+Ich danke ___ Lehrer. (der Lehrer, Dat.)
+

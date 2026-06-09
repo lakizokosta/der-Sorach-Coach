@@ -5,4 +5,5 @@ correct:
   - das
 ---
 
-[Einkaufen] Ich finde ___ Angebot. (das Angebot, Akk.)
+Ich finde ___ Angebot. (das Angebot, Akk.)
+

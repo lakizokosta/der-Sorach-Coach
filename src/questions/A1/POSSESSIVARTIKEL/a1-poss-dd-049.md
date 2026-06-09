@@ -2,10 +2,10 @@
 id: a1-poss-dd-049
 type: dropbox
 words:
-  - Das
-  - ist
-  - meines
-  - Vaters
+  - Sie
+  - schickt
+  - ihrer
+  - Freundin
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Possessivartikel — meines)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer)

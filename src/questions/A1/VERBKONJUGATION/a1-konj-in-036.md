@@ -5,4 +5,5 @@ correct:
   - wäschst
 ---
 
-[Zuhause] Du ___ die Kleidung. (waschen, du)
+Du ___ die Kleidung. (waschen, du)
+

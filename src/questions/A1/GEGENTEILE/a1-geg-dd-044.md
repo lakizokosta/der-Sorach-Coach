@@ -8,4 +8,5 @@ words:
   - salzig
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Gegenteil — süß / salzig)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — süß / salzig)
+

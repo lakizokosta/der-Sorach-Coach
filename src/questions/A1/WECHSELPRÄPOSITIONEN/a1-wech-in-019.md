@@ -5,4 +5,5 @@ correct:
   - in den
 ---
 
-[Transport] Wir steigen ___ Bus. (in + den, Bewegung)
+Wir steigen ___ Bus. (in + den, Bewegung)
+

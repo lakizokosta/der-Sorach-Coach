@@ -9,4 +9,5 @@ words:
   - Aufgabe
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Adjektiv — eine wichtige Aufgabe)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — eine wichtige Aufgabe)
+

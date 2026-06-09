@@ -5,4 +5,5 @@ correct:
   - hohen
 ---
 
-[Stadt] Ich sehe einen ___ Turm. (hoch, mask., Akk.)
+Ich sehe einen ___ Turm. (hoch, mask., Akk.)
+

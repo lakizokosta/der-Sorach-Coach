@@ -5,4 +5,5 @@ correct:
   - Was
 ---
 
-[Essen] ___ trinkst du zum Frühstück? — Tee. (Frage nach Getränk)
+___ trinkst du zum Frühstück? — Tee. (Frage nach Getränk)
+

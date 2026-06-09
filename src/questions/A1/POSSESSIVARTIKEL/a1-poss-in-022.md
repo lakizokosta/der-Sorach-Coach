@@ -5,4 +5,5 @@ correct:
   - meine
 ---
 
-[Hobby] Ich lese gern ___ Bücher. (ich, Pl., Akk.)
+Ich lese gern ___ Bücher. (ich, Pl., Akk.)
+

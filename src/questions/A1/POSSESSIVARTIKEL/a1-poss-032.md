@@ -9,4 +9,5 @@ options:
 correct: seine
 ---
 
-[Familie] ___ Mutter kocht gern. (er)
+___ Mutter kocht gern. (er)
+

@@ -8,4 +8,5 @@ words:
   - Zeit
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Artikel — keine Zeit)
+Ordne die Wörter zum richtigen Satz: (Artikel — keine Zeit)
+

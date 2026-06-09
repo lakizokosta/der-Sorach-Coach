@@ -5,4 +5,5 @@ correct:
   - leise
 ---
 
-[Tiere] Der Hund ist laut, die Katze ist ___. (Gegenteil von laut)
+Der Hund ist laut, die Katze ist ___. (Gegenteil von laut)
+

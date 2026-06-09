@@ -5,4 +5,5 @@ correct:
   - der
 ---
 
-[Freunde] Ich antworte ___ Freundin. (die Freundin, Dat.)
+Ich antworte ___ Freundin. (die Freundin, Dat.)
+

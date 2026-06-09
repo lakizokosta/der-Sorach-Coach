@@ -8,4 +8,5 @@ words:
   - Koch
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Possessivartikel — unserem)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — unserem)
+

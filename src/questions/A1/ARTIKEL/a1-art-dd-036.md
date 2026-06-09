@@ -8,4 +8,5 @@ words:
   - spannend
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Artikel — das Buch)
+Ordne die Wörter zum richtigen Satz: (Artikel — das Buch)
+

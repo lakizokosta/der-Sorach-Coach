@@ -5,4 +5,5 @@ correct:
   - Der
 ---
 
-[Transport] ___ Zug kommt pünktlich. (der Zug, Nom.)
+___ Zug kommt pünktlich. (der Zug, Nom.)
+

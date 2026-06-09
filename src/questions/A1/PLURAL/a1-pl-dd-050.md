@@ -8,4 +8,5 @@ words:
   - draußen
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Plural — die Patienten)
+Ordne die Wörter zum richtigen Satz: (Plural — die Patienten)
+

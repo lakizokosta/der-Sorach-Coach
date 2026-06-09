@@ -8,4 +8,5 @@ words:
   - dich
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (W-Frage — Wie fühlen?)
+Ordne die Wörter zum richtigen Satz: (W-Frage — Wie fühlen?)
+

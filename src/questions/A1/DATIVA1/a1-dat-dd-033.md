@@ -8,4 +8,5 @@ words:
   - Chef
 ---
 
-[Arbeit] Ordne die Wörter zum richtigen Satz: (Dativ — meinem Chef schreiben)
+Ordne die Wörter zum richtigen Satz: (Dativ — meinem Chef schreiben)
+

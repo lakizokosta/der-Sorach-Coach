@@ -5,4 +5,5 @@ correct:
   - Wo
 ---
 
-[Stadt] ___ liegt der Supermarkt? — In der Hauptstraße. (Frage nach Ort)
+___ liegt der Supermarkt? — In der Hauptstraße. (Frage nach Ort)
+

@@ -9,4 +9,5 @@ options:
 correct: meinen
 ---
 
-[Kleidung] Im Winter trage ich ___ Freund. (ich)
+Im Winter trage ich ___ Freund. (ich)
+

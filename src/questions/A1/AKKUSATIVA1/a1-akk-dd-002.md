@@ -8,4 +8,5 @@ words:
   - Apfel
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Apfel kaufen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Apfel kaufen)
+

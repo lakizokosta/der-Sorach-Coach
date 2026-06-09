@@ -8,4 +8,5 @@ words:
   - Obst
 ---
 
-[Essen] Ordne die Wörter zum richtigen Satz: (Verb — essen, du)
+Ordne die Wörter zum richtigen Satz: (Verb — essen, du)
+

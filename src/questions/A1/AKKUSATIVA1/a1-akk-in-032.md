@@ -5,4 +5,5 @@ correct:
   - die
 ---
 
-[Schule] Ich lerne ___ Wörter. (die Wörter, Akk.)
+Ich lerne ___ Wörter. (die Wörter, Akk.)
+

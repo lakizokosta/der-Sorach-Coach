@@ -8,4 +8,5 @@ words:
   - Fenster
 ---
 
-[Zuhause] Ordne die Wörter zum richtigen Satz: (Akkusativ — das Fenster öffnen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — das Fenster öffnen)
+

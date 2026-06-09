@@ -5,4 +5,5 @@ correct:
   - niedrig
 ---
 
-[Stadt] Der Berg ist hoch, das Tal ist ___. (Gegenteil von hoch)
+Der Berg ist hoch, das Tal ist ___. (Gegenteil von hoch)
+

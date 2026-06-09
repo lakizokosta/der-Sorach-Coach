@@ -8,4 +8,5 @@ words:
   - Einkauf
 ---
 
-[Einkaufen] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Einkauf bezahlen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den Einkauf bezahlen)
+

@@ -5,4 +5,5 @@ correct:
   - das
 ---
 
-[Essen] Ich esse ___ Brot. (das Brot, Akk.)
+Ich esse ___ Brot. (das Brot, Akk.)
+

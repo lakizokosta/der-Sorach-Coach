@@ -9,4 +9,5 @@ words:
   - schön
 ---
 
-[Familie] Ordne die Wörter zum richtigen Satz: (Adjektiv — der alte Garten)
+Ordne die Wörter zum richtigen Satz: (Adjektiv — der alte Garten)
+

@@ -708,7 +708,7 @@ const canAdvance = computed(() => lastAnswerResolved.value);
     />
 
     <div v-if="showRetry" class="retry-hint">
-      ❌ Falsch! Wähle jetzt die richtige Antwort.
+      ❌ Falsch! Versuche es noch einmal.
     </div>
 
     <div v-if="showGrammarTip" style="margin: 12px 0;">

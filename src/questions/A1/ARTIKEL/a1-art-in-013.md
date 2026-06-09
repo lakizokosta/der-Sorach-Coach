@@ -5,4 +5,5 @@ correct:
   - Die
 ---
 
-[Essen] ___ Pizza ist heiß. (die Pizza, Nom.)
+___ Pizza ist heiß. (die Pizza, Nom.)
+

@@ -5,4 +5,5 @@ correct:
   - einen
 ---
 
-[Essen] Ich bestelle ___ Salat. (ein Salat, Akk.)
+Ich bestelle ___ Salat. (ein Salat, Akk.)
+

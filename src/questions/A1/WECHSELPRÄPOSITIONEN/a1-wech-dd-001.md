@@ -9,4 +9,5 @@ words:
   - Kino
 ---
 
-[Hobby] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Kino (Bewegung))
+Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Kino (Bewegung))
+

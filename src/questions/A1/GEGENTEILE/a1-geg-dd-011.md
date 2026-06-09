@@ -8,4 +8,5 @@ words:
   - traurig
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Gegenteil — fröhlich / traurig)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — fröhlich / traurig)
+

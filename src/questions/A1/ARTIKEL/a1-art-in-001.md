@@ -5,4 +5,5 @@ correct:
   - Der
 ---
 
-[Zuhause] ___ Tisch ist aus Holz. (der Tisch, Nom.)
+___ Tisch ist aus Holz. (der Tisch, Nom.)
+

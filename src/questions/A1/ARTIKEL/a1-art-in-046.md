@@ -5,4 +5,5 @@ correct:
   - Das
 ---
 
-[Sport] ___ Schwimmbad ist neu. (das Schwimmbad, Nom.)
+___ Schwimmbad ist neu. (das Schwimmbad, Nom.)
+

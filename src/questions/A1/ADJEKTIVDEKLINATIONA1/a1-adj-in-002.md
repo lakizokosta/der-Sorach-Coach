@@ -5,4 +5,5 @@ correct:
   - kleine
 ---
 
-[Stadt] Der ___ Hund bellt laut. (klein, mask., Nom.)
+Der ___ Hund bellt laut. (klein, mask., Nom.)
+

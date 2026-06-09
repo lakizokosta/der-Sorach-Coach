@@ -8,4 +8,5 @@ words:
   - aus
 ---
 
-[Gesundheit] Ordne die Wörter zum richtigen Satz: (Verb — ruhen, er)
+Ordne die Wörter zum richtigen Satz: (Verb — ruhen, er)
+

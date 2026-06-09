@@ -9,4 +9,5 @@ options:
 correct: schreiben
 ---
 
-[Hobby] Wir ___ eine E-Mail an Freunde. (schreiben)
+Wir ___ eine E-Mail an Freunde. (schreiben)
+

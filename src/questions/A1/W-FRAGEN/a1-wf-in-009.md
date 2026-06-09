@@ -5,4 +5,5 @@ correct:
   - Wie viel
 ---
 
-[Einkaufen] ___ kostet das Brot? — 2 Euro. (Frage nach Preis)
+___ kostet das Brot? — 2 Euro. (Frage nach Preis)
+

@@ -5,4 +5,5 @@ correct:
   - starkem
 ---
 
-[Wetter] Bei ___ Wind ziehe ich eine Jacke an. (stark, mask., Dat.)
+Bei ___ Wind ziehe ich eine Jacke an. (stark, mask., Dat.)
+

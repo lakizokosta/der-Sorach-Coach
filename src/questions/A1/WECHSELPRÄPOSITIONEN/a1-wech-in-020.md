@@ -5,4 +5,5 @@ correct:
   - im
 ---
 
-[Transport] Wir sitzen ___ Bus. (in + dem, Ort)
+Wir sitzen ___ Bus. (in + dem, Ort)
+
