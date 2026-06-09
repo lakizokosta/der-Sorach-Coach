@@ -5,7 +5,7 @@ options:
   - spielt
   - spiele
   - spielen
-  - spielen
+  - machen
 correct: spiele
 ---
 

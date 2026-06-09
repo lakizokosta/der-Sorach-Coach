@@ -4,8 +4,8 @@ type: select-one
 options:
   - singen
   - singt
-  - singen
   - singst
+  - machen
 correct: singt
 ---
 

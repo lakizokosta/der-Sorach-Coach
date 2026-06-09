@@ -4,8 +4,8 @@ type: select-one
 options:
   - lernen
   - lernt
-  - lernt
   - lerne
+  - machen
 correct: lerne
 ---
 

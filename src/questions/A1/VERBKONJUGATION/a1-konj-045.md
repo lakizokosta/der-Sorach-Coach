@@ -5,7 +5,7 @@ options:
   - wohnt
   - wohnen
   - wohne
-  - wohnt
+  - machen
 correct: wohnen
 ---
 

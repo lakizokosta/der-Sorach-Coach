@@ -5,7 +5,7 @@ options:
   - kauft
   - kaufst
   - kaufen
-  - kaufen
+  - machen
 correct: kaufst
 ---
 

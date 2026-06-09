@@ -2,11 +2,11 @@
 id: b1-sprach-005
 type: select-one
 options:
-  - beim
-  - am
-  - zum
+  - in
   - im
-correct: im
+  - am
+  - beim
+correct: in
 ---
 
 Wir bitten Sie, pünktlich ___ dem Seminarraum zu erscheinen.

@@ -4,8 +4,8 @@ type: select-one
 options:
   - schreibst
   - schreibt
-  - schreibt
   - schreiben
+  - machen
 correct: schreiben
 ---
 

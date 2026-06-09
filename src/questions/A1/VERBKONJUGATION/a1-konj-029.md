@@ -5,7 +5,7 @@ options:
   - arbeitet
   - arbeiten
   - arbeite
-  - arbeitet
+  - machen
 correct: arbeiten
 ---
 

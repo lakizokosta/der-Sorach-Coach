@@ -6,7 +6,7 @@ options:
   - zum
   - im
   - beim
-correct: im
+correct: in
 ---
 
 Wir bitten Sie, pünktlich ___ dem Seminarraum zu erscheinen.

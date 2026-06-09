@@ -18,7 +18,7 @@ export const SPRACH_STANDALONE = [
     options: ['auf', 'an', 'in', 'bei'],
   },
   {
-    prompt: '___ weiterer Fragen steht Ihnen unsere Hotline werktags von 9 bis 17 Uhr zur Verfügung.',
+    prompt: '___ weiteren Fragen steht Ihnen unsere Hotline werktags von 9 bis 17 Uhr zur Verfügung.',
     correct: 'Bei',
     options: ['Bei', 'Für', 'Mit', 'An'],
   },

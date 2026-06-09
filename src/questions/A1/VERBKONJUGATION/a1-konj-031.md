@@ -5,7 +5,7 @@ options:
   - lernen
   - lernt
   - lernst
-  - lernen
+  - machen
 correct: lernt
 ---
 

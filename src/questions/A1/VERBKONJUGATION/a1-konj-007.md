@@ -4,8 +4,8 @@ type: select-one
 options:
   - kaufen
   - kaufst
-  - kaufen
-  - kaufen
+  - machen
+  - gehen
 correct: kaufst
 ---
 

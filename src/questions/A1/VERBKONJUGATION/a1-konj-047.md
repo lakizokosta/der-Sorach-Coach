@@ -5,7 +5,7 @@ options:
   - hören
   - hört
   - hörst
-  - hört
+  - machen
 correct: hörst
 ---
 

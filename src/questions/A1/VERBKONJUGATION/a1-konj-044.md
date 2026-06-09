@@ -4,8 +4,8 @@ type: select-one
 options:
   - arbeitest
   - arbeitet
-  - arbeitet
   - arbeiten
+  - machen
 correct: arbeiten
 ---
 

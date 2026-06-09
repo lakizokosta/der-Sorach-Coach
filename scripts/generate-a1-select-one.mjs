@@ -66,7 +66,8 @@ function pickDistractors(pool, correct, count, seed) {
 }
 
 function options4(correct, pool, seed) {
-  return shuffle([correct, ...pickDistractors(pool, correct, 3, seed)], seed);
+  const unique = [...new Set(pool.filter((x) => x !== correct))];
+  return shuffle([correct, ...pickDistractors(unique, correct, 3, seed)], seed);
 }
 
 function options5(correct, pool, seed) {
@@ -270,7 +271,7 @@ function genKonjugation() {
     const v = verbs[i % verbs.length];
     const [subj, key] = subjects[i % subjects.length];
     const correct = v[key === 'er/sie' ? 'er' : key];
-    const pool = [v.ich, v.du, v.er, v.wir, v.ihr, v.sie, v.inf];
+    const pool = [...new Set([v.ich, v.du, v.er, v.wir, v.ihr, v.sie, v.inf])];
     const theme = themes[i % themes.length];
     out.push({
       prompt: `[${theme}] ${subj.charAt(0).toUpperCase() + subj.slice(1)} ___ ${v.ctx}. (${v.inf})`,
@@ -559,7 +560,7 @@ function genGegenteile() {
     ['leicht', 'schwer', ['schwierig', 'hart', 'dick']],
     ['neu', 'alt', ['jung', 'kaputt', 'modern']],
     ['offen', 'geschlossen', ['zu', 'leer', 'voll']],
-    ['richtig', 'falsch', ['schlecht', 'falsch', 'kaputt']],
+    ['richtig', 'falsch', ['schlecht', 'kaputt', 'schwer']],
     ['fröhlich', 'traurig', ['müde', 'böse', 'still']],
     ['laut', 'leise', ['still', 'ruhig', 'sanft']],
     ['sauber', 'schmutzig', ['kaputt', 'voll', 'leer']],

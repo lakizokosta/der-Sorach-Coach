@@ -4,8 +4,8 @@ type: select-one
 options:
   - hören
   - hörst
-  - hören
   - hört
+  - machen
 correct: hört
 ---
 

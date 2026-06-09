@@ -5,4 +5,4 @@ correct:
   - die Städte
 ---
 
-Plural von „die Stadt“?
+Plural von „die Stadt“: ___

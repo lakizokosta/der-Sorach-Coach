@@ -4,8 +4,8 @@ type: select-one
 options:
   - tanzen
   - tanzt
-  - tanzen
   - tanze
+  - machen
 correct: tanzt
 ---
 

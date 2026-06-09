@@ -4,8 +4,8 @@ type: select-one
 options:
   - kochen
   - kocht
-  - kochen
   - kochst
+  - machen
 correct: kocht
 ---
 

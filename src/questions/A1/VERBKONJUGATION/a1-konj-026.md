@@ -5,7 +5,7 @@ options:
   - kochen
   - koche
   - kocht
-  - kocht
+  - machen
 correct: koche
 ---
 

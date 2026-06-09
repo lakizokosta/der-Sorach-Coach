@@ -5,7 +5,7 @@ options:
   - tanze
   - tanzt
   - tanzen
-  - tanzen
+  - machen
 correct: tanzt
 ---
 

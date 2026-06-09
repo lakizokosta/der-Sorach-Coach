@@ -3,9 +3,9 @@ id: a1-konj-012
 type: select-one
 options:
   - tanzen
-  - tanzen
-  - tanzen
   - tanzt
+  - machen
+  - gehen
 correct: tanzt
 ---
 

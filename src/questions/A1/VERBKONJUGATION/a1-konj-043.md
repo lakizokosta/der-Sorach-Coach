@@ -5,7 +5,7 @@ options:
   - singen
   - singt
   - singst
-  - singen
+  - machen
 correct: singt
 ---
 

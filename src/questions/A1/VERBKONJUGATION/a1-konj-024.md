@@ -4,8 +4,8 @@ type: select-one
 options:
   - lest
   - liest
-  - liest
   - lesen
+  - machen
 correct: lesen
 ---
 

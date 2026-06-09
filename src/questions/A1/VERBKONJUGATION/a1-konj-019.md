@@ -5,7 +5,7 @@ options:
   - isst
   - essen
   - esse
-  - isst
+  - machen
 correct: essen
 ---
 

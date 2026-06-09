@@ -5,7 +5,7 @@ options:
   - kochen
   - kocht
   - kochst
-  - kochen
+  - machen
 correct: kocht
 ---
 

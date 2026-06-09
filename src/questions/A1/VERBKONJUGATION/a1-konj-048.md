@@ -4,8 +4,8 @@ type: select-one
 options:
   - trinken
   - trinkst
-  - trinken
   - trinkt
+  - machen
 correct: trinkt
 ---
 

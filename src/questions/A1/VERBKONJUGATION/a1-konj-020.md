@@ -4,8 +4,8 @@ type: select-one
 options:
   - schwimmst
   - schwimmt
-  - schwimmt
   - schwimmen
+  - machen
 correct: schwimmen
 ---
 

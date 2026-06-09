@@ -5,7 +5,7 @@ options:
   - schreibe
   - schreibt
   - schreiben
-  - schreibt
+  - machen
 correct: schreiben
 ---
 
