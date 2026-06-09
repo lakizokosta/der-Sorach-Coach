@@ -13,6 +13,7 @@
  *   multi-select  — checkboxes, one OR more correct answers.
  *   dropbox       — drag & drop word ordering (`words:` list).
  *   input-text    — free-text fill-in-the-blank (`correct:` list).
+ *   text-gaps     — long text, clickable gaps with 3-option popups.
  *
  * Example minimal file:
  *
@@ -227,6 +228,43 @@ export function parseQuestionFile(raw, context) {
         throw new Error(`input-text needs at least one "correct" value (${context?.path})`);
       }
       question.correct = correctList;
+      break;
+    }
+    case 'text-gaps': {
+      const correctList = Array.isArray(meta.correct)
+        ? meta.correct.map(String)
+        : [];
+      const optionsRows = Array.isArray(meta.options)
+        ? meta.options.map((row) => String(row).split(',').map((s) => s.trim()).filter(Boolean))
+        : [];
+      if (!correctList.length) {
+        throw new Error(`text-gaps needs a "correct" list (${context?.path})`);
+      }
+      if (correctList.length !== optionsRows.length) {
+        throw new Error(
+          `text-gaps "correct" and "options" must have same length (${context?.path})`,
+        );
+      }
+      const gapCount = (body.match(/___/g) || []).length;
+      if (gapCount !== correctList.length) {
+        throw new Error(
+          `text-gaps: ${gapCount} "___" in body but ${correctList.length} gap(s) (${context?.path})`,
+        );
+      }
+      question.gaps = correctList.map((correct, i) => {
+        const opts = optionsRows[i];
+        if (opts.length !== 3) {
+          throw new Error(
+            `text-gaps gap ${i + 1} needs exactly 3 options (${context?.path})`,
+          );
+        }
+        if (!opts.includes(correct)) {
+          throw new Error(
+            `text-gaps gap ${i + 1}: correct "${correct}" not in options (${context?.path})`,
+          );
+        }
+        return { correct, options: opts };
+      });
       break;
     }
     default:

@@ -11,6 +11,7 @@
  *   multi-select   → MultiSelect
  *   dropbox        → DragDrop
  *   input-text     → FillBlank
+ *   text-gaps      → TextGaps (Sprachbausteine / Lesen mit Popups)
  *
  * The component re-emits `answer`, `first-wrong` and `complete` events
  * so the parent stays loosely coupled to the actual widget.
@@ -25,6 +26,7 @@ import MultipleChoice from './MultipleChoice.vue';
 import MultiSelect from './MultiSelect.vue';
 import DragDrop from './DragDrop.vue';
 import FillBlank from './FillBlank.vue';
+import TextGaps from './TextGaps.vue';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -38,6 +40,7 @@ const COMPONENT_BY_TYPE = {
   'multi-select': MultiSelect,
   'dropbox': DragDrop,
   'input-text': FillBlank,
+  'text-gaps': TextGaps,
 };
 
 const view = computed(

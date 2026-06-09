@@ -25,7 +25,7 @@ function* walk(dir) {
   }
 }
 
-const counts = { 'select-one': 0, 'multi-select': 0, dropbox: 0, 'input-text': 0 };
+const counts = { 'select-one': 0, 'multi-select': 0, dropbox: 0, 'input-text': 0, 'text-gaps': 0 };
 let errors = 0;
 let total = 0;
 
@@ -44,7 +44,7 @@ for (const file of walk(ROOT)) {
 }
 
 // eslint-disable-next-line no-console
-console.log(`\n${total} files · select-one ${counts['select-one']}, multi-select ${counts['multi-select']}, dropbox ${counts.dropbox}, input-text ${counts['input-text']}`);
+console.log(`\n${total} files · select-one ${counts['select-one']}, multi-select ${counts['multi-select']}, dropbox ${counts.dropbox}, input-text ${counts['input-text']}, text-gaps ${counts['text-gaps'] || 0}`);
 if (errors > 0) {
   // eslint-disable-next-line no-console
   console.error(`✘ ${errors} parse error(s)`);

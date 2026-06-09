@@ -109,209 +109,101 @@ export const SPRACH_STANDALONE = [
   },
 ];
 
+/** @typedef {{ correct: string, options: string[] }} Gap */
+
 /**
- * Connected texts: shared hint label + 3 questions on the same E-Mail/Brief.
- * @type {{ hint: string, questions: Q[] }[]}
+ * Long texts (>2 sentences): one task, 3 clickable gaps with popup (3 options each).
+ * @type {{ hint: string, text: string, gaps: Gap[] }[]}
  */
 export const LESEN_SERIES = [
   {
     hint: 'Leseverstehen: Bewerbung an die Universität',
-    questions: [
-      {
-        prompt: 'Sehr geehrte Damen und Herren, ich ___ mich hiermit um einen Studienplatz im Masterstudiengang Germanistik. Da ich bereits einen Bachelorabschluss in Medienwissenschaft habe, bringe ich die nötigen Vorkenntnisse mit. Für Rückfragen bin ich jederzeit für Sie erreichbar.',
-        correct: 'bewerbe',
-        options: ['bewerbe', 'bewerben', 'bewirbt', 'beworben'],
-      },
-      {
-        prompt: 'Sehr geehrte Damen und Herren, ich bewerbe mich hiermit um einen Studienplatz im Masterstudiengang Germanistik. Da ich bereits einen Bachelorabschluss ___ Medienwissenschaft habe, bringe ich die nötigen Vorkenntnisse mit. Für Rückfragen bin ich jederzeit für Sie erreichbar.',
-        correct: 'in',
-        options: ['in', 'an', 'auf', 'bei'],
-      },
-      {
-        prompt: 'Sehr geehrte Damen und Herren, ich bewerbe mich hiermit um einen Studienplatz im Masterstudiengang Germanistik. Da ich bereits einen Bachelorabschluss in Medienwissenschaft habe, bringe ich die nötigen Vorkenntnisse mit. Für Rückfragen bin ich jederzeit ___ Sie erreichbar.',
-        correct: 'für',
-        options: ['für', 'an', 'mit', 'zu'],
-      },
+    text: 'Sehr geehrte Damen und Herren, ich ___ mich hiermit um einen Studienplatz im Masterstudiengang Germanistik. Da ich bereits einen Bachelorabschluss ___ Medienwissenschaft habe, bringe ich die nötigen Vorkenntnisse mit. Für Rückfragen bin ich jederzeit ___ Sie erreichbar.',
+    gaps: [
+      { correct: 'bewerbe', options: ['bewerbe', 'bewerben', 'bewirbt'] },
+      { correct: 'in', options: ['in', 'an', 'auf'] },
+      { correct: 'für', options: ['für', 'an', 'mit'] },
     ],
   },
   {
     hint: 'Leseverstehen: Krankmeldung an den Arbeitgeber',
-    questions: [
-      {
-        prompt: 'Sehr geehrter Herr Becker, leider muss ich Ihnen ___ , dass ich heute arbeitsunfähig bin. Laut meines Arztes soll ich die nächsten drei Tage zu Hause bleiben. Die Bescheinigung erhalten Sie im Anhang.',
-        correct: 'mitteilen',
-        options: ['mitteilen', 'mitteilt', 'mitgeteilt', 'mitteilend'],
-      },
-      {
-        prompt: 'Sehr geehrter Herr Becker, leider muss ich Ihnen mitteilen, dass ich heute arbeitsunfähig bin. Laut meines Arztes soll ich die nächsten drei Tage zu Hause ___ . Die Bescheinigung erhalten Sie im Anhang.',
-        correct: 'bleiben',
-        options: ['bleiben', 'bleibt', 'blieb', 'geblieben'],
-      },
-      {
-        prompt: 'Sehr geehrter Herr Becker, leider muss ich Ihnen mitteilen, dass ich heute arbeitsunfähig bin. Laut meines Arztes soll ich die nächsten drei Tage zu Hause bleiben. Die Bescheinigung erhalten Sie im ___ .',
-        correct: 'Anhang',
-        options: ['Anhang', 'Anhänge', 'Anhanges', 'Anhängen'],
-      },
+    text: 'Sehr geehrter Herr Becker, leider muss ich Ihnen ___ , dass ich heute arbeitsunfähig bin. Laut meines Arztes soll ich die nächsten drei Tage zu Hause ___ . Die Bescheinigung erhalten Sie im ___ .',
+    gaps: [
+      { correct: 'mitteilen', options: ['mitteilen', 'mitteilt', 'mitgeteilt'] },
+      { correct: 'bleiben', options: ['bleiben', 'bleibt', 'blieb'] },
+      { correct: 'Anhang', options: ['Anhang', 'Anhänge', 'Anhanges'] },
     ],
   },
   {
     hint: 'Leseverstehen: Kündigung der Wohnung',
-    questions: [
-      {
-        prompt: 'Sehr geehrte Frau Hoffmann, hiermit ___ ich meine Wohnung in der Lindenstraße 14 zum 31. März. Die Wohnung werde ich besenrein und in ordentlichem Zustand übergeben. Bitte bestätigen Sie den Erhalt dieses Schreibens.',
-        correct: 'kündige',
-        options: ['kündige', 'kündigen', 'kündigt', 'gekündigt'],
-      },
-      {
-        prompt: 'Sehr geehrte Frau Hoffmann, hiermit kündige ich meine Wohnung in der Lindenstraße 14 zum 31. März. Die Wohnung werde ich besenrein und in ___ Zustand übergeben. Bitte bestätigen Sie den Erhalt dieses Schreibens.',
-        correct: 'ordentlichem',
-        options: ['ordentlichem', 'ordentlichen', 'ordentliche', 'ordentlicher'],
-      },
-      {
-        prompt: 'Sehr geehrte Frau Hoffmann, hiermit kündige ich meine Wohnung in der Lindenstraße 14 zum 31. März. Die Wohnung werde ich besenrein und in ordentlichem Zustand übergeben. Bitte bestätigen Sie den ___ dieses Schreibens.',
-        correct: 'Erhalt',
-        options: ['Erhalt', 'Erhaltung', 'Erhalten', 'Erhaltens'],
-      },
+    text: 'Sehr geehrte Frau Hoffmann, hiermit ___ ich meine Wohnung in der Lindenstraße 14 zum 31. März. Die Wohnung werde ich besenrein und in ___ Zustand übergeben. Bitte bestätigen Sie den ___ dieses Schreibens.',
+    gaps: [
+      { correct: 'kündige', options: ['kündige', 'kündigen', 'kündigt'] },
+      { correct: 'ordentlichem', options: ['ordentlichem', 'ordentlichen', 'ordentliche'] },
+      { correct: 'Erhalt', options: ['Erhalt', 'Erhaltung', 'Erhalten'] },
     ],
   },
   {
     hint: 'Leseverstehen: Anmeldung zum Sprachseminar',
-    questions: [
-      {
-        prompt: 'Guten Tag, ich möchte mich ___ Ihr B1-Seminar am 5. November anmelden. Da ich berufstätig bin, wäre ein Abendkurs für mich am besten geeignet. Über eine kurze Bestätigung würde ich mich freuen.',
-        correct: 'für',
-        options: ['für', 'an', 'auf', 'zu'],
-      },
-      {
-        prompt: 'Guten Tag, ich möchte mich für Ihr B1-Seminar am 5. November anmelden. Da ich berufstätig bin, wäre ein Abendkurs für mich am besten ___. Über eine kurze Bestätigung würde ich mich freuen.',
-        correct: 'geeignet',
-        options: ['geeignet', 'geeignete', 'geeigneten', 'geeignetem'],
-      },
-      {
-        prompt: 'Guten Tag, ich möchte mich für Ihr B1-Seminar am 5. November anmelden. Da ich berufstätig bin, wäre ein Abendkurs für mich am besten geeignet. Über eine kurze Bestätigung würde ich mich ___.',
-        correct: 'freuen',
-        options: ['freuen', 'freut', 'freute', 'gefreut'],
-      },
+    text: 'Guten Tag, ich möchte mich ___ Ihr B1-Seminar am 5. November anmelden. Da ich berufstätig bin, wäre ein Abendkurs für mich am besten ___. Über eine kurze Bestätigung würde ich mich ___.',
+    gaps: [
+      { correct: 'für', options: ['für', 'an', 'auf'] },
+      { correct: 'geeignet', options: ['geeignet', 'geeignete', 'geeigneten'] },
+      { correct: 'freuen', options: ['freuen', 'freut', 'freute'] },
     ],
   },
   {
     hint: 'Leseverstehen: Beschwerde an das Hotel',
-    questions: [
-      {
-        prompt: 'Sehr geehrte Damen und Herren, während meines Aufenthalts in Ihrem Hotel vom 3. bis 7. Mai musste ich leider ___ , dass mein Zimmer nicht ordnungsgemäß gereinigt war. Außerdem war die Heizung in der Nacht mehrfach ausgefallen. Ich bitte um eine angemessene Lösung.',
-        correct: 'feststellen',
-        options: ['feststellen', 'feststellt', 'festgestellt', 'feststellend'],
-      },
-      {
-        prompt: 'Sehr geehrte Damen und Herren, während meines Aufenthalts in Ihrem Hotel vom 3. bis 7. Mai musste ich leider feststellen, dass mein Zimmer nicht ordnungsgemäß ___ war. Außerdem war die Heizung in der Nacht mehrfach ausgefallen. Ich bitte um eine angemessene Lösung.',
-        correct: 'gereinigt',
-        options: ['gereinigt', 'reinigen', 'reinigt', 'reinigend'],
-      },
-      {
-        prompt: 'Sehr geehrte Damen und Herren, während meines Aufenthalts in Ihrem Hotel vom 3. bis 7. Mai musste ich leider feststellen, dass mein Zimmer nicht ordnungsgemäß gereinigt war. Außerdem war die Heizung in der Nacht mehrfach ausgefallen. Ich bitte um eine ___ Lösung.',
-        correct: 'angemessene',
-        options: ['angemessene', 'angemessenen', 'angemessenem', 'angemessener'],
-      },
+    text: 'Sehr geehrte Damen und Herren, während meines Aufenthalts in Ihrem Hotel vom 3. bis 7. Mai musste ich leider ___ , dass mein Zimmer nicht ordnungsgemäß ___ war. Außerdem war die Heizung in der Nacht mehrfach ausgefallen. Ich bitte um eine ___ Lösung.',
+    gaps: [
+      { correct: 'feststellen', options: ['feststellen', 'feststellt', 'festgestellt'] },
+      { correct: 'gereinigt', options: ['gereinigt', 'reinigen', 'reinigt'] },
+      { correct: 'angemessene', options: ['angemessene', 'angemessenen', 'angemessenem'] },
     ],
   },
   {
     hint: 'Leseverstehen: Einladung zur Firmenveranstaltung',
-    questions: [
-      {
-        prompt: 'Liebe Mitarbeiterinnen und Mitarbeiter, wir laden Sie herzlich ___ unserer Jahresfeier am Freitag, den 18. Dezember, ein. Die Veranstaltung beginnt um 18 Uhr im großen Konferenzsaal. Bitte geben Sie bis zum 10. Dezember Bescheid, ob Sie teilnehmen.',
-        correct: 'zu',
-        options: ['zu', 'an', 'auf', 'in'],
-      },
-      {
-        prompt: 'Liebe Mitarbeiterinnen und Mitarbeiter, wir laden Sie herzlich zu unserer Jahresfeier am Freitag, den 18. Dezember, ein. Die Veranstaltung beginnt um 18 Uhr im ___ Konferenzsaal. Bitte geben Sie bis zum 10. Dezember Bescheid, ob Sie teilnehmen.',
-        correct: 'großen',
-        options: ['großen', 'großem', 'große', 'großer'],
-      },
-      {
-        prompt: 'Liebe Mitarbeiterinnen und Mitarbeiter, wir laden Sie herzlich zu unserer Jahresfeier am Freitag, den 18. Dezember, ein. Die Veranstaltung beginnt um 18 Uhr im großen Konferenzsaal. Bitte geben Sie bis zum 10. Dezember ___, ob Sie teilnehmen.',
-        correct: 'Bescheid',
-        options: ['Bescheid', 'Bescheide', 'Bescheides', 'Bescheiden'],
-      },
+    text: 'Liebe Mitarbeiterinnen und Mitarbeiter, wir laden Sie herzlich ___ unserer Jahresfeier am Freitag, den 18. Dezember, ein. Die Veranstaltung beginnt um 18 Uhr im ___ Konferenzsaal. Bitte geben Sie bis zum 10. Dezember ___, ob Sie teilnehmen.',
+    gaps: [
+      { correct: 'zu', options: ['zu', 'an', 'auf'] },
+      { correct: 'großen', options: ['großen', 'großem', 'große'] },
+      { correct: 'Bescheid', options: ['Bescheid', 'Bescheide', 'Bescheides'] },
     ],
   },
   {
     hint: 'Leseverstehen: Anfrage an die Krankenkasse',
-    questions: [
-      {
-        prompt: 'Sehr geehrte Damen und Herren, ich ___ mich an Sie, weil ich eine Frage zur Kostenübernahme eines Rehasportkurses habe. Mein Hausarzt hat mir diesen Kurs empfohlen. Könnten Sie mir bitte mitteilen, welche Unterlagen Sie benötigen?',
-        correct: 'wende',
-        options: ['wende', 'wenden', 'wendet', 'gewandt'],
-      },
-      {
-        prompt: 'Sehr geehrte Damen und Herren, ich wende mich an Sie, weil ich eine Frage zur Kostenübernahme eines Rehasportkurses habe. Mein Hausarzt hat mir diesen Kurs ___. Könnten Sie mir bitte mitteilen, welche Unterlagen Sie benötigen?',
-        correct: 'empfohlen',
-        options: ['empfohlen', 'empfehlen', 'empfiehlt', 'empfehlend'],
-      },
-      {
-        prompt: 'Sehr geehrte Damen und Herren, ich wende mich an Sie, weil ich eine Frage zur Kostenübernahme eines Rehasportkurses habe. Mein Hausarzt hat mir diesen Kurs empfohlen. Könnten Sie mir bitte ___, welche Unterlagen Sie benötigen?',
-        correct: 'mitteilen',
-        options: ['mitteilen', 'mitteilt', 'mitgeteilt', 'mitteilend'],
-      },
+    text: 'Sehr geehrte Damen und Herren, ich ___ mich an Sie, weil ich eine Frage zur Kostenübernahme eines Rehasportkurses habe. Mein Hausarzt hat mir diesen Kurs ___. Könnten Sie mir bitte ___, welche Unterlagen Sie benötigen?',
+    gaps: [
+      { correct: 'wende', options: ['wende', 'wenden', 'wendet'] },
+      { correct: 'empfohlen', options: ['empfohlen', 'empfehlen', 'empfiehlt'] },
+      { correct: 'mitteilen', options: ['mitteilen', 'mitteilt', 'mitgeteilt'] },
     ],
   },
   {
     hint: 'Leseverstehen: Einladung zum Elternabend',
-    questions: [
-      {
-        prompt: 'Sehr geehrte Eltern, wir laden Sie herzlich zum Elternabend ___ Klasse 8b ein. Die Veranstaltung findet am Donnerstag um 19 Uhr in der Aula statt. Bitte melden Sie sich bis Mittwoch bei der Klassenleitung an.',
-        correct: 'der',
-        options: ['der', 'den', 'dem', 'die'],
-      },
-      {
-        prompt: 'Sehr geehrte Eltern, wir laden Sie herzlich zum Elternabend der Klasse 8b ein. Die Veranstaltung findet am Donnerstag um 19 Uhr in der Aula ___. Bitte melden Sie sich bis Mittwoch bei der Klassenleitung an.',
-        correct: 'statt',
-        options: ['statt', 'an', 'vor', 'nach'],
-      },
-      {
-        prompt: 'Sehr geehrte Eltern, wir laden Sie herzlich zum Elternabend der Klasse 8b ein. Die Veranstaltung findet am Donnerstag um 19 Uhr in der Aula statt. Bitte melden Sie sich bis Mittwoch bei der Klassenleitung ___.',
-        correct: 'an',
-        options: ['an', 'auf', 'zu', 'mit'],
-      },
+    text: 'Sehr geehrte Eltern, wir laden Sie herzlich zum Elternabend ___ Klasse 8b ein. Die Veranstaltung findet am Donnerstag um 19 Uhr in der Aula ___. Bitte melden Sie sich bis Mittwoch bei der Klassenleitung ___.',
+    gaps: [
+      { correct: 'der', options: ['der', 'den', 'dem'] },
+      { correct: 'statt', options: ['statt', 'an', 'vor'] },
+      { correct: 'an', options: ['an', 'auf', 'zu'] },
     ],
   },
   {
     hint: 'Leseverstehen: Anfrage nach einem Praktikumsplatz',
-    questions: [
-      {
-        prompt: 'Sehr geehrter Herr Schneider, mit großem Interesse habe ich Ihre Stellenanzeige ___ Praktikantin im Marketing gelesen. Ich studiere im vierten Semester Betriebswirtschaft und suche ab Juli ein Pflichtpraktikum. Gerne würde ich mich persönlich bei Ihnen vorstellen.',
-        correct: 'als',
-        options: ['als', 'für', 'an', 'bei'],
-      },
-      {
-        prompt: 'Sehr geehrter Herr Schneider, mit großem Interesse habe ich Ihre Stellenanzeige als Praktikantin im Marketing gelesen. Ich studiere im vierten Semester Betriebswirtschaft und suche ab Juli ein ___ Praktikum. Gerne würde ich mich persönlich bei Ihnen vorstellen.',
-        correct: 'Pflicht',
-        options: ['Pflicht', 'Pflichten', 'Pflichtes', 'Pflichtend'],
-      },
-      {
-        prompt: 'Sehr geehrter Herr Schneider, mit großem Interesse habe ich Ihre Stellenanzeige als Praktikantin im Marketing gelesen. Ich studiere im vierten Semester Betriebswirtschaft und suche ab Juli ein Pflichtpraktikum. Gerne würde ich mich persönlich ___ Ihnen vorstellen.',
-        correct: 'bei',
-        options: ['bei', 'an', 'mit', 'zu'],
-      },
+    text: 'Sehr geehrter Herr Schneider, mit großem Interesse habe ich Ihre Stellenanzeige ___ Praktikantin im Marketing gelesen. Ich studiere im vierten Semester Betriebswirtschaft und suche ab Juli ein ___ Praktikum. Gerne würde ich mich persönlich ___ Ihnen vorstellen.',
+    gaps: [
+      { correct: 'als', options: ['als', 'für', 'an'] },
+      { correct: 'Pflicht', options: ['Pflicht', 'Pflichten', 'Pflichtes'] },
+      { correct: 'bei', options: ['bei', 'an', 'mit'] },
     ],
   },
   {
     hint: 'Leseverstehen: Dankesbrief nach dem Vorstellungsgespräch',
-    questions: [
-      {
-        prompt: 'Sehr geehrte Frau Krause, vielen Dank für das freundliche Gespräch am Montag. Ich habe den Eindruck gewonnen, dass meine Erfahrung gut ___ Ihren Anforderungen passt. Über eine Rückmeldung würde ich mich sehr freuen.',
-        correct: 'zu',
-        options: ['zu', 'an', 'auf', 'mit'],
-      },
-      {
-        prompt: 'Sehr geehrte Frau Krause, vielen Dank für das freundliche Gespräch am Montag. Ich habe den Eindruck gewonnen, dass meine Erfahrung gut zu Ihren Anforderungen passt. Über eine ___ würde ich mich sehr freuen.',
-        correct: 'Rückmeldung',
-        options: ['Rückmeldung', 'Rückmeldungen', 'Rückmeldend', 'Rückmelden'],
-      },
-      {
-        prompt: 'Sehr geehrte Frau Krause, vielen Dank für das freundliche Gespräch am Montag. Ich habe den Eindruck gewonnen, dass meine Erfahrung gut zu Ihren Anforderungen passt. Über eine Rückmeldung würde ich mich sehr ___.',
-        correct: 'freuen',
-        options: ['freuen', 'freut', 'freute', 'gefreut'],
-      },
+    text: 'Sehr geehrte Frau Krause, vielen Dank für das freundliche Gespräch am Montag. Ich habe den Eindruck gewonnen, dass meine Erfahrung gut ___ Ihren Anforderungen passt. Über eine ___ würde ich mich sehr ___.',
+    gaps: [
+      { correct: 'zu', options: ['zu', 'an', 'auf'] },
+      { correct: 'Rückmeldung', options: ['Rückmeldung', 'Rückmeldungen', 'Rückmelden'] },
+      { correct: 'freuen', options: ['freuen', 'freut', 'freute'] },
     ],
   },
 ];

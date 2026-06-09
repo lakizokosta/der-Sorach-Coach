@@ -2,7 +2,7 @@
 /**
  * Writes curated B1 exam Sprachbausteine:
  *   - 20 standalone select-one (b1-sprach-051 … 070)
- *   - 10 Leseverstehen series × 3 questions (b1-lesen-2 … 11)
+ *   - 10 long Leseverstehen texts as text-gaps (b1-lesen-2 … 11)
  *
  * Run: npm run questions:generate-b1-sprach-exam
  */
@@ -16,10 +16,10 @@ import { SPRACH_STANDALONE, LESEN_SERIES } from './b1-sprachbausteine-exam-data.
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B1', 'SPRACHBAUSTEINEB1');
 
-function mdWithHint({ id, prompt, options, correct, hint }) {
-  const opts = options.map((o) => `  - ${o}`).join('\n');
-  const hintLine = hint ? `hint: "${hint}"\n` : '';
-  return `---\nid: ${id}\ntype: select-one\noptions:\n${opts}\ncorrect: ${correct}\n${hintLine}---\n\n${prompt}\n`;
+function mdTextGaps({ id, hint, text, gaps }) {
+  const optLines = gaps.map((g) => `  - ${g.options.join(',')}`).join('\n');
+  const corLines = gaps.map((g) => `  - ${g.correct}`).join('\n');
+  return `---\nid: ${id}\ntype: text-gaps\nhint: "${hint}"\noptions:\n${optLines}\ncorrect:\n${corLines}\n---\n\n${text}\n`;
 }
 
 function assertQuestion(q, label) {
@@ -66,25 +66,22 @@ SPRACH_STANDALONE.forEach((q, i) => {
 });
 
 LESEN_SERIES.forEach((series, seriesIdx) => {
-  const seriesNum = seriesIdx + 2; // series 1 already exists (b1-lesen-1-*)
-  if (series.questions.length !== 3) {
-    errors.push(`b1-lesen-${seriesNum}: expected 3 questions`);
+  const seriesNum = seriesIdx + 2;
+  const id = `b1-lesen-${seriesNum}`;
+  const path = join(ROOT, `${id}.md`);
+  const gapCount = (series.text.match(/___/g) || []).length;
+  if (gapCount !== series.gaps.length) {
+    errors.push(`${id}: blank count mismatch`);
     return;
   }
-  series.questions.forEach((q, qIdx) => {
-    const id = `b1-lesen-${seriesNum}-${qIdx}`;
-    const path = join(ROOT, `${id}.md`);
-    const label = id;
-    try {
-      assertQuestion(q, label);
-    } catch (e) {
-      errors.push(e.message);
-      return;
-    }
-    if (existsSync(path)) return;
-    writeFileSync(path, mdWithHint({ id, ...q, hint: series.hint }), 'utf8');
-    total += 1;
-  });
+  for (const g of series.gaps) {
+    if (g.options.length !== 3) errors.push(`${id}: need 3 options per gap`);
+    if (!g.options.includes(g.correct)) errors.push(`${id}: correct not in options`);
+  }
+  if (errors.length) return;
+  if (existsSync(path)) return;
+  writeFileSync(path, mdTextGaps({ id, hint: series.hint, text: series.text, gaps: series.gaps }), 'utf8');
+  total += 1;
 });
 
 console.log(`SPRACHBAUSTEINEB1 exam content: +${total} new files`);

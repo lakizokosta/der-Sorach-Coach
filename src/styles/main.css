@@ -390,6 +390,46 @@ button { font-family: inherit; }
 .lesen-opt.correct { background: #e8f5e9 !important; border-color: #69c43b !important; color: #2e7d32 !important; font-weight: 700; }
 .lesen-opt.wrong   { background: #fff0f0 !important; border-color: #ed4545 !important; color: #c62828 !important; }
 .lesen-opt input[type='radio'] { accent-color: #ab4dbb; width: 15px; height: 15px; flex-shrink: 0; }
+.lesen-gap-marker.open { background: #f0e6ff; border-radius: 4px; }
+button.lesen-gap-marker {
+  background: none;
+  border: none;
+  border-bottom: 2.5px solid #ab4dbb;
+  cursor: pointer;
+  font: inherit;
+}
+.gap-popup {
+  position: fixed;
+  z-index: 1200;
+  background: #fff;
+  border: 2px solid #ab4dbb;
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.14);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 120px;
+}
+.gap-popup-opt {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  background: #f5f5f5;
+  font-size: 15px;
+  font-weight: 700;
+  color: #333;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.12s, border-color 0.12s;
+}
+.gap-popup-opt:hover {
+  background: #ede7f6;
+  border-color: #ab4dbb;
+  color: #6a1b9a;
+}
 
 /* ── Sprachbausteine ────────────────────────────────────────────────────── */
 .sprach-text {
