@@ -13,7 +13,7 @@
  *   /trainer?mode=schwaechen
  */
 
-import { computed, onBeforeUnmount, onMounted, ref, shallowRef } from 'vue';
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
@@ -206,9 +206,12 @@ onMounted(() => {
       finish('Zeit abgelaufen');
     }
   }
+
+  window.addEventListener('keydown', onTrainerKeydown);
 });
 
 onBeforeUnmount(() => {
+  window.removeEventListener('keydown', onTrainerKeydown);
   if (microFeedbackTimer) clearTimeout(microFeedbackTimer);
   saveProgressEarly();
 });
@@ -430,6 +433,70 @@ const wrongTopicList = computed(() =>
  * block advancing.
  */
 const canAdvance = computed(() => lastAnswerResolved.value);
+
+const trainerRootRef = ref(null);
+const nextBtnRef = ref(null);
+
+/** Focusable action buttons in DOM order (skips tabindex=-1, e.g. umlaut keys). */
+function getTrainerButtons() {
+  const root = trainerRootRef.value;
+  if (!root) return [];
+  return [...root.querySelectorAll('button')].filter(
+    (btn) => !btn.disabled && btn.tabIndex !== -1,
+  );
+}
+
+/** Moves keyboard focus to the next/previous trainer button. */
+function moveButtonFocus(direction) {
+  const buttons = getTrainerButtons();
+  if (!buttons.length) return;
+  const active = document.activeElement;
+  const idx = buttons.indexOf(active);
+  if (idx === -1) {
+    buttons[0].focus();
+    return;
+  }
+  const nextIdx = idx + direction;
+  if (nextIdx >= 0 && nextIdx < buttons.length) {
+    buttons[nextIdx].focus();
+  }
+}
+
+/**
+ * Global keyboard shortcuts for the active session:
+ *   Enter  → Weiter (after the question is resolved)
+ *   Arrows → move focus between buttons (Prüfen, Antworten, Weiter, …)
+ */
+function onTrainerKeydown(ev) {
+  if (finished.value || !currentQuestion.value) return;
+
+  const active = document.activeElement;
+  const inOpenFillInput = active?.matches?.('input.fill-input:not([disabled])');
+
+  if (ev.key === 'Enter') {
+    if (inOpenFillInput) return;
+    if (canAdvance.value) {
+      ev.preventDefault();
+      next();
+    }
+    return;
+  }
+
+  const dir = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[ev.key];
+  if (!dir) return;
+
+  // Keep arrow keys for caret movement inside the gap-fill input.
+  if (active?.matches?.('input.fill-input, textarea')) return;
+
+  ev.preventDefault();
+  moveButtonFocus(dir);
+}
+
+watch(lastAnswerResolved, (resolved) => {
+  if (resolved) {
+    nextTick(() => nextBtnRef.value?.focus());
+  }
+});
 </script>
 
 <template>
@@ -625,7 +692,7 @@ const canAdvance = computed(() => lastAnswerResolved.value);
   </div>
 
   <!-- Active question screen -->
-  <div v-else class="app-shell" @click="onContainerClick">
+  <div v-else ref="trainerRootRef" class="app-shell" @click="onContainerClick">
     <LzdLogo small />
 
     <div class="small-note">
@@ -718,6 +785,7 @@ const canAdvance = computed(() => lastAnswerResolved.value);
     <div v-if="!isPrem && upsellHtml" class="upsell-hint" v-html="upsellHtml" />
 
     <button
+      ref="nextBtnRef"
       class="next-btn"
       type="button"
       :disabled="!canAdvance"

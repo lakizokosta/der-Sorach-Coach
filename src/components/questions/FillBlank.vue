@@ -64,6 +64,7 @@ function check() {
   }
   emit('answer', { isCorrect: isOk.value });
   emit('complete');
+  nextTick(() => inputRef.value?.blur());
 }
 
 /** Resets the question without affecting the score. */
@@ -101,10 +102,10 @@ function insertChar(ch) {
  * @param {KeyboardEvent} ev
  */
 function onKeyDown(ev) {
-  if (ev.key === 'Enter') {
+  if (ev.key !== 'Enter') return;
+  if (!checked.value) {
     ev.preventDefault();
-    ev.stopPropagation();
-    if (!checked.value) check();
+    check();
   }
 }
 
