@@ -1,0 +1,13 @@
+---
+id: b1-demo-dd-036
+type: dropbox
+words:
+  - Diese
+  - Kollegin
+  - Abteilung
+  - hilft
+  - mir
+  - oft
+---
+
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Kollegin)

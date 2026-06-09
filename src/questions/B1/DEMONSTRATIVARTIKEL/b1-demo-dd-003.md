@@ -1,0 +1,13 @@
+---
+id: b1-demo-dd-003
+type: dropbox
+words:
+  - Dieser
+  - Professor
+  - erklärt
+  - Thema
+  - sehr
+  - verständlich
+---
+
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Professor)

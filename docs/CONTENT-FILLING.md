@@ -199,10 +199,10 @@ Cloudflare пересоберёт бандл — **отдельный JS не н
 | --- | --- | --- | --- | --- | --- |
 | A1 | 11/11 ✅ | ~1656 | 50/тема | 50/тема | 50/тема |
 | A2 | 21/21 ✅ | ~3165 | 50/тема | 50/тема | 50/тема |
-| B1 | 28/28 ✅ | ~2814 | 50/тема | 50/тема | — |
+| B1 | 28/28 ✅ | ~4214 | 50/тема | 50/тема | 50/тема |
 | B2 | 9/23 | ~15 | — | — | — |
 
-**Следующий шаг:** B1 `dropbox` (50/тема), затем B2.
+**Следующий шаг:** B2 (select-one / input-text / dropbox по приоритетным темам).
 
 ---
 
@@ -248,6 +248,7 @@ Cloudflare пересоберёт бандл — **отдельный JS не н
 | `npm run questions:verify` | Валидация всех `.md` |
 | `npm run questions:generate-b1` | B1 select-one (50/тема) |
 | `npm run questions:generate-b1-input` | B1 input-text (50/тема) |
+| `npm run questions:generate-b1-dropbox` | B1 dropbox (50/тема) |
 | `npm run build` | Сборка с новым банком |
 
 ---

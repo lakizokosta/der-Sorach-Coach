@@ -1,0 +1,12 @@
+---
+id: b1-sprach-dd-046
+type: dropbox
+words:
+  - Für
+  - Informationen
+  - besuchen
+  - Website
+  - bitte
+---
+
+Ordne die Wörter zum richtigen Satz: (Sprachbaustein — Für Informationen)

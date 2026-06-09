@@ -1,0 +1,13 @@
+---
+id: b1-perf-dd-008
+type: dropbox
+words:
+  - Sie
+  - hat
+  - sich
+  - beim
+  - Sport
+  - verletzt
+---
+
+Ordne die Wörter zum richtigen Satz: (Perfekt — hat verletzt)

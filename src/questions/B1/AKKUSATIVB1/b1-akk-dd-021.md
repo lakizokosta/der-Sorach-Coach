@@ -1,0 +1,14 @@
+---
+id: b1-akk-dd-021
+type: dropbox
+words:
+  - Er
+  - informiert
+  - seine
+  - Kollegen
+  - über
+  - neue
+  - Regelung
+---
+
+Ordne die Wörter zum richtigen Satz: (Akkusativ — seine Kollegen)
