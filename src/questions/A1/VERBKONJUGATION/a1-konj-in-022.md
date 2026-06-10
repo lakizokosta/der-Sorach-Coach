@@ -5,4 +5,4 @@ correct:
   - wartet
 ---
 
-Er ___ auf den Bus. (Verbkonjugation)
+Er ___ auf den Bus. (warten, er)

@@ -5,4 +5,4 @@ correct:
   - brauche
 ---
 
-Ich ___ einen Termin beim Arzt. (Verbkonjugation)
+Ich ___ einen Termin beim Arzt. (brauchen, ich)

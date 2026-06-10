@@ -5,4 +5,4 @@ correct:
   - spiele
 ---
 
-Ich ___ gern Fußball. (Verbkonjugation)
+Ich ___ gern Fußball. (spielen, ich)

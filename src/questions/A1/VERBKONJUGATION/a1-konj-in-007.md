@@ -5,4 +5,4 @@ correct:
   - singen
 ---
 
-Die Kinder ___ ein Lied. (Verbkonjugation)
+Die Kinder ___ ein Lied. (singen, sie Pl.)

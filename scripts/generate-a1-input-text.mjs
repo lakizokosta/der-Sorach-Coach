@@ -51,6 +51,23 @@ function writeTopic(folder, prefix, items) {
   return n;
 }
 
+/** Re-apply fixPrompt() to existing files (e.g. after hint policy change). */
+function restoreTopicHints(topicKey) {
+  const prefix = TOPICS[topicKey];
+  const items = BANK[topicKey];
+  if (!prefix || !items) return 0;
+  let n = 0;
+  items.slice(0, 50).forEach((item, i) => {
+    const num = String(i + 1).padStart(3, '0');
+    const path = join(ROOT, topicKey, `${prefix}-${num}.md`);
+    if (!existsSync(path)) return;
+    const prompt = fixPrompt(item[0], topicKey, item[1]);
+    writeFileSync(path, md(`${prefix}-${num}`, prompt, item[1]), 'utf8');
+    n += 1;
+  });
+  return n;
+}
+
 /** [prompt, correct] */
 const BANK = {
   POSSESSIVARTIKEL: [
@@ -640,10 +657,16 @@ const BANK = {
   ],
 };
 
-export { BANK, fixPrompt, md };
+export { BANK, fixPrompt, md, restoreTopicHints };
 
 const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
 if (isMain) {
+  if (process.argv.includes('--restore-hints')) {
+    const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8) || 'VERBKONJUGATION';
+    const n = restoreTopicHints(topic);
+    console.log(`Restored hints in ${n} ${topic} files.`);
+    process.exit(0);
+  }
   let total = 0;
   for (const [folder, prefix] of Object.entries(TOPICS)) {
     const n = writeTopic(folder, prefix, BANK[folder]);

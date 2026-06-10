@@ -5,4 +5,4 @@ correct:
   - putzt
 ---
 
-Er ___ das Zimmer. (Verbkonjugation)
+Er ___ das Zimmer. (putzen, er)

@@ -5,4 +5,4 @@ correct:
   - reisen
 ---
 
-Im Urlaub ___ wir gern. (Verbkonjugation)
+Im Urlaub ___ wir gern. (reisen, wir)

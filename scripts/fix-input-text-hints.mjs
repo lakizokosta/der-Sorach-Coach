@@ -166,11 +166,13 @@ export function transformHint(inner, topic, correct) {
     return `${label} — ${rest}`;
   }
 
-  // Verb — drop infinitive
+  // Verb — keep infinitive (not the conjugated answer)
   if (topic === 'VERBKONJUGATION') {
+    if (/^verbkonjugation/i.test(inner)) return inner;
     const parts = inner.split(',').map((s) => s.trim());
-    if (parts.length === 2) return `Verbkonjugation — ${parts[1]}`;
-    return 'Verbkonjugation';
+    if (parts.length >= 2 && !hintLeaksAnswer(parts[0], correct)) return parts.join(', ');
+    if (parts.length === 1 && !/^verbkonjugation/i.test(parts[0])) return parts[0];
+    return inner;
   }
 
   // Wechselpräpositionen — drop example preposition

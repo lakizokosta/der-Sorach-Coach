@@ -5,4 +5,4 @@ correct:
   - kommen
 ---
 
-Meine Freunde ___ später. (Verbkonjugation)
+Meine Freunde ___ später. (kommen, sie Pl.)

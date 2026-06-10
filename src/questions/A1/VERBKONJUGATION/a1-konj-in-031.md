@@ -5,4 +5,4 @@ correct:
   - bezahlt
 ---
 
-Er ___ an der Kasse. (Verbkonjugation)
+Er ___ an der Kasse. (bezahlen, er)

@@ -5,4 +5,4 @@ correct:
   - schreibst
 ---
 
-Du ___ einen Brief. (Verbkonjugation)
+Du ___ einen Brief. (schreiben, du)

@@ -5,4 +5,4 @@ correct:
   - isst
 ---
 
-Du ___ gern Obst. (Verbkonjugation)
+Du ___ gern Obst. (essen, du)

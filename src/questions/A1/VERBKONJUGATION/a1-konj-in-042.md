@@ -5,4 +5,4 @@ correct:
   - bringt
 ---
 
-Er ___ das Essen mit. (Verbkonjugation)
+Er ___ das Essen mit. (bringen, er)

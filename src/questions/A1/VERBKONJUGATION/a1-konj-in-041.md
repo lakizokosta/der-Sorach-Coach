@@ -5,4 +5,4 @@ correct:
   - gibst
 ---
 
-Du ___ deiner Mutter die Blume. (Verbkonjugation)
+Du ___ deiner Mutter die Blume. (geben, du)

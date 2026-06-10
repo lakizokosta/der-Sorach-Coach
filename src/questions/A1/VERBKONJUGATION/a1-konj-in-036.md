@@ -5,4 +5,4 @@ correct:
   - wäschst
 ---
 
-Du ___ die Kleidung. (Verbkonjugation)
+Du ___ die Kleidung. (waschen, du)
