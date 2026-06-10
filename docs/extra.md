@@ -4,7 +4,7 @@
 
 \<h2\>1. Verantwortlicher\</h2\>  
 \<p\>Verantwortlich für die Datenverarbeitung ist:\<br\>  
-Konstantin Lakizo, \[Ihre Georgische Adresse\], E-Mail: lakizo.kosta@gmail.com\</p\>
+Konstantin Lakizo, \[Ihre Georgische Adresse\], E-Mail: der.sprachcoach@gmail.com\</p\>
 
 \<h2\>2. Verarbeitung Ihrer Daten\</h2\>  
 \<p\>Wir verarbeiten personenbezogene Daten (E-Mail-Adresse, Transaktions-ID) ausschließlich zur Vertragserfüllung, um Ihnen den gekauften Premium-Code zuzustellen. Rechtsgrundlage ist die Erfüllung unserer vertraglichen Pflichten Ihnen gegenüber.\</p\>  
@@ -73,7 +73,7 @@ Konstantin Lakizo, \[Ihre Georgische Adresse\], E-Mail: lakizo.kosta@gmail.com\<
 \<p style="margin-bottom: 15px;"\>Sollte der Kunde das Endgerät wechseln (z. B. neues Smartphone), wird der Zugang auf Anfrage unter Angabe der bei der Bestellung verwendeten E-Mail-Adresse \<strong\>einmalig\</strong\> für das neue Gerät freigeschaltet.\</p\>  
 \<h3 style="font-size: 18px; margin-top: 20px; margin-bottom: 10px;"\>🛠️ Technische Probleme\</h3\>  
 \<p style="margin-bottom: 15px;"\>Sollte ein gelieferter Code wider Erwarten nicht funktionieren, wird der Anbieter diesen umgehend durch einen neuen, funktionierenden Code ersetzen.\</p\>  
-\<p style="margin-bottom: 15px;"\>\<strong\>Kontakt für Support:\</strong\> \<a href="mailto:lakizo.kosta@gmail.com"\>lakizo.kosta@gmail.com\</a\>\</p\>
+\<p style="margin-bottom: 15px;"\>\<strong\>Kontakt für Support:\</strong\> \<a href="mailto:der.sprachcoach@gmail.com"\>der.sprachcoach@gmail.com\</a\>\</p\>
 
 \<h2 style="font-size: 20px; margin-top: 30px; margin-bottom: 15px; color: \#AB4DBB;"\>§7 Haftung\</h2\>  
 \<ul style="margin-bottom: 15px; padding-left: 25px;"\>  
@@ -109,14 +109,14 @@ Konstantin Lakizo, \[Ihre Georgische Adresse\], E-Mail: lakizo.kosta@gmail.com\<
 Konstantin Lakizo\<br\>  
 \[65 Sherif Khimshiashvili St, Batumi, Georgien\<br\>  
 Georgien\<br\>  
-\<strong\>E-Mail:\</strong\> \<a href="mailto:lakizo.kosta@gmail.com"\>lakizo.kosta@gmail.com\</a\>\<br\>  
+\<strong\>E-Mail:\</strong\> \<a href="mailto:der.sprachcoach@gmail.com"\>der.sprachcoach@gmail.com\</a\>\<br\>  
 \<strong\>Website:\</strong\> \<a href="https://www.lernziel-deutsch.de"\>www.lernziel-deutsch.de\</a\>  
 \</p\>
 
 \<p\>\<strong\>Steuernummer (TIN):\</strong\>\[01001012345\]\</p\>
 
 \<h2\>Kontakt\</h2\>  
-\<p\>Sie erreichen unseren Kundenservice per E-Mail unter \<a href="mailto:lakizo.kosta@gmail.com"\>lakizo.kosta@gmail.com\</a\>.\</p\>
+\<p\>Sie erreichen unseren Kundenservice per E-Mail unter \<a href="mailto:der.sprachcoach@gmail.com"\>der.sprachcoach@gmail.com\</a\>.\</p\>
 
 \<h2\>Haftungsausschluss (Disclaimer)\</h2\>  
 \<p\>Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Die Inhalte dieser Website sind urheberrechtlich geschützt.\</p\>  

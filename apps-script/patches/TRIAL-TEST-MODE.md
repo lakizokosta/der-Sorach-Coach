@@ -5,7 +5,7 @@
 ## Зачем
 
 Позволяет многократно запрашивать trial-коды с одного устройства, если email
-содержит `+test` (например `lakizo.kosta+test@gmail.com`).
+содержит `+test` (например `der.sprachcoach+test@gmail.com`).
 
 Обычные адреса по-прежнему: **один trial на пару (email, device)**.
 
