@@ -50,6 +50,7 @@ import {
   evaluatePlacementLevel,
   placementBreakdown,
   PLACEMENT_LEVELS,
+  PLACEMENT_TOTAL,
 } from '@/utils/placementTest.js';
 import { setCefrLevel } from '@/composables/useCefrLevel.js';
 
@@ -865,8 +866,8 @@ watch(lastAnswerResolved, (resolved) => {
 
     <div class="small-note">
       <template v-if="placementMode">
-        Niveau-Test
-        <span v-if="currentQuestion"> — Block {{ currentQuestion.level }}</span>
+        Niveau-Test · {{ PLACEMENT_TOTAL }} Fragen (A1→B2)
+        <span v-if="currentQuestion"> — {{ currentQuestion.level }}</span>
         <span class="placement-hint"> · zählt nicht zum Tagesziel</span>
       </template>
       <template v-else-if="schwaechenMode">

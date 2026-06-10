@@ -161,8 +161,13 @@ const pricingCompareRows = [
         </span>
         <span v-if="!isPremium" class="niveau-test-btn__badge">💎 Premium</span>
       </button>
-      <p v-if="!isPremium" class="niveau-test-btn__hint">
-        Personalisierte Tagesaufgaben — mit Premium freischalten.
+      <p class="niveau-test-btn__hint">
+        <template v-if="isPremium">
+          60 zufällige Fragen aus dem Trainer (15 pro Niveau, steigend A1→B2).
+        </template>
+        <template v-else>
+          Personalisierte Tagesaufgaben — mit Premium freischalten.
+        </template>
       </p>
     </div>
 
