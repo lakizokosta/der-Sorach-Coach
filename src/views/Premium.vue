@@ -21,6 +21,7 @@ import { useRoute, useRouter } from 'vue-router';
 
 import DeviceGuide from '@/components/DeviceGuide.vue';
 import LzdLogo from '@/components/LzdLogo.vue';
+import PaymentButtonLabel from '@/components/PaymentButtonLabel.vue';
 
 import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
 import { getQuestionsByTopic } from '@/data/questions.js';
@@ -460,16 +461,22 @@ function topicMastered(key) {
               class="premium-basis-btn premium-basis-btn--stripe"
               @click="payBasis"
             >
-              <span class="premium-basis-btn__main">💳 Mit Stripe bezahlen – 4,99€</span>
-              <span class="premium-basis-btn__sub">Visa, Mastercard, Apple Pay, Google Pay</span>
+              <PaymentButtonLabel
+                provider="stripe"
+                main="Bezahlen – 4,99€"
+                sub="Visa, Mastercard, Apple Pay, Google Pay"
+              />
             </button>
             <button
               type="button"
               class="premium-basis-btn premium-basis-btn--paypal"
               @click="payBasisPaypal"
             >
-              <span class="premium-basis-btn__main">💳 Mit PayPal kaufen – 4,99€</span>
-              <span class="premium-basis-btn__sub">Code kommt automatisch per Mail</span>
+              <PaymentButtonLabel
+                provider="paypal"
+                main="Kaufen – 4,99€"
+                sub="Code kommt automatisch per Mail"
+              />
             </button>
             <p class="premium-buy-footer" style="margin-top: 8px;">
               🔒 Sichere Zahlung · Einmalzahlung · kein Abo
@@ -584,47 +591,26 @@ function topicMastered(key) {
 
             <button
               type="button"
+              class="premium-basis-btn premium-basis-btn--stripe"
               @click="payWithStripe"
-              style="
-                width: 100%;
-                padding: 14px;
-                border-radius: 12px;
-                border: none;
-                background: #635BFF;
-                color: #fff;
-                font-weight: 900;
-                font-size: 15px;
-                cursor: pointer;
-                line-height: 1.2;
-                margin-bottom: 8px;
-              "
             >
-              <span style="display: block;">💳 Mit Stripe bezahlen</span>
-              <span style="display: block; font-size: 11px; font-weight: 400; opacity: 0.85;">
-                Visa, Mastercard, Apple Pay, Google Pay
-              </span>
+              <PaymentButtonLabel
+                provider="stripe"
+                main="Bezahlen"
+                sub="Visa, Mastercard, Apple Pay, Google Pay"
+              />
             </button>
 
             <button
               type="button"
+              class="premium-basis-btn premium-basis-btn--paypal"
               @click="payWithPaypal"
-              style="
-                width: 100%;
-                padding: 12px;
-                border-radius: 12px;
-                border: none;
-                background: #FFC439;
-                color: #000;
-                font-weight: 900;
-                font-size: 14px;
-                cursor: pointer;
-                line-height: 1.2;
-              "
             >
-              <span style="display: block;">💳 Mit PayPal kaufen</span>
-              <span style="display: block; font-size: 10px; font-weight: 400; opacity: 0.8;">
-                Code kommt automatisch per Mail
-              </span>
+              <PaymentButtonLabel
+                provider="paypal"
+                main="Kaufen"
+                sub="Code kommt automatisch per Mail"
+              />
             </button>
 
             <p class="premium-buy-footer">
