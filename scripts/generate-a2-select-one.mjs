@@ -2,6 +2,7 @@
 /**
  * Generates A2 select-one questions (001–050) per Premium grammar topic.
  * Run: npm run questions:generate-a2
+ * Restore: node scripts/generate-a2-select-one.mjs --restore --topic=LOKALPRÄPOSITIONENA2
  */
 
 import { mkdirSync, writeFileSync, existsSync } from 'node:fs';
@@ -37,7 +38,7 @@ const TOPICS = {
   'N-DEKLINATION': { prefix: 'a2-n', gen: G.genNdekl },
 };
 
-function writeTopic(folder, prefix, questions) {
+function writeTopic(folder, prefix, questions, force = false) {
   const dir = join(ROOT, folder);
   mkdirSync(dir, { recursive: true });
   let written = 0;
@@ -46,18 +47,37 @@ function writeTopic(folder, prefix, questions) {
     if (!q) break;
     const num = String(i).padStart(3, '0');
     const file = join(dir, `${prefix}-${num}.md`);
-    if (existsSync(file)) continue;
+    if (!force && existsSync(file)) continue;
     writeFileSync(file, md({ id: `${prefix}-${num}`, ...q }), 'utf8');
     written += 1;
   }
   return written;
 }
 
-let total = 0;
-for (const [folder, { prefix, gen }] of Object.entries(TOPICS)) {
-  const qs = gen();
-  const n = writeTopic(folder, prefix, qs);
-  total += n;
-  console.log(`${folder}: +${n} select-one`);
+function restoreTopic(topicKey) {
+  const cfg = TOPICS[topicKey];
+  if (!cfg) return 0;
+  return writeTopic(topicKey, cfg.prefix, cfg.gen(), true);
 }
-console.log(`\nTotal new files: ${total}`);
+
+const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+
+if (isMain) {
+  if (process.argv.includes('--restore')) {
+    const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8) || 'LOKALPRÄPOSITIONENA2';
+    const n = restoreTopic(topic);
+    console.log(`Restored ${n} ${topic} select-one files.`);
+    process.exit(0);
+  }
+
+  let total = 0;
+  for (const [folder, { prefix, gen }] of Object.entries(TOPICS)) {
+    const qs = gen();
+    const n = writeTopic(folder, prefix, qs);
+    total += n;
+    console.log(`${folder}: +${n} select-one`);
+  }
+  console.log(`\nTotal new files: ${total}`);
+}
+
+export { restoreTopic };

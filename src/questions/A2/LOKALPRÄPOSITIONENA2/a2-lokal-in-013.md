@@ -5,4 +5,4 @@ correct:
   - neben
 ---
 
-Das Kind steht ___ der Mutter. (Lokalpräposition)
+Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter. (Lokalpräposition)

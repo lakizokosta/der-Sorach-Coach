@@ -557,10 +557,10 @@ export function genTemporal() {
 
 export function genLokal() {
   const items = [
-    ['Die Bank ist ___ der Post.', 'gegenüber', ['neben', 'hinter', 'vor', 'zwischen']],
-    ['Das Café ist ___ dem Park.', 'neben', ['gegenüber', 'hinter', 'vor', 'zwischen']],
+    ['Auf derselben Straße, Schaufenster gegen Schaufenster: Die Bank ist ___ der Post.', 'gegenüber', ['neben', 'hinter', 'vor', 'zwischen']],
+    ['Nicht im Park, sondern am Rand: Das Café ist ___ dem Park.', 'neben', ['gegenüber', 'hinter', 'vor', 'zwischen']],
     ['Geh ___ die Brücke!', 'über', ['unter', 'neben', 'hinter', 'durch']],
-    ['Das Hotel ist ___ dem Bahnhof.', 'hinter', ['vor', 'neben', 'gegenüber', 'zwischen']],
+    ['Vom Bahnhofsplatz aus sieht man das Hotel nicht — es liegt ___ dem Bahnhof.', 'hinter', ['vor', 'neben', 'gegenüber', 'zwischen']],
     ['Wir warten ___ dem Eingang.', 'vor', ['hinter', 'neben', 'gegenüber', 'zwischen']],
     ['Das Geschäft ist ___ zwei Häusern.', 'zwischen', ['neben', 'hinter', 'vor', 'gegenüber']],
     ['Fahren Sie ___ den Tunnel!', 'durch', ['über', 'unter', 'neben', 'hinter']],
@@ -569,7 +569,7 @@ export function genLokal() {
     ['Wir treffen uns ___ dem Platz.', 'auf', ['an', 'in', 'zu', 'nach']],
     ['Das Bild hängt ___ der Tür.', 'über', ['unter', 'neben', 'hinter', 'zwischen']],
     ['Der Hund liegt ___ dem Tisch.', 'unter', ['über', 'neben', 'hinter', 'vor']],
-    ['Das Kind steht ___ der Mutter.', 'neben', ['gegenüber', 'hinter', 'vor', 'zwischen']],
+    ['Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter.', 'neben', ['gegenüber', 'hinter', 'vor', 'zwischen']],
     ['Wir gehen ___ die Straße.', 'über', ['unter', 'neben', 'hinter', 'durch']],
     ['Die Apotheke ist ___ rechts.', 'auf der rechten Seite', ['links', 'geradeaus', 'hinten', 'vorne']],
   ];

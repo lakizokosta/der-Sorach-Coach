@@ -9,4 +9,4 @@ options:
 correct: neben
 ---
 
-Das Café ist ___ dem Park.
+Nicht im Park, sondern am Rand: Das Café ist ___ dem Park.

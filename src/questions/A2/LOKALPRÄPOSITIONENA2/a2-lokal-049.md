@@ -9,4 +9,4 @@ options:
 correct: hinter
 ---
 
-Das Hotel ist ___ dem Bahnhof.
+Vom Bahnhofsplatz aus sieht man das Hotel nicht — es liegt ___ dem Bahnhof.

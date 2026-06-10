@@ -421,10 +421,10 @@ const BANK_RAW = {
   ],
 
   LOKALPRÄPOSITIONENA2: [
-    ['Die Bank ist ___ der Post. (Lokalpräposition)', 'gegenüber'],
-    ['Das Café ist ___ dem Park. (Lokalpräposition)', 'neben'],
+    ['Auf derselben Straße, Schaufenster gegen Schaufenster: Die Bank ist ___ der Post. (Lokalpräposition)', 'gegenüber'],
+    ['Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition)', 'neben'],
     ['Geh ___ die Brücke! (Lokalpräposition + Akk.)', 'über'],
-    ['Das Hotel ist ___ dem Bahnhof. (Lokalpräposition)', 'hinter'],
+    ['Vom Bahnhofsplatz aus sieht man das Hotel nicht — es liegt ___ dem Bahnhof. (Lokalpräposition)', 'hinter'],
     ['Wir warten ___ dem Eingang. (Lokalpräposition)', 'vor'],
     ['Das Geschäft ist ___ zwei Häusern. (Lokalpräposition)', 'zwischen'],
     ['Fahren Sie ___ den Tunnel! (Lokalpräposition + Akk.)', 'durch'],
@@ -433,7 +433,7 @@ const BANK_RAW = {
     ['Wir treffen uns ___ dem Platz. (Lokalpräposition)', 'auf'],
     ['Das Bild hängt ___ der Tür. (Lokalpräposition)', 'über'],
     ['Der Hund liegt ___ dem Tisch. (Lokalpräposition)', 'unter'],
-    ['Das Kind steht ___ der Mutter. (Lokalpräposition)', 'neben'],
+    ['Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter. (Lokalpräposition)', 'neben'],
     ['Wir gehen ___ die Straße. (Lokalpräposition + Akk.)', 'über'],
     ['Gehen Sie dann ___ den Stadtpark. (Lokalpräposition + Akk.)', 'durch'],
     ['Das Hotel liegt direkt ___ dem Bahnhof. (Lokalpräposition)', 'gegenüber'],

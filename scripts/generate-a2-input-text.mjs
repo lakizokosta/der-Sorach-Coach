@@ -2,6 +2,7 @@
 /**
  * Generates A2 input-text questions (in-001 … in-050) per Premium grammar topic.
  * Run: npm run questions:generate-a2-input
+ * Restore: node scripts/generate-a2-input-text.mjs --restore-hints --topic=LOKALPRÄPOSITIONENA2
  */
 
 import { mkdirSync, writeFileSync, existsSync } from 'node:fs';
@@ -38,6 +39,15 @@ const TOPICS = {
   'N-DEKLINATION': 'a2-n-in',
 };
 
+function buildPrompt(item, folder) {
+  const raw = item[0].replace(/^\[[^\]]+]\s+/, '');
+  const m = raw.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
+  const ans = Array.isArray(item[1]) ? item[1] : [item[1]];
+  return m
+    ? `${m[1].trimEnd()} (${transformHint(m[2], folder, ans)})`
+    : raw;
+}
+
 function writeTopic(folder, prefix, items) {
   mkdirSync(join(ROOT, folder), { recursive: true });
   let n = 0;
@@ -45,24 +55,46 @@ function writeTopic(folder, prefix, items) {
     const num = String(i + 1).padStart(3, '0');
     const path = join(ROOT, folder, `${prefix}-${num}.md`);
     if (existsSync(path)) return;
-    const raw = item[0].replace(/^\[[^\]]+]\s+/, '');
-    const m = raw.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
-    const ans = Array.isArray(item[1]) ? item[1] : [item[1]];
-    const prompt = m
-      ? `${m[1].trimEnd()} (${transformHint(m[2], folder, ans)})`
-      : raw;
-    writeFileSync(path, md(`${prefix}-${num}`, prompt, item[1]), 'utf8');
+    writeFileSync(path, md(`${prefix}-${num}`, buildPrompt(item, folder), item[1]), 'utf8');
     n += 1;
   });
   return n;
 }
 
-let total = 0;
-for (const [folder, prefix] of Object.entries(TOPICS)) {
-  const items = BANK[folder];
-  if (!items) throw new Error(`Missing bank for ${folder}`);
-  const n = writeTopic(folder, prefix, items);
-  total += n;
-  console.log(`${folder}: +${n} input-text`);
+function restoreTopicHints(topicKey) {
+  const prefix = TOPICS[topicKey];
+  const items = BANK[topicKey];
+  if (!prefix || !items) return 0;
+  let n = 0;
+  items.slice(0, 50).forEach((item, i) => {
+    const num = String(i + 1).padStart(3, '0');
+    const path = join(ROOT, topicKey, `${prefix}-${num}.md`);
+    if (!existsSync(path)) return;
+    writeFileSync(path, md(`${prefix}-${num}`, buildPrompt(item, topicKey), item[1]), 'utf8');
+    n += 1;
+  });
+  return n;
 }
-console.log(`\nTotal new input-text files: ${total}`);
+
+const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+
+if (isMain) {
+  if (process.argv.includes('--restore-hints')) {
+    const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8) || 'LOKALPRÄPOSITIONENA2';
+    const n = restoreTopicHints(topic);
+    console.log(`Restored hints in ${n} ${topic} input-text files.`);
+    process.exit(0);
+  }
+
+  let total = 0;
+  for (const [folder, prefix] of Object.entries(TOPICS)) {
+    const items = BANK[folder];
+    if (!items) throw new Error(`Missing bank for ${folder}`);
+    const n = writeTopic(folder, prefix, items);
+    total += n;
+    console.log(`${folder}: +${n} input-text`);
+  }
+  console.log(`\nTotal new input-text files: ${total}`);
+}
+
+export { buildPrompt, restoreTopicHints };
