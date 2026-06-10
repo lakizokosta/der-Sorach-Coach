@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Sie
   - war
-  - am
-  - Bankschalter
   - sehr
   - freundlich
+  - am
+  - Bankschalter
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präteritum — war)

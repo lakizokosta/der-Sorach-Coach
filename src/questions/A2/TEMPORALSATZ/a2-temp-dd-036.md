@@ -3,8 +3,8 @@ id: a2-temp-dd-036
 type: dropbox
 words:
   - Wenn
-  - Regen
-  - fällt
+  - es
+  - regnet
   - bleibe
   - ich
   - drinnen

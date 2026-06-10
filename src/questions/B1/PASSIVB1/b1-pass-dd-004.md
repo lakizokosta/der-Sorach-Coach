@@ -2,11 +2,10 @@
 id: b1-pass-dd-004
 type: dropbox
 words:
+  - Das
   - Projekt
   - wird
   - gerade
-  - im
-  - Team
   - diskutiert
 ---
 

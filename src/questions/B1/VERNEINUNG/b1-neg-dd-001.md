@@ -4,9 +4,12 @@ type: dropbox
 words:
   - Ich
   - habe
-  - heute
   - keine
   - Zeit
+  - für
+  - ein
+  - langes
+  - Meeting
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verneinung — keine Zeit)

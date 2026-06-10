@@ -2,11 +2,10 @@
 id: b1-pass-dd-043
 type: dropbox
 words:
+  - Die
   - Nachricht
   - wurde
   - sofort
-  - per
-  - Mail
   - gesendet
 ---
 

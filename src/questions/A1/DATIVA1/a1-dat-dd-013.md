@@ -10,4 +10,3 @@ words:
 ---
 
 Ordne die Wörter zum richtigen Satz: (Dativ — mit der Gitarre spielen)
-

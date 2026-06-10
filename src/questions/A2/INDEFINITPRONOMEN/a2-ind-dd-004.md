@@ -6,7 +6,7 @@ words:
   - jemand
   - mir
   - am
-  - Schalter
+  - Bankschalter
   - helfen
 ---
 

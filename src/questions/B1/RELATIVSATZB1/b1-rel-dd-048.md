@@ -2,12 +2,14 @@
 id: b1-rel-dd-048
 type: dropbox
 words:
+  - Die
   - Kollegen
   - denen
   - ich
   - danke
-  - halfen
+  - haben
   - mir
+  - geholfen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Relativsatz — denen ich danke)

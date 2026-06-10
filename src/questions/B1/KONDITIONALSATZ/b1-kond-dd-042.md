@@ -3,6 +3,7 @@ id: b1-kond-dd-042
 type: dropbox
 words:
   - Wenn
+  - das
   - Gesetz
   - verabschiedet
   - wird
@@ -11,4 +12,4 @@ words:
   - vieles
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn Gesetz verabschiedet)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn das Gesetz verabschiedet wird)

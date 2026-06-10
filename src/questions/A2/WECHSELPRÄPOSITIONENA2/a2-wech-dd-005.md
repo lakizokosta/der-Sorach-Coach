@@ -10,4 +10,4 @@ words:
   - Straße
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf der Straße (Wo?))
+Ordne die Wörter zum richtigen Satz: (Wo? — auf der)

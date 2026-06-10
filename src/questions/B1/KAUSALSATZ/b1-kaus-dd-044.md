@@ -4,8 +4,11 @@ type: dropbox
 words:
   - Wir
   - fahren
+  - mit
+  - dem
   - Zug
   - weil
+  - das
   - Auto
   - kaputt
   - ist

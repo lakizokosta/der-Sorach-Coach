@@ -2,12 +2,14 @@
 id: b1-konz-dd-029
 type: dropbox
 words:
-  - Obschon
-  - Warnung
-  - kam
-  - fahren
-  - Autofahrer
-  - schnell
+  - Sie
+  - hat
+  - wenig
+  - Zeit
+  - trotzdem
+  - hilft
+  - sie
+  - uns
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Warnung kam)

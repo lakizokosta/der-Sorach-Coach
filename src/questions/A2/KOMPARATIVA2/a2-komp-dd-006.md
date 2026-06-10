@@ -6,8 +6,10 @@ words:
   - neue
   - Wohnung
   - ist
-  - viel
   - schöner
+  - als
+  - die
+  - alte
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — schöner)

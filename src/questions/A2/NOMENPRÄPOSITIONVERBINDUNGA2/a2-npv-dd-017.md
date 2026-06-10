@@ -8,6 +8,7 @@ words:
   - Lust
   - auf
   - Sport
+  - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Lust auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)

@@ -4,9 +4,14 @@ type: dropbox
 words:
   - Wir
   - müssen
-  - CO2
+  - den
   - Ausstoß
   - senken
+  - um
+  - die
+  - Umwelt
+  - zu
+  - schützen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Wortschatz — Ausstoß)

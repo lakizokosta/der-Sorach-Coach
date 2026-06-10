@@ -2,11 +2,13 @@
 id: b1-lass-dd-017
 type: dropbox
 words:
-  - Patient
+  - Er
   - lässt
-  - Blut
-  - Labor
-  - testen
+  - sich
+  - von
+  - einem
+  - Spezialisten
+  - beraten
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verblassen — lassen testen)

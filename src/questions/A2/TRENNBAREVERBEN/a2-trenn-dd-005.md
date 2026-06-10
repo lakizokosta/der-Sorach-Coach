@@ -6,8 +6,7 @@ words:
   - macht
   - das
   - Licht
-  - später
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — ausmachen)
+Ordne die Wörter zum richtigen Satz: (trennbar — macht)

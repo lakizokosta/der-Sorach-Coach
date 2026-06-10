@@ -6,7 +6,6 @@ words:
   - Gesetz
   - wurde
   - gestern
-  - endgültig
   - verabschiedet
 ---
 

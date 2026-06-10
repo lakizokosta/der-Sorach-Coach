@@ -5,6 +5,7 @@ words:
   - Dieser
   - Professor
   - erklärt
+  - das
   - Thema
   - sehr
   - verständlich

@@ -5,7 +5,7 @@ words:
   - Als
   - Kind
   - spielte
-  - Tom
+  - ich
   - gern
   - Fußball
 ---

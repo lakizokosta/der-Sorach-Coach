@@ -7,7 +7,6 @@ words:
   - ohne
   - seinen
   - Mantel
-  - raus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — seinen Mantel)
+Ordne die Wörter zum richtigen Satz: (Possessiv — seinen)

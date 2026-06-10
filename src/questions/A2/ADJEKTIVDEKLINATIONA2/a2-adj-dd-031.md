@@ -2,12 +2,11 @@
 id: a2-adj-dd-031
 type: dropbox
 words:
-  - Ich
-  - sehe
-  - einen
-  - hohen
-  - Turm
-  - dort
+  - Mein
+  - neuer
+  - Job
+  - gefällt
+  - mir
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — hohen Turm)
+Ordne die Wörter zum richtigen Satz: (neu, mask., Nom. — neuer)

@@ -6,6 +6,7 @@ words:
   - wissen
   - nicht
   - ob
+  - das
   - Problem
   - gelöst
   - wird

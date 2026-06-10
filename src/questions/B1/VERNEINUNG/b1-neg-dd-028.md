@@ -2,9 +2,9 @@
 id: b1-neg-dd-028
 type: dropbox
 words:
+  - Das
   - Medikament
   - hat
-  - leider
   - nicht
   - geholfen
 ---

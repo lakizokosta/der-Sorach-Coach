@@ -5,6 +5,7 @@ words:
   - Wir
   - fuhren
   - mit
+  - dem
   - Zug
   - nach
   - Italien

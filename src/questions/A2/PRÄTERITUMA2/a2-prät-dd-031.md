@@ -6,8 +6,6 @@ words:
   - zog
   - nach
   - Berlin
-  - letztes
-  - Jahr
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präteritum — zog)

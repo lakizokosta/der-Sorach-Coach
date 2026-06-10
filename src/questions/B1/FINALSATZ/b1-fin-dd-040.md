@@ -2,12 +2,14 @@
 id: b1-fin-dd-040
 type: dropbox
 words:
+  - Die
   - Firma
   - schult
+  - das
   - Personal
   - damit
+  - die
   - Qualität
-  - deutlich
   - steigt
 ---
 

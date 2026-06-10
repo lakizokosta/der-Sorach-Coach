@@ -3,10 +3,12 @@ id: b1-gen-dd-007
 type: dropbox
 words:
   - Wegen
-  - starken
+  - des
   - Sturms
   - bleiben
+  - die
   - Schiffe
+  - im
   - Hafen
 ---
 

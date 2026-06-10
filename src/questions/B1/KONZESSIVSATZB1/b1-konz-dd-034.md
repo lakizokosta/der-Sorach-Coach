@@ -2,13 +2,13 @@
 id: b1-konz-dd-034
 type: dropbox
 words:
-  - Obwohl
-  - müde
+  - Sie
+  - geht
+  - joggen
+  - obwohl
+  - es
+  - kalt
   - ist
-  - bleibt
-  - Chef
-  - lange
-  - Büro
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl müde ist)

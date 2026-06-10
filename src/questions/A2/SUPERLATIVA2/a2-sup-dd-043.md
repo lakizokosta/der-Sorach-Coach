@@ -2,7 +2,7 @@
 id: a2-sup-dd-043
 type: dropbox
 words:
-  - Tom
+  - Das
   - ist
   - mein
   - bester

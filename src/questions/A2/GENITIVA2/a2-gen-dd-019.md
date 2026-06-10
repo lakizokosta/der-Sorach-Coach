@@ -5,10 +5,11 @@ words:
   - Während
   - des
   - Sommers
-  - fahre
+  - freue
   - ich
-  - gern
-  - weg
+  - mich
+  - auf
+  - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Während des Sommers)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Während des)

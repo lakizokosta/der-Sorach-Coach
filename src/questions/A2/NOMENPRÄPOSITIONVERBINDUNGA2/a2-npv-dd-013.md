@@ -6,8 +6,8 @@ words:
   - habe
   - Zweifel
   - an
-  - dieser
+  - der
   - Idee
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Zweifel an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)

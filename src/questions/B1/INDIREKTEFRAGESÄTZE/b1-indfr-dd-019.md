@@ -4,8 +4,10 @@ type: dropbox
 words:
   - Kannst
   - du
+  - mir
   - sagen
   - wann
+  - der
   - Zug
   - ankommt
 ---

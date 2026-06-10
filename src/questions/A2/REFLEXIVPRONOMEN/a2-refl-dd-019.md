@@ -10,4 +10,4 @@ words:
   - Prüfung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — freut sich)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — freut)

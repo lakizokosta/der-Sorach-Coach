@@ -2,12 +2,15 @@
 id: b1-kadv-dd-010
 type: dropbox
 words:
+  - Das
   - Hotel
   - war
   - laut
   - Trotzdem
-  - schliefen
+  - haben
+  - wir
   - gut
+  - geschlafen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem geschlafen)

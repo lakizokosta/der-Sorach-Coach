@@ -4,10 +4,13 @@ type: dropbox
 words:
   - Wir
   - melden
+  - uns
   - rechtzeitig
   - an
   - um
+  - einen
   - Platz
+  - zu
   - bekommen
 ---
 

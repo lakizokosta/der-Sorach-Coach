@@ -4,8 +4,11 @@ type: dropbox
 words:
   - Er
   - hat
+  - eine
   - verantwortliche
-  - Stelle
+  - Stellung
+  - in
+  - der
   - Firma
 ---
 

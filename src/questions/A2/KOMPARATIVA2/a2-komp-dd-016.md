@@ -2,12 +2,18 @@
 id: a2-komp-dd-016
 type: dropbox
 words:
-  - An
-  - Mosel
+  - Am
+  - schönsten
+  - finde
+  - ich
+  - den
+  - Teppich
+  - er
   - ist
-  - alles
-  - viel
   - schöner
+  - als
+  - der
+  - Tisch
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — schöner)

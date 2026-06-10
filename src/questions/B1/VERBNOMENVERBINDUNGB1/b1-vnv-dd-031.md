@@ -2,10 +2,11 @@
 id: b1-vnv-dd-031
 type: dropbox
 words:
+  - Die
   - Universität
   - bietet
-  - neuen
-  - Sprachkurs
+  - einen
+  - Kurs
   - an
 ---
 

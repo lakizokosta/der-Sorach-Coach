@@ -6,7 +6,6 @@ words:
   - sollte
   - Detektiv
   - werden
-  - früher
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präteritum — sollte)

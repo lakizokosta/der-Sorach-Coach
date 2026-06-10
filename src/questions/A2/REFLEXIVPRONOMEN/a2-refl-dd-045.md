@@ -5,9 +5,11 @@ words:
   - Wir
   - sehen
   - uns
-  - täglich
+  - jeden
+  - Tag
   - nach
+  - der
   - Arbeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — sehen uns)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — sehen)

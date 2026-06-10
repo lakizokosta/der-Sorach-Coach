@@ -3,10 +3,9 @@ id: b1-praep-dd-043
 type: dropbox
 words:
   - Ich
-  - arbeite
+  - bin
   - seit
-  - zwei
-  - Jahren
+  - 2020
   - hier
 ---
 

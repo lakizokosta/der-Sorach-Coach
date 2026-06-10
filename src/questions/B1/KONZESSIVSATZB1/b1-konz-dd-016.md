@@ -2,12 +2,13 @@
 id: b1-konz-dd-016
 type: dropbox
 words:
-  - Obschon
-  - Sturm
-  - weht
-  - segeln
-  - Sportler
-  - weiter
+  - Obwohl
+  - Schlafmangel
+  - herrscht
+  - arbeitet
+  - Kollege
+  - sehr
+  - produktiv
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Sturm weht)

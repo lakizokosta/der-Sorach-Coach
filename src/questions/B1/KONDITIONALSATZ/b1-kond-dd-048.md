@@ -8,7 +8,6 @@ words:
   - bist
   - beginnen
   - wir
-  - sofort
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn pünktlich bist)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du pünktlich bist)

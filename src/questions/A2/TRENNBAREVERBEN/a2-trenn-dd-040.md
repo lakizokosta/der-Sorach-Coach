@@ -7,8 +7,7 @@ words:
   - in
   - den
   - Bus
-  - schnell
   - ein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — einsteigen)
+Ordne die Wörter zum richtigen Satz: (trennbar — steige)

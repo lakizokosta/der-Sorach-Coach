@@ -5,8 +5,6 @@ words:
   - Er
   - lässt
   - sich
-  - gegen
-  - Grippe
   - impfen
 ---
 

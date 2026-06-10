@@ -7,7 +7,8 @@ words:
   - auf
   - eine
   - Antwort
-  - hier
+  - vom
+  - Reisebüro
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — warten auf)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — eine)

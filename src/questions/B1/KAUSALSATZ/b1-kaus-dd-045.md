@@ -2,11 +2,12 @@
 id: b1-kaus-dd-045
 type: dropbox
 words:
+  - Die
   - Straßen
   - sind
   - nass
   - denn
-  - gestern
+  - es
   - geregnet
   - hat
 ---

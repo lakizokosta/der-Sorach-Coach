@@ -10,4 +10,4 @@ words:
   - Geburtstag
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — freuen auf)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — den)

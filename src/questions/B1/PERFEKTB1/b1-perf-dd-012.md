@@ -5,6 +5,7 @@ words:
   - Wir
   - sind
   - den
+  - ganzen
   - Tag
   - gereist
 ---

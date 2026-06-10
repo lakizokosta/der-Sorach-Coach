@@ -4,6 +4,8 @@ type: dropbox
 words:
   - Dieser
   - Artikel
+  - in
+  - der
   - Zeitung
   - ist
   - sehr

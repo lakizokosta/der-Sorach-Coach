@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Er
   - denkt
+  - gern
   - an
-  - seinen
   - Urlaub
-  - oft
+  - Mosel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Urlaub)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den)

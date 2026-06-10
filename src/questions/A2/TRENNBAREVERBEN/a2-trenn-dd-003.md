@@ -6,8 +6,7 @@ words:
   - mache
   - die
   - Lampe
-  - sofort
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — anmachen)
+Ordne die Wörter zum richtigen Satz: (trennbar — mache)

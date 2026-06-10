@@ -2,8 +2,9 @@
 id: b1-lokal-dd-011
 type: dropbox
 words:
+  - Das
   - Museum
-  - steht
+  - ist
   - zwischen
   - zwei
   - Gebäuden

@@ -2,10 +2,10 @@
 id: b1-pass-dd-020
 type: dropbox
 words:
+  - Die
   - Patienten
   - werden
   - regelmäßig
-  - sorgfältig
   - untersucht
 ---
 

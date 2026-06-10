@@ -2,12 +2,11 @@
 id: a2-temp-dd-045
 type: dropbox
 words:
-  - Wenn
+  - Bei
+  - Müdigkeit
+  - solltest
   - du
-  - müde
-  - bist
-  - schlaf
-  - gut
+  - schlafen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)

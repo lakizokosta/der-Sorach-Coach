@@ -10,4 +10,4 @@ words:
   - Decke
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — an der Decke (Wo?))
+Ordne die Wörter zum richtigen Satz: (Wo? — an der)

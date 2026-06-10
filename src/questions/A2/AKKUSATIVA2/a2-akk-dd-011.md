@@ -4,9 +4,10 @@ type: dropbox
 words:
   - Ich
   - lese
-  - einen
-  - langen
+  - den
   - Artikel
+  - im
+  - Radio-Interview
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Artikel)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den)

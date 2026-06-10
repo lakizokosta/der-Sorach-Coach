@@ -4,10 +4,12 @@ type: dropbox
 words:
   - Ich
   - fülle
+  - das
   - Formular
   - auf
+  - der
   - Post
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — ausfüllen)
+Ordne die Wörter zum richtigen Satz: (trennbar — fülle)

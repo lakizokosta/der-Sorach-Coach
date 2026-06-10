@@ -2,13 +2,12 @@
 id: a2-konj-dd-016
 type: dropbox
 words:
-  - Weil
-  - Wetter
-  - schön
-  - ist
-  - wandern
-  - wir
-  - gern
+  - Bei
+  - Fehlern
+  - melden
+  - Sie
+  - sich
+  - bitte
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
+Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)

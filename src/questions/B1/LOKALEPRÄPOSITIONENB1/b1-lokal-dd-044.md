@@ -2,10 +2,12 @@
 id: b1-lokal-dd-044
 type: dropbox
 words:
+  - Die
   - Klinik
   - ist
   - auf
-  - dritter
+  - der
+  - dritten
   - Etage
 ---
 

@@ -6,8 +6,7 @@ words:
   - habe
   - Bedarf
   - an
-  - mehr
   - Hilfe
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Bedarf an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)

@@ -10,4 +10,3 @@ words:
 ---
 
 Ordne die Wörter zum richtigen Satz: (Adjektiv — eine bekannte Band)
-

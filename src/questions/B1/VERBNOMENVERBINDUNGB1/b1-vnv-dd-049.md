@@ -4,9 +4,8 @@ type: dropbox
 words:
   - Ich
   - mache
-  - kurze
+  - eine
   - Pause
-  - jetzt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Pause machen)

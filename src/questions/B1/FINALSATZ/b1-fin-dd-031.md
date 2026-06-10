@@ -2,11 +2,14 @@
 id: b1-fin-dd-031
 type: dropbox
 words:
+  - Die
   - Universität
   - bietet
   - Tutorien
+  - an
   - damit
-  - Studierende
+  - die
+  - Studierenden
   - besser
   - lernen
 ---

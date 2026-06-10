@@ -4,10 +4,9 @@ type: dropbox
 words:
   - Er
   - macht
-  - Fenster
-  - wegen
-  - Wind
+  - die
+  - Tür
   - zu
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — zumachen)
+Ordne die Wörter zum richtigen Satz: (trennbar — macht)

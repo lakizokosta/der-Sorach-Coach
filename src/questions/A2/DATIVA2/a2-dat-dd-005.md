@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Sie
   - gratuliert
-  - ihrem
+  - dem
   - Bruder
   - zur
   - Hochzeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — dem Bruder)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem)

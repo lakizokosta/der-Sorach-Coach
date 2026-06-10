@@ -3,10 +3,10 @@ id: a2-temp-dd-005
 type: dropbox
 words:
   - Wenn
+  - du
   - Zeit
   - hast
   - komm
-  - bitte
   - vorbei
 ---
 

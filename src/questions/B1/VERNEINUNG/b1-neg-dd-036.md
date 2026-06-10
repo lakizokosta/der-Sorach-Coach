@@ -5,7 +5,6 @@ words:
   - Er
   - kommt
   - heute
-  - leider
   - nicht
 ---
 

@@ -4,8 +4,9 @@ type: dropbox
 words:
   - Das
   - Reisebüro
-  - liegt
+  - ist
   - in
+  - der
   - Hauptstraße
 ---
 

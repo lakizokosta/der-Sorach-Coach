@@ -2,12 +2,10 @@
 id: a2-temp-dd-016
 type: dropbox
 words:
-  - Nachdem
-  - wir
-  - gebucht
-  - haben
+  - Nach
+  - Reisebuchung
   - sind
-  - alle
+  - wir
   - glücklich
 ---
 

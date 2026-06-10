@@ -2,12 +2,10 @@
 id: a2-trenn-dd-035
 type: dropbox
 words:
-  - Ich
-  - stehe
-  - jeden
-  - Morgen
-  - früh
+  - Wann
+  - stehst
+  - du
   - auf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — aufstehen)
+Ordne die Wörter zum richtigen Satz: (trennbar — stehst)

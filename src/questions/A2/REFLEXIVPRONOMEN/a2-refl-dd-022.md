@@ -5,8 +5,10 @@ words:
   - Ich
   - interessiere
   - mich
+  - sehr
   - für
+  - den
   - Tanzsport
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — interessiere mich)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — interessiere)

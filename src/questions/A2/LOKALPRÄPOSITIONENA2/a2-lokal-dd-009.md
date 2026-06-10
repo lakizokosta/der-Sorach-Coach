@@ -6,8 +6,9 @@ words:
   - Büro
   - ist
   - auf
-  - zweiter
+  - der
+  - zweiten
   - Etage
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — auf)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition — auf)

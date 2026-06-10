@@ -4,6 +4,8 @@ type: dropbox
 words:
   - Diese
   - Kollegin
+  - aus
+  - der
   - Abteilung
   - hilft
   - mir

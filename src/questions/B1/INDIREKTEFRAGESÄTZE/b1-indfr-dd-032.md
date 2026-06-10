@@ -7,7 +7,6 @@ words:
   - wissen
   - was
   - du
-  - wirklich
   - denkst
 ---
 

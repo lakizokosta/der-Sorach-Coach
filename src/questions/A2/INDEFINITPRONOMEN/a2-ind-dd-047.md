@@ -4,7 +4,6 @@ type: dropbox
 words:
   - Man
   - kann
-  - überall
   - Fehler
   - machen
 ---

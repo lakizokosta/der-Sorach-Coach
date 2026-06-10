@@ -2,11 +2,14 @@
 id: a2-wech-dd-041
 type: dropbox
 words:
-  - Wir
+  - Wo
   - sitzen
+  - wir
+  - beim
+  - Essen
   - in
   - der
   - Küche
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in der Küche (Wo?))
+Ordne die Wörter zum richtigen Satz: (Wo? — in der)

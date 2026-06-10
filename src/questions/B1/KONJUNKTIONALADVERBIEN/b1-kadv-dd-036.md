@@ -3,10 +3,12 @@ id: b1-kadv-dd-036
 type: dropbox
 words:
   - Er
-  - lernte
+  - hat
   - viel
-  - Deshalb
+  - gelernt
+  - deshalb
   - bestand
+  - seine
   - Prüfung
 ---
 

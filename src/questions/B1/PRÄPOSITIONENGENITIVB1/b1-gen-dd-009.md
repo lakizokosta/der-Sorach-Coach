@@ -3,11 +3,12 @@ id: b1-gen-dd-009
 type: dropbox
 words:
   - Trotz
-  - guter
+  - der
+  - guten
   - Vorbereitung
   - war
-  - Prüfung
-  - schwer
+  - sie
+  - nervös
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Vorbereitung)

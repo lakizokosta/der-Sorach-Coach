@@ -2,10 +2,10 @@
 id: b1-praep-dd-030
 type: dropbox
 words:
-  - Kollege
+  - Sie
   - kommt
-  - direkt
   - aus
+  - der
   - Türkei
 ---
 

@@ -2,12 +2,13 @@
 id: b1-kaus-dd-017
 type: dropbox
 words:
-  - Da
-  - Energiekosten
-  - steigen
-  - spart
-  - Firma
-  - Strom
+  - Weil
+  - er
+  - fleißig
+  - war
+  - bestand
+  - seine
+  - Prüfung
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — da Kosten steigen)

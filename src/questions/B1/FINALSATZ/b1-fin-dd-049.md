@@ -8,6 +8,9 @@ words:
   - Kleidung
   - ein
   - um
+  - mich
+  - nicht
+  - zu
   - erkälten
 ---
 

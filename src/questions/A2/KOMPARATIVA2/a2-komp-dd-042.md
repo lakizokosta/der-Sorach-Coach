@@ -2,12 +2,13 @@
 id: a2-komp-dd-042
 type: dropbox
 words:
-  - Dieses
+  - Das
   - Hotel
   - ist
   - teurer
   - als
-  - jenes
+  - das
+  - Hostel
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — teurer)

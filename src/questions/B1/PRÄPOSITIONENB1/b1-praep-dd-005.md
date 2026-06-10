@@ -2,6 +2,7 @@
 id: b1-praep-dd-005
 type: dropbox
 words:
+  - Das
   - Gesetz
   - gilt
   - ab

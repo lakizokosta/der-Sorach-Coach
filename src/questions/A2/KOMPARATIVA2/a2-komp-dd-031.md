@@ -2,12 +2,13 @@
 id: a2-komp-dd-031
 type: dropbox
 words:
-  - Das
-  - Buch
+  - Die
+  - Suppe
   - ist
-  - leider
-  - viel
-  - länger
+  - wärmer
+  - als
+  - der
+  - Salat
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — länger)
+Ordne die Wörter zum richtigen Satz: (Komparativ — wärmer)

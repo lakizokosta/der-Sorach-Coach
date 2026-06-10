@@ -2,12 +2,13 @@
 id: a2-konj-dd-037
 type: dropbox
 words:
-  - Ich
-  - glaube
-  - dass
-  - Anna
-  - morgen
-  - kommt
+  - Wenn
+  - es
+  - regnet
+  - nehme
+  - ich
+  - einen
+  - Schirm
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
+Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)

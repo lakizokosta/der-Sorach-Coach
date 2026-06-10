@@ -9,4 +9,4 @@ words:
   - Information
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Information)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — eine)

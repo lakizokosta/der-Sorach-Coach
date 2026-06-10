@@ -5,8 +5,7 @@ words:
   - Das
   - schmeckt
   - dir
-  - bestimmt
   - gut
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — dir)
+Ordne die Wörter zum richtigen Satz: (Personalpronomen — dir)

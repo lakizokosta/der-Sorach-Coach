@@ -8,6 +8,7 @@ words:
   - für
   - eine
   - Stelle
+  - im
   - Ausland
 ---
 

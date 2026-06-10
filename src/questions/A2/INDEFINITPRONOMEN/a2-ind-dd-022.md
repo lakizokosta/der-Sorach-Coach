@@ -5,6 +5,7 @@ words:
   - Jemand
   - war
   - bei
+  - der
   - Panne
   - sehr
   - nett

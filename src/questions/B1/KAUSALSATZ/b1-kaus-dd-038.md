@@ -6,9 +6,10 @@ words:
   - bin
   - müde
   - denn
+  - ich
+  - habe
   - wenig
   - geschlafen
-  - habe
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn wenig geschlafen)

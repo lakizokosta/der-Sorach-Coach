@@ -6,6 +6,7 @@ words:
   - ärgert
   - sich
   - über
+  - den
   - Fehler
 ---
 

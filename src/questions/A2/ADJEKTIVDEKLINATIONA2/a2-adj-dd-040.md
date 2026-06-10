@@ -2,11 +2,11 @@
 id: a2-adj-dd-040
 type: dropbox
 words:
-  - Sie
-  - liest
+  - Er
+  - fährt
   - ein
-  - interessantes
-  - Buch
+  - schnelles
+  - Fahrrad
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — interessantes Buch)
+Ordne die Wörter zum richtigen Satz: (schnell, neutr., Akk. — schnelles)

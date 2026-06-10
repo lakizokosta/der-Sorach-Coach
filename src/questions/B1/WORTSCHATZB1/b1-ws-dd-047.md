@@ -2,10 +2,13 @@
 id: b1-ws-dd-047
 type: dropbox
 words:
-  - Team
+  - Sie
   - sucht
+  - eine
   - nachhaltige
   - Lösung
+  - für
+  - das
   - Problem
 ---
 

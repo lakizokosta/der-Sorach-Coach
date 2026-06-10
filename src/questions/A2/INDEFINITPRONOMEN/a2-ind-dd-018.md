@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Man
   - muss
+  - die
   - Hausaufgaben
-  - heute
   - machen
 ---
 

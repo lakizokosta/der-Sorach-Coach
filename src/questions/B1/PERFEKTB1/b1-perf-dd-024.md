@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Wir
   - haben
+  - die
   - Rechnung
   - schon
   - bezahlt

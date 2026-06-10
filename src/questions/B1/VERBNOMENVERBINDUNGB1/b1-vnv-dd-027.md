@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Er
   - reicht
+  - eine
   - Bewerbung
-  - online
   - ein
 ---
 

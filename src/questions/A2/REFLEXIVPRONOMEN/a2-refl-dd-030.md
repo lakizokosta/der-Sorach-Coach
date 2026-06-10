@@ -9,4 +9,4 @@ words:
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — ziehst dich an)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — ziehst)

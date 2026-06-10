@@ -7,7 +7,6 @@ words:
   - sich
   - im
   - Spiegel
-  - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — sieht sich)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — sieht)

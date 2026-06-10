@@ -3,10 +3,12 @@ id: a2-ind-dd-034
 type: dropbox
 words:
   - Jemand
-  - kann
+  - ist
+  - da
+  - der
   - mir
-  - sicher
   - helfen
+  - kann
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)

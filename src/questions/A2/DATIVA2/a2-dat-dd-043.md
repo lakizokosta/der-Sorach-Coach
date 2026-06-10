@@ -9,4 +9,4 @@ words:
   - Eltern
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — meinen Eltern)
+Ordne die Wörter zum richtigen Satz: (Possessiv — meinen)

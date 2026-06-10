@@ -2,12 +2,14 @@
 id: a2-konj-dd-049
 type: dropbox
 words:
-  - Ob
-  - Bus
-  - kommt
-  - weiß
-  - niemand
-  - hier
+  - Wir
+  - gehen
+  - spazieren
+  - weil
+  - das
+  - Wetter
+  - schön
+  - ist
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktion — ob)
+Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)

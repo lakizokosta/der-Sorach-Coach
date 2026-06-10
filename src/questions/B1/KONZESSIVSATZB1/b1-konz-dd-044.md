@@ -2,13 +2,14 @@
 id: b1-konz-dd-044
 type: dropbox
 words:
-  - Obwohl
-  - wenig
-  - Zeit
-  - hat
-  - hilft
-  - sie
-  - uns
+  - Es
+  - regnet
+  - trotzdem
+  - fahren
+  - wir
+  - in
+  - den
+  - Urlaub
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig Zeit)

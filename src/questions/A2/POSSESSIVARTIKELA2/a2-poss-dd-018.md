@@ -4,9 +4,10 @@ type: dropbox
 words:
   - Das
   - ist
+  - das
+  - Auto
   - meines
   - Vaters
-  - Auto
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — meines Vaters)
+Ordne die Wörter zum richtigen Satz: (Possessiv — meines)

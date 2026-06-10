@@ -5,9 +5,8 @@ words:
   - Wir
   - sprechen
   - mit
-  - unserem
+  - dem
   - Chef
-  - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — sprechen mit)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — dem)

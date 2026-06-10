@@ -2,11 +2,12 @@
 id: b1-npv-dd-046
 type: dropbox
 words:
-  - Er
+  - Die
+  - Patientin
   - hat
-  - Erfahrung
-  - in
-  - Medienbranche
+  - Schmerzen
+  - im
+  - Rücken
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfahrung in)

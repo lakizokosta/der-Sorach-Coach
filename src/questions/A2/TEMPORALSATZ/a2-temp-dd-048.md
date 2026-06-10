@@ -2,11 +2,10 @@
 id: a2-temp-dd-048
 type: dropbox
 words:
-  - Wenn
-  - ich
-  - krank
-  - bin
+  - Bei
+  - Krankheit
   - bleibe
+  - ich
   - Zuhause
 ---
 

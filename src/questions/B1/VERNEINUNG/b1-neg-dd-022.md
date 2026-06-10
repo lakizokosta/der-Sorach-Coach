@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Das
   - ist
-  - wirklich
   - keine
+  - eine
   - gute
   - Idee
 ---

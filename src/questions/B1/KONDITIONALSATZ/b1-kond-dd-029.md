@@ -3,11 +3,12 @@ id: b1-kond-dd-029
 type: dropbox
 words:
   - Falls
+  - der
   - Termin
   - ausfällt
   - informiere
+  - ich
   - dich
-  - sofort
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls Termin ausfällt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls der Termin ausfällt)

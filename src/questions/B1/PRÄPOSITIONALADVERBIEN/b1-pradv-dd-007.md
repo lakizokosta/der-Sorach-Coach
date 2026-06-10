@@ -2,10 +2,13 @@
 id: b1-pradv-dd-007
 type: dropbox
 words:
-  - Patient
-  - wartet
-  - sehr
-  - ungeduldig
+  - Wartest
+  - du
+  - auf
+  - die
+  - Ergebnisse
+  - Ich
+  - warte
   - darauf
 ---
 

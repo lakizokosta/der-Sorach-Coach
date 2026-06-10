@@ -2,6 +2,7 @@
 id: a2-akk-dd-021
 type: dropbox
 words:
+  - Das
   - Geschenk
   - ist
   - für
@@ -9,4 +10,4 @@ words:
   - Schwester
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — deine Schwester)
+Ordne die Wörter zum richtigen Satz: (Possessiv — deine)

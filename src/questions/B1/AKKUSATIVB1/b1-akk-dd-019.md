@@ -5,10 +5,10 @@ words:
   - Ich
   - warte
   - auf
+  - die
   - Antwort
+  - der
   - Personalabteilung
-  - seit
-  - gestern
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — die Antwort)

@@ -2,13 +2,12 @@
 id: b1-akk-dd-033
 type: dropbox
 words:
-  - Bitte
-  - bestätigen
-  - Sie
-  - den
-  - Termin
-  - schriftlich
-  - heute
+  - Der
+  - Journalist
+  - recherchiert
+  - einen
+  - komplexen
+  - Fall
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — den Termin)

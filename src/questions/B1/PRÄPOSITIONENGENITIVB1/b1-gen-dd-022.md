@@ -3,11 +3,14 @@ id: b1-gen-dd-022
 type: dropbox
 words:
   - Trotz
-  - hoher
+  - der
+  - hohen
   - Kosten
   - gehen
   - wir
-  - reisen
+  - trotzdem
+  - auf
+  - Reisen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Kosten)

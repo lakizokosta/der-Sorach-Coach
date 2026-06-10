@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Wir
   - haben
-  - Pizza
   - zusammen
+  - Pizza
   - gegessen
 ---
 

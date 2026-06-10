@@ -8,6 +8,9 @@ words:
   - auf
   - den
   - Urlaub
+  - an
+  - der
+  - Mosel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — freue mich)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — freue)

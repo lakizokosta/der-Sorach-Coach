@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Er
   - lässt
+  - das
   - Paket
   - nach
   - Hause

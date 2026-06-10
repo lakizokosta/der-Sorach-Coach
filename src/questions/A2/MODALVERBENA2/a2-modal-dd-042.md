@@ -6,7 +6,6 @@ words:
   - man
   - hier
   - fotografieren
-  - bitte
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverb — Darf)

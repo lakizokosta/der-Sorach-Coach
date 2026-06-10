@@ -4,7 +4,8 @@ type: dropbox
 words:
   - Ich
   - bleibe
-  - Zuhause
+  - zu
+  - Hause
   - weil
   - ich
   - krank

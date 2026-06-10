@@ -7,7 +7,8 @@ words:
   - Ferien
   - freuen
   - sich
+  - die
   - Kinder
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Während der Ferien)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Während der)

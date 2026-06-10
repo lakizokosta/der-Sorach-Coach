@@ -5,8 +5,9 @@ words:
   - Er
   - übernimmt
   - Verantwortung
+  - für
+  - das
   - Projekt
-  - sofort
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Verantwortung übernehmen)

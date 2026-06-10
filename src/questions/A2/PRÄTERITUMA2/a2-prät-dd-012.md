@@ -6,7 +6,6 @@ words:
   - hatte
   - großen
   - Hunger
-  - gestern
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präteritum — hatte)

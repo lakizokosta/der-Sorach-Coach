@@ -5,8 +5,8 @@ words:
   - Wir
   - warten
   - auf
+  - den
   - Arzt
-  - unten
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präposition — auf Arzt)

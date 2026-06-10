@@ -7,7 +7,8 @@ words:
   - war
   - interessanter
   - als
-  - Seminar
+  - die
+  - andere
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Vorlesung)

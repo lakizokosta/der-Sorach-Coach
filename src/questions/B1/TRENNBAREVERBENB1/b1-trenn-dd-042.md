@@ -6,6 +6,8 @@ words:
   - freuen
   - uns
   - schon
+  - auf
+  - die
   - Reise
 ---
 

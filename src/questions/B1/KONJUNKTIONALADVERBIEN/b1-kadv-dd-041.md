@@ -2,8 +2,10 @@
 id: b1-kadv-dd-041
 type: dropbox
 words:
+  - Die
   - Nachrichten
-  - alarmieren
+  - sind
+  - alarmierend
   - Dennoch
   - bleiben
   - viele

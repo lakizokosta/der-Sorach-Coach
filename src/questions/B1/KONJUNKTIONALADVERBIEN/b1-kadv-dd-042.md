@@ -3,10 +3,12 @@ id: b1-kadv-dd-042
 type: dropbox
 words:
   - Er
-  - machte
+  - hat
   - Überstunden
+  - gemacht
   - Deshalb
   - ist
+  - er
   - müde
 ---
 

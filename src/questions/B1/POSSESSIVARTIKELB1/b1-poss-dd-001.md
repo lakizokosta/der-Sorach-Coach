@@ -7,7 +7,9 @@ words:
   - schweren
   - Erkrankung
   - bleibt
-  - Zuhause
+  - er
+  - zu
+  - Hause
 ---
 
 Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erkrankung)

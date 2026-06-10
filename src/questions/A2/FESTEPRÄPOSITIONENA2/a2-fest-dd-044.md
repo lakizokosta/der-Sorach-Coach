@@ -10,4 +10,4 @@ words:
   - Kindheit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — erinnern an)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — seine)

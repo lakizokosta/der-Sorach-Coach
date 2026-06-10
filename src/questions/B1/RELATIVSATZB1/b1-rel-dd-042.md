@@ -2,6 +2,7 @@
 id: b1-rel-dd-042
 type: dropbox
 words:
+  - Das
   - Medikament
   - das
   - er

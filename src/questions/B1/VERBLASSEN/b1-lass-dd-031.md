@@ -6,7 +6,8 @@ words:
   - lässt
   - dir
   - Zeit
-  - ausruhen
+  - zum
+  - Ausruhen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verblassen — lässt ausruhen)

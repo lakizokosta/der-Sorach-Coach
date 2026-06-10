@@ -2,11 +2,12 @@
 id: b1-indfr-dd-033
 type: dropbox
 words:
-  - Kollege
-  - fragt
-  - wo
-  - Meeting
-  - morgen
+  - Ich
+  - weiß
+  - nicht
+  - ob
+  - der
+  - Termin
   - stattfindet
 ---
 

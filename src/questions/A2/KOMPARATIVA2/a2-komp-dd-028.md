@@ -7,6 +7,7 @@ words:
   - ist
   - näher
   - als
+  - der
   - Supermarkt
 ---
 

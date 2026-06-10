@@ -6,6 +6,7 @@ words:
   - fährt
   - von
   - Berlin
+  - nach
   - Hamburg
 ---
 

@@ -2,12 +2,15 @@
 id: b1-konz-dd-040
 type: dropbox
 words:
-  - Obschon
-  - Medikament
-  - teuer
+  - Das
+  - Projekt
   - ist
-  - kauft
-  - Patient
+  - schwierig
+  - trotzdem
+  - geben
+  - wir
+  - nicht
+  - auf
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon teuer ist)

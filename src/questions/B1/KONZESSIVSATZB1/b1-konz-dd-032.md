@@ -3,11 +3,14 @@ id: b1-konz-dd-032
 type: dropbox
 words:
   - Obwohl
-  - Reise
-  - teuer
-  - war
-  - lohnte
-  - sich
+  - die
+  - Umwelt
+  - belastet
+  - ist
+  - reisen
+  - viele
+  - weiter
+  - viel
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl teuer war)

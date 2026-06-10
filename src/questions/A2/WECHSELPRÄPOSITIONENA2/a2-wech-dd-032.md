@@ -10,4 +10,4 @@ words:
   - Stadt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in einer Stadt (Wo?))
+Ordne die Wörter zum richtigen Satz: (Wo? — in einer)

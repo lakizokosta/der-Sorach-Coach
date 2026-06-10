@@ -3,9 +3,12 @@ id: b1-gen-dd-021
 type: dropbox
 words:
   - Während
-  - Sommerferien
+  - der
+  - Ferien
   - arbeitet
   - sie
+  - in
+  - einem
   - Café
 ---
 

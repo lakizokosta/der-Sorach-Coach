@@ -6,7 +6,8 @@ words:
   - kümmert
   - sich
   - um
+  - die
   - Hausaufgaben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — kümmert sich)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — kümmert)

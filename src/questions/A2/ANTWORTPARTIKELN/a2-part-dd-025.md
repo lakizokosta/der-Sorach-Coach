@@ -2,12 +2,17 @@
 id: a2-part-dd-025
 type: dropbox
 words:
-  - Ja
-  - Sport
-  - macht
-  - mir
-  - viel
-  - Spaß
+  - Warst
+  - du
+  - bei
+  - der
+  - Panne
+  - dabei
+  - nein
+  - ich
+  - war
+  - nur
+  - Zuschauer
 ---
 
-Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)
+Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)

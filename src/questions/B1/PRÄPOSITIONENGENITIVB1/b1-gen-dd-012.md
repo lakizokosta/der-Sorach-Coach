@@ -3,7 +3,7 @@ id: b1-gen-dd-012
 type: dropbox
 words:
   - Trotz
-  - starken
+  - des
   - Regens
   - gehen
   - wir

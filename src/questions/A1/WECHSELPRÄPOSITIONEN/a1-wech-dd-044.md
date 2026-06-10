@@ -11,4 +11,3 @@ words:
 ---
 
 Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in die Klasse (Bewegung))
-

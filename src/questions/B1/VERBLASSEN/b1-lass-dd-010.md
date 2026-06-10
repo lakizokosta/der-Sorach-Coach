@@ -5,6 +5,7 @@ words:
   - Ich
   - lasse
   - mir
+  - eine
   - zweite
   - Meinung
   - geben

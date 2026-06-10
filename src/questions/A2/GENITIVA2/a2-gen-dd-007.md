@@ -4,10 +4,11 @@ type: dropbox
 words:
   - Während
   - des
+  - ganzen
   - Tages
   - war
   - ich
   - unterwegs
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Während des Tages)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Während des)

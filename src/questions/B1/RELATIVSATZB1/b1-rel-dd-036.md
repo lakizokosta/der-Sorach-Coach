@@ -2,6 +2,7 @@
 id: b1-rel-dd-036
 type: dropbox
 words:
+  - Die
   - Professorin
   - die
   - ich

@@ -10,4 +10,4 @@ words:
   - Nachricht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — seinem Freund)
+Ordne die Wörter zum richtigen Satz: (Possessiv — seinem)

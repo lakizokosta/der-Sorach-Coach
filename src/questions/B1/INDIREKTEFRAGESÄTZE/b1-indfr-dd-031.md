@@ -6,9 +6,11 @@ words:
   - erkundigt
   - sich
   - ob
+  - der
   - Professor
   - heute
   - da
+  - ist
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Professor da ist)

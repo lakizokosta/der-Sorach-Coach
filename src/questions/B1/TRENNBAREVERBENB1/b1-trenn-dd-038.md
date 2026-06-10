@@ -4,7 +4,9 @@ type: dropbox
 words:
   - Wir
   - verlegen
+  - das
   - Meeting
+  - auf
   - nächste
   - Woche
   - vor

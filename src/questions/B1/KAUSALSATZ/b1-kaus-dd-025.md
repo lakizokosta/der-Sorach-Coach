@@ -6,9 +6,10 @@ words:
   - ist
   - gestresst
   - denn
-  - viel
   - zu
-  - tun
+  - viel
+  - Arbeit
+  - wartet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn viel zu tun)

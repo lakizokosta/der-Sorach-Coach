@@ -8,7 +8,6 @@ words:
   - einer
   - erfahrenen
   - Politikerin
-  - gestern
 ---
 
 Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — erfahrenen Politikerin)

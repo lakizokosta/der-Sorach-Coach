@@ -5,8 +5,10 @@ words:
   - Ich
   - kenne
   - niemanden
+  - hier
   - in
-  - neuer
+  - der
+  - neuen
   - Stadt
 ---
 

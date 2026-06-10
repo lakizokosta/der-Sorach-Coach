@@ -2,12 +2,14 @@
 id: b1-erg-dd-034
 type: dropbox
 words:
-  - Anwalt
-  - bestätigt
+  - Der
+  - Chef
+  - sagt
   - dass
-  - Vertrag
-  - noch
-  - gilt
+  - das
+  - Meeting
+  - verschoben
+  - wird
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Vertrag gilt)

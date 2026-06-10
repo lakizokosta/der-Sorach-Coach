@@ -2,13 +2,14 @@
 id: b1-kaus-dd-016
 type: dropbox
 words:
-  - Sie
-  - kam
-  - früh
+  - Ich
+  - bleibe
+  - zu
+  - Hause
   - weil
-  - Termin
-  - wichtig
-  - war
+  - ich
+  - krank
+  - bin
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Termin wichtig)

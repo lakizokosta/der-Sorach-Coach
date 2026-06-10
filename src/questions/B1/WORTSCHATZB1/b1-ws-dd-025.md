@@ -3,10 +3,12 @@ id: b1-ws-dd-025
 type: dropbox
 words:
   - Sie
-  - bekam
+  - hat
+  - eine
   - Impfung
   - gegen
   - Grippe
+  - bekommen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Wortschatz — Impfung)

@@ -6,8 +6,8 @@ words:
   - nimmt
   - Teil
   - an
-  - unserem
+  - dem
   - Kurs
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Teilnahme an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)

@@ -2,11 +2,12 @@
 id: b1-pass-dd-033
 type: dropbox
 words:
-  - Neues
-  - Krankenhaus
+  - Das
+  - neue
+  - Gesetz
   - wird
-  - Stadt
-  - gebaut
+  - morgen
+  - verabschiedet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Passiv — wird gebaut)

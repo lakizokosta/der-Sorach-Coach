@@ -6,7 +6,6 @@ words:
   - habe
   - mich
   - erkältet
-  - leider
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — habe mich erkältet)
+Ordne die Wörter zum richtigen Satz: (Perfekt — habe erkältet)

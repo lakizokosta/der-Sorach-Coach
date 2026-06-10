@@ -5,9 +5,8 @@ words:
   - Wir
   - gehen
   - am
-  - Samstag
-  - gern
+  - Wochenende
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — ausgehen)
+Ordne die Wörter zum richtigen Satz: (trennbar — gehen)

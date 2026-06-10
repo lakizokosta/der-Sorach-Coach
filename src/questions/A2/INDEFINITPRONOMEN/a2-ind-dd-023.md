@@ -6,6 +6,7 @@ words:
   - sehe
   - niemanden
   - auf
+  - der
   - Straße
 ---
 

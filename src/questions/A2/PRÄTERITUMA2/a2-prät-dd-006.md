@@ -6,8 +6,8 @@ words:
   - war
   - müde
   - und
-  - schlief
-  - früh
+  - ging
+  - schlafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — war / schlief)
+Ordne die Wörter zum richtigen Satz: (Präteritum — schlafen)

@@ -5,8 +5,9 @@ words:
   - Wir
   - nehmen
   - Rücksicht
+  - auf
+  - die
   - Kollegen
-  - Team
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rücksicht nehmen)

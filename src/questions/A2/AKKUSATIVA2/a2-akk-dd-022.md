@@ -4,9 +4,8 @@ type: dropbox
 words:
   - Ich
   - suche
-  - meinen
+  - den
   - Schlüssel
-  - überall
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Schlüssel)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den)

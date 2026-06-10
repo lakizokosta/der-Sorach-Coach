@@ -2,7 +2,8 @@
 id: b1-pass-dd-046
 type: dropbox
 words:
-  - Gebäude
+  - Das
+  - Haus
   - wurde
   - früher
   - als

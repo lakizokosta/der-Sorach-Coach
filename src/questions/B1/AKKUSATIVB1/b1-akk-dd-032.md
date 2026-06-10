@@ -4,11 +4,11 @@ type: dropbox
 words:
   - Sie
   - kauft
-  - online
   - ein
-  - Zugticket
-  - nach
-  - München
+  - Ticket
+  - für
+  - den
+  - Zug
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Ticket)

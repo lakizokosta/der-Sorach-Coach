@@ -4,9 +4,9 @@ type: dropbox
 words:
   - Sie
   - reicht
+  - die
   - Rechnung
   - sofort
-  - online
   - ein
 ---
 

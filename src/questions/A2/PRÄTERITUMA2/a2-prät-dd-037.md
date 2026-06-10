@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Er
   - trank
-  - beim
-  - Sport
   - viel
   - Wasser
+  - beim
+  - Sport
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präteritum — trank)

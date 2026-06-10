@@ -5,6 +5,8 @@ words:
   - Ich
   - habe
   - mich
+  - über
+  - das
   - Ergebnis
   - gefreut
 ---

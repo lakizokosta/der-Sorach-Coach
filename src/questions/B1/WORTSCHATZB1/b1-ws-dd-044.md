@@ -2,11 +2,11 @@
 id: b1-ws-dd-044
 type: dropbox
 words:
-  - Politik
-  - fördert
+  - Wir
+  - diskutieren
+  - über
   - erneuerbare
-  - Energie
-  - stärker
+  - Energiequellen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Wortschatz — erneuerbare)

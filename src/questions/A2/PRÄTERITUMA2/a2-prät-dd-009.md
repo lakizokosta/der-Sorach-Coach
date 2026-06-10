@@ -4,8 +4,7 @@ type: dropbox
 words:
   - Ich
   - wusste
-  - Antwort
-  - leider
+  - das
   - nicht
 ---
 

@@ -2,10 +2,11 @@
 id: b1-lokal-dd-023
 type: dropbox
 words:
+  - Das
   - Café
-  - liegt
-  - direkt
+  - ist
   - neben
+  - dem
   - Park
 ---
 

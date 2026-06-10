@@ -2,10 +2,11 @@
 id: b1-perf-dd-010
 type: dropbox
 words:
+  - Die
   - Politiker
   - haben
+  - eine
   - Einigung
-  - endlich
   - erzielt
 ---
 

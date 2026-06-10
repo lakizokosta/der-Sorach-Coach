@@ -2,11 +2,14 @@
 id: b1-pradv-dd-005
 type: dropbox
 words:
-  - Er
-  - hofft
-  - weiterhin
+  - Hoffst
+  - du
+  - auf
+  - bessere
+  - Zeiten
+  - Ich
+  - hoffe
   - darauf
-  - fest
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Hoffnung))

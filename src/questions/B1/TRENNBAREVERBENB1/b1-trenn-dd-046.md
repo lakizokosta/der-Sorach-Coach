@@ -4,9 +4,9 @@ type: dropbox
 words:
   - Ich
   - rufe
+  - den
   - Kollegen
   - später
-  - noch
   - an
 ---
 

@@ -4,7 +4,9 @@ type: dropbox
 words:
   - Er
   - hat
+  - eine
   - Unterkunft
+  - für
   - nächsten
   - Monat
   - gebucht

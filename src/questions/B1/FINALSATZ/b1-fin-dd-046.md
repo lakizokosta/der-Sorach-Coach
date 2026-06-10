@@ -4,9 +4,12 @@ type: dropbox
 words:
   - Sie
   - schreibt
+  - eine
   - Zusammenfassung
   - damit
+  - der
   - Chef
+  - sie
   - schnell
   - liest
 ---

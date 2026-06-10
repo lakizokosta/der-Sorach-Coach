@@ -6,7 +6,7 @@ words:
   - suche
   - einen
   - geeigneten
-  - Sprachkurs
+  - Kurs
   - für
   - B1
 ---

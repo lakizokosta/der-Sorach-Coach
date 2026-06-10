@@ -2,12 +2,14 @@
 id: b1-erg-dd-016
 type: dropbox
 words:
-  - Zeitung
-  - behauptet
+  - Ich
+  - finde
   - dass
-  - Bericht
-  - vollständig
-  - stimmt
+  - die
+  - neue
+  - Regelung
+  - sinnvoll
+  - ist
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Bericht stimmt)

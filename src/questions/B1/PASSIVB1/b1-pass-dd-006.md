@@ -2,6 +2,7 @@
 id: b1-pass-dd-006
 type: dropbox
 words:
+  - Die
   - Straße
   - wurde
   - letztes

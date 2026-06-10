@@ -5,9 +5,10 @@ words:
   - Sie
   - hofft
   - dass
+  - sie
+  - die
   - Prüfung
   - besteht
-  - morgen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Prüfung besteht)

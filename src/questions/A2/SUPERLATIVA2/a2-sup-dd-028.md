@@ -2,11 +2,13 @@
 id: a2-sup-dd-028
 type: dropbox
 words:
-  - Dieser
-  - Film
+  - Das
   - ist
-  - am
-  - bekanntesten
+  - der
+  - bekannteste
+  - Film
+  - des
+  - Jahres
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — am bekanntesten)
+Ordne die Wörter zum richtigen Satz: (Superlativ — bekannteste)

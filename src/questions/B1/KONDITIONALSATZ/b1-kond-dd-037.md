@@ -3,6 +3,7 @@ id: b1-kond-dd-037
 type: dropbox
 words:
   - Sobald
+  - der
   - Zug
   - ankommt
   - fahren
@@ -10,4 +11,4 @@ words:
   - los
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald Zug ankommt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Zug ankommt)

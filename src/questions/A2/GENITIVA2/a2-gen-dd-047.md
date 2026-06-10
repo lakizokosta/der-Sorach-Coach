@@ -11,4 +11,4 @@ words:
   - schlafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen des Lärms)
+Ordne die Wörter zum richtigen Satz: (Genitiv — des)

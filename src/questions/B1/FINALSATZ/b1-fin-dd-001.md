@@ -6,8 +6,10 @@ words:
   - lernt
   - Deutsch
   - um
+  - in
   - Berlin
   - arbeiten
+  - zu
   - können
 ---
 

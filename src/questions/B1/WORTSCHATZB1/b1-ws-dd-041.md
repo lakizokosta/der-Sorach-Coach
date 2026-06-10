@@ -2,7 +2,10 @@
 id: b1-ws-dd-041
 type: dropbox
 words:
+  - Die
   - Nachfrage
+  - an
+  - der
   - Universität
   - ist
   - sehr

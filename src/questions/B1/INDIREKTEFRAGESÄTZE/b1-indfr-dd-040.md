@@ -4,9 +4,11 @@ type: dropbox
 words:
   - Wir
   - sind
-  - unsicher
+  - uns
+  - nicht
+  - sicher
   - ob
-  - Bericht
+  - das
   - stimmt
 ---
 

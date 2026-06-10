@@ -7,7 +7,8 @@ words:
   - Verspätung
   - verpassten
   - wir
+  - den
   - Zug
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen der Verspätung)
+Ordne die Wörter zum richtigen Satz: (Genitiv — der)

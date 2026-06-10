@@ -2,9 +2,11 @@
 id: b1-erg-dd-019
 type: dropbox
 words:
+  - Der
   - Chef
   - sagt
   - dass
+  - das
   - Meeting
   - verschoben
   - wird

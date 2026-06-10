@@ -4,10 +4,9 @@ type: dropbox
 words:
   - Er
   - macht
+  - das
   - Radio
-  - am
-  - Morgen
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — anmachen)
+Ordne die Wörter zum richtigen Satz: (trennbar — macht)

@@ -3,9 +3,11 @@ id: b1-kond-dd-019
 type: dropbox
 words:
   - Falls
+  - es
   - regnet
   - nehmen
   - wir
+  - einen
   - Schirm
   - mit
 ---

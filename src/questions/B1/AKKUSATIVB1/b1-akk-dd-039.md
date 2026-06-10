@@ -7,8 +7,8 @@ words:
   - den
   - Bericht
   - über
+  - die
   - Klimakonferenz
-  - heute
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — den Bericht)

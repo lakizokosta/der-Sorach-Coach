@@ -4,10 +4,11 @@ type: dropbox
 words:
   - Sie
   - kaufte
-  - Mann
   - ein
-  - schönes
   - Geschenk
+  - für
+  - ihren
+  - Mann
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präteritum — kaufte)

@@ -5,7 +5,7 @@ words:
   - Er
   - fragt
   - nach
-  - genauem
+  - dem
   - Weg
 ---
 

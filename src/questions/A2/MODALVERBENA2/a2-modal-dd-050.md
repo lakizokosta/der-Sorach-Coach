@@ -6,7 +6,6 @@ words:
   - könntest
   - auch
   - mitmachen
-  - heute
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverb — könntest)

@@ -6,8 +6,8 @@ words:
   - buche
   - eine
   - Reise
-  - an
-  - Mosel
+  - im
+  - Reisebüro
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Reise)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — eine)

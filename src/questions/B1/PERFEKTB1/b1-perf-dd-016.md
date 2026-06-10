@@ -2,11 +2,13 @@
 id: b1-perf-dd-016
 type: dropbox
 words:
-  - Preis
-  - ist
-  - seit
-  - Januar
-  - gestiegen
+  - Der
+  - Minister
+  - hat
+  - die
+  - neue
+  - Regelung
+  - erklärt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfekt — ist gestiegen)

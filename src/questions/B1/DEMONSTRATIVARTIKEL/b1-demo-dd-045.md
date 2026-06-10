@@ -5,7 +5,6 @@ words:
   - Diese
   - Patienten
   - müssen
-  - leider
   - länger
   - warten
 ---

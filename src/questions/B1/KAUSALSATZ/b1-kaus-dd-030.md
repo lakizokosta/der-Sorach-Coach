@@ -6,6 +6,7 @@ words:
   - trinke
   - Tee
   - weil
+  - ich
   - Halsweh
   - habe
 ---

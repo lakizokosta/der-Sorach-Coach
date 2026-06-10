@@ -4,7 +4,6 @@ type: dropbox
 words:
   - Ich
   - sehe
-  - hier
   - kein
   - Problem
 ---

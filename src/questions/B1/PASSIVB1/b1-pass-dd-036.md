@@ -2,10 +2,10 @@
 id: b1-pass-dd-036
 type: dropbox
 words:
+  - Der
   - Bericht
   - wurde
   - gestern
-  - online
   - veröffentlicht
 ---
 

@@ -4,8 +4,10 @@ type: dropbox
 words:
   - Er
   - hat
-  - noch
   - nicht
+  - auf
+  - die
+  - Nachricht
   - geantwortet
 ---
 

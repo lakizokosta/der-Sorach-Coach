@@ -2,10 +2,11 @@
 id: b1-praep-dd-029
 type: dropbox
 words:
-  - Team
-  - spricht
-  - heute
+  - Wir
+  - diskutieren
   - über
+  - dem
+  - neuen
   - Plan
 ---
 

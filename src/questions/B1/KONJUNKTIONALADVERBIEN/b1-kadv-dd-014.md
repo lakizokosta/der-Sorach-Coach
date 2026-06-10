@@ -4,9 +4,12 @@ type: dropbox
 words:
   - Sie
   - hat
+  - wenig
   - Erfahrung
   - Trotzdem
-  - bekam
+  - bekommt
+  - sie
+  - die
   - Stelle
 ---
 

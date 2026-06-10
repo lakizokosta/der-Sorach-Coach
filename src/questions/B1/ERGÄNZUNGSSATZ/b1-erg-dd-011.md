@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Ich
   - finde
+  - es
   - gut
   - dass
   - du

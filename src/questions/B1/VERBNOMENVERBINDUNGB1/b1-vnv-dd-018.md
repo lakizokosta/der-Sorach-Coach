@@ -5,6 +5,7 @@ words:
   - Wir
   - müssen
   - heute
+  - eine
   - wichtige
   - Entscheidung
   - treffen

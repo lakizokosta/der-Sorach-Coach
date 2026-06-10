@@ -9,4 +9,4 @@ words:
   - Eis
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Lust auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)

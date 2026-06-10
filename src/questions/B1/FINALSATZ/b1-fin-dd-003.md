@@ -6,6 +6,7 @@ words:
   - nehme
   - Medikamente
   - um
+  - die
   - Schmerzen
   - lindern
 ---

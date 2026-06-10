@@ -7,6 +7,7 @@ words:
   - Wasser
   - um
   - gesund
+  - zu
   - bleiben
 ---
 

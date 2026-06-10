@@ -2,9 +2,9 @@
 id: b1-pass-dd-039
 type: dropbox
 words:
+  - Die
   - Tickets
   - werden
-  - jetzt
   - online
   - verkauft
 ---

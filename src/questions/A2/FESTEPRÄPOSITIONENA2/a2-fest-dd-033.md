@@ -7,8 +7,7 @@ words:
   - mich
   - auf
   - das
-  - große
   - Fest
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — freuen auf)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — auf)

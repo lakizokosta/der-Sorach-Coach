@@ -2,13 +2,14 @@
 id: b1-rel-dd-033
 type: dropbox
 words:
-  - Büro
-  - wo
-  - wir
-  - arbeiten
-  - liegt
-  - zentrale
-  - Lage
+  - Der
+  - Kollege
+  - der
+  - neben
+  - mir
+  - sitzt
+  - ist
+  - neu
 ---
 
 Ordne die Wörter zum richtigen Satz: (Relativsatz — wo wir arbeiten)

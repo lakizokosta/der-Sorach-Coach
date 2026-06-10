@@ -7,7 +7,6 @@ words:
   - an
   - seine
   - Familie
-  - oft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — denken an)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — seine)

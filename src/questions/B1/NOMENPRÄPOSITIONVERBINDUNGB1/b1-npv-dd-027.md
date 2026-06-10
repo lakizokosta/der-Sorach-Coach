@@ -6,7 +6,7 @@ words:
   - hat
   - Freude
   - an
-  - neuer
+  - ihrer
   - Arbeit
 ---
 

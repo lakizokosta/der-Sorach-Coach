@@ -5,7 +5,9 @@ words:
   - Ich
   - interessiere
   - mich
+  - dafür
   - was
+  - die
   - neue
   - Regelung
   - bedeutet

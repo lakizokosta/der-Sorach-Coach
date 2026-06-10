@@ -3,11 +3,11 @@ id: a2-komp-dd-034
 type: dropbox
 words:
   - Trotzdem
-  - lief
-  - es
-  - besser
+  - gewann
+  - ich
   - als
-  - erwartet
+  - stärkerer
+  - Sportler
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — besser)
+Ordne die Wörter zum richtigen Satz: (Komparativ — stärker)

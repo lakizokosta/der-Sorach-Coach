@@ -2,9 +2,11 @@
 id: b1-erg-dd-039
 type: dropbox
 words:
+  - Der
   - Arzt
   - meint
   - dass
+  - du
   - mehr
   - schlafen
   - solltest

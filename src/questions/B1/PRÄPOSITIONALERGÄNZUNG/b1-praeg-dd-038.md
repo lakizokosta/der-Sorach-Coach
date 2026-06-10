@@ -6,6 +6,7 @@ words:
   - freut
   - sich
   - auf
+  - die
   - Reise
 ---
 

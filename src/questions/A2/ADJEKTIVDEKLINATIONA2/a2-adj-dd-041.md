@@ -2,12 +2,11 @@
 id: a2-adj-dd-041
 type: dropbox
 words:
-  - Ohne
-  - gute
-  - Vorbereitung
-  - geht
-  - das
-  - nicht
+  - Sie
+  - hat
+  - einen
+  - netten
+  - Freund
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — gute Vorbereitung)
+Ordne die Wörter zum richtigen Satz: (nett, mask., Akk. — netten)

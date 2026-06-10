@@ -2,11 +2,10 @@
 id: b1-praep-dd-015
 type: dropbox
 words:
-  - Chef
+  - Er
   - ist
-  - heute
   - auf
-  - Geschäftsreise
+  - Geschäft
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präposition — auf Geschäft)

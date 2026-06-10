@@ -6,9 +6,8 @@ words:
   - freut
   - sich
   - auf
+  - die
   - Geschäftsreise
-  - nächste
-  - Woche
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — die Reise)

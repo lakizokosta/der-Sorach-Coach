@@ -2,11 +2,10 @@
 id: a2-temp-dd-017
 type: dropbox
 words:
-  - Wenn
-  - ich
-  - aufwache
+  - Nach
+  - Aufwachen
   - trinke
-  - gleich
+  - ich
   - Kaffee
 ---
 

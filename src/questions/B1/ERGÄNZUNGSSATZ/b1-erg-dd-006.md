@@ -5,8 +5,8 @@ words:
   - Ich
   - glaube
   - dass
+  - die
   - Nachrichten
-  - oft
   - übertreiben
 ---
 

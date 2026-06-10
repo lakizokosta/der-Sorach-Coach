@@ -2,12 +2,11 @@
 id: a2-adj-dd-020
 type: dropbox
 words:
-  - Bei
-  - kaltem
-  - Wetter
-  - bleibe
-  - ich
-  - drinnen
+  - Ich
+  - habe
+  - eine
+  - schöne
+  - Katze
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — kaltem Wetter)
+Ordne die Wörter zum richtigen Satz: (schön, fem., Akk. — schöne)

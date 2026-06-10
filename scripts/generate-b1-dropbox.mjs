@@ -2,6 +2,7 @@
 /**
  * Generates B1 dropbox questions (dd-001 … dd-050) per Premium grammar topic.
  * Run: npm run questions:generate-b1-dropbox
+ * Restore: node scripts/generate-b1-dropbox.mjs --restore --topic=KONDITIONALSATZ
  */
 
 import { mkdirSync, writeFileSync, existsSync } from 'node:fs';
@@ -41,38 +42,70 @@ const TOPICS = {
   VERBNOMENVERBINDUNGB1: 'b1-vnv-dd',
   VERBLASSEN: 'b1-lass-dd',
   WORTSCHATZB1: 'b1-ws-dd',
-  // SPRACHBAUSTEINEB1: exam format only (select-one + lesen), no dropbox
 };
 
-let total = 0;
-const errors = [];
+function writeItem(folder, prefix, num, item) {
+  const path = join(ROOT, folder, `${prefix}-${num}.md`);
+  assertUnique(item.words, `${folder} #${num}`);
+  const prompt = `Ordne die Wörter zum richtigen Satz: (${item.hint})`;
+  writeFileSync(path, md(`${prefix}-${num}`, prompt, item.words), 'utf8');
+}
 
-for (const [folder, prefix] of Object.entries(TOPICS)) {
-  const bank = BANK[folder];
-  if (!bank) throw new Error(`Missing bank for ${folder}`);
-  mkdirSync(join(ROOT, folder), { recursive: true });
+function restoreTopic(topicKey) {
+  const prefix = TOPICS[topicKey];
+  const bank = BANK[topicKey];
+  if (!prefix || !bank) return 0;
+  mkdirSync(join(ROOT, topicKey), { recursive: true });
   let n = 0;
   bank.slice(0, 50).forEach((item, i) => {
     const num = String(i + 1).padStart(3, '0');
-    const path = join(ROOT, folder, `${prefix}-${num}.md`);
-    if (existsSync(path)) return;
-    try {
-      assertUnique(item.words, `${folder} #${i + 1}`);
-    } catch (e) {
-      errors.push(e.message);
-      return;
-    }
-    const prompt = `Ordne die Wörter zum richtigen Satz: (${item.hint})`;
-    writeFileSync(path, md(`${prefix}-${num}`, prompt, item.words), 'utf8');
+    const path = join(ROOT, topicKey, `${prefix}-${num}.md`);
+    if (!existsSync(path)) return;
+    writeItem(topicKey, prefix, num, item);
     n += 1;
-    total += 1;
   });
-  console.log(`${folder}: +${n}`);
+  return n;
 }
 
-if (errors.length) {
-  console.error('\nSkipped due to duplicate words:');
-  errors.forEach((e) => console.error(`  ${e}`));
+const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+
+if (isMain) {
+  if (process.argv.includes('--restore')) {
+    const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8) || 'KONDITIONALSATZ';
+    const n = restoreTopic(topic);
+    console.log(`Restored ${n} ${topic} dropbox files.`);
+    process.exit(0);
+  }
+
+  let total = 0;
+  const errors = [];
+
+  for (const [folder, prefix] of Object.entries(TOPICS)) {
+    const bank = BANK[folder];
+    if (!bank) throw new Error(`Missing bank for ${folder}`);
+    mkdirSync(join(ROOT, folder), { recursive: true });
+    let n = 0;
+    bank.slice(0, 50).forEach((item, i) => {
+      const num = String(i + 1).padStart(3, '0');
+      const path = join(ROOT, folder, `${prefix}-${num}.md`);
+      if (existsSync(path)) return;
+      try {
+        writeItem(folder, prefix, num, item);
+        n += 1;
+        total += 1;
+      } catch (e) {
+        errors.push(e.message);
+      }
+    });
+    console.log(`${folder}: +${n}`);
+  }
+
+  if (errors.length) {
+    console.error('\nSkipped due to duplicate words:');
+    errors.forEach((e) => console.error(`  ${e}`));
+    process.exit(1);
+  }
+  console.log(`\nTotal new dropbox files: ${total}`);
 }
-console.log(`\nTotal new dropbox files: ${total}`);
-if (errors.length) process.exit(1);
+
+export { restoreTopic };

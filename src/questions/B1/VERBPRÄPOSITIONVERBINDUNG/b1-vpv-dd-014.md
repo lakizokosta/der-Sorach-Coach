@@ -2,11 +2,11 @@
 id: b1-vpv-dd-014
 type: dropbox
 words:
-  - Patient
+  - Sie
   - wartet
   - auf
-  - Testergebnis
-  - unten
+  - dem
+  - Ergebnis
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verb+Präp — wartet auf)

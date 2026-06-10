@@ -2,9 +2,11 @@
 id: b1-vnv-dd-004
 type: dropbox
 words:
+  - Die
   - Firma
   - knüpft
   - Kontakt
+  - mit
   - neuen
   - Kunden
 ---

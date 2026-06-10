@@ -5,9 +5,10 @@ words:
   - Der
   - Teppich
   - ist
-  - schöner
+  - billiger
   - als
-  - Tisch
+  - der
+  - Stuhl
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — schöner)
+Ordne die Wörter zum richtigen Satz: (Komparativ — billiger)

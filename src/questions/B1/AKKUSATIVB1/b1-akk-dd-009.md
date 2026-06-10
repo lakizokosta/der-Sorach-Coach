@@ -8,7 +8,7 @@ words:
   - Ausstellung
   - über
   - erneuerbare
-  - Energie
+  - Energien
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Ausstellung)

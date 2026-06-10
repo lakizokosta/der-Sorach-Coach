@@ -2,12 +2,11 @@
 id: a2-komp-dd-013
 type: dropbox
 words:
-  - Die
-  - Suppe
-  - ist
-  - heute
-  - viel
-  - wärmer
+  - Er
+  - läuft
+  - schneller
+  - als
+  - ich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — wärmer)
+Ordne die Wörter zum richtigen Satz: (Komparativ — schneller)

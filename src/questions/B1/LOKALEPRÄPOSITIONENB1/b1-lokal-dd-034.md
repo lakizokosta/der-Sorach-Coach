@@ -2,11 +2,12 @@
 id: b1-lokal-dd-034
 type: dropbox
 words:
-  - Journalist
-  - wartet
-  - beim
-  - Ausgang
-  - Terminal
+  - Die
+  - Apotheke
+  - ist
+  - an
+  - der
+  - Ecke
 ---
 
 Ordne die Wörter zum richtigen Satz: (Lokal — beim Ausgang)

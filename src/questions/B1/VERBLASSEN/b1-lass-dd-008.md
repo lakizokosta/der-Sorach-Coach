@@ -5,6 +5,7 @@ words:
   - Wir
   - lassen
   - uns
+  - im
   - Hotel
   - einchecken
 ---

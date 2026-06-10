@@ -6,7 +6,6 @@ words:
   - feiern
   - euren
   - Geburtstag
-  - morgen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — euren Geburtstag)
+Ordne die Wörter zum richtigen Satz: (Possessiv — euren)

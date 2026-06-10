@@ -2,6 +2,7 @@
 id: a2-wech-dd-042
 type: dropbox
 words:
+  - Die
   - Gäste
   - kommen
   - in
@@ -9,4 +10,4 @@ words:
   - Wohnung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in die Wohnung (Wohin?))
+Ordne die Wörter zum richtigen Satz: (Wohin? — in die)

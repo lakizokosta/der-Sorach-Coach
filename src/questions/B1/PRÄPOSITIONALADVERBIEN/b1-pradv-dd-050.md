@@ -2,11 +2,17 @@
 id: b1-pradv-dd-050
 type: dropbox
 words:
-  - Er
-  - hat
-  - noch
-  - Fragen
-  - dazu
+  - Interessierst
+  - du
+  - dich
+  - für
+  - den
+  - Kurs
+  - Ja
+  - ich
+  - interessiere
+  - mich
+  - dafür
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dazu)

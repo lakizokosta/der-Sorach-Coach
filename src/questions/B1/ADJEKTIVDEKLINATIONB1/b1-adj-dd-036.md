@@ -2,13 +2,15 @@
 id: b1-adj-dd-036
 type: dropbox
 words:
-  - In
-  - einem
-  - modernen
-  - Büro
-  - arbeiten
-  - viele
-  - Kollegen
+  - Der
+  - Chef
+  - präsentiert
+  - einen
+  - wichtigen
+  - Bericht
+  - vor
+  - der
+  - Abteilung
 ---
 
 Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — modernen Büro)

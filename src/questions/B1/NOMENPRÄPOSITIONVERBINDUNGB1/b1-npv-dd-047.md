@@ -2,11 +2,12 @@
 id: b1-npv-dd-047
 type: dropbox
 words:
-  - Patient
-  - hat
-  - Schmerzen
-  - im
-  - Rücken
+  - Wir
+  - haben
+  - Einfluss
+  - auf
+  - die
+  - Entscheidung
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Schmerzen im)

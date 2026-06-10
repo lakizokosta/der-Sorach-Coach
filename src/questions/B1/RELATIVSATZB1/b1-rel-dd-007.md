@@ -8,6 +8,7 @@ words:
   - bestanden
   - haben
   - feiern
+  - heute
 ---
 
 Ordne die Wörter zum richtigen Satz: (Relativsatz — die bestanden haben)

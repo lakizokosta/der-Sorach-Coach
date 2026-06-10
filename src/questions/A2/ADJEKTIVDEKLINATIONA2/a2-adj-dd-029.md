@@ -2,12 +2,12 @@
 id: a2-adj-dd-029
 type: dropbox
 words:
-  - In
-  - ruhiger
-  - Straße
-  - wohnt
-  - sie
-  - gern
+  - Im
+  - kleinen
+  - Zimmer
+  - schlafe
+  - ich
+  - gut
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — ruhiger Straße)
+Ordne die Wörter zum richtigen Satz: (klein, neutr., Dat. — kleinen)

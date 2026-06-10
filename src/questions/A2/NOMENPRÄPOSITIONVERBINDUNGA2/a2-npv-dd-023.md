@@ -10,4 +10,4 @@ words:
   - Wetter
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Hoffnung auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)

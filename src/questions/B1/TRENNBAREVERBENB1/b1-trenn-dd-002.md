@@ -4,10 +4,11 @@ type: dropbox
 words:
   - Er
   - schickt
+  - die
   - wichtige
-  - Mail
+  - E-Mail
   - sofort
-  - ab
+  - an
 ---
 
 Ordne die Wörter zum richtigen Satz: (Trennbar — schickt ab)

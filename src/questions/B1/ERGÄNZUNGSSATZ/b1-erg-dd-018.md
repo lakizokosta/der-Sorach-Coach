@@ -5,6 +5,7 @@ words:
   - Ich
   - finde
   - dass
+  - die
   - neue
   - Regelung
   - sinnvoll

@@ -6,8 +6,8 @@ words:
   - freue
   - mich
   - über
-  - dein
+  - das
   - Geschenk
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — freue mich)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — freue)

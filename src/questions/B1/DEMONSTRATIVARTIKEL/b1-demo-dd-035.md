@@ -6,8 +6,10 @@ words:
   - Projekt
   - gefällt
   - mir
-  - deutlich
   - besser
+  - als
+  - das
+  - andere
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Projekt)

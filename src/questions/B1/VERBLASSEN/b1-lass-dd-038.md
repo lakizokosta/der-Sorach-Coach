@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Sie
   - lässt
+  - die
   - Haare
-  - heute
   - schneiden
 ---
 

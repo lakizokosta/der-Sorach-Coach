@@ -9,4 +9,4 @@ words:
   - Stadtpark
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Stadtpark)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den)

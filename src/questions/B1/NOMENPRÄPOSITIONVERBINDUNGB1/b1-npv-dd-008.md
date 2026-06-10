@@ -3,9 +3,10 @@ id: b1-npv-dd-008
 type: dropbox
 words:
   - Er
-  - hatte
+  - hat
   - Erfolg
   - bei
+  - der
   - Prüfung
 ---
 

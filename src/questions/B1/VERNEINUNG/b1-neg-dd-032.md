@@ -4,8 +4,9 @@ type: dropbox
 words:
   - Wir
   - fahren
-  - heute
   - nicht
+  - mit
+  - dem
   - Auto
 ---
 

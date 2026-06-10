@@ -4,10 +4,12 @@ type: dropbox
 words:
   - Das
   - war
-  - teuerstes
+  - das
+  - teuerste
   - Geschenk
   - auf
+  - der
   - Hochzeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — teuerstes)
+Ordne die Wörter zum richtigen Satz: (Superlativ — teuerste)

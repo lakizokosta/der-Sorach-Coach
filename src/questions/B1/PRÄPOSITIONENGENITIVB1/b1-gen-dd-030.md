@@ -3,8 +3,10 @@ id: b1-gen-dd-030
 type: dropbox
 words:
   - Während
-  - wichtiger
+  - der
   - Sitzung
+  - ist
+  - das
   - Büro
   - geschlossen
 ---

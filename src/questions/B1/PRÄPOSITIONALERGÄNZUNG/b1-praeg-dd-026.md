@@ -5,7 +5,9 @@ words:
   - Er
   - fragt
   - nach
+  - dem
   - Weg
+  - zum
   - Krankenhaus
 ---
 

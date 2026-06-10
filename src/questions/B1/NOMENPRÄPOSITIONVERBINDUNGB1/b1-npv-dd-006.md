@@ -6,7 +6,9 @@ words:
   - hat
   - Lust
   - auf
+  - einer
   - Reise
+  - nach
   - Spanien
 ---
 

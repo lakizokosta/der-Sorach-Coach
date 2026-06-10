@@ -5,7 +5,7 @@ words:
   - Als
   - Kind
   - wohnte
-  - Tom
+  - ich
   - auf
   - Land
 ---

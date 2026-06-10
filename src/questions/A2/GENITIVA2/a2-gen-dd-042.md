@@ -10,4 +10,4 @@ words:
   - spazieren
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Trotz der Kälte)
+Ordne die Wörter zum richtigen Satz: (Genitiv — der)

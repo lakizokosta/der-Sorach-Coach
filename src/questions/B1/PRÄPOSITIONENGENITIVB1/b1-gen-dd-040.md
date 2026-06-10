@@ -3,10 +3,11 @@ id: b1-gen-dd-040
 type: dropbox
 words:
   - Trotz
-  - deutlicher
+  - der
   - Warnung
   - fahren
   - viele
+  - zu
   - schnell
 ---
 

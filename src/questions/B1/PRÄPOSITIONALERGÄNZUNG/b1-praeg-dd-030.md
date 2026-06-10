@@ -2,11 +2,11 @@
 id: b1-praeg-dd-030
 type: dropbox
 words:
-  - Patient
+  - Er
   - wartet
   - auf
+  - dem
   - Arzt
-  - unten
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — wartet auf)

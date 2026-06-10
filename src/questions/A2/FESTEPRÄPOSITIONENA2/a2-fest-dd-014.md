@@ -11,4 +11,4 @@ words:
   - Hotel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — fragen nach)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — dem)

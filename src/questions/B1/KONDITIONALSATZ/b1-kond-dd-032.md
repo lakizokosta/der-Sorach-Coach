@@ -10,4 +10,4 @@ words:
   - sofort
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls schiefgeht)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls etwas schiefgeht)

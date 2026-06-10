@@ -2,12 +2,13 @@
 id: a2-wech-dd-011
 type: dropbox
 words:
-  - Das
-  - Museum
+  - Wo
   - ist
+  - das
+  - Museum
   - in
   - der
   - Stadtmitte
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in der Stadtmitte (Wo?))
+Ordne die Wörter zum richtigen Satz: (Wo? — in der)

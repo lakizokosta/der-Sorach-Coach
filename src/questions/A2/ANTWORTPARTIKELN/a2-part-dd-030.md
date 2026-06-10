@@ -2,12 +2,12 @@
 id: a2-part-dd-030
 type: dropbox
 words:
-  - Ja
-  - tolle
-  - Idee
-  - gefällt
-  - mir
-  - sehr
+  - Doch
+  - am
+  - Wochenende
+  - habe
+  - ich
+  - Zeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)
+Ordne die Wörter zum richtigen Satz: (Antwortpartikel — doch)

@@ -4,10 +4,8 @@ type: dropbox
 words:
   - Wir
   - sehen
-  - heute
-  - einen
-  - guten
+  - den
   - Film
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Film)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den)

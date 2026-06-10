@@ -10,4 +10,4 @@ words:
   - schön
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — seines Freundes)
+Ordne die Wörter zum richtigen Satz: (Possessiv — seines)

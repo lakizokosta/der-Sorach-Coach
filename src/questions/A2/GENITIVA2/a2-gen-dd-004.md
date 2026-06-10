@@ -5,9 +5,9 @@ words:
   - Während
   - des
   - Unterrichts
-  - ist
-  - es
-  - still
+  - lerne
+  - ich
+  - viel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Während des Unterrichts)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Während des)

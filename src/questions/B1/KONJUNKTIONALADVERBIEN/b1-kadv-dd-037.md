@@ -4,9 +4,12 @@ type: dropbox
 words:
   - Sie
   - spricht
+  - fließend
   - Englisch
   - Außerdem
-  - fließend
+  - kann
+  - sie
+  - auch
   - Französisch
 ---
 

@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Ich
   - habe
+  - die
   - ganze
   - Nacht
   - gearbeitet

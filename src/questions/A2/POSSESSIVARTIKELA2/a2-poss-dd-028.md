@@ -6,7 +6,6 @@ words:
   - liebe
   - meine
   - Stadt
-  - sehr
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — meine Stadt)
+Ordne die Wörter zum richtigen Satz: (Possessiv — meine)

@@ -6,9 +6,12 @@ words:
   - ist
   - pünktlich
   - denn
+  - er
+  - den
   - frühen
   - Bus
   - genommen
+  - hat
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn Bus genommen)

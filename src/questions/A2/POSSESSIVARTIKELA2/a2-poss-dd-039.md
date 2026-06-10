@@ -6,7 +6,6 @@ words:
   - besuchen
   - unsere
   - Großeltern
-  - sonntags
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — unsere Großeltern)
+Ordne die Wörter zum richtigen Satz: (Possessiv — unsere)

@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Das
   - war
+  - ein
   - richtig
   - schöner
   - Tag
-  - gestern
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präteritum — war)

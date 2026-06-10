@@ -2,13 +2,14 @@
 id: b1-konz-dd-009
 type: dropbox
 words:
-  - Obwohl
-  - Umwelt
-  - belastet
+  - Obschon
+  - das
+  - Medikament
+  - teuer
   - ist
-  - reisen
-  - viele
-  - weiter
+  - kauft
+  - er
+  - es
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl belastet)

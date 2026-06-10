@@ -2,11 +2,13 @@
 id: a2-adj-dd-043
 type: dropbox
 words:
-  - Ich
-  - trinke
-  - gern
-  - heißen
-  - Tee
+  - Bei
+  - schlechtem
+  - Wetter
+  - bleibe
+  - ich
+  - zu
+  - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — heißen Tee)
+Ordne die Wörter zum richtigen Satz: (schlecht, neutr., Dat. — schlechtem)

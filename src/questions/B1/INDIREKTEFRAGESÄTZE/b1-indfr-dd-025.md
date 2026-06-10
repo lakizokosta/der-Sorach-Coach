@@ -6,7 +6,7 @@ words:
   - frage
   - mich
   - ob
-  - Minister
+  - er
   - recht
   - hat
 ---

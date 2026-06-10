@@ -7,6 +7,7 @@ words:
   - Sport
   - um
   - fit
+  - zu
   - bleiben
 ---
 

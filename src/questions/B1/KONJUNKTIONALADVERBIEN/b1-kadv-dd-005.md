@@ -6,8 +6,11 @@ words:
   - war
   - krank
   - Deshalb
-  - verpasste
+  - habe
+  - ich
+  - die
   - Vorlesung
+  - verpasst
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb verpasst)

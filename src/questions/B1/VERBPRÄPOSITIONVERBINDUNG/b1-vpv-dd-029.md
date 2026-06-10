@@ -5,7 +5,6 @@ words:
   - Er
   - achtet
   - auf
-  - kleine
   - Details
 ---
 

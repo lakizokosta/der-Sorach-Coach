@@ -2,12 +2,14 @@
 id: a2-part-dd-036
 type: dropbox
 words:
-  - Kommst
+  - Hast
   - du
-  - mit
-  - oder
-  - bleibst
-  - Zuhause
+  - schon
+  - jemanden
+  - kennengelernt
+  - ja
+  - zwei
+  - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Antwortpartikel — oder)
+Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

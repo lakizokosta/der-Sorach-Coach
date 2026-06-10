@@ -2,12 +2,11 @@
 id: b1-akk-dd-008
 type: dropbox
 words:
-  - Minister
-  - trifft
-  - heute
+  - Er
+  - denkt
+  - an
   - eine
   - wichtige
-  - politische
   - Entscheidung
 ---
 

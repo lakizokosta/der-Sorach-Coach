@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Sie
   - reserviert
-  - Hotel
   - ein
-  - ruhiges
-  - Doppelzimmer
+  - Zimmer
+  - im
+  - Hotel
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Zimmer)

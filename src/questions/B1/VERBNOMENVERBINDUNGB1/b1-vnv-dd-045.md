@@ -4,8 +4,7 @@ type: dropbox
 words:
   - Wir
   - haben
-  - morgen
-  - langes
+  - ein
   - Meeting
 ---
 

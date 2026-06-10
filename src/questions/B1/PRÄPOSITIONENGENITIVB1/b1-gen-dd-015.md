@@ -3,10 +3,12 @@ id: b1-gen-dd-015
 type: dropbox
 words:
   - Trotz
-  - heftiger
+  - der
   - Kritik
   - setzt
+  - die
   - Regierung
+  - das
   - Projekt
   - fort
 ---

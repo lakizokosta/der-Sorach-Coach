@@ -2,12 +2,16 @@
 id: a2-part-dd-001
 type: dropbox
 words:
-  - Ich
-  - mag
-  - Kaffee
-  - aber
-  - Tee
-  - lieber
+  - Kommst
+  - du
+  - zur
+  - Einladung
+  - mit
+  - nein
+  - ich
+  - habe
+  - keine
+  - Zeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Antwortpartikel — aber)
+Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)

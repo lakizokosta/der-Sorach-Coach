@@ -2,11 +2,11 @@
 id: a2-adj-dd-047
 type: dropbox
 words:
-  - Er
-  - isst
-  - gern
-  - frisches
-  - Brot
+  - Ich
+  - suche
+  - ein
+  - gutes
+  - Geschenk
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — frisches Brot)
+Ordne die Wörter zum richtigen Satz: (gut, neutr., Akk. — gutes)

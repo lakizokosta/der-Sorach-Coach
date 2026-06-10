@@ -6,6 +6,7 @@ words:
   - möchte
   - wissen
   - wann
+  - der
   - Kurs
   - beginnt
 ---

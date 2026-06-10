@@ -2,8 +2,10 @@
 id: b1-ws-dd-022
 type: dropbox
 words:
+  - Die
   - Regierung
   - hat
+  - eine
   - neue
   - Regelung
   - beschlossen

@@ -7,8 +7,6 @@ words:
   - mit
   - dem
   - Bus
-  - zur
-  - Arbeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — dem Bus)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem)

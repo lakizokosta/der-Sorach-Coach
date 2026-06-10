@@ -2,10 +2,10 @@
 id: b1-lokal-dd-048
 type: dropbox
 words:
-  - Gehen
-  - vorsichtig
+  - Wir
+  - gehen
   - über
-  - breite
+  - die
   - Straße
 ---
 

@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Er
   - informiert
+  - die
   - Kollegen
   - damit
   - alle

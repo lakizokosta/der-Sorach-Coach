@@ -7,7 +7,8 @@ words:
   - Krankheit
   - bleibt
   - er
-  - daheim
+  - zu
+  - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — seiner Krankheit)
+Ordne die Wörter zum richtigen Satz: (Possessiv — seiner)

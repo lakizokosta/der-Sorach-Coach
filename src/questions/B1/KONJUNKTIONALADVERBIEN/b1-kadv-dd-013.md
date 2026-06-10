@@ -7,6 +7,8 @@ words:
   - Energie
   - Deshalb
   - senkt
+  - er
+  - seine
   - Kosten
 ---
 

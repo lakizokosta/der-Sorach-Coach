@@ -4,9 +4,14 @@ type: dropbox
 words:
   - Es
   - regnete
+  - den
+  - ganzen
+  - Tag
   - Trotzdem
-  - gingen
+  - sind
+  - wir
   - spazieren
+  - gegangen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem gegangen)

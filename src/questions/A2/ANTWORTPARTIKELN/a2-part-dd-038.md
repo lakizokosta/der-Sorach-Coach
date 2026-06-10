@@ -2,12 +2,14 @@
 id: a2-part-dd-038
 type: dropbox
 words:
-  - Ja
-  - gern
-  - komme
-  - mit
-  - zur
-  - Einladung
+  - Ich
+  - mag
+  - Kaffee
+  - aber
+  - Tee
+  - trinke
+  - ich
+  - lieber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)
+Ordne die Wörter zum richtigen Satz: (Antwortpartikel — aber)

@@ -5,7 +5,8 @@ words:
   - Wir
   - sprechen
   - über
-  - neues
+  - das
+  - neue
   - Gesetz
 ---
 

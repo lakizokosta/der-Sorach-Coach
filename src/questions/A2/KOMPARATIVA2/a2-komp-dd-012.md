@@ -2,12 +2,13 @@
 id: a2-komp-dd-012
 type: dropbox
 words:
-  - Tom
-  - läuft
-  - schneller
+  - Dieses
+  - Kleid
+  - ist
+  - eleganter
   - als
-  - Gegner
-  - sein
+  - das
+  - andere
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — schneller)
+Ordne die Wörter zum richtigen Satz: (Komparativ — eleganter)

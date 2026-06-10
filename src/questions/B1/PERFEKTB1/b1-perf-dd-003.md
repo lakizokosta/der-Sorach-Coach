@@ -5,6 +5,8 @@ words:
   - Sie
   - hat
   - sich
+  - für
+  - den
   - Kurs
   - angemeldet
 ---

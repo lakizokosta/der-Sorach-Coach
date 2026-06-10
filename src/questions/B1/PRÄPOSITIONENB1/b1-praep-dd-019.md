@@ -5,7 +5,7 @@ words:
   - Er
   - arbeitet
   - ab
-  - acht
+  - 8
   - Uhr
 ---
 

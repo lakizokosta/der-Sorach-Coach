@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Jemand
   - hat
+  - die
   - Tür
   - offen
   - gelassen

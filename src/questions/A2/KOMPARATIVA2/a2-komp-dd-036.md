@@ -7,7 +7,8 @@ words:
   - ist
   - besser
   - als
-  - jener
+  - der
+  - andere
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — besser)

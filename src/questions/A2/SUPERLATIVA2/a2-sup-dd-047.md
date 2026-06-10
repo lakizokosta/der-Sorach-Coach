@@ -3,12 +3,13 @@ id: a2-sup-dd-047
 type: dropbox
 words:
   - Das
-  - Zimmer
   - ist
+  - das
+  - kleinste
+  - Zimmer
   - in
+  - der
   - Wohnung
-  - am
-  - kleinsten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — am kleinsten)
+Ordne die Wörter zum richtigen Satz: (Superlativ — kleinste)

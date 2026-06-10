@@ -6,8 +6,6 @@ words:
   - kenne
   - ihren
   - Bruder
-  - schon
-  - lange
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — ihren Bruder)
+Ordne die Wörter zum richtigen Satz: (Possessiv — ihren)

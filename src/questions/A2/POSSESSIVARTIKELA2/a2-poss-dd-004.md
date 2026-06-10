@@ -10,4 +10,4 @@ words:
   - klein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — des Kindes)
+Ordne die Wörter zum richtigen Satz: (Artikel — des)

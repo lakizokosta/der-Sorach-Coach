@@ -4,9 +4,11 @@ type: dropbox
 words:
   - Sie
   - hat
+  - großes
   - Interesse
   - an
-  - neuem
+  - dem
+  - neuen
   - Studiengang
 ---
 

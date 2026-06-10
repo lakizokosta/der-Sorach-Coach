@@ -2,6 +2,7 @@
 id: b1-ws-dd-020
 type: dropbox
 words:
+  - Der
   - Journalist
   - berichtet
   - über

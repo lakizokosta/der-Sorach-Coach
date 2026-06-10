@@ -4,9 +4,12 @@ type: dropbox
 words:
   - Sie
   - ist
-  - unsere
+  - die
   - beste
   - Schülerin
+  - in
+  - der
+  - Klasse
 ---
 
 Ordne die Wörter zum richtigen Satz: (Superlativ — beste)

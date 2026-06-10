@@ -5,10 +5,10 @@ words:
   - Wegen
   - der
   - Arbeit
+  - wegen
   - ist
   - er
-  - heute
   - müde
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen der Arbeit)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen der)

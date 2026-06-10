@@ -6,7 +6,7 @@ words:
   - ich
   - hier
   - am
-  - Schalter
+  - Bankschalter
   - fragen
 ---
 

@@ -4,10 +4,12 @@ type: dropbox
 words:
   - Gestern
   - war
+  - ich
+  - den
   - ganzen
   - Tag
-  - ich
-  - daheim
+  - zu
+  - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — war)
+Ordne die Wörter zum richtigen Satz: (Präteritum — den)

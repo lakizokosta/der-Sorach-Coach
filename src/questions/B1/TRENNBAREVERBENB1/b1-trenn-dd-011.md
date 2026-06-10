@@ -4,9 +4,9 @@ type: dropbox
 words:
   - Sie
   - checkt
-  - Hotel
-  - spät
-  - abends
+  - um
+  - 22
+  - Uhr
   - ein
 ---
 

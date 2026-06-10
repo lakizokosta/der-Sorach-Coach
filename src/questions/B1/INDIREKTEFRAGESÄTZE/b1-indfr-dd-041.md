@@ -7,6 +7,7 @@ words:
   - sich
   - wie
   - viel
+  - die
   - Behandlung
   - kostet
 ---

@@ -10,4 +10,4 @@ words:
   - Chefs
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — ihres Chefs)
+Ordne die Wörter zum richtigen Satz: (Possessiv — ihres)

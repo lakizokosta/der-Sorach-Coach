@@ -6,8 +6,9 @@ words:
   - bereitet
   - eine
   - Prüfung
+  - an
+  - der
   - Universität
-  - sorgfältig
   - vor
 ---
 

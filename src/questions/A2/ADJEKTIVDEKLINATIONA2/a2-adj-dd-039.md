@@ -2,12 +2,11 @@
 id: a2-adj-dd-039
 type: dropbox
 words:
-  - In
-  - großer
-  - Stadt
-  - wohne
-  - ich
-  - gern
+  - Ich
+  - habe
+  - keine
+  - große
+  - Wohnung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — großer Stadt)
+Ordne die Wörter zum richtigen Satz: (groß, fem., Akk. — große)

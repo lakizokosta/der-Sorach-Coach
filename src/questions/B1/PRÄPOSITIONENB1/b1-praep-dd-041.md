@@ -2,8 +2,9 @@
 id: b1-praep-dd-041
 type: dropbox
 words:
-  - Treffen
-  - beginnt
+  - Wir
+  - treffen
+  - uns
   - um
   - halb
   - neun

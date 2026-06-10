@@ -5,6 +5,8 @@ words:
   - Er
   - merkt
   - dass
+  - er
+  - einen
   - Fehler
   - gemacht
   - hat

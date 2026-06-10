@@ -6,8 +6,7 @@ words:
   - lachen
   - über
   - den
-  - witzigen
   - Witz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — lachen über)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — den)

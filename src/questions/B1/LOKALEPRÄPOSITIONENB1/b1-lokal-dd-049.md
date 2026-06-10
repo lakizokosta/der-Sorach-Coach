@@ -2,10 +2,11 @@
 id: b1-lokal-dd-049
 type: dropbox
 words:
+  - Der
   - Park
   - liegt
   - hinter
-  - neuem
+  - dem
   - Wohnviertel
 ---
 

@@ -2,12 +2,13 @@
 id: a2-part-dd-010
 type: dropbox
 words:
-  - Aber
-  - Wind
-  - ist
-  - heute
+  - Interessierst
+  - du
+  - dich
+  - für
+  - Tanzsport
+  - ja
   - sehr
-  - stark
 ---
 
-Ordne die Wörter zum richtigen Satz: (Antwortpartikel — aber)
+Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

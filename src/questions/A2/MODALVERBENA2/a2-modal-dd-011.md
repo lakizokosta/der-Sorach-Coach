@@ -4,7 +4,7 @@ type: dropbox
 words:
   - Du
   - sollst
-  - bald
+  - den
   - Arzt
   - anrufen
 ---

@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Artikel
   - der
+  - in
   - Zeitung
   - stand
   - war

@@ -4,7 +4,9 @@ type: dropbox
 words:
   - Geh
   - über
+  - die
   - Brücke
+  - und
   - dann
   - links
 ---

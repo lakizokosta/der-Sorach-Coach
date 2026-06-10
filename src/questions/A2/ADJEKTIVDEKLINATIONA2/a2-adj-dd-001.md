@@ -2,11 +2,11 @@
 id: a2-adj-dd-001
 type: dropbox
 words:
-  - Ich
-  - kaufe
-  - einen
-  - neuen
-  - Computer
+  - Das
+  - ist
+  - ein
+  - kleiner
+  - Hund
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — einen neuen Computer)
+Ordne die Wörter zum richtigen Satz: (klein, mask., Nom. — kleiner)

@@ -2,12 +2,13 @@
 id: a2-lokal-dd-033
 type: dropbox
 words:
-  - Ihr
-  - kommt
-  - gerade
-  - aus
-  - dem
+  - Das
   - Hotel
+  - liegt
+  - direkt
+  - gegenüber
+  - dem
+  - Bahnhof
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — aus)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition — gegenüber)

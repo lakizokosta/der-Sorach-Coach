@@ -6,7 +6,7 @@ words:
   - du
   - etwas
   - für
-  - deine
+  - die
   - Reise
 ---
 

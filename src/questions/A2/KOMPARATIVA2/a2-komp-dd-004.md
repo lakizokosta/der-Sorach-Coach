@@ -7,6 +7,7 @@ words:
   - ist
   - schneller
   - als
+  - der
   - Bus
 ---
 

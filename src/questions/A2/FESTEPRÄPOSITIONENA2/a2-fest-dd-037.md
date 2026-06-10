@@ -5,8 +5,8 @@ words:
   - Wir
   - sprechen
   - über
-  - unsere
+  - die
   - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — sprechen über)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — die)

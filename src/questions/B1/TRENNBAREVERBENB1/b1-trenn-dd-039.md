@@ -4,10 +4,12 @@ type: dropbox
 words:
   - Sie
   - macht
+  - das
   - Licht
-  - beim
-  - Gehen
   - aus
+  - wenn
+  - sie
+  - geht
 ---
 
 Ordne die Wörter zum richtigen Satz: (Trennbar — macht aus)

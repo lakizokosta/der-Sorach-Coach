@@ -2,6 +2,7 @@
 id: b1-rel-dd-035
 type: dropbox
 words:
+  - Der
   - Kollege
   - der
   - neben

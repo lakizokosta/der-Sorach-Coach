@@ -6,7 +6,8 @@ words:
   - reserviert
   - einen
   - Tisch
-  - online
+  - im
+  - Restaurant
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Tisch)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — einen)

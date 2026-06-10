@@ -4,10 +4,9 @@ type: dropbox
 words:
   - Das
   - ist
-  - ja
-  - eine
-  - tolle
-  - Wohnung
+  - kein
+  - schweres
+  - Problem
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — tolle Wohnung)
+Ordne die Wörter zum richtigen Satz: (schwer, neutr., Nom. — schweres)

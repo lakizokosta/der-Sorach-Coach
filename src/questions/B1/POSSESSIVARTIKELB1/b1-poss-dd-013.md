@@ -6,7 +6,6 @@ words:
   - vertraut
   - seinem
   - Instinkt
-  - voll
 ---
 
 Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinem Instinkt)

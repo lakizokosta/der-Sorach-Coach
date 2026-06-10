@@ -9,6 +9,8 @@ words:
   - nächstes
   - Jahr
   - reisen
+  - zu
+  - können
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — um reisen zu können)

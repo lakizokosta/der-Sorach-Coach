@@ -7,7 +7,8 @@ words:
   - war
   - deutlich
   - teurer
-  - gestern
+  - als
+  - jenes
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Jenes Hotel)

@@ -5,8 +5,8 @@ words:
   - Ich
   - helfe
   - Ihnen
-  - gern
-  - weiter
+  - beim
+  - Ausfüllen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — Ihnen)
+Ordne die Wörter zum richtigen Satz: (Personalpronomen — Ihnen)

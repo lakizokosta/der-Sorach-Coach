@@ -10,4 +10,4 @@ words:
   - Formular
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — dem Kind)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem)

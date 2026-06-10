@@ -7,7 +7,6 @@ words:
   - auf
   - den
   - Bus
-  - hier
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Bus)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den)

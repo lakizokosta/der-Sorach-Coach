@@ -2,8 +2,9 @@
 id: b1-rel-dd-032
 type: dropbox
 words:
+  - Der
   - Politiker
-  - deren
+  - dessen
   - Rede
   - lange
   - dauerte

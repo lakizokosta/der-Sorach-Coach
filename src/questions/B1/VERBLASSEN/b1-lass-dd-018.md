@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Ich
   - lasse
+  - das
   - Auto
-  - Werkstatt
   - reparieren
 ---
 

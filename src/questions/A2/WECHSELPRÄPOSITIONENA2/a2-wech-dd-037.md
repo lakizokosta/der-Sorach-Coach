@@ -9,4 +9,4 @@ words:
   - Park
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Park (Wo?))
+Ordne die Wörter zum richtigen Satz: (Wo? — im)

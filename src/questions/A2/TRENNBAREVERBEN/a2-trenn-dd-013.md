@@ -5,9 +5,9 @@ words:
   - Sie
   - steht
   - um
-  - sieben
+  - 7
   - Uhr
   - auf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — aufstehen)
+Ordne die Wörter zum richtigen Satz: (trennbar — steht)

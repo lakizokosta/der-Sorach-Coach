@@ -5,9 +5,8 @@ words:
   - Ich
   - fühle
   - mich
-  - heute
   - nicht
   - gut
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — fühle mich)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — fühle)

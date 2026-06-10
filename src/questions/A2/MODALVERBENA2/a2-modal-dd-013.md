@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Darf
   - ich
+  - das
   - Fenster
-  - hier
   - öffnen
 ---
 

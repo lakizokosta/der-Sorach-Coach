@@ -3,11 +3,13 @@ id: b1-demo-dd-034
 type: dropbox
 words:
   - Diese
-  - Regelung
-  - betrifft
-  - alle
-  - neuen
-  - Mitarbeiter
+  - Kollegin
+  - aus
+  - der
+  - Abteilung
+  - hilft
+  - mir
+  - oft
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diese Regelung)

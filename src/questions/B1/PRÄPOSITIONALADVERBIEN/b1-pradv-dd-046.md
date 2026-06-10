@@ -2,10 +2,13 @@
 id: b1-pradv-dd-046
 type: dropbox
 words:
+  - Vertraust
+  - du
+  - in
+  - das
+  - Team
   - Ich
   - vertraue
-  - Team
-  - voll
   - darin
 ---
 

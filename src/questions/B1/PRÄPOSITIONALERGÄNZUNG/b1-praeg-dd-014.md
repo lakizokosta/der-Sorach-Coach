@@ -2,10 +2,11 @@
 id: b1-praeg-dd-014
 type: dropbox
 words:
-  - Er
-  - besteht
+  - Ich
+  - bestehe
   - auf
-  - klarer
+  - einer
+  - klaren
   - Antwort
 ---
 

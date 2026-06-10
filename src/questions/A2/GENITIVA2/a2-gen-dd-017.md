@@ -8,7 +8,9 @@ words:
   - Wetters
   - fahren
   - wir
-  - los
+  - an
+  - die
+  - Mosel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Trotz des Wetters)
+Ordne die Wörter zum richtigen Satz: (Genitiv — des)

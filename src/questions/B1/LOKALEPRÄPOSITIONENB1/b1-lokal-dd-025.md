@@ -2,10 +2,11 @@
 id: b1-lokal-dd-025
 type: dropbox
 words:
+  - Das
   - Hotel
   - liegt
-  - schön
-  - am
+  - an
+  - dem
   - Fluss
 ---
 

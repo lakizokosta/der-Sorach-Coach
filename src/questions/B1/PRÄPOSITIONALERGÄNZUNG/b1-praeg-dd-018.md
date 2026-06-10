@@ -5,7 +5,9 @@ words:
   - Ich
   - warte
   - auf
+  - die
   - Antwort
+  - der
   - Personalabteilung
 ---
 

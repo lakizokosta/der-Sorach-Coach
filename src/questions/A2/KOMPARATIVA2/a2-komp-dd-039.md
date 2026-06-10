@@ -6,8 +6,6 @@ words:
   - trinke
   - Tee
   - lieber
-  - als
-  - Kaffee
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — lieber)

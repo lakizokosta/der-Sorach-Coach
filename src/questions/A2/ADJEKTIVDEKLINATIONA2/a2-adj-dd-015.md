@@ -2,11 +2,11 @@
 id: a2-adj-dd-015
 type: dropbox
 words:
-  - Das
-  - ist
-  - ein
-  - schönes
-  - Geschenk
+  - Wir
+  - besuchen
+  - eine
+  - alte
+  - Stadt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — schönes Geschenk)
+Ordne die Wörter zum richtigen Satz: (alt, fem., Akk. — alte)

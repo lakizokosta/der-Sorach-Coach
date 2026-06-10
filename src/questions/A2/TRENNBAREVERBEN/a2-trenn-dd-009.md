@@ -6,8 +6,7 @@ words:
   - machst
   - die
   - Tür
-  - bitte
   - auf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — aufmachen)
+Ordne die Wörter zum richtigen Satz: (trennbar — machst)

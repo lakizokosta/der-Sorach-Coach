@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Das
   - ist
+  - die
   - Meinung
   - meines
   - Kollegen

@@ -5,6 +5,7 @@ words:
   - Sie
   - bestätigt
   - dass
+  - der
   - Flug
   - pünktlich
   - startet

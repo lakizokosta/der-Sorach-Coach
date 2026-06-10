@@ -4,9 +4,8 @@ type: dropbox
 words:
   - Er
   - nimmt
-  - sein
+  - das
   - Medikament
-  - täglich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — das Medikament)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — das)

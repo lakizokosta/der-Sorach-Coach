@@ -6,8 +6,7 @@ words:
   - diskutieren
   - über
   - das
-  - neue
   - Problem
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — diskutieren über)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — das)

@@ -4,9 +4,11 @@ type: dropbox
 words:
   - Das
   - war
-  - schönster
-  - Urlaubstag
-  - überhaupt
+  - der
+  - schönste
+  - Tag
+  - im
+  - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — schönster)
+Ordne die Wörter zum richtigen Satz: (Superlativ — schönste)

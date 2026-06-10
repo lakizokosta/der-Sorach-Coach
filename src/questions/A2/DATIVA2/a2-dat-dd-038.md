@@ -10,4 +10,4 @@ words:
   - Park
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — dem Hund)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem)

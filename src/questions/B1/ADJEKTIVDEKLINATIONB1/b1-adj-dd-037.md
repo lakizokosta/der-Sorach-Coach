@@ -2,13 +2,15 @@
 id: b1-adj-dd-037
 type: dropbox
 words:
-  - Sie
-  - liest
-  - einen
-  - interessanten
-  - Artikel
-  - über
-  - Umweltschutz
+  - Der
+  - neue
+  - Studiengang
+  - an
+  - der
+  - Universität
+  - ist
+  - sehr
+  - beliebt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — interessanten Artikel)

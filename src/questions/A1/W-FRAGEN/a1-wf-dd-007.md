@@ -8,4 +8,3 @@ words:
 ---
 
 Ordne die Wörter zum richtigen Satz: (W-Frage — Wer ist das?)
-

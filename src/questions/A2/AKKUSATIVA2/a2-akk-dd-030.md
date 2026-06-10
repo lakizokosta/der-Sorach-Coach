@@ -4,9 +4,8 @@ type: dropbox
 words:
   - Wir
   - besuchen
-  - morgen
   - das
   - Museum
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — das Museum)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — das)

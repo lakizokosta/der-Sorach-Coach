@@ -3,9 +3,11 @@ id: b1-gen-dd-001
 type: dropbox
 words:
   - Wegen
+  - des
   - schlechten
   - Wetters
   - fällt
+  - die
   - Veranstaltung
   - aus
 ---

@@ -4,10 +4,12 @@ type: dropbox
 words:
   - Das
   - ist
-  - billigstes
+  - das
+  - billigste
   - Hotel
   - an
+  - der
   - Mosel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — billigstes)
+Ordne die Wörter zum richtigen Satz: (Superlativ — billigste)

@@ -6,6 +6,7 @@ words:
   - informiert
   - sich
   - über
+  - dem
   - Thema
 ---
 

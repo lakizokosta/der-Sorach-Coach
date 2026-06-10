@@ -5,6 +5,7 @@ words:
   - Ich
   - wollte
   - auf
+  - meiner
   - Schule
   - bleiben
 ---

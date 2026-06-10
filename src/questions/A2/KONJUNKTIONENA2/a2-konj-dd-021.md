@@ -2,12 +2,15 @@
 id: a2-konj-dd-021
 type: dropbox
 words:
-  - Sie
-  - sagt
-  - dass
-  - Urlaub
-  - bald
-  - beginnt
+  - Er
+  - lernt
+  - Deutsch
+  - weil
+  - er
+  - in
+  - Deutschland
+  - arbeiten
+  - will
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
+Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)

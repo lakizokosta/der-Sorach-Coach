@@ -6,8 +6,10 @@ words:
   - Winter
   - ist
   - es
-  - deutlich
   - kälter
+  - als
+  - im
+  - Sommer
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — kälter)

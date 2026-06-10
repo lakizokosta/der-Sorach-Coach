@@ -7,6 +7,8 @@ words:
   - den
   - ganzen
   - Tag
+  - im
+  - Büro
   - gearbeitet
 ---
 

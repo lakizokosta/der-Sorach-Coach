@@ -2,12 +2,12 @@
 id: a2-part-dd-017
 type: dropbox
 words:
-  - Ja
+  - Nein
+  - darauf
+  - habe
   - ich
-  - war
-  - schon
-  - mal
-  - dort
+  - keine
+  - Lust
 ---
 
-Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)
+Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)

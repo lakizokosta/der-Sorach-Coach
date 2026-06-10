@@ -8,7 +8,6 @@ words:
   - kaufe
   - ich
   - es
-  - trotzdem
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Trotz des Preises)
+Ordne die Wörter zum richtigen Satz: (Genitiv — des)

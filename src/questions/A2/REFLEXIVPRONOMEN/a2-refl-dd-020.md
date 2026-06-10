@@ -5,9 +5,12 @@ words:
   - Wir
   - treffen
   - uns
+  - um
+  - 8
+  - Uhr
   - vor
   - dem
   - Hotel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — treffen uns)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — treffen)

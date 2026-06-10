@@ -2,6 +2,7 @@
 id: b1-rel-dd-045
 type: dropbox
 words:
+  - Der
   - Arzt
   - dem
   - ich

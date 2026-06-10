@@ -6,6 +6,8 @@ words:
   - Studiengang
   - passt
   - besser
+  - zu
+  - meinen
   - Interessen
 ---
 

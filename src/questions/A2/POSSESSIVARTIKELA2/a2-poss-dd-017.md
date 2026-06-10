@@ -5,8 +5,7 @@ words:
   - Meine
   - Kindheit
   - war
-  - wirklich
   - schön
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — Meine Kindheit)
+Ordne die Wörter zum richtigen Satz: (Possessiv — Meine)

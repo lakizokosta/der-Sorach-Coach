@@ -2,12 +2,12 @@
 id: b1-akk-dd-011
 type: dropbox
 words:
+  - Der
   - Minister
   - erklärt
-  - Journalisten
   - die
   - neue
-  - Umweltpolitik
+  - Politik
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — die Politik)

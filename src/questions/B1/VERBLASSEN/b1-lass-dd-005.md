@@ -5,6 +5,7 @@ words:
   - Du
   - lässt
   - dir
+  - die
   - Zähne
   - kontrollieren
 ---

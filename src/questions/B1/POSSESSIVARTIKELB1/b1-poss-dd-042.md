@@ -6,6 +6,7 @@ words:
   - ihres
   - Studiums
   - arbeitete
+  - sie
   - nebenbei
 ---
 

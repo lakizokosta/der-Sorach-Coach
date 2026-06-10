@@ -5,7 +5,9 @@ words:
   - Er
   - kommt
   - nicht
+  - mit
   - weil
+  - er
   - noch
   - arbeiten
   - muss

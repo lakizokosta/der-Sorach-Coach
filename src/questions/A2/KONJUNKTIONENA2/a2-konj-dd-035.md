@@ -3,11 +3,13 @@ id: a2-konj-dd-035
 type: dropbox
 words:
   - Ich
-  - bleibe
-  - da
+  - bin
+  - traurig
   - weil
-  - Regen
-  - fällt
+  - ich
+  - meine
+  - Familie
+  - vermisse
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)

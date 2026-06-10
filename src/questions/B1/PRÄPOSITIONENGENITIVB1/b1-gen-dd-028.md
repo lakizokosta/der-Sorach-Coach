@@ -3,9 +3,11 @@ id: b1-gen-dd-028
 type: dropbox
 words:
   - Wegen
-  - langer
+  - der
   - Verspätung
   - verpassten
+  - wir
+  - den
   - Anschlusszug
 ---
 

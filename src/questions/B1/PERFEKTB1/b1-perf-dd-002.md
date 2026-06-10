@@ -5,6 +5,7 @@ words:
   - Wir
   - sind
   - pünktlich
+  - am
   - Flughafen
   - angekommen
 ---

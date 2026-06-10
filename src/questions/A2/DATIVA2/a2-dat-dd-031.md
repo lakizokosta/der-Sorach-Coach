@@ -6,7 +6,8 @@ words:
   - kaufe
   - meiner
   - Schwester
+  - ein
   - Geschenk
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — meiner Schwester)
+Ordne die Wörter zum richtigen Satz: (Possessiv — meiner)

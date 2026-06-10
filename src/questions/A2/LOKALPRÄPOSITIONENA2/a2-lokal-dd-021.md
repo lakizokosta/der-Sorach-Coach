@@ -2,12 +2,19 @@
 id: a2-lokal-dd-021
 type: dropbox
 words:
-  - Das
+  - Vom
+  - Bahnhofsplatz
+  - aus
+  - sieht
+  - man
+  - das
   - Hotel
-  - ist
+  - nicht
+  - es
+  - liegt
   - hinter
   - dem
   - Bahnhof
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — hinter)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition — hinter)

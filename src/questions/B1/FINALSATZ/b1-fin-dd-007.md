@@ -4,9 +4,11 @@ type: dropbox
 words:
   - Sie
   - liest
-  - Literatur
+  - Fachliteratur
   - um
+  - die
   - Prüfung
+  - zu
   - bestehen
 ---
 

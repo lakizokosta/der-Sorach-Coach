@@ -5,8 +5,10 @@ words:
   - Sie
   - kauft
   - einen
-  - schönen
   - Teppich
+  - auf
+  - der
+  - Auktion
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Teppich)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — einen)

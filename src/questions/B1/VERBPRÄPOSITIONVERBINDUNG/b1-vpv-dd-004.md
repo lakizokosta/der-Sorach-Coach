@@ -5,6 +5,7 @@ words:
   - Wir
   - sprechen
   - über
+  - die
   - neue
   - Strategie
 ---

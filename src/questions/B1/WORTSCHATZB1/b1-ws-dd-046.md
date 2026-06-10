@@ -2,7 +2,7 @@
 id: b1-ws-dd-046
 type: dropbox
 words:
-  - Internationale
+  - Die
   - Konferenz
   - beginnt
   - morgen

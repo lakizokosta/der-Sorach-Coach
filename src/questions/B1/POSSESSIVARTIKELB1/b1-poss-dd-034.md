@@ -2,12 +2,12 @@
 id: b1-poss-dd-034
 type: dropbox
 words:
-  - Meiner
-  - Meinung
-  - nach
+  - Das
   - ist
-  - Plan
-  - sinnvoll
+  - die
+  - Meinung
+  - meines
+  - Kollegen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner Meinung)

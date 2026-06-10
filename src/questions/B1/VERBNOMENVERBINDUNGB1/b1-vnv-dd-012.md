@@ -2,11 +2,10 @@
 id: b1-vnv-dd-012
 type: dropbox
 words:
-  - Ärztin
+  - Sie
   - stellt
-  - genaue
+  - eine
   - Diagnose
-  - heute
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Diagnose stellen)

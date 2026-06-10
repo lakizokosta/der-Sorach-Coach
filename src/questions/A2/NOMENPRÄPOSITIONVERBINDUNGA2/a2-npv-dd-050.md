@@ -5,9 +5,10 @@ words:
   - Ich
   - interessiere
   - mich
-  - für
-  - Tanzsport
   - sehr
+  - für
+  - den
+  - Tanzsport
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Interesse für)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — für)

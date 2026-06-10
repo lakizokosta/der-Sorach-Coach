@@ -5,7 +5,6 @@ words:
   - Ich
   - habe
   - lange
-  - gut
   - geschlafen
 ---
 

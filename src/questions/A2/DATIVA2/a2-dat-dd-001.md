@@ -4,9 +4,8 @@ type: dropbox
 words:
   - Ich
   - antworte
-  - meiner
+  - der
   - Freundin
-  - sofort
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — der Freundin)
+Ordne die Wörter zum richtigen Satz: (Dativ — der)

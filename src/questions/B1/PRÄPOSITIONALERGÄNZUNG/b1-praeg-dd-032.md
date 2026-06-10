@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Sie
   - achtet
-  - stets
   - auf
+  - ihre
   - Gesundheit
 ---
 

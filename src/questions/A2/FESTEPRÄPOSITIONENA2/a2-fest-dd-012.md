@@ -7,7 +7,6 @@ words:
   - auf
   - den
   - Zug
-  - draußen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — warten auf)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — den)

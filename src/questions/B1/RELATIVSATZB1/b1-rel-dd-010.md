@@ -2,6 +2,7 @@
 id: b1-rel-dd-010
 type: dropbox
 words:
+  - Die
   - Firma
   - für
   - die

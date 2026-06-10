@@ -2,11 +2,13 @@
 id: b1-kadv-dd-028
 type: dropbox
 words:
+  - Die
   - Politik
   - ändert
   - sich
   - Deshalb
   - reagieren
+  - die
   - Bürger
 ---
 

@@ -10,4 +10,4 @@ words:
   - Platz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — auf)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition — auf)

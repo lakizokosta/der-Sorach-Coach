@@ -5,8 +5,10 @@ words:
   - Ich
   - denke
   - dass
-  - Geschenk
-  - gut
+  - das
+  - eine
+  - gute
+  - Geschenkidee
   - ist
 ---
 

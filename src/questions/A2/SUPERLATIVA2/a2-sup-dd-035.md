@@ -5,9 +5,11 @@ words:
   - Der
   - ICE
   - ist
-  - hier
-  - am
-  - schnellsten
+  - der
+  - schnellste
+  - Zug
+  - in
+  - Deutschland
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — am schnellsten)
+Ordne die Wörter zum richtigen Satz: (Superlativ — schnellste)

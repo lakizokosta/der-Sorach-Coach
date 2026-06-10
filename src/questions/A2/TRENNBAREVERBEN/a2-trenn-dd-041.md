@@ -4,10 +4,8 @@ type: dropbox
 words:
   - Er
   - steht
-  - am
-  - Wochenende
-  - spät
+  - früh
   - auf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — aufstehen)
+Ordne die Wörter zum richtigen Satz: (trennbar — steht)

@@ -6,7 +6,6 @@ words:
   - hilft
   - seiner
   - Nachbarin
-  - oft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — seiner Nachbarin)
+Ordne die Wörter zum richtigen Satz: (Possessiv — seiner)

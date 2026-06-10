@@ -7,7 +7,8 @@ words:
   - Schule
   - gehe
   - ich
-  - heim
+  - nach
+  - Haus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — nach Hause (Wohin?))
+Ordne die Wörter zum richtigen Satz: (Wohin? — nach)

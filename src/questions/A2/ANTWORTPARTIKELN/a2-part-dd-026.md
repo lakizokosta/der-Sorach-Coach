@@ -3,10 +3,11 @@ id: a2-part-dd-026
 type: dropbox
 words:
   - Doch
-  - Tom
-  - kommt
+  - ich
+  - komme
   - bestimmt
-  - heute
+  - zur
+  - Hochzeit
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — doch)

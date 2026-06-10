@@ -6,6 +6,7 @@ words:
   - will
   - wissen
   - was
+  - der
   - Minister
   - gesagt
   - hat

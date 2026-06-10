@@ -2,10 +2,10 @@
 id: b1-ws-dd-048
 type: dropbox
 words:
+  - Der
   - Arzt
   - verschreibt
-  - Patient
-  - neues
+  - ein
   - Medikament
 ---
 

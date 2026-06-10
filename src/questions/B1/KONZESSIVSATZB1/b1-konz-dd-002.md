@@ -6,7 +6,7 @@ words:
   - geht
   - joggen
   - obwohl
-  - sehr
+  - es
   - kalt
   - ist
 ---

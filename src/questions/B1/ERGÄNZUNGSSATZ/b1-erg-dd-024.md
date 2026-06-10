@@ -5,6 +5,7 @@ words:
   - Er
   - behauptet
   - dass
+  - er
   - alles
   - richtig
   - gemacht

@@ -4,9 +4,9 @@ type: dropbox
 words:
   - Er
   - sagt
+  - den
   - Termin
   - leider
-  - heute
   - ab
 ---
 

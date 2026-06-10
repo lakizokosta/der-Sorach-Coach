@@ -2,6 +2,7 @@
 id: b1-pass-dd-025
 type: dropbox
 words:
+  - Alle
   - Bewerbungen
   - werden
   - bis

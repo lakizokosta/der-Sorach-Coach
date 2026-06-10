@@ -2,11 +2,9 @@
 id: b1-pass-dd-027
 type: dropbox
 words:
+  - Der
   - Termin
   - wird
-  - leider
-  - nächste
-  - Woche
   - verschoben
 ---
 

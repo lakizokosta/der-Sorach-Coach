@@ -2,9 +2,12 @@
 id: b1-perf-dd-022
 type: dropbox
 words:
-  - Studierende
+  - Die
+  - Studierenden
   - haben
   - lange
+  - über
+  - das
   - Thema
   - diskutiert
 ---

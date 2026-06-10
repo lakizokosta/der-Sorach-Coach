@@ -4,9 +4,8 @@ type: dropbox
 words:
   - Er
   - vertraut
-  - seiner
+  - der
   - Ärztin
-  - voll
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — der Ärztin)
+Ordne die Wörter zum richtigen Satz: (Dativ — der)

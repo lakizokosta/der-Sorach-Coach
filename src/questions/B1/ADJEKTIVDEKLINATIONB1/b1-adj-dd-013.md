@@ -6,8 +6,10 @@ words:
   - einer
   - ruhigen
   - Gegend
+  - der
+  - Stadt
   - wohnt
-  - diese
+  - die
   - Familie
 ---
 

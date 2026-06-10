@@ -2,12 +2,12 @@
 id: b1-npv-dd-015
 type: dropbox
 words:
-  - Eltern
-  - haben
-  - Sorge
-  - um
-  - Gesundheit
-  - Kindes
+  - Sie
+  - hat
+  - Angst
+  - vor
+  - großen
+  - Hunden
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Sorge um)

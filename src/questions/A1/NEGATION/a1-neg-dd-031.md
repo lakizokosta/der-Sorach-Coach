@@ -10,4 +10,3 @@ words:
 ---
 
 Ordne die Wörter zum richtigen Satz: (Negation — nicht schwer)
-

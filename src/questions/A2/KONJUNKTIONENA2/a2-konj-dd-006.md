@@ -2,12 +2,13 @@
 id: a2-konj-dd-006
 type: dropbox
 words:
-  - Wenn
-  - Regen
-  - kommt
-  - nehme
-  - den
-  - Schirm
+  - Weil
+  - müde
+  - war
+  - ging
+  - ich
+  - früh
+  - schlafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktion — wenn)
+Ordne die Wörter zum richtigen Satz: (Konjunktion — Weil)

@@ -6,8 +6,7 @@ words:
   - hat
   - Freude
   - an
-  - klassischer
   - Musik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Freude an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)

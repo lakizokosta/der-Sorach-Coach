@@ -3,7 +3,11 @@ id: b1-gen-dd-027
 type: dropbox
 words:
   - Während
+  - der
   - Reparatur
+  - kann
+  - man
+  - die
   - Straße
   - nicht
   - benutzen

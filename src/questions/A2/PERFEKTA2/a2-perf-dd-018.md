@@ -5,9 +5,9 @@ words:
   - Ich
   - bin
   - gestern
-  - ins
-  - Kino
-  - gegangen
+  - viele
+  - Leute
+  - kennengelernt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — bin gegangen)
+Ordne die Wörter zum richtigen Satz: (Perfekt — bin gestern)

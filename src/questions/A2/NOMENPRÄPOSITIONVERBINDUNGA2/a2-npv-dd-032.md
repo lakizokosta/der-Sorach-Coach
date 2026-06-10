@@ -10,4 +10,4 @@ words:
   - Spiel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Spaß an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)

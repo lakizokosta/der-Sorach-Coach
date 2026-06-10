@@ -7,7 +7,9 @@ words:
   - geringen
   - Erfahrung
   - bekommt
-  - Chance
+  - er
+  - die
+  - Stelle
 ---
 
 Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erfahrung)

@@ -4,7 +4,6 @@ type: dropbox
 words:
   - Wir
   - haben
-  - leider
   - kein
   - Geld
   - übrig

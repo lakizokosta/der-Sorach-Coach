@@ -7,6 +7,7 @@ words:
   - jenen
   - Politiker
   - aus
+  - dem
   - Fernsehen
 ---
 

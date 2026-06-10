@@ -4,10 +4,9 @@ type: dropbox
 words:
   - Wir
   - fahren
-  - spät
   - nach
   - Hause
   - ein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — einfahren)
+Ordne die Wörter zum richtigen Satz: (trennbar — fahren)

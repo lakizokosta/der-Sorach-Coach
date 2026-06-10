@@ -2,10 +2,11 @@
 id: b1-praep-dd-010
 type: dropbox
 words:
+  - Das
   - Büro
   - ist
   - bis
-  - achtzehn
+  - 18
   - Uhr
   - geöffnet
 ---

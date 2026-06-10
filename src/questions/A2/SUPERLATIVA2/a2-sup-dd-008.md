@@ -2,12 +2,13 @@
 id: a2-sup-dd-008
 type: dropbox
 words:
+  - Der
+  - Mount
   - Everest
   - ist
-  - höchster
-  - Berg
   - der
-  - Welt
+  - höchste
+  - Berg
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — höchster)
+Ordne die Wörter zum richtigen Satz: (Superlativ — höchste)

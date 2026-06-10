@@ -2,7 +2,9 @@
 id: a2-wech-dd-010
 type: dropbox
 words:
-  - Häng
+  - Wohin
+  - hängst
+  - du
   - das
   - Bild
   - an
@@ -10,4 +12,4 @@ words:
   - Wand
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — an die Wand (Wohin?))
+Ordne die Wörter zum richtigen Satz: (Wohin? — an die)

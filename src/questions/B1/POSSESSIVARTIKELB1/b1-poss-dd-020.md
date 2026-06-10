@@ -7,7 +7,9 @@ words:
   - ihrer
   - neuen
   - Chefin
-  - heute
+  - bei
+  - der
+  - Einarbeitung
 ---
 
 Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer Chefin)

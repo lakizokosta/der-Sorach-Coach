@@ -2,11 +2,10 @@
 id: b1-akk-dd-040
 type: dropbox
 words:
+  - Die
   - Ärztin
   - verschreibt
-  - Patient
   - ein
-  - neues
   - Medikament
 ---
 

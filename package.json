@@ -28,6 +28,9 @@
     "questions:fix-input-hints": "node scripts/fix-input-text-hints.mjs",
     "questions:generate-a1-input": "node scripts/generate-a1-input-text.mjs",
     "questions:generate-a1-dropbox": "node scripts/generate-a1-dropbox.mjs",
+    "questions:rebuild-dropbox": "node scripts/rebuild-dropbox-banks.mjs",
+    "questions:restore-dropbox": "node scripts/restore-all-dropbox.mjs",
+    "questions:audit-dropbox": "node scripts/audit-dropbox-sentences.mjs",
     "backend:verify": "node scripts/verify-backend.mjs"
   },
   "dependencies": {

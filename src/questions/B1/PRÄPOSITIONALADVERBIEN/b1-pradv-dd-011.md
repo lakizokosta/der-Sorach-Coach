@@ -2,11 +2,14 @@
 id: b1-pradv-dd-011
 type: dropbox
 words:
-  - Minister
-  - besteht
-  - weiter
+  - Bestehst
+  - du
+  - auf
+  - deiner
+  - Meinung
+  - Ich
+  - bestehe
   - darauf
-  - hartnäckig
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Bestehen))

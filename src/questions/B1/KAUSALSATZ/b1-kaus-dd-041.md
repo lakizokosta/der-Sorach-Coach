@@ -2,11 +2,12 @@
 id: b1-kaus-dd-041
 type: dropbox
 words:
+  - Das
   - Flugzeug
   - hat
   - Verspätung
   - weil
-  - stark
+  - es
   - stürmt
 ---
 

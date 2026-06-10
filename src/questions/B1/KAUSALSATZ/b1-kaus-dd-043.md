@@ -3,11 +3,12 @@ id: b1-kaus-dd-043
 type: dropbox
 words:
   - Weil
+  - das
   - Wetter
   - schlecht
   - ist
-  - Fest
   - fällt
+  - Fest
   - aus
 ---
 

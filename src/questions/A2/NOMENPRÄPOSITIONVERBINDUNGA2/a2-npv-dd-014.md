@@ -6,8 +6,8 @@ words:
   - hat
   - Recht
   - in
-  - dieser
+  - der
   - Sache
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Recht in)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — in)

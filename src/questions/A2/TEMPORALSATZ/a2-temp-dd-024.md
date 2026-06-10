@@ -2,12 +2,12 @@
 id: a2-temp-dd-024
 type: dropbox
 words:
-  - Als
-  - Student
-  - lebte
-  - ich
-  - in
+  - In
   - Berlin
+  - lernte
+  - ich
+  - viel
+  - Deutsch
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporal — Als)

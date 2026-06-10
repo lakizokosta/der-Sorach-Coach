@@ -7,6 +7,7 @@ words:
   - seine
   - Kollegen
   - über
+  - die
   - neue
   - Regelung
 ---

@@ -3,9 +3,10 @@ id: b1-konz-dd-035
 type: dropbox
 words:
   - Obwohl
-  - wenig
-  - schläft
+  - Schlafmangel
+  - herrscht
   - arbeitet
+  - Kollege
   - sehr
   - produktiv
 ---

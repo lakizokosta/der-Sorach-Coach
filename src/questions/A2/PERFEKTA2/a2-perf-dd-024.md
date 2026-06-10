@@ -4,8 +4,11 @@ type: dropbox
 words:
   - Du
   - hast
-  - viel
   - schon
+  - viel
+  - für
+  - die
+  - Prüfung
   - gelernt
 ---
 

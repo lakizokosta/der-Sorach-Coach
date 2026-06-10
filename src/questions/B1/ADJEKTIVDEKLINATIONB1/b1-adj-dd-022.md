@@ -6,8 +6,8 @@ words:
   - schlechten
   - Wetters
   - fällt
-  - Veranstaltung
-  - leider
+  - die
+  - Reise
   - aus
 ---
 

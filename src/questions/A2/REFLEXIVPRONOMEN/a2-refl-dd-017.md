@@ -9,4 +9,4 @@ words:
   - Schwimmbad
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — erholen uns)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — erholen)

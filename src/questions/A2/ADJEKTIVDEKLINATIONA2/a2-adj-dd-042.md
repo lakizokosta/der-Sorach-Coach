@@ -2,12 +2,13 @@
 id: a2-adj-dd-042
 type: dropbox
 words:
-  - Der
-  - kleine
-  - Hund
-  - bellt
-  - laut
-  - hier
+  - In
+  - der
+  - neuen
+  - Schule
+  - lerne
+  - ich
+  - Deutsch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektiv — kleine Hund)
+Ordne die Wörter zum richtigen Satz: (neu, fem., Dat. — neuen)

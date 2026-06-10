@@ -6,9 +6,9 @@ words:
   - des
   - Sturms
   - fällt
+  - das
   - Fest
-  - heute
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen des Sturms)
+Ordne die Wörter zum richtigen Satz: (Genitiv — des)

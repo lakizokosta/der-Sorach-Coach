@@ -2,11 +2,17 @@
 id: b1-pradv-dd-008
 type: dropbox
 words:
-  - Ärztin
-  - kümmert
-  - sich
+  - Kümmerst
+  - du
+  - dich
+  - um
+  - die
+  - Patienten
+  - Ja
+  - ich
+  - kümmere
+  - mich
   - darum
-  - sofort
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darum)

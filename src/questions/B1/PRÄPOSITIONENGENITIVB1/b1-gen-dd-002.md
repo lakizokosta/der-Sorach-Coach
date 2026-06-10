@@ -3,11 +3,12 @@ id: b1-gen-dd-002
 type: dropbox
 words:
   - Wegen
-  - schweren
+  - der
   - Erkrankung
   - bleibt
-  - Patient
-  - Zuhause
+  - er
+  - zu
+  - Hause
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Erkrankung)

@@ -5,6 +5,7 @@ words:
   - Ich
   - hoffe
   - auf
+  - eine
   - schnelle
   - Lösung
 ---

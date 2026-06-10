@@ -4,9 +4,11 @@ type: dropbox
 words:
   - Ich
   - führe
+  - ein
   - Gespräch
+  - mit
+  - dem
   - Chef
-  - morgen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Gespräch führen)

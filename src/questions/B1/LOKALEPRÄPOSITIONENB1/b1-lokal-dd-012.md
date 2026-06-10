@@ -2,11 +2,10 @@
 id: b1-lokal-dd-012
 type: dropbox
 words:
-  - Familie
+  - Er
   - wohnt
-  - seit
-  - Jahren
   - auf
+  - dem
   - Land
 ---
 

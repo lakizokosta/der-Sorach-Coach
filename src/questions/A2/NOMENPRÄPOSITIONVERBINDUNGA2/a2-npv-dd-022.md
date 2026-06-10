@@ -6,8 +6,7 @@ words:
   - hat
   - Respekt
   - vor
-  - seinen
   - Lehrern
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Respekt vor)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — vor)

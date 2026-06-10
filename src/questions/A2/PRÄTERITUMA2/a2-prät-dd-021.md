@@ -4,7 +4,6 @@ type: dropbox
 words:
   - Wir
   - waren
-  - gestern
   - in
   - der
   - Schule

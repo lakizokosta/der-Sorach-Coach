@@ -6,6 +6,8 @@ words:
   - erinnere
   - mich
   - an
+  - unseren
+  - letzten
   - Urlaub
 ---
 

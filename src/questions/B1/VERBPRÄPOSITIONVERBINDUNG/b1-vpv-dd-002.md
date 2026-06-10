@@ -5,8 +5,8 @@ words:
   - Ich
   - warte
   - auf
+  - die
   - Genehmigung
-  - Behörde
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verb+Präp — warte auf)

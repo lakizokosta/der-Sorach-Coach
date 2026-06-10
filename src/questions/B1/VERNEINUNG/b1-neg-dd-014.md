@@ -6,6 +6,8 @@ words:
   - hat
   - keine
   - Erfahrung
+  - in
+  - diesem
   - Bereich
 ---
 

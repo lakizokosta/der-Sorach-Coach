@@ -7,7 +7,6 @@ words:
   - Pause
   - essen
   - wir
-  - zusammen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Während der Pause)
+Ordne die Wörter zum richtigen Satz: (Genitiv — der)

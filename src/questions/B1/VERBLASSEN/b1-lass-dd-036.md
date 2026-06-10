@@ -5,7 +5,9 @@ words:
   - Er
   - lässt
   - sich
-  - Spezialist
+  - von
+  - einem
+  - Spezialisten
   - beraten
 ---
 

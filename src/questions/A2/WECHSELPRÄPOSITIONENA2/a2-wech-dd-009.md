@@ -2,12 +2,13 @@
 id: a2-wech-dd-009
 type: dropbox
 words:
-  - Der
-  - Teppich
+  - Wo
   - liegt
+  - der
+  - Teppich
   - auf
   - dem
   - Boden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Boden (Wo?))
+Ordne die Wörter zum richtigen Satz: (Wo? — auf dem)

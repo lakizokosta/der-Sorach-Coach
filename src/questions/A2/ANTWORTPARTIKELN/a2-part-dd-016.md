@@ -2,12 +2,15 @@
 id: a2-part-dd-016
 type: dropbox
 words:
-  - Gehen
-  - wir
-  - ins
-  - Kino
-  - oder
-  - nicht
+  - Kann
+  - ich
+  - das
+  - auf
+  - den
+  - Tisch
+  - legen
+  - ja
+  - gern
 ---
 
-Ordne die Wörter zum richtigen Satz: (Antwortpartikel — oder)
+Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

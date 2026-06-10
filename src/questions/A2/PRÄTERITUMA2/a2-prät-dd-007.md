@@ -4,10 +4,9 @@ type: dropbox
 words:
   - Er
   - schlief
+  - die
   - ganze
   - Nacht
-  - sehr
-  - tief
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präteritum — schlief)

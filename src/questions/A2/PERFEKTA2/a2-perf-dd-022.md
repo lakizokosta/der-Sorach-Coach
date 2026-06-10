@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Ich
   - habe
+  - meine
   - Freunde
   - im
   - Park

@@ -2,10 +2,11 @@
 id: b1-praep-dd-031
 type: dropbox
 words:
+  - Das
   - Hotel
   - liegt
-  - direkt
   - an
+  - der
   - Küste
 ---
 

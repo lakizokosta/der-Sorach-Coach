@@ -2,11 +2,16 @@
 id: b1-pradv-dd-037
 type: dropbox
 words:
-  - Wir
-  - freuen
-  - uns
+  - Freust
+  - du
+  - dich
+  - auf
+  - die
+  - Reise
+  - Ich
+  - freue
+  - mich
   - darauf
-  - sehr
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf)

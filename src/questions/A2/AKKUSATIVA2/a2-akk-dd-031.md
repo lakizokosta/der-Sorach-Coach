@@ -4,9 +4,10 @@ type: dropbox
 words:
   - Ich
   - höre
-  - einen
-  - spannenden
+  - den
   - Podcast
+  - über
+  - Sammeln
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Podcast)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — den)

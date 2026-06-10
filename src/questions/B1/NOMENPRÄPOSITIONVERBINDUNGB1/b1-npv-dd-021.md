@@ -2,6 +2,7 @@
 id: b1-npv-dd-021
 type: dropbox
 words:
+  - Die
   - Firma
   - hat
   - Bedarf

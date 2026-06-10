@@ -4,11 +4,11 @@ type: dropbox
 words:
   - Weil
   - er
-  - viel
-  - gelernt
-  - hat
+  - fleißig
+  - war
+  - bestand
+  - seine
   - Prüfung
-  - bestanden
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil gelernt hat)

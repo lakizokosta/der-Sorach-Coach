@@ -6,6 +6,7 @@ words:
   - stehe
   - morgen
   - früh
+  - um
   - sechs
   - auf
 ---

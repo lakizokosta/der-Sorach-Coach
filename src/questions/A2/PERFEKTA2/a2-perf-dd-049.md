@@ -4,8 +4,10 @@ type: dropbox
 words:
   - Sie
   - hat
+  - sehr
   - gut
   - für
+  - die
   - Gäste
   - gekocht
 ---

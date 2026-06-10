@@ -2,10 +2,10 @@
 id: b1-pass-dd-048
 type: dropbox
 words:
+  - Die
   - Abfälle
   - werden
   - getrennt
-  - sorgfältig
   - gesammelt
 ---
 

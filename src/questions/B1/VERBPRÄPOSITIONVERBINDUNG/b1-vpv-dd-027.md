@@ -5,7 +5,9 @@ words:
   - Sie
   - träumt
   - von
+  - einem
   - Job
+  - im
   - Ausland
 ---
 

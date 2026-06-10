@@ -4,9 +4,10 @@ type: dropbox
 words:
   - Wir
   - sprechen
+  - das
   - Problem
+  - im
   - Team
-  - morgen
   - an
 ---
 

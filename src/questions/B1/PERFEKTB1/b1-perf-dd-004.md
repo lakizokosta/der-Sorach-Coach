@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Ich
   - habe
+  - den
   - Artikel
   - gestern
   - gelesen

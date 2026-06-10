@@ -4,8 +4,11 @@ type: dropbox
 words:
   - Er
   - äußert
+  - eine
   - klare
   - Meinung
+  - zu
+  - der
   - Frage
 ---
 

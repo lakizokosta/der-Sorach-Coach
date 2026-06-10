@@ -2,11 +2,12 @@
 id: b1-perf-dd-034
 type: dropbox
 words:
-  - Journalisten
-  - haben
-  - Fall
-  - gründlich
-  - recherchiert
+  - Wir
+  - sind
+  - pünktlich
+  - am
+  - Flughafen
+  - angekommen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfekt — haben recherchiert)

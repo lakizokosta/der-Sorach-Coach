@@ -6,6 +6,8 @@ words:
   - habe
   - kein
   - Verständnis
+  - für
+  - diese
   - Entscheidung
 ---
 

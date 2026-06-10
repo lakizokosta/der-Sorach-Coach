@@ -6,7 +6,8 @@ words:
   - haben
   - Zweifel
   - an
-  - neuer
+  - der
+  - neuen
   - Politik
 ---
 

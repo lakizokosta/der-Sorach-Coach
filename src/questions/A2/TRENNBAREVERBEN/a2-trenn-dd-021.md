@@ -5,9 +5,9 @@ words:
   - Wir
   - stehen
   - um
-  - acht
+  - 8
   - Uhr
   - auf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — aufstehen)
+Ordne die Wörter zum richtigen Satz: (trennbar — stehen)

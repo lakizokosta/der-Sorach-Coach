@@ -10,4 +10,4 @@ words:
   - Häusern
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — zwischen)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition — zwischen)

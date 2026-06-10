@@ -2,6 +2,7 @@
 id: b1-rel-dd-005
 type: dropbox
 words:
+  - Die
   - Stadt
   - in
   - der

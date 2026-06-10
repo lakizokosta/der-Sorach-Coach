@@ -2,10 +2,10 @@
 id: b1-vnv-dd-042
 type: dropbox
 words:
+  - Der
   - Minister
   - hält
-  - heute
-  - wichtige
+  - eine
   - Rede
 ---
 

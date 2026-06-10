@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Er
   - geht
+  - die
   - Nachrichten
   - jeden
   - Morgen

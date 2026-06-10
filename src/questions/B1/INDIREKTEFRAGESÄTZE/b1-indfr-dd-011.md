@@ -7,6 +7,7 @@ words:
   - gespannt
   - wie
   - lange
+  - die
   - Reise
   - dauert
 ---

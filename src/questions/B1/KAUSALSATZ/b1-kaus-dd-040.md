@@ -5,6 +5,8 @@ words:
   - Sie
   - kündigt
   - weil
+  - sie
+  - eine
   - bessere
   - Stelle
   - gefunden

@@ -5,9 +5,8 @@ words:
   - Er
   - besteht
   - auf
-  - pünktlicher
+  - pünktliche
   - Zahlung
-  - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — bestehen auf)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — auf)

@@ -5,7 +5,10 @@ words:
   - Wir
   - haben
   - auf
+  - der
   - Hochzeit
+  - ein
+  - Lied
   - gesungen
 ---
 

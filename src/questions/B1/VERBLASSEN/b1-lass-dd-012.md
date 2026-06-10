@@ -4,8 +4,10 @@ type: dropbox
 words:
   - Wir
   - lassen
+  - das
   - Problem
-  - erstmal
+  - nicht
+  - zu
   - ruhen
 ---
 

@@ -2,10 +2,14 @@
 id: b1-pradv-dd-010
 type: dropbox
 words:
-  - Wir
-  - helfen
-  - Kollegen
-  - gern
+  - Hilfst
+  - du
+  - bei
+  - dem
+  - Projekt
+  - Ja
+  - ich
+  - helfe
   - dabei
 ---
 

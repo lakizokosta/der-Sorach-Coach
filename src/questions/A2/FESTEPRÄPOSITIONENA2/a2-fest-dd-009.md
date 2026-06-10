@@ -7,7 +7,6 @@ words:
   - auf
   - gutes
   - Wetter
-  - morgen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — hoffen auf)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — gutes)

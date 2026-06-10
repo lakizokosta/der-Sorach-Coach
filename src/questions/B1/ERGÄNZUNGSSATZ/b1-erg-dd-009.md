@@ -2,9 +2,11 @@
 id: b1-erg-dd-009
 type: dropbox
 words:
+  - Die
   - Professorin
   - erklärt
   - dass
+  - der
   - Kurs
   - anspruchsvoll
   - ist

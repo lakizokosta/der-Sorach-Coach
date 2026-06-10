@@ -6,6 +6,7 @@ words:
   - denkt
   - oft
   - an
+  - seine
   - Karriere
 ---
 

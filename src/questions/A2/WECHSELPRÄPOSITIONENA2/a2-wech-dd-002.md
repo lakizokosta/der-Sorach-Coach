@@ -2,12 +2,13 @@
 id: a2-wech-dd-002
 type: dropbox
 words:
-  - Leg
+  - Kann
+  - ich
   - das
-  - Buch
   - auf
   - den
   - Tisch
+  - legen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf den Tisch (Wohin?))
+Ordne die Wörter zum richtigen Satz: (Wohin? — auf den)

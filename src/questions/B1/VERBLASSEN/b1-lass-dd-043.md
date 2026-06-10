@@ -4,8 +4,9 @@ type: dropbox
 words:
   - Sie
   - lässt
+  - den
   - Bericht
-  - Kollegen
+  - Korrektur
   - lesen
 ---
 

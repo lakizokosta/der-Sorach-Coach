@@ -9,4 +9,4 @@ words:
   - Kunst
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — Interesse an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)

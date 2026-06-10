@@ -4,8 +4,10 @@ type: dropbox
 words:
   - Sie
   - absolviert
+  - ein
   - Praktikum
-  - großen
+  - in
+  - einer
   - Klinik
 ---
 

@@ -2,11 +2,11 @@
 id: a2-wech-dd-033
 type: dropbox
 words:
-  - Stell
+  - Leg
   - die
   - Flasche
   - ins
   - Regal
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — ins Regal (Wohin?))
+Ordne die Wörter zum richtigen Satz: (Wohin? — ins)

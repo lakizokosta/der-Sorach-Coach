@@ -2,12 +2,11 @@
 id: a2-konj-dd-034
 type: dropbox
 words:
-  - Wenn
-  - Prüfung
-  - bestehen
-  - freut
-  - sich
-  - Tom
+  - Hoffentlich
+  - kommt
+  - er
+  - wie
+  - versprochen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktion — wenn)
+Ordne die Wörter zum richtigen Satz: (Konjunktion — wie)

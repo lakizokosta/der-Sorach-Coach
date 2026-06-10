@@ -3,8 +3,8 @@ id: a2-temp-dd-047
 type: dropbox
 words:
   - Als
-  - jung
-  - war
+  - junge
+  - Frau
   - tanzte
   - sie
   - gern

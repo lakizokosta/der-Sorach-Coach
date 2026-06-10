@@ -2,7 +2,8 @@
 id: b1-pass-dd-035
 type: dropbox
 words:
-  - Neues
+  - Das
+  - neue
   - Gesetz
   - wird
   - morgen

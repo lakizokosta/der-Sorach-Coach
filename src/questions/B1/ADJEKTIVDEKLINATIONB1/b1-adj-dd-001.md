@@ -2,13 +2,14 @@
 id: b1-adj-dd-001
 type: dropbox
 words:
-  - Der
-  - Chef
-  - präsentiert
-  - einen
-  - wichtigen
-  - Bericht
-  - heute
+  - In
+  - einem
+  - modernen
+  - Büro
+  - arbeiten
+  - viele
+  - junge
+  - Kollegen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtigen Bericht)

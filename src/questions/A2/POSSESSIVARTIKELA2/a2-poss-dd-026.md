@@ -10,4 +10,4 @@ words:
   - drinnen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — des Regens)
+Ordne die Wörter zum richtigen Satz: (Artikel — des)

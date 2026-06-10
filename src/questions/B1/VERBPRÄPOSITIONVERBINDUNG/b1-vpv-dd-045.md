@@ -5,7 +5,7 @@ words:
   - Ich
   - danke
   - für
-  - schnelle
+  - deiner
   - Unterstützung
 ---
 

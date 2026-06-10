@@ -5,9 +5,8 @@ words:
   - Ich
   - danke
   - für
-  - deine
-  - schnelle
+  - die
   - Hilfe
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — danken für)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — die)

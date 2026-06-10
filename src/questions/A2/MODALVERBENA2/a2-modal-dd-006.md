@@ -5,8 +5,6 @@ words:
   - Du
   - sollst
   - leiser
-  - im
-  - Büro
   - sprechen
 ---
 

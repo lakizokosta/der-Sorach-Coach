@@ -4,9 +4,9 @@ type: dropbox
 words:
   - Er
   - bereitet
+  - die
   - Präsentation
-  - sorgfältig
-  - heute
+  - gut
   - vor
 ---
 

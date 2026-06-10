@@ -4,7 +4,10 @@ type: dropbox
 words:
   - Sie
   - lässt
+  - die
   - Kinder
+  - von
+  - der
   - Oma
   - abholen
 ---

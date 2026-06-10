@@ -6,7 +6,9 @@ words:
   - treffen
   - uns
   - vor
+  - dem
   - Eingang
+  - der
   - Universität
 ---
 

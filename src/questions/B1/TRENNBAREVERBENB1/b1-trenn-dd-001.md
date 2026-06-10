@@ -6,6 +6,9 @@ words:
   - meldest
   - du
   - dich
+  - für
+  - den
+  - Kurs
   - an
 ---
 

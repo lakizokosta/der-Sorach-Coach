@@ -5,8 +5,8 @@ words:
   - Man
   - hört
   - dass
+  - die
   - Preise
-  - wieder
   - steigen
 ---
 

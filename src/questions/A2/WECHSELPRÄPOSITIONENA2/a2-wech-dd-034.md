@@ -9,4 +9,4 @@ words:
   - Garten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Garten (Wo?))
+Ordne die Wörter zum richtigen Satz: (Wo? — im)

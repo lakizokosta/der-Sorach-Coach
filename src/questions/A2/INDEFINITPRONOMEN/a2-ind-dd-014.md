@@ -5,7 +5,6 @@ words:
   - Hier
   - stimmt
   - etwas
-  - gar
   - nicht
 ---
 

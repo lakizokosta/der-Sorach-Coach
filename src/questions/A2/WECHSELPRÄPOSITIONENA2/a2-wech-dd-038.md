@@ -2,12 +2,12 @@
 id: a2-wech-dd-038
 type: dropbox
 words:
-  - Wir
-  - gehen
-  - heute
+  - Deshalb
+  - möchte
+  - ich
   - in
   - den
   - Zoo
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — in den Zoo (Wohin?))
+Ordne die Wörter zum richtigen Satz: (Wohin? — in den)

@@ -10,4 +10,4 @@ words:
   - neu
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — meiner Schwester)
+Ordne die Wörter zum richtigen Satz: (Possessiv — meiner)

@@ -6,8 +6,7 @@ words:
   - träumt
   - von
   - einem
-  - langen
   - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Feste Präp. — träumen von)
+Ordne die Wörter zum richtigen Satz: (feste Präp. — einem)

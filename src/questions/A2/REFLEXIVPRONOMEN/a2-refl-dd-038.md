@@ -5,9 +5,10 @@ words:
   - Sie
   - beeilt
   - sich
-  - zum
-  - Bahnhof
-  - schnell
+  - weil
+  - der
+  - Zug
+  - kommt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — beeilt sich)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — beeilt)

@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Er
   - hat
-  - Anteil
-  - am
-  - Erfolg
-  - Teams
+  - Erfahrung
+  - in
+  - diesem
+  - Bereich
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Anteil am)

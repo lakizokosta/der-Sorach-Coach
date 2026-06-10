@@ -3,11 +3,13 @@ id: b1-kond-dd-016
 type: dropbox
 words:
   - Wenn
-  - Genehmigung
-  - kommt
-  - starten
-  - Projekt
-  - sofort
+  - du
+  - morgen
+  - Zeit
+  - hast
+  - treffen
+  - wir
+  - uns
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn Genehmigung kommt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Genehmigung kommt)

@@ -9,4 +9,4 @@ words:
   - Eingang
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — vor)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition — vor)

@@ -7,7 +7,6 @@ words:
   - auf
   - dem
   - Stuhl
-  - da
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — dem Stuhl)
+Ordne die Wörter zum richtigen Satz: (Dativ — dem)

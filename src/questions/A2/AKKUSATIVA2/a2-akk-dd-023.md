@@ -10,4 +10,4 @@ words:
   - Wochenende
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — das Wochenende)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — das)

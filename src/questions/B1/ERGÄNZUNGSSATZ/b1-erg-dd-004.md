@@ -6,6 +6,7 @@ words:
   - ist
   - klar
   - dass
+  - wir
   - mehr
   - Zeit
   - brauchen

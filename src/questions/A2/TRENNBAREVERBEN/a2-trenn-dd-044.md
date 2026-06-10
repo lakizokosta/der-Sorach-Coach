@@ -6,8 +6,7 @@ words:
   - rufe
   - meine
   - Freundin
-  - gleich
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — anrufen)
+Ordne die Wörter zum richtigen Satz: (trennbar — rufe)

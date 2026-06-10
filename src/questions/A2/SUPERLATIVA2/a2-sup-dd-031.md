@@ -4,10 +4,11 @@ type: dropbox
 words:
   - Er
   - ist
-  - jüngster
+  - der
+  - jüngste
   - Spieler
   - im
   - Team
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — jüngster)
+Ordne die Wörter zum richtigen Satz: (Superlativ — jüngste)

@@ -5,9 +5,10 @@ words:
   - Der
   - Turm
   - ist
-  - viel
   - höher
-  - hier
+  - als
+  - das
+  - Haus
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — höher)

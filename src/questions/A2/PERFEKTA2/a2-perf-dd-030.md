@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Er
   - hat
+  - seine
   - Hausaufgaben
-  - schnell
   - gemacht
 ---
 

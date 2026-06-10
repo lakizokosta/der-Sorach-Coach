@@ -7,7 +7,10 @@ words:
   - früh
   - los
   - um
+  - den
   - Zug
+  - nicht
+  - zu
   - verpassen
 ---
 

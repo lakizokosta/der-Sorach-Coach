@@ -7,6 +7,7 @@ words:
   - heute
   - ins
   - Schwimmbad
+  - gehen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverb — wollen)

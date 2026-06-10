@@ -2,8 +2,10 @@
 id: b1-perf-dd-018
 type: dropbox
 words:
+  - Der
   - Minister
   - hat
+  - die
   - neue
   - Regelung
   - erklärt

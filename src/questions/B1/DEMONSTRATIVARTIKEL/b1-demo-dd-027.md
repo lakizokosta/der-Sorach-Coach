@@ -5,9 +5,9 @@ words:
   - Dieses
   - Reiseziel
   - empfehle
+  - ich
   - dir
   - besonders
-  - gerne
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Reiseziel)

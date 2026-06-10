@@ -2,13 +2,14 @@
 id: a2-konj-dd-010
 type: dropbox
 words:
-  - Es
-  - ist
-  - wichtig
-  - dass
+  - Er
+  - fragt
+  - ob
   - wir
-  - pünktlich
-  - sind
+  - mit
+  - zum
+  - Zoo
+  - kommen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
+Ordne die Wörter zum richtigen Satz: (Konjunktion — ob)

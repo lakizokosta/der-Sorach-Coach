@@ -5,6 +5,7 @@ words:
   - Wir
   - wissen
   - dass
+  - die
   - Entscheidung
   - schwer
   - war

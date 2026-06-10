@@ -6,6 +6,7 @@ words:
   - hat
   - sich
   - für
+  - den
   - Tanzsport
   - interessiert
 ---

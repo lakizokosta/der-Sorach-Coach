@@ -5,6 +5,7 @@ words:
   - Er
   - erklärt
   - alles
+  - genau
   - damit
   - niemand
   - etwas

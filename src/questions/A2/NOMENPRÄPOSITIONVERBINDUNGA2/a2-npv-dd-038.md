@@ -4,10 +4,9 @@ type: dropbox
 words:
   - Wir
   - denken
-  - oft
   - an
-  - unsere
+  - die
   - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — denken an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)

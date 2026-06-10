@@ -7,6 +7,7 @@ words:
   - Medizin
   - Außerdem
   - jobbt
+  - sie
   - nebenbei
 ---
 

@@ -6,6 +6,7 @@ words:
   - weiß
   - nicht
   - ob
+  - der
   - Termin
   - stattfindet
 ---

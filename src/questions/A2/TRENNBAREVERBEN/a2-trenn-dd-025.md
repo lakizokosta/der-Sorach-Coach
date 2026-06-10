@@ -6,8 +6,7 @@ words:
   - bereiten
   - das
   - Fest
-  - sorgfältig
   - vor
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — vorbereiten)
+Ordne die Wörter zum richtigen Satz: (trennbar — bereiten)

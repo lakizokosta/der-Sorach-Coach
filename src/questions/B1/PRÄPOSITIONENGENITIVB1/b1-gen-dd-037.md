@@ -3,8 +3,11 @@ id: b1-gen-dd-037
 type: dropbox
 words:
   - Während
+  - des
   - Unterrichts
   - ist
+  - es
+  - im
   - Gebäude
   - ruhig
 ---

@@ -9,4 +9,3 @@ words:
 ---
 
 Ordne die Wörter zum richtigen Satz: (Wechselpräp. — im Konzert (Ort))
-

@@ -6,8 +6,7 @@ words:
   - arbeitet
   - in
   - einer
-  - großen
   - Firma
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — einer Firma)
+Ordne die Wörter zum richtigen Satz: (Dativ — einer)

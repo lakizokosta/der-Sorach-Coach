@@ -2,11 +2,13 @@
 id: b1-ws-dd-032
 type: dropbox
 words:
+  - Die
   - Genesung
   - nach
+  - dem
   - Unfall
-  - dauerte
-  - lange
+  - war
+  - lang
 ---
 
 Ordne die Wörter zum richtigen Satz: (Wortschatz — Genesung)

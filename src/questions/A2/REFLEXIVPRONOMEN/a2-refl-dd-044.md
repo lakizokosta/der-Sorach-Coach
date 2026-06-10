@@ -7,7 +7,8 @@ words:
   - sich
   - beim
   - Sport
-  - oft
+  - den
+  - Rücken
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — verletzt sich)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — verletzt)

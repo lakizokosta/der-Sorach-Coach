@@ -2,11 +2,15 @@
 id: b1-pradv-dd-021
 type: dropbox
 words:
-  - Sie
-  - spricht
-  - heute
+  - Sprichst
+  - du
+  - über
+  - das
+  - Problem
+  - Ja
+  - wir
+  - sprechen
   - darüber
-  - offen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)

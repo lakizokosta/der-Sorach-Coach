@@ -7,6 +7,8 @@ words:
   - Hilfe
   - Deshalb
   - rufen
+  - wir
+  - einen
   - Experten
 ---
 

@@ -2,12 +2,14 @@
 id: b1-neg-dd-016
 type: dropbox
 words:
-  - Im
-  - Büro
-  - war
-  - gestern
-  - niemand
-  - da
+  - Ich
+  - habe
+  - keine
+  - Zeit
+  - für
+  - ein
+  - langes
+  - Meeting
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verneinung — niemand da)

@@ -3,7 +3,7 @@ id: a2-temp-dd-003
 type: dropbox
 words:
   - Während
-  - Mama
+  - er
   - kocht
   - höre
   - ich

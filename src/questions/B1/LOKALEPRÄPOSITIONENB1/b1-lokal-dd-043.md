@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Wir
   - warten
-  - jetzt
   - vor
+  - dem
   - Rathaus
 ---
 

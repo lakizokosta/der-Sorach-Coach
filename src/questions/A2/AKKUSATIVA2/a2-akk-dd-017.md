@@ -10,4 +10,4 @@ words:
   - Arbeitsplatz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — die Mitteilung)
+Ordne die Wörter zum richtigen Satz: (Akkusativ — die)

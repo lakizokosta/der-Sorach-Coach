@@ -2,12 +2,14 @@
 id: a2-konj-dd-019
 type: dropbox
 words:
-  - Tom
+  - Ich
+  - glaube
+  - dass
+  - er
+  - morgen
+  - zur
+  - Arbeit
   - kommt
-  - weil
-  - Party
-  - heute
-  - ist
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
+Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)

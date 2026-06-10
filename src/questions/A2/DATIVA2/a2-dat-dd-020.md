@@ -4,9 +4,8 @@ type: dropbox
 words:
   - Wir
   - danken
-  - unserer
+  - der
   - Lehrerin
-  - herzlich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — der Lehrerin)
+Ordne die Wörter zum richtigen Satz: (Dativ — der)

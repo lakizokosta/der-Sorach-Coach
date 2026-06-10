@@ -10,4 +10,4 @@ words:
   - Post
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — gegenüber)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition — gegenüber)

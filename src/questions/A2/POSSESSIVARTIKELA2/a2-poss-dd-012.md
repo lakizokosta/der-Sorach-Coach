@@ -6,7 +6,6 @@ words:
   - sucht
   - seinen
   - Schlüssel
-  - überall
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — seinen Schlüssel)
+Ordne die Wörter zum richtigen Satz: (Possessiv — seinen)
