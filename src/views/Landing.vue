@@ -72,7 +72,10 @@ function payBasis() {
 }
 
 function onNiveauTestClick() {
-  if (!isPremium.value) return;
+  if (!isPremium.value) {
+    openPremium();
+    return;
+  }
   router.push({ name: 'trainer', query: { mode: 'placement' } });
 }
 
@@ -124,22 +127,8 @@ const pricingCompareRows = [
       <ActivityCalendar />
     </div>
 
-    <div style="text-align: center; margin: 6px auto 10px auto;">
-      <button
-        type="button"
-        @click="openProfile"
-        style="
-          background: linear-gradient(135deg, #f3e5f5, #e8d5f0);
-          border: 1.5px solid #ce93d8;
-          border-radius: 22px;
-          padding: 9px 22px;
-          font-size: 14px;
-          font-weight: 700;
-          color: #7B2D8B;
-          cursor: pointer;
-          box-shadow: 0 2px 8px rgba(171, 77, 187, 0.15);
-        "
-      >
+    <div class="landing-profile-wrap">
+      <button type="button" class="landing-profile-btn" @click="openProfile">
         🏅 Mein Profil &amp; Fortschritt
       </button>
     </div>
@@ -148,8 +137,11 @@ const pricingCompareRows = [
       <button
         type="button"
         class="niveau-test-btn"
-        :class="{ 'niveau-test-btn--inactive': !isPremium }"
-        :aria-disabled="!isPremium"
+        :class="{
+          'level-card': isPremium,
+          'niveau-test-btn--unlocked': isPremium,
+          'niveau-test-btn--inactive': !isPremium,
+        }"
         @click="onNiveauTestClick"
       >
         <span class="niveau-test-btn__label">
@@ -194,8 +186,25 @@ const pricingCompareRows = [
 
     <details class="pricing-compare">
       <summary class="pricing-compare__summary">
-        <span class="pricing-compare__title">Tarife vergleichen</span>
-        <span class="pricing-compare__meta">Gratis · Basis 4,99€ · Premium 19€</span>
+        <div class="pricing-compare__row">
+          <span class="pricing-compare__title">💳 Tarife vergleichen</span>
+          <span class="pricing-compare__count">3 Tarife</span>
+        </div>
+
+        <div
+          class="pricing-compare__bar"
+          role="progressbar"
+          aria-valuenow="3"
+          aria-valuemin="0"
+          aria-valuemax="3"
+          aria-label="Drei Tarife zum Vergleich"
+        >
+          <div class="pricing-compare__fill" style="width: 100%" />
+        </div>
+
+        <p class="pricing-compare__hint">
+          Gratis · Basis 4,99€ · Premium 19€/Monat — Tippe für die Vergleichstabelle.
+        </p>
       </summary>
 
       <div class="pricing-compare__body">

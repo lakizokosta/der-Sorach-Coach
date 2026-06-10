@@ -164,19 +164,9 @@ function signOut() {
         />
         <button
           type="button"
+          class="login-panel__btn"
           :disabled="magicSubmitting"
           @click="submitMagicLink"
-          style="
-            padding: 9px 14px;
-            border: none;
-            border-radius: 10px;
-            background: #ab4dbb;
-            color: #fff;
-            font-weight: 700;
-            font-size: 13px;
-            cursor: pointer;
-            white-space: nowrap;
-          "
         >
           {{ magicSubmitting ? '…' : 'Einloggen' }}
         </button>
@@ -314,19 +304,9 @@ function signOut() {
         />
         <button
           type="button"
+          class="login-panel__btn"
           :disabled="magicSubmitting"
           @click="submitMagicLink"
-          style="
-            padding: 9px 14px;
-            border: none;
-            border-radius: 10px;
-            background: #ab4dbb;
-            color: #fff;
-            font-weight: 700;
-            font-size: 13px;
-            cursor: pointer;
-            white-space: nowrap;
-          "
         >
           {{ magicSubmitting ? '…' : 'Einloggen' }}
         </button>
