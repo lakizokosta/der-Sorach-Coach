@@ -14,6 +14,7 @@ import {
 import { useXp } from '@/composables/useXp.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { usePremium } from '@/composables/usePremium.js';
+import { useCefrLevel } from '@/composables/useCefrLevel.js';
 
 const emit = defineEmits(['close']);
 
@@ -22,6 +23,7 @@ const { missions, tiers } = useDailyBonus();
 const { state: xp, level } = useXp();
 const { state: streak } = useStreak();
 const { isPremium } = usePremium();
+const { level: cefrLevel, state: cefrState } = useCefrLevel();
 
 const visibleMissions = computed(() =>
   missions.value.filter((m) => !m.premium || isPremium.value),
@@ -65,6 +67,22 @@ function missionPct(m) {
               ? 'Streak für heute ist gesichert. Jede beantwortete Frage zählt — richtig oder falsch.'
               : `Noch ${goal - todayCount} Frage${goal - todayCount === 1 ? '' : 'n'} bis zum Tagesziel. Danach wird dein Streak gezählt.`
           }}
+        </p>
+      </section>
+
+      <section class="daily-goal-modal__section">
+        <h3 class="daily-goal-modal__label">Dein Niveau (Premium)</h3>
+        <p v-if="cefrLevel" class="daily-goal-modal__text">
+          Niveau-Test: <strong>{{ cefrLevel }}</strong>
+          <span v-if="cefrState.testedAt"> · getestet am {{ cefrState.testedAt }}</span>.
+          Bonus-Aufgaben werden an dieses Niveau angepasst.
+        </p>
+        <p v-else-if="isPremium" class="daily-goal-modal__text">
+          Noch kein Niveau-Test. Starte den Test auf der Startseite — dann werden
+          deine Tagesaufgaben personalisiert.
+        </p>
+        <p v-else class="daily-goal-modal__text">
+          Der Niveau-Test (A1–B2) ist ein Premium-Feature für personalisierte Aufgaben.
         </p>
       </section>
 

@@ -11,6 +11,7 @@
  *   /trainer?level=A1
  *   /trainer?level=B2&topic=PASSIVB2&mode=premium
  *   /trainer?mode=schwaechen
+ *   /trainer?mode=placement          (Premium Niveau-Test A1–B2)
  */
 
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch } from 'vue';
@@ -44,6 +45,13 @@ import { useTimer, formatMmSs } from '@/composables/useTimer.js';
 import { getQuestionsByLevel, getQuestionsByTopic } from '@/data/questions.js';
 import { PREMIUM_TOPICS } from '@/data/premiumTopics.js';
 import { AdaptiveQueue } from '@/utils/queue.js';
+import {
+  buildPlacementQuestions,
+  evaluatePlacementLevel,
+  placementBreakdown,
+  PLACEMENT_LEVELS,
+} from '@/utils/placementTest.js';
+import { setCefrLevel } from '@/composables/useCefrLevel.js';
 
 const route = useRoute();
 const router = useRouter();
@@ -57,7 +65,8 @@ let freeTimerBaseline = null;
 const level = ref(route.query.level || 'A1');
 const topic = ref(route.query.topic || '');
 const schwaechenMode = route.query.mode === 'schwaechen';
-const forcedPremium = route.query.mode === 'premium' || schwaechenMode;
+const placementMode = route.query.mode === 'placement';
+const forcedPremium = route.query.mode === 'premium' || schwaechenMode || placementMode;
 const isPrem = computed(() => forcedPremium || isPremium.value);
 const schwaechenTopics = ref([]);
 
@@ -79,6 +88,9 @@ const wrongTopics = ref({});              // key -> { name, level, count }
 const upsellHtml = ref('');
 const lastAnswerResolved = ref(false);    // is the head question fully resolved?
 const sessionStreak = ref(0);             // consecutive correct answers this session
+/** @type {import('vue').Ref<Record<string, { correct: number, total: number }>>} */
+const placementScores = ref({});
+const placementDetectedLevel = ref('');
 
 /** Short-lived toast after each answer (+XP, level-up, mastery). */
 const microFeedback = ref({ visible: false, lines: [], tone: 'good' });
@@ -220,14 +232,19 @@ function collectBonusLines(wasCorrect) {
 
 /** Loads the queue, restores any free-session timer, kicks things off. */
 onMounted(() => {
-  if (schwaechenMode && !isPremium.value) {
+  if ((schwaechenMode || placementMode) && !isPremium.value) {
     router.replace({ name: 'premium' });
     return;
   }
 
   let all;
 
-  if (schwaechenMode) {
+  if (placementMode) {
+    all = buildPlacementQuestions();
+    placementScores.value = Object.fromEntries(
+      PLACEMENT_LEVELS.map((lvl) => [lvl, { correct: 0, total: 0 }]),
+    );
+  } else if (schwaechenMode) {
     schwaechenTopics.value = getWeakestTopics(
       xpState.topicWrong,
       xpState.topicCorrect,
@@ -240,7 +257,7 @@ onMounted(() => {
     all = getQuestionsByLevel(level.value);
   }
 
-  queue.value = new AdaptiveQueue(all);
+  queue.value = new AdaptiveQueue(all, { shuffle: !placementMode });
   if (!queue.value.hasNext()) {
     finished.value = true;
     return;
@@ -306,17 +323,30 @@ function ensureTimerStarted() {
  *
  * @param {{isCorrect:boolean}} payload
  */
+function trackPlacementAnswer(isCorrect) {
+  const lvl = currentQuestion.value?.level;
+  if (!lvl || !placementScores.value[lvl]) return;
+  placementScores.value[lvl].total += 1;
+  if (isCorrect) placementScores.value[lvl].correct += 1;
+}
+
 function onAnswer(payload) {
   ensureTimerStarted();
   const isCorrect = payload.isCorrect && !showRetry.value;
 
   if (!showRetry.value) {
     answered.value += 1;
-    recordQuestionAnswered();
+    if (placementMode) {
+      trackPlacementAnswer(isCorrect);
+    } else {
+      recordQuestionAnswered();
+    }
     if (isCorrect) {
       correct.value += 1;
-      applyAnswerXp(true, collectBonusLines(true));
-    } else {
+      if (!placementMode) {
+        applyAnswerXp(true, collectBonusLines(true));
+      }
+    } else if (!placementMode) {
       collectBonusLines(false);
       applyAnswerXp(false);
       recordWrongTopic();
@@ -326,7 +356,7 @@ function onAnswer(payload) {
   }
 
   if (queue.value) {
-    if (isCorrect) queue.value.consumeCorrect();
+    if (isCorrect || placementMode) queue.value.consumeCorrect();
     else queue.value.consumeWrong();
   }
   lastAnswerResolved.value = true;
@@ -342,13 +372,19 @@ function onFirstWrong() {
   ensureTimerStarted();
   if (!showRetry.value) {
     answered.value += 1;
-    recordQuestionAnswered();
-    collectBonusLines(false);
-    applyAnswerXp(false);
-    recordWrongTopic();
+    if (placementMode) {
+      trackPlacementAnswer(false);
+    } else {
+      recordQuestionAnswered();
+      collectBonusLines(false);
+      applyAnswerXp(false);
+      recordWrongTopic();
+    }
     showRetry.value = true;
-    showGrammarTip.value = isPrem.value;
-    if (!isPrem.value) refreshUpsell();
+    if (!placementMode) {
+      showGrammarTip.value = isPrem.value;
+      if (!isPrem.value) refreshUpsell();
+    }
   }
 }
 
@@ -399,6 +435,16 @@ function refreshUpsell() {
 }
 
 /** Advances to the next question (or finishes if the queue is empty). */
+function finalizePlacementResult() {
+  const detected = evaluatePlacementLevel(placementScores.value);
+  placementDetectedLevel.value = detected;
+  setCefrLevel(detected, {
+    scores: { ...placementScores.value },
+    totalCorrect: correct.value,
+    totalAnswered: answered.value,
+  });
+}
+
 function next() {
   showRetry.value = false;
   showGrammarTip.value = false;
@@ -406,8 +452,19 @@ function next() {
   lastAnswerResolved.value = false;
   queueVersion.value += 1;
   if (!queue.value || !queue.value.hasNext()) {
+    if (placementMode) finalizePlacementResult();
     finish('Fragen zu Ende');
   }
+}
+
+function startPlacement() {
+  router.push({ name: 'trainer', query: { mode: 'placement' } });
+}
+
+function trainAtDetectedLevel() {
+  const lvl = placementDetectedLevel.value;
+  if (!lvl) return;
+  router.push({ name: 'trainer', query: { level: lvl, mode: 'premium' } });
 }
 
 /**
@@ -426,7 +483,7 @@ function finish(_reason) {
  * Re-routes after the session ends (back to landing or premium menu).
  */
 function exitSession() {
-  if (schwaechenMode) router.push({ name: 'landing' });
+  if (placementMode || schwaechenMode) router.push({ name: 'landing' });
   else if (isPrem.value) router.push({ name: 'premium' });
   else router.push({ name: 'landing' });
 }
@@ -470,6 +527,12 @@ const wrongTopicList = computed(() =>
   Object.entries(wrongTopics.value)
     .map(([k, v]) => ({ key: k, ...v }))
     .sort((a, b) => b.count - a.count),
+);
+
+const placementBreakdownRows = computed(() =>
+  placementMode && placementDetectedLevel.value
+    ? placementBreakdown(placementScores.value)
+    : [],
 );
 
 /**
@@ -581,12 +644,36 @@ watch(lastAnswerResolved, (resolved) => {
         "
       >
         <div style="font-size: 48px; margin-bottom: 8px;">
-          {{ scorePct >= 80 ? '🏆' : scorePct >= 60 ? '💪' : '📚' }}
+          {{ placementDetectedLevel ? '📊' : scorePct >= 80 ? '🏆' : scorePct >= 60 ? '💪' : '📚' }}
         </div>
         <div style="font-size: 22px; font-weight: 900;">
-          {{ scorePct >= 80 ? 'Ausgezeichnet!' : scorePct >= 60 ? 'Gut gemacht!' : 'Weiter üben!' }}
+          {{
+            placementDetectedLevel
+              ? `Dein Niveau: ${placementDetectedLevel}`
+              : scorePct >= 80 ? 'Ausgezeichnet!' : scorePct >= 60 ? 'Gut gemacht!' : 'Weiter üben!'
+          }}
         </div>
-        <div style="font-size: 14px; color: #888; margin: 8px 0 20px;">Session beendet</div>
+        <div style="font-size: 14px; color: #888; margin: 8px 0 20px;">
+          {{ placementDetectedLevel ? 'Niveau-Test abgeschlossen' : 'Session beendet' }}
+        </div>
+
+        <div
+          v-if="placementDetectedLevel"
+          style="text-align: left; margin-bottom: 16px; font-size: 13px; color: #555;"
+        >
+          <p style="margin: 0 0 10px 0; line-height: 1.5;">
+            Bonus-Aufgaben und Trainingsempfehlungen werden ab jetzt an
+            <strong>{{ placementDetectedLevel }}</strong> angepasst.
+          </p>
+          <div
+            v-for="row in placementBreakdownRows"
+            :key="row.level"
+            style="display: flex; justify-content: space-between; padding: 4px 0;"
+          >
+            <span>{{ row.level }}</span>
+            <span>{{ row.correct }}/{{ row.total }} ({{ row.pct }}%)</span>
+          </div>
+        </div>
 
         <div style="display: flex; justify-content: space-around; gap: 10px;">
           <div>
@@ -666,6 +753,7 @@ watch(lastAnswerResolved, (resolved) => {
         </div>
 
         <button
+          v-if="placementDetectedLevel"
           class="soft-btn"
           type="button"
           style="
@@ -675,14 +763,45 @@ watch(lastAnswerResolved, (resolved) => {
             width: 100%;
             margin-top: 10px;
           "
+          @click="trainAtDetectedLevel"
+        >
+          ▶ {{ placementDetectedLevel }} trainieren
+        </button>
+
+        <button
+          class="soft-btn"
+          type="button"
+          :style="{
+            background: placementDetectedLevel ? '#f5f5f5' : '#AB4DBB',
+            color: placementDetectedLevel ? '#333' : '#fff',
+            border: placementDetectedLevel ? '1.5px solid #ddd' : 'none',
+            width: '100%',
+            marginTop: '10px',
+          }"
           @click="exitSession"
         >
           ← Zurück
         </button>
+
+        <button
+          v-if="isPrem && !placementDetectedLevel"
+          class="soft-btn"
+          type="button"
+          style="
+            background: #e3f2fd;
+            color: #1565c0;
+            border: 1.5px solid #90caf9;
+            width: 100%;
+            margin-top: 10px;
+          "
+          @click="startPlacement"
+        >
+          📊 Niveau testen (Premium)
+        </button>
       </div>
 
       <div
-        v-if="wrongTopicList.length > 0"
+        v-if="wrongTopicList.length > 0 && !placementDetectedLevel"
         style="
           background: #fff;
           border-radius: 20px;
@@ -745,7 +864,12 @@ watch(lastAnswerResolved, (resolved) => {
     <LzdLogo small />
 
     <div class="small-note">
-      <template v-if="schwaechenMode">
+      <template v-if="placementMode">
+        📊 Niveau-Test
+        <span v-if="currentQuestion"> — Block {{ currentQuestion.level }}</span>
+        <span class="placement-hint"> · zählt nicht zum Tagesziel</span>
+      </template>
+      <template v-else-if="schwaechenMode">
         🎯 Schwächen-Modus
         <span v-if="schwaechenTopics.length">
           — {{ schwaechenTopics.map((t) => t.name).join(' · ') }}

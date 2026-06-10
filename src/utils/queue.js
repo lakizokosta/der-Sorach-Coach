@@ -30,10 +30,12 @@ export class AdaptiveQueue {
   /**
    * @param {!Array<!Object>} questions  Unique questions; the caller
    *   must filter / dedupe before constructing.
+   * @param {{ shuffle?: boolean }} [options]
    */
-  constructor(questions) {
+  constructor(questions, options = {}) {
     const initial = Array.isArray(questions) ? questions.slice() : [];
-    this._queue = shuffle(initial);
+    const doShuffle = options.shuffle !== false;
+    this._queue = doShuffle ? shuffle(initial) : initial.slice();
     this._original = initial.slice();
     this._attempts = new Map();
     this._solved = new Set();

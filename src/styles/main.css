@@ -1206,6 +1206,133 @@ button.lesen-gap-marker {
 }
 
 /* ── Landing: Schwächen-Modus card ───────────────────────────────────────── */
+.niveau-card {
+  background: #fff;
+  border: 1.5px solid #90caf9;
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: 0 2px 12px rgba(33, 150, 243, 0.1);
+}
+.niveau-card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.niveau-card__title {
+  font-size: 14px;
+  font-weight: 900;
+  color: #1565c0;
+}
+.niveau-card__badge {
+  font-size: 11px;
+  font-weight: 800;
+  color: #1565c0;
+  background: #e3f2fd;
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+.niveau-card__hint {
+  margin: 0 0 12px 0;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.45;
+  text-align: center;
+}
+.niveau-card__date {
+  color: #999;
+  font-weight: 600;
+}
+.niveau-card__cta {
+  display: block;
+  width: 100%;
+  padding: 11px 14px;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+  background: linear-gradient(135deg, #42a5f5, #1e88e5);
+  color: #fff;
+}
+.niveau-card__cta--upsell {
+  background: linear-gradient(135deg, #ab4dbb, #8e24aa);
+}
+.landing-cta-stack {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.landing-cta-stack__note {
+  font-size: 12px;
+  color: #999;
+}
+.niveau-test-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #1e88e5;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #42a5f5, #1e88e5);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(30, 136, 229, 0.25);
+  transition: opacity 0.15s, transform 0.12s, box-shadow 0.15s;
+}
+.niveau-test-btn:hover:not(.niveau-test-btn--inactive) {
+  box-shadow: 0 4px 16px rgba(30, 136, 229, 0.35);
+}
+.niveau-test-btn:active:not(.niveau-test-btn--inactive) {
+  transform: scale(0.99);
+}
+.niveau-test-btn--inactive {
+  background: #eceff1;
+  border-color: #cfd8dc;
+  color: #90a4ae;
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.92;
+}
+.niveau-test-btn__label {
+  line-height: 1.2;
+  text-align: center;
+}
+.niveau-test-btn__badge {
+  font-size: 11px;
+  font-weight: 800;
+  background: rgba(171, 77, 187, 0.12);
+  color: #7b2d8b;
+  border-radius: 999px;
+  padding: 3px 8px;
+  white-space: nowrap;
+}
+.niveau-test-btn--inactive .niveau-test-btn__badge {
+  background: #e0e0e0;
+  color: #888;
+}
+.niveau-test-btn__hint {
+  margin: -4px 0 4px 0;
+  font-size: 11px;
+  color: #999;
+  text-align: center;
+  line-height: 1.4;
+}
+.placement-hint {
+  color: #999;
+  font-size: 11px;
+}
 .schwaechen-card {
   background: #fff;
   border: 1.5px solid #e0c8f0;

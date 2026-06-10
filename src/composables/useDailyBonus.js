@@ -6,6 +6,7 @@
 import { reactive, computed } from 'vue';
 import { loadJSON, saveJSON } from './useStorage.js';
 import { DAILY_GOAL_QUESTIONS, getDailyGoalSnapshot } from './useDailyGoal.js';
+import { getCefrLevel } from './useCefrLevel.js';
 import { addXP, getXpSnapshot } from './useXp.js';
 import { getWeakestTopics } from '@/utils/weakTopics.js';
 
@@ -76,34 +77,40 @@ function buildMissions(todayCount, weakTopics) {
   ensureToday();
   const seed = daySeed();
   const levels = ['A1', 'A2', 'B1', 'B2'];
-  const level = levels[seed % 4];
+  const profileLevel = getCefrLevel();
+  const level = profileLevel || levels[seed % 4];
   const bonusTarget = DAILY_GOAL_QUESTIONS + 5;
+  const levelMissionId = `level_${level}`;
 
   const missions = [
     {
       id: 'bonus_questions',
       icon: '⚡',
       title: '5 Bonus-Fragen',
-      desc: `Beantworte heute insgesamt ${bonusTarget} Fragen.`,
+      desc: profileLevel
+        ? `Beantworte heute insgesamt ${bonusTarget} Fragen (Fokus: ${profileLevel}).`
+        : `Beantworte heute insgesamt ${bonusTarget} Fragen.`,
       reward: 5,
       target: bonusTarget,
       progress: Math.min(todayCount, bonusTarget),
       done: todayCount >= bonusTarget,
       claimed: state.missionsClaimed.includes('bonus_questions'),
-      cta: { name: 'trainer', query: { level } },
+      cta: { name: 'trainer', query: { level, mode: 'premium' } },
       ctaLabel: 'Weiter trainieren',
     },
     {
-      id: `level_${level}`,
+      id: levelMissionId,
       icon: '📚',
-      title: `${level} üben`,
-      desc: `Löse 3 Fragen auf Niveau ${level}.`,
+      title: profileLevel ? `Dein Niveau: ${profileLevel}` : `${level} üben`,
+      desc: profileLevel
+        ? `Löse 3 Fragen auf Niveau ${profileLevel} (personalisiert).`
+        : `Löse 3 Fragen auf Niveau ${level}.`,
       reward: 4,
       target: 3,
       progress: Math.min(state.levelCounts[level] || 0, 3),
       done: (state.levelCounts[level] || 0) >= 3,
-      claimed: state.missionsClaimed.includes(`level_${level}`),
-      cta: { name: 'trainer', query: { level } },
+      claimed: state.missionsClaimed.includes(levelMissionId),
+      cta: { name: 'trainer', query: { level, mode: 'premium' } },
       ctaLabel: `${level} starten`,
     },
     {
@@ -116,7 +123,7 @@ function buildMissions(todayCount, weakTopics) {
       progress: Math.min(state.bestStreak, 3),
       done: state.bestStreak >= 3,
       claimed: state.missionsClaimed.includes('streak3'),
-      cta: { name: 'trainer', query: { level: 'A1' } },
+      cta: { name: 'trainer', query: { level, mode: 'premium' } },
       ctaLabel: 'Serie starten',
     },
   ];

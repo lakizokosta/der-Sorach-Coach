@@ -20,12 +20,14 @@ import LegalFooter from '@/components/LegalFooter.vue';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
 import { usePremium } from '@/composables/usePremium.js';
+import { useCefrLevel } from '@/composables/useCefrLevel.js';
 
 const router = useRouter();
 
 const { state: streak } = useStreak();
 const { state: xp, level } = useXp();
 const { isPremium, isBasis } = usePremium();
+const { level: cefrLevel } = useCefrLevel();
 
 const summaryText = computed(() => {
   const parts = [];
@@ -67,6 +69,11 @@ function openProfile() {
  */
 function payBasis() {
   router.push({ name: 'premium', query: { focus: 'basis' } });
+}
+
+function onNiveauTestClick() {
+  if (!isPremium.value) return;
+  router.push({ name: 'trainer', query: { mode: 'placement' } });
 }
 </script>
 
@@ -258,15 +265,28 @@ function payBasis() {
       </div>
     </section>
 
-    <div
-      style="
-        margin-top: 12px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-      "
-    >
+    <div class="landing-cta-stack">
+      <button
+        type="button"
+        class="niveau-test-btn"
+        :class="{ 'niveau-test-btn--inactive': !isPremium }"
+        :aria-disabled="!isPremium"
+        @click="onNiveauTestClick"
+      >
+        <span class="niveau-test-btn__label">
+          📊
+          {{
+            cefrLevel
+              ? `Niveau ${cefrLevel} — erneut testen`
+              : 'Niveau testen (A1–B2)'
+          }}
+        </span>
+        <span v-if="!isPremium" class="niveau-test-btn__badge">💎 Premium</span>
+      </button>
+      <p v-if="!isPremium" class="niveau-test-btn__hint">
+        Personalisierte Tagesaufgaben — mit Premium freischalten.
+      </p>
+
       <button
         type="button"
         class="level-card"
@@ -300,7 +320,7 @@ function payBasis() {
       >
         ⏱️ Zeitlimit aufheben – 4,99€
       </button>
-      <div v-if="!isPremium && !isBasis" style="font-size: 12px; color: #999;">
+      <div v-if="!isPremium && !isBasis" class="landing-cta-stack__note">
         Einmalzahlung · Kein Abo · Sofort aktiv
       </div>
     </div>
