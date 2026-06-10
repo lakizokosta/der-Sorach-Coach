@@ -15,7 +15,7 @@ export const TEIL1 = [
       { options: ['ob', 'wann', 'denn'], correct: 'ob' },
       { options: ['sofort', 'später', 'gestern'], correct: 'sofort' },
       { options: ['wenn', 'weil', 'obwohl'], correct: 'wenn' },
-      { options: ['über', 'unter', 'ohne'], correct: 'über' },
+      { options: ['für', 'über', 'ohne'], correct: 'für' },
       { options: ['gerne', 'nie', 'selten'], correct: 'gerne' },
     ],
   },
@@ -43,18 +43,18 @@ export const TEIL1 = [
   },
   {
     hint: 'Teil 1: Terminanfrage beim Bürgeramt',
-    text: 'Sehr geehrte Damen und Herren,\nich möchte einen Termin zur Anmeldung meines Wohnsitzes vereinbaren. Könnten Sie mir mitteilen, ___ freie Termine in den nächsten zwei Wochen verfügbar sind? Da ich berufstätig bin, wäre ein Termin am Nachmittag für ___ besonders hilfreich. Ich ___ mich über eine kurze Rückmeldung und ___ Sie mich telefonisch, ___ dies einfacher ist.\nMit freundlichen Grüßen\nAhmed Hassan',
+    text: 'Sehr geehrte Damen und Herren,\nich möchte einen Termin zur Anmeldung meines Wohnsitzes vereinbaren. Könnten Sie mir mitteilen, ___ freien Termine in den nächsten zwei Wochen verfügbar sind? Da ich berufstätig bin, wäre ein Termin am Nachmittag für ___ besonders hilfreich. Ich ___ mich über eine kurze Rückmeldung. ___ Sie mich bitte an, ___ dies einfacher ist.\nMit freundlichen Grüßen\nAhmed Hassan',
     gaps: [
       { options: ['welche', 'wann', 'ob'], correct: 'welche' },
       { options: ['mich', 'mir', 'sich'], correct: 'mich' },
       { options: ['freue', 'freuen', 'freut'], correct: 'freue' },
-      { options: ['bitte', 'nie', 'kaum'], correct: 'bitte' },
+      { options: ['Rufen', 'Bitte', 'Fragen'], correct: 'Rufen' },
       { options: ['falls', 'weil', 'obwohl'], correct: 'falls' },
     ],
   },
   {
     hint: 'Teil 1: Reklamation — defektes Gerät',
-    text: 'Sehr geehrte Damen und Herren,\ndas am 5. Mai gelieferte Gerät funktioniert leider nicht ordnungsgemäß, ___ der Bildschirm nach wenigen Minuten ausgeht. Ich bitte Sie, mir ___ Ersatzgerät zuzusenden oder den Kaufpreis zu erstatten. Die Rechnung habe ich ___ E-Mail bereits angehängt, ___ Sie alle Daten haben. Ich ___ auf Ihre schnelle Antwort.\nMit freundlichen Grüßen\nThomas Berger',
+    text: 'Sehr geehrte Damen und Herren,\ndas am 5. Mai gelieferte Gerät funktioniert leider nicht ordnungsgemäß, ___ der Bildschirm nach wenigen Minuten ausgeht. Ich bitte Sie, mir ___ Ersatzgerät zuzusenden oder den Kaufpreis zu erstatten. Die Rechnung habe ich ___ E-Mail bereits mitgeschickt, ___ Sie alle Daten haben. Ich ___ auf Ihre schnelle Antwort.\nMit freundlichen Grüßen\nThomas Berger',
     gaps: [
       { options: ['weil', 'obwohl', 'damit'], correct: 'weil' },
       { options: ['ein', 'eine', 'einen'], correct: 'ein' },
@@ -65,7 +65,7 @@ export const TEIL1 = [
   },
   {
     hint: 'Teil 1: Höfliche Absage auf Bewerbung',
-    text: 'Sehr geehrter Herr Weber,\nvielen Dank für Ihre Bewerbung und das persönliche Gespräch. ___ Ihre Qualifikationen beeindruckt haben, haben wir uns für eine andere Kandidatin entschieden. Wir wünschen Ihnen alles Gute und ___ Sie uns bei einer künftigen Ausschreibung wieder kontaktieren. ___ Sie Fragen haben, melden Sie sich ___ . Wir ___ Ihnen weiterhin viel Erfolg.\nMit freundlichen Grüßen\nDr. Lisa Hartmann',
+    text: 'Sehr geehrter Herr Weber,\nvielen Dank für Ihre Bewerbung und das persönliche Gespräch. ___ Ihre Qualifikationen beeindruckt haben, haben wir uns für eine andere Kandidatin entschieden. Wir wünschen Ihnen alles Gute und ___ , dass Sie uns bei einer künftigen Ausschreibung wieder kontaktieren. ___ Sie Fragen haben, melden Sie sich ___ . Wir ___ Ihnen weiterhin viel Erfolg.\nMit freundlichen Grüßen\nDr. Lisa Hartmann',
     gaps: [
       { options: ['Obwohl', 'Weil', 'Damit'], correct: 'Obwohl' },
       { options: ['hoffen', 'hofft', 'hoffte'], correct: 'hoffen' },
@@ -87,7 +87,7 @@ export const TEIL1 = [
   },
   {
     hint: 'Teil 1: Anfrage Gehaltsbescheinigung',
-    text: 'Sehr geehrte Frau Meier,\nfür meinen Antrag auf Wohnungsmiete benötige ich eine aktuelle Gehaltsbescheinigung. Könnten Sie mir diese ___ Ende der Woche ausstellen? Ich ___ Ihnen die nötigen Unterlagen bereits im Intranet hochgeladen. Vielen Dank ___ Ihre Unterstützung. ___ Sie noch Angaben brauchen, ___ ich mich kurz.\nMit freundlichen Grüßen\nJonas Richter',
+    text: 'Sehr geehrte Frau Meier,\nfür die Anmietung einer Wohnung benötige ich eine aktuelle Gehaltsbescheinigung. Könnten Sie mir diese ___ Ende der Woche ausstellen? Ich ___ Ihnen die nötigen Unterlagen bereits im Intranet hochgeladen. Vielen Dank ___ Ihre Unterstützung. ___ Sie noch Angaben brauchen, ___ ich mich kurz.\nMit freundlichen Grüßen\nJonas Richter',
     gaps: [
       { options: ['bis', 'seit', 'während'], correct: 'bis' },
       { options: ['habe', 'hätte', 'hatte'], correct: 'habe' },
@@ -98,9 +98,9 @@ export const TEIL1 = [
   },
   {
     hint: 'Teil 1: Bestätigung Seminaranmeldung',
-    text: 'Sehr geehrte Teilnehmerin, sehr geehrter Teilnehmer,\nhiermit bestätigen wir Ihre Anmeldung zum Seminar „Digitale Kommunikation“. Der Kurs beginnt am 14. Oktober, ___ Sie sich bitte zehn Minuten vorher einfinden. ___ Sie verhindert sind, teilen Sie uns dies rechtzeitig mit, ___ wir einen Ersatzteilnehmer benennen können. Materialien erhalten Sie ___ Kursbeginn ___ E-Mail.\nMit freundlichen Grüßen\nDas Akademie-Team',
+    text: 'Sehr geehrte Teilnehmerin, sehr geehrter Teilnehmer,\nhiermit bestätigen wir Ihre Anmeldung zum Seminar „Digitale Kommunikation“. Bitte ___ Sie sich am 14. Oktober zehn Minuten vor Beginn ein. ___ Sie verhindert sind, teilen Sie uns dies rechtzeitig mit, ___ wir einen Ersatzteilnehmer benennen können. Materialien erhalten Sie ___ Kursbeginn ___ E-Mail.\nMit freundlichen Grüßen\nDas Akademie-Team',
     gaps: [
-      { options: ['wo', 'wann', 'wie'], correct: 'wo' },
+      { options: ['finden', 'kommen', 'gehen'], correct: 'finden' },
       { options: ['Sollten', 'Würden', 'Könnten'], correct: 'Sollten' },
       { options: ['damit', 'weil', 'obwohl'], correct: 'damit' },
       { options: ['vor', 'nach', 'während'], correct: 'vor' },
@@ -109,13 +109,13 @@ export const TEIL1 = [
   },
   {
     hint: 'Teil 1: Rückfrage Stellenangebot',
-    text: 'Sehr geehrte Frau Schneider,\nIhr Stellenangebot interessiert mich sehr. Bevor ich mich bewerbe, möchte ich wissen, ___ die Stelle ab Oktober zu besetzen ist und ___ Homeoffice möglich ist. Über eine kurze Information ___ ich mich sehr. ___ Sie mir zusätzliche Unterlagen schicken können, ___ ich mich noch diese Woche melde.\nMit freundlichen Grüßen\nElena Popov',
+    text: 'Sehr geehrte Frau Schneider,\nIhr Stellenangebot interessiert mich sehr. Bevor ich mich bewerbe, möchte ich wissen, ___ die Stelle ab Oktober zu besetzen ist und ___ Homeoffice möglich ist. Über eine kurze Information ___ ich mich sehr. ___ Sie mir zusätzliche Unterlagen schicken können, ___ ich mich noch diese Woche.\nMit freundlichen Grüßen\nElena Popov',
     gaps: [
       { options: ['ob', 'wann', 'weil'], correct: 'ob' },
       { options: ['ob', 'wenn', 'dass'], correct: 'ob' },
-      { options: ['würde', 'freue', 'freuen'], correct: 'würde' },
+      { options: ['freue', 'freuen', 'freut'], correct: 'freue' },
       { options: ['Sollten', 'Würden', 'Hätten'], correct: 'Sollten' },
-      { options: ['würde', 'werde', 'wäre'], correct: 'würde' },
+      { options: ['melde', 'melden', 'meldet'], correct: 'melde' },
     ],
   },
   {
@@ -131,7 +131,7 @@ export const TEIL1 = [
   },
   {
     hint: 'Teil 1: Antwort Versicherung',
-    text: 'Sehr geehrter Herr Fischer,\nIhr Schadensfall wurde von uns geprüft. ___ alle Unterlagen vollständig sind, überweisen wir den Betrag innerhalb von zehn Tagen. ___ Sie weitere Belege erhalten, senden Sie diese bitte umgehend. Wir ___ Ihnen für Ihr Verständnis und bleiben ___ weitere Fragen erreichbar. Antworten erfolgen in der Regel ___ zwei Werktagen.\nMit freundlichen Grüßen\nSabine Krüger',
+    text: 'Sehr geehrter Herr Fischer,\nIhr Schadensfall wurde von uns geprüft. ___ alle Unterlagen vollständig sind, überweisen wir den Betrag innerhalb von zehn Tagen. ___ Sie weitere Belege erhalten, senden Sie diese bitte umgehend. Wir ___ Ihnen für Ihr Verständnis und bleiben ___ weitere Fragen erreichbar. Antworten erfolgen in der Regel ___ von zwei Werktagen.\nMit freundlichen Grüßen\nSabine Krüger',
     gaps: [
       { options: ['Sobald', 'Während', 'Bevor'], correct: 'Sobald' },
       { options: ['Sollten', 'Wären', 'Hätten'], correct: 'Sollten' },
@@ -164,7 +164,7 @@ export const TEIL1 = [
   },
   {
     hint: 'Teil 1: Dank nach Vorstellungsgespräch',
-    text: 'Sehr geehrte Frau Dr. Braun,\nherzlichen Dank für das informative Gespräch gestern. Meine Erfahrung passt gut zum Team, ___ ich mich sehr über eine positive Rückmeldung freuen. ___ Sie weitere Fragen haben, stehe ich gerne zur Verfügung. Referenzen sende ich ___ auf Wunsch ___ . Ich ___ mich auf Ihre Antwort.\nMit freundlichen Grüßen\nPaul Schmitt',
+    text: 'Sehr geehrte Frau Dr. Braun,\nherzlichen Dank für das informative Gespräch gestern. Meine Erfahrung passt gut zum Team, und ich ___ mich sehr über eine positive Rückmeldung freuen. ___ Sie weitere Fragen haben, stehe ich gerne zur Verfügung. Referenzen sende ich ___ auf Wunsch ___ . Ich ___ mich auf Ihre Antwort.\nMit freundlichen Grüßen\nPaul Schmitt',
     gaps: [
       { options: ['würde', 'werde', 'wäre'], correct: 'würde' },
       { options: ['Sollten', 'Würden', 'Hätten'], correct: 'Sollten' },
@@ -197,7 +197,7 @@ export const TEIL1 = [
   },
   {
     hint: 'Teil 1: Anfrage Elternzeit',
-    text: 'Sehr geehrte Frau Hoffmann,\nich plane, ab Januar nächsten Jahres Elternzeit zu nehmen. Könnten Sie mir mitteilen, ___ ich die Unterlagen einreichen muss und ___ meine Vertretung geregelt werden soll? Ich ___ mich auf Ihre Rückmeldung und ___ Sie mir die Fristen schriftlich bestätigen, ___ alles rechtzeitig geklärt ist.\nMit freundlichen Grüßen\nDaniel Krause',
+    text: 'Sehr geehrte Frau Hoffmann,\nich plane, ab Januar nächsten Jahres Elternzeit zu nehmen. Könnten Sie mir mitteilen, ___ ich die Unterlagen einreichen muss und ___ meine Vertretung geregelt werden soll? Ich ___ mich auf Ihre Rückmeldung und ___ Sie, mir die Fristen schriftlich zu bestätigen, ___ alles rechtzeitig geklärt ist.\nMit freundlichen Grüßen\nDaniel Krause',
     gaps: [
       { options: ['wann', 'ob', 'weil'], correct: 'wann' },
       { options: ['wie', 'was', 'wo'], correct: 'wie' },
@@ -211,19 +211,19 @@ export const TEIL1 = [
     text: 'Sehr geehrte Damen und Herren,\nich warte seit acht Wochen auf die Bearbeitung meines Antrags, ___ ich alle Formulare eingereicht habe. Trotz Nachfrage erhielt ich ___ Auskunft. Ich bitte um eine schriftliche Stellungnahme, ___ ich meine Rechte wahrnehmen kann. Eine Antwort ___ Ende des Monats wäre ___ .\nMit freundlichen Grüßen\nFatima Al-Rashid',
     gaps: [
       { options: ['obwohl', 'weil', 'wenn'], correct: 'obwohl' },
-      { options: ['damit', 'weil', 'obwohl'], correct: 'damit' },
       { options: ['keine', 'keinen', 'keiner'], correct: 'keine' },
+      { options: ['damit', 'weil', 'obwohl'], correct: 'damit' },
       { options: ['bis', 'seit', 'während'], correct: 'bis' },
       { options: ['dringend', 'unwichtig', 'selten'], correct: 'dringend' },
     ],
   },
   {
     hint: 'Teil 1: Kündigung Mietvertrag',
-    text: 'Sehr geehrte Frau Wagner,\nhiermit kündige ich meinen Mietvertrag zum nächstmöglichen Termin. Die Wohnung werde ich sauber ___ übergeben, ___ ich bereits eine Nachmieterin gefunden habe. Bitte bestätigen Sie ___ Erhalt schriftlich, ___ Unklarheiten vermieden werden. Für Rückfragen bin ich ___ erreichbar.\nMit freundlichen Grüßen\nStefan Wolf',
+    text: 'Sehr geehrte Frau Wagner,\nhiermit kündige ich meinen Mietvertrag zum nächstmöglichen Termin. Die Wohnung werde ich sauber ___ übergeben, ___ ich bereits eine Nachmieterin gefunden habe. Bitte bestätigen Sie mir den ___ schriftlich, ___ Unklarheiten vermieden werden. Für Rückfragen bin ich ___ erreichbar.\nMit freundlichen Grüßen\nStefan Wolf',
     gaps: [
       { options: ['zurück', 'weg', 'hin'], correct: 'zurück' },
       { options: ['sobald', 'während', 'bevor'], correct: 'sobald' },
-      { options: ['den', 'dem', 'der'], correct: 'den' },
+      { options: ['Eingang', 'Ausgang', 'Umgang'], correct: 'Eingang' },
       { options: ['damit', 'weil', 'obwohl'], correct: 'damit' },
       { options: ['jederzeit', 'niemals', 'selten'], correct: 'jederzeit' },
     ],
@@ -240,12 +240,12 @@ export const TEIL2 = [
       { options: ['der gesetzlichen Mehrwertsteuer', 'der gewährten Rabatte', 'möglicher Nachlässe'], correct: 'der gesetzlichen Mehrwertsteuer' },
       { options: ['eine schnelle Lieferung', 'eine pünktliche Bezahlung', 'eine sorgfältige Bestellung'], correct: 'eine schnelle Lieferung' },
       { options: ['alle Kosten der Rücksendung', 'die passenden Ersatzmodelle', 'die angefallenen Preise'], correct: 'alle Kosten der Rücksendung' },
-      { options: ['Erteilung eines Auftrags', 'Erledigung ihrer Nachfrage', 'Abwicklung unserer Bedingungen'], correct: 'Erteilung eines Auftrags' },
+      { options: ['Erteilung eines Auftrags', 'Erledigung Ihrer Nachfrage', 'Abwicklung unserer Geschäftsbedingungen'], correct: 'Erteilung eines Auftrags' },
     ],
   },
   {
     hint: 'Teil 2: Antwort auf Reklamation',
-    text: 'Sehr geehrter Herr Berger,\nwir haben Ihre Reklamation geprüft und bestätigen den Mangel. Wir senden Ihnen umgehend ___ zu. Alternativ erstatten wir Ihnen ___ auf Ihr Konto. Für Rückfragen stehen wir Ihnen jederzeit ___ . Wir bitten um ___ für die entstandenen Unannehmlichkeiten und ___ eine kurze Bestätigung.\nMit freundlichen Grüßen\nKundenservice TechPro',
+    text: 'Sehr geehrter Herr Berger,\nwir haben Ihre Reklamation geprüft und bestätigen den Mangel. Wir senden Ihnen umgehend ___ zu. Alternativ erstatten wir Ihnen ___ auf Ihr Konto. Für Rückfragen stehen wir Ihnen jederzeit ___ . Wir bitten um ___ für die entstandenen Unannehmlichkeiten und um ___ .\nMit freundlichen Grüßen\nKundenservice TechPro',
     gaps: [
       { options: ['ein Ersatzgerät', 'eine Gutschrift', 'eine Mahnung'], correct: 'ein Ersatzgerät' },
       { options: ['den vollen Betrag', 'die Versandkosten', 'die Bearbeitungsgebühr'], correct: 'den vollen Betrag' },
@@ -289,7 +289,7 @@ export const TEIL2 = [
   },
   {
     hint: 'Teil 2: Mietvertrag Verlängerung',
-    text: 'Sehr geehrter Herr Wolf,\nihr Mietvertrag läuft am 31. Dezember aus. Wir würden uns freuen, wenn Sie die Wohnung ___ verlängern. Die monatliche Miete beträgt ab Januar ___ Euro. Nebenkosten werden wie bisher ___ abgerechnet. Bitte teilen Sie uns Ihre Entscheidung bis zum 15. November ___ . Den neuen Vertrag senden wir Ihnen ___ .\nMit freundlichen Grüßen\nHausverwaltung Berger',
+    text: 'Sehr geehrter Herr Wolf,\nIhr Mietvertrag läuft am 31. Dezember aus. Wir würden uns freuen, wenn Sie die Wohnung ___ verlängern. Die monatliche Miete beträgt ab Januar ___ Euro. Nebenkosten werden wie bisher ___ abgerechnet. Bitte teilen Sie uns Ihre Entscheidung bis zum 15. November ___ . Den neuen Vertrag senden wir Ihnen ___ .\nMit freundlichen Grüßen\nHausverwaltung Berger',
     gaps: [
       { options: ['weiterhin', 'sofort', 'rückwirkend'], correct: 'weiterhin' },
       { options: ['850', '85', '8500'], correct: '850' },
@@ -333,18 +333,18 @@ export const TEIL2 = [
   },
   {
     hint: 'Teil 2: Kooperationsanfrage',
-    text: 'Sehr geehrte Frau Dr. Hartmann,\nunser Unternehmen plant eine ___ mit Forschungseinrichtungen. Wir schlagen ein gemeinsames ___ zur nachhaltigen Energieversorgung vor. Über Details würden wir uns in einem ___ ___ . Eine erste Skizze finden Sie ___ .\nMit freundlichen Grüßen\nGreenTech Solutions',
+    text: 'Sehr geehrte Frau Dr. Hartmann,\nunser Unternehmen plant eine ___ mit Forschungseinrichtungen. Wir schlagen ein gemeinsames ___ zur nachhaltigen Energieversorgung vor. Gern besprechen wir die Details in einem persönlichen ___ . Für einen Termin ___ wir uns bei Ihnen. Eine erste Skizze finden Sie ___ .\nMit freundlichen Grüßen\nGreenTech Solutions',
     gaps: [
       { options: ['Kooperation', 'Trennung', 'Strafe'], correct: 'Kooperation' },
       { options: ['Projekt', 'Streik', 'Feiertag'], correct: 'Projekt' },
       { options: ['Gespräch', 'Mahnung', 'Rechnung'], correct: 'Gespräch' },
-      { options: ['freuen', 'beschweren', 'kündigen'], correct: 'freuen' },
+      { options: ['melden', 'beschweren', 'kündigen'], correct: 'melden' },
       { options: ['im Anhang', 'im Keller', 'im Urlaub'], correct: 'im Anhang' },
     ],
   },
   {
     hint: 'Teil 2: Zusage Rückerstattung',
-    text: 'Sehr geehrte Frau Vogel,\nwir bestätigen den Eingang Ihrer ___ . Nach Prüfung erstatten wir Ihnen ___ von 89 Euro. Die Überweisung erfolgt innerhalb von zehn Werktagen auf Ihr ___ . Wir entschuldigen uns und hoffen auf ___ sowie weiteres ___ .\nMit freundlichen Grüßen\nModeOnline',
+    text: 'Sehr geehrte Frau Vogel,\nwir bestätigen den Eingang Ihrer ___ . Nach Prüfung erstatten wir Ihnen ___ von 89 Euro. Die Überweisung erfolgt innerhalb von zehn Werktagen auf Ihr ___ . Wir entschuldigen uns und hoffen auf ___ und auf Ihr weiteres ___ .\nMit freundlichen Grüßen\nModeOnline',
     gaps: [
       { options: ['Rücksendung', 'Werbung', 'Anzeige'], correct: 'Rücksendung' },
       { options: ['den Betrag', 'die Strafe', 'die Mahnung'], correct: 'den Betrag' },
@@ -366,7 +366,7 @@ export const TEIL2 = [
   },
   {
     hint: 'Teil 2: Preisanpassung',
-    text: 'Sehr geehrte Kundin, sehr geehrter Kunde,\naufgrund gestiegener Materialkosten passen wir unsere ___ ab 1. Januar an. Die Erhöhung beträgt fünf Prozent. Bestehende ___ bleiben bis zum Ablauf ___ gültig. Ausführliche Informationen zur ___ erhalten Sie ___ unserer Website.\nMit freundlichen Grüßen\nEnergie Süd GmbH',
+    text: 'Sehr geehrte Kundin, sehr geehrter Kunde,\naufgrund gestiegener Materialkosten passen wir unsere ___ ab 1. Januar an. Die Erhöhung beträgt fünf Prozent. Bestehende ___ bleiben bis zum Vertragsablauf ___ gültig. Ausführliche Informationen zur ___ erhalten Sie ___ unserer Website.\nMit freundlichen Grüßen\nEnergie Süd GmbH',
     gaps: [
       { options: ['Preise', 'Strafen', 'Geschenke'], correct: 'Preise' },
       { options: ['Verträge', 'Strafen', 'Geschenke'], correct: 'Verträge' },
@@ -401,11 +401,11 @@ export const TEIL2 = [
     hint: 'Teil 2: Zahlungserinnerung',
     text: 'Sehr geehrte Damen und Herren,\nzu unserer ___ Nr. 7721 liegt noch keine ___ vor. Wir bitten Sie, den offenen ___ von 420 Euro bis zum 30. September zu begleichen. Andernfalls behalten wir uns ___ vor. Bei bereits erfolgter Überweisung betrachten Sie dieses Schreiben als ___ .\nMit freundlichen Grüßen\nFinanzbuchhaltung',
     gaps: [
+      { options: ['Rechnung', 'Werbung', 'Pause'], correct: 'Rechnung' },
+      { options: ['Zahlung', 'Strafe', 'Einladung'], correct: 'Zahlung' },
+      { options: ['Betrag', 'Urlaub', 'Streik'], correct: 'Betrag' },
       { options: ['rechtliche Schritte', 'ein Geschenk', 'eine Einladung'], correct: 'rechtliche Schritte' },
       { options: ['gegenstandslos', 'verbindlich', 'strafbar'], correct: 'gegenstandslos' },
-      { options: ['die Zahlung', 'die Strafe', 'die Party'], correct: 'die Zahlung' },
-      { options: ['die Rechnung', 'die Werbung', 'die Pause'], correct: 'die Rechnung' },
-      { options: ['den Betrag', 'den Urlaub', 'den Streik'], correct: 'den Betrag' },
     ],
   },
   {

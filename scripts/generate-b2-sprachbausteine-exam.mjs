@@ -7,7 +7,7 @@
  * Run: npm run questions:generate-b2-sprach-exam
  */
 
-import { writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -35,7 +35,6 @@ function writeSeries(list, prefix) {
     const num = String(i + 1).padStart(2, '0');
     const id = `${prefix}-${num}`;
     const path = join(ROOT, `${id}.md`);
-    if (existsSync(path)) return;
     try {
       writeFileSync(path, mdTextGaps({ id, ...task }), 'utf8');
       total += 1;
