@@ -1,6 +1,6 @@
 <script setup>
 /**
- * SchwaechenCard — entry point for Schwächen-Modus on the landing page.
+ * SchwaechenCard — collapsible entry point for Schwächen-Modus on the landing page.
  *
  * Picks the three topics with the most recorded wrong answers and
  * starts a mixed premium training session.
@@ -23,6 +23,13 @@ const weakTopics = computed(() =>
 
 const hasWeakTopics = computed(() => weakTopics.value.length > 0);
 
+const summaryMeta = computed(() => {
+  if (!isPremium.value) return 'Premium';
+  if (!hasWeakTopics.value) return 'Noch keine Daten';
+  const total = weakTopics.value.reduce((n, t) => n + t.wrongCount, 0);
+  return `${total} Fehler · ${weakTopics.value.length} Themen`;
+});
+
 function startSchwaechen() {
   if (!isPremium.value || !hasWeakTopics.value) return;
   router.push({ name: 'trainer', query: { mode: 'schwaechen' } });
@@ -34,43 +41,45 @@ function openPremium() {
 </script>
 
 <template>
-  <section class="schwaechen-card" aria-label="Schwächen-Modus">
-    <div class="schwaechen-card__head">
+  <details class="schwaechen-card" aria-label="Schwächen-Modus">
+    <summary class="schwaechen-card__summary">
       <span class="schwaechen-card__title">🎯 Schwächen-Modus</span>
-      <span v-if="isPremium && hasWeakTopics" class="schwaechen-card__badge">Premium</span>
+      <span class="schwaechen-card__meta">{{ summaryMeta }}</span>
+    </summary>
+
+    <div class="schwaechen-card__body">
+      <template v-if="!isPremium">
+        <p class="schwaechen-card__hint">
+          Trainiere gezielt deine 3 schwächsten Themen — nur mit Premium.
+        </p>
+        <button type="button" class="schwaechen-card__cta schwaechen-card__cta--upsell" @click="openPremium">
+          💎 Premium freischalten
+        </button>
+      </template>
+
+      <template v-else-if="!hasWeakTopics">
+        <p class="schwaechen-card__hint">
+          Noch keine Fehler erfasst. Starte ein Themen-Training — dann zeigen wir dir hier deine Schwachstellen.
+        </p>
+        <button type="button" class="schwaechen-card__cta schwaechen-card__cta--ghost" @click="openPremium">
+          Zu den Premium-Themen →
+        </button>
+      </template>
+
+      <template v-else>
+        <p class="schwaechen-card__hint">
+          Deine 3 Themen mit den meisten Fehlern:
+        </p>
+        <ul class="schwaechen-card__list">
+          <li v-for="t in weakTopics" :key="`${t.level}-${t.key}`">
+            <span class="schwaechen-card__topic">{{ t.level }} · {{ t.name }}</span>
+            <span class="schwaechen-card__errors">{{ t.wrongCount }} Fehler</span>
+          </li>
+        </ul>
+        <button type="button" class="schwaechen-card__cta" @click="startSchwaechen">
+          ▶ Schwächen trainieren
+        </button>
+      </template>
     </div>
-
-    <template v-if="!isPremium">
-      <p class="schwaechen-card__hint">
-        Trainiere gezielt deine 3 schwächsten Themen — nur mit Premium.
-      </p>
-      <button type="button" class="schwaechen-card__cta schwaechen-card__cta--upsell" @click="openPremium">
-        💎 Premium freischalten
-      </button>
-    </template>
-
-    <template v-else-if="!hasWeakTopics">
-      <p class="schwaechen-card__hint">
-        Noch keine Fehler erfasst. Starte ein Themen-Training — dann zeigen wir dir hier deine Schwachstellen.
-      </p>
-      <button type="button" class="schwaechen-card__cta schwaechen-card__cta--ghost" @click="openPremium">
-        Zu den Premium-Themen →
-      </button>
-    </template>
-
-    <template v-else>
-      <p class="schwaechen-card__hint">
-        Deine 3 Themen mit den meisten Fehlern:
-      </p>
-      <ul class="schwaechen-card__list">
-        <li v-for="t in weakTopics" :key="`${t.level}-${t.key}`">
-          <span class="schwaechen-card__topic">{{ t.level }} · {{ t.name }}</span>
-          <span class="schwaechen-card__errors">{{ t.wrongCount }} Fehler</span>
-        </li>
-      </ul>
-      <button type="button" class="schwaechen-card__cta" @click="startSchwaechen">
-        ▶ Schwächen trainieren
-      </button>
-    </template>
-  </section>
+  </details>
 </template>
