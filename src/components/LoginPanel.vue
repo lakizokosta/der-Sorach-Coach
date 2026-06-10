@@ -89,50 +89,52 @@ function signOut() {
 <template>
   <div v-if="backendOn" style="max-width: 340px; margin: 8px auto 12px auto;">
     <!-- Logged in + Premium/Basis -->
-    <div
-      v-if="isLoggedIn && (isPremium || isBasis)"
-      style="
-        background: linear-gradient(135deg, #ffd700, #ffb700);
-        border-radius: 999px;
-        padding: 11px 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 8px;
-        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-      "
-    >
+    <template v-if="isLoggedIn && (isPremium || isBasis)">
       <div
         style="
-          font-size: 14px;
-          font-weight: 900;
-          color: #000;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-        "
-      >
-        👤 {{ auth.email }}
-      </div>
-      <button
-        type="button"
-        @click="signOut"
-        style="
-          border: none;
-          background: rgba(0, 0, 0, 0.12);
-          color: #000;
-          font-size: 11px;
-          font-weight: 700;
-          cursor: pointer;
-          white-space: nowrap;
-          padding: 4px 10px;
+          background: linear-gradient(135deg, #ffd700, #ffb700);
           border-radius: 999px;
-          flex-shrink: 0;
+          padding: 11px 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 8px;
+          box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
         "
       >
-        Abmelden
-      </button>
-    </div>
+        <div
+          style="
+            font-size: 14px;
+            font-weight: 900;
+            color: #000;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          "
+        >
+          👤 {{ auth.email }}
+        </div>
+        <button
+          type="button"
+          @click="signOut"
+          style="
+            border: none;
+            background: rgba(0, 0, 0, 0.12);
+            color: #000;
+            font-size: 11px;
+            font-weight: 700;
+            cursor: pointer;
+            white-space: nowrap;
+            padding: 4px 10px;
+            border-radius: 999px;
+            flex-shrink: 0;
+          "
+        >
+          Abmelden
+        </button>
+      </div>
+      <slot name="after-intro" />
+    </template>
 
     <!-- Premium via code, not logged in — encourage login -->
     <div
@@ -147,6 +149,7 @@ function signOut() {
       <div style="font-size: 12px; color: #888; margin-bottom: 8px; text-align: center;">
         📱 Einloggen, um Streak &amp; Fortschritt auf allen Geräten zu speichern.
       </div>
+      <slot name="after-intro" />
       <div style="display: flex; gap: 6px;">
         <input
           v-model="magicEmail"
@@ -227,6 +230,7 @@ function signOut() {
           Abmelden
         </button>
       </div>
+      <slot name="after-intro" />
       <div style="font-size: 12px; color: #888; margin-bottom: 8px;">
         🔑 Aktivierungscode eingeben:
       </div>
@@ -287,6 +291,7 @@ function signOut() {
       <div style="font-size: 12px; color: #888; margin-bottom: 8px; text-align: center;">
         Mit deiner Email einloggen — Fortschritt auf allen Geräten speichern.
       </div>
+      <slot name="after-intro" />
       <div style="display: flex; gap: 6px;">
         <input
           v-model="magicEmail"

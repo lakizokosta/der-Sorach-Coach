@@ -118,171 +118,158 @@ const pricingCompareRows = [
       v-html="summaryText"
     />
 
-    <LoginPanel />
+    <!-- 1.2: Kostenlos starten, Level, Tarife & CTA (oben) -->
+    <section class="landing-section landing-section--start" aria-label="Starten und Tarife">
+      <div class="free-box">✨ Kostenlos starten · Keine Anmeldung nötig</div>
 
-    <div class="landing-progress">
-      <DailyGoalCard />
-      <BonusMissionsCard />
-      <SchwaechenCard />
-      <ActivityCalendar />
-    </div>
+      <div class="level-grid">
+        <button class="level-card" type="button" @click="startTrainer('A1')">
+          <div class="level-name">A1</div>
+          <div class="level-desc">Anfänger</div>
+        </button>
+        <button class="level-card" type="button" @click="startTrainer('A2')">
+          <div class="level-name">A2</div>
+          <div class="level-desc">Grundlagen</div>
+        </button>
+        <button class="level-card" type="button" @click="startTrainer('B1')">
+          <div class="level-name">B1</div>
+          <div class="level-desc">Alltagssprache</div>
+        </button>
+        <button class="level-card" type="button" @click="startTrainer('B2')">
+          <div class="level-name">B2</div>
+          <div class="level-desc">Fortgeschrittene</div>
+        </button>
+      </div>
 
-    <div class="landing-profile-wrap">
-      <button type="button" class="landing-profile-btn" @click="openProfile">
-        🏅 Mein Profil &amp; Fortschritt
-      </button>
-    </div>
+      <details class="pricing-compare">
+        <summary class="pricing-compare__summary">
+          <div class="pricing-compare__row">
+            <span class="pricing-compare__title">💳 Tarife vergleichen</span>
+            <span class="pricing-compare__count">3 Tarife</span>
+          </div>
 
-    <div class="landing-niveau-block">
-      <button
-        type="button"
-        class="niveau-test-btn"
-        :class="{
-          'level-card': isPremium,
-          'niveau-test-btn--unlocked': isPremium,
-          'niveau-test-btn--inactive': !isPremium,
-        }"
-        @click="onNiveauTestClick"
-      >
-        <span class="niveau-test-btn__label">
-          {{
-            cefrLevel
-              ? `Niveau ${cefrLevel} — erneut testen`
-              : 'Niveau testen (A1–B2)'
-          }}
-        </span>
-        <span v-if="!isPremium" class="niveau-test-btn__badge">💎 Premium</span>
-      </button>
-      <p class="niveau-test-btn__hint">
-        <template v-if="isPremium">
-          60 zufällige Fragen aus dem Trainer (15 pro Niveau, steigend A1→B2).
-        </template>
-        <template v-else>
-          Personalisierte Tagesaufgaben — mit Premium freischalten.
-        </template>
-      </p>
-    </div>
+          <div
+            class="pricing-compare__bar"
+            role="progressbar"
+            aria-valuenow="3"
+            aria-valuemin="0"
+            aria-valuemax="3"
+            aria-label="Drei Tarife zum Vergleich"
+          >
+            <div class="pricing-compare__fill" style="width: 100%" />
+          </div>
 
-    <div class="free-box">✨ Kostenlos starten · Keine Anmeldung nötig</div>
+          <p class="pricing-compare__hint">
+            Gratis · Basis 4,99€ · Premium 19€/Monat — Tippe für die Vergleichstabelle.
+          </p>
+        </summary>
 
-    <div class="level-grid">
-      <button class="level-card" type="button" @click="startTrainer('A1')">
-        <div class="level-name">A1</div>
-        <div class="level-desc">Anfänger</div>
-      </button>
-      <button class="level-card" type="button" @click="startTrainer('A2')">
-        <div class="level-name">A2</div>
-        <div class="level-desc">Grundlagen</div>
-      </button>
-      <button class="level-card" type="button" @click="startTrainer('B1')">
-        <div class="level-name">B1</div>
-        <div class="level-desc">Alltagssprache</div>
-      </button>
-      <button class="level-card" type="button" @click="startTrainer('B2')">
-        <div class="level-name">B2</div>
-        <div class="level-desc">Fortgeschrittene</div>
-      </button>
-    </div>
+        <div class="pricing-compare__body">
+          <div class="pricing-compare__row pricing-compare__row--head">
+            <div class="pricing-compare__cell pricing-compare__cell--label"></div>
+            <div class="pricing-compare__cell pricing-compare__cell--tier pricing-compare__cell--muted">
+              Kostenlos
+            </div>
+            <div class="pricing-compare__cell pricing-compare__cell--tier">⏱️ Basis</div>
+            <div class="pricing-compare__cell pricing-compare__cell--tier pricing-compare__cell--premium">
+              💎 Premium
+            </div>
+          </div>
 
-    <details class="pricing-compare">
-      <summary class="pricing-compare__summary">
-        <div class="pricing-compare__row">
-          <span class="pricing-compare__title">💳 Tarife vergleichen</span>
-          <span class="pricing-compare__count">3 Tarife</span>
+          <div
+            v-for="row in pricingCompareRows"
+            :key="row.label"
+            class="pricing-compare__row"
+          >
+            <div class="pricing-compare__cell pricing-compare__cell--label">{{ row.label }}</div>
+            <div class="pricing-compare__cell pricing-compare__cell--muted">{{ row.free }}</div>
+            <div class="pricing-compare__cell pricing-compare__cell--ok">{{ row.basis }}</div>
+            <div class="pricing-compare__cell pricing-compare__cell--ok pricing-compare__cell--premium">
+              {{ row.premium }}
+            </div>
+          </div>
+
+          <div class="pricing-compare__row pricing-compare__row--price">
+            <div class="pricing-compare__cell pricing-compare__cell--label">Preis</div>
+            <div class="pricing-compare__cell pricing-compare__cell--muted">Gratis</div>
+            <div class="pricing-compare__cell pricing-compare__cell--price">
+              4,99€<span class="pricing-compare__sub">einmalig</span>
+            </div>
+            <div class="pricing-compare__cell pricing-compare__cell--price pricing-compare__cell--premium">
+              19€<span class="pricing-compare__sub">/Monat</span>
+            </div>
+          </div>
         </div>
+      </details>
 
-        <div
-          class="pricing-compare__bar"
-          role="progressbar"
-          aria-valuenow="3"
-          aria-valuemin="0"
-          aria-valuemax="3"
-          aria-label="Drei Tarife zum Vergleich"
+      <div class="landing-cta-stack">
+        <button type="button" class="level-card landing-cta-premium" @click="openPremium">
+          {{ isPremium ? '💎 Mein Premium' : '💎 Premium – ab 19€' }}
+        </button>
+
+        <button
+          v-if="!isPremium && !isBasis"
+          type="button"
+          class="level-card landing-cta-basis"
+          @click="payBasis"
         >
-          <div class="pricing-compare__fill" style="width: 100%" />
-        </div>
-
-        <p class="pricing-compare__hint">
-          Gratis · Basis 4,99€ · Premium 19€/Monat — Tippe für die Vergleichstabelle.
-        </p>
-      </summary>
-
-      <div class="pricing-compare__body">
-        <div class="pricing-compare__row pricing-compare__row--head">
-          <div class="pricing-compare__cell pricing-compare__cell--label"></div>
-          <div class="pricing-compare__cell pricing-compare__cell--tier pricing-compare__cell--muted">
-            Kostenlos
-          </div>
-          <div class="pricing-compare__cell pricing-compare__cell--tier">⏱️ Basis</div>
-          <div class="pricing-compare__cell pricing-compare__cell--tier pricing-compare__cell--premium">
-            💎 Premium
-          </div>
-        </div>
-
-        <div
-          v-for="row in pricingCompareRows"
-          :key="row.label"
-          class="pricing-compare__row"
-        >
-          <div class="pricing-compare__cell pricing-compare__cell--label">{{ row.label }}</div>
-          <div class="pricing-compare__cell pricing-compare__cell--muted">{{ row.free }}</div>
-          <div class="pricing-compare__cell pricing-compare__cell--ok">{{ row.basis }}</div>
-          <div class="pricing-compare__cell pricing-compare__cell--ok pricing-compare__cell--premium">
-            {{ row.premium }}
-          </div>
-        </div>
-
-        <div class="pricing-compare__row pricing-compare__row--price">
-          <div class="pricing-compare__cell pricing-compare__cell--label">Preis</div>
-          <div class="pricing-compare__cell pricing-compare__cell--muted">Gratis</div>
-          <div class="pricing-compare__cell pricing-compare__cell--price">
-            4,99€<span class="pricing-compare__sub">einmalig</span>
-          </div>
-          <div class="pricing-compare__cell pricing-compare__cell--price pricing-compare__cell--premium">
-            19€<span class="pricing-compare__sub">/Monat</span>
-          </div>
+          ⏱️ Zeitlimit aufheben – 4,99€
+        </button>
+        <div v-if="!isPremium && !isBasis" class="landing-cta-stack__note">
+          Einmalzahlung · Kein Abo · Sofort aktiv
         </div>
       </div>
-    </details>
+    </section>
 
-    <div class="landing-cta-stack">
-      <button
-        type="button"
-        class="level-card"
-        style="
-          background: linear-gradient(135deg, #FFD700, #FFB700);
-          color: #000;
-          width: 100%;
-          max-width: 320px;
-          font-weight: 900;
-          font-size: 18px;
-          border-radius: 999px;
-        "
-        @click="openPremium"
-      >
-        {{ isPremium ? '💎 Mein Premium' : '💎 Premium – ab 19€' }}
-      </button>
+    <!-- 1.3: Login & Fortschritt (darunter) -->
+    <section class="landing-section landing-section--dashboard" aria-label="Login und Fortschritt">
+      <LoginPanel>
+        <template #after-intro>
+          <div class="landing-profile-wrap landing-profile-wrap--in-login">
+            <button type="button" class="landing-profile-btn" @click="openProfile">
+              🏅 Mein Profil &amp; Fortschritt
+            </button>
+          </div>
 
-      <button
-        v-if="!isPremium && !isBasis"
-        type="button"
-        class="level-card"
-        style="
-          width: 100%;
-          max-width: 320px;
-          font-weight: 900;
-          font-size: 18px;
-          border-radius: 999px;
-          background: linear-gradient(135deg, #C86DD7, #7B2D8B);
-        "
-        @click="payBasis"
-      >
-        ⏱️ Zeitlimit aufheben – 4,99€
-      </button>
-      <div v-if="!isPremium && !isBasis" class="landing-cta-stack__note">
-        Einmalzahlung · Kein Abo · Sofort aktiv
+          <div class="landing-niveau-block landing-niveau-block--in-login">
+            <button
+              type="button"
+              class="niveau-test-btn"
+              :class="{
+                'level-card': isPremium,
+                'niveau-test-btn--unlocked': isPremium,
+                'niveau-test-btn--inactive': !isPremium,
+              }"
+              @click="onNiveauTestClick"
+            >
+              <span class="niveau-test-btn__label">
+                {{
+                  cefrLevel
+                    ? `Niveau ${cefrLevel} — erneut testen`
+                    : 'Niveau testen (A1–B2)'
+                }}
+              </span>
+              <span v-if="!isPremium" class="niveau-test-btn__badge">💎 Premium</span>
+            </button>
+            <p class="niveau-test-btn__hint">
+              <template v-if="isPremium">
+                60 zufällige Fragen aus dem Trainer (15 pro Niveau, steigend A1→B2).
+              </template>
+              <template v-else>
+                Personalisierte Tagesaufgaben — mit Premium freischalten.
+              </template>
+            </p>
+          </div>
+        </template>
+      </LoginPanel>
+
+      <div class="landing-progress">
+        <DailyGoalCard />
+        <BonusMissionsCard />
+        <SchwaechenCard />
+        <ActivityCalendar />
       </div>
-    </div>
+    </section>
 
     <LegalFooter />
   </div>
