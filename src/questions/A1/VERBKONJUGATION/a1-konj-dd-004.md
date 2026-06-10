@@ -8,4 +8,4 @@ words:
   - Buch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — lesen, sie)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb lesen)

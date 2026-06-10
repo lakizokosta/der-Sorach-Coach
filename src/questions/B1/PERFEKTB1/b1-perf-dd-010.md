@@ -10,4 +10,4 @@ words:
   - erzielt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — haben erzielt)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

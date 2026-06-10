@@ -10,4 +10,4 @@ words:
   - angeboten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — wird angeboten)
+Ordne die Wörter zum richtigen Satz: (Passiv + Verb gesendeen)

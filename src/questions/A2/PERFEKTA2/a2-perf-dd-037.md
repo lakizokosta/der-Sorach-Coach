@@ -12,4 +12,4 @@ words:
   - gearbeitet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — hat gearbeitet)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)

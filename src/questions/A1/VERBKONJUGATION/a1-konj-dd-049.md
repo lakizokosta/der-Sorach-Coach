@@ -8,4 +8,4 @@ words:
   - Tag
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — üben, ich)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb backen)

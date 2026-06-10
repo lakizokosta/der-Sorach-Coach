@@ -10,4 +10,4 @@ words:
   - geprüft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — werden geprüft)
+Ordne die Wörter zum richtigen Satz: (Passiv + Verb genutzen)

@@ -12,4 +12,4 @@ words:
   - gewesen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — bin gewesen)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)

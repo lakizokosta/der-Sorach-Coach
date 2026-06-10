@@ -11,4 +11,4 @@ words:
   - Italien
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — fuhren)
+Ordne die Wörter zum richtigen Satz: (Präteritum + Verb fahren)

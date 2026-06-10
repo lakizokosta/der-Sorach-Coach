@@ -10,4 +10,4 @@ words:
   - angekommen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — sind angekommen)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

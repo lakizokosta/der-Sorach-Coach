@@ -10,4 +10,4 @@ words:
   - Bus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — warteten)
+Ordne die Wörter zum richtigen Satz: (Präteritum + Verb warten)

@@ -10,4 +10,4 @@ words:
   - Ergebnis
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — freue mich)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausfüllen)

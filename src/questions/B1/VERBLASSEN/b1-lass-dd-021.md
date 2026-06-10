@@ -9,4 +9,4 @@ words:
   - schneiden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lässt schneiden)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb erklären)

@@ -10,4 +10,4 @@ words:
   - einchecken
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lassen einchecken)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb einchecken)

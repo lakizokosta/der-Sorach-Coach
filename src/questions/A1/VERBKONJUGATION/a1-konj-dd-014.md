@@ -9,4 +9,4 @@ words:
   - Italien
 ---
 
-[Reisen] Ordne die Wörter zum richtigen Satz: (Verb — reisen, wir)
+[Reisen] Ordne die Wörter zum richtigen Satz: (Präsens + Verb reisen)

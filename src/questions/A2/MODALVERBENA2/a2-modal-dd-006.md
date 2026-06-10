@@ -8,4 +8,4 @@ words:
   - sprechen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb — sollst)
+Ordne die Wörter zum richtigen Satz: (Modalverb + Verb sollen)

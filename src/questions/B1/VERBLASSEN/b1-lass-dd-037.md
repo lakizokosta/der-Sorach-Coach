@@ -9,4 +9,4 @@ words:
   - übersetzen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lassen übersetzen)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb bringen)

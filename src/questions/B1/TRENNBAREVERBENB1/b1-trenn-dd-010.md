@@ -11,4 +11,4 @@ words:
   - durch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — geht durch)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb durchgehen)

@@ -10,4 +10,4 @@ words:
   - lesen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lässt lesen)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb lesen)

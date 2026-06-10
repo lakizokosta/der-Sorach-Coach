@@ -11,4 +11,4 @@ words:
   - gegeben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — werden bekannt gegeben)
+Ordne die Wörter zum richtigen Satz: (Passiv + Verb unterzeichneen)

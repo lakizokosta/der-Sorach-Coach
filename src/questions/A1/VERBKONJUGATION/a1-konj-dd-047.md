@@ -8,4 +8,4 @@ words:
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — anziehen, du)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb kaufen)

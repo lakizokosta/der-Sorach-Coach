@@ -9,4 +9,4 @@ words:
   - Bus
 ---
 
-[Transport] Ordne die Wörter zum richtigen Satz: (Verb — steigen, ich)
+[Transport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb grillen)

@@ -12,4 +12,4 @@ words:
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — meldest an)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmeldeen)

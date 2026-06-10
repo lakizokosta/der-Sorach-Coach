@@ -11,4 +11,4 @@ words:
   - Schulsystem
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — las)
+Ordne die Wörter zum richtigen Satz: (Präteritum + Verb lesen)

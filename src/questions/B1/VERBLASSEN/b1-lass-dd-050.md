@@ -9,4 +9,4 @@ words:
   - reparieren
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lässt drucken)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb kontrollieren)

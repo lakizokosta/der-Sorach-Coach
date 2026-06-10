@@ -11,4 +11,4 @@ words:
   - Haus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wohin? — nach)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)

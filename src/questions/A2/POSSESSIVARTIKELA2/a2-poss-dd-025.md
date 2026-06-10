@@ -10,4 +10,4 @@ words:
   - Mutter
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — meiner)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)

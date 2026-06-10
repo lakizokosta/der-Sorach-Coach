@@ -9,4 +9,4 @@ words:
   - Zug
 ---
 
-[Transport] Ordne die Wörter zum richtigen Satz: (Verb — warten, er)
+[Transport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb gehen)

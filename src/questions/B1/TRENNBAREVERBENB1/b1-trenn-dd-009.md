@@ -10,4 +10,4 @@ words:
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — füllst aus)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausfüllen)

@@ -12,4 +12,4 @@ words:
   - geht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — macht aus)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb sich freuen)

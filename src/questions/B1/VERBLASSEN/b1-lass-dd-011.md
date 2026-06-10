@@ -8,4 +8,4 @@ words:
   - impfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lässt impfen)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb impfen)

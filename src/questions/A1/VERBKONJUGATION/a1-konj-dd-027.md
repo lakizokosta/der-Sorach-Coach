@@ -9,4 +9,4 @@ words:
   - Kasse
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — bezahlen, sie)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb sehen)

@@ -8,4 +8,4 @@ words:
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — rufen, ich)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb lernen)

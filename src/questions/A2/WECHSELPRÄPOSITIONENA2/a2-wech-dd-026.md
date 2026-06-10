@@ -11,4 +11,4 @@ words:
   - Boden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wo? — auf dem)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)

@@ -11,4 +11,4 @@ words:
   - beraten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lassen testen)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb beraten)

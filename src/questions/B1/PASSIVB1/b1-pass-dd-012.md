@@ -11,4 +11,4 @@ words:
   - genutzt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — wurde genutzt)
+Ordne die Wörter zum richtigen Satz: (Passiv + Verb genutzen)

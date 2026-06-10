@@ -9,4 +9,4 @@ words:
   - eingenommen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — hat eingenommen)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

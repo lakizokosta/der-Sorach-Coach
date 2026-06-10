@@ -8,4 +8,4 @@ words:
   - Bild
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — malen, er)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb kommen)

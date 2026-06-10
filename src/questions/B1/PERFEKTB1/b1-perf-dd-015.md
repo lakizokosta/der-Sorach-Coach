@@ -11,4 +11,4 @@ words:
   - eingestellt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — hat eingestellt)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

@@ -8,4 +8,4 @@ words:
   - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — tanzen, ihr)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb tanzen)

@@ -11,4 +11,4 @@ words:
   - geben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lasse geben)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb ruhen)

@@ -10,4 +10,4 @@ words:
   - kontrollieren
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lässt kontrollieren)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb bringen)

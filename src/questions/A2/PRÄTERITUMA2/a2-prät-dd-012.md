@@ -8,4 +8,4 @@ words:
   - Hunger
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — hatte)
+Ordne die Wörter zum richtigen Satz: (Präteritum + Verb haben)

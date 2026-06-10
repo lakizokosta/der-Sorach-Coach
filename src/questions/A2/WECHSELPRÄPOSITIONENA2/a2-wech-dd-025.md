@@ -10,4 +10,4 @@ words:
   - Wohnung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wohin? — in die)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)

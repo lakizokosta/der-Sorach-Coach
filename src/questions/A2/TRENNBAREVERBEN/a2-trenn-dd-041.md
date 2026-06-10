@@ -8,4 +8,4 @@ words:
   - auf
 ---
 
-Ordne die Wörter zum richtigen Satz: (trennbar — steht)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb aufstehen)

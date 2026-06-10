@@ -8,4 +8,4 @@ words:
   - Stadt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — fotografieren, er)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb machen)

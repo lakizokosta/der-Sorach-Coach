@@ -10,4 +10,4 @@ words:
   - sein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb — muss)
+Ordne die Wörter zum richtigen Satz: (Modalverb + Verb müssen)

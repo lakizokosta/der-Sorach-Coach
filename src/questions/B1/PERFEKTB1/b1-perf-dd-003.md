@@ -11,4 +11,4 @@ words:
   - angemeldet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — hat angemeldet)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

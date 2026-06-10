@@ -10,4 +10,4 @@ words:
   - Ausruhen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lässt ausruhen)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb reparieren)

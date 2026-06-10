@@ -180,8 +180,11 @@ export function transformHint(inner, topic, correct, options = [], body = '', id
     return 'Wechselpräpositionen';
   }
 
-  if (['PRÄTERITUMA2', 'PERFEKTA2', 'PERFEKTB1', 'MODALVERBENA2', 'REFLEXIVPRONOMEN', 'TRENNBAREVERBEN', 'TRENNBAREVERBENB1', 'PASSIVB1', 'PASSIVB2', 'KONJUNKTIV2', 'KONJUNKTIV2B2', 'FUTURI'].includes(topic)) {
-    const hint = verbFormHint(topic, inner, correct, options, body, id);
+  if (['PRÄTERITUMA2', 'PERFEKTA2', 'PERFEKTB1', 'MODALVERBENA2', 'REFLEXIVPRONOMEN', 'TRENNBAREVERBEN', 'TRENNBAREVERBENB1', 'PASSIVB1', 'PASSIVB2', 'KONJUNKTIV2', 'KONJUNKTIV2B2', 'FUTURI', 'VERBLASSEN'].includes(topic)) {
+    let hint = verbFormHint(topic, inner, correct, options, body, id);
+    if (topic === 'REFLEXIVPRONOMEN' && (!hint?.includes('+ Verb'))) {
+      hint = verbFormHint(topic, '', correct, options, body, id);
+    }
     if (hint) return hint;
   }
 

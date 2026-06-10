@@ -9,4 +9,4 @@ words:
   - Garten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wo? — im)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)

@@ -10,4 +10,4 @@ words:
   - Stadt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wo? — in einer)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)

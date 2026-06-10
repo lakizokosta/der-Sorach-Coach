@@ -11,4 +11,4 @@ words:
   - Stadtmitte
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wo? — in der)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)

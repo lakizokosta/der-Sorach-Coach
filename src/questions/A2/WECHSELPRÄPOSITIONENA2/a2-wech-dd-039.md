@@ -10,4 +10,4 @@ words:
   - Straße
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wo? — auf der)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)

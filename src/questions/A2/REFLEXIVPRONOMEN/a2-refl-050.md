@@ -9,4 +9,4 @@ options:
 correct: interessiere
 ---
 
-Ich ___ mich für Sport. (Reflexiv + Verb kümmern)
+Ich ___ mich für Sport. (Reflexiv + Verb interessieren)

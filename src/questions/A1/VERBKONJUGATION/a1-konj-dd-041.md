@@ -8,4 +8,4 @@ words:
   - Familie
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — lieben, ich)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb geben)

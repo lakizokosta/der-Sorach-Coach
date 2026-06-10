@@ -9,4 +9,4 @@ words:
   - öffnen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb — Darf)
+Ordne die Wörter zum richtigen Satz: (Modalverb + Verb dürfen)

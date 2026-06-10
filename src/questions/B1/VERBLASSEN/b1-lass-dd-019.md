@@ -11,4 +11,4 @@ words:
   - beraten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lässt beraten)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb schneiden)

@@ -8,4 +8,4 @@ words:
   - mitmachen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb — könntest)
+Ordne die Wörter zum richtigen Satz: (Modalverb + Verb können)

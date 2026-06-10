@@ -11,4 +11,4 @@ words:
   - erklärt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — hat erklärt)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

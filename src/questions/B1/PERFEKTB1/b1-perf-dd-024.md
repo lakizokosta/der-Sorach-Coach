@@ -10,4 +10,4 @@ words:
   - bezahlt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — haben bezahlt)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

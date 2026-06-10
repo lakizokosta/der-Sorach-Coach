@@ -11,4 +11,4 @@ words:
   - ruhen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lassen ruhen)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb ruhen)

@@ -12,4 +12,4 @@ words:
   - Arbeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — sehen)
+Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb sehen)

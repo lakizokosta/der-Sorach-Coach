@@ -11,4 +11,4 @@ words:
   - gekauft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — meinem)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — meinem)

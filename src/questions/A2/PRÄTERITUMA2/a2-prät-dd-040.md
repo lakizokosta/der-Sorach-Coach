@@ -10,4 +10,4 @@ words:
   - schlafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — schlafen)
+Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)

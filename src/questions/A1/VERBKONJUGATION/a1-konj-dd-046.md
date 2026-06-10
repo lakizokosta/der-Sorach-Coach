@@ -8,4 +8,4 @@ words:
   - Katze
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — streicheln, ich)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb aufstehen)

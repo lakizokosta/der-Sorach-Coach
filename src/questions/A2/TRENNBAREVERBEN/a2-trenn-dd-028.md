@@ -9,4 +9,4 @@ words:
   - zu
 ---
 
-Ordne die Wörter zum richtigen Satz: (trennbar — macht)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb zumachen)

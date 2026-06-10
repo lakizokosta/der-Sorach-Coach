@@ -8,4 +8,4 @@ words:
   - Pasta
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — kochen, wir)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb kochen)

@@ -9,4 +9,4 @@ words:
   - ein
 ---
 
-Ordne die Wörter zum richtigen Satz: (trennbar — fahren)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einfahren)

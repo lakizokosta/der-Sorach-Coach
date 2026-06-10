@@ -9,4 +9,4 @@ words:
   - reparieren
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lasse reparieren)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb reparieren)

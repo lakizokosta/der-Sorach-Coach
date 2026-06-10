@@ -12,4 +12,4 @@ words:
   - diskutiert
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — haben diskutiert)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

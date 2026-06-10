@@ -10,4 +10,4 @@ words:
   - helfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb — kann)
+Ordne die Wörter zum richtigen Satz: (Modalverb + Verb können)

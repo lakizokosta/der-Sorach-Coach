@@ -9,4 +9,4 @@ options:
 correct: können
 ---
 
-Wir ___ uns freuen. (Reflexiv + Verb sehen)
+Wir ___ uns freuen. (Modalverb + Verb freuen)

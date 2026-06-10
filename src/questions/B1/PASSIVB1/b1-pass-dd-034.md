@@ -9,4 +9,4 @@ words:
   - veröffentlicht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — werden informiert)
+Ordne die Wörter zum richtigen Satz: (Passiv + Verb diskutiieren)

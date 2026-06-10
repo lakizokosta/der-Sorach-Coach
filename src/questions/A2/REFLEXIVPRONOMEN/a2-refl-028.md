@@ -9,4 +9,4 @@ options:
 correct: verletzt
 ---
 
-Er ___ sich den Rücken. (Reflexiv + Verb sehen)
+Er ___ sich den Rücken. (Reflexiv + Verb verletzen)

@@ -9,4 +9,4 @@ options:
 correct: beeilt
 ---
 
-Sie ___ sich schnell. (Reflexiv + Verb freuen)
+Sie ___ sich schnell. (Reflexiv + Verb beeilen)

@@ -8,4 +8,4 @@ words:
   - geschlafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — habe geschlafen)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)

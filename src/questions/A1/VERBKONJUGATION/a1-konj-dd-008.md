@@ -8,4 +8,4 @@ words:
   - Berlin
 ---
 
-[Stadt] Ordne die Wörter zum richtigen Satz: (Verb — wohnen, ich)
+[Stadt] Ordne die Wörter zum richtigen Satz: (Präsens + Verb wohnen)

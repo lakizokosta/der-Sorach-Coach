@@ -8,4 +8,4 @@ words:
   - werden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — sollte)
+Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sollen)

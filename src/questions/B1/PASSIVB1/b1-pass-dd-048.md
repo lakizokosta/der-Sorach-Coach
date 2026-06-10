@@ -9,4 +9,4 @@ words:
   - gesammelt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — werden gesammelt)
+Ordne die Wörter zum richtigen Satz: (Passiv + Verb untersuchen)

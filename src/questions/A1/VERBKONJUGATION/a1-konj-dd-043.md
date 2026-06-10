@@ -8,4 +8,4 @@ words:
   - Essen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — kochen, sie)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb tragen)

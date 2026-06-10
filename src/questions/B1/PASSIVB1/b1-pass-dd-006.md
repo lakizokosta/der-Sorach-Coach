@@ -10,4 +10,4 @@ words:
   - renoviert
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — wurde renoviert)
+Ordne die Wörter zum richtigen Satz: (Passiv + Verb renoviieren)

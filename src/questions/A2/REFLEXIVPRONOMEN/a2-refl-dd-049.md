@@ -10,4 +10,4 @@ words:
   - Geschenk
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — freue)
+Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb freuen)

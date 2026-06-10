@@ -8,4 +8,4 @@ words:
   - Fußball
 ---
 
-[Sport] Ordne die Wörter zum richtigen Satz: (Verb — spielen, ich)
+[Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb spielen)

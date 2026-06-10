@@ -8,4 +8,4 @@ words:
   - See
 ---
 
-[Sport] Ordne die Wörter zum richtigen Satz: (Verb — schwimmen, ich)
+[Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb finden)

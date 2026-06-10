@@ -9,4 +9,4 @@ words:
   - Regal
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wohin? — ins)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)

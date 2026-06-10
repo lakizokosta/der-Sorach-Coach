@@ -8,4 +8,4 @@ words:
   - Kuchen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — backen, sie)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb putzen)

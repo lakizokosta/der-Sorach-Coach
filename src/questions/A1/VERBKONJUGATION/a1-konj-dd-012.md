@@ -8,4 +8,4 @@ words:
   - Büro
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — arbeiten, ich)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb essen)

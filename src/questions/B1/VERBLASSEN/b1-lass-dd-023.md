@@ -10,4 +10,4 @@ words:
   - erklären
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lasse erklären)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb einchecken)

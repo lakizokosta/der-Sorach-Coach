@@ -8,4 +8,4 @@ words:
   - Lied
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — singen, wir)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb nehmen)

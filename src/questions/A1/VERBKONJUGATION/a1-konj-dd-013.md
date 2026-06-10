@@ -8,4 +8,4 @@ words:
   - Zimmer
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — putzen, er)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb schwimmen)

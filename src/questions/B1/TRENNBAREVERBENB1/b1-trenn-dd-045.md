@@ -10,4 +10,4 @@ words:
   - ein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — checkt ein)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einreichen)

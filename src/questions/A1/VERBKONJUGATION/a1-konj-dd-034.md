@@ -8,4 +8,4 @@ words:
   - Park
 ---
 
-[Sport] Ordne die Wörter zum richtigen Satz: (Verb — laufen, er)
+[Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb wohnen)

@@ -12,4 +12,4 @@ words:
   - abholen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lässt abholen)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb abholen)

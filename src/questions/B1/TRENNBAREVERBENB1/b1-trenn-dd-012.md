@@ -10,4 +10,4 @@ words:
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — rufe an)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmelden)

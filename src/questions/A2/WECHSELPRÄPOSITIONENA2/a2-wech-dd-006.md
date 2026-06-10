@@ -10,4 +10,4 @@ words:
   - Wand
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wohin? — an die)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)

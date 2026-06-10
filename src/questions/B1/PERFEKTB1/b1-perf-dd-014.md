@@ -11,4 +11,4 @@ words:
   - gefreut
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — habe gefreut)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

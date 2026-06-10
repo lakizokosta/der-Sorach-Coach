@@ -8,4 +8,4 @@ words:
   - verschoben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — wird verschoben)
+Ordne die Wörter zum richtigen Satz: (Passiv + Hilfsverb werden)

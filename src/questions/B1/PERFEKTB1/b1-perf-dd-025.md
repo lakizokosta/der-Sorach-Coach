@@ -10,4 +10,4 @@ words:
   - verletzt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — hat verletzt)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

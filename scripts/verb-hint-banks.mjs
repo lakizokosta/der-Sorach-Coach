@@ -12,6 +12,7 @@ import {
   genTrennbareVerbenB1,
   genVerblassen,
 } from './b1-select-one-data.mjs';
+import { genReflexiv } from './a2-select-one-data.mjs';
 
 const SEPARABLE_PARTICLES = [
   'ab', 'an', 'auf', 'aus', 'bei', 'ein', 'mit', 'nach', 'vor', 'zu', 'zurück', 'weg', 'weiter', 'her', 'hin', 'durch',
@@ -26,6 +27,9 @@ const B1_BANK = {
   VERBLASSEN: genVerblassen().map((q) => [q.prompt, q.correct]),
 };
 
+/** A2 select-one reflexive verbs — separate from input-text bank (different prompts per index). */
+export const A2_SELECT_REFLEXIV = genReflexiv().map((q) => [q.prompt, q.correct, q.options]);
+
 /** @type {Record<string, [string, string|string[]][]>} */
 export const ALL_VERB_BANKS = {
   ...A1_BANK,
@@ -33,6 +37,23 @@ export const ALL_VERB_BANKS = {
   ...B2_BANK,
   ...B1_BANK,
 };
+
+/** @param {string} id @param {string} topicKey */
+function bankForId(id, topicKey) {
+  if (topicKey === 'REFLEXIVPRONOMEN' && /^a2-refl-\d+$/.test(id)) {
+    return A2_SELECT_REFLEXIV;
+  }
+  return ALL_VERB_BANKS[topicKey] || null;
+}
+
+/** @param {string} topicKey */
+function banksForBody(topicKey) {
+  if (topicKey === 'REFLEXIVPRONOMEN') {
+    return [A2_BANK.REFLEXIVPRONOMEN, A2_SELECT_REFLEXIV].filter(Boolean);
+  }
+  const bank = ALL_VERB_BANKS[topicKey];
+  return bank ? [bank] : [];
+}
 
 /** @param {string} prompt */
 export function normalizeBankPrompt(prompt) {
@@ -118,7 +139,7 @@ function isLemmaWord(word) {
  * @return {[string, string|string[]] | null}
  */
 export function getBankItemById(id, topicKey) {
-  const bank = ALL_VERB_BANKS[topicKey];
+  const bank = bankForId(id, topicKey);
   if (!bank) return null;
   const m = id.match(/-(\d+)$/);
   if (!m) return null;
@@ -197,8 +218,80 @@ function lemmaFromBankItem(item, topicKey) {
     if (pp.endsWith('ert')) return `${pp.slice(0, -2)}en`;
     if (pp.endsWith('t')) return `${pp.slice(0, -1)}en`;
   }
+  if (topicKey === 'REFLEXIVPRONOMEN') {
+    return lemmaFromReflexivBankItem(item[0], item[2], item[1]);
+  }
 
   return '';
+}
+
+const REFLEXIV_PRONOUNS = new Set(['mich', 'mir', 'dich', 'dir', 'sich', 'uns', 'euch', 'ihn', 'ihm']);
+const MODAL_ROOTS = /^(?:kann|kannst|könn|muss|musst|müss|soll|sollst|sollt|darf|darfst|dürf|will|willst|woll)/i;
+
+/** @param {string} word */
+export function finiteToInfinitive(word) {
+  const w = String(word).toLowerCase().trim();
+  const map = {
+    wasche: 'waschen', wäscht: 'waschen', wäschst: 'waschen',
+    freut: 'freuen', freue: 'freuen', freust: 'freuen',
+    beeilt: 'beeilen', beeile: 'beeilen', beeilst: 'beeilen',
+    interessiere: 'interessieren', interessiert: 'interessieren', interessierst: 'interessieren',
+    sieht: 'sehen', sehe: 'sehen', siehst: 'sehen',
+    fühle: 'fühlen', fühlt: 'fühlen', fühlst: 'fühlen',
+    verletzt: 'verletzen', verletze: 'verletzen', verletzest: 'verletzen',
+    kümmert: 'kümmern', kümmere: 'kümmern',
+    bereitet: 'vorbereiten', bereite: 'vorbereiten',
+    ziehst: 'anziehen', zieht: 'anziehen',
+    erholen: 'erholen', treffen: 'treffen', sehen: 'sehen',
+  };
+  if (map[w]) return map[w];
+  if (/(?:en|eln|ern)$/i.test(w)) return w;
+  if (w.endsWith('st') || w.endsWith('t')) return `${w.slice(0, -1)}en`;
+  return '';
+}
+
+/** @param {string[]} options */
+function isReflexivPronounOptions(options) {
+  return (options || []).length >= 2
+    && (options || []).every((o) => REFLEXIV_PRONOUNS.has(String(o).toLowerCase()));
+}
+
+/** @param {string[]} options */
+function isModalOptions(options) {
+  return (options || []).length >= 2
+    && (options || []).every((o) => MODAL_ROOTS.test(String(o)));
+}
+
+/** @param {string} sentence */
+export function infinitiveFromReflexivSentence(sentence) {
+  const line = normalizeBankPrompt(sentence);
+  let m = line.match(/___\s+(?:dich|mich|sich|uns|euch)\s+([\wäöüÄÖÜß]+en)\b/i);
+  if (m) return m[1].toLowerCase();
+  m = line.match(/___\s+uns\s+(\w+en)\b/i);
+  if (m) return m[1].toLowerCase();
+  return '';
+}
+
+/** @param {string} prompt @param {string[]} [options] @param {string|string[]} [correct] */
+export function lemmaFromReflexivBankItem(prompt, options = [], correct = '') {
+  if (isReflexivPronounOptions(options)) return '';
+
+  if (isModalOptions(options)) {
+    return infinitiveFromReflexivSentence(prompt);
+  }
+
+  const answer = String((Array.isArray(correct) ? correct[0] : correct) || '').toLowerCase();
+  if (/^(habe|hast|hat|haben|habt|bin|bist|ist|sind|seid)$/.test(answer)) {
+    const line = normalizeBankPrompt(prompt);
+    if (/erkältet/i.test(line)) return 'erkälten';
+  }
+
+  for (const o of options || []) {
+    const inf = finiteToInfinitive(o);
+    if (inf && /(?:en|eln|ern)$/i.test(inf) && !REFLEXIV_PRONOUNS.has(inf)) return inf;
+  }
+
+  return finiteToInfinitive(answer) || infinitiveFromReflexivSentence(prompt);
 }
 
 /**
@@ -208,25 +301,23 @@ function lemmaFromBankItem(item, topicKey) {
  * @return {string}
  */
 export function bankLemmaFromBody(body, topicKey) {
-  const bank = ALL_VERB_BANKS[topicKey];
-  if (!bank) return '';
-
   const normalized = normalizeQuestionBody(body);
   if (!normalized) return '';
 
-  for (const item of bank) {
-    const bankNorm = normalizeBankPrompt(item[0]);
-    if (bankNorm === normalized) {
-      const lemma = lemmaFromBankItem(item, topicKey);
-      if (lemma) return lemma;
+  for (const bank of banksForBody(topicKey)) {
+    for (const item of bank) {
+      const bankNorm = normalizeBankPrompt(item[0]);
+      if (bankNorm === normalized) {
+        const lemma = lemmaFromBankItem(item, topicKey);
+        if (lemma) return lemma;
+      }
     }
-  }
-
-  for (const item of bank) {
-    const bankNorm = normalizeBankPrompt(item[0]);
-    if (bankNorm.includes(normalized) || normalized.includes(bankNorm)) {
-      const lemma = lemmaFromBankItem(item, topicKey);
-      if (lemma) return lemma;
+    for (const item of bank) {
+      const bankNorm = normalizeBankPrompt(item[0]);
+      if (bankNorm.includes(normalized) || normalized.includes(bankNorm)) {
+        const lemma = lemmaFromBankItem(item, topicKey);
+        if (lemma) return lemma;
+      }
     }
   }
 

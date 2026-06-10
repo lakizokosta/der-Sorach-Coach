@@ -10,4 +10,4 @@ words:
   - klein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Artikel — des)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — Artikel — des)

@@ -8,4 +8,4 @@ words:
   - Arbeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — machen, du)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb bringen)

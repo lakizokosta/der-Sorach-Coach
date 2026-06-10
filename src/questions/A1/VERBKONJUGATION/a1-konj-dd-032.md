@@ -8,4 +8,4 @@ words:
   - heute
 ---
 
-[Wetter] Ordne die Wörter zum richtigen Satz: (Verb — scheinen, die)
+[Wetter] Ordne die Wörter zum richtigen Satz: (Präsens + Verb feiern)

@@ -11,4 +11,4 @@ words:
   - legen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wohin? — auf den)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)

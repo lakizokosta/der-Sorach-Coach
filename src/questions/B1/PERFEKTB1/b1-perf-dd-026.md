@@ -10,4 +10,4 @@ words:
   - gearbeitet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — habe gearbeitet)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

@@ -8,4 +8,4 @@ words:
   - nicht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — wusste)
+Ordne die Wörter zum richtigen Satz: (Präteritum + Verb wissen)

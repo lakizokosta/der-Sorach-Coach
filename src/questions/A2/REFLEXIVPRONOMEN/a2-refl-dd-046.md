@@ -9,4 +9,4 @@ words:
   - gut
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — fühle)
+Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb fühlen)

@@ -12,4 +12,4 @@ words:
   - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — den)
+Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)

@@ -11,4 +11,4 @@ words:
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — hört auf)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorverlegen)

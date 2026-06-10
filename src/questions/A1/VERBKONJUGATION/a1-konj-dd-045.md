@@ -8,4 +8,4 @@ words:
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — ruhen, er)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb aufstehen)

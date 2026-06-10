@@ -8,4 +8,4 @@ words:
   - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — treffen, wir)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb waschen)

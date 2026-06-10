@@ -10,4 +10,4 @@ words:
   - geführt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — hat geführt)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

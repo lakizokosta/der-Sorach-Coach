@@ -10,4 +10,4 @@ words:
   - gespielt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — hat gespielt)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)

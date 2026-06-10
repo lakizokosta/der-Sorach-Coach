@@ -9,4 +9,4 @@ words:
   - Spiegel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — sieht)
+Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb sehen)

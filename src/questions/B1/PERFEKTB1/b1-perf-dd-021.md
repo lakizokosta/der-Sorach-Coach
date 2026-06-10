@@ -10,4 +10,4 @@ words:
   - gelesen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — habe gelesen)
+Ordne die Wörter zum richtigen Satz: (Perfektform)

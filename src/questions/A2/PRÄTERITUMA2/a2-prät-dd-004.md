@@ -9,4 +9,4 @@ words:
   - Schule
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — waren)
+Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)

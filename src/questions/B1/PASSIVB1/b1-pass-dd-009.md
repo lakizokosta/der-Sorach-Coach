@@ -9,4 +9,4 @@ words:
   - gesendet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — wurde gesendet)
+Ordne die Wörter zum richtigen Satz: (Passiv + Verb gesendeen)

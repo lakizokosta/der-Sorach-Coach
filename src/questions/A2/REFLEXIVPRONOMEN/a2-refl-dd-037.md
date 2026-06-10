@@ -13,4 +13,4 @@ words:
   - Hotel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — treffen)
+Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb treffen)

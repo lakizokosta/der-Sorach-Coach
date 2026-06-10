@@ -10,4 +10,4 @@ words:
   - Zoo
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wohin? — in den)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)

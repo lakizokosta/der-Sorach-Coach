@@ -8,4 +8,4 @@ words:
   - gern
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — helfen, ich)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb spielen)

@@ -10,4 +10,4 @@ words:
   - Decke
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wo? — an der)
+Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)

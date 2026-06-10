@@ -9,4 +9,4 @@ words:
   - Bus
 ---
 
-[Transport] Ordne die Wörter zum richtigen Satz: (Verb — fahren, er)
+[Transport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb fahren)

@@ -8,4 +8,4 @@ words:
   - leicht
 ---
 
-[Wetter] Ordne die Wörter zum richtigen Satz: (Verb — regnen, es)
+[Wetter] Ordne die Wörter zum richtigen Satz: (Präsens + Verb trinken)

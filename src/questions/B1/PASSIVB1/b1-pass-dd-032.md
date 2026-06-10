@@ -9,4 +9,4 @@ words:
   - unterzeichnet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — wurde unterzeichnet)
+Ordne die Wörter zum richtigen Satz: (Passiv + Verb ffentlichen)

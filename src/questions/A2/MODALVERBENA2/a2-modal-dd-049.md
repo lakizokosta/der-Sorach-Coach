@@ -9,4 +9,4 @@ words:
   - ausruhen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb — wollen)
+Ordne die Wörter zum richtigen Satz: (Modalverb + Verb wollen)

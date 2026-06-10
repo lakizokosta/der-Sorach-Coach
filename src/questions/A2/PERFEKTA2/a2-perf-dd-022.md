@@ -11,4 +11,4 @@ words:
   - getroffen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — habe getroffen)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)

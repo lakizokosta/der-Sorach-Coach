@@ -23,4 +23,4 @@ codes:
   - L
 ---
 
-Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgens / aus gesundheitlichen Gründen / regelmäßig / im Park)
+Ordne die Wörter zum richtigen Satz: (TeKaMoLo-Reihenfolge)

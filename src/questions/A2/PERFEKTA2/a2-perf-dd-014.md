@@ -9,4 +9,4 @@ words:
   - verpasst
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — habe verpasst)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)

@@ -9,4 +9,4 @@ words:
   - untersucht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv — werden untersucht)
+Ordne die Wörter zum richtigen Satz: (Passiv + Verb verkaufen)

@@ -8,4 +8,4 @@ words:
   - Stadt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — meine)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — meine)

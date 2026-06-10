@@ -12,4 +12,4 @@ words:
   - Essen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — wäscht)
+Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb waschen)

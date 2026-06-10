@@ -9,4 +9,4 @@ words:
   - gemacht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — hat gemacht)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)

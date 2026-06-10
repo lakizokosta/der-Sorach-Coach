@@ -10,4 +10,4 @@ words:
   - kennengelernt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — bin gestern)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)

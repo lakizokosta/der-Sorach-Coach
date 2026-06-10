@@ -12,4 +12,4 @@ words:
   - gesungen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — haben gesungen)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)

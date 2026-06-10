@@ -8,4 +8,4 @@ words:
   - Text
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — schreiben, du)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb warten)

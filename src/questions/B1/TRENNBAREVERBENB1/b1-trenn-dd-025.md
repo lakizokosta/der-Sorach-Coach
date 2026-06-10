@@ -11,4 +11,4 @@ words:
   - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — freuen uns)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb durchgehen)

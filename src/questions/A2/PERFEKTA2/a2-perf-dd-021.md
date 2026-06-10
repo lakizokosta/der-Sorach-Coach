@@ -9,4 +9,4 @@ words:
   - gefahren
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — ist gefahren)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)

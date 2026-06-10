@@ -8,4 +8,4 @@ words:
   - Deutsch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb — lernen, sie Pl.)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb singen)

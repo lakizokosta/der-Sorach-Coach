@@ -10,4 +10,4 @@ words:
   - vor
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbar — bereitet vor)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

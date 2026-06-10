@@ -10,4 +10,4 @@ words:
   - ein
 ---
 
-Ordne die Wörter zum richtigen Satz: (trennbar — steige)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einsteigen)

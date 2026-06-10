@@ -69,6 +69,7 @@ function extractInnerHint(body) {
 }
 
 function needsHint(type, body) {
+  if (type === 'dropbox') return /\([^)]*\)\s*$/.test(body);
   if (!['select-one', 'multi-select', 'input-text'].includes(type)) return false;
   return body.includes('___');
 }
@@ -91,8 +92,10 @@ for (const full of walkMd(ROOT)) {
     if (sib) inner = extractInnerHint(sib.body) || inner;
   }
 
+  // Input-text and select-one siblings share an index but test different gaps —
+  // never borrow select-one options for input-text hints (e.g. REFLEXIVPRONOMEN).
   const siblingSo = siblingSelectOnePath(full, parsed.id);
-  if (siblingSo) {
+  if (siblingSo && parsed.type !== 'input-text') {
     const sib = parseMd(readFileSync(siblingSo, 'utf8'));
     if (sib?.options?.length) options = sib.options;
   }

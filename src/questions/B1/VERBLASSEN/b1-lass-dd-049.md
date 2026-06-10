@@ -11,4 +11,4 @@ words:
   - setzen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verblassen — lasse setzen)
+Ordne die Wörter zum richtigen Satz: (lassen + Verb schneiden)

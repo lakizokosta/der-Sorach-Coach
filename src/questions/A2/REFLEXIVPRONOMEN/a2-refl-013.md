@@ -9,4 +9,4 @@ options:
 correct: verletzt
 ---
 
-Er ___ sich den Rücken. (Reflexiv + Verb anziehen)
+Er ___ sich den Rücken. (Reflexiv + Verb verletzen)

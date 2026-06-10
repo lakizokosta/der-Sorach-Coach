@@ -11,4 +11,4 @@ words:
   - Mann
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum — kaufte)
+Ordne die Wörter zum richtigen Satz: (Präteritum + Verb kaufen)

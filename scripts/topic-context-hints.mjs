@@ -3,7 +3,14 @@
  * Example: "Sie ___ nach Berlin. (Präteritum + Verb ziehen)"
  */
 
-import { bankLemmaFromBody, bankLemmaFromId } from './verb-hint-banks.mjs';
+import {
+  bankLemmaFromBody,
+  bankLemmaFromId,
+  finiteToInfinitive,
+  infinitiveFromReflexivSentence,
+  lemmaFromReflexivBankItem,
+  normalizeQuestionBody,
+} from './verb-hint-banks.mjs';
 
 /** @type {Record<string, string>} */
 export const TOPIC_FORM_HINT = {
@@ -183,10 +190,15 @@ export function parseVerbLemmaFromInner(inner) {
   const formOnly = inner.match(/^[\wäöüÄÖÜß-]+form\s*—\s*([\wäöüÄÖÜß-]+(?:\s+[\wäöüÄÖÜß-]+)?)\s*$/i);
   if (formOnly && isLikelyLemma(formOnly[1])) return formOnly[1].trim();
 
+  const slash = inner.match(/([\wäöüÄÖÜß-]+)\s*\/\s*(?:ich|du|er|sie|wir|ihr|Sie|man|es)\b/i);
+  if (slash && isLikelyLemma(slash[1]) && !PERSON_MARK.test(slash[1])) {
+    return slash[1].trim();
+  }
+
   const dash = inner.match(/—\s*([^/—,]+?)(?:\/[^/—,)]+)?\s*$/);
   if (dash) {
     const verb = dash[1].trim();
-    if (isLikelyLemma(verb) && !/^(Präteritum|Perfekt|Modalverb|Reflexiv|Präsens)/i.test(verb)) {
+    if (isLikelyLemma(verb) && !/^(Präteritum|Perfekt|Modalverb|Reflexiv|Präsens|Reflexivpronomen)/i.test(verb)) {
       return verb;
     }
   }
@@ -310,7 +322,7 @@ function formatVerbHint(topic, lemma) {
     return `${label} + Hilfsverb werden`;
   }
   if (topic === 'REFLEXIVPRONOMEN' && lemma.toLowerCase().startsWith('sich ')) {
-    return `${label} + ${lemma}`;
+    return `${label} + Verb ${lemma.replace(/^sich\s+/i, '')}`;
   }
   return `${label} + Verb ${lemma}`;
 }
@@ -336,6 +348,81 @@ function inferPerfektLemma(inner, correct) {
   return fromInner;
 }
 
+const REFLEXIV_PRONOUNS = new Set(['mich', 'mir', 'dich', 'dir', 'sich', 'uns', 'euch', 'ihn', 'ihm']);
+const MODAL_ROOTS = /^(?:kann|kannst|könn|muss|musst|müss|soll|sollst|sollt|darf|darfst|dürf|will|willst|woll)/i;
+
+/** @param {string[]} options @param {string} body */
+function isReflexivPronounGap(options, body) {
+  if ((options || []).length >= 2 && (options || []).every((o) => REFLEXIV_PRONOUNS.has(String(o).toLowerCase()))) {
+    return true;
+  }
+  return /\w+\s+___\s+(?:auf|über|an|um|vor|bei|mit|nach|durch|in)\b/i.test(normalizeQuestionBody(body));
+}
+
+/** @param {string|string[]} correct */
+function reflexivPronounCaseHint(correct) {
+  const c = String((Array.isArray(correct) ? correct[0] : correct) || '').toLowerCase();
+  if (['mir', 'dir', 'ihm', 'uns', 'euch'].includes(c)) return 'Reflexivpronomen — Dativ';
+  return 'Reflexivpronomen — Akkusativ';
+}
+
+/** @param {string[]} options */
+function isModalOptionSet(options) {
+  return (options || []).length >= 2 && (options || []).every((o) => MODAL_ROOTS.test(String(o)));
+}
+
+/**
+ * Dedicated hint logic for all REFLEXIVPRONOMEN question types.
+ * @param {string} inner
+ * @param {string|string[]} correct
+ * @param {string[]} options
+ * @param {string} body
+ * @param {string} id
+ * @return {string}
+ */
+function reflexivFormHint(inner, correct, options, body, id) {
+  if (isReflexivPronounGap(options, body)) {
+    return reflexivPronounCaseHint(correct);
+  }
+
+  const sentence = normalizeQuestionBody(body);
+  const c = String((Array.isArray(correct) ? correct[0] : correct) || '').toLowerCase();
+
+  if (isModalOptionSet(options) && options.length > 0) {
+    const inf = infinitiveFromReflexivSentence(sentence) || '…';
+    return `Modalverb + Verb ${inf}`;
+  }
+
+  if ((HABEN_FORMS.has(c) || SEIN_FORMS.has(c)) && /\b\w+mich\s+\w+(?:t|et|en)\b/i.test(sentence.replace('___', 'mich '))) {
+    const pp = sentence.match(/\bmich\s+(\w+(?:t|et|en))\b/i);
+    if (pp) {
+      const inf = finiteToInfinitive(pp[1]) || pp[1].replace(/t$/, 'ten').replace(/et$/, 'eten');
+      const aux = HABEN_FORMS.has(c) ? 'haben' : 'sein';
+      if (inf && /(?:en|eln|ern)$/i.test(inf)) {
+        return `Perfekt + Hilfsverb ${aux} + Verb ${inf}`;
+      }
+    }
+  }
+
+  const oldFinite = inner.match(/^Reflexiv\s*—\s*(\S+)/i);
+  if (oldFinite) {
+    const inf = finiteToInfinitive(oldFinite[1]);
+    if (inf) return formatVerbHint('REFLEXIVPRONOMEN', inf);
+  }
+
+  let lemma = bankLemmaFromBody(body, 'REFLEXIVPRONOMEN')
+    || bankLemmaFromId(id, 'REFLEXIVPRONOMEN')
+    || lemmaFromReflexivBankItem(sentence, options, correct)
+    || parseVerbLemmaFromInner(inner)
+    || extractInfinitiveFromOptions(options, correct)
+    || infinitiveFromReflexivSentence(sentence)
+    || finiteToInfinitive(c);
+
+  if (lemma && PERSON_MARK.test(lemma)) lemma = '';
+
+  return formatVerbHint('REFLEXIVPRONOMEN', lemma);
+}
+
 /**
  * @param {string} topic
  * @param {string} [inner]
@@ -344,6 +431,11 @@ function inferPerfektLemma(inner, correct) {
  * @return {string}
  */
 export function verbFormHint(topic, inner = '', correct = [], options = [], body = '', id = '') {
+  if (topic === 'REFLEXIVPRONOMEN') {
+    const hint = reflexivFormHint(inner, correct, options, body, id);
+    if (hint && !/^Reflexivform$/i.test(hint)) return hint;
+  }
+
   let lemma = bankLemmaFromBody(body, topic) || bankLemmaFromId(id, topic) || '';
 
   if (!lemma) lemma = parseVerbLemmaFromInner(inner);

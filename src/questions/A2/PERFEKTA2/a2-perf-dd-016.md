@@ -11,4 +11,4 @@ words:
   - gebucht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt — haben gebucht)
+Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)

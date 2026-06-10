@@ -9,4 +9,4 @@ words:
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (trennbar — mache)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmachen)
