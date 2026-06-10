@@ -72,7 +72,7 @@ onBeforeUnmount(() => document.removeEventListener('click', handleOutsideClick))
       "
     >
       <div style="font-weight: 900; color: #AB4DBB; font-size: 14px;">
-        📖 {{ target.word }}
+        {{ target.word }}
       </div>
       <div style="display: flex; gap: 4px;">
         <button

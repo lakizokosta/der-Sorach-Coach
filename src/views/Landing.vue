@@ -75,6 +75,18 @@ function onNiveauTestClick() {
   if (!isPremium.value) return;
   router.push({ name: 'trainer', query: { mode: 'placement' } });
 }
+
+const pricingCompareRows = [
+  { label: 'Kein Zeitlimit', free: '5 Min', basis: '✅', premium: '✅' },
+  { label: 'A1–B2', free: '✅', basis: '✅', premium: '✅' },
+  { label: 'Streak & Rekord', free: '✅', basis: '✅', premium: '✅' },
+  { label: 'Fehler-Analyse', free: '❌', basis: '✅', premium: '✅' },
+  { label: 'Nach Themen', free: '❌', basis: '❌', premium: '✅' },
+  { label: 'Niveau-Test', free: '❌', basis: '❌', premium: '✅' },
+  { label: 'Grammatik-Tipps', free: '❌', basis: '❌', premium: '✅' },
+  { label: 'Streak Freeze', free: '❌', basis: '❌', premium: '✅' },
+  { label: 'Wort-Wörterbuch', free: '❌', basis: '❌', premium: '✅' },
+];
 </script>
 
 <template>
@@ -141,7 +153,6 @@ function onNiveauTestClick() {
         @click="onNiveauTestClick"
       >
         <span class="niveau-test-btn__label">
-          📊
           {{
             cefrLevel
               ? `Niveau ${cefrLevel} — erneut testen`
@@ -176,117 +187,49 @@ function onNiveauTestClick() {
       </button>
     </div>
 
-    <section
-      style="
-        max-width: 360px;
-        margin: 18px auto;
-        overflow: hidden;
-        border-radius: 16px;
-        border: 1.5px solid #e0c8f0;
-        font-size: 13px;
-      "
-    >
-      <div
-        style="
-          display: grid;
-          grid-template-columns: 1.4fr 1fr 1fr 1fr;
-          background: #f9f3ff;
-        "
-      >
-        <div style="padding: 10px 8px;"></div>
-        <div style="padding: 10px 4px; text-align: center; font-weight: 700; color: #bbb;">
-          Kostenlos
-        </div>
-        <div style="padding: 10px 4px; text-align: center; font-weight: 900; color: #AB4DBB;">
-          ⏱️ Basis
-        </div>
-        <div
-          style="
-            padding: 10px 4px;
-            text-align: center;
-            font-weight: 900;
-            color: #AB4DBB;
-            background: rgba(171, 77, 187, 0.08);
-          "
-        >
-          💎 Premium
-        </div>
-      </div>
+    <details class="pricing-compare">
+      <summary class="pricing-compare__summary">
+        <span class="pricing-compare__title">Tarife vergleichen</span>
+        <span class="pricing-compare__meta">Gratis · Basis 4,99€ · Premium 19€</span>
+      </summary>
 
-      <template
-        v-for="row in [
-          { label: 'Kein Zeitlimit', free: '5 Min', basis: '✅', premium: '✅' },
-          { label: 'A1–B2', free: '✅', basis: '✅', premium: '✅' },
-          { label: 'Streak & Rekord', free: '✅', basis: '✅', premium: '✅' },
-          { label: 'Fehler-Analyse', free: '❌', basis: '✅', premium: '✅' },
-          { label: 'Nach Themen', free: '❌', basis: '❌', premium: '✅' },
-          { label: 'Grammatik-Tipps', free: '❌', basis: '❌', premium: '✅' },
-          { label: 'Streak Freeze ❄️', free: '❌', basis: '❌', premium: '✅' },
-          { label: 'Wort-Wörterbuch 📖', free: '❌', basis: '❌', premium: '✅' },
-        ]"
-        :key="row.label"
-      >
+      <div class="pricing-compare__body">
+        <div class="pricing-compare__row pricing-compare__row--head">
+          <div class="pricing-compare__cell pricing-compare__cell--label"></div>
+          <div class="pricing-compare__cell pricing-compare__cell--tier pricing-compare__cell--muted">
+            Kostenlos
+          </div>
+          <div class="pricing-compare__cell pricing-compare__cell--tier">⏱️ Basis</div>
+          <div class="pricing-compare__cell pricing-compare__cell--tier pricing-compare__cell--premium">
+            💎 Premium
+          </div>
+        </div>
+
         <div
-          style="
-            display: grid;
-            grid-template-columns: 1.4fr 1fr 1fr 1fr;
-            background: #fff;
-            border-top: 1px solid #ecdff8;
-          "
+          v-for="row in pricingCompareRows"
+          :key="row.label"
+          class="pricing-compare__row"
         >
-          <div style="padding: 9px 8px; color: #555;">{{ row.label }}</div>
-          <div style="padding: 9px 4px; text-align: center; color: #999;">
-            {{ row.free }}
-          </div>
-          <div
-            style="padding: 9px 4px; text-align: center; color: #2e7d32; font-weight: 700;"
-          >
-            {{ row.basis }}
-          </div>
-          <div
-            style="
-              padding: 9px 4px;
-              text-align: center;
-              color: #2e7d32;
-              font-weight: 700;
-              background: rgba(171, 77, 187, 0.04);
-            "
-          >
+          <div class="pricing-compare__cell pricing-compare__cell--label">{{ row.label }}</div>
+          <div class="pricing-compare__cell pricing-compare__cell--muted">{{ row.free }}</div>
+          <div class="pricing-compare__cell pricing-compare__cell--ok">{{ row.basis }}</div>
+          <div class="pricing-compare__cell pricing-compare__cell--ok pricing-compare__cell--premium">
             {{ row.premium }}
           </div>
         </div>
-      </template>
 
-      <div
-        style="
-          display: grid;
-          grid-template-columns: 1.4fr 1fr 1fr 1fr;
-          border-top: 2px solid #e0c8f0;
-          background: #f9f3ff;
-        "
-      >
-        <div style="padding: 10px 8px; font-weight: 700; color: #777; font-size: 12px;">
-          Preis
-        </div>
-        <div style="padding: 10px 4px; text-align: center; font-weight: 700; color: #999;">
-          Gratis
-        </div>
-        <div style="padding: 10px 4px; text-align: center; font-weight: 900; color: #AB4DBB;">
-          4,99€<div style="font-size: 9px; font-weight: 400; color: #999;">einmalig</div>
-        </div>
-        <div
-          style="
-            padding: 10px 4px;
-            text-align: center;
-            font-weight: 900;
-            color: #AB4DBB;
-            background: rgba(171, 77, 187, 0.08);
-          "
-        >
-          19€<div style="font-size: 9px; font-weight: 400; color: #999;">/Monat</div>
+        <div class="pricing-compare__row pricing-compare__row--price">
+          <div class="pricing-compare__cell pricing-compare__cell--label">Preis</div>
+          <div class="pricing-compare__cell pricing-compare__cell--muted">Gratis</div>
+          <div class="pricing-compare__cell pricing-compare__cell--price">
+            4,99€<span class="pricing-compare__sub">einmalig</span>
+          </div>
+          <div class="pricing-compare__cell pricing-compare__cell--price pricing-compare__cell--premium">
+            19€<span class="pricing-compare__sub">/Monat</span>
+          </div>
         </div>
       </div>
-    </section>
+    </details>
 
     <div class="landing-cta-stack">
       <button

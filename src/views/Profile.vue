@@ -251,7 +251,7 @@ function shareCard() {
               <div style="font-size: 28px; font-weight: 900; color: #69c43b;">
                 {{ streak.freezes }}
               </div>
-              <div class="small-note" style="text-transform: uppercase;">❄️ Freezes</div>
+              <div class="small-note" style="text-transform: uppercase;">Freezes</div>
             </div>
           </div>
           <div style="margin-top: 10px; text-align: center;" class="small-note">

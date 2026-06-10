@@ -644,7 +644,7 @@ watch(lastAnswerResolved, (resolved) => {
         "
       >
         <div style="font-size: 48px; margin-bottom: 8px;">
-          {{ placementDetectedLevel ? '📊' : scorePct >= 80 ? '🏆' : scorePct >= 60 ? '💪' : '📚' }}
+          {{ placementDetectedLevel ? '🎯' : scorePct >= 80 ? '🏆' : scorePct >= 60 ? '💪' : '📚' }}
         </div>
         <div style="font-size: 22px; font-weight: 900;">
           {{
@@ -796,7 +796,7 @@ watch(lastAnswerResolved, (resolved) => {
           "
           @click="startPlacement"
         >
-          📊 Niveau testen (Premium)
+          Niveau testen (Premium)
         </button>
       </div>
 
@@ -865,7 +865,7 @@ watch(lastAnswerResolved, (resolved) => {
 
     <div class="small-note">
       <template v-if="placementMode">
-        📊 Niveau-Test
+        Niveau-Test
         <span v-if="currentQuestion"> — Block {{ currentQuestion.level }}</span>
         <span class="placement-hint"> · zählt nicht zum Tagesziel</span>
       </template>

@@ -61,7 +61,7 @@ for (const [path, n] of counts) {
   if (!catalog) orphans.push({ path, n });
 }
 
-console.log('\n📊 Question bank coverage\n');
+console.log('\nQuestion bank coverage\n');
 console.log(`Premium topics in catalog: ${totalCatalog}`);
 console.log(`Topics with ≥1 question:    ${totalWithQuestions} (${Math.round((totalWithQuestions / totalCatalog) * 100)}%)`);
 console.log(`Total .md question files:   ${[...counts.values()].reduce((a, b) => a + b, 0)}`);

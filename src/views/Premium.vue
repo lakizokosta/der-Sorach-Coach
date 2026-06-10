@@ -792,7 +792,7 @@ function topicMastered(key) {
                   {{ streak.freezes }}
                 </div>
                 <div class="small-note" style="text-transform: uppercase;">
-                  ❄️ Freezes
+                  Freezes
                 </div>
               </div>
             </div>
