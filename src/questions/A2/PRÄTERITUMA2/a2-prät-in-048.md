@@ -5,4 +5,4 @@ correct:
   - zog
 ---
 
-Sie ___ nach Berlin. (Präteritum — sie)
+Sie ___ nach Berlin. (Präteritumsform — getrunken)

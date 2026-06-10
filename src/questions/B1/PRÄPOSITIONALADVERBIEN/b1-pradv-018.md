@@ -9,4 +9,4 @@ options:
 correct: darauf
 ---
 
-Freust du dich auf die Reise? — Ich freue mich ___.
+Freust du dich auf die Reise? — Ich freue mich ___. (Pronominaladverb)

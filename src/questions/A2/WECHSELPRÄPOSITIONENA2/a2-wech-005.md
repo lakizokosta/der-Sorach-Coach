@@ -9,4 +9,4 @@ options:
 correct: auf der
 ---
 
-Wo steht der Bus? — ___ Straße.
+Wo steht der Bus? — ___ Straße. (Dativ oder Akkusativ — Wo?)

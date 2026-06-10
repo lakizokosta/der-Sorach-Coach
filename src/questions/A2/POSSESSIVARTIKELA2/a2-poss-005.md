@@ -9,4 +9,4 @@ options:
 correct: unsere
 ---
 
-Wir besuchen ___ Großeltern.
+Wir besuchen ___ Großeltern. (Possessivartikel — wir, Pl., Akk.)

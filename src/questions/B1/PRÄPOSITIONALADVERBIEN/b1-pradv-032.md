@@ -9,4 +9,4 @@ options:
 correct: daran
 ---
 
-Wann denkst du an den Termin? — Ich denke ___.
+Wann denkst du an den Termin? — Ich denke ___. (Pronominaladverb)

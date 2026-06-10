@@ -9,4 +9,4 @@ options:
 correct: ob
 ---
 
-Wir wissen nicht, ___ das Problem gelöst wird.
+Wir wissen nicht, ___ das Problem gelöst wird. (Indirekte Frage)

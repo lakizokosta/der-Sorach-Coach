@@ -9,5 +9,4 @@ options:
 correct: deine
 ---
 
-___ Mutter kocht gern. (du)
-
+___ Mutter kocht gern. (Possessivartikel — ich, neutr., Nom.)

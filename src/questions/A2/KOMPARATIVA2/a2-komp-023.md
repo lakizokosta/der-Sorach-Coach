@@ -9,4 +9,4 @@ options:
 correct: billiger
 ---
 
-Heute ist es ___ als gestern. (billig)
+Heute ist es ___ als gestern. (Komparativ — schön)

@@ -9,4 +9,4 @@ options:
 correct: lade
 ---
 
-Hiermit ___ ich Sie herzlich zu unserer Informationsveranstaltung am 20. Oktober ein.
+Hiermit ___ ich Sie herzlich zu unserer Informationsveranstaltung am 20. Oktober ein. (Grammatikform)

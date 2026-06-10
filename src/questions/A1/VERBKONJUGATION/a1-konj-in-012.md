@@ -5,4 +5,4 @@ correct:
   - isst
 ---
 
-Du ___ gern Obst. (essen, du)
+Du ___ gern Obst. (Präsensform — tanzen)

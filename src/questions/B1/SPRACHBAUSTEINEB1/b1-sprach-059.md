@@ -9,4 +9,4 @@ options:
 correct: rechtzeitig
 ---
 
-Sollten Sie den Termin nicht wahrnehmen können, teilen Sie uns dies bitte ___ mit.
+Sollten Sie den Termin nicht wahrnehmen können, teilen Sie uns dies bitte ___ mit. (Grammatikform)

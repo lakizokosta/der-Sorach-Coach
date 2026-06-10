@@ -9,5 +9,4 @@ options:
 correct: unseren
 ---
 
-Wir werfen ___ Freund. (wir)
-
+Wir werfen ___ Freund. (Possessivartikel — ich, Pl., Akk.)

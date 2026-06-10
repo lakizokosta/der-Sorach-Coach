@@ -9,4 +9,4 @@ options:
 correct: jemanden
 ---
 
-Hast du ___ in der Menge gesehen?
+Hast du ___ in der Menge gesehen? (Indefinitpronomen)

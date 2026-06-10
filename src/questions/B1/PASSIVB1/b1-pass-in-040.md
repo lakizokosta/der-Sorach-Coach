@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Der Termin ___ verschoben. (Passiv — werden)
+Der Termin ___ verschoben. (Passivform)

@@ -9,4 +9,4 @@ options:
 correct: an
 ---
 
-Das Hotel liegt ___ der Küste.
+Das Hotel liegt ___ der Küste. (Präposition)

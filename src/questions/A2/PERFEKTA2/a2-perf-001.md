@@ -9,4 +9,4 @@ options:
 correct: bin
 ---
 
-Ich ___ gestern ins Kino gegangen.
+Ich ___ gestern ins Kino gegangen. (Perfektform — sein)

@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Die Prüfung ___ in zwei Räumen durchgeführt.
+Die Prüfung ___ in zwei Räumen durchgeführt. (Passivform)

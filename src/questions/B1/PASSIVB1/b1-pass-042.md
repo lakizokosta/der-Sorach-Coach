@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Das Haus ___ früher als Schule genutzt.
+Das Haus ___ früher als Schule genutzt. (Passivform)

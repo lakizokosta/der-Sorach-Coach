@@ -9,4 +9,4 @@ options:
 correct: eines schwerwiegenden
 ---
 
-Aufgrund ___ Fehlers musste die Prüfung wiederholt werden.
+Aufgrund ___ Fehlers musste die Prüfung wiederholt werden. (Genitivform)

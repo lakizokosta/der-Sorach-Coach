@@ -9,4 +9,4 @@ options:
 correct: der
 ---
 
-Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert.
+Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert. (Grammatikform)

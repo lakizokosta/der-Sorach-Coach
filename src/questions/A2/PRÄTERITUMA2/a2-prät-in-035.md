@@ -5,4 +5,4 @@ correct:
   - spielte
 ---
 
-Als Kind ___ ich gern Fußball. (Präteritum — ich)
+Als Kind ___ ich gern Fußball. (Präteritumsform — spielen)

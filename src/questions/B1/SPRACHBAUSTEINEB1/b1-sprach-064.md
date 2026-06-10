@@ -9,4 +9,4 @@ options:
 correct: bei
 ---
 
-Das Seminar wurde trotz der Ferienzeit ___ großem Interesse wahrgenommen.
+Das Seminar wurde trotz der Ferienzeit ___ großem Interesse wahrgenommen. (Grammatikform)

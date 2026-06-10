@@ -9,4 +9,4 @@ options:
 correct: weil
 ---
 
-Ich bleibe zu Hause, ___ ich krank bin.
+Ich bleibe zu Hause, ___ ich krank bin. (Konjunktion — Bedingung)

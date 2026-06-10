@@ -9,4 +9,4 @@ options:
 correct: Bevor
 ---
 
-___, du gehst, schließe bitte die Tür.
+___, du gehst, schließe bitte die Tür. (Temporalnebensatz)

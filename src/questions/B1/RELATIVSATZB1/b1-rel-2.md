@@ -9,4 +9,4 @@ options:
 correct: das
 ---
 
-Das Buch, ___ ich gelesen habe, war spannend.
+Das Buch, ___ ich gelesen habe, war spannend. (Relativpronomen)

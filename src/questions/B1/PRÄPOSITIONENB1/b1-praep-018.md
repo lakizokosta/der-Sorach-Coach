@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Wir warten ___ den Arzt.
+Wir warten ___ den Arzt. (Präposition)

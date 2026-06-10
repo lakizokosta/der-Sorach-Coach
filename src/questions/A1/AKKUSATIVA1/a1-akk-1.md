@@ -9,4 +9,4 @@ options:
 correct: den
 ---
 
-Ich sehe ___ Mann.
+Ich sehe ___ Mann. (Akkusativform)

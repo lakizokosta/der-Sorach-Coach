@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Sie wohnt ___ dem Land.
+Sie wohnt ___ dem Land. (Präposition)

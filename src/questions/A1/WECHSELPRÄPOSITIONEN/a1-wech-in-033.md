@@ -5,4 +5,4 @@ correct:
   - an die
 ---
 
-Er hängt das Plakat ___ Wand. (Wechselpräpositionen — Bewegung)
+Er hängt das Plakat ___ Wand. (Dativ oder Akkusativ)

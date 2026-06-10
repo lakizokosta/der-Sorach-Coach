@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Infolge ___ (die) Reform änderten sich viele Regeln.
+Infolge ___ (die) Reform änderten sich viele Regeln. (Genitivform)

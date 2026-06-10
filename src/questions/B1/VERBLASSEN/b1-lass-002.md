@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Er ___ sich von einem Spezialisten beraten.
+Er ___ sich von einem Spezialisten beraten. (lassen + Infinitiv)

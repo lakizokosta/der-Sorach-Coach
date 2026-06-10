@@ -9,4 +9,4 @@ options:
 correct: macht
 ---
 
-Sie ___ das Licht aus, wenn sie geht.
+Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb)

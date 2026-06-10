@@ -9,4 +9,4 @@ options:
 correct: Infolge
 ---
 
-___ des Sturms blieben viele Häuser ohne Strom.
+___ des Sturms blieben viele Häuser ohne Strom. (Genitivform)

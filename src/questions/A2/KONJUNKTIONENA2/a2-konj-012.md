@@ -9,4 +9,4 @@ options:
 correct: wenn
 ---
 
-Kommst du mit, ___ du Zeit hast?
+Kommst du mit, ___ du Zeit hast? (Konjunktion — Bedingung)

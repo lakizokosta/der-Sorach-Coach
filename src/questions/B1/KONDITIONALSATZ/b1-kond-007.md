@@ -9,4 +9,4 @@ options:
 correct: Sobald
 ---
 
-___ der Arzt kommt, warten wir im Wartezimmer.
+___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz — wenn)

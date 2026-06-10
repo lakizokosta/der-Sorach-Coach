@@ -9,4 +9,4 @@ options:
 correct: seitdem
 ---
 
-Sie arbeitet dort, ___ sie ihren Abschluss machte.
+Sie arbeitet dort, ___ sie ihren Abschluss machte. (Temporalnebensatz)

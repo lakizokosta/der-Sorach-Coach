@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Die Straße ___ wegen Bauarbeiten gesperrt.
+Die Straße ___ wegen Bauarbeiten gesperrt. (Passivform — worden)

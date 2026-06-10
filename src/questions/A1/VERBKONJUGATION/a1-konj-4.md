@@ -5,4 +5,4 @@ correct:
   - gehe
 ---
 
-Ich ___ morgen zur Schule. (gehen)
+Ich ___ morgen zur Schule. (Präsensform)

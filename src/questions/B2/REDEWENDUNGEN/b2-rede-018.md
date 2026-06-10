@@ -9,4 +9,4 @@ options:
 correct: Laufenden
 ---
 
-Bleib auf dem ___ — informiere dich regelmäßig!
+Bleib auf dem ___ — informiere dich regelmäßig! (Redewendung)

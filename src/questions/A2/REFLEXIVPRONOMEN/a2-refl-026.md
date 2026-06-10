@@ -9,4 +9,4 @@ options:
 correct: sollst
 ---
 
-Du ___ dich ausruhen.
+Du ___ dich ausruhen. (Reflexivform — freuen)

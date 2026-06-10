@@ -9,4 +9,4 @@ options:
 correct: Dieses
 ---
 
-___ Reiseziel empfehle ich dir besonders.
+___ Reiseziel empfehle ich dir besonders. (Demonstrativartikel)

@@ -9,4 +9,4 @@ options:
 correct: nicht
 ---
 
-Das ist ___ richtig.
+Das ist ___ richtig. (Negation)

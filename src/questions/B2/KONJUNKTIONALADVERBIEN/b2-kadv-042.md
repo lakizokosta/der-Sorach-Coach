@@ -9,4 +9,4 @@ options:
 correct: infolgedessen
 ---
 
-Er hat Fehler gemacht; ___ wurde er kritisiert.
+Er hat Fehler gemacht; ___ wurde er kritisiert. (Konjunktionaladverb)

@@ -9,4 +9,4 @@ options:
 correct: sei
 ---
 
-Sie behauptete, sie ___ nie dort gewesen.
+Sie behauptete, sie ___ nie dort gewesen. (Indirekte Rede)

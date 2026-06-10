@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Er liest ___ Mitteilung am Arbeitsplatz. (Akkusativ — die Mitteilung)
+Er liest ___ Mitteilung am Arbeitsplatz. (Akkusativ — Akkusativform)

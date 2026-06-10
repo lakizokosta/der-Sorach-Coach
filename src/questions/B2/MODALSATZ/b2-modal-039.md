@@ -9,4 +9,4 @@ options:
 correct: Statt
 ---
 
-___ dass er fragte, nahm er einfach das Buch.
+___ dass er fragte, nahm er einfach das Buch. (Modalsatz)

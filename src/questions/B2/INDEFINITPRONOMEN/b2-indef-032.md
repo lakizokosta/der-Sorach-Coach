@@ -9,4 +9,4 @@ options:
 correct: Jemand
 ---
 
-___ von euch kann mir helfen?
+___ von euch kann mir helfen? (Indefinitpronomen)

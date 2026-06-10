@@ -9,4 +9,4 @@ options:
 correct: statt
 ---
 
-Die mündliche Prüfung findet am Dienstag um 10 Uhr im Raum B12 ___.
+Die mündliche Prüfung findet am Dienstag um 10 Uhr im Raum B12 ___. (Grammatikform)

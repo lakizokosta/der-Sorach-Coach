@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Er ___ das Medikament eingenommen. (Perfekt — haben/sein)
+Er ___ das Medikament eingenommen. (Perfektform — haben)

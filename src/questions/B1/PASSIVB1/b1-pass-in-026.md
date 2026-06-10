@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Die Ergebnisse ___ nächste Woche bekannt gegeben. (Passiv)
+Die Ergebnisse ___ nächste Woche bekannt gegeben. (Passivform — werden)

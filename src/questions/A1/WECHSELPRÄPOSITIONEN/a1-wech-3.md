@@ -9,4 +9,4 @@ options:
 correct: auf den
 ---
 
-Leg das Buch ___ Tisch. (Bewegung)
+Leg das Buch ___ Tisch. (Dativ oder Akkusativ)

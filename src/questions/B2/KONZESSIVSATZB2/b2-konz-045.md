@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___, obgleich er gewarnt worden war, fuhr er zu schnell.
+___, obgleich er gewarnt worden war, fuhr er zu schnell. (Konzessivsatz)

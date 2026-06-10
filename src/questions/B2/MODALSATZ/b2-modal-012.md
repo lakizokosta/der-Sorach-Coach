@@ -9,4 +9,4 @@ options:
 correct: Ohne
 ---
 
-___ dass er es wusste, sagte er nichts.
+___ dass er es wusste, sagte er nichts. (Modalsatz)

@@ -9,4 +9,4 @@ options:
 correct: ihr
 ---
 
-Das ist ___ Auto. (sie, Plural)
+Das ist ___ Auto. (Possessivartikel — sie, Plural)

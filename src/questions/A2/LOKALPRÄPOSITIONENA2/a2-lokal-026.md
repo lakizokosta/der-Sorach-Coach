@@ -9,4 +9,4 @@ options:
 correct: über
 ---
 
-Das Bild hängt ___ der Tür.
+Das Bild hängt ___ der Tür. (Lokalpräposition)

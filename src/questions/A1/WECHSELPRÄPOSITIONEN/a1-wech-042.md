@@ -9,5 +9,4 @@ options:
 correct: ins
 ---
 
-Ich gehe ___ Kino. (Bewegung → Akkusativ)
-
+Ich gehe ___ Kino. (Dativ oder Akkusativ)

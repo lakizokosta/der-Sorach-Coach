@@ -9,4 +9,4 @@ options:
 correct: wasche
 ---
 
-Ich ___ mich jeden Morgen.
+Ich ___ mich jeden Morgen. (Reflexivform — waschen)

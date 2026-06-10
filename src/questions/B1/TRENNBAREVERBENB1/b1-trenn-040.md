@@ -9,4 +9,4 @@ options:
 correct: geht
 ---
 
-Er ___ die Nachrichten jeden Morgen durch.
+Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb)

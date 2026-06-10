@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Patienten ___ regelmäßig untersucht.
+Die Patienten ___ regelmäßig untersucht. (Passivform — werden)

@@ -5,4 +5,4 @@ correct:
   - ist
 ---
 
-Ein Kompromiss ___ gefunden worden. (sein, Perfekt)
+Ein Kompromiss ___ gefunden worden. (Passivform — sein)

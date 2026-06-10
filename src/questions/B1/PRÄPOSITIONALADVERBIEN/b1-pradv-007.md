@@ -9,4 +9,4 @@ options:
 correct: darauf
 ---
 
-Wartest du auf die Ergebnisse? — Ich warte ___.
+Wartest du auf die Ergebnisse? — Ich warte ___. (Pronominaladverb)

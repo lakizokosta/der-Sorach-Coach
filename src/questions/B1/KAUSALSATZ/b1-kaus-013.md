@@ -9,4 +9,4 @@ options:
 correct: weil
 ---
 
-Ich trinke Tee, ___ ich Halsweh habe.
+Ich trinke Tee, ___ ich Halsweh habe. (Kausalsatz)

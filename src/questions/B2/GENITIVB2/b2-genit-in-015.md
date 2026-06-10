@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Während ___ (der) Prüfung durfte nicht gesprochen werden.
+Während ___ (der) Prüfung durfte nicht gesprochen werden. (Genitivform)

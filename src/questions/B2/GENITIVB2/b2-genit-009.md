@@ -9,4 +9,4 @@ options:
 correct: Vor
 ---
 
-___ des Hauses steht ein alter Brunnen.
+___ des Hauses steht ein alter Brunnen. (Genitivform)

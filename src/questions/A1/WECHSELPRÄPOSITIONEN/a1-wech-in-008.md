@@ -5,4 +5,4 @@ correct:
   - auf die
 ---
 
-Wir fahren ___ Straße. (Wechselpräpositionen — Bewegung)
+Wir fahren ___ Straße. (Dativ oder Akkusativ)

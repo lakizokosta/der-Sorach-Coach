@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Die Straße ___ gesperrt. (werden, Präsens)
+Die Straße ___ gesperrt. (Passivform — geworden)

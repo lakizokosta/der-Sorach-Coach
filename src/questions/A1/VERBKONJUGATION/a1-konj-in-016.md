@@ -5,4 +5,4 @@ correct:
   - arbeite
 ---
 
-Ich ___ von 9 bis 17 Uhr. (arbeiten, ich)
+Ich ___ von 9 bis 17 Uhr. (Präsensform — lernen)

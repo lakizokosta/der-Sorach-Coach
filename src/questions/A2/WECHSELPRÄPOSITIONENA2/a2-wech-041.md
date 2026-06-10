@@ -9,4 +9,4 @@ options:
 correct: in der
 ---
 
-Wo ist das Museum? — ___ Stadtmitte.
+Wo ist das Museum? — ___ Stadtmitte. (Dativ oder Akkusativ — Wo?)

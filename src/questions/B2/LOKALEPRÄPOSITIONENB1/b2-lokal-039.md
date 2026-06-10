@@ -9,4 +9,4 @@ options:
 correct: am
 ---
 
-Das Hotel liegt ___ dem See.
+Das Hotel liegt ___ dem See. (Lokale Präposition)

@@ -9,4 +9,4 @@ options:
 correct: obwohl
 ---
 
-Sie lachte, ___ ihr nichts lustig vorkam.
+Sie lachte, ___ ihr nichts lustig vorkam. (Konzessivsatz)

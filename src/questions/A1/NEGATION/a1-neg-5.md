@@ -9,4 +9,4 @@ options:
 correct: nie
 ---
 
-Ich bin ___ spät dran.
+Ich bin ___ spät dran. (Negation)

@@ -9,4 +9,4 @@ options:
 correct: Solange
 ---
 
-___, er krank war, blieb er zu Hause.
+___, er krank war, blieb er zu Hause. (Temporalnebensatz)

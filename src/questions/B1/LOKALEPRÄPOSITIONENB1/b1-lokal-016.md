@@ -9,4 +9,4 @@ options:
 correct: gegenüber
 ---
 
-Das Büro liegt direkt ___ dem Bahnhof.
+Das Büro liegt direkt ___ dem Bahnhof. (Lokale Präposition)

@@ -9,4 +9,4 @@ options:
 correct: Wegen
 ---
 
-___ des Regens blieben wir zu Hause.
+___ des Regens blieben wir zu Hause. (Genitiv-Präposition)

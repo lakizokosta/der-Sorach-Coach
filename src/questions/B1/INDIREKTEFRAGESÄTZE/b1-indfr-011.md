@@ -9,4 +9,4 @@ options:
 correct: wie lange
 ---
 
-Ich bin gespannt, ___ die Reise dauert.
+Ich bin gespannt, ___ die Reise dauert. (Indirekte Frage)

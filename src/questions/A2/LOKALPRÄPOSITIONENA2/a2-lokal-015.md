@@ -9,4 +9,4 @@ options:
 correct: auf der rechten Seite
 ---
 
-Vom Eingang der Mall aus: Die Apotheke ist ___ .
+Vom Eingang der Mall aus: Die Apotheke ist ___ . (Lokalpräposition + Akk.)

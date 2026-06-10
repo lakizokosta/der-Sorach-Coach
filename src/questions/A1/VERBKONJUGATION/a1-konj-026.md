@@ -9,5 +9,4 @@ options:
 correct: koche
 ---
 
-Ich ___ Pasta zum Abendessen. (kochen)
-
+Ich ___ Pasta zum Abendessen. (Präsensform — kochen)

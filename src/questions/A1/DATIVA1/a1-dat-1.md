@@ -9,4 +9,4 @@ options:
 correct: dem
 ---
 
-Ich helfe ___ Mann.
+Ich helfe ___ Mann. (Dativform)

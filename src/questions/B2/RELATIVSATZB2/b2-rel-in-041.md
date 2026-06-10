@@ -5,4 +5,4 @@ correct:
   - denen
 ---
 
-Die Studenten, mit ___ wir diskutierten, waren engagiert. (denen)
+Die Studenten, mit ___ wir diskutierten, waren engagiert. (Relativpronomen)

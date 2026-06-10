@@ -9,4 +9,4 @@ options:
 correct: ob
 ---
 
-Ich weiß nicht, ___ der Termin stattfindet.
+Ich weiß nicht, ___ der Termin stattfindet. (Indirekte Frage)

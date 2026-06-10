@@ -9,4 +9,4 @@ options:
 correct: ohne dass
 ---
 
-Er antwortete, ___ er nachdachte.
+Er antwortete, ___ er nachdachte. (Modalsatz)

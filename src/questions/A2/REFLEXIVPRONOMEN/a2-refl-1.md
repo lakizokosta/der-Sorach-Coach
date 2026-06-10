@@ -9,4 +9,4 @@ options:
 correct: mich
 ---
 
-Ich freue ___ auf die Ferien.
+Ich freue ___ auf die Ferien. (Reflexivform)

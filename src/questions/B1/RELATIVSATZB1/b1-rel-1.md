@@ -9,4 +9,4 @@ options:
 correct: der
 ---
 
-Der Mann, ___ dort steht, ist mein Lehrer.
+Der Mann, ___ dort steht, ist mein Lehrer. (Relativpronomen)

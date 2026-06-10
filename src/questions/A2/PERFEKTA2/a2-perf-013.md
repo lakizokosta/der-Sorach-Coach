@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Er ___ seine Hausaufgaben gemacht.
+Er ___ seine Hausaufgaben gemacht. (Perfektform — haben)

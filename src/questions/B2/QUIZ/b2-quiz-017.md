@@ -9,4 +9,4 @@ options:
 correct: dessen
 ---
 
-Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen.
+Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen. (Grammatikform)

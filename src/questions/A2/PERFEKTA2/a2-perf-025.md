@@ -9,4 +9,4 @@ options:
 correct: ist
 ---
 
-Sie ___ nach Hause gekommen.
+Sie ___ nach Hause gekommen. (Perfektform — haben)

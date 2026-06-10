@@ -9,4 +9,4 @@ options:
 correct: aufgeräumtem
 ---
 
-Bitte verlassen Sie den Veranstaltungsraum in ___ Zustand.
+Bitte verlassen Sie den Veranstaltungsraum in ___ Zustand. (Grammatikform)

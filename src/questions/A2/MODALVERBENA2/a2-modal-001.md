@@ -9,4 +9,4 @@ options:
 correct: sollst
 ---
 
-Du ___ mehr Wasser trinken.
+Du ___ mehr Wasser trinken. (Modalverbform — sollen)

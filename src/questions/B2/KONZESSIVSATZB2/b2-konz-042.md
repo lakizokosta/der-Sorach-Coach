@@ -9,4 +9,4 @@ options:
 correct: obwohl
 ---
 
-Er bestand die Prüfung, ___ er kaum gelernt hatte.
+Er bestand die Prüfung, ___ er kaum gelernt hatte. (Konzessivsatz)

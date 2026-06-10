@@ -9,4 +9,4 @@ options:
 correct: der vereinbarten
 ---
 
-Innerhalb ___ Fristen muss die Arbeit abgeschlossen sein.
+Innerhalb ___ Fristen muss die Arbeit abgeschlossen sein. (Genitivform)

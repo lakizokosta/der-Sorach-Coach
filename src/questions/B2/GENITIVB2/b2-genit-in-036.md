@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Während ___ (der) Verhandlungen wurde nicht telefoniert.
+Während ___ (der) Verhandlungen wurde nicht telefoniert. (Genitivform)

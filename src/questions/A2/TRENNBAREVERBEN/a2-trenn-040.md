@@ -9,4 +9,4 @@ options:
 correct: rufe
 ---
 
-Ich ___ meine Freundin an.
+Ich ___ meine Freundin an. (Trennbares Verb — einkaufen)

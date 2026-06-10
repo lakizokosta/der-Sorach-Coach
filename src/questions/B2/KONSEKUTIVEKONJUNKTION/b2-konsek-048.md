@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Das Essen war so gut, ___ wir noch einmal bestellten.
+Das Essen war so gut, ___ wir noch einmal bestellten. (Konsekutivsatz)

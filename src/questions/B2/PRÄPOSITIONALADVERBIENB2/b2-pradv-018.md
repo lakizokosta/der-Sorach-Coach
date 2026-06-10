@@ -9,4 +9,4 @@ options:
 correct: bezieht
 ---
 
-Worauf ___ sich Ihre Kritik?
+Worauf ___ sich Ihre Kritik? (Pronominaladverb)

@@ -9,4 +9,4 @@ options:
 correct: ob
 ---
 
-Ich frage mich, ___ er recht hat.
+Ich frage mich, ___ er recht hat. (Indirekte Frage)

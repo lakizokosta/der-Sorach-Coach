@@ -9,4 +9,4 @@ options:
 correct: diese
 ---
 
-Ich habe ___ Nachrichten schon gelesen.
+Ich habe ___ Nachrichten schon gelesen. (Demonstrativartikel)

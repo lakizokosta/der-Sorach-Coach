@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Das Problem ___ sich leicht lösen.
+Das Problem ___ sich leicht lösen. (lassen)

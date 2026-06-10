@@ -5,4 +5,4 @@ correct:
   - spielt
 ---
 
-Er ___ Tennis. (spielen, er)
+Er ___ Tennis. (Präsensform — trinken)

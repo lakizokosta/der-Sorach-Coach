@@ -9,4 +9,4 @@ options:
 correct: finanzierst
 ---
 
-Womit ___ du dein Studium?
+Womit ___ du dein Studium? (Pronominaladverb)

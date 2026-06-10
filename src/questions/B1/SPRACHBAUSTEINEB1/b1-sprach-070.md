@@ -9,4 +9,4 @@ options:
 correct: angenommen
 ---
 
-Wir freuen uns, Ihnen mitteilen zu können, dass Ihre Bewerbung ___ wurde.
+Wir freuen uns, Ihnen mitteilen zu können, dass Ihre Bewerbung ___ wurde. (Grammatikform)

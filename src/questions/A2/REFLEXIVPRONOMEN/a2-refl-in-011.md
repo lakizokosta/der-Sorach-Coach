@@ -5,4 +5,4 @@ correct:
   - sehen
 ---
 
-Wir ___ uns jeden Tag nach der Arbeit. (Reflexivpronomen — wir)
+Wir ___ uns jeden Tag nach der Arbeit. (Reflexivform — sehen)

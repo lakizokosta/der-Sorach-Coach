@@ -9,4 +9,4 @@ options:
 correct: älter
 ---
 
-Der ICE ist ___ als der Bus. (alt)
+Der ICE ist ___ als der Bus. (Komparativ — schön)

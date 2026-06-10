@@ -9,5 +9,4 @@ options:
 correct: deinem
 ---
 
-Ich spiele mit ___ Computer. (du)
-
+Ich spiele mit ___ Computer. (Possessivartikel — sie, neutr., Dat.)

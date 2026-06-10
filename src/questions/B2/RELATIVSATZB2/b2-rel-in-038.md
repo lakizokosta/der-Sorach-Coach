@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Das Unternehmen, für ___ er arbeitet, expandiert. (das)
+Das Unternehmen, für ___ er arbeitet, expandiert. (Relativpronomen)

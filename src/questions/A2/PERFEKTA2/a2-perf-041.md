@@ -9,4 +9,4 @@ options:
 correct: haben
 ---
 
-Wir ___ ein neues Lied gesungen.
+Wir ___ ein neues Lied gesungen. (Perfektform — haben)

@@ -9,4 +9,4 @@ options:
 correct: in
 ---
 
-Das Krankenhaus befindet sich ___ der Stadtmitte.
+Das Krankenhaus befindet sich ___ der Stadtmitte. (Lokale Präposition)

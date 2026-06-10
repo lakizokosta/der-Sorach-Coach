@@ -9,4 +9,4 @@ options:
 correct: deshalb
 ---
 
-Die Kosten sind gestiegen; ___ müssen wir sparen.
+Die Kosten sind gestiegen; ___ müssen wir sparen. (Konjunktionaladverb)

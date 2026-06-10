@@ -9,4 +9,4 @@ options:
 correct: seinem
 ---
 
-Er vertraut ___ Instinkt.
+Er vertraut ___ Instinkt. (Possessivartikelform)

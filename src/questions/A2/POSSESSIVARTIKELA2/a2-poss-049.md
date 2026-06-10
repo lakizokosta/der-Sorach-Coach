@@ -9,4 +9,4 @@ options:
 correct: des
 ---
 
-Das Zimmer ___ Kindes ist klein.
+Das Zimmer ___ Kindes ist klein. (Possessivartikel — sie Pl., mask., Gen.)

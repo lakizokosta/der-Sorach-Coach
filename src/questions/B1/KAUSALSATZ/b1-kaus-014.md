@@ -9,4 +9,4 @@ options:
 correct: denn
 ---
 
-Er ist pünktlich, ___ er den frühen Bus genommen hat.
+Er ist pünktlich, ___ er den frühen Bus genommen hat. (Kausalsatz)

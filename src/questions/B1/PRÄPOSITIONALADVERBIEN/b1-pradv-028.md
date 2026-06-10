@@ -9,4 +9,4 @@ options:
 correct: daran teil
 ---
 
-Teilnimmst du an der Konferenz? — Ich nehme ___.
+Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)

@@ -9,4 +9,4 @@ options:
 correct: Für
 ---
 
-___ weitere Informationen besuchen Sie unsere Website.
+___ weitere Informationen besuchen Sie unsere Website. (Grammatikform)

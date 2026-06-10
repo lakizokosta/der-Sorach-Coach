@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___ er wenig schläft, arbeitet er sehr produktiv.
+___ er wenig schläft, arbeitet er sehr produktiv. (Konzessivsatz)

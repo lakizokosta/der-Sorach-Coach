@@ -9,4 +9,4 @@ options:
 correct: denn
 ---
 
-Ich bin müde, ___ ich habe wenig geschlafen.
+Ich bin müde, ___ ich habe wenig geschlafen. (Kausalsatz)

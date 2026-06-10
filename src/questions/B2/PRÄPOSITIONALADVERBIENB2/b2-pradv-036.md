@@ -9,4 +9,4 @@ options:
 correct: früher
 ---
 
-Ich denke oft daran, wie es ___ war.
+Ich denke oft daran, wie es ___ war. (Pronominaladverb)

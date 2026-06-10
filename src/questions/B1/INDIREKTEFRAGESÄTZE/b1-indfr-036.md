@@ -9,4 +9,4 @@ options:
 correct: ob
 ---
 
-Wir sind uns nicht sicher, ___ das stimmt.
+Wir sind uns nicht sicher, ___ das stimmt. (Indirekte Frage)

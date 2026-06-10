@@ -9,4 +9,4 @@ options:
 correct: Obschon
 ---
 
-___ die Vorlesung lang war, war sie interessant.
+___ die Vorlesung lang war, war sie interessant. (Konzessivsatz — obwohl)

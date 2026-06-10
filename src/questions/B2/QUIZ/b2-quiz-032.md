@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Man ___ die Reform bis Ende des Jahres umsetzen.
+Man ___ die Reform bis Ende des Jahres umsetzen. (Grammatikform)

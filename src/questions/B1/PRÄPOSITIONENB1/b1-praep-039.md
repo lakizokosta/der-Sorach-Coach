@@ -9,4 +9,4 @@ options:
 correct: seit
 ---
 
-Ich bin ___ 2020 hier.
+Ich bin ___ 2020 hier. (Präposition)

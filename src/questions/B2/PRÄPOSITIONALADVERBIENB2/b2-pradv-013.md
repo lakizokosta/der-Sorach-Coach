@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Damit ___ er sein ganzes Leben.
+Damit ___ er sein ganzes Leben. (Pronominaladverb)

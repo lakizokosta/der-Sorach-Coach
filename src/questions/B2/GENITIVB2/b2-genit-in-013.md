@@ -5,4 +5,4 @@ correct:
   - Wegen
 ---
 
-___ (wegen) technischer Probleme verzögerte sich der Start.
+___ (wegen) technischer Probleme verzögerte sich der Start. (Genitivform)

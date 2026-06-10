@@ -5,4 +5,4 @@ correct:
   - bin
 ---
 
-Ich ___ schon einmal an der Mosel gewesen. (Perfekt — ich)
+Ich ___ schon einmal an der Mosel gewesen. (Perfektform — sein)

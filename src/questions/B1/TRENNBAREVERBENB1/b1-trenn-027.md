@@ -9,4 +9,4 @@ options:
 correct: rufe
 ---
 
-Ich ___ den Kollegen später an.
+Ich ___ den Kollegen später an. (Trennbares Verb — rufen)

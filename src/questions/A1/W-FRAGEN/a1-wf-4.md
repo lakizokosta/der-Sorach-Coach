@@ -9,4 +9,4 @@ options:
 correct: Wie
 ---
 
-___ heißt du? — Anna.
+___ heißt du? — Anna. (Fragewort)

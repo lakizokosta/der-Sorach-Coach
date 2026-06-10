@@ -9,4 +9,4 @@ options:
 correct: bis
 ---
 
-Das Büro ist ___ 18 Uhr geöffnet.
+Das Büro ist ___ 18 Uhr geöffnet. (Präposition)

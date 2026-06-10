@@ -9,4 +9,4 @@ options:
 correct: indem
 ---
 
-Sie verbessert ihre Aussprache, ___ sie täglich übt.
+Sie verbessert ihre Aussprache, ___ sie täglich übt. (Modalsatz)

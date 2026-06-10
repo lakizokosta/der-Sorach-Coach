@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Das Gebäude ___ 1920 erbaut.
+Das Gebäude ___ 1920 erbaut. (Passivform — geworden)

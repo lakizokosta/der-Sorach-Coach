@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Der Zeuge behauptete, er ___ alles genau gesehen.
+Der Zeuge behauptete, er ___ alles genau gesehen. (Indirekte Rede)

@@ -9,4 +9,4 @@ options:
 correct: im
 ---
 
-Wo ist das Kind? — Es ist ___ Park.
+Wo ist das Kind? — Es ist ___ Park. (Dativ oder Akkusativ — Wohin?)

@@ -9,5 +9,4 @@ options:
 correct: auf das
 ---
 
-Ich klettere ___ Dach. (Bewegung → Akkusativ)
-
+Ich klettere ___ Dach. (Dativ oder Akkusativ)

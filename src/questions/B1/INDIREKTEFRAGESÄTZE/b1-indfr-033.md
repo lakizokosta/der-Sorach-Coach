@@ -9,4 +9,4 @@ options:
 correct: ob
 ---
 
-Er fragt, ___ wir morgen kommen.
+Er fragt, ___ wir morgen kommen. (Indirekte Frage)

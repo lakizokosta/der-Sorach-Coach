@@ -9,4 +9,4 @@ options:
 correct: darin
 ---
 
-Vertraust du in das Team? — Ich vertraue ___.
+Vertraust du in das Team? — Ich vertraue ___. (Pronominaladverb)

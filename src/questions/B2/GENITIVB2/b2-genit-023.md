@@ -9,4 +9,4 @@ options:
 correct: Aus
 ---
 
-___ einer langen Tradition folgt die Universität diesem Brauch.
+___ einer langen Tradition folgt die Universität diesem Brauch. (Genitivform)

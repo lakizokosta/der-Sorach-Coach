@@ -9,4 +9,4 @@ options:
 correct: am
 ---
 
-Die Fabrik steht ___ dem Flussufer.
+Die Fabrik steht ___ dem Flussufer. (Lokale Präposition)

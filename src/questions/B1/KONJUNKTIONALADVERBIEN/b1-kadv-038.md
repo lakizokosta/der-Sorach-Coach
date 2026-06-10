@@ -9,4 +9,4 @@ options:
 correct: Deshalb
 ---
 
-Er hat Überstunden gemacht. ___, ist er müde.
+Er hat Überstunden gemacht. ___, ist er müde. (Konjunktionaladverb)

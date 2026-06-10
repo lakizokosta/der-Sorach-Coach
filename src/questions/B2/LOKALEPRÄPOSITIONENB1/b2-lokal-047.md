@@ -9,4 +9,4 @@ options:
 correct: an der
 ---
 
-Das Bild hängt ___ der Wand über dem Sofa.
+Das Bild hängt ___ der Wand über dem Sofa. (Lokale Präposition)

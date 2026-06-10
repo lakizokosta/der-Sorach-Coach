@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Ich ___ die ganze Nacht gearbeitet. (Perfekt)
+Ich ___ die ganze Nacht gearbeitet. (Perfektform — haben)

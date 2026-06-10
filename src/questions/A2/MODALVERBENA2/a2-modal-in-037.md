@@ -5,4 +5,4 @@ correct:
   - Darf
 ---
 
-___ ich hier am Bankschalter fragen? (Modalverb — ich)
+___ ich hier am Bankschalter fragen? (Modalverbform — dürfen)

@@ -9,5 +9,4 @@ options:
 correct: im
 ---
 
-Ich gehe ___ Kino. (Ort → Dativ)
-
+Ich gehe ___ Kino. (Dativ oder Akkusativ)

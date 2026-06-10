@@ -5,4 +5,4 @@ correct:
   - reicht
 ---
 
-Sie ___ die Rechnung sofort ein. (Trennbares Verb)
+Sie ___ die Rechnung sofort ein. (Trennbares Verb — reichen)

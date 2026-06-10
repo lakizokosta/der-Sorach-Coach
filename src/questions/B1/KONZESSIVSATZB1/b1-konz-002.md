@@ -9,4 +9,4 @@ options:
 correct: obwohl
 ---
 
-Sie geht joggen, ___ es kalt ist.
+Sie geht joggen, ___ es kalt ist. (Konzessivsatz)

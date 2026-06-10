@@ -5,4 +5,4 @@ correct:
   - deren
 ---
 
-Die Frau, ___ Mann Arzt ist, kennt sich aus. (deren)
+Die Frau, ___ Mann Arzt ist, kennt sich aus. (Relativpronomen)

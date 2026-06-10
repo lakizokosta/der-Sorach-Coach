@@ -9,4 +9,4 @@ options:
 correct: seiner
 ---
 
-Trotz ___ Bemühungen blieb das Ergebnis unbefriedigend.
+Trotz ___ Bemühungen blieb das Ergebnis unbefriedigend. (Genitivform)

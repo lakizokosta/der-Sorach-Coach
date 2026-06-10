@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Er ist ___ Geschäft.
+Er ist ___ Geschäft. (Präposition)

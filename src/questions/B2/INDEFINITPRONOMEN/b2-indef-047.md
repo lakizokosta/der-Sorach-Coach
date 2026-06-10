@@ -9,4 +9,4 @@ options:
 correct: keinem
 ---
 
-Er vertraut ___ Fremden nicht.
+Er vertraut ___ Fremden nicht. (Indefinitpronomen)

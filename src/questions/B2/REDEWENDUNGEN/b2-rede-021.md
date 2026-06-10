@@ -9,4 +9,4 @@ options:
 correct: voll
 ---
 
-Sie hat die Nase voll — sie hat die Nase ___ .
+Sie hat die Nase voll — sie hat die Nase ___ . (Redewendung)

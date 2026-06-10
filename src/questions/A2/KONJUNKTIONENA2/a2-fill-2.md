@@ -5,4 +5,4 @@ correct: dass
 hint: "Verb am Ende → welche Konjunktion?"
 ---
 
-Ich glaube, ___ er recht hat.
+Ich glaube, ___ er recht hat. (Konjunktion)

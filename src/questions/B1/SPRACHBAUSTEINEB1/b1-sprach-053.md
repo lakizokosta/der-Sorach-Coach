@@ -9,4 +9,4 @@ options:
 correct: Bei
 ---
 
-___ weiteren Fragen steht Ihnen unsere Hotline werktags von 9 bis 17 Uhr zur Verfügung.
+___ weiteren Fragen steht Ihnen unsere Hotline werktags von 9 bis 17 Uhr zur Verfügung. (Grammatikform)

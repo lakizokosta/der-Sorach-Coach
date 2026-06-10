@@ -9,4 +9,4 @@ options:
 correct: Weil
 ---
 
-___ das Wetter schlecht ist, fällt das Fest aus.
+___ das Wetter schlecht ist, fällt das Fest aus. (Kausalsatz)

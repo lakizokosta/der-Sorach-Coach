@@ -5,4 +5,4 @@ correct:
   - bereitet
 ---
 
-Sie ___ sich für das Fest. (Reflexivpronomen — sie)
+Sie ___ sich für das Fest. (Reflexivform — getroffen)

@@ -9,4 +9,4 @@ options:
 correct: an
 ---
 
-Das Hotel liegt ___ dem Fluss.
+Das Hotel liegt ___ dem Fluss. (Lokale Präposition)

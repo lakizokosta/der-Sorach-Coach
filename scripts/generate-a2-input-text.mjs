@@ -12,6 +12,7 @@ import { fileURLToPath } from 'node:url';
 import { md } from './a2-input-text-shared.mjs';
 import { BANK } from './a2-input-text-data.mjs';
 import { transformHint } from './fix-input-text-hints.mjs';
+import { bodyWithHint, verbFormHint } from './topic-context-hints.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A2');
 
@@ -43,9 +44,8 @@ function buildPrompt(item, folder) {
   const raw = item[0].replace(/^\[[^\]]+]\s+/, '');
   const m = raw.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
   const ans = Array.isArray(item[1]) ? item[1] : [item[1]];
-  return m
-    ? `${m[1].trimEnd()} (${transformHint(m[2], folder, ans)})`
-    : raw;
+  if (m) return `${m[1].trimEnd()} (${transformHint(m[2], folder, ans)})`;
+  return bodyWithHint(raw, verbFormHint(folder, '', ans));
 }
 
 function writeTopic(folder, prefix, items) {

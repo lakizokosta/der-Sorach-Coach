@@ -9,4 +9,4 @@ options:
 correct: vor
 ---
 
-Er stellte das Fahrrad ___ das Haus.
+Er stellte das Fahrrad ___ das Haus. (Lokale Präposition)

@@ -5,4 +5,4 @@ correct:
   - auf dem
 ---
 
-Wo liegt der Teppich? — ___ Boden. (Wechselpräpositionen — Wo?)
+Wo liegt der Teppich? — ___ Boden. (Dativ oder Akkusativ — Wo?)

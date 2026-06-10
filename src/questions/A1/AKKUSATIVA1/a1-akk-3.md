@@ -9,4 +9,4 @@ options:
 correct: das
 ---
 
-Ich esse ___ Brot.
+Ich esse ___ Brot. (Akkusativform)

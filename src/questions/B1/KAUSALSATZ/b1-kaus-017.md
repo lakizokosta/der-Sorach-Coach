@@ -9,4 +9,4 @@ options:
 correct: Weil
 ---
 
-___ er viel gelernt hat, hat er die Prüfung bestanden.
+___ er viel gelernt hat, hat er die Prüfung bestanden. (Kausalsatz)

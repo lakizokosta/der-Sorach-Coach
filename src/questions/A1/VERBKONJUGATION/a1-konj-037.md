@@ -9,5 +9,4 @@ options:
 correct: kaufst
 ---
 
-Du ___ Brot im Supermarkt. (kaufen)
-
+Du ___ Brot im Supermarkt. (Präsensform — kaufen)

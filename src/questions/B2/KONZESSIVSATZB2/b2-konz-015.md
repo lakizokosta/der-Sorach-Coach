@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___, wenngleich die Meinungen auseinandergingen, einigte man sich.
+___, wenngleich die Meinungen auseinandergingen, einigte man sich. (Konzessivsatz)

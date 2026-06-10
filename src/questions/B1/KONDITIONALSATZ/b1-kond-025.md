@@ -9,4 +9,4 @@ options:
 correct: Sobald
 ---
 
-___ wir eingecheckt haben, gehen wir essen.
+___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz — wenn)

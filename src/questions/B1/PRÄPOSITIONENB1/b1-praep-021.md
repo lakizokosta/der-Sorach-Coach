@@ -9,4 +9,4 @@ options:
 correct: von
 ---
 
-Er fährt ___ Berlin nach Hamburg.
+Er fährt ___ Berlin nach Hamburg. (Präposition)

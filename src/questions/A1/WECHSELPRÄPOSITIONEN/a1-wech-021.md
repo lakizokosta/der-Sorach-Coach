@@ -9,5 +9,4 @@ options:
 correct: im
 ---
 
-Ich gehe ___ Park. (Ort → Dativ)
-
+Ich gehe ___ Park. (Dativ oder Akkusativ)

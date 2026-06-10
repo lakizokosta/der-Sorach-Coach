@@ -9,4 +9,4 @@ options:
 correct: Deshalb
 ---
 
-Er spart Energie. ___, senkt er seine Kosten.
+Er spart Energie. ___, senkt er seine Kosten. (Konjunktionaladverb)

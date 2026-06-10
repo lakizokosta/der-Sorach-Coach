@@ -9,4 +9,4 @@ options:
 correct: per
 ---
 
-Der Leistungsnachweis wird Ihnen nach bestandener Prüfung automatisch ___ E-Mail zugesandt.
+Der Leistungsnachweis wird Ihnen nach bestandener Prüfung automatisch ___ E-Mail zugesandt. (Grammatikform)

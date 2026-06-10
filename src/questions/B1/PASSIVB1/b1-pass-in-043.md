@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Die Prüfung ___ in zwei Räumen durchgeführt. (Passiv — werden)
+Die Prüfung ___ in zwei Räumen durchgeführt. (Passivform)

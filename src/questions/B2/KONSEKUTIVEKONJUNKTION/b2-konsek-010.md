@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Er fuhr so schnell, ___ er geblitzt wurde.
+Er fuhr so schnell, ___ er geblitzt wurde. (Konsekutivsatz)

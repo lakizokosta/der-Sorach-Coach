@@ -9,5 +9,4 @@ options:
 correct: auf dem
 ---
 
-Ich lege ___ Tisch. (Ort → Dativ)
-
+Ich lege ___ Tisch. (Dativ oder Akkusativ)

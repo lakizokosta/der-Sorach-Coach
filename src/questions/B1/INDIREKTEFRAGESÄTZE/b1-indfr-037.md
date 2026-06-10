@@ -9,4 +9,4 @@ options:
 correct: wie
 ---
 
-Er erkundigt sich, ___ viel die Behandlung kostet.
+Er erkundigt sich, ___ viel die Behandlung kostet. (Indirekte Frage)

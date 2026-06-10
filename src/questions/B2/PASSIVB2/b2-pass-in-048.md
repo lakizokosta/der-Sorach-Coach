@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Der Antrag ___ abgelehnt. (werden, Präteritum)
+Der Antrag ___ abgelehnt. (Passivform — worden)

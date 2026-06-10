@@ -9,4 +9,4 @@ options:
 correct: ja
 ---
 
-„Magst du Sport?" — „___, ich mag Fußball."
+„Magst du Sport?" — „___, ich mag Fußball." (Antwortpartikel)

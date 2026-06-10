@@ -9,4 +9,4 @@ options:
 correct: Niemand
 ---
 
-___ war zu Hause, als ich anrief.
+___ war zu Hause, als ich anrief. (Indefinitpronomen)

@@ -9,4 +9,4 @@ options:
 correct: Anlässlich
 ---
 
-___ des Vorfalls wurde eine Untersuchung eingeleitet.
+___ des Vorfalls wurde eine Untersuchung eingeleitet. (Genitivform)

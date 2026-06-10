@@ -9,4 +9,4 @@ options:
 correct: ist
 ---
 
-Daran ___ nichts zu ändern.
+Daran ___ nichts zu ändern. (Pronominaladverb)

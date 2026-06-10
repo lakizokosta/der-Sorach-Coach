@@ -5,4 +5,4 @@ correct: habe
 hint: "Konjunktiv I, 3. Person Singular."
 ---
 
-Er sagte, er ___ keine Zeit. (haben — Konjunktiv I)
+Er sagte, er ___ keine Zeit. (Indirekte Rede)

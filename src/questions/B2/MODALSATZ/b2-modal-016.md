@@ -9,4 +9,4 @@ options:
 correct: indem
 ---
 
-Er überzeugte sie, ___ er ruhig argumentierte.
+Er überzeugte sie, ___ er ruhig argumentierte. (Modalsatz)

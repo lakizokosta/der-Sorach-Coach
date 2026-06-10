@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Das Problem ___ leider nicht gelöst.
+Das Problem ___ leider nicht gelöst. (Grammatikform)

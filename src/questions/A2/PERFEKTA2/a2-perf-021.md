@@ -9,4 +9,4 @@ options:
 correct: sind
 ---
 
-Wir ___ im Park spaziert.
+Wir ___ im Park spaziert. (Perfektform — sein)

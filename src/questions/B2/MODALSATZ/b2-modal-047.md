@@ -9,4 +9,4 @@ options:
 correct: indem
 ---
 
-Sie trainierte hart, ___ sie ihre Ausdauer steigerte.
+Sie trainierte hart, ___ sie ihre Ausdauer steigerte. (Modalsatz)

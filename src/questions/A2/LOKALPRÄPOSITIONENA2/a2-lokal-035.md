@@ -9,4 +9,4 @@ options:
 correct: vor
 ---
 
-Wir warten ___ dem Eingang.
+Wir warten ___ dem Eingang. (Lokalpräposition)

@@ -5,4 +5,4 @@ correct:
   - haben
 ---
 
-Wir ___ auf der Hochzeit ein Lied gesungen. (Perfekt — wir)
+Wir ___ auf der Hochzeit ein Lied gesungen. (Perfektform — haben)

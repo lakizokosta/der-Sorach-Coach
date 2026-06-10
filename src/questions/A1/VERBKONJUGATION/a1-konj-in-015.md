@@ -5,4 +5,4 @@ correct:
   - spielt
 ---
 
-Ihr ___ Computerspiele. (spielen, ihr)
+Ihr ___ Computerspiele. (Präsensform — wohnen)

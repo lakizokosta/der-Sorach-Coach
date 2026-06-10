@@ -9,4 +9,4 @@ options:
 correct: daran
 ---
 
-Erinnerst du dich an die Vorlesung? — Ich erinnere mich ___.
+Erinnerst du dich an die Vorlesung? — Ich erinnere mich ___. (Pronominaladverb)

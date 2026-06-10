@@ -9,4 +9,4 @@ options:
 correct: habt gesprochen
 ---
 
-Worüber ___ ihr gestern?
+Worüber ___ ihr gestern? (Pronominaladverb)

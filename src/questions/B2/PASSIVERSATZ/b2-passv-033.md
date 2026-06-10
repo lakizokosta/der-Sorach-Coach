@@ -9,4 +9,4 @@ options:
 correct: finden
 ---
 
-Die Lösung ist schwer zu ___ .
+Die Lösung ist schwer zu ___ . (Passiversatz)

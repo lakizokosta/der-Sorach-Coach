@@ -5,4 +5,4 @@ correct:
   - haben
 ---
 
-Wir ___ die Rechnung schon bezahlt. (Perfekt)
+Wir ___ die Rechnung schon bezahlt. (Perfektform — haben)

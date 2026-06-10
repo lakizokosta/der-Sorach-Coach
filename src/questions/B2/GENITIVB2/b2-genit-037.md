@@ -9,4 +9,4 @@ options:
 correct: des Direktors
 ---
 
-Während ___ Urlaubs übernahm die Stellvertreterin.
+Während ___ Urlaubs übernahm die Stellvertreterin. (Genitivform)

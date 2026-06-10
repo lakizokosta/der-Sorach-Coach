@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Sie ___ die Haare schneiden.
+Sie ___ die Haare schneiden. (lassen + Infinitiv)

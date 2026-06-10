@@ -9,4 +9,4 @@ options:
 correct: lasse
 ---
 
-Ich ___ mir den Vertrag erklären.
+Ich ___ mir den Vertrag erklären. (lassen-Form)

@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Der Termin ___ verschoben. (werden, Präteritum)
+Der Termin ___ verschoben. (Passivform — worden)

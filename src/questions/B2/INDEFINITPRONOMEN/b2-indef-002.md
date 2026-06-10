@@ -9,4 +9,4 @@ options:
 correct: nichts
 ---
 
-Ich habe ___ davon gehört.
+Ich habe ___ davon gehört. (Indefinitpronomen)

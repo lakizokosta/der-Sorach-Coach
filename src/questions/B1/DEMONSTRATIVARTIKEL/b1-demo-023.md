@@ -9,4 +9,4 @@ options:
 correct: Dieser
 ---
 
-___ Studiengang passt besser zu meinen Interessen.
+___ Studiengang passt besser zu meinen Interessen. (Demonstrativartikel)

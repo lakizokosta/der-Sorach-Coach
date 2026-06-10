@@ -9,4 +9,4 @@ options:
 correct: entlang
 ---
 
-Sie ging den Gang ___ bis zum Ende.
+Sie ging den Gang ___ bis zum Ende. (Lokale Präposition)

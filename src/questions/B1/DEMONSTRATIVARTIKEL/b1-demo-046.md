@@ -9,4 +9,4 @@ options:
 correct: Dieses
 ---
 
-___ Projekt gefällt mir besser als das andere.
+___ Projekt gefällt mir besser als das andere. (Demonstrativartikel)

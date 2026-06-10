@@ -5,4 +5,4 @@ correct:
   - hätte
 ---
 
-Hätte ich das gewusst, ___ ich anders gehandelt. (haben)
+Hätte ich das gewusst, ___ ich anders gehandelt. (Konjunktiv-II-Form — möchten)

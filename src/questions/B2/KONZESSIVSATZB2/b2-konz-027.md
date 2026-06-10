@@ -9,4 +9,4 @@ options:
 correct: obwohl
 ---
 
-Sie blieb ruhig, ___ alle nervös waren.
+Sie blieb ruhig, ___ alle nervös waren. (Konzessivsatz)

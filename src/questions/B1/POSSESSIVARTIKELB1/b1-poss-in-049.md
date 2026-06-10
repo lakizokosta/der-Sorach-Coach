@@ -5,4 +5,4 @@ correct:
   - unser
 ---
 
-Wir feiern ___ zehnjähriges Firmenjubiläum. (Possessivartikel — Possessivartikel)
+Wir feiern ___ zehnjähriges Firmenjubiläum. (Possessivartikelform)

@@ -9,4 +9,4 @@ options:
 correct: wurden
 ---
 
-Die Verhandlungen ___ erfolgreich abgeschlossen.
+Die Verhandlungen ___ erfolgreich abgeschlossen. (Passivform — worden)

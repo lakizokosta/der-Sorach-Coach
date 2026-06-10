@@ -24,8 +24,10 @@ export function options4(correct, pool, seed) {
 
 export function md({ id, prompt, options, correct, hint }) {
   const opts = options.map((o) => `  - ${o}`).join('\n');
-  const hintLine = hint ? `hint: ${hint}\n` : '';
-  return `---\nid: ${id}\ntype: select-one\noptions:\n${opts}\ncorrect: ${correct}\n${hintLine}---\n\n${prompt}\n`;
+  const body = hint && !/\([^)]+\)\s*$/.test(prompt.trim())
+    ? `${prompt.trim()} (${hint})`
+    : prompt;
+  return `---\nid: ${id}\ntype: select-one\noptions:\n${opts}\ncorrect: ${correct}\n---\n\n${body}\n`;
 }
 
 /** @param {[string, string, string[]][]} items */

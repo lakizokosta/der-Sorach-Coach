@@ -9,4 +9,4 @@ options:
 correct: Wann
 ---
 
-___ beginnt der Kurs? — Um 9 Uhr.
+___ beginnt der Kurs? — Um 9 Uhr. (Fragewort)

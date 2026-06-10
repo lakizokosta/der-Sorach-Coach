@@ -5,4 +5,4 @@ correct:
   - muss
 ---
 
-Sie ___ jeden Tag trainieren. (Modalverb — sie)
+Sie ___ jeden Tag trainieren. (Modalverbform — müssen)

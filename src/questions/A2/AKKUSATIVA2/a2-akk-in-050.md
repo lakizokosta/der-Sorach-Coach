@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Ich buche ___ Reise im Reisebüro. (Akkusativ — eine Reise)
+Ich buche ___ Reise im Reisebüro. (Akkusativ — Akkusativform)

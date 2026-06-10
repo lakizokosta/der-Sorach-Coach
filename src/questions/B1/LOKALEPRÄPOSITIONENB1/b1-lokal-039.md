@@ -9,4 +9,4 @@ options:
 correct: vor
 ---
 
-Wir warten ___ dem Rathaus.
+Wir warten ___ dem Rathaus. (Lokale Präposition)

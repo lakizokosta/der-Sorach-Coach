@@ -9,4 +9,4 @@ options:
 correct: keine
 ---
 
-Ich habe ___ Zeit.
+Ich habe ___ Zeit. (Negation)

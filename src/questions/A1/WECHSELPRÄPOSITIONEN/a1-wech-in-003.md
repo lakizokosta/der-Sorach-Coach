@@ -5,4 +5,4 @@ correct:
   - auf den
 ---
 
-Leg das Buch ___ Tisch. (Wechselpräpositionen — Bewegung)
+Leg das Buch ___ Tisch. (Dativ oder Akkusativ)

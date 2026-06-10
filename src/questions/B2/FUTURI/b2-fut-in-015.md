@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Er ___ (werden) wohl nicht mehr kommen.
+Er ___ (werden) wohl nicht mehr kommen. (Futurform — wären)

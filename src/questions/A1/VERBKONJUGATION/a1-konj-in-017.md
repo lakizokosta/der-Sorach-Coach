@@ -5,4 +5,4 @@ correct:
   - schreibst
 ---
 
-Du ___ einen Brief. (schreiben, du)
+Du ___ einen Brief. (Präsensform — machen)

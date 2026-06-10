@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ das Gesetz verabschiedet wird, ändert sich vieles.
+___ das Gesetz verabschiedet wird, ändert sich vieles. (Konditionalsatz)

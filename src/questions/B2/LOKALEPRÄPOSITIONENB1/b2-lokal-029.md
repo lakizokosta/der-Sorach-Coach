@@ -9,4 +9,4 @@ options:
 correct: auf die
 ---
 
-Wir fahren ___ die Autobahn Richtung Süden.
+Wir fahren ___ die Autobahn Richtung Süden. (Lokale Präposition)

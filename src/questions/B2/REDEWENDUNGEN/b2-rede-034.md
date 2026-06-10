@@ -9,4 +9,4 @@ options:
 correct: bringen
 ---
 
-Wir müssen die Sache auf den Punkt ___ .
+Wir müssen die Sache auf den Punkt ___ . (Redewendung)

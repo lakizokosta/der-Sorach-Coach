@@ -9,4 +9,4 @@ options:
 correct: indem
 ---
 
-Sie lernte schwimmen, ___ sie es im See übte.
+Sie lernte schwimmen, ___ sie es im See übte. (Modalsatz)

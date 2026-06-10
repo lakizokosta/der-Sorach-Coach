@@ -9,4 +9,4 @@ options:
 correct: an der
 ---
 
-Die Universität liegt ___ der Stadtgrenze.
+Die Universität liegt ___ der Stadtgrenze. (Lokale Präposition)

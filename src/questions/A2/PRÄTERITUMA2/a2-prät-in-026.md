@@ -5,4 +5,4 @@ correct:
   - wusste
 ---
 
-Ich ___ das nicht. (Präteritum — ich)
+Ich ___ das nicht. (Präteritumsform — gelesen)

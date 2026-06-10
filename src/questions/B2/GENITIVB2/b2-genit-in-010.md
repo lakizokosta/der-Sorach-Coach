@@ -5,4 +5,4 @@ correct:
   - aller
 ---
 
-Entgegen ___ (alle) Erwartungen gelang das Experiment.
+Entgegen ___ (alle) Erwartungen gelang das Experiment. (Genitivform)

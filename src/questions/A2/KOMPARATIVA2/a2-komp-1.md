@@ -9,4 +9,4 @@ options:
 correct: "größer"
 ---
 
-Anna ist ___ als Tom.
+Anna ist ___ als Tom. (Komparativform)

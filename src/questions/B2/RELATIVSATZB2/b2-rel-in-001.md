@@ -5,4 +5,4 @@ correct:
   - dessen
 ---
 
-Der Autor, ___ Werk berühmt ist, lebt zurückgezogen. (dessen)
+Der Autor, ___ Werk berühmt ist, lebt zurückgezogen. (Relativpronomen)

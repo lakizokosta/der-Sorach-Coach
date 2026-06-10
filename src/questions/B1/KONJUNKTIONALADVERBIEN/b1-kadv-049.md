@@ -9,4 +9,4 @@ options:
 correct: Dennoch
 ---
 
-Das Projekt ist teuer. ___, lohnt es sich.
+Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb)

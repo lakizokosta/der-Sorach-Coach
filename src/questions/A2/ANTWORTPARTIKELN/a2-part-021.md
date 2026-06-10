@@ -9,4 +9,4 @@ options:
 correct: ja
 ---
 
-„Ist das dein Auto?" — „___, das ist meins."
+„Ist das dein Auto?" — „___, das ist meins." (Antwortpartikel — Kontrast)

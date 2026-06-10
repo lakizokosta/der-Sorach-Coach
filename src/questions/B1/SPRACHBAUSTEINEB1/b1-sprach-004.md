@@ -9,4 +9,4 @@ options:
 correct: per
 ---
 
-Die Prüfungsergebnisse werden Ihnen ___ E-Mail zugesandt.
+Die Prüfungsergebnisse werden Ihnen ___ E-Mail zugesandt. (Grammatikform)

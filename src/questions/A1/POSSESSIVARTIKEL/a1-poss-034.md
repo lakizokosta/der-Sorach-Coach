@@ -9,5 +9,4 @@ options:
 correct: unsere
 ---
 
-Ich besuche ___ Freundin. (wir)
-
+Ich besuche ___ Freundin. (Possessivartikel — ich, mask., Nom.)

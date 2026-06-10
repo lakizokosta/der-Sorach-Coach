@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___, obgleich die Chancen gering waren, versuchte er es.
+___, obgleich die Chancen gering waren, versuchte er es. (Konzessivsatz)

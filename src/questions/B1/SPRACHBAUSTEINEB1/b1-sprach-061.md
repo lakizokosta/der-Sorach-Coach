@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Die Kursgebühr kann ___ Antrag von der Agentur für Arbeit übernommen werden.
+Die Kursgebühr kann ___ Antrag von der Agentur für Arbeit übernommen werden. (Grammatikform)

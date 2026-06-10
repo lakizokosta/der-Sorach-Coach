@@ -9,4 +9,4 @@ options:
 correct: gleichwohl
 ---
 
-Die Chancen sind gering; ___ geben wir nicht auf.
+Die Chancen sind gering; ___ geben wir nicht auf. (Konjunktionaladverb)

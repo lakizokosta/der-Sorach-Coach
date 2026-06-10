@@ -9,5 +9,4 @@ options:
 correct: hört
 ---
 
-Anna ___ Musik beim Sport. (hören)
-
+Anna ___ Musik beim Sport. (Präsensform — hören)

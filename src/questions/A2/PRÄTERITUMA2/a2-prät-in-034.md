@@ -5,4 +5,4 @@ correct:
   - war
 ---
 
-Das ___ ein richtig schöner Tag! (Präteritum — es)
+Das ___ ein richtig schöner Tag! (Präteritumsform — sein)

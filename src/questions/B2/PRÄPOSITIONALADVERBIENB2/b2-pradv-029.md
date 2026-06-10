@@ -9,4 +9,4 @@ options:
 correct: baut
 ---
 
-Hierauf ___ die ganze Argumentation.
+Hierauf ___ die ganze Argumentation. (Pronominaladverb)

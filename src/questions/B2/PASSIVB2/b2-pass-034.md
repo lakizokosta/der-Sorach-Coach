@@ -9,4 +9,4 @@ options:
 correct: sind
 ---
 
-Die Kandidaten ___ bereits benachrichtigt worden.
+Die Kandidaten ___ bereits benachrichtigt worden. (Passivform — werden)

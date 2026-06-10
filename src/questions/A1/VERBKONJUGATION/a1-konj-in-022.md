@@ -5,4 +5,4 @@ correct:
   - wartet
 ---
 
-Er ___ auf den Bus. (warten, er)
+Er ___ auf den Bus. (Präsensform — kaufen)

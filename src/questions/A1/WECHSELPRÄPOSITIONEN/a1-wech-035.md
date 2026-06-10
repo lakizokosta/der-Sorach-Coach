@@ -9,5 +9,4 @@ options:
 correct: im
 ---
 
-Ich gehe ___ Restaurant. (Ort → Dativ)
-
+Ich gehe ___ Restaurant. (Dativ oder Akkusativ)

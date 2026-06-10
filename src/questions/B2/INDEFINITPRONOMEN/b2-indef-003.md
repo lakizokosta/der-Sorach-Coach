@@ -9,4 +9,4 @@ options:
 correct: Jemand
 ---
 
-___ hat die Tür offengelassen.
+___ hat die Tür offengelassen. (Indefinitpronomen)

@@ -9,4 +9,4 @@ options:
 correct: steht
 ---
 
-Sie ___ um 7 Uhr auf.
+Sie ___ um 7 Uhr auf. (Trennbares Verb — zumachen)

@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Er erklärte, er ___ die Aufgabe bereits erledigt.
+Er erklärte, er ___ die Aufgabe bereits erledigt. (Grammatikform)

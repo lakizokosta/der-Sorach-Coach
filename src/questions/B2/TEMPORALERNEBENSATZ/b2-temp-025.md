@@ -9,4 +9,4 @@ options:
 correct: Bevor
 ---
 
-___, der Film begann, kamen noch viele Zuschauer.
+___, der Film begann, kamen noch viele Zuschauer. (Temporalnebensatz)

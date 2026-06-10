@@ -9,4 +9,4 @@ options:
 correct: trotzdem
 ---
 
-Das Wetter war schlecht; ___ fand das Fest statt.
+Das Wetter war schlecht; ___ fand das Fest statt. (Konjunktionaladverb)

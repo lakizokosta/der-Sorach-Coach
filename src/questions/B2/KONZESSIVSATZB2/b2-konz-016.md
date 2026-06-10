@@ -9,4 +9,4 @@ options:
 correct: obwohl
 ---
 
-Er lief weiter, ___ er einen Muskelfaserriss hatte.
+Er lief weiter, ___ er einen Muskelfaserriss hatte. (Konzessivsatz)

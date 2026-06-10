@@ -9,4 +9,4 @@ options:
 correct: davon
 ---
 
-Was hältst du von dem Vorschlag? — Ich halte nichts ___.
+Was hältst du von dem Vorschlag? — Ich halte nichts ___. (Pronominaladverb)

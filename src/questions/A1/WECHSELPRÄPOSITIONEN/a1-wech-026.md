@@ -9,5 +9,4 @@ options:
 correct: an die
 ---
 
-Ich hängt ___ Wand. (Bewegung → Akkusativ)
-
+Ich hängt ___ Wand. (Dativ oder Akkusativ)

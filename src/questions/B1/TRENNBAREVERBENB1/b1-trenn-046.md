@@ -9,4 +9,4 @@ options:
 correct: meldest
 ---
 
-Wann ___ du dich für den Kurs an?
+Wann ___ du dich für den Kurs an? (Trennbares Verb — ankommen)

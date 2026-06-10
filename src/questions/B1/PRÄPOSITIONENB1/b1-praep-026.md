@@ -9,4 +9,4 @@ options:
 correct: nach
 ---
 
-Er reist ___ Italien.
+Er reist ___ Italien. (Präposition)

@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Ich ___ den Bus verpasst. (Perfekt — ich)
+Ich ___ den Bus verpasst. (Perfektform — haben)

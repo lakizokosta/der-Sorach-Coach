@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Er ___ das Paket nach Hause bringen.
+Er ___ das Paket nach Hause bringen. (lassen + Infinitiv)

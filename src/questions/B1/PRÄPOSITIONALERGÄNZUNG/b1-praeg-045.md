@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Sie achtet ___ ihre Gesundheit.
+Sie achtet ___ ihre Gesundheit. (Verb + Präposition)

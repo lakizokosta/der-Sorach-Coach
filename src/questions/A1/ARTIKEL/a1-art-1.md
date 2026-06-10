@@ -9,4 +9,4 @@ options:
 correct: Der
 ---
 
-___ Tisch ist neu.
+___ Tisch ist neu. (Artikelform)

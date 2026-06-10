@@ -9,4 +9,4 @@ options:
 correct: Bier
 ---
 
-Das ist nicht mein ___ .
+Das ist nicht mein ___ . (Redewendung)

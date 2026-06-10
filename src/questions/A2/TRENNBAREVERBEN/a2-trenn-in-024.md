@@ -5,4 +5,4 @@ correct:
   - steht
 ---
 
-Er ___ früh auf. (Trennbare Verben — er)
+Er ___ früh auf. (Trennbares Verb — aufstehen)

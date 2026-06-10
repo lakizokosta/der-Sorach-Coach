@@ -5,4 +5,4 @@ correct:
   - bereiten
 ---
 
-Wir ___ das Fest vor. (Trennbare Verben — wir)
+Wir ___ das Fest vor. (Trennbares Verb — vorbereiten)

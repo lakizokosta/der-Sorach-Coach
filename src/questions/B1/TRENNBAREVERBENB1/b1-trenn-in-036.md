@@ -5,4 +5,4 @@ correct:
   - sagt
 ---
 
-Er ___ den Termin leider ab. (Trennbares Verb)
+Er ___ den Termin leider ab. (Trennbares Verb — abfahren)

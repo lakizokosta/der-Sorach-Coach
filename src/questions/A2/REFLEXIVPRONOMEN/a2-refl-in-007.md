@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Ich ___ mich erkältet. (Reflexivpronomen — ich)
+Ich ___ mich erkältet. (Reflexivform — waschen)

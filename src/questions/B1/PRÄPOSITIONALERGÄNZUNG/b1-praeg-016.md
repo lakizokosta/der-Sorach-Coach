@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Ich warte ___ die Antwort der Personalabteilung.
+Ich warte ___ die Antwort der Personalabteilung. (Verb + Präposition)

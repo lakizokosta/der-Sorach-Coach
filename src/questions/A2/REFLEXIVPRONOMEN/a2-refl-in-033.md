@@ -5,4 +5,4 @@ correct:
   - kümmert
 ---
 
-Er ___ sich um die Hausaufgaben. (Reflexivpronomen — er)
+Er ___ sich um die Hausaufgaben. (Reflexivform — getroffen)

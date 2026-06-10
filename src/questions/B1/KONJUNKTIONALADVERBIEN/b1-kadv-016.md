@@ -9,4 +9,4 @@ options:
 correct: Trotzdem
 ---
 
-Es regnete den ganzen Tag. ___, sind wir spazieren gegangen.
+Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb)

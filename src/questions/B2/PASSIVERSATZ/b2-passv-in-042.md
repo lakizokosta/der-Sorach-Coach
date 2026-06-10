@@ -5,4 +5,4 @@ correct:
   - zusammenfassen
 ---
 
-Der Text ist zu lang zu ___ . (zusammenfassen)
+Der Text ist zu lang zu ___ . (Passiversatz)

@@ -9,4 +9,4 @@ options:
 correct: über
 ---
 
-Wir diskutieren ___ dem neuen Plan.
+Wir diskutieren ___ dem neuen Plan. (Präposition)

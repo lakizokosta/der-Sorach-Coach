@@ -9,4 +9,4 @@ options:
 correct: an
 ---
 
-Der Supermarkt ist ___ der Ecke.
+Der Supermarkt ist ___ der Ecke. (Lokalpräposition)

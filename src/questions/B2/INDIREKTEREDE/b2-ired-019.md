@@ -9,4 +9,4 @@ options:
 correct: sei
 ---
 
-Die Ministerin betonte, die Reform ___ notwendig.
+Die Ministerin betonte, die Reform ___ notwendig. (Indirekte Rede)

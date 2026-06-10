@@ -9,4 +9,4 @@ options:
 correct: eine
 ---
 
-Ich kaufe ___ Blume.
+Ich kaufe ___ Blume. (Akkusativform)

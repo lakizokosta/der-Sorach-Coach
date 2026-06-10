@@ -5,4 +5,4 @@ correct:
   - wäscht
 ---
 
-Er ___ sich die Hände vor dem Essen. (Reflexivpronomen — er)
+Er ___ sich die Hände vor dem Essen. (Reflexivform — waschen)

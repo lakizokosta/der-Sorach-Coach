@@ -5,4 +5,4 @@ correct:
   - fülle
 ---
 
-Ich ___ das Formular auf der Post aus. (Trennbare Verben — ich)
+Ich ___ das Formular auf der Post aus. (Trennbares Verb — ausgehen)

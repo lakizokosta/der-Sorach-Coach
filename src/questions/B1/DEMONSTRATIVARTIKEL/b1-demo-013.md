@@ -9,4 +9,4 @@ options:
 correct: Dieses
 ---
 
-___ Gesetz wurde gestern verabschiedet.
+___ Gesetz wurde gestern verabschiedet. (Demonstrativartikel)

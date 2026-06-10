@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Die Lage war so ernst, ___ Sofortmaßnahmen nötig waren.
+Die Lage war so ernst, ___ Sofortmaßnahmen nötig waren. (Konsekutivsatz)

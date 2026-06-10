@@ -9,4 +9,4 @@ options:
 correct: Woher
 ---
 
-___ kommst du? — Aus Berlin.
+___ kommst du? — Aus Berlin. (Fragewort)

@@ -9,4 +9,4 @@ options:
 correct: beantworten
 ---
 
-Die Frage ist schwer zu ___ .
+Die Frage ist schwer zu ___ . (Passiversatz)

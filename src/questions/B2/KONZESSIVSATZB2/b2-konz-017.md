@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___, obgleich die Nachfrage sinkt, erhöht die Firma die Produktion.
+___, obgleich die Nachfrage sinkt, erhöht die Firma die Produktion. (Konzessivsatz)

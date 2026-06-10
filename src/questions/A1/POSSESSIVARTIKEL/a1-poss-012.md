@@ -9,5 +9,4 @@ options:
 correct: mein
 ---
 
-___ Heft ist neu. (ich)
-
+___ Heft ist neu. (Possessivartikel — du, mask., Akk.)

@@ -9,5 +9,4 @@ options:
 correct: auf die
 ---
 
-Ich fahre ___ Straße. (Bewegung → Akkusativ)
-
+Ich fahre ___ Straße. (Dativ oder Akkusativ)

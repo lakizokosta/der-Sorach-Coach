@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Er wartet ___ dem Arzt.
+Er wartet ___ dem Arzt. (Verb + Präposition)

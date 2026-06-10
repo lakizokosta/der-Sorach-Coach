@@ -9,4 +9,4 @@ options:
 correct: indem
 ---
 
-Sie schrieb den Bericht, ___ sie die Daten auswertete.
+Sie schrieb den Bericht, ___ sie die Daten auswertete. (Modalsatz)

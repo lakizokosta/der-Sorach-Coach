@@ -9,4 +9,4 @@ options:
 correct: neben
 ---
 
-Das Café ist ___ dem Park.
+Das Café ist ___ dem Park. (Lokale Präposition)

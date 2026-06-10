@@ -9,4 +9,4 @@ options:
 correct: Niemand
 ---
 
-___ weiß die Antwort auf diese Frage.
+___ weiß die Antwort auf diese Frage. (Indefinitpronomen)

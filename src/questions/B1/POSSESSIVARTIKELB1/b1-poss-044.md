@@ -9,4 +9,4 @@ options:
 correct: der
 ---
 
-Das ist das Ziel ___ Partei.
+Das ist das Ziel ___ Partei. (Possessivartikelform)

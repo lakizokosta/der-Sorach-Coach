@@ -9,4 +9,4 @@ options:
 correct: ob
 ---
 
-Er fragt, ___ wir schon gebucht haben.
+Er fragt, ___ wir schon gebucht haben. (Indirekte Frage)

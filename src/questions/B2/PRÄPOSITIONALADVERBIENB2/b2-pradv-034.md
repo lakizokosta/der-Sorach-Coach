@@ -9,4 +9,4 @@ options:
 correct: warte
 ---
 
-Darauf ___ ich nicht.
+Darauf ___ ich nicht. (Pronominaladverb)

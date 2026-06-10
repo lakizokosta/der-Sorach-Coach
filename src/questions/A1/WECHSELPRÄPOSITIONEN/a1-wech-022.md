@@ -9,5 +9,4 @@ options:
 correct: in den
 ---
 
-Ich bin ___ Park. (Bewegung → Akkusativ)
-
+Ich bin ___ Park. (Dativ oder Akkusativ)

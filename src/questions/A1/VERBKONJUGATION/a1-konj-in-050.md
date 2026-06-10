@@ -5,4 +5,4 @@ correct:
   - liebe
 ---
 
-Ich ___ meine Familie. (lieben, ich)
+Ich ___ meine Familie. (Präsensform — schwimmen)

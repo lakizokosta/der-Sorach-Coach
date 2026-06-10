@@ -9,4 +9,4 @@ options:
 correct: des
 ---
 
-Das ist das Auto ___ Professors.
+Das ist das Auto ___ Professors. (Possessivartikelform)

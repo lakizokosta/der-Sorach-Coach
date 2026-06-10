@@ -9,4 +9,4 @@ options:
 correct: weil
 ---
 
-Sie kündigt, ___ sie eine bessere Stelle gefunden hat.
+Sie kündigt, ___ sie eine bessere Stelle gefunden hat. (Kausalsatz)

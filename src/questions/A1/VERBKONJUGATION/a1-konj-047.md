@@ -9,5 +9,4 @@ options:
 correct: hörst
 ---
 
-Du ___ Musik beim Sport. (hören)
-
+Du ___ Musik beim Sport. (Präsensform — hören)

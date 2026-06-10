@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Sie freut sich auf ___ Wochenende. (Akkusativ — das Wochenende)
+Sie freut sich auf ___ Wochenende. (Akkusativ — Akkusativform)

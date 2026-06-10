@@ -9,5 +9,4 @@ options:
 correct: schwimmen
 ---
 
-Wir ___ im See im Sommer. (schwimmen)
-
+Wir ___ im See im Sommer. (Präsensform — schwimmen)

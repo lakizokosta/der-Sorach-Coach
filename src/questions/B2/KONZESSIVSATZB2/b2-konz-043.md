@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___, wenngleich die Kosten hoch sind, lohnt sich die Investition.
+___, wenngleich die Kosten hoch sind, lohnt sich die Investition. (Konzessivsatz)

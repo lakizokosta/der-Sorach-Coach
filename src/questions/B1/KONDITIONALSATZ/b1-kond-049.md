@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ ich die Stelle bekomme, ziehe ich um.
+___ ich die Stelle bekomme, ziehe ich um. (Konditionalsatz)

@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Der Minister ___ die neue Regelung erklärt. (Perfekt — haben/sein)
+Der Minister ___ die neue Regelung erklärt. (Perfektform — haben)

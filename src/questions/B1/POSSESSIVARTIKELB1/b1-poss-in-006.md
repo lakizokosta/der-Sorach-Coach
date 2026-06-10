@@ -5,4 +5,4 @@ correct:
   - des
 ---
 
-Das ist das Auto ___ Professors. (Possessivartikel — Possessivartikel)
+Das ist das Auto ___ Professors. (Possessivartikelform)

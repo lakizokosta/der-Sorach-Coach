@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Die Nachricht ___ sofort gesendet.
+Die Nachricht ___ sofort gesendet. (Passivform)

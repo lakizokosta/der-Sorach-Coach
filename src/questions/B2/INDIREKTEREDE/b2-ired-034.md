@@ -9,4 +9,4 @@ options:
 correct: werde
 ---
 
-Er erklärte, das Problem ___ bald gelöst.
+Er erklärte, das Problem ___ bald gelöst. (Indirekte Rede)

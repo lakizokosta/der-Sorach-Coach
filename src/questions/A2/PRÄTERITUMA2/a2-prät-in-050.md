@@ -5,4 +5,4 @@ correct:
   - sollte
 ---
 
-Er ___ Detektiv werden. (Präteritum — er)
+Er ___ Detektiv werden. (Präteritumsform — kaufen)

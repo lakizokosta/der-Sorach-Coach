@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Es war so kalt, ___ wir zu Hause blieben.
+Es war so kalt, ___ wir zu Hause blieben. (Konsekutivsatz)

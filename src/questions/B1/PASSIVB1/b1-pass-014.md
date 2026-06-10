@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Abfälle ___ getrennt gesammelt.
+Die Abfälle ___ getrennt gesammelt. (Passivform — werden)

@@ -5,4 +5,4 @@ correct:
   - verletzt
 ---
 
-Er ___ sich beim Sport den Rücken. (Reflexivpronomen — er)
+Er ___ sich beim Sport den Rücken. (Reflexivform — gesehen)

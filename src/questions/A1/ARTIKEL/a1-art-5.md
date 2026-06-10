@@ -9,4 +9,4 @@ options:
 correct: kein
 ---
 
-Ich habe ___ Geld.
+Ich habe ___ Geld. (Artikelform)

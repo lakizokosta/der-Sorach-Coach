@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Sie ___ die Kinder von der Oma abholen.
+Sie ___ die Kinder von der Oma abholen. (lassen + Infinitiv)

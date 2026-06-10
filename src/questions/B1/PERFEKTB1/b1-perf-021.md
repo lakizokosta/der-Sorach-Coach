@@ -9,4 +9,4 @@ options:
 correct: ist
 ---
 
-Er ___ nach Berlin gefahren.
+Er ___ nach Berlin gefahren. (Perfektform — sein)

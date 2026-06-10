@@ -9,4 +9,4 @@ options:
 correct: ob
 ---
 
-Kannst du prüfen, ___ das Medikament verfügbar ist?
+Kannst du prüfen, ___ das Medikament verfügbar ist? (Indirekte Frage)

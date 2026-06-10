@@ -9,4 +9,4 @@ options:
 correct: stehst
 ---
 
-Wann ___ du auf?
+Wann ___ du auf? (Trennbares Verb — einkaufen)

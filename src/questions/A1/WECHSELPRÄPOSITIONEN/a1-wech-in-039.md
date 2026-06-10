@@ -5,4 +5,4 @@ correct:
   - auf die
 ---
 
-Wir fahren ___ Insel. (Wechselpräpositionen — Bewegung)
+Wir fahren ___ Insel. (Dativ oder Akkusativ)

@@ -5,4 +5,4 @@ correct:
   - in den
 ---
 
-Wir steigen ___ Bus. (Wechselpräpositionen — Bewegung)
+Wir steigen ___ Bus. (Dativ oder Akkusativ)

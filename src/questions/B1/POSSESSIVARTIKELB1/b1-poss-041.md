@@ -9,4 +9,4 @@ options:
 correct: ihre
 ---
 
-Sie besucht ___ Eltern am Wochenende.
+Sie besucht ___ Eltern am Wochenende. (Possessivartikelform)

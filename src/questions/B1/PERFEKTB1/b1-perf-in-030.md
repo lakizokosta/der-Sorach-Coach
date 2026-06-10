@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Die Firma ___ viele neue Mitarbeiter eingestellt. (Perfekt — haben/sein)
+Die Firma ___ viele neue Mitarbeiter eingestellt. (Perfektform — haben)

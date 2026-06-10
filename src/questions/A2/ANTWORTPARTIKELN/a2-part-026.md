@@ -9,4 +9,4 @@ options:
 correct: nein
 ---
 
-„Ist das teuer?" — „___, es ist günstig."
+„Ist das teuer?" — „___, es ist günstig." (Antwortpartikel)

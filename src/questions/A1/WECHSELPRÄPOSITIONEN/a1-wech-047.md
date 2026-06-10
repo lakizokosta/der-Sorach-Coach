@@ -9,5 +9,4 @@ options:
 correct: in der
 ---
 
-Ich lerne ___ Schule. (Ort → Dativ)
-
+Ich lerne ___ Schule. (Dativ oder Akkusativ)

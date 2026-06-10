@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Er ___ wohl erst morgen an der Konferenz teilnehmen.
+Er ___ wohl erst morgen an der Konferenz teilnehmen. (Grammatikform)

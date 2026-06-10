@@ -9,4 +9,4 @@ options:
 correct: des
 ---
 
-Anlässlich ___ Jubiläums fand eine Feier statt.
+Anlässlich ___ Jubiläums fand eine Feier statt. (Genitivform)

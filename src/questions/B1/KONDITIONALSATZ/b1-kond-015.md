@@ -9,4 +9,4 @@ options:
 correct: Falls
 ---
 
-___ etwas schiefgeht, melde dich sofort.
+___ etwas schiefgeht, melde dich sofort. (Konditionalsatz — wenn)

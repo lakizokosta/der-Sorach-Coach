@@ -9,4 +9,4 @@ options:
 correct: erinnere
 ---
 
-Daran ___ ich mich noch gut.
+Daran ___ ich mich noch gut. (Pronominaladverb)

@@ -9,4 +9,4 @@ options:
 correct: Entgegen
 ---
 
-___ aller Erwartungen gelang das Experiment.
+___ aller Erwartungen gelang das Experiment. (Genitivform)

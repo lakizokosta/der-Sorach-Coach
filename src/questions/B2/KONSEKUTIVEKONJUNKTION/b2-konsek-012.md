@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Er erklärte es so deutlich, ___ jeder es verstand.
+Er erklärte es so deutlich, ___ jeder es verstand. (Konsekutivsatz)

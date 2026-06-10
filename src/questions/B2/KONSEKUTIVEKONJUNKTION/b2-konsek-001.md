@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Er sprach so leise, ___ niemand ihn verstehen konnte.
+Er sprach so leise, ___ niemand ihn verstehen konnte. (Konsekutivsatz)

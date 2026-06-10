@@ -5,4 +5,4 @@ correct:
   - kann
 ---
 
-Ich ___ leider nicht zur Einladung kommen. (Modalverb — ich)
+Ich ___ leider nicht zur Einladung kommen. (Modalverbform — können)

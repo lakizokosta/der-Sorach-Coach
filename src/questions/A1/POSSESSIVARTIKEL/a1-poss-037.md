@@ -9,5 +9,4 @@ options:
 correct: dein
 ---
 
-___ Heft ist neu. (du)
-
+___ Heft ist neu. (Possessivartikel — wir, fem., Nom.)

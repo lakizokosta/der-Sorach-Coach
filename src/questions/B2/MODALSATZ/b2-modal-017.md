@@ -9,4 +9,4 @@ options:
 correct: ohne dass
 ---
 
-Sie verließ das Haus, ___ jemand es bemerkte.
+Sie verließ das Haus, ___ jemand es bemerkte. (Modalsatz)

@@ -9,5 +9,4 @@ options:
 correct: seinem
 ---
 
-Ich spiele mit ___ Computer. (er)
-
+Ich spiele mit ___ Computer. (Possessivartikel — du, neutr., Akk.)

@@ -9,4 +9,4 @@ options:
 correct: Diese
 ---
 
-___ Vorlesung war interessanter als die andere.
+___ Vorlesung war interessanter als die andere. (Demonstrativartikel)

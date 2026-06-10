@@ -9,4 +9,4 @@ options:
 correct: Diese
 ---
 
-___ Kollegin aus der Abteilung hilft mir oft.
+___ Kollegin aus der Abteilung hilft mir oft. (Demonstrativartikel)

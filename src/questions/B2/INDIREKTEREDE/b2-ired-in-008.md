@@ -5,4 +5,4 @@ correct:
   - werde
 ---
 
-Der Arzt meinte, der Patient ___ bald genesen. (werden)
+Der Arzt meinte, der Patient ___ bald genesen. (Indirekte Rede)

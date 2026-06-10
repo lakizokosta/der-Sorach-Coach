@@ -9,4 +9,4 @@ options:
 correct: trotzdem
 ---
 
-Sie hat wenig Zeit, ___ hilft sie uns.
+Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz — obwohl)

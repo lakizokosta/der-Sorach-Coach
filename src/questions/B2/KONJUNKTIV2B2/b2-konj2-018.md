@@ -9,4 +9,4 @@ options:
 correct: als ob
 ---
 
-Er tut so, ___ er alles wüsste.
+Er tut so, ___ er alles wüsste. (Konjunktiv-II-Form)

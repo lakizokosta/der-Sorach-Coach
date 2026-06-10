@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Die Firma ___ viele neue Mitarbeiter eingestellt.
+Die Firma ___ viele neue Mitarbeiter eingestellt. (Perfektform — haben)

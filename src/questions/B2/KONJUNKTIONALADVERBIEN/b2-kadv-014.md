@@ -9,4 +9,4 @@ options:
 correct: daher
 ---
 
-Er hat recht; ___ sollten wir zuhören.
+Er hat recht; ___ sollten wir zuhören. (Konjunktionaladverb)

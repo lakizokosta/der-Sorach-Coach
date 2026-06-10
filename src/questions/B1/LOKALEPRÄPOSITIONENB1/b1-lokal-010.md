@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Die Klinik ist ___ der dritten Etage.
+Die Klinik ist ___ der dritten Etage. (Lokale Präposition)

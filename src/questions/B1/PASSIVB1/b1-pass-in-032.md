@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Der Bericht ___ gestern veröffentlicht. (Passiv — werden)
+Der Bericht ___ gestern veröffentlicht. (Passivform)

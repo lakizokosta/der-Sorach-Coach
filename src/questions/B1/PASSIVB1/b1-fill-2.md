@@ -5,4 +5,4 @@ correct: wurde
 hint: "Vorgangspassiv im Präteritum."
 ---
 
-Das Haus ___ von Architekten gebaut.
+Das Haus ___ von Architekten gebaut. (Passivform)

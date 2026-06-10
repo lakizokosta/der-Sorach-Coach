@@ -9,5 +9,4 @@ options:
 correct: ihre
 ---
 
-Wir suchen ___ Freundin. (sie)
-
+Wir suchen ___ Freundin. (Possessivartikel — ich, fem., Akk.)

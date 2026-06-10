@@ -9,4 +9,4 @@ options:
 correct: indem
 ---
 
-Er löste das Problem, ___ er kreativ dachte.
+Er löste das Problem, ___ er kreativ dachte. (Modalsatz)

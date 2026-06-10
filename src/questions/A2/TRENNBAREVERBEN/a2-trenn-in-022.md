@@ -5,4 +5,4 @@ correct:
   - macht
 ---
 
-Sie ___ das Licht aus. (Trennbare Verben — sie)
+Sie ___ das Licht aus. (Trennbares Verb — stehen)

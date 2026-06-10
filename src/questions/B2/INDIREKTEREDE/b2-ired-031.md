@@ -9,4 +9,4 @@ options:
 correct: werde
 ---
 
-Er meinte, er ___ morgen früher kommen.
+Er meinte, er ___ morgen früher kommen. (Indirekte Rede)

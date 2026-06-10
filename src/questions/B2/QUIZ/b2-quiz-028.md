@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Sie ___ vermutlich die Prüfung mit Auszeichnung bestehen.
+Sie ___ vermutlich die Prüfung mit Auszeichnung bestehen. (Grammatikform)

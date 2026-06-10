@@ -9,4 +9,4 @@ options:
 correct: meiner
 ---
 
-Die Idee ___ Kollegin ist gut.
+Die Idee ___ Kollegin ist gut. (Possessivartikel — ich, fem., Nom.)

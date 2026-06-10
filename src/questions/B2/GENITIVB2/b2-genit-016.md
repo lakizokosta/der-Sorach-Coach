@@ -9,4 +9,4 @@ options:
 correct: dieser
 ---
 
-Die Bedeutung ___ Entscheidung ist enorm.
+Die Bedeutung ___ Entscheidung ist enorm. (Genitivform)

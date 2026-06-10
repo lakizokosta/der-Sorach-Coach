@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Er ___ den ganzen Tag gearbeitet.
+Er ___ den ganzen Tag gearbeitet. (Perfektform — haben)

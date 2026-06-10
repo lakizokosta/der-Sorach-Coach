@@ -9,4 +9,4 @@ options:
 correct: erklären
 ---
 
-Das Thema ist zu komplex, um es kurz zu ___ .
+Das Thema ist zu komplex, um es kurz zu ___ . (Passiversatz)

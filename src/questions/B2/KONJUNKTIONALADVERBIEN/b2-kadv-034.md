@@ -9,4 +9,4 @@ options:
 correct: dennoch
 ---
 
-Sie hat gewarnt; ___ ignorierte man ihre Hinweise.
+Sie hat gewarnt; ___ ignorierte man ihre Hinweise. (Konjunktionaladverb)

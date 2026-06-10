@@ -9,4 +9,4 @@ options:
 correct: ihren
 ---
 
-Ich kenne ___ Bruder.
+Ich kenne ___ Bruder. (Possessivartikel — wir, Pl., Akk.)

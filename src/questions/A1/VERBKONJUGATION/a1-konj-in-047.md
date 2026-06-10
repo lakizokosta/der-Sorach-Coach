@@ -5,4 +5,4 @@ correct:
   - kaufe
 ---
 
-Ich ___ ein Geschenk. (kaufen, ich)
+Ich ___ ein Geschenk. (Präsensform — hören)

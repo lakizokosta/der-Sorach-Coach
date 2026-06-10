@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Der Bericht ___ gestern veröffentlicht.
+Der Bericht ___ gestern veröffentlicht. (Passivform)

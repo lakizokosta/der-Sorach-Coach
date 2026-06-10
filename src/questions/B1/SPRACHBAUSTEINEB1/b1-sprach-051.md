@@ -9,4 +9,4 @@ options:
 correct: Anfrage
 ---
 
-Sehr geehrte Damen und Herren, hiermit bestätigen wir den Erhalt Ihrer ___ vom 12. Mai.
+Sehr geehrte Damen und Herren, hiermit bestätigen wir den Erhalt Ihrer ___ vom 12. Mai. (Grammatikform)

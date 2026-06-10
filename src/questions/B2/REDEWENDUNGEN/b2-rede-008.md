@@ -9,4 +9,4 @@ options:
 correct: einer
 ---
 
-Wir sind ___ einer Meinung.
+Wir sind ___ einer Meinung. (Redewendung)

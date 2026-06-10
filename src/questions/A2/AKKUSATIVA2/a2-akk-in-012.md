@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Er nimmt ___ Medikament. (Akkusativ — das Medikament)
+Er nimmt ___ Medikament. (Akkusativ — Akkusativform)

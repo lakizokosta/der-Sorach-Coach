@@ -9,4 +9,4 @@ options:
 correct: flach
 ---
 
-Sie hat den Ball ___ gehalten.
+Sie hat den Ball ___ gehalten. (Redewendung)

@@ -5,4 +5,4 @@ correct:
   - dieser
 ---
 
-Die Bedeutung ___ (dieser) Entscheidung ist enorm.
+Die Bedeutung ___ (dieser) Entscheidung ist enorm. (Genitivform)

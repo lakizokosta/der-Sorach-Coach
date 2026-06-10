@@ -9,4 +9,4 @@ options:
 correct: nichts
 ---
 
-Sie hat ___ Falsches gesagt.
+Sie hat ___ Falsches gesagt. (Indefinitpronomen)

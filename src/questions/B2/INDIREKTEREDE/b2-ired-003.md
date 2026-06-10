@@ -9,4 +9,4 @@ options:
 correct: werde
 ---
 
-Er sagte, er ___ morgen ankommen.
+Er sagte, er ___ morgen ankommen. (Indirekte Rede)

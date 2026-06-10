@@ -9,4 +9,4 @@ options:
 correct: gebaut worden
 ---
 
-Die Brücke ist 2010 ___ ___.
+Die Brücke ist 2010 ___ ___. (Passivform — gebaut geworden)

@@ -9,5 +9,4 @@ options:
 correct: essen
 ---
 
-Meine Freunde ___ Obst zum Frühstück. (essen)
-
+Meine Freunde ___ Obst zum Frühstück. (Präsensform — essen)

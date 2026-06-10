@@ -9,4 +9,4 @@ options:
 correct: spielen
 ---
 
-Wir ___ gern Fußball.
+Wir ___ gern Fußball. (Präsensform — - spielen)

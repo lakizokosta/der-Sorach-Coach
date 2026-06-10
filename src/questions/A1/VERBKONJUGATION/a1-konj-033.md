@@ -9,5 +9,4 @@ options:
 correct: trinkt
 ---
 
-Peter ___ Wasser nach dem Training. (trinken)
-
+Peter ___ Wasser nach dem Training. (Präsensform — trinken)

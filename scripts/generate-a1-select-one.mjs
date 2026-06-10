@@ -8,6 +8,8 @@ import { mkdirSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { verbFormHint } from './topic-context-hints.mjs';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..', 'src', 'questions', 'A1');
 
@@ -27,9 +29,10 @@ const TOPICS = {
 
 /** @typedef {{ prompt: string, options: string[], correct: string }} Q */
 
-function md({ id, prompt, options, correct }) {
+function md({ id, prompt, options, correct, hint }) {
   const opts = options.map((o) => `  - ${o}`).join('\n');
-  const text = String(prompt).replace(/^\[[^\]]+]\s+/, '');
+  let text = String(prompt).replace(/^\[[^\]]+]\s+/, '').trim();
+  if (hint && !/\([^)]+\)\s*$/.test(text)) text = `${text} (${hint})`;
   return `---\nid: ${id}\ntype: select-one\noptions:\n${opts}\ncorrect: ${correct}\n---\n\n${text}\n`;
 }
 
@@ -43,7 +46,7 @@ function writeTopic(folder, prefix, questions, from = 6, to = 50) {
     const num = String(i).padStart(3, '0');
     const file = join(dir, `${prefix}-${num}.md`);
     if (existsSync(file)) continue;
-    writeFileSync(file, md({ id: `${prefix}-${num}`, ...q }), 'utf8');
+    writeFileSync(file, md({ id: `${prefix}-${num}`, hint: verbFormHint(folder, '', q.correct, q.options), ...q }), 'utf8');
     written += 1;
   }
   return written;

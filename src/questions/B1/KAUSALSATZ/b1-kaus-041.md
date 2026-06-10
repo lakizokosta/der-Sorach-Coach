@@ -9,4 +9,4 @@ options:
 correct: denn
 ---
 
-Die Straßen sind nass, ___ es geregnet hat.
+Die Straßen sind nass, ___ es geregnet hat. (Kausalsatz)

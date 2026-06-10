@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Er wohnt ___ dem Land.
+Er wohnt ___ dem Land. (Lokale Präposition)

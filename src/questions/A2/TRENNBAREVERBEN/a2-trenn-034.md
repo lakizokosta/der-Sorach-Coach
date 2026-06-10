@@ -9,4 +9,4 @@ options:
 correct: stehen
 ---
 
-Wir ___ um 8 Uhr auf.
+Wir ___ um 8 Uhr auf. (Trennbares Verb — aufstehen)

@@ -5,4 +5,4 @@ correct:
   - haben
 ---
 
-Die Studierenden ___ lange über das Thema diskutiert. (Perfekt)
+Die Studierenden ___ lange über das Thema diskutiert. (Perfektform — haben)

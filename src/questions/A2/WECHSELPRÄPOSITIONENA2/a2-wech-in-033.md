@@ -5,4 +5,4 @@ correct:
   - ins
 ---
 
-Leg die Flasche ___ Regal. (Wechselpräpositionen — Wohin?)
+Leg die Flasche ___ Regal. (Dativ oder Akkusativ — Wohin?)

@@ -9,5 +9,4 @@ options:
 correct: spiele
 ---
 
-Ich ___ Fußball im Park. (spielen)
-
+Ich ___ Fußball im Park. (Präsensform — spielen)

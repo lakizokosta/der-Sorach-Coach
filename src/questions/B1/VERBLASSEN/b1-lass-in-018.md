@@ -5,4 +5,4 @@ correct:
   - lassen
 ---
 
-Wir ___ unsere Dokumente übersetzen. (Verben lassen)
+Wir ___ unsere Dokumente übersetzen. (lassen-Form)

@@ -9,4 +9,4 @@ options:
 correct: aber
 ---
 
-„Ich mag Kaffee, ___ Tee mag ich lieber."
+„Ich mag Kaffee, ___ Tee mag ich lieber." (Antwortpartikel)

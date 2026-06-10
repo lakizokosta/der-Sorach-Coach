@@ -9,4 +9,4 @@ options:
 correct: aus
 ---
 
-Auf Wunsch stellen wir Ihnen ein offizielles Zertifikat nach Kursende ___.
+Auf Wunsch stellen wir Ihnen ein offizielles Zertifikat nach Kursende ___. (Grammatikform)

@@ -9,4 +9,4 @@ options:
 correct: obwohl
 ---
 
-Er ging spazieren, ___ es regnete.
+Er ging spazieren, ___ es regnete. (Konzessivsatz)

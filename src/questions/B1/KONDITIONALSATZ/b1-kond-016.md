@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ du morgen Zeit hast, treffen wir uns.
+___ du morgen Zeit hast, treffen wir uns. (Konditionalsatz)

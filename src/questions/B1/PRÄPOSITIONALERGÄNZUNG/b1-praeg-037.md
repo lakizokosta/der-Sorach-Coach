@@ -9,4 +9,4 @@ options:
 correct: über
 ---
 
-Sie ärgert sich ___ den Fehler.
+Sie ärgert sich ___ den Fehler. (Verb + Präposition)

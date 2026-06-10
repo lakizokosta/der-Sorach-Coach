@@ -9,4 +9,4 @@ options:
 correct: der
 ---
 
-Ungeachtet ___ Proteste wurde das Gesetz verabschiedet.
+Ungeachtet ___ Proteste wurde das Gesetz verabschiedet. (Genitivform)

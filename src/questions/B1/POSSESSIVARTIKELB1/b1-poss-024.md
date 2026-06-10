@@ -9,4 +9,4 @@ options:
 correct: unsere
 ---
 
-Wir diskutieren ___ gemeinsame Zukunft.
+Wir diskutieren ___ gemeinsame Zukunft. (Possessivartikelform)

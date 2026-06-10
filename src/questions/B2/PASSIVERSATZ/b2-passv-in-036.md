@@ -5,4 +5,4 @@ correct:
   - erledigen
 ---
 
-Die Aufgabe ist zu ___ . (erledigen)
+Die Aufgabe ist zu ___ . (Passiversatz)

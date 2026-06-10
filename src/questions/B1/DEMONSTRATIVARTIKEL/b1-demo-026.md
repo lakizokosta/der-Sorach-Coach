@@ -9,4 +9,4 @@ options:
 correct: Diese
 ---
 
-___ Patienten müssen länger warten.
+___ Patienten müssen länger warten. (Demonstrativartikel)

@@ -9,4 +9,4 @@ options:
 correct: der
 ---
 
-Ich gebe ___ Frau die Blume.
+Ich gebe ___ Frau die Blume. (Dativform)

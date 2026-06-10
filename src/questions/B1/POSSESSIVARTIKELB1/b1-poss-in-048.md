@@ -5,4 +5,4 @@ correct:
   - ihrer
 ---
 
-Sie hilft ___ neuen Chefin bei der Einarbeitung. (Possessivartikel — Possessivartikel)
+Sie hilft ___ neuen Chefin bei der Einarbeitung. (Possessivartikelform)

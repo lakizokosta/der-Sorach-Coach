@@ -5,4 +5,4 @@ correct:
   - sieht
 ---
 
-Sie ___ sich im Spiegel. (Reflexivpronomen — sie)
+Sie ___ sich im Spiegel. (Reflexivform — sollen)

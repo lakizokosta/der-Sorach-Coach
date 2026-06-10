@@ -9,4 +9,4 @@ options:
 correct: Falls
 ---
 
-___ es regnet, nehmen wir einen Schirm mit.
+___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn)

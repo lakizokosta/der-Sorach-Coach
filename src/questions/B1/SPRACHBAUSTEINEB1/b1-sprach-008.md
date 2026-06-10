@@ -9,4 +9,4 @@ options:
 correct: Hierfür
 ---
 
-___ freue ich mich auf eine positive Rückmeldung.
+___ freue ich mich auf eine positive Rückmeldung. (Grammatikform)

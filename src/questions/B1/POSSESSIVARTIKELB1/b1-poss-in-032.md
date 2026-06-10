@@ -5,4 +5,4 @@ correct:
   - meines
 ---
 
-Das ist die Meinung ___ Kollegen. (Possessivartikel — Possessivartikel)
+Das ist die Meinung ___ Kollegen. (Possessivartikelform)

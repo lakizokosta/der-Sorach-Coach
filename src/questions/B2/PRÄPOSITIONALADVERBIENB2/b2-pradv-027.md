@@ -9,4 +9,4 @@ options:
 correct: haben
 ---
 
-Darauf ___ wir uns geeinigt.
+Darauf ___ wir uns geeinigt. (Pronominaladverb)

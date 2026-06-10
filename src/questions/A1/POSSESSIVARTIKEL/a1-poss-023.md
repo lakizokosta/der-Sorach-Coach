@@ -9,5 +9,4 @@ options:
 correct: euer
 ---
 
-___ Heft ist süß. (ihr)
-
+___ Heft ist süß. (Possessivartikel — du, fem., Nom.)

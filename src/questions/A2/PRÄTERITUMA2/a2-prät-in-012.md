@@ -5,4 +5,4 @@ correct:
   - hatte
 ---
 
-Ich ___ großen Hunger. (Präteritum — ich)
+Ich ___ großen Hunger. (Präteritumsform — haben)

@@ -9,5 +9,4 @@ options:
 correct: ihren
 ---
 
-Ich rufe ___ Freund an. (sie)
-
+Ich rufe ___ Freund an. (Possessivartikel — ich, mask., Nom.)

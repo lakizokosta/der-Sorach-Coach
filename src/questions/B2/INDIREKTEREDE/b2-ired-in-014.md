@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Der Zeuge behauptete, er ___ alles gesehen. (haben)
+Der Zeuge behauptete, er ___ alles gesehen. (Indirekte Rede)

@@ -9,4 +9,4 @@ options:
 correct: heißen Brei
 ---
 
-Er redet um den ___ herum.
+Er redet um den ___ herum. (Redewendung)

@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Die Aufgabe war so schwer, ___ niemand sie lösen konnte.
+Die Aufgabe war so schwer, ___ niemand sie lösen konnte. (Konsekutivsatz)

@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Sie ___ den Bericht Korrektur lesen.
+Sie ___ den Bericht Korrektur lesen. (lassen + Infinitiv)

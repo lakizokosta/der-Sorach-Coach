@@ -9,4 +9,4 @@ options:
 correct: etwas
 ---
 
-Ich habe ___ Besonderes erwartet.
+Ich habe ___ Besonderes erwartet. (Indefinitpronomen)

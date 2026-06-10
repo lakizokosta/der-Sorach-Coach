@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Das Gesetz ___ gestern verabschiedet. (werden, Präteritum)
+Das Gesetz ___ gestern verabschiedet. (Passivform — geworden)

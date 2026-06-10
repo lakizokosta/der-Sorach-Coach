@@ -5,4 +5,4 @@ correct:
   - auf die
 ---
 
-Sie geht ___ Brücke. (Wechselpräpositionen — Bewegung)
+Sie geht ___ Brücke. (Dativ oder Akkusativ)

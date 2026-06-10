@@ -9,4 +9,4 @@ options:
 correct: kein
 ---
 
-Ich habe ___ Hunger.
+Ich habe ___ Hunger. (Negation)

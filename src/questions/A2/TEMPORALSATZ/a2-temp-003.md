@@ -9,4 +9,4 @@ options:
 correct: Während
 ---
 
-___ er kocht, höre ich Musik.
+___ er kocht, höre ich Musik. (Temporal — gleichzeitig)

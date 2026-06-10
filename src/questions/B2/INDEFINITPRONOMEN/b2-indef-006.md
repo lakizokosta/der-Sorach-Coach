@@ -9,4 +9,4 @@ options:
 correct: jemanden
 ---
 
-Kennst du ___ hier?
+Kennst du ___ hier? (Indefinitpronomen)

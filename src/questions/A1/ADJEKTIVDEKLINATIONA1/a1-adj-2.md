@@ -9,4 +9,4 @@ options:
 correct: kleine
 ---
 
-Der ___ Hund bellt.
+Der ___ Hund bellt. (Adjektivendung)

@@ -9,4 +9,4 @@ options:
 correct: vor
 ---
 
-Wir treffen uns ___ dem Eingang der Universität.
+Wir treffen uns ___ dem Eingang der Universität. (Lokale Präposition)

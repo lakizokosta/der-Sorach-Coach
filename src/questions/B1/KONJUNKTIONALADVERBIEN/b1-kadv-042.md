@@ -9,4 +9,4 @@ options:
 correct: Dennoch
 ---
 
-Das Essen war teuer. ___, war die Qualität hoch.
+Das Essen war teuer. ___, war die Qualität hoch. (Konjunktionaladverb)

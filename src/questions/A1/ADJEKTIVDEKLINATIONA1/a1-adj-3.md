@@ -9,4 +9,4 @@ options:
 correct: schöne
 ---
 
-Ich habe eine ___ Katze.
+Ich habe eine ___ Katze. (Adjektivendung)

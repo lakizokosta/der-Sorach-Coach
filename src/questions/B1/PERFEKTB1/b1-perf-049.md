@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Ich ___ den Artikel gestern gelesen.
+Ich ___ den Artikel gestern gelesen. (Perfektform — haben)

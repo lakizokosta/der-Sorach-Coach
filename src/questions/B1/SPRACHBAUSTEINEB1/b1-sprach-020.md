@@ -9,4 +9,4 @@ options:
 correct: in
 ---
 
-Wir bitten Sie, pünktlich ___ dem Seminarraum zu erscheinen.
+Wir bitten Sie, pünktlich ___ dem Seminarraum zu erscheinen. (Grammatikform)

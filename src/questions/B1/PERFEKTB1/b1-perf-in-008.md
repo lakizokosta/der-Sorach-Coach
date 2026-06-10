@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Sie ___ sich beim Sport verletzt. (Perfekt — haben/sein)
+Sie ___ sich beim Sport verletzt. (Perfektform — haben)

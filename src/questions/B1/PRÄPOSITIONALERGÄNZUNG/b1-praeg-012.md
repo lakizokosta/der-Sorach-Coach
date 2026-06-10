@@ -9,4 +9,4 @@ options:
 correct: über
 ---
 
-Wir diskutieren ___ dem Projekt.
+Wir diskutieren ___ dem Projekt. (Verb + Präposition)

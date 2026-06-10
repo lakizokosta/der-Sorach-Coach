@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Er meinte, er ___ die Nachricht erhalten. (haben)
+Er meinte, er ___ die Nachricht erhalten. (Indirekte Rede)

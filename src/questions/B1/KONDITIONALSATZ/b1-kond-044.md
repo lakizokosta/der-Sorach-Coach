@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ du pünktlich bist, beginnen wir.
+___ du pünktlich bist, beginnen wir. (Konditionalsatz)

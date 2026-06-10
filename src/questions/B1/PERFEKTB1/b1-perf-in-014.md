@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Ich ___ mich über das Ergebnis gefreut. (Perfekt)
+Ich ___ mich über das Ergebnis gefreut. (Perfektform — haben)

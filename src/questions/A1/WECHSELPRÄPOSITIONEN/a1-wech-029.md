@@ -9,5 +9,4 @@ options:
 correct: auf dem
 ---
 
-Ich klettere ___ Dach. (Ort → Dativ)
-
+Ich klettere ___ Dach. (Dativ oder Akkusativ)

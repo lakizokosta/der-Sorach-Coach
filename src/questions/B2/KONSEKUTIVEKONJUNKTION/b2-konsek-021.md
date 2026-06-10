@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Er war so müde, ___ er sofort einschlief.
+Er war so müde, ___ er sofort einschlief. (Konsekutivsatz)

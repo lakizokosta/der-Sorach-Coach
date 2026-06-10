@@ -9,4 +9,4 @@ options:
 correct: Sobald
 ---
 
-___, ich angekommen bin, melde ich mich.
+___, ich angekommen bin, melde ich mich. (Temporalnebensatz)

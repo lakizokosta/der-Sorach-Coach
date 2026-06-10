@@ -9,4 +9,4 @@ options:
 correct: ruft ... an
 ---
 
-Er ___ mich morgen ___.
+Er ___ mich morgen ___. (Trennbares Verb)

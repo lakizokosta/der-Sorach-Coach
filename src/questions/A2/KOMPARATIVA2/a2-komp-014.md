@@ -9,4 +9,4 @@ options:
 correct: wärmer
 ---
 
-Ich mag Tee ___. (warm)
+Ich mag Tee ___. (Komparativ — warm)

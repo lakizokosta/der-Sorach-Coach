@@ -9,4 +9,4 @@ options:
 correct: ja
 ---
 
-„Hast du Hunger?" — „___, gern!"
+„Hast du Hunger?" — „___, gern!" (Antwortpartikel — Kontrast)

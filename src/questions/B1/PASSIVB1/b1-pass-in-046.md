@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Das neue Gesetz ___ morgen verabschiedet. (Passiv — werden)
+Das neue Gesetz ___ morgen verabschiedet. (Passivform)

@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Sie ___ sehr gut für die Gäste gekocht. (Perfekt — sie)
+Sie ___ sehr gut für die Gäste gekocht. (Perfektform — haben)

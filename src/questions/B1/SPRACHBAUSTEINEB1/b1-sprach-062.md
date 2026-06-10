@@ -9,4 +9,4 @@ options:
 correct: per
 ---
 
-Bitte füllen Sie das Anmeldeformular sorgfältig aus und schicken es uns ___ E-Mail zu.
+Bitte füllen Sie das Anmeldeformular sorgfältig aus und schicken es uns ___ E-Mail zu. (Grammatikform)

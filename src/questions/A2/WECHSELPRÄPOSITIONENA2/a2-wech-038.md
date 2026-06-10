@@ -9,4 +9,4 @@ options:
 correct: In die
 ---
 
-Wohin kommen die Gäste? — ___ Wohnung.
+Wohin kommen die Gäste? — ___ Wohnung. (Dativ oder Akkusativ — Wohin?)

@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Das Buch ___ sich gut lesen.
+Das Buch ___ sich gut lesen. (lassen)

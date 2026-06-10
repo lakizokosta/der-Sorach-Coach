@@ -5,4 +5,4 @@ correct:
   - finden
 ---
 
-Die Lösung ist schwer zu ___ . (finden)
+Die Lösung ist schwer zu ___ . (Passiversatz)

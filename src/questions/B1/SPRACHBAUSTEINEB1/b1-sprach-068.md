@@ -9,4 +9,4 @@ options:
 correct: wegen
 ---
 
-Die Bibliothek bleibt ___ der Renovierungsarbeiten bis Ende des Monats geschlossen.
+Die Bibliothek bleibt ___ der Renovierungsarbeiten bis Ende des Monats geschlossen. (Grammatikform)

@@ -9,5 +9,4 @@ options:
 correct: schreiben
 ---
 
-Wir ___ eine E-Mail an Freunde. (schreiben)
-
+Wir ___ eine E-Mail an Freunde. (Präsensform — schreiben)

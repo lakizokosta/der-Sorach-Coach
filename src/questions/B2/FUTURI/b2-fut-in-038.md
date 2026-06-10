@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Sie ___ (werden) die Prüfung bestehen.
+Sie ___ (werden) die Prüfung bestehen. (Futurform)

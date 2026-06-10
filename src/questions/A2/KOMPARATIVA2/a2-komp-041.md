@@ -9,4 +9,4 @@ options:
 correct: lieber
 ---
 
-Mein Auto ist ___ als deins. (gern)
+Mein Auto ist ___ als deins. (Komparativ — kalt)

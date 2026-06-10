@@ -9,4 +9,4 @@ options:
 correct: auf dem
 ---
 
-Wo liegt der Teppich? — ___ Boden.
+Wo liegt der Teppich? — ___ Boden. (Dativ oder Akkusativ — Wo?)

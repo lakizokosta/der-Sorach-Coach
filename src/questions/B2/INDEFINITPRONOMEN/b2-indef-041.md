@@ -9,4 +9,4 @@ options:
 correct: etwas
 ---
 
-Er hat ___ Interessantes berichtet.
+Er hat ___ Interessantes berichtet. (Indefinitpronomen)

@@ -9,5 +9,4 @@ options:
 correct: lernt
 ---
 
-Ihr ___ Deutsch für die Schule. (lernen)
-
+Ihr ___ Deutsch für die Schule. (Präsensform — lernen)

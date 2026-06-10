@@ -9,4 +9,4 @@ options:
 correct: aus
 ---
 
-Sie kommt ___ der Türkei.
+Sie kommt ___ der Türkei. (Präposition)

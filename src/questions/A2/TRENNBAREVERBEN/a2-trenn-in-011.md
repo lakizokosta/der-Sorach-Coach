@@ -5,4 +5,4 @@ correct:
   - macht
 ---
 
-Er ___ die Tür zu. (Trennbare Verben — er)
+Er ___ die Tür zu. (Trennbares Verb — machen)

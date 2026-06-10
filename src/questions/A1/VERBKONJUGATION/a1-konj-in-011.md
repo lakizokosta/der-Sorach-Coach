@@ -5,4 +5,4 @@ correct:
   - trinke
 ---
 
-Morgens ___ ich Kaffee. (trinken, ich)
+Morgens ___ ich Kaffee. (Präsensform — kochen)

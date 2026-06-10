@@ -9,4 +9,4 @@ options:
 correct: näher
 ---
 
-Der ICE ist ___ als der Bus. (nah)
+Der ICE ist ___ als der Bus. (Komparativ — hoch)

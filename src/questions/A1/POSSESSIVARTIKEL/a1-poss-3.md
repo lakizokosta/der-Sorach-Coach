@@ -9,4 +9,4 @@ options:
 correct: meinen
 ---
 
-Ich rufe ___ Vater an. (ich)
+Ich rufe ___ Vater an. (Possessivartikel — ich)

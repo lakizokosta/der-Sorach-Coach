@@ -9,4 +9,4 @@ options:
 correct: seine
 ---
 
-Er kennt ___ Nachbarn schon lange.
+Er kennt ___ Nachbarn schon lange. (Possessivartikelform)

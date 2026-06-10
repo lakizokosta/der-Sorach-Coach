@@ -9,4 +9,4 @@ options:
 correct: der schnellste
 ---
 
-Der ICE ist ___ Zug in Deutschland.
+Der ICE ist ___ Zug in Deutschland. (Superlativform)

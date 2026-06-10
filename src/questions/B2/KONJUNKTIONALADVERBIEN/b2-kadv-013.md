@@ -9,4 +9,4 @@ options:
 correct: somit
 ---
 
-Die Daten sind unvollständig; ___ ist die Analyse schwierig.
+Die Daten sind unvollständig; ___ ist die Analyse schwierig. (Konjunktionaladverb)

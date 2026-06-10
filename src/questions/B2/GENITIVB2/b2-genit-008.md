@@ -9,4 +9,4 @@ options:
 correct: des
 ---
 
-Wegen ___ schlechten Wetters wurde das Konzert abgesagt.
+Wegen ___ schlechten Wetters wurde das Konzert abgesagt. (Genitivform)

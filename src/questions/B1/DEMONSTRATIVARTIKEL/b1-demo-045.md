@@ -9,4 +9,4 @@ options:
 correct: diesen
 ---
 
-Wir diskutieren ___ Vorschlag im Meeting.
+Wir diskutieren ___ Vorschlag im Meeting. (Demonstrativartikel)

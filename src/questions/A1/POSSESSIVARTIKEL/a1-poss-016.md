@@ -9,5 +9,4 @@ options:
 correct: unseren
 ---
 
-Ich esse ___ Freund. (wir)
-
+Ich esse ___ Freund. (Possessivartikel — sie Pl., neutr., Nom.)

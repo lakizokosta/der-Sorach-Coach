@@ -9,4 +9,4 @@ options:
 correct: Da
 ---
 
-___ die Nachfrage steigt, werden die Preise höher.
+___ die Nachfrage steigt, werden die Preise höher. (Kausalsatz)

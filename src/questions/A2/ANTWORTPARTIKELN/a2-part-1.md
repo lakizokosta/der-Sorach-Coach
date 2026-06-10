@@ -9,4 +9,4 @@ options:
 correct: Doch
 ---
 
-"Hast du keinen Hunger?" — "___, ich habe Hunger!"
+"Hast du keinen Hunger?" — "___, ich habe Hunger!" (Antwortpartikel)

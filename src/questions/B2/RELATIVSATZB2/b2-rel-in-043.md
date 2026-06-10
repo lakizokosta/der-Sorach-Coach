@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Die Firma, bei ___ ich Praktikum machte, stellt ein. (der)
+Die Firma, bei ___ ich Praktikum machte, stellt ein. (Relativpronomen)

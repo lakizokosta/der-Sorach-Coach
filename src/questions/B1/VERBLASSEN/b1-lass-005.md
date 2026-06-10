@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Du ___ dir die Zähne kontrollieren.
+Du ___ dir die Zähne kontrollieren. (lassen + Infinitiv)

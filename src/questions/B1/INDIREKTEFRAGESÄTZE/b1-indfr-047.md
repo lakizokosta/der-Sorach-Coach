@@ -9,4 +9,4 @@ options:
 correct: wann
 ---
 
-Kannst du mir sagen, ___ der Zug ankommt?
+Kannst du mir sagen, ___ der Zug ankommt? (Indirekte Frage)

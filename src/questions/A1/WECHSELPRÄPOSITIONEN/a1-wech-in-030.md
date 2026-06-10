@@ -5,4 +5,4 @@ correct:
   - im
 ---
 
-Wir sind ___ Schwimmbad. (Wechselpräpositionen — Ort)
+Wir sind ___ Schwimmbad. (Dativ oder Akkusativ)

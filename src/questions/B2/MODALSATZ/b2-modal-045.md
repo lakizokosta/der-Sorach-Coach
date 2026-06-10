@@ -9,4 +9,4 @@ options:
 correct: anstatt dass
 ---
 
-Er kaufte online, ___ er ins Geschäft ging.
+Er kaufte online, ___ er ins Geschäft ging. (Modalsatz)

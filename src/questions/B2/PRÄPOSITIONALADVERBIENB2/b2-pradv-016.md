@@ -9,4 +9,4 @@ options:
 correct: löst
 ---
 
-Womit ___ man das Problem?
+Womit ___ man das Problem? (Pronominaladverb)

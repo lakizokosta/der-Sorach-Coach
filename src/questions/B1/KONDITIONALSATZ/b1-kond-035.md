@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ die Prüfung schwer ist, bleibe ich ruhig.
+___ die Prüfung schwer ist, bleibe ich ruhig. (Konditionalsatz)

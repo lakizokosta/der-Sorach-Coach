@@ -9,4 +9,4 @@ options:
 correct: verboten
 ---
 
-Bitte beachten Sie, dass Rauchen im gesamten Gebäude streng ___.
+Bitte beachten Sie, dass Rauchen im gesamten Gebäude streng ___. (Grammatikform)

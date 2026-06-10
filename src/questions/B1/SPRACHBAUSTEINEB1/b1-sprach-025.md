@@ -9,4 +9,4 @@ options:
 correct: gemäß
 ---
 
-Die Veranstaltung findet ___ der aktuellen Hygienevorschriften statt.
+Die Veranstaltung findet ___ der aktuellen Hygienevorschriften statt. (Grammatikform)

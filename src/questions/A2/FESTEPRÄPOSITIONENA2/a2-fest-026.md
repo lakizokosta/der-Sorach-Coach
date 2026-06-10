@@ -9,4 +9,4 @@ options:
 correct: dem
 ---
 
-Wir sprechen mit ___ Chef.
+Wir sprechen mit ___ Chef. (feste Präp. — auf + Akk.)

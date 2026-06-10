@@ -5,4 +5,4 @@ correct:
   - an die
 ---
 
-Wohin hängst du das Bild? — ___ Wand. (Wechselpräpositionen — Wohin?)
+Wohin hängst du das Bild? — ___ Wand. (Dativ oder Akkusativ — Wohin?)

@@ -9,4 +9,4 @@ options:
 correct: obwohl
 ---
 
-Sie reiste trotz Warnung, ___ das Risiko hoch war.
+Sie reiste trotz Warnung, ___ das Risiko hoch war. (Konzessivsatz)

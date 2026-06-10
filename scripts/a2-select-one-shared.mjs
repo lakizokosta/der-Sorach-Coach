@@ -32,9 +32,12 @@ export const CTX = [
   'wochenende', 'sachen', 'kommunikation', 'unterwegs', 'reisen', 'bank', 'leben',
 ];
 
-export function md({ id, prompt, options, correct }) {
+export function md({ id, prompt, options, correct, hint }) {
   const opts = options.map((o) => `  - ${o}`).join('\n');
-  return `---\nid: ${id}\ntype: select-one\noptions:\n${opts}\ncorrect: ${correct}\n---\n\n${prompt}\n`;
+  const body = hint && !/\([^)]+\)\s*$/.test(prompt.trim())
+    ? `${prompt.trim()} (${hint})`
+    : prompt;
+  return `---\nid: ${id}\ntype: select-one\noptions:\n${opts}\ncorrect: ${correct}\n---\n\n${body}\n`;
 }
 
 /** @param {() => Q[]} fn */

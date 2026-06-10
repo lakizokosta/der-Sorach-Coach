@@ -9,5 +9,4 @@ options:
 correct: lesen
 ---
 
-Meine Freunde ___ ein Buch über Reisen. (lesen)
-
+Meine Freunde ___ ein Buch über Reisen. (Präsensform — machen)

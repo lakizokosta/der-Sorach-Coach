@@ -9,4 +9,4 @@ options:
 correct: ja
 ---
 
-„Lernst du Deutsch?" — „___, seit einem Jahr."
+„Lernst du Deutsch?" — „___, seit einem Jahr." (Antwortpartikel)

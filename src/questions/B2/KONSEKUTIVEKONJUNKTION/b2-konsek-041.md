@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Es war so kalt, ___ die Heizung nicht ausreichte.
+Es war so kalt, ___ die Heizung nicht ausreichte. (Konsekutivsatz)

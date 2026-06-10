@@ -9,4 +9,4 @@ options:
 correct: Anstatt
 ---
 
-___ ein Taxi zu nehmen, fuhr er mit der U-Bahn.
+___ ein Taxi zu nehmen, fuhr er mit der U-Bahn. (Modalsatz)

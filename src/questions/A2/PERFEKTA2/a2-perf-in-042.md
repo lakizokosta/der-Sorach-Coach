@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Er ___ Fußball im Verein gespielt. (Perfekt — er)
+Er ___ Fußball im Verein gespielt. (Perfektform — haben)

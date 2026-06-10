@@ -9,4 +9,4 @@ options:
 correct: Im Verlauf
 ---
 
-___ der Verhandlungen einigte man sich auf einen Kompromiss.
+___ der Verhandlungen einigte man sich auf einen Kompromiss. (Genitivform)

@@ -9,5 +9,4 @@ options:
 correct: ins
 ---
 
-Ich sitze ___ Kino. (Bewegung → Akkusativ)
-
+Ich sitze ___ Kino. (Dativ oder Akkusativ)

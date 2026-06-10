@@ -9,4 +9,4 @@ options:
 correct: unseren
 ---
 
-Wir unterstützen ___ jüngeren Kollegen.
+Wir unterstützen ___ jüngeren Kollegen. (Possessivartikelform)

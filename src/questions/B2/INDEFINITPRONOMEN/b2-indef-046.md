@@ -9,4 +9,4 @@ options:
 correct: jemand
 ---
 
-Ist ___ zu Hause?
+Ist ___ zu Hause? (Indefinitpronomen)

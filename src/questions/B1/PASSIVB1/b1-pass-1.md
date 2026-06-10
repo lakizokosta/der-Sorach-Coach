@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Das Auto ___ gerade repariert.
+Das Auto ___ gerade repariert. (Passivform)

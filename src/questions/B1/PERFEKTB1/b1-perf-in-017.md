@@ -5,4 +5,4 @@ correct:
   - sind
 ---
 
-Wir ___ pünktlich am Flughafen angekommen. (Perfekt — haben/sein)
+Wir ___ pünktlich am Flughafen angekommen. (Perfektform — sein)

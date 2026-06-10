@@ -5,4 +5,4 @@ correct:
   - müsse
 ---
 
-Sie sagte, sie ___ den Termin verschieben müssen. (müssen)
+Sie sagte, sie ___ den Termin verschieben müssen. (Indirekte Rede)

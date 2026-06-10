@@ -5,4 +5,4 @@ correct:
   - Findest
 ---
 
-___ du den Weg? (finden, du)
+___ du den Weg? (Präsensform — spielen)

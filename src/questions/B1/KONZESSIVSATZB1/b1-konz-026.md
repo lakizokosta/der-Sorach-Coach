@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___ die Politik umstritten ist, diskutieren viele Menschen.
+___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz)

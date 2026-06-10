@@ -9,4 +9,4 @@ options:
 correct: doch
 ---
 
-„Du warst doch in Berlin?" — „___, letztes Jahr."
+„Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel — Widerspruch)

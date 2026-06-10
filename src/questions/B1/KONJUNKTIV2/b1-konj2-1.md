@@ -9,4 +9,4 @@ options:
 correct: "hätte"
 ---
 
-Wenn ich Zeit ___, würde ich verreisen.
+Wenn ich Zeit ___, würde ich verreisen. (Konjunktiv-II-Form)

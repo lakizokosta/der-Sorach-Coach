@@ -9,5 +9,4 @@ options:
 correct: in die
 ---
 
-Ich komme ___ Schule. (Bewegung → Akkusativ)
-
+Ich komme ___ Schule. (Dativ oder Akkusativ)

@@ -9,4 +9,4 @@ options:
 correct: darum
 ---
 
-Kümmerst du dich um die Patienten? — Ja, ich kümmere mich ___.
+Kümmerst du dich um die Patienten? — Ja, ich kümmere mich ___. (Pronominaladverb)

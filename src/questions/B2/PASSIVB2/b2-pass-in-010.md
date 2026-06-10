@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Das Projekt ___ von der EU gefördert. (werden, Präsens)
+Das Projekt ___ von der EU gefördert. (Passivform — geworden)

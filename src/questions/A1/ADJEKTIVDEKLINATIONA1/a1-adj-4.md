@@ -9,4 +9,4 @@ options:
 correct: neues
 ---
 
-Das ___ Auto ist schnell.
+Das ___ Auto ist schnell. (Adjektivendung)

@@ -5,4 +5,4 @@ correct:
   - werde
 ---
 
-Er erklärte, das Problem ___ bald gelöst. (werden)
+Er erklärte, das Problem ___ bald gelöst. (Indirekte Rede)

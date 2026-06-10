@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Das Gesetz ___ gestern vom Parlament verabschiedet.
+Das Gesetz ___ gestern vom Parlament verabschiedet. (Grammatikform)

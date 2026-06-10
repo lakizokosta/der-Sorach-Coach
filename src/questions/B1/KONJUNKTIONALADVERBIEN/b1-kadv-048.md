@@ -9,4 +9,4 @@ options:
 correct: Außerdem
 ---
 
-Sie spricht fließend Englisch. ___, kann sie auch Französisch.
+Sie spricht fließend Englisch. ___, kann sie auch Französisch. (Konjunktionaladverb)

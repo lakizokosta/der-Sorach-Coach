@@ -5,4 +5,4 @@ correct:
   - würde
 ---
 
-Er ___ lieber zu Hause bleiben. (werden)
+Er ___ lieber zu Hause bleiben. (Konjunktiv-II-Form)

@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Tickets ___ online verkauft.
+Die Tickets ___ online verkauft. (Passivform — werden)

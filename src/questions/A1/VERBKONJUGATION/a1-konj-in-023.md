@@ -5,4 +5,4 @@ correct:
   - besuchen
 ---
 
-Wir ___ unsere Großeltern. (besuchen, wir)
+Wir ___ unsere Großeltern. (Präsensform — fahren)

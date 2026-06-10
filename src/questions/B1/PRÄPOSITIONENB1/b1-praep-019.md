@@ -9,4 +9,4 @@ options:
 correct: an
 ---
 
-Sie ist ___ der Universität.
+Sie ist ___ der Universität. (Präposition)

@@ -9,4 +9,4 @@ options:
 correct: dem
 ---
 
-Das gehört ___ Kind.
+Das gehört ___ Kind. (Dativform)

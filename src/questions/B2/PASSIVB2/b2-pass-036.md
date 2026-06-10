@@ -9,4 +9,4 @@ options:
 correct: ist
 ---
 
-Die Entscheidung ___ bereits getroffen worden.
+Die Entscheidung ___ bereits getroffen worden. (Passivform — sein)

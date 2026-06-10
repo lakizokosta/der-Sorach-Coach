@@ -5,4 +5,4 @@ correct:
   - werdet
 ---
 
-Ihr ___ (werden) das Problem lösen können.
+Ihr ___ (werden) das Problem lösen können. (Futurform)

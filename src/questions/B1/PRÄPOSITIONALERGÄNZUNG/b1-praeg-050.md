@@ -9,4 +9,4 @@ options:
 correct: für
 ---
 
-Er interessiert sich ___ Politik.
+Er interessiert sich ___ Politik. (Verb + Präposition)

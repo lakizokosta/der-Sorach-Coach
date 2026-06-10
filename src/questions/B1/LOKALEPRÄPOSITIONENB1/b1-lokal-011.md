@@ -9,4 +9,4 @@ options:
 correct: zwischen
 ---
 
-Das Museum ist ___ zwei Gebäuden.
+Das Museum ist ___ zwei Gebäuden. (Lokale Präposition)

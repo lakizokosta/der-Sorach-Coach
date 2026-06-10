@@ -9,4 +9,4 @@ options:
 correct: trotzdem
 ---
 
-Die Nachrichten sind negativ, ___ bleibt er optimistisch.
+Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz — obwohl)

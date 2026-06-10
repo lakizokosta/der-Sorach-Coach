@@ -9,4 +9,4 @@ options:
 correct: um
 ---
 
-Er ging ___ dem Gebäude herum.
+Er ging ___ dem Gebäude herum. (Lokale Präposition)

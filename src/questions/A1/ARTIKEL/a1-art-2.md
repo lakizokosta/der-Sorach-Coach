@@ -9,4 +9,4 @@ options:
 correct: Die
 ---
 
-___ Lampe leuchtet hell.
+___ Lampe leuchtet hell. (Artikelform)

@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Sie arbeitete so schnell, ___ sie pünktlich fertig wurde.
+Sie arbeitete so schnell, ___ sie pünktlich fertig wurde. (Konsekutivsatz)

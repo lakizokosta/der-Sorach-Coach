@@ -5,4 +5,4 @@ correct:
   - im
 ---
 
-Die Flasche steht ___ Regal. (Wechselpräpositionen — Ort)
+Die Flasche steht ___ Regal. (Dativ oder Akkusativ)

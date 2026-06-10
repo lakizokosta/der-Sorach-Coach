@@ -9,5 +9,4 @@ options:
 correct: auf die
 ---
 
-Ich laufe ___ Straße. (Bewegung → Akkusativ)
-
+Ich laufe ___ Straße. (Dativ oder Akkusativ)

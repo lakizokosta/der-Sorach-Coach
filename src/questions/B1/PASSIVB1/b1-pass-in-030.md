@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Der Vertrag ___ gestern unterzeichnet. (Passiv — werden)
+Der Vertrag ___ gestern unterzeichnet. (Passivform)

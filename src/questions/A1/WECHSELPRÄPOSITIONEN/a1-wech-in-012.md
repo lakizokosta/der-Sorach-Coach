@@ -5,4 +5,4 @@ correct:
   - ins
 ---
 
-Bei Gewitter gehe ich ___ Haus. (Wechselpräpositionen — Bewegung)
+Bei Gewitter gehe ich ___ Haus. (Dativ oder Akkusativ)

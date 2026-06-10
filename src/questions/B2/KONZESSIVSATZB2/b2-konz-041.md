@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___, obwohl er müde war, leitete er die Sitzung.
+___, obwohl er müde war, leitete er die Sitzung. (Konzessivsatz)

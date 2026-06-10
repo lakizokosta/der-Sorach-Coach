@@ -9,4 +9,4 @@ options:
 correct: Nachdem
 ---
 
-___, er gegessen hatte, ging er spazieren.
+___, er gegessen hatte, ging er spazieren. (Temporalnebensatz)

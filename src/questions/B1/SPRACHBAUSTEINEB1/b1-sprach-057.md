@@ -9,4 +9,4 @@ options:
 correct: wegen
 ---
 
-Wir bitten um Ihr Verständnis ___ der kurzfristigen Terminverschiebung.
+Wir bitten um Ihr Verständnis ___ der kurzfristigen Terminverschiebung. (Grammatikform)

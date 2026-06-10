@@ -5,4 +5,4 @@ correct:
   - deren
 ---
 
-Die Menschen, ___ Leben er rettete, dankten ihm. (deren)
+Die Menschen, ___ Leben er rettete, dankten ihm. (Relativpronomen)

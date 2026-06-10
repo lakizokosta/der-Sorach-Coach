@@ -9,4 +9,4 @@ options:
 correct: reserviert
 ---
 
-Wir weisen darauf hin, dass die Eintrittskarten im Voraus ___ werden müssen.
+Wir weisen darauf hin, dass die Eintrittskarten im Voraus ___ werden müssen. (Grammatikform)

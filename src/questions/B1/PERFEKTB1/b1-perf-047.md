@@ -9,4 +9,4 @@ options:
 correct: sind
 ---
 
-Wir ___ pünktlich am Flughafen angekommen.
+Wir ___ pünktlich am Flughafen angekommen. (Perfektform — sein)

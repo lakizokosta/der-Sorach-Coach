@@ -5,4 +5,4 @@ correct:
   - überarbeiten
 ---
 
-Der Bericht ist noch zu ___ . (überarbeiten)
+Der Bericht ist noch zu ___ . (Passiversatz)

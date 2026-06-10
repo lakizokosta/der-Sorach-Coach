@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Das Büro ist ___ der zweiten Etage.
+Das Büro ist ___ der zweiten Etage. (Lokalpräposition)

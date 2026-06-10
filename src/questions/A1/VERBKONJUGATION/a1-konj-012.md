@@ -9,5 +9,4 @@ options:
 correct: tanzt
 ---
 
-Anna ___ gern am Wochenende. (tanzen)
-
+Anna ___ gern am Wochenende. (Präsensform — tanzen)

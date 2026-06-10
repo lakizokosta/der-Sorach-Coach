@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Der Termin ___ verschoben.
+Der Termin ___ verschoben. (Passivform — geworden)

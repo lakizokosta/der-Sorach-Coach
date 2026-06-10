@@ -9,4 +9,4 @@ options:
 correct: etwas
 ---
 
-Sie möchte ___ Neues ausprobieren.
+Sie möchte ___ Neues ausprobieren. (Indefinitpronomen)

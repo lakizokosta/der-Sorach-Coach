@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Das Fenster ___ sich nicht öffnen.
+Das Fenster ___ sich nicht öffnen. (lassen)

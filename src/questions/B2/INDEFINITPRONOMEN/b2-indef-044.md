@@ -9,4 +9,4 @@ options:
 correct: Jemand
 ---
 
-___ hat mir diese Nachricht geschickt.
+___ hat mir diese Nachricht geschickt. (Indefinitpronomen)

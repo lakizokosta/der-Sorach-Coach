@@ -9,4 +9,4 @@ options:
 correct: ab
 ---
 
-Das Gesetz gilt ___ nächsten Monat.
+Das Gesetz gilt ___ nächsten Monat. (Präposition)

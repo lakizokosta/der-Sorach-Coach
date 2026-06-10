@@ -9,4 +9,4 @@ options:
 correct: verlängert
 ---
 
-Die Frist für die Einreichung der Hausarbeit wurde auf den 15. November ___.
+Die Frist für die Einreichung der Hausarbeit wurde auf den 15. November ___. (Grammatikform)

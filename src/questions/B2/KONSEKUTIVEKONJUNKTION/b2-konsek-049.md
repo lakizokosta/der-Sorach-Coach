@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Er war so nervös, ___ er seinen Namen vergaß.
+Er war so nervös, ___ er seinen Namen vergaß. (Konsekutivsatz)

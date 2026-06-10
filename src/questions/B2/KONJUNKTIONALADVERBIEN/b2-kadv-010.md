@@ -9,4 +9,4 @@ options:
 correct: demzufolge
 ---
 
-Die Nachfrage steigt; ___ erhöhen wir die Produktion.
+Die Nachfrage steigt; ___ erhöhen wir die Produktion. (Konjunktionaladverb)

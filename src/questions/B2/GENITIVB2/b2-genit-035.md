@@ -9,4 +9,4 @@ options:
 correct: Die Äußerungen
 ---
 
-___ des Ministers lösten eine Debatte aus.
+___ des Ministers lösten eine Debatte aus. (Genitivform)

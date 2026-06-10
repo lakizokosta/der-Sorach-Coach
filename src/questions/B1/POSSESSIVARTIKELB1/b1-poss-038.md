@@ -9,4 +9,4 @@ options:
 correct: ihres
 ---
 
-Während ___ Studiums arbeitete sie nebenbei.
+Während ___ Studiums arbeitete sie nebenbei. (Possessivartikelform)

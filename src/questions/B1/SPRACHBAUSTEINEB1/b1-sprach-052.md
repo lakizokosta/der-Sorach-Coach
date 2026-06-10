@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Bitte überweisen Sie den Betrag ___ das auf der Rechnung genannte Konto.
+Bitte überweisen Sie den Betrag ___ das auf der Rechnung genannte Konto. (Grammatikform)

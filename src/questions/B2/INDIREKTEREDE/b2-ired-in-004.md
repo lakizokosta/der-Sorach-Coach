@@ -5,4 +5,4 @@ correct:
   - sei
 ---
 
-Er behauptete, er ___ unschuldig. (sein)
+Er behauptete, er ___ unschuldig. (Indirekte Rede)

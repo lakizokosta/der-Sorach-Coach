@@ -9,4 +9,4 @@ options:
 correct: des
 ---
 
-Das ist die Entscheidung ___ Ministers.
+Das ist die Entscheidung ___ Ministers. (Possessivartikelform)

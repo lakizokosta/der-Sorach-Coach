@@ -9,4 +9,4 @@ options:
 correct: ihrer
 ---
 
-Sie erinnert sich gern ___ Jugend.
+Sie erinnert sich gern ___ Jugend. (Genitivform)

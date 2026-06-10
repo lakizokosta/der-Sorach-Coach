@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Sie ___ sich für den Kurs angemeldet.
+Sie ___ sich für den Kurs angemeldet. (Perfektform — haben)

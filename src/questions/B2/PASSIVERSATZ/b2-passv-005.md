@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Das Rätsel ___ sich nicht lösen.
+Das Rätsel ___ sich nicht lösen. (lassen)

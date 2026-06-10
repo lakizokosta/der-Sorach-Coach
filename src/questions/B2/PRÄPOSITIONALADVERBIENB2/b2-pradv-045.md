@@ -9,4 +9,4 @@ options:
 correct: denkst
 ---
 
-Woran ___ du bei der Entscheidung?
+Woran ___ du bei der Entscheidung? (Pronominaladverb)

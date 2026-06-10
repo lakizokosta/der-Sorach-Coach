@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Ich brauche ___ neue Information. (Akkusativ — eine Information)
+Ich brauche ___ neue Information. (Akkusativ — Akkusativform)

@@ -5,4 +5,4 @@ correct:
   - auf dem
 ---
 
-Die Jacke liegt ___ Stuhl. (Wechselpräpositionen — Ort)
+Die Jacke liegt ___ Stuhl. (Dativ oder Akkusativ)

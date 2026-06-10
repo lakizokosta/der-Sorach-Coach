@@ -9,4 +9,4 @@ options:
 correct: hinauf
 ---
 
-Er ging die Treppe ___ .
+Er ging die Treppe ___ . (Lokale Präposition)

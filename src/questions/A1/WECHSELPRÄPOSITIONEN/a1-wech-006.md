@@ -9,5 +9,4 @@ options:
 correct: in den
 ---
 
-Ich gehe ___ Park. (Bewegung → Akkusativ)
-
+Ich gehe ___ Park. (Dativ oder Akkusativ)

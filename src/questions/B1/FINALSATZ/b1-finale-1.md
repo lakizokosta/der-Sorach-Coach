@@ -9,4 +9,4 @@ options:
 correct: um
 ---
 
-Sie lernt viel, ___ die Prüfung zu bestehen.
+Sie lernt viel, ___ die Prüfung zu bestehen. (Finalsatz)

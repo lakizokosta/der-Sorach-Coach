@@ -9,4 +9,4 @@ options:
 correct: ob
 ---
 
-Er fragt, ___ wir mitkommen.
+Er fragt, ___ wir mitkommen. (Konjunktion — Grund)

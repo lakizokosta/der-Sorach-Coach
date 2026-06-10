@@ -9,5 +9,4 @@ options:
 correct: unser
 ---
 
-Wo ist ___ Heft? (wir)
-
+Wo ist ___ Heft? (Possessivartikel — er, mask., Akk.)

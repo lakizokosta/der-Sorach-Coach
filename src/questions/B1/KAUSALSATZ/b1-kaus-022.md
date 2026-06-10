@@ -9,4 +9,4 @@ options:
 correct: weil
 ---
 
-Das Flugzeug hat Verspätung, ___ es stürmt.
+Das Flugzeug hat Verspätung, ___ es stürmt. (Kausalsatz)

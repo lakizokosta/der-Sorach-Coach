@@ -9,4 +9,4 @@ options:
 correct: alles
 ---
 
-Sie hat ___ gefunden, was sie suchte.
+Sie hat ___ gefunden, was sie suchte. (Indefinitpronomen)

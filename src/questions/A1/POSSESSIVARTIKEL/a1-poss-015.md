@@ -9,5 +9,4 @@ options:
 correct: ihrem
 ---
 
-Im Sommer arbeite ich in ___ Computer. (sie)
-
+Im Sommer arbeite ich in ___ Computer. (Possessivartikel — ich, fem., Dat.)

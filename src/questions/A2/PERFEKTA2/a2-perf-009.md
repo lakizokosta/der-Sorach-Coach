@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Ich ___ lange geschlafen.
+Ich ___ lange geschlafen. (Perfektform — haben)

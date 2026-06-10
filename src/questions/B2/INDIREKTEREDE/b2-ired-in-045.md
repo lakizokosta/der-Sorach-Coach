@@ -5,4 +5,4 @@ correct:
   - sei
 ---
 
-Sie behauptete, sie ___ nie dort gewesen. (sein)
+Sie behauptete, sie ___ nie dort gewesen. (Indirekte Rede)

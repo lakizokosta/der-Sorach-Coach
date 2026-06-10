@@ -9,4 +9,4 @@ options:
 correct: Dieser
 ---
 
-___ Professor erklärt das Thema sehr verständlich.
+___ Professor erklärt das Thema sehr verständlich. (Demonstrativartikel)

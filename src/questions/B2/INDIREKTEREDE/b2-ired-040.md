@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Er behauptete, er ___ nichts davon gewusst.
+Er behauptete, er ___ nichts davon gewusst. (Indirekte Rede)

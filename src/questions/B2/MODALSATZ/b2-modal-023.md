@@ -9,4 +9,4 @@ options:
 correct: indem
 ---
 
-Er spart Geld, ___ er weniger ausgeht.
+Er spart Geld, ___ er weniger ausgeht. (Modalsatz)

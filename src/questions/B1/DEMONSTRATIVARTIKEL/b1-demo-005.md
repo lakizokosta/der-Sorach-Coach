@@ -9,4 +9,4 @@ options:
 correct: Jenes
 ---
 
-___ Hotel war deutlich teurer als jenes.
+___ Hotel war deutlich teurer als jenes. (Demonstrativartikel)

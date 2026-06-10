@@ -9,4 +9,4 @@ options:
 correct: meine
 ---
 
-Das ist ___ Schwester. (ich)
+Das ist ___ Schwester. (Possessivartikel — ich)

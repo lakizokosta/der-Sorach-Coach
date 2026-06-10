@@ -5,4 +5,4 @@ correct:
   - ruft
 ---
 
-Er ___ mich heute an. (Trennbare Verben — er)
+Er ___ mich heute an. (Trennbares Verb — rufen)

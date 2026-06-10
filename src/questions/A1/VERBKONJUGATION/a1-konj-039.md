@@ -9,5 +9,4 @@ options:
 correct: lesen
 ---
 
-Sie ___ ein Buch über Reisen. (lesen)
-
+Sie ___ ein Buch über Reisen. (Präsensform — machen)

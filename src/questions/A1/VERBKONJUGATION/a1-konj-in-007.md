@@ -5,4 +5,4 @@ correct:
   - singen
 ---
 
-Die Kinder ___ ein Lied. (singen, sie Pl.)
+Die Kinder ___ ein Lied. (Präsensform — kaufen)

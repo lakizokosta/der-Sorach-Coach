@@ -9,4 +9,4 @@ options:
 correct: fühle
 ---
 
-Ich ___ mich nicht gut.
+Ich ___ mich nicht gut. (Reflexivform — anziehen)

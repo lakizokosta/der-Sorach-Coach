@@ -9,4 +9,4 @@ options:
 correct: dein
 ---
 
-Ist das ___ Handy? (du)
+Ist das ___ Handy? (Possessivartikel — du)

@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Sie lachte so laut, ___ alle aufblickten.
+Sie lachte so laut, ___ alle aufblickten. (Konsekutivsatz)

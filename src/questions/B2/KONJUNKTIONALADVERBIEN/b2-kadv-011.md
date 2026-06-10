@@ -9,4 +9,4 @@ options:
 correct: trotzdem
 ---
 
-Er war krank; ___ nahm er am Meeting teil.
+Er war krank; ___ nahm er am Meeting teil. (Konjunktionaladverb)

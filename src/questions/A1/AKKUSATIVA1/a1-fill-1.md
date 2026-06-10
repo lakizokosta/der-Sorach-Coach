@@ -5,4 +5,4 @@ correct: einen
 hint: "Akkusativ mask. für \"ein\""
 ---
 
-Ich kaufe ___ Apfel.
+Ich kaufe ___ Apfel. (Akkusativform)

@@ -9,5 +9,4 @@ options:
 correct: essen
 ---
 
-Sie ___ Obst zum Frühstück. (essen)
-
+Sie ___ Obst zum Frühstück. (Präsensform — essen)

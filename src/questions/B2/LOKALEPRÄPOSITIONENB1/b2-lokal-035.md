@@ -9,4 +9,4 @@ options:
 correct: am
 ---
 
-Das Büro befindet sich direkt ___ dem Marktplatz.
+Das Büro befindet sich direkt ___ dem Marktplatz. (Lokale Präposition)

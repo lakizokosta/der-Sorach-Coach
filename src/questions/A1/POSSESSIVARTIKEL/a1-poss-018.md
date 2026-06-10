@@ -9,5 +9,4 @@ options:
 correct: meinem
 ---
 
-Wir fahren mit ___ Auto nach Berlin. (ich)
-
+Wir fahren mit ___ Auto nach Berlin. (Possessivartikel — ich, mask., Akk.)

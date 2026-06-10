@@ -9,4 +9,4 @@ options:
 correct: kann
 ---
 
-Damit ___ ich nichts anfangen.
+Damit ___ ich nichts anfangen. (Pronominaladverb)

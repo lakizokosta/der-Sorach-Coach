@@ -9,5 +9,4 @@ options:
 correct: deinen
 ---
 
-Im Winter trage ich ___ Freund. (du)
-
+Im Winter trage ich ___ Freund. (Possessivartikel — sie, neutr., Akk.)

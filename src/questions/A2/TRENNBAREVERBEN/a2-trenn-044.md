@@ -9,4 +9,4 @@ options:
 correct: fülle
 ---
 
-Ich ___ das Formular aus.
+Ich ___ das Formular aus. (Trennbares Verb — ankommen)

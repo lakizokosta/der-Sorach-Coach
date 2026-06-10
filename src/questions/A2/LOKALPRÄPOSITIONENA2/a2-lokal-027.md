@@ -9,4 +9,4 @@ options:
 correct: unter
 ---
 
-Der Hund liegt ___ dem Tisch.
+Der Hund liegt ___ dem Tisch. (Lokalpräposition)

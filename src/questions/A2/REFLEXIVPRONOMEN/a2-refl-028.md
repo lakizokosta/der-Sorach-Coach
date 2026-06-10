@@ -9,4 +9,4 @@ options:
 correct: verletzt
 ---
 
-Er ___ sich den Rücken.
+Er ___ sich den Rücken. (Reflexivform — verletzen)

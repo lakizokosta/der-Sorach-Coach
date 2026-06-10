@@ -9,4 +9,4 @@ options:
 correct: darüber
 ---
 
-Sprichst du über das Problem? — Ja, wir sprechen ___.
+Sprichst du über das Problem? — Ja, wir sprechen ___. (Pronominaladverb)

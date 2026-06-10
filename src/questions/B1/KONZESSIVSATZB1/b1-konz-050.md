@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___ die Prüfung schwer war, hat sie bestanden.
+___ die Prüfung schwer war, hat sie bestanden. (Konzessivsatz)

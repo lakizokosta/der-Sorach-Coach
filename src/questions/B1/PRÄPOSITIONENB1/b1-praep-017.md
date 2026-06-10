@@ -9,4 +9,4 @@ options:
 correct: ab
 ---
 
-Er arbeitet ___ 8 Uhr.
+Er arbeitet ___ 8 Uhr. (Präposition)

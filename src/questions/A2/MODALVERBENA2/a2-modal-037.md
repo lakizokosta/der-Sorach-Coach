@@ -9,4 +9,4 @@ options:
 correct: kann
 ---
 
-Ich ___ leider nicht kommen.
+Ich ___ leider nicht kommen. (Modalverbform — dürfen)

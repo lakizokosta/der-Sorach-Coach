@@ -9,4 +9,4 @@ options:
 correct: Trotz
 ---
 
-___ des schlechten Wetters fand die Veranstaltung statt.
+___ des schlechten Wetters fand die Veranstaltung statt. (Genitiv-Präposition)

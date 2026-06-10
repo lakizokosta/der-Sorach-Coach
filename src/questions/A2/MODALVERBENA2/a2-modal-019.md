@@ -9,4 +9,4 @@ options:
 correct: wollen
 ---
 
-Wir ___ morgen früh losfahren.
+Wir ___ morgen früh losfahren. (Modalverbform — müssen)

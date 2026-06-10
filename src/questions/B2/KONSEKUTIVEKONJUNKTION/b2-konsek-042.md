@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Sie war so überzeugend, ___ alle zustimmten.
+Sie war so überzeugend, ___ alle zustimmten. (Konsekutivsatz)

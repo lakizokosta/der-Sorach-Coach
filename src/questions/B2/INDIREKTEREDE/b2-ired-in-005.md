@@ -5,4 +5,4 @@ correct:
   - sei
 ---
 
-Die Zeitung schrieb, die Lage ___ ernst. (sein)
+Die Zeitung schrieb, die Lage ___ ernst. (Indirekte Rede)

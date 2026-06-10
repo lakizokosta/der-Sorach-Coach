@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Das ist das Ziel ___ Partei. (Possessivartikel — Possessivartikel)
+Das ist das Ziel ___ Partei. (Possessivartikelform)

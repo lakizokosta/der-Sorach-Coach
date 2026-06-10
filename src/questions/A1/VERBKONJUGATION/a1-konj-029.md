@@ -9,5 +9,4 @@ options:
 correct: arbeiten
 ---
 
-Sie ___ im Büro in der Stadt. (arbeiten)
-
+Sie ___ im Büro in der Stadt. (Präsensform — arbeiten)

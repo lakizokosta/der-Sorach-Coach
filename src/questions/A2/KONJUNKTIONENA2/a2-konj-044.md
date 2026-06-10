@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Ich denke, ___ das eine gute Idee ist.
+Ich denke, ___ das eine gute Idee ist. (Konjunktion — indirekte Frage)

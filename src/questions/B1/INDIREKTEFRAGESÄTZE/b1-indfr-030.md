@@ -9,4 +9,4 @@ options:
 correct: was
 ---
 
-Ich möchte wissen, ___ du denkst.
+Ich möchte wissen, ___ du denkst. (Indirekte Frage)

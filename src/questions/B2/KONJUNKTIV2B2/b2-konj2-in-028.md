@@ -5,4 +5,4 @@ correct:
   - wäre
 ---
 
-Wenn er nicht so stur ___, ginge alles leichter. (sein)
+Wenn er nicht so stur ___, ginge alles leichter. (Konjunktiv-II-Form)

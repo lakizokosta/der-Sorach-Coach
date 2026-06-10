@@ -9,4 +9,4 @@ options:
 correct: in
 ---
 
-Das Reisebüro ist ___ der Hauptstraße.
+Das Reisebüro ist ___ der Hauptstraße. (Lokale Präposition)

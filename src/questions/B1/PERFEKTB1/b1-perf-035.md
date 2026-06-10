@@ -9,4 +9,4 @@ options:
 correct: haben
 ---
 
-Die Studierenden ___ lange über das Thema diskutiert.
+Die Studierenden ___ lange über das Thema diskutiert. (Perfektform — haben)

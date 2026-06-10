@@ -9,4 +9,4 @@ options:
 correct: Während
 ---
 
-___ der Pause essen wir.
+___ der Pause essen wir. (Temporal — einmalig)

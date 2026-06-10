@@ -9,4 +9,4 @@ options:
 correct: Anstatt
 ---
 
-___ zu kündigen, suchte er ein Gespräch mit dem Chef.
+___ zu kündigen, suchte er ein Gespräch mit dem Chef. (Modalsatz)

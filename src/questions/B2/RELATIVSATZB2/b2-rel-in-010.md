@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Das Thema, über ___ wir sprachen, war komplex. (das)
+Das Thema, über ___ wir sprachen, war komplex. (Relativpronomen)

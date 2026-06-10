@@ -9,4 +9,4 @@ options:
 correct: jenen
 ---
 
-Ich kenne ___ Politiker aus dem Fernsehen.
+Ich kenne ___ Politiker aus dem Fernsehen. (Demonstrativartikel)

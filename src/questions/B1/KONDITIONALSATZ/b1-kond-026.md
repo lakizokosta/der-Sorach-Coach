@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ die Sonne scheint, machen wir einen Ausflug.
+___ die Sonne scheint, machen wir einen Ausflug. (Konditionalsatz)

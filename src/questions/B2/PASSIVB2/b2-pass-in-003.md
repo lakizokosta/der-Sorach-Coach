@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Neue Regeln ___ derzeit diskutiert. (werden, Präsens)
+Neue Regeln ___ derzeit diskutiert. (Passivform — worden)

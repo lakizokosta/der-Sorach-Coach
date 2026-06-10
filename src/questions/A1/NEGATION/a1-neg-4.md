@@ -9,4 +9,4 @@ options:
 correct: keinen
 ---
 
-Ich trinke ___ Kaffee.
+Ich trinke ___ Kaffee. (Negation)

@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Er erklärte, er ___ die Aufgabe erledigt. (haben)
+Er erklärte, er ___ die Aufgabe erledigt. (Indirekte Rede)

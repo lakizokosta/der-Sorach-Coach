@@ -9,4 +9,4 @@ options:
 correct: ohne dass
 ---
 
-Er ging, ___ er sich verabschiedete.
+Er ging, ___ er sich verabschiedete. (Modalsatz)

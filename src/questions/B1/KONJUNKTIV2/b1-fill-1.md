@@ -5,4 +5,4 @@ correct: "würde"
 hint: "Konjunktiv II Höflichkeit — würde + Infinitiv."
 ---
 
-An deiner Stelle ___ ich nicht so viel arbeiten.
+An deiner Stelle ___ ich nicht so viel arbeiten. (Konjunktiv-II-Form)

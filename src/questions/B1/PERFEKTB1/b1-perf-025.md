@@ -9,4 +9,4 @@ options:
 correct: haben
 ---
 
-Die Politiker ___ eine Einigung erzielt.
+Die Politiker ___ eine Einigung erzielt. (Perfektform — haben)

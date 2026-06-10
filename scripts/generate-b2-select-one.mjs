@@ -10,6 +10,7 @@ import { fileURLToPath } from 'node:url';
 
 import { md } from './b2-select-one-shared.mjs';
 import * as G from './b2-select-one-data.mjs';
+import { verbFormHint } from './topic-context-hints.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B2');
 
@@ -49,7 +50,7 @@ function writeTopic(folder, prefix, questions) {
     const num = String(i).padStart(3, '0');
     const file = join(dir, `${prefix}-${num}.md`);
     if (existsSync(file)) continue;
-    writeFileSync(file, md({ id: `${prefix}-${num}`, ...q }), 'utf8');
+    writeFileSync(file, md({ id: `${prefix}-${num}`, hint: verbFormHint(folder, '', q.correct, q.options), ...q }), 'utf8');
     written += 1;
   }
   return written;

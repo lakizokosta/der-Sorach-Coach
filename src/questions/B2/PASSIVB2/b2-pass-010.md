@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Das Projekt ___ von der EU gefördert.
+Das Projekt ___ von der EU gefördert. (Passivform — geworden)

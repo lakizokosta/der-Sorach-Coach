@@ -9,4 +9,4 @@ options:
 correct: indem
 ---
 
-Er verbesserte sein Deutsch, ___ er jeden Tag las.
+Er verbesserte sein Deutsch, ___ er jeden Tag las. (Modalsatz)

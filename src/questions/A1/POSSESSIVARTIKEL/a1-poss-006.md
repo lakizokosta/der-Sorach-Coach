@@ -9,5 +9,4 @@ options:
 correct: mein
 ---
 
-Das ist ___ Vater. (ich)
-
+Das ist ___ Vater. (Possessivartikel — ich, fem., Akk.)

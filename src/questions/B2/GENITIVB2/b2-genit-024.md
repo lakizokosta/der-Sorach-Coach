@@ -9,4 +9,4 @@ options:
 correct: jeder
 ---
 
-Statt ___ Hilfe lehnte er jede Unterstützung ab.
+Statt ___ Hilfe lehnte er jede Unterstützung ab. (Genitivform)

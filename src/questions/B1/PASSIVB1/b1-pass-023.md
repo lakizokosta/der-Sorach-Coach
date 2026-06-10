@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Alle Bewerbungen ___ bis Freitag geprüft.
+Alle Bewerbungen ___ bis Freitag geprüft. (Passivform — werden)

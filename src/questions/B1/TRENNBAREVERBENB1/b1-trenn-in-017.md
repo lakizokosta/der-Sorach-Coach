@@ -5,4 +5,4 @@ correct:
   - schickt
 ---
 
-Er ___ die wichtige E-Mail sofort an. (Trennbares Verb)
+Er ___ die wichtige E-Mail sofort an. (Trennbares Verb — schicken)

@@ -9,4 +9,4 @@ options:
 correct: diesen
 ---
 
-Wir wählen ___ Kandidaten für das Amt.
+Wir wählen ___ Kandidaten für das Amt. (Demonstrativartikel)

@@ -9,4 +9,4 @@ options:
 correct: Anstatt
 ---
 
-___ zu warten, verließ er das Meeting.
+___ zu warten, verließ er das Meeting. (Modalsatz)

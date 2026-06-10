@@ -9,4 +9,4 @@ options:
 correct: darüber
 ---
 
-Ärgerst du dich über die Nachricht? — Ich ärgere mich ___.
+Ärgerst du dich über die Nachricht? — Ich ärgere mich ___. (Pronominaladverb)

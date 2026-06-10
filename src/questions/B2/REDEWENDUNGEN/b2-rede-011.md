@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Sie hat alles ___ den Kopf gestellt.
+Sie hat alles ___ den Kopf gestellt. (Redewendung)

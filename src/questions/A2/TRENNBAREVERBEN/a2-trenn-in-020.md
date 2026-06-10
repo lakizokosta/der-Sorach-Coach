@@ -5,4 +5,4 @@ correct:
   - mache
 ---
 
-Ich ___ die Lampe an. (Trennbare Verben — ich)
+Ich ___ die Lampe an. (Trennbares Verb — ankommen)

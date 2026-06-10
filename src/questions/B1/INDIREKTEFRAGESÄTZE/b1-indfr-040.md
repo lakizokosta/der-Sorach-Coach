@@ -9,4 +9,4 @@ options:
 correct: was
 ---
 
-Sie will wissen, ___ der Minister gesagt hat.
+Sie will wissen, ___ der Minister gesagt hat. (Indirekte Frage)

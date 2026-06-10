@@ -9,4 +9,4 @@ options:
 correct: große
 ---
 
-Ich habe keine ___ Wohnung.
+Ich habe keine ___ Wohnung. (Adjektivendung)

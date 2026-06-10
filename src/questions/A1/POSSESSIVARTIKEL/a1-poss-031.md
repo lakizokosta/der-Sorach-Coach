@@ -9,5 +9,4 @@ options:
 correct: dein
 ---
 
-Das ist ___ Vater. (du)
-
+Das ist ___ Vater. (Possessivartikel — er, Pl., Akk.)

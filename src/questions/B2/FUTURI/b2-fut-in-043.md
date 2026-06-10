@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Der Zug ___ (werden) in zehn Minuten ankommen.
+Der Zug ___ (werden) in zehn Minuten ankommen. (Futurform)

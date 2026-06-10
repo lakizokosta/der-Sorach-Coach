@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Die Ärztin, zu ___ ich gehe, ist kompetent. (der)
+Die Ärztin, zu ___ ich gehe, ist kompetent. (Relativpronomen)

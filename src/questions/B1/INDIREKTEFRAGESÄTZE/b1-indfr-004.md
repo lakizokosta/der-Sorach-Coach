@@ -9,4 +9,4 @@ options:
 correct: was
 ---
 
-Ich interessiere mich dafür, ___ die neue Regelung bedeutet.
+Ich interessiere mich dafür, ___ die neue Regelung bedeutet. (Indirekte Frage)

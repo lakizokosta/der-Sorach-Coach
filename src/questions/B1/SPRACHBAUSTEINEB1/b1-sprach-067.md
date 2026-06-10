@@ -9,4 +9,4 @@ options:
 correct: Anmeldung
 ---
 
-Für die Teilnahme an der Exkursion ist eine vorherige ___ erforderlich.
+Für die Teilnahme an der Exkursion ist eine vorherige ___ erforderlich. (Grammatikform)

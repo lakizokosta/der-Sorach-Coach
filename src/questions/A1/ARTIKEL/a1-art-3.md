@@ -9,4 +9,4 @@ options:
 correct: Das
 ---
 
-___ Kind spielt draußen.
+___ Kind spielt draußen. (Artikelform)

@@ -9,4 +9,4 @@ options:
 correct: doch
 ---
 
-„Du hast doch Zeit?" — „___, ich habe Zeit."
+„Du hast doch Zeit?" — „___, ich habe Zeit." (Antwortpartikel)

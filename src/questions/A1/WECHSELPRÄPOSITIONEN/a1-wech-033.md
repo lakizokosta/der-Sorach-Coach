@@ -9,5 +9,4 @@ options:
 correct: auf der
 ---
 
-Ich fahre ___ Straße. (Ort → Dativ)
-
+Ich fahre ___ Straße. (Dativ oder Akkusativ)

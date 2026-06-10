@@ -9,4 +9,4 @@ options:
 correct: An die
 ---
 
-Wohin stellst du die Leiter? — ___ Wand.
+Wohin stellst du die Leiter? — ___ Wand. (Dativ oder Akkusativ — Wohin?)

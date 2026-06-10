@@ -9,4 +9,4 @@ options:
 correct: daher
 ---
 
-Sie hat sich verspätet; ___ verpasste sie den Anfang.
+Sie hat sich verspätet; ___ verpasste sie den Anfang. (Grammatikform)

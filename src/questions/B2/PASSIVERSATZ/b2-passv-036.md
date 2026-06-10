@@ -9,4 +9,4 @@ options:
 correct: erledigen
 ---
 
-Die Aufgabe ist zu ___ .
+Die Aufgabe ist zu ___ . (Passiversatz)

@@ -9,5 +9,4 @@ options:
 correct: fährt
 ---
 
-Peter ___ mit dem Bus zur Schule. (fahren)
-
+Peter ___ mit dem Bus zur Schule. (Präsensform — fahren)

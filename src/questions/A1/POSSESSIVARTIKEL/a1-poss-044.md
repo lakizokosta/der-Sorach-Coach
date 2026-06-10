@@ -9,5 +9,4 @@ options:
 correct: seinen
 ---
 
-Ich warte auf ___ Freund. (er)
-
+Ich warte auf ___ Freund. (Possessivartikel — du, fem., Akk.)

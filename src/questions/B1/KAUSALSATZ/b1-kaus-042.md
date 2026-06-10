@@ -9,4 +9,4 @@ options:
 correct: Da
 ---
 
-___ die Politik sich ändert, reagieren viele Bürger.
+___ die Politik sich ändert, reagieren viele Bürger. (Kausalsatz)

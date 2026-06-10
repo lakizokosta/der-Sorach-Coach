@@ -4,9 +4,10 @@
  * Run: node scripts/fix-input-text-hints.mjs
  */
 
-import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { parseVerbLemmaFromInner, verbFormHint } from './topic-context-hints.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
 
@@ -106,7 +107,7 @@ function hintLeaksAnswer(inner, correct) {
 }
 
 /** @param {string} inner */
-export function transformHint(inner, topic, correct) {
+export function transformHint(inner, topic, correct, options = [], body = '', id = '') {
   if (topic === 'NEGATION') return 'Negation';
   if (topic === 'GEGENTEILE') return 'Gegenteile';
   if (topic === 'PLURAL') return 'Plural';
@@ -166,13 +167,16 @@ export function transformHint(inner, topic, correct) {
     return `${label} — ${rest}`;
   }
 
-  // Verb — keep infinitive (not the conjugated answer)
+  // Verb — Präsensform + infinitive (not person)
   if (topic === 'VERBKONJUGATION') {
+    const lemma = parseVerbLemmaFromInner(inner);
+    if (lemma) return `Präsensform — ${lemma}`;
     if (/^verbkonjugation/i.test(inner)) return inner;
     const parts = inner.split(',').map((s) => s.trim());
-    if (parts.length >= 2 && !hintLeaksAnswer(parts[0], correct)) return parts.join(', ');
-    if (parts.length === 1 && !/^verbkonjugation/i.test(parts[0])) return parts[0];
-    return inner;
+    if (parts.length >= 2 && !hintLeaksAnswer(parts[0], correct)) {
+      return `Präsensform — ${parts[0]}`;
+    }
+    return 'Präsensform';
   }
 
   // Wechselpräpositionen — drop example preposition
@@ -182,11 +186,9 @@ export function transformHint(inner, topic, correct) {
     return 'Wechselpräpositionen';
   }
 
-  // A2 verb forms: Perfekt — haben/ich → Perfekt — ich
-  const verbSlash = inner.match(/^([\wäöüÄÖÜß-]+)\s*—\s*[^/]+\/(.+)$/i);
-  if (verbSlash && ['PERFEKTA2', 'PRÄTERITUMA2', 'MODALVERBENA2', 'REFLEXIVPRONOMEN', 'TRENNBAREVERBEN'].includes(topic)) {
-    const label = TOPIC_LABEL[topic] || verbSlash[1];
-    return `${label} — ${verbSlash[2]}`;
+  if (['PRÄTERITUMA2', 'PERFEKTA2', 'PERFEKTB1', 'MODALVERBENA2', 'REFLEXIVPRONOMEN', 'TRENNBAREVERBEN', 'TRENNBAREVERBENB1', 'PASSIVB1', 'PASSIVB2', 'KONJUNKTIV2', 'KONJUNKTIV2B2', 'FUTURI'].includes(topic)) {
+    const hint = verbFormHint(topic, inner, correct, options, body, id);
+    if (hint) return hint;
   }
 
   // Superlativ — drop adjective stem
@@ -215,6 +217,18 @@ export function transformHint(inner, topic, correct) {
   return TOPIC_LABEL[topic] || inner.split(' — ')[0] || topic;
 }
 
+function parseListBlock(fm, key) {
+  const inline = fm.match(new RegExp(`^${key}:[ \\t]*(\\S.*)$`, 'm'));
+  if (inline) return [inline[1].trim()];
+  const list = fm.match(new RegExp(`^${key}:\\n((?:[ \\t]*- .*\\n?)*)`, 'm'));
+  if (!list) return [];
+  return [...list[1].matchAll(/^\s*-\s+(.+)$/gm)].map((x) => x[1].trim());
+}
+
+function parseOptions(fm) {
+  return parseListBlock(fm, 'options');
+}
+
 function parseMd(content) {
   const m = content.match(/^---\n([\s\S]*?)\n---\n\n([\s\S]*)$/);
   if (!m) return null;
@@ -222,8 +236,17 @@ function parseMd(content) {
   const body = m[2].trimEnd();
   const id = fm.match(/^id:\s*(.+)$/m)?.[1]?.trim();
   const type = fm.match(/^type:\s*(.+)$/m)?.[1]?.trim();
-  const correct = [...fm.matchAll(/^\s*-\s+(.+)$/gm)].map((x) => x[1].trim());
-  return { fm, body, id, type, correct };
+  const correct = parseListBlock(fm, 'correct');
+  const options = parseOptions(fm);
+  return { fm, body, id, type, correct, options };
+}
+
+function siblingSelectOneOptions(filePath, id) {
+  if (!id?.includes('-in-')) return [];
+  const candidate = join(dirname(filePath), `${id.replace('-in-', '-')}.md`);
+  if (!existsSync(candidate)) return [];
+  const parsed = parseMd(readFileSync(candidate, 'utf8'));
+  return parsed?.options || [];
 }
 
 const isMain =
@@ -247,7 +270,8 @@ if (isMain) {
 
     const sentence = hintMatch[1].trimEnd();
     const oldInner = hintMatch[2];
-    const newInner = transformHint(oldInner, topic, parsed.correct);
+    const options = siblingSelectOneOptions(full, parsed.id);
+    const newInner = transformHint(oldInner, topic, parsed.correct, options, parsed.body, parsed.id);
 
     if (newInner === oldInner && !hintLeaksAnswer(oldInner, parsed.correct)) continue;
 

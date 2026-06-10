@@ -5,4 +5,4 @@ correct:
   - sei
 ---
 
-Der Experte meinte, das ___ ein Fehler. (sein)
+Der Experte meinte, das ___ ein Fehler. (Indirekte Rede)

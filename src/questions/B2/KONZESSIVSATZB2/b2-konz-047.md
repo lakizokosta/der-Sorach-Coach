@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___, obwohl die Beweise fehlten, wurde er verurteilt.
+___, obwohl die Beweise fehlten, wurde er verurteilt. (Konzessivsatz)

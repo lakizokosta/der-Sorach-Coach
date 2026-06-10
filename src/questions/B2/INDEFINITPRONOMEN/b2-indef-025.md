@@ -9,4 +9,4 @@ options:
 correct: Niemand
 ---
 
-___ darf den Raum betreten.
+___ darf den Raum betreten. (Indefinitpronomen)

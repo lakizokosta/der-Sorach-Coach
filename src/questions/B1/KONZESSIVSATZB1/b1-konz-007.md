@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___ er kein Auto hat, kommt er immer pünktlich.
+___ er kein Auto hat, kommt er immer pünktlich. (Konzessivsatz)

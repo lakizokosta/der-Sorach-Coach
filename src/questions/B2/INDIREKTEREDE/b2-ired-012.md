@@ -9,4 +9,4 @@ options:
 correct: könne
 ---
 
-Er sagte, er ___ das nicht tun können.
+Er sagte, er ___ das nicht tun können. (Indirekte Rede)

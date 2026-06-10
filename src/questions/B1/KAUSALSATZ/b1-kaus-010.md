@@ -9,4 +9,4 @@ options:
 correct: weil
 ---
 
-Wir fahren mit dem Zug, ___ das Auto kaputt ist.
+Wir fahren mit dem Zug, ___ das Auto kaputt ist. (Kausalsatz)

@@ -9,4 +9,4 @@ options:
 correct: um
 ---
 
-Wir treffen uns ___ halb neun.
+Wir treffen uns ___ halb neun. (Präposition)

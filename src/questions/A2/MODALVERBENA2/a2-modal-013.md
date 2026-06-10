@@ -9,4 +9,4 @@ options:
 correct: Darf
 ---
 
-___ ich das Fenster öffnen?
+___ ich das Fenster öffnen? (Modalverbform — dürfen)

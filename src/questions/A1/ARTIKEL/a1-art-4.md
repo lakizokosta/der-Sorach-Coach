@@ -9,4 +9,4 @@ options:
 correct: eine
 ---
 
-Ich habe ___ Idee.
+Ich habe ___ Idee. (Artikelform)

@@ -9,4 +9,4 @@ options:
 correct: freue
 ---
 
-Darauf ___ ich mich schon lange.
+Darauf ___ ich mich schon lange. (Pronominaladverb)

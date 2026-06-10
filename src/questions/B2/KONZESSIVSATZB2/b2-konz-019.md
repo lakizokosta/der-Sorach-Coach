@@ -9,4 +9,4 @@ options:
 correct: obwohl
 ---
 
-Sie arbeitet weiter, ___ sie erschöpft ist.
+Sie arbeitet weiter, ___ sie erschöpft ist. (Konzessivsatz)

@@ -9,4 +9,4 @@ options:
 correct: an
 ---
 
-Die Apotheke ist ___ der Ecke.
+Die Apotheke ist ___ der Ecke. (Lokale Präposition)

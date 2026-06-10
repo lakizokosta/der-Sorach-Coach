@@ -9,4 +9,4 @@ options:
 correct: wann
 ---
 
-Sie möchte wissen, ___ der Kurs beginnt.
+Sie möchte wissen, ___ der Kurs beginnt. (Indirekte Frage)

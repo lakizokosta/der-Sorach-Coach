@@ -9,4 +9,4 @@ options:
 correct: bereitet
 ---
 
-Er ___ die Präsentation gut vor.
+Er ___ die Präsentation gut vor. (Trennbares Verb — bereiten)

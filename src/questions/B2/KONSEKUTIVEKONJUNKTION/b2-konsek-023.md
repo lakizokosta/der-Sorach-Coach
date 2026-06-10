@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Er übte so intensiv, ___ er die Prüfung bestand.
+Er übte so intensiv, ___ er die Prüfung bestand. (Konsekutivsatz)

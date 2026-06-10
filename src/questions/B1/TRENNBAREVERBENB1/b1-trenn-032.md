@@ -9,4 +9,4 @@ options:
 correct: schickt
 ---
 
-Er ___ die wichtige E-Mail sofort an.
+Er ___ die wichtige E-Mail sofort an. (Trennbares Verb — ankommen)

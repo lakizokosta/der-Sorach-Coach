@@ -5,4 +5,4 @@ correct:
   - ist
 ---
 
-Die Entscheidung ___ bereits getroffen worden. (sein, Perfekt)
+Die Entscheidung ___ bereits getroffen worden. (Passivform — sein)

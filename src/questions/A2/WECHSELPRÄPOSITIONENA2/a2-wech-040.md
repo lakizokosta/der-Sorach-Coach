@@ -9,4 +9,4 @@ options:
 correct: An die
 ---
 
-Wohin hängst du das Bild? — ___ Wand.
+Wohin hängst du das Bild? — ___ Wand. (Dativ oder Akkusativ — Wohin?)

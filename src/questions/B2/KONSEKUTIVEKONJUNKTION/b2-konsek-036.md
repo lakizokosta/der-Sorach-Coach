@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Das Problem war so komplex, ___ selbst Experten ratlos waren.
+Das Problem war so komplex, ___ selbst Experten ratlos waren. (Konsekutivsatz)

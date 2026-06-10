@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Die Nachfrage war so groß, ___ die Preise stiegen.
+Die Nachfrage war so groß, ___ die Preise stiegen. (Konsekutivsatz)

@@ -5,4 +5,4 @@ correct:
   - dessen
 ---
 
-Der Mann, ___ Auto dort steht, ist mein Nachbar. (dessen)
+Der Mann, ___ Auto dort steht, ist mein Nachbar. (Relativpronomen)

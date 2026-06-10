@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ die Sonne scheint, gehen wir raus.
+___ die Sonne scheint, gehen wir raus. (Temporal — gleichzeitig)

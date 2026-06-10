@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ es regnet, nehme ich einen Schirm.
+___ es regnet, nehme ich einen Schirm. (Konjunktion — Grund)

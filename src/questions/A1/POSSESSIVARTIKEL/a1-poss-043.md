@@ -9,5 +9,4 @@ options:
 correct: deinem
 ---
 
-Wir fahren mit ___ Auto nach Berlin. (du)
-
+Wir fahren mit ___ Auto nach Berlin. (Possessivartikel — wir, mask., Akk.)

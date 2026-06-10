@@ -9,4 +9,4 @@ options:
 correct: erkennt
 ---
 
-Hieran ___ man die Qualität.
+Hieran ___ man die Qualität. (Pronominaladverb)

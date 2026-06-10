@@ -9,4 +9,4 @@ options:
 correct: möglich
 ---
 
-Die Anmeldung zum Integrationskurs ist noch bis zum 30. Juni ___.
+Die Anmeldung zum Integrationskurs ist noch bis zum 30. Juni ___. (Grammatikform)

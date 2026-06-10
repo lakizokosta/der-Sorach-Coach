@@ -9,4 +9,4 @@ options:
 correct: Obwohl
 ---
 
-___, wenngleich er Recht hatte, blieb er unhöflich.
+___, wenngleich er Recht hatte, blieb er unhöflich. (Konzessivsatz)

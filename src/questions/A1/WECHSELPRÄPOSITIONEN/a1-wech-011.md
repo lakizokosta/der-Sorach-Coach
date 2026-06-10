@@ -9,5 +9,4 @@ options:
 correct: an der
 ---
 
-Ich hängt ___ Wand. (Ort → Dativ)
-
+Ich hängt ___ Wand. (Dativ oder Akkusativ)

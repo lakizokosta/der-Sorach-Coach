@@ -9,4 +9,4 @@ options:
 correct: füllst
 ---
 
-Du ___ das Formular online aus.
+Du ___ das Formular online aus. (Trennbares Verb — füllen)

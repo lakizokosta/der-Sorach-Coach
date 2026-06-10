@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Sie sang so schön, ___ das Publikum begeistert applaudierte.
+Sie sang so schön, ___ das Publikum begeistert applaudierte. (Konsekutivsatz)

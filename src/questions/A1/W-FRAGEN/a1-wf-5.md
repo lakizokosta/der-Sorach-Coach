@@ -9,4 +9,4 @@ options:
 correct: Was
 ---
 
-___ machst du heute?
+___ machst du heute? (Fragewort)

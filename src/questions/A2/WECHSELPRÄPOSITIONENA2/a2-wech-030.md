@@ -9,4 +9,4 @@ options:
 correct: in einer
 ---
 
-Wo wohnst du? — ___ kleinen Stadt.
+Wo wohnst du? — ___ kleinen Stadt. (Dativ oder Akkusativ — Wo?)

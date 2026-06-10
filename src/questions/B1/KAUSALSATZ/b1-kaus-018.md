@@ -9,4 +9,4 @@ options:
 correct: weil
 ---
 
-Er kommt nicht mit, ___ er noch arbeiten muss.
+Er kommt nicht mit, ___ er noch arbeiten muss. (Kausalsatz)

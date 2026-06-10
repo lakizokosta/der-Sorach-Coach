@@ -9,5 +9,4 @@ options:
 correct: dein
 ---
 
-Der Arzt gibt mir ___ Medikament. (du)
-
+Der Arzt gibt mir ___ Medikament. (Possessivartikel — wir, mask., Nom.)

@@ -9,4 +9,4 @@ options:
 correct: sprechen
 ---
 
-Wir ___ das Problem im Team an.
+Wir ___ das Problem im Team an. (Trennbares Verb — sprechen)

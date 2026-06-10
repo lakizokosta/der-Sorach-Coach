@@ -9,5 +9,4 @@ options:
 correct: im
 ---
 
-Ich sitze ___ Kino. (Ort → Dativ)
-
+Ich sitze ___ Kino. (Dativ oder Akkusativ)

@@ -9,4 +9,4 @@ options:
 correct: weil
 ---
 
-Ich bin traurig, ___ ich meine Familie vermisse.
+Ich bin traurig, ___ ich meine Familie vermisse. (Konjunktion — Nebensatz)

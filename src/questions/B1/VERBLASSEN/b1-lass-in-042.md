@@ -5,4 +5,4 @@ correct:
   - lassen
 ---
 
-Wir ___ das Problem nicht zu ruhen. (Verben lassen)
+Wir ___ das Problem nicht zu ruhen. (lassen-Form)

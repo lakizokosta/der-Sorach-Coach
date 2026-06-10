@@ -5,4 +5,4 @@ correct:
   - in die
 ---
 
-Das Flugzeug fliegt ___ Wolken. (Wechselpräpositionen — Bewegung)
+Das Flugzeug fliegt ___ Wolken. (Dativ oder Akkusativ)
