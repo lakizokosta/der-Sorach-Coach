@@ -275,7 +275,7 @@ function persistFreeTimeUsed() {
 
 /**
  * Called when the user leaves mid-session. XP is already persisted per
- * answer; streak is tied to the daily goal (5 Fragen), not early exit.
+ * answer; streak is tied to the daily goal (Tagesziel), not early exit.
  */
 function saveProgressEarly() {
   if (finished.value) return;

@@ -1,7 +1,7 @@
 /**
  * @fileoverview Daily training goal — answer N questions per day.
  *
- * Default target: 5 questions (matches the «5 Minuten täglich» promise).
+ * Default target: 20 questions per calendar day.
  * When the goal is met we also record streak activity for the day.
  */
 
@@ -10,7 +10,7 @@ import { loadJSON, saveJSON } from './useStorage.js';
 import { markActiveDay, recordActivityToday } from './useStreak.js';
 
 const KEY = 'lzd_daily_goal';
-export const DAILY_GOAL_QUESTIONS = 5;
+export const DAILY_GOAL_QUESTIONS = 20;
 
 function todayISO() {
   return new Date().toISOString().split('T')[0];

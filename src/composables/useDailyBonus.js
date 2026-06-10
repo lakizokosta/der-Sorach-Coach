@@ -1,5 +1,5 @@
 /**
- * Daily bonus missions — extra challenges after the base Tagesziel (5 Fragen).
+ * Daily bonus missions — extra challenges after the base Tagesziel is met.
  * Completing a mission awards one-time bonus XP for the day.
  */
 
@@ -13,9 +13,9 @@ const KEY = 'lzd_daily_bonus';
 
 /** Extra question-count milestones (total today, incl. base goal). */
 export const BONUS_TIERS = [
-  { count: 10, reward: 5 },
-  { count: 15, reward: 8 },
-  { count: 20, reward: 12 },
+  { count: DAILY_GOAL_QUESTIONS + 5, reward: 5 },
+  { count: DAILY_GOAL_QUESTIONS + 10, reward: 8 },
+  { count: DAILY_GOAL_QUESTIONS + 15, reward: 12 },
 ];
 
 /** +1 XP per correct answer after Tagesziel is met. */
