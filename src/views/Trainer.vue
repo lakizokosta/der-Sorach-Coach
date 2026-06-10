@@ -53,8 +53,10 @@ import {
   PLACEMENT_TOTAL,
 } from '@/utils/placementTest.js';
 import { setCefrLevel } from '@/composables/useCefrLevel.js';
+import { useI18n } from '@/i18n/index.js';
 
 const route = useRoute();
+const { t } = useI18n();
 const router = useRouter();
 const { isPremium, isBasis } = usePremium();
 const { addXP, state: xpState, level: liveLevel, MASTERY_THRESHOLD } = useXp();
@@ -616,18 +618,16 @@ watch(lastAnswerResolved, (resolved) => {
   <!-- Loading / empty queue -->
   <div v-if="!currentQuestion && !finished" class="app-shell">
     <LzdLogo />
-    <h2 style="margin-top: 20px;">Lade Fragen…</h2>
+    <h2 style="margin-top: 20px;">{{ t('trainer.loading') }}</h2>
   </div>
 
   <!-- Empty result for missing topic -->
   <div v-else-if="!currentQuestion && finished && answered === 0" class="app-shell">
     <LzdLogo />
-    <h2>Keine Fragen gefunden</h2>
-    <p v-if="schwaechenMode">
-      Noch keine Schwachstellen erfasst. Trainiere Premium-Themen — dann erscheinen hier deine 3 schwächsten Themen.
-    </p>
-    <p v-else>Für dieses Thema gibt es noch keine Fragen.</p>
-    <button class="soft-btn" type="button" @click="exitSession">← Zurück</button>
+    <h2>{{ t('trainer.noQuestions') }}</h2>
+    <p v-if="schwaechenMode">{{ t('schwaechen.bodyNoErrors') }}</p>
+    <p v-else>{{ t('trainer.noQuestionsTopic') }}</p>
+    <button class="soft-btn" type="button" @click="exitSession">{{ t('trainer.back') }}</button>
   </div>
 
   <!-- Final result screen -->
@@ -651,7 +651,11 @@ watch(lastAnswerResolved, (resolved) => {
           {{
             placementDetectedLevel
               ? `Dein Niveau: ${placementDetectedLevel}`
-              : scorePct >= 80 ? 'Ausgezeichnet!' : scorePct >= 60 ? 'Gut gemacht!' : 'Weiter üben!'
+              : scorePct >= 80
+                ? t('trainer.excellent')
+                : scorePct >= 60
+                  ? t('trainer.goodJob')
+                  : t('trainer.keepPracticing')
           }}
         </div>
         <div style="font-size: 14px; color: #888; margin: 8px 0 20px;">
@@ -681,7 +685,7 @@ watch(lastAnswerResolved, (resolved) => {
             <div style="font-size: 28px; font-weight: 900; color: #AB4DBB;">
               {{ answered }}
             </div>
-            <div class="small-note" style="text-transform: uppercase;">Fragen</div>
+            <div class="small-note" style="text-transform: uppercase;">{{ t('trainer.questionsLabel') }}</div>
           </div>
           <div>
             <div style="font-size: 28px; font-weight: 900; color: #69c43b;">
@@ -781,7 +785,7 @@ watch(lastAnswerResolved, (resolved) => {
           }"
           @click="exitSession"
         >
-          ← Zurück
+          {{ t('trainer.back') }}
         </button>
 
         <button
@@ -866,7 +870,7 @@ watch(lastAnswerResolved, (resolved) => {
 
     <div class="small-note">
       <template v-if="placementMode">
-        Niveau-Test · {{ PLACEMENT_TOTAL }} Fragen (A1→B2)
+        {{ t('trainer.placementLabel', { count: PLACEMENT_TOTAL }) }}
         <span v-if="currentQuestion"> — {{ currentQuestion.level }}</span>
         <span class="placement-hint"> · zählt nicht zum Tagesziel</span>
       </template>
@@ -877,7 +881,11 @@ watch(lastAnswerResolved, (resolved) => {
         </span>
       </template>
       <template v-else>
-        {{ isPrem ? `Premium - ${level}` : `Kostenlos - ${level}` }}
+        {{
+          isPrem
+            ? t('trainer.premium', { level })
+            : t('trainer.free', { level })
+        }}
         <span v-if="topic"> / {{ topic }}</span>
       </template>
     </div>
@@ -936,7 +944,7 @@ watch(lastAnswerResolved, (resolved) => {
     </div>
 
     <h2 style="margin: 6px 0 12px 0;">
-      Frage {{ questionNumber }} von {{ totalQuestions }}
+      {{ t('trainer.question', { current: questionNumber, total: totalQuestions }) }}
     </h2>
 
     <QuestionRenderer
@@ -949,7 +957,7 @@ watch(lastAnswerResolved, (resolved) => {
     />
 
     <div v-if="showRetry" class="retry-hint">
-      ❌ Falsch! Versuche es noch einmal.
+      {{ t('trainer.wrongRetry') }}
     </div>
 
     <div v-if="showGrammarTip" style="margin: 12px 0;">
@@ -965,14 +973,14 @@ watch(lastAnswerResolved, (resolved) => {
       :disabled="!canAdvance"
       @click="next"
     >
-      Weiter
+      {{ t('trainer.next') }}
     </button>
 
     <div style="display: flex; gap: 10px; justify-content: center; margin-top: 14px;">
       <button class="soft-btn" type="button" @click="finish('Manuell beendet')">
-        🏁 Beenden &amp; Ergebnis
+        {{ t('trainer.finish') }}
       </button>
-      <button class="soft-btn" type="button" @click="back">Zurück</button>
+      <button class="soft-btn" type="button" @click="back">{{ t('trainer.backShort') }}</button>
     </div>
 
     <DictionaryPopup

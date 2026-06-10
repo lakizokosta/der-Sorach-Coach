@@ -10,9 +10,11 @@ import { useAuth } from '@/composables/useAuth.js';
 import { activateCode, usePremium } from '@/composables/usePremium.js';
 import { loadString, saveString } from '@/composables/useStorage.js';
 import { hasBackend, requestMagicLink } from '@/utils/api.js';
+import { useI18n } from '@/i18n/index.js';
 
 const USER_EMAIL_KEY = 'userEmail';
 const backendOn = hasBackend();
+const { t } = useI18n();
 
 const { state: auth, isLoggedIn, logout } = useAuth();
 const { isPremium, isBasis } = usePremium();
@@ -29,11 +31,11 @@ async function submitMagicLink() {
   if (!backendOn || magicSubmitting.value) return;
   const value = magicEmail.value.trim().toLowerCase();
   if (!value || !value.includes('@')) {
-    magicStatus.value = { text: '✖ Bitte gültige E-Mail eingeben.', color: '#ed4545' };
+    magicStatus.value = { text: t('login.errInvalidEmail'), color: '#ed4545' };
     return;
   }
   magicSubmitting.value = true;
-  magicStatus.value = { text: 'Link wird gesendet…', color: '#888' };
+  magicStatus.value = { text: t('login.sendingLink'), color: '#888' };
   saveString(USER_EMAIL_KEY, value);
 
   const res = await requestMagicLink(value);
@@ -41,12 +43,12 @@ async function submitMagicLink() {
 
   if (res && res.ok) {
     magicStatus.value = {
-      text: `✔ Link gesendet! Öffne dein Postfach (${value}) und tippe auf den Link.`,
+      text: t('login.linkSent', { email: value }),
       color: '#69c43b',
     };
   } else {
     magicStatus.value = {
-      text: `✖ ${(res && res.error) || 'Fehler. Bitte versuche es erneut.'}`,
+      text: `✖ ${(res && res.error) || t('login.errGeneric')}`,
       color: '#ed4545',
     };
   }
@@ -56,18 +58,18 @@ async function submitCode() {
   if (!isLoggedIn.value || codeSubmitting.value) return;
   const value = code.value.trim().toUpperCase();
   if (!value) {
-    codeStatus.value = { text: '✖ Bitte Code eingeben.', color: '#ed4545' };
+    codeStatus.value = { text: t('login.errEnterCode'), color: '#ed4545' };
     return;
   }
   codeSubmitting.value = true;
-  codeStatus.value = { text: 'Wird aktiviert…', color: '#888' };
+  codeStatus.value = { text: t('login.activating'), color: '#888' };
 
   const res = await activateCode(value, auth.email);
   codeSubmitting.value = false;
 
   if (res.ok) {
     codeStatus.value = {
-      text: res.type === 'premium' ? '✔ Premium aktiviert!' : '✔ Zeitlimit aufgehoben!',
+      text: res.type === 'premium' ? t('login.premiumActivated') : t('login.basisActivated'),
       color: '#69c43b',
     };
     code.value = '';
@@ -85,28 +87,25 @@ function signOut() {
 
 <template>
   <div v-if="backendOn" class="login-panel">
-    <!-- Logged in + Premium/Basis -->
     <template v-if="isLoggedIn && (isPremium || isBasis)">
       <div class="login-panel__session login-panel__session--premium">
         <div class="login-panel__session-email">👤 {{ auth.email }}</div>
         <button type="button" class="login-panel__signout-pill" @click="signOut">
-          Abmelden
+          {{ t('common.signOut') }}
         </button>
       </div>
-      <p class="login-panel__ok-note">
-        ✅ Eingeloggt — Premium &amp; Fortschritt auf diesem Gerät aktiv.
-      </p>
+      <p class="login-panel__ok-note">{{ t('login.loggedInPremium') }}</p>
       <slot name="after-intro" />
     </template>
 
-    <!-- Premium via code, not logged in -->
     <div v-else-if="(isPremium || isBasis) && !isLoggedIn" class="login-panel-card">
-      <div class="login-panel-card__badge">🏠 Startseite</div>
-      <h3 class="login-panel-card__title">Auf diesem Gerät einloggen</h3>
+      <div class="login-panel-card__badge">{{ t('login.badgeHome') }}</div>
+      <h3 class="login-panel-card__title">{{ t('login.otherDeviceTitle') }}</h3>
       <p class="login-panel-card__intro">
-        Premium ist schon auf einem anderen Gerät aktiv? Hier nur
-        <strong>dieselbe E-Mail</strong> — Link per E-Mail, kein Passwort.
-        <strong>Kein Code nötig.</strong>
+        {{ t('login.otherDeviceBefore') }}
+        <strong>{{ t('login.otherDeviceEmail') }}</strong>
+        {{ t('login.otherDeviceMid') }}
+        <strong>{{ t('login.otherDeviceNoCode') }}</strong>
       </p>
       <DeviceGuide variant="landing" />
       <slot name="after-intro" />
@@ -115,7 +114,7 @@ function signOut() {
           v-model="magicEmail"
           type="email"
           class="login-panel-card__input"
-          placeholder="deine@email.de"
+          :placeholder="t('common.emailPlaceholder')"
         />
         <button
           type="button"
@@ -123,13 +122,13 @@ function signOut() {
           :disabled="magicSubmitting"
           @click="submitMagicLink"
         >
-          {{ magicSubmitting ? '…' : '📧 Link senden' }}
+          {{ magicSubmitting ? '…' : t('login.sendLink') }}
         </button>
       </div>
       <ol class="login-panel-card__how">
-        <li>E-Mail eingeben</li>
-        <li>«Link senden» tippen</li>
-        <li>Link im Postfach antippen</li>
+        <li>{{ t('login.step1') }}</li>
+        <li>{{ t('login.step2') }}</li>
+        <li>{{ t('login.step3') }}</li>
       </ol>
       <p
         v-if="magicStatus.text"
@@ -140,23 +139,22 @@ function signOut() {
       </p>
     </div>
 
-    <!-- Logged in, no premium yet — activate code -->
     <div v-else-if="isLoggedIn" class="login-panel-card login-panel-card--code">
-      <div class="login-panel-card__badge">🏠 Startseite</div>
+      <div class="login-panel-card__badge">{{ t('login.badgeHome') }}</div>
       <div class="login-panel__session-row">
         <span class="login-panel__session-email">👤 {{ auth.email }}</span>
         <button type="button" class="login-panel__signout-text" @click="signOut">
-          Abmelden
+          {{ t('common.signOut') }}
         </button>
       </div>
       <slot name="after-intro" />
-      <p class="login-panel-card__intro">🔑 Hast du einen Code? Hier eingeben:</p>
+      <p class="login-panel-card__intro">{{ t('login.codePrompt') }}</p>
       <div class="login-panel-card__row">
         <input
           v-model="code"
           type="text"
           class="login-panel-card__input login-panel-card__input--code"
-          placeholder="z.B. BASIS_… oder TRIAL-…"
+          :placeholder="t('login.codePlaceholder')"
         />
         <button
           type="button"
@@ -164,13 +162,13 @@ function signOut() {
           :disabled="codeSubmitting"
           @click="submitCode"
         >
-          {{ codeSubmitting ? '…' : 'Aktivieren' }}
+          {{ codeSubmitting ? '…' : t('common.activate') }}
         </button>
       </div>
       <p class="login-panel-card__aside">
-        Code nach dem Kauf? Besser auf der
-        <router-link :to="{ name: 'premium' }">Premium-Seite</router-link>
-        in Schritt 2 eingeben.
+        {{ t('login.asideCodeBefore') }}
+        <router-link :to="{ name: 'premium' }">{{ t('common.premium') }}</router-link>
+        {{ t('login.asideCodeAfter') }}
       </p>
       <p
         v-if="codeStatus.text"
@@ -181,16 +179,18 @@ function signOut() {
       </p>
     </div>
 
-    <!-- Not logged in (default) -->
     <div v-else class="login-panel-card">
-      <div class="login-panel-card__badge">🏠 Startseite</div>
-      <h3 class="login-panel-card__title">Fortschritt speichern</h3>
+      <div class="login-panel-card__badge">{{ t('login.badgeHome') }}</div>
+      <h3 class="login-panel-card__title">{{ t('login.saveTitle') }}</h3>
       <p class="login-panel-card__intro">
-        Für <strong>XP, Streak &amp; Premium</strong> auf allen Geräten.
-        <strong>Kein Passwort</strong> — Link per E-Mail.
-        Premium erst auf der
-        <router-link :to="{ name: 'premium' }">Premium-Seite</router-link>
-        kaufen; auf dem Handy danach nur hier einloggen.
+        {{ t('login.saveIntroBefore') }}
+        <strong>{{ t('login.saveIntroStrong') }}</strong>
+        {{ t('login.saveIntroMid') }}
+        <strong>{{ t('login.saveIntroNoPw') }}</strong>
+        {{ t('login.saveIntroPwMid') }}
+        {{ t('login.saveIntroBuyBefore') }}
+        <router-link :to="{ name: 'premium' }">{{ t('common.premium') }}</router-link>
+        {{ t('login.saveIntroBuyAfter') }}
       </p>
       <slot name="after-intro" />
       <div class="login-panel-card__row">
@@ -198,7 +198,7 @@ function signOut() {
           v-model="magicEmail"
           type="email"
           class="login-panel-card__input"
-          placeholder="deine@email.de"
+          :placeholder="t('common.emailPlaceholder')"
         />
         <button
           type="button"
@@ -206,18 +206,18 @@ function signOut() {
           :disabled="magicSubmitting"
           @click="submitMagicLink"
         >
-          {{ magicSubmitting ? '…' : '📧 Link senden' }}
+          {{ magicSubmitting ? '…' : t('login.sendLink') }}
         </button>
       </div>
       <ol class="login-panel-card__how">
-        <li>E-Mail eingeben</li>
-        <li>«Link senden» tippen</li>
-        <li>Link im Postfach antippen — fertig!</li>
+        <li>{{ t('login.step1') }}</li>
+        <li>{{ t('login.step2') }}</li>
+        <li>{{ t('login.step3done') }}</li>
       </ol>
       <p class="login-panel-card__aside">
-        💎 Noch kein Premium? Bezahlen auf der
-        <router-link :to="{ name: 'premium' }">Premium-Seite</router-link>
-        → «Jetzt aktivieren» in der E-Mail (einmal) → auf anderen Geräten nur hier einloggen.
+        {{ t('login.asidePremiumBefore') }}
+        <router-link :to="{ name: 'premium' }">{{ t('common.premium') }}</router-link>
+        {{ t('login.asidePremiumAfter') }}
       </p>
       <p
         v-if="magicStatus.text"

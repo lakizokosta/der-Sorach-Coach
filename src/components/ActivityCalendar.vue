@@ -1,18 +1,20 @@
 <script setup>
 /**
  * ActivityCalendar — collapsible 42-day activity heatmap (6 × 7).
- *
- * Uses `activeDays` from the streak composable. Each filled cell is a
- * day the learner answered at least one question.
  */
 
 import { computed } from 'vue';
 
 import { useStreak } from '@/composables/useStreak.js';
+import { useI18n } from '@/i18n/index.js';
 
 const { state: streak } = useStreak();
+const { t } = useI18n();
 
-const DAY_LABELS = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+const dayLabels = computed(() => {
+  const labels = t('calendar.dayLabels');
+  return Array.isArray(labels) ? labels : ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+});
 
 const cells = computed(() => {
   const active = new Set(streak.activeDays || []);
@@ -42,10 +44,8 @@ const progressPct = computed(() =>
 );
 
 const summaryHint = computed(() => {
-  if (activeCount.value === 0) {
-    return 'Noch keine aktiven Tage. Tippe für den 6-Wochen-Kalender.';
-  }
-  return `${activeCount.value} aktive Tage in den letzten 6 Wochen. Tippe für Details.`;
+  if (activeCount.value === 0) return t('calendar.hintEmpty');
+  return t('calendar.hintActive', { count: activeCount.value });
 });
 </script>
 
@@ -53,8 +53,10 @@ const summaryHint = computed(() => {
   <details class="activity-calendar">
     <summary class="activity-calendar__summary">
       <div class="activity-calendar__row">
-        <span class="activity-calendar__title">📅 Aktivitäts-Kalender</span>
-        <span class="activity-calendar__count">{{ activeCount }} / {{ TOTAL_DAYS }} Tage</span>
+        <span class="activity-calendar__title">{{ t('calendar.title') }}</span>
+        <span class="activity-calendar__count">
+          {{ t('calendar.count', { active: activeCount, total: TOTAL_DAYS }) }}
+        </span>
       </div>
 
       <div
@@ -70,9 +72,9 @@ const summaryHint = computed(() => {
       <p class="activity-calendar__hint">{{ summaryHint }}</p>
     </summary>
 
-    <div class="activity-calendar__body" aria-label="Aktivitäts-Kalender">
+    <div class="activity-calendar__body" :aria-label="t('calendar.title')">
       <div class="activity-calendar__weekdays">
-        <span v-for="label in DAY_LABELS" :key="label">{{ label }}</span>
+        <span v-for="label in dayLabels" :key="label">{{ label }}</span>
       </div>
 
       <div class="activity-calendar__grid">
@@ -89,9 +91,15 @@ const summaryHint = computed(() => {
       </div>
 
       <div class="activity-calendar__legend">
-        <span><i class="activity-calendar__dot" /> weniger</span>
-        <span><i class="activity-calendar__dot activity-calendar__dot--active" /> aktiv</span>
-        <span><i class="activity-calendar__dot activity-calendar__dot--today" /> heute</span>
+        <span><i class="activity-calendar__dot" /> {{ t('calendar.legendLess') }}</span>
+        <span>
+          <i class="activity-calendar__dot activity-calendar__dot--active" />
+          {{ t('calendar.legendActive') }}
+        </span>
+        <span>
+          <i class="activity-calendar__dot activity-calendar__dot--today" />
+          {{ t('calendar.legendToday') }}
+        </span>
       </div>
     </div>
   </details>

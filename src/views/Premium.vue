@@ -43,8 +43,10 @@ import {
   requestMagicLink,
   requestTrial,
 } from '@/utils/api.js';
+import { useI18n } from '@/i18n/index.js';
 
 const router = useRouter();
+const { t } = useI18n();
 const route = useRoute();
 const { isPremium, isBasis, activateCode, clearPremium, clearBasis } = usePremium();
 const { state: streak, medalsFor } = useStreak();
@@ -84,6 +86,16 @@ const showActivationPanel = computed(
 const plan = ref('1month');
 const agbChecked = ref(false);
 const buyStatus = ref({ text: '', color: '#888' });
+
+const basisPriceLabel = computed(() =>
+  PRICES_EUR.basis.toFixed(2).replace('.', ','),
+);
+
+const planOptions = computed(() => [
+  { v: '1month', label: t('premium.plan1'), note: '' },
+  { v: '3months', label: t('premium.plan3'), note: t('common.monthFree1') },
+  { v: '12months', label: t('premium.plan12'), note: t('common.monthsFree3') },
+]);
 
 const magicStatus = ref({ text: '', color: '#888' });
 const magicSubmitting = ref(false);
@@ -136,14 +148,14 @@ function validateBuyForm() {
   if (!value || !value.includes('@')) {
     buyStatus.value = {
       text: isLoggedIn.value
-        ? '✖ Keine E-Mail in der Sitzung.'
-        : '✖ Bitte deine E-Mail für den Code eingeben.',
+        ? t('premium.errNoSessionEmail')
+        : t('premium.errEmailForCode'),
       color: '#ed4545',
     };
     return false;
   }
   if (!agbChecked.value) {
-    buyStatus.value = { text: '✖ Bitte stimmen Sie den AGB zu.', color: '#ed4545' };
+    buyStatus.value = { text: t('premium.errAgb'), color: '#ed4545' };
     return false;
   }
   saveString(USER_EMAIL_KEY, value);
@@ -159,7 +171,7 @@ function payWithStripe() {
   const url = buildStripePremiumUrl(plan.value, emailForCheckout.value);
   window.open(url, '_blank', 'noopener');
   buyStatus.value = {
-    text: `💳 Stripe-Seite geöffnet. Nach der Zahlung erhältst du deinen Code per E-Mail an ${emailForCheckout.value}.`,
+    text: t('premium.stripeOpened', { email: emailForCheckout.value }),
     color: '#635BFF',
   };
 }
@@ -173,7 +185,7 @@ function payWithPaypal() {
   const url = buildPaypalUrl(plan.value);
   window.open(url, '_blank', 'noopener');
   buyStatus.value = {
-    text: `💳 PayPal-Seite geöffnet. Nach der Zahlung schicken wir den Code an ${emailForCheckout.value}.`,
+    text: t('premium.paypalOpened', { email: emailForCheckout.value }),
     color: '#0070BA',
   };
 }
@@ -187,13 +199,13 @@ function validateBasisCheckout() {
   const value = emailForCheckout.value;
   if (!value || !value.includes('@')) {
     buyStatus.value = {
-      text: '✖ Bitte deine E-Mail für den Code eingeben.',
+      text: t('premium.errEmailForCode'),
       color: '#ed4545',
     };
     return false;
   }
   if (!agbChecked.value) {
-    buyStatus.value = { text: '✖ Bitte stimmen Sie den AGB zu.', color: '#ed4545' };
+    buyStatus.value = { text: t('premium.errAgb'), color: '#ed4545' };
     return false;
   }
   saveString(USER_EMAIL_KEY, value);
@@ -204,7 +216,7 @@ function payBasis() {
   if (!validateBasisCheckout()) return;
   window.open(buildStripeBasisUrl(emailForCheckout.value), '_blank', 'noopener');
   buyStatus.value = {
-    text: `💳 Stripe-Seite geöffnet. Code nach Zahlung an ${emailForCheckout.value}.`,
+    text: t('premium.basisStripeOpened', { email: emailForCheckout.value }),
     color: '#635BFF',
   };
 }
@@ -213,7 +225,7 @@ function payBasisPaypal() {
   if (!validateBasisCheckout()) return;
   window.open(buildPaypalBasisUrl(), '_blank', 'noopener');
   buyStatus.value = {
-    text: `💳 PayPal-Seite geöffnet. Code nach Zahlung an ${emailForCheckout.value}.`,
+    text: t('premium.basisPaypalOpened', { email: emailForCheckout.value }),
     color: '#0070BA',
   };
 }
@@ -237,19 +249,19 @@ async function submitCode() {
   if (submitting.value) return;
   const trimmedCode = code.value.trim();
   if (!trimmedCode) {
-    status.value = { text: '✖ Bitte Code eingeben.', color: '#ed4545' };
+    status.value = { text: t('login.errEnterCode'), color: '#ed4545' };
     return;
   }
   if (backendOn && !isLoggedIn.value) {
     status.value = {
-      text: '✖ Bitte zuerst einloggen (Login-Link aus der Kauf-E-Mail oder unten anfordern).',
+      text: t('premium.errLoginFirst'),
       color: '#ed4545',
     };
     return;
   }
 
   submitting.value = true;
-  status.value = { text: 'Wird überprüft…', color: '#888' };
+  status.value = { text: t('premium.checking'), color: '#888' };
 
   const emailForCode = backendOn ? auth.email : emailForCheckout.value;
   const res = await activateCode(trimmedCode, emailForCode);
@@ -257,7 +269,7 @@ async function submitCode() {
 
   if (res.ok) {
     status.value = {
-      text: res.type === 'premium' ? '✔ Premium aktiviert!' : '✔ Zeitlimit aufgehoben!',
+      text: res.type === 'premium' ? t('login.premiumActivated') : t('login.basisActivated'),
       color: '#69c43b',
     };
     code.value = '';
@@ -277,11 +289,11 @@ async function submitMagicLink() {
   if (magicSubmitting.value || isLoggedIn.value) return;
   const value = accountEmail.value.trim().toLowerCase();
   if (!value || !value.includes('@')) {
-    magicStatus.value = { text: '✖ Bitte gültige Email-Adresse eingeben.', color: '#ed4545' };
+    magicStatus.value = { text: t('login.errInvalidEmail'), color: '#ed4545' };
     return;
   }
   magicSubmitting.value = true;
-  magicStatus.value = { text: 'Link wird gesendet…', color: '#888' };
+  magicStatus.value = { text: t('login.sendingLink'), color: '#888' };
   saveString(USER_EMAIL_KEY, value);
 
   const res = await requestMagicLink(value);
@@ -289,12 +301,12 @@ async function submitMagicLink() {
 
   if (res && res.ok) {
     magicStatus.value = {
-      text: res.message || `✔ Anmelde-Link an ${value} gesendet.`,
+      text: res.message || t('premium.magicLinkSent', { email: value }),
       color: '#69c43b',
     };
   } else {
     magicStatus.value = {
-      text: `✖ ${(res && res.error) || 'Link konnte nicht gesendet werden.'}`,
+      text: `✖ ${(res && res.error) || t('premium.magicLinkErr')}`,
       color: '#ed4545',
     };
   }
@@ -312,14 +324,14 @@ async function submitTrial() {
   if (!value || !value.includes('@')) {
     trialStatus.value = {
       text: isLoggedIn.value
-        ? '✖ Keine E-Mail in der Sitzung.'
-        : '✖ Bitte deine E-Mail eingeben.',
+        ? t('premium.errNoSessionEmail')
+        : t('premium.errEmailForCode'),
       color: '#ed4545',
     };
     return;
   }
   trialSubmitting.value = true;
-  trialStatus.value = { text: 'Gratis-Code wird angefordert…', color: '#888' };
+  trialStatus.value = { text: t('premium.trialRequestingCode'), color: '#888' };
   saveString(USER_EMAIL_KEY, value);
 
   const res = await requestTrial(value);
@@ -327,12 +339,12 @@ async function submitTrial() {
 
   if (res && res.ok) {
     trialStatus.value = {
-      text: `✔ Gratis-Code an ${value} gesendet. Bitte checke deine E-Mail.`,
+      text: t('premium.trialSent', { email: value }),
       color: '#69c43b',
     };
   } else {
     trialStatus.value = {
-      text: `✖ ${(res && res.error) || 'Konnte keinen Gratis-Code ausstellen.'}`,
+      text: `✖ ${(res && res.error) || t('premium.trialErr')}`,
       color: '#ed4545',
     };
   }
@@ -342,13 +354,13 @@ async function submitTrial() {
 function deactivate() {
   clearPremium();
   clearBasis();
-  status.value = { text: 'Premium deaktiviert.', color: '#888' };
+  status.value = { text: t('premium.deactivated'), color: '#888' };
 }
 
 /** Logs the user out (clears the 7-day Magic-Link session). */
 function signOut() {
   logout();
-  magicStatus.value = { text: 'Abgemeldet.', color: '#888' };
+  magicStatus.value = { text: t('premium.signedOut'), color: '#888' };
 }
 
 /**
@@ -387,10 +399,10 @@ function topicMastered(key) {
           "
         >
           <div style="text-align: left;">
-            <div style="font-size: 22px; font-weight: 900;">Der SprachCoach</div>
-            <div style="font-size: 13px; color: #666;">Trainiere gezielt zur Prüfung.</div>
+            <div style="font-size: 22px; font-weight: 900;">{{ t('premium.title') }}</div>
+            <div style="font-size: 13px; color: #666;">{{ t('premium.subtitle') }}</div>
             <div style="font-size: 14px; font-style: italic; color: #AB4DBB;">
-              Dein Trainer für alle Fälle
+              {{ t('premium.tagline') }}
             </div>
           </div>
           <div
@@ -407,7 +419,7 @@ function topicMastered(key) {
                 : 'background:rgba(237,69,69,.12);border-color:rgba(237,69,69,.28);'
             "
           >
-            {{ isPremium ? 'Status: aktiv' : 'Status: nicht aktiv' }}
+            {{ isPremium ? t('premium.statusActive') : t('premium.statusInactive') }}
           </div>
         </header>
 
@@ -415,29 +427,26 @@ function topicMastered(key) {
         <div v-if="!isPremium" style="text-align: left;">
           <div v-if="focusBasis" class="premium-basis-card">
             <div class="premium-basis-card__title">
-              ⏱️ Zeitlimit aufheben – {{ PRICES_EUR.basis.toFixed(2).replace('.', ',') }}€
+              {{ t('premium.basisTitle', { price: basisPriceLabel }) }}
             </div>
-            <p class="premium-basis-card__intro">
-              Einmalzahlung · kein Abo · sofort aktiv. Nach der Zahlung erhältst
-              du den Aktivierungscode per E-Mail.
-            </p>
+            <p class="premium-basis-card__intro">{{ t('premium.basisIntro') }}</p>
             <div v-if="!isLoggedIn" class="premium-basis-card__email">
               <label
                 for="basis-buy-email"
                 class="premium-basis-card__email-label"
               >
-                E-Mail für den Aktivierungscode
+                {{ t('premium.emailLabel') }}
               </label>
               <input
                 id="basis-buy-email"
                 v-model="buyEmail"
                 type="email"
                 class="premium-flow__input"
-                placeholder="deine@email.de"
+                :placeholder="t('common.emailPlaceholder')"
               />
             </div>
             <p v-else class="premium-basis-card__email-hint">
-              📧 Code an: <strong>{{ auth.email }}</strong>
+              📧 {{ t('premium.codeToEmail') }} <strong>{{ auth.email }}</strong>
             </p>
             <DeviceGuide variant="basis" />
             <label class="premium-basis-card__agb">
@@ -447,13 +456,12 @@ function topicMastered(key) {
                 class="premium-basis-card__agb-check"
               />
               <span>
-                Ich stimme den
+                {{ t('common.agbAcceptBefore') }}
                 <router-link
                   :to="{ name: 'legal', params: { slug: 'agb' } }"
                   target="_blank"
-                >AGB</router-link>
-                zu und bestätige, dass das Widerrufsrecht mit Bereitstellung
-                des Codes erlischt.
+                >{{ t('common.agb') }}</router-link>
+                {{ t('common.agbAcceptAfter') }}
               </span>
             </label>
             <button
@@ -463,8 +471,8 @@ function topicMastered(key) {
             >
               <PaymentButtonLabel
                 provider="stripe"
-                main="Bezahlen – 4,99€"
-                sub="Visa, Mastercard, Apple Pay, Google Pay"
+                :main="t('premium.payBasis', { price: basisPriceLabel })"
+                :sub="t('premium.stripeSub')"
               />
             </button>
             <button
@@ -474,12 +482,12 @@ function topicMastered(key) {
             >
               <PaymentButtonLabel
                 provider="paypal"
-                main="Kaufen – 4,99€"
-                sub="Code kommt automatisch per Mail"
+                :main="t('premium.buyBasis', { price: basisPriceLabel })"
+                :sub="t('premium.paypalSub')"
               />
             </button>
             <p class="premium-buy-footer" style="margin-top: 8px;">
-              🔒 Sichere Zahlung · Einmalzahlung · kein Abo
+              {{ t('premium.secureBasis') }}
             </p>
             <div
               v-if="buyStatus.text"
@@ -489,9 +497,7 @@ function topicMastered(key) {
               {{ buyStatus.text }}
             </div>
             <p class="premium-basis-card__alt">
-              <router-link :to="{ name: 'premium' }">
-                💎 Stattdessen Premium ab 19€/Monat
-              </router-link>
+              <router-link :to="{ name: 'premium' }">{{ t('premium.altPremium') }}</router-link>
             </p>
           </div>
 
@@ -506,18 +512,14 @@ function topicMastered(key) {
               margin-bottom: 16px;
             "
           >
-            <div style="font-weight: 900; margin-bottom: 8px;">🛒 Premium kaufen</div>
+            <div style="font-weight: 900; margin-bottom: 8px;">{{ t('premium.buyTitle') }}</div>
             <div style="font-size: 13px; color: #666; margin-bottom: 12px;">
-              Wähle deinen Plan:
+              {{ t('premium.choosePlan') }}
             </div>
 
             <div style="margin-bottom: 14px;">
               <label
-                v-for="opt in [
-                  { v: '1month',   label: '1 Monat – 19€',   note: '' },
-                  { v: '3months',  label: '3 Monate – 49€',  note: '1 Monat gratis' },
-                  { v: '12months', label: '12 Monate – 99€', note: '3 Monate gratis' },
-                ]"
+                v-for="opt in planOptions"
                 :key="opt.v"
                 style="
                   display: flex;
@@ -546,18 +548,18 @@ function topicMastered(key) {
                 for="premium-buy-email"
                 style="display: block; font-size: 12px; font-weight: 700; color: #666; margin-bottom: 6px;"
               >
-                E-Mail für den Aktivierungscode
+                {{ t('premium.emailLabel') }}
               </label>
               <input
                 id="premium-buy-email"
                 v-model="buyEmail"
                 type="email"
                 class="premium-flow__input"
-                placeholder="deine@email.de"
+                :placeholder="t('common.emailPlaceholder')"
               />
             </div>
             <p v-else style="font-size: 13px; color: #666; margin: 0 0 12px 0;">
-              Code nach Zahlung an: <strong>{{ auth.email }}</strong>
+              {{ t('premium.codeTo') }} <strong>{{ auth.email }}</strong>
             </p>
             <DeviceGuide variant="buy" />
 
@@ -578,14 +580,13 @@ function topicMastered(key) {
                 style="width: 16px; height: 16px; margin: 2px 0 0 0; flex-shrink: 0;"
               />
               <span>
-                Ich stimme den
+                {{ t('common.agbAcceptBefore') }}
                 <router-link
                   :to="{ name: 'legal', params: { slug: 'agb' } }"
                   target="_blank"
                   style="color: #AB4DBB; text-decoration: underline;"
-                >AGB</router-link>
-                zu und bestätige, dass das Widerrufsrecht mit Bereitstellung
-                des Codes erlischt.
+                >{{ t('common.agb') }}</router-link>
+                {{ t('common.agbAcceptAfter') }}
               </span>
             </label>
 
@@ -596,8 +597,8 @@ function topicMastered(key) {
             >
               <PaymentButtonLabel
                 provider="stripe"
-                main="Bezahlen"
-                sub="Visa, Mastercard, Apple Pay, Google Pay"
+                :main="t('premium.payStripe')"
+                :sub="t('premium.stripeSub')"
               />
             </button>
 
@@ -608,14 +609,12 @@ function topicMastered(key) {
             >
               <PaymentButtonLabel
                 provider="paypal"
-                main="Kaufen"
-                sub="Code kommt automatisch per Mail"
+                :main="t('premium.payPaypal')"
+                :sub="t('premium.paypalSub')"
               />
             </button>
 
-            <p class="premium-buy-footer">
-              🔒 Sichere Zahlung · Code einmal aktivieren · Weitere Geräte per E-Mail-Login
-            </p>
+            <p class="premium-buy-footer">{{ t('premium.securePremium') }}</p>
 
             <div
               v-if="buyStatus.text"
@@ -630,20 +629,17 @@ function topicMastered(key) {
           <section
             v-if="backendOn && showActivationPanel && !isLoggedIn && pendingCode"
             class="premium-flow premium-flow--pending"
-            aria-label="Code aus E-Mail aktivieren"
+            :aria-label="t('premium.pendingAria')"
           >
             <div class="premium-flow__head">
-              <span class="premium-flow__title">✉️ Fast geschafft!</span>
+              <span class="premium-flow__title">{{ t('premium.almostDone') }}</span>
             </div>
-            <p class="premium-flow__intro">
-              Dein Code aus der Kauf-E-Mail ist bereit. Einloggen — wir aktivieren ihn
-              <strong>automatisch</strong>. Gleiche E-Mail wie beim Kauf verwenden.
-            </p>
+            <p class="premium-flow__intro">{{ t('premium.pendingIntro') }}</p>
             <input
               v-model="accountEmail"
               type="email"
               class="premium-flow__input"
-              placeholder="deine@email.de"
+              :placeholder="t('common.emailPlaceholder')"
             />
             <button
               type="button"
@@ -651,11 +647,9 @@ function topicMastered(key) {
               :disabled="magicSubmitting"
               @click="submitMagicLink"
             >
-              {{ magicSubmitting ? 'Wird gesendet…' : '📧 Login-Link senden' }}
+              {{ magicSubmitting ? t('common.sending') : t('premium.sendLoginLink') }}
             </button>
-            <p class="premium-flow__hint">
-              Postfach öffnen → Link antippen → Premium startet von selbst.
-            </p>
+            <p class="premium-flow__hint">{{ t('premium.inboxHint') }}</p>
             <DeviceGuide variant="compact" />
             <div
               v-if="magicStatus.text"
@@ -670,25 +664,25 @@ function topicMastered(key) {
           <section
             v-else-if="backendOn && showActivationPanel && isLoggedIn"
             class="premium-flow"
-            aria-label="Aktivierungscode eingeben"
+            :aria-label="t('premium.activationAria')"
           >
             <div class="premium-flow__head">
-              <span class="premium-flow__title">🔑 Aktivierungscode</span>
+              <span class="premium-flow__title">{{ t('premium.codeTitle') }}</span>
             </div>
             <div class="premium-flow__logged-in">
               <span class="premium-flow__logged-email">✅ {{ auth.email }}</span>
               <button type="button" class="premium-flow__signout" @click="signOut">
-                Abmelden
+                {{ t('common.signOut') }}
               </button>
             </div>
             <p v-if="pendingCode" class="premium-flow__hint premium-flow__hint--ok">
-              Code aus deiner E-Mail übernommen — tippe auf «Code aktivieren».
+              {{ t('premium.pendingCodeHint') }}
             </p>
             <input
               v-model="code"
               type="text"
               class="premium-flow__input premium-flow__input--code"
-              placeholder="Code aus der E-Mail (z.B. PREMIUM-…)"
+              :placeholder="t('premium.codePlaceholder')"
             />
             <button
               type="button"
@@ -696,7 +690,7 @@ function topicMastered(key) {
               :disabled="submitting"
               @click="submitCode"
             >
-              {{ submitting ? 'Wird überprüft…' : 'Code aktivieren' }}
+              {{ submitting ? t('premium.checking') : t('premium.activateCode') }}
             </button>
             <div
               v-if="status.text"
@@ -717,11 +711,11 @@ function topicMastered(key) {
               margin-bottom: 16px;
             "
           >
-            <div style="font-weight: 700; margin-bottom: 8px;">🔑 Aktivierungscode (Demo)</div>
+            <div style="font-weight: 700; margin-bottom: 8px;">{{ t('premium.codeDemoTitle') }}</div>
             <input
               v-model="code"
               type="text"
-              placeholder="z.B. PREMIUM_DEMO oder BASIS_TEST"
+              :placeholder="t('premium.codeDemoPlaceholder')"
               style="
                 width: 100%;
                 padding: 14px;
@@ -739,7 +733,7 @@ function topicMastered(key) {
               :disabled="submitting"
               @click="submitCode"
             >
-              {{ submitting ? 'Wird überprüft…' : 'Code aktivieren' }}
+              {{ submitting ? t('premium.checking') : t('premium.activateCode') }}
             </button>
             <div
               v-if="status.text"
@@ -752,15 +746,13 @@ function topicMastered(key) {
 
           <!-- Edge case: paid but did not click e-mail link -->
           <details v-if="backendOn && !showActivationPanel" class="premium-flow-manual">
-            <summary>Schon bezahlt, aber keinen Link bekommen?</summary>
-            <p class="premium-flow__hint">
-              Fordere hier einen Login-Link an und gib danach den Code aus der Kauf-E-Mail ein.
-            </p>
+            <summary>{{ t('premium.manualTitle') }}</summary>
+            <p class="premium-flow__hint">{{ t('premium.manualHint') }}</p>
             <input
               v-model="accountEmail"
               type="email"
               class="premium-flow__input"
-              placeholder="deine@email.de"
+              :placeholder="t('common.emailPlaceholder')"
             />
             <button
               type="button"
@@ -768,7 +760,7 @@ function topicMastered(key) {
               :disabled="magicSubmitting"
               @click="submitMagicLink"
             >
-              {{ magicSubmitting ? 'Wird gesendet…' : '📧 Login-Link senden' }}
+              {{ magicSubmitting ? t('common.sending') : t('premium.sendLoginLink') }}
             </button>
             <div
               v-if="magicStatus.text"
@@ -780,17 +772,15 @@ function topicMastered(key) {
           </details>
 
           <details v-if="backendOn && !focusBasis" class="premium-flow-trial">
-            <summary>🎁 1 Tag gratis testen</summary>
+            <summary>{{ t('premium.trial') }}</summary>
             <p class="premium-flow__hint">
               <template v-if="isLoggedIn">
-                Trial-Code wird an <strong>{{ auth.email }}</strong> gesendet.
+                {{ t('premium.trialLoggedIn', { email: auth.email }) }}
               </template>
               <template v-else-if="emailForCheckout">
-                Trial-Code wird an <strong>{{ emailForCheckout }}</strong> gesendet.
+                {{ t('premium.trialEmail', { email: emailForCheckout }) }}
               </template>
-              <template v-else>
-                Gib oben deine E-Mail ein.
-              </template>
+              <template v-else>{{ t('premium.trialEnterEmail') }}</template>
             </p>
             <button
               type="button"
@@ -798,7 +788,7 @@ function topicMastered(key) {
               :disabled="trialSubmitting"
               @click="submitTrial"
             >
-              {{ trialSubmitting ? 'Wird angefordert…' : 'Gratis-Code anfordern' }}
+              {{ trialSubmitting ? t('premium.trialRequesting') : t('premium.trialRequest') }}
             </button>
             <div
               v-if="trialStatus.text"
@@ -834,7 +824,7 @@ function topicMastered(key) {
                   letter-spacing: 0.5px;
                 "
               >
-                Dein Streak
+                {{ t('premium.streakTitle') }}
               </span>
             </div>
             <div
@@ -850,7 +840,7 @@ function topicMastered(key) {
                   {{ streak.currentStreak }}
                 </div>
                 <div class="small-note" style="text-transform: uppercase;">
-                  Tage aktuell
+                  {{ t('premium.streakCurrent') }}
                 </div>
               </div>
               <div style="text-align: center; flex: 1;">
@@ -858,7 +848,7 @@ function topicMastered(key) {
                   {{ streak.longestStreak }}
                 </div>
                 <div class="small-note" style="text-transform: uppercase;">
-                  Rekord 🏆
+                  {{ t('premium.streakRecord') }}
                 </div>
               </div>
               <div style="text-align: center; flex: 1;">
@@ -866,12 +856,12 @@ function topicMastered(key) {
                   {{ streak.freezes }}
                 </div>
                 <div class="small-note" style="text-transform: uppercase;">
-                  Freezes
+                  {{ t('premium.streakFreezes') }}
                 </div>
               </div>
             </div>
             <div style="text-align: center;">
-              <span class="small-note" style="margin-right: 8px;">🏅 Medaillen:</span>
+              <span class="small-note" style="margin-right: 8px;">🏅 {{ t('premium.medals') }}</span>
               <span style="font-size: 22px; letter-spacing: 6px;">
                 {{ medalsFor(streak.longestStreak) }}
               </span>
@@ -908,18 +898,22 @@ function topicMastered(key) {
                 <div class="small-note">
                   ⭐ {{ xp.totalXP }} XP
                   <template v-if="liveLevel.next">
-                    · noch {{ liveLevel.next - xp.totalXP }} XP bis Lv{{
-                      liveLevel.num + 1
+                    ·
+                    {{
+                      t('premium.xpUntil', {
+                        xp: liveLevel.next - xp.totalXP,
+                        level: liveLevel.num + 1,
+                      })
                     }}
                   </template>
-                  <template v-else>· Max. Level!</template>
+                  <template v-else>· {{ t('premium.maxLevel') }}</template>
                 </div>
               </div>
             </div>
           </div>
 
           <div style="margin-top: 18px;">
-            <div style="font-weight: 900; margin-bottom: 10px;">Niveau wählen</div>
+            <div style="font-weight: 900; margin-bottom: 10px;">{{ t('premium.chooseLevel') }}</div>
             <div class="level-grid">
               <button
                 v-for="lvl in ['A1', 'A2', 'B1', 'B2']"
@@ -935,14 +929,14 @@ function topicMastered(key) {
           </div>
 
           <div style="margin-top: 18px;">
-            <div style="font-weight: 900; margin-bottom: 10px;">Themen</div>
+            <div style="font-weight: 900; margin-bottom: 10px;">{{ t('premium.topicsHeading') }}</div>
             <div class="topic-grid">
               <button
-                v-for="t in topics"
-                :key="t.key"
+                v-for="topicItem in topics"
+                :key="topicItem.key"
                 type="button"
                 class="topic-btn"
-                @click="trainTopic(t.key)"
+                @click="trainTopic(topicItem.key)"
               >
                 <div
                   style="
@@ -953,8 +947,8 @@ function topicMastered(key) {
                   "
                 >
                   <div class="topic-name">
-                    {{ t.name }}
-                    <span v-if="topicMastered(t.key)" style="margin-left: 4px;">✅</span>
+                    {{ topicItem.name }}
+                    <span v-if="topicMastered(topicItem.key)" style="margin-left: 4px;">✅</span>
                   </div>
                   <div
                     style="
@@ -967,17 +961,17 @@ function topicMastered(key) {
                       border-radius: 20px;
                     "
                   >
-                    {{ questionCount(t.key) }} Fragen
+                    {{ t('premium.questionsCount', { count: questionCount(topicItem.key) }) }}
                   </div>
                 </div>
-                <div class="topic-desc">{{ t.desc }}</div>
+                <div class="topic-desc">{{ topicItem.desc }}</div>
               </button>
             </div>
           </div>
 
           <div style="margin-top: 18px; text-align: center;">
             <button class="soft-btn" type="button" @click="deactivate">
-              Premium deaktivieren
+              {{ t('premium.deactivateBtn') }}
             </button>
           </div>
         </div>
@@ -989,7 +983,7 @@ function topicMastered(key) {
             style="max-width: 200px; margin: 0 auto;"
             @click="router.push({ name: 'landing' })"
           >
-            ← Zurück
+            {{ t('premium.back') }}
           </button>
         </div>
       </div>

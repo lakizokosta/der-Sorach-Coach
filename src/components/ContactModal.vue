@@ -1,22 +1,16 @@
 <script setup>
 /**
- * ContactModal — a simple contact form rendered inside a modal overlay.
- *
- * Submits to the Apps Script `sendContactForm` endpoint when a
- * backend URL is configured (see `src/data/payment.js`). With no
- * backend configured, the form falls back to a local confirmation so
- * the SPA stays usable offline.
- *
- * Emits:
- *   - 'close' — when the user clicks the × button or the backdrop.
+ * ContactModal — contact form in a modal overlay.
  */
 
 import { ref } from 'vue';
 import { hasBackend, sendContactForm } from '@/utils/api.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { loadString, saveString } from '@/composables/useStorage.js';
+import { useI18n } from '@/i18n/index.js';
 
 const emit = defineEmits(['close']);
+const { t } = useI18n();
 
 const { isPremium } = usePremium();
 
@@ -27,25 +21,20 @@ const message = ref('');
 const status = ref({ text: '', color: '#888' });
 const submitting = ref(false);
 
-/**
- * Validates the form and submits it. When `SCRIPT_URL` is set, the
- * payload is POSTed to the Apps Script; otherwise a local "demo"
- * confirmation is shown.
- */
 async function submit() {
   if (submitting.value) return;
   if (!message.value.trim()) {
-    status.value = { text: 'Bitte gib eine Nachricht ein.', color: '#ed4545' };
+    status.value = { text: t('contact.errEmptyMessage'), color: '#ed4545' };
     return;
   }
   submitting.value = true;
-  status.value = { text: 'Wird gesendet…', color: '#888' };
+  status.value = { text: t('common.sending'), color: '#888' };
   const trimmedEmail = email.value.trim();
   if (trimmedEmail) saveString(USER_EMAIL_KEY, trimmedEmail);
 
   if (!hasBackend()) {
     setTimeout(() => {
-      status.value = { text: '✔ Nachricht gesendet (Demo).', color: '#69c43b' };
+      status.value = { text: t('contact.sentDemo'), color: '#69c43b' };
       finishAndClose();
     }, 600);
     return;
@@ -61,17 +50,16 @@ async function submit() {
   submitting.value = false;
 
   if (res && res.ok) {
-    status.value = { text: '✔ Nachricht gesendet. Danke!', color: '#69c43b' };
+    status.value = { text: t('contact.sentOk'), color: '#69c43b' };
     finishAndClose();
   } else {
     status.value = {
-      text: `✖ ${(res && res.error) || 'Senden fehlgeschlagen.'}`,
+      text: `✖ ${(res && res.error) || t('contact.errSend')}`,
       color: '#ed4545',
     };
   }
 }
 
-/** Clears the form and closes the modal after a short delay. */
 function finishAndClose() {
   submitting.value = false;
   setTimeout(() => {
@@ -82,7 +70,6 @@ function finishAndClose() {
   }, 1500);
 }
 
-/** Closes the modal when the click target is the backdrop itself. */
 function backdropClick(event) {
   if (event.target === event.currentTarget) emit('close');
 }
@@ -99,10 +86,10 @@ function backdropClick(event) {
           margin-bottom: 20px;
         "
       >
-        <h3 style="margin: 0; color: #AB4DBB; font-size: 20px;">📧 Kontakt</h3>
+        <h3 style="margin: 0; color: #AB4DBB; font-size: 20px;">{{ t('contact.title') }}</h3>
         <button
           type="button"
-          aria-label="Schließen"
+          :aria-label="t('contact.close')"
           @click="$emit('close')"
           style="
             background: none;
@@ -116,9 +103,9 @@ function backdropClick(event) {
         </button>
       </div>
 
-      <input v-model="name" type="text" placeholder="Dein Name" />
-      <input v-model="email" type="email" placeholder="Deine Email-Adresse" />
-      <textarea v-model="message" placeholder="Deine Nachricht..." rows="4" />
+      <input v-model="name" type="text" :placeholder="t('contact.name')" />
+      <input v-model="email" type="email" :placeholder="t('contact.email')" />
+      <textarea v-model="message" :placeholder="t('contact.message')" rows="4" />
 
       <button
         type="button"
@@ -137,7 +124,7 @@ function backdropClick(event) {
         "
         :style="submitting ? 'opacity: 0.6; cursor: progress;' : ''"
       >
-        {{ submitting ? 'Wird gesendet…' : 'Nachricht senden' }}
+        {{ submitting ? t('common.sending') : t('contact.submit') }}
       </button>
 
       <div
@@ -153,7 +140,7 @@ function backdropClick(event) {
       </div>
 
       <p style="font-size: 11px; color: #999; margin-top: 16px; text-align: center;">
-        Wir antworten in der Regel innerhalb von 24 Stunden.
+        {{ t('contact.responseTime') }}
       </p>
     </div>
   </div>

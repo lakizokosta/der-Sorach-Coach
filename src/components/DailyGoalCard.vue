@@ -3,13 +3,23 @@
  * DailyGoalCard — today's question target; tap opens detail modal (XP & missions).
  */
 
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 
 import { useDailyGoal } from '@/composables/useDailyGoal.js';
 import DailyGoalDetailModal from '@/components/DailyGoalDetailModal.vue';
+import { useI18n } from '@/i18n/index.js';
 
 const { goal, todayCount, isMet, progressPct } = useDailyGoal();
+const { t } = useI18n();
 const showDetail = ref(false);
+
+const hintText = computed(() => {
+  if (isMet.value) return t('dailyGoal.hintDone');
+  const remaining = goal - todayCount.value;
+  return remaining === 1
+    ? t('dailyGoal.hintOne', { count: remaining })
+    : t('dailyGoal.hintMany', { count: remaining });
+});
 
 function openDetail() {
   showDetail.value = true;
@@ -26,16 +36,18 @@ function closeDetail() {
     :class="{ 'daily-goal--met': isMet }"
     role="button"
     tabindex="0"
-    aria-label="Tagesziel — Details anzeigen"
+    :aria-label="t('common.tapForDetails')"
     @click="openDetail"
     @keydown.enter.prevent="openDetail"
     @keydown.space.prevent="openDetail"
   >
     <div class="daily-goal__row">
       <span class="daily-goal__title">
-        {{ isMet ? '✅ Tagesziel geschafft!' : '🎯 Heutiges Ziel' }}
+        {{ isMet ? t('dailyGoal.titleDone') : t('dailyGoal.title') }}
       </span>
-      <span class="daily-goal__count">{{ todayCount }} / {{ goal }} Fragen</span>
+      <span class="daily-goal__count">
+        {{ t('dailyGoal.count', { today: todayCount, goal }) }}
+      </span>
     </div>
 
     <div
@@ -48,13 +60,7 @@ function closeDetail() {
       <div class="daily-goal__fill" :style="{ width: `${progressPct}%` }" />
     </div>
 
-    <p class="daily-goal__hint">
-      {{
-        isMet
-          ? 'Super — dein Streak ist gesichert. Tippe für Bonus & XP-Infos.'
-          : `Noch ${goal - todayCount} Frage${goal - todayCount === 1 ? '' : 'n'} bis zum Tagesziel. Tippe für Details.`
-      }}
-    </p>
+    <p class="daily-goal__hint">{{ hintText }}</p>
 
     <Teleport to="body">
       <DailyGoalDetailModal v-if="showDetail" @close="closeDetail" />

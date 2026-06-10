@@ -1,14 +1,16 @@
 <script setup>
-/** Footer links to AGB, Datenschutz and Impressum. */
+import { useI18n } from '@/i18n/index.js';
+
+const { t } = useI18n();
 </script>
 
 <template>
   <footer class="legal-footer">
     <div class="legal-footer__links">
-      <router-link :to="{ name: 'legal', params: { slug: 'agb' } }">AGB</router-link>
-      <router-link :to="{ name: 'legal', params: { slug: 'datenschutz' } }">Datenschutz</router-link>
-      <router-link :to="{ name: 'legal', params: { slug: 'impressum' } }">Impressum</router-link>
+      <router-link :to="{ name: 'legal', params: { slug: 'agb' } }">{{ t('common.agb') }}</router-link>
+      <router-link :to="{ name: 'legal', params: { slug: 'datenschutz' } }">{{ t('common.privacy') }}</router-link>
+      <router-link :to="{ name: 'legal', params: { slug: 'impressum' } }">{{ t('common.imprint') }}</router-link>
     </div>
-    <div class="legal-footer__copy">© 2026 Lernziel Deutsch | Der SprachCoach</div>
+    <div class="legal-footer__copy">{{ t('common.copyright') }}</div>
   </footer>
 </template>
