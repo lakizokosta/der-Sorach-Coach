@@ -4,7 +4,7 @@
  *
  * Reads `level` and (optionally) `topic` + `mode` from the route query
  * and drives the user through a varied queue of questions. Tracks live
- * score, drives the timer (5 min cap in free mode, count-up otherwise)
+ * score, drives the timer (7 min cap in free mode, count-up otherwise)
  * and renders a final result screen with mastery + topic feedback.
  *
  * Route examples:
@@ -94,6 +94,8 @@ const sessionStreak = ref(0);             // consecutive correct answers this se
 /** @type {import('vue').Ref<Record<string, { correct: number, total: number }>>} */
 const placementScores = ref({});
 const placementDetectedLevel = ref('');
+/** Why the session ended — e.g. `Zeit abgelaufen` when free daily limit hits. */
+const finishReason = ref('');
 
 /** Short-lived toast after each answer (+XP, level-up, mastery). */
 const microFeedback = ref({ visible: false, lines: [], tone: 'good' });
@@ -475,8 +477,9 @@ function trainAtDetectedLevel() {
  *
  * @param {string} reason  Reason label used in some result screens.
  */
-function finish(_reason) {
+function finish(reason) {
   if (finished.value) return;
+  finishReason.value = reason || '';
   persistFreeTimeUsed();
   finished.value = true;
   timer.stop();
@@ -536,6 +539,10 @@ const placementBreakdownRows = computed(() =>
   placementMode && placementDetectedLevel.value
     ? placementBreakdown(placementScores.value)
     : [],
+);
+
+const freeTimeExpired = computed(
+  () => finishReason.value === 'Zeit abgelaufen' && !isPrem.value && !isBasis.value,
 );
 
 /**
@@ -645,21 +652,54 @@ watch(lastAnswerResolved, (resolved) => {
         "
       >
         <div style="font-size: 48px; margin-bottom: 8px;">
-          {{ placementDetectedLevel ? '🎯' : scorePct >= 80 ? '🏆' : scorePct >= 60 ? '💪' : '📚' }}
+          {{
+            freeTimeExpired
+              ? '⏱️'
+              : placementDetectedLevel
+                ? '🎯'
+                : scorePct >= 80
+                  ? '🏆'
+                  : scorePct >= 60
+                    ? '💪'
+                    : '📚'
+          }}
         </div>
         <div style="font-size: 22px; font-weight: 900;">
           {{
-            placementDetectedLevel
-              ? `Dein Niveau: ${placementDetectedLevel}`
-              : scorePct >= 80
-                ? t('trainer.excellent')
-                : scorePct >= 60
-                  ? t('trainer.goodJob')
-                  : t('trainer.keepPracticing')
+            freeTimeExpired
+              ? t('trainer.freeTimeExpiredTitle')
+              : placementDetectedLevel
+                ? `Dein Niveau: ${placementDetectedLevel}`
+                : scorePct >= 80
+                  ? t('trainer.excellent')
+                  : scorePct >= 60
+                    ? t('trainer.goodJob')
+                    : t('trainer.keepPracticing')
           }}
         </div>
-        <div style="font-size: 14px; color: #888; margin: 8px 0 20px;">
-          {{ placementDetectedLevel ? 'Niveau-Test abgeschlossen' : 'Session beendet' }}
+        <div
+          v-if="freeTimeExpired"
+          class="trainer-free-limit-msg"
+          style="
+            margin: 12px 0 20px;
+            padding: 14px 16px;
+            background: #fff8e1;
+            border: 1.5px solid #ffcc80;
+            border-radius: 14px;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 1.45;
+            color: #e65100;
+            text-align: center;
+          "
+        >
+          {{ t('trainer.freeTimeExpiredMessage') }}
+        </div>
+        <div
+          v-else
+          style="font-size: 14px; color: #888; margin: 8px 0 20px;"
+        >
+          {{ placementDetectedLevel ? 'Niveau-Test abgeschlossen' : t('trainer.sessionEnded') }}
         </div>
 
         <div

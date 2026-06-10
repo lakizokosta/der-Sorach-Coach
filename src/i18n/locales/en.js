@@ -35,7 +35,7 @@ export default {
   },
   landing: {
     title: 'Der SprachCoach',
-    subtitle: 'Speak German like a pro — 5 minutes a day is enough.',
+    subtitle: 'Speak German like a pro — 7 minutes a day is enough.',
     slogan: 'Your trainer for every situation',
     freeStart: '✨ Start free · No sign-up required',
     levelA1: 'Beginner',
@@ -65,7 +65,7 @@ export default {
       grammarTips: 'Grammar tips',
       streakFreeze: 'Streak freeze',
       dictionary: 'Word dictionary',
-      freeLimit: '5 min',
+      freeLimit: '7 min',
     },
     sectionStart: 'Start and plans',
     sectionDashboard: 'Login and progress',
@@ -237,6 +237,10 @@ export default {
     placementLabel: 'Level test · {count} questions (A1→B2)',
     questionsLabel: 'Questions',
     finishEarly: 'Out of questions',
+    freeTimeExpiredTitle: '⏱️ Free minutes used up',
+    freeTimeExpiredMessage:
+      'Your 7 free minutes for today are used up — come back tomorrow!',
+    sessionEnded: 'Session ended',
   },
   dailyGoal: {
     title: '🎯 Today’s goal',

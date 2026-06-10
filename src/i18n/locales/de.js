@@ -35,7 +35,7 @@ export default {
   },
   landing: {
     title: 'Der SprachCoach',
-    subtitle: 'Deutsch sprechen wie ein Profi — 5 Minuten täglich reichen.',
+    subtitle: 'Deutsch sprechen wie ein Profi — 7 Minuten täglich reichen.',
     slogan: 'Dein Trainer für alle Fälle',
     freeStart: '✨ Kostenlos starten · Keine Anmeldung nötig',
     levelA1: 'Anfänger',
@@ -65,7 +65,7 @@ export default {
       grammarTips: 'Grammatik-Tipps',
       streakFreeze: 'Streak Freeze',
       dictionary: 'Wort-Wörterbuch',
-      freeLimit: '5 Min',
+      freeLimit: '7 Min',
     },
     sectionStart: 'Starten und Tarife',
     sectionDashboard: 'Login und Fortschritt',
@@ -240,6 +240,10 @@ export default {
     placementLabel: 'Niveau-Test · {count} Fragen (A1→B2)',
     questionsLabel: 'Fragen',
     finishEarly: 'Fragen zu Ende',
+    freeTimeExpiredTitle: '⏱️ Gratis-Minuten aufgebraucht',
+    freeTimeExpiredMessage:
+      'Deine 7 Gratis-Minuten für heute sind verbraucht — komm morgen wieder!',
+    sessionEnded: 'Session beendet',
   },
   dailyGoal: {
     title: '🎯 Heutiges Ziel',

@@ -35,7 +35,7 @@ export default {
   },
   landing: {
     title: 'Der SprachCoach',
-    subtitle: 'Немецкий как у профи — достаточно 5 минут в день.',
+    subtitle: 'Немецкий как у профи — достаточно 7 минут в день.',
     slogan: 'Твой тренер на все случаи',
     freeStart: '✨ Начни бесплатно · Регистрация не нужна',
     levelA1: 'Начинающий',
@@ -65,7 +65,7 @@ export default {
       grammarTips: 'Грамматика',
       streakFreeze: 'Streak Freeze',
       dictionary: 'Словарь',
-      freeLimit: '5 мин',
+      freeLimit: '7 мин',
     },
     sectionStart: 'Старт и тарифы',
     sectionDashboard: 'Вход и прогресс',
@@ -237,6 +237,10 @@ export default {
     placementLabel: 'Тест уровня · {count} вопросов (A1→B2)',
     questionsLabel: 'Вопросов',
     finishEarly: 'Вопросы закончились',
+    freeTimeExpiredTitle: '⏱️ Бесплатные минуты закончились',
+    freeTimeExpiredMessage:
+      'Твои бесплатные 7 минут на сегодня истекли — приходи завтра!',
+    sessionEnded: 'Сессия завершена',
   },
   dailyGoal: {
     title: '🎯 Цель на сегодня',

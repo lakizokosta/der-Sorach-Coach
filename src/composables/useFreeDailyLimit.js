@@ -1,5 +1,5 @@
 /**
- * @fileoverview Free-mode daily time budget (5 minutes per calendar day).
+ * @fileoverview Free-mode daily time budget (7 minutes per calendar day).
  *
  * Stored in localStorage keyed by ISO date so the limit is shared across
  * tabs on the same device — unlike the old sessionStorage approach.
@@ -8,7 +8,7 @@
 import { loadJSON, saveJSON } from './useStorage.js';
 
 const KEY = 'lzd_free_daily';
-export const FREE_SECONDS_PER_DAY = 300;
+export const FREE_SECONDS_PER_DAY = 420;
 
 function todayISO() {
   return new Date().toISOString().split('T')[0];
