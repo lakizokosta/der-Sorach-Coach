@@ -12,6 +12,8 @@
 
 import { computed, nextTick, onMounted, ref } from 'vue';
 import { wrapWordsForDictionary } from '@/utils/dictionary.js';
+import { resolveSpatialScene } from '@/utils/prepositionSpatial.js';
+import PrepositionSpatialHint from '@/components/PrepositionSpatialHint.vue';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -28,6 +30,8 @@ const inputRef = ref(null);
 
 const parts = (props.question.prompt || '').split('___');
 const acceptable = (props.question.correct || []).map((s) => String(s).toLowerCase());
+
+const spatialScene = computed(() => resolveSpatialScene(props.question));
 
 const partLeftHtml = computed(() =>
   props.premium ? wrapWordsForDictionary(parts[0] || '') : escapeHtml(parts[0] || ''),
@@ -118,6 +122,7 @@ const inputClass = computed(() => ({
 
 <template>
   <div>
+    <PrepositionSpatialHint v-if="spatialScene" :scene="spatialScene" />
     <div class="question-box">Fülle die Lücke aus:</div>
 
     <div class="fill-sentence">

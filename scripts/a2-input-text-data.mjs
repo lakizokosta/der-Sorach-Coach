@@ -438,6 +438,7 @@ const BANK_RAW = {
     ['Gehen Sie dann ___ den Stadtpark. (Lokalpräposition + Akk.)', 'durch'],
     ['Das Hotel liegt direkt ___ dem Bahnhof. (Lokalpräposition)', 'gegenüber'],
     ['Ihr kommt ___ dem Hotel. (Lokalpräposition)', 'aus'],
+    ['Vom Eingang der Mall aus: Die Apotheke ist ___ . (Lokalpräposition)', 'auf der rechten Seite'],
   ],
 
   'N-DEKLINATION': [

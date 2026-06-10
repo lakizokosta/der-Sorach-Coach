@@ -2,7 +2,7 @@
 id: a2-lokal-in-032
 type: input-text
 correct:
-  - durch
+  - über
 ---
 
-Gehen Sie dann ___ den Stadtpark. (Lokalpräposition + Akk.)
+Wir gehen ___ die Straße. (Lokalpräposition + Akk.)

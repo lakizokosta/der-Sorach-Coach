@@ -2,7 +2,7 @@
 id: a2-lokal-in-020
 type: input-text
 correct:
-  - über
+  - neben
 ---
 
-Geh ___ die Brücke! (Lokalpräposition + Akk.)
+Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition)

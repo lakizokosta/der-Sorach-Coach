@@ -2,7 +2,7 @@
 id: a2-lokal-in-022
 type: input-text
 correct:
-  - vor
+  - hinter
 ---
 
-Wir warten ___ dem Eingang. (Lokalpräposition)
+Vom Bahnhofsplatz aus sieht man das Hotel nicht — es liegt ___ dem Bahnhof. (Lokalpräposition)

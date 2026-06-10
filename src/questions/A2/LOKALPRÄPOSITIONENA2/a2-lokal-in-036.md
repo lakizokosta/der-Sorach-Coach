@@ -2,7 +2,7 @@
 id: a2-lokal-in-036
 type: input-text
 correct:
-  - neben
+  - auf der rechten Seite
 ---
 
-Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition)
+Vom Eingang der Mall aus: Die Apotheke ist ___ . (Lokalpräposition)

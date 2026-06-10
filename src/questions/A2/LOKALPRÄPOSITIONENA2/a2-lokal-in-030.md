@@ -2,7 +2,7 @@
 id: a2-lokal-in-030
 type: input-text
 correct:
-  - neben
+  - unter
 ---
 
-Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter. (Lokalpräposition)
+Der Hund liegt ___ dem Tisch. (Lokalpräposition)

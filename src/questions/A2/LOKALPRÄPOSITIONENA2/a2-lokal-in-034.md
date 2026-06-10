@@ -2,7 +2,7 @@
 id: a2-lokal-in-034
 type: input-text
 correct:
-  - aus
+  - gegenüber
 ---
 
-Ihr kommt ___ dem Hotel. (Lokalpräposition)
+Das Hotel liegt direkt ___ dem Bahnhof. (Lokalpräposition)

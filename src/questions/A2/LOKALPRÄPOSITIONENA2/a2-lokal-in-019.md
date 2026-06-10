@@ -2,7 +2,7 @@
 id: a2-lokal-in-019
 type: input-text
 correct:
-  - neben
+  - gegenüber
 ---
 
-Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition)
+Auf derselben Straße, Schaufenster gegen Schaufenster: Die Bank ist ___ der Post. (Lokalpräposition)

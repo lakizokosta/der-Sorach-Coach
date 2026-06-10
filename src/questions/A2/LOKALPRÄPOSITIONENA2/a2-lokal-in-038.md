@@ -2,7 +2,7 @@
 id: a2-lokal-in-038
 type: input-text
 correct:
-  - hinter
+  - neben
 ---
 
-Vom Bahnhofsplatz aus sieht man das Hotel nicht — es liegt ___ dem Bahnhof. (Lokalpräposition)
+Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition)

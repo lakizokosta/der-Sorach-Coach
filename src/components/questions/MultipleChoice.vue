@@ -26,6 +26,8 @@
 import { computed, ref, onMounted } from 'vue';
 import { shuffle } from '@/utils/random.js';
 import { wrapWordsForDictionary } from '@/utils/dictionary.js';
+import { resolveSpatialScene } from '@/utils/prepositionSpatial.js';
+import PrepositionSpatialHint from '@/components/PrepositionSpatialHint.vue';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -50,6 +52,8 @@ const renderedPrompt = computed(() =>
 );
 
 const correctValue = computed(() => String(props.question.correct ?? '').trim());
+
+const spatialScene = computed(() => resolveSpatialScene(props.question));
 
 /**
  * Returns true iff `option` matches the declared correct answer. The
@@ -118,6 +122,7 @@ function classFor(option) {
 
 <template>
   <div>
+    <PrepositionSpatialHint v-if="spatialScene" :scene="spatialScene" />
     <div class="question-box" v-html="renderedPrompt" />
 
     <div class="answers-box">

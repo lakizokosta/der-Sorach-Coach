@@ -2,7 +2,7 @@
 id: a2-lokal-in-023
 type: input-text
 correct:
-  - zwischen
+  - vor
 ---
 
-Das Geschäft ist ___ zwei Häusern. (Lokalpräposition)
+Wir warten ___ dem Eingang. (Lokalpräposition)

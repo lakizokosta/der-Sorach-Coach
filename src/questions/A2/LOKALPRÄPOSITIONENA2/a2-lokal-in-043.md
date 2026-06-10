@@ -2,7 +2,7 @@
 id: a2-lokal-in-043
 type: input-text
 correct:
-  - auf
+  - durch
 ---
 
-Das Büro ist ___ der zweiten Etage. (Lokalpräposition)
+Fahren Sie ___ den Tunnel! (Lokalpräposition + Akk.)

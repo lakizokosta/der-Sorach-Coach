@@ -2,7 +2,7 @@
 id: a2-lokal-in-028
 type: input-text
 correct:
-  - über
+  - auf
 ---
 
-Das Bild hängt ___ der Tür. (Lokalpräposition)
+Wir treffen uns ___ dem Platz. (Lokalpräposition)

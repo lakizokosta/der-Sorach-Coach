@@ -9,4 +9,4 @@ options:
 correct: auf der rechten Seite
 ---
 
-Die Apotheke ist ___ rechts.
+Vom Eingang der Mall aus: Die Apotheke ist ___ .

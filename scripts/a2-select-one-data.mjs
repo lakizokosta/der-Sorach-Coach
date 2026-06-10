@@ -571,7 +571,7 @@ export function genLokal() {
     ['Der Hund liegt ___ dem Tisch.', 'unter', ['über', 'neben', 'hinter', 'vor']],
     ['Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter.', 'neben', ['gegenüber', 'hinter', 'vor', 'zwischen']],
     ['Wir gehen ___ die Straße.', 'über', ['unter', 'neben', 'hinter', 'durch']],
-    ['Die Apotheke ist ___ rechts.', 'auf der rechten Seite', ['links', 'geradeaus', 'hinten', 'vorne']],
+    ['Vom Eingang der Mall aus: Die Apotheke ist ___ .', 'auf der rechten Seite', ['auf der linken Seite', 'geradeaus', 'hinten', 'vorne']],
   ];
   return ensure50(() => {
     const out = [];

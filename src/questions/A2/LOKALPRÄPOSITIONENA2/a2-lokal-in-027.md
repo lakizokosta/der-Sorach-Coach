@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Wir treffen uns ___ dem Platz. (Lokalpräposition)
+Das Büro ist ___ der zweiten Etage. (Lokalpräposition)

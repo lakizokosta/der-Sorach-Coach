@@ -2,7 +2,7 @@
 id: a2-lokal-in-024
 type: input-text
 correct:
-  - durch
+  - zwischen
 ---
 
-Fahren Sie ___ den Tunnel! (Lokalpräposition + Akk.)
+Das Geschäft ist ___ zwei Häusern. (Lokalpräposition)

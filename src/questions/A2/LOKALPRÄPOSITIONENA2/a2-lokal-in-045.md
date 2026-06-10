@@ -2,7 +2,7 @@
 id: a2-lokal-in-045
 type: input-text
 correct:
-  - über
+  - auf
 ---
 
-Das Bild hängt ___ der Tür. (Lokalpräposition)
+Das Büro ist ___ der zweiten Etage. (Lokalpräposition)

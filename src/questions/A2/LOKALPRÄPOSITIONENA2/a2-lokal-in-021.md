@@ -2,7 +2,7 @@
 id: a2-lokal-in-021
 type: input-text
 correct:
-  - hinter
+  - über
 ---
 
-Vom Bahnhofsplatz aus sieht man das Hotel nicht — es liegt ___ dem Bahnhof. (Lokalpräposition)
+Geh ___ die Brücke! (Lokalpräposition + Akk.)

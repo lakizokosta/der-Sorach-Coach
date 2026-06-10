@@ -2,7 +2,7 @@
 id: a2-lokal-in-037
 type: input-text
 correct:
-  - über
+  - gegenüber
 ---
 
-Geh ___ die Brücke! (Lokalpräposition + Akk.)
+Auf derselben Straße, Schaufenster gegen Schaufenster: Die Bank ist ___ der Post. (Lokalpräposition)

@@ -2,7 +2,7 @@
 id: a2-lokal-in-041
 type: input-text
 correct:
-  - durch
+  - vor
 ---
 
-Fahren Sie ___ den Tunnel! (Lokalpräposition + Akk.)
+Wir warten ___ dem Eingang. (Lokalpräposition)

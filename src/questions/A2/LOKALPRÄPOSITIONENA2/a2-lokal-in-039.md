@@ -2,7 +2,7 @@
 id: a2-lokal-in-039
 type: input-text
 correct:
-  - vor
+  - über
 ---
 
-Wir warten ___ dem Eingang. (Lokalpräposition)
+Geh ___ die Brücke! (Lokalpräposition + Akk.)

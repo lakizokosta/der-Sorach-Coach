@@ -2,7 +2,7 @@
 id: a2-lokal-in-029
 type: input-text
 correct:
-  - unter
+  - über
 ---
 
-Der Hund liegt ___ dem Tisch. (Lokalpräposition)
+Das Bild hängt ___ der Tür. (Lokalpräposition)

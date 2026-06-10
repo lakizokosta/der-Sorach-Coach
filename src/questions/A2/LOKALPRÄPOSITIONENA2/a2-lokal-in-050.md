@@ -2,7 +2,7 @@
 id: a2-lokal-in-050
 type: input-text
 correct:
-  - gegenüber
+  - über
 ---
 
-Das Hotel liegt direkt ___ dem Bahnhof. (Lokalpräposition)
+Wir gehen ___ die Straße. (Lokalpräposition + Akk.)

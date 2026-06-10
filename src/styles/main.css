@@ -172,6 +172,49 @@ button { font-family: inherit; }
   max-width: 980px;
   margin: 0 auto 14px auto;
 }
+
+/* Isometric cube hint for local prepositions */
+.preposition-spatial-hint {
+  max-width: 200px;
+  margin: 0 auto 12px auto;
+  text-align: center;
+}
+.preposition-spatial-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.cube-face {
+  stroke: #ab4dbb;
+  stroke-width: 1.2;
+  stroke-linejoin: round;
+}
+.cube-top   { fill: #f3e8f8; }
+.cube-left  { fill: #dcc8e8; }
+.cube-right { fill: #e8d4f0; }
+.spatial-ball {
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.35));
+}
+.spatial-path {
+  fill: none;
+  stroke: #ab4dbb;
+  stroke-width: 1.5;
+  stroke-dasharray: 4 3;
+  opacity: 0.65;
+}
+.preposition-spatial-badge {
+  margin: 6px 0 0;
+  font-size: 11px;
+  font-weight: 700;
+  color: #7b2fa3;
+  letter-spacing: 0.02em;
+}
+.preposition-spatial-caption {
+  margin: 2px 0 0;
+  font-size: 11px;
+  color: #888;
+  font-style: italic;
+}
 .answers-box { max-width: 980px; margin: 0 auto; }
 .answer-btn  {
   width: 100%;

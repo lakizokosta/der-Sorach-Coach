@@ -3,10 +3,10 @@ id: a2-lokal-015
 type: select-one
 options:
   - geradeaus
-  - links
+  - auf der linken Seite
   - auf der rechten Seite
   - vorne
 correct: auf der rechten Seite
 ---
 
-Die Apotheke ist ___ rechts.
+Vom Eingang der Mall aus: Die Apotheke ist ___ .

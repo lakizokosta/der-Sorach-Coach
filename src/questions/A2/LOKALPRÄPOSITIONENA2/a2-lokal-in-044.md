@@ -2,7 +2,7 @@
 id: a2-lokal-in-044
 type: input-text
 correct:
-  - auf
+  - an
 ---
 
-Wir treffen uns ___ dem Platz. (Lokalpräposition)
+Der Supermarkt ist ___ der Ecke. (Lokalpräposition)

@@ -2,7 +2,7 @@
 id: a2-lokal-in-042
 type: input-text
 correct:
-  - an
+  - zwischen
 ---
 
-Der Supermarkt ist ___ der Ecke. (Lokalpräposition)
+Das Geschäft ist ___ zwei Häusern. (Lokalpräposition)

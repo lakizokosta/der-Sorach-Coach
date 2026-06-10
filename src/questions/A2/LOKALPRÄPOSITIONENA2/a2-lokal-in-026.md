@@ -2,7 +2,7 @@
 id: a2-lokal-in-026
 type: input-text
 correct:
-  - auf
+  - an
 ---
 
-Das Büro ist ___ der zweiten Etage. (Lokalpräposition)
+Der Supermarkt ist ___ der Ecke. (Lokalpräposition)

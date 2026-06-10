@@ -2,7 +2,7 @@
 id: a2-lokal-in-035
 type: input-text
 correct:
-  - gegenüber
+  - aus
 ---
 
-Auf derselben Straße, Schaufenster gegen Schaufenster: Die Bank ist ___ der Post. (Lokalpräposition)
+Ihr kommt ___ dem Hotel. (Lokalpräposition)

@@ -2,7 +2,7 @@
 id: a2-lokal-in-031
 type: input-text
 correct:
-  - über
+  - neben
 ---
 
-Wir gehen ___ die Straße. (Lokalpräposition + Akk.)
+Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter. (Lokalpräposition)
