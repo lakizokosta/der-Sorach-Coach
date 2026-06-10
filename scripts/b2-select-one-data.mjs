@@ -37,7 +37,7 @@ export function genGenitivB2() {
     ['___ einer langen Tradition folgt die Universität diesem Brauch.', 'Aus', ['Von', 'Mit', 'Nach', 'Bei']],
     ['Statt ___ Hilfe lehnte er jede Unterstützung ab.', 'jeder', ['jede', 'jeden', 'jedem', 'jedes']],
     ['Wegen ___ schlechten Wetters wurde das Konzert abgesagt.', 'des', ['der', 'dem', 'den', 'das']],
-    ['___ des Hauses steht ein alter Brunnen.', 'Vor', ['Vom', 'Vor dem', 'Vors', 'Vor die']],
+    ['Unweit ___ Hauses steht ein alter Brunnen.', 'des', ['der', 'dem', 'den', 'die']],
     ['Sie erinnert sich gern ___ Jugend.', 'ihrer', ['ihre', 'ihren', 'ihrem', 'ihres']],
     ['___ aller Erwartungen gelang das Experiment.', 'Entgegen', ['Gegenüber', 'Wegen', 'Trotz', 'Ohne']],
     ['Anlässlich ___ Jubiläums fand eine Feier statt.', 'des', ['der', 'dem', 'den', 'das']],

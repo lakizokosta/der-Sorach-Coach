@@ -11,4 +11,4 @@ words:
   - Kinder
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Während der)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Während der Ferien)

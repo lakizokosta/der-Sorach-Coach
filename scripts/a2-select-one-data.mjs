@@ -417,21 +417,21 @@ export function genPossessiv() {
 
 export function genGenitiv() {
   const items = [
-    ['___ Regens wegen bleiben wir zu Hause.', 'Wegen des', ['Wegen der', 'Wegen dem', 'Wegen den', 'Wegen das']],
-    ['___ Sommers freue ich mich auf Urlaub.', 'Während des', ['Während der', 'Während dem', 'Während den', 'Während das']],
-    ['___ Krankheit wegen fehlt er.', 'Wegen der', ['Wegen des', 'Wegen dem', 'Wegen den', 'Wegen das']],
-    ['___ Unterrichts lerne ich viel.', 'Während des', ['Während der', 'Während dem', 'Während den', 'Während das']],
+    ['Wegen ___ Regens bleiben wir zu Hause.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Während ___ Sommers freue ich mich auf Urlaub.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Wegen ___ Krankheit fehlt er in der Schule.', 'der', ['des', 'dem', 'den', 'das']],
+    ['Während ___ Unterrichts lerne ich viel.', 'des', ['der', 'dem', 'den', 'das']],
     ['Trotz ___ Problems machen wir weiter.', 'des', ['der', 'dem', 'den', 'das']],
     ['Wegen ___ Sturms fällt das Fest aus.', 'des', ['der', 'dem', 'den', 'das']],
-    ['___ ganzen Tages war ich unterwegs.', 'Während des', ['Während der', 'Während dem', 'Während den', 'Während das']],
+    ['Während ___ ganzen Tages war ich unterwegs.', 'des', ['der', 'dem', 'den', 'das']],
     ['Trotz ___ Kälte gehen wir spazieren.', 'der', ['des', 'dem', 'den', 'das']],
     ['Wegen ___ Verspätung verpassten wir den Zug.', 'der', ['des', 'dem', 'den', 'das']],
-    ['___ Prüfung wegen lernt er viel.', 'Wegen der', ['Wegen des', 'Wegen dem', 'Wegen den', 'Wegen das']],
+    ['Wegen ___ Prüfung lernt er viel.', 'der', ['des', 'dem', 'den', 'das']],
     ['Trotz ___ Müdigkeit arbeitet sie weiter.', 'der', ['des', 'dem', 'den', 'das']],
-    ['___ Ferien freuen sich die Kinder.', 'Während der', ['Während des', 'Während dem', 'Während den', 'Während das']],
+    ['Während ___ Ferien freuen sich die Kinder.', 'der', ['des', 'dem', 'den', 'das']],
     ['Wegen ___ Lärms kann ich nicht schlafen.', 'des', ['der', 'dem', 'den', 'das']],
     ['Trotz ___ Preises kaufe ich es.', 'des', ['der', 'dem', 'den', 'das']],
-    ['___ Arbeit wegen ist er müde.', 'Wegen der', ['Wegen des', 'Wegen dem', 'Wegen den', 'Wegen das']],
+    ['Wegen ___ Arbeit ist er müde.', 'der', ['des', 'dem', 'den', 'das']],
   ];
   return ensure50(() => {
     const out = [];

@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Wegen ___ Krankheit wegen fehlt er in der Schule. (Genitiv — die Krankheit)
+Wegen ___ Krankheit fehlt er in der Schule. (Genitiv — die Krankheit)

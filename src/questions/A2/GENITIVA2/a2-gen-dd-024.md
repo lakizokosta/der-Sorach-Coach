@@ -11,4 +11,4 @@ words:
   - unterwegs
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Während des)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Während des Tages)

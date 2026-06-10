@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Wegen ___ Prüfung wegen lernt er viel. (Genitiv — die Prüfung)
+Wegen ___ Prüfung lernt er viel. (Genitiv — die Prüfung)

@@ -3,12 +3,11 @@ id: a2-gen-dd-003
 type: dropbox
 words:
   - Wegen
+  - der
   - Krankheit
   - fehlt
-  - Schüler
+  - er
   - heute
-  - in
-  - Klasse
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen der)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen der Krankheit)

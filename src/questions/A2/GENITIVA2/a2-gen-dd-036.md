@@ -12,4 +12,4 @@ words:
   - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Während des)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Während des Sommers)

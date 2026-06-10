@@ -11,4 +11,4 @@ words:
   - Zug
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — der)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen der Verspätung)

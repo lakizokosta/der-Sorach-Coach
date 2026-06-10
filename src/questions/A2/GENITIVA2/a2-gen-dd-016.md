@@ -9,4 +9,4 @@ words:
   - wir
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — der)
+Ordne die Wörter zum richtigen Satz: (Genitiv — Während der Pause)

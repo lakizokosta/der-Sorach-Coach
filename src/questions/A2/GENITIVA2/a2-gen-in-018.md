@@ -5,4 +5,4 @@ correct:
   - des
 ---
 
-Wegen ___ Regens wegen bleiben wir zu Hause. (Genitiv — der Regen)
+Wegen ___ Regens bleiben wir zu Hause. (Genitiv — der Regen)
