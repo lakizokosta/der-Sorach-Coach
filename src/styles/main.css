@@ -1259,6 +1259,15 @@ button.lesen-gap-marker {
 .niveau-card__cta--upsell {
   background: linear-gradient(135deg, #ab4dbb, #8e24aa);
 }
+.landing-niveau-block {
+  width: 100%;
+  max-width: 360px;
+  margin: 6px auto 8px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
 .landing-cta-stack {
   margin-top: 12px;
   display: flex;
@@ -1281,18 +1290,18 @@ button.lesen-gap-marker {
   gap: 8px;
   width: 100%;
   padding: 14px 18px;
-  border: 2px solid #1e88e5;
+  border: none;
   border-radius: 999px;
-  background: linear-gradient(135deg, #42a5f5, #1e88e5);
-  color: #fff;
+  background: linear-gradient(135deg, #ffd700, #ffb700);
+  color: #000;
   font-size: 16px;
   font-weight: 900;
   cursor: pointer;
-  box-shadow: 0 3px 12px rgba(30, 136, 229, 0.25);
+  box-shadow: 0 3px 12px rgba(255, 183, 0, 0.35);
   transition: opacity 0.15s, transform 0.12s, box-shadow 0.15s;
 }
 .niveau-test-btn:hover:not(.niveau-test-btn--inactive) {
-  box-shadow: 0 4px 16px rgba(30, 136, 229, 0.35);
+  box-shadow: 0 4px 16px rgba(255, 183, 0, 0.45);
 }
 .niveau-test-btn:active:not(.niveau-test-btn--inactive) {
   transform: scale(0.99);

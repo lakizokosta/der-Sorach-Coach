@@ -132,6 +132,29 @@ function onNiveauTestClick() {
       </button>
     </div>
 
+    <div class="landing-niveau-block">
+      <button
+        type="button"
+        class="niveau-test-btn"
+        :class="{ 'niveau-test-btn--inactive': !isPremium }"
+        :aria-disabled="!isPremium"
+        @click="onNiveauTestClick"
+      >
+        <span class="niveau-test-btn__label">
+          📊
+          {{
+            cefrLevel
+              ? `Niveau ${cefrLevel} — erneut testen`
+              : 'Niveau testen (A1–B2)'
+          }}
+        </span>
+        <span v-if="!isPremium" class="niveau-test-btn__badge">💎 Premium</span>
+      </button>
+      <p v-if="!isPremium" class="niveau-test-btn__hint">
+        Personalisierte Tagesaufgaben — mit Premium freischalten.
+      </p>
+    </div>
+
     <div class="free-box">✨ Kostenlos starten · Keine Anmeldung nötig</div>
 
     <div class="level-grid">
@@ -266,27 +289,6 @@ function onNiveauTestClick() {
     </section>
 
     <div class="landing-cta-stack">
-      <button
-        type="button"
-        class="niveau-test-btn"
-        :class="{ 'niveau-test-btn--inactive': !isPremium }"
-        :aria-disabled="!isPremium"
-        @click="onNiveauTestClick"
-      >
-        <span class="niveau-test-btn__label">
-          📊
-          {{
-            cefrLevel
-              ? `Niveau ${cefrLevel} — erneut testen`
-              : 'Niveau testen (A1–B2)'
-          }}
-        </span>
-        <span v-if="!isPremium" class="niveau-test-btn__badge">💎 Premium</span>
-      </button>
-      <p v-if="!isPremium" class="niveau-test-btn__hint">
-        Personalisierte Tagesaufgaben — mit Premium freischalten.
-      </p>
-
       <button
         type="button"
         class="level-card"
