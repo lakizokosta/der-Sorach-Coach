@@ -33,14 +33,41 @@ const cells = computed(() => {
   return out;
 });
 
+const TOTAL_DAYS = 42;
+
 const activeCount = computed(() => cells.value.filter((c) => c.isActive).length);
+
+const progressPct = computed(() =>
+  Math.round((activeCount.value / TOTAL_DAYS) * 100),
+);
+
+const summaryHint = computed(() => {
+  if (activeCount.value === 0) {
+    return 'Noch keine aktiven Tage. Tippe für den 6-Wochen-Kalender.';
+  }
+  return `${activeCount.value} aktive Tage in den letzten 6 Wochen. Tippe für Details.`;
+});
 </script>
 
 <template>
   <details class="activity-calendar">
     <summary class="activity-calendar__summary">
-      <span class="activity-calendar__title">📅 Aktivitäts-Kalender</span>
-      <span class="activity-calendar__meta">{{ activeCount }} aktive Tage</span>
+      <div class="activity-calendar__row">
+        <span class="activity-calendar__title">📅 Aktivitäts-Kalender</span>
+        <span class="activity-calendar__count">{{ activeCount }} / {{ TOTAL_DAYS }} Tage</span>
+      </div>
+
+      <div
+        class="activity-calendar__bar"
+        role="progressbar"
+        :aria-valuenow="activeCount"
+        :aria-valuemin="0"
+        :aria-valuemax="TOTAL_DAYS"
+      >
+        <div class="activity-calendar__fill" :style="{ width: `${progressPct}%` }" />
+      </div>
+
+      <p class="activity-calendar__hint">{{ summaryHint }}</p>
     </summary>
 
     <div class="activity-calendar__body" aria-label="Aktivitäts-Kalender">

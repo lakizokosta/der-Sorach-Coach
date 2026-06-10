@@ -1142,47 +1142,73 @@ button.lesen-gap-marker {
   margin: 0 auto;
   background: #fff;
   border: 1.5px solid #e0c8f0;
-  border-radius: 14px;
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(171, 77, 187, 0.06);
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.12s;
+}
+.activity-calendar:hover,
+.activity-calendar[open] {
+  border-color: #c86dd7;
+  box-shadow: 0 4px 14px rgba(171, 77, 187, 0.14);
+}
+.activity-calendar:has(.activity-calendar__summary:active) {
+  transform: scale(0.99);
 }
 .activity-calendar__summary {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 8px;
-  padding: 11px 14px;
+  display: block;
+  padding: 14px 16px;
   cursor: pointer;
   list-style: none;
-  font-weight: 700;
   user-select: none;
 }
 .activity-calendar__summary::-webkit-details-marker {
   display: none;
 }
-.activity-calendar__summary::before {
-  content: '▸ ';
-  color: #ab4dbb;
-  font-size: 12px;
-  margin-right: 2px;
+.activity-calendar__summary:focus-visible {
+  outline: 2px solid #ab4dbb;
+  outline-offset: 2px;
+  border-radius: 14px;
 }
-.activity-calendar[open] .activity-calendar__summary::before {
-  content: '▾ ';
+.activity-calendar__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
 }
 .activity-calendar__title {
-  flex: 1;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 900;
   color: #7b2d8b;
 }
-.activity-calendar__meta {
-  font-size: 11px;
-  font-weight: 700;
-  color: #999;
+.activity-calendar__count {
+  font-size: 13px;
+  font-weight: 800;
+  color: #ab4dbb;
   white-space: nowrap;
 }
+.activity-calendar__bar {
+  height: 10px;
+  border-radius: 999px;
+  background: #f0e6f5;
+  overflow: hidden;
+}
+.activity-calendar__fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ab4dbb, #c86dd7);
+  transition: width 0.35s ease;
+}
+.activity-calendar__hint {
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  color: #888;
+  line-height: 1.45;
+  text-align: center;
+}
 .activity-calendar__body {
-  padding: 4px 14px 12px 14px;
+  padding: 12px 16px 14px 16px;
   border-top: 1px solid #ecdff8;
 }
 .activity-calendar__weekdays {
@@ -1501,16 +1527,22 @@ button.lesen-gap-marker {
   margin: 0 auto;
   background: #fff;
   border: 1.5px solid #e0c8f0;
-  border-radius: 14px;
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(171, 77, 187, 0.06);
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.12s;
+}
+.schwaechen-card:hover,
+.schwaechen-card[open] {
+  border-color: #c86dd7;
+  box-shadow: 0 4px 14px rgba(171, 77, 187, 0.14);
+}
+.schwaechen-card:has(.schwaechen-card__summary:active) {
+  transform: scale(0.99);
 }
 .schwaechen-card__summary {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 8px;
-  padding: 11px 14px;
+  display: block;
+  padding: 14px 16px;
   cursor: pointer;
   list-style: none;
   user-select: none;
@@ -1518,33 +1550,54 @@ button.lesen-gap-marker {
 .schwaechen-card__summary::-webkit-details-marker {
   display: none;
 }
-.schwaechen-card__summary::before {
-  content: '▸ ';
-  color: #ab4dbb;
-  font-size: 12px;
-  flex-shrink: 0;
+.schwaechen-card__summary:focus-visible {
+  outline: 2px solid #ab4dbb;
+  outline-offset: 2px;
+  border-radius: 14px;
 }
-.schwaechen-card[open] .schwaechen-card__summary::before {
-  content: '▾ ';
+.schwaechen-card__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
 }
 .schwaechen-card__title {
-  flex: 1;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 900;
   color: #7b2d8b;
 }
-.schwaechen-card__meta {
-  font-size: 11px;
-  font-weight: 700;
-  color: #999;
+.schwaechen-card__count {
+  font-size: 13px;
+  font-weight: 800;
+  color: #ab4dbb;
   white-space: nowrap;
 }
+.schwaechen-card__bar {
+  height: 10px;
+  border-radius: 999px;
+  background: #f0e6f5;
+  overflow: hidden;
+}
+.schwaechen-card__fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ab4dbb, #c86dd7);
+  transition: width 0.35s ease;
+}
+.schwaechen-card__hint-summary {
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  color: #888;
+  line-height: 1.45;
+  text-align: center;
+}
 .schwaechen-card__body {
-  padding: 4px 14px 14px 14px;
+  padding: 12px 16px 14px 16px;
   border-top: 1px solid #ecdff8;
 }
 .schwaechen-card__hint {
-  margin: 0 0 10px 0;
+  margin: 12px 0 10px 0;
   font-size: 12px;
   color: #666;
   line-height: 1.45;

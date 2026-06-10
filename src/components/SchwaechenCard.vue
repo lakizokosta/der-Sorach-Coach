@@ -23,11 +23,29 @@ const weakTopics = computed(() =>
 
 const hasWeakTopics = computed(() => weakTopics.value.length > 0);
 
-const summaryMeta = computed(() => {
+const totalErrors = computed(() =>
+  weakTopics.value.reduce((n, t) => n + t.wrongCount, 0),
+);
+
+const summaryCount = computed(() => {
   if (!isPremium.value) return 'Premium';
-  if (!hasWeakTopics.value) return 'Noch keine Daten';
-  const total = weakTopics.value.reduce((n, t) => n + t.wrongCount, 0);
-  return `${total} Fehler · ${weakTopics.value.length} Themen`;
+  if (!hasWeakTopics.value) return '0 / 3 Themen';
+  return `${totalErrors.value} Fehler · ${weakTopics.value.length} Themen`;
+});
+
+const progressPct = computed(() => {
+  if (!isPremium.value || !hasWeakTopics.value) return 0;
+  return Math.min(100, Math.round((totalErrors.value / 30) * 100));
+});
+
+const summaryHint = computed(() => {
+  if (!isPremium.value) {
+    return 'Gezielt schwache Themen üben — nur mit Premium. Tippe für Details.';
+  }
+  if (!hasWeakTopics.value) {
+    return 'Noch keine Schwachstellen erfasst. Tippe für mehr Infos.';
+  }
+  return 'Deine 3 Themen mit den meisten Fehlern. Tippe zum Trainieren.';
 });
 
 function startSchwaechen() {
@@ -43,8 +61,22 @@ function openPremium() {
 <template>
   <details class="schwaechen-card" aria-label="Schwächen-Modus">
     <summary class="schwaechen-card__summary">
-      <span class="schwaechen-card__title">🎯 Schwächen-Modus</span>
-      <span class="schwaechen-card__meta">{{ summaryMeta }}</span>
+      <div class="schwaechen-card__row">
+        <span class="schwaechen-card__title">🎯 Schwächen-Modus</span>
+        <span class="schwaechen-card__count">{{ summaryCount }}</span>
+      </div>
+
+      <div
+        class="schwaechen-card__bar"
+        role="progressbar"
+        :aria-valuenow="progressPct"
+        :aria-valuemin="0"
+        :aria-valuemax="100"
+      >
+        <div class="schwaechen-card__fill" :style="{ width: `${progressPct}%` }" />
+      </div>
+
+      <p class="schwaechen-card__hint-summary">{{ summaryHint }}</p>
     </summary>
 
     <div class="schwaechen-card__body">
