@@ -19,6 +19,7 @@
 import { computed, onMounted, ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
+import DeviceGuide from '@/components/DeviceGuide.vue';
 import LzdLogo from '@/components/LzdLogo.vue';
 
 import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
@@ -34,6 +35,7 @@ import {
   buildStripePremiumUrl,
   buildStripeBasisUrl,
   buildPaypalUrl,
+  buildPaypalBasisUrl,
 } from '@/data/payment.js';
 import {
   hasBackend,
@@ -180,17 +182,39 @@ function payWithPaypal() {
  * (Zeitlimit aufheben — 4,99€). Uses the email entered in the basis
  * mini-form (or the stored userEmail) for pre-fill.
  */
-function payBasis() {
+function validateBasisCheckout() {
   const value = emailForCheckout.value;
   if (!value || !value.includes('@')) {
     buyStatus.value = {
       text: '✖ Bitte deine E-Mail für den Code eingeben.',
       color: '#ed4545',
     };
-    return;
+    return false;
+  }
+  if (!agbChecked.value) {
+    buyStatus.value = { text: '✖ Bitte stimmen Sie den AGB zu.', color: '#ed4545' };
+    return false;
   }
   saveString(USER_EMAIL_KEY, value);
-  window.open(buildStripeBasisUrl(value), '_blank', 'noopener');
+  return true;
+}
+
+function payBasis() {
+  if (!validateBasisCheckout()) return;
+  window.open(buildStripeBasisUrl(emailForCheckout.value), '_blank', 'noopener');
+  buyStatus.value = {
+    text: `💳 Stripe-Seite geöffnet. Code nach Zahlung an ${emailForCheckout.value}.`,
+    color: '#635BFF',
+  };
+}
+
+function payBasisPaypal() {
+  if (!validateBasisCheckout()) return;
+  window.open(buildPaypalBasisUrl(), '_blank', 'noopener');
+  buyStatus.value = {
+    text: `💳 PayPal-Seite geöffnet. Code nach Zahlung an ${emailForCheckout.value}.`,
+    color: '#0070BA',
+  };
 }
 
 /**
@@ -388,73 +412,84 @@ function topicMastered(key) {
 
         <!-- LOCKED VIEW: activation + price block -->
         <div v-if="!isPremium" style="text-align: left;">
-          <div
-            v-if="focusBasis"
-            style="
-              background: linear-gradient(135deg, #f3e8ff, #fdf4ff);
-              border: 1.5px solid #C86DD7;
-              border-radius: 16px;
-              padding: 16px;
-              margin-bottom: 16px;
-              text-align: left;
-            "
-          >
-            <div
-              style="
-                font-weight: 900;
-                font-size: 15px;
-                color: #5b1f6a;
-                margin-bottom: 6px;
-              "
-            >
+          <div v-if="focusBasis" class="premium-basis-card">
+            <div class="premium-basis-card__title">
               ⏱️ Zeitlimit aufheben – {{ PRICES_EUR.basis.toFixed(2).replace('.', ',') }}€
             </div>
-            <p
-              style="
-                font-size: 12px;
-                color: #5b1f6a;
-                line-height: 1.45;
-                margin: 0 0 12px 0;
-              "
-            >
+            <p class="premium-basis-card__intro">
               Einmalzahlung · kein Abo · sofort aktiv. Nach der Zahlung erhältst
               du den Aktivierungscode per E-Mail.
             </p>
-            <p
-              v-if="emailForCheckout"
-              style="font-size: 13px; color: #5b1f6a; margin: 0 0 10px 0;"
-            >
-              📧 Code an: <strong>{{ emailForCheckout }}</strong>
+            <div v-if="!isLoggedIn" class="premium-basis-card__email">
+              <label
+                for="basis-buy-email"
+                class="premium-basis-card__email-label"
+              >
+                E-Mail für den Aktivierungscode
+              </label>
+              <input
+                id="basis-buy-email"
+                v-model="buyEmail"
+                type="email"
+                class="premium-flow__input"
+                placeholder="deine@email.de"
+              />
+            </div>
+            <p v-else class="premium-basis-card__email-hint">
+              📧 Code an: <strong>{{ auth.email }}</strong>
             </p>
-            <p
-              v-else
-              style="font-size: 12px; color: #888; margin: 0 0 10px 0;"
-            >
-              Gib unten deine E-Mail ein.
-            </p>
+            <DeviceGuide variant="basis" />
+            <label class="premium-basis-card__agb">
+              <input
+                v-model="agbChecked"
+                type="checkbox"
+                class="premium-basis-card__agb-check"
+              />
+              <span>
+                Ich stimme den
+                <router-link
+                  :to="{ name: 'legal', params: { slug: 'agb' } }"
+                  target="_blank"
+                >AGB</router-link>
+                zu und bestätige, dass das Widerrufsrecht mit Bereitstellung
+                des Codes erlischt.
+              </span>
+            </label>
             <button
               type="button"
+              class="premium-basis-btn premium-basis-btn--stripe"
               @click="payBasis"
-              style="
-                width: 100%;
-                padding: 12px;
-                border-radius: 12px;
-                border: none;
-                background: #635BFF;
-                color: #fff;
-                font-weight: 900;
-                font-size: 14px;
-                cursor: pointer;
-              "
             >
-              💳 Mit Stripe bezahlen – 4,99€
+              <span class="premium-basis-btn__main">💳 Mit Stripe bezahlen – 4,99€</span>
+              <span class="premium-basis-btn__sub">Visa, Mastercard, Apple Pay, Google Pay</span>
             </button>
-            <p style="font-size: 10px; color: #888; margin: 8px 0 0 0; text-align: center;">
-              🔒 Sichere Zahlung über Stripe · Visa, Mastercard, Apple Pay, Google Pay
+            <button
+              type="button"
+              class="premium-basis-btn premium-basis-btn--paypal"
+              @click="payBasisPaypal"
+            >
+              <span class="premium-basis-btn__main">💳 Mit PayPal kaufen – 4,99€</span>
+              <span class="premium-basis-btn__sub">Code kommt automatisch per Mail</span>
+            </button>
+            <p class="premium-buy-footer" style="margin-top: 8px;">
+              🔒 Sichere Zahlung · Einmalzahlung · kein Abo
+            </p>
+            <div
+              v-if="buyStatus.text"
+              class="premium-flow__status premium-basis-card__status"
+              :style="{ color: buyStatus.color }"
+            >
+              {{ buyStatus.text }}
+            </div>
+            <p class="premium-basis-card__alt">
+              <router-link :to="{ name: 'premium' }">
+                💎 Stattdessen Premium ab 19€/Monat
+              </router-link>
             </p>
           </div>
 
           <div
+            v-if="!focusBasis"
             class="premium-buy-card"
             style="
               background: #fff;
@@ -517,13 +552,7 @@ function topicMastered(key) {
             <p v-else style="font-size: 13px; color: #666; margin: 0 0 12px 0;">
               Code nach Zahlung an: <strong>{{ auth.email }}</strong>
             </p>
-            <p
-              v-if="!showActivationPanel"
-              class="premium-buy-hint"
-            >
-              Nach der Zahlung: E-Mail öffnen und auf
-              <strong>«Jetzt aktivieren»</strong> tippen — fertig.
-            </p>
+            <DeviceGuide variant="buy" />
 
             <label
               style="
@@ -598,15 +627,8 @@ function topicMastered(key) {
               </span>
             </button>
 
-            <p
-              style="
-                font-size: 11px;
-                color: #888;
-                margin: 12px 0 0 0;
-                text-align: center;
-              "
-            >
-              🔒 Sichere Zahlung · Ein Code = ein Gerät
+            <p class="premium-buy-footer">
+              🔒 Sichere Zahlung · Code einmal aktivieren · Weitere Geräte per E-Mail-Login
             </p>
 
             <div
@@ -648,6 +670,7 @@ function topicMastered(key) {
             <p class="premium-flow__hint">
               Postfach öffnen → Link antippen → Premium startet von selbst.
             </p>
+            <DeviceGuide variant="compact" />
             <div
               v-if="magicStatus.text"
               class="premium-flow__status"
@@ -743,9 +766,9 @@ function topicMastered(key) {
 
           <!-- Edge case: paid but did not click e-mail link -->
           <details v-if="backendOn && !showActivationPanel" class="premium-flow-manual">
-            <summary>Schon bezahlt, aber kein Link geklappt?</summary>
+            <summary>Schon bezahlt, aber keinen Link bekommen?</summary>
             <p class="premium-flow__hint">
-              Fordere einen Login-Link an, dann gib den Code aus der Kauf-E-Mail ein.
+              Fordere hier einen Login-Link an und gib danach den Code aus der Kauf-E-Mail ein.
             </p>
             <input
               v-model="accountEmail"
@@ -770,7 +793,7 @@ function topicMastered(key) {
             </div>
           </details>
 
-          <details v-if="backendOn" class="premium-flow-trial">
+          <details v-if="backendOn && !focusBasis" class="premium-flow-trial">
             <summary>🎁 1 Tag gratis testen</summary>
             <p class="premium-flow__hint">
               <template v-if="isLoggedIn">

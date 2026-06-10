@@ -83,6 +83,7 @@ export const PAYPAL_HANDLE = 'lehrermann';
 
 /** PayPal.me amount slug per Premium plan (price + currency, no decimal). */
 export const PAYPAL_AMOUNTS = {
+  basis:      '4.99EUR',
   '1month':   '19EUR',
   '3months':  '49EUR',
   '12months': '99EUR',
@@ -130,4 +131,13 @@ export function buildStripeBasisUrl(email) {
 export function buildPaypalUrl(plan) {
   const amount = PAYPAL_AMOUNTS[plan] || PAYPAL_AMOUNTS['1month'];
   return `https://paypal.me/${PAYPAL_HANDLE}/${amount}`;
+}
+
+/**
+ * Builds the PayPal.me URL for the Basis upgrade (Zeitlimit aufheben).
+ *
+ * @return {string}
+ */
+export function buildPaypalBasisUrl() {
+  return `https://paypal.me/${PAYPAL_HANDLE}/${PAYPAL_AMOUNTS.basis}`;
 }

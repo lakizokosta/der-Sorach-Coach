@@ -5,6 +5,7 @@
 
 import { ref } from 'vue';
 
+import DeviceGuide from '@/components/DeviceGuide.vue';
 import { useAuth } from '@/composables/useAuth.js';
 import { activateCode, usePremium } from '@/composables/usePremium.js';
 import { loadString, saveString } from '@/composables/useStorage.js';
@@ -92,18 +93,22 @@ function signOut() {
           Abmelden
         </button>
       </div>
-      <p class="login-panel__ok-note">✅ Eingeloggt — Fortschritt wird gespeichert.</p>
+      <p class="login-panel__ok-note">
+        ✅ Eingeloggt — Premium &amp; Fortschritt auf diesem Gerät aktiv.
+      </p>
       <slot name="after-intro" />
     </template>
 
     <!-- Premium via code, not logged in -->
     <div v-else-if="(isPremium || isBasis) && !isLoggedIn" class="login-panel-card">
       <div class="login-panel-card__badge">🏠 Startseite</div>
-      <h3 class="login-panel-card__title">Fortschritt speichern</h3>
+      <h3 class="login-panel-card__title">Auf diesem Gerät einloggen</h3>
       <p class="login-panel-card__intro">
-        Du hast Premium — logge dich ein, damit XP &amp; Streak auf allen Geräten bleiben.
-        <strong>Kein Passwort:</strong> Link per E-Mail.
+        Premium ist schon auf einem anderen Gerät aktiv? Hier nur
+        <strong>dieselbe E-Mail</strong> — Link per E-Mail, kein Passwort.
+        <strong>Kein Code nötig.</strong>
       </p>
+      <DeviceGuide variant="landing" />
       <slot name="after-intro" />
       <div class="login-panel-card__row">
         <input
@@ -181,9 +186,11 @@ function signOut() {
       <div class="login-panel-card__badge">🏠 Startseite</div>
       <h3 class="login-panel-card__title">Fortschritt speichern</h3>
       <p class="login-panel-card__intro">
-        Nur für <strong>XP &amp; Streak</strong> auf Handy und Computer.
-        <strong>Kein Passwort</strong> — du bekommst einen Link per E-Mail.
-        Hier <em>nicht</em> Premium kaufen!
+        Für <strong>XP, Streak &amp; Premium</strong> auf allen Geräten.
+        <strong>Kein Passwort</strong> — Link per E-Mail.
+        Premium erst auf der
+        <router-link :to="{ name: 'premium' }">Premium-Seite</router-link>
+        kaufen; auf dem Handy danach nur hier einloggen.
       </p>
       <slot name="after-intro" />
       <div class="login-panel-card__row">
@@ -208,9 +215,9 @@ function signOut() {
         <li>Link im Postfach antippen — fertig!</li>
       </ol>
       <p class="login-panel-card__aside">
-        💎 Premium gekauft? Gehe zur
+        💎 Noch kein Premium? Bezahlen auf der
         <router-link :to="{ name: 'premium' }">Premium-Seite</router-link>
-        und gib dort deinen Code ein (Schritt 2).
+        → «Jetzt aktivieren» in der E-Mail (einmal) → auf anderen Geräten nur hier einloggen.
       </p>
       <p
         v-if="magicStatus.text"
