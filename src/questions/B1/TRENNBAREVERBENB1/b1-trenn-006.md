@@ -9,4 +9,4 @@ options:
 correct: sagt
 ---
 
-Er ___ den Termin leider ab. (Trennbares Verb — sagen)
+Er ___ den Termin leider ab. (Trennbares Verb + Verb absagen)

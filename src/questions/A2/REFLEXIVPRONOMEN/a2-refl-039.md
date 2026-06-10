@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Ich ___ mich erkältet. (Reflexivform — interessieren)
+Ich ___ mich erkältet. (Reflexiv + Verb erkälten)

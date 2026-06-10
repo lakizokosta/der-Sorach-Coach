@@ -5,4 +5,4 @@ correct:
   - schwimmt
 ---
 
-Im Sommer ___ er im See. (Präsensform — singen)
+Im Sommer ___ er im See. (Präsens + Verb schwimmen)

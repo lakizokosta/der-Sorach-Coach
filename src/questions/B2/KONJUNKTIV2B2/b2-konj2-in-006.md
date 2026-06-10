@@ -5,4 +5,4 @@ correct:
   - Könntest
 ---
 
-___ du mir helfen, wäre ich dankbar. (Konjunktiv-II-Form — können)
+___ du mir helfen, wäre ich dankbar. (Konjunktiv II + Verb können)

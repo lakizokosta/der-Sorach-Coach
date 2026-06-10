@@ -9,4 +9,4 @@ options:
 correct: musst
 ---
 
-Du ___ dich anziehen. (Reflexivform — freuen)
+Du ___ dich anziehen. (Reflexiv + Verb freuen)

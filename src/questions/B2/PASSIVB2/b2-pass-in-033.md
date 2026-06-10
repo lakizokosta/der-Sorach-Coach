@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Das Gebäude ___ 1920 erbaut. (Passivform — worden)
+Das Gebäude ___ 1920 erbaut. (Passiv + Hilfsverb werden)

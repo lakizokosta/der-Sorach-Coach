@@ -5,4 +5,4 @@ correct:
   - wäscht
 ---
 
-Er ___ sich die Hände vor dem Essen. (Reflexivform — sollen)
+Er ___ sich die Hände vor dem Essen. (Reflexiv + Verb waschen)

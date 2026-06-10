@@ -1,9 +1,9 @@
 /**
  * Grammatical context hints for fill-in questions (shown in parentheses).
- * Example: "Sie ___ nach Berlin. (Präteritumsform — ziehen)"
+ * Example: "Sie ___ nach Berlin. (Präteritum + Verb ziehen)"
  */
 
-import { BANK as A2_INPUT_BANK } from './a2-input-text-data.mjs';
+import { bankLemmaFromBody, bankLemmaFromId } from './verb-hint-banks.mjs';
 
 /** @type {Record<string, string>} */
 export const TOPIC_FORM_HINT = {
@@ -87,6 +87,24 @@ export const TOPIC_FORM_HINT = {
   WORTSCHATZB1: 'Wortschatz',
 };
 
+/** Short labels for verb-hint display (no person — subject is already in the sentence). */
+const VERB_HINT_LABEL = {
+  PRÄTERITUMA2: 'Präteritum',
+  PERFEKTA2: 'Perfekt',
+  PERFEKTB1: 'Perfekt',
+  MODALVERBENA2: 'Modalverb',
+  VERBKONJUGATION: 'Präsens',
+  REFLEXIVPRONOMEN: 'Reflexiv',
+  TRENNBAREVERBEN: 'Trennbares Verb',
+  TRENNBAREVERBENB1: 'Trennbares Verb',
+  PASSIVB1: 'Passiv',
+  PASSIVB2: 'Passiv',
+  KONJUNKTIV2: 'Konjunktiv II',
+  KONJUNKTIV2B2: 'Konjunktiv II',
+  FUTURI: 'Futur',
+  VERBLASSEN: 'lassen',
+};
+
 const VERB_FORM_TOPICS = new Set([
   'PRÄTERITUMA2',
   'PERFEKTA2',
@@ -101,6 +119,7 @@ const VERB_FORM_TOPICS = new Set([
   'KONJUNKTIV2',
   'KONJUNKTIV2B2',
   'FUTURI',
+  'VERBLASSEN',
 ]);
 
 const POSSESSIV_TOPICS = new Set([
@@ -123,7 +142,15 @@ const MODAL_FROM_FINITE = {
   will: 'wollen', willst: 'wollen', wollen: 'wollen', wollte: 'wollen', wolltest: 'wollen',
   mag: 'mögen', mögen: 'mögen', möglich: 'mögen',
   möchte: 'möchten', möchtest: 'möchten', möchten: 'möchten',
-  hätte: 'möchten', hättest: 'möchten', hätten: 'möchten',
+  hätte: 'haben', hättest: 'haben', hätten: 'haben', hättet: 'haben',
+  würde: 'werden', würdest: 'werden', würden: 'werden', würdet: 'werden',
+  wäre: 'sein', wärst: 'sein', wären: 'sein', wäret: 'sein',
+  wüsste: 'wissen', wüsstest: 'wissen', wüssten: 'wissen', wüsstet: 'wissen',
+  könnte: 'können', könntest: 'können', könnten: 'können', könntet: 'können',
+  sollte: 'sollen', solltest: 'sollen', sollten: 'sollen', solltet: 'sollen',
+  müsste: 'müssen', müsstest: 'müssen', müssten: 'müssen', müsstet: 'müssen',
+  dürfte: 'dürfen', dürftest: 'dürfen', dürften: 'dürfen', dürftet: 'dürfen',
+  wollte: 'wollen', wolltest: 'wollen', wollten: 'wollen', wolltet: 'wollen',
 };
 
 const SEPARABLE_PARTICLES = [
@@ -169,6 +196,11 @@ export function parseVerbLemmaFromInner(inner) {
     return parts[0];
   }
 
+  const single = inner.trim();
+  if (/^[\wäöüÄÖÜß-]+$/.test(single) && isLikelyLemma(single)) {
+    return single;
+  }
+
   return '';
 }
 
@@ -207,41 +239,80 @@ function inferModalLemma(correct) {
  * @param {string} body
  * @return {string}
  */
-function inferSeparableLemma(body) {
-  const line = body.split('\n').pop().replace(/\([^)]*\)\s*$/, '').trim();
-  for (const particle of SEPARABLE_PARTICLES) {
-    const re = new RegExp(`\\s${particle}[.?!]?$`, 'i');
-    if (re.test(line)) {
-      const stems = {
-        auf: 'aufstehen', an: 'ankommen', aus: 'ausgehen', ein: 'einkaufen', ab: 'abfahren',
-        mit: 'mitkommen', nach: 'nachmachen', vor: 'vorbereiten', zu: 'zumachen', zurück: 'zurückkommen',
-        weg: 'weggehen', weiter: 'weitermachen', her: 'herkommen', hin: 'hingehen',
-      };
-      return stems[particle.toLowerCase()] || `${particle}…`;
+function separableInfinitiveFromOptions(options) {
+  for (const raw of options || []) {
+    const o = String(raw).toLowerCase().replace(/\s+/g, '');
+    for (const particle of SEPARABLE_PARTICLES) {
+      if (!o.startsWith(particle) || o.length <= particle.length + 2) continue;
+      const rest = o.slice(particle.length);
+      if (/^[a-zäöüß]+(?:en|eln|ern)$/.test(rest)) return `${particle}${rest}`;
+      if (/^[a-zäöüß]+(?:st|t)$/.test(rest)) {
+        return `${particle}${rest.replace(/(?:st|t)$/, 'en')}`;
+      }
     }
   }
   return '';
 }
 
-/**
- * @param {string} inner
- * @param {string|string[]} correct
- * @return {string}
- */
-/**
- * @param {string} id
- * @param {string} topicKey
- * @return {string}
- */
-function bankInnerForInputId(id, topicKey) {
-  const m = id.match(/-in-(\d+)$/);
-  if (!m) return '';
-  const idx = parseInt(m[1], 10) - 1;
-  const bank = A2_INPUT_BANK[topicKey];
-  const item = bank?.[idx];
-  if (!item) return '';
-  const hint = String(item[0]).match(/\(([^)]*)\)\s*$/);
-  return hint ? hint[1] : '';
+function inferSeparableLemma(body) {
+  const line = body.split('\n').pop().replace(/\([^)]*\)\s*$/, '').trim();
+  if (/\bmich\s+über\b/i.test(line) || /\buns\s+schon\s+auf\b/i.test(line)) {
+    return 'sich freuen';
+  }
+  for (const particle of SEPARABLE_PARTICLES) {
+    const re = new RegExp(`\\s${particle}[.?!]?$`, 'i');
+    if (re.test(line)) {
+      const stems = {
+        auf: 'aufstehen', an: 'anmelden', aus: 'ausmachen', ein: 'einchecken', ab: 'absagen',
+        mit: 'mitkommen', nach: 'nachmachen', vor: 'vorbereiten', zu: 'zumachen', zurück: 'zurückkommen',
+        weg: 'weggehen', weiter: 'weitermachen', her: 'herkommen', hin: 'hingehen', durch: 'durchgehen',
+      };
+      return stems[particle.toLowerCase()] || '';
+    }
+  }
+  return '';
+}
+
+/** @param {string} body */
+function inferVerblassenLemma(body) {
+  const line = body.replace(/\([^)]*\)\s*$/, '').trim();
+  const m = line.match(/\b([\wäöüÄÖÜß]+en)\s*\.?\s*$/);
+  if (m) return m[1];
+  return 'lassen';
+}
+
+/** @param {string} body */
+function inferPassivLemma(body) {
+  const line = body.replace(/\([^)]*\)\s*$/, '').trim();
+  const m = line.match(/\b(\w+(?:iert|ert|t|en))\s*\.?\s*$/);
+  if (!m) return 'werden';
+  const pp = m[1];
+  if (pp.endsWith('iert')) return `${pp.slice(0, -3)}ieren`;
+  if (pp.endsWith('ert')) return `${pp.slice(0, -2)}en`;
+  if (pp.endsWith('t')) return `${pp.slice(0, -1)}en`;
+  return 'werden';
+}
+
+/** @param {string} topic @param {string} lemma */
+function formatVerbHint(topic, lemma) {
+  const label = VERB_HINT_LABEL[topic];
+  if (!label || !lemma) return TOPIC_FORM_HINT[topic] || '';
+  if (topic === 'VERBLASSEN') {
+    return `lassen + Verb ${lemma}`;
+  }
+  if ((topic === 'PERFEKTA2' || topic === 'PERFEKTB1') && IRREGULAR_INF.has(lemma.toLowerCase())) {
+    return `${label} + Hilfsverb ${lemma}`;
+  }
+  if ((topic === 'PASSIVB1' || topic === 'PASSIVB2') && lemma.toLowerCase() !== 'werden') {
+    return `${label} + Verb ${lemma}`;
+  }
+  if (topic === 'PASSIVB1' || topic === 'PASSIVB2') {
+    return `${label} + Hilfsverb werden`;
+  }
+  if (topic === 'REFLEXIVPRONOMEN' && lemma.toLowerCase().startsWith('sich ')) {
+    return `${label} + ${lemma}`;
+  }
+  return `${label} + Verb ${lemma}`;
 }
 
 /**
@@ -273,30 +344,48 @@ function inferPerfektLemma(inner, correct) {
  * @return {string}
  */
 export function verbFormHint(topic, inner = '', correct = [], options = [], body = '', id = '') {
-  const form = TOPIC_FORM_HINT[topic];
-  if (!form) return '';
+  let lemma = bankLemmaFromBody(body, topic) || bankLemmaFromId(id, topic) || '';
 
-  let lemma = '';
-  if (topic === 'PERFEKTA2' || topic === 'PERFEKTB1') {
-    lemma = inferPerfektLemma(inner, correct);
-  } else if (topic === 'MODALVERBENA2') {
-    lemma = parseVerbLemmaFromInner(inner) || inferModalLemma(correct) || extractInfinitiveFromOptions(options, correct);
-  } else if (topic === 'TRENNBAREVERBEN' || topic === 'TRENNBAREVERBENB1') {
-    lemma = parseVerbLemmaFromInner(inner) || extractInfinitiveFromOptions(options, correct) || inferSeparableLemma(body);
-  } else {
-    lemma = parseVerbLemmaFromInner(inner);
-    if (!lemma || !isLikelyLemma(lemma)) lemma = extractInfinitiveFromOptions(options, correct);
+  if (!lemma) lemma = parseVerbLemmaFromInner(inner);
+
+  if (!lemma) {
+    if (topic === 'PERFEKTA2' || topic === 'PERFEKTB1') {
+      lemma = inferPerfektLemma(inner, correct);
+    } else if (topic === 'MODALVERBENA2') {
+      lemma = inferModalLemma(correct) || extractInfinitiveFromOptions(options, correct);
+    } else if (topic === 'TRENNBAREVERBEN' || topic === 'TRENNBAREVERBENB1') {
+      lemma = separableInfinitiveFromOptions(options)
+        || extractInfinitiveFromOptions(options, correct)
+        || inferSeparableLemma(body);
+    } else if (topic === 'VERBLASSEN') {
+      lemma = inferVerblassenLemma(body);
+    } else if (topic === 'PASSIVB1' || topic === 'PASSIVB2') {
+      lemma = inferPassivLemma(body);
+    } else if (topic === 'KONJUNKTIV2' || topic === 'KONJUNKTIV2B2' || topic === 'FUTURI') {
+      lemma = inferModalLemma(correct) || inferLemmaFromFinite(correct);
+    } else if (!lemma || !isLikelyLemma(lemma)) {
+      lemma = extractInfinitiveFromOptions(options, correct);
+    }
   }
 
-  if (!lemma) lemma = parseVerbLemmaFromInner(bankInnerForInputId(id, topic));
   if (!lemma) lemma = inferLemmaFromFinite(correct);
-  if (!lemma && topic === 'VERBKONJUGATION') lemma = inferSeparableLemma(body);
-  if (!lemma && (topic === 'TRENNBAREVERBEN' || topic === 'TRENNBAREVERBENB1')) lemma = inferSeparableLemma(body);
-
-  if (lemma && !isLikelyLemma(lemma) && topic !== 'MODALVERBENA2') lemma = '';
+  if (!lemma && topic === 'VERBKONJUGATION') {
+    lemma = inferSeparableLemma(body) || separableInfinitiveFromOptions(options);
+  }
+  if (!lemma && (topic === 'TRENNBAREVERBEN' || topic === 'TRENNBAREVERBENB1')) {
+    lemma = inferSeparableLemma(body) || separableInfinitiveFromOptions(options);
+  }
   if (!lemma && topic === 'MODALVERBENA2') lemma = inferModalLemma(correct);
+  if (!lemma && topic === 'VERBLASSEN') lemma = inferVerblassenLemma(body);
+  if (!lemma && (topic === 'PASSIVB1' || topic === 'PASSIVB2')) lemma = inferPassivLemma(body);
+  if (!lemma && (topic === 'KONJUNKTIV2' || topic === 'KONJUNKTIV2B2' || topic === 'FUTURI')) {
+    lemma = inferModalLemma(correct) || inferLemmaFromFinite(correct) || 'werden';
+  }
 
-  return lemma ? `${form} — ${lemma}` : form;
+  const modalTopics = new Set(['MODALVERBENA2', 'KONJUNKTIV2', 'KONJUNKTIV2B2']);
+  if (lemma && !isLikelyLemma(lemma) && !modalTopics.has(topic)) lemma = '';
+
+  return formatVerbHint(topic, lemma);
 }
 
 /**

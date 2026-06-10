@@ -9,4 +9,4 @@ options:
 correct: lernt
 ---
 
-Ihr ___ Deutsch für die Schule. (Präsensform — lernen)
+Ihr ___ Deutsch für die Schule. (Präsens + Verb bezahlen)

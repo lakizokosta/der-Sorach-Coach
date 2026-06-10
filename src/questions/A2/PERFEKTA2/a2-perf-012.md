@@ -9,4 +9,4 @@ options:
 correct: bin
 ---
 
-Ich ___ schon einmal in Wien gewesen. (Perfektform — sein)
+Ich ___ schon einmal in Wien gewesen. (Perfekt + Hilfsverb sein)

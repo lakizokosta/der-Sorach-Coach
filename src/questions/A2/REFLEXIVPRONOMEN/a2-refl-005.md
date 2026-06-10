@@ -9,4 +9,4 @@ options:
 correct: interessiere
 ---
 
-Ich ___ mich für Sport. (Reflexivform — interessieren)
+Ich ___ mich für Sport. (Reflexiv + Verb interessieren)

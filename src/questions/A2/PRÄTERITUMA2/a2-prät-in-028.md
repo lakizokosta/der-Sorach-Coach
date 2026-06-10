@@ -5,4 +5,4 @@ correct:
   - las
 ---
 
-Er ___ ein Buch über das Schulsystem. (Präteritumsform — warteten)
+Er ___ ein Buch über das Schulsystem. (Präteritum + Verb lesen)

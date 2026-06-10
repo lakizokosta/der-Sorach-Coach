@@ -9,4 +9,4 @@ options:
 correct: wollen
 ---
 
-Wir ___ heute ins Schwimmbad gehen. (Modalverbform — müssen)
+Wir ___ heute ins Schwimmbad gehen. (Modalverb + Verb wollen)

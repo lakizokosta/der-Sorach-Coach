@@ -5,4 +5,4 @@ correct:
   - wäre
 ---
 
-Wenn ich reich ___, würde ich viel reisen. (Konjunktiv-II-Form)
+Wenn ich reich ___, würde ich viel reisen. (Konjunktiv II + Verb sein)

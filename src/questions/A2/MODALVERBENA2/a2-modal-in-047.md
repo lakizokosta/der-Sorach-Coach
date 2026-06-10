@@ -5,4 +5,4 @@ correct:
   - Darf
 ---
 
-___ ich das Fenster öffnen? (Modalverbform — dürfen)
+___ ich das Fenster öffnen? (Modalverb + Verb dürfen)

@@ -5,4 +5,4 @@ correct:
   - sind
 ---
 
-Alle Gäste ___ informiert worden. (Passivform — wurden)
+Alle Gäste ___ informiert worden. (Passiv + Verb sein)

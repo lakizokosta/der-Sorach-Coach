@@ -9,4 +9,4 @@ options:
 correct: lassen
 ---
 
-Wir ___ unsere Dokumente übersetzen. (lassen-Form)
+Wir ___ unsere Dokumente übersetzen. (lassen + Verb bersetzen)

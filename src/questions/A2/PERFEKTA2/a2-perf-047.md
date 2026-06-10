@@ -9,4 +9,4 @@ options:
 correct: haben
 ---
 
-Wir ___ Pizza gegessen. (Perfektform — haben)
+Wir ___ Pizza gegessen. (Perfekt + Hilfsverb haben)

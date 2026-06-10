@@ -5,4 +5,4 @@ correct:
   - spiele
 ---
 
-Ich ___ gern Fußball. (Präsensform)
+Ich ___ gern Fußball. (Präsens + Verb spielen)

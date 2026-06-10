@@ -5,4 +5,4 @@ correct:
   - sind
 ---
 
-Wir ___ im Stadtpark spaziert. (Perfektform — sein)
+Wir ___ im Stadtpark spaziert. (Perfekt + Hilfsverb sein)

@@ -5,4 +5,4 @@ correct:
   - feiern
 ---
 
-Wir ___ heute einen Geburtstag. (Präsensform — hören)
+Wir ___ heute einen Geburtstag. (Präsens + Verb feiern)

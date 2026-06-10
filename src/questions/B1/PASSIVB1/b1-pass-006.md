@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Die Straße ___ letztes Jahr renoviert. (Passivform)
+Die Straße ___ letztes Jahr renoviert. (Passiv + Verb renoviieren)

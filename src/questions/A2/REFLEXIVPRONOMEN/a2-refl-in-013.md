@@ -5,4 +5,4 @@ correct:
   - ziehst
 ---
 
-Du ___ dich warm an. (Reflexivform — verletzen)
+Du ___ dich warm an. (Reflexiv + Verb anziehen)

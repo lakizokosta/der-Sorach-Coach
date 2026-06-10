@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Die Straße ___ wegen Bauarbeiten gesperrt. (Passivform — geworden)
+Die Straße ___ wegen Bauarbeiten gesperrt. (Passiv + Verb gesperren)

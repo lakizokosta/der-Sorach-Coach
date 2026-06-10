@@ -9,4 +9,4 @@ options:
 correct: trinkt
 ---
 
-Er ___ Wasser nach dem Training. (Präsensform — trinken)
+Er ___ Wasser nach dem Training. (Präsens + Verb machen)

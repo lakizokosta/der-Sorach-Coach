@@ -5,4 +5,4 @@ correct:
   - wohnen
 ---
 
-Sie ___ in Hamburg. (Präsensform — essen)
+Sie ___ in Hamburg. (Präsens + Verb wohnen)

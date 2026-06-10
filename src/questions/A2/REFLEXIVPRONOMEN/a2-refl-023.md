@@ -9,4 +9,4 @@ options:
 correct: können
 ---
 
-Wir ___ uns freuen. (Reflexivform — sollen)
+Wir ___ uns freuen. (Reflexiv + Verb waschen)

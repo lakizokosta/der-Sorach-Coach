@@ -5,4 +5,4 @@ correct:
   - freue
 ---
 
-Ich ___ mich auf den Urlaub an der Mosel. (Reflexivform — freuen)
+Ich ___ mich auf den Urlaub an der Mosel. (Reflexiv + Verb freuen)

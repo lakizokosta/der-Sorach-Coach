@@ -5,4 +5,4 @@ correct:
   - kann
 ---
 
-Ich ___ dir beim Formular helfen. (Modalverbform — können)
+Ich ___ dir beim Formular helfen. (Modalverb + Verb können)

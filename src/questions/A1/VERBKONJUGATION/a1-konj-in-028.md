@@ -5,4 +5,4 @@ correct:
   - regnet
 ---
 
-Heute ___ es den ganzen Tag. (Präsensform — singen)
+Heute ___ es den ganzen Tag. (Präsens + Verb regnen)

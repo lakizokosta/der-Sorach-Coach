@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Die Daten ___ sorgfältig ausgewertet. (Passivform — worden)
+Die Daten ___ sorgfältig ausgewertet. (Passiv + Hilfsverb werden)

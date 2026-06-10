@@ -5,4 +5,4 @@ correct:
   - mache
 ---
 
-Ich ___ Yoga am Morgen. (Präsensform — schreiben)
+Ich ___ Yoga am Morgen. (Präsens + Verb machen)

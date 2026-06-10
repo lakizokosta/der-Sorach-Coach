@@ -5,4 +5,4 @@ correct:
   - freue
 ---
 
-Ich ___ mich über das Geschenk. (Reflexivform — beeilen)
+Ich ___ mich über das Geschenk. (Reflexiv + Verb freuen)

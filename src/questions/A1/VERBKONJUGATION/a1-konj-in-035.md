@@ -5,4 +5,4 @@ correct:
   - rufe
 ---
 
-Ich ___ meine Freundin an. (Präsensform — schwimmen)
+Ich ___ meine Freundin an. (Präsens + Verb anrufen)

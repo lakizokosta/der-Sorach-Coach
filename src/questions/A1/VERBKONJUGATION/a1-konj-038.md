@@ -9,4 +9,4 @@ options:
 correct: fährt
 ---
 
-Er ___ mit dem Bus zur Schule. (Präsensform — fahren)
+Er ___ mit dem Bus zur Schule. (Präsens + Verb grillen)

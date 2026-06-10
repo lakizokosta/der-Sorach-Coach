@@ -5,4 +5,4 @@ correct:
   - ist
 ---
 
-Sie ___ spät nach Hause gekommen. (Perfektform — sein)
+Sie ___ spät nach Hause gekommen. (Perfekt + Hilfsverb sein)

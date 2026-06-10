@@ -5,4 +5,4 @@ correct:
   - Helft
 ---
 
-___ mir bitte! (Präsensform — machen)
+___ mir bitte! (Präsens + Verb helfen)

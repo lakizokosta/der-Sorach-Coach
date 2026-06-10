@@ -5,4 +5,4 @@ correct:
   - lernst
 ---
 
-Du ___ fleißig Deutsch. (Präsensform — lesen)
+Du ___ fleißig Deutsch. (Präsens + Verb lernen)

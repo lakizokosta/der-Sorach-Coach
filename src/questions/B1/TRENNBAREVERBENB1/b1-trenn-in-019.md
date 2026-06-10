@@ -5,4 +5,4 @@ correct:
   - verlegen
 ---
 
-Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb — vorverlegen)
+Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb + Verb vorverlegen)

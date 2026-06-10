@@ -5,4 +5,4 @@ correct:
   - wäschst
 ---
 
-Du ___ die Kleidung. (Präsensform — spielen)
+Du ___ die Kleidung. (Präsens + Verb waschen)

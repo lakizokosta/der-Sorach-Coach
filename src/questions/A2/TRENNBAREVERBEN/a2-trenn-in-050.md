@@ -5,4 +5,4 @@ correct:
   - gehen
 ---
 
-Wir ___ am Wochenende aus. (Trennbares Verb — machen)
+Wir ___ am Wochenende aus. (Trennbares Verb + Verb ausgehen)

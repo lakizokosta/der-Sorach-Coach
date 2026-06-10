@@ -5,4 +5,4 @@ correct:
   - lasse
 ---
 
-Ich ___ mich nicht unter Druck setzen. (lassen-Form)
+Ich ___ mich nicht unter Druck setzen. (lassen + Verb setzen)

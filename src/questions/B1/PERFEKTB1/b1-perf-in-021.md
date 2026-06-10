@@ -5,4 +5,4 @@ correct:
   - ist
 ---
 
-Er ___ nach Berlin gefahren. (Perfektform — sein)
+Er ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)

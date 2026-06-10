@@ -5,4 +5,4 @@ correct:
   - fuhren
 ---
 
-Wir ___ mit dem Zug nach Italien. (Präteritumsform — haben)
+Wir ___ mit dem Zug nach Italien. (Präteritum + Verb fahren)

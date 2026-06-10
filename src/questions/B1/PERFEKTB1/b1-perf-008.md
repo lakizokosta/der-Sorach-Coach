@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Sie ___ sich beim Sport verletzt. (Perfektform — haben)
+Sie ___ sich beim Sport verletzt. (Perfekt + Hilfsverb haben)

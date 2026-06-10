@@ -5,4 +5,4 @@ correct:
   - trinkt
 ---
 
-Ihr ___ Wasser nach dem Sport. (Präsensform — trinken)
+Ihr ___ Wasser nach dem Sport. (Präsens + Verb trinken)

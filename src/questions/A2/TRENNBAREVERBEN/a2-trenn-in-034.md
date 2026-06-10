@@ -5,4 +5,4 @@ correct:
   - stehe
 ---
 
-Ich ___ früh auf. (Trennbares Verb — aufstehen)
+Ich ___ früh auf. (Trennbares Verb + Verb aufstehen)

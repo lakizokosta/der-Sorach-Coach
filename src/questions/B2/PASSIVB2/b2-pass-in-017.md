@@ -5,4 +5,4 @@ correct:
   - sind
 ---
 
-Die Kandidaten ___ benachrichtigt worden. (Passivform — wurden)
+Die Kandidaten ___ benachrichtigt worden. (Passiv + Verb sein)

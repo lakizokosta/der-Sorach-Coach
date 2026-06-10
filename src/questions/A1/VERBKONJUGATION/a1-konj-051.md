@@ -9,4 +9,4 @@ options:
 correct: regnet
 ---
 
-Es ___ heute den ganzen Tag. (Präsensform — regnen)
+Es ___ heute den ganzen Tag. (Präsens + Verb regnen)

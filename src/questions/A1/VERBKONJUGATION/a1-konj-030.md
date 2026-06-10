@@ -9,4 +9,4 @@ options:
 correct: wohnen
 ---
 
-Wir ___ in einer kleinen Wohnung. (Präsensform — wohnen)
+Wir ___ in einer kleinen Wohnung. (Präsens + Verb antworten)

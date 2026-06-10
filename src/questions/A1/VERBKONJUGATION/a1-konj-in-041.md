@@ -5,4 +5,4 @@ correct:
   - gibst
 ---
 
-Du ___ deiner Mutter die Blume. (Präsensform — kochen)
+Du ___ deiner Mutter die Blume. (Präsens + Verb geben)

@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Ich ___ den Bus verpasst. (Perfektform — haben)
+Ich ___ den Bus verpasst. (Perfekt + Hilfsverb haben)

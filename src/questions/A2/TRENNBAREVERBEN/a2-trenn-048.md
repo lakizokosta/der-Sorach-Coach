@@ -9,4 +9,4 @@ options:
 correct: mache
 ---
 
-Ich ___ die Lampe an. (Trennbares Verb — ausgehen)
+Ich ___ die Lampe an. (Trennbares Verb + Verb anmachen)

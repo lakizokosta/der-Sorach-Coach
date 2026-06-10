@@ -9,4 +9,4 @@ options:
 correct: haben
 ---
 
-Wir ___ ein neues Lied gesungen. (Perfektform — haben)
+Wir ___ ein neues Lied gesungen. (Perfekt + Hilfsverb haben)

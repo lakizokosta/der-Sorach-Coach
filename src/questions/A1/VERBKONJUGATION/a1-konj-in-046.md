@@ -5,4 +5,4 @@ correct:
   - stehen
 ---
 
-Wir ___ zusammen auf. (Präsensform — lernen)
+Wir ___ zusammen auf. (Präsens + Verb aufstehen)

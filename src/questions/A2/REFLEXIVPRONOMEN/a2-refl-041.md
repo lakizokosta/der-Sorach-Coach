@@ -9,4 +9,4 @@ options:
 correct: sollst
 ---
 
-Du ___ dich ausruhen. (Reflexivform — erkälten)
+Du ___ dich ausruhen. (Reflexiv + Verb erkälten)

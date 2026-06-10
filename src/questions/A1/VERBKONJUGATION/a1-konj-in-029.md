@@ -5,4 +5,4 @@ correct:
   - frage
 ---
 
-Ich ___ den Lehrer. (Präsensform — arbeiten)
+Ich ___ den Lehrer. (Präsens + Verb fragen)

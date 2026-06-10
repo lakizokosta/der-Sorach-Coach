@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Du ___ dir Zeit zum Ausruhen. (lassen + Infinitiv)
+Du ___ dir Zeit zum Ausruhen. (lassen + Verb Ausruhen)

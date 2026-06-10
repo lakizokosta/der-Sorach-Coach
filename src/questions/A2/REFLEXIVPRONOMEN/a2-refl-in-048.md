@@ -5,4 +5,4 @@ correct:
   - bereitet
 ---
 
-Sie ___ sich für das Fest. (Reflexivform — getroffen)
+Sie ___ sich für das Fest. (Reflexiv + Verb vorbereiten)

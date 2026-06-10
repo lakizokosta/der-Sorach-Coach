@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Du ___ dir die Zähne kontrollieren. (lassen + Infinitiv)
+Du ___ dir die Zähne kontrollieren. (lassen + Verb kontrollieren)

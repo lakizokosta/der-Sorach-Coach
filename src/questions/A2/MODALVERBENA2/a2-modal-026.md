@@ -9,4 +9,4 @@ options:
 correct: sollst
 ---
 
-Du ___ den Arzt anrufen. (Modalverbform — müssen)
+Du ___ den Arzt anrufen. (Modalverb + Verb sollen)

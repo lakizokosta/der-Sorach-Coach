@@ -9,4 +9,4 @@ options:
 correct: spiele
 ---
 
-Ich ___ Fußball im Park. (Präsensform — spielen)
+Ich ___ Fußball im Park. (Präsens + Verb waschen)

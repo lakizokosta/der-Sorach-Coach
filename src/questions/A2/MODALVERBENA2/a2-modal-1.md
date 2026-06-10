@@ -9,4 +9,4 @@ options:
 correct: muss
 ---
 
-Ich ___ heute arbeiten. (Modalverbform — müssen)
+Ich ___ heute arbeiten. (Modalverb + Verb sollen)

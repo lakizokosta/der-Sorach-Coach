@@ -5,4 +5,4 @@ correct:
   - putzt
 ---
 
-Er ___ das Zimmer. (Präsensform — kaufen)
+Er ___ das Zimmer. (Präsens + Verb putzen)

@@ -5,4 +5,4 @@ correct:
   - trank
 ---
 
-Er ___ viel Wasser beim Sport. (Präteritumsform — geschlafen)
+Er ___ viel Wasser beim Sport. (Präteritum + Verb trinken)

@@ -9,4 +9,4 @@ options:
 correct: machst
 ---
 
-Du ___ gut auf. (Trennbares Verb — machen)
+Du ___ gut auf. (Trennbares Verb + Verb ausmachen)

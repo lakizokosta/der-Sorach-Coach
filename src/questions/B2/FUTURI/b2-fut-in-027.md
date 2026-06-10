@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Man ___ (werden) die Reform umsetzen. (Futurform — wären)
+Man ___ (werden) die Reform umsetzen. (Futur + Verb werden)

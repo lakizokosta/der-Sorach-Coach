@@ -5,4 +5,4 @@ correct:
   - stehe
 ---
 
-Ich ___ um 7 Uhr auf. (Präsensform — arbeiten)
+Ich ___ um 7 Uhr auf. (Präsens + Verb aufstehen)

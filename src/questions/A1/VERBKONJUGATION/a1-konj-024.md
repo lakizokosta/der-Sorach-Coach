@@ -9,4 +9,4 @@ options:
 correct: lesen
 ---
 
-Meine Freunde ___ ein Buch über Reisen. (Präsensform — machen)
+Meine Freunde ___ ein Buch über Reisen. (Präsens + Verb helfen)

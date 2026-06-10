@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Das Gesetz ___ gestern vom Parlament verabschiedet. (Passivform — geworden)
+Das Gesetz ___ gestern vom Parlament verabschiedet. (Passiv + Verb verabschiedeen)

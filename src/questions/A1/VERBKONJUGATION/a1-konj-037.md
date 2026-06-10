@@ -9,4 +9,4 @@ options:
 correct: kaufst
 ---
 
-Du ___ Brot im Supermarkt. (Präsensform — kaufen)
+Du ___ Brot im Supermarkt. (Präsens + Verb putzen)

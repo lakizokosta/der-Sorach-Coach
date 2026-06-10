@@ -5,4 +5,4 @@ correct:
   - interessiere
 ---
 
-Ich ___ mich sehr für den Tanzsport. (Reflexivform — gewaschen)
+Ich ___ mich sehr für den Tanzsport. (Reflexiv + Verb interessieren)

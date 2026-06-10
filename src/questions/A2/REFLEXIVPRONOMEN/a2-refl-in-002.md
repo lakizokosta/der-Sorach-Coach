@@ -5,4 +5,4 @@ correct:
   - freut
 ---
 
-Er ___ sich auf die Prüfung. (Reflexivform — freuen)
+Er ___ sich auf die Prüfung. (Reflexiv + Verb freuen)

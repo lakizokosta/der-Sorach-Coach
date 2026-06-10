@@ -5,4 +5,4 @@ correct:
   - wurden
 ---
 
-Die Verhandlungen ___ abgeschlossen. (Passivform — worden)
+Die Verhandlungen ___ abgeschlossen. (Passiv + Hilfsverb werden)

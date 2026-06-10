@@ -5,4 +5,4 @@ correct:
   - wäre
 ---
 
-Er benimmt sich, als ___ er der Chef. (Konjunktiv-II-Form)
+Er benimmt sich, als ___ er der Chef. (Konjunktiv II + Verb sein)

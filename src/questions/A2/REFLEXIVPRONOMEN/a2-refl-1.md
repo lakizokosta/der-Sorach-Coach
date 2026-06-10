@@ -9,4 +9,4 @@ options:
 correct: mich
 ---
 
-Ich freue ___ auf die Ferien. (Reflexivform)
+Ich freue ___ auf die Ferien. (Reflexiv + Verb waschen)

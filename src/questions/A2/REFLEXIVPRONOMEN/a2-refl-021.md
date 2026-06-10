@@ -9,4 +9,4 @@ options:
 correct: musst
 ---
 
-Du ___ dich anziehen. (Reflexivform — beeilen)
+Du ___ dich anziehen. (Reflexiv + Verb beeilen)

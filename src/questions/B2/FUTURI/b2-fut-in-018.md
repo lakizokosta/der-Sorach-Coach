@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Er ___ (werden) wohl erst morgen ankommen. (Futurform)
+Er ___ (werden) wohl erst morgen ankommen. (Futur + Verb werden)

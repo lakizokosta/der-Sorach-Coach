@@ -5,4 +5,4 @@ correct:
   - fühle
 ---
 
-Ich ___ mich nicht gut. (Reflexivform — gewaschen)
+Ich ___ mich nicht gut. (Reflexiv + Verb fühlen)

@@ -5,4 +5,4 @@ correct:
   - Stehst
 ---
 
-___ du früh auf? (Präsensform — wohnen)
+___ du früh auf? (Präsens + Verb aufstehen)

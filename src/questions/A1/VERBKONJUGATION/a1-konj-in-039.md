@@ -5,4 +5,4 @@ correct:
   - fahrt
 ---
 
-Ihr ___ nach Österreich. (Präsensform — machen)
+Ihr ___ nach Österreich. (Präsens + Verb fahren)

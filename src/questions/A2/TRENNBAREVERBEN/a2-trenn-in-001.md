@@ -5,4 +5,4 @@ correct:
   - stehst
 ---
 
-Wann ___ du auf? (Trennbares Verb — stehen)
+Wann ___ du auf? (Trennbares Verb + Verb aufstehen)

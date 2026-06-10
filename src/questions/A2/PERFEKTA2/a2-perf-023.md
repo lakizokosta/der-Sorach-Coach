@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Er ___ Fußball gespielt. (Perfektform — sein)
+Er ___ Fußball gespielt. (Perfekt + Hilfsverb sein)

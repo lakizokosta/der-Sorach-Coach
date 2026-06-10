@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Die Temperaturen ___ (werden) in den nächsten Tagen sinken. (Futurform — würden)
+Die Temperaturen ___ (werden) in den nächsten Tagen sinken. (Futur + Verb werden)

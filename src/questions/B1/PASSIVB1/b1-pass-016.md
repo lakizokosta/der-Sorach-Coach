@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Das neue Gesetz ___ morgen verabschiedet. (Passivform)
+Das neue Gesetz ___ morgen verabschiedet. (Passiv + Verb verabschiedeen)

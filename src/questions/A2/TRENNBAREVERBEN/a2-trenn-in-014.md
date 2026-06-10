@@ -5,4 +5,4 @@ correct:
   - fülle
 ---
 
-Ich ___ das Formular auf der Post aus. (Trennbares Verb — füllen)
+Ich ___ das Formular auf der Post aus. (Trennbares Verb + Verb ausfüllen)

@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Die Prüfung ___ in zwei Räumen durchgeführt. (Passivform)
+Die Prüfung ___ in zwei Räumen durchgeführt. (Passiv + Verb hren)

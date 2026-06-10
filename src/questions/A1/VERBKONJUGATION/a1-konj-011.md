@@ -9,4 +9,4 @@ options:
 correct: kocht
 ---
 
-Ihr ___ Pasta zum Abendessen. (Präsensform — kochen)
+Ihr ___ Pasta zum Abendessen. (Präsens + Verb trinken)

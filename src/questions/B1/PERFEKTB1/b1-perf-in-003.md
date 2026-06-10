@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Sie ___ sich für den Kurs angemeldet. (Perfektform — haben)
+Sie ___ sich für den Kurs angemeldet. (Perfekt + Hilfsverb haben)

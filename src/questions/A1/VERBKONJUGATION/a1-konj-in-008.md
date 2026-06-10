@@ -5,4 +5,4 @@ correct:
   - wohne
 ---
 
-Ich ___ in einer kleinen Wohnung. (Präsensform — fahren)
+Ich ___ in einer kleinen Wohnung. (Präsens + Verb wohnen)

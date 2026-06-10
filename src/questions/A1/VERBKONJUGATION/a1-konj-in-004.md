@@ -5,4 +5,4 @@ correct:
   - liest
 ---
 
-Anna ___ jeden Abend ein Buch. (Präsensform)
+Anna ___ jeden Abend ein Buch. (Präsens + Verb lesen)

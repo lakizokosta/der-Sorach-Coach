@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Neue Regeln ___ derzeit diskutiert. (Passivform — geworden)
+Neue Regeln ___ derzeit diskutiert. (Passiv + Hilfsverb werden)

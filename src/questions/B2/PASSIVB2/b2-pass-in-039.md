@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Das Problem ___ leider nicht gelöst. (Passivform — worden)
+Das Problem ___ leider nicht gelöst. (Passiv + Hilfsverb werden)

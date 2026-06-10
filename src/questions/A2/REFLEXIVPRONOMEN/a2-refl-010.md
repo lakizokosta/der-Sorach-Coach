@@ -9,4 +9,4 @@ options:
 correct: sieht
 ---
 
-Sie ___ sich im Spiegel. (Reflexivform — gesehen)
+Sie ___ sich im Spiegel. (Reflexiv + Verb sehen)

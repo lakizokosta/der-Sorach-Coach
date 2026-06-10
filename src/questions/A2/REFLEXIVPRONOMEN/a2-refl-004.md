@@ -9,4 +9,4 @@ options:
 correct: beeilt
 ---
 
-Sie ___ sich schnell. (Reflexivform — beeilen)
+Sie ___ sich schnell. (Reflexiv + Verb beeilen)

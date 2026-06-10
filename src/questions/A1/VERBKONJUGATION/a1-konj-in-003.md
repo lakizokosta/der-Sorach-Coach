@@ -5,4 +5,4 @@ correct:
   - fährt
 ---
 
-Peter ___ mit dem Bus zur Arbeit. (Präsensform)
+Peter ___ mit dem Bus zur Arbeit. (Präsens + Verb fahren)

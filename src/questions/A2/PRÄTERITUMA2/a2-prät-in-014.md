@@ -5,4 +5,4 @@ correct:
   - zog
 ---
 
-Sie ___ nach Berlin. (Präteritumsform — ziehen)
+Sie ___ nach Berlin. (Präteritum + Verb ziehen)

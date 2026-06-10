@@ -5,4 +5,4 @@ correct:
   - verletzt
 ---
 
-Er ___ sich beim Sport den Rücken. (Reflexivform — freuen)
+Er ___ sich beim Sport den Rücken. (Reflexiv + Verb verletzen)

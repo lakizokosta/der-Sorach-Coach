@@ -5,4 +5,4 @@ correct:
   - hört
 ---
 
-Tom ___ gern Popmusik. (Präsensform — schreiben)
+Tom ___ gern Popmusik. (Präsens + Verb hören)

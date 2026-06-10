@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Er ___ sich impfen. (lassen + Infinitiv)
+Er ___ sich impfen. (lassen + Verb impfen)

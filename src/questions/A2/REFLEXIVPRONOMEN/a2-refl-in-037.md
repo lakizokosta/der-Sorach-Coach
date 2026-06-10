@@ -5,4 +5,4 @@ correct:
   - treffen
 ---
 
-Wir ___ uns um 8 Uhr vor dem Hotel. (Reflexivform — gewaschen)
+Wir ___ uns um 8 Uhr vor dem Hotel. (Reflexiv + Verb treffen)

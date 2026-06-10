@@ -9,4 +9,4 @@ options:
 correct: Darf
 ---
 
-___ man hier fotografieren? (Modalverbform — wollen)
+___ man hier fotografieren? (Modalverb + Verb dürfen)

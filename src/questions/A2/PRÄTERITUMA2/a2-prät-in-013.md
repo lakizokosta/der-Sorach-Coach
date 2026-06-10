@@ -5,4 +5,4 @@ correct:
   - warteten
 ---
 
-Wir ___ lange auf den Bus. (Präteritumsform — warteten)
+Wir ___ lange auf den Bus. (Präteritum + Verb warten)

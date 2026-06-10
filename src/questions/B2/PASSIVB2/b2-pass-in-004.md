@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Der Bericht ___ bis Freitag fertiggestellt. (Passivform — worden)
+Der Bericht ___ bis Freitag fertiggestellt. (Passiv + Hilfsverb werden)

@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Das Gesetz ___ gestern verabschiedet. (Passivform — worden)
+Das Gesetz ___ gestern verabschiedet. (Passiv + Hilfsverb werden)

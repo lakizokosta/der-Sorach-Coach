@@ -5,4 +5,4 @@ correct:
   - könntest
 ---
 
-Du ___ auch mitmachen. (Modalverbform — können)
+Du ___ auch mitmachen. (Modalverb + Verb können)

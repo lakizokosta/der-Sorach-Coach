@@ -9,4 +9,4 @@ options:
 correct: wäscht
 ---
 
-Er ___ sich die Hände. (Reflexivform — gewaschen)
+Er ___ sich die Hände. (Reflexiv + Verb interessieren)

@@ -9,4 +9,4 @@ options:
 correct: muss
 ---
 
-Ich ___ heute nicht arbeiten. (Modalverbform — dürfen)
+Ich ___ heute nicht arbeiten. (Modalverb + Verb müssen)

@@ -5,4 +5,4 @@ correct:
   - haben
 ---
 
-Wir ___ zusammen Pizza gegessen. (Perfektform — haben)
+Wir ___ zusammen Pizza gegessen. (Perfekt + Hilfsverb haben)

@@ -5,4 +5,4 @@ correct:
   - waren
 ---
 
-Wir ___ in der Schule. (Präteritumsform — sein)
+Wir ___ in der Schule. (Präteritum + Verb sein)

@@ -5,4 +5,4 @@ correct:
   - grillen
 ---
 
-Im Sommer ___ wir im Garten. (Präsensform — fahren)
+Im Sommer ___ wir im Garten. (Präsens + Verb grillen)

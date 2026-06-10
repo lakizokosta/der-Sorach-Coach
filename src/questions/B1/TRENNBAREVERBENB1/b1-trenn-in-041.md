@@ -5,4 +5,4 @@ correct:
   - checkt
 ---
 
-Sie ___ um 22 Uhr ein. (Trennbares Verb — checken)
+Sie ___ um 22 Uhr ein. (Trennbares Verb + Verb einchecken)

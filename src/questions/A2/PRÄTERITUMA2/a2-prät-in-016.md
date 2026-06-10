@@ -5,4 +5,4 @@ correct:
   - sollte
 ---
 
-Er ___ Detektiv werden. (Präteritumsform — spielen)
+Er ___ Detektiv werden. (Präteritum + Verb sollen)

@@ -9,4 +9,4 @@ options:
 correct: essen
 ---
 
-Sie ___ Obst zum Frühstück. (Präsensform — machen)
+Sie ___ Obst zum Frühstück. (Präsens + Verb gehen)

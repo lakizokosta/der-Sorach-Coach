@@ -5,4 +5,4 @@ correct: habe
 hint: "Perfekt mit haben — ich-Form."
 ---
 
-Als Kind ___ ich oft im Park gespielt. (Präteritumsform — haben)
+Als Kind ___ ich oft im Park gespielt. (Präteritum + Verb spielen)

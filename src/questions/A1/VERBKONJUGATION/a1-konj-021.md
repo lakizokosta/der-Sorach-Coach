@@ -9,4 +9,4 @@ options:
 correct: spielt
 ---
 
-Ihr ___ Fußball im Park. (Präsensform — spielen)
+Ihr ___ Fußball im Park. (Präsens + Verb finden)

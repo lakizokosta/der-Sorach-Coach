@@ -5,4 +5,4 @@ correct:
   - kaufte
 ---
 
-Sie ___ ein Geschenk für ihren Mann. (Präteritumsform — kaufen)
+Sie ___ ein Geschenk für ihren Mann. (Präteritum + Verb kaufen)

@@ -5,4 +5,4 @@ correct:
   - erholen
 ---
 
-Wir ___ uns im Schwimmbad. (Reflexivform — freuen)
+Wir ___ uns im Schwimmbad. (Reflexiv + Verb erholen)

@@ -9,4 +9,4 @@ options:
 correct: macht
 ---
 
-Sie ___ das Licht aus. (Trennbares Verb — ankommen)
+Sie ___ das Licht aus. (Trennbares Verb + Verb ausmachen)

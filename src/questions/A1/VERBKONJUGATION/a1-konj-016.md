@@ -9,4 +9,4 @@ options:
 correct: lerne
 ---
 
-Ich ___ Deutsch für die Schule. (Präsensform — lernen)
+Ich ___ Deutsch für die Schule. (Präsens + Verb arbeiten)

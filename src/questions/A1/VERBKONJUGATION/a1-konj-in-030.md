@@ -5,4 +5,4 @@ correct:
   - antwortest
 ---
 
-Du ___ bitte laut. (Präsensform — wohnen)
+Du ___ bitte laut. (Präsens + Verb antworten)

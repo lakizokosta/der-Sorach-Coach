@@ -9,4 +9,4 @@ options:
 correct: hast
 ---
 
-Du ___ schon viel gelernt. (Perfektform — haben)
+Du ___ schon viel gelernt. (Perfekt + Hilfsverb haben)

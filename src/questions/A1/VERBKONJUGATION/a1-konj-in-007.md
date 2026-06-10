@@ -5,4 +5,4 @@ correct:
   - singen
 ---
 
-Die Kinder ___ ein Lied. (Präsensform — kaufen)
+Die Kinder ___ ein Lied. (Präsens + Verb singen)

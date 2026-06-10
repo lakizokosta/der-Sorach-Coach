@@ -5,4 +5,4 @@ correct:
   - hätte
 ---
 
-Ich ___ gern ein bisschen Ruhe haben. (Modalverbform — möchten)
+Ich ___ gern ein bisschen Ruhe haben. (Modalverb + Verb möchten)

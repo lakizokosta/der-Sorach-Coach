@@ -167,16 +167,10 @@ export function transformHint(inner, topic, correct, options = [], body = '', id
     return `${label} — ${rest}`;
   }
 
-  // Verb — Präsensform + infinitive (not person)
+  // Verb — Präsens + Verb (not person)
   if (topic === 'VERBKONJUGATION') {
-    const lemma = parseVerbLemmaFromInner(inner);
-    if (lemma) return `Präsensform — ${lemma}`;
-    if (/^verbkonjugation/i.test(inner)) return inner;
-    const parts = inner.split(',').map((s) => s.trim());
-    if (parts.length >= 2 && !hintLeaksAnswer(parts[0], correct)) {
-      return `Präsensform — ${parts[0]}`;
-    }
-    return 'Präsensform';
+    const hint = verbFormHint(topic, inner, correct, options, body, id);
+    if (hint) return hint;
   }
 
   // Wechselpräpositionen — drop example preposition

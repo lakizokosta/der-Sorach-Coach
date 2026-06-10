@@ -5,4 +5,4 @@ correct:
   - kochen
 ---
 
-Wir ___ zusammen Pasta. (Präsensform)
+Wir ___ zusammen Pasta. (Präsens + Verb kochen)

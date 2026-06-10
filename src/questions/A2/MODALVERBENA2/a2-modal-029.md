@@ -9,4 +9,4 @@ options:
 correct: muss
 ---
 
-Er ___ pünktlich sein. (Modalverbform — können)
+Er ___ pünktlich sein. (Modalverb + Verb können)

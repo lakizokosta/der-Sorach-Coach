@@ -5,4 +5,4 @@ correct:
   - bezahlt
 ---
 
-Er ___ an der Kasse. (Präsensform — lernen)
+Er ___ an der Kasse. (Präsens + Verb bezahlen)

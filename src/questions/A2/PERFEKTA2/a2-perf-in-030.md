@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Er ___ seine Hausaufgaben gemacht. (Perfektform — haben)
+Er ___ seine Hausaufgaben gemacht. (Perfekt + Hilfsverb haben)

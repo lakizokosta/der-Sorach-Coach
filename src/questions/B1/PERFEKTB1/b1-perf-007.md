@@ -9,4 +9,4 @@ options:
 correct: haben
 ---
 
-Wir ___ die Rechnung schon bezahlt. (Perfektform — haben)
+Wir ___ die Rechnung schon bezahlt. (Perfekt + Hilfsverb haben)

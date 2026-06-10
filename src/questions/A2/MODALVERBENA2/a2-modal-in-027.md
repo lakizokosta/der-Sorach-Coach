@@ -5,4 +5,4 @@ correct:
   - wollen
 ---
 
-Wir ___ heute ins Schwimmbad gehen. (Modalverbform — wollen)
+Wir ___ heute ins Schwimmbad gehen. (Modalverb + Verb wollen)

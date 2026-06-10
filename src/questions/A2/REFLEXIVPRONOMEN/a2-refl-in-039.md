@@ -5,4 +5,4 @@ correct:
   - interessiere
 ---
 
-Ich ___ mich sehr für den Tanzsport. (Reflexivform — interessieren)
+Ich ___ mich sehr für den Tanzsport. (Reflexiv + Verb interessieren)

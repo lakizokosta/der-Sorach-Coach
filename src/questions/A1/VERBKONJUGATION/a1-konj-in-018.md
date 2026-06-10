@@ -5,4 +5,4 @@ correct:
   - macht
 ---
 
-Er ___ die Hausaufgaben. (Präsensform — trinken)
+Er ___ die Hausaufgaben. (Präsens + Verb machen)

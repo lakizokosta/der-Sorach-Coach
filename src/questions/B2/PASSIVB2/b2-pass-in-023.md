@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Die Brücke ___ im nächsten Jahr renoviert. (Passivform — worden)
+Die Brücke ___ im nächsten Jahr renoviert. (Passiv + Hilfsverb werden)

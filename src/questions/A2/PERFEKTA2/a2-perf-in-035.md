@@ -5,4 +5,4 @@ correct:
   - bin
 ---
 
-Ich ___ gestern viele Leute kennengelernt. (Perfektform — sein)
+Ich ___ gestern viele Leute kennengelernt. (Perfekt + Hilfsverb sein)

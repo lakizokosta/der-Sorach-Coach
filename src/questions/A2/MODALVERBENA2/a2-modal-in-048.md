@@ -5,4 +5,4 @@ correct:
   - muss
 ---
 
-Er ___ pünktlich zur Arbeit sein. (Modalverbform — müssen)
+Er ___ pünktlich zur Arbeit sein. (Modalverb + Verb müssen)

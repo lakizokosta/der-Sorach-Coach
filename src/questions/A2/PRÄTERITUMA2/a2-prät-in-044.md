@@ -5,4 +5,4 @@ correct:
   - war
 ---
 
-Sie ___ sehr freundlich am Bankschalter. (Präteritumsform — gezogen)
+Sie ___ sehr freundlich am Bankschalter. (Präteritum + Verb sein)

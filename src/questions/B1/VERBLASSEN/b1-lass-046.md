@@ -9,4 +9,4 @@ options:
 correct: lasse
 ---
 
-Ich ___ das Auto reparieren. (lassen-Form)
+Ich ___ das Auto reparieren. (lassen + Verb reparieren)

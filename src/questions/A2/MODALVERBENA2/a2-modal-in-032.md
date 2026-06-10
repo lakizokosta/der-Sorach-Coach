@@ -5,4 +5,4 @@ correct:
   - wollen
 ---
 
-Wir ___ am Wochenende ausruhen. (Modalverbform — wollen)
+Wir ___ am Wochenende ausruhen. (Modalverb + Verb wollen)

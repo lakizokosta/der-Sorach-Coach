@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Ergebnisse ___ nächste Woche bekannt gegeben. (Passivform — werden)
+Die Ergebnisse ___ nächste Woche bekannt gegeben. (Passiv + Hilfsverb werden)

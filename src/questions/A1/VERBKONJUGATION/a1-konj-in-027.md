@@ -5,4 +5,4 @@ correct:
   - Siehst
 ---
 
-___ du den Turm? (Präsensform — tanzen)
+___ du den Turm? (Präsens + Verb sehen)

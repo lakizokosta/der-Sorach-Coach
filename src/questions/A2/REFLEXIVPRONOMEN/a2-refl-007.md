@@ -9,4 +9,4 @@ options:
 correct: wäscht
 ---
 
-Er ___ sich die Hände. (Reflexivform — waschen)
+Er ___ sich die Hände. (Reflexiv + Verb erkälten)

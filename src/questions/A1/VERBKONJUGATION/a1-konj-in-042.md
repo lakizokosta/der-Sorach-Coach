@@ -5,4 +5,4 @@ correct:
   - bringt
 ---
 
-Er ___ das Essen mit. (Präsensform — tanzen)
+Er ___ das Essen mit. (Präsens + Verb bringen)

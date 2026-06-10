@@ -5,4 +5,4 @@ correct:
   - lasse
 ---
 
-Ich ___ mir eine zweite Meinung geben. (lassen-Form)
+Ich ___ mir eine zweite Meinung geben. (lassen + Verb geben)

@@ -5,4 +5,4 @@ correct:
   - sehen
 ---
 
-Wir ___ uns jeden Tag nach der Arbeit. (Reflexivform — verletzen)
+Wir ___ uns jeden Tag nach der Arbeit. (Reflexiv + Verb sehen)

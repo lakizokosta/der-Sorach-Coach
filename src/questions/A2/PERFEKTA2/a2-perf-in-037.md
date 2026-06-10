@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Er ___ den ganzen Tag im Büro gearbeitet. (Perfektform — haben)
+Er ___ den ganzen Tag im Büro gearbeitet. (Perfekt + Hilfsverb haben)

@@ -5,4 +5,4 @@ correct:
   - rufe
 ---
 
-Ich ___ meine Freundin an. (Trennbares Verb — einfahren)
+Ich ___ meine Freundin an. (Trennbares Verb + Verb anrufen)

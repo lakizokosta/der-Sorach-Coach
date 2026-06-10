@@ -9,4 +9,4 @@ options:
 correct: sollst
 ---
 
-Du ___ leiser sprechen. (Modalverbform — wollen)
+Du ___ leiser sprechen. (Modalverb + Verb sollen)

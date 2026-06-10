@@ -5,4 +5,4 @@ correct:
   - kaufst
 ---
 
-Du ___ heute Brot und Milch. (Präsensform)
+Du ___ heute Brot und Milch. (Präsens + Verb kaufen)

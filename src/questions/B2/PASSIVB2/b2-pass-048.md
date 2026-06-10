@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Der Antrag ___ abgelehnt. (Passivform — worden)
+Der Antrag ___ abgelehnt. (Passiv + Hilfsverb werden)

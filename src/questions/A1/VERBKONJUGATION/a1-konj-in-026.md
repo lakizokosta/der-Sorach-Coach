@@ -5,4 +5,4 @@ correct:
   - brauche
 ---
 
-Ich ___ einen Termin beim Arzt. (Präsensform — kochen)
+Ich ___ einen Termin beim Arzt. (Präsens + Verb brauchen)

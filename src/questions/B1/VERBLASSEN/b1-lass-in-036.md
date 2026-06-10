@@ -5,4 +5,4 @@ correct:
   - lasse
 ---
 
-Ich ___ mir den Vertrag erklären. (lassen-Form)
+Ich ___ mir den Vertrag erklären. (lassen + Verb erklären)

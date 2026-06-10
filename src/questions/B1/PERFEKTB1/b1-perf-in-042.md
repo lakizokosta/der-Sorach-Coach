@@ -5,4 +5,4 @@ correct:
   - sind
 ---
 
-Wir ___ den ganzen Tag gereist. (Perfektform — sein)
+Wir ___ den ganzen Tag gereist. (Perfekt + Hilfsverb sein)

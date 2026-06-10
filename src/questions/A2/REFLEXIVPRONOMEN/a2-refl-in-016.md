@@ -5,4 +5,4 @@ correct:
   - kümmert
 ---
 
-Er ___ sich um die Hausaufgaben. (Reflexivform — waschen)
+Er ___ sich um die Hausaufgaben. (Reflexiv + Verb kümmern)

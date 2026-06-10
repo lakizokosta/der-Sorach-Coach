@@ -186,6 +186,8 @@ const BANK = {
   ],
 };
 
+export { BANK };
+
 export function getBank(topic) {
   const items = BANK[topic];
   if (!items) return null;

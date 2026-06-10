@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Die Experten ___ (werden) die Ergebnisse veröffentlichen. (Futurform — wären)
+Die Experten ___ (werden) die Ergebnisse veröffentlichen. (Futur + Verb werden)

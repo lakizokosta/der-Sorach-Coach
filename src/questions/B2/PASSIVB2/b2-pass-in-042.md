@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Der Termin ___ verschoben. (Passivform — geworden)
+Der Termin ___ verschoben. (Passiv + Hilfsverb werden)

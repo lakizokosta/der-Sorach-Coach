@@ -5,4 +5,4 @@ correct:
   - war
 ---
 
-Ich ___ müde und ging schlafen. (Präteritumsform — sein)
+Ich ___ müde und ging schlafen. (Präteritum + Verb sein)

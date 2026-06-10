@@ -9,4 +9,4 @@ options:
 correct: freue
 ---
 
-Ich ___ mich auf den Urlaub. (Reflexivform — freuen)
+Ich ___ mich auf den Urlaub. (Reflexiv + Verb verletzen)

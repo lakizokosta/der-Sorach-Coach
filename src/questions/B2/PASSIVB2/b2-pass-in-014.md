@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Der Antrag ___ abgelehnt. (Passivform — geworden)
+Der Antrag ___ abgelehnt. (Passiv + Hilfsverb werden)

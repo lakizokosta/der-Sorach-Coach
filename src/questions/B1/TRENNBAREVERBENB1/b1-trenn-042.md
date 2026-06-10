@@ -9,4 +9,4 @@ options:
 correct: rufe
 ---
 
-Ich ___ den Kollegen später an. (Trennbares Verb — ankommen)
+Ich ___ den Kollegen später an. (Trennbares Verb + Verb anmelden)

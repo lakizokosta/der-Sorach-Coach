@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Ich ___ die ganze Nacht gearbeitet. (Perfektform — haben)
+Ich ___ die ganze Nacht gearbeitet. (Perfekt + Hilfsverb haben)

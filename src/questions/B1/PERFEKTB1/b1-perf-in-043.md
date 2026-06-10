@@ -5,4 +5,4 @@ correct:
   - hat
 ---
 
-Sie ___ ein wichtiges Gespräch geführt. (Perfektform — haben)
+Sie ___ ein wichtiges Gespräch geführt. (Perfekt + Hilfsverb haben)

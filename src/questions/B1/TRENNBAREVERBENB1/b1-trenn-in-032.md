@@ -5,4 +5,4 @@ correct:
   - schickt
 ---
 
-Er ___ die wichtige E-Mail sofort an. (Trennbares Verb — ankommen)
+Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)

@@ -5,4 +5,4 @@ correct:
   - reisen
 ---
 
-Im Urlaub ___ wir gern. (Präsensform — arbeiten)
+Im Urlaub ___ wir gern. (Präsens + Verb reisen)

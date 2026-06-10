@@ -5,4 +5,4 @@ correct:
   - nehme
 ---
 
-Ich ___ den Zug um 8 Uhr. (Präsensform — schwimmen)
+Ich ___ den Zug um 8 Uhr. (Präsens + Verb nehmen)

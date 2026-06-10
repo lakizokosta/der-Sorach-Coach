@@ -9,4 +9,4 @@ options:
 correct: Darf
 ---
 
-___ ich hier parken? (Modalverbform — sollen)
+___ ich hier parken? (Modalverb + Verb sollen)
