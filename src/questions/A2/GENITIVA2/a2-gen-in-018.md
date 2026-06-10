@@ -2,7 +2,7 @@
 id: a2-gen-in-018
 type: input-text
 correct:
-  - Wegen des
+  - des
 ---
 
-___ Regens wegen bleiben wir zu Hause. (Genitiv — der Regen)
+Wegen ___ Regens wegen bleiben wir zu Hause. (Genitiv — der Regen)

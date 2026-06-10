@@ -2,7 +2,7 @@
 id: a2-gen-in-029
 type: input-text
 correct:
-  - Während der
+  - der
 ---
 
-___ Ferien freuen sich die Kinder. (Genitiv — die Ferien)
+Während ___ Ferien freuen sich die Kinder. (Genitiv — die Ferien)
