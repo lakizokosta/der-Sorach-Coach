@@ -6,7 +6,7 @@
  * Free/Basis: mini profile (XP, level, streak, daily goal, calendar).
  */
 
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
@@ -16,7 +16,11 @@ import { useStreak } from '@/composables/useStreak.js';
 import DailyGoalCard from '@/components/DailyGoalCard.vue';
 import { useAuth } from '@/composables/useAuth.js';
 import { PREMIUM_TOPICS, getAllTopics } from '@/data/premiumTopics.js';
+import ShareProgressCard from '@/components/ShareProgressCard.vue';
 import { shareProgressCard } from '@/utils/shareCard.js';
+import { useCefrLevel } from '@/composables/useCefrLevel.js';
+import { useNickname } from '@/composables/useNickname.js';
+import { SHARE_FORMAT } from '@/utils/shareCard.js';
 
 const router = useRouter();
 const { isPremium } = usePremium();
@@ -24,6 +28,9 @@ const { isLoggedIn } = useAuth();
 const { state: xp, level: liveLevel } = useXp();
 const { state: streak, medalsFor } = useStreak();
 const activeDaysCount = computed(() => (streak.activeDays || []).length);
+const { level: cefrLevel } = useCefrLevel();
+const { state: nicknameState, displayName, setNickname } = useNickname();
+const shareFormat = ref(SHARE_FORMAT.POST);
 
 const allTopics = getAllTopics();
 const masteredCount = computed(() => allTopics.filter((t) => isTopicMastered(t.key)).length);
@@ -43,6 +50,9 @@ function shareCard() {
     level: liveLevel.value,
     streak,
     isMastered: isTopicMastered,
+    cefrLevel: cefrLevel.value || '',
+    nickname: displayName.value,
+    format: shareFormat.value,
   });
 }
 </script>
@@ -259,98 +269,80 @@ function shareCard() {
           </div>
         </div>
 
-        <!-- Topic mastery -->
-        <div
-          style="
-            background: #fff;
-            border-radius: 16px;
-            padding: 16px;
-            border: 1px solid #e8d8f8;
-          "
-        >
-          <div style="font-size: 14px; font-weight: 900; margin-bottom: 12px;">
-            📚 Gemeisterte Themen
-            <span style="font-size: 12px; color: #AB4DBB; font-weight: 400;">
-              ({{ masteredCount }} / {{ allTopics.length }})
-            </span>
-          </div>
-          <div
-            style="
-              background: #ecdff8;
-              border-radius: 6px;
-              height: 8px;
-              overflow: hidden;
-              margin-bottom: 14px;
-            "
-          >
-            <div
-              style="
-                height: 8px;
-                border-radius: 6px;
-                background: linear-gradient(90deg, #43a047, #69c43b);
-                transition: width 0.8s;
-              "
-              :style="{ width: `${themePct}%` }"
-            />
-          </div>
+        <label class="profile-nickname">
+          <span class="profile-nickname__label">✏️ Dein Nickname</span>
+          <input
+            v-model="nicknameState.nickname"
+            type="text"
+            class="profile-nickname__input"
+            maxlength="24"
+            placeholder="Lernender"
+            autocomplete="nickname"
+            @change="setNickname(nicknameState.nickname)"
+            @blur="setNickname(nicknameState.nickname)"
+          />
+          <span class="profile-nickname__hint">Erscheint auf deiner Erfolgs-Karte</span>
+        </label>
 
-          <div
-            v-for="lvl in ['A1', 'A2', 'B1', 'B2']"
-            :key="lvl"
-            style="margin-bottom: 10px; text-align: left;"
-          >
-            <div
-              style="font-size: 11px; font-weight: 700; color: #AB4DBB; margin-bottom: 6px;"
-            >
-              {{ lvl }}
-            </div>
-            <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+        <ShareProgressCard
+          v-model:format="shareFormat"
+          :total-x-p="xp.totalXP"
+          :level="liveLevel"
+          :streak="streak"
+          :is-mastered="isTopicMastered"
+          :cefr-level="cefrLevel || ''"
+          :nickname="displayName"
+        />
+
+        <!-- Topic mastery (collapsed) -->
+        <details class="profile-topics">
+          <summary class="profile-topics__summary">
+            <span class="profile-topics__title">📚 Alle Themen</span>
+            <span class="profile-topics__meta">{{ masteredCount }} / {{ allTopics.length }} gemeistert</span>
+          </summary>
+          <div class="profile-topics__body">
+            <div class="profile-topics__bar-track">
               <div
-                v-for="t in PREMIUM_TOPICS[lvl]"
-                :key="t.key"
-                :title="`${t.name}: ${xp.topicCorrect[t.key.toUpperCase()] || 0}/50 richtig`"
-                style="
-                  font-size: 11px;
-                  padding: 3px 8px;
-                  border-radius: 12px;
-                  background: #f5f5f5;
-                  border: 1px solid #e0e0e0;
-                  color: #888;
-                "
-                :style="
-                  isTopicMastered(t.key)
-                    ? 'background:#e8f5e9;border-color:#a5d6a7;color:#2e7d32;'
-                    : ''
-                "
-              >
-                {{ isTopicMastered(t.key) ? '✅ ' : '' }}{{ t.name }}
+                class="profile-topics__bar-fill"
+                :style="{ width: `${themePct}%` }"
+              />
+            </div>
+            <div
+              v-for="lvl in ['A1', 'A2', 'B1', 'B2']"
+              :key="lvl"
+              class="profile-topics__level"
+            >
+              <div class="profile-topics__level-label">{{ lvl }}</div>
+              <div class="profile-topics__chips">
+                <span
+                  v-for="t in PREMIUM_TOPICS[lvl]"
+                  :key="t.key"
+                  class="profile-topics__chip"
+                  :class="{ 'profile-topics__chip--done': isTopicMastered(t.key) }"
+                  :title="`${t.name}: ${xp.topicCorrect[t.key.toUpperCase()] || 0}/50 richtig`"
+                >
+                  {{ isTopicMastered(t.key) ? '✅ ' : '' }}{{ t.name }}
+                </span>
               </div>
             </div>
           </div>
-        </div>
+        </details>
 
-        <div style="margin-top: 20px; display: flex; flex-direction: column; gap: 10px;">
-          <button
-            type="button"
-            @click="shareCard"
-            style="
-              width: 100%;
-              padding: 14px;
-              border: none;
-              border-radius: 14px;
-              background: linear-gradient(135deg, #C86DD7, #7B2D8B);
-              color: #fff;
-              font-weight: 900;
-              font-size: 15px;
-              cursor: pointer;
-            "
-          >
-            📤 Fortschritts-Karte teilen
+        <div class="profile-share-actions">
+          <button type="button" class="profile-share-btn" @click="shareCard">
+            📤
+            {{
+              shareFormat === SHARE_FORMAT.STORY
+                ? 'Story teilen (1080×1920)'
+                : 'Post teilen (1080×1080)'
+            }}
           </button>
+          <p class="profile-share-note">
+            Auf dem Handy direkt in Instagram oder Facebook teilen — sonst wird das Bild heruntergeladen.
+          </p>
           <button
             type="button"
-            class="soft-btn"
-            style="max-width: 100%; margin: 0;"
+            class="soft-btn profile-share-back"
             @click="router.push({ name: 'landing' })"
           >
             ← Zurück
