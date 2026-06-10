@@ -5,9 +5,10 @@
  * When Premium is NOT active, this screen shows (top to bottom):
  *   - An optional "Zeitlimit aufheben" Basis quick-buy banner when
  *     the user arrives from `?focus=basis`.
- *   - Unified account flow: Step 1 Magic Link login → Step 2 code
- *     activation (e-mail taken from the session). Optional trial block.
- *   - The Premium buy form (plan picker + Stripe + PayPal).
+ *   - The Premium buy form (plan picker + Stripe + PayPal) — first.
+ *   - Activation UI only after purchase: when the user is logged in
+ *     or arrived via `?activate=CODE` from the payment e-mail.
+ *   - Optional trial block.
  *
  * When Premium IS active, this screen shows:
  *   - The streak / XP summary.
@@ -53,19 +54,28 @@ const backendOn = hasBackend();
 
 const activeLevel = ref('A1');
 const code = ref('');
-/** Single e-mail field for login, trial, and checkout when not logged in. */
+/** E-mail for Stripe / PayPal checkout (no login required). */
+const buyEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
+/** E-mail for the post-purchase magic-link step only. */
 const accountEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
+/** Code stashed from `?activate=…` in the payment e-mail. */
+const pendingCode = ref('');
 const status = ref({ text: '', color: '#888' });
 const submitting = ref(false);
 
 const focusBasis = computed(() => route.query.focus === 'basis');
 const topics = computed(() => getTopicsForLevel(activeLevel.value));
 
-/** E-mail used for code activation, trial, and payment pre-fill. */
-const sharedEmail = computed(() =>
+/** E-mail used for checkout, trial, and payment pre-fill. */
+const emailForCheckout = computed(() =>
   isLoggedIn.value
     ? String(auth.email || '').trim().toLowerCase()
-    : accountEmail.value.trim().toLowerCase(),
+    : buyEmail.value.trim().toLowerCase(),
+);
+
+/** Show activation UI only after purchase e-mail or when already logged in. */
+const showActivationPanel = computed(
+  () => isLoggedIn.value || Boolean(pendingCode.value),
 );
 
 const plan = ref('1month');
@@ -81,24 +91,35 @@ const trialSubmitting = ref(false);
 watch(
   () => auth.email,
   (value) => {
-    if (value) accountEmail.value = value;
+    if (value) {
+      accountEmail.value = value;
+      buyEmail.value = value;
+    }
   },
 );
 
-onMounted(() => {
+function loadPendingCode() {
   try {
     const pending = sessionStorage.getItem(PENDING_CODE_KEY) || '';
-    if (pending && !code.value) {
-      code.value = pending.toUpperCase();
-      sessionStorage.removeItem(PENDING_CODE_KEY);
-      status.value = {
-        text: 'Code aus der E-Mail übernommen — bitte einloggen und aktivieren.',
-        color: '#AB4DBB',
-      };
-    }
+    if (!pending) return;
+    pendingCode.value = pending.toUpperCase();
+    if (!code.value) code.value = pendingCode.value;
   } catch {
     /* ignored */
   }
+}
+
+function clearPendingCode() {
+  pendingCode.value = '';
+  try {
+    sessionStorage.removeItem(PENDING_CODE_KEY);
+  } catch {
+    /* ignored */
+  }
+}
+
+onMounted(() => {
+  loadPendingCode();
 });
 
 /**
@@ -108,12 +129,12 @@ onMounted(() => {
  *   `buyStatus` to an error message and returns false.
  */
 function validateBuyForm() {
-  const value = sharedEmail.value;
+  const value = emailForCheckout.value;
   if (!value || !value.includes('@')) {
     buyStatus.value = {
       text: isLoggedIn.value
         ? '✖ Keine E-Mail in der Sitzung.'
-        : '✖ Bitte zuerst in Schritt 1 deine E-Mail eingeben.',
+        : '✖ Bitte deine E-Mail für den Code eingeben.',
       color: '#ed4545',
     };
     return false;
@@ -132,10 +153,10 @@ function validateBuyForm() {
  */
 function payWithStripe() {
   if (!validateBuyForm()) return;
-  const url = buildStripePremiumUrl(plan.value, sharedEmail.value);
+  const url = buildStripePremiumUrl(plan.value, emailForCheckout.value);
   window.open(url, '_blank', 'noopener');
   buyStatus.value = {
-    text: `💳 Stripe-Seite geöffnet. Nach der Zahlung erhältst du deinen Code per E-Mail an ${sharedEmail.value}.`,
+    text: `💳 Stripe-Seite geöffnet. Nach der Zahlung erhältst du deinen Code per E-Mail an ${emailForCheckout.value}.`,
     color: '#635BFF',
   };
 }
@@ -149,7 +170,7 @@ function payWithPaypal() {
   const url = buildPaypalUrl(plan.value);
   window.open(url, '_blank', 'noopener');
   buyStatus.value = {
-    text: `💳 PayPal-Seite geöffnet. Nach der Zahlung schicken wir den Code an ${sharedEmail.value}.`,
+    text: `💳 PayPal-Seite geöffnet. Nach der Zahlung schicken wir den Code an ${emailForCheckout.value}.`,
     color: '#0070BA',
   };
 }
@@ -160,10 +181,10 @@ function payWithPaypal() {
  * mini-form (or the stored userEmail) for pre-fill.
  */
 function payBasis() {
-  const value = sharedEmail.value;
+  const value = emailForCheckout.value;
   if (!value || !value.includes('@')) {
     buyStatus.value = {
-      text: '✖ Bitte zuerst deine E-Mail in Schritt 1 eingeben.',
+      text: '✖ Bitte deine E-Mail für den Code eingeben.',
       color: '#ed4545',
     };
     return;
@@ -196,7 +217,7 @@ async function submitCode() {
   }
   if (backendOn && !isLoggedIn.value) {
     status.value = {
-      text: '✖ Bitte zuerst in Schritt 1 einloggen (gleiche E-Mail wie beim Kauf).',
+      text: '✖ Bitte zuerst einloggen (Login-Link aus der Kauf-E-Mail oder unten anfordern).',
       color: '#ed4545',
     };
     return;
@@ -205,7 +226,7 @@ async function submitCode() {
   submitting.value = true;
   status.value = { text: 'Wird überprüft…', color: '#888' };
 
-  const emailForCode = backendOn ? auth.email : sharedEmail.value;
+  const emailForCode = backendOn ? auth.email : emailForCheckout.value;
   const res = await activateCode(trimmedCode, emailForCode);
   submitting.value = false;
 
@@ -215,6 +236,7 @@ async function submitCode() {
       color: '#69c43b',
     };
     code.value = '';
+    clearPendingCode();
     setTimeout(() => window.location.reload(), 1500);
   } else {
     status.value = { text: `✖ ${res.error}`, color: '#ed4545' };
@@ -261,12 +283,12 @@ async function submitMagicLink() {
  */
 async function submitTrial() {
   if (trialSubmitting.value) return;
-  const value = sharedEmail.value;
+  const value = emailForCheckout.value;
   if (!value || !value.includes('@')) {
     trialStatus.value = {
       text: isLoggedIn.value
         ? '✖ Keine E-Mail in der Sitzung.'
-        : '✖ Bitte zuerst in Schritt 1 deine E-Mail eingeben.',
+        : '✖ Bitte deine E-Mail eingeben.',
       color: '#ed4545',
     };
     return;
@@ -399,16 +421,16 @@ function topicMastered(key) {
               du den Aktivierungscode per E-Mail.
             </p>
             <p
-              v-if="sharedEmail"
+              v-if="emailForCheckout"
               style="font-size: 13px; color: #5b1f6a; margin: 0 0 10px 0;"
             >
-              📧 Code an: <strong>{{ sharedEmail }}</strong>
+              📧 Code an: <strong>{{ emailForCheckout }}</strong>
             </p>
             <p
               v-else
               style="font-size: 12px; color: #888; margin: 0 0 10px 0;"
             >
-              Gib unten in Schritt 1 deine E-Mail ein.
+              Gib unten deine E-Mail ein.
             </p>
             <button
               type="button"
@@ -432,170 +454,14 @@ function topicMastered(key) {
             </p>
           </div>
 
-          <section v-if="backendOn" class="premium-flow" aria-label="Konto und Aktivierung">
-            <div class="premium-flow__head">
-              <span class="premium-flow__title">👤 Konto &amp; Aktivierung</span>
-            </div>
-            <p class="premium-flow__intro">
-              <strong>Schritt 1:</strong> Mit derselben E-Mail einloggen, die du beim Kauf nutzt.
-              <strong>Schritt 2:</strong> Code aus der E-Mail eingeben.
-            </p>
-
-            <div class="premium-flow__step">
-              <div class="premium-flow__step-label">
-                <span class="premium-flow__step-num">1</span>
-                Einloggen (Magic Link)
-              </div>
-
-              <div v-if="isLoggedIn" class="premium-flow__logged-in">
-                <span class="premium-flow__logged-email">✅ {{ auth.email }}</span>
-                <button type="button" class="premium-flow__signout" @click="signOut">
-                  Abmelden
-                </button>
-              </div>
-
-              <template v-else>
-                <input
-                  v-model="accountEmail"
-                  type="email"
-                  class="premium-flow__input"
-                  placeholder="deine@email.de"
-                />
-                <button
-                  type="button"
-                  class="premium-flow__btn premium-flow__btn--login"
-                  :disabled="magicSubmitting"
-                  @click="submitMagicLink"
-                >
-                  {{ magicSubmitting ? 'Wird gesendet…' : 'Login-Link senden' }}
-                </button>
-                <p class="premium-flow__hint">
-                  Link ist 30 Minuten gültig · Fortschritt wird auf allen Geräten gespeichert.
-                </p>
-                <div
-                  v-if="magicStatus.text"
-                  class="premium-flow__status"
-                  :style="{ color: magicStatus.color }"
-                >
-                  {{ magicStatus.text }}
-                </div>
-              </template>
-            </div>
-
-            <div
-              class="premium-flow__step"
-              :class="{ 'premium-flow__step--locked': backendOn && !isLoggedIn }"
-            >
-              <div class="premium-flow__step-label">
-                <span class="premium-flow__step-num">2</span>
-                Aktivierungscode
-              </div>
-              <input
-                v-model="code"
-                type="text"
-                class="premium-flow__input premium-flow__input--code"
-                :placeholder="backendOn ? 'Code aus der E-Mail (z.B. STRIPE_…)' : 'z.B. PREMIUM_DEMO'"
-                :disabled="backendOn && !isLoggedIn"
-              />
-              <button
-                type="button"
-                class="premium-flow__btn premium-flow__btn--code"
-                :disabled="submitting || (backendOn && !isLoggedIn)"
-                @click="submitCode"
-              >
-                {{ submitting ? 'Wird überprüft…' : 'Code aktivieren' }}
-              </button>
-              <p v-if="backendOn && !isLoggedIn" class="premium-flow__hint">
-                Bitte zuerst Schritt 1 abschließen.
-              </p>
-              <div
-                v-if="status.text"
-                class="premium-flow__status"
-                :style="{ color: status.color }"
-              >
-                {{ status.text }}
-              </div>
-            </div>
-          </section>
-
           <div
-            v-else
-            style="
-              background: #f9f9f9;
-              border-radius: 16px;
-              padding: 16px;
-              margin-bottom: 16px;
-            "
-          >
-            <div style="font-weight: 700; margin-bottom: 8px;">🔑 Aktivierungscode (Demo)</div>
-            <input
-              v-model="code"
-              type="text"
-              placeholder="z.B. PREMIUM_DEMO oder BASIS_TEST"
-              style="
-                width: 100%;
-                padding: 14px;
-                border-radius: 12px;
-                border: 1px solid #ddd;
-                font-size: 15px;
-                text-transform: uppercase;
-                margin-bottom: 8px;
-                box-sizing: border-box;
-              "
-            />
-            <button
-              type="button"
-              class="premium-flow__btn premium-flow__btn--code"
-              :disabled="submitting"
-              @click="submitCode"
-            >
-              {{ submitting ? 'Wird überprüft…' : 'Code aktivieren' }}
-            </button>
-            <div
-              v-if="status.text"
-              style="font-size: 13px; margin-top: 12px; min-height: 18px;"
-              :style="{ color: status.color }"
-            >
-              {{ status.text }}
-            </div>
-          </div>
-
-          <details v-if="backendOn" class="premium-flow-trial">
-            <summary>🎁 1 Tag gratis testen</summary>
-            <p class="premium-flow__hint">
-              <template v-if="isLoggedIn">
-                Trial-Code wird an <strong>{{ auth.email }}</strong> gesendet.
-              </template>
-              <template v-else-if="sharedEmail">
-                Trial-Code wird an <strong>{{ sharedEmail }}</strong> gesendet.
-              </template>
-              <template v-else>
-                Gib zuerst in Schritt 1 deine E-Mail ein.
-              </template>
-            </p>
-            <button
-              type="button"
-              class="premium-flow__btn premium-flow__btn--trial"
-              :disabled="trialSubmitting"
-              @click="submitTrial"
-            >
-              {{ trialSubmitting ? 'Wird angefordert…' : 'Gratis-Code anfordern' }}
-            </button>
-            <div
-              v-if="trialStatus.text"
-              class="premium-flow__status"
-              :style="{ color: trialStatus.color }"
-            >
-              {{ trialStatus.text }}
-            </div>
-          </details>
-
-          <div
+            class="premium-buy-card"
             style="
               background: #fff;
               border-radius: 16px;
               padding: 18px;
               border: 1px solid #eee;
+              margin-bottom: 16px;
             "
           >
             <div style="font-weight: 900; margin-bottom: 8px;">🛒 Premium kaufen</div>
@@ -633,13 +499,30 @@ function topicMastered(key) {
               </label>
             </div>
 
-            <p style="font-size: 13px; color: #666; margin: 0 0 12px 0;">
-              <template v-if="sharedEmail">
-                Code nach Zahlung an: <strong>{{ sharedEmail }}</strong>
-              </template>
-              <template v-else>
-                Gib oben in <strong>Schritt 1</strong> deine E-Mail ein — dieselbe für Stripe.
-              </template>
+            <div v-if="!isLoggedIn" style="margin-bottom: 12px;">
+              <label
+                for="premium-buy-email"
+                style="display: block; font-size: 12px; font-weight: 700; color: #666; margin-bottom: 6px;"
+              >
+                E-Mail für den Aktivierungscode
+              </label>
+              <input
+                id="premium-buy-email"
+                v-model="buyEmail"
+                type="email"
+                class="premium-flow__input"
+                placeholder="deine@email.de"
+              />
+            </div>
+            <p v-else style="font-size: 13px; color: #666; margin: 0 0 12px 0;">
+              Code nach Zahlung an: <strong>{{ auth.email }}</strong>
+            </p>
+            <p
+              v-if="!showActivationPanel"
+              class="premium-buy-hint"
+            >
+              Nach der Zahlung: E-Mail öffnen und auf
+              <strong>«Jetzt aktivieren»</strong> tippen — fertig.
             </p>
 
             <label
@@ -734,6 +617,188 @@ function topicMastered(key) {
               {{ buyStatus.text }}
             </div>
           </div>
+
+          <!-- Post-purchase: code from e-mail link, user not logged in yet -->
+          <section
+            v-if="backendOn && showActivationPanel && !isLoggedIn && pendingCode"
+            class="premium-flow premium-flow--pending"
+            aria-label="Code aus E-Mail aktivieren"
+          >
+            <div class="premium-flow__head">
+              <span class="premium-flow__title">✉️ Fast geschafft!</span>
+            </div>
+            <p class="premium-flow__intro">
+              Dein Code aus der Kauf-E-Mail ist bereit. Einloggen — wir aktivieren ihn
+              <strong>automatisch</strong>. Gleiche E-Mail wie beim Kauf verwenden.
+            </p>
+            <input
+              v-model="accountEmail"
+              type="email"
+              class="premium-flow__input"
+              placeholder="deine@email.de"
+            />
+            <button
+              type="button"
+              class="premium-flow__btn premium-flow__btn--login"
+              :disabled="magicSubmitting"
+              @click="submitMagicLink"
+            >
+              {{ magicSubmitting ? 'Wird gesendet…' : '📧 Login-Link senden' }}
+            </button>
+            <p class="premium-flow__hint">
+              Postfach öffnen → Link antippen → Premium startet von selbst.
+            </p>
+            <div
+              v-if="magicStatus.text"
+              class="premium-flow__status"
+              :style="{ color: magicStatus.color }"
+            >
+              {{ magicStatus.text }}
+            </div>
+          </section>
+
+          <!-- Logged in: enter / confirm activation code -->
+          <section
+            v-else-if="backendOn && showActivationPanel && isLoggedIn"
+            class="premium-flow"
+            aria-label="Aktivierungscode eingeben"
+          >
+            <div class="premium-flow__head">
+              <span class="premium-flow__title">🔑 Aktivierungscode</span>
+            </div>
+            <div class="premium-flow__logged-in">
+              <span class="premium-flow__logged-email">✅ {{ auth.email }}</span>
+              <button type="button" class="premium-flow__signout" @click="signOut">
+                Abmelden
+              </button>
+            </div>
+            <p v-if="pendingCode" class="premium-flow__hint premium-flow__hint--ok">
+              Code aus deiner E-Mail übernommen — tippe auf «Code aktivieren».
+            </p>
+            <input
+              v-model="code"
+              type="text"
+              class="premium-flow__input premium-flow__input--code"
+              placeholder="Code aus der E-Mail (z.B. PREMIUM-…)"
+            />
+            <button
+              type="button"
+              class="premium-flow__btn premium-flow__btn--code"
+              :disabled="submitting"
+              @click="submitCode"
+            >
+              {{ submitting ? 'Wird überprüft…' : 'Code aktivieren' }}
+            </button>
+            <div
+              v-if="status.text"
+              class="premium-flow__status"
+              :style="{ color: status.color }"
+            >
+              {{ status.text }}
+            </div>
+          </section>
+
+          <!-- Demo mode: no backend -->
+          <div
+            v-else-if="!backendOn"
+            style="
+              background: #f9f9f9;
+              border-radius: 16px;
+              padding: 16px;
+              margin-bottom: 16px;
+            "
+          >
+            <div style="font-weight: 700; margin-bottom: 8px;">🔑 Aktivierungscode (Demo)</div>
+            <input
+              v-model="code"
+              type="text"
+              placeholder="z.B. PREMIUM_DEMO oder BASIS_TEST"
+              style="
+                width: 100%;
+                padding: 14px;
+                border-radius: 12px;
+                border: 1px solid #ddd;
+                font-size: 15px;
+                text-transform: uppercase;
+                margin-bottom: 8px;
+                box-sizing: border-box;
+              "
+            />
+            <button
+              type="button"
+              class="premium-flow__btn premium-flow__btn--code"
+              :disabled="submitting"
+              @click="submitCode"
+            >
+              {{ submitting ? 'Wird überprüft…' : 'Code aktivieren' }}
+            </button>
+            <div
+              v-if="status.text"
+              style="font-size: 13px; margin-top: 12px; min-height: 18px;"
+              :style="{ color: status.color }"
+            >
+              {{ status.text }}
+            </div>
+          </div>
+
+          <!-- Edge case: paid but did not click e-mail link -->
+          <details v-if="backendOn && !showActivationPanel" class="premium-flow-manual">
+            <summary>Schon bezahlt, aber kein Link geklappt?</summary>
+            <p class="premium-flow__hint">
+              Fordere einen Login-Link an, dann gib den Code aus der Kauf-E-Mail ein.
+            </p>
+            <input
+              v-model="accountEmail"
+              type="email"
+              class="premium-flow__input"
+              placeholder="deine@email.de"
+            />
+            <button
+              type="button"
+              class="premium-flow__btn premium-flow__btn--login"
+              :disabled="magicSubmitting"
+              @click="submitMagicLink"
+            >
+              {{ magicSubmitting ? 'Wird gesendet…' : '📧 Login-Link senden' }}
+            </button>
+            <div
+              v-if="magicStatus.text"
+              class="premium-flow__status"
+              :style="{ color: magicStatus.color }"
+            >
+              {{ magicStatus.text }}
+            </div>
+          </details>
+
+          <details v-if="backendOn" class="premium-flow-trial">
+            <summary>🎁 1 Tag gratis testen</summary>
+            <p class="premium-flow__hint">
+              <template v-if="isLoggedIn">
+                Trial-Code wird an <strong>{{ auth.email }}</strong> gesendet.
+              </template>
+              <template v-else-if="emailForCheckout">
+                Trial-Code wird an <strong>{{ emailForCheckout }}</strong> gesendet.
+              </template>
+              <template v-else>
+                Gib oben deine E-Mail ein.
+              </template>
+            </p>
+            <button
+              type="button"
+              class="premium-flow__btn premium-flow__btn--trial"
+              :disabled="trialSubmitting"
+              @click="submitTrial"
+            >
+              {{ trialSubmitting ? 'Wird angefordert…' : 'Gratis-Code anfordern' }}
+            </button>
+            <div
+              v-if="trialStatus.text"
+              class="premium-flow__status"
+              :style="{ color: trialStatus.color }"
+            >
+              {{ trialStatus.text }}
+            </div>
+          </details>
         </div>
 
         <!-- UNLOCKED VIEW: streak, XP, levels, topics -->

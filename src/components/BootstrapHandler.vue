@@ -111,6 +111,7 @@ function handleActivateParam() {
   } catch {
     /* ignored */
   }
+  router.push({ name: 'premium' });
 }
 
 /**

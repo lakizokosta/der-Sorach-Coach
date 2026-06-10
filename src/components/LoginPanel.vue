@@ -1,18 +1,14 @@
 <script setup>
 /**
- * LoginPanel — magic-link login + optional code activation on the landing page.
- *
- * Mirrors the original Blogger `user-login-area`: learners log in with
- * their e-mail so XP and streak sync across devices.
+ * LoginPanel — magic-link login on the landing page (save progress only).
  */
 
 import { ref } from 'vue';
 
 import { useAuth } from '@/composables/useAuth.js';
-import { usePremium } from '@/composables/usePremium.js';
+import { activateCode, usePremium } from '@/composables/usePremium.js';
 import { loadString, saveString } from '@/composables/useStorage.js';
 import { hasBackend, requestMagicLink } from '@/utils/api.js';
-import { activateCode } from '@/composables/usePremium.js';
 
 const USER_EMAIL_KEY = 'userEmail';
 const backendOn = hasBackend();
@@ -32,7 +28,7 @@ async function submitMagicLink() {
   if (!backendOn || magicSubmitting.value) return;
   const value = magicEmail.value.trim().toLowerCase();
   if (!value || !value.includes('@')) {
-    magicStatus.value = { text: '✖ Bitte gültige Email eingeben.', color: '#ed4545' };
+    magicStatus.value = { text: '✖ Bitte gültige E-Mail eingeben.', color: '#ed4545' };
     return;
   }
   magicSubmitting.value = true;
@@ -44,7 +40,7 @@ async function submitMagicLink() {
 
   if (res && res.ok) {
     magicStatus.value = {
-      text: `✔ Link gesendet! Schau in dein Postfach (${value}).`,
+      text: `✔ Link gesendet! Öffne dein Postfach (${value}) und tippe auf den Link.`,
       color: '#69c43b',
     };
   } else {
@@ -87,83 +83,34 @@ function signOut() {
 </script>
 
 <template>
-  <div v-if="backendOn" style="max-width: 340px; margin: 8px auto 12px auto;">
+  <div v-if="backendOn" class="login-panel">
     <!-- Logged in + Premium/Basis -->
     <template v-if="isLoggedIn && (isPremium || isBasis)">
-      <div
-        style="
-          background: linear-gradient(135deg, #ffd700, #ffb700);
-          border-radius: 999px;
-          padding: 11px 20px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          gap: 8px;
-          box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-        "
-      >
-        <div
-          style="
-            font-size: 14px;
-            font-weight: 900;
-            color: #000;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-          "
-        >
-          👤 {{ auth.email }}
-        </div>
-        <button
-          type="button"
-          @click="signOut"
-          style="
-            border: none;
-            background: rgba(0, 0, 0, 0.12);
-            color: #000;
-            font-size: 11px;
-            font-weight: 700;
-            cursor: pointer;
-            white-space: nowrap;
-            padding: 4px 10px;
-            border-radius: 999px;
-            flex-shrink: 0;
-          "
-        >
+      <div class="login-panel__session login-panel__session--premium">
+        <div class="login-panel__session-email">👤 {{ auth.email }}</div>
+        <button type="button" class="login-panel__signout-pill" @click="signOut">
           Abmelden
         </button>
       </div>
+      <p class="login-panel__ok-note">✅ Eingeloggt — Fortschritt wird gespeichert.</p>
       <slot name="after-intro" />
     </template>
 
-    <!-- Premium via code, not logged in — encourage login -->
-    <div
-      v-else-if="(isPremium || isBasis) && !isLoggedIn"
-      style="
-        background: #f9f0fc;
-        border: 1.5px solid #e0d0f0;
-        border-radius: 16px;
-        padding: 12px 16px;
-      "
-    >
-      <div style="font-size: 12px; color: #888; margin-bottom: 8px; text-align: center;">
-        📱 Einloggen, um Streak &amp; Fortschritt auf allen Geräten zu speichern.
-      </div>
+    <!-- Premium via code, not logged in -->
+    <div v-else-if="(isPremium || isBasis) && !isLoggedIn" class="login-panel-card">
+      <div class="login-panel-card__badge">🏠 Startseite</div>
+      <h3 class="login-panel-card__title">Fortschritt speichern</h3>
+      <p class="login-panel-card__intro">
+        Du hast Premium — logge dich ein, damit XP &amp; Streak auf allen Geräten bleiben.
+        <strong>Kein Passwort:</strong> Link per E-Mail.
+      </p>
       <slot name="after-intro" />
-      <div style="display: flex; gap: 6px;">
+      <div class="login-panel-card__row">
         <input
           v-model="magicEmail"
           type="email"
+          class="login-panel-card__input"
           placeholder="deine@email.de"
-          style="
-            flex: 1;
-            padding: 9px 12px;
-            border: 1px solid #d9b0e8;
-            border-radius: 10px;
-            font-size: 13px;
-            min-width: 0;
-            box-sizing: border-box;
-          "
         />
         <button
           type="button"
@@ -171,141 +118,80 @@ function signOut() {
           :disabled="magicSubmitting"
           @click="submitMagicLink"
         >
-          {{ magicSubmitting ? '…' : 'Einloggen' }}
+          {{ magicSubmitting ? '…' : '📧 Link senden' }}
         </button>
       </div>
-      <div
+      <ol class="login-panel-card__how">
+        <li>E-Mail eingeben</li>
+        <li>«Link senden» tippen</li>
+        <li>Link im Postfach antippen</li>
+      </ol>
+      <p
         v-if="magicStatus.text"
-        style="font-size: 11px; margin-top: 6px; min-height: 14px; text-align: center;"
+        class="login-panel-card__status"
         :style="{ color: magicStatus.color }"
       >
         {{ magicStatus.text }}
-      </div>
+      </p>
     </div>
 
     <!-- Logged in, no premium yet — activate code -->
-    <div
-      v-else-if="isLoggedIn"
-      style="
-        background: #f9f0fc;
-        border: 1.5px solid #ce93d8;
-        border-radius: 16px;
-        padding: 12px 16px;
-      "
-    >
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          margin-bottom: 10px;
-          gap: 8px;
-        "
-      >
-        <div
-          style="
-            font-size: 13px;
-            font-weight: 700;
-            color: #7b2d8b;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-          "
-        >
-          👤 {{ auth.email }}
-        </div>
-        <button
-          type="button"
-          @click="signOut"
-          style="
-            border: none;
-            background: none;
-            color: #999;
-            font-size: 11px;
-            cursor: pointer;
-            padding: 0;
-            flex-shrink: 0;
-          "
-        >
+    <div v-else-if="isLoggedIn" class="login-panel-card login-panel-card--code">
+      <div class="login-panel-card__badge">🏠 Startseite</div>
+      <div class="login-panel__session-row">
+        <span class="login-panel__session-email">👤 {{ auth.email }}</span>
+        <button type="button" class="login-panel__signout-text" @click="signOut">
           Abmelden
         </button>
       </div>
       <slot name="after-intro" />
-      <div style="font-size: 12px; color: #888; margin-bottom: 8px;">
-        🔑 Aktivierungscode eingeben:
-      </div>
-      <div style="display: flex; gap: 6px;">
+      <p class="login-panel-card__intro">🔑 Hast du einen Code? Hier eingeben:</p>
+      <div class="login-panel-card__row">
         <input
           v-model="code"
           type="text"
+          class="login-panel-card__input login-panel-card__input--code"
           placeholder="z.B. BASIS_… oder TRIAL-…"
-          style="
-            flex: 1;
-            padding: 9px 12px;
-            border: 1px solid #d9b0e8;
-            border-radius: 10px;
-            font-size: 13px;
-            min-width: 0;
-            text-transform: uppercase;
-            box-sizing: border-box;
-          "
         />
         <button
           type="button"
+          class="login-panel__btn login-panel__btn--code"
           :disabled="codeSubmitting"
           @click="submitCode"
-          style="
-            padding: 9px 14px;
-            border: none;
-            border-radius: 10px;
-            background: #ab4dbb;
-            color: #fff;
-            font-weight: 700;
-            font-size: 13px;
-            cursor: pointer;
-            white-space: nowrap;
-          "
         >
           {{ codeSubmitting ? '…' : 'Aktivieren' }}
         </button>
       </div>
-      <div
+      <p class="login-panel-card__aside">
+        Code nach dem Kauf? Besser auf der
+        <router-link :to="{ name: 'premium' }">Premium-Seite</router-link>
+        in Schritt 2 eingeben.
+      </p>
+      <p
         v-if="codeStatus.text"
-        style="font-size: 11px; margin-top: 6px; min-height: 14px; text-align: center;"
+        class="login-panel-card__status"
         :style="{ color: codeStatus.color }"
       >
         {{ codeStatus.text }}
-      </div>
+      </p>
     </div>
 
-    <!-- Not logged in -->
-    <div
-      v-else
-      style="
-        background: #f9f0fc;
-        border: 1.5px solid #e0d0f0;
-        border-radius: 16px;
-        padding: 12px 16px;
-      "
-    >
-      <div style="font-size: 12px; color: #888; margin-bottom: 8px; text-align: center;">
-        Mit deiner Email einloggen — Fortschritt auf allen Geräten speichern.
-      </div>
+    <!-- Not logged in (default) -->
+    <div v-else class="login-panel-card">
+      <div class="login-panel-card__badge">🏠 Startseite</div>
+      <h3 class="login-panel-card__title">Fortschritt speichern</h3>
+      <p class="login-panel-card__intro">
+        Nur für <strong>XP &amp; Streak</strong> auf Handy und Computer.
+        <strong>Kein Passwort</strong> — du bekommst einen Link per E-Mail.
+        Hier <em>nicht</em> Premium kaufen!
+      </p>
       <slot name="after-intro" />
-      <div style="display: flex; gap: 6px;">
+      <div class="login-panel-card__row">
         <input
           v-model="magicEmail"
           type="email"
+          class="login-panel-card__input"
           placeholder="deine@email.de"
-          style="
-            flex: 1;
-            padding: 9px 12px;
-            border: 1px solid #d9b0e8;
-            border-radius: 10px;
-            font-size: 13px;
-            min-width: 0;
-            box-sizing: border-box;
-          "
         />
         <button
           type="button"
@@ -313,16 +199,26 @@ function signOut() {
           :disabled="magicSubmitting"
           @click="submitMagicLink"
         >
-          {{ magicSubmitting ? '…' : 'Einloggen' }}
+          {{ magicSubmitting ? '…' : '📧 Link senden' }}
         </button>
       </div>
-      <div
+      <ol class="login-panel-card__how">
+        <li>E-Mail eingeben</li>
+        <li>«Link senden» tippen</li>
+        <li>Link im Postfach antippen — fertig!</li>
+      </ol>
+      <p class="login-panel-card__aside">
+        💎 Premium gekauft? Gehe zur
+        <router-link :to="{ name: 'premium' }">Premium-Seite</router-link>
+        und gib dort deinen Code ein (Schritt 2).
+      </p>
+      <p
         v-if="magicStatus.text"
-        style="font-size: 11px; margin-top: 6px; min-height: 14px; text-align: center;"
+        class="login-panel-card__status"
         :style="{ color: magicStatus.color }"
       >
         {{ magicStatus.text }}
-      </div>
+      </p>
     </div>
   </div>
 </template>
