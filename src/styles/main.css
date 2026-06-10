@@ -684,6 +684,21 @@ button.lesen-gap-marker {
   padding: 14px 16px;
   box-shadow: 0 2px 10px rgba(171, 77, 187, 0.06);
 }
+.daily-goal--clickable {
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.12s;
+}
+.daily-goal--clickable:hover {
+  border-color: #c86dd7;
+  box-shadow: 0 4px 14px rgba(171, 77, 187, 0.14);
+}
+.daily-goal--clickable:active {
+  transform: scale(0.99);
+}
+.daily-goal--clickable:focus-visible {
+  outline: 2px solid #ab4dbb;
+  outline-offset: 2px;
+}
 .daily-goal--met {
   border-color: #81c784;
   background: linear-gradient(135deg, #f1f8e9, #fff);
@@ -733,6 +748,186 @@ button.lesen-gap-marker {
   color: #888;
   line-height: 1.45;
   text-align: center;
+}
+.daily-goal-modal-backdrop {
+  z-index: 1300;
+}
+.daily-goal-modal {
+  max-width: 420px;
+  width: calc(100% - 24px);
+  max-height: min(88vh, 640px);
+  overflow-y: auto;
+  text-align: left;
+  padding: 18px 18px 20px;
+}
+.daily-goal-modal__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.daily-goal-modal__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+  color: #7b2d8b;
+  line-height: 1.25;
+}
+.daily-goal-modal__close {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: #f5f5f5;
+  color: #666;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+.daily-goal-modal__close:hover {
+  background: #ede7f6;
+  color: #7b2d8b;
+}
+.daily-goal-modal__section {
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #f0e6f5;
+}
+.daily-goal-modal__section--last {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.daily-goal-modal__label {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #ab4dbb;
+}
+.daily-goal-modal__locked {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #999;
+  margin-left: 6px;
+}
+.daily-goal-modal__stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+.daily-goal-modal__big {
+  font-size: 20px;
+  font-weight: 900;
+  color: #333;
+}
+.daily-goal-modal__pct {
+  font-size: 13px;
+  font-weight: 800;
+  color: #ab4dbb;
+}
+.daily-goal-modal__bar {
+  margin-bottom: 8px;
+}
+.daily-goal-modal__text {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+}
+.daily-goal-modal__text--small {
+  margin-top: 8px;
+  font-size: 11px;
+  color: #999;
+}
+.daily-goal-modal__facts {
+  margin: 0;
+  padding: 0 0 0 18px;
+  font-size: 13px;
+  color: #444;
+  line-height: 1.65;
+}
+.daily-goal-modal__missions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.daily-goal-modal__mission {
+  border: 1.5px solid #ffe082;
+  border-radius: 10px;
+  padding: 8px 10px;
+  background: #fffde7;
+}
+.daily-goal-modal__mission--done {
+  border-color: #c8e6c9;
+  background: #f1f8e9;
+  opacity: 0.85;
+}
+.daily-goal-modal__mission--locked {
+  opacity: 0.55;
+  border-color: #e0e0e0;
+  background: #fafafa;
+}
+.daily-goal-modal__mission-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #333;
+}
+.daily-goal-modal__reward {
+  color: #e65100;
+  white-space: nowrap;
+}
+.daily-goal-modal__mission-desc {
+  margin: 4px 0 6px 0;
+  font-size: 11px;
+  color: #777;
+  line-height: 1.4;
+}
+.daily-goal-modal__mission-bar {
+  height: 5px;
+  border-radius: 999px;
+  background: #f0e6f5;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+.daily-goal-modal__mission-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: #ffb74d;
+}
+.daily-goal-modal__mission-meta {
+  font-size: 10px;
+  font-weight: 700;
+  color: #888;
+}
+.daily-goal-modal__tiers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.daily-goal-modal__tier {
+  font-size: 11px;
+  font-weight: 800;
+  color: #f57c00;
+  background: #fff8e1;
+  border-radius: 999px;
+  padding: 5px 10px;
+}
+.daily-goal-modal__tier--done {
+  color: #2e7d32;
+  background: #e8f5e9;
 }
 .bonus-missions {
   background: #fff;

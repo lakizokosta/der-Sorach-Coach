@@ -13,7 +13,7 @@ import LzdLogo from '@/components/LzdLogo.vue';
 import { usePremium } from '@/composables/usePremium.js';
 import { useXp, isTopicMastered } from '@/composables/useXp.js';
 import { useStreak } from '@/composables/useStreak.js';
-import { useDailyGoal } from '@/composables/useDailyGoal.js';
+import DailyGoalCard from '@/components/DailyGoalCard.vue';
 import { useAuth } from '@/composables/useAuth.js';
 import { PREMIUM_TOPICS, getAllTopics } from '@/data/premiumTopics.js';
 import { shareProgressCard } from '@/utils/shareCard.js';
@@ -23,8 +23,6 @@ const { isPremium } = usePremium();
 const { isLoggedIn } = useAuth();
 const { state: xp, level: liveLevel } = useXp();
 const { state: streak, medalsFor } = useStreak();
-const { goal: dailyGoal, todayCount, isMet: dailyGoalMet, progressPct: dailyGoalPct } = useDailyGoal();
-
 const activeDaysCount = computed(() => (streak.activeDays || []).length);
 
 const allTopics = getAllTopics();
@@ -125,29 +123,7 @@ function shareCard() {
           </div>
         </div>
 
-        <!-- Daily goal -->
-        <section
-          class="daily-goal profile-free__daily"
-          :class="{ 'daily-goal--met': dailyGoalMet }"
-          aria-label="Tagesziel"
-        >
-          <div class="daily-goal__row">
-            <span class="daily-goal__title">
-              {{ dailyGoalMet ? '✅ Tagesziel geschafft!' : '🎯 Heutiges Ziel' }}
-            </span>
-            <span class="daily-goal__count">{{ todayCount }} / {{ dailyGoal }} Fragen</span>
-          </div>
-          <div class="daily-goal__bar">
-            <div class="daily-goal__fill" :style="{ width: `${dailyGoalPct}%` }" />
-          </div>
-          <p class="daily-goal__hint">
-            {{
-              dailyGoalMet
-                ? 'Streak für heute gesichert — weiter üben bringt extra XP!'
-                : `Noch ${dailyGoal - todayCount} Frage${dailyGoal - todayCount === 1 ? '' : 'n'} bis zum Tagesziel.`
-            }}
-          </p>
-        </section>
+        <DailyGoalCard class="profile-free__daily" />
 
         <!-- Premium upsell -->
         <div class="profile-free__upsell">
