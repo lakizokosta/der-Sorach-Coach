@@ -9,4 +9,4 @@ options:
 correct: sein
 ---
 
-Der Arzt gibt mir ___ Medikament. (Possessivartikel — wir, Pl., Nom.)
+Der Arzt gibt mir ___ Medikament. (Possessivartikel — er, neutr., Akk.)

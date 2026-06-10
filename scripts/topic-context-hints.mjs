@@ -129,11 +129,41 @@ const VERB_FORM_TOPICS = new Set([
   'VERBLASSEN',
 ]);
 
-const POSSESSIV_TOPICS = new Set([
+export const POSSESSIV_TOPICS = new Set([
   'POSSESSIVARTIKEL',
   'POSSESSIVARTIKELA2',
   'POSSESSIVARTIKELB1',
 ]);
+
+const POSSESSIV_WHO = {
+  mein: 'ich', meine: 'ich', meinen: 'ich', meinem: 'ich', meiner: 'ich',
+  dein: 'du', deine: 'du', deinen: 'du', deinem: 'du', deiner: 'du',
+  sein: 'er', seine: 'er', seinen: 'er', seinem: 'er', seiner: 'er',
+  ihr: 'sie', ihre: 'sie', ihren: 'sie', ihrem: 'sie', ihrer: 'sie',
+  Ihr: 'sie', Ihre: 'sie', Ihren: 'sie',
+  unser: 'wir', unsere: 'wir', unseren: 'wir', unserem: 'wir', unserer: 'wir',
+  Unser: 'wir', Unsere: 'wir',
+  euer: 'ihr', eure: 'ihr', euren: 'ihr', eurem: 'ihr', eurer: 'ihr',
+  Euer: 'ihr', Eure: 'ihr',
+  meines: 'ich', meiner: 'ich', deines: 'du', deiner: 'du',
+  seines: 'er', seiner: 'er', ihres: 'sie', ihrer: 'sie',
+  unseres: 'wir', unserer: 'wir', eures: 'ihr', eurer: 'ihr',
+};
+
+/** @param {string} form */
+export function possessivWhoFromForm(form) {
+  const f = String(form).trim();
+  return POSSESSIV_WHO[f] || POSSESSIV_WHO[f.toLowerCase()] || '';
+}
+
+/** @param {string} inner @param {string[]} correct */
+export function possessivHintMatchesAnswer(inner, correct) {
+  const whoHint = inner.match(/(?:Possessivartikel\s*—\s*)?(ich|du|er|sie|wir|ihr)\b/i)?.[1]?.toLowerCase();
+  if (!whoHint) return true;
+  const ans = correct[0] || '';
+  const whoAns = possessivWhoFromForm(ans);
+  return !whoAns || whoHint === whoAns;
+}
 
 const PERSON_MARK = /^(ich|du|er|sie|wir|ihr|Sie|man|es)$/i;
 const PARTICIPLE = /^ge\w+/i;
@@ -492,10 +522,18 @@ export function contextHintForTopic(topic, inner = '', correct = [], options = [
     return verbFormHint(topic, inner, correct, options, body, id);
   }
 
-  if (POSSESSIV_TOPICS.has(topic) && inner) {
-    const rest = inner.replace(/^Possessiv(?:artikel)?\s*—\s*/i, '').trim();
-    if (rest && !/^Possessivartikel$/i.test(rest)) {
-      return rest.startsWith('Possessiv') ? rest : `Possessivartikel — ${rest}`;
+  if (POSSESSIV_TOPICS.has(topic)) {
+    if (inner && possessivHintMatchesAnswer(inner, correct)) {
+      const rest = inner.replace(/^Possessiv(?:artikel)?\s*—\s*/i, '').trim();
+      if (rest && !/^Possessivartikel$/i.test(rest)) {
+        const hint = rest.startsWith('Possessiv') ? rest : `Possessivartikel — ${rest}`;
+        if (!PERSON_MARK.test(rest) || rest.includes(',')) return hint;
+        // Bare person only, e.g. "(ihr)" — add case label when known from inner
+        return `Possessivartikel — ${rest}`;
+      }
+    }
+    if (inner && PERSON_MARK.test(inner.trim()) && !inner.includes(',')) {
+      return `Possessivartikel — ${inner.trim()}`;
     }
     return 'Possessivartikelform';
   }

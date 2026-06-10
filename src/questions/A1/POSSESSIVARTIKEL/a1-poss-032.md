@@ -9,4 +9,4 @@ options:
 correct: seine
 ---
 
-___ Mutter kocht gern. (Possessivartikel — sie, mask., Akk.)
+___ Mutter kocht gern. (Possessivartikel — er, fem., Nom.)

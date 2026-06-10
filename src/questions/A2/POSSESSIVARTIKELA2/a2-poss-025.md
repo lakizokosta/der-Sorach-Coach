@@ -9,4 +9,4 @@ options:
 correct: seines
 ---
 
-Die Wohnung ___ Freundes ist schön. (Possessivartikel — ich, fem., Gen.)
+Die Wohnung ___ Freundes ist schön. (Possessivartikelform)

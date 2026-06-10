@@ -9,4 +9,4 @@ options:
 correct: meine
 ---
 
-Ich liebe ___ Stadt. (Possessivartikel — Artikel — der Regen, Gen.)
+Ich liebe ___ Stadt. (Possessivartikelform)

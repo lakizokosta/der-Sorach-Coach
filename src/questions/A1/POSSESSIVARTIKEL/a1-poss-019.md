@@ -9,4 +9,4 @@ options:
 correct: deinen
 ---
 
-Ich warte auf ___ Freund. (Possessivartikel — er, fem., Nom.)
+Ich warte auf ___ Bus. (Possessivartikel — du, mask., Akk.)

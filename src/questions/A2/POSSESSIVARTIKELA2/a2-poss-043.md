@@ -9,4 +9,4 @@ options:
 correct: meiner
 ---
 
-Das Fahrrad ___ Schwester ist neu. (Possessivartikel — Artikel — der Regen, Gen.)
+Das Fahrrad ___ Schwester ist neu. (Possessivartikelform)

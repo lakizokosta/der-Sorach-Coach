@@ -9,4 +9,4 @@ options:
 correct: ihres
 ---
 
-Das ist das Handy ___ Chefs. (Possessivartikel — ich, fem., Akk.)
+Das ist das Handy ___ Chefs. (Possessivartikelform)

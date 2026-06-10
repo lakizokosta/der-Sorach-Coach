@@ -9,4 +9,4 @@ options:
 correct: ihren
 ---
 
-Bei Regen brauche ich ___ Freund. (Possessivartikel — er, neutr., Akk.)
+Bei Regen brauche ich ___ Regenschirm. (Possessivartikel — sie, mask., Akk.)

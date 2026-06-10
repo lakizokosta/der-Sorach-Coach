@@ -7,7 +7,7 @@
 import { readdirSync, readFileSync, statSync, writeFileSync, existsSync } from 'node:fs';
 import { dirname, join, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { applyHintToBody, contextHintForTopic } from './topic-context-hints.mjs';
+import { applyHintToBody, contextHintForTopic, POSSESSIV_TOPICS } from './topic-context-hints.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
 
@@ -86,8 +86,10 @@ for (const full of walkMd(ROOT)) {
   let inner = extractInnerHint(parsed.body);
   let options = parsed.options;
 
+  // Possessiv select-one and input-text share an index but test different sentences —
+  // never borrow the input-text hint (e.g. a2-poss-011 ≠ a2-poss-in-011).
   const siblingIn = siblingInputPath(full, parsed.id);
-  if (siblingIn) {
+  if (siblingIn && !POSSESSIV_TOPICS.has(topic)) {
     const sib = parseMd(readFileSync(siblingIn, 'utf8'));
     if (sib) inner = extractInnerHint(sib.body) || inner;
   }

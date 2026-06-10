@@ -9,4 +9,4 @@ options:
 correct: meinen
 ---
 
-Im Winter trage ich ___ Freund. (Possessivartikel — ihr, Pl., Akk.)
+Im Winter trage ich ___ Mantel. (Possessivartikel — ich, mask., Akk.)

@@ -9,4 +9,4 @@ options:
 correct: des
 ---
 
-Wegen ___ Regens bleiben wir drinnen. (Possessivartikel — wir, Pl., Akk.)
+Wegen ___ Regens bleiben wir drinnen. (Possessivartikelform)

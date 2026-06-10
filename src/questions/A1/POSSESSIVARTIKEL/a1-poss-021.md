@@ -9,4 +9,4 @@ options:
 correct: ihrer
 ---
 
-Ich übe auf ___ Gitarre. (Possessivartikel — du, fem., Nom.)
+Ich übe auf ___ Gitarre. (Possessivartikel — sie, fem., Dat.)

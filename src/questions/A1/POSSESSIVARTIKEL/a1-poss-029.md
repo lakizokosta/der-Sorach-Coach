@@ -9,4 +9,4 @@ options:
 correct: eure
 ---
 
-___ Mutter ist teuer. (Possessivartikel — er, neutr., Nom.)
+___ Uhr ist teuer. (Possessivartikel — ihr, fem., Nom.)

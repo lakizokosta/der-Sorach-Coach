@@ -9,4 +9,4 @@ options:
 correct: meine
 ---
 
-___ Mutter schmeckt super. (Possessivartikel — Sie, fem., Nom.)
+___ Pizza schmeckt super. (Possessivartikel — ich, fem., Nom.)

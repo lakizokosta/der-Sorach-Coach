@@ -9,4 +9,4 @@ options:
 correct: mein
 ---
 
-___ Heft ist süß. (Possessivartikel — du, mask., Akk.)
+___ Kaninchen ist süß. (Possessivartikel — ich, neutr., Nom.)

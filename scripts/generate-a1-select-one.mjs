@@ -36,7 +36,7 @@ function md({ id, prompt, options, correct, hint }) {
   return `---\nid: ${id}\ntype: select-one\noptions:\n${opts}\ncorrect: ${correct}\n---\n\n${text}\n`;
 }
 
-function writeTopic(folder, prefix, questions, from = 6, to = 50) {
+function writeTopic(folder, prefix, questions, from = 6, to = 50, force = false) {
   const dir = join(ROOT, folder);
   mkdirSync(dir, { recursive: true });
   let written = 0;
@@ -45,8 +45,9 @@ function writeTopic(folder, prefix, questions, from = 6, to = 50) {
     if (!q) break;
     const num = String(i).padStart(3, '0');
     const file = join(dir, `${prefix}-${num}.md`);
-    if (existsSync(file)) continue;
-    writeFileSync(file, md({ id: `${prefix}-${num}`, hint: verbFormHint(folder, '', q.correct, q.options), ...q }), 'utf8');
+    if (!force && existsSync(file)) continue;
+    const hint = q.hint || verbFormHint(folder, '', q.correct, q.options, q.prompt, `${prefix}-${num}`);
+    writeFileSync(file, md({ id: `${prefix}-${num}`, hint, ...q }), 'utf8');
     written += 1;
   }
   return written;
@@ -79,8 +80,21 @@ function options5(correct, pool, seed) {
 
 // ─── POSSESSIVARTIKEL ───────────────────────────────────────────────────────
 
+const POSSESSIV_CASE_LABEL = {
+  nom_m: 'mask., Nom.',
+  nom_f: 'fem., Nom.',
+  nom_n: 'neutr., Nom.',
+  akk_m: 'mask., Akk.',
+  akk_f: 'fem., Akk.',
+  akk_n: 'neutr., Akk.',
+  akk_pl: 'Pl., Akk.',
+  dat_m: 'mask., Dat.',
+  dat_f: 'fem., Dat.',
+  dat_n: 'neutr., Dat.',
+};
+
 function genPossessiv() {
-  /** @type {Q[]} */
+  /** @type {(Q & { hint?: string })[]} */
   const out = [];
   const sets = [
     { who: 'ich', m: 'mein', f: 'meine', n: 'mein', pl: 'meine', akk_m: 'meinen', dat_m: 'meinem', dat_f: 'meiner' },
@@ -91,43 +105,39 @@ function genPossessiv() {
     { who: 'ihr', m: 'euer', f: 'eure', n: 'euer', pl: 'eure', akk_m: 'euren', dat_m: 'eurem', dat_f: 'eurer' },
   ];
   const templates = [
-    { theme: 'Familie', case: 'nom_m', prompt: (n) => `[Familie] Das ist ___ ${n}.` },
-    { theme: 'Familie', case: 'nom_f', prompt: (n) => `[Familie] ___ ${n} kocht gern.` },
-    { theme: 'Freunde', case: 'akk_m', prompt: (n) => `[Freunde] Ich rufe ___ ${n} an.` },
-    { theme: 'Freunde', case: 'akk_f', prompt: (n) => `[Freunde] Ich besuche ___ ${n}.` },
-    { theme: 'Schule', case: 'nom_n', prompt: (n) => `[Schule] Wo ist ___ ${n}?` },
-    { theme: 'Schule', case: 'akk_f', prompt: (n) => `[Schule] Ich packe ___ ${n}.` },
-    { theme: 'Hobby', case: 'nom_n', prompt: (n) => `[Hobby] ___ ${n} ist neu.` },
-    { theme: 'Hobby', case: 'dat_m', prompt: (n) => `[Hobby] Ich spiele mit ___ ${n}.` },
-    { theme: 'Stadt', case: 'akk_f', prompt: (n) => `[Stadt] Wir suchen ___ ${n}.` },
-    { theme: 'Stadt', case: 'dat_m', prompt: (n) => `[Stadt] Im Sommer arbeite ich in ___ ${n}.` },
-    { theme: 'Essen', case: 'akk_m', prompt: (n) => `[Essen] Ich esse ___ ${n}.` },
-    { theme: 'Essen', case: 'nom_f', prompt: (n) => `[Essen] ___ ${n} schmeckt super.` },
-    { theme: 'Transport', case: 'dat_n', prompt: (n) => `[Transport] Wir fahren mit ___ ${n} nach Berlin.` },
-    { theme: 'Transport', case: 'akk_m', prompt: (n) => `[Transport] Ich warte auf ___ ${n}.` },
-    { theme: 'Wetter', case: 'akk_m', prompt: (n) => `[Wetter] Bei Regen brauche ich ___ ${n}.` },
-    { theme: 'Musik', case: 'dat_f', prompt: (n) => `[Musik] Ich übe auf ___ ${n}.` },
-    { theme: 'Sport', case: 'akk_m', prompt: (n) => `[Sport] Wir werfen ___ ${n}.` },
-    { theme: 'Tiere', case: 'nom_n', prompt: (n) => `[Tiere] ___ ${n} ist süß.` },
-    { theme: 'Kleidung', case: 'akk_m', prompt: (n) => `[Kleidung] Im Winter trage ich ___ ${n}.` },
-    { theme: 'Gesundheit', case: 'akk_n', prompt: (n) => `[Gesundheit] Der Arzt gibt mir ___ ${n}.` },
-    { theme: 'Reisen', case: 'akk_m', prompt: (n) => `[Reisen] Ich packe ___ ${n}.` },
-    { theme: 'Arbeit', case: 'nom_f', prompt: (n) => `[Arbeit] ___ ${n} beginnt um 8 Uhr.` },
-    { theme: 'Zuhause', case: 'dat_n', prompt: (n) => `[Zuhause] In ___ ${n} ist es ruhig.` },
-    { theme: 'Einkaufen', case: 'nom_f', prompt: (n) => `[Einkaufen] ___ ${n} ist teuer.` },
-    { theme: 'Hobby', case: 'akk_pl', prompt: (n) => `[Hobby] Ich lese gern ___ ${n}.` },
+    { theme: 'Familie', case: 'nom_m', noun: 'Vater', prompt: (n) => `[Familie] Das ist ___ ${n}.` },
+    { theme: 'Familie', case: 'nom_f', noun: 'Mutter', prompt: (n) => `[Familie] ___ ${n} kocht gern.` },
+    { theme: 'Freunde', case: 'akk_m', noun: 'Freund', prompt: (n) => `[Freunde] Ich rufe ___ ${n} an.` },
+    { theme: 'Freunde', case: 'akk_f', noun: 'Freundin', prompt: (n) => `[Freunde] Ich besuche ___ ${n}.` },
+    { theme: 'Schule', case: 'nom_n', noun: 'Heft', prompt: (n) => `[Schule] Wo ist ___ ${n}?` },
+    { theme: 'Schule', case: 'akk_f', noun: 'Tasche', prompt: (n) => `[Schule] Ich packe ___ ${n}.` },
+    { theme: 'Hobby', case: 'nom_n', noun: 'Fahrrad', prompt: (n) => `[Hobby] ___ ${n} ist neu.` },
+    { theme: 'Hobby', case: 'dat_m', noun: 'Computer', prompt: (n) => `[Hobby] Ich spiele mit ___ ${n}.` },
+    { theme: 'Stadt', case: 'akk_f', noun: 'Wohnung', prompt: (n) => `[Stadt] Wir suchen ___ ${n}.` },
+    { theme: 'Stadt', case: 'dat_m', noun: 'Büro', prompt: (n) => `[Stadt] Im Sommer arbeite ich in ___ ${n}.` },
+    { theme: 'Essen', case: 'akk_m', noun: 'Apfel', prompt: (n) => `[Essen] Ich esse ___ ${n}.` },
+    { theme: 'Essen', case: 'nom_f', noun: 'Pizza', prompt: (n) => `[Essen] ___ ${n} schmeckt super.` },
+    { theme: 'Transport', case: 'dat_n', noun: 'Auto', prompt: (n) => `[Transport] Wir fahren mit ___ ${n} nach Berlin.` },
+    { theme: 'Transport', case: 'akk_m', noun: 'Bus', prompt: (n) => `[Transport] Ich warte auf ___ ${n}.` },
+    { theme: 'Wetter', case: 'akk_m', noun: 'Regenschirm', prompt: (n) => `[Wetter] Bei Regen brauche ich ___ ${n}.` },
+    { theme: 'Musik', case: 'dat_f', noun: 'Gitarre', prompt: (n) => `[Musik] Ich übe auf ___ ${n}.` },
+    { theme: 'Sport', case: 'akk_m', noun: 'Ball', prompt: (n) => `[Sport] Wir werfen ___ ${n}.` },
+    { theme: 'Tiere', case: 'nom_n', noun: 'Kaninchen', prompt: (n) => `[Tiere] ___ ${n} ist süß.` },
+    { theme: 'Kleidung', case: 'akk_m', noun: 'Mantel', prompt: (n) => `[Kleidung] Im Winter trage ich ___ ${n}.` },
+    { theme: 'Gesundheit', case: 'akk_n', noun: 'Medikament', prompt: (n) => `[Gesundheit] Der Arzt gibt mir ___ ${n}.` },
+    { theme: 'Reisen', case: 'akk_m', noun: 'Koffer', prompt: (n) => `[Reisen] Ich packe ___ ${n}.` },
+    { theme: 'Arbeit', case: 'nom_f', noun: 'Arbeit', prompt: (n) => `[Arbeit] ___ ${n} beginnt um 8 Uhr.` },
+    { theme: 'Zuhause', case: 'dat_n', noun: 'Zimmer', prompt: (n) => `[Zuhause] In ___ ${n} ist es ruhig.` },
+    { theme: 'Einkaufen', case: 'nom_f', noun: 'Uhr', prompt: (n) => `[Einkaufen] ___ ${n} ist teuer.` },
+    { theme: 'Hobby', case: 'akk_pl', noun: 'Bücher', prompt: (n) => `[Hobby] Ich lese gern ___ ${n}.` },
   ];
-  const nouns = {
-    nom_m: 'Vater', nom_f: 'Mutter', nom_n: 'Heft', akk_m: 'Freund', akk_f: 'Freundin',
-    akk_n: 'Medikament', akk_pl: 'Bücher', dat_m: 'Computer', dat_f: 'Gitarre', dat_n: 'Auto',
-  };
 
   const pool = ['mein', 'meine', 'meinen', 'meinem', 'meiner', 'dein', 'deine', 'deinen', 'sein', 'seine', 'seinen', 'ihr', 'ihre', 'ihren', 'unser', 'unsere', 'euer', 'eure'];
 
   for (let i = 0; i < 45; i++) {
     const s = sets[i % sets.length];
     const tpl = templates[i % templates.length];
-    const noun = nouns[tpl.case] || 'Freund';
+    const noun = tpl.noun || 'Freund';
     let correct;
     if (tpl.case.startsWith('akk_m')) correct = s.akk_m;
     else if (tpl.case.startsWith('akk_f') || tpl.case === 'akk_pl') correct = tpl.case === 'akk_pl' ? s.pl : s.f;
@@ -139,13 +149,19 @@ function genPossessiv() {
     else if (tpl.case === 'nom_n') correct = s.n;
     else correct = s.m;
 
+    const hint = `Possessivartikel — ${s.who}, ${POSSESSIV_CASE_LABEL[tpl.case] || 'Nom.'}`;
     out.push({
-      prompt: `${tpl.prompt(noun)} (${s.who})`,
+      prompt: tpl.prompt(noun),
+      hint,
       options: options4(correct, pool, i + 11),
       correct,
     });
   }
   return out;
+}
+
+function restorePossessivSelectOne() {
+  return writeTopic('POSSESSIVARTIKEL', 'a1-poss', genPossessiv(), 6, 50, true);
 }
 
 // ─── PLURAL ─────────────────────────────────────────────────────────────────
@@ -612,14 +628,31 @@ const generators = {
   GEGENTEILE: genGegenteile,
 };
 
-let total = 0;
-for (const [folder, prefix] of Object.entries(TOPICS)) {
-  const qs = generators[folder]();
-  const n = writeTopic(folder, prefix, qs);
-  total += n;
+const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+
+if (isMain) {
+  if (process.argv.includes('--restore')) {
+    const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8) || 'POSSESSIVARTIKEL';
+    if (topic !== 'POSSESSIVARTIKEL') {
+      console.error(`Restore only supported for POSSESSIVARTIKEL, got ${topic}`);
+      process.exit(1);
+    }
+    const n = restorePossessivSelectOne();
+    console.log(`Restored ${n} A1 possessiv select-one files.`);
+    process.exit(0);
+  }
+
+  let total = 0;
+  for (const [folder, prefix] of Object.entries(TOPICS)) {
+    const qs = generators[folder]();
+    const n = writeTopic(folder, prefix, qs);
+    total += n;
+    // eslint-disable-next-line no-console
+    console.log(`${folder}: +${n} (target 45 new, 50 select-one total with 001–005)`);
+  }
+
   // eslint-disable-next-line no-console
-  console.log(`${folder}: +${n} (target 45 new, 50 select-one total with 001–005)`);
+  console.log(`\nTotal new files: ${total}`);
 }
 
-// eslint-disable-next-line no-console
-console.log(`\nTotal new files: ${total}`);
+export { genPossessiv, restorePossessivSelectOne, POSSESSIV_CASE_LABEL };

@@ -9,4 +9,4 @@ options:
 correct: eure
 ---
 
-Ich packe ___ Freundin. (Possessivartikel — sie, fem., Nom.)
+Ich packe ___ Tasche. (Possessivartikel — ihr, fem., Akk.)

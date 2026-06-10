@@ -9,4 +9,4 @@ options:
 correct: des
 ---
 
-Wegen ___ Regens bleiben wir drinnen. (Possessivartikel — Artikel — der Regen, Gen.)
+Wegen ___ Regens bleiben wir drinnen. (Possessivartikelform)

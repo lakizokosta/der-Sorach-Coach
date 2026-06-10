@@ -9,4 +9,4 @@ options:
 correct: ihre
 ---
 
-Ich besuche ___ Freundin. (Possessivartikel — wir, fem., Akk.)
+Ich besuche ___ Freundin. (Possessivartikel — sie, fem., Akk.)

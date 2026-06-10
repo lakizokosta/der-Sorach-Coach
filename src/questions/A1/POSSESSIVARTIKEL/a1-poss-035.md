@@ -9,4 +9,4 @@ options:
 correct: euer
 ---
 
-Wo ist ___ Heft? (Possessivartikel — wir, neutr., Akk.)
+Wo ist ___ Heft? (Possessivartikel — ihr, neutr., Nom.)

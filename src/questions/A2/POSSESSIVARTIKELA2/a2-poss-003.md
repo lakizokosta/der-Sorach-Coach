@@ -9,4 +9,4 @@ options:
 correct: seiner
 ---
 
-Wegen ___ Krankheit bleibt er zu Hause. (Possessivartikel — er, fem., Gen.)
+Wegen ___ Krankheit bleibt er zu Hause. (Possessivartikelform)

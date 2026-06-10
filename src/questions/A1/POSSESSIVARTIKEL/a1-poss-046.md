@@ -9,4 +9,4 @@ options:
 correct: unserer
 ---
 
-Ich übe auf ___ Gitarre. (Possessivartikel — du, Pl., Akk.)
+Ich übe auf ___ Gitarre. (Possessivartikel — wir, fem., Dat.)

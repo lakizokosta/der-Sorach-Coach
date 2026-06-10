@@ -9,4 +9,4 @@ options:
 correct: unserem
 ---
 
-In ___ Auto ist es ruhig. (Possessivartikel — sie, neutr., Akk.)
+In ___ Zimmer ist es ruhig. (Possessivartikel — wir, neutr., Dat.)

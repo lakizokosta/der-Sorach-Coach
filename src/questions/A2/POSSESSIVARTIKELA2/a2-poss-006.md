@@ -9,4 +9,4 @@ options:
 correct: seiner
 ---
 
-Er hilft ___ Nachbarin. (Possessivartikel — er, fem., Dat.)
+Er hilft ___ Nachbarin. (Possessivartikelform)

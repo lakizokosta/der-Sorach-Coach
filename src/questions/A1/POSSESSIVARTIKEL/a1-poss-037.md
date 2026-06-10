@@ -9,4 +9,4 @@ options:
 correct: dein
 ---
 
-___ Heft ist neu. (Possessivartikel — wir, fem., Nom.)
+___ Fahrrad ist neu. (Possessivartikel — du, neutr., Nom.)

@@ -9,4 +9,4 @@ options:
 correct: euren
 ---
 
-Wir werfen ___ Freund. (Possessivartikel — ihr, neutr., Nom.)
+Wir werfen ___ Ball. (Possessivartikel — ihr, mask., Akk.)

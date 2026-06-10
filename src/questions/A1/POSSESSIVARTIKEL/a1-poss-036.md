@@ -9,4 +9,4 @@ options:
 correct: meine
 ---
 
-Ich packe ___ Freundin. (Possessivartikel — er, neutr., Akk.)
+Ich packe ___ Tasche. (Possessivartikel — ich, fem., Akk.)

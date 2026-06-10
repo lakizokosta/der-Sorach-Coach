@@ -9,4 +9,4 @@ options:
 correct: seinen
 ---
 
-Ich packe ___ Freund. (Possessivartikel — ihr, mask., Nom.)
+Ich packe ___ Koffer. (Possessivartikel — er, mask., Akk.)

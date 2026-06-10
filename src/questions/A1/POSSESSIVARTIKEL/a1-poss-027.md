@@ -9,4 +9,4 @@ options:
 correct: ihre
 ---
 
-___ Mutter beginnt um 8 Uhr. (Possessivartikel — ich, mask., Dat.)
+___ Arbeit beginnt um 8 Uhr. (Possessivartikel — sie, fem., Nom.)

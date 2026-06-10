@@ -9,4 +9,4 @@ options:
 correct: seinen
 ---
 
-Er sucht ___ Schlüssel. (Possessivartikel — er, mask., Gen.)
+Er sucht ___ Schlüssel. (Possessivartikelform)

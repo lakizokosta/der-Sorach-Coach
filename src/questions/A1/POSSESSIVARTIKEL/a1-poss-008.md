@@ -9,4 +9,4 @@ options:
 correct: seinen
 ---
 
-Ich rufe ___ Freund an. (Possessivartikel — wir, mask., Akk.)
+Ich rufe ___ Freund an. (Possessivartikel — er, mask., Akk.)

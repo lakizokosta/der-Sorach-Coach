@@ -9,4 +9,4 @@ options:
 correct: meiner
 ---
 
-Das ist die Tasche ___ Mutter. (Possessivartikel — Artikel — das Kind, Gen.)
+Das ist die Tasche ___ Mutter. (Possessivartikelform)

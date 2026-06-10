@@ -9,4 +9,4 @@ options:
 correct: meine
 ---
 
-Ich liebe ___ Stadt. (Possessivartikel — ich, fem., Akk.)
+Ich liebe ___ Stadt. (Possessivartikelform)

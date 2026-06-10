@@ -9,4 +9,4 @@ options:
 correct: euer
 ---
 
-___ Heft ist süß. (Possessivartikel — du, fem., Nom.)
+___ Kaninchen ist süß. (Possessivartikel — ihr, neutr., Nom.)

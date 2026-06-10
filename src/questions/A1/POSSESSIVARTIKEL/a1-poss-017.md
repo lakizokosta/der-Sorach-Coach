@@ -9,4 +9,4 @@ options:
 correct: eure
 ---
 
-___ Mutter schmeckt super. (Possessivartikel — ich, mask., Akk.)
+___ Pizza schmeckt super. (Possessivartikel — ihr, fem., Nom.)

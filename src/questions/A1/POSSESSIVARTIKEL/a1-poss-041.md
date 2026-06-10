@@ -9,4 +9,4 @@ options:
 correct: euren
 ---
 
-Ich esse ___ Freund. (Possessivartikel — ich, mask., Akk.)
+Ich esse ___ Apfel. (Possessivartikel — ihr, mask., Akk.)
