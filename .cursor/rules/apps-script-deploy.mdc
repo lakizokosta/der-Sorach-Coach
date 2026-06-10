@@ -10,9 +10,13 @@ alwaysApply: false
 `apps-script/Code.gs` is the backend. It runs on Google's servers, not on Cloudflare.
 It sends e-mails, stores codes in Google Sheets, and talks to Stripe/PayPal.
 
+## Google account
+Always deploy and authorise while logged in as **lakizo.kosta@gmail.com** (not der.sprachcoach@gmail.com).
+Outgoing mail uses the script owner account; a second account causes OAuth 403 / access_denied.
+
 ## First-time setup (once)
 1. Create a Google Sheet → copy its ID from the URL.
-2. Go to https://script.google.com → New project.
+2. Go to https://script.google.com (as lakizo.kosta@gmail.com) → New project.
 3. Paste `apps-script/Code.gs` (includes inline logo) and `apps-script/appsscript.json`.
 4. Edit constants at the top of `Code.gs`:
    - `SHEET_ID` — spreadsheet ID

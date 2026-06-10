@@ -31,7 +31,8 @@
     "questions:rebuild-dropbox": "node scripts/rebuild-dropbox-banks.mjs",
     "questions:restore-dropbox": "node scripts/restore-all-dropbox.mjs",
     "questions:audit-dropbox": "node scripts/audit-dropbox-sentences.mjs",
-    "backend:verify": "node scripts/verify-backend.mjs"
+    "backend:verify": "node scripts/verify-backend.mjs",
+    "backend:check": "node scripts/check-backend-url.mjs"
   },
   "dependencies": {
     "vue": "^3.5.13",

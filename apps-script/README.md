@@ -27,6 +27,9 @@ Every outgoing e-mail uses the script owner's Gmail (free tier limit: **100 e-ma
 
 ## 2. Create the Apps Script project
 
+> **Account:** sign in as **lakizo.kosta@gmail.com** before opening the script editor.
+> Magic links, codes, and contact form mail are sent from that account (`SUPPORT_EMAIL`).
+
 1. Go to <https://script.google.com> → **New project**.
 2. Replace the default `Code.gs` with the contents of `apps-script/Code.gs`.
 3. Open the manifest (gear ▸ **Project Settings** ▸ check "Show appsscript.json"), then replace it with the contents of `apps-script/appsscript.json`.

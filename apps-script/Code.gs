@@ -50,7 +50,7 @@ const LOGO_PNG_BASE64 = 'iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAt+ElEQVR
 const FROM_NAME = 'Der SprachCoach';
 
 /** Inbox for contact-form submissions (confirm matches your live script). */
-const SUPPORT_EMAIL = 'der.sprachcoach@gmail.com';
+const SUPPORT_EMAIL = 'lakizo.kosta@gmail.com';
 
 /**
  * Shared secret for Stripe / PayPal webhook URLs (`?secret=…`).

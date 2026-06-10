@@ -26,6 +26,50 @@ export function hasBackend() {
 }
 
 /**
+ * @param {Response} res
+ * @param {string} text
+ * @return {{ ok: false, error: string }|null}
+ */
+function httpFailure(res, text) {
+  if (res.ok) return null;
+  if (res.status === 403) {
+    return {
+      ok: false,
+      error:
+        'Backend-Zugriff verweigert (403). Apps Script neu deployen: „Execute as: Me“, „Who has access: Anyone“.',
+    };
+  }
+  if (res.status >= 500) {
+    return { ok: false, error: `Backend-Serverfehler (${res.status})` };
+  }
+  const snippet = text.replace(/\s+/g, ' ').trim().slice(0, 80);
+  return {
+    ok: false,
+    error: snippet
+      ? `Backend-Fehler (${res.status}): ${snippet}`
+      : `Backend-Fehler (${res.status})`,
+  };
+}
+
+/**
+ * @param {unknown} err
+ * @return {{ ok: false, error: string }}
+ */
+function networkFailure(err) {
+  const msg = err && typeof err === 'object' && 'message' in err
+    ? String(err.message)
+    : '';
+  if (/failed to fetch|networkerror|load failed|cors/i.test(msg)) {
+    return {
+      ok: false,
+      error:
+        'Keine Verbindung zum Backend. Prüfe Internet — oder Apps Script ist nicht öffentlich erreichbar (403).',
+    };
+  }
+  return { ok: false, error: 'Keine Verbindung' };
+}
+
+/**
  * Performs a GET against the Apps Script Web App.
  *
  * @param {Object<string, string>} params  Query-string parameters.
@@ -36,9 +80,17 @@ async function getJson(params) {
   const qs = new URLSearchParams(params).toString();
   try {
     const res = await fetch(`${SCRIPT_URL}?${qs}`, { method: 'GET' });
-    return await res.json();
+    const text = await res.text();
+    const fail = httpFailure(res, text);
+    if (fail) return fail;
+    if (!text) return { ok: false, error: 'Leere Backend-Antwort' };
+    try {
+      return JSON.parse(text);
+    } catch {
+      return { ok: false, error: 'Ungültige Backend-Antwort (kein JSON)' };
+    }
   } catch (err) {
-    return { ok: false, error: 'Keine Verbindung' };
+    return networkFailure(err);
   }
 }
 
@@ -57,15 +109,26 @@ async function postJson(body) {
       body: JSON.stringify(body),
     });
     const text = await res.text();
+    const fail = httpFailure(res, text);
+    if (fail) return fail;
     if (!text) return { ok: true };
     try {
       return JSON.parse(text);
     } catch {
-      return { ok: true, raw: text };
+      return { ok: false, error: 'Ungültige Backend-Antwort (kein JSON)' };
     }
   } catch (err) {
-    return { ok: false, error: 'Keine Verbindung' };
+    return networkFailure(err);
   }
+}
+
+/**
+ * Read-only ping — validates that the Web App URL responds with JSON.
+ *
+ * @return {Promise<{ok:boolean, error?:string}>}
+ */
+export function pingBackend() {
+  return getJson({ action: 'validateCode', code: 'PING' });
 }
 
 /**
