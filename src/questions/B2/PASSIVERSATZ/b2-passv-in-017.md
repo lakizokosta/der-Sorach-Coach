@@ -1,0 +1,8 @@
+---
+id: b2-passv-in-017
+type: input-text
+correct:
+  - lässt
+---
+
+Das Gerät ___ sich einfach bedienen. (lassen)

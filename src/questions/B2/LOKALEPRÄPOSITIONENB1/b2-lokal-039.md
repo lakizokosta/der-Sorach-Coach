@@ -1,0 +1,12 @@
+---
+id: b2-lokal-039
+type: select-one
+options:
+  - im
+  - am
+  - vom
+  - an dem
+correct: am
+---
+
+Das Hotel liegt ___ dem See.

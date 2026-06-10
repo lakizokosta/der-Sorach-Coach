@@ -1,0 +1,8 @@
+---
+id: b2-rel-in-038
+type: input-text
+correct:
+  - das
+---
+
+Das Unternehmen, für ___ er arbeitet, expandiert. (das)
