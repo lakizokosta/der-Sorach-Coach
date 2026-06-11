@@ -3,7 +3,7 @@ id: a1-poss-dd-043
 type: dropbox
 words:
   - Sie
-  - zeigt
+  - hilft
   - ihrer
   - Freundin
 ---

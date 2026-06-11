@@ -9,4 +9,4 @@ options:
 correct: unserem
 ---
 
-Im Sommer arbeite ich in ___ Büro. (Possessivartikel — wir, mask., Dat.)
+Im Sommer arbeite ich in ___ Büro. (Possessivartikel — wir, neutr., Dat.)

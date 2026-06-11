@@ -14,6 +14,7 @@
     "questions:audit-genitiv": "node scripts/audit-genitiv-questions.mjs",
     "questions:audit-possessiv": "node scripts/audit-possessiv-hints.mjs",
     "questions:fix-possessiv": "node scripts/generate-a1-select-one.mjs --restore --topic=POSSESSIVARTIKEL && node scripts/generate-a2-select-one.mjs --restore --topic=POSSESSIVARTIKELA2",
+    "questions:export-review": "node scripts/export-manual-review.mjs",
     "questions:fix-genitiv": "node scripts/fix-genitiv-questions.mjs",
     "questions:stats": "node scripts/question-stats.mjs",
     "questions:generate-a1": "node scripts/generate-a1-select-one.mjs",

@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Er
   - spielt
-  - seiner
+  - seine
   - Gitarre
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — seine)

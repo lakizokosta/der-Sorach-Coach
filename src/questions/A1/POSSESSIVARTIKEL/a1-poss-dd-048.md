@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Sie
   - packt
-  - ihrer
+  - ihre
   - Kamera
 ---
 
-[Reisen] Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer)
+[Reisen] Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihre)

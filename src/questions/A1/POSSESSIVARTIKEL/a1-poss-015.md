@@ -9,4 +9,4 @@ options:
 correct: ihrem
 ---
 
-Im Sommer arbeite ich in ___ Büro. (Possessivartikel — sie, mask., Dat.)
+Im Sommer arbeite ich in ___ Büro. (Possessivartikel — sie, neutr., Dat.)

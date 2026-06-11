@@ -114,7 +114,7 @@ function genPossessiv() {
     { theme: 'Hobby', case: 'nom_n', noun: 'Fahrrad', prompt: (n) => `[Hobby] ___ ${n} ist neu.` },
     { theme: 'Hobby', case: 'dat_m', noun: 'Computer', prompt: (n) => `[Hobby] Ich spiele mit ___ ${n}.` },
     { theme: 'Stadt', case: 'akk_f', noun: 'Wohnung', prompt: (n) => `[Stadt] Wir suchen ___ ${n}.` },
-    { theme: 'Stadt', case: 'dat_m', noun: 'Büro', prompt: (n) => `[Stadt] Im Sommer arbeite ich in ___ ${n}.` },
+    { theme: 'Stadt', case: 'dat_n', noun: 'Büro', prompt: (n) => `[Stadt] Im Sommer arbeite ich in ___ ${n}.` },
     { theme: 'Essen', case: 'akk_m', noun: 'Apfel', prompt: (n) => `[Essen] Ich esse ___ ${n}.` },
     { theme: 'Essen', case: 'nom_f', noun: 'Pizza', prompt: (n) => `[Essen] ___ ${n} schmeckt super.` },
     { theme: 'Transport', case: 'dat_n', noun: 'Auto', prompt: (n) => `[Transport] Wir fahren mit ___ ${n} nach Berlin.` },
