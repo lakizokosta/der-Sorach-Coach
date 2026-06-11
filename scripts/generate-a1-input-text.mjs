@@ -264,7 +264,7 @@ const BANK = {
     ['[Reisen] Wir übernachten in einem ___ Hotel. (billig, neutr., Dat.)', 'billigen'],
     ['[Arbeit] Er hat eine ___ Idee. (gut, fem., Akk.)', 'gute'],
     ['[Einkaufen] Im ___ Laden ist alles günstig. (klein, mask., Dat.)', 'kleinen'],
-    ['[Hobby] Das ist mein ___ Buch. (lieb, neutr., Nom.)', 'liebes'],
+    ['[Hobby] Das ist mein ___ Buch. (gut, neutr., Nom.)', 'gutes'],
     ['[Familie] Sie wohnt in einem ___ Haus. (alt, neutr., Dat.)', 'alten'],
     ['[Stadt] Ich sehe einen ___ Turm. (hoch, mask., Akk.)', 'hohen'],
     ['[Essen] Wir trinken eine ___ Limonade. (kalt, fem., Akk.)', 'kalte'],

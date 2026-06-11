@@ -6,7 +6,6 @@ words:
   - trinke
   - kaltes
   - Wasser
-  - heute
 ---
 
 [Wetter] Ordne die Wörter zum richtigen Satz: (Adjektiv — kaltes Wasser)

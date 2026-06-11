@@ -313,24 +313,40 @@ function genAdjektiv() {
   ];
   const wrongEnds = ['kleiner', 'kleine', 'kleines', 'kleinen', 'guter', 'gute', 'gutes', 'guten', 'neuer', 'neue', 'neues', 'neuen'];
 
+  /** @param {typeof items[0]} it */
+  function adjPrompt(it) {
+    const t = it.theme;
+    if (it.art === 'der' || it.art === 'die' || it.art === 'das') {
+      return `[${t}] ${it.art.charAt(0).toUpperCase() + it.art.slice(1)} ___ ${it.noun} gefällt mir.`;
+    }
+    if (it.art === 'keine' || it.art === 'eine') {
+      return `[${t}] Ich habe eine ___ ${it.noun}.`;
+    }
+    if (it.art === 'kein') {
+      return `[${t}] Das ist kein ___ ${it.noun}.`;
+    }
+    if (it.art === 'ein' && it.g === 'f') {
+      return `[${t}] Das ist eine ___ ${it.noun}.`;
+    }
+    return `[${t}] Das ist ein ___ ${it.noun}.`;
+  }
+
   /** @type {Q[]} */
   const out = [];
   for (let i = 0; i < 45; i++) {
     const it = items[i % items.length];
-    const correct = it.end;
-    const prompt =
-      it.art === 'der' || it.art === 'die' || it.art === 'das'
-        ? `[${it.theme}] ${it.art.charAt(0).toUpperCase() + it.art.slice(1)} ___ ${it.noun} gefällt mir.`
-        : it.art === 'keine'
-          ? `[${it.theme}] Ich habe ___ ${it.noun}.`
-          : `[${it.theme}] Das ist ${it.art} ___ ${it.noun}.`;
     out.push({
-      prompt,
-      options: options4(correct, wrongEnds, i + 17),
-      correct,
+      prompt: adjPrompt(it),
+      hint: 'Adjektivendung',
+      options: options4(it.end, wrongEnds, i + 17),
+      correct: it.end,
     });
   }
   return out;
+}
+
+function restoreAdjektivSelectOne() {
+  return writeTopic('ADJEKTIVDEKLINATIONA1', 'a1-adj', genAdjektiv(), 6, 50, true);
 }
 
 // ─── WECHSELPRÄPOSITIONEN ───────────────────────────────────────────────────
@@ -633,6 +649,11 @@ if (isMain) {
       console.log(`Restored ${n} A1 plural select-one files.`);
       process.exit(0);
     }
+    if (topic === 'ADJEKTIVDEKLINATIONA1') {
+      const n = restoreAdjektivSelectOne();
+      console.log(`Restored ${n} A1 adjektiv select-one files.`);
+      process.exit(0);
+    }
     console.error(`Restore not supported for ${topic}`);
     process.exit(1);
   }
@@ -650,4 +671,7 @@ if (isMain) {
   console.log(`\nTotal new files: ${total}`);
 }
 
-export { genPossessiv, restorePossessivSelectOne, genPlural, restorePluralSelectOne, POSSESSIV_CASE_LABEL };
+export {
+  genPossessiv, restorePossessivSelectOne, genPlural, restorePluralSelectOne,
+  genAdjektiv, restoreAdjektivSelectOne, POSSESSIV_CASE_LABEL,
+};

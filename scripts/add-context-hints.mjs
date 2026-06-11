@@ -86,9 +86,10 @@ for (const full of walkMd(ROOT)) {
   let inner = extractInnerHint(parsed.body);
   let options = parsed.options;
 
-  // Possessiv / Verbkonjugation: select-one and input-text share an index but different sentences.
+  // Possessiv / Verb / Adjektiv: select-one and input-text share an index but different sentences.
+  const NO_SIBLING_HINT = new Set(['VERBKONJUGATION', 'ADJEKTIVDEKLINATIONA1']);
   const siblingIn = siblingInputPath(full, parsed.id);
-  if (siblingIn && !POSSESSIV_TOPICS.has(topic) && topic !== 'VERBKONJUGATION') {
+  if (siblingIn && !POSSESSIV_TOPICS.has(topic) && !NO_SIBLING_HINT.has(topic)) {
     const sib = parseMd(readFileSync(siblingIn, 'utf8'));
     if (sib) inner = extractInnerHint(sib.body) || inner;
   }

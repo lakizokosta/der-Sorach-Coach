@@ -16,6 +16,7 @@
     "questions:fix-possessiv": "node scripts/generate-a1-select-one.mjs --restore --topic=POSSESSIVARTIKEL && node scripts/generate-a2-select-one.mjs --restore --topic=POSSESSIVARTIKELA2",
     "questions:export-review": "node scripts/export-manual-review.mjs",
     "questions:fix-verbkonj-a1": "node scripts/fix-a1-verbkonjugation.mjs",
+    "questions:fix-adj-a1": "node scripts/fix-a1-adjektivdeklination.mjs",
     "questions:fix-genitiv": "node scripts/fix-genitiv-questions.mjs",
     "questions:stats": "node scripts/question-stats.mjs",
     "questions:generate-a1": "node scripts/generate-a1-select-one.mjs",

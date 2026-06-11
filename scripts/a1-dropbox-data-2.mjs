@@ -9,7 +9,7 @@ export const ADJEKTIVDEKLINATIONA1 = [
   { theme: 'Sport', hint: 'Adjektiv — ein schnelles Fahrrad', words: ['Er', 'fährt', 'ein', 'schnelles', 'Fahrrad'] },
   { theme: 'Freunde', hint: 'Adjektiv — ein netter Freund', words: ['Das', 'ist', 'ein', 'netter', 'Freund'] },
   { theme: 'Schule', hint: 'Adjektiv — die neue Schule', words: ['Die', 'neue', 'Schule', 'ist', 'groß'] },
-  { theme: 'Wetter', hint: 'Adjektiv — kaltes Wasser', words: ['Ich', 'trinke', 'kaltes', 'Wasser', 'heute'] },
+  { theme: 'Wetter', hint: 'Adjektiv — kaltes Wasser', words: ['Ich', 'trinke', 'kaltes', 'Wasser'] },
   { theme: 'Musik', hint: 'Adjektiv — ein lautes Lied', words: ['Das', 'ist', 'ein', 'lautes', 'Lied'] },
   { theme: 'Essen', hint: 'Adjektiv — eine warme Suppe', words: ['Die', 'warme', 'Suppe', 'schmeckt', 'gut'] },
   { theme: 'Reisen', hint: 'Adjektiv — eine alte Stadt', words: ['Wir', 'besuchen', 'eine', 'alte', 'Stadt'] },
