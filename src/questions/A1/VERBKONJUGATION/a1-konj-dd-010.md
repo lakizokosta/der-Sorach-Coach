@@ -8,4 +8,4 @@ words:
   - Oma
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb hören)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb besuchen)

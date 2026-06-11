@@ -9,4 +9,4 @@ options:
 correct: essen
 ---
 
-Sie ___ Obst zum Frühstück. (Präsens + Verb backen)
+Sie ___ Obst zum Frühstück. (Präsens + Verb essen)

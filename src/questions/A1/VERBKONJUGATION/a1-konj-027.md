@@ -9,4 +9,4 @@ options:
 correct: tanzt
 ---
 
-Du ___ gern am Wochenende. (Präsens + Verb sehen)
+Du ___ gern am Wochenende. (Präsens + Verb tanzen)

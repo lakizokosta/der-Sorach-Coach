@@ -202,7 +202,7 @@ const BANK = {
     ['[Stadt] ___ du den Weg? (finden, du)', 'Findest'],
     ['[Transport] Er ___ auf den Bus. (warten, er)', 'wartet'],
     ['[Familie] Wir ___ unsere Großeltern. (besuchen, wir)', 'besuchen'],
-    ['[Freunde] ___ mir bitte! (helfen, ihr)', 'Helft'],
+    ['[Freunde] Ihr ___ mir im Garten. (helfen, ihr)', 'helft'],
     ['[Freunde] Meine Freunde ___ später. (kommen, sie Pl.)', 'kommen'],
     ['[Gesundheit] Ich ___ einen Termin beim Arzt. (brauchen, ich)', 'brauche'],
     ['[Stadt] ___ du den Turm? (sehen, du)', 'Siehst'],

@@ -9,4 +9,4 @@ words:
   - acht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb regnen)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb beginnen)

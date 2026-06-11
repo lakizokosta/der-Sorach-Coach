@@ -9,4 +9,4 @@ options:
 correct: kauft
 ---
 
-Anna ___ Brot im Supermarkt. (Präsens + Verb warten)
+Anna ___ Brot im Supermarkt. (Präsens + Verb kaufen)

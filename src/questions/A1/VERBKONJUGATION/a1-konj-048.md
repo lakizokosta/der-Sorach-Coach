@@ -9,4 +9,4 @@ options:
 correct: trinkt
 ---
 
-Er ___ Wasser nach dem Training. (Präsens + Verb spielen)
+Er ___ Wasser nach dem Training. (Präsens + Verb trinken)

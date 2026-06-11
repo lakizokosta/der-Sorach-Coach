@@ -86,10 +86,9 @@ for (const full of walkMd(ROOT)) {
   let inner = extractInnerHint(parsed.body);
   let options = parsed.options;
 
-  // Possessiv select-one and input-text share an index but test different sentences —
-  // never borrow the input-text hint (e.g. a2-poss-011 ≠ a2-poss-in-011).
+  // Possessiv / Verbkonjugation: select-one and input-text share an index but different sentences.
   const siblingIn = siblingInputPath(full, parsed.id);
-  if (siblingIn && !POSSESSIV_TOPICS.has(topic)) {
+  if (siblingIn && !POSSESSIV_TOPICS.has(topic) && topic !== 'VERBKONJUGATION') {
     const sib = parseMd(readFileSync(siblingIn, 'utf8'));
     if (sib) inner = extractInnerHint(sib.body) || inner;
   }

@@ -5,4 +5,4 @@ correct: steht
 hint: "Trennbares Verb — Präfix ans Ende!"
 ---
 
-Er ___ jeden Tag um 7 Uhr auf. (Präsens + Verb kaufen)
+Er ___ jeden Tag um 7 Uhr auf. (Präsens + Verb aufstehen)

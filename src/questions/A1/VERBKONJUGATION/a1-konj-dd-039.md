@@ -8,4 +8,4 @@ words:
   - Café
 ---
 
-[Stadt] Ordne die Wörter zum richtigen Satz: (Präsens + Verb fahren)
+[Stadt] Ordne die Wörter zum richtigen Satz: (Präsens + Verb suchen)

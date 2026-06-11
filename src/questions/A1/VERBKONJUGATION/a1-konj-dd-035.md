@@ -8,4 +8,4 @@ words:
   - Lehrer
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb anrufen)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb fragen)

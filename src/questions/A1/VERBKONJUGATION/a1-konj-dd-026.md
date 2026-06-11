@@ -8,4 +8,4 @@ words:
   - Geburtstag
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb brauchen)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb feiern)

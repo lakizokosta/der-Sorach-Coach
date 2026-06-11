@@ -9,4 +9,4 @@ options:
 correct: schwimmen
 ---
 
-Wir ___ im See im Sommer. (Präsens + Verb lieben)
+Wir ___ im See im Sommer. (Präsens + Verb schwimmen)

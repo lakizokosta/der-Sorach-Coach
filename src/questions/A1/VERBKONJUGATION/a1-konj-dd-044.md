@@ -8,4 +8,4 @@ words:
   - Koffer
 ---
 
-[Reisen] Ordne die Wörter zum richtigen Satz: (Präsens + Verb aufstehen)
+[Reisen] Ordne die Wörter zum richtigen Satz: (Präsens + Verb packen)

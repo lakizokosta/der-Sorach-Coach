@@ -8,4 +8,4 @@ words:
   - Mantel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb schreiben)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb tragen)

@@ -2,7 +2,7 @@
 id: a1-konj-in-024
 type: input-text
 correct:
-  - Helft
+  - helft
 ---
 
-___ mir bitte! (Präsens + Verb helfen)
+Ihr ___ mir im Garten. (Präsens + Verb helfen)

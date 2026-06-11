@@ -9,4 +9,4 @@ options:
 correct: hörst
 ---
 
-Du ___ Musik beim Sport. (Präsens + Verb schreiben)
+Du ___ Musik beim Sport. (Präsens + Verb machen)

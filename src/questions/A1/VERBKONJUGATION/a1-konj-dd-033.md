@@ -8,4 +8,4 @@ words:
   - Musik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb trinken)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb hören)

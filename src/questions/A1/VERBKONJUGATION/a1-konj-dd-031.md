@@ -8,4 +8,4 @@ words:
   - Wasser
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb bezahlen)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb trinken)

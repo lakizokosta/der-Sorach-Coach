@@ -8,4 +8,4 @@ words:
   - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb waschen)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb treffen)

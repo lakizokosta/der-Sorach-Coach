@@ -9,4 +9,4 @@ options:
 correct: tanzt
 ---
 
-Anna ___ gern am Wochenende. (Präsens + Verb essen)
+Anna ___ gern am Wochenende. (Präsens + Verb tanzen)

@@ -8,4 +8,4 @@ words:
   - Stunden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb fragen)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb schlafen)

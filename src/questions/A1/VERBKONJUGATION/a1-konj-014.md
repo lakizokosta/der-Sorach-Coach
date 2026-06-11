@@ -9,4 +9,4 @@ options:
 correct: arbeiten
 ---
 
-Meine Freunde ___ im Büro in der Stadt. (Präsens + Verb reisen)
+Meine Freunde ___ im Büro in der Stadt. (Präsens + Verb arbeiten)

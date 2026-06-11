@@ -9,4 +9,4 @@ options:
 correct: spielen
 ---
 
-Wir ___ gern Fußball. (Präsens + Verb kaufen)
+Wir ___ gern Fußball. (Präsens + Verb spielen)

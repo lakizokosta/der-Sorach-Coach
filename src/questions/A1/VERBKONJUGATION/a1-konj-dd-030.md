@@ -8,4 +8,4 @@ words:
   - Wien
 ---
 
-[Reisen] Ordne die Wörter zum richtigen Satz: (Präsens + Verb antworten)
+[Reisen] Ordne die Wörter zum richtigen Satz: (Präsens + Verb fliegen)

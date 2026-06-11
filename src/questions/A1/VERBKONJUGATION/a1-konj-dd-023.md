@@ -8,4 +8,4 @@ words:
   - Abend
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb besuchen)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb kommen)

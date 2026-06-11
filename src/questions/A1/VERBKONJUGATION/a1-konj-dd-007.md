@@ -8,4 +8,4 @@ words:
   - Deutsch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb singen)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb lernen)

@@ -9,4 +9,4 @@ options:
 correct: spiele
 ---
 
-Ich ___ Fußball im Park. (Präsens + Verb tanzen)
+Ich ___ Fußball im Park. (Präsens + Verb spielen)

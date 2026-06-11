@@ -9,4 +9,4 @@ options:
 correct: singt
 ---
 
-Peter ___ laut im Chor. (Präsens + Verb tragen)
+Peter ___ laut im Chor. (Präsens + Verb singen)

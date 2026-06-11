@@ -9,4 +9,4 @@ options:
 correct: liest
 ---
 
-Sie ___ jeden Abend ein Buch. (Präsens + Verb fahren)
+Sie ___ jeden Abend ein Buch. (Präsens + Verb lesen)

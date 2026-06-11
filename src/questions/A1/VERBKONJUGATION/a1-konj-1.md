@@ -9,4 +9,4 @@ options:
 correct: kaufst
 ---
 
-Du ___ heute Brot. (Präsens + Verb spielen)
+Du ___ heute Brot. (Präsens + Verb kaufen)

@@ -8,4 +8,4 @@ words:
   - Spiel
 ---
 
-[Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb lieben)
+[Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb gewinnen)

@@ -9,4 +9,4 @@ options:
 correct: singt
 ---
 
-Er ___ laut im Chor. (Präsens + Verb regnen)
+Er ___ laut im Chor. (Präsens + Verb singen)

@@ -9,4 +9,4 @@ options:
 correct: koche
 ---
 
-Ich ___ Pasta zum Abendessen. (Präsens + Verb brauchen)
+Ich ___ Pasta zum Abendessen. (Präsens + Verb kochen)

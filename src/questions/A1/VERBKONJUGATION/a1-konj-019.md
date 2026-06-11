@@ -5,8 +5,8 @@ options:
   - isst
   - essen
   - esse
-  - machen
+  - esst
 correct: essen
 ---
 
-Sie ___ Obst zum Frühstück. (Präsens + Verb gehen)
+Wir ___ Obst zum Frühstück. (Präsens + Verb essen)

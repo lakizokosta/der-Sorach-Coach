@@ -9,4 +9,4 @@ options:
 correct: hört
 ---
 
-Anna ___ Musik beim Sport. (Präsens + Verb feiern)
+Anna ___ Musik beim Sport. (Präsens + Verb machen)

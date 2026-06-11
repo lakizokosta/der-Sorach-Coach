@@ -9,4 +9,4 @@ options:
 correct: essen
 ---
 
-Meine Freunde ___ Obst zum Frühstück. (Präsens + Verb wohnen)
+Meine Freunde ___ Obst zum Frühstück. (Präsens + Verb essen)

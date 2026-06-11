@@ -8,4 +8,4 @@ words:
   - Hund
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präsens + Verb arbeiten)
+Ordne die Wörter zum richtigen Satz: (Präsens + Verb füttern)

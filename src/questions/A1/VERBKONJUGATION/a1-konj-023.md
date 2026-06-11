@@ -9,4 +9,4 @@ options:
 correct: fährt
 ---
 
-Peter ___ mit dem Bus zur Schule. (Präsens + Verb besuchen)
+Peter ___ mit dem Bus zur Schule. (Präsens + Verb fahren)

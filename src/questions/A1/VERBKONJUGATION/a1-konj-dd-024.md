@@ -9,4 +9,4 @@ words:
   - Stadt
 ---
 
-[Stadt] Ordne die Wörter zum richtigen Satz: (Präsens + Verb helfen)
+[Stadt] Ordne die Wörter zum richtigen Satz: (Präsens + Verb gehen)

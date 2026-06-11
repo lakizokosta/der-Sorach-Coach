@@ -9,4 +9,4 @@ options:
 correct: tanzt
 ---
 
-Anna ___ gern am Wochenende. (Präsens + Verb bringen)
+Anna ___ gern am Wochenende. (Präsens + Verb tanzen)
