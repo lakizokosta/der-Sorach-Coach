@@ -431,7 +431,7 @@ const BANK = {
     ['[Gesundheit] Sie trinkt ___ Tee. (der Tee, Akk.)', 'den'],
     ['[Arbeit] Ich beende ___ Projekt. (das Projekt, Akk.)', 'das'],
     ['[Musik] Wir hören ___ Konzert. (das Konzert, Akk.)', 'das'],
-    ['[Sport] Er wirft ___ Frisbee. (der Frisbee, Akk.)', 'den'],
+    ['[Sport] Er wirft ___ Ball. (der Ball, Akk.)', 'den'],
     ['[Reisen] Ich buche ___ Flug. (der Flug, Akk.)', 'den'],
     ['[Einkaufen] Ich finde ___ Angebot. (das Angebot, Akk.)', 'das'],
     ['[Freunde] Ich lade ___ Kollegin ein. (meine Kollegin, Akk.)', 'meine'],

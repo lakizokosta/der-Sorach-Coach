@@ -91,20 +91,20 @@ export const AKKUSATIVA1 = [
   { theme: 'Gesundheit', hint: 'Akkusativ — den Tee trinken', words: ['Sie', 'trinkt', 'den', 'Tee'] },
   { theme: 'Arbeit', hint: 'Akkusativ — das Projekt beenden', words: ['Ich', 'beende', 'das', 'Projekt'] },
   { theme: 'Musik', hint: 'Akkusativ — das Konzert hören', words: ['Wir', 'hören', 'das', 'Konzert'] },
-  { theme: 'Sport', hint: 'Akkusativ — den Frisbee werfen', words: ['Er', 'wirft', 'den', 'Frisbee'] },
+  { theme: 'Sport', hint: 'Akkusativ — den Ball werfen', words: ['Er', 'wirft', 'den', 'Ball'] },
   { theme: 'Reisen', hint: 'Akkusativ — den Flug buchen', words: ['Ich', 'buche', 'den', 'Flug'] },
   { theme: 'Einkaufen', hint: 'Akkusativ — das Angebot finden', words: ['Wir', 'finden', 'das', 'Angebot'] },
   { theme: 'Schule', hint: 'Akkusativ — den Text lesen', words: ['Du', 'liest', 'den', 'Text'] },
   { theme: 'Essen', hint: 'Akkusativ — die Pizza teilen', words: ['Wir', 'teilen', 'die', 'Pizza'] },
   { theme: 'Transport', hint: 'Akkusativ — ein Ticket kaufen', words: ['Sie', 'kauft', 'ein', 'Ticket'] },
   { theme: 'Stadt', hint: 'Akkusativ — die Brücke fotografieren', words: ['Ich', 'fotografiere', 'die', 'Brücke'] },
-  { theme: 'Hobby', hint: 'Akkusativ — Briefmarken sammeln', words: ['Er', 'sammelt', 'Briefmarken', 'gern'] },
+  { theme: 'Hobby', hint: 'Akkusativ — Briefmarken sammeln', words: ['Er', 'sammelt', 'Briefmarken'] },
   { theme: 'Zuhause', hint: 'Akkusativ — das Fenster öffnen', words: ['Ich', 'öffne', 'das', 'Fenster'] },
   { theme: 'Familie', hint: 'Akkusativ — seine Familie lieben', words: ['Er', 'liebt', 'seine', 'Familie'] },
   { theme: 'Freunde', hint: 'Akkusativ — meine Kollegin einladen', words: ['Ich', 'lade', 'meine', 'Kollegin'] },
   { theme: 'Tiere', hint: 'Akkusativ — den Hund spazieren führen', words: ['Ich', 'führe', 'den', 'Hund'] },
   { theme: 'Kleidung', hint: 'Akkusativ — die Bluse kaufen', words: ['Sie', 'kauft', 'die', 'Bluse'] },
-  { theme: 'Gesundheit', hint: 'Akkusativ — die Medizin nehmen', words: ['Nimm', 'die', 'Medizin', 'bitte'] },
+  { theme: 'Gesundheit', hint: 'Akkusativ — die Medizin nehmen', words: ['Nimm', 'die', 'Medizin'] },
 ];
 
 export const ARTIKEL = [

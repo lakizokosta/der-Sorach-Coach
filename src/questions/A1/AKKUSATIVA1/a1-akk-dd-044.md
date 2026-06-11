@@ -5,7 +5,6 @@ words:
   - Er
   - sammelt
   - Briefmarken
-  - gern
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — Briefmarken sammeln)
+[Hobby] Ordne die Wörter zum richtigen Satz: (Akkusativ — Briefmarken sammeln)

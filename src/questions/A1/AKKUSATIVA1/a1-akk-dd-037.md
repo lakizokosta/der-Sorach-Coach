@@ -5,7 +5,7 @@ words:
   - Er
   - wirft
   - den
-  - Frisbee
+  - Ball
 ---
 
-[Sport] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Frisbee werfen)
+[Sport] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Ball werfen)

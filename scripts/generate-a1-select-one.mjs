@@ -429,21 +429,21 @@ function restoreDativSelectOne() {
 
 function genAkkusativ() {
   const items = [
-    { sent: 'Ich sehe ___ Mann.', correct: 'den', pool: ['den', 'der', 'dem', 'des'], theme: 'Stadt' },
-    { sent: 'Ich kaufe ___ Apfel.', correct: 'einen', pool: ['einen', 'ein', 'eine', 'einer'], theme: 'Essen' },
-    { sent: 'Ich esse ___ Brot.', correct: 'das', pool: ['das', 'den', 'dem', 'der'], theme: 'Essen' },
-    { sent: 'Ich trinke ___ Wasser.', correct: 'das', pool: ['das', 'den', 'dem', 'die'], theme: 'Essen' },
-    { sent: 'Ich lese ___ Buch.', correct: 'ein', pool: ['ein', 'einen', 'eine', 'einer'], theme: 'Schule' },
-    { sent: 'Ich besuche ___ Freundin.', correct: 'meine', pool: ['meine', 'mein', 'meinen', 'meiner'], theme: 'Freunde' },
-    { sent: 'Ich nehme ___ Bus.', correct: 'den', pool: ['den', 'der', 'dem', 'des'], theme: 'Transport' },
-    { sent: 'Ich brauche ___ Regenschirm.', correct: 'einen', pool: ['einen', 'ein', 'eine', 'einer'], theme: 'Wetter' },
-    { sent: 'Ich suche ___ Hotel.', correct: 'ein', pool: ['ein', 'einen', 'eine', 'einer'], theme: 'Reisen' },
-    { sent: 'Ich spiele ___ Ball.', correct: 'den', pool: ['den', 'der', 'dem', 'des'], theme: 'Sport' },
-    { sent: 'Ich höre ___ Musik.', correct: 'die', pool: ['die', 'der', 'dem', 'den'], theme: 'Musik' },
-    { sent: 'Ich mache ___ Foto.', correct: 'ein', pool: ['ein', 'einen', 'eine', 'einer'], theme: 'Hobby' },
-    { sent: 'Ich liebe ___ Stadt.', correct: 'diese', pool: ['diese', 'dieser', 'dieses', 'diesen'], theme: 'Reisen' },
-    { sent: 'Ich finde ___ Film toll.', correct: 'den', pool: ['den', 'der', 'dem', 'des'], theme: 'Hobby' },
-    { sent: 'Ich kaufe ___ Jacke.', correct: 'eine', pool: ['eine', 'ein', 'einen', 'einer'], theme: 'Einkaufen' },
+    { sent: 'Ich sehe ___ Mann.', correct: 'den', pool: ['den', 'der', 'dem', 'des'], theme: 'Stadt', hint: 'Akkusativ — der Mann, Akk.' },
+    { sent: 'Ich kaufe ___ Apfel.', correct: 'einen', pool: ['einen', 'ein', 'eine', 'einer'], theme: 'Essen', hint: 'Akkusativ — ein Apfel, Akk.' },
+    { sent: 'Ich esse ___ Brot.', correct: 'das', pool: ['das', 'den', 'dem', 'der'], theme: 'Essen', hint: 'Akkusativ — das Brot, Akk.' },
+    { sent: 'Ich trinke ___ Wasser.', correct: 'das', pool: ['das', 'den', 'dem', 'die'], theme: 'Essen', hint: 'Akkusativ — das Wasser, Akk.' },
+    { sent: 'Ich lese ___ Buch.', correct: 'ein', pool: ['ein', 'einen', 'eine', 'einer'], theme: 'Schule', hint: 'Akkusativ — ein Buch, Akk.' },
+    { sent: 'Ich besuche ___ Freundin.', correct: 'meine', pool: ['meine', 'mein', 'meinen', 'meiner'], theme: 'Freunde', hint: 'Akkusativ — meine Freundin, Akk.' },
+    { sent: 'Ich nehme ___ Bus.', correct: 'den', pool: ['den', 'der', 'dem', 'des'], theme: 'Transport', hint: 'Akkusativ — der Bus, Akk.' },
+    { sent: 'Ich brauche ___ Regenschirm.', correct: 'einen', pool: ['einen', 'ein', 'eine', 'einer'], theme: 'Wetter', hint: 'Akkusativ — ein Regenschirm, Akk.' },
+    { sent: 'Ich suche ___ Hotel.', correct: 'ein', pool: ['ein', 'einen', 'eine', 'einer'], theme: 'Reisen', hint: 'Akkusativ — ein Hotel, Akk.' },
+    { sent: 'Ich spiele ___ Ball.', correct: 'den', pool: ['den', 'der', 'dem', 'des'], theme: 'Sport', hint: 'Akkusativ — der Ball, Akk.' },
+    { sent: 'Ich höre ___ Musik.', correct: 'die', pool: ['die', 'der', 'dem', 'den'], theme: 'Musik', hint: 'Akkusativ — die Musik, Akk.' },
+    { sent: 'Ich mache ___ Foto.', correct: 'ein', pool: ['ein', 'einen', 'eine', 'einer'], theme: 'Hobby', hint: 'Akkusativ — ein Foto, Akk.' },
+    { sent: 'Ich liebe ___ Stadt.', correct: 'diese', pool: ['diese', 'dieser', 'dieses', 'diesen'], theme: 'Reisen', hint: 'Akkusativ — diese Stadt, Akk.' },
+    { sent: 'Ich finde ___ Film toll.', correct: 'den', pool: ['den', 'der', 'dem', 'des'], theme: 'Hobby', hint: 'Akkusativ — der Film, Akk.' },
+    { sent: 'Ich kaufe ___ Jacke.', correct: 'eine', pool: ['eine', 'ein', 'einen', 'einer'], theme: 'Einkaufen', hint: 'Akkusativ — eine Jacke, Akk.' },
   ];
 
   /** @type {Q[]} */
@@ -452,11 +452,16 @@ function genAkkusativ() {
     const it = items[i % items.length];
     out.push({
       prompt: `[${it.theme}] ${it.sent}`,
+      hint: it.hint,
       options: options4(it.correct, it.pool, i + 37),
       correct: it.correct,
     });
   }
   return out;
+}
+
+function restoreAkkusativSelectOne() {
+  return writeTopic('AKKUSATIVA1', 'a1-akk', genAkkusativ(), 6, 50, true);
 }
 
 // ─── ARTIKEL ──────────────────────────────────────────────────────────────────
@@ -664,6 +669,11 @@ if (isMain) {
       console.log(`Restored ${n} A1 dativ select-one files.`);
       process.exit(0);
     }
+    if (topic === 'AKKUSATIVA1') {
+      const n = restoreAkkusativSelectOne();
+      console.log(`Restored ${n} A1 akkusativ select-one files.`);
+      process.exit(0);
+    }
     console.error(`Restore not supported for ${topic}`);
     process.exit(1);
   }
@@ -683,5 +693,6 @@ if (isMain) {
 
 export {
   genPossessiv, restorePossessivSelectOne, genPlural, restorePluralSelectOne,
-  genAdjektiv, restoreAdjektivSelectOne, genDativ, restoreDativSelectOne, POSSESSIV_CASE_LABEL,
+  genAdjektiv, restoreAdjektivSelectOne, genDativ, restoreDativSelectOne,
+  genAkkusativ, restoreAkkusativSelectOne, POSSESSIV_CASE_LABEL,
 };

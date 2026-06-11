@@ -5,7 +5,6 @@ words:
   - Nimm
   - die
   - Medizin
-  - bitte
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — die Medizin nehmen)
+[Gesundheit] Ordne die Wörter zum richtigen Satz: (Akkusativ — die Medizin nehmen)

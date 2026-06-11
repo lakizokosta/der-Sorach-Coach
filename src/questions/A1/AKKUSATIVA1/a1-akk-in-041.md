@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Er wirft ___ Frisbee. (Akkusativ — Akk.)
+Er wirft ___ Ball. (Akkusativ — der Ball, Akk.)
