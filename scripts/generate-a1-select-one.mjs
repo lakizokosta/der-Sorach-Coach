@@ -486,6 +486,18 @@ function genArtikel() {
   ];
   const modes = ['def', 'ein', 'kein'];
 
+  /** haben + Objekt → Akkusativ */
+  function habenArtikel(g, kind) {
+    if (kind === 'ein') {
+      if (g === 'm') return 'einen';
+      if (g === 'f') return 'eine';
+      return 'ein';
+    }
+    if (g === 'm') return 'keinen';
+    if (g === 'f') return 'keine';
+    return 'kein';
+  }
+
   /** @type {Q[]} */
   const out = [];
   for (let i = 0; i < 45; i++) {
@@ -497,20 +509,25 @@ function genArtikel() {
       correct = n.der;
       prompt = `[${n.theme}] ___ ${n.noun} ist wichtig.`;
     } else if (mode === 'ein') {
-      correct = n.ein;
+      correct = habenArtikel(n.g, 'ein');
       prompt = `[${n.theme}] Ich habe ___ ${n.noun}.`;
     } else {
-      correct = n.kein;
+      correct = habenArtikel(n.g, 'kein');
       prompt = `[${n.theme}] Ich habe ___ ${n.noun}.`;
     }
     const pool = ['Der', 'Die', 'Das', 'Den', 'ein', 'eine', 'einen', 'kein', 'keine', 'keinen'];
     out.push({
       prompt,
+      hint: 'Artikelform',
       options: options4(correct, pool, i + 41),
       correct,
     });
   }
   return out;
+}
+
+function restoreArtikelSelectOne() {
+  return writeTopic('ARTIKEL', 'a1-art', genArtikel(), 6, 50, true);
 }
 
 // ─── W-FRAGEN ─────────────────────────────────────────────────────────────────
@@ -674,6 +691,11 @@ if (isMain) {
       console.log(`Restored ${n} A1 akkusativ select-one files.`);
       process.exit(0);
     }
+    if (topic === 'ARTIKEL') {
+      const n = restoreArtikelSelectOne();
+      console.log(`Restored ${n} A1 artikel select-one files.`);
+      process.exit(0);
+    }
     console.error(`Restore not supported for ${topic}`);
     process.exit(1);
   }
@@ -694,5 +716,5 @@ if (isMain) {
 export {
   genPossessiv, restorePossessivSelectOne, genPlural, restorePluralSelectOne,
   genAdjektiv, restoreAdjektivSelectOne, genDativ, restoreDativSelectOne,
-  genAkkusativ, restoreAkkusativSelectOne, POSSESSIV_CASE_LABEL,
+  genAkkusativ, restoreAkkusativSelectOne, genArtikel, restoreArtikelSelectOne, POSSESSIV_CASE_LABEL,
 };

@@ -19,6 +19,7 @@
     "questions:fix-adj-a1": "node scripts/fix-a1-adjektivdeklination.mjs",
     "questions:fix-dat-a1": "node scripts/fix-a1-dativa1.mjs",
     "questions:fix-akk-a1": "node scripts/fix-a1-akkusativa1.mjs",
+    "questions:fix-art-a1": "node scripts/fix-a1-artikel.mjs",
     "questions:fix-genitiv": "node scripts/fix-genitiv-questions.mjs",
     "questions:stats": "node scripts/question-stats.mjs",
     "questions:generate-a1": "node scripts/generate-a1-select-one.mjs",
