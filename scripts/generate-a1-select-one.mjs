@@ -167,6 +167,8 @@ function restorePossessivSelectOne() {
 // ─── PLURAL ─────────────────────────────────────────────────────────────────
 
 function genPlural() {
+  /** Free-tier select-one (a1-pl-1…3): Kind, Buch, Mann — excluded from premium 006–050. */
+  const FREE = new Set(['das Kind', 'der Mann', 'das Buch']);
   const pairs = [
     ['das Kind', 'die Kinder', ['die Kind', 'die Kinds', 'die Kindern']],
     ['der Mann', 'die Männer', ['die Mann', 'die Manns', 'die Männern']],
@@ -193,7 +195,7 @@ function genPlural() {
     ['die Banane', 'die Bananen', ['die Banan', 'die Bananes', 'die Bananens']],
     ['das Museum', 'die Museen', ['die Museums', 'die Museum', 'die Museens']],
     ['der Schüler', 'die Schüler', ['die Schülers', 'die Schüle', 'die Schülern']],
-    ['die Pizza', 'die Pizzen', ['die Pizza', 'die Pizzas', 'die Pizzens']],
+    ['die Pizza', 'die Pizzen', ['die Pizza', 'die Pizzes', 'die Pizzens']],
     ['das Brot', 'die Brote', ['die Brot', 'die Bröte', 'die Broten']],
     ['der Park', 'die Parks', ['die Park', 'die Parke', 'die Parken']],
     ['die Straße', 'die Straßen', ['die Straß', 'die Straßes', 'die Straßens']],
@@ -208,35 +210,30 @@ function genPlural() {
     ['die Idee', 'die Ideen', ['die Ide', 'die Idees', 'die Ideens']],
     ['das Ticket', 'die Tickets', ['die Ticket', 'die Ticketen', 'die Ticketsn']],
     ['der Kaffee', 'die Kaffees', ['die Kaffee', 'die Kaffeen', 'die Kaffes']],
-    ['die Milch', '—', []],
-    ['das Wasser', '—', []],
     ['der Tee', 'die Tees', ['die Tee', 'die Tean', 'die Teesn']],
     ['die Tomate', 'die Tomaten', ['die Tomat', 'die Tomates', 'die Tomatens']],
-    ['das Obst', '—', []],
     ['der Salat', 'die Salate', ['die Salat', 'die Salats', 'die Saläte']],
   ];
+
+  const core = pairs.filter(([s, p]) => p !== '—' && !FREE.has(s));
+  const premiumPairs = [
+    ['der Stuhl', 'die Stühle', ['die Stuhl', 'die Stühlen', 'die Stuhs']],
+    ['die Tasche', 'die Taschen', ['die Tasch', 'die Taschens', 'die Täschen']],
+    core[0],
+    ['der Tisch', 'die Tische', ['die Tisch', 'die Tischen', 'die Tischs']],
+    ...core.slice(1),
+    ['der Brief', 'die Briefe', ['die Brief', 'die Briefs', 'die Briefen']],
+    ['das Handy', 'die Handys', ['die Handy', 'die Handysn', 'die Handysen']],
+  ];
+  if (premiumPairs.length !== 45) {
+    throw new Error(`genPlural: expected 45 premium pairs, got ${premiumPairs.length}`);
+  }
 
   const themes = ['Essen', 'Stadt', 'Transport', 'Schule', 'Familie', 'Hobby', 'Wetter', 'Einkaufen', 'Sport', 'Reisen'];
   /** @type {Q[]} */
   const out = [];
-  const used = new Set();
-
   for (let i = 0; i < 45; i++) {
-    const [sing, plural, wrong] = pairs[i % pairs.length];
-    if (plural === '—' || used.has(sing)) {
-      const alt = pairs[(i + 7) % pairs.length];
-      if (alt[1] === '—') continue;
-      const [s, p, w] = alt;
-      used.add(s);
-      const theme = themes[i % themes.length];
-      out.push({
-        prompt: `[${theme}] Plural von „${s}"?`,
-        options: shuffle([p, ...w], i + 3),
-        correct: p,
-      });
-      continue;
-    }
-    used.add(sing);
+    const [sing, plural, wrong] = premiumPairs[i];
     const theme = themes[i % themes.length];
     out.push({
       prompt: `[${theme}] Plural von „${sing}"?`,
@@ -244,18 +241,11 @@ function genPlural() {
       correct: plural,
     });
   }
-  while (out.length < 45) {
-    const i = out.length;
-    const [sing, plural, wrong] = pairs[i % 30];
-    if (plural !== '—') {
-      out.push({
-        prompt: `Plural von „${sing}"?`,
-        options: shuffle([plural, ...wrong], i + 99),
-        correct: plural,
-      });
-    }
-  }
-  return out.slice(0, 45);
+  return out;
+}
+
+function restorePluralSelectOne() {
+  return writeTopic('PLURAL', 'a1-pl', genPlural(), 6, 50, true);
 }
 
 // ─── VERBKONJUGATION ────────────────────────────────────────────────────────
@@ -633,13 +623,18 @@ const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.arg
 if (isMain) {
   if (process.argv.includes('--restore')) {
     const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8) || 'POSSESSIVARTIKEL';
-    if (topic !== 'POSSESSIVARTIKEL') {
-      console.error(`Restore only supported for POSSESSIVARTIKEL, got ${topic}`);
-      process.exit(1);
+    if (topic === 'POSSESSIVARTIKEL') {
+      const n = restorePossessivSelectOne();
+      console.log(`Restored ${n} A1 possessiv select-one files.`);
+      process.exit(0);
     }
-    const n = restorePossessivSelectOne();
-    console.log(`Restored ${n} A1 possessiv select-one files.`);
-    process.exit(0);
+    if (topic === 'PLURAL') {
+      const n = restorePluralSelectOne();
+      console.log(`Restored ${n} A1 plural select-one files.`);
+      process.exit(0);
+    }
+    console.error(`Restore not supported for ${topic}`);
+    process.exit(1);
   }
 
   let total = 0;
@@ -655,4 +650,4 @@ if (isMain) {
   console.log(`\nTotal new files: ${total}`);
 }
 
-export { genPossessiv, restorePossessivSelectOne, POSSESSIV_CASE_LABEL };
+export { genPossessiv, restorePossessivSelectOne, genPlural, restorePluralSelectOne, POSSESSIV_CASE_LABEL };

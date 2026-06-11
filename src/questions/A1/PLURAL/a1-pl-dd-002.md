@@ -8,4 +8,4 @@ words:
   - hier
 ---
 
-[Stadt] Ordne die Wörter zum richtigen Satz: (Plural — die Männer)
+[Arbeit] Ordne die Wörter zum richtigen Satz: (Plural — die Männer)

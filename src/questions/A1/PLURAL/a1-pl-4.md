@@ -2,7 +2,7 @@
 id: a1-pl-4
 type: input-text
 correct:
-  - die Städte
+  - Städte
 ---
 
-Plural von „die Stadt“: ___ (Pluralform)
+In Europa gibt es viele alte ___. (Plural von: die Stadt)

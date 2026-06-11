@@ -5,7 +5,7 @@ words:
   - Die
   - Termine
   - sind
-  - voll
+  - wichtig
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plural — die Termine)

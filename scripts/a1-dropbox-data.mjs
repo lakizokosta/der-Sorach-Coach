@@ -56,7 +56,7 @@ export const POSSESSIVARTIKEL = [
 
 export const PLURAL = [
   { theme: 'Familie', hint: 'Plural — die Kinder', words: ['Die', 'Kinder', 'spielen', 'draußen'] },
-  { theme: 'Stadt', hint: 'Plural — die Männer', words: ['Die', 'Männer', 'arbeiten', 'hier'] },
+  { theme: 'Arbeit', hint: 'Plural — die Männer', words: ['Die', 'Männer', 'arbeiten', 'hier'] },
   { theme: 'Essen', hint: 'Plural — die Äpfel', words: ['Die', 'Äpfel', 'sind', 'frisch'] },
   { theme: 'Transport', hint: 'Plural — die Busse', words: ['Die', 'Busse', 'fahren', 'spät'] },
   { theme: 'Schule', hint: 'Plural — die Bücher', words: ['Die', 'Bücher', 'liegen', 'hier'] },
@@ -86,7 +86,7 @@ export const PLURAL = [
   { theme: 'Wetter', hint: 'Plural — die Wolken', words: ['Die', 'Wolken', 'sind', 'grau'] },
   { theme: 'Einkaufen', hint: 'Plural — die Geschäfte', words: ['Die', 'Geschäfte', 'öffnen', 'früh'] },
   { theme: 'Zuhause', hint: 'Plural — die Zimmer', words: ['Die', 'Zimmer', 'sind', 'klein'] },
-  { theme: 'Arbeit', hint: 'Plural — die Termine', words: ['Die', 'Termine', 'sind', 'voll'] },
+  { theme: 'Arbeit', hint: 'Plural — die Termine', words: ['Die', 'Termine', 'sind', 'wichtig'] },
   { theme: 'Gesundheit', hint: 'Plural — die Tabletten', words: ['Die', 'Tabletten', 'helfen', 'gut'] },
   { theme: 'Kleidung', hint: 'Plural — die Hüte', words: ['Die', 'Hüte', 'sind', 'bunt'] },
   { theme: 'Familie', hint: 'Plural — die Eltern', words: ['Die', 'Eltern', 'wohnen', 'hier'] },
