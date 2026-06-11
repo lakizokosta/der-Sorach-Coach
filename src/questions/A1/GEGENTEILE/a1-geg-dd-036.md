@@ -5,7 +5,7 @@ words:
   - Er
   - ist
   - sehr
-  - pessimistisch
+  - traurig
 ---
 
-Ordne die Wörter zum richtigen Satz: (Gegenteil — optimistisch / pessimistisch)
+[Freunde] Ordne die Wörter zum richtigen Satz: (Gegenteil — optimistisch / traurig)

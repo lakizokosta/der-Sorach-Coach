@@ -620,7 +620,7 @@ function genGegenteile() {
     ['hell', 'dunkel', ['schwarz', 'grau', 'blass']],
     ['leicht', 'schwer', ['schwierig', 'hart', 'dick']],
     ['neu', 'alt', ['jung', 'kaputt', 'modern']],
-    ['offen', 'geschlossen', ['zu', 'leer', 'voll']],
+    ['offen', 'geschlossen', ['kaputt', 'leer', 'voll']],
     ['richtig', 'falsch', ['schlecht', 'kaputt', 'schwer']],
     ['fröhlich', 'traurig', ['müde', 'böse', 'still']],
     ['laut', 'leise', ['still', 'ruhig', 'sanft']],
@@ -652,6 +652,27 @@ function genGegenteile() {
     });
   }
   return out;
+}
+
+function restoreGegenteileSelectOne() {
+  const dir = join(ROOT, 'GEGENTEILE');
+  mkdirSync(dir, { recursive: true });
+  let written = 0;
+  const questions = genGegenteile();
+  for (let i = 6; i <= 50; i++) {
+    const q = questions[i - 6];
+    if (!q) break;
+    const num = String(i).padStart(3, '0');
+    const opts = q.options.map((o) => `  - ${o}`).join('\n');
+    const text = String(q.prompt).replace(/^\[[^\]]+]\s+/, '').trim();
+    writeFileSync(
+      join(dir, `a1-geg-${num}.md`),
+      `---\nid: a1-geg-${num}\ntype: select-one\noptions:\n${opts}\ncorrect: ${q.correct}\n---\n\n${text}\n`,
+      'utf8',
+    );
+    written += 1;
+  }
+  return written;
 }
 
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
@@ -715,6 +736,11 @@ if (isMain) {
       console.log(`Restored ${n} A1 negation select-one files.`);
       process.exit(0);
     }
+    if (topic === 'GEGENTEILE') {
+      const n = restoreGegenteileSelectOne();
+      console.log(`Restored ${n} A1 gegenteile select-one files.`);
+      process.exit(0);
+    }
     console.error(`Restore not supported for ${topic}`);
     process.exit(1);
   }
@@ -736,5 +762,6 @@ export {
   genPossessiv, restorePossessivSelectOne, genPlural, restorePluralSelectOne,
   genAdjektiv, restoreAdjektivSelectOne, genDativ, restoreDativSelectOne,
   genAkkusativ, restoreAkkusativSelectOne, genArtikel, restoreArtikelSelectOne,
-  genWFragen, restoreWFragenSelectOne, genNegation, restoreNegationSelectOne, POSSESSIV_CASE_LABEL,
+  genWFragen, restoreWFragenSelectOne, genNegation, restoreNegationSelectOne,
+  genGegenteile, restoreGegenteileSelectOne, POSSESSIV_CASE_LABEL,
 };

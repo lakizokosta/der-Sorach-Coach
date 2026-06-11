@@ -631,7 +631,7 @@ const BANK = {
     ['[Gesundheit] Ich bin gesund, mein Freund ist ___. (Gegenteil von gesund)', 'krank'],
     ['[Wetter] Der Himmel ist klar, morgen ist er ___. (Gegenteil von klar)', 'bewölkt'],
     ['[Stadt] Die Straße ist breit, der Weg ist ___. (Gegenteil von breit)', 'schmal'],
-    ['[Sport] Das Training ist hart, die Pause ist ___. (Gegenteil von hart)', 'sanft'],
+    ['[Sport] Das Training ist schwer, die Pause ist ___. (Gegenteil von schwer)', 'leicht'],
     ['[Musik] Die Stimme ist hoch, seine Stimme ist ___. (Gegenteil von hoch)', 'tief'],
     ['[Essen] Die Suppe ist heiß, das Wasser ist ___. (Gegenteil von heiß)', 'kalt'],
     ['[Einkaufen] Der Laden ist voll, früh morgens ist er ___. (Gegenteil von voll)', 'leer'],

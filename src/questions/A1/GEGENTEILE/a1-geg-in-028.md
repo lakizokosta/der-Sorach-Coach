@@ -2,7 +2,7 @@
 id: a1-geg-in-028
 type: input-text
 correct:
-  - sanft
+  - leicht
 ---
 
-Das Training ist hart, die Pause ist ___. (Gegenteile)
+Das Training ist schwer, die Pause ist ___. (Gegenteil von schwer)

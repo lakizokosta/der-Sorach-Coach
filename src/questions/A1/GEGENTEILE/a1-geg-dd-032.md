@@ -5,7 +5,6 @@ words:
   - Ich
   - bin
   - klein
-  - gewachsen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Gegenteil — groß / klein)
+[Familie] Ordne die Wörter zum richtigen Satz: (Gegenteil — groß / klein)
