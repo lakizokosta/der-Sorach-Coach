@@ -225,7 +225,7 @@ export const NEGATION = [
   { theme: 'Hobby', hint: 'Negation — nicht ins Kino', words: ['Ich', 'gehe', 'nicht', 'ins', 'Kino'] },
   { theme: 'Essen', hint: 'Negation — kein Fleisch', words: ['Ich', 'esse', 'kein', 'Fleisch'] },
   { theme: 'Reisen', hint: 'Negation — noch nie Paris', words: ['Ich', 'war', 'noch', 'nie', 'in', 'Paris'] },
-  { theme: 'Freunde', hint: 'Negation — nicht heute', words: ['Er', 'kommt', 'nicht', 'heute'] },
+  { theme: 'Freunde', hint: 'Negation — nicht heute', words: ['Er', 'kommt', 'heute', 'nicht'] },
   { theme: 'Einkaufen', hint: 'Negation — kein Geld', words: ['Wir', 'haben', 'kein', 'Geld'] },
   { theme: 'Sport', hint: 'Negation — nicht mein Rad', words: ['Das', 'ist', 'nicht', 'mein', 'Rad'] },
   { theme: 'Musik', hint: 'Negation — keine Gitarre', words: ['Ich', 'spiele', 'keine', 'Gitarre'] },

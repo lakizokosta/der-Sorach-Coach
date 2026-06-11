@@ -6,7 +6,7 @@ options:
   - keine
   - keinen
   - nicht
-correct: kein
+correct: keinen
 ---
 
 Ich habe ___ Hunger. (Negation)

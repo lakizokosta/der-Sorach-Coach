@@ -4,8 +4,8 @@ type: dropbox
 words:
   - Er
   - kommt
-  - nicht
   - heute
+  - nicht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Negation — nicht heute)
+[Freunde] Ordne die Wörter zum richtigen Satz: (Negation — nicht heute)

@@ -588,7 +588,7 @@ function genNegation() {
     { sent: 'Er kommt ___ heute.', correct: 'nicht', pool: ['nicht', 'kein', 'keine', 'nie'], theme: 'Freunde' },
     { sent: 'Wir haben ___ Geld.', correct: 'kein', pool: ['kein', 'keine', 'nicht', 'keinen'], theme: 'Einkaufen' },
     { sent: 'Das ist ___ mein Fahrrad.', correct: 'nicht', pool: ['nicht', 'kein', 'keine', 'keinen'], theme: 'Sport' },
-    { sent: 'Ich spiele ___ Gitarre.', correct: 'keine', pool: ['keine', 'kein', 'nicht', 'keinen'], theme: 'Musik' },
+    { sent: 'Ich spiele ___ Gitarre.', correct: 'nicht', pool: ['nicht', 'keine', 'kein', 'keinen'], theme: 'Musik' },
   ];
 
   /** @type {Q[]} */
@@ -602,6 +602,10 @@ function genNegation() {
     });
   }
   return out;
+}
+
+function restoreNegationSelectOne() {
+  return writeTopic('NEGATION', 'a1-neg', genNegation(), 6, 50, true);
 }
 
 // ─── GEGENTEILE ───────────────────────────────────────────────────────────────
@@ -706,6 +710,11 @@ if (isMain) {
       console.log(`Restored ${n} A1 w-fragen select-one files.`);
       process.exit(0);
     }
+    if (topic === 'NEGATION') {
+      const n = restoreNegationSelectOne();
+      console.log(`Restored ${n} A1 negation select-one files.`);
+      process.exit(0);
+    }
     console.error(`Restore not supported for ${topic}`);
     process.exit(1);
   }
@@ -727,5 +736,5 @@ export {
   genPossessiv, restorePossessivSelectOne, genPlural, restorePluralSelectOne,
   genAdjektiv, restoreAdjektivSelectOne, genDativ, restoreDativSelectOne,
   genAkkusativ, restoreAkkusativSelectOne, genArtikel, restoreArtikelSelectOne,
-  genWFragen, restoreWFragenSelectOne, POSSESSIV_CASE_LABEL,
+  genWFragen, restoreWFragenSelectOne, genNegation, restoreNegationSelectOne, POSSESSIV_CASE_LABEL,
 };

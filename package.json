@@ -21,6 +21,7 @@
     "questions:fix-akk-a1": "node scripts/fix-a1-akkusativa1.mjs",
     "questions:fix-art-a1": "node scripts/fix-a1-artikel.mjs",
     "questions:fix-wf-a1": "node scripts/fix-a1-w-fragen.mjs",
+    "questions:fix-neg-a1": "node scripts/fix-a1-negation.mjs",
     "questions:fix-genitiv": "node scripts/fix-genitiv-questions.mjs",
     "questions:stats": "node scripts/question-stats.mjs",
     "questions:generate-a1": "node scripts/generate-a1-select-one.mjs",
