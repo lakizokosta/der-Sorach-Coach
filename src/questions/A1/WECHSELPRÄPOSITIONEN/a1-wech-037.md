@@ -2,11 +2,11 @@
 id: a1-wech-037
 type: select-one
 options:
+  - in der
   - ins
-  - auf den
   - im
-  - auf der
+  - in den
 correct: im
 ---
 
-Ich bin ___ Park. (Dativ oder Akkusativ)
+Ich bin ___ Park. (Wechselpräp. — Ort → Dativ)

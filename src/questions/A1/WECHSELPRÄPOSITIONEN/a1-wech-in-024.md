@@ -2,7 +2,7 @@
 id: a1-wech-in-024
 type: input-text
 correct:
-  - im
+  - auf den
 ---
 
-Ich bin ___ Supermarkt. (Dativ oder Akkusativ)
+Ich setze mich ___ Stuhl. (Wechselpräp. — Bewegung)

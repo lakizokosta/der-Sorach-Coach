@@ -2,11 +2,11 @@
 id: a1-wech-024
 type: select-one
 options:
-  - auf dem
   - auf den
-  - in der
-  - ins
+  - auf dem
+  - auf die
+  - auf der
 correct: auf den
 ---
 
-Ich liegt ___ Tisch. (Dativ oder Akkusativ)
+Ich setze mich ___ Stuhl. (Wechselpräp. — auf den Stuhl (Bewegung))

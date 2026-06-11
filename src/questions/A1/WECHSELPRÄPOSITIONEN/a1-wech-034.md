@@ -2,11 +2,11 @@
 id: a1-wech-034
 type: select-one
 options:
-  - auf dem
-  - an die
-  - im
   - auf die
-correct: auf die
+  - auf den
+  - auf der
+  - auf dem
+correct: auf dem
 ---
 
-Ich laufe ___ Straße. (Dativ oder Akkusativ)
+Die Jacke liegt ___ Stuhl. (Wechselpräp. — Ort → Dativ)

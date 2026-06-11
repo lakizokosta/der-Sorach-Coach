@@ -3,10 +3,10 @@ id: a1-wech-036
 type: select-one
 options:
   - in der
-  - ins
+  - im
   - in den
-  - auf dem
+  - ins
 correct: in den
 ---
 
-Ich gehe ___ Park. (Dativ oder Akkusativ)
+Ich gehe ___ Park. (Wechselpräp. — Bewegung → Akkusativ)

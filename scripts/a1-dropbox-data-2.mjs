@@ -85,7 +85,7 @@ export const WECHSELPRÄPOSITIONEN = [
   { theme: 'Freunde', hint: 'Wechselpräp. — auf den Platz (Bewegung)', words: ['Komm', 'bitte', 'auf', 'den', 'Platz'] },
   { theme: 'Freunde', hint: 'Wechselpräp. — auf dem Platz (Ort)', words: ['Wir', 'treffen', 'uns', 'auf', 'dem', 'Platz'] },
   { theme: 'Familie', hint: 'Wechselpräp. — aufs Land (Bewegung)', words: ['Wir', 'fahren', 'aufs', 'Land'] },
-  { theme: 'Familie', hint: 'Wechselpräp. — auf dem Land (Ort)', words: ['Wir', 'sind', 'auf', 'dem', 'Land'] },
+  { theme: 'Transport', hint: 'Wechselpräp. — vor dem Haus (Ort)', words: ['Ich', 'parke', 'das', 'Auto', 'vor', 'dem', 'Haus'] },
   { theme: 'Hobby', hint: 'Wechselpräp. — ins Schwimmbad (Bewegung)', words: ['Ich', 'gehe', 'ins', 'Schwimmbad'] },
   { theme: 'Sport', hint: 'Wechselpräp. — im Schwimmbad (Ort)', words: ['Ich', 'schwimme', 'im', 'Schwimmbad'] },
   { theme: 'Wetter', hint: 'Wechselpräp. — in den Keller (Bewegung)', words: ['Geh', 'schnell', 'in', 'den', 'Keller'] },

@@ -2,11 +2,11 @@
 id: a1-wech-045
 type: select-one
 options:
-  - in der
+  - auf die
+  - auf der
   - auf dem
-  - im
-  - ins
-correct: auf dem
+  - auf den
+correct: auf der
 ---
 
-Ich stehe ___ Dach. (Dativ oder Akkusativ)
+Ich laufe ___ Straße. (Wechselpräp. — Ort → Dativ)

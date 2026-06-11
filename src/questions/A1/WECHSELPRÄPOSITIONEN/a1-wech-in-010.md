@@ -2,7 +2,7 @@
 id: a1-wech-in-010
 type: input-text
 correct:
-  - ins
+  - auf den
 ---
 
-Wir gehen ___ Restaurant. (Dativ oder Akkusativ)
+Ich lege das Buch ___ Tisch. (Wechselpräp. — Bewegung)

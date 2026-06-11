@@ -2,7 +2,7 @@
 id: a1-wech-in-009
 type: input-text
 correct:
-  - auf der
+  - auf dem
 ---
 
-Ich laufe ___ Straße. (Dativ oder Akkusativ)
+Das Buch liegt ___ Tisch. (Wechselpräp. — Ort)

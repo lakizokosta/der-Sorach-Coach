@@ -2,11 +2,11 @@
 id: a1-wech-020
 type: select-one
 options:
-  - auf dem
+  - in die
+  - ins
+  - in den
   - im
-  - in das
-  - auf den
-correct: in das
+correct: in den
 ---
 
-Ich gehe ___ Restaurant. (Dativ oder Akkusativ)
+Wir steigen ___ Bus. (Wechselpräp. — Bewegung → Akkusativ)

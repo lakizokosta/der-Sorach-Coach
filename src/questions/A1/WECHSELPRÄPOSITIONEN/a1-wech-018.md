@@ -2,11 +2,11 @@
 id: a1-wech-018
 type: select-one
 options:
-  - im
-  - auf den
-  - in der
   - auf die
-correct: auf die
+  - auf der
+  - auf dem
+  - auf den
+correct: auf den
 ---
 
-Ich fahre ___ Straße. (Dativ oder Akkusativ)
+Ich setze mich ___ Stuhl. (Wechselpräp. — Bewegung → Akkusativ)

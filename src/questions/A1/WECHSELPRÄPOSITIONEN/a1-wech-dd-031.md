@@ -2,11 +2,13 @@
 id: a1-wech-dd-031
 type: dropbox
 words:
-  - Wir
-  - sind
-  - auf
+  - Ich
+  - parke
+  - das
+  - Auto
+  - vor
   - dem
-  - Land
+  - Haus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Land (Ort))
+[Transport] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — vor dem Haus (Ort))

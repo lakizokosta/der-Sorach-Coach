@@ -2,11 +2,11 @@
 id: a1-wech-007
 type: select-one
 options:
+  - an der
   - an die
-  - in der
-  - im
-  - ins
-correct: im
+  - am
+  - auf der
+correct: an der
 ---
 
-Ich bin ___ Park. (Dativ oder Akkusativ)
+Das Bild hängt ___ Wand. (Wechselpräp. — an der Wand (Ort))

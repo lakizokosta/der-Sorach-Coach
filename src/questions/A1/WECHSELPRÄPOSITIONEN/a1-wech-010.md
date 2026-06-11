@@ -2,11 +2,11 @@
 id: a1-wech-010
 type: select-one
 options:
-  - an der
-  - ins
-  - in der
-  - an die
-correct: an die
+  - auf den
+  - auf dem
+  - auf der
+  - auf die
+correct: auf den
 ---
 
-Ich hänge ___ Wand. (Dativ oder Akkusativ)
+Ich lege das Buch ___ Tisch. (Wechselpräp. — auf den Tisch (Bewegung))

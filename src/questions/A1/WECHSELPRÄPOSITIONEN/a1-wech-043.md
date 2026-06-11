@@ -2,11 +2,11 @@
 id: a1-wech-043
 type: select-one
 options:
-  - auf dem
-  - an der
-  - im
+  - in die
   - ins
-correct: im
+  - in der
+  - im
+correct: in der
 ---
 
-Ich sitze ___ Kino. (Dativ oder Akkusativ)
+Ich lerne ___ Schule. (Wechselpräp. — Ort → Dativ)

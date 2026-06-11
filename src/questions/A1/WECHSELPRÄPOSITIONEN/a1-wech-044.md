@@ -2,11 +2,11 @@
 id: a1-wech-044
 type: select-one
 options:
-  - auf dem
-  - auf das
-  - im
   - auf den
-correct: auf das
+  - auf die
+  - auf dem
+  - auf der
+correct: auf die
 ---
 
-Ich klettere ___ Dach. (Dativ oder Akkusativ)
+Wir fahren ___ Straße. (Wechselpräp. — Bewegung → Akkusativ)

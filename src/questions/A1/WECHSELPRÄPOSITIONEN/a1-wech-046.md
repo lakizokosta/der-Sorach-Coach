@@ -2,11 +2,11 @@
 id: a1-wech-046
 type: select-one
 options:
-  - auf dem
-  - auf die
-  - im
   - in die
-correct: in die
+  - im
+  - in der
+  - ins
+correct: ins
 ---
 
-Ich komme ___ Schule. (Dativ oder Akkusativ)
+Wir gehen ___ Restaurant. (Wechselpräp. — Bewegung → Akkusativ)

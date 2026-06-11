@@ -2,11 +2,11 @@
 id: a1-wech-038
 type: select-one
 options:
-  - im
-  - in der
-  - ins
+  - auf die
+  - auf dem
+  - auf der
   - auf den
 correct: auf den
 ---
 
-Ich lege ___ Tisch. (Dativ oder Akkusativ)
+Ich lege das Buch ___ Tisch. (Wechselpräp. — Bewegung → Akkusativ)

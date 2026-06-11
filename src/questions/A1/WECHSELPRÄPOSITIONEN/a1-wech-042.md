@@ -3,10 +3,10 @@ id: a1-wech-042
 type: select-one
 options:
   - im
-  - auf dem
-  - auf den
   - ins
-correct: ins
+  - in der
+  - in die
+correct: in die
 ---
 
-Ich gehe ___ Kino. (Dativ oder Akkusativ)
+Ich komme ___ Schule. (Wechselpräp. — Bewegung → Akkusativ)

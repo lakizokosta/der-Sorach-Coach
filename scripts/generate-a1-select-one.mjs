@@ -353,37 +353,41 @@ function restoreAdjektivSelectOne() {
 
 function genWechsel() {
   const scenes = [
-    { move: true, prep: 'in', akk: 'in den', dat: 'im', noun: 'Park', theme: 'Stadt', verb: 'gehe' },
-    { move: false, prep: 'in', akk: 'in den', dat: 'im', noun: 'Park', theme: 'Stadt', verb: 'bin' },
-    { move: true, prep: 'auf', akk: 'auf den', dat: 'auf dem', noun: 'Tisch', theme: 'Essen', verb: 'lege' },
-    { move: false, prep: 'auf', akk: 'auf den', dat: 'auf dem', noun: 'Tisch', theme: 'Essen', verb: 'liegt' },
-    { move: true, prep: 'an', akk: 'an die', dat: 'an der', noun: 'Wand', theme: 'Zuhause', verb: 'hänge' },
-    { move: false, prep: 'an', akk: 'an die', dat: 'an der', noun: 'Wand', theme: 'Zuhause', verb: 'hängt' },
-    { move: true, prep: 'in', akk: 'ins', dat: 'im', noun: 'Kino', theme: 'Hobby', verb: 'gehe' },
-    { move: false, prep: 'in', akk: 'ins', dat: 'im', noun: 'Kino', theme: 'Hobby', verb: 'sitze' },
-    { move: true, prep: 'auf', akk: 'auf das', dat: 'auf dem', noun: 'Dach', theme: 'Stadt', verb: 'klettere' },
-    { move: false, prep: 'auf', akk: 'auf das', dat: 'auf dem', noun: 'Dach', theme: 'Stadt', verb: 'stehe' },
-    { move: true, prep: 'in', akk: 'in die', dat: 'in der', noun: 'Schule', theme: 'Schule', verb: 'komme' },
-    { move: false, prep: 'in', akk: 'in die', dat: 'in der', noun: 'Schule', theme: 'Schule', verb: 'lerne' },
-    { move: true, prep: 'auf', akk: 'auf die', dat: 'auf der', noun: 'Straße', theme: 'Transport', verb: 'fahre' },
-    { move: false, prep: 'auf', akk: 'auf die', dat: 'auf der', noun: 'Straße', theme: 'Transport', verb: 'laufe' },
-    { move: true, prep: 'in', akk: 'in das', dat: 'im', noun: 'Restaurant', theme: 'Essen', verb: 'gehe' },
+    { sent: 'Ich gehe ___ Park.', move: true, akk: 'in den', dat: 'im', theme: 'Stadt', pool: ['in den', 'im', 'in der', 'ins'] },
+    { sent: 'Ich bin ___ Park.', move: false, akk: 'in den', dat: 'im', theme: 'Stadt', pool: ['im', 'in den', 'in der', 'ins'] },
+    { sent: 'Ich lege das Buch ___ Tisch.', move: true, akk: 'auf den', dat: 'auf dem', theme: 'Essen', pool: ['auf den', 'auf dem', 'auf der', 'auf die'] },
+    { sent: 'Das Buch liegt ___ Tisch.', move: false, akk: 'auf den', dat: 'auf dem', theme: 'Essen', pool: ['auf dem', 'auf den', 'auf der', 'auf die'] },
+    { sent: 'Das Bild hängt ___ Wand.', move: false, akk: 'an die', dat: 'an der', theme: 'Zuhause', pool: ['an der', 'an die', 'am', 'auf der'] },
+    { sent: 'Ich hänge das Bild ___ Wand.', move: true, akk: 'an die', dat: 'an der', theme: 'Zuhause', pool: ['an die', 'an der', 'am', 'auf der'] },
+    { sent: 'Ich komme ___ Schule.', move: true, akk: 'in die', dat: 'in der', theme: 'Schule', pool: ['in die', 'in der', 'im', 'ins'] },
+    { sent: 'Ich lerne ___ Schule.', move: false, akk: 'in die', dat: 'in der', theme: 'Schule', pool: ['in der', 'in die', 'im', 'ins'] },
+    { sent: 'Wir fahren ___ Straße.', move: true, akk: 'auf die', dat: 'auf der', theme: 'Transport', pool: ['auf die', 'auf der', 'auf den', 'auf dem'] },
+    { sent: 'Ich laufe ___ Straße.', move: false, akk: 'auf die', dat: 'auf der', theme: 'Stadt', pool: ['auf der', 'auf die', 'auf den', 'auf dem'] },
+    { sent: 'Wir gehen ___ Restaurant.', move: true, akk: 'ins', dat: 'im', theme: 'Essen', pool: ['ins', 'im', 'in die', 'in der'] },
+    { sent: 'Ich sitze ___ Kino.', move: false, akk: 'ins', dat: 'im', theme: 'Hobby', pool: ['im', 'ins', 'in die', 'in der'] },
+    { sent: 'Ich setze mich ___ Stuhl.', move: true, akk: 'auf den', dat: 'auf dem', theme: 'Zuhause', pool: ['auf den', 'auf dem', 'auf die', 'auf der'] },
+    { sent: 'Die Jacke liegt ___ Stuhl.', move: false, akk: 'auf den', dat: 'auf dem', theme: 'Zuhause', pool: ['auf dem', 'auf den', 'auf die', 'auf der'] },
+    { sent: 'Wir steigen ___ Bus.', move: true, akk: 'in den', dat: 'im', theme: 'Transport', pool: ['in den', 'im', 'ins', 'in die'] },
   ];
-  const pool = ['in den', 'im', 'ins', 'in der', 'auf den', 'auf dem', 'an die', 'an der', 'auf die', 'auf der'];
 
   /** @type {Q[]} */
   const out = [];
   for (let i = 0; i < 45; i++) {
-    const sc = { ...scenes[i % scenes.length], move: i % 2 === 0 };
+    const sc = scenes[i % scenes.length];
     const correct = sc.move ? sc.akk : sc.dat;
-    const hint = sc.move ? 'Bewegung → Akkusativ' : 'Ort → Dativ';
+    const hint = sc.move ? 'Wechselpräp. — Bewegung → Akkusativ' : 'Wechselpräp. — Ort → Dativ';
     out.push({
-      prompt: `[${sc.theme}] Ich ${sc.verb} ___ ${sc.noun}. (${hint})`,
-      options: options4(correct, pool, i + 23),
+      prompt: `[${sc.theme}] ${sc.sent}`,
+      hint,
+      options: options4(correct, sc.pool, i + 23),
       correct,
     });
   }
   return out;
+}
+
+function restoreWechselSelectOne() {
+  return writeTopic('WECHSELPRÄPOSITIONEN', 'a1-wech', genWechsel(), 6, 50, true);
 }
 
 // ─── DATIV ────────────────────────────────────────────────────────────────────
@@ -741,6 +745,11 @@ if (isMain) {
       console.log(`Restored ${n} A1 gegenteile select-one files.`);
       process.exit(0);
     }
+    if (topic === 'WECHSELPRÄPOSITIONEN') {
+      const n = restoreWechselSelectOne();
+      console.log(`Restored ${n} A1 wechsel select-one files.`);
+      process.exit(0);
+    }
     console.error(`Restore not supported for ${topic}`);
     process.exit(1);
   }
@@ -763,5 +772,5 @@ export {
   genAdjektiv, restoreAdjektivSelectOne, genDativ, restoreDativSelectOne,
   genAkkusativ, restoreAkkusativSelectOne, genArtikel, restoreArtikelSelectOne,
   genWFragen, restoreWFragenSelectOne, genNegation, restoreNegationSelectOne,
-  genGegenteile, restoreGegenteileSelectOne, POSSESSIV_CASE_LABEL,
+  genGegenteile, restoreGegenteileSelectOne, genWechsel, restoreWechselSelectOne, POSSESSIV_CASE_LABEL,
 };

@@ -2,11 +2,11 @@
 id: a1-wech-026
 type: select-one
 options:
-  - auf den
-  - in der
-  - ins
+  - auf der
+  - an der
+  - am
   - an die
 correct: an die
 ---
 
-Ich hängt ___ Wand. (Dativ oder Akkusativ)
+Ich hänge das Bild ___ Wand. (Wechselpräp. — Bewegung → Akkusativ)
