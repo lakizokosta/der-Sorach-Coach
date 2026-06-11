@@ -2,8 +2,7 @@
 id: a1-wf-in-040
 type: input-text
 correct:
-  - Mit wie vielen
+  - Wie viele
 ---
 
-___ Freunde kommst du mit? — Mit zwei Freunden. (Frage nach Anzahl)
-
+___ Freunde kommen mit? — Zwei Freunde. (Frage nach Anzahl)

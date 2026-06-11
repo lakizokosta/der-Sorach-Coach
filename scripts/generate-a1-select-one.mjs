@@ -558,11 +558,16 @@ function genWFragen() {
     const theme = it.theme || ['Stadt', 'Familie', 'Reisen', 'Sport', 'Einkaufen'][i % 5];
     out.push({
       prompt: `[${theme}] ${it.sent}`,
+      hint: 'Fragewort',
       options: options4(it.q, it.pool, i + 43),
       correct: it.q,
     });
   }
   return out;
+}
+
+function restoreWFragenSelectOne() {
+  return writeTopic('W-FRAGEN', 'a1-wf', genWFragen(), 6, 50, true);
 }
 
 // ─── NEGATION ─────────────────────────────────────────────────────────────────
@@ -696,6 +701,11 @@ if (isMain) {
       console.log(`Restored ${n} A1 artikel select-one files.`);
       process.exit(0);
     }
+    if (topic === 'W-FRAGEN') {
+      const n = restoreWFragenSelectOne();
+      console.log(`Restored ${n} A1 w-fragen select-one files.`);
+      process.exit(0);
+    }
     console.error(`Restore not supported for ${topic}`);
     process.exit(1);
   }
@@ -716,5 +726,6 @@ if (isMain) {
 export {
   genPossessiv, restorePossessivSelectOne, genPlural, restorePluralSelectOne,
   genAdjektiv, restoreAdjektivSelectOne, genDativ, restoreDativSelectOne,
-  genAkkusativ, restoreAkkusativSelectOne, genArtikel, restoreArtikelSelectOne, POSSESSIV_CASE_LABEL,
+  genAkkusativ, restoreAkkusativSelectOne, genArtikel, restoreArtikelSelectOne,
+  genWFragen, restoreWFragenSelectOne, POSSESSIV_CASE_LABEL,
 };

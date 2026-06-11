@@ -5,7 +5,8 @@ words:
   - Wie
   - kommst
   - du
-  - hin
+  - zur
+  - Schule
 ---
 
-Ordne die Wörter zum richtigen Satz: (W-Frage — Wie zur Schule?)
+[Schule] Ordne die Wörter zum richtigen Satz: (W-Frage — Wie zur Schule?)

@@ -174,7 +174,7 @@ export const W_FRAGEN = [
   { theme: 'Transport', hint: 'W-Frage — Wo ist Bahnhof?', words: ['Wo', 'ist', 'der', 'Bahnhof'] },
   { theme: 'Essen', hint: 'W-Frage — Was essen?', words: ['Was', 'isst', 'du', 'gern'] },
   { theme: 'Freunde', hint: 'W-Frage — Wann kommen?', words: ['Wann', 'kommst', 'du'] },
-  { theme: 'Schule', hint: 'W-Frage — Wie zur Schule?', words: ['Wie', 'kommst', 'du', 'hin'] },
+  { theme: 'Schule', hint: 'W-Frage — Wie zur Schule?', words: ['Wie', 'kommst', 'du', 'zur', 'Schule'] },
   { theme: 'Hobby', hint: 'W-Frage — Was ist Hobby?', words: ['Was', 'ist', 'dein', 'Hobby'] },
   { theme: 'Stadt', hint: 'W-Frage — Wo liegt Laden?', words: ['Wo', 'liegt', 'der', 'Laden'] },
   { theme: 'Familie', hint: 'W-Frage — Wer hat Geburtstag?', words: ['Wer', 'hat', 'heute', 'Geburtstag'] },

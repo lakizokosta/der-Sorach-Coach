@@ -537,7 +537,7 @@ const BANK = {
     ['[Transport] ___ Linie nimmst du? — Die Linie 5. (Frage nach Liniennummer)', 'Welche'],
     ['[Stadt] ___ Straße ist das? — Die Goethestraße. (Frage nach Name)', 'Welche'],
     ['[Schule] ___ Lehrer hast du? — Herr Müller. (Frage nach Person)', 'Welchen'],
-    ['[Freunde] ___ Freunde kommst du mit? — Mit zwei Freunden. (Frage nach Anzahl)', 'Mit wie vielen'],
+    ['[Freunde] ___ Freunde kommen mit? — Zwei Freunde. (Frage nach Anzahl)', 'Wie viele'],
     ['[Zuhause] ___ Zimmer ist das? — Das Schlafzimmer. (Frage nach Raum)', 'Welches'],
     ['[Einkaufen] ___ Größe hast du? — Größe M. (Frage nach Größe)', 'Welche'],
     ['[Gesundheit] ___ fühlst du dich? — Gut. (Frage nach Befinden)', 'Wie'],
