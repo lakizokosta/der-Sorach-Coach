@@ -6,7 +6,7 @@ words:
   - Arzt
   - hilft
   - dem
-  - Patient
+  - Patienten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — dem Patient helfen)
+[Gesundheit] Ordne die Wörter zum richtigen Satz: (Dativ — dem Patienten helfen)

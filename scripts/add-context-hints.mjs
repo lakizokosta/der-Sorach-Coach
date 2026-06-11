@@ -87,7 +87,7 @@ for (const full of walkMd(ROOT)) {
   let options = parsed.options;
 
   // Possessiv / Verb / Adjektiv: select-one and input-text share an index but different sentences.
-  const NO_SIBLING_HINT = new Set(['VERBKONJUGATION', 'ADJEKTIVDEKLINATIONA1']);
+  const NO_SIBLING_HINT = new Set(['VERBKONJUGATION', 'ADJEKTIVDEKLINATIONA1', 'DATIVA1']);
   const siblingIn = siblingInputPath(full, parsed.id);
   if (siblingIn && !POSSESSIV_TOPICS.has(topic) && !NO_SIBLING_HINT.has(topic)) {
     const sib = parseMd(readFileSync(siblingIn, 'utf8'));

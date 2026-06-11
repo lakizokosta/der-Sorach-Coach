@@ -17,6 +17,7 @@
     "questions:export-review": "node scripts/export-manual-review.mjs",
     "questions:fix-verbkonj-a1": "node scripts/fix-a1-verbkonjugation.mjs",
     "questions:fix-adj-a1": "node scripts/fix-a1-adjektivdeklination.mjs",
+    "questions:fix-dat-a1": "node scripts/fix-a1-dativa1.mjs",
     "questions:fix-genitiv": "node scripts/fix-genitiv-questions.mjs",
     "questions:stats": "node scripts/question-stats.mjs",
     "questions:generate-a1": "node scripts/generate-a1-select-one.mjs",

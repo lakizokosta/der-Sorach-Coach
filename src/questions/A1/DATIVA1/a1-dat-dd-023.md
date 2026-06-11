@@ -3,9 +3,10 @@ id: a1-dat-dd-023
 type: dropbox
 words:
   - Wir
-  - fahren
+  - spielen
   - nach
-  - Hause
+  - der
+  - Schule
 ---
 
-[Transport] Ordne die Wörter zum richtigen Satz: (Dativ — nach Hause fahren)
+[Schule] Ordne die Wörter zum richtigen Satz: (Dativ — nach der Schule spielen)

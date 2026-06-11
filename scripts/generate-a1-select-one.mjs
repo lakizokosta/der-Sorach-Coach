@@ -390,21 +390,21 @@ function genWechsel() {
 
 function genDativ() {
   const items = [
-    { sent: 'Ich helfe ___ Kind.', correct: 'dem', pool: ['dem', 'den', 'der', 'das'], theme: 'Familie' },
-    { sent: 'Ich gebe ___ Frau die Blume.', correct: 'der', pool: ['der', 'die', 'dem', 'den'], theme: 'Freunde' },
-    { sent: 'Ich danke ___ Lehrer.', correct: 'dem', pool: ['dem', 'den', 'der', 'die'], theme: 'Schule' },
-    { sent: 'Das gehört ___ Bruder.', correct: 'dem', pool: ['dem', 'den', 'der', 'des'], theme: 'Familie' },
-    { sent: 'Ich antworte ___ Freundin.', correct: 'der', pool: ['der', 'die', 'dem', 'den'], theme: 'Freunde' },
-    { sent: 'Wir gratulieren ___ Eltern.', correct: 'den', pool: ['den', 'der', 'dem', 'die'], theme: 'Familie' },
-    { sent: 'Ich erzähle ___ Kindern eine Geschichte.', correct: 'den Kindern', pool: ['den Kindern', 'die Kinder', 'der Kinder', 'dem Kind'], theme: 'Schule' },
-    { sent: 'Kannst du ___ helfen? (ich)', correct: 'mir', pool: ['mir', 'mich', 'ich', 'mein'], theme: 'Freunde' },
-    { sent: 'Das schmeckt ___ gut. (du)', correct: 'dir', pool: ['dir', 'dich', 'du', 'dein'], theme: 'Essen' },
-    { sent: 'Ich kaufe ___ eine Karte. (meine Mutter)', correct: 'meiner Mutter', pool: ['meiner Mutter', 'meine Mutter', 'meinen Mutter', 'meinem Mutter'], theme: 'Reisen' },
-    { sent: 'Ich folge ___ Hund.', correct: 'dem', pool: ['dem', 'den', 'der', 'das'], theme: 'Tiere' },
-    { sent: 'Es geht ___ schlecht. (ihm)', correct: 'ihm', pool: ['ihm', 'ihn', 'er', 'sein'], theme: 'Gesundheit' },
-    { sent: 'Ich schreibe ___ einen Brief. (Anna)', correct: 'Anna', pool: ['Anna', 'Annan', 'Annas', 'Annam'], theme: 'Freunde' },
-    { sent: 'Mit ___ fahre ich zur Arbeit. (dem Bus)', correct: 'dem Bus', pool: ['dem Bus', 'den Bus', 'der Bus', 'des Bus'], theme: 'Transport' },
-    { sent: 'In ___ Stadt wohne ich. (der)', correct: 'der', pool: ['der', 'die', 'dem', 'den'], theme: 'Stadt' },
+    { sent: 'Ich helfe ___ Kind.', correct: 'dem', pool: ['dem', 'den', 'der', 'das'], theme: 'Familie', hint: 'Dativ — das Kind, Dat.' },
+    { sent: 'Ich gebe ___ Frau die Blume.', correct: 'der', pool: ['der', 'die', 'dem', 'den'], theme: 'Freunde', hint: 'Dativ — die Frau, Dat.' },
+    { sent: 'Ich danke ___ Lehrer.', correct: 'dem', pool: ['dem', 'den', 'der', 'die'], theme: 'Schule', hint: 'Dativ — der Lehrer, Dat.' },
+    { sent: 'Das gehört ___ Bruder.', correct: 'dem', pool: ['dem', 'den', 'der', 'des'], theme: 'Familie', hint: 'Dativ — der Bruder, Dat.' },
+    { sent: 'Ich antworte ___ Freundin.', correct: 'der', pool: ['der', 'die', 'dem', 'den'], theme: 'Freunde', hint: 'Dativ — die Freundin, Dat.' },
+    { sent: 'Wir gratulieren ___ Eltern.', correct: 'den', pool: ['den', 'der', 'dem', 'die'], theme: 'Familie', hint: 'Dativ — die Eltern, Dat.' },
+    { sent: 'Ich erzähle ___ Kindern eine Geschichte.', correct: 'den Kindern', pool: ['den Kindern', 'die Kinder', 'der Kinder', 'dem Kind'], theme: 'Schule', hint: 'Dativ — die Kinder, Dat.' },
+    { sent: 'Kannst du ___ helfen?', correct: 'mir', pool: ['mir', 'mich', 'ich', 'mein'], theme: 'Freunde', hint: 'Dativ — ich, Dat.' },
+    { sent: 'Das schmeckt ___ gut.', correct: 'dir', pool: ['dir', 'dich', 'du', 'dein'], theme: 'Essen', hint: 'Dativ — du, Dat.' },
+    { sent: 'Ich kaufe ___ eine Karte.', correct: 'meiner Mutter', pool: ['meiner Mutter', 'meine Mutter', 'meinen Mutter', 'meinem Mutter'], theme: 'Reisen', hint: 'Dativ — meine Mutter, Dat.' },
+    { sent: 'Ich folge ___ Hund.', correct: 'dem', pool: ['dem', 'den', 'der', 'das'], theme: 'Tiere', hint: 'Dativ — der Hund, Dat.' },
+    { sent: 'Es geht ___ schlecht.', correct: 'ihm', pool: ['ihm', 'ihn', 'er', 'sein'], theme: 'Gesundheit', hint: 'Dativ — er, Dat.' },
+    { sent: 'Ich schreibe ___ einen Brief.', correct: 'Anna', pool: ['Anna', 'Annan', 'Annas', 'Annam'], theme: 'Freunde', hint: 'Dativ — Anna, Dat.' },
+    { sent: 'Mit ___ fahre ich zur Arbeit.', correct: 'dem Bus', pool: ['dem Bus', 'den Bus', 'der Bus', 'des Bus'], theme: 'Transport', hint: 'Dativ — der Bus, Dat.' },
+    { sent: 'In ___ Stadt wohne ich.', correct: 'der', pool: ['der', 'die', 'dem', 'den'], theme: 'Stadt', hint: 'Dativ — die Stadt, Dat.' },
   ];
 
   /** @type {Q[]} */
@@ -413,11 +413,16 @@ function genDativ() {
     const it = items[i % items.length];
     out.push({
       prompt: `[${it.theme}] ${it.sent}`,
+      hint: it.hint,
       options: options4(it.correct, it.pool, i + 31),
       correct: it.correct,
     });
   }
   return out;
+}
+
+function restoreDativSelectOne() {
+  return writeTopic('DATIVA1', 'a1-dat', genDativ(), 6, 50, true);
 }
 
 // ─── AKKUSATIV ────────────────────────────────────────────────────────────────
@@ -654,6 +659,11 @@ if (isMain) {
       console.log(`Restored ${n} A1 adjektiv select-one files.`);
       process.exit(0);
     }
+    if (topic === 'DATIVA1') {
+      const n = restoreDativSelectOne();
+      console.log(`Restored ${n} A1 dativ select-one files.`);
+      process.exit(0);
+    }
     console.error(`Restore not supported for ${topic}`);
     process.exit(1);
   }
@@ -673,5 +683,5 @@ if (isMain) {
 
 export {
   genPossessiv, restorePossessivSelectOne, genPlural, restorePluralSelectOne,
-  genAdjektiv, restoreAdjektivSelectOne, POSSESSIV_CASE_LABEL,
+  genAdjektiv, restoreAdjektivSelectOne, genDativ, restoreDativSelectOne, POSSESSIV_CASE_LABEL,
 };

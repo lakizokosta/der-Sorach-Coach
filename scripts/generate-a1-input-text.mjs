@@ -367,7 +367,7 @@ const BANK = {
     ['[Essen] Mit ___ Freunden esse ich gern. (meine Freunde, Dat.)', 'meinen Freunden'],
     ['[Transport] Nach ___ Arbeit fahre ich nach Hause. (die Arbeit, Dat.)', 'der Arbeit'],
     ['[Wetter] Bei ___ Regen bleibe ich drinnen. (der Regen, Dat.)', 'Regen'],
-    ['[Gesundheit] Der Arzt hilft ___ Patient. (der Patient, Dat.)', 'dem Patient'],
+    ['[Gesundheit] Der Arzt hilft ___ Patient. (der Patient, Dat.)', 'dem Patienten'],
     ['[Kleidung] In ___ Schuhen laufe ich schnell. (die Schuhe, Dat.)', 'den Schuhen'],
     ['[Musik] Mit ___ Gitarre spielt er ein Lied. (die Gitarre, Dat.)', 'der Gitarre'],
     ['[Sport] Ich gratuliere ___ Team. (das Team, Dat.)', 'dem Team'],

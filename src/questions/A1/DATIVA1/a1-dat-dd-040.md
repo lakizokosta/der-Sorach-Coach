@@ -5,7 +5,8 @@ words:
   - Wir
   - essen
   - mit
+  - den
   - Freunden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — mit den Freunden essen)
+[Essen] Ordne die Wörter zum richtigen Satz: (Dativ — mit den Freunden essen)

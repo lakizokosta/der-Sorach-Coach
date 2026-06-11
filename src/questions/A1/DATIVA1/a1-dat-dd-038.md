@@ -5,7 +5,8 @@ words:
   - Ich
   - laufe
   - in
+  - den
   - Schuhen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — in den Schuhen laufen)
+[Kleidung] Ordne die Wörter zum richtigen Satz: (Dativ — in den Schuhen laufen)
