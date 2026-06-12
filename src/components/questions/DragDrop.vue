@@ -43,6 +43,10 @@ function pushChip(word) {
   const i = bank.value.indexOf(word);
   if (i !== -1) bank.value.splice(i, 1);
   drop.value.push(word);
+  if (bank.value.length === 1) {
+    const last = bank.value.splice(0, 1)[0];
+    drop.value.push(last);
+  }
 }
 
 function popChip(index) {
