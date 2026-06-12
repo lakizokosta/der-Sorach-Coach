@@ -102,6 +102,14 @@ function pick(option) {
     hadWrong.value = true;
     emit('first-wrong');
   }
+
+  // If only one option is left untried, auto-select it (it must be correct).
+  const remaining = shuffled.value.filter((o) => !wrongPicks.value.includes(o));
+  if (remaining.length === 1) {
+    finalised.value = true;
+    emit('answer', { isCorrect: false });
+    emit('complete');
+  }
 }
 
 /**
