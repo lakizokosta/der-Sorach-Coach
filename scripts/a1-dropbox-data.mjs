@@ -3,7 +3,7 @@
 export const POSSESSIVARTIKEL = [
   { theme: 'Familie', hint: 'Possessivartikel — mein', words: ['Das', 'ist', 'mein', 'Vater'] },
   { theme: 'Familie', hint: 'Possessivartikel — meine', words: ['Meine', 'Mutter', 'kocht', 'gern'] },
-  { theme: 'Freunde', hint: 'Possessivartikel — dein', words: ['Ist', 'das', 'dein', 'Freund'] },
+  { theme: 'Freunde', hint: 'Possessivartikel — dein', words: ['Ist', 'das', 'dein', 'Freund', '?'] },
   { theme: 'Freunde', hint: 'Possessivartikel — deine', words: ['Deine', 'Schwester', 'wohnt', 'hier'] },
   { theme: 'Schule', hint: 'Possessivartikel — sein', words: ['Das', 'ist', 'sein', 'Heft'] },
   { theme: 'Schule', hint: 'Possessivartikel — ihre', words: ['Ihre', 'Tasche', 'ist', 'neu'] },
@@ -20,7 +20,7 @@ export const POSSESSIVARTIKEL = [
   { theme: 'Reisen', hint: 'Possessivartikel — meinen', words: ['Ich', 'packe', 'meinen', 'Koffer'] },
   { theme: 'Arbeit', hint: 'Possessivartikel — seine', words: ['Seine', 'Arbeit', 'beginnt', 'früh'] },
   { theme: 'Zuhause', hint: 'Possessivartikel — meinem', words: ['Ich', 'lese', 'in', 'meinem', 'Zimmer'] },
-  { theme: 'Einkaufen', hint: 'Possessivartikel — dein', words: ['Ist', 'das', 'dein', 'Geschenk'] },
+  { theme: 'Einkaufen', hint: 'Possessivartikel — dein', words: ['Ist', 'das', 'dein', 'Geschenk', '?'] },
   { theme: 'Familie', hint: 'Possessivartikel — unsere', words: ['Unsere', 'Eltern', 'sind', 'nett'] },
   { theme: 'Freunde', hint: 'Possessivartikel — eure', words: ['Eure', 'Freunde', 'kommen', 'heute'] },
   { theme: 'Schule', hint: 'Possessivartikel — meinen', words: ['Ich', 'suche', 'meinen', 'Stift'] },

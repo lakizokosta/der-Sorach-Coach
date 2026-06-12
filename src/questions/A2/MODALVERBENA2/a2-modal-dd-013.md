@@ -7,6 +7,7 @@ words:
   - das
   - Fenster
   - öffnen
+  - ?
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverb + Verb dürfen)

@@ -6,6 +6,7 @@ words:
   - du
   - mir
   - helfen
+  - ?
 ---
 
 Ordne die Wörter zum richtigen Satz: (Dativ — mir helfen)

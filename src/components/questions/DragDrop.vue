@@ -25,9 +25,17 @@ const succeeded = ref(false);
 const showSolution = ref(false);
 const message = ref({ html: '', color: '' });
 
+// A trailing punctuation mark is trivially obvious — pre-place it as a fixed
+// suffix so the learner only arranges the meaningful words.
+const TRAILING_PUNCT = new Set(['?', '!']);
+const lastWord = correct[correct.length - 1] ?? '';
+const suffix = TRAILING_PUNCT.has(lastWord) ? lastWord : '';
+// Words the student actually needs to arrange (excludes the fixed suffix).
+const coreWords = suffix ? correct.slice(0, -1) : correct;
+
 function scrambleBank() {
-  let s = shuffle(correct);
-  if (s.join('|') === correct.join('|') && s.length > 1) {
+  let s = shuffle(coreWords);
+  if (s.join('|') === coreWords.join('|') && s.length > 1) {
     [s[0], s[s.length - 1]] = [s[s.length - 1], s[0]];
   }
   bank.value = s;
@@ -43,6 +51,7 @@ function pushChip(word) {
   const i = bank.value.indexOf(word);
   if (i !== -1) bank.value.splice(i, 1);
   drop.value.push(word);
+  // Auto-place the last remaining word (already handles "?" via suffix).
   if (bank.value.length === 1) {
     const last = bank.value.splice(0, 1)[0];
     drop.value.push(last);
@@ -67,10 +76,12 @@ function finalise(isCorrect) {
 
 function showCorrectSolution() {
   showSolution.value = true;
-  drop.value = [...correct];
+  drop.value = [...coreWords];
   bank.value = [];
   let html = '❌ Nicht richtig. Richtige Lösung:';
-  html += `<div style="margin-top:10px;font-weight:700;color:#2e7d32;">${correct.join(' ')}</div>`;
+  // Build display sentence without awkward space before punctuation.
+  const displaySentence = coreWords.join(' ') + (suffix ? suffix : '');
+  html += `<div style="margin-top:10px;font-weight:700;color:#2e7d32;">${displaySentence}</div>`;
   if (props.question.codes && props.question.codes.length === correct.length) {
     html += renderTekamoloBreakdown(correct, props.question.codes);
   }
@@ -84,7 +95,9 @@ function check() {
     return;
   }
 
-  const isCorrect = drop.value.join('|') === correct.join('|');
+  // Include the fixed suffix when checking (it is not part of the drop array).
+  const full = suffix ? [...drop.value, suffix] : drop.value;
+  const isCorrect = full.join('|') === correct.join('|');
   if (isCorrect) {
     finalise(true);
     return;
@@ -180,6 +193,12 @@ const chipClass = computed(() => (word, index) => {
       >
         {{ w }}
       </span>
+      <!-- Fixed trailing punctuation — pre-placed, not draggable -->
+      <span
+        v-if="suffix"
+        class="dd-chip correct"
+        style="opacity: 0.55; cursor: default;"
+      >{{ suffix }}</span>
     </div>
 
     <div class="dd-bank">

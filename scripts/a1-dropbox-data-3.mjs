@@ -7,7 +7,7 @@ export const DATIVA1 = [
   { theme: 'Familie', hint: 'Dativ — dem Bruder gehören', words: ['Das', 'gehört', 'dem', 'Bruder'] },
   { theme: 'Freunde', hint: 'Dativ — der Freundin antworten', words: ['Ich', 'antworte', 'der', 'Freundin'] },
   { theme: 'Schule', hint: 'Dativ — den Kindern erzählen', words: ['Ich', 'erzähle', 'den', 'Kindern'] },
-  { theme: 'Freunde', hint: 'Dativ — mir helfen', words: ['Kannst', 'du', 'mir', 'helfen'] },
+  { theme: 'Freunde', hint: 'Dativ — mir helfen', words: ['Kannst', 'du', 'mir', 'helfen', '?'] },
   { theme: 'Essen', hint: 'Dativ — dir schmecken', words: ['Das', 'schmeckt', 'dir', 'gut'] },
   { theme: 'Tiere', hint: 'Dativ — dem Hund folgen', words: ['Ich', 'folge', 'dem', 'Hund'] },
   { theme: 'Transport', hint: 'Dativ — mit dem Bus fahren', words: ['Ich', 'fahre', 'mit', 'dem', 'Bus'] },

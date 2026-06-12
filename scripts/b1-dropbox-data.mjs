@@ -108,14 +108,14 @@ const BANK_RAW = {
 
   'INDIREKTEFRAGESÄTZE': [
     { hint: 'Indirekte Frage — ob Termin stattfindet', words: ['Ich', 'weiß', 'nicht', 'ob', 'der', 'Termin', 'stattfindet'] },
-    { hint: 'Indirekte Frage — wann Zug ankommt', words: ['Kannst', 'du', 'mir', 'sagen', 'wann', 'der', 'Zug', 'ankommt'] },
+    { hint: 'Indirekte Frage — wann Zug ankommt', words: ['Kannst', 'du', 'mir', 'sagen', 'wann', 'der', 'Zug', 'ankommt', '?'] },
     { hint: 'Indirekte Frage — ob morgen kommen', words: ['Er', 'fragt', 'ob', 'wir', 'morgen', 'kommen'] },
     { hint: 'Indirekte Frage — was Regelung bedeutet', words: ['Ich', 'interessiere', 'mich', 'dafür', 'was', 'die', 'neue', 'Regelung', 'bedeutet'] },
     { hint: 'Indirekte Frage — wann Kurs beginnt', words: ['Sie', 'möchte', 'wissen', 'wann', 'der', 'Kurs', 'beginnt'] },
     { hint: 'Indirekte Frage — ob das stimmt', words: ['Wir', 'sind', 'uns', 'nicht', 'sicher', 'ob', 'das', 'stimmt'] },
     { hint: 'Indirekte Frage — wie viel Behandlung kostet', words: ['Er', 'erkundigt', 'sich', 'wie', 'viel', 'die', 'Behandlung', 'kostet'] },
     { hint: 'Indirekte Frage — ob er recht hat', words: ['Ich', 'frage', 'mich', 'ob', 'er', 'recht', 'hat'] },
-    { hint: 'Indirekte Frage — ob Medikament verfügbar ist', words: ['Kannst', 'du', 'prüfen', 'ob', 'das', 'Medikament', 'verfügbar', 'ist'] },
+    { hint: 'Indirekte Frage — ob Medikament verfügbar ist', words: ['Kannst', 'du', 'prüfen', 'ob', 'das', 'Medikament', 'verfügbar', 'ist', '?'] },
     { hint: 'Indirekte Frage — was Minister gesagt hat', words: ['Sie', 'will', 'wissen', 'was', 'der', 'Minister', 'gesagt', 'hat'] },
     { hint: 'Indirekte Frage — wie lange Reise dauert', words: ['Ich', 'bin', 'gespannt', 'wie', 'lange', 'die', 'Reise', 'dauert'] },
     { hint: 'Indirekte Frage — ob gebucht haben', words: ['Er', 'fragt', 'ob', 'wir', 'schon', 'gebucht', 'haben'] },
