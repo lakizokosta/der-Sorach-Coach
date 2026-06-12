@@ -9,4 +9,4 @@ options:
 correct: seine
 ---
 
-Er denkt an ___ Familie. (feste Präp. — für + Akk.)
+Er denkt an ___ Familie. (feste Präposition)

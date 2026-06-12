@@ -9,4 +9,4 @@ options:
 correct: eine
 ---
 
-Ich warte auf ___ Antwort. (feste Präp. — auf + Akk.)
+Ich warte auf ___ Antwort. (feste Präposition)

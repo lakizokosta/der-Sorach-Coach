@@ -9,4 +9,4 @@ words:
   - Wetter
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — gutes)
+Ordne die Wörter zum richtigen Satz: (hoffen auf)

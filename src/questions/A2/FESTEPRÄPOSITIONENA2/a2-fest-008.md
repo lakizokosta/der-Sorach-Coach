@@ -9,4 +9,4 @@ options:
 correct: den
 ---
 
-Sie ärgert sich über ___ Fehler. (feste Präp. — über + Akk.)
+Sie ärgert sich über ___ Fehler. (feste Präposition)

@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Sie wartet auf ___ Zug. (feste Präp. — auf + Akk.)
+Sie wartet auf ___ Zug. (feste Präposition)

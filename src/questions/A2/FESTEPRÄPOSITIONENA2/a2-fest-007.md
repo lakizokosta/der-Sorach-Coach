@@ -9,4 +9,4 @@ options:
 correct: das
 ---
 
-Wir diskutieren über ___ Problem. (feste Präp. — über + Akk.)
+Wir diskutieren über ___ Problem. (feste Präposition)

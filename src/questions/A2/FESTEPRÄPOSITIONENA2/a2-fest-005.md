@@ -9,4 +9,4 @@ options:
 correct: klassische
 ---
 
-Ich interessiere mich für ___ Musik. (feste Präp. — für + Akk.)
+Ich interessiere mich für ___ Musik. (feste Präposition)

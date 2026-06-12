@@ -11,4 +11,4 @@ words:
   - Reisebüro
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — eine)
+Ordne die Wörter zum richtigen Satz: (warten auf)

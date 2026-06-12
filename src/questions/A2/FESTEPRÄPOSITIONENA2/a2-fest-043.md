@@ -9,4 +9,4 @@ options:
 correct: die
 ---
 
-Ich danke für ___ Hilfe. (feste Präp. — auf + Akk.)
+Ich danke für ___ Hilfe. (feste Präposition)

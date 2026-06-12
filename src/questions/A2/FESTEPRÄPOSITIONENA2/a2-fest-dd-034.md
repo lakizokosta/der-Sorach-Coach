@@ -9,4 +9,4 @@ words:
   - Zahlung
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — auf)
+Ordne die Wörter zum richtigen Satz: (bestehen auf)

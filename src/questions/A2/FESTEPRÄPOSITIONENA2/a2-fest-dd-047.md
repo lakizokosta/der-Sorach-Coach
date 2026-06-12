@@ -9,4 +9,4 @@ words:
   - Hilfe
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — die)
+Ordne die Wörter zum richtigen Satz: (danken für)

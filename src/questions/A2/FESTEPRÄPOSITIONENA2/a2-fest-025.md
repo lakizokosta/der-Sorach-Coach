@@ -9,4 +9,4 @@ options:
 correct: seine
 ---
 
-Er erinnert sich an ___ Kindheit. (feste Präp. — über + Akk.)
+Er erinnert sich an ___ Kindheit. (feste Präposition)

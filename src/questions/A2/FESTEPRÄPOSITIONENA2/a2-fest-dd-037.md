@@ -9,4 +9,4 @@ words:
   - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — die)
+Ordne die Wörter zum richtigen Satz: (sprechen über)

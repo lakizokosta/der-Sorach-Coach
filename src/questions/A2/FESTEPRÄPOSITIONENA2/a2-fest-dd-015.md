@@ -9,4 +9,4 @@ words:
   - Witz
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+Ordne die Wörter zum richtigen Satz: (lachen über)

@@ -9,4 +9,4 @@ words:
   - Zug
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+Ordne die Wörter zum richtigen Satz: (warten auf)

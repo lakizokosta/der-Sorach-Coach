@@ -9,4 +9,4 @@ words:
   - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — einem)
+Ordne die Wörter zum richtigen Satz: (träumen von)

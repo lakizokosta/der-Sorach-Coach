@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Er fragt nach ___ Weg zum Hotel. (feste Präp. — nach + Dat.)
+Er fragt nach ___ Weg zum Hotel. (feste Präposition)

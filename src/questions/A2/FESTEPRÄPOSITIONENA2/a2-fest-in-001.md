@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Ich warte auf ___ Antwort vom Reisebüro. (feste Präp. — auf + Akk.)
+Ich warte auf ___ Antwort vom Reisebüro. (feste Präposition)

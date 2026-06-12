@@ -9,4 +9,4 @@ words:
   - Familie
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — seine)
+Ordne die Wörter zum richtigen Satz: (denken an)

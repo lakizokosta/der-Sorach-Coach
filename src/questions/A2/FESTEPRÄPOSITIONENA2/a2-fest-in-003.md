@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Wir sprechen über ___ Reise. (feste Präp. — über + Akk.)
+Wir sprechen über ___ Reise. (feste Präposition)

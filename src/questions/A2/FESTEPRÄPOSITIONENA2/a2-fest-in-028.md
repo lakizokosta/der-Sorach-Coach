@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Wir sprechen mit ___ Chef. (feste Präp. — mit + Dat.)
+Wir sprechen mit ___ Chef. (feste Präposition)

@@ -10,4 +10,4 @@ words:
   - Fehler
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+Ordne die Wörter zum richtigen Satz: (sich ärgern über)

@@ -9,4 +9,4 @@ options:
 correct: gutes
 ---
 
-Ich hoffe auf ___ gutes Wetter. (feste Präp. — für + Akk.)
+Ich hoffe auf ___ gutes Wetter. (feste Präposition)

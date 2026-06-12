@@ -10,4 +10,4 @@ words:
   - Fest
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — auf)
+Ordne die Wörter zum richtigen Satz: (sich freuen auf)

@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Wir lachen über ___ Witz. (feste Präp. — über + Akk.)
+Wir lachen über ___ Witz. (feste Präposition)

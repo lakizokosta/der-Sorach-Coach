@@ -9,4 +9,4 @@ options:
 correct: den
 ---
 
-Sie wartet auf ___ Zug. (feste Präp. — über + Akk.)
+Sie wartet auf ___ Zug. (feste Präposition)

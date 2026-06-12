@@ -9,4 +9,4 @@ words:
   - Problem
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — das)
+Ordne die Wörter zum richtigen Satz: (diskutieren über)

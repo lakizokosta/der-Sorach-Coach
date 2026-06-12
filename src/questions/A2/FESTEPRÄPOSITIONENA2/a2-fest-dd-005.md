@@ -10,4 +10,4 @@ words:
   - Musik
 ---
 
-Ordne die Wörter zum richtigen Satz: (feste Präp. — klassische)
+Ordne die Wörter zum richtigen Satz: (sich interessieren für)
