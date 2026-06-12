@@ -2,11 +2,11 @@
 id: a2-part-010
 type: select-one
 options:
-  - oder
-  - ja
-  - doch
-  - aber
-correct: ja
+  - Oder
+  - Ja
+  - Doch
+  - Aber
+correct: Ja
 ---
 
 „Magst du Sport?" — „___, ich mag Fußball." (Antwortpartikel)

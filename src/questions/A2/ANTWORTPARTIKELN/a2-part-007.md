@@ -2,11 +2,11 @@
 id: a2-part-007
 type: select-one
 options:
-  - aber
-  - oder
-  - vielleicht
-  - ja
-correct: ja
+  - Aber
+  - Oder
+  - Vielleicht
+  - Ja
+correct: Ja
 ---
 
 „Lernst du Deutsch?" — „___, seit einem Jahr." (Antwortpartikel)

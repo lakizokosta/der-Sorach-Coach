@@ -8,22 +8,24 @@ import { options4, options5, shuffle, ensure50 } from './a2-select-one-shared.mj
 /** @typedef {import('./a2-select-one-shared.mjs').Q} Q */
 
 const PART_POOL = ['ja', 'nein', 'doch', 'aber', 'oder', 'vielleicht'];
+// Capitalized pool for blanks at the start of a sentence/quoted answer.
+const PART_POOL_CAPS = ['Ja', 'Nein', 'Doch', 'Aber', 'Oder', 'Vielleicht'];
 
 export function genAntwortpartikeln() {
   const items = [
-    ['„Kommst du mit?" — „___, ich habe keine Zeit."', 'nein', PART_POOL],
-    ['„Hast du Hunger?" — „___, gern!"', 'ja', PART_POOL],
-    ['„Du warst doch in Berlin?" — „___, letztes Jahr."', 'doch', PART_POOL],
+    ['„Kommst du mit?" — „___, ich habe keine Zeit."', 'Nein', PART_POOL_CAPS],
+    ['„Hast du Hunger?" — „___, gern!"', 'Ja', PART_POOL_CAPS],
+    ['„Du warst doch in Berlin?" — „___, letztes Jahr."', 'Doch', PART_POOL_CAPS],
     ['„Ich mag Kaffee, ___ Tee mag ich lieber."', 'aber', PART_POOL],
     ['„Gehen wir ins Kino ___ nach Hause?"', 'oder', PART_POOL],
-    ['„Ist das dein Auto?" — „___, das ist meins."', 'ja', PART_POOL],
-    ['„Lernst du Deutsch?" — „___, seit einem Jahr."', 'ja', PART_POOL],
-    ['„Warst du krank?" — „___, ich war nur müde."', 'nein', PART_POOL],
-    ['„Du kommst doch zur Party?" — „___, ich komme bestimmt."', 'doch', PART_POOL],
-    ['„Magst du Sport?" — „___, ich mag Fußball."', 'ja', PART_POOL],
-    ['„Ist das teuer?" — „___, es ist günstig."', 'nein', PART_POOL],
-    ['„Trinkst du Milch?" — „___, ich trinke keinen."', 'nein', PART_POOL],
-    ['„Du hast doch Zeit?" — „___, ich habe Zeit."', 'doch', PART_POOL],
+    ['„Ist das dein Auto?" — „___, das ist meins."', 'Ja', PART_POOL_CAPS],
+    ['„Lernst du Deutsch?" — „___, seit einem Jahr."', 'Ja', PART_POOL_CAPS],
+    ['„Warst du krank?" — „___, ich war nur müde."', 'Nein', PART_POOL_CAPS],
+    ['„Du kommst doch zur Party?" — „___, ich komme bestimmt."', 'Doch', PART_POOL_CAPS],
+    ['„Magst du Sport?" — „___, ich mag Fußball."', 'Ja', PART_POOL_CAPS],
+    ['„Ist das teuer?" — „___, es ist günstig."', 'Nein', PART_POOL_CAPS],
+    ['„Trinkst du Milch?" — „___, ich trinke keinen."', 'Nein', PART_POOL_CAPS],
+    ['„Du hast doch Zeit?" — „___, ich habe Zeit."', 'Doch', PART_POOL_CAPS],
     ['„Wir fahren morgen, ___ du bleibst?"', 'oder', PART_POOL],
     ['„Das Wetter ist schön, ___ es ist windig."', 'aber', PART_POOL],
   ];

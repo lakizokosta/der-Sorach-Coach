@@ -2,11 +2,11 @@
 id: a2-part-038
 type: select-one
 options:
-  - doch
-  - vielleicht
-  - nein
-  - aber
-correct: nein
+  - Doch
+  - Vielleicht
+  - Nein
+  - Aber
+correct: Nein
 ---
 
 „Warst du krank?" — „___, ich war nur müde." (Antwortpartikel — Kontrast)

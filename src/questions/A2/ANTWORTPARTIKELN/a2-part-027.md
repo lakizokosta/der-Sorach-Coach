@@ -2,11 +2,11 @@
 id: a2-part-027
 type: select-one
 options:
-  - vielleicht
-  - aber
-  - oder
-  - nein
-correct: nein
+  - Vielleicht
+  - Aber
+  - Oder
+  - Nein
+correct: Nein
 ---
 
 „Trinkst du Milch?" — „___, ich trinke keinen." (Antwortpartikel)

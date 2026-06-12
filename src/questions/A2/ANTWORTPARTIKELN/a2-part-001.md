@@ -2,11 +2,11 @@
 id: a2-part-001
 type: select-one
 options:
-  - oder
-  - nein
-  - doch
-  - aber
-correct: nein
+  - Oder
+  - Nein
+  - Doch
+  - Aber
+correct: Nein
 ---
 
 „Kommst du mit?" — „___, ich habe keine Zeit." (Antwortpartikel)
