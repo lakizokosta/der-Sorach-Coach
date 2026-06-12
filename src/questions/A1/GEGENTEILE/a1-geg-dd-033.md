@@ -3,9 +3,10 @@ id: a1-geg-dd-033
 type: dropbox
 words:
   - Das
-  - Wetter
-  - war
-  - schlecht
+  - alte
+  - Haus
+  - ist
+  - hässlich
 ---
 
-[Reisen] Ordne die Wörter zum richtigen Satz: (Gegenteil — schön / schlecht)
+[Zuhause] Ordne die Wörter zum richtigen Satz: (Gegenteil — schön / hässlich)

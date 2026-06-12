@@ -47,17 +47,22 @@ let n = 0;
 n += restoreGegenteileSelectOne();
 
 const INPUT_BANK = loadGegInputBank();
-const in028 = INPUT_BANK[27];
-if (in028) {
-  writeFileSync(
-    join(DIR, 'a1-geg-in-028.md'),
-    `---\nid: a1-geg-in-028\ntype: input-text\ncorrect:\n  - ${in028[1]}\n---\n\n${buildInputBody(in028)}\n`,
-    'utf8',
-  );
-  n += 1;
+
+// Input-text files that need explicit regeneration
+for (const [idx, num] of [[27, '028'], [32, '033'], [43, '044']]) {
+  const item = INPUT_BANK[idx];
+  if (item) {
+    writeFileSync(
+      join(DIR, `a1-geg-in-${num}.md`),
+      `---\nid: a1-geg-in-${num}\ntype: input-text\ncorrect:\n  - ${item[1]}\n---\n\n${buildInputBody(item)}\n`,
+      'utf8',
+    );
+    n += 1;
+  }
 }
 
-for (const [idx, num] of [[11, '012'], [31, '032'], [35, '036']]) {
+// Dropbox files that need explicit regeneration
+for (const [idx, num] of [[11, '012'], [31, '032'], [32, '033'], [35, '036'], [43, '044']]) {
   const item = DROPBOX_BANK[idx];
   if (item) {
     writeFileSync(join(DIR, `a1-geg-dd-${num}.md`), dropboxMd(`a1-geg-dd-${num}`, item), 'utf8');

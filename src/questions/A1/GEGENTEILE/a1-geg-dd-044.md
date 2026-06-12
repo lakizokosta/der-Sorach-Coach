@@ -2,10 +2,10 @@
 id: a1-geg-dd-044
 type: dropbox
 words:
-  - Der
-  - Salat
+  - Die
+  - Zitrone
   - ist
-  - salzig
+  - sauer
 ---
 
-Ordne die Wörter zum richtigen Satz: (Gegenteil — süß / salzig)
+[Essen] Ordne die Wörter zum richtigen Satz: (Gegenteil — süß / sauer)

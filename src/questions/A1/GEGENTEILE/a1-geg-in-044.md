@@ -2,7 +2,7 @@
 id: a1-geg-in-044
 type: input-text
 correct:
-  - salzig
+  - sauer
 ---
 
-Der Kuchen ist süß, der Salat ist ___. (Gegenteile)
+Der Kuchen ist süß, die Zitrone ist ___. (Gegenteil von süß)

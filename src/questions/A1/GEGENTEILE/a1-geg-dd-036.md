@@ -4,8 +4,7 @@ type: dropbox
 words:
   - Er
   - ist
-  - sehr
-  - traurig
+  - pessimistisch
 ---
 
-[Freunde] Ordne die Wörter zum richtigen Satz: (Gegenteil — optimistisch / traurig)
+[Freunde] Ordne die Wörter zum richtigen Satz: (Gegenteil — optimistisch / pessimistisch)

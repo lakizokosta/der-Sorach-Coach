@@ -2,7 +2,7 @@
 id: a1-geg-in-033
 type: input-text
 correct:
-  - schlecht
+  - hässlich
 ---
 
-Die Reise war schön, das Wetter war ___. (Gegenteile)
+Das neue Haus ist schön, das alte Haus ist ___. (Gegenteil von schön)
