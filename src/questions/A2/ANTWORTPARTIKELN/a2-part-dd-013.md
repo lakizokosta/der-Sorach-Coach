@@ -3,10 +3,8 @@ id: a2-part-dd-013
 type: dropbox
 words:
   - Doch
-  - am
-  - Wochenende
-  - habe
   - ich
+  - habe
   - Zeit
 ---
 

@@ -5,4 +5,4 @@ correct:
   - neuen
 ---
 
-Ich kaufe einen ___ Computer. (Adjektivdeklination — mask., Akk.)
+Ich kaufe einen ___ Computer. (Adjektivendung)

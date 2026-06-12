@@ -9,4 +9,4 @@ words:
   - Problem
 ---
 
-Ordne die Wörter zum richtigen Satz: (schwer, neutr., Nom. — schweres)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)

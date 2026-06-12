@@ -2,13 +2,13 @@
 id: a2-part-dd-027
 type: dropbox
 words:
-  - Interessierst
-  - du
-  - dich
+  - Ja
+  - ich
+  - interessiere
+  - mich
+  - sehr
   - für
   - Tanzsport
-  - ja
-  - sehr
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

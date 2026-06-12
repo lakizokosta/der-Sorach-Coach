@@ -9,4 +9,4 @@ words:
   - laut
 ---
 
-Ordne die Wörter zum richtigen Satz: (klein, mask., Nom. — kleine)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)

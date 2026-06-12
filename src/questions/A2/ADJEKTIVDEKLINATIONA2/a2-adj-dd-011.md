@@ -10,4 +10,4 @@ words:
   - Suppe
 ---
 
-Ordne die Wörter zum richtigen Satz: (warm, fem., Akk. — warme)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)

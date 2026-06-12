@@ -9,4 +9,4 @@ words:
   - Stadt
 ---
 
-Ordne die Wörter zum richtigen Satz: (alt, fem., Akk. — alte)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)

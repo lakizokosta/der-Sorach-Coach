@@ -5,4 +5,4 @@ correct:
   - kleiner
 ---
 
-Das ist ein ___ Hund. (Adjektivdeklination — mask., Nom.)
+Das ist ein ___ Hund. (Adjektivendung)

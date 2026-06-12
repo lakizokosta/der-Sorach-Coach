@@ -5,4 +5,4 @@ correct:
   - schnelles
 ---
 
-Er fährt ein ___ Fahrrad. (Adjektivdeklination — neutr., Akk.)
+Er fährt ein ___ Fahrrad. (Adjektivendung)

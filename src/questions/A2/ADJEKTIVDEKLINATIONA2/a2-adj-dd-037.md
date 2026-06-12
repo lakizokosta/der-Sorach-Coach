@@ -9,4 +9,4 @@ words:
   - Katze
 ---
 
-Ordne die Wörter zum richtigen Satz: (schön, fem., Akk. — schöne)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)

@@ -5,4 +5,4 @@ correct:
   - kalte
 ---
 
-Wir trinken eine ___ Limonade. (Adjektivdeklination — fem., Akk.)
+Wir trinken eine ___ Limonade. (Adjektivendung)

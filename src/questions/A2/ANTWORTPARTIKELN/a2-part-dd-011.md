@@ -2,12 +2,9 @@
 id: a2-part-dd-011
 type: dropbox
 words:
-  - Ist
+  - Nein
   - die
   - Wohnung
-  - teuer
-  - nein
-  - sie
   - ist
   - günstig
 ---

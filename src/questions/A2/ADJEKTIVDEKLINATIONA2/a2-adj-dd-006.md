@@ -9,4 +9,4 @@ words:
   - Fahrrad
 ---
 
-Ordne die Wörter zum richtigen Satz: (schnell, neutr., Akk. — schnelles)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)

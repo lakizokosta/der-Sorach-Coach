@@ -5,4 +5,4 @@ correct:
   - vollen
 ---
 
-Wir steigen in den ___ Bus ein. (Adjektivdeklination — mask., Akk.)
+Wir steigen in den ___ Bus ein. (Adjektivendung)

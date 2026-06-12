@@ -9,4 +9,4 @@ words:
   - mir
 ---
 
-Ordne die Wörter zum richtigen Satz: (neu, mask., Nom. — neuer)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)

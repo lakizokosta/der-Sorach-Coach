@@ -9,4 +9,4 @@ words:
   - Lied
 ---
 
-Ordne die Wörter zum richtigen Satz: (laut, neutr., Akk. — lautes)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)

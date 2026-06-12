@@ -5,4 +5,4 @@ correct:
   - schweres
 ---
 
-Das ist kein ___ Problem. (Adjektivdeklination — neutr., Nom.)
+Das ist kein ___ Problem. (Adjektivendung)

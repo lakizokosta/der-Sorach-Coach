@@ -5,4 +5,4 @@ correct:
   - braune
 ---
 
-Das ___ Pferd läuft schnell. (Adjektivdeklination — neutr., Nom.)
+Das ___ Pferd läuft schnell. (Adjektivendung)

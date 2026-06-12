@@ -9,4 +9,4 @@ words:
   - Freund
 ---
 
-Ordne die Wörter zum richtigen Satz: (nett, mask., Akk. — netten)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)

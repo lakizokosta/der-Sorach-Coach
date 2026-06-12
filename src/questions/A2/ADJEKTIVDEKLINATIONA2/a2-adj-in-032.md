@@ -5,4 +5,4 @@ correct:
   - kleinen
 ---
 
-Im ___ Laden ist alles günstig. (Adjektivdeklination — mask., Dat.)
+Im ___ Laden ist alles günstig. (Adjektivendung)

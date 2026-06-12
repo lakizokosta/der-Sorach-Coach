@@ -5,4 +5,4 @@ correct:
   - hellen
 ---
 
-In der ___ Küche kocht meine Mutter. (Adjektivdeklination — fem., Dat.)
+In der ___ Küche kocht meine Mutter. (Adjektivendung)

@@ -5,4 +5,4 @@ correct:
   - fünften
 ---
 
-In der ___ Klasse sind 25 Schüler. (Adjektivdeklination — fem., Dat.)
+In der ___ Klasse sind 25 Schüler. (Adjektivendung)

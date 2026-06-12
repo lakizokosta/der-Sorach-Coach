@@ -9,4 +9,4 @@ words:
   - Wohnung
 ---
 
-Ordne die Wörter zum richtigen Satz: (groß, fem., Akk. — große)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)

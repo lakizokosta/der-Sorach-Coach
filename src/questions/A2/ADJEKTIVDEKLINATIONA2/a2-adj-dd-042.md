@@ -11,4 +11,4 @@ words:
   - Deutsch
 ---
 
-Ordne die Wörter zum richtigen Satz: (neu, fem., Dat. — neuen)
+Ordne die Wörter zum richtigen Satz: (Adjektivendung)
