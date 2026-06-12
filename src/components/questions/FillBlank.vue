@@ -33,6 +33,12 @@ const acceptable = (props.question.correct || []).map((s) => String(s).toLowerCa
 
 const spatialScene = computed(() => resolveSpatialScene(props.question));
 
+const WECHSEL_TOPICS = new Set(['WECHSELPRÄPOSITIONEN', 'WECHSELPRÄPOSITIONENA2']);
+const showSpatialHint = computed(() =>
+  spatialScene.value !== null &&
+  (!WECHSEL_TOPICS.has(props.question.topic) || checked.value),
+);
+
 const partLeftHtml = computed(() =>
   props.premium ? wrapWordsForDictionary(parts[0] || '') : escapeHtml(parts[0] || ''),
 );
@@ -122,7 +128,7 @@ const inputClass = computed(() => ({
 
 <template>
   <div>
-    <PrepositionSpatialHint v-if="spatialScene" :scene="spatialScene" />
+    <PrepositionSpatialHint v-if="showSpatialHint" :scene="spatialScene" />
     <div class="question-box">Fülle die Lücke aus:</div>
 
     <div class="fill-sentence">

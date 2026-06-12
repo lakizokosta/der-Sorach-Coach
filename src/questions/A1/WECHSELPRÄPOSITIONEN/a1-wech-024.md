@@ -9,4 +9,4 @@ options:
 correct: auf den
 ---
 
-Ich setze mich ___ Stuhl. (Wechselpräp. — auf den Stuhl (Bewegung))
+Ich setze mich ___ Stuhl. (Dativ oder Akkusativ?)

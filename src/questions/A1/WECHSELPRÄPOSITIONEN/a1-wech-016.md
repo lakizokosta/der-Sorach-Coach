@@ -9,4 +9,4 @@ options:
 correct: ins
 ---
 
-Wir gehen ___ Restaurant. (Wechselpräp. — Bewegung → Akkusativ)
+Wir gehen ___ Restaurant. (Dativ oder Akkusativ?)

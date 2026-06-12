@@ -9,4 +9,4 @@ options:
 correct: auf den
 ---
 
-Ich lege das Buch ___ Tisch. (Wechselpräp. — Bewegung → Akkusativ)
+Ich lege das Buch ___ Tisch. (Dativ oder Akkusativ?)

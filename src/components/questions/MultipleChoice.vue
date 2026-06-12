@@ -55,6 +55,15 @@ const correctValue = computed(() => String(props.question.correct ?? '').trim())
 
 const spatialScene = computed(() => resolveSpatialScene(props.question));
 
+const WECHSEL_TOPICS = new Set(['WECHSELPRÄPOSITIONEN', 'WECHSELPRÄPOSITIONENA2']);
+
+// For Wechselpräpositionen the badge (Wo·Dativ / Wohin·Akkusativ) reveals the
+// answer, so we show the diagram only after the correct option is picked.
+const showSpatialHint = computed(() =>
+  spatialScene.value !== null &&
+  (!WECHSEL_TOPICS.has(props.question.topic) || finalised.value),
+);
+
 /**
  * Returns true iff `option` matches the declared correct answer. The
  * comparison trims whitespace defensively so a stray YAML space cannot
@@ -122,7 +131,7 @@ function classFor(option) {
 
 <template>
   <div>
-    <PrepositionSpatialHint v-if="spatialScene" :scene="spatialScene" />
+    <PrepositionSpatialHint v-if="showSpatialHint" :scene="spatialScene" />
     <div class="question-box" v-html="renderedPrompt" />
 
     <div class="answers-box">

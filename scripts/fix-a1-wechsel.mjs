@@ -26,28 +26,28 @@ const SELECT_OVERRIDES = {
     sent: 'Das Bild hängt ___ Wand.',
     correct: 'an der',
     options: ['an der', 'an die', 'am', 'auf der'],
-    hint: 'Wechselpräp. — an der Wand (Ort)',
+    hint: 'Dativ oder Akkusativ?',
   },
   'a1-wech-009': {
     theme: 'Essen',
     sent: 'Das Buch liegt ___ Tisch.',
     correct: 'auf dem',
     options: ['auf dem', 'auf den', 'auf der', 'auf die'],
-    hint: 'Wechselpräp. — auf dem Tisch (Ort)',
+    hint: 'Dativ oder Akkusativ?',
   },
   'a1-wech-010': {
     theme: 'Essen',
     sent: 'Ich lege das Buch ___ Tisch.',
     correct: 'auf den',
     options: ['auf den', 'auf dem', 'auf der', 'auf die'],
-    hint: 'Wechselpräp. — auf den Tisch (Bewegung)',
+    hint: 'Dativ oder Akkusativ?',
   },
   'a1-wech-024': {
     theme: 'Zuhause',
     sent: 'Ich setze mich ___ Stuhl.',
     correct: 'auf den',
     options: ['auf den', 'auf dem', 'auf die', 'auf der'],
-    hint: 'Wechselpräp. — auf den Stuhl (Bewegung)',
+    hint: 'Dativ oder Akkusativ?',
   },
 };
 

@@ -9,4 +9,4 @@ options:
 correct: im
 ---
 
-Ich bin ___ Park. (Wechselpräp. — Ort → Dativ)
+Ich bin ___ Park. (Dativ oder Akkusativ?)

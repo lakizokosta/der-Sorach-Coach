@@ -9,4 +9,4 @@ options:
 correct: in den
 ---
 
-Wir steigen ___ Bus. (Wechselpräp. — Bewegung → Akkusativ)
+Wir steigen ___ Bus. (Dativ oder Akkusativ?)

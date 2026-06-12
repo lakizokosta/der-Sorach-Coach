@@ -9,4 +9,4 @@ options:
 correct: auf der
 ---
 
-Ich laufe ___ Straße. (Wechselpräp. — Ort → Dativ)
+Ich laufe ___ Straße. (Dativ oder Akkusativ?)

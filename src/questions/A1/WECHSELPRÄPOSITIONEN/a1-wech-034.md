@@ -9,4 +9,4 @@ options:
 correct: auf dem
 ---
 
-Die Jacke liegt ___ Stuhl. (Wechselpräp. — Ort → Dativ)
+Die Jacke liegt ___ Stuhl. (Dativ oder Akkusativ?)

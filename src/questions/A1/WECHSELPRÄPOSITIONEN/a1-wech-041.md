@@ -9,4 +9,4 @@ options:
 correct: an die
 ---
 
-Ich hänge das Bild ___ Wand. (Wechselpräp. — Bewegung → Akkusativ)
+Ich hänge das Bild ___ Wand. (Dativ oder Akkusativ?)

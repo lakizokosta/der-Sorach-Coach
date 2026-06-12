@@ -9,4 +9,4 @@ options:
 correct: auf die
 ---
 
-Wir fahren ___ Straße. (Wechselpräp. — Bewegung → Akkusativ)
+Wir fahren ___ Straße. (Dativ oder Akkusativ?)

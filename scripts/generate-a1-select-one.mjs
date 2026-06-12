@@ -375,7 +375,7 @@ function genWechsel() {
   for (let i = 0; i < 45; i++) {
     const sc = scenes[i % scenes.length];
     const correct = sc.move ? sc.akk : sc.dat;
-    const hint = sc.move ? 'Wechselpräp. — Bewegung → Akkusativ' : 'Wechselpräp. — Ort → Dativ';
+    const hint = 'Dativ oder Akkusativ?';
     out.push({
       prompt: `[${sc.theme}] ${sc.sent}`,
       hint,

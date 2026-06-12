@@ -9,4 +9,4 @@ options:
 correct: auf dem
 ---
 
-Das Buch liegt ___ Tisch. (Wechselpräp. — auf dem Tisch (Ort))
+Das Buch liegt ___ Tisch. (Dativ oder Akkusativ?)
