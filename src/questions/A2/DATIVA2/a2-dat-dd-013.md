@@ -9,4 +9,4 @@ words:
   - Freunden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — unseren)
+Ordne die Wörter zum richtigen Satz: (Dativ)

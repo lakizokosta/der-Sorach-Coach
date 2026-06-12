@@ -9,4 +9,4 @@ words:
   - Firma
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — einer)
+Ordne die Wörter zum richtigen Satz: (Dativ)

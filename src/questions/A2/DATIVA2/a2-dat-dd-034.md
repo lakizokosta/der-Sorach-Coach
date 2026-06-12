@@ -9,4 +9,4 @@ words:
   - Ausfüllen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Personalpronomen — Ihnen)
+Ordne die Wörter zum richtigen Satz: (Dativ)

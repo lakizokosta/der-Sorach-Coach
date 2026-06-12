@@ -9,4 +9,4 @@ words:
   - Blumen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessiv — meiner)
+Ordne die Wörter zum richtigen Satz: (Dativ)

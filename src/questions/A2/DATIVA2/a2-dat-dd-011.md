@@ -4,9 +4,13 @@ type: dropbox
 words:
   - Ich
   - bin
+  - heute
+  - bis
+  - drei
+  - Uhr
   - in
   - der
   - Schule
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — der)
+Ordne die Wörter zum richtigen Satz: (Dativ)

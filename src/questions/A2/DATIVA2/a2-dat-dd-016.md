@@ -8,4 +8,4 @@ words:
   - gut
 ---
 
-Ordne die Wörter zum richtigen Satz: (Personalpronomen — dir)
+Ordne die Wörter zum richtigen Satz: (Dativ)

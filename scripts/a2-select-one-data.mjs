@@ -277,21 +277,21 @@ export function genWechsel() {
 
 export function genDativ() {
   const items = [
-    ['Ich antworte ___ Freundin.', 'der', ['die', 'den', 'dem', 'das']],
-    ['Er hilft ___ Kind.', 'dem', ['den', 'der', 'das', 'die']],
-    ['Wir danken ___ Lehrerin.', 'der', ['die', 'den', 'dem', 'das']],
-    ['Ich folge ___ Hund.', 'dem', ['den', 'der', 'das', 'die']],
-    ['Sie gratuliert ___ Bruder.', 'dem', ['den', 'der', 'die', 'das']],
-    ['Ich gebe ___ Mutter Blumen.', 'meiner', ['meine', 'meinen', 'mein', 'meinem']],
+    ['Ich antworte ___ Freundin.', 'der', ['die', 'den', 'des', 'dem']],
+    ['Er hilft ___ Kind.', 'dem', ['das', 'den', 'des', 'der']],
+    ['Wir danken ___ Lehrerin.', 'der', ['die', 'den', 'des', 'dem']],
+    ['Ich folge ___ Hund.', 'dem', ['den', 'der', 'des', 'die']],
+    ['Sie gratuliert ___ Bruder.', 'dem', ['den', 'der', 'des', 'die']],
+    ['Ich gebe ___ Mutter Blumen.', 'meiner', ['meine', 'meinen', 'meines', 'meinem']],
     ['Er schreibt ___ Freund.', 'seinem', ['sein', 'seinen', 'seine', 'seiner']],
-    ['Wir fahren mit ___ Bus.', 'dem', ['den', 'der', 'das', 'die']],
-    ['Ich wohne bei ___ Eltern.', 'meinen', ['meine', 'meiner', 'mein', 'meinem']],
-    ['Sie arbeitet in ___ Firma.', 'einer', ['eine', 'einen', 'ein', 'einem']],
-    ['Ich bin in ___ Schule.', 'der', ['die', 'den', 'dem', 'das']],
-    ['Er sitzt auf ___ Stuhl.', 'dem', ['den', 'der', 'das', 'die']],
-    ['Wir essen mit ___ Freunden.', 'unseren', ['unsere', 'unserer', 'unser', 'unserem']],
-    ['Ich kaufe ___ Schwester ein Geschenk.', 'meiner', ['meine', 'meinen', 'mein', 'meinem']],
-    ['Er vertraut ___ Ärztin.', 'der', ['die', 'den', 'dem', 'das']],
+    ['Wir fahren mit ___ Bus.', 'dem', ['den', 'der', 'des', 'die']],
+    ['Ich wohne bei ___ Eltern.', 'meinen', ['meine', 'meiner', 'meines', 'meinem']],
+    ['Sie arbeitet in ___ Firma.', 'einer', ['eine', 'einen', 'eines', 'einem']],
+    ['Ich bin in ___ Schule.', 'der', ['die', 'den', 'des', 'dem']],
+    ['Er sitzt auf ___ Stuhl.', 'dem', ['den', 'der', 'des', 'die']],
+    ['Wir essen mit ___ Freunden.', 'unseren', ['unsere', 'unserer', 'unseres', 'unserem']],
+    ['Ich kaufe ___ Schwester ein Geschenk.', 'meiner', ['meine', 'meinen', 'meines', 'meinem']],
+    ['Er vertraut ___ Ärztin.', 'der', ['die', 'den', 'des', 'dem']],
   ];
   return ensure50(() => {
     const out = [];

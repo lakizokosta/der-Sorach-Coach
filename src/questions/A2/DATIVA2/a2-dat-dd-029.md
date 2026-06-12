@@ -4,9 +4,11 @@ type: dropbox
 words:
   - Er
   - sitzt
+  - bequem
   - auf
   - dem
+  - neuen
   - Stuhl
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+Ordne die Wörter zum richtigen Satz: (Dativ)

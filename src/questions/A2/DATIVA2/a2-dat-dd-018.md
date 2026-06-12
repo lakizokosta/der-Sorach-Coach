@@ -8,4 +8,4 @@ words:
   - Freundin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — der)
+Ordne die Wörter zum richtigen Satz: (Dativ)
