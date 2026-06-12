@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Ich lese ___ Artikel im Radio-Interview. (Akkusativ — der Artikel)
+Ich lese ___ Artikel in der Zeitung. (Akkusativ — der Artikel)

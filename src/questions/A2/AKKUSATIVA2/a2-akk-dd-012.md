@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Er
   - nimmt
+  - morgens
   - das
   - Medikament
 ---

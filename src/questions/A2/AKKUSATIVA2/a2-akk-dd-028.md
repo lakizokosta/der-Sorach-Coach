@@ -6,8 +6,9 @@ words:
   - lese
   - den
   - Artikel
-  - im
-  - Radio-Interview
+  - in
+  - der
+  - Zeitung
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — den)

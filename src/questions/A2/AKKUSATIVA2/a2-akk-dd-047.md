@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Wir
   - besuchen
+  - heute
   - das
   - Museum
 ---

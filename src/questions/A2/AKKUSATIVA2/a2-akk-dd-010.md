@@ -6,7 +6,7 @@ words:
   - kauft
   - einen
   - Teppich
-  - auf
+  - bei
   - der
   - Auktion
 ---

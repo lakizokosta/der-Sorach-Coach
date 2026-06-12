@@ -305,9 +305,9 @@ export function genDativ() {
 
 export function genAkkusativ() {
   const items = [
-    ['Ich warte auf ___ Bus.', 'den', ['der', 'dem', 'das', 'die']],
-    ['Er denkt an ___ Urlaub.', 'den', ['der', 'dem', 'das', 'die']],
-    ['Wir fahren durch ___ Park.', 'den', ['der', 'dem', 'das', 'die']],
+    ['Ich gehe ohne ___ Regenschirm.', 'den', ['dem', 'der', 'des', 'die']],
+    ['Er läuft gegen ___ Wind.', 'den', ['dem', 'der', 'des', 'die']],
+    ['Wir fahren durch ___ Park.', 'den', ['dem', 'der', 'des', 'die']],
     ['Das Geschenk ist für ___ Schwester.', 'deine', ['deiner', 'deinen', 'dein', 'deinem']],
     ['Ich suche ___ Schlüssel.', 'den', ['der', 'dem', 'das', 'die']],
     ['Sie freut sich auf ___ Wochenende.', 'das', ['der', 'dem', 'den', 'die']],

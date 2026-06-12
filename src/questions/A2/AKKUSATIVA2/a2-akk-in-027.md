@@ -5,4 +5,4 @@ correct:
   - einen
 ---
 
-Sie kauft ___ Teppich auf der Auktion. (Akkusativ — ein Teppich)
+Sie kauft ___ Teppich bei der Auktion. (Akkusativ — ein Teppich)
