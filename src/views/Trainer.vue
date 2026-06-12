@@ -494,6 +494,45 @@ function exitSession() {
   else router.push({ name: 'landing' });
 }
 
+/**
+ * Restarts the same session without leaving the page.
+ * Resets all state and rebuilds the queue with the same params.
+ */
+function restartSession() {
+  answered.value = 0;
+  correct.value = 0;
+  finished.value = false;
+  finishReason.value = '';
+  showRetry.value = false;
+  showGrammarTip.value = false;
+  upsellHtml.value = '';
+  wrongTopics.value = {};
+  lastAnswerResolved.value = false;
+  sessionStreak.value = 0;
+  microFeedback.value = { visible: false, lines: [], tone: 'good' };
+  freeTimerBaseline = null;
+
+  let all;
+  if (schwaechenMode) {
+    schwaechenTopics.value = getWeakestTopics(xpState.topicWrong, xpState.topicCorrect, 3);
+    all = getQuestionsForWeakTopics(schwaechenTopics.value);
+  } else if (topic.value) {
+    all = getQuestionsByTopic(level.value, topic.value);
+  } else {
+    all = getQuestionsByLevel(level.value);
+  }
+
+  queue.value = new AdaptiveQueue(all, { shuffle: true });
+  queueVersion.value += 1;
+
+  if (!isPrem.value && !isBasis.value) {
+    const remaining = getFreeSecondsRemaining();
+    timer.reset(remaining, false);
+  } else {
+    timer.reset(0, false);
+  }
+}
+
 /** Returns to landing (or premium for Premium users) with progress saved. */
 function back() {
   saveProgressEarly();
@@ -814,12 +853,31 @@ watch(lastAnswerResolved, (resolved) => {
         </button>
 
         <button
+          v-if="!placementDetectedLevel && !freeTimeExpired"
+          class="soft-btn"
+          type="button"
+          style="
+            background: #AB4DBB;
+            color: #fff;
+            border: none;
+            width: 100%;
+            margin-top: 10px;
+            font-size: 17px;
+            font-weight: 900;
+            padding: 14px;
+          "
+          @click="restartSession"
+        >
+          ▶ Neue Runde starten
+        </button>
+
+        <button
           class="soft-btn"
           type="button"
           :style="{
-            background: placementDetectedLevel ? '#f5f5f5' : '#AB4DBB',
-            color: placementDetectedLevel ? '#333' : '#fff',
-            border: placementDetectedLevel ? '1.5px solid #ddd' : 'none',
+            background: '#f5f5f5',
+            color: '#333',
+            border: '1.5px solid #ddd',
             width: '100%',
             marginTop: '10px',
           }"
