@@ -9,4 +9,4 @@ options:
 correct: liest
 ---
 
-Sie ___ jeden Abend ein Buch. (Präsens + Verb lesen)
+Sie ___ jeden Abend ein Buch. (Präsens + Verb lesen — sie (Fem.))

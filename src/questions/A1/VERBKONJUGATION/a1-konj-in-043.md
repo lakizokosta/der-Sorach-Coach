@@ -5,4 +5,4 @@ correct:
   - trägt
 ---
 
-Sie ___ einen blauen Mantel. (Präsens + Verb tragen)
+Sie ___ einen blauen Mantel. (Präsens + Verb tragen — sie (Fem.))

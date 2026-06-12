@@ -5,4 +5,4 @@ correct:
   - kommen
 ---
 
-Meine Freunde ___ später. (Präsens + Verb kommen)
+Meine Freunde ___ später. (Präsens + Verb kommen — sie (Pl.))

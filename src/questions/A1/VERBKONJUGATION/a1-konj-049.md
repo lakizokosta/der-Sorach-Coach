@@ -9,4 +9,4 @@ options:
 correct: essen
 ---
 
-Sie ___ Obst zum Frühstück. (Präsens + Verb essen)
+Sie ___ Obst zum Frühstück. (Präsens + Verb essen — sie (Pl.))

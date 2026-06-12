@@ -5,4 +5,4 @@ correct:
   - backt
 ---
 
-Sie ___ einen Kuchen. (Präsens + Verb backen)
+Sie ___ einen Kuchen. (Präsens + Verb backen — sie (Fem.))

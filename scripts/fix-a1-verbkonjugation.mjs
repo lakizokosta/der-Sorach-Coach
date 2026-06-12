@@ -23,7 +23,10 @@ function präsensHint(lemma) {
 /** @param {string} inner */
 function hintFromInputInner(inner) {
   const verb = inner.match(/^([\wäöüÄÖÜß-]+)/)?.[1];
-  return verb ? präsensHint(verb) : inner;
+  const base = verb ? präsensHint(verb) : inner;
+  if (/\bsie Pl\b/i.test(inner)) return `${base} — sie (Pl.)`;
+  if (/\bsie Fem\b/i.test(inner)) return `${base} — sie (Fem.)`;
+  return base;
 }
 
 /** @param {string} bankHint */
@@ -67,8 +70,8 @@ function separableFromBody(body) {
 
 function loadKonjInputBank() {
   const src = readFileSync(join(__dirname, 'generate-a1-input-text.mjs'), 'utf8');
-  const start = src.indexOf('VERBKONJUGATION:');
-  const end = src.indexOf('ADJEKTIVDEKLINATIONA1:');
+  const start = src.indexOf('  VERBKONJUGATION: [');
+  const end = src.indexOf('  ADJEKTIVDEKLINATIONA1: [');
   const block = src.slice(start, end);
   const items = [];
   const re = /\['((?:\\'|[^'])*)',\s*'((?:\\'|[^'])*)'\]/g;
@@ -172,7 +175,8 @@ for (const file of readdirSync(DIR).filter((f) => /^a1-konj-\d+\.md$/.test(f) ||
   const parsed = parseMd(readFileSync(path, 'utf8'));
   if (!parsed || parsed.type !== 'select-one') continue;
 
-  let sentence = parsed.body.replace(/\s*\([^)]*\)\s*$/, '').trim();
+  // Strip the entire trailing hint parenthetical (handles nested parens like "sie (Fem.)")
+  let sentence = parsed.body.replace(/\s*\(.*\)\s*$/, '').trim();
   let correct = parsed.correct[0];
   let options = parsed.options;
 
@@ -184,7 +188,16 @@ for (const file of readdirSync(DIR).filter((f) => /^a1-konj-\d+\.md$/.test(f) ||
   }
 
   const lemma = infinitiveFromOptions(options, correct) || separableFromBody(sentence);
-  const hint = präsensHint(lemma);
+  let hint = präsensHint(lemma);
+  // When subject is "Sie" (capital), clarify Fem. vs Pl. ambiguity
+  if (/^Sie\s/.test(sentence)) {
+    const correctLower = String(correct).toLowerCase();
+    const lemmaLower = (lemma || '').toLowerCase();
+    const isPl = correctLower === lemmaLower
+      || correctLower.endsWith('ern')
+      || (correctLower.endsWith('en') && correctLower !== lemmaLower + 't');
+    hint += isPl ? ' — sie (Pl.)' : ' — sie (Fem.)';
+  }
   const opts = options.map((o) => `  - ${o}`).join('\n');
   writeFileSync(
     path,
