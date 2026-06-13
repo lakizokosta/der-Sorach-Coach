@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ du Zeit hast, ruf mich an. (Konjunktion — Bedingung)
+___ du Zeit hast, ruf mich an. (Konjunktion)

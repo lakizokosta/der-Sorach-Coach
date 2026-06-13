@@ -9,4 +9,4 @@ options:
 correct: Weil
 ---
 
-___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion — Grund)
+___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion)

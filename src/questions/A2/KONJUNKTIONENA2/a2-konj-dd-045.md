@@ -4,12 +4,12 @@ type: dropbox
 words:
   - Ich
   - bleibe
-  - Zuhause
+  - zu
+  - Hause
   - weil
-  - noch
-  - viel
-  - Arbeit
-  - wartet
+  - ich
+  - krank
+  - bin
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)

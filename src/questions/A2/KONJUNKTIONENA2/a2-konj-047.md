@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Ich glaube, ___ er morgen kommt. (Konjunktion — Bedingung)
+Ich glaube, ___ er morgen kommt. (Konjunktion)

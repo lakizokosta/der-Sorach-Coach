@@ -9,4 +9,4 @@ options:
 correct: dass
 ---
 
-Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion — indirekte Frage)
+Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion)

@@ -9,4 +9,4 @@ options:
 correct: weil
 ---
 
-Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion — Bedingung)
+Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion)

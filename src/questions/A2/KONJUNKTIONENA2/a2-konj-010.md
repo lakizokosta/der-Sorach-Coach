@@ -9,4 +9,4 @@ options:
 correct: ob
 ---
 
-Er fragt, ___ wir mitkommen. (Konjunktion — indirekte Frage)
+Er fragt, ___ wir mitkommen. (Konjunktion)

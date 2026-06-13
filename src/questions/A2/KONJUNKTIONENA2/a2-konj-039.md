@@ -9,4 +9,4 @@ options:
 correct: weil
 ---
 
-Ich bleibe, ___ ich noch viel zu tun habe. (Konjunktion — indirekte Frage)
+Ich bleibe, ___ ich noch viel zu tun habe. (Konjunktion)

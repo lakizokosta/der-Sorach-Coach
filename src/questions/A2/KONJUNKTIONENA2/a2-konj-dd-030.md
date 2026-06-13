@@ -2,9 +2,12 @@
 id: a2-konj-dd-030
 type: dropbox
 words:
-  - Bei
-  - Müdigkeit
+  - Wenn
+  - du
+  - müde
+  - bist
   - solltest
+  - du
   - dich
   - ausruhen
 ---

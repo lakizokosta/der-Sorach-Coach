@@ -9,4 +9,4 @@ options:
 correct: ob
 ---
 
-Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion — Bedingung)
+Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion)

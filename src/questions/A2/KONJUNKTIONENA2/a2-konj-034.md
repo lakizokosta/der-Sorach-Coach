@@ -9,4 +9,4 @@ options:
 correct: weil
 ---
 
-Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion — Art und Weise)
+Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion)

@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ du müde bist, solltest du schlafen. (Konjunktion — Grund)
+___ du müde bist, solltest du schlafen. (Konjunktion)
