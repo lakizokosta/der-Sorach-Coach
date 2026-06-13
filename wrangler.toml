@@ -13,7 +13,7 @@
 # Local usage:
 #   npm run deploy
 
-name = "der-sprachcoach"
+name = "der-sorach-coach"
 compatibility_date = "2025-01-01"
 
 [assets]
