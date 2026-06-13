@@ -11,4 +11,4 @@ words:
   - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen des Regens)
+Ordne die Wörter zum richtigen Satz: (Genitiv)

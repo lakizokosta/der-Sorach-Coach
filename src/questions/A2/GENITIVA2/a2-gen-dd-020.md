@@ -10,4 +10,4 @@ words:
   - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen der Krankheit)
+Ordne die Wörter zum richtigen Satz: (Genitiv)

@@ -10,4 +10,4 @@ words:
   - es
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Trotz des Preises)
+Ordne die Wörter zum richtigen Satz: (Genitiv)

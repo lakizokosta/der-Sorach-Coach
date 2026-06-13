@@ -10,4 +10,4 @@ words:
   - weiter
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Trotz der Müdigkeit)
+Ordne die Wörter zum richtigen Satz: (Genitiv)

@@ -10,4 +10,4 @@ words:
   - müde
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen der Arbeit)
+Ordne die Wörter zum richtigen Satz: (Genitiv)

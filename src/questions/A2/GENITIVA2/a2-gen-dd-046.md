@@ -5,10 +5,10 @@ words:
   - Während
   - der
   - Ferien
-  - freuen
-  - sich
+  - spielen
   - die
   - Kinder
+  - draußen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Während der Ferien)
+Ordne die Wörter zum richtigen Satz: (Genitiv)

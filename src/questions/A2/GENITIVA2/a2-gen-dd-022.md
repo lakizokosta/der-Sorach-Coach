@@ -10,4 +10,4 @@ words:
   - weiter
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Trotz des Problems)
+Ordne die Wörter zum richtigen Satz: (Genitiv)

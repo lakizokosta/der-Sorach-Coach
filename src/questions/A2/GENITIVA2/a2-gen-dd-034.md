@@ -13,4 +13,4 @@ words:
   - Mosel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Trotz des Wetters)
+Ordne die Wörter zum richtigen Satz: (Genitiv)

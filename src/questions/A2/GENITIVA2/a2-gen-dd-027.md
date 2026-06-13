@@ -10,4 +10,4 @@ words:
   - viel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen der Prüfung)
+Ordne die Wörter zum richtigen Satz: (Genitiv)

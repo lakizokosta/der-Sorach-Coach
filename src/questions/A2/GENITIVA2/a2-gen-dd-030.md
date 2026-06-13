@@ -2,13 +2,12 @@
 id: a2-gen-dd-030
 type: dropbox
 words:
-  - Wegen
-  - des
-  - Lärms
-  - kann
-  - ich
-  - nicht
-  - schlafen
+  - Das
+  - Auto
+  - meines
+  - Vaters
+  - ist
+  - alt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitiv — Wegen des Lärms)
+Ordne die Wörter zum richtigen Satz: (Genitiv)
