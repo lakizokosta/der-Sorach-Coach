@@ -12,4 +12,4 @@ words:
   - alte
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — schöner)
+Ordne die Wörter zum richtigen Satz: (Komparativ — schön)

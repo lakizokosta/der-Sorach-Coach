@@ -10,4 +10,4 @@ words:
   - deins
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — größer)
+Ordne die Wörter zum richtigen Satz: (Komparativ — groß)

@@ -11,4 +11,4 @@ words:
   - Stuhl
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — billiger)
+Ordne die Wörter zum richtigen Satz: (Komparativ — billig)

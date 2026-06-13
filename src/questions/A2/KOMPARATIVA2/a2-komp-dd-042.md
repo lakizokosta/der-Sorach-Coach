@@ -11,4 +11,4 @@ words:
   - Hostel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — teurer)
+Ordne die Wörter zum richtigen Satz: (Komparativ — teuer)

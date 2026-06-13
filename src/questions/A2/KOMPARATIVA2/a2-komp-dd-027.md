@@ -11,4 +11,4 @@ words:
   - Haus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — höher)
+Ordne die Wörter zum richtigen Satz: (Komparativ — hoch)

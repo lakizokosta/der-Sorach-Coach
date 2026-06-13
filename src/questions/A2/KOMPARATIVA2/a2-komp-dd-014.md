@@ -11,4 +11,4 @@ words:
   - Salat
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — wärmer)
+Ordne die Wörter zum richtigen Satz: (Komparativ — warm)

@@ -9,4 +9,4 @@ words:
   - ich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — schneller)
+Ordne die Wörter zum richtigen Satz: (Komparativ — schnell)

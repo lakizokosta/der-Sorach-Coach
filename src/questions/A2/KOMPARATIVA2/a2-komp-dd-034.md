@@ -10,4 +10,4 @@ words:
   - Sportler
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — stärker)
+Ordne die Wörter zum richtigen Satz: (Komparativ — stark)

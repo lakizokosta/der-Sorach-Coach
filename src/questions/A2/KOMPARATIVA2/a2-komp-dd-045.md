@@ -11,4 +11,4 @@ words:
   - Supermarkt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — näher)
+Ordne die Wörter zum richtigen Satz: (Komparativ — nah)

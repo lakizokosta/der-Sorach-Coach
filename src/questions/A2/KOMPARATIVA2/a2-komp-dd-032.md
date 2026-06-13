@@ -11,4 +11,4 @@ words:
   - Film
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — länger)
+Ordne die Wörter zum richtigen Satz: (Komparativ — lang)

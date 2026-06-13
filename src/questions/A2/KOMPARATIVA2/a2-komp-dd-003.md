@@ -10,4 +10,4 @@ words:
   - gestern
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — mehr)
+Ordne die Wörter zum richtigen Satz: (Komparativ — viel)

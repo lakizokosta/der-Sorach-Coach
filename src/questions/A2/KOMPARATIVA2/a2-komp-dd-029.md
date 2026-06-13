@@ -11,4 +11,4 @@ words:
   - andere
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — eleganter)
+Ordne die Wörter zum richtigen Satz: (Komparativ — elegant)

@@ -12,4 +12,4 @@ words:
   - Sommer
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — kälter)
+Ordne die Wörter zum richtigen Satz: (Komparativ — kalt)

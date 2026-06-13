@@ -11,4 +11,4 @@ words:
   - andere
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — besser)
+Ordne die Wörter zum richtigen Satz: (Komparativ — gut)

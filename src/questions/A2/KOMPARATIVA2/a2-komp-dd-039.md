@@ -8,4 +8,4 @@ words:
   - lieber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Komparativ — lieber)
+Ordne die Wörter zum richtigen Satz: (Komparativ — gern)
