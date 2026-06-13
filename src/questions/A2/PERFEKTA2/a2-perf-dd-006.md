@@ -9,4 +9,4 @@ words:
   - spaziert
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+Ordne die Wörter zum richtigen Satz: (Perfekt)

@@ -4,12 +4,10 @@ type: dropbox
 words:
   - Ich
   - bin
-  - schon
-  - einmal
   - an
-  - der
+  - die
   - Mosel
-  - gewesen
+  - gereist
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+Ordne die Wörter zum richtigen Satz: (Perfekt)

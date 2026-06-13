@@ -4,12 +4,10 @@ type: dropbox
 words:
   - Wir
   - haben
-  - auf
-  - der
-  - Hochzeit
+  - heute
   - ein
   - Lied
   - gesungen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+Ordne die Wörter zum richtigen Satz: (Perfekt)
