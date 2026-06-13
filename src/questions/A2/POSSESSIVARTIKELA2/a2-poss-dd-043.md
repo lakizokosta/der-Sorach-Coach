@@ -10,4 +10,4 @@ words:
   - drinnen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — Artikel — des)
+Ordne die Wörter zum richtigen Satz: (Genitiv)

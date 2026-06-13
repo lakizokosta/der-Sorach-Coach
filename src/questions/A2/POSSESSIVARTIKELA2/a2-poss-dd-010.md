@@ -10,4 +10,4 @@ words:
   - schön
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seines)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)

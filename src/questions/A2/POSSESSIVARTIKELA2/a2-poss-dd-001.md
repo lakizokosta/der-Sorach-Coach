@@ -10,4 +10,4 @@ words:
   - Vaters
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — meines)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)

@@ -10,4 +10,4 @@ words:
   - gut
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)

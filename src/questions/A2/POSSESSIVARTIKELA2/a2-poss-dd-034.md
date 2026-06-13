@@ -8,4 +8,4 @@ words:
   - schön
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — Meine)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)

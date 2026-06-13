@@ -8,4 +8,4 @@ words:
   - Schlüssel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinen)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)

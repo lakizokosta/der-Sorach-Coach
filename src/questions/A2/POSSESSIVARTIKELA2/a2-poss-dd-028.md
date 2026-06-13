@@ -3,9 +3,13 @@ id: a2-poss-dd-028
 type: dropbox
 words:
   - Ich
-  - liebe
-  - meine
-  - Stadt
+  - fahre
+  - mit
+  - meiner
+  - Familie
+  - in
+  - den
+  - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — meine)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)

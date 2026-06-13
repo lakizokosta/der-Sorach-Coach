@@ -10,4 +10,4 @@ words:
   - Chefs
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — sie)

@@ -8,4 +8,4 @@ words:
   - Nachbarin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
