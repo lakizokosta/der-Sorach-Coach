@@ -587,21 +587,21 @@ export function genLokal() {
 
 export function genNdekl() {
   const items = [
-    ['Ich helfe ___ Studenten.', 'dem', ['den', 'der', 'das', 'die']],
-    ['Das ist das Auto ___ Studenten.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Ich helfe dem ___.', 'Studenten', ['Student', 'Students', 'Studentem', 'Studentin']],
+    ['Das ist das Auto des ___.', 'Studenten', ['Student', 'Students', 'Studentem', 'Studentin']],
     ['Ich sehe einen ___.', 'Polizisten', ['Polizist', 'Poliziste', 'Polizists', 'Polizistin']],
     ['Er spricht mit einem ___.', 'Journalisten', ['Journalist', 'Journaliste', 'Journalists', 'Journalistin']],
     ['Wir besuchen den ___.', 'Präsidenten', ['Präsident', 'Präsidente', 'Präsidents', 'Präsidentin']],
-    ['Das ist der Wagen ___ Nachbarn.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Das ist der Wagen des ___.', 'Nachbarn', ['Nachbar', 'Nachbars', 'Nachbarns', 'Nachbarin']],
     ['Ich kenne einen ___.', 'Italiener', ['Italienen', 'Italienens', 'Italienener', 'Italienisch']],
     ['Er ist ___ geworden.', 'Pilot', ['Piloten', 'Pilote', 'Pilots', 'Pilotin']],
     ['Wir fragen den ___.', 'Fotografen', ['Fotograf', 'Fotografe', 'Fotografs', 'Fotografin']],
     ['Ich grüße den ___.', 'Herrn', ['Herr', 'Herre', 'Herrs', 'Frau']],
-    ['Das ist das Buch ___ Autors.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Das ist das Buch des ___.', 'Journalisten', ['Journalist', 'Journaliste', 'Journalists', 'Journalistin']],
     ['Er trifft einen ___.', 'Komponisten', ['Komponist', 'Komponiste', 'Komponists', 'Komponistin']],
     ['Ich sehe den ___.', 'Löwen', ['Löwe', 'Löw', 'Löwes', 'Löwin']],
-    ['Wir helfen dem ___.', 'Kunden', ['Kunde', 'Kunden', 'Kundes', 'Kundin']],
-    ['Das ist der Name ___ Studenten.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Wir helfen dem ___.', 'Kunden', ['Kunde', 'Kundes', 'Kundin', 'Kundens']],
+    ['Das ist der Name des ___.', 'Studenten', ['Student', 'Students', 'Studentem', 'Studentin']],
   ];
   return ensure50(() => {
     const out = [];
