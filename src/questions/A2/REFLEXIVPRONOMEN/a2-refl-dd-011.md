@@ -7,9 +7,8 @@ words:
   - uns
   - jeden
   - Tag
-  - nach
-  - der
-  - Arbeit
+  - im
+  - Büro
 ---
 
 Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb sehen)

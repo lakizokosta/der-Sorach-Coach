@@ -2,11 +2,11 @@
 id: a2-refl-032
 type: select-one
 options:
-  - freuen
-  - freut
-  - freue
-  - gefreet
-correct: freut
+  - interessiert
+  - interessieren
+  - interessierst
+  - interessiere
+correct: interessiert
 ---
 
-Er ___ sich für die Prüfung. (Reflexiv + Verb freuen)
+Er ___ sich für Musik. (Reflexiv + Verb interessieren)

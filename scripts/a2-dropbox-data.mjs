@@ -117,7 +117,7 @@ const BANK_RAW = {
     { hint: 'Reflexiv — sieht', words: ['Sie', 'sieht', 'sich', 'im', 'Spiegel'] },
     { hint: 'Reflexiv — freue', words: ['Ich', 'freue', 'mich', 'auf', 'den', 'Urlaub', 'an', 'der', 'Mosel'] },
     { hint: 'Reflexiv — verletzt', words: ['Er', 'verletzt', 'sich', 'beim', 'Sport', 'den', 'Rücken'] },
-    { hint: 'Reflexiv — sehen', words: ['Wir', 'sehen', 'uns', 'jeden', 'Tag', 'nach', 'der', 'Arbeit'] },
+    { hint: 'Reflexiv — sehen', words: ['Wir', 'sehen', 'uns', 'jeden', 'Tag', 'im', 'Büro'] },
     { hint: 'Reflexiv — fühle', words: ['Ich', 'fühle', 'mich', 'nicht', 'gut'] },
     { hint: 'Reflexiv — ziehst', words: ['Du', 'ziehst', 'dich', 'warm', 'an'] },
     { hint: 'Reflexiv — bereitet', words: ['Sie', 'bereitet', 'sich', 'für', 'das', 'Fest'] },

@@ -154,7 +154,7 @@ export function genModalverben() {
 export function genReflexiv() {
   const items = [
     ['Ich ___ mich jeden Morgen.', 'wasche', ['wäscht', 'waschen', 'gewaschen', 'wäschst']],
-    ['Er ___ sich für die Prüfung.', 'freut', ['freue', 'freuen', 'gefreet', 'freust']],
+    ['Er ___ sich für Musik.', 'interessiert', ['interessiere', 'interessierst', 'interessieren', 'interessiert']],
     ['Wir ___ uns um 8 Uhr.', 'treffen', ['trifft', 'traf', 'getroffen', 'triffst']],
     ['Sie ___ sich schnell.', 'beeilt', ['beeile', 'beeilen', 'beeilst', 'beeilt']],
     ['Ich ___ mich für Sport.', 'interessiere', ['interessiert', 'interessieren', 'interessierst', 'interessiert']],
