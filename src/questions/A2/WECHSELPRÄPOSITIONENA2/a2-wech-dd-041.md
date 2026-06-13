@@ -12,4 +12,4 @@ words:
   - Küche
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)

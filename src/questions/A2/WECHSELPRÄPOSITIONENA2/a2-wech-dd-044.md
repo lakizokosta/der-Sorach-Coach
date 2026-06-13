@@ -2,9 +2,8 @@
 id: a2-wech-dd-044
 type: dropbox
 words:
-  - Wohin
+  - Du
   - hängst
-  - du
   - das
   - Bild
   - an
@@ -12,4 +11,4 @@ words:
   - Wand
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)

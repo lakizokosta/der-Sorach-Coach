@@ -9,4 +9,4 @@ words:
   - Berge
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
