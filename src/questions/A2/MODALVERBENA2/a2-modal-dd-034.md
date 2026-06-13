@@ -11,4 +11,4 @@ words:
   - haben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb + Verb möchten)
+Ordne die Wörter zum richtigen Satz: (Modalverben)

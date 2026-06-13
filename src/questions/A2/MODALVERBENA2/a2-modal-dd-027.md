@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Wir
   - wollen
-  - heute
+  - zusammen
   - ins
   - Schwimmbad
   - gehen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb + Verb wollen)
+Ordne die Wörter zum richtigen Satz: (Modalverben)

@@ -10,4 +10,4 @@ words:
   - ?
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb + Verb dürfen)
+Ordne die Wörter zum richtigen Satz: (Modalverben)

@@ -9,4 +9,4 @@ words:
   - arbeiten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb + Verb müssen)
+Ordne die Wörter zum richtigen Satz: (Modalverben)

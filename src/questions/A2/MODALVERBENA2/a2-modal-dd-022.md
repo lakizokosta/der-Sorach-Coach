@@ -9,4 +9,4 @@ words:
   - Deutsch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb + Verb können)
+Ordne die Wörter zum richtigen Satz: (Modalverben)

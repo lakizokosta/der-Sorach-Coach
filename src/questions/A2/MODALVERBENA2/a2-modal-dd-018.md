@@ -9,4 +9,4 @@ words:
   - trinken
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverb + Verb sollen)
+Ordne die Wörter zum richtigen Satz: (Modalverben)
