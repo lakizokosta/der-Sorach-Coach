@@ -7,6 +7,8 @@ words:
   - ich
   - ins
   - Kino
+alternatives:
+  - ich,gehe,Heute,ins,Kino
 ---
 
 Ordne die Wörter zum richtigen Satz:

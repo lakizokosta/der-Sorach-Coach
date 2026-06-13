@@ -16,6 +16,10 @@ const props = defineProps({
 const emit = defineEmits(['answer', 'first-wrong', 'complete']);
 
 const correct = props.question.words || [];
+const validOrders = [
+  correct,
+  ...(props.question.alternatives || []),
+];
 const bank = ref([]);
 const drop = ref([]);
 const wrongChecks = ref(0);
@@ -97,7 +101,8 @@ function check() {
 
   // Include the fixed suffix when checking (it is not part of the drop array).
   const full = suffix ? [...drop.value, suffix] : drop.value;
-  const isCorrect = full.join('|') === correct.join('|');
+  const key = full.join('|');
+  const isCorrect = validOrders.some((order) => order.join('|') === key);
   if (isCorrect) {
     finalise(true);
     return;

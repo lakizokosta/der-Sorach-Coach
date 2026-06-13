@@ -216,6 +216,26 @@ export function parseQuestionFile(raw, context) {
       }
       question.words = meta.words.map(String);
       if (Array.isArray(meta.codes)) question.codes = meta.codes.map(String);
+      if (Array.isArray(meta.alternatives)) {
+        const primaryKey = [...question.words].sort().join('|');
+        question.alternatives = meta.alternatives.map((alt, i) => {
+          const words = String(alt)
+            .split(',')
+            .map((s) => s.trim())
+            .filter(Boolean);
+          if (words.length !== question.words.length) {
+            throw new Error(
+              `dropbox alternative ${i + 1} must have ${question.words.length} words (${context?.path})`,
+            );
+          }
+          if ([...words].sort().join('|') !== primaryKey) {
+            throw new Error(
+              `dropbox alternative ${i + 1} must use the same words as "words" (${context?.path})`,
+            );
+          }
+          return words;
+        });
+      }
       break;
     }
     case 'input-text': {
