@@ -9,4 +9,4 @@ options:
 correct: steige
 ---
 
-Ich ___ den Bus ein. (Trennbares Verb + Verb aufstehen)
+Ich ___ den Bus ein. (Trennbares Verb)

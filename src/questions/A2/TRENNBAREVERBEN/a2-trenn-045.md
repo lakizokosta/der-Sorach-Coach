@@ -9,4 +9,4 @@ options:
 correct: macht
 ---
 
-Er ___ das Radio an. (Trennbares Verb + Verb anmachen)
+Er ___ das Radio an. (Trennbares Verb)

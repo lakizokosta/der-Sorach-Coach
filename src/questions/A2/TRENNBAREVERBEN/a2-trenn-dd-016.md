@@ -9,4 +9,4 @@ words:
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausgehen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

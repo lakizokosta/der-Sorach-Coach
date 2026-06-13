@@ -9,4 +9,4 @@ options:
 correct: macht
 ---
 
-Er ___ die Tür zu. (Trennbares Verb + Verb zumachen)
+Er ___ die Tür zu. (Trennbares Verb)
