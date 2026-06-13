@@ -10,4 +10,4 @@ words:
   - Stadtpark
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — durch)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)

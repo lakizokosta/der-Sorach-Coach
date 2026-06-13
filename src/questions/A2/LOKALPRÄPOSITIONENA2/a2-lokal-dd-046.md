@@ -10,4 +10,4 @@ words:
   - Tisch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition — unter)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)

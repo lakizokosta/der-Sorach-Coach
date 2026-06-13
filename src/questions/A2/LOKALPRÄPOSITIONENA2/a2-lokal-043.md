@@ -9,4 +9,4 @@ options:
 correct: neben
 ---
 
-Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter. (Lokalpräposition + Akk.)
+Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter. (Lokalpräposition)

@@ -9,4 +9,4 @@ options:
 correct: neben
 ---
 
-Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition + Akk.)
+Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition)

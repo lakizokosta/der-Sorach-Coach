@@ -17,4 +17,4 @@ words:
   - Bahnhof
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition — hinter)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)

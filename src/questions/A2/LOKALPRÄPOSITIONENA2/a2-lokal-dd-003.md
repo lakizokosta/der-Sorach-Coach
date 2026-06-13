@@ -8,4 +8,4 @@ words:
   - Brücke
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — über)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)

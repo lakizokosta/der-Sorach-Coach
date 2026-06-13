@@ -10,4 +10,4 @@ words:
   - Tür
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition — über)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)

@@ -9,4 +9,4 @@ words:
   - Hotel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition — aus)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
