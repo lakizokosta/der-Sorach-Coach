@@ -8,4 +8,4 @@ words:
   - schnellsten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — schnellsten)
+Ordne die Wörter zum richtigen Satz: (Superlativ — schnell)

@@ -12,4 +12,4 @@ words:
   - Deutschland
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — schnellste)
+Ordne die Wörter zum richtigen Satz: (Superlativ — schnell)

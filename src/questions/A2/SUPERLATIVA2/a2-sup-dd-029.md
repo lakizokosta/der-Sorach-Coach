@@ -8,4 +8,4 @@ words:
   - lautesten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — lautesten)
+Ordne die Wörter zum richtigen Satz: (Superlativ — laut)

@@ -8,4 +8,4 @@ words:
   - besten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — besten)
+Ordne die Wörter zum richtigen Satz: (Superlativ — gut)

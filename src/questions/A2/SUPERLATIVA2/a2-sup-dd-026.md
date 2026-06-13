@@ -9,4 +9,4 @@ words:
   - Freund
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — bester)
+Ordne die Wörter zum richtigen Satz: (Superlativ — gut)

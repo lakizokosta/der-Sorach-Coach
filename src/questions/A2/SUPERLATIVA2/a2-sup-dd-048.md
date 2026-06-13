@@ -11,4 +11,4 @@ words:
   - Team
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — jüngste)
+Ordne die Wörter zum richtigen Satz: (Superlativ — jung)

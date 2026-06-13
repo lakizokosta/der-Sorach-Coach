@@ -9,4 +9,4 @@ words:
   - Frühling
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — schönsten)
+Ordne die Wörter zum richtigen Satz: (Superlativ — schön)

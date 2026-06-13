@@ -5,8 +5,8 @@ words:
   - Das
   - ist
   - mein
-  - liebstes
+  - bestes
   - Buch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — liebstes)
+Ordne die Wörter zum richtigen Satz: (Superlativ — gut)

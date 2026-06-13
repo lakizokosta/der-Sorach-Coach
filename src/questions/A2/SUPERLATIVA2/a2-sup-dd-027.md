@@ -10,4 +10,4 @@ words:
   - wärmsten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — wärmsten)
+Ordne die Wörter zum richtigen Satz: (Superlativ — warm)

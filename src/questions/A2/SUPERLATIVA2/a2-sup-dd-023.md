@@ -12,4 +12,4 @@ words:
   - Mosel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — billigste)
+Ordne die Wörter zum richtigen Satz: (Superlativ — billig)

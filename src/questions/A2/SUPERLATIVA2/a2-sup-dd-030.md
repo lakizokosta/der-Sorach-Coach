@@ -12,4 +12,4 @@ words:
   - Wohnung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — kleinste)
+Ordne die Wörter zum richtigen Satz: (Superlativ — klein)

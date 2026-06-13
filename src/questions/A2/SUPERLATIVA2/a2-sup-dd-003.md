@@ -12,4 +12,4 @@ words:
   - Klasse
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — beste)
+Ordne die Wörter zum richtigen Satz: (Superlativ — gut)

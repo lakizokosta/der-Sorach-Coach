@@ -9,4 +9,4 @@ words:
   - leckersten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — leckersten)
+Ordne die Wörter zum richtigen Satz: (Superlativ — lecker)

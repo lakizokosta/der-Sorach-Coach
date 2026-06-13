@@ -11,4 +11,4 @@ words:
   - Jahres
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — bekannteste)
+Ordne die Wörter zum richtigen Satz: (Superlativ — bekannt)

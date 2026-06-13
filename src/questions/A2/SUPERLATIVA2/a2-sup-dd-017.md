@@ -12,4 +12,4 @@ words:
   - Hochzeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — teuerste)
+Ordne die Wörter zum richtigen Satz: (Superlativ — teuer)

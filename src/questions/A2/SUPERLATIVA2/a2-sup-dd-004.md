@@ -11,4 +11,4 @@ words:
   - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — schönste)
+Ordne die Wörter zum richtigen Satz: (Superlativ — schön)

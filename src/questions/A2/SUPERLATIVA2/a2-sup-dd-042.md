@@ -11,4 +11,4 @@ words:
   - Berg
 ---
 
-Ordne die Wörter zum richtigen Satz: (Superlativ — höchste)
+Ordne die Wörter zum richtigen Satz: (Superlativ — hoch)
