@@ -5,11 +5,9 @@ words:
   - Ich
   - kenne
   - niemanden
-  - hier
   - in
-  - der
-  - neuen
+  - dieser
   - Stadt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemanden)
+Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)

@@ -9,4 +9,4 @@ words:
   - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemand)
+Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)

@@ -9,4 +9,4 @@ words:
   - vergessen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)

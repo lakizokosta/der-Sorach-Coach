@@ -8,4 +8,4 @@ words:
   - machen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Man)
+Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)

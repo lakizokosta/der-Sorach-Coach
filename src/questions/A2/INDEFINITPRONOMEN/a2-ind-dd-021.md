@@ -10,4 +10,4 @@ words:
   - helfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — jemand)
+Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)

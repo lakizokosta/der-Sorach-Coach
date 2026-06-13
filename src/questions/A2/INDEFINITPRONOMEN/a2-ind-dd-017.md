@@ -11,4 +11,4 @@ words:
   - kann
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)

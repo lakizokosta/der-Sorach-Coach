@@ -10,4 +10,4 @@ words:
   - Straße
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemanden)
+Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)

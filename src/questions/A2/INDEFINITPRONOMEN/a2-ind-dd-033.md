@@ -9,4 +9,4 @@ words:
   - gehört
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — nichts)
+Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
