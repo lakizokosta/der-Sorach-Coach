@@ -10,4 +10,4 @@ words:
   - Team
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — in)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

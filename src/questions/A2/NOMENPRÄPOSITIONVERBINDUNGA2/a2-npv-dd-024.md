@@ -9,4 +9,4 @@ words:
   - Musik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

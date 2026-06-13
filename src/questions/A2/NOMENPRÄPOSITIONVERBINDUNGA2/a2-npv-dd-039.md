@@ -9,4 +9,4 @@ words:
   - Lehrern
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — vor)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

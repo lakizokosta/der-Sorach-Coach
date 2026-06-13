@@ -11,4 +11,4 @@ words:
   - Tanzsport
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — für)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

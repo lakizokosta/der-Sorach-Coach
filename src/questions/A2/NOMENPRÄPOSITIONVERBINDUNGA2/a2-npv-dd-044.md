@@ -4,9 +4,10 @@ type: dropbox
 words:
   - Ich
   - habe
-  - Bedarf
-  - an
-  - Hilfe
+  - Lust
+  - auf
+  - ein
+  - Eis
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

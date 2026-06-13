@@ -10,4 +10,4 @@ words:
   - Diskussionen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — für)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

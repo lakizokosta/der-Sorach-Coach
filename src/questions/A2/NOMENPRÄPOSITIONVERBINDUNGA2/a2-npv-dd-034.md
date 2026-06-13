@@ -11,4 +11,4 @@ words:
   - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
