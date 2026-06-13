@@ -9,4 +9,4 @@ words:
   - Nacht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum + Verb schlafen)
+Ordne die Wörter zum richtigen Satz: (Präteritum)

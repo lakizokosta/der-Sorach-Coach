@@ -10,4 +10,4 @@ words:
   - bleiben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum + Verb wollen)
+Ordne die Wörter zum richtigen Satz: (Präteritum)

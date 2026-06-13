@@ -7,8 +7,8 @@ words:
   - ein
   - Buch
   - über
-  - das
-  - Schulsystem
+  - die
+  - Natur
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum + Verb lesen)
+Ordne die Wörter zum richtigen Satz: (Präteritum)

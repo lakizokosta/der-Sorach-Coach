@@ -10,4 +10,4 @@ words:
   - Fußball
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum + Verb spielen)
+Ordne die Wörter zum richtigen Satz: (Präteritum)
