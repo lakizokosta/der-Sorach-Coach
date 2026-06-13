@@ -9,4 +9,4 @@ options:
 correct: Während
 ---
 
-___ des Unterrichts ist es still. (Temporal — einmalig)
+___ des Unterrichts ist es still. (Temporalsatz)

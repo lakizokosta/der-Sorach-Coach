@@ -9,4 +9,4 @@ options:
 correct: Als
 ---
 
-___ wir ankamen, war es schon dunkel. (Temporal — wiederholt/Bedingung)
+___ wir ankamen, war es schon dunkel. (Temporalsatz)

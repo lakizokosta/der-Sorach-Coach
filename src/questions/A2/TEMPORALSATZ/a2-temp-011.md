@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ du müde bist, solltest du schlafen. (Temporal — Bedingung)
+___ du müde bist, solltest du schlafen. (Temporalsatz)

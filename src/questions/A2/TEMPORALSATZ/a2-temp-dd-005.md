@@ -10,4 +10,4 @@ words:
   - vorbei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+Ordne die Wörter zum richtigen Satz: (Temporalsatz)

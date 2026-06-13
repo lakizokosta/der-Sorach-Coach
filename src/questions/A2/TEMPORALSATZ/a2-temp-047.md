@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ es regnet, bleibe ich drinnen. (Temporal — einmalig)
+___ es regnet, bleibe ich drinnen. (Temporalsatz)

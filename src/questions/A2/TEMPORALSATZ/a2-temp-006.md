@@ -9,4 +9,4 @@ options:
 correct: Während
 ---
 
-___ des Essens sprechen wir über Arbeit. (Temporal — gleichzeitig)
+___ des Essens sprechen wir über Arbeit. (Temporalsatz)

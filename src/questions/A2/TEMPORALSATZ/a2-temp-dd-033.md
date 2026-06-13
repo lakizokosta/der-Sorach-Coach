@@ -9,4 +9,4 @@ words:
   - glücklich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Temporal — Nachdem)
+Ordne die Wörter zum richtigen Satz: (Temporalsatz)

@@ -9,4 +9,4 @@ options:
 correct: Als
 ---
 
-___ er anrief, war ich unterwegs. (Temporal — einmalig)
+___ er anrief, war ich unterwegs. (Temporalsatz)

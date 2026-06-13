@@ -9,4 +9,4 @@ options:
 correct: Als
 ---
 
-___ ich in Berlin lebte, lernte ich viel. (Temporal — einmalig)
+___ ich in Berlin lebte, lernte ich viel. (Temporalsatz)

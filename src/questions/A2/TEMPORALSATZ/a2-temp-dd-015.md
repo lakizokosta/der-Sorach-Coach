@@ -9,4 +9,4 @@ words:
   - wir
 ---
 
-Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+Ordne die Wörter zum richtigen Satz: (Temporalsatz)

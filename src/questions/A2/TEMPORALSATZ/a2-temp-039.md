@@ -9,4 +9,4 @@ options:
 correct: Während
 ---
 
-___ der Fahrt lese ich ein Buch. (Temporal — Bedingung)
+___ der Fahrt lese ich ein Buch. (Temporalsatz)

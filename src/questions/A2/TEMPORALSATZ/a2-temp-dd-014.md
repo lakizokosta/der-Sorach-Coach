@@ -2,11 +2,14 @@
 id: a2-temp-dd-014
 type: dropbox
 words:
-  - Bei
-  - Krankheit
+  - Wenn
+  - ich
+  - krank
+  - bin
   - bleibe
   - ich
-  - Zuhause
+  - zu
+  - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+Ordne die Wörter zum richtigen Satz: (Temporalsatz)

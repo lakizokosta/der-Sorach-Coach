@@ -11,4 +11,4 @@ words:
   - dunkel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+Ordne die Wörter zum richtigen Satz: (Temporalsatz)

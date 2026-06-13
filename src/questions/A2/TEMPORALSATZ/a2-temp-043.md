@@ -9,4 +9,4 @@ options:
 correct: Als
 ---
 
-___ sie jung war, tanzte sie gern. (Temporal — gleichzeitig)
+___ sie jung war, tanzte sie gern. (Temporalsatz)

@@ -3,11 +3,12 @@ id: a2-temp-dd-030
 type: dropbox
 words:
   - Als
-  - junge
-  - Frau
+  - sie
+  - jung
+  - war
   - tanzte
   - sie
   - gern
 ---
 
-Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+Ordne die Wörter zum richtigen Satz: (Temporalsatz)

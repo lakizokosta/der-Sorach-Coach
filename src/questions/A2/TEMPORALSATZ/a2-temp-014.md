@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ ich krank bin, bleibe ich zu Hause. (Temporal — Bedingung)
+___ ich krank bin, bleibe ich zu Hause. (Temporalsatz)
