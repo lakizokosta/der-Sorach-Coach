@@ -12,4 +12,4 @@ words:
   - ist
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass sinnvoll ist)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

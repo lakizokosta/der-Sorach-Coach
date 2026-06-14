@@ -10,4 +10,4 @@ words:
   - übertreiben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Nachrichten übertreiben)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

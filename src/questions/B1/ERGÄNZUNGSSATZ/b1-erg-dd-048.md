@@ -12,4 +12,4 @@ words:
   - hat
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Fehler gemacht hat)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

@@ -12,4 +12,4 @@ words:
   - wird
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Vertrag gilt)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

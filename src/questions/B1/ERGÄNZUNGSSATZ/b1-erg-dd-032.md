@@ -11,4 +11,4 @@ words:
   - war
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Entscheidung schwer war)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

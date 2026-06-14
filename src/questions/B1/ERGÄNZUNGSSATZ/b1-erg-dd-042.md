@@ -11,4 +11,4 @@ words:
   - gelingt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Projekt gelingt)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

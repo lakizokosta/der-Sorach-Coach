@@ -11,4 +11,4 @@ words:
   - mitkommst
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass mitkommst)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

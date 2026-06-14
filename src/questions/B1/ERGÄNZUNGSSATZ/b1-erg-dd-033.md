@@ -12,4 +12,4 @@ words:
   - ist
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Bericht stimmt)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

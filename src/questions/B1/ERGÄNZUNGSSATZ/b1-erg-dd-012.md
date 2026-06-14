@@ -11,4 +11,4 @@ words:
   - startet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Flug startet)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

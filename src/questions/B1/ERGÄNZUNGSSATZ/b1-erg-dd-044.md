@@ -10,4 +10,4 @@ words:
   - steigen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Preise steigen)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

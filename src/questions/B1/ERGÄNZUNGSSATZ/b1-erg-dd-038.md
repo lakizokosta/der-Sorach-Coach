@@ -12,4 +12,4 @@ words:
   - brauchen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Zeit brauchen)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
