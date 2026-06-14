@@ -12,4 +12,4 @@ words:
   - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtigen Bericht)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

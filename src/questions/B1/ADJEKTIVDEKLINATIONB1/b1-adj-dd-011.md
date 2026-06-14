@@ -9,4 +9,4 @@ words:
   - morgen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neue Studiengang)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

@@ -10,4 +10,4 @@ words:
   - Politikerin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — erfahrenen Politikerin)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

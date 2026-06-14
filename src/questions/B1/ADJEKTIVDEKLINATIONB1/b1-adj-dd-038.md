@@ -11,4 +11,4 @@ words:
   - Umweltschutz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — hohen Preises)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

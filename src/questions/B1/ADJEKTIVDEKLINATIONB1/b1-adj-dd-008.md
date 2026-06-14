@@ -11,4 +11,4 @@ words:
   - Entwicklung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtiges Thema)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

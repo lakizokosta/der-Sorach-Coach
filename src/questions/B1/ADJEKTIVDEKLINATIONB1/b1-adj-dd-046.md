@@ -12,4 +12,4 @@ words:
   - Bewerbung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neuen Professor)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

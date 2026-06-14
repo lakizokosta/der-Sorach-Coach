@@ -13,4 +13,4 @@ words:
   - Projekt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — großen Krankenhaus)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

@@ -11,4 +11,4 @@ words:
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — schlechten Wetters)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

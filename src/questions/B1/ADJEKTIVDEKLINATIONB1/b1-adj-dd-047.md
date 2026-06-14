@@ -11,6 +11,8 @@ words:
   - wohnt
   - die
   - Familie
+alternatives:
+  - die,Familie,wohnt,In,einer,ruhigen,Gegend,der,Stadt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — ruhigen Gegend)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

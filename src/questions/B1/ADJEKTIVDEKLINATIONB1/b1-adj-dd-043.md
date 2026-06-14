@@ -11,4 +11,4 @@ words:
   - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — kleinem Gepäck)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

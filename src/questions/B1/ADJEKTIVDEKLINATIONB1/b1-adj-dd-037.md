@@ -13,4 +13,4 @@ words:
   - beliebt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — interessanten Artikel)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
