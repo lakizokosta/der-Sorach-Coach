@@ -12,4 +12,4 @@ words:
   - hat
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was Minister gesagt hat)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

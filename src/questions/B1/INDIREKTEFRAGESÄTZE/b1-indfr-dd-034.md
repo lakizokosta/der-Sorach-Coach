@@ -13,4 +13,4 @@ words:
   - ?
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — warum Preise steigen)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

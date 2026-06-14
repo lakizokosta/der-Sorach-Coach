@@ -11,4 +11,4 @@ words:
   - beginnt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wann Kurs beginnt)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

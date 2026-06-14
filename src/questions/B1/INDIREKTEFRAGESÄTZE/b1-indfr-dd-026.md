@@ -13,4 +13,4 @@ words:
   - ?
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Medikament verfügbar ist)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

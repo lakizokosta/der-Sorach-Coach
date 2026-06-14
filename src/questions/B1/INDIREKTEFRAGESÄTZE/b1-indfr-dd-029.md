@@ -11,4 +11,4 @@ words:
   - haben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob gebucht haben)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

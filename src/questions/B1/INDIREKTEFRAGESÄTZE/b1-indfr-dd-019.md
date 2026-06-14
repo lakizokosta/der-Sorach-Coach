@@ -13,4 +13,4 @@ words:
   - ?
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wann Zug ankommt)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

@@ -11,4 +11,4 @@ words:
   - hat
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob er recht hat)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

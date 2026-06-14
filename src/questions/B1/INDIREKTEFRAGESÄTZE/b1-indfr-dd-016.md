@@ -11,4 +11,4 @@ words:
   - stattfindet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wo Meeting stattfindet)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

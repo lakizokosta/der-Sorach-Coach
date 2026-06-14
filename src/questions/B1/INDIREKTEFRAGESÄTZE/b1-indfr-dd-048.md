@@ -13,4 +13,4 @@ words:
   - ist
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Professor da ist)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

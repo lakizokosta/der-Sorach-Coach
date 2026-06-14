@@ -12,4 +12,4 @@ words:
   - dauert
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie lange Reise dauert)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

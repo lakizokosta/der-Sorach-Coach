@@ -13,4 +13,4 @@ words:
   - bedeutet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was Regelung bedeutet)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

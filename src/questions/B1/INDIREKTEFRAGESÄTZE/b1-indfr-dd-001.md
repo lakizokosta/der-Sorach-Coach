@@ -11,4 +11,4 @@ words:
   - stattfindet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Termin stattfindet)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

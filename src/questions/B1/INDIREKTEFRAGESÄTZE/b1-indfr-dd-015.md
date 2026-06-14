@@ -10,4 +10,4 @@ words:
   - denkst
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was du denkst)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

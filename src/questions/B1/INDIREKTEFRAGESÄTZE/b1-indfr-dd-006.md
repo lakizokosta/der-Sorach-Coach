@@ -12,4 +12,4 @@ words:
   - stimmt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob das stimmt)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
