@@ -11,4 +11,4 @@ words:
   - Energien
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Ausstellung)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

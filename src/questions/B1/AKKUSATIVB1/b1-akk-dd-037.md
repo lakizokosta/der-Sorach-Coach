@@ -12,4 +12,4 @@ words:
   - vor
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Prüfung)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

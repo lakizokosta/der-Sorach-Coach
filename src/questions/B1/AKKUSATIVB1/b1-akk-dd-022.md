@@ -11,4 +11,4 @@ words:
   - Klimakonferenz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Bericht)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

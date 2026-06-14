@@ -11,4 +11,4 @@ words:
   - Zug
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Ticket)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

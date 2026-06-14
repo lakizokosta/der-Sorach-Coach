@@ -10,4 +10,4 @@ words:
   - Fall
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — einen komplexen Fall)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

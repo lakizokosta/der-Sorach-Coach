@@ -10,4 +10,4 @@ words:
   - Entscheidung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Entscheidung)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

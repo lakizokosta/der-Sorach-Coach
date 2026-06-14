@@ -10,4 +10,4 @@ words:
   - Politik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — die Politik)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

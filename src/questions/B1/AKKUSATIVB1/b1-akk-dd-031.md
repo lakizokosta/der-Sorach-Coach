@@ -6,8 +6,9 @@ words:
   - diskutieren
   - das
   - Problem
+  - gemeinsam
   - im
   - Team
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — das Problem)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

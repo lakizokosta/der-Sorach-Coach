@@ -10,4 +10,4 @@ words:
   - Fall
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Termin)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

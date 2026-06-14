@@ -11,4 +11,4 @@ words:
   - Personalabteilung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — jede Bewerbung)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

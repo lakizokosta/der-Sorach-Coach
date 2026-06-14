@@ -10,4 +10,4 @@ words:
   - Hotel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Zimmer)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

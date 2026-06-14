@@ -11,4 +11,4 @@ words:
   - Personalabteilung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — die Antwort)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

@@ -11,4 +11,4 @@ words:
   - B1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Kurs)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)
