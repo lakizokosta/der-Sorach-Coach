@@ -10,4 +10,4 @@ words:
   - Meeting
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diesen Vorschlag)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

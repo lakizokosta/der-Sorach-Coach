@@ -11,4 +11,4 @@ words:
   - verständlich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Professor)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

@@ -11,4 +11,4 @@ words:
   - Fernsehen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jenen Politiker)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

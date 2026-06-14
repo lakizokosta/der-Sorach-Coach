@@ -10,4 +10,4 @@ words:
   - gelesen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diese Nachrichten)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

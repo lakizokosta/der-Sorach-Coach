@@ -12,4 +12,4 @@ words:
   - andere
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Projekt)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

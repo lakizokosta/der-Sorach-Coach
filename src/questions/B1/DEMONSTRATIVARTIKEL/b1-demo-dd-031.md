@@ -11,4 +11,4 @@ words:
   - andere
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Vorlesung)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

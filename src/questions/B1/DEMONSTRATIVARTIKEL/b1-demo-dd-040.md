@@ -12,4 +12,4 @@ words:
   - aktuell
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Artikel)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

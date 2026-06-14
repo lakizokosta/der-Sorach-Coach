@@ -12,4 +12,4 @@ words:
   - oft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Kollegin)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

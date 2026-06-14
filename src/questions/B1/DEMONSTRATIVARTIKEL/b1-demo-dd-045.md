@@ -9,4 +9,4 @@ words:
   - warten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Patienten)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

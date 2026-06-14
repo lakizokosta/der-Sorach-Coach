@@ -11,4 +11,4 @@ words:
   - jenes
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Jenes Hotel)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

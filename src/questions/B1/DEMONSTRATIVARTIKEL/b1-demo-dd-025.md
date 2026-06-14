@@ -11,4 +11,4 @@ words:
   - Interessen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Studiengang)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

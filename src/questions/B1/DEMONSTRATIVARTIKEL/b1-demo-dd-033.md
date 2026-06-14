@@ -12,4 +12,4 @@ words:
   - andere
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jenes Angebot)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

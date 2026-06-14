@@ -11,4 +11,4 @@ words:
   - Amt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diesen Kandidaten)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
