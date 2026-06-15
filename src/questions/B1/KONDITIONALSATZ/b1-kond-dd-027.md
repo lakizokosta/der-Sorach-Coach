@@ -11,4 +11,4 @@ words:
   - essen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald alle eingecheckt haben)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

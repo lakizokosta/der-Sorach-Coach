@@ -12,4 +12,4 @@ words:
   - um
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn ich Stelle bekomme)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

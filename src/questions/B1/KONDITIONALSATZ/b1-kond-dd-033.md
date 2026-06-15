@@ -12,4 +12,4 @@ words:
   - uns
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Genehmigung kommt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

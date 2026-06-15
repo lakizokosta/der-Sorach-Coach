@@ -12,4 +12,4 @@ words:
   - Ausflug
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Sonne scheint)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

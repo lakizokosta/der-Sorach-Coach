@@ -9,4 +9,4 @@ options:
 correct: Sobald
 ---
 
-___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz — wenn)
+___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz)

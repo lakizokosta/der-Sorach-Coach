@@ -11,4 +11,4 @@ words:
   - los
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Zug ankommt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

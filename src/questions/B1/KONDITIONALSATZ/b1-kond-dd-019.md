@@ -12,4 +12,4 @@ words:
   - mit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls es regnet)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

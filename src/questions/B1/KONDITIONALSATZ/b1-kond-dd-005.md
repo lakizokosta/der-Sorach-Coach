@@ -12,4 +12,4 @@ words:
   - ruhig
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Prüfung schwer ist)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

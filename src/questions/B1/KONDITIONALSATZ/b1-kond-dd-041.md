@@ -12,4 +12,4 @@ words:
   - Wartezimmer
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Arzt kommt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

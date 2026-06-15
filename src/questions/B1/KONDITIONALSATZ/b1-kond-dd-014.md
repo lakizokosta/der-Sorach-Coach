@@ -10,4 +10,4 @@ words:
   - wir
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du pünktlich bist)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

@@ -9,4 +9,4 @@ options:
 correct: Sobald
 ---
 
-___ der Zug ankommt, fahren wir los. (Konditionalsatz — wenn)
+___ der Zug ankommt, fahren wir los. (Konditionalsatz)

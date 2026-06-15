@@ -12,4 +12,4 @@ words:
   - uns
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du Zeit hast)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

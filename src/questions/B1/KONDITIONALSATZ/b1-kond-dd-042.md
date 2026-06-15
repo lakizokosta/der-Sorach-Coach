@@ -12,4 +12,4 @@ words:
   - vieles
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn das Gesetz verabschiedet wird)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

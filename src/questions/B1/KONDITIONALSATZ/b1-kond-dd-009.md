@@ -11,4 +11,4 @@ words:
   - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls du dich erkältest)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

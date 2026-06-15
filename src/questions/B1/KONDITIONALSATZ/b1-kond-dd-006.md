@@ -10,4 +10,4 @@ words:
   - mir
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls du Fragen hast)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

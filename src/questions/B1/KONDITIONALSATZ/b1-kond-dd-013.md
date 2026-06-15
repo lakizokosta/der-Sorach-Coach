@@ -12,4 +12,4 @@ words:
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald die Ergebnisse da sind)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
