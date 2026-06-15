@@ -14,4 +14,4 @@ words:
   - kalt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Heizung defekt)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)

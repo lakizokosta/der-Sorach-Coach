@@ -12,4 +12,4 @@ words:
   - bin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil krank bin)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)

@@ -12,4 +12,4 @@ words:
   - wartet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn viel zu tun)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)

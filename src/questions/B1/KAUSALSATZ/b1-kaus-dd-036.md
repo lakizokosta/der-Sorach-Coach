@@ -11,4 +11,4 @@ words:
   - Prüfung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil gelernt hat)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)

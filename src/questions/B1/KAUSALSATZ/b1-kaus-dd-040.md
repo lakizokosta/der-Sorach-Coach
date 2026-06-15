@@ -13,4 +13,4 @@ words:
   - hat
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Stelle gefunden)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)

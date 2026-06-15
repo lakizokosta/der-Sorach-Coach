@@ -14,4 +14,4 @@ words:
   - ist
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Auto kaputt)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)

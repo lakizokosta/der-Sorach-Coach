@@ -12,4 +12,4 @@ words:
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Wetter schlecht)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)

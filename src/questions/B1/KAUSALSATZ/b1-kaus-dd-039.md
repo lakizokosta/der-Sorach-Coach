@@ -11,4 +11,4 @@ words:
   - höher
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Nachfrage steigt)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)

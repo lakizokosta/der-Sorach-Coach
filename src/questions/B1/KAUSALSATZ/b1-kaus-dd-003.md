@@ -13,4 +13,4 @@ words:
   - muss
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil arbeiten muss)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)

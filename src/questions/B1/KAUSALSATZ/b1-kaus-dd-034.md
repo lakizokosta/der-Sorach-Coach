@@ -11,4 +11,4 @@ words:
   - Prüfung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — da Kosten steigen)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)

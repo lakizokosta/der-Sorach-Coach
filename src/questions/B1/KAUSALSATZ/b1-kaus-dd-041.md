@@ -11,4 +11,4 @@ words:
   - stürmt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil es stürmt)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz)
