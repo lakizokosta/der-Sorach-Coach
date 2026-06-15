@@ -12,4 +12,4 @@ words:
   - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig Zeit)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

@@ -11,4 +11,4 @@ words:
   - produktiv
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig schläft)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

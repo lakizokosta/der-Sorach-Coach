@@ -12,4 +12,4 @@ words:
   - bestanden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl kein Auto)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

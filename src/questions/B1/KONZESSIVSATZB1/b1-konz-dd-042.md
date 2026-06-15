@@ -12,4 +12,4 @@ words:
   - optimistisch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon lang war)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

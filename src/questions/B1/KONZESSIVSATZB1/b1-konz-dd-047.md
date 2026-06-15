@@ -12,4 +12,4 @@ words:
   - spannend
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Kritik laut)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

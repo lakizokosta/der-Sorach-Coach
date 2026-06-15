@@ -12,4 +12,4 @@ words:
   - Menschen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Regen fällt)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

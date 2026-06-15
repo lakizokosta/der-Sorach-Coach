@@ -11,4 +11,4 @@ words:
   - ist
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl kalt ist)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

@@ -13,4 +13,4 @@ words:
   - geschmeckt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon teuer war)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

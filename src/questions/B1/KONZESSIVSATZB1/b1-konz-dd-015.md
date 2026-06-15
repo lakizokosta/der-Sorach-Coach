@@ -13,4 +13,4 @@ words:
   - viel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl teuer war)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

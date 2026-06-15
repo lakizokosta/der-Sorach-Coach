@@ -13,4 +13,4 @@ words:
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig Erfahrung)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

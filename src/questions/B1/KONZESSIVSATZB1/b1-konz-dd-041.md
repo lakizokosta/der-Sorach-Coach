@@ -12,4 +12,4 @@ words:
   - pünktlich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl umstritten)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

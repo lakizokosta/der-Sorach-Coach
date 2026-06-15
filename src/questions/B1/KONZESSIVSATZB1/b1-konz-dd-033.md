@@ -11,4 +11,4 @@ words:
   - produktiv
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Sturm weht)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

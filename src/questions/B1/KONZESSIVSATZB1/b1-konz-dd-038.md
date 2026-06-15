@@ -12,4 +12,4 @@ words:
   - gemacht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl schwer war)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)

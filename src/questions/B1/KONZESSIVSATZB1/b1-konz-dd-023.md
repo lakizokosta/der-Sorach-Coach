@@ -13,4 +13,4 @@ words:
   - auf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon teuer ist)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
