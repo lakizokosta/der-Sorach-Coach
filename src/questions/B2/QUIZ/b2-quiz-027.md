@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Das ___ sicher Konsequenzen für die Wirtschaft haben.
+Das ___ sicher Konsequenzen für die Wirtschaft haben. (Grammatikform)

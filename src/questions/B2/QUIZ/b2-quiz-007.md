@@ -9,4 +9,4 @@ options:
 correct: wäre
 ---
 
-Wenn das möglich ___, würden wir sofort helfen.
+Wenn das möglich ___, würden wir sofort helfen. (Grammatikform)

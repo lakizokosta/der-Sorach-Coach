@@ -9,4 +9,4 @@ options:
 correct: dem
 ---
 
-Der Professor, von ___ ich gelernt habe, ist pensioniert.
+Der Professor, von ___ ich gelernt habe, ist pensioniert. (Grammatikform)

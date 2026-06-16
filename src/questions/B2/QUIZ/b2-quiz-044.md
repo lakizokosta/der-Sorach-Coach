@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Sie erklärte, sie ___ keine Zeit.
+Sie erklärte, sie ___ keine Zeit. (Grammatikform)

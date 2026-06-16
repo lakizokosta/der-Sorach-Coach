@@ -9,4 +9,4 @@ options:
 correct: folglich
 ---
 
-Sie hat viel gelernt; ___ bestand sie die Prüfung.
+Sie hat viel gelernt; ___ bestand sie die Prüfung. (Grammatikform)

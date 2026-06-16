@@ -23,7 +23,7 @@
 - wäre
 - würde
 - wird **✓**
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -48,7 +48,7 @@
 > Das ___ sicher Konsequenzen für die Wirtschaft haben. (Grammatikform)
 
 **Optionen:**
-- könnte
+- könnten
 - wäre
 - hätte
 - wird **✓**
@@ -65,7 +65,7 @@
 - würde
 - hätte
 - wird **✓**
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -106,7 +106,7 @@
 **Optionen:**
 - wäre
 - hätte
-- könnte
+- könnten
 - wird **✓**
 
 - [ ] OK
@@ -121,7 +121,7 @@
 - hätte
 - wird **✓**
 - würde
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -160,7 +160,7 @@
 > Es ___ morgen regnen, sagt der Wetterbericht. (Grammatikform)
 
 **Optionen:**
-- könnte
+- könnten
 - wäre
 - hätte
 - wird **✓**
@@ -177,7 +177,7 @@
 - hätte
 - wird **✓**
 - würde
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -233,7 +233,7 @@
 - hätte
 - wird **✓**
 - würde
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -247,7 +247,7 @@
 - wäre
 - würde
 - wird **✓**
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -288,7 +288,7 @@
 **Optionen:**
 - würde
 - wird **✓**
-- könnte
+- könnten
 - hätte
 
 - [ ] OK
@@ -302,7 +302,7 @@
 **Optionen:**
 - wäre
 - wird **✓**
-- könnte
+- könnten
 - würde
 
 - [ ] OK
@@ -330,7 +330,7 @@
 **Optionen:**
 - wäre
 - hätte
-- könnte
+- könnten
 - wird **✓**
 
 - [ ] OK
@@ -345,7 +345,7 @@
 - hätte
 - wird **✓**
 - würde
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -358,7 +358,7 @@
 **Optionen:**
 - wäre
 - wird **✓**
-- könnte
+- könnten
 - würde
 
 - [ ] OK
@@ -400,7 +400,7 @@
 **Optionen:**
 - würde
 - wird **✓**
-- könnte
+- könnten
 - hätte
 
 - [ ] OK
@@ -414,7 +414,7 @@
 **Optionen:**
 - wäre
 - wird **✓**
-- könnte
+- könnten
 - würde
 
 - [ ] OK
@@ -442,7 +442,7 @@
 **Optionen:**
 - wäre
 - hätte
-- könnte
+- könnten
 - wird **✓**
 
 - [ ] OK
@@ -471,7 +471,7 @@
 - wäre
 - würde
 - wird **✓**
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -498,7 +498,7 @@
 **Optionen:**
 - wäre
 - hätte
-- könnte
+- könnten
 - wird **✓**
 
 - [ ] OK
@@ -526,7 +526,7 @@
 **Optionen:**
 - wäre
 - wird **✓**
-- könnte
+- könnten
 - würde
 
 - [ ] OK
@@ -569,7 +569,7 @@
 - würde
 - hätte
 - wird **✓**
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -582,7 +582,7 @@
 **Optionen:**
 - wäre
 - wird **✓**
-- könnte
+- könnten
 - würde
 
 - [ ] OK
@@ -638,7 +638,7 @@
 **Optionen:**
 - wäre
 - wird **✓**
-- könnte
+- könnten
 - würde
 
 - [ ] OK
@@ -680,7 +680,7 @@
 **Optionen:**
 - würde
 - wird **✓**
-- könnte
+- könnten
 - hätte
 
 - [ ] OK

@@ -16,7 +16,7 @@
 ### 1. `b2-quiz-001` · select-one
 
 **Aufgabe:**
-> Er tut so, ___ er alles wüsste.
+> Er tut so, ___ er alles wüsste. (Grammatikform)
 
 **Optionen:**
 - damit
@@ -30,7 +30,7 @@
 ### 2. `b2-quiz-002` · select-one
 
 **Aufgabe:**
-> Wenn ich an seiner Stelle ___, würde ich ablehnen.
+> Wenn ich an seiner Stelle ___, würde ich ablehnen. (Grammatikform)
 
 **Optionen:**
 - bin
@@ -44,7 +44,7 @@
 ### 3. `b2-quiz-003` · select-one
 
 **Aufgabe:**
-> Hätte ich das gewusst, ___ ich anders gehandelt.
+> Hätte ich das gewusst, ___ ich anders gehandelt. (Grammatikform)
 
 **Optionen:**
 - hatte
@@ -58,7 +58,7 @@
 ### 4. `b2-quiz-004` · select-one
 
 **Aufgabe:**
-> An deiner Stelle ___ ich vorsichtiger.
+> An deiner Stelle ___ ich vorsichtiger. (Grammatikform)
 
 **Optionen:**
 - war
@@ -72,7 +72,7 @@
 ### 5. `b2-quiz-005` · select-one
 
 **Aufgabe:**
-> Wenn sie mehr Zeit ___, könnte sie das Projekt abschließen.
+> Wenn sie mehr Zeit ___, könnte sie das Projekt abschließen. (Grammatikform)
 
 **Optionen:**
 - hatte
@@ -86,7 +86,7 @@
 ### 6. `b2-quiz-006` · select-one
 
 **Aufgabe:**
-> Er benimmt sich, als ___ er der Chef.
+> Er benimmt sich, als ___ er der Chef. (Grammatikform)
 
 **Optionen:**
 - ist
@@ -100,7 +100,7 @@
 ### 7. `b2-quiz-007` · select-one
 
 **Aufgabe:**
-> Wenn das möglich ___, würden wir sofort helfen.
+> Wenn das möglich ___, würden wir sofort helfen. (Grammatikform)
 
 **Optionen:**
 - war
@@ -114,7 +114,7 @@
 ### 8. `b2-quiz-008` · select-one
 
 **Aufgabe:**
-> Ich ___ gern früher kommen, aber der Zug hatte Verspätung.
+> Ich ___ gern früher kommen, aber der Zug hatte Verspätung. (Grammatikform)
 
 **Optionen:**
 - war
@@ -128,7 +128,7 @@
 ### 9. `b2-quiz-009` · select-one
 
 **Aufgabe:**
-> Das Gesetz ___ gestern vom Parlament verabschiedet.
+> Das Gesetz ___ gestern vom Parlament verabschiedet. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -142,7 +142,7 @@
 ### 10. `b2-quiz-010` · select-one
 
 **Aufgabe:**
-> Die Entscheidung ___ bereits getroffen worden.
+> Die Entscheidung ___ bereits getroffen worden. (Grammatikform)
 
 **Optionen:**
 - wäre
@@ -156,7 +156,7 @@
 ### 11. `b2-quiz-011` · select-one
 
 **Aufgabe:**
-> Neue Regeln ___ derzeit diskutiert.
+> Neue Regeln ___ derzeit diskutiert. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -170,7 +170,7 @@
 ### 12. `b2-quiz-012` · select-one
 
 **Aufgabe:**
-> Der Bericht ___ bis Freitag fertiggestellt werden.
+> Der Bericht ___ bis Freitag fertiggestellt werden. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -184,7 +184,7 @@
 ### 13. `b2-quiz-013` · select-one
 
 **Aufgabe:**
-> Das Problem ___ leider nicht gelöst.
+> Das Problem ___ leider nicht gelöst. (Grammatikform)
 
 **Optionen:**
 - geworden
@@ -198,7 +198,7 @@
 ### 14. `b2-quiz-014` · select-one
 
 **Aufgabe:**
-> Die Brücke ___ im nächsten Jahr renoviert.
+> Die Brücke ___ im nächsten Jahr renoviert. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -212,7 +212,7 @@
 ### 15. `b2-quiz-015` · select-one
 
 **Aufgabe:**
-> Alle Gäste ___ rechtzeitig informiert worden.
+> Alle Gäste ___ rechtzeitig informiert worden. (Grammatikform)
 
 **Optionen:**
 - wurden
@@ -226,7 +226,7 @@
 ### 16. `b2-quiz-016` · select-one
 
 **Aufgabe:**
-> Der Termin ___ verschoben.
+> Der Termin ___ verschoben. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -240,7 +240,7 @@
 ### 17. `b2-quiz-017` · select-one
 
 **Aufgabe:**
-> Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen.
+> Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen. (Grammatikform)
 
 **Optionen:**
 - denen
@@ -254,7 +254,7 @@
 ### 18. `b2-quiz-018` · select-one
 
 **Aufgabe:**
-> Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert.
+> Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert. (Grammatikform)
 
 **Optionen:**
 - dem
@@ -268,7 +268,7 @@
 ### 19. `b2-quiz-019` · select-one
 
 **Aufgabe:**
-> Die Kollegin, ___ ich vertraue, hat recht.
+> Die Kollegin, ___ ich vertraue, hat recht. (Grammatikform)
 
 **Optionen:**
 - den
@@ -282,7 +282,7 @@
 ### 20. `b2-quiz-020` · select-one
 
 **Aufgabe:**
-> Das Unternehmen, für ___ er arbeitet, expandiert.
+> Das Unternehmen, für ___ er arbeitet, expandiert. (Grammatikform)
 
 **Optionen:**
 - die
@@ -296,7 +296,7 @@
 ### 21. `b2-quiz-021` · select-one
 
 **Aufgabe:**
-> Der Professor, von ___ ich gelernt habe, ist pensioniert.
+> Der Professor, von ___ ich gelernt habe, ist pensioniert. (Grammatikform)
 
 **Optionen:**
 - der
@@ -310,7 +310,7 @@
 ### 22. `b2-quiz-022` · select-one
 
 **Aufgabe:**
-> Die Frau, ___ Mann Arzt ist, kennt sich aus.
+> Die Frau, ___ Mann Arzt ist, kennt sich aus. (Grammatikform)
 
 **Optionen:**
 - dessen
@@ -324,7 +324,7 @@
 ### 23. `b2-quiz-023` · select-one
 
 **Aufgabe:**
-> Das Buch, ___ ich suche, ist vergriffen.
+> Das Buch, ___ ich suche, ist vergriffen. (Grammatikform)
 
 **Optionen:**
 - den
@@ -338,7 +338,7 @@
 ### 24. `b2-quiz-024` · select-one
 
 **Aufgabe:**
-> Die Studenten, mit ___ wir diskutierten, waren engagiert.
+> Die Studenten, mit ___ wir diskutierten, waren engagiert. (Grammatikform)
 
 **Optionen:**
 - deren
@@ -352,7 +352,7 @@
 ### 25. `b2-quiz-025` · select-one
 
 **Aufgabe:**
-> Er ___ wohl erst morgen an der Konferenz teilnehmen.
+> Er ___ wohl erst morgen an der Konferenz teilnehmen. (Grammatikform)
 
 **Optionen:**
 - wäre
@@ -366,7 +366,7 @@
 ### 26. `b2-quiz-026` · select-one
 
 **Aufgabe:**
-> Die Experten ___ die Ergebnisse nächste Woche veröffentlichen.
+> Die Experten ___ die Ergebnisse nächste Woche veröffentlichen. (Grammatikform)
 
 **Optionen:**
 - würden
@@ -380,7 +380,7 @@
 ### 27. `b2-quiz-027` · select-one
 
 **Aufgabe:**
-> Das ___ sicher Konsequenzen für die Wirtschaft haben.
+> Das ___ sicher Konsequenzen für die Wirtschaft haben. (Grammatikform)
 
 **Optionen:**
 - könnten
@@ -394,7 +394,7 @@
 ### 28. `b2-quiz-028` · select-one
 
 **Aufgabe:**
-> Sie ___ vermutlich die Prüfung mit Auszeichnung bestehen.
+> Sie ___ vermutlich die Prüfung mit Auszeichnung bestehen. (Grammatikform)
 
 **Optionen:**
 - würde
@@ -408,7 +408,7 @@
 ### 29. `b2-quiz-029` · select-one
 
 **Aufgabe:**
-> Die Temperaturen ___ in den nächsten Tagen sinken.
+> Die Temperaturen ___ in den nächsten Tagen sinken. (Grammatikform)
 
 **Optionen:**
 - wollten
@@ -422,7 +422,7 @@
 ### 30. `b2-quiz-030` · select-one
 
 **Aufgabe:**
-> Er ___ wohl nicht mehr kommen — es ist schon so spät.
+> Er ___ wohl nicht mehr kommen — es ist schon so spät. (Grammatikform)
 
 **Optionen:**
 - würde
@@ -436,7 +436,7 @@
 ### 31. `b2-quiz-031` · select-one
 
 **Aufgabe:**
-> Die Partei ___ bei der Wahl wahrscheinlich zulegen.
+> Die Partei ___ bei der Wahl wahrscheinlich zulegen. (Grammatikform)
 
 **Optionen:**
 - wäre
@@ -450,7 +450,7 @@
 ### 32. `b2-quiz-032` · select-one
 
 **Aufgabe:**
-> Man ___ die Reform bis Ende des Jahres umsetzen.
+> Man ___ die Reform bis Ende des Jahres umsetzen. (Grammatikform)
 
 **Optionen:**
 - hätte
@@ -464,7 +464,7 @@
 ### 33. `b2-quiz-033` · select-one
 
 **Aufgabe:**
-> Die Kosten sind gestiegen; ___ müssen wir sparen.
+> Die Kosten sind gestiegen; ___ müssen wir sparen. (Grammatikform)
 
 **Optionen:**
 - trotzdem
@@ -478,7 +478,7 @@
 ### 34. `b2-quiz-034` · select-one
 
 **Aufgabe:**
-> Er war müde; ___ arbeitete er weiter.
+> Er war müde; ___ arbeitete er weiter. (Grammatikform)
 
 **Optionen:**
 - deshalb
@@ -492,7 +492,7 @@
 ### 35. `b2-quiz-035` · select-one
 
 **Aufgabe:**
-> Sie hat viel gelernt; ___ bestand sie die Prüfung.
+> Sie hat viel gelernt; ___ bestand sie die Prüfung. (Grammatikform)
 
 **Optionen:**
 - trotzdem
@@ -506,7 +506,7 @@
 ### 36. `b2-quiz-036` · select-one
 
 **Aufgabe:**
-> Das Wetter war schlecht; ___ fand das Fest statt.
+> Das Wetter war schlecht; ___ fand das Fest statt. (Grammatikform)
 
 **Optionen:**
 - außerdem
@@ -520,7 +520,7 @@
 ### 37. `b2-quiz-037` · select-one
 
 **Aufgabe:**
-> Er spricht drei Sprachen; ___ spielt er Klavier.
+> Er spricht drei Sprachen; ___ spielt er Klavier. (Grammatikform)
 
 **Optionen:**
 - trotzdem
@@ -534,7 +534,7 @@
 ### 38. `b2-quiz-038` · select-one
 
 **Aufgabe:**
-> Die Lage ist ernst; ___ bleiben wir optimistisch.
+> Die Lage ist ernst; ___ bleiben wir optimistisch. (Grammatikform)
 
 **Optionen:**
 - folglich
@@ -548,7 +548,7 @@
 ### 39. `b2-quiz-039` · select-one
 
 **Aufgabe:**
-> Sie hat sich verspätet; ___ verpasste sie den Anfang.
+> Sie hat sich verspätet; ___ verpasste sie den Anfang. (Grammatikform)
 
 **Optionen:**
 - trotzdem
@@ -562,7 +562,7 @@
 ### 40. `b2-quiz-040` · select-one
 
 **Aufgabe:**
-> Er hat Fehler gemacht; ___ wurde er kritisiert.
+> Er hat Fehler gemacht; ___ wurde er kritisiert. (Grammatikform)
 
 **Optionen:**
 - dennoch
@@ -576,7 +576,7 @@
 ### 41. `b2-quiz-041` · select-one
 
 **Aufgabe:**
-> Er behauptete, er ___ unschuldig.
+> Er behauptete, er ___ unschuldig. (Grammatikform)
 
 **Optionen:**
 - war
@@ -590,7 +590,7 @@
 ### 42. `b2-quiz-042` · select-one
 
 **Aufgabe:**
-> Die Ministerin betonte, die Reform ___ notwendig.
+> Die Ministerin betonte, die Reform ___ notwendig. (Grammatikform)
 
 **Optionen:**
 - war
@@ -604,7 +604,7 @@
 ### 43. `b2-quiz-043` · select-one
 
 **Aufgabe:**
-> Er sagte, er ___ morgen ankommen.
+> Er sagte, er ___ morgen ankommen. (Grammatikform)
 
 **Optionen:**
 - würde
@@ -618,7 +618,7 @@
 ### 44. `b2-quiz-044` · select-one
 
 **Aufgabe:**
-> Sie erklärte, sie ___ keine Zeit.
+> Sie erklärte, sie ___ keine Zeit. (Grammatikform)
 
 **Optionen:**
 - hat
@@ -632,7 +632,7 @@
 ### 45. `b2-quiz-045` · select-one
 
 **Aufgabe:**
-> Der Arzt meinte, der Patient ___ bald genesen.
+> Der Arzt meinte, der Patient ___ bald genesen. (Grammatikform)
 
 **Optionen:**
 - würde
@@ -646,7 +646,7 @@
 ### 46. `b2-quiz-046` · select-one
 
 **Aufgabe:**
-> Er behauptete, er ___ nichts davon gewusst.
+> Er behauptete, er ___ nichts davon gewusst. (Grammatikform)
 
 **Optionen:**
 - hätte
@@ -660,7 +660,7 @@
 ### 47. `b2-quiz-047` · select-one
 
 **Aufgabe:**
-> Die Zeitung schrieb, die Lage ___ ernst.
+> Die Zeitung schrieb, die Lage ___ ernst. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -674,7 +674,7 @@
 ### 48. `b2-quiz-048` · select-one
 
 **Aufgabe:**
-> Sie sagte, sie ___ den Vertrag unterschreiben.
+> Sie sagte, sie ___ den Vertrag unterschreiben. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -688,7 +688,7 @@
 ### 49. `b2-quiz-049` · select-one
 
 **Aufgabe:**
-> Er erklärte, er ___ die Aufgabe bereits erledigt.
+> Er erklärte, er ___ die Aufgabe bereits erledigt. (Grammatikform)
 
 **Optionen:**
 - hätte
@@ -702,7 +702,7 @@
 ### 50. `b2-quiz-050` · select-one
 
 **Aufgabe:**
-> Der Experte meinte, das ___ ein Fehler.
+> Der Experte meinte, das ___ ein Fehler. (Grammatikform)
 
 **Optionen:**
 - war

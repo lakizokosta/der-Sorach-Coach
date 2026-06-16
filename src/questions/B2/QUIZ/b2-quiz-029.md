@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Temperaturen ___ in den nächsten Tagen sinken.
+Die Temperaturen ___ in den nächsten Tagen sinken. (Grammatikform)

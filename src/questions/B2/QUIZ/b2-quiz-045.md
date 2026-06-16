@@ -9,4 +9,4 @@ options:
 correct: werde
 ---
 
-Der Arzt meinte, der Patient ___ bald genesen.
+Der Arzt meinte, der Patient ___ bald genesen. (Grammatikform)
