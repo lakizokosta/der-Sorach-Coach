@@ -2,7 +2,7 @@
 id: b1-poss-in-014
 type: input-text
 correct:
-  - der
+  - unserer
 ---
 
 Das ist das Ziel ___ Partei. (Possessivartikelform)

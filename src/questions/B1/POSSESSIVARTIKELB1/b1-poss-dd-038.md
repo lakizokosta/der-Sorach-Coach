@@ -2,11 +2,12 @@
 id: b1-poss-dd-038
 type: dropbox
 words:
-  - Wir
-  - feiern
-  - unser
-  - zehnjähriges
-  - Firmenjubiläum
+  - Während
+  - ihres
+  - Studiums
+  - arbeitete
+  - sie
+  - nebenbei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — unser Jubiläum)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

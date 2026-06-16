@@ -2,12 +2,12 @@
 id: b1-poss-dd-025
 type: dropbox
 words:
-  - Während
-  - ihres
-  - Studiums
-  - arbeitete
-  - sie
-  - nebenbei
+  - Das
+  - ist
+  - die
+  - Entscheidung
+  - seines
+  - Ministers
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres Studiums)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Das
   - ist
-  - die
-  - Meinung
+  - das
+  - Auto
   - meines
-  - Kollegen
+  - Professors
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — meines Kollegen)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

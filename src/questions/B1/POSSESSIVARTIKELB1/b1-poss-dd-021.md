@@ -2,11 +2,12 @@
 id: b1-poss-dd-021
 type: dropbox
 words:
-  - Wir
-  - feiern
-  - unser
-  - zehnjähriges
-  - Firmenjubiläum
+  - Das
+  - ist
+  - das
+  - Auto
+  - meines
+  - Professors
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — unser Jubiläum)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

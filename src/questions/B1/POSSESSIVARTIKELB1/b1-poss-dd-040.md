@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Das
   - ist
-  - das
-  - Auto
-  - des
-  - Professors
+  - die
+  - Entscheidung
+  - seines
+  - Ministers
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — des Professors)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

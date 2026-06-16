@@ -10,4 +10,4 @@ words:
   - lange
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seine Nachbarn)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

@@ -10,4 +10,4 @@ words:
   - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — meines Kollegen)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

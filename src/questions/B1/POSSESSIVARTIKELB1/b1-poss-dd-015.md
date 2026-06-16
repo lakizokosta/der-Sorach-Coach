@@ -9,4 +9,4 @@ words:
   - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — unseren Kollegen)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

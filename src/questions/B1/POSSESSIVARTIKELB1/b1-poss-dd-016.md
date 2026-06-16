@@ -12,4 +12,4 @@ words:
   - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres Teams)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

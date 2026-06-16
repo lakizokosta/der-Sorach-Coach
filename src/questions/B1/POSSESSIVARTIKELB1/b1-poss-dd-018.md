@@ -2,14 +2,14 @@
 id: b1-poss-dd-018
 type: dropbox
 words:
-  - Wegen
-  - seiner
-  - schweren
-  - Erkrankung
-  - bleibt
-  - er
-  - zu
-  - Hause
+  - Sie
+  - hilft
+  - ihrer
+  - neuen
+  - Chefin
+  - bei
+  - der
+  - Einarbeitung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erkrankung)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

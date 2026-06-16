@@ -6,8 +6,8 @@ words:
   - ist
   - die
   - Entscheidung
-  - des
+  - seines
   - Ministers
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — des Ministers)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

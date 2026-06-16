@@ -2,14 +2,14 @@
 id: b1-poss-dd-035
 type: dropbox
 words:
-  - Wegen
+  - Trotz
   - seiner
-  - schweren
-  - Erkrankung
-  - bleibt
+  - geringen
+  - Erfahrung
+  - bekommt
   - er
-  - zu
-  - Hause
+  - die
+  - Stelle
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erkrankung)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

@@ -2,14 +2,12 @@
 id: b1-poss-dd-022
 type: dropbox
 words:
-  - Trotz
-  - seiner
-  - geringen
-  - Erfahrung
-  - bekommt
-  - er
-  - die
-  - Stelle
+  - Er
+  - kennt
+  - seine
+  - Nachbarn
+  - schon
+  - lange
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erfahrung)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

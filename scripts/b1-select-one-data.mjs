@@ -518,15 +518,15 @@ export function genPossessivartikelB1() {
     ['Sie hilft ___ neuen Chefin bei der Einarbeitung.', 'ihrer', ['ihr', 'ihre', 'ihren', 'ihrem']],
     ['Wir feiern ___ zehnjähriges Firmenjubiläum.', 'unser', ['unsere', 'unseren', 'unserer', 'unserem']],
     ['Trotz ___ geringen Erfahrung bekommt er die Stelle.', 'seiner', ['sein', 'seine', 'seinen', 'seinem']],
-    ['Das ist das Auto ___ Professors.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Das ist das Auto ___ Professors.', 'meines', ['mein', 'meine', 'meinen', 'meinem']],
     ['Er kennt ___ Nachbarn schon lange.', 'seine', ['sein', 'seinen', 'seiner', 'seinem']],
     ['Während ___ Studiums arbeitete sie nebenbei.', 'ihres', ['ihr', 'ihre', 'ihren', 'ihrem']],
     ['Wir diskutieren ___ gemeinsame Zukunft.', 'unsere', ['unser', 'unseren', 'unserer', 'unserem']],
-    ['Das ist die Entscheidung ___ Ministers.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Das ist die Entscheidung ___ Ministers.', 'seines', ['sein', 'seine', 'seinen', 'seinem']],
     ['Sie besucht ___ Eltern am Wochenende.', 'ihre', ['ihr', 'ihren', 'ihrer', 'ihrem']],
     ['Wegen ___ Verspätung verpasste ich den Termin.', 'meiner', ['mein', 'meine', 'meinen', 'meinem']],
     ['Er vertraut ___ Instinkt.', 'seinem', ['sein', 'seine', 'seinen', 'seiner']],
-    ['Das ist das Ziel ___ Partei.', 'der', ['des', 'dem', 'den', 'das']],
+    ['Das ist das Ziel ___ Partei.', 'unserer', ['unser', 'unsere', 'unseren', 'unserem']],
     ['Wir unterstützen ___ jüngeren Kollegen.', 'unseren', ['unser', 'unsere', 'unserer', 'unserem']],
   ];
   return ensure50(() => {

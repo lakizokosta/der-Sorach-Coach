@@ -2,12 +2,11 @@
 id: b1-poss-dd-034
 type: dropbox
 words:
-  - Das
-  - ist
-  - die
-  - Meinung
-  - meines
-  - Kollegen
+  - Wir
+  - feiern
+  - unser
+  - zehnjähriges
+  - Firmenjubiläum
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner Meinung)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Das
   - ist
-  - die
-  - Entscheidung
-  - des
-  - Ministers
+  - das
+  - Ziel
+  - unserer
+  - Partei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — des Ministers)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

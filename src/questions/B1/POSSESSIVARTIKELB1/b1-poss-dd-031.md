@@ -2,12 +2,14 @@
 id: b1-poss-dd-031
 type: dropbox
 words:
-  - Das
-  - ist
-  - das
-  - Ziel
-  - der
-  - Partei
+  - Wegen
+  - seiner
+  - schweren
+  - Erkrankung
+  - bleibt
+  - er
+  - zu
+  - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — der Partei)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

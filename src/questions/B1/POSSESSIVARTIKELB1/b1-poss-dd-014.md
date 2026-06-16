@@ -6,8 +6,8 @@ words:
   - ist
   - das
   - Ziel
-  - der
+  - unserer
   - Partei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — der Partei)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

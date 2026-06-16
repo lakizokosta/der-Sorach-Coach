@@ -2,11 +2,12 @@
 id: b1-poss-dd-026
 type: dropbox
 words:
-  - Wir
-  - diskutieren
-  - unsere
-  - gemeinsame
-  - Zukunft
+  - Sie
+  - besucht
+  - ihre
+  - Eltern
+  - am
+  - Wochenende
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere Zukunft)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)
