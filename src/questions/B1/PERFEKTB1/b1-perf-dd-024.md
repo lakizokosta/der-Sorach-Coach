@@ -2,12 +2,12 @@
 id: b1-perf-dd-024
 type: dropbox
 words:
-  - Wir
-  - haben
+  - Ich
+  - habe
   - die
-  - Rechnung
-  - schon
-  - bezahlt
+  - ganze
+  - Nacht
+  - gearbeitet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

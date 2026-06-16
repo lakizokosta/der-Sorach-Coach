@@ -2,13 +2,16 @@
 id: b1-perf-dd-050
 type: dropbox
 words:
-  - Der
-  - Minister
-  - hat
-  - die
-  - neue
-  - Regelung
-  - erklärt
+  - Die
+  - Studierenden
+  - haben
+  - lange
+  - über
+  - das
+  - Thema
+  - diskutiert
+alternatives:
+  - Die,Studierenden,haben,über,das,Thema,lange,diskutiert
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

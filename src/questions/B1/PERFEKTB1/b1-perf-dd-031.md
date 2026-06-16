@@ -2,13 +2,13 @@
 id: b1-perf-dd-031
 type: dropbox
 words:
-  - Ich
-  - habe
-  - mich
-  - über
-  - das
-  - Ergebnis
-  - gefreut
+  - Der
+  - Minister
+  - hat
+  - die
+  - neue
+  - Regelung
+  - erklärt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

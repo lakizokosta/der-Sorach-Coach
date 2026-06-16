@@ -2,13 +2,13 @@
 id: b1-perf-dd-018
 type: dropbox
 words:
-  - Der
-  - Minister
+  - Sie
   - hat
-  - die
-  - neue
-  - Regelung
-  - erklärt
+  - sich
+  - für
+  - den
+  - Kurs
+  - angemeldet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

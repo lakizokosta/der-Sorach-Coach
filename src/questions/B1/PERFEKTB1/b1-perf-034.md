@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Ich ___ den Artikel gestern gelesen. (Perfekt + Hilfsverb haben)
+Ich ___ den Artikel gestern gelesen. (Perfektform)

@@ -8,6 +8,8 @@ words:
   - am
   - Flughafen
   - angekommen
+alternatives:
+  - Wir,sind,am,Flughafen,pünktlich,angekommen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

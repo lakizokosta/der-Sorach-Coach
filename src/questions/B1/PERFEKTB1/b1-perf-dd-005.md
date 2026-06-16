@@ -10,6 +10,8 @@ words:
   - das
   - Thema
   - diskutiert
+alternatives:
+  - Die,Studierenden,haben,über,das,Thema,lange,diskutiert
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

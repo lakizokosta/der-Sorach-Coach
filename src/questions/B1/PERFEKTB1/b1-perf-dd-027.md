@@ -2,12 +2,12 @@
 id: b1-perf-dd-027
 type: dropbox
 words:
-  - Die
-  - Politiker
-  - haben
-  - eine
-  - Einigung
-  - erzielt
+  - Wir
+  - sind
+  - den
+  - ganzen
+  - Tag
+  - gereist
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

@@ -2,12 +2,11 @@
 id: b1-perf-dd-036
 type: dropbox
 words:
-  - Wir
-  - sind
-  - pünktlich
-  - am
-  - Flughafen
-  - angekommen
+  - Er
+  - ist
+  - nach
+  - Berlin
+  - gefahren
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

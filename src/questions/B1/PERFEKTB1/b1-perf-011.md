@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Er ___ das Medikament eingenommen. (Perfekt + Hilfsverb haben)
+Er ___ das Medikament eingenommen. (Perfektform)

@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Der Minister ___ die neue Regelung erklärt. (Perfekt + Hilfsverb haben)
+Der Minister ___ die neue Regelung erklärt. (Perfektform)

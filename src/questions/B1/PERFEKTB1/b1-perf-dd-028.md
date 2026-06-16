@@ -2,11 +2,12 @@
 id: b1-perf-dd-028
 type: dropbox
 words:
-  - Er
+  - Sie
   - hat
-  - das
-  - Medikament
-  - eingenommen
+  - ein
+  - wichtiges
+  - Gespräch
+  - geführt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

@@ -2,12 +2,13 @@
 id: b1-perf-dd-030
 type: dropbox
 words:
-  - Sie
+  - Die
+  - Firma
   - hat
-  - ein
-  - wichtiges
-  - Gespräch
-  - geführt
+  - viele
+  - neue
+  - Mitarbeiter
+  - eingestellt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)
