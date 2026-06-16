@@ -9,4 +9,4 @@ options:
 correct: schickt
 ---
 
-Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)
+Er ___ die wichtige E-Mail sofort ab. (Trennbares Verb)

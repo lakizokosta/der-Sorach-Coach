@@ -5,4 +5,4 @@ correct:
   - meldest
 ---
 
-Wann ___ du dich für den Kurs an? (Trennbares Verb + Verb anmeldeen)
+Wann ___ du dich für den Kurs an? (Trennbares Verb)

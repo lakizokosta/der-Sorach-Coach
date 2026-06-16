@@ -11,4 +11,4 @@ words:
   - auf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb aufstehen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

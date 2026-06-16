@@ -5,4 +5,4 @@ correct:
   - bereitet
 ---
 
-Er ___ die Präsentation gut vor. (Trennbares Verb + Verb vorbereiten)
+Er ___ die Präsentation gut vor. (Trennbares Verb)

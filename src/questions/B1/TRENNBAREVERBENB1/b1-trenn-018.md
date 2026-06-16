@@ -9,4 +9,4 @@ options:
 correct: stehe
 ---
 
-Ich ___ morgen früh um sechs auf. (Trennbares Verb + Verb aufstehen)
+Ich ___ morgen früh um sechs auf. (Trennbares Verb)

@@ -3,13 +3,12 @@ id: b1-trenn-dd-038
 type: dropbox
 words:
   - Wir
-  - verlegen
-  - das
-  - Meeting
+  - freuen
+  - uns
+  - schon
   - auf
-  - nächste
-  - Woche
-  - vor
+  - die
+  - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb freuen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

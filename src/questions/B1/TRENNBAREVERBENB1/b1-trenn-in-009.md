@@ -5,4 +5,4 @@ correct:
   - füllst
 ---
 
-Du ___ das Formular online aus. (Trennbares Verb + Verb ausfüllen)
+Du ___ das Formular online aus. (Trennbares Verb)

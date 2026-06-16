@@ -5,4 +5,4 @@ correct:
   - freue
 ---
 
-Ich ___ mich über das Ergebnis. (Trennbares Verb + Verb sich freuen)
+Ich ___ mich über das Ergebnis. (Trennbares Verb)

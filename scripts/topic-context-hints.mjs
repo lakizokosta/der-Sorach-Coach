@@ -461,6 +461,8 @@ function reflexivFormHint(inner, correct, options, body, id) {
  * @return {string}
  */
 export function verbFormHint(topic, inner = '', correct = [], options = [], body = '', id = '') {
+  if (topic === 'TRENNBAREVERBENB1') return 'Trennbares Verb';
+
   if (topic === 'REFLEXIVPRONOMEN') {
     const hint = reflexivFormHint(inner, correct, options, body, id);
     if (hint && !/^Reflexivform$/i.test(hint)) return hint;

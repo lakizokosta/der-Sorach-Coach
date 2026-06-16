@@ -5,4 +5,4 @@ correct:
   - macht
 ---
 
-Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb + Verb ausmachen)
+Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb)

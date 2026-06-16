@@ -3,11 +3,12 @@ id: b1-trenn-dd-040
 type: dropbox
 words:
   - Er
-  - sagt
-  - den
-  - Termin
-  - leider
-  - ab
+  - geht
+  - die
+  - Nachrichten
+  - jeden
+  - Morgen
+  - durch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb durchgehen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

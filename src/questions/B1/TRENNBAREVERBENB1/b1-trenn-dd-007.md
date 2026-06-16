@@ -10,4 +10,4 @@ words:
   - Ergebnis
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb sich freuen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

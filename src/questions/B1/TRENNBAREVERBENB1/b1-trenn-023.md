@@ -9,4 +9,4 @@ options:
 correct: freuen
 ---
 
-Wir ___ uns schon auf die Reise. (Trennbares Verb + Verb freuen)
+Wir ___ uns schon auf die Reise. (Trennbares Verb)

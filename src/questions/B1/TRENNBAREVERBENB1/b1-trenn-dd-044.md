@@ -3,12 +3,11 @@ id: b1-trenn-dd-044
 type: dropbox
 words:
   - Er
-  - geht
+  - bereitet
   - die
-  - Nachrichten
-  - jeden
-  - Morgen
-  - durch
+  - Präsentation
+  - gut
+  - vor
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorbereiteen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

@@ -2,14 +2,12 @@
 id: b1-trenn-dd-022
 type: dropbox
 words:
-  - Sie
-  - macht
+  - Ich
+  - freue
+  - mich
+  - über
   - das
-  - Licht
-  - aus
-  - wenn
-  - sie
-  - geht
+  - Ergebnis
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb sich freuen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

@@ -2,13 +2,12 @@
 id: b1-trenn-dd-027
 type: dropbox
 words:
-  - Er
-  - geht
-  - die
-  - Nachrichten
-  - jeden
-  - Morgen
-  - durch
+  - Ich
+  - rufe
+  - den
+  - Kollegen
+  - später
+  - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmelden)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

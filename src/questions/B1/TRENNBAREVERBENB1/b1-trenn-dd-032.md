@@ -2,12 +2,13 @@
 id: b1-trenn-dd-032
 type: dropbox
 words:
-  - Sie
-  - reicht
+  - Er
+  - schickt
   - die
-  - Rechnung
+  - wichtige
+  - E-Mail
   - sofort
-  - ein
+  - ab
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb abschicken)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

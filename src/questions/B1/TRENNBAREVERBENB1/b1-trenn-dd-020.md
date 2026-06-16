@@ -2,13 +2,14 @@
 id: b1-trenn-dd-020
 type: dropbox
 words:
-  - Ich
-  - stehe
-  - morgen
-  - früh
-  - um
-  - sechs
-  - auf
+  - Sie
+  - macht
+  - das
+  - Licht
+  - aus
+  - wenn
+  - sie
+  - geht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausmachen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

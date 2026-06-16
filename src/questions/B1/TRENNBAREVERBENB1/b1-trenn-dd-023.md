@@ -2,12 +2,13 @@
 id: b1-trenn-dd-023
 type: dropbox
 words:
-  - Er
-  - sagt
-  - den
-  - Termin
-  - leider
-  - ab
+  - Wir
+  - freuen
+  - uns
+  - schon
+  - auf
+  - die
+  - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb freuen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

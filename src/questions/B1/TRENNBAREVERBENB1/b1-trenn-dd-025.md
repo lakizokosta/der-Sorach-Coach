@@ -2,13 +2,13 @@
 id: b1-trenn-dd-025
 type: dropbox
 words:
-  - Wir
-  - freuen
-  - uns
-  - schon
-  - auf
+  - Er
+  - geht
   - die
-  - Reise
+  - Nachrichten
+  - jeden
+  - Morgen
+  - durch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb durchgehen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

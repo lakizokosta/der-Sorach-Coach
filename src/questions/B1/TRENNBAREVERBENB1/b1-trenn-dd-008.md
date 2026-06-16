@@ -11,4 +11,4 @@ words:
   - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb freuen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

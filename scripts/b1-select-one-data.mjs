@@ -598,7 +598,7 @@ export function genRelativsatzB1() {
 export function genTrennbareVerbenB1() {
   const items = [
     ['Wann ___ du dich für den Kurs an?', 'meldest', ['meldet', 'melden', 'anmeldest', 'meldest an']],
-    ['Er ___ die wichtige E-Mail sofort an.', 'schickt', ['schickt ab', 'abschickt', 'schicke', 'schicken']],
+    ['Er ___ die wichtige E-Mail sofort ab.', 'schickt', ['schickt ab', 'abschickt', 'schicke', 'schicken']],
     ['Ich ___ morgen früh um sechs auf.', 'stehe', ['steht', 'stehen', 'aufstehe', 'stehe auf']],
     ['Wir ___ das Meeting auf nächste Woche vor.', 'verlegen', ['verlegen vor', 'vorverlegen', 'verlegt', 'verlegen']],
     ['Sie ___ das Licht aus, wenn sie geht.', 'macht', ['macht aus', 'ausmacht', 'mache', 'machen']],

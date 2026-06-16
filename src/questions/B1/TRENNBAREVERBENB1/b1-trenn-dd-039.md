@@ -2,14 +2,12 @@
 id: b1-trenn-dd-039
 type: dropbox
 words:
-  - Sie
-  - macht
+  - Du
+  - füllst
   - das
-  - Licht
+  - Formular
+  - online
   - aus
-  - wenn
-  - sie
-  - geht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausmachen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

@@ -5,4 +5,4 @@ correct:
   - rufe
 ---
 
-Ich ___ den Kollegen später an. (Trennbares Verb + Verb anmelden)
+Ich ___ den Kollegen später an. (Trennbares Verb)

@@ -2,13 +2,13 @@
 id: b1-trenn-dd-047
 type: dropbox
 words:
-  - Wir
-  - sprechen
-  - das
-  - Problem
-  - im
-  - Team
-  - an
+  - Er
+  - schickt
+  - die
+  - wichtige
+  - E-Mail
+  - sofort
+  - ab
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb abschicken)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

@@ -3,11 +3,11 @@ id: b1-trenn-dd-045
 type: dropbox
 words:
   - Sie
-  - checkt
-  - um
-  - 22
-  - Uhr
+  - reicht
+  - die
+  - Rechnung
+  - sofort
   - ein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einreichen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

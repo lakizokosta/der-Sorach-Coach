@@ -2,12 +2,13 @@
 id: b1-trenn-dd-043
 type: dropbox
 words:
-  - Du
-  - füllst
+  - Wir
+  - sprechen
   - das
-  - Formular
-  - online
-  - aus
+  - Problem
+  - im
+  - Team
+  - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb sprechen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
