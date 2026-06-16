@@ -3,10 +3,11 @@ id: b1-vpv-dd-036
 type: dropbox
 words:
   - Ich
-  - warte
+  - hoffe
   - auf
-  - die
-  - Genehmigung
+  - eine
+  - schnelle
+  - Lösung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — warte auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

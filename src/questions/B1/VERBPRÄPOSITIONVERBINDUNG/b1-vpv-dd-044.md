@@ -3,12 +3,10 @@ id: b1-vpv-dd-044
 type: dropbox
 words:
   - Sie
-  - träumt
-  - von
-  - einem
-  - Job
-  - im
-  - Ausland
+  - wartet
+  - auf
+  - das
+  - Ergebnis
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — träumt von)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

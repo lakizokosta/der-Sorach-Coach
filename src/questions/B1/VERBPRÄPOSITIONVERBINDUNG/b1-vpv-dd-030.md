@@ -2,11 +2,12 @@
 id: b1-vpv-dd-030
 type: dropbox
 words:
-  - Wir
-  - diskutieren
+  - Er
+  - informiert
+  - sich
   - über
-  - dem
-  - Vorschlag
+  - das
+  - Thema
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — diskutiert über)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

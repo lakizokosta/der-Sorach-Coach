@@ -2,11 +2,11 @@
 id: b1-vpv-dd-047
 type: dropbox
 words:
-  - Wir
-  - diskutieren
-  - über
-  - dem
-  - Vorschlag
+  - Ich
+  - warte
+  - auf
+  - die
+  - Genehmigung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — diskutiert über)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

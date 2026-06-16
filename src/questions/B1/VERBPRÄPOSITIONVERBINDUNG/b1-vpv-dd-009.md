@@ -9,4 +9,4 @@ words:
   - Regeln
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — besteht auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

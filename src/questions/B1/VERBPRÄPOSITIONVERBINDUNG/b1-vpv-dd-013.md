@@ -5,8 +5,8 @@ words:
   - Wir
   - diskutieren
   - über
-  - dem
+  - den
   - Vorschlag
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — diskutiert über)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

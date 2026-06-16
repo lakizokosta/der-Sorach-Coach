@@ -11,4 +11,4 @@ words:
   - Ausland
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — träumt von)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

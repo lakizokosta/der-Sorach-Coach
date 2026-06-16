@@ -9,4 +9,4 @@ words:
   - Weg
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — fragt nach)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

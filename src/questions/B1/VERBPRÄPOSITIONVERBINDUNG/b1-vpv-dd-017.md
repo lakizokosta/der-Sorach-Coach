@@ -9,4 +9,4 @@ words:
   - Genehmigung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — entscheidet über)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

@@ -2,11 +2,13 @@
 id: b1-vpv-dd-025
 type: dropbox
 words:
-  - Er
-  - fragt
-  - nach
-  - dem
-  - Weg
+  - Sie
+  - träumt
+  - von
+  - einem
+  - Job
+  - im
+  - Ausland
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — fragt nach)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

@@ -10,4 +10,4 @@ words:
   - Gespräch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — erinnert an)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

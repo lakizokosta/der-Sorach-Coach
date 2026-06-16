@@ -10,4 +10,4 @@ words:
   - Karriere
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — konzentriert auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

@@ -9,4 +9,4 @@ words:
   - Umweltschutz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — interessiert für)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

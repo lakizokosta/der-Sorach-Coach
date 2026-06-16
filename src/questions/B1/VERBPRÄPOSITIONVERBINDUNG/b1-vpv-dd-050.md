@@ -3,11 +3,11 @@ id: b1-vpv-dd-050
 type: dropbox
 words:
   - Er
-  - denkt
-  - oft
+  - erinnert
+  - sich
   - an
-  - seine
-  - Karriere
+  - das
+  - Gespräch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — konzentriert auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

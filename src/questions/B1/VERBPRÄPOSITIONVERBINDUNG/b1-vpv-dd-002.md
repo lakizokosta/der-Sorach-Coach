@@ -9,4 +9,4 @@ words:
   - Genehmigung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — warte auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

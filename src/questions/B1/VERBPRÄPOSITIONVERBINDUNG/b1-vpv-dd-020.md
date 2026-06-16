@@ -2,11 +2,12 @@
 id: b1-vpv-dd-020
 type: dropbox
 words:
-  - Sie
-  - interessiert
+  - Er
+  - erinnert
   - sich
-  - für
-  - Umweltschutz
+  - an
+  - das
+  - Gespräch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — interessiert für)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

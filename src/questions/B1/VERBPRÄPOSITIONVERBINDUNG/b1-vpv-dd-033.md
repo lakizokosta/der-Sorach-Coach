@@ -2,12 +2,11 @@
 id: b1-vpv-dd-033
 type: dropbox
 words:
-  - Er
-  - denkt
-  - oft
-  - an
-  - seine
-  - Karriere
+  - Sie
+  - interessiert
+  - sich
+  - für
+  - Umweltschutz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — konzentriert auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

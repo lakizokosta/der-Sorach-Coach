@@ -2,10 +2,11 @@
 id: b1-vpv-dd-029
 type: dropbox
 words:
-  - Er
-  - achtet
+  - Sie
+  - wartet
   - auf
-  - Details
+  - das
+  - Ergebnis
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — achtet auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

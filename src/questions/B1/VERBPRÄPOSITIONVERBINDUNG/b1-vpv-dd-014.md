@@ -5,8 +5,8 @@ words:
   - Sie
   - wartet
   - auf
-  - dem
+  - das
   - Ergebnis
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — wartet auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

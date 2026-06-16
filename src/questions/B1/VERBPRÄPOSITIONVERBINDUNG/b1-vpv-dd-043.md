@@ -3,10 +3,10 @@ id: b1-vpv-dd-043
 type: dropbox
 words:
   - Wir
-  - bestehen
-  - auf
-  - klaren
-  - Regeln
+  - diskutieren
+  - über
+  - den
+  - Vorschlag
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — besteht auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

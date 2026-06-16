@@ -2,11 +2,12 @@
 id: b1-vpv-dd-031
 type: dropbox
 words:
-  - Sie
-  - wartet
-  - auf
-  - dem
-  - Ergebnis
+  - Er
+  - denkt
+  - oft
+  - an
+  - seine
+  - Karriere
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — wartet auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

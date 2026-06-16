@@ -3,10 +3,9 @@ id: b1-vpv-dd-042
 type: dropbox
 words:
   - Er
-  - fragt
-  - nach
-  - dem
-  - Weg
+  - achtet
+  - auf
+  - Details
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — fragt nach)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

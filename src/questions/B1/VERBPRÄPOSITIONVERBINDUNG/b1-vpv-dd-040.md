@@ -2,12 +2,13 @@
 id: b1-vpv-dd-040
 type: dropbox
 words:
-  - Ich
-  - hoffe
-  - auf
-  - eine
-  - schnelle
-  - Lösung
+  - Sie
+  - träumt
+  - von
+  - einem
+  - Job
+  - im
+  - Ausland
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — hofft auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

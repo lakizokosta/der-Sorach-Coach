@@ -6,8 +6,8 @@ words:
   - informiert
   - sich
   - über
-  - dem
+  - das
   - Thema
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — informiert über)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

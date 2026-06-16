@@ -2,11 +2,12 @@
 id: b1-vpv-dd-019
 type: dropbox
 words:
-  - Ich
-  - warte
-  - auf
+  - Wir
+  - sprechen
+  - über
   - die
-  - Genehmigung
+  - neue
+  - Strategie
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — warte auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

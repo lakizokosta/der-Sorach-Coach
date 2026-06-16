@@ -2,11 +2,11 @@
 id: b1-vpv-dd-026
 type: dropbox
 words:
-  - Wir
-  - bestehen
-  - auf
-  - klaren
-  - Regeln
+  - Ich
+  - danke
+  - für
+  - deine
+  - Unterstützung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — besteht auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

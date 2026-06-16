@@ -10,4 +10,4 @@ words:
   - Lösung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — hofft auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

@@ -2,12 +2,12 @@
 id: b1-vpv-dd-022
 type: dropbox
 words:
-  - Er
-  - erinnert
+  - Sie
+  - ärgert
   - sich
-  - an
-  - das
-  - Gespräch
+  - über
+  - die
+  - Verspätung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — erinnert an)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

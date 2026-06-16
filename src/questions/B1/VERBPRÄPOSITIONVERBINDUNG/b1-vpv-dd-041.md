@@ -2,12 +2,11 @@
 id: b1-vpv-dd-041
 type: dropbox
 words:
-  - Sie
-  - ärgert
-  - sich
-  - über
-  - die
-  - Verspätung
+  - Ich
+  - danke
+  - für
+  - deine
+  - Unterstützung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — ärgert über)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

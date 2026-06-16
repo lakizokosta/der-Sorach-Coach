@@ -3,10 +3,11 @@ id: b1-vpv-dd-037
 type: dropbox
 words:
   - Sie
-  - interessiert
+  - ärgert
   - sich
-  - für
-  - Umweltschutz
+  - über
+  - die
+  - Verspätung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — interessiert für)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

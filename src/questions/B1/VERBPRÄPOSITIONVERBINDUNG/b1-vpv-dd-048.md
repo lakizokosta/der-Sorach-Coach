@@ -3,10 +3,10 @@ id: b1-vpv-dd-048
 type: dropbox
 words:
   - Sie
-  - wartet
-  - auf
-  - dem
-  - Ergebnis
+  - interessiert
+  - sich
+  - für
+  - Umweltschutz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — wartet auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

@@ -8,4 +8,4 @@ words:
   - Details
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — achtet auf)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

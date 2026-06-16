@@ -10,4 +10,4 @@ words:
   - Strategie
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — spricht über)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

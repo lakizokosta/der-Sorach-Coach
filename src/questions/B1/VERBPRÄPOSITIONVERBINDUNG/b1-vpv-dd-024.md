@@ -2,12 +2,11 @@
 id: b1-vpv-dd-024
 type: dropbox
 words:
-  - Sie
-  - ärgert
-  - sich
-  - über
-  - die
-  - Verspätung
+  - Wir
+  - bestehen
+  - auf
+  - klaren
+  - Regeln
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — ärgert über)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)

@@ -5,8 +5,8 @@ words:
   - Ich
   - danke
   - für
-  - deiner
+  - deine
   - Unterstützung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb+Präp — dankt für)
+Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
