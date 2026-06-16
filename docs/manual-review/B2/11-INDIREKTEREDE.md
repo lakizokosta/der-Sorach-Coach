@@ -4,9 +4,9 @@
 |---|---|
 | **Topic-Key** | `INDIREKTEREDE` |
 | **Beschreibung** | Konjunktiv I und Alternativen |
-| **Fragen gesamt** | 101 |
+| **Fragen gesamt** | 100 |
 | Auswahl (1 Antwort) | 50 |
-| Eingabe | 51 |
+| Eingabe | 50 |
 
 > Manuelle Prüfung: Grammatik, Sinn des Satzes, Hinweise, Antworten.
 
@@ -714,19 +714,9 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-## Eingabe (51)
+## Eingabe (50)
 
-### 51. `b2-fill-1` · input-text
-
-**Aufgabe:**
-> Er sagte, er ___ keine Zeit. (Indirekte Rede)
-
-**Antwort:** `habe`
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 52. `b2-ired-in-001` · input-text
+### 51. `b2-ired-in-001` · input-text
 
 **Aufgabe:**
 > Er sagte, er ___ keine Zeit. (Indirekte Rede)
@@ -736,7 +726,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 53. `b2-ired-in-002` · input-text
+### 52. `b2-ired-in-002` · input-text
 
 **Aufgabe:**
 > Sie erklärte, sie ___ morgen ankommen. (Indirekte Rede)
@@ -746,7 +736,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 54. `b2-ired-in-003` · input-text
+### 53. `b2-ired-in-003` · input-text
 
 **Aufgabe:**
 > Der Minister betonte, die Reform ___ notwendig. (Indirekte Rede)
@@ -756,7 +746,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 55. `b2-ired-in-004` · input-text
+### 54. `b2-ired-in-004` · input-text
 
 **Aufgabe:**
 > Er behauptete, er ___ unschuldig. (Indirekte Rede)
@@ -766,7 +756,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 56. `b2-ired-in-005` · input-text
+### 55. `b2-ired-in-005` · input-text
 
 **Aufgabe:**
 > Die Zeitung schrieb, die Lage ___ ernst. (Indirekte Rede)
@@ -776,7 +766,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 57. `b2-ired-in-006` · input-text
+### 56. `b2-ired-in-006` · input-text
 
 **Aufgabe:**
 > Er meinte, er ___ das nicht tun können. (Indirekte Rede)
@@ -786,7 +776,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 58. `b2-ired-in-007` · input-text
+### 57. `b2-ired-in-007` · input-text
 
 **Aufgabe:**
 > Sie sagte, sie ___ den Termin verschieben müssen. (Indirekte Rede)
@@ -796,7 +786,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 59. `b2-ired-in-008` · input-text
+### 58. `b2-ired-in-008` · input-text
 
 **Aufgabe:**
 > Der Arzt meinte, der Patient ___ bald genesen. (Indirekte Rede)
@@ -806,7 +796,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 60. `b2-ired-in-009` · input-text
+### 59. `b2-ired-in-009` · input-text
 
 **Aufgabe:**
 > Er erklärte, er ___ die Aufgabe erledigt. (Indirekte Rede)
@@ -816,7 +806,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 61. `b2-ired-in-010` · input-text
+### 60. `b2-ired-in-010` · input-text
 
 **Aufgabe:**
 > Der Experte meinte, das ___ ein Fehler. (Indirekte Rede)
@@ -826,7 +816,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 62. `b2-ired-in-011` · input-text
+### 61. `b2-ired-in-011` · input-text
 
 **Aufgabe:**
 > Sie behauptete, sie ___ nie dort gewesen. (Indirekte Rede)
@@ -836,7 +826,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 63. `b2-ired-in-012` · input-text
+### 62. `b2-ired-in-012` · input-text
 
 **Aufgabe:**
 > Er sagte, er ___ morgen früher kommen. (Indirekte Rede)
@@ -846,7 +836,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 64. `b2-ired-in-013` · input-text
+### 63. `b2-ired-in-013` · input-text
 
 **Aufgabe:**
 > Die Lehrerin erklärte, die Prüfung ___ schwierig. (Indirekte Rede)
@@ -856,7 +846,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 65. `b2-ired-in-014` · input-text
+### 64. `b2-ired-in-014` · input-text
 
 **Aufgabe:**
 > Der Zeuge behauptete, er ___ alles gesehen. (Indirekte Rede)
@@ -866,7 +856,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 66. `b2-ired-in-015` · input-text
+### 65. `b2-ired-in-015` · input-text
 
 **Aufgabe:**
 > Er erklärte, das Problem ___ bald gelöst. (Indirekte Rede)
@@ -876,7 +866,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 67. `b2-ired-in-016` · input-text
+### 66. `b2-ired-in-016` · input-text
 
 **Aufgabe:**
 > Sie sagte, sie ___ keine Einwände. (Indirekte Rede)
@@ -886,7 +876,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 68. `b2-ired-in-017` · input-text
+### 67. `b2-ired-in-017` · input-text
 
 **Aufgabe:**
 > Er meinte, er ___ die Nachricht erhalten. (Indirekte Rede)
@@ -896,7 +886,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 69. `b2-ired-in-018` · input-text
+### 68. `b2-ired-in-018` · input-text
 
 **Aufgabe:**
 > Er sagte, er ___ keine Zeit. (Indirekte Rede)
@@ -906,7 +896,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 70. `b2-ired-in-019` · input-text
+### 69. `b2-ired-in-019` · input-text
 
 **Aufgabe:**
 > Sie erklärte, sie ___ morgen ankommen. (Indirekte Rede)
@@ -916,7 +906,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 71. `b2-ired-in-020` · input-text
+### 70. `b2-ired-in-020` · input-text
 
 **Aufgabe:**
 > Der Minister betonte, die Reform ___ notwendig. (Indirekte Rede)
@@ -926,7 +916,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 72. `b2-ired-in-021` · input-text
+### 71. `b2-ired-in-021` · input-text
 
 **Aufgabe:**
 > Er behauptete, er ___ unschuldig. (Indirekte Rede)
@@ -936,7 +926,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 73. `b2-ired-in-022` · input-text
+### 72. `b2-ired-in-022` · input-text
 
 **Aufgabe:**
 > Die Zeitung schrieb, die Lage ___ ernst. (Indirekte Rede)
@@ -946,7 +936,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 74. `b2-ired-in-023` · input-text
+### 73. `b2-ired-in-023` · input-text
 
 **Aufgabe:**
 > Er meinte, er ___ das nicht tun können. (Indirekte Rede)
@@ -956,7 +946,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 75. `b2-ired-in-024` · input-text
+### 74. `b2-ired-in-024` · input-text
 
 **Aufgabe:**
 > Sie sagte, sie ___ den Termin verschieben müssen. (Indirekte Rede)
@@ -966,7 +956,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 76. `b2-ired-in-025` · input-text
+### 75. `b2-ired-in-025` · input-text
 
 **Aufgabe:**
 > Der Arzt meinte, der Patient ___ bald genesen. (Indirekte Rede)
@@ -976,7 +966,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 77. `b2-ired-in-026` · input-text
+### 76. `b2-ired-in-026` · input-text
 
 **Aufgabe:**
 > Er erklärte, er ___ die Aufgabe erledigt. (Indirekte Rede)
@@ -986,7 +976,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 78. `b2-ired-in-027` · input-text
+### 77. `b2-ired-in-027` · input-text
 
 **Aufgabe:**
 > Der Experte meinte, das ___ ein Fehler. (Indirekte Rede)
@@ -996,7 +986,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 79. `b2-ired-in-028` · input-text
+### 78. `b2-ired-in-028` · input-text
 
 **Aufgabe:**
 > Sie behauptete, sie ___ nie dort gewesen. (Indirekte Rede)
@@ -1006,7 +996,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 80. `b2-ired-in-029` · input-text
+### 79. `b2-ired-in-029` · input-text
 
 **Aufgabe:**
 > Er sagte, er ___ morgen früher kommen. (Indirekte Rede)
@@ -1016,7 +1006,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 81. `b2-ired-in-030` · input-text
+### 80. `b2-ired-in-030` · input-text
 
 **Aufgabe:**
 > Die Lehrerin erklärte, die Prüfung ___ schwierig. (Indirekte Rede)
@@ -1026,7 +1016,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 82. `b2-ired-in-031` · input-text
+### 81. `b2-ired-in-031` · input-text
 
 **Aufgabe:**
 > Der Zeuge behauptete, er ___ alles gesehen. (Indirekte Rede)
@@ -1036,7 +1026,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 83. `b2-ired-in-032` · input-text
+### 82. `b2-ired-in-032` · input-text
 
 **Aufgabe:**
 > Er erklärte, das Problem ___ bald gelöst. (Indirekte Rede)
@@ -1046,7 +1036,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 84. `b2-ired-in-033` · input-text
+### 83. `b2-ired-in-033` · input-text
 
 **Aufgabe:**
 > Sie sagte, sie ___ keine Einwände. (Indirekte Rede)
@@ -1056,7 +1046,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 85. `b2-ired-in-034` · input-text
+### 84. `b2-ired-in-034` · input-text
 
 **Aufgabe:**
 > Er meinte, er ___ die Nachricht erhalten. (Indirekte Rede)
@@ -1066,7 +1056,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 86. `b2-ired-in-035` · input-text
+### 85. `b2-ired-in-035` · input-text
 
 **Aufgabe:**
 > Er sagte, er ___ keine Zeit. (Indirekte Rede)
@@ -1076,7 +1066,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 87. `b2-ired-in-036` · input-text
+### 86. `b2-ired-in-036` · input-text
 
 **Aufgabe:**
 > Sie erklärte, sie ___ morgen ankommen. (Indirekte Rede)
@@ -1086,7 +1076,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 88. `b2-ired-in-037` · input-text
+### 87. `b2-ired-in-037` · input-text
 
 **Aufgabe:**
 > Der Minister betonte, die Reform ___ notwendig. (Indirekte Rede)
@@ -1096,7 +1086,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 89. `b2-ired-in-038` · input-text
+### 88. `b2-ired-in-038` · input-text
 
 **Aufgabe:**
 > Er behauptete, er ___ unschuldig. (Indirekte Rede)
@@ -1106,7 +1096,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 90. `b2-ired-in-039` · input-text
+### 89. `b2-ired-in-039` · input-text
 
 **Aufgabe:**
 > Die Zeitung schrieb, die Lage ___ ernst. (Indirekte Rede)
@@ -1116,7 +1106,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 91. `b2-ired-in-040` · input-text
+### 90. `b2-ired-in-040` · input-text
 
 **Aufgabe:**
 > Er meinte, er ___ das nicht tun können. (Indirekte Rede)
@@ -1126,7 +1116,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 92. `b2-ired-in-041` · input-text
+### 91. `b2-ired-in-041` · input-text
 
 **Aufgabe:**
 > Sie sagte, sie ___ den Termin verschieben müssen. (Indirekte Rede)
@@ -1136,7 +1126,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 93. `b2-ired-in-042` · input-text
+### 92. `b2-ired-in-042` · input-text
 
 **Aufgabe:**
 > Der Arzt meinte, der Patient ___ bald genesen. (Indirekte Rede)
@@ -1146,7 +1136,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 94. `b2-ired-in-043` · input-text
+### 93. `b2-ired-in-043` · input-text
 
 **Aufgabe:**
 > Er erklärte, er ___ die Aufgabe erledigt. (Indirekte Rede)
@@ -1156,7 +1146,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 95. `b2-ired-in-044` · input-text
+### 94. `b2-ired-in-044` · input-text
 
 **Aufgabe:**
 > Der Experte meinte, das ___ ein Fehler. (Indirekte Rede)
@@ -1166,7 +1156,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 96. `b2-ired-in-045` · input-text
+### 95. `b2-ired-in-045` · input-text
 
 **Aufgabe:**
 > Sie behauptete, sie ___ nie dort gewesen. (Indirekte Rede)
@@ -1176,7 +1166,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 97. `b2-ired-in-046` · input-text
+### 96. `b2-ired-in-046` · input-text
 
 **Aufgabe:**
 > Er sagte, er ___ morgen früher kommen. (Indirekte Rede)
@@ -1186,7 +1176,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 98. `b2-ired-in-047` · input-text
+### 97. `b2-ired-in-047` · input-text
 
 **Aufgabe:**
 > Die Lehrerin erklärte, die Prüfung ___ schwierig. (Indirekte Rede)
@@ -1196,7 +1186,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 99. `b2-ired-in-048` · input-text
+### 98. `b2-ired-in-048` · input-text
 
 **Aufgabe:**
 > Der Zeuge behauptete, er ___ alles gesehen. (Indirekte Rede)
@@ -1206,7 +1196,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 100. `b2-ired-in-049` · input-text
+### 99. `b2-ired-in-049` · input-text
 
 **Aufgabe:**
 > Er erklärte, das Problem ___ bald gelöst. (Indirekte Rede)
@@ -1216,7 +1206,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 101. `b2-ired-in-050` · input-text
+### 100. `b2-ired-in-050` · input-text
 
 **Aufgabe:**
 > Sie sagte, sie ___ keine Einwände. (Indirekte Rede)

@@ -4,7 +4,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 
 **Aktualisieren:** `npm run questions:export-review`
 
-**Stand:** 84 Themen · 10566 Fragen
+**Stand:** 84 Themen · 10565 Fragen
 
 ## So prüfen
 
@@ -91,7 +91,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 | Wortschatz | 150 | [B1/27-WORTSCHATZB1.md](B1/27-WORTSCHATZB1.md) |
 | Sprachbausteine | 48 | [B1/28-SPRACHBAUSTEINEB1.md](B1/28-SPRACHBAUSTEINEB1.md) |
 
-### B2 (1646 Fragen)
+### B2 (1645 Fragen)
 
 | Thema | Fragen | Datei |
 |-------|--------|-------|
@@ -105,7 +105,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 | Lokale Präpositionen | 50 | [B2/08-LOKALEPRÄPOSITIONENB2.md](B2/08-LOKALEPRÄPOSITIONENB2.md) |
 | Modalsatz | 50 | [B2/09-MODALSATZ.md](B2/09-MODALSATZ.md) |
 | Indefinitpronomen | 50 | [B2/10-INDEFINITPRONOMEN.md](B2/10-INDEFINITPRONOMEN.md) |
-| Indirekte Rede | 101 | [B2/11-INDIREKTEREDE.md](B2/11-INDIREKTEREDE.md) |
+| Indirekte Rede | 100 | [B2/11-INDIREKTEREDE.md](B2/11-INDIREKTEREDE.md) |
 | Genitiv-Präpositionen | 52 | [B2/12-PRÄPOSITIONENGENITIV.md](B2/12-PRÄPOSITIONENGENITIV.md) |
 | Pronominaladverbien | 50 | [B2/13-PRÄPOSITIONALADVERBIENB2.md](B2/13-PRÄPOSITIONALADVERBIENB2.md) |
 | Partizip I | 100 | [B2/14-PARTIZIP1.md](B2/14-PARTIZIP1.md) |
