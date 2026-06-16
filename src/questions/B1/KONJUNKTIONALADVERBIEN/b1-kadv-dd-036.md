@@ -12,4 +12,4 @@ words:
   - Prüfung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb bestanden)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

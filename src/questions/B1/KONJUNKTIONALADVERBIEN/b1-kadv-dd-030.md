@@ -5,11 +5,11 @@ words:
   - Er
   - spart
   - Energie
-  - Deshalb
+  - deshalb
   - senkt
   - er
   - seine
   - Kosten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb senkt)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

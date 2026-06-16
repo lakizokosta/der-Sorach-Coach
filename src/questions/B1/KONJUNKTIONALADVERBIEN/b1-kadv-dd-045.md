@@ -6,10 +6,10 @@ words:
   - Politik
   - ändert
   - sich
-  - Deshalb
+  - deshalb
   - reagieren
   - die
   - Bürger
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb reagieren)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

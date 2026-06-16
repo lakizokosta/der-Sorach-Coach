@@ -13,4 +13,4 @@ words:
   - weiter
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem arbeitet)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

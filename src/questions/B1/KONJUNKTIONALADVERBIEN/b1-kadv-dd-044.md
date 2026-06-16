@@ -13,4 +13,4 @@ words:
   - geschlafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem geschlafen)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

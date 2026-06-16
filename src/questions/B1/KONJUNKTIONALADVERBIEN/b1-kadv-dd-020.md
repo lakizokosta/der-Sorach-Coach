@@ -13,4 +13,4 @@ words:
   - Französisch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem Französisch)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

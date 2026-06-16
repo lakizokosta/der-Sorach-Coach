@@ -12,4 +12,4 @@ words:
   - Experten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb Experten)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

@@ -14,4 +14,4 @@ words:
   - gegangen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem gegangen)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

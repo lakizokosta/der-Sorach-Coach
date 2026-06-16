@@ -14,4 +14,4 @@ words:
   - gegangen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch teilgenommen)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

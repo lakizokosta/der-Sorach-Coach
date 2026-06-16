@@ -12,4 +12,4 @@ words:
   - hoch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch Qualität)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

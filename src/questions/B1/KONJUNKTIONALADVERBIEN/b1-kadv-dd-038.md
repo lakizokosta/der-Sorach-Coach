@@ -12,4 +12,4 @@ words:
   - sich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch lohnt)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
