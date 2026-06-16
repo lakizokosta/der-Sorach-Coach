@@ -471,6 +471,7 @@ export function verbFormHint(topic, inner = '', correct = [], options = [], body
   if (topic === 'REDEWENDUNGEN') return 'Grammatikform';
   if (topic === 'RELATIVSATZB2') return 'Grammatikform';
   if (topic === 'TEMPORALERNEBENSATZ') return 'Grammatikform';
+  if (topic === 'QUIZ') return 'Grammatikform';
 
   if (topic === 'REFLEXIVPRONOMEN') {
     const hint = reflexivFormHint(inner, correct, options, body, id);
