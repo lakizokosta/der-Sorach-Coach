@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Ergebnisse ___ morgen bekannt gegeben. (Passiv + Hilfsverb werden)
+Die Ergebnisse ___ morgen bekannt gegeben. (Grammatikform)

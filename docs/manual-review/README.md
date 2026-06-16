@@ -4,7 +4,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 
 **Aktualisieren:** `npm run questions:export-review`
 
-**Stand:** 84 Themen · 10563 Fragen
+**Stand:** 84 Themen · 10562 Fragen
 
 ## So prüfen
 
@@ -91,7 +91,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 | Wortschatz | 150 | [B1/27-WORTSCHATZB1.md](B1/27-WORTSCHATZB1.md) |
 | Sprachbausteine | 48 | [B1/28-SPRACHBAUSTEINEB1.md](B1/28-SPRACHBAUSTEINEB1.md) |
 
-### B2 (1643 Fragen)
+### B2 (1642 Fragen)
 
 | Thema | Fragen | Datei |
 |-------|--------|-------|
@@ -110,7 +110,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 | Pronominaladverbien | 50 | [B2/13-PRÄPOSITIONALADVERBIENB2.md](B2/13-PRÄPOSITIONALADVERBIENB2.md) |
 | Partizip I | 100 | [B2/14-PARTIZIP1.md](B2/14-PARTIZIP1.md) |
 | Partizip II | 100 | [B2/15-PARTIZIP2.md](B2/15-PARTIZIP2.md) |
-| Passiv | 101 | [B2/16-PASSIVB2.md](B2/16-PASSIVB2.md) |
+| Passiv | 100 | [B2/16-PASSIVB2.md](B2/16-PASSIVB2.md) |
 | Passiversatz | 100 | [B2/17-PASSIVERSATZ.md](B2/17-PASSIVERSATZ.md) |
 | Redewendungen | 50 | [B2/18-REDEWENDUNGEN.md](B2/18-REDEWENDUNGEN.md) |
 | Relativsätze | 100 | [B2/19-RELATIVSATZB2.md](B2/19-RELATIVSATZB2.md) |

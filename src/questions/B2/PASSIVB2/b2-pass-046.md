@@ -9,4 +9,4 @@ options:
 correct: ist
 ---
 
-Ein Kompromiss ___ gefunden worden. (Passiv + Verb sein)
+Ein Kompromiss ___ gefunden worden. (Grammatikform)

@@ -4,20 +4,20 @@
 |---|---|
 | **Topic-Key** | `PASSIVB2` |
 | **Beschreibung** | komplexe Passivformen |
-| **Fragen gesamt** | 101 |
-| Auswahl (1 Antwort) | 51 |
+| **Fragen gesamt** | 100 |
+| Auswahl (1 Antwort) | 50 |
 | Eingabe | 50 |
 
 > Manuelle Prüfung: Grammatik, Sinn des Satzes, Hinweise, Antworten.
 
 ---
 
-## Auswahl (1 Antwort) (51)
+## Auswahl (1 Antwort) (50)
 
 ### 1. `b2-pass-001` · select-one
 
 **Aufgabe:**
-> Das Gesetz ___ gestern vom Parlament verabschiedet. (Passiv + Hilfsverb werden)
+> Das Gesetz ___ gestern vom Parlament verabschiedet. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -28,24 +28,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 2. `b2-pass-1` · select-one
+### 2. `b2-pass-002` · select-one
 
 **Aufgabe:**
-> Die Brücke ist 2010 ___ ___. (Passiv + Hilfsverb werden)
-
-**Optionen:**
-- gebaut worden **✓**
-- gebaut geworden
-- bauen worden
-- gebaut gewesen
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 3. `b2-pass-002` · select-one
-
-**Aufgabe:**
-> Die Entscheidung ___ bereits getroffen worden. (Passiv + Verb sein)
+> Die Entscheidung ___ bereits getroffen worden. (Grammatikform)
 
 **Optionen:**
 - wäre
@@ -56,10 +42,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 4. `b2-pass-003` · select-one
+### 3. `b2-pass-003` · select-one
 
 **Aufgabe:**
-> Neue Regeln ___ derzeit diskutiert. (Passiv + Hilfsverb werden)
+> Neue Regeln ___ derzeit diskutiert. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -70,10 +56,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 5. `b2-pass-004` · select-one
+### 4. `b2-pass-004` · select-one
 
 **Aufgabe:**
-> Der Bericht ___ bis Freitag fertiggestellt werden. (Passiv + Hilfsverb werden)
+> Der Bericht ___ bis Freitag fertiggestellt werden. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -84,10 +70,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 6. `b2-pass-005` · select-one
+### 5. `b2-pass-005` · select-one
 
 **Aufgabe:**
-> Das Problem ___ leider nicht gelöst. (Passiv + Hilfsverb werden)
+> Das Problem ___ leider nicht gelöst. (Grammatikform)
 
 **Optionen:**
 - geworden
@@ -98,10 +84,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 7. `b2-pass-006` · select-one
+### 6. `b2-pass-006` · select-one
 
 **Aufgabe:**
-> Die Brücke ___ im nächsten Jahr renoviert. (Passiv + Hilfsverb werden)
+> Die Brücke ___ im nächsten Jahr renoviert. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -112,10 +98,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 8. `b2-pass-007` · select-one
+### 7. `b2-pass-007` · select-one
 
 **Aufgabe:**
-> Alle Gäste ___ rechtzeitig informiert worden. (Passiv + Verb sein)
+> Alle Gäste ___ rechtzeitig informiert worden. (Grammatikform)
 
 **Optionen:**
 - wurden
@@ -126,10 +112,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 9. `b2-pass-008` · select-one
+### 8. `b2-pass-008` · select-one
 
 **Aufgabe:**
-> Der Termin ___ verschoben. (Passiv + Hilfsverb werden)
+> Der Termin ___ verschoben. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -140,10 +126,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 10. `b2-pass-009` · select-one
+### 9. `b2-pass-009` · select-one
 
 **Aufgabe:**
-> Die Daten ___ sorgfältig ausgewertet. (Passiv + Hilfsverb werden)
+> Die Daten ___ sorgfältig ausgewertet. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -154,10 +140,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 11. `b2-pass-010` · select-one
+### 10. `b2-pass-010` · select-one
 
 **Aufgabe:**
-> Das Projekt ___ von der EU gefördert. (Passiv + Hilfsverb werden)
+> Das Projekt ___ von der EU gefördert. (Grammatikform)
 
 **Optionen:**
 - würde
@@ -168,10 +154,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 12. `b2-pass-011` · select-one
+### 11. `b2-pass-011` · select-one
 
 **Aufgabe:**
-> Die Verhandlungen ___ erfolgreich abgeschlossen. (Passiv + Hilfsverb werden)
+> Die Verhandlungen ___ erfolgreich abgeschlossen. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -182,10 +168,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 13. `b2-pass-012` · select-one
+### 12. `b2-pass-012` · select-one
 
 **Aufgabe:**
-> Ein Kompromiss ___ gefunden worden. (Passiv + Verb sein)
+> Ein Kompromiss ___ gefunden worden. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -196,10 +182,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 14. `b2-pass-013` · select-one
+### 13. `b2-pass-013` · select-one
 
 **Aufgabe:**
-> Die Straße ___ wegen Bauarbeiten gesperrt. (Passiv + Hilfsverb werden)
+> Die Straße ___ wegen Bauarbeiten gesperrt. (Grammatikform)
 
 **Optionen:**
 - geworden
@@ -210,10 +196,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 15. `b2-pass-014` · select-one
+### 14. `b2-pass-014` · select-one
 
 **Aufgabe:**
-> Der Antrag ___ abgelehnt. (Passiv + Hilfsverb werden)
+> Der Antrag ___ abgelehnt. (Grammatikform)
 
 **Optionen:**
 - würde
@@ -224,10 +210,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 16. `b2-pass-015` · select-one
+### 15. `b2-pass-015` · select-one
 
 **Aufgabe:**
-> Die Ergebnisse ___ morgen bekannt gegeben. (Passiv + Hilfsverb werden)
+> Die Ergebnisse ___ morgen bekannt gegeben. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -238,10 +224,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 17. `b2-pass-016` · select-one
+### 16. `b2-pass-016` · select-one
 
 **Aufgabe:**
-> Das Gebäude ___ 1920 erbaut. (Passiv + Hilfsverb werden)
+> Das Gebäude ___ 1920 erbaut. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -252,10 +238,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 18. `b2-pass-017` · select-one
+### 17. `b2-pass-017` · select-one
 
 **Aufgabe:**
-> Die Kandidaten ___ bereits benachrichtigt worden. (Passiv + Verb sein)
+> Die Kandidaten ___ bereits benachrichtigt worden. (Grammatikform)
 
 **Optionen:**
 - wurden
@@ -266,10 +252,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 19. `b2-pass-018` · select-one
+### 18. `b2-pass-018` · select-one
 
 **Aufgabe:**
-> Das Gesetz ___ gestern vom Parlament verabschiedet. (Passiv + Verb verabschiedeen)
+> Das Gesetz ___ gestern vom Parlament verabschiedet. (Grammatikform)
 
 **Optionen:**
 - würde
@@ -280,10 +266,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 20. `b2-pass-019` · select-one
+### 19. `b2-pass-019` · select-one
 
 **Aufgabe:**
-> Die Entscheidung ___ bereits getroffen worden. (Passiv + Verb sein)
+> Die Entscheidung ___ bereits getroffen worden. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -294,10 +280,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 21. `b2-pass-020` · select-one
+### 20. `b2-pass-020` · select-one
 
 **Aufgabe:**
-> Neue Regeln ___ derzeit diskutiert. (Passiv + Hilfsverb werden)
+> Neue Regeln ___ derzeit diskutiert. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -308,10 +294,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 22. `b2-pass-021` · select-one
+### 21. `b2-pass-021` · select-one
 
 **Aufgabe:**
-> Der Bericht ___ bis Freitag fertiggestellt werden. (Passiv + Hilfsverb werden)
+> Der Bericht ___ bis Freitag fertiggestellt werden. (Grammatikform)
 
 **Optionen:**
 - geworden
@@ -322,10 +308,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 23. `b2-pass-022` · select-one
+### 22. `b2-pass-022` · select-one
 
 **Aufgabe:**
-> Das Problem ___ leider nicht gelöst. (Passiv + Hilfsverb werden)
+> Das Problem ___ leider nicht gelöst. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -336,10 +322,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 24. `b2-pass-023` · select-one
+### 23. `b2-pass-023` · select-one
 
 **Aufgabe:**
-> Die Brücke ___ im nächsten Jahr renoviert. (Passiv + Hilfsverb werden)
+> Die Brücke ___ im nächsten Jahr renoviert. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -350,10 +336,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 25. `b2-pass-024` · select-one
+### 24. `b2-pass-024` · select-one
 
 **Aufgabe:**
-> Alle Gäste ___ rechtzeitig informiert worden. (Passiv + Hilfsverb werden)
+> Alle Gäste ___ rechtzeitig informiert worden. (Grammatikform)
 
 **Optionen:**
 - wurden
@@ -364,10 +350,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 26. `b2-pass-025` · select-one
+### 25. `b2-pass-025` · select-one
 
 **Aufgabe:**
-> Der Termin ___ verschoben. (Passiv + Hilfsverb werden)
+> Der Termin ___ verschoben. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -378,10 +364,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 27. `b2-pass-026` · select-one
+### 26. `b2-pass-026` · select-one
 
 **Aufgabe:**
-> Die Daten ___ sorgfältig ausgewertet. (Passiv + Hilfsverb werden)
+> Die Daten ___ sorgfältig ausgewertet. (Grammatikform)
 
 **Optionen:**
 - wurden
@@ -392,10 +378,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 28. `b2-pass-027` · select-one
+### 27. `b2-pass-027` · select-one
 
 **Aufgabe:**
-> Das Projekt ___ von der EU gefördert. (Passiv + Hilfsverb werden)
+> Das Projekt ___ von der EU gefördert. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -406,10 +392,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 29. `b2-pass-028` · select-one
+### 28. `b2-pass-028` · select-one
 
 **Aufgabe:**
-> Die Verhandlungen ___ erfolgreich abgeschlossen. (Passiv + Hilfsverb werden)
+> Die Verhandlungen ___ erfolgreich abgeschlossen. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -420,10 +406,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 30. `b2-pass-029` · select-one
+### 29. `b2-pass-029` · select-one
 
 **Aufgabe:**
-> Ein Kompromiss ___ gefunden worden. (Passiv + Verb sein)
+> Ein Kompromiss ___ gefunden worden. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -434,10 +420,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 31. `b2-pass-030` · select-one
+### 30. `b2-pass-030` · select-one
 
 **Aufgabe:**
-> Die Straße ___ wegen Bauarbeiten gesperrt. (Passiv + Verb gesperren)
+> Die Straße ___ wegen Bauarbeiten gesperrt. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -448,10 +434,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 32. `b2-pass-031` · select-one
+### 31. `b2-pass-031` · select-one
 
 **Aufgabe:**
-> Der Antrag ___ abgelehnt. (Passiv + Hilfsverb werden)
+> Der Antrag ___ abgelehnt. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -462,10 +448,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 33. `b2-pass-032` · select-one
+### 32. `b2-pass-032` · select-one
 
 **Aufgabe:**
-> Die Ergebnisse ___ morgen bekannt gegeben. (Passiv + Hilfsverb werden)
+> Die Ergebnisse ___ morgen bekannt gegeben. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -476,10 +462,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 34. `b2-pass-033` · select-one
+### 33. `b2-pass-033` · select-one
 
 **Aufgabe:**
-> Das Gebäude ___ 1920 erbaut. (Passiv + Hilfsverb werden)
+> Das Gebäude ___ 1920 erbaut. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -490,10 +476,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 35. `b2-pass-034` · select-one
+### 34. `b2-pass-034` · select-one
 
 **Aufgabe:**
-> Die Kandidaten ___ bereits benachrichtigt worden. (Passiv + Hilfsverb werden)
+> Die Kandidaten ___ bereits benachrichtigt worden. (Grammatikform)
 
 **Optionen:**
 - werden
@@ -504,10 +490,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 36. `b2-pass-035` · select-one
+### 35. `b2-pass-035` · select-one
 
 **Aufgabe:**
-> Das Gesetz ___ gestern vom Parlament verabschiedet. (Passiv + Verb verabschiedeen)
+> Das Gesetz ___ gestern vom Parlament verabschiedet. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -518,10 +504,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 37. `b2-pass-036` · select-one
+### 36. `b2-pass-036` · select-one
 
 **Aufgabe:**
-> Die Entscheidung ___ bereits getroffen worden. (Passiv + Verb sein)
+> Die Entscheidung ___ bereits getroffen worden. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -532,10 +518,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 38. `b2-pass-037` · select-one
+### 37. `b2-pass-037` · select-one
 
 **Aufgabe:**
-> Neue Regeln ___ derzeit diskutiert. (Passiv + Hilfsverb werden)
+> Neue Regeln ___ derzeit diskutiert. (Grammatikform)
 
 **Optionen:**
 - geworden
@@ -546,10 +532,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 39. `b2-pass-038` · select-one
+### 38. `b2-pass-038` · select-one
 
 **Aufgabe:**
-> Der Bericht ___ bis Freitag fertiggestellt werden. (Passiv + Hilfsverb werden)
+> Der Bericht ___ bis Freitag fertiggestellt werden. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -560,10 +546,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 40. `b2-pass-039` · select-one
+### 39. `b2-pass-039` · select-one
 
 **Aufgabe:**
-> Das Problem ___ leider nicht gelöst. (Passiv + Hilfsverb werden)
+> Das Problem ___ leider nicht gelöst. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -574,10 +560,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 41. `b2-pass-040` · select-one
+### 40. `b2-pass-040` · select-one
 
 **Aufgabe:**
-> Die Brücke ___ im nächsten Jahr renoviert. (Passiv + Hilfsverb werden)
+> Die Brücke ___ im nächsten Jahr renoviert. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -588,10 +574,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 42. `b2-pass-041` · select-one
+### 41. `b2-pass-041` · select-one
 
 **Aufgabe:**
-> Alle Gäste ___ rechtzeitig informiert worden. (Passiv + Hilfsverb werden)
+> Alle Gäste ___ rechtzeitig informiert worden. (Grammatikform)
 
 **Optionen:**
 - waren
@@ -602,10 +588,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 43. `b2-pass-042` · select-one
+### 42. `b2-pass-042` · select-one
 
 **Aufgabe:**
-> Der Termin ___ verschoben. (Passiv + Hilfsverb werden)
+> Der Termin ___ verschoben. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -616,10 +602,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 44. `b2-pass-043` · select-one
+### 43. `b2-pass-043` · select-one
 
 **Aufgabe:**
-> Die Daten ___ sorgfältig ausgewertet. (Passiv + Hilfsverb werden)
+> Die Daten ___ sorgfältig ausgewertet. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -630,10 +616,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 45. `b2-pass-044` · select-one
+### 44. `b2-pass-044` · select-one
 
 **Aufgabe:**
-> Das Projekt ___ von der EU gefördert. (Passiv + Hilfsverb werden)
+> Das Projekt ___ von der EU gefördert. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -644,10 +630,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 46. `b2-pass-045` · select-one
+### 45. `b2-pass-045` · select-one
 
 **Aufgabe:**
-> Die Verhandlungen ___ erfolgreich abgeschlossen. (Passiv + Hilfsverb werden)
+> Die Verhandlungen ___ erfolgreich abgeschlossen. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -658,10 +644,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 47. `b2-pass-046` · select-one
+### 46. `b2-pass-046` · select-one
 
 **Aufgabe:**
-> Ein Kompromiss ___ gefunden worden. (Passiv + Verb sein)
+> Ein Kompromiss ___ gefunden worden. (Grammatikform)
 
 **Optionen:**
 - wäre
@@ -672,10 +658,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 48. `b2-pass-047` · select-one
+### 47. `b2-pass-047` · select-one
 
 **Aufgabe:**
-> Die Straße ___ wegen Bauarbeiten gesperrt. (Passiv + Verb gesperren)
+> Die Straße ___ wegen Bauarbeiten gesperrt. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -686,10 +672,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 49. `b2-pass-048` · select-one
+### 48. `b2-pass-048` · select-one
 
 **Aufgabe:**
-> Der Antrag ___ abgelehnt. (Passiv + Hilfsverb werden)
+> Der Antrag ___ abgelehnt. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -700,10 +686,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 50. `b2-pass-049` · select-one
+### 49. `b2-pass-049` · select-one
 
 **Aufgabe:**
-> Die Ergebnisse ___ morgen bekannt gegeben. (Passiv + Hilfsverb werden)
+> Die Ergebnisse ___ morgen bekannt gegeben. (Grammatikform)
 
 **Optionen:**
 - worden
@@ -714,10 +700,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 51. `b2-pass-050` · select-one
+### 50. `b2-pass-050` · select-one
 
 **Aufgabe:**
-> Das Gebäude ___ 1920 erbaut. (Passiv + Hilfsverb werden)
+> Das Gebäude ___ 1920 erbaut. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -730,7 +716,7 @@
 
 ## Eingabe (50)
 
-### 52. `b2-pass-in-001` · input-text
+### 51. `b2-pass-in-001` · input-text
 
 **Aufgabe:**
 > Das Gesetz ___ gestern verabschiedet. (Passiv + Hilfsverb werden)
@@ -740,7 +726,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 53. `b2-pass-in-002` · input-text
+### 52. `b2-pass-in-002` · input-text
 
 **Aufgabe:**
 > Die Entscheidung ___ bereits getroffen worden. (Passiv + Verb sein)
@@ -750,7 +736,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 54. `b2-pass-in-003` · input-text
+### 53. `b2-pass-in-003` · input-text
 
 **Aufgabe:**
 > Neue Regeln ___ derzeit diskutiert. (Passiv + Hilfsverb werden)
@@ -760,7 +746,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 55. `b2-pass-in-004` · input-text
+### 54. `b2-pass-in-004` · input-text
 
 **Aufgabe:**
 > Der Bericht ___ bis Freitag fertiggestellt. (Passiv + Hilfsverb werden)
@@ -770,7 +756,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 56. `b2-pass-in-005` · input-text
+### 55. `b2-pass-in-005` · input-text
 
 **Aufgabe:**
 > Das Problem ___ leider nicht gelöst. (Passiv + Hilfsverb werden)
@@ -780,7 +766,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 57. `b2-pass-in-006` · input-text
+### 56. `b2-pass-in-006` · input-text
 
 **Aufgabe:**
 > Die Brücke ___ im nächsten Jahr renoviert. (Passiv + Hilfsverb werden)
@@ -790,7 +776,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 58. `b2-pass-in-007` · input-text
+### 57. `b2-pass-in-007` · input-text
 
 **Aufgabe:**
 > Alle Gäste ___ informiert worden. (Passiv + Verb sein)
@@ -800,7 +786,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 59. `b2-pass-in-008` · input-text
+### 58. `b2-pass-in-008` · input-text
 
 **Aufgabe:**
 > Der Termin ___ verschoben. (Passiv + Hilfsverb werden)
@@ -810,7 +796,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 60. `b2-pass-in-009` · input-text
+### 59. `b2-pass-in-009` · input-text
 
 **Aufgabe:**
 > Die Daten ___ sorgfältig ausgewertet. (Passiv + Hilfsverb werden)
@@ -820,7 +806,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 61. `b2-pass-in-010` · input-text
+### 60. `b2-pass-in-010` · input-text
 
 **Aufgabe:**
 > Das Projekt ___ von der EU gefördert. (Passiv + Hilfsverb werden)
@@ -830,7 +816,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 62. `b2-pass-in-011` · input-text
+### 61. `b2-pass-in-011` · input-text
 
 **Aufgabe:**
 > Die Verhandlungen ___ abgeschlossen. (Passiv + Hilfsverb werden)
@@ -840,7 +826,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 63. `b2-pass-in-012` · input-text
+### 62. `b2-pass-in-012` · input-text
 
 **Aufgabe:**
 > Ein Kompromiss ___ gefunden worden. (Passiv + Verb sein)
@@ -850,7 +836,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 64. `b2-pass-in-013` · input-text
+### 63. `b2-pass-in-013` · input-text
 
 **Aufgabe:**
 > Die Straße ___ gesperrt. (Passiv + Hilfsverb werden)
@@ -860,7 +846,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 65. `b2-pass-in-014` · input-text
+### 64. `b2-pass-in-014` · input-text
 
 **Aufgabe:**
 > Der Antrag ___ abgelehnt. (Passiv + Hilfsverb werden)
@@ -870,7 +856,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 66. `b2-pass-in-015` · input-text
+### 65. `b2-pass-in-015` · input-text
 
 **Aufgabe:**
 > Die Ergebnisse ___ morgen bekannt gegeben. (Passiv + Hilfsverb werden)
@@ -880,7 +866,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 67. `b2-pass-in-016` · input-text
+### 66. `b2-pass-in-016` · input-text
 
 **Aufgabe:**
 > Das Gebäude ___ 1920 erbaut. (Passiv + Hilfsverb werden)
@@ -890,7 +876,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 68. `b2-pass-in-017` · input-text
+### 67. `b2-pass-in-017` · input-text
 
 **Aufgabe:**
 > Die Kandidaten ___ benachrichtigt worden. (Passiv + Verb sein)
@@ -900,7 +886,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 69. `b2-pass-in-018` · input-text
+### 68. `b2-pass-in-018` · input-text
 
 **Aufgabe:**
 > Das Gesetz ___ gestern verabschiedet. (Passiv + Hilfsverb werden)
@@ -910,7 +896,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 70. `b2-pass-in-019` · input-text
+### 69. `b2-pass-in-019` · input-text
 
 **Aufgabe:**
 > Die Entscheidung ___ bereits getroffen worden. (Passiv + Verb sein)
@@ -920,7 +906,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 71. `b2-pass-in-020` · input-text
+### 70. `b2-pass-in-020` · input-text
 
 **Aufgabe:**
 > Neue Regeln ___ derzeit diskutiert. (Passiv + Hilfsverb werden)
@@ -930,7 +916,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 72. `b2-pass-in-021` · input-text
+### 71. `b2-pass-in-021` · input-text
 
 **Aufgabe:**
 > Der Bericht ___ bis Freitag fertiggestellt. (Passiv + Hilfsverb werden)
@@ -940,7 +926,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 73. `b2-pass-in-022` · input-text
+### 72. `b2-pass-in-022` · input-text
 
 **Aufgabe:**
 > Das Problem ___ leider nicht gelöst. (Passiv + Hilfsverb werden)
@@ -950,7 +936,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 74. `b2-pass-in-023` · input-text
+### 73. `b2-pass-in-023` · input-text
 
 **Aufgabe:**
 > Die Brücke ___ im nächsten Jahr renoviert. (Passiv + Hilfsverb werden)
@@ -960,7 +946,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 75. `b2-pass-in-024` · input-text
+### 74. `b2-pass-in-024` · input-text
 
 **Aufgabe:**
 > Alle Gäste ___ informiert worden. (Passiv + Verb sein)
@@ -970,7 +956,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 76. `b2-pass-in-025` · input-text
+### 75. `b2-pass-in-025` · input-text
 
 **Aufgabe:**
 > Der Termin ___ verschoben. (Passiv + Hilfsverb werden)
@@ -980,7 +966,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 77. `b2-pass-in-026` · input-text
+### 76. `b2-pass-in-026` · input-text
 
 **Aufgabe:**
 > Die Daten ___ sorgfältig ausgewertet. (Passiv + Hilfsverb werden)
@@ -990,7 +976,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 78. `b2-pass-in-027` · input-text
+### 77. `b2-pass-in-027` · input-text
 
 **Aufgabe:**
 > Das Projekt ___ von der EU gefördert. (Passiv + Hilfsverb werden)
@@ -1000,7 +986,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 79. `b2-pass-in-028` · input-text
+### 78. `b2-pass-in-028` · input-text
 
 **Aufgabe:**
 > Die Verhandlungen ___ abgeschlossen. (Passiv + Hilfsverb werden)
@@ -1010,7 +996,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 80. `b2-pass-in-029` · input-text
+### 79. `b2-pass-in-029` · input-text
 
 **Aufgabe:**
 > Ein Kompromiss ___ gefunden worden. (Passiv + Verb sein)
@@ -1020,7 +1006,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 81. `b2-pass-in-030` · input-text
+### 80. `b2-pass-in-030` · input-text
 
 **Aufgabe:**
 > Die Straße ___ gesperrt. (Passiv + Hilfsverb werden)
@@ -1030,7 +1016,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 82. `b2-pass-in-031` · input-text
+### 81. `b2-pass-in-031` · input-text
 
 **Aufgabe:**
 > Der Antrag ___ abgelehnt. (Passiv + Hilfsverb werden)
@@ -1040,7 +1026,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 83. `b2-pass-in-032` · input-text
+### 82. `b2-pass-in-032` · input-text
 
 **Aufgabe:**
 > Die Ergebnisse ___ morgen bekannt gegeben. (Passiv + Hilfsverb werden)
@@ -1050,7 +1036,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 84. `b2-pass-in-033` · input-text
+### 83. `b2-pass-in-033` · input-text
 
 **Aufgabe:**
 > Das Gebäude ___ 1920 erbaut. (Passiv + Hilfsverb werden)
@@ -1060,7 +1046,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 85. `b2-pass-in-034` · input-text
+### 84. `b2-pass-in-034` · input-text
 
 **Aufgabe:**
 > Die Kandidaten ___ benachrichtigt worden. (Passiv + Verb sein)
@@ -1070,7 +1056,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 86. `b2-pass-in-035` · input-text
+### 85. `b2-pass-in-035` · input-text
 
 **Aufgabe:**
 > Das Gesetz ___ gestern verabschiedet. (Passiv + Hilfsverb werden)
@@ -1080,7 +1066,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 87. `b2-pass-in-036` · input-text
+### 86. `b2-pass-in-036` · input-text
 
 **Aufgabe:**
 > Die Entscheidung ___ bereits getroffen worden. (Passiv + Verb sein)
@@ -1090,7 +1076,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 88. `b2-pass-in-037` · input-text
+### 87. `b2-pass-in-037` · input-text
 
 **Aufgabe:**
 > Neue Regeln ___ derzeit diskutiert. (Passiv + Hilfsverb werden)
@@ -1100,7 +1086,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 89. `b2-pass-in-038` · input-text
+### 88. `b2-pass-in-038` · input-text
 
 **Aufgabe:**
 > Der Bericht ___ bis Freitag fertiggestellt. (Passiv + Hilfsverb werden)
@@ -1110,7 +1096,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 90. `b2-pass-in-039` · input-text
+### 89. `b2-pass-in-039` · input-text
 
 **Aufgabe:**
 > Das Problem ___ leider nicht gelöst. (Passiv + Hilfsverb werden)
@@ -1120,7 +1106,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 91. `b2-pass-in-040` · input-text
+### 90. `b2-pass-in-040` · input-text
 
 **Aufgabe:**
 > Die Brücke ___ im nächsten Jahr renoviert. (Passiv + Hilfsverb werden)
@@ -1130,7 +1116,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 92. `b2-pass-in-041` · input-text
+### 91. `b2-pass-in-041` · input-text
 
 **Aufgabe:**
 > Alle Gäste ___ informiert worden. (Passiv + Verb sein)
@@ -1140,7 +1126,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 93. `b2-pass-in-042` · input-text
+### 92. `b2-pass-in-042` · input-text
 
 **Aufgabe:**
 > Der Termin ___ verschoben. (Passiv + Hilfsverb werden)
@@ -1150,7 +1136,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 94. `b2-pass-in-043` · input-text
+### 93. `b2-pass-in-043` · input-text
 
 **Aufgabe:**
 > Die Daten ___ sorgfältig ausgewertet. (Passiv + Hilfsverb werden)
@@ -1160,7 +1146,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 95. `b2-pass-in-044` · input-text
+### 94. `b2-pass-in-044` · input-text
 
 **Aufgabe:**
 > Das Projekt ___ von der EU gefördert. (Passiv + Hilfsverb werden)
@@ -1170,7 +1156,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 96. `b2-pass-in-045` · input-text
+### 95. `b2-pass-in-045` · input-text
 
 **Aufgabe:**
 > Die Verhandlungen ___ abgeschlossen. (Passiv + Hilfsverb werden)
@@ -1180,7 +1166,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 97. `b2-pass-in-046` · input-text
+### 96. `b2-pass-in-046` · input-text
 
 **Aufgabe:**
 > Ein Kompromiss ___ gefunden worden. (Passiv + Verb sein)
@@ -1190,7 +1176,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 98. `b2-pass-in-047` · input-text
+### 97. `b2-pass-in-047` · input-text
 
 **Aufgabe:**
 > Die Straße ___ gesperrt. (Passiv + Hilfsverb werden)
@@ -1200,7 +1186,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 99. `b2-pass-in-048` · input-text
+### 98. `b2-pass-in-048` · input-text
 
 **Aufgabe:**
 > Der Antrag ___ abgelehnt. (Passiv + Hilfsverb werden)
@@ -1210,7 +1196,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 100. `b2-pass-in-049` · input-text
+### 99. `b2-pass-in-049` · input-text
 
 **Aufgabe:**
 > Die Ergebnisse ___ morgen bekannt gegeben. (Passiv + Hilfsverb werden)
@@ -1220,7 +1206,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 101. `b2-pass-in-050` · input-text
+### 100. `b2-pass-in-050` · input-text
 
 **Aufgabe:**
 > Das Gebäude ___ 1920 erbaut. (Passiv + Hilfsverb werden)

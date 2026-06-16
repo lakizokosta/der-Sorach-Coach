@@ -9,4 +9,4 @@ options:
 correct: sind
 ---
 
-Alle Gäste ___ rechtzeitig informiert worden. (Passiv + Verb sein)
+Alle Gäste ___ rechtzeitig informiert worden. (Grammatikform)

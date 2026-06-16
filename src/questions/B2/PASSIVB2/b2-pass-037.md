@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Neue Regeln ___ derzeit diskutiert. (Passiv + Hilfsverb werden)
+Neue Regeln ___ derzeit diskutiert. (Grammatikform)

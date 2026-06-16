@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Das Projekt ___ von der EU gefördert. (Passiv + Hilfsverb werden)
+Das Projekt ___ von der EU gefördert. (Grammatikform)
