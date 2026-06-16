@@ -2,11 +2,11 @@
 id: b1-vnv-dd-025
 type: dropbox
 words:
-  - Der
-  - Minister
-  - hält
+  - Er
+  - reicht
   - eine
-  - Rede
+  - Bewerbung
+  - ein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rede halten)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

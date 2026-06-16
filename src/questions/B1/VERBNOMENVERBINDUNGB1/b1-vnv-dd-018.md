@@ -2,13 +2,14 @@
 id: b1-vnv-dd-018
 type: dropbox
 words:
-  - Wir
-  - müssen
-  - heute
-  - eine
-  - wichtige
-  - Entscheidung
-  - treffen
+  - Sie
+  - zeigt
+  - ein
+  - großes
+  - Interesse
+  - an
+  - dem
+  - Thema
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Entscheidung treffen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

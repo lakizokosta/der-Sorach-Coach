@@ -2,13 +2,12 @@
 id: b1-vnv-dd-021
 type: dropbox
 words:
-  - Die
-  - Firma
-  - knüpft
-  - Kontakt
-  - mit
-  - neuen
-  - Kunden
+  - Wir
+  - nehmen
+  - Rücksicht
+  - auf
+  - die
+  - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kontakt knüpfen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

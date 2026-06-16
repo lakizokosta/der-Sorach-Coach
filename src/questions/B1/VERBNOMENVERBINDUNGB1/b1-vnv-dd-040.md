@@ -2,12 +2,11 @@
 id: b1-vnv-dd-040
 type: dropbox
 words:
-  - Wir
-  - nehmen
-  - Rücksicht
-  - auf
-  - die
-  - Kollegen
+  - Er
+  - reicht
+  - eine
+  - Bewerbung
+  - ein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rücksicht nehmen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

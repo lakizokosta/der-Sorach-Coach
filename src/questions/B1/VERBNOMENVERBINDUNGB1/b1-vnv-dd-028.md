@@ -2,10 +2,12 @@
 id: b1-vnv-dd-028
 type: dropbox
 words:
-  - Wir
-  - haben
-  - ein
-  - Meeting
+  - Er
+  - übernimmt
+  - Verantwortung
+  - für
+  - das
+  - Projekt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meeting haben)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

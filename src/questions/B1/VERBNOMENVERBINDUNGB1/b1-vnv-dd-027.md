@@ -2,11 +2,10 @@
 id: b1-vnv-dd-027
 type: dropbox
 words:
-  - Er
-  - reicht
+  - Sie
+  - stellt
   - eine
-  - Bewerbung
-  - ein
+  - Diagnose
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Bewerbung einreichen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

@@ -2,10 +2,12 @@
 id: b1-vnv-dd-029
 type: dropbox
 words:
-  - Sie
-  - stellt
-  - eine
-  - Diagnose
+  - Die
+  - Universität
+  - bietet
+  - einen
+  - Kurs
+  - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Diagnose stellen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

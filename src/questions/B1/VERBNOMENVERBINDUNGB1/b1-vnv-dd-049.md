@@ -2,10 +2,13 @@
 id: b1-vnv-dd-049
 type: dropbox
 words:
-  - Ich
-  - mache
-  - eine
-  - Pause
+  - Die
+  - Firma
+  - knüpft
+  - Kontakt
+  - mit
+  - neuen
+  - Kunden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Pause machen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

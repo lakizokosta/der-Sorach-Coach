@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Er
   - führt
-  - durch
   - eine
   - sorgfältige
   - Untersuchung
+  - durch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Untersuchung durchführen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

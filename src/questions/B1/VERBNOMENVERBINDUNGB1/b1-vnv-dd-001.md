@@ -11,4 +11,4 @@ words:
   - treffen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Entscheidung treffen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

@@ -11,4 +11,4 @@ words:
   - Chef
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Gespräch führen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

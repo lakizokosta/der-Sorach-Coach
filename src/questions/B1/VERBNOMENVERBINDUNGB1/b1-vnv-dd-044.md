@@ -2,11 +2,12 @@
 id: b1-vnv-dd-044
 type: dropbox
 words:
-  - Er
-  - reicht
-  - eine
-  - Bewerbung
-  - ein
+  - Die
+  - Universität
+  - bietet
+  - einen
+  - Kurs
+  - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Bewerbung einreichen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

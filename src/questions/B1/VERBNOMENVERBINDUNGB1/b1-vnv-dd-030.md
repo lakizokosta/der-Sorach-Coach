@@ -2,12 +2,10 @@
 id: b1-vnv-dd-030
 type: dropbox
 words:
-  - Er
-  - übernimmt
-  - Verantwortung
-  - für
-  - das
-  - Projekt
+  - Ich
+  - mache
+  - eine
+  - Pause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Verantwortung übernehmen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

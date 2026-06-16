@@ -8,4 +8,4 @@ words:
   - Pause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Pause machen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

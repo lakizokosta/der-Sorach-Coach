@@ -8,4 +8,4 @@ words:
   - Diagnose
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Diagnose stellen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

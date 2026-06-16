@@ -2,10 +2,13 @@
 id: b1-vnv-dd-046
 type: dropbox
 words:
-  - Sie
-  - stellt
+  - Wir
+  - müssen
+  - heute
   - eine
-  - Diagnose
+  - wichtige
+  - Entscheidung
+  - treffen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Diagnose stellen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

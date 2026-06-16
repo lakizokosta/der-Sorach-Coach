@@ -2,10 +2,10 @@
 id: b1-vnv-dd-045
 type: dropbox
 words:
-  - Wir
-  - haben
-  - ein
-  - Meeting
+  - Ich
+  - mache
+  - eine
+  - Pause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meeting haben)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

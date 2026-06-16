@@ -2,14 +2,13 @@
 id: b1-vnv-dd-022
 type: dropbox
 words:
-  - Er
-  - äußert
-  - eine
-  - klare
-  - Meinung
-  - zu
-  - der
-  - Frage
+  - Sie
+  - absolviert
+  - ein
+  - Praktikum
+  - in
+  - einer
+  - Klinik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meinung äußern)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

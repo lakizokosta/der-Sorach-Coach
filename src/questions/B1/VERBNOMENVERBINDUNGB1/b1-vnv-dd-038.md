@@ -2,13 +2,11 @@
 id: b1-vnv-dd-038
 type: dropbox
 words:
-  - Die
-  - Firma
-  - knüpft
-  - Kontakt
-  - mit
-  - neuen
-  - Kunden
+  - Der
+  - Minister
+  - hält
+  - eine
+  - Rede
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kontakt knüpfen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

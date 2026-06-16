@@ -11,4 +11,4 @@ words:
   - Klinik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Praktikum absolvieren)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

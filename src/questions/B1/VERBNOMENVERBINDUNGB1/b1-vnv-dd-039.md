@@ -2,14 +2,13 @@
 id: b1-vnv-dd-039
 type: dropbox
 words:
-  - Er
-  - äußert
-  - eine
-  - klare
-  - Meinung
-  - zu
-  - der
-  - Frage
+  - Ich
+  - führe
+  - ein
+  - Gespräch
+  - mit
+  - dem
+  - Chef
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meinung äußern)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

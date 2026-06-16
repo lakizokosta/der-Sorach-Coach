@@ -11,4 +11,4 @@ words:
   - Kunden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kontakt knüpfen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

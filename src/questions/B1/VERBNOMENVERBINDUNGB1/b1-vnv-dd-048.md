@@ -2,12 +2,14 @@
 id: b1-vnv-dd-048
 type: dropbox
 words:
-  - Die
-  - Universität
-  - bietet
-  - einen
-  - Kurs
+  - Sie
+  - zeigt
+  - ein
+  - großes
+  - Interesse
   - an
+  - dem
+  - Thema
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kurs anbieten)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

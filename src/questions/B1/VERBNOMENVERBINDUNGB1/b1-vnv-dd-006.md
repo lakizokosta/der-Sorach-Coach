@@ -10,4 +10,4 @@ words:
   - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rücksicht nehmen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

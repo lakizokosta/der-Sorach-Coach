@@ -10,4 +10,4 @@ words:
   - Projekt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Verantwortung übernehmen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

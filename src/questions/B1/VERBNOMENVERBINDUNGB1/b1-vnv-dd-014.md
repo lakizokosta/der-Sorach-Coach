@@ -10,4 +10,4 @@ words:
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kurs anbieten)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

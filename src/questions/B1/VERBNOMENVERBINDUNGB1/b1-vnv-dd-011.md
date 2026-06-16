@@ -8,4 +8,4 @@ words:
   - Meeting
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meeting haben)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
