@@ -8,4 +8,4 @@ words:
   - impfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb impfen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

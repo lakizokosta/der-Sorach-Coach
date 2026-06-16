@@ -10,4 +10,4 @@ words:
   - Ausruhen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb Ausruhen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

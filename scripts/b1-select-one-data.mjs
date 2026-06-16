@@ -720,7 +720,7 @@ export function genVerblassen() {
     ['Sie ___ den Bericht Korrektur lesen.', 'lässt', ['lasse', 'lassen', 'ließ', 'gelassen']],
     ['Ich ___ mir eine zweite Meinung geben.', 'lasse', ['lasst', 'lassen', 'ließ', 'gelassen']],
     ['Er ___ sich impfen.', 'lässt', ['lasse', 'lassen', 'ließ', 'gelassen']],
-    ['Wir ___ das Problem nicht zu ruhen.', 'lassen', ['lasse', 'lasst', 'ließ', 'gelassen']],
+    ['Wir ___ das Problem nicht ruhen.', 'lassen', ['lasse', 'lasst', 'ließ', 'gelassen']],
     ['Sie ___ die Kinder von der Oma abholen.', 'lässt', ['lasse', 'lassen', 'ließ', 'gelassen']],
     ['Du ___ dir Zeit zum Ausruhen.', 'lässt', ['lasse', 'lassen', 'ließ', 'gelassen']],
     ['Ich ___ mich nicht unter Druck setzen.', 'lasse', ['lasst', 'lassen', 'ließ', 'gelassen']],

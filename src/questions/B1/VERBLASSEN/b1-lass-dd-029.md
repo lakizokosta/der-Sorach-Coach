@@ -2,13 +2,12 @@
 id: b1-lass-dd-029
 type: dropbox
 words:
-  - Wir
-  - lassen
-  - das
-  - Problem
-  - nicht
-  - zu
-  - ruhen
+  - Du
+  - lässt
+  - dir
+  - Zeit
+  - zum
+  - Ausruhen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb Ausruhen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

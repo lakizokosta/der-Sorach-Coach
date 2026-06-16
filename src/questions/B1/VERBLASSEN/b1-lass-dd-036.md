@@ -2,13 +2,12 @@
 id: b1-lass-dd-036
 type: dropbox
 words:
-  - Er
-  - lässt
-  - sich
-  - von
-  - einem
-  - Spezialisten
-  - beraten
+  - Ich
+  - lasse
+  - mir
+  - den
+  - Vertrag
+  - erklären
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb erklären)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

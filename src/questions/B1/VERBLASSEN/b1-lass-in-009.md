@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Sie ___ den Bericht Korrektur lesen. (lassen + Verb lesen)
+Sie ___ den Bericht Korrektur lesen. (Verben lassen)

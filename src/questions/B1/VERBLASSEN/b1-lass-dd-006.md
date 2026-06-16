@@ -10,4 +10,4 @@ words:
   - erklären
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb erklären)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

@@ -9,4 +9,4 @@ options:
 correct: lasse
 ---
 
-Ich ___ mir eine zweite Meinung geben. (lassen + Verb geben)
+Ich ___ mir eine zweite Meinung geben. (Verben lassen)

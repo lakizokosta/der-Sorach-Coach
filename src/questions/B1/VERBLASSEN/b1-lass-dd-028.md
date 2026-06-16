@@ -2,10 +2,14 @@
 id: b1-lass-dd-028
 type: dropbox
 words:
-  - Er
+  - Sie
   - lässt
-  - sich
-  - impfen
+  - die
+  - Kinder
+  - von
+  - der
+  - Oma
+  - abholen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb abholen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

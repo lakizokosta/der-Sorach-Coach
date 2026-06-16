@@ -2,13 +2,11 @@
 id: b1-lass-dd-019
 type: dropbox
 words:
-  - Er
+  - Sie
   - lässt
-  - sich
-  - von
-  - einem
-  - Spezialisten
-  - beraten
+  - die
+  - Haare
+  - schneiden
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb schneiden)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

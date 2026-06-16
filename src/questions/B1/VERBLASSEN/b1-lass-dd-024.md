@@ -2,13 +2,12 @@
 id: b1-lass-dd-024
 type: dropbox
 words:
-  - Er
+  - Sie
   - lässt
-  - das
-  - Paket
-  - nach
-  - Hause
-  - bringen
+  - den
+  - Bericht
+  - Korrektur
+  - lesen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb lesen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Wir
   - lassen
-  - uns
-  - im
-  - Hotel
-  - einchecken
+  - das
+  - Problem
+  - nicht
+  - ruhen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb ruhen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

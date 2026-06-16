@@ -2,12 +2,13 @@
 id: b1-lass-dd-022
 type: dropbox
 words:
-  - Du
+  - Er
   - lässt
-  - dir
-  - die
-  - Zähne
-  - kontrollieren
+  - das
+  - Paket
+  - nach
+  - Hause
+  - bringen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb bringen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

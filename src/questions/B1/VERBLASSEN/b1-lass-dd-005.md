@@ -10,4 +10,4 @@ words:
   - kontrollieren
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb kontrollieren)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

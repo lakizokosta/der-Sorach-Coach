@@ -2,11 +2,11 @@
 id: b1-lass-dd-033
 type: dropbox
 words:
-  - Ich
-  - lasse
-  - das
-  - Auto
-  - reparieren
+  - Wir
+  - lassen
+  - unsere
+  - Dokumente
+  - übersetzen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb bersetzen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

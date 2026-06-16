@@ -2,13 +2,11 @@
 id: b1-lass-dd-046
 type: dropbox
 words:
-  - Wir
-  - lassen
+  - Ich
+  - lasse
   - das
-  - Problem
-  - nicht
-  - zu
-  - ruhen
+  - Auto
+  - reparieren
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb reparieren)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

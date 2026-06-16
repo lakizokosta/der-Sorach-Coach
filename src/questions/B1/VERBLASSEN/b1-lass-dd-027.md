@@ -2,13 +2,12 @@
 id: b1-lass-dd-027
 type: dropbox
 words:
-  - Ich
-  - lasse
-  - mir
-  - eine
-  - zweite
-  - Meinung
-  - geben
+  - Wir
+  - lassen
+  - das
+  - Problem
+  - nicht
+  - ruhen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb ruhen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)
