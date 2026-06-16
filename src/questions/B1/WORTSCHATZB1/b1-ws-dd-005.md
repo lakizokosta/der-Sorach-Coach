@@ -11,4 +11,4 @@ words:
   - beschlossen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Regierung)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

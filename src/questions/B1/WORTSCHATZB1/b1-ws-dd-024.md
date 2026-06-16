@@ -2,14 +2,13 @@
 id: b1-ws-dd-024
 type: dropbox
 words:
-  - Die
-  - Nachfrage
-  - an
-  - der
-  - Universität
-  - ist
-  - sehr
-  - hoch
+  - Der
+  - Bericht
+  - zeigt
+  - dass
+  - die
+  - Wirtschaft
+  - wächst
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Nachfrage)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

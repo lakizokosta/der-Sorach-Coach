@@ -2,14 +2,14 @@
 id: b1-ws-dd-041
 type: dropbox
 words:
-  - Die
-  - Nachfrage
-  - an
+  - Er
+  - hat
+  - eine
+  - verantwortliche
+  - Stellung
+  - in
   - der
-  - Universität
-  - ist
-  - sehr
-  - hoch
+  - Firma
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Nachfrage)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

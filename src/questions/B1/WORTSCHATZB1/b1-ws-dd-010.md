@@ -9,4 +9,4 @@ words:
   - Energiequellen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — erneuerbare)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

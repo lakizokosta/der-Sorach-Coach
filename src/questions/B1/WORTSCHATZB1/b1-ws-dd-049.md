@@ -2,13 +2,16 @@
 id: b1-ws-dd-049
 type: dropbox
 words:
-  - Die
-  - Genesung
-  - nach
-  - dem
-  - Unfall
-  - war
-  - lang
+  - Wir
+  - müssen
+  - den
+  - Ausstoß
+  - senken
+  - um
+  - die
+  - Umwelt
+  - zu
+  - schützen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Genesung)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

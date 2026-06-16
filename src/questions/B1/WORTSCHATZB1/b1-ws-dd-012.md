@@ -9,4 +9,4 @@ words:
   - früh
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Konferenz)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

@@ -12,4 +12,4 @@ words:
   - Firma
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — verantwortliche)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

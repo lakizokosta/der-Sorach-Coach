@@ -3,10 +3,11 @@ id: b1-ws-dd-048
 type: dropbox
 words:
   - Der
-  - Arzt
-  - verschreibt
-  - ein
-  - Medikament
+  - Journalist
+  - berichtet
+  - über
+  - internationale
+  - Ereignisse
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Medikament)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

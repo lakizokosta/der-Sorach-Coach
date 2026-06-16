@@ -2,16 +2,13 @@
 id: b1-ws-dd-038
 type: dropbox
 words:
-  - Wir
-  - müssen
-  - den
-  - Ausstoß
-  - senken
-  - um
-  - die
-  - Umwelt
-  - zu
-  - schützen
+  - Sie
+  - hat
+  - eine
+  - Impfung
+  - gegen
+  - Grippe
+  - bekommen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Ausstoß)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

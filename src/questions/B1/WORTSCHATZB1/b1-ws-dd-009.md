@@ -11,4 +11,4 @@ words:
   - wächst
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Bericht)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

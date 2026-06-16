@@ -2,14 +2,13 @@
 id: b1-ws-dd-023
 type: dropbox
 words:
-  - Er
+  - Sie
   - hat
   - eine
-  - Unterkunft
-  - für
-  - nächsten
-  - Monat
-  - gebucht
+  - Impfung
+  - gegen
+  - Grippe
+  - bekommen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Unterkunft)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

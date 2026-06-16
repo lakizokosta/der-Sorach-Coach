@@ -738,9 +738,9 @@ export function genVerblassen() {
 export function genWortschatzB1() {
   const items = [
     ['Nach der Operation braucht der Patient eine ___.', 'Rehabilitation', ['Renovierung', 'Reservation', 'Reklamation', 'Rezension']],
-    ['Die ___ der Arbeitsplätze ist ein wichtiges Thema.', 'Sicherheit', ['Sicherung', 'Sicherheitssystem', 'Sicheres', 'Sichern']],
+    ['Die ___ der Arbeitsplätze ist ein wichtiges Thema.', 'Sicherheit', ['Sicherlichkeit', 'Sicherheitssystem', 'Sicheres', 'Sichern']],
     ['Der ___ berichtet über internationale Ereignisse.', 'Journalist', ['Jurnalist', 'Journal', 'Journalismus', 'Journale']],
-    ['Wir müssen den ___ senken, um die Umwelt zu schützen.', 'Ausstoß', ['Ausstoss', 'Ausstoßen', 'Ausstoßung', 'Ausstoßer']],
+    ['Wir müssen den ___ senken, um die Umwelt zu schützen.', 'Ausstoß', ['Ausstoßment', 'Ausstoßen', 'Ausstoßung', 'Ausstoßer']],
     ['Die ___ hat eine neue Regelung beschlossen.', 'Regierung', ['Regiering', 'Regierend', 'Regierer', 'Regierbar']],
     ['Er hat eine ___ für nächsten Monat gebucht.', 'Unterkunft', ['Unterkunftung', 'Unterkommen', 'Unterkunftbar', 'Unterkünft']],
     ['Die ___ an der Universität ist sehr hoch.', 'Nachfrage', ['Nachfragen', 'Nachfragend', 'Nachfrager', 'Nachfragebar']],

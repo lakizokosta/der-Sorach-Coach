@@ -2,11 +2,11 @@
 id: b1-ws-dd-044
 type: dropbox
 words:
-  - Wir
-  - diskutieren
-  - über
-  - erneuerbare
-  - Energiequellen
+  - Der
+  - Arzt
+  - verschreibt
+  - ein
+  - Medikament
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — erneuerbare)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

@@ -12,4 +12,4 @@ words:
   - Thema
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Sicherheit)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

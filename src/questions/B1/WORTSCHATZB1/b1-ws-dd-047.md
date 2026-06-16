@@ -2,14 +2,14 @@
 id: b1-ws-dd-047
 type: dropbox
 words:
-  - Sie
-  - sucht
-  - eine
-  - nachhaltige
-  - Lösung
-  - für
-  - das
-  - Problem
+  - Die
+  - Sicherheit
+  - der
+  - Arbeitsplätze
+  - ist
+  - ein
+  - wichtiges
+  - Thema
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — nachhaltige)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

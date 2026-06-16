@@ -2,13 +2,14 @@
 id: b1-ws-dd-043
 type: dropbox
 words:
-  - Der
-  - Bericht
-  - zeigt
-  - dass
-  - die
-  - Wirtschaft
-  - wächst
+  - Sie
+  - sucht
+  - eine
+  - nachhaltige
+  - Lösung
+  - für
+  - das
+  - Problem
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Bericht)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

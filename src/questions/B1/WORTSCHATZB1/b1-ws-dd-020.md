@@ -2,12 +2,13 @@
 id: b1-ws-dd-020
 type: dropbox
 words:
-  - Der
-  - Journalist
-  - berichtet
-  - über
-  - internationale
-  - Ereignisse
+  - Die
+  - Regierung
+  - hat
+  - eine
+  - neue
+  - Regelung
+  - beschlossen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Journalist)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

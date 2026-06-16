@@ -2,14 +2,16 @@
 id: b1-ws-dd-034
 type: dropbox
 words:
-  - Die
-  - Sicherheit
-  - der
-  - Arbeitsplätze
-  - ist
-  - ein
-  - wichtiges
-  - Thema
+  - Wir
+  - müssen
+  - den
+  - Ausstoß
+  - senken
+  - um
+  - die
+  - Umwelt
+  - zu
+  - schützen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Umweltschutz)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

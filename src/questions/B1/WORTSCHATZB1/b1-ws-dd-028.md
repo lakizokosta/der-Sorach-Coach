@@ -2,14 +2,14 @@
 id: b1-ws-dd-028
 type: dropbox
 words:
-  - Er
-  - hat
+  - Sie
+  - sucht
   - eine
-  - verantwortliche
-  - Stellung
-  - in
-  - der
-  - Firma
+  - nachhaltige
+  - Lösung
+  - für
+  - das
+  - Problem
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — verantwortliche)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

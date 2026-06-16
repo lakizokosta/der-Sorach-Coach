@@ -9,4 +9,4 @@ words:
   - Medikament
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Medikament)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

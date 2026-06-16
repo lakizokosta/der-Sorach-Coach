@@ -11,4 +11,4 @@ words:
   - bekommen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Impfung)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

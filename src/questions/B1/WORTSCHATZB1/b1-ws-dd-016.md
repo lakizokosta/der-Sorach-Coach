@@ -6,9 +6,9 @@ words:
   - der
   - Operation
   - braucht
-  - ein
+  - der
   - Patient
   - Rehabilitation
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Bewerbung)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

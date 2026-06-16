@@ -2,11 +2,13 @@
 id: b1-ws-dd-046
 type: dropbox
 words:
-  - Die
-  - Konferenz
-  - beginnt
-  - morgen
-  - früh
+  - Nach
+  - der
+  - Operation
+  - braucht
+  - der
+  - Patient
+  - Rehabilitation
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Konferenz)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

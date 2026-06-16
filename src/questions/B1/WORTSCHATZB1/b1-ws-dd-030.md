@@ -2,14 +2,13 @@
 id: b1-ws-dd-030
 type: dropbox
 words:
-  - Sie
-  - sucht
-  - eine
-  - nachhaltige
-  - Lösung
-  - für
-  - das
-  - Problem
+  - Die
+  - Genesung
+  - nach
+  - dem
+  - Unfall
+  - war
+  - lang
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — nachhaltige)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
