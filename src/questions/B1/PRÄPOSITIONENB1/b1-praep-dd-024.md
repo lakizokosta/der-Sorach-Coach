@@ -2,12 +2,11 @@
 id: b1-praep-dd-024
 type: dropbox
 words:
-  - Wir
-  - treffen
-  - uns
-  - um
-  - halb
-  - neun
+  - Ich
+  - bin
+  - seit
+  - 2020
+  - hier
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — um halb neun)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

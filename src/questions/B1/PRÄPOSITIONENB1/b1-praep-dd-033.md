@@ -2,12 +2,11 @@
 id: b1-praep-dd-033
 type: dropbox
 words:
-  - Die
-  - Besprechung
-  - findet
-  - am
-  - Montag
-  - statt
+  - Wir
+  - warten
+  - auf
+  - den
+  - Arzt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — mit Zug)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

@@ -2,10 +2,11 @@
 id: b1-praep-dd-028
 type: dropbox
 words:
-  - Er
-  - reist
-  - nach
-  - Italien
+  - Sie
+  - kommt
+  - aus
+  - der
+  - Türkei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — nach Italien)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

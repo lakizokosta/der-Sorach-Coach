@@ -10,4 +10,4 @@ words:
   - Monat
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — ab Monat)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

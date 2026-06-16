@@ -9,4 +9,4 @@ words:
   - hier
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — seit 2020)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

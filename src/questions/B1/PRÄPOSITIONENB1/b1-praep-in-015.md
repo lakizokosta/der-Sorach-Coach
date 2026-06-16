@@ -2,7 +2,7 @@
 id: b1-praep-in-015
 type: input-text
 correct:
-  - auf
+  - in
 ---
 
-Er ist ___ Geschäft. (Präposition)
+Er ist ___ dem Geschäft. (Präposition)

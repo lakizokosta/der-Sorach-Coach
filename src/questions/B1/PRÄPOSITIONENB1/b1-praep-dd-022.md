@@ -2,12 +2,12 @@
 id: b1-praep-dd-022
 type: dropbox
 words:
-  - Das
-  - Gesetz
-  - gilt
-  - ab
-  - nächsten
-  - Monat
+  - Wir
+  - treffen
+  - uns
+  - um
+  - halb
+  - neun
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — ab Monat)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

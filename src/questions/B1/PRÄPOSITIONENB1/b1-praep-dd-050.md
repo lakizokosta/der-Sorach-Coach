@@ -2,12 +2,12 @@
 id: b1-praep-dd-050
 type: dropbox
 words:
-  - Die
-  - Besprechung
-  - findet
-  - am
-  - Montag
-  - statt
+  - Das
+  - Gesetz
+  - gilt
+  - ab
+  - nächsten
+  - Monat
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — mit Zug)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

@@ -2,12 +2,11 @@
 id: b1-praep-dd-048
 type: dropbox
 words:
-  - Das
-  - Hotel
-  - liegt
-  - an
-  - der
-  - Küste
+  - Wir
+  - warten
+  - auf
+  - den
+  - Arzt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — an Küste)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

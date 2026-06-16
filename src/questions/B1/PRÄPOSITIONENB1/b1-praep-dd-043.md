@@ -2,11 +2,11 @@
 id: b1-praep-dd-043
 type: dropbox
 words:
-  - Ich
-  - bin
-  - seit
-  - 2020
-  - hier
+  - Sie
+  - kommt
+  - aus
+  - der
+  - Türkei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — seit 2020)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

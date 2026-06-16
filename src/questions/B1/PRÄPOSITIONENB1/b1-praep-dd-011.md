@@ -8,4 +8,4 @@ words:
   - Italien
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — nach Italien)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

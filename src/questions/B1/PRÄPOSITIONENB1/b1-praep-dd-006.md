@@ -10,4 +10,4 @@ words:
   - Hamburg
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — von Berlin)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

@@ -9,4 +9,4 @@ words:
   - Türkei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — aus Türkei)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

@@ -10,4 +10,4 @@ words:
   - neun
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — um halb neun)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

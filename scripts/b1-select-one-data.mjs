@@ -552,10 +552,10 @@ export function genPraepositionenB1() {
     ['Ich bin ___ 2020 hier.', 'seit', ['von', 'bis', 'ab', 'nach']],
     ['Das Büro ist ___ 18 Uhr geöffnet.', 'bis', ['von', 'seit', 'ab', 'nach']],
     ['Er reist ___ Italien.', 'nach', ['in', 'zu', 'an', 'auf']],
-    ['Wir diskutieren ___ dem neuen Plan.', 'über', ['an', 'auf', 'in', 'mit']],
+    ['Wir diskutieren ___ den neuen Plan.', 'über', ['an', 'auf', 'in', 'mit']],
     ['Sie kommt ___ der Türkei.', 'aus', ['von', 'in', 'zu', 'nach']],
     ['Das Hotel liegt ___ der Küste.', 'an', ['in', 'auf', 'zu', 'nach']],
-    ['Er ist ___ Geschäft.', 'auf', ['an', 'in', 'zu', 'nach']],
+    ['Er ist ___ dem Geschäft.', 'in', ['auf', 'an', 'zu', 'nach']],
   ];
   return ensure50(() => {
     const out = [];

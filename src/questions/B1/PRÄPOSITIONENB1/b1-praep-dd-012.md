@@ -5,9 +5,9 @@ words:
   - Wir
   - diskutieren
   - über
-  - dem
+  - den
   - neuen
   - Plan
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — über Plan)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

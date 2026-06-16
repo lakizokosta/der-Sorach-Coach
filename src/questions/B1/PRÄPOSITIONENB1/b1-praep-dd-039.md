@@ -2,12 +2,11 @@
 id: b1-praep-dd-039
 type: dropbox
 words:
-  - Das
-  - Gesetz
-  - gilt
-  - ab
-  - nächsten
-  - Monat
+  - Ich
+  - bin
+  - seit
+  - 2020
+  - hier
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — ab Monat)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

@@ -2,11 +2,11 @@
 id: b1-praep-dd-034
 type: dropbox
 words:
-  - Er
-  - arbeitet
-  - ab
-  - 8
-  - Uhr
+  - Sie
+  - ist
+  - an
+  - der
+  - Universität
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — ohne Termin)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

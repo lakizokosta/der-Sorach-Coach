@@ -2,12 +2,12 @@
 id: b1-praep-dd-031
 type: dropbox
 words:
-  - Das
-  - Hotel
-  - liegt
-  - an
-  - der
-  - Küste
+  - Die
+  - Besprechung
+  - findet
+  - am
+  - Montag
+  - statt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — an Küste)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

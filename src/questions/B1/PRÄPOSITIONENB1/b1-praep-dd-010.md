@@ -11,4 +11,4 @@ words:
   - geöffnet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — bis 18 Uhr)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

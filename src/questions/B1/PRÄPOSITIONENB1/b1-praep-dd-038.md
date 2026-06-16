@@ -3,10 +3,10 @@ id: b1-praep-dd-038
 type: dropbox
 words:
   - Sie
-  - ist
-  - an
-  - der
-  - Universität
+  - wohnt
+  - auf
+  - dem
+  - Land
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — an Universität)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

@@ -2,12 +2,11 @@
 id: b1-praep-dd-023
 type: dropbox
 words:
-  - Er
-  - fährt
-  - von
-  - Berlin
-  - nach
-  - Hamburg
+  - Sie
+  - wohnt
+  - auf
+  - dem
+  - Land
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — von Berlin)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)
