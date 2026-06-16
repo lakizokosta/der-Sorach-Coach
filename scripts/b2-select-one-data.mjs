@@ -252,7 +252,7 @@ export function genPraepositionenGenitiv() {
     ['___ des schlechten Wetters fand die Veranstaltung statt.', 'Trotz', ['Wegen', 'Bei', 'Mit', 'Durch']],
     ['___ der Krise wurden neue Maßnahmen beschlossen.', 'Aufgrund', ['Trotz', 'Während', 'Bei', 'Mit']],
     ['___ des Meetings konnte er nicht telefonieren.', 'Während', ['Trotz', 'Wegen', 'Bei', 'Mit']],
-    ['___ technischer Probleme verzögerte sich der Start.', 'Wegen', ['Trotz', 'Während', 'Bei', 'Mit']],
+    ['___ technischer Probleme verzögerte sich der Start.', 'Wegen', ['Inmitten', 'Während', 'Bei', 'Mit']],
     ['___ der Verhandlungen einigte man sich.', 'Im Laufe', ['Trotz', 'Wegen', 'Bei', 'Mit']],
     ['___ der Feiertage bleibt das Büro geschlossen.', 'Während', ['Trotz', 'Wegen', 'Bei', 'Mit']],
     ['___ mangelnder Erfahrung wurde er abgelehnt.', 'Wegen', ['Trotz', 'Während', 'Bei', 'Mit']],
