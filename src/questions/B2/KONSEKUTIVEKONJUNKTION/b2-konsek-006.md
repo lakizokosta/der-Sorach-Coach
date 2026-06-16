@@ -2,10 +2,10 @@
 id: b2-konsek-006
 type: select-one
 options:
-  - obwohl
-  - dass
   - damit
-  - wenn
+  - dass
+  - sodass
+  - weil
 correct: dass
 ---
 
