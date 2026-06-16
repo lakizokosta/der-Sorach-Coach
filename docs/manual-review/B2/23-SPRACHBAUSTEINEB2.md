@@ -27,7 +27,7 @@
 **Optionen pro Lücke:**
 1. **ob** ✓ | wann | denn
 2. **sofort** ✓ | später | gestern
-3. **wenn** ✓ | weil | obwohl
+3. **wenn** ✓ | weil | damit
 4. **für** ✓ | über | ohne
 5. **gerne** ✓ | nie | selten
 
@@ -277,9 +277,9 @@
 **Lücken:** 5
 
 **Optionen pro Lücke:**
-1. **weil** ✓ | obwohl | wenn
+1. **weil** ✓ | obwohl | damit
 2. **geeignete** ✓ | geeigneten | geeigneter
-3. **Wenn** ✓ | Weil | Obwohl
+3. **Wenn** ✓ | Obwohl | Sobald
 4. **falls** ✓ | weil | obwohl
 5. **auf** ✓ | über | gegen
 
@@ -445,7 +445,7 @@
 **Lücken:** 5
 
 **Optionen pro Lücke:**
-1. **und** ✓ | sondern | oder
+1. **weil** ✓ | und | oder
 2. **nichts** ✓ | etwas | alles
 3. **sonst** ✓ | deshalb | außerdem
 4. **bis** ✓ | seit | während
@@ -764,7 +764,7 @@
 2. **inklusive** ✓ | ausschließlich | ohne jede
 3. **Zertifikat** ✓ | Strafzettel | Mahnbescheid
 4. **Anmeldungen** ✓ | Kündigungen | Strafen
-5. **entgegen** ✓ | entgegenüber | entgegennehmen
+5. **entgegen** ✓ | mit | entgegennehmen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -824,7 +824,7 @@
 
 **Optionen pro Lücke:**
 1. **zurück** ✓ | weg | hin
-2. **sobald** ✓ | während | bevor
+2. **weil** ✓ | sobald | bevor
 3. **Eingang** ✓ | Ausgang | Umgang
 4. **damit** ✓ | weil | obwohl
 5. **jederzeit** ✓ | niemals | selten
