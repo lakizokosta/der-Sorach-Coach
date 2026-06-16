@@ -3,12 +3,10 @@ id: b1-praeg-dd-040
 type: dropbox
 words:
   - Ich
-  - erinnere
-  - mich
-  - an
-  - unseren
-  - letzten
-  - Urlaub
+  - danke
+  - für
+  - deine
+  - Hilfe
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — erinnert an)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

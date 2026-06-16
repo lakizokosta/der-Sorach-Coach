@@ -2,12 +2,12 @@
 id: b1-praeg-dd-034
 type: dropbox
 words:
-  - Er
-  - denkt
-  - oft
-  - an
-  - seine
-  - Zukunft
+  - Sie
+  - freut
+  - sich
+  - auf
+  - die
+  - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — informiert über)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

@@ -2,11 +2,13 @@
 id: b1-praeg-dd-046
 type: dropbox
 words:
-  - Wir
-  - diskutieren
-  - über
-  - dem
-  - Projekt
+  - Ich
+  - warte
+  - auf
+  - die
+  - Antwort
+  - der
+  - Personalabteilung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — diskutiert über)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

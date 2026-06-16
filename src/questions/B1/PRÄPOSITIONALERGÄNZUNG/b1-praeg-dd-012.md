@@ -5,8 +5,8 @@ words:
   - Wir
   - diskutieren
   - über
-  - dem
+  - das
   - Projekt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — diskutiert über)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

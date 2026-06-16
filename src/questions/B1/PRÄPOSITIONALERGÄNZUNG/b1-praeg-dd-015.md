@@ -9,4 +9,4 @@ words:
   - Gesundheit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — achtet auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

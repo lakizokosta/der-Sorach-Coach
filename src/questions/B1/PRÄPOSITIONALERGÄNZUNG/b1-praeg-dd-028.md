@@ -2,13 +2,11 @@
 id: b1-praeg-dd-028
 type: dropbox
 words:
-  - Sie
-  - träumt
-  - von
-  - einer
-  - Stelle
-  - im
-  - Ausland
+  - Er
+  - wartet
+  - auf
+  - den
+  - Arzt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — träumt von)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

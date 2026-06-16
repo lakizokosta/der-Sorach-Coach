@@ -10,4 +10,4 @@ words:
   - Antwort
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — besteht auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

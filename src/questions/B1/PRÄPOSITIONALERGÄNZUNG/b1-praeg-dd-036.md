@@ -2,12 +2,13 @@
 id: b1-praeg-dd-036
 type: dropbox
 words:
-  - Er
-  - denkt
-  - oft
+  - Ich
+  - erinnere
+  - mich
   - an
-  - seine
-  - Zukunft
+  - unseren
+  - letzten
+  - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — denkt an)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

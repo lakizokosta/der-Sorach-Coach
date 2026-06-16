@@ -2,11 +2,12 @@
 id: b1-praeg-dd-022
 type: dropbox
 words:
-  - Er
-  - interessiert
+  - Sie
+  - ärgert
   - sich
-  - für
-  - Politik
+  - über
+  - den
+  - Fehler
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — interessiert für)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

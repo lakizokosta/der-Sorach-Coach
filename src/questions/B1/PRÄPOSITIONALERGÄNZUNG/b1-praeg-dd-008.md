@@ -9,4 +9,4 @@ words:
   - Wetter
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — hofft auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

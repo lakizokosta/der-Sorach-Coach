@@ -2,11 +2,11 @@
 id: b1-praeg-dd-027
 type: dropbox
 words:
-  - Ich
-  - danke
-  - für
-  - deine
-  - Hilfe
+  - Wir
+  - diskutieren
+  - über
+  - das
+  - Projekt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — dankt für)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

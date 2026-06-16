@@ -11,4 +11,4 @@ words:
   - Ausland
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — träumt von)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
