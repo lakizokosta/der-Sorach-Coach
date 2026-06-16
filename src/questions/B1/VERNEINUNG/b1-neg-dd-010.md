@@ -10,4 +10,4 @@ words:
   - müde
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nicht krank)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

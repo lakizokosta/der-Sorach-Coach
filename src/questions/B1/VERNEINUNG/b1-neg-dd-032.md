@@ -2,12 +2,10 @@
 id: b1-neg-dd-032
 type: dropbox
 words:
-  - Wir
-  - fahren
+  - Er
+  - kommt
+  - heute
   - nicht
-  - mit
-  - dem
-  - Auto
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nicht mit Auto)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

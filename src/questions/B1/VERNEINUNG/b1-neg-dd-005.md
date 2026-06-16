@@ -5,9 +5,8 @@ words:
   - Das
   - ist
   - keine
-  - eine
   - gute
   - Idee
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — keine Idee)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

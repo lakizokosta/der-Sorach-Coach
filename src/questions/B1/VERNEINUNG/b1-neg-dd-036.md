@@ -3,9 +3,12 @@ id: b1-neg-dd-036
 type: dropbox
 words:
   - Er
-  - kommt
-  - heute
+  - hat
   - nicht
+  - auf
+  - die
+  - Nachricht
+  - geantwortet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kommt nicht)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

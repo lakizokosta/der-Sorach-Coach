@@ -657,7 +657,7 @@ export function genVerneinung() {
     ['Er kommt heute ___.', 'nicht', ['kein', 'keine', 'nie', 'nichts']],
     ['Wir haben ___ Interesse an dem Angebot.', 'kein', ['nicht', 'nie', 'keine', 'nichts']],
     ['Sie trinkt ___ Kaffee mehr.', 'keinen', ['nicht', 'nie', 'keine', 'nichts']],
-    ['Das ist ___ eine gute Idee.', 'keine', ['nicht', 'nie', 'kein', 'nichts']],
+    ['Das ist ___ gute Idee.', 'keine', ['nicht', 'nie', 'kein', 'nichts']],
     ['Er hat ___ auf die Nachricht geantwortet.', 'nicht', ['kein', 'keine', 'nie', 'nichts']],
     ['Ich sehe ___ Problem.', 'kein', ['nicht', 'nie', 'keine', 'nichts']],
     ['Sie arbeitet ___ am Wochenende.', 'nie', ['nicht', 'kein', 'keine', 'nichts']],

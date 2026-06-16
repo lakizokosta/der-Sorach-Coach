@@ -9,4 +9,4 @@ words:
   - mehr
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — keinen Kaffee)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

@@ -11,4 +11,4 @@ words:
   - geantwortet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nicht geantwortet)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

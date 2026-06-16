@@ -2,12 +2,13 @@
 id: b1-neg-dd-027
 type: dropbox
 words:
-  - Er
-  - ist
-  - nicht
-  - krank
-  - sondern
-  - müde
+  - Ich
+  - habe
+  - kein
+  - Verständnis
+  - für
+  - diese
+  - Entscheidung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nicht krank)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

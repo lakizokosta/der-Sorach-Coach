@@ -9,4 +9,4 @@ words:
   - übrig
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kein Geld)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

@@ -12,4 +12,4 @@ words:
   - Meeting
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — niemand da)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

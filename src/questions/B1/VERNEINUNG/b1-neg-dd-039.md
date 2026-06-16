@@ -2,12 +2,11 @@
 id: b1-neg-dd-039
 type: dropbox
 words:
-  - Das
-  - ist
-  - keine
-  - eine
-  - gute
-  - Idee
+  - Wir
+  - haben
+  - kein
+  - Geld
+  - übrig
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — keine Idee)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

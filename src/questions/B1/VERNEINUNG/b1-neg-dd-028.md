@@ -2,11 +2,12 @@
 id: b1-neg-dd-028
 type: dropbox
 words:
-  - Das
-  - Medikament
-  - hat
-  - nicht
-  - geholfen
+  - Sie
+  - isst
+  - weder
+  - Fleisch
+  - noch
+  - Fisch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nicht geholfen)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

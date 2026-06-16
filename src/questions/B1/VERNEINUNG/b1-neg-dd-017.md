@@ -8,4 +8,4 @@ words:
   - nicht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nichts Neues)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

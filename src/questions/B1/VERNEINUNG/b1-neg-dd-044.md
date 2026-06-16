@@ -3,11 +3,12 @@ id: b1-neg-dd-044
 type: dropbox
 words:
   - Er
-  - ist
-  - nicht
-  - krank
-  - sondern
-  - müde
+  - hat
+  - keine
+  - Erfahrung
+  - in
+  - diesem
+  - Bereich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nicht krank)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

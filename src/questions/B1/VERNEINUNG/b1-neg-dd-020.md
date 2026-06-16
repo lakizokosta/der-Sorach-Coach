@@ -2,13 +2,11 @@
 id: b1-neg-dd-020
 type: dropbox
 words:
-  - Wir
-  - haben
-  - kein
-  - Interesse
-  - an
-  - dem
-  - Angebot
+  - Das
+  - ist
+  - keine
+  - gute
+  - Idee
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kein Interesse)
+Ordne die Wörter zum richtigen Satz: (Verneinung)
