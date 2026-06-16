@@ -4,7 +4,7 @@ type: select-one
 options:
   - trotzdem
   - deshalb
-  - folglich
+  - dagegen
   - dennoch
 correct: deshalb
 ---

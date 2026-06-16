@@ -95,8 +95,8 @@ export function genKonsekutiveKonjunktion() {
 
 export function genKonjunktionaladverbien() {
   return bank([
-    ['Die Kosten sind gestiegen; ___ müssen wir sparen.', 'deshalb', ['dennoch', 'trotzdem', 'außerdem', 'folglich']],
-    ['Er war müde, ___ arbeitete er weiter.', 'dennoch', ['deshalb', 'folglich', 'außerdem', 'dann']],
+    ['Die Kosten sind gestiegen; ___ müssen wir sparen.', 'deshalb', ['dennoch', 'trotzdem', 'außerdem', 'dagegen']],
+    ['Er war müde; ___ arbeitete er weiter.', 'dennoch', ['deshalb', 'folglich', 'außerdem', 'dann']],
     ['Sie hat viel gelernt; ___ bestand sie die Prüfung.', 'folglich', ['dennoch', 'trotzdem', 'außerdem', 'dagegen']],
     ['Das Wetter war schlecht; ___ fand das Fest statt.', 'trotzdem', ['deshalb', 'folglich', 'außerdem', 'dann']],
     ['Er spricht drei Sprachen; ___ spielt er Klavier.', 'außerdem', ['dennoch', 'trotzdem', 'deshalb', 'folglich']],
