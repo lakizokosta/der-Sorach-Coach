@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Es ___ (werden) keine einfachen Lösungen geben. (Futur + Verb werden)
+Es ___ (werden) keine einfachen Lösungen geben. (Grammatikform)

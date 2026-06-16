@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Die Verhandlungen ___ (werden) länger dauern. (Futur + Verb werden)
+Die Verhandlungen ___ (werden) länger dauern. (Grammatikform)

@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Es ___ (werden) morgen regnen. (Futur + Verb werden)
+Es ___ (werden) morgen regnen. (Grammatikform)
