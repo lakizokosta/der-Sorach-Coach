@@ -294,7 +294,7 @@ export function genPraepositionaleAdverbienB2() {
 export function genPartizip1() {
   return bank([
     ['Die ___ Kinder spielten fröhlich im Garten.', 'lachenden', ['lachende', 'lachender', 'lachendes', 'lachendem']],
-    ['Der ___ Mann nickte nachdenklich.', 'nachdenkliche', ['nachdenklichen', 'nachdenklicher', 'nachdenkliches', 'nachdenklichem']],
+    ['Der ___ Mann nickte nachdenklich.', 'nachdenkende', ['nachdenkenden', 'nachdenkendet', 'nachdenkendes', 'nachdenkender']],
     ['Die ___ Sonnenstrahlen erhellten den Raum.', 'scheinenden', ['scheinende', 'scheinender', 'scheinendes', 'scheinendem']],
     ['Ein ___ Bach floss durch das Tal.', 'plätschernder', ['plätschernde', 'plätschernden', 'plätscherndes', 'plätscherndem']],
     ['Die ___ Zuschauer applaudierten begeistert.', 'jubelnden', ['jubelnde', 'jubelnder', 'jubelndes', 'jubelndem']],

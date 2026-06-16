@@ -34,10 +34,10 @@
 > Der ___ Mann nickte nachdenklich. (Partizip-I-Form)
 
 **Optionen:**
-- nachdenklichen
-- nachdenkliche **✓**
-- nachdenklichem
-- nachdenkliches
+- nachdenkenden
+- nachdenkende **✓**
+- nachdenkender
+- nachdenkendes
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -272,10 +272,10 @@
 > Der ___ Mann nickte nachdenklich. (Partizip-I-Form)
 
 **Optionen:**
-- nachdenklicher
-- nachdenkliche **✓**
-- nachdenklichem
-- nachdenklichen
+- nachdenkendet
+- nachdenkende **✓**
+- nachdenkender
+- nachdenkenden
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -510,10 +510,10 @@
 > Der ___ Mann nickte nachdenklich. (Partizip-I-Form)
 
 **Optionen:**
-- nachdenklicher
-- nachdenkliches
-- nachdenkliche **✓**
-- nachdenklichen
+- nachdenkendet
+- nachdenkendes
+- nachdenkende **✓**
+- nachdenkenden
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -731,7 +731,7 @@
 **Aufgabe:**
 > Der ___ (nachdenken) Mann nickte zustimmend. (Partizip-I-Form)
 
-**Antwort:** `nachdenkliche`
+**Antwort:** `nachdenkende`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -901,7 +901,7 @@
 **Aufgabe:**
 > Der ___ (nachdenken) Mann nickte zustimmend. (Partizip-I-Form)
 
-**Antwort:** `nachdenkliche`
+**Antwort:** `nachdenkende`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1071,7 +1071,7 @@
 **Aufgabe:**
 > Der ___ (nachdenken) Mann nickte zustimmend. (Partizip-I-Form)
 
-**Antwort:** `nachdenkliche`
+**Antwort:** `nachdenkende`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

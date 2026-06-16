@@ -87,7 +87,7 @@ const BANK = {
 
   PARTIZIP1: [
     ['Die ___ (lachen) Kinder spielten im Garten.', 'lachenden'],
-    ['Der ___ (nachdenken) Mann nickte zustimmend.', 'nachdenkliche'],
+    ['Der ___ (nachdenken) Mann nickte zustimmend.', 'nachdenkende'],
     ['Die ___ (scheinen) Sonnenstrahlen erhellten den Raum.', 'scheinenden'],
     ['Ein ___ (plätschern) Bach floss durch das Tal.', 'plätschernder'],
     ['Die ___ (jubeln) Zuschauer applaudierten.', 'jubelnden'],
