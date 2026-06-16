@@ -2,11 +2,11 @@
 id: b2-indef-030
 type: select-one
 options:
-  - keiner
-  - keinem
-  - keinen
-  - keines
-correct: keinem
+  - etwas
+  - jemandem
+  - jemanden
+  - niemandem
+correct: jemandem
 ---
 
-Er vertraut ___ Fremden nicht. (Indefinitpronomen)
+Er vertraut ___ , das ist seine Schwäche. (Indefinitpronomen)

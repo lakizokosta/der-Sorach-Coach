@@ -206,7 +206,7 @@ export function genModalsatz() {
 export function genIndefinitpronomen() {
   return bank([
     ['Hast du ___ in der Menge gesehen?', 'jemanden', ['jemand', 'niemand', 'niemanden', 'etwas']],
-    ['Ich habe ___ davon gehört.', 'nichts', ['etwas', 'niemand', 'jemand', 'alles']],
+    ['Das Thema ist mir völlig neu; ich habe ___ davon gehört.', 'nichts', ['etwas', 'niemand', 'jemand', 'alles']],
     ['___ hat die Tür offengelassen.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
     ['Sie möchte ___ Neues ausprobieren.', 'etwas', ['nichts', 'niemand', 'jemand', 'alles']],
     ['___ war zu Hause, als ich anrief.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
@@ -217,9 +217,9 @@ export function genIndefinitpronomen() {
     ['___ hat mir diese Nachricht geschickt.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
     ['Sie hat ___ Falsches gesagt.', 'nichts', ['etwas', 'niemand', 'jemand', 'alles']],
     ['Ist ___ zu Hause?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
-    ['Er vertraut ___ Fremden nicht.', 'keinem', ['keinen', 'keine', 'keiner', 'keines']],
+    ['Er vertraut ___ , das ist seine Schwäche.', 'jemandem', ['jemanden', 'jemand', 'etwas', 'niemandem']],
     ['Sie hat ___ gefunden, was sie suchte.', 'alles', ['nichts', 'etwas', 'niemand', 'jemand']],
-    ['___ von euch kann mir helfen?', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Ich hoffe, ___ von euch kann mir helfen.', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
     ['Ich habe ___ Besonderes erwartet.', 'etwas', ['nichts', 'niemand', 'jemand', 'alles']],
     ['___ weiß die Antwort auf diese Frage.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
   ], 91);

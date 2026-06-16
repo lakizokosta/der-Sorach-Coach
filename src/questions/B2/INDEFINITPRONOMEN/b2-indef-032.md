@@ -2,11 +2,11 @@
 id: b2-indef-032
 type: select-one
 options:
-  - Etwas
-  - Nichts
-  - Jemand
-  - Niemand
-correct: Jemand
+  - etwas
+  - nichts
+  - jemand
+  - niemand
+correct: jemand
 ---
 
-___ von euch kann mir helfen? (Indefinitpronomen)
+Ich hoffe, ___ von euch kann mir helfen. (Indefinitpronomen)
