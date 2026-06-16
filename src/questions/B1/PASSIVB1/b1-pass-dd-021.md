@@ -9,4 +9,4 @@ words:
   - diskutiert
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb renoviieren)
+Ordne die Wörter zum richtigen Satz: (Passiv)

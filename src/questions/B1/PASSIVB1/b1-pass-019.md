@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Das Projekt ___ gerade diskutiert. (Passiv + Verb diskutiieren)
+Das Projekt ___ gerade diskutiert. (Passiv)

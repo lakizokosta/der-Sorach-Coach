@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Tickets ___ online verkauft. (Passiv + Verb verkaufen)
+Die Tickets ___ online verkauft. (Passiv)

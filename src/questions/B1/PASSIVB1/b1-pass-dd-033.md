@@ -10,4 +10,4 @@ words:
   - verabschiedet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb untersuchen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

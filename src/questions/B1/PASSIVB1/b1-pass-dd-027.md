@@ -8,4 +8,4 @@ words:
   - verschoben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb genutzen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

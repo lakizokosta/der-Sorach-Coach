@@ -10,4 +10,4 @@ words:
   - verabschiedet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb verkaufen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

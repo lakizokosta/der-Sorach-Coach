@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Die Nachricht ___ sofort gesendet. (Passiv + Verb gesendeen)
+Die Nachricht ___ sofort gesendet. (Passiv)

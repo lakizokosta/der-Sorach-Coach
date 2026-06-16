@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Die Patienten ___ regelmäßig untersucht. (Passiv + Verb untersuchen)
+Die Patienten ___ regelmäßig untersucht. (Passiv)

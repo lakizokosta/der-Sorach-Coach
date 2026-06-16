@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Abfälle ___ getrennt gesammelt. (Passiv + Verb gesammelen)
+Die Abfälle ___ getrennt gesammelt. (Passiv)
