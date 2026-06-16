@@ -2,17 +2,15 @@
 id: b1-pradv-dd-042
 type: dropbox
 words:
-  - Kümmerst
+  - Vertraust
   - du
-  - dich
-  - um
-  - die
-  - Patienten
-  - Ja
-  - ich
-  - kümmere
-  - mich
-  - darum
+  - in
+  - das
+  - Team
+  - —
+  - Ich
+  - vertraue
+  - darin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darum)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

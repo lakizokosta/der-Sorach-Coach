@@ -2,7 +2,7 @@
 id: b1-pradv-in-028
 type: input-text
 correct:
-  - daran teil
+  - daran
 ---
 
-Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+Nimmst du an der Konferenz teil? — Ich nehme ___. (Pronominaladverb)

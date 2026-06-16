@@ -2,14 +2,17 @@
 id: b1-pradv-dd-045
 type: dropbox
 words:
-  - Bestehst
+  - Was
+  - hältst
   - du
-  - auf
-  - deiner
-  - Meinung
+  - von
+  - dem
+  - Vorschlag
+  - —
   - Ich
-  - bestehe
-  - darauf
+  - halte
+  - nichts
+  - davon
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Bestehen))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

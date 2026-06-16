@@ -8,11 +8,11 @@ words:
   - um
   - die
   - Patienten
-  - Ja
-  - ich
+  - —
+  - Ich
   - kümmere
   - mich
   - darum
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darum)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

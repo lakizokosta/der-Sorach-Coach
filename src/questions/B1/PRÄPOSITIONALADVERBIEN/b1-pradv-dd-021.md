@@ -2,15 +2,17 @@
 id: b1-pradv-dd-021
 type: dropbox
 words:
-  - Sprichst
+  - Erinnerst
   - du
-  - über
-  - das
-  - Problem
-  - Ja
-  - wir
-  - sprechen
-  - darüber
+  - dich
+  - an
+  - die
+  - Vorlesung
+  - —
+  - Ich
+  - erinnere
+  - mich
+  - daran
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

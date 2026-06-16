@@ -7,10 +7,10 @@ words:
   - über
   - das
   - Problem
-  - Ja
-  - wir
+  - —
+  - Wir
   - sprechen
   - darüber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

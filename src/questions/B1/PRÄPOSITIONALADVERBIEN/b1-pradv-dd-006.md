@@ -8,10 +8,11 @@ words:
   - an
   - die
   - Vorlesung
+  - —
   - Ich
   - erinnere
   - mich
   - daran
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — daran (Erinnerung))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

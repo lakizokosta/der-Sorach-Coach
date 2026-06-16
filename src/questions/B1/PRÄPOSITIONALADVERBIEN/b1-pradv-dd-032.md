@@ -2,16 +2,16 @@
 id: b1-pradv-dd-032
 type: dropbox
 words:
-  - Was
-  - hältst
+  - Wann
+  - denkst
   - du
-  - von
-  - dem
-  - Vorschlag
+  - an
+  - den
+  - Termin
+  - —
   - Ich
-  - halte
-  - nichts
-  - davon
+  - denke
+  - daran
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — damit)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -2,14 +2,15 @@
 id: b1-pradv-dd-022
 type: dropbox
 words:
-  - Hoffst
+  - Wartest
   - du
   - auf
-  - bessere
-  - Zeiten
+  - die
+  - Ergebnisse
+  - —
   - Ich
-  - hoffe
+  - warte
   - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Hoffnung))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

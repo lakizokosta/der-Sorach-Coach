@@ -7,9 +7,10 @@ words:
   - in
   - das
   - Team
+  - —
   - Ich
   - vertraue
   - darin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darin)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

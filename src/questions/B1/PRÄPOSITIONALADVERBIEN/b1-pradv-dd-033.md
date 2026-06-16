@@ -2,17 +2,17 @@
 id: b1-pradv-dd-033
 type: dropbox
 words:
-  - Interessierst
+  - Freust
   - du
   - dich
-  - für
-  - den
-  - Kurs
-  - Ja
-  - ich
-  - interessiere
+  - auf
+  - die
+  - Reise
+  - —
+  - Ich
+  - freue
   - mich
-  - dafür
+  - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dazu)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

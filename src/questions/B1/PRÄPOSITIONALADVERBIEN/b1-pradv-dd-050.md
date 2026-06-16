@@ -2,17 +2,15 @@
 id: b1-pradv-dd-050
 type: dropbox
 words:
-  - Interessierst
+  - Hoffst
   - du
-  - dich
-  - für
-  - den
-  - Kurs
-  - Ja
-  - ich
-  - interessiere
-  - mich
-  - dafür
+  - auf
+  - bessere
+  - Zeiten
+  - —
+  - Ich
+  - hoffe
+  - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dazu)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -4,9 +4,9 @@ type: select-one
 options:
   - dafür
   - darauf
-  - daran teil
+  - daran
   - damit
-correct: daran teil
+correct: daran
 ---
 
-Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+Nimmst du an der Konferenz teil? — Ich nehme ___. (Pronominaladverb)

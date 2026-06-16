@@ -2,14 +2,17 @@
 id: b1-pradv-dd-039
 type: dropbox
 words:
-  - Hoffst
+  - Ärgerst
   - du
-  - auf
-  - bessere
-  - Zeiten
+  - dich
+  - über
+  - die
+  - Nachricht
+  - —
   - Ich
-  - hoffe
-  - darauf
+  - ärgere
+  - mich
+  - darüber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Hoffnung))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

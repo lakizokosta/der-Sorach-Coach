@@ -2,14 +2,17 @@
 id: b1-pradv-dd-046
 type: dropbox
 words:
-  - Vertraust
+  - Interessierst
   - du
-  - in
-  - das
-  - Team
+  - dich
+  - für
+  - den
+  - Kurs
+  - —
   - Ich
-  - vertraue
-  - darin
+  - interessiere
+  - mich
+  - dafür
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darin)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -2,15 +2,16 @@
 id: b1-pradv-dd-013
 type: dropbox
 words:
-  - Teilnimmst
+  - Nimmst
   - du
   - an
   - der
   - Konferenz
+  - teil
+  - —
   - Ich
   - nehme
   - daran
-  - teil
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber (Informieren))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -2,16 +2,15 @@
 id: b1-pradv-dd-026
 type: dropbox
 words:
-  - Ärgerst
+  - Bestehst
   - du
-  - dich
-  - über
-  - die
-  - Nachricht
+  - auf
+  - deiner
+  - Meinung
+  - —
   - Ich
-  - ärgere
-  - mich
-  - darüber
+  - bestehe
+  - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
