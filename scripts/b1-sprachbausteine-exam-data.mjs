@@ -190,10 +190,10 @@ export const LESEN_SERIES = [
   },
   {
     hint: 'Leseverstehen: Anfrage nach einem Praktikumsplatz',
-    text: 'Sehr geehrter Herr Schneider, mit großem Interesse habe ich Ihre Stellenanzeige ___ Praktikantin im Marketing gelesen. Ich studiere im vierten Semester Betriebswirtschaft und suche ab Juli ein ___ Praktikum. Gerne würde ich mich persönlich ___ Ihnen vorstellen.',
+    text: 'Sehr geehrter Herr Schneider, mit großem Interesse habe ich Ihre Stellenanzeige ___ Praktikantin im Marketing gelesen. Ich studiere im vierten Semester Betriebswirtschaft und suche ab Juli ein ___. Gerne würde ich mich persönlich ___ Ihnen vorstellen.',
     gaps: [
       { correct: 'als', options: ['als', 'für', 'an'] },
-      { correct: 'Pflicht', options: ['Pflicht', 'Pflichten', 'Pflichtes'] },
+      { correct: 'Pflichtpraktikum', options: ['Pflichtpraktikum', 'Pflichtpraktikums', 'Pflichtpraktika'] },
       { correct: 'bei', options: ['bei', 'an', 'mit'] },
     ],
   },

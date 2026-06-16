@@ -769,24 +769,21 @@ export function genSprachbausteineB1() {
     ['Bitte reichen Sie Ihre Unterlagen ___ spätestens Freitag ein.', 'bis', ['für', 'seit', 'ab', 'von']],
     ['___ der hohen Nachfrage können wir leider nicht alle Termine anbieten.', 'Aufgrund', ['Trotz', 'Während', 'Wegen', 'Ohne']],
     ['Die Prüfungsergebnisse werden Ihnen ___ E-Mail zugesandt.', 'per', ['mit', 'auf', 'an', 'in']],
-    ['Wir bitten Sie, pünktlich ___ dem Seminarraum zu erscheinen.', 'in', ['im', 'am', 'zum', 'beim']],
+    ['Wir bitten Sie, pünktlich ___ dem Seminarraum zu erscheinen.', 'vor', ['in', 'an', 'auf', 'mit']],
     ['Für Rückfragen stehe ich Ihnen gerne ___ Verfügung.', 'zur', ['in', 'an', 'auf', 'mit']],
     ['Die Bewerbungsfrist endet am 15. März; danach können wir ___ Bewerbungen nicht mehr berücksichtigen.', 'eingehende', ['eingehend', 'eingehenden', 'eingehendem', 'eingehender']],
-    ['___ freue ich mich auf eine positive Rückmeldung.', 'Hierfür', ['Dafür', 'Darauf', 'Daran', 'Damit']],
+    ['___ freue ich mich auf eine positive Rückmeldung.', 'Darauf', ['Dafür', 'Daran', 'Damit', 'Hierfür']],
     ['Bitte beachten Sie, dass eine Anmeldung ___ ist.', 'verbindlich', ['verbindliche', 'verbindlichen', 'verbindlichem', 'verbindlicher']],
-    ['Die Veranstaltung findet ___ der aktuellen Hygienevorschriften statt.', 'gemäß', ['laut', 'trotz', 'während', 'wegen']],
+    ['Die Veranstaltung findet ___ der aktuellen Hygienevorschriften statt.', 'gemäß', ['ohne', 'trotz', 'während', 'wegen']],
     ['Wir empfehlen, frühzeitig ___ Hotel zu buchen.', 'ein', ['eine', 'einen', 'einer']],
     ['___ weitere Informationen besuchen Sie unsere Website.', 'Für', ['Mit', 'An', 'Auf', 'In']],
     ['Die Teilnahme ist kostenlos, eine Anmeldung ist jedoch ___.', 'erforderlich', ['erforderliche', 'erforderlichen', 'erforderlichem', 'erforderlicher']],
     ['Bitte bringen Sie ___ Ausweis und Stift mit.', 'Ihren', ['Ihre', 'Ihr', 'Ihrem']],
     ['Wir danken Ihnen ___ Ihr Interesse an unserem Programm.', 'für', ['an', 'auf', 'mit', 'zu']],
   ];
-  return ensure50(() => {
-    const out = [];
-    for (let i = 0; i < 50; i++) {
-      const [p, c, pool] = items[i % items.length];
-      out.push({ prompt: p, options: options4(c, pool, i + 271), correct: c });
-    }
-    return out;
-  });
+  return items.map(([prompt, correct, pool], i) => ({
+    prompt,
+    options: options4(correct, pool, i + 271),
+    correct,
+  }));
 }

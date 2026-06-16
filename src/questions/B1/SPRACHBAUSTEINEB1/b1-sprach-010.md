@@ -4,7 +4,7 @@ type: select-one
 options:
   - während
   - gemäß
-  - laut
+  - ohne
   - wegen
 correct: gemäß
 ---
