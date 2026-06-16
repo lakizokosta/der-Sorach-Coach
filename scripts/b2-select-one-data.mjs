@@ -276,7 +276,7 @@ export function genPraepositionaleAdverbienB2() {
     ['Womit ___ du dein Studium?', 'finanzierst', ['finanzier', 'finanziert', 'finanzierte', 'finanzieren']],
     ['Darauf ___ ich mich schon lange.', 'freue', ['freuen', 'freust', 'freute', 'gefreut']],
     ['Worüber ___ ihr gestern?', 'habt gesprochen', ['sprecht', 'spricht', 'sprachen', 'gesprochen']],
-    ['Damit ___ ich nichts anfangen.', 'kann', ['können', 'konnte', 'könnte', 'gekonnt']],
+    ['Damit ___ ich nichts anfangen.', 'kann', ['können', 'konntet', 'könnte', 'gekonnt']],
     ['Hieran ___ man die Qualität.', 'erkennt', ['erkennen', 'erkennst', 'erkannte', 'erkannt']],
     ['Daran ___ ich mich noch gut.', 'erinnere', ['erinnern', 'erinnerst', 'erinnerte', 'erinnert']],
     ['Worin ___ der Unterschied?', 'besteht', ['bestehen', 'bestehst', 'bestand', 'bestanden']],

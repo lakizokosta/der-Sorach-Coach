@@ -2,7 +2,7 @@
 id: b2-pradv-023
 type: select-one
 options:
-  - konnte
+  - konntet
   - könnte
   - gekonnt
   - kann
