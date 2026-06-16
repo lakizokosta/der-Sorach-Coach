@@ -322,7 +322,7 @@ export function genPartizip2() {
     ['Die ___ Aufgabe war besonders schwierig.', 'gelöste', ['gelösten', 'gelöster', 'gelöstes', 'gelöstem']],
     ['Das ___ Essen schmeckte ausgezeichnet.', 'gekochte', ['gekochten', 'gekochter', 'gekochtes', 'gekochtem']],
     ['Die ___ Fenster ließen viel Licht herein.', 'geöffneten', ['geöffnete', 'geöffneter', 'geöffnetes', 'geöffnetem']],
-    ['Ein ___ Problem wurde endlich gelöst.', 'langjähriges', ['langjährige', 'langjähriger', 'langjährigen', 'langjährigem']],
+    ['Ein ___ Problem wurde endlich gelöst.', 'kompliziertes', ['komplizierte', 'komplizierten', 'kompliziertem', 'komplizierter']],
     ['Die ___ Daten wurden veröffentlicht.', 'ausgewerteten', ['ausgewertete', 'ausgewerteter', 'ausgewertetes', 'ausgewertetem']],
     ['Das ___ Gebäude steht unter Denkmalschutz.', 'restaurierte', ['restaurierten', 'restaurierter', 'restauriertes', 'restauriertem']],
     ['Die ___ Fragen blieben unbeantwortet.', 'gestellten', ['gestellte', 'gestellter', 'gestelltes', 'gestelltem']],

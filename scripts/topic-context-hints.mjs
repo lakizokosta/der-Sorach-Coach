@@ -28,7 +28,7 @@ export const TOPIC_FORM_HINT = {
   KONJUNKTIV2: 'Konjunktiv-II-Form',
   KONJUNKTIV2B2: 'Konjunktiv-II-Form',
   PARTIZIP1: 'Partizip-I-Form',
-  PARTIZIP2: 'Partizip-II-Form',
+  PARTIZIP2: 'Grammatikform',
   FUTURI: 'Futurform',
   VERBLASSEN: 'lassen-Form',
   ARTIKEL: 'Artikelform',
