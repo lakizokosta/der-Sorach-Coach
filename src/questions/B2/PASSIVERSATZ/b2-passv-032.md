@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Das Problem ___ sich vermeiden. (lassen)
+Das Problem ___ sich vermeiden. (Grammatikform)

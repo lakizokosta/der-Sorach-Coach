@@ -5,4 +5,4 @@ correct:
   - erklären
 ---
 
-Das Thema ist zu komplex zu ___ . (Passiversatz)
+Das Thema ist zu komplex, um es kurz zu ___ . (Grammatikform)

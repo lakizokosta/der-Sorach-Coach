@@ -359,7 +359,7 @@ export function genPassivB2() {
 
 export function genPassiversatz() {
   return bank([
-    ['Das Problem ___ sich leicht lösen.', 'lässt', ['lässt sich', 'ist', 'wird', 'hat']],
+    ['Das Problem ___ sich leicht lösen.', 'lässt', ['lassen', 'ist', 'wird', 'hat']],
     ['Die Aufgabe ist zu ___ .', 'erledigen', ['erledigt', 'erledigend', 'erledigte', 'erledigtes']],
     ['Das Buch ___ sich gut lesen.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
     ['Der Bericht ist noch zu ___ .', 'überarbeiten', ['überarbeitet', 'überarbeitend', 'überarbeitete', 'überarbeitetes']],

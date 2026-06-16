@@ -3,10 +3,10 @@ id: b2-passv-001
 type: select-one
 options:
   - ist
-  - lässt sich
+  - lassen
   - lässt
   - hat
 correct: lässt
 ---
 
-Das Problem ___ sich leicht lösen. (lassen)
+Das Problem ___ sich leicht lösen. (Grammatikform)

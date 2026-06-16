@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Das Ergebnis ___ sich nicht vorhersagen. (lassen)
+Das Ergebnis ___ sich nicht vorhersagen. (Grammatikform)

@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Der Fehler ___ sich schnell beheben. (lassen)
+Der Fehler ___ sich schnell beheben. (Grammatikform)

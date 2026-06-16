@@ -9,4 +9,4 @@ options:
 correct: auswerten
 ---
 
-Die Daten sind leicht zu ___ . (Passiversatz)
+Die Daten sind leicht zu ___ . (Grammatikform)

@@ -17,11 +17,11 @@
 ### 1. `b2-passv-001` · select-one
 
 **Aufgabe:**
-> Das Problem ___ sich leicht lösen. (lassen)
+> Das Problem ___ sich leicht lösen. (Grammatikform)
 
 **Optionen:**
 - ist
-- lässt sich
+- lassen
 - lässt **✓**
 - hat
 
@@ -31,7 +31,7 @@
 ### 2. `b2-passv-002` · select-one
 
 **Aufgabe:**
-> Die Aufgabe ist zu ___ . (Passiversatz)
+> Die Aufgabe ist zu ___ . (Grammatikform)
 
 **Optionen:**
 - erledigend
@@ -45,7 +45,7 @@
 ### 3. `b2-passv-003` · select-one
 
 **Aufgabe:**
-> Das Buch ___ sich gut lesen. (lassen)
+> Das Buch ___ sich gut lesen. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -59,7 +59,7 @@
 ### 4. `b2-passv-004` · select-one
 
 **Aufgabe:**
-> Der Bericht ist noch zu ___ . (Passiversatz)
+> Der Bericht ist noch zu ___ . (Grammatikform)
 
 **Optionen:**
 - überarbeitete
@@ -73,7 +73,7 @@
 ### 5. `b2-passv-005` · select-one
 
 **Aufgabe:**
-> Das Rätsel ___ sich nicht lösen. (lassen)
+> Das Rätsel ___ sich nicht lösen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -87,7 +87,7 @@
 ### 6. `b2-passv-006` · select-one
 
 **Aufgabe:**
-> Die Frage ist schwer zu ___ . (Passiversatz)
+> Die Frage ist schwer zu ___ . (Grammatikform)
 
 **Optionen:**
 - beantwortend
@@ -101,7 +101,7 @@
 ### 7. `b2-passv-007` · select-one
 
 **Aufgabe:**
-> Das Fenster ___ sich nicht öffnen. (lassen)
+> Das Fenster ___ sich nicht öffnen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -115,7 +115,7 @@
 ### 8. `b2-passv-008` · select-one
 
 **Aufgabe:**
-> Der Text ist zu lang, um ihn zu ___ . (Passiversatz)
+> Der Text ist zu lang, um ihn zu ___ . (Grammatikform)
 
 **Optionen:**
 - zusammenfasste
@@ -129,7 +129,7 @@
 ### 9. `b2-passv-009` · select-one
 
 **Aufgabe:**
-> Das Ergebnis ___ sich nicht vorhersagen. (lassen)
+> Das Ergebnis ___ sich nicht vorhersagen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -143,7 +143,7 @@
 ### 10. `b2-passv-010` · select-one
 
 **Aufgabe:**
-> Die Daten sind leicht zu ___ . (Passiversatz)
+> Die Daten sind leicht zu ___ . (Grammatikform)
 
 **Optionen:**
 - auswertend
@@ -157,7 +157,7 @@
 ### 11. `b2-passv-011` · select-one
 
 **Aufgabe:**
-> Der Fehler ___ sich schnell beheben. (lassen)
+> Der Fehler ___ sich schnell beheben. (Grammatikform)
 
 **Optionen:**
 - wurde
@@ -171,7 +171,7 @@
 ### 12. `b2-passv-012` · select-one
 
 **Aufgabe:**
-> Das Thema ist zu komplex, um es kurz zu ___ . (Passiversatz)
+> Das Thema ist zu komplex, um es kurz zu ___ . (Grammatikform)
 
 **Optionen:**
 - erklärt
@@ -185,7 +185,7 @@
 ### 13. `b2-passv-013` · select-one
 
 **Aufgabe:**
-> Die Tür ___ sich nicht schließen. (lassen)
+> Die Tür ___ sich nicht schließen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -199,7 +199,7 @@
 ### 14. `b2-passv-014` · select-one
 
 **Aufgabe:**
-> Der Antrag ist noch zu ___ . (Passiversatz)
+> Der Antrag ist noch zu ___ . (Grammatikform)
 
 **Optionen:**
 - prüfend
@@ -213,7 +213,7 @@
 ### 15. `b2-passv-015` · select-one
 
 **Aufgabe:**
-> Das Problem ___ sich vermeiden. (lassen)
+> Das Problem ___ sich vermeiden. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -227,7 +227,7 @@
 ### 16. `b2-passv-016` · select-one
 
 **Aufgabe:**
-> Die Lösung ist schwer zu ___ . (Passiversatz)
+> Die Lösung ist schwer zu ___ . (Grammatikform)
 
 **Optionen:**
 - gefunden
@@ -241,7 +241,7 @@
 ### 17. `b2-passv-017` · select-one
 
 **Aufgabe:**
-> Das Gerät ___ sich einfach bedienen. (lassen)
+> Das Gerät ___ sich einfach bedienen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -255,12 +255,12 @@
 ### 18. `b2-passv-018` · select-one
 
 **Aufgabe:**
-> Das Problem ___ sich leicht lösen. (lassen)
+> Das Problem ___ sich leicht lösen. (Grammatikform)
 
 **Optionen:**
 - ist
 - lässt **✓**
-- lässt sich
+- lassen
 - wird
 
 - [ ] OK
@@ -269,7 +269,7 @@
 ### 19. `b2-passv-019` · select-one
 
 **Aufgabe:**
-> Die Aufgabe ist zu ___ . (Passiversatz)
+> Die Aufgabe ist zu ___ . (Grammatikform)
 
 **Optionen:**
 - erledigend
@@ -283,7 +283,7 @@
 ### 20. `b2-passv-020` · select-one
 
 **Aufgabe:**
-> Das Buch ___ sich gut lesen. (lassen)
+> Das Buch ___ sich gut lesen. (Grammatikform)
 
 **Optionen:**
 - ist
@@ -297,7 +297,7 @@
 ### 21. `b2-passv-021` · select-one
 
 **Aufgabe:**
-> Der Bericht ist noch zu ___ . (Passiversatz)
+> Der Bericht ist noch zu ___ . (Grammatikform)
 
 **Optionen:**
 - überarbeitend
@@ -311,7 +311,7 @@
 ### 22. `b2-passv-022` · select-one
 
 **Aufgabe:**
-> Das Rätsel ___ sich nicht lösen. (lassen)
+> Das Rätsel ___ sich nicht lösen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -325,7 +325,7 @@
 ### 23. `b2-passv-023` · select-one
 
 **Aufgabe:**
-> Die Frage ist schwer zu ___ . (Passiversatz)
+> Die Frage ist schwer zu ___ . (Grammatikform)
 
 **Optionen:**
 - beantwortend
@@ -339,7 +339,7 @@
 ### 24. `b2-passv-024` · select-one
 
 **Aufgabe:**
-> Das Fenster ___ sich nicht öffnen. (lassen)
+> Das Fenster ___ sich nicht öffnen. (Grammatikform)
 
 **Optionen:**
 - ist
@@ -353,7 +353,7 @@
 ### 25. `b2-passv-025` · select-one
 
 **Aufgabe:**
-> Der Text ist zu lang, um ihn zu ___ . (Passiversatz)
+> Der Text ist zu lang, um ihn zu ___ . (Grammatikform)
 
 **Optionen:**
 - zusammenfassend
@@ -367,7 +367,7 @@
 ### 26. `b2-passv-026` · select-one
 
 **Aufgabe:**
-> Das Ergebnis ___ sich nicht vorhersagen. (lassen)
+> Das Ergebnis ___ sich nicht vorhersagen. (Grammatikform)
 
 **Optionen:**
 - ist
@@ -381,7 +381,7 @@
 ### 27. `b2-passv-027` · select-one
 
 **Aufgabe:**
-> Die Daten sind leicht zu ___ . (Passiversatz)
+> Die Daten sind leicht zu ___ . (Grammatikform)
 
 **Optionen:**
 - auswertetes
@@ -395,7 +395,7 @@
 ### 28. `b2-passv-028` · select-one
 
 **Aufgabe:**
-> Der Fehler ___ sich schnell beheben. (lassen)
+> Der Fehler ___ sich schnell beheben. (Grammatikform)
 
 **Optionen:**
 - ist
@@ -409,7 +409,7 @@
 ### 29. `b2-passv-029` · select-one
 
 **Aufgabe:**
-> Das Thema ist zu komplex, um es kurz zu ___ . (Passiversatz)
+> Das Thema ist zu komplex, um es kurz zu ___ . (Grammatikform)
 
 **Optionen:**
 - erklärend
@@ -423,7 +423,7 @@
 ### 30. `b2-passv-030` · select-one
 
 **Aufgabe:**
-> Die Tür ___ sich nicht schließen. (lassen)
+> Die Tür ___ sich nicht schließen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -437,7 +437,7 @@
 ### 31. `b2-passv-031` · select-one
 
 **Aufgabe:**
-> Der Antrag ist noch zu ___ . (Passiversatz)
+> Der Antrag ist noch zu ___ . (Grammatikform)
 
 **Optionen:**
 - prüftes
@@ -451,7 +451,7 @@
 ### 32. `b2-passv-032` · select-one
 
 **Aufgabe:**
-> Das Problem ___ sich vermeiden. (lassen)
+> Das Problem ___ sich vermeiden. (Grammatikform)
 
 **Optionen:**
 - ist
@@ -465,7 +465,7 @@
 ### 33. `b2-passv-033` · select-one
 
 **Aufgabe:**
-> Die Lösung ist schwer zu ___ . (Passiversatz)
+> Die Lösung ist schwer zu ___ . (Grammatikform)
 
 **Optionen:**
 - findend
@@ -479,7 +479,7 @@
 ### 34. `b2-passv-034` · select-one
 
 **Aufgabe:**
-> Das Gerät ___ sich einfach bedienen. (lassen)
+> Das Gerät ___ sich einfach bedienen. (Grammatikform)
 
 **Optionen:**
 - ist
@@ -493,7 +493,7 @@
 ### 35. `b2-passv-035` · select-one
 
 **Aufgabe:**
-> Das Problem ___ sich leicht lösen. (lassen)
+> Das Problem ___ sich leicht lösen. (Grammatikform)
 
 **Optionen:**
 - ist
@@ -507,7 +507,7 @@
 ### 36. `b2-passv-036` · select-one
 
 **Aufgabe:**
-> Die Aufgabe ist zu ___ . (Passiversatz)
+> Die Aufgabe ist zu ___ . (Grammatikform)
 
 **Optionen:**
 - erledigte
@@ -521,7 +521,7 @@
 ### 37. `b2-passv-037` · select-one
 
 **Aufgabe:**
-> Das Buch ___ sich gut lesen. (lassen)
+> Das Buch ___ sich gut lesen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -535,7 +535,7 @@
 ### 38. `b2-passv-038` · select-one
 
 **Aufgabe:**
-> Der Bericht ist noch zu ___ . (Passiversatz)
+> Der Bericht ist noch zu ___ . (Grammatikform)
 
 **Optionen:**
 - überarbeitend
@@ -549,7 +549,7 @@
 ### 39. `b2-passv-039` · select-one
 
 **Aufgabe:**
-> Das Rätsel ___ sich nicht lösen. (lassen)
+> Das Rätsel ___ sich nicht lösen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -563,7 +563,7 @@
 ### 40. `b2-passv-040` · select-one
 
 **Aufgabe:**
-> Die Frage ist schwer zu ___ . (Passiversatz)
+> Die Frage ist schwer zu ___ . (Grammatikform)
 
 **Optionen:**
 - beantwortet
@@ -577,7 +577,7 @@
 ### 41. `b2-passv-041` · select-one
 
 **Aufgabe:**
-> Das Fenster ___ sich nicht öffnen. (lassen)
+> Das Fenster ___ sich nicht öffnen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -591,7 +591,7 @@
 ### 42. `b2-passv-042` · select-one
 
 **Aufgabe:**
-> Der Text ist zu lang, um ihn zu ___ . (Passiversatz)
+> Der Text ist zu lang, um ihn zu ___ . (Grammatikform)
 
 **Optionen:**
 - zusammengefasst
@@ -605,7 +605,7 @@
 ### 43. `b2-passv-043` · select-one
 
 **Aufgabe:**
-> Das Ergebnis ___ sich nicht vorhersagen. (lassen)
+> Das Ergebnis ___ sich nicht vorhersagen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -619,7 +619,7 @@
 ### 44. `b2-passv-044` · select-one
 
 **Aufgabe:**
-> Die Daten sind leicht zu ___ . (Passiversatz)
+> Die Daten sind leicht zu ___ . (Grammatikform)
 
 **Optionen:**
 - auswertete
@@ -633,7 +633,7 @@
 ### 45. `b2-passv-045` · select-one
 
 **Aufgabe:**
-> Der Fehler ___ sich schnell beheben. (lassen)
+> Der Fehler ___ sich schnell beheben. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -647,7 +647,7 @@
 ### 46. `b2-passv-046` · select-one
 
 **Aufgabe:**
-> Das Thema ist zu komplex, um es kurz zu ___ . (Passiversatz)
+> Das Thema ist zu komplex, um es kurz zu ___ . (Grammatikform)
 
 **Optionen:**
 - erklärend
@@ -661,7 +661,7 @@
 ### 47. `b2-passv-047` · select-one
 
 **Aufgabe:**
-> Die Tür ___ sich nicht schließen. (lassen)
+> Die Tür ___ sich nicht schließen. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -675,7 +675,7 @@
 ### 48. `b2-passv-048` · select-one
 
 **Aufgabe:**
-> Der Antrag ist noch zu ___ . (Passiversatz)
+> Der Antrag ist noch zu ___ . (Grammatikform)
 
 **Optionen:**
 - geprüft
@@ -689,7 +689,7 @@
 ### 49. `b2-passv-049` · select-one
 
 **Aufgabe:**
-> Das Problem ___ sich vermeiden. (lassen)
+> Das Problem ___ sich vermeiden. (Grammatikform)
 
 **Optionen:**
 - wird
@@ -703,7 +703,7 @@
 ### 50. `b2-passv-050` · select-one
 
 **Aufgabe:**
-> Die Lösung ist schwer zu ___ . (Passiversatz)
+> Die Lösung ist schwer zu ___ . (Grammatikform)
 
 **Optionen:**
 - gefunden
@@ -789,7 +789,7 @@
 ### 58. `b2-passv-in-008` · input-text
 
 **Aufgabe:**
-> Der Text ist zu lang zu ___ . (Passiversatz)
+> Der Text ist zu lang, um ihn zu ___ . (Grammatikform)
 
 **Antwort:** `zusammenfassen`
 
@@ -829,7 +829,7 @@
 ### 62. `b2-passv-in-012` · input-text
 
 **Aufgabe:**
-> Das Thema ist zu komplex zu ___ . (Passiversatz)
+> Das Thema ist zu komplex, um es kurz zu ___ . (Grammatikform)
 
 **Antwort:** `erklären`
 
@@ -959,7 +959,7 @@
 ### 75. `b2-passv-in-025` · input-text
 
 **Aufgabe:**
-> Der Text ist zu lang zu ___ . (Passiversatz)
+> Der Text ist zu lang, um ihn zu ___ . (Grammatikform)
 
 **Antwort:** `zusammenfassen`
 
@@ -999,7 +999,7 @@
 ### 79. `b2-passv-in-029` · input-text
 
 **Aufgabe:**
-> Das Thema ist zu komplex zu ___ . (Passiversatz)
+> Das Thema ist zu komplex, um es kurz zu ___ . (Grammatikform)
 
 **Antwort:** `erklären`
 
@@ -1129,7 +1129,7 @@
 ### 92. `b2-passv-in-042` · input-text
 
 **Aufgabe:**
-> Der Text ist zu lang zu ___ . (Passiversatz)
+> Der Text ist zu lang, um ihn zu ___ . (Grammatikform)
 
 **Antwort:** `zusammenfassen`
 
@@ -1169,7 +1169,7 @@
 ### 96. `b2-passv-in-046` · input-text
 
 **Aufgabe:**
-> Das Thema ist zu komplex zu ___ . (Passiversatz)
+> Das Thema ist zu komplex, um es kurz zu ___ . (Grammatikform)
 
 **Antwort:** `erklären`
 

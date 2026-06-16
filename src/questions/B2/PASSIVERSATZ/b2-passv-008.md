@@ -9,4 +9,4 @@ options:
 correct: zusammenfassen
 ---
 
-Der Text ist zu lang, um ihn zu ___ . (Passiversatz)
+Der Text ist zu lang, um ihn zu ___ . (Grammatikform)
