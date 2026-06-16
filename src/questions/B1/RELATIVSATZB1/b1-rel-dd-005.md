@@ -12,4 +12,4 @@ words:
   - klein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — in der ich wohne)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

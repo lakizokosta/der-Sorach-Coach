@@ -2,13 +2,14 @@
 id: b1-rel-dd-042
 type: dropbox
 words:
-  - Das
-  - Medikament
-  - das
-  - er
-  - braucht
-  - ist
-  - teuer
+  - Die
+  - Reise
+  - die
+  - wir
+  - gebucht
+  - haben
+  - beginnt
+  - morgen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — das er braucht)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

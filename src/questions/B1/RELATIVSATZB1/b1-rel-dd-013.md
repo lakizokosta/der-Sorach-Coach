@@ -14,4 +14,4 @@ words:
   - Kraft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — das verabschiedet wurde)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

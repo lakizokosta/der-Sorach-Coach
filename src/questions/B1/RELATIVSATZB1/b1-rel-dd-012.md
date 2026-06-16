@@ -12,4 +12,4 @@ words:
   - morgen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — die wir gebucht haben)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

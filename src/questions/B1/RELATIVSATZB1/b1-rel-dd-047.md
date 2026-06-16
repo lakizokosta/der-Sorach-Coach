@@ -2,16 +2,14 @@
 id: b1-rel-dd-047
 type: dropbox
 words:
-  - Das
-  - Gesetz
-  - das
+  - Die
+  - Professorin
+  - die
+  - ich
   - gestern
-  - verabschiedet
-  - wurde
-  - tritt
-  - bald
-  - in
-  - Kraft
+  - traf
+  - war
+  - nett
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — das verabschiedet wurde)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

@@ -3,14 +3,13 @@ id: b1-rel-dd-021
 type: dropbox
 words:
   - Der
-  - Patient
-  - den
-  - der
-  - Arzt
-  - behandelt
-  - fühlt
-  - sich
-  - besser
+  - Minister
+  - dessen
+  - Entscheidung
+  - umstritten
+  - ist
+  - spricht
+  - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — den Arzt behandelt)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

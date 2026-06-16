@@ -12,4 +12,4 @@ words:
   - neu
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — der neben mir sitzt)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

@@ -12,4 +12,4 @@ words:
   - geholfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — denen ich danke)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

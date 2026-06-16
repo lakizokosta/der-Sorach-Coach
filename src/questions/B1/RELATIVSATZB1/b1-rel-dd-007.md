@@ -11,4 +11,4 @@ words:
   - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — die bestanden haben)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

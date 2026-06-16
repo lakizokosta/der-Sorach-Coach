@@ -3,12 +3,13 @@ id: b1-rel-dd-045
 type: dropbox
 words:
   - Der
-  - Arzt
-  - dem
-  - ich
-  - vertraue
+  - Politiker
+  - dessen
+  - Rede
+  - lange
+  - dauerte
   - ist
-  - erfahren
+  - bekannt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — dem ich vertraue)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

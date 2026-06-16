@@ -2,14 +2,14 @@
 id: b1-rel-dd-050
 type: dropbox
 words:
-  - Der
-  - Kollege
+  - Die
+  - Stadt
+  - in
   - der
-  - neben
-  - mir
-  - sitzt
+  - ich
+  - wohne
   - ist
-  - neu
+  - klein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — wo wir arbeiten)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

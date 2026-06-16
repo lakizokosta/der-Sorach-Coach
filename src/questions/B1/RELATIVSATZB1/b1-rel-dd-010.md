@@ -12,4 +12,4 @@ words:
   - schnell
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — für die er arbeitet)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

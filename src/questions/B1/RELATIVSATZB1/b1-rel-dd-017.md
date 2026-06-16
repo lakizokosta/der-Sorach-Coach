@@ -12,4 +12,4 @@ words:
   - nett
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — was er sagte)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

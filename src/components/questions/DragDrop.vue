@@ -50,10 +50,11 @@ onMounted(scrambleBank);
 
 const locked = computed(() => finalised.value || showSolution.value);
 
-function pushChip(word) {
+function pushChip(index) {
   if (locked.value) return;
-  const i = bank.value.indexOf(word);
-  if (i !== -1) bank.value.splice(i, 1);
+  const word = bank.value[index];
+  if (word === undefined) return;
+  bank.value.splice(index, 1);
   drop.value.push(word);
   // Auto-place the last remaining word (already handles "?" via suffix).
   if (bank.value.length === 1) {
@@ -211,7 +212,7 @@ const chipClass = computed(() => (word, index) => {
         v-for="(w, i) in bank"
         :key="`b-${i}-${w}`"
         class="dd-chip"
-        @click="pushChip(w)"
+        @click="pushChip(i)"
       >
         {{ w }}
       </span>

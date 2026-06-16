@@ -2,14 +2,14 @@
 id: b1-rel-dd-032
 type: dropbox
 words:
-  - Der
-  - Politiker
-  - dessen
-  - Rede
-  - lange
-  - dauerte
-  - ist
-  - bekannt
+  - Die
+  - Professorin
+  - die
+  - ich
+  - gestern
+  - traf
+  - war
+  - nett
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — deren Rede dauerte)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

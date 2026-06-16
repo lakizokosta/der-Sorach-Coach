@@ -12,4 +12,4 @@ words:
   - neu
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — wo wir arbeiten)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

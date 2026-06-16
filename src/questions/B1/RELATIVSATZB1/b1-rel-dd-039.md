@@ -2,14 +2,15 @@
 id: b1-rel-dd-039
 type: dropbox
 words:
-  - Die
-  - Stadt
+  - Der
+  - Artikel
+  - der
   - in
   - der
-  - ich
-  - wohne
-  - ist
-  - klein
+  - Zeitung
+  - stand
+  - war
+  - interessant
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — in der ich wohne)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

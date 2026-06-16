@@ -12,4 +12,4 @@ words:
   - nett
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — die ich traf)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

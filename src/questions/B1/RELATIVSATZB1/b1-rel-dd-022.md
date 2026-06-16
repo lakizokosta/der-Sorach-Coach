@@ -2,14 +2,13 @@
 id: b1-rel-dd-022
 type: dropbox
 words:
-  - Die
-  - Stadt
-  - in
-  - der
-  - ich
-  - wohne
-  - ist
-  - klein
+  - Studierende
+  - die
+  - Prüfung
+  - bestanden
+  - haben
+  - feiern
+  - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — in der ich wohne)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

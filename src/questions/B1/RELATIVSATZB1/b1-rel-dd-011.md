@@ -11,4 +11,4 @@ words:
   - erfahren
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — dem ich vertraue)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

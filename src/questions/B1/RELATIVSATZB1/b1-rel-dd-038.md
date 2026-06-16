@@ -2,15 +2,13 @@
 id: b1-rel-dd-038
 type: dropbox
 words:
-  - Der
-  - Patient
-  - den
-  - der
-  - Arzt
-  - behandelt
-  - fühlt
-  - sich
-  - besser
+  - Das
+  - Medikament
+  - das
+  - er
+  - braucht
+  - ist
+  - teuer
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — den Arzt behandelt)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

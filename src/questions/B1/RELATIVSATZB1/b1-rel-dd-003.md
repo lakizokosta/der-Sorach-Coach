@@ -11,4 +11,4 @@ words:
   - ambitioniert
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — das wir planen)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

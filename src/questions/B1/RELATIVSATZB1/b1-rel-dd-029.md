@@ -3,13 +3,13 @@ id: b1-rel-dd-029
 type: dropbox
 words:
   - Die
-  - Reise
-  - die
-  - wir
-  - gebucht
+  - Kollegen
+  - denen
+  - ich
+  - danke
   - haben
-  - beginnt
-  - morgen
+  - mir
+  - geholfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — die wir gebucht haben)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

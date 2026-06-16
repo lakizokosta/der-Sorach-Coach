@@ -2,14 +2,13 @@
 id: b1-rel-dd-018
 type: dropbox
 words:
-  - Der
-  - Kollege
-  - der
-  - neben
-  - mir
-  - sitzt
+  - Das
+  - Projekt
+  - das
+  - wir
+  - planen
   - ist
-  - neu
+  - ambitioniert
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — der neben mir sitzt)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

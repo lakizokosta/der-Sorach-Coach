@@ -11,4 +11,4 @@ words:
   - teuer
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — das er braucht)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

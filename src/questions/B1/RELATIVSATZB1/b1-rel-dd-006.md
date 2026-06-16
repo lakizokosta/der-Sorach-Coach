@@ -12,4 +12,4 @@ words:
   - heute
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — dessen Entscheidung)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

@@ -2,13 +2,16 @@
 id: b1-rel-dd-028
 type: dropbox
 words:
-  - Der
-  - Arzt
-  - dem
-  - ich
-  - vertraue
-  - ist
-  - erfahren
+  - Das
+  - Gesetz
+  - das
+  - gestern
+  - verabschiedet
+  - wurde
+  - tritt
+  - bald
+  - in
+  - Kraft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — dem ich vertraue)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

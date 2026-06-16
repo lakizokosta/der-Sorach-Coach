@@ -13,4 +13,4 @@ words:
   - besser
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — den Arzt behandelt)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

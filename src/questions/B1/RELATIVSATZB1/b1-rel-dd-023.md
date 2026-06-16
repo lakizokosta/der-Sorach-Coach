@@ -2,14 +2,13 @@
 id: b1-rel-dd-023
 type: dropbox
 words:
-  - Der
-  - Minister
-  - dessen
-  - Entscheidung
-  - umstritten
+  - Das
+  - Medikament
+  - das
+  - er
+  - braucht
   - ist
-  - spricht
-  - heute
+  - teuer
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — dessen Entscheidung)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

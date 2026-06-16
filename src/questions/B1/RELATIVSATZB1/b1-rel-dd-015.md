@@ -12,4 +12,4 @@ words:
   - bekannt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — deren Rede dauerte)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)
