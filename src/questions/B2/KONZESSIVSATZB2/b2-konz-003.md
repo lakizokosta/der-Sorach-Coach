@@ -2,11 +2,11 @@
 id: b2-konz-003
 type: select-one
 options:
+  - Obgleich
+  - Weil
   - Damit
-  - Wenn
-  - Dass
-  - Obwohl
-correct: Obwohl
+  - Wenngleich
+correct: Wenngleich
 ---
 
-___, wenngleich er Recht hatte, blieb er unhöflich. (Konzessivsatz)
+___ er Recht hatte, blieb er unhöflich. (Konzessivsatz)

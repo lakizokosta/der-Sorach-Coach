@@ -2,11 +2,11 @@
 id: b2-konz-005
 type: select-one
 options:
+  - Wenngleich
+  - Obgleich
   - Damit
   - Obwohl
-  - Dass
-  - Weil
-correct: Obwohl
+correct: Obgleich
 ---
 
-___, obgleich die Kritik berechtigt war, verteidigte er sein Konzept. (Konzessivsatz)
+___ die Kritik berechtigt war, verteidigte er sein Konzept. (Konzessivsatz)

@@ -2,11 +2,11 @@
 id: b2-konz-049
 type: select-one
 options:
+  - Obgleich
+  - Wenngleich
   - Damit
   - Obwohl
-  - Dass
-  - Weil
-correct: Obwohl
+correct: Wenngleich
 ---
 
-___, wenngleich die Meinungen auseinandergingen, einigte man sich. (Konzessivsatz)
+___ die Meinungen auseinandergingen, einigte man sich. (Konzessivsatz)

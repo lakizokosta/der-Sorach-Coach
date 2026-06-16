@@ -2,11 +2,11 @@
 id: b2-konz-009
 type: select-one
 options:
+  - Obgleich
+  - Wenngleich
   - Damit
   - Obwohl
-  - Dass
-  - Weil
-correct: Obwohl
+correct: Wenngleich
 ---
 
-___, wenngleich die Kosten hoch sind, lohnt sich die Investition. (Konzessivsatz)
+___ die Kosten hoch sind, lohnt sich die Investition. (Konzessivsatz)

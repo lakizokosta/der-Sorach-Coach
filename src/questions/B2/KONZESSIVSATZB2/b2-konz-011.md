@@ -2,11 +2,11 @@
 id: b2-konz-011
 type: select-one
 options:
+  - Wenngleich
+  - Weil
   - Damit
-  - Wenn
-  - Dass
-  - Obwohl
-correct: Obwohl
+  - Obgleich
+correct: Obgleich
 ---
 
-___, obgleich er gewarnt worden war, fuhr er zu schnell. (Konzessivsatz)
+___ er gewarnt worden war, fuhr er zu schnell. (Konzessivsatz)

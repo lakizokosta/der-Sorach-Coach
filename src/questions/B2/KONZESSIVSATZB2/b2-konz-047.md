@@ -2,11 +2,11 @@
 id: b2-konz-047
 type: select-one
 options:
-  - Dass
   - Damit
-  - Wenn
+  - Wenngleich
+  - Weil
   - Obwohl
 correct: Obwohl
 ---
 
-___, obwohl die Beweise fehlten, wurde er verurteilt. (Konzessivsatz)
+___ die Beweise fehlten, wurde er verurteilt. (Konzessivsatz)

@@ -139,23 +139,23 @@ export function genKonjunktiv2B2() {
 
 export function genKonzessivsatzB2() {
   return bank([
-    ['___, obgleich die Chancen gering waren, versuchte er es.', 'Obwohl', ['Weil', 'Damit', 'Wenn', 'Dass']],
+    ['___ die Chancen gering waren, versuchte er es.', 'Obgleich', ['Obwohl', 'Wenngleich', 'Weil', 'Damit']],
     ['Sie arbeitet weiter, ___ sie erschöpft ist.', 'obwohl', ['weil', 'damit', 'dass', 'wenn']],
-    ['___, wenngleich er Recht hatte, blieb er unhöflich.', 'Obwohl', ['Weil', 'Damit', 'Wenn', 'Dass']],
+    ['___ er Recht hatte, blieb er unhöflich.', 'Wenngleich', ['Obwohl', 'Obgleich', 'Weil', 'Damit']],
     ['Er ging spazieren, ___ es regnete.', 'obwohl', ['weil', 'damit', 'dass', 'wenn']],
-    ['___, obgleich die Kritik berechtigt war, verteidigte er sein Konzept.', 'Obwohl', ['Weil', 'Damit', 'Wenn', 'Dass']],
+    ['___ die Kritik berechtigt war, verteidigte er sein Konzept.', 'Obgleich', ['Obwohl', 'Wenngleich', 'Weil', 'Damit']],
     ['Sie lachte, ___ ihr nichts lustig vorkam.', 'obwohl', ['weil', 'damit', 'dass', 'wenn']],
-    ['___, obwohl er müde war, leitete er die Sitzung.', 'Obwohl', ['Weil', 'Damit', 'Wenn', 'Dass']],
+    ['___ er müde war, leitete er die Sitzung.', 'Obwohl', ['Obgleich', 'Wenngleich', 'Weil', 'Damit']],
     ['Er bestand die Prüfung, ___ er kaum gelernt hatte.', 'obwohl', ['weil', 'damit', 'dass', 'wenn']],
-    ['___, wenngleich die Kosten hoch sind, lohnt sich die Investition.', 'Obwohl', ['Weil', 'Damit', 'Wenn', 'Dass']],
+    ['___ die Kosten hoch sind, lohnt sich die Investition.', 'Wenngleich', ['Obwohl', 'Obgleich', 'Weil', 'Damit']],
     ['Sie blieb ruhig, ___ alle nervös waren.', 'obwohl', ['weil', 'damit', 'dass', 'wenn']],
-    ['___, obgleich er gewarnt worden war, fuhr er zu schnell.', 'Obwohl', ['Weil', 'Damit', 'Wenn', 'Dass']],
+    ['___ er gewarnt worden war, fuhr er zu schnell.', 'Obgleich', ['Obwohl', 'Wenngleich', 'Weil', 'Damit']],
     ['Er nahm den Job an, ___ das Gehalt niedrig war.', 'obwohl', ['weil', 'damit', 'dass', 'wenn']],
-    ['___, obwohl die Beweise fehlten, wurde er verurteilt.', 'Obwohl', ['Weil', 'Damit', 'Wenn', 'Dass']],
+    ['___ die Beweise fehlten, wurde er verurteilt.', 'Obwohl', ['Obgleich', 'Wenngleich', 'Weil', 'Damit']],
     ['Sie reiste trotz Warnung, ___ das Risiko hoch war.', 'obwohl', ['weil', 'damit', 'dass', 'wenn']],
-    ['___, wenngleich die Meinungen auseinandergingen, einigte man sich.', 'Obwohl', ['Weil', 'Damit', 'Wenn', 'Dass']],
+    ['___ die Meinungen auseinandergingen, einigte man sich.', 'Wenngleich', ['Obwohl', 'Obgleich', 'Weil', 'Damit']],
     ['Er lief weiter, ___ er einen Muskelfaserriss hatte.', 'obwohl', ['weil', 'damit', 'dass', 'wenn']],
-    ['___, obgleich die Nachfrage sinkt, erhöht die Firma die Produktion.', 'Obwohl', ['Weil', 'Damit', 'Wenn', 'Dass']],
+    ['___ die Nachfrage sinkt, erhöht die Firma die Produktion.', 'Obgleich', ['Obwohl', 'Wenngleich', 'Weil', 'Damit']],
   ], 61);
 }
 
