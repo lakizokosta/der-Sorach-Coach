@@ -10,4 +10,4 @@ words:
   - Arbeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Freude an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

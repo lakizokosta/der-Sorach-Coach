@@ -11,4 +11,4 @@ words:
   - Politik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Zweifel an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

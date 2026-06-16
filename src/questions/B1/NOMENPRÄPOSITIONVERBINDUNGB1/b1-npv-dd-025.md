@@ -10,4 +10,4 @@ words:
   - Prüfung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfolg bei)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

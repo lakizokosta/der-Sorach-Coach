@@ -10,4 +10,4 @@ words:
   - Hunden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Sorge um)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

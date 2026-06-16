@@ -10,4 +10,4 @@ words:
   - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Respekt vor)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

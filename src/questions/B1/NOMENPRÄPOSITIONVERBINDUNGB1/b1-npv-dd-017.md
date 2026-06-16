@@ -10,4 +10,4 @@ words:
   - Operation
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Bedarf an Pflegekräften)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

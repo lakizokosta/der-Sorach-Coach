@@ -10,4 +10,4 @@ words:
   - Team
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Vertrauen in)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

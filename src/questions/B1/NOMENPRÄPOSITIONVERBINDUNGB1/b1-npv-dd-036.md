@@ -10,4 +10,4 @@ words:
   - Operation
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Angst vor)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

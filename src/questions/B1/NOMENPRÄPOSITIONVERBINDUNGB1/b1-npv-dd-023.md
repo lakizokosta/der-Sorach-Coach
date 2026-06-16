@@ -6,10 +6,10 @@ words:
   - hat
   - Lust
   - auf
-  - einer
+  - eine
   - Reise
   - nach
   - Spanien
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Lust auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

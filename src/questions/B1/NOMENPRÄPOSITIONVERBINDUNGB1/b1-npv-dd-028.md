@@ -12,4 +12,4 @@ words:
   - Teams
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Einfluss auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

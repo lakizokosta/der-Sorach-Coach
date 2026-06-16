@@ -10,4 +10,4 @@ words:
   - Entscheidung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Schmerzen im)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
