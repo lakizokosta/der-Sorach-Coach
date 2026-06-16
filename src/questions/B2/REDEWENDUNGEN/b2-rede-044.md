@@ -9,4 +9,4 @@ options:
 correct: Blaue
 ---
 
-Das war ein Schuss ins ___ . (Redewendung)
+Das war ein Schuss ins ___ . (Grammatikform)

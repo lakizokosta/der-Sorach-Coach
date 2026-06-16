@@ -9,4 +9,4 @@ options:
 correct: zuerst
 ---
 
-Er ist mit dem falschen Bein ___ aufgestanden. (Redewendung)
+Er ist mit dem falschen Bein ___ aufgestanden. (Grammatikform)

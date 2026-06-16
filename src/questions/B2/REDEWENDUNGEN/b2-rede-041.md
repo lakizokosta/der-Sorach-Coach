@@ -9,4 +9,4 @@ options:
 correct: scharfes
 ---
 
-Er hat ein ___ Auge auf Details. (Redewendung)
+Er hat ein ___ Auge auf Details. (Grammatikform)

@@ -468,6 +468,7 @@ export function verbFormHint(topic, inner = '', correct = [], options = [], body
   if (topic === 'KONJUNKTIV2B2') return 'Grammatikform';
   if (topic === 'PASSIVB2') return 'Grammatikform';
   if (topic === 'PASSIVERSATZ') return 'Grammatikform';
+  if (topic === 'REDEWENDUNGEN') return 'Grammatikform';
 
   if (topic === 'REFLEXIVPRONOMEN') {
     const hint = reflexivFormHint(inner, correct, options, body, id);

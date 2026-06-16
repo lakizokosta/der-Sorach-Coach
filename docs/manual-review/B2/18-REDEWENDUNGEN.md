@@ -16,7 +16,7 @@
 ### 1. `b2-rede-001` · select-one
 
 **Aufgabe:**
-> Bleib auf dem ___ — informiere dich regelmäßig! (Redewendung)
+> Bleib auf dem ___ — informiere dich regelmäßig! (Grammatikform)
 
 **Optionen:**
 - Laufendem
@@ -30,7 +30,7 @@
 ### 2. `b2-rede-002` · select-one
 
 **Aufgabe:**
-> Er hat den Nagel auf den ___ getroffen. (Redewendung)
+> Er hat den Nagel auf den ___ getroffen. (Grammatikform)
 
 **Optionen:**
 - Kopfe
@@ -44,7 +44,7 @@
 ### 3. `b2-rede-003` · select-one
 
 **Aufgabe:**
-> Wir müssen den Stein ins ___ bringen. (Redewendung)
+> Wir müssen den Stein ins ___ bringen. (Grammatikform)
 
 **Optionen:**
 - Roller
@@ -58,7 +58,7 @@
 ### 4. `b2-rede-004` · select-one
 
 **Aufgabe:**
-> Sie hat die Nase voll — sie hat die Nase ___ . (Redewendung)
+> Sie hat die Nase voll — sie hat die Nase ___ . (Grammatikform)
 
 **Optionen:**
 - voller
@@ -72,7 +72,7 @@
 ### 5. `b2-rede-005` · select-one
 
 **Aufgabe:**
-> Er spricht ___ aus, was er denkt. (Redewendung)
+> Er spricht ___ aus, was er denkt. (Grammatikform)
 
 **Optionen:**
 - offener
@@ -86,7 +86,7 @@
 ### 6. `b2-rede-006` · select-one
 
 **Aufgabe:**
-> Das geht mir ___ die Nerven. (Redewendung)
+> Das geht mir ___ die Nerven. (Grammatikform)
 
 **Optionen:**
 - an
@@ -100,7 +100,7 @@
 ### 7. `b2-rede-007` · select-one
 
 **Aufgabe:**
-> Er hat ein ___ Auge auf Details. (Redewendung)
+> Er hat ein ___ Auge auf Details. (Grammatikform)
 
 **Optionen:**
 - scharfer
@@ -114,7 +114,7 @@
 ### 8. `b2-rede-008` · select-one
 
 **Aufgabe:**
-> Wir sind ___ einer Meinung. (Redewendung)
+> Wir sind ___ einer Meinung. (Grammatikform)
 
 **Optionen:**
 - einen
@@ -128,7 +128,7 @@
 ### 9. `b2-rede-009` · select-one
 
 **Aufgabe:**
-> Er hat den ___ im Griff. (Redewendung)
+> Er hat den ___ im Griff. (Grammatikform)
 
 **Optionen:**
 - Überblicke
@@ -142,7 +142,7 @@
 ### 10. `b2-rede-010` · select-one
 
 **Aufgabe:**
-> Das war ein Schuss ins ___ . (Redewendung)
+> Das war ein Schuss ins ___ . (Grammatikform)
 
 **Optionen:**
 - Blauen
@@ -156,7 +156,7 @@
 ### 11. `b2-rede-011` · select-one
 
 **Aufgabe:**
-> Sie hat alles ___ den Kopf gestellt. (Redewendung)
+> Sie hat alles ___ den Kopf gestellt. (Grammatikform)
 
 **Optionen:**
 - in
@@ -170,7 +170,7 @@
 ### 12. `b2-rede-012` · select-one
 
 **Aufgabe:**
-> Er redet um den ___ herum. (Redewendung)
+> Er redet um den ___ herum. (Grammatikform)
 
 **Optionen:**
 - heißen Breie
@@ -184,12 +184,12 @@
 ### 13. `b2-rede-013` · select-one
 
 **Aufgabe:**
-> Das ist nicht mein ___ . (Redewendung)
+> Das ist nicht mein ___ . (Grammatikform)
 
 **Optionen:**
-- Bieren
-- Biere
-- Bieres
+- Kaffee
+- Tee
+- Saft
 - Bier **✓**
 
 - [ ] OK
@@ -198,7 +198,7 @@
 ### 14. `b2-rede-014` · select-one
 
 **Aufgabe:**
-> Er ist mit dem falschen Bein ___ aufgestanden. (Redewendung)
+> Er ist mit dem falschen Bein ___ aufgestanden. (Grammatikform)
 
 **Optionen:**
 - zuerste
@@ -212,7 +212,7 @@
 ### 15. `b2-rede-015` · select-one
 
 **Aufgabe:**
-> Sie hat den Ball ___ gehalten. (Redewendung)
+> Sie hat den Ball ___ gehalten. (Grammatikform)
 
 **Optionen:**
 - flacher
@@ -226,7 +226,7 @@
 ### 16. `b2-rede-016` · select-one
 
 **Aufgabe:**
-> Er ist ins kalte Wasser ___ . (Redewendung)
+> Er ist ins kalte Wasser ___ . (Grammatikform)
 
 **Optionen:**
 - gesprang
@@ -240,7 +240,7 @@
 ### 17. `b2-rede-017` · select-one
 
 **Aufgabe:**
-> Wir müssen die Sache auf den Punkt ___ . (Redewendung)
+> Wir müssen die Sache auf den Punkt ___ . (Grammatikform)
 
 **Optionen:**
 - bringt
@@ -254,7 +254,7 @@
 ### 18. `b2-rede-018` · select-one
 
 **Aufgabe:**
-> Bleib auf dem ___ — informiere dich regelmäßig! (Redewendung)
+> Bleib auf dem ___ — informiere dich regelmäßig! (Grammatikform)
 
 **Optionen:**
 - Laufende
@@ -268,7 +268,7 @@
 ### 19. `b2-rede-019` · select-one
 
 **Aufgabe:**
-> Er hat den Nagel auf den ___ getroffen. (Redewendung)
+> Er hat den Nagel auf den ___ getroffen. (Grammatikform)
 
 **Optionen:**
 - Köpfen
@@ -282,7 +282,7 @@
 ### 20. `b2-rede-020` · select-one
 
 **Aufgabe:**
-> Wir müssen den Stein ins ___ bringen. (Redewendung)
+> Wir müssen den Stein ins ___ bringen. (Grammatikform)
 
 **Optionen:**
 - Roller
@@ -296,7 +296,7 @@
 ### 21. `b2-rede-021` · select-one
 
 **Aufgabe:**
-> Sie hat die Nase voll — sie hat die Nase ___ . (Redewendung)
+> Sie hat die Nase voll — sie hat die Nase ___ . (Grammatikform)
 
 **Optionen:**
 - vollem
@@ -310,7 +310,7 @@
 ### 22. `b2-rede-022` · select-one
 
 **Aufgabe:**
-> Er spricht ___ aus, was er denkt. (Redewendung)
+> Er spricht ___ aus, was er denkt. (Grammatikform)
 
 **Optionen:**
 - offenen
@@ -324,7 +324,7 @@
 ### 23. `b2-rede-023` · select-one
 
 **Aufgabe:**
-> Das geht mir ___ die Nerven. (Redewendung)
+> Das geht mir ___ die Nerven. (Grammatikform)
 
 **Optionen:**
 - in
@@ -338,7 +338,7 @@
 ### 24. `b2-rede-024` · select-one
 
 **Aufgabe:**
-> Er hat ein ___ Auge auf Details. (Redewendung)
+> Er hat ein ___ Auge auf Details. (Grammatikform)
 
 **Optionen:**
 - scharfen
@@ -352,7 +352,7 @@
 ### 25. `b2-rede-025` · select-one
 
 **Aufgabe:**
-> Wir sind ___ einer Meinung. (Redewendung)
+> Wir sind ___ einer Meinung. (Grammatikform)
 
 **Optionen:**
 - einen
@@ -366,7 +366,7 @@
 ### 26. `b2-rede-026` · select-one
 
 **Aufgabe:**
-> Er hat den ___ im Griff. (Redewendung)
+> Er hat den ___ im Griff. (Grammatikform)
 
 **Optionen:**
 - Überblicken
@@ -380,7 +380,7 @@
 ### 27. `b2-rede-027` · select-one
 
 **Aufgabe:**
-> Das war ein Schuss ins ___ . (Redewendung)
+> Das war ein Schuss ins ___ . (Grammatikform)
 
 **Optionen:**
 - Blauer
@@ -394,7 +394,7 @@
 ### 28. `b2-rede-028` · select-one
 
 **Aufgabe:**
-> Sie hat alles ___ den Kopf gestellt. (Redewendung)
+> Sie hat alles ___ den Kopf gestellt. (Grammatikform)
 
 **Optionen:**
 - in
@@ -408,12 +408,12 @@
 ### 29. `b2-rede-029` · select-one
 
 **Aufgabe:**
-> Er redet um den ___ herum. (Redewendung)
+> Er redet um den ___ herum. (Grammatikform)
 
 **Optionen:**
 - heißen Breie
 - heißer Brei
-- heißem Brei
+- heißen Topf
 - heißen Brei **✓**
 
 - [ ] OK
@@ -422,13 +422,13 @@
 ### 30. `b2-rede-030` · select-one
 
 **Aufgabe:**
-> Das ist nicht mein ___ . (Redewendung)
+> Das ist nicht mein ___ . (Grammatikform)
 
 **Optionen:**
-- Biers
-- Biere
+- Wein
+- Tee
 - Bier **✓**
-- Bieres
+- Saft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -436,7 +436,7 @@
 ### 31. `b2-rede-031` · select-one
 
 **Aufgabe:**
-> Er ist mit dem falschen Bein ___ aufgestanden. (Redewendung)
+> Er ist mit dem falschen Bein ___ aufgestanden. (Grammatikform)
 
 **Optionen:**
 - zuerster
@@ -450,7 +450,7 @@
 ### 32. `b2-rede-032` · select-one
 
 **Aufgabe:**
-> Sie hat den Ball ___ gehalten. (Redewendung)
+> Sie hat den Ball ___ gehalten. (Grammatikform)
 
 **Optionen:**
 - flachen
@@ -464,7 +464,7 @@
 ### 33. `b2-rede-033` · select-one
 
 **Aufgabe:**
-> Er ist ins kalte Wasser ___ . (Redewendung)
+> Er ist ins kalte Wasser ___ . (Grammatikform)
 
 **Optionen:**
 - springen
@@ -478,7 +478,7 @@
 ### 34. `b2-rede-034` · select-one
 
 **Aufgabe:**
-> Wir müssen die Sache auf den Punkt ___ . (Redewendung)
+> Wir müssen die Sache auf den Punkt ___ . (Grammatikform)
 
 **Optionen:**
 - bringt
@@ -492,7 +492,7 @@
 ### 35. `b2-rede-035` · select-one
 
 **Aufgabe:**
-> Bleib auf dem ___ — informiere dich regelmäßig! (Redewendung)
+> Bleib auf dem ___ — informiere dich regelmäßig! (Grammatikform)
 
 **Optionen:**
 - Laufender
@@ -506,7 +506,7 @@
 ### 36. `b2-rede-036` · select-one
 
 **Aufgabe:**
-> Er hat den Nagel auf den ___ getroffen. (Redewendung)
+> Er hat den Nagel auf den ___ getroffen. (Grammatikform)
 
 **Optionen:**
 - Köpfen
@@ -520,7 +520,7 @@
 ### 37. `b2-rede-037` · select-one
 
 **Aufgabe:**
-> Wir müssen den Stein ins ___ bringen. (Redewendung)
+> Wir müssen den Stein ins ___ bringen. (Grammatikform)
 
 **Optionen:**
 - Roller
@@ -534,7 +534,7 @@
 ### 38. `b2-rede-038` · select-one
 
 **Aufgabe:**
-> Sie hat die Nase voll — sie hat die Nase ___ . (Redewendung)
+> Sie hat die Nase voll — sie hat die Nase ___ . (Grammatikform)
 
 **Optionen:**
 - vollen
@@ -548,7 +548,7 @@
 ### 39. `b2-rede-039` · select-one
 
 **Aufgabe:**
-> Er spricht ___ aus, was er denkt. (Redewendung)
+> Er spricht ___ aus, was er denkt. (Grammatikform)
 
 **Optionen:**
 - offener
@@ -562,7 +562,7 @@
 ### 40. `b2-rede-040` · select-one
 
 **Aufgabe:**
-> Das geht mir ___ die Nerven. (Redewendung)
+> Das geht mir ___ die Nerven. (Grammatikform)
 
 **Optionen:**
 - an
@@ -576,7 +576,7 @@
 ### 41. `b2-rede-041` · select-one
 
 **Aufgabe:**
-> Er hat ein ___ Auge auf Details. (Redewendung)
+> Er hat ein ___ Auge auf Details. (Grammatikform)
 
 **Optionen:**
 - scharf
@@ -590,7 +590,7 @@
 ### 42. `b2-rede-042` · select-one
 
 **Aufgabe:**
-> Wir sind ___ einer Meinung. (Redewendung)
+> Wir sind ___ einer Meinung. (Grammatikform)
 
 **Optionen:**
 - eine
@@ -604,7 +604,7 @@
 ### 43. `b2-rede-043` · select-one
 
 **Aufgabe:**
-> Er hat den ___ im Griff. (Redewendung)
+> Er hat den ___ im Griff. (Grammatikform)
 
 **Optionen:**
 - Überblicke
@@ -618,7 +618,7 @@
 ### 44. `b2-rede-044` · select-one
 
 **Aufgabe:**
-> Das war ein Schuss ins ___ . (Redewendung)
+> Das war ein Schuss ins ___ . (Grammatikform)
 
 **Optionen:**
 - Blauen
@@ -632,7 +632,7 @@
 ### 45. `b2-rede-045` · select-one
 
 **Aufgabe:**
-> Sie hat alles ___ den Kopf gestellt. (Redewendung)
+> Sie hat alles ___ den Kopf gestellt. (Grammatikform)
 
 **Optionen:**
 - unter
@@ -646,12 +646,12 @@
 ### 46. `b2-rede-046` · select-one
 
 **Aufgabe:**
-> Er redet um den ___ herum. (Redewendung)
+> Er redet um den ___ herum. (Grammatikform)
 
 **Optionen:**
 - heiße Brei
 - heißen Brei **✓**
-- heißem Brei
+- heißen Topf
 - heißer Brei
 
 - [ ] OK
@@ -660,13 +660,13 @@
 ### 47. `b2-rede-047` · select-one
 
 **Aufgabe:**
-> Das ist nicht mein ___ . (Redewendung)
+> Das ist nicht mein ___ . (Grammatikform)
 
 **Optionen:**
-- Bieren
-- Biers
+- Kaffee
+- Wein
 - Bier **✓**
-- Bieres
+- Saft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -674,7 +674,7 @@
 ### 48. `b2-rede-048` · select-one
 
 **Aufgabe:**
-> Er ist mit dem falschen Bein ___ aufgestanden. (Redewendung)
+> Er ist mit dem falschen Bein ___ aufgestanden. (Grammatikform)
 
 **Optionen:**
 - zuerster
@@ -688,7 +688,7 @@
 ### 49. `b2-rede-049` · select-one
 
 **Aufgabe:**
-> Sie hat den Ball ___ gehalten. (Redewendung)
+> Sie hat den Ball ___ gehalten. (Grammatikform)
 
 **Optionen:**
 - flachem
@@ -702,7 +702,7 @@
 ### 50. `b2-rede-050` · select-one
 
 **Aufgabe:**
-> Er ist ins kalte Wasser ___ . (Redewendung)
+> Er ist ins kalte Wasser ___ . (Grammatikform)
 
 **Optionen:**
 - gesprang

@@ -9,4 +9,4 @@ options:
 correct: Kopf
 ---
 
-Er hat den Nagel auf den ___ getroffen. (Redewendung)
+Er hat den Nagel auf den ___ getroffen. (Grammatikform)

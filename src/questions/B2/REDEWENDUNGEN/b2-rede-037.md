@@ -9,4 +9,4 @@ options:
 correct: Rollen
 ---
 
-Wir müssen den Stein ins ___ bringen. (Redewendung)
+Wir müssen den Stein ins ___ bringen. (Grammatikform)

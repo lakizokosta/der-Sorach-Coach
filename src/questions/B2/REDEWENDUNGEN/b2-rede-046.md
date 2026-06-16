@@ -4,9 +4,9 @@ type: select-one
 options:
   - heiße Brei
   - heißen Brei
-  - heißem Brei
+  - heißen Topf
   - heißer Brei
 correct: heißen Brei
 ---
 
-Er redet um den ___ herum. (Redewendung)
+Er redet um den ___ herum. (Grammatikform)

@@ -9,4 +9,4 @@ options:
 correct: offen
 ---
 
-Er spricht ___ aus, was er denkt. (Redewendung)
+Er spricht ___ aus, was er denkt. (Grammatikform)
