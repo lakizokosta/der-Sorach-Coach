@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Der Bericht ___ bis Freitag fertiggestellt werden. (Grammatikform)
+Der Bericht ___ bis Freitag fertiggestellt werden.

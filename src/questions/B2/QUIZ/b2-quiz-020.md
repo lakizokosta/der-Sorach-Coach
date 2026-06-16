@@ -9,4 +9,4 @@ options:
 correct: das
 ---
 
-Das Unternehmen, für ___ er arbeitet, expandiert. (Grammatikform)
+Das Unternehmen, für ___ er arbeitet, expandiert.

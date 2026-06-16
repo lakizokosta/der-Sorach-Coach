@@ -9,4 +9,4 @@ options:
 correct: hätte
 ---
 
-Wenn sie mehr Zeit ___, könnte sie das Projekt abschließen. (Grammatikform)
+Wenn sie mehr Zeit ___, könnte sie das Projekt abschließen.

@@ -51,23 +51,23 @@ export function genGenitivB2() {
 
 export function genFuturI() {
   return bank([
-    ['Er ___ wohl erst morgen an der Konferenz teilnehmen.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
+    ['Er ___ wohl erst morgen an der Konferenz teilnehmen.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
     ['Die Experten ___ die Ergebnisse nächste Woche veröffentlichen.', 'werden', ['würden', 'wollten', 'sollten', 'könnten']],
-    ['Das ___ sicher Konsequenzen für die Wirtschaft haben.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
-    ['Sie ___ vermutlich die Prüfung mit Auszeichnung bestehen.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
+    ['Das ___ sicher Konsequenzen für die Wirtschaft haben.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
+    ['Sie ___ vermutlich die Prüfung mit Auszeichnung bestehen.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
     ['Die Temperaturen ___ in den nächsten Tagen sinken.', 'werden', ['würden', 'wollten', 'sollten', 'könnten']],
-    ['Er ___ wohl nicht mehr kommen — es ist schon so spät.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
-    ['Die Partei ___ bei der Wahl wahrscheinlich zulegen.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
-    ['Man ___ die Reform bis Ende des Jahres umsetzen.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
+    ['Er ___ wohl nicht mehr kommen — es ist schon so spät.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
+    ['Die Partei ___ bei der Wahl wahrscheinlich zulegen.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
+    ['Man ___ die Reform bis Ende des Jahres umsetzen.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
     ['Du ___ dich sicher über die Nachricht freuen.', 'wirst', ['würdest', 'wärst', 'hättest', 'könntest']],
     ['Die Verhandlungen ___ vermutlich länger dauern als geplant.', 'werden', ['würden', 'wollten', 'sollten', 'könnten']],
-    ['Es ___ morgen regnen, sagt der Wetterbericht.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
-    ['Die Firma ___ nächstes Jahr neue Stellen schaffen.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
+    ['Es ___ morgen regnen, sagt der Wetterbericht.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
+    ['Die Firma ___ nächstes Jahr neue Stellen schaffen.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
     ['Ihr ___ das Problem sicher lösen können.', 'werdet', ['würdet', 'wäret', 'hättet', 'könntet']],
-    ['Der Zug ___ in zehn Minuten in Berlin ankommen.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
+    ['Der Zug ___ in zehn Minuten in Berlin ankommen.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
     ['Wir ___ wohl bis Freitag auf eine Antwort warten müssen.', 'werden', ['würden', 'wollten', 'sollten', 'könnten']],
-    ['Das ___ keine einfachen Lösungen bringen.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
-    ['Sie ___ sicher Recht behalten.', 'wird', ['würde', 'wäre', 'hätte', 'könnte']],
+    ['Das ___ keine einfachen Lösungen bringen.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
+    ['Sie ___ sicher Recht behalten.', 'wird', ['würde', 'wäre', 'hätte', 'könnten']],
   ], 21);
 }
 

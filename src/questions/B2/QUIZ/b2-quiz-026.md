@@ -4,9 +4,9 @@ type: select-one
 options:
   - würden
   - werden
-  - hätten
-  - wären
+  - sollten
+  - wollten
 correct: werden
 ---
 
-Die Experten ___ die Ergebnisse nächste Woche veröffentlichen. (Grammatikform)
+Die Experten ___ die Ergebnisse nächste Woche veröffentlichen.

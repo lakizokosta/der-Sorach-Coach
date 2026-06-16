@@ -9,4 +9,4 @@ options:
 correct: hätte
 ---
 
-Hätte ich das gewusst, ___ ich anders gehandelt. (Grammatikform)
+Hätte ich das gewusst, ___ ich anders gehandelt.

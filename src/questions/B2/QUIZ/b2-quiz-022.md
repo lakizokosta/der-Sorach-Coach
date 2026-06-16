@@ -9,4 +9,4 @@ options:
 correct: deren
 ---
 
-Die Frau, ___ Mann Arzt ist, kennt sich aus. (Grammatikform)
+Die Frau, ___ Mann Arzt ist, kennt sich aus.

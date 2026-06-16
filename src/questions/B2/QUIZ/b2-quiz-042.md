@@ -9,4 +9,4 @@ options:
 correct: sei
 ---
 
-Die Ministerin betonte, die Reform ___ notwendig. (Grammatikform)
+Die Ministerin betonte, die Reform ___ notwendig.

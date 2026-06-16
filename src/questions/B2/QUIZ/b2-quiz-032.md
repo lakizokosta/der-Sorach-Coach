@@ -5,8 +5,8 @@ options:
   - hätte
   - wird
   - würde
-  - könnte
+  - könnten
 correct: wird
 ---
 
-Man ___ die Reform bis Ende des Jahres umsetzen. (Grammatikform)
+Man ___ die Reform bis Ende des Jahres umsetzen.

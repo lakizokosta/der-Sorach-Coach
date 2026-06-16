@@ -9,4 +9,4 @@ options:
 correct: das
 ---
 
-Das Buch, ___ ich suche, ist vergriffen. (Grammatikform)
+Das Buch, ___ ich suche, ist vergriffen.

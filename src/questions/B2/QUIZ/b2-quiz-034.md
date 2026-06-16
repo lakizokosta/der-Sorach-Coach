@@ -9,4 +9,4 @@ options:
 correct: dennoch
 ---
 
-Er war müde, ___ arbeitete er weiter. (Grammatikform)
+Er war müde; ___ arbeitete er weiter.

@@ -4,9 +4,9 @@ type: select-one
 options:
   - wäre
   - hätte
-  - könnte
+  - könnten
   - wird
 correct: wird
 ---
 
-Die Partei ___ bei der Wahl wahrscheinlich zulegen. (Grammatikform)
+Die Partei ___ bei der Wahl wahrscheinlich zulegen.

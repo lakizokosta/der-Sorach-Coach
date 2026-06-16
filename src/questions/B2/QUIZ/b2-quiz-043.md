@@ -9,4 +9,4 @@ options:
 correct: werde
 ---
 
-Er sagte, er ___ morgen ankommen. (Grammatikform)
+Er sagte, er ___ morgen ankommen.

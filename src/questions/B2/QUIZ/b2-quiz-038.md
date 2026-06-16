@@ -9,4 +9,4 @@ options:
 correct: dennoch
 ---
 
-Die Lage ist ernst; ___ bleiben wir optimistisch. (Grammatikform)
+Die Lage ist ernst; ___ bleiben wir optimistisch.

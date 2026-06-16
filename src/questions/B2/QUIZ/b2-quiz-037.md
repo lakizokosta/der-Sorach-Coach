@@ -9,4 +9,4 @@ options:
 correct: außerdem
 ---
 
-Er spricht drei Sprachen; ___ spielt er Klavier. (Grammatikform)
+Er spricht drei Sprachen; ___ spielt er Klavier.

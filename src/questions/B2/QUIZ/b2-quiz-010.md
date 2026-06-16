@@ -9,4 +9,4 @@ options:
 correct: ist
 ---
 
-Die Entscheidung ___ bereits getroffen worden. (Grammatikform)
+Die Entscheidung ___ bereits getroffen worden.

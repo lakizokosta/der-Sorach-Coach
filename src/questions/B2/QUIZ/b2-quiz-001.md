@@ -9,4 +9,4 @@ options:
 correct: als ob
 ---
 
-Er tut so, ___ er alles wüsste. (Grammatikform)
+Er tut so, ___ er alles wüsste.

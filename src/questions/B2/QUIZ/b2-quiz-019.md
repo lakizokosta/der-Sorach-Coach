@@ -9,4 +9,4 @@ options:
 correct: der
 ---
 
-Die Kollegin, ___ ich vertraue, hat recht. (Grammatikform)
+Die Kollegin, ___ ich vertraue, hat recht.

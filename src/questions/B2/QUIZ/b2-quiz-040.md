@@ -9,4 +9,4 @@ options:
 correct: infolgedessen
 ---
 
-Er hat Fehler gemacht; ___ wurde er kritisiert. (Grammatikform)
+Er hat Fehler gemacht; ___ wurde er kritisiert.

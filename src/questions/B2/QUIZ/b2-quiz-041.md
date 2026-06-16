@@ -9,4 +9,4 @@ options:
 correct: sei
 ---
 
-Er behauptete, er ___ unschuldig. (Grammatikform)
+Er behauptete, er ___ unschuldig.

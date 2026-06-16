@@ -4,9 +4,9 @@ type: select-one
 options:
   - trotzdem
   - deshalb
-  - folglich
+  - dagegen
   - dennoch
 correct: deshalb
 ---
 
-Die Kosten sind gestiegen; ___ müssen wir sparen. (Grammatikform)
+Die Kosten sind gestiegen; ___ müssen wir sparen.

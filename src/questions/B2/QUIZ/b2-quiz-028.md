@@ -5,8 +5,8 @@ options:
   - würde
   - hätte
   - wird
-  - könnte
+  - könnten
 correct: wird
 ---
 
-Sie ___ vermutlich die Prüfung mit Auszeichnung bestehen. (Grammatikform)
+Sie ___ vermutlich die Prüfung mit Auszeichnung bestehen.

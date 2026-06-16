@@ -9,4 +9,4 @@ options:
 correct: denen
 ---
 
-Die Studenten, mit ___ wir diskutierten, waren engagiert. (Grammatikform)
+Die Studenten, mit ___ wir diskutierten, waren engagiert.

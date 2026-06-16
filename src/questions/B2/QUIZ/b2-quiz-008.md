@@ -9,4 +9,4 @@ options:
 correct: wäre
 ---
 
-Ich ___ gern früher kommen, aber der Zug hatte Verspätung. (Grammatikform)
+Ich ___ gern früher kommen, aber der Zug hatte Verspätung.

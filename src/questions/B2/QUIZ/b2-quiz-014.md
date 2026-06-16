@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Die Brücke ___ im nächsten Jahr renoviert. (Grammatikform)
+Die Brücke ___ im nächsten Jahr renoviert.

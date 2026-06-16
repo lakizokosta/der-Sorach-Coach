@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Der Termin ___ verschoben. (Grammatikform)
+Der Termin ___ verschoben.
