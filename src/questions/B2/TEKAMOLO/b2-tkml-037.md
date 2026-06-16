@@ -9,4 +9,4 @@ options:
 correct: Wir treffen uns morgen wegen des Termins pünktlich im Büro.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

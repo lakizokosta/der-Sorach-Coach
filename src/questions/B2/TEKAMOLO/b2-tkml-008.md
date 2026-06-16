@@ -9,4 +9,4 @@ options:
 correct: Sie lernt täglich wegen der Prüfung intensiv im Selbststudium.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

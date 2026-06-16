@@ -2,11 +2,11 @@
 id: b2-tkml-040
 type: select-one
 options:
-  - Er schreibt den Bericht heute wegen der Deadline besonders schnell.
-  - Er schreibt heute wegen der Deadline besonders schnell den Bericht.
-  - Den Bericht schreibt er heute besonders schnell wegen der Deadline.
-  - Wegen der Deadline schreibt er heute besonders schnell den Bericht.
-correct: Er schreibt heute wegen der Deadline besonders schnell den Bericht.
+  - Er schreibt am Schreibtisch heute wegen der Deadline besonders schnell.
+  - Er schreibt heute wegen der Deadline besonders schnell am Schreibtisch.
+  - Am Schreibtisch schreibt er heute besonders schnell wegen der Deadline.
+  - Wegen der Deadline schreibt er heute besonders schnell am Schreibtisch.
+correct: Er schreibt heute wegen der Deadline besonders schnell am Schreibtisch.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

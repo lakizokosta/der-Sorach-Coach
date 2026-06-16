@@ -9,4 +9,4 @@ options:
 correct: Sie telefoniert heute aus beruflichen Gründen viel mit Kunden.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

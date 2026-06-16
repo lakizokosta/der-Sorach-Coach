@@ -9,4 +9,4 @@ options:
 correct: Er kocht heute wegen der Gäste besonders aufwendig in der Küche.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

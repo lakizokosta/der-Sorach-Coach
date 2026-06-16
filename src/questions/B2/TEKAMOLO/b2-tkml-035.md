@@ -9,4 +9,4 @@ options:
 correct: Er fährt morgen wegen der Konferenz mit dem Zug nach Berlin.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

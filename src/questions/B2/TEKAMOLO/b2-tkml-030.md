@@ -9,4 +9,4 @@ options:
 correct: Sie reist nächsten Monat wegen des Projekts beruflich nach Wien.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

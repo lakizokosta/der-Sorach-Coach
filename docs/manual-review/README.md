@@ -4,7 +4,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 
 **Aktualisieren:** `npm run questions:export-review`
 
-**Stand:** 84 Themen · 10562 Fragen
+**Stand:** 84 Themen · 10561 Fragen
 
 ## So prüfen
 
@@ -91,7 +91,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 | Wortschatz | 150 | [B1/27-WORTSCHATZB1.md](B1/27-WORTSCHATZB1.md) |
 | Sprachbausteine | 48 | [B1/28-SPRACHBAUSTEINEB1.md](B1/28-SPRACHBAUSTEINEB1.md) |
 
-### B2 (1642 Fragen)
+### B2 (1641 Fragen)
 
 | Thema | Fragen | Datei |
 |-------|--------|-------|
@@ -114,7 +114,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 | Passiversatz | 100 | [B2/17-PASSIVERSATZ.md](B2/17-PASSIVERSATZ.md) |
 | Redewendungen | 50 | [B2/18-REDEWENDUNGEN.md](B2/18-REDEWENDUNGEN.md) |
 | Relativsätze | 100 | [B2/19-RELATIVSATZB2.md](B2/19-RELATIVSATZB2.md) |
-| TeKaMoLo | 101 | [B2/20-TEKAMOLO.md](B2/20-TEKAMOLO.md) |
+| TeKaMoLo | 100 | [B2/20-TEKAMOLO.md](B2/20-TEKAMOLO.md) |
 | Temporale Nebensätze | 50 | [B2/21-TEMPORALERNEBENSATZ.md](B2/21-TEMPORALERNEBENSATZ.md) |
 | Quiz | 50 | [B2/22-QUIZ.md](B2/22-QUIZ.md) |
 | Sprachbausteine | 40 | [B2/23-SPRACHBAUSTEINEB2.md](B2/23-SPRACHBAUSTEINEB2.md) |

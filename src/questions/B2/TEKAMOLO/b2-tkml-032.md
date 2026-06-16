@@ -9,4 +9,4 @@ options:
 correct: Wir diskutieren heute wegen der Krise ausführlich im Team.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

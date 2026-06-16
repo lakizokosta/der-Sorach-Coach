@@ -9,4 +9,4 @@ options:
 correct: Sie fährt nächste Woche wegen der Messe geschäftlich nach Hamburg.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

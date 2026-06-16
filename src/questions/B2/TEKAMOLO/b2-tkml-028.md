@@ -9,4 +9,4 @@ options:
 correct: Wir fahren am Wochenende wegen des Wetters lieber nach Süden.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

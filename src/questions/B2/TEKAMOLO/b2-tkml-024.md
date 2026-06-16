@@ -9,4 +9,4 @@ options:
 correct: Wir essen heute Abend aus Zeitgründen schnell zu Hause.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

@@ -9,4 +9,4 @@ options:
 correct: Er trainiert morgens aus gesundheitlichen Gründen regelmäßig im Park.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

@@ -10,8 +10,8 @@ words:
   - Deadline
   - besonders
   - schnell
-  - den
-  - Bericht
+  - am
+  - Schreibtisch
 codes:
   - _
   - _
@@ -25,4 +25,4 @@ codes:
   - L
 ---
 
-Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Deadline / schnell / den Bericht)
+Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Deadline / schnell / am Schreibtisch)

@@ -21,9 +21,9 @@ const TEKAMOLO_RAW = [
     codes: ['_', '_', '_', 'T', 'K', 'K', 'K', 'M', 'L', 'L'],
   },
   {
-    hint: 'TeKaMoLo — abends / aus Interesse / regelmäßig / die Zeitung',
-    words: ['Er', 'liest', 'abends', 'aus', 'Interesse', 'an', 'Politik', 'regelmäßig', 'die', 'Zeitung'],
-    codes: ['_', '_', 'T', 'K', 'K', 'K', 'K', 'M', 'L', 'L'],
+    hint: 'TeKaMoLo — abends / an der Politik / regelmäßig / im Sessel',
+    words: ['Er', 'liest', 'abends', 'aus', 'Interesse', 'an', 'der', 'Politik', 'regelmäßig', 'im', 'Sessel'],
+    codes: ['_', '_', 'T', 'K', 'K', 'K', 'K', 'K', 'M', 'L', 'L'],
   },
   {
     hint: 'TeKaMoLo — nächste Woche / wegen Messe / geschäftlich / nach Hamburg',
@@ -31,8 +31,8 @@ const TEKAMOLO_RAW = [
     codes: ['_', '_', 'T', 'T', 'K', 'K', 'K', 'M', 'L', 'L'],
   },
   {
-    hint: 'TeKaMoLo — heute / wegen Deadline / schnell / den Bericht',
-    words: ['Er', 'schreibt', 'heute', 'wegen', 'der', 'Deadline', 'besonders', 'schnell', 'den', 'Bericht'],
+    hint: 'TeKaMoLo — heute / wegen Deadline / schnell / am Schreibtisch',
+    words: ['Er', 'schreibt', 'heute', 'wegen', 'der', 'Deadline', 'besonders', 'schnell', 'am', 'Schreibtisch'],
     codes: ['_', '_', 'T', 'K', 'K', 'K', 'M', 'M', 'L', 'L'],
   },
   {

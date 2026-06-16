@@ -9,4 +9,4 @@ options:
 correct: Er kommt morgen wegen des Meetings früh ins Büro.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

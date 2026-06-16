@@ -9,4 +9,4 @@ options:
 correct: Sie arbeitet heute aus beruflichen Gründen besonders sorgfältig im Labor.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

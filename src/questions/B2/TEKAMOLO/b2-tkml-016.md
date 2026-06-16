@@ -9,4 +9,4 @@ options:
 correct: Sie schläft nachts wegen des Lärms schlecht im Hotelzimmer.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

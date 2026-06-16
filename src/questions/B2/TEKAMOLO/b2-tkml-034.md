@@ -9,4 +9,4 @@ options:
 correct: Er präsentiert morgen wegen der Konferenz professionell die Ergebnisse.
 ---
 
-Welche Satzstellung ist korrekt?
+Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)

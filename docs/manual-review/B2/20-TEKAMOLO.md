@@ -4,9 +4,9 @@
 |---|---|
 | **Topic-Key** | `TEKAMOLO` |
 | **Beschreibung** | Temporal, Kausal, Modal, Lokal |
-| **Fragen gesamt** | 101 |
+| **Fragen gesamt** | 100 |
 | Auswahl (1 Antwort) | 50 |
-| Wörter ordnen | 51 |
+| Wörter ordnen | 50 |
 
 > Manuelle Prüfung: Grammatik, Sinn des Satzes, Hinweise, Antworten.
 
@@ -17,7 +17,7 @@
 ### 1. `b2-tkml-001` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen der Konferenz fährt er morgen mit dem Zug nach Berlin.
@@ -31,7 +31,7 @@
 ### 2. `b2-tkml-002` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Sie arbeitet im Labor heute aus beruflichen Gründen besonders sorgfältig.
@@ -45,7 +45,7 @@
 ### 3. `b2-tkml-003` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen des Termins treffen wir uns morgen pünktlich im Büro.
@@ -59,13 +59,13 @@
 ### 4. `b2-tkml-004` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
-- Er liest die Zeitung abends aus Interesse an der Politik regelmäßig.
-- Er liest abends aus Interesse an der Politik regelmäßig die Zeitung. **✓**
-- Die Zeitung liest er abends regelmäßig aus Interesse an der Politik.
-- Aus Interesse an der Politik liest er abends regelmäßig die Zeitung.
+- Er liest im Sessel abends aus Interesse an der Politik regelmäßig.
+- Er liest abends aus Interesse an der Politik regelmäßig im Sessel. **✓**
+- Im Sessel liest er abends regelmäßig aus Interesse an der Politik.
+- Aus Interesse an der Politik liest er abends regelmäßig im Sessel.
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -73,7 +73,7 @@
 ### 5. `b2-tkml-005` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen der Messe fährt sie nächste Woche geschäftlich nach Hamburg.
@@ -87,13 +87,13 @@
 ### 6. `b2-tkml-006` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
-- Den Bericht schreibt er heute besonders schnell wegen der Deadline.
-- Er schreibt heute wegen der Deadline besonders schnell den Bericht. **✓**
-- Er schreibt den Bericht heute wegen der Deadline besonders schnell.
-- Besonders schnell schreibt er heute den Bericht wegen der Deadline.
+- Am Schreibtisch schreibt er heute besonders schnell wegen der Deadline.
+- Er schreibt heute wegen der Deadline besonders schnell am Schreibtisch. **✓**
+- Er schreibt am Schreibtisch heute wegen der Deadline besonders schnell.
+- Besonders schnell schreibt er heute am Schreibtisch wegen der Deadline.
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -101,7 +101,7 @@
 ### 7. `b2-tkml-007` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Aus Zeitgründen essen wir heute Abend schnell zu Hause.
@@ -115,7 +115,7 @@
 ### 8. `b2-tkml-008` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen der Prüfung lernt sie täglich intensiv im Selbststudium.
@@ -129,7 +129,7 @@
 ### 9. `b2-tkml-009` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen des Meetings kommt er morgen früh ins Büro.
@@ -143,7 +143,7 @@
 ### 10. `b2-tkml-010` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Sie telefoniert mit Kunden heute aus beruflichen Gründen viel.
@@ -157,7 +157,7 @@
 ### 11. `b2-tkml-011` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen des Wetters fahren wir am Wochenende lieber nach Süden.
@@ -171,7 +171,7 @@
 ### 12. `b2-tkml-012` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Er trainiert im Park morgens aus gesundheitlichen Gründen regelmäßig.
@@ -185,7 +185,7 @@
 ### 13. `b2-tkml-013` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen des Projekts reist sie nächsten Monat beruflich nach Wien.
@@ -199,7 +199,7 @@
 ### 14. `b2-tkml-014` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - In der Küche kocht er heute besonders aufwendig wegen der Gäste.
@@ -213,7 +213,7 @@
 ### 15. `b2-tkml-015` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen der Krise diskutieren wir heute ausführlich im Team.
@@ -227,7 +227,7 @@
 ### 16. `b2-tkml-016` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen des Lärms schläft sie nachts schlecht im Hotelzimmer.
@@ -241,7 +241,7 @@
 ### 17. `b2-tkml-017` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen der Konferenz präsentiert er morgen professionell die Ergebnisse.
@@ -255,7 +255,7 @@
 ### 18. `b2-tkml-018` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Er fährt wegen der Konferenz morgen mit dem Zug nach Berlin.
@@ -269,7 +269,7 @@
 ### 19. `b2-tkml-019` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Aus beruflichen Gründen arbeitet sie heute besonders sorgfältig im Labor.
@@ -283,7 +283,7 @@
 ### 20. `b2-tkml-020` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wir treffen uns im Büro morgen wegen des Termins pünktlich.
@@ -297,13 +297,13 @@
 ### 21. `b2-tkml-021` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
-- Regelmäßig liest er abends die Zeitung aus Interesse an der Politik.
-- Aus Interesse an der Politik liest er abends regelmäßig die Zeitung.
-- Die Zeitung liest er abends regelmäßig aus Interesse an der Politik.
-- Er liest abends aus Interesse an der Politik regelmäßig die Zeitung. **✓**
+- Regelmäßig liest er abends im Sessel aus Interesse an der Politik.
+- Aus Interesse an der Politik liest er abends regelmäßig im Sessel.
+- Im Sessel liest er abends regelmäßig aus Interesse an der Politik.
+- Er liest abends aus Interesse an der Politik regelmäßig im Sessel. **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -311,7 +311,7 @@
 ### 22. `b2-tkml-022` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Sie fährt nach Hamburg nächste Woche wegen der Messe geschäftlich.
@@ -325,13 +325,13 @@
 ### 23. `b2-tkml-023` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
-- Wegen der Deadline schreibt er heute besonders schnell den Bericht.
-- Er schreibt den Bericht heute wegen der Deadline besonders schnell.
-- Er schreibt heute wegen der Deadline besonders schnell den Bericht. **✓**
-- Besonders schnell schreibt er heute den Bericht wegen der Deadline.
+- Wegen der Deadline schreibt er heute besonders schnell am Schreibtisch.
+- Er schreibt am Schreibtisch heute wegen der Deadline besonders schnell.
+- Er schreibt heute wegen der Deadline besonders schnell am Schreibtisch. **✓**
+- Besonders schnell schreibt er heute am Schreibtisch wegen der Deadline.
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -339,7 +339,7 @@
 ### 24. `b2-tkml-024` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wir essen zu Hause heute Abend aus Zeitgründen schnell.
@@ -353,7 +353,7 @@
 ### 25. `b2-tkml-025` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Intensiv lernt sie täglich im Selbststudium wegen der Prüfung.
@@ -367,7 +367,7 @@
 ### 26. `b2-tkml-026` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Er kommt ins Büro morgen wegen des Meetings früh.
@@ -381,7 +381,7 @@
 ### 27. `b2-tkml-027` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Aus beruflichen Gründen telefoniert sie heute viel mit Kunden.
@@ -395,7 +395,7 @@
 ### 28. `b2-tkml-028` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen des Wetters fahren wir am Wochenende lieber nach Süden.
@@ -409,7 +409,7 @@
 ### 29. `b2-tkml-029` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Regelmäßig trainiert er morgens im Park aus gesundheitlichen Gründen.
@@ -423,7 +423,7 @@
 ### 30. `b2-tkml-030` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Sie reist nach Wien nächsten Monat wegen des Projekts beruflich.
@@ -437,7 +437,7 @@
 ### 31. `b2-tkml-031` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen der Gäste kocht er heute besonders aufwendig in der Küche.
@@ -451,7 +451,7 @@
 ### 32. `b2-tkml-032` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen der Krise diskutieren wir heute ausführlich im Team.
@@ -465,7 +465,7 @@
 ### 33. `b2-tkml-033` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen des Lärms schläft sie nachts schlecht im Hotelzimmer.
@@ -479,7 +479,7 @@
 ### 34. `b2-tkml-034` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Die Ergebnisse präsentiert er morgen professionell wegen der Konferenz.
@@ -493,7 +493,7 @@
 ### 35. `b2-tkml-035` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Morgen fährt er nach Berlin wegen der Konferenz mit dem Zug.
@@ -507,7 +507,7 @@
 ### 36. `b2-tkml-036` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Sie arbeitet im Labor heute aus beruflichen Gründen besonders sorgfältig.
@@ -521,7 +521,7 @@
 ### 37. `b2-tkml-037` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Pünktlich treffen wir uns morgen im Büro wegen des Termins.
@@ -535,13 +535,13 @@
 ### 38. `b2-tkml-038` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
-- Er liest die Zeitung abends aus Interesse an der Politik regelmäßig.
-- Er liest abends aus Interesse an der Politik regelmäßig die Zeitung. **✓**
-- Regelmäßig liest er abends die Zeitung aus Interesse an der Politik.
-- Die Zeitung liest er abends regelmäßig aus Interesse an der Politik.
+- Er liest im Sessel abends aus Interesse an der Politik regelmäßig.
+- Er liest abends aus Interesse an der Politik regelmäßig im Sessel. **✓**
+- Regelmäßig liest er abends im Sessel aus Interesse an der Politik.
+- Im Sessel liest er abends regelmäßig aus Interesse an der Politik.
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -549,7 +549,7 @@
 ### 39. `b2-tkml-039` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen der Messe fährt sie nächste Woche geschäftlich nach Hamburg.
@@ -563,13 +563,13 @@
 ### 40. `b2-tkml-040` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
-- Er schreibt den Bericht heute wegen der Deadline besonders schnell.
-- Er schreibt heute wegen der Deadline besonders schnell den Bericht. **✓**
-- Den Bericht schreibt er heute besonders schnell wegen der Deadline.
-- Wegen der Deadline schreibt er heute besonders schnell den Bericht.
+- Er schreibt am Schreibtisch heute wegen der Deadline besonders schnell.
+- Er schreibt heute wegen der Deadline besonders schnell am Schreibtisch. **✓**
+- Am Schreibtisch schreibt er heute besonders schnell wegen der Deadline.
+- Wegen der Deadline schreibt er heute besonders schnell am Schreibtisch.
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -577,7 +577,7 @@
 ### 41. `b2-tkml-041` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Aus Zeitgründen essen wir heute Abend schnell zu Hause.
@@ -591,7 +591,7 @@
 ### 42. `b2-tkml-042` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Im Selbststudium lernt sie täglich intensiv wegen der Prüfung.
@@ -605,7 +605,7 @@
 ### 43. `b2-tkml-043` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen des Meetings kommt er morgen früh ins Büro.
@@ -619,7 +619,7 @@
 ### 44. `b2-tkml-044` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Aus beruflichen Gründen telefoniert sie heute viel mit Kunden.
@@ -633,7 +633,7 @@
 ### 45. `b2-tkml-045` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen des Wetters fahren wir am Wochenende lieber nach Süden.
@@ -647,7 +647,7 @@
 ### 46. `b2-tkml-046` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Er trainiert im Park morgens aus gesundheitlichen Gründen regelmäßig.
@@ -661,7 +661,7 @@
 ### 47. `b2-tkml-047` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen des Projekts reist sie nächsten Monat beruflich nach Wien.
@@ -675,7 +675,7 @@
 ### 48. `b2-tkml-048` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Wegen der Gäste kocht er heute besonders aufwendig in der Küche.
@@ -689,7 +689,7 @@
 ### 49. `b2-tkml-049` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Ausführlich diskutieren wir heute im Team wegen der Krise.
@@ -703,7 +703,7 @@
 ### 50. `b2-tkml-050` · select-one
 
 **Aufgabe:**
-> Welche Satzstellung ist korrekt?
+> Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
 
 **Optionen:**
 - Sie schläft im Hotelzimmer nachts wegen des Lärms schlecht.
@@ -714,19 +714,9 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-## Wörter ordnen (51)
+## Wörter ordnen (50)
 
-### 51. `b2-tekamolo-1` · dropbox
-
-**Aufgabe:**
-> Ordne die Wörter zum richtigen Satz:
-
-**Wörter:** Er · fährt · morgen · wegen · der · Konferenz · mit · dem · Zug · nach · Berlin
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 52. `b2-tkml-dd-001` · dropbox
+### 51. `b2-tkml-dd-001` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Konferenz / mit Zug / nach Berlin)
@@ -736,7 +726,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 53. `b2-tkml-dd-002` · dropbox
+### 52. `b2-tkml-dd-002` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / aus beruflichen Gründen / sorgfältig / im Labor)
@@ -746,7 +736,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 54. `b2-tkml-dd-003` · dropbox
+### 53. `b2-tkml-dd-003` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Termin / pünktlich / im Büro)
@@ -756,17 +746,17 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 55. `b2-tkml-dd-004` · dropbox
+### 54. `b2-tkml-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — abends / aus Interesse / regelmäßig / die Zeitung)
+> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — abends / an der Politik / regelmäßig / im Sessel)
 
-**Wörter:** Er · liest · abends · aus · Interesse · an · Politik · regelmäßig · die · Zeitung
+**Wörter:** Er · liest · abends · aus · Interesse · an · der · Politik · regelmäßig · im · Sessel
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 56. `b2-tkml-dd-005` · dropbox
+### 55. `b2-tkml-dd-005` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — nächste Woche / wegen Messe / geschäftlich / nach Hamburg)
@@ -776,17 +766,17 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 57. `b2-tkml-dd-006` · dropbox
+### 56. `b2-tkml-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Deadline / schnell / den Bericht)
+> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Deadline / schnell / am Schreibtisch)
 
-**Wörter:** Er · schreibt · heute · wegen · der · Deadline · besonders · schnell · den · Bericht
+**Wörter:** Er · schreibt · heute · wegen · der · Deadline · besonders · schnell · am · Schreibtisch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 58. `b2-tkml-dd-007` · dropbox
+### 57. `b2-tkml-dd-007` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute Abend / aus Zeitgründen / schnell / zu Hause)
@@ -796,7 +786,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 59. `b2-tkml-dd-008` · dropbox
+### 58. `b2-tkml-dd-008` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — täglich / wegen Prüfung / intensiv / im Selbststudium)
@@ -806,7 +796,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 60. `b2-tkml-dd-009` · dropbox
+### 59. `b2-tkml-dd-009` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Meeting / früh / ins Büro)
@@ -816,7 +806,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 61. `b2-tkml-dd-010` · dropbox
+### 60. `b2-tkml-dd-010` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / aus beruflichen Gründen / viel / mit Kunden)
@@ -826,7 +816,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 62. `b2-tkml-dd-011` · dropbox
+### 61. `b2-tkml-dd-011` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — am Wochenende / wegen Wetter / lieber / nach Süden)
@@ -836,7 +826,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 63. `b2-tkml-dd-012` · dropbox
+### 62. `b2-tkml-dd-012` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo-Reihenfolge)
@@ -846,7 +836,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 64. `b2-tkml-dd-013` · dropbox
+### 63. `b2-tkml-dd-013` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — nächsten Monat / wegen Projekt / beruflich / nach Wien)
@@ -856,7 +846,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 65. `b2-tkml-dd-014` · dropbox
+### 64. `b2-tkml-dd-014` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Gäste / aufwendig / in der Küche)
@@ -866,7 +856,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 66. `b2-tkml-dd-015` · dropbox
+### 65. `b2-tkml-dd-015` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Krise / ausführlich / im Team)
@@ -876,7 +866,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 67. `b2-tkml-dd-016` · dropbox
+### 66. `b2-tkml-dd-016` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — nachts / wegen Lärm / schlecht / im Hotelzimmer)
@@ -886,7 +876,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 68. `b2-tkml-dd-017` · dropbox
+### 67. `b2-tkml-dd-017` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Konferenz / professionell / die Ergebnisse)
@@ -896,7 +886,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 69. `b2-tkml-dd-018` · dropbox
+### 68. `b2-tkml-dd-018` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Konferenz / mit Zug / nach Berlin)
@@ -906,7 +896,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 70. `b2-tkml-dd-019` · dropbox
+### 69. `b2-tkml-dd-019` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / aus beruflichen Gründen / sorgfältig / im Labor)
@@ -916,7 +906,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 71. `b2-tkml-dd-020` · dropbox
+### 70. `b2-tkml-dd-020` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Termin / pünktlich / im Büro)
@@ -926,17 +916,17 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 72. `b2-tkml-dd-021` · dropbox
+### 71. `b2-tkml-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — abends / aus Interesse / regelmäßig / die Zeitung)
+> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — abends / an der Politik / regelmäßig / im Sessel)
 
-**Wörter:** Er · liest · abends · aus · Interesse · an · Politik · regelmäßig · die · Zeitung
+**Wörter:** Er · liest · abends · aus · Interesse · an · der · Politik · regelmäßig · im · Sessel
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 73. `b2-tkml-dd-022` · dropbox
+### 72. `b2-tkml-dd-022` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — nächste Woche / wegen Messe / geschäftlich / nach Hamburg)
@@ -946,17 +936,17 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 74. `b2-tkml-dd-023` · dropbox
+### 73. `b2-tkml-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Deadline / schnell / den Bericht)
+> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Deadline / schnell / am Schreibtisch)
 
-**Wörter:** Er · schreibt · heute · wegen · der · Deadline · besonders · schnell · den · Bericht
+**Wörter:** Er · schreibt · heute · wegen · der · Deadline · besonders · schnell · am · Schreibtisch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 75. `b2-tkml-dd-024` · dropbox
+### 74. `b2-tkml-dd-024` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute Abend / aus Zeitgründen / schnell / zu Hause)
@@ -966,7 +956,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 76. `b2-tkml-dd-025` · dropbox
+### 75. `b2-tkml-dd-025` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — täglich / wegen Prüfung / intensiv / im Selbststudium)
@@ -976,7 +966,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 77. `b2-tkml-dd-026` · dropbox
+### 76. `b2-tkml-dd-026` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Meeting / früh / ins Büro)
@@ -986,7 +976,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 78. `b2-tkml-dd-027` · dropbox
+### 77. `b2-tkml-dd-027` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / aus beruflichen Gründen / viel / mit Kunden)
@@ -996,7 +986,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 79. `b2-tkml-dd-028` · dropbox
+### 78. `b2-tkml-dd-028` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — am Wochenende / wegen Wetter / lieber / nach Süden)
@@ -1006,7 +996,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 80. `b2-tkml-dd-029` · dropbox
+### 79. `b2-tkml-dd-029` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo-Reihenfolge)
@@ -1016,7 +1006,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 81. `b2-tkml-dd-030` · dropbox
+### 80. `b2-tkml-dd-030` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — nächsten Monat / wegen Projekt / beruflich / nach Wien)
@@ -1026,7 +1016,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 82. `b2-tkml-dd-031` · dropbox
+### 81. `b2-tkml-dd-031` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Gäste / aufwendig / in der Küche)
@@ -1036,7 +1026,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 83. `b2-tkml-dd-032` · dropbox
+### 82. `b2-tkml-dd-032` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Krise / ausführlich / im Team)
@@ -1046,7 +1036,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 84. `b2-tkml-dd-033` · dropbox
+### 83. `b2-tkml-dd-033` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — nachts / wegen Lärm / schlecht / im Hotelzimmer)
@@ -1056,7 +1046,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 85. `b2-tkml-dd-034` · dropbox
+### 84. `b2-tkml-dd-034` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Konferenz / professionell / die Ergebnisse)
@@ -1066,7 +1056,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 86. `b2-tkml-dd-035` · dropbox
+### 85. `b2-tkml-dd-035` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Konferenz / mit Zug / nach Berlin)
@@ -1076,7 +1066,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 87. `b2-tkml-dd-036` · dropbox
+### 86. `b2-tkml-dd-036` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / aus beruflichen Gründen / sorgfältig / im Labor)
@@ -1086,7 +1076,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 88. `b2-tkml-dd-037` · dropbox
+### 87. `b2-tkml-dd-037` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Termin / pünktlich / im Büro)
@@ -1096,17 +1086,17 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 89. `b2-tkml-dd-038` · dropbox
+### 88. `b2-tkml-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — abends / aus Interesse / regelmäßig / die Zeitung)
+> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — abends / an der Politik / regelmäßig / im Sessel)
 
-**Wörter:** Er · liest · abends · aus · Interesse · an · Politik · regelmäßig · die · Zeitung
+**Wörter:** Er · liest · abends · aus · Interesse · an · der · Politik · regelmäßig · im · Sessel
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 90. `b2-tkml-dd-039` · dropbox
+### 89. `b2-tkml-dd-039` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — nächste Woche / wegen Messe / geschäftlich / nach Hamburg)
@@ -1116,17 +1106,17 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 91. `b2-tkml-dd-040` · dropbox
+### 90. `b2-tkml-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Deadline / schnell / den Bericht)
+> Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Deadline / schnell / am Schreibtisch)
 
-**Wörter:** Er · schreibt · heute · wegen · der · Deadline · besonders · schnell · den · Bericht
+**Wörter:** Er · schreibt · heute · wegen · der · Deadline · besonders · schnell · am · Schreibtisch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 92. `b2-tkml-dd-041` · dropbox
+### 91. `b2-tkml-dd-041` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute Abend / aus Zeitgründen / schnell / zu Hause)
@@ -1136,7 +1126,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 93. `b2-tkml-dd-042` · dropbox
+### 92. `b2-tkml-dd-042` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — täglich / wegen Prüfung / intensiv / im Selbststudium)
@@ -1146,7 +1136,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 94. `b2-tkml-dd-043` · dropbox
+### 93. `b2-tkml-dd-043` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — morgen / wegen Meeting / früh / ins Büro)
@@ -1156,7 +1146,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 95. `b2-tkml-dd-044` · dropbox
+### 94. `b2-tkml-dd-044` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / aus beruflichen Gründen / viel / mit Kunden)
@@ -1166,7 +1156,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 96. `b2-tkml-dd-045` · dropbox
+### 95. `b2-tkml-dd-045` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — am Wochenende / wegen Wetter / lieber / nach Süden)
@@ -1176,7 +1166,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 97. `b2-tkml-dd-046` · dropbox
+### 96. `b2-tkml-dd-046` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo-Reihenfolge)
@@ -1186,7 +1176,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 98. `b2-tkml-dd-047` · dropbox
+### 97. `b2-tkml-dd-047` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — nächsten Monat / wegen Projekt / beruflich / nach Wien)
@@ -1196,7 +1186,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 99. `b2-tkml-dd-048` · dropbox
+### 98. `b2-tkml-dd-048` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Gäste / aufwendig / in der Küche)
@@ -1206,7 +1196,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 100. `b2-tkml-dd-049` · dropbox
+### 99. `b2-tkml-dd-049` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Krise / ausführlich / im Team)
@@ -1216,7 +1206,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 101. `b2-tkml-dd-050` · dropbox
+### 100. `b2-tkml-dd-050` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (TeKaMoLo — nachts / wegen Lärm / schlecht / im Hotelzimmer)
