@@ -2,14 +2,14 @@
 id: b1-gen-dd-037
 type: dropbox
 words:
-  - Während
+  - Wegen
   - des
-  - Unterrichts
-  - ist
-  - es
+  - Sturms
+  - bleiben
+  - die
+  - Schiffe
   - im
-  - Gebäude
-  - ruhig
+  - Hafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Unterrichts)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

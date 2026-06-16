@@ -11,4 +11,4 @@ words:
   - geschlossen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Sitzung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

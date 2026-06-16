@@ -10,4 +10,4 @@ words:
   - spazieren
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Regens)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

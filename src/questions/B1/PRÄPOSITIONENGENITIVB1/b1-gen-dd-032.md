@@ -2,15 +2,13 @@
 id: b1-gen-dd-032
 type: dropbox
 words:
-  - Trotz
+  - Wegen
   - der
-  - Kritik
-  - setzt
-  - die
-  - Regierung
-  - das
-  - Projekt
-  - fort
+  - Erkrankung
+  - bleibt
+  - er
+  - zu
+  - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Kritik)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

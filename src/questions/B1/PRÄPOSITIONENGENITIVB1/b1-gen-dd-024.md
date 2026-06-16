@@ -2,14 +2,13 @@
 id: b1-gen-dd-024
 type: dropbox
 words:
-  - Wegen
-  - des
-  - Sturms
-  - bleiben
-  - die
-  - Schiffe
-  - im
-  - Hafen
+  - Trotz
+  - der
+  - guten
+  - Vorbereitung
+  - war
+  - sie
+  - nervös
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Sturms)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

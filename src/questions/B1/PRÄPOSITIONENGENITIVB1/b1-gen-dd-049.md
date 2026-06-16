@@ -2,15 +2,14 @@
 id: b1-gen-dd-049
 type: dropbox
 words:
-  - Trotz
+  - Während
   - der
-  - Kritik
-  - setzt
-  - die
-  - Regierung
-  - das
-  - Projekt
-  - fort
+  - Ferien
+  - arbeitet
+  - sie
+  - in
+  - einem
+  - Café
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Kritik)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

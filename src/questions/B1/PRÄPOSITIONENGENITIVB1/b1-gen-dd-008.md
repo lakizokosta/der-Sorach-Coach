@@ -11,4 +11,4 @@ words:
   - sprechen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Debatte)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

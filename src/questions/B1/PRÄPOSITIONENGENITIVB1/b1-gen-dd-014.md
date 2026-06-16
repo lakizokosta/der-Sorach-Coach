@@ -11,4 +11,4 @@ words:
   - Preise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Nachfrage)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

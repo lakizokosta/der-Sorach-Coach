@@ -2,13 +2,13 @@
 id: b1-gen-dd-047
 type: dropbox
 words:
-  - Während
+  - Wegen
   - der
-  - Sitzung
-  - ist
-  - das
-  - Büro
-  - geschlossen
+  - Erkrankung
+  - bleibt
+  - er
+  - zu
+  - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Sitzung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

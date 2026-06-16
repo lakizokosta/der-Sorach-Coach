@@ -2,14 +2,15 @@
 id: b1-gen-dd-050
 type: dropbox
 words:
-  - Wegen
-  - des
-  - schlechten
-  - Wetters
-  - fällt
-  - die
-  - Veranstaltung
-  - aus
+  - Trotz
+  - der
+  - hohen
+  - Kosten
+  - gehen
+  - wir
+  - trotzdem
+  - auf
+  - Reisen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Krankheit)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

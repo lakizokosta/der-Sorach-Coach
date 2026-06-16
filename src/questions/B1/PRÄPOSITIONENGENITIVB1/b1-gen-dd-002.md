@@ -11,4 +11,4 @@ words:
   - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Erkrankung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

@@ -2,13 +2,15 @@
 id: b1-gen-dd-045
 type: dropbox
 words:
-  - Wegen
+  - Trotz
   - der
-  - Verspätung
-  - verpassten
-  - wir
-  - den
-  - Anschlusszug
+  - Kritik
+  - setzt
+  - die
+  - Regierung
+  - das
+  - Projekt
+  - fort
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Verspätung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

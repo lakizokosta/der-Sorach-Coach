@@ -11,4 +11,4 @@ words:
   - Anschlusszug
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Verspätung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

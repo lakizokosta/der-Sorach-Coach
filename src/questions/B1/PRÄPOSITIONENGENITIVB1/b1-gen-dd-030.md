@@ -2,13 +2,15 @@
 id: b1-gen-dd-030
 type: dropbox
 words:
-  - Während
+  - Trotz
   - der
-  - Sitzung
-  - ist
+  - Kritik
+  - setzt
+  - die
+  - Regierung
   - das
-  - Büro
-  - geschlossen
+  - Projekt
+  - fort
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Sitzung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

@@ -4,11 +4,13 @@ type: dropbox
 words:
   - Während
   - der
-  - Debatte
-  - dürfen
-  - Zuschauer
+  - Reparatur
+  - kann
+  - man
+  - die
+  - Straße
   - nicht
-  - sprechen
+  - benutzen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Debatte)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

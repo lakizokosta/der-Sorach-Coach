@@ -2,13 +2,13 @@
 id: b1-gen-dd-026
 type: dropbox
 words:
-  - Trotz
+  - Wegen
   - der
-  - guten
-  - Vorbereitung
-  - war
-  - sie
-  - nervös
+  - Verspätung
+  - verpassten
+  - wir
+  - den
+  - Anschlusszug
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Vorbereitung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

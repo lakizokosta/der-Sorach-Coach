@@ -2,13 +2,13 @@
 id: b1-gen-dd-028
 type: dropbox
 words:
-  - Wegen
+  - Während
   - der
-  - Verspätung
-  - verpassten
-  - wir
-  - den
-  - Anschlusszug
+  - Sitzung
+  - ist
+  - das
+  - Büro
+  - geschlossen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Verspätung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

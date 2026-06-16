@@ -2,14 +2,13 @@
 id: b1-gen-dd-021
 type: dropbox
 words:
-  - Während
+  - Trotz
   - der
-  - Ferien
-  - arbeitet
-  - sie
-  - in
-  - einem
-  - Café
+  - Warnung
+  - fahren
+  - viele
+  - zu
+  - schnell
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Ferien)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

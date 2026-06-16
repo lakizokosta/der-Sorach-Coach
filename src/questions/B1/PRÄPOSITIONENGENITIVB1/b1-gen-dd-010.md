@@ -13,4 +13,4 @@ words:
   - benutzen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Reparatur)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

@@ -2,14 +2,14 @@
 id: b1-gen-dd-033
 type: dropbox
 words:
-  - Wegen
+  - Während
   - des
-  - schlechten
-  - Wetters
-  - fällt
-  - die
-  - Veranstaltung
-  - aus
+  - Unterrichts
+  - ist
+  - es
+  - im
+  - Gebäude
+  - ruhig
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Krankheit)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

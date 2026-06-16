@@ -12,4 +12,4 @@ words:
   - Café
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Ferien)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

@@ -3,12 +3,13 @@ id: b1-gen-dd-031
 type: dropbox
 words:
   - Wegen
-  - der
-  - hohen
-  - Nachfrage
-  - steigen
+  - des
+  - schlechten
+  - Wetters
+  - fällt
   - die
-  - Preise
+  - Veranstaltung
+  - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Nachfrage)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

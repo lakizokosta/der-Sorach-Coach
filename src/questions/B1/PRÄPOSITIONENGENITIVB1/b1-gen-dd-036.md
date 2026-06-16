@@ -2,13 +2,13 @@
 id: b1-gen-dd-036
 type: dropbox
 words:
-  - Wegen
+  - Trotz
   - der
-  - Erkrankung
-  - bleibt
-  - er
+  - Warnung
+  - fahren
+  - viele
   - zu
-  - Hause
+  - schnell
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Erkrankung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

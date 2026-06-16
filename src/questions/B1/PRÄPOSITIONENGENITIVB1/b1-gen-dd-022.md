@@ -2,15 +2,14 @@
 id: b1-gen-dd-022
 type: dropbox
 words:
-  - Trotz
-  - der
-  - hohen
-  - Kosten
-  - gehen
-  - wir
-  - trotzdem
-  - auf
-  - Reisen
+  - Wegen
+  - des
+  - Sturms
+  - bleiben
+  - die
+  - Schiffe
+  - im
+  - Hafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Kosten)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

@@ -4,13 +4,11 @@ type: dropbox
 words:
   - Trotz
   - der
-  - hohen
-  - Kosten
-  - gehen
-  - wir
-  - trotzdem
-  - auf
-  - Reisen
+  - guten
+  - Vorbereitung
+  - war
+  - sie
+  - nervös
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Kosten)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

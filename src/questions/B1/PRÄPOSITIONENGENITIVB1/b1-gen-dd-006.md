@@ -11,4 +11,4 @@ words:
   - schnell
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Warnung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)
