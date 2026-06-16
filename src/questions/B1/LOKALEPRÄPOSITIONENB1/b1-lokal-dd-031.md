@@ -9,4 +9,4 @@ words:
   - Straße
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — über Straße)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

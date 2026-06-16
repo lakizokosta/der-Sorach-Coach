@@ -11,4 +11,4 @@ words:
   - Bahnhof
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — unter Brücke)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

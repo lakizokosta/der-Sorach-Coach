@@ -10,4 +10,4 @@ words:
   - Wohnviertel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — hinter Viertel)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

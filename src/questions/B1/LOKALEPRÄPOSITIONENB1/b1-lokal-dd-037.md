@@ -12,4 +12,4 @@ words:
   - Universität
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — vor Eingang)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

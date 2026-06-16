@@ -10,4 +10,4 @@ words:
   - Gebäuden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — zwischen Gebäuden)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

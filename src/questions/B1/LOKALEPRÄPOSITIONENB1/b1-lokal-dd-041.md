@@ -9,4 +9,4 @@ words:
   - Tunnel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — durch Tunnel)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

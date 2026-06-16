@@ -11,4 +11,4 @@ words:
   - links
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — über Brücke)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

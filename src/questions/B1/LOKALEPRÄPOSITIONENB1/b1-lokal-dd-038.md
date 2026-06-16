@@ -11,4 +11,4 @@ words:
   - Stadtmitte
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — in Stadtmitte)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

@@ -10,4 +10,4 @@ words:
   - Ecke
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — beim Ausgang)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

@@ -10,4 +10,4 @@ words:
   - Fluss
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — am Fluss)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

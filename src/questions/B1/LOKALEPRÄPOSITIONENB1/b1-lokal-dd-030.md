@@ -10,4 +10,4 @@ words:
   - Hauptstraße
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — in Hauptstraße)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

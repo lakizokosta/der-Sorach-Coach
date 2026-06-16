@@ -9,4 +9,4 @@ words:
   - Land
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — auf Land)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
