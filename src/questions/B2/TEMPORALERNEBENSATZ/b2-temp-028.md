@@ -9,4 +9,4 @@ options:
 correct: Bevor
 ---
 
-___, sie den Vertrag unterschrieb, beriet sie sich. (Temporalnebensatz)
+___, sie den Vertrag unterschrieb, beriet sie sich. (Grammatikform)

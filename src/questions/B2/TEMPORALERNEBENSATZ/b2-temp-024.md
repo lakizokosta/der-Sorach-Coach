@@ -9,4 +9,4 @@ options:
 correct: seitdem
 ---
 
-Sie wohnt hier, ___ sie ein Kind war. (Temporalnebensatz)
+Sie wohnt hier, ___ sie ein Kind war. (Grammatikform)

@@ -3,10 +3,10 @@ id: b2-temp-013
 type: select-one
 options:
   - Bevor
-  - Nachdem
-  - Sobald
   - Bis
+  - Sobald
+  - Seitdem
 correct: Sobald
 ---
 
-___, das Meeting zu Ende war, gingen alle. (Temporalnebensatz)
+___, das Meeting zu Ende war, gingen alle. (Grammatikform)

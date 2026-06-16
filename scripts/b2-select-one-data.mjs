@@ -448,7 +448,7 @@ export function genTekamolo() {
 export function genTemporaleNebensatz() {
   return bank([
     ['___, er gegessen hatte, ging er spazieren.', 'Nachdem', ['Bevor', 'Während', 'Bis', 'Seitdem']],
-    ['___, sie ankommt, rufe ich dich an.', 'Sobald', ['Nachdem', 'Bevor', 'Während', 'Bis']],
+    ['___, sie ankommt, rufe ich dich an.', 'Sobald', ['Obwohl', 'Bevor', 'Während', 'Bis']],
     ['Er wartete, ___ der Zug abfuhr.', 'bis', ['nachdem', 'bevor', 'während', 'seitdem']],
     ['___, ich studierte, arbeitete ich nebenbei.', 'Während', ['Nachdem', 'Bevor', 'Bis', 'Seitdem']],
     ['___, er das Buch gelesen hatte, verstand er alles.', 'Nachdem', ['Bevor', 'Während', 'Bis', 'Seitdem']],
@@ -459,7 +459,7 @@ export function genTemporaleNebensatz() {
     ['Er ruhte sich aus, ___ er gearbeitet hatte.', 'nachdem', ['bevor', 'während', 'bis', 'seitdem']],
     ['___, sie den Vertrag unterschrieb, beriet sie sich.', 'Bevor', ['Nachdem', 'Während', 'Bis', 'Seitdem']],
     ['___, wir redeten, klingelte das Telefon.', 'Während', ['Nachdem', 'Bevor', 'Bis', 'Seitdem']],
-    ['___, das Meeting zu Ende war, gingen alle.', 'Sobald', ['Nachdem', 'Bevor', 'Während', 'Bis']],
+    ['___, das Meeting zu Ende war, gingen alle.', 'Sobald', ['Bis', 'Bevor', 'Während', 'Seitdem']],
     ['Er lernte Deutsch, ___ er in Deutschland lebte.', 'während', ['nachdem', 'bevor', 'bis', 'seitdem']],
     ['___, ich angekommen bin, melde ich mich.', 'Sobald', ['Nachdem', 'Bevor', 'Während', 'Bis']],
     ['___, der Kurs begann, kannten sich alle.', 'Bevor', ['Nachdem', 'Während', 'Bis', 'Seitdem']],
