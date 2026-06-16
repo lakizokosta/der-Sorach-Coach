@@ -2,10 +2,10 @@
 id: b2-lokal-044
 type: select-one
 options:
-  - vors
   - vorm
+  - vor dem
   - vor
-  - vor das
+  - vors
 correct: vor
 ---
 

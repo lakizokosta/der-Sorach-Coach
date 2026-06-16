@@ -75,6 +75,7 @@ const TOPIC_LABEL = {
   AKKUSATIVB1: 'Akkusativ',
   DEMONSTRATIVARTIKEL: 'Demonstrativartikel',
   LOKALEPRÄPOSITIONENB1: 'Lokale Präposition',
+  LOKALEPRÄPOSITIONENB2: 'Lokale Präposition',
   NOMENPRÄPOSITIONVERBINDUNGB1: 'Nomen-Präposition',
   PERFEKTB1: 'Perfekt',
   PRÄPOSITIONENB1: 'Präposition',

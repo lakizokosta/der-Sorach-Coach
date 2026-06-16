@@ -161,22 +161,22 @@ export function genKonzessivsatzB2() {
 
 export function genLokalePraepositionenB2() {
   return bank([
-    ['Das Büro befindet sich direkt ___ dem Marktplatz.', 'am', ['an dem', 'im', 'zum', 'vom']],
+    ['Das Büro befindet sich direkt ___ dem Marktplatz.', 'am', ['in dem', 'im', 'zum', 'vom']],
     ['Er ging die Treppe ___ .', 'hinauf', ['hinauf die', 'die hinauf', 'auf die', 'hoch die']],
     ['Die Universität liegt ___ der Stadtgrenze.', 'an der', ['in der', 'auf der', 'bei der', 'zur']],
     ['Wir treffen uns ___ der Ecke Hauptstraße und Parkweg.', 'an der', ['in der', 'auf der', 'bei der', 'zur']],
-    ['Das Hotel liegt ___ dem See.', 'am', ['an dem', 'im', 'zum', 'vom']],
+    ['Das Hotel liegt ___ dem See.', 'am', ['in dem', 'im', 'zum', 'vom']],
     ['Er wohnt ___ der anderen Seite der Brücke.', 'auf der', ['an der', 'in der', 'bei der', 'zur']],
-    ['Die Fabrik steht ___ dem Flussufer.', 'am', ['an dem', 'im', 'zum', 'vom']],
+    ['Die Fabrik steht ___ dem Flussufer.', 'am', ['in dem', 'im', 'zum', 'vom']],
     ['Sie ging den Gang ___ bis zum Ende.', 'entlang', ['entlang den', 'den entlang', 'am entlang', 'zum entlang']],
     ['Das Geschäft ist ___ der Fußgängerzone.', 'in der', ['an der', 'auf der', 'bei der', 'zur']],
-    ['Er stellte das Fahrrad ___ das Haus.', 'vor', ['vor das', 'vors', 'vorm', 'vor dem']],
+    ['Er stellte das Fahrrad ___ das Haus.', 'vor', ['vors', 'vorm', 'vor dem', 'zu']],
     ['Die Kinder spielen ___ dem Hof.', 'auf dem', ['an dem', 'in dem', 'bei dem', 'zum']],
     ['Wir fahren ___ die Autobahn Richtung Süden.', 'auf die', ['an die', 'in die', 'bei die', 'zur']],
     ['Das Bild hängt ___ der Wand über dem Sofa.', 'an der', ['in der', 'auf der', 'bei der', 'zur']],
-    ['Er ging ___ dem Gebäude herum.', 'um', ['um das', 'ums', 'um dem', 'beim']],
+    ['Er ging ___ das Gebäude herum.', 'um', ['ums', 'um dem', 'beim', 'in das']],
     ['Die Apotheke ist gleich ___ der Post.', 'neben der', ['neben die', 'bei der', 'an der', 'zur']],
-    ['Sie wohnt ___ dem Stadtzentrum in einem ruhigen Viertel.', 'außerhalb', ['innerhalb', 'oberhalb', 'unterhalb', 'diesseits']],
+    ['Sie wohnt ___ des Stadtzentrums in einem ruhigen Viertel.', 'außerhalb', ['innerhalb', 'oberhalb', 'unterhalb', 'diesseits']],
     ['Das Dorf liegt ___ der Berge.', 'zwischen den', ['unter den', 'über den', 'an den', 'bei den']],
   ], 71);
 }

@@ -272,6 +272,11 @@ export const GRAMMAR_HINTS = {
     RU: 'Куда? nach (без артикля), in (с артиклем), zu (люди/учреждения). Где? bei. Откуда? aus, von.',
     EN: 'Where to? nach, in, zu. Where? bei. Where from? aus, von.',
   },
+  LOKALEPRÄPOSITIONENB2: {
+    DE: 'Wo? am/an der, im/in der. Wohin? auf die, vor das. Wo? außerhalb/innerhalb + Genitiv. Richtung: hinauf, entlang, herum (Akk.).',
+    RU: 'Wo? am/an der. Wohin? auf die. außerhalb/innerhalb + Genitiv. hinauf, entlang, um … herum (Akk.).',
+    EN: 'Wo? am/an der. Wohin? auf die. außerhalb/innerhalb + genitive. hinauf, entlang, um … herum (acc.).',
+  },
   NOMENPRÄPOSITIONVERBINDUNGB1: {
     DE: 'Interesse an, Angst vor, Freude über, Einfluss auf, Reaktion auf, Meinung zu, Beziehung zu, Kritik an, Wunsch nach.',
     RU: 'Interesse an, Angst vor, Freude über, Einfluss auf, Reaktion auf, Meinung zu.',

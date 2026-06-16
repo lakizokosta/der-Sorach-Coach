@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Topic-Key** | `LOKALEPRÄPOSITIONENB1` |
+| **Topic-Key** | `LOKALEPRÄPOSITIONENB2` |
 | **Beschreibung** | präzise Orts- und Richtungsangaben |
 | **Fragen gesamt** | 50 |
 | Auswahl (1 Antwort) | 50 |

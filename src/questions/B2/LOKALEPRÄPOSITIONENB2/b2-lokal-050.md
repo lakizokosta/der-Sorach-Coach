@@ -9,4 +9,4 @@ options:
 correct: außerhalb
 ---
 
-Sie wohnt ___ dem Stadtzentrum in einem ruhigen Viertel. (Lokale Präposition)
+Sie wohnt ___ des Stadtzentrums in einem ruhigen Viertel. (Lokale Präposition)

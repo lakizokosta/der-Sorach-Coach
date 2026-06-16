@@ -1,10 +1,10 @@
 ---
-id: b2-lokal-018
+id: b2-lokal-035
 type: select-one
 options:
-  - zum
+  - im
+  - in dem
   - am
-  - an dem
   - vom
 correct: am
 ---

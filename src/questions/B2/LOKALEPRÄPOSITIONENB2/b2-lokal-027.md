@@ -1,11 +1,11 @@
 ---
-id: b2-lokal-010
+id: b2-lokal-027
 type: select-one
 options:
-  - vor das
   - vorm
+  - vors
   - vor
-  - vor dem
+  - zu
 correct: vor
 ---
 

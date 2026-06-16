@@ -22,7 +22,7 @@ const TOPICS = {
   KONJUNKTIONALADVERBIEN: { prefix: 'b2-kadv', gen: G.genKonjunktionaladverbien },
   KONJUNKTIV2B2: { prefix: 'b2-konj2', gen: G.genKonjunktiv2B2 },
   KONZESSIVSATZB2: { prefix: 'b2-konz', gen: G.genKonzessivsatzB2 },
-  LOKALEPRÄPOSITIONENB1: { prefix: 'b2-lokal', gen: G.genLokalePraepositionenB2 },
+  LOKALEPRÄPOSITIONENB2: { prefix: 'b2-lokal', gen: G.genLokalePraepositionenB2 },
   MODALSATZ: { prefix: 'b2-modal', gen: G.genModalsatz },
   INDEFINITPRONOMEN: { prefix: 'b2-indef', gen: G.genIndefinitpronomen },
   INDIREKTEREDE: { prefix: 'b2-ired', gen: G.genIndirekteRede },

@@ -55,6 +55,7 @@ export const TOPIC_FORM_HINT = {
   WECHSELPRÄPOSITIONENA2: 'Dativ oder Akkusativ',
   LOKALPRÄPOSITIONENA2: 'Lokale Präposition',
   LOKALEPRÄPOSITIONENB1: 'Lokale Präposition',
+  LOKALEPRÄPOSITIONENB2: 'Lokale Präposition',
   FESTEPRÄPOSITIONENA2: 'Feste Präposition',
   PRÄPOSITIONENB1: 'Präposition',
   PRÄPOSITIONENGENITIV: 'Genitiv-Präposition',

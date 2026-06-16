@@ -102,7 +102,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 | Konjunktionaladverbien | 50 | [B2/05-KONJUNKTIONALADVERBIEN.md](B2/05-KONJUNKTIONALADVERBIEN.md) |
 | Konjunktiv II | 101 | [B2/06-KONJUNKTIV2B2.md](B2/06-KONJUNKTIV2B2.md) |
 | Konzessivsatz | 50 | [B2/07-KONZESSIVSATZB2.md](B2/07-KONZESSIVSATZB2.md) |
-| Lokale Präpositionen | 50 | [B2/08-LOKALEPRÄPOSITIONENB1.md](B2/08-LOKALEPRÄPOSITIONENB1.md) |
+| Lokale Präpositionen | 50 | [B2/08-LOKALEPRÄPOSITIONENB2.md](B2/08-LOKALEPRÄPOSITIONENB2.md) |
 | Modalsatz | 51 | [B2/09-MODALSATZ.md](B2/09-MODALSATZ.md) |
 | Indefinitpronomen | 50 | [B2/10-INDEFINITPRONOMEN.md](B2/10-INDEFINITPRONOMEN.md) |
 | Indirekte Rede | 101 | [B2/11-INDIREKTEREDE.md](B2/11-INDIREKTEREDE.md) |

@@ -85,7 +85,7 @@ export const PREMIUM_TOPICS = {
     { key: 'KONJUNKTIONALADVERBIEN',        name: 'Konjunktionaladverbien',     desc: 'folglich, dennoch, außerdem' },
     { key: 'KONJUNKTIV2B2',                 name: 'Konjunktiv II',              desc: 'komplexe irreale Aussagen' },
     { key: 'KONZESSIVSATZB2',               name: 'Konzessivsatz',              desc: 'obwohl, obgleich' },
-    { key: 'LOKALEPRÄPOSITIONENB1',         name: 'Lokale Präpositionen',       desc: 'präzise Orts- und Richtungsangaben' },
+    { key: 'LOKALEPRÄPOSITIONENB2',         name: 'Lokale Präpositionen',       desc: 'präzise Orts- und Richtungsangaben' },
     { key: 'MODALSATZ',                     name: 'Modalsatz',                  desc: 'indem, ohne dass, statt dass' },
     { key: 'INDEFINITPRONOMEN',             name: 'Indefinitpronomen',          desc: 'jemand, niemand, etwas' },
     { key: 'INDIREKTEREDE',                 name: 'Indirekte Rede',             desc: 'Konjunktiv I und Alternativen' },
