@@ -126,7 +126,7 @@ export function genKonjunktiv2B2() {
     ['Wenn das möglich ___, würden wir sofort helfen.', 'wäre', ['ist', 'war', 'wird', 'würde']],
     ['Ich ___ gern früher kommen, aber der Zug hatte Verspätung.', 'wäre', ['bin', 'war', 'werde', 'würde']],
     ['Wenn ich du ___, würde ich die Stelle annehmen.', 'wäre', ['bin', 'bist', 'war', 'würde']],
-    ['Sie spricht, als ob sie alles ___ (wissen).', 'wüsste', ['weiß', 'wusste', 'wissen', 'gewusst']],
+    ['Sie spricht, als ob sie alles ___.', 'wüsste', ['weiß', 'wusste', 'wissen', 'gewusst']],
     ['Wenn er nicht so stur ___, ginge alles leichter.', 'wäre', ['ist', 'war', 'wird', 'würde']],
     ['___ du mir helfen, wäre ich sehr dankbar.', 'Könntest', ['Kannst', 'Konntest', 'Könnten', 'Kann']],
     ['Wenn das Wetter besser ___, würden wir wandern gehen.', 'wäre', ['ist', 'war', 'wird', 'würde']],

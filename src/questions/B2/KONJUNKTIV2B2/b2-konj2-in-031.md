@@ -5,4 +5,4 @@ correct:
   - wüsste
 ---
 
-Er tut so, als ob er nichts ___. (Konjunktiv II + Verb wissen)
+Er tut so, als ob er nichts ___. (Grammatikform)

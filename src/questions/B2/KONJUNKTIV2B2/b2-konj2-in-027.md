@@ -5,4 +5,4 @@ correct:
   - wüsste
 ---
 
-Sie spricht, als ob sie alles ___. (Konjunktiv II + Verb wissen)
+Sie spricht, als ob sie alles ___. (Grammatikform)

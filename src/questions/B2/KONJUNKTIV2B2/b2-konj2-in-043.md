@@ -5,4 +5,4 @@ correct:
   - hätte
 ---
 
-Wenn sie mehr Zeit ___, könnte sie das Projekt abschließen. (Konjunktiv II + Verb haben)
+Wenn sie mehr Zeit ___, könnte sie das Projekt abschließen. (Grammatikform)

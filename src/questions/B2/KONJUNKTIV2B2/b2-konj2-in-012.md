@@ -5,4 +5,4 @@ correct:
   - wäre
 ---
 
-Wenn das Wetter besser ___, würden wir wandern. (Konjunktiv II + Verb sein)
+Wenn das Wetter besser ___, würden wir wandern. (Grammatikform)

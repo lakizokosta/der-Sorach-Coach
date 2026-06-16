@@ -5,4 +5,4 @@ correct:
   - wäre
 ---
 
-An deiner Stelle ___ ich vorsichtiger. (Konjunktiv II + Verb sein)
+An deiner Stelle ___ ich vorsichtiger. (Grammatikform)
