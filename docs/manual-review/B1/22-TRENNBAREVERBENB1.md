@@ -18,7 +18,7 @@
 ### 1. `b1-trenn-001` · select-one
 
 **Aufgabe:**
-> Wann ___ du dich für den Kurs an? (Trennbares Verb + Verb anmeldeen)
+> Wann ___ du dich für den Kurs an? (Trennbares Verb)
 
 **Optionen:**
 - meldest an
@@ -32,7 +32,7 @@
 ### 2. `b1-trenn-002` · select-one
 
 **Aufgabe:**
-> Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)
+> Er ___ die wichtige E-Mail sofort ab. (Trennbares Verb)
 
 **Optionen:**
 - schickt ab
@@ -46,7 +46,7 @@
 ### 3. `b1-trenn-003` · select-one
 
 **Aufgabe:**
-> Ich ___ morgen früh um sechs auf. (Trennbares Verb + Verb aufstehen)
+> Ich ___ morgen früh um sechs auf. (Trennbares Verb)
 
 **Optionen:**
 - stehen
@@ -60,7 +60,7 @@
 ### 4. `b1-trenn-004` · select-one
 
 **Aufgabe:**
-> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb + Verb vorverlegen)
+> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb)
 
 **Optionen:**
 - verlegen vor
@@ -74,7 +74,7 @@
 ### 5. `b1-trenn-005` · select-one
 
 **Aufgabe:**
-> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb + Verb ausmachen)
+> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb)
 
 **Optionen:**
 - machen
@@ -88,7 +88,7 @@
 ### 6. `b1-trenn-006` · select-one
 
 **Aufgabe:**
-> Er ___ den Termin leider ab. (Trennbares Verb + Verb absagen)
+> Er ___ den Termin leider ab. (Trennbares Verb)
 
 **Optionen:**
 - sagt ab
@@ -102,7 +102,7 @@
 ### 7. `b1-trenn-007` · select-one
 
 **Aufgabe:**
-> Ich ___ mich über das Ergebnis. (Trennbares Verb + Verb sich freuen)
+> Ich ___ mich über das Ergebnis. (Trennbares Verb)
 
 **Optionen:**
 - freuen
@@ -116,7 +116,7 @@
 ### 8. `b1-trenn-008` · select-one
 
 **Aufgabe:**
-> Wir ___ uns schon auf die Reise. (Trennbares Verb + Verb freuen)
+> Wir ___ uns schon auf die Reise. (Trennbares Verb)
 
 **Optionen:**
 - freue
@@ -130,7 +130,7 @@
 ### 9. `b1-trenn-009` · select-one
 
 **Aufgabe:**
-> Du ___ das Formular online aus. (Trennbares Verb + Verb ausfüllen)
+> Du ___ das Formular online aus. (Trennbares Verb)
 
 **Optionen:**
 - füllst aus
@@ -144,7 +144,7 @@
 ### 10. `b1-trenn-010` · select-one
 
 **Aufgabe:**
-> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb + Verb durchgehen)
+> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb)
 
 **Optionen:**
 - geht durch
@@ -158,7 +158,7 @@
 ### 11. `b1-trenn-011` · select-one
 
 **Aufgabe:**
-> Sie ___ um 22 Uhr ein. (Trennbares Verb + Verb einchecken)
+> Sie ___ um 22 Uhr ein. (Trennbares Verb)
 
 **Optionen:**
 - eincheckt
@@ -172,7 +172,7 @@
 ### 12. `b1-trenn-012` · select-one
 
 **Aufgabe:**
-> Ich ___ den Kollegen später an. (Trennbares Verb + Verb anmelden)
+> Ich ___ den Kollegen später an. (Trennbares Verb)
 
 **Optionen:**
 - rufen
@@ -186,7 +186,7 @@
 ### 13. `b1-trenn-013` · select-one
 
 **Aufgabe:**
-> Wir ___ das Problem im Team an. (Trennbares Verb + Verb ansprechen)
+> Wir ___ das Problem im Team an. (Trennbares Verb)
 
 **Optionen:**
 - spreche
@@ -200,7 +200,7 @@
 ### 14. `b1-trenn-014` · select-one
 
 **Aufgabe:**
-> Er ___ die Präsentation gut vor. (Trennbares Verb + Verb vorbereiten)
+> Er ___ die Präsentation gut vor. (Trennbares Verb)
 
 **Optionen:**
 - bereite
@@ -214,7 +214,7 @@
 ### 15. `b1-trenn-015` · select-one
 
 **Aufgabe:**
-> Sie ___ die Rechnung sofort ein. (Trennbares Verb + Verb einreichen)
+> Sie ___ die Rechnung sofort ein. (Trennbares Verb)
 
 **Optionen:**
 - einreicht
@@ -228,7 +228,7 @@
 ### 16. `b1-trenn-016` · select-one
 
 **Aufgabe:**
-> Wann ___ du dich für den Kurs an? (Trennbares Verb + Verb anmeldeen)
+> Wann ___ du dich für den Kurs an? (Trennbares Verb)
 
 **Optionen:**
 - meldet
@@ -242,7 +242,7 @@
 ### 17. `b1-trenn-017` · select-one
 
 **Aufgabe:**
-> Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)
+> Er ___ die wichtige E-Mail sofort ab. (Trennbares Verb)
 
 **Optionen:**
 - schicken
@@ -256,7 +256,7 @@
 ### 18. `b1-trenn-018` · select-one
 
 **Aufgabe:**
-> Ich ___ morgen früh um sechs auf. (Trennbares Verb + Verb aufstehen)
+> Ich ___ morgen früh um sechs auf. (Trennbares Verb)
 
 **Optionen:**
 - steht
@@ -270,7 +270,7 @@
 ### 19. `b1-trenn-019` · select-one
 
 **Aufgabe:**
-> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb + Verb vorverlegen)
+> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb)
 
 **Optionen:**
 - vorverlegen
@@ -284,7 +284,7 @@
 ### 20. `b1-trenn-020` · select-one
 
 **Aufgabe:**
-> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb + Verb ausmachen)
+> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb)
 
 **Optionen:**
 - macht aus
@@ -298,7 +298,7 @@
 ### 21. `b1-trenn-021` · select-one
 
 **Aufgabe:**
-> Er ___ den Termin leider ab. (Trennbares Verb + Verb absagen)
+> Er ___ den Termin leider ab. (Trennbares Verb)
 
 **Optionen:**
 - absagt
@@ -312,7 +312,7 @@
 ### 22. `b1-trenn-022` · select-one
 
 **Aufgabe:**
-> Ich ___ mich über das Ergebnis. (Trennbares Verb + Verb sich freuen)
+> Ich ___ mich über das Ergebnis. (Trennbares Verb)
 
 **Optionen:**
 - freust
@@ -326,7 +326,7 @@
 ### 23. `b1-trenn-023` · select-one
 
 **Aufgabe:**
-> Wir ___ uns schon auf die Reise. (Trennbares Verb + Verb freuen)
+> Wir ___ uns schon auf die Reise. (Trennbares Verb)
 
 **Optionen:**
 - freue
@@ -340,7 +340,7 @@
 ### 24. `b1-trenn-024` · select-one
 
 **Aufgabe:**
-> Du ___ das Formular online aus. (Trennbares Verb + Verb ausfüllen)
+> Du ___ das Formular online aus. (Trennbares Verb)
 
 **Optionen:**
 - füllen
@@ -354,7 +354,7 @@
 ### 25. `b1-trenn-025` · select-one
 
 **Aufgabe:**
-> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb + Verb durchgehen)
+> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb)
 
 **Optionen:**
 - durchgeht
@@ -368,7 +368,7 @@
 ### 26. `b1-trenn-026` · select-one
 
 **Aufgabe:**
-> Sie ___ um 22 Uhr ein. (Trennbares Verb + Verb einchecken)
+> Sie ___ um 22 Uhr ein. (Trennbares Verb)
 
 **Optionen:**
 - checkt ein
@@ -382,7 +382,7 @@
 ### 27. `b1-trenn-027` · select-one
 
 **Aufgabe:**
-> Ich ___ den Kollegen später an. (Trennbares Verb + Verb anmelden)
+> Ich ___ den Kollegen später an. (Trennbares Verb)
 
 **Optionen:**
 - rufen
@@ -396,7 +396,7 @@
 ### 28. `b1-trenn-028` · select-one
 
 **Aufgabe:**
-> Wir ___ das Problem im Team an. (Trennbares Verb + Verb ansprechen)
+> Wir ___ das Problem im Team an. (Trennbares Verb)
 
 **Optionen:**
 - spreche
@@ -410,7 +410,7 @@
 ### 29. `b1-trenn-029` · select-one
 
 **Aufgabe:**
-> Er ___ die Präsentation gut vor. (Trennbares Verb + Verb vorbereiten)
+> Er ___ die Präsentation gut vor. (Trennbares Verb)
 
 **Optionen:**
 - bereiten
@@ -424,7 +424,7 @@
 ### 30. `b1-trenn-030` · select-one
 
 **Aufgabe:**
-> Sie ___ die Rechnung sofort ein. (Trennbares Verb + Verb einreichen)
+> Sie ___ die Rechnung sofort ein. (Trennbares Verb)
 
 **Optionen:**
 - reicht ein
@@ -438,7 +438,7 @@
 ### 31. `b1-trenn-031` · select-one
 
 **Aufgabe:**
-> Wann ___ du dich für den Kurs an? (Trennbares Verb + Verb anmeldeen)
+> Wann ___ du dich für den Kurs an? (Trennbares Verb)
 
 **Optionen:**
 - melden
@@ -452,7 +452,7 @@
 ### 32. `b1-trenn-032` · select-one
 
 **Aufgabe:**
-> Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)
+> Er ___ die wichtige E-Mail sofort ab. (Trennbares Verb)
 
 **Optionen:**
 - abschickt
@@ -466,7 +466,7 @@
 ### 33. `b1-trenn-033` · select-one
 
 **Aufgabe:**
-> Ich ___ morgen früh um sechs auf. (Trennbares Verb + Verb aufstehen)
+> Ich ___ morgen früh um sechs auf. (Trennbares Verb)
 
 **Optionen:**
 - stehen
@@ -480,7 +480,7 @@
 ### 34. `b1-trenn-034` · select-one
 
 **Aufgabe:**
-> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb + Verb vorverlegen)
+> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb)
 
 **Optionen:**
 - verlegt
@@ -494,7 +494,7 @@
 ### 35. `b1-trenn-035` · select-one
 
 **Aufgabe:**
-> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb + Verb ausmachen)
+> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb)
 
 **Optionen:**
 - ausmacht
@@ -508,7 +508,7 @@
 ### 36. `b1-trenn-036` · select-one
 
 **Aufgabe:**
-> Er ___ den Termin leider ab. (Trennbares Verb + Verb absagen)
+> Er ___ den Termin leider ab. (Trennbares Verb)
 
 **Optionen:**
 - absagt
@@ -522,7 +522,7 @@
 ### 37. `b1-trenn-037` · select-one
 
 **Aufgabe:**
-> Ich ___ mich über das Ergebnis. (Trennbares Verb + Verb sich freuen)
+> Ich ___ mich über das Ergebnis. (Trennbares Verb)
 
 **Optionen:**
 - freuen
@@ -536,7 +536,7 @@
 ### 38. `b1-trenn-038` · select-one
 
 **Aufgabe:**
-> Wir ___ uns schon auf die Reise. (Trennbares Verb + Verb freuen)
+> Wir ___ uns schon auf die Reise. (Trennbares Verb)
 
 **Optionen:**
 - freut
@@ -550,7 +550,7 @@
 ### 39. `b1-trenn-039` · select-one
 
 **Aufgabe:**
-> Du ___ das Formular online aus. (Trennbares Verb + Verb ausfüllen)
+> Du ___ das Formular online aus. (Trennbares Verb)
 
 **Optionen:**
 - füllen
@@ -564,7 +564,7 @@
 ### 40. `b1-trenn-040` · select-one
 
 **Aufgabe:**
-> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb + Verb durchgehen)
+> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb)
 
 **Optionen:**
 - geht durch
@@ -578,7 +578,7 @@
 ### 41. `b1-trenn-041` · select-one
 
 **Aufgabe:**
-> Sie ___ um 22 Uhr ein. (Trennbares Verb + Verb einchecken)
+> Sie ___ um 22 Uhr ein. (Trennbares Verb)
 
 **Optionen:**
 - checken
@@ -592,7 +592,7 @@
 ### 42. `b1-trenn-042` · select-one
 
 **Aufgabe:**
-> Ich ___ den Kollegen später an. (Trennbares Verb + Verb anmelden)
+> Ich ___ den Kollegen später an. (Trennbares Verb)
 
 **Optionen:**
 - anrufe
@@ -606,7 +606,7 @@
 ### 43. `b1-trenn-043` · select-one
 
 **Aufgabe:**
-> Wir ___ das Problem im Team an. (Trennbares Verb + Verb ansprechen)
+> Wir ___ das Problem im Team an. (Trennbares Verb)
 
 **Optionen:**
 - spreche
@@ -620,7 +620,7 @@
 ### 44. `b1-trenn-044` · select-one
 
 **Aufgabe:**
-> Er ___ die Präsentation gut vor. (Trennbares Verb + Verb vorbereiten)
+> Er ___ die Präsentation gut vor. (Trennbares Verb)
 
 **Optionen:**
 - vorbereitet
@@ -634,7 +634,7 @@
 ### 45. `b1-trenn-045` · select-one
 
 **Aufgabe:**
-> Sie ___ die Rechnung sofort ein. (Trennbares Verb + Verb einreichen)
+> Sie ___ die Rechnung sofort ein. (Trennbares Verb)
 
 **Optionen:**
 - reichen
@@ -648,7 +648,7 @@
 ### 46. `b1-trenn-046` · select-one
 
 **Aufgabe:**
-> Wann ___ du dich für den Kurs an? (Trennbares Verb + Verb anmeldeen)
+> Wann ___ du dich für den Kurs an? (Trennbares Verb)
 
 **Optionen:**
 - meldet
@@ -662,7 +662,7 @@
 ### 47. `b1-trenn-047` · select-one
 
 **Aufgabe:**
-> Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)
+> Er ___ die wichtige E-Mail sofort ab. (Trennbares Verb)
 
 **Optionen:**
 - abschickt
@@ -676,7 +676,7 @@
 ### 48. `b1-trenn-048` · select-one
 
 **Aufgabe:**
-> Ich ___ morgen früh um sechs auf. (Trennbares Verb + Verb aufstehen)
+> Ich ___ morgen früh um sechs auf. (Trennbares Verb)
 
 **Optionen:**
 - steht
@@ -690,7 +690,7 @@
 ### 49. `b1-trenn-049` · select-one
 
 **Aufgabe:**
-> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb + Verb vorverlegen)
+> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb)
 
 **Optionen:**
 - verlegt
@@ -704,7 +704,7 @@
 ### 50. `b1-trenn-050` · select-one
 
 **Aufgabe:**
-> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb + Verb ausmachen)
+> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb)
 
 **Optionen:**
 - macht aus
@@ -720,7 +720,7 @@
 ### 51. `b1-trenn-in-001` · input-text
 
 **Aufgabe:**
-> Wann ___ du dich für den Kurs an? (Trennbares Verb + Verb anmeldeen)
+> Wann ___ du dich für den Kurs an? (Trennbares Verb)
 
 **Antwort:** `meldest`
 
@@ -730,7 +730,7 @@
 ### 52. `b1-trenn-in-002` · input-text
 
 **Aufgabe:**
-> Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)
+> Er ___ die wichtige E-Mail sofort ab. (Trennbares Verb)
 
 **Antwort:** `schickt`
 
@@ -740,7 +740,7 @@
 ### 53. `b1-trenn-in-003` · input-text
 
 **Aufgabe:**
-> Ich ___ morgen früh um sechs auf. (Trennbares Verb + Verb aufstehen)
+> Ich ___ morgen früh um sechs auf. (Trennbares Verb)
 
 **Antwort:** `stehe`
 
@@ -750,7 +750,7 @@
 ### 54. `b1-trenn-in-004` · input-text
 
 **Aufgabe:**
-> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb + Verb vorverlegen)
+> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb)
 
 **Antwort:** `verlegen`
 
@@ -760,7 +760,7 @@
 ### 55. `b1-trenn-in-005` · input-text
 
 **Aufgabe:**
-> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb + Verb ausmachen)
+> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb)
 
 **Antwort:** `macht`
 
@@ -770,7 +770,7 @@
 ### 56. `b1-trenn-in-006` · input-text
 
 **Aufgabe:**
-> Er ___ den Termin leider ab. (Trennbares Verb + Verb absagen)
+> Er ___ den Termin leider ab. (Trennbares Verb)
 
 **Antwort:** `sagt`
 
@@ -780,7 +780,7 @@
 ### 57. `b1-trenn-in-007` · input-text
 
 **Aufgabe:**
-> Ich ___ mich über das Ergebnis. (Trennbares Verb + Verb sich freuen)
+> Ich ___ mich über das Ergebnis. (Trennbares Verb)
 
 **Antwort:** `freue`
 
@@ -790,7 +790,7 @@
 ### 58. `b1-trenn-in-008` · input-text
 
 **Aufgabe:**
-> Wir ___ uns schon auf die Reise. (Trennbares Verb + Verb freuen)
+> Wir ___ uns schon auf die Reise. (Trennbares Verb)
 
 **Antwort:** `freuen`
 
@@ -800,7 +800,7 @@
 ### 59. `b1-trenn-in-009` · input-text
 
 **Aufgabe:**
-> Du ___ das Formular online aus. (Trennbares Verb + Verb ausfüllen)
+> Du ___ das Formular online aus. (Trennbares Verb)
 
 **Antwort:** `füllst`
 
@@ -810,7 +810,7 @@
 ### 60. `b1-trenn-in-010` · input-text
 
 **Aufgabe:**
-> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb + Verb durchgehen)
+> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb)
 
 **Antwort:** `geht`
 
@@ -820,7 +820,7 @@
 ### 61. `b1-trenn-in-011` · input-text
 
 **Aufgabe:**
-> Sie ___ um 22 Uhr ein. (Trennbares Verb + Verb einchecken)
+> Sie ___ um 22 Uhr ein. (Trennbares Verb)
 
 **Antwort:** `checkt`
 
@@ -830,7 +830,7 @@
 ### 62. `b1-trenn-in-012` · input-text
 
 **Aufgabe:**
-> Ich ___ den Kollegen später an. (Trennbares Verb + Verb anmelden)
+> Ich ___ den Kollegen später an. (Trennbares Verb)
 
 **Antwort:** `rufe`
 
@@ -840,7 +840,7 @@
 ### 63. `b1-trenn-in-013` · input-text
 
 **Aufgabe:**
-> Wir ___ das Problem im Team an. (Trennbares Verb + Verb ansprechen)
+> Wir ___ das Problem im Team an. (Trennbares Verb)
 
 **Antwort:** `sprechen`
 
@@ -850,7 +850,7 @@
 ### 64. `b1-trenn-in-014` · input-text
 
 **Aufgabe:**
-> Er ___ die Präsentation gut vor. (Trennbares Verb + Verb vorbereiten)
+> Er ___ die Präsentation gut vor. (Trennbares Verb)
 
 **Antwort:** `bereitet`
 
@@ -860,7 +860,7 @@
 ### 65. `b1-trenn-in-015` · input-text
 
 **Aufgabe:**
-> Sie ___ die Rechnung sofort ein. (Trennbares Verb + Verb einreichen)
+> Sie ___ die Rechnung sofort ein. (Trennbares Verb)
 
 **Antwort:** `reicht`
 
@@ -870,7 +870,7 @@
 ### 66. `b1-trenn-in-016` · input-text
 
 **Aufgabe:**
-> Wann ___ du dich für den Kurs an? (Trennbares Verb + Verb anmeldeen)
+> Wann ___ du dich für den Kurs an? (Trennbares Verb)
 
 **Antwort:** `meldest`
 
@@ -880,7 +880,7 @@
 ### 67. `b1-trenn-in-017` · input-text
 
 **Aufgabe:**
-> Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)
+> Er ___ die wichtige E-Mail sofort ab. (Trennbares Verb)
 
 **Antwort:** `schickt`
 
@@ -890,7 +890,7 @@
 ### 68. `b1-trenn-in-018` · input-text
 
 **Aufgabe:**
-> Ich ___ morgen früh um sechs auf. (Trennbares Verb + Verb aufstehen)
+> Ich ___ morgen früh um sechs auf. (Trennbares Verb)
 
 **Antwort:** `stehe`
 
@@ -900,7 +900,7 @@
 ### 69. `b1-trenn-in-019` · input-text
 
 **Aufgabe:**
-> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb + Verb vorverlegen)
+> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb)
 
 **Antwort:** `verlegen`
 
@@ -910,7 +910,7 @@
 ### 70. `b1-trenn-in-020` · input-text
 
 **Aufgabe:**
-> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb + Verb ausmachen)
+> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb)
 
 **Antwort:** `macht`
 
@@ -920,7 +920,7 @@
 ### 71. `b1-trenn-in-021` · input-text
 
 **Aufgabe:**
-> Er ___ den Termin leider ab. (Trennbares Verb + Verb absagen)
+> Er ___ den Termin leider ab. (Trennbares Verb)
 
 **Antwort:** `sagt`
 
@@ -930,7 +930,7 @@
 ### 72. `b1-trenn-in-022` · input-text
 
 **Aufgabe:**
-> Ich ___ mich über das Ergebnis. (Trennbares Verb + Verb sich freuen)
+> Ich ___ mich über das Ergebnis. (Trennbares Verb)
 
 **Antwort:** `freue`
 
@@ -940,7 +940,7 @@
 ### 73. `b1-trenn-in-023` · input-text
 
 **Aufgabe:**
-> Wir ___ uns schon auf die Reise. (Trennbares Verb + Verb freuen)
+> Wir ___ uns schon auf die Reise. (Trennbares Verb)
 
 **Antwort:** `freuen`
 
@@ -950,7 +950,7 @@
 ### 74. `b1-trenn-in-024` · input-text
 
 **Aufgabe:**
-> Du ___ das Formular online aus. (Trennbares Verb + Verb ausfüllen)
+> Du ___ das Formular online aus. (Trennbares Verb)
 
 **Antwort:** `füllst`
 
@@ -960,7 +960,7 @@
 ### 75. `b1-trenn-in-025` · input-text
 
 **Aufgabe:**
-> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb + Verb durchgehen)
+> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb)
 
 **Antwort:** `geht`
 
@@ -970,7 +970,7 @@
 ### 76. `b1-trenn-in-026` · input-text
 
 **Aufgabe:**
-> Sie ___ um 22 Uhr ein. (Trennbares Verb + Verb einchecken)
+> Sie ___ um 22 Uhr ein. (Trennbares Verb)
 
 **Antwort:** `checkt`
 
@@ -980,7 +980,7 @@
 ### 77. `b1-trenn-in-027` · input-text
 
 **Aufgabe:**
-> Ich ___ den Kollegen später an. (Trennbares Verb + Verb anmelden)
+> Ich ___ den Kollegen später an. (Trennbares Verb)
 
 **Antwort:** `rufe`
 
@@ -990,7 +990,7 @@
 ### 78. `b1-trenn-in-028` · input-text
 
 **Aufgabe:**
-> Wir ___ das Problem im Team an. (Trennbares Verb + Verb ansprechen)
+> Wir ___ das Problem im Team an. (Trennbares Verb)
 
 **Antwort:** `sprechen`
 
@@ -1000,7 +1000,7 @@
 ### 79. `b1-trenn-in-029` · input-text
 
 **Aufgabe:**
-> Er ___ die Präsentation gut vor. (Trennbares Verb + Verb vorbereiten)
+> Er ___ die Präsentation gut vor. (Trennbares Verb)
 
 **Antwort:** `bereitet`
 
@@ -1010,7 +1010,7 @@
 ### 80. `b1-trenn-in-030` · input-text
 
 **Aufgabe:**
-> Sie ___ die Rechnung sofort ein. (Trennbares Verb + Verb einreichen)
+> Sie ___ die Rechnung sofort ein. (Trennbares Verb)
 
 **Antwort:** `reicht`
 
@@ -1020,7 +1020,7 @@
 ### 81. `b1-trenn-in-031` · input-text
 
 **Aufgabe:**
-> Wann ___ du dich für den Kurs an? (Trennbares Verb + Verb anmeldeen)
+> Wann ___ du dich für den Kurs an? (Trennbares Verb)
 
 **Antwort:** `meldest`
 
@@ -1030,7 +1030,7 @@
 ### 82. `b1-trenn-in-032` · input-text
 
 **Aufgabe:**
-> Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)
+> Er ___ die wichtige E-Mail sofort ab. (Trennbares Verb)
 
 **Antwort:** `schickt`
 
@@ -1040,7 +1040,7 @@
 ### 83. `b1-trenn-in-033` · input-text
 
 **Aufgabe:**
-> Ich ___ morgen früh um sechs auf. (Trennbares Verb + Verb aufstehen)
+> Ich ___ morgen früh um sechs auf. (Trennbares Verb)
 
 **Antwort:** `stehe`
 
@@ -1050,7 +1050,7 @@
 ### 84. `b1-trenn-in-034` · input-text
 
 **Aufgabe:**
-> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb + Verb vorverlegen)
+> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb)
 
 **Antwort:** `verlegen`
 
@@ -1060,7 +1060,7 @@
 ### 85. `b1-trenn-in-035` · input-text
 
 **Aufgabe:**
-> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb + Verb ausmachen)
+> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb)
 
 **Antwort:** `macht`
 
@@ -1070,7 +1070,7 @@
 ### 86. `b1-trenn-in-036` · input-text
 
 **Aufgabe:**
-> Er ___ den Termin leider ab. (Trennbares Verb + Verb absagen)
+> Er ___ den Termin leider ab. (Trennbares Verb)
 
 **Antwort:** `sagt`
 
@@ -1080,7 +1080,7 @@
 ### 87. `b1-trenn-in-037` · input-text
 
 **Aufgabe:**
-> Ich ___ mich über das Ergebnis. (Trennbares Verb + Verb sich freuen)
+> Ich ___ mich über das Ergebnis. (Trennbares Verb)
 
 **Antwort:** `freue`
 
@@ -1090,7 +1090,7 @@
 ### 88. `b1-trenn-in-038` · input-text
 
 **Aufgabe:**
-> Wir ___ uns schon auf die Reise. (Trennbares Verb + Verb freuen)
+> Wir ___ uns schon auf die Reise. (Trennbares Verb)
 
 **Antwort:** `freuen`
 
@@ -1100,7 +1100,7 @@
 ### 89. `b1-trenn-in-039` · input-text
 
 **Aufgabe:**
-> Du ___ das Formular online aus. (Trennbares Verb + Verb ausfüllen)
+> Du ___ das Formular online aus. (Trennbares Verb)
 
 **Antwort:** `füllst`
 
@@ -1110,7 +1110,7 @@
 ### 90. `b1-trenn-in-040` · input-text
 
 **Aufgabe:**
-> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb + Verb durchgehen)
+> Er ___ die Nachrichten jeden Morgen durch. (Trennbares Verb)
 
 **Antwort:** `geht`
 
@@ -1120,7 +1120,7 @@
 ### 91. `b1-trenn-in-041` · input-text
 
 **Aufgabe:**
-> Sie ___ um 22 Uhr ein. (Trennbares Verb + Verb einchecken)
+> Sie ___ um 22 Uhr ein. (Trennbares Verb)
 
 **Antwort:** `checkt`
 
@@ -1130,7 +1130,7 @@
 ### 92. `b1-trenn-in-042` · input-text
 
 **Aufgabe:**
-> Ich ___ den Kollegen später an. (Trennbares Verb + Verb anmelden)
+> Ich ___ den Kollegen später an. (Trennbares Verb)
 
 **Antwort:** `rufe`
 
@@ -1140,7 +1140,7 @@
 ### 93. `b1-trenn-in-043` · input-text
 
 **Aufgabe:**
-> Wir ___ das Problem im Team an. (Trennbares Verb + Verb ansprechen)
+> Wir ___ das Problem im Team an. (Trennbares Verb)
 
 **Antwort:** `sprechen`
 
@@ -1150,7 +1150,7 @@
 ### 94. `b1-trenn-in-044` · input-text
 
 **Aufgabe:**
-> Er ___ die Präsentation gut vor. (Trennbares Verb + Verb vorbereiten)
+> Er ___ die Präsentation gut vor. (Trennbares Verb)
 
 **Antwort:** `bereitet`
 
@@ -1160,7 +1160,7 @@
 ### 95. `b1-trenn-in-045` · input-text
 
 **Aufgabe:**
-> Sie ___ die Rechnung sofort ein. (Trennbares Verb + Verb einreichen)
+> Sie ___ die Rechnung sofort ein. (Trennbares Verb)
 
 **Antwort:** `reicht`
 
@@ -1170,7 +1170,7 @@
 ### 96. `b1-trenn-in-046` · input-text
 
 **Aufgabe:**
-> Wann ___ du dich für den Kurs an? (Trennbares Verb + Verb anmeldeen)
+> Wann ___ du dich für den Kurs an? (Trennbares Verb)
 
 **Antwort:** `meldest`
 
@@ -1180,7 +1180,7 @@
 ### 97. `b1-trenn-in-047` · input-text
 
 **Aufgabe:**
-> Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)
+> Er ___ die wichtige E-Mail sofort ab. (Trennbares Verb)
 
 **Antwort:** `schickt`
 
@@ -1190,7 +1190,7 @@
 ### 98. `b1-trenn-in-048` · input-text
 
 **Aufgabe:**
-> Ich ___ morgen früh um sechs auf. (Trennbares Verb + Verb aufstehen)
+> Ich ___ morgen früh um sechs auf. (Trennbares Verb)
 
 **Antwort:** `stehe`
 
@@ -1200,7 +1200,7 @@
 ### 99. `b1-trenn-in-049` · input-text
 
 **Aufgabe:**
-> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb + Verb vorverlegen)
+> Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb)
 
 **Antwort:** `verlegen`
 
@@ -1210,7 +1210,7 @@
 ### 100. `b1-trenn-in-050` · input-text
 
 **Aufgabe:**
-> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb + Verb ausmachen)
+> Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb)
 
 **Antwort:** `macht`
 
@@ -1222,7 +1222,7 @@
 ### 101. `b1-trenn-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmeldeen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Wann · meldest · du · dich · für · den · Kurs · an
 
@@ -1232,9 +1232,9 @@
 ### 102. `b1-trenn-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmelden)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · schickt · die · wichtige · E-Mail · sofort · an
+**Wörter:** Er · schickt · die · wichtige · E-Mail · sofort · ab
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1242,7 +1242,7 @@
 ### 103. `b1-trenn-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb aufstehen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Ich · stehe · morgen · früh · um · sechs · auf
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-trenn-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorverlegen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Wir · verlegen · das · Meeting · auf · nächste · Woche · vor
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-trenn-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausmachen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Sie · macht · das · Licht · aus · wenn · sie · geht
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-trenn-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb absagen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Er · sagt · den · Termin · leider · ab
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-trenn-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb sich freuen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Ich · freue · mich · über · das · Ergebnis
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-trenn-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb freuen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Wir · freuen · uns · schon · auf · die · Reise
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-trenn-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausfüllen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Du · füllst · das · Formular · online · aus
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-trenn-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb durchgehen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Er · geht · die · Nachrichten · jeden · Morgen · durch
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-trenn-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einchecken)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Sie · checkt · um · 22 · Uhr · ein
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-trenn-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmelden)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Ich · rufe · den · Kollegen · später · an
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-trenn-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ansprechen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Wir · sprechen · das · Problem · im · Team · an
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-trenn-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorbereiten)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Er · bereitet · die · Präsentation · gut · vor
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-trenn-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einreichen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Sie · reicht · die · Rechnung · sofort · ein
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-trenn-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmeldeen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
 **Wörter:** Wann · meldest · du · dich · für · den · Kurs · an
 
@@ -1382,9 +1382,9 @@
 ### 117. `b1-trenn-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb abschicken)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · schickt · die · wichtige · E-Mail · sofort · an
+**Wörter:** Er · schickt · die · wichtige · E-Mail · sofort · ab
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1392,9 +1392,9 @@
 ### 118. `b1-trenn-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb aufstehen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Wann · meldest · du · dich · für · den · Kurs · an
+**Wörter:** Ich · stehe · morgen · früh · um · sechs · auf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1402,9 +1402,9 @@
 ### 119. `b1-trenn-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorverlegen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · schickt · die · wichtige · E-Mail · sofort · an
+**Wörter:** Wir · verlegen · das · Meeting · auf · nächste · Woche · vor
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,9 +1412,9 @@
 ### 120. `b1-trenn-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausmachen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Ich · stehe · morgen · früh · um · sechs · auf
+**Wörter:** Sie · macht · das · Licht · aus · wenn · sie · geht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1422,9 +1422,9 @@
 ### 121. `b1-trenn-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb absagen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Wir · verlegen · das · Meeting · auf · nächste · Woche · vor
+**Wörter:** Er · sagt · den · Termin · leider · ab
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1432,9 +1432,9 @@
 ### 122. `b1-trenn-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb sich freuen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Sie · macht · das · Licht · aus · wenn · sie · geht
+**Wörter:** Ich · freue · mich · über · das · Ergebnis
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1442,9 +1442,9 @@
 ### 123. `b1-trenn-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb freuen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · sagt · den · Termin · leider · ab
+**Wörter:** Wir · freuen · uns · schon · auf · die · Reise
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `b1-trenn-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausfüllen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Ich · freue · mich · über · das · Ergebnis
+**Wörter:** Du · füllst · das · Formular · online · aus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,9 +1462,9 @@
 ### 125. `b1-trenn-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb durchgehen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Wir · freuen · uns · schon · auf · die · Reise
+**Wörter:** Er · geht · die · Nachrichten · jeden · Morgen · durch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1472,9 +1472,9 @@
 ### 126. `b1-trenn-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einchecken)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Du · füllst · das · Formular · online · aus
+**Wörter:** Sie · checkt · um · 22 · Uhr · ein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,9 +1482,9 @@
 ### 127. `b1-trenn-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmelden)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · geht · die · Nachrichten · jeden · Morgen · durch
+**Wörter:** Ich · rufe · den · Kollegen · später · an
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `b1-trenn-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ansprechen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Sie · checkt · um · 22 · Uhr · ein
+**Wörter:** Wir · sprechen · das · Problem · im · Team · an
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `b1-trenn-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorbereiteen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Ich · rufe · den · Kollegen · später · an
+**Wörter:** Er · bereitet · die · Präsentation · gut · vor
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `b1-trenn-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einchecken)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Wir · sprechen · das · Problem · im · Team · an
+**Wörter:** Sie · reicht · die · Rechnung · sofort · ein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1524,7 +1524,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · bereitet · die · Präsentation · gut · vor
+**Wörter:** Wann · meldest · du · dich · für · den · Kurs · an
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `b1-trenn-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb abschicken)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Sie · reicht · die · Rechnung · sofort · ein
+**Wörter:** Er · schickt · die · wichtige · E-Mail · sofort · ab
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `b1-trenn-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb aufstehen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Wann · meldest · du · dich · für · den · Kurs · an
+**Wörter:** Ich · stehe · morgen · früh · um · sechs · auf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1552,9 +1552,9 @@
 ### 134. `b1-trenn-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorverlegen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · schickt · die · wichtige · E-Mail · sofort · an
+**Wörter:** Wir · verlegen · das · Meeting · auf · nächste · Woche · vor
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,9 +1562,9 @@
 ### 135. `b1-trenn-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausmachen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Wann · meldest · du · dich · für · den · Kurs · an
+**Wörter:** Sie · macht · das · Licht · aus · wenn · sie · geht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `b1-trenn-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb absagen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · schickt · die · wichtige · E-Mail · sofort · an
+**Wörter:** Er · sagt · den · Termin · leider · ab
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,9 +1582,9 @@
 ### 137. `b1-trenn-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb sich freuen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Ich · stehe · morgen · früh · um · sechs · auf
+**Wörter:** Ich · freue · mich · über · das · Ergebnis
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1592,9 +1592,9 @@
 ### 138. `b1-trenn-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb freuen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Wir · verlegen · das · Meeting · auf · nächste · Woche · vor
+**Wörter:** Wir · freuen · uns · schon · auf · die · Reise
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `b1-trenn-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausmachen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Sie · macht · das · Licht · aus · wenn · sie · geht
+**Wörter:** Du · füllst · das · Formular · online · aus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1612,9 +1612,9 @@
 ### 140. `b1-trenn-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb durchgehen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · sagt · den · Termin · leider · ab
+**Wörter:** Er · geht · die · Nachrichten · jeden · Morgen · durch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `b1-trenn-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einchecken)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Ich · freue · mich · über · das · Ergebnis
+**Wörter:** Sie · checkt · um · 22 · Uhr · ein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,9 +1632,9 @@
 ### 142. `b1-trenn-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmelden)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Wir · freuen · uns · schon · auf · die · Reise
+**Wörter:** Ich · rufe · den · Kollegen · später · an
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1642,9 +1642,9 @@
 ### 143. `b1-trenn-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb sprechen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Du · füllst · das · Formular · online · aus
+**Wörter:** Wir · sprechen · das · Problem · im · Team · an
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `b1-trenn-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorbereiteen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · geht · die · Nachrichten · jeden · Morgen · durch
+**Wörter:** Er · bereitet · die · Präsentation · gut · vor
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `b1-trenn-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einreichen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Sie · checkt · um · 22 · Uhr · ein
+**Wörter:** Sie · reicht · die · Rechnung · sofort · ein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `b1-trenn-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmeldeen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Ich · rufe · den · Kollegen · später · an
+**Wörter:** Wann · meldest · du · dich · für · den · Kurs · an
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,9 +1682,9 @@
 ### 147. `b1-trenn-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb abschicken)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Wir · sprechen · das · Problem · im · Team · an
+**Wörter:** Er · schickt · die · wichtige · E-Mail · sofort · ab
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-trenn-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb aufstehen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Er · bereitet · die · Präsentation · gut · vor
+**Wörter:** Ich · stehe · morgen · früh · um · sechs · auf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,9 +1702,9 @@
 ### 149. `b1-trenn-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorverlegen)
+> Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Sie · reicht · die · Rechnung · sofort · ein
+**Wörter:** Wir · verlegen · das · Meeting · auf · nächste · Woche · vor
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1714,7 +1714,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Trennbares Verb)
 
-**Wörter:** Wann · meldest · du · dich · für · den · Kurs · an
+**Wörter:** Sie · macht · das · Licht · aus · wenn · sie · geht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

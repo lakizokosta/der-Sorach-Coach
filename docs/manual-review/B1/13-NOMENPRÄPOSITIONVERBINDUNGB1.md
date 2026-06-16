@@ -88,7 +88,7 @@
 ### 6. `b1-npv-006` · select-one
 
 **Aufgabe:**
-> Sie hat Lust ___ einer Reise nach Spanien. (Nomen + Präposition)
+> Sie hat Lust ___ eine Reise nach Spanien. (Nomen + Präposition)
 
 **Optionen:**
 - in
@@ -298,7 +298,7 @@
 ### 21. `b1-npv-021` · select-one
 
 **Aufgabe:**
-> Sie hat Lust ___ einer Reise nach Spanien. (Nomen + Präposition)
+> Sie hat Lust ___ eine Reise nach Spanien. (Nomen + Präposition)
 
 **Optionen:**
 - in
@@ -508,7 +508,7 @@
 ### 36. `b1-npv-036` · select-one
 
 **Aufgabe:**
-> Sie hat Lust ___ einer Reise nach Spanien. (Nomen + Präposition)
+> Sie hat Lust ___ eine Reise nach Spanien. (Nomen + Präposition)
 
 **Optionen:**
 - an
@@ -770,7 +770,7 @@
 ### 56. `b1-npv-in-006` · input-text
 
 **Aufgabe:**
-> Sie hat Lust ___ einer Reise nach Spanien. (Nomen + Präposition)
+> Sie hat Lust ___ eine Reise nach Spanien. (Nomen + Präposition)
 
 **Antwort:** `auf`
 
@@ -920,7 +920,7 @@
 ### 71. `b1-npv-in-021` · input-text
 
 **Aufgabe:**
-> Sie hat Lust ___ einer Reise nach Spanien. (Nomen + Präposition)
+> Sie hat Lust ___ eine Reise nach Spanien. (Nomen + Präposition)
 
 **Antwort:** `auf`
 
@@ -1070,7 +1070,7 @@
 ### 86. `b1-npv-in-036` · input-text
 
 **Aufgabe:**
-> Sie hat Lust ___ einer Reise nach Spanien. (Nomen + Präposition)
+> Sie hat Lust ___ eine Reise nach Spanien. (Nomen + Präposition)
 
 **Antwort:** `auf`
 
@@ -1222,7 +1222,7 @@
 ### 101. `b1-npv-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Interesse an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · großes · Interesse · an · dem · neuen · Studiengang
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-npv-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Angst vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Angst · vor · der · Operation
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-npv-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Hoffnung auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Hoffnung · auf · bessere · Arbeitsbedingungen
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-npv-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Bedarf an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Die · Firma · hat · Bedarf · an · Fachkräften
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-npv-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Respekt vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Respekt · vor · erfahrenen · Kollegen
 
@@ -1272,9 +1272,9 @@
 ### 106. `b1-npv-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Lust auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
-**Wörter:** Sie · hat · Lust · auf · einer · Reise · nach · Spanien
+**Wörter:** Sie · hat · Lust · auf · eine · Reise · nach · Spanien
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1282,7 +1282,7 @@
 ### 107. `b1-npv-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Vertrauen in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Vertrauen · in · unser · Team
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-npv-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfolg bei)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Erfolg · bei · der · Prüfung
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-npv-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Zweifel an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Zweifel · an · der · neuen · Politik
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-npv-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Freude an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Freude · an · ihrer · Arbeit
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-npv-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Einfluss auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Anteil · an · dem · Erfolg · des · Teams
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-npv-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfahrung in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Die · Patientin · hat · Schmerzen · im · Rücken
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-npv-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Schmerzen im)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Einfluss · auf · die · Entscheidung
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-npv-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Anteil am)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Erfahrung · in · diesem · Bereich
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-npv-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Sorge um)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Angst · vor · großen · Hunden
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-npv-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Recht auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · großes · Interesse · an · dem · neuen · Studiengang
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-npv-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Bedarf an Pflegekräften)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Angst · vor · der · Operation
 
@@ -1392,7 +1392,7 @@
 ### 118. `b1-npv-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Interesse an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · großes · Interesse · an · dem · neuen · Studiengang
 
@@ -1402,7 +1402,7 @@
 ### 119. `b1-npv-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Angst vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Angst · vor · der · Operation
 
@@ -1412,7 +1412,7 @@
 ### 120. `b1-npv-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Hoffnung auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Hoffnung · auf · bessere · Arbeitsbedingungen
 
@@ -1422,7 +1422,7 @@
 ### 121. `b1-npv-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Bedarf an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Die · Firma · hat · Bedarf · an · Fachkräften
 
@@ -1432,7 +1432,7 @@
 ### 122. `b1-npv-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Respekt vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Respekt · vor · erfahrenen · Kollegen
 
@@ -1442,9 +1442,9 @@
 ### 123. `b1-npv-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Lust auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
-**Wörter:** Sie · hat · Lust · auf · einer · Reise · nach · Spanien
+**Wörter:** Sie · hat · Lust · auf · eine · Reise · nach · Spanien
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,7 +1452,7 @@
 ### 124. `b1-npv-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Vertrauen in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Vertrauen · in · unser · Team
 
@@ -1462,7 +1462,7 @@
 ### 125. `b1-npv-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfolg bei)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Erfolg · bei · der · Prüfung
 
@@ -1472,7 +1472,7 @@
 ### 126. `b1-npv-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Zweifel an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Zweifel · an · der · neuen · Politik
 
@@ -1482,7 +1482,7 @@
 ### 127. `b1-npv-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Freude an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Freude · an · ihrer · Arbeit
 
@@ -1492,7 +1492,7 @@
 ### 128. `b1-npv-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Einfluss auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Anteil · an · dem · Erfolg · des · Teams
 
@@ -1502,7 +1502,7 @@
 ### 129. `b1-npv-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfahrung in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Die · Patientin · hat · Schmerzen · im · Rücken
 
@@ -1512,7 +1512,7 @@
 ### 130. `b1-npv-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Schmerzen im)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Einfluss · auf · die · Entscheidung
 
@@ -1522,7 +1522,7 @@
 ### 131. `b1-npv-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Anteil am)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Erfahrung · in · diesem · Bereich
 
@@ -1532,7 +1532,7 @@
 ### 132. `b1-npv-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Sorge um)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Angst · vor · großen · Hunden
 
@@ -1542,7 +1542,7 @@
 ### 133. `b1-npv-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Recht auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · großes · Interesse · an · dem · neuen · Studiengang
 
@@ -1552,7 +1552,7 @@
 ### 134. `b1-npv-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Bedarf an Pflegekräften)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Angst · vor · der · Operation
 
@@ -1562,7 +1562,7 @@
 ### 135. `b1-npv-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Interesse an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · großes · Interesse · an · dem · neuen · Studiengang
 
@@ -1572,7 +1572,7 @@
 ### 136. `b1-npv-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Angst vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Angst · vor · der · Operation
 
@@ -1582,7 +1582,7 @@
 ### 137. `b1-npv-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Hoffnung auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Hoffnung · auf · bessere · Arbeitsbedingungen
 
@@ -1592,7 +1592,7 @@
 ### 138. `b1-npv-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Bedarf an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Die · Firma · hat · Bedarf · an · Fachkräften
 
@@ -1602,7 +1602,7 @@
 ### 139. `b1-npv-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Respekt vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Respekt · vor · erfahrenen · Kollegen
 
@@ -1612,9 +1612,9 @@
 ### 140. `b1-npv-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Lust auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
-**Wörter:** Sie · hat · Lust · auf · einer · Reise · nach · Spanien
+**Wörter:** Sie · hat · Lust · auf · eine · Reise · nach · Spanien
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,7 +1622,7 @@
 ### 141. `b1-npv-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Vertrauen in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Vertrauen · in · unser · Team
 
@@ -1632,7 +1632,7 @@
 ### 142. `b1-npv-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfolg bei)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Erfolg · bei · der · Prüfung
 
@@ -1642,7 +1642,7 @@
 ### 143. `b1-npv-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Zweifel an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Zweifel · an · der · neuen · Politik
 
@@ -1652,7 +1652,7 @@
 ### 144. `b1-npv-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Freude an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Freude · an · ihrer · Arbeit
 
@@ -1662,7 +1662,7 @@
 ### 145. `b1-npv-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Einfluss auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Anteil · an · dem · Erfolg · des · Teams
 
@@ -1672,7 +1672,7 @@
 ### 146. `b1-npv-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfahrung in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Die · Patientin · hat · Schmerzen · im · Rücken
 
@@ -1682,7 +1682,7 @@
 ### 147. `b1-npv-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Schmerzen im)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Einfluss · auf · die · Entscheidung
 
@@ -1692,7 +1692,7 @@
 ### 148. `b1-npv-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Anteil am)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Erfahrung · in · diesem · Bereich
 
@@ -1702,7 +1702,7 @@
 ### 149. `b1-npv-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Sorge um)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Angst · vor · großen · Hunden
 
@@ -1712,7 +1712,7 @@
 ### 150. `b1-npv-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Recht auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · großes · Interesse · an · dem · neuen · Studiengang
 

@@ -21,7 +21,7 @@
 **Optionen:**
 - trotzdem
 - deshalb **✓**
-- folglich
+- dagegen
 - dennoch
 
 - [ ] OK
@@ -30,7 +30,7 @@
 ### 2. `b2-kadv-002` · select-one
 
 **Aufgabe:**
-> Er war müde, ___ arbeitete er weiter. (Konjunktionaladverb)
+> Er war müde; ___ arbeitete er weiter. (Konjunktionaladverb)
 
 **Optionen:**
 - deshalb
@@ -268,7 +268,7 @@
 ### 19. `b2-kadv-019` · select-one
 
 **Aufgabe:**
-> Er war müde, ___ arbeitete er weiter. (Konjunktionaladverb)
+> Er war müde; ___ arbeitete er weiter. (Konjunktionaladverb)
 
 **Optionen:**
 - folglich
@@ -497,7 +497,7 @@
 **Optionen:**
 - trotzdem
 - außerdem
-- folglich
+- dagegen
 - deshalb **✓**
 
 - [ ] OK
@@ -506,7 +506,7 @@
 ### 36. `b2-kadv-036` · select-one
 
 **Aufgabe:**
-> Er war müde, ___ arbeitete er weiter. (Konjunktionaladverb)
+> Er war müde; ___ arbeitete er weiter. (Konjunktionaladverb)
 
 **Optionen:**
 - deshalb

@@ -61,13 +61,13 @@
 ### 4. `a1-pl-006` · select-one
 
 **Aufgabe:**
-> Plural von „das Kind"?
+> Plural von „der Stuhl"? (Pluralform)
 
 **Optionen:**
-- die Kind
-- die Kindern
-- die Kinds
-- die Kinder **✓**
+- die Stuhl
+- die Stuhs
+- die Stühlen
+- die Stühle **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -75,13 +75,13 @@
 ### 5. `a1-pl-007` · select-one
 
 **Aufgabe:**
-> Plural von „der Mann"?
+> Plural von „die Tasche"? (Pluralform)
 
 **Optionen:**
-- die Männern
-- die Manns
-- die Männer **✓**
-- die Mann
+- die Täschen
+- die Taschens
+- die Taschen **✓**
+- die Tasch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -89,7 +89,7 @@
 ### 6. `a1-pl-008` · select-one
 
 **Aufgabe:**
-> Plural von „die Frau"?
+> Plural von „die Frau"? (Pluralform)
 
 **Optionen:**
 - die Fraus
@@ -103,13 +103,13 @@
 ### 7. `a1-pl-009` · select-one
 
 **Aufgabe:**
-> Plural von „das Buch"?
+> Plural von „der Tisch"? (Pluralform)
 
 **Optionen:**
-- die Büchern
-- die Bücher **✓**
-- die Buch
-- die Buchs
+- die Tischen
+- die Tische **✓**
+- die Tisch
+- die Tischs
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -117,7 +117,7 @@
 ### 8. `a1-pl-010` · select-one
 
 **Aufgabe:**
-> Plural von „der Apfel"?
+> Plural von „der Apfel"? (Pluralform)
 
 **Optionen:**
 - die Apfeln
@@ -131,7 +131,7 @@
 ### 9. `a1-pl-011` · select-one
 
 **Aufgabe:**
-> Plural von „das Auto"?
+> Plural von „das Auto"? (Pluralform)
 
 **Optionen:**
 - die Auten
@@ -145,7 +145,7 @@
 ### 10. `a1-pl-012` · select-one
 
 **Aufgabe:**
-> Plural von „der Freund"?
+> Plural von „der Freund"? (Pluralform)
 
 **Optionen:**
 - die Freunden
@@ -159,7 +159,7 @@
 ### 11. `a1-pl-013` · select-one
 
 **Aufgabe:**
-> Plural von „die Stadt"?
+> Plural von „die Stadt"? (Pluralform)
 
 **Optionen:**
 - die Städten
@@ -173,7 +173,7 @@
 ### 12. `a1-pl-014` · select-one
 
 **Aufgabe:**
-> Plural von „das Hobby"?
+> Plural von „das Hobby"? (Pluralform)
 
 **Optionen:**
 - die Hobby
@@ -187,7 +187,7 @@
 ### 13. `a1-pl-015` · select-one
 
 **Aufgabe:**
-> Plural von „der Bus"?
+> Plural von „der Bus"? (Pluralform)
 
 **Optionen:**
 - die Buss
@@ -201,7 +201,7 @@
 ### 14. `a1-pl-016` · select-one
 
 **Aufgabe:**
-> Plural von „die Blume"?
+> Plural von „die Blume"? (Pluralform)
 
 **Optionen:**
 - die Blum
@@ -215,7 +215,7 @@
 ### 15. `a1-pl-017` · select-one
 
 **Aufgabe:**
-> Plural von „das Ei"?
+> Plural von „das Ei"? (Pluralform)
 
 **Optionen:**
 - die Ei
@@ -229,7 +229,7 @@
 ### 16. `a1-pl-018` · select-one
 
 **Aufgabe:**
-> Plural von „der Tag"?
+> Plural von „der Tag"? (Pluralform)
 
 **Optionen:**
 - die Tags
@@ -243,7 +243,7 @@
 ### 17. `a1-pl-019` · select-one
 
 **Aufgabe:**
-> Plural von „die Hand"?
+> Plural von „die Hand"? (Pluralform)
 
 **Optionen:**
 - die Händen
@@ -257,7 +257,7 @@
 ### 18. `a1-pl-020` · select-one
 
 **Aufgabe:**
-> Plural von „das Foto"?
+> Plural von „das Foto"? (Pluralform)
 
 **Optionen:**
 - die Fotosn
@@ -271,7 +271,7 @@
 ### 19. `a1-pl-021` · select-one
 
 **Aufgabe:**
-> Plural von „der Film"?
+> Plural von „der Film"? (Pluralform)
 
 **Optionen:**
 - die Film
@@ -285,7 +285,7 @@
 ### 20. `a1-pl-022` · select-one
 
 **Aufgabe:**
-> Plural von „die Lampe"?
+> Plural von „die Lampe"? (Pluralform)
 
 **Optionen:**
 - die Lamp
@@ -299,7 +299,7 @@
 ### 21. `a1-pl-023` · select-one
 
 **Aufgabe:**
-> Plural von „das Tier"?
+> Plural von „das Tier"? (Pluralform)
 
 **Optionen:**
 - die Tieren
@@ -313,7 +313,7 @@
 ### 22. `a1-pl-024` · select-one
 
 **Aufgabe:**
-> Plural von „der Zug"?
+> Plural von „der Zug"? (Pluralform)
 
 **Optionen:**
 - die Zug
@@ -327,7 +327,7 @@
 ### 23. `a1-pl-025` · select-one
 
 **Aufgabe:**
-> Plural von „die Uhr"?
+> Plural von „die Uhr"? (Pluralform)
 
 **Optionen:**
 - die Uhres
@@ -341,7 +341,7 @@
 ### 24. `a1-pl-026` · select-one
 
 **Aufgabe:**
-> Plural von „das Problem"?
+> Plural von „das Problem"? (Pluralform)
 
 **Optionen:**
 - die Problems
@@ -355,7 +355,7 @@
 ### 25. `a1-pl-027` · select-one
 
 **Aufgabe:**
-> Plural von „der Kuchen"?
+> Plural von „der Kuchen"? (Pluralform)
 
 **Optionen:**
 - die Kuchens
@@ -369,7 +369,7 @@
 ### 26. `a1-pl-028` · select-one
 
 **Aufgabe:**
-> Plural von „die Banane"?
+> Plural von „die Banane"? (Pluralform)
 
 **Optionen:**
 - die Banan
@@ -383,7 +383,7 @@
 ### 27. `a1-pl-029` · select-one
 
 **Aufgabe:**
-> Plural von „das Museum"?
+> Plural von „das Museum"? (Pluralform)
 
 **Optionen:**
 - die Museum
@@ -397,7 +397,7 @@
 ### 28. `a1-pl-030` · select-one
 
 **Aufgabe:**
-> Plural von „der Schüler"?
+> Plural von „der Schüler"? (Pluralform)
 
 **Optionen:**
 - die Schülers
@@ -411,12 +411,12 @@
 ### 29. `a1-pl-031` · select-one
 
 **Aufgabe:**
-> Plural von „die Pizza"?
+> Plural von „die Pizza"? (Pluralform)
 
 **Optionen:**
 - die Pizzens
 - die Pizzen **✓**
-- die Pizzas
+- die Pizzes
 - die Pizza
 
 - [ ] OK
@@ -425,7 +425,7 @@
 ### 30. `a1-pl-032` · select-one
 
 **Aufgabe:**
-> Plural von „das Brot"?
+> Plural von „das Brot"? (Pluralform)
 
 **Optionen:**
 - die Brot
@@ -439,7 +439,7 @@
 ### 31. `a1-pl-033` · select-one
 
 **Aufgabe:**
-> Plural von „der Park"?
+> Plural von „der Park"? (Pluralform)
 
 **Optionen:**
 - die Parke
@@ -453,7 +453,7 @@
 ### 32. `a1-pl-034` · select-one
 
 **Aufgabe:**
-> Plural von „die Straße"?
+> Plural von „die Straße"? (Pluralform)
 
 **Optionen:**
 - die Straßes
@@ -467,7 +467,7 @@
 ### 33. `a1-pl-035` · select-one
 
 **Aufgabe:**
-> Plural von „das Gemüse"?
+> Plural von „das Gemüse"? (Pluralform)
 
 **Optionen:**
 - die Gemüs
@@ -481,7 +481,7 @@
 ### 34. `a1-pl-036` · select-one
 
 **Aufgabe:**
-> Plural von „der Hund"?
+> Plural von „der Hund"? (Pluralform)
 
 **Optionen:**
 - die Hund
@@ -495,7 +495,7 @@
 ### 35. `a1-pl-037` · select-one
 
 **Aufgabe:**
-> Plural von „die Katze"?
+> Plural von „die Katze"? (Pluralform)
 
 **Optionen:**
 - die Katzes
@@ -509,7 +509,7 @@
 ### 36. `a1-pl-038` · select-one
 
 **Aufgabe:**
-> Plural von „das Glas"?
+> Plural von „das Glas"? (Pluralform)
 
 **Optionen:**
 - die Glas
@@ -523,7 +523,7 @@
 ### 37. `a1-pl-039` · select-one
 
 **Aufgabe:**
-> Plural von „der Baum"?
+> Plural von „der Baum"? (Pluralform)
 
 **Optionen:**
 - die Bäumen
@@ -537,7 +537,7 @@
 ### 38. `a1-pl-040` · select-one
 
 **Aufgabe:**
-> Plural von „die Sonne"?
+> Plural von „die Sonne"? (Pluralform)
 
 **Optionen:**
 - die Sonn
@@ -551,7 +551,7 @@
 ### 39. `a1-pl-041` · select-one
 
 **Aufgabe:**
-> Plural von „das Spiel"?
+> Plural von „das Spiel"? (Pluralform)
 
 **Optionen:**
 - die Spiel
@@ -565,7 +565,7 @@
 ### 40. `a1-pl-042` · select-one
 
 **Aufgabe:**
-> Plural von „der Computer"?
+> Plural von „der Computer"? (Pluralform)
 
 **Optionen:**
 - die Computers
@@ -579,7 +579,7 @@
 ### 41. `a1-pl-043` · select-one
 
 **Aufgabe:**
-> Plural von „die Idee"?
+> Plural von „die Idee"? (Pluralform)
 
 **Optionen:**
 - die Idees
@@ -593,7 +593,7 @@
 ### 42. `a1-pl-044` · select-one
 
 **Aufgabe:**
-> Plural von „das Ticket"?
+> Plural von „das Ticket"? (Pluralform)
 
 **Optionen:**
 - die Ticket
@@ -607,7 +607,7 @@
 ### 43. `a1-pl-045` · select-one
 
 **Aufgabe:**
-> Plural von „der Kaffee"?
+> Plural von „der Kaffee"? (Pluralform)
 
 **Optionen:**
 - die Kaffeen
@@ -621,13 +621,13 @@
 ### 44. `a1-pl-046` · select-one
 
 **Aufgabe:**
-> Plural von „der Mann"?
+> Plural von „der Tee"? (Pluralform)
 
 **Optionen:**
-- die Mann
-- die Manns
-- die Männern
-- die Männer **✓**
+- die Tee
+- die Tean
+- die Teesn
+- die Tees **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -635,13 +635,13 @@
 ### 45. `a1-pl-047` · select-one
 
 **Aufgabe:**
-> Plural von „die Frau"?
+> Plural von „die Tomate"? (Pluralform)
 
 **Optionen:**
-- die Frauens
-- die Frauen **✓**
-- die Frau
-- die Fraus
+- die Tomatens
+- die Tomaten **✓**
+- die Tomates
+- die Tomat
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -649,13 +649,13 @@
 ### 46. `a1-pl-048` · select-one
 
 **Aufgabe:**
-> Plural von „der Tee"?
+> Plural von „der Salat"? (Pluralform)
 
 **Optionen:**
-- die Tee
-- die Tees **✓**
-- die Teesn
-- die Tean
+- die Salat
+- die Salate **✓**
+- die Saläte
+- die Salats
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -663,13 +663,13 @@
 ### 47. `a1-pl-049` · select-one
 
 **Aufgabe:**
-> Plural von „die Tomate"?
+> Plural von „der Brief"? (Pluralform)
 
 **Optionen:**
-- die Tomat
-- die Tomates
-- die Tomaten **✓**
-- die Tomatens
+- die Brief
+- die Briefs
+- die Briefe **✓**
+- die Briefen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -677,13 +677,13 @@
 ### 48. `a1-pl-050` · select-one
 
 **Aufgabe:**
-> Plural von „das Auto"?
+> Plural von „das Handy"? (Pluralform)
 
 **Optionen:**
-- die Auto
-- die Autosn
-- die Auten
-- die Autos **✓**
+- die Handy
+- die Handysen
+- die Handysn
+- die Handys **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -768,9 +768,9 @@
 ### 55. `a1-pl-4` · input-text
 
 **Aufgabe:**
-> Plural von „die Stadt“: ___ (Pluralform)
+> In Europa gibt es viele alte ___. (Plural von: die Stadt)
 
-**Antwort:** `die Städte`
+**Antwort:** `Städte`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1260,7 +1260,7 @@
 ### 104. `a1-pl-dd-002` · dropbox
 
 **Aufgabe:**
-> [Stadt] Ordne die Wörter zum richtigen Satz: (Plural — die Männer)
+> [Arbeit] Ordne die Wörter zum richtigen Satz: (Plural — die Männer)
 
 **Wörter:** Die · Männer · arbeiten · hier
 
@@ -1562,7 +1562,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Plural — die Termine)
 
-**Wörter:** Die · Termine · sind · voll
+**Wörter:** Die · Termine · sind · wichtig
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

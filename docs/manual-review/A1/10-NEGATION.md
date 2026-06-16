@@ -35,9 +35,9 @@
 > Ich habe ___ Hunger. (Negation)
 
 **Optionen:**
-- kein **✓**
+- kein
 - keine
-- keinen
+- keinen **✓**
 - nicht
 
 - [ ] OK
@@ -287,10 +287,10 @@
 > Ich spiele ___ Gitarre. (Negation)
 
 **Optionen:**
-- nicht
-- keine **✓**
-- keinen
 - kein
+- nicht **✓**
+- keinen
+- keine
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -497,10 +497,10 @@
 > Ich spiele ___ Gitarre. (Negation)
 
 **Optionen:**
-- kein
+- keine
 - keinen
-- keine **✓**
-- nicht
+- nicht **✓**
+- kein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -707,10 +707,10 @@
 > Ich spiele ___ Gitarre. (Negation)
 
 **Optionen:**
+- keine
 - kein
-- nicht
 - keinen
-- keine **✓**
+- nicht **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,9 +1332,9 @@
 ### 112. `a1-neg-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Negation — nicht heute)
+> [Freunde] Ordne die Wörter zum richtigen Satz: (Negation — nicht heute)
 
-**Wörter:** Er · kommt · nicht · heute
+**Wörter:** Er · kommt · heute · nicht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

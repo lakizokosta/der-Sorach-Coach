@@ -88,7 +88,7 @@
 ### 6. `b1-adj-006` · select-one
 
 **Aufgabe:**
-> Er diskutiert mit einer ___ Politikerin. (Adj. — erfahren, fem., Dat.)
+> Er diskutiert mit einer ___ Politikerin. (Adjektivendung)
 
 **Optionen:**
 - erfahrene
@@ -102,7 +102,7 @@
 ### 7. `b1-adj-007` · select-one
 
 **Aufgabe:**
-> In einem ___ Krankenhaus gibt es moderne Geräte. (Adj. — groß, neutr., Dat.)
+> In einem ___ Krankenhaus gibt es moderne Geräte. (Adjektivendung)
 
 **Optionen:**
 - großer
@@ -116,7 +116,7 @@
 ### 8. `b1-adj-008` · select-one
 
 **Aufgabe:**
-> Die Zeitung berichtet über eine ___ Entwicklung. (Adj. — aktuell, fem., Akk.)
+> Die Zeitung berichtet über eine ___ Entwicklung. (Adjektivendung)
 
 **Optionen:**
 - aktuellen
@@ -130,7 +130,7 @@
 ### 9. `b1-adj-009` · select-one
 
 **Aufgabe:**
-> Trotz ___ Preises buchen viele die Reise. (Adj. — hoch, mask., Gen.)
+> Trotz ___ Preises buchen viele die Reise. (Adjektivendung)
 
 **Optionen:**
 - hoher
@@ -144,7 +144,7 @@
 ### 10. `b1-adj-010` · select-one
 
 **Aufgabe:**
-> Wir sprechen mit einem ___ Professor über das Projekt. (Adj. — neu, mask., Dat.)
+> Wir sprechen mit einem ___ Professor über das Projekt. (Adjektivendung)
 
 **Optionen:**
 - neue
@@ -158,7 +158,7 @@
 ### 11. `b1-adj-011` · select-one
 
 **Aufgabe:**
-> Die ___ Konferenz beginnt morgen. (Adj. — international, fem., Nom.)
+> Die ___ Konferenz beginnt morgen. (Adjektivendung)
 
 **Optionen:**
 - internationaler
@@ -172,7 +172,7 @@
 ### 12. `b1-adj-012` · select-one
 
 **Aufgabe:**
-> Er hat einen ___ Rat für meine Bewerbung. (Adj. — gut, mask., Akk.)
+> Er hat einen ___ Rat für meine Bewerbung. (Adjektivendung)
 
 **Optionen:**
 - gutes
@@ -186,7 +186,7 @@
 ### 13. `b1-adj-013` · select-one
 
 **Aufgabe:**
-> In einer ___ Gegend der Stadt wohnt die Familie. (Adj. — ruhig, fem., Dat.)
+> In einer ___ Gegend der Stadt wohnt die Familie. (Adjektivendung)
 
 **Optionen:**
 - ruhiger
@@ -200,7 +200,7 @@
 ### 14. `b1-adj-014` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Thema in der Politik. (Adj. — wichtig, neutr., Nom.)
+> Das ist ein ___ Thema in der Politik. (Adjektivendung)
 
 **Optionen:**
 - wichtiger
@@ -214,7 +214,7 @@
 ### 15. `b1-adj-015` · select-one
 
 **Aufgabe:**
-> Sie reist mit ___ Gepäck nach Italien. (Adj. — klein, neutr., Dat.)
+> Sie reist mit ___ Gepäck nach Italien. (Adjektivendung)
 
 **Optionen:**
 - kleine
@@ -228,7 +228,7 @@
 ### 16. `b1-adj-016` · select-one
 
 **Aufgabe:**
-> In einem ___ Büro arbeiten viele junge Kollegen. (Adj. — modern, mask., Dat.)
+> In einem ___ Büro arbeiten viele junge Kollegen. (Adjektivendung)
 
 **Optionen:**
 - modernes
@@ -242,7 +242,7 @@
 ### 17. `b1-adj-017` · select-one
 
 **Aufgabe:**
-> Der Chef präsentiert einen ___ Bericht vor der Abteilung. (Adj. — wichtig, mask., Akk.)
+> Der Chef präsentiert einen ___ Bericht vor der Abteilung. (Adjektivendung)
 
 **Optionen:**
 - wichtiger
@@ -256,7 +256,7 @@
 ### 18. `b1-adj-018` · select-one
 
 **Aufgabe:**
-> Der ___ Studiengang an der Universität ist sehr beliebt. (Adj. — neu, mask., Nom.)
+> Der ___ Studiengang an der Universität ist sehr beliebt. (Adjektivendung)
 
 **Optionen:**
 - neuen
@@ -270,7 +270,7 @@
 ### 19. `b1-adj-019` · select-one
 
 **Aufgabe:**
-> Sie liest einen ___ Artikel über Umweltschutz. (Adj. — interessant, mask., Akk.)
+> Sie liest einen ___ Artikel über Umweltschutz. (Adjektivendung)
 
 **Optionen:**
 - interessanter
@@ -284,7 +284,7 @@
 ### 20. `b1-adj-020` · select-one
 
 **Aufgabe:**
-> Wegen ___ Wetters fällt die Reise aus. (Adj. — schlecht, neutr., Gen.)
+> Wegen ___ Wetters fällt die Reise aus. (Adjektivendung)
 
 **Optionen:**
 - schlechte
@@ -298,7 +298,7 @@
 ### 21. `b1-adj-021` · select-one
 
 **Aufgabe:**
-> Er diskutiert mit einer ___ Politikerin. (Adj. — erfahren, fem., Dat.)
+> Er diskutiert mit einer ___ Politikerin. (Adjektivendung)
 
 **Optionen:**
 - erfahrener
@@ -312,7 +312,7 @@
 ### 22. `b1-adj-022` · select-one
 
 **Aufgabe:**
-> In einem ___ Krankenhaus gibt es moderne Geräte. (Adj. — groß, neutr., Dat.)
+> In einem ___ Krankenhaus gibt es moderne Geräte. (Adjektivendung)
 
 **Optionen:**
 - große
@@ -326,7 +326,7 @@
 ### 23. `b1-adj-023` · select-one
 
 **Aufgabe:**
-> Die Zeitung berichtet über eine ___ Entwicklung. (Adj. — aktuell, fem., Akk.)
+> Die Zeitung berichtet über eine ___ Entwicklung. (Adjektivendung)
 
 **Optionen:**
 - aktuellem
@@ -340,7 +340,7 @@
 ### 24. `b1-adj-024` · select-one
 
 **Aufgabe:**
-> Trotz ___ Preises buchen viele die Reise. (Adj. — hoch, mask., Gen.)
+> Trotz ___ Preises buchen viele die Reise. (Adjektivendung)
 
 **Optionen:**
 - hohe
@@ -354,7 +354,7 @@
 ### 25. `b1-adj-025` · select-one
 
 **Aufgabe:**
-> Wir sprechen mit einem ___ Professor über das Projekt. (Adj. — neu, mask., Dat.)
+> Wir sprechen mit einem ___ Professor über das Projekt. (Adjektivendung)
 
 **Optionen:**
 - neuer
@@ -368,7 +368,7 @@
 ### 26. `b1-adj-026` · select-one
 
 **Aufgabe:**
-> Die ___ Konferenz beginnt morgen. (Adj. — international, fem., Nom.)
+> Die ___ Konferenz beginnt morgen. (Adjektivendung)
 
 **Optionen:**
 - internationalen
@@ -382,7 +382,7 @@
 ### 27. `b1-adj-027` · select-one
 
 **Aufgabe:**
-> Er hat einen ___ Rat für meine Bewerbung. (Adj. — gut, mask., Akk.)
+> Er hat einen ___ Rat für meine Bewerbung. (Adjektivendung)
 
 **Optionen:**
 - guter
@@ -396,7 +396,7 @@
 ### 28. `b1-adj-028` · select-one
 
 **Aufgabe:**
-> In einer ___ Gegend der Stadt wohnt die Familie. (Adj. — ruhig, fem., Dat.)
+> In einer ___ Gegend der Stadt wohnt die Familie. (Adjektivendung)
 
 **Optionen:**
 - ruhiges
@@ -410,7 +410,7 @@
 ### 29. `b1-adj-029` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Thema in der Politik. (Adj. — wichtig, neutr., Nom.)
+> Das ist ein ___ Thema in der Politik. (Adjektivendung)
 
 **Optionen:**
 - wichtiger
@@ -424,7 +424,7 @@
 ### 30. `b1-adj-030` · select-one
 
 **Aufgabe:**
-> Sie reist mit ___ Gepäck nach Italien. (Adj. — klein, neutr., Dat.)
+> Sie reist mit ___ Gepäck nach Italien. (Adjektivendung)
 
 **Optionen:**
 - kleinen
@@ -438,7 +438,7 @@
 ### 31. `b1-adj-031` · select-one
 
 **Aufgabe:**
-> In einem ___ Büro arbeiten viele junge Kollegen. (Adj. — modern, mask., Dat.)
+> In einem ___ Büro arbeiten viele junge Kollegen. (Adjektivendung)
 
 **Optionen:**
 - modernem
@@ -452,7 +452,7 @@
 ### 32. `b1-adj-032` · select-one
 
 **Aufgabe:**
-> Der Chef präsentiert einen ___ Bericht vor der Abteilung. (Adj. — wichtig, mask., Akk.)
+> Der Chef präsentiert einen ___ Bericht vor der Abteilung. (Adjektivendung)
 
 **Optionen:**
 - wichtiges
@@ -466,7 +466,7 @@
 ### 33. `b1-adj-033` · select-one
 
 **Aufgabe:**
-> Der ___ Studiengang an der Universität ist sehr beliebt. (Adj. — neu, mask., Nom.)
+> Der ___ Studiengang an der Universität ist sehr beliebt. (Adjektivendung)
 
 **Optionen:**
 - neuen
@@ -480,7 +480,7 @@
 ### 34. `b1-adj-034` · select-one
 
 **Aufgabe:**
-> Sie liest einen ___ Artikel über Umweltschutz. (Adj. — interessant, mask., Akk.)
+> Sie liest einen ___ Artikel über Umweltschutz. (Adjektivendung)
 
 **Optionen:**
 - interessante
@@ -494,7 +494,7 @@
 ### 35. `b1-adj-035` · select-one
 
 **Aufgabe:**
-> Wegen ___ Wetters fällt die Reise aus. (Adj. — schlecht, neutr., Gen.)
+> Wegen ___ Wetters fällt die Reise aus. (Adjektivendung)
 
 **Optionen:**
 - schlechter
@@ -508,7 +508,7 @@
 ### 36. `b1-adj-036` · select-one
 
 **Aufgabe:**
-> Er diskutiert mit einer ___ Politikerin. (Adj. — erfahren, fem., Dat.)
+> Er diskutiert mit einer ___ Politikerin. (Adjektivendung)
 
 **Optionen:**
 - erfahrenes
@@ -522,7 +522,7 @@
 ### 37. `b1-adj-037` · select-one
 
 **Aufgabe:**
-> In einem ___ Krankenhaus gibt es moderne Geräte. (Adj. — groß, neutr., Dat.)
+> In einem ___ Krankenhaus gibt es moderne Geräte. (Adjektivendung)
 
 **Optionen:**
 - großer
@@ -536,7 +536,7 @@
 ### 38. `b1-adj-038` · select-one
 
 **Aufgabe:**
-> Die Zeitung berichtet über eine ___ Entwicklung. (Adj. — aktuell, fem., Akk.)
+> Die Zeitung berichtet über eine ___ Entwicklung. (Adjektivendung)
 
 **Optionen:**
 - aktueller
@@ -550,7 +550,7 @@
 ### 39. `b1-adj-039` · select-one
 
 **Aufgabe:**
-> Trotz ___ Preises buchen viele die Reise. (Adj. — hoch, mask., Gen.)
+> Trotz ___ Preises buchen viele die Reise. (Adjektivendung)
 
 **Optionen:**
 - hoher
@@ -564,7 +564,7 @@
 ### 40. `b1-adj-040` · select-one
 
 **Aufgabe:**
-> Wir sprechen mit einem ___ Professor über das Projekt. (Adj. — neu, mask., Dat.)
+> Wir sprechen mit einem ___ Professor über das Projekt. (Adjektivendung)
 
 **Optionen:**
 - neue
@@ -578,7 +578,7 @@
 ### 41. `b1-adj-041` · select-one
 
 **Aufgabe:**
-> Die ___ Konferenz beginnt morgen. (Adj. — international, fem., Nom.)
+> Die ___ Konferenz beginnt morgen. (Adjektivendung)
 
 **Optionen:**
 - internationaler
@@ -592,7 +592,7 @@
 ### 42. `b1-adj-042` · select-one
 
 **Aufgabe:**
-> Er hat einen ___ Rat für meine Bewerbung. (Adj. — gut, mask., Akk.)
+> Er hat einen ___ Rat für meine Bewerbung. (Adjektivendung)
 
 **Optionen:**
 - gute
@@ -606,7 +606,7 @@
 ### 43. `b1-adj-043` · select-one
 
 **Aufgabe:**
-> In einer ___ Gegend der Stadt wohnt die Familie. (Adj. — ruhig, fem., Dat.)
+> In einer ___ Gegend der Stadt wohnt die Familie. (Adjektivendung)
 
 **Optionen:**
 - ruhiger
@@ -620,7 +620,7 @@
 ### 44. `b1-adj-044` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Thema in der Politik. (Adj. — wichtig, neutr., Nom.)
+> Das ist ein ___ Thema in der Politik. (Adjektivendung)
 
 **Optionen:**
 - wichtigen
@@ -634,7 +634,7 @@
 ### 45. `b1-adj-045` · select-one
 
 **Aufgabe:**
-> Sie reist mit ___ Gepäck nach Italien. (Adj. — klein, neutr., Dat.)
+> Sie reist mit ___ Gepäck nach Italien. (Adjektivendung)
 
 **Optionen:**
 - kleine
@@ -648,7 +648,7 @@
 ### 46. `b1-adj-046` · select-one
 
 **Aufgabe:**
-> In einem ___ Büro arbeiten viele junge Kollegen. (Adj. — modern, mask., Dat.)
+> In einem ___ Büro arbeiten viele junge Kollegen. (Adjektivendung)
 
 **Optionen:**
 - moderner
@@ -662,7 +662,7 @@
 ### 47. `b1-adj-047` · select-one
 
 **Aufgabe:**
-> Der Chef präsentiert einen ___ Bericht vor der Abteilung. (Adj. — wichtig, mask., Akk.)
+> Der Chef präsentiert einen ___ Bericht vor der Abteilung. (Adjektivendung)
 
 **Optionen:**
 - wichtiger
@@ -676,7 +676,7 @@
 ### 48. `b1-adj-048` · select-one
 
 **Aufgabe:**
-> Der ___ Studiengang an der Universität ist sehr beliebt. (Adj. — neu, mask., Nom.)
+> Der ___ Studiengang an der Universität ist sehr beliebt. (Adjektivendung)
 
 **Optionen:**
 - neuer
@@ -690,7 +690,7 @@
 ### 49. `b1-adj-049` · select-one
 
 **Aufgabe:**
-> Sie liest einen ___ Artikel über Umweltschutz. (Adj. — interessant, mask., Akk.)
+> Sie liest einen ___ Artikel über Umweltschutz. (Adjektivendung)
 
 **Optionen:**
 - interessanter
@@ -704,7 +704,7 @@
 ### 50. `b1-adj-050` · select-one
 
 **Aufgabe:**
-> Wegen ___ Wetters fällt die Reise aus. (Adj. — schlecht, neutr., Gen.)
+> Wegen ___ Wetters fällt die Reise aus. (Adjektivendung)
 
 **Optionen:**
 - schlechter
@@ -1222,7 +1222,7 @@
 ### 101. `b1-adj-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtigen Bericht)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einem · modernen · Büro · arbeiten · viele · junge · Kollegen
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-adj-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — modernen Büro)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Der · Chef · präsentiert · einen · wichtigen · Bericht · vor · der · Abteilung
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-adj-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — interessanten Artikel)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Der · neue · Studiengang · an · der · Universität · ist · sehr · beliebt
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-adj-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — hohen Preises)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Sie · liest · einen · interessanten · Artikel · über · Umweltschutz
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-adj-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — schlechten Wetters)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Wegen · schlechten · Wetters · fällt · die · Reise · aus
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-adj-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — erfahrenen Politikerin)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Er · diskutiert · mit · einer · erfahrenen · Politikerin
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-adj-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — internationale Konferenz)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einem · großen · Krankenhaus · gibt · es · moderne · Geräte
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-adj-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtiges Thema)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Die · Zeitung · berichtet · über · eine · aktuelle · Entwicklung
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-adj-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — kleinem Gepäck)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Trotz · hohen · Preises · buchen · viele · die · Reise
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-adj-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — großen Krankenhaus)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Wir · sprechen · mit · einem · neuen · Professor · über · das · Projekt
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-adj-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neue Studiengang)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Die · internationale · Konferenz · beginnt · morgen
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-adj-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neuen Professor)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Er · hat · einen · guten · Rat · für · meine · Bewerbung
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-adj-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — ruhigen Gegend)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einer · ruhigen · Gegend · der · Stadt · wohnt · die · Familie
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-adj-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — guten Rat)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Das · ist · ein · wichtiges · Thema · in · der · Politik
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-adj-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — aktuelle Entwicklung)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Sie · reist · mit · kleinem · Gepäck · nach · Italien
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-adj-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neuem Auto)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einem · modernen · Büro · arbeiten · viele · junge · Kollegen
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-adj-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — interessante Vorlesung)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Der · Chef · präsentiert · einen · wichtigen · Bericht · vor · der · Abteilung
 
@@ -1392,7 +1392,7 @@
 ### 118. `b1-adj-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtigen Bericht)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einem · modernen · Büro · arbeiten · viele · junge · Kollegen
 
@@ -1402,7 +1402,7 @@
 ### 119. `b1-adj-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — modernen Büro)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Der · Chef · präsentiert · einen · wichtigen · Bericht · vor · der · Abteilung
 
@@ -1412,7 +1412,7 @@
 ### 120. `b1-adj-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — interessanten Artikel)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Der · neue · Studiengang · an · der · Universität · ist · sehr · beliebt
 
@@ -1422,7 +1422,7 @@
 ### 121. `b1-adj-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — hohen Preises)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Sie · liest · einen · interessanten · Artikel · über · Umweltschutz
 
@@ -1432,7 +1432,7 @@
 ### 122. `b1-adj-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — schlechten Wetters)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Wegen · schlechten · Wetters · fällt · die · Reise · aus
 
@@ -1442,7 +1442,7 @@
 ### 123. `b1-adj-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — erfahrenen Politikerin)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Er · diskutiert · mit · einer · erfahrenen · Politikerin
 
@@ -1452,7 +1452,7 @@
 ### 124. `b1-adj-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — internationale Konferenz)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einem · großen · Krankenhaus · gibt · es · moderne · Geräte
 
@@ -1462,7 +1462,7 @@
 ### 125. `b1-adj-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtiges Thema)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Die · Zeitung · berichtet · über · eine · aktuelle · Entwicklung
 
@@ -1472,7 +1472,7 @@
 ### 126. `b1-adj-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — kleinem Gepäck)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Trotz · hohen · Preises · buchen · viele · die · Reise
 
@@ -1482,7 +1482,7 @@
 ### 127. `b1-adj-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — großen Krankenhaus)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Wir · sprechen · mit · einem · neuen · Professor · über · das · Projekt
 
@@ -1492,7 +1492,7 @@
 ### 128. `b1-adj-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neue Studiengang)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Die · internationale · Konferenz · beginnt · morgen
 
@@ -1502,7 +1502,7 @@
 ### 129. `b1-adj-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neuen Professor)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Er · hat · einen · guten · Rat · für · meine · Bewerbung
 
@@ -1512,7 +1512,7 @@
 ### 130. `b1-adj-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — ruhigen Gegend)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einer · ruhigen · Gegend · der · Stadt · wohnt · die · Familie
 
@@ -1522,7 +1522,7 @@
 ### 131. `b1-adj-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — guten Rat)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Das · ist · ein · wichtiges · Thema · in · der · Politik
 
@@ -1532,7 +1532,7 @@
 ### 132. `b1-adj-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — aktuelle Entwicklung)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Sie · reist · mit · kleinem · Gepäck · nach · Italien
 
@@ -1542,7 +1542,7 @@
 ### 133. `b1-adj-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neuem Auto)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einem · modernen · Büro · arbeiten · viele · junge · Kollegen
 
@@ -1552,7 +1552,7 @@
 ### 134. `b1-adj-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — interessante Vorlesung)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Der · Chef · präsentiert · einen · wichtigen · Bericht · vor · der · Abteilung
 
@@ -1562,7 +1562,7 @@
 ### 135. `b1-adj-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtigen Bericht)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einem · modernen · Büro · arbeiten · viele · junge · Kollegen
 
@@ -1572,7 +1572,7 @@
 ### 136. `b1-adj-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — modernen Büro)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Der · Chef · präsentiert · einen · wichtigen · Bericht · vor · der · Abteilung
 
@@ -1582,7 +1582,7 @@
 ### 137. `b1-adj-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — interessanten Artikel)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Der · neue · Studiengang · an · der · Universität · ist · sehr · beliebt
 
@@ -1592,7 +1592,7 @@
 ### 138. `b1-adj-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — hohen Preises)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Sie · liest · einen · interessanten · Artikel · über · Umweltschutz
 
@@ -1602,7 +1602,7 @@
 ### 139. `b1-adj-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — schlechten Wetters)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Wegen · schlechten · Wetters · fällt · die · Reise · aus
 
@@ -1612,7 +1612,7 @@
 ### 140. `b1-adj-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — erfahrenen Politikerin)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Er · diskutiert · mit · einer · erfahrenen · Politikerin
 
@@ -1622,7 +1622,7 @@
 ### 141. `b1-adj-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — internationale Konferenz)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einem · großen · Krankenhaus · gibt · es · moderne · Geräte
 
@@ -1632,7 +1632,7 @@
 ### 142. `b1-adj-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtiges Thema)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Die · Zeitung · berichtet · über · eine · aktuelle · Entwicklung
 
@@ -1642,7 +1642,7 @@
 ### 143. `b1-adj-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — kleinem Gepäck)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Trotz · hohen · Preises · buchen · viele · die · Reise
 
@@ -1652,7 +1652,7 @@
 ### 144. `b1-adj-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — großen Krankenhaus)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Wir · sprechen · mit · einem · neuen · Professor · über · das · Projekt
 
@@ -1662,7 +1662,7 @@
 ### 145. `b1-adj-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neue Studiengang)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Die · internationale · Konferenz · beginnt · morgen
 
@@ -1672,7 +1672,7 @@
 ### 146. `b1-adj-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neuen Professor)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Er · hat · einen · guten · Rat · für · meine · Bewerbung
 
@@ -1682,7 +1682,7 @@
 ### 147. `b1-adj-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — ruhigen Gegend)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einer · ruhigen · Gegend · der · Stadt · wohnt · die · Familie
 
@@ -1692,7 +1692,7 @@
 ### 148. `b1-adj-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — guten Rat)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Das · ist · ein · wichtiges · Thema · in · der · Politik
 
@@ -1702,7 +1702,7 @@
 ### 149. `b1-adj-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — aktuelle Entwicklung)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** Sie · reist · mit · kleinem · Gepäck · nach · Italien
 
@@ -1712,7 +1712,7 @@
 ### 150. `b1-adj-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neuem Auto)
+> Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)
 
 **Wörter:** In · einem · modernen · Büro · arbeiten · viele · junge · Kollegen
 

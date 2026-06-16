@@ -1222,7 +1222,7 @@
 ### 101. `b1-praeg-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — warte auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-praeg-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — denkt an)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Er · denkt · oft · an · seine · Zukunft
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-praeg-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — sprechen über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Wir · sprechen · über · das · neue · Gesetz
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-praeg-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — freut auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Sie · freut · sich · auf · die · Reise
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-praeg-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — interessiert für)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Er · interessiert · sich · für · Politik
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-praeg-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — erinnert an)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Ich · erinnere · mich · an · unseren · letzten · Urlaub
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-praeg-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — ärgert über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Sie · ärgert · sich · über · den · Fehler
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-praeg-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — hofft auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Wir · hoffen · auf · gutes · Wetter
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-praeg-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — fragt nach)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Er · fragt · nach · dem · Weg · zum · Krankenhaus
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-praeg-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — dankt für)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Ich · danke · für · deine · Hilfe
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-praeg-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — träumt von)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Sie · träumt · von · einer · Stelle · im · Ausland
 
@@ -1332,9 +1332,9 @@
 ### 112. `b1-praeg-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — diskutiert über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Wir · diskutieren · über · dem · Projekt
+**Wörter:** Wir · diskutieren · über · das · Projekt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1342,9 +1342,9 @@
 ### 113. `b1-praeg-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — wartet auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Er · wartet · auf · dem · Arzt
+**Wörter:** Er · wartet · auf · den · Arzt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1352,7 +1352,7 @@
 ### 114. `b1-praeg-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — besteht auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Ich · bestehe · auf · einer · klaren · Antwort
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-praeg-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — achtet auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Sie · achtet · auf · ihre · Gesundheit
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-praeg-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — konzentriert auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-praeg-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — informiert über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
 **Wörter:** Er · denkt · oft · an · seine · Zukunft
 
@@ -1392,9 +1392,9 @@
 ### 118. `b1-praeg-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — warte auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
+**Wörter:** Wir · sprechen · über · das · neue · Gesetz
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1402,9 +1402,9 @@
 ### 119. `b1-praeg-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — denkt an)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Er · denkt · oft · an · seine · Zukunft
+**Wörter:** Sie · freut · sich · auf · die · Reise
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,9 +1412,9 @@
 ### 120. `b1-praeg-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — sprechen über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Wir · sprechen · über · das · neue · Gesetz
+**Wörter:** Er · interessiert · sich · für · Politik
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1422,9 +1422,9 @@
 ### 121. `b1-praeg-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — freut auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Sie · freut · sich · auf · die · Reise
+**Wörter:** Ich · erinnere · mich · an · unseren · letzten · Urlaub
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1432,9 +1432,9 @@
 ### 122. `b1-praeg-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — interessiert für)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Er · interessiert · sich · für · Politik
+**Wörter:** Sie · ärgert · sich · über · den · Fehler
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1442,9 +1442,9 @@
 ### 123. `b1-praeg-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — erinnert an)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Ich · erinnere · mich · an · unseren · letzten · Urlaub
+**Wörter:** Wir · hoffen · auf · gutes · Wetter
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `b1-praeg-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — ärgert über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Sie · ärgert · sich · über · den · Fehler
+**Wörter:** Er · fragt · nach · dem · Weg · zum · Krankenhaus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,9 +1462,9 @@
 ### 125. `b1-praeg-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — hofft auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Wir · hoffen · auf · gutes · Wetter
+**Wörter:** Ich · danke · für · deine · Hilfe
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1472,9 +1472,9 @@
 ### 126. `b1-praeg-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — fragt nach)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Er · fragt · nach · dem · Weg · zum · Krankenhaus
+**Wörter:** Sie · träumt · von · einer · Stelle · im · Ausland
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,9 +1482,9 @@
 ### 127. `b1-praeg-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — dankt für)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Ich · danke · für · deine · Hilfe
+**Wörter:** Wir · diskutieren · über · das · Projekt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `b1-praeg-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — träumt von)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Sie · träumt · von · einer · Stelle · im · Ausland
+**Wörter:** Er · wartet · auf · den · Arzt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `b1-praeg-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — diskutiert über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Wir · diskutieren · über · dem · Projekt
+**Wörter:** Ich · bestehe · auf · einer · klaren · Antwort
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `b1-praeg-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — wartet auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Er · wartet · auf · dem · Arzt
+**Wörter:** Sie · achtet · auf · ihre · Gesundheit
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-praeg-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — besteht auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Ich · bestehe · auf · einer · klaren · Antwort
+**Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `b1-praeg-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — achtet auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Sie · achtet · auf · ihre · Gesundheit
+**Wörter:** Er · denkt · oft · an · seine · Zukunft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `b1-praeg-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — konzentriert auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
+**Wörter:** Wir · sprechen · über · das · neue · Gesetz
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1552,9 +1552,9 @@
 ### 134. `b1-praeg-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — informiert über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Er · denkt · oft · an · seine · Zukunft
+**Wörter:** Sie · freut · sich · auf · die · Reise
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,9 +1562,9 @@
 ### 135. `b1-praeg-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — warte auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
+**Wörter:** Er · interessiert · sich · für · Politik
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `b1-praeg-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — denkt an)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Er · denkt · oft · an · seine · Zukunft
+**Wörter:** Ich · erinnere · mich · an · unseren · letzten · Urlaub
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,9 +1582,9 @@
 ### 137. `b1-praeg-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — sprechen über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Wir · sprechen · über · das · neue · Gesetz
+**Wörter:** Sie · ärgert · sich · über · den · Fehler
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1592,9 +1592,9 @@
 ### 138. `b1-praeg-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — freut auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Sie · freut · sich · auf · die · Reise
+**Wörter:** Wir · hoffen · auf · gutes · Wetter
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `b1-praeg-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — interessiert für)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Er · interessiert · sich · für · Politik
+**Wörter:** Er · fragt · nach · dem · Weg · zum · Krankenhaus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1612,9 +1612,9 @@
 ### 140. `b1-praeg-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — erinnert an)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Ich · erinnere · mich · an · unseren · letzten · Urlaub
+**Wörter:** Ich · danke · für · deine · Hilfe
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `b1-praeg-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — ärgert über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Sie · ärgert · sich · über · den · Fehler
+**Wörter:** Sie · träumt · von · einer · Stelle · im · Ausland
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,9 +1632,9 @@
 ### 142. `b1-praeg-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — hofft auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Wir · hoffen · auf · gutes · Wetter
+**Wörter:** Wir · diskutieren · über · das · Projekt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1642,9 +1642,9 @@
 ### 143. `b1-praeg-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — fragt nach)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Er · fragt · nach · dem · Weg · zum · Krankenhaus
+**Wörter:** Er · wartet · auf · den · Arzt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `b1-praeg-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — dankt für)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Ich · danke · für · deine · Hilfe
+**Wörter:** Ich · bestehe · auf · einer · klaren · Antwort
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `b1-praeg-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — träumt von)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Sie · träumt · von · einer · Stelle · im · Ausland
+**Wörter:** Sie · achtet · auf · ihre · Gesundheit
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `b1-praeg-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — diskutiert über)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Wir · diskutieren · über · dem · Projekt
+**Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,9 +1682,9 @@
 ### 147. `b1-praeg-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — wartet auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Er · wartet · auf · dem · Arzt
+**Wörter:** Er · denkt · oft · an · seine · Zukunft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-praeg-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — besteht auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Ich · bestehe · auf · einer · klaren · Antwort
+**Wörter:** Wir · sprechen · über · das · neue · Gesetz
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,9 +1702,9 @@
 ### 149. `b1-praeg-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — achtet auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Sie · achtet · auf · ihre · Gesundheit
+**Wörter:** Sie · freut · sich · auf · die · Reise
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1712,9 +1712,9 @@
 ### 150. `b1-praeg-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — konzentriert auf)
+> Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)
 
-**Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
+**Wörter:** Er · interessiert · sich · für · Politik
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

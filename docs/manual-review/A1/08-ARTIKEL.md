@@ -88,7 +88,7 @@
 ### 6. `a1-art-006` · select-one
 
 **Aufgabe:**
-> ___ Tisch ist wichtig. (Artikel — Nom.)
+> ___ Tisch ist wichtig. (Artikelform)
 
 **Optionen:**
 - eine
@@ -102,7 +102,7 @@
 ### 7. `a1-art-007` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Lampe. (Artikel — Nom.)
+> Ich habe ___ Lampe. (Artikelform)
 
 **Optionen:**
 - einen
@@ -116,7 +116,7 @@
 ### 8. `a1-art-008` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Kind. (Artikel — Nom.)
+> Ich habe ___ Kind. (Artikelform)
 
 **Optionen:**
 - ein
@@ -130,7 +130,7 @@
 ### 9. `a1-art-009` · select-one
 
 **Aufgabe:**
-> ___ Zug ist wichtig. (Artikel — Nom.)
+> ___ Zug ist wichtig. (Artikelform)
 
 **Optionen:**
 - eine
@@ -144,7 +144,7 @@
 ### 10. `a1-art-010` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Straße. (Artikel — Nom.)
+> Ich habe ___ Straße. (Artikelform)
 
 **Optionen:**
 - Die
@@ -158,7 +158,7 @@
 ### 11. `a1-art-011` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Essen. (Artikel — Nom.)
+> Ich habe ___ Essen. (Artikelform)
 
 **Optionen:**
 - Das
@@ -172,7 +172,7 @@
 ### 12. `a1-art-012` · select-one
 
 **Aufgabe:**
-> ___ Regen ist wichtig. (Artikel — Nom.)
+> ___ Regen ist wichtig. (Artikelform)
 
 **Optionen:**
 - Das
@@ -186,7 +186,7 @@
 ### 13. `a1-art-013` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Sonne. (Artikel — Nom.)
+> Ich habe ___ Sonne. (Artikelform)
 
 **Optionen:**
 - kein
@@ -200,12 +200,12 @@
 ### 14. `a1-art-014` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Freund. (Artikel — Nom.)
+> Ich habe ___ Freund. (Artikelform)
 
 **Optionen:**
 - einen
-- kein **✓**
-- keinen
+- keinen **✓**
+- keine
 - ein
 
 - [ ] OK
@@ -214,7 +214,7 @@
 ### 15. `a1-art-015` · select-one
 
 **Aufgabe:**
-> ___ Schule ist wichtig. (Artikel — Nom.)
+> ___ Schule ist wichtig. (Artikelform)
 
 **Optionen:**
 - Den
@@ -228,7 +228,7 @@
 ### 16. `a1-art-016` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Hobby. (Artikel — Nom.)
+> Ich habe ___ Hobby. (Artikelform)
 
 **Optionen:**
 - einen
@@ -242,12 +242,12 @@
 ### 17. `a1-art-017` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Arzt. (Artikel — Nom.)
+> Ich habe ___ Arzt. (Artikelform)
 
 **Optionen:**
 - Die
 - ein
-- kein **✓**
+- keinen **✓**
 - Das
 
 - [ ] OK
@@ -256,7 +256,7 @@
 ### 18. `a1-art-018` · select-one
 
 **Aufgabe:**
-> ___ Pizza ist wichtig. (Artikel — Nom.)
+> ___ Pizza ist wichtig. (Artikelform)
 
 **Optionen:**
 - Den
@@ -270,7 +270,7 @@
 ### 19. `a1-art-019` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Fahrrad. (Artikel — Nom.)
+> Ich habe ___ Fahrrad. (Artikelform)
 
 **Optionen:**
 - Die
@@ -284,13 +284,13 @@
 ### 20. `a1-art-020` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Markt. (Artikel — Nom.)
+> Ich habe ___ Markt. (Artikelform)
 
 **Optionen:**
 - Die
 - Den
 - Das
-- kein **✓**
+- keinen **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -298,7 +298,7 @@
 ### 21. `a1-art-021` · select-one
 
 **Aufgabe:**
-> ___ Tisch ist wichtig. (Artikel — Nom.)
+> ___ Tisch ist wichtig. (Artikelform)
 
 **Optionen:**
 - ein
@@ -312,7 +312,7 @@
 ### 22. `a1-art-022` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Lampe. (Artikel — fem., Akk.)
+> Ich habe ___ Lampe. (Artikelform)
 
 **Optionen:**
 - kein
@@ -326,7 +326,7 @@
 ### 23. `a1-art-023` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Kind. (Artikel — neutr., Akk.)
+> Ich habe ___ Kind. (Artikelform)
 
 **Optionen:**
 - Die
@@ -340,7 +340,7 @@
 ### 24. `a1-art-024` · select-one
 
 **Aufgabe:**
-> ___ Zug ist wichtig. (Artikel — neutr., Akk.)
+> ___ Zug ist wichtig. (Artikelform)
 
 **Optionen:**
 - Das
@@ -354,7 +354,7 @@
 ### 25. `a1-art-025` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Straße. (Artikel — mask., Akk.)
+> Ich habe ___ Straße. (Artikelform)
 
 **Optionen:**
 - ein
@@ -368,7 +368,7 @@
 ### 26. `a1-art-026` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Essen. (Artikel — neutr.)
+> Ich habe ___ Essen. (Artikelform)
 
 **Optionen:**
 - Die
@@ -382,7 +382,7 @@
 ### 27. `a1-art-027` · select-one
 
 **Aufgabe:**
-> ___ Regen ist wichtig. (Artikel — mask.)
+> ___ Regen ist wichtig. (Artikelform)
 
 **Optionen:**
 - ein
@@ -396,7 +396,7 @@
 ### 28. `a1-art-028` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Sonne. (Artikel — neutr.)
+> Ich habe ___ Sonne. (Artikelform)
 
 **Optionen:**
 - ein
@@ -410,11 +410,11 @@
 ### 29. `a1-art-029` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Freund. (Artikel — mask., Nom.)
+> Ich habe ___ Freund. (Artikelform)
 
 **Optionen:**
 - Die
-- kein **✓**
+- keinen **✓**
 - Den
 - Das
 
@@ -424,7 +424,7 @@
 ### 30. `a1-art-030` · select-one
 
 **Aufgabe:**
-> ___ Schule ist wichtig. (Artikel — neutr., Akk.)
+> ___ Schule ist wichtig. (Artikelform)
 
 **Optionen:**
 - eine
@@ -438,7 +438,7 @@
 ### 31. `a1-art-031` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Hobby. (Artikel — mask., Akk.)
+> Ich habe ___ Hobby. (Artikelform)
 
 **Optionen:**
 - Die
@@ -452,13 +452,13 @@
 ### 32. `a1-art-032` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Arzt. (Artikel — neutr., Akk.)
+> Ich habe ___ Arzt. (Artikelform)
 
 **Optionen:**
 - Das
-- keinen
+- keine
 - eine
-- kein **✓**
+- keinen **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -466,7 +466,7 @@
 ### 33. `a1-art-033` · select-one
 
 **Aufgabe:**
-> ___ Pizza ist wichtig. (Artikel — mask.)
+> ___ Pizza ist wichtig. (Artikelform)
 
 **Optionen:**
 - ein
@@ -480,7 +480,7 @@
 ### 34. `a1-art-034` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Fahrrad. (Artikel — fem.)
+> Ich habe ___ Fahrrad. (Artikelform)
 
 **Optionen:**
 - Den
@@ -494,11 +494,11 @@
 ### 35. `a1-art-035` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Markt. (Artikel — mask.)
+> Ich habe ___ Markt. (Artikelform)
 
 **Optionen:**
 - einen
-- kein **✓**
+- keinen **✓**
 - Den
 - Die
 
@@ -508,7 +508,7 @@
 ### 36. `a1-art-036` · select-one
 
 **Aufgabe:**
-> ___ Tisch ist wichtig. (Artikel — Nom.)
+> ___ Tisch ist wichtig. (Artikelform)
 
 **Optionen:**
 - eine
@@ -522,7 +522,7 @@
 ### 37. `a1-art-037` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Lampe. (Artikel — Nom.)
+> Ich habe ___ Lampe. (Artikelform)
 
 **Optionen:**
 - Den
@@ -536,7 +536,7 @@
 ### 38. `a1-art-038` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Kind. (Artikel — Nom.)
+> Ich habe ___ Kind. (Artikelform)
 
 **Optionen:**
 - Die
@@ -550,7 +550,7 @@
 ### 39. `a1-art-039` · select-one
 
 **Aufgabe:**
-> ___ Zug ist wichtig. (Artikel — Nom.)
+> ___ Zug ist wichtig. (Artikelform)
 
 **Optionen:**
 - keinen
@@ -564,7 +564,7 @@
 ### 40. `a1-art-040` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Straße. (Artikel — Nom.)
+> Ich habe ___ Straße. (Artikelform)
 
 **Optionen:**
 - einen
@@ -578,7 +578,7 @@
 ### 41. `a1-art-041` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Essen. (Artikel — Nom.)
+> Ich habe ___ Essen. (Artikelform)
 
 **Optionen:**
 - Die
@@ -592,7 +592,7 @@
 ### 42. `a1-art-042` · select-one
 
 **Aufgabe:**
-> ___ Regen ist wichtig. (Artikel — Nom.)
+> ___ Regen ist wichtig. (Artikelform)
 
 **Optionen:**
 - Das
@@ -606,7 +606,7 @@
 ### 43. `a1-art-043` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Sonne. (Artikel — neutr., Akk.)
+> Ich habe ___ Sonne. (Artikelform)
 
 **Optionen:**
 - Den
@@ -620,13 +620,13 @@
 ### 44. `a1-art-044` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Freund. (Artikel — fem., Akk.)
+> Ich habe ___ Freund. (Artikelform)
 
 **Optionen:**
 - ein
 - einen
 - Die
-- kein **✓**
+- keinen **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -634,7 +634,7 @@
 ### 45. `a1-art-045` · select-one
 
 **Aufgabe:**
-> ___ Schule ist wichtig. (Artikel — fem., Akk.)
+> ___ Schule ist wichtig. (Artikelform)
 
 **Optionen:**
 - Das
@@ -648,7 +648,7 @@
 ### 46. `a1-art-046` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Hobby. (Artikel — Nom.)
+> Ich habe ___ Hobby. (Artikelform)
 
 **Optionen:**
 - Die
@@ -662,11 +662,11 @@
 ### 47. `a1-art-047` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Arzt. (Artikel — Nom.)
+> Ich habe ___ Arzt. (Artikelform)
 
 **Optionen:**
 - Die
-- kein **✓**
+- keinen **✓**
 - Das
 - einen
 
@@ -676,7 +676,7 @@
 ### 48. `a1-art-048` · select-one
 
 **Aufgabe:**
-> ___ Pizza ist wichtig. (Artikel — Nom.)
+> ___ Pizza ist wichtig. (Artikelform)
 
 **Optionen:**
 - Das
@@ -690,7 +690,7 @@
 ### 49. `a1-art-049` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Fahrrad. (Artikel — Nom.)
+> Ich habe ___ Fahrrad. (Artikelform)
 
 **Optionen:**
 - kein
@@ -704,12 +704,12 @@
 ### 50. `a1-art-050` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Markt. (Artikel — Nom.)
+> Ich habe ___ Markt. (Artikelform)
 
 **Optionen:**
 - ein
 - Den
-- kein **✓**
+- keinen **✓**
 - eine
 
 - [ ] OK

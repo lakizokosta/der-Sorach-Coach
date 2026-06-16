@@ -172,7 +172,7 @@
 ### 12. `b1-praep-012` · select-one
 
 **Aufgabe:**
-> Wir diskutieren ___ dem neuen Plan. (Präposition)
+> Wir diskutieren ___ den neuen Plan. (Präposition)
 
 **Optionen:**
 - an
@@ -214,12 +214,12 @@
 ### 15. `b1-praep-015` · select-one
 
 **Aufgabe:**
-> Er ist ___ Geschäft. (Präposition)
+> Er ist ___ dem Geschäft. (Präposition)
 
 **Optionen:**
-- in
 - an
-- auf **✓**
+- auf
+- in **✓**
 - nach
 
 - [ ] OK
@@ -382,7 +382,7 @@
 ### 27. `b1-praep-027` · select-one
 
 **Aufgabe:**
-> Wir diskutieren ___ dem neuen Plan. (Präposition)
+> Wir diskutieren ___ den neuen Plan. (Präposition)
 
 **Optionen:**
 - auf
@@ -424,12 +424,12 @@
 ### 30. `b1-praep-030` · select-one
 
 **Aufgabe:**
-> Er ist ___ Geschäft. (Präposition)
+> Er ist ___ dem Geschäft. (Präposition)
 
 **Optionen:**
-- an
+- auf
 - zu
-- auf **✓**
+- in **✓**
 - nach
 
 - [ ] OK
@@ -592,7 +592,7 @@
 ### 42. `b1-praep-042` · select-one
 
 **Aufgabe:**
-> Wir diskutieren ___ dem neuen Plan. (Präposition)
+> Wir diskutieren ___ den neuen Plan. (Präposition)
 
 **Optionen:**
 - in
@@ -634,13 +634,13 @@
 ### 45. `b1-praep-045` · select-one
 
 **Aufgabe:**
-> Er ist ___ Geschäft. (Präposition)
+> Er ist ___ dem Geschäft. (Präposition)
 
 **Optionen:**
-- in
+- an
 - zu
 - nach
-- auf **✓**
+- in **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -830,7 +830,7 @@
 ### 62. `b1-praep-in-012` · input-text
 
 **Aufgabe:**
-> Wir diskutieren ___ dem neuen Plan. (Präposition)
+> Wir diskutieren ___ den neuen Plan. (Präposition)
 
 **Antwort:** `über`
 
@@ -860,9 +860,9 @@
 ### 65. `b1-praep-in-015` · input-text
 
 **Aufgabe:**
-> Er ist ___ Geschäft. (Präposition)
+> Er ist ___ dem Geschäft. (Präposition)
 
-**Antwort:** `auf`
+**Antwort:** `in`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -980,7 +980,7 @@
 ### 77. `b1-praep-in-027` · input-text
 
 **Aufgabe:**
-> Wir diskutieren ___ dem neuen Plan. (Präposition)
+> Wir diskutieren ___ den neuen Plan. (Präposition)
 
 **Antwort:** `über`
 
@@ -1010,9 +1010,9 @@
 ### 80. `b1-praep-in-030` · input-text
 
 **Aufgabe:**
-> Er ist ___ Geschäft. (Präposition)
+> Er ist ___ dem Geschäft. (Präposition)
 
-**Antwort:** `auf`
+**Antwort:** `in`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1130,7 +1130,7 @@
 ### 92. `b1-praep-in-042` · input-text
 
 **Aufgabe:**
-> Wir diskutieren ___ dem neuen Plan. (Präposition)
+> Wir diskutieren ___ den neuen Plan. (Präposition)
 
 **Antwort:** `über`
 
@@ -1160,9 +1160,9 @@
 ### 95. `b1-praep-in-045` · input-text
 
 **Aufgabe:**
-> Er ist ___ Geschäft. (Präposition)
+> Er ist ___ dem Geschäft. (Präposition)
 
-**Antwort:** `auf`
+**Antwort:** `in`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1222,7 +1222,7 @@
 ### 101. `b1-praep-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — am Montag)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Die · Besprechung · findet · am · Montag · statt
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-praep-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — ab 8 Uhr)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Er · arbeitet · ab · 8 · Uhr
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-praep-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — auf Arzt)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Wir · warten · auf · den · Arzt
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-praep-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — an Universität)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Sie · ist · an · der · Universität
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-praep-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — ab Monat)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Das · Gesetz · gilt · ab · nächsten · Monat
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-praep-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — von Berlin)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Er · fährt · von · Berlin · nach · Hamburg
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-praep-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — um halb neun)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Wir · treffen · uns · um · halb · neun
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-praep-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — auf Land)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Sie · wohnt · auf · dem · Land
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-praep-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — seit 2020)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Ich · bin · seit · 2020 · hier
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-praep-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — bis 18 Uhr)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Das · Büro · ist · bis · 18 · Uhr · geöffnet
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-praep-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — nach Italien)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Er · reist · nach · Italien
 
@@ -1332,9 +1332,9 @@
 ### 112. `b1-praep-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — über Plan)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Wir · diskutieren · über · dem · neuen · Plan
+**Wörter:** Wir · diskutieren · über · den · neuen · Plan
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1342,7 +1342,7 @@
 ### 113. `b1-praep-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — aus Türkei)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Sie · kommt · aus · der · Türkei
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-praep-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — an Küste)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Das · Hotel · liegt · an · der · Küste
 
@@ -1362,9 +1362,9 @@
 ### 115. `b1-praep-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — auf Geschäft)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Er · ist · auf · Geschäft
+**Wörter:** Er · ist · in · dem · Geschäft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1372,7 +1372,7 @@
 ### 116. `b1-praep-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — mit Zug)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Die · Besprechung · findet · am · Montag · statt
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-praep-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — ohne Termin)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
 **Wörter:** Er · arbeitet · ab · 8 · Uhr
 
@@ -1392,9 +1392,9 @@
 ### 118. `b1-praep-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — am Montag)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Die · Besprechung · findet · am · Montag · statt
+**Wörter:** Wir · warten · auf · den · Arzt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1402,9 +1402,9 @@
 ### 119. `b1-praep-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — ab 8 Uhr)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Er · arbeitet · ab · 8 · Uhr
+**Wörter:** Sie · ist · an · der · Universität
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,9 +1412,9 @@
 ### 120. `b1-praep-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — auf Arzt)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Wir · warten · auf · den · Arzt
+**Wörter:** Das · Gesetz · gilt · ab · nächsten · Monat
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1422,9 +1422,9 @@
 ### 121. `b1-praep-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — an Universität)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Sie · ist · an · der · Universität
+**Wörter:** Er · fährt · von · Berlin · nach · Hamburg
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1432,9 +1432,9 @@
 ### 122. `b1-praep-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — ab Monat)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Das · Gesetz · gilt · ab · nächsten · Monat
+**Wörter:** Wir · treffen · uns · um · halb · neun
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1442,9 +1442,9 @@
 ### 123. `b1-praep-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — von Berlin)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Er · fährt · von · Berlin · nach · Hamburg
+**Wörter:** Sie · wohnt · auf · dem · Land
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `b1-praep-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — um halb neun)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Wir · treffen · uns · um · halb · neun
+**Wörter:** Ich · bin · seit · 2020 · hier
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,9 +1462,9 @@
 ### 125. `b1-praep-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — auf Land)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Sie · wohnt · auf · dem · Land
+**Wörter:** Das · Büro · ist · bis · 18 · Uhr · geöffnet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1472,9 +1472,9 @@
 ### 126. `b1-praep-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — seit 2020)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Ich · bin · seit · 2020 · hier
+**Wörter:** Er · reist · nach · Italien
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,9 +1482,9 @@
 ### 127. `b1-praep-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — bis 18 Uhr)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Das · Büro · ist · bis · 18 · Uhr · geöffnet
+**Wörter:** Wir · diskutieren · über · den · neuen · Plan
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `b1-praep-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — nach Italien)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Er · reist · nach · Italien
+**Wörter:** Sie · kommt · aus · der · Türkei
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `b1-praep-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — über Plan)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Wir · diskutieren · über · dem · neuen · Plan
+**Wörter:** Das · Hotel · liegt · an · der · Küste
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `b1-praep-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — aus Türkei)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Sie · kommt · aus · der · Türkei
+**Wörter:** Er · ist · in · dem · Geschäft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-praep-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — an Küste)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Das · Hotel · liegt · an · der · Küste
+**Wörter:** Die · Besprechung · findet · am · Montag · statt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `b1-praep-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — auf Geschäft)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Er · ist · auf · Geschäft
+**Wörter:** Er · arbeitet · ab · 8 · Uhr
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `b1-praep-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — mit Zug)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Die · Besprechung · findet · am · Montag · statt
+**Wörter:** Wir · warten · auf · den · Arzt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1552,9 +1552,9 @@
 ### 134. `b1-praep-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — ohne Termin)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Er · arbeitet · ab · 8 · Uhr
+**Wörter:** Sie · ist · an · der · Universität
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,9 +1562,9 @@
 ### 135. `b1-praep-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — am Montag)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Die · Besprechung · findet · am · Montag · statt
+**Wörter:** Das · Gesetz · gilt · ab · nächsten · Monat
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `b1-praep-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — ab 8 Uhr)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Er · arbeitet · ab · 8 · Uhr
+**Wörter:** Er · fährt · von · Berlin · nach · Hamburg
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,9 +1582,9 @@
 ### 137. `b1-praep-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — auf Arzt)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Wir · warten · auf · den · Arzt
+**Wörter:** Wir · treffen · uns · um · halb · neun
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1592,9 +1592,9 @@
 ### 138. `b1-praep-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — an Universität)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Sie · ist · an · der · Universität
+**Wörter:** Sie · wohnt · auf · dem · Land
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `b1-praep-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — ab Monat)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Das · Gesetz · gilt · ab · nächsten · Monat
+**Wörter:** Ich · bin · seit · 2020 · hier
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1612,9 +1612,9 @@
 ### 140. `b1-praep-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — von Berlin)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Er · fährt · von · Berlin · nach · Hamburg
+**Wörter:** Das · Büro · ist · bis · 18 · Uhr · geöffnet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `b1-praep-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — um halb neun)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Wir · treffen · uns · um · halb · neun
+**Wörter:** Er · reist · nach · Italien
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,9 +1632,9 @@
 ### 142. `b1-praep-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — auf Land)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Sie · wohnt · auf · dem · Land
+**Wörter:** Wir · diskutieren · über · den · neuen · Plan
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1642,9 +1642,9 @@
 ### 143. `b1-praep-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — seit 2020)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Ich · bin · seit · 2020 · hier
+**Wörter:** Sie · kommt · aus · der · Türkei
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `b1-praep-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — bis 18 Uhr)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Das · Büro · ist · bis · 18 · Uhr · geöffnet
+**Wörter:** Das · Hotel · liegt · an · der · Küste
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `b1-praep-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — nach Italien)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Er · reist · nach · Italien
+**Wörter:** Er · ist · in · dem · Geschäft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `b1-praep-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — über Plan)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Wir · diskutieren · über · dem · neuen · Plan
+**Wörter:** Die · Besprechung · findet · am · Montag · statt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,9 +1682,9 @@
 ### 147. `b1-praep-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — aus Türkei)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Sie · kommt · aus · der · Türkei
+**Wörter:** Er · arbeitet · ab · 8 · Uhr
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-praep-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — an Küste)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Das · Hotel · liegt · an · der · Küste
+**Wörter:** Wir · warten · auf · den · Arzt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,9 +1702,9 @@
 ### 149. `b1-praep-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — auf Geschäft)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Er · ist · auf · Geschäft
+**Wörter:** Sie · ist · an · der · Universität
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1712,9 +1712,9 @@
 ### 150. `b1-praep-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präposition — mit Zug)
+> Ordne die Wörter zum richtigen Satz: (Präpositionen)
 
-**Wörter:** Die · Besprechung · findet · am · Montag · statt
+**Wörter:** Das · Gesetz · gilt · ab · nächsten · Monat
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

@@ -88,12 +88,12 @@
 ### 6. `a1-wech-006` · select-one
 
 **Aufgabe:**
-> Ich gehe ___ Park. (Dativ oder Akkusativ)
+> Ich gehe ___ Park. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- an die
-- auf den
-- auf dem
+- im
+- ins
+- in der
 - in den **✓**
 
 - [ ] OK
@@ -102,13 +102,13 @@
 ### 7. `a1-wech-007` · select-one
 
 **Aufgabe:**
-> Ich bin ___ Park. (Dativ oder Akkusativ)
+> Das Bild hängt ___ Wand. (Dativ oder Akkusativ?)
 
 **Optionen:**
+- an der **✓**
 - an die
-- in der
-- im **✓**
-- ins
+- am
+- auf der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -116,13 +116,13 @@
 ### 8. `a1-wech-008` · select-one
 
 **Aufgabe:**
-> Ich lege ___ Tisch. (Dativ oder Akkusativ)
+> Ich lege das Buch ___ Tisch. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- an die
+- auf der
 - auf den **✓**
-- in der
-- an der
+- auf dem
+- auf die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -130,13 +130,13 @@
 ### 9. `a1-wech-009` · select-one
 
 **Aufgabe:**
-> Ich liegt ___ Tisch. (Dativ oder Akkusativ)
+> Das Buch liegt ___ Tisch. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- in der
 - auf dem **✓**
-- im
 - auf den
+- auf der
+- auf die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -144,13 +144,13 @@
 ### 10. `a1-wech-010` · select-one
 
 **Aufgabe:**
-> Ich hänge ___ Wand. (Dativ oder Akkusativ)
+> Ich lege das Buch ___ Tisch. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- an der
-- ins
-- in der
-- an die **✓**
+- auf den **✓**
+- auf dem
+- auf der
+- auf die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -158,13 +158,13 @@
 ### 11. `a1-wech-011` · select-one
 
 **Aufgabe:**
-> Ich hängt ___ Wand. (Dativ oder Akkusativ)
+> Ich hänge das Bild ___ Wand. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- in der
-- an der **✓**
-- auf den
-- im
+- auf der
+- an die **✓**
+- an der
+- am
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -172,13 +172,13 @@
 ### 12. `a1-wech-012` · select-one
 
 **Aufgabe:**
-> Ich gehe ___ Kino. (Dativ oder Akkusativ)
+> Ich komme ___ Schule. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- an der
 - im
-- ins **✓**
-- auf den
+- ins
+- in die **✓**
+- in der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -186,13 +186,13 @@
 ### 13. `a1-wech-013` · select-one
 
 **Aufgabe:**
-> Ich sitze ___ Kino. (Dativ oder Akkusativ)
+> Ich lerne ___ Schule. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf der
-- im **✓**
 - ins
-- auf dem
+- in der **✓**
+- im
+- in die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -200,13 +200,13 @@
 ### 14. `a1-wech-014` · select-one
 
 **Aufgabe:**
-> Ich klettere ___ Dach. (Dativ oder Akkusativ)
+> Wir fahren ___ Straße. (Dativ oder Akkusativ?)
 
 **Optionen:**
 - auf dem
-- ins
-- im
-- auf das **✓**
+- auf der
+- auf den
+- auf die **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -214,13 +214,13 @@
 ### 15. `a1-wech-015` · select-one
 
 **Aufgabe:**
-> Ich stehe ___ Dach. (Dativ oder Akkusativ)
+> Ich laufe ___ Straße. (Dativ oder Akkusativ?)
 
 **Optionen:**
 - auf den
-- auf dem **✓**
-- in der
-- an die
+- auf der **✓**
+- auf die
+- auf dem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -228,13 +228,13 @@
 ### 16. `a1-wech-016` · select-one
 
 **Aufgabe:**
-> Ich komme ___ Schule. (Dativ oder Akkusativ)
+> Wir gehen ___ Restaurant. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- im
-- in die **✓**
 - in der
-- auf dem
+- ins **✓**
+- in die
+- im
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -242,13 +242,13 @@
 ### 17. `a1-wech-017` · select-one
 
 **Aufgabe:**
-> Ich lerne ___ Schule. (Dativ oder Akkusativ)
+> Ich sitze ___ Kino. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- an der
-- in der **✓**
-- an die
-- auf den
+- ins
+- im **✓**
+- in die
+- in der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -256,13 +256,13 @@
 ### 18. `a1-wech-018` · select-one
 
 **Aufgabe:**
-> Ich fahre ___ Straße. (Dativ oder Akkusativ)
+> Ich setze mich ___ Stuhl. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- im
-- auf den
-- in der
-- auf die **✓**
+- auf die
+- auf der
+- auf dem
+- auf den **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -270,13 +270,13 @@
 ### 19. `a1-wech-019` · select-one
 
 **Aufgabe:**
-> Ich laufe ___ Straße. (Dativ oder Akkusativ)
+> Die Jacke liegt ___ Stuhl. (Dativ oder Akkusativ?)
 
 **Optionen:**
+- auf den
+- auf dem **✓**
+- auf der
 - auf die
-- auf der **✓**
-- ins
-- auf dem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -284,13 +284,13 @@
 ### 20. `a1-wech-020` · select-one
 
 **Aufgabe:**
-> Ich gehe ___ Restaurant. (Dativ oder Akkusativ)
+> Wir steigen ___ Bus. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf dem
+- in die
+- ins
+- in den **✓**
 - im
-- in das **✓**
-- auf den
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -298,12 +298,12 @@
 ### 21. `a1-wech-021` · select-one
 
 **Aufgabe:**
-> Ich gehe ___ Park. (Dativ oder Akkusativ)
+> Ich gehe ___ Park. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- an der
-- auf den
-- im **✓**
+- ins
+- im
+- in den **✓**
 - in der
 
 - [ ] OK
@@ -312,13 +312,13 @@
 ### 22. `a1-wech-022` · select-one
 
 **Aufgabe:**
-> Ich bin ___ Park. (Dativ oder Akkusativ)
+> Ich bin ___ Park. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf der
-- auf den
-- an die
-- in den **✓**
+- in der
+- in den
+- ins
+- im **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -326,13 +326,13 @@
 ### 23. `a1-wech-023` · select-one
 
 **Aufgabe:**
-> Ich lege ___ Tisch. (Dativ oder Akkusativ)
+> Ich lege das Buch ___ Tisch. (Dativ oder Akkusativ?)
 
 **Optionen:**
+- auf dem
+- auf den **✓**
+- auf die
 - auf der
-- auf dem **✓**
-- in der
-- im
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -340,13 +340,13 @@
 ### 24. `a1-wech-024` · select-one
 
 **Aufgabe:**
-> Ich liegt ___ Tisch. (Dativ oder Akkusativ)
+> Ich setze mich ___ Stuhl. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf dem
 - auf den **✓**
-- in der
-- ins
+- auf dem
+- auf die
+- auf der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -354,13 +354,13 @@
 ### 25. `a1-wech-025` · select-one
 
 **Aufgabe:**
-> Ich hänge ___ Wand. (Dativ oder Akkusativ)
+> Das Bild hängt ___ Wand. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf dem
+- auf der
 - an der **✓**
-- ins
-- im
+- am
+- an die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -368,12 +368,12 @@
 ### 26. `a1-wech-026` · select-one
 
 **Aufgabe:**
-> Ich hängt ___ Wand. (Dativ oder Akkusativ)
+> Ich hänge das Bild ___ Wand. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf den
-- in der
-- ins
+- auf der
+- an der
+- am
 - an die **✓**
 
 - [ ] OK
@@ -382,12 +382,12 @@
 ### 27. `a1-wech-027` · select-one
 
 **Aufgabe:**
-> Ich gehe ___ Kino. (Dativ oder Akkusativ)
+> Ich komme ___ Schule. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf dem
-- im **✓**
-- an die
+- im
+- in die **✓**
+- in der
 - ins
 
 - [ ] OK
@@ -396,13 +396,13 @@
 ### 28. `a1-wech-028` · select-one
 
 **Aufgabe:**
-> Ich sitze ___ Kino. (Dativ oder Akkusativ)
+> Ich lerne ___ Schule. (Dativ oder Akkusativ?)
 
 **Optionen:**
 - im
-- ins **✓**
-- in der
-- auf den
+- in der **✓**
+- ins
+- in die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -410,13 +410,13 @@
 ### 29. `a1-wech-029` · select-one
 
 **Aufgabe:**
-> Ich klettere ___ Dach. (Dativ oder Akkusativ)
+> Wir fahren ___ Straße. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- ins
+- auf den
 - auf der
-- auf dem **✓**
-- an der
+- auf die **✓**
+- auf dem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -424,13 +424,13 @@
 ### 30. `a1-wech-030` · select-one
 
 **Aufgabe:**
-> Ich stehe ___ Dach. (Dativ oder Akkusativ)
+> Ich laufe ___ Straße. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- im
+- auf den
+- auf die
 - auf dem
-- in der
-- auf das **✓**
+- auf der **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -438,13 +438,13 @@
 ### 31. `a1-wech-031` · select-one
 
 **Aufgabe:**
-> Ich komme ___ Schule. (Dativ oder Akkusativ)
+> Wir gehen ___ Restaurant. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- an der
-- in der **✓**
-- ins
+- in der
+- ins **✓**
 - im
+- in die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -452,13 +452,13 @@
 ### 32. `a1-wech-032` · select-one
 
 **Aufgabe:**
-> Ich lerne ___ Schule. (Dativ oder Akkusativ)
+> Ich sitze ___ Kino. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- im
-- in die **✓**
-- auf die
-- an die
+- in der
+- im **✓**
+- in die
+- ins
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -466,12 +466,12 @@
 ### 33. `a1-wech-033` · select-one
 
 **Aufgabe:**
-> Ich fahre ___ Straße. (Dativ oder Akkusativ)
+> Ich setze mich ___ Stuhl. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- ins
-- auf der **✓**
-- an die
+- auf der
+- auf den **✓**
+- auf dem
 - auf die
 
 - [ ] OK
@@ -480,13 +480,13 @@
 ### 34. `a1-wech-034` · select-one
 
 **Aufgabe:**
-> Ich laufe ___ Straße. (Dativ oder Akkusativ)
+> Die Jacke liegt ___ Stuhl. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf dem
-- an die
-- im
-- auf die **✓**
+- auf die
+- auf den
+- auf der
+- auf dem **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -494,13 +494,13 @@
 ### 35. `a1-wech-035` · select-one
 
 **Aufgabe:**
-> Ich gehe ___ Restaurant. (Dativ oder Akkusativ)
+> Wir steigen ___ Bus. (Dativ oder Akkusativ?)
 
 **Optionen:**
+- in die
+- im
+- in den **✓**
 - ins
-- auf dem
-- im **✓**
-- in der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -508,13 +508,13 @@
 ### 36. `a1-wech-036` · select-one
 
 **Aufgabe:**
-> Ich gehe ___ Park. (Dativ oder Akkusativ)
+> Ich gehe ___ Park. (Dativ oder Akkusativ?)
 
 **Optionen:**
 - in der
-- ins
+- im
 - in den **✓**
-- auf dem
+- ins
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -522,13 +522,13 @@
 ### 37. `a1-wech-037` · select-one
 
 **Aufgabe:**
-> Ich bin ___ Park. (Dativ oder Akkusativ)
+> Ich bin ___ Park. (Dativ oder Akkusativ?)
 
 **Optionen:**
+- in der
 - ins
-- auf den
 - im **✓**
-- auf der
+- in den
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -536,12 +536,12 @@
 ### 38. `a1-wech-038` · select-one
 
 **Aufgabe:**
-> Ich lege ___ Tisch. (Dativ oder Akkusativ)
+> Ich lege das Buch ___ Tisch. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- im
-- in der
-- ins
+- auf die
+- auf dem
+- auf der
 - auf den **✓**
 
 - [ ] OK
@@ -550,13 +550,13 @@
 ### 39. `a1-wech-039` · select-one
 
 **Aufgabe:**
-> Ich liegt ___ Tisch. (Dativ oder Akkusativ)
+> Das Buch liegt ___ Tisch. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- in der
+- auf den
 - auf dem **✓**
-- an der
-- ins
+- auf der
+- auf die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -564,13 +564,13 @@
 ### 40. `a1-wech-040` · select-one
 
 **Aufgabe:**
-> Ich hänge ___ Wand. (Dativ oder Akkusativ)
+> Das Bild hängt ___ Wand. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- an der
-- an die **✓**
-- im
-- in der
+- am
+- an der **✓**
+- auf der
+- an die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -578,13 +578,13 @@
 ### 41. `a1-wech-041` · select-one
 
 **Aufgabe:**
-> Ich hängt ___ Wand. (Dativ oder Akkusativ)
+> Ich hänge das Bild ___ Wand. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- im
-- an der **✓**
-- in der
-- an die
+- am
+- an die **✓**
+- an der
+- auf der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -592,13 +592,13 @@
 ### 42. `a1-wech-042` · select-one
 
 **Aufgabe:**
-> Ich gehe ___ Kino. (Dativ oder Akkusativ)
+> Ich komme ___ Schule. (Dativ oder Akkusativ?)
 
 **Optionen:**
 - im
-- auf dem
-- auf den
-- ins **✓**
+- ins
+- in der
+- in die **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -606,13 +606,13 @@
 ### 43. `a1-wech-043` · select-one
 
 **Aufgabe:**
-> Ich sitze ___ Kino. (Dativ oder Akkusativ)
+> Ich lerne ___ Schule. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf dem
-- an der
-- im **✓**
+- in die
 - ins
+- in der **✓**
+- im
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -620,13 +620,13 @@
 ### 44. `a1-wech-044` · select-one
 
 **Aufgabe:**
-> Ich klettere ___ Dach. (Dativ oder Akkusativ)
+> Wir fahren ___ Straße. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf dem
-- auf das **✓**
-- im
 - auf den
+- auf die **✓**
+- auf dem
+- auf der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -634,13 +634,13 @@
 ### 45. `a1-wech-045` · select-one
 
 **Aufgabe:**
-> Ich stehe ___ Dach. (Dativ oder Akkusativ)
+> Ich laufe ___ Straße. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- in der
-- auf dem **✓**
-- im
-- ins
+- auf die
+- auf der **✓**
+- auf dem
+- auf den
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -648,13 +648,13 @@
 ### 46. `a1-wech-046` · select-one
 
 **Aufgabe:**
-> Ich komme ___ Schule. (Dativ oder Akkusativ)
+> Wir gehen ___ Restaurant. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf dem
-- auf die
+- in die
 - im
-- in die **✓**
+- in der
+- ins **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -662,13 +662,13 @@
 ### 47. `a1-wech-047` · select-one
 
 **Aufgabe:**
-> Ich lerne ___ Schule. (Dativ oder Akkusativ)
+> Ich sitze ___ Kino. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- im
-- in der **✓**
-- auf den
+- in der
+- im **✓**
 - ins
+- in die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -676,13 +676,13 @@
 ### 48. `a1-wech-048` · select-one
 
 **Aufgabe:**
-> Ich fahre ___ Straße. (Dativ oder Akkusativ)
+> Ich setze mich ___ Stuhl. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf den
-- auf die **✓**
 - auf dem
-- an die
+- auf den **✓**
+- auf die
+- auf der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -690,13 +690,13 @@
 ### 49. `a1-wech-049` · select-one
 
 **Aufgabe:**
-> Ich laufe ___ Straße. (Dativ oder Akkusativ)
+> Die Jacke liegt ___ Stuhl. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- im
-- ins
-- auf der **✓**
 - auf die
+- auf der
+- auf dem **✓**
+- auf den
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -704,13 +704,13 @@
 ### 50. `a1-wech-050` · select-one
 
 **Aufgabe:**
-> Ich gehe ___ Restaurant. (Dativ oder Akkusativ)
+> Wir steigen ___ Bus. (Dativ oder Akkusativ?)
 
 **Optionen:**
-- auf den
+- in die
+- ins
 - im
-- in der
-- in das **✓**
+- in den **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -800,9 +800,9 @@
 ### 59. `a1-wech-in-009` · input-text
 
 **Aufgabe:**
-> Ich laufe ___ Straße. (Dativ oder Akkusativ)
+> Das Buch liegt ___ Tisch. (Wechselpräp. — Ort)
 
-**Antwort:** `auf der`
+**Antwort:** `auf dem`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -810,9 +810,9 @@
 ### 60. `a1-wech-in-010` · input-text
 
 **Aufgabe:**
-> Wir gehen ___ Restaurant. (Dativ oder Akkusativ)
+> Ich lege das Buch ___ Tisch. (Wechselpräp. — Bewegung)
 
-**Antwort:** `ins`
+**Antwort:** `auf den`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -950,9 +950,9 @@
 ### 74. `a1-wech-in-024` · input-text
 
 **Aufgabe:**
-> Ich bin ___ Supermarkt. (Dativ oder Akkusativ)
+> Ich setze mich ___ Stuhl. (Wechselpräp. — Bewegung)
 
-**Antwort:** `im`
+**Antwort:** `auf den`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `a1-wech-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf dem Land (Ort))
+> [Transport] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — vor dem Haus (Ort))
 
-**Wörter:** Wir · sind · auf · dem · Land
+**Wörter:** Ich · parke · das · Auto · vor · dem · Haus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

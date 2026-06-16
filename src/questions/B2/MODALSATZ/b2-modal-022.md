@@ -2,11 +2,11 @@
 id: b2-modal-022
 type: select-one
 options:
-  - Indem
-  - Weil
   - Statt
+  - Indem
+  - Anstatt
   - Ohne
-correct: Statt
+correct: Anstatt
 ---
 
 ___ dass er fragte, nahm er einfach das Buch. (Modalsatz)

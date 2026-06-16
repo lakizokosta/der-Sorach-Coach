@@ -18,7 +18,7 @@
 ### 1. `a2-adj-001` · select-one
 
 **Aufgabe:**
-> Ich kaufe einen ___ Computer. (Adjektivdeklination — mask., Nom.)
+> Ich kaufe einen ___ Computer. (Adjektivendung)
 
 **Optionen:**
 - neue
@@ -32,7 +32,7 @@
 ### 2. `a2-adj-002` · select-one
 
 **Aufgabe:**
-> Das ist eine ___ Lampe. (Adjektivdeklination — mask., Nom.)
+> Das ist eine ___ Lampe. (Adjektivendung)
 
 **Optionen:**
 - alten
@@ -46,7 +46,7 @@
 ### 3. `a2-adj-003` · select-one
 
 **Aufgabe:**
-> Mit ___ Wetter bleibe ich drinnen. (Adjektivdeklination — fem., Akk.)
+> Mit ___ Wetter bleibe ich drinnen. (Adjektivendung)
 
 **Optionen:**
 - kalte
@@ -60,7 +60,7 @@
 ### 4. `a2-adj-004` · select-one
 
 **Aufgabe:**
-> Er trägt einen ___ Mantel. (Adjektivdeklination — neutr., Nom.)
+> Er trägt einen ___ Mantel. (Adjektivendung)
 
 **Optionen:**
 - warme
@@ -74,7 +74,7 @@
 ### 5. `a2-adj-005` · select-one
 
 **Aufgabe:**
-> In ___ Stadt wohne ich gern. (Adjektivdeklination — fem., Akk.)
+> In ___ Stadt wohne ich gern. (Adjektivendung)
 
 **Optionen:**
 - großen
@@ -88,7 +88,7 @@
 ### 6. `a2-adj-006` · select-one
 
 **Aufgabe:**
-> Sie liest ein ___ Buch. (Adjektivdeklination — neutr., Akk.)
+> Sie liest ein ___ Buch. (Adjektivendung)
 
 **Optionen:**
 - interessante
@@ -102,7 +102,7 @@
 ### 7. `a2-adj-007` · select-one
 
 **Aufgabe:**
-> Ohne ___ Vorbereitung geht das nicht. (Adjektivdeklination — mask., Akk.)
+> Ohne ___ Vorbereitung geht das nicht. (Adjektivendung)
 
 **Optionen:**
 - guten
@@ -116,7 +116,7 @@
 ### 8. `a2-adj-008` · select-one
 
 **Aufgabe:**
-> Der ___ Hund bellt laut. (Adjektivdeklination — fem., Dat.)
+> Der ___ Hund bellt laut. (Adjektivendung)
 
 **Optionen:**
 - kleiner
@@ -130,7 +130,7 @@
 ### 9. `a2-adj-009` · select-one
 
 **Aufgabe:**
-> Ich trinke ___ Tee. (Adjektivdeklination — neutr., Dat.)
+> Ich trinke ___ Tee. (Adjektivendung)
 
 **Optionen:**
 - heißer
@@ -144,7 +144,7 @@
 ### 10. `a2-adj-010` · select-one
 
 **Aufgabe:**
-> Mit ___ Auto fährt er gern. (Adjektivdeklination — neutr., Akk.)
+> Mit ___ Auto fährt er gern. (Adjektivendung)
 
 **Optionen:**
 - neuen
@@ -158,7 +158,7 @@
 ### 11. `a2-adj-011` · select-one
 
 **Aufgabe:**
-> Sie sucht eine ___ Wohnung. (Adjektivdeklination — fem., Akk.)
+> Sie sucht eine ___ Wohnung. (Adjektivendung)
 
 **Optionen:**
 - billigen
@@ -172,7 +172,7 @@
 ### 12. `a2-adj-012` · select-one
 
 **Aufgabe:**
-> In ___ Straße wohnt sie. (Adjektivdeklination — neutr., Dat.)
+> In ___ Straße wohnt sie. (Adjektivendung)
 
 **Optionen:**
 - ruhige
@@ -186,7 +186,7 @@
 ### 13. `a2-adj-013` · select-one
 
 **Aufgabe:**
-> Er isst ___ Brot. (Adjektivdeklination — neutr., Akk.)
+> Er isst ___ Brot. (Adjektivendung)
 
 **Optionen:**
 - frischen
@@ -200,7 +200,7 @@
 ### 14. `a2-adj-014` · select-one
 
 **Aufgabe:**
-> Ich sehe einen ___ Turm. (Adjektivdeklination — mask., Nom.)
+> Ich sehe einen ___ Turm. (Adjektivendung)
 
 **Optionen:**
 - hoher
@@ -214,7 +214,7 @@
 ### 15. `a2-adj-015` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Geschenk. (Adjektivdeklination — fem., Akk.)
+> Das ist ein ___ Geschenk. (Adjektivendung)
 
 **Optionen:**
 - schöne
@@ -228,7 +228,7 @@
 ### 16. `a2-adj-016` · select-one
 
 **Aufgabe:**
-> Das ist ja eine ___ Wohnung! (Adjektivdeklination — neutr., Nom.)
+> Das ist ja eine ___ Wohnung! (Adjektivendung)
 
 **Optionen:**
 - toller
@@ -242,7 +242,7 @@
 ### 17. `a2-adj-017` · select-one
 
 **Aufgabe:**
-> Bei ___ Wind bleibe ich zu Hause. (Adjektivdeklination — fem., Nom.)
+> Bei ___ Wind bleibe ich zu Hause. (Adjektivendung)
 
 **Optionen:**
 - starke
@@ -256,7 +256,7 @@
 ### 18. `a2-adj-018` · select-one
 
 **Aufgabe:**
-> Ich kaufe einen ___ Computer. (Adjektivdeklination — neutr., Akk.)
+> Ich kaufe einen ___ Computer. (Adjektivendung)
 
 **Optionen:**
 - neuer
@@ -270,7 +270,7 @@
 ### 19. `a2-adj-019` · select-one
 
 **Aufgabe:**
-> Das ist eine ___ Lampe. (Adjektivdeklination — mask., Akk.)
+> Das ist eine ___ Lampe. (Adjektivendung)
 
 **Optionen:**
 - alten
@@ -284,7 +284,7 @@
 ### 20. `a2-adj-020` · select-one
 
 **Aufgabe:**
-> Mit ___ Wetter bleibe ich drinnen. (Adjektivdeklination — mask., Dat.)
+> Mit ___ Wetter bleibe ich drinnen. (Adjektivendung)
 
 **Optionen:**
 - kaltes
@@ -298,7 +298,7 @@
 ### 21. `a2-adj-021` · select-one
 
 **Aufgabe:**
-> Er trägt einen ___ Mantel. (Adjektivdeklination — mask., Akk.)
+> Er trägt einen ___ Mantel. (Adjektivendung)
 
 **Optionen:**
 - warmer
@@ -312,7 +312,7 @@
 ### 22. `a2-adj-022` · select-one
 
 **Aufgabe:**
-> In ___ Stadt wohne ich gern. (Adjektivdeklination — mask., Akk.)
+> In ___ Stadt wohne ich gern. (Adjektivendung)
 
 **Optionen:**
 - großen
@@ -326,7 +326,7 @@
 ### 23. `a2-adj-023` · select-one
 
 **Aufgabe:**
-> Sie liest ein ___ Buch. (Adjektivdeklination — neutr., Nom.)
+> Sie liest ein ___ Buch. (Adjektivendung)
 
 **Optionen:**
 - interessante
@@ -340,7 +340,7 @@
 ### 24. `a2-adj-024` · select-one
 
 **Aufgabe:**
-> Ohne ___ Vorbereitung geht das nicht. (Adjektivdeklination — fem., Akk.)
+> Ohne ___ Vorbereitung geht das nicht. (Adjektivendung)
 
 **Optionen:**
 - guter
@@ -354,7 +354,7 @@
 ### 25. `a2-adj-025` · select-one
 
 **Aufgabe:**
-> Der ___ Hund bellt laut. (Adjektivdeklination — mask., Nom.)
+> Der ___ Hund bellt laut. (Adjektivendung)
 
 **Optionen:**
 - kleinen
@@ -368,7 +368,7 @@
 ### 26. `a2-adj-026` · select-one
 
 **Aufgabe:**
-> Ich trinke ___ Tee. (Adjektivdeklination — fem., Akk.)
+> Ich trinke ___ Tee. (Adjektivendung)
 
 **Optionen:**
 - heiße
@@ -382,7 +382,7 @@
 ### 27. `a2-adj-027` · select-one
 
 **Aufgabe:**
-> Mit ___ Auto fährt er gern. (Adjektivdeklination — mask., Dat.)
+> Mit ___ Auto fährt er gern. (Adjektivendung)
 
 **Optionen:**
 - neuer
@@ -396,7 +396,7 @@
 ### 28. `a2-adj-028` · select-one
 
 **Aufgabe:**
-> Sie sucht eine ___ Wohnung. (Adjektivdeklination — fem., Dat.)
+> Sie sucht eine ___ Wohnung. (Adjektivendung)
 
 **Optionen:**
 - billiger
@@ -410,7 +410,7 @@
 ### 29. `a2-adj-029` · select-one
 
 **Aufgabe:**
-> In ___ Straße wohnt sie. (Adjektivdeklination — neutr., Nom.)
+> In ___ Straße wohnt sie. (Adjektivendung)
 
 **Optionen:**
 - ruhigen
@@ -424,7 +424,7 @@
 ### 30. `a2-adj-030` · select-one
 
 **Aufgabe:**
-> Er isst ___ Brot. (Adjektivdeklination — neutr., Dat.)
+> Er isst ___ Brot. (Adjektivendung)
 
 **Optionen:**
 - frischen
@@ -438,7 +438,7 @@
 ### 31. `a2-adj-031` · select-one
 
 **Aufgabe:**
-> Ich sehe einen ___ Turm. (Adjektivdeklination — fem., Akk.)
+> Ich sehe einen ___ Turm. (Adjektivendung)
 
 **Optionen:**
 - hoher
@@ -452,7 +452,7 @@
 ### 32. `a2-adj-032` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Geschenk. (Adjektivdeklination — mask., Dat.)
+> Das ist ein ___ Geschenk. (Adjektivendung)
 
 **Optionen:**
 - schönen
@@ -466,7 +466,7 @@
 ### 33. `a2-adj-033` · select-one
 
 **Aufgabe:**
-> Das ist ja eine ___ Wohnung! (Adjektivdeklination — neutr., Nom.)
+> Das ist ja eine ___ Wohnung! (Adjektivendung)
 
 **Optionen:**
 - tollen
@@ -480,7 +480,7 @@
 ### 34. `a2-adj-034` · select-one
 
 **Aufgabe:**
-> Bei ___ Wind bleibe ich zu Hause. (Adjektivdeklination — neutr., Dat.)
+> Bei ___ Wind bleibe ich zu Hause. (Adjektivendung)
 
 **Optionen:**
 - starken
@@ -494,7 +494,7 @@
 ### 35. `a2-adj-035` · select-one
 
 **Aufgabe:**
-> Ich kaufe einen ___ Computer. (Adjektivdeklination — mask., Akk.)
+> Ich kaufe einen ___ Computer. (Adjektivendung)
 
 **Optionen:**
 - neuem
@@ -508,7 +508,7 @@
 ### 36. `a2-adj-036` · select-one
 
 **Aufgabe:**
-> Das ist eine ___ Lampe. (Adjektivdeklination — fem., Akk.)
+> Das ist eine ___ Lampe. (Adjektivendung)
 
 **Optionen:**
 - alter
@@ -522,7 +522,7 @@
 ### 37. `a2-adj-037` · select-one
 
 **Aufgabe:**
-> Mit ___ Wetter bleibe ich drinnen. (Adjektivdeklination — neutr., Dat.)
+> Mit ___ Wetter bleibe ich drinnen. (Adjektivendung)
 
 **Optionen:**
 - kalte
@@ -536,7 +536,7 @@
 ### 38. `a2-adj-038` · select-one
 
 **Aufgabe:**
-> Er trägt einen ___ Mantel. (Adjektivdeklination — neutr., Akk.)
+> Er trägt einen ___ Mantel. (Adjektivendung)
 
 **Optionen:**
 - warme
@@ -550,7 +550,7 @@
 ### 39. `a2-adj-039` · select-one
 
 **Aufgabe:**
-> In ___ Stadt wohne ich gern. (Adjektivdeklination — fem., Dat.)
+> In ___ Stadt wohne ich gern. (Adjektivendung)
 
 **Optionen:**
 - großen
@@ -564,7 +564,7 @@
 ### 40. `a2-adj-040` · select-one
 
 **Aufgabe:**
-> Sie liest ein ___ Buch. (Adjektivdeklination — fem., Nom.)
+> Sie liest ein ___ Buch. (Adjektivendung)
 
 **Optionen:**
 - interessanten
@@ -578,7 +578,7 @@
 ### 41. `a2-adj-041` · select-one
 
 **Aufgabe:**
-> Ohne ___ Vorbereitung geht das nicht. (Adjektivdeklination — mask., Dat.)
+> Ohne ___ Vorbereitung geht das nicht. (Adjektivendung)
 
 **Optionen:**
 - guten
@@ -592,7 +592,7 @@
 ### 42. `a2-adj-042` · select-one
 
 **Aufgabe:**
-> Der ___ Hund bellt laut. (Adjektivdeklination — fem., Dat.)
+> Der ___ Hund bellt laut. (Adjektivendung)
 
 **Optionen:**
 - kleinen
@@ -606,7 +606,7 @@
 ### 43. `a2-adj-043` · select-one
 
 **Aufgabe:**
-> Ich trinke ___ Tee. (Adjektivdeklination — neutr., Akk.)
+> Ich trinke ___ Tee. (Adjektivendung)
 
 **Optionen:**
 - heißem
@@ -620,7 +620,7 @@
 ### 44. `a2-adj-044` · select-one
 
 **Aufgabe:**
-> Mit ___ Auto fährt er gern. (Adjektivdeklination — mask., Dat.)
+> Mit ___ Auto fährt er gern. (Adjektivendung)
 
 **Optionen:**
 - neues
@@ -634,7 +634,7 @@
 ### 45. `a2-adj-045` · select-one
 
 **Aufgabe:**
-> Sie sucht eine ___ Wohnung. (Adjektivdeklination — fem., Akk.)
+> Sie sucht eine ___ Wohnung. (Adjektivendung)
 
 **Optionen:**
 - billigen
@@ -648,7 +648,7 @@
 ### 46. `a2-adj-046` · select-one
 
 **Aufgabe:**
-> In ___ Straße wohnt sie. (Adjektivdeklination — neutr., Nom.)
+> In ___ Straße wohnt sie. (Adjektivendung)
 
 **Optionen:**
 - ruhigen
@@ -662,7 +662,7 @@
 ### 47. `a2-adj-047` · select-one
 
 **Aufgabe:**
-> Er isst ___ Brot. (Adjektivdeklination — mask., Akk.)
+> Er isst ___ Brot. (Adjektivendung)
 
 **Optionen:**
 - frischen
@@ -676,7 +676,7 @@
 ### 48. `a2-adj-048` · select-one
 
 **Aufgabe:**
-> Ich sehe einen ___ Turm. (Adjektivdeklination — fem., Akk.)
+> Ich sehe einen ___ Turm. (Adjektivendung)
 
 **Optionen:**
 - hohes
@@ -690,7 +690,7 @@
 ### 49. `a2-adj-049` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Geschenk. (Adjektivdeklination — fem., Dat.)
+> Das ist ein ___ Geschenk. (Adjektivendung)
 
 **Optionen:**
 - schöne
@@ -704,7 +704,7 @@
 ### 50. `a2-adj-050` · select-one
 
 **Aufgabe:**
-> Das ist ja eine ___ Wohnung! (Adjektivdeklination — mask., Akk.)
+> Das ist ja eine ___ Wohnung! (Adjektivendung)
 
 **Optionen:**
 - tollen
@@ -720,7 +720,7 @@
 ### 51. `a2-adj-in-001` · input-text
 
 **Aufgabe:**
-> Das ist ein ___ Hund. (Adjektivdeklination — mask., Nom.)
+> Das ist ein ___ Hund. (Adjektivendung)
 
 **Antwort:** `kleiner`
 
@@ -730,7 +730,7 @@
 ### 52. `a2-adj-in-002` · input-text
 
 **Aufgabe:**
-> Der ___ Hund bellt laut. (Adjektivdeklination — mask., Nom.)
+> Der ___ Hund bellt laut. (Adjektivendung)
 
 **Antwort:** `kleine`
 
@@ -740,7 +740,7 @@
 ### 53. `a2-adj-in-003` · input-text
 
 **Aufgabe:**
-> Ich habe eine ___ Katze. (Adjektivdeklination — fem., Akk.)
+> Ich habe eine ___ Katze. (Adjektivendung)
 
 **Antwort:** `schöne`
 
@@ -750,7 +750,7 @@
 ### 54. `a2-adj-in-004` · input-text
 
 **Aufgabe:**
-> Das ___ Auto ist schnell. (Adjektivdeklination — neutr., Nom.)
+> Das ___ Auto ist schnell. (Adjektivendung)
 
 **Antwort:** `neue`
 
@@ -760,7 +760,7 @@
 ### 55. `a2-adj-in-005` · input-text
 
 **Aufgabe:**
-> Ich habe keine ___ Wohnung. (Adjektivdeklination — fem., Akk.)
+> Ich habe keine ___ Wohnung. (Adjektivendung)
 
 **Antwort:** `große`
 
@@ -770,7 +770,7 @@
 ### 56. `a2-adj-in-006` · input-text
 
 **Aufgabe:**
-> Er fährt ein ___ Fahrrad. (Adjektivdeklination — neutr., Akk.)
+> Er fährt ein ___ Fahrrad. (Adjektivendung)
 
 **Antwort:** `schnelles`
 
@@ -780,7 +780,7 @@
 ### 57. `a2-adj-in-007` · input-text
 
 **Aufgabe:**
-> Sie hat einen ___ Freund. (Adjektivdeklination — mask., Akk.)
+> Sie hat einen ___ Freund. (Adjektivendung)
 
 **Antwort:** `netten`
 
@@ -790,7 +790,7 @@
 ### 58. `a2-adj-in-008` · input-text
 
 **Aufgabe:**
-> In der ___ Schule lerne ich Deutsch. (Adjektivdeklination — fem., Dat.)
+> In der ___ Schule lerne ich Deutsch. (Adjektivendung)
 
 **Antwort:** `neuen`
 
@@ -800,7 +800,7 @@
 ### 59. `a2-adj-in-009` · input-text
 
 **Aufgabe:**
-> Bei ___ Wetter bleibe ich zu Hause. (Adjektivdeklination — neutr., Dat.)
+> Bei ___ Wetter bleibe ich zu Hause. (Adjektivendung)
 
 **Antwort:** `schlechtem`
 
@@ -810,7 +810,7 @@
 ### 60. `a2-adj-in-010` · input-text
 
 **Aufgabe:**
-> Wir hören ein ___ Lied. (Adjektivdeklination — neutr., Akk.)
+> Wir hören ein ___ Lied. (Adjektivendung)
 
 **Antwort:** `lautes`
 
@@ -820,7 +820,7 @@
 ### 61. `a2-adj-in-011` · input-text
 
 **Aufgabe:**
-> Der Kellner bringt eine ___ Suppe. (Adjektivdeklination — fem., Akk.)
+> Der Kellner bringt eine ___ Suppe. (Adjektivendung)
 
 **Antwort:** `warme`
 
@@ -830,7 +830,7 @@
 ### 62. `a2-adj-in-012` · input-text
 
 **Aufgabe:**
-> Im ___ Zimmer schlafe ich gut. (Adjektivdeklination — neutr., Dat.)
+> Im ___ Zimmer schlafe ich gut. (Adjektivendung)
 
 **Antwort:** `kleinen`
 
@@ -840,7 +840,7 @@
 ### 63. `a2-adj-in-013` · input-text
 
 **Aufgabe:**
-> Ich suche ein ___ Geschenk. (Adjektivdeklination — neutr., Akk.)
+> Ich suche ein ___ Geschenk. (Adjektivendung)
 
 **Antwort:** `gutes`
 
@@ -850,7 +850,7 @@
 ### 64. `a2-adj-in-014` · input-text
 
 **Aufgabe:**
-> Mein ___ Job gefällt mir. (Adjektivdeklination — mask., Nom.)
+> Mein ___ Job gefällt mir. (Adjektivendung)
 
 **Antwort:** `neuer`
 
@@ -860,7 +860,7 @@
 ### 65. `a2-adj-in-015` · input-text
 
 **Aufgabe:**
-> Wir besuchen eine ___ Stadt. (Adjektivdeklination — fem., Akk.)
+> Wir besuchen eine ___ Stadt. (Adjektivendung)
 
 **Antwort:** `alte`
 
@@ -870,7 +870,7 @@
 ### 66. `a2-adj-in-016` · input-text
 
 **Aufgabe:**
-> Das ist kein ___ Problem. (Adjektivdeklination — neutr., Nom.)
+> Das ist kein ___ Problem. (Adjektivendung)
 
 **Antwort:** `schweres`
 
@@ -880,7 +880,7 @@
 ### 67. `a2-adj-in-017` · input-text
 
 **Aufgabe:**
-> Meine ___ Schwester wohnt in Berlin. (Adjektivdeklination — fem., Nom.)
+> Meine ___ Schwester wohnt in Berlin. (Adjektivendung)
 
 **Antwort:** `junge`
 
@@ -890,7 +890,7 @@
 ### 68. `a2-adj-in-018` · input-text
 
 **Aufgabe:**
-> Nach dem Sport trinke ich ___ Wasser. (Adjektivdeklination — neutr., Akk.)
+> Nach dem Sport trinke ich ___ Wasser. (Adjektivendung)
 
 **Antwort:** `kaltes`
 
@@ -900,7 +900,7 @@
 ### 69. `a2-adj-in-019` · input-text
 
 **Aufgabe:**
-> Sie trägt einen ___ Mantel. (Adjektivdeklination — mask., Akk.)
+> Sie trägt einen ___ Mantel. (Adjektivendung)
 
 **Antwort:** `warmen`
 
@@ -910,7 +910,7 @@
 ### 70. `a2-adj-in-020` · input-text
 
 **Aufgabe:**
-> Auf dem ___ Markt kaufe ich Obst. (Adjektivdeklination — mask., Dat.)
+> Auf dem ___ Markt kaufe ich Obst. (Adjektivendung)
 
 **Antwort:** `großen`
 
@@ -920,7 +920,7 @@
 ### 71. `a2-adj-in-021` · input-text
 
 **Aufgabe:**
-> Wir steigen in den ___ Bus ein. (Adjektivdeklination — mask., Akk.)
+> Wir steigen in den ___ Bus ein. (Adjektivendung)
 
 **Antwort:** `vollen`
 
@@ -930,7 +930,7 @@
 ### 72. `a2-adj-in-022` · input-text
 
 **Aufgabe:**
-> Ich esse einen ___ Salat. (Adjektivdeklination — mask., Akk.)
+> Ich esse einen ___ Salat. (Adjektivendung)
 
 **Antwort:** `frischen`
 
@@ -940,7 +940,7 @@
 ### 73. `a2-adj-in-023` · input-text
 
 **Aufgabe:**
-> Das ist ein ___ Spiel. (Adjektivdeklination — neutr., Nom.)
+> Das ist ein ___ Spiel. (Adjektivendung)
 
 **Antwort:** `spannendes`
 
@@ -950,7 +950,7 @@
 ### 74. `a2-adj-in-024` · input-text
 
 **Aufgabe:**
-> Sie spielt eine ___ Gitarre. (Adjektivdeklination — fem., Akk.)
+> Sie spielt eine ___ Gitarre. (Adjektivendung)
 
 **Antwort:** `teure`
 
@@ -960,7 +960,7 @@
 ### 75. `a2-adj-in-025` · input-text
 
 **Aufgabe:**
-> Der ___ Lehrer erklärt gut. (Adjektivdeklination — mask., Nom.)
+> Der ___ Lehrer erklärt gut. (Adjektivendung)
 
 **Antwort:** `junge`
 
@@ -970,7 +970,7 @@
 ### 76. `a2-adj-in-026` · input-text
 
 **Aufgabe:**
-> Ich kenne eine ___ Familie. (Adjektivdeklination — fem., Akk.)
+> Ich kenne eine ___ Familie. (Adjektivendung)
 
 **Antwort:** `freundliche`
 
@@ -980,7 +980,7 @@
 ### 77. `a2-adj-in-027` · input-text
 
 **Aufgabe:**
-> An einem ___ Tag gehen wir spazieren. (Adjektivdeklination — mask., Dat.)
+> An einem ___ Tag gehen wir spazieren. (Adjektivendung)
 
 **Antwort:** `sonnigen`
 
@@ -990,7 +990,7 @@
 ### 78. `a2-adj-in-028` · input-text
 
 **Aufgabe:**
-> In der ___ Küche kocht meine Mutter. (Adjektivdeklination — fem., Dat.)
+> In der ___ Küche kocht meine Mutter. (Adjektivendung)
 
 **Antwort:** `hellen`
 
@@ -1000,7 +1000,7 @@
 ### 79. `a2-adj-in-029` · input-text
 
 **Aufgabe:**
-> Das ___ Pferd läuft schnell. (Adjektivdeklination — neutr., Nom.)
+> Das ___ Pferd läuft schnell. (Adjektivendung)
 
 **Antwort:** `braune`
 
@@ -1010,7 +1010,7 @@
 ### 80. `a2-adj-in-030` · input-text
 
 **Aufgabe:**
-> Wir übernachten in einem ___ Hotel. (Adjektivdeklination — neutr., Dat.)
+> Wir übernachten in einem ___ Hotel. (Adjektivendung)
 
 **Antwort:** `billigen`
 
@@ -1020,7 +1020,7 @@
 ### 81. `a2-adj-in-031` · input-text
 
 **Aufgabe:**
-> Er hat eine ___ Idee. (Adjektivdeklination — fem., Akk.)
+> Er hat eine ___ Idee. (Adjektivendung)
 
 **Antwort:** `gute`
 
@@ -1030,7 +1030,7 @@
 ### 82. `a2-adj-in-032` · input-text
 
 **Aufgabe:**
-> Im ___ Laden ist alles günstig. (Adjektivdeklination — mask., Dat.)
+> Im ___ Laden ist alles günstig. (Adjektivendung)
 
 **Antwort:** `kleinen`
 
@@ -1040,9 +1040,9 @@
 ### 83. `a2-adj-in-033` · input-text
 
 **Aufgabe:**
-> Das ist mein ___ Buch. (Adjektivdeklination — neutr., Nom.)
+> Das ist mein ___ Buch. (Adjektivendung)
 
-**Antwort:** `liebes`
+**Antwort:** `neues`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1050,7 +1050,7 @@
 ### 84. `a2-adj-in-034` · input-text
 
 **Aufgabe:**
-> Sie wohnt in einem ___ Haus. (Adjektivdeklination — neutr., Dat.)
+> Sie wohnt in einem ___ Haus. (Adjektivendung)
 
 **Antwort:** `alten`
 
@@ -1060,7 +1060,7 @@
 ### 85. `a2-adj-in-035` · input-text
 
 **Aufgabe:**
-> Ich sehe einen ___ Turm. (Adjektivdeklination — mask., Akk.)
+> Ich sehe einen ___ Turm. (Adjektivendung)
 
 **Antwort:** `hohen`
 
@@ -1070,7 +1070,7 @@
 ### 86. `a2-adj-in-036` · input-text
 
 **Aufgabe:**
-> Wir trinken eine ___ Limonade. (Adjektivdeklination — fem., Akk.)
+> Wir trinken eine ___ Limonade. (Adjektivendung)
 
 **Antwort:** `kalte`
 
@@ -1080,7 +1080,7 @@
 ### 87. `a2-adj-in-037` · input-text
 
 **Aufgabe:**
-> Nach dem ___ Training bin ich müde. (Adjektivdeklination — neutr., Dat.)
+> Nach dem ___ Training bin ich müde. (Adjektivendung)
 
 **Antwort:** `harten`
 
@@ -1090,7 +1090,7 @@
 ### 88. `a2-adj-in-038` · input-text
 
 **Aufgabe:**
-> Er singt ein ___ Lied. (Adjektivdeklination — neutr., Akk.)
+> Er singt ein ___ Lied. (Adjektivendung)
 
 **Antwort:** `bekanntes`
 
@@ -1100,7 +1100,7 @@
 ### 89. `a2-adj-in-039` · input-text
 
 **Aufgabe:**
-> In der ___ Klasse sind 25 Schüler. (Adjektivdeklination — fem., Dat.)
+> In der ___ Klasse sind 25 Schüler. (Adjektivendung)
 
 **Antwort:** `fünften`
 
@@ -1110,7 +1110,7 @@
 ### 90. `a2-adj-in-040` · input-text
 
 **Aufgabe:**
-> Das ist eine ___ Einladung. (Adjektivdeklination — fem., Nom.)
+> Das ist eine ___ Einladung. (Adjektivendung)
 
 **Antwort:** `offizielle`
 
@@ -1120,7 +1120,7 @@
 ### 91. `a2-adj-in-041` · input-text
 
 **Aufgabe:**
-> Bei ___ Wind ziehe ich eine Jacke an. (Adjektivdeklination — mask., Dat.)
+> Bei ___ Wind ziehe ich eine Jacke an. (Adjektivendung)
 
 **Antwort:** `starkem`
 
@@ -1130,7 +1130,7 @@
 ### 92. `a2-adj-in-042` · input-text
 
 **Aufgabe:**
-> Wir fahren mit der ___ Bahn. (Adjektivdeklination — fem., Dat.)
+> Wir fahren mit der ___ Bahn. (Adjektivendung)
 
 **Antwort:** `schnellen`
 
@@ -1140,7 +1140,7 @@
 ### 93. `a2-adj-in-043` · input-text
 
 **Aufgabe:**
-> Sie kauft ein ___ Kleid. (Adjektivdeklination — neutr., Akk.)
+> Sie kauft ein ___ Kleid. (Adjektivendung)
 
 **Antwort:** `rotes`
 
@@ -1150,7 +1150,7 @@
 ### 94. `a2-adj-in-044` · input-text
 
 **Aufgabe:**
-> Auf dem ___ Balkon frühstücken wir. (Adjektivdeklination — mask., Dat.)
+> Auf dem ___ Balkon frühstücken wir. (Adjektivendung)
 
 **Antwort:** `sonnigen`
 
@@ -1160,7 +1160,7 @@
 ### 95. `a2-adj-in-045` · input-text
 
 **Aufgabe:**
-> Wir machen eine ___ Reise. (Adjektivdeklination — fem., Akk.)
+> Wir machen eine ___ Reise. (Adjektivendung)
 
 **Antwort:** `lange`
 
@@ -1170,7 +1170,7 @@
 ### 96. `a2-adj-in-046` · input-text
 
 **Aufgabe:**
-> Das ist ein ___ Projekt. (Adjektivdeklination — neutr., Nom.)
+> Das ist ein ___ Projekt. (Adjektivendung)
 
 **Antwort:** `wichtiges`
 
@@ -1180,7 +1180,7 @@
 ### 97. `a2-adj-in-047` · input-text
 
 **Aufgabe:**
-> Er liest einen ___ Roman. (Adjektivdeklination — mask., Akk.)
+> Er liest einen ___ Roman. (Adjektivendung)
 
 **Antwort:** `interessanten`
 
@@ -1190,7 +1190,7 @@
 ### 98. `a2-adj-in-048` · input-text
 
 **Aufgabe:**
-> Ich bestelle eine ___ Pizza. (Adjektivdeklination — fem., Akk.)
+> Ich bestelle eine ___ Pizza. (Adjektivendung)
 
 **Antwort:** `große`
 
@@ -1200,7 +1200,7 @@
 ### 99. `a2-adj-in-049` · input-text
 
 **Aufgabe:**
-> In der ___ Straße wohne ich. (Adjektivdeklination — fem., Dat.)
+> In der ___ Straße wohne ich. (Adjektivendung)
 
 **Antwort:** `ruhigen`
 
@@ -1210,7 +1210,7 @@
 ### 100. `a2-adj-in-050` · input-text
 
 **Aufgabe:**
-> Ich kaufe einen ___ Computer. (Adjektivdeklination — mask., Akk.)
+> Ich kaufe einen ___ Computer. (Adjektivendung)
 
 **Antwort:** `neuen`
 
@@ -1222,7 +1222,7 @@
 ### 101. `a2-adj-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (klein, mask., Nom. — kleiner)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Das · ist · ein · kleiner · Hund
 
@@ -1232,7 +1232,7 @@
 ### 102. `a2-adj-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (klein, mask., Nom. — kleine)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Der · kleine · Hund · bellt · laut
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-adj-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schön, fem., Akk. — schöne)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Ich · habe · eine · schöne · Katze
 
@@ -1252,7 +1252,7 @@
 ### 104. `a2-adj-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (neu, neutr., Nom. — neue)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Das · neue · Auto · ist · schnell
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-adj-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (groß, fem., Akk. — große)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Ich · habe · keine · große · Wohnung
 
@@ -1272,7 +1272,7 @@
 ### 106. `a2-adj-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schnell, neutr., Akk. — schnelles)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Er · fährt · ein · schnelles · Fahrrad
 
@@ -1282,7 +1282,7 @@
 ### 107. `a2-adj-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (nett, mask., Akk. — netten)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Sie · hat · einen · netten · Freund
 
@@ -1292,7 +1292,7 @@
 ### 108. `a2-adj-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (neu, fem., Dat. — neuen)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** In · der · neuen · Schule · lerne · ich · Deutsch
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-adj-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schlecht, neutr., Dat. — schlechtem)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Bei · schlechtem · Wetter · bleibe · ich · zu · Hause
 
@@ -1312,7 +1312,7 @@
 ### 110. `a2-adj-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (laut, neutr., Akk. — lautes)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Wir · hören · ein · lautes · Lied
 
@@ -1322,7 +1322,7 @@
 ### 111. `a2-adj-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (warm, fem., Akk. — warme)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Der · Kellner · bringt · eine · warme · Suppe
 
@@ -1332,7 +1332,7 @@
 ### 112. `a2-adj-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (klein, neutr., Dat. — kleinen)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Im · kleinen · Zimmer · schlafe · ich · gut
 
@@ -1342,7 +1342,7 @@
 ### 113. `a2-adj-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (gut, neutr., Akk. — gutes)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Ich · suche · ein · gutes · Geschenk
 
@@ -1352,7 +1352,7 @@
 ### 114. `a2-adj-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (neu, mask., Nom. — neuer)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Mein · neuer · Job · gefällt · mir
 
@@ -1362,7 +1362,7 @@
 ### 115. `a2-adj-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (alt, fem., Akk. — alte)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Wir · besuchen · eine · alte · Stadt
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-adj-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schwer, neutr., Nom. — schweres)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Das · ist · kein · schweres · Problem
 
@@ -1382,7 +1382,7 @@
 ### 117. `a2-adj-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (jung, fem., Nom. — junge)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Meine · junge · Schwester · wohnt · in · Berlin
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-adj-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (klein, mask., Nom. — kleiner)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Das · ist · ein · kleiner · Hund
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-adj-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (klein, mask., Nom. — kleine)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Der · kleine · Hund · bellt · laut
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-adj-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schön, fem., Akk. — schöne)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Ich · habe · eine · schöne · Katze
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-adj-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (neu, neutr., Nom. — neue)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Das · neue · Auto · ist · schnell
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-adj-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (groß, fem., Akk. — große)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Ich · habe · keine · große · Wohnung
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-adj-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schnell, neutr., Akk. — schnelles)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Er · fährt · ein · schnelles · Fahrrad
 
@@ -1452,7 +1452,7 @@
 ### 124. `a2-adj-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (nett, mask., Akk. — netten)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Sie · hat · einen · netten · Freund
 
@@ -1462,7 +1462,7 @@
 ### 125. `a2-adj-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (neu, fem., Dat. — neuen)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** In · der · neuen · Schule · lerne · ich · Deutsch
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-adj-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schlecht, neutr., Dat. — schlechtem)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Bei · schlechtem · Wetter · bleibe · ich · zu · Hause
 
@@ -1482,7 +1482,7 @@
 ### 127. `a2-adj-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (laut, neutr., Akk. — lautes)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Wir · hören · ein · lautes · Lied
 
@@ -1492,7 +1492,7 @@
 ### 128. `a2-adj-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (warm, fem., Akk. — warme)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Der · Kellner · bringt · eine · warme · Suppe
 
@@ -1502,7 +1502,7 @@
 ### 129. `a2-adj-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (klein, neutr., Dat. — kleinen)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Im · kleinen · Zimmer · schlafe · ich · gut
 
@@ -1512,7 +1512,7 @@
 ### 130. `a2-adj-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (gut, neutr., Akk. — gutes)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Ich · suche · ein · gutes · Geschenk
 
@@ -1522,7 +1522,7 @@
 ### 131. `a2-adj-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (neu, mask., Nom. — neuer)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Mein · neuer · Job · gefällt · mir
 
@@ -1532,7 +1532,7 @@
 ### 132. `a2-adj-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (alt, fem., Akk. — alte)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Wir · besuchen · eine · alte · Stadt
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-adj-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schwer, neutr., Nom. — schweres)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Das · ist · kein · schweres · Problem
 
@@ -1552,7 +1552,7 @@
 ### 134. `a2-adj-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (jung, fem., Nom. — junge)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Meine · junge · Schwester · wohnt · in · Berlin
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-adj-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (klein, mask., Nom. — kleiner)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Das · ist · ein · kleiner · Hund
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-adj-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (klein, mask., Nom. — kleine)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Der · kleine · Hund · bellt · laut
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-adj-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schön, fem., Akk. — schöne)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Ich · habe · eine · schöne · Katze
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-adj-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (neu, neutr., Nom. — neue)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Das · neue · Auto · ist · schnell
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-adj-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (groß, fem., Akk. — große)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Ich · habe · keine · große · Wohnung
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-adj-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schnell, neutr., Akk. — schnelles)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Er · fährt · ein · schnelles · Fahrrad
 
@@ -1622,7 +1622,7 @@
 ### 141. `a2-adj-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (nett, mask., Akk. — netten)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Sie · hat · einen · netten · Freund
 
@@ -1632,7 +1632,7 @@
 ### 142. `a2-adj-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (neu, fem., Dat. — neuen)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** In · der · neuen · Schule · lerne · ich · Deutsch
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-adj-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schlecht, neutr., Dat. — schlechtem)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Bei · schlechtem · Wetter · bleibe · ich · zu · Hause
 
@@ -1652,7 +1652,7 @@
 ### 144. `a2-adj-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (laut, neutr., Akk. — lautes)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Wir · hören · ein · lautes · Lied
 
@@ -1662,7 +1662,7 @@
 ### 145. `a2-adj-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (warm, fem., Akk. — warme)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Der · Kellner · bringt · eine · warme · Suppe
 
@@ -1672,7 +1672,7 @@
 ### 146. `a2-adj-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (klein, neutr., Dat. — kleinen)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Im · kleinen · Zimmer · schlafe · ich · gut
 
@@ -1682,7 +1682,7 @@
 ### 147. `a2-adj-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (gut, neutr., Akk. — gutes)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Ich · suche · ein · gutes · Geschenk
 
@@ -1692,7 +1692,7 @@
 ### 148. `a2-adj-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (neu, mask., Nom. — neuer)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Mein · neuer · Job · gefällt · mir
 
@@ -1702,7 +1702,7 @@
 ### 149. `a2-adj-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (alt, fem., Akk. — alte)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Wir · besuchen · eine · alte · Stadt
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-adj-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (schwer, neutr., Nom. — schweres)
+> Ordne die Wörter zum richtigen Satz: (Adjektivendung)
 
 **Wörter:** Das · ist · kein · schweres · Problem
 

@@ -88,7 +88,7 @@
 ### 6. `b1-perf-006` · select-one
 
 **Aufgabe:**
-> Er ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
+> Er ___ nach Berlin gefahren. (Perfektform)
 
 **Optionen:**
 - hat
@@ -102,7 +102,7 @@
 ### 7. `b1-perf-007` · select-one
 
 **Aufgabe:**
-> Wir ___ die Rechnung schon bezahlt. (Perfekt + Hilfsverb haben)
+> Wir ___ die Rechnung schon bezahlt. (Perfektform)
 
 **Optionen:**
 - war
@@ -116,7 +116,7 @@
 ### 8. `b1-perf-008` · select-one
 
 **Aufgabe:**
-> Sie ___ sich beim Sport verletzt. (Perfekt + Hilfsverb haben)
+> Sie ___ sich beim Sport verletzt. (Perfektform)
 
 **Optionen:**
 - ist
@@ -130,7 +130,7 @@
 ### 9. `b1-perf-009` · select-one
 
 **Aufgabe:**
-> Ich ___ die ganze Nacht gearbeitet. (Perfekt + Hilfsverb haben)
+> Ich ___ die ganze Nacht gearbeitet. (Perfektform)
 
 **Optionen:**
 - ist
@@ -144,7 +144,7 @@
 ### 10. `b1-perf-010` · select-one
 
 **Aufgabe:**
-> Die Politiker ___ eine Einigung erzielt. (Perfekt + Hilfsverb haben)
+> Die Politiker ___ eine Einigung erzielt. (Perfektform)
 
 **Optionen:**
 - hat
@@ -158,7 +158,7 @@
 ### 11. `b1-perf-011` · select-one
 
 **Aufgabe:**
-> Er ___ das Medikament eingenommen. (Perfekt + Hilfsverb haben)
+> Er ___ das Medikament eingenommen. (Perfektform)
 
 **Optionen:**
 - haben
@@ -172,7 +172,7 @@
 ### 12. `b1-perf-012` · select-one
 
 **Aufgabe:**
-> Wir ___ den ganzen Tag gereist. (Perfekt + Hilfsverb sein)
+> Wir ___ den ganzen Tag gereist. (Perfektform)
 
 **Optionen:**
 - wird
@@ -186,7 +186,7 @@
 ### 13. `b1-perf-013` · select-one
 
 **Aufgabe:**
-> Sie ___ ein wichtiges Gespräch geführt. (Perfekt + Hilfsverb haben)
+> Sie ___ ein wichtiges Gespräch geführt. (Perfektform)
 
 **Optionen:**
 - haben
@@ -200,7 +200,7 @@
 ### 14. `b1-perf-014` · select-one
 
 **Aufgabe:**
-> Ich ___ mich über das Ergebnis gefreut. (Perfekt + Hilfsverb haben)
+> Ich ___ mich über das Ergebnis gefreut. (Perfektform)
 
 **Optionen:**
 - bin
@@ -214,7 +214,7 @@
 ### 15. `b1-perf-015` · select-one
 
 **Aufgabe:**
-> Die Firma ___ viele neue Mitarbeiter eingestellt. (Perfekt + Hilfsverb haben)
+> Die Firma ___ viele neue Mitarbeiter eingestellt. (Perfektform)
 
 **Optionen:**
 - war
@@ -228,7 +228,7 @@
 ### 16. `b1-perf-016` · select-one
 
 **Aufgabe:**
-> Der Minister ___ die neue Regelung erklärt. (Perfekt + Hilfsverb haben)
+> Der Minister ___ die neue Regelung erklärt. (Perfektform)
 
 **Optionen:**
 - ist
@@ -242,7 +242,7 @@
 ### 17. `b1-perf-017` · select-one
 
 **Aufgabe:**
-> Wir ___ pünktlich am Flughafen angekommen. (Perfekt + Hilfsverb sein)
+> Wir ___ pünktlich am Flughafen angekommen. (Perfektform)
 
 **Optionen:**
 - hat
@@ -256,7 +256,7 @@
 ### 18. `b1-perf-018` · select-one
 
 **Aufgabe:**
-> Sie ___ sich für den Kurs angemeldet. (Perfekt + Hilfsverb haben)
+> Sie ___ sich für den Kurs angemeldet. (Perfektform)
 
 **Optionen:**
 - ist
@@ -270,7 +270,7 @@
 ### 19. `b1-perf-019` · select-one
 
 **Aufgabe:**
-> Ich ___ den Artikel gestern gelesen. (Perfekt + Hilfsverb haben)
+> Ich ___ den Artikel gestern gelesen. (Perfektform)
 
 **Optionen:**
 - ist
@@ -284,7 +284,7 @@
 ### 20. `b1-perf-020` · select-one
 
 **Aufgabe:**
-> Die Studierenden ___ lange über das Thema diskutiert. (Perfekt + Hilfsverb haben)
+> Die Studierenden ___ lange über das Thema diskutiert. (Perfektform)
 
 **Optionen:**
 - wird
@@ -298,7 +298,7 @@
 ### 21. `b1-perf-021` · select-one
 
 **Aufgabe:**
-> Er ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
+> Er ___ nach Berlin gefahren. (Perfektform)
 
 **Optionen:**
 - haben
@@ -312,7 +312,7 @@
 ### 22. `b1-perf-022` · select-one
 
 **Aufgabe:**
-> Wir ___ die Rechnung schon bezahlt. (Perfekt + Hilfsverb haben)
+> Wir ___ die Rechnung schon bezahlt. (Perfektform)
 
 **Optionen:**
 - hat
@@ -326,7 +326,7 @@
 ### 23. `b1-perf-023` · select-one
 
 **Aufgabe:**
-> Sie ___ sich beim Sport verletzt. (Perfekt + Hilfsverb haben)
+> Sie ___ sich beim Sport verletzt. (Perfektform)
 
 **Optionen:**
 - war
@@ -340,7 +340,7 @@
 ### 24. `b1-perf-024` · select-one
 
 **Aufgabe:**
-> Ich ___ die ganze Nacht gearbeitet. (Perfekt + Hilfsverb haben)
+> Ich ___ die ganze Nacht gearbeitet. (Perfektform)
 
 **Optionen:**
 - wird
@@ -354,7 +354,7 @@
 ### 25. `b1-perf-025` · select-one
 
 **Aufgabe:**
-> Die Politiker ___ eine Einigung erzielt. (Perfekt + Hilfsverb haben)
+> Die Politiker ___ eine Einigung erzielt. (Perfektform)
 
 **Optionen:**
 - hat
@@ -368,7 +368,7 @@
 ### 26. `b1-perf-026` · select-one
 
 **Aufgabe:**
-> Er ___ das Medikament eingenommen. (Perfekt + Hilfsverb haben)
+> Er ___ das Medikament eingenommen. (Perfektform)
 
 **Optionen:**
 - haben
@@ -382,7 +382,7 @@
 ### 27. `b1-perf-027` · select-one
 
 **Aufgabe:**
-> Wir ___ den ganzen Tag gereist. (Perfekt + Hilfsverb sein)
+> Wir ___ den ganzen Tag gereist. (Perfektform)
 
 **Optionen:**
 - hat
@@ -396,7 +396,7 @@
 ### 28. `b1-perf-028` · select-one
 
 **Aufgabe:**
-> Sie ___ ein wichtiges Gespräch geführt. (Perfekt + Hilfsverb haben)
+> Sie ___ ein wichtiges Gespräch geführt. (Perfektform)
 
 **Optionen:**
 - wird
@@ -410,7 +410,7 @@
 ### 29. `b1-perf-029` · select-one
 
 **Aufgabe:**
-> Ich ___ mich über das Ergebnis gefreut. (Perfekt + Hilfsverb haben)
+> Ich ___ mich über das Ergebnis gefreut. (Perfektform)
 
 **Optionen:**
 - ist
@@ -424,7 +424,7 @@
 ### 30. `b1-perf-030` · select-one
 
 **Aufgabe:**
-> Die Firma ___ viele neue Mitarbeiter eingestellt. (Perfekt + Hilfsverb haben)
+> Die Firma ___ viele neue Mitarbeiter eingestellt. (Perfektform)
 
 **Optionen:**
 - haben
@@ -438,7 +438,7 @@
 ### 31. `b1-perf-031` · select-one
 
 **Aufgabe:**
-> Der Minister ___ die neue Regelung erklärt. (Perfekt + Hilfsverb haben)
+> Der Minister ___ die neue Regelung erklärt. (Perfektform)
 
 **Optionen:**
 - war
@@ -452,7 +452,7 @@
 ### 32. `b1-perf-032` · select-one
 
 **Aufgabe:**
-> Wir ___ pünktlich am Flughafen angekommen. (Perfekt + Hilfsverb sein)
+> Wir ___ pünktlich am Flughafen angekommen. (Perfektform)
 
 **Optionen:**
 - haben
@@ -466,7 +466,7 @@
 ### 33. `b1-perf-033` · select-one
 
 **Aufgabe:**
-> Sie ___ sich für den Kurs angemeldet. (Perfekt + Hilfsverb haben)
+> Sie ___ sich für den Kurs angemeldet. (Perfektform)
 
 **Optionen:**
 - haben
@@ -480,7 +480,7 @@
 ### 34. `b1-perf-034` · select-one
 
 **Aufgabe:**
-> Ich ___ den Artikel gestern gelesen. (Perfekt + Hilfsverb haben)
+> Ich ___ den Artikel gestern gelesen. (Perfektform)
 
 **Optionen:**
 - ist
@@ -494,7 +494,7 @@
 ### 35. `b1-perf-035` · select-one
 
 **Aufgabe:**
-> Die Studierenden ___ lange über das Thema diskutiert. (Perfekt + Hilfsverb haben)
+> Die Studierenden ___ lange über das Thema diskutiert. (Perfektform)
 
 **Optionen:**
 - hat
@@ -508,7 +508,7 @@
 ### 36. `b1-perf-036` · select-one
 
 **Aufgabe:**
-> Er ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
+> Er ___ nach Berlin gefahren. (Perfektform)
 
 **Optionen:**
 - hat
@@ -522,7 +522,7 @@
 ### 37. `b1-perf-037` · select-one
 
 **Aufgabe:**
-> Wir ___ die Rechnung schon bezahlt. (Perfekt + Hilfsverb haben)
+> Wir ___ die Rechnung schon bezahlt. (Perfektform)
 
 **Optionen:**
 - hat
@@ -536,7 +536,7 @@
 ### 38. `b1-perf-038` · select-one
 
 **Aufgabe:**
-> Sie ___ sich beim Sport verletzt. (Perfekt + Hilfsverb haben)
+> Sie ___ sich beim Sport verletzt. (Perfektform)
 
 **Optionen:**
 - haben
@@ -550,7 +550,7 @@
 ### 39. `b1-perf-039` · select-one
 
 **Aufgabe:**
-> Ich ___ die ganze Nacht gearbeitet. (Perfekt + Hilfsverb haben)
+> Ich ___ die ganze Nacht gearbeitet. (Perfektform)
 
 **Optionen:**
 - ist
@@ -564,7 +564,7 @@
 ### 40. `b1-perf-040` · select-one
 
 **Aufgabe:**
-> Die Politiker ___ eine Einigung erzielt. (Perfekt + Hilfsverb haben)
+> Die Politiker ___ eine Einigung erzielt. (Perfektform)
 
 **Optionen:**
 - sind
@@ -578,7 +578,7 @@
 ### 41. `b1-perf-041` · select-one
 
 **Aufgabe:**
-> Er ___ das Medikament eingenommen. (Perfekt + Hilfsverb haben)
+> Er ___ das Medikament eingenommen. (Perfektform)
 
 **Optionen:**
 - haben
@@ -592,7 +592,7 @@
 ### 42. `b1-perf-042` · select-one
 
 **Aufgabe:**
-> Wir ___ den ganzen Tag gereist. (Perfekt + Hilfsverb sein)
+> Wir ___ den ganzen Tag gereist. (Perfektform)
 
 **Optionen:**
 - hat
@@ -606,7 +606,7 @@
 ### 43. `b1-perf-043` · select-one
 
 **Aufgabe:**
-> Sie ___ ein wichtiges Gespräch geführt. (Perfekt + Hilfsverb haben)
+> Sie ___ ein wichtiges Gespräch geführt. (Perfektform)
 
 **Optionen:**
 - haben
@@ -620,7 +620,7 @@
 ### 44. `b1-perf-044` · select-one
 
 **Aufgabe:**
-> Ich ___ mich über das Ergebnis gefreut. (Perfekt + Hilfsverb haben)
+> Ich ___ mich über das Ergebnis gefreut. (Perfektform)
 
 **Optionen:**
 - bin
@@ -634,7 +634,7 @@
 ### 45. `b1-perf-045` · select-one
 
 **Aufgabe:**
-> Die Firma ___ viele neue Mitarbeiter eingestellt. (Perfekt + Hilfsverb haben)
+> Die Firma ___ viele neue Mitarbeiter eingestellt. (Perfektform)
 
 **Optionen:**
 - haben
@@ -648,7 +648,7 @@
 ### 46. `b1-perf-046` · select-one
 
 **Aufgabe:**
-> Der Minister ___ die neue Regelung erklärt. (Perfekt + Hilfsverb haben)
+> Der Minister ___ die neue Regelung erklärt. (Perfektform)
 
 **Optionen:**
 - ist
@@ -662,7 +662,7 @@
 ### 47. `b1-perf-047` · select-one
 
 **Aufgabe:**
-> Wir ___ pünktlich am Flughafen angekommen. (Perfekt + Hilfsverb sein)
+> Wir ___ pünktlich am Flughafen angekommen. (Perfektform)
 
 **Optionen:**
 - war
@@ -676,7 +676,7 @@
 ### 48. `b1-perf-048` · select-one
 
 **Aufgabe:**
-> Sie ___ sich für den Kurs angemeldet. (Perfekt + Hilfsverb haben)
+> Sie ___ sich für den Kurs angemeldet. (Perfektform)
 
 **Optionen:**
 - ist
@@ -690,7 +690,7 @@
 ### 49. `b1-perf-049` · select-one
 
 **Aufgabe:**
-> Ich ___ den Artikel gestern gelesen. (Perfekt + Hilfsverb haben)
+> Ich ___ den Artikel gestern gelesen. (Perfektform)
 
 **Optionen:**
 - ist
@@ -704,7 +704,7 @@
 ### 50. `b1-perf-050` · select-one
 
 **Aufgabe:**
-> Die Studierenden ___ lange über das Thema diskutiert. (Perfekt + Hilfsverb haben)
+> Die Studierenden ___ lange über das Thema diskutiert. (Perfektform)
 
 **Optionen:**
 - hat
@@ -1394,7 +1394,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Der · Minister · hat · die · neue · Regelung · erklärt
+**Wörter:** Sie · hat · sich · für · den · Kurs · angemeldet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1404,7 +1404,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Wir · sind · pünktlich · am · Flughafen · angekommen
+**Wörter:** Ich · habe · den · Artikel · gestern · gelesen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1414,7 +1414,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Sie · hat · sich · für · den · Kurs · angemeldet
+**Wörter:** Die · Studierenden · haben · lange · über · das · Thema · diskutiert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1424,7 +1424,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Ich · habe · den · Artikel · gestern · gelesen
+**Wörter:** Er · ist · nach · Berlin · gefahren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1434,7 +1434,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Die · Studierenden · haben · lange · über · das · Thema · diskutiert
+**Wörter:** Wir · haben · die · Rechnung · schon · bezahlt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1444,7 +1444,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Er · ist · nach · Berlin · gefahren
+**Wörter:** Sie · hat · sich · beim · Sport · verletzt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1454,7 +1454,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Wir · haben · die · Rechnung · schon · bezahlt
+**Wörter:** Ich · habe · die · ganze · Nacht · gearbeitet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1464,7 +1464,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Sie · hat · sich · beim · Sport · verletzt
+**Wörter:** Die · Politiker · haben · eine · Einigung · erzielt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1474,7 +1474,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Ich · habe · die · ganze · Nacht · gearbeitet
+**Wörter:** Er · hat · das · Medikament · eingenommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1484,7 +1484,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Die · Politiker · haben · eine · Einigung · erzielt
+**Wörter:** Wir · sind · den · ganzen · Tag · gereist
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1494,7 +1494,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Er · hat · das · Medikament · eingenommen
+**Wörter:** Sie · hat · ein · wichtiges · Gespräch · geführt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1504,7 +1504,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Wir · sind · den · ganzen · Tag · gereist
+**Wörter:** Ich · habe · mich · über · das · Ergebnis · gefreut
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1514,7 +1514,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Sie · hat · ein · wichtiges · Gespräch · geführt
+**Wörter:** Die · Firma · hat · viele · neue · Mitarbeiter · eingestellt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1524,7 +1524,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Ich · habe · mich · über · das · Ergebnis · gefreut
+**Wörter:** Der · Minister · hat · die · neue · Regelung · erklärt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1534,7 +1534,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Die · Firma · hat · viele · neue · Mitarbeiter · eingestellt
+**Wörter:** Wir · sind · pünktlich · am · Flughafen · angekommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1544,7 +1544,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Der · Minister · hat · die · neue · Regelung · erklärt
+**Wörter:** Sie · hat · sich · für · den · Kurs · angemeldet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1554,7 +1554,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Wir · sind · pünktlich · am · Flughafen · angekommen
+**Wörter:** Ich · habe · den · Artikel · gestern · gelesen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1564,7 +1564,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Der · Minister · hat · die · neue · Regelung · erklärt
+**Wörter:** Die · Studierenden · haben · lange · über · das · Thema · diskutiert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1574,7 +1574,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Wir · sind · pünktlich · am · Flughafen · angekommen
+**Wörter:** Er · ist · nach · Berlin · gefahren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1584,7 +1584,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Sie · hat · sich · für · den · Kurs · angemeldet
+**Wörter:** Wir · haben · die · Rechnung · schon · bezahlt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1594,7 +1594,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Ich · habe · den · Artikel · gestern · gelesen
+**Wörter:** Sie · hat · sich · beim · Sport · verletzt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1604,7 +1604,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Die · Studierenden · haben · lange · über · das · Thema · diskutiert
+**Wörter:** Ich · habe · die · ganze · Nacht · gearbeitet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1614,7 +1614,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Er · ist · nach · Berlin · gefahren
+**Wörter:** Die · Politiker · haben · eine · Einigung · erzielt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1624,7 +1624,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Wir · haben · die · Rechnung · schon · bezahlt
+**Wörter:** Er · hat · das · Medikament · eingenommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1634,7 +1634,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Sie · hat · sich · beim · Sport · verletzt
+**Wörter:** Wir · sind · den · ganzen · Tag · gereist
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1644,7 +1644,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Ich · habe · die · ganze · Nacht · gearbeitet
+**Wörter:** Sie · hat · ein · wichtiges · Gespräch · geführt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1654,7 +1654,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Die · Politiker · haben · eine · Einigung · erzielt
+**Wörter:** Ich · habe · mich · über · das · Ergebnis · gefreut
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1664,7 +1664,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Er · hat · das · Medikament · eingenommen
+**Wörter:** Die · Firma · hat · viele · neue · Mitarbeiter · eingestellt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1674,7 +1674,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Wir · sind · den · ganzen · Tag · gereist
+**Wörter:** Der · Minister · hat · die · neue · Regelung · erklärt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1684,7 +1684,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Sie · hat · ein · wichtiges · Gespräch · geführt
+**Wörter:** Wir · sind · pünktlich · am · Flughafen · angekommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1694,7 +1694,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Ich · habe · mich · über · das · Ergebnis · gefreut
+**Wörter:** Sie · hat · sich · für · den · Kurs · angemeldet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1704,7 +1704,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Die · Firma · hat · viele · neue · Mitarbeiter · eingestellt
+**Wörter:** Ich · habe · den · Artikel · gestern · gelesen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1714,7 +1714,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Perfektform)
 
-**Wörter:** Der · Minister · hat · die · neue · Regelung · erklärt
+**Wörter:** Die · Studierenden · haben · lange · über · das · Thema · diskutiert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

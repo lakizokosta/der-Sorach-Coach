@@ -16,13 +16,13 @@
 ### 1. `b2-konz-001` · select-one
 
 **Aufgabe:**
-> ___, obgleich die Chancen gering waren, versuchte er es. (Konzessivsatz)
+> ___ die Chancen gering waren, versuchte er es. (Konzessivsatz)
 
 **Optionen:**
+- Wenngleich
+- Obgleich **✓**
 - Damit
-- Obwohl **✓**
-- Dass
-- Weil
+- Obwohl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -44,13 +44,13 @@
 ### 3. `b2-konz-003` · select-one
 
 **Aufgabe:**
-> ___, wenngleich er Recht hatte, blieb er unhöflich. (Konzessivsatz)
+> ___ er Recht hatte, blieb er unhöflich. (Konzessivsatz)
 
 **Optionen:**
+- Obgleich
+- Weil
 - Damit
-- Wenn
-- Dass
-- Obwohl **✓**
+- Wenngleich **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -72,13 +72,13 @@
 ### 5. `b2-konz-005` · select-one
 
 **Aufgabe:**
-> ___, obgleich die Kritik berechtigt war, verteidigte er sein Konzept. (Konzessivsatz)
+> ___ die Kritik berechtigt war, verteidigte er sein Konzept. (Konzessivsatz)
 
 **Optionen:**
+- Wenngleich
+- Obgleich **✓**
 - Damit
-- Obwohl **✓**
-- Dass
-- Weil
+- Obwohl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -100,12 +100,12 @@
 ### 7. `b2-konz-007` · select-one
 
 **Aufgabe:**
-> ___, obwohl er müde war, leitete er die Sitzung. (Konzessivsatz)
+> ___ er müde war, leitete er die Sitzung. (Konzessivsatz)
 
 **Optionen:**
+- Wenngleich
+- Weil
 - Damit
-- Wenn
-- Dass
 - Obwohl **✓**
 
 - [ ] OK
@@ -128,13 +128,13 @@
 ### 9. `b2-konz-009` · select-one
 
 **Aufgabe:**
-> ___, wenngleich die Kosten hoch sind, lohnt sich die Investition. (Konzessivsatz)
+> ___ die Kosten hoch sind, lohnt sich die Investition. (Konzessivsatz)
 
 **Optionen:**
+- Obgleich
+- Wenngleich **✓**
 - Damit
-- Obwohl **✓**
-- Dass
-- Weil
+- Obwohl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -156,13 +156,13 @@
 ### 11. `b2-konz-011` · select-one
 
 **Aufgabe:**
-> ___, obgleich er gewarnt worden war, fuhr er zu schnell. (Konzessivsatz)
+> ___ er gewarnt worden war, fuhr er zu schnell. (Konzessivsatz)
 
 **Optionen:**
+- Wenngleich
+- Weil
 - Damit
-- Wenn
-- Dass
-- Obwohl **✓**
+- Obgleich **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -184,13 +184,13 @@
 ### 13. `b2-konz-013` · select-one
 
 **Aufgabe:**
-> ___, obwohl die Beweise fehlten, wurde er verurteilt. (Konzessivsatz)
+> ___ die Beweise fehlten, wurde er verurteilt. (Konzessivsatz)
 
 **Optionen:**
-- Damit
+- Wenngleich
 - Obwohl **✓**
-- Dass
-- Weil
+- Damit
+- Obgleich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -212,13 +212,13 @@
 ### 15. `b2-konz-015` · select-one
 
 **Aufgabe:**
-> ___, wenngleich die Meinungen auseinandergingen, einigte man sich. (Konzessivsatz)
+> ___ die Meinungen auseinandergingen, einigte man sich. (Konzessivsatz)
 
 **Optionen:**
+- Obgleich
+- Weil
 - Damit
-- Wenn
-- Dass
-- Obwohl **✓**
+- Wenngleich **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -240,13 +240,13 @@
 ### 17. `b2-konz-017` · select-one
 
 **Aufgabe:**
-> ___, obgleich die Nachfrage sinkt, erhöht die Firma die Produktion. (Konzessivsatz)
+> ___ die Nachfrage sinkt, erhöht die Firma die Produktion. (Konzessivsatz)
 
 **Optionen:**
+- Wenngleich
+- Obwohl
+- Obgleich **✓**
 - Damit
-- Weil
-- Obwohl **✓**
-- Dass
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -254,13 +254,13 @@
 ### 18. `b2-konz-018` · select-one
 
 **Aufgabe:**
-> ___, obgleich die Chancen gering waren, versuchte er es. (Konzessivsatz)
+> ___ die Chancen gering waren, versuchte er es. (Konzessivsatz)
 
 **Optionen:**
+- Obwohl
+- Obgleich **✓**
 - Weil
-- Obwohl **✓**
-- Wenn
-- Damit
+- Wenngleich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -282,13 +282,13 @@
 ### 20. `b2-konz-020` · select-one
 
 **Aufgabe:**
-> ___, wenngleich er Recht hatte, blieb er unhöflich. (Konzessivsatz)
+> ___ er Recht hatte, blieb er unhöflich. (Konzessivsatz)
 
 **Optionen:**
+- Obwohl
 - Weil
-- Wenn
-- Obwohl **✓**
-- Dass
+- Wenngleich **✓**
+- Damit
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -310,13 +310,13 @@
 ### 22. `b2-konz-022` · select-one
 
 **Aufgabe:**
-> ___, obgleich die Kritik berechtigt war, verteidigte er sein Konzept. (Konzessivsatz)
+> ___ die Kritik berechtigt war, verteidigte er sein Konzept. (Konzessivsatz)
 
 **Optionen:**
-- Damit
-- Obwohl **✓**
+- Wenngleich
+- Obgleich **✓**
+- Obwohl
 - Weil
-- Wenn
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -338,13 +338,13 @@
 ### 24. `b2-konz-024` · select-one
 
 **Aufgabe:**
-> ___, obwohl er müde war, leitete er die Sitzung. (Konzessivsatz)
+> ___ er müde war, leitete er die Sitzung. (Konzessivsatz)
 
 **Optionen:**
-- Wenn
-- Obwohl **✓**
 - Weil
-- Dass
+- Obwohl **✓**
+- Obgleich
+- Damit
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -366,13 +366,13 @@
 ### 26. `b2-konz-026` · select-one
 
 **Aufgabe:**
-> ___, wenngleich die Kosten hoch sind, lohnt sich die Investition. (Konzessivsatz)
+> ___ die Kosten hoch sind, lohnt sich die Investition. (Konzessivsatz)
 
 **Optionen:**
-- Damit
-- Obwohl **✓**
+- Obgleich
+- Wenngleich **✓**
+- Obwohl
 - Weil
-- Wenn
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -394,13 +394,13 @@
 ### 28. `b2-konz-028` · select-one
 
 **Aufgabe:**
-> ___, obgleich er gewarnt worden war, fuhr er zu schnell. (Konzessivsatz)
+> ___ er gewarnt worden war, fuhr er zu schnell. (Konzessivsatz)
 
 **Optionen:**
-- Wenn
-- Obwohl **✓**
 - Weil
-- Dass
+- Obgleich **✓**
+- Obwohl
+- Damit
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -422,13 +422,13 @@
 ### 30. `b2-konz-030` · select-one
 
 **Aufgabe:**
-> ___, obwohl die Beweise fehlten, wurde er verurteilt. (Konzessivsatz)
+> ___ die Beweise fehlten, wurde er verurteilt. (Konzessivsatz)
 
 **Optionen:**
-- Weil
+- Obgleich
 - Obwohl **✓**
-- Wenn
-- Damit
+- Weil
+- Wenngleich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -450,13 +450,13 @@
 ### 32. `b2-konz-032` · select-one
 
 **Aufgabe:**
-> ___, wenngleich die Meinungen auseinandergingen, einigte man sich. (Konzessivsatz)
+> ___ die Meinungen auseinandergingen, einigte man sich. (Konzessivsatz)
 
 **Optionen:**
-- Wenn
-- Obwohl **✓**
 - Weil
-- Dass
+- Wenngleich **✓**
+- Obwohl
+- Damit
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -478,13 +478,13 @@
 ### 34. `b2-konz-034` · select-one
 
 **Aufgabe:**
-> ___, obgleich die Nachfrage sinkt, erhöht die Firma die Produktion. (Konzessivsatz)
+> ___ die Nachfrage sinkt, erhöht die Firma die Produktion. (Konzessivsatz)
 
 **Optionen:**
-- Damit
-- Wenn
-- Obwohl **✓**
+- Wenngleich
 - Weil
+- Obgleich **✓**
+- Obwohl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -492,13 +492,13 @@
 ### 35. `b2-konz-035` · select-one
 
 **Aufgabe:**
-> ___, obgleich die Chancen gering waren, versuchte er es. (Konzessivsatz)
+> ___ die Chancen gering waren, versuchte er es. (Konzessivsatz)
 
 **Optionen:**
+- Wenngleich
+- Weil
 - Damit
-- Wenn
-- Dass
-- Obwohl **✓**
+- Obgleich **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -520,13 +520,13 @@
 ### 37. `b2-konz-037` · select-one
 
 **Aufgabe:**
-> ___, wenngleich er Recht hatte, blieb er unhöflich. (Konzessivsatz)
+> ___ er Recht hatte, blieb er unhöflich. (Konzessivsatz)
 
 **Optionen:**
+- Obgleich
+- Obwohl
+- Wenngleich **✓**
 - Damit
-- Weil
-- Obwohl **✓**
-- Dass
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -548,13 +548,13 @@
 ### 39. `b2-konz-039` · select-one
 
 **Aufgabe:**
-> ___, obgleich die Kritik berechtigt war, verteidigte er sein Konzept. (Konzessivsatz)
+> ___ die Kritik berechtigt war, verteidigte er sein Konzept. (Konzessivsatz)
 
 **Optionen:**
-- Dass
 - Damit
-- Wenn
-- Obwohl **✓**
+- Wenngleich
+- Weil
+- Obgleich **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -576,13 +576,13 @@
 ### 41. `b2-konz-041` · select-one
 
 **Aufgabe:**
-> ___, obwohl er müde war, leitete er die Sitzung. (Konzessivsatz)
+> ___ er müde war, leitete er die Sitzung. (Konzessivsatz)
 
 **Optionen:**
-- Damit
+- Wenngleich
 - Obwohl **✓**
-- Dass
-- Weil
+- Damit
+- Obgleich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -604,13 +604,13 @@
 ### 43. `b2-konz-043` · select-one
 
 **Aufgabe:**
-> ___, wenngleich die Kosten hoch sind, lohnt sich die Investition. (Konzessivsatz)
+> ___ die Kosten hoch sind, lohnt sich die Investition. (Konzessivsatz)
 
 **Optionen:**
+- Obgleich
+- Weil
 - Damit
-- Wenn
-- Dass
-- Obwohl **✓**
+- Wenngleich **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -632,13 +632,13 @@
 ### 45. `b2-konz-045` · select-one
 
 **Aufgabe:**
-> ___, obgleich er gewarnt worden war, fuhr er zu schnell. (Konzessivsatz)
+> ___ er gewarnt worden war, fuhr er zu schnell. (Konzessivsatz)
 
 **Optionen:**
+- Wenngleich
+- Obwohl
+- Obgleich **✓**
 - Damit
-- Weil
-- Obwohl **✓**
-- Dass
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -660,12 +660,12 @@
 ### 47. `b2-konz-047` · select-one
 
 **Aufgabe:**
-> ___, obwohl die Beweise fehlten, wurde er verurteilt. (Konzessivsatz)
+> ___ die Beweise fehlten, wurde er verurteilt. (Konzessivsatz)
 
 **Optionen:**
-- Dass
 - Damit
-- Wenn
+- Wenngleich
+- Weil
 - Obwohl **✓**
 
 - [ ] OK
@@ -688,13 +688,13 @@
 ### 49. `b2-konz-049` · select-one
 
 **Aufgabe:**
-> ___, wenngleich die Meinungen auseinandergingen, einigte man sich. (Konzessivsatz)
+> ___ die Meinungen auseinandergingen, einigte man sich. (Konzessivsatz)
 
 **Optionen:**
+- Obgleich
+- Wenngleich **✓**
 - Damit
-- Obwohl **✓**
-- Dass
-- Weil
+- Obwohl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

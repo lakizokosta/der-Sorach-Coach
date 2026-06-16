@@ -9,4 +9,4 @@ options:
 correct: anstatt dass
 ---
 
-Sie aß Obst, ___ sie Gemüse aß. (Modalsatz)
+Sie aß Obst, ___ ihr Bruder Gemüse aß. (Modalsatz)

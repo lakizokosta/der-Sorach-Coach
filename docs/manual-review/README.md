@@ -4,7 +4,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 
 **Aktualisieren:** `npm run questions:export-review`
 
-**Stand:** 84 Themen · 10616 Fragen
+**Stand:** 84 Themen · 10566 Fragen
 
 ## So prüfen
 
@@ -15,7 +15,7 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 
 ## Übersicht
 
-### A1 (1656 Fragen)
+### A1 (1654 Fragen)
 
 | Thema | Fragen | Datei |
 |-------|--------|-------|
@@ -25,13 +25,13 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 | Adjektivdeklination | 150 | [A1/04-ADJEKTIVDEKLINATIONA1.md](A1/04-ADJEKTIVDEKLINATIONA1.md) |
 | Wechselpräpositionen | 150 | [A1/05-WECHSELPRÄPOSITIONEN.md](A1/05-WECHSELPRÄPOSITIONEN.md) |
 | Dativ | 151 | [A1/06-DATIVA1.md](A1/06-DATIVA1.md) |
-| Akkusativ | 152 | [A1/07-AKKUSATIVA1.md](A1/07-AKKUSATIVA1.md) |
+| Akkusativ | 150 | [A1/07-AKKUSATIVA1.md](A1/07-AKKUSATIVA1.md) |
 | Artikel | 150 | [A1/08-ARTIKEL.md](A1/08-ARTIKEL.md) |
 | W-Fragen | 150 | [A1/09-W-FRAGEN.md](A1/09-W-FRAGEN.md) |
 | Negation | 150 | [A1/10-NEGATION.md](A1/10-NEGATION.md) |
 | Gegenteile | 150 | [A1/11-GEGENTEILE.md](A1/11-GEGENTEILE.md) |
 
-### A2 (3167 Fragen)
+### A2 (3161 Fragen)
 
 | Thema | Fragen | Datei |
 |-------|--------|-------|
@@ -41,24 +41,24 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 | Akkusativ | 150 | [A2/04-AKKUSATIVA2.md](A2/04-AKKUSATIVA2.md) |
 | Dativ | 150 | [A2/05-DATIVA2.md](A2/05-DATIVA2.md) |
 | Possessivartikel | 153 | [A2/06-POSSESSIVARTIKELA2.md](A2/06-POSSESSIVARTIKELA2.md) |
-| Konjunktionen | 152 | [A2/07-KONJUNKTIONENA2.md](A2/07-KONJUNKTIONENA2.md) |
-| Komparativ | 151 | [A2/08-KOMPARATIVA2.md](A2/08-KOMPARATIVA2.md) |
+| Konjunktionen | 151 | [A2/07-KONJUNKTIONENA2.md](A2/07-KONJUNKTIONENA2.md) |
+| Komparativ | 150 | [A2/08-KOMPARATIVA2.md](A2/08-KOMPARATIVA2.md) |
 | Wechselpräpositionen | 150 | [A2/09-WECHSELPRÄPOSITIONENA2.md](A2/09-WECHSELPRÄPOSITIONENA2.md) |
-| Perfekt | 152 | [A2/10-PERFEKTA2.md](A2/10-PERFEKTA2.md) |
+| Perfekt | 151 | [A2/10-PERFEKTA2.md](A2/10-PERFEKTA2.md) |
 | Reflexivpronomen | 151 | [A2/11-REFLEXIVPRONOMEN.md](A2/11-REFLEXIVPRONOMEN.md) |
 | Indefinitpronomen | 150 | [A2/12-INDEFINITPRONOMEN.md](A2/12-INDEFINITPRONOMEN.md) |
-| Modalverben | 152 | [A2/13-MODALVERBENA2.md](A2/13-MODALVERBENA2.md) |
+| Modalverben | 151 | [A2/13-MODALVERBENA2.md](A2/13-MODALVERBENA2.md) |
 | Genitiv | 150 | [A2/14-GENITIVA2.md](A2/14-GENITIVA2.md) |
 | Nomen-Präposition | 150 | [A2/15-NOMENPRÄPOSITIONVERBINDUNGA2.md](A2/15-NOMENPRÄPOSITIONVERBINDUNGA2.md) |
-| Trennbare Verben | 151 | [A2/16-TRENNBAREVERBEN.md](A2/16-TRENNBAREVERBEN.md) |
+| Trennbare Verben | 150 | [A2/16-TRENNBAREVERBEN.md](A2/16-TRENNBAREVERBEN.md) |
 | Temporalsätze | 150 | [A2/17-TEMPORALSATZ.md](A2/17-TEMPORALSATZ.md) |
-| Superlativ | 151 | [A2/18-SUPERLATIVA2.md](A2/18-SUPERLATIVA2.md) |
+| Superlativ | 150 | [A2/18-SUPERLATIVA2.md](A2/18-SUPERLATIVA2.md) |
 | Präteritum | 151 | [A2/19-PRÄTERITUMA2.md](A2/19-PRÄTERITUMA2.md) |
 | Lokale Präpositionen | 150 | [A2/20-LOKALPRÄPOSITIONENA2.md](A2/20-LOKALPRÄPOSITIONENA2.md) |
 | N-Deklination | 150 | [A2/21-N-DEKLINATION.md](A2/21-N-DEKLINATION.md) |
 | SATZSTELLUNGA2 | 2 | [A2/1000-SATZSTELLUNGA2.md](A2/1000-SATZSTELLUNGA2.md) |
 
-### B1 (4144 Fragen)
+### B1 (4105 Fragen)
 
 | Thema | Fragen | Datei |
 |-------|--------|-------|
@@ -69,41 +69,41 @@ Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.
 | Finalsatz | 151 | [B1/05-FINALSATZ.md](B1/05-FINALSATZ.md) |
 | Indirekte Fragesätze | 150 | [B1/06-INDIREKTEFRAGESÄTZE.md](B1/06-INDIREKTEFRAGESÄTZE.md) |
 | Kausalsatz | 150 | [B1/07-KAUSALSATZ.md](B1/07-KAUSALSATZ.md) |
-| Konjunktiv II | 153 | [B1/08-KONJUNKTIV2.md](B1/08-KONJUNKTIV2.md) |
+| Konjunktiv II | 152 | [B1/08-KONJUNKTIV2.md](B1/08-KONJUNKTIV2.md) |
 | Konditionalsatz | 150 | [B1/09-KONDITIONALSATZ.md](B1/09-KONDITIONALSATZ.md) |
 | Konzessivsatz | 151 | [B1/10-KONZESSIVSATZB1.md](B1/10-KONZESSIVSATZB1.md) |
 | Konjunktionaladverbien | 150 | [B1/11-KONJUNKTIONALADVERBIEN.md](B1/11-KONJUNKTIONALADVERBIEN.md) |
 | Lokale Präpositionen | 150 | [B1/12-LOKALEPRÄPOSITIONENB1.md](B1/12-LOKALEPRÄPOSITIONENB1.md) |
 | Nomen-Präposition | 150 | [B1/13-NOMENPRÄPOSITIONVERBINDUNGB1.md](B1/13-NOMENPRÄPOSITIONVERBINDUNGB1.md) |
-| Passiv | 152 | [B1/14-PASSIVB1.md](B1/14-PASSIVB1.md) |
+| Passiv | 151 | [B1/14-PASSIVB1.md](B1/14-PASSIVB1.md) |
 | Perfekt | 150 | [B1/15-PERFEKTB1.md](B1/15-PERFEKTB1.md) |
-| Genitiv-Präpositionen | 151 | [B1/16-PRÄPOSITIONENGENITIVB1.md](B1/16-PRÄPOSITIONENGENITIVB1.md) |
+| Genitiv-Präpositionen | 150 | [B1/16-PRÄPOSITIONENGENITIVB1.md](B1/16-PRÄPOSITIONENGENITIVB1.md) |
 | Präpositionalergänzung | 150 | [B1/17-PRÄPOSITIONALERGÄNZUNG.md](B1/17-PRÄPOSITIONALERGÄNZUNG.md) |
 | Pronominaladverbien | 150 | [B1/18-PRÄPOSITIONALADVERBIEN.md](B1/18-PRÄPOSITIONALADVERBIEN.md) |
 | Possessivartikel | 150 | [B1/19-POSSESSIVARTIKELB1.md](B1/19-POSSESSIVARTIKELB1.md) |
 | Präpositionen | 150 | [B1/20-PRÄPOSITIONENB1.md](B1/20-PRÄPOSITIONENB1.md) |
-| Relativsätze | 153 | [B1/21-RELATIVSATZB1.md](B1/21-RELATIVSATZB1.md) |
+| Relativsätze | 152 | [B1/21-RELATIVSATZB1.md](B1/21-RELATIVSATZB1.md) |
 | Trennbare Verben | 150 | [B1/22-TRENNBAREVERBENB1.md](B1/22-TRENNBAREVERBENB1.md) |
 | Verb + Präposition | 150 | [B1/23-VERBPRÄPOSITIONVERBINDUNG.md](B1/23-VERBPRÄPOSITIONVERBINDUNG.md) |
 | Verneinung | 150 | [B1/24-VERNEINUNG.md](B1/24-VERNEINUNG.md) |
 | Verb-Nomen-Verbindung | 150 | [B1/25-VERBNOMENVERBINDUNGB1.md](B1/25-VERBNOMENVERBINDUNGB1.md) |
 | Verben lassen | 150 | [B1/26-VERBLASSEN.md](B1/26-VERBLASSEN.md) |
 | Wortschatz | 150 | [B1/27-WORTSCHATZB1.md](B1/27-WORTSCHATZB1.md) |
-| Sprachbausteine | 83 | [B1/28-SPRACHBAUSTEINEB1.md](B1/28-SPRACHBAUSTEINEB1.md) |
+| Sprachbausteine | 48 | [B1/28-SPRACHBAUSTEINEB1.md](B1/28-SPRACHBAUSTEINEB1.md) |
 
-### B2 (1649 Fragen)
+### B2 (1646 Fragen)
 
 | Thema | Fragen | Datei |
 |-------|--------|-------|
 | Akkusativ- und Dativobjekt | 50 | [B2/01-AKKUSATIV&DATIVOBJEKT.md](B2/01-AKKUSATIV&DATIVOBJEKT.md) |
 | Genitiv | 100 | [B2/02-GENITIVB2.md](B2/02-GENITIVB2.md) |
 | Futur I | 100 | [B2/03-FUTURI.md](B2/03-FUTURI.md) |
-| Konsekutive Konjunktionen | 51 | [B2/04-KONSEKUTIVEKONJUNKTION.md](B2/04-KONSEKUTIVEKONJUNKTION.md) |
+| Konsekutive Konjunktionen | 50 | [B2/04-KONSEKUTIVEKONJUNKTION.md](B2/04-KONSEKUTIVEKONJUNKTION.md) |
 | Konjunktionaladverbien | 50 | [B2/05-KONJUNKTIONALADVERBIEN.md](B2/05-KONJUNKTIONALADVERBIEN.md) |
-| Konjunktiv II | 101 | [B2/06-KONJUNKTIV2B2.md](B2/06-KONJUNKTIV2B2.md) |
+| Konjunktiv II | 100 | [B2/06-KONJUNKTIV2B2.md](B2/06-KONJUNKTIV2B2.md) |
 | Konzessivsatz | 50 | [B2/07-KONZESSIVSATZB2.md](B2/07-KONZESSIVSATZB2.md) |
 | Lokale Präpositionen | 50 | [B2/08-LOKALEPRÄPOSITIONENB2.md](B2/08-LOKALEPRÄPOSITIONENB2.md) |
-| Modalsatz | 51 | [B2/09-MODALSATZ.md](B2/09-MODALSATZ.md) |
+| Modalsatz | 50 | [B2/09-MODALSATZ.md](B2/09-MODALSATZ.md) |
 | Indefinitpronomen | 50 | [B2/10-INDEFINITPRONOMEN.md](B2/10-INDEFINITPRONOMEN.md) |
 | Indirekte Rede | 101 | [B2/11-INDIREKTEREDE.md](B2/11-INDIREKTEREDE.md) |
 | Genitiv-Präpositionen | 52 | [B2/12-PRÄPOSITIONENGENITIV.md](B2/12-PRÄPOSITIONENGENITIV.md) |

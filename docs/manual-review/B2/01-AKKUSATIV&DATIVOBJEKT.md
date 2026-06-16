@@ -47,7 +47,7 @@
 > Der Professor stellt ___ eine schwierige Frage. (Akkusativ oder Dativ)
 
 **Optionen:**
-- dem Studierenden
+- das Studierenden
 - die Studierenden
 - des Studierenden
 - den Studierenden **✓**
@@ -61,10 +61,10 @@
 > Die Ärztin verschreibt ___ ein neues Medikament. (Akkusativ oder Dativ)
 
 **Optionen:**
+- der Patient
 - die Patientin
-- den Patientin
 - der Patientin **✓**
-- des Patientin
+- den Patienten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -131,7 +131,7 @@
 > Wir empfehlen ___ einen erfahrenen Anwalt. (Akkusativ oder Dativ)
 
 **Optionen:**
-- unserem Mandanten
+- unserer Mandanten
 - unseren Mandanten **✓**
 - unseres Mandanten
 - unser Mandant
@@ -232,7 +232,7 @@
 - seines Bruders
 - seinem Bruder **✓**
 - seinen Bruder
-- seinem Brüder
+- seinem Brudern
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -300,9 +300,9 @@
 
 **Optionen:**
 - der Patient
-- die Patientin
+- den Patienten
 - der Patientin **✓**
-- des Patientin
+- die Patientin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -372,7 +372,7 @@
 - unser Mandant
 - unseren Mandanten **✓**
 - unserer Mandant
-- unserem Mandanten
+- unserer Mandanten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -469,7 +469,7 @@
 **Optionen:**
 - seine Bruder
 - seinem Bruder **✓**
-- seinem Brüder
+- seinem Brudern
 - seinen Bruder
 
 - [ ] OK
@@ -523,7 +523,7 @@
 > Der Professor stellt ___ eine schwierige Frage. (Akkusativ oder Dativ)
 
 **Optionen:**
-- dem Studierenden
+- das Studierenden
 - der Studierende
 - den Studierenden **✓**
 - des Studierenden
@@ -538,9 +538,9 @@
 
 **Optionen:**
 - der Patient
-- den Patientin
-- der Patientin **✓**
 - die Patientin
+- der Patientin **✓**
+- den Patienten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -607,7 +607,7 @@
 > Wir empfehlen ___ einen erfahrenen Anwalt. (Akkusativ oder Dativ)
 
 **Optionen:**
-- unserem Mandanten
+- unserer Mandanten
 - unserer Mandant
 - unseres Mandanten
 - unseren Mandanten **✓**

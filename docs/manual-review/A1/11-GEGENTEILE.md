@@ -203,7 +203,7 @@
 > Gegenteil von „offen"?
 
 **Optionen:**
-- zu
+- kaputt
 - leer
 - voll
 - geschlossen **✓**
@@ -217,10 +217,10 @@
 > Gegenteil von „richtig"?
 
 **Optionen:**
+- schwer
 - kaputt
 - falsch **✓**
 - schlecht
-- machen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -556,7 +556,7 @@
 - voll
 - geschlossen **✓**
 - leer
-- zu
+- kaputt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -568,9 +568,9 @@
 
 **Optionen:**
 - schlecht
-- kaputt
+- schwer
 - falsch **✓**
-- machen
+- kaputt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -990,9 +990,9 @@
 ### 78. `a1-geg-in-028` · input-text
 
 **Aufgabe:**
-> Das Training ist hart, die Pause ist ___. (Gegenteile)
+> Das Training ist schwer, die Pause ist ___. (Gegenteil von schwer)
 
-**Antwort:** `sanft`
+**Antwort:** `leicht`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1040,9 +1040,9 @@
 ### 83. `a1-geg-in-033` · input-text
 
 **Aufgabe:**
-> Die Reise war schön, das Wetter war ___. (Gegenteile)
+> Das neue Haus ist schön, das alte Haus ist ___. (Gegenteil von schön)
 
-**Antwort:** `schlecht`
+**Antwort:** `hässlich`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1150,9 +1150,9 @@
 ### 94. `a1-geg-in-044` · input-text
 
 **Aufgabe:**
-> Der Kuchen ist süß, der Salat ist ___. (Gegenteile)
+> Der Kuchen ist süß, die Zitrone ist ___. (Gegenteil von süß)
 
-**Antwort:** `salzig`
+**Antwort:** `sauer`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,9 +1332,9 @@
 ### 112. `a1-geg-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Gegenteil — laut / leise)
+> [Musik] Ordne die Wörter zum richtigen Satz: (Gegenteil — laut / leise)
 
-**Wörter:** Bitte · sing · leise · jetzt
+**Wörter:** Bitte · sing · jetzt · leise
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `a1-geg-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Gegenteil — groß / klein)
+> [Familie] Ordne die Wörter zum richtigen Satz: (Gegenteil — groß / klein)
 
-**Wörter:** Ich · bin · klein · gewachsen
+**Wörter:** Ich · bin · klein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `a1-geg-dd-033` · dropbox
 
 **Aufgabe:**
-> [Reisen] Ordne die Wörter zum richtigen Satz: (Gegenteil — schön / schlecht)
+> [Zuhause] Ordne die Wörter zum richtigen Satz: (Gegenteil — schön / hässlich)
 
-**Wörter:** Das · Wetter · war · schlecht
+**Wörter:** Das · alte · Haus · ist · hässlich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `a1-geg-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Gegenteil — optimistisch / pessimistisch)
+> [Freunde] Ordne die Wörter zum richtigen Satz: (Gegenteil — optimistisch / pessimistisch)
 
-**Wörter:** Er · ist · sehr · pessimistisch
+**Wörter:** Er · ist · pessimistisch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `a1-geg-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Gegenteil — süß / salzig)
+> [Essen] Ordne die Wörter zum richtigen Satz: (Gegenteil — süß / sauer)
 
-**Wörter:** Der · Salat · ist · salzig
+**Wörter:** Die · Zitrone · ist · sauer
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

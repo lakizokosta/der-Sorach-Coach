@@ -88,7 +88,7 @@
 ### 6. `a2-prät-006` · select-one
 
 **Aufgabe:**
-> Ich ___ müde und ging schlafen. (Präteritum + Verb sein)
+> Ich ___ müde und ging schlafen. (Präteritum)
 
 **Optionen:**
 - waren
@@ -102,7 +102,7 @@
 ### 7. `a2-prät-007` · select-one
 
 **Aufgabe:**
-> Er ___ die ganze Nacht. (Präteritum + Verb schlafen)
+> Er ___ die ganze Nacht. (Präteritum)
 
 **Optionen:**
 - geschlafen
@@ -116,7 +116,7 @@
 ### 8. `a2-prät-008` · select-one
 
 **Aufgabe:**
-> Wir ___ nach Italien. (Präteritum + Verb fahren)
+> Wir ___ nach Italien. (Präteritum)
 
 **Optionen:**
 - gefahren
@@ -130,7 +130,7 @@
 ### 9. `a2-prät-009` · select-one
 
 **Aufgabe:**
-> Ich ___ das nicht. (Präteritum + Verb wissen)
+> Ich ___ das nicht. (Präteritum)
 
 **Optionen:**
 - gewusst
@@ -144,7 +144,7 @@
 ### 10. `a2-prät-010` · select-one
 
 **Aufgabe:**
-> Sie ___ sehr freundlich. (Präteritum + Verb sein)
+> Sie ___ sehr freundlich. (Präteritum)
 
 **Optionen:**
 - ist
@@ -158,7 +158,7 @@
 ### 11. `a2-prät-011` · select-one
 
 **Aufgabe:**
-> Er ___ ein Buch. (Präteritum + Verb lesen)
+> Er ___ ein Buch. (Präteritum)
 
 **Optionen:**
 - gelesen
@@ -172,7 +172,7 @@
 ### 12. `a2-prät-012` · select-one
 
 **Aufgabe:**
-> Ich ___ Hunger. (Präteritum + Verb haben)
+> Ich ___ Hunger. (Präteritum)
 
 **Optionen:**
 - habe
@@ -186,7 +186,7 @@
 ### 13. `a2-prät-013` · select-one
 
 **Aufgabe:**
-> Wir ___ lange auf dich. (Präteritum + Verb warten)
+> Wir ___ lange auf dich. (Präteritum)
 
 **Optionen:**
 - gewartet
@@ -200,7 +200,7 @@
 ### 14. `a2-prät-014` · select-one
 
 **Aufgabe:**
-> Sie ___ nach Berlin. (Präteritum + Verb ziehen)
+> Sie ___ nach Berlin. (Präteritum)
 
 **Optionen:**
 - ziehen
@@ -214,7 +214,7 @@
 ### 15. `a2-prät-015` · select-one
 
 **Aufgabe:**
-> Ich ___ auf der Schule bleiben. (Präteritum + Verb wollen)
+> Ich ___ auf der Schule bleiben. (Präteritum)
 
 **Optionen:**
 - gewollt
@@ -228,7 +228,7 @@
 ### 16. `a2-prät-016` · select-one
 
 **Aufgabe:**
-> Als Kind ___ ich gern Fußball. (Präteritum + Verb spielen)
+> Als Kind ___ ich gern Fußball. (Präteritum)
 
 **Optionen:**
 - gespielt
@@ -242,7 +242,7 @@
 ### 17. `a2-prät-017` · select-one
 
 **Aufgabe:**
-> Gestern ___ ich zu Hause. (Präteritum + Verb sein)
+> Gestern ___ ich zu Hause. (Präteritum)
 
 **Optionen:**
 - ist
@@ -256,7 +256,7 @@
 ### 18. `a2-prät-018` · select-one
 
 **Aufgabe:**
-> Er ___ viel Wasser. (Präteritum + Verb spielen)
+> Er ___ viel Wasser. (Präteritum)
 
 **Optionen:**
 - trinkt
@@ -270,7 +270,7 @@
 ### 19. `a2-prät-019` · select-one
 
 **Aufgabe:**
-> Wir ___ in der Schule. (Präteritum + Verb sein)
+> Wir ___ in der Schule. (Präteritum)
 
 **Optionen:**
 - bin
@@ -284,7 +284,7 @@
 ### 20. `a2-prät-020` · select-one
 
 **Aufgabe:**
-> Sie ___ ein Geschenk. (Präteritum + Verb trinken)
+> Sie ___ ein Geschenk. (Präteritum)
 
 **Optionen:**
 - gekauft
@@ -298,7 +298,7 @@
 ### 21. `a2-prät-021` · select-one
 
 **Aufgabe:**
-> Ich ___ müde und ging schlafen. (Präteritum + Verb sein)
+> Ich ___ müde und ging schlafen. (Präteritum)
 
 **Optionen:**
 - ist
@@ -312,7 +312,7 @@
 ### 22. `a2-prät-022` · select-one
 
 **Aufgabe:**
-> Er ___ die ganze Nacht. (Präteritum + Verb schlafen)
+> Er ___ die ganze Nacht. (Präteritum)
 
 **Optionen:**
 - schläft
@@ -326,7 +326,7 @@
 ### 23. `a2-prät-023` · select-one
 
 **Aufgabe:**
-> Wir ___ nach Italien. (Präteritum + Verb sein)
+> Wir ___ nach Italien. (Präteritum)
 
 **Optionen:**
 - gefahren
@@ -340,7 +340,7 @@
 ### 24. `a2-prät-024` · select-one
 
 **Aufgabe:**
-> Ich ___ das nicht. (Präteritum + Verb wissen)
+> Ich ___ das nicht. (Präteritum)
 
 **Optionen:**
 - gewusst
@@ -354,7 +354,7 @@
 ### 25. `a2-prät-025` · select-one
 
 **Aufgabe:**
-> Sie ___ sehr freundlich. (Präteritum + Verb fahren)
+> Sie ___ sehr freundlich. (Präteritum)
 
 **Optionen:**
 - bin
@@ -368,7 +368,7 @@
 ### 26. `a2-prät-026` · select-one
 
 **Aufgabe:**
-> Er ___ ein Buch. (Präteritum + Verb wissen)
+> Er ___ ein Buch. (Präteritum)
 
 **Optionen:**
 - liest
@@ -382,7 +382,7 @@
 ### 27. `a2-prät-027` · select-one
 
 **Aufgabe:**
-> Ich ___ Hunger. (Präteritum + Verb sein)
+> Ich ___ Hunger. (Präteritum)
 
 **Optionen:**
 - hat
@@ -396,7 +396,7 @@
 ### 28. `a2-prät-028` · select-one
 
 **Aufgabe:**
-> Wir ___ lange auf dich. (Präteritum + Verb lesen)
+> Wir ___ lange auf dich. (Präteritum)
 
 **Optionen:**
 - gewartet
@@ -410,7 +410,7 @@
 ### 29. `a2-prät-029` · select-one
 
 **Aufgabe:**
-> Sie ___ nach Berlin. (Präteritum + Verb ziehen)
+> Sie ___ nach Berlin. (Präteritum)
 
 **Optionen:**
 - gezogen
@@ -424,7 +424,7 @@
 ### 30. `a2-prät-030` · select-one
 
 **Aufgabe:**
-> Ich ___ auf der Schule bleiben. (Präteritum + Verb warten)
+> Ich ___ auf der Schule bleiben. (Präteritum)
 
 **Optionen:**
 - will
@@ -438,7 +438,7 @@
 ### 31. `a2-prät-031` · select-one
 
 **Aufgabe:**
-> Als Kind ___ ich gern Fußball. (Präteritum + Verb spielen)
+> Als Kind ___ ich gern Fußball. (Präteritum)
 
 **Optionen:**
 - gespielt
@@ -452,7 +452,7 @@
 ### 32. `a2-prät-032` · select-one
 
 **Aufgabe:**
-> Gestern ___ ich zu Hause. (Präteritum + Verb wollen)
+> Gestern ___ ich zu Hause. (Präteritum)
 
 **Optionen:**
 - bin
@@ -466,7 +466,7 @@
 ### 33. `a2-prät-033` · select-one
 
 **Aufgabe:**
-> Er ___ viel Wasser. (Präteritum + Verb sollen)
+> Er ___ viel Wasser. (Präteritum)
 
 **Optionen:**
 - getrunken
@@ -480,7 +480,7 @@
 ### 34. `a2-prät-034` · select-one
 
 **Aufgabe:**
-> Wir ___ in der Schule. (Präteritum + Verb sein)
+> Wir ___ in der Schule. (Präteritum)
 
 **Optionen:**
 - war
@@ -494,7 +494,7 @@
 ### 35. `a2-prät-035` · select-one
 
 **Aufgabe:**
-> Sie ___ ein Geschenk. (Präteritum + Verb spielen)
+> Sie ___ ein Geschenk. (Präteritum)
 
 **Optionen:**
 - gekauft
@@ -508,7 +508,7 @@
 ### 36. `a2-prät-036` · select-one
 
 **Aufgabe:**
-> Ich ___ müde und ging schlafen. (Präteritum + Verb sein)
+> Ich ___ müde und ging schlafen. (Präteritum)
 
 **Optionen:**
 - ist
@@ -522,7 +522,7 @@
 ### 37. `a2-prät-037` · select-one
 
 **Aufgabe:**
-> Er ___ die ganze Nacht. (Präteritum + Verb schlafen)
+> Er ___ die ganze Nacht. (Präteritum)
 
 **Optionen:**
 - geschlafen
@@ -536,7 +536,7 @@
 ### 38. `a2-prät-038` · select-one
 
 **Aufgabe:**
-> Wir ___ nach Italien. (Präteritum + Verb sein)
+> Wir ___ nach Italien. (Präteritum)
 
 **Optionen:**
 - fahren
@@ -550,7 +550,7 @@
 ### 39. `a2-prät-039` · select-one
 
 **Aufgabe:**
-> Ich ___ das nicht. (Präteritum + Verb wissen)
+> Ich ___ das nicht. (Präteritum)
 
 **Optionen:**
 - gewusst
@@ -564,7 +564,7 @@
 ### 40. `a2-prät-040` · select-one
 
 **Aufgabe:**
-> Sie ___ sehr freundlich. (Präteritum + Verb sein)
+> Sie ___ sehr freundlich. (Präteritum)
 
 **Optionen:**
 - bin
@@ -578,7 +578,7 @@
 ### 41. `a2-prät-041` · select-one
 
 **Aufgabe:**
-> Er ___ ein Buch. (Präteritum + Verb schlafen)
+> Er ___ ein Buch. (Präteritum)
 
 **Optionen:**
 - gelesen
@@ -592,7 +592,7 @@
 ### 42. `a2-prät-042` · select-one
 
 **Aufgabe:**
-> Ich ___ Hunger. (Präteritum + Verb fahren)
+> Ich ___ Hunger. (Präteritum)
 
 **Optionen:**
 - habe
@@ -606,7 +606,7 @@
 ### 43. `a2-prät-043` · select-one
 
 **Aufgabe:**
-> Wir ___ lange auf dich. (Präteritum + Verb wissen)
+> Wir ___ lange auf dich. (Präteritum)
 
 **Optionen:**
 - gewartet
@@ -620,7 +620,7 @@
 ### 44. `a2-prät-044` · select-one
 
 **Aufgabe:**
-> Sie ___ nach Berlin. (Präteritum + Verb ziehen)
+> Sie ___ nach Berlin. (Präteritum)
 
 **Optionen:**
 - gezogen
@@ -634,7 +634,7 @@
 ### 45. `a2-prät-045` · select-one
 
 **Aufgabe:**
-> Ich ___ auf der Schule bleiben. (Präteritum + Verb lesen)
+> Ich ___ auf der Schule bleiben. (Präteritum)
 
 **Optionen:**
 - gewollt
@@ -648,7 +648,7 @@
 ### 46. `a2-prät-046` · select-one
 
 **Aufgabe:**
-> Als Kind ___ ich gern Fußball. (Präteritum + Verb spielen)
+> Als Kind ___ ich gern Fußball. (Präteritum)
 
 **Optionen:**
 - spiele
@@ -662,7 +662,7 @@
 ### 47. `a2-prät-047` · select-one
 
 **Aufgabe:**
-> Gestern ___ ich zu Hause. (Präteritum + Verb warten)
+> Gestern ___ ich zu Hause. (Präteritum)
 
 **Optionen:**
 - ist
@@ -676,7 +676,7 @@
 ### 48. `a2-prät-048` · select-one
 
 **Aufgabe:**
-> Er ___ viel Wasser. (Präteritum + Verb ziehen)
+> Er ___ viel Wasser. (Präteritum)
 
 **Optionen:**
 - trinkt
@@ -690,7 +690,7 @@
 ### 49. `a2-prät-049` · select-one
 
 **Aufgabe:**
-> Wir ___ in der Schule. (Präteritum + Verb sein)
+> Wir ___ in der Schule. (Präteritum)
 
 **Optionen:**
 - sein
@@ -704,7 +704,7 @@
 ### 50. `a2-prät-050` · select-one
 
 **Aufgabe:**
-> Sie ___ ein Geschenk. (Präteritum + Verb sollen)
+> Sie ___ ein Geschenk. (Präteritum)
 
 **Optionen:**
 - kauft
@@ -1232,7 +1232,7 @@
 ### 102. `a2-prät-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb spielen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Als · Kind · spielte · ich · gern · Fußball
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-prät-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Gestern · war · ich · den · ganzen · Tag · zu · Hause
 
@@ -1252,7 +1252,7 @@
 ### 104. `a2-prät-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb trinken)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Er · trank · viel · Wasser · beim · Sport
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-prät-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Wir · waren · in · der · Schule
 
@@ -1272,7 +1272,7 @@
 ### 106. `a2-prät-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb kaufen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Sie · kaufte · ein · Geschenk · für · ihren · Mann
 
@@ -1282,7 +1282,7 @@
 ### 107. `a2-prät-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · war · müde · und · ging · schlafen
 
@@ -1292,7 +1292,7 @@
 ### 108. `a2-prät-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb schlafen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Er · schlief · die · ganze · Nacht
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-prät-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb fahren)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Wir · fuhren · mit · dem · Zug · nach · Italien
 
@@ -1312,7 +1312,7 @@
 ### 110. `a2-prät-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb wissen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · wusste · das · nicht
 
@@ -1322,7 +1322,7 @@
 ### 111. `a2-prät-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Sie · war · sehr · freundlich · am · Bankschalter
 
@@ -1332,9 +1332,9 @@
 ### 112. `a2-prät-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb lesen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
-**Wörter:** Er · las · ein · Buch · über · das · Schulsystem
+**Wörter:** Er · las · ein · Buch · über · die · Natur
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1342,7 +1342,7 @@
 ### 113. `a2-prät-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb haben)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · hatte · großen · Hunger
 
@@ -1352,9 +1352,9 @@
 ### 114. `a2-prät-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb warten)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
-**Wörter:** Wir · warteten · lange · auf · den · Bus
+**Wörter:** Wir · warteten · am · Bahnhof · auf · den · Bus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1362,7 +1362,7 @@
 ### 115. `a2-prät-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb ziehen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Sie · zog · nach · Berlin
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-prät-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb wollen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · wollte · auf · meiner · Schule · bleiben
 
@@ -1382,7 +1382,7 @@
 ### 117. `a2-prät-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sollen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Er · sollte · Detektiv · werden
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-prät-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Das · war · ein · richtig · schöner · Tag
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-prät-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb spielen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Als · Kind · spielte · ich · gern · Fußball
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-prät-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Gestern · war · ich · den · ganzen · Tag · zu · Hause
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-prät-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb trinken)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Er · trank · viel · Wasser · beim · Sport
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-prät-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Wir · waren · in · der · Schule
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-prät-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb kaufen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Sie · kaufte · ein · Geschenk · für · ihren · Mann
 
@@ -1452,7 +1452,7 @@
 ### 124. `a2-prät-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · war · müde · und · ging · schlafen
 
@@ -1462,7 +1462,7 @@
 ### 125. `a2-prät-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb schlafen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Er · schlief · die · ganze · Nacht
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-prät-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb fahren)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Wir · fuhren · mit · dem · Zug · nach · Italien
 
@@ -1482,7 +1482,7 @@
 ### 127. `a2-prät-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb wissen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · wusste · das · nicht
 
@@ -1492,7 +1492,7 @@
 ### 128. `a2-prät-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Sie · war · sehr · freundlich · am · Bankschalter
 
@@ -1502,9 +1502,9 @@
 ### 129. `a2-prät-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb lesen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
-**Wörter:** Er · las · ein · Buch · über · das · Schulsystem
+**Wörter:** Er · las · ein · Buch · über · die · Natur
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,7 +1512,7 @@
 ### 130. `a2-prät-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb haben)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · hatte · großen · Hunger
 
@@ -1522,9 +1522,9 @@
 ### 131. `a2-prät-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb warten)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
-**Wörter:** Wir · warteten · lange · auf · den · Bus
+**Wörter:** Wir · warteten · am · Bahnhof · auf · den · Bus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,7 +1532,7 @@
 ### 132. `a2-prät-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb ziehen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Sie · zog · nach · Berlin
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-prät-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb wollen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · wollte · auf · meiner · Schule · bleiben
 
@@ -1552,7 +1552,7 @@
 ### 134. `a2-prät-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sollen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Er · sollte · Detektiv · werden
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-prät-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Das · war · ein · richtig · schöner · Tag
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-prät-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb spielen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Als · Kind · spielte · ich · gern · Fußball
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-prät-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Gestern · war · ich · den · ganzen · Tag · zu · Hause
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-prät-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb trinken)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Er · trank · viel · Wasser · beim · Sport
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-prät-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Wir · waren · in · der · Schule
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-prät-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb kaufen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Sie · kaufte · ein · Geschenk · für · ihren · Mann
 
@@ -1622,7 +1622,7 @@
 ### 141. `a2-prät-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · war · müde · und · ging · schlafen
 
@@ -1632,7 +1632,7 @@
 ### 142. `a2-prät-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb schlafen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Er · schlief · die · ganze · Nacht
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-prät-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb fahren)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Wir · fuhren · mit · dem · Zug · nach · Italien
 
@@ -1652,7 +1652,7 @@
 ### 144. `a2-prät-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb wissen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · wusste · das · nicht
 
@@ -1662,7 +1662,7 @@
 ### 145. `a2-prät-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sein)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Sie · war · sehr · freundlich · am · Bankschalter
 
@@ -1672,9 +1672,9 @@
 ### 146. `a2-prät-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb lesen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
-**Wörter:** Er · las · ein · Buch · über · das · Schulsystem
+**Wörter:** Er · las · ein · Buch · über · die · Natur
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,7 +1682,7 @@
 ### 147. `a2-prät-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb haben)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · hatte · großen · Hunger
 
@@ -1692,9 +1692,9 @@
 ### 148. `a2-prät-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb warten)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
-**Wörter:** Wir · warteten · lange · auf · den · Bus
+**Wörter:** Wir · warteten · am · Bahnhof · auf · den · Bus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,7 +1702,7 @@
 ### 149. `a2-prät-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb ziehen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Sie · zog · nach · Berlin
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-prät-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb wollen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Ich · wollte · auf · meiner · Schule · bleiben
 
@@ -1722,7 +1722,7 @@
 ### 151. `a2-prät-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präteritum + Verb sollen)
+> Ordne die Wörter zum richtigen Satz: (Präteritum)
 
 **Wörter:** Er · sollte · Detektiv · werden
 

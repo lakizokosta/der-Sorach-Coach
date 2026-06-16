@@ -1222,7 +1222,7 @@
 ### 101. `b1-akk-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — einen komplexen Fall)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Der · Journalist · recherchiert · einen · komplexen · Fall
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-akk-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — die Antwort)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-akk-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Prüfung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Sie · bereitet · eine · Prüfung · an · der · Universität · vor
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-akk-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — seine Kollegen)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Er · informiert · seine · Kollegen · über · die · neue · Regelung
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-akk-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — den Bericht)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Wir · lesen · den · Bericht · über · die · Klimakonferenz
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-akk-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Medikament)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Die · Ärztin · verschreibt · ein · Medikament
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-akk-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Stelle)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · interessiere · mich · für · eine · Stelle · im · Ausland
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-akk-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Entscheidung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Er · denkt · an · eine · wichtige · Entscheidung
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-akk-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Ausstellung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Wir · besuchen · eine · Ausstellung · über · erneuerbare · Energien
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-akk-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Zimmer)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Sie · reserviert · ein · Zimmer · im · Hotel
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-akk-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — die Politik)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Der · Minister · erklärt · die · neue · Politik
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-akk-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Kurs)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · suche · einen · geeigneten · Kurs · für · B1
 
@@ -1342,9 +1342,9 @@
 ### 113. `b1-akk-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — die Reise)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
-**Wörter:** Er · freut · sich · auf · die · Geschäftsreise
+**Wörter:** Er · freut · sich · schon · auf · die · Geschäftsreise
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1352,9 +1352,9 @@
 ### 114. `b1-akk-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — das Problem)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
-**Wörter:** Wir · diskutieren · das · Problem · im · Team
+**Wörter:** Wir · diskutieren · das · Problem · gemeinsam · im · Team
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1362,7 +1362,7 @@
 ### 115. `b1-akk-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Ticket)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Sie · kauft · ein · Ticket · für · den · Zug
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-akk-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — den Termin)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Der · Journalist · recherchiert · einen · komplexen · Fall
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-akk-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — jede Bewerbung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
 
@@ -1392,7 +1392,7 @@
 ### 118. `b1-akk-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — einen komplexen Fall)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Der · Journalist · recherchiert · einen · komplexen · Fall
 
@@ -1402,7 +1402,7 @@
 ### 119. `b1-akk-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — die Antwort)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
 
@@ -1412,7 +1412,7 @@
 ### 120. `b1-akk-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Prüfung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Sie · bereitet · eine · Prüfung · an · der · Universität · vor
 
@@ -1422,7 +1422,7 @@
 ### 121. `b1-akk-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — seine Kollegen)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Er · informiert · seine · Kollegen · über · die · neue · Regelung
 
@@ -1432,7 +1432,7 @@
 ### 122. `b1-akk-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — den Bericht)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Wir · lesen · den · Bericht · über · die · Klimakonferenz
 
@@ -1442,7 +1442,7 @@
 ### 123. `b1-akk-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Medikament)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Die · Ärztin · verschreibt · ein · Medikament
 
@@ -1452,7 +1452,7 @@
 ### 124. `b1-akk-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Stelle)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · interessiere · mich · für · eine · Stelle · im · Ausland
 
@@ -1462,7 +1462,7 @@
 ### 125. `b1-akk-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Entscheidung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Er · denkt · an · eine · wichtige · Entscheidung
 
@@ -1472,7 +1472,7 @@
 ### 126. `b1-akk-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Ausstellung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Wir · besuchen · eine · Ausstellung · über · erneuerbare · Energien
 
@@ -1482,7 +1482,7 @@
 ### 127. `b1-akk-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Zimmer)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Sie · reserviert · ein · Zimmer · im · Hotel
 
@@ -1492,7 +1492,7 @@
 ### 128. `b1-akk-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — die Politik)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Der · Minister · erklärt · die · neue · Politik
 
@@ -1502,7 +1502,7 @@
 ### 129. `b1-akk-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Kurs)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · suche · einen · geeigneten · Kurs · für · B1
 
@@ -1512,9 +1512,9 @@
 ### 130. `b1-akk-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — die Reise)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
-**Wörter:** Er · freut · sich · auf · die · Geschäftsreise
+**Wörter:** Er · freut · sich · schon · auf · die · Geschäftsreise
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-akk-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — das Problem)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
-**Wörter:** Wir · diskutieren · das · Problem · im · Team
+**Wörter:** Wir · diskutieren · das · Problem · gemeinsam · im · Team
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,7 +1532,7 @@
 ### 132. `b1-akk-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Ticket)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Sie · kauft · ein · Ticket · für · den · Zug
 
@@ -1542,7 +1542,7 @@
 ### 133. `b1-akk-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — den Termin)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Der · Journalist · recherchiert · einen · komplexen · Fall
 
@@ -1552,7 +1552,7 @@
 ### 134. `b1-akk-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — jede Bewerbung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
 
@@ -1562,7 +1562,7 @@
 ### 135. `b1-akk-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — einen komplexen Fall)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Der · Journalist · recherchiert · einen · komplexen · Fall
 
@@ -1572,7 +1572,7 @@
 ### 136. `b1-akk-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — die Antwort)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · warte · auf · die · Antwort · der · Personalabteilung
 
@@ -1582,7 +1582,7 @@
 ### 137. `b1-akk-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Prüfung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Sie · bereitet · eine · Prüfung · an · der · Universität · vor
 
@@ -1592,7 +1592,7 @@
 ### 138. `b1-akk-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — seine Kollegen)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Er · informiert · seine · Kollegen · über · die · neue · Regelung
 
@@ -1602,7 +1602,7 @@
 ### 139. `b1-akk-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — den Bericht)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Wir · lesen · den · Bericht · über · die · Klimakonferenz
 
@@ -1612,7 +1612,7 @@
 ### 140. `b1-akk-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Medikament)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Die · Ärztin · verschreibt · ein · Medikament
 
@@ -1622,7 +1622,7 @@
 ### 141. `b1-akk-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Stelle)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · interessiere · mich · für · eine · Stelle · im · Ausland
 
@@ -1632,7 +1632,7 @@
 ### 142. `b1-akk-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Entscheidung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Er · denkt · an · eine · wichtige · Entscheidung
 
@@ -1642,7 +1642,7 @@
 ### 143. `b1-akk-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Ausstellung)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Wir · besuchen · eine · Ausstellung · über · erneuerbare · Energien
 
@@ -1652,7 +1652,7 @@
 ### 144. `b1-akk-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Zimmer)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Sie · reserviert · ein · Zimmer · im · Hotel
 
@@ -1662,7 +1662,7 @@
 ### 145. `b1-akk-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — die Politik)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Der · Minister · erklärt · die · neue · Politik
 
@@ -1672,7 +1672,7 @@
 ### 146. `b1-akk-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Kurs)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Ich · suche · einen · geeigneten · Kurs · für · B1
 
@@ -1682,9 +1682,9 @@
 ### 147. `b1-akk-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — die Reise)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
-**Wörter:** Er · freut · sich · auf · die · Geschäftsreise
+**Wörter:** Er · freut · sich · schon · auf · die · Geschäftsreise
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-akk-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — das Problem)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
-**Wörter:** Wir · diskutieren · das · Problem · im · Team
+**Wörter:** Wir · diskutieren · das · Problem · gemeinsam · im · Team
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,7 +1702,7 @@
 ### 149. `b1-akk-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Ticket)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Sie · kauft · ein · Ticket · für · den · Zug
 
@@ -1712,7 +1712,7 @@
 ### 150. `b1-akk-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — den Termin)
+> Ordne die Wörter zum richtigen Satz: (Akkusativ)
 
 **Wörter:** Der · Journalist · recherchiert · einen · komplexen · Fall
 

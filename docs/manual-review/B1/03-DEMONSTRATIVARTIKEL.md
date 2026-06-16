@@ -1222,7 +1222,7 @@
 ### 101. `b1-demo-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Projekt)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Projekt · gefällt · mir · besser · als · das · andere
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-demo-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Kollegin)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Kollegin · aus · der · Abteilung · hilft · mir · oft
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-demo-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Professor)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieser · Professor · erklärt · das · Thema · sehr · verständlich
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-demo-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diese Nachrichten)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Ich · habe · diese · Nachrichten · schon · gelesen
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-demo-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Jenes Hotel)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Jenes · Hotel · war · deutlich · teurer · als · jenes
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-demo-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Artikel)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieser · Artikel · in · der · Zeitung · ist · sehr · aktuell
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-demo-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diesen Kandidaten)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Wir · wählen · diesen · Kandidaten · für · das · Amt
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-demo-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Studiengang)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieser · Studiengang · passt · besser · zu · meinen · Interessen
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-demo-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jene Meinung)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Er · vertraut · jener · Meinung · seines · Chefs
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-demo-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Reiseziel)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Reiseziel · empfehle · ich · dir · besonders
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-demo-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Patienten)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Patienten · müssen · länger · warten
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-demo-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jenen Politiker)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Ich · kenne · jenen · Politiker · aus · dem · Fernsehen
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-demo-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Gesetz)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Gesetz · wurde · gestern · verabschiedet
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-demo-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Vorlesung)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Vorlesung · war · interessanter · als · die · andere
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-demo-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diesen Vorschlag)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Wir · diskutieren · diesen · Vorschlag · im · Meeting
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-demo-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jenes Angebot)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Projekt · gefällt · mir · besser · als · das · andere
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-demo-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diese Regelung)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Kollegin · aus · der · Abteilung · hilft · mir · oft
 
@@ -1392,7 +1392,7 @@
 ### 118. `b1-demo-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Projekt)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Projekt · gefällt · mir · besser · als · das · andere
 
@@ -1402,7 +1402,7 @@
 ### 119. `b1-demo-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Kollegin)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Kollegin · aus · der · Abteilung · hilft · mir · oft
 
@@ -1412,7 +1412,7 @@
 ### 120. `b1-demo-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Professor)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieser · Professor · erklärt · das · Thema · sehr · verständlich
 
@@ -1422,7 +1422,7 @@
 ### 121. `b1-demo-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diese Nachrichten)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Ich · habe · diese · Nachrichten · schon · gelesen
 
@@ -1432,7 +1432,7 @@
 ### 122. `b1-demo-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Jenes Hotel)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Jenes · Hotel · war · deutlich · teurer · als · jenes
 
@@ -1442,7 +1442,7 @@
 ### 123. `b1-demo-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Artikel)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieser · Artikel · in · der · Zeitung · ist · sehr · aktuell
 
@@ -1452,7 +1452,7 @@
 ### 124. `b1-demo-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diesen Kandidaten)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Wir · wählen · diesen · Kandidaten · für · das · Amt
 
@@ -1462,7 +1462,7 @@
 ### 125. `b1-demo-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Studiengang)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieser · Studiengang · passt · besser · zu · meinen · Interessen
 
@@ -1472,7 +1472,7 @@
 ### 126. `b1-demo-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jene Meinung)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Er · vertraut · jener · Meinung · seines · Chefs
 
@@ -1482,7 +1482,7 @@
 ### 127. `b1-demo-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Reiseziel)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Reiseziel · empfehle · ich · dir · besonders
 
@@ -1492,7 +1492,7 @@
 ### 128. `b1-demo-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Patienten)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Patienten · müssen · länger · warten
 
@@ -1502,7 +1502,7 @@
 ### 129. `b1-demo-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jenen Politiker)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Ich · kenne · jenen · Politiker · aus · dem · Fernsehen
 
@@ -1512,7 +1512,7 @@
 ### 130. `b1-demo-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Gesetz)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Gesetz · wurde · gestern · verabschiedet
 
@@ -1522,7 +1522,7 @@
 ### 131. `b1-demo-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Vorlesung)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Vorlesung · war · interessanter · als · die · andere
 
@@ -1532,7 +1532,7 @@
 ### 132. `b1-demo-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diesen Vorschlag)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Wir · diskutieren · diesen · Vorschlag · im · Meeting
 
@@ -1542,7 +1542,7 @@
 ### 133. `b1-demo-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jenes Angebot)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Projekt · gefällt · mir · besser · als · das · andere
 
@@ -1552,7 +1552,7 @@
 ### 134. `b1-demo-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diese Regelung)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Kollegin · aus · der · Abteilung · hilft · mir · oft
 
@@ -1562,7 +1562,7 @@
 ### 135. `b1-demo-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Projekt)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Projekt · gefällt · mir · besser · als · das · andere
 
@@ -1572,7 +1572,7 @@
 ### 136. `b1-demo-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Kollegin)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Kollegin · aus · der · Abteilung · hilft · mir · oft
 
@@ -1582,7 +1582,7 @@
 ### 137. `b1-demo-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Professor)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieser · Professor · erklärt · das · Thema · sehr · verständlich
 
@@ -1592,7 +1592,7 @@
 ### 138. `b1-demo-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diese Nachrichten)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Ich · habe · diese · Nachrichten · schon · gelesen
 
@@ -1602,7 +1602,7 @@
 ### 139. `b1-demo-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Jenes Hotel)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Jenes · Hotel · war · deutlich · teurer · als · jenes
 
@@ -1612,7 +1612,7 @@
 ### 140. `b1-demo-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Artikel)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieser · Artikel · in · der · Zeitung · ist · sehr · aktuell
 
@@ -1622,7 +1622,7 @@
 ### 141. `b1-demo-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diesen Kandidaten)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Wir · wählen · diesen · Kandidaten · für · das · Amt
 
@@ -1632,7 +1632,7 @@
 ### 142. `b1-demo-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Studiengang)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieser · Studiengang · passt · besser · zu · meinen · Interessen
 
@@ -1642,7 +1642,7 @@
 ### 143. `b1-demo-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jene Meinung)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Er · vertraut · jener · Meinung · seines · Chefs
 
@@ -1652,7 +1652,7 @@
 ### 144. `b1-demo-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Reiseziel)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Reiseziel · empfehle · ich · dir · besonders
 
@@ -1662,7 +1662,7 @@
 ### 145. `b1-demo-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Patienten)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Patienten · müssen · länger · warten
 
@@ -1672,7 +1672,7 @@
 ### 146. `b1-demo-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jenen Politiker)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Ich · kenne · jenen · Politiker · aus · dem · Fernsehen
 
@@ -1682,7 +1682,7 @@
 ### 147. `b1-demo-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Gesetz)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Gesetz · wurde · gestern · verabschiedet
 
@@ -1692,7 +1692,7 @@
 ### 148. `b1-demo-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Vorlesung)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Diese · Vorlesung · war · interessanter · als · die · andere
 
@@ -1702,7 +1702,7 @@
 ### 149. `b1-demo-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diesen Vorschlag)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Wir · diskutieren · diesen · Vorschlag · im · Meeting
 
@@ -1712,7 +1712,7 @@
 ### 150. `b1-demo-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jenes Angebot)
+> Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)
 
 **Wörter:** Dieses · Projekt · gefällt · mir · besser · als · das · andere
 

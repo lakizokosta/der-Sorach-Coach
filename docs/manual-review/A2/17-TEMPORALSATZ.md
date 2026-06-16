@@ -88,7 +88,7 @@
 ### 6. `a2-temp-006` · select-one
 
 **Aufgabe:**
-> ___ des Essens sprechen wir über Arbeit. (Temporal — gleichzeitig)
+> ___ des Essens sprechen wir über Arbeit. (Temporalsatz)
 
 **Optionen:**
 - Als
@@ -102,7 +102,7 @@
 ### 7. `a2-temp-007` · select-one
 
 **Aufgabe:**
-> ___ ich in Berlin lebte, lernte ich viel. (Temporal — einmalig)
+> ___ ich in Berlin lebte, lernte ich viel. (Temporalsatz)
 
 **Optionen:**
 - Dass
@@ -116,7 +116,7 @@
 ### 8. `a2-temp-008` · select-one
 
 **Aufgabe:**
-> ___ die Sonne scheint, gehen wir raus. (Temporal — wiederholt)
+> ___ die Sonne scheint, gehen wir raus. (Temporalsatz)
 
 **Optionen:**
 - Als
@@ -130,7 +130,7 @@
 ### 9. `a2-temp-009` · select-one
 
 **Aufgabe:**
-> ___ der Fahrt lese ich ein Buch. (Temporal — gleichzeitig)
+> ___ der Fahrt lese ich ein Buch. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -144,7 +144,7 @@
 ### 10. `a2-temp-010` · select-one
 
 **Aufgabe:**
-> ___ er anrief, war ich unterwegs. (Temporal — einmalig)
+> ___ er anrief, war ich unterwegs. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -158,7 +158,7 @@
 ### 11. `a2-temp-011` · select-one
 
 **Aufgabe:**
-> ___ du müde bist, solltest du schlafen. (Temporal — Bedingung)
+> ___ du müde bist, solltest du schlafen. (Temporalsatz)
 
 **Optionen:**
 - Dass
@@ -172,7 +172,7 @@
 ### 12. `a2-temp-012` · select-one
 
 **Aufgabe:**
-> ___ des Unterrichts ist es still. (Temporal — gleichzeitig)
+> ___ des Unterrichts ist es still. (Temporalsatz)
 
 **Optionen:**
 - Als
@@ -186,7 +186,7 @@
 ### 13. `a2-temp-013` · select-one
 
 **Aufgabe:**
-> ___ sie jung war, tanzte sie gern. (Temporal — einmalig)
+> ___ sie jung war, tanzte sie gern. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -200,7 +200,7 @@
 ### 14. `a2-temp-014` · select-one
 
 **Aufgabe:**
-> ___ ich krank bin, bleibe ich zu Hause. (Temporal — Bedingung)
+> ___ ich krank bin, bleibe ich zu Hause. (Temporalsatz)
 
 **Optionen:**
 - Als
@@ -214,7 +214,7 @@
 ### 15. `a2-temp-015` · select-one
 
 **Aufgabe:**
-> ___ der Pause essen wir. (Temporal — gleichzeitig)
+> ___ der Pause essen wir. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -256,7 +256,7 @@
 ### 18. `a2-temp-018` · select-one
 
 **Aufgabe:**
-> ___ er kocht, höre ich Musik. (Temporal — einmalig)
+> ___ er kocht, höre ich Musik. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -270,7 +270,7 @@
 ### 19. `a2-temp-019` · select-one
 
 **Aufgabe:**
-> ___ wir ankamen, war es schon dunkel. (Temporal — wiederholt/Bedingung)
+> ___ wir ankamen, war es schon dunkel. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -284,7 +284,7 @@
 ### 20. `a2-temp-020` · select-one
 
 **Aufgabe:**
-> ___ du Zeit hast, komm vorbei. (Temporal — gleichzeitig)
+> ___ du Zeit hast, komm vorbei. (Temporalsatz)
 
 **Optionen:**
 - Als
@@ -298,7 +298,7 @@
 ### 21. `a2-temp-021` · select-one
 
 **Aufgabe:**
-> ___ des Essens sprechen wir über Arbeit. (Temporal — einmalig)
+> ___ des Essens sprechen wir über Arbeit. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -312,7 +312,7 @@
 ### 22. `a2-temp-022` · select-one
 
 **Aufgabe:**
-> ___ ich in Berlin lebte, lernte ich viel. (Temporal — Bedingung)
+> ___ ich in Berlin lebte, lernte ich viel. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -326,7 +326,7 @@
 ### 23. `a2-temp-023` · select-one
 
 **Aufgabe:**
-> ___ die Sonne scheint, gehen wir raus. (Temporal — gleichzeitig)
+> ___ die Sonne scheint, gehen wir raus. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -340,7 +340,7 @@
 ### 24. `a2-temp-024` · select-one
 
 **Aufgabe:**
-> ___ der Fahrt lese ich ein Buch. (Temporal — einmalig)
+> ___ der Fahrt lese ich ein Buch. (Temporalsatz)
 
 **Optionen:**
 - Weil
@@ -354,7 +354,7 @@
 ### 25. `a2-temp-025` · select-one
 
 **Aufgabe:**
-> ___ er anrief, war ich unterwegs. (Temporal — wiederholt)
+> ___ er anrief, war ich unterwegs. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -368,7 +368,7 @@
 ### 26. `a2-temp-026` · select-one
 
 **Aufgabe:**
-> ___ du müde bist, solltest du schlafen. (Temporal — gleichzeitig)
+> ___ du müde bist, solltest du schlafen. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -382,7 +382,7 @@
 ### 27. `a2-temp-027` · select-one
 
 **Aufgabe:**
-> ___ des Unterrichts ist es still. (Temporal — einmalig)
+> ___ des Unterrichts ist es still. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -396,7 +396,7 @@
 ### 28. `a2-temp-028` · select-one
 
 **Aufgabe:**
-> ___ sie jung war, tanzte sie gern. (Temporal — Bedingung)
+> ___ sie jung war, tanzte sie gern. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -410,7 +410,7 @@
 ### 29. `a2-temp-029` · select-one
 
 **Aufgabe:**
-> ___ ich krank bin, bleibe ich zu Hause. (Temporal — gleichzeitig)
+> ___ ich krank bin, bleibe ich zu Hause. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -424,7 +424,7 @@
 ### 30. `a2-temp-030` · select-one
 
 **Aufgabe:**
-> ___ der Pause essen wir. (Temporal — einmalig)
+> ___ der Pause essen wir. (Temporalsatz)
 
 **Optionen:**
 - Als
@@ -438,7 +438,7 @@
 ### 31. `a2-temp-031` · select-one
 
 **Aufgabe:**
-> ___ ich klein war, wohnte ich auf dem Land. (Temporal — Bedingung)
+> ___ ich klein war, wohnte ich auf dem Land. (Temporalsatz)
 
 **Optionen:**
 - Dass
@@ -452,7 +452,7 @@
 ### 32. `a2-temp-032` · select-one
 
 **Aufgabe:**
-> ___ es regnet, bleibe ich drinnen. (Temporal — gleichzeitig)
+> ___ es regnet, bleibe ich drinnen. (Temporalsatz)
 
 **Optionen:**
 - Als
@@ -494,7 +494,7 @@
 ### 35. `a2-temp-035` · select-one
 
 **Aufgabe:**
-> ___ du Zeit hast, komm vorbei. (Temporal — einmalig)
+> ___ du Zeit hast, komm vorbei. (Temporalsatz)
 
 **Optionen:**
 - Dass
@@ -508,7 +508,7 @@
 ### 36. `a2-temp-036` · select-one
 
 **Aufgabe:**
-> ___ des Essens sprechen wir über Arbeit. (Temporal — wiederholt/Bedingung)
+> ___ des Essens sprechen wir über Arbeit. (Temporalsatz)
 
 **Optionen:**
 - Als
@@ -522,7 +522,7 @@
 ### 37. `a2-temp-037` · select-one
 
 **Aufgabe:**
-> ___ ich in Berlin lebte, lernte ich viel. (Temporal — gleichzeitig)
+> ___ ich in Berlin lebte, lernte ich viel. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -536,7 +536,7 @@
 ### 38. `a2-temp-038` · select-one
 
 **Aufgabe:**
-> ___ die Sonne scheint, gehen wir raus. (Temporal — einmalig)
+> ___ die Sonne scheint, gehen wir raus. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -550,7 +550,7 @@
 ### 39. `a2-temp-039` · select-one
 
 **Aufgabe:**
-> ___ der Fahrt lese ich ein Buch. (Temporal — Bedingung)
+> ___ der Fahrt lese ich ein Buch. (Temporalsatz)
 
 **Optionen:**
 - Dass
@@ -564,7 +564,7 @@
 ### 40. `a2-temp-040` · select-one
 
 **Aufgabe:**
-> ___ er anrief, war ich unterwegs. (Temporal — gleichzeitig)
+> ___ er anrief, war ich unterwegs. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -578,7 +578,7 @@
 ### 41. `a2-temp-041` · select-one
 
 **Aufgabe:**
-> ___ du müde bist, solltest du schlafen. (Temporal — einmalig)
+> ___ du müde bist, solltest du schlafen. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -592,7 +592,7 @@
 ### 42. `a2-temp-042` · select-one
 
 **Aufgabe:**
-> ___ des Unterrichts ist es still. (Temporal — wiederholt)
+> ___ des Unterrichts ist es still. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -606,7 +606,7 @@
 ### 43. `a2-temp-043` · select-one
 
 **Aufgabe:**
-> ___ sie jung war, tanzte sie gern. (Temporal — gleichzeitig)
+> ___ sie jung war, tanzte sie gern. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -620,7 +620,7 @@
 ### 44. `a2-temp-044` · select-one
 
 **Aufgabe:**
-> ___ ich krank bin, bleibe ich zu Hause. (Temporal — einmalig)
+> ___ ich krank bin, bleibe ich zu Hause. (Temporalsatz)
 
 **Optionen:**
 - Weil
@@ -634,7 +634,7 @@
 ### 45. `a2-temp-045` · select-one
 
 **Aufgabe:**
-> ___ der Pause essen wir. (Temporal — Bedingung)
+> ___ der Pause essen wir. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -648,7 +648,7 @@
 ### 46. `a2-temp-046` · select-one
 
 **Aufgabe:**
-> ___ ich klein war, wohnte ich auf dem Land. (Temporal — gleichzeitig)
+> ___ ich klein war, wohnte ich auf dem Land. (Temporalsatz)
 
 **Optionen:**
 - Wenn
@@ -662,7 +662,7 @@
 ### 47. `a2-temp-047` · select-one
 
 **Aufgabe:**
-> ___ es regnet, bleibe ich drinnen. (Temporal — einmalig)
+> ___ es regnet, bleibe ich drinnen. (Temporalsatz)
 
 **Optionen:**
 - Dass
@@ -676,7 +676,7 @@
 ### 48. `a2-temp-048` · select-one
 
 **Aufgabe:**
-> ___ er kocht, höre ich Musik. (Temporal — Bedingung)
+> ___ er kocht, höre ich Musik. (Temporalsatz)
 
 **Optionen:**
 - Als
@@ -690,7 +690,7 @@
 ### 49. `a2-temp-049` · select-one
 
 **Aufgabe:**
-> ___ wir ankamen, war es schon dunkel. (Temporal — gleichzeitig)
+> ___ wir ankamen, war es schon dunkel. (Temporalsatz)
 
 **Optionen:**
 - Während
@@ -1222,7 +1222,7 @@
 ### 101. `a2-temp-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Als · Kind · wohnte · ich · auf · Land
 
@@ -1232,7 +1232,7 @@
 ### 102. `a2-temp-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Wenn · es · regnet · bleibe · ich · drinnen
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-temp-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · er · kocht · höre · ich · Radio
 
@@ -1252,7 +1252,7 @@
 ### 104. `a2-temp-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Als · wir · ankamen · war · es · schon · dunkel
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-temp-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Wenn · du · Zeit · hast · komm · vorbei
 
@@ -1272,7 +1272,7 @@
 ### 106. `a2-temp-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · des · Essens · sprechen · wir · über · Arbeit
 
@@ -1282,7 +1282,7 @@
 ### 107. `a2-temp-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** In · Berlin · lernte · ich · viel · Deutsch
 
@@ -1292,7 +1292,7 @@
 ### 108. `a2-temp-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Wenn · die · Sonne · scheint · gehen · wir · in · den · Zoo
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-temp-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · der · Fahrt · lese · ich · ein · Buch
 
@@ -1312,7 +1312,7 @@
 ### 110. `a2-temp-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Als · er · anrief · war · ich · unterwegs
 
@@ -1322,9 +1322,9 @@
 ### 111. `a2-temp-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
-**Wörter:** Bei · Müdigkeit · solltest · du · schlafen
+**Wörter:** Wenn · du · müde · bist · solltest · du · schlafen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,7 +1332,7 @@
 ### 112. `a2-temp-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · des · Unterrichts · ist · es · still
 
@@ -1342,9 +1342,9 @@
 ### 113. `a2-temp-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
-**Wörter:** Als · junge · Frau · tanzte · sie · gern
+**Wörter:** Als · sie · jung · war · tanzte · sie · gern
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1352,9 +1352,9 @@
 ### 114. `a2-temp-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
-**Wörter:** Bei · Krankheit · bleibe · ich · Zuhause
+**Wörter:** Wenn · ich · krank · bin · bleibe · ich · zu · Hause
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1362,7 +1362,7 @@
 ### 115. `a2-temp-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · der · Pause · essen · wir
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-temp-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Nachdem)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Nach · Reisebuchung · sind · wir · glücklich
 
@@ -1382,7 +1382,7 @@
 ### 117. `a2-temp-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Nach · Aufwachen · trinke · ich · Kaffee
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-temp-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Als · Kind · wohnte · ich · auf · Land
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-temp-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Wenn · es · regnet · bleibe · ich · drinnen
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-temp-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · er · kocht · höre · ich · Radio
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-temp-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Als · wir · ankamen · war · es · schon · dunkel
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-temp-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Wenn · du · Zeit · hast · komm · vorbei
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-temp-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · des · Essens · sprechen · wir · über · Arbeit
 
@@ -1452,7 +1452,7 @@
 ### 124. `a2-temp-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** In · Berlin · lernte · ich · viel · Deutsch
 
@@ -1462,7 +1462,7 @@
 ### 125. `a2-temp-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Wenn · die · Sonne · scheint · gehen · wir · in · den · Zoo
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-temp-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · der · Fahrt · lese · ich · ein · Buch
 
@@ -1482,7 +1482,7 @@
 ### 127. `a2-temp-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Als · er · anrief · war · ich · unterwegs
 
@@ -1492,9 +1492,9 @@
 ### 128. `a2-temp-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
-**Wörter:** Bei · Müdigkeit · solltest · du · schlafen
+**Wörter:** Wenn · du · müde · bist · solltest · du · schlafen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,7 +1502,7 @@
 ### 129. `a2-temp-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · des · Unterrichts · ist · es · still
 
@@ -1512,9 +1512,9 @@
 ### 130. `a2-temp-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
-**Wörter:** Als · junge · Frau · tanzte · sie · gern
+**Wörter:** Als · sie · jung · war · tanzte · sie · gern
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `a2-temp-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
-**Wörter:** Bei · Krankheit · bleibe · ich · Zuhause
+**Wörter:** Wenn · ich · krank · bin · bleibe · ich · zu · Hause
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,7 +1532,7 @@
 ### 132. `a2-temp-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · der · Pause · essen · wir
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-temp-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Nachdem)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Nach · Reisebuchung · sind · wir · glücklich
 
@@ -1552,7 +1552,7 @@
 ### 134. `a2-temp-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Nach · Aufwachen · trinke · ich · Kaffee
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-temp-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Als · Kind · wohnte · ich · auf · Land
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-temp-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Wenn · es · regnet · bleibe · ich · drinnen
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-temp-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · er · kocht · höre · ich · Radio
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-temp-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Als · wir · ankamen · war · es · schon · dunkel
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-temp-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Wenn · du · Zeit · hast · komm · vorbei
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-temp-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · des · Essens · sprechen · wir · über · Arbeit
 
@@ -1622,7 +1622,7 @@
 ### 141. `a2-temp-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** In · Berlin · lernte · ich · viel · Deutsch
 
@@ -1632,7 +1632,7 @@
 ### 142. `a2-temp-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Wenn · die · Sonne · scheint · gehen · wir · in · den · Zoo
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-temp-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · der · Fahrt · lese · ich · ein · Buch
 
@@ -1652,7 +1652,7 @@
 ### 144. `a2-temp-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Als · er · anrief · war · ich · unterwegs
 
@@ -1662,9 +1662,9 @@
 ### 145. `a2-temp-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
-**Wörter:** Bei · Müdigkeit · solltest · du · schlafen
+**Wörter:** Wenn · du · müde · bist · solltest · du · schlafen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,7 +1672,7 @@
 ### 146. `a2-temp-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · des · Unterrichts · ist · es · still
 
@@ -1682,9 +1682,9 @@
 ### 147. `a2-temp-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Als)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
-**Wörter:** Als · junge · Frau · tanzte · sie · gern
+**Wörter:** Als · sie · jung · war · tanzte · sie · gern
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `a2-temp-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Wenn)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
-**Wörter:** Bei · Krankheit · bleibe · ich · Zuhause
+**Wörter:** Wenn · ich · krank · bin · bleibe · ich · zu · Hause
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,7 +1702,7 @@
 ### 149. `a2-temp-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Während)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Während · der · Pause · essen · wir
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-temp-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Temporal — Nachdem)
+> Ordne die Wörter zum richtigen Satz: (Temporalsatz)
 
 **Wörter:** Nach · Reisebuchung · sind · wir · glücklich
 

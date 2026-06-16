@@ -4,8 +4,8 @@
 |---|---|
 | **Topic-Key** | `PERFEKTA2` |
 | **Beschreibung** | haben/sein + Partizip II |
-| **Fragen gesamt** | 152 |
-| Auswahl (1 Antwort) | 51 |
+| **Fragen gesamt** | 151 |
+| Auswahl (1 Antwort) | 50 |
 | Eingabe | 50 |
 | Wörter ordnen | 51 |
 
@@ -13,7 +13,7 @@
 
 ---
 
-## Auswahl (1 Antwort) (51)
+## Auswahl (1 Antwort) (50)
 
 ### 1. `a2-perf-001` · select-one
 
@@ -29,21 +29,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 2. `a2-perf-1` · select-one
-
-**Aufgabe:**
-> Ich ___ gestern ins Kino gegangen. (Perfekt + Hilfsverb sein)
-
-**Optionen:**
-- bin **✓**
-- habe
-- war
-- hatte
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 3. `a2-perf-002` · select-one
+### 2. `a2-perf-002` · select-one
 
 **Aufgabe:**
 > Wir ___ Pizza gegessen. (Perfekt + Hilfsverb haben)
@@ -57,7 +43,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 4. `a2-perf-003` · select-one
+### 3. `a2-perf-003` · select-one
 
 **Aufgabe:**
 > Er ___ den ganzen Tag gearbeitet. (Perfekt + Hilfsverb haben)
@@ -71,7 +57,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 5. `a2-perf-004` · select-one
+### 4. `a2-perf-004` · select-one
 
 **Aufgabe:**
 > Sie ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
@@ -85,7 +71,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 6. `a2-perf-005` · select-one
+### 5. `a2-perf-005` · select-one
 
 **Aufgabe:**
 > Ich ___ meine Freunde getroffen. (Perfekt + Hilfsverb haben)
@@ -99,7 +85,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 7. `a2-perf-006` · select-one
+### 6. `a2-perf-006` · select-one
 
 **Aufgabe:**
 > Wir ___ im Park spaziert. (Perfekt + Hilfsverb sein)
@@ -113,7 +99,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 8. `a2-perf-007` · select-one
+### 7. `a2-perf-007` · select-one
 
 **Aufgabe:**
 > Du ___ schon viel gelernt. (Perfekt + Hilfsverb haben)
@@ -127,7 +113,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 9. `a2-perf-008` · select-one
+### 8. `a2-perf-008` · select-one
 
 **Aufgabe:**
 > Er ___ Fußball gespielt. (Perfekt + Hilfsverb haben)
@@ -141,7 +127,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 10. `a2-perf-009` · select-one
+### 9. `a2-perf-009` · select-one
 
 **Aufgabe:**
 > Ich ___ lange geschlafen. (Perfekt + Hilfsverb haben)
@@ -155,7 +141,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 11. `a2-perf-010` · select-one
+### 10. `a2-perf-010` · select-one
 
 **Aufgabe:**
 > Sie ___ nach Hause gekommen. (Perfekt + Hilfsverb sein)
@@ -169,7 +155,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 12. `a2-perf-011` · select-one
+### 11. `a2-perf-011` · select-one
 
 **Aufgabe:**
 > Wir ___ ein neues Lied gesungen. (Perfekt + Hilfsverb haben)
@@ -183,7 +169,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 13. `a2-perf-012` · select-one
+### 12. `a2-perf-012` · select-one
 
 **Aufgabe:**
 > Ich ___ schon einmal in Wien gewesen. (Perfekt + Hilfsverb sein)
@@ -197,7 +183,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 14. `a2-perf-013` · select-one
+### 13. `a2-perf-013` · select-one
 
 **Aufgabe:**
 > Er ___ seine Hausaufgaben gemacht. (Perfekt + Hilfsverb haben)
@@ -211,7 +197,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 15. `a2-perf-014` · select-one
+### 14. `a2-perf-014` · select-one
 
 **Aufgabe:**
 > Ich ___ den Bus verpasst. (Perfekt + Hilfsverb haben)
@@ -225,7 +211,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 16. `a2-perf-015` · select-one
+### 15. `a2-perf-015` · select-one
 
 **Aufgabe:**
 > Sie ___ sehr gut gekocht. (Perfekt + Hilfsverb haben)
@@ -239,7 +225,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 17. `a2-perf-016` · select-one
+### 16. `a2-perf-016` · select-one
 
 **Aufgabe:**
 > Ich ___ gestern ins Kino gegangen. (Perfekt + Hilfsverb haben)
@@ -253,7 +239,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 18. `a2-perf-017` · select-one
+### 17. `a2-perf-017` · select-one
 
 **Aufgabe:**
 > Wir ___ Pizza gegessen. (Perfekt + Hilfsverb haben)
@@ -267,7 +253,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 19. `a2-perf-018` · select-one
+### 18. `a2-perf-018` · select-one
 
 **Aufgabe:**
 > Er ___ den ganzen Tag gearbeitet. (Perfekt + Hilfsverb sein)
@@ -281,7 +267,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 20. `a2-perf-019` · select-one
+### 19. `a2-perf-019` · select-one
 
 **Aufgabe:**
 > Sie ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
@@ -295,7 +281,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 21. `a2-perf-020` · select-one
+### 20. `a2-perf-020` · select-one
 
 **Aufgabe:**
 > Ich ___ meine Freunde getroffen. (Perfekt + Hilfsverb haben)
@@ -309,7 +295,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 22. `a2-perf-021` · select-one
+### 21. `a2-perf-021` · select-one
 
 **Aufgabe:**
 > Wir ___ im Park spaziert. (Perfekt + Hilfsverb sein)
@@ -323,7 +309,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 23. `a2-perf-022` · select-one
+### 22. `a2-perf-022` · select-one
 
 **Aufgabe:**
 > Du ___ schon viel gelernt. (Perfekt + Hilfsverb haben)
@@ -337,7 +323,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 24. `a2-perf-023` · select-one
+### 23. `a2-perf-023` · select-one
 
 **Aufgabe:**
 > Er ___ Fußball gespielt. (Perfekt + Hilfsverb sein)
@@ -351,7 +337,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 25. `a2-perf-024` · select-one
+### 24. `a2-perf-024` · select-one
 
 **Aufgabe:**
 > Ich ___ lange geschlafen. (Perfekt + Hilfsverb haben)
@@ -365,7 +351,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 26. `a2-perf-025` · select-one
+### 25. `a2-perf-025` · select-one
 
 **Aufgabe:**
 > Sie ___ nach Hause gekommen. (Perfekt + Hilfsverb haben)
@@ -379,7 +365,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 27. `a2-perf-026` · select-one
+### 26. `a2-perf-026` · select-one
 
 **Aufgabe:**
 > Wir ___ ein neues Lied gesungen. (Perfekt + Hilfsverb haben)
@@ -393,7 +379,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 28. `a2-perf-027` · select-one
+### 27. `a2-perf-027` · select-one
 
 **Aufgabe:**
 > Ich ___ schon einmal in Wien gewesen. (Perfekt + Hilfsverb sein)
@@ -407,7 +393,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 29. `a2-perf-028` · select-one
+### 28. `a2-perf-028` · select-one
 
 **Aufgabe:**
 > Er ___ seine Hausaufgaben gemacht. (Perfekt + Hilfsverb haben)
@@ -421,7 +407,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 30. `a2-perf-029` · select-one
+### 29. `a2-perf-029` · select-one
 
 **Aufgabe:**
 > Ich ___ den Bus verpasst. (Perfekt + Hilfsverb haben)
@@ -435,7 +421,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 31. `a2-perf-030` · select-one
+### 30. `a2-perf-030` · select-one
 
 **Aufgabe:**
 > Sie ___ sehr gut gekocht. (Perfekt + Hilfsverb haben)
@@ -449,7 +435,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 32. `a2-perf-031` · select-one
+### 31. `a2-perf-031` · select-one
 
 **Aufgabe:**
 > Ich ___ gestern ins Kino gegangen. (Perfekt + Hilfsverb haben)
@@ -463,7 +449,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 33. `a2-perf-032` · select-one
+### 32. `a2-perf-032` · select-one
 
 **Aufgabe:**
 > Wir ___ Pizza gegessen. (Perfekt + Hilfsverb haben)
@@ -477,7 +463,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 34. `a2-perf-033` · select-one
+### 33. `a2-perf-033` · select-one
 
 **Aufgabe:**
 > Er ___ den ganzen Tag gearbeitet. (Perfekt + Hilfsverb haben)
@@ -491,7 +477,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 35. `a2-perf-034` · select-one
+### 34. `a2-perf-034` · select-one
 
 **Aufgabe:**
 > Sie ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
@@ -505,7 +491,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 36. `a2-perf-035` · select-one
+### 35. `a2-perf-035` · select-one
 
 **Aufgabe:**
 > Ich ___ meine Freunde getroffen. (Perfekt + Hilfsverb sein)
@@ -519,7 +505,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 37. `a2-perf-036` · select-one
+### 36. `a2-perf-036` · select-one
 
 **Aufgabe:**
 > Wir ___ im Park spaziert. (Perfekt + Hilfsverb haben)
@@ -533,7 +519,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 38. `a2-perf-037` · select-one
+### 37. `a2-perf-037` · select-one
 
 **Aufgabe:**
 > Du ___ schon viel gelernt. (Perfekt + Hilfsverb haben)
@@ -547,7 +533,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 39. `a2-perf-038` · select-one
+### 38. `a2-perf-038` · select-one
 
 **Aufgabe:**
 > Er ___ Fußball gespielt. (Perfekt + Hilfsverb sein)
@@ -561,7 +547,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 40. `a2-perf-039` · select-one
+### 39. `a2-perf-039` · select-one
 
 **Aufgabe:**
 > Ich ___ lange geschlafen. (Perfekt + Hilfsverb haben)
@@ -575,7 +561,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 41. `a2-perf-040` · select-one
+### 40. `a2-perf-040` · select-one
 
 **Aufgabe:**
 > Sie ___ nach Hause gekommen. (Perfekt + Hilfsverb sein)
@@ -589,7 +575,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 42. `a2-perf-041` · select-one
+### 41. `a2-perf-041` · select-one
 
 **Aufgabe:**
 > Wir ___ ein neues Lied gesungen. (Perfekt + Hilfsverb haben)
@@ -603,7 +589,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 43. `a2-perf-042` · select-one
+### 42. `a2-perf-042` · select-one
 
 **Aufgabe:**
 > Ich ___ schon einmal in Wien gewesen. (Perfekt + Hilfsverb haben)
@@ -617,7 +603,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 44. `a2-perf-043` · select-one
+### 43. `a2-perf-043` · select-one
 
 **Aufgabe:**
 > Er ___ seine Hausaufgaben gemacht. (Perfekt + Hilfsverb haben)
@@ -631,7 +617,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 45. `a2-perf-044` · select-one
+### 44. `a2-perf-044` · select-one
 
 **Aufgabe:**
 > Ich ___ den Bus verpasst. (Perfekt + Hilfsverb haben)
@@ -645,7 +631,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 46. `a2-perf-045` · select-one
+### 45. `a2-perf-045` · select-one
 
 **Aufgabe:**
 > Sie ___ sehr gut gekocht. (Perfekt + Hilfsverb haben)
@@ -659,7 +645,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 47. `a2-perf-046` · select-one
+### 46. `a2-perf-046` · select-one
 
 **Aufgabe:**
 > Ich ___ gestern ins Kino gegangen. (Perfekt + Hilfsverb sein)
@@ -673,7 +659,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 48. `a2-perf-047` · select-one
+### 47. `a2-perf-047` · select-one
 
 **Aufgabe:**
 > Wir ___ Pizza gegessen. (Perfekt + Hilfsverb haben)
@@ -687,7 +673,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 49. `a2-perf-048` · select-one
+### 48. `a2-perf-048` · select-one
 
 **Aufgabe:**
 > Er ___ den ganzen Tag gearbeitet. (Perfekt + Hilfsverb haben)
@@ -701,7 +687,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 50. `a2-perf-049` · select-one
+### 49. `a2-perf-049` · select-one
 
 **Aufgabe:**
 > Sie ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
@@ -715,7 +701,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 51. `a2-perf-050` · select-one
+### 50. `a2-perf-050` · select-one
 
 **Aufgabe:**
 > Ich ___ meine Freunde getroffen. (Perfekt + Hilfsverb haben)
@@ -731,7 +717,7 @@
 
 ## Eingabe (50)
 
-### 52. `a2-perf-in-001` · input-text
+### 51. `a2-perf-in-001` · input-text
 
 **Aufgabe:**
 > Ich ___ gestern viele Leute kennengelernt. (Perfekt + Hilfsverb sein)
@@ -741,7 +727,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 53. `a2-perf-in-002` · input-text
+### 52. `a2-perf-in-002` · input-text
 
 **Aufgabe:**
 > Wir ___ zusammen Pizza gegessen. (Perfekt + Hilfsverb haben)
@@ -751,7 +737,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 54. `a2-perf-in-003` · input-text
+### 53. `a2-perf-in-003` · input-text
 
 **Aufgabe:**
 > Er ___ den ganzen Tag im Büro gearbeitet. (Perfekt + Hilfsverb haben)
@@ -761,7 +747,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 55. `a2-perf-in-004` · input-text
+### 54. `a2-perf-in-004` · input-text
 
 **Aufgabe:**
 > Sie ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
@@ -771,7 +757,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 56. `a2-perf-in-005` · input-text
+### 55. `a2-perf-in-005` · input-text
 
 **Aufgabe:**
 > Ich ___ meine Freunde im Park getroffen. (Perfekt + Hilfsverb haben)
@@ -781,7 +767,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 57. `a2-perf-in-006` · input-text
+### 56. `a2-perf-in-006` · input-text
 
 **Aufgabe:**
 > Wir ___ im Stadtpark spaziert. (Perfekt + Hilfsverb sein)
@@ -791,7 +777,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 58. `a2-perf-in-007` · input-text
+### 57. `a2-perf-in-007` · input-text
 
 **Aufgabe:**
 > Du ___ schon viel für die Prüfung gelernt. (Perfekt + Hilfsverb haben)
@@ -801,7 +787,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 59. `a2-perf-in-008` · input-text
+### 58. `a2-perf-in-008` · input-text
 
 **Aufgabe:**
 > Er ___ Fußball im Verein gespielt. (Perfekt + Hilfsverb haben)
@@ -811,7 +797,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 60. `a2-perf-in-009` · input-text
+### 59. `a2-perf-in-009` · input-text
 
 **Aufgabe:**
 > Ich ___ lange geschlafen. (Perfekt + Hilfsverb haben)
@@ -821,7 +807,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 61. `a2-perf-in-010` · input-text
+### 60. `a2-perf-in-010` · input-text
 
 **Aufgabe:**
 > Sie ___ spät nach Hause gekommen. (Perfekt + Hilfsverb sein)
@@ -831,7 +817,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 62. `a2-perf-in-011` · input-text
+### 61. `a2-perf-in-011` · input-text
 
 **Aufgabe:**
 > Wir ___ auf der Hochzeit ein Lied gesungen. (Perfekt + Hilfsverb haben)
@@ -841,7 +827,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 63. `a2-perf-in-012` · input-text
+### 62. `a2-perf-in-012` · input-text
 
 **Aufgabe:**
 > Ich ___ schon einmal an der Mosel gewesen. (Perfekt + Hilfsverb sein)
@@ -851,7 +837,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 64. `a2-perf-in-013` · input-text
+### 63. `a2-perf-in-013` · input-text
 
 **Aufgabe:**
 > Er ___ seine Hausaufgaben gemacht. (Perfekt + Hilfsverb haben)
@@ -861,7 +847,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 65. `a2-perf-in-014` · input-text
+### 64. `a2-perf-in-014` · input-text
 
 **Aufgabe:**
 > Ich ___ den Bus verpasst. (Perfekt + Hilfsverb haben)
@@ -871,7 +857,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 66. `a2-perf-in-015` · input-text
+### 65. `a2-perf-in-015` · input-text
 
 **Aufgabe:**
 > Sie ___ sehr gut für die Gäste gekocht. (Perfekt + Hilfsverb haben)
@@ -881,7 +867,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 67. `a2-perf-in-016` · input-text
+### 66. `a2-perf-in-016` · input-text
 
 **Aufgabe:**
 > Wir ___ die Reise im Reisebüro gebucht. (Perfekt + Hilfsverb haben)
@@ -891,7 +877,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 68. `a2-perf-in-017` · input-text
+### 67. `a2-perf-in-017` · input-text
 
 **Aufgabe:**
 > Er ___ sich für den Tanzsport interessiert. (Perfekt + Hilfsverb haben)
@@ -901,7 +887,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 69. `a2-perf-in-018` · input-text
+### 68. `a2-perf-in-018` · input-text
 
 **Aufgabe:**
 > Ich ___ gestern viele Leute kennengelernt. (Perfekt + Hilfsverb sein)
@@ -911,7 +897,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 70. `a2-perf-in-019` · input-text
+### 69. `a2-perf-in-019` · input-text
 
 **Aufgabe:**
 > Wir ___ zusammen Pizza gegessen. (Perfekt + Hilfsverb haben)
@@ -921,7 +907,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 71. `a2-perf-in-020` · input-text
+### 70. `a2-perf-in-020` · input-text
 
 **Aufgabe:**
 > Er ___ den ganzen Tag im Büro gearbeitet. (Perfekt + Hilfsverb haben)
@@ -931,7 +917,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 72. `a2-perf-in-021` · input-text
+### 71. `a2-perf-in-021` · input-text
 
 **Aufgabe:**
 > Sie ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
@@ -941,7 +927,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 73. `a2-perf-in-022` · input-text
+### 72. `a2-perf-in-022` · input-text
 
 **Aufgabe:**
 > Ich ___ meine Freunde im Park getroffen. (Perfekt + Hilfsverb haben)
@@ -951,7 +937,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 74. `a2-perf-in-023` · input-text
+### 73. `a2-perf-in-023` · input-text
 
 **Aufgabe:**
 > Wir ___ im Stadtpark spaziert. (Perfekt + Hilfsverb sein)
@@ -961,7 +947,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 75. `a2-perf-in-024` · input-text
+### 74. `a2-perf-in-024` · input-text
 
 **Aufgabe:**
 > Du ___ schon viel für die Prüfung gelernt. (Perfekt + Hilfsverb haben)
@@ -971,7 +957,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 76. `a2-perf-in-025` · input-text
+### 75. `a2-perf-in-025` · input-text
 
 **Aufgabe:**
 > Er ___ Fußball im Verein gespielt. (Perfekt + Hilfsverb haben)
@@ -981,7 +967,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 77. `a2-perf-in-026` · input-text
+### 76. `a2-perf-in-026` · input-text
 
 **Aufgabe:**
 > Ich ___ lange geschlafen. (Perfekt + Hilfsverb haben)
@@ -991,7 +977,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 78. `a2-perf-in-027` · input-text
+### 77. `a2-perf-in-027` · input-text
 
 **Aufgabe:**
 > Sie ___ spät nach Hause gekommen. (Perfekt + Hilfsverb sein)
@@ -1001,7 +987,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 79. `a2-perf-in-028` · input-text
+### 78. `a2-perf-in-028` · input-text
 
 **Aufgabe:**
 > Wir ___ auf der Hochzeit ein Lied gesungen. (Perfekt + Hilfsverb haben)
@@ -1011,7 +997,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 80. `a2-perf-in-029` · input-text
+### 79. `a2-perf-in-029` · input-text
 
 **Aufgabe:**
 > Ich ___ schon einmal an der Mosel gewesen. (Perfekt + Hilfsverb sein)
@@ -1021,7 +1007,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 81. `a2-perf-in-030` · input-text
+### 80. `a2-perf-in-030` · input-text
 
 **Aufgabe:**
 > Er ___ seine Hausaufgaben gemacht. (Perfekt + Hilfsverb haben)
@@ -1031,7 +1017,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 82. `a2-perf-in-031` · input-text
+### 81. `a2-perf-in-031` · input-text
 
 **Aufgabe:**
 > Ich ___ den Bus verpasst. (Perfekt + Hilfsverb haben)
@@ -1041,7 +1027,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 83. `a2-perf-in-032` · input-text
+### 82. `a2-perf-in-032` · input-text
 
 **Aufgabe:**
 > Sie ___ sehr gut für die Gäste gekocht. (Perfekt + Hilfsverb haben)
@@ -1051,7 +1037,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 84. `a2-perf-in-033` · input-text
+### 83. `a2-perf-in-033` · input-text
 
 **Aufgabe:**
 > Wir ___ die Reise im Reisebüro gebucht. (Perfekt + Hilfsverb haben)
@@ -1061,7 +1047,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 85. `a2-perf-in-034` · input-text
+### 84. `a2-perf-in-034` · input-text
 
 **Aufgabe:**
 > Er ___ sich für den Tanzsport interessiert. (Perfekt + Hilfsverb haben)
@@ -1071,7 +1057,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 86. `a2-perf-in-035` · input-text
+### 85. `a2-perf-in-035` · input-text
 
 **Aufgabe:**
 > Ich ___ gestern viele Leute kennengelernt. (Perfekt + Hilfsverb sein)
@@ -1081,7 +1067,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 87. `a2-perf-in-036` · input-text
+### 86. `a2-perf-in-036` · input-text
 
 **Aufgabe:**
 > Wir ___ zusammen Pizza gegessen. (Perfekt + Hilfsverb haben)
@@ -1091,7 +1077,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 88. `a2-perf-in-037` · input-text
+### 87. `a2-perf-in-037` · input-text
 
 **Aufgabe:**
 > Er ___ den ganzen Tag im Büro gearbeitet. (Perfekt + Hilfsverb haben)
@@ -1101,7 +1087,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 89. `a2-perf-in-038` · input-text
+### 88. `a2-perf-in-038` · input-text
 
 **Aufgabe:**
 > Sie ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
@@ -1111,7 +1097,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 90. `a2-perf-in-039` · input-text
+### 89. `a2-perf-in-039` · input-text
 
 **Aufgabe:**
 > Ich ___ meine Freunde im Park getroffen. (Perfekt + Hilfsverb haben)
@@ -1121,7 +1107,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 91. `a2-perf-in-040` · input-text
+### 90. `a2-perf-in-040` · input-text
 
 **Aufgabe:**
 > Wir ___ im Stadtpark spaziert. (Perfekt + Hilfsverb sein)
@@ -1131,7 +1117,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 92. `a2-perf-in-041` · input-text
+### 91. `a2-perf-in-041` · input-text
 
 **Aufgabe:**
 > Du ___ schon viel für die Prüfung gelernt. (Perfekt + Hilfsverb haben)
@@ -1141,7 +1127,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 93. `a2-perf-in-042` · input-text
+### 92. `a2-perf-in-042` · input-text
 
 **Aufgabe:**
 > Er ___ Fußball im Verein gespielt. (Perfekt + Hilfsverb haben)
@@ -1151,7 +1137,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 94. `a2-perf-in-043` · input-text
+### 93. `a2-perf-in-043` · input-text
 
 **Aufgabe:**
 > Ich ___ lange geschlafen. (Perfekt + Hilfsverb haben)
@@ -1161,7 +1147,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 95. `a2-perf-in-044` · input-text
+### 94. `a2-perf-in-044` · input-text
 
 **Aufgabe:**
 > Sie ___ spät nach Hause gekommen. (Perfekt + Hilfsverb sein)
@@ -1171,7 +1157,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 96. `a2-perf-in-045` · input-text
+### 95. `a2-perf-in-045` · input-text
 
 **Aufgabe:**
 > Wir ___ auf der Hochzeit ein Lied gesungen. (Perfekt + Hilfsverb haben)
@@ -1181,7 +1167,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 97. `a2-perf-in-046` · input-text
+### 96. `a2-perf-in-046` · input-text
 
 **Aufgabe:**
 > Ich ___ schon einmal an der Mosel gewesen. (Perfekt + Hilfsverb sein)
@@ -1191,7 +1177,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 98. `a2-perf-in-047` · input-text
+### 97. `a2-perf-in-047` · input-text
 
 **Aufgabe:**
 > Er ___ seine Hausaufgaben gemacht. (Perfekt + Hilfsverb haben)
@@ -1201,7 +1187,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 99. `a2-perf-in-048` · input-text
+### 98. `a2-perf-in-048` · input-text
 
 **Aufgabe:**
 > Ich ___ den Bus verpasst. (Perfekt + Hilfsverb haben)
@@ -1211,7 +1197,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 100. `a2-perf-in-049` · input-text
+### 99. `a2-perf-in-049` · input-text
 
 **Aufgabe:**
 > Sie ___ sehr gut für die Gäste gekocht. (Perfekt + Hilfsverb haben)
@@ -1221,7 +1207,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 101. `a2-perf-in-050` · input-text
+### 100. `a2-perf-in-050` · input-text
 
 **Aufgabe:**
 > Wir ___ die Reise im Reisebüro gebucht. (Perfekt + Hilfsverb haben)
@@ -1233,27 +1219,27 @@
 
 ## Wörter ordnen (51)
 
-### 102. `a2-perf-dd-001` · dropbox
+### 101. `a2-perf-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · bin · gestern · viele · Leute · kennengelernt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 103. `a2-perf-dd-002` · dropbox
+### 102. `a2-perf-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Wir · haben · zusammen · Pizza · gegessen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 104. `a2-sort-2` · dropbox
+### 103. `a2-sort-2` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz:
@@ -1263,480 +1249,480 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 105. `a2-perf-dd-003` · dropbox
+### 104. `a2-perf-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · den · ganzen · Tag · im · Büro · gearbeitet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 106. `a2-perf-dd-004` · dropbox
+### 105. `a2-perf-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Sie · ist · nach · Berlin · gefahren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 107. `a2-perf-dd-005` · dropbox
+### 106. `a2-perf-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · habe · meine · Freunde · im · Park · getroffen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 108. `a2-perf-dd-006` · dropbox
+### 107. `a2-perf-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Wir · sind · im · Stadtpark · spaziert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 109. `a2-perf-dd-007` · dropbox
+### 108. `a2-perf-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Du · hast · schon · viel · für · die · Prüfung · gelernt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 110. `a2-perf-dd-008` · dropbox
+### 109. `a2-perf-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · Fußball · im · Verein · gespielt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 111. `a2-perf-dd-009` · dropbox
+### 110. `a2-perf-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · habe · lange · geschlafen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 112. `a2-perf-dd-010` · dropbox
+### 111. `a2-perf-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Sie · ist · spät · nach · Hause · gekommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 113. `a2-perf-dd-011` · dropbox
+### 112. `a2-perf-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
-**Wörter:** Wir · haben · auf · der · Hochzeit · ein · Lied · gesungen
+**Wörter:** Wir · haben · heute · ein · Lied · gesungen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 114. `a2-perf-dd-012` · dropbox
+### 113. `a2-perf-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
-**Wörter:** Ich · bin · schon · einmal · an · der · Mosel · gewesen
+**Wörter:** Ich · bin · an · die · Mosel · gereist
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 115. `a2-perf-dd-013` · dropbox
+### 114. `a2-perf-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · seine · Hausaufgaben · gemacht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 116. `a2-perf-dd-014` · dropbox
+### 115. `a2-perf-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · habe · den · Bus · verpasst
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 117. `a2-perf-dd-015` · dropbox
+### 116. `a2-perf-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Sie · hat · sehr · gut · für · die · Gäste · gekocht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 118. `a2-perf-dd-016` · dropbox
+### 117. `a2-perf-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Wir · haben · die · Reise · im · Reisebüro · gebucht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 119. `a2-perf-dd-017` · dropbox
+### 118. `a2-perf-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · sich · für · den · Tanzsport · interessiert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 120. `a2-perf-dd-018` · dropbox
+### 119. `a2-perf-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · bin · gestern · viele · Leute · kennengelernt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 121. `a2-perf-dd-019` · dropbox
+### 120. `a2-perf-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Wir · haben · zusammen · Pizza · gegessen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 122. `a2-perf-dd-020` · dropbox
+### 121. `a2-perf-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · den · ganzen · Tag · im · Büro · gearbeitet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 123. `a2-perf-dd-021` · dropbox
+### 122. `a2-perf-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Sie · ist · nach · Berlin · gefahren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 124. `a2-perf-dd-022` · dropbox
+### 123. `a2-perf-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · habe · meine · Freunde · im · Park · getroffen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 125. `a2-perf-dd-023` · dropbox
+### 124. `a2-perf-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Wir · sind · im · Stadtpark · spaziert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 126. `a2-perf-dd-024` · dropbox
+### 125. `a2-perf-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Du · hast · schon · viel · für · die · Prüfung · gelernt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 127. `a2-perf-dd-025` · dropbox
+### 126. `a2-perf-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · Fußball · im · Verein · gespielt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 128. `a2-perf-dd-026` · dropbox
+### 127. `a2-perf-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · habe · lange · geschlafen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 129. `a2-perf-dd-027` · dropbox
+### 128. `a2-perf-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Sie · ist · spät · nach · Hause · gekommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 130. `a2-perf-dd-028` · dropbox
+### 129. `a2-perf-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
-**Wörter:** Wir · haben · auf · der · Hochzeit · ein · Lied · gesungen
+**Wörter:** Wir · haben · heute · ein · Lied · gesungen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 131. `a2-perf-dd-029` · dropbox
+### 130. `a2-perf-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
-**Wörter:** Ich · bin · schon · einmal · an · der · Mosel · gewesen
+**Wörter:** Ich · bin · an · die · Mosel · gereist
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 132. `a2-perf-dd-030` · dropbox
+### 131. `a2-perf-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · seine · Hausaufgaben · gemacht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 133. `a2-perf-dd-031` · dropbox
+### 132. `a2-perf-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · habe · den · Bus · verpasst
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 134. `a2-perf-dd-032` · dropbox
+### 133. `a2-perf-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Sie · hat · sehr · gut · für · die · Gäste · gekocht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 135. `a2-perf-dd-033` · dropbox
+### 134. `a2-perf-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Wir · haben · die · Reise · im · Reisebüro · gebucht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 136. `a2-perf-dd-034` · dropbox
+### 135. `a2-perf-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · sich · für · den · Tanzsport · interessiert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 137. `a2-perf-dd-035` · dropbox
+### 136. `a2-perf-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · bin · gestern · viele · Leute · kennengelernt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 138. `a2-perf-dd-036` · dropbox
+### 137. `a2-perf-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Wir · haben · zusammen · Pizza · gegessen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 139. `a2-perf-dd-037` · dropbox
+### 138. `a2-perf-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · den · ganzen · Tag · im · Büro · gearbeitet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 140. `a2-perf-dd-038` · dropbox
+### 139. `a2-perf-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Sie · ist · nach · Berlin · gefahren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 141. `a2-perf-dd-039` · dropbox
+### 140. `a2-perf-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · habe · meine · Freunde · im · Park · getroffen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 142. `a2-perf-dd-040` · dropbox
+### 141. `a2-perf-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Wir · sind · im · Stadtpark · spaziert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 143. `a2-perf-dd-041` · dropbox
+### 142. `a2-perf-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Du · hast · schon · viel · für · die · Prüfung · gelernt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 144. `a2-perf-dd-042` · dropbox
+### 143. `a2-perf-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · Fußball · im · Verein · gespielt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 145. `a2-perf-dd-043` · dropbox
+### 144. `a2-perf-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · habe · lange · geschlafen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 146. `a2-perf-dd-044` · dropbox
+### 145. `a2-perf-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Sie · ist · spät · nach · Hause · gekommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 147. `a2-perf-dd-045` · dropbox
+### 146. `a2-perf-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
-**Wörter:** Wir · haben · auf · der · Hochzeit · ein · Lied · gesungen
+**Wörter:** Wir · haben · heute · ein · Lied · gesungen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 148. `a2-perf-dd-046` · dropbox
+### 147. `a2-perf-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb sein)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
-**Wörter:** Ich · bin · schon · einmal · an · der · Mosel · gewesen
+**Wörter:** Ich · bin · an · die · Mosel · gereist
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 149. `a2-perf-dd-047` · dropbox
+### 148. `a2-perf-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Er · hat · seine · Hausaufgaben · gemacht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 150. `a2-perf-dd-048` · dropbox
+### 149. `a2-perf-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Ich · habe · den · Bus · verpasst
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 151. `a2-perf-dd-049` · dropbox
+### 150. `a2-perf-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Sie · hat · sehr · gut · für · die · Gäste · gekocht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 152. `a2-perf-dd-050` · dropbox
+### 151. `a2-perf-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Perfekt + Hilfsverb haben)
+> Ordne die Wörter zum richtigen Satz: (Perfekt)
 
 **Wörter:** Wir · haben · die · Reise · im · Reisebüro · gebucht
 

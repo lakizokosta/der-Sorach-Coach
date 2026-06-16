@@ -1222,7 +1222,7 @@
 ### 101. `b1-erg-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass sinnvoll ist)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · finde · dass · die · neue · Regelung · sinnvoll · ist
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-erg-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass verschoben wird)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Der · Chef · sagt · dass · das · Meeting · verschoben · wird
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-erg-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Prüfung besteht)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Sie · hofft · dass · sie · die · Prüfung · besteht
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-erg-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Zeit brauchen)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Es · ist · klar · dass · wir · mehr · Zeit · brauchen
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-erg-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass schlafen solltest)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Der · Arzt · meint · dass · du · mehr · schlafen · solltest
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-erg-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Nachrichten übertreiben)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · glaube · dass · die · Nachrichten · übertreiben
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-erg-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass richtig gemacht hat)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Er · behauptet · dass · er · alles · richtig · gemacht · hat
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-erg-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Projekt gelingt)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Wir · sind · überzeugt · dass · das · Projekt · gelingt
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-erg-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Kurs anspruchsvoll ist)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Die · Professorin · erklärt · dass · der · Kurs · anspruchsvoll · ist
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-erg-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Preise steigen)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Man · hört · dass · die · Preise · steigen
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-erg-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass mitkommst)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · finde · es · gut · dass · du · mitkommst
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-erg-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Flug startet)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Sie · bestätigt · dass · der · Flug · pünktlich · startet
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-erg-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Umweltschutz wichtig ist)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Es · stimmt · dass · Umweltschutz · wichtig · ist
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-erg-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Fehler gemacht hat)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Er · merkt · dass · er · einen · Fehler · gemacht · hat
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-erg-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Entscheidung schwer war)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Wir · wissen · dass · die · Entscheidung · schwer · war
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-erg-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Bericht stimmt)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · finde · dass · die · neue · Regelung · sinnvoll · ist
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-erg-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Vertrag gilt)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Der · Chef · sagt · dass · das · Meeting · verschoben · wird
 
@@ -1392,7 +1392,7 @@
 ### 118. `b1-erg-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass sinnvoll ist)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · finde · dass · die · neue · Regelung · sinnvoll · ist
 
@@ -1402,7 +1402,7 @@
 ### 119. `b1-erg-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass verschoben wird)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Der · Chef · sagt · dass · das · Meeting · verschoben · wird
 
@@ -1412,7 +1412,7 @@
 ### 120. `b1-erg-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Prüfung besteht)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Sie · hofft · dass · sie · die · Prüfung · besteht
 
@@ -1422,7 +1422,7 @@
 ### 121. `b1-erg-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Zeit brauchen)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Es · ist · klar · dass · wir · mehr · Zeit · brauchen
 
@@ -1432,7 +1432,7 @@
 ### 122. `b1-erg-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass schlafen solltest)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Der · Arzt · meint · dass · du · mehr · schlafen · solltest
 
@@ -1442,7 +1442,7 @@
 ### 123. `b1-erg-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Nachrichten übertreiben)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · glaube · dass · die · Nachrichten · übertreiben
 
@@ -1452,7 +1452,7 @@
 ### 124. `b1-erg-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass richtig gemacht hat)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Er · behauptet · dass · er · alles · richtig · gemacht · hat
 
@@ -1462,7 +1462,7 @@
 ### 125. `b1-erg-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Projekt gelingt)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Wir · sind · überzeugt · dass · das · Projekt · gelingt
 
@@ -1472,7 +1472,7 @@
 ### 126. `b1-erg-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Kurs anspruchsvoll ist)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Die · Professorin · erklärt · dass · der · Kurs · anspruchsvoll · ist
 
@@ -1482,7 +1482,7 @@
 ### 127. `b1-erg-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Preise steigen)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Man · hört · dass · die · Preise · steigen
 
@@ -1492,7 +1492,7 @@
 ### 128. `b1-erg-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass mitkommst)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · finde · es · gut · dass · du · mitkommst
 
@@ -1502,7 +1502,7 @@
 ### 129. `b1-erg-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Flug startet)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Sie · bestätigt · dass · der · Flug · pünktlich · startet
 
@@ -1512,7 +1512,7 @@
 ### 130. `b1-erg-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Umweltschutz wichtig ist)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Es · stimmt · dass · Umweltschutz · wichtig · ist
 
@@ -1522,7 +1522,7 @@
 ### 131. `b1-erg-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Fehler gemacht hat)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Er · merkt · dass · er · einen · Fehler · gemacht · hat
 
@@ -1532,7 +1532,7 @@
 ### 132. `b1-erg-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Entscheidung schwer war)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Wir · wissen · dass · die · Entscheidung · schwer · war
 
@@ -1542,7 +1542,7 @@
 ### 133. `b1-erg-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Bericht stimmt)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · finde · dass · die · neue · Regelung · sinnvoll · ist
 
@@ -1552,7 +1552,7 @@
 ### 134. `b1-erg-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Vertrag gilt)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Der · Chef · sagt · dass · das · Meeting · verschoben · wird
 
@@ -1562,7 +1562,7 @@
 ### 135. `b1-erg-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass sinnvoll ist)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · finde · dass · die · neue · Regelung · sinnvoll · ist
 
@@ -1572,7 +1572,7 @@
 ### 136. `b1-erg-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass verschoben wird)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Der · Chef · sagt · dass · das · Meeting · verschoben · wird
 
@@ -1582,7 +1582,7 @@
 ### 137. `b1-erg-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Prüfung besteht)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Sie · hofft · dass · sie · die · Prüfung · besteht
 
@@ -1592,7 +1592,7 @@
 ### 138. `b1-erg-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Zeit brauchen)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Es · ist · klar · dass · wir · mehr · Zeit · brauchen
 
@@ -1602,7 +1602,7 @@
 ### 139. `b1-erg-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass schlafen solltest)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Der · Arzt · meint · dass · du · mehr · schlafen · solltest
 
@@ -1612,7 +1612,7 @@
 ### 140. `b1-erg-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Nachrichten übertreiben)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · glaube · dass · die · Nachrichten · übertreiben
 
@@ -1622,7 +1622,7 @@
 ### 141. `b1-erg-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass richtig gemacht hat)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Er · behauptet · dass · er · alles · richtig · gemacht · hat
 
@@ -1632,7 +1632,7 @@
 ### 142. `b1-erg-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Projekt gelingt)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Wir · sind · überzeugt · dass · das · Projekt · gelingt
 
@@ -1642,7 +1642,7 @@
 ### 143. `b1-erg-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Kurs anspruchsvoll ist)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Die · Professorin · erklärt · dass · der · Kurs · anspruchsvoll · ist
 
@@ -1652,7 +1652,7 @@
 ### 144. `b1-erg-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Preise steigen)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Man · hört · dass · die · Preise · steigen
 
@@ -1662,7 +1662,7 @@
 ### 145. `b1-erg-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass mitkommst)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · finde · es · gut · dass · du · mitkommst
 
@@ -1672,7 +1672,7 @@
 ### 146. `b1-erg-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Flug startet)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Sie · bestätigt · dass · der · Flug · pünktlich · startet
 
@@ -1682,7 +1682,7 @@
 ### 147. `b1-erg-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Umweltschutz wichtig ist)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Es · stimmt · dass · Umweltschutz · wichtig · ist
 
@@ -1692,7 +1692,7 @@
 ### 148. `b1-erg-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Fehler gemacht hat)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Er · merkt · dass · er · einen · Fehler · gemacht · hat
 
@@ -1702,7 +1702,7 @@
 ### 149. `b1-erg-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Entscheidung schwer war)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Wir · wissen · dass · die · Entscheidung · schwer · war
 
@@ -1712,7 +1712,7 @@
 ### 150. `b1-erg-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Bericht stimmt)
+> Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
 
 **Wörter:** Ich · finde · dass · die · neue · Regelung · sinnvoll · ist
 

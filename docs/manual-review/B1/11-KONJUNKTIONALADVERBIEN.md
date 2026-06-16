@@ -1222,7 +1222,7 @@
 ### 101. `b1-kadv-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem gegangen)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Es · regnete · den · ganzen · Tag · Trotzdem · sind · wir · spazieren · gegangen
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-kadv-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb bestanden)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Er · hat · viel · gelernt · deshalb · bestand · seine · Prüfung
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-kadv-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem Französisch)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Sie · spricht · fließend · Englisch · Außerdem · kann · sie · auch · Französisch
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-kadv-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch lohnt)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Das · Projekt · ist · teuer · Dennoch · lohnt · es · sich
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-kadv-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb verpasst)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Ich · war · krank · Deshalb · habe · ich · die · Vorlesung · verpasst
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-kadv-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem arbeitet)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Der · Arzt · riet · zur · Ruhe · Trotzdem · arbeitet · er · weiter
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-kadv-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch ruhig)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Die · Nachrichten · sind · alarmierend · Dennoch · bleiben · viele · ruhig
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-kadv-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb müde)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Er · hat · Überstunden · gemacht · Deshalb · ist · er · müde
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-kadv-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem jobbt)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Sie · studiert · Medizin · Außerdem · jobbt · sie · nebenbei
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-kadv-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem geschlafen)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Das · Hotel · war · laut · Trotzdem · haben · wir · gut · geschlafen
 
@@ -1322,9 +1322,9 @@
 ### 111. `b1-kadv-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb reagieren)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
-**Wörter:** Die · Politik · ändert · sich · Deshalb · reagieren · die · Bürger
+**Wörter:** Die · Politik · ändert · sich · deshalb · reagieren · die · Bürger
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,7 +1332,7 @@
 ### 112. `b1-kadv-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch Qualität)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Das · Essen · war · teuer · dennoch · blieb · Qualität · hoch
 
@@ -1342,9 +1342,9 @@
 ### 113. `b1-kadv-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb senkt)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
-**Wörter:** Er · spart · Energie · Deshalb · senkt · er · seine · Kosten
+**Wörter:** Er · spart · Energie · deshalb · senkt · er · seine · Kosten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1352,9 +1352,9 @@
 ### 114. `b1-kadv-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem Stelle)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
-**Wörter:** Sie · hat · wenig · Erfahrung · Trotzdem · bekommt · sie · die · Stelle
+**Wörter:** Sie · hat · wenig · Erfahrung · trotzdem · bekommt · sie · die · Stelle
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1362,7 +1362,7 @@
 ### 115. `b1-kadv-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb Experten)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Wir · brauchen · Hilfe · Deshalb · rufen · wir · einen · Experten
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-kadv-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch teilgenommen)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Es · regnete · den · ganzen · Tag · Trotzdem · sind · wir · spazieren · gegangen
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-kadv-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem informiert)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Er · hat · viel · gelernt · deshalb · bestand · seine · Prüfung
 
@@ -1392,7 +1392,7 @@
 ### 118. `b1-kadv-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem gegangen)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Es · regnete · den · ganzen · Tag · Trotzdem · sind · wir · spazieren · gegangen
 
@@ -1402,7 +1402,7 @@
 ### 119. `b1-kadv-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb bestanden)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Er · hat · viel · gelernt · deshalb · bestand · seine · Prüfung
 
@@ -1412,7 +1412,7 @@
 ### 120. `b1-kadv-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem Französisch)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Sie · spricht · fließend · Englisch · Außerdem · kann · sie · auch · Französisch
 
@@ -1422,7 +1422,7 @@
 ### 121. `b1-kadv-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch lohnt)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Das · Projekt · ist · teuer · Dennoch · lohnt · es · sich
 
@@ -1432,7 +1432,7 @@
 ### 122. `b1-kadv-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb verpasst)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Ich · war · krank · Deshalb · habe · ich · die · Vorlesung · verpasst
 
@@ -1442,7 +1442,7 @@
 ### 123. `b1-kadv-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem arbeitet)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Der · Arzt · riet · zur · Ruhe · Trotzdem · arbeitet · er · weiter
 
@@ -1452,7 +1452,7 @@
 ### 124. `b1-kadv-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch ruhig)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Die · Nachrichten · sind · alarmierend · Dennoch · bleiben · viele · ruhig
 
@@ -1462,7 +1462,7 @@
 ### 125. `b1-kadv-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb müde)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Er · hat · Überstunden · gemacht · Deshalb · ist · er · müde
 
@@ -1472,7 +1472,7 @@
 ### 126. `b1-kadv-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem jobbt)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Sie · studiert · Medizin · Außerdem · jobbt · sie · nebenbei
 
@@ -1482,7 +1482,7 @@
 ### 127. `b1-kadv-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem geschlafen)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Das · Hotel · war · laut · Trotzdem · haben · wir · gut · geschlafen
 
@@ -1492,9 +1492,9 @@
 ### 128. `b1-kadv-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb reagieren)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
-**Wörter:** Die · Politik · ändert · sich · Deshalb · reagieren · die · Bürger
+**Wörter:** Die · Politik · ändert · sich · deshalb · reagieren · die · Bürger
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,7 +1502,7 @@
 ### 129. `b1-kadv-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch Qualität)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Das · Essen · war · teuer · dennoch · blieb · Qualität · hoch
 
@@ -1512,9 +1512,9 @@
 ### 130. `b1-kadv-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb senkt)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
-**Wörter:** Er · spart · Energie · Deshalb · senkt · er · seine · Kosten
+**Wörter:** Er · spart · Energie · deshalb · senkt · er · seine · Kosten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-kadv-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem Stelle)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
-**Wörter:** Sie · hat · wenig · Erfahrung · Trotzdem · bekommt · sie · die · Stelle
+**Wörter:** Sie · hat · wenig · Erfahrung · trotzdem · bekommt · sie · die · Stelle
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,7 +1532,7 @@
 ### 132. `b1-kadv-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb Experten)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Wir · brauchen · Hilfe · Deshalb · rufen · wir · einen · Experten
 
@@ -1542,7 +1542,7 @@
 ### 133. `b1-kadv-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch teilgenommen)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Es · regnete · den · ganzen · Tag · Trotzdem · sind · wir · spazieren · gegangen
 
@@ -1552,7 +1552,7 @@
 ### 134. `b1-kadv-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem informiert)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Er · hat · viel · gelernt · deshalb · bestand · seine · Prüfung
 
@@ -1562,7 +1562,7 @@
 ### 135. `b1-kadv-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem gegangen)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Es · regnete · den · ganzen · Tag · Trotzdem · sind · wir · spazieren · gegangen
 
@@ -1572,7 +1572,7 @@
 ### 136. `b1-kadv-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb bestanden)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Er · hat · viel · gelernt · deshalb · bestand · seine · Prüfung
 
@@ -1582,7 +1582,7 @@
 ### 137. `b1-kadv-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem Französisch)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Sie · spricht · fließend · Englisch · Außerdem · kann · sie · auch · Französisch
 
@@ -1592,7 +1592,7 @@
 ### 138. `b1-kadv-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch lohnt)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Das · Projekt · ist · teuer · Dennoch · lohnt · es · sich
 
@@ -1602,7 +1602,7 @@
 ### 139. `b1-kadv-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb verpasst)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Ich · war · krank · Deshalb · habe · ich · die · Vorlesung · verpasst
 
@@ -1612,7 +1612,7 @@
 ### 140. `b1-kadv-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem arbeitet)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Der · Arzt · riet · zur · Ruhe · Trotzdem · arbeitet · er · weiter
 
@@ -1622,7 +1622,7 @@
 ### 141. `b1-kadv-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch ruhig)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Die · Nachrichten · sind · alarmierend · Dennoch · bleiben · viele · ruhig
 
@@ -1632,7 +1632,7 @@
 ### 142. `b1-kadv-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb müde)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Er · hat · Überstunden · gemacht · Deshalb · ist · er · müde
 
@@ -1642,7 +1642,7 @@
 ### 143. `b1-kadv-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem jobbt)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Sie · studiert · Medizin · Außerdem · jobbt · sie · nebenbei
 
@@ -1652,7 +1652,7 @@
 ### 144. `b1-kadv-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem geschlafen)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Das · Hotel · war · laut · Trotzdem · haben · wir · gut · geschlafen
 
@@ -1662,9 +1662,9 @@
 ### 145. `b1-kadv-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb reagieren)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
-**Wörter:** Die · Politik · ändert · sich · Deshalb · reagieren · die · Bürger
+**Wörter:** Die · Politik · ändert · sich · deshalb · reagieren · die · Bürger
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,7 +1672,7 @@
 ### 146. `b1-kadv-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch Qualität)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Das · Essen · war · teuer · dennoch · blieb · Qualität · hoch
 
@@ -1682,9 +1682,9 @@
 ### 147. `b1-kadv-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb senkt)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
-**Wörter:** Er · spart · Energie · Deshalb · senkt · er · seine · Kosten
+**Wörter:** Er · spart · Energie · deshalb · senkt · er · seine · Kosten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-kadv-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem Stelle)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
-**Wörter:** Sie · hat · wenig · Erfahrung · Trotzdem · bekommt · sie · die · Stelle
+**Wörter:** Sie · hat · wenig · Erfahrung · trotzdem · bekommt · sie · die · Stelle
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,7 +1702,7 @@
 ### 149. `b1-kadv-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb Experten)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Wir · brauchen · Hilfe · Deshalb · rufen · wir · einen · Experten
 
@@ -1712,7 +1712,7 @@
 ### 150. `b1-kadv-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch teilgenommen)
+> Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)
 
 **Wörter:** Es · regnete · den · ganzen · Tag · Trotzdem · sind · wir · spazieren · gegangen
 

@@ -90,10 +90,10 @@
 > ___ einer langen Tradition folgt die Universität diesem Brauch. (Genitivform)
 
 **Optionen:**
-- Nach
-- Aus **✓**
 - Von
-- Bei
+- Infolge **✓**
+- Aus
+- Nach
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -188,10 +188,10 @@
 > ___ der Verhandlungen einigte man sich auf einen Kompromiss. (Genitivform)
 
 **Optionen:**
-- Beim Verlauf
-- Am Verlauf
-- Zum Verlauf
-- Im Verlauf **✓**
+- Statt
+- Wegen
+- Infolge
+- Während **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -329,9 +329,9 @@
 
 **Optionen:**
 - Mit
-- Aus **✓**
-- Bei
-- Von
+- Infolge **✓**
+- Nach
+- Aus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -426,10 +426,10 @@
 > ___ der Verhandlungen einigte man sich auf einen Kompromiss. (Genitivform)
 
 **Optionen:**
-- Im Verlaufe
-- Im Verlauf **✓**
-- Beim Verlauf
-- Zum Verlauf
+- Trotz
+- Während **✓**
+- Statt
+- Infolge
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -567,9 +567,9 @@
 
 **Optionen:**
 - Mit
-- Aus **✓**
+- Infolge **✓**
+- Aus
 - Von
-- Nach
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -664,10 +664,10 @@
 > ___ der Verhandlungen einigte man sich auf einen Kompromiss. (Genitivform)
 
 **Optionen:**
-- Am Verlauf
-- Im Verlauf **✓**
-- Beim Verlauf
-- Im Verlaufe
+- Wegen
+- Während **✓**
+- Statt
+- Trotz
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

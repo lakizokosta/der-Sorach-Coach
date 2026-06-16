@@ -18,13 +18,13 @@
 ### 1. `a2-n-001` · select-one
 
 **Aufgabe:**
-> Ich helfe ___ Studenten. (N-Deklination — Dativ)
+> Ich helfe dem ___. (N-Deklination — Dativ)
 
 **Optionen:**
-- der
-- dem **✓**
-- die
-- den
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -32,13 +32,13 @@
 ### 2. `a2-n-002` · select-one
 
 **Aufgabe:**
-> Das ist das Auto ___ Studenten. (N-Deklination — Genitiv)
+> Das ist das Auto des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- der
-- des **✓**
-- den
-- dem
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -88,13 +88,13 @@
 ### 6. `a2-n-006` · select-one
 
 **Aufgabe:**
-> Das ist der Wagen ___ Nachbarn. (N-Deklination — Genitiv)
+> Das ist der Wagen des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- dem
-- den
-- des **✓**
-- der
+- Nachbar
+- Nachbarn **✓**
+- Nachbars
+- Nachbarns
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -158,13 +158,13 @@
 ### 11. `a2-n-011` · select-one
 
 **Aufgabe:**
-> Das ist das Buch ___ Autors. (N-Deklination — Genitiv)
+> Das ist das Buch des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- das
-- dem
-- den
-- des **✓**
+- Journalist
+- Journalisten **✓**
+- Journalists
+- Journalistin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -214,13 +214,13 @@
 ### 15. `a2-n-015` · select-one
 
 **Aufgabe:**
-> Das ist der Name ___ Studenten. (N-Deklination — Genitiv)
+> Das ist der Name des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- das
-- dem
-- den
-- des **✓**
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -228,13 +228,13 @@
 ### 16. `a2-n-016` · select-one
 
 **Aufgabe:**
-> Ich helfe ___ Studenten. (N-Deklination — Akk.)
+> Ich helfe dem ___. (N-Deklination — Dativ)
 
 **Optionen:**
-- den
-- dem **✓**
-- die
-- das
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -242,13 +242,13 @@
 ### 17. `a2-n-017` · select-one
 
 **Aufgabe:**
-> Das ist das Auto ___ Studenten. (N-Deklination — Nom.)
+> Das ist das Auto des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- dem
-- der
-- des **✓**
-- das
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -298,13 +298,13 @@
 ### 21. `a2-n-021` · select-one
 
 **Aufgabe:**
-> Das ist der Wagen ___ Nachbarn. (N-Deklination — Dat.)
+> Das ist der Wagen des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- dem
-- des **✓**
-- das
-- der
+- Nachbar
+- Nachbarn **✓**
+- Nachbars
+- Nachbarns
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -368,13 +368,13 @@
 ### 26. `a2-n-026` · select-one
 
 **Aufgabe:**
-> Das ist das Buch ___ Autors. (N-Deklination — Akk.)
+> Das ist das Buch des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- der
-- des **✓**
-- den
-- dem
+- Journalist
+- Journalisten **✓**
+- Journalists
+- Journalistin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -424,13 +424,13 @@
 ### 30. `a2-n-030` · select-one
 
 **Aufgabe:**
-> Das ist der Name ___ Studenten. (N-Deklination — Akk.)
+> Das ist der Name des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- der
-- des **✓**
-- den
-- dem
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -438,13 +438,13 @@
 ### 31. `a2-n-031` · select-one
 
 **Aufgabe:**
-> Ich helfe ___ Studenten. (N-Deklination — Dat.)
+> Ich helfe dem ___. (N-Deklination — Dativ)
 
 **Optionen:**
-- der
-- das
-- die
-- dem **✓**
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -452,13 +452,13 @@
 ### 32. `a2-n-032` · select-one
 
 **Aufgabe:**
-> Das ist das Auto ___ Studenten. (N-Deklination — Genitiv)
+> Das ist das Auto des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- den
-- des **✓**
-- der
-- das
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -508,13 +508,13 @@
 ### 36. `a2-n-036` · select-one
 
 **Aufgabe:**
-> Das ist der Wagen ___ Nachbarn. (N-Deklination — Genitiv)
+> Das ist der Wagen des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- der
-- des **✓**
-- das
-- den
+- Nachbar
+- Nachbarn **✓**
+- Nachbars
+- Nachbarns
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -578,13 +578,13 @@
 ### 41. `a2-n-041` · select-one
 
 **Aufgabe:**
-> Das ist das Buch ___ Autors. (N-Deklination — Akk.)
+> Das ist das Buch des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- dem
-- des **✓**
-- das
-- der
+- Journalist
+- Journalisten **✓**
+- Journalists
+- Journalistin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -634,13 +634,13 @@
 ### 45. `a2-n-045` · select-one
 
 **Aufgabe:**
-> Das ist der Name ___ Studenten. (N-Deklination — Genitiv)
+> Das ist der Name des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- dem
-- des **✓**
-- das
-- der
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -648,13 +648,13 @@
 ### 46. `a2-n-046` · select-one
 
 **Aufgabe:**
-> Ich helfe ___ Studenten. (N-Deklination — Akk.)
+> Ich helfe dem ___. (N-Deklination — Dativ)
 
 **Optionen:**
-- der
-- dem **✓**
-- den
-- das
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -662,13 +662,13 @@
 ### 47. `a2-n-047` · select-one
 
 **Aufgabe:**
-> Das ist das Auto ___ Studenten. (N-Deklination — Akk.)
+> Das ist das Auto des ___. (N-Deklination — Genitiv)
 
 **Optionen:**
-- dem
-- den
-- das
-- des **✓**
+- Student
+- Studenten **✓**
+- Students
+- Studentem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -720,9 +720,9 @@
 ### 51. `a2-n-in-001` · input-text
 
 **Aufgabe:**
-> Ich helfe ___ Studenten. (N-Deklination — Dativ)
+> Ich helfe dem ___. (N-Deklination — Dativ)
 
-**Antwort:** `dem`
+**Antwort:** `Studenten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -730,9 +730,9 @@
 ### 52. `a2-n-in-002` · input-text
 
 **Aufgabe:**
-> Das ist das Auto ___ Studenten. (N-Deklination — Genitiv)
+> Das ist das Auto des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Studenten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -770,9 +770,9 @@
 ### 56. `a2-n-in-006` · input-text
 
 **Aufgabe:**
-> Das ist der Wagen ___ Nachbarn. (N-Deklination — Genitiv)
+> Das ist der Wagen des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Nachbarn`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -820,9 +820,9 @@
 ### 61. `a2-n-in-011` · input-text
 
 **Aufgabe:**
-> Das ist das Buch ___ Autors. (N-Deklination — Genitiv)
+> Das ist das Buch des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Journalisten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -860,9 +860,9 @@
 ### 65. `a2-n-in-015` · input-text
 
 **Aufgabe:**
-> Das ist der Name ___ Studenten. (N-Deklination — Genitiv)
+> Das ist der Name des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Studenten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -890,9 +890,9 @@
 ### 68. `a2-n-in-018` · input-text
 
 **Aufgabe:**
-> Ich helfe ___ Studenten. (N-Deklination — Dativ)
+> Ich helfe dem ___. (N-Deklination — Dativ)
 
-**Antwort:** `dem`
+**Antwort:** `Studenten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -900,9 +900,9 @@
 ### 69. `a2-n-in-019` · input-text
 
 **Aufgabe:**
-> Das ist das Auto ___ Studenten. (N-Deklination — Genitiv)
+> Das ist das Auto des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Studenten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -940,9 +940,9 @@
 ### 73. `a2-n-in-023` · input-text
 
 **Aufgabe:**
-> Das ist der Wagen ___ Nachbarn. (N-Deklination — Genitiv)
+> Das ist der Wagen des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Nachbarn`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -990,9 +990,9 @@
 ### 78. `a2-n-in-028` · input-text
 
 **Aufgabe:**
-> Das ist das Buch ___ Autors. (N-Deklination — Genitiv)
+> Das ist das Buch des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Journalisten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1030,9 +1030,9 @@
 ### 82. `a2-n-in-032` · input-text
 
 **Aufgabe:**
-> Das ist der Name ___ Studenten. (N-Deklination — Genitiv)
+> Das ist der Name des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Studenten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1060,9 +1060,9 @@
 ### 85. `a2-n-in-035` · input-text
 
 **Aufgabe:**
-> Ich helfe ___ Studenten. (N-Deklination — Dativ)
+> Ich helfe dem ___. (N-Deklination — Dativ)
 
-**Antwort:** `dem`
+**Antwort:** `Studenten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1070,9 +1070,9 @@
 ### 86. `a2-n-in-036` · input-text
 
 **Aufgabe:**
-> Das ist das Auto ___ Studenten. (N-Deklination — Genitiv)
+> Das ist das Auto des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Studenten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1110,9 +1110,9 @@
 ### 90. `a2-n-in-040` · input-text
 
 **Aufgabe:**
-> Das ist der Wagen ___ Nachbarn. (N-Deklination — Genitiv)
+> Das ist der Wagen des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Nachbarn`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1160,9 +1160,9 @@
 ### 95. `a2-n-in-045` · input-text
 
 **Aufgabe:**
-> Das ist das Buch ___ Autors. (N-Deklination — Genitiv)
+> Das ist das Buch des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Journalisten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1200,9 +1200,9 @@
 ### 99. `a2-n-in-049` · input-text
 
 **Aufgabe:**
-> Das ist der Name ___ Studenten. (N-Deklination — Genitiv)
+> Das ist der Name des ___. (N-Deklination — Genitiv)
 
-**Antwort:** `des`
+**Antwort:** `Studenten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1222,7 +1222,7 @@
 ### 101. `a2-n-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — dem)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Ich · helfe · dem · Studenten
 
@@ -1232,7 +1232,7 @@
 ### 102. `a2-n-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Das · ist · das · Auto · des · Studenten
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-n-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Polizisten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Polizist)
 
 **Wörter:** Ich · sehe · einen · Polizisten
 
@@ -1252,7 +1252,7 @@
 ### 104. `a2-n-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Journalisten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Journalist)
 
 **Wörter:** Er · spricht · mit · einem · Journalisten
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-n-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Präsidenten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Präsident)
 
 **Wörter:** Wir · besuchen · den · Präsidenten
 
@@ -1272,7 +1272,7 @@
 ### 106. `a2-n-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Das · ist · der · Wagen · des · Nachbarn
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-n-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Fotografen)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Fotograf)
 
 **Wörter:** Wir · fragen · den · Fotografen
 
@@ -1312,7 +1312,7 @@
 ### 110. `a2-n-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Herrn)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Herr)
 
 **Wörter:** Ich · grüße · den · Herrn
 
@@ -1322,9 +1322,9 @@
 ### 111. `a2-n-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Journalist)
 
-**Wörter:** Das · ist · das · Buch · des · Autors
+**Wörter:** Das · ist · das · Buch · des · Journalisten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,7 +1332,7 @@
 ### 112. `a2-n-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Komponisten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Komponist)
 
 **Wörter:** Er · trifft · einen · Komponisten
 
@@ -1342,7 +1342,7 @@
 ### 113. `a2-n-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Löwen)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Löwe)
 
 **Wörter:** Ich · sehe · den · Löwen
 
@@ -1352,7 +1352,7 @@
 ### 114. `a2-n-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Kunden)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Kunde)
 
 **Wörter:** Wir · helfen · dem · Kunden
 
@@ -1362,7 +1362,7 @@
 ### 115. `a2-n-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Das · ist · der · Name · des · Studenten
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-n-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Jungen)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Junge)
 
 **Wörter:** Ich · kenne · einen · Jungen
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-n-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — dem)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Ich · helfe · dem · Studenten
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-n-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Das · ist · das · Auto · des · Studenten
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-n-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Polizisten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Polizist)
 
 **Wörter:** Ich · sehe · einen · Polizisten
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-n-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Journalisten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Journalist)
 
 **Wörter:** Er · spricht · mit · einem · Journalisten
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-n-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Präsidenten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Präsident)
 
 **Wörter:** Wir · besuchen · den · Präsidenten
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-n-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Das · ist · der · Wagen · des · Nachbarn
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-n-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Fotografen)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Fotograf)
 
 **Wörter:** Wir · fragen · den · Fotografen
 
@@ -1482,7 +1482,7 @@
 ### 127. `a2-n-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Herrn)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Herr)
 
 **Wörter:** Ich · grüße · den · Herrn
 
@@ -1492,9 +1492,9 @@
 ### 128. `a2-n-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Journalist)
 
-**Wörter:** Das · ist · das · Buch · des · Autors
+**Wörter:** Das · ist · das · Buch · des · Journalisten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,7 +1502,7 @@
 ### 129. `a2-n-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Komponisten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Komponist)
 
 **Wörter:** Er · trifft · einen · Komponisten
 
@@ -1512,7 +1512,7 @@
 ### 130. `a2-n-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Löwen)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Löwe)
 
 **Wörter:** Ich · sehe · den · Löwen
 
@@ -1522,7 +1522,7 @@
 ### 131. `a2-n-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Kunden)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Kunde)
 
 **Wörter:** Wir · helfen · dem · Kunden
 
@@ -1532,7 +1532,7 @@
 ### 132. `a2-n-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Das · ist · der · Name · des · Studenten
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-n-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Jungen)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Junge)
 
 **Wörter:** Ich · kenne · einen · Jungen
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-n-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — dem)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Ich · helfe · dem · Studenten
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-n-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Das · ist · das · Auto · des · Studenten
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-n-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Polizisten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Polizist)
 
 **Wörter:** Ich · sehe · einen · Polizisten
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-n-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Journalisten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Journalist)
 
 **Wörter:** Er · spricht · mit · einem · Journalisten
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-n-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Präsidenten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Präsident)
 
 **Wörter:** Wir · besuchen · den · Präsidenten
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-n-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Das · ist · der · Wagen · des · Nachbarn
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-n-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Fotografen)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Fotograf)
 
 **Wörter:** Wir · fragen · den · Fotografen
 
@@ -1652,7 +1652,7 @@
 ### 144. `a2-n-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Herrn)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Herr)
 
 **Wörter:** Ich · grüße · den · Herrn
 
@@ -1662,9 +1662,9 @@
 ### 145. `a2-n-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Journalist)
 
-**Wörter:** Das · ist · das · Buch · des · Autors
+**Wörter:** Das · ist · das · Buch · des · Journalisten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,7 +1672,7 @@
 ### 146. `a2-n-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Komponisten)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Komponist)
 
 **Wörter:** Er · trifft · einen · Komponisten
 
@@ -1682,7 +1682,7 @@
 ### 147. `a2-n-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Löwen)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Löwe)
 
 **Wörter:** Ich · sehe · den · Löwen
 
@@ -1692,7 +1692,7 @@
 ### 148. `a2-n-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Kunden)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Kunde)
 
 **Wörter:** Wir · helfen · dem · Kunden
 
@@ -1702,7 +1702,7 @@
 ### 149. `a2-n-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — des)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination)
 
 **Wörter:** Das · ist · der · Name · des · Studenten
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-n-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (N-Deklination — Jungen)
+> Ordne die Wörter zum richtigen Satz: (N-Deklination — Junge)
 
 **Wörter:** Ich · kenne · einen · Jungen
 

@@ -32,7 +32,7 @@
 ### 2. `b1-kond-002` · select-one
 
 **Aufgabe:**
-> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn)
+> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -46,7 +46,7 @@
 ### 3. `b1-kond-003` · select-one
 
 **Aufgabe:**
-> ___ der Zug ankommt, fahren wir los. (Konditionalsatz — wenn)
+> ___ der Zug ankommt, fahren wir los. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -88,7 +88,7 @@
 ### 6. `b1-kond-006` · select-one
 
 **Aufgabe:**
-> ___ du Fragen hast, schreib mir. (Konditionalsatz — wenn)
+> ___ du Fragen hast, schreib mir. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -102,7 +102,7 @@
 ### 7. `b1-kond-007` · select-one
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz — wenn)
+> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
 
 **Optionen:**
 - Damit
@@ -130,7 +130,7 @@
 ### 9. `b1-kond-009` · select-one
 
 **Aufgabe:**
-> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz — wenn)
+> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -144,7 +144,7 @@
 ### 10. `b1-kond-010` · select-one
 
 **Aufgabe:**
-> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz — wenn)
+> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz)
 
 **Optionen:**
 - Weil
@@ -172,7 +172,7 @@
 ### 12. `b1-kond-012` · select-one
 
 **Aufgabe:**
-> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz — wenn)
+> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz)
 
 **Optionen:**
 - Dass
@@ -186,7 +186,7 @@
 ### 13. `b1-kond-013` · select-one
 
 **Aufgabe:**
-> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz — wenn)
+> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -214,7 +214,7 @@
 ### 15. `b1-kond-015` · select-one
 
 **Aufgabe:**
-> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz — wenn)
+> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -242,7 +242,7 @@
 ### 17. `b1-kond-017` · select-one
 
 **Aufgabe:**
-> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn)
+> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -256,7 +256,7 @@
 ### 18. `b1-kond-018` · select-one
 
 **Aufgabe:**
-> ___ der Zug ankommt, fahren wir los. (Konditionalsatz — wenn)
+> ___ der Zug ankommt, fahren wir los. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -298,7 +298,7 @@
 ### 21. `b1-kond-021` · select-one
 
 **Aufgabe:**
-> ___ du Fragen hast, schreib mir. (Konditionalsatz — wenn)
+> ___ du Fragen hast, schreib mir. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -312,7 +312,7 @@
 ### 22. `b1-kond-022` · select-one
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz — wenn)
+> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -340,7 +340,7 @@
 ### 24. `b1-kond-024` · select-one
 
 **Aufgabe:**
-> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz — wenn)
+> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz)
 
 **Optionen:**
 - Weil
@@ -354,7 +354,7 @@
 ### 25. `b1-kond-025` · select-one
 
 **Aufgabe:**
-> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz — wenn)
+> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -382,7 +382,7 @@
 ### 27. `b1-kond-027` · select-one
 
 **Aufgabe:**
-> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz — wenn)
+> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz)
 
 **Optionen:**
 - Damit
@@ -396,7 +396,7 @@
 ### 28. `b1-kond-028` · select-one
 
 **Aufgabe:**
-> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz — wenn)
+> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz)
 
 **Optionen:**
 - Weil
@@ -424,7 +424,7 @@
 ### 30. `b1-kond-030` · select-one
 
 **Aufgabe:**
-> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz — wenn)
+> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -452,7 +452,7 @@
 ### 32. `b1-kond-032` · select-one
 
 **Aufgabe:**
-> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn)
+> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz)
 
 **Optionen:**
 - Weil
@@ -466,7 +466,7 @@
 ### 33. `b1-kond-033` · select-one
 
 **Aufgabe:**
-> ___ der Zug ankommt, fahren wir los. (Konditionalsatz — wenn)
+> ___ der Zug ankommt, fahren wir los. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -508,7 +508,7 @@
 ### 36. `b1-kond-036` · select-one
 
 **Aufgabe:**
-> ___ du Fragen hast, schreib mir. (Konditionalsatz — wenn)
+> ___ du Fragen hast, schreib mir. (Konditionalsatz)
 
 **Optionen:**
 - Weil
@@ -522,7 +522,7 @@
 ### 37. `b1-kond-037` · select-one
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz — wenn)
+> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -550,7 +550,7 @@
 ### 39. `b1-kond-039` · select-one
 
 **Aufgabe:**
-> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz — wenn)
+> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz)
 
 **Optionen:**
 - Damit
@@ -564,7 +564,7 @@
 ### 40. `b1-kond-040` · select-one
 
 **Aufgabe:**
-> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz — wenn)
+> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz)
 
 **Optionen:**
 - Dass
@@ -592,7 +592,7 @@
 ### 42. `b1-kond-042` · select-one
 
 **Aufgabe:**
-> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz — wenn)
+> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -606,7 +606,7 @@
 ### 43. `b1-kond-043` · select-one
 
 **Aufgabe:**
-> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz — wenn)
+> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -634,7 +634,7 @@
 ### 45. `b1-kond-045` · select-one
 
 **Aufgabe:**
-> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz — wenn)
+> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -662,7 +662,7 @@
 ### 47. `b1-kond-047` · select-one
 
 **Aufgabe:**
-> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn)
+> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -676,7 +676,7 @@
 ### 48. `b1-kond-048` · select-one
 
 **Aufgabe:**
-> ___ der Zug ankommt, fahren wir los. (Konditionalsatz — wenn)
+> ___ der Zug ankommt, fahren wir los. (Konditionalsatz)
 
 **Optionen:**
 - Weil
@@ -730,7 +730,7 @@
 ### 52. `b1-kond-in-002` · input-text
 
 **Aufgabe:**
-> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn)
+> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -740,7 +740,7 @@
 ### 53. `b1-kond-in-003` · input-text
 
 **Aufgabe:**
-> ___ der Zug ankommt, fahren wir los. (Konditionalsatz — wenn)
+> ___ der Zug ankommt, fahren wir los. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -770,7 +770,7 @@
 ### 56. `b1-kond-in-006` · input-text
 
 **Aufgabe:**
-> ___ du Fragen hast, schreib mir. (Konditionalsatz — wenn)
+> ___ du Fragen hast, schreib mir. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -780,7 +780,7 @@
 ### 57. `b1-kond-in-007` · input-text
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz — wenn)
+> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -800,7 +800,7 @@
 ### 59. `b1-kond-in-009` · input-text
 
 **Aufgabe:**
-> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz — wenn)
+> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -810,7 +810,7 @@
 ### 60. `b1-kond-in-010` · input-text
 
 **Aufgabe:**
-> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz — wenn)
+> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -830,7 +830,7 @@
 ### 62. `b1-kond-in-012` · input-text
 
 **Aufgabe:**
-> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz — wenn)
+> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -840,7 +840,7 @@
 ### 63. `b1-kond-in-013` · input-text
 
 **Aufgabe:**
-> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz — wenn)
+> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -860,7 +860,7 @@
 ### 65. `b1-kond-in-015` · input-text
 
 **Aufgabe:**
-> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz — wenn)
+> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -880,7 +880,7 @@
 ### 67. `b1-kond-in-017` · input-text
 
 **Aufgabe:**
-> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn)
+> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -890,7 +890,7 @@
 ### 68. `b1-kond-in-018` · input-text
 
 **Aufgabe:**
-> ___ der Zug ankommt, fahren wir los. (Konditionalsatz — wenn)
+> ___ der Zug ankommt, fahren wir los. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -920,7 +920,7 @@
 ### 71. `b1-kond-in-021` · input-text
 
 **Aufgabe:**
-> ___ du Fragen hast, schreib mir. (Konditionalsatz — wenn)
+> ___ du Fragen hast, schreib mir. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -930,7 +930,7 @@
 ### 72. `b1-kond-in-022` · input-text
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz — wenn)
+> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -950,7 +950,7 @@
 ### 74. `b1-kond-in-024` · input-text
 
 **Aufgabe:**
-> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz — wenn)
+> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -960,7 +960,7 @@
 ### 75. `b1-kond-in-025` · input-text
 
 **Aufgabe:**
-> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz — wenn)
+> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -980,7 +980,7 @@
 ### 77. `b1-kond-in-027` · input-text
 
 **Aufgabe:**
-> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz — wenn)
+> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -990,7 +990,7 @@
 ### 78. `b1-kond-in-028` · input-text
 
 **Aufgabe:**
-> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz — wenn)
+> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -1010,7 +1010,7 @@
 ### 80. `b1-kond-in-030` · input-text
 
 **Aufgabe:**
-> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz — wenn)
+> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -1030,7 +1030,7 @@
 ### 82. `b1-kond-in-032` · input-text
 
 **Aufgabe:**
-> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn)
+> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -1040,7 +1040,7 @@
 ### 83. `b1-kond-in-033` · input-text
 
 **Aufgabe:**
-> ___ der Zug ankommt, fahren wir los. (Konditionalsatz — wenn)
+> ___ der Zug ankommt, fahren wir los. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -1070,7 +1070,7 @@
 ### 86. `b1-kond-in-036` · input-text
 
 **Aufgabe:**
-> ___ du Fragen hast, schreib mir. (Konditionalsatz — wenn)
+> ___ du Fragen hast, schreib mir. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -1080,7 +1080,7 @@
 ### 87. `b1-kond-in-037` · input-text
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz — wenn)
+> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -1100,7 +1100,7 @@
 ### 89. `b1-kond-in-039` · input-text
 
 **Aufgabe:**
-> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz — wenn)
+> ___ du dich erkältest, bleib zu Hause. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -1110,7 +1110,7 @@
 ### 90. `b1-kond-in-040` · input-text
 
 **Aufgabe:**
-> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz — wenn)
+> ___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -1130,7 +1130,7 @@
 ### 92. `b1-kond-in-042` · input-text
 
 **Aufgabe:**
-> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz — wenn)
+> ___ der Termin ausfällt, informiere ich dich. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -1140,7 +1140,7 @@
 ### 93. `b1-kond-in-043` · input-text
 
 **Aufgabe:**
-> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz — wenn)
+> ___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -1160,7 +1160,7 @@
 ### 95. `b1-kond-in-045` · input-text
 
 **Aufgabe:**
-> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz — wenn)
+> ___ etwas schiefgeht, melde dich sofort. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -1180,7 +1180,7 @@
 ### 97. `b1-kond-in-047` · input-text
 
 **Aufgabe:**
-> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn)
+> ___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz)
 
 **Antwort:** `Falls`
 
@@ -1190,7 +1190,7 @@
 ### 98. `b1-kond-in-048` · input-text
 
 **Aufgabe:**
-> ___ der Zug ankommt, fahren wir los. (Konditionalsatz — wenn)
+> ___ der Zug ankommt, fahren wir los. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -1222,7 +1222,7 @@
 ### 101. `b1-kond-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du Zeit hast)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · du · morgen · Zeit · hast · treffen · wir · uns
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-kond-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls es regnet)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · es · regnet · nehmen · wir · einen · Schirm · mit
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-kond-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Zug ankommt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · der · Zug · ankommt · fahren · wir · los
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-kond-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn ich Stelle bekomme)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · ich · die · Stelle · bekomme · ziehen · wir · um
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-kond-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Prüfung schwer ist)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · die · Prüfung · schwer · ist · bleibe · ich · ruhig
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-kond-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls du Fragen hast)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · du · Fragen · hast · schreib · mir
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-kond-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Arzt kommt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · der · Arzt · kommt · warten · wir · im · Wartezimmer
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-kond-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn das Gesetz verabschiedet wird)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · das · Gesetz · verabschiedet · wird · ändert · sich · vieles
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-kond-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls du dich erkältest)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · du · dich · erkältest · bleib · zu · Hause
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-kond-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald alle eingecheckt haben)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · Hotel · eingecheckt · ist · gehen · wir · essen
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-kond-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Sonne scheint)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · die · Sonne · scheint · machen · wir · einen · Ausflug
 
@@ -1332,9 +1332,9 @@
 ### 112. `b1-kond-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls der Termin ausfällt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
-**Wörter:** Falls · der · Termin · ausfällt · informiere · ich · dich
+**Wörter:** Falls · der · Termin · ausfällt · dann · informiere · ich · dich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1342,7 +1342,7 @@
 ### 113. `b1-kond-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald die Ergebnisse da sind)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · die · Ergebnisse · da · sind · rufe · ich · an
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-kond-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du pünktlich bist)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · du · pünktlich · bist · beginnen · wir
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-kond-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls etwas schiefgeht)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · etwas · schiefgeht · melde · dich · sofort
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-kond-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Genehmigung kommt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · du · morgen · Zeit · hast · treffen · wir · uns
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-kond-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Bericht fertig ist)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · es · regnet · nehmen · wir · einen · Schirm · mit
 
@@ -1392,7 +1392,7 @@
 ### 118. `b1-kond-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du Zeit hast)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · du · morgen · Zeit · hast · treffen · wir · uns
 
@@ -1402,7 +1402,7 @@
 ### 119. `b1-kond-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls es regnet)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · es · regnet · nehmen · wir · einen · Schirm · mit
 
@@ -1412,7 +1412,7 @@
 ### 120. `b1-kond-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Zug ankommt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · der · Zug · ankommt · fahren · wir · los
 
@@ -1422,7 +1422,7 @@
 ### 121. `b1-kond-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn ich Stelle bekomme)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · ich · die · Stelle · bekomme · ziehen · wir · um
 
@@ -1432,7 +1432,7 @@
 ### 122. `b1-kond-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Prüfung schwer ist)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · die · Prüfung · schwer · ist · bleibe · ich · ruhig
 
@@ -1442,7 +1442,7 @@
 ### 123. `b1-kond-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls du Fragen hast)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · du · Fragen · hast · schreib · mir
 
@@ -1452,7 +1452,7 @@
 ### 124. `b1-kond-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Arzt kommt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · der · Arzt · kommt · warten · wir · im · Wartezimmer
 
@@ -1462,7 +1462,7 @@
 ### 125. `b1-kond-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn das Gesetz verabschiedet wird)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · das · Gesetz · verabschiedet · wird · ändert · sich · vieles
 
@@ -1472,7 +1472,7 @@
 ### 126. `b1-kond-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls du dich erkältest)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · du · dich · erkältest · bleib · zu · Hause
 
@@ -1482,7 +1482,7 @@
 ### 127. `b1-kond-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald alle eingecheckt haben)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · Hotel · eingecheckt · ist · gehen · wir · essen
 
@@ -1492,7 +1492,7 @@
 ### 128. `b1-kond-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Sonne scheint)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · die · Sonne · scheint · machen · wir · einen · Ausflug
 
@@ -1502,9 +1502,9 @@
 ### 129. `b1-kond-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls der Termin ausfällt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
-**Wörter:** Falls · der · Termin · ausfällt · informiere · ich · dich
+**Wörter:** Falls · der · Termin · ausfällt · dann · informiere · ich · dich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,7 +1512,7 @@
 ### 130. `b1-kond-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald die Ergebnisse da sind)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · die · Ergebnisse · da · sind · rufe · ich · an
 
@@ -1522,7 +1522,7 @@
 ### 131. `b1-kond-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du pünktlich bist)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · du · pünktlich · bist · beginnen · wir
 
@@ -1532,7 +1532,7 @@
 ### 132. `b1-kond-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls etwas schiefgeht)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · etwas · schiefgeht · melde · dich · sofort
 
@@ -1542,7 +1542,7 @@
 ### 133. `b1-kond-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Genehmigung kommt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · du · morgen · Zeit · hast · treffen · wir · uns
 
@@ -1552,7 +1552,7 @@
 ### 134. `b1-kond-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Bericht fertig ist)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · es · regnet · nehmen · wir · einen · Schirm · mit
 
@@ -1562,7 +1562,7 @@
 ### 135. `b1-kond-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du Zeit hast)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · du · morgen · Zeit · hast · treffen · wir · uns
 
@@ -1572,7 +1572,7 @@
 ### 136. `b1-kond-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls es regnet)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · es · regnet · nehmen · wir · einen · Schirm · mit
 
@@ -1582,7 +1582,7 @@
 ### 137. `b1-kond-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Zug ankommt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · der · Zug · ankommt · fahren · wir · los
 
@@ -1592,7 +1592,7 @@
 ### 138. `b1-kond-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn ich Stelle bekomme)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · ich · die · Stelle · bekomme · ziehen · wir · um
 
@@ -1602,7 +1602,7 @@
 ### 139. `b1-kond-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Prüfung schwer ist)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · die · Prüfung · schwer · ist · bleibe · ich · ruhig
 
@@ -1612,7 +1612,7 @@
 ### 140. `b1-kond-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls du Fragen hast)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · du · Fragen · hast · schreib · mir
 
@@ -1622,7 +1622,7 @@
 ### 141. `b1-kond-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Arzt kommt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · der · Arzt · kommt · warten · wir · im · Wartezimmer
 
@@ -1632,7 +1632,7 @@
 ### 142. `b1-kond-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn das Gesetz verabschiedet wird)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · das · Gesetz · verabschiedet · wird · ändert · sich · vieles
 
@@ -1642,7 +1642,7 @@
 ### 143. `b1-kond-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls du dich erkältest)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · du · dich · erkältest · bleib · zu · Hause
 
@@ -1652,7 +1652,7 @@
 ### 144. `b1-kond-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald alle eingecheckt haben)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · Hotel · eingecheckt · ist · gehen · wir · essen
 
@@ -1662,7 +1662,7 @@
 ### 145. `b1-kond-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Sonne scheint)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · die · Sonne · scheint · machen · wir · einen · Ausflug
 
@@ -1672,9 +1672,9 @@
 ### 146. `b1-kond-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls der Termin ausfällt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
-**Wörter:** Falls · der · Termin · ausfällt · informiere · ich · dich
+**Wörter:** Falls · der · Termin · ausfällt · dann · informiere · ich · dich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,7 +1682,7 @@
 ### 147. `b1-kond-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald die Ergebnisse da sind)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Sobald · die · Ergebnisse · da · sind · rufe · ich · an
 
@@ -1692,7 +1692,7 @@
 ### 148. `b1-kond-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du pünktlich bist)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · du · pünktlich · bist · beginnen · wir
 
@@ -1702,7 +1702,7 @@
 ### 149. `b1-kond-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls etwas schiefgeht)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Falls · etwas · schiefgeht · melde · dich · sofort
 
@@ -1712,7 +1712,7 @@
 ### 150. `b1-kond-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Genehmigung kommt)
+> Ordne die Wörter zum richtigen Satz: (Konditionalsatz)
 
 **Wörter:** Wenn · du · morgen · Zeit · hast · treffen · wir · uns
 

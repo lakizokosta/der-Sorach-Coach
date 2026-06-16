@@ -91,10 +91,10 @@
 > Das ist das Auto ___ Professors. (Possessivartikelform)
 
 **Optionen:**
-- der
-- des **✓**
-- den
-- dem
+- mein
+- meines **✓**
+- meinen
+- meine
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -147,10 +147,10 @@
 > Das ist die Entscheidung ___ Ministers. (Possessivartikelform)
 
 **Optionen:**
-- dem
-- des **✓**
-- der
-- den
+- seine
+- seines **✓**
+- sein
+- seinen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -203,10 +203,10 @@
 > Das ist das Ziel ___ Partei. (Possessivartikelform)
 
 **Optionen:**
-- des
-- der **✓**
-- den
-- dem
+- unser
+- unserer **✓**
+- unseren
+- unsere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -301,10 +301,10 @@
 > Das ist das Auto ___ Professors. (Possessivartikelform)
 
 **Optionen:**
-- dem
-- des **✓**
-- das
-- der
+- meine
+- meines **✓**
+- meinem
+- mein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -357,10 +357,10 @@
 > Das ist die Entscheidung ___ Ministers. (Possessivartikelform)
 
 **Optionen:**
-- dem
-- der
-- des **✓**
-- das
+- seine
+- sein
+- seines **✓**
+- seinem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -413,10 +413,10 @@
 > Das ist das Ziel ___ Partei. (Possessivartikelform)
 
 **Optionen:**
-- dem
-- des
-- der **✓**
-- das
+- unsere
+- unser
+- unserer **✓**
+- unserem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -511,10 +511,10 @@
 > Das ist das Auto ___ Professors. (Possessivartikelform)
 
 **Optionen:**
-- der
-- des **✓**
-- das
-- den
+- mein
+- meines **✓**
+- meinem
+- meinen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -567,10 +567,10 @@
 > Das ist die Entscheidung ___ Ministers. (Possessivartikelform)
 
 **Optionen:**
-- der
-- den
-- des **✓**
-- das
+- sein
+- seinen
+- seines **✓**
+- seinem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -623,10 +623,10 @@
 > Das ist das Ziel ___ Partei. (Possessivartikelform)
 
 **Optionen:**
-- den
-- der **✓**
-- des
-- das
+- unseren
+- unserer **✓**
+- unser
+- unserem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -772,7 +772,7 @@
 **Aufgabe:**
 > Das ist das Auto ___ Professors. (Possessivartikelform)
 
-**Antwort:** `des`
+**Antwort:** `meines`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -812,7 +812,7 @@
 **Aufgabe:**
 > Das ist die Entscheidung ___ Ministers. (Possessivartikelform)
 
-**Antwort:** `des`
+**Antwort:** `seines`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -852,7 +852,7 @@
 **Aufgabe:**
 > Das ist das Ziel ___ Partei. (Possessivartikelform)
 
-**Antwort:** `der`
+**Antwort:** `unserer`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -922,7 +922,7 @@
 **Aufgabe:**
 > Das ist das Auto ___ Professors. (Possessivartikelform)
 
-**Antwort:** `des`
+**Antwort:** `meines`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -962,7 +962,7 @@
 **Aufgabe:**
 > Das ist die Entscheidung ___ Ministers. (Possessivartikelform)
 
-**Antwort:** `des`
+**Antwort:** `seines`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1002,7 +1002,7 @@
 **Aufgabe:**
 > Das ist das Ziel ___ Partei. (Possessivartikelform)
 
-**Antwort:** `der`
+**Antwort:** `unserer`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1072,7 +1072,7 @@
 **Aufgabe:**
 > Das ist das Auto ___ Professors. (Possessivartikelform)
 
-**Antwort:** `des`
+**Antwort:** `meines`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1112,7 +1112,7 @@
 **Aufgabe:**
 > Das ist die Entscheidung ___ Ministers. (Possessivartikelform)
 
-**Antwort:** `des`
+**Antwort:** `seines`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1152,7 +1152,7 @@
 **Aufgabe:**
 > Das ist das Ziel ___ Partei. (Possessivartikelform)
 
-**Antwort:** `der`
+**Antwort:** `unserer`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1222,7 +1222,7 @@
 ### 101. `b1-poss-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erkrankung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Wegen · seiner · schweren · Erkrankung · bleibt · er · zu · Hause
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-poss-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meines Kollegen)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Das · ist · die · Meinung · meines · Kollegen
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-poss-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer Chefin)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Sie · hilft · ihrer · neuen · Chefin · bei · der · Einarbeitung
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-poss-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unser Jubiläum)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Wir · feiern · unser · zehnjähriges · Firmenjubiläum
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-poss-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erfahrung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Trotz · seiner · geringen · Erfahrung · bekommt · er · die · Stelle
 
@@ -1272,9 +1272,9 @@
 ### 106. `b1-poss-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — des Professors)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · das · Auto · des · Professors
+**Wörter:** Das · ist · das · Auto · meines · Professors
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1282,7 +1282,7 @@
 ### 107. `b1-poss-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seine Nachbarn)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Er · kennt · seine · Nachbarn · schon · lange
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-poss-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres Studiums)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Während · ihres · Studiums · arbeitete · sie · nebenbei
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-poss-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere Zukunft)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Wir · diskutieren · unsere · gemeinsame · Zukunft
 
@@ -1312,9 +1312,9 @@
 ### 110. `b1-poss-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — des Ministers)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · die · Entscheidung · des · Ministers
+**Wörter:** Das · ist · die · Entscheidung · seines · Ministers
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1322,7 +1322,7 @@
 ### 111. `b1-poss-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihre Eltern)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Sie · besucht · ihre · Eltern · am · Wochenende
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-poss-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner Verspätung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Wegen · meiner · Verspätung · verpasste · ich · den · Termin
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-poss-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinem Instinkt)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Er · vertraut · seinem · Instinkt
 
@@ -1352,9 +1352,9 @@
 ### 114. `b1-poss-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — der Partei)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · das · Ziel · der · Partei
+**Wörter:** Das · ist · das · Ziel · unserer · Partei
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1362,7 +1362,7 @@
 ### 115. `b1-poss-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unseren Kollegen)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Wir · unterstützen · unseren · jüngeren · Kollegen
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-poss-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres Teams)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Wegen · seiner · schweren · Erkrankung · bleibt · er · zu · Hause
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-poss-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner Meinung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
 **Wörter:** Das · ist · die · Meinung · meines · Kollegen
 
@@ -1392,9 +1392,9 @@
 ### 118. `b1-poss-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erkrankung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wegen · seiner · schweren · Erkrankung · bleibt · er · zu · Hause
+**Wörter:** Sie · hilft · ihrer · neuen · Chefin · bei · der · Einarbeitung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1402,9 +1402,9 @@
 ### 119. `b1-poss-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meines Kollegen)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · die · Meinung · meines · Kollegen
+**Wörter:** Wir · feiern · unser · zehnjähriges · Firmenjubiläum
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,9 +1412,9 @@
 ### 120. `b1-poss-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer Chefin)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Sie · hilft · ihrer · neuen · Chefin · bei · der · Einarbeitung
+**Wörter:** Trotz · seiner · geringen · Erfahrung · bekommt · er · die · Stelle
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1422,9 +1422,9 @@
 ### 121. `b1-poss-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unser Jubiläum)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wir · feiern · unser · zehnjähriges · Firmenjubiläum
+**Wörter:** Das · ist · das · Auto · meines · Professors
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1432,9 +1432,9 @@
 ### 122. `b1-poss-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erfahrung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Trotz · seiner · geringen · Erfahrung · bekommt · er · die · Stelle
+**Wörter:** Er · kennt · seine · Nachbarn · schon · lange
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1442,9 +1442,9 @@
 ### 123. `b1-poss-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — des Professors)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · das · Auto · des · Professors
+**Wörter:** Während · ihres · Studiums · arbeitete · sie · nebenbei
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `b1-poss-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seine Nachbarn)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Er · kennt · seine · Nachbarn · schon · lange
+**Wörter:** Wir · diskutieren · unsere · gemeinsame · Zukunft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,9 +1462,9 @@
 ### 125. `b1-poss-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres Studiums)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Während · ihres · Studiums · arbeitete · sie · nebenbei
+**Wörter:** Das · ist · die · Entscheidung · seines · Ministers
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1472,9 +1472,9 @@
 ### 126. `b1-poss-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere Zukunft)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wir · diskutieren · unsere · gemeinsame · Zukunft
+**Wörter:** Sie · besucht · ihre · Eltern · am · Wochenende
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,9 +1482,9 @@
 ### 127. `b1-poss-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — des Ministers)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · die · Entscheidung · des · Ministers
+**Wörter:** Wegen · meiner · Verspätung · verpasste · ich · den · Termin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `b1-poss-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihre Eltern)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Sie · besucht · ihre · Eltern · am · Wochenende
+**Wörter:** Er · vertraut · seinem · Instinkt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `b1-poss-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner Verspätung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wegen · meiner · Verspätung · verpasste · ich · den · Termin
+**Wörter:** Das · ist · das · Ziel · unserer · Partei
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `b1-poss-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinem Instinkt)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Er · vertraut · seinem · Instinkt
+**Wörter:** Wir · unterstützen · unseren · jüngeren · Kollegen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-poss-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — der Partei)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · das · Ziel · der · Partei
+**Wörter:** Wegen · seiner · schweren · Erkrankung · bleibt · er · zu · Hause
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `b1-poss-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unseren Kollegen)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wir · unterstützen · unseren · jüngeren · Kollegen
+**Wörter:** Das · ist · die · Meinung · meines · Kollegen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `b1-poss-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres Teams)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wegen · seiner · schweren · Erkrankung · bleibt · er · zu · Hause
+**Wörter:** Sie · hilft · ihrer · neuen · Chefin · bei · der · Einarbeitung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1552,9 +1552,9 @@
 ### 134. `b1-poss-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner Meinung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · die · Meinung · meines · Kollegen
+**Wörter:** Wir · feiern · unser · zehnjähriges · Firmenjubiläum
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,9 +1562,9 @@
 ### 135. `b1-poss-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erkrankung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wegen · seiner · schweren · Erkrankung · bleibt · er · zu · Hause
+**Wörter:** Trotz · seiner · geringen · Erfahrung · bekommt · er · die · Stelle
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `b1-poss-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meines Kollegen)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · die · Meinung · meines · Kollegen
+**Wörter:** Das · ist · das · Auto · meines · Professors
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,9 +1582,9 @@
 ### 137. `b1-poss-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer Chefin)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Sie · hilft · ihrer · neuen · Chefin · bei · der · Einarbeitung
+**Wörter:** Er · kennt · seine · Nachbarn · schon · lange
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1592,9 +1592,9 @@
 ### 138. `b1-poss-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unser Jubiläum)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wir · feiern · unser · zehnjähriges · Firmenjubiläum
+**Wörter:** Während · ihres · Studiums · arbeitete · sie · nebenbei
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `b1-poss-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erfahrung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Trotz · seiner · geringen · Erfahrung · bekommt · er · die · Stelle
+**Wörter:** Wir · diskutieren · unsere · gemeinsame · Zukunft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1612,9 +1612,9 @@
 ### 140. `b1-poss-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — des Professors)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · das · Auto · des · Professors
+**Wörter:** Das · ist · die · Entscheidung · seines · Ministers
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `b1-poss-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seine Nachbarn)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Er · kennt · seine · Nachbarn · schon · lange
+**Wörter:** Sie · besucht · ihre · Eltern · am · Wochenende
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,9 +1632,9 @@
 ### 142. `b1-poss-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres Studiums)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Während · ihres · Studiums · arbeitete · sie · nebenbei
+**Wörter:** Wegen · meiner · Verspätung · verpasste · ich · den · Termin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1642,9 +1642,9 @@
 ### 143. `b1-poss-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere Zukunft)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wir · diskutieren · unsere · gemeinsame · Zukunft
+**Wörter:** Er · vertraut · seinem · Instinkt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `b1-poss-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — des Ministers)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · die · Entscheidung · des · Ministers
+**Wörter:** Das · ist · das · Ziel · unserer · Partei
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `b1-poss-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihre Eltern)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Sie · besucht · ihre · Eltern · am · Wochenende
+**Wörter:** Wir · unterstützen · unseren · jüngeren · Kollegen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `b1-poss-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner Verspätung)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wegen · meiner · Verspätung · verpasste · ich · den · Termin
+**Wörter:** Wegen · seiner · schweren · Erkrankung · bleibt · er · zu · Hause
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,9 +1682,9 @@
 ### 147. `b1-poss-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinem Instinkt)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Er · vertraut · seinem · Instinkt
+**Wörter:** Das · ist · die · Meinung · meines · Kollegen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-poss-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — der Partei)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Das · ist · das · Ziel · der · Partei
+**Wörter:** Sie · hilft · ihrer · neuen · Chefin · bei · der · Einarbeitung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,9 +1702,9 @@
 ### 149. `b1-poss-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unseren Kollegen)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wir · unterstützen · unseren · jüngeren · Kollegen
+**Wörter:** Wir · feiern · unser · zehnjähriges · Firmenjubiläum
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1712,9 +1712,9 @@
 ### 150. `b1-poss-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres Teams)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel)
 
-**Wörter:** Wegen · seiner · schweren · Erkrankung · bleibt · er · zu · Hause
+**Wörter:** Trotz · seiner · geringen · Erfahrung · bekommt · er · die · Stelle
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

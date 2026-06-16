@@ -1222,7 +1222,7 @@
 ### 101. `b1-vnv-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Entscheidung treffen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Wir · müssen · heute · eine · wichtige · Entscheidung · treffen
 
@@ -1232,9 +1232,9 @@
 ### 102. `b1-vnv-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Untersuchung durchführen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · führt · durch · eine · sorgfältige · Untersuchung
+**Wörter:** Er · führt · eine · sorgfältige · Untersuchung · durch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1242,7 +1242,7 @@
 ### 103. `b1-vnv-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Interesse zeigen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Sie · zeigt · ein · großes · Interesse · an · dem · Thema
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-vnv-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kontakt knüpfen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Die · Firma · knüpft · Kontakt · mit · neuen · Kunden
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-vnv-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meinung äußern)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Er · äußert · eine · klare · Meinung · zu · der · Frage
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-vnv-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rücksicht nehmen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Wir · nehmen · Rücksicht · auf · die · Kollegen
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-vnv-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Praktikum absolvieren)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Sie · absolviert · ein · Praktikum · in · einer · Klinik
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-vnv-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rede halten)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Der · Minister · hält · eine · Rede
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-vnv-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Gespräch führen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Ich · führe · ein · Gespräch · mit · dem · Chef
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-vnv-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Bewerbung einreichen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Er · reicht · eine · Bewerbung · ein
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-vnv-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meeting haben)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Wir · haben · ein · Meeting
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-vnv-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Diagnose stellen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Sie · stellt · eine · Diagnose
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-vnv-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Verantwortung übernehmen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Er · übernimmt · Verantwortung · für · das · Projekt
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-vnv-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kurs anbieten)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Die · Universität · bietet · einen · Kurs · an
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-vnv-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Pause machen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Ich · mache · eine · Pause
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-vnv-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Fortschritt machen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
 **Wörter:** Wir · müssen · heute · eine · wichtige · Entscheidung · treffen
 
@@ -1382,9 +1382,9 @@
 ### 117. `b1-vnv-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Einfluss ausüben)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · führt · durch · eine · sorgfältige · Untersuchung
+**Wörter:** Er · führt · eine · sorgfältige · Untersuchung · durch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1392,9 +1392,9 @@
 ### 118. `b1-vnv-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Entscheidung treffen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Wir · müssen · heute · eine · wichtige · Entscheidung · treffen
+**Wörter:** Sie · zeigt · ein · großes · Interesse · an · dem · Thema
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1402,9 +1402,9 @@
 ### 119. `b1-vnv-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Untersuchung durchführen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · führt · durch · eine · sorgfältige · Untersuchung
+**Wörter:** Die · Firma · knüpft · Kontakt · mit · neuen · Kunden
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,9 +1412,9 @@
 ### 120. `b1-vnv-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Interesse zeigen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Sie · zeigt · ein · großes · Interesse · an · dem · Thema
+**Wörter:** Er · äußert · eine · klare · Meinung · zu · der · Frage
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1422,9 +1422,9 @@
 ### 121. `b1-vnv-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kontakt knüpfen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Die · Firma · knüpft · Kontakt · mit · neuen · Kunden
+**Wörter:** Wir · nehmen · Rücksicht · auf · die · Kollegen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1432,9 +1432,9 @@
 ### 122. `b1-vnv-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meinung äußern)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · äußert · eine · klare · Meinung · zu · der · Frage
+**Wörter:** Sie · absolviert · ein · Praktikum · in · einer · Klinik
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1442,9 +1442,9 @@
 ### 123. `b1-vnv-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rücksicht nehmen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Wir · nehmen · Rücksicht · auf · die · Kollegen
+**Wörter:** Der · Minister · hält · eine · Rede
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `b1-vnv-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Praktikum absolvieren)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Sie · absolviert · ein · Praktikum · in · einer · Klinik
+**Wörter:** Ich · führe · ein · Gespräch · mit · dem · Chef
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,9 +1462,9 @@
 ### 125. `b1-vnv-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rede halten)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Der · Minister · hält · eine · Rede
+**Wörter:** Er · reicht · eine · Bewerbung · ein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1472,9 +1472,9 @@
 ### 126. `b1-vnv-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Gespräch führen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Ich · führe · ein · Gespräch · mit · dem · Chef
+**Wörter:** Wir · haben · ein · Meeting
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,9 +1482,9 @@
 ### 127. `b1-vnv-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Bewerbung einreichen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · reicht · eine · Bewerbung · ein
+**Wörter:** Sie · stellt · eine · Diagnose
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `b1-vnv-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meeting haben)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Wir · haben · ein · Meeting
+**Wörter:** Er · übernimmt · Verantwortung · für · das · Projekt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `b1-vnv-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Diagnose stellen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Sie · stellt · eine · Diagnose
+**Wörter:** Die · Universität · bietet · einen · Kurs · an
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `b1-vnv-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Verantwortung übernehmen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · übernimmt · Verantwortung · für · das · Projekt
+**Wörter:** Ich · mache · eine · Pause
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-vnv-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kurs anbieten)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Die · Universität · bietet · einen · Kurs · an
+**Wörter:** Wir · müssen · heute · eine · wichtige · Entscheidung · treffen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `b1-vnv-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Pause machen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Ich · mache · eine · Pause
+**Wörter:** Er · führt · eine · sorgfältige · Untersuchung · durch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `b1-vnv-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Fortschritt machen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Wir · müssen · heute · eine · wichtige · Entscheidung · treffen
+**Wörter:** Sie · zeigt · ein · großes · Interesse · an · dem · Thema
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1552,9 +1552,9 @@
 ### 134. `b1-vnv-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Einfluss ausüben)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · führt · durch · eine · sorgfältige · Untersuchung
+**Wörter:** Die · Firma · knüpft · Kontakt · mit · neuen · Kunden
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,9 +1562,9 @@
 ### 135. `b1-vnv-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Entscheidung treffen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Wir · müssen · heute · eine · wichtige · Entscheidung · treffen
+**Wörter:** Er · äußert · eine · klare · Meinung · zu · der · Frage
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `b1-vnv-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Untersuchung durchführen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · führt · durch · eine · sorgfältige · Untersuchung
+**Wörter:** Wir · nehmen · Rücksicht · auf · die · Kollegen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,9 +1582,9 @@
 ### 137. `b1-vnv-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Interesse zeigen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Sie · zeigt · ein · großes · Interesse · an · dem · Thema
+**Wörter:** Sie · absolviert · ein · Praktikum · in · einer · Klinik
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1592,9 +1592,9 @@
 ### 138. `b1-vnv-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kontakt knüpfen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Die · Firma · knüpft · Kontakt · mit · neuen · Kunden
+**Wörter:** Der · Minister · hält · eine · Rede
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `b1-vnv-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meinung äußern)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · äußert · eine · klare · Meinung · zu · der · Frage
+**Wörter:** Ich · führe · ein · Gespräch · mit · dem · Chef
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1612,9 +1612,9 @@
 ### 140. `b1-vnv-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rücksicht nehmen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Wir · nehmen · Rücksicht · auf · die · Kollegen
+**Wörter:** Er · reicht · eine · Bewerbung · ein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `b1-vnv-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Praktikum absolvieren)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Sie · absolviert · ein · Praktikum · in · einer · Klinik
+**Wörter:** Wir · haben · ein · Meeting
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,9 +1632,9 @@
 ### 142. `b1-vnv-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rede halten)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Der · Minister · hält · eine · Rede
+**Wörter:** Sie · stellt · eine · Diagnose
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1642,9 +1642,9 @@
 ### 143. `b1-vnv-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Gespräch führen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Ich · führe · ein · Gespräch · mit · dem · Chef
+**Wörter:** Er · übernimmt · Verantwortung · für · das · Projekt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `b1-vnv-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Bewerbung einreichen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · reicht · eine · Bewerbung · ein
+**Wörter:** Die · Universität · bietet · einen · Kurs · an
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `b1-vnv-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meeting haben)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Wir · haben · ein · Meeting
+**Wörter:** Ich · mache · eine · Pause
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `b1-vnv-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Diagnose stellen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Sie · stellt · eine · Diagnose
+**Wörter:** Wir · müssen · heute · eine · wichtige · Entscheidung · treffen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,9 +1682,9 @@
 ### 147. `b1-vnv-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Verantwortung übernehmen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Er · übernimmt · Verantwortung · für · das · Projekt
+**Wörter:** Er · führt · eine · sorgfältige · Untersuchung · durch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-vnv-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Kurs anbieten)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Die · Universität · bietet · einen · Kurs · an
+**Wörter:** Sie · zeigt · ein · großes · Interesse · an · dem · Thema
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,9 +1702,9 @@
 ### 149. `b1-vnv-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Pause machen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Ich · mache · eine · Pause
+**Wörter:** Die · Firma · knüpft · Kontakt · mit · neuen · Kunden
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1712,9 +1712,9 @@
 ### 150. `b1-vnv-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Fortschritt machen)
+> Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)
 
-**Wörter:** Wir · müssen · heute · eine · wichtige · Entscheidung · treffen
+**Wörter:** Er · äußert · eine · klare · Meinung · zu · der · Frage
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

@@ -104,7 +104,7 @@
 
 **Optionen:**
 - im
-- an dem
+- in dem
 - am **✓**
 - vom
 
@@ -145,10 +145,10 @@
 > Er stellte das Fahrrad ___ das Haus. (Lokale Präposition)
 
 **Optionen:**
-- vor das
-- vorm
-- vor **✓**
+- vors
 - vor dem
+- vor **✓**
+- zu
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -198,13 +198,13 @@
 ### 14. `b2-lokal-014` · select-one
 
 **Aufgabe:**
-> Er ging ___ dem Gebäude herum. (Lokale Präposition)
+> Er ging ___ das Gebäude herum. (Lokale Präposition)
 
 **Optionen:**
-- um dem
-- um **✓**
-- um das
 - beim
+- um **✓**
+- ums
+- in das
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -226,7 +226,7 @@
 ### 16. `b2-lokal-016` · select-one
 
 **Aufgabe:**
-> Sie wohnt ___ dem Stadtzentrum in einem ruhigen Viertel. (Lokale Präposition)
+> Sie wohnt ___ des Stadtzentrums in einem ruhigen Viertel. (Lokale Präposition)
 
 **Optionen:**
 - oberhalb
@@ -259,7 +259,7 @@
 **Optionen:**
 - zum
 - am **✓**
-- an dem
+- in dem
 - vom
 
 - [ ] OK
@@ -315,7 +315,7 @@
 **Optionen:**
 - zum
 - am **✓**
-- an dem
+- in dem
 - vom
 
 - [ ] OK
@@ -344,7 +344,7 @@
 - im
 - zum
 - am **✓**
-- an dem
+- in dem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -383,10 +383,10 @@
 > Er stellte das Fahrrad ___ das Haus. (Lokale Präposition)
 
 **Optionen:**
+- vorm
 - vors
-- vor das
 - vor **✓**
-- vor dem
+- zu
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -436,13 +436,13 @@
 ### 31. `b2-lokal-031` · select-one
 
 **Aufgabe:**
-> Er ging ___ dem Gebäude herum. (Lokale Präposition)
+> Er ging ___ das Gebäude herum. (Lokale Präposition)
 
 **Optionen:**
-- ums
+- um dem
 - um **✓**
-- beim
-- um das
+- in das
+- ums
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -464,7 +464,7 @@
 ### 33. `b2-lokal-033` · select-one
 
 **Aufgabe:**
-> Sie wohnt ___ dem Stadtzentrum in einem ruhigen Viertel. (Lokale Präposition)
+> Sie wohnt ___ des Stadtzentrums in einem ruhigen Viertel. (Lokale Präposition)
 
 **Optionen:**
 - oberhalb
@@ -496,7 +496,7 @@
 
 **Optionen:**
 - im
-- an dem
+- in dem
 - am **✓**
 - vom
 
@@ -554,7 +554,7 @@
 - im
 - am **✓**
 - vom
-- an dem
+- in dem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -621,10 +621,10 @@
 > Er stellte das Fahrrad ___ das Haus. (Lokale Präposition)
 
 **Optionen:**
-- vors
 - vorm
+- vor dem
 - vor **✓**
-- vor das
+- vors
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -674,13 +674,13 @@
 ### 48. `b2-lokal-048` · select-one
 
 **Aufgabe:**
-> Er ging ___ dem Gebäude herum. (Lokale Präposition)
+> Er ging ___ das Gebäude herum. (Lokale Präposition)
 
 **Optionen:**
-- ums
-- um **✓**
-- um das
 - um dem
+- um **✓**
+- ums
+- beim
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -702,7 +702,7 @@
 ### 50. `b2-lokal-050` · select-one
 
 **Aufgabe:**
-> Sie wohnt ___ dem Stadtzentrum in einem ruhigen Viertel. (Lokale Präposition)
+> Sie wohnt ___ des Stadtzentrums in einem ruhigen Viertel. (Lokale Präposition)
 
 **Optionen:**
 - unterhalb

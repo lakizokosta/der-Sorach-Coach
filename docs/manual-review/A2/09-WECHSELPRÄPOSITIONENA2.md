@@ -1222,7 +1222,7 @@
 ### 101. `a2-wech-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Die · Lampe · hängt · an · der · Decke
 
@@ -1232,7 +1232,7 @@
 ### 102. `a2-wech-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Kann · ich · das · auf · den · Tisch · legen
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-wech-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Das · Kind · ist · im · Park
 
@@ -1252,7 +1252,7 @@
 ### 104. `a2-wech-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Deshalb · möchte · ich · in · den · Zoo
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-wech-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Der · Bus · steht · auf · der · Straße
 
@@ -1272,7 +1272,7 @@
 ### 106. `a2-wech-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Stellen · Sie · die · Leiter · an · Wand
 
@@ -1282,7 +1282,7 @@
 ### 107. `a2-wech-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Wo · sitzen · wir · beim · Essen · in · der · Küche
 
@@ -1292,7 +1292,7 @@
 ### 108. `a2-wech-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Die · Gäste · kommen · in · die · Wohnung
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-wech-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Wo · liegt · der · Teppich · auf · dem · Boden
 
@@ -1312,9 +1312,9 @@
 ### 110. `a2-wech-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
-**Wörter:** Wohin · hängst · du · das · Bild · an · die · Wand
+**Wörter:** Du · hängst · das · Bild · an · die · Wand
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1322,9 +1322,9 @@
 ### 111. `a2-wech-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
-**Wörter:** Wo · ist · das · Museum · in · der · Stadtmitte
+**Wörter:** Das · Museum · ist · in · der · Stadtmitte
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,7 +1332,7 @@
 ### 112. `a2-wech-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Wir · fahren · in · die · Berge
 
@@ -1342,9 +1342,9 @@
 ### 113. `a2-wech-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
-**Wörter:** Wo · arbeitest · du · bei · der · Arbeit
+**Wörter:** Ich · arbeite · in · einem · großen · Büro
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1352,7 +1352,7 @@
 ### 114. `a2-wech-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Nach · der · Schule · gehe · ich · nach · Haus
 
@@ -1362,7 +1362,7 @@
 ### 115. `a2-wech-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Ich · wohne · in · einer · kleinen · Stadt
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-wech-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Leg · die · Flasche · ins · Regal
 
@@ -1382,7 +1382,7 @@
 ### 117. `a2-wech-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Das · Kind · spielt · im · Garten
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-wech-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Die · Lampe · hängt · an · der · Decke
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-wech-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Kann · ich · das · auf · den · Tisch · legen
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-wech-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Das · Kind · ist · im · Park
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-wech-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Deshalb · möchte · ich · in · den · Zoo
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-wech-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Der · Bus · steht · auf · der · Straße
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-wech-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Stellen · Sie · die · Leiter · an · Wand
 
@@ -1452,7 +1452,7 @@
 ### 124. `a2-wech-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Wo · sitzen · wir · beim · Essen · in · der · Küche
 
@@ -1462,7 +1462,7 @@
 ### 125. `a2-wech-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Die · Gäste · kommen · in · die · Wohnung
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-wech-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Wo · liegt · der · Teppich · auf · dem · Boden
 
@@ -1482,9 +1482,9 @@
 ### 127. `a2-wech-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
-**Wörter:** Wohin · hängst · du · das · Bild · an · die · Wand
+**Wörter:** Du · hängst · das · Bild · an · die · Wand
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `a2-wech-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
-**Wörter:** Wo · ist · das · Museum · in · der · Stadtmitte
+**Wörter:** Das · Museum · ist · in · der · Stadtmitte
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,7 +1502,7 @@
 ### 129. `a2-wech-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Wir · fahren · in · die · Berge
 
@@ -1512,9 +1512,9 @@
 ### 130. `a2-wech-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
-**Wörter:** Wo · arbeitest · du · bei · der · Arbeit
+**Wörter:** Ich · arbeite · in · einem · großen · Büro
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,7 +1522,7 @@
 ### 131. `a2-wech-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Nach · der · Schule · gehe · ich · nach · Haus
 
@@ -1532,7 +1532,7 @@
 ### 132. `a2-wech-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Ich · wohne · in · einer · kleinen · Stadt
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-wech-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Leg · die · Flasche · ins · Regal
 
@@ -1552,7 +1552,7 @@
 ### 134. `a2-wech-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Das · Kind · spielt · im · Garten
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-wech-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Die · Lampe · hängt · an · der · Decke
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-wech-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Kann · ich · das · auf · den · Tisch · legen
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-wech-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Das · Kind · ist · im · Park
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-wech-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Deshalb · möchte · ich · in · den · Zoo
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-wech-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Der · Bus · steht · auf · der · Straße
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-wech-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Stellen · Sie · die · Leiter · an · Wand
 
@@ -1622,7 +1622,7 @@
 ### 141. `a2-wech-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Wo · sitzen · wir · beim · Essen · in · der · Küche
 
@@ -1632,7 +1632,7 @@
 ### 142. `a2-wech-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Die · Gäste · kommen · in · die · Wohnung
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-wech-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Wo · liegt · der · Teppich · auf · dem · Boden
 
@@ -1652,9 +1652,9 @@
 ### 144. `a2-wech-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
-**Wörter:** Wohin · hängst · du · das · Bild · an · die · Wand
+**Wörter:** Du · hängst · das · Bild · an · die · Wand
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `a2-wech-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
-**Wörter:** Wo · ist · das · Museum · in · der · Stadtmitte
+**Wörter:** Das · Museum · ist · in · der · Stadtmitte
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,7 +1672,7 @@
 ### 146. `a2-wech-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Wir · fahren · in · die · Berge
 
@@ -1682,9 +1682,9 @@
 ### 147. `a2-wech-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
-**Wörter:** Wo · arbeitest · du · bei · der · Arbeit
+**Wörter:** Ich · arbeite · in · einem · großen · Büro
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,7 +1692,7 @@
 ### 148. `a2-wech-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Nach · der · Schule · gehe · ich · nach · Haus
 
@@ -1702,7 +1702,7 @@
 ### 149. `a2-wech-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wo?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Ich · wohne · in · einer · kleinen · Stadt
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-wech-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ oder Akkusativ — Wohin?)
+> Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)
 
 **Wörter:** Leg · die · Flasche · ins · Regal
 

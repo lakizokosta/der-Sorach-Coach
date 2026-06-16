@@ -214,7 +214,7 @@
 ### 15. `a1-poss-015` · select-one
 
 **Aufgabe:**
-> Im Sommer arbeite ich in ___ Büro. (Possessivartikel — sie, mask., Dat.)
+> Im Sommer arbeite ich in ___ Büro. (Possessivartikel — sie, neutr., Dat.)
 
 **Optionen:**
 - meine
@@ -564,7 +564,7 @@
 ### 40. `a1-poss-040` · select-one
 
 **Aufgabe:**
-> Im Sommer arbeite ich in ___ Büro. (Possessivartikel — wir, mask., Dat.)
+> Im Sommer arbeite ich in ___ Büro. (Possessivartikel — wir, neutr., Dat.)
 
 **Optionen:**
 - ihr
@@ -1244,7 +1244,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Possessivartikel — dein)
 
-**Wörter:** Ist · das · dein · Freund
+**Wörter:** Ist · das · dein · Freund · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1414,7 +1414,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Possessivartikel — dein)
 
-**Wörter:** Ist · das · dein · Geschenk
+**Wörter:** Ist · das · dein · Geschenk · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `a1-poss-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seine)
 
-**Wörter:** Er · spielt · seiner · Gitarre
+**Wörter:** Er · spielt · seine · Gitarre
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1644,7 +1644,7 @@
 **Aufgabe:**
 > [Stadt] Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer)
 
-**Wörter:** Sie · zeigt · ihrer · Freundin
+**Wörter:** Sie · hilft · ihrer · Freundin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `a1-poss-dd-048` · dropbox
 
 **Aufgabe:**
-> [Reisen] Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer)
+> [Reisen] Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihre)
 
-**Wörter:** Sie · packt · ihrer · Kamera
+**Wörter:** Sie · packt · ihre · Kamera
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
