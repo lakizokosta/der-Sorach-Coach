@@ -9,4 +9,4 @@ options:
 correct: mehr
 ---
 
-Heute ist es ___ als gestern. (Komparativ — schön)
+Heute ist es ___ als gestern. (viel)

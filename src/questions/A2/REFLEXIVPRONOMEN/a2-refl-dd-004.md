@@ -11,4 +11,4 @@ words:
   - kommt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb beeilen)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — beeilt)

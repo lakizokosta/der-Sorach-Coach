@@ -10,4 +10,4 @@ words:
   - bleiben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum)
+Ordne die Wörter zum richtigen Satz: (Präteritum — wollte)

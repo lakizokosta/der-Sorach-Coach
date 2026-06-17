@@ -2,11 +2,11 @@
 id: a2-refl-042
 type: select-one
 options:
-  - gefreet
+  - gefreut
   - freue
   - freut
   - freust
 correct: freue
 ---
 
-Ich ___ mich auf den Urlaub. (Reflexiv + Verb freuen)
+Ich ___ mich auf den Urlaub. (Reflexiv + Verb gefreuen)

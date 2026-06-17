@@ -8,7 +8,8 @@ words:
   - Kino
   - oder
   - bleiben
-  - Zuhause
+  - zu
+  - Hause
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — oder)

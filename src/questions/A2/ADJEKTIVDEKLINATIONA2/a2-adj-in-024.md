@@ -5,4 +5,4 @@ correct:
   - teure
 ---
 
-Sie spielt eine ___ Gitarre. (Adjektivendung)
+Sie spielt eine ___ Gitarre. (Adjektivdeklination — fem., Akk.)

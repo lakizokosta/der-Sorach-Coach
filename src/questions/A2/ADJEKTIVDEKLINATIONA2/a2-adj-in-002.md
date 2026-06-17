@@ -5,4 +5,4 @@ correct:
   - kleine
 ---
 
-Der ___ Hund bellt laut. (Adjektivendung)
+Der ___ Hund bellt laut. (Adjektivdeklination — mask., Nom.)

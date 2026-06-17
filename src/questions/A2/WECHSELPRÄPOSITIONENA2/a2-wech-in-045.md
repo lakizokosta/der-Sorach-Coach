@@ -5,4 +5,4 @@ correct:
   - in der
 ---
 
-Wo ist das Museum? — ___ Stadtmitte. (Dativ oder Akkusativ — Wo?)
+Wo ist das Museum? — ___ Stadtmitte. (Wechselpräpositionen — Wo?)

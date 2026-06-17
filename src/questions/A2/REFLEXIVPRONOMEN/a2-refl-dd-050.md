@@ -10,4 +10,4 @@ words:
   - Hausaufgaben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb kümmern)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — kümmert)

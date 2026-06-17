@@ -11,4 +11,4 @@ words:
   - Tanzsport
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb interessieren)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — interessiere)

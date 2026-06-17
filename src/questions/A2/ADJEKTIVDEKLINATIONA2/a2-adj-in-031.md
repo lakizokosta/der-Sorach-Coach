@@ -5,4 +5,4 @@ correct:
   - gute
 ---
 
-Er hat eine ___ Idee. (Adjektivendung)
+Er hat eine ___ Idee. (Adjektivdeklination — fem., Akk.)

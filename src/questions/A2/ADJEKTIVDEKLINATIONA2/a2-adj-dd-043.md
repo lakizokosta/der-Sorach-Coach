@@ -11,4 +11,4 @@ words:
   - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivendung)
+Ordne die Wörter zum richtigen Satz: (schlecht, neutr., Dat. — schlechtem)

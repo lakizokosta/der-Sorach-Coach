@@ -5,4 +5,4 @@ correct:
   - billigen
 ---
 
-Wir übernachten in einem ___ Hotel. (Adjektivendung)
+Wir übernachten in einem ___ Hotel. (Adjektivdeklination — neutr., Dat.)

@@ -9,4 +9,4 @@ options:
 correct: Als
 ---
 
-___ ich klein war, wohnte ich auf dem Land. (Temporal — einmalig)
+___ ich klein war, wohnte ich auf dem Land. (Temporalsatz)

@@ -5,4 +5,4 @@ correct:
   - in einer
 ---
 
-Ich wohne ___ kleinen Stadt. (Dativ oder Akkusativ — Wo?)
+Ich wohne ___ kleinen Stadt. (Wechselpräpositionen — Wo?)

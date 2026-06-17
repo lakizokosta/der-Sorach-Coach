@@ -9,4 +9,4 @@ options:
 correct: muss
 ---
 
-Er ___ pünktlich sein. (Modalverb + Verb wollen)
+Er ___ pünktlich sein. (Modalverb + Verb müssen)

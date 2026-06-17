@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Ich ___ meine Freunde getroffen. (Perfekt + Hilfsverb sein)
+Ich ___ meine Freunde getroffen. (Perfekt + Hilfsverb haben)

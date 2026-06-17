@@ -9,4 +9,4 @@ options:
 correct: ruft
 ---
 
-Er ___ mich heute an. (Trennbares Verb)
+Er ___ mich heute an. (Trennbares Verb + Verb anrufen)

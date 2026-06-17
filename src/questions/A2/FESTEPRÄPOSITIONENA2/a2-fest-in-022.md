@@ -2,7 +2,7 @@
 id: a2-fest-in-022
 type: input-text
 correct:
-  - klassische
+  - für
 ---
 
-Ich interessiere mich für ___ Musik. (feste Präposition)
+Ich interessiere mich ___ klassische Musik. (feste Präposition)

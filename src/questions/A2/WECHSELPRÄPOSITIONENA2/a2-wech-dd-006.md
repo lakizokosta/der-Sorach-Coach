@@ -4,9 +4,10 @@ type: dropbox
 words:
   - Stellen
   - Sie
-  - die
+  - eine
   - Leiter
   - an
+  - die
   - Wand
 ---
 

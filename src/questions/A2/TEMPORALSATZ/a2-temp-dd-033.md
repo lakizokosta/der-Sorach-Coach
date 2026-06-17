@@ -2,11 +2,13 @@
 id: a2-temp-dd-033
 type: dropbox
 words:
-  - Nach
-  - Reisebuchung
+  - Nachdem
+  - sie
+  - gebucht
+  - haben
   - sind
   - wir
   - glücklich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Temporalsatz)
+Ordne die Wörter zum richtigen Satz: (Temporalsatz — Nachdem)

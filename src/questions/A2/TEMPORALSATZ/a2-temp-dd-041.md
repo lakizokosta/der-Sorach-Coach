@@ -2,12 +2,14 @@
 id: a2-temp-dd-041
 type: dropbox
 words:
-  - In
+  - Als
+  - wir
+  - in
   - Berlin
+  - lebten
   - lernte
   - ich
   - viel
-  - Deutsch
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

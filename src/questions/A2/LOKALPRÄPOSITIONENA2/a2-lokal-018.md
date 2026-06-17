@@ -9,4 +9,4 @@ options:
 correct: über
 ---
 
-Geh ___ die Brücke! (Lokalpräposition)
+Geh ___ die Brücke! (Lokale Präposition)

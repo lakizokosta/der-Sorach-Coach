@@ -3,12 +3,11 @@ id: a2-konj-dd-047
 type: dropbox
 words:
   - Wenn
-  - du
+  - ihr
   - müde
-  - bist
-  - solltest
-  - du
-  - dich
+  - seid
+  - solltet
+  - euch
   - ausruhen
 ---
 

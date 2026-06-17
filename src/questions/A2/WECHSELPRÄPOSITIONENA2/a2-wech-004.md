@@ -9,4 +9,4 @@ options:
 correct: Ins
 ---
 
-Wohin gehst du? — ___ Schwimmbad. (Dativ oder Akkusativ — Wohin?)
+Wohin gehst du? — ___ Schwimmbad. (Dativ oder Akkusativ)

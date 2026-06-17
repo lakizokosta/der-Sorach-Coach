@@ -9,4 +9,4 @@ options:
 correct: Nein
 ---
 
-„Kommst du mit?" — „___, ich habe keine Zeit." (Antwortpartikel — Alternative)
+„Kommst du mit?" — „___, ich habe keine Zeit." (Antwortpartikel)

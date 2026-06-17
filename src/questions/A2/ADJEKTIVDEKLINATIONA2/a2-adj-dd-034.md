@@ -10,4 +10,4 @@ words:
   - Berlin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivendung)
+Ordne die Wörter zum richtigen Satz: (jung, fem., Nom. — junge)

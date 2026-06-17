@@ -5,4 +5,4 @@ correct:
   - interessanten
 ---
 
-Er liest einen ___ Roman. (Adjektivendung)
+Er liest einen ___ Roman. (Adjektivdeklination — mask., Akk.)

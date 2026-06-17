@@ -9,4 +9,4 @@ options:
 correct: sind
 ---
 
-Wir ___ im Park spaziert. (Perfekt + Hilfsverb haben)
+Wir ___ im Park spaziert. (Perfekt + Hilfsverb sein)

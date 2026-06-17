@@ -2,7 +2,7 @@
 id: a2-fest-in-009
 type: input-text
 correct:
-  - gutes
+  - auf
 ---
 
-Ich hoffe auf ___ gutes Wetter. (feste Präposition)
+Ich hoffe ___ gutes Wetter. (feste Präposition)

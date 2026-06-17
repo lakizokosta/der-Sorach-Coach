@@ -9,4 +9,4 @@ options:
 correct: den
 ---
 
-Sie freut sich auf ___ Geburtstag. (Feste Präpositionen)
+Sie freut sich auf ___ Geburtstag. (Feste Präposition)

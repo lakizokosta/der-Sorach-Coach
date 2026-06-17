@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Ich freue mich ___ das Fest. (Feste Präpositionen)
+Ich freue mich ___ das Fest. (feste Präposition)

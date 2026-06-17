@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Ich ___ mich erkältet. (Reflexiv + Verb erkälten)
+Ich ___ mich erkältet. (Reflexiv + Verb isen)

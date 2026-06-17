@@ -9,4 +9,4 @@ options:
 correct: die
 ---
 
-Wir sprechen über ___ Reise. (Feste Präpositionen)
+Wir sprechen über ___ Reise. (Feste Präposition)

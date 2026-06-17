@@ -5,4 +5,4 @@ correct:
   - Doch
 ---
 
-„Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel — Widerspruch)
+„Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel)

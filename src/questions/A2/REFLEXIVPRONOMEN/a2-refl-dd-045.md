@@ -11,4 +11,4 @@ words:
   - Büro
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb sehen)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — sehen)

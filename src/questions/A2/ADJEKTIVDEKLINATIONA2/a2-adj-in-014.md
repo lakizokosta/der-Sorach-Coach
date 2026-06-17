@@ -5,4 +5,4 @@ correct:
   - neuer
 ---
 
-Mein ___ Job gefällt mir. (Adjektivendung)
+Mein ___ Job gefällt mir. (Adjektivdeklination — mask., Nom.)

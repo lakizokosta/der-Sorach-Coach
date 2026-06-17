@@ -9,4 +9,4 @@ options:
 correct: besser
 ---
 
-Dieser Film ist ___ als der andere. (Komparativ — stark)
+Dieser Film ist ___ als der andere. (gut)

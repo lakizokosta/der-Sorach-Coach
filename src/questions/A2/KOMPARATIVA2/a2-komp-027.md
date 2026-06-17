@@ -9,4 +9,4 @@ options:
 correct: schöner
 ---
 
-Dieser Film ist ___ als der andere. (Komparativ — hoch)
+Dieser Film ist ___ als der andere. (schön)

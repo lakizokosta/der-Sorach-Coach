@@ -9,4 +9,4 @@ options:
 correct: durch
 ---
 
-Fahren Sie ___ den Tunnel! (Lokalpräposition)
+Fahren Sie ___ den Tunnel! (Lokale Präposition)

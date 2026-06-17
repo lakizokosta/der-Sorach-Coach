@@ -2,11 +2,12 @@
 id: a2-temp-dd-034
 type: dropbox
 words:
-  - Nach
-  - Aufwachen
+  - Wenn
+  - er
+  - aufwacht
   - trinke
   - ich
   - Kaffee
 ---
 
-Ordne die Wörter zum richtigen Satz: (Temporalsatz)
+Ordne die Wörter zum richtigen Satz: (Temporalsatz — Wenn)

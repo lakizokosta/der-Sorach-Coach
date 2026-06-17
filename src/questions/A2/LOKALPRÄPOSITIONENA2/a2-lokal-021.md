@@ -9,4 +9,4 @@ options:
 correct: zwischen
 ---
 
-Das Geschäft ist ___ zwei Häusern. (Lokalpräposition)
+Das Geschäft ist ___ zwei Häusern. (Lokale Präposition)

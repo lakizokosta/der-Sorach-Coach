@@ -9,4 +9,4 @@ options:
 correct: bin
 ---
 
-Ich ___ gestern ins Kino gegangen. (Perfekt + Hilfsverb haben)
+Ich ___ gestern ins Kino gegangen. (Perfekt + Hilfsverb sein)

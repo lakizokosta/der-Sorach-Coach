@@ -2,11 +2,11 @@
 id: a2-fest-005
 type: select-one
 options:
-  - klassisch
-  - klassischen
-  - klassisches
-  - klassische
-correct: klassische
+  - mit
+  - an
+  - über
+  - für
+correct: für
 ---
 
-Ich interessiere mich für ___ Musik. (feste Präposition)
+Ich interessiere mich ___ klassische Musik. (Feste Präposition)

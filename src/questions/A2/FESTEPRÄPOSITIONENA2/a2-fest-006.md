@@ -9,4 +9,4 @@ options:
 correct: einem
 ---
 
-Er träumt von ___ Urlaub. (feste Präposition)
+Er träumt von ___ Urlaub. (Feste Präposition)

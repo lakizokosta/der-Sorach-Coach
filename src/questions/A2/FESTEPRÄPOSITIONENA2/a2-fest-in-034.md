@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Er besteht ___ pünktliche Zahlung. (Feste Präpositionen)
+Er besteht ___ pünktliche Zahlung. (feste Präposition)

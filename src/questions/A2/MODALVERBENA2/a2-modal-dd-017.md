@@ -8,7 +8,6 @@ words:
   - ein
   - bisschen
   - Ruhe
-  - haben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverben)
+Ordne die Wörter zum richtigen Satz: (Modalverben — höflicher Wunsch)

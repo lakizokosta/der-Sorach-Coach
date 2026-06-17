@@ -79,6 +79,17 @@ function restoreTopicHints(topicKey) {
 const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
 
 if (isMain) {
+  if (process.argv.includes('--restore-all')) {
+    let total = 0;
+    for (const topic of Object.keys(TOPICS)) {
+      const n = restoreTopicHints(topic);
+      total += n;
+      console.log(`${topic}: restored ${n} input-text files`);
+    }
+    console.log(`\nTotal restored: ${total}`);
+    process.exit(0);
+  }
+
   if (process.argv.includes('--restore-hints')) {
     const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8) || 'LOKALPRÄPOSITIONENA2';
     const n = restoreTopicHints(topic);

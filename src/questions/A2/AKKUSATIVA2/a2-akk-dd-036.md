@@ -6,8 +6,9 @@ words:
   - denkt
   - gern
   - an
+  - seinen
+  - letzten
   - Urlaub
-  - Mosel
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — den)

@@ -9,4 +9,4 @@ options:
 correct: dem
 ---
 
-Er fragt nach ___ Weg. (feste Präposition)
+Er fragt nach ___ Weg. (Feste Präposition)

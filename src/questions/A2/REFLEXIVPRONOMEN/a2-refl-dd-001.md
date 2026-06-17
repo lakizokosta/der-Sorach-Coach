@@ -9,4 +9,4 @@ words:
   - Morgen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb waschen)
+Ordne die Wörter zum richtigen Satz: (Reflexiv — wasche)

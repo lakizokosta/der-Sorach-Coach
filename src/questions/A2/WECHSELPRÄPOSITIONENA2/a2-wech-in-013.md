@@ -5,4 +5,4 @@ correct:
   - bei der
 ---
 
-Wo arbeitest du? — ___ Arbeit. (Dativ oder Akkusativ — Wo?)
+Wo arbeitest du? — ___ Arbeit. (Wechselpräpositionen — Wo?)

@@ -5,4 +5,4 @@ correct:
   - nichts
 ---
 
-Ich habe ___ davon gehört. (Indefinitpronomen — Sache)
+Ich habe ___ davon gehört. (Indefinitpronomen — Verneinung)

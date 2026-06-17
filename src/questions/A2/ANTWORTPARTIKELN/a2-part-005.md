@@ -9,4 +9,4 @@ options:
 correct: oder
 ---
 
-„Gehen wir ins Kino ___ nach Hause?" (Antwortpartikel — Alternative)
+„Gehen wir ins Kino ___ nach Hause?" (Antwortpartikel)

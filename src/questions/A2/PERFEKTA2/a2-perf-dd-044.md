@@ -10,4 +10,4 @@ words:
   - gekommen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt)
+Ordne die Wörter zum richtigen Satz: (Perfekt — ist gekommen)

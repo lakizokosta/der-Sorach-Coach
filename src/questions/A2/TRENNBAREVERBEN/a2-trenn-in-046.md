@@ -2,7 +2,7 @@
 id: a2-trenn-in-046
 type: input-text
 correct:
-  - fahren
+  - kaufen
 ---
 
-Wir ___ nach Hause ein. (Trennbares Verb + Verb einfahren)
+Wir ___ heute im Supermarkt ein. (Trennbares Verb + Verb einkaufen)

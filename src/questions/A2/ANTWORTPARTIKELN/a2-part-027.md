@@ -9,4 +9,4 @@ options:
 correct: Nein
 ---
 
-„Trinkst du Milch?" — „___, ich trinke keinen." (Antwortpartikel)
+„Trinkst du Kaffee?" — „___, ich trinke keinen." (Antwortpartikel)

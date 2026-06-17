@@ -11,4 +11,4 @@ words:
   - Bus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum)
+Ordne die Wörter zum richtigen Satz: (Präteritum — warteten)

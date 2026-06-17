@@ -9,4 +9,4 @@ options:
 correct: stehst
 ---
 
-Wann ___ du auf? (Trennbares Verb)
+Wann ___ du auf? (Trennbares Verb + Verb stehen)

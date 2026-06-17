@@ -12,4 +12,4 @@ words:
   - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
+Ordne die Wörter zum richtigen Satz: (Possessiv — ich)

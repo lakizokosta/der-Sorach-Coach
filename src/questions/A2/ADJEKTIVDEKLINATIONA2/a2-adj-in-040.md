@@ -5,4 +5,4 @@ correct:
   - offizielle
 ---
 
-Das ist eine ___ Einladung. (Adjektivendung)
+Das ist eine ___ Einladung. (Adjektivdeklination — fem., Nom.)

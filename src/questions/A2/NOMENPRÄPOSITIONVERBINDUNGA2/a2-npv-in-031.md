@@ -2,7 +2,7 @@
 id: a2-npv-in-031
 type: input-text
 correct:
-  - in
+  - auf
 ---
 
-Er hat Recht ___ der Sache. (Nomen-Präp. — Recht)
+Er hat Anspruch ___ eine Belohnung. (Nomen-Präp. — Anspruch)

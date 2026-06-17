@@ -9,4 +9,4 @@ options:
 correct: kann
 ---
 
-Ich ___ dir helfen. (Modalverb + Verb dürfen)
+Ich ___ dir helfen. (Modalverb + Verb können)

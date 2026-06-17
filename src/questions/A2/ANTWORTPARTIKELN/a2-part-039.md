@@ -9,4 +9,4 @@ options:
 correct: Doch
 ---
 
-„Du kommst doch zur Party?" — „___, ich komme bestimmt." (Antwortpartikel — Alternative)
+„Du kommst doch zur Party?" — „___, ich komme bestimmt." (Antwortpartikel)

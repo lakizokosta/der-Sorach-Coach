@@ -2,10 +2,10 @@
 id: a2-refl-017
 type: select-one
 options:
-  - interessiere
-  - interessieren
-  - interessiert
   - interessierst
+  - interessieren
+  - interessierte
+  - interessiert
 correct: interessiert
 ---
 

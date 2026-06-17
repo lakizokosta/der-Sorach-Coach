@@ -5,4 +5,4 @@ correct:
   - schnellen
 ---
 
-Wir fahren mit der ___ Bahn. (Adjektivendung)
+Wir fahren mit der ___ Bahn. (Adjektivdeklination — fem., Dat.)

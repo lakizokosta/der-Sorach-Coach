@@ -9,4 +9,4 @@ options:
 correct: ist
 ---
 
-Sie ___ nach Hause gekommen. (Perfekt + Hilfsverb haben)
+Sie ___ nach Hause gekommen. (Perfekt + Hilfsverb sein)

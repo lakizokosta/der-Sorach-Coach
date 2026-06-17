@@ -5,4 +5,4 @@ correct:
   - auf den
 ---
 
-Kann ich das ___ Tisch legen? (Dativ oder Akkusativ — Wohin?)
+Kann ich das ___ Tisch legen? (Wechselpräpositionen — Wohin?)

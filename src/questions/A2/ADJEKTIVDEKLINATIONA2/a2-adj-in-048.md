@@ -5,4 +5,4 @@ correct:
   - große
 ---
 
-Ich bestelle eine ___ Pizza. (Adjektivendung)
+Ich bestelle eine ___ Pizza. (Adjektivdeklination — fem., Akk.)

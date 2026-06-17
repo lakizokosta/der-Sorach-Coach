@@ -3,11 +3,12 @@ id: a2-temp-dd-014
 type: dropbox
 words:
   - Wenn
-  - ich
+  - das
+  - Kind
   - krank
-  - bin
-  - bleibe
-  - ich
+  - ist
+  - bleibt
+  - es
   - zu
   - Hause
 ---

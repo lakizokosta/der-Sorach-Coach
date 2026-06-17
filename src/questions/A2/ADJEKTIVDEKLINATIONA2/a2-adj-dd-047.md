@@ -9,4 +9,4 @@ words:
   - Geschenk
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivendung)
+Ordne die Wörter zum richtigen Satz: (gut, neutr., Akk. — gutes)

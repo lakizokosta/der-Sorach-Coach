@@ -8,4 +8,4 @@ words:
   - Berlin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum)
+Ordne die Wörter zum richtigen Satz: (Präteritum — zog)

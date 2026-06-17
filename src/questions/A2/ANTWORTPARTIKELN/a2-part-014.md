@@ -9,4 +9,4 @@ options:
 correct: oder
 ---
 
-„Wir fahren morgen, ___ du bleibst?" (Antwortpartikel — Alternative)
+„Wir fahren morgen, ___ du bleibst?" (Antwortpartikel)

@@ -3,11 +3,10 @@ id: a2-temp-dd-028
 type: dropbox
 words:
   - Wenn
-  - du
+  - ihr
   - müde
-  - bist
-  - solltest
-  - du
+  - seid
+  - solltet
   - schlafen
 ---
 

@@ -5,4 +5,4 @@ correct:
   - warme
 ---
 
-Der Kellner bringt eine ___ Suppe. (Adjektivendung)
+Der Kellner bringt eine ___ Suppe. (Adjektivdeklination — fem., Akk.)

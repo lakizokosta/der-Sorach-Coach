@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Er
   - hat
-  - Recht
-  - in
-  - der
-  - Sache
+  - Anspruch
+  - auf
+  - eine
+  - Belohnung
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

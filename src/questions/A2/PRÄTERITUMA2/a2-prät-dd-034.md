@@ -10,4 +10,4 @@ words:
   - Tag
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum)
+Ordne die Wörter zum richtigen Satz: (Präteritum — war)

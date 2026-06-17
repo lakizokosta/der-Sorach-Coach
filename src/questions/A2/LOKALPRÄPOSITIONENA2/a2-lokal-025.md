@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Wir treffen uns ___ dem Platz. (Lokalpräposition)
+Wir treffen uns ___ dem Platz. (Lokale Präposition)

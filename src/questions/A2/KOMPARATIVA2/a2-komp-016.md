@@ -9,4 +9,4 @@ options:
 correct: größer
 ---
 
-Mein Auto ist ___ als deins. (Komparativ — schön)
+Mein Auto ist ___ als deins. (groß)

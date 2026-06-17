@@ -5,4 +5,4 @@ correct:
   - lautes
 ---
 
-Wir hören ein ___ Lied. (Adjektivendung)
+Wir hören ein ___ Lied. (Adjektivdeklination — neutr., Akk.)

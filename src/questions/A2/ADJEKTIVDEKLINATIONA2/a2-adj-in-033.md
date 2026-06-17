@@ -5,4 +5,4 @@ correct:
   - neues
 ---
 
-Das ist mein ___ Buch. (Adjektivendung)
+Das ist mein ___ Buch. (Adjektivdeklination — neutr., Nom.)

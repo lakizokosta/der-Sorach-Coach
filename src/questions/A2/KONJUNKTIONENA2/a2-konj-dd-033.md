@@ -2,11 +2,13 @@
 id: a2-konj-dd-033
 type: dropbox
 words:
-  - Bei
-  - Fehlern
-  - melden
-  - Sie
-  - sich
+  - Wenn
+  - du
+  - einen
+  - Fehler
+  - machst
+  - melde
+  - dich
   - bitte
 ---
 

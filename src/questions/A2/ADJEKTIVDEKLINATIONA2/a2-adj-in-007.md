@@ -5,4 +5,4 @@ correct:
   - netten
 ---
 
-Sie hat einen ___ Freund. (Adjektivendung)
+Sie hat einen ___ Freund. (Adjektivdeklination — mask., Akk.)

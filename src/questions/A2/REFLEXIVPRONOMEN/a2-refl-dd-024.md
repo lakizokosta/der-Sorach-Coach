@@ -8,4 +8,4 @@ words:
   - erkältet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb erkälten)
+Ordne die Wörter zum richtigen Satz: (Perfekt — habe erkältet)

@@ -5,4 +5,4 @@ correct:
   - neue
 ---
 
-Das ___ Auto ist schnell. (Adjektivendung)
+Das ___ Auto ist schnell. (Adjektivdeklination — neutr., Nom.)

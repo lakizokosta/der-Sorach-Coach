@@ -9,4 +9,4 @@ options:
 correct: den
 ---
 
-Wir lachen über ___ Witz. (feste Präposition)
+Wir lachen über ___ Witz. (Feste Präposition)

@@ -5,4 +5,4 @@ correct:
   - in der
 ---
 
-Wo sitzen wir beim Essen? — ___ Küche. (Dativ oder Akkusativ — Wo?)
+Wo sitzen wir beim Essen? — ___ Küche. (Wechselpräpositionen — Wo?)
