@@ -2,13 +2,13 @@
 id: b1-demo-dd-029
 type: dropbox
 words:
-  - Ich
-  - kenne
-  - jenen
-  - Politiker
-  - aus
-  - dem
-  - Fernsehen
+  - Diese
+  - Vorlesung
+  - war
+  - interessanter
+  - als
+  - die
+  - andere
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

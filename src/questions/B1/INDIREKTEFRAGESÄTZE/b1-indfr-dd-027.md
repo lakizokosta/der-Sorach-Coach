@@ -2,14 +2,13 @@
 id: b1-indfr-dd-027
 type: dropbox
 words:
-  - Sie
-  - will
-  - wissen
-  - was
-  - der
-  - Minister
-  - gesagt
-  - hat
+  - Wir
+  - fragen
+  - ob
+  - ihr
+  - schon
+  - gebucht
+  - habt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

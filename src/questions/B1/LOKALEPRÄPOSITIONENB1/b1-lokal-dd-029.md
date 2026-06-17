@@ -2,11 +2,11 @@
 id: b1-lokal-dd-029
 type: dropbox
 words:
-  - Er
-  - wohnt
-  - auf
-  - dem
-  - Land
+  - Wir
+  - gehen
+  - über
+  - die
+  - Straße
 ---
 
 Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

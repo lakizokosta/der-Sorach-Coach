@@ -2,15 +2,13 @@
 id: b1-adj-dd-019
 type: dropbox
 words:
-  - Der
-  - Chef
-  - präsentiert
+  - Sie
+  - liest
   - einen
-  - wichtigen
-  - Bericht
-  - vor
-  - der
-  - Abteilung
+  - interessanten
+  - Artikel
+  - über
+  - Umweltschutz
 ---
 
 Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

@@ -3,10 +3,10 @@ id: b1-pass-dd-039
 type: dropbox
 words:
   - Die
-  - Tickets
-  - werden
-  - online
-  - verkauft
+  - Nachricht
+  - wurde
+  - sofort
+  - gesendet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Passiv)

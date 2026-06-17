@@ -2,12 +2,12 @@
 id: b1-npv-dd-042
 type: dropbox
 words:
-  - Er
+  - Die
+  - Patientin
   - hat
-  - Erfolg
-  - bei
-  - der
-  - Prüfung
+  - Schmerzen
+  - im
+  - Rücken
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

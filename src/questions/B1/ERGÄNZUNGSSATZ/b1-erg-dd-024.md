@@ -2,14 +2,14 @@
 id: b1-erg-dd-024
 type: dropbox
 words:
-  - Er
-  - behauptet
+  - Die
+  - Professorin
+  - erklärt
   - dass
-  - er
-  - alles
-  - richtig
-  - gemacht
-  - hat
+  - der
+  - Kurs
+  - anspruchsvoll
+  - ist
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

@@ -2,14 +2,13 @@
 id: b1-demo-dd-018
 type: dropbox
 words:
-  - Dieses
-  - Projekt
-  - gefällt
-  - mir
-  - besser
-  - als
+  - Dieser
+  - Professor
+  - erklärt
   - das
-  - andere
+  - Thema
+  - sehr
+  - verständlich
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

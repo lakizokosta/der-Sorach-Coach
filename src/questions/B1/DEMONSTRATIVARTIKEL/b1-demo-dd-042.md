@@ -2,13 +2,13 @@
 id: b1-demo-dd-042
 type: dropbox
 words:
-  - Dieser
-  - Studiengang
-  - passt
-  - besser
-  - zu
-  - meinen
-  - Interessen
+  - Ich
+  - kenne
+  - jenen
+  - Politiker
+  - aus
+  - dem
+  - Fernsehen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

@@ -2,14 +2,15 @@
 id: b1-konz-dd-046
 type: dropbox
 words:
-  - Sie
-  - hat
-  - wenig
-  - Zeit
-  - trotzdem
-  - hilft
-  - sie
-  - uns
+  - Obwohl
+  - es
+  - Schlafmangel
+  - gibt
+  - arbeitet
+  - der
+  - Kollege
+  - sehr
+  - produktiv
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

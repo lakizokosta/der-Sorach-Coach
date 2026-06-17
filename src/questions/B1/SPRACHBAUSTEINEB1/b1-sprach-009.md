@@ -9,4 +9,4 @@ options:
 correct: verbindlich
 ---
 
-Bitte beachten Sie, dass eine Anmeldung ___ ist. (Grammatikform)
+Bitte beachten Sie, dass eine Anmeldung ___ ist.

@@ -2,12 +2,14 @@
 id: b1-erg-dd-044
 type: dropbox
 words:
-  - Man
-  - hört
+  - Er
+  - merkt
   - dass
-  - die
-  - Preise
-  - steigen
+  - er
+  - einen
+  - Fehler
+  - gemacht
+  - hat
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

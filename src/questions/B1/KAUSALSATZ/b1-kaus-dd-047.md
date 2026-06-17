@@ -2,13 +2,14 @@
 id: b1-kaus-dd-047
 type: dropbox
 words:
-  - Ich
-  - trinke
-  - Tee
-  - weil
-  - ich
-  - Halsweh
-  - habe
+  - Weil
+  - er
+  - fleißig
+  - war
+  - bestand
+  - die
+  - Studentin
+  - sofort
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

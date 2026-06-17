@@ -2,13 +2,13 @@
 id: b1-akk-dd-029
 type: dropbox
 words:
-  - Ich
-  - suche
-  - einen
-  - geeigneten
-  - Kurs
-  - für
-  - B1
+  - Wir
+  - diskutieren
+  - das
+  - Problem
+  - gemeinsam
+  - im
+  - Team
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ)

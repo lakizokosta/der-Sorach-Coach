@@ -2,14 +2,13 @@
 id: b1-akk-dd-024
 type: dropbox
 words:
-  - Ich
-  - interessiere
-  - mich
-  - für
+  - Wir
+  - besuchen
   - eine
-  - Stelle
-  - im
-  - Ausland
+  - Ausstellung
+  - über
+  - erneuerbare
+  - Energien
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ)

@@ -307,11 +307,6 @@ export const GRAMMAR_HINTS = {
     RU: 'Неотделяемые: be-, er-, ver-, zer-, ent-, ge-, miss-. Отделяемые: an-, auf-, aus-, ein-.',
     EN: 'Non-separable: be-, er-, ver-, zer-, ent-, ge-, miss-. Separable: an-, auf-, aus-, ein-.',
   },
-  VERBPRÄPOSITIONVERBINDUNG: {
-    DE: 'denken an, warten auf, sich interessieren für, sich freuen über/auf, sich ärgern über, antworten auf, teilnehmen an.',
-    RU: 'denken an, warten auf, sich interessieren für, sich freuen über, sich ärgern über, antworten auf.',
-    EN: 'denken an, warten auf, sich interessieren für, sich freuen über, sich ärgern über, antworten auf.',
-  },
   VERNEINUNG: {
     DE: 'nicht: Verben, Adjektive, Adverbien, Präpositionalgruppen. kein: Nomen. Keine doppelte Verneinung! nicht müssen ≠ darf nicht.',
     RU: 'nicht: глаголы, прилагательные, наречия. kein: существительные. Двойное отрицание невозможно!',

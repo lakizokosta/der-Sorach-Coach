@@ -13,6 +13,9 @@ import { md } from './b1-input-text-shared.mjs';
 import * as G from './b1-select-one-data.mjs';
 import { transformHint } from './fix-input-text-hints.mjs';
 
+const FORCE = process.argv.includes('--force');
+const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
+
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B1');
 
 const TOPICS = {
@@ -38,7 +41,6 @@ const TOPICS = {
   PRÄPOSITIONENB1: { prefix: 'b1-praep-in', gen: G.genPraepositionenB1 },
   RELATIVSATZB1: { prefix: 'b1-rel-in', gen: G.genRelativsatzB1 },
   TRENNBAREVERBENB1: { prefix: 'b1-trenn-in', gen: G.genTrennbareVerbenB1 },
-  VERBPRÄPOSITIONVERBINDUNG: { prefix: 'b1-vpv-in', gen: G.genVerbPraeposition },
   VERNEINUNG: { prefix: 'b1-neg-in', gen: G.genVerneinung },
   VERBNOMENVERBINDUNGB1: { prefix: 'b1-vnv-in', gen: G.genVerbNomenVerbindungB1 },
   VERBLASSEN: { prefix: 'b1-lass-in', gen: G.genVerblassen },
@@ -51,7 +53,7 @@ const HINT = {
   ADJEKTIVDEKLINATIONB1: 'Adjektivdeklination',
   AKKUSATIVB1: 'Akkusativ',
   DEMONSTRATIVARTIKEL: 'Demonstrativartikel',
-  ERGÄNZUNGSSATZ: 'Ergänzungssatz — dass',
+  ERGÄNZUNGSSATZ: 'Ergänzungssatz',
   FINALSATZ: 'Finalsatz — um/damit',
   INDIREKTEFRAGESÄTZE: 'Indirekte Frage',
   KAUSALSATZ: 'Kausalsatz — weil/da/denn',
@@ -70,7 +72,6 @@ const HINT = {
   PRÄPOSITIONENB1: 'Präposition',
   RELATIVSATZB1: 'Relativpronomen',
   TRENNBAREVERBENB1: 'Trennbares Verb',
-  VERBPRÄPOSITIONVERBINDUNG: 'Verb + Präposition',
   VERNEINUNG: 'Verneinung — nicht/kein',
   VERBNOMENVERBINDUNGB1: 'Verb-Nomen-Verbindung',
   VERBLASSEN: 'lassen + Infinitiv',
@@ -116,7 +117,7 @@ function writeTopic(folder, prefix, questions) {
   questions.slice(0, 50).forEach((q, i) => {
     const num = String(i + 1).padStart(3, '0');
     const path = join(ROOT, folder, `${prefix}-${num}.md`);
-    if (existsSync(path)) return;
+    if (!FORCE && existsSync(path)) return;
     const inner = hintInner(folder, q.prompt);
     const hint = transformHint(inner, folder, [q.correct]);
     const prompt = `${q.prompt} (${hint})`;
@@ -128,9 +129,10 @@ function writeTopic(folder, prefix, questions) {
 
 let total = 0;
 for (const [folder, { prefix, gen }] of Object.entries(TOPICS)) {
+  if (TOPIC_ARG && folder !== TOPIC_ARG) continue;
   const qs = gen();
   const n = writeTopic(folder, prefix, qs);
   total += n;
-  console.log(`${folder}: +${n} input-text`);
+  console.log(`${folder}: ${FORCE ? 'regen' : '+'}${n} input-text`);
 }
-console.log(`\nTotal new input-text files: ${total}`);
+console.log(`\nTotal ${FORCE ? 'regenerated' : 'new'} input-text files: ${total}`);

@@ -9,4 +9,4 @@ options:
 correct: über
 ---
 
-Wir sprechen ___ das neue Gesetz. (Verb + Präposition)
+Wir sprechen ___ das neue Gesetz. (Präpositionalergänzung)

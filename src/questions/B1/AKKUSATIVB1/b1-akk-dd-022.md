@@ -2,13 +2,14 @@
 id: b1-akk-dd-022
 type: dropbox
 words:
-  - Wir
-  - lesen
-  - den
-  - Bericht
-  - über
-  - die
-  - Klimakonferenz
+  - Ich
+  - interessiere
+  - mich
+  - für
+  - eine
+  - Stelle
+  - im
+  - Ausland
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ)

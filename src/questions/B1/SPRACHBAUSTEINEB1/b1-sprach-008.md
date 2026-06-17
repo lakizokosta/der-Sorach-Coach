@@ -9,4 +9,4 @@ options:
 correct: Darauf
 ---
 
-___ freue ich mich auf eine positive Rückmeldung. (Grammatikform)
+___ freue ich mich auf eine positive Rückmeldung.

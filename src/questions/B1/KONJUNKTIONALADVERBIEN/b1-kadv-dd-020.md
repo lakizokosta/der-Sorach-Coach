@@ -2,15 +2,15 @@
 id: b1-kadv-dd-020
 type: dropbox
 words:
-  - Sie
-  - spricht
-  - fließend
-  - Englisch
-  - Außerdem
-  - kann
-  - sie
-  - auch
-  - Französisch
+  - Ich
+  - war
+  - krank
+  - Deshalb
+  - habe
+  - ich
+  - die
+  - Vorlesung
+  - verpasst
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

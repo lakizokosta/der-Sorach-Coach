@@ -2,13 +2,13 @@
 id: b1-indfr-dd-012
 type: dropbox
 words:
-  - Er
-  - fragt
+  - Wir
+  - fragen
   - ob
-  - wir
+  - ihr
   - schon
   - gebucht
-  - haben
+  - habt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

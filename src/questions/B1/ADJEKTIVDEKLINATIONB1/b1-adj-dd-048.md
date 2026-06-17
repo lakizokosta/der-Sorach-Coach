@@ -2,14 +2,15 @@
 id: b1-adj-dd-048
 type: dropbox
 words:
-  - Das
-  - ist
-  - ein
-  - wichtiges
-  - Thema
-  - in
+  - Der
+  - neue
+  - Studiengang
+  - an
   - der
-  - Politik
+  - Universität
+  - ist
+  - sehr
+  - beliebt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

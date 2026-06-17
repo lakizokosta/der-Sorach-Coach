@@ -2,13 +2,13 @@
 id: b1-erg-dd-045
 type: dropbox
 words:
-  - Ich
-  - finde
-  - es
-  - gut
+  - Wir
+  - wissen
   - dass
-  - du
-  - mitkommst
+  - die
+  - Entscheidung
+  - schwer
+  - war
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

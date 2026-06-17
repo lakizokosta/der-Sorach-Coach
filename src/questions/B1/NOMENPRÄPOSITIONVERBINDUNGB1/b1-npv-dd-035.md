@@ -2,14 +2,12 @@
 id: b1-npv-dd-035
 type: dropbox
 words:
-  - Sie
+  - Er
   - hat
-  - großes
-  - Interesse
-  - an
-  - dem
-  - neuen
-  - Studiengang
+  - Respekt
+  - vor
+  - erfahrenen
+  - Kollegen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

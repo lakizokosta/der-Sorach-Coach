@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Der Termin ___ verschoben. (Passiv)
+Der Termin ___ verschoben. (Passiv + Hilfsverb werden)

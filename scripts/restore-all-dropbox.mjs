@@ -43,7 +43,6 @@ const B1_TOPICS = {
   PRÄPOSITIONENB1: 'b1-praep-dd',
   RELATIVSATZB1: 'b1-rel-dd',
   TRENNBAREVERBENB1: 'b1-trenn-dd',
-  VERBPRÄPOSITIONVERBINDUNG: 'b1-vpv-dd',
   VERNEINUNG: 'b1-neg-dd',
   VERBNOMENVERBINDUNGB1: 'b1-vnv-dd',
   VERBLASSEN: 'b1-lass-dd',

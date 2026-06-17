@@ -5,4 +5,4 @@ correct:
   - meiner
 ---
 
-Wegen ___ Verspätung verpasste ich den Termin. (Possessivartikelform)
+Wegen ___ Verspätung verpasste ich den Termin. (Possessivartikel — Possessivartikel)

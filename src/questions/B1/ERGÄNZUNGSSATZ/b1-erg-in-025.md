@@ -2,7 +2,7 @@
 id: b1-erg-in-025
 type: input-text
 correct:
-  - dass
+  - ob
 ---
 
-Man hört, ___ die Preise steigen. (Ergänzungssatz)
+Ich frage mich, ___ er recht hat. (Ergänzungssatz)

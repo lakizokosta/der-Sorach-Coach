@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Das Medikament ___ in Apotheken angeboten. (Passiv)
+Das Medikament ___ in Apotheken angeboten. (Passiv + Hilfsverb werden)

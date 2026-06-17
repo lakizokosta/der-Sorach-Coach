@@ -2,12 +2,12 @@
 id: b1-erg-dd-040
 type: dropbox
 words:
-  - Ich
-  - glaube
+  - Man
+  - hört
   - dass
   - die
-  - Nachrichten
-  - übertreiben
+  - Preise
+  - steigen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

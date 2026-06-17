@@ -2,14 +2,14 @@
 id: b1-kond-dd-041
 type: dropbox
 words:
-  - Sobald
-  - der
-  - Arzt
-  - kommt
-  - warten
+  - Wenn
+  - die
+  - Sonne
+  - scheint
+  - machen
   - wir
-  - im
-  - Wartezimmer
+  - einen
+  - Ausflug
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

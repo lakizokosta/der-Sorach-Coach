@@ -2,7 +2,7 @@
 id: b1-vnv-in-047
 type: input-text
 correct:
-  - führt durch
+  - leistet
 ---
 
-Er ___ eine sorgfältige Untersuchung. (Verb-Nomen-Verbindung)
+Sie ___ einen wichtigen Beitrag zur Diskussion. (Verb-Nomen-Verbindung)

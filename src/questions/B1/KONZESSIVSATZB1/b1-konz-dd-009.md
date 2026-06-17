@@ -12,4 +12,4 @@ words:
   - es
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

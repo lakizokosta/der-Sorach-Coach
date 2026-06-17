@@ -8,8 +8,9 @@ words:
   - lang
   - war
   - blieb
-  - Kursinhalt
+  - der
+  - Inhalt
   - spannend
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

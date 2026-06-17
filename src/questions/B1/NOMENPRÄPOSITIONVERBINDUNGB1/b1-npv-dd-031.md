@@ -2,12 +2,14 @@
 id: b1-npv-dd-031
 type: dropbox
 words:
-  - Er
+  - Sie
   - hat
-  - Erfahrung
-  - in
-  - diesem
-  - Bereich
+  - großes
+  - Interesse
+  - an
+  - dem
+  - neuen
+  - Studiengang
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

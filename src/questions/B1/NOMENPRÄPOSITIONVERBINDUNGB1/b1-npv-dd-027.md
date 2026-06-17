@@ -2,12 +2,12 @@
 id: b1-npv-dd-027
 type: dropbox
 words:
-  - Sie
+  - Die
+  - Patientin
   - hat
-  - Freude
-  - an
-  - ihrer
-  - Arbeit
+  - Schmerzen
+  - im
+  - Rücken
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

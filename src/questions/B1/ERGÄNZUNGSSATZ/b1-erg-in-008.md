@@ -2,7 +2,7 @@
 id: b1-erg-in-008
 type: input-text
 correct:
-  - dass
+  - was
 ---
 
-Wir sind überzeugt, ___ das Projekt gelingt. (Ergänzungssatz)
+Ich weiß nicht, ___ er morgen sagen wird. (Ergänzungssatz)

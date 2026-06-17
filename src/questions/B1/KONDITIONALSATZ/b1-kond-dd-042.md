@@ -2,14 +2,14 @@
 id: b1-kond-dd-042
 type: dropbox
 words:
-  - Wenn
-  - das
-  - Gesetz
-  - verabschiedet
-  - wird
-  - ändert
-  - sich
-  - vieles
+  - Falls
+  - der
+  - Termin
+  - ausfällt
+  - dann
+  - informiere
+  - ich
+  - dich
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

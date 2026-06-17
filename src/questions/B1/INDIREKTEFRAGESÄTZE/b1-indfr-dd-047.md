@@ -2,14 +2,14 @@
 id: b1-indfr-dd-047
 type: dropbox
 words:
-  - Wir
-  - wissen
-  - nicht
-  - ob
-  - das
-  - Problem
-  - gelöst
-  - wird
+  - Kannst
+  - du
+  - mir
+  - sagen
+  - wann
+  - der
+  - Zug
+  - ankommt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

@@ -37,7 +37,6 @@ const TOPICS = {
   PRÄPOSITIONENB1: 'b1-praep-dd',
   RELATIVSATZB1: 'b1-rel-dd',
   TRENNBAREVERBENB1: 'b1-trenn-dd',
-  VERBPRÄPOSITIONVERBINDUNG: 'b1-vpv-dd',
   VERNEINUNG: 'b1-neg-dd',
   VERBNOMENVERBINDUNGB1: 'b1-vnv-dd',
   VERBLASSEN: 'b1-lass-dd',
@@ -70,8 +69,11 @@ function restoreTopic(topicKey) {
 const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
 
 if (isMain) {
+  const FORCE = process.argv.includes('--force');
+  const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
+
   if (process.argv.includes('--restore')) {
-    const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8) || 'KONDITIONALSATZ';
+    const topic = TOPIC_ARG || 'KONDITIONALSATZ';
     const n = restoreTopic(topic);
     console.log(`Restored ${n} ${topic} dropbox files.`);
     process.exit(0);
@@ -81,6 +83,7 @@ if (isMain) {
   const errors = [];
 
   for (const [folder, prefix] of Object.entries(TOPICS)) {
+    if (TOPIC_ARG && folder !== TOPIC_ARG) continue;
     const bank = BANK[folder];
     if (!bank) throw new Error(`Missing bank for ${folder}`);
     mkdirSync(join(ROOT, folder), { recursive: true });
@@ -88,7 +91,7 @@ if (isMain) {
     bank.slice(0, 50).forEach((item, i) => {
       const num = String(i + 1).padStart(3, '0');
       const path = join(ROOT, folder, `${prefix}-${num}.md`);
-      if (existsSync(path)) return;
+      if (!FORCE && existsSync(path)) return;
       try {
         writeItem(folder, prefix, num, item);
         n += 1;
@@ -97,7 +100,7 @@ if (isMain) {
         errors.push(e.message);
       }
     });
-    console.log(`${folder}: +${n}`);
+    console.log(`${folder}: ${FORCE ? 'regen' : '+'}${n}`);
   }
 
   if (errors.length) {
@@ -105,7 +108,7 @@ if (isMain) {
     errors.forEach((e) => console.error(`  ${e}`));
     process.exit(1);
   }
-  console.log(`\nTotal new dropbox files: ${total}`);
+  console.log(`\nTotal ${FORCE ? 'regenerated' : 'new'} dropbox files: ${total}`);
 }
 
 export { restoreTopic };

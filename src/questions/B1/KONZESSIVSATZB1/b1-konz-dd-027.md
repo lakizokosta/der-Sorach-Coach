@@ -2,14 +2,14 @@
 id: b1-konz-dd-027
 type: dropbox
 words:
-  - Es
-  - regnet
+  - Sie
+  - hat
+  - wenig
+  - Zeit
   - trotzdem
-  - fahren
-  - wir
-  - in
-  - den
-  - Urlaub
+  - hilft
+  - sie
+  - uns
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

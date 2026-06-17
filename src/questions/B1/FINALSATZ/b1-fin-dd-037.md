@@ -8,6 +8,7 @@ words:
   - um
   - die
   - Schmerzen
+  - zu
   - lindern
 ---
 

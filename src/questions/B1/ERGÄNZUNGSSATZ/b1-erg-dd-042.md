@@ -2,13 +2,13 @@
 id: b1-erg-dd-042
 type: dropbox
 words:
-  - Wir
-  - sind
-  - überzeugt
+  - Sie
+  - bestätigt
   - dass
-  - das
-  - Projekt
-  - gelingt
+  - der
+  - Flug
+  - pünktlich
+  - startet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

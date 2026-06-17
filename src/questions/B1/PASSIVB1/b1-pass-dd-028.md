@@ -3,12 +3,12 @@ id: b1-pass-dd-028
 type: dropbox
 words:
   - Die
-  - Ergebnisse
-  - werden
-  - nächste
-  - Woche
-  - bekannt
-  - gegeben
+  - Prüfung
+  - wird
+  - in
+  - zwei
+  - Räumen
+  - durchgeführt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Passiv)

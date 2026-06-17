@@ -2,16 +2,15 @@
 id: b1-pradv-dd-043
 type: dropbox
 words:
-  - Nimmst
+  - Hörst
   - du
-  - an
-  - der
-  - Konferenz
-  - teil
+  - auf
+  - gute
+  - Ratschläge
   - —
   - Ich
-  - nehme
-  - daran
+  - höre
+  - darauf
 ---
 
 Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

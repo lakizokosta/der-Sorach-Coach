@@ -2,15 +2,14 @@
 id: b1-konz-dd-023
 type: dropbox
 words:
-  - Das
-  - Projekt
-  - ist
-  - schwierig
+  - Die
+  - Nachrichten
+  - sind
+  - negativ
   - trotzdem
-  - geben
-  - wir
-  - nicht
-  - auf
+  - bleibt
+  - er
+  - optimistisch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

@@ -3,11 +3,11 @@ id: b1-lokal-dd-023
 type: dropbox
 words:
   - Das
-  - Café
-  - ist
-  - neben
+  - Hotel
+  - liegt
+  - an
   - dem
-  - Park
+  - Fluss
 ---
 
 Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

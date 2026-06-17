@@ -2,12 +2,12 @@
 id: b1-npv-dd-049
 type: dropbox
 words:
-  - Sie
+  - Die
+  - Firma
   - hat
-  - Angst
-  - vor
-  - großen
-  - Hunden
+  - Bedarf
+  - an
+  - Fachkräften
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

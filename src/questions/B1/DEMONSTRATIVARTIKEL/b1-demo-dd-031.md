@@ -2,12 +2,13 @@
 id: b1-demo-dd-031
 type: dropbox
 words:
-  - Diese
-  - Vorlesung
-  - war
-  - interessanter
+  - Dieses
+  - Projekt
+  - gefällt
+  - mir
+  - besser
   - als
-  - die
+  - das
   - andere
 ---
 

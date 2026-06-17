@@ -2,13 +2,11 @@
 id: b1-lokal-dd-044
 type: dropbox
 words:
-  - Die
-  - Klinik
-  - ist
-  - auf
-  - der
-  - dritten
-  - Etage
+  - Wir
+  - gehen
+  - über
+  - die
+  - Straße
 ---
 
 Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

@@ -2,13 +2,13 @@
 id: b1-akk-dd-032
 type: dropbox
 words:
-  - Sie
-  - kauft
-  - ein
-  - Ticket
-  - für
-  - den
-  - Zug
+  - Ich
+  - warte
+  - auf
+  - die
+  - Antwort
+  - der
+  - Personalabteilung
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ)

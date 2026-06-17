@@ -2,12 +2,11 @@
 id: b1-demo-dd-043
 type: dropbox
 words:
-  - Er
-  - vertraut
-  - jener
-  - Meinung
-  - seines
-  - Chefs
+  - Dieses
+  - Gesetz
+  - wurde
+  - gestern
+  - verabschiedet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

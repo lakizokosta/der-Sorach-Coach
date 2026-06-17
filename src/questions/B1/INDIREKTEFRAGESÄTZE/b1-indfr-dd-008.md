@@ -2,9 +2,10 @@
 id: b1-indfr-dd-008
 type: dropbox
 words:
-  - Ich
-  - frage
-  - mich
+  - Bitte
+  - sagen
+  - Sie
+  - mir
   - ob
   - er
   - recht

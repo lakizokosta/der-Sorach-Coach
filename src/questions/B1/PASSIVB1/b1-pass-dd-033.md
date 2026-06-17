@@ -2,12 +2,11 @@
 id: b1-pass-dd-033
 type: dropbox
 words:
-  - Das
-  - neue
-  - Gesetz
-  - wird
-  - morgen
-  - verabschiedet
+  - Die
+  - Patienten
+  - werden
+  - regelmäßig
+  - untersucht
 ---
 
 Ordne die Wörter zum richtigen Satz: (Passiv)

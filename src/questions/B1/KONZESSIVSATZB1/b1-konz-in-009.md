@@ -5,4 +5,4 @@ correct:
   - Obschon
 ---
 
-___ das Medikament teuer ist, kauft er es. (Konzessivsatz)
+___ das Medikament teuer ist, kauft er es. (Konzessivsatz — obwohl)

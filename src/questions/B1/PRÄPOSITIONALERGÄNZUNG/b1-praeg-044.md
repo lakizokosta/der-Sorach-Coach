@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Ich bestehe ___ einer klaren Antwort. (Verb + Präposition)
+Ich bestehe ___ einer klaren Antwort. (Präpositionalergänzung)

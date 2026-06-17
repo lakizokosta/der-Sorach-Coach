@@ -5,4 +5,4 @@ correct:
   - Falls
 ---
 
-___ du Fragen hast, schreib mir. (Konditionalsatz)
+___ du Fragen hast, schreib mir. (Konditionalsatz — wenn)

@@ -2,14 +2,14 @@
 id: b1-konz-dd-038
 type: dropbox
 words:
-  - Er
-  - ist
-  - müde
+  - Die
+  - Nachrichten
+  - sind
+  - negativ
   - trotzdem
-  - hat
+  - bleibt
   - er
-  - Überstunden
-  - gemacht
+  - optimistisch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

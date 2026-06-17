@@ -2,13 +2,14 @@
 id: b1-npv-dd-026
 type: dropbox
 words:
-  - Wir
-  - haben
-  - Zweifel
+  - Er
+  - hat
+  - Anteil
   - an
-  - der
-  - neuen
-  - Politik
+  - dem
+  - Erfolg
+  - des
+  - Teams
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

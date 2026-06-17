@@ -2,13 +2,11 @@
 id: b1-lokal-dd-027
 type: dropbox
 words:
-  - Die
-  - Klinik
-  - ist
+  - Er
+  - wohnt
   - auf
-  - der
-  - dritten
-  - Etage
+  - dem
+  - Land
 ---
 
 Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

@@ -2,12 +2,13 @@
 id: b1-akk-dd-045
 type: dropbox
 words:
-  - Der
-  - Minister
-  - erklärt
-  - die
-  - neue
-  - Politik
+  - Sie
+  - kauft
+  - ein
+  - Ticket
+  - für
+  - den
+  - Zug
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ)

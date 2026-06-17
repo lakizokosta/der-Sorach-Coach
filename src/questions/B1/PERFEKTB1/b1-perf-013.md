@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Sie ___ ein wichtiges Gespräch geführt. (Perfektform)
+Sie ___ ein wichtiges Gespräch geführt. (Perfekt + Hilfsverb haben)

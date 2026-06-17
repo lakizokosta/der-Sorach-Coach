@@ -2,13 +2,15 @@
 id: b1-indfr-dd-029
 type: dropbox
 words:
-  - Er
-  - fragt
+  - Sie
+  - erkundigt
+  - sich
   - ob
-  - wir
-  - schon
-  - gebucht
-  - haben
+  - der
+  - Professor
+  - heute
+  - da
+  - ist
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

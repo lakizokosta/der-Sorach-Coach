@@ -2,15 +2,12 @@
 id: b1-indfr-dd-048
 type: dropbox
 words:
-  - Sie
-  - erkundigt
-  - sich
+  - Er
+  - fragt
   - ob
-  - der
-  - Professor
-  - heute
-  - da
-  - ist
+  - wir
+  - morgen
+  - kommen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

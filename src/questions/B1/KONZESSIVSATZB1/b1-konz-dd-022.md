@@ -3,13 +3,14 @@ id: b1-konz-dd-022
 type: dropbox
 words:
   - Obwohl
-  - die
-  - Prüfung
-  - schwer
-  - war
+  - der
+  - Kollege
+  - kein
+  - Auto
   - hat
-  - sie
-  - bestanden
+  - kommt
+  - er
+  - pünktlich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

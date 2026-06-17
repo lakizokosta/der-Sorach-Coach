@@ -2,14 +2,14 @@
 id: b1-indfr-dd-024
 type: dropbox
 words:
-  - Er
-  - erkundigt
-  - sich
-  - wie
-  - viel
-  - die
-  - Behandlung
-  - kostet
+  - Kannst
+  - du
+  - prüfen
+  - ob
+  - das
+  - Medikament
+  - verfügbar
+  - ist
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

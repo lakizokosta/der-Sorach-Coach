@@ -2,12 +2,13 @@
 id: b1-erg-dd-023
 type: dropbox
 words:
-  - Ich
-  - glaube
+  - Wir
+  - sind
+  - überzeugt
   - dass
-  - die
-  - Nachrichten
-  - übertreiben
+  - das
+  - Projekt
+  - gelingt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

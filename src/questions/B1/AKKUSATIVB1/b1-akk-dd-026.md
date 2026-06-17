@@ -2,13 +2,12 @@
 id: b1-akk-dd-026
 type: dropbox
 words:
-  - Wir
-  - besuchen
-  - eine
-  - Ausstellung
-  - über
-  - erneuerbare
-  - Energien
+  - Der
+  - Minister
+  - erklärt
+  - die
+  - neue
+  - Politik
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ)

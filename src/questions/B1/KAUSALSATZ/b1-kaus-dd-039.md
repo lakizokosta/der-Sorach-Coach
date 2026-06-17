@@ -2,13 +2,15 @@
 id: b1-kaus-dd-039
 type: dropbox
 words:
-  - Da
-  - die
-  - Nachfrage
-  - steigt
-  - werden
-  - Preise
-  - höher
+  - Weil
+  - das
+  - Wetter
+  - schlecht
+  - ist
+  - fällt
+  - unser
+  - Fest
+  - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

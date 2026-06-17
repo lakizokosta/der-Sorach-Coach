@@ -2,15 +2,13 @@
 id: b1-kaus-dd-037
 type: dropbox
 words:
-  - Er
-  - kommt
-  - nicht
-  - mit
+  - Das
+  - Flugzeug
+  - hat
+  - Verspätung
   - weil
-  - er
-  - noch
-  - arbeiten
-  - muss
+  - es
+  - stürmt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

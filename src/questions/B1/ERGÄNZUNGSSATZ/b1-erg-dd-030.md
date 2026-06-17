@@ -2,14 +2,13 @@
 id: b1-erg-dd-030
 type: dropbox
 words:
-  - Es
-  - stimmt
+  - Wir
+  - wissen
   - dass
-  - Umweltschutz
-  - wichtig
-  - ist
-alternatives:
-  - dass,Umweltschutz,wichtig,ist,stimmt,Es
+  - die
+  - Entscheidung
+  - schwer
+  - war
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

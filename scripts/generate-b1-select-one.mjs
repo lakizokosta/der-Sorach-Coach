@@ -12,6 +12,9 @@ import { md } from './b1-select-one-shared.mjs';
 import * as G from './b1-select-one-data.mjs';
 import { verbFormHint } from './topic-context-hints.mjs';
 
+const FORCE = process.argv.includes('--force');
+const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
+
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B1');
 
 const TOPICS = {
@@ -37,7 +40,6 @@ const TOPICS = {
   PRÄPOSITIONENB1: { prefix: 'b1-praep', gen: G.genPraepositionenB1 },
   RELATIVSATZB1: { prefix: 'b1-rel', gen: G.genRelativsatzB1 },
   TRENNBAREVERBENB1: { prefix: 'b1-trenn', gen: G.genTrennbareVerbenB1 },
-  VERBPRÄPOSITIONVERBINDUNG: { prefix: 'b1-vpv', gen: G.genVerbPraeposition },
   VERNEINUNG: { prefix: 'b1-neg', gen: G.genVerneinung },
   VERBNOMENVERBINDUNGB1: { prefix: 'b1-vnv', gen: G.genVerbNomenVerbindungB1 },
   VERBLASSEN: { prefix: 'b1-lass', gen: G.genVerblassen },
@@ -54,7 +56,7 @@ function writeTopic(folder, prefix, questions) {
     if (!q) break;
     const num = String(i).padStart(3, '0');
     const file = join(dir, `${prefix}-${num}.md`);
-    if (existsSync(file)) continue;
+    if (!FORCE && existsSync(file)) continue;
     writeFileSync(file, md({ id: `${prefix}-${num}`, hint: verbFormHint(folder, '', q.correct, q.options), ...q }), 'utf8');
     written += 1;
   }
@@ -63,9 +65,10 @@ function writeTopic(folder, prefix, questions) {
 
 let total = 0;
 for (const [folder, { prefix, gen }] of Object.entries(TOPICS)) {
+  if (TOPIC_ARG && folder !== TOPIC_ARG) continue;
   const qs = gen();
   const n = writeTopic(folder, prefix, qs);
   total += n;
-  console.log(`${folder}: +${n} select-one`);
+  console.log(`${folder}: ${FORCE ? 'regen' : '+'}${n} select-one`);
 }
-console.log(`\nTotal new files: ${total}`);
+console.log(`\nTotal ${FORCE ? 'regenerated' : 'new'} files: ${total}`);

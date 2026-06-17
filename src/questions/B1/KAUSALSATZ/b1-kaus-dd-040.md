@@ -2,15 +2,16 @@
 id: b1-kaus-dd-040
 type: dropbox
 words:
-  - Sie
-  - kündigt
+  - Wir
+  - fahren
+  - mit
+  - dem
+  - Zug
   - weil
-  - sie
-  - eine
-  - bessere
-  - Stelle
-  - gefunden
-  - hat
+  - das
+  - Auto
+  - kaputt
+  - ist
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

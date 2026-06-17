@@ -2,7 +2,7 @@
 id: b1-erg-in-015
 type: input-text
 correct:
-  - dass
+  - ob
 ---
 
-Wir wissen, ___ die Entscheidung schwer war. (Ergänzungssatz)
+Wir möchten wissen, ___ der Termin noch frei ist. (Ergänzungssatz)

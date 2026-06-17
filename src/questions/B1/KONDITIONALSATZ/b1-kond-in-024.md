@@ -5,4 +5,4 @@ correct:
   - Falls
 ---
 
-___ du dich erkältest, bleib zu Hause. (Konditionalsatz)
+___ du dich erkältest, bleib zu Hause. (Konditionalsatz — wenn)

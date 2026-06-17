@@ -2,14 +2,15 @@
 id: b1-kadv-dd-032
 type: dropbox
 words:
-  - Wir
-  - brauchen
-  - Hilfe
-  - Deshalb
-  - rufen
-  - wir
-  - einen
-  - Experten
+  - Sie
+  - hat
+  - viel
+  - gelernt
+  - deshalb
+  - war
+  - die
+  - Prüfung
+  - leicht
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

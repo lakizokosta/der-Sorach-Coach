@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Das Haus ___ früher als Schule genutzt. (Passiv)
+Das Haus ___ früher als Schule genutzt. (Passiv + Hilfsverb werden)

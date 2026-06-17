@@ -3,11 +3,13 @@ id: b1-indfr-dd-049
 type: dropbox
 words:
   - Ich
-  - möchte
-  - wissen
+  - frage
+  - mich
   - was
-  - du
-  - denkst
+  - die
+  - neue
+  - Regelung
+  - bedeutet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

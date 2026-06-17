@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Das Projekt ___ gerade diskutiert. (Passiv)
+Das Projekt ___ gerade diskutiert. (Passiv + Hilfsverb werden)

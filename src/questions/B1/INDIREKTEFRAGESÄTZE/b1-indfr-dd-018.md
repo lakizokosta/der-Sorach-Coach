@@ -2,13 +2,12 @@
 id: b1-indfr-dd-018
 type: dropbox
 words:
-  - Ich
-  - weiß
-  - nicht
+  - Er
+  - fragt
   - ob
-  - der
-  - Termin
-  - stattfindet
+  - wir
+  - morgen
+  - kommen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

@@ -2,14 +2,14 @@
 id: b1-konz-dd-039
 type: dropbox
 words:
-  - Obwohl
-  - die
-  - Prüfung
-  - schwer
-  - war
-  - hat
-  - sie
-  - bestanden
+  - Obschon
+  - das
+  - Medikament
+  - teuer
+  - ist
+  - kauft
+  - er
+  - es
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

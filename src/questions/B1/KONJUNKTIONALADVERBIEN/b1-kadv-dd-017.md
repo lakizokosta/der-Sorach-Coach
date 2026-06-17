@@ -2,14 +2,15 @@
 id: b1-kadv-dd-017
 type: dropbox
 words:
-  - Er
+  - Sie
   - hat
   - viel
   - gelernt
   - deshalb
-  - bestand
-  - seine
+  - war
+  - die
   - Prüfung
+  - leicht
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

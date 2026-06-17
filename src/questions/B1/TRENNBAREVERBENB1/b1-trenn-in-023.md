@@ -2,7 +2,7 @@
 id: b1-trenn-in-023
 type: input-text
 correct:
-  - freuen
+  - laden
 ---
 
-Wir ___ uns schon auf die Reise. (Trennbares Verb)
+Wir ___ unsere Gäste herzlich ein. (Trennbares Verb)

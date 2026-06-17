@@ -2,9 +2,8 @@
 id: b1-indfr-dd-013
 type: dropbox
 words:
-  - Wir
-  - wissen
-  - nicht
+  - Niemand
+  - weiß
   - ob
   - das
   - Problem

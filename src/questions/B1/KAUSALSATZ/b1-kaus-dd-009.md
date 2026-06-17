@@ -8,8 +8,9 @@ words:
   - schlecht
   - ist
   - fällt
+  - unser
   - Fest
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

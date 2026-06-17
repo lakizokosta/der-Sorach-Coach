@@ -2,14 +2,14 @@
 id: b1-konz-dd-026
 type: dropbox
 words:
-  - Obschon
-  - das
-  - Medikament
-  - teuer
+  - Obwohl
+  - die
+  - Politik
+  - umstritten
   - ist
-  - kauft
-  - er
-  - es
+  - diskutieren
+  - viele
+  - Menschen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

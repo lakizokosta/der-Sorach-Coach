@@ -2,14 +2,12 @@
 id: b1-erg-dd-036
 type: dropbox
 words:
-  - Der
-  - Chef
-  - sagt
+  - Ich
+  - glaube
   - dass
-  - das
-  - Meeting
-  - verschoben
-  - wird
+  - die
+  - Nachrichten
+  - übertreiben
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

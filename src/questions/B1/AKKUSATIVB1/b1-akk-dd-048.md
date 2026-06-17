@@ -2,13 +2,14 @@
 id: b1-akk-dd-048
 type: dropbox
 words:
-  - Wir
-  - diskutieren
-  - das
-  - Problem
-  - gemeinsam
-  - im
-  - Team
+  - Sie
+  - bereitet
+  - eine
+  - Prüfung
+  - an
+  - der
+  - Universität
+  - vor
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ)

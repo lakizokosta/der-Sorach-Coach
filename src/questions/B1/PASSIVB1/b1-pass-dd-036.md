@@ -2,11 +2,12 @@
 id: b1-pass-dd-036
 type: dropbox
 words:
-  - Der
-  - Bericht
+  - Die
+  - Straße
   - wurde
-  - gestern
-  - veröffentlicht
+  - letztes
+  - Jahr
+  - renoviert
 ---
 
 Ordne die Wörter zum richtigen Satz: (Passiv)

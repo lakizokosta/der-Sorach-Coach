@@ -2,14 +2,15 @@
 id: b1-konz-dd-028
 type: dropbox
 words:
-  - Obwohl
+  - Obschon
   - die
-  - Politik
-  - umstritten
-  - ist
-  - diskutieren
-  - viele
-  - Menschen
+  - Vorlesung
+  - lang
+  - war
+  - blieb
+  - der
+  - Inhalt
+  - spannend
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

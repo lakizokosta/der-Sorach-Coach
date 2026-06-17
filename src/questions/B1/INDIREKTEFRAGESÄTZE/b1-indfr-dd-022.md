@@ -2,13 +2,14 @@
 id: b1-indfr-dd-022
 type: dropbox
 words:
-  - Sie
-  - möchte
-  - wissen
-  - wann
-  - der
-  - Kurs
-  - beginnt
+  - Er
+  - erkundigt
+  - sich
+  - wie
+  - viel
+  - die
+  - Behandlung
+  - kostet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

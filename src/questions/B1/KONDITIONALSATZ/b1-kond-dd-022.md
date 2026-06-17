@@ -2,14 +2,14 @@
 id: b1-kond-dd-022
 type: dropbox
 words:
-  - Wenn
-  - die
-  - Prüfung
-  - schwer
-  - ist
-  - bleibe
-  - ich
-  - ruhig
+  - Sobald
+  - der
+  - Arzt
+  - kommt
+  - warten
+  - wir
+  - im
+  - Wartezimmer
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

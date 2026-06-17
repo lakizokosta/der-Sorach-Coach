@@ -10,7 +10,6 @@ words:
   - reisen
   - viele
   - weiter
-  - viel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

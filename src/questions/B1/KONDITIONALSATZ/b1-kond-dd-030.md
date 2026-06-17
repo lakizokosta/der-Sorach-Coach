@@ -2,14 +2,12 @@
 id: b1-kond-dd-030
 type: dropbox
 words:
-  - Sobald
-  - die
-  - Ergebnisse
-  - da
-  - sind
-  - rufe
-  - ich
-  - an
+  - Falls
+  - etwas
+  - schiefgeht
+  - melde
+  - dich
+  - sofort
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

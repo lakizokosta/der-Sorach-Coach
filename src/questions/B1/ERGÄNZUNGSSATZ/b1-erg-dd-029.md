@@ -2,13 +2,14 @@
 id: b1-erg-dd-029
 type: dropbox
 words:
-  - Sie
-  - bestätigt
+  - Er
+  - merkt
   - dass
-  - der
-  - Flug
-  - pünktlich
-  - startet
+  - er
+  - einen
+  - Fehler
+  - gemacht
+  - hat
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

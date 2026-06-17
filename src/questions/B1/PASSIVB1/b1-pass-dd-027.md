@@ -2,10 +2,13 @@
 id: b1-pass-dd-027
 type: dropbox
 words:
-  - Der
-  - Termin
-  - wird
-  - verschoben
+  - Das
+  - Haus
+  - wurde
+  - früher
+  - als
+  - Schule
+  - genutzt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Passiv)

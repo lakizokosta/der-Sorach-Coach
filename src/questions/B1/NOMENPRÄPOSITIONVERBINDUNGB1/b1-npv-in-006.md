@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Sie hat Lust ___ eine Reise nach Spanien. (Nomen + Präposition)
+Sie hat Lust ___ einer Reise nach Spanien. (Nomen + Präposition)

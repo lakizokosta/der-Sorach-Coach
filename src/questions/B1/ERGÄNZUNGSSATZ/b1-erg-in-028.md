@@ -2,7 +2,7 @@
 id: b1-erg-in-028
 type: input-text
 correct:
-  - dass
+  - was
 ---
 
-Es stimmt, ___ Umweltschutz wichtig ist. (Ergänzungssatz)
+Mich interessiert, ___ du davon hältst. (Ergänzungssatz)

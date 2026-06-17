@@ -2,13 +2,13 @@
 id: b1-demo-dd-048
 type: dropbox
 words:
-  - Diese
-  - Vorlesung
-  - war
-  - interessanter
-  - als
-  - die
-  - andere
+  - Dieser
+  - Professor
+  - erklärt
+  - das
+  - Thema
+  - sehr
+  - verständlich
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

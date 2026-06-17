@@ -3,14 +3,14 @@ id: b1-kadv-dd-048
 type: dropbox
 words:
   - Sie
-  - hat
-  - wenig
-  - Erfahrung
-  - trotzdem
-  - bekommt
+  - spricht
+  - fließend
+  - Englisch
+  - Außerdem
+  - kann
   - sie
-  - die
-  - Stelle
+  - auch
+  - Französisch
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

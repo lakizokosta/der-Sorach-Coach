@@ -2,13 +2,12 @@
 id: b1-demo-dd-025
 type: dropbox
 words:
-  - Dieser
-  - Studiengang
-  - passt
-  - besser
-  - zu
-  - meinen
-  - Interessen
+  - Dieses
+  - Reiseziel
+  - empfehle
+  - ich
+  - dir
+  - besonders
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

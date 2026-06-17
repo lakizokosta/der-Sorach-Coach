@@ -2,15 +2,15 @@
 id: b1-fin-dd-034
 type: dropbox
 words:
-  - Sie
+  - Die
+  - Firma
   - spart
-  - Geld
+  - Energie
   - um
-  - nächstes
-  - Jahr
-  - reisen
+  - die
+  - Kosten
   - zu
-  - können
+  - senken
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — um Kosten senken)

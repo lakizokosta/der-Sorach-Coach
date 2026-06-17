@@ -5,4 +5,4 @@ correct:
   - Falls
 ---
 
-___ etwas schiefgeht, melde dich sofort. (Konditionalsatz)
+___ etwas schiefgeht, melde dich sofort. (Konditionalsatz — wenn)

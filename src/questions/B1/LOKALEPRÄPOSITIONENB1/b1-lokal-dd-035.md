@@ -2,13 +2,13 @@
 id: b1-lokal-dd-035
 type: dropbox
 words:
-  - Das
-  - Büro
-  - liegt
-  - direkt
-  - gegenüber
-  - dem
-  - Bahnhof
+  - Geh
+  - über
+  - die
+  - Brücke
+  - und
+  - dann
+  - links
 ---
 
 Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

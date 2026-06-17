@@ -2,12 +2,14 @@
 id: b1-kond-dd-023
 type: dropbox
 words:
-  - Falls
-  - du
-  - Fragen
-  - hast
-  - schreib
-  - mir
+  - Wenn
+  - das
+  - Gesetz
+  - verabschiedet
+  - wird
+  - ändert
+  - sich
+  - vieles
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

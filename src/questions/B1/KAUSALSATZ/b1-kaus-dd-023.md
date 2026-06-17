@@ -2,15 +2,15 @@
 id: b1-kaus-dd-023
 type: dropbox
 words:
-  - Sie
-  - kündigt
-  - weil
-  - sie
-  - eine
-  - bessere
-  - Stelle
-  - gefunden
+  - Er
+  - ist
+  - gestresst
+  - denn
+  - er
   - hat
+  - viel
+  - zu
+  - tun
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

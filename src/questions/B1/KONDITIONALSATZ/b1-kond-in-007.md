@@ -5,4 +5,4 @@ correct:
   - Sobald
 ---
 
-___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
+___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz — wenn)

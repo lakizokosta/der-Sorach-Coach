@@ -2,13 +2,14 @@
 id: b1-akk-dd-034
 type: dropbox
 words:
-  - Ich
-  - warte
-  - auf
+  - Er
+  - informiert
+  - seine
+  - Kollegen
+  - über
   - die
-  - Antwort
-  - der
-  - Personalabteilung
+  - neue
+  - Regelung
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ)

@@ -3,13 +3,14 @@ id: b1-konz-dd-043
 type: dropbox
 words:
   - Obschon
-  - das
-  - Medikament
-  - teuer
-  - ist
-  - kauft
-  - er
-  - es
+  - die
+  - Vorlesung
+  - lang
+  - war
+  - blieb
+  - der
+  - Inhalt
+  - spannend
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

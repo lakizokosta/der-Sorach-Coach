@@ -2,11 +2,11 @@
 id: b1-trenn-023
 type: select-one
 options:
-  - freue
-  - freuen
-  - gefreet
-  - freut
-correct: freuen
+  - lade
+  - laden
+  - laden ein
+  - lädt
+correct: laden
 ---
 
-Wir ___ uns schon auf die Reise. (Trennbares Verb)
+Wir ___ unsere Gäste herzlich ein. (Trennbares Verb)

@@ -84,7 +84,6 @@ export const TOPIC_FORM_HINT = {
   DEMONSTRATIVARTIKEL: 'Demonstrativartikel',
   NOMENPRÄPOSITIONVERBINDUNGA2: 'Nomen mit Präposition',
   NOMENPRÄPOSITIONVERBINDUNGB1: 'Nomen mit Präposition',
-  VERBPRÄPOSITIONVERBINDUNG: 'Verb mit Präposition',
   VERBNOMENVERBINDUNGB1: 'Verb-Nomen-Verbindung',
   SATZSTELLUNGA2: 'Satzstellung',
   TEKAMOLO: 'TeKaMoLo-Reihenfolge',

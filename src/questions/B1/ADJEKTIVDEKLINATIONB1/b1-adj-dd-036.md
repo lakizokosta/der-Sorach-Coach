@@ -2,15 +2,12 @@
 id: b1-adj-dd-036
 type: dropbox
 words:
-  - Der
-  - Chef
-  - präsentiert
-  - einen
-  - wichtigen
-  - Bericht
-  - vor
-  - der
-  - Abteilung
+  - Er
+  - diskutiert
+  - mit
+  - einer
+  - erfahrenen
+  - Politikerin
 ---
 
 Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

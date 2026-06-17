@@ -2,7 +2,7 @@
 id: b1-pradv-in-028
 type: input-text
 correct:
-  - daran
+  - darauf
 ---
 
-Nimmst du an der Konferenz teil? — Ich nehme ___. (Pronominaladverb)
+Hörst du auf gute Ratschläge? — Ich höre ___. (Pronominaladverb)

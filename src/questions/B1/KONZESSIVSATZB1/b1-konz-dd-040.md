@@ -2,15 +2,14 @@
 id: b1-konz-dd-040
 type: dropbox
 words:
-  - Das
-  - Projekt
-  - ist
-  - schwierig
+  - Es
+  - regnet
   - trotzdem
-  - geben
+  - fahren
   - wir
-  - nicht
-  - auf
+  - in
+  - den
+  - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

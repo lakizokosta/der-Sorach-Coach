@@ -5,4 +5,4 @@ correct:
   - meines
 ---
 
-Das ist das Auto ___ Professors. (Possessivartikelform)
+Das ist das Auto ___ Professors. (Possessivartikel — Possessivartikel)

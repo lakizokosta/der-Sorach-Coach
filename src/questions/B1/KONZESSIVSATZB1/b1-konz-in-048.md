@@ -5,4 +5,4 @@ correct:
   - Obschon
 ---
 
-___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz)
+___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz — obwohl)

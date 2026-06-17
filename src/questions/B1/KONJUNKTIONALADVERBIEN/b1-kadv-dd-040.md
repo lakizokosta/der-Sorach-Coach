@@ -2,15 +2,15 @@
 id: b1-kadv-dd-040
 type: dropbox
 words:
-  - Der
-  - Arzt
-  - riet
-  - zur
-  - Ruhe
+  - Das
+  - Hotel
+  - war
+  - laut
   - Trotzdem
-  - arbeitet
-  - er
-  - weiter
+  - haben
+  - wir
+  - gut
+  - geschlafen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

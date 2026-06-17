@@ -2,12 +2,13 @@
 id: b1-erg-dd-027
 type: dropbox
 words:
-  - Man
-  - hört
+  - Sie
+  - bestätigt
   - dass
-  - die
-  - Preise
-  - steigen
+  - der
+  - Flug
+  - pünktlich
+  - startet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

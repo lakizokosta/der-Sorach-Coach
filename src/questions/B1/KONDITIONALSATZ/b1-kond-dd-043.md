@@ -2,13 +2,14 @@
 id: b1-kond-dd-043
 type: dropbox
 words:
-  - Falls
-  - du
-  - dich
-  - erkältest
-  - bleib
-  - zu
-  - Hause
+  - Sobald
+  - die
+  - Ergebnisse
+  - da
+  - sind
+  - rufe
+  - ich
+  - an
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

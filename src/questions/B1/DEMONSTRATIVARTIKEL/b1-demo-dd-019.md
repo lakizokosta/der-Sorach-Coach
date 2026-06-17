@@ -2,14 +2,12 @@
 id: b1-demo-dd-019
 type: dropbox
 words:
-  - Diese
-  - Kollegin
-  - aus
-  - der
-  - Abteilung
-  - hilft
-  - mir
-  - oft
+  - Ich
+  - habe
+  - diese
+  - Nachrichten
+  - schon
+  - gelesen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

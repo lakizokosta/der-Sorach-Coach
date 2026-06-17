@@ -3,11 +3,11 @@ id: b1-lokal-dd-028
 type: dropbox
 words:
   - Das
-  - Museum
+  - Reisebüro
   - ist
-  - zwischen
-  - zwei
-  - Gebäuden
+  - in
+  - der
+  - Hauptstraße
 ---
 
 Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

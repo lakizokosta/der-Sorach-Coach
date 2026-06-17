@@ -2,11 +2,12 @@
 id: b1-demo-dd-030
 type: dropbox
 words:
-  - Dieses
-  - Gesetz
-  - wurde
-  - gestern
-  - verabschiedet
+  - Wir
+  - diskutieren
+  - diesen
+  - Vorschlag
+  - im
+  - Meeting
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

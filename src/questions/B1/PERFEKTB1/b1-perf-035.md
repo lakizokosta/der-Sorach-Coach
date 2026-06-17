@@ -9,4 +9,4 @@ options:
 correct: haben
 ---
 
-Die Studierenden ___ lange über das Thema diskutiert. (Perfektform)
+Die Studierenden ___ lange über das Thema diskutiert. (Perfekt + Hilfsverb haben)

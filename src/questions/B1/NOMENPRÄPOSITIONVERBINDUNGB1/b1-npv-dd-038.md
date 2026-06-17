@@ -2,12 +2,12 @@
 id: b1-npv-dd-038
 type: dropbox
 words:
-  - Die
-  - Firma
+  - Er
   - hat
-  - Bedarf
-  - an
-  - Fachkräften
+  - Erfolg
+  - bei
+  - der
+  - Prüfung
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

@@ -8,8 +8,6 @@ words:
   - ich
   - dir
   - besonders
-alternatives:
-  - ich,empfehle,dir,Dieses,Reiseziel,besonders
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

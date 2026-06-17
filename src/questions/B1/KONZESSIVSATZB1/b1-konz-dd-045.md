@@ -4,12 +4,12 @@ type: dropbox
 words:
   - Obwohl
   - die
-  - Politik
-  - umstritten
+  - Umwelt
+  - belastet
   - ist
-  - diskutieren
+  - reisen
   - viele
-  - Menschen
+  - weiter
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

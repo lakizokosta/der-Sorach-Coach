@@ -2,12 +2,12 @@
 id: b1-lokal-dd-032
 type: dropbox
 words:
-  - Der
-  - Park
-  - liegt
-  - hinter
-  - dem
-  - Wohnviertel
+  - Die
+  - Apotheke
+  - ist
+  - an
+  - der
+  - Ecke
 ---
 
 Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

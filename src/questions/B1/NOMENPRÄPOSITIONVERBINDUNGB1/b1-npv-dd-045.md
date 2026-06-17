@@ -2,14 +2,12 @@
 id: b1-npv-dd-045
 type: dropbox
 words:
-  - Er
+  - Sie
   - hat
-  - Anteil
-  - an
-  - dem
-  - Erfolg
-  - des
-  - Teams
+  - Angst
+  - vor
+  - großen
+  - Hunden
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

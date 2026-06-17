@@ -70,7 +70,6 @@ export const PREMIUM_TOPICS = {
     { key: 'PRÄPOSITIONENB1',               name: 'Präpositionen',          desc: 'Vertiefung' },
     { key: 'RELATIVSATZB1',                 name: 'Relativsätze',           desc: 'der, die, das' },
     { key: 'TRENNBAREVERBENB1',             name: 'Trennbare Verben',       desc: 'komplexe Nutzung' },
-    { key: 'VERBPRÄPOSITIONVERBINDUNG',     name: 'Verb + Präposition',     desc: 'denken an, warten auf' },
     { key: 'VERNEINUNG',                    name: 'Verneinung',             desc: 'kein, nicht' },
     { key: 'VERBNOMENVERBINDUNGB1',         name: 'Verb-Nomen-Verbindung',  desc: 'eine Entscheidung treffen' },
     { key: 'VERBLASSEN',                    name: 'Verben lassen',          desc: 'lassen + Infinitiv' },

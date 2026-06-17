@@ -5,4 +5,4 @@ correct:
   - seines
 ---
 
-Das ist die Entscheidung ___ Ministers. (Possessivartikelform)
+Das ist die Entscheidung ___ Ministers. (Possessivartikel — Possessivartikel)

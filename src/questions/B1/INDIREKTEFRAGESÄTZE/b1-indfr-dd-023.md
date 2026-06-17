@@ -2,14 +2,14 @@
 id: b1-indfr-dd-023
 type: dropbox
 words:
-  - Wir
-  - sind
-  - uns
-  - nicht
-  - sicher
+  - Bitte
+  - sagen
+  - Sie
+  - mir
   - ob
-  - das
-  - stimmt
+  - er
+  - recht
+  - hat
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

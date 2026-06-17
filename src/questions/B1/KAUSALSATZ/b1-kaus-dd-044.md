@@ -2,16 +2,15 @@
 id: b1-kaus-dd-044
 type: dropbox
 words:
-  - Wir
-  - fahren
-  - mit
-  - dem
-  - Zug
-  - weil
-  - das
-  - Auto
-  - kaputt
+  - Er
   - ist
+  - pünktlich
+  - denn
+  - der
+  - frühe
+  - Bus
+  - kam
+  - rechtzeitig
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

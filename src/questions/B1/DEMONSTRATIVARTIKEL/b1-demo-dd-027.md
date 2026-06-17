@@ -2,14 +2,13 @@
 id: b1-demo-dd-027
 type: dropbox
 words:
-  - Dieses
-  - Reiseziel
-  - empfehle
-  - ich
-  - dir
-  - besonders
-alternatives:
-  - ich,empfehle,dir,Dieses,Reiseziel,besonders
+  - Ich
+  - kenne
+  - jenen
+  - Politiker
+  - aus
+  - dem
+  - Fernsehen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

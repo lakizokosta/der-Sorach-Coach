@@ -2,15 +2,13 @@
 id: b1-indfr-dd-031
 type: dropbox
 words:
-  - Sie
-  - erkundigt
-  - sich
+  - Ich
+  - weiß
+  - nicht
   - ob
   - der
-  - Professor
-  - heute
-  - da
-  - ist
+  - Termin
+  - stattfindet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

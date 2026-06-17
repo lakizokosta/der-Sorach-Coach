@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Das neue Gesetz ___ morgen verabschiedet. (Passiv)
+Das neue Gesetz ___ morgen verabschiedet. (Passiv + Hilfsverb werden)

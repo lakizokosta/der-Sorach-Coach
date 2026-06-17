@@ -5,8 +5,8 @@ options:
   - dafür
   - darüber
   - damit
-  - daran
-correct: daran
+  - darauf
+correct: darauf
 ---
 
-Nimmst du an der Konferenz teil? — Ich nehme ___. (Pronominaladverb)
+Hörst du auf gute Ratschläge? — Ich höre ___. (Pronominaladverb)

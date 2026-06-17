@@ -3,13 +3,14 @@ id: b1-indfr-dd-044
 type: dropbox
 words:
   - Sie
-  - will
-  - wissen
-  - was
+  - erkundigt
+  - sich
+  - ob
   - der
-  - Minister
-  - gesagt
-  - hat
+  - Professor
+  - heute
+  - da
+  - ist
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

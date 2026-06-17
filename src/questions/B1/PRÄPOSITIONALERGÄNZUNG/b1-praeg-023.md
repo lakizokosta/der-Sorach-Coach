@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Wir hoffen ___ gutes Wetter. (Verb + Präposition)
+Wir hoffen ___ gutes Wetter. (Präpositionalergänzung)

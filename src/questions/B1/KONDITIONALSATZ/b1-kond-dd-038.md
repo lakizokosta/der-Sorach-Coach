@@ -3,13 +3,13 @@ id: b1-kond-dd-038
 type: dropbox
 words:
   - Wenn
-  - ich
-  - die
-  - Stelle
-  - bekomme
-  - ziehen
-  - wir
-  - um
+  - das
+  - Gesetz
+  - verabschiedet
+  - wird
+  - ändert
+  - sich
+  - vieles
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

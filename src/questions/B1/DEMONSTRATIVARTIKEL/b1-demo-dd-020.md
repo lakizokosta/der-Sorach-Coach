@@ -2,13 +2,13 @@
 id: b1-demo-dd-020
 type: dropbox
 words:
-  - Dieser
-  - Professor
-  - erklärt
-  - das
-  - Thema
-  - sehr
-  - verständlich
+  - Jenes
+  - Hotel
+  - war
+  - deutlich
+  - teurer
+  - als
+  - jenes
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

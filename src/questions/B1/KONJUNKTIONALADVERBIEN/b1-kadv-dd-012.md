@@ -8,6 +8,7 @@ words:
   - teuer
   - dennoch
   - blieb
+  - die
   - Qualität
   - hoch
 ---

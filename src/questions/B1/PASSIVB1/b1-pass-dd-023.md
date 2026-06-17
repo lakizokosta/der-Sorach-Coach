@@ -2,12 +2,12 @@
 id: b1-pass-dd-023
 type: dropbox
 words:
-  - Die
-  - Straße
-  - wurde
-  - letztes
-  - Jahr
-  - renoviert
+  - Alle
+  - Bewerbungen
+  - werden
+  - bis
+  - Freitag
+  - geprüft
 ---
 
 Ordne die Wörter zum richtigen Satz: (Passiv)

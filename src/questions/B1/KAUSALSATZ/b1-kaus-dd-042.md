@@ -2,14 +2,14 @@
 id: b1-kaus-dd-042
 type: dropbox
 words:
-  - Er
-  - ist
-  - gestresst
-  - denn
-  - zu
-  - viel
-  - Arbeit
-  - wartet
+  - Da
+  - die
+  - Politik
+  - sich
+  - ändert
+  - reagieren
+  - viele
+  - Bürger
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — da)

@@ -9,4 +9,4 @@ options:
 correct: für
 ---
 
-Wir danken Ihnen ___ Ihr Interesse an unserem Programm. (Grammatikform)
+Wir danken Ihnen ___ Ihr Interesse an unserem Programm.

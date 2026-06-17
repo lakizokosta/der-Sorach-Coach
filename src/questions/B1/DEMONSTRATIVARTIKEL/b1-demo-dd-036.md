@@ -2,14 +2,14 @@
 id: b1-demo-dd-036
 type: dropbox
 words:
-  - Diese
-  - Kollegin
-  - aus
+  - Dieser
+  - Artikel
+  - in
   - der
-  - Abteilung
-  - hilft
-  - mir
-  - oft
+  - Zeitung
+  - ist
+  - sehr
+  - aktuell
 ---
 
 Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

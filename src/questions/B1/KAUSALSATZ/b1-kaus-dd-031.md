@@ -2,16 +2,14 @@
 id: b1-kaus-dd-031
 type: dropbox
 words:
-  - Er
-  - ist
-  - pünktlich
-  - denn
-  - er
-  - hat
-  - den
-  - frühen
-  - Bus
-  - genommen
+  - Ich
+  - bleibe
+  - zu
+  - Hause
+  - weil
+  - ich
+  - krank
+  - bin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

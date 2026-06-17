@@ -2,14 +2,14 @@
 id: b1-konz-dd-024
 type: dropbox
 words:
-  - Obwohl
+  - Obschon
+  - das
+  - Medikament
+  - teuer
+  - ist
+  - kauft
   - er
-  - kein
-  - Auto
-  - hat
-  - bleibt
-  - Kollege
-  - pünktlich
+  - es
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

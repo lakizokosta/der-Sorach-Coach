@@ -4,10 +4,12 @@ type: dropbox
 words:
   - Wenn
   - du
-  - pünktlich
-  - bist
-  - beginnen
+  - morgen
+  - Zeit
+  - hast
+  - treffen
   - wir
+  - uns
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

@@ -2,13 +2,14 @@
 id: b1-kadv-dd-026
 type: dropbox
 words:
-  - Sie
-  - studiert
-  - Medizin
-  - Außerdem
-  - jobbt
-  - sie
-  - nebenbei
+  - Die
+  - Politik
+  - ändert
+  - sich
+  - deshalb
+  - reagieren
+  - die
+  - Bürger
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

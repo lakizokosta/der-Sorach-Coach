@@ -5,4 +5,4 @@ correct:
   - sind
 ---
 
-Wir ___ pünktlich am Flughafen angekommen. (Perfekt + Hilfsverb sein)
+Wir ___ pünktlich am Flughafen angekommen. (Perfekt + Hilfsverb haben)

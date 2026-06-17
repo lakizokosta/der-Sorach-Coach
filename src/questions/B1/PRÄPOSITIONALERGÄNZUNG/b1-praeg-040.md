@@ -9,4 +9,4 @@ options:
 correct: für
 ---
 
-Ich danke ___ deine Hilfe. (Verb + Präposition)
+Ich danke ___ deine Hilfe. (Präpositionalergänzung)

@@ -2,14 +2,14 @@
 id: b1-indfr-dd-040
 type: dropbox
 words:
-  - Wir
-  - sind
-  - uns
-  - nicht
-  - sicher
-  - ob
-  - das
-  - stimmt
+  - Sie
+  - will
+  - wissen
+  - was
+  - der
+  - Minister
+  - gesagt
+  - hat
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

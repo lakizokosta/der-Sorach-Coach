@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Studierende
   - die
+  - ihre
   - Prüfung
   - bestanden
   - haben

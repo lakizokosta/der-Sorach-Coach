@@ -2,14 +2,14 @@
 id: b1-kaus-dd-046
 type: dropbox
 words:
-  - Da
-  - die
-  - Politik
-  - sich
-  - ändert
-  - reagieren
-  - viele
-  - Bürger
+  - Ich
+  - bleibe
+  - zu
+  - Hause
+  - weil
+  - ich
+  - krank
+  - bin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

@@ -2,14 +2,14 @@
 id: b1-konz-dd-042
 type: dropbox
 words:
-  - Die
-  - Nachrichten
-  - sind
-  - negativ
+  - Sie
+  - hat
+  - wenig
+  - Zeit
   - trotzdem
-  - bleibt
-  - er
-  - optimistisch
+  - hilft
+  - sie
+  - uns
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

@@ -2,13 +2,12 @@
 id: b1-erg-dd-028
 type: dropbox
 words:
-  - Ich
-  - finde
-  - es
-  - gut
+  - Es
+  - stimmt
   - dass
-  - du
-  - mitkommst
+  - Umweltschutz
+  - wichtig
+  - ist
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

@@ -8,8 +8,6 @@ words:
   - Umweltschutz
   - wichtig
   - ist
-alternatives:
-  - dass,Umweltschutz,wichtig,ist,stimmt,Es
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

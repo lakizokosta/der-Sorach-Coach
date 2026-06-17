@@ -6,10 +6,11 @@ words:
   - ist
   - gestresst
   - denn
-  - zu
+  - er
+  - hat
   - viel
-  - Arbeit
-  - wartet
+  - zu
+  - tun
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

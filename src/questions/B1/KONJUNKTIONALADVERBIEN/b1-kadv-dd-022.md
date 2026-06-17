@@ -2,15 +2,14 @@
 id: b1-kadv-dd-022
 type: dropbox
 words:
-  - Ich
-  - war
-  - krank
-  - Deshalb
-  - habe
-  - ich
-  - die
-  - Vorlesung
-  - verpasst
+  - Die
+  - Nachrichten
+  - sind
+  - alarmierend
+  - Dennoch
+  - bleiben
+  - viele
+  - ruhig
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

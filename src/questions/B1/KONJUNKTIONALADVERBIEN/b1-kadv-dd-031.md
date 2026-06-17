@@ -2,15 +2,16 @@
 id: b1-kadv-dd-031
 type: dropbox
 words:
-  - Sie
-  - hat
-  - wenig
-  - Erfahrung
-  - trotzdem
-  - bekommt
-  - sie
-  - die
-  - Stelle
+  - Es
+  - regnete
+  - den
+  - ganzen
+  - Tag
+  - Trotzdem
+  - sind
+  - wir
+  - spazieren
+  - gegangen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

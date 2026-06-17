@@ -3,12 +3,12 @@ id: b1-akk-dd-039
 type: dropbox
 words:
   - Wir
-  - lesen
-  - den
-  - Bericht
+  - besuchen
+  - eine
+  - Ausstellung
   - über
-  - die
-  - Klimakonferenz
+  - erneuerbare
+  - Energien
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ)

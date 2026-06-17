@@ -2,15 +2,13 @@
 id: b1-indfr-dd-043
 type: dropbox
 words:
-  - Kannst
-  - du
-  - prüfen
+  - Niemand
+  - weiß
   - ob
   - das
-  - Medikament
-  - verfügbar
-  - ist
-  - ?
+  - Problem
+  - gelöst
+  - wird
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

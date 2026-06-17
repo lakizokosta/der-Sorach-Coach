@@ -2,14 +2,14 @@
 id: b1-konz-dd-030
 type: dropbox
 words:
-  - Obschon
+  - Obwohl
   - die
-  - Vorlesung
-  - lang
-  - war
-  - blieb
-  - Kursinhalt
-  - spannend
+  - Umwelt
+  - belastet
+  - ist
+  - reisen
+  - viele
+  - weiter
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Die Straße ___ letztes Jahr renoviert. (Passiv)
+Die Straße ___ letztes Jahr renoviert. (Passiv + Hilfsverb werden)

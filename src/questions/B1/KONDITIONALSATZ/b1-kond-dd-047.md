@@ -2,14 +2,14 @@
 id: b1-kond-dd-047
 type: dropbox
 words:
-  - Sobald
-  - die
-  - Ergebnisse
-  - da
-  - sind
-  - rufe
-  - ich
-  - an
+  - Falls
+  - es
+  - regnet
+  - nehmen
+  - wir
+  - einen
+  - Schirm
+  - mit
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

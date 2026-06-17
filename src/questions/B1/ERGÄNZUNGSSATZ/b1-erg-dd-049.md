@@ -2,13 +2,14 @@
 id: b1-erg-dd-049
 type: dropbox
 words:
-  - Wir
-  - wissen
+  - Es
+  - ist
+  - klar
   - dass
-  - die
-  - Entscheidung
-  - schwer
-  - war
+  - wir
+  - mehr
+  - Zeit
+  - brauchen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

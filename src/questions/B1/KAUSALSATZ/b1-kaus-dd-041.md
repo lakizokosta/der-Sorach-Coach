@@ -2,13 +2,14 @@
 id: b1-kaus-dd-041
 type: dropbox
 words:
-  - Das
-  - Flugzeug
-  - hat
-  - Verspätung
-  - weil
+  - Die
+  - Straßen
+  - sind
+  - nass
+  - denn
   - es
-  - stürmt
+  - hat
+  - geregnet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

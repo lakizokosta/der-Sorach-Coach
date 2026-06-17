@@ -4,11 +4,10 @@ type: dropbox
 words:
   - Wir
   - haben
-  - Zweifel
-  - an
-  - der
-  - neuen
-  - Politik
+  - Einfluss
+  - auf
+  - die
+  - Entscheidung
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

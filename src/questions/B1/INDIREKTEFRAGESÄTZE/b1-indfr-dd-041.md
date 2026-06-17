@@ -2,14 +2,14 @@
 id: b1-indfr-dd-041
 type: dropbox
 words:
-  - Er
-  - erkundigt
-  - sich
+  - Ich
+  - bin
+  - gespannt
   - wie
-  - viel
+  - lange
   - die
-  - Behandlung
-  - kostet
+  - Reise
+  - dauert
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

@@ -2,15 +2,14 @@
 id: b1-kadv-dd-023
 type: dropbox
 words:
-  - Der
-  - Arzt
-  - riet
-  - zur
-  - Ruhe
-  - Trotzdem
-  - arbeitet
+  - Er
+  - hat
+  - Überstunden
+  - gemacht
+  - Deshalb
+  - ist
   - er
-  - weiter
+  - müde
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

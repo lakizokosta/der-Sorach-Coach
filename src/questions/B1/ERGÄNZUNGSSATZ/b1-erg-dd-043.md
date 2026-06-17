@@ -2,13 +2,11 @@
 id: b1-erg-dd-043
 type: dropbox
 words:
-  - Die
-  - Professorin
-  - erklärt
+  - Es
+  - stimmt
   - dass
-  - der
-  - Kurs
-  - anspruchsvoll
+  - Umweltschutz
+  - wichtig
   - ist
 ---
 

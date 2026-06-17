@@ -2,15 +2,14 @@
 id: b1-konz-dd-020
 type: dropbox
 words:
-  - Obschon
-  - das
-  - Essen
-  - teuer
+  - Obwohl
+  - die
+  - Prüfung
+  - schwer
   - war
   - hat
-  - es
-  - gut
-  - geschmeckt
+  - sie
+  - bestanden
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

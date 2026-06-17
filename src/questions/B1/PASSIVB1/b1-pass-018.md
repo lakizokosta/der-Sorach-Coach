@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Patienten ___ regelmäßig untersucht. (Passiv)
+Die Patienten ___ regelmäßig untersucht. (Passiv + Hilfsverb werden)

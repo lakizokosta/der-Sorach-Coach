@@ -2,14 +2,14 @@
 id: b1-konz-dd-025
 type: dropbox
 words:
-  - Die
-  - Nachrichten
-  - sind
-  - negativ
+  - Es
+  - regnet
   - trotzdem
-  - bleibt
-  - er
-  - optimistisch
+  - fahren
+  - wir
+  - in
+  - den
+  - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

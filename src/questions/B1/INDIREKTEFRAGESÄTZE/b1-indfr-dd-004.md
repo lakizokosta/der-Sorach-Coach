@@ -3,9 +3,8 @@ id: b1-indfr-dd-004
 type: dropbox
 words:
   - Ich
-  - interessiere
+  - frage
   - mich
-  - dafür
   - was
   - die
   - neue

@@ -2,7 +2,7 @@
 id: b1-erg-in-036
 type: input-text
 correct:
-  - dass
+  - ob
 ---
 
-Ich glaube, ___ die Nachrichten übertreiben. (Ergänzungssatz)
+Sie fragt mich, ___ ich die Hausaufgabe gemacht habe. (Ergänzungssatz)

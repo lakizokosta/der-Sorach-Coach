@@ -2,11 +2,12 @@
 id: b1-lokal-dd-041
 type: dropbox
 words:
-  - Fahren
-  - Sie
-  - durch
-  - den
-  - Tunnel
+  - Das
+  - Museum
+  - ist
+  - zwischen
+  - zwei
+  - Gebäuden
 ---
 
 Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

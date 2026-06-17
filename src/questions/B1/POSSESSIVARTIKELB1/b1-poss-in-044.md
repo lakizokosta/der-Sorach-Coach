@@ -5,4 +5,4 @@ correct:
   - unserer
 ---
 
-Das ist das Ziel ___ Partei. (Possessivartikelform)
+Das ist das Ziel ___ Partei. (Possessivartikel — Possessivartikel)

@@ -2,14 +2,14 @@
 id: b1-erg-dd-050
 type: dropbox
 words:
-  - Ich
-  - finde
+  - Der
+  - Arzt
+  - meint
   - dass
-  - die
-  - neue
-  - Regelung
-  - sinnvoll
-  - ist
+  - du
+  - mehr
+  - schlafen
+  - solltest
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

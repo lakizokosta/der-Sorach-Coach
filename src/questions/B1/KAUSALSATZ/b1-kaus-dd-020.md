@@ -2,15 +2,14 @@
 id: b1-kaus-dd-020
 type: dropbox
 words:
-  - Er
-  - kommt
-  - nicht
-  - mit
-  - weil
-  - er
-  - noch
-  - arbeiten
-  - muss
+  - Da
+  - die
+  - Nachfrage
+  - steigt
+  - werden
+  - auch
+  - Preise
+  - höher
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — da)

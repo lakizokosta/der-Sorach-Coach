@@ -6,12 +6,11 @@ words:
   - ist
   - pünktlich
   - denn
-  - er
-  - hat
-  - den
-  - frühen
+  - der
+  - frühe
   - Bus
-  - genommen
+  - kam
+  - rechtzeitig
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

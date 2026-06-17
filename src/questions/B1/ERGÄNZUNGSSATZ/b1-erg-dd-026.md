@@ -2,14 +2,13 @@
 id: b1-erg-dd-026
 type: dropbox
 words:
-  - Die
-  - Professorin
-  - erklärt
+  - Ich
+  - finde
+  - es
+  - gut
   - dass
-  - der
-  - Kurs
-  - anspruchsvoll
-  - ist
+  - du
+  - mitkommst
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

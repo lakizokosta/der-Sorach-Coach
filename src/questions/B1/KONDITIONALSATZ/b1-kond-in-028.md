@@ -5,4 +5,4 @@ correct:
   - Sobald
 ---
 
-___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz)
+___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz — wenn)

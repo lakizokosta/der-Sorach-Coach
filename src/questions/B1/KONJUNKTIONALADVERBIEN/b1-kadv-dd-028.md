@@ -2,14 +2,14 @@
 id: b1-kadv-dd-028
 type: dropbox
 words:
-  - Die
-  - Politik
-  - ändert
-  - sich
+  - Er
+  - spart
+  - Energie
   - deshalb
-  - reagieren
-  - die
-  - Bürger
+  - senkt
+  - er
+  - seine
+  - Kosten
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

@@ -2,14 +2,15 @@
 id: b1-kadv-dd-047
 type: dropbox
 words:
-  - Er
-  - spart
-  - Energie
+  - Sie
+  - hat
+  - viel
+  - gelernt
   - deshalb
-  - senkt
-  - er
-  - seine
-  - Kosten
+  - war
+  - die
+  - Prüfung
+  - leicht
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

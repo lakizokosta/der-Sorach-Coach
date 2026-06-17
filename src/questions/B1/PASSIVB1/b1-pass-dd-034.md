@@ -2,11 +2,11 @@
 id: b1-pass-dd-034
 type: dropbox
 words:
-  - Der
-  - Bericht
-  - wurde
-  - gestern
-  - veröffentlicht
+  - Das
+  - Projekt
+  - wird
+  - gerade
+  - diskutiert
 ---
 
 Ordne die Wörter zum richtigen Satz: (Passiv)

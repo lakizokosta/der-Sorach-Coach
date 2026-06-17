@@ -67,7 +67,6 @@ const TOPIC_LABEL = {
   PRÄPOSITIONALERGÄNZUNG: 'Präpositionalergänzung',
   PRÄPOSITIONALADVERBIEN: 'Pronominaladverb',
   POSSESSIVARTIKELB1: 'Possessivartikel',
-  VERBPRÄPOSITIONVERBINDUNG: 'Verb + Präposition',
   VERNEINUNG: 'Verneinung',
   VERBNOMENVERBINDUNGB1: 'Verb-Nomen-Verbindung',
   VERBLASSEN: 'Verben lassen',

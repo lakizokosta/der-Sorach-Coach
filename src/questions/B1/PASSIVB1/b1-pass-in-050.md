@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Die Tickets ___ online verkauft. (Passiv)
+Die Tickets ___ online verkauft. (Passiv + Hilfsverb werden)
