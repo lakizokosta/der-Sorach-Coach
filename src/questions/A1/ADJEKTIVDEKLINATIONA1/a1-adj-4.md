@@ -6,7 +6,7 @@ options:
   - neuer
   - neues
   - neuen
-correct: neues
+correct: neue
 ---
 
 Das ___ Auto ist schnell. (Adjektivendung)

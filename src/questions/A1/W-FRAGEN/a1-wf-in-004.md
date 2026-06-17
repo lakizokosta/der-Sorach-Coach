@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ beginnt der Kurs? — Um 9 Uhr. (Frage nach Zeit)
-

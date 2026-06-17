@@ -2,7 +2,7 @@
 id: a1-dat-in-027
 type: input-text
 correct:
-  - meinen Freunden
+  - meinen
 ---
 
-Mit ___ Freunden esse ich gern. (Dativ — meine Freunde, Dat.)
+Mit ___ Freunden esse ich gern. (Dativ — Dat.)

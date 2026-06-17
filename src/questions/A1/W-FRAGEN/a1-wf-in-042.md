@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Größe hast du? — Größe M. (Frage nach Größe)
-

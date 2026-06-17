@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ warst du im Urlaub? — In Spanien. (Frage nach Ort)
-

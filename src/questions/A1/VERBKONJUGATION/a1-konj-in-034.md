@@ -5,4 +5,4 @@ correct:
   - wohnen
 ---
 
-Sie ___ in Hamburg. (Präsens + Verb wohnen — sie (Pl.))
+Sie ___ in Hamburg. (Präsens + Verb wohnen)

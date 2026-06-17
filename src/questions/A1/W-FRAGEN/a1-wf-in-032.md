@@ -2,8 +2,7 @@
 id: a1-wf-in-032
 type: input-text
 correct:
-  - Wie warm
+  - Wie viel
 ---
 
-___ ist es heute draußen? — 20 Grad. (Frage nach Temperatur)
-
+___ Grad sind es heute? — 20 Grad. (Frage nach Temperatur)

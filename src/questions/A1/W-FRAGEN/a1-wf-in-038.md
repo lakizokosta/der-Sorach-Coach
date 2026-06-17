@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Straße ist das? — Die Goethestraße. (Frage nach Name)
-

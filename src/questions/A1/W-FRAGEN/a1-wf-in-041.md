@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Zimmer ist das? — Das Schlafzimmer. (Frage nach Raum)
-

@@ -5,4 +5,4 @@ correct:
   - geht
 ---
 
-Sie ___ in die Stadt. (Präsens + Verb gehen — sie (Fem.))
+Sie ___ in die Stadt. (Präsens + Verb gehen)

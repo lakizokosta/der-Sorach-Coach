@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ wohnst du? — In München. (Frage nach Ort)
-

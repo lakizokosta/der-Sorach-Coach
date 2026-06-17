@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ kostet das Brot? — 2 Euro. (Frage nach Preis)
-

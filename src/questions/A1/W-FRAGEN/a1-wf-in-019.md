@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ spielst du Fußball? — Im Park. (Frage nach Ort)
-

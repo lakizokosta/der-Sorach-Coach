@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ gehst du jetzt? — Nach Hause. (Frage nach Ziel)
-

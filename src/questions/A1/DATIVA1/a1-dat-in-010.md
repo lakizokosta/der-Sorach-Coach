@@ -2,7 +2,7 @@
 id: a1-dat-in-010
 type: input-text
 correct:
-  - meiner Mutter
+  - meiner
 ---
 
-Ich kaufe ___ Mutter eine Karte. (Dativ — meine Mutter, Dat.)
+Ich kaufe ___ Mutter eine Karte. (Dativ — Dat.)

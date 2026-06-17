@@ -2,7 +2,7 @@
 id: a1-dat-in-029
 type: input-text
 correct:
-  - Regen
+  - dem
 ---
 
-Bei ___ Regen bleibe ich drinnen. (Dativ — Dat.)
+Bei ___ Sturm bleibe ich drinnen. (Dativ — Dat.)

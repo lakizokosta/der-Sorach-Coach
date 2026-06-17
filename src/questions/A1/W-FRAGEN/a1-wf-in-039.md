@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Lehrer hast du? — Herr Müller. (Frage nach Person)
-

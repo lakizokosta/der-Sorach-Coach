@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ kaufst du ein? — Ein Geschenk. (Frage nach Sache)
-

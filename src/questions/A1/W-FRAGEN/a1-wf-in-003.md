@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ fährst du? — Nach Hamburg. (Frage nach Ziel)
-

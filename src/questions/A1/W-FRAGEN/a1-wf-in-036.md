@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Geschmack magst du? — Süß. (Frage nach Eigenschaft)
-

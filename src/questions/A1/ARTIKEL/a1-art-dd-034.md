@@ -8,4 +8,4 @@ words:
   - Kaffee
 ---
 
-Ordne die Wörter zum richtigen Satz: (Artikel — keinen Kaffee)
+Ordne die Wörter zum richtigen Satz: (Negation — keinen Kaffee)

@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ alt ist dein Bruder? — 12 Jahre. (Frage nach Alter)
-

@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Farbe magst du? — Blau. (Frage nach Farbe)
-

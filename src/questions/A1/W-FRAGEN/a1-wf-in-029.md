@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ oft liest du? — Jeden Tag. (Frage nach Häufigkeit)
-

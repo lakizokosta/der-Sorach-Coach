@@ -54,8 +54,8 @@ for (const [folder, { prefix, bank }] of Object.entries(TOPICS)) {
       errors.push(e.message);
       return;
     }
-    const prefix = DROPBOX_KEEP_THEME.has(item.theme) ? `[${item.theme}] ` : '';
-    const prompt = `${prefix}Ordne die Wörter zum richtigen Satz: (${item.hint})`;
+    const themePrefix = DROPBOX_KEEP_THEME.has(item.theme) ? `[${item.theme}] ` : '';
+    const prompt = `${themePrefix}Ordne die Wörter zum richtigen Satz: (${item.hint})`;
     writeFileSync(path, md(`${prefix}-${num}`, prompt, item.words), 'utf8');
     n += 1;
     total += 1;

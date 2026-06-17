@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ fährt der Bus? — Um halb neun. (Frage nach Zeit)
-

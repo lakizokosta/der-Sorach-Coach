@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ kommst du? — Um 18 Uhr. (Frage nach Zeit)
-

@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ ist das? — Mein Bruder. (Frage nach Person)
-

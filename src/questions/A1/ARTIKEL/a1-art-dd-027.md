@@ -8,4 +8,4 @@ words:
   - Problem
 ---
 
-Ordne die Wörter zum richtigen Satz: (Artikel — kein Problem)
+Ordne die Wörter zum richtigen Satz: (Negation — kein Problem)

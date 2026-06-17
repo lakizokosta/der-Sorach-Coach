@@ -153,7 +153,7 @@ export const VERBKONJUGATION = [
   { theme: 'Zuhause', hint: 'Verb — kochen, sie', words: ['Sie', 'kocht', 'das', 'Essen'] },
   { theme: 'Reisen', hint: 'Verb — packen, ich', words: ['Ich', 'packe', 'meinen', 'Koffer'] },
   { theme: 'Gesundheit', hint: 'Verb — ruhen, er', words: ['Er', 'ruht', 'sich', 'aus'] },
-  { theme: 'Tiere', hint: 'Verb — streicheln, ich', words: ['Ich', 'streiche', 'die', 'Katze'] },
+  { theme: 'Tiere', hint: 'Verb — streicheln, ich', words: ['Ich', 'streichle', 'die', 'Katze'] },
   { theme: 'Kleidung', hint: 'Verb — anziehen, du', words: ['Du', 'ziehst', 'dich', 'an'] },
   { theme: 'Einkaufen', hint: 'Verb — finden, wir', words: ['Wir', 'finden', 'ein', 'Angebot'] },
   { theme: 'Musik', hint: 'Verb — üben, ich', words: ['Ich', 'übe', 'jeden', 'Tag'] },

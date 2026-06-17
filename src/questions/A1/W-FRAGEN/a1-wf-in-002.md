@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ kommst du? — Aus Polen. (Frage nach Herkunft)
-

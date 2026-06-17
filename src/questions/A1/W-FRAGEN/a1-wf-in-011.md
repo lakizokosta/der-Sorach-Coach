@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ ist der Bahnhof? — Dort drüben. (Frage nach Ort)
-

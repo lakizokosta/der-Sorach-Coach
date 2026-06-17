@@ -2,11 +2,11 @@
 id: a1-poss-040
 type: select-one
 options:
-  - ihr
+  - unsere
   - unserem
-  - meine
-  - euer
+  - unserer
+  - unser
 correct: unserem
 ---
 
-Im Sommer arbeite ich in ___ Büro. (Possessivartikel — wir, neutr., Dat.)
+Ich arbeite in ___ Büro. (Possessivartikel — wir, neutr., Dat.)

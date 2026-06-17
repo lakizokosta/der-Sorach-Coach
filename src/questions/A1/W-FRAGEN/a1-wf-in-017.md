@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ hat heute Geburtstag? — Meine Schwester. (Frage nach Person)
-

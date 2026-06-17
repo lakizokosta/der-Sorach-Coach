@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ kennst du ihn? — Aus der Schule. (Frage nach Herkunft des Kennenlernens)
-

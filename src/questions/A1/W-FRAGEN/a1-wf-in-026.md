@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ ist dein Lieblingsfach? — Deutsch. (Frage nach Fach)
-

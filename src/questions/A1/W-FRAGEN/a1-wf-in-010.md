@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ ist das Wetter? — Schön und warm. (Frage nach Zustand)
-

@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Team gewinnt? — Unser Team. (Frage nach Person/Team)
-

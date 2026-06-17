@@ -2,7 +2,7 @@
 id: a1-dat-in-022
 type: input-text
 correct:
-  - meiner Oma
+  - meiner
 ---
 
-Ich schenke ___ Oma Blumen. (Dativ — meine Oma, Dat.)
+Ich schenke ___ Oma Blumen. (Dativ — Dat.)

@@ -3,7 +3,7 @@
  */
 
 import { BANK as A2_BANK } from './a2-input-text-data.mjs';
-import { BANK as A1_BANK } from './generate-a1-input-text.mjs';
+import { BANK as A1_BANK } from './a1-input-text-data.mjs';
 import { BANK as B2_BANK } from './b2-input-text-data.mjs';
 import {
   genKonjunktiv2,

@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ isst du gern? — Pizza. (Frage nach Essen)
-

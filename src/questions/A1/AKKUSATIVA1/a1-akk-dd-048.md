@@ -6,6 +6,7 @@ words:
   - führe
   - den
   - Hund
+  - spazieren
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — den Hund spazieren führen)

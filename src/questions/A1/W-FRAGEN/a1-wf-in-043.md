@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ fühlst du dich? — Gut. (Frage nach Befinden)
-

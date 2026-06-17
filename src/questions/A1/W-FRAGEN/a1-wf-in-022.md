@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ trinkst du zum Frühstück? — Tee. (Frage nach Getränk)
-

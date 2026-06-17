@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ arbeitest du? — In einem Büro. (Frage nach Ort)
-

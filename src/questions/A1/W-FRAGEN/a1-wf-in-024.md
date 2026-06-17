@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ tut dir weh? — Der Kopf. (Frage nach Körperteil)
-

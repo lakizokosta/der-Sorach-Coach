@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Lied singst du? — Ein deutsches Lied. (Frage nach Lied)
-

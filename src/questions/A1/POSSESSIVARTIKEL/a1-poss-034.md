@@ -2,9 +2,9 @@
 id: a1-poss-034
 type: select-one
 options:
-  - meine
-  - ihre
-  - seinen
+  - unseren
+  - unserem
+  - unserer
   - unsere
 correct: unsere
 ---

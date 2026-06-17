@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Tier ist das? — Ein Hund. (Frage nach Tierart)
-

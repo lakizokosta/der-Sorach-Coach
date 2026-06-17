@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ liegt der Supermarkt? — In der Hauptstraße. (Frage nach Ort)
-

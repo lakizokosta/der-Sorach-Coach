@@ -5,4 +5,4 @@ correct:
   - gutes
 ---
 
-Das ist mein ___ Buch. (Adjektivdeklination — gut, neutr., Nom.)
+Das ist mein ___ Buch. (Adjektivdeklination — neutr., Nom.)

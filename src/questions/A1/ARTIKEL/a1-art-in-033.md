@@ -5,4 +5,4 @@ correct:
   - keinen
 ---
 
-Es gibt ___ Wind heute. (Artikel — mask.)
+Es gibt ___ Wind heute. (Artikel)

@@ -2,7 +2,7 @@
 id: a1-dat-in-041
 type: input-text
 correct:
-  - der Verkäuferin
+  - der
 ---
 
 Ich danke ___ netten Verkäuferin. (Dativ — Dat.)

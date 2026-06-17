@@ -5,4 +5,4 @@ correct:
   - keinen
 ---
 
-Er trinkt ___ Kaffee. (Artikel — mask.)
+Er trinkt ___ Kaffee. (Artikel)

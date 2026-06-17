@@ -5,6 +5,7 @@ words:
   - Bei
   - Regen
   - gehe
+  - ich
   - ins
   - Haus
 ---

@@ -2,7 +2,7 @@
 id: a1-dat-in-036
 type: input-text
 correct:
-  - meinem Freund
+  - meinem
 ---
 
-Ich vertraue ___ Freund. (Dativ — mein Freund, Dat.)
+Ich vertraue ___ Freund. (Dativ — Dat.)

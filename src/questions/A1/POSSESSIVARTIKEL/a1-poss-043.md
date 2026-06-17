@@ -2,10 +2,10 @@
 id: a1-poss-043
 type: select-one
 options:
-  - seinen
-  - deinem
-  - ihre
   - dein
+  - deinem
+  - deiner
+  - deinen
 correct: deinem
 ---
 

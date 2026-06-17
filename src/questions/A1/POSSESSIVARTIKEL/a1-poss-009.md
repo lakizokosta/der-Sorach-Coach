@@ -4,8 +4,8 @@ type: select-one
 options:
   - ihren
   - ihre
-  - dein
-  - meinem
+  - ihr
+  - ihrem
 correct: ihre
 ---
 

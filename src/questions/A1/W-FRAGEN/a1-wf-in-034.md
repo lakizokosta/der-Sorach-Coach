@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Instrument spielst du? — Gitarre. (Frage nach Sache)
-

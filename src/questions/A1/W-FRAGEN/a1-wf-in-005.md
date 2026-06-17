@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ heißt du? — Anna. (Frage nach Name)
-

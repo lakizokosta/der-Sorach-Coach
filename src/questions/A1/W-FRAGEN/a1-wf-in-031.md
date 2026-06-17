@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ lange arbeitest du? — Acht Stunden. (Frage nach Dauer)
-

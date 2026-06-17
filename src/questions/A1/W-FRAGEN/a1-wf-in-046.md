@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Sport machst du? — Tennis. (Frage nach Sportart)
-

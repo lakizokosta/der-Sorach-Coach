@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ Eltern hast du? — Zwei. (Frage nach Anzahl)
-

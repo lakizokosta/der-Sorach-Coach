@@ -2,7 +2,7 @@
 id: a1-dat-in-049
 type: input-text
 correct:
-  - meinem Vater
+  - meinem
 ---
 
-Ich kaufe ___ Vater ein Geschenk. (Dativ — mein Vater, Dat.)
+Ich kaufe ___ Vater ein Geschenk. (Dativ — Dat.)

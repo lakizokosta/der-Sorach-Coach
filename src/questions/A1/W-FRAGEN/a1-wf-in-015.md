@@ -6,4 +6,3 @@ correct:
 ---
 
 ___ ist dein Hobby? — Musik. (Frage nach Sache)
-

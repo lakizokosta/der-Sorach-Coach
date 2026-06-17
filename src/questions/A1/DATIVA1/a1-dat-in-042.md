@@ -2,7 +2,7 @@
 id: a1-dat-in-042
 type: input-text
 correct:
-  - meiner Schwester
+  - meiner
 ---
 
-Mit ___ Schwester spiele ich Karten. (Dativ — meine Schwester, Dat.)
+Mit ___ Schwester spiele ich Karten. (Dativ — Dat.)

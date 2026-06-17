@@ -5,4 +5,4 @@ correct:
   - Euer
 ---
 
-___ Team gewinnt heute. (Possessivartikel — ihr, mask., Nom.)
+___ Team gewinnt heute. (Possessivartikel — ihr, neutr., Nom.)

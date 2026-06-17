@@ -5,4 +5,4 @@ correct:
   - kein
 ---
 
-Es gibt ___ Problem. (Artikel — neutr.)
+Es gibt ___ Problem. (Artikel)
