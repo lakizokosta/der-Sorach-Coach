@@ -10,4 +10,4 @@ words:
   - Fest
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — bereitet)
+Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb vorbereiten)

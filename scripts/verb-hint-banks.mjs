@@ -232,19 +232,24 @@ const MODAL_ROOTS = /^(?:kann|kannst|könn|muss|musst|müss|soll|sollst|sollt|da
 export function finiteToInfinitive(word) {
   const w = String(word).toLowerCase().trim();
   const map = {
-    wasche: 'waschen', wäscht: 'waschen', wäschst: 'waschen',
-    freut: 'freuen', freue: 'freuen', freust: 'freuen',
-    beeilt: 'beeilen', beeile: 'beeilen', beeilst: 'beeilen',
+    wasche: 'waschen', wäscht: 'waschen', wäschst: 'waschen', gewaschen: 'waschen',
+    freut: 'freuen', freue: 'freuen', freust: 'freuen', gefreut: 'freuen', gefreuen: 'freuen',
+    beeilt: 'beeilen', beeile: 'beeilen', beeilst: 'beeilen', beeilte: 'beeilen',
     interessiere: 'interessieren', interessiert: 'interessieren', interessierst: 'interessieren',
-    sieht: 'sehen', sehe: 'sehen', siehst: 'sehen',
+    sieht: 'sehen', sehe: 'sehen', siehst: 'sehen', sah: 'sehen', sahst: 'sehen', sahen: 'sehen', gesehen: 'sehen', sehen: 'sehen',
     fühle: 'fühlen', fühlt: 'fühlen', fühlst: 'fühlen',
     verletzt: 'verletzen', verletze: 'verletzen', verletzest: 'verletzen',
     kümmert: 'kümmern', kümmere: 'kümmern',
     bereitet: 'vorbereiten', bereite: 'vorbereiten',
-    ziehst: 'anziehen', zieht: 'anziehen',
-    erholen: 'erholen', treffen: 'treffen', sehen: 'sehen',
+    ziehst: 'anziehen', zieht: 'anziehen', zog: 'anziehen', angezogen: 'anziehen',
+    treffe: 'treffen', triffst: 'treffen', trifft: 'treffen', trafen: 'treffen',
+    traf: 'treffen', trafst: 'treffen', getroffen: 'treffen', treffen: 'treffen',
+    erholen: 'erholen', erhole: 'erholen', erholt: 'erholen',
+    ruhe: 'ausruhen', ruht: 'ausruhen', ruhst: 'ausruhen', ausgeruht: 'ausruhen',
+    erkälte: 'erkälten', erkältet: 'erkälten', erkältest: 'erkälten',
   };
   if (map[w]) return map[w];
+  if (/^ge\w+(en|t)$/i.test(w)) return '';
   if (/(?:en|eln|ern)$/i.test(w)) return w;
   if (w.endsWith('st') || w.endsWith('t')) return `${w.slice(0, -1)}en`;
   return '';

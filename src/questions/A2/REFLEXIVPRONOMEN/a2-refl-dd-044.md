@@ -11,4 +11,4 @@ words:
   - Rücken
 ---
 
-Ordne die Wörter zum richtigen Satz: (Reflexiv — verletzt)
+Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb verletzen)

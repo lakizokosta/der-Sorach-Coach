@@ -9,4 +9,4 @@ options:
 correct: auf der
 ---
 
-Er wohnt ___ der anderen Seite der Brücke. (Lokale Präposition)
+Er wohnt ___ anderen Seite der Brücke. (Lokale Präposition)

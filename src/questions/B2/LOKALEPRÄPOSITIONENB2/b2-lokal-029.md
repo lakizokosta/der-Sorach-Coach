@@ -4,9 +4,9 @@ type: select-one
 options:
   - zur
   - in die
-  - bei die
+  - durch die
   - auf die
 correct: auf die
 ---
 
-Wir fahren ___ die Autobahn Richtung Süden. (Lokale Präposition)
+Wir fahren ___ Autobahn Richtung Süden. (Lokale Präposition)

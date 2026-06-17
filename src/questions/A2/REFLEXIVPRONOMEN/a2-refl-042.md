@@ -9,4 +9,4 @@ options:
 correct: freue
 ---
 
-Ich ___ mich auf den Urlaub. (Reflexiv + Verb gefreuen)
+Ich ___ mich auf den Urlaub. (Reflexiv + Verb freuen)

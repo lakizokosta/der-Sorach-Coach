@@ -9,4 +9,4 @@ options:
 correct: sollst
 ---
 
-Du ___ dich ausruhen. (Modalverb + Verb …)
+Du ___ dich ausruhen. (Modalverb + Verb ausruhen)

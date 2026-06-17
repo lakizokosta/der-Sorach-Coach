@@ -161,23 +161,23 @@ export function genKonzessivsatzB2() {
 
 export function genLokalePraepositionenB2() {
   return bank([
-    ['Das Büro befindet sich direkt ___ dem Marktplatz.', 'am', ['in dem', 'im', 'zum', 'vom']],
+    ['Das Büro befindet sich direkt ___ Marktplatz.', 'am', ['im', 'zum', 'vom', 'beim']],
     ['Er ging die Treppe ___ .', 'hinauf', ['hinauf die', 'die hinauf', 'auf die', 'hoch die']],
-    ['Die Universität liegt ___ der Stadtgrenze.', 'an der', ['in der', 'auf der', 'bei der', 'zur']],
-    ['Wir treffen uns ___ der Ecke Hauptstraße und Parkweg.', 'an der', ['in der', 'auf der', 'bei der', 'zur']],
-    ['Das Hotel liegt ___ dem See.', 'am', ['in dem', 'im', 'zum', 'vom']],
-    ['Er wohnt ___ der anderen Seite der Brücke.', 'auf der', ['an der', 'in der', 'bei der', 'zur']],
-    ['Die Fabrik steht ___ dem Flussufer.', 'am', ['in dem', 'im', 'zum', 'vom']],
+    ['Die Universität liegt ___ Stadtgrenze.', 'an der', ['in der', 'auf der', 'bei der', 'zur']],
+    ['Wir treffen uns ___ Ecke Hauptstraße und Parkweg.', 'an der', ['in der', 'auf der', 'bei der', 'zur']],
+    ['Das Hotel liegt ___ See.', 'am', ['im', 'zum', 'vom', 'beim']],
+    ['Er wohnt ___ anderen Seite der Brücke.', 'auf der', ['an der', 'in der', 'bei der', 'zur']],
+    ['Die Fabrik steht ___ Flussufer.', 'am', ['im', 'zum', 'vom', 'beim']],
     ['Sie ging den Gang ___ bis zum Ende.', 'entlang', ['entlang den', 'den entlang', 'am entlang', 'zum entlang']],
-    ['Das Geschäft ist ___ der Fußgängerzone.', 'in der', ['an der', 'auf der', 'bei der', 'zur']],
+    ['Das Geschäft ist ___ Fußgängerzone.', 'in der', ['an der', 'auf der', 'bei der', 'zur']],
     ['Er stellte das Fahrrad ___ das Haus.', 'vor', ['vors', 'vorm', 'vor dem', 'zu']],
-    ['Die Kinder spielen ___ dem Hof.', 'auf dem', ['an dem', 'in dem', 'bei dem', 'zum']],
-    ['Wir fahren ___ die Autobahn Richtung Süden.', 'auf die', ['an die', 'in die', 'bei die', 'zur']],
-    ['Das Bild hängt ___ der Wand über dem Sofa.', 'an der', ['in der', 'auf der', 'bei der', 'zur']],
+    ['Die Kinder spielen ___ Hof.', 'auf dem', ['an dem', 'in dem', 'bei dem', 'zum']],
+    ['Wir fahren ___ Autobahn Richtung Süden.', 'auf die', ['an die', 'in die', 'durch die', 'zur']],
+    ['Das Bild hängt ___ Wand über dem Sofa.', 'an der', ['in der', 'auf der', 'bei der', 'zur']],
     ['Er ging ___ das Gebäude herum.', 'um', ['ums', 'um dem', 'beim', 'in das']],
-    ['Die Apotheke ist gleich ___ der Post.', 'neben der', ['neben die', 'bei der', 'an der', 'zur']],
+    ['Die Apotheke ist gleich ___ Post.', 'neben der', ['neben die', 'bei der', 'an der', 'zur']],
     ['Sie wohnt ___ des Stadtzentrums in einem ruhigen Viertel.', 'außerhalb', ['innerhalb', 'oberhalb', 'unterhalb', 'diesseits']],
-    ['Das Dorf liegt ___ der Berge.', 'zwischen den', ['unter den', 'über den', 'an den', 'bei den']],
+    ['Das Dorf liegt ___ Bergen.', 'zwischen den', ['unter den', 'über den', 'an den', 'bei den']],
   ], 71);
 }
 

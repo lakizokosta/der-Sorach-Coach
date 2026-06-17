@@ -2,11 +2,11 @@
 id: b2-lokal-007
 type: select-one
 options:
+  - zum
   - im
-  - in dem
   - am
-  - vom
+  - beim
 correct: am
 ---
 
-Die Fabrik steht ___ dem Flussufer. (Lokale Präposition)
+Die Fabrik steht ___ Flussufer. (Lokale Präposition)

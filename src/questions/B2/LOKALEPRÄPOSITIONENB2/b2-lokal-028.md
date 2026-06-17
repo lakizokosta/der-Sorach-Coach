@@ -9,4 +9,4 @@ options:
 correct: auf dem
 ---
 
-Die Kinder spielen ___ dem Hof. (Lokale Präposition)
+Die Kinder spielen ___ Hof. (Lokale Präposition)

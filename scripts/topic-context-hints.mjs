@@ -206,6 +206,8 @@ function isLikelyLemma(word) {
   if (!w || PERSON_MARK.test(w) || /form$/i.test(w)) return false;
   if (IRREGULAR_INF.has(w)) return true;
   if (FINITE_EN_FORMS.has(w) || SEIN_FORMS.has(w) || HABEN_FORMS.has(w)) return false;
+  // Partizip II (ge-X-en / ge-X-t) is not a lemma.
+  if (/^ge\w+(en|t)$/.test(w)) return false;
   return /(?:en|eln|ern)$/i.test(w);
 }
 
@@ -259,7 +261,12 @@ export function extractInfinitiveFromOptions(options, correct) {
     if (IRREGULAR_INF.has(o.toLowerCase())) return o.toLowerCase();
   }
 
-  const infinitives = opts.filter((o) => isLikelyLemma(o));
+  // Filter out Partizip II forms (ge-*-en / ge-*-t) — they're not infinitives.
+  const infinitives = opts.filter((o) => {
+    const lo = String(o).toLowerCase();
+    if (/^ge\w+(en|t)$/.test(lo)) return false;
+    return isLikelyLemma(o);
+  });
 
   if (infinitives.length === 1) return infinitives[0].toLowerCase();
   if (infinitives.length > 1) {

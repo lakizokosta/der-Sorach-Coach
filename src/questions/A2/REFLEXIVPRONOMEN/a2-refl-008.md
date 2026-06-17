@@ -9,4 +9,4 @@ options:
 correct: können
 ---
 
-Wir ___ uns freuen. (Modalverb + Verb …)
+Wir ___ uns freuen. (Modalverb + Verb freuen)

@@ -2,12 +2,9 @@
 id: b1-rel-dd-024
 type: dropbox
 words:
-  - Der
-  - Artikel
+  - Der Artikel
   - der
-  - in
-  - der
-  - Zeitung
+  - in der Zeitung
   - stand
   - war
   - interessant

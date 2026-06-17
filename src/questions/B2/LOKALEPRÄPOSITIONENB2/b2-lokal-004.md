@@ -9,4 +9,4 @@ options:
 correct: an der
 ---
 
-Wir treffen uns ___ der Ecke Hauptstraße und Parkweg. (Lokale Präposition)
+Wir treffen uns ___ Ecke Hauptstraße und Parkweg. (Lokale Präposition)

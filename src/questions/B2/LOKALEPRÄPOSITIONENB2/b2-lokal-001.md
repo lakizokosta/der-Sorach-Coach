@@ -2,11 +2,11 @@
 id: b2-lokal-001
 type: select-one
 options:
-  - im
   - zum
   - vom
+  - beim
   - am
 correct: am
 ---
 
-Das Büro befindet sich direkt ___ dem Marktplatz. (Lokale Präposition)
+Das Büro befindet sich direkt ___ Marktplatz. (Lokale Präposition)

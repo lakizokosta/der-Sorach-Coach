@@ -2,11 +2,11 @@
 id: b2-lokal-005
 type: select-one
 options:
-  - im
   - zum
   - vom
+  - beim
   - am
 correct: am
 ---
 
-Das Hotel liegt ___ dem See. (Lokale Präposition)
+Das Hotel liegt ___ See. (Lokale Präposition)

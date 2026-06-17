@@ -9,4 +9,4 @@ options:
 correct: neben der
 ---
 
-Die Apotheke ist gleich ___ der Post. (Lokale Präposition)
+Die Apotheke ist gleich ___ Post. (Lokale Präposition)

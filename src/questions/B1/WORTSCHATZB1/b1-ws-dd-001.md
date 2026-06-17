@@ -2,12 +2,9 @@
 id: b1-ws-dd-001
 type: dropbox
 words:
-  - Nach
-  - der
-  - Operation
+  - Nach der Operation
   - braucht
-  - der
-  - Patient
+  - der Patient
   - Rehabilitation
 ---
 

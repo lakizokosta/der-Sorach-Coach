@@ -9,4 +9,4 @@ options:
 correct: zwischen den
 ---
 
-Das Dorf liegt ___ der Berge. (Lokale Präposition)
+Das Dorf liegt ___ Bergen. (Lokale Präposition)

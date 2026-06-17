@@ -393,7 +393,7 @@ const BANK_RAW = {
     { hint: 'Relativsatz', words: ['Der', 'Minister', 'dessen', 'Entscheidung', 'umstritten', 'ist', 'spricht', 'heute'] },
     { hint: 'Relativsatz', words: ['Studierende', 'die', 'ihre', 'Prüfung', 'bestanden', 'haben', 'feiern', 'heute'] },
     { hint: 'Relativsatz', words: ['Das', 'Medikament', 'das', 'er', 'braucht', 'ist', 'teuer'] },
-    { hint: 'Relativsatz', allowDuplicateWords: true, words: ['Der', 'Artikel', 'der', 'in', 'der', 'Zeitung', 'stand', 'war', 'interessant'] },
+    { hint: 'Relativsatz', words: ['Der Artikel', 'der', 'in der Zeitung', 'stand', 'war', 'interessant'] },
     { hint: 'Relativsatz', words: ['Die', 'Firma', 'für', 'die', 'er', 'arbeitet', 'wächst', 'schnell'] },
     { hint: 'Relativsatz', words: ['Der', 'Arzt', 'dem', 'ich', 'vertraue', 'ist', 'erfahren'] },
     { hint: 'Relativsatz', words: ['Die', 'Reise', 'die', 'wir', 'gebucht', 'haben', 'beginnt', 'morgen'] },
@@ -475,7 +475,7 @@ const BANK_RAW = {
   ],
 
   WORTSCHATZB1: [
-    { hint: 'Wortschatz B1', allowDuplicateWords: true, words: ['Nach', 'der', 'Operation', 'braucht', 'der', 'Patient', 'Rehabilitation'] },
+    { hint: 'Wortschatz B1', words: ['Nach der Operation', 'braucht', 'der Patient', 'Rehabilitation'] },
     { hint: 'Wortschatz B1', words: ['Die', 'Sicherheit', 'der', 'Arbeitsplätze', 'ist', 'ein', 'wichtiges', 'Thema'] },
     { hint: 'Wortschatz B1', words: ['Der', 'Journalist', 'berichtet', 'über', 'internationale', 'Ereignisse'] },
     { hint: 'Wortschatz B1', words: ['Wir', 'müssen', 'den', 'Ausstoß', 'senken', 'um', 'die', 'Umwelt', 'zu', 'schützen'] },

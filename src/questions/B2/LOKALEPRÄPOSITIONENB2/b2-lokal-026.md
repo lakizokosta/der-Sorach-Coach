@@ -9,4 +9,4 @@ options:
 correct: in der
 ---
 
-Das Geschäft ist ___ der Fußgängerzone. (Lokale Präposition)
+Das Geschäft ist ___ Fußgängerzone. (Lokale Präposition)

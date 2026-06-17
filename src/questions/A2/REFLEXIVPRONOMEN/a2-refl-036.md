@@ -9,4 +9,4 @@ options:
 correct: musst
 ---
 
-Du ___ dich anziehen. (Modalverb + Verb …)
+Du ___ dich anziehen. (Modalverb + Verb anziehen)
