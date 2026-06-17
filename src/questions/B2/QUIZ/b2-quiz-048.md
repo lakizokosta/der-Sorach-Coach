@@ -9,4 +9,4 @@ options:
 correct: werde
 ---
 
-Sie sagte, sie ___ den Vertrag unterschreiben. (Grammatikform)
+Er meinte, er ___ morgen früher kommen. (Grammatikform)

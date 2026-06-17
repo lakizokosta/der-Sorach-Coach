@@ -3,10 +3,10 @@ id: b2-quiz-016
 type: select-one
 options:
   - wird
-  - wurde
   - würde
-  - worden
+  - wurde
+  - geworden
 correct: wurde
 ---
 
-Der Termin ___ verschoben. (Grammatikform)
+Das Gebäude ___ 1920 erbaut. (Grammatikform)

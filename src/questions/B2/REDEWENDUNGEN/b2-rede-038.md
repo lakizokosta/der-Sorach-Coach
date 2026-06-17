@@ -9,4 +9,4 @@ options:
 correct: voll
 ---
 
-Sie hat die Nase voll — sie hat die Nase ___ . (Grammatikform)
+Sie hat von der Arbeit die Nase ___ . (Grammatikform)

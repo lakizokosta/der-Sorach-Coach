@@ -2,7 +2,7 @@
 id: b2-konsek-027
 type: select-one
 options:
-  - sodass
+  - weil
   - dass
   - obwohl
   - damit

@@ -13,6 +13,9 @@ import { getBank, INPUT_TOPICS } from './b2-input-text-data.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B2');
 
+const FORCE = process.argv.includes('--force');
+const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
+
 const PREFIX = {
   GENITIVB2: 'b2-genit-in',
   FUTURI: 'b2-fut-in',
@@ -27,6 +30,7 @@ const PREFIX = {
 
 let total = 0;
 for (const folder of INPUT_TOPICS) {
+  if (TOPIC_ARG && folder !== TOPIC_ARG) continue;
   const prefix = PREFIX[folder];
   const bank = getBank(folder);
   mkdirSync(join(ROOT, folder), { recursive: true });
@@ -34,11 +38,11 @@ for (const folder of INPUT_TOPICS) {
   bank.slice(0, 50).forEach((q, i) => {
     const num = String(i + 1).padStart(3, '0');
     const path = join(ROOT, folder, `${prefix}-${num}.md`);
-    if (existsSync(path)) return;
+    if (!FORCE && existsSync(path)) return;
     writeFileSync(path, md(`${prefix}-${num}`, q.prompt, q.correct), 'utf8');
     n += 1;
     total += 1;
   });
-  console.log(`${folder}: +${n} input-text`);
+  console.log(`${folder}: ${FORCE ? 'regen ' : '+'}${n} input-text`);
 }
-console.log(`\nTotal new input-text files: ${total}`);
+console.log(`\nTotal ${FORCE ? 'regenerated' : 'new'} input-text files: ${total}`);

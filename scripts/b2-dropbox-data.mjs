@@ -71,8 +71,8 @@ const TEKAMOLO_RAW = [
     codes: ['_', '_', 'T', 'T', 'K', 'K', 'K', 'M', 'L', 'L'],
   },
   {
-    hint: 'TeKaMoLo — heute / wegen Gäste / aufwendig / in der Küche',
-    words: ['Er', 'kocht', 'heute', 'wegen', 'der', 'Gäste', 'aufwendig', 'in', 'seiner', 'Küche'],
+    hint: 'TeKaMoLo — heute / wegen Gäste / aufwendig / in unserer Küche',
+    words: ['Er', 'kocht', 'heute', 'wegen', 'der', 'Gäste', 'aufwendig', 'in', 'unserer', 'Küche'],
     codes: ['_', '_', 'T', 'K', 'K', 'K', 'M', 'L', 'L', 'L'],
   },
   {

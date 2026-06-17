@@ -2,11 +2,11 @@
 id: b2-quiz-038
 type: select-one
 options:
-  - folglich
   - außerdem
+  - daher
   - dennoch
-  - deshalb
-correct: dennoch
+  - dagegen
+correct: daher
 ---
 
-Die Lage ist ernst; ___ bleiben wir optimistisch. (Grammatikform)
+Er hat recht; ___ sollten wir zuhören. (Grammatikform)

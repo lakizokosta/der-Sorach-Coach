@@ -4,9 +4,9 @@ type: select-one
 options:
   - Er trainiert im Park morgens aus gesundheitlichen Gründen regelmäßig.
   - Er trainiert morgens aus gesundheitlichen Gründen regelmäßig im Park.
-  - Im Park trainiert er morgens regelmäßig aus gesundheitlichen Gründen.
-  - Aus gesundheitlichen Gründen trainiert er morgens regelmäßig im Park.
+  - Er trainiert regelmäßig morgens im Park aus gesundheitlichen Gründen.
+  - Er trainiert aus gesundheitlichen Gründen morgens regelmäßig im Park.
 correct: Er trainiert morgens aus gesundheitlichen Gründen regelmäßig im Park.
 ---
 
-Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
+Welche Satzstellung folgt der TeKaMoLo-Reihenfolge? (TeKaMoLo-Reihenfolge)

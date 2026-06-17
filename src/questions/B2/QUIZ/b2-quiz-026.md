@@ -2,11 +2,11 @@
 id: b2-quiz-026
 type: select-one
 options:
-  - würden
-  - werden
   - sollten
-  - wollten
+  - werden
+  - würden
+  - könnten
 correct: werden
 ---
 
-Die Experten ___ die Ergebnisse nächste Woche veröffentlichen. (Grammatikform)
+Die Verhandlungen ___ vermutlich länger dauern als geplant. (Grammatikform)

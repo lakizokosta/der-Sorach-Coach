@@ -3,10 +3,10 @@ id: b2-quiz-009
 type: select-one
 options:
   - worden
-  - würde
+  - werden
   - geworden
-  - wurde
-correct: wurde
+  - wurden
+correct: werden
 ---
 
-Das Gesetz ___ gestern vom Parlament verabschiedet. (Grammatikform)
+Die Daten ___ sorgfältig ausgewertet. (Grammatikform)

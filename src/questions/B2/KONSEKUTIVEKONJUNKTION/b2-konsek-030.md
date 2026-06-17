@@ -3,7 +3,7 @@ id: b2-konsek-030
 type: select-one
 options:
   - damit
-  - sodass
+  - obwohl
   - dass
   - weil
 correct: dass

@@ -2,11 +2,11 @@
 id: b2-quiz-033
 type: select-one
 options:
-  - trotzdem
-  - deshalb
-  - dagegen
-  - dennoch
-correct: deshalb
+  - folglich
+  - außerdem
+  - dann
+  - jedoch
+correct: jedoch
 ---
 
-Die Kosten sind gestiegen; ___ müssen wir sparen. (Grammatikform)
+Das Angebot ist attraktiv; ___ prüfen wir es genau. (Grammatikform)

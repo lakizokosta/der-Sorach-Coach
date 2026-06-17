@@ -2,11 +2,11 @@
 id: b2-quiz-042
 type: select-one
 options:
-  - war
+  - würde
   - wäre
-  - sei
-  - ist
-correct: sei
+  - werde
+  - wird
+correct: werde
 ---
 
-Die Ministerin betonte, die Reform ___ notwendig. (Grammatikform)
+Sie sagte, sie ___ den Vertrag unterschreiben. (Grammatikform)

@@ -2,11 +2,11 @@
 id: b2-genit-027
 type: select-one
 options:
-  - ihren
-  - ihre
-  - ihrer
-  - ihres
-correct: ihrer
+  - einen
+  - ein
+  - eines
+  - einer
+correct: eines
 ---
 
-Sie erinnert sich gern ___ Jugend. (Genitivform)
+Sie bedarf ___ besonderen Schutzes. (Genitivform)

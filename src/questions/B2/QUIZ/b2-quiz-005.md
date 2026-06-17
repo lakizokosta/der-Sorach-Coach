@@ -2,11 +2,11 @@
 id: b2-quiz-005
 type: select-one
 options:
-  - hatte
-  - haben
-  - habe
-  - hätte
-correct: hätte
+  - war
+  - ist
+  - wäre
+  - würde
+correct: wäre
 ---
 
-Wenn sie mehr Zeit ___, könnte sie das Projekt abschließen. (Grammatikform)
+Wenn das Wetter besser ___, würden wir wandern gehen. (Grammatikform)

@@ -3,10 +3,10 @@ id: b2-quiz-011
 type: select-one
 options:
   - worden
-  - wurden
-  - werden
+  - würden
   - geworden
-correct: werden
+  - wurden
+correct: wurden
 ---
 
-Neue Regeln ___ derzeit diskutiert. (Grammatikform)
+Die Verhandlungen ___ erfolgreich abgeschlossen. (Grammatikform)

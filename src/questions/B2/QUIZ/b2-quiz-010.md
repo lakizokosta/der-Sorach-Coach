@@ -2,11 +2,11 @@
 id: b2-quiz-010
 type: select-one
 options:
-  - wäre
-  - ist
+  - wurde
   - wird
-  - war
-correct: ist
+  - würde
+  - worden
+correct: wird
 ---
 
-Die Entscheidung ___ bereits getroffen worden. (Grammatikform)
+Das Projekt ___ von der EU gefördert. (Grammatikform)

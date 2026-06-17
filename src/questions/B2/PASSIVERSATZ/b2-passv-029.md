@@ -2,11 +2,11 @@
 id: b2-passv-029
 type: select-one
 options:
-  - erklärend
-  - erklären
-  - erklärtes
-  - erklärt
-correct: erklären
+  - bedienend
+  - bedienen
+  - bedientes
+  - bedient
+correct: bedienen
 ---
 
-Das Thema ist zu komplex, um es kurz zu ___ . (Grammatikform)
+Die Maschine ist leicht zu ___ . (Grammatikform)

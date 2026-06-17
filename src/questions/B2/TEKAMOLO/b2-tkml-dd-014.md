@@ -10,7 +10,7 @@ words:
   - Gäste
   - aufwendig
   - in
-  - seiner
+  - unserer
   - Küche
 codes:
   - _
@@ -25,4 +25,4 @@ codes:
   - L
 ---
 
-Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Gäste / aufwendig / in der Küche)
+Ordne die Wörter zum richtigen Satz: (TeKaMoLo — heute / wegen Gäste / aufwendig / in unserer Küche)

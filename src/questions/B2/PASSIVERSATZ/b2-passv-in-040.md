@@ -5,4 +5,4 @@ correct:
   - beantworten
 ---
 
-Die Frage ist schwer zu ___ . (Passiversatz)
+Die Frage ist schwer zu ___ . (beantworten)

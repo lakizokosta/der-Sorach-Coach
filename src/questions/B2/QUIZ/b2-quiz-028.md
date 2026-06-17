@@ -2,11 +2,11 @@
 id: b2-quiz-028
 type: select-one
 options:
-  - würde
+  - wäre
   - hätte
   - wird
-  - könnten
+  - würde
 correct: wird
 ---
 
-Sie ___ vermutlich die Prüfung mit Auszeichnung bestehen. (Grammatikform)
+Die Firma ___ nächstes Jahr neue Stellen schaffen. (Grammatikform)

@@ -2,11 +2,11 @@
 id: b2-quiz-004
 type: select-one
 options:
-  - war
-  - werde
-  - wäre
-  - bin
-correct: wäre
+  - Könnten
+  - Könntest
+  - Kannst
+  - Kann
+correct: Könntest
 ---
 
-An deiner Stelle ___ ich vorsichtiger. (Grammatikform)
+___ du mir helfen, wäre ich sehr dankbar. (Grammatikform)

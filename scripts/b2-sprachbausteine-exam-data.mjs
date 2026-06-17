@@ -293,7 +293,7 @@ export const TEIL2 = [
     gaps: [
       { options: ['weiterhin', 'sofort', 'rückwirkend'], correct: 'weiterhin' },
       { options: ['850', '85', '8500'], correct: '850' },
-      { options: ['jährlich', 'monatlich', 'stündlich'], correct: 'jährlich' },
+      { options: ['jährlich', 'einmalig', 'stündlich'], correct: 'jährlich' },
       { options: ['schriftlich', 'mündlich', 'telepathisch'], correct: 'schriftlich' },
       { options: ['per Post', 'per Fax', 'mündlich'], correct: 'per Post' },
     ],

@@ -2,11 +2,11 @@
 id: b2-passv-008
 type: select-one
 options:
-  - zusammenfasste
-  - zusammenfassen
-  - zusammengefasst
-  - zusammenfassetes
-correct: zusammenfassen
+  - beantwortete
+  - beantworten
+  - beantwortet
+  - beantwortetes
+correct: beantworten
 ---
 
-Der Text ist zu lang, um ihn zu ___ . (Grammatikform)
+Diese Frage ist nicht zu ___ . (Grammatikform)

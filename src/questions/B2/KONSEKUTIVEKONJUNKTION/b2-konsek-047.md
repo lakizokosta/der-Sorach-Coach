@@ -5,7 +5,7 @@ options:
   - weil
   - damit
   - dass
-  - sodass
+  - obwohl
 correct: dass
 ---
 

@@ -2,11 +2,11 @@
 id: b2-rede-048
 type: select-one
 options:
-  - zuerster
-  - zuerstes
-  - zuerst
-  - zuerste
-correct: zuerst
+  - Beinen
+  - Beines
+  - Bein
+  - Beine
+correct: Bein
 ---
 
-Er ist mit dem falschen Bein ___ aufgestanden. (Grammatikform)
+Du bist heute wohl mit dem falschen ___ aufgestanden. (Grammatikform)

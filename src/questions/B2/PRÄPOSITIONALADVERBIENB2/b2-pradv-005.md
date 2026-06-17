@@ -2,11 +2,11 @@
 id: b2-pradv-005
 type: select-one
 options:
-  - spricht
-  - habt gesprochen
-  - gesprochen
-  - sprecht
-correct: habt gesprochen
+  - haben
+  - habt
+  - hättet
+  - hat
+correct: habt
 ---
 
-Worüber ___ ihr gestern? (Pronominaladverb)
+Worüber ___ ihr gestern gesprochen? (Pronominaladverb)

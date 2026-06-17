@@ -2,9 +2,9 @@
 id: b2-rede-037
 type: select-one
 options:
-  - Roller
   - Rolle
-  - Rollens
+  - Roller
+  - Rollende
   - Rollen
 correct: Rollen
 ---

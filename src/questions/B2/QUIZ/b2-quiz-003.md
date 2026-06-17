@@ -2,11 +2,11 @@
 id: b2-quiz-003
 type: select-one
 options:
-  - hatte
-  - habe
-  - hätte
+  - war
+  - wird
   - würde
-correct: hätte
+  - wäre
+correct: wäre
 ---
 
-Hätte ich das gewusst, ___ ich anders gehandelt. (Grammatikform)
+Wenn er nicht so stur ___, ginge alles leichter. (Grammatikform)

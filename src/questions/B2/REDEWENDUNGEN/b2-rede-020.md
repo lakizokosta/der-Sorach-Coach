@@ -2,10 +2,10 @@
 id: b2-rede-020
 type: select-one
 options:
-  - Roller
+  - Rolle
   - Rollen
   - Rollens
-  - Rolle
+  - Roller
 correct: Rollen
 ---
 

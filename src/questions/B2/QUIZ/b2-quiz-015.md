@@ -2,11 +2,11 @@
 id: b2-quiz-015
 type: select-one
 options:
-  - wurden
-  - sind
-  - waren
+  - worden
+  - würden
+  - geworden
   - werden
-correct: sind
+correct: werden
 ---
 
-Alle Gäste ___ rechtzeitig informiert worden. (Grammatikform)
+Die Ergebnisse ___ morgen bekannt gegeben. (Grammatikform)

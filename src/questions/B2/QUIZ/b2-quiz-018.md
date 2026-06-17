@@ -2,11 +2,11 @@
 id: b2-quiz-018
 type: select-one
 options:
-  - dem
+  - den
   - der
   - die
-  - den
+  - das
 correct: der
 ---
 
-Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert. (Grammatikform)
+Die Firma, bei ___ ich Praktikum machte, stellt ein. (Grammatikform)

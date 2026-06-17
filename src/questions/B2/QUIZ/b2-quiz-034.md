@@ -2,11 +2,11 @@
 id: b2-quiz-034
 type: select-one
 options:
-  - deshalb
-  - dennoch
   - außerdem
-  - folglich
-correct: dennoch
+  - demzufolge
+  - dennoch
+  - dagegen
+correct: demzufolge
 ---
 
-Er war müde; ___ arbeitete er weiter. (Grammatikform)
+Die Nachfrage steigt; ___ erhöhen wir die Produktion. (Grammatikform)

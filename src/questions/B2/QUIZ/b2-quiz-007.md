@@ -2,11 +2,11 @@
 id: b2-quiz-007
 type: select-one
 options:
-  - war
-  - wäre
   - würde
-  - ist
+  - war
+  - werde
+  - wäre
 correct: wäre
 ---
 
-Wenn das möglich ___, würden wir sofort helfen. (Grammatikform)
+Wenn ich reich ___, würde ich viel reisen. (Grammatikform)

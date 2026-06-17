@@ -2,11 +2,11 @@
 id: b2-tkml-045
 type: select-one
 options:
-  - Wegen des Wetters fahren wir am Wochenende lieber nach Süden.
-  - Nach Süden fahren wir am Wochenende lieber wegen des Wetters.
-  - Lieber fahren wir am Wochenende nach Süden wegen des Wetters.
+  - Wir fahren wegen des Wetters am Wochenende lieber nach Süden.
+  - Wir fahren lieber am Wochenende nach Süden wegen des Wetters.
+  - Wir fahren am Wochenende lieber nach Süden wegen des Wetters.
   - Wir fahren am Wochenende wegen des Wetters lieber nach Süden.
 correct: Wir fahren am Wochenende wegen des Wetters lieber nach Süden.
 ---
 
-Welche Satzstellung ist korrekt? (TeKaMoLo-Reihenfolge)
+Welche Satzstellung folgt der TeKaMoLo-Reihenfolge? (TeKaMoLo-Reihenfolge)

@@ -2,7 +2,7 @@
 id: b2-passv-in-012
 type: input-text
 correct:
-  - erklären
+  - bedienen
 ---
 
-Das Thema ist zu komplex, um es kurz zu ___ . (Grammatikform)
+Die Maschine ist leicht zu ___ . (Infinitiv)

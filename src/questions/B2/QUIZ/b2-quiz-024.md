@@ -2,11 +2,11 @@
 id: b2-quiz-024
 type: select-one
 options:
-  - deren
-  - denen
+  - die
+  - der
   - den
   - dem
-correct: denen
+correct: der
 ---
 
-Die Studenten, mit ___ wir diskutierten, waren engagiert. (Grammatikform)
+Die Methode, mit ___ wir arbeiten, ist bewährt. (Grammatikform)

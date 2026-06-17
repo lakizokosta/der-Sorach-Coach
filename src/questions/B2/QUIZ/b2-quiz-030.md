@@ -4,9 +4,9 @@ type: select-one
 options:
   - würde
   - wird
+  - könnten
   - hätte
-  - wäre
 correct: wird
 ---
 
-Er ___ wohl nicht mehr kommen — es ist schon so spät. (Grammatikform)
+Der Zug ___ in zehn Minuten in Berlin ankommen. (Grammatikform)

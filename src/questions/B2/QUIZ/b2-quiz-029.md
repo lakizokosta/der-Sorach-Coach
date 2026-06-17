@@ -2,11 +2,11 @@
 id: b2-quiz-029
 type: select-one
 options:
-  - wollten
-  - werden
-  - könnten
-  - würden
-correct: werden
+  - wäret
+  - hättet
+  - könntet
+  - werdet
+correct: werdet
 ---
 
-Die Temperaturen ___ in den nächsten Tagen sinken. (Grammatikform)
+Ihr ___ das Problem sicher lösen können. (Grammatikform)

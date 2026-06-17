@@ -5,4 +5,4 @@ correct:
   - prüfen
 ---
 
-Der Antrag ist noch zu ___ . (Passiversatz)
+Der Antrag ist noch zu ___ . (prüfen)

@@ -2,11 +2,11 @@
 id: b2-quiz-044
 type: select-one
 options:
-  - hat
-  - habe
-  - haben
-  - hatte
-correct: habe
+  - ist
+  - sei
+  - wird
+  - wäre
+correct: sei
 ---
 
-Sie erklärte, sie ___ keine Zeit. (Grammatikform)
+Der Experte meinte, das ___ ein Fehler. (Grammatikform)

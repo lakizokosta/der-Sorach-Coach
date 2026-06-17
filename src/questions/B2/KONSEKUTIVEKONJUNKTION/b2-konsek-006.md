@@ -4,7 +4,7 @@ type: select-one
 options:
   - damit
   - dass
-  - sodass
+  - obwohl
   - weil
 correct: dass
 ---

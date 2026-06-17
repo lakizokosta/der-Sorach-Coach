@@ -2,11 +2,11 @@
 id: b2-quiz-040
 type: select-one
 options:
+  - deshalb
   - dennoch
-  - infolgedessen
-  - dagegen
   - außerdem
-correct: infolgedessen
+  - folglich
+correct: dennoch
 ---
 
-Er hat Fehler gemacht; ___ wurde er kritisiert. (Grammatikform)
+Das Projekt ist teuer; ___ lohnt es sich. (Grammatikform)

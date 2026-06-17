@@ -9,4 +9,4 @@ options:
 correct: sei
 ---
 
-Er behauptete, er ___ unschuldig. (Grammatikform)
+Die Zeitung schrieb, die Lage ___ ernst. (Grammatikform)

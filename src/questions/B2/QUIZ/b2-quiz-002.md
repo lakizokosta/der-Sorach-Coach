@@ -2,11 +2,11 @@
 id: b2-quiz-002
 type: select-one
 options:
-  - bin
-  - werde
-  - wäre
-  - würde
-correct: wäre
+  - wusste
+  - wissen
+  - wüsste
+  - weiß
+correct: wüsste
 ---
 
-Wenn ich an seiner Stelle ___, würde ich ablehnen. (Grammatikform)
+Sie spricht, als ob sie alles ___. (Grammatikform)

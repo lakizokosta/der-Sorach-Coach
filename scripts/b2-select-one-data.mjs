@@ -38,7 +38,7 @@ export function genGenitivB2() {
     ['Statt ___ Hilfe lehnte er jede Unterstützung ab.', 'jeder', ['jede', 'jeden', 'jedem', 'jedes']],
     ['Wegen ___ schlechten Wetters wurde das Konzert abgesagt.', 'des', ['der', 'dem', 'den', 'das']],
     ['Unweit ___ Hauses steht ein alter Brunnen.', 'des', ['der', 'dem', 'den', 'die']],
-    ['Sie erinnert sich gern ___ Jugend.', 'ihrer', ['ihre', 'ihren', 'ihrem', 'ihres']],
+    ['Sie bedarf ___ besonderen Schutzes.', 'eines', ['ein', 'einen', 'einem', 'einer']],
     ['___ aller Erwartungen gelang das Experiment.', 'Entgegen', ['Gegenüber', 'Wegen', 'Trotz', 'Ohne']],
     ['Anlässlich ___ Jubiläums fand eine Feier statt.', 'des', ['der', 'dem', 'den', 'das']],
     ['___ der Verhandlungen einigte man sich auf einen Kompromiss.', 'Während', ['Trotz', 'Wegen', 'Infolge', 'Statt']],
@@ -75,17 +75,17 @@ export function genKonsekutiveKonjunktion() {
   return bank([
     ['Er sprach so leise, ___ niemand ihn verstehen konnte.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
     ['Das Problem war so komplex, ___ selbst Experten ratlos waren.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
-    ['Sie arbeitete so schnell, ___ sie pünktlich fertig wurde.', 'dass', ['damit', 'sodass', 'obwohl']],
+    ['Sie arbeitete so schnell, ___ sie pünktlich fertig wurde.', 'dass', ['damit', 'weil', 'obwohl']],
     ['Er war so müde, ___ er sofort einschlief.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
     ['Die Nachfrage war so groß, ___ die Preise stiegen.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
-    ['Er übte so intensiv, ___ er die Prüfung bestand.', 'dass', ['damit', 'weil', 'sodass']],
+    ['Er übte so intensiv, ___ er die Prüfung bestand.', 'dass', ['damit', 'weil', 'obwohl']],
     ['Es war so kalt, ___ die Heizung nicht ausreichte.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
     ['Sie war so überzeugend, ___ alle zustimmten.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
     ['Der Bericht war so detailliert, ___ er lange dauerte.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
-    ['Er fuhr so schnell, ___ er geblitzt wurde.', 'dass', ['damit', 'sodass', 'obwohl']],
+    ['Er fuhr so schnell, ___ er geblitzt wurde.', 'dass', ['damit', 'weil', 'obwohl']],
     ['Die Lage war so ernst, ___ Sofortmaßnahmen nötig waren.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
     ['Er erklärte es so deutlich, ___ jeder es verstand.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
-    ['Sie sang so schön, ___ das Publikum begeistert applaudierte.', 'dass', ['damit', 'weil', 'sodass']],
+    ['Sie sang so schön, ___ das Publikum begeistert applaudierte.', 'dass', ['damit', 'weil', 'obwohl']],
     ['Das Essen war so gut, ___ wir noch einmal bestellten.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
     ['Er war so nervös, ___ er seinen Namen vergaß.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
     ['Die Aufgabe war so schwer, ___ niemand sie lösen konnte.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
@@ -275,7 +275,7 @@ export function genPraepositionaleAdverbienB2() {
     ['Ich denke oft daran, wie es ___ war.', 'früher', ['früh', 'frühest', 'frühe', 'frühes']],
     ['Womit ___ du dein Studium?', 'finanzierst', ['finanzier', 'finanziert', 'finanzierte', 'finanzieren']],
     ['Darauf ___ ich mich schon lange.', 'freue', ['freuen', 'freust', 'freute', 'gefreut']],
-    ['Worüber ___ ihr gestern?', 'habt gesprochen', ['sprecht', 'spricht', 'sprachen', 'gesprochen']],
+    ['Worüber ___ ihr gestern gesprochen?', 'habt', ['hat', 'haben', 'hattet', 'hättet']],
     ['Damit ___ ich nichts anfangen.', 'kann', ['können', 'konntet', 'könnte', 'gekonnt']],
     ['Hieran ___ man die Qualität.', 'erkennt', ['erkennen', 'erkennst', 'erkannte', 'erkannt']],
     ['Daran ___ ich mich noch gut.', 'erinnere', ['erinnern', 'erinnerst', 'erinnerte', 'erinnert']],
@@ -366,11 +366,11 @@ export function genPassiversatz() {
     ['Das Rätsel ___ sich nicht lösen.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
     ['Die Frage ist schwer zu ___ .', 'beantworten', ['beantwortet', 'beantwortend', 'beantwortete', 'beantwortetes']],
     ['Das Fenster ___ sich nicht öffnen.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
-    ['Der Text ist zu lang, um ihn zu ___ .', 'zusammenfassen', ['zusammengefasst', 'zusammenfassend', 'zusammenfasste', 'zusammenfassetes']],
+    ['Diese Frage ist nicht zu ___ .', 'beantworten', ['beantwortet', 'beantwortend', 'beantwortete', 'beantwortetes']],
     ['Das Ergebnis ___ sich nicht vorhersagen.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
     ['Die Daten sind leicht zu ___ .', 'auswerten', ['ausgewertet', 'auswertend', 'auswertete', 'auswertetes']],
     ['Der Fehler ___ sich schnell beheben.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
-    ['Das Thema ist zu komplex, um es kurz zu ___ .', 'erklären', ['erklärt', 'erklärend', 'erklärte', 'erklärtes']],
+    ['Die Maschine ist leicht zu ___ .', 'bedienen', ['bedient', 'bedienend', 'bediente', 'bedientes']],
     ['Die Tür ___ sich nicht schließen.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
     ['Der Antrag ist noch zu ___ .', 'prüfen', ['geprüft', 'prüfend', 'prüfte', 'prüftes']],
     ['Das Problem ___ sich vermeiden.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
@@ -383,8 +383,8 @@ export function genRedewendungen() {
   return bank([
     ['Bleib auf dem ___ — informiere dich regelmäßig!', 'Laufenden', ['Laufende', 'Laufender', 'Laufendes', 'Laufendem']],
     ['Er hat den Nagel auf den ___ getroffen.', 'Kopf', ['Kopfe', 'Köpfen', 'Kopfs', 'Kopfen']],
-    ['Wir müssen den Stein ins ___ bringen.', 'Rollen', ['Rollens', 'Rolle', 'Rollen', 'Roller']],
-    ['Sie hat die Nase voll — sie hat die Nase ___ .', 'voll', ['vollen', 'voller', 'volles', 'vollem']],
+    ['Wir müssen den Stein ins ___ bringen.', 'Rollen', ['Rollens', 'Rolle', 'Roller', 'Rollende']],
+    ['Sie hat von der Arbeit die Nase ___ .', 'voll', ['vollen', 'voller', 'volles', 'vollem']],
     ['Er spricht ___ aus, was er denkt.', 'offen', ['offenen', 'offener', 'offenes', 'offenem']],
     ['Das geht mir ___ die Nerven.', 'auf', ['an', 'in', 'über', 'unter']],
     ['Er hat ein ___ Auge auf Details.', 'scharfes', ['scharfen', 'scharfer', 'scharfem', 'scharf']],
@@ -394,7 +394,7 @@ export function genRedewendungen() {
     ['Sie hat alles ___ den Kopf gestellt.', 'auf', ['an', 'in', 'über', 'unter']],
     ['Er redet um den ___ herum.', 'heißen Brei', ['heiße Brei', 'heißen Breie', 'heißer Brei', 'heißen Topf']],
     ['Das ist nicht mein ___ .', 'Bier', ['Wein', 'Kaffee', 'Tee', 'Saft']],
-    ['Er ist mit dem falschen Bein ___ aufgestanden.', 'zuerst', ['zuerste', 'zuerster', 'zuerstes', 'zuerstem']],
+    ['Du bist heute wohl mit dem falschen ___ aufgestanden.', 'Bein', ['Beine', 'Beinen', 'Beines', 'Beins']],
     ['Sie hat den Ball ___ gehalten.', 'flach', ['flachen', 'flacher', 'flaches', 'flachem']],
     ['Er ist ins kalte Wasser ___ .', 'gesprungen', ['gesprang', 'springen', 'springt', 'sprang']],
     ['Wir müssen die Sache auf den Punkt ___ .', 'bringen', ['brachte', 'gebracht', 'bringt', 'bringen']],
@@ -424,24 +424,27 @@ export function genRelativsatzB2() {
 }
 
 export function genTekamolo() {
+  // Distractor pool: only TKML-violations in the middle field (no valid Vorfeld permutations).
+  // Default order: Subject + Verb + Te + Ka + Mo + Lo. Distractors permute Te/Ka/Mo/Lo so that
+  // the order in the middle field breaks the default schema while keeping V2.
   return bank([
-    ['Welche Satzstellung ist korrekt?', 'Er fährt morgen wegen der Konferenz mit dem Zug nach Berlin.', ['Er fährt wegen der Konferenz morgen mit dem Zug nach Berlin.', 'Morgen fährt er nach Berlin wegen der Konferenz mit dem Zug.', 'Er fährt mit dem Zug morgen nach Berlin wegen der Konferenz.', 'Wegen der Konferenz fährt er morgen mit dem Zug nach Berlin.']],
-    ['Welche Satzstellung ist korrekt?', 'Sie arbeitet heute aus beruflichen Gründen besonders sorgfältig im Labor.', ['Sie arbeitet im Labor heute aus beruflichen Gründen besonders sorgfältig.', 'Aus beruflichen Gründen arbeitet sie heute besonders sorgfältig im Labor.', 'Im Labor arbeitet sie heute besonders sorgfältig aus beruflichen Gründen.', 'Besonders sorgfältig arbeitet sie heute im Labor aus beruflichen Gründen.']],
-    ['Welche Satzstellung ist korrekt?', 'Wir treffen uns morgen wegen des Termins pünktlich im Büro.', ['Wir treffen uns im Büro morgen wegen des Termins pünktlich.', 'Wegen des Termins treffen wir uns morgen pünktlich im Büro.', 'Im Büro treffen wir uns morgen pünktlich wegen des Termins.', 'Pünktlich treffen wir uns morgen im Büro wegen des Termins.']],
-    ['Welche Satzstellung ist korrekt?', 'Er liest abends aus Interesse an der Politik regelmäßig im Sessel.', ['Er liest im Sessel abends aus Interesse an der Politik regelmäßig.', 'Aus Interesse an der Politik liest er abends regelmäßig im Sessel.', 'Im Sessel liest er abends regelmäßig aus Interesse an der Politik.', 'Regelmäßig liest er abends im Sessel aus Interesse an der Politik.']],
-    ['Welche Satzstellung ist korrekt?', 'Sie fährt nächste Woche wegen der Messe geschäftlich nach Hamburg.', ['Sie fährt nach Hamburg nächste Woche wegen der Messe geschäftlich.', 'Wegen der Messe fährt sie nächste Woche geschäftlich nach Hamburg.', 'Nach Hamburg fährt sie nächste Woche geschäftlich wegen der Messe.', 'Geschäftlich fährt sie nächste Woche nach Hamburg wegen der Messe.']],
-    ['Welche Satzstellung ist korrekt?', 'Er schreibt heute wegen der Deadline besonders schnell am Schreibtisch.', ['Er schreibt am Schreibtisch heute wegen der Deadline besonders schnell.', 'Wegen der Deadline schreibt er heute besonders schnell am Schreibtisch.', 'Am Schreibtisch schreibt er heute besonders schnell wegen der Deadline.', 'Besonders schnell schreibt er heute am Schreibtisch wegen der Deadline.']],
-    ['Welche Satzstellung ist korrekt?', 'Wir essen heute Abend aus Zeitgründen schnell zu Hause.', ['Wir essen zu Hause heute Abend aus Zeitgründen schnell.', 'Aus Zeitgründen essen wir heute Abend schnell zu Hause.', 'Zu Hause essen wir heute Abend schnell aus Zeitgründen.', 'Schnell essen wir heute Abend zu Hause aus Zeitgründen.']],
-    ['Welche Satzstellung ist korrekt?', 'Sie lernt täglich wegen der Prüfung intensiv im Selbststudium.', ['Sie lernt im Selbststudium täglich wegen der Prüfung intensiv.', 'Wegen der Prüfung lernt sie täglich intensiv im Selbststudium.', 'Im Selbststudium lernt sie täglich intensiv wegen der Prüfung.', 'Intensiv lernt sie täglich im Selbststudium wegen der Prüfung.']],
-    ['Welche Satzstellung ist korrekt?', 'Er kommt morgen wegen des Meetings früh ins Büro.', ['Er kommt ins Büro morgen wegen des Meetings früh.', 'Wegen des Meetings kommt er morgen früh ins Büro.', 'Ins Büro kommt er morgen früh wegen des Meetings.', 'Früh kommt er morgen ins Büro wegen des Meetings.']],
-    ['Welche Satzstellung ist korrekt?', 'Sie telefoniert heute aus beruflichen Gründen viel mit Kunden.', ['Sie telefoniert mit Kunden heute aus beruflichen Gründen viel.', 'Aus beruflichen Gründen telefoniert sie heute viel mit Kunden.', 'Mit Kunden telefoniert sie heute viel aus beruflichen Gründen.', 'Viel telefoniert sie heute mit Kunden aus beruflichen Gründen.']],
-    ['Welche Satzstellung ist korrekt?', 'Wir fahren am Wochenende wegen des Wetters lieber nach Süden.', ['Wir fahren nach Süden am Wochenende wegen des Wetters lieber.', 'Wegen des Wetters fahren wir am Wochenende lieber nach Süden.', 'Nach Süden fahren wir am Wochenende lieber wegen des Wetters.', 'Lieber fahren wir am Wochenende nach Süden wegen des Wetters.']],
-    ['Welche Satzstellung ist korrekt?', 'Er trainiert morgens aus gesundheitlichen Gründen regelmäßig im Park.', ['Er trainiert im Park morgens aus gesundheitlichen Gründen regelmäßig.', 'Aus gesundheitlichen Gründen trainiert er morgens regelmäßig im Park.', 'Im Park trainiert er morgens regelmäßig aus gesundheitlichen Gründen.', 'Regelmäßig trainiert er morgens im Park aus gesundheitlichen Gründen.']],
-    ['Welche Satzstellung ist korrekt?', 'Sie reist nächsten Monat wegen des Projekts beruflich nach Wien.', ['Sie reist nach Wien nächsten Monat wegen des Projekts beruflich.', 'Wegen des Projekts reist sie nächsten Monat beruflich nach Wien.', 'Nach Wien reist sie nächsten Monat beruflich wegen des Projekts.', 'Beruflich reist sie nächsten Monat nach Wien wegen des Projekts.']],
-    ['Welche Satzstellung ist korrekt?', 'Er kocht heute wegen der Gäste besonders aufwendig in der Küche.', ['Er kocht in der Küche heute wegen der Gäste besonders aufwendig.', 'Wegen der Gäste kocht er heute besonders aufwendig in der Küche.', 'In der Küche kocht er heute besonders aufwendig wegen der Gäste.', 'Besonders aufwendig kocht er heute in der Küche wegen der Gäste.']],
-    ['Welche Satzstellung ist korrekt?', 'Wir diskutieren heute wegen der Krise ausführlich im Team.', ['Wir diskutieren im Team heute wegen der Krise ausführlich.', 'Wegen der Krise diskutieren wir heute ausführlich im Team.', 'Im Team diskutieren wir heute ausführlich wegen der Krise.', 'Ausführlich diskutieren wir heute im Team wegen der Krise.']],
-    ['Welche Satzstellung ist korrekt?', 'Sie schläft nachts wegen des Lärms schlecht im Hotelzimmer.', ['Sie schläft im Hotelzimmer nachts wegen des Lärms schlecht.', 'Wegen des Lärms schläft sie nachts schlecht im Hotelzimmer.', 'Im Hotelzimmer schläft sie nachts schlecht wegen des Lärms.', 'Schlecht schläft sie nachts im Hotelzimmer wegen des Lärms.']],
-    ['Welche Satzstellung ist korrekt?', 'Er präsentiert morgen wegen der Konferenz professionell die Ergebnisse.', ['Er präsentiert die Ergebnisse morgen wegen der Konferenz professionell.', 'Wegen der Konferenz präsentiert er morgen professionell die Ergebnisse.', 'Die Ergebnisse präsentiert er morgen professionell wegen der Konferenz.', 'Professionell präsentiert er morgen die Ergebnisse wegen der Konferenz.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Er fährt morgen wegen der Konferenz mit dem Zug nach Berlin.', ['Er fährt wegen der Konferenz morgen mit dem Zug nach Berlin.', 'Er fährt nach Berlin morgen wegen der Konferenz mit dem Zug.', 'Er fährt mit dem Zug morgen wegen der Konferenz nach Berlin.', 'Er fährt morgen mit dem Zug nach Berlin wegen der Konferenz.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Sie arbeitet heute aus beruflichen Gründen besonders sorgfältig im Labor.', ['Sie arbeitet im Labor heute aus beruflichen Gründen besonders sorgfältig.', 'Sie arbeitet aus beruflichen Gründen heute besonders sorgfältig im Labor.', 'Sie arbeitet besonders sorgfältig heute aus beruflichen Gründen im Labor.', 'Sie arbeitet heute besonders sorgfältig aus beruflichen Gründen im Labor.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Wir treffen uns morgen wegen des Termins pünktlich im Büro.', ['Wir treffen uns im Büro morgen wegen des Termins pünktlich.', 'Wir treffen uns wegen des Termins morgen pünktlich im Büro.', 'Wir treffen uns pünktlich morgen im Büro wegen des Termins.', 'Wir treffen uns morgen pünktlich im Büro wegen des Termins.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Er liest abends aus Interesse an der Politik regelmäßig im Sessel.', ['Er liest im Sessel abends aus Interesse an der Politik regelmäßig.', 'Er liest aus Interesse an der Politik abends regelmäßig im Sessel.', 'Er liest regelmäßig abends im Sessel aus Interesse an der Politik.', 'Er liest abends regelmäßig im Sessel aus Interesse an der Politik.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Sie fährt nächste Woche wegen der Messe geschäftlich nach Hamburg.', ['Sie fährt nach Hamburg nächste Woche wegen der Messe geschäftlich.', 'Sie fährt wegen der Messe nächste Woche geschäftlich nach Hamburg.', 'Sie fährt geschäftlich nächste Woche nach Hamburg wegen der Messe.', 'Sie fährt nächste Woche geschäftlich nach Hamburg wegen der Messe.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Er schreibt heute wegen der Deadline besonders schnell am Schreibtisch.', ['Er schreibt am Schreibtisch heute wegen der Deadline besonders schnell.', 'Er schreibt wegen der Deadline heute besonders schnell am Schreibtisch.', 'Er schreibt besonders schnell heute am Schreibtisch wegen der Deadline.', 'Er schreibt heute besonders schnell am Schreibtisch wegen der Deadline.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Wir essen heute Abend aus Zeitgründen schnell zu Hause.', ['Wir essen zu Hause heute Abend aus Zeitgründen schnell.', 'Wir essen aus Zeitgründen heute Abend schnell zu Hause.', 'Wir essen schnell heute Abend zu Hause aus Zeitgründen.', 'Wir essen heute Abend schnell zu Hause aus Zeitgründen.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Sie lernt täglich wegen der Prüfung intensiv im Selbststudium.', ['Sie lernt im Selbststudium täglich wegen der Prüfung intensiv.', 'Sie lernt wegen der Prüfung täglich intensiv im Selbststudium.', 'Sie lernt intensiv täglich im Selbststudium wegen der Prüfung.', 'Sie lernt täglich intensiv im Selbststudium wegen der Prüfung.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Er kommt morgen wegen des Meetings früh ins Büro.', ['Er kommt ins Büro morgen wegen des Meetings früh.', 'Er kommt wegen des Meetings morgen früh ins Büro.', 'Er kommt früh morgen ins Büro wegen des Meetings.', 'Er kommt morgen früh ins Büro wegen des Meetings.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Sie telefoniert heute aus beruflichen Gründen viel mit Kunden.', ['Sie telefoniert mit Kunden heute aus beruflichen Gründen viel.', 'Sie telefoniert aus beruflichen Gründen heute viel mit Kunden.', 'Sie telefoniert viel heute mit Kunden aus beruflichen Gründen.', 'Sie telefoniert heute viel mit Kunden aus beruflichen Gründen.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Wir fahren am Wochenende wegen des Wetters lieber nach Süden.', ['Wir fahren nach Süden am Wochenende wegen des Wetters lieber.', 'Wir fahren wegen des Wetters am Wochenende lieber nach Süden.', 'Wir fahren lieber am Wochenende nach Süden wegen des Wetters.', 'Wir fahren am Wochenende lieber nach Süden wegen des Wetters.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Er trainiert morgens aus gesundheitlichen Gründen regelmäßig im Park.', ['Er trainiert im Park morgens aus gesundheitlichen Gründen regelmäßig.', 'Er trainiert aus gesundheitlichen Gründen morgens regelmäßig im Park.', 'Er trainiert regelmäßig morgens im Park aus gesundheitlichen Gründen.', 'Er trainiert morgens regelmäßig im Park aus gesundheitlichen Gründen.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Sie reist nächsten Monat wegen des Projekts beruflich nach Wien.', ['Sie reist nach Wien nächsten Monat wegen des Projekts beruflich.', 'Sie reist wegen des Projekts nächsten Monat beruflich nach Wien.', 'Sie reist beruflich nächsten Monat nach Wien wegen des Projekts.', 'Sie reist nächsten Monat beruflich nach Wien wegen des Projekts.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Er kocht heute wegen der Gäste besonders aufwendig in der Küche.', ['Er kocht in der Küche heute wegen der Gäste besonders aufwendig.', 'Er kocht wegen der Gäste heute besonders aufwendig in der Küche.', 'Er kocht besonders aufwendig heute in der Küche wegen der Gäste.', 'Er kocht heute besonders aufwendig in der Küche wegen der Gäste.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Wir diskutieren heute wegen der Krise ausführlich im Team.', ['Wir diskutieren im Team heute wegen der Krise ausführlich.', 'Wir diskutieren wegen der Krise heute ausführlich im Team.', 'Wir diskutieren ausführlich heute im Team wegen der Krise.', 'Wir diskutieren heute ausführlich im Team wegen der Krise.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Sie schläft nachts wegen des Lärms schlecht im Hotelzimmer.', ['Sie schläft im Hotelzimmer nachts wegen des Lärms schlecht.', 'Sie schläft wegen des Lärms nachts schlecht im Hotelzimmer.', 'Sie schläft schlecht nachts im Hotelzimmer wegen des Lärms.', 'Sie schläft nachts schlecht im Hotelzimmer wegen des Lärms.']],
+    ['Welche Satzstellung folgt der TeKaMoLo-Reihenfolge?', 'Er präsentiert morgen wegen der Konferenz professionell die Ergebnisse.', ['Er präsentiert die Ergebnisse morgen wegen der Konferenz professionell.', 'Er präsentiert wegen der Konferenz morgen professionell die Ergebnisse.', 'Er präsentiert professionell morgen die Ergebnisse wegen der Konferenz.', 'Er präsentiert morgen professionell die Ergebnisse wegen der Konferenz.']],
   ], 191);
 }
 
@@ -468,13 +471,17 @@ export function genTemporaleNebensatz() {
 }
 
 export function genQuiz() {
+  // Take items from the back half of each topic's cycled bank to minimise overlap with
+  // the individual topic folders (those show items 1..50 i.e. base order 0..16; the tail
+  // contains the second cycle, starting at base item 17 → 0, so picking .slice(-8) gives
+  // base items 8..15 — visually distinct from the first page of each topic.
   const items = [
-    ...genKonjunktiv2B2().slice(0, 8),
-    ...genPassivB2().slice(0, 8),
-    ...genRelativsatzB2().slice(0, 8),
-    ...genFuturI().slice(0, 8),
-    ...genKonjunktionaladverbien().slice(0, 8),
-    ...genIndirekteRede().slice(0, 10),
+    ...genKonjunktiv2B2().slice(-8),
+    ...genPassivB2().slice(-8),
+    ...genRelativsatzB2().slice(-8),
+    ...genFuturI().slice(-8),
+    ...genKonjunktionaladverbien().slice(-8),
+    ...genIndirekteRede().slice(-10),
   ];
   const out = [];
   for (let i = 0; i < 50; i++) out.push(items[i % items.length]);

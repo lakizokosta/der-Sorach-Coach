@@ -14,6 +14,9 @@ import { verbFormHint } from './topic-context-hints.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B2');
 
+const FORCE = process.argv.includes('--force');
+const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
+
 const TOPICS = {
   'AKKUSATIV&DATIVOBJEKT': { prefix: 'b2-obj', gen: G.genAkkusativDativobjekt },
   GENITIVB2: { prefix: 'b2-genit', gen: G.genGenitivB2 },
@@ -49,7 +52,7 @@ function writeTopic(folder, prefix, questions) {
     if (!q) break;
     const num = String(i).padStart(3, '0');
     const file = join(dir, `${prefix}-${num}.md`);
-    if (existsSync(file)) continue;
+    if (!FORCE && existsSync(file)) continue;
     writeFileSync(file, md({ id: `${prefix}-${num}`, hint: verbFormHint(folder, '', q.correct, q.options), ...q }), 'utf8');
     written += 1;
   }
@@ -58,9 +61,10 @@ function writeTopic(folder, prefix, questions) {
 
 let total = 0;
 for (const [folder, { prefix, gen }] of Object.entries(TOPICS)) {
+  if (TOPIC_ARG && folder !== TOPIC_ARG) continue;
   const qs = gen();
   const n = writeTopic(folder, prefix, qs);
   total += n;
-  console.log(`${folder}: +${n} select-one`);
+  console.log(`${folder}: ${FORCE ? 'regen ' : '+'}${n} select-one`);
 }
-console.log(`\nTotal new files: ${total}`);
+console.log(`\nTotal ${FORCE ? 'regenerated' : 'new'} files: ${total}`);

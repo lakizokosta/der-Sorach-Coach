@@ -3,10 +3,10 @@ id: b2-quiz-020
 type: select-one
 options:
   - die
-  - dem
-  - das
+  - der
   - den
-correct: das
+  - dem
+correct: der
 ---
 
-Das Unternehmen, für ___ er arbeitet, expandiert. (Grammatikform)
+Die Ärztin, zu ___ ich gehe, ist sehr kompetent. (Grammatikform)

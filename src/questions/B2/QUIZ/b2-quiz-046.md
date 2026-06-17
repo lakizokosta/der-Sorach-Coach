@@ -2,11 +2,11 @@
 id: b2-quiz-046
 type: select-one
 options:
-  - hätte
-  - hatte
-  - habe
-  - hat
-correct: habe
+  - kann
+  - könne
+  - konnte
+  - könnte
+correct: könne
 ---
 
-Er behauptete, er ___ nichts davon gewusst. (Grammatikform)
+Er sagte, er ___ das nicht tun können. (Grammatikform)
