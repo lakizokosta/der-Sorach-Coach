@@ -2,7 +2,10 @@
 id: b1-konz-in-013
 type: input-text
 correct:
+  - obschon
   - Obschon
+  - obwohl
+  - Obwohl
 ---
 
-___ die Vorlesung lang war, war sie interessant. (Konzessivsatz — obwohl/obschon/trotzdem)
+___ die Vorlesung lang war, war sie interessant. (Konzessivsatz — obwohl/obschon)

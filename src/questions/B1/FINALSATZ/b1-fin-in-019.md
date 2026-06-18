@@ -5,4 +5,4 @@ correct:
   - damit
 ---
 
-Er informiert die Kollegen, ___ alle Bescheid wissen. (Finalsatz — um/damit)
+Er informiert die Kollegen, ___ alle Bescheid wissen. (Finalsatz — damit)

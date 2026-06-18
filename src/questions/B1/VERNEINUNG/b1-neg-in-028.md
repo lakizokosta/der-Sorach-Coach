@@ -5,4 +5,4 @@ correct:
   - noch
 ---
 
-Sie isst weder Fleisch ___ Fisch. (Verneinung — nicht/kein)
+Sie isst weder Fleisch ___ Fisch. (Verneinung — kein / nicht / nie / noch)

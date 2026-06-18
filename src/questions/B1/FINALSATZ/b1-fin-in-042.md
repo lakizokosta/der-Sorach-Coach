@@ -5,4 +5,4 @@ correct:
   - damit
 ---
 
-Sie schreibt eine Zusammenfassung, ___ der Chef sie schnell liest. (Finalsatz — um/damit)
+Sie schreibt eine Zusammenfassung, ___ der Chef sie schnell liest. (Finalsatz — damit)

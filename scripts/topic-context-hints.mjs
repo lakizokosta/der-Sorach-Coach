@@ -458,10 +458,10 @@ function reflexivFormHint(inner, correct, options, body, id) {
     }
   }
 
-  const oldFinite = inner.match(/^Reflexiv\s*—\s*(\S+)/i);
+  const oldFinite = inner.match(/^Reflexiv\s*—\s*/i);
   if (oldFinite) {
-    const inf = finiteToInfinitive(oldFinite[1]);
-    if (inf) return formatVerbHint('REFLEXIVPRONOMEN', inf);
+    const lemma = parseVerbLemmaFromInner(inner);
+    if (lemma) return formatVerbHint('REFLEXIVPRONOMEN', lemma);
   }
 
   let lemma = bankLemmaFromBody(body, 'REFLEXIVPRONOMEN')

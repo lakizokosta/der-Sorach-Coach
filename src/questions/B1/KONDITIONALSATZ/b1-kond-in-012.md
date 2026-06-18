@@ -2,6 +2,9 @@
 id: b1-kond-in-012
 type: input-text
 correct:
+  - wenn
+  - Wenn
+  - falls
   - Falls
 ---
 

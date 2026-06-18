@@ -5,4 +5,4 @@ correct:
   - kein
 ---
 
-Wir haben ___ Interesse an dem Angebot. (Verneinung — nicht/kein)
+Wir haben ___ Interesse an dem Angebot. (Verneinung — kein / keine / nichts / nie)

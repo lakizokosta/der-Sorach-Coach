@@ -5,4 +5,4 @@ correct:
   - kein
 ---
 
-Wir haben ___ Geld übrig. (Verneinung — nicht/kein)
+Wir haben ___ Geld übrig. (Verneinung — kein / nicht / nichts / nie)

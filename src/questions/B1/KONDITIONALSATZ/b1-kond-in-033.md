@@ -5,4 +5,4 @@ correct:
   - Sobald
 ---
 
-___ der Zug ankommt, fahren wir los. (Konditionalsatz — wenn/falls)
+___ der Zug ankommt, fahren wir los. (Konditionalsatz — sobald)

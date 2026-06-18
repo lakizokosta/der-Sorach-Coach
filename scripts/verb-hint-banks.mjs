@@ -240,7 +240,12 @@ const MODAL_ROOTS = /^(?:kann|kannst|könn|muss|musst|müss|soll|sollst|sollt|da
 
 /** @param {string} word */
 export function finiteToInfinitive(word) {
-  const w = String(word).toLowerCase().trim();
+  let w = String(word).toLowerCase().trim();
+  // `beeilen/sie` — person marker after slash, not part of the verb.
+  if (/[/\\]/.test(w)) {
+    w = w.split(/[/\\]/)[0].trim();
+    if (!w) return '';
+  }
   const map = {
     wasche: 'waschen', wäscht: 'waschen', wäschst: 'waschen', gewaschen: 'waschen',
     freut: 'freuen', freue: 'freuen', freust: 'freuen', gefreut: 'freuen', gefreuen: 'freuen',

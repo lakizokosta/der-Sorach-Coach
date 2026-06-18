@@ -5,4 +5,4 @@ correct:
   - keine
 ---
 
-Ich habe ___ Zeit für ein langes Meeting. (Verneinung — nicht/kein)
+Ich habe ___ Zeit für ein langes Meeting. (Verneinung — keine / nicht / nichts / nie)

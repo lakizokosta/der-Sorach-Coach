@@ -5,4 +5,4 @@ correct:
   - denn
 ---
 
-Die Straßen sind nass, ___ es geregnet hat. (Kausalsatz — weil/da/denn)
+Die Straßen sind nass, ___ es geregnet hat. (Kausalsatz — denn)

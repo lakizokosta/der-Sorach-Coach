@@ -5,4 +5,4 @@ correct:
   - beeilt
 ---
 
-Sie ___ sich, weil der Zug kommt. (Reflexiv + Verb beeilen/sien)
+Sie ___ sich, weil der Zug kommt. (Reflexiv + Verb beeilen)

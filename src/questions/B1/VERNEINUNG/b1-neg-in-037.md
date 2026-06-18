@@ -5,4 +5,4 @@ correct:
   - kein
 ---
 
-Ich sehe ___ Problem. (Verneinung — nicht/kein)
+Ich sehe ___ Problem. (Verneinung — kein / keine / nichts / nie)

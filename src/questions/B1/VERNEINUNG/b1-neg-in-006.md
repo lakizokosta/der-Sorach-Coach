@@ -5,4 +5,4 @@ correct:
   - nicht
 ---
 
-Er hat ___ auf die Nachricht geantwortet. (Verneinung — nicht/kein)
+Er hat ___ auf die Nachricht geantwortet. (Verneinung — kein / nicht / nichts / nie)

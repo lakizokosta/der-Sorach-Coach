@@ -5,4 +5,4 @@ correct:
   - nicht
 ---
 
-Wir fahren ___ mit dem Auto. (Verneinung — nicht/kein)
+Wir fahren ___ mit dem Auto. (Verneinung — keine / nicht / nichts / nie)

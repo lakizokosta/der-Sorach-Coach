@@ -5,4 +5,4 @@ correct:
   - nicht
 ---
 
-Er kommt heute ___. (Verneinung — nicht/kein)
+Er kommt heute ___. (Verneinung — kein / nicht / nichts / nie)

@@ -5,4 +5,4 @@ correct:
   - nie
 ---
 
-Sie arbeitet ___ am Wochenende. (Verneinung — nicht/kein)
+Sie arbeitet ___ am Wochenende. (Verneinung — keine / nicht / nichts / nie)

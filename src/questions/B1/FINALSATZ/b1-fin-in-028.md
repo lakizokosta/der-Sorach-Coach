@@ -5,4 +5,4 @@ correct:
   - um
 ---
 
-Er macht Sport, ___ fit zu bleiben. (Finalsatz — um/damit)
+Er macht Sport, ___ fit zu bleiben. (Finalsatz — um)

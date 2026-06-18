@@ -5,4 +5,4 @@ correct:
   - trotzdem
 ---
 
-Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz — obwohl/obschon/trotzdem)
+Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz — trotzdem)

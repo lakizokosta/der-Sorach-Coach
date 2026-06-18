@@ -5,4 +5,4 @@ correct:
   - keine
 ---
 
-Das ist ___ gute Idee. (Verneinung — nicht/kein)
+Das ist ___ gute Idee. (Verneinung — kein / keine / nichts / nie)

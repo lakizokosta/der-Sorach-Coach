@@ -5,4 +5,4 @@ correct:
   - kein
 ---
 
-Ich habe ___ Verständnis für diese Entscheidung. (Verneinung — nicht/kein)
+Ich habe ___ Verständnis für diese Entscheidung. (Verneinung — kein / nicht / nichts / nie)

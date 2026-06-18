@@ -5,4 +5,4 @@ correct:
   - keinen
 ---
 
-Sie trinkt ___ Kaffee mehr. (Verneinung — nicht/kein)
+Sie trinkt ___ Kaffee mehr. (Verneinung — keine / keinen / nicht / nie)

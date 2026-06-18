@@ -5,4 +5,4 @@ correct:
   - um
 ---
 
-Er lernt Deutsch, ___ in Berlin arbeiten zu können. (Finalsatz — um/damit)
+Er lernt Deutsch, ___ in Berlin arbeiten zu können. (Finalsatz — um)

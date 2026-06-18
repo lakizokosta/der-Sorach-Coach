@@ -12,6 +12,7 @@ import { fileURLToPath } from 'node:url';
 import { md } from './b1-input-text-shared.mjs';
 import * as G from './b1-select-one-data.mjs';
 import { transformHint } from './fix-input-text-hints.mjs';
+import { inputTextAccepted, inputTextConjunctionHint } from './input-text-conjunction.mjs';
 import { possessivWhoFromForm } from './topic-context-hints.mjs';
 import { finiteToInfinitive } from './verb-hint-banks.mjs';
 
@@ -152,6 +153,8 @@ function trennbarLemma(correct, body) {
  * @return {string}
  */
 function hintInner(topic, prompt, correct = '') {
+  const conjHint = inputTextConjunctionHint(topic, correct);
+  if (conjHint) return conjHint;
   if (topic === 'ADJEKTIVDEKLINATIONB1') {
     for (const [key, spec] of Object.entries(ADJ_HINT)) {
       if (prompt.includes(key)) return `Adj. — ${spec}`;
@@ -209,6 +212,7 @@ const CLOSED_SET_TOPICS = {
   LOKALEPRÄPOSITIONENB1: 'Lokale Präposition',
   AKKUSATIVB1: 'Akkusativ',
   INDIREKTEFRAGESÄTZE: 'Indirekte Frage',
+  VERNEINUNG: 'Verneinung',
 };
 
 function writeTopic(folder, prefix, questions) {
@@ -220,15 +224,16 @@ function writeTopic(folder, prefix, questions) {
     const path = join(ROOT, folder, `${id}.md`);
     if (!FORCE && existsSync(path)) return;
     let prompt;
+    const accepted = inputTextAccepted(folder, q.correct);
     if (CLOSED_SET_TOPICS[folder]) {
       const hint = closedSetHint(CLOSED_SET_TOPICS[folder], q.correct, q.options || []);
       prompt = `${q.prompt} (${hint})`;
     } else {
       const inner = hintInner(folder, q.prompt, q.correct);
-      const hint = transformHint(inner, folder, [q.correct], q.options || [], q.prompt, id);
+      const hint = transformHint(inner, folder, accepted, q.options || [], q.prompt, id);
       prompt = `${q.prompt} (${hint})`;
     }
-    writeFileSync(path, md(id, prompt, q.correct), 'utf8');
+    writeFileSync(path, md(id, prompt, accepted), 'utf8');
     n += 1;
   });
   return n;

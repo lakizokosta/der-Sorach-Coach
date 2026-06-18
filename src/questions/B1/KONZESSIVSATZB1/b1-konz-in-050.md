@@ -2,7 +2,10 @@
 id: b1-konz-in-050
 type: input-text
 correct:
+  - obwohl
   - Obwohl
+  - obschon
+  - Obschon
 ---
 
-___ die Prüfung schwer war, hat sie bestanden. (Konzessivsatz — obwohl/obschon/trotzdem)
+___ die Prüfung schwer war, hat sie bestanden. (Konzessivsatz — obwohl/obschon)

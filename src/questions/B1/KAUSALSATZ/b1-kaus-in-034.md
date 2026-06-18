@@ -5,4 +5,4 @@ correct:
   - denn
 ---
 
-Ich bin müde, ___ ich habe wenig geschlafen. (Kausalsatz — weil/da/denn)
+Ich bin müde, ___ ich habe wenig geschlafen. (Kausalsatz — denn)
