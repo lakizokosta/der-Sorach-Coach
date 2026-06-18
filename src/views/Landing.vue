@@ -13,15 +13,19 @@ import BonusMissionsCard from '@/components/BonusMissionsCard.vue';
 import ActivityCalendar from '@/components/ActivityCalendar.vue';
 import SchwaechenCard from '@/components/SchwaechenCard.vue';
 import LegalFooter from '@/components/LegalFooter.vue';
+import { useAuth } from '@/composables/useAuth.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { useCefrLevel } from '@/composables/useCefrLevel.js';
+import { hasBackend } from '@/utils/api.js';
 import { useI18n } from '@/i18n/index.js';
 
 const router = useRouter();
 const { t } = useI18n();
+const backendOn = hasBackend();
 
+const { isLoggedIn } = useAuth();
 const { state: streak } = useStreak();
 const { state: xp, level } = useXp();
 const { isPremium, isBasis } = usePremium();
@@ -41,8 +45,24 @@ const summaryText = computed(() => {
   return parts.join(' &nbsp;·&nbsp; ');
 });
 
+const continueLevel = computed(() => cefrLevel.value || 'A1');
+
+const continueLabel = computed(() =>
+  cefrLevel.value
+    ? t('landing.premiumContinue', { level: cefrLevel.value })
+    : t('landing.premiumContinueDefault'),
+);
+
+const showLocalPremiumBanner = computed(
+  () => (isPremium.value || isBasis.value) && !isLoggedIn.value,
+);
+
 function startTrainer(lvl) {
   router.push({ name: 'trainer', query: { level: lvl, mode: 'free' } });
+}
+
+function continuePractice() {
+  startTrainer(continueLevel.value);
 }
 
 function openPremium() {
@@ -142,9 +162,87 @@ const subtitleLines = computed(() => t('landing.subtitle').split(' — '));
     />
 
     <section
+      v-if="backendOn"
+      class="landing-section landing-section--login"
+      :aria-label="t('landing.sectionLogin')"
+    >
+      <h2 class="landing-section__title">{{ t('landing.sectionLogin') }}</h2>
+      <p class="landing-section__hint">{{ t('landing.sectionLoginHint') }}</p>
+
+      <div
+        v-if="showLocalPremiumBanner"
+        class="landing-premium-banner"
+      >
+        <p class="landing-premium-banner__title">{{ t('landing.premiumActiveLocal') }}</p>
+        <p class="landing-premium-banner__hint">{{ t('landing.premiumActiveLocalHint') }}</p>
+        <button
+          type="button"
+          class="landing-premium-banner__btn"
+          @click="continuePractice"
+        >
+          {{ continueLabel }}
+        </button>
+      </div>
+
+      <div
+        v-else-if="isLoggedIn && (isPremium || isBasis)"
+        class="landing-premium-banner landing-premium-banner--ok"
+      >
+        <p class="landing-premium-banner__title">{{ t('landing.premiumActiveLoggedIn') }}</p>
+        <button
+          type="button"
+          class="landing-premium-banner__btn"
+          @click="continuePractice"
+        >
+          {{ continueLabel }}
+        </button>
+      </div>
+
+      <LoginPanel>
+        <template #after-intro>
+          <div class="landing-profile-wrap landing-profile-wrap--in-login">
+            <button type="button" class="landing-profile-btn" @click="openProfile">
+              {{ t('landing.profileBtn') }}
+            </button>
+          </div>
+
+          <div class="landing-niveau-block landing-niveau-block--in-login">
+            <button
+              type="button"
+              class="niveau-test-btn"
+              :class="{
+                'level-card': isPremium,
+                'niveau-test-btn--unlocked': isPremium,
+                'niveau-test-btn--inactive': !isPremium,
+              }"
+              @click="onNiveauTestClick"
+            >
+              <span class="niveau-test-btn__label">
+                {{
+                  cefrLevel
+                    ? t('landing.niveauRetest', { level: cefrLevel })
+                    : t('landing.niveauTest')
+                }}
+              </span>
+              <span v-if="!isPremium" class="niveau-test-btn__badge">💎 {{ t('common.premium') }}</span>
+            </button>
+            <p class="niveau-test-btn__hint">
+              {{
+                isPremium ? t('landing.niveauHintPremium') : t('landing.niveauHintLocked')
+              }}
+            </p>
+          </div>
+        </template>
+      </LoginPanel>
+    </section>
+
+    <section
       class="landing-section landing-section--start"
       :aria-label="t('landing.sectionStart')"
     >
+      <h2 class="landing-section__title landing-section__title--free">
+        {{ t('landing.sectionFree') }}
+      </h2>
       <div class="free-box">{{ t('landing.freeStart') }}</div>
 
       <div class="level-grid">
@@ -248,43 +346,7 @@ const subtitleLines = computed(() => t('landing.subtitle').split(' — '));
       class="landing-section landing-section--dashboard"
       :aria-label="t('landing.sectionDashboard')"
     >
-      <LoginPanel>
-        <template #after-intro>
-          <div class="landing-profile-wrap landing-profile-wrap--in-login">
-            <button type="button" class="landing-profile-btn" @click="openProfile">
-              {{ t('landing.profileBtn') }}
-            </button>
-          </div>
-
-          <div class="landing-niveau-block landing-niveau-block--in-login">
-            <button
-              type="button"
-              class="niveau-test-btn"
-              :class="{
-                'level-card': isPremium,
-                'niveau-test-btn--unlocked': isPremium,
-                'niveau-test-btn--inactive': !isPremium,
-              }"
-              @click="onNiveauTestClick"
-            >
-              <span class="niveau-test-btn__label">
-                {{
-                  cefrLevel
-                    ? t('landing.niveauRetest', { level: cefrLevel })
-                    : t('landing.niveauTest')
-                }}
-              </span>
-              <span v-if="!isPremium" class="niveau-test-btn__badge">💎 {{ t('common.premium') }}</span>
-            </button>
-            <p class="niveau-test-btn__hint">
-              {{
-                isPremium ? t('landing.niveauHintPremium') : t('landing.niveauHintLocked')
-              }}
-            </p>
-          </div>
-        </template>
-      </LoginPanel>
-
+      <h2 class="landing-section__title">{{ t('landing.sectionDashboard') }}</h2>
       <div class="landing-progress">
         <DailyGoalCard />
         <BonusMissionsCard />
