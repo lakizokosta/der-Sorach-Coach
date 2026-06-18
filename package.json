@@ -46,6 +46,8 @@
     "questions:rebuild-dropbox": "node scripts/rebuild-dropbox-banks.mjs",
     "questions:restore-dropbox": "node scripts/restore-all-dropbox.mjs",
     "questions:audit-dropbox": "node scripts/audit-dropbox-sentences.mjs",
+    "questions:audit-informative": "node scripts/audit-input-text-informative.mjs",
+    "questions:audit-final": "node scripts/audit-final.mjs",
     "backend:verify": "node scripts/verify-backend.mjs",
     "backend:check": "node scripts/check-backend-url.mjs"
   },
