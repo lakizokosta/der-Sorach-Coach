@@ -5,4 +5,4 @@ correct:
   - neben
 ---
 
-Das Café ist ___ dem Park. (Lokale Präposition)
+Das Café ist ___ dem Park. (Lokale Präposition — hinter / neben / unter / zwischen)

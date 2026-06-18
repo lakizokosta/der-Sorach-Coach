@@ -5,4 +5,4 @@ correct:
   - ab
 ---
 
-Das Gesetz gilt ___ nächsten Monat. (Präposition)
+Das Gesetz gilt ___ nächsten Monat. (Präposition — ab / nach / seit / von)

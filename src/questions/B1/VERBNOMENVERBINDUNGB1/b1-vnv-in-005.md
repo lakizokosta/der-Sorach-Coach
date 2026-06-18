@@ -5,4 +5,4 @@ correct:
   - äußert
 ---
 
-Er ___ eine klare Meinung zu der Frage. (Verb-Nomen-Verbindung)
+Er ___ eine klare Meinung zu der Frage. (Verb-Nomen-Verbindung — äußert / macht / nimmt / stellt)

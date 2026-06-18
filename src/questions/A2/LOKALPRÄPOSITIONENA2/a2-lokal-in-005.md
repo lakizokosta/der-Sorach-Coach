@@ -5,4 +5,4 @@ correct:
   - vor
 ---
 
-Wir warten ___ dem Eingang. (Lokalpräposition)
+Wir warten ___ dem Eingang. (Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen)

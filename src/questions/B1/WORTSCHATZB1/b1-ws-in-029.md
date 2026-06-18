@@ -5,4 +5,4 @@ correct:
   - Medikament
 ---
 
-Der Arzt verschreibt ein ___. (Wortschatz B1)
+Der Arzt verschreibt ein ___. (Wortschatz — Medikament / Medikamentier / Medikamentierung / Medikamentler)

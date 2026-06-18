@@ -5,4 +5,4 @@ correct:
   - Regierung
 ---
 
-Die ___ hat eine neue Regelung beschlossen. (Wortschatz B1)
+Die ___ hat eine neue Regelung beschlossen. (Wortschatz — Regierend / Regierer / Regiering / Regierung)

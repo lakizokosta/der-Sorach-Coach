@@ -5,4 +5,4 @@ correct:
   - rechts
 ---
 
-Vom Eingang der Mall aus: Die Apotheke ist ___. (Lokalangabe)
+Vom Eingang der Mall aus: Die Apotheke ist ___. (Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen)

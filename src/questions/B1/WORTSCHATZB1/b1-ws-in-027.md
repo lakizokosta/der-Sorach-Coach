@@ -5,4 +5,4 @@ correct:
   - Konferenz
 ---
 
-Die ___ beginnt morgen früh. (Wortschatz B1)
+Die ___ beginnt morgen früh. (Wortschatz — Konferenz / Konferenzbar / Konferenzler / Konferierend)

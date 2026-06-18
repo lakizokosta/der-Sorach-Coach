@@ -5,4 +5,4 @@ correct:
   - ob
 ---
 
-Ich frage mich, ___ er recht hat. (Indirekte Frage)
+Ich frage mich, ___ er recht hat. (Indirekte Frage — dass / ob / weil / wenn)

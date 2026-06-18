@@ -5,4 +5,4 @@ correct:
   - haben
 ---
 
-Wir ___ ein Meeting. (Verb-Nomen-Verbindung)
+Wir ___ ein Meeting. (Verb-Nomen-Verbindung — haben / machen / stellen / treffen)

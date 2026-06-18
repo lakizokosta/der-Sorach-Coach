@@ -5,4 +5,4 @@ correct:
   - neben
 ---
 
-Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition)
+Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen)

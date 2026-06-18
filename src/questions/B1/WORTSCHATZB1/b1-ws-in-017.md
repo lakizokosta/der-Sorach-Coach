@@ -5,4 +5,4 @@ correct:
   - Sicherheit
 ---
 
-Die ___ der Arbeitsplätze ist ein wichtiges Thema. (Wortschatz B1)
+Die ___ der Arbeitsplätze ist ein wichtiges Thema. (Wortschatz — Sicherheit / Sicherheitssystem / Sicherlichkeit / Sichern)

@@ -5,4 +5,4 @@ correct:
   - an
 ---
 
-Das Hotel liegt ___ der Küste. (Präposition)
+Das Hotel liegt ___ der Küste. (Präposition — an / auf / nach / zu)

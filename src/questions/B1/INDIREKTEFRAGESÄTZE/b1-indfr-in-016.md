@@ -5,4 +5,4 @@ correct:
   - ob
 ---
 
-Ich weiß nicht, ___ der Termin stattfindet. (Indirekte Frage)
+Ich weiß nicht, ___ der Termin stattfindet. (Indirekte Frage — dass / ob / weil / wenn)

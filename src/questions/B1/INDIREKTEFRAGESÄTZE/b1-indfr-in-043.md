@@ -5,4 +5,4 @@ correct:
   - ob
 ---
 
-Wir wissen nicht, ___ das Problem gelöst wird. (Indirekte Frage)
+Wir wissen nicht, ___ das Problem gelöst wird. (Indirekte Frage — dass / denn / ob / weil)

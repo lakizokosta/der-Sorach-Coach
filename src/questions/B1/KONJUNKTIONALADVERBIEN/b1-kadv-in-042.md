@@ -5,4 +5,4 @@ correct:
   - Dennoch
 ---
 
-Das Essen war teuer. ___, war die Qualität hoch. (Konjunktionaladverb)
+Das Essen war teuer. ___, war die Qualität hoch. (Konjunktionaladverb — Außerdem / Dennoch / Deshalb / Weil)

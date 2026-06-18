@@ -5,4 +5,4 @@ correct:
   - ob
 ---
 
-Wir sind uns nicht sicher, ___ das stimmt. (Indirekte Frage)
+Wir sind uns nicht sicher, ___ das stimmt. (Indirekte Frage — denn / ob / weil / wenn)

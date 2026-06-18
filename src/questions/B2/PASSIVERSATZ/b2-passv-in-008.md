@@ -5,4 +5,4 @@ correct:
   - beantworten
 ---
 
-Diese Frage ist nicht zu ___ . (Passiversatz)
+Diese Frage ist nicht zu ___ . (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

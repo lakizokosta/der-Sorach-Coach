@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Die Tür ___ sich nicht schließen. (Passiv-Ersatz + Verb lassen)
+Die Tür ___ sich nicht schließen. (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

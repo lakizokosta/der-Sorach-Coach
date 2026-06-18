@@ -5,4 +5,4 @@ correct:
   - Ausstoß
 ---
 
-Wir müssen den ___ senken, um die Umwelt zu schützen. (Wortschatz B1)
+Wir müssen den ___ senken, um die Umwelt zu schützen. (Wortschatz — Ausstoß / Ausstoßen / Ausstoßer / Ausstoßung)

@@ -5,4 +5,4 @@ correct:
   - bis
 ---
 
-Das Büro ist ___ 18 Uhr geöffnet. (Präposition)
+Das Büro ist ___ 18 Uhr geöffnet. (Präposition — ab / bis / nach / seit)

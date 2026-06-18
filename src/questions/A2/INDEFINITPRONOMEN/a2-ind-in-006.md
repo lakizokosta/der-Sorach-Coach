@@ -5,4 +5,4 @@ correct:
   - niemanden
 ---
 
-Ich sehe ___ auf der Straße. (Indefinitpronomen — Verneinung, Akk.)
+Ich sehe ___ auf der Straße. (Indefinitpronomen — Verneinung Person, Akk. = niemanden)

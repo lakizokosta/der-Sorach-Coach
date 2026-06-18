@@ -5,4 +5,4 @@ correct:
   - nachhaltige
 ---
 
-Sie sucht eine ___ Lösung für das Problem. (Wortschatz B1)
+Sie sucht eine ___ Lösung für das Problem. (Wortschatz — nachhaltbar / nachhaltend / nachhaltig / nachhaltige)

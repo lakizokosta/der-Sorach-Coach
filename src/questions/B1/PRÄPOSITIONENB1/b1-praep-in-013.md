@@ -5,4 +5,4 @@ correct:
   - aus
 ---
 
-Sie kommt ___ der Türkei. (Präposition)
+Sie kommt ___ der Türkei. (Präposition — aus / in / nach / zu)

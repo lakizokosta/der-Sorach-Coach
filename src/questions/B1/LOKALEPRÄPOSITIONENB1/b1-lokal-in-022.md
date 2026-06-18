@@ -5,4 +5,4 @@ correct:
   - durch
 ---
 
-Fahren Sie ___ den Tunnel! (Lokale Präposition)
+Fahren Sie ___ den Tunnel! (Lokale Präposition — durch / hinter / neben / über)

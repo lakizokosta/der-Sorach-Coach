@@ -5,4 +5,4 @@ correct:
   - was
 ---
 
-Ich möchte wissen, ___ du denkst. (Indirekte Frage)
+Ich möchte wissen, ___ du denkst. (Indirekte Frage — denn / ob / was / weil)

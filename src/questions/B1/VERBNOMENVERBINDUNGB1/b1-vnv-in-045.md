@@ -5,4 +5,4 @@ correct:
   - mache
 ---
 
-Ich ___ eine Pause. (Verb-Nomen-Verbindung)
+Ich ___ eine Pause. (Verb-Nomen-Verbindung — mache / nehme / stelle / treffe)

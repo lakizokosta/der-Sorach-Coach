@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Wir diskutieren ___ Problem im Team. (Akkusativ — Akkusativ)
+Wir diskutieren ___ Problem im Team. (Akkusativ — das / dem / den / der)

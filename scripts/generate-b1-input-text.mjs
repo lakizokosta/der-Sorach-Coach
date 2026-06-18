@@ -174,12 +174,14 @@ function hintInner(topic, prompt, correct = '') {
     const tail = tokens[tokens.length - 1];
     const prep = tokens.length > 1 ? tokens[0] : '';
     const caseInfo = RELATIV_HINT[tail] || '';
-    if (prep && caseInfo) return `Relativpronomen — Präp. ${prep}, ${tail} (${caseInfo})`;
+    if (prep && caseInfo) return `Relativpronomen — Präp. ${prep} + ${tail}, ${caseInfo}`;
     return caseInfo ? `Relativpronomen — ${caseInfo}` : 'Relativpronomen';
   }
   if (topic === 'PRÄPOSITIONALADVERBIEN') {
     const prep = pronominaladverbPreposition(prompt);
-    return prep ? `Pronominaladverb — Präp. ${prep}` : 'Pronominaladverb';
+    // correct is like 'dafür', 'darauf', 'daran' — strip leading 'da(r)?' to expose the prep
+    const tail = String(correct).toLowerCase().replace(/^da(r)?/, '');
+    return prep ? `Pronominaladverb — Präp. ${prep}` : (tail ? `Pronominaladverb — Präp. ${tail}` : 'Pronominaladverb');
   }
   if (topic === 'TRENNBAREVERBENB1') {
     const lemma = trennbarLemma(correct, prompt);
@@ -187,6 +189,27 @@ function hintInner(topic, prompt, correct = '') {
   }
   return HINT[topic] || topic;
 }
+
+/** Build a closed-set hint listing correct + distractors so input-text matches the select-one alternatives. */
+function closedSetHint(label, correct, options) {
+  const all = [String(correct), ...((options || []).filter((o) => o !== correct))];
+  // Sort alphabetically for stability; cap at 5 entries.
+  const sorted = [...new Set(all.map((s) => String(s).trim()))].slice(0, 5).sort((a, b) => a.localeCompare(b, 'de'));
+  return `${label} — ${sorted.join(' / ')}`;
+}
+
+/** Topics where input-text is essentially a lexical recall task — the hint
+ *  must enumerate the candidate alternatives, otherwise the answer is unguessable.
+ */
+const CLOSED_SET_TOPICS = {
+  WORTSCHATZB1: 'Wortschatz',
+  VERBNOMENVERBINDUNGB1: 'Verb-Nomen-Verbindung',
+  KONJUNKTIONALADVERBIEN: 'Konjunktionaladverb',
+  PRÄPOSITIONENB1: 'Präposition',
+  LOKALEPRÄPOSITIONENB1: 'Lokale Präposition',
+  AKKUSATIVB1: 'Akkusativ',
+  INDIREKTEFRAGESÄTZE: 'Indirekte Frage',
+};
 
 function writeTopic(folder, prefix, questions) {
   mkdirSync(join(ROOT, folder), { recursive: true });
@@ -196,9 +219,15 @@ function writeTopic(folder, prefix, questions) {
     const id = `${prefix}-${num}`;
     const path = join(ROOT, folder, `${id}.md`);
     if (!FORCE && existsSync(path)) return;
-    const inner = hintInner(folder, q.prompt, q.correct);
-    const hint = transformHint(inner, folder, [q.correct], q.options || [], q.prompt, id);
-    const prompt = `${q.prompt} (${hint})`;
+    let prompt;
+    if (CLOSED_SET_TOPICS[folder]) {
+      const hint = closedSetHint(CLOSED_SET_TOPICS[folder], q.correct, q.options || []);
+      prompt = `${q.prompt} (${hint})`;
+    } else {
+      const inner = hintInner(folder, q.prompt, q.correct);
+      const hint = transformHint(inner, folder, [q.correct], q.options || [], q.prompt, id);
+      prompt = `${q.prompt} (${hint})`;
+    }
     writeFileSync(path, md(id, prompt, q.correct), 'utf8');
     n += 1;
   });

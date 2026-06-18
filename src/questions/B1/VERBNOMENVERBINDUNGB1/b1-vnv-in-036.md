@@ -5,4 +5,4 @@ correct:
   - nehmen
 ---
 
-Wir ___ Rücksicht auf die Kollegen. (Verb-Nomen-Verbindung)
+Wir ___ Rücksicht auf die Kollegen. (Verb-Nomen-Verbindung — geben / machen / nehmen / stellen)

@@ -148,16 +148,16 @@ export function transformHint(inner, topic, correct, options = [], body = '', id
 
   // Akkusativ / Dativ / Genitiv — keep all info from bank (incl. noun & case)
   if (topic === 'AKKUSATIVA1' || topic === 'AKKUSATIVA2' || topic === 'AKKUSATIVB1') {
-    const rest = inner.replace(/^Akkusativ\s*—\s*/i, '').trim();
-    return rest ? `Akkusativ — ${rest}` : 'Akkusativ';
+    const rest = inner.replace(/^Akkusativ\s*(?:—\s*)?/i, '').trim();
+    return rest && rest.toLowerCase() !== 'akkusativ' ? `Akkusativ — ${rest}` : 'Akkusativ';
   }
   if (topic === 'DATIVA1' || topic === 'DATIVA2') {
-    const rest = inner.replace(/^Dativ\s*—\s*/i, '').trim();
-    return rest ? `Dativ — ${rest}` : 'Dativ';
+    const rest = inner.replace(/^Dativ\s*(?:—\s*)?/i, '').trim();
+    return rest && rest.toLowerCase() !== 'dativ' ? `Dativ — ${rest}` : 'Dativ';
   }
   if (topic === 'GENITIVA2' || topic === 'GENITIVB2') {
-    const rest = inner.replace(/^Genitiv(?:form)?\s*—\s*/i, '').trim();
-    return rest ? `Genitiv — ${rest}` : 'Genitiv';
+    const rest = inner.replace(/^Genitiv(?:form)?\s*(?:—\s*)?/i, '').trim();
+    return rest && rest.toLowerCase() !== 'genitiv' ? `Genitiv — ${rest}` : 'Genitiv';
   }
 
   // Verb — Präsens + Verb (not person)

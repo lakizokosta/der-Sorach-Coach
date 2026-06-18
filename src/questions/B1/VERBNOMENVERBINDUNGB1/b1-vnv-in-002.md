@@ -5,4 +5,4 @@ correct:
   - leistet
 ---
 
-Sie ___ einen wichtigen Beitrag zur Diskussion. (Verb-Nomen-Verbindung)
+Sie ___ einen wichtigen Beitrag zur Diskussion. (Verb-Nomen-Verbindung — gibt / leistet / macht / nimmt)

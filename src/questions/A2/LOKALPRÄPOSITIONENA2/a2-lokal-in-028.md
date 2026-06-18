@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Wir treffen uns ___ dem Platz. (Lokalpräposition)
+Wir treffen uns ___ dem Platz. (Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen)

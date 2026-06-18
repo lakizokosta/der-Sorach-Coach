@@ -5,4 +5,4 @@ correct:
   - jemand
 ---
 
-Kann ___ mir am Bankschalter helfen? (Indefinitpronomen — Person)
+Kann ___ mir am Bankschalter helfen? (Indefinitpronomen — unbestimmte Person = jemand)

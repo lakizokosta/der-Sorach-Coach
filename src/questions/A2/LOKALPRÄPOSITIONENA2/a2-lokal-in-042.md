@@ -5,4 +5,4 @@ correct:
   - zwischen
 ---
 
-Das Geschäft ist ___ zwei Häusern. (Lokalpräposition)
+Das Geschäft ist ___ zwei Häusern. (Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen)

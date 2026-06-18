@@ -5,4 +5,4 @@ correct:
   - am
 ---
 
-Die Besprechung findet ___ Montag statt. (Präposition)
+Die Besprechung findet ___ Montag statt. (Präposition — am / an / im / um)

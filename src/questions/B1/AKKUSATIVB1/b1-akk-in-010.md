@@ -5,4 +5,4 @@ correct:
   - ein
 ---
 
-Sie reserviert ___ Zimmer im Hotel. (Akkusativ — Akkusativ)
+Sie reserviert ___ Zimmer im Hotel. (Akkusativ — ein / eine / einem / einer)

@@ -5,4 +5,4 @@ correct:
   - bietet
 ---
 
-Die Universität ___ einen Kurs an. (Verb-Nomen-Verbindung)
+Die Universität ___ einen Kurs an. (Verb-Nomen-Verbindung — bietet / gibt / macht / stellt)

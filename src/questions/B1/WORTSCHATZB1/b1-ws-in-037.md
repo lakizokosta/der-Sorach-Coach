@@ -5,4 +5,4 @@ correct:
   - Nachfrage
 ---
 
-Die ___ an der Universität ist sehr hoch. (Wortschatz B1)
+Die ___ an der Universität ist sehr hoch. (Wortschatz — Nachfrage / Nachfragebar / Nachfragen / Nachfragend)

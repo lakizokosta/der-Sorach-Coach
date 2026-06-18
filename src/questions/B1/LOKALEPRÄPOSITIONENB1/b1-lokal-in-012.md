@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Er wohnt ___ dem Land. (Lokale Präposition)
+Er wohnt ___ dem Land. (Lokale Präposition — an / auf / in / zu)

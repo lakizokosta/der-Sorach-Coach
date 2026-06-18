@@ -5,4 +5,4 @@ correct:
   - sieht
 ---
 
-Sie ___ sich im Spiegel. (Reflexiv + Verb sehen)
+Sie ___ sich im Spiegel. (Reflexiv + Verb sehen/sien)

@@ -5,4 +5,4 @@ correct:
   - auswerten
 ---
 
-Die Daten sind leicht zu ___ . (Passiv-Ersatz + Verb auswerten)
+Die Daten sind leicht zu ___ . (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

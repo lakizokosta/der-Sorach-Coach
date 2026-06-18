@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Wir warten ___ den Arzt. (Präposition)
+Wir warten ___ den Arzt. (Präposition — auf / in / mit / zu)

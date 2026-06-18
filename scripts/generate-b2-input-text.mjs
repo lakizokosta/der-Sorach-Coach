@@ -29,17 +29,35 @@ const PREFIX = {
   PASSIVERSATZ: 'b2-passv-in',
 };
 
+const CLOSED_SET_TOPICS = {
+  PASSIVERSATZ: 'Passiv-Ersatz',
+};
+
+const CLOSED_SET_CACHE = new Map();
+function closedSetForTopic(folder) {
+  if (CLOSED_SET_CACHE.has(folder)) return CLOSED_SET_CACHE.get(folder);
+  const bank = getBank(folder) || [];
+  const all = new Set();
+  for (const q of bank) {
+    const ans = Array.isArray(q.correct) ? q.correct : [q.correct];
+    for (const a of ans) all.add(String(a).trim());
+  }
+  const sorted = [...all].sort((a, b) => a.localeCompare(b, 'de'));
+  CLOSED_SET_CACHE.set(folder, sorted);
+  return sorted;
+}
+
 function buildPrompt(rawPrompt, folder, correct, id) {
   // If prompt ends with `(...)` — that is the hint; pass through transformHint.
   const m = rawPrompt.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
   const ans = Array.isArray(correct) ? correct : [correct];
-  if (!m) return rawPrompt;
-  const sentence = m[1].trimEnd();
-  // Heuristic: if the inner is a short single token (likely an inline cue lemma),
-  // keep as-is; otherwise pass through transformHint with topic context.
+  if (!m && !CLOSED_SET_TOPICS[folder]) return rawPrompt;
+  const sentence = m ? m[1].trimEnd() : rawPrompt;
+  if (CLOSED_SET_TOPICS[folder]) {
+    const set = closedSetForTopic(folder);
+    return `${sentence} (${CLOSED_SET_TOPICS[folder]} — ${set.join(' / ')})`;
+  }
   const inner = m[2].trim();
-  // For B2, banks always include a meaningful inner. transformHint will keep
-  // verb lemmas (via verbFormHint) and category labels.
   const hint = transformHint(inner, folder, ans, [], sentence, id);
   return `${sentence} (${hint})`;
 }

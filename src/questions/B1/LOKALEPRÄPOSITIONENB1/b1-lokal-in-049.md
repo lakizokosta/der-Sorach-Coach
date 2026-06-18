@@ -5,4 +5,4 @@ correct:
   - in
 ---
 
-Das Krankenhaus befindet sich ___ der Stadtmitte. (Lokale Präposition)
+Das Krankenhaus befindet sich ___ der Stadtmitte. (Lokale Präposition — auf / in / nach / zu)

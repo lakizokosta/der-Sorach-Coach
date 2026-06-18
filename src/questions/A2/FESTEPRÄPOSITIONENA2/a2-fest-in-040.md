@@ -5,4 +5,4 @@ correct:
   - einem
 ---
 
-Er träumt von ___ Urlaub. (feste Präposition)
+Er träumt von ___ Urlaub. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)

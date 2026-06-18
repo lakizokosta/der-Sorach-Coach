@@ -5,4 +5,4 @@ correct:
   - erneuerbare
 ---
 
-Wir diskutieren über ___ Energiequellen. (Wortschatz B1)
+Wir diskutieren über ___ Energiequellen. (Wortschatz — erneuerbar / erneuerbare / erneuerbarer / erneuert)

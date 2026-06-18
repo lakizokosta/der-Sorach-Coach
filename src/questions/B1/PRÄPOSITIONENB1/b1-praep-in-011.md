@@ -5,4 +5,4 @@ correct:
   - nach
 ---
 
-Er reist ___ Italien. (Präposition)
+Er reist ___ Italien. (Präposition — auf / in / nach / zu)

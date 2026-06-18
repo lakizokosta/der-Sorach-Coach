@@ -5,4 +5,4 @@ correct:
   - über
 ---
 
-Wir diskutieren ___ den neuen Plan. (Präposition)
+Wir diskutieren ___ den neuen Plan. (Präposition — an / auf / in / über)

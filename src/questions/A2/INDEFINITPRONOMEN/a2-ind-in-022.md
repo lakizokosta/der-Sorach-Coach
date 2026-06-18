@@ -5,4 +5,4 @@ correct:
   - Jemand
 ---
 
-___ war bei der Panne sehr nett. (Indefinitpronomen — Person, Nom.)
+___ war bei der Panne sehr nett. (Indefinitpronomen — unbestimmte Person, Nom. = jemand)

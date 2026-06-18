@@ -5,4 +5,4 @@ correct:
   - Deshalb
 ---
 
-Die Politik ändert sich. ___, reagieren die Bürger. (Konjunktionaladverb)
+Die Politik ändert sich. ___, reagieren die Bürger. (Konjunktionaladverb — Außerdem / Deshalb / Trotzdem / Weil)

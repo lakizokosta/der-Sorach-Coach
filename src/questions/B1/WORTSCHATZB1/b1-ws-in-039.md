@@ -5,4 +5,4 @@ correct:
   - Bericht
 ---
 
-Der ___ zeigt, dass die Wirtschaft wächst. (Wortschatz B1)
+Der ___ zeigt, dass die Wirtschaft wächst. (Wortschatz — Bericht / Berichtbar / Berichter / Berichtung)

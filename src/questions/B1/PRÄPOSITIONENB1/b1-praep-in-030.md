@@ -5,4 +5,4 @@ correct:
   - in
 ---
 
-Er ist ___ dem Geschäft. (Präposition)
+Er ist ___ dem Geschäft. (Präposition — auf / in / nach / zu)

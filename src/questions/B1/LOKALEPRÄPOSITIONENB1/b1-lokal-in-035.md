@@ -5,4 +5,4 @@ correct:
   - über
 ---
 
-Geh ___ die Brücke und dann links! (Lokale Präposition)
+Geh ___ die Brücke und dann links! (Lokale Präposition — durch / neben / über / unter)

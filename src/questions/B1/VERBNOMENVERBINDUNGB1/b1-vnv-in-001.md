@@ -5,4 +5,4 @@ correct:
   - treffen
 ---
 
-Wir müssen heute eine wichtige Entscheidung ___. (Verb-Nomen-Verbindung)
+Wir müssen heute eine wichtige Entscheidung ___. (Verb-Nomen-Verbindung — machen / nehmen / stellen / treffen)

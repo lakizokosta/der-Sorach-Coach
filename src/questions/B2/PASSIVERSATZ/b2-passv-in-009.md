@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Das Ergebnis ___ sich nicht vorhersagen. (Passiv-Ersatz + Verb lassen)
+Das Ergebnis ___ sich nicht vorhersagen. (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

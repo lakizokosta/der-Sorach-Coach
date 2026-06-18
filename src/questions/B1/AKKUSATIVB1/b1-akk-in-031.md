@@ -5,4 +5,4 @@ correct:
   - einen
 ---
 
-Der Journalist recherchiert ___ komplexen Fall. (Akkusativ — Akkusativ)
+Der Journalist recherchiert ___ komplexen Fall. (Akkusativ — ein / eine / einem / einen)

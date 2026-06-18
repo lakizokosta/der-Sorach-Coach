@@ -5,4 +5,4 @@ correct:
   - überarbeiten
 ---
 
-Der Bericht ist noch zu ___ . (Passiv-Ersatz + Verb überarbeiten)
+Der Bericht ist noch zu ___ . (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

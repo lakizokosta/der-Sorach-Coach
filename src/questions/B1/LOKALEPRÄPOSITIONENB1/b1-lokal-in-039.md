@@ -5,4 +5,4 @@ correct:
   - vor
 ---
 
-Wir warten ___ dem Rathaus. (Lokale Präposition)
+Wir warten ___ dem Rathaus. (Lokale Präposition — hinter / neben / vor / zwischen)

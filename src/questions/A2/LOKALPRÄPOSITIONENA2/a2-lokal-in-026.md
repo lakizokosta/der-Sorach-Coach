@@ -5,4 +5,4 @@ correct:
   - an
 ---
 
-Der Supermarkt ist ___ der Ecke. (Lokalpräposition)
+Der Supermarkt ist ___ der Ecke. (Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen)

@@ -5,4 +5,4 @@ correct:
   - über
 ---
 
-Wir gehen ___ die Straße. (Lokale Präposition)
+Wir gehen ___ die Straße. (Lokale Präposition — durch / hinter / neben / über)

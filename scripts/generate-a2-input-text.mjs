@@ -40,11 +40,35 @@ const TOPICS = {
   'N-DEKLINATION': 'a2-n-in',
 };
 
+/** Topics where the hint must enumerate the closed candidate set (built from bank). */
+const CLOSED_SET_TOPICS = {
+  LOKALPRÄPOSITIONENA2: 'Lokalpräposition',
+  FESTEPRÄPOSITIONENA2: 'Feste Präposition',
+};
+
+const CLOSED_SET_CACHE = new Map();
+function closedSetForTopic(folder) {
+  if (CLOSED_SET_CACHE.has(folder)) return CLOSED_SET_CACHE.get(folder);
+  const items = BANK[folder] || [];
+  const all = new Set();
+  for (const it of items) {
+    const ans = Array.isArray(it[1]) ? it[1] : [it[1]];
+    for (const a of ans) all.add(String(a).trim());
+  }
+  const sorted = [...all].sort((a, b) => a.localeCompare(b, 'de'));
+  CLOSED_SET_CACHE.set(folder, sorted);
+  return sorted;
+}
+
 function buildPrompt(item, folder, id) {
   const raw = item[0].replace(/^\[[^\]]+]\s+/, '');
   const m = raw.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
   const ans = Array.isArray(item[1]) ? item[1] : [item[1]];
   const sentence = m ? m[1].trimEnd() : raw;
+  if (CLOSED_SET_TOPICS[folder]) {
+    const set = closedSetForTopic(folder);
+    return `${sentence} (${CLOSED_SET_TOPICS[folder]} — ${set.join(' / ')})`;
+  }
   if (m) return `${sentence} (${transformHint(m[2], folder, ans, [], sentence, id)})`;
   return bodyWithHint(raw, verbFormHint(folder, '', ans, [], raw, id));
 }

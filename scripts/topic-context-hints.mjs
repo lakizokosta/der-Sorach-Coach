@@ -214,8 +214,9 @@ function isLikelyLemma(word) {
   if (!w || PERSON_MARK.test(w) || /form$/i.test(w)) return false;
   if (IRREGULAR_INF.has(w)) return true;
   if (FINITE_EN_FORMS.has(w) || SEIN_FORMS.has(w) || HABEN_FORMS.has(w)) return false;
-  // Partizip II (ge-X-en / ge-X-t) is not a lemma.
-  if (/^ge\w+(en|t)$/.test(w)) return false;
+  // Partizip II (ge-XXX-en / ge-XXX-t) requires stem of at least 3 chars after `ge-`
+  // to avoid false positives on lemmas like `gehen`, `geben`, `gelten`.
+  if (/^ge[a-zäöüß]{3,}(en|t)$/i.test(w)) return false;
   return /(?:en|eln|ern)$/i.test(w);
 }
 
@@ -269,10 +270,10 @@ export function extractInfinitiveFromOptions(options, correct) {
     if (IRREGULAR_INF.has(o.toLowerCase())) return o.toLowerCase();
   }
 
-  // Filter out Partizip II forms (ge-*-en / ge-*-t) — they're not infinitives.
+  // Filter out Partizip II forms (ge-XXX-en / ge-XXX-t with stem ≥3) — they're not infinitives.
   const infinitives = opts.filter((o) => {
     const lo = String(o).toLowerCase();
-    if (/^ge\w+(en|t)$/.test(lo)) return false;
+    if (/^ge[a-zäöüß]{3,}(en|t)$/i.test(lo)) return false;
     return isLikelyLemma(o);
   });
 

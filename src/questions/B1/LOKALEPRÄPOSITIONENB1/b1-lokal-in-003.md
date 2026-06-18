@@ -5,4 +5,4 @@ correct:
   - vor
 ---
 
-Wir treffen uns ___ dem Eingang der Universität. (Lokale Präposition)
+Wir treffen uns ___ dem Eingang der Universität. (Lokale Präposition — hinter / neben / vor / zwischen)

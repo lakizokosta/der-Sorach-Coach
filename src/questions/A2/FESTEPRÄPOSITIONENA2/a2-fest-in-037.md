@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Wir sprechen über ___ Reise. (feste Präposition)
+Wir sprechen über ___ Reise. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)

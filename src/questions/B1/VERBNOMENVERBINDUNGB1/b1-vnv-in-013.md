@@ -5,4 +5,4 @@ correct:
   - übernimmt
 ---
 
-Er ___ Verantwortung für das Projekt. (Verb-Nomen-Verbindung)
+Er ___ Verantwortung für das Projekt. (Verb-Nomen-Verbindung — macht / nimmt / stellt / übernimmt)

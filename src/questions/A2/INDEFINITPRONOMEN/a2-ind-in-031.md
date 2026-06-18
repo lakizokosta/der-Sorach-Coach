@@ -5,4 +5,4 @@ correct:
   - etwas
 ---
 
-Hier stimmt ___ nicht. (Indefinitpronomen — Sache)
+Hier stimmt ___ nicht. (Indefinitpronomen — unbestimmte Sache = etwas)

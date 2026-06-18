@@ -5,4 +5,4 @@ correct:
   - zwischen
 ---
 
-Das Museum ist ___ zwei Gebäuden. (Lokale Präposition)
+Das Museum ist ___ zwei Gebäuden. (Lokale Präposition — gegenüber / hinter / neben / zwischen)

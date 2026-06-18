@@ -5,4 +5,4 @@ correct:
   - um
 ---
 
-Wir treffen uns ___ halb neun. (Präposition)
+Wir treffen uns ___ halb neun. (Präposition — am / an / in / um)

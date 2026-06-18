@@ -5,4 +5,4 @@ correct:
   - durch
 ---
 
-Fahren Sie ___ den Tunnel! (Lokalpräposition + Akk.)
+Fahren Sie ___ den Tunnel! (Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen)

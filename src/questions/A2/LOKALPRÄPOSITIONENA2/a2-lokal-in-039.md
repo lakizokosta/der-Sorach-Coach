@@ -5,4 +5,4 @@ correct:
   - über
 ---
 
-Geh ___ die Brücke! (Lokalpräposition + Akk.)
+Geh ___ die Brücke! (Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen)

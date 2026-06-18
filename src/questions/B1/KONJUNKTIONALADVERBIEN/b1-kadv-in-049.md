@@ -5,4 +5,4 @@ correct:
   - Dennoch
 ---
 
-Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb)
+Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb — Denn / Dennoch / Deshalb / Weil)

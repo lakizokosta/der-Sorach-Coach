@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Das Rätsel ___ sich nicht lösen. (Passiv-Ersatz + Verb lassen)
+Das Rätsel ___ sich nicht lösen. (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

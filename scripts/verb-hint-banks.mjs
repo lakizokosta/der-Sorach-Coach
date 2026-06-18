@@ -275,7 +275,8 @@ export function finiteToInfinitive(word) {
     trägst: 'tragen', trägt: 'tragen', trug: 'tragen', getragen: 'tragen',
   };
   if (map[w]) return map[w];
-  if (/^ge\w+(en|t)$/i.test(w)) return '';
+  // Partizip II requires stem ≥3 chars after `ge-` to avoid matching `gehen`, `geben`.
+  if (/^ge[a-zäöüß]{3,}(en|t)$/i.test(w)) return '';
   if (/(?:en|eln|ern)$/i.test(w)) return w;
   // Drop -st (du-form) → -en :  meldest → melden, kaufst → kaufen
   if (/[a-zäöüß]{2,}st$/i.test(w)) {

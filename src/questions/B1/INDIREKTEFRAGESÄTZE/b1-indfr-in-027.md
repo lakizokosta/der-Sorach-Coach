@@ -5,4 +5,4 @@ correct:
   - ob
 ---
 
-Er fragt, ___ wir schon gebucht haben. (Indirekte Frage)
+Er fragt, ___ wir schon gebucht haben. (Indirekte Frage — dass / denn / ob / weil)

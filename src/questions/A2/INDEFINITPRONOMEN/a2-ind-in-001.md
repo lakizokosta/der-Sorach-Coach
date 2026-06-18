@@ -5,4 +5,4 @@ correct:
   - Man
 ---
 
-___ muss die Hausaufgaben machen. (Indefinitpronomen — unpersönlich)
+___ muss die Hausaufgaben machen. (Indefinitpronomen — unpersönliches Subjekt = man)

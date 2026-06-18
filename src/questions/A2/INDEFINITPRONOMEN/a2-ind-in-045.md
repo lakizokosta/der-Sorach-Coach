@@ -5,4 +5,4 @@ correct:
   - niemanden
 ---
 
-Ich kenne ___ hier in der neuen Stadt. (Indefinitpronomen — Verneinung, Akk.)
+Ich kenne ___ hier in der neuen Stadt. (Indefinitpronomen — Verneinung Person, Akk. = niemanden)

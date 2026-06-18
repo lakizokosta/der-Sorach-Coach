@@ -5,4 +5,4 @@ correct:
   - bereitet
 ---
 
-Sie ___ sich für das Fest. (Reflexiv + Verb vorbereiten)
+Sie ___ sich für das Fest. (Reflexiv + Verb vorbereiten/sien)

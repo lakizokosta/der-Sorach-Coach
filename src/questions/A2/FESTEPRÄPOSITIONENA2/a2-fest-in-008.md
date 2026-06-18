@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Sie ärgert sich über ___ Fehler. (feste Präposition)
+Sie ärgert sich über ___ Fehler. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)

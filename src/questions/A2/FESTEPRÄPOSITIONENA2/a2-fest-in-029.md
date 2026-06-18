@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Sie wartet auf ___ Zug. (feste Präposition)
+Sie wartet auf ___ Zug. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)

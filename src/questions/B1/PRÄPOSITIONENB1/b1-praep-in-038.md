@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Sie wohnt ___ dem Land. (Präposition)
+Sie wohnt ___ dem Land. (Präposition — an / auf / nach / zu)

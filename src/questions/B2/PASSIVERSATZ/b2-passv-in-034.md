@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Das Gerät ___ sich einfach bedienen. (Passiv-Ersatz + Verb lassen)
+Das Gerät ___ sich einfach bedienen. (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

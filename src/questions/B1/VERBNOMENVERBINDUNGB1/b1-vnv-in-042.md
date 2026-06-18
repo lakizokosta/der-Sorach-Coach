@@ -5,4 +5,4 @@ correct:
   - stellt
 ---
 
-Sie ___ eine Diagnose. (Verb-Nomen-Verbindung)
+Sie ___ eine Diagnose. (Verb-Nomen-Verbindung — gibt / macht / nimmt / stellt)

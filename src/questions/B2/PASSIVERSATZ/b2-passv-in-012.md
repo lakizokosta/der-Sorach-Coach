@@ -5,4 +5,4 @@ correct:
   - bedienen
 ---
 
-Die Maschine ist leicht zu ___ . (Passiversatz)
+Die Maschine ist leicht zu ___ . (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

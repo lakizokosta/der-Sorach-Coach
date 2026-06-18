@@ -5,4 +5,4 @@ correct:
   - erledigen
 ---
 
-Die Aufgabe ist zu ___ . (Passiv-Ersatz + Verb erledigen)
+Die Aufgabe ist zu ___ . (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

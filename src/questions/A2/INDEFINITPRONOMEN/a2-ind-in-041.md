@@ -5,4 +5,4 @@ correct:
   - etwas
 ---
 
-Hast du ___ Interesse an Sport? (Indefinitpronomen — Sache)
+Hast du ___ Interesse an Sport? (Indefinitpronomen — unbestimmte Sache = etwas)

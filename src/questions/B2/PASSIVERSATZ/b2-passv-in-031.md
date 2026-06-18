@@ -5,4 +5,4 @@ correct:
   - prüfen
 ---
 
-Der Antrag ist noch zu ___ . (Passiv-Ersatz + Verb prüfen)
+Der Antrag ist noch zu ___ . (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

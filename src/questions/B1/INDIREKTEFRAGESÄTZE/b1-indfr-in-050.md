@@ -5,4 +5,4 @@ correct:
   - wann
 ---
 
-Sie möchte wissen, ___ der Kurs beginnt. (Indirekte Frage)
+Sie möchte wissen, ___ der Kurs beginnt. (Indirekte Frage — denn / ob / wann / weil)

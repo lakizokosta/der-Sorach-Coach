@@ -5,4 +5,4 @@ correct:
   - Trotzdem
 ---
 
-Der Arzt riet zur Ruhe. ___, arbeitet er weiter. (Konjunktionaladverb)
+Der Arzt riet zur Ruhe. ___, arbeitet er weiter. (Konjunktionaladverb — Außerdem / Deshalb / Trotzdem / Weil)

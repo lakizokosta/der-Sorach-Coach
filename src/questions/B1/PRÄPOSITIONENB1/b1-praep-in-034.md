@@ -5,4 +5,4 @@ correct:
   - an
 ---
 
-Sie ist ___ der Universität. (Präposition)
+Sie ist ___ der Universität. (Präposition — an / in / nach / zu)

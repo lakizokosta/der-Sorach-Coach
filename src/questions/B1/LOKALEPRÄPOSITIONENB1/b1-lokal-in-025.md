@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Die Klinik ist ___ der dritten Etage. (Lokale Präposition)
+Die Klinik ist ___ der dritten Etage. (Lokale Präposition — auf / in / nach / zu)

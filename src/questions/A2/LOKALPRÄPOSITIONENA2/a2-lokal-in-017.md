@@ -5,4 +5,4 @@ correct:
   - aus
 ---
 
-Ihr kommt ___ dem Hotel. (Lokalpräposition)
+Ihr kommt ___ dem Hotel. (Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen)

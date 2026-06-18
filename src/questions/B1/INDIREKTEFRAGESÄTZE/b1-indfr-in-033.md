@@ -5,4 +5,4 @@ correct:
   - ob
 ---
 
-Er fragt, ___ wir morgen kommen. (Indirekte Frage)
+Er fragt, ___ wir morgen kommen. (Indirekte Frage — dass / denn / ob / wenn)

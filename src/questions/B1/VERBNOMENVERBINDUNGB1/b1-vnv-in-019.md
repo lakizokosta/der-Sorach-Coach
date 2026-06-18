@@ -5,4 +5,4 @@ correct:
   - knüpft
 ---
 
-Die Firma ___ Kontakt mit neuen Kunden. (Verb-Nomen-Verbindung)
+Die Firma ___ Kontakt mit neuen Kunden. (Verb-Nomen-Verbindung — gibt / knüpft / nimmt / stellt)

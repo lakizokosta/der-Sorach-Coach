@@ -5,4 +5,4 @@ correct:
   - Genesung
 ---
 
-Die ___ nach dem Unfall war lang. (Wortschatz B1)
+Die ___ nach dem Unfall war lang. (Wortschatz — Genes / Genesung / Genesungbar / Genesungler)

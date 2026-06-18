@@ -5,4 +5,4 @@ correct:
   - Jemand
 ---
 
-___ ist da, der mir helfen kann. (Indefinitpronomen — Person)
+___ ist da, der mir helfen kann. (Indefinitpronomen — unbestimmte Person = jemand)

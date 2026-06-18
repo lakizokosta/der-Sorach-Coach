@@ -5,4 +5,4 @@ correct:
   - hält
 ---
 
-Der Minister ___ eine Rede. (Verb-Nomen-Verbindung)
+Der Minister ___ eine Rede. (Verb-Nomen-Verbindung — gibt / hält / macht / stellt)

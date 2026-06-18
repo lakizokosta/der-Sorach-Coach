@@ -5,4 +5,4 @@ correct:
   - wie lange
 ---
 
-Ich bin gespannt, ___ die Reise dauert. (Indirekte Frage)
+Ich bin gespannt, ___ die Reise dauert. (Indirekte Frage — dass / denn / ob / wie lange)

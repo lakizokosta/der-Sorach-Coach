@@ -5,4 +5,4 @@ correct:
   - was
 ---
 
-Ich interessiere mich dafür, ___ die neue Regelung bedeutet. (Indirekte Frage)
+Ich interessiere mich dafür, ___ die neue Regelung bedeutet. (Indirekte Frage — dass / denn / was / weil)

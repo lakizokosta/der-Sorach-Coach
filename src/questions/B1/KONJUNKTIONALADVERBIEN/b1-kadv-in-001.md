@@ -5,4 +5,4 @@ correct:
   - Trotzdem
 ---
 
-Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb)
+Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb — Denn / Deshalb / Trotzdem / Weil)

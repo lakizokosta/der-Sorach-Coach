@@ -5,4 +5,4 @@ correct:
   - seine
 ---
 
-Er denkt an ___ Familie. (feste Präposition)
+Er denkt an ___ Familie. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)

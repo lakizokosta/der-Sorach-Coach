@@ -5,4 +5,4 @@ correct:
   - wie
 ---
 
-Er erkundigt sich, ___ viel die Behandlung kostet. (Indirekte Frage)
+Er erkundigt sich, ___ viel die Behandlung kostet. (Indirekte Frage — dass / denn / ob / wie)

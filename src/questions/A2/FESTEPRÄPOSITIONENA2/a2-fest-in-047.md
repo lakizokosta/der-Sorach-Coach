@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Ich danke für ___ Hilfe. (feste Präposition)
+Ich danke für ___ Hilfe. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)

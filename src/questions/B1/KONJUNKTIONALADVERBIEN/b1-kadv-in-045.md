@@ -5,4 +5,4 @@ correct:
   - Deshalb
 ---
 
-Wir brauchen Hilfe. ___, rufen wir einen Experten. (Konjunktionaladverb)
+Wir brauchen Hilfe. ___, rufen wir einen Experten. (Konjunktionaladverb — Denn / Deshalb / Trotzdem / Weil)

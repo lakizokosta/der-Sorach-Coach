@@ -5,4 +5,4 @@ correct:
   - seine
 ---
 
-Er erinnert sich an ___ Kindheit. (feste Präposition)
+Er erinnert sich an ___ Kindheit. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)

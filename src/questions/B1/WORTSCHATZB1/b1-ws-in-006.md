@@ -5,4 +5,4 @@ correct:
   - Unterkunft
 ---
 
-Er hat eine ___ für nächsten Monat gebucht. (Wortschatz B1)
+Er hat eine ___ für nächsten Monat gebucht. (Wortschatz — Unterkommen / Unterkunft / Unterkunftbar / Unterkunftung)

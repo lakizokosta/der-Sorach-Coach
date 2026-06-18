@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Das Problem ___ sich vermeiden. (Passiv-Ersatz + Verb lassen)
+Das Problem ___ sich vermeiden. (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

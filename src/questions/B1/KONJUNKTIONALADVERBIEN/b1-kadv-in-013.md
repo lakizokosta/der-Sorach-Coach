@@ -5,4 +5,4 @@ correct:
   - Deshalb
 ---
 
-Er spart Energie. ___, senkt er seine Kosten. (Konjunktionaladverb)
+Er spart Energie. ___, senkt er seine Kosten. (Konjunktionaladverb — Denn / Deshalb / Trotzdem / Weil)

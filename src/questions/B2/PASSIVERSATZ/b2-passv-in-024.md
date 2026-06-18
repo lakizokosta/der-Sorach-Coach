@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Das Fenster ___ sich nicht öffnen. (Passiv-Ersatz + Verb lassen)
+Das Fenster ___ sich nicht öffnen. (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

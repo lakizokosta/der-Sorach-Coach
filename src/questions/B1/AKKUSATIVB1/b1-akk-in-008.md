@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Er denkt an ___ wichtige Entscheidung. (Akkusativ — Akkusativ)
+Er denkt an ___ wichtige Entscheidung. (Akkusativ — ein / eine / einen / einer)

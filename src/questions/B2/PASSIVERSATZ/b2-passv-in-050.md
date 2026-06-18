@@ -5,4 +5,4 @@ correct:
   - finden
 ---
 
-Die Lösung ist schwer zu ___ . (Passiv-Ersatz + Verb finden)
+Die Lösung ist schwer zu ___ . (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)

@@ -5,4 +5,4 @@ correct:
   - Man
 ---
 
-___ darf hier nicht rauchen. (Indefinitpronomen — unpersönlich)
+___ darf hier nicht rauchen. (Indefinitpronomen — unpersönliches Subjekt = man)

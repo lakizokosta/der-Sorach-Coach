@@ -5,4 +5,4 @@ correct:
   - Man
 ---
 
-___ kann Fehler machen. (Indefinitpronomen — unpersönlich)
+___ kann Fehler machen. (Indefinitpronomen — unpersönliches Subjekt = man)

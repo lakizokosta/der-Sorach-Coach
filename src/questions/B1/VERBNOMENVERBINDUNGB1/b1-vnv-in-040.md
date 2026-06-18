@@ -5,4 +5,4 @@ correct:
   - reicht
 ---
 
-Er ___ eine Bewerbung ein. (Verb-Nomen-Verbindung)
+Er ___ eine Bewerbung ein. (Verb-Nomen-Verbindung — gibt / macht / reicht / stellt)

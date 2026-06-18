@@ -5,4 +5,4 @@ correct:
   - ab
 ---
 
-Er arbeitet ___ 8 Uhr. (Präposition)
+Er arbeitet ___ 8 Uhr. (Präposition — ab / bis / nach / seit)

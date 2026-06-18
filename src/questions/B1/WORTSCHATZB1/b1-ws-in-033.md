@@ -5,4 +5,4 @@ correct:
   - Journalist
 ---
 
-Der ___ berichtet über internationale Ereignisse. (Wortschatz B1)
+Der ___ berichtet über internationale Ereignisse. (Wortschatz — Journal / Journale / Journalist / Jurnalist)

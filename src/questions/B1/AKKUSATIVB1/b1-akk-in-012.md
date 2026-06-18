@@ -5,4 +5,4 @@ correct:
   - einen
 ---
 
-Ich suche ___ geeigneten Kurs für B1. (Akkusativ — Akkusativ)
+Ich suche ___ geeigneten Kurs für B1. (Akkusativ — ein / eine / einen / einer)

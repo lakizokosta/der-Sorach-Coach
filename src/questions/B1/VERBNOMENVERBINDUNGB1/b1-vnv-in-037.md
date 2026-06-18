@@ -5,4 +5,4 @@ correct:
   - absolviert
 ---
 
-Sie ___ ein Praktikum in einer Klinik. (Verb-Nomen-Verbindung)
+Sie ___ ein Praktikum in einer Klinik. (Verb-Nomen-Verbindung — absolviert / macht / nimmt / stellt)

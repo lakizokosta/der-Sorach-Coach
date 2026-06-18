@@ -5,4 +5,4 @@ correct:
   - Impfung
 ---
 
-Sie hat eine ___ gegen Grippe bekommen. (Wortschatz B1)
+Sie hat eine ___ gegen Grippe bekommen. (Wortschatz — Impfer / Impff / Impft / Impfung)

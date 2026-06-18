@@ -5,4 +5,4 @@ correct:
   - hinter
 ---
 
-Der Park liegt ___ dem Wohnviertel. (Lokale Präposition)
+Der Park liegt ___ dem Wohnviertel. (Lokale Präposition — gegenüber / hinter / neben / zwischen)

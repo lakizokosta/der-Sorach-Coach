@@ -5,4 +5,4 @@ correct:
   - Jemand
 ---
 
-___ wartet vor der Tür. (Indefinitpronomen — Person, Nom.)
+___ wartet vor der Tür. (Indefinitpronomen — unbestimmte Person, Nom. = jemand)

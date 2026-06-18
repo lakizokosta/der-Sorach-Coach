@@ -5,4 +5,4 @@ correct:
   - niemand
 ---
 
-Hier ist ___ zu Hause. (Indefinitpronomen — Verneinung)
+Hier ist ___ zu Hause. (Indefinitpronomen — Verneinung Person = niemand)

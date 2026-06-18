@@ -5,4 +5,4 @@ correct:
   - etwas
 ---
 
-Ich habe ___ Wichtiges vergessen. (Indefinitpronomen — Sache)
+Ich habe ___ Wichtiges vergessen. (Indefinitpronomen — unbestimmte Sache = etwas)

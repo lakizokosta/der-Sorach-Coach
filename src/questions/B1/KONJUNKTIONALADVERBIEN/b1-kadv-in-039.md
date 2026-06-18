@@ -5,4 +5,4 @@ correct:
   - Außerdem
 ---
 
-Sie studiert Medizin. ___, jobbt sie nebenbei. (Konjunktionaladverb)
+Sie studiert Medizin. ___, jobbt sie nebenbei. (Konjunktionaladverb — Außerdem / Denn / Trotzdem / Weil)

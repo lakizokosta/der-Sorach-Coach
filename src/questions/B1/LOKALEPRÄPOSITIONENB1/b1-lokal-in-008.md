@@ -5,4 +5,4 @@ correct:
   - an
 ---
 
-Das Hotel liegt ___ dem Fluss. (Lokale Präposition)
+Das Hotel liegt ___ dem Fluss. (Lokale Präposition — an / auf / in / zu)

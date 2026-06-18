@@ -74,13 +74,34 @@ for (const f of walk(ROOT)) {
   const sentenceNu = deumlaut(sentence);
 
   // 2) Stem search — any 3+ letter prefix of `correct` present in hint or sentence?
-  const stem = correctNu.replace(/[^a-z-]+$/, '');
+  //    For multi-word answers, also try the last token (e.g. `wie lange` → check `lange`).
   let informative = false;
-  if (sentenceNu.includes(correctNu) || hintNu.includes(correctNu)) informative = true;
-  for (let len = stem.length; len >= 3 && !informative; len--) {
-    const sub = stem.slice(0, len);
-    if (sub.length < 3) break;
-    if (hintNu.includes(sub) || sentenceNu.includes(sub)) { informative = true; break; }
+  // 2a) Whole-word check for short answers (`ab`, `ob`, `in`) — use word boundary.
+  const wholeWordRe = new RegExp(`\\b${correctNu.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
+  if (wholeWordRe.test(sentenceNu) || wholeWordRe.test(hintNu)) informative = true;
+  // 2b) Stem search for longer answers.
+  if (!informative) {
+    const tokens = correctNu.split(/\s+/);
+    const candidates = [correctNu, ...tokens];
+    for (const cand of candidates) {
+      if (informative) break;
+      if (cand.length < 3) continue;
+      if (sentenceNu.includes(cand) || hintNu.includes(cand)) { informative = true; break; }
+      const stem = cand.replace(/[^a-z-]+$/, '');
+      for (let len = stem.length; len >= 3; len--) {
+        const sub = stem.slice(0, len);
+        if (sub.length < 3) break;
+        if (hintNu.includes(sub) || sentenceNu.includes(sub)) { informative = true; break; }
+      }
+    }
+  }
+
+  // 2b) German vowel/consonant alternations in irregular adjectives:
+  //   hoch → hoh- (hoher, hohen, hohem)
+  //   nah  → näh- (näher, nähe)
+  if (!informative) {
+    if (/^hoh/.test(correct) && /\bhoch\b/.test(hint)) informative = true;
+    if (/^näh/.test(correct) && /\bnah\b/.test(hint)) informative = true;
   }
 
   // 3) Topic-specific informative hints (semantic — not catchable via stem heuristic).
@@ -108,6 +129,10 @@ for (const f of walk(ROOT)) {
     if (/pronominaladverb\s*—\s*präp\.?\s+[a-zäöüß]+/i.test(hint)) informative = true;
     // RELATIVSATZB1 — `Relativpronomen — Präp. X, Y (case)`
     if (/relativpronomen\s*—\s*präp\.?\s+[a-zäöüß]+/i.test(hint)) informative = true;
+    // RELATIVSATZB1 — `Relativpronomen — Gen./Dat./Pl.` is enough to derive `dessen/deren/denen`
+    if (/relativpronomen/i.test(hint) && /(gen\.|dat\.|pl\.|nom\.|akk\.)/i.test(hint)) {
+      if (/^(dessen|deren|denen|der|die|das|den|dem)$/i.test(correct)) informative = true;
+    }
     // DEMONSTRATIVARTIKEL — gender+case is sufficient (always `dies-` stem)
     if (/demonstrativ/i.test(hint) && /\b(mask|fem|neutr|pl)\.?/.test(hint)) informative = true;
     // closed-class article answer with full gender+case cue

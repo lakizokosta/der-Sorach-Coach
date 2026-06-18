@@ -5,4 +5,4 @@ correct:
   - etwas
 ---
 
-Es gibt ___ Neues im Radio. (Indefinitpronomen — Sache)
+Es gibt ___ Neues im Radio. (Indefinitpronomen — unbestimmte Sache = etwas)

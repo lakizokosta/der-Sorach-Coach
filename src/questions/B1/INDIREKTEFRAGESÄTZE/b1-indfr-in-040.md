@@ -5,4 +5,4 @@ correct:
   - was
 ---
 
-Sie will wissen, ___ der Minister gesagt hat. (Indirekte Frage)
+Sie will wissen, ___ der Minister gesagt hat. (Indirekte Frage — dass / ob / was / weil)

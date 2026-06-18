@@ -5,4 +5,4 @@ correct:
   - Rehabilitation
 ---
 
-Nach der Operation braucht der Patient eine ___. (Wortschatz B1)
+Nach der Operation braucht der Patient eine ___. (Wortschatz — Rehabilitation / Reklamation / Renovierung / Reservation)

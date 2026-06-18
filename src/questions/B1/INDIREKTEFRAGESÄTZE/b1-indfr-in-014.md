@@ -5,4 +5,4 @@ correct:
   - ob
 ---
 
-Sie erkundigt sich, ___ der Professor heute da ist. (Indirekte Frage)
+Sie erkundigt sich, ___ der Professor heute da ist. (Indirekte Frage — denn / ob / weil / wenn)

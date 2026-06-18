@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Das Büro ist ___ der zweiten Etage. (Lokalpräposition)
+Das Büro ist ___ der zweiten Etage. (Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen)

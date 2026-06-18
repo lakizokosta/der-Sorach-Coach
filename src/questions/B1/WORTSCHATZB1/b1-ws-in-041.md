@@ -5,4 +5,4 @@ correct:
   - verantwortliche
 ---
 
-Er hat eine ___ Stellung in der Firma. (Wortschatz B1)
+Er hat eine ___ Stellung in der Firma. (Wortschatz — verantwortbar / verantwortet / verantwortlich / verantwortliche)

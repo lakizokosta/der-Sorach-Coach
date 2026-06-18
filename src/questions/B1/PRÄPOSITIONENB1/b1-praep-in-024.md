@@ -5,4 +5,4 @@ correct:
   - seit
 ---
 
-Ich bin ___ 2020 hier. (Präposition)
+Ich bin ___ 2020 hier. (Präposition — ab / bis / seit / von)

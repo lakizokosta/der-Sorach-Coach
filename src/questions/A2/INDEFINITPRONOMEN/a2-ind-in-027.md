@@ -5,4 +5,4 @@ correct:
   - Jemand
 ---
 
-___ hat die Tür offen gelassen. (Indefinitpronomen — Person, Nom.)
+___ hat die Tür offen gelassen. (Indefinitpronomen — unbestimmte Person, Nom. = jemand)

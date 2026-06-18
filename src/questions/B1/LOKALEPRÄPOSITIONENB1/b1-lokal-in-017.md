@@ -5,4 +5,4 @@ correct:
   - an
 ---
 
-Die Apotheke ist ___ der Ecke. (Lokale Präposition)
+Die Apotheke ist ___ der Ecke. (Lokale Präposition — an / in / nach / zu)

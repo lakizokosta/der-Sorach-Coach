@@ -5,4 +5,4 @@ correct:
   - etwas
 ---
 
-Brauchst du ___ für die Reise? (Indefinitpronomen — Sache)
+Brauchst du ___ für die Reise? (Indefinitpronomen — unbestimmte Sache = etwas)

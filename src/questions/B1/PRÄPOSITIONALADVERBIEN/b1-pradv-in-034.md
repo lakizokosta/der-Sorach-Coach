@@ -5,4 +5,4 @@ correct:
   - darüber
 ---
 
-Sprichst du über das Problem? — Ja, wir sprechen ___. (Pronominaladverb)
+Sprichst du über das Problem? — Ja, wir sprechen ___. (Pronominaladverb — Präp. über)
