@@ -18,11 +18,8 @@ import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { useCefrLevel } from '@/composables/useCefrLevel.js';
-import { loadString } from '@/composables/useStorage.js';
 import { hasBackend } from '@/utils/api.js';
 import { useI18n } from '@/i18n/index.js';
-
-const USER_EMAIL_KEY = 'userEmail';
 
 const router = useRouter();
 const { t } = useI18n();
@@ -58,19 +55,6 @@ const continueLabel = computed(() =>
 
 const showLocalPremiumBanner = computed(
   () => (isPremium.value || isBasis.value) && !isLoggedIn.value,
-);
-
-const hasSavedEmail = computed(() => {
-  const email = (loadString(USER_EMAIL_KEY) || '').trim();
-  return email.includes('@');
-});
-
-const loginOpenByDefault = computed(
-  () =>
-    hasSavedEmail.value ||
-    isLoggedIn.value ||
-    isPremium.value ||
-    isBasis.value,
 );
 
 const showProgressSection = computed(
@@ -159,38 +143,26 @@ function onNiveauTestClick() {
 </script>
 
 <template>
-  <div class="app-shell">
-    <LzdLogo />
-    <h1 class="main-title">{{ t('landing.title') }}</h1>
-    <p class="main-subtitle">
-      {{ subtitleLines[0] }} —<br />{{ subtitleLines[1] || '' }}
-    </p>
-    <p class="brand-slogan">{{ t('landing.slogan') }}</p>
+  <div class="app-shell app-shell--landing">
+    <header class="landing-hero">
+      <LzdLogo />
+      <h1 class="main-title">{{ t('landing.title') }}</h1>
+      <p class="main-subtitle">
+        {{ subtitleLines[0] }} —<br />{{ subtitleLines[1] || '' }}
+      </p>
+      <p class="brand-slogan">{{ t('landing.slogan') }}</p>
 
-    <div
-      v-if="streak.currentStreak > 0 || xp.totalXP > 0"
-      style="
-        margin: 6px auto 10px auto;
-        max-width: 340px;
-        padding: 10px 20px;
-        background: rgba(171, 77, 187, 0.1);
-        border-radius: 20px;
-        font-size: 14px;
-        font-weight: 700;
-        color: #AB4DBB;
-        text-align: center;
-        border: 1.5px solid rgba(171, 77, 187, 0.2);
-      "
-      v-html="summaryText"
-    />
+      <div
+        v-if="streak.currentStreak > 0 || xp.totalXP > 0"
+        class="landing-summary"
+        v-html="summaryText"
+      />
+    </header>
 
-    <section
-      class="landing-section landing-section--start"
-      :aria-label="t('landing.sectionStart')"
-    >
+    <div class="landing-stack">
       <div
         v-if="showLocalPremiumBanner"
-        class="landing-premium-banner"
+        class="landing-premium-banner landing-block"
       >
         <p class="landing-premium-banner__title">{{ t('landing.premiumActiveLocal') }}</p>
         <p class="landing-premium-banner__hint">{{ t('landing.premiumActiveLocalHint') }}</p>
@@ -205,7 +177,7 @@ function onNiveauTestClick() {
 
       <div
         v-else-if="isLoggedIn && (isPremium || isBasis)"
-        class="landing-premium-banner landing-premium-banner--ok"
+        class="landing-premium-banner landing-premium-banner--ok landing-block"
       >
         <p class="landing-premium-banner__title">{{ t('landing.premiumActiveLoggedIn') }}</p>
         <button
@@ -217,36 +189,62 @@ function onNiveauTestClick() {
         </button>
       </div>
 
-      <h2 class="landing-section__title landing-section__title--new">
-        {{ t('landing.sectionNew') }}
-      </h2>
-
-      <button
-        type="button"
-        class="landing-start-a1"
-        @click="startTrainer('A1')"
+      <section
+        class="landing-section landing-section--levels landing-block"
+        :aria-label="t('landing.sectionStart')"
       >
-        {{ t('landing.startA1Btn') }}
-      </button>
-      <p class="landing-start-a1__hint">{{ t('landing.startA1Hint') }}</p>
+        <div class="level-grid level-grid--landing">
+          <button
+            type="button"
+            class="level-card level-card--a1"
+            @click="startTrainer('A1')"
+          >
+            <div class="level-name">A1</div>
+            <div class="level-desc">{{ t('landing.levelA1') }}</div>
+          </button>
+          <button
+            type="button"
+            class="level-card level-card--b1"
+            @click="startTrainer('B1')"
+          >
+            <div class="level-name">B1</div>
+            <div class="level-desc">{{ t('landing.levelB1') }}</div>
+          </button>
+          <button
+            type="button"
+            class="level-card level-card--a2"
+            @click="startTrainer('A2')"
+          >
+            <div class="level-name">A2</div>
+            <div class="level-desc">{{ t('landing.levelA2') }}</div>
+          </button>
+          <button
+            type="button"
+            class="level-card level-card--b2"
+            @click="startTrainer('B2')"
+          >
+            <div class="level-name">B2</div>
+            <div class="level-desc">{{ t('landing.levelB2') }}</div>
+          </button>
+        </div>
 
-      <p class="landing-other-levels">{{ t('landing.otherLevels') }}</p>
+        <p class="landing-start-a1__hint">{{ t('landing.startA1Hint') }}</p>
+      </section>
 
-      <div class="level-grid level-grid--secondary">
-        <button class="level-card level-card--compact" type="button" @click="startTrainer('A2')">
-          <div class="level-name">A2</div>
-          <div class="level-desc">{{ t('landing.levelA2') }}</div>
-        </button>
-        <button class="level-card level-card--compact" type="button" @click="startTrainer('B1')">
-          <div class="level-name">B1</div>
-          <div class="level-desc">{{ t('landing.levelB1') }}</div>
-        </button>
-        <button class="level-card level-card--compact" type="button" @click="startTrainer('B2')">
-          <div class="level-name">B2</div>
-          <div class="level-desc">{{ t('landing.levelB2') }}</div>
-        </button>
-      </div>
+      <section
+        v-if="backendOn"
+        class="landing-section landing-section--login landing-block"
+        :aria-label="t('landing.sectionLoginOnly')"
+      >
+        <h2 class="landing-login-head">{{ t('landing.sectionLoginOnly') }}</h2>
+        <p class="landing-login-head__hint">{{ t('landing.sectionLoginOnlyHint') }}</p>
+        <LoginPanel prominent />
+      </section>
 
+      <section
+        class="landing-section landing-section--pricing landing-block"
+        :aria-label="t('landing.sectionStart')"
+      >
       <details class="pricing-compare">
         <summary class="pricing-compare__summary">
           <div class="pricing-compare__row">
@@ -324,31 +322,16 @@ function onNiveauTestClick() {
         </div>
       </div>
     </section>
-
-    <section
-      v-if="backendOn"
-      class="landing-section landing-section--login"
-      :aria-label="t('landing.sectionLogin')"
-    >
-      <details
-        class="landing-login-fold"
-        :open="loginOpenByDefault"
-      >
-        <summary class="landing-login-fold__summary">
-          {{ t('landing.loginFoldSummary') }}
-        </summary>
-        <div class="landing-login-fold__body">
-          <LoginPanel />
-        </div>
-      </details>
-    </section>
+    </div>
 
     <section
       v-if="showProgressSection"
       class="landing-section landing-section--dashboard"
       :aria-label="t('landing.sectionDashboard')"
     >
-      <h2 class="landing-section__title">{{ t('landing.sectionDashboard') }}</h2>
+      <div class="landing-divider" role="separator">
+        <span class="landing-divider__label">{{ t('landing.sectionDashboard') }}</span>
+      </div>
 
       <div v-if="isLoggedIn" class="landing-logged-in-actions">
         <button type="button" class="landing-profile-btn" @click="openProfile">

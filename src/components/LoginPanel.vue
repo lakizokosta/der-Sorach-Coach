@@ -11,6 +11,10 @@ import { loadString, saveString } from '@/composables/useStorage.js';
 import { hasBackend, requestMagicLink } from '@/utils/api.js';
 import { useI18n } from '@/i18n/index.js';
 
+defineProps({
+  prominent: { type: Boolean, default: false },
+});
+
 const USER_EMAIL_KEY = 'userEmail';
 const backendOn = hasBackend();
 const { t } = useI18n();
@@ -104,7 +108,11 @@ function signOut() {
 </script>
 
 <template>
-  <div v-if="backendOn" class="login-panel">
+  <div
+    v-if="backendOn"
+    class="login-panel"
+    :class="{ 'login-panel--prominent': prominent }"
+  >
     <template v-if="isLoggedIn && (isPremium || isBasis)">
       <div class="login-panel__session login-panel__session--premium">
         <div class="login-panel__session-email">👤 {{ auth.email }}</div>
@@ -119,8 +127,8 @@ function signOut() {
       v-else-if="(isPremium || isBasis) && !isLoggedIn"
       class="login-panel-card login-panel-card--primary"
     >
-      <h3 class="login-panel-card__title">{{ panelTitle }}</h3>
-      <p class="login-panel-card__hint">{{ t('login.compactHint') }}</p>
+      <h3 v-if="!prominent" class="login-panel-card__title">{{ panelTitle }}</h3>
+      <p v-if="!prominent" class="login-panel-card__hint">{{ t('login.compactHint') }}</p>
 
       <div v-if="linkSent" class="login-panel__sent">
         <div class="login-panel__sent-icon">✉️</div>
@@ -169,13 +177,21 @@ function signOut() {
         </div>
 
         <div class="login-panel-card__row login-panel-card__row--stack">
+          <label
+            v-if="prominent"
+            class="login-panel__email-label"
+            for="magic-email-input"
+          >
+            {{ t('common.emailLoginPlaceholder') }}
+          </label>
           <input
+            id="magic-email-input"
             v-model="magicEmail"
             type="email"
             class="login-panel-card__input"
             autocomplete="email"
             inputmode="email"
-            :placeholder="t('common.emailLoginPlaceholder')"
+            :placeholder="prominent ? 'name@beispiel.de' : t('common.emailLoginPlaceholder')"
           />
           <button
             type="button"
@@ -236,8 +252,8 @@ function signOut() {
     </div>
 
     <div v-else class="login-panel-card login-panel-card--primary">
-      <h3 class="login-panel-card__title">{{ panelTitle }}</h3>
-      <p class="login-panel-card__hint">{{ t('login.compactHint') }}</p>
+      <h3 v-if="!prominent" class="login-panel-card__title">{{ panelTitle }}</h3>
+      <p v-if="!prominent" class="login-panel-card__hint">{{ t('login.compactHint') }}</p>
 
       <div v-if="linkSent" class="login-panel__sent">
         <div class="login-panel__sent-icon">✉️</div>
@@ -286,13 +302,21 @@ function signOut() {
         </div>
 
         <div class="login-panel-card__row login-panel-card__row--stack">
+          <label
+            v-if="prominent"
+            class="login-panel__email-label"
+            for="magic-email-input"
+          >
+            {{ t('common.emailLoginPlaceholder') }}
+          </label>
           <input
+            id="magic-email-input"
             v-model="magicEmail"
             type="email"
             class="login-panel-card__input"
             autocomplete="email"
             inputmode="email"
-            :placeholder="t('common.emailLoginPlaceholder')"
+            :placeholder="prominent ? 'name@beispiel.de' : t('common.emailLoginPlaceholder')"
           />
           <button
             type="button"
