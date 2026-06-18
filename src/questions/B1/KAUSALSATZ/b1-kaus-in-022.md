@@ -5,4 +5,4 @@ correct:
   - weil
 ---
 
-Das Flugzeug hat Verspätung, ___ es stürmt. (Kausalsatz)
+Das Flugzeug hat Verspätung, ___ es stürmt. (Kausalsatz — weil/da/denn)

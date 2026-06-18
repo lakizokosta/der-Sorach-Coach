@@ -5,4 +5,4 @@ correct:
   - Autos
 ---
 
-Vor dem Haus stehen zwei ___. (Plural)
+Vor dem Haus stehen zwei ___. (Plural: Auto)

@@ -5,4 +5,4 @@ correct:
   - Bäume
 ---
 
-Im Herbst werden die ___ bunt. (Plural)
+Im Herbst werden die ___ bunt. (Plural: Baum)

@@ -5,4 +5,4 @@ correct:
   - an der
 ---
 
-Das Plakat ist ___ Wand. (Dativ oder Akkusativ)
+Das Plakat ist ___ Wand. (Wechselpräpositionen — Ort)

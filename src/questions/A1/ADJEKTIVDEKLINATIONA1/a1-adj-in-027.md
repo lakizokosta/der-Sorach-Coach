@@ -5,4 +5,4 @@ correct:
   - sonnigen
 ---
 
-An einem ___ Tag gehen wir spazieren. (Adjektivdeklination — mask., Dat.)
+An einem ___ Tag gehen wir spazieren. (Adjektivdeklination — sonnig, mask., Dat.)

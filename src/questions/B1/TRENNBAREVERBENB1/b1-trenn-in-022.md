@@ -5,4 +5,4 @@ correct:
   - gebe
 ---
 
-Ich ___ den Brief um neun Uhr ab. (Trennbares Verb)
+Ich ___ den Brief um neun Uhr ab. (Trennbares Verb + Verb absagen)

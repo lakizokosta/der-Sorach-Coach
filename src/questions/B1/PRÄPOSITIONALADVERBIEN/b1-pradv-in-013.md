@@ -5,4 +5,4 @@ correct:
   - darauf
 ---
 
-Hörst du auf gute Ratschläge? — Ich höre ___. (Pronominaladverb)
+Hörst du auf gute Ratschläge? — Ich höre ___. (Pronominaladverb — Präp. auf)

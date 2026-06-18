@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Der Arzt, ___ ich vertraue, ist erfahren. (Relativpronomen)
+Der Arzt, ___ ich vertraue, ist erfahren. (Relativpronomen — mask./neutr., Dat.)

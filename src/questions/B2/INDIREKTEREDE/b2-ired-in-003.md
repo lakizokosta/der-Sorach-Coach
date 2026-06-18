@@ -5,4 +5,4 @@ correct:
   - sei
 ---
 
-Der Minister betonte, die Reform ___ notwendig. (Indirekte Rede)
+Der Minister betonte, die Reform ___ notwendig. (Indirekte Rede + Verb sein)

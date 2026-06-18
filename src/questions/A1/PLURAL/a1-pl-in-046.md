@@ -5,4 +5,4 @@ correct:
   - Geschäfte
 ---
 
-In der Fußgängerzone sind viele ___. (Plural)
+In der Fußgängerzone sind viele ___. (Plural: Geschäft)

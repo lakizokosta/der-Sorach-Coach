@@ -5,4 +5,4 @@ correct:
   - schwierig
 ---
 
-Die Frage ist einfach, die Aufgabe ist ___. (Gegenteile)
+Die Frage ist einfach, die Aufgabe ist ___. (Gegenteil von einfach)

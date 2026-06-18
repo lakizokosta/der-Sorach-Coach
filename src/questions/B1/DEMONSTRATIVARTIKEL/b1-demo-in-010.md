@@ -5,4 +5,4 @@ correct:
   - Dieses
 ---
 
-___ Reiseziel empfehle ich dir besonders. (Demonstrativartikel)
+___ Reiseziel empfehle ich dir besonders. (Demonstrativartikel — neutr., Nom./Akk. / mask./neutr., Gen.)

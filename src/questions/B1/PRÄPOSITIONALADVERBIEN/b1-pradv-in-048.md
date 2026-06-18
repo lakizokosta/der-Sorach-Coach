@@ -5,4 +5,4 @@ correct:
   - darauf
 ---
 
-Freust du dich auf die Reise? — Ich freue mich ___. (Pronominaladverb)
+Freust du dich auf die Reise? — Ich freue mich ___. (Pronominaladverb — Präp. auf)

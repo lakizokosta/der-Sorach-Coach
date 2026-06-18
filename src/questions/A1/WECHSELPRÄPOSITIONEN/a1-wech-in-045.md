@@ -5,4 +5,4 @@ correct:
   - auf dem
 ---
 
-Wir treffen uns ___ Platz. (Dativ oder Akkusativ)
+Wir treffen uns ___ Platz. (Wechselpräpositionen — Ort)

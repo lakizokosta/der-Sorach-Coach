@@ -5,4 +5,4 @@ correct:
   - harten
 ---
 
-Nach dem ___ Training bin ich müde. (Adjektivdeklination — neutr., Dat.)
+Nach dem ___ Training bin ich müde. (Adjektivdeklination — hart, neutr., Dat.)

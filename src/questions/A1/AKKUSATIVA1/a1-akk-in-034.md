@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Er repariert ___ Fahrrad. (Akkusativ — Akk.)
+Er repariert ___ Fahrrad. (Akkusativ — das Fahrrad, Akk.)

@@ -5,4 +5,4 @@ correct:
   - Der
 ---
 
-___ Zug kommt pünktlich. (Artikel — Nom.)
+___ Zug kommt pünktlich. (Artikel — der Zug, Nom.)

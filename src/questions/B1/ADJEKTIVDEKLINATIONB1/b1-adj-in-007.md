@@ -5,4 +5,4 @@ correct:
   - großen
 ---
 
-In einem ___ Krankenhaus gibt es moderne Geräte. (Adj. — groß, neutr., Dat.)
+In einem ___ Krankenhaus gibt es moderne Geräte. (Adjektivdeklination — groß, neutr., Dat.)

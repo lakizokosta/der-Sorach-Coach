@@ -5,4 +5,4 @@ correct:
   - an der
 ---
 
-Das Bild hängt ___ Wand. (Dativ oder Akkusativ)
+Das Bild hängt ___ Wand. (Wechselpräpositionen — Ort)

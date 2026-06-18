@@ -5,4 +5,4 @@ correct:
   - kleinem
 ---
 
-Sie reist mit ___ Gepäck nach Italien. (Adj. — klein, neutr., Dat.)
+Sie reist mit ___ Gepäck nach Italien. (Adjektivdeklination — klein, neutr., Dat.)

@@ -5,4 +5,4 @@ correct:
   - Falls
 ---
 
-___ der Termin ausfällt, informiere ich dich. (Konditionalsatz — wenn)
+___ der Termin ausfällt, informiere ich dich. (Konditionalsatz — wenn/falls)

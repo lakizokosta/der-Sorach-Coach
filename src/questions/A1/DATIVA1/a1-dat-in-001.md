@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Ich helfe ___ Kind. (Dativ — Dat.)
+Ich helfe ___ Kind. (Dativ — das Kind, Dat.)

@@ -5,4 +5,4 @@ correct:
   - Sobald
 ---
 
-___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz — wenn)
+___ wir eingecheckt haben, gehen wir essen. (Konditionalsatz — wenn/falls)

@@ -5,4 +5,4 @@ correct:
   - kleinste
 ---
 
-Das ist das ___ Zimmer in der Wohnung. (Superlativ — neutr., Nom.)
+Das ist das ___ Zimmer in der Wohnung. (Superlativ — klein, neutr., Nom.)

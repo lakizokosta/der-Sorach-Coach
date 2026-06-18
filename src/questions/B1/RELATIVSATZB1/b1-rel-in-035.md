@@ -5,4 +5,4 @@ correct:
   - in der
 ---
 
-Die Stadt, ___ ich wohne, ist klein. (Relativpronomen)
+Die Stadt, ___ ich wohne, ist klein. (Relativpronomen — Präp. in, der (mask., Nom.))

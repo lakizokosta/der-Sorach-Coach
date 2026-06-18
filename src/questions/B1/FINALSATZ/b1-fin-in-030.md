@@ -5,4 +5,4 @@ correct:
   - um
 ---
 
-Ich packe warme Kleidung ein, ___ mich nicht zu erkälten. (Finalsatz)
+Ich packe warme Kleidung ein, ___ mich nicht zu erkälten. (Finalsatz — um/damit)

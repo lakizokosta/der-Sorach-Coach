@@ -5,4 +5,4 @@ correct:
   - Schuhe
 ---
 
-Im Schrank stehen fünf ___. (Plural)
+Im Schrank stehen fünf ___. (Plural: Schuh)

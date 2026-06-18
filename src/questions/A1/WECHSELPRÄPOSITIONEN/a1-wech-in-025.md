@@ -5,4 +5,4 @@ correct:
   - ins
 ---
 
-Er geht ___ Büro. (Dativ oder Akkusativ)
+Er geht ___ Büro. (Wechselpräpositionen — Bewegung)

@@ -5,4 +5,4 @@ correct:
   - Wenn
 ---
 
-___ das Gesetz verabschiedet wird, ändert sich vieles. (Konditionalsatz)
+___ das Gesetz verabschiedet wird, ändert sich vieles. (Konditionalsatz — wenn/falls)

@@ -5,4 +5,4 @@ correct:
   - um
 ---
 
-Wir melden uns rechtzeitig an, ___ einen Platz zu bekommen. (Finalsatz)
+Wir melden uns rechtzeitig an, ___ einen Platz zu bekommen. (Finalsatz — um/damit)

@@ -5,4 +5,4 @@ correct:
   - uns
 ---
 
-Der Lehrer erklärt ___ die Regel. (Dativ — Dat.)
+Der Lehrer erklärt ___ die Regel. (Dativ — wir, Dat.)

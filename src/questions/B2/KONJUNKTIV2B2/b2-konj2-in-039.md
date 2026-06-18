@@ -5,4 +5,4 @@ correct:
   - wäre
 ---
 
-Wenn das möglich ___, würden wir helfen. (Grammatikform)
+Wenn das möglich ___, würden wir helfen. (Konjunktiv II + Verb sein)

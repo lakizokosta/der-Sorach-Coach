@@ -5,4 +5,4 @@ correct:
   - Bücher
 ---
 
-In der Tasche sind drei ___. (Plural)
+In der Tasche sind drei ___. (Plural: Buch)

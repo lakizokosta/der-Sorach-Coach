@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Er sagte, er ___ keine Zeit. (Indirekte Rede)
+Er sagte, er ___ keine Zeit. (Indirekte Rede + Verb haben)

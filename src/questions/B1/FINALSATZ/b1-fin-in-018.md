@@ -5,4 +5,4 @@ correct:
   - um
 ---
 
-Ich nehme Medikamente, ___ die Schmerzen lindern. (Finalsatz)
+Ich nehme Medikamente, ___ die Schmerzen lindern. (Finalsatz — um/damit)

@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-In ___ Schuhen laufe ich schnell. (Dativ — Dat.)
+In ___ Schuhen laufe ich schnell. (Dativ — die Schuhe, Dat.)

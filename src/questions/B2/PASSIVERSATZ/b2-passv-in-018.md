@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Das Problem ___ sich leicht lösen. (lassen)
+Das Problem ___ sich leicht lösen. (Passiv-Ersatz + Verb lassen)

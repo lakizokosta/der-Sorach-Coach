@@ -5,4 +5,4 @@ correct:
   - damit
 ---
 
-Die Regierung investiert, ___ die Wirtschaft wächst. (Finalsatz)
+Die Regierung investiert, ___ die Wirtschaft wächst. (Finalsatz — um/damit)

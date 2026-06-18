@@ -5,4 +5,4 @@ correct:
   - weil
 ---
 
-Ich bleibe zu Hause, ___ ich krank bin. (Kausalsatz)
+Ich bleibe zu Hause, ___ ich krank bin. (Kausalsatz — weil/da/denn)

@@ -5,4 +5,4 @@ correct:
   - ein
 ---
 
-Ich lese ___ Buch. (Akkusativ — Akk.)
+Ich lese ___ Buch. (Akkusativ — ein Buch, Akk.)

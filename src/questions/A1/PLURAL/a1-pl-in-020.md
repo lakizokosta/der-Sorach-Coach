@@ -5,4 +5,4 @@ correct:
   - Pizzen
 ---
 
-Wir bestellen zwei große ___. (Plural)
+Wir bestellen zwei große ___. (Plural: Pizza)

@@ -5,4 +5,4 @@ correct:
   - schwach
 ---
 
-Er ist stark, sein Bruder ist ___. (Gegenteile)
+Er ist stark, sein Bruder ist ___. (Gegenteil von stark)

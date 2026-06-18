@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Das Projekt, ___ wir planen, ist ambitioniert. (Relativpronomen)
+Das Projekt, ___ wir planen, ist ambitioniert. (Relativpronomen — neutr., Nom./Akk.)

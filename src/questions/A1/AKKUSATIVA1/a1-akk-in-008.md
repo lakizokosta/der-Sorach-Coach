@@ -5,4 +5,4 @@ correct:
   - einen
 ---
 
-Ich brauche ___ Regenschirm. (Akkusativ — Akk.)
+Ich brauche ___ Regenschirm. (Akkusativ — ein Regenschirm, Akk.)

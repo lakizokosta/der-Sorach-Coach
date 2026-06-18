@@ -5,4 +5,4 @@ correct:
   - alte
 ---
 
-Wir besuchen eine ___ Stadt. (Adjektivdeklination — fem., Akk.)
+Wir besuchen eine ___ Stadt. (Adjektivdeklination — alt, fem., Akk.)

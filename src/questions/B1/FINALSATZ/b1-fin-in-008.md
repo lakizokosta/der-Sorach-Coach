@@ -5,4 +5,4 @@ correct:
   - damit
 ---
 
-Er erklärt alles genau, ___ niemand etwas missversteht. (Finalsatz)
+Er erklärt alles genau, ___ niemand etwas missversteht. (Finalsatz — um/damit)

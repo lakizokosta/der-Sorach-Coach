@@ -5,4 +5,4 @@ correct:
   - meine
 ---
 
-Ich besuche ___ Großmutter. (Akkusativ — Akkusativform)
+Ich besuche ___ Großmutter. (Akkusativ — meine Großmutter, Akk.)

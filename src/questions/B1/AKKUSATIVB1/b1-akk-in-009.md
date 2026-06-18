@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Wir besuchen ___ Ausstellung über erneuerbare Energien. (Akkusativ)
+Wir besuchen ___ Ausstellung über erneuerbare Energien. (Akkusativ — Akkusativ)

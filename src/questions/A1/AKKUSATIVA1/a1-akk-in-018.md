@@ -5,4 +5,4 @@ correct:
   - einen
 ---
 
-Ich bestelle ___ Salat. (Akkusativ — Akk.)
+Ich bestelle ___ Salat. (Akkusativ — ein Salat, Akk.)

@@ -5,4 +5,4 @@ correct:
   - Busse
 ---
 
-An der Haltestelle warten drei ___. (Plural)
+An der Haltestelle warten drei ___. (Plural: Bus)

@@ -5,4 +5,4 @@ correct:
   - ruhigen
 ---
 
-In einer ___ Gegend der Stadt wohnt die Familie. (Adj. — ruhig, fem., Dat.)
+In einer ___ Gegend der Stadt wohnt die Familie. (Adjektivdeklination — ruhig, fem., Dat.)

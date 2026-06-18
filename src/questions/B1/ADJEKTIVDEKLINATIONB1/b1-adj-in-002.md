@@ -5,4 +5,4 @@ correct:
   - wichtigen
 ---
 
-Der Chef präsentiert einen ___ Bericht vor der Abteilung. (Adj. — wichtig, mask., Akk.)
+Der Chef präsentiert einen ___ Bericht vor der Abteilung. (Adjektivdeklination — wichtig, mask., Akk.)

@@ -5,4 +5,4 @@ correct:
   - jenen
 ---
 
-Ich kenne ___ Politiker aus dem Fernsehen. (Demonstrativartikel)
+Ich kenne ___ Politiker aus dem Fernsehen. (Demonstrativartikel — mask., Akk. / Pl., Dat.)

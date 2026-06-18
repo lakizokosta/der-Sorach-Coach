@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Wir besuchen ___ Insel. (Artikel — fem., Akk.)
+Wir besuchen ___ Insel. (Artikel — eine Insel, fem., Akk.)

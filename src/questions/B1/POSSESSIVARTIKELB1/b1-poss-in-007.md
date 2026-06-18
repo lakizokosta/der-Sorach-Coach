@@ -5,4 +5,4 @@ correct:
   - seine
 ---
 
-Er kennt ___ Nachbarn schon lange. (Possessivartikel — Possessivartikel)
+Er kennt ___ Nachbarn schon lange. (Possessivartikel — er, Nom./Akk.)

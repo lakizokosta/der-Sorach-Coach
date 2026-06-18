@@ -5,4 +5,4 @@ correct:
   - auf den
 ---
 
-Komm ___ Platz! (Dativ oder Akkusativ)
+Komm ___ Platz! (Wechselpräpositionen — Bewegung)

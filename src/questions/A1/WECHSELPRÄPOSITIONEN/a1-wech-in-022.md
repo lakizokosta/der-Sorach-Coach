@@ -5,4 +5,4 @@ correct:
   - in den
 ---
 
-Wir wandern ___ Bergen. (Dativ oder Akkusativ)
+Wir wandern ___ Bergen. (Wechselpräpositionen — Ort)

@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Wir hören ___ Konzert. (Akkusativ — Akk.)
+Wir hören ___ Konzert. (Akkusativ — das Konzert, Akk.)

@@ -5,4 +5,4 @@ correct:
   - Obwohl
 ---
 
-___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz)
+___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz — obwohl/obschon/trotzdem)

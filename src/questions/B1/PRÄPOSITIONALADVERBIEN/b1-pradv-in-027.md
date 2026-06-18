@@ -5,4 +5,4 @@ correct:
   - daran
 ---
 
-Glaubst du an einen Erfolg? — Ich glaube ___. (Pronominaladverb)
+Glaubst du an einen Erfolg? — Ich glaube ___. (Pronominaladverb — Präp. an)

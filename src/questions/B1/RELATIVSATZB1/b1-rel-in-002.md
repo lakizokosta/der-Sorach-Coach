@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Die Professorin, ___ ich gestern traf, war nett. (Relativpronomen)
+Die Professorin, ___ ich gestern traf, war nett. (Relativpronomen — fem./Pl., Nom./Akk.)

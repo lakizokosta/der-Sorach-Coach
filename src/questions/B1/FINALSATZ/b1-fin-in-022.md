@@ -5,4 +5,4 @@ correct:
   - um
 ---
 
-Sie liest Fachliteratur, ___ die Prüfung zu bestehen. (Finalsatz)
+Sie liest Fachliteratur, ___ die Prüfung zu bestehen. (Finalsatz — um/damit)

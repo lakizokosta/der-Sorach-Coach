@@ -5,4 +5,4 @@ correct:
   - Diese
 ---
 
-___ Vorlesung war interessanter als die andere. (Demonstrativartikel)
+___ Vorlesung war interessanter als die andere. (Demonstrativartikel — fem./Pl., Nom./Akk.)

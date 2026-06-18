@@ -5,4 +5,4 @@ correct:
   - nicht
 ---
 
-Das Medikament hat ___ geholfen. (Verneinung)
+Das Medikament hat ___ geholfen. (Verneinung — nicht/kein)

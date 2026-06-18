@@ -5,4 +5,4 @@ correct:
   - groß
 ---
 
-Das Baby ist klein, der Vater ist ___. (Gegenteile)
+Das Baby ist klein, der Vater ist ___. (Gegenteil von klein)

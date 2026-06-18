@@ -5,4 +5,4 @@ correct:
   - damit
 ---
 
-Die Universität bietet Tutorien an, ___ die Studierenden besser lernen. (Finalsatz)
+Die Universität bietet Tutorien an, ___ die Studierenden besser lernen. (Finalsatz — um/damit)

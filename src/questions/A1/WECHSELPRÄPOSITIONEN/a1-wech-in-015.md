@@ -5,4 +5,4 @@ correct:
   - auf dem
 ---
 
-Das Team trainiert ___ Sportplatz. (Dativ oder Akkusativ)
+Das Team trainiert ___ Sportplatz. (Wechselpräpositionen — Ort)

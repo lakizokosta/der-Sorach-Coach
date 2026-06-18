@@ -5,4 +5,4 @@ correct:
   - Da
 ---
 
-___ die Politik sich ändert, reagieren viele Bürger. (Kausalsatz)
+___ die Politik sich ändert, reagieren viele Bürger. (Kausalsatz — weil/da/denn)

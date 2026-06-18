@@ -5,4 +5,4 @@ correct:
   - geschlossen
 ---
 
-Das Geschäft ist offen, die Bank ist ___. (Gegenteile)
+Das Geschäft ist offen, die Bank ist ___. (Gegenteil von offen)

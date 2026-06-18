@@ -5,4 +5,4 @@ correct:
   - Filme
 ---
 
-Am Abend schauen wir gern ___. (Plural)
+Am Abend schauen wir gern ___. (Plural: Film)

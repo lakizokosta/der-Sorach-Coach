@@ -5,4 +5,4 @@ correct:
   - Diese
 ---
 
-___ Kollegin aus der Abteilung hilft mir oft. (Demonstrativartikel)
+___ Kollegin aus der Abteilung hilft mir oft. (Demonstrativartikel — fem./Pl., Nom./Akk.)

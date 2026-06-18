@@ -5,4 +5,4 @@ correct:
   - guten
 ---
 
-Er hat einen ___ Rat für meine Bewerbung. (Adj. — gut, mask., Akk.)
+Er hat einen ___ Rat für meine Bewerbung. (Adjektivdeklination — gut, mask., Akk.)

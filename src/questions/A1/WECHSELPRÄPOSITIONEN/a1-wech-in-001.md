@@ -5,4 +5,4 @@ correct:
   - ins
 ---
 
-Heute gehe ich ___ Kino. (Dativ oder Akkusativ)
+Heute gehe ich ___ Kino. (Wechselpräpositionen — Bewegung)

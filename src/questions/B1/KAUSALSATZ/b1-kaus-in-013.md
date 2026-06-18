@@ -5,4 +5,4 @@ correct:
   - weil
 ---
 
-Ich trinke Tee, ___ ich Halsweh habe. (Kausalsatz)
+Ich trinke Tee, ___ ich Halsweh habe. (Kausalsatz — weil/da/denn)

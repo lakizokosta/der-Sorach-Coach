@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Das Buch, ___ ich suche, ist vergriffen. (Relativpronomen)
+Das Buch, ___ ich suche, ist vergriffen. (das)

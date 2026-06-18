@@ -5,4 +5,4 @@ correct:
   - Der
 ---
 
-___ Lehrer spricht langsam. (Artikel — Nom.)
+___ Lehrer spricht langsam. (Artikel — der Lehrer, Nom.)

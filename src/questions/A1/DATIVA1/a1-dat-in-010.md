@@ -5,4 +5,4 @@ correct:
   - meiner
 ---
 
-Ich kaufe ___ Mutter eine Karte. (Dativ — Dat.)
+Ich kaufe ___ Mutter eine Karte. (Dativ — meine Mutter, Dat.)

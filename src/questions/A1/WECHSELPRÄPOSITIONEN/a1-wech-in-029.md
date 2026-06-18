@@ -5,4 +5,4 @@ correct:
   - ins
 ---
 
-Ich gehe ___ Schwimmbad. (Dativ oder Akkusativ)
+Ich gehe ___ Schwimmbad. (Wechselpräpositionen — Bewegung)

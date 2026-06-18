@@ -5,4 +5,4 @@ correct:
   - dünn
 ---
 
-Der Mantel ist dick, die Jacke ist ___. (Gegenteile)
+Der Mantel ist dick, die Jacke ist ___. (Gegenteil von dick)

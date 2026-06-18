@@ -5,4 +5,4 @@ correct:
   - Das
 ---
 
-___ Auto steht da. (Artikel — Nom.)
+___ Auto steht da. (Artikel — das Auto, Nom.)

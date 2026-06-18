@@ -5,4 +5,4 @@ correct:
   - schönsten
 ---
 
-Am schönsten finde ich den ___. (Superlativ — mask., Akk.)
+Am schönsten finde ich den ___. (Superlativ — schön, mask., Akk.)

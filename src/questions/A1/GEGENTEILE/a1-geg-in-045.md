@@ -5,4 +5,4 @@ correct:
   - ruhig
 ---
 
-Das Zentrum ist laut, das Dorf ist ___. (Gegenteile)
+Das Zentrum ist laut, das Dorf ist ___. (Gegenteil von laut)

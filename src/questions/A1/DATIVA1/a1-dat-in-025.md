@@ -5,4 +5,4 @@ correct:
   - Ihnen
 ---
 
-Ich zeige ___ den Weg. (Dativ — Dat.)
+Ich zeige ___ den Weg. (Dativ — Sie, Dat.)

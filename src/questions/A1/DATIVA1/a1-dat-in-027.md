@@ -5,4 +5,4 @@ correct:
   - meinen
 ---
 
-Mit ___ Freunden esse ich gern. (Dativ — Dat.)
+Mit ___ Freunden esse ich gern. (Dativ — meine Freunde, Dat.)

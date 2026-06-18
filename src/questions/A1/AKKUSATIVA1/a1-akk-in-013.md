@@ -5,4 +5,4 @@ correct:
   - diese
 ---
 
-Ich liebe ___ Stadt. (Akkusativ — Akkusativform)
+Ich liebe ___ Stadt. (Akkusativ — diese Stadt, Akk.)

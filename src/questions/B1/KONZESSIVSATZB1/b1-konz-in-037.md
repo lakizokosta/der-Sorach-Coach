@@ -5,4 +5,4 @@ correct:
   - Obwohl
 ---
 
-___ er kein Auto hat, kommt er immer pünktlich. (Konzessivsatz)
+___ er kein Auto hat, kommt er immer pünktlich. (Konzessivsatz — obwohl/obschon/trotzdem)

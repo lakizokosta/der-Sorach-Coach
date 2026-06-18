@@ -5,4 +5,4 @@ correct:
   - geht
 ---
 
-Sie ___ in die Stadt. (Präsens + Verb gehen)
+Sie ___ in die Stadt. (Präsensform)

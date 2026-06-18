@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Die Reise, ___ wir gebucht haben, beginnt morgen. (Relativpronomen)
+Die Reise, ___ wir gebucht haben, beginnt morgen. (Relativpronomen — fem./Pl., Nom./Akk.)

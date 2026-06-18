@@ -5,4 +5,4 @@ correct:
   - auf den
 ---
 
-Sie fährt ___ Markt. (Dativ oder Akkusativ)
+Sie fährt ___ Markt. (Wechselpräpositionen — Bewegung)

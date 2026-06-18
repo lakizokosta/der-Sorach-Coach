@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Das Medikament, ___ er braucht, ist teuer. (Relativpronomen)
+Das Medikament, ___ er braucht, ist teuer. (Relativpronomen — neutr., Nom./Akk.)

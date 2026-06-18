@@ -5,4 +5,4 @@ correct:
   - Weil
 ---
 
-___ die Heizung defekt ist, ist es im Büro kalt. (Kausalsatz)
+___ die Heizung defekt ist, ist es im Büro kalt. (Kausalsatz — weil/da/denn)

@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Das Rätsel ___ sich nicht lösen. (lassen)
+Das Rätsel ___ sich nicht lösen. (Passiv-Ersatz + Verb lassen)

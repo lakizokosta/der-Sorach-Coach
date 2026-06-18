@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Wir besuchen ___ Museum. (Akkusativ — Akk.)
+Wir besuchen ___ Museum. (Akkusativ — das Museum, Akk.)

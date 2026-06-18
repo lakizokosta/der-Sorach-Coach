@@ -5,4 +5,4 @@ correct:
   - Der
 ---
 
-___ Markt öffnet um 7 Uhr. (Artikel — Nom.)
+___ Markt öffnet um 7 Uhr. (Artikel — der Markt, Nom.)

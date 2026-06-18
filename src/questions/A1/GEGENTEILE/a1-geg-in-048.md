@@ -5,4 +5,4 @@ correct:
   - unangenehm
 ---
 
-Der Flug war angenehm, die Fahrt war ___. (Gegenteile)
+Der Flug war angenehm, die Fahrt war ___. (Gegenteil von angenehm)

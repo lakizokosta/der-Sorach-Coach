@@ -5,4 +5,4 @@ correct:
   - warmen
 ---
 
-Sie trägt einen ___ Mantel. (Adjektivdeklination — mask., Akk.)
+Sie trägt einen ___ Mantel. (Adjektivdeklination — warm, mask., Akk.)

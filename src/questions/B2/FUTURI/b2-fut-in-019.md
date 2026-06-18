@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Die Experten ___ (werden) die Ergebnisse veröffentlichen. (Grammatikform)
+Die Experten ___ (werden) die Ergebnisse veröffentlichen.

@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Ich danke ___ netten Verkäuferin. (Dativ — Dat.)
+Ich danke ___ netten Verkäuferin. (Dativ — die Verkäuferin, Dat.)

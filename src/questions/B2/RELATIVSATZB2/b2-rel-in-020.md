@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Die Kollegin, ___ ich vertraue, hat recht. (Relativpronomen)
+Die Kollegin, ___ ich vertraue, hat recht. (der)

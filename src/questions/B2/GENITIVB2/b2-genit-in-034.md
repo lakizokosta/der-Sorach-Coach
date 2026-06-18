@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Wegen ___ (die) Erkrankung fehlte er zwei Wochen. (Genitivform)
+Wegen ___ (die) Erkrankung fehlte er zwei Wochen.

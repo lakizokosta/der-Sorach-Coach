@@ -5,4 +5,4 @@ correct:
   - Dörfer
 ---
 
-In der Region gibt es kleine ___. (Plural)
+In der Region gibt es kleine ___. (Plural: Dorf)

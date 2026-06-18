@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Sie isst ___ Banane. (Akkusativ — Akk.)
+Sie isst ___ Banane. (Akkusativ — eine Banane, Akk.)

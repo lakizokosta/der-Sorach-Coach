@@ -5,4 +5,4 @@ correct:
   - trotzdem
 ---
 
-Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz — obwohl)
+Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz — obwohl/obschon/trotzdem)

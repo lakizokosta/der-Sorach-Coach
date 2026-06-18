@@ -5,4 +5,4 @@ correct:
   - darauf
 ---
 
-Bestehst du auf deiner Meinung? — Ich bestehe ___. (Pronominaladverb)
+Bestehst du auf deiner Meinung? — Ich bestehe ___. (Pronominaladverb — Präp. auf)

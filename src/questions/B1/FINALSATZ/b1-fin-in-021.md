@@ -5,4 +5,4 @@ correct:
   - damit
 ---
 
-Die Firma schult das Personal, ___ die Qualität steigt. (Finalsatz)
+Die Firma schult das Personal, ___ die Qualität steigt. (Finalsatz — um/damit)

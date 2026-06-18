@@ -5,4 +5,4 @@ correct:
   - Wenn
 ---
 
-___ die Prüfung schwer ist, bleibe ich ruhig. (Konditionalsatz)
+___ die Prüfung schwer ist, bleibe ich ruhig. (Konditionalsatz — wenn/falls)

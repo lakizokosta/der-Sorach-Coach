@@ -5,4 +5,4 @@ correct:
   - neuen
 ---
 
-In der ___ Schule lerne ich Deutsch. (Adjektivdeklination — fem., Dat.)
+In der ___ Schule lerne ich Deutsch. (Adjektivdeklination — neu, fem., Dat.)

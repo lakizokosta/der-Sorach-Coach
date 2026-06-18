@@ -5,4 +5,4 @@ correct:
   - ruhigen
 ---
 
-In der ___ Straße wohne ich. (Adjektivdeklination — fem., Dat.)
+In der ___ Straße wohne ich. (Adjektivdeklination — ruhig, fem., Dat.)

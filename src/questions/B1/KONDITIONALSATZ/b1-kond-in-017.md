@@ -5,4 +5,4 @@ correct:
   - Falls
 ---
 
-___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn)
+___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn/falls)

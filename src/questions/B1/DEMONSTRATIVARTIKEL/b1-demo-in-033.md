@@ -5,4 +5,4 @@ correct:
   - Dieser
 ---
 
-___ Professor erklärt das Thema sehr verständlich. (Demonstrativartikel)
+___ Professor erklärt das Thema sehr verständlich. (Demonstrativartikel — mask., Nom.)

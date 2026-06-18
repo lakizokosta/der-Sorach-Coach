@@ -5,4 +5,4 @@ correct:
   - keine
 ---
 
-Er hat ___ Erfahrung in diesem Bereich. (Verneinung)
+Er hat ___ Erfahrung in diesem Bereich. (Verneinung — nicht/kein)

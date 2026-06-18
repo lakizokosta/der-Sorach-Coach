@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Sie ___ die Haare schneiden. (Verben lassen)
+Sie ___ die Haare schneiden. (lassen + Verb schneiden)

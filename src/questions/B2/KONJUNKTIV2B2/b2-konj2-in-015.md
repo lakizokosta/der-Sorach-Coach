@@ -5,4 +5,4 @@ correct:
   - wäre
 ---
 
-Wenn das nicht so teuer ___, würde ich es kaufen. (Grammatikform)
+Wenn das nicht so teuer ___, würde ich es kaufen. (Konjunktiv II + Verb sein)

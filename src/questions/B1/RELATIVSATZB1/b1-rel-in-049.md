@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Der Patient, ___ der Arzt behandelt, fühlt sich besser. (Relativpronomen)
+Der Patient, ___ der Arzt behandelt, fühlt sich besser. (Relativpronomen — mask., Akk. / Pl., Dat.)

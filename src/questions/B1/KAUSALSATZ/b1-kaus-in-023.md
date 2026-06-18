@@ -5,4 +5,4 @@ correct:
   - denn
 ---
 
-Er ist gestresst, ___ er hat zu viel zu tun. (Kausalsatz)
+Er ist gestresst, ___ er hat zu viel zu tun. (Kausalsatz — weil/da/denn)

@@ -5,4 +5,4 @@ correct:
   - freundliche
 ---
 
-Ich kenne eine ___ Familie. (Adjektivdeklination — fem., Akk.)
+Ich kenne eine ___ Familie. (Adjektivdeklination — freundlich, fem., Akk.)

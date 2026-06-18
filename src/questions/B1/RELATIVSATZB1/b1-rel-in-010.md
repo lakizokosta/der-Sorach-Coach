@@ -5,4 +5,4 @@ correct:
   - für die
 ---
 
-Die Firma, ___ er arbeitet, wächst schnell. (Relativpronomen)
+Die Firma, ___ er arbeitet, wächst schnell. (Relativpronomen — Präp. für, die (fem./Pl., Nom./Akk.))

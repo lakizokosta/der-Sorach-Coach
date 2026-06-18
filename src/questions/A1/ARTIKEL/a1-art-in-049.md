@@ -5,4 +5,4 @@ correct:
   - Der
 ---
 
-___ Schuh ist zu klein. (Artikel — Nom.)
+___ Schuh ist zu klein. (Artikel — der Schuh, Nom.)

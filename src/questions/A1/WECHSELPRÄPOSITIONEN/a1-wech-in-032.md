@@ -5,4 +5,4 @@ correct:
   - auf der
 ---
 
-Sie steht ___ Brücke. (Dativ oder Akkusativ)
+Sie steht ___ Brücke. (Wechselpräpositionen — Ort)

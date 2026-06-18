@@ -5,4 +5,4 @@ correct:
   - Das
 ---
 
-___ Konzert war laut. (Artikel — Nom.)
+___ Konzert war laut. (Artikel — das Konzert, Nom.)

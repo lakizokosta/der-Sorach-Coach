@@ -5,4 +5,4 @@ correct:
   - in die
 ---
 
-Wir fliegen ___ Schweiz. (Dativ oder Akkusativ)
+Wir fliegen ___ Schweiz. (Wechselpräpositionen — Bewegung)

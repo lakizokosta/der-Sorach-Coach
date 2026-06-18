@@ -5,4 +5,4 @@ correct:
   - teuerste
 ---
 
-Das war das ___ Geschenk auf der Hochzeit. (Superlativ — neutr., Nom.)
+Das war das ___ Geschenk auf der Hochzeit. (Superlativ — teuer, neutr., Nom.)

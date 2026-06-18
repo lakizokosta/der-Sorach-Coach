@@ -5,4 +5,4 @@ correct:
   - Minuten
 ---
 
-Der Zug kommt in fünf ___. (Plural)
+Der Zug kommt in fünf ___. (Plural: Minute)

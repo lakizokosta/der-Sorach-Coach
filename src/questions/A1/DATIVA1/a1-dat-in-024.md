@@ -5,4 +5,4 @@ correct:
   - euch
 ---
 
-Das gefällt ___ sehr. (Dativ — Dat.)
+Das gefällt ___ sehr. (Dativ — ihr, Dat.)

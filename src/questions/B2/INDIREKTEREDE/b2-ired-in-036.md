@@ -5,4 +5,4 @@ correct:
   - werde
 ---
 
-Sie erklärte, sie ___ morgen ankommen. (Indirekte Rede)
+Sie erklärte, sie ___ morgen ankommen. (Indirekte Rede + Verb werden)

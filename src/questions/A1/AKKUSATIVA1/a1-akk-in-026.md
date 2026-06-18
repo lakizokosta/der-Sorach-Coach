@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Er hört ___ Song. (Akkusativ — Akk.)
+Er hört ___ Song. (Akkusativ — der Song, Akk.)

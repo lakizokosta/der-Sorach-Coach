@@ -5,4 +5,4 @@ correct:
   - Probleme
 ---
 
-In der Klasse gibt es keine ___. (Plural)
+In der Klasse gibt es keine ___. (Plural: Problem)

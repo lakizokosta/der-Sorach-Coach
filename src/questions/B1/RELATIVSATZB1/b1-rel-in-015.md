@@ -5,4 +5,4 @@ correct:
   - dessen
 ---
 
-Der Politiker, ___ Rede lange dauerte, ist bekannt. (Relativpronomen)
+Der Politiker, ___ Rede lange dauerte, ist bekannt. (Relativpronomen — mask./neutr., Gen.)

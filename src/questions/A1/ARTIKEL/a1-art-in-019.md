@@ -5,4 +5,4 @@ correct:
   - Der
 ---
 
-___ Hund bellt laut. (Artikel — Nom.)
+___ Hund bellt laut. (Artikel — der Hund, Nom.)

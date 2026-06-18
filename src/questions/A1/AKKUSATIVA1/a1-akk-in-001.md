@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Ich sehe ___ Mann. (Akkusativ — Akk.)
+Ich sehe ___ Mann. (Akkusativ — der Mann, Akk.)

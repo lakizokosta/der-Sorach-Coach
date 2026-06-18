@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Man ___ (werden) die Reform umsetzen. (Grammatikform)
+Man ___ (werden) die Reform umsetzen.

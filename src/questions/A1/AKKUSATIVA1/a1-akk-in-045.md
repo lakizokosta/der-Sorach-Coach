@@ -5,4 +5,4 @@ correct:
   - seine
 ---
 
-Er liebt ___ Familie. (Akkusativ — Akkusativform)
+Er liebt ___ Familie. (Akkusativ — seine Familie, Akk.)

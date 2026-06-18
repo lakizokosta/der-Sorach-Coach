@@ -5,4 +5,4 @@ correct:
   - rotes
 ---
 
-Sie kauft ein ___ Kleid. (Adjektivdeklination — neutr., Akk.)
+Sie kauft ein ___ Kleid. (Adjektivdeklination — rot, neutr., Akk.)

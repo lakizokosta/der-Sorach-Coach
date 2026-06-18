@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Ich esse ___ Brot. (Akkusativ — Akk.)
+Ich esse ___ Brot. (Akkusativ — das Brot, Akk.)

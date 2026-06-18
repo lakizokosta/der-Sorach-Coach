@@ -5,4 +5,4 @@ correct:
   - um
 ---
 
-Ich trinke Wasser, ___ gesund zu bleiben. (Finalsatz)
+Ich trinke Wasser, ___ gesund zu bleiben. (Finalsatz — um/damit)

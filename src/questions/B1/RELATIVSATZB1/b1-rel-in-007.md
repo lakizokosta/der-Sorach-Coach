@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Die Studierenden, ___ die Prüfung bestanden haben, feiern. (Relativpronomen)
+Die Studierenden, ___ die Prüfung bestanden haben, feiern. (Relativpronomen — fem./Pl., Nom./Akk.)

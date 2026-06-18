@@ -5,4 +5,4 @@ correct:
   - leicht
 ---
 
-Die Arbeit ist schwer, das Spiel ist ___. (Gegenteile)
+Die Arbeit ist schwer, das Spiel ist ___. (Gegenteil von schwer)

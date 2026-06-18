@@ -10,6 +10,7 @@ import { fileURLToPath } from 'node:url';
 
 import { md } from './b1-input-text-shared.mjs';
 import { getBank, INPUT_TOPICS } from './b2-input-text-data.mjs';
+import { transformHint } from './fix-input-text-hints.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B2');
 
@@ -28,6 +29,21 @@ const PREFIX = {
   PASSIVERSATZ: 'b2-passv-in',
 };
 
+function buildPrompt(rawPrompt, folder, correct, id) {
+  // If prompt ends with `(...)` — that is the hint; pass through transformHint.
+  const m = rawPrompt.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
+  const ans = Array.isArray(correct) ? correct : [correct];
+  if (!m) return rawPrompt;
+  const sentence = m[1].trimEnd();
+  // Heuristic: if the inner is a short single token (likely an inline cue lemma),
+  // keep as-is; otherwise pass through transformHint with topic context.
+  const inner = m[2].trim();
+  // For B2, banks always include a meaningful inner. transformHint will keep
+  // verb lemmas (via verbFormHint) and category labels.
+  const hint = transformHint(inner, folder, ans, [], sentence, id);
+  return `${sentence} (${hint})`;
+}
+
 let total = 0;
 for (const folder of INPUT_TOPICS) {
   if (TOPIC_ARG && folder !== TOPIC_ARG) continue;
@@ -37,9 +53,11 @@ for (const folder of INPUT_TOPICS) {
   let n = 0;
   bank.slice(0, 50).forEach((q, i) => {
     const num = String(i + 1).padStart(3, '0');
-    const path = join(ROOT, folder, `${prefix}-${num}.md`);
+    const id = `${prefix}-${num}`;
+    const path = join(ROOT, folder, `${id}.md`);
     if (!FORCE && existsSync(path)) return;
-    writeFileSync(path, md(`${prefix}-${num}`, q.prompt, q.correct), 'utf8');
+    const prompt = buildPrompt(q.prompt, folder, q.correct, id);
+    writeFileSync(path, md(id, prompt, q.correct), 'utf8');
     n += 1;
     total += 1;
   });

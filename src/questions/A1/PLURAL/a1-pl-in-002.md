@@ -5,4 +5,4 @@ correct:
   - Männer
 ---
 
-Auf der Straße stehen viele ___. (Plural)
+Auf der Straße stehen viele ___. (Plural: Mann)

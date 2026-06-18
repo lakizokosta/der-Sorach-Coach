@@ -5,4 +5,4 @@ correct:
   - weil
 ---
 
-Er kommt nicht mit, ___ er noch arbeiten muss. (Kausalsatz)
+Er kommt nicht mit, ___ er noch arbeiten muss. (Kausalsatz — weil/da/denn)

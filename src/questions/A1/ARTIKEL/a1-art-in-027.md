@@ -5,4 +5,4 @@ correct:
   - keinen
 ---
 
-Ich habe ___ Hunger. (Artikel)
+Ich habe ___ Hunger. (Artikel — Negation: kein, mask.)

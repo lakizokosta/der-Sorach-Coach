@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Aus ___ Fenster sehe ich den Park. (Dativ — Dat.)
+Aus ___ Fenster sehe ich den Park. (Dativ — das Fenster, Dat.)

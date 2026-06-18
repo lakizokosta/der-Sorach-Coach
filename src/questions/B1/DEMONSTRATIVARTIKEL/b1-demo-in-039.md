@@ -5,4 +5,4 @@ correct:
   - jener
 ---
 
-Er vertraut ___ Meinung seines Chefs. (Demonstrativartikel)
+Er vertraut ___ Meinung seines Chefs. (Demonstrativartikel — mask., Nom.)

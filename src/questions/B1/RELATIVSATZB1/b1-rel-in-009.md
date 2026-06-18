@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Der Artikel, ___ in der Zeitung stand, war interessant. (Relativpronomen)
+Der Artikel, ___ in der Zeitung stand, war interessant. (Relativpronomen — mask., Nom.)

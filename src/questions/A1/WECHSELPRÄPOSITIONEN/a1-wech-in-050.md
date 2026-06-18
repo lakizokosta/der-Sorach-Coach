@@ -5,4 +5,4 @@ correct:
   - in der
 ---
 
-Wir sind ___ Schweiz. (Dativ oder Akkusativ)
+Wir sind ___ Schweiz. (Wechselpräpositionen — Ort)

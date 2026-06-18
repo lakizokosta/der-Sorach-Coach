@@ -5,4 +5,4 @@ correct:
   - meinem
 ---
 
-Ich kaufe ___ Vater ein Geschenk. (Dativ — Dat.)
+Ich kaufe ___ Vater ein Geschenk. (Dativ — mein Vater, Dat.)

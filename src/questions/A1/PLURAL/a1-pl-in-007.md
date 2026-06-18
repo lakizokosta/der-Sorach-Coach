@@ -5,4 +5,4 @@ correct:
   - Freunde
 ---
 
-Am Wochenende treffe ich meine ___. (Plural)
+Am Wochenende treffe ich meine ___. (Plural: Freund)

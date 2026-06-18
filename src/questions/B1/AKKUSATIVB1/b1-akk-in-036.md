@@ -5,4 +5,4 @@ correct:
   - ein
 ---
 
-Die Ärztin verschreibt ___ Medikament. (Akkusativ)
+Die Ärztin verschreibt ___ Medikament. (Akkusativ — Akkusativ)

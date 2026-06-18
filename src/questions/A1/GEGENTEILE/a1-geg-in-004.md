@@ -5,4 +5,4 @@ correct:
   - alt
 ---
 
-Mein Bruder ist jung, meine Oma ist ___. (Gegenteile)
+Mein Bruder ist jung, meine Oma ist ___. (Gegenteil von jung)

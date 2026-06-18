@@ -5,4 +5,4 @@ correct:
   - schönste
 ---
 
-Das war der ___ Tag im Urlaub. (Superlativ — mask., Nom.)
+Das war der ___ Tag im Urlaub. (Superlativ — schön, mask., Nom.)

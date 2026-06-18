@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Ich trinke ___ Wasser. (Akkusativ — Akk.)
+Ich trinke ___ Wasser. (Akkusativ — das Wasser, Akk.)

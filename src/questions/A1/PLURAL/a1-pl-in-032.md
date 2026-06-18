@@ -5,4 +5,4 @@ correct:
   - Salate
 ---
 
-Im Restaurant gibt es drei ___. (Plural)
+Im Restaurant gibt es drei ___. (Plural: Salat)

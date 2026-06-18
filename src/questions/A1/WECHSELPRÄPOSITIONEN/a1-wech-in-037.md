@@ -5,4 +5,4 @@ correct:
   - ins
 ---
 
-Stell die Flasche ___ Regal. (Dativ oder Akkusativ)
+Stell die Flasche ___ Regal. (Wechselpräpositionen — Bewegung)

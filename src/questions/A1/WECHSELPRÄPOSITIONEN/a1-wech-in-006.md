@@ -5,4 +5,4 @@ correct:
   - in die
 ---
 
-Ich komme ___ Schule. (Dativ oder Akkusativ)
+Ich komme ___ Schule. (Wechselpräpositionen — Bewegung)

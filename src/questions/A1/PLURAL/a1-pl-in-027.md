@@ -5,4 +5,4 @@ correct:
   - Spiele
 ---
 
-Kinder lieben bunte ___. (Plural)
+Kinder lieben bunte ___. (Plural: Spiel)

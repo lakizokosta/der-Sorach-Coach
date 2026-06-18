@@ -5,4 +5,4 @@ correct:
   - Kinos
 ---
 
-In der Stadt gibt es drei ___. (Plural)
+In der Stadt gibt es drei ___. (Plural: Kino)

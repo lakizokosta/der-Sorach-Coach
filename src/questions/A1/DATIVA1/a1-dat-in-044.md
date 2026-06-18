@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-In ___ Bad dusche ich morgens. (Dativ — Dat.)
+In ___ Bad dusche ich morgens. (Dativ — das Bad, Dat.)

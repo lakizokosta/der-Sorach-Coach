@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Ich spiele mit ___ Ball. (Dativ — Dat.)
+Ich spiele mit ___ Ball. (Dativ — der Ball, Dat.)

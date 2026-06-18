@@ -5,4 +5,4 @@ correct:
   - Züge
 ---
 
-Am Bahnhof fahren viele ___. (Plural)
+Am Bahnhof fahren viele ___. (Plural: Zug)

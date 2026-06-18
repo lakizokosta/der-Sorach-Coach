@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Ich finde ___ Angebot. (Akkusativ — Akk.)
+Ich finde ___ Angebot. (Akkusativ — das Angebot, Akk.)

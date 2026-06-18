@@ -5,4 +5,4 @@ correct:
   - im
 ---
 
-Wir sitzen ___ Bus. (Dativ oder Akkusativ)
+Wir sitzen ___ Bus. (Wechselpräpositionen — Ort)

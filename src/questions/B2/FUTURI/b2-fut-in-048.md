@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Die Partei ___ (werden) bei der Wahl zulegen. (Grammatikform)
+Die Partei ___ (werden) bei der Wahl zulegen.

@@ -5,4 +5,4 @@ correct:
   - dessen
 ---
 
-Der Experte, ___ Meinung zählt, hat zugestimmt. (Relativpronomen)
+Der Experte, ___ Meinung zählt, hat zugestimmt. (dessen)

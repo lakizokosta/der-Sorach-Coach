@@ -5,4 +5,4 @@ correct:
   - um
 ---
 
-Sie spart Geld, ___ nächstes Jahr reisen zu können. (Finalsatz)
+Sie spart Geld, ___ nächstes Jahr reisen zu können. (Finalsatz — um/damit)

@@ -5,4 +5,4 @@ correct:
   - trotzdem
 ---
 
-Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz — obwohl)
+Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz — obwohl/obschon/trotzdem)

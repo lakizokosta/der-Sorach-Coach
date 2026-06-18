@@ -5,4 +5,4 @@ correct:
   - seiner
 ---
 
-Trotz ___ geringen Erfahrung bekommt er die Stelle. (Possessivartikel — Possessivartikel)
+Trotz ___ geringen Erfahrung bekommt er die Stelle. (Possessivartikel — er, Dat./Gen.)

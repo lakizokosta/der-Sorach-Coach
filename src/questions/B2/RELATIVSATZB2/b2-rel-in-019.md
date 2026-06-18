@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Die Stadt, in ___ ich wohne, hat sich verändert. (Relativpronomen)
+Die Stadt, in ___ ich wohne, hat sich verändert. (der)

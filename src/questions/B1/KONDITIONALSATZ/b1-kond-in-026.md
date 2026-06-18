@@ -5,4 +5,4 @@ correct:
   - Wenn
 ---
 
-___ die Sonne scheint, machen wir einen Ausflug. (Konditionalsatz)
+___ die Sonne scheint, machen wir einen Ausflug. (Konditionalsatz — wenn/falls)

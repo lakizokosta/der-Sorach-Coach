@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Bei ___ Sturm bleibe ich drinnen. (Dativ — Dat.)
+Bei ___ Sturm bleibe ich drinnen. (Dativ — der Sturm, Dat.)

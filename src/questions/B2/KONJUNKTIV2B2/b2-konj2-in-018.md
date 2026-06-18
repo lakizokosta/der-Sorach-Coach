@@ -5,4 +5,4 @@ correct:
   - wäre
 ---
 
-Wenn ich an seiner Stelle ___, würde ich ablehnen. (Grammatikform)
+Wenn ich an seiner Stelle ___, würde ich ablehnen. (Konjunktiv II + Verb sein)

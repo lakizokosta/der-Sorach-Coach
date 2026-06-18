@@ -5,4 +5,4 @@ correct:
   - darauf
 ---
 
-Wartest du auf die Ergebnisse? — Ich warte ___. (Pronominaladverb)
+Wartest du auf die Ergebnisse? — Ich warte ___. (Pronominaladverb — Präp. auf)

@@ -12,6 +12,8 @@ import { fileURLToPath } from 'node:url';
 import { md } from './b1-input-text-shared.mjs';
 import * as G from './b1-select-one-data.mjs';
 import { transformHint } from './fix-input-text-hints.mjs';
+import { possessivWhoFromForm } from './topic-context-hints.mjs';
+import { finiteToInfinitive } from './verb-hint-banks.mjs';
 
 const FORCE = process.argv.includes('--force');
 const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
@@ -58,8 +60,8 @@ const HINT = {
   INDIREKTEFRAGESÄTZE: 'Indirekte Frage',
   KAUSALSATZ: 'Kausalsatz — weil/da/denn',
   KONJUNKTIV2: 'Konjunktiv II',
-  KONDITIONALSATZ: 'Konditionalsatz — wenn',
-  KONZESSIVSATZB1: 'Konzessivsatz — obwohl',
+  KONDITIONALSATZ: 'Konditionalsatz — wenn/falls',
+  KONZESSIVSATZB1: 'Konzessivsatz — obwohl/obschon/trotzdem',
   KONJUNKTIONALADVERBIEN: 'Konjunktionaladverb',
   LOKALEPRÄPOSITIONENB1: 'Lokale Präposition',
   NOMENPRÄPOSITIONVERBINDUNGB1: 'Nomen + Präposition',
@@ -76,6 +78,32 @@ const HINT = {
   VERBNOMENVERBINDUNGB1: 'Verb-Nomen-Verbindung',
   VERBLASSEN: 'lassen + Infinitiv',
   WORTSCHATZB1: 'Wortschatz B1',
+};
+
+const POSSESSIV_CASE = {
+  // form → case
+  mein: 'Nom.', meine: 'Nom./Akk.', meinen: 'Akk.', meinem: 'Dat.', meiner: 'Dat./Gen.', meines: 'Gen.',
+  dein: 'Nom.', deine: 'Nom./Akk.', deinen: 'Akk.', deinem: 'Dat.', deiner: 'Dat./Gen.', deines: 'Gen.',
+  sein: 'Nom.', seine: 'Nom./Akk.', seinen: 'Akk.', seinem: 'Dat.', seiner: 'Dat./Gen.', seines: 'Gen.',
+  ihr: 'Nom.', ihre: 'Nom./Akk.', ihren: 'Akk.', ihrem: 'Dat.', ihrer: 'Dat./Gen.', ihres: 'Gen.',
+  unser: 'Nom.', unsere: 'Nom./Akk.', unseren: 'Akk.', unserem: 'Dat.', unserer: 'Dat./Gen.', unseres: 'Gen.',
+  euer: 'Nom.', eure: 'Nom./Akk.', euren: 'Akk.', eurem: 'Dat.', eurer: 'Dat./Gen.', eures: 'Gen.',
+};
+
+const DEMONSTRATIV_CASE = {
+  dieser: 'mask., Nom.', diese: 'fem./Pl., Nom./Akk.', dieses: 'neutr., Nom./Akk. / mask./neutr., Gen.',
+  diesen: 'mask., Akk. / Pl., Dat.', diesem: 'mask./neutr., Dat.',
+  jener: 'mask., Nom.', jene: 'fem./Pl., Nom./Akk.', jenes: 'neutr., Nom./Akk.',
+  jenen: 'mask., Akk. / Pl., Dat.', jenem: 'mask./neutr., Dat.',
+  derjenige: 'mask., Nom.', diejenige: 'fem., Nom./Akk.', dasjenige: 'neutr., Nom./Akk.',
+  denjenigen: 'mask., Akk. / Pl., Dat.', demjenigen: 'mask./neutr., Dat.',
+  derselbe: 'mask., Nom.', dieselbe: 'fem., Nom./Akk.', dasselbe: 'neutr., Nom./Akk.',
+};
+
+const RELATIV_HINT = {
+  der: 'mask., Nom.', die: 'fem./Pl., Nom./Akk.', das: 'neutr., Nom./Akk.',
+  den: 'mask., Akk. / Pl., Dat.', dem: 'mask./neutr., Dat.',
+  denen: 'Pl., Dat.', deren: 'fem./Pl., Gen.', dessen: 'mask./neutr., Gen.',
 };
 
 /** Per-prompt hints for Adjektivdeklination (blank = adjective ending). */
@@ -98,15 +126,64 @@ const ADJ_HINT = {
 };
 
 /**
+ * Extract managed-preposition from a question body for Pronominaladverbien.
+ *   `Interessierst du dich für den Kurs? — ...` → `für`
+ *   `Freust du dich auf die Reise? — ...` → `auf`
+ * @param {string} body
+ */
+function pronominaladverbPreposition(body) {
+  const m = body.match(/\b(?:für|an|auf|über|von|mit|nach|bei|um|zu|aus|durch|gegen|in|vor|hinter|neben|unter|zwischen)\b/);
+  return m?.[0] || '';
+}
+
+/** Trennbares Verb lemma from finite + body particle. */
+function trennbarLemma(correct, body) {
+  const inf = finiteToInfinitive(correct) || correct;
+  // particle at the end of clause before `?` or `.` or `,`
+  const part = body.match(/\b(an|ab|auf|aus|ein|los|mit|nach|vor|weg|zu|her|hin|um|zurück|zusammen|fort|wieder|fest|frei|hoch|nieder|wider)\b\s*[?.,!]/);
+  if (part) return `${part[1]}${inf}`;
+  return inf;
+}
+
+/**
  * @param {string} topic
  * @param {string} prompt
+ * @param {string} correct
  * @return {string}
  */
-function hintInner(topic, prompt) {
+function hintInner(topic, prompt, correct = '') {
   if (topic === 'ADJEKTIVDEKLINATIONB1') {
     for (const [key, spec] of Object.entries(ADJ_HINT)) {
       if (prompt.includes(key)) return `Adj. — ${spec}`;
     }
+  }
+  if (topic === 'POSSESSIVARTIKELB1') {
+    const who = possessivWhoFromForm(correct);
+    const caseInfo = POSSESSIV_CASE[String(correct).toLowerCase()] || '';
+    const parts = [who, caseInfo].filter(Boolean).join(', ');
+    return parts ? `Possessivartikel — ${parts}` : 'Possessivartikel';
+  }
+  if (topic === 'DEMONSTRATIVARTIKEL') {
+    const c = String(correct).toLowerCase();
+    const caseInfo = DEMONSTRATIV_CASE[c] || '';
+    return caseInfo ? `Demonstrativartikel — ${caseInfo}` : 'Demonstrativartikel';
+  }
+  if (topic === 'RELATIVSATZB1') {
+    const c = String(correct).toLowerCase().trim();
+    const tokens = c.split(/\s+/);
+    const tail = tokens[tokens.length - 1];
+    const prep = tokens.length > 1 ? tokens[0] : '';
+    const caseInfo = RELATIV_HINT[tail] || '';
+    if (prep && caseInfo) return `Relativpronomen — Präp. ${prep}, ${tail} (${caseInfo})`;
+    return caseInfo ? `Relativpronomen — ${caseInfo}` : 'Relativpronomen';
+  }
+  if (topic === 'PRÄPOSITIONALADVERBIEN') {
+    const prep = pronominaladverbPreposition(prompt);
+    return prep ? `Pronominaladverb — Präp. ${prep}` : 'Pronominaladverb';
+  }
+  if (topic === 'TRENNBAREVERBENB1') {
+    const lemma = trennbarLemma(correct, prompt);
+    return lemma ? `Trennbares Verb — ${lemma}` : 'Trennbares Verb';
   }
   return HINT[topic] || topic;
 }
@@ -116,12 +193,13 @@ function writeTopic(folder, prefix, questions) {
   let n = 0;
   questions.slice(0, 50).forEach((q, i) => {
     const num = String(i + 1).padStart(3, '0');
-    const path = join(ROOT, folder, `${prefix}-${num}.md`);
+    const id = `${prefix}-${num}`;
+    const path = join(ROOT, folder, `${id}.md`);
     if (!FORCE && existsSync(path)) return;
-    const inner = hintInner(folder, q.prompt);
-    const hint = transformHint(inner, folder, [q.correct]);
+    const inner = hintInner(folder, q.prompt, q.correct);
+    const hint = transformHint(inner, folder, [q.correct], q.options || [], q.prompt, id);
     const prompt = `${q.prompt} (${hint})`;
-    writeFileSync(path, md(`${prefix}-${num}`, prompt, q.correct), 'utf8');
+    writeFileSync(path, md(id, prompt, q.correct), 'utf8');
     n += 1;
   });
   return n;

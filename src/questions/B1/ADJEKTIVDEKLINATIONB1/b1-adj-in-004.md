@@ -5,4 +5,4 @@ correct:
   - interessanten
 ---
 
-Sie liest einen ___ Artikel über Umweltschutz. (Adj. — interessant, mask., Akk.)
+Sie liest einen ___ Artikel über Umweltschutz. (Adjektivdeklination — interessant, mask., Akk.)

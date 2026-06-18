@@ -5,4 +5,4 @@ correct:
   - weil
 ---
 
-Sie kündigt, ___ sie eine bessere Stelle gefunden hat. (Kausalsatz)
+Sie kündigt, ___ sie eine bessere Stelle gefunden hat. (Kausalsatz — weil/da/denn)

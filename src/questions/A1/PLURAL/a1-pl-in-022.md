@@ -5,4 +5,4 @@ correct:
   - Parks
 ---
 
-In dieser Stadt gibt es viele ___. (Plural)
+In dieser Stadt gibt es viele ___. (Plural: Park)

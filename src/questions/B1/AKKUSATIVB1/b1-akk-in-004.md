@@ -5,4 +5,4 @@ correct:
   - seine
 ---
 
-Er informiert ___ Kollegen über die neue Regelung. (Akkusativ)
+Er informiert ___ Kollegen über die neue Regelung. (Akkusativ — Akkusativ)

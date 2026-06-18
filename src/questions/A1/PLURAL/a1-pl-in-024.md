@@ -5,4 +5,4 @@ correct:
   - Hunde
 ---
 
-Meine Nachbarn haben zwei ___. (Plural)
+Meine Nachbarn haben zwei ___. (Plural: Hund)

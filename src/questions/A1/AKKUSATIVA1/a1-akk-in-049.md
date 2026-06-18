@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Ich fotografiere ___ Brücke. (Akkusativ — Akk.)
+Ich fotografiere ___ Brücke. (Akkusativ — die Brücke, Akk.)

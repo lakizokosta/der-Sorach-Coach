@@ -5,4 +5,4 @@ correct:
   - denen
 ---
 
-Die Kollegen, ___ ich danke, haben mir geholfen. (Relativpronomen)
+Die Kollegen, ___ ich danke, haben mir geholfen. (Relativpronomen — Pl., Dat.)

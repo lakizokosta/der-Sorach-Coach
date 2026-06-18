@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Ich bringe ___ Kindern Süßigkeiten. (Dativ — Dat.)
+Ich bringe ___ Kindern Süßigkeiten. (Dativ — die Kinder, Dat.)

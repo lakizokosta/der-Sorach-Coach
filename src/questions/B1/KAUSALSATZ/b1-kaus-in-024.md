@@ -5,4 +5,4 @@ correct:
   - Weil
 ---
 
-___ das Wetter schlecht ist, fällt das Fest aus. (Kausalsatz)
+___ das Wetter schlecht ist, fällt das Fest aus. (Kausalsatz — weil/da/denn)

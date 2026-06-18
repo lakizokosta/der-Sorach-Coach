@@ -5,4 +5,4 @@ correct:
   - Die
 ---
 
-___ Pizza ist heiß. (Artikel — Nom.)
+___ Pizza ist heiß. (Artikel — die Pizza, Nom.)

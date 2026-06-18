@@ -5,4 +5,4 @@ correct:
   - auf den
 ---
 
-Ich setze mich ___ Stuhl. (Wechselpräp. — Bewegung)
+Ich setze mich ___ Stuhl. (Wechselpräpositionen — Bewegung)

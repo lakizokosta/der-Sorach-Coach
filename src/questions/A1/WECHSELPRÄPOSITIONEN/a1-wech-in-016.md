@@ -5,4 +5,4 @@ correct:
   - auf der
 ---
 
-Sie singt ___ Bühne. (Dativ oder Akkusativ)
+Sie singt ___ Bühne. (Wechselpräpositionen — Ort)

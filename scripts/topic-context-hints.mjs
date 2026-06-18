@@ -106,10 +106,14 @@ const VERB_HINT_LABEL = {
   TRENNBAREVERBENB1: 'Trennbares Verb',
   PASSIVB1: 'Passiv',
   PASSIVB2: 'Passiv',
+  PASSIVERSATZ: 'Passiv-Ersatz',
   KONJUNKTIV2: 'Konjunktiv II',
   KONJUNKTIV2B2: 'Konjunktiv II',
   FUTURI: 'Futur',
   VERBLASSEN: 'lassen',
+  INDIREKTEREDE: 'Indirekte Rede',
+  PARTIZIP1: 'Partizip I',
+  PARTIZIP2: 'Partizip II',
 };
 
 const VERB_FORM_TOPICS = new Set([
@@ -123,10 +127,14 @@ const VERB_FORM_TOPICS = new Set([
   'TRENNBAREVERBENB1',
   'PASSIVB1',
   'PASSIVB2',
+  'PASSIVERSATZ',
   'KONJUNKTIV2',
   'KONJUNKTIV2B2',
   'FUTURI',
   'VERBLASSEN',
+  'INDIREKTEREDE',
+  'PARTIZIP1',
+  'PARTIZIP2',
 ]);
 
 export const POSSESSIV_TOPICS = new Set([
@@ -337,8 +345,16 @@ function inferPassivLemma(body) {
   if (!m) return 'werden';
   const pp = m[1];
   if (pp.endsWith('iert')) return `${pp.slice(0, -3)}ieren`;
-  if (pp.endsWith('ert')) return `${pp.slice(0, -2)}en`;
-  if (pp.endsWith('t')) return `${pp.slice(0, -1)}en`;
+  if (pp.endsWith('ert')) {
+    const stem = pp.slice(0, -2);
+    return stem.endsWith('e') ? `${stem}n` : `${stem}en`;
+  }
+  if (pp.endsWith('t')) {
+    // Strip leading "ge" (Partizip II prefix), then -t and add -en (avoid double-e)
+    let stem = pp.replace(/^ge/, '');
+    stem = stem.slice(0, -1);
+    return stem.endsWith('e') ? `${stem}n` : `${stem}en`;
+  }
   return 'werden';
 }
 
@@ -468,16 +484,9 @@ function reflexivFormHint(inner, correct, options, body, id) {
  * @return {string}
  */
 export function verbFormHint(topic, inner = '', correct = [], options = [], body = '', id = '') {
-  if (topic === 'TRENNBAREVERBENB1') return 'Trennbares Verb';
-  if (topic === 'VERBLASSEN') return 'Verben lassen';
-  if (topic === 'FUTURI') return 'Grammatikform';
-  if (topic === 'KONJUNKTIV2B2') return 'Grammatikform';
-  if (topic === 'PASSIVB2') return 'Grammatikform';
-  if (topic === 'PASSIVERSATZ') return 'Grammatikform';
-  if (topic === 'REDEWENDUNGEN') return 'Grammatikform';
-  if (topic === 'RELATIVSATZB2') return 'Grammatikform';
-  if (topic === 'TEMPORALERNEBENSATZ') return 'Grammatikform';
-  if (topic === 'QUIZ') return 'Grammatikform';
+  // Note: previously these topics early-returned 'Grammatikform' which discarded
+  // the verb lemma entirely, making input-text questions unguessable.
+  // Now we fall through to the lemma-extraction pipeline.
 
   if (topic === 'REFLEXIVPRONOMEN') {
     const hint = reflexivFormHint(inner, correct, options, body, id);

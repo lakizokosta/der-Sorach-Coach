@@ -5,4 +5,4 @@ correct:
   - Jenes
 ---
 
-___ Hotel war deutlich teurer als jenes. (Demonstrativartikel)
+___ Hotel war deutlich teurer als jenes. (Demonstrativartikel — neutr., Nom./Akk.)

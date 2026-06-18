@@ -5,4 +5,4 @@ correct:
   - unsere
 ---
 
-Wir diskutieren ___ gemeinsame Zukunft. (Possessivartikel — Possessivartikel)
+Wir diskutieren ___ gemeinsame Zukunft. (Possessivartikel — wir, Nom./Akk.)

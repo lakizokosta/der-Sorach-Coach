@@ -5,4 +5,4 @@ correct:
   - höchste
 ---
 
-Der Mount Everest ist der ___ Berg. (Superlativ — mask., Nom.)
+Der Mount Everest ist der ___ Berg. (Superlativ — hoch, mask., Nom.)

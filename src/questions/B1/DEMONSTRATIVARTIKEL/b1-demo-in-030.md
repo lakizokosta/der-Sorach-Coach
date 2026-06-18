@@ -5,4 +5,4 @@ correct:
   - diesen
 ---
 
-Wir diskutieren ___ Vorschlag im Meeting. (Demonstrativartikel)
+Wir diskutieren ___ Vorschlag im Meeting. (Demonstrativartikel — mask., Akk. / Pl., Dat.)

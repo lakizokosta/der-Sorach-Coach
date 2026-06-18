@@ -5,4 +5,4 @@ correct:
   - internationale
 ---
 
-Die ___ Konferenz beginnt morgen. (Adj. — international, fem., Nom.)
+Die ___ Konferenz beginnt morgen. (Adjektivdeklination — international, fem., Nom.)

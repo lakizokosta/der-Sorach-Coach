@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Ich kaufe ___ Jacke. (Akkusativ — Akk.)
+Ich kaufe ___ Jacke. (Akkusativ — eine Jacke, Akk.)

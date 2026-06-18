@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Ich nehme ___ Sonnencreme mit. (Akkusativ — Akk.)
+Ich nehme ___ Sonnencreme mit. (Akkusativ — die Sonnencreme, Akk.)

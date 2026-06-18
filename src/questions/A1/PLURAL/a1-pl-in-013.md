@@ -5,4 +5,4 @@ correct:
   - Hände
 ---
 
-Wasche deine ___ vor dem Essen! (Plural)
+Wasche deine ___ vor dem Essen! (Plural: Hand)

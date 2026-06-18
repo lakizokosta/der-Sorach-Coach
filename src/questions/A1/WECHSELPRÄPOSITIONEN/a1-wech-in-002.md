@@ -5,4 +5,4 @@ correct:
   - im
 ---
 
-Wir sind ___ Park. (Dativ oder Akkusativ)
+Wir sind ___ Park. (Wechselpräpositionen — Ort)

@@ -5,4 +5,4 @@ correct:
   - auswerten
 ---
 
-Die Daten sind leicht zu ___ . (auswerten)
+Die Daten sind leicht zu ___ . (Passiv-Ersatz + Verb auswerten)

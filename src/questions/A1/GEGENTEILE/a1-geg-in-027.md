@@ -5,4 +5,4 @@ correct:
   - schmal
 ---
 
-Die Straße ist breit, der Weg ist ___. (Gegenteile)
+Die Straße ist breit, der Weg ist ___. (Gegenteil von breit)

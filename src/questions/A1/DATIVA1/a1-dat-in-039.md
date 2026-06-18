@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-In ___ Hotel übernachten wir. (Dativ — Dat.)
+In ___ Hotel übernachten wir. (Dativ — das Hotel, Dat.)

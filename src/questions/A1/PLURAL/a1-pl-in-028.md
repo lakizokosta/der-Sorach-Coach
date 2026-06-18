@@ -5,4 +5,4 @@ correct:
   - Computer
 ---
 
-Im Büro stehen zehn ___. (Plural)
+Im Büro stehen zehn ___. (Plural: Computer)

@@ -5,4 +5,4 @@ correct:
   - Dieses
 ---
 
-___ Projekt gefällt mir besser als das andere. (Demonstrativartikel)
+___ Projekt gefällt mir besser als das andere. (Demonstrativartikel — neutr., Nom./Akk. / mask./neutr., Gen.)

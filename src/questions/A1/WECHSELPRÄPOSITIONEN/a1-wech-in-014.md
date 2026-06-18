@@ -5,4 +5,4 @@ correct:
   - auf den
 ---
 
-Wir laufen ___ Sportplatz. (Dativ oder Akkusativ)
+Wir laufen ___ Sportplatz. (Wechselpräpositionen — Bewegung)

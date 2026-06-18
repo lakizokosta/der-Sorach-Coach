@@ -5,4 +5,4 @@ correct:
   - auf der
 ---
 
-Wir sind ___ Insel. (Dativ oder Akkusativ)
+Wir sind ___ Insel. (Wechselpräpositionen — Ort)

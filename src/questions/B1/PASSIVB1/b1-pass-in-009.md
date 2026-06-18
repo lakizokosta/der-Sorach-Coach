@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Die Nachricht ___ sofort gesendet. (Passiv + Hilfsverb werden)
+Die Nachricht ___ sofort gesendet. (Passiv + Verb senden)

@@ -5,4 +5,4 @@ correct:
   - nicht
 ---
 
-Er ist ___ krank, sondern müde. (Verneinung)
+Er ist ___ krank, sondern müde. (Verneinung — nicht/kein)

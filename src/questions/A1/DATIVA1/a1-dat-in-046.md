@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Das Lied gefällt ___ Kindern. (Dativ — Dat.)
+Das Lied gefällt ___ Kindern. (Dativ — die Kinder, Dat.)

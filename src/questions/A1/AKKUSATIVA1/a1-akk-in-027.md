@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Wir gewinnen ___ Spiel. (Akkusativ — Akk.)
+Wir gewinnen ___ Spiel. (Akkusativ — das Spiel, Akk.)

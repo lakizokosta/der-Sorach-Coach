@@ -5,4 +5,4 @@ correct:
   - leer
 ---
 
-Das Glas ist voll, die Flasche ist ___. (Gegenteile)
+Das Glas ist voll, die Flasche ist ___. (Gegenteil von voll)

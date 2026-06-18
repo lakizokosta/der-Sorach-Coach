@@ -5,4 +5,4 @@ correct:
   - mangelnder
 ---
 
-Aufgrund ___ (mangelnd) Erfahrung wurde er abgelehnt. (Genitivform)
+Aufgrund ___ (mangelnd) Erfahrung wurde er abgelehnt.

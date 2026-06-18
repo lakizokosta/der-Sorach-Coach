@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Ich gebe ___ Verkäufer Geld. (Dativ — Dat.)
+Ich gebe ___ Verkäufer Geld. (Dativ — der Verkäufer, Dat.)

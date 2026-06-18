@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Die Methode, mit ___ wir arbeiten, ist bewährt. (Relativpronomen)
+Die Methode, mit ___ wir arbeiten, ist bewährt. (der)

@@ -5,4 +5,4 @@ correct:
   - schlechten
 ---
 
-Wegen ___ Wetters fällt die Reise aus. (Adj. — schlecht, neutr., Gen.)
+Wegen ___ Wetters fällt die Reise aus. (Adjektivdeklination — schlecht, neutr., Gen.)

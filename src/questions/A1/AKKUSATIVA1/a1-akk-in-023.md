@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Ich putze ___ Zimmer. (Akkusativ — Akk.)
+Ich putze ___ Zimmer. (Akkusativ — das Zimmer, Akk.)

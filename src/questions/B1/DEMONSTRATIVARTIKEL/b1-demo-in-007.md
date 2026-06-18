@@ -5,4 +5,4 @@ correct:
   - diesen
 ---
 
-Wir wählen ___ Kandidaten für das Amt. (Demonstrativartikel)
+Wir wählen ___ Kandidaten für das Amt. (Demonstrativartikel — mask., Akk. / Pl., Dat.)

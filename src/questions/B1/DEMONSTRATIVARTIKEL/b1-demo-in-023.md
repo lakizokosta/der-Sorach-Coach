@@ -5,4 +5,4 @@ correct:
   - Dieser
 ---
 
-___ Studiengang passt besser zu meinen Interessen. (Demonstrativartikel)
+___ Studiengang passt besser zu meinen Interessen. (Demonstrativartikel — mask., Nom.)

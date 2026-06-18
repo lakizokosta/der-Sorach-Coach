@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Ich gebe ___ Hund Wasser. (Dativ — Dat.)
+Ich gebe ___ Hund Wasser. (Dativ — der Hund, Dat.)

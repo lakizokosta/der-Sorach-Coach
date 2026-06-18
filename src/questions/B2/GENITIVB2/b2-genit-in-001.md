@@ -5,4 +5,4 @@ correct:
   - schwerer
 ---
 
-Trotz ___ (schwer) Krise blieb die Firma stabil. (Genitivform)
+Trotz ___ (schwer) Krise blieb die Firma stabil.

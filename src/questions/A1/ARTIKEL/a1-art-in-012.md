@@ -5,4 +5,4 @@ correct:
   - Der
 ---
 
-___ Arzt ist sehr nett. (Artikel — Nom.)
+___ Arzt ist sehr nett. (Artikel — der Arzt, Nom.)

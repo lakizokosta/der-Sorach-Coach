@@ -5,4 +5,4 @@ correct:
   - dir
 ---
 
-Ich leihe ___ Buch. (Dativ — Dat.)
+Ich leihe ___ Buch. (Dativ — du, Dat.)

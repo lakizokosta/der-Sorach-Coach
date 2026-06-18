@@ -5,4 +5,4 @@ correct:
   - unfreundlich
 ---
 
-Der Lehrer ist freundlich, der Nachbar ist ___. (Gegenteile)
+Der Lehrer ist freundlich, der Nachbar ist ___. (Gegenteil von freundlich)

@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Ich warte auf ___ Antwort der Personalabteilung. (Akkusativ)
+Ich warte auf ___ Antwort der Personalabteilung. (Akkusativ — Akkusativ)

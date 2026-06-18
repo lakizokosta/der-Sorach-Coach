@@ -5,4 +5,4 @@ correct:
   - leer
 ---
 
-Der Laden ist voll, früh morgens ist er ___. (Gegenteile)
+Der Laden ist voll, früh morgens ist er ___. (Gegenteil von voll)

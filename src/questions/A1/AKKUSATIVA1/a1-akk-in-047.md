@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Wir teilen ___ Pizza. (Akkusativ — Akk.)
+Wir teilen ___ Pizza. (Akkusativ — die Pizza, Akk.)

@@ -5,4 +5,4 @@ correct:
   - ein
 ---
 
-Ich kenne ___ Mädchen. (Artikel — neutr., Akk.)
+Ich kenne ___ Mädchen. (Artikel — ein Mädchen, neutr., Akk.)

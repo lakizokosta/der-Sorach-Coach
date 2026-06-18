@@ -29,13 +29,14 @@ function md(id, prompt, correct) {
   return `---\nid: ${id}\ntype: input-text\ncorrect:\n${ans}\n---\n\n${prompt}\n`;
 }
 
-function fixPrompt(raw, topic, correct) {
+function fixPrompt(raw, topic, correct, id = '') {
   const stripped = raw.replace(/^\[[^\]]+]\s+/, '');
   const m = stripped.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
   if (!m) return stripped;
   const ans = Array.isArray(correct) ? correct : [correct];
-  const hint = transformHint(m[2], topic, ans);
-  return `${m[1].trimEnd()} (${hint})`;
+  const sentence = m[1].trimEnd();
+  const hint = transformHint(m[2], topic, ans, [], sentence, id);
+  return `${sentence} (${hint})`;
 }
 
 function writeTopic(folder, prefix, items, force = false) {
@@ -43,10 +44,11 @@ function writeTopic(folder, prefix, items, force = false) {
   let n = 0;
   items.slice(0, 50).forEach((item, i) => {
     const num = String(i + 1).padStart(3, '0');
-    const path = join(ROOT, folder, `${prefix}-${num}.md`);
+    const id = `${prefix}-${num}`;
+    const path = join(ROOT, folder, `${id}.md`);
     if (!force && existsSync(path)) return;
-    const prompt = fixPrompt(item[0], folder, item[1]);
-    writeFileSync(path, md(`${prefix}-${num}`, prompt, item[1]), 'utf8');
+    const prompt = fixPrompt(item[0], folder, item[1], id);
+    writeFileSync(path, md(id, prompt, item[1]), 'utf8');
     n += 1;
   });
   return n;
@@ -60,10 +62,11 @@ function restoreTopicHints(topicKey) {
   let n = 0;
   items.slice(0, 50).forEach((item, i) => {
     const num = String(i + 1).padStart(3, '0');
-    const path = join(ROOT, topicKey, `${prefix}-${num}.md`);
+    const id = `${prefix}-${num}`;
+    const path = join(ROOT, topicKey, `${id}.md`);
     if (!existsSync(path)) return;
-    const prompt = fixPrompt(item[0], topicKey, item[1]);
-    writeFileSync(path, md(`${prefix}-${num}`, prompt, item[1]), 'utf8');
+    const prompt = fixPrompt(item[0], topicKey, item[1], id);
+    writeFileSync(path, md(id, prompt, item[1]), 'utf8');
     n += 1;
   });
   return n;

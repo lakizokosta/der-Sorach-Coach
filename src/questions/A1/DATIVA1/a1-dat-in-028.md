@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Nach ___ Arbeit fahre ich nach Hause. (Dativ — Dat.)
+Nach ___ Arbeit fahre ich nach Hause. (Dativ — die Arbeit, Dat.)

@@ -5,4 +5,4 @@ correct:
   - denn
 ---
 
-Er ist pünktlich, ___ er den frühen Bus genommen hat. (Kausalsatz)
+Er ist pünktlich, ___ er den frühen Bus genommen hat. (Kausalsatz — weil/da/denn)

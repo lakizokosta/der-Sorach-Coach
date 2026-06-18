@@ -5,4 +5,4 @@ correct:
   - habe
 ---
 
-Sie sagte, sie ___ keine Einwände. (Indirekte Rede)
+Sie sagte, sie ___ keine Einwände. (Indirekte Rede + Verb haben)

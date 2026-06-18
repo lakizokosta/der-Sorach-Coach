@@ -40,22 +40,24 @@ const TOPICS = {
   'N-DEKLINATION': 'a2-n-in',
 };
 
-function buildPrompt(item, folder) {
+function buildPrompt(item, folder, id) {
   const raw = item[0].replace(/^\[[^\]]+]\s+/, '');
   const m = raw.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
   const ans = Array.isArray(item[1]) ? item[1] : [item[1]];
-  if (m) return `${m[1].trimEnd()} (${transformHint(m[2], folder, ans)})`;
-  return bodyWithHint(raw, verbFormHint(folder, '', ans));
+  const sentence = m ? m[1].trimEnd() : raw;
+  if (m) return `${sentence} (${transformHint(m[2], folder, ans, [], sentence, id)})`;
+  return bodyWithHint(raw, verbFormHint(folder, '', ans, [], raw, id));
 }
 
-function writeTopic(folder, prefix, items) {
+function writeTopic(folder, prefix, items, force = false) {
   mkdirSync(join(ROOT, folder), { recursive: true });
   let n = 0;
   items.slice(0, 50).forEach((item, i) => {
     const num = String(i + 1).padStart(3, '0');
-    const path = join(ROOT, folder, `${prefix}-${num}.md`);
-    if (existsSync(path)) return;
-    writeFileSync(path, md(`${prefix}-${num}`, buildPrompt(item, folder), item[1]), 'utf8');
+    const id = `${prefix}-${num}`;
+    const path = join(ROOT, folder, `${id}.md`);
+    if (!force && existsSync(path)) return;
+    writeFileSync(path, md(id, buildPrompt(item, folder, id), item[1]), 'utf8');
     n += 1;
   });
   return n;
@@ -68,9 +70,10 @@ function restoreTopicHints(topicKey) {
   let n = 0;
   items.slice(0, 50).forEach((item, i) => {
     const num = String(i + 1).padStart(3, '0');
-    const path = join(ROOT, topicKey, `${prefix}-${num}.md`);
+    const id = `${prefix}-${num}`;
+    const path = join(ROOT, topicKey, `${id}.md`);
     if (!existsSync(path)) return;
-    writeFileSync(path, md(`${prefix}-${num}`, buildPrompt(item, topicKey), item[1]), 'utf8');
+    writeFileSync(path, md(id, buildPrompt(item, topicKey, id), item[1]), 'utf8');
     n += 1;
   });
   return n;
@@ -97,15 +100,19 @@ if (isMain) {
     process.exit(0);
   }
 
+  const FORCE = process.argv.includes('--force');
+  const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
+
   let total = 0;
   for (const [folder, prefix] of Object.entries(TOPICS)) {
+    if (TOPIC_ARG && folder !== TOPIC_ARG) continue;
     const items = BANK[folder];
     if (!items) throw new Error(`Missing bank for ${folder}`);
-    const n = writeTopic(folder, prefix, items);
+    const n = writeTopic(folder, prefix, items, FORCE);
     total += n;
-    console.log(`${folder}: +${n} input-text`);
+    console.log(`${folder}: ${FORCE ? 'regen' : '+'}${n} input-text`);
   }
-  console.log(`\nTotal new input-text files: ${total}`);
+  console.log(`\nTotal ${FORCE ? 'regenerated' : 'new'} input-text files: ${total}`);
 }
 
 export { buildPrompt, restoreTopicHints };

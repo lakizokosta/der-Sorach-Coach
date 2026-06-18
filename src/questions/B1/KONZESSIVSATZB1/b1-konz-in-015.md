@@ -5,4 +5,4 @@ correct:
   - Obwohl
 ---
 
-___ die Umwelt belastet ist, reisen viele weiter viel. (Konzessivsatz)
+___ die Umwelt belastet ist, reisen viele weiter viel. (Konzessivsatz — obwohl/obschon/trotzdem)

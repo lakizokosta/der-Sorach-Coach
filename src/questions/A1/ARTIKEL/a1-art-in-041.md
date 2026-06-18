@@ -5,4 +5,4 @@ correct:
   - Die
 ---
 
-___ Mutter kocht gern. (Artikel — Nom.)
+___ Mutter kocht gern. (Artikel — die Mutter, Nom.)

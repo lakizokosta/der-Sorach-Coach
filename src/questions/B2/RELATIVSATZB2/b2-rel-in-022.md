@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Der Professor, von ___ ich gelernt habe, ist pensioniert. (Relativpronomen)
+Der Professor, von ___ ich gelernt habe, ist pensioniert. (dem)

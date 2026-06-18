@@ -5,4 +5,4 @@ correct:
   - traurig
 ---
 
-Heute bin ich fröhlich, gestern war ich ___. (Gegenteile)
+Heute bin ich fröhlich, gestern war ich ___. (Gegenteil von fröhlich)

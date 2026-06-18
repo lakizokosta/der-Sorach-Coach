@@ -5,4 +5,4 @@ correct:
   - das
 ---
 
-Ich beende ___ Projekt. (Akkusativ — Akk.)
+Ich beende ___ Projekt. (Akkusativ — das Projekt, Akk.)

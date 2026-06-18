@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Ich folge ___ Hund. (Dativ — Dat.)
+Ich folge ___ Hund. (Dativ — der Hund, Dat.)

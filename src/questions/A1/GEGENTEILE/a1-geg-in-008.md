@@ -5,4 +5,4 @@ correct:
   - alt
 ---
 
-Das Auto ist neu, das Fahrrad ist ___. (Gegenteile)
+Das Auto ist neu, das Fahrrad ist ___. (Gegenteil von neu)

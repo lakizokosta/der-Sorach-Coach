@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Das Land, aus ___ er stammt, liegt in Südamerika. (Relativpronomen)
+Das Land, aus ___ er stammt, liegt in Südamerika. (dem)

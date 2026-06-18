@@ -5,4 +5,4 @@ correct:
   - in den
 ---
 
-Ich gehe ___ Supermarkt. (Dativ oder Akkusativ)
+Ich gehe ___ Supermarkt. (Wechselpräpositionen — Bewegung)

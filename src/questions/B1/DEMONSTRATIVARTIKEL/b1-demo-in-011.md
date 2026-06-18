@@ -5,4 +5,4 @@ correct:
   - Diese
 ---
 
-___ Patienten müssen länger warten. (Demonstrativartikel)
+___ Patienten müssen länger warten. (Demonstrativartikel — fem./Pl., Nom./Akk.)

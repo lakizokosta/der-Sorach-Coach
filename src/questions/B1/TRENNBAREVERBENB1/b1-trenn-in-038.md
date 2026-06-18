@@ -5,4 +5,4 @@ correct:
   - laden
 ---
 
-Wir ___ unsere Gäste herzlich ein. (Trennbares Verb)
+Wir ___ unsere Gäste herzlich ein. (Trennbares Verb + Verb einladen)

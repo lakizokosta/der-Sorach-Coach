@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Ich schreibe ___ Aufgabe. (Akkusativ — Akk.)
+Ich schreibe ___ Aufgabe. (Akkusativ — die Aufgabe, Akk.)

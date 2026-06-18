@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Sie ___ (werden) sicher Recht behalten. (Grammatikform)
+Sie ___ (werden) sicher Recht behalten.

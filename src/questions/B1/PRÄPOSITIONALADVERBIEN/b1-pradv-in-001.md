@@ -5,4 +5,4 @@ correct:
   - dafür
 ---
 
-Interessierst du dich für den Kurs? — Ja, ich interessiere mich ___. (Pronominaladverb)
+Interessierst du dich für den Kurs? — Ja, ich interessiere mich ___. (Pronominaladverb — Präp. für)

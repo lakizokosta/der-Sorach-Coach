@@ -5,4 +5,4 @@ correct:
   - unsportlich
 ---
 
-Sie ist sportlich, ihr Bruder ist ___. (Gegenteile)
+Sie ist sportlich, ihr Bruder ist ___. (Gegenteil von sportlich)

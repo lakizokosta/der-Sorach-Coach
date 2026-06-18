@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Ich kenne ___ Straße gut. (Akkusativ — Akk.)
+Ich kenne ___ Straße gut. (Akkusativ — die Straße, Akk.)

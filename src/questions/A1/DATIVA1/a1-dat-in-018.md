@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-In ___ Küche kocht Papa. (Dativ — Dat.)
+In ___ Küche kocht Papa. (Dativ — die Küche, Dat.)

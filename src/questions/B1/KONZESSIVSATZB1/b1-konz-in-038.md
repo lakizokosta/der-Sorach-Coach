@@ -5,4 +5,4 @@ correct:
   - trotzdem
 ---
 
-Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz — obwohl)
+Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz — obwohl/obschon/trotzdem)

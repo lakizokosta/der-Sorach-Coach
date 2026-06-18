@@ -5,4 +5,4 @@ correct:
   - Die
 ---
 
-___ Jacke ist warm. (Artikel — Nom.)
+___ Jacke ist warm. (Artikel — die Jacke, Nom.)

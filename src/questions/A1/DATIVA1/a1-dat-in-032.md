@@ -5,4 +5,4 @@ correct:
   - der
 ---
 
-Mit ___ Gitarre spielt er ein Lied. (Dativ — Dat.)
+Mit ___ Gitarre spielt er ein Lied. (Dativ — die Gitarre, Dat.)

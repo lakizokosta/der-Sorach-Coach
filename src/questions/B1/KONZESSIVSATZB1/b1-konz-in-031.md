@@ -5,4 +5,4 @@ correct:
   - Obwohl
 ---
 
-___ er wenig schläft, arbeitet er sehr produktiv. (Konzessivsatz)
+___ er wenig schläft, arbeitet er sehr produktiv. (Konzessivsatz — obwohl/obschon/trotzdem)

@@ -5,4 +5,4 @@ correct:
   - hohen
 ---
 
-Trotz ___ Preises buchen viele die Reise. (Adj. — hoch, mask., Gen.)
+Trotz ___ Preises buchen viele die Reise. (Adjektivdeklination — hoch, mask., Gen.)

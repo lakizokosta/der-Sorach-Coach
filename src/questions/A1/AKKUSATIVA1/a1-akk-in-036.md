@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Ich schaue ___ Serie. (Akkusativ — Akk.)
+Ich schaue ___ Serie. (Akkusativ — eine Serie, Akk.)

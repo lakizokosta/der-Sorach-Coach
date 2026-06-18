@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Das Buch ___ sich gut lesen. (lassen)
+Das Buch ___ sich gut lesen. (Passiv-Ersatz + Verb lassen)

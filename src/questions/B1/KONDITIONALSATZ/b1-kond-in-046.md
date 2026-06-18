@@ -5,4 +5,4 @@ correct:
   - Wenn
 ---
 
-___ du morgen Zeit hast, treffen wir uns. (Konditionalsatz)
+___ du morgen Zeit hast, treffen wir uns. (Konditionalsatz — wenn/falls)

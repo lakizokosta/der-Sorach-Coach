@@ -5,4 +5,4 @@ correct:
   - darauf
 ---
 
-Hoffst du auf bessere Zeiten? — Ich hoffe ___. (Pronominaladverb)
+Hoffst du auf bessere Zeiten? — Ich hoffe ___. (Pronominaladverb — Präp. auf)

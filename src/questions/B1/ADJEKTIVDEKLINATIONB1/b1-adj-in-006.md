@@ -5,4 +5,4 @@ correct:
   - erfahrenen
 ---
 
-Er diskutiert mit einer ___ Politikerin. (Adj. — erfahren, fem., Dat.)
+Er diskutiert mit einer ___ Politikerin. (Adjektivdeklination — erfahren, fem., Dat.)

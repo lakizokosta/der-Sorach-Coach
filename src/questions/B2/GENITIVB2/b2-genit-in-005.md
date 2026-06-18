@@ -5,4 +5,4 @@ correct:
   - schlechten
 ---
 
-Wegen ___ (schlecht) Wetters fiel das Fest aus. (Genitivform)
+Wegen ___ (schlecht) Wetters fiel das Fest aus.

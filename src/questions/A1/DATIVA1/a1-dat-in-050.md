@@ -5,4 +5,4 @@ correct:
   - ihr
 ---
 
-Ich schicke ___ eine Nachricht. (Dativ — Dat.)
+Ich schicke ___ eine Nachricht. (Dativ — sie, Dat.)

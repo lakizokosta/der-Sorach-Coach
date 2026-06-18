@@ -5,4 +5,4 @@ correct:
   - Das
 ---
 
-___ Buch ist spannend. (Artikel — Nom.)
+___ Buch ist spannend. (Artikel — das Buch, Nom.)

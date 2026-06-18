@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Er ___ (werden) wohl erst morgen ankommen. (Grammatikform)
+Er ___ (werden) wohl erst morgen ankommen.

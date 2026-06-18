@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Der Arzt hilft ___ Patienten. (Dativ — Dat.)
+Der Arzt hilft ___ Patienten. (Dativ — der Patient, Dat.)

@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Ich interessiere mich für ___ Stelle im Ausland. (Akkusativ)
+Ich interessiere mich für ___ Stelle im Ausland. (Akkusativ — Akkusativ)

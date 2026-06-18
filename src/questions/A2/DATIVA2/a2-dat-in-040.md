@@ -5,4 +5,4 @@ correct:
   - meiner
 ---
 
-Ich gebe ___ Mutter Blumen. (Dativ — meine Mutter, Dat.)
+Ich gebe ___ Mutter Blumen. (Dativ — Possessiv — meine Mutter, Dat.)

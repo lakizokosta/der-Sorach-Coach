@@ -156,7 +156,10 @@ function separableInfinitiveFromOptions(options) {
       const rest = o.slice(particle.length);
       if (/^[a-zäöüß]+(?:en|eln|ern)$/.test(rest)) return `${particle}${rest}`;
       if (/^[a-zäöüß]+(?:st|t)$/.test(rest)) {
-        return `${particle}${rest.replace(/(?:st|t)$/, 'en')}`;
+        // Strip person ending, then add `-en` (or just `-n` if stem ends in `e`).
+        const stem = rest.replace(/(?:st|t)$/, '');
+        const inf = stem.endsWith('e') ? `${stem}n` : `${stem}en`;
+        return `${particle}${inf}`;
       }
     }
   }
@@ -215,8 +218,15 @@ function lemmaFromBankItem(item, topicKey) {
     if (!m) return 'werden';
     const pp = m[1];
     if (pp.endsWith('iert')) return `${pp.slice(0, -3)}ieren`;
-    if (pp.endsWith('ert')) return `${pp.slice(0, -2)}en`;
-    if (pp.endsWith('t')) return `${pp.slice(0, -1)}en`;
+    if (pp.endsWith('ert')) {
+      const stem = pp.slice(0, -2);
+      return stem.endsWith('e') ? `${stem}n` : `${stem}en`;
+    }
+    if (pp.endsWith('t')) {
+      let stem = pp.replace(/^ge/, '');
+      stem = stem.slice(0, -1);
+      return stem.endsWith('e') ? `${stem}n` : `${stem}en`;
+    }
   }
   if (topicKey === 'REFLEXIVPRONOMEN') {
     return lemmaFromReflexivBankItem(item[0], item[2], item[1]);
@@ -247,11 +257,38 @@ export function finiteToInfinitive(word) {
     erholen: 'erholen', erhole: 'erholen', erholt: 'erholen',
     ruhe: 'ausruhen', ruht: 'ausruhen', ruhst: 'ausruhen', ausgeruht: 'ausruhen',
     erkälte: 'erkälten', erkältet: 'erkälten', erkältest: 'erkälten',
+    // common irregulars
+    bist: 'sein', bin: 'sein', ist: 'sein', sind: 'sein', seid: 'sein',
+    hast: 'haben', hat: 'haben', habe: 'haben', habt: 'haben',
+    wirst: 'werden', wird: 'werden', werde: 'werden', werden: 'werden', werdet: 'werden',
+    weiß: 'wissen', weißt: 'wissen', wissen: 'wissen', wisst: 'wissen',
+    tust: 'tun', tut: 'tun', tue: 'tun', tun: 'tun',
+    nimmst: 'nehmen', nimmt: 'nehmen', nehme: 'nehmen', nehmen: 'nehmen', nehmt: 'nehmen',
+    liest: 'lesen', las: 'lesen', lasen: 'lesen', gelesen: 'lesen',
+    läufst: 'laufen', läuft: 'laufen', lief: 'laufen', liefen: 'laufen', gelaufen: 'laufen',
+    fährst: 'fahren', fährt: 'fahren', fuhr: 'fahren', fuhren: 'fahren', gefahren: 'fahren',
+    gibst: 'geben', gibt: 'geben', gab: 'geben', gaben: 'geben', gegeben: 'geben',
+    isst: 'essen', aß: 'essen', aßen: 'essen', gegessen: 'essen',
+    sprichst: 'sprechen', spricht: 'sprechen', sprach: 'sprechen', gesprochen: 'sprechen',
+    hilfst: 'helfen', hilft: 'helfen', half: 'helfen', halfen: 'helfen', geholfen: 'helfen',
+    schläfst: 'schlafen', schläft: 'schlafen', schlief: 'schlafen', geschlafen: 'schlafen',
+    trägst: 'tragen', trägt: 'tragen', trug: 'tragen', getragen: 'tragen',
   };
   if (map[w]) return map[w];
   if (/^ge\w+(en|t)$/i.test(w)) return '';
   if (/(?:en|eln|ern)$/i.test(w)) return w;
-  if (w.endsWith('st') || w.endsWith('t')) return `${w.slice(0, -1)}en`;
+  // Drop -st (du-form) → -en :  meldest → melden, kaufst → kaufen
+  if (/[a-zäöüß]{2,}st$/i.test(w)) {
+    const stem = w.slice(0, -2);
+    return stem.endsWith('e') ? `${stem}n` : `${stem}en`;
+  }
+  // Drop -t (er/sie/es) → -en :  meldet → melden, kauft → kaufen
+  if (/[a-zäöüß]{2,}t$/i.test(w)) {
+    const stem = w.slice(0, -1);
+    return stem.endsWith('e') ? `${stem}n` : `${stem}en`;
+  }
+  // Drop -e (ich-form) → -en :  melde → melden, stehe → stehen, gehe → gehen
+  if (/[a-zäöüß]{2,}e$/i.test(w)) return `${w.slice(0, -1)}en`;
   return '';
 }
 

@@ -5,4 +5,4 @@ correct:
   - Da
 ---
 
-___ die Nachfrage steigt, werden die Preise höher. (Kausalsatz)
+___ die Nachfrage steigt, werden die Preise höher. (Kausalsatz — weil/da/denn)

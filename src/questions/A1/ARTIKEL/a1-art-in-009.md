@@ -5,4 +5,4 @@ correct:
   - Der
 ---
 
-___ Freund wohnt in Berlin. (Artikel — Nom.)
+___ Freund wohnt in Berlin. (Artikel — der Freund, Nom.)

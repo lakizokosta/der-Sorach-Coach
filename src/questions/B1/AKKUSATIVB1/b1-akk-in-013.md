@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Er freut sich auf ___ Geschäftsreise. (Akkusativ)
+Er freut sich auf ___ Geschäftsreise. (Akkusativ — Akkusativ)

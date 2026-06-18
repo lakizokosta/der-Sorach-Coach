@@ -5,4 +5,4 @@ correct:
   - dabei
 ---
 
-Hilfst du bei dem Projekt? — Ja, ich helfe ___. (Pronominaladverb)
+Hilfst du bei dem Projekt? — Ja, ich helfe ___. (Pronominaladverb — Präp. bei)

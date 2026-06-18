@@ -5,4 +5,4 @@ correct:
   - wurde
 ---
 
-Der Bericht ___ gestern veröffentlicht. (Passiv + Hilfsverb werden)
+Der Bericht ___ gestern veröffentlicht. (Passiv + Verb ffentlichen)

@@ -5,4 +5,4 @@ correct:
   - Jahre
 ---
 
-Meine Geschwister sind acht ___ alt. (Plural)
+Meine Geschwister sind acht ___ alt. (Plural: Jahr)

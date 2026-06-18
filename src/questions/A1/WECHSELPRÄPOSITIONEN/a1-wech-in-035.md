@@ -5,4 +5,4 @@ correct:
   - auf den
 ---
 
-Ich lege die Jacke ___ Stuhl. (Dativ oder Akkusativ)
+Ich lege die Jacke ___ Stuhl. (Wechselpräpositionen — Bewegung)

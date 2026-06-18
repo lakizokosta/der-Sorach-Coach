@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Das Projekt ___ gerade diskutiert. (Passiv + Hilfsverb werden)
+Das Projekt ___ gerade diskutiert. (Passiv + Verb diskutiieren)

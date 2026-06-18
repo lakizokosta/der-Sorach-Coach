@@ -5,4 +5,4 @@ correct:
   - obwohl
 ---
 
-Sie geht joggen, ___ es kalt ist. (Konzessivsatz)
+Sie geht joggen, ___ es kalt ist. (Konzessivsatz — obwohl/obschon/trotzdem)

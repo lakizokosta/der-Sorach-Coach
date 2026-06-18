@@ -5,4 +5,4 @@ correct:
   - Das
 ---
 
-___ Hotel hat ein Schwimmbad. (Artikel — Nom.)
+___ Hotel hat ein Schwimmbad. (Artikel — das Hotel, Nom.)

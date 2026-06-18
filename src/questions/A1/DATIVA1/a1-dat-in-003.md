@@ -5,4 +5,4 @@ correct:
   - dem
 ---
 
-Ich danke ___ Lehrer. (Dativ — Dat.)
+Ich danke ___ Lehrer. (Dativ — der Lehrer, Dat.)

@@ -5,4 +5,4 @@ correct:
   - Anna
 ---
 
-Ich schreibe ___ einen Brief. (Dativ — Dat.)
+Ich schreibe ___ einen Brief. (Dativ — Anna, Dat.)

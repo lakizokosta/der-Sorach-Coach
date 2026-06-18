@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Wir erkunden ___ Markt. (Akkusativ — Akk.)
+Wir erkunden ___ Markt. (Akkusativ — der Markt, Akk.)

@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Ich habe ___ Idee. (Artikel — fem., Akk.)
+Ich habe ___ Idee. (Artikel — eine Idee, fem., Akk.)

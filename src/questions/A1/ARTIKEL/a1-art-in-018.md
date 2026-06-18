@@ -5,4 +5,4 @@ correct:
   - Das
 ---
 
-___ Büro ist im dritten Stock. (Artikel — Nom.)
+___ Büro ist im dritten Stock. (Artikel — das Büro, Nom.)

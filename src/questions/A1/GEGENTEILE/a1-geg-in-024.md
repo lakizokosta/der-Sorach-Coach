@@ -5,4 +5,4 @@ correct:
   - langweilig
 ---
 
-Das Buch ist interessant, der Vortrag ist ___. (Gegenteile)
+Das Buch ist interessant, der Vortrag ist ___. (Gegenteil von interessant)

@@ -5,4 +5,4 @@ correct:
   - auf dem
 ---
 
-Sie kauft Obst ___ Markt. (Dativ oder Akkusativ)
+Sie kauft Obst ___ Markt. (Wechselpräpositionen — Ort)

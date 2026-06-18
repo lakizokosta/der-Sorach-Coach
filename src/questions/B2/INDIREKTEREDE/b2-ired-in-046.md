@@ -5,4 +5,4 @@ correct:
   - werde
 ---
 
-Er sagte, er ___ morgen früher kommen. (Indirekte Rede)
+Er sagte, er ___ morgen früher kommen. (Indirekte Rede + Verb werden)

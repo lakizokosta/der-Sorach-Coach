@@ -5,4 +5,4 @@ correct:
   - werden
 ---
 
-Die Abfälle ___ getrennt gesammelt. (Passiv + Hilfsverb werden)
+Die Abfälle ___ getrennt gesammelt. (Passiv + Verb sammelen)

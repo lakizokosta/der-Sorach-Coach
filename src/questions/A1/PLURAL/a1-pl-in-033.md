@@ -5,4 +5,4 @@ correct:
   - Hotels
 ---
 
-An der Küste stehen viele ___. (Plural)
+An der Küste stehen viele ___. (Plural: Hotel)

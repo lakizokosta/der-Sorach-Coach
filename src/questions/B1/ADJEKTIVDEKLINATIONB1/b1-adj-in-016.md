@@ -5,4 +5,4 @@ correct:
   - modernen
 ---
 
-In einem ___ Büro arbeiten viele junge Kollegen. (Adj. — modern, mask., Dat.)
+In einem ___ Büro arbeiten viele junge Kollegen. (Adjektivdeklination — modern, mask., Dat.)

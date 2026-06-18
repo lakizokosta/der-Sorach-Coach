@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Wir lesen ___ Bericht über die Klimakonferenz. (Akkusativ)
+Wir lesen ___ Bericht über die Klimakonferenz. (Akkusativ — Akkusativ)

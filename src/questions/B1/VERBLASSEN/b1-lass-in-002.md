@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Er ___ sich von einem Spezialisten beraten. (Verben lassen)
+Er ___ sich von einem Spezialisten beraten. (lassen + Verb beraten)

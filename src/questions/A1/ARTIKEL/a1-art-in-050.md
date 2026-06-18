@@ -5,4 +5,4 @@ correct:
   - Das
 ---
 
-___ Meeting beginnt jetzt. (Artikel — Nom.)
+___ Meeting beginnt jetzt. (Artikel — das Meeting, Nom.)

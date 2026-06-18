@@ -5,4 +5,4 @@ correct:
   - billigste
 ---
 
-Das ist das ___ Hotel an der Mosel. (Superlativ — neutr., Nom.)
+Das ist das ___ Hotel an der Mosel. (Superlativ — billig, neutr., Nom.)

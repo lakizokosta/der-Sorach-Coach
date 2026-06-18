@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Das Ergebnis ___ sich nicht vorhersagen. (lassen)
+Das Ergebnis ___ sich nicht vorhersagen. (Passiv-Ersatz + Verb lassen)

@@ -5,4 +5,4 @@ correct:
   - aktuelle
 ---
 
-Die Zeitung berichtet über eine ___ Entwicklung. (Adj. — aktuell, fem., Akk.)
+Die Zeitung berichtet über eine ___ Entwicklung. (Adjektivdeklination — aktuell, fem., Akk.)

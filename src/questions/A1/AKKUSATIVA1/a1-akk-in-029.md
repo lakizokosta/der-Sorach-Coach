@@ -5,4 +5,4 @@ correct:
   - den
 ---
 
-Ich bezahle ___ Einkauf. (Akkusativ — Akk.)
+Ich bezahle ___ Einkauf. (Akkusativ — der Einkauf, Akk.)

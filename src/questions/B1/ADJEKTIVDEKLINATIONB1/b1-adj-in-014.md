@@ -5,4 +5,4 @@ correct:
   - wichtiges
 ---
 
-Das ist ein ___ Thema in der Politik. (Adj. — wichtig, neutr., Nom.)
+Das ist ein ___ Thema in der Politik. (Adjektivdeklination — wichtig, neutr., Nom.)

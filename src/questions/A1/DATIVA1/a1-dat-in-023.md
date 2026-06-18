@@ -5,4 +5,4 @@ correct:
   - uns
 ---
 
-Das passt ___ gut. (Dativ — Dat.)
+Das passt ___ gut. (Dativ — wir, Dat.)

@@ -5,4 +5,4 @@ correct:
   - Wenn
 ---
 
-___ du pünktlich bist, beginnen wir. (Konditionalsatz)
+___ du pünktlich bist, beginnen wir. (Konditionalsatz — wenn/falls)

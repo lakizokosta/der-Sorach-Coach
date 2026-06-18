@@ -5,4 +5,4 @@ correct:
   - lässt
 ---
 
-Die Tür ___ sich nicht schließen. (lassen)
+Die Tür ___ sich nicht schließen. (Passiv-Ersatz + Verb lassen)

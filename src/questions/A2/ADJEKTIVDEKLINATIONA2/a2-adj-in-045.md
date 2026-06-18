@@ -5,4 +5,4 @@ correct:
   - lange
 ---
 
-Wir machen eine ___ Reise. (Adjektivdeklination — fem., Akk.)
+Wir machen eine ___ Reise. (Adjektivdeklination — lang, fem., Akk.)

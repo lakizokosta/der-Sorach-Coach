@@ -5,4 +5,4 @@ correct:
   - Das
 ---
 
-___ Fahrrad steht im Hof. (Artikel — Nom.)
+___ Fahrrad steht im Hof. (Artikel — das Fahrrad, Nom.)

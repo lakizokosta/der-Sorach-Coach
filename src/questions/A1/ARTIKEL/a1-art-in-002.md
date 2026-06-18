@@ -5,4 +5,4 @@ correct:
   - Die
 ---
 
-___ Lampe leuchtet hell. (Artikel — Nom.)
+___ Lampe leuchtet hell. (Artikel — die Lampe, Nom.)

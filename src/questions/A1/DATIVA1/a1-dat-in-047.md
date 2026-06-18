@@ -5,4 +5,4 @@ correct:
   - dir
 ---
 
-Ich wünsche ___ viel Erfolg. (Dativ — Dat.)
+Ich wünsche ___ viel Erfolg. (Dativ — du, Dat.)

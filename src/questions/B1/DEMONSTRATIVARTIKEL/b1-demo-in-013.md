@@ -5,4 +5,4 @@ correct:
   - Dieses
 ---
 
-___ Gesetz wurde gestern verabschiedet. (Demonstrativartikel)
+___ Gesetz wurde gestern verabschiedet. (Demonstrativartikel — neutr., Nom./Akk. / mask./neutr., Gen.)

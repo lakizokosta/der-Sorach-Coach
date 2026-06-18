@@ -5,4 +5,4 @@ correct:
   - diese
 ---
 
-Ich habe ___ Nachrichten schon gelesen. (Demonstrativartikel)
+Ich habe ___ Nachrichten schon gelesen. (Demonstrativartikel — fem./Pl., Nom./Akk.)

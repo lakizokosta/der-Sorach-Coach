@@ -5,4 +5,4 @@ correct:
   - Tage
 ---
 
-Im Sommer sind die ___ lang. (Plural)
+Im Sommer sind die ___ lang. (Plural: Tag)

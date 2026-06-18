@@ -5,4 +5,4 @@ correct:
   - Das
 ---
 
-___ Fenster ist offen. (Artikel — Nom.)
+___ Fenster ist offen. (Artikel — das Fenster, Nom.)

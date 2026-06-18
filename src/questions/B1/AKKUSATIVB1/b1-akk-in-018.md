@@ -5,4 +5,4 @@ correct:
   - eine
 ---
 
-Sie bereitet ___ Prüfung an der Universität vor. (Akkusativ)
+Sie bereitet ___ Prüfung an der Universität vor. (Akkusativ — Akkusativ)

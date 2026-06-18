@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Es ___ (werden) morgen regnen. (Grammatikform)
+Es ___ (werden) morgen regnen.

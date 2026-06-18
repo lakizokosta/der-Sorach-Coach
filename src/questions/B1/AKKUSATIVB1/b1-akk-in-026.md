@@ -5,4 +5,4 @@ correct:
   - die
 ---
 
-Der Minister erklärt ___ neue Politik. (Akkusativ)
+Der Minister erklärt ___ neue Politik. (Akkusativ — Akkusativ)

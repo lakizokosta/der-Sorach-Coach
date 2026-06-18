@@ -5,4 +5,4 @@ correct:
   - im
 ---
 
-Wir sind ___ Keller. (Dativ oder Akkusativ)
+Wir sind ___ Keller. (Wechselpräpositionen — Ort)

@@ -5,4 +5,4 @@ correct:
   - einen
 ---
 
-Ich brauche ___ Termin. (Akkusativ — Akk.)
+Ich brauche ___ Termin. (Akkusativ — ein Termin, Akk.)

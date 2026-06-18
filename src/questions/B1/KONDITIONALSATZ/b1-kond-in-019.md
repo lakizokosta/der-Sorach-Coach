@@ -5,4 +5,4 @@ correct:
   - Wenn
 ---
 
-___ ich die Stelle bekomme, ziehe ich um. (Konditionalsatz)
+___ ich die Stelle bekomme, ziehe ich um. (Konditionalsatz — wenn/falls)

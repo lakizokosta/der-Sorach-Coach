@@ -5,4 +5,4 @@ correct:
   - liebstes
 ---
 
-Das ist mein ___ Buch. (Superlativ — neutr., Nom.)
+Das ist mein ___ Buch. (Superlativ — lieb, neutr., Nom.)

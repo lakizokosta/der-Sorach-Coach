@@ -5,4 +5,4 @@ correct:
   - meiner
 ---
 
-Ich kaufe ___ Schwester ein Geschenk. (Dativ — meine Schwester, Dat.)
+Ich kaufe ___ Schwester ein Geschenk. (Dativ — Possessiv — meine Schwester, Dat.)

@@ -5,4 +5,4 @@ correct:
   - wird
 ---
 
-Das neue Gesetz ___ morgen verabschiedet. (Passiv + Hilfsverb werden)
+Das neue Gesetz ___ morgen verabschiedet. (Passiv + Verb verabschieden)

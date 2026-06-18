@@ -5,4 +5,4 @@ correct:
   - falsch
 ---
 
-Die Antwort ist richtig, diese Lösung ist ___. (Gegenteile)
+Die Antwort ist richtig, diese Lösung ist ___. (Gegenteil von richtig)

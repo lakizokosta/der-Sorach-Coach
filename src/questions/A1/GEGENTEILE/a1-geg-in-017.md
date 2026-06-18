@@ -5,4 +5,4 @@ correct:
   - kurz
 ---
 
-Der Film ist lang, die Werbung ist ___. (Gegenteile)
+Der Film ist lang, die Werbung ist ___. (Gegenteil von lang)

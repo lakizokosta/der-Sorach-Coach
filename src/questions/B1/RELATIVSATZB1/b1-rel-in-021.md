@@ -5,4 +5,4 @@ correct:
   - dessen
 ---
 
-Der Minister, ___ Entscheidung umstritten ist, spricht heute. (Relativpronomen)
+Der Minister, ___ Entscheidung umstritten ist, spricht heute. (Relativpronomen — mask./neutr., Gen.)

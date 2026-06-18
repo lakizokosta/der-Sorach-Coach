@@ -5,4 +5,4 @@ correct:
   - dem Bus
 ---
 
-Mit ___ fahre ich zur Arbeit. (Dativ — Dat.)
+Mit ___ fahre ich zur Arbeit. (Dativ — der Bus, Dat.)

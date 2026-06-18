@@ -5,4 +5,4 @@ correct:
   - ein
 ---
 
-Sie hat ___ Ticket. (Artikel — neutr., Akk.)
+Sie hat ___ Ticket. (Artikel — ein Ticket, neutr., Akk.)

@@ -5,4 +5,4 @@ correct:
   - bedienen
 ---
 
-Die Maschine ist leicht zu ___ . (Infinitiv)
+Die Maschine ist leicht zu ___ . (Passiversatz)

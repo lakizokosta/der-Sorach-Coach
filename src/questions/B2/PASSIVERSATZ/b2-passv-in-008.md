@@ -5,4 +5,4 @@ correct:
   - beantworten
 ---
 
-Diese Frage ist nicht zu ___ . (Infinitiv)
+Diese Frage ist nicht zu ___ . (Passiversatz)

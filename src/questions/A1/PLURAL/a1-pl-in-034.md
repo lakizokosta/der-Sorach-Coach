@@ -5,4 +5,4 @@ correct:
   - Nachbarn
 ---
 
-Unsere ___ sind sehr nett. (Plural)
+Unsere ___ sind sehr nett. (Plural: Nachbar)

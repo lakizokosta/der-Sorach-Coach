@@ -5,4 +5,4 @@ correct:
   - schnellste
 ---
 
-Der ICE ist der ___ Zug in Deutschland. (Superlativ — mask., Nom.)
+Der ICE ist der ___ Zug in Deutschland. (Superlativ — schnell, mask., Nom.)
