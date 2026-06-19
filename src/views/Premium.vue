@@ -715,6 +715,14 @@ function topicMastered(key) {
               />
             </button>
 
+            <button
+              type="button"
+              class="premium-basis-btn premium-basis-btn--lilac"
+              @click="payBasis"
+            >
+              ⏱️ {{ t('funnel.basisQuick', { price: basisPriceLabel }) }}
+            </button>
+
             <p class="premium-buy-footer">{{ t('premium.securePremium') }}</p>
 
             <div

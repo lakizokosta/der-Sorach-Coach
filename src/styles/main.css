@@ -3089,6 +3089,10 @@ button.lesen-gap-marker {
 .premium-basis-btn--paypal {
   background: #FFC439;
   color: #000;
+}
+.premium-basis-btn--lilac {
+  background: linear-gradient(135deg, #ab4dbb, #7b2d8b);
+  color: #fff;
   margin-bottom: 0;
 }
 .payment-provider-logo {
