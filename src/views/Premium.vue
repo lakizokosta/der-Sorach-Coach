@@ -89,13 +89,6 @@ const topics = computed(() => getTopicsForLevel(activeLevel.value));
 const conversionSheetOpen = ref(false);
 const conversionVariant = ref('checkout');
 
-const continueLevel = computed(() => cefrLevel.value || activeLevel.value);
-const continueLabel = computed(() =>
-  cefrLevel.value
-    ? t('landing.premiumContinue', { level: cefrLevel.value })
-    : t('landing.premiumContinueDefault'),
-);
-
 /** E-mail used for checkout, trial, and payment pre-fill. */
 const emailForCheckout = computed(() =>
   isLoggedIn.value
@@ -420,11 +413,6 @@ function trainRandomLevel(lvl) {
   const query = { level: lvl, mode: 'premium' };
   if (isHubMode.value) query.returnTo = 'hub';
   router.push({ name: 'trainer', query });
-}
-
-/** Hero CTA — continue at detected CEFR level. */
-function continuePractice() {
-  trainRandomLevel(continueLevel.value);
 }
 
 function openProfile() {
@@ -911,16 +899,6 @@ function topicMastered(key) {
 
         <!-- UNLOCKED VIEW: streak + XP (Premium active only) -->
         <div v-else>
-          <div class="premium-hero-cta">
-            <button
-              type="button"
-              class="landing-premium-banner__btn"
-              @click="continuePractice"
-            >
-              {{ continueLabel }}
-            </button>
-          </div>
-
           <div class="premium-stats-card">
             <div class="premium-stats-card__top">
               <div class="premium-stats-card__level">

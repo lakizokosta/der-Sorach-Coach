@@ -287,6 +287,10 @@ export default {
     freeTimeExpiredMessage:
       'Deine 7 Gratis-Minuten für heute sind verbraucht — komm morgen wieder!',
     sessionEnded: 'Session beendet',
+    placementShare: '📤 Niveau teilen',
+    placementShareTitle: 'Mein Deutsch-Niveau',
+    placementShareText:
+      'Mein Deutsch-Niveau: {level} — Einstufungtest mit Der SprachCoach 🇩🇪',
   },
   funnel: {
     sheetAria: 'Premium-Angebot',

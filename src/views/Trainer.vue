@@ -54,6 +54,8 @@ import {
   PLACEMENT_TOTAL,
 } from '@/utils/placementTest.js';
 import { setCefrLevel } from '@/composables/useCefrLevel.js';
+import { useNickname } from '@/composables/useNickname.js';
+import { sharePlacementCard } from '@/utils/shareCard.js';
 import { useI18n } from '@/i18n/index.js';
 import { PRICES_EUR } from '@/data/payment.js';
 
@@ -63,6 +65,7 @@ const router = useRouter();
 const { isPremium, isBasis } = usePremium();
 const { addXP, state: xpState, level: liveLevel, MASTERY_THRESHOLD } = useXp();
 const { state: streakState } = useStreak();
+const { displayName } = useNickname();
 
 /** Free countdown at session start — used to persist seconds used today. */
 let freeTimerBaseline = null;
@@ -505,6 +508,20 @@ function trainAtDetectedLevel() {
   router.push({ name: 'trainer', query: { level: lvl, mode: 'premium' } });
 }
 
+function sharePlacementResult() {
+  if (!placementDetectedLevel.value) return;
+  sharePlacementCard({
+    level: placementDetectedLevel.value,
+    breakdown: placementBreakdownRows.value,
+    scorePct: scorePct.value,
+    nickname: displayName.value,
+    shareTitle: t('trainer.placementShareTitle'),
+    shareText: t('trainer.placementShareText', {
+      level: placementDetectedLevel.value,
+    }),
+  });
+}
+
 /**
  * Ends the session, persists XP & streak and renders the result screen.
  *
@@ -940,6 +957,15 @@ watch(lastAnswerResolved, (resolved) => {
             Lv{{ liveLevel.num }} {{ liveLevel.name }}
           </span>
         </div>
+
+        <button
+          v-if="placementDetectedLevel"
+          type="button"
+          class="trainer-placement-share"
+          @click="sharePlacementResult"
+        >
+          {{ t('trainer.placementShare') }}
+        </button>
 
         <button
           v-if="placementDetectedLevel"

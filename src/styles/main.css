@@ -2797,6 +2797,22 @@ button.lesen-gap-marker {
   color: #999;
   font-size: 11px;
 }
+.trainer-placement-share {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ffd700, #ffb700);
+  color: #000;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255, 183, 0, 0.4);
+}
+.trainer-placement-share:hover {
+  box-shadow: 0 10px 24px rgba(255, 183, 0, 0.45);
+}
 .schwaechen-card {
   width: 100%;
   max-width: 360px;
@@ -3865,6 +3881,45 @@ button.lesen-gap-marker {
 .profile-block--streak {
   background: #fff9f0;
   border: 1px solid #ffcc80;
+}
+.profile-block--placement {
+  background: linear-gradient(135deg, #fffde7, #fff9c4);
+  border: 1px solid rgba(255, 183, 0, 0.45);
+}
+.profile-block__title--placement {
+  color: #b8860b;
+}
+.profile-placement-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.profile-placement-rows__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.55);
+  font-size: 14px;
+}
+.profile-placement-rows__row--active {
+  background: rgba(255, 215, 0, 0.35);
+  font-weight: 900;
+}
+.profile-placement-rows__level {
+  font-weight: 800;
+  min-width: 2.5em;
+}
+.profile-placement-summary {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  color: #8d6e00;
 }
 .profile-block__title {
   margin: 0;

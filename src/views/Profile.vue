@@ -21,6 +21,7 @@ import { shareProgressCard } from '@/utils/shareCard.js';
 import { useCefrLevel } from '@/composables/useCefrLevel.js';
 import { useNickname } from '@/composables/useNickname.js';
 import { SHARE_FORMAT } from '@/utils/shareCard.js';
+import { placementBreakdown } from '@/utils/placementTest.js';
 
 const router = useRouter();
 const { isPremium } = usePremium();
@@ -28,7 +29,14 @@ const { isLoggedIn } = useAuth();
 const { state: xp, level: liveLevel } = useXp();
 const { state: streak, medalsFor } = useStreak();
 const activeDaysCount = computed(() => (streak.activeDays || []).length);
-const { level: cefrLevel } = useCefrLevel();
+const { level: cefrLevel, state: cefrState } = useCefrLevel();
+const placementRows = computed(() =>
+  cefrLevel.value ? placementBreakdown(cefrState.scores) : [],
+);
+const placementScorePct = computed(() => {
+  if (!cefrState.totalAnswered) return 0;
+  return Math.round((cefrState.totalCorrect / cefrState.totalAnswered) * 100);
+});
 const { state: nicknameState, displayName, setNickname } = useNickname();
 const shareFormat = ref(SHARE_FORMAT.POST);
 
@@ -51,6 +59,7 @@ function shareCard() {
     streak,
     isMastered: isTopicMastered,
     cefrLevel: cefrLevel.value || '',
+    placementBreakdown: placementRows.value,
     nickname: displayName.value,
     format: shareFormat.value,
   });
@@ -226,6 +235,28 @@ function shareCard() {
           </p>
         </div>
 
+        <div v-if="cefrLevel" class="profile-block profile-block--placement">
+          <div class="profile-block__title profile-block__title--placement">
+            📊 Einstufungtest · {{ cefrLevel }}
+          </div>
+          <ul class="profile-placement-rows">
+            <li
+              v-for="row in placementRows"
+              :key="row.level"
+              class="profile-placement-rows__row"
+              :class="{ 'profile-placement-rows__row--active': row.level === cefrLevel }"
+            >
+              <span class="profile-placement-rows__level">{{ row.level }}</span>
+              <span class="profile-placement-rows__score">
+                {{ row.correct }}/{{ row.total }} ({{ row.pct }}%)
+              </span>
+            </li>
+          </ul>
+          <p v-if="placementScorePct" class="profile-placement-summary small-note">
+            {{ placementScorePct }}% richtig gesamt
+          </p>
+        </div>
+
         <label class="profile-nickname">
           <span class="profile-nickname__label">✏️ Dein Nickname</span>
           <input
@@ -248,6 +279,7 @@ function shareCard() {
           :streak="streak"
           :is-mastered="isTopicMastered"
           :cefr-level="cefrLevel || ''"
+          :placement-breakdown="placementRows"
           :nickname="displayName"
         />
 

@@ -71,13 +71,14 @@ function roundRect(ctx, x, y, w, h, r) {
  * @return {string}
  */
 export function getShareTagline(p) {
-  const { streak, masteredCount, level } = p;
+  const { streak, masteredCount, level, cefrLevel } = p;
   if (streak.currentStreak >= 14) return 'Zwei Wochen Streak! 🔥';
   if (streak.currentStreak >= 7) return 'Eine Woche jeden Tag! 🔥';
   if (masteredCount >= 10) return 'Grammatik-Profi! 📚';
   if (masteredCount >= 1) return 'Erstes Thema gemeistert! ✅';
   if (level.num >= 4) return 'Auf dem Weg zum Profi! 💪';
   if (level.num >= 2) return 'Ich bleibe dran! 🇩🇪';
+  if (cefrLevel) return `Einstufungtest: Niveau ${cefrLevel}! 📊`;
   return 'Deutsch lernen — jeden Tag! ✨';
 }
 
@@ -86,10 +87,17 @@ export function getShareTagline(p) {
  * @return {Array<{emoji:string, label:string}>}
  */
 export function getEarnedBadges(data) {
-  return BADGE_DEFS.filter((b) => b.check(data)).map((b) => ({
+  const badges = BADGE_DEFS.filter((b) => b.check(data)).map((b) => ({
     emoji: b.emoji,
     label: b.label,
   }));
+  if (data.cefrLevel) {
+    badges.unshift({
+      emoji: '📊',
+      label: `Einstufung ${data.cefrLevel}`,
+    });
+  }
+  return badges;
 }
 
 /**
@@ -307,6 +315,34 @@ function drawStreakWeek(ctx, cx, y, days, scale) {
  * @param {number} scale
  * @return {number} bottom Y
  */
+/**
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} cx
+ * @param {number} y
+ * @param {string} level
+ * @param {!Array<{level:string,correct:number,total:number,pct:number}>} breakdown
+ * @param {boolean} isStory
+ * @return {number}
+ */
+function drawPlacementBreakdown(ctx, cx, y, level, breakdown, isStory) {
+  let rowY = y;
+  const fontSize = isStory ? 24 : 20;
+  for (const row of breakdown) {
+    const highlight = row.level === level;
+    ctx.fillStyle = highlight ? ACCENT : TEXT_MUTED;
+    setFont(ctx, highlight ? 'bold' : 'normal', fontSize);
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText(
+      `${row.level}: ${row.correct}/${row.total} (${row.pct}%)`,
+      px(cx),
+      px(rowY),
+    );
+    rowY += isStory ? 36 : 28;
+  }
+  return rowY;
+}
+
 function drawBadges(ctx, cx, y, badges, maxW, scale) {
   const list = badges.slice(0, 6);
   if (!list.length) {
@@ -363,6 +399,7 @@ function drawBadges(ctx, cx, y, badges, maxW, scale) {
  * @param {Object} data.streak
  * @param {!Function} data.isMastered
  * @param {string} [data.cefrLevel]
+ * @param {!Array<{level:string,correct:number,total:number,pct:number}>} [data.placementBreakdown]
  * @param {string} [data.nickname]
  * @param {string} [data.format]
  * @param {!CanvasRenderingContext2D} ctx
@@ -376,6 +413,7 @@ function renderShareCard(data, ctx, w, h) {
     streak,
     isMastered,
     cefrLevel = '',
+    placementBreakdown = [],
     nickname = '',
     format = SHARE_FORMAT.POST,
   } = data;
@@ -384,13 +422,14 @@ function renderShareCard(data, ctx, w, h) {
   const scale = isStory ? 1.15 : 0.82;
   const cx = w / 2;
   const pad = isStory ? 64 : 56;
+  const hasPlacement = cefrLevel && placementBreakdown.length > 0;
 
   const allTopics = getAllTopics();
   const masteredCount = allTopics.filter((t) => isMastered(t.key)).length;
   const themePct = allTopics.length ? masteredCount / allTopics.length : 0;
   const mastered = masteredNames(isMastered, isStory ? 5 : 0);
-  const tagline = getShareTagline({ streak, masteredCount, level });
-  const badges = getEarnedBadges({ totalXP, level, streak, masteredCount });
+  const tagline = getShareTagline({ streak, masteredCount, level, cefrLevel });
+  const badges = getEarnedBadges({ totalXP, level, streak, masteredCount, cefrLevel });
   const weekDays = getLast7Days(streak.activeDays);
 
   drawBackground(ctx, w, h);
@@ -427,9 +466,10 @@ function renderShareCard(data, ctx, w, h) {
   const ringLine = isStory ? 20 : 12;
   const ringOuter = ringR + (isStory ? 34 : 28);
   const ringZoneH = ringOuter * 2 + (isStory ? 20 : 12);
+  const placementH = hasPlacement ? (isStory ? 176 : 136) : 0;
   const sectionHeights = isStory
-    ? { header: 40, nickname: 78, ring: ringZoneH, stats: 136, week: 130, badges: 88, summary: 120 }
-    : { header: 32, nickname: 58, ring: ringZoneH, stats: 96, week: 98, badges: 62, summary: 88 };
+    ? { header: 40, nickname: 78, ring: ringZoneH, stats: 136, placement: placementH, week: 130, badges: 88, summary: 120 }
+    : { header: 32, nickname: 58, ring: ringZoneH, stats: 96, placement: placementH, week: 98, badges: 62, summary: 88 };
   const sectionCount = Object.keys(sectionHeights).length;
   const contentMin = Object.values(sectionHeights).reduce((sum, n) => sum + n, 0);
   const gap = Math.max(isStory ? 22 : 16, (innerH - footerReserve - contentMin) / (sectionCount + 1));
@@ -511,6 +551,23 @@ function renderShareCard(data, ctx, w, h) {
     statLabelSize,
   );
   y += sectionHeights.stats + gap;
+
+  if (hasPlacement) {
+    ctx.fillStyle = TEXT_SOFT;
+    setFont(ctx, 'bold', isStory ? 22 : 19);
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText(`Einstufungtest · ${cefrLevel}`, px(cx), px(y + 16));
+    y = drawPlacementBreakdown(
+      ctx,
+      cx,
+      y + (isStory ? 28 : 22),
+      cefrLevel,
+      placementBreakdown,
+      isStory,
+    );
+    y += gap;
+  }
 
   ctx.fillStyle = TEXT_SOFT;
   setFont(ctx, 'bold', isStory ? 22 : 19);
@@ -631,6 +688,7 @@ export function shareProgressCard(progress) {
       streak: progress.streak,
       masteredCount,
       level: progress.level,
+      cefrLevel: progress.cefrLevel || '',
     });
     if (
       navigator.share &&
@@ -654,5 +712,126 @@ export function shareProgressCard(progress) {
       document.body.removeChild(a);
       setTimeout(() => URL.revokeObjectURL(url), 1000);
     }
+  }, 'image/png');
+}
+
+/**
+ * Renders a compact card for Einstufungtest results (1080×1080).
+ *
+ * @param {Object} data
+ * @param {string} data.level
+ * @param {!Array<{level:string,correct:number,total:number,pct:number}>} data.breakdown
+ * @param {number} data.scorePct
+ * @param {string} [data.nickname]
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} w
+ * @param {number} h
+ */
+function renderPlacementShareCard(data, ctx, w, h) {
+  const { level, breakdown, scorePct, nickname = '' } = data;
+  const cx = w / 2;
+  const pad = 56;
+
+  drawBackground(ctx, w, h);
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
+
+  let y = pad + 36;
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', 34);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText('Der SprachCoach', px(cx), px(y));
+  y += 48;
+
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', 26);
+  ctx.fillText('Einstufungtest abgeschlossen', px(cx), px(y));
+  y += 36;
+
+  if (nickname && nickname !== 'Lernender') {
+    setFont(ctx, 'normal', 24);
+    ctx.fillText(nickname, px(cx), px(y));
+    y += 32;
+  }
+
+  const ringY = y + 100;
+  ctx.fillStyle = ACCENT;
+  ctx.beginPath();
+  ctx.arc(px(cx), px(ringY), 96, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = '#3d0f5c';
+  setFont(ctx, 'bold', 88);
+  ctx.textBaseline = 'middle';
+  ctx.fillText(level, px(cx), px(ringY));
+  y = ringY + 130;
+
+  ctx.textBaseline = 'alphabetic';
+  for (const row of breakdown) {
+    const highlight = row.level === level;
+    ctx.fillStyle = highlight ? ACCENT : TEXT_SOFT;
+    setFont(ctx, highlight ? 'bold' : 'normal', 28);
+    ctx.fillText(
+      `${row.level}: ${row.correct}/${row.total} (${row.pct}%)`,
+      px(cx),
+      px(y),
+    );
+    y += 42;
+  }
+
+  y += 16;
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', 34);
+  ctx.fillText(`${scorePct}% richtig`, px(cx), px(y));
+
+  ctx.fillStyle = TEXT_MUTED;
+  setFont(ctx, 'normal', 22);
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText('#DeutschLernen · #SprachCoach', px(cx), px(h - pad - 16));
+}
+
+/**
+ * Shares the placement-test result card (Web Share API or PNG download).
+ *
+ * @param {Object} data
+ * @param {string} data.level
+ * @param {!Array<{level:string,correct:number,total:number,pct:number}>} data.breakdown
+ * @param {number} data.scorePct
+ * @param {string} data.shareText
+ * @param {string} [data.shareTitle]
+ * @param {string} [data.nickname]
+ */
+export function sharePlacementCard(data) {
+  const canvas = document.createElement('canvas');
+  canvas.width = POST_SIZE;
+  canvas.height = POST_SIZE;
+  const ctx = canvas.getContext('2d');
+  renderPlacementShareCard(data, ctx, POST_SIZE, POST_SIZE);
+  const filename = `einstufung-${String(data.level || 'a1').toLowerCase()}-sprachcoach.png`;
+
+  canvas.toBlob((blob) => {
+    if (!blob) return;
+    const file = new File([blob], filename, { type: 'image/png' });
+    const title = data.shareTitle || 'Mein Deutsch-Niveau';
+    const text = data.shareText || `Mein Niveau: ${data.level} — Der SprachCoach`;
+    if (
+      navigator.share &&
+      typeof navigator.canShare === 'function' &&
+      navigator.canShare({ files: [file] })
+    ) {
+      navigator.share({ files: [file], title, text }).catch(() => {});
+      return;
+    }
+    if (navigator.share) {
+      navigator.share({ title, text }).catch(() => {});
+    }
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
   }, 'image/png');
 }

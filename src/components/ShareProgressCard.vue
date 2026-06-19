@@ -21,6 +21,7 @@ const props = defineProps({
   streak: { type: Object, required: true },
   isMastered: { type: Function, required: true },
   cefrLevel: { type: String, default: '' },
+  placementBreakdown: { type: Array, default: () => [] },
   nickname: { type: String, default: '' },
 });
 
@@ -37,6 +38,7 @@ function redraw() {
     streak: props.streak,
     isMastered: props.isMastered,
     cefrLevel: props.cefrLevel,
+    placementBreakdown: props.placementBreakdown,
     nickname: props.nickname,
     format: format.value,
   });
@@ -65,7 +67,12 @@ const masteredCount = computed(() =>
 );
 
 const tagline = computed(() =>
-  getShareTagline({ streak: props.streak, masteredCount: masteredCount.value, level: props.level }),
+  getShareTagline({
+    streak: props.streak,
+    masteredCount: masteredCount.value,
+    level: props.level,
+    cefrLevel: props.cefrLevel,
+  }),
 );
 
 const earnedBadges = computed(() =>
@@ -74,6 +81,7 @@ const earnedBadges = computed(() =>
     level: props.level,
     streak: props.streak,
     masteredCount: masteredCount.value,
+    cefrLevel: props.cefrLevel,
   }),
 );
 
@@ -100,7 +108,15 @@ onUnmounted(() => {
   resizeObserver = null;
 });
 watch(
-  () => [props.totalXP, props.level, props.streak, props.cefrLevel, props.nickname, format.value],
+  () => [
+    props.totalXP,
+    props.level,
+    props.streak,
+    props.cefrLevel,
+    props.placementBreakdown,
+    props.nickname,
+    format.value,
+  ],
   redraw,
   { deep: true },
 );
