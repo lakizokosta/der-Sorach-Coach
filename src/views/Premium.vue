@@ -22,7 +22,6 @@ import { useRoute, useRouter } from 'vue-router';
 
 import DeviceGuide from '@/components/DeviceGuide.vue';
 import LzdLogo from '@/components/LzdLogo.vue';
-import LoginPanel from '@/components/LoginPanel.vue';
 import ConversionSheet from '@/components/ConversionSheet.vue';
 import PaymentButtonLabel from '@/components/PaymentButtonLabel.vue';
 import DailyGoalCard from '@/components/DailyGoalCard.vue';
@@ -1205,15 +1204,6 @@ function topicMastered(key) {
               <div class="topic-desc">{{ topicItem.desc }}</div>
             </button>
           </div>
-        </div>
-
-        <div
-          v-if="isHubMode && backendOn && !isLoggedIn && !isPremium"
-          class="premium-hub-login landing-block"
-        >
-          <h2 class="landing-login-head">{{ t('landing.sectionLoginOnly') }}</h2>
-          <p class="landing-login-head__hint">{{ t('landing.sectionLoginOnlyHint') }}</p>
-          <LoginPanel />
         </div>
 
         <div

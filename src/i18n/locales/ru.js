@@ -60,7 +60,7 @@ export default {
     otherLevels: 'Другой уровень',
     progressEmpty: 'Здесь позже будет твой прогресс.',
     loginFoldSummary: '🔁 Уже занимался или Premium?',
-    sectionLoginOnly: '🔑 Вход по e-mail',
+    sectionLoginOnly: 'Вход по e-mail',
     sectionLoginOnlyHint: 'Без пароля — ссылка на почту.',
     niveauTest: 'Тест уровня (A1–B2)',
     niveauRetest: 'Уровень {level} — пройти снова',

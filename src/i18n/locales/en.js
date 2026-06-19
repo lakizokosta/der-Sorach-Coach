@@ -60,7 +60,7 @@ export default {
     otherLevels: 'Choose another level',
     progressEmpty: 'Your progress will appear here later.',
     loginFoldSummary: '🔁 Already practising or Premium?',
-    sectionLoginOnly: '🔑 Sign in with email',
+    sectionLoginOnly: 'Sign in with email',
     sectionLoginOnlyHint: 'No password — link to your inbox.',
     niveauTest: 'Level test (A1–B2)',
     niveauRetest: 'Level {level} — test again',
