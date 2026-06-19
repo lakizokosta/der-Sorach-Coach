@@ -313,6 +313,107 @@ button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
 .premium-hero .brand-slogan {
   margin-bottom: 6px;
 }
+.premium-stats-card {
+  background: linear-gradient(135deg, #f5f0f7 0%, #f9f9f9 100%);
+  border-radius: 16px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(171, 77, 187, 0.15);
+}
+.premium-stats-card__top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+}
+.premium-stats-card__level {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+.premium-stats-card__badge {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 12px;
+  color: #fff;
+  flex-shrink: 0;
+}
+.premium-stats-card__level-name {
+  font-weight: 900;
+  font-size: 15px;
+}
+.premium-stats-card__profile-btn {
+  flex-shrink: 0;
+  padding: 8px 14px;
+  border: 1.5px solid #ce93d8;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #f3e5f5, #e8d5f0);
+  font-size: 13px;
+  font-weight: 900;
+  color: #7b2d8b;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.premium-stats-card__profile-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(171, 77, 187, 0.2);
+}
+.premium-stats-card__streak {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(171, 77, 187, 0.12);
+}
+.premium-stats-card__streak-grid {
+  display: flex;
+  gap: 14px;
+  flex: 1;
+}
+.premium-stats-card__stat {
+  text-align: center;
+}
+.premium-stats-card__stat-num {
+  display: block;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+.premium-stats-card__stat-num--green {
+  color: #69c43b;
+}
+.premium-stats-card__stat-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #888;
+  margin-top: 2px;
+}
+.premium-stats-card__medals {
+  font-size: 18px;
+  letter-spacing: 4px;
+  white-space: nowrap;
+}
+@media (max-width: 420px) {
+  .premium-stats-card__top {
+    flex-wrap: wrap;
+  }
+  .premium-stats-card__profile-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
 .premium-hero-cta + .landing-niveau-block {
   margin: -4px auto 16px;
 }

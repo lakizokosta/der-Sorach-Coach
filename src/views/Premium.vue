@@ -427,6 +427,10 @@ function continuePractice() {
   trainRandomLevel(continueLevel.value);
 }
 
+function openProfile() {
+  router.push({ name: 'profile' });
+}
+
 /** Locked topic tap in hub mode — open quick checkout. */
 function onTopicClick(_topicKey) {
   if (isPremium.value) {
@@ -911,112 +915,60 @@ function topicMastered(key) {
 
           <NiveauTestBlock />
 
-          <div
-            style="
-              background: linear-gradient(135deg, #f5f0f7 0%, #f9f9f9 100%);
-              border-radius: 20px;
-              padding: 20px;
-              margin-bottom: 16px;
-              border: 1px solid rgba(171, 77, 187, 0.15);
-            "
-          >
-            <div
-              style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;"
-            >
-              <span style="font-size: 20px;">🔥</span>
-              <span
-                style="
-                  font-weight: 900;
-                  color: #AB4DBB;
-                  font-size: 16px;
-                  text-transform: uppercase;
-                  letter-spacing: 0.5px;
-                "
+          <div class="premium-stats-card">
+            <div class="premium-stats-card__top">
+              <div class="premium-stats-card__level">
+                <div
+                  class="premium-stats-card__badge"
+                  :style="{ background: liveLevel.color }"
+                >
+                  Lv{{ liveLevel.num }}
+                </div>
+                <div class="premium-stats-card__level-text">
+                  <div class="premium-stats-card__level-name">{{ liveLevel.name }}</div>
+                  <div class="small-note">
+                    ⭐ {{ xp.totalXP }} XP
+                    <template v-if="liveLevel.next">
+                      ·
+                      {{
+                        t('premium.xpUntil', {
+                          xp: liveLevel.next - xp.totalXP,
+                          level: liveLevel.num + 1,
+                        })
+                      }}
+                    </template>
+                    <template v-else>· {{ t('premium.maxLevel') }}</template>
+                  </div>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="premium-stats-card__profile-btn"
+                @click="openProfile"
               >
-                {{ t('premium.streakTitle') }}
-              </span>
+                {{ t('landing.profileBtn') }}
+              </button>
             </div>
-            <div
-              style="
-                display: flex;
-                justify-content: space-around;
-                gap: 10px;
-                margin-bottom: 16px;
-              "
-            >
-              <div style="text-align: center; flex: 1;">
-                <div style="font-size: 28px; font-weight: 900;">
-                  {{ streak.currentStreak }}
+            <div class="premium-stats-card__streak">
+              <div class="premium-stats-card__streak-grid">
+                <div class="premium-stats-card__stat">
+                  <span class="premium-stats-card__stat-num">{{ streak.currentStreak }}</span>
+                  <span class="premium-stats-card__stat-label">{{ t('premium.streakCurrent') }}</span>
                 </div>
-                <div class="small-note" style="text-transform: uppercase;">
-                  {{ t('premium.streakCurrent') }}
+                <div class="premium-stats-card__stat">
+                  <span class="premium-stats-card__stat-num">{{ streak.longestStreak }}</span>
+                  <span class="premium-stats-card__stat-label">{{ t('premium.streakRecord') }}</span>
                 </div>
-              </div>
-              <div style="text-align: center; flex: 1;">
-                <div style="font-size: 28px; font-weight: 900;">
-                  {{ streak.longestStreak }}
-                </div>
-                <div class="small-note" style="text-transform: uppercase;">
-                  {{ t('premium.streakRecord') }}
+                <div class="premium-stats-card__stat">
+                  <span class="premium-stats-card__stat-num premium-stats-card__stat-num--green">
+                    {{ streak.freezes }}
+                  </span>
+                  <span class="premium-stats-card__stat-label">{{ t('premium.streakFreezes') }}</span>
                 </div>
               </div>
-              <div style="text-align: center; flex: 1;">
-                <div style="font-size: 28px; font-weight: 900; color: #69c43b;">
-                  {{ streak.freezes }}
-                </div>
-                <div class="small-note" style="text-transform: uppercase;">
-                  {{ t('premium.streakFreezes') }}
-                </div>
-              </div>
-            </div>
-            <div style="text-align: center;">
-              <span class="small-note" style="margin-right: 8px;">🏅 {{ t('premium.medals') }}</span>
-              <span style="font-size: 22px; letter-spacing: 6px;">
-                {{ medalsFor(streak.longestStreak) }}
-              </span>
-            </div>
-          </div>
-
-          <div
-            style="
-              background: linear-gradient(135deg, #f5f0ff, #fff);
-              border-radius: 16px;
-              padding: 16px;
-              margin: 12px 0;
-              border: 1px solid rgba(171, 77, 187, 0.2);
-            "
-          >
-            <div style="display: flex; align-items: center; gap: 10px;">
-              <div
-                style="
-                  width: 40px;
-                  height: 40px;
-                  border-radius: 50%;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  font-weight: 900;
-                  color: #fff;
-                "
-                :style="{ background: liveLevel.color }"
-              >
-                Lv{{ liveLevel.num }}
-              </div>
-              <div style="flex: 1; text-align: left;">
-                <div style="font-weight: 900;">{{ liveLevel.name }}</div>
-                <div class="small-note">
-                  ⭐ {{ xp.totalXP }} XP
-                  <template v-if="liveLevel.next">
-                    ·
-                    {{
-                      t('premium.xpUntil', {
-                        xp: liveLevel.next - xp.totalXP,
-                        level: liveLevel.num + 1,
-                      })
-                    }}
-                  </template>
-                  <template v-else>· {{ t('premium.maxLevel') }}</template>
-                </div>
+              <div class="premium-stats-card__medals">
+                <span class="small-note">🏅</span>
+                <span>{{ medalsFor(streak.longestStreak) }}</span>
               </div>
             </div>
           </div>
