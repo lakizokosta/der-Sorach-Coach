@@ -153,7 +153,6 @@ const LAYOUTS = {
     ballInside: true,
     label: 'in',
     badge: 'Wo · Dativ',
-    caption: '● = im Inneren (Ort)',
   },
   'in-hin': {
     cubes: [{ cx: 82, cy: 44 }],
@@ -161,14 +160,12 @@ const LAYOUTS = {
     path: 'M 24 54 L 74 61',
     label: 'in',
     badge: 'Wohin · Akkusativ',
-    caption: '● → hinein (Bewegung)',
   },
   'auf-wo': {
     cubes: [{ cx: 70, cy: 48 }],
     ball: { x: 70, y: 32, r: 5 },
     label: 'auf',
     badge: 'Wo · Dativ',
-    caption: '● = oben auf (Ort)',
   },
   'auf-hin': {
     cubes: [{ cx: 70, cy: 50 }],
@@ -176,14 +173,12 @@ const LAYOUTS = {
     path: 'M 42 22 L 66 28',
     label: 'auf',
     badge: 'Wohin · Akkusativ',
-    caption: '● → hinauf (Bewegung)',
   },
   'an-wo': {
     cubes: [{ cx: 62, cy: 44 }],
     ball: { x: 88, y: 50, r: 5 },
     label: 'an',
     badge: 'Wo · Dativ',
-    caption: '● = an der Fläche (Ort)',
   },
   'an-hin': {
     cubes: [{ cx: 76, cy: 44 }],
@@ -191,14 +186,12 @@ const LAYOUTS = {
     path: 'M 36 48 L 58 48',
     label: 'an',
     badge: 'Wohin · Akkusativ',
-    caption: '● → hinan (Bewegung)',
   },
   'unter-wo': {
     cubes: [{ cx: 70, cy: 36 }],
     ball: { x: 70, y: 72, r: 5 },
     label: 'unter',
     badge: 'Wo · Dativ',
-    caption: '● = darunter (Ort)',
   },
   'unter-hin': {
     cubes: [{ cx: 70, cy: 40 }],
@@ -206,14 +199,12 @@ const LAYOUTS = {
     path: 'M 70 22 L 70 34',
     label: 'unter',
     badge: 'Wohin · Akkusativ',
-    caption: '● → hinunter (Bewegung)',
   },
   'über-wo': {
     cubes: [{ cx: 70, cy: 50 }],
     ball: { x: 70, y: 22, r: 5 },
     label: 'über',
     badge: 'Wo · Dativ',
-    caption: '● = darüber (Ort)',
   },
   'über-hin': {
     cubes: [{ cx: 70, cy: 52 }],
@@ -221,14 +212,12 @@ const LAYOUTS = {
     path: 'M 32 36 L 108 36',
     label: 'über',
     badge: 'Wohin · Akkusativ',
-    caption: '● → hinüber (Bewegung)',
   },
   'hinter-wo': {
     cubes: [{ cx: 72, cy: 42 }],
     ball: { x: 48, y: 30, r: 5 },
     label: 'hinter',
     badge: 'Wo · Dativ',
-    caption: '● = dahinter (Ort)',
   },
   'hinter-hin': {
     cubes: [{ cx: 58, cy: 44 }],
@@ -236,14 +225,12 @@ const LAYOUTS = {
     path: 'M 90 48 L 66 44',
     label: 'hinter',
     badge: 'Wohin · Akkusativ',
-    caption: '● → dahinter (Bewegung)',
   },
   'vor-wo': {
     cubes: [{ cx: 72, cy: 42 }],
     ball: { x: 96, y: 56, r: 5 },
     label: 'vor',
     badge: 'Wo · Dativ',
-    caption: '● = davor (Ort)',
   },
   'vor-hin': {
     cubes: [{ cx: 82, cy: 44 }],
@@ -251,14 +238,12 @@ const LAYOUTS = {
     path: 'M 40 48 L 62 48',
     label: 'vor',
     badge: 'Wohin · Akkusativ',
-    caption: '● → davor (Bewegung)',
   },
   'neben-wo': {
     cubes: [{ cx: 58, cy: 44 }],
     ball: { x: 98, y: 48, r: 5 },
     label: 'neben',
     badge: 'Wo · Dativ',
-    caption: '● = daneben (Ort)',
   },
   'neben-hin': {
     cubes: [{ cx: 72, cy: 44 }],
@@ -266,14 +251,12 @@ const LAYOUTS = {
     path: 'M 34 48 L 54 48',
     label: 'neben',
     badge: 'Wohin · Akkusativ',
-    caption: '● → daneben (Bewegung)',
   },
   'zwischen-wo': {
     cubes: [{ cx: 42, cy: 44 }, { cx: 98, cy: 44 }],
     ball: { x: 70, y: 46, r: 5 },
     label: 'zwischen',
     badge: 'Wo · Dativ',
-    caption: '● = dazwischen (Ort)',
   },
   'zwischen-hin': {
     cubes: [{ cx: 38, cy: 44 }, { cx: 102, cy: 44 }],
@@ -281,14 +264,12 @@ const LAYOUTS = {
     path: 'M 24 48 L 52 48',
     label: 'zwischen',
     badge: 'Wohin · Akkusativ',
-    caption: '● → dazwischen (Bewegung)',
   },
   'bei-wo': {
     cubes: [{ cx: 58, cy: 44 }],
     ball: { x: 96, y: 50, r: 5 },
     label: 'bei',
     badge: 'Wo · Dativ',
-    caption: '● = in der Nähe (Ort)',
   },
   'nach-hin': {
     cubes: [{ cx: 38, cy: 44 }],
@@ -296,7 +277,6 @@ const LAYOUTS = {
     path: 'M 46 48 L 104 48',
     label: 'nach',
     badge: 'Wohin',
-    caption: '● → Ziel (Richtung)',
   },
 };
 
@@ -366,6 +346,6 @@ const effectiveBall = computed(() => {
       />
     </svg>
     <p v-if="layout.badge" class="preposition-spatial-badge">{{ layout.badge }}</p>
-    <p class="preposition-spatial-caption">{{ layout.caption || '● = Position im Raum' }}</p>
+    <p v-else class="preposition-spatial-caption">{{ layout.caption || '● = Position im Raum' }}</p>
   </div>
 </template>
