@@ -65,7 +65,7 @@ export default {
     niveauTest: 'Niveau testen (A1–B2)',
     niveauRetest: 'Niveau {level} — erneut testen',
     niveauHintPremium: '60 zufällige Fragen aus dem Trainer (15 pro Niveau, steigend A1→B2).',
-    niveauHintLocked: 'Personalisierte Tagesaufgaben — mit Premium freischalten.',
+    niveauHintLocked: 'Niveau-Test (A1–B2) nur mit Premium — tippe zum Freischalten.',
     pricing: {
       noLimit: 'Kein Zeitlimit',
       levels: 'A1–B2',
@@ -295,6 +295,8 @@ export default {
     streakBody: '{count} richtige Antworten hintereinander — weiter ohne Limit?',
     questionsTitle: 'Guter Lauf!',
     questionsBody: 'Du hast schon {count} Fragen geschafft. Premium: unbegrenzt üben.',
+    niveauTitle: 'Niveau testen?',
+    niveauBody: 'Der Niveau-Test (A1–B2) ist Premium — ab 19€/Monat freischalten.',
     ctaPremium3: '💎 Premium 3 Monate −17%',
     checkoutTitle: 'Premium freischalten',
     checkoutHint: 'Code kommt per E-Mail — einmal aktivieren, dann auf allen Geräten.',

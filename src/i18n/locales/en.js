@@ -65,7 +65,7 @@ export default {
     niveauTest: 'Level test (A1–B2)',
     niveauRetest: 'Level {level} — test again',
     niveauHintPremium: '60 random questions (15 per level, A1→B2).',
-    niveauHintLocked: 'Personalised daily tasks — unlock with Premium.',
+    niveauHintLocked: 'Level test (A1–B2) requires Premium — tap to unlock.',
     pricing: {
       noLimit: 'No time limit',
       levels: 'A1–B2',
@@ -292,6 +292,8 @@ export default {
     streakBody: '{count} correct in a row — keep going without limits?',
     questionsTitle: 'Nice run!',
     questionsBody: 'You’ve done {count} questions. Premium: unlimited practice.',
+    niveauTitle: 'Want the level test?',
+    niveauBody: 'The A1–B2 placement test is Premium — unlock from €19/month.',
     ctaPremium3: '💎 Premium 3 months −17%',
     checkoutTitle: 'Unlock Premium',
     checkoutHint: 'Code by email — activate once, then on all devices.',

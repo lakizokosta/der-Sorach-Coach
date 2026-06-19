@@ -65,7 +65,7 @@ export default {
     niveauTest: 'Тест уровня (A1–B2)',
     niveauRetest: 'Уровень {level} — пройти снова',
     niveauHintPremium: '60 случайных вопросов (15 на уровень, A1→B2).',
-    niveauHintLocked: 'Персональные задания — с Premium.',
+    niveauHintLocked: 'Тест уровня (A1–B2) только с Premium — нажми, чтобы открыть.',
     pricing: {
       noLimit: 'Без лимита времени',
       levels: 'A1–B2',
@@ -292,6 +292,8 @@ export default {
     streakBody: '{count} правильных подряд — продолжить без лимита?',
     questionsTitle: 'Хороший темп!',
     questionsBody: 'Уже {count} вопросов. Premium — без ограничений.',
+    niveauTitle: 'Хочешь тест уровня?',
+    niveauBody: 'Тест A1–B2 доступен с Premium — от 19€/мес.',
     ctaPremium3: '💎 Premium 3 мес. −17%',
     checkoutTitle: 'Открыть Premium',
     checkoutHint: 'Код придёт на e-mail — один раз активировать, потом на всех устройствах.',

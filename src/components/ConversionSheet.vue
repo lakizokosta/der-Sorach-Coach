@@ -18,7 +18,7 @@ import { useI18n } from '@/i18n/index.js';
 
 const props = defineProps({
   modelValue: { type: Boolean, default: false },
-  /** @type {'streak10'|'questions15'|'checkout'} */
+  /** @type {'streak10'|'questions15'|'checkout'|'niveau'} */
   variant: { type: String, default: 'checkout' },
   plan: { type: String, default: '3months' },
 });
@@ -144,6 +144,18 @@ function openFullPremium() {
           <div class="funnel-sheet__emoji">⭐</div>
           <h2 class="funnel-sheet__title">{{ t('funnel.questionsTitle') }}</h2>
           <p class="funnel-sheet__body">{{ t('funnel.questionsBody', { count: 15 }) }}</p>
+          <button type="button" class="funnel-sheet__cta" @click="openCheckoutForm">
+            {{ t('funnel.ctaPremium3') }}
+          </button>
+          <button type="button" class="funnel-sheet__ghost" @click="dismissLater">
+            {{ t('funnel.later') }}
+          </button>
+        </template>
+
+        <template v-else-if="!showCheckout && variant === 'niveau'">
+          <div class="funnel-sheet__emoji">📊</div>
+          <h2 class="funnel-sheet__title">{{ t('funnel.niveauTitle') }}</h2>
+          <p class="funnel-sheet__body">{{ t('funnel.niveauBody') }}</p>
           <button type="button" class="funnel-sheet__cta" @click="openCheckoutForm">
             {{ t('funnel.ctaPremium3') }}
           </button>

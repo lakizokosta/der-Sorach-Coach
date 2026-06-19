@@ -3,7 +3,7 @@
  * Landing — game-first home. Tarife & Login live on Premium Hub (`/premium?hub=1`).
  */
 
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
@@ -12,6 +12,8 @@ import BonusMissionsCard from '@/components/BonusMissionsCard.vue';
 import ActivityCalendar from '@/components/ActivityCalendar.vue';
 import SchwaechenCard from '@/components/SchwaechenCard.vue';
 import LegalFooter from '@/components/LegalFooter.vue';
+import NiveauTestBlock from '@/components/NiveauTestBlock.vue';
+import ConversionSheet from '@/components/ConversionSheet.vue';
 import { useAuth } from '@/composables/useAuth.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
@@ -27,6 +29,8 @@ const { state: streak } = useStreak();
 const { state: xp, level } = useXp();
 const { isPremium, isBasis } = usePremium();
 const { level: cefrLevel } = useCefrLevel();
+
+const conversionSheetOpen = ref(false);
 
 const summaryText = computed(() => {
   const parts = [];
@@ -79,16 +83,12 @@ function openPremiumHub() {
   router.push({ name: 'premium', query: { hub: '1' } });
 }
 
-function openProfile() {
-  router.push({ name: 'profile' });
+function onNiveauLocked() {
+  conversionSheetOpen.value = true;
 }
 
-function onNiveauTestClick() {
-  if (!isPremium.value) {
-    openPremiumHub();
-    return;
-  }
-  router.push({ name: 'trainer', query: { mode: 'placement' } });
+function openProfile() {
+  router.push({ name: 'profile' });
 }
 </script>
 
@@ -198,6 +198,8 @@ function onNiveauTestClick() {
 
         <p class="landing-start-a1__hint">{{ t('landing.startA1Hint') }}</p>
 
+        <NiveauTestBlock @locked="onNiveauLocked" />
+
         <button
           type="button"
           class="landing-more-btn"
@@ -220,33 +222,6 @@ function onNiveauTestClick() {
           <button type="button" class="landing-profile-btn" @click="openProfile">
             {{ t('landing.profileBtn') }}
           </button>
-
-          <div class="landing-niveau-block">
-            <button
-              type="button"
-              class="niveau-test-btn"
-              :class="{
-                'level-card': isPremium,
-                'niveau-test-btn--unlocked': isPremium,
-                'niveau-test-btn--inactive': !isPremium,
-              }"
-              @click="onNiveauTestClick"
-            >
-              <span class="niveau-test-btn__label">
-                {{
-                  cefrLevel
-                    ? t('landing.niveauRetest', { level: cefrLevel })
-                    : t('landing.niveauTest')
-                }}
-              </span>
-              <span v-if="!isPremium" class="niveau-test-btn__badge">💎 {{ t('common.premium') }}</span>
-            </button>
-            <p class="niveau-test-btn__hint">
-              {{
-                isPremium ? t('landing.niveauHintPremium') : t('landing.niveauHintLocked')
-              }}
-            </p>
-          </div>
         </div>
 
         <div class="landing-progress">
@@ -259,5 +234,11 @@ function onNiveauTestClick() {
     </div>
 
     <LegalFooter />
+
+    <ConversionSheet
+      v-model="conversionSheetOpen"
+      variant="niveau"
+      plan="3months"
+    />
   </div>
 </template>

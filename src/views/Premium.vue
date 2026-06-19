@@ -28,6 +28,7 @@ import PaymentButtonLabel from '@/components/PaymentButtonLabel.vue';
 import DailyGoalCard from '@/components/DailyGoalCard.vue';
 import SchwaechenCard from '@/components/SchwaechenCard.vue';
 import ActivityCalendar from '@/components/ActivityCalendar.vue';
+import NiveauTestBlock from '@/components/NiveauTestBlock.vue';
 
 import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
 import { getQuestionsByTopic } from '@/data/questions.js';
@@ -85,6 +86,7 @@ const showTopicCatalog = computed(() => isPremium.value || isHubMode.value);
 const topics = computed(() => getTopicsForLevel(activeLevel.value));
 
 const conversionSheetOpen = ref(false);
+const conversionVariant = ref('checkout');
 
 const continueLevel = computed(() => cefrLevel.value || activeLevel.value);
 const continueLabel = computed(() =>
@@ -430,6 +432,12 @@ function onTopicClick(_topicKey) {
     trainTopic(_topicKey);
     return;
   }
+  conversionVariant.value = 'checkout';
+  conversionSheetOpen.value = true;
+}
+
+function onNiveauLocked() {
+  conversionVariant.value = 'niveau';
   conversionSheetOpen.value = true;
 }
 
@@ -895,6 +903,8 @@ function topicMastered(key) {
             </button>
           </div>
 
+          <NiveauTestBlock />
+
           <div
             style="
               background: linear-gradient(135deg, #f5f0f7 0%, #f9f9f9 100%);
@@ -1121,6 +1131,8 @@ function topicMastered(key) {
 
         <!-- Hub topic preview (locked, non-Premium) -->
         <div v-else-if="showTopicCatalog" class="premium-topic-catalog">
+          <NiveauTestBlock @locked="onNiveauLocked" />
+
           <div class="premium-topic-catalog__head">
             <div style="font-weight: 900;">{{ t('premium.topicsHeading') }}</div>
             <p class="premium-topic-catalog__hint">
@@ -1222,7 +1234,7 @@ function topicMastered(key) {
 
     <ConversionSheet
       v-model="conversionSheetOpen"
-      variant="checkout"
+      :variant="conversionVariant"
       plan="3months"
     />
   </div>
