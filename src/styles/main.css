@@ -603,9 +603,9 @@ button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
   font-size: 15px;
   font-weight: 900;
   cursor: pointer;
-  background: linear-gradient(135deg, #69c43b, #43a047);
+  background: linear-gradient(135deg, #a5e08a, #7bc96a);
   color: #fff;
-  box-shadow: 0 4px 14px rgba(67, 160, 71, 0.35);
+  box-shadow: 0 4px 14px rgba(105, 196, 59, 0.22);
 }
 .landing-premium-banner--ok .landing-premium-banner__btn {
   background: linear-gradient(135deg, #ffd700, #ffb700);
