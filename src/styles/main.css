@@ -21,6 +21,27 @@ body {
 a { color: inherit; }
 button { font-family: inherit; }
 
+/* Global lift on hover for interactive buttons. */
+button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease,
+    background 0.18s ease,
+    color 0.18s ease,
+    opacity 0.18s ease;
+}
+@media (hover: hover) {
+  button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+  }
+  button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive):active {
+    transform: translateY(0) scale(0.97);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  }
+}
+
 /* ── Logo ───────────────────────────────────────────────────────────────── */
 .logo-wrap {
   display: inline-block;
@@ -3768,8 +3789,13 @@ button.lesen-gap-marker {
   cursor: pointer;
   box-shadow: 0 4px 14px rgba(171, 77, 187, 0.35);
 }
+@media (hover: hover) {
+  .funnel-sticky__cta:hover {
+    box-shadow: 0 10px 24px rgba(171, 77, 187, 0.4);
+  }
+}
 .funnel-sticky__cta:active {
-  transform: scale(0.98);
+  box-shadow: 0 3px 8px rgba(171, 77, 187, 0.25);
 }
 .funnel-sheet-backdrop {
   position: fixed;
@@ -3892,6 +3918,22 @@ button.lesen-gap-marker {
   cursor: pointer;
   box-shadow: 0 6px 20px rgba(171, 77, 187, 0.3);
 }
+@media (hover: hover) {
+  .funnel-sheet__cta:hover,
+  .funnel-sheet__stripe:hover {
+    box-shadow: 0 10px 28px rgba(171, 77, 187, 0.38);
+  }
+  .funnel-sheet__stripe:hover {
+    box-shadow: 0 10px 28px rgba(99, 91, 255, 0.35);
+  }
+  .funnel-sheet__basis:hover {
+    box-shadow: 0 10px 24px rgba(255, 183, 0, 0.45);
+  }
+  .funnel-sheet__ghost:hover,
+  .funnel-sheet__link:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  }
+}
 .funnel-sheet__stripe {
   background: #635bff;
   box-shadow: 0 6px 20px rgba(99, 91, 255, 0.25);
@@ -3901,13 +3943,14 @@ button.lesen-gap-marker {
   width: 100%;
   margin-bottom: 10px;
   padding: 12px 14px;
-  border: 1.5px solid #ffcc80;
+  border: none;
   border-radius: 14px;
-  background: #fff8e1;
+  background: linear-gradient(135deg, #ffd700, #ffb700);
   font-size: 14px;
-  font-weight: 800;
-  color: #e65100;
+  font-weight: 900;
+  color: #000;
   cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255, 183, 0, 0.4);
 }
 .funnel-sheet__ghost,
 .funnel-sheet__link {
@@ -3951,12 +3994,24 @@ button.lesen-gap-marker {
   background: #f9f4fb;
   border: 1.5px solid #e1bee7;
 }
+.trainer-free-limit-msg {
+  margin: 12px 0 20px;
+  padding: 14px 16px;
+  background: #f3e5f5;
+  border: 1.5px solid #ce93d8;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #6a1b9a;
+  text-align: center;
+}
 .funnel-timer-end__lead {
   margin: 0 0 12px;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.45;
-  color: #555;
+  color: #7b2d8b;
 }
 .funnel-timer-end__cta {
   display: block;
@@ -3968,15 +4023,28 @@ button.lesen-gap-marker {
   font-size: 16px;
   font-weight: 900;
   cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 .funnel-timer-end__cta--premium {
   color: #fff;
   background: linear-gradient(135deg, #ab4dbb, #7b2d8b);
 }
+@media (hover: hover) {
+  .funnel-timer-end__cta--premium:hover {
+    box-shadow: 0 10px 28px rgba(171, 77, 187, 0.38);
+  }
+  .funnel-timer-end__cta--basis:hover {
+    box-shadow: 0 10px 24px rgba(255, 183, 0, 0.45);
+  }
+  .funnel-timer-end__ghost:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  }
+}
 .funnel-timer-end__cta--basis {
-  color: #e65100;
-  background: #fff8e1;
-  border: 1.5px solid #ffcc80;
+  color: #000;
+  background: linear-gradient(135deg, #ffd700, #ffb700);
+  border: none;
+  box-shadow: 0 4px 15px rgba(255, 183, 0, 0.4);
 }
 .funnel-timer-end__ghost {
   display: block;

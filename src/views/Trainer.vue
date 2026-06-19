@@ -802,18 +802,6 @@ watch(lastAnswerResolved, (resolved) => {
         <div
           v-if="freeTimeExpired"
           class="trainer-free-limit-msg"
-          style="
-            margin: 12px 0 20px;
-            padding: 14px 16px;
-            background: #fff8e1;
-            border: 1.5px solid #ffcc80;
-            border-radius: 14px;
-            font-size: 15px;
-            font-weight: 700;
-            line-height: 1.45;
-            color: #e65100;
-            text-align: center;
-          "
         >
           {{ t('trainer.freeTimeExpiredMessage') }}
         </div>
