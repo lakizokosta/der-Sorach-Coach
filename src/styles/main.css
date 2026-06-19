@@ -55,19 +55,19 @@ button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
 .logo-wrap:hover  { transform: scale(1.06); }
 .logo-wrap:active { transform: scale(0.96); }
 .lzd-logo {
-  width: 198px;
-  height: 198px;
+  width: 260px;
+  height: 260px;
   margin: 0 auto;
   display: block;
   filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.15));
 }
-.lzd-logo.small { width: 78px; height: 78px; }
+.lzd-logo.small { width: 104px; height: 104px; }
 
 /* ── Layout wrappers ────────────────────────────────────────────────────── */
 .app-shell {
   max-width: 720px;
   margin: 0 auto;
-  padding: calc(16px + env(safe-area-inset-top, 0px) + var(--locale-switcher-clearance)) 18px
+  padding: calc(10px + env(safe-area-inset-top, 0px) + var(--locale-switcher-clearance)) 18px
     calc(20px + env(safe-area-inset-bottom, 0px)) 18px;
   min-height: 100vh;
 }
@@ -1404,7 +1404,7 @@ button.lesen-gap-marker {
 
 /* ── UI language switcher (top bar) ─────────────────────────────────────── */
 :root {
-  --locale-switcher-clearance: 3.25rem;
+  --locale-switcher-clearance: 2rem;
 }
 .locale-switcher {
   position: fixed;
@@ -1469,7 +1469,7 @@ button.lesen-gap-marker {
 }
 @media (max-width: 600px) {
   :root {
-    --locale-switcher-clearance: 3.5rem;
+    --locale-switcher-clearance: 2.125rem;
   }
   .locale-switcher {
     top: max(10px, env(safe-area-inset-top, 0px));
