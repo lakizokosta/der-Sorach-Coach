@@ -15,6 +15,20 @@ const STORY_W = 1080;
 const STORY_H = 1920;
 
 const DAY_LABELS = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+const FONT = 'Arial, Helvetica, sans-serif';
+const ACCENT = '#ffd700';
+const TEXT = '#ffffff';
+const TEXT_SOFT = 'rgba(255,255,255,0.92)';
+const TEXT_MUTED = 'rgba(255,255,255,0.78)';
+
+/** Snap text coords to whole pixels for sharper canvas labels. */
+function px(n) {
+  return Math.round(n);
+}
+
+function setFont(ctx, weight, size) {
+  ctx.font = `${weight} ${px(size)}px ${FONT}`;
+}
 
 /** @type {Array<{id:string, emoji:string, label:string, check:Function}>} */
 const BADGE_DEFS = [
@@ -178,7 +192,7 @@ function drawRing(ctx, cx, cy, radius, lineW, pct, color) {
  * @param {string} accent
  * @param {number} [valueSize]
  */
-function drawStatTile(ctx, x, y, w, h, value, label, accent, valueSize = 52) {
+function drawStatTile(ctx, x, y, w, h, value, label, accent, valueSize = 52, labelSize = 24) {
   ctx.fillStyle = 'rgba(255,255,255,0.12)';
   roundRect(ctx, x, y, w, h, 28);
   ctx.fill();
@@ -188,14 +202,14 @@ function drawStatTile(ctx, x, y, w, h, value, label, accent, valueSize = 52) {
   ctx.stroke();
 
   ctx.fillStyle = accent;
-  ctx.font = `bold ${valueSize}px Arial, Helvetica, sans-serif`;
+  setFont(ctx, 'bold', valueSize);
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText(value, x + w / 2, y + h / 2 - 14);
+  ctx.fillText(value, px(x + w / 2), px(y + h / 2 - 14));
 
-  ctx.fillStyle = 'rgba(255,255,255,0.85)';
-  ctx.font = 'bold 22px Arial, Helvetica, sans-serif';
-  ctx.fillText(label, x + w / 2, y + h / 2 + 32);
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', labelSize);
+  ctx.fillText(label, px(x + w / 2), px(y + h / 2 + 32));
 }
 
 /**
@@ -220,20 +234,20 @@ function drawNickname(ctx, cx, y, nickname, scale) {
   ctx.lineWidth = 2;
   ctx.stroke();
 
-  ctx.fillStyle = '#fff';
-  ctx.font = `bold ${Math.round(28 * scale)}px Arial, Helvetica, sans-serif`;
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', Math.round(28 * scale));
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText(initial, avatarX, y);
+  ctx.fillText(initial, px(avatarX), px(y));
 
   const textX = cx - 78 * scale;
   ctx.textAlign = 'left';
-  ctx.font = `bold ${Math.round(34 * scale)}px Arial, Helvetica, sans-serif`;
-  ctx.fillText(name, textX, y - 6 * scale);
+  setFont(ctx, 'bold', Math.round(36 * scale));
+  ctx.fillText(name, px(textX), px(y - 6 * scale));
 
-  ctx.fillStyle = 'rgba(255,255,255,0.65)';
-  ctx.font = `${Math.round(20 * scale)}px Arial, Helvetica, sans-serif`;
-  ctx.fillText('Mein Deutsch-Fortschritt', textX, y + 22 * scale);
+  ctx.fillStyle = TEXT_MUTED;
+  setFont(ctx, 'normal', Math.round(22 * scale));
+  ctx.fillText('Mein Deutsch-Fortschritt', px(textX), px(y + 22 * scale));
 
   return y + avatarR + 10 * scale;
 }
@@ -260,25 +274,25 @@ function drawStreakWeek(ctx, cx, y, days, scale) {
     ctx.fill();
 
     if (day.isToday) {
-      ctx.strokeStyle = '#ffd700';
+      ctx.strokeStyle = ACCENT;
       ctx.lineWidth = 3;
       roundRect(ctx, x, y, cell, cell, 14 * scale);
       ctx.stroke();
     }
 
     if (day.active) {
-      ctx.font = `${Math.round(28 * scale)}px Arial, Helvetica, sans-serif`;
-      ctx.fillText('🔥', x + cell / 2, y + cell / 2 - 4 * scale);
+      setFont(ctx, 'normal', Math.round(28 * scale));
+      ctx.fillText('🔥', px(x + cell / 2), px(y + cell / 2 - 4 * scale));
     } else {
-      ctx.fillStyle = 'rgba(255,255,255,0.25)';
+      ctx.fillStyle = 'rgba(255,255,255,0.3)';
       ctx.beginPath();
-      ctx.arc(x + cell / 2, y + cell / 2, 8 * scale, 0, Math.PI * 2);
+      ctx.arc(px(x + cell / 2), px(y + cell / 2), 8 * scale, 0, Math.PI * 2);
       ctx.fill();
     }
 
-    ctx.fillStyle = 'rgba(255,255,255,0.75)';
-    ctx.font = `bold ${Math.round(16 * scale)}px Arial, Helvetica, sans-serif`;
-    ctx.fillText(day.label, x + cell / 2, y + cell + 18 * scale);
+    ctx.fillStyle = TEXT_SOFT;
+    setFont(ctx, 'bold', Math.round(18 * scale));
+    ctx.fillText(day.label, px(x + cell / 2), px(y + cell + 18 * scale));
 
     x += cell + gap;
   }
@@ -297,9 +311,9 @@ function drawBadges(ctx, cx, y, badges, maxW, scale) {
   const list = badges.slice(0, 6);
   if (!list.length) {
     ctx.textAlign = 'center';
-    ctx.fillStyle = 'rgba(255,255,255,0.5)';
-    ctx.font = `${Math.round(20 * scale)}px Arial, Helvetica, sans-serif`;
-    ctx.fillText('Noch keine Abzeichen — weiter üben!', cx, y + 20 * scale);
+    ctx.fillStyle = TEXT_MUTED;
+    setFont(ctx, 'normal', Math.round(22 * scale));
+    ctx.fillText('Noch keine Abzeichen — weiter üben!', px(cx), px(y + 20 * scale));
     return y + 40 * scale;
   }
 
@@ -307,8 +321,8 @@ function drawBadges(ctx, cx, y, badges, maxW, scale) {
   const padY = 10 * scale;
   const rowH = 44 * scale;
   const gap = 12 * scale;
-  const fontSize = Math.round(20 * scale);
-  ctx.font = `bold ${fontSize}px Arial, Helvetica, sans-serif`;
+  const fontSize = Math.round(22 * scale);
+  setFont(ctx, 'bold', fontSize);
 
   let rowX = cx - maxW / 2;
   let rowY = y;
@@ -380,6 +394,8 @@ function renderShareCard(data, ctx, w, h) {
   const weekDays = getLast7Days(streak.activeDays);
 
   drawBackground(ctx, w, h);
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
 
   const innerH = h - pad * 2;
   const innerW = w - pad * 2;
@@ -400,10 +416,10 @@ function renderShareCard(data, ctx, w, h) {
     roundRect(ctx, bx, by, badgeW, badgeH, badgeH / 2);
     ctx.fill();
     ctx.fillStyle = '#3d0f5c';
-    ctx.font = `bold ${isStory ? 26 : 22}px Arial, Helvetica, sans-serif`;
+    setFont(ctx, 'bold', isStory ? 26 : 24);
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText(`Niveau ${cefrLevel}`, bx + badgeW / 2, by + badgeH / 2);
+    ctx.fillText(`Niveau ${cefrLevel}`, px(bx + badgeW / 2), px(by + badgeH / 2));
   }
 
   const footerReserve = isStory ? 120 : 96;
@@ -420,11 +436,11 @@ function renderShareCard(data, ctx, w, h) {
 
   let y = pad + gap;
 
-  ctx.fillStyle = '#fff';
-  ctx.font = `bold ${isStory ? 36 : 30}px Arial, Helvetica, sans-serif`;
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', isStory ? 36 : 32);
   ctx.textAlign = 'center';
   ctx.textBaseline = 'alphabetic';
-  ctx.fillText('Der SprachCoach', cx, y + sectionHeights.header - 8);
+  ctx.fillText('Der SprachCoach', px(cx), px(y + sectionHeights.header - 8));
   y += sectionHeights.header + gap;
 
   y = drawNickname(ctx, cx, y + (isStory ? 22 : 16) * scale, nickname, scale) + gap;
@@ -437,26 +453,39 @@ function renderShareCard(data, ctx, w, h) {
     ringOuter,
     ringLine,
     level.next ? (totalXP - level.prev) / (level.next - level.prev) : 1,
-    '#ffd700',
+    ACCENT,
   );
   ctx.fillStyle = level.color;
   ctx.beginPath();
-  ctx.arc(cx, ringY, ringR, 0, Math.PI * 2);
+  ctx.arc(px(cx), px(ringY), ringR, 0, Math.PI * 2);
   ctx.fill();
-  ctx.fillStyle = '#fff';
-  ctx.font = `bold ${isStory ? 72 : 44}px Arial, Helvetica, sans-serif`;
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', isStory ? 72 : 46);
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText(`Lv${level.num}`, cx, ringY - 2);
-  ctx.font = `bold ${isStory ? 30 : 18}px Arial, Helvetica, sans-serif`;
-  ctx.fillText(level.name, cx, ringY + (isStory ? 36 : 24));
+  ctx.fillText(`Lv${level.num}`, px(cx), px(ringY - 2));
+  setFont(ctx, 'bold', isStory ? 30 : 20);
+  ctx.fillText(level.name, px(cx), px(ringY + (isStory ? 36 : 24)));
   y += sectionHeights.ring + gap;
 
   const tileW = isStory ? 280 : Math.floor((innerW - 48 - 36) / 3);
   const tileH = isStory ? 130 : 88;
   const tileGap = isStory ? 24 : 18;
   const tilesStart = (w - tileW * 3 - tileGap * 2) / 2;
-  drawStatTile(ctx, tilesStart, y, tileW, tileH, String(totalXP), 'XP ⭐', '#ffd700', isStory ? 56 : 36);
+  const statValueSize = isStory ? 56 : 40;
+  const statLabelSize = isStory ? 26 : 24;
+  drawStatTile(
+    ctx,
+    tilesStart,
+    y,
+    tileW,
+    tileH,
+    String(totalXP),
+    'XP ⭐',
+    ACCENT,
+    statValueSize,
+    statLabelSize,
+  );
   drawStatTile(
     ctx,
     tilesStart + tileW + tileGap,
@@ -465,8 +494,9 @@ function renderShareCard(data, ctx, w, h) {
     tileH,
     String(streak.currentStreak),
     'Streak 🔥',
-    '#ffab40',
-    isStory ? 56 : 36,
+    ACCENT,
+    statValueSize,
+    statLabelSize,
   );
   drawStatTile(
     ctx,
@@ -476,23 +506,24 @@ function renderShareCard(data, ctx, w, h) {
     tileH,
     `${masteredCount}/${allTopics.length}`,
     'Themen 📚',
-    '#69f0ae',
-    isStory ? 56 : 36,
+    ACCENT,
+    statValueSize,
+    statLabelSize,
   );
   y += sectionHeights.stats + gap;
 
-  ctx.fillStyle = 'rgba(255,255,255,0.8)';
-  ctx.font = `bold ${isStory ? 22 : 17}px Arial, Helvetica, sans-serif`;
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', isStory ? 22 : 19);
   ctx.textAlign = 'center';
   ctx.textBaseline = 'alphabetic';
-  ctx.fillText('Letzte 7 Tage', cx, y + 16);
+  ctx.fillText('Letzte 7 Tage', px(cx), px(y + 16));
   const weekTop = y + (isStory ? 24 : 18);
   drawStreakWeek(ctx, cx, weekTop + (isStory ? 28 : 20) * scale, weekDays, scale);
   y += sectionHeights.week + gap;
 
-  ctx.fillStyle = 'rgba(255,255,255,0.8)';
-  ctx.font = `bold ${isStory ? 22 : 17}px Arial, Helvetica, sans-serif`;
-  ctx.fillText('Abzeichen', cx, y + 16);
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', isStory ? 22 : 19);
+  ctx.fillText('Abzeichen', px(cx), px(y + 16));
   const badgeLimit = isStory ? 6 : 4;
   y = drawBadges(ctx, cx, y + (isStory ? 28 : 22), badges.slice(0, badgeLimit), innerW - 80, scale)
     + gap;
@@ -505,63 +536,63 @@ function renderShareCard(data, ctx, w, h) {
   ctx.fill();
   if (themePct > 0) {
     const mg = ctx.createLinearGradient(barX, 0, barX + barW, 0);
-    mg.addColorStop(0, '#43a047');
-    mg.addColorStop(1, '#b9f6ca');
+    mg.addColorStop(0, '#e6b800');
+    mg.addColorStop(1, '#fff176');
     ctx.fillStyle = mg;
     roundRect(ctx, barX, y, Math.max(barW * themePct, 24), barH, barH / 2);
     ctx.fill();
   }
   y += barH + (isStory ? 24 : 14);
 
-  ctx.fillStyle = 'rgba(255,255,255,0.9)';
-  ctx.font = `bold ${isStory ? 26 : 20}px Arial, Helvetica, sans-serif`;
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', isStory ? 26 : 22);
   ctx.textAlign = 'center';
-  ctx.fillText(`${masteredCount} von ${allTopics.length} Themen gemeistert`, cx, y + 18);
+  ctx.fillText(`${masteredCount} von ${allTopics.length} Themen gemeistert`, px(cx), px(y + 18));
   y += (isStory ? 34 : 24);
 
   if (mastered.length) {
-    ctx.font = `${Math.round(20 * scale)}px Arial, Helvetica, sans-serif`;
+    setFont(ctx, 'normal', Math.round(22 * scale));
     let chipX = barX;
     const chipY = y;
     for (const name of mastered) {
       const tw = ctx.measureText(name).width + 40;
       if (chipX + tw > barX + barW) break;
-      ctx.fillStyle = 'rgba(105,240,174,0.25)';
+      ctx.fillStyle = 'rgba(255,215,0,0.22)';
       roundRect(ctx, chipX, chipY, tw, 40, 20);
       ctx.fill();
-      ctx.strokeStyle = 'rgba(105,240,174,0.6)';
+      ctx.strokeStyle = 'rgba(255,215,0,0.55)';
       ctx.lineWidth = 2;
       roundRect(ctx, chipX, chipY, tw, 40, 20);
       ctx.stroke();
-      ctx.fillStyle = '#e8f5e9';
+      ctx.fillStyle = '#fff8e1';
       ctx.textAlign = 'left';
       ctx.textBaseline = 'middle';
-      ctx.fillText(name, chipX + 20, chipY + 20);
+      ctx.fillText(name, px(chipX + 20), px(chipY + 20));
       chipX += tw + 12;
     }
     y += 48;
   }
 
   ctx.textAlign = 'center';
-  ctx.fillStyle = '#fff';
-  ctx.font = `bold ${isStory ? 48 : 28}px Arial, Helvetica, sans-serif`;
-  ctx.fillText(tagline, cx, y + (isStory ? 28 : 20));
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', isStory ? 48 : 30);
+  ctx.fillText(tagline, px(cx), px(y + (isStory ? 28 : 20)));
   y += (isStory ? 40 : 28);
 
   if (streak.longestStreak > 0) {
-    ctx.fillStyle = 'rgba(255,255,255,0.7)';
-    ctx.font = `${isStory ? 26 : 18}px Arial, Helvetica, sans-serif`;
-    ctx.fillText(`Bester Streak: ${streak.longestStreak} Tage 🏆`, cx, y + 14);
+    ctx.fillStyle = TEXT_MUTED;
+    setFont(ctx, 'normal', isStory ? 26 : 20);
+    ctx.fillText(`Bester Streak: ${streak.longestStreak} Tage 🏆`, px(cx), px(y + 14));
   }
 
   const footerY = h - pad - (isStory ? 52 : 40);
-  ctx.fillStyle = 'rgba(255,255,255,0.55)';
-  ctx.font = `bold ${isStory ? 30 : 24}px Arial, Helvetica, sans-serif`;
+  ctx.fillStyle = TEXT_MUTED;
+  setFont(ctx, 'bold', isStory ? 30 : 26);
   ctx.textAlign = 'center';
   ctx.textBaseline = 'alphabetic';
-  ctx.fillText('lernziel-deutsch.de', cx, footerY);
-  ctx.font = `${isStory ? 24 : 18}px Arial, Helvetica, sans-serif`;
-  ctx.fillText('#DeutschLernen · #SprachCoach', cx, footerY + (isStory ? 36 : 28));
+  ctx.fillText('lernziel-deutsch.de', px(cx), px(footerY));
+  setFont(ctx, 'normal', isStory ? 24 : 20);
+  ctx.fillText('#DeutschLernen · #SprachCoach', px(cx), px(footerY + (isStory ? 36 : 28)));
 }
 
 /**

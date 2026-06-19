@@ -3,7 +3,7 @@
  * Live preview of the shareable progress card (Post / Story).
  */
 
-import { ref, watch, onMounted, computed } from 'vue';
+import { ref, watch, onMounted, onUnmounted, computed } from 'vue';
 
 import {
   buildShareCardCanvas,
@@ -25,11 +25,13 @@ const props = defineProps({
 });
 
 const canvasRef = ref(null);
+let resizeObserver = null;
 
+/** Draw full-res card into preview canvas at display size (sharper on retina). */
 function redraw() {
   const el = canvasRef.value;
   if (!el) return;
-  const canvas = buildShareCardCanvas({
+  const source = buildShareCardCanvas({
     totalXP: props.totalXP,
     level: props.level,
     streak: props.streak,
@@ -38,10 +40,24 @@ function redraw() {
     nickname: props.nickname,
     format: format.value,
   });
-  el.width = canvas.width;
-  el.height = canvas.height;
+
+  const frame = el.parentElement;
+  const cssWidth = frame?.clientWidth || 320;
+  const cssHeight = Math.round(cssWidth * (source.height / source.width));
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+  el.width = Math.round(cssWidth * dpr);
+  el.height = Math.round(cssHeight * dpr);
+  el.style.width = `${cssWidth}px`;
+  el.style.height = `${cssHeight}px`;
+
   const ctx = el.getContext('2d');
-  ctx.drawImage(canvas, 0, 0);
+  if (!ctx) return;
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
+  ctx.clearRect(0, 0, cssWidth, cssHeight);
+  ctx.drawImage(source, 0, 0, cssWidth, cssHeight);
 }
 
 const masteredCount = computed(() =>
@@ -71,7 +87,18 @@ function setFormat(next) {
   format.value = next;
 }
 
-onMounted(redraw);
+onMounted(() => {
+  redraw();
+  if (typeof ResizeObserver !== 'undefined' && canvasRef.value?.parentElement) {
+    resizeObserver = new ResizeObserver(() => redraw());
+    resizeObserver.observe(canvasRef.value.parentElement);
+  }
+});
+
+onUnmounted(() => {
+  resizeObserver?.disconnect();
+  resizeObserver = null;
+});
 watch(
   () => [props.totalXP, props.level, props.streak, props.cefrLevel, props.nickname, format.value],
   redraw,
