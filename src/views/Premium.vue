@@ -82,6 +82,8 @@ const focusBasis = computed(() => route.query.focus === 'basis');
 /** Premium Hub — opened from Landing «Mehr: Tarife & Anmelden». */
 const isHubMode = computed(() => route.query.hub === '1');
 const showTopicCatalog = computed(() => isPremium.value || isHubMode.value);
+/** Branding under logo on the active Premium home (not hub/checkout). */
+const showPremiumHero = computed(() => isPremium.value && !isHubMode.value);
 const topics = computed(() => getTopicsForLevel(activeLevel.value));
 
 const conversionSheetOpen = ref(false);
@@ -458,6 +460,11 @@ function topicMastered(key) {
   <div class="app-shell" :class="{ 'app-shell--premium-hub': isHubMode }">
     <LzdLogo small />
 
+    <header v-if="showPremiumHero" class="landing-hero premium-hero">
+      <h1 class="main-title">{{ t('landing.title') }}</h1>
+      <p class="brand-slogan">{{ t('landing.slogan') }}</p>
+    </header>
+
     <button
       v-if="isHubMode"
       type="button"
@@ -480,7 +487,7 @@ function topicMastered(key) {
             padding-bottom: 12px;
           "
         >
-          <div style="text-align: left;">
+          <div v-if="!showPremiumHero" style="text-align: left;">
             <div style="font-size: 22px; font-weight: 900;">{{ t('premium.title') }}</div>
             <div style="font-size: 13px; color: #666;">{{ t('premium.subtitle') }}</div>
             <div style="font-size: 14px; font-style: italic; color: #AB4DBB;">

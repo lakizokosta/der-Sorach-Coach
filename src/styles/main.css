@@ -302,6 +302,17 @@ button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
 .premium-hero-cta {
   margin-bottom: 16px;
 }
+.premium-hero {
+  margin-top: -2px;
+  margin-bottom: 6px;
+}
+.premium-hero .main-title {
+  font-size: clamp(22px, 3.5vw, 32px);
+  margin: 0 0 4px;
+}
+.premium-hero .brand-slogan {
+  margin-bottom: 6px;
+}
 .premium-hero-cta + .landing-niveau-block {
   margin: -4px auto 16px;
 }
