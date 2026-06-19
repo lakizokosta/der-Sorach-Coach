@@ -13,6 +13,7 @@ import {
   PRICES_EUR,
   buildStripePremiumUrl,
   buildStripeBasisUrl,
+  buildPaypalUrl,
 } from '@/data/payment.js';
 import { useI18n } from '@/i18n/index.js';
 
@@ -81,6 +82,15 @@ function payPremiumStripe() {
   buyStatus.value = {
     text: t('premium.stripeOpened', { email: email.value.trim() }),
     color: '#635BFF',
+  };
+}
+
+function payPremiumPaypal() {
+  if (!validateCheckout()) return;
+  window.open(buildPaypalUrl(props.plan), '_blank', 'noopener');
+  buyStatus.value = {
+    text: t('premium.paypalOpened', { email: email.value.trim() }),
+    color: '#0070BA',
   };
 }
 
@@ -201,6 +211,14 @@ function openFullPremium() {
               provider="stripe"
               :main="t('premium.payStripe')"
               :sub="t('premium.stripeSub')"
+            />
+          </button>
+
+          <button type="button" class="funnel-sheet__paypal" @click="payPremiumPaypal">
+            <PaymentButtonLabel
+              provider="paypal"
+              :main="t('premium.payPaypal')"
+              :sub="t('premium.paypalSub')"
             />
           </button>
 

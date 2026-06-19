@@ -4442,6 +4442,27 @@ button.lesen-gap-marker {
   background: #635bff;
   box-shadow: 0 6px 20px rgba(99, 91, 255, 0.25);
 }
+.funnel-sheet__paypal {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 14px;
+  background: #ffc439;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(255, 196, 57, 0.35);
+}
+.funnel-sheet__paypal .payment-btn-label__main,
+.funnel-sheet__paypal .payment-btn-label__sub {
+  color: #000;
+}
+@media (hover: hover) {
+  .funnel-sheet__paypal:hover {
+    box-shadow: 0 10px 28px rgba(255, 196, 57, 0.45);
+  }
+}
 .funnel-sheet__basis {
   display: block;
   width: 100%;
