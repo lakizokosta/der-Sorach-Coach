@@ -117,9 +117,9 @@ const basisPriceLabel = computed(() =>
 );
 
 const planOptions = computed(() => [
-  { v: '1month', label: t('premium.plan1'), note: '' },
-  { v: '3months', label: t('premium.plan3'), note: t('common.monthFree1') },
   { v: '12months', label: t('premium.plan12'), note: t('common.monthsFree3') },
+  { v: '3months', label: t('premium.plan3'), note: t('common.monthFree1') },
+  { v: '1month', label: t('premium.plan1'), note: '' },
 ]);
 
 const magicStatus = ref({ text: '', color: '#888' });
