@@ -721,11 +721,11 @@ button { font-family: inherit; }
 /* ── Lückentext ─────────────────────────────────────────────────────────── */
 .fill-input {
   display: inline-block;
-  width: 120px;
-  padding: 7px 10px;
+  min-width: 4.5ch;
+  max-width: min(280px, 46vw);
+  padding: 0.4em 0.55em;
   border: 2px solid #ab4dbb;
   border-radius: 10px;
-  font-size: 18px;
   font-weight: 700;
   text-align: center;
   vertical-align: middle;
@@ -733,6 +733,9 @@ button { font-family: inherit; }
   background: #fdf4ff;
   color: #333;
   outline: none;
+  box-sizing: border-box;
+  line-height: 1.2;
+  transition: width 0.12s ease, font-size 0.12s ease;
 }
 .fill-input.correct { border-color: #69c43b; background: #e8f5e9; color: #2e7d32; }
 .fill-input.wrong   { border-color: #ed4545; background: #fff0f0; color: #c62828; }

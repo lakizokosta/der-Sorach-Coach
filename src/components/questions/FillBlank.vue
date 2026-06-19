@@ -124,6 +124,28 @@ const inputClass = computed(() => ({
   correct: checked.value && isOk.value,
   wrong: checked.value && !isOk.value,
 }));
+
+/** Size the blank so typed/correct answers always fit (shorter words → larger type). */
+const inputStyle = computed(() => {
+  const typedLen = value.value.length;
+  const correctLens = (props.question.correct || []).map((s) => String(s).length);
+  const maxCorrect = correctLens.length ? Math.max(...correctLens) : 0;
+  const len = Math.max(typedLen, maxCorrect, 3);
+  /* +3.5ch reserves ~0.5em padding on each side inside the box */
+  const widthCh = Math.min(28, Math.max(6, len + 3.5));
+  let fontSize = 18;
+  if (len > 7) fontSize = 17;
+  if (len > 9) fontSize = 15;
+  if (len > 11) fontSize = 14;
+  if (len > 13) fontSize = 13;
+  if (len > 15) fontSize = 12;
+  if (len > 18) fontSize = 11;
+  if (len > 22) fontSize = 10;
+  return {
+    width: `${widthCh}ch`,
+    fontSize: `${fontSize}px`,
+  };
+});
 </script>
 
 <template>
@@ -140,6 +162,7 @@ const inputClass = computed(() => ({
         autocomplete="off"
         spellcheck="false"
         :class="inputClass"
+        :style="inputStyle"
         :disabled="checked"
         @keydown="onKeyDown"
       />
