@@ -97,6 +97,10 @@ button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
   text-align: center;
   margin-bottom: 8px;
 }
+.landing-hero .lzd-logo {
+  width: 130px;
+  height: 130px;
+}
 .landing-summary {
   margin: 6px auto 14px auto;
   max-width: 420px;
