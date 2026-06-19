@@ -921,8 +921,6 @@ function topicMastered(key) {
             </button>
           </div>
 
-          <NiveauTestBlock />
-
           <div class="premium-stats-card">
             <div class="premium-stats-card__top">
               <div class="premium-stats-card__level">
@@ -980,6 +978,8 @@ function topicMastered(key) {
               </div>
             </div>
           </div>
+
+          <NiveauTestBlock />
         </div>
 
         <!-- Premium training: one level picker + random / topics mode -->

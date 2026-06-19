@@ -22,7 +22,7 @@ a { color: inherit; }
 button { font-family: inherit; }
 
 /* Global lift on hover for interactive buttons. */
-button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
+button:not(:disabled):not(.logo-wrap) {
   transition:
     transform 0.18s ease,
     box-shadow 0.18s ease,
@@ -32,11 +32,11 @@ button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
     opacity 0.18s ease;
 }
 @media (hover: hover) {
-  button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive):hover {
+  button:not(:disabled):not(.logo-wrap):hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
   }
-  button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive):active {
+  button:not(:disabled):not(.logo-wrap):active {
     transform: translateY(0) scale(0.97);
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
   }
@@ -317,8 +317,12 @@ button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
   background: linear-gradient(135deg, #f5f0f7 0%, #f9f9f9 100%);
   border-radius: 16px;
   padding: 14px 16px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   border: 1px solid rgba(171, 77, 187, 0.15);
+}
+.premium-stats-card + .landing-niveau-block {
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 .premium-stats-card__top {
   display: flex;
@@ -2744,17 +2748,18 @@ button.lesen-gap-marker {
   cursor: pointer;
 }
 .niveau-test-btn--inactive {
-  background: linear-gradient(135deg, #eceff1, #dfe4e8);
-  color: #90a4ae;
-  border: 1.5px solid #cfd8dc;
-  box-shadow: none;
-  opacity: 0.9;
-  filter: saturate(0.7);
+  background: linear-gradient(135deg, #ffd700, #ffb700);
+  color: #000;
+  border: none;
+  box-shadow: 0 4px 15px rgba(255, 183, 0, 0.4);
+  opacity: 1;
+  filter: none;
 }
-.niveau-test-btn--inactive:hover,
+.niveau-test-btn--inactive:hover {
+  box-shadow: 0 10px 24px rgba(255, 183, 0, 0.45);
+}
 .niveau-test-btn--inactive:active {
-  transform: none;
-  box-shadow: none;
+  box-shadow: 0 3px 8px rgba(255, 183, 0, 0.35);
 }
 .niveau-test-btn--unlocked {
   background: linear-gradient(135deg, #ffd700, #ffb700);
@@ -2767,11 +2772,15 @@ button.lesen-gap-marker {
 .niveau-test-btn__badge {
   font-size: 11px;
   font-weight: 800;
-  background: #e0e0e0;
-  color: #888;
+  background: rgba(255, 255, 255, 0.28);
+  color: #fff;
   border-radius: 999px;
   padding: 3px 8px;
   white-space: nowrap;
+}
+.niveau-test-btn--inactive .niveau-test-btn__badge {
+  background: rgba(0, 0, 0, 0.08);
+  color: #5d4037;
 }
 .niveau-test-btn--unlocked .niveau-test-btn__badge {
   background: rgba(0, 0, 0, 0.08);
@@ -4352,6 +4361,45 @@ button.lesen-gap-marker {
   font-size: 16px;
   font-weight: 800;
   color: #7b2d8b;
+}
+.funnel-sheet__choose-plan {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #555;
+  text-align: left;
+}
+.funnel-sheet__plans {
+  margin-bottom: 12px;
+  text-align: left;
+}
+.funnel-sheet__plan-option {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 1.5px solid #eee;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+}
+.funnel-sheet__plan-option:has(input:checked) {
+  border-color: rgba(171, 77, 187, 0.45);
+  background: rgba(171, 77, 187, 0.06);
+}
+.funnel-sheet__plan-option-label {
+  font-weight: 800;
+}
+.funnel-sheet__plan-option-note {
+  font-size: 11px;
+  font-weight: 700;
+  color: #69c43b;
+}
+.funnel-sheet__plan-option-badge {
+  margin-left: auto;
 }
 .funnel-sheet__badge {
   display: inline-block;

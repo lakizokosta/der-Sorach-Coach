@@ -4,7 +4,7 @@
  * Variants: streak milestone, questions milestone, quick Premium checkout.
  */
 
-import { ref, watch } from 'vue';
+import { ref, watch, computed } from 'vue';
 import { useRouter } from 'vue-router';
 
 import PaymentButtonLabel from '@/components/PaymentButtonLabel.vue';
@@ -35,6 +35,13 @@ const email = ref(loadString(USER_EMAIL_KEY) || '');
 const agbChecked = ref(false);
 const buyStatus = ref({ text: '', color: '' });
 const showCheckout = ref(false);
+const selectedPlan = ref(props.plan);
+
+const planOptions = computed(() => [
+  { v: '12months', label: t('premium.plan12'), note: t('common.monthsFree3') },
+  { v: '3months', label: t('premium.plan3'), note: t('common.monthFree1') },
+  { v: '1month', label: t('premium.plan1'), note: '' },
+]);
 
 watch(
   () => props.modelValue,
@@ -42,10 +49,20 @@ watch(
     if (!open) {
       showCheckout.value = false;
       buyStatus.value = { text: '', color: '' };
+      selectedPlan.value = props.plan;
       return;
     }
-    showCheckout.value = props.variant === 'checkout';
+    showCheckout.value =
+      props.variant === 'checkout' || props.variant === 'niveau';
+    selectedPlan.value = props.plan;
     email.value = loadString(USER_EMAIL_KEY) || email.value;
+  },
+);
+
+watch(
+  () => props.plan,
+  (value) => {
+    selectedPlan.value = value;
   },
 );
 
@@ -78,7 +95,11 @@ function validateCheckout() {
 
 function payPremiumStripe() {
   if (!validateCheckout()) return;
-  window.open(buildStripePremiumUrl(props.plan, email.value.trim()), '_blank', 'noopener');
+  window.open(
+    buildStripePremiumUrl(selectedPlan.value, email.value.trim()),
+    '_blank',
+    'noopener',
+  );
   buyStatus.value = {
     text: t('premium.stripeOpened', { email: email.value.trim() }),
     color: '#635BFF',
@@ -87,7 +108,7 @@ function payPremiumStripe() {
 
 function payPremiumPaypal() {
   if (!validateCheckout()) return;
-  window.open(buildPaypalUrl(props.plan), '_blank', 'noopener');
+  window.open(buildPaypalUrl(selectedPlan.value), '_blank', 'noopener');
   buyStatus.value = {
     text: t('premium.paypalOpened', { email: email.value.trim() }),
     color: '#0070BA',
@@ -107,7 +128,7 @@ function openFullPremium() {
   close();
   const target = {
     name: 'premium',
-    query: { hub: '1', plan: props.plan },
+    query: { hub: '1', plan: selectedPlan.value },
   };
   const route = router.currentRoute.value;
   const onHub =
@@ -177,24 +198,47 @@ function openFullPremium() {
           </button>
         </template>
 
-        <template v-else-if="!showCheckout && variant === 'niveau'">
-          <div class="funnel-sheet__emoji">📊</div>
-          <h2 class="funnel-sheet__title">{{ t('funnel.niveauTitle') }}</h2>
-          <p class="funnel-sheet__body">{{ t('funnel.niveauBody') }}</p>
-          <button type="button" class="funnel-sheet__cta" @click="openCheckoutForm">
-            {{ t('funnel.ctaPremium3') }}
-          </button>
-          <button type="button" class="funnel-sheet__ghost" @click="dismissLater">
-            {{ t('funnel.later') }}
-          </button>
-        </template>
-
         <template v-else>
-          <h2 class="funnel-sheet__title">{{ t('funnel.checkoutTitle') }}</h2>
-          <p class="funnel-sheet__plan">
-            💎 {{ t('premium.plan3') }}
-            <span class="funnel-sheet__badge">{{ t('funnel.discountBadge') }}</span>
+          <h2 class="funnel-sheet__title">
+            {{
+              variant === 'niveau'
+                ? t('funnel.niveauTitle')
+                : t('funnel.checkoutTitle')
+            }}
+          </h2>
+          <p
+            v-if="variant === 'niveau'"
+            class="funnel-sheet__body funnel-sheet__body--compact"
+          >
+            {{ t('funnel.niveauBody') }}
           </p>
+
+          <p class="funnel-sheet__choose-plan">{{ t('premium.choosePlan') }}</p>
+          <div class="funnel-sheet__plans">
+            <label
+              v-for="opt in planOptions"
+              :key="opt.v"
+              class="funnel-sheet__plan-option"
+            >
+              <input
+                v-model="selectedPlan"
+                type="radio"
+                name="funnel-plan"
+                :value="opt.v"
+              />
+              <span class="funnel-sheet__plan-option-label">{{ opt.label }}</span>
+              <span v-if="opt.note" class="funnel-sheet__plan-option-note">
+                ({{ opt.note }})
+              </span>
+              <span
+                v-if="opt.v === '3months'"
+                class="funnel-sheet__badge funnel-sheet__plan-option-badge"
+              >
+                {{ t('funnel.discountBadge') }}
+              </span>
+            </label>
+          </div>
+
           <p class="funnel-sheet__body funnel-sheet__body--compact">
             {{ t('funnel.checkoutHint') }}
           </p>
