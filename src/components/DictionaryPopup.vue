@@ -6,11 +6,12 @@
  * from MyMemory, and dismisses on any outside click. The component owns
  * its own RU/EN language switch independent of the grammar tip language.
  *
- * @prop {?{word:string, rect:DOMRect}} target
+ * @prop {?{word:string, anchor:HTMLElement, token:number}} target
  *   When non-null the popup is shown; when set to `null` the popup hides.
+ *   `token` changes on every word click so position and lookup refresh.
  */
 
-import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue';
+import { ref, watch, onMounted, onBeforeUnmount } from 'vue';
 import { translate } from '@/utils/dictionary.js';
 
 const props = defineProps({
@@ -22,15 +23,24 @@ const emit = defineEmits(['close']);
 const lang = ref('RU');
 const translation = ref('');
 const loading = ref(false);
+const popupStyle = ref({ display: 'none' });
 
-const style = computed(() => {
-  if (!props.target?.rect) return { display: 'none' };
-  const rect = props.target.rect;
-  const top = rect.bottom + window.scrollY + 6;
-  let left = rect.left + window.scrollX;
-  if (left + 260 > window.innerWidth) left = window.innerWidth - 265;
-  return { top: `${top}px`, left: `${left}px` };
-});
+/** Places the popup under the anchor word (viewport coords — popup is `position: fixed`). */
+function syncPosition() {
+  const anchor = props.target?.anchor;
+  if (!anchor?.isConnected) {
+    popupStyle.value = { display: 'none' };
+    return;
+  }
+  const rect = anchor.getBoundingClientRect();
+  let left = rect.left;
+  if (left + 260 > window.innerWidth) left = Math.max(8, window.innerWidth - 265);
+  if (left < 8) left = 8;
+  popupStyle.value = {
+    top: `${rect.bottom + 6}px`,
+    left: `${left}px`,
+  };
+}
 
 /** Triggers a fresh translation lookup for the current target word. */
 async function lookup() {
@@ -40,7 +50,18 @@ async function lookup() {
   loading.value = false;
 }
 
-watch(() => [props.target?.word, lang.value], lookup, { immediate: true });
+watch(
+  () => props.target?.token,
+  () => {
+    syncPosition();
+    lookup();
+  },
+  { immediate: true },
+);
+
+watch(lang, () => {
+  if (props.target?.word) lookup();
+});
 
 /**
  * Closes the popup when the user clicks anywhere outside of it and
@@ -50,19 +71,25 @@ watch(() => [props.target?.word, lang.value], lookup, { immediate: true });
  */
 function handleOutsideClick(event) {
   const root = document.getElementById('dict-popup-root');
-  if (root && !root.contains(event.target) && !event.target.classList.contains('dict-word')) {
+  if (root && !root.contains(event.target) && !event.target.closest?.('.dict-word')) {
     emit('close');
   }
 }
 
 onMounted(() => {
   setTimeout(() => document.addEventListener('click', handleOutsideClick), 150);
+  window.addEventListener('scroll', syncPosition, true);
+  window.addEventListener('resize', syncPosition);
 });
-onBeforeUnmount(() => document.removeEventListener('click', handleOutsideClick));
+onBeforeUnmount(() => {
+  document.removeEventListener('click', handleOutsideClick);
+  window.removeEventListener('scroll', syncPosition, true);
+  window.removeEventListener('resize', syncPosition);
+});
 </script>
 
 <template>
-  <div v-if="target" id="dict-popup-root" class="dict-popup" :style="style">
+  <div v-if="target" id="dict-popup-root" class="dict-popup" :style="popupStyle">
     <div
       style="
         display: flex;

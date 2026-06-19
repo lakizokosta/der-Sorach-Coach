@@ -14,7 +14,7 @@
  *   /trainer?mode=placement          (Premium Niveau-Test A1–B2)
  */
 
-import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch } from 'vue';
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch, markRaw } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
@@ -562,7 +562,8 @@ function onContainerClick(event) {
   event.stopPropagation();
   dictTarget.value = {
     word: word.dataset.word,
-    rect: word.getBoundingClientRect(),
+    anchor: markRaw(word),
+    token: Date.now(),
   };
 }
 
