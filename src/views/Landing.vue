@@ -3,7 +3,7 @@
  * Landing — the home screen.
  */
 
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
@@ -62,6 +62,18 @@ const showProgressSection = computed(
     isLoggedIn.value ||
     streak.currentStreak > 0 ||
     xp.totalXP > 0,
+);
+
+/**
+ * Concept A: game-first landing. Login, pricing and CTAs stay hidden
+ * until the user is logged in or taps «Mehr».
+ */
+const showMore = ref(false);
+const showLandingExtras = computed(
+  () => isLoggedIn.value || showMore.value,
+);
+const showFreeBadge = computed(
+  () => !isPremium.value && !isBasis.value,
 );
 
 const pricingCompareRows = computed(() => [
@@ -140,6 +152,11 @@ function onNiveauTestClick() {
   }
   router.push({ name: 'trainer', query: { mode: 'placement' } });
 }
+
+function collapseLandingExtras() {
+  showMore.value = false;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 </script>
 
 <template>
@@ -152,8 +169,10 @@ function onNiveauTestClick() {
       </p>
       <p class="brand-slogan">{{ t('landing.slogan') }}</p>
 
+      <p v-if="showFreeBadge" class="landing-free-badge">{{ t('landing.freeStart') }}</p>
+
       <div
-        v-if="streak.currentStreak > 0 || xp.totalXP > 0"
+        v-if="showProgressSection && !showLandingExtras"
         class="landing-summary"
         v-html="summaryText"
       />
@@ -229,10 +248,83 @@ function onNiveauTestClick() {
         </div>
 
         <p class="landing-start-a1__hint">{{ t('landing.startA1Hint') }}</p>
+
+        <button
+          v-if="!showLandingExtras"
+          type="button"
+          class="landing-more-btn"
+          @click="showMore = true"
+        >
+          {{ t('landing.moreBtn') }}
+        </button>
+        <button
+          v-else-if="showMore && !isLoggedIn"
+          type="button"
+          class="landing-back-btn"
+          @click="collapseLandingExtras"
+        >
+          {{ t('landing.moreBack') }}
+        </button>
       </section>
 
       <section
-        v-if="backendOn"
+        v-if="showProgressSection"
+        class="landing-section landing-section--dashboard landing-block"
+        :aria-label="t('landing.sectionDashboard')"
+      >
+        <div class="landing-divider" role="separator">
+          <span class="landing-divider__label">{{ t('landing.sectionDashboard') }}</span>
+        </div>
+
+        <div
+          v-if="showLandingExtras && (streak.currentStreak > 0 || xp.totalXP > 0)"
+          class="landing-summary landing-summary--dashboard"
+          v-html="summaryText"
+        />
+
+        <div v-if="isLoggedIn" class="landing-logged-in-actions">
+          <button type="button" class="landing-profile-btn" @click="openProfile">
+            {{ t('landing.profileBtn') }}
+          </button>
+
+          <div class="landing-niveau-block">
+            <button
+              type="button"
+              class="niveau-test-btn"
+              :class="{
+                'level-card': isPremium,
+                'niveau-test-btn--unlocked': isPremium,
+                'niveau-test-btn--inactive': !isPremium,
+              }"
+              @click="onNiveauTestClick"
+            >
+              <span class="niveau-test-btn__label">
+                {{
+                  cefrLevel
+                    ? t('landing.niveauRetest', { level: cefrLevel })
+                    : t('landing.niveauTest')
+                }}
+              </span>
+              <span v-if="!isPremium" class="niveau-test-btn__badge">💎 {{ t('common.premium') }}</span>
+            </button>
+            <p class="niveau-test-btn__hint">
+              {{
+                isPremium ? t('landing.niveauHintPremium') : t('landing.niveauHintLocked')
+              }}
+            </p>
+          </div>
+        </div>
+
+        <div class="landing-progress">
+          <DailyGoalCard />
+          <BonusMissionsCard />
+          <SchwaechenCard />
+          <ActivityCalendar />
+        </div>
+      </section>
+
+      <section
+        v-if="showLandingExtras && backendOn"
         class="landing-section landing-section--login landing-block"
         :aria-label="t('landing.sectionLoginOnly')"
       >
@@ -242,6 +334,7 @@ function onNiveauTestClick() {
       </section>
 
       <section
+        v-if="showLandingExtras"
         class="landing-section landing-section--pricing landing-block"
         :aria-label="t('landing.sectionStart')"
       >
@@ -323,56 +416,6 @@ function onNiveauTestClick() {
       </div>
     </section>
     </div>
-
-    <section
-      v-if="showProgressSection"
-      class="landing-section landing-section--dashboard"
-      :aria-label="t('landing.sectionDashboard')"
-    >
-      <div class="landing-divider" role="separator">
-        <span class="landing-divider__label">{{ t('landing.sectionDashboard') }}</span>
-      </div>
-
-      <div v-if="isLoggedIn" class="landing-logged-in-actions">
-        <button type="button" class="landing-profile-btn" @click="openProfile">
-          {{ t('landing.profileBtn') }}
-        </button>
-
-        <div class="landing-niveau-block">
-          <button
-            type="button"
-            class="niveau-test-btn"
-            :class="{
-              'level-card': isPremium,
-              'niveau-test-btn--unlocked': isPremium,
-              'niveau-test-btn--inactive': !isPremium,
-            }"
-            @click="onNiveauTestClick"
-          >
-            <span class="niveau-test-btn__label">
-              {{
-                cefrLevel
-                  ? t('landing.niveauRetest', { level: cefrLevel })
-                  : t('landing.niveauTest')
-              }}
-            </span>
-            <span v-if="!isPremium" class="niveau-test-btn__badge">💎 {{ t('common.premium') }}</span>
-          </button>
-          <p class="niveau-test-btn__hint">
-            {{
-              isPremium ? t('landing.niveauHintPremium') : t('landing.niveauHintLocked')
-            }}
-          </p>
-        </div>
-      </div>
-
-      <div class="landing-progress">
-        <DailyGoalCard />
-        <BonusMissionsCard />
-        <SchwaechenCard />
-        <ActivityCalendar />
-      </div>
-    </section>
 
     <LegalFooter />
   </div>

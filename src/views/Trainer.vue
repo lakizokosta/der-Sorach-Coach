@@ -21,6 +21,7 @@ import LzdLogo from '@/components/LzdLogo.vue';
 import GrammarTip from '@/components/GrammarTip.vue';
 import DictionaryPopup from '@/components/DictionaryPopup.vue';
 import QuestionRenderer from '@/components/questions/QuestionRenderer.vue';
+import ConversionSheet from '@/components/ConversionSheet.vue';
 
 import { usePremium } from '@/composables/usePremium.js';
 import { useXp, getLevel, recordTopicWrong } from '@/composables/useXp.js';
@@ -54,6 +55,7 @@ import {
 } from '@/utils/placementTest.js';
 import { setCefrLevel } from '@/composables/useCefrLevel.js';
 import { useI18n } from '@/i18n/index.js';
+import { PRICES_EUR } from '@/data/payment.js';
 
 const route = useRoute();
 const { t } = useI18n();
@@ -91,6 +93,11 @@ const wrongTopics = ref({});              // key -> { name, level, count }
 const upsellHtml = ref('');
 const lastAnswerResolved = ref(false);    // is the head question fully resolved?
 const sessionStreak = ref(0);             // consecutive correct answers this session
+/** Funnel sheets — at most once per session each. */
+const funnelStreakShown = ref(false);
+const funnelQuestionsShown = ref(false);
+const conversionSheetOpen = ref(false);
+const conversionSheetVariant = ref('checkout');
 /** @type {import('vue').Ref<Record<string, { correct: number, total: number }>>} */
 const placementScores = ref({});
 const placementDetectedLevel = ref('');
@@ -611,6 +618,53 @@ const freeTimeExpired = computed(
   () => finishReason.value === 'Zeit abgelaufen' && !isPrem.value && !isBasis.value,
 );
 
+/** Sticky upsell bar in free trainer mode (Concept A). */
+const showFunnelSticky = computed(
+  () =>
+    !isPrem.value &&
+    !isBasis.value &&
+    !finished.value &&
+    !!currentQuestion.value &&
+    !placementMode &&
+    !schwaechenMode,
+);
+
+function openFunnelCheckout(variant = 'checkout') {
+  conversionSheetVariant.value = variant;
+  conversionSheetOpen.value = true;
+}
+
+function openBasisPage() {
+  router.push({ name: 'premium', query: { focus: 'basis' } });
+}
+
+watch(sessionStreak, (val) => {
+  if (
+    val === 10 &&
+    !funnelStreakShown.value &&
+    !isPrem.value &&
+    !isBasis.value &&
+    !finished.value
+  ) {
+    funnelStreakShown.value = true;
+    openFunnelCheckout('streak10');
+  }
+});
+
+watch(answered, (val) => {
+  if (
+    val === 15 &&
+    !funnelQuestionsShown.value &&
+    !isPrem.value &&
+    !isBasis.value &&
+    !finished.value &&
+    !conversionSheetOpen.value
+  ) {
+    funnelQuestionsShown.value = true;
+    openFunnelCheckout('questions15');
+  }
+});
+
 /**
  * Whether the Weiter button should be enabled. A question is "done"
  * after the active widget has emitted its final `answer` event — we
@@ -763,6 +817,31 @@ watch(lastAnswerResolved, (resolved) => {
         >
           {{ t('trainer.freeTimeExpiredMessage') }}
         </div>
+
+        <div v-if="freeTimeExpired" class="funnel-timer-end">
+          <p class="funnel-timer-end__lead">{{ t('funnel.timerEndLead') }}</p>
+          <button
+            type="button"
+            class="funnel-timer-end__cta funnel-timer-end__cta--premium"
+            @click="openFunnelCheckout('checkout')"
+          >
+            {{ t('funnel.ctaPremium3') }}
+          </button>
+          <button
+            type="button"
+            class="funnel-timer-end__cta funnel-timer-end__cta--basis"
+            @click="openBasisPage"
+          >
+            {{ t('funnel.basisBtn', { price: PRICES_EUR.basis }) }}
+          </button>
+          <button
+            type="button"
+            class="funnel-timer-end__ghost"
+            @click="exitSession"
+          >
+            {{ t('funnel.timerEndTomorrow') }}
+          </button>
+        </div>
         <div
           v-else
           style="font-size: 14px; color: #888; margin: 8px 0 20px;"
@@ -901,6 +980,7 @@ watch(lastAnswerResolved, (resolved) => {
         </button>
 
         <button
+          v-if="!freeTimeExpired"
           class="soft-btn"
           type="button"
           :style="{
@@ -992,7 +1072,13 @@ watch(lastAnswerResolved, (resolved) => {
   </div>
 
   <!-- Active question screen -->
-  <div v-else ref="trainerRootRef" class="app-shell" @click="onContainerClick">
+  <div
+    v-else
+    ref="trainerRootRef"
+    class="app-shell"
+    :class="{ 'app-shell--funnel': showFunnelSticky }"
+    @click="onContainerClick"
+  >
     <LzdLogo small />
 
     <div class="small-note">
@@ -1118,5 +1204,26 @@ watch(lastAnswerResolved, (resolved) => {
       :target="dictTarget"
       @close="dictTarget = null"
     />
+
+    <div v-if="showFunnelSticky" class="funnel-sticky" role="complementary">
+      <div class="funnel-sticky__meta">
+        <span class="funnel-sticky__level">{{ level }}</span>
+        <span class="funnel-sticky__dot">·</span>
+        <span class="funnel-sticky__timer">⏱ {{ timerLabel }}</span>
+      </div>
+      <button
+        type="button"
+        class="funnel-sticky__cta"
+        @click="openFunnelCheckout('checkout')"
+      >
+        {{ t('funnel.stickyCta') }}
+      </button>
+    </div>
   </div>
+
+  <ConversionSheet
+    v-model="conversionSheetOpen"
+    :variant="conversionSheetVariant"
+    plan="3months"
+  />
 </template>
