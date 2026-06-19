@@ -67,7 +67,7 @@ button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
 .app-shell {
   max-width: 720px;
   margin: 0 auto;
-  padding: 32px 18px 20px 18px;
+  padding: calc(18px + var(--locale-switcher-clearance)) 18px 20px 18px;
   min-height: 100vh;
 }
 .app-shell--landing {
@@ -1402,6 +1402,9 @@ button.lesen-gap-marker {
 }
 
 /* ── UI language switcher (top bar) ─────────────────────────────────────── */
+:root {
+  --locale-switcher-clearance: 2.75rem;
+}
 .locale-switcher {
   position: fixed;
   top: 8px;
@@ -4436,9 +4439,6 @@ button.lesen-gap-marker {
 }
 
 /* ── Premium Hub (`/premium?hub=1`) ── */
-.app-shell--premium-hub {
-  padding-top: 20px;
-}
 .premium-hub-back {
   margin: 0 auto 12px;
 }
