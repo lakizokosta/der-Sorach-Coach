@@ -3381,14 +3381,18 @@ button.lesen-gap-marker {
   width: 100%;
   max-width: 360px;
   margin: 16px auto 0;
-  padding: 16px;
+  padding: 18px 16px;
   background: linear-gradient(145deg, #3d0f5c 0%, #7b2d8b 55%, #c86dd7 100%);
   border-radius: 20px;
   box-shadow: 0 12px 32px rgba(123, 45, 139, 0.35);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-sizing: border-box;
 }
 .share-preview__head {
-  margin-bottom: 12px;
+  margin: 0;
 }
 .share-preview__title {
   display: block;
@@ -3416,7 +3420,7 @@ button.lesen-gap-marker {
   vertical-align: top;
 }
 .share-preview__tagline {
-  margin: 12px 0 0;
+  margin: 0;
   font-size: 14px;
   font-weight: 800;
   color: #fff;
@@ -3435,7 +3439,7 @@ button.lesen-gap-marker {
   display: flex;
   gap: 8px;
   justify-content: center;
-  margin-bottom: 12px;
+  margin: 0;
 }
 .share-preview__format-btn {
   flex: 1;
@@ -3459,7 +3463,7 @@ button.lesen-gap-marker {
   flex-wrap: wrap;
   gap: 6px;
   justify-content: center;
-  margin-top: 10px;
+  margin: 0;
 }
 .share-preview__badge {
   font-size: 11px;
@@ -3471,23 +3475,171 @@ button.lesen-gap-marker {
   color: #fff8e1;
 }
 
+/* ── Profile: Premium dashboard ─────────────────────────────────────────── */
+.profile-premium {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px 16px;
+}
+.profile-premium__head {
+  margin: 0;
+  text-align: center;
+}
+.profile-premium__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+  color: #ab4dbb;
+}
+.profile-block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-radius: 16px;
+  padding: 18px 16px;
+}
+.profile-block--xp {
+  background: linear-gradient(135deg, #f5f0ff, #fff);
+  border: 1px solid rgba(171, 77, 187, 0.2);
+}
+.profile-block--streak {
+  background: #fff9f0;
+  border: 1px solid #ffcc80;
+}
+.profile-block__title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 900;
+  color: #e65100;
+  text-align: center;
+}
+.profile-xp-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+}
+.profile-xp-badge {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  flex-shrink: 0;
+}
+.profile-xp-text {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+.profile-xp-name {
+  font-size: 18px;
+  font-weight: 900;
+}
+.profile-xp-bar-track {
+  width: 100%;
+  background: #ecdff8;
+  border-radius: 8px;
+  height: 12px;
+  overflow: hidden;
+}
+.profile-xp-bar-fill {
+  height: 100%;
+  border-radius: 8px;
+  transition: width 0.8s;
+}
+.profile-streak-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px 8px;
+  width: 100%;
+  text-align: center;
+}
+.profile-streak-grid__num {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+.profile-streak-grid__num--green {
+  color: #69c43b;
+}
+.profile-streak-grid__label {
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #888;
+}
+.profile-streak-medals {
+  margin: 0;
+  text-align: center;
+}
+.profile-premium .profile-nickname,
+.profile-premium .share-preview,
+.profile-premium .profile-topics,
+.profile-premium .profile-share-actions {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+.profile-premium .share-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px 16px;
+}
+.profile-premium .share-preview__head,
+.profile-premium .share-preview__format,
+.profile-premium .share-preview__tagline,
+.profile-premium .share-preview__badges {
+  margin: 0;
+}
+.profile-premium .share-preview__format-btn {
+  max-width: none;
+}
+.profile-premium .profile-topics__summary {
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 16px 40px;
+  text-align: center;
+}
+.profile-premium .profile-topics__title,
+.profile-premium .profile-topics__meta {
+  flex: none;
+  width: 100%;
+  text-align: center;
+}
+.profile-premium .profile-share-actions {
+  gap: 14px;
+}
+
 .profile-nickname {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   width: 100%;
   max-width: 360px;
   margin: 14px auto 0;
-  padding: 14px 16px;
+  padding: 18px 16px;
   background: #fff;
   border-radius: 16px;
   border: 1px solid #e8d8f8;
   text-align: left;
+  box-sizing: border-box;
 }
 .profile-nickname__label {
   display: block;
   font-size: 13px;
   font-weight: 900;
   color: #7b2d8b;
-  margin-bottom: 8px;
+  margin: 0;
 }
 .profile-nickname__input {
   width: 100%;
@@ -3506,7 +3658,7 @@ button.lesen-gap-marker {
 }
 .profile-nickname__hint {
   display: block;
-  margin-top: 6px;
+  margin: 0;
   font-size: 11px;
   color: #888;
 }
@@ -3624,7 +3776,7 @@ button.lesen-gap-marker {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 14px;
   width: 100%;
   max-width: 360px;
   margin-left: auto;

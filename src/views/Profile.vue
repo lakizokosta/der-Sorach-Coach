@@ -164,41 +164,22 @@ function shareCard() {
     </section>
 
     <section v-else class="section">
-      <div class="card premium-card">
-        <div style="text-align: center; margin-bottom: 16px;">
-          <div style="font-size: 18px; font-weight: 900; color: #AB4DBB;">🏅 Mein Profil</div>
-        </div>
+      <div class="card premium-card profile-premium">
+        <header class="profile-premium__head">
+          <h1 class="profile-premium__title">🏅 Mein Profil</h1>
+        </header>
 
         <!-- XP + Level -->
-        <div
-          style="
-            background: linear-gradient(135deg, #f5f0ff, #fff);
-            border-radius: 16px;
-            padding: 20px;
-            margin-bottom: 16px;
-            border: 1px solid rgba(171, 77, 187, 0.2);
-          "
-        >
-          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 14px;">
+        <div class="profile-block profile-block--xp">
+          <div class="profile-xp-row">
             <div
-              style="
-                width: 52px;
-                height: 52px;
-                border-radius: 50%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 16px;
-                font-weight: 900;
-                color: #fff;
-                flex-shrink: 0;
-              "
+              class="profile-xp-badge"
               :style="{ background: liveLevel.color }"
             >
               Lv{{ liveLevel.num }}
             </div>
-            <div style="flex: 1; text-align: left;">
-              <div style="font-size: 18px; font-weight: 900;">{{ liveLevel.name }}</div>
+            <div class="profile-xp-text">
+              <div class="profile-xp-name">{{ liveLevel.name }}</div>
               <div class="small-note">
                 ⭐ {{ xp.totalXP }} XP
                 <template v-if="liveLevel.next">
@@ -210,17 +191,9 @@ function shareCard() {
               </div>
             </div>
           </div>
-          <div
-            style="
-              background: #ecdff8;
-              border-radius: 8px;
-              height: 12px;
-              overflow: hidden;
-              margin-bottom: 6px;
-            "
-          >
+          <div class="profile-xp-bar-track">
             <div
-              style="height: 12px; border-radius: 8px; transition: width 0.8s;"
+              class="profile-xp-bar-fill"
               :style="{
                 width: `${xpPct}%`,
                 background: `linear-gradient(90deg, ${liveLevel.color}, #AB4DBB)`,
@@ -230,43 +203,27 @@ function shareCard() {
         </div>
 
         <!-- Streak -->
-        <div
-          style="
-            background: #fff9f0;
-            border-radius: 16px;
-            padding: 16px;
-            margin-bottom: 16px;
-            border: 1px solid #ffcc80;
-          "
-        >
-          <div
-            style="font-size: 14px; font-weight: 900; color: #e65100; margin-bottom: 12px;"
-          >
-            🔥 Streak
-          </div>
-          <div style="display: flex; justify-content: space-around; text-align: center;">
+        <div class="profile-block profile-block--streak">
+          <div class="profile-block__title">🔥 Streak</div>
+          <div class="profile-streak-grid">
             <div>
-              <div style="font-size: 28px; font-weight: 900;">
-                {{ streak.currentStreak }}
-              </div>
-              <div class="small-note" style="text-transform: uppercase;">Aktuell</div>
+              <div class="profile-streak-grid__num">{{ streak.currentStreak }}</div>
+              <div class="profile-streak-grid__label">Aktuell</div>
             </div>
             <div>
-              <div style="font-size: 28px; font-weight: 900;">
-                {{ streak.longestStreak }}
-              </div>
-              <div class="small-note" style="text-transform: uppercase;">Rekord 🏆</div>
+              <div class="profile-streak-grid__num">{{ streak.longestStreak }}</div>
+              <div class="profile-streak-grid__label">Rekord 🏆</div>
             </div>
             <div>
-              <div style="font-size: 28px; font-weight: 900; color: #69c43b;">
+              <div class="profile-streak-grid__num profile-streak-grid__num--green">
                 {{ streak.freezes }}
               </div>
-              <div class="small-note" style="text-transform: uppercase;">Freezes</div>
+              <div class="profile-streak-grid__label">Freezes</div>
             </div>
           </div>
-          <div style="margin-top: 10px; text-align: center;" class="small-note">
+          <p class="profile-streak-medals small-note">
             🏅 {{ medalsFor(streak.longestStreak) }}
-          </div>
+          </p>
         </div>
 
         <label class="profile-nickname">
