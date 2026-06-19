@@ -32,7 +32,18 @@ function cubeFaces(cx, cy, scale = 1) {
   return { top, right, left };
 }
 
-/** @type {Record<string, { cubes: Cube[], ball: Ball, path?: string, label?: string, badge?: string, caption?: string }>} */
+/** Ball centred in the visible cavity of an isometric cube (Wo · in). */
+function insideBallForCube(cx, cy, scale = 1) {
+  const h = H * scale;
+  const d = D * scale;
+  return {
+    x: cx,
+    y: cy + h + d * 0.38,
+    r: 5.5 * scale,
+  };
+}
+
+/** @type {Record<string, { cubes: Cube[], ball?: Ball, ballInside?: boolean, path?: string, label?: string, badge?: string, caption?: string }>} */
 const LAYOUTS = {
   hinter: {
     cubes: [{ cx: 72, cy: 42 }],
@@ -139,15 +150,15 @@ const LAYOUTS = {
   // Wechselpräpositionen — Wo (Dativ) vs Wohin (Akkusativ)
   'in-wo': {
     cubes: [{ cx: 70, cy: 40 }],
-    ball: { x: 70, y: 52, r: 5 },
+    ballInside: true,
     label: 'in',
     badge: 'Wo · Dativ',
     caption: '● = im Inneren (Ort)',
   },
   'in-hin': {
     cubes: [{ cx: 82, cy: 44 }],
-    ball: { x: 28, y: 48 },
-    path: 'M 34 48 L 60 50',
+    ballInside: true,
+    path: 'M 24 54 L 74 61',
     label: 'in',
     badge: 'Wohin · Akkusativ',
     caption: '● → hinein (Bewegung)',
@@ -296,8 +307,19 @@ const cubeRender = computed(() =>
     ...cubeFaces(c.cx, c.cy, c.scale ?? 1),
     cx: c.cx,
     cy: c.cy,
+    scale: c.scale ?? 1,
   })),
 );
+
+const ballInside = computed(() => Boolean(layout.value.ballInside));
+
+const effectiveBall = computed(() => {
+  if (layout.value.ballInside && cubeRender.value.length) {
+    const c = cubeRender.value[0];
+    return insideBallForCube(c.cx, c.cy, c.scale);
+  }
+  return layout.value.ball ?? { x: 70, y: 44, r: 6 };
+});
 </script>
 
 <template>
@@ -323,13 +345,22 @@ const cubeRender = computed(() =>
       <g v-for="(cube, i) in cubeRender" :key="'cube-' + i">
         <polygon :points="cube.left" class="cube-face cube-left" />
         <polygon :points="cube.right" class="cube-face cube-right" />
+        <circle
+          v-if="ballInside && i === 0"
+          :cx="effectiveBall.x"
+          :cy="effectiveBall.y"
+          :r="effectiveBall.r"
+          fill="url(#ball-shade)"
+          class="spatial-ball spatial-ball--inside"
+        />
         <polygon :points="cube.top" class="cube-face cube-top" />
       </g>
 
       <circle
-        :cx="layout.ball.x"
-        :cy="layout.ball.y"
-        :r="layout.ball.r ?? 6"
+        v-if="!ballInside"
+        :cx="effectiveBall.x"
+        :cy="effectiveBall.y"
+        :r="effectiveBall.r ?? 6"
         fill="url(#ball-shade)"
         class="spatial-ball"
       />
