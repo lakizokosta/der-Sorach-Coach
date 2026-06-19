@@ -455,11 +455,11 @@ function renderShareCard(data, ctx, w, h) {
     level.next ? (totalXP - level.prev) / (level.next - level.prev) : 1,
     ACCENT,
   );
-  ctx.fillStyle = level.color;
+  ctx.fillStyle = ACCENT;
   ctx.beginPath();
   ctx.arc(px(cx), px(ringY), ringR, 0, Math.PI * 2);
   ctx.fill();
-  ctx.fillStyle = TEXT;
+  ctx.fillStyle = '#3d0f5c';
   setFont(ctx, 'bold', isStory ? 72 : 46);
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
