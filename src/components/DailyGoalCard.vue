@@ -9,6 +9,11 @@ import { useDailyGoal } from '@/composables/useDailyGoal.js';
 import DailyGoalDetailModal from '@/components/DailyGoalDetailModal.vue';
 import { useI18n } from '@/i18n/index.js';
 
+const props = defineProps({
+  /** `default` — full card; `reminder` — compact nudge in Premium stats area */
+  variant: { type: String, default: 'default' },
+});
+
 const { goal, todayCount, isMet, progressPct } = useDailyGoal();
 const { t } = useI18n();
 const showDetail = ref(false);
@@ -33,7 +38,11 @@ function closeDetail() {
 <template>
   <section
     class="daily-goal daily-goal--clickable"
-    :class="{ 'daily-goal--met': isMet }"
+    :class="{
+      'daily-goal--met': isMet,
+      'daily-goal--reminder': props.variant === 'reminder',
+      'daily-goal--reminder-active': props.variant === 'reminder' && !isMet,
+    }"
     role="button"
     tabindex="0"
     :aria-label="t('common.tapForDetails')"

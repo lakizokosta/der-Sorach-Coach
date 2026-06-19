@@ -324,6 +324,12 @@ button:not(:disabled):not(.logo-wrap) {
   margin-top: 0;
   margin-bottom: 16px;
 }
+.premium-stats-card__goal {
+  margin-top: 12px;
+}
+.daily-goal--reminder + .landing-niveau-block {
+  margin-top: 12px;
+}
 .premium-stats-card__top {
   display: flex;
   align-items: center;
@@ -2000,6 +2006,48 @@ button.lesen-gap-marker {
   line-height: 1.45;
   text-align: center;
 }
+.daily-goal--reminder {
+  padding: 12px 14px;
+  margin-bottom: 0;
+}
+.daily-goal--reminder.daily-goal--clickable {
+  padding-right: 36px;
+}
+.daily-goal--reminder.daily-goal--clickable::after {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 12px;
+  font-size: 18px;
+}
+.daily-goal--reminder .daily-goal__row {
+  margin-bottom: 8px;
+}
+.daily-goal--reminder .daily-goal__hint {
+  margin-top: 8px;
+  font-size: 11px;
+}
+.daily-goal--reminder-active {
+  animation: daily-goal-reminder-pulse 4s ease-in-out infinite;
+}
+@keyframes daily-goal-reminder-pulse {
+  0%,
+  100% {
+    border-color: rgba(171, 77, 187, 0.28);
+    box-shadow: 0 0 0 0 rgba(171, 77, 187, 0);
+    background-color: #fff;
+  }
+  50% {
+    border-color: rgba(171, 77, 187, 0.72);
+    box-shadow: 0 0 16px rgba(171, 77, 187, 0.18);
+    background-color: #faf5fc;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .daily-goal--reminder-active {
+    animation: none;
+    border-color: rgba(171, 77, 187, 0.55);
+  }
+}
 .daily-goal-modal-backdrop {
   z-index: 1300;
 }
@@ -3510,8 +3558,11 @@ button.lesen-gap-marker {
   border: 1px solid rgba(171, 77, 187, 0.2);
 }
 .profile-free__block--streak {
-  background: #fff9f0;
-  border: 1px solid #ffcc80;
+  background: linear-gradient(135deg, #f0fdf0, #e8f8e8);
+  border: 1px solid #a5e08a;
+}
+.profile-free__block--streak .profile-free__block-title {
+  color: #4a9e2e;
 }
 .profile-free__block-title {
   font-size: 14px;
@@ -3879,8 +3930,11 @@ button.lesen-gap-marker {
   border: 1px solid rgba(171, 77, 187, 0.2);
 }
 .profile-block--streak {
-  background: #fff9f0;
-  border: 1px solid #ffcc80;
+  background: linear-gradient(135deg, #f0fdf0, #e8f8e8);
+  border: 1px solid #a5e08a;
+}
+.profile-block--streak .profile-block__title {
+  color: #4a9e2e;
 }
 .profile-block--placement {
   background: linear-gradient(135deg, #fffde7, #fff9c4);
@@ -3925,7 +3979,7 @@ button.lesen-gap-marker {
   margin: 0;
   font-size: 14px;
   font-weight: 900;
-  color: #e65100;
+  color: #4a9e2e;
   text-align: center;
 }
 .profile-xp-row {

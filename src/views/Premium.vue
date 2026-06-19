@@ -957,6 +957,8 @@ function topicMastered(key) {
             </div>
           </div>
 
+          <DailyGoalCard variant="reminder" class="premium-stats-card__goal" />
+
           <NiveauTestBlock />
         </div>
 
@@ -1067,7 +1069,6 @@ function topicMastered(key) {
             <span class="landing-divider__label">{{ t('landing.sectionDashboard') }}</span>
           </div>
           <div class="landing-progress premium-dashboard__cards">
-            <DailyGoalCard />
             <SchwaechenCard />
             <ActivityCalendar />
           </div>
