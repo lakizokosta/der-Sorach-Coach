@@ -54,15 +54,7 @@ const renderedPrompt = computed(() =>
 const correctValue = computed(() => String(props.question.correct ?? '').trim());
 
 const spatialScene = computed(() => resolveSpatialScene(props.question));
-
-const WECHSEL_TOPICS = new Set(['WECHSELPRÄPOSITIONEN', 'WECHSELPRÄPOSITIONENA2']);
-
-// For Wechselpräpositionen the badge (Wo·Dativ / Wohin·Akkusativ) reveals the
-// answer, so we show the diagram only after the correct option is picked.
-const showSpatialHint = computed(() =>
-  spatialScene.value !== null &&
-  (!WECHSEL_TOPICS.has(props.question.topic) || finalised.value),
-);
+const showSpatialHint = computed(() => spatialScene.value !== null);
 
 /**
  * Returns true iff `option` matches the declared correct answer. The

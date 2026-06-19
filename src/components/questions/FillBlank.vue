@@ -32,12 +32,7 @@ const parts = (props.question.prompt || '').split('___');
 const acceptable = (props.question.correct || []).map((s) => String(s).toLowerCase());
 
 const spatialScene = computed(() => resolveSpatialScene(props.question));
-
-const WECHSEL_TOPICS = new Set(['WECHSELPRÄPOSITIONEN', 'WECHSELPRÄPOSITIONENA2']);
-const showSpatialHint = computed(() =>
-  spatialScene.value !== null &&
-  (!WECHSEL_TOPICS.has(props.question.topic) || checked.value),
-);
+const showSpatialHint = computed(() => spatialScene.value !== null);
 
 const partLeftHtml = computed(() =>
   props.premium ? wrapWordsForDictionary(parts[0] || '') : escapeHtml(parts[0] || ''),
