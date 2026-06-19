@@ -99,7 +99,23 @@ watch(
         :aria-selected="format === SHARE_FORMAT.POST"
         @click="setFormat(SHARE_FORMAT.POST)"
       >
-        ▣ Post
+        <span class="share-preview__format-btn-inner">
+          <svg class="share-preview__format-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="2.5" y="2.5" width="19" height="19" rx="4" fill="none" stroke="currentColor" stroke-width="1.8" />
+            <rect x="5.5" y="5.5" width="13" height="9.5" rx="2" fill="currentColor" opacity="0.22" />
+            <circle cx="8.5" cy="8.5" r="1.3" fill="currentColor" />
+            <path
+              d="M5.5 13.5 L9 10 L11.5 12 L18.5 7.5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <rect x="5.5" y="16.5" width="9" height="1.6" rx="0.8" fill="currentColor" opacity="0.45" />
+          </svg>
+          <span>Post</span>
+        </span>
       </button>
       <button
         type="button"
@@ -109,7 +125,16 @@ watch(
         :aria-selected="format === SHARE_FORMAT.STORY"
         @click="setFormat(SHARE_FORMAT.STORY)"
       >
-        ▯ Story
+        <span class="share-preview__format-btn-inner">
+          <svg class="share-preview__format-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="6.5" y="1.5" width="11" height="21" rx="3" fill="none" stroke="currentColor" stroke-width="1.8" />
+            <circle cx="12" cy="6.5" r="2.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="3.2 2.2" />
+            <rect x="8.5" y="11" width="7" height="1.6" rx="0.8" fill="currentColor" opacity="0.45" />
+            <rect x="8.5" y="14" width="5" height="1.6" rx="0.8" fill="currentColor" opacity="0.3" />
+            <rect x="10" y="18.5" width="4" height="1.2" rx="0.6" fill="currentColor" opacity="0.35" />
+          </svg>
+          <span>Story</span>
+        </span>
       </button>
     </div>
 
