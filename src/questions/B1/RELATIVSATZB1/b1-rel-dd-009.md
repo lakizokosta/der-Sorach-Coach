@@ -8,6 +8,9 @@ words:
   - stand
   - war
   - interessant
+commas:
+  - 0
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Relativsatz)

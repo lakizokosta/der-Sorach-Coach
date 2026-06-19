@@ -215,6 +215,9 @@ export function parseQuestionFile(raw, context) {
         throw new Error(`dropbox needs a "words" list with 2+ items (${context?.path})`);
       }
       question.words = meta.words.map(String);
+      if (Array.isArray(meta.commas)) {
+        question.commas = meta.commas.map((n) => Number(n)).filter((n) => Number.isInteger(n) && n >= 0);
+      }
       if (Array.isArray(meta.codes)) question.codes = meta.codes.map(String);
       if (Array.isArray(meta.alternatives)) {
         const primaryKey = [...question.words].sort().join('|');

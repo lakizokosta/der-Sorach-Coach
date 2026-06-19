@@ -137,6 +137,32 @@ const questionNumber = computed(() => {
   return Math.min(queue.value.solvedCount + 1, queue.value.total);
 });
 
+/** Friendly topic label for the active question (Premium topic grid names). */
+const currentTopicName = computed(() => {
+  const q = currentQuestion.value;
+  if (!q?.topic) return '';
+  const lvl = q.level || level.value;
+  const found = (PREMIUM_TOPICS[lvl] || []).find(
+    (t) => t.key.toUpperCase() === String(q.topic).toUpperCase(),
+  );
+  return found?.name || q.topic;
+});
+
+/** Pool size of the current question's topic (shown in level-wide sessions). */
+const currentTopicPoolSize = computed(() => {
+  const q = currentQuestion.value;
+  if (!q?.topic || topic.value) return 0;
+  return getQuestionsByTopic(q.level, q.topic).length;
+});
+
+const topicPoolHint = computed(() => {
+  if (!currentTopicPoolSize.value || !currentTopicName.value) return '';
+  return t('trainer.topicPool', {
+    topic: currentTopicName.value,
+    count: currentTopicPoolSize.value,
+  });
+});
+
 const xpPerAnswer = computed(() => (isPrem.value ? 2 : 1));
 
 /** Canonical topic key for mastery / XP attribution. */
@@ -1044,9 +1070,12 @@ watch(lastAnswerResolved, (resolved) => {
       </Transition>
     </div>
 
-    <h2 style="margin: 6px 0 12px 0;">
+    <h2 style="margin: 6px 0 4px 0;">
       {{ t('trainer.question', { current: questionNumber, total: totalQuestions }) }}
     </h2>
+    <p v-if="topicPoolHint" class="small-note" style="margin: 0 0 12px 0;">
+      {{ topicPoolHint }}
+    </p>
 
     <QuestionRenderer
       :key="currentQuestion.id"
@@ -1057,7 +1086,7 @@ watch(lastAnswerResolved, (resolved) => {
       @complete="onComplete"
     />
 
-    <div v-if="showRetry" class="retry-hint">
+    <div v-if="showRetry && !canAdvance" class="retry-hint">
       {{ t('trainer.wrongRetry') }}
     </div>
 

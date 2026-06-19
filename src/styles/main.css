@@ -717,6 +717,14 @@ button { font-family: inherit; }
 .dd-chip.correct { background: #e8f5e9; border-color: #69c43b; color: #2e7d32; }
 .dd-chip.wrong   { background: #fff0f0; border-color: #ed4545; color: #c62828; }
 .dd-placeholder  { color: #bbb; font-size: 13px; }
+.dd-comma {
+  font-size: 20px;
+  font-weight: 700;
+  color: #555;
+  line-height: 1;
+  user-select: none;
+  margin: 0 -2px;
+}
 
 /* ── Lückentext ─────────────────────────────────────────────────────────── */
 .fill-input {

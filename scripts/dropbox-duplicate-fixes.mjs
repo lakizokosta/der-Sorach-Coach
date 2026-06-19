@@ -32,7 +32,7 @@ export const DUPLICATE_FIXES = {
   'B1:KONJUNKTIONALADVERBIEN:11': ['Das', 'Essen', 'war', 'teuer', 'dennoch', 'blieb', 'Qualität', 'hoch'],
   'B1:KONJUNKTIONALADVERBIEN:16': ['Er', 'hat', 'viel', 'gelernt', 'deshalb', 'bestand', 'seine', 'Prüfung'],
 
-  'B1:RELATIVSATZB1:6': ['Studierende', 'die', 'Prüfung', 'bestanden', 'haben', 'feiern', 'heute'],
+  'B1:RELATIVSATZB1:6': ['Die', 'Studierenden', 'die', 'ihre', 'Prüfung', 'bestanden', 'haben', 'feiern', 'heute'],
   'B1:RELATIVSATZB1:8': ['Artikel', 'der', 'in', 'Zeitung', 'stand', 'war', 'interessant'],
 
   'B1:WORTSCHATZB1:0': ['Nach', 'der', 'Operation', 'braucht', 'ein', 'Patient', 'Rehabilitation'],

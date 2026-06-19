@@ -255,6 +255,7 @@ export default {
     finish: '🏁 Finish & results',
     wrongRetry: '❌ Wrong! Try again.',
     question: 'Question {current} of {total}',
+    topicPool: 'Current topic: {topic} ({count} tasks)',
     free: 'Free - {level}',
     premium: 'Premium - {level}',
     noQuestions: 'No questions found',

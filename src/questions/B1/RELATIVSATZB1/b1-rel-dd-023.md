@@ -9,6 +9,9 @@ words:
   - braucht
   - ist
   - teuer
+commas:
+  - 1
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Relativsatz)

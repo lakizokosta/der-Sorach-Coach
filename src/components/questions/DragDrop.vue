@@ -5,6 +5,9 @@
  * First wrong check: learner may reorder chips (emits `first-wrong`).
  * Second wrong check: shows the correct sentence and finalises as wrong.
  * Correct on first try (or after one wrong) finalises like MultipleChoice.
+ *
+ * Optional `commas` in question data: 0-based word indices after which a
+ * comma is shown (Relativsatz and similar).
  */
 
 import { computed, ref, onMounted } from 'vue';
@@ -29,6 +32,13 @@ const succeeded = ref(false);
 const showSolution = ref(false);
 const message = ref({ html: '', color: '' });
 
+const commaAfter = computed(() =>
+  [...(props.question.commas || [])]
+    .map((n) => Number(n))
+    .filter((n) => Number.isInteger(n) && n >= 0)
+    .sort((a, b) => a - b),
+);
+
 // A trailing punctuation mark is trivially obvious — pre-place it as a fixed
 // suffix so the learner only arranges the meaningful words.
 const TRAILING_PUNCT = new Set(['?', '!']);
@@ -36,6 +46,17 @@ const lastWord = correct[correct.length - 1] ?? '';
 const suffix = TRAILING_PUNCT.has(lastWord) ? lastWord : '';
 // Words the student actually needs to arrange (excludes the fixed suffix).
 const coreWords = suffix ? correct.slice(0, -1) : correct;
+
+/** Builds a display string with optional comma positions. */
+function formatSentence(words, suffixChar = '') {
+  let out = '';
+  for (let i = 0; i < words.length; i++) {
+    if (i > 0) out += ' ';
+    out += words[i];
+    if (commaAfter.value.includes(i)) out += ',';
+  }
+  return out + (suffixChar || '');
+}
 
 function scrambleBank() {
   let s = shuffle(coreWords);
@@ -84,9 +105,7 @@ function showCorrectSolution() {
   drop.value = [...coreWords];
   bank.value = [];
   let html = '❌ Nicht richtig. Richtige Lösung:';
-  // Build display sentence without awkward space before punctuation.
-  const displaySentence = coreWords.join(' ') + (suffix ? suffix : '');
-  html += `<div style="margin-top:10px;font-weight:700;color:#2e7d32;">${displaySentence}</div>`;
+  html += `<div style="margin-top:10px;font-weight:700;color:#2e7d32;">${formatSentence(coreWords, suffix)}</div>`;
   if (props.question.codes && props.question.codes.length === correct.length) {
     html += renderTekamoloBreakdown(correct, props.question.codes);
   }
@@ -114,10 +133,6 @@ function check() {
 
   if (wrongChecks.value === 1) {
     emit('first-wrong');
-    message.value = {
-      html: '❌ Noch nicht richtig. Ordne die Wörter noch einmal.',
-      color: '#ed4545',
-    };
     return;
   }
 
@@ -190,15 +205,16 @@ const chipClass = computed(() => (word, index) => {
 
     <div class="dd-drop">
       <span v-if="drop.length === 0" class="dd-placeholder">Tippe auf Wörter ↓</span>
-      <span
-        v-for="(w, i) in drop"
-        :key="`d-${i}-${w}`"
-        class="dd-chip"
-        :class="chipClass(w, i)"
-        @click="popChip(i)"
-      >
-        {{ w }}
-      </span>
+      <template v-for="(w, i) in drop" :key="`d-${i}-${w}`">
+        <span
+          class="dd-chip"
+          :class="chipClass(w, i)"
+          @click="popChip(i)"
+        >
+          {{ w }}
+        </span>
+        <span v-if="commaAfter.includes(i)" class="dd-comma">,</span>
+      </template>
       <!-- Fixed trailing punctuation — pre-placed, not draggable -->
       <span
         v-if="suffix"

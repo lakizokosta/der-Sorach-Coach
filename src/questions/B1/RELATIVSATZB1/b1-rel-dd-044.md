@@ -10,6 +10,9 @@ words:
   - haben
   - mir
   - geholfen
+commas:
+  - 1
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Relativsatz)

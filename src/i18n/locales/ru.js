@@ -255,6 +255,7 @@ export default {
     finish: '🏁 Завершить и результат',
     wrongRetry: '❌ Неверно! Попробуй ещё раз.',
     question: 'Вопрос {current} из {total}',
+    topicPool: 'Текущая тема: {topic} ({count} заданий)',
     free: 'Бесплатно - {level}',
     premium: 'Premium - {level}',
     noQuestions: 'Вопросы не найдены',

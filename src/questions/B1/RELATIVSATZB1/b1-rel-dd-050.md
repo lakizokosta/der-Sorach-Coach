@@ -10,6 +10,9 @@ words:
   - wohne
   - ist
   - klein
+commas:
+  - 1
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Relativsatz)

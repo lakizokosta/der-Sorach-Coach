@@ -47,7 +47,7 @@ function writeItem(folder, prefix, num, item) {
   const path = join(ROOT, folder, `${prefix}-${num}.md`);
   if (!item.allowDuplicateWords) assertUnique(item.words, `${folder} #${num}`);
   const prompt = `Ordne die Wörter zum richtigen Satz: (${item.hint})`;
-  writeFileSync(path, md(`${prefix}-${num}`, prompt, item.words, item.alternatives), 'utf8');
+  writeFileSync(path, md(`${prefix}-${num}`, prompt, item.words, item.alternatives, item.commas), 'utf8');
 }
 
 function restoreTopic(topicKey) {

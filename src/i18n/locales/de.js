@@ -258,6 +258,7 @@ export default {
     finish: '🏁 Beenden & Ergebnis',
     wrongRetry: '❌ Falsch! Versuche es noch einmal.',
     question: 'Frage {current} von {total}',
+    topicPool: 'Aktuelles Thema: {topic} ({count} Aufgaben)',
     free: 'Kostenlos - {level}',
     premium: 'Premium - {level}',
     noQuestions: 'Keine Fragen gefunden',
