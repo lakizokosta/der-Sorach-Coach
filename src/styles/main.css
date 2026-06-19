@@ -4184,30 +4184,28 @@ button.lesen-gap-marker {
   max-width: 300px;
   margin: 16px auto 0;
   padding: 14px 20px;
-  border: 1.5px solid #e0c8f0;
+  border: none;
   border-radius: 999px;
-  background: #fff;
+  background: linear-gradient(135deg, #a5e08a, #7bc96a);
   font-size: 14px;
   font-weight: 900;
-  color: #7b2d8b;
+  color: #fff;
   cursor: pointer;
-  box-shadow: 0 2px 10px rgba(171, 77, 187, 0.06);
+  box-shadow: 0 4px 14px rgba(105, 196, 59, 0.22);
   transition:
     transform 0.18s ease,
-    box-shadow 0.18s ease,
-    border-color 0.18s ease;
+    box-shadow 0.18s ease;
 }
 .landing-more-btn:hover {
   transform: translateY(-3px);
-  border-color: #c86dd7;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 10px 24px rgba(105, 196, 59, 0.28);
 }
 .landing-more-btn:active {
   transform: translateY(0) scale(0.97);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 8px rgba(105, 196, 59, 0.18);
 }
 .landing-more-btn:focus-visible {
-  outline: 2px solid #ab4dbb;
+  outline: 2px solid #7bc96a;
   outline-offset: 2px;
 }
 .landing-back-btn {
