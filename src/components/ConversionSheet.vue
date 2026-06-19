@@ -105,7 +105,22 @@ function payBasisStripe() {
 
 function openFullPremium() {
   close();
-  router.push({ name: 'premium', query: { hub: '1', plan: props.plan } });
+  const target = {
+    name: 'premium',
+    query: { hub: '1', plan: props.plan },
+  };
+  const route = router.currentRoute.value;
+  const onHub =
+    route.name === 'premium' && String(route.query.hub || '') === '1';
+  if (onHub) {
+    requestAnimationFrame(() => {
+      document
+        .querySelector('.premium-buy-card')
+        ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    return;
+  }
+  router.push(target);
 }
 </script>
 
