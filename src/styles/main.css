@@ -294,6 +294,114 @@ button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
 .level-grid--landing .level-card .level-desc {
   font-size: 11px;
 }
+.premium-hero-cta {
+  margin-bottom: 16px;
+}
+.premium-training {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1.5px solid rgba(171, 77, 187, 0.15);
+  text-align: left;
+}
+.premium-mode-switch {
+  display: flex;
+  gap: 6px;
+  padding: 4px;
+  margin-bottom: 14px;
+  background: #f3edf5;
+  border-radius: 999px;
+}
+.premium-mode-switch__btn {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #7b2d8b;
+  cursor: pointer;
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+.premium-mode-switch__btn--active {
+  background: #fff;
+  color: #ab4dbb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.premium-level-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.premium-level-tabs--sticky {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: #fff;
+  padding: 6px 0 10px;
+  margin-bottom: 8px;
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.95);
+}
+.premium-level-tab {
+  border: none;
+  background: #e8d4ef;
+  color: #7b2d8b;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 10px 8px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+.premium-level-tab--active {
+  background: #ab4dbb;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(171, 77, 187, 0.35);
+}
+.premium-random-start {
+  text-align: center;
+  padding: 8px 0 4px;
+}
+.premium-random-start__hint {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #7b2d8b;
+  line-height: 1.4;
+}
+.premium-random-start__btn {
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+  background: #ab4dbb;
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(171, 77, 187, 0.35);
+  transition: transform 0.15s ease;
+}
+.premium-random-start__btn:active {
+  transform: scale(0.98);
+}
+.premium-dashboard {
+  margin-top: 8px;
+  text-align: left;
+}
+.premium-dashboard__cards {
+  max-width: none;
+  width: 100%;
+  margin-top: 0;
+}
+.premium-dashboard__cards .daily-goal,
+.premium-dashboard__cards .schwaechen-card,
+.premium-dashboard__cards .activity-calendar {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
 .landing-section--pricing .pricing-compare {
   max-width: 360px;
   margin-left: auto;

@@ -16,6 +16,7 @@ import Trainer from '@/views/Trainer.vue';
 import Premium from '@/views/Premium.vue';
 import Profile from '@/views/Profile.vue';
 import Legal from '@/views/Legal.vue';
+import { usePremium } from '@/composables/usePremium.js';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -35,6 +36,13 @@ const router = createRouter({
   scrollBehavior() {
     return { top: 0 };
   },
+});
+
+router.beforeEach((to) => {
+  if (to.name !== 'landing') return true;
+  const { isPremium } = usePremium();
+  if (isPremium.value) return { name: 'premium' };
+  return true;
 });
 
 export default router;

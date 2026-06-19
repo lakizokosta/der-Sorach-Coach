@@ -11,9 +11,10 @@
  *   - Optional trial block.
  *
  * When Premium IS active, this screen shows:
- *   - The streak / XP summary.
- *   - The four level cards plus the topic grid.
- *   - A topic count badge per topic (read from the sample bank).
+ *   - Hero CTA, streak / XP summary.
+ *   - One level picker with random vs topic mode.
+ *   - Topic grid with sticky level tabs.
+ *   - Daily goal, Schwächen-Modus, activity calendar.
  */
 
 import { computed, onMounted, ref, watch } from 'vue';
@@ -24,6 +25,9 @@ import LzdLogo from '@/components/LzdLogo.vue';
 import LoginPanel from '@/components/LoginPanel.vue';
 import ConversionSheet from '@/components/ConversionSheet.vue';
 import PaymentButtonLabel from '@/components/PaymentButtonLabel.vue';
+import DailyGoalCard from '@/components/DailyGoalCard.vue';
+import SchwaechenCard from '@/components/SchwaechenCard.vue';
+import ActivityCalendar from '@/components/ActivityCalendar.vue';
 
 import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
 import { getQuestionsByTopic } from '@/data/questions.js';
@@ -32,6 +36,7 @@ import { useStreak } from '@/composables/useStreak.js';
 import { useXp, getLevel } from '@/composables/useXp.js';
 import { isTopicMastered } from '@/composables/useXp.js';
 import { useAuth } from '@/composables/useAuth.js';
+import { useCefrLevel } from '@/composables/useCefrLevel.js';
 import { loadString, saveString } from '@/composables/useStorage.js';
 import {
   PRICES_EUR,
@@ -50,16 +55,19 @@ import { useI18n } from '@/i18n/index.js';
 const router = useRouter();
 const { t } = useI18n();
 const route = useRoute();
-const { isPremium, isBasis, activateCode, clearPremium, clearBasis } = usePremium();
+const { isPremium, isBasis, activateCode } = usePremium();
 const { state: streak, medalsFor } = useStreak();
 const { state: xp, level: liveLevel } = useXp();
 const { state: auth, isLoggedIn, logout } = useAuth();
+const { level: cefrLevel } = useCefrLevel();
 
 const USER_EMAIL_KEY = 'userEmail';
+const PREMIUM_LEVELS = ['A1', 'A2', 'B1', 'B2'];
 const PENDING_CODE_KEY = 'pendingActivationCode';
 const backendOn = hasBackend();
 
 const activeLevel = ref('A1');
+const trainingMode = ref('random');
 const code = ref('');
 /** E-mail for Stripe / PayPal checkout (no login required). */
 const buyEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
@@ -77,6 +85,13 @@ const showTopicCatalog = computed(() => isPremium.value || isHubMode.value);
 const topics = computed(() => getTopicsForLevel(activeLevel.value));
 
 const conversionSheetOpen = ref(false);
+
+const continueLevel = computed(() => cefrLevel.value || activeLevel.value);
+const continueLabel = computed(() =>
+  cefrLevel.value
+    ? t('landing.premiumContinue', { level: cefrLevel.value })
+    : t('landing.premiumContinueDefault'),
+);
 
 /** E-mail used for checkout, trial, and payment pre-fill. */
 const emailForCheckout = computed(() =>
@@ -143,8 +158,10 @@ function clearPendingCode() {
 onMounted(() => {
   loadPendingCode();
   const lvl = route.query.level;
-  if (lvl && ['A1', 'A2', 'B1', 'B2'].includes(String(lvl))) {
+  if (lvl && PREMIUM_LEVELS.includes(String(lvl))) {
     activeLevel.value = String(lvl);
+  } else if (cefrLevel.value && PREMIUM_LEVELS.includes(cefrLevel.value)) {
+    activeLevel.value = cefrLevel.value;
   }
   if (route.query.plan === '3months') plan.value = '3months';
   else if (route.query.hub === '1' && !isPremium.value) plan.value = '3months';
@@ -372,13 +389,6 @@ async function submitTrial() {
   }
 }
 
-/** Removes Premium / Basis activation. */
-function deactivate() {
-  clearPremium();
-  clearBasis();
-  status.value = { text: t('premium.deactivated'), color: '#888' };
-}
-
 /** Logs the user out (clears the 7-day Magic-Link session). */
 function signOut() {
   logout();
@@ -399,6 +409,19 @@ function trainTopic(topicKey) {
   };
   if (isHubMode.value) query.returnTo = 'hub';
   router.push({ name: 'trainer', query });
+}
+
+/** Random mixed training for one CEFR level (all topics). */
+function trainRandomLevel(lvl) {
+  if (!isPremium.value) return;
+  const query = { level: lvl, mode: 'premium' };
+  if (isHubMode.value) query.returnTo = 'hub';
+  router.push({ name: 'trainer', query });
+}
+
+/** Hero CTA — continue at detected CEFR level. */
+function continuePractice() {
+  trainRandomLevel(continueLevel.value);
 }
 
 /** Locked topic tap in hub mode — open quick checkout. */
@@ -862,6 +885,16 @@ function topicMastered(key) {
 
         <!-- UNLOCKED VIEW: streak + XP (Premium active only) -->
         <div v-else>
+          <div class="premium-hero-cta">
+            <button
+              type="button"
+              class="landing-premium-banner__btn"
+              @click="continuePractice"
+            >
+              {{ continueLabel }}
+            </button>
+          </div>
+
           <div
             style="
               background: linear-gradient(135deg, #f5f0f7 0%, #f9f9f9 100%);
@@ -971,16 +1004,123 @@ function topicMastered(key) {
               </div>
             </div>
           </div>
-
-          <div style="margin-top: 18px; text-align: center;">
-            <button class="soft-btn" type="button" @click="deactivate">
-              {{ t('premium.deactivateBtn') }}
-            </button>
-          </div>
         </div>
 
-        <!-- Topic catalog: hub preview (locked) or Premium training -->
-        <div v-if="showTopicCatalog" class="premium-topic-catalog">
+        <!-- Premium training: one level picker + random / topics mode -->
+        <section
+          v-if="isPremium"
+          class="premium-training"
+          :aria-label="t('premium.trainingAria')"
+        >
+          <div class="premium-mode-switch" role="tablist">
+            <button
+              type="button"
+              role="tab"
+              class="premium-mode-switch__btn"
+              :class="{ 'premium-mode-switch__btn--active': trainingMode === 'random' }"
+              :aria-selected="trainingMode === 'random'"
+              @click="trainingMode = 'random'"
+            >
+              {{ t('premium.modeRandom') }}
+            </button>
+            <button
+              type="button"
+              role="tab"
+              class="premium-mode-switch__btn"
+              :class="{ 'premium-mode-switch__btn--active': trainingMode === 'topics' }"
+              :aria-selected="trainingMode === 'topics'"
+              @click="trainingMode = 'topics'"
+            >
+              {{ t('premium.modeTopics') }}
+            </button>
+          </div>
+
+          <div
+            class="premium-level-tabs premium-level-tabs--sticky"
+            role="tablist"
+            :aria-label="t('premium.chooseLevel')"
+          >
+            <button
+              v-for="lvl in PREMIUM_LEVELS"
+              :key="lvl"
+              type="button"
+              role="tab"
+              class="premium-level-tab"
+              :class="{ 'premium-level-tab--active': activeLevel === lvl }"
+              :aria-selected="activeLevel === lvl"
+              @click="activeLevel = lvl"
+            >
+              {{ lvl }}
+            </button>
+          </div>
+
+          <div v-if="trainingMode === 'random'" class="premium-random-start">
+            <p class="premium-random-start__hint">{{ t('premium.randomTrainingHint') }}</p>
+            <button
+              type="button"
+              class="premium-random-start__btn"
+              @click="trainRandomLevel(activeLevel)"
+            >
+              {{ t('premium.startRandomLevel', { level: activeLevel }) }}
+            </button>
+          </div>
+
+          <div v-else class="topic-grid">
+            <button
+              v-for="topicItem in topics"
+              :key="topicItem.key"
+              type="button"
+              class="topic-btn"
+              @click="onTopicClick(topicItem.key)"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                  gap: 8px;
+                "
+              >
+                <div class="topic-name">
+                  {{ topicItem.name }}
+                  <span v-if="topicMastered(topicItem.key)" style="margin-left: 4px;">✅</span>
+                </div>
+                <div
+                  style="
+                    font-size: 11px;
+                    font-weight: 700;
+                    color: #AB4DBB;
+                    white-space: nowrap;
+                    padding: 2px 8px;
+                    background: #f3e8f9;
+                    border-radius: 20px;
+                  "
+                >
+                  {{ t('premium.questionsCount', { count: questionCount(topicItem.key) }) }}
+                </div>
+              </div>
+              <div class="topic-desc">{{ topicItem.desc }}</div>
+            </button>
+          </div>
+        </section>
+
+        <section
+          v-if="isPremium"
+          class="premium-dashboard landing-block"
+          :aria-label="t('landing.sectionDashboard')"
+        >
+          <div class="landing-divider" role="separator">
+            <span class="landing-divider__label">{{ t('landing.sectionDashboard') }}</span>
+          </div>
+          <div class="landing-progress premium-dashboard__cards">
+            <DailyGoalCard />
+            <SchwaechenCard />
+            <ActivityCalendar />
+          </div>
+        </section>
+
+        <!-- Hub topic preview (locked, non-Premium) -->
+        <div v-else-if="showTopicCatalog" class="premium-topic-catalog">
           <div class="premium-topic-catalog__head">
             <div style="font-weight: 900;">{{ t('premium.topicsHeading') }}</div>
             <p class="premium-topic-catalog__hint">
@@ -994,16 +1134,22 @@ function topicMastered(key) {
 
           <div style="margin-top: 12px;">
             <div style="font-weight: 900; margin-bottom: 10px;">{{ t('premium.chooseLevel') }}</div>
-            <div class="level-grid">
+            <div
+              class="premium-level-tabs premium-level-tabs--sticky"
+              role="tablist"
+              :aria-label="t('premium.chooseLevel')"
+            >
               <button
-                v-for="lvl in ['A1', 'A2', 'B1', 'B2']"
+                v-for="lvl in PREMIUM_LEVELS"
                 :key="lvl"
                 type="button"
-                class="level-card"
-                :class="{ active: activeLevel === lvl }"
+                role="tab"
+                class="premium-level-tab"
+                :class="{ 'premium-level-tab--active': activeLevel === lvl }"
+                :aria-selected="activeLevel === lvl"
                 @click="activeLevel = lvl"
               >
-                <div class="level-name">{{ lvl }}</div>
+                {{ lvl }}
               </button>
             </div>
           </div>
@@ -1058,9 +1204,11 @@ function topicMastered(key) {
           <LoginPanel />
         </div>
 
-        <div style="margin-top: 20px; text-align: center;">
+        <div
+          v-if="!isPremium && !isHubMode"
+          style="margin-top: 20px; text-align: center;"
+        >
           <button
-            v-if="!isHubMode"
             class="soft-btn"
             type="button"
             style="max-width: 200px; margin: 0 auto;"
