@@ -55,19 +55,20 @@ button:not(:disabled):not(.logo-wrap):not(.niveau-test-btn--inactive) {
 .logo-wrap:hover  { transform: scale(1.06); }
 .logo-wrap:active { transform: scale(0.96); }
 .lzd-logo {
-  width: 132px;
-  height: 132px;
+  width: 198px;
+  height: 198px;
   margin: 0 auto;
   display: block;
   filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.15));
 }
-.lzd-logo.small { width: 52px; height: 52px; }
+.lzd-logo.small { width: 78px; height: 78px; }
 
 /* ── Layout wrappers ────────────────────────────────────────────────────── */
 .app-shell {
   max-width: 720px;
   margin: 0 auto;
-  padding: calc(18px + var(--locale-switcher-clearance)) 18px 20px 18px;
+  padding: calc(16px + env(safe-area-inset-top, 0px) + var(--locale-switcher-clearance)) 18px
+    calc(20px + env(safe-area-inset-bottom, 0px)) 18px;
   min-height: 100vh;
 }
 .app-shell--landing {
@@ -1403,11 +1404,11 @@ button.lesen-gap-marker {
 
 /* ── UI language switcher (top bar) ─────────────────────────────────────── */
 :root {
-  --locale-switcher-clearance: 2.75rem;
+  --locale-switcher-clearance: 3.25rem;
 }
 .locale-switcher {
   position: fixed;
-  top: 8px;
+  top: max(8px, env(safe-area-inset-top, 0px));
   left: 50%;
   transform: translateX(-50%);
   z-index: 1001;
@@ -1465,6 +1466,14 @@ button.lesen-gap-marker {
 .locale-switcher__btn:focus-visible {
   outline: 2px solid #ab4dbb;
   outline-offset: 2px;
+}
+@media (max-width: 600px) {
+  :root {
+    --locale-switcher-clearance: 3.5rem;
+  }
+  .locale-switcher {
+    top: max(10px, env(safe-area-inset-top, 0px));
+  }
 }
 
 /* ── Contact modal & support button ─────────────────────────────────────── */
