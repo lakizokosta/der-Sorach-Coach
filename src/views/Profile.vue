@@ -146,7 +146,7 @@ function shareCard() {
           <button
             type="button"
             class="profile-free__upsell-btn"
-            @click="router.push({ name: 'premium' })"
+            @click="router.push({ name: 'premium', query: { hub: '1' } })"
           >
             Premium freischalten
           </button>

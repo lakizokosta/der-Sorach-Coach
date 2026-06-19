@@ -94,7 +94,7 @@ function handleStripeSuccess() {
   if (params.get(STRIPE_SUCCESS_PARAM) !== '1') return;
   stripParam(STRIPE_SUCCESS_PARAM);
   stripeBannerVisible.value = true;
-  setTimeout(() => router.push({ name: 'premium' }), 2000);
+  setTimeout(() => router.push({ name: 'premium', query: { hub: '1' } }), 2000);
 }
 
 /**
@@ -111,7 +111,7 @@ function handleActivateParam() {
   } catch {
     /* ignored */
   }
-  router.push({ name: 'premium' });
+  router.push({ name: 'premium', query: { hub: '1' } });
 }
 
 /**

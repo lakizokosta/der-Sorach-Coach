@@ -4058,3 +4058,73 @@ button.lesen-gap-marker {
   color: #888;
   cursor: pointer;
 }
+
+/* ── Premium Hub (`/premium?hub=1`) ── */
+.app-shell--premium-hub {
+  padding-top: 20px;
+}
+.premium-hub-back {
+  margin: 0 auto 12px;
+}
+.premium-hub-basis-banner {
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #f3e5f5;
+  border: 1.5px solid #ce93d8;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #6a1b9a;
+  text-align: center;
+}
+.premium-topic-catalog {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1.5px solid rgba(171, 77, 187, 0.15);
+  text-align: left;
+}
+.premium-topic-catalog__head {
+  text-align: center;
+  margin-bottom: 4px;
+}
+.premium-topic-catalog__hint {
+  margin: 6px 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #7b2d8b;
+  line-height: 1.4;
+}
+.premium-hub-login {
+  margin-top: 18px;
+  padding-top: 8px;
+  border-top: 1.5px solid rgba(171, 77, 187, 0.12);
+}
+.premium-hub-login .login-panel {
+  margin: 0;
+  max-width: none;
+}
+.topic-btn--locked {
+  background: #fafafa;
+  border-color: #e0c8f0;
+  cursor: pointer;
+}
+.topic-btn--locked .topic-desc {
+  color: #888;
+}
+.topic-btn__lock {
+  margin-left: 4px;
+  font-size: 12px;
+}
+.landing-more-btn--secondary {
+  margin-top: 10px;
+  font-size: 13px;
+  padding: 12px 16px;
+  color: #555;
+  border-color: #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.landing-more-btn--secondary:hover {
+  border-color: #c86dd7;
+  color: #7b2d8b;
+}

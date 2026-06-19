@@ -249,6 +249,11 @@ export default {
     chooseLevel: 'Niveau wählen',
     topicsHeading: 'Themen',
     deactivateBtn: 'Premium deaktivieren',
+    hubBack: '← Zurück zum Start',
+    hubTopicsHint: 'Themen-Vorschau — tippe zum Freischalten mit Premium.',
+    hubTopicsHintActive: 'Wähle ein Thema zum gezielten Üben.',
+    hubBasisBanner:
+      '⏱️ Basis aktiv — unbegrenzte Zeit. Themen-Training nur mit 💎 Premium.',
     magicLinkErr: 'Link konnte nicht gesendet werden.',
     magicLinkSent: '✔ Anmelde-Link an {email} gesendet.',
   },

@@ -21,6 +21,8 @@ import { useRoute, useRouter } from 'vue-router';
 
 import DeviceGuide from '@/components/DeviceGuide.vue';
 import LzdLogo from '@/components/LzdLogo.vue';
+import LoginPanel from '@/components/LoginPanel.vue';
+import ConversionSheet from '@/components/ConversionSheet.vue';
 import PaymentButtonLabel from '@/components/PaymentButtonLabel.vue';
 
 import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
@@ -69,7 +71,12 @@ const status = ref({ text: '', color: '#888' });
 const submitting = ref(false);
 
 const focusBasis = computed(() => route.query.focus === 'basis');
+/** Premium Hub — opened from Landing «Mehr: Tarife & Anmelden». */
+const isHubMode = computed(() => route.query.hub === '1');
+const showTopicCatalog = computed(() => isPremium.value || isHubMode.value);
 const topics = computed(() => getTopicsForLevel(activeLevel.value));
+
+const conversionSheetOpen = ref(false);
 
 /** E-mail used for checkout, trial, and payment pre-fill. */
 const emailForCheckout = computed(() =>
@@ -135,7 +142,22 @@ function clearPendingCode() {
 
 onMounted(() => {
   loadPendingCode();
+  const lvl = route.query.level;
+  if (lvl && ['A1', 'A2', 'B1', 'B2'].includes(String(lvl))) {
+    activeLevel.value = String(lvl);
+  }
+  if (route.query.plan === '3months') plan.value = '3months';
+  else if (route.query.hub === '1' && !isPremium.value) plan.value = '3months';
 });
+
+watch(
+  () => route.query.level,
+  (lvl) => {
+    if (lvl && ['A1', 'A2', 'B1', 'B2'].includes(String(lvl))) {
+      activeLevel.value = String(lvl);
+    }
+  },
+);
 
 /**
  * Validates the buy form (email + AGB checkbox).
@@ -370,10 +392,30 @@ function signOut() {
  */
 function trainTopic(topicKey) {
   if (!isPremium.value) return;
-  router.push({
-    name: 'trainer',
-    query: { level: activeLevel.value, topic: topicKey, mode: 'premium' },
-  });
+  const query = {
+    level: activeLevel.value,
+    topic: topicKey,
+    mode: 'premium',
+  };
+  if (isHubMode.value) query.returnTo = 'hub';
+  router.push({ name: 'trainer', query });
+}
+
+/** Locked topic tap in hub mode — open quick checkout. */
+function onTopicClick(_topicKey) {
+  if (isPremium.value) {
+    trainTopic(_topicKey);
+    return;
+  }
+  conversionSheetOpen.value = true;
+}
+
+function goPremiumBack() {
+  if (isHubMode.value) {
+    router.push({ name: 'landing' });
+    return;
+  }
+  router.push({ name: 'landing' });
 }
 
 /** Returns true when the topic has been mastered (50+ correct). */
@@ -383,8 +425,18 @@ function topicMastered(key) {
 </script>
 
 <template>
-  <div class="app-shell">
+  <div class="app-shell" :class="{ 'app-shell--premium-hub': isHubMode }">
     <LzdLogo small />
+
+    <button
+      v-if="isHubMode"
+      type="button"
+      class="premium-hub-back landing-back-btn"
+      @click="goPremiumBack"
+    >
+      {{ t('premium.hubBack') }}
+    </button>
+
     <section class="section">
       <div class="card premium-card">
         <header
@@ -422,6 +474,14 @@ function topicMastered(key) {
             {{ isPremium ? t('premium.statusActive') : t('premium.statusInactive') }}
           </div>
         </header>
+
+        <div
+          v-if="isHubMode && isBasis && !isPremium"
+          class="premium-hub-basis-banner"
+          role="status"
+        >
+          {{ t('premium.hubBasisBanner') }}
+        </div>
 
         <!-- LOCKED VIEW: activation + price block -->
         <div v-if="!isPremium" style="text-align: left;">
@@ -800,7 +860,7 @@ function topicMastered(key) {
           </details>
         </div>
 
-        <!-- UNLOCKED VIEW: streak, XP, levels, topics -->
+        <!-- UNLOCKED VIEW: streak + XP (Premium active only) -->
         <div v-else>
           <div
             style="
@@ -912,7 +972,27 @@ function topicMastered(key) {
             </div>
           </div>
 
-          <div style="margin-top: 18px;">
+          <div style="margin-top: 18px; text-align: center;">
+            <button class="soft-btn" type="button" @click="deactivate">
+              {{ t('premium.deactivateBtn') }}
+            </button>
+          </div>
+        </div>
+
+        <!-- Topic catalog: hub preview (locked) or Premium training -->
+        <div v-if="showTopicCatalog" class="premium-topic-catalog">
+          <div class="premium-topic-catalog__head">
+            <div style="font-weight: 900;">{{ t('premium.topicsHeading') }}</div>
+            <p class="premium-topic-catalog__hint">
+              {{
+                isPremium
+                  ? t('premium.hubTopicsHintActive')
+                  : t('premium.hubTopicsHint')
+              }}
+            </p>
+          </div>
+
+          <div style="margin-top: 12px;">
             <div style="font-weight: 900; margin-bottom: 10px;">{{ t('premium.chooseLevel') }}</div>
             <div class="level-grid">
               <button
@@ -928,65 +1008,74 @@ function topicMastered(key) {
             </div>
           </div>
 
-          <div style="margin-top: 18px;">
-            <div style="font-weight: 900; margin-bottom: 10px;">{{ t('premium.topicsHeading') }}</div>
-            <div class="topic-grid">
-              <button
-                v-for="topicItem in topics"
-                :key="topicItem.key"
-                type="button"
-                class="topic-btn"
-                @click="trainTopic(topicItem.key)"
+          <div class="topic-grid">
+            <button
+              v-for="topicItem in topics"
+              :key="topicItem.key"
+              type="button"
+              class="topic-btn"
+              :class="{ 'topic-btn--locked': !isPremium }"
+              @click="onTopicClick(topicItem.key)"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                  gap: 8px;
+                "
               >
+                <div class="topic-name">
+                  {{ topicItem.name }}
+                  <span v-if="isPremium && topicMastered(topicItem.key)" style="margin-left: 4px;">✅</span>
+                  <span v-if="!isPremium" class="topic-btn__lock">💎</span>
+                </div>
                 <div
                   style="
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: flex-start;
-                    gap: 8px;
+                    font-size: 11px;
+                    font-weight: 700;
+                    color: #AB4DBB;
+                    white-space: nowrap;
+                    padding: 2px 8px;
+                    background: #f3e8f9;
+                    border-radius: 20px;
                   "
                 >
-                  <div class="topic-name">
-                    {{ topicItem.name }}
-                    <span v-if="topicMastered(topicItem.key)" style="margin-left: 4px;">✅</span>
-                  </div>
-                  <div
-                    style="
-                      font-size: 11px;
-                      font-weight: 700;
-                      color: #AB4DBB;
-                      white-space: nowrap;
-                      padding: 2px 8px;
-                      background: #f3e8f9;
-                      border-radius: 20px;
-                    "
-                  >
-                    {{ t('premium.questionsCount', { count: questionCount(topicItem.key) }) }}
-                  </div>
+                  {{ t('premium.questionsCount', { count: questionCount(topicItem.key) }) }}
                 </div>
-                <div class="topic-desc">{{ topicItem.desc }}</div>
-              </button>
-            </div>
-          </div>
-
-          <div style="margin-top: 18px; text-align: center;">
-            <button class="soft-btn" type="button" @click="deactivate">
-              {{ t('premium.deactivateBtn') }}
+              </div>
+              <div class="topic-desc">{{ topicItem.desc }}</div>
             </button>
           </div>
         </div>
 
+        <div
+          v-if="isHubMode && backendOn && !isLoggedIn && !isPremium"
+          class="premium-hub-login landing-block"
+        >
+          <h2 class="landing-login-head">{{ t('landing.sectionLoginOnly') }}</h2>
+          <p class="landing-login-head__hint">{{ t('landing.sectionLoginOnlyHint') }}</p>
+          <LoginPanel />
+        </div>
+
         <div style="margin-top: 20px; text-align: center;">
           <button
+            v-if="!isHubMode"
             class="soft-btn"
             type="button"
             style="max-width: 200px; margin: 0 auto;"
-            @click="router.push({ name: 'landing' })"
+            @click="goPremiumBack"
           >
             {{ t('premium.back') }}
           </button>
         </div>
       </div>
     </section>
+
+    <ConversionSheet
+      v-model="conversionSheetOpen"
+      variant="checkout"
+      plan="3months"
+    />
   </div>
 </template>

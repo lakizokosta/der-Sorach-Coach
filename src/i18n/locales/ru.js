@@ -246,6 +246,11 @@ export default {
     chooseLevel: 'Выбери уровень',
     topicsHeading: 'Темы',
     deactivateBtn: 'Деактивировать Premium',
+    hubBack: '← Назад к старту',
+    hubTopicsHint: 'Превью тем — нажми, чтобы открыть с Premium.',
+    hubTopicsHintActive: 'Выбери тему для тренировки.',
+    hubBasisBanner:
+      '⏱️ Basis активен — без лимита времени. Темы только с 💎 Premium.',
     magicLinkErr: 'Не удалось отправить ссылку.',
     magicLinkSent: '✔ Ссылка для входа отправлена на {email}.',
   },

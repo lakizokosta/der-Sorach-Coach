@@ -271,7 +271,7 @@ function collectBonusLines(wasCorrect) {
 /** Loads the queue, restores any free-session timer, kicks things off. */
 onMounted(() => {
   if ((schwaechenMode || placementMode) && !isPremium.value) {
-    router.replace({ name: 'premium' });
+    router.replace({ name: 'premium', query: { hub: '1' } });
     return;
   }
 
@@ -522,6 +522,13 @@ function finish(reason) {
  * Re-routes after the session ends (back to landing or premium menu).
  */
 function exitSession() {
+  if (route.query.returnTo === 'hub') {
+    router.push({
+      name: 'premium',
+      query: { hub: '1', level: level.value },
+    });
+    return;
+  }
   if (placementMode || schwaechenMode) router.push({ name: 'landing' });
   else if (isPrem.value) router.push({ name: 'premium' });
   else router.push({ name: 'landing' });
@@ -580,7 +587,9 @@ function back() {
  * @param {string} key   Topic key.
  */
 function trainTopic(lvl, key) {
-  router.push({ name: 'trainer', query: { level: lvl, topic: key, mode: 'premium' } });
+  const query = { level: lvl, topic: key, mode: 'premium' };
+  if (route.query.returnTo === 'hub') query.returnTo = 'hub';
+  router.push({ name: 'trainer', query });
 }
 
 /**
@@ -635,7 +644,7 @@ function openFunnelCheckout(variant = 'checkout') {
 }
 
 function openBasisPage() {
-  router.push({ name: 'premium', query: { focus: 'basis' } });
+  router.push({ name: 'premium', query: { focus: 'basis', hub: '1' } });
 }
 
 watch(sessionStreak, (val) => {

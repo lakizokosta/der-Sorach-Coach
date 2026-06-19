@@ -246,6 +246,11 @@ export default {
     chooseLevel: 'Choose level',
     topicsHeading: 'Topics',
     deactivateBtn: 'Deactivate Premium',
+    hubBack: '← Back to start',
+    hubTopicsHint: 'Topic preview — tap to unlock with Premium.',
+    hubTopicsHintActive: 'Choose a topic to practise.',
+    hubBasisBanner:
+      '⏱️ Basis active — unlimited time. Topic training requires 💎 Premium.',
     magicLinkErr: 'Could not send link.',
     magicLinkSent: '✔ Login link sent to {email}.',
   },

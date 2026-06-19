@@ -95,7 +95,7 @@ function payBasisStripe() {
 
 function openFullPremium() {
   close();
-  router.push({ name: 'premium', query: { plan: props.plan } });
+  router.push({ name: 'premium', query: { hub: '1', plan: props.plan } });
 }
 </script>
 

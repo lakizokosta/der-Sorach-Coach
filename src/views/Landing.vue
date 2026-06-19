@@ -1,13 +1,12 @@
 <script setup>
 /**
- * Landing — the home screen.
+ * Landing — game-first home. Tarife & Login live on Premium Hub (`/premium?hub=1`).
  */
 
-import { computed, ref } from 'vue';
+import { computed } from 'vue';
 import { useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
-import LoginPanel from '@/components/LoginPanel.vue';
 import DailyGoalCard from '@/components/DailyGoalCard.vue';
 import BonusMissionsCard from '@/components/BonusMissionsCard.vue';
 import ActivityCalendar from '@/components/ActivityCalendar.vue';
@@ -18,12 +17,10 @@ import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { useCefrLevel } from '@/composables/useCefrLevel.js';
-import { hasBackend } from '@/utils/api.js';
 import { useI18n } from '@/i18n/index.js';
 
 const router = useRouter();
 const { t } = useI18n();
-const backendOn = hasBackend();
 
 const { isLoggedIn } = useAuth();
 const { state: streak } = useStreak();
@@ -64,64 +61,9 @@ const showProgressSection = computed(
     xp.totalXP > 0,
 );
 
-/**
- * Concept A: game-first landing. Login, pricing and CTAs stay hidden
- * until the user is logged in or taps «Mehr».
- */
-const showMore = ref(false);
-const showLandingExtras = computed(
-  () => isLoggedIn.value || showMore.value,
-);
 const showFreeBadge = computed(
   () => !isPremium.value && !isBasis.value,
 );
-
-const pricingCompareRows = computed(() => [
-  {
-    label: t('landing.pricing.noLimit'),
-    free: t('landing.pricing.freeLimit'),
-    basis: '✅',
-    premium: '✅',
-  },
-  { label: t('landing.pricing.levels'), free: '✅', basis: '✅', premium: '✅' },
-  { label: t('landing.pricing.streak'), free: '✅', basis: '✅', premium: '✅' },
-  {
-    label: t('landing.pricing.errorAnalysis'),
-    free: '❌',
-    basis: '✅',
-    premium: '✅',
-  },
-  {
-    label: t('landing.pricing.byTopic'),
-    free: '❌',
-    basis: '❌',
-    premium: '✅',
-  },
-  {
-    label: t('landing.pricing.placementTest'),
-    free: '❌',
-    basis: '❌',
-    premium: '✅',
-  },
-  {
-    label: t('landing.pricing.grammarTips'),
-    free: '❌',
-    basis: '❌',
-    premium: '✅',
-  },
-  {
-    label: t('landing.pricing.streakFreeze'),
-    free: '❌',
-    basis: '❌',
-    premium: '✅',
-  },
-  {
-    label: t('landing.pricing.dictionary'),
-    free: '❌',
-    basis: '❌',
-    premium: '✅',
-  },
-]);
 
 const subtitleLines = computed(() => t('landing.subtitle').split(' — '));
 
@@ -133,29 +75,20 @@ function continuePractice() {
   startTrainer(continueLevel.value);
 }
 
-function openPremium() {
-  router.push({ name: 'premium' });
+function openPremiumHub() {
+  router.push({ name: 'premium', query: { hub: '1' } });
 }
 
 function openProfile() {
   router.push({ name: 'profile' });
 }
 
-function payBasis() {
-  router.push({ name: 'premium', query: { focus: 'basis' } });
-}
-
 function onNiveauTestClick() {
   if (!isPremium.value) {
-    openPremium();
+    openPremiumHub();
     return;
   }
   router.push({ name: 'trainer', query: { mode: 'placement' } });
-}
-
-function collapseLandingExtras() {
-  showMore.value = false;
-  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 </script>
 
@@ -172,7 +105,7 @@ function collapseLandingExtras() {
       <p v-if="showFreeBadge" class="landing-free-badge">{{ t('landing.freeStart') }}</p>
 
       <div
-        v-if="showProgressSection && !showLandingExtras"
+        v-if="showProgressSection"
         class="landing-summary"
         v-html="summaryText"
       />
@@ -192,6 +125,14 @@ function collapseLandingExtras() {
         >
           {{ continueLabel }}
         </button>
+        <button
+          v-if="isPremium"
+          type="button"
+          class="landing-more-btn landing-more-btn--secondary"
+          @click="openPremiumHub"
+        >
+          {{ t('premium.topicsHeading') }} →
+        </button>
       </div>
 
       <div
@@ -205,6 +146,14 @@ function collapseLandingExtras() {
           @click="continuePractice"
         >
           {{ continueLabel }}
+        </button>
+        <button
+          v-if="isPremium"
+          type="button"
+          class="landing-more-btn landing-more-btn--secondary"
+          @click="openPremiumHub"
+        >
+          {{ t('premium.topicsHeading') }} →
         </button>
       </div>
 
@@ -250,20 +199,11 @@ function collapseLandingExtras() {
         <p class="landing-start-a1__hint">{{ t('landing.startA1Hint') }}</p>
 
         <button
-          v-if="!showLandingExtras"
           type="button"
           class="landing-more-btn"
-          @click="showMore = true"
+          @click="openPremiumHub"
         >
           {{ t('landing.moreBtn') }}
-        </button>
-        <button
-          v-else-if="showMore && !isLoggedIn"
-          type="button"
-          class="landing-back-btn"
-          @click="collapseLandingExtras"
-        >
-          {{ t('landing.moreBack') }}
         </button>
       </section>
 
@@ -275,12 +215,6 @@ function collapseLandingExtras() {
         <div class="landing-divider" role="separator">
           <span class="landing-divider__label">{{ t('landing.sectionDashboard') }}</span>
         </div>
-
-        <div
-          v-if="showLandingExtras && (streak.currentStreak > 0 || xp.totalXP > 0)"
-          class="landing-summary landing-summary--dashboard"
-          v-html="summaryText"
-        />
 
         <div v-if="isLoggedIn" class="landing-logged-in-actions">
           <button type="button" class="landing-profile-btn" @click="openProfile">
@@ -322,99 +256,6 @@ function collapseLandingExtras() {
           <ActivityCalendar />
         </div>
       </section>
-
-      <section
-        v-if="showLandingExtras && backendOn"
-        class="landing-section landing-section--login landing-block"
-        :aria-label="t('landing.sectionLoginOnly')"
-      >
-        <h2 class="landing-login-head">{{ t('landing.sectionLoginOnly') }}</h2>
-        <p class="landing-login-head__hint">{{ t('landing.sectionLoginOnlyHint') }}</p>
-        <LoginPanel prominent />
-      </section>
-
-      <section
-        v-if="showLandingExtras"
-        class="landing-section landing-section--pricing landing-block"
-        :aria-label="t('landing.sectionStart')"
-      >
-      <details class="pricing-compare">
-        <summary class="pricing-compare__summary">
-          <div class="pricing-compare__row">
-            <span class="pricing-compare__title">{{ t('landing.compareTitle') }}</span>
-            <span class="pricing-compare__count">{{ t('landing.compareCount') }}</span>
-          </div>
-
-          <div
-            class="pricing-compare__bar"
-            role="progressbar"
-            aria-valuenow="3"
-            aria-valuemin="0"
-            aria-valuemax="3"
-            :aria-label="t('landing.compareAria')"
-          >
-            <div class="pricing-compare__fill" style="width: 100%" />
-          </div>
-
-          <p class="pricing-compare__hint">{{ t('landing.compareHint') }}</p>
-        </summary>
-
-        <div class="pricing-compare__body">
-          <div class="pricing-compare__row pricing-compare__row--head">
-            <div class="pricing-compare__cell pricing-compare__cell--label"></div>
-            <div class="pricing-compare__cell pricing-compare__cell--tier pricing-compare__cell--muted">
-              {{ t('common.free') }}
-            </div>
-            <div class="pricing-compare__cell pricing-compare__cell--tier">⏱️ {{ t('common.basis') }}</div>
-            <div class="pricing-compare__cell pricing-compare__cell--tier pricing-compare__cell--premium">
-              💎 {{ t('common.premium') }}
-            </div>
-          </div>
-
-          <div
-            v-for="row in pricingCompareRows"
-            :key="row.label"
-            class="pricing-compare__row"
-          >
-            <div class="pricing-compare__cell pricing-compare__cell--label">{{ row.label }}</div>
-            <div class="pricing-compare__cell pricing-compare__cell--muted">{{ row.free }}</div>
-            <div class="pricing-compare__cell pricing-compare__cell--ok">{{ row.basis }}</div>
-            <div class="pricing-compare__cell pricing-compare__cell--ok pricing-compare__cell--premium">
-              {{ row.premium }}
-            </div>
-          </div>
-
-          <div class="pricing-compare__row pricing-compare__row--price">
-            <div class="pricing-compare__cell pricing-compare__cell--label">{{ t('common.price') }}</div>
-            <div class="pricing-compare__cell pricing-compare__cell--muted">{{ t('common.gratis') }}</div>
-            <div class="pricing-compare__cell pricing-compare__cell--price">
-              4,99€<span class="pricing-compare__sub">{{ t('common.once') }}</span>
-            </div>
-            <div class="pricing-compare__cell pricing-compare__cell--price pricing-compare__cell--premium">
-              19€<span class="pricing-compare__sub">{{ t('common.perMonth') }}</span>
-            </div>
-          </div>
-        </div>
-      </details>
-
-      <div class="landing-cta-stack">
-        <button type="button" class="level-card landing-cta-premium" @click="openPremium">
-          {{ isPremium ? t('landing.ctaMyPremium') : t('landing.ctaPremium') }}
-        </button>
-
-        <button
-          v-if="!isPremium && !isBasis"
-          type="button"
-          class="level-card landing-cta-basis"
-          @click="payBasis"
-        >
-          {{ t('landing.ctaBasis') }}
-        </button>
-        <div v-if="!isPremium && !isBasis" class="landing-cta-stack__note">
-          {{ t('landing.ctaNote') }}
-        </div>
-      </div>
-    </section>
     </div>
 
     <LegalFooter />
