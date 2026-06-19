@@ -625,17 +625,19 @@ function moveButtonFocus(direction) {
 
 /**
  * Global keyboard shortcuts for the active session:
- *   Enter  → Weiter (after the question is resolved)
+ *   Enter  → Weiter (after the question is resolved; not from gap-fill input)
  *   Arrows → move focus between buttons (Prüfen, Antworten, Weiter, …)
  */
 function onTrainerKeydown(ev) {
   if (finished.value || !currentQuestion.value) return;
 
   const active = document.activeElement;
-  const inOpenFillInput = active?.matches?.('input.fill-input:not([disabled])');
+  const fromFillInput =
+    ev.target?.matches?.('input.fill-input') ||
+    active?.matches?.('input.fill-input');
 
   if (ev.key === 'Enter') {
-    if (inOpenFillInput) return;
+    if (fromFillInput) return;
     if (canAdvance.value) {
       ev.preventDefault();
       next();

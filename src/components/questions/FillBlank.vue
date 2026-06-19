@@ -106,8 +106,8 @@ function insertChar(ch) {
 }
 
 /**
- * Keyboard handler — Enter checks the answer or advances when allowed
- * by the parent (the parent owns the Weiter button).
+ * Enter submits the answer only — never advances to the next question
+ * (Trainer ignores Enter while focus is in the gap-fill input).
  *
  * @param {KeyboardEvent} ev
  */
@@ -115,6 +115,7 @@ function onKeyDown(ev) {
   if (ev.key !== 'Enter') return;
   if (!checked.value) {
     ev.preventDefault();
+    ev.stopPropagation();
     check();
   }
 }
