@@ -4435,7 +4435,7 @@ button.lesen-gap-marker {
     box-shadow: 0 10px 28px rgba(99, 91, 255, 0.35);
   }
   .funnel-sheet__basis:hover {
-    box-shadow: 0 10px 24px rgba(255, 183, 0, 0.45);
+    box-shadow: 0 10px 28px rgba(171, 77, 187, 0.38);
   }
   .funnel-sheet__ghost:hover,
   .funnel-sheet__link:hover {
@@ -4474,12 +4474,12 @@ button.lesen-gap-marker {
   padding: 12px 14px;
   border: none;
   border-radius: 14px;
-  background: linear-gradient(135deg, #ffd700, #ffb700);
+  background: linear-gradient(135deg, #ab4dbb, #7b2d8b);
   font-size: 14px;
   font-weight: 900;
-  color: #000;
+  color: #fff;
   cursor: pointer;
-  box-shadow: 0 4px 15px rgba(255, 183, 0, 0.4);
+  box-shadow: 0 6px 20px rgba(171, 77, 187, 0.3);
 }
 .funnel-sheet__ghost,
 .funnel-sheet__link {
