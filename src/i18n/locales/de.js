@@ -90,6 +90,7 @@ export default {
     premiumActiveLoggedIn: '💎 Premium aktiv — viel Erfolg beim Üben!',
   },
   login: {
+    fabLabel: 'Anmelden',
     badgeHome: '🔑 Anmelden',
     badgeLogin: '🔑 Anmelden',
     loginTitle: 'Anmelden — Premium & Fortschritt',

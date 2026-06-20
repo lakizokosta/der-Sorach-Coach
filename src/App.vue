@@ -45,11 +45,12 @@ const showLoginFab = computed(
     <button
       v-if="showLoginFab"
       type="button"
-      class="app-fab app-fab--login app-fab--icon-only"
-      :aria-label="t('landing.sectionLoginOnly')"
+      class="app-fab app-fab--login"
+      :aria-label="t('login.fabLabel')"
       @click="showLogin = true"
     >
       <span class="app-fab__icon" aria-hidden="true">🔑</span>
+      <span class="app-fab__label">{{ t('login.fabLabel') }}</span>
     </button>
 
     <button

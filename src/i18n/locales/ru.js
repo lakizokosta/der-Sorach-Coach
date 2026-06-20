@@ -90,6 +90,7 @@ export default {
     premiumActiveLoggedIn: '💎 Premium активен — удачи!',
   },
   login: {
+    fabLabel: 'Вход',
     badgeHome: '🔑 Вход',
     badgeLogin: '🔑 Вход',
     loginTitle: 'Вход — Premium и прогресс',
