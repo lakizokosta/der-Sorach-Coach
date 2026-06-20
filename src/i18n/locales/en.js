@@ -55,7 +55,7 @@ export default {
     sectionNew: 'New here?',
     startA1Btn: '▶ Start A1 — free',
     startA1Hint: '7 minutes a day · no login needed',
-    moreBtn: 'More: plans & sign-in',
+    moreBtn: 'More: plans',
     moreBack: '← Back to start',
     otherLevels: 'Choose another level',
     progressEmpty: 'Your progress will appear here later.',

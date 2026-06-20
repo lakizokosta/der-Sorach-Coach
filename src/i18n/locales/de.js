@@ -55,7 +55,7 @@ export default {
     sectionNew: 'Neu hier?',
     startA1Btn: '▶ A1 starten — gratis',
     startA1Hint: '7 Minuten pro Tag · kein Login nötig',
-    moreBtn: 'Mehr: Tarife & Anmelden',
+    moreBtn: 'Mehr: Tarife',
     moreBack: '← Zurück zum Start',
     otherLevels: 'Anderes Niveau wählen',
     progressEmpty: 'Hier siehst du später deinen Fortschritt.',

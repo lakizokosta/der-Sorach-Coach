@@ -33,6 +33,8 @@
  * (and the leading code-fence-free Markdown structure) is trimmed.
  */
 
+import { applyInterrogativePunctuation } from './questionPunctuation.js';
+
 const FRONTMATTER_RE = /^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/;
 
 /**
@@ -296,5 +298,5 @@ export function parseQuestionFile(raw, context) {
       );
   }
 
-  return question;
+  return applyInterrogativePunctuation(question);
 }

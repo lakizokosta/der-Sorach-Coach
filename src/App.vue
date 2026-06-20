@@ -14,24 +14,22 @@ import LocaleSwitcher from '@/components/LocaleSwitcher.vue';
 import { useAuth } from '@/composables/useAuth.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { hasBackend } from '@/utils/api.js';
+import { useLoginModal } from '@/composables/useLoginModal.js';
 import { useI18n } from '@/i18n/index.js';
 
 const route = useRoute();
 const { isLoggedIn } = useAuth();
-const { isPremium } = usePremium();
+const { isPremium, isBasis } = usePremium();
 const { t } = useI18n();
 
 const showContact = ref(false);
-const showLogin = ref(false);
+const { showLogin, openLogin, closeLogin } = useLoginModal();
 
-const showLoginFab = computed(
-  () =>
-    hasBackend() &&
-    route.name === 'premium' &&
-    route.query.hub === '1' &&
-    !isLoggedIn.value &&
-    !isPremium.value,
-);
+const showLoginFab = computed(() => {
+  if (!hasBackend() || isLoggedIn.value || isPremium.value) return false;
+  if (route.name === 'landing') return !isBasis.value;
+  return route.name === 'premium' && route.query.hub === '1';
+});
 </script>
 
 <template>
@@ -47,7 +45,7 @@ const showLoginFab = computed(
       type="button"
       class="app-fab app-fab--login"
       :aria-label="t('login.fabLabel')"
-      @click="showLogin = true"
+      @click="openLogin"
     >
       <span class="app-fab__icon" aria-hidden="true">🔑</span>
       <span class="app-fab__label">{{ t('login.fabLabel') }}</span>
@@ -64,6 +62,6 @@ const showLoginFab = computed(
     </button>
   </div>
 
-  <LoginModal v-if="showLogin" @close="showLogin = false" />
+  <LoginModal v-if="showLogin" @close="closeLogin" />
   <ContactModal v-if="showContact" @close="showContact = false" />
 </template>

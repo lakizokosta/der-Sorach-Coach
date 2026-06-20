@@ -55,7 +55,7 @@ export default {
     sectionNew: 'Впервые здесь?',
     startA1Btn: '▶ Начать с A1 — бесплатно',
     startA1Hint: '7 минут в день · вход не нужен',
-    moreBtn: 'Ещё: тарифы и вход',
+    moreBtn: 'Ещё: тарифы',
     moreBack: '← Назад к старту',
     otherLevels: 'Другой уровень',
     progressEmpty: 'Здесь позже будет твой прогресс.',
