@@ -4797,6 +4797,9 @@ button.lesen-gap-marker {
 .premium-hub-back {
   margin: 0 auto 12px;
 }
+.premium-hub-pricing-compare {
+  margin-bottom: 16px;
+}
 .premium-hub-basis-banner {
   margin: 0 0 16px;
   padding: 12px 14px;

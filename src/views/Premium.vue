@@ -28,6 +28,7 @@ import DailyGoalCard from '@/components/DailyGoalCard.vue';
 import SchwaechenCard from '@/components/SchwaechenCard.vue';
 import ActivityCalendar from '@/components/ActivityCalendar.vue';
 import NiveauTestBlock from '@/components/NiveauTestBlock.vue';
+import PricingCompare from '@/components/PricingCompare.vue';
 
 import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
 import { getQuestionsByTopic } from '@/data/questions.js';
@@ -514,6 +515,8 @@ function topicMastered(key) {
 
         <!-- LOCKED VIEW: activation + price block -->
         <div v-if="!isPremium" style="text-align: left;">
+          <PricingCompare class="premium-hub-pricing-compare" />
+
           <div v-if="focusBasis" class="premium-basis-card">
             <div class="premium-basis-card__title">
               {{ t('premium.basisTitle', { price: basisPriceLabel }) }}
