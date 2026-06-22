@@ -168,6 +168,11 @@ function openProfile() {
         class="landing-section landing-section--levels landing-block"
         :aria-label="t('landing.sectionStart')"
       >
+        <div class="landing-level-pick">
+          <h2 class="landing-level-pick__title">{{ t('landing.levelPickTitle') }}</h2>
+          <p class="landing-level-pick__hint">{{ t('landing.startA1Hint') }}</p>
+        </div>
+
         <div class="level-grid level-grid--landing">
           <button
             type="button"
@@ -202,8 +207,6 @@ function openProfile() {
             <div class="level-desc">{{ t('landing.levelB2') }}</div>
           </button>
         </div>
-
-        <p class="landing-start-a1__hint">{{ t('landing.startA1Hint') }}</p>
 
         <NiveauTestBlock @locked="onNiveauLocked" />
 

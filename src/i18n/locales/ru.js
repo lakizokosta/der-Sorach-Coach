@@ -54,6 +54,7 @@ export default {
     profileBtn: '🏅 Мой профиль',
     sectionNew: 'Впервые здесь?',
     startA1Btn: '▶ Начать с A1 — бесплатно',
+    levelPickTitle: 'Выбери свой уровень',
     startA1Hint: '7 минут в день · вход не нужен',
     moreBtn: 'Ещё: тарифы',
     moreBack: '← Назад к старту',

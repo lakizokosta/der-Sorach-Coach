@@ -54,6 +54,7 @@ export default {
     profileBtn: '🏅 My profile',
     sectionNew: 'New here?',
     startA1Btn: '▶ Start A1 — free',
+    levelPickTitle: 'Choose your level',
     startA1Hint: '7 minutes a day · no login needed',
     moreBtn: 'More: plans',
     moreBack: '← Back to start',

@@ -54,6 +54,7 @@ export default {
     profileBtn: '🏅 Mein Profil',
     sectionNew: 'Neu hier?',
     startA1Btn: '▶ A1 starten — gratis',
+    levelPickTitle: 'Wähle dein Niveau',
     startA1Hint: '7 Minuten pro Tag · kein Login nötig',
     moreBtn: 'Mehr: Tarife',
     moreBack: '← Zurück zum Start',
