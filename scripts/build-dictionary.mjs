@@ -27,7 +27,10 @@ const QROOT = join(ROOT, 'src', 'questions');
 const SEED_PATH = join(ROOT, 'src', 'data', 'vocabulary-seed.json');
 
 const fetchTranslations = process.argv.includes('--fetch-translations');
+const fetchLimitArg = process.argv.find((a) => a.startsWith('--fetch-limit='));
+const fetchLimit = fetchLimitArg ? Number(fetchLimitArg.split('=')[1]) : 0;
 const MEMORY_URL = 'https://api.mymemory.translated.net/get';
+const VOCAB_PATH = join(ROOT, 'src', 'data', 'vocabulary.json');
 
 const TOKEN_RE = /[A-Za-zÄÖÜäöüß]+/g;
 
@@ -115,6 +118,24 @@ function bumpLemma(lemma, pos, n = 1) {
   vocab.set(key, row);
 }
 
+/** Load existing RU/EN when re-fetching (resume / partial runs). */
+function mergeExistingVocabulary() {
+  if (!existsSync(VOCAB_PATH)) return;
+  try {
+    const existing = JSON.parse(readFileSync(VOCAB_PATH, 'utf8'));
+    for (const [lemma, entry] of Object.entries(existing)) {
+      if (shouldSkipToken(lemma)) continue;
+      const row = vocab.get(lemma) || { pos: entry.pos || 'noun', freq: 0 };
+      if (entry.ru) row.ru = cleanFetchedTranslation(entry.ru);
+      if (entry.en) row.en = cleanFetchedTranslation(entry.en);
+      if (entry.gender) row.gender = entry.gender;
+      vocab.set(lemma, row);
+    }
+  } catch {
+    /* ignored */
+  }
+}
+
 for (const file of walk(QROOT)) {
   const rel = relative(QROOT, file);
   const [level, topic] = rel.split(/[\\/]/);
@@ -163,7 +184,18 @@ for (const file of walk(QROOT)) {
   }
 }
 
-// Merge manual seed translations / entries
+function cleanFetchedTranslation(raw) {
+  const t = String(raw || '').replace(/[\r\n]+/g, ' ').trim();
+  if (!t) return '';
+  if (/MYMEMORY WARNING/i.test(t)) return '';
+  if (t.toLowerCase() === 'undefined') return '';
+  return t;
+}
+
+// Merge existing vocabulary (resume / prior fetch) before seed overrides.
+mergeExistingVocabulary();
+
+// Manual seed translations always win over fetched drafts.
 if (existsSync(SEED_PATH)) {
   const seed = JSON.parse(readFileSync(SEED_PATH, 'utf8'));
   for (const [lemma, entry] of Object.entries(seed)) {
@@ -180,62 +212,80 @@ if (existsSync(SEED_PATH)) {
 async function fetchTranslation(word, lang) {
   const langpair = lang === 'en' ? 'de|en' : 'de|ru';
   const url = `${MEMORY_URL}?q=${encodeURIComponent(word)}&langpair=${langpair}`;
-  const res = await fetch(url);
-  const data = await res.json();
-  const raw = data?.responseData?.translatedText || '';
-  const t = raw.replace(/[\r\n]+/g, ' ').trim();
-  if (!t || t.toLowerCase() === word.toLowerCase()) return '';
-  return t;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+      const raw = data?.responseData?.translatedText || '';
+      const t = raw.replace(/[\r\n]+/g, ' ').trim();
+      if (!t || t.toLowerCase() === word.toLowerCase()) return '';
+      return cleanFetchedTranslation(t);
+    } catch {
+      await new Promise((r) => setTimeout(r, 500 * (attempt + 1)));
+    }
+  }
+  return '';
+}
+
+function writeVocabularyOutputs() {
+  /** @type {Record<string, { pos: string, ru?: string, en?: string, gender?: string }>} */
+  const vocabularyOut = {};
+  for (const [lemma, row] of [...vocab.entries()].sort((a, b) => b[1].freq - a[1].freq)) {
+    const ru = cleanFetchedTranslation(row.ru);
+    const en = cleanFetchedTranslation(row.en);
+    vocabularyOut[lemma] = {
+      pos: row.pos,
+      ...(ru ? { ru } : {}),
+      ...(en ? { en } : {}),
+      ...(row.gender ? { gender: row.gender } : {}),
+    };
+  }
+
+  writeFileSync(join(ROOT, 'src', 'data', 'verbLemmas.json'), JSON.stringify(verbLemmas, null, 0));
+  writeFileSync(join(ROOT, 'src', 'data', 'adjLemmas.json'), JSON.stringify(adjLemmas, null, 0));
+  writeFileSync(VOCAB_PATH, JSON.stringify(vocabularyOut, null, 2));
+
+  const csvLines = [
+    'lemma,pos,freq,ru,en,status',
+    ...[...vocab.entries()]
+      .sort((a, b) => b[1].freq - a[1].freq)
+      .map(([lemma, row]) => {
+        const ru = (row.ru || '').replace(/"/g, '""');
+        const en = (row.en || '').replace(/"/g, '""');
+        const status = row.ru && row.en ? 'done' : 'pending';
+        return `"${lemma}",${row.pos},${row.freq},"${ru}","${en}",${status}`;
+      }),
+  ];
+  writeFileSync(join(ROOT, 'docs', 'dictionary-wordlist.csv'), csvLines.join('\n'));
+  return vocabularyOut;
 }
 
 if (fetchTranslations) {
-  const entries = [...vocab.entries()].sort((a, b) => b[1].freq - a[1].freq);
+  let entries = [...vocab.entries()]
+    .filter(([, row]) => !row.ru || !row.en)
+    .sort((a, b) => b[1].freq - a[1].freq);
+  if (fetchLimit > 0) entries = entries.slice(0, fetchLimit);
+
   console.log(`Fetching draft translations for ${entries.length} lemmas…`);
   let i = 0;
   for (const [lemma, row] of entries) {
     i += 1;
-    if (i % 50 === 0) console.log(`  ${i}/${entries.length}…`);
+    if (i % 25 === 0) {
+      console.log(`  ${i}/${entries.length}…`);
+      writeVocabularyOutputs();
+    }
     if (!row.ru) {
       row.ru = await fetchTranslation(lemma, 'ru');
-      await new Promise((r) => setTimeout(r, 120));
+      await new Promise((r) => setTimeout(r, 100));
     }
     if (!row.en) {
       row.en = await fetchTranslation(lemma, 'en');
-      await new Promise((r) => setTimeout(r, 120));
+      await new Promise((r) => setTimeout(r, 100));
     }
   }
 }
 
-/** @type {Record<string, { pos: string, ru?: string, en?: string, gender?: string }>} */
-const vocabularyOut = {};
-for (const [lemma, row] of [...vocab.entries()].sort((a, b) => b[1].freq - a[1].freq)) {
-  vocabularyOut[lemma] = {
-    pos: row.pos,
-    ...(row.ru ? { ru: row.ru } : {}),
-    ...(row.en ? { en: row.en } : {}),
-    ...(row.gender ? { gender: row.gender } : {}),
-  };
-}
-
-writeFileSync(join(ROOT, 'src', 'data', 'verbLemmas.json'), JSON.stringify(verbLemmas, null, 0));
-writeFileSync(join(ROOT, 'src', 'data', 'adjLemmas.json'), JSON.stringify(adjLemmas, null, 0));
-writeFileSync(
-  join(ROOT, 'src', 'data', 'vocabulary.json'),
-  JSON.stringify(vocabularyOut, null, 2),
-);
-
-const csvLines = [
-  'lemma,pos,freq,ru,en,status',
-  ...[...vocab.entries()]
-    .sort((a, b) => b[1].freq - a[1].freq)
-    .map(([lemma, row]) => {
-      const ru = (row.ru || '').replace(/"/g, '""');
-      const en = (row.en || '').replace(/"/g, '""');
-      const status = row.ru && row.en ? 'done' : 'pending';
-      return `"${lemma}",${row.pos},${row.freq},"${ru}","${en}",${status}`;
-    }),
-];
-writeFileSync(join(ROOT, 'docs', 'dictionary-wordlist.csv'), csvLines.join('\n'));
+const vocabularyOut = writeVocabularyOutputs();
 
 console.log('\n📖 Dictionary build complete\n');
 console.log(`  Question files:     ${fileCount}`);

@@ -50,6 +50,7 @@
     "questions:audit-final": "node scripts/audit-final.mjs",
     "dictionary:build": "node scripts/build-dictionary.mjs",
     "dictionary:build:fetch": "node scripts/build-dictionary.mjs --fetch-translations",
+    "dictionary:build:fetch:top": "node scripts/build-dictionary.mjs --fetch-translations --fetch-limit=200",
     "backend:verify": "node scripts/verify-backend.mjs",
     "backend:check": "node scripts/check-backend-url.mjs"
   },

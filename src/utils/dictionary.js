@@ -54,8 +54,9 @@ export function getLocalTranslation(lemma, lang) {
   const entry = vocabulary[String(lemma || '').toLowerCase()];
   if (!entry) return null;
   if (lang === 'de') return null;
-  if (lang === 'en') return entry.en || null;
-  return entry.ru || null;
+  const raw = lang === 'en' ? entry.en : entry.ru;
+  if (!raw || /MYMEMORY WARNING/i.test(raw)) return null;
+  return raw;
 }
 
 /**

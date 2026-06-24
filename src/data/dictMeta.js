@@ -60,6 +60,14 @@ export const DICT_INTERNATIONALISMS = new Set([
   'café', 'restaurant', 'team', 'sport', 'online', 'email', 'ticket', 'film', 'foto',
 ]);
 
+/** Corpus artifacts / instruction fragments — not dictionary entries. */
+export const DICT_SKIP_LEMMAS = new Set([
+  'hause',       // «zu Hause» — not a standalone noun
+  'richtigen', 'richtige', 'richtig',
+  'ordne', 'wörter', 'worter',
+  'grammatikform', 'adjektivendung',
+]);
+
 /**
  * @param {string} word  Lowercase token.
  * @return {boolean}
@@ -73,6 +81,7 @@ export function isDictMetaSkipped(word) {
     DICT_CONTRACTIONS.has(w) ||
     DICT_CONJUNCTIONS.has(w) ||
     DICT_DEGREE_FORMS.has(w) ||
-    DICT_INTERNATIONALISMS.has(w)
+    DICT_INTERNATIONALISMS.has(w) ||
+    DICT_SKIP_LEMMAS.has(w)
   );
 }
