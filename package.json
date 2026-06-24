@@ -6,7 +6,7 @@
   "description": "Der SprachCoach — a Vue 3 rebuild of the German language learning trainer.",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run dictionary:build && vite build",
     "preview": "vite preview",
     "deploy": "vite build && wrangler deploy",
     "questions:verify": "node scripts/verify-questions.mjs",
@@ -48,6 +48,8 @@
     "questions:audit-dropbox": "node scripts/audit-dropbox-sentences.mjs",
     "questions:audit-informative": "node scripts/audit-input-text-informative.mjs",
     "questions:audit-final": "node scripts/audit-final.mjs",
+    "dictionary:build": "node scripts/build-dictionary.mjs",
+    "dictionary:build:fetch": "node scripts/build-dictionary.mjs --fetch-translations",
     "backend:verify": "node scripts/verify-backend.mjs",
     "backend:check": "node scripts/check-backend-url.mjs"
   },

@@ -1,0 +1,4785 @@
+{
+  "prüfung": {
+    "pos": "noun"
+  },
+  "hause": {
+    "pos": "noun"
+  },
+  "zug": {
+    "pos": "noun"
+  },
+  "zeit": {
+    "pos": "noun"
+  },
+  "projekt": {
+    "pos": "noun"
+  },
+  "arzt": {
+    "pos": "noun"
+  },
+  "wetter": {
+    "pos": "noun",
+    "ru": "погода",
+    "en": "weather",
+    "gender": "n"
+  },
+  "büro": {
+    "pos": "noun"
+  },
+  "stadt": {
+    "pos": "noun",
+    "ru": "город",
+    "en": "city",
+    "gender": "f"
+  },
+  "reise": {
+    "pos": "noun"
+  },
+  "buch": {
+    "pos": "noun",
+    "ru": "книга",
+    "en": "book",
+    "gender": "n"
+  },
+  "straße": {
+    "pos": "noun"
+  },
+  "kollegen": {
+    "pos": "noun"
+  },
+  "stelle": {
+    "pos": "noun"
+  },
+  "park": {
+    "pos": "noun"
+  },
+  "berlin": {
+    "pos": "noun"
+  },
+  "kurs": {
+    "pos": "noun"
+  },
+  "schule": {
+    "pos": "noun",
+    "ru": "школа",
+    "en": "school",
+    "gender": "f"
+  },
+  "firma": {
+    "pos": "noun"
+  },
+  "termin": {
+    "pos": "noun"
+  },
+  "medikament": {
+    "pos": "noun"
+  },
+  "gesetz": {
+    "pos": "noun"
+  },
+  "entscheidung": {
+    "pos": "noun"
+  },
+  "universität": {
+    "pos": "noun"
+  },
+  "politik": {
+    "pos": "noun"
+  },
+  "urlaub": {
+    "pos": "noun"
+  },
+  "interesse": {
+    "pos": "noun"
+  },
+  "bericht": {
+    "pos": "noun"
+  },
+  "kind": {
+    "pos": "noun",
+    "ru": "ребёнок",
+    "en": "child",
+    "gender": "n"
+  },
+  "tisch": {
+    "pos": "noun"
+  },
+  "arbeit": {
+    "pos": "noun"
+  },
+  "chef": {
+    "pos": "noun"
+  },
+  "hund": {
+    "pos": "noun"
+  },
+  "mutter": {
+    "pos": "noun",
+    "ru": "мать",
+    "en": "mother",
+    "gender": "f"
+  },
+  "wochenende": {
+    "pos": "noun"
+  },
+  "thema": {
+    "pos": "noun"
+  },
+  "essen": {
+    "pos": "noun"
+  },
+  "meeting": {
+    "pos": "noun"
+  },
+  "antwort": {
+    "pos": "noun"
+  },
+  "wohnung": {
+    "pos": "noun"
+  },
+  "tür": {
+    "pos": "noun"
+  },
+  "deutsch": {
+    "pos": "noun"
+  },
+  "wasser": {
+    "pos": "noun",
+    "ru": "вода",
+    "en": "water",
+    "gender": "n"
+  },
+  "zimmer": {
+    "pos": "noun"
+  },
+  "regelung": {
+    "pos": "noun"
+  },
+  "geschenk": {
+    "pos": "noun"
+  },
+  "meinung": {
+    "pos": "noun"
+  },
+  "fehler": {
+    "pos": "noun"
+  },
+  "ergebnisse": {
+    "pos": "noun"
+  },
+  "freund": {
+    "pos": "noun"
+  },
+  "minister": {
+    "pos": "noun"
+  },
+  "musik": {
+    "pos": "noun"
+  },
+  "gäste": {
+    "pos": "noun"
+  },
+  "wetters": {
+    "pos": "noun"
+  },
+  "bruder": {
+    "pos": "noun"
+  },
+  "plural": {
+    "pos": "noun"
+  },
+  "erfahrung": {
+    "pos": "noun"
+  },
+  "gegenteil": {
+    "pos": "noun"
+  },
+  "wechselpräp": {
+    "pos": "noun"
+  },
+  "satzstellung": {
+    "pos": "noun"
+  },
+  "reihenfolge": {
+    "pos": "noun"
+  },
+  "reisen": {
+    "pos": "noun"
+  },
+  "nachricht": {
+    "pos": "noun"
+  },
+  "professor": {
+    "pos": "noun"
+  },
+  "fahrrad": {
+    "pos": "noun"
+  },
+  "kinder": {
+    "pos": "noun"
+  },
+  "nachfrage": {
+    "pos": "noun"
+  },
+  "tee": {
+    "pos": "noun"
+  },
+  "fest": {
+    "pos": "noun"
+  },
+  "gründen": {
+    "pos": "noun"
+  },
+  "idee": {
+    "pos": "noun"
+  },
+  "familie": {
+    "pos": "noun"
+  },
+  "haus": {
+    "pos": "noun",
+    "ru": "дом",
+    "en": "house",
+    "gender": "n"
+  },
+  "konferenz": {
+    "pos": "noun"
+  },
+  "kaffee": {
+    "pos": "noun"
+  },
+  "verspätung": {
+    "pos": "noun"
+  },
+  "nachrichten": {
+    "pos": "noun"
+  },
+  "land": {
+    "pos": "noun"
+  },
+  "platz": {
+    "pos": "noun"
+  },
+  "mann": {
+    "pos": "noun"
+  },
+  "kollegin": {
+    "pos": "noun"
+  },
+  "zeitung": {
+    "pos": "noun"
+  },
+  "studierenden": {
+    "pos": "noun"
+  },
+  "grüßen": {
+    "pos": "noun"
+  },
+  "schwester": {
+    "pos": "noun"
+  },
+  "patienten": {
+    "pos": "noun"
+  },
+  "erfolg": {
+    "pos": "noun"
+  },
+  "vorlesung": {
+    "pos": "noun"
+  },
+  "bahnhof": {
+    "pos": "noun"
+  },
+  "hilfe": {
+    "pos": "noun"
+  },
+  "freundin": {
+    "pos": "noun"
+  },
+  "museum": {
+    "pos": "noun"
+  },
+  "caf": {
+    "pos": "noun"
+  },
+  "brücke": {
+    "pos": "noun"
+  },
+  "preise": {
+    "pos": "noun"
+  },
+  "wand": {
+    "pos": "noun"
+  },
+  "transport": {
+    "pos": "noun"
+  },
+  "krankenhaus": {
+    "pos": "noun"
+  },
+  "kunden": {
+    "pos": "noun"
+  },
+  "vertrag": {
+    "pos": "noun"
+  },
+  "frage": {
+    "pos": "noun"
+  },
+  "studiengang": {
+    "pos": "noun"
+  },
+  "kosten": {
+    "pos": "noun"
+  },
+  "patient": {
+    "pos": "noun"
+  },
+  "küche": {
+    "pos": "noun"
+  },
+  "geld": {
+    "pos": "noun"
+  },
+  "freunde": {
+    "pos": "noun"
+  },
+  "lust": {
+    "pos": "noun"
+  },
+  "eingang": {
+    "pos": "noun"
+  },
+  "studenten": {
+    "pos": "noun"
+  },
+  "lampe": {
+    "pos": "noun"
+  },
+  "fußball": {
+    "pos": "noun"
+  },
+  "stuhl": {
+    "pos": "noun"
+  },
+  "bild": {
+    "pos": "noun"
+  },
+  "unterrichts": {
+    "pos": "noun"
+  },
+  "angst": {
+    "pos": "noun"
+  },
+  "aufgabe": {
+    "pos": "noun"
+  },
+  "brot": {
+    "pos": "noun"
+  },
+  "frau": {
+    "pos": "noun"
+  },
+  "hamburg": {
+    "pos": "noun"
+  },
+  "ecke": {
+    "pos": "noun"
+  },
+  "teppich": {
+    "pos": "noun"
+  },
+  "formular": {
+    "pos": "noun"
+  },
+  "pizza": {
+    "pos": "noun"
+  },
+  "ärztin": {
+    "pos": "noun"
+  },
+  "supermarkt": {
+    "pos": "noun"
+  },
+  "italien": {
+    "pos": "noun"
+  },
+  "erkrankung": {
+    "pos": "noun"
+  },
+  "gebäude": {
+    "pos": "noun"
+  },
+  "hausaufgaben": {
+    "pos": "noun"
+  },
+  "mail": {
+    "pos": "noun"
+  },
+  "regens": {
+    "pos": "noun"
+  },
+  "licht": {
+    "pos": "noun"
+  },
+  "praktikum": {
+    "pos": "noun"
+  },
+  "freitag": {
+    "pos": "noun"
+  },
+  "jacke": {
+    "pos": "noun"
+  },
+  "lied": {
+    "pos": "noun"
+  },
+  "eltern": {
+    "pos": "noun"
+  },
+  "reisebüro": {
+    "pos": "noun"
+  },
+  "journalist": {
+    "pos": "noun"
+  },
+  "politiker": {
+    "pos": "noun"
+  },
+  "daten": {
+    "pos": "noun"
+  },
+  "sonne": {
+    "pos": "noun"
+  },
+  "fenster": {
+    "pos": "noun"
+  },
+  "schwimmbad": {
+    "pos": "noun"
+  },
+  "geschäft": {
+    "pos": "noun"
+  },
+  "kino": {
+    "pos": "noun"
+  },
+  "geburtstag": {
+    "pos": "noun"
+  },
+  "bewegung": {
+    "pos": "noun"
+  },
+  "regierung": {
+    "pos": "noun"
+  },
+  "mantel": {
+    "pos": "noun"
+  },
+  "sommer": {
+    "pos": "noun"
+  },
+  "pause": {
+    "pos": "noun"
+  },
+  "mosel": {
+    "pos": "noun"
+  },
+  "zukunft": {
+    "pos": "noun"
+  },
+  "abteilung": {
+    "pos": "noun"
+  },
+  "personalabteilung": {
+    "pos": "noun"
+  },
+  "+ präposition": {
+    "pos": "verb"
+  },
+  "tekamolo": {
+    "pos": "noun"
+  },
+  "schirm": {
+    "pos": "noun"
+  },
+  "weg": {
+    "pos": "noun"
+  },
+  "deutschland": {
+    "pos": "noun"
+  },
+  "ort": {
+    "pos": "noun"
+  },
+  "zuschauer": {
+    "pos": "noun"
+  },
+  "gespräch": {
+    "pos": "noun"
+  },
+  "wenngleich": {
+    "pos": "noun"
+  },
+  "süden": {
+    "pos": "noun"
+  },
+  "job": {
+    "pos": "noun"
+  },
+  "hunger": {
+    "pos": "noun"
+  },
+  "fleisch": {
+    "pos": "noun"
+  },
+  "ferien": {
+    "pos": "noun"
+  },
+  "verhandlungen": {
+    "pos": "noun"
+  },
+  "kollege": {
+    "pos": "noun"
+  },
+  "qualität": {
+    "pos": "noun"
+  },
+  "abend": {
+    "pos": "noun"
+  },
+  "tanzsport": {
+    "pos": "noun"
+  },
+  "geh": {
+    "pos": "noun"
+  },
+  "respekt": {
+    "pos": "noun"
+  },
+  "rechnung": {
+    "pos": "noun"
+  },
+  "aufgrund": {
+    "pos": "noun"
+  },
+  "obgleich": {
+    "pos": "noun"
+  },
+  "fragen": {
+    "pos": "verb"
+  },
+  "lärms": {
+    "pos": "noun"
+  },
+  "journalisten": {
+    "pos": "noun"
+  },
+  "hoffnung": {
+    "pos": "noun"
+  },
+  "nacht": {
+    "pos": "noun"
+  },
+  "stadtmitte": {
+    "pos": "noun"
+  },
+  "bewerbung": {
+    "pos": "noun"
+  },
+  "professorin": {
+    "pos": "noun"
+  },
+  "wirtschaft": {
+    "pos": "noun"
+  },
+  "überstunden": {
+    "pos": "noun"
+  },
+  "umwelt": {
+    "pos": "noun"
+  },
+  "ergebnis": {
+    "pos": "noun"
+  },
+  "damen": {
+    "pos": "noun"
+  },
+  "herren": {
+    "pos": "noun"
+  },
+  "krise": {
+    "pos": "noun"
+  },
+  "fahren": {
+    "pos": "verb"
+  },
+  "nachbarn": {
+    "pos": "noun"
+  },
+  "krankheit": {
+    "pos": "noun"
+  },
+  "sturms": {
+    "pos": "noun"
+  },
+  "apotheke": {
+    "pos": "noun"
+  },
+  "chefs": {
+    "pos": "noun"
+  },
+  "schmerzen": {
+    "pos": "noun"
+  },
+  "dennoch": {
+    "pos": "noun"
+  },
+  "veranstaltung": {
+    "pos": "noun"
+  },
+  "handy": {
+    "pos": "noun"
+  },
+  "wind": {
+    "pos": "noun"
+  },
+  "spiel": {
+    "pos": "noun"
+  },
+  "lehrer": {
+    "pos": "noun"
+  },
+  "klasse": {
+    "pos": "noun"
+  },
+  "ball": {
+    "pos": "noun"
+  },
+  "angebot": {
+    "pos": "noun"
+  },
+  "zoo": {
+    "pos": "noun"
+  },
+  "wien": {
+    "pos": "noun"
+  },
+  "schlüssel": {
+    "pos": "noun"
+  },
+  "kommst": {
+    "pos": "noun"
+  },
+  "hochzeit": {
+    "pos": "noun"
+  },
+  "post": {
+    "pos": "noun"
+  },
+  "tasche": {
+    "pos": "noun"
+  },
+  "garten": {
+    "pos": "noun"
+  },
+  "suppe": {
+    "pos": "noun"
+  },
+  "lösung": {
+    "pos": "noun"
+  },
+  "preises": {
+    "pos": "noun"
+  },
+  "bankschalter": {
+    "pos": "noun"
+  },
+  "tunnel": {
+    "pos": "noun"
+  },
+  "etage": {
+    "pos": "noun"
+  },
+  "freude": {
+    "pos": "noun"
+  },
+  "vertrauen": {
+    "pos": "noun"
+  },
+  "bedarf": {
+    "pos": "noun"
+  },
+  "zweifel": {
+    "pos": "noun"
+  },
+  "rücken": {
+    "pos": "noun"
+  },
+  "ausland": {
+    "pos": "noun"
+  },
+  "vorschlag": {
+    "pos": "noun"
+  },
+  "bürger": {
+    "pos": "noun"
+  },
+  "experten": {
+    "pos": "noun"
+  },
+  "klinik": {
+    "pos": "noun"
+  },
+  "bereich": {
+    "pos": "noun"
+  },
+  "rede": {
+    "pos": "noun"
+  },
+  "schreibtisch": {
+    "pos": "noun"
+  },
+  "meetings": {
+    "pos": "noun"
+  },
+  "salat": {
+    "pos": "noun"
+  },
+  "oma": {
+    "pos": "noun"
+  },
+  "straßen": {
+    "pos": "noun"
+  },
+  "stadtpark": {
+    "pos": "noun"
+  },
+  "lehrerin": {
+    "pos": "noun"
+  },
+  "unternehmen": {
+    "pos": "noun"
+  },
+  "markt": {
+    "pos": "noun"
+  },
+  "gitarre": {
+    "pos": "noun"
+  },
+  "brief": {
+    "pos": "noun"
+  },
+  "küste": {
+    "pos": "noun"
+  },
+  "gehen": {
+    "pos": "verb",
+    "ru": "идти",
+    "en": "to go"
+  },
+  "menschen": {
+    "pos": "noun"
+  },
+  "kritik": {
+    "pos": "noun"
+  },
+  "lage": {
+    "pos": "noun"
+  },
+  "autor": {
+    "pos": "noun"
+  },
+  "katze": {
+    "pos": "noun"
+  },
+  "bestimmter": {
+    "pos": "noun"
+  },
+  "unbestimmter": {
+    "pos": "noun"
+  },
+  "negationsartikel": {
+    "pos": "noun"
+  },
+  "regen": {
+    "pos": "noun"
+  },
+  "vorbereitung": {
+    "pos": "noun"
+  },
+  "interessierst": {
+    "pos": "noun"
+  },
+  "umweltschutz": {
+    "pos": "noun"
+  },
+  "heizung": {
+    "pos": "noun"
+  },
+  "patientin": {
+    "pos": "noun"
+  },
+  "chefin": {
+    "pos": "noun"
+  },
+  "ministers": {
+    "pos": "noun"
+  },
+  "partei": {
+    "pos": "noun"
+  },
+  "paket": {
+    "pos": "noun"
+  },
+  "reform": {
+    "pos": "noun"
+  },
+  "anstatt": {
+    "pos": "noun"
+  },
+  "labor": {
+    "pos": "noun"
+  },
+  "termins": {
+    "pos": "noun"
+  },
+  "sessel": {
+    "pos": "noun"
+  },
+  "messe": {
+    "pos": "noun"
+  },
+  "deadline": {
+    "pos": "noun"
+  },
+  "zeitgründen": {
+    "pos": "noun"
+  },
+  "selbststudium": {
+    "pos": "noun"
+  },
+  "projekts": {
+    "pos": "noun"
+  },
+  "hotelzimmer": {
+    "pos": "noun"
+  },
+  "turm": {
+    "pos": "noun"
+  },
+  "hobby": {
+    "pos": "noun"
+  },
+  "medizin": {
+    "pos": "noun"
+  },
+  "obst": {
+    "pos": "noun"
+  },
+  "einladung": {
+    "pos": "noun"
+  },
+  "nachbar": {
+    "pos": "noun"
+  },
+  "tickets": {
+    "pos": "noun"
+  },
+  "vaters": {
+    "pos": "noun"
+  },
+  "schaufenster": {
+    "pos": "noun"
+  },
+  "dank": {
+    "pos": "noun"
+  },
+  "unterlagen": {
+    "pos": "noun"
+  },
+  "antrag": {
+    "pos": "noun"
+  },
+  "konzert": {
+    "pos": "noun"
+  },
+  "flug": {
+    "pos": "noun"
+  },
+  "anna": {
+    "pos": "noun"
+  },
+  "teams": {
+    "pos": "noun"
+  },
+  "hauptstraße": {
+    "pos": "noun"
+  },
+  "herr": {
+    "pos": "noun"
+  },
+  "kindheit": {
+    "pos": "noun"
+  },
+  "ice": {
+    "pos": "noun"
+  },
+  "ruhe": {
+    "pos": "noun"
+  },
+  "eis": {
+    "pos": "noun"
+  },
+  "jahres": {
+    "pos": "noun"
+  },
+  "stellen": {
+    "pos": "noun"
+  },
+  "kandidaten": {
+    "pos": "noun"
+  },
+  "montag": {
+    "pos": "noun"
+  },
+  "ende": {
+    "pos": "noun"
+  },
+  "mandanten": {
+    "pos": "noun"
+  },
+  "laden": {
+    "pos": "noun"
+  },
+  "spaß": {
+    "pos": "noun"
+  },
+  "freunden": {
+    "pos": "noun"
+  },
+  "winter": {
+    "pos": "noun"
+  },
+  "bank": {
+    "pos": "noun"
+  },
+  "flasche": {
+    "pos": "noun"
+  },
+  "fahrt": {
+    "pos": "noun"
+  },
+  "berge": {
+    "pos": "noun"
+  },
+  "regal": {
+    "pos": "noun"
+  },
+  "panne": {
+    "pos": "noun"
+  },
+  "neues": {
+    "pos": "noun"
+  },
+  "brauchst": {
+    "pos": "noun"
+  },
+  "studentin": {
+    "pos": "noun"
+  },
+  "freundes": {
+    "pos": "noun"
+  },
+  "fall": {
+    "pos": "noun"
+  },
+  "klimakonferenz": {
+    "pos": "noun"
+  },
+  "energie": {
+    "pos": "noun"
+  },
+  "englisch": {
+    "pos": "noun"
+  },
+  "französisch": {
+    "pos": "noun"
+  },
+  "verkehr": {
+    "pos": "noun"
+  },
+  "arbeitsbedingungen": {
+    "pos": "noun"
+  },
+  "fachkräften": {
+    "pos": "noun"
+  },
+  "bewerbungen": {
+    "pos": "noun"
+  },
+  "flughafen": {
+    "pos": "noun"
+  },
+  "einarbeitung": {
+    "pos": "noun"
+  },
+  "firmenjubiläum": {
+    "pos": "noun"
+  },
+  "freust": {
+    "pos": "noun"
+  },
+  "sprichst": {
+    "pos": "noun"
+  },
+  "hoffst": {
+    "pos": "noun"
+  },
+  "zeiten": {
+    "pos": "noun"
+  },
+  "besprechung": {
+    "pos": "noun"
+  },
+  "warnung": {
+    "pos": "noun"
+  },
+  "debatte": {
+    "pos": "noun"
+  },
+  "sitzung": {
+    "pos": "noun"
+  },
+  "spezialisten": {
+    "pos": "noun"
+  },
+  "dokumente": {
+    "pos": "noun"
+  },
+  "haare": {
+    "pos": "noun"
+  },
+  "zähne": {
+    "pos": "noun"
+  },
+  "kontakt": {
+    "pos": "noun"
+  },
+  "arbeitsplätze": {
+    "pos": "noun"
+  },
+  "ereignisse": {
+    "pos": "noun"
+  },
+  "infolge": {
+    "pos": "noun"
+  },
+  "erwartungen": {
+    "pos": "noun"
+  },
+  "experte": {
+    "pos": "noun"
+  },
+  "regenschirm": {
+    "pos": "noun"
+  },
+  "gesundheit": {
+    "pos": "noun"
+  },
+  "kleidung": {
+    "pos": "noun"
+  },
+  "vater": {
+    "pos": "noun",
+    "ru": "отец",
+    "en": "father",
+    "gender": "m"
+  },
+  "blumen": {
+    "pos": "noun"
+  },
+  "problems": {
+    "pos": "noun"
+  },
+  "see": {
+    "pos": "noun"
+  },
+  "großeltern": {
+    "pos": "noun"
+  },
+  "nachbarin": {
+    "pos": "noun"
+  },
+  "kindes": {
+    "pos": "noun"
+  },
+  "medikamente": {
+    "pos": "noun"
+  },
+  "bescheid": {
+    "pos": "noun"
+  },
+  "anmeldung": {
+    "pos": "noun"
+  },
+  "verständnis": {
+    "pos": "noun"
+  },
+  "maschine": {
+    "pos": "noun"
+  },
+  "ausruhen": {
+    "pos": "noun"
+  },
+  "apfel": {
+    "pos": "noun"
+  },
+  "kindern": {
+    "pos": "noun"
+  },
+  "berg": {
+    "pos": "noun"
+  },
+  "hände": {
+    "pos": "noun"
+  },
+  "rat": {
+    "pos": "noun"
+  },
+  "spanien": {
+    "pos": "noun"
+  },
+  "leg": {
+    "pos": "noun"
+  },
+  "flugzeug": {
+    "pos": "noun"
+  },
+  "sommers": {
+    "pos": "noun"
+  },
+  "bahnhofsplatz": {
+    "pos": "noun"
+  },
+  "kunst": {
+    "pos": "noun"
+  },
+  "spinnen": {
+    "pos": "noun"
+  },
+  "lehrern": {
+    "pos": "noun"
+  },
+  "schülerin": {
+    "pos": "noun"
+  },
+  "decke": {
+    "pos": "noun"
+  },
+  "mitarbeiter": {
+    "pos": "noun"
+  },
+  "raum": {
+    "pos": "noun"
+  },
+  "stellung": {
+    "pos": "noun"
+  },
+  "kompromiss": {
+    "pos": "noun"
+  },
+  "wochen": {
+    "pos": "noun"
+  },
+  "leben": {
+    "pos": "noun"
+  },
+  "kleid": {
+    "pos": "noun"
+  },
+  "diskussion": {
+    "pos": "noun"
+  },
+  "euro": {
+    "pos": "noun"
+  },
+  "keller": {
+    "pos": "noun"
+  },
+  "podcast": {
+    "pos": "noun"
+  },
+  "lernst": {
+    "pos": "noun"
+  },
+  "witz": {
+    "pos": "noun"
+  },
+  "tages": {
+    "pos": "noun"
+  },
+  "kälte": {
+    "pos": "noun"
+  },
+  "müdigkeit": {
+    "pos": "noun"
+  },
+  "häusern": {
+    "pos": "noun"
+  },
+  "einkaufen": {
+    "pos": "noun"
+  },
+  "students": {
+    "pos": "noun"
+  },
+  "wagen": {
+    "pos": "noun"
+  },
+  "name": {
+    "pos": "noun"
+  },
+  "diskussionen": {
+    "pos": "noun"
+  },
+  "anspruch": {
+    "pos": "noun"
+  },
+  "belohnung": {
+    "pos": "noun"
+  },
+  "spiegel": {
+    "pos": "noun"
+  },
+  "mount": {
+    "pos": "noun"
+  },
+  "everest": {
+    "pos": "noun"
+  },
+  "spieler": {
+    "pos": "noun"
+  },
+  "essens": {
+    "pos": "noun"
+  },
+  "+ verb aufstehen": {
+    "pos": "verb"
+  },
+  "leiter": {
+    "pos": "noun"
+  },
+  "boden": {
+    "pos": "noun"
+  },
+  "politikerin": {
+    "pos": "noun"
+  },
+  "geräte": {
+    "pos": "noun"
+  },
+  "entwicklung": {
+    "pos": "noun"
+  },
+  "gegend": {
+    "pos": "noun"
+  },
+  "gepäck": {
+    "pos": "noun"
+  },
+  "ausstellung": {
+    "pos": "noun"
+  },
+  "energien": {
+    "pos": "noun"
+  },
+  "geschäftsreise": {
+    "pos": "noun"
+  },
+  "amt": {
+    "pos": "noun"
+  },
+  "interessen": {
+    "pos": "noun"
+  },
+  "reiseziel": {
+    "pos": "noun"
+  },
+  "fernsehen": {
+    "pos": "noun"
+  },
+  "personal": {
+    "pos": "noun"
+  },
+  "fachliteratur": {
+    "pos": "noun"
+  },
+  "zusammenfassung": {
+    "pos": "noun"
+  },
+  "tutorien": {
+    "pos": "noun"
+  },
+  "behandlung": {
+    "pos": "noun"
+  },
+  "halsweh": {
+    "pos": "noun"
+  },
+  "wartezimmer": {
+    "pos": "noun"
+  },
+  "ausflug": {
+    "pos": "noun"
+  },
+  "fluss": {
+    "pos": "noun"
+  },
+  "rathaus": {
+    "pos": "noun"
+  },
+  "gebäuden": {
+    "pos": "noun"
+  },
+  "wohnviertel": {
+    "pos": "noun"
+  },
+  "anteil": {
+    "pos": "noun"
+  },
+  "einfluss": {
+    "pos": "noun"
+  },
+  "hunden": {
+    "pos": "noun"
+  },
+  "apotheken": {
+    "pos": "noun"
+  },
+  "räumen": {
+    "pos": "noun"
+  },
+  "abfälle": {
+    "pos": "noun"
+  },
+  "einigung": {
+    "pos": "noun"
+  },
+  "professors": {
+    "pos": "noun"
+  },
+  "studiums": {
+    "pos": "noun"
+  },
+  "instinkt": {
+    "pos": "noun"
+  },
+  "ziel": {
+    "pos": "noun"
+  },
+  "erinnerst": {
+    "pos": "noun"
+  },
+  "wartest": {
+    "pos": "noun"
+  },
+  "kümmerst": {
+    "pos": "noun"
+  },
+  "ärgerst": {
+    "pos": "noun"
+  },
+  "hilfst": {
+    "pos": "noun"
+  },
+  "bestehst": {
+    "pos": "noun"
+  },
+  "glaubst": {
+    "pos": "noun"
+  },
+  "hörst": {
+    "pos": "noun"
+  },
+  "ratschläge": {
+    "pos": "noun"
+  },
+  "informierst": {
+    "pos": "noun"
+  },
+  "plan": {
+    "pos": "noun"
+  },
+  "türkei": {
+    "pos": "noun"
+  },
+  "schiffe": {
+    "pos": "noun"
+  },
+  "hafen": {
+    "pos": "noun"
+  },
+  "reparatur": {
+    "pos": "noun"
+  },
+  "anschlusszug": {
+    "pos": "noun"
+  },
+  "kraft": {
+    "pos": "noun"
+  },
+  "präsentation": {
+    "pos": "noun"
+  },
+  "korrektur": {
+    "pos": "noun"
+  },
+  "druck": {
+    "pos": "noun"
+  },
+  "beitrag": {
+    "pos": "noun"
+  },
+  "rücksicht": {
+    "pos": "noun"
+  },
+  "diagnose": {
+    "pos": "noun"
+  },
+  "verantwortung": {
+    "pos": "noun"
+  },
+  "fisch": {
+    "pos": "noun"
+  },
+  "grippe": {
+    "pos": "noun"
+  },
+  "energiequellen": {
+    "pos": "noun"
+  },
+  "unfall": {
+    "pos": "noun"
+  },
+  "mandant": {
+    "pos": "noun"
+  },
+  "werk": {
+    "pos": "noun"
+  },
+  "forscherin": {
+    "pos": "noun"
+  },
+  "minuten": {
+    "pos": "noun"
+  },
+  "direktor": {
+    "pos": "noun"
+  },
+  "anlässlich": {
+    "pos": "noun"
+  },
+  "regeln": {
+    "pos": "noun"
+  },
+  "— präp. auf": {
+    "pos": "verb"
+  },
+  "schüler": {
+    "pos": "noun"
+  },
+  "schön": {
+    "pos": "adj",
+    "ru": "красивый",
+    "en": "beautiful / nice"
+  },
+  "neu": {
+    "pos": "adj",
+    "ru": "новый",
+    "en": "new"
+  },
+  "blume": {
+    "pos": "noun"
+  },
+  "insel": {
+    "pos": "noun"
+  },
+  "tal": {
+    "pos": "noun"
+  },
+  "koffer": {
+    "pos": "noun"
+  },
+  "kopf": {
+    "pos": "noun"
+  },
+  "student": {
+    "pos": "noun"
+  },
+  "studentem": {
+    "pos": "noun"
+  },
+  "teilnahme": {
+    "pos": "noun"
+  },
+  "welt": {
+    "pos": "noun"
+  },
+  "rückfragen": {
+    "pos": "noun"
+  },
+  "könnten": {
+    "pos": "noun"
+  },
+  "daran": {
+    "pos": "noun"
+  },
+  "rehabilitation": {
+    "pos": "noun"
+  },
+  "sicherheit": {
+    "pos": "noun"
+  },
+  "ausstoß": {
+    "pos": "noun"
+  },
+  "recht": {
+    "pos": "noun"
+  },
+  "bauarbeiten": {
+    "pos": "noun"
+  },
+  "brei": {
+    "pos": "noun"
+  },
+  "training": {
+    "pos": "noun"
+  },
+  "party": {
+    "pos": "noun"
+  },
+  "bett": {
+    "pos": "noun"
+  },
+  "nähe": {
+    "pos": "noun"
+  },
+  "probleme": {
+    "pos": "noun"
+  },
+  "briefe": {
+    "pos": "noun"
+  },
+  "vögel": {
+    "pos": "noun"
+  },
+  "verein": {
+    "pos": "noun"
+  },
+  "rand": {
+    "pos": "noun"
+  },
+  "polizisten": {
+    "pos": "noun"
+  },
+  "journalistin": {
+    "pos": "noun"
+  },
+  "präsidenten": {
+    "pos": "noun"
+  },
+  "wäre": {
+    "pos": "noun"
+  },
+  "verfügung": {
+    "pos": "noun"
+  },
+  "informationen": {
+    "pos": "noun"
+  },
+  "untersuchung": {
+    "pos": "noun"
+  },
+  "angeklagten": {
+    "pos": "noun"
+  },
+  "lösungen": {
+    "pos": "noun"
+  },
+  "äußerungen": {
+    "pos": "noun"
+  },
+  "zeuge": {
+    "pos": "noun"
+  },
+  "produktion": {
+    "pos": "noun"
+  },
+  "chancen": {
+    "pos": "noun"
+  },
+  "südamerika": {
+    "pos": "noun"
+  },
+  "methode": {
+    "pos": "noun"
+  },
+  "bearbeitung": {
+    "pos": "noun"
+  },
+  "klein": {
+    "pos": "adj",
+    "ru": "маленький",
+    "en": "small"
+  },
+  "milch": {
+    "pos": "noun"
+  },
+  "groß": {
+    "pos": "adj",
+    "ru": "большой",
+    "en": "big / large"
+  },
+  "stift": {
+    "pos": "noun"
+  },
+  "termine": {
+    "pos": "noun"
+  },
+  "sofa": {
+    "pos": "noun"
+  },
+  "auktion": {
+    "pos": "noun"
+  },
+  "sammeln": {
+    "pos": "noun"
+  },
+  "wichtiges": {
+    "pos": "noun"
+  },
+  "hostel": {
+    "pos": "noun"
+  },
+  "bäckerei": {
+    "pos": "noun"
+  },
+  "geschenkidee": {
+    "pos": "noun"
+  },
+  "jungen": {
+    "pos": "noun"
+  },
+  "pilot": {
+    "pos": "noun"
+  },
+  "fotografen": {
+    "pos": "noun"
+  },
+  "herrn": {
+    "pos": "noun"
+  },
+  "journaliste": {
+    "pos": "noun"
+  },
+  "komponisten": {
+    "pos": "noun"
+  },
+  "löwen": {
+    "pos": "noun"
+  },
+  "teil": {
+    "pos": "noun"
+  },
+  "leute": {
+    "pos": "noun"
+  },
+  "detektiv": {
+    "pos": "noun"
+  },
+  "wissen": {
+    "pos": "verb"
+  },
+  "hausaufgabe": {
+    "pos": "noun"
+  },
+  "november": {
+    "pos": "noun"
+  },
+  "rückmeldung": {
+    "pos": "noun"
+  },
+  "oktober": {
+    "pos": "noun"
+  },
+  "unterkunft": {
+    "pos": "noun"
+  },
+  "impfung": {
+    "pos": "noun"
+  },
+  "genesung": {
+    "pos": "noun"
+  },
+  "anwalt": {
+    "pos": "noun"
+  },
+  "auszeichnung": {
+    "pos": "noun"
+  },
+  "konsequenzen": {
+    "pos": "noun"
+  },
+  "temperaturen": {
+    "pos": "noun"
+  },
+  "wahl": {
+    "pos": "noun"
+  },
+  "bemühungen": {
+    "pos": "noun"
+  },
+  "experiment": {
+    "pos": "noun"
+  },
+  "entgegen": {
+    "pos": "noun"
+  },
+  "jubiläums": {
+    "pos": "noun"
+  },
+  "feier": {
+    "pos": "noun"
+  },
+  "ungeachtet": {
+    "pos": "noun"
+  },
+  "proteste": {
+    "pos": "noun"
+  },
+  "bedeutung": {
+    "pos": "noun"
+  },
+  "start": {
+    "pos": "noun"
+  },
+  "hätte": {
+    "pos": "noun"
+  },
+  "sonnenstrahlen": {
+    "pos": "noun"
+  },
+  "bach": {
+    "pos": "noun"
+  },
+  "feuer": {
+    "pos": "noun"
+  },
+  "kamin": {
+    "pos": "noun"
+  },
+  "wellen": {
+    "pos": "noun"
+  },
+  "arm": {
+    "pos": "noun"
+  },
+  "saal": {
+    "pos": "noun"
+  },
+  "dach": {
+    "pos": "noun"
+  },
+  "ampel": {
+    "pos": "noun"
+  },
+  "denkmalschutz": {
+    "pos": "noun"
+  },
+  "neue": {
+    "pos": "noun"
+  },
+  "rätsel": {
+    "pos": "noun"
+  },
+  "worauf": {
+    "pos": "noun"
+  },
+  "womit": {
+    "pos": "noun"
+  },
+  "lesen": {
+    "pos": "noun"
+  },
+  "kaninchen": {
+    "pos": "noun"
+  },
+  "schnell": {
+    "pos": "adj",
+    "ru": "быстрый",
+    "en": "fast"
+  },
+  "kellner": {
+    "pos": "noun"
+  },
+  "jung": {
+    "pos": "adj"
+  },
+  "bahn": {
+    "pos": "noun"
+  },
+  "geschichte": {
+    "pos": "noun"
+  },
+  "kuchen": {
+    "pos": "noun"
+  },
+  "paris": {
+    "pos": "noun"
+  },
+  "gemüse": {
+    "pos": "noun"
+  },
+  "pasta": {
+    "pos": "noun"
+  },
+  "peter": {
+    "pos": "noun"
+  },
+  "bergen": {
+    "pos": "noun"
+  },
+  "bühne": {
+    "pos": "noun"
+  },
+  "mitteilung": {
+    "pos": "noun"
+  },
+  "zahlung": {
+    "pos": "noun"
+  },
+  "mall": {
+    "pos": "noun"
+  },
+  "journalists": {
+    "pos": "noun"
+  },
+  "kunde": {
+    "pos": "noun"
+  },
+  "— präp. an": {
+    "pos": "verb"
+  },
+  "— präp. über": {
+    "pos": "verb"
+  },
+  "mai": {
+    "pos": "noun"
+  },
+  "liebe": {
+    "pos": "noun"
+  },
+  "website": {
+    "pos": "noun"
+  },
+  "zertifikat": {
+    "pos": "noun"
+  },
+  "+ verb absagen": {
+    "pos": "verb"
+  },
+  "reklamation": {
+    "pos": "noun"
+  },
+  "angeklagte": {
+    "pos": "noun"
+  },
+  "unterstützung": {
+    "pos": "noun"
+  },
+  "gerät": {
+    "pos": "noun"
+  },
+  "wichtig": {
+    "pos": "adj"
+  },
+  "spielen": {
+    "pos": "verb",
+    "ru": "играть",
+    "en": "to play"
+  },
+  "+ verb sollen": {
+    "pos": "verb"
+  },
+  "+ verb müssen": {
+    "pos": "verb"
+  },
+  "+ verb dürfen": {
+    "pos": "verb"
+  },
+  "+ verb wollen": {
+    "pos": "verb"
+  },
+  "+ verb können": {
+    "pos": "verb"
+  },
+  "freuen": {
+    "pos": "verb"
+  },
+  "— denn / deshalb / trotzdem / weil": {
+    "pos": "verb"
+  },
+  "— außerdem / deshalb / trotzdem / weil": {
+    "pos": "verb"
+  },
+  "— außerdem / denn / deshalb / trotzdem": {
+    "pos": "verb"
+  },
+  "schuhe": {
+    "pos": "noun"
+  },
+  "hoch": {
+    "pos": "adj"
+  },
+  "vogel": {
+    "pos": "noun"
+  },
+  "hof": {
+    "pos": "noun"
+  },
+  "karte": {
+    "pos": "noun"
+  },
+  "sturm": {
+    "pos": "noun"
+  },
+  "bad": {
+    "pos": "noun"
+  },
+  "dorf": {
+    "pos": "noun"
+  },
+  "geschwister": {
+    "pos": "noun"
+  },
+  "tier": {
+    "pos": "noun"
+  },
+  "bücher": {
+    "pos": "noun"
+  },
+  "fußgängerzone": {
+    "pos": "noun"
+  },
+  "heft": {
+    "pos": "noun"
+  },
+  "trainer": {
+    "pos": "noun"
+  },
+  "kennst": {
+    "pos": "noun"
+  },
+  "frühstück": {
+    "pos": "noun"
+  },
+  "münchen": {
+    "pos": "noun"
+  },
+  "polen": {
+    "pos": "noun"
+  },
+  "arbeitsplatz": {
+    "pos": "noun"
+  },
+  "ausfüllen": {
+    "pos": "noun"
+  },
+  "hoffentlich": {
+    "pos": "noun"
+  },
+  "schlafmangel": {
+    "pos": "noun"
+  },
+  "märz": {
+    "pos": "noun"
+  },
+  "kolleginnen": {
+    "pos": "noun"
+  },
+  "verschiebung": {
+    "pos": "noun"
+  },
+  "prüfungsergebnisse": {
+    "pos": "noun"
+  },
+  "seminarraum": {
+    "pos": "noun"
+  },
+  "juni": {
+    "pos": "noun"
+  },
+  "wetterbericht": {
+    "pos": "noun"
+  },
+  "fristen": {
+    "pos": "noun"
+  },
+  "analyse": {
+    "pos": "noun"
+  },
+  "könntest": {
+    "pos": "noun"
+  },
+  "gehalt": {
+    "pos": "noun"
+  },
+  "menschenmenge": {
+    "pos": "noun"
+  },
+  "maßnahmen": {
+    "pos": "noun"
+  },
+  "stein": {
+    "pos": "noun"
+  },
+  "details": {
+    "pos": "noun"
+  },
+  "werktagen": {
+    "pos": "noun"
+  },
+  "warm": {
+    "pos": "adj"
+  },
+  "kalt": {
+    "pos": "adj"
+  },
+  "sehen": {
+    "pos": "verb"
+  },
+  "waschen": {
+    "pos": "verb"
+  },
+  "+ verb ausmachen": {
+    "pos": "verb"
+  },
+  "— außerdem / denn / deshalb / weil": {
+    "pos": "verb"
+  },
+  "+ verb anmelden": {
+    "pos": "verb"
+  },
+  "impfen": {
+    "pos": "verb"
+  },
+  "pferd": {
+    "pos": "noun"
+  },
+  "test": {
+    "pos": "noun"
+  },
+  "preis": {
+    "pos": "noun"
+  },
+  "schlecht": {
+    "pos": "adj"
+  },
+  "interessant": {
+    "pos": "adj"
+  },
+  "roman": {
+    "pos": "noun"
+  },
+  "banane": {
+    "pos": "noun"
+  },
+  "text": {
+    "pos": "noun"
+  },
+  "bluse": {
+    "pos": "noun"
+  },
+  "nimm": {
+    "pos": "noun"
+  },
+  "schuh": {
+    "pos": "noun"
+  },
+  "annam": {
+    "pos": "noun"
+  },
+  "annan": {
+    "pos": "noun"
+  },
+  "annas": {
+    "pos": "noun"
+  },
+  "stimme": {
+    "pos": "noun"
+  },
+  "glas": {
+    "pos": "noun"
+  },
+  "autos": {
+    "pos": "noun"
+  },
+  "frauen": {
+    "pos": "noun"
+  },
+  "nachbars": {
+    "pos": "noun"
+  },
+  "abendessen": {
+    "pos": "noun"
+  },
+  "chor": {
+    "pos": "noun"
+  },
+  "linie": {
+    "pos": "noun"
+  },
+  "größe": {
+    "pos": "noun"
+  },
+  "farbe": {
+    "pos": "noun"
+  },
+  "stell": {
+    "pos": "noun"
+  },
+  "plakat": {
+    "pos": "noun"
+  },
+  "trinkst": {
+    "pos": "noun"
+  },
+  "isst": {
+    "pos": "noun"
+  },
+  "poliziste": {
+    "pos": "noun"
+  },
+  "polizists": {
+    "pos": "noun"
+  },
+  "polizistin": {
+    "pos": "noun"
+  },
+  "präsidente": {
+    "pos": "noun"
+  },
+  "präsident": {
+    "pos": "noun"
+  },
+  "präsidentin": {
+    "pos": "noun"
+  },
+  "pilots": {
+    "pos": "noun"
+  },
+  "fotografin": {
+    "pos": "noun"
+  },
+  "komponists": {
+    "pos": "noun"
+  },
+  "löwin": {
+    "pos": "noun"
+  },
+  "polizist": {
+    "pos": "noun"
+  },
+  "präsidents": {
+    "pos": "noun"
+  },
+  "italiener": {
+    "pos": "noun"
+  },
+  "bruders": {
+    "pos": "noun"
+  },
+  "natur": {
+    "pos": "noun"
+  },
+  "schulsystem": {
+    "pos": "noun"
+  },
+  "frühling": {
+    "pos": "noun"
+  },
+  "maria": {
+    "pos": "noun"
+  },
+  "+ verb anrufen": {
+    "pos": "verb"
+  },
+  "+ verb anmachen": {
+    "pos": "verb"
+  },
+  "+ verb vorbereiten": {
+    "pos": "verb"
+  },
+  "+ verb ausfüllen": {
+    "pos": "verb"
+  },
+  "inhalt": {
+    "pos": "noun"
+  },
+  "seminar": {
+    "pos": "noun"
+  },
+  "dezember": {
+    "pos": "noun"
+  },
+  "bewerbungsfrist": {
+    "pos": "noun"
+  },
+  "hygienevorschriften": {
+    "pos": "noun"
+  },
+  "ausweis": {
+    "pos": "noun"
+  },
+  "anfrage": {
+    "pos": "noun"
+  },
+  "betrag": {
+    "pos": "noun"
+  },
+  "reservation": {
+    "pos": "noun"
+  },
+  "rezension": {
+    "pos": "noun"
+  },
+  "renovierung": {
+    "pos": "noun"
+  },
+  "sicherlichkeit": {
+    "pos": "noun"
+  },
+  "sicheres": {
+    "pos": "noun"
+  },
+  "sicherheitssystem": {
+    "pos": "noun"
+  },
+  "journale": {
+    "pos": "noun"
+  },
+  "journal": {
+    "pos": "noun"
+  },
+  "journalismus": {
+    "pos": "noun"
+  },
+  "ausstoßung": {
+    "pos": "noun"
+  },
+  "ausstoßment": {
+    "pos": "noun"
+  },
+  "ausstoßer": {
+    "pos": "noun"
+  },
+  "regierend": {
+    "pos": "noun"
+  },
+  "regierbar": {
+    "pos": "noun"
+  },
+  "regiering": {
+    "pos": "noun"
+  },
+  "unterkunftung": {
+    "pos": "noun"
+  },
+  "nachfragend": {
+    "pos": "noun"
+  },
+  "impfer": {
+    "pos": "noun"
+  },
+  "berichtbar": {
+    "pos": "noun"
+  },
+  "konferenzbar": {
+    "pos": "noun"
+  },
+  "medikamentierung": {
+    "pos": "noun"
+  },
+  "genesungbar": {
+    "pos": "noun"
+  },
+  "sichern": {
+    "pos": "noun"
+  },
+  "jurnalist": {
+    "pos": "noun"
+  },
+  "ausstoßen": {
+    "pos": "noun"
+  },
+  "regierer": {
+    "pos": "noun"
+  },
+  "richterin": {
+    "pos": "noun"
+  },
+  "geldstrafe": {
+    "pos": "noun"
+  },
+  "behörde": {
+    "pos": "noun"
+  },
+  "genehmigung": {
+    "pos": "noun"
+  },
+  "taktik": {
+    "pos": "noun"
+  },
+  "kommission": {
+    "pos": "noun"
+  },
+  "forscherinnen": {
+    "pos": "noun"
+  },
+  "urlaubs": {
+    "pos": "noun"
+  },
+  "stellvertreterin": {
+    "pos": "noun"
+  },
+  "direktors": {
+    "pos": "noun"
+  },
+  "fehlers": {
+    "pos": "noun"
+  },
+  "tradition": {
+    "pos": "noun"
+  },
+  "brauch": {
+    "pos": "noun"
+  },
+  "unweit": {
+    "pos": "noun"
+  },
+  "hauses": {
+    "pos": "noun"
+  },
+  "brunnen": {
+    "pos": "noun"
+  },
+  "schutzes": {
+    "pos": "noun"
+  },
+  "vorfalls": {
+    "pos": "noun"
+  },
+  "worte": {
+    "pos": "noun"
+  },
+  "jugend": {
+    "pos": "noun"
+  },
+  "menge": {
+    "pos": "noun"
+  },
+  "interessantes": {
+    "pos": "noun"
+  },
+  "falsches": {
+    "pos": "noun"
+  },
+  "schwäche": {
+    "pos": "noun"
+  },
+  "besonderes": {
+    "pos": "noun"
+  },
+  "ministerin": {
+    "pos": "noun"
+  },
+  "einwände": {
+    "pos": "noun"
+  },
+  "sprachen": {
+    "pos": "noun"
+  },
+  "klavier": {
+    "pos": "noun"
+  },
+  "anfang": {
+    "pos": "noun"
+  },
+  "sofortmaßnahmen": {
+    "pos": "noun"
+  },
+  "publikum": {
+    "pos": "noun"
+  },
+  "namen": {
+    "pos": "noun"
+  },
+  "konzept": {
+    "pos": "noun"
+  },
+  "investition": {
+    "pos": "noun"
+  },
+  "beweise": {
+    "pos": "noun"
+  },
+  "risiko": {
+    "pos": "noun"
+  },
+  "meinungen": {
+    "pos": "noun"
+  },
+  "muskelfaserriss": {
+    "pos": "noun"
+  },
+  "marktplatz": {
+    "pos": "noun"
+  },
+  "treppe": {
+    "pos": "noun"
+  },
+  "stadtgrenze": {
+    "pos": "noun"
+  },
+  "parkweg": {
+    "pos": "noun"
+  },
+  "seite": {
+    "pos": "noun"
+  },
+  "fabrik": {
+    "pos": "noun"
+  },
+  "flussufer": {
+    "pos": "noun"
+  },
+  "gang": {
+    "pos": "noun"
+  },
+  "autobahn": {
+    "pos": "noun"
+  },
+  "richtung": {
+    "pos": "noun"
+  },
+  "stadtzentrums": {
+    "pos": "noun"
+  },
+  "viertel": {
+    "pos": "noun"
+  },
+  "ausdauer": {
+    "pos": "noun"
+  },
+  "parlament": {
+    "pos": "noun"
+  },
+  "studium": {
+    "pos": "noun"
+  },
+  "worüber": {
+    "pos": "noun"
+  },
+  "hieran": {
+    "pos": "noun"
+  },
+  "worin": {
+    "pos": "noun"
+  },
+  "unterschied": {
+    "pos": "noun"
+  },
+  "woran": {
+    "pos": "noun"
+  },
+  "hierauf": {
+    "pos": "noun"
+  },
+  "argumentation": {
+    "pos": "noun"
+  },
+  "laufe": {
+    "pos": "noun"
+  },
+  "feiertage": {
+    "pos": "noun"
+  },
+  "warnungen": {
+    "pos": "noun"
+  },
+  "umstrukturierung": {
+    "pos": "noun"
+  },
+  "kündigungen": {
+    "pos": "noun"
+  },
+  "zuge": {
+    "pos": "noun"
+  },
+  "umbaus": {
+    "pos": "noun"
+  },
+  "schwierigkeiten": {
+    "pos": "noun"
+  },
+  "sommerferien": {
+    "pos": "noun"
+  },
+  "bleib": {
+    "pos": "noun"
+  },
+  "laufendem": {
+    "pos": "noun"
+  },
+  "laufenden": {
+    "pos": "noun"
+  },
+  "nagel": {
+    "pos": "noun"
+  },
+  "kopfe": {
+    "pos": "noun"
+  },
+  "rolle": {
+    "pos": "noun"
+  },
+  "rollen": {
+    "pos": "noun"
+  },
+  "nase": {
+    "pos": "noun"
+  },
+  "nerven": {
+    "pos": "noun"
+  },
+  "auge": {
+    "pos": "noun"
+  },
+  "griff": {
+    "pos": "noun"
+  },
+  "überblicke": {
+    "pos": "noun"
+  },
+  "überblicken": {
+    "pos": "noun"
+  },
+  "überblicks": {
+    "pos": "noun"
+  },
+  "überblick": {
+    "pos": "noun"
+  },
+  "schuss": {
+    "pos": "noun"
+  },
+  "blauen": {
+    "pos": "noun"
+  },
+  "blaue": {
+    "pos": "noun"
+  },
+  "saft": {
+    "pos": "noun"
+  },
+  "bier": {
+    "pos": "noun"
+  },
+  "beine": {
+    "pos": "noun"
+  },
+  "bein": {
+    "pos": "noun"
+  },
+  "berger": {
+    "pos": "noun"
+  },
+  "vielen": {
+    "pos": "noun"
+  },
+  "überweisung": {
+    "pos": "noun"
+  },
+  "januar": {
+    "pos": "noun"
+  },
+  "teuer": {
+    "pos": "adj"
+  },
+  "billig": {
+    "pos": "adj"
+  },
+  "lang": {
+    "pos": "adj"
+  },
+  "ruhig": {
+    "pos": "adj"
+  },
+  "kaufen": {
+    "pos": "verb",
+    "ru": "покупать",
+    "en": "to buy"
+  },
+  "trinken": {
+    "pos": "verb"
+  },
+  "gern": {
+    "pos": "adj"
+  },
+  "laut": {
+    "pos": "adj"
+  },
+  "alt": {
+    "pos": "adj",
+    "ru": "старый",
+    "en": "old"
+  },
+  "sonnig": {
+    "pos": "adj"
+  },
+  "braun": {
+    "pos": "adj"
+  },
+  "limonade": {
+    "pos": "noun"
+  },
+  "stark": {
+    "pos": "adj"
+  },
+  "balkon": {
+    "pos": "noun"
+  },
+  "rock": {
+    "pos": "noun"
+  },
+  "song": {
+    "pos": "noun"
+  },
+  "einkauf": {
+    "pos": "noun"
+  },
+  "serie": {
+    "pos": "noun"
+  },
+  "briefmarken": {
+    "pos": "noun"
+  },
+  "mädchen": {
+    "pos": "noun"
+  },
+  "verkäufer": {
+    "pos": "noun"
+  },
+  "messer": {
+    "pos": "noun"
+  },
+  "schuhen": {
+    "pos": "noun"
+  },
+  "fahr": {
+    "pos": "noun"
+  },
+  "regel": {
+    "pos": "noun"
+  },
+  "himmel": {
+    "pos": "noun"
+  },
+  "vortrag": {
+    "pos": "noun"
+  },
+  "socken": {
+    "pos": "noun"
+  },
+  "zitrone": {
+    "pos": "noun"
+  },
+  "sonntag": {
+    "pos": "noun"
+  },
+  "haustier": {
+    "pos": "noun"
+  },
+  "hut": {
+    "pos": "noun"
+  },
+  "äpfel": {
+    "pos": "noun"
+  },
+  "städte": {
+    "pos": "noun"
+  },
+  "busse": {
+    "pos": "noun"
+  },
+  "fotos": {
+    "pos": "noun"
+  },
+  "filme": {
+    "pos": "noun"
+  },
+  "lampen": {
+    "pos": "noun"
+  },
+  "züge": {
+    "pos": "noun"
+  },
+  "pizzen": {
+    "pos": "noun"
+  },
+  "parks": {
+    "pos": "noun"
+  },
+  "hunde": {
+    "pos": "noun"
+  },
+  "katzen": {
+    "pos": "noun"
+  },
+  "baum": {
+    "pos": "noun"
+  },
+  "spiele": {
+    "pos": "noun"
+  },
+  "tomaten": {
+    "pos": "noun"
+  },
+  "hotels": {
+    "pos": "noun"
+  },
+  "männer": {
+    "pos": "noun"
+  },
+  "lieder": {
+    "pos": "noun"
+  },
+  "wolken": {
+    "pos": "noun"
+  },
+  "aufgaben": {
+    "pos": "noun"
+  },
+  "aufstehen": {
+    "pos": "verb"
+  },
+  "kasse": {
+    "pos": "noun"
+  },
+  "stunden": {
+    "pos": "noun"
+  },
+  "warten": {
+    "pos": "verb"
+  },
+  "geben": {
+    "pos": "verb"
+  },
+  "bringen": {
+    "pos": "verb"
+  },
+  "tennis": {
+    "pos": "noun"
+  },
+  "lieblingsfach": {
+    "pos": "noun"
+  },
+  "instrument": {
+    "pos": "noun"
+  },
+  "geschmack": {
+    "pos": "noun"
+  },
+  "grad": {
+    "pos": "noun"
+  },
+  "müller": {
+    "pos": "noun"
+  },
+  "komm": {
+    "pos": "noun"
+  },
+  "sportplatz": {
+    "pos": "noun"
+  },
+  "matte": {
+    "pos": "noun"
+  },
+  "schweiz": {
+    "pos": "noun"
+  },
+  "sportler": {
+    "pos": "noun"
+  },
+  "gegner": {
+    "pos": "noun"
+  },
+  "nachbarns": {
+    "pos": "noun"
+  },
+  "junges": {
+    "pos": "noun"
+  },
+  "jungin": {
+    "pos": "noun"
+  },
+  "piloten": {
+    "pos": "noun"
+  },
+  "pilotin": {
+    "pos": "noun"
+  },
+  "fotografe": {
+    "pos": "noun"
+  },
+  "fotograf": {
+    "pos": "noun"
+  },
+  "herrs": {
+    "pos": "noun"
+  },
+  "herre": {
+    "pos": "noun"
+  },
+  "komponist": {
+    "pos": "noun"
+  },
+  "komponistin": {
+    "pos": "noun"
+  },
+  "löw": {
+    "pos": "noun"
+  },
+  "löwe": {
+    "pos": "noun"
+  },
+  "kunder": {
+    "pos": "noun"
+  },
+  "kundes": {
+    "pos": "noun"
+  },
+  "junge": {
+    "pos": "noun"
+  },
+  "pilote": {
+    "pos": "noun"
+  },
+  "fotografs": {
+    "pos": "noun"
+  },
+  "komponiste": {
+    "pos": "noun"
+  },
+  "löwes": {
+    "pos": "noun"
+  },
+  "kundens": {
+    "pos": "noun"
+  },
+  "psychologe": {
+    "pos": "noun"
+  },
+  "modern": {
+    "pos": "adj"
+  },
+  "verabschieden": {
+    "pos": "verb"
+  },
+  "ffentlichen": {
+    "pos": "verb"
+  },
+  "untersuchen": {
+    "pos": "verb"
+  },
+  "diskutiieren": {
+    "pos": "verb"
+  },
+  "verkaufen": {
+    "pos": "verb"
+  },
+  "— präp. für": {
+    "pos": "verb"
+  },
+  "schneider": {
+    "pos": "noun"
+  },
+  "juli": {
+    "pos": "noun"
+  },
+  "gerne": {
+    "pos": "noun"
+  },
+  "krause": {
+    "pos": "noun"
+  },
+  "hoffmann": {
+    "pos": "noun"
+  },
+  "zustand": {
+    "pos": "noun"
+  },
+  "bestätigung": {
+    "pos": "noun"
+  },
+  "aufenthalts": {
+    "pos": "noun"
+  },
+  "hierfür": {
+    "pos": "noun"
+  },
+  "erhalt": {
+    "pos": "noun"
+  },
+  "konto": {
+    "pos": "noun"
+  },
+  "terminverschiebung": {
+    "pos": "noun"
+  },
+  "hiermit": {
+    "pos": "noun"
+  },
+  "wunsch": {
+    "pos": "noun"
+  },
+  "frist": {
+    "pos": "noun"
+  },
+  "+ verb vorverlegen": {
+    "pos": "verb"
+  },
+  "reparieren": {
+    "pos": "verb"
+  },
+  "beraten": {
+    "pos": "verb"
+  },
+  "bersetzen": {
+    "pos": "verb"
+  },
+  "schneiden": {
+    "pos": "verb"
+  },
+  "kontrollieren": {
+    "pos": "verb"
+  },
+  "unterkommen": {
+    "pos": "noun"
+  },
+  "unterkunftbar": {
+    "pos": "noun"
+  },
+  "nachfragebar": {
+    "pos": "noun"
+  },
+  "nachfrager": {
+    "pos": "noun"
+  },
+  "impff": {
+    "pos": "noun"
+  },
+  "impft": {
+    "pos": "noun"
+  },
+  "berichter": {
+    "pos": "noun"
+  },
+  "berichten": {
+    "pos": "noun"
+  },
+  "konferenzierung": {
+    "pos": "noun"
+  },
+  "konferenzler": {
+    "pos": "noun"
+  },
+  "medikamentier": {
+    "pos": "noun"
+  },
+  "medikamentbar": {
+    "pos": "noun"
+  },
+  "genes": {
+    "pos": "noun"
+  },
+  "genesungler": {
+    "pos": "noun"
+  },
+  "unterkünft": {
+    "pos": "noun"
+  },
+  "nachfragen": {
+    "pos": "noun"
+  },
+  "berichtung": {
+    "pos": "noun"
+  },
+  "konferierend": {
+    "pos": "noun"
+  },
+  "medikamentler": {
+    "pos": "noun"
+  },
+  "genesend": {
+    "pos": "noun"
+  },
+  "mandantin": {
+    "pos": "noun"
+  },
+  "muttern": {
+    "pos": "noun"
+  },
+  "unternehmens": {
+    "pos": "noun"
+  },
+  "brudern": {
+    "pos": "noun"
+  },
+  "redaktion": {
+    "pos": "noun"
+  },
+  "korrekturen": {
+    "pos": "noun"
+  },
+  "studierende": {
+    "pos": "noun"
+  },
+  "häuser": {
+    "pos": "noun"
+  },
+  "strom": {
+    "pos": "noun"
+  },
+  "äußerung": {
+    "pos": "noun"
+  },
+  "hinweise": {
+    "pos": "noun"
+  },
+  "inmitten": {
+    "pos": "noun"
+  },
+  "inflation": {
+    "pos": "noun"
+  },
+  "kaufkraft": {
+    "pos": "noun"
+  },
+  "laufender": {
+    "pos": "noun"
+  },
+  "laufendes": {
+    "pos": "noun"
+  },
+  "kopfen": {
+    "pos": "noun"
+  },
+  "kopfs": {
+    "pos": "noun"
+  },
+  "rollende": {
+    "pos": "noun"
+  },
+  "rollens": {
+    "pos": "noun"
+  },
+  "blauem": {
+    "pos": "noun"
+  },
+  "blaues": {
+    "pos": "noun"
+  },
+  "breie": {
+    "pos": "noun"
+  },
+  "beines": {
+    "pos": "noun"
+  },
+  "beins": {
+    "pos": "noun"
+  },
+  "sache": {
+    "pos": "noun"
+  },
+  "punkt": {
+    "pos": "noun"
+  },
+  "laufende": {
+    "pos": "noun"
+  },
+  "köpfen": {
+    "pos": "noun"
+  },
+  "roller": {
+    "pos": "noun"
+  },
+  "blauer": {
+    "pos": "noun"
+  },
+  "topf": {
+    "pos": "noun"
+  },
+  "wein": {
+    "pos": "noun"
+  },
+  "beinen": {
+    "pos": "noun"
+  },
+  "bestellung": {
+    "pos": "noun"
+  },
+  "verzögerung": {
+    "pos": "noun"
+  },
+  "sendung": {
+    "pos": "noun"
+  },
+  "sendungsnummer": {
+    "pos": "noun"
+  },
+  "lieferung": {
+    "pos": "noun"
+  },
+  "jens": {
+    "pos": "noun"
+  },
+  "scherer": {
+    "pos": "noun"
+  },
+  "kaufpreis": {
+    "pos": "noun"
+  },
+  "hartmann": {
+    "pos": "noun"
+  },
+  "richter": {
+    "pos": "noun"
+  },
+  "akademie": {
+    "pos": "noun"
+  },
+  "brandt": {
+    "pos": "noun"
+  },
+  "schadensfall": {
+    "pos": "noun"
+  },
+  "lehmann": {
+    "pos": "noun"
+  },
+  "schmitt": {
+    "pos": "noun"
+  },
+  "unannehmlichkeiten": {
+    "pos": "noun"
+  },
+  "rashid": {
+    "pos": "noun"
+  },
+  "mietvertrag": {
+    "pos": "noun"
+  },
+  "wolf": {
+    "pos": "noun"
+  },
+  "mangel": {
+    "pos": "noun"
+  },
+  "zahlungen": {
+    "pos": "noun"
+  },
+  "kundin": {
+    "pos": "noun"
+  },
+  "abschluss": {
+    "pos": "noun"
+  },
+  "antworten": {
+    "pos": "verb"
+  },
+  "viel": {
+    "pos": "adj"
+  },
+  "nah": {
+    "pos": "adj"
+  },
+  "elegant": {
+    "pos": "adj"
+  },
+  "+ verb konjunktiv ii — können/du": {
+    "pos": "verb"
+  },
+  "schlafen": {
+    "pos": "verb"
+  },
+  "ziehen": {
+    "pos": "verb"
+  },
+  "treffen": {
+    "pos": "verb"
+  },
+  "beeilen": {
+    "pos": "verb"
+  },
+  "interessieren": {
+    "pos": "verb"
+  },
+  "erkälten": {
+    "pos": "verb"
+  },
+  "verletzen": {
+    "pos": "verb"
+  },
+  "fühlen": {
+    "pos": "verb"
+  },
+  "anziehen": {
+    "pos": "verb"
+  },
+  "vorbereiten": {
+    "pos": "verb"
+  },
+  "kümmern": {
+    "pos": "verb"
+  },
+  "+ verb einsteigen": {
+    "pos": "verb"
+  },
+  "+ verb aufmachen": {
+    "pos": "verb"
+  },
+  "+ verb zumachen": {
+    "pos": "verb"
+  },
+  "+ verb einkaufen": {
+    "pos": "verb"
+  },
+  "+ verb ausgehen": {
+    "pos": "verb"
+  },
+  "erfahren": {
+    "pos": "adj"
+  },
+  "aktuell": {
+    "pos": "adj"
+  },
+  "international": {
+    "pos": "adj"
+  },
+  "— außerdem / denn / trotzdem / weil": {
+    "pos": "verb"
+  },
+  "— außerdem / denn / dennoch / weil": {
+    "pos": "verb"
+  },
+  "— außerdem / dennoch / deshalb / weil": {
+    "pos": "verb"
+  },
+  "— denn / dennoch / deshalb / weil": {
+    "pos": "verb"
+  },
+  "renoviieren": {
+    "pos": "verb"
+  },
+  "fen": {
+    "pos": "verb"
+  },
+  "senden": {
+    "pos": "verb"
+  },
+  "nutzen": {
+    "pos": "verb"
+  },
+  "hren": {
+    "pos": "verb"
+  },
+  "sammelen": {
+    "pos": "verb"
+  },
+  "unterzeichnen": {
+    "pos": "verb"
+  },
+  "— präp. um": {
+    "pos": "verb"
+  },
+  "— präp. bei": {
+    "pos": "verb"
+  },
+  "— präp. von": {
+    "pos": "verb"
+  },
+  "+ verb einladen": {
+    "pos": "verb"
+  },
+  "+ verb durchgehen": {
+    "pos": "verb"
+  },
+  "+ verb einchecken": {
+    "pos": "verb"
+  },
+  "+ verb ansprechen": {
+    "pos": "verb"
+  },
+  "+ verb einreichen": {
+    "pos": "verb"
+  },
+  "erklären": {
+    "pos": "verb"
+  },
+  "einchecken": {
+    "pos": "verb"
+  },
+  "ruhen": {
+    "pos": "verb"
+  },
+  "abholen": {
+    "pos": "verb"
+  },
+  "gmb": {
+    "pos": "noun"
+  },
+  "gmbh": {
+    "pos": "noun"
+  },
+  "luft": {
+    "pos": "noun"
+  },
+  "band": {
+    "pos": "noun"
+  },
+  "stadion": {
+    "pos": "noun"
+  },
+  "nett": {
+    "pos": "adj"
+  },
+  "schwer": {
+    "pos": "adj"
+  },
+  "voll": {
+    "pos": "adj"
+  },
+  "frisch": {
+    "pos": "adj"
+  },
+  "spannend": {
+    "pos": "adj"
+  },
+  "freundlich": {
+    "pos": "adj"
+  },
+  "hell": {
+    "pos": "adj"
+  },
+  "hart": {
+    "pos": "adj"
+  },
+  "bekannt": {
+    "pos": "adj"
+  },
+  "offiziell": {
+    "pos": "adj"
+  },
+  "rot": {
+    "pos": "adj"
+  },
+  "großmutter": {
+    "pos": "noun"
+  },
+  "sonnencreme": {
+    "pos": "noun"
+  },
+  "holz": {
+    "pos": "noun"
+  },
+  "stock": {
+    "pos": "noun"
+  },
+  "mama": {
+    "pos": "noun"
+  },
+  "reiseleiterin": {
+    "pos": "noun"
+  },
+  "gib": {
+    "pos": "noun"
+  },
+  "reiseführer": {
+    "pos": "noun"
+  },
+  "papa": {
+    "pos": "noun"
+  },
+  "süßigkeiten": {
+    "pos": "noun"
+  },
+  "verkäuferin": {
+    "pos": "noun"
+  },
+  "karten": {
+    "pos": "noun"
+  },
+  "zuhause": {
+    "pos": "noun"
+  },
+  "vorher": {
+    "pos": "noun"
+  },
+  "hemd": {
+    "pos": "noun"
+  },
+  "werbung": {
+    "pos": "noun"
+  },
+  "melodie": {
+    "pos": "noun"
+  },
+  "zentrum": {
+    "pos": "noun"
+  },
+  "baby": {
+    "pos": "noun"
+  },
+  "rad": {
+    "pos": "noun"
+  },
+  "stuhs": {
+    "pos": "noun"
+  },
+  "stühlen": {
+    "pos": "noun"
+  },
+  "stühle": {
+    "pos": "noun"
+  },
+  "täschen": {
+    "pos": "noun"
+  },
+  "taschens": {
+    "pos": "noun"
+  },
+  "taschen": {
+    "pos": "noun"
+  },
+  "tasch": {
+    "pos": "noun"
+  },
+  "fraus": {
+    "pos": "noun"
+  },
+  "frauens": {
+    "pos": "noun"
+  },
+  "tischen": {
+    "pos": "noun"
+  },
+  "tische": {
+    "pos": "noun"
+  },
+  "tischs": {
+    "pos": "noun"
+  },
+  "apfeln": {
+    "pos": "noun"
+  },
+  "apfels": {
+    "pos": "noun"
+  },
+  "auten": {
+    "pos": "noun"
+  },
+  "autosn": {
+    "pos": "noun"
+  },
+  "freunds": {
+    "pos": "noun"
+  },
+  "städten": {
+    "pos": "noun"
+  },
+  "stadts": {
+    "pos": "noun"
+  },
+  "hobbysn": {
+    "pos": "noun"
+  },
+  "hobbien": {
+    "pos": "noun"
+  },
+  "hobbys": {
+    "pos": "noun"
+  },
+  "buss": {
+    "pos": "noun"
+  },
+  "bussen": {
+    "pos": "noun"
+  },
+  "blum": {
+    "pos": "noun"
+  },
+  "blümen": {
+    "pos": "noun"
+  },
+  "blumens": {
+    "pos": "noun"
+  },
+  "eier": {
+    "pos": "noun"
+  },
+  "eiers": {
+    "pos": "noun"
+  },
+  "eien": {
+    "pos": "noun"
+  },
+  "tags": {
+    "pos": "noun"
+  },
+  "täg": {
+    "pos": "noun"
+  },
+  "hand": {
+    "pos": "noun"
+  },
+  "händen": {
+    "pos": "noun"
+  },
+  "händ": {
+    "pos": "noun"
+  },
+  "hands": {
+    "pos": "noun"
+  },
+  "fotosn": {
+    "pos": "noun"
+  },
+  "foten": {
+    "pos": "noun"
+  },
+  "films": {
+    "pos": "noun"
+  },
+  "filmen": {
+    "pos": "noun"
+  },
+  "lamp": {
+    "pos": "noun"
+  },
+  "lämpen": {
+    "pos": "noun"
+  },
+  "lampes": {
+    "pos": "noun"
+  },
+  "tieren": {
+    "pos": "noun"
+  },
+  "tiers": {
+    "pos": "noun"
+  },
+  "tiere": {
+    "pos": "noun"
+  },
+  "zügen": {
+    "pos": "noun"
+  },
+  "züg": {
+    "pos": "noun"
+  },
+  "uhres": {
+    "pos": "noun"
+  },
+  "uhren": {
+    "pos": "noun"
+  },
+  "uhrenn": {
+    "pos": "noun"
+  },
+  "problemen": {
+    "pos": "noun"
+  },
+  "kuchens": {
+    "pos": "noun"
+  },
+  "küchen": {
+    "pos": "noun"
+  },
+  "kuchs": {
+    "pos": "noun"
+  },
+  "banan": {
+    "pos": "noun"
+  },
+  "bananen": {
+    "pos": "noun"
+  },
+  "bananens": {
+    "pos": "noun"
+  },
+  "bananes": {
+    "pos": "noun"
+  },
+  "museen": {
+    "pos": "noun"
+  },
+  "museums": {
+    "pos": "noun"
+  },
+  "museens": {
+    "pos": "noun"
+  },
+  "schülers": {
+    "pos": "noun"
+  },
+  "schülern": {
+    "pos": "noun"
+  },
+  "schüle": {
+    "pos": "noun"
+  },
+  "pizzens": {
+    "pos": "noun"
+  },
+  "pizzes": {
+    "pos": "noun"
+  },
+  "broten": {
+    "pos": "noun"
+  },
+  "brote": {
+    "pos": "noun"
+  },
+  "bröte": {
+    "pos": "noun"
+  },
+  "parke": {
+    "pos": "noun"
+  },
+  "parken": {
+    "pos": "noun"
+  },
+  "straßes": {
+    "pos": "noun"
+  },
+  "straßens": {
+    "pos": "noun"
+  },
+  "straß": {
+    "pos": "noun"
+  },
+  "gemüs": {
+    "pos": "noun"
+  },
+  "gemüsen": {
+    "pos": "noun"
+  },
+  "gemüses": {
+    "pos": "noun"
+  },
+  "hünde": {
+    "pos": "noun"
+  },
+  "hunds": {
+    "pos": "noun"
+  },
+  "katzes": {
+    "pos": "noun"
+  },
+  "katz": {
+    "pos": "noun"
+  },
+  "kätzen": {
+    "pos": "noun"
+  },
+  "glass": {
+    "pos": "noun"
+  },
+  "gläsern": {
+    "pos": "noun"
+  },
+  "gläser": {
+    "pos": "noun"
+  },
+  "bäumen": {
+    "pos": "noun"
+  },
+  "bäume": {
+    "pos": "noun"
+  },
+  "bäum": {
+    "pos": "noun"
+  },
+  "sonn": {
+    "pos": "noun"
+  },
+  "sönnen": {
+    "pos": "noun"
+  },
+  "sonnen": {
+    "pos": "noun"
+  },
+  "sonnes": {
+    "pos": "noun"
+  },
+  "spiels": {
+    "pos": "noun"
+  },
+  "computers": {
+    "pos": "noun"
+  },
+  "computern": {
+    "pos": "noun"
+  },
+  "computere": {
+    "pos": "noun"
+  },
+  "idees": {
+    "pos": "noun"
+  },
+  "ideen": {
+    "pos": "noun"
+  },
+  "ideens": {
+    "pos": "noun"
+  },
+  "ide": {
+    "pos": "noun"
+  },
+  "ticketsn": {
+    "pos": "noun"
+  },
+  "ticketen": {
+    "pos": "noun"
+  },
+  "kaffeen": {
+    "pos": "noun"
+  },
+  "kaffees": {
+    "pos": "noun"
+  },
+  "kaffes": {
+    "pos": "noun"
+  },
+  "tean": {
+    "pos": "noun"
+  },
+  "teesn": {
+    "pos": "noun"
+  },
+  "tees": {
+    "pos": "noun"
+  },
+  "tomate": {
+    "pos": "noun"
+  },
+  "tomatens": {
+    "pos": "noun"
+  },
+  "tomates": {
+    "pos": "noun"
+  },
+  "tomat": {
+    "pos": "noun"
+  },
+  "salate": {
+    "pos": "noun"
+  },
+  "saläte": {
+    "pos": "noun"
+  },
+  "salats": {
+    "pos": "noun"
+  },
+  "briefs": {
+    "pos": "noun"
+  },
+  "briefen": {
+    "pos": "noun"
+  },
+  "handysen": {
+    "pos": "noun"
+  },
+  "handysn": {
+    "pos": "noun"
+  },
+  "handys": {
+    "pos": "noun"
+  },
+  "hoteln": {
+    "pos": "noun"
+  },
+  "hotell": {
+    "pos": "noun"
+  },
+  "nachbaren": {
+    "pos": "noun"
+  },
+  "kinde": {
+    "pos": "noun"
+  },
+  "kinds": {
+    "pos": "noun"
+  },
+  "büchern": {
+    "pos": "noun"
+  },
+  "büch": {
+    "pos": "noun"
+  },
+  "manns": {
+    "pos": "noun"
+  },
+  "männern": {
+    "pos": "noun"
+  },
+  "europa": {
+    "pos": "noun"
+  },
+  "ärzte": {
+    "pos": "noun"
+  },
+  "jacken": {
+    "pos": "noun"
+  },
+  "konzerte": {
+    "pos": "noun"
+  },
+  "bälle": {
+    "pos": "noun"
+  },
+  "geschäfte": {
+    "pos": "noun"
+  },
+  "tabletten": {
+    "pos": "noun"
+  },
+  "hüte": {
+    "pos": "noun"
+  },
+  "kinofilme": {
+    "pos": "noun"
+  },
+  "bands": {
+    "pos": "noun"
+  },
+  "stürme": {
+    "pos": "noun"
+  },
+  "projekte": {
+    "pos": "noun"
+  },
+  "haltestelle": {
+    "pos": "noun"
+  },
+  "wasche": {
+    "pos": "noun"
+  },
+  "wohnzimmer": {
+    "pos": "noun"
+  },
+  "altstadt": {
+    "pos": "noun"
+  },
+  "tierheim": {
+    "pos": "noun"
+  },
+  "herbst": {
+    "pos": "noun"
+  },
+  "schrank": {
+    "pos": "noun"
+  },
+  "region": {
+    "pos": "noun"
+  },
+  "samstag": {
+    "pos": "noun"
+  },
+  "einkäufe": {
+    "pos": "noun"
+  },
+  "bilder": {
+    "pos": "noun"
+  },
+  "koch": {
+    "pos": "noun"
+  },
+  "kamera": {
+    "pos": "noun"
+  },
+  "lieblingsessen": {
+    "pos": "noun"
+  },
+  "spielst": {
+    "pos": "noun"
+  },
+  "mannschaft": {
+    "pos": "noun"
+  },
+  "probier": {
+    "pos": "noun"
+  },
+  "zieh": {
+    "pos": "noun"
+  },
+  "handschuhe": {
+    "pos": "noun"
+  },
+  "vergiss": {
+    "pos": "noun"
+  },
+  "pass": {
+    "pos": "noun"
+  },
+  "wohnen": {
+    "pos": "verb",
+    "ru": "жить",
+    "en": "to live"
+  },
+  "tom": {
+    "pos": "noun"
+  },
+  "popmusik": {
+    "pos": "noun"
+  },
+  "morgens": {
+    "pos": "noun"
+  },
+  "computerspiele": {
+    "pos": "noun"
+  },
+  "machen": {
+    "pos": "verb",
+    "ru": "делать",
+    "en": "to do / make"
+  },
+  "österreich": {
+    "pos": "noun"
+  },
+  "yoga": {
+    "pos": "noun"
+  },
+  "abends": {
+    "pos": "noun"
+  },
+  "jeden": {
+    "pos": "noun"
+  },
+  "zugticket": {
+    "pos": "noun"
+  },
+  "süß": {
+    "pos": "noun"
+  },
+  "goethestraße": {
+    "pos": "noun"
+  },
+  "schlafzimmer": {
+    "pos": "noun"
+  },
+  "blau": {
+    "pos": "noun"
+  },
+  "bürojob": {
+    "pos": "noun"
+  },
+  "häng": {
+    "pos": "noun"
+  },
+  "gewitter": {
+    "pos": "noun"
+  },
+  "+ verb haben": {
+    "pos": "verb"
+  },
+  "verben": {
+    "pos": "noun"
+  },
+  "modalverben": {
+    "pos": "noun"
+  },
+  "erholen": {
+    "pos": "verb"
+  },
+  "— außerdem / denn / dennoch / deshalb": {
+    "pos": "verb"
+  },
+  "stellenanzeige": {
+    "pos": "noun"
+  },
+  "praktikantin": {
+    "pos": "noun"
+  },
+  "marketing": {
+    "pos": "noun"
+  },
+  "semester": {
+    "pos": "noun"
+  },
+  "betriebswirtschaft": {
+    "pos": "noun"
+  },
+  "eindruck": {
+    "pos": "noun"
+  },
+  "anforderungen": {
+    "pos": "noun"
+  },
+  "studienplatz": {
+    "pos": "noun"
+  },
+  "masterstudiengang": {
+    "pos": "noun"
+  },
+  "germanistik": {
+    "pos": "noun"
+  },
+  "bachelorabschluss": {
+    "pos": "noun"
+  },
+  "medienwissenschaft": {
+    "pos": "noun"
+  },
+  "vorkenntnisse": {
+    "pos": "noun"
+  },
+  "becker": {
+    "pos": "noun"
+  },
+  "arztes": {
+    "pos": "noun"
+  },
+  "bescheinigung": {
+    "pos": "noun"
+  },
+  "lindenstraße": {
+    "pos": "noun"
+  },
+  "schreibens": {
+    "pos": "noun"
+  },
+  "guten": {
+    "pos": "noun"
+  },
+  "abendkurs": {
+    "pos": "noun"
+  },
+  "mitarbeiterinnen": {
+    "pos": "noun"
+  },
+  "jahresfeier": {
+    "pos": "noun"
+  },
+  "konferenzsaal": {
+    "pos": "noun"
+  },
+  "kostenübernahme": {
+    "pos": "noun"
+  },
+  "rehasportkurses": {
+    "pos": "noun"
+  },
+  "hausarzt": {
+    "pos": "noun"
+  },
+  "elternabend": {
+    "pos": "noun"
+  },
+  "donnerstag": {
+    "pos": "noun"
+  },
+  "aula": {
+    "pos": "noun"
+  },
+  "mittwoch": {
+    "pos": "noun"
+  },
+  "klassenleitung": {
+    "pos": "noun"
+  },
+  "hotline": {
+    "pos": "noun"
+  },
+  "integrationskurs": {
+    "pos": "noun"
+  },
+  "eintrittskarten": {
+    "pos": "noun"
+  },
+  "voraus": {
+    "pos": "noun"
+  },
+  "leistungsnachweis": {
+    "pos": "noun"
+  },
+  "dienstag": {
+    "pos": "noun"
+  },
+  "informationsveranstaltung": {
+    "pos": "noun"
+  },
+  "kursgebühr": {
+    "pos": "noun"
+  },
+  "agentur": {
+    "pos": "noun"
+  },
+  "anmeldeformular": {
+    "pos": "noun"
+  },
+  "kursende": {
+    "pos": "noun"
+  },
+  "ferienzeit": {
+    "pos": "noun"
+  },
+  "veranstaltungsraum": {
+    "pos": "noun"
+  },
+  "einreichung": {
+    "pos": "noun"
+  },
+  "hausarbeit": {
+    "pos": "noun"
+  },
+  "exkursion": {
+    "pos": "noun"
+  },
+  "anmeldungen": {
+    "pos": "noun"
+  },
+  "anmelden": {
+    "pos": "noun"
+  },
+  "anmeldend": {
+    "pos": "noun"
+  },
+  "bibliothek": {
+    "pos": "noun"
+  },
+  "renovierungsarbeiten": {
+    "pos": "noun"
+  },
+  "rauchen": {
+    "pos": "noun"
+  },
+  "autors": {
+    "pos": "noun"
+  },
+  "laborant": {
+    "pos": "noun"
+  },
+  "eingangsbestätigung": {
+    "pos": "noun"
+  },
+  "hinweis": {
+    "pos": "noun"
+  },
+  "mario": {
+    "pos": "noun"
+  },
+  "czesnik": {
+    "pos": "noun"
+  },
+  "april": {
+    "pos": "noun"
+  },
+  "ware": {
+    "pos": "noun"
+  },
+  "kauf": {
+    "pos": "noun"
+  },
+  "sandra": {
+    "pos": "noun"
+  },
+  "systemausfall": {
+    "pos": "noun"
+  },
+  "wohnsitzes": {
+    "pos": "noun"
+  },
+  "nachmittag": {
+    "pos": "noun"
+  },
+  "ahmed": {
+    "pos": "noun"
+  },
+  "hassan": {
+    "pos": "noun"
+  },
+  "bildschirm": {
+    "pos": "noun"
+  },
+  "ersatzgerät": {
+    "pos": "noun"
+  },
+  "thomas": {
+    "pos": "noun"
+  },
+  "weber": {
+    "pos": "noun"
+  },
+  "qualifikationen": {
+    "pos": "noun"
+  },
+  "kandidatin": {
+    "pos": "noun"
+  },
+  "gute": {
+    "pos": "noun"
+  },
+  "ausschreibung": {
+    "pos": "noun"
+  },
+  "lisa": {
+    "pos": "noun"
+  },
+  "lärmbelästigung": {
+    "pos": "noun"
+  },
+  "ruhezeiten": {
+    "pos": "noun"
+  },
+  "anwohner": {
+    "pos": "noun"
+  },
+  "meier": {
+    "pos": "noun"
+  },
+  "anmietung": {
+    "pos": "noun"
+  },
+  "gehaltsbescheinigung": {
+    "pos": "noun"
+  },
+  "intranet": {
+    "pos": "noun"
+  },
+  "angaben": {
+    "pos": "noun"
+  },
+  "jonas": {
+    "pos": "noun"
+  },
+  "teilnehmerin": {
+    "pos": "noun"
+  },
+  "teilnehmer": {
+    "pos": "noun"
+  },
+  "digitale": {
+    "pos": "noun"
+  },
+  "kommunikation": {
+    "pos": "noun"
+  },
+  "beginn": {
+    "pos": "noun"
+  },
+  "ersatzteilnehmer": {
+    "pos": "noun"
+  },
+  "materialien": {
+    "pos": "noun"
+  },
+  "kursbeginn": {
+    "pos": "noun"
+  },
+  "stellenangebot": {
+    "pos": "noun"
+  },
+  "homeoffice": {
+    "pos": "noun"
+  },
+  "elena": {
+    "pos": "noun"
+  },
+  "popov": {
+    "pos": "noun"
+  },
+  "preisreduzierung": {
+    "pos": "noun"
+  },
+  "bewertung": {
+    "pos": "noun"
+  },
+  "claudia": {
+    "pos": "noun"
+  },
+  "fischer": {
+    "pos": "noun"
+  },
+  "belege": {
+    "pos": "noun"
+  },
+  "sabine": {
+    "pos": "noun"
+  },
+  "krüger": {
+    "pos": "noun"
+  },
+  "umbuchung": {
+    "pos": "noun"
+  },
+  "markus": {
+    "pos": "noun"
+  },
+  "beschreibung": {
+    "pos": "noun"
+  },
+  "produkt": {
+    "pos": "noun"
+  },
+  "rückzahlung": {
+    "pos": "noun"
+  },
+  "schritte": {
+    "pos": "noun"
+  },
+  "nina": {
+    "pos": "noun"
+  },
+  "referenzen": {
+    "pos": "noun"
+  },
+  "paul": {
+    "pos": "noun"
+  },
+  "mahngebühren": {
+    "pos": "noun"
+  },
+  "zahlungsschwierigkeiten": {
+    "pos": "noun"
+  },
+  "verbindung": {
+    "pos": "noun"
+  },
+  "buchhaltung": {
+    "pos": "noun"
+  },
+  "erinnerung": {
+    "pos": "noun"
+  },
+  "bankdaten": {
+    "pos": "noun"
+  },
+  "laura": {
+    "pos": "noun"
+  },
+  "elternzeit": {
+    "pos": "noun"
+  },
+  "vertretung": {
+    "pos": "noun"
+  },
+  "daniel": {
+    "pos": "noun"
+  },
+  "antrags": {
+    "pos": "noun"
+  },
+  "formulare": {
+    "pos": "noun"
+  },
+  "auskunft": {
+    "pos": "noun"
+  },
+  "stellungnahme": {
+    "pos": "noun"
+  },
+  "rechte": {
+    "pos": "noun"
+  },
+  "fatima": {
+    "pos": "noun"
+  },
+  "wagner": {
+    "pos": "noun"
+  },
+  "nachmieterin": {
+    "pos": "noun"
+  },
+  "unklarheiten": {
+    "pos": "noun"
+  },
+  "stefan": {
+    "pos": "noun"
+  },
+  "kreisner": {
+    "pos": "noun"
+  },
+  "august": {
+    "pos": "noun"
+  },
+  "unzufriedenheit": {
+    "pos": "noun"
+  },
+  "alternativ": {
+    "pos": "noun"
+  },
+  "kundenservice": {
+    "pos": "noun"
+  },
+  "auftrags": {
+    "pos": "noun"
+  },
+  "logistik": {
+    "pos": "noun"
+  },
+  "nord": {
+    "pos": "noun"
+  },
+  "bewerberin": {
+    "pos": "noun"
+  },
+  "bewerber": {
+    "pos": "noun"
+  },
+  "zeitpunkt": {
+    "pos": "noun"
+  },
+  "projektleiterin": {
+    "pos": "noun"
+  },
+  "koordination": {
+    "pos": "noun"
+  },
+  "fachseminar": {
+    "pos": "noun"
+  },
+  "workshop": {
+    "pos": "noun"
+  },
+  "themen": {
+    "pos": "noun"
+  },
+  "transformation": {
+    "pos": "noun"
+  },
+  "mitglieder": {
+    "pos": "noun"
+  },
+  "institut": {
+    "pos": "noun"
+  },
+  "weiterbildung": {
+    "pos": "noun"
+  },
+  "miete": {
+    "pos": "noun"
+  },
+  "nebenkosten": {
+    "pos": "noun"
+  },
+  "hausverwaltung": {
+    "pos": "noun"
+  },
+  "haftpflichtversicherung": {
+    "pos": "noun"
+  },
+  "beruf": {
+    "pos": "noun"
+  },
+  "summe": {
+    "pos": "noun"
+  },
+  "jahresende": {
+    "pos": "noun"
+  },
+  "beratung": {
+    "pos": "noun"
+  },
+  "anhang": {
+    "pos": "noun"
+  },
+  "versicherung": {
+    "pos": "noun"
+  },
+  "sicher": {
+    "pos": "noun"
+  },
+  "ausübung": {
+    "pos": "noun"
+  },
+  "widerrufs": {
+    "pos": "noun"
+  },
+  "rücksendung": {
+    "pos": "noun"
+  },
+  "datum": {
+    "pos": "noun"
+  },
+  "erhalts": {
+    "pos": "noun"
+  },
+  "shop": {
+    "pos": "noun"
+  },
+  "digitalisierung": {
+    "pos": "noun"
+  },
+  "phase": {
+    "pos": "noun"
+  },
+  "abläufe": {
+    "pos": "noun"
+  },
+  "umsetzung": {
+    "pos": "noun"
+  },
+  "zeitplan": {
+    "pos": "noun"
+  },
+  "consulting": {
+    "pos": "noun"
+  },
+  "plus": {
+    "pos": "noun"
+  },
+  "forschungseinrichtungen": {
+    "pos": "noun"
+  },
+  "energieversorgung": {
+    "pos": "noun"
+  },
+  "skizze": {
+    "pos": "noun"
+  },
+  "solutions": {
+    "pos": "noun"
+  },
+  "versichertenkarte": {
+    "pos": "noun"
+  },
+  "medikamentenliste": {
+    "pos": "noun"
+  },
+  "verhinderung": {
+    "pos": "noun"
+  },
+  "straßenbahnhaltestelle": {
+    "pos": "noun"
+  },
+  "praxis": {
+    "pos": "noun"
+  },
+  "neumann": {
+    "pos": "noun"
+  },
+  "materialkosten": {
+    "pos": "noun"
+  },
+  "erhöhung": {
+    "pos": "noun"
+  },
+  "prozent": {
+    "pos": "noun"
+  },
+  "bestehende": {
+    "pos": "noun"
+  },
+  "vertragsablauf": {
+    "pos": "noun"
+  },
+  "ausführliche": {
+    "pos": "noun"
+  },
+  "süd": {
+    "pos": "noun"
+  },
+  "qualitätskontrolle": {
+    "pos": "noun"
+  },
+  "prozesse": {
+    "pos": "noun"
+  },
+  "west": {
+    "pos": "noun"
+  },
+  "zeugnisse": {
+    "pos": "noun"
+  },
+  "september": {
+    "pos": "noun"
+  },
+  "andernfalls": {
+    "pos": "noun"
+  },
+  "finanzbuchhaltung": {
+    "pos": "noun"
+  },
+  "entwurf": {
+    "pos": "noun"
+  },
+  "heizungsanlage": {
+    "pos": "noun"
+  },
+  "ausfall": {
+    "pos": "noun"
+  },
+  "vierteljahr": {
+    "pos": "noun"
+  },
+  "techniker": {
+    "pos": "noun"
+  },
+  "führungskräfte": {
+    "pos": "noun"
+  },
+  "kommunikationsstrategien": {
+    "pos": "noun"
+  },
+  "teilnahmegebühr": {
+    "pos": "noun"
+  },
+  "verpflegung": {
+    "pos": "noun"
+  },
+  "absolventen": {
+    "pos": "noun"
+  },
+  "führung": {
+    "pos": "noun"
+  },
+  "anliegen": {
+    "pos": "noun"
+  },
+  "qualitätsmanagement": {
+    "pos": "noun"
+  },
+  "aufkommens": {
+    "pos": "noun"
+  },
+  "bürgeramt": {
+    "pos": "noun"
+  },
+  "mitte": {
+    "pos": "noun"
+  },
+  "kochen": {
+    "pos": "verb"
+  },
+  "tanzen": {
+    "pos": "verb"
+  },
+  "singen": {
+    "pos": "verb"
+  },
+  "lernen": {
+    "pos": "verb",
+    "ru": "учить(ся)",
+    "en": "to learn"
+  },
+  "hören": {
+    "pos": "verb"
+  },
+  "schwimmen": {
+    "pos": "verb"
+  },
+  "arbeiten": {
+    "pos": "verb",
+    "ru": "работать",
+    "en": "to work"
+  },
+  "nehmen": {
+    "pos": "verb"
+  },
+  "finden": {
+    "pos": "verb"
+  },
+  "besuchen": {
+    "pos": "verb"
+  },
+  "helfen": {
+    "pos": "verb"
+  },
+  "kommen": {
+    "pos": "verb",
+    "ru": "приходить",
+    "en": "to come"
+  },
+  "brauchen": {
+    "pos": "verb"
+  },
+  "regnen": {
+    "pos": "verb"
+  },
+  "bezahlen": {
+    "pos": "verb"
+  },
+  "feiern": {
+    "pos": "verb"
+  },
+  "anrufen": {
+    "pos": "verb"
+  },
+  "putzen": {
+    "pos": "verb"
+  },
+  "grillen": {
+    "pos": "verb"
+  },
+  "tragen": {
+    "pos": "verb"
+  },
+  "backen": {
+    "pos": "verb"
+  },
+  "lieben": {
+    "pos": "verb"
+  },
+  "— dennoch / deshalb / trotzdem / weil": {
+    "pos": "verb"
+  },
+  "— denn / dennoch / deshalb / trotzdem": {
+    "pos": "verb"
+  },
+  "tech": {
+    "pos": "noun"
+  },
+  "techpro": {
+    "pos": "noun"
+  },
+  "green": {
+    "pos": "noun"
+  },
+  "greentech": {
+    "pos": "noun"
+  },
+  "mode": {
+    "pos": "noun"
+  },
+  "modeonline": {
+    "pos": "noun"
+  },
+  "haben": {
+    "pos": "verb",
+    "ru": "иметь",
+    "en": "to have"
+  },
+  "sein": {
+    "pos": "verb",
+    "ru": "быть",
+    "en": "to be"
+  },
+  "gut": {
+    "pos": "adj",
+    "ru": "хороший",
+    "en": "good"
+  }
+}

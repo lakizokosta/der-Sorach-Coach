@@ -1191,9 +1191,46 @@ button.lesen-gap-marker {
   padding: 10px 14px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
   z-index: 9999;
-  max-width: 240px;
+  max-width: 280px;
   font-size: 13px;
   line-height: 1.5;
+}
+.dict-popup__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.dict-popup__word {
+  font-weight: 900;
+  color: #ab4dbb;
+  font-size: 14px;
+}
+.dict-popup__lemma {
+  font-size: 12px;
+  color: #888;
+  margin-top: 2px;
+}
+.dict-popup__pos {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ab4dbb;
+  background: rgba(171, 77, 187, 0.1);
+  padding: 2px 6px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.dict-popup__body {
+  color: #444;
+  font-size: 14px;
+}
+.dict-popup__source {
+  font-size: 10px;
+  color: #ccc;
+  margin-top: 6px;
+  text-align: right;
 }
 
 /* ── Login panel (Landing) ─────────────────────────────────────────────── */
