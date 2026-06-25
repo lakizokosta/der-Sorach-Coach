@@ -112,7 +112,6 @@ onBeforeUnmount(() => {
       <span v-if="loading">⏳</span>
       <span v-else>{{ translation }}</span>
     </div>
-    <div v-if="source === 'api'" class="dict-popup__source">MyMemory</div>
-    <div v-else-if="source === 'local'" class="dict-popup__source">Wörterbuch</div>
+    <div v-if="source === 'local'" class="dict-popup__source">Wörterbuch</div>
   </div>
 </template>

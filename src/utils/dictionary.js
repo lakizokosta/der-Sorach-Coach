@@ -5,7 +5,9 @@
  *   1. Stopwords / grammar meta → not clickable
  *   2. Lemma resolution (verb/adj inflection maps from question bank)
  *   3. Local `vocabulary.json` (+ seed merges at build time)
- *   4. MyMemory API fallback (cached in sessionStorage)
+ *
+ * MyMemory is not used at runtime (too unreliable). Build-time fetch remains
+ * optional via `npm run dictionary:build:fetch` for drafting vocabulary.json.
  */
 
 import { isDictStopword } from '@/data/stopwords.js';
@@ -14,8 +16,6 @@ import verbLemmas from '@/data/verbLemmas.json';
 import adjLemmas from '@/data/adjLemmas.json';
 import nounLemmas from '@/data/nounLemmas.json';
 import vocabulary from '@/data/vocabulary.json';
-
-const MEMORY_URL = 'https://api.mymemory.translated.net/get';
 
 /** @param {string} word */
 export function shouldSkipDictionaryWord(word) {
@@ -116,60 +116,22 @@ export function wrapWordsForDictionary(text) {
 }
 
 /**
- * @param {string} raw
- * @return {string}
- */
-export function cleanTranslation(raw) {
-  if (!raw) return '';
-  let t = raw.replace(/[\r\n]+/g, ' ').trim();
-  const ta = document.createElement('textarea');
-  ta.innerHTML = t;
-  t = ta.value;
-  if (t === t.toUpperCase() && t.length > 1) {
-    t = t.charAt(0).toUpperCase() + t.slice(1).toLowerCase();
-  }
-  return t;
-}
-
-/**
  * @param {string} lemma
  * @param {'ru'|'en'} targetLang
- * @return {Promise<{ translation: string, source: 'local'|'api'|'none' }>}
+ * @return {{ translation: string, source: 'local'|'none' }}
  */
-async function lookupLemmaInLang(lemma, targetLang) {
+function lookupLemmaInLang(lemma, targetLang) {
   const local = getLocalTranslation(lemma, targetLang);
   if (local && isUsableTranslation(local, lemma, targetLang)) {
     return { translation: local, source: 'local' };
   }
-
-  const cacheKey = `dict_${lemma}_${targetLang}`;
-  const cached = sessionStorage.getItem(cacheKey);
-  if (cached !== null) {
-    return {
-      translation: cached || '—',
-      source: cached && cached !== '—' ? 'api' : 'none',
-    };
-  }
-
-  const langpair = targetLang === 'en' ? 'de|en' : 'de|ru';
-  try {
-    const url = `${MEMORY_URL}?q=${encodeURIComponent(lemma)}&langpair=${langpair}`;
-    const res = await fetch(url);
-    const data = await res.json();
-    const raw = data?.responseData?.translatedText || '';
-    let result = cleanTranslation(raw);
-    if (!isUsableTranslation(result, lemma, targetLang)) result = '—';
-    sessionStorage.setItem(cacheKey, result);
-    return { translation: result, source: result === '—' ? 'none' : 'api' };
-  } catch {
-    return { translation: '(Keine Verbindung)', source: 'none' };
-  }
+  return { translation: '—', source: 'none' };
 }
 
 /**
  * @param {string} word
  * @param {string} uiLocale  `de` | `ru` | `en`
- * @return {Promise<{ translation: string, lemma: string, pos: string|null, gender: string|null, source: 'local'|'api'|'none', targetLang: 'ru'|'en' }>}
+ * @return {Promise<{ translation: string, lemma: string, pos: string|null, gender: string|null, source: 'local'|'none', targetLang: 'ru'|'en' }>}
  */
 export async function lookupWord(word, uiLocale) {
   const { form, lemma, pos } = resolveLemma(word);
@@ -181,7 +143,7 @@ export async function lookupWord(word, uiLocale) {
   let last = { translation: '—', source: /** @type {'none'} */ ('none'), targetLang: langs[0] };
 
   for (const targetLang of langs) {
-    const hit = await lookupLemmaInLang(lemma, targetLang);
+    const hit = lookupLemmaInLang(lemma, targetLang);
     last = { ...hit, targetLang };
     if (hit.source !== 'none' && hit.translation !== '—') {
       return {
