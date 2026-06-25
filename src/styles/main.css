@@ -4367,36 +4367,6 @@ button.lesen-gap-marker {
     transform 0.18s ease,
     box-shadow 0.18s ease;
 }
-.landing-login-btn {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-  margin: 12px auto 0;
-  padding: 14px 20px;
-  border: none;
-  border-radius: 999px;
-  background: linear-gradient(135deg, #c86dd7, #ab4dbb);
-  font-size: 14px;
-  font-weight: 900;
-  color: #fff;
-  cursor: pointer;
-  box-shadow: 0 4px 15px rgba(171, 77, 187, 0.4);
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease;
-}
-.landing-login-btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 24px rgba(171, 77, 187, 0.35);
-}
-.landing-login-btn:active {
-  transform: translateY(0) scale(0.97);
-  box-shadow: 0 3px 8px rgba(171, 77, 187, 0.25);
-}
-.landing-login-btn:focus-visible {
-  outline: 2px solid #7b2d8b;
-  outline-offset: 2px;
-}
 .landing-more-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 24px rgba(105, 196, 59, 0.28);
