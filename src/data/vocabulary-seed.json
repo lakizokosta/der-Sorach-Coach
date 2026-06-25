@@ -112,5 +112,6 @@
   "ergebnis": { "pos": "noun", "ru": "результат", "en": "result", "gender": "n" },
   "anna": { "pos": "noun", "ru": "Анна", "en": "Anna", "gender": "f" },
   "infolge": { "pos": "noun", "ru": "вследствие", "en": "as a result of", "gender": "f" },
-  "reihenfolge": { "pos": "noun", "ru": "порядок", "en": "order / sequence", "gender": "f" }
+  "reihenfolge": { "pos": "noun", "ru": "порядок", "en": "order / sequence", "gender": "f" },
+  "lehrerin": { "pos": "noun", "ru": "учительница", "en": "teacher (female)", "gender": "f" }
 }

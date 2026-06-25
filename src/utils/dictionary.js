@@ -52,17 +52,43 @@ export function resolveLemma(word) {
 }
 
 /**
+ * Maps UI locale to foreign-language gloss target(s). Never German→German.
+ *
+ * @param {string} uiLocale  `de` | `ru` | `en`
+ * @return {('ru'|'en')[]}
+ */
+export function resolveDictionaryTargetLangs(uiLocale) {
+  if (uiLocale === 'en') return ['en'];
+  if (uiLocale === 'ru') return ['ru'];
+  return ['ru', 'en'];
+}
+
+/**
  * @param {string} lemma
- * @param {'ru'|'en'|'de'} lang
+ * @param {'ru'|'en'} lang
  * @return {string|null}
  */
 export function getLocalTranslation(lemma, lang) {
   const entry = vocabulary[String(lemma || '').toLowerCase()];
   if (!entry) return null;
-  if (lang === 'de') return null;
   const raw = lang === 'en' ? entry.en : entry.ru;
   if (!raw || /MYMEMORY WARNING/i.test(raw)) return null;
   return raw;
+}
+
+/**
+ * @param {string} text
+ * @param {string} lemma
+ * @param {'ru'|'en'} lang
+ * @return {boolean}
+ */
+function isUsableTranslation(text, lemma, lang) {
+  if (!text || text === '—') return false;
+  if (text.toLowerCase() === lemma.toLowerCase()) return false;
+  if (lang === 'ru' && !/[а-яё]/i.test(text) && /^[a-zäöüß0-9\s.,/()-]+$/i.test(text)) {
+    return false;
+  }
+  return true;
 }
 
 /**
@@ -106,30 +132,14 @@ export function cleanTranslation(raw) {
 }
 
 /**
- * @param {string} word
- * @param {('ru'|'en'|'de')} lang
- * @return {Promise<{ translation: string, lemma: string, pos: string|null, gender: string|null, source: 'local'|'api'|'none' }>}
+ * @param {string} lemma
+ * @param {'ru'|'en'} targetLang
+ * @return {Promise<{ translation: string, source: 'local'|'api'|'none' }>}
  */
-export async function lookupWord(word, lang) {
-  const { form, lemma, pos } = resolveLemma(word);
-  const gender = getNounGender(lemma);
-  const targetLang = lang === 'de' ? 'de' : lang;
-
-  if (targetLang === 'de') {
-    const entry = vocabulary[lemma];
-    const label = entry?.pos === 'verb'
-      ? `Infinitiv: ${lemma}`
-      : entry?.pos === 'adj'
-        ? `Grundform: ${lemma}`
-        : entry?.pos === 'noun' && gender
-          ? `${lemma} (${gender}.)`
-          : lemma;
-    return { translation: label, lemma, pos: pos || entry?.pos || null, gender, source: 'local' };
-  }
-
+async function lookupLemmaInLang(lemma, targetLang) {
   const local = getLocalTranslation(lemma, targetLang);
-  if (local) {
-    return { translation: local, lemma, pos, gender, source: 'local' };
+  if (local && isUsableTranslation(local, lemma, targetLang)) {
+    return { translation: local, source: 'local' };
   }
 
   const cacheKey = `dict_${lemma}_${targetLang}`;
@@ -137,10 +147,7 @@ export async function lookupWord(word, lang) {
   if (cached !== null) {
     return {
       translation: cached || '—',
-      lemma,
-      pos,
-      gender,
-      source: cached ? 'api' : 'none',
+      source: cached && cached !== '—' ? 'api' : 'none',
     };
   }
 
@@ -151,17 +158,61 @@ export async function lookupWord(word, lang) {
     const data = await res.json();
     const raw = data?.responseData?.translatedText || '';
     let result = cleanTranslation(raw);
-    if (!result || result.toLowerCase() === lemma.toLowerCase()) result = '—';
+    if (!isUsableTranslation(result, lemma, targetLang)) result = '—';
     sessionStorage.setItem(cacheKey, result);
-    return { translation: result, lemma, pos, gender, source: result === '—' ? 'none' : 'api' };
+    return { translation: result, source: result === '—' ? 'none' : 'api' };
   } catch {
-    return { translation: '(Keine Verbindung)', lemma, pos, gender, source: 'none' };
+    return { translation: '(Keine Verbindung)', source: 'none' };
   }
+}
+
+/**
+ * @param {string} word
+ * @param {string} uiLocale  `de` | `ru` | `en`
+ * @return {Promise<{ translation: string, lemma: string, pos: string|null, gender: string|null, source: 'local'|'api'|'none', targetLang: 'ru'|'en' }>}
+ */
+export async function lookupWord(word, uiLocale) {
+  const { form, lemma, pos } = resolveLemma(word);
+  const gender = getNounGender(lemma);
+  const entry = vocabulary[lemma];
+  const resolvedPos = pos || entry?.pos || null;
+  const langs = resolveDictionaryTargetLangs(uiLocale);
+
+  let last = { translation: '—', source: /** @type {'none'} */ ('none'), targetLang: langs[0] };
+
+  for (const targetLang of langs) {
+    const hit = await lookupLemmaInLang(lemma, targetLang);
+    last = { ...hit, targetLang };
+    if (hit.source !== 'none' && hit.translation !== '—') {
+      return {
+        translation: hit.translation,
+        lemma,
+        pos: resolvedPos,
+        gender,
+        source: hit.source,
+        targetLang,
+      };
+    }
+  }
+
+  return {
+    translation: last.translation,
+    lemma,
+    pos: resolvedPos,
+    gender,
+    source: last.source,
+    targetLang: last.targetLang,
+  };
 }
 
 /** @deprecated Use lookupWord — kept for gradual migration. */
 export async function translate(word, lang) {
-  const code = lang === 'EN' ? 'en' : lang === 'RU' ? 'ru' : String(lang).toLowerCase();
-  const result = await lookupWord(word, code);
+  const uiLocale =
+    lang === 'EN' || lang === 'en'
+      ? 'en'
+      : lang === 'RU' || lang === 'ru'
+        ? 'ru'
+        : 'de';
+  const result = await lookupWord(word, uiLocale);
   return result.translation;
 }

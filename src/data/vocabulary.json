@@ -1256,8 +1256,9 @@
   },
   "lehrerin": {
     "pos": "noun",
-    "ru": "Учитель",
-    "en": "bordell."
+    "ru": "учительница",
+    "en": "teacher (female)",
+    "gender": "f"
   },
   "unternehmen": {
     "pos": "noun",

@@ -2,7 +2,7 @@
 /**
  * DictionaryPopup — floating translation for a clicked German word.
  *
- * Uses the app UI locale (DE / RU / EN). Local vocabulary first, MyMemory fallback.
+ * Uses the app UI locale (DE / RU / EN). DE UI shows RU/EN gloss — never German→German.
  */
 
 import { ref, watch, computed, onMounted, onBeforeUnmount } from 'vue';
@@ -53,9 +53,8 @@ function syncPosition() {
 async function lookup() {
   if (!props.target?.word) return;
   loading.value = true;
-  const lang = locale.value === 'ru' ? 'ru' : locale.value === 'en' ? 'en' : 'de';
   const resolved = resolveLemma(props.target.word);
-  const result = await lookupWord(props.target.word, lang);
+  const result = await lookupWord(props.target.word, locale.value);
 
   lemmaLine.value = resolved.lemma;
   translation.value = result.translation;
@@ -114,8 +113,6 @@ onBeforeUnmount(() => {
       <span v-else>{{ translation }}</span>
     </div>
     <div v-if="source === 'api'" class="dict-popup__source">MyMemory</div>
-    <div v-else-if="source === 'local' && locale !== 'de'" class="dict-popup__source">
-      Wörterbuch
-    </div>
+    <div v-else-if="source === 'local'" class="dict-popup__source">Wörterbuch</div>
   </div>
 </template>
