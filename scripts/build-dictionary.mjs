@@ -18,7 +18,7 @@ import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
+import { parseQuestionFile, stripTrailingPromptHint } from '../src/utils/markdownQuestion.js';
 import { isDictStopword } from '../src/data/stopwords.js';
 import { isDictMetaSkipped } from '../src/data/dictMeta.js';
 import { NOUN_FORM_LEMMAS } from '../src/data/nounLemmaForms.js';
@@ -46,9 +46,7 @@ function shouldSkipToken(word) {
 
 /** Strip trailing hint in parentheses from prompt body. */
 function stripHint(text) {
-  return String(text || '')
-    .replace(/\s*\([^)]*\)\s*$/, '')
-    .trim();
+  return stripTrailingPromptHint(text);
 }
 
 /** Extract hint text from trailing `(…)`. */

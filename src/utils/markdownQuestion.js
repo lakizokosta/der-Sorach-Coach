@@ -35,6 +35,19 @@
 
 import { applyInterrogativePunctuation } from './questionPunctuation.js';
 
+/**
+ * Removes the trailing grammar hint in parentheses from a prompt body,
+ * e.g. `(Indirekte Rede + Verb sein)` or `(Relativsatz)`.
+ *
+ * @param {string} text
+ * @return {string}
+ */
+export function stripTrailingPromptHint(text) {
+  return String(text || '')
+    .replace(/\s*\([^)]*\)\s*$/, '')
+    .trim();
+}
+
 const FRONTMATTER_RE = /^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/;
 
 /**

@@ -13,6 +13,7 @@
 
 import { computed, ref, onMounted, onBeforeUnmount } from 'vue';
 import { shuffle } from '@/utils/random.js';
+import { stripTrailingPromptHint } from '@/utils/markdownQuestion.js';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -32,7 +33,7 @@ const shuffledOpts = ref([]);
 const gaps = computed(() => props.question.gaps || []);
 
 const segments = computed(() => {
-  const parts = (props.question.prompt || '').split('___');
+  const parts = stripTrailingPromptHint(props.question.prompt || '').split('___');
   const out = [];
   for (let i = 0; i < parts.length; i++) {
     out.push({ type: 'text', value: parts[i] });

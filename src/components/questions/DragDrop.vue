@@ -12,6 +12,7 @@
 
 import { computed, ref, onMounted } from 'vue';
 import { shuffle } from '@/utils/random.js';
+import { stripTrailingPromptHint } from '@/utils/markdownQuestion.js';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -190,6 +191,12 @@ function renderTekamoloBreakdown(words, codes) {
   );
 }
 
+const promptLabel = computed(
+  () =>
+    stripTrailingPromptHint(props.question.prompt || '') ||
+    'Ordne die Wörter zum richtigen Satz:',
+);
+
 const chipClass = computed(() => (word, index) => {
   if (showSolution.value || (finalised.value && succeeded.value)) return 'correct';
   if (!finalised.value || wrongChecks.value < 2) return '';
@@ -200,7 +207,7 @@ const chipClass = computed(() => (word, index) => {
 <template>
   <div>
     <div class="question-box">
-      {{ question.prompt || 'Ordne die Wörter zum richtigen Satz:' }}
+      {{ promptLabel }}
     </div>
 
     <div class="dd-drop">

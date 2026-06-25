@@ -12,6 +12,7 @@
 
 import { computed, nextTick, onMounted, ref } from 'vue';
 import { wrapWordsForDictionary } from '@/utils/dictionary.js';
+import { stripTrailingPromptHint } from '@/utils/markdownQuestion.js';
 import { resolveSpatialScene } from '@/utils/prepositionSpatial.js';
 import PrepositionSpatialHint from '@/components/PrepositionSpatialHint.vue';
 
@@ -28,7 +29,8 @@ const message = ref('');
 const hintVisible = ref(false);
 const inputRef = ref(null);
 
-const parts = (props.question.prompt || '').split('___');
+const displayPrompt = stripTrailingPromptHint(props.question.prompt || '');
+const parts = displayPrompt.split('___');
 const acceptable = (props.question.correct || []).map((s) => String(s).toLowerCase());
 
 const spatialScene = computed(() => resolveSpatialScene(props.question));
