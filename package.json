@@ -49,6 +49,7 @@
     "questions:audit-informative": "node scripts/audit-input-text-informative.mjs",
     "questions:audit-final": "node scripts/audit-final.mjs",
     "dictionary:build": "node scripts/build-dictionary.mjs",
+    "dictionary:seed-en": "node scripts/sync-en-seed.mjs",
     "dictionary:build:fetch": "node scripts/build-dictionary.mjs --fetch-translations",
     "dictionary:build:fetch:top": "node scripts/build-dictionary.mjs --fetch-translations --fetch-limit=200",
     "backend:verify": "node scripts/verify-backend.mjs",

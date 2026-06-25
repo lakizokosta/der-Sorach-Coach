@@ -84,10 +84,18 @@ export function getLocalTranslation(lemma, lang) {
  */
 function isUsableTranslation(text, lemma, lang) {
   if (!text || text === '—') return false;
-  if (text.toLowerCase() === lemma.toLowerCase()) return false;
+  if (text.toLowerCase() === lemma.toLowerCase()) {
+    // English cognates (Park, Student, …) are valid glosses.
+    if (lang === 'en') return true;
+    return false;
+  }
   if (lang === 'ru' && !/[а-яё]/i.test(text) && /^[a-zäöüß0-9\s.,/()-]+$/i.test(text)) {
     return false;
   }
+  if (lang === 'en' && /[а-яё]/i.test(text)) return false;
+  if (/<[^>]+>/.test(text)) return false;
+  if (/^\?+$|^\d+\.?$|^\.\.\.$|^-$|^\.$/.test(text.trim())) return false;
+  if (/SELLER NAME|Kurzinhalt|MYMEMORY/i.test(text)) return false;
   return true;
 }
 

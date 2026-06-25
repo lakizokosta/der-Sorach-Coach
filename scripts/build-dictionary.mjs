@@ -26,6 +26,7 @@ import { NOUN_FORM_LEMMAS } from '../src/data/nounLemmaForms.js';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const QROOT = join(ROOT, 'src', 'questions');
 const SEED_PATH = join(ROOT, 'src', 'data', 'vocabulary-seed.json');
+const SEED_EN_PATH = join(ROOT, 'src', 'data', 'vocabulary-seed-en.json');
 
 const fetchTranslations = process.argv.includes('--fetch-translations');
 const fetchLimitArg = process.argv.find((a) => a.startsWith('--fetch-limit='));
@@ -196,8 +197,9 @@ function cleanFetchedTranslation(raw) {
 mergeExistingVocabulary();
 
 // Manual seed translations always win over fetched drafts.
-if (existsSync(SEED_PATH)) {
-  const seed = JSON.parse(readFileSync(SEED_PATH, 'utf8'));
+function mergeSeedFile(path) {
+  if (!existsSync(path)) return;
+  const seed = JSON.parse(readFileSync(path, 'utf8'));
   for (const [lemma, entry] of Object.entries(seed)) {
     const key = lemma.toLowerCase();
     const row = vocab.get(key) || { pos: entry.pos || 'noun', freq: 0 };
@@ -208,6 +210,9 @@ if (existsSync(SEED_PATH)) {
     vocab.set(key, row);
   }
 }
+
+mergeSeedFile(SEED_PATH);
+mergeSeedFile(SEED_EN_PATH);
 
 async function fetchTranslation(word, lang) {
   const langpair = lang === 'en' ? 'de|en' : 'de|ru';
