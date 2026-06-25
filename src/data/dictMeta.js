@@ -66,6 +66,9 @@ export const DICT_SKIP_LEMMAS = new Set([
   'richtigen', 'richtige', 'richtig',
   'ordne', 'wörter', 'worter',
   'grammatikform', 'adjektivendung',
+  'tekamolo', 'wechselpräp', 'satzstellung', 'plural',
+  'studentem', 'annam', 'annan', 'annas', 'jurnalist', 'herre',
+  'teams', 'ice', 'mount',
 ]);
 
 /**

@@ -12,6 +12,7 @@ import { isDictStopword } from '@/data/stopwords.js';
 import { isDictMetaSkipped } from '@/data/dictMeta.js';
 import verbLemmas from '@/data/verbLemmas.json';
 import adjLemmas from '@/data/adjLemmas.json';
+import nounLemmas from '@/data/nounLemmas.json';
 import vocabulary from '@/data/vocabulary.json';
 
 const MEMORY_URL = 'https://api.mymemory.translated.net/get';
@@ -37,6 +38,11 @@ export function resolveLemma(word) {
   }
   if (adjLemmas[key]) {
     return { form, lemma: adjLemmas[key], pos: 'adj' };
+  }
+  if (nounLemmas[key]) {
+    const lemma = nounLemmas[key];
+    const entry = vocabulary[lemma];
+    return { form, lemma, pos: entry?.pos || 'noun' };
   }
   const entry = vocabulary[key];
   if (entry) {

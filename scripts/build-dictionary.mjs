@@ -21,6 +21,7 @@ import { dirname } from 'node:path';
 import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
 import { isDictStopword } from '../src/data/stopwords.js';
 import { isDictMetaSkipped } from '../src/data/dictMeta.js';
+import { NOUN_FORM_LEMMAS } from '../src/data/nounLemmaForms.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const QROOT = join(ROOT, 'src', 'questions');
@@ -105,6 +106,7 @@ function* walk(dir) {
 
 const verbLemmas = {};
 const adjLemmas = {};
+const nounLemmas = { ...NOUN_FORM_LEMMAS };
 /** @type {Map<string, { pos: string, freq: number, gender?: string }>} */
 const vocab = new Map();
 let fileCount = 0;
@@ -243,6 +245,7 @@ function writeVocabularyOutputs() {
 
   writeFileSync(join(ROOT, 'src', 'data', 'verbLemmas.json'), JSON.stringify(verbLemmas, null, 0));
   writeFileSync(join(ROOT, 'src', 'data', 'adjLemmas.json'), JSON.stringify(adjLemmas, null, 0));
+  writeFileSync(join(ROOT, 'src', 'data', 'nounLemmas.json'), JSON.stringify(nounLemmas, null, 0));
   writeFileSync(VOCAB_PATH, JSON.stringify(vocabularyOut, null, 2));
 
   const csvLines = [

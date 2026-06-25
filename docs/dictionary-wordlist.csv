@@ -13,7 +13,7 @@ lemma,pos,freq,ru,en,status
 "kollegen",noun,214,"коллеги","colleagues",done
 "stelle",noun,204,"место / должность","place / position",done
 "park",noun,202,"парк","park",done
-"berlin",noun,200,"Берлин","",pending
+"berlin",noun,200,"Берлин","Berlin",done
 "kurs",noun,194,"курс","course",done
 "schule",noun,192,"школа","school",done
 "firma",noun,182,"фирма","company",done
@@ -27,57 +27,54 @@ lemma,pos,freq,ru,en,status
 "interesse",noun,152,"интерес","interest",done
 "bericht",noun,152,"отчёт","report",done
 "kind",noun,148,"ребёнок","child",done
-"tisch",noun,148,"Стол","Straight Arm Glute Bridge",done
-"arbeit",noun,146,"Работа","work",done
-"chef",noun,142,"vorgesetzter","",pending
-"hund",noun,138,"Собака","dog",done
+"tisch",noun,148,"стол","table",done
+"arbeit",noun,146,"работа","work",done
+"chef",noun,142,"начальник","boss",done
+"hund",noun,138,"собака","dog",done
 "mutter",noun,138,"мать","mother",done
-"wochenende",noun,134,"выходных","weekend",done
-"thema",noun,134,"Тема","topic",done
-"essen",noun,133,"блюдо","to eat",done
-"meeting",noun,132,"Чтобы узнать","",pending
-"antwort",noun,130,"Ответ","",pending
-"wohnung",noun,128,"Жилого помещения","Main apartment",done
-"tür",noun,128,"Дверь","door",done
-"deutsch",noun,126,"Германия","German",done
+"wochenende",noun,134,"выходные","weekend",done
+"thema",noun,134,"тема","topic",done
+"essen",noun,133,"еда","food",done
+"meeting",noun,132,"совещание","meeting",done
+"antwort",noun,130,"ответ","answer",done
+"wohnung",noun,128,"квартира","apartment",done
+"tür",noun,128,"дверь","door",done
+"deutsch",adj,126,"немецкий","German",done
 "wasser",noun,122,"вода","water",done
-"zimmer",noun,120,"класса","sleeping room",done
-"regelung",noun,120,"Регулирование","control",done
-"geschenk",noun,118,"bills|подарок","gift",done
-"meinung",noun,118,"Мнение","review",done
-"fehler",noun,116,"Ошибка","error",done
+"zimmer",noun,120,"комната","room",done
+"regelung",noun,120,"регулирование / правило","regulation",done
+"geschenk",noun,118,"подарок","gift",done
+"meinung",noun,118,"мнение","opinion",done
+"fehler",noun,116,"ошибка","mistake",done
 "ergebnisse",noun,112,"испытаний","Results",done
-"freund",noun,108,"karachov","Friend",done
-"minister",noun,108,"министр","MINISTERS",done
-"musik",noun,106,"Музыка","music",done
+"freund",noun,108,"друг","friend",done
+"minister",noun,108,"министр","minister",done
+"musik",noun,106,"музыка","music",done
 "gäste",noun,104,"Гости:","Guests",done
 "wetters",noun,104,"погода","weather",done
-"bruder",noun,102,"Брат","",pending
-"plural",noun,102,"Ð¼Ð½Ð¾Ð¶ÐµÑÑÐ²ÐµÐ½Ð½Ð¾Ðµ ÑÐ¸ÑÐ»Ð¾","Plural Name",done
-"erfahrung",noun,102,"Опыт","expertise",done
-"gegenteil",noun,100,"противоположность","Opposite",done
-"wechselpräp",noun,100,"взаимозаменяемый препарат","interchangeable preparation",done
-"satzstellung",noun,100,"позиция записи","Word order",done
-"reihenfolge",noun,100,"Порядок:","order",done
+"bruder",noun,102,"брат","brother",done
+"erfahrung",noun,102,"опыт","experience",done
+"gegenteil",noun,100,"противоположность","opposite",done
+"reihenfolge",noun,100,"порядок","order / sequence",done
 "reisen",noun,99,"путешествиями","travel",done
-"nachricht",noun,96,"Сообщение","messsage",done
-"professor",noun,96,"","",pending
-"fahrrad",noun,94,"Велосипед","bike",done
+"nachricht",noun,96,"сообщение","message",done
+"professor",noun,96,"профессор","professor",done
+"fahrrad",noun,94,"велосипед","bicycle",done
 "kinder",noun,94,"Дети","children",done
-"nachfrage",noun,94,"по запросу","request",done
-"tee",noun,90,"Чай","tea",done
-"fest",noun,90,"твёрдое","hard",done
+"nachfrage",noun,94,"спрос","demand",done
+"tee",noun,90,"чай","tea",done
+"fest",noun,90,"праздник / фестиваль","festival / party",done
 "gründen",noun,90,"основать","to form, to establish",done
-"idee",noun,86,"Идея","idea",done
-"familie",noun,86,"Семья","Family",done
+"idee",noun,86,"идея","idea",done
+"familie",noun,86,"семья","family",done
 "haus",noun,86,"дом","house",done
 "konferenz",noun,86,"конференция","conference",done
-"kaffee",noun,84,"Кофе","Almkaffee",done
-"verspätung",noun,84,"задержка","Delayed",done
+"kaffee",noun,84,"кофе","coffee",done
+"verspätung",noun,84,"опоздание","delay",done
 "nachrichten",noun,84,"Новости","messages",done
-"land",noun,82,"страна","nederland",done
-"platz",noun,82,"месте","The same sentence should be formulated to all countries below:",done
-"mann",noun,80,"Мужчина","Hoffmann",done
+"land",noun,82,"страна","country",done
+"platz",noun,82,"место / площадь","place / square",done
+"mann",noun,80,"мужчина","man",done
 "kollegin",noun,80,"Коллега","Colleague,",done
 "zeitung",noun,80,"Газета","Newspaper",done
 "studierenden",noun,80,"студенты","",pending
@@ -98,14 +95,14 @@ lemma,pos,freq,ru,en,status
 "krankenhaus",noun,68,"Больница","hospitals",done
 "kunden",noun,68,"Клиенты","Customers",done
 "vertrag",noun,68,"geschaftsvertrag","contract",done
-"frage",noun,66,".","ask",done
+"frage",noun,66,"вопрос","question",done
 "studiengang",noun,66,"Список академических дисциплин","",pending
 "kosten",noun,66,"пoпробовать","fees",done
 "patient",noun,66,"Пациент","",pending
 "küche",noun,64,"кухня","Kitchen",done
 "geld",noun,64,"Деньги","money",done
 "freunde",noun,64,"Друзья","Friends",done
-"lust",noun,64,"","Pleasure",pending
+"lust",noun,64,"желание / удовольствие","desire / pleasure",done
 "eingang",noun,64,"Входящий &#8470;","goods",done
 "studenten",noun,64,"Студент","Students",done
 "lampe",noun,62,"Лампа","Lamp",done
@@ -116,12 +113,12 @@ lemma,pos,freq,ru,en,status
 "angst",noun,62,"страх","Anxiety",done
 "aufgabe",noun,60,"Задача","task",done
 "brot",noun,60,"изображение","Bread",done
-"frau",noun,60,"Г-жа","Ms.",done
+"frau",noun,60,"женщина","woman",done
 "hamburg",noun,60,"Гамбург","",pending
 "ecke",noun,60,"Угловая","Edge",done
 "teppich",noun,60,"Ковер","Carpet",done
 "formular",noun,60,"Форма","Form",done
-"pizza",noun,58,"","",pending
+"pizza",noun,58,"пицца","pizza",done
 "ärztin",noun,58,"Врач","Physician",done
 "supermarkt",noun,58,"В супермаркете","Supermarket",done
 "italien",noun,58,"Италия","ltaly",done
@@ -156,9 +153,8 @@ lemma,pos,freq,ru,en,status
 "abteilung",noun,50,"Отделение","Department",done
 "personalabteilung",noun,50,"Отдел кадров","Human Resources Department",done
 "+ präposition",verb,50,"Предлог","Preposition and postposition",done
-"tekamolo",noun,50,"","",pending
 "schirm",noun,48,"Зонт","Shield",done
-"weg",noun,48,"","route",pending
+"weg",noun,48,"путь / дорога","way / path",done
 "deutschland",noun,48,"Германия","Germany",done
 "ort",noun,48,"Населенный пункт","City",done
 "zuschauer",noun,48,"Публика","Spectators",done
@@ -190,7 +186,7 @@ lemma,pos,freq,ru,en,status
 "wirtschaft",noun,42,"Экономика / Economics","economy",done
 "überstunden",noun,42,"Сверхурочная работа","Overtime",done
 "umwelt",noun,42,"Окружающая среда","the environment",done
-"ergebnis",noun,42,"Результат","result",done
+"ergebnis",noun,42,"результат","result",done
 "damen",noun,42,"Женщины","women",done
 "herren",noun,42,"мужчины","men",done
 "krise",noun,42,"кризис","crisis",done
@@ -208,7 +204,7 @@ lemma,pos,freq,ru,en,status
 "spiel",noun,38,"Игра","match",done
 "lehrer",noun,38,"Педагоги","Teacher",done
 "klasse",noun,38,"огнестойкости","Class",done
-"ball",noun,38,"","TAll",pending
+"ball",noun,38,"мяч","ball",done
 "angebot",noun,38,"Предложение","estimate",done
 "zoo",noun,38,"Зоопарк","",pending
 "wien",noun,38,"университет","Vienna",done
@@ -243,7 +239,7 @@ lemma,pos,freq,ru,en,status
 "straßen",noun,34,"Улицы","Roads",done
 "stadtpark",noun,34,"городской парк","The city park",done
 "lehrerin",noun,34,"Учитель","bordell.",done
-"unternehmen",noun,34,"Предприятие","company",done
+"unternehmen",noun,34,"предприятие / компания","company",done
 "markt",noun,32,"Рынок","market",done
 "gitarre",noun,32,"Гитара","Guitar",done
 "brief",noun,32,"Письмо","Letter",done
@@ -292,12 +288,10 @@ lemma,pos,freq,ru,en,status
 "antrag",noun,28,"Заявление","Application",done
 "konzert",noun,26,"концерт","Concert.",done
 "flug",noun,26,"Перелет","flight simulator",done
-"anna",noun,26,"Анна","",pending
-"teams",noun,26,"","",pending
+"anna",noun,26,"Анна","Anna",done
 "hauptstraße",noun,26,"Основная дорога","Main street",done
 "herr",noun,26,"Господином","Mr.",done
 "kindheit",noun,26,"Детство","Infancy",done
-"ice",noun,26,"","The",pending
 "ruhe",noun,26,"Тишина","Peace",done
 "eis",noun,26,"Лёд","ge",done
 "jahres",noun,26,"год","3 and 4",done
@@ -306,7 +300,7 @@ lemma,pos,freq,ru,en,status
 "montag",noun,26,"Понедельник","Mon",done
 "ende",noun,26,"если","of education",done
 "mandanten",noun,26,"Клиенты","Clients",done
-"laden",noun,24,"","load",pending
+"laden",noun,24,"магазин","shop",done
 "spaß",noun,24,"Забавное","fun",done
 "freunden",noun,24,"друзья","friends",done
 "winter",noun,24,"зима","summer",done
@@ -324,7 +318,7 @@ lemma,pos,freq,ru,en,status
 "klimakonferenz",noun,24,"климатическая конференция","Climate Conference",done
 "energie",noun,24,"Энергетика","energy",done
 "englisch",noun,24,"английский","English",done
-"französisch",noun,24,"","French",pending
+"französisch",adj,24,"французский","French",done
 "verkehr",noun,24,"транспортное сообщение","transport",done
 "arbeitsbedingungen",noun,24,"Условия работы","Working terms and conditions",done
 "fachkräften",noun,24,"квалифицированные рабочие","skilled workers",done
@@ -347,7 +341,7 @@ lemma,pos,freq,ru,en,status
 "kontakt",noun,24,"Контакты","contact",done
 "arbeitsplätze",noun,24,"Рабочие места","Jobs",done
 "ereignisse",noun,24,"События","events",done
-"infolge",noun,24,"в результате","Systemic corticosteroid effects including Cushing&apos;s syndrome and adrenal suppression have been reported in patients receiving ritonavir and inhaled or intranasally administered fluticasone propionate; this could also occur with other corticosteroids metabolised via the P450 3A pathway eg budesonide.",done
+"infolge",noun,24,"вследствие","as a result of",done
 "erwartungen",noun,24,"ожидания","expectations",done
 "experte",noun,24,"Эксперт","experts",done
 "regenschirm",noun,22,"зонт","umbrella",done
@@ -406,7 +400,6 @@ lemma,pos,freq,ru,en,status
 "anspruch",noun,18,"Пункт формулы изобретения","Entitlement",done
 "belohnung",noun,18,"оплата","",pending
 "spiegel",noun,18,"Зеркальце","level",done
-"mount",noun,18,"","",pending
 "everest",noun,18,"Эверест","Everest (Kurzinhalt)",done
 "spieler",noun,18,"Игроки","players",done
 "essens",noun,18,"еда","food",done
@@ -421,7 +414,7 @@ lemma,pos,freq,ru,en,status
 "ausstellung",noun,18,"выставка","exhibition",done
 "energien",noun,18,"энергии","Energy",done
 "geschäftsreise",noun,18,"командировка","Business trip",done
-"amt",noun,18,"","Office",pending
+"amt",noun,18,"должность / ведомство","office / authority",done
 "interessen",noun,18,"Интересы","interest",done
 "reiseziel",noun,18,"Пункт назначения","destination",done
 "fernsehen",noun,18,"смотреть телевизор","to watch television",done
@@ -458,7 +451,7 @@ lemma,pos,freq,ru,en,status
 "hörst",noun,18,"вы слышите","you hear",done
 "ratschläge",noun,18,"консультация","advice points",done
 "informierst",noun,18,"информирует","informs",done
-"plan",noun,18,"","",pending
+"plan",noun,18,"план","plan",done
 "türkei",noun,18,"ТУРЦИЯ","Turkey",done
 "schiffe",noun,18,"Кораблей","Vessels",done
 "hafen",noun,18,"Порты","",pending
@@ -492,8 +485,7 @@ lemma,pos,freq,ru,en,status
 "tal",noun,16,"Долина","",pending
 "koffer",noun,16,"Чемоданы","case",done
 "kopf",noun,16,"ВЕРХНЯЯ","Header",done
-"student",noun,16,"Студент","",pending
-"studentem",noun,16,"","",pending
+"student",noun,16,"студент","student",done
 "teilnahme",noun,16,"Участие******","participation",done
 "welt",noun,16,"Worwoad","weltweit",done
 "rückfragen",noun,16,"Телефон для справок:","Queries",done
@@ -573,7 +565,7 @@ lemma,pos,freq,ru,en,status
 "ungeachtet",noun,12,"несмотря на","Notwithstanding",done
 "proteste",noun,12,"Протесты","protests",done
 "bedeutung",noun,12,"Значение","Meaning",done
-"start",noun,12,"","",pending
+"start",noun,12,"старт / начало","start",done
 "hätte",noun,12,"будет иметь","would have",done
 "sonnenstrahlen",noun,12,"солнечные лучи","Sunbeams",done
 "bach",noun,12,"Ручей","",pending
@@ -683,13 +675,10 @@ lemma,pos,freq,ru,en,status
 "interessant",adj,6,"интересный","interesting",done
 "roman",noun,6,"РомАн","",pending
 "banane",noun,6,"Банан","banana",done
-"text",noun,6,"","",pending
+"text",noun,6,"текст","text",done
 "bluse",noun,6,"Блузка","blouse",done
 "nimm",noun,6,"Возьми","TAKE",done
 "schuh",noun,6,"Ботинок","shoe",done
-"annam",noun,6,"","",pending
-"annan",noun,6,"","",pending
-"annas",noun,6,"","Annas.",pending
 "stimme",noun,6,"согласен/согласна","agree",done
 "glas",noun,6,"стекло","GLASS",done
 "autos",noun,6,"Авто.",".autos",done
@@ -757,7 +746,6 @@ lemma,pos,freq,ru,en,status
 "medikamentierung",noun,6,"лекарство","medication",done
 "genesungbar",noun,6,"извлекаемый","recoverable",done
 "sichern",noun,6,"резервное копирование","12013",done
-"jurnalist",noun,6,"","",pending
 "ausstoßen",noun,6,"извлечь","pushout",done
 "regierer",noun,6,"регулятор","governor",done
 "richterin",noun,6,"Судья","Judge",done
@@ -933,7 +921,6 @@ lemma,pos,freq,ru,en,status
 "fotografe",noun,4,"фотограф","photographer",done
 "fotograf",noun,4,"Фотограф","PHOTOGRAPHER",done
 "herrs",noun,4,"г-н","mr",done
-"herre",noun,4,"","",pending
 "komponist",noun,4,"Композитор","Composer",done
 "komponistin",noun,4,"композитор","Composer",done
 "löw",noun,4,"лёв","",pending
@@ -996,580 +983,584 @@ lemma,pos,freq,ru,en,status
 "medikamentler",noun,4,"аптекарь","druggist",done
 "genesend",noun,4,"восстановление","recovering",done
 "mandantin",noun,4,"клиент","ATTORNEY GIVER",done
-"muttern",noun,4,"","",pending
-"unternehmens",noun,4,"","",pending
-"brudern",noun,4,"","",pending
-"redaktion",noun,4,"","",pending
-"korrekturen",noun,4,"","",pending
-"studierende",noun,4,"","",pending
-"häuser",noun,4,"","",pending
-"strom",noun,4,"","",pending
-"äußerung",noun,4,"","",pending
-"hinweise",noun,4,"","",pending
-"inmitten",noun,4,"","",pending
-"inflation",noun,4,"","",pending
-"kaufkraft",noun,4,"","",pending
-"laufender",noun,4,"","",pending
-"laufendes",noun,4,"","",pending
-"kopfen",noun,4,"","",pending
-"kopfs",noun,4,"","",pending
-"rollende",noun,4,"","",pending
-"rollens",noun,4,"","",pending
-"blauem",noun,4,"","",pending
-"blaues",noun,4,"","",pending
-"breie",noun,4,"","",pending
-"beines",noun,4,"","",pending
-"beins",noun,4,"","",pending
-"sache",noun,4,"","",pending
-"punkt",noun,4,"","",pending
-"laufende",noun,4,"","",pending
-"köpfen",noun,4,"","",pending
-"roller",noun,4,"","",pending
-"blauer",noun,4,"","",pending
-"topf",noun,4,"","",pending
-"wein",noun,4,"","",pending
-"beinen",noun,4,"","",pending
-"bestellung",noun,4,"","",pending
-"verzögerung",noun,4,"","",pending
-"sendung",noun,4,"","",pending
-"sendungsnummer",noun,4,"","",pending
-"lieferung",noun,4,"","",pending
-"jens",noun,4,"","",pending
-"scherer",noun,4,"","",pending
-"kaufpreis",noun,4,"","",pending
-"hartmann",noun,4,"","",pending
-"richter",noun,4,"","",pending
-"akademie",noun,4,"","",pending
-"brandt",noun,4,"","",pending
-"schadensfall",noun,4,"","",pending
-"lehmann",noun,4,"","",pending
-"schmitt",noun,4,"","",pending
-"unannehmlichkeiten",noun,4,"","",pending
-"rashid",noun,4,"","",pending
-"mietvertrag",noun,4,"","",pending
-"wolf",noun,4,"","",pending
-"mangel",noun,4,"","",pending
-"zahlungen",noun,4,"","",pending
-"kundin",noun,4,"","",pending
-"abschluss",noun,4,"","",pending
-"antworten",verb,3,"","",pending
-"viel",adj,3,"","",pending
-"nah",adj,3,"","",pending
-"elegant",adj,3,"","",pending
-"+ verb konjunktiv ii — können/du",verb,3,"","",pending
-"schlafen",verb,3,"","",pending
-"ziehen",verb,3,"","",pending
-"treffen",verb,3,"","",pending
-"beeilen",verb,3,"","",pending
-"interessieren",verb,3,"","",pending
-"erkälten",verb,3,"","",pending
-"verletzen",verb,3,"","",pending
-"fühlen",verb,3,"","",pending
-"anziehen",verb,3,"","",pending
-"vorbereiten",verb,3,"","",pending
-"kümmern",verb,3,"","",pending
-"+ verb einsteigen",verb,3,"","",pending
-"+ verb aufmachen",verb,3,"","",pending
-"+ verb zumachen",verb,3,"","",pending
-"+ verb einkaufen",verb,3,"","",pending
-"+ verb ausgehen",verb,3,"","",pending
-"erfahren",adj,3,"","",pending
-"aktuell",adj,3,"","",pending
-"international",adj,3,"","",pending
-"— außerdem / denn / trotzdem / weil",verb,3,"","",pending
-"— außerdem / denn / dennoch / weil",verb,3,"","",pending
-"— außerdem / dennoch / deshalb / weil",verb,3,"","",pending
-"— denn / dennoch / deshalb / weil",verb,3,"","",pending
-"renoviieren",verb,3,"","",pending
-"fen",verb,3,"","",pending
-"senden",verb,3,"","",pending
-"nutzen",verb,3,"","",pending
-"hren",verb,3,"","",pending
-"sammelen",verb,3,"","",pending
-"unterzeichnen",verb,3,"","",pending
-"— präp. um",verb,3,"","",pending
-"— präp. bei",verb,3,"","",pending
-"— präp. von",verb,3,"","",pending
-"+ verb einladen",verb,3,"","",pending
-"+ verb durchgehen",verb,3,"","",pending
-"+ verb einchecken",verb,3,"","",pending
-"+ verb ansprechen",verb,3,"","",pending
-"+ verb einreichen",verb,3,"","",pending
-"erklären",verb,3,"","",pending
-"einchecken",verb,3,"","",pending
-"ruhen",verb,3,"","",pending
-"abholen",verb,3,"","",pending
+"muttern",noun,4,"гайки","Nuts",done
+"unternehmens",noun,4,"предприятия","company",done
+"brudern",noun,4,"братья","brothers",done
+"redaktion",noun,4,"Редакция","Editorial",done
+"korrekturen",noun,4,"КОРРЕКЦИИ","Corrections",done
+"studierende",noun,4,"студенты","Students",done
+"häuser",noun,4,"клеток","house",done
+"strom",noun,4,"Электричество","flow",done
+"äußerung",noun,4,"акт","Expression",done
+"hinweise",noun,4,"Примечания","information",done
+"inmitten",noun,4,"в середине","Korrekt ...",done
+"inflation",noun,4,"Инфляция","",pending
+"kaufkraft",noun,4,"покупательная способность","Purchasing power",done
+"laufender",noun,4,"текущий","Runner",done
+"laufendes",noun,4,"текущий","current",done
+"kopfen",noun,4,"головки","heads",done
+"kopfs",noun,4,"головки","heads",done
+"rollende",noun,4,"прокатка","rolling",done
+"rollens",noun,4,"ролик","roller",done
+"blauem",noun,4,"синий","blue",done
+"blaues",noun,4,"синий","blue",done
+"breie",noun,4,"трикотаж","knitwear",done
+"beines",noun,4,"ноги","leg.",done
+"beins",noun,4,"нога","leg",done
+"sache",noun,4,"нещо","BAG...",done
+"punkt",noun,4,"Точка.","item",done
+"laufende",noun,4,"текущий","us Current",done
+"köpfen",noun,4,"головки","beheads",done
+"roller",noun,4,"","scooter",pending
+"blauer",noun,4,"синий","blue",done
+"topf",noun,4,"Бак","Pot",done
+"wein",noun,4,"ВИНО","Wine",done
+"beinen",noun,4,"ноги","legs",done
+"bestellung",noun,4,"заказ","order.",done
+"verzögerung",noun,4,"замедление","pressure",done
+"sendung",noun,4,"Отправление","broadcast",done
+"sendungsnummer",noun,4,"Номер отправки","consignment number",done
+"lieferung",noun,4,"Доставка","delivery",done
+"jens",noun,4,"Йенс","",pending
+"scherer",noun,4,"ШЕрер","",pending
+"kaufpreis",noun,4,"Покупная цена","Purchase price",done
+"hartmann",noun,4,"Хартман","",pending
+"richter",noun,4,"Судья","",pending
+"akademie",noun,4,"Академия","Academy",done
+"brandt",noun,4,"горит","",pending
+"schadensfall",noun,4,"случай повреждения","Claims",done
+"lehmann",noun,4,"Леманн","",pending
+"schmitt",noun,4,"Шмитт","",pending
+"unannehmlichkeiten",noun,4,"неудобства","Particulars of Inconvenience",done
+"rashid",noun,4,"рашид","",pending
+"mietvertrag",noun,4,"ДОГОВОР АРЕНДЫ","",pending
+"wolf",noun,4,"Вольф","",pending
+"mangel",noun,4,"недостаток, нехватка","defect",done
+"zahlungen",noun,4,"Платежи","Payments",done
+"kundin",noun,4,"клиент","",pending
+"abschluss",noun,4,"ИТОГОВЫЙ БАЛАНС","Accounts",done
+"antworten",verb,3,"Ответы","answer",done
+"viel",adj,3,"много","significant",done
+"nah",adj,3,"Ближе","close",done
+"elegant",adj,3,"элегантный","",pending
+"+ verb konjunktiv ii — können/du",verb,3,"+ глагол сослагательное слово ii — can/you","+ verb subjunctive ii — can/you",done
+"schlafen",verb,3,"спать","to sleep",done
+"ziehen",verb,3,"потянуть","pull",done
+"treffen",verb,3,"встречать(ся)","meets",done
+"beeilen",verb,3,"поторопись","hurry",done
+"interessieren",verb,3,"Интерес","in our price list,",done
+"erkälten",verb,3,"простуда","to catch",done
+"verletzen",verb,3,"ранить","Violate",done
+"fühlen",verb,3,"ощущать","feel",done
+"anziehen",verb,3,"одевать","hand",done
+"vorbereiten",verb,3,"подготовить","preparation",done
+"kümmern",verb,3,"уход","to show poor growth",done
+"+ verb einsteigen",verb,3,"+ введите глагол","+ enter verb",done
+"+ verb aufmachen",verb,3,"+ открытый глагол","+ open verb",done
+"+ verb zumachen",verb,3,"+ глагол to do","+ verb to do",done
+"+ verb einkaufen",verb,3,"+ глагольный шопинг","+ verb shopping",done
+"+ verb ausgehen",verb,3,"+ глагол go out","+ verb go out",done
+"erfahren",adj,3,"- опыт","Experienced",done
+"aktuell",adj,3,"Текущий","current",done
+"international",adj,3,".","",pending
+"— außerdem / denn / trotzdem / weil",verb,3,"— более того / потому / тем не менее / потому что","— moreover / because / nevertheless / because",done
+"— außerdem / denn / dennoch / weil",verb,3,"— более того / потому / тем не менее / потому что","— moreover / because / nevertheless / because",done
+"— außerdem / dennoch / deshalb / weil",verb,3,"— также / тем не менее / потому / потому что","— also / nevertheless / because / because",done
+"— denn / dennoch / deshalb / weil",verb,3,"— потому что / тем не менее / потому что / потому что","— because / nevertheless / because / because",done
+"renoviieren",verb,3,"отремонтировать","renovate",done
+"fen",verb,3,"Fen!","linkage",done
+"senden",verb,3,"отправить","send",done
+"nutzen",verb,3,"средства.","to use",done
+"hren",verb,3,"","Your&#x0D;",pending
+"sammelen",verb,3,"собрать","collect",done
+"unterzeichnen",verb,3,"знак","and",done
+"— präp. um",verb,3,"— приготовление при","— preparation at",done
+"— präp. bei",verb,3,"— приготовление при","— preparation at",done
+"— präp. von",verb,3,"— подготовка","— preparation of",done
+"+ verb einladen",verb,3,"+ глагол приглашения","+ invite verb",done
+"+ verb durchgehen",verb,3,"+ глагол пройти","+ verb go through",done
+"+ verb einchecken",verb,3,"+ прибытие глагола","+ verb check in",done
+"+ verb ansprechen",verb,3,"+ ответ глагола","+ verb response",done
+"+ verb einreichen",verb,3,"+ отправить глагол","+ submit verb",done
+"erklären",verb,3,"объяснять","to explain",done
+"einchecken",verb,3,"прибытие","Check in:",done
+"ruhen",verb,3,"отдых","to rest",done
+"abholen",verb,3,"& Получить","to pick up",done
 "gmb",noun,3,"","",pending
 "gmbh",noun,3,"","",pending
-"luft",noun,2,"","",pending
-"band",noun,2,"","",pending
-"stadion",noun,2,"","",pending
-"nett",adj,2,"","",pending
-"schwer",adj,2,"","",pending
-"voll",adj,2,"","",pending
-"frisch",adj,2,"","",pending
-"spannend",adj,2,"","",pending
-"freundlich",adj,2,"","",pending
-"hell",adj,2,"","",pending
-"hart",adj,2,"","",pending
-"bekannt",adj,2,"","",pending
-"offiziell",adj,2,"","",pending
-"rot",adj,2,"","",pending
-"großmutter",noun,2,"","",pending
-"sonnencreme",noun,2,"","",pending
-"holz",noun,2,"","",pending
-"stock",noun,2,"","",pending
-"mama",noun,2,"","",pending
-"reiseleiterin",noun,2,"","",pending
-"gib",noun,2,"","",pending
-"reiseführer",noun,2,"","",pending
-"papa",noun,2,"","",pending
-"süßigkeiten",noun,2,"","",pending
-"verkäuferin",noun,2,"","",pending
-"karten",noun,2,"","",pending
-"zuhause",noun,2,"","",pending
-"vorher",noun,2,"","",pending
-"hemd",noun,2,"","",pending
-"werbung",noun,2,"","",pending
-"melodie",noun,2,"","",pending
-"zentrum",noun,2,"","",pending
-"baby",noun,2,"","",pending
-"rad",noun,2,"","",pending
+"luft",noun,2,"Воздух","air",done
+"band",noun,2,"Лента","belt",done
+"stadion",noun,2,"Стадион","Stadium Name",done
+"nett",adj,2,"красивый","nice",done
+"schwer",adj,2,"тяжёлая","severe",done
+"voll",adj,2,"полный","full",done
+"frisch",adj,2,"свежий","Fresh",done
+"spannend",adj,2,"Это увлекательно","thrilling",done
+"freundlich",adj,2,"дружеский","Friendly",done
+"hell",adj,2,"светлые","Bright",done
+"hart",adj,2,"твёрдый","hard",done
+"bekannt",adj,2,"Известно:","Known",done
+"offiziell",adj,2,"должностное лицо","official",done
+"rot",adj,2,"Красный","Red",done
+"großmutter",noun,2,"Дед","Grandmother",done
+"sonnencreme",noun,2,"солнцезащитный крем","Sun cream",done
+"holz",noun,2,"Дерево","timber",done
+"stock",noun,2,"Шток","",pending
+"mama",noun,2,"Мама","mother",done
+"reiseleiterin",noun,2,"экскурсовод","tour guide",done
+"gib",noun,2,"ГиБ","",pending
+"reiseführer",noun,2,"Путеводители","Travel Guides",done
+"papa",noun,2,"Папа.","",pending
+"süßigkeiten",noun,2,"Кондитерские изделия","Candy",done
+"verkäuferin",noun,2,"Продавщица","Saleswoman",done
+"karten",noun,2,"Билеты","cards",done
+"zuhause",noun,2,"Heim","At home",done
+"vorher",noun,2,"previat","before",done
+"hemd",noun,2,"футболка","shirt",done
+"werbung",noun,2,"Реклама","advertising",done
+"melodie",noun,2,"Мелодия","Melody",done
+"zentrum",noun,2,"Василия","Centre",done
+"baby",noun,2,"Малыши","",pending
+"rad",noun,2,"радиан","Wheel",done
 "stuhs",noun,2,"","",pending
-"stühlen",noun,2,"","",pending
-"stühle",noun,2,"","",pending
-"täschen",noun,2,"","",pending
-"taschens",noun,2,"","",pending
-"taschen",noun,2,"","",pending
-"tasch",noun,2,"","",pending
+"stühlen",noun,2,"кресла","chairs",done
+"stühle",noun,2,"Стулья","Chairs",done
+"täschen",noun,2,"мешочки","pouches",done
+"taschens",noun,2,"мешки","bags",done
+"taschen",noun,2,"Сумки","BAGS",done
+"tasch",noun,2,"карман","pocket",done
 "fraus",noun,2,"","",pending
-"frauens",noun,2,"","",pending
-"tischen",noun,2,"","",pending
-"tische",noun,2,"","",pending
-"tischs",noun,2,"","",pending
-"apfeln",noun,2,"","",pending
-"apfels",noun,2,"","",pending
+"frauens",noun,2,"женский","women's",done
+"tischen",noun,2,"таблицы","tables",done
+"tische",noun,2,"Столы","tables",done
+"tischs",noun,2,"таблицы","tables",done
+"apfeln",noun,2,"яблоки","apples",done
+"apfels",noun,2,"яблоки","apples",done
 "auten",noun,2,"","",pending
 "autosn",noun,2,"","",pending
-"freunds",noun,2,"","",pending
-"städten",noun,2,"","",pending
-"stadts",noun,2,"","",pending
-"hobbysn",noun,2,"","",pending
-"hobbien",noun,2,"","",pending
-"hobbys",noun,2,"","",pending
-"buss",noun,2,"","",pending
-"bussen",noun,2,"","",pending
-"blum",noun,2,"","",pending
-"blümen",noun,2,"","",pending
-"blumens",noun,2,"","",pending
-"eier",noun,2,"","",pending
-"eiers",noun,2,"","",pending
+"freunds",noun,2,"друзья","friends",done
+"städten",noun,2,"города","cities",done
+"stadts",noun,2,"город","city",done
+"hobbysn",noun,2,"hobbiesn","hobbiesn",done
+"hobbien",noun,2,"хобби","hobbies",done
+"hobbys",noun,2,"ХОББИ","HOBBIES",done
+"buss",noun,2,"шина","bus",done
+"bussen",noun,2,"автобусы","coaches and buses",done
+"blum",noun,2,"Блюм","Blum (?)",done
+"blümen",noun,2,"цветы","flowers",done
+"blumens",noun,2,"цветы","flowers",done
+"eier",noun,2,"Яйца","Eggs",done
+"eiers",noun,2,"яйца","eggs",done
 "eien",noun,2,"","",pending
-"tags",noun,2,"","",pending
-"täg",noun,2,"","",pending
-"hand",noun,2,"","",pending
-"händen",noun,2,"","",pending
-"händ",noun,2,"","",pending
-"hands",noun,2,"","",pending
-"fotosn",noun,2,"","",pending
-"foten",noun,2,"","",pending
-"films",noun,2,"","",pending
-"filmen",noun,2,"","",pending
-"lamp",noun,2,"","",pending
-"lämpen",noun,2,"","",pending
-"lampes",noun,2,"","",pending
-"tieren",noun,2,"","",pending
-"tiers",noun,2,"","",pending
-"tiere",noun,2,"","",pending
-"zügen",noun,2,"","",pending
-"züg",noun,2,"","",pending
-"uhres",noun,2,"","",pending
-"uhren",noun,2,"","",pending
-"uhrenn",noun,2,"","",pending
-"problemen",noun,2,"","",pending
-"kuchens",noun,2,"","",pending
-"küchen",noun,2,"","",pending
-"kuchs",noun,2,"","",pending
-"banan",noun,2,"","",pending
-"bananen",noun,2,"","",pending
-"bananens",noun,2,"","",pending
-"bananes",noun,2,"","",pending
-"museen",noun,2,"","",pending
-"museums",noun,2,"","",pending
-"museens",noun,2,"","",pending
-"schülers",noun,2,"","",pending
-"schülern",noun,2,"","",pending
-"schüle",noun,2,"","",pending
-"pizzens",noun,2,"","",pending
-"pizzes",noun,2,"","",pending
-"broten",noun,2,"","",pending
-"brote",noun,2,"","",pending
-"bröte",noun,2,"","",pending
-"parke",noun,2,"","",pending
-"parken",noun,2,"","",pending
-"straßes",noun,2,"","",pending
-"straßens",noun,2,"","",pending
-"straß",noun,2,"","",pending
-"gemüs",noun,2,"","",pending
-"gemüsen",noun,2,"","",pending
-"gemüses",noun,2,"","",pending
-"hünde",noun,2,"","",pending
-"hunds",noun,2,"","",pending
-"katzes",noun,2,"","",pending
-"katz",noun,2,"","",pending
-"kätzen",noun,2,"","",pending
+"tags",noun,2,"Пометки","",pending
+"täg",noun,2,"день","day",done
+"hand",noun,2,"рука","hand",done
+"händen",noun,2,"руки","hands",done
+"händ",noun,2,"ручной","manual",done
+"hands",noun,2,"руки","",pending
+"fotosn",noun,2,"фото","photos",done
+"foten",noun,2,"футы","feet",done
+"films",noun,2,"фильмы","",pending
+"filmen",noun,2,"съемки","they're riding around.",done
+"lamp",noun,2,"лампа","",pending
+"lämpen",noun,2,"загорается","light up",done
+"lampes",noun,2,"лампы","lamps",done
+"tieren",noun,2,"голов)","tation",done
+"tiers",noun,2,"Тирес","tiers:",done
+"tiere",noun,2,"Животные","Animals",done
+"zügen",noun,2,"глотками","trains",done
+"züg",noun,2,"быстро","swiftly",done
+"uhres",noun,2,"часы","clock",done
+"uhren",noun,2,"Часы","watch",done
+"uhrenn",noun,2,"ohrenn","ohrenn",done
+"problemen",noun,2,"близким людям.","problems",done
+"kuchens",noun,2,"торт","cake",done
+"küchen",noun,2,"Кухни","Kitchens",done
+"kuchs",noun,2,"торт","cake",done
+"banan",noun,2,"банан","banana",done
+"bananen",noun,2,"бананы","bananas",done
+"bananens",noun,2,"бананы","bananas",done
+"bananes",noun,2,"бананы","bananas",done
+"museen",noun,2,"Музеи","museums",done
+"museums",noun,2,"музеи","",pending
+"museens",noun,2,"музеи","museums",done
+"schülers",noun,2,"студент","student",done
+"schülern",noun,2,"студенты","students",done
+"schüle",noun,2,"школа","school",done
+"pizzens",noun,2,"пицца","pizzas",done
+"pizzes",noun,2,"пицца","pizzas",done
+"broten",noun,2,"хлеб","breads",done
+"brote",noun,2,"Хлеб","Bread",done
+"bröte",noun,2,"хлеб","bread",done
+"parke",noun,2,"парки","parks",done
+"parken",noun,2,"Парковка","parking",done
+"straßes",noun,2,"ул.","street",done
+"straßens",noun,2,"дорога","road",done
+"straß",noun,2,"ул.","street",done
+"gemüs",noun,2,"овощи","vegetables",done
+"gemüsen",noun,2,"овощи","vegetables",done
+"gemüses",noun,2,"овощи","vegetables",done
+"hünde",noun,2,"собаки","dogs",done
+"hunds",noun,2,"собаки","dogs",done
+"katzes",noun,2,"кот","cat",done
+"katz",noun,2,"Кац","cat",done
+"kätzen",noun,2,"katting","katting",done
 "glass",noun,2,"","",pending
-"gläsern",noun,2,"","",pending
-"gläser",noun,2,"","",pending
-"bäumen",noun,2,"","",pending
-"bäume",noun,2,"","",pending
-"bäum",noun,2,"","",pending
-"sonn",noun,2,"","",pending
+"gläsern",noun,2,"очки","Gläsern Schule begann vor ein paar Wochen",done
+"gläser",noun,2,"Стёкла","",pending
+"bäumen",noun,2,"деревья.","trees",done
+"bäume",noun,2,"Деревья","The trees",done
+"bäum",noun,2,"дерево","tree",done
+"sonn",noun,2,"солнце","sun",done
 "sönnen",noun,2,"","",pending
-"sonnen",noun,2,"","",pending
-"sonnes",noun,2,"","",pending
-"spiels",noun,2,"","",pending
-"computers",noun,2,"","",pending
-"computern",noun,2,"","",pending
-"computere",noun,2,"","",pending
-"idees",noun,2,"","",pending
-"ideen",noun,2,"","",pending
-"ideens",noun,2,"","",pending
-"ide",noun,2,"","",pending
+"sonnen",noun,2,"Зоннен","",pending
+"sonnes",noun,2,"солнца","suns",done
+"spiels",noun,2,"игра","game",done
+"computers",noun,2,"компьютеры","on the table.",done
+"computern",noun,2,"компьютеры","...",done
+"computere",noun,2,"компьютер","computer",done
+"idees",noun,2,"идеи","ideas",done
+"ideen",noun,2,"Идеи","ideas",done
+"ideens",noun,2,"идеи","ideas",done
+"ide",noun,2,"","ide ,",pending
 "ticketsn",noun,2,"","",pending
-"ticketen",noun,2,"","",pending
-"kaffeen",noun,2,"","",pending
-"kaffees",noun,2,"","",pending
-"kaffes",noun,2,"","",pending
+"ticketen",noun,2,"продажа билетов","ticketing",done
+"kaffeen",noun,2,"кофе","coffee",done
+"kaffees",noun,2,"кофе","coffees",done
+"kaffes",noun,2,"кофе","coffee",done
 "tean",noun,2,"","",pending
 "teesn",noun,2,"","",pending
-"tees",noun,2,"","",pending
-"tomate",noun,2,"","",pending
-"tomatens",noun,2,"","",pending
-"tomates",noun,2,"","",pending
-"tomat",noun,2,"","",pending
-"salate",noun,2,"","",pending
-"saläte",noun,2,"","",pending
-"salats",noun,2,"","",pending
-"briefs",noun,2,"","",pending
-"briefen",noun,2,"","",pending
-"handysen",noun,2,"","",pending
-"handysn",noun,2,"","",pending
-"handys",noun,2,"","",pending
+"tees",noun,2,"Тис","teez",done
+"tomate",noun,2,"помидоры","tomatoes",done
+"tomatens",noun,2,"помидоры","tomatoes",done
+"tomates",noun,2,"помидоры","tomatoes",done
+"tomat",noun,2,"помидор","tomato",done
+"salate",noun,2,"Салаты","Salads",done
+"saläte",noun,2,"салаты","salads",done
+"salats",noun,2,"салаты","salads",done
+"briefs",noun,2,"брифы","",pending
+"briefen",noun,2,"буквы","letters",done
+"handysen",noun,2,"сотовые телефоны","cell phones",done
+"handysn",noun,2,"мобильные телефоны","mobile phones",done
+"handys",noun,2,"мобильные телефоны","mobile phones",done
 "hoteln",noun,2,"","",pending
-"hotell",noun,2,"","",pending
-"nachbaren",noun,2,"","",pending
-"kinde",noun,2,"","",pending
-"kinds",noun,2,"","",pending
-"büchern",noun,2,"","",pending
-"büch",noun,2,"","",pending
-"manns",noun,2,"","",pending
-"männern",noun,2,"","",pending
-"europa",noun,2,"","",pending
-"ärzte",noun,2,"","",pending
-"jacken",noun,2,"","",pending
-"konzerte",noun,2,"","",pending
-"bälle",noun,2,"","",pending
-"geschäfte",noun,2,"","",pending
-"tabletten",noun,2,"","",pending
-"hüte",noun,2,"","",pending
-"kinofilme",noun,2,"","",pending
-"bands",noun,2,"","",pending
-"stürme",noun,2,"","",pending
-"projekte",noun,2,"","",pending
-"haltestelle",noun,2,"","",pending
-"wasche",noun,2,"","",pending
-"wohnzimmer",noun,2,"","",pending
-"altstadt",noun,2,"","",pending
-"tierheim",noun,2,"","",pending
-"herbst",noun,2,"","",pending
-"schrank",noun,2,"","",pending
-"region",noun,2,"","",pending
-"samstag",noun,2,"","",pending
-"einkäufe",noun,2,"","",pending
-"bilder",noun,2,"","",pending
-"koch",noun,2,"","",pending
-"kamera",noun,2,"","",pending
-"lieblingsessen",noun,2,"","",pending
-"spielst",noun,2,"","",pending
-"mannschaft",noun,2,"","",pending
-"probier",noun,2,"","",pending
-"zieh",noun,2,"","",pending
-"handschuhe",noun,2,"","",pending
-"vergiss",noun,2,"","",pending
-"pass",noun,2,"","",pending
+"hotell",noun,2,"отель","hotel",done
+"nachbaren",noun,2,"соседний","neighboring",done
+"kinde",noun,2,"ребенок","Child",done
+"kinds",noun,2,"дети","children",done
+"büchern",noun,2,"книги","* books",done
+"büch",noun,2,"книга","book",done
+"manns",noun,2,"маннс","",pending
+"männern",noun,2,"мужчины","Men",done
+"europa",noun,2,"Европа","Europe",done
+"ärzte",noun,2,"Врачи","Physicians",done
+"jacken",noun,2,"Куртки","jackets",done
+"konzerte",noun,2,"Концерты","Events, Konzerte",done
+"bälle",noun,2,"Балы","Balls",done
+"geschäfte",noun,2,"Магазины","business",done
+"tabletten",noun,2,"Таблетки","Tableting",done
+"hüte",noun,2,"шляпы","Hats",done
+"kinofilme",noun,2,"кинофильмы","Feature film",done
+"bands",noun,2,"Полосы","",pending
+"stürme",noun,2,"штормы","Storms",done
+"projekte",noun,2,"Проекты","projects",done
+"haltestelle",noun,2,"Остановка общественного транспорта","Station",done
+"wasche",noun,2,"wsche","wash",done
+"wohnzimmer",noun,2,"Гостиная","dining room",done
+"altstadt",noun,2,"СТАРЫЙ ГОРОД","OLD TOWN",done
+"tierheim",noun,2,"Приют для бездомных животных","Animal home",done
+"herbst",noun,2,"Осень","Fall",done
+"schrank",noun,2,"Шкаф","cabinet",done
+"region",noun,2,"Регион: <g id=""1"">−</g>","regio",done
+"samstag",noun,2,"Суббота","saturday",done
+"einkäufe",noun,2,"Закупки","Shopping:",done
+"bilder",noun,2,"Изображения","images",done
+"koch",noun,2,"уже швырнуть","",pending
+"kamera",noun,2,"Камера","Camera",done
+"lieblingsessen",noun,2,"любимая еда","Favorite food",done
+"spielst",noun,2,"вы играете","you play",done
+"mannschaft",noun,2,"Экипаж","team",done
+"probier",noun,2,"try","try",done
+"zieh",noun,2,"перетаскивание","Pull!",done
+"handschuhe",noun,2,"Перчатки","Gloves",done
+"vergiss",noun,2,"забыть","forget",done
+"pass",noun,2,"Паспорт","",pending
 "wohnen",verb,2,"жить","to live",done
-"tom",noun,2,"","",pending
-"popmusik",noun,2,"","",pending
-"morgens",noun,2,"","",pending
-"computerspiele",noun,2,"","",pending
+"tom",noun,2,"Том","updated by tom",done
+"popmusik",noun,2,"Поп-музыка","Pop music",done
+"morgens",noun,2,"утром","mornings",done
+"computerspiele",noun,2,"Компьютерные игры","Personal computer games",done
 "machen",verb,2,"делать","to do / make",done
-"österreich",noun,2,"","",pending
-"yoga",noun,2,"","",pending
-"abends",noun,2,"","",pending
-"jeden",noun,2,"","",pending
-"zugticket",noun,2,"","",pending
-"süß",noun,2,"","",pending
-"goethestraße",noun,2,"","",pending
-"schlafzimmer",noun,2,"","",pending
-"blau",noun,2,"","",pending
-"bürojob",noun,2,"","",pending
-"häng",noun,2,"","",pending
-"gewitter",noun,2,"","",pending
-"+ verb haben",verb,2,"","",pending
-"verben",noun,2,"","",pending
-"modalverben",noun,2,"","",pending
-"erholen",verb,2,"","",pending
-"— außerdem / denn / dennoch / deshalb",verb,2,"","",pending
-"stellenanzeige",noun,2,"","",pending
-"praktikantin",noun,2,"","",pending
-"marketing",noun,2,"","",pending
-"semester",noun,2,"","",pending
-"betriebswirtschaft",noun,2,"","",pending
-"eindruck",noun,2,"","",pending
-"anforderungen",noun,2,"","",pending
-"studienplatz",noun,2,"","",pending
-"masterstudiengang",noun,2,"","",pending
-"germanistik",noun,2,"","",pending
-"bachelorabschluss",noun,2,"","",pending
-"medienwissenschaft",noun,2,"","",pending
-"vorkenntnisse",noun,2,"","",pending
+"österreich",noun,2,"Австрия","Austria",done
+"yoga",noun,2,"Это мой распорядок дня","yoga teacher",done
+"abends",noun,2,"вечером","evenings",done
+"jeden",noun,2,"каждый","every",done
+"zugticket",noun,2,"билет на поезд","train ticket",done
+"süß",noun,2,"dulce","cute",done
+"goethestraße",noun,2,"goethestrasse","",pending
+"schlafzimmer",noun,2,"Спальня","bedrooms",done
+"blau",noun,2,"синий","the",done
+"bürojob",noun,2,"работа в офисе","Social Job",done
+"häng",noun,2,"повесить","",pending
+"gewitter",noun,2,"Гроза","Thunderstorms",done
+"+ verb haben",verb,2,"+ глагол","+ verb",done
+"verben",noun,2,"Глагол","verbs",done
+"modalverben",noun,2,"модальные глаголы","modal verbs",done
+"erholen",verb,2,"восстановить","I recover",done
+"— außerdem / denn / dennoch / deshalb",verb,2,"— более того / потому что / тем не менее / поэтому","— moreover / because / nevertheless / therefore",done
+"stellenanzeige",noun,2,"Объявление о вакансии","vacancy.name.single",done
+"praktikantin",noun,2,"стажер","Intern",done
+"marketing",noun,2,"Маркетинг","",pending
+"semester",noun,2,"семестр","sabbatical",done
+"betriebswirtschaft",noun,2,"Экономика организации","Business Administration",done
+"eindruck",noun,2,"впечатление","impression",done
+"anforderungen",noun,2,"Требования:","Requirements",done
+"studienplatz",noun,2,"место учебы","place of study",done
+"masterstudiengang",noun,2,"Магистр","Master's degree",done
+"germanistik",noun,2,"Германистика","German",done
+"bachelorabschluss",noun,2,"степень бакалавра","bachelor's degree",done
+"medienwissenschaft",noun,2,"Медиаведение","Media studies",done
+"vorkenntnisse",noun,2,"предыдущие знания","Previous knowledge",done
 "becker",noun,2,"","",pending
-"arztes",noun,2,"","",pending
-"bescheinigung",noun,2,"","",pending
-"lindenstraße",noun,2,"","",pending
-"schreibens",noun,2,"","",pending
-"guten",noun,2,"","",pending
-"abendkurs",noun,2,"","",pending
-"mitarbeiterinnen",noun,2,"","",pending
-"jahresfeier",noun,2,"","",pending
-"konferenzsaal",noun,2,"","",pending
-"kostenübernahme",noun,2,"","",pending
-"rehasportkurses",noun,2,"","",pending
-"hausarzt",noun,2,"","",pending
-"elternabend",noun,2,"","",pending
-"donnerstag",noun,2,"","",pending
-"aula",noun,2,"","",pending
-"mittwoch",noun,2,"","",pending
-"klassenleitung",noun,2,"","",pending
-"hotline",noun,2,"","",pending
-"integrationskurs",noun,2,"","",pending
-"eintrittskarten",noun,2,"","",pending
-"voraus",noun,2,"","",pending
-"leistungsnachweis",noun,2,"","",pending
-"dienstag",noun,2,"","",pending
-"informationsveranstaltung",noun,2,"","",pending
-"kursgebühr",noun,2,"","",pending
-"agentur",noun,2,"","",pending
-"anmeldeformular",noun,2,"","",pending
-"kursende",noun,2,"","",pending
-"ferienzeit",noun,2,"","",pending
-"veranstaltungsraum",noun,2,"","",pending
-"einreichung",noun,2,"","",pending
-"hausarbeit",noun,2,"","",pending
-"exkursion",noun,2,"","",pending
-"anmeldungen",noun,2,"","",pending
-"anmelden",noun,2,"","",pending
-"anmeldend",noun,2,"","",pending
-"bibliothek",noun,2,"","",pending
-"renovierungsarbeiten",noun,2,"","",pending
-"rauchen",noun,2,"","",pending
-"autors",noun,2,"","",pending
-"laborant",noun,2,"","",pending
-"eingangsbestätigung",noun,2,"","",pending
-"hinweis",noun,2,"","",pending
-"mario",noun,2,"","",pending
+"arztes",noun,2,"врача","doctor",done
+"bescheinigung",noun,2,"Свидетельство","Disability",done
+"lindenstraße",noun,2,"Линденштрассе","",pending
+"schreibens",noun,2,"написание","writing",done
+"guten",noun,2,"Добрый","good",done
+"abendkurs",noun,2,"вечерний курс",">> Evening courses",done
+"mitarbeiterinnen",noun,2,"Сотрудники","Employee",done
+"jahresfeier",noun,2,"ежегодное празднование","annual celebration",done
+"konferenzsaal",noun,2,"конференц-зал","Conference Hall",done
+"kostenübernahme",noun,2,"Покрытие расходов","Cost covering",done
+"rehasportkurses",noun,2,"rehasport course","rehasport course",done
+"hausarzt",noun,2,"Врач общей практики","Family doctor",done
+"elternabend",noun,2,"Родительское собрание","Parents' Evening",done
+"donnerstag",noun,2,"Четверг","invoice will be paid tomorrow",done
+"aula",noun,2,"Актовый зал","Auditorium",done
+"mittwoch",noun,2,"Среда","Wednesday",done
+"klassenleitung",noun,2,"управление классами","Class Teacher",done
+"hotline",noun,2,"Горячая линия","",pending
+"integrationskurs",noun,2,"интеграционный курс","Integration Course",done
+"eintrittskarten",noun,2,"билеты","Admission tickets",done
+"voraus",noun,2,"вперёд","Estimated",done
+"leistungsnachweis",noun,2,"Доказательство работоспособности","Performance record",done
+"dienstag",noun,2,"Понедельник","dinstag",done
+"informationsveranstaltung",noun,2,"информационное мероприятие","Informational event",done
+"kursgebühr",noun,2,"плата за курс","Charges:",done
+"agentur",noun,2,"агентство","Agency",done
+"anmeldeformular",noun,2,"форма регистрации","Sign-up form",done
+"kursende",noun,2,"Конец курса","Date of return",done
+"ferienzeit",noun,2,"период отпуска","Holiday Season",done
+"veranstaltungsraum",noun,2,"комната для проведения мероприятий","Room",done
+"einreichung",noun,2,"представление","deposit",done
+"hausarbeit",noun,2,"работа по дому","Assignment",done
+"exkursion",noun,2,"Экскурсия","Excursion",done
+"anmeldungen",noun,2,"Число зарегистрированных участников","registrations",done
+"anmelden",noun,2,"войти","subscribe",done
+"anmeldend",noun,2,"вход","logging in",done
+"bibliothek",noun,2,"Библиотека","library",done
+"renovierungsarbeiten",noun,2,"ремонт;","maintenance work",done
+"rauchen",noun,2,"курить","to smoke",done
+"autors",noun,2,"авторы","authors",done
+"laborant",noun,2,"Лаборант","Organische Chemie",done
+"eingangsbestätigung",noun,2,"подтверждение получения","Confirmation of Submission",done
+"hinweis",noun,2,"Подсказка","NOTE",done
+"mario",noun,2,"Мариус","",pending
 "czesnik",noun,2,"","",pending
-"april",noun,2,"","",pending
-"ware",noun,2,"","",pending
-"kauf",noun,2,"","",pending
-"sandra",noun,2,"","",pending
-"systemausfall",noun,2,"","",pending
-"wohnsitzes",noun,2,"","",pending
-"nachmittag",noun,2,"","",pending
-"ahmed",noun,2,"","",pending
-"hassan",noun,2,"","",pending
-"bildschirm",noun,2,"","",pending
-"ersatzgerät",noun,2,"","",pending
-"thomas",noun,2,"","",pending
-"weber",noun,2,"","",pending
-"qualifikationen",noun,2,"","",pending
-"kandidatin",noun,2,"","",pending
-"gute",noun,2,"","",pending
-"ausschreibung",noun,2,"","",pending
-"lisa",noun,2,"","",pending
-"lärmbelästigung",noun,2,"","",pending
-"ruhezeiten",noun,2,"","",pending
-"anwohner",noun,2,"","",pending
-"meier",noun,2,"","",pending
-"anmietung",noun,2,"","",pending
-"gehaltsbescheinigung",noun,2,"","",pending
-"intranet",noun,2,"","",pending
-"angaben",noun,2,"","",pending
+"april",noun,2,"April).","",pending
+"ware",noun,2,"Товар","Middleware",done
+"kauf",noun,2,"Покупка","a car",done
+"sandra",noun,2,"Сандра","",pending
+"systemausfall",noun,2,"отказ системы","System Failure",done
+"wohnsitzes",noun,2,"домициль","domicile",done
+"nachmittag",noun,2,"После обеда","PM",done
+"ahmed",noun,2,"Ахмед","Ahmad",done
+"hassan",noun,2,"Хасан","",pending
+"bildschirm",noun,2,"монитором","Screen.",done
+"ersatzgerät",noun,2,"сменное устройство","Replacement Device",done
+"thomas",noun,2,"ТОмас","",pending
+"weber",noun,2,"Ткач","",pending
+"qualifikationen",noun,2,"Квалификация","QUALIFICATIONS",done
+"kandidatin",noun,2,"кандидат","candidate",done
+"gute",noun,2,"Хорошая","good",done
+"ausschreibung",noun,2,"Конкурс","Call for applications",done
+"lisa",noun,2,"Лиза","",pending
+"lärmbelästigung",noun,2,"Шумовое загрязнение","Noise pollution",done
+"ruhezeiten",noun,2,"Нерабочее время","Rest periods",done
+"anwohner",noun,2,"Квартира","esidenti",done
+"meier",noun,2,"МАйер","",pending
+"anmietung",noun,2,"Аренда","rental",done
+"gehaltsbescheinigung",noun,2,"Справка о заработной плате","Salary Certificate",done
+"intranet",noun,2,"Интранет","",pending
+"angaben",noun,2,"Данные","data",done
 "jonas",noun,2,"","",pending
-"teilnehmerin",noun,2,"","",pending
-"teilnehmer",noun,2,"","",pending
-"digitale",noun,2,"","",pending
-"kommunikation",noun,2,"","",pending
-"beginn",noun,2,"","",pending
-"ersatzteilnehmer",noun,2,"","",pending
-"materialien",noun,2,"","",pending
-"kursbeginn",noun,2,"","",pending
-"stellenangebot",noun,2,"","",pending
-"homeoffice",noun,2,"","",pending
-"elena",noun,2,"","",pending
-"popov",noun,2,"","",pending
-"preisreduzierung",noun,2,"","",pending
-"bewertung",noun,2,"","",pending
-"claudia",noun,2,"","",pending
-"fischer",noun,2,"","",pending
-"belege",noun,2,"","",pending
-"sabine",noun,2,"","",pending
-"krüger",noun,2,"","",pending
-"umbuchung",noun,2,"","",pending
-"markus",noun,2,"","",pending
-"beschreibung",noun,2,"","",pending
-"produkt",noun,2,"","",pending
-"rückzahlung",noun,2,"","",pending
-"schritte",noun,2,"","",pending
-"nina",noun,2,"","",pending
-"referenzen",noun,2,"","",pending
-"paul",noun,2,"","",pending
-"mahngebühren",noun,2,"","",pending
-"zahlungsschwierigkeiten",noun,2,"","",pending
-"verbindung",noun,2,"","",pending
-"buchhaltung",noun,2,"","",pending
-"erinnerung",noun,2,"","",pending
-"bankdaten",noun,2,"","",pending
-"laura",noun,2,"","",pending
-"elternzeit",noun,2,"","",pending
-"vertretung",noun,2,"","",pending
-"daniel",noun,2,"","",pending
-"antrags",noun,2,"","",pending
-"formulare",noun,2,"","",pending
-"auskunft",noun,2,"","",pending
-"stellungnahme",noun,2,"","",pending
-"rechte",noun,2,"","",pending
-"fatima",noun,2,"","",pending
-"wagner",noun,2,"","",pending
-"nachmieterin",noun,2,"","",pending
-"unklarheiten",noun,2,"","",pending
-"stefan",noun,2,"","",pending
-"kreisner",noun,2,"","",pending
-"august",noun,2,"","",pending
-"unzufriedenheit",noun,2,"","",pending
-"alternativ",noun,2,"","",pending
-"kundenservice",noun,2,"","",pending
-"auftrags",noun,2,"","",pending
-"logistik",noun,2,"","",pending
-"nord",noun,2,"","",pending
-"bewerberin",noun,2,"","",pending
-"bewerber",noun,2,"","",pending
-"zeitpunkt",noun,2,"","",pending
-"projektleiterin",noun,2,"","",pending
-"koordination",noun,2,"","",pending
-"fachseminar",noun,2,"","",pending
-"workshop",noun,2,"","",pending
-"themen",noun,2,"","",pending
-"transformation",noun,2,"","",pending
-"mitglieder",noun,2,"","",pending
-"institut",noun,2,"","",pending
-"weiterbildung",noun,2,"","",pending
-"miete",noun,2,"","",pending
-"nebenkosten",noun,2,"","",pending
-"hausverwaltung",noun,2,"","",pending
-"haftpflichtversicherung",noun,2,"","",pending
-"beruf",noun,2,"","",pending
-"summe",noun,2,"","",pending
-"jahresende",noun,2,"","",pending
-"beratung",noun,2,"","",pending
-"anhang",noun,2,"","",pending
-"versicherung",noun,2,"","",pending
-"sicher",noun,2,"","",pending
-"ausübung",noun,2,"","",pending
-"widerrufs",noun,2,"","",pending
-"rücksendung",noun,2,"","",pending
-"datum",noun,2,"","",pending
-"erhalts",noun,2,"","",pending
-"shop",noun,2,"","",pending
-"digitalisierung",noun,2,"","",pending
-"phase",noun,2,"","",pending
-"abläufe",noun,2,"","",pending
-"umsetzung",noun,2,"","",pending
-"zeitplan",noun,2,"","",pending
-"consulting",noun,2,"","",pending
-"plus",noun,2,"","",pending
-"forschungseinrichtungen",noun,2,"","",pending
-"energieversorgung",noun,2,"","",pending
-"skizze",noun,2,"","",pending
-"solutions",noun,2,"","",pending
-"versichertenkarte",noun,2,"","",pending
-"medikamentenliste",noun,2,"","",pending
-"verhinderung",noun,2,"","",pending
-"straßenbahnhaltestelle",noun,2,"","",pending
-"praxis",noun,2,"","",pending
-"neumann",noun,2,"","",pending
-"materialkosten",noun,2,"","",pending
-"erhöhung",noun,2,"","",pending
-"prozent",noun,2,"","",pending
-"bestehende",noun,2,"","",pending
-"vertragsablauf",noun,2,"","",pending
-"ausführliche",noun,2,"","",pending
-"süd",noun,2,"","",pending
-"qualitätskontrolle",noun,2,"","",pending
-"prozesse",noun,2,"","",pending
-"west",noun,2,"","",pending
-"zeugnisse",noun,2,"","",pending
-"september",noun,2,"","",pending
-"andernfalls",noun,2,"","",pending
-"finanzbuchhaltung",noun,2,"","",pending
-"entwurf",noun,2,"","",pending
-"heizungsanlage",noun,2,"","",pending
-"ausfall",noun,2,"","",pending
-"vierteljahr",noun,2,"","",pending
-"techniker",noun,2,"","",pending
-"führungskräfte",noun,2,"","",pending
-"kommunikationsstrategien",noun,2,"","",pending
-"teilnahmegebühr",noun,2,"","",pending
-"verpflegung",noun,2,"","",pending
-"absolventen",noun,2,"","",pending
-"führung",noun,2,"","",pending
-"anliegen",noun,2,"","",pending
-"qualitätsmanagement",noun,2,"","",pending
-"aufkommens",noun,2,"","",pending
-"bürgeramt",noun,2,"","",pending
-"mitte",noun,2,"","",pending
-"kochen",verb,1,"","",pending
-"tanzen",verb,1,"","",pending
-"singen",verb,1,"","",pending
+"teilnehmerin",noun,2,"участник","Participant",done
+"teilnehmer",noun,2,"Участник","participants",done
+"digitale",noun,2,"цифровой","digital",done
+"kommunikation",noun,2,"Связь:","communication",done
+"beginn",noun,2,"года","beginning",done
+"ersatzteilnehmer",noun,2,"замещающий участник","Substitute participants",done
+"materialien",noun,2,"Материалы","materials",done
+"kursbeginn",noun,2,"начало курса","Beginning of the course",done
+"stellenangebot",noun,2,"вакансия","job",done
+"homeoffice",noun,2,"домашний офис","Remote work",done
+"elena",noun,2,"Елена","07/10/2010 - 08:52 by elena",done
+"popov",noun,2,"Попов","",pending
+"preisreduzierung",noun,2,"снижение цены","Markdown",done
+"bewertung",noun,2,"управления","assessment",done
+"claudia",noun,2,"КлАудия","",pending
+"fischer",noun,2,"Фишер","specific",done
+"belege",noun,2,"Приложение","documents",done
+"sabine",noun,2,"Сабинас","Sabinas",done
+"krüger",noun,2,"КрЮгер","",pending
+"umbuchung",noun,2,"Перераспределение на другой счет","Reallocation",done
+"markus",noun,2,"Маркус","",pending
+"beschreibung",noun,2,"Описание","Description",done
+"produkt",noun,2,"товар","edd",done
+"rückzahlung",noun,2,"погашение","Repayment",done
+"schritte",noun,2,"Шаги","steps",done
+"nina",noun,2,"Нина","",pending
+"referenzen",noun,2,"ОТЗЫВЫ О НАС","references",done
+"paul",noun,2,"ПАуль","",pending
+"mahngebühren",noun,2,"Просроченные штрафы","reminder fees",done
+"zahlungsschwierigkeiten",noun,2,"трудности с оплатой","payment difficulties",done
+"verbindung",noun,2,"Соединение","Connection",done
+"buchhaltung",noun,2,"Бухгалтерский учет","Accounting",done
+"erinnerung",noun,2,"Напоминание","Reminder fee",done
+"bankdaten",noun,2,"Банковские реквизиты:","Bank data",done
+"laura",noun,2,"ЛаУра","",pending
+"elternzeit",noun,2,"Отпуск по беременности и родам","Parental leave",done
+"vertretung",noun,2,"Замещение","Representation",done
+"daniel",noun,2,"Даниэль","""Daniel",done
+"antrags",noun,2,"заявка","application",done
+"formulare",noun,2,"Формы","forms",done
+"auskunft",noun,2,"Справка","Disclosure",done
+"stellungnahme",noun,2,"мнение","Statement",done
+"rechte",noun,2,"Правый","Rights",done
+"fatima",noun,2,"Фатима","",pending
+"wagner",noun,2,"ВАгнер","",pending
+"nachmieterin",noun,2,"последующий арендатор","subsequent tenant",done
+"unklarheiten",noun,2,"неоднозначности","Ambiguities",done
+"stefan",noun,2,"ТрЭммэль","",pending
+"kreisner",noun,2,"крейснер","",pending
+"august",noun,2,"Август","",pending
+"unzufriedenheit",noun,2,"неудовлетворенность","Dissatisfaction",done
+"alternativ",noun,2,"альтернатива","alternative",done
+"kundenservice",noun,2,"ЦЕНТР ОБСЛУЖИВАНИЯ КЛИЕНТОВ","Customer Service",done
+"auftrags",noun,2,"заказ","Order",done
+"logistik",noun,2,"Логистика","Logistics",done
+"nord",noun,2,"Север","North",done
+"bewerberin",noun,2,"заявитель","Applicant",done
+"bewerber",noun,2,"Кандидат","candidates",done
+"zeitpunkt",noun,2,"Время","date",done
+"projektleiterin",noun,2,"Руководитель проекта","Project Manager",done
+"koordination",noun,2,"координация","coordination",done
+"fachseminar",noun,2,"технический семинар","Specialty seminar course",done
+"workshop",noun,2,"Семинар","",pending
+"themen",noun,2,"Темы","topics",done
+"transformation",noun,2,"Трансформация","",pending
+"mitglieder",noun,2,"Участники","users",done
+"institut",noun,2,"институт","Institute",done
+"weiterbildung",noun,2,"Последующее Непрерывное Обучение","CPD",done
+"miete",noun,2,"Арендная плата","Rent",done
+"nebenkosten",noun,2,"Дополнительные затраты","ancillary costs",done
+"hausverwaltung",noun,2,"Домоуправление","Property management",done
+"haftpflichtversicherung",noun,2,"Страхование гражданской ответственности","Liability Insurance",done
+"beruf",noun,2,"Профессия","Profession",done
+"summe",noun,2,"Итого","Total",done
+"jahresende",noun,2,"конец года","Year End",done
+"beratung",noun,2,"консультации","consulting",done
+"anhang",noun,2,"Приложение","annex",done
+"versicherung",noun,2,"Страхование","insurance",done
+"sicher",noun,2,"верный","safe",done
+"ausübung",noun,2,"упражнение","production",done
+"widerrufs",noun,2,"отзыв","revocation",done
+"rücksendung",noun,2,"Обратная отправка","Returning",done
+"datum",noun,2,"срока действия","Date",done
+"erhalts",noun,2,"получать","receive",done
+"shop",noun,2,"магазин.","",pending
+"digitalisierung",noun,2,"цифровизация","digitisation",done
+"phase",noun,2,"строительства","",pending
+"abläufe",noun,2,"процедуры","operations",done
+"umsetzung",noun,2,"Реализация","",pending
+"zeitplan",noun,2,"Расписание","Schedule",done
+"consulting",noun,2,"Консалтинг","",pending
+"plus",noun,2,"плюс","",pending
+"forschungseinrichtungen",noun,2,"научно-исследовательские учреждения","Research institutes",done
+"energieversorgung",noun,2,"Энергоснабжение","Energy supply",done
+"skizze",noun,2,"Эскиз","short distance still",done
+"solutions",noun,2,"Решения!","",pending
+"versichertenkarte",noun,2,"страховая карточка","insurance card",done
+"medikamentenliste",noun,2,"список лекарств","List of medications",done
+"verhinderung",noun,2,"профилактика","Prevention",done
+"straßenbahnhaltestelle",noun,2,"остановка трамвая","tram stop",done
+"praxis",noun,2,"Практика","Practice",done
+"neumann",noun,2,"Нейман","",pending
+"materialkosten",noun,2,"Материальные расходы","Material costs",done
+"erhöhung",noun,2,"возрастания","increasion",done
+"prozent",noun,2,"Процент","Percent",done
+"bestehende",noun,2,"существующий","Existing",done
+"vertragsablauf",noun,2,"истечение срока действия договора","contract expiry",done
+"ausführliche",noun,2,"Подробный","Detailed",done
+"süd",noun,2,"Юг","south",done
+"qualitätskontrolle",noun,2,"Контроль качества","Quality Control",done
+"prozesse",noun,2,"Процессы","processes.",done
+"west",noun,2,"Запад","",pending
+"zeugnisse",noun,2,"Сертификаты,","Certificates",done
+"september",noun,2,"сентября","",pending
+"andernfalls",noun,2,"<g id=""803"">} Иначе {</g>","Otherwise",done
+"finanzbuchhaltung",noun,2,"Бухгалтерский финансовый учет","Financial accounting",done
+"entwurf",noun,2,"Черновик","Draft",done
+"heizungsanlage",noun,2,"Система отопления","Heating System",done
+"ausfall",noun,2,"Выпад.","failure",done
+"vierteljahr",noun,2,"квартал","QUARTER",done
+"techniker",noun,2,"Техник","technician",done
+"führungskräfte",noun,2,"Руководители","Managers",done
+"kommunikationsstrategien",noun,2,"коммуникационные стратегии","Communication strategies",done
+"teilnahmegebühr",noun,2,"Плата за участие","Entry Fee",done
+"verpflegung",noun,2,"Питание","Meals",done
+"absolventen",noun,2,"выпускники","Graduates",done
+"führung",noun,2,"компании",".",done
+"anliegen",noun,2,"Запрос","is issued.",done
+"qualitätsmanagement",noun,2,"Менеджмент качества","Quality Management",done
+"aufkommens",noun,2,"возникновение","occurrence",done
+"bürgeramt",noun,2,"<g id=""150""><g id=""148"">Орган регистрационного учёта</g></g><g id=""153"">,</g>","Bürgeramt (Citizens Office)",done
+"mitte",noun,2,"центр","middle",done
+"kochen",verb,1,"Специи заверните в марлю и прокипятите в большем количестве воды.","to cook",done
+"tanzen",verb,1,"танцевать","Dancing",done
+"singen",verb,1,"петь","sing",done
 "lernen",verb,1,"учить(ся)","to learn",done
-"hören",verb,1,"","",pending
-"schwimmen",verb,1,"","",pending
+"hören",verb,1,"слушать","hear",done
+"schwimmen",verb,1,"плавать","Swimming",done
 "arbeiten",verb,1,"работать","to work",done
-"nehmen",verb,1,"","",pending
-"finden",verb,1,"","",pending
-"besuchen",verb,1,"","",pending
-"helfen",verb,1,"","",pending
+"nehmen",verb,1,"брать, взять","tak",done
+"finden",verb,1,"находить","finding",done
+"besuchen",verb,1,"навещать","if you'd like to find out",done
+"helfen",verb,1,"помочь","helping",done
 "kommen",verb,1,"приходить","to come",done
-"brauchen",verb,1,"","",pending
-"regnen",verb,1,"","",pending
-"bezahlen",verb,1,"","",pending
-"feiern",verb,1,"","",pending
-"anrufen",verb,1,"","",pending
-"putzen",verb,1,"","",pending
-"grillen",verb,1,"","",pending
-"tragen",verb,1,"","",pending
-"backen",verb,1,"","",pending
-"lieben",verb,1,"","",pending
-"— dennoch / deshalb / trotzdem / weil",verb,1,"","",pending
-"— denn / dennoch / deshalb / trotzdem",verb,1,"","",pending
-"tech",noun,1,"","",pending
-"techpro",noun,1,"","",pending
-"green",noun,1,"","",pending
+"brauchen",verb,1,"требовать","need",done
+"regnen",verb,1,"дождить","rain",done
+"bezahlen",verb,1,"оплатить","do you not pay ?",done
+"feiern",verb,1,"Развлечения","celebrate",done
+"anrufen",verb,1,"звонить","phoning",done
+"putzen",verb,1,"убирать","clean",done
+"grillen",verb,1,"Гриль","barbecue",done
+"tragen",verb,1,"носить, нести",".",done
+"backen",verb,1,"Выпечка","baking",done
+"lieben",verb,1,"любят","do I not love ?",done
+"— dennoch / deshalb / trotzdem / weil",verb,1,"— тем не менее / поэтому / тем не менее / потому что","— nevertheless / therefore / nevertheless / because",done
+"— denn / dennoch / deshalb / trotzdem",verb,1,"— потому что / тем не менее / поэтому / тем не менее","— because / nevertheless / therefore / nevertheless",done
+"tech",noun,1,"Tech.","",pending
+"techpro",noun,1,"","TechPRO<g id=""2"">®</g>",pending
+"green",noun,1,"зелёный","",pending
 "greentech",noun,1,"","",pending
 "mode",noun,1,"","",pending
-"modeonline",noun,1,"","",pending
+"modeonline",noun,1,"fashiononline","fashiononline",done
 "sich freuen",verb,0,"радоваться","to look forward / be glad",done
+"gast",noun,0,"гость","guest",done
 "haben",verb,0,"иметь","to have",done
 "sein",verb,0,"быть","to be",done
 "gut",adj,0,"хороший","good",done
+"problem",noun,0,"проблема","problem",done
+"tag",noun,0,"день","day",done
+"jahr",noun,0,"год","year",done
