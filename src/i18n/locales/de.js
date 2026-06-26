@@ -38,7 +38,7 @@ export default {
     title: 'Der SprachCoach',
     subtitle: 'Deutsch sprechen wie ein Profi — 7 Minuten täglich reichen.',
     slogan: 'Dein Trainer für alle Fälle',
-    freeStart: '✨ Kostenlos starten · Keine Anmeldung nötig',
+    freeStart: '✨ Kostenlos starten · keine Registrierung nötig',
     levelA1: 'Anfänger',
     levelA2: 'Grundlagen',
     levelB1: 'Alltagssprache',
