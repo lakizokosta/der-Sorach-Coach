@@ -27,6 +27,7 @@ import { onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 import { STRIPE_SUCCESS_PARAM } from '@/data/payment.js';
+import { useI18n } from '@/i18n/index.js';
 import { hasBackend, validateMagicToken } from '@/utils/api.js';
 import { useAuth } from '@/composables/useAuth.js';
 import { activateCode, usePremium } from '@/composables/usePremium.js';
@@ -36,6 +37,7 @@ import {
 } from '@/composables/useProgressSync.js';
 
 const router = useRouter();
+const { t } = useI18n();
 const { setSession } = useAuth();
 const { revalidateOnLoad } = usePremium();
 
@@ -136,7 +138,11 @@ async function handleMagicToken() {
   magicLoading.value = false;
 
   if (!res || !res.ok) {
-    showToast(`⚠ ${(res && res.error) || 'Link ungültig'}`, 'error', 5000);
+    const msg =
+      res && res.errorCode === 'DEVICE_LIMIT'
+        ? t('login.errDeviceLimit', { maxDevices: res.maxDevices || 2 })
+        : (res && res.error) || 'Link ungültig';
+    showToast(`⚠ ${msg}`, 'error', 6000);
     return;
   }
 

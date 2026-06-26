@@ -94,6 +94,9 @@ const TRIAL_TEST_MODE = true;
 /** Magic-link rate limit per e-mail address (sliding window). */
 const MAGIC_LINK_RATE = { count: 3, windowMs: 10 * 60 * 1000 };
 
+/** Max distinct browsers/devices per e-mail (magic-link sessions). */
+const MAX_DEVICES_PER_EMAIL = 2;
+
 /** Session lifetime once a code is validated. */
 const SESSION_LIFETIME_MS = 2 * 60 * 60 * 1000;            // 2 h
 const MAGIC_SESSION_LIFETIME_MS = 7 * 24 * 60 * 60 * 1000; // 7 d
@@ -441,6 +444,9 @@ function validateMagicToken(p) {
 
     sheet.getRange(r + 1, 5).setValue(new Date());
     const email = String(row[1]).toLowerCase().trim();
+    const deviceCheck = assertMagicDeviceSlot_(email, deviceId);
+    if (!deviceCheck.ok) return deviceCheck;
+
     const ent = getEntitlementsForEmail_(email);
     const progress = readProgressRow_(email);
     return {
@@ -477,6 +483,71 @@ function issueMagicSessionToken_(email, deviceId) {
     new Date(Date.now() + MAGIC_SESSION_LIFETIME_MS),
   ]);
   return token;
+}
+
+/**
+ * Stable device key from the SPA payload (`dev_…__fp_…` → `dev_…`).
+ *
+ * @param {string} raw
+ * @return {string}
+ */
+function normalizeDeviceId_(raw) {
+  const id = String(raw || '').trim();
+  if (!id) return '';
+  const split = id.indexOf('__');
+  return split === -1 ? id : id.slice(0, split);
+}
+
+/**
+ * Distinct devices with a non-expired magic session for `email`.
+ *
+ * @param {string} email
+ * @return {Set<string>}
+ */
+function listActiveMagicDevices_(email) {
+  const norm = String(email || '').toLowerCase().trim();
+  const devices = new Set();
+  if (!norm) return devices;
+
+  const sheet = sheet_('MagicSessions');
+  const data = sheet.getDataRange().getValues();
+  const now = Date.now();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
+    const exp = data[r][4];
+    if (exp && new Date(exp).getTime() <= now) continue;
+    const did = normalizeDeviceId_(data[r][2]);
+    if (did) devices.add(did);
+  }
+  return devices;
+}
+
+/**
+ * Blocks login when the account already has the max number of devices.
+ * Re-login on a registered device is always allowed.
+ *
+ * @param {string} email
+ * @param {string} deviceId
+ * @return {!Object}
+ */
+function assertMagicDeviceSlot_(email, deviceId) {
+  const did = normalizeDeviceId_(deviceId);
+  if (!did) return { ok: true };
+
+  const active = listActiveMagicDevices_(email);
+  if (active.has(did)) return { ok: true };
+
+  if (active.size >= MAX_DEVICES_PER_EMAIL) {
+    return {
+      ok: false,
+      errorCode: 'DEVICE_LIMIT',
+      maxDevices: MAX_DEVICES_PER_EMAIL,
+      error:
+        'Gerätelimit erreicht (max. ' + MAX_DEVICES_PER_EMAIL +
+        '). Melde dich auf einem registrierten Gerät an oder kontaktiere den Support.',
+    };
+  }
+  return { ok: true };
 }
 
 /* ────────────────────────────────────────────────────────────────

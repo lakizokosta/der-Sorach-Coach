@@ -10,7 +10,7 @@
 | `POST {requestTrial, email}` from the SPA | One-shot 24-hour trial code, e-mailed to the buyer. |
 | `POST {contactForm, …}` from the SPA | Forwarded to `SUPPORT_EMAIL`. |
 | `GET ?action=validateCode&code=…` | Server-side code check, returns a 2-hour session token. |
-| `GET ?action=validateMagicToken&token=…` | Consumes a magic-link token, returns a 7-day session. |
+| `GET ?action=validateMagicToken&token=…` | Consumes a magic-link token, returns a 7-day session. **Max 2 devices per e-mail** (`MAX_DEVICES_PER_EMAIL`); re-login on a registered device is allowed; expired sessions (7 days) free a slot. |
 
 Every outgoing e-mail uses the script owner's Gmail (free tier limit: **100 e-mails / day**; Workspace: 1,500 / day).
 

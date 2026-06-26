@@ -82,7 +82,7 @@ function shareCard() {
           class="profile-free__login-hint"
         >
           📱 <router-link :to="{ name: 'landing' }">Auf der Startseite einloggen</router-link>,
-          um Fortschritt auf allen Geräten zu speichern.
+          um Fortschritt auf bis zu 2 Geräten zu speichern.
         </div>
 
         <!-- XP + Level -->
