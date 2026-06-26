@@ -4,8 +4,7 @@
  *
  * Reads `level` and (optionally) `topic` + `mode` from the route query
  * and drives the user through a varied queue of questions. Tracks live
- * score, drives the timer (7 min cap in free mode, count-up otherwise)
- * and renders a final result screen with mastery + topic feedback.
+ * score, drives the count-up timer, and renders a final result screen.
  *
  * Route examples:
  *   /trainer?level=A1
@@ -21,7 +20,6 @@ import LzdLogo from '@/components/LzdLogo.vue';
 import GrammarTip from '@/components/GrammarTip.vue';
 import DictionaryPopup from '@/components/DictionaryPopup.vue';
 import QuestionRenderer from '@/components/questions/QuestionRenderer.vue';
-import ConversionSheet from '@/components/ConversionSheet.vue';
 
 import { usePremium } from '@/composables/usePremium.js';
 import { useXp, getLevel, recordTopicWrong } from '@/composables/useXp.js';
@@ -36,11 +34,6 @@ import {
   POST_GOAL_BONUS_XP,
   recordBonusProgress,
 } from '@/composables/useDailyBonus.js';
-import {
-  FREE_SECONDS_PER_DAY,
-  getFreeSecondsRemaining,
-  addFreeSecondsUsed,
-} from '@/composables/useFreeDailyLimit.js';
 import { useTimer, formatMmSs } from '@/composables/useTimer.js';
 
 import { getQuestionsByLevel, getQuestionsByTopic } from '@/data/questions.js';
@@ -57,7 +50,6 @@ import { setCefrLevel } from '@/composables/useCefrLevel.js';
 import { useNickname } from '@/composables/useNickname.js';
 import { sharePlacementCard } from '@/utils/shareCard.js';
 import { useI18n } from '@/i18n/index.js';
-import { PRICES_EUR } from '@/data/payment.js';
 
 const route = useRoute();
 const { t } = useI18n();
@@ -66,9 +58,6 @@ const { isPremium, isBasis } = usePremium();
 const { addXP, state: xpState, level: liveLevel, MASTERY_THRESHOLD } = useXp();
 const { state: streakState } = useStreak();
 const { displayName } = useNickname();
-
-/** Free countdown at session start — used to persist seconds used today. */
-let freeTimerBaseline = null;
 
 const level = ref(route.query.level || 'A1');
 const topic = ref(route.query.topic || '');
@@ -96,27 +85,16 @@ const wrongTopics = ref({});              // key -> { name, level, count }
 const upsellHtml = ref('');
 const lastAnswerResolved = ref(false);    // is the head question fully resolved?
 const sessionStreak = ref(0);             // consecutive correct answers this session
-/** Funnel sheets — at most once per session each. */
-const funnelStreakShown = ref(false);
-const funnelQuestionsShown = ref(false);
-const conversionSheetOpen = ref(false);
-const conversionSheetVariant = ref('checkout');
 /** @type {import('vue').Ref<Record<string, { correct: number, total: number }>>} */
 const placementScores = ref({});
 const placementDetectedLevel = ref('');
-/** Why the session ended — e.g. `Zeit abgelaufen` when free daily limit hits. */
-const finishReason = ref('');
 
 /** Short-lived toast after each answer (+XP, level-up, mastery). */
 const microFeedback = ref({ visible: false, lines: [], tone: 'good' });
 const xpBadgePulse = ref(false);
 let microFeedbackTimer = null;
 
-const timer = useTimer(
-  isPrem.value || isBasis.value
-    ? { mode: 'up', initialSeconds: 0 }
-    : { mode: 'down', initialSeconds: FREE_SECONDS_PER_DAY, onExpire: () => finish('Zeit abgelaufen') },
-);
+const timer = useTimer({ mode: 'up', initialSeconds: 0 });
 
 // Computed values for the header / score display.
 const timerLabel = computed(() => formatMmSs(timer.value.value));
@@ -271,8 +249,13 @@ function collectBonusLines(wasCorrect) {
   return lines;
 }
 
-/** Loads the queue, restores any free-session timer, kicks things off. */
+/** Loads the queue and kicks things off (Basis or Premium required). */
 onMounted(() => {
+  if (!isPremium.value && !isBasis.value) {
+    router.replace({ name: 'premium', query: { hub: '1' } });
+    return;
+  }
+
   if ((schwaechenMode || placementMode) && !isPremium.value) {
     router.replace({ name: 'premium', query: { hub: '1' } });
     return;
@@ -304,14 +287,6 @@ onMounted(() => {
     return;
   }
 
-  if (!isPrem.value && !isBasis.value) {
-    const remaining = getFreeSecondsRemaining();
-    timer.reset(remaining, false);
-    if (remaining <= 0) {
-      finish('Zeit abgelaufen');
-    }
-  }
-
   window.addEventListener('keydown', onTrainerKeydown);
 });
 
@@ -322,29 +297,15 @@ onBeforeUnmount(() => {
 });
 
 /**
- * Persists free-mode seconds used today (localStorage, per calendar day).
- */
-function persistFreeTimeUsed() {
-  if (isPrem.value || isBasis.value || freeTimerBaseline == null) return;
-  const used = Math.max(0, freeTimerBaseline - timer.value.value);
-  addFreeSecondsUsed(used);
-  freeTimerBaseline = timer.value.value;
-}
-
-/**
  * Called when the user leaves mid-session. XP is already persisted per
  * answer; streak is tied to the daily goal (Tagesziel), not early exit.
  */
 function saveProgressEarly() {
   if (finished.value) return;
-  persistFreeTimeUsed();
 }
 
-/** Starts the timer and snapshots the free countdown baseline. */
+/** Starts the session timer on first answer. */
 function ensureTimerStarted() {
-  if (!isPrem.value && !isBasis.value && freeTimerBaseline == null) {
-    freeTimerBaseline = timer.value.value;
-  }
   timer.start();
 }
 
@@ -494,7 +455,7 @@ function next() {
   queueVersion.value += 1;
   if (!queue.value || !queue.value.hasNext()) {
     if (placementMode) finalizePlacementResult();
-    finish('Fragen zu Ende');
+    finish();
   }
 }
 
@@ -523,14 +484,10 @@ function sharePlacementResult() {
 }
 
 /**
- * Ends the session, persists XP & streak and renders the result screen.
- *
- * @param {string} reason  Reason label used in some result screens.
+ * Ends the session and renders the result screen.
  */
-function finish(reason) {
+function finish() {
   if (finished.value) return;
-  finishReason.value = reason || '';
-  persistFreeTimeUsed();
   finished.value = true;
   timer.stop();
 }
@@ -559,7 +516,6 @@ function restartSession() {
   answered.value = 0;
   correct.value = 0;
   finished.value = false;
-  finishReason.value = '';
   showRetry.value = false;
   showGrammarTip.value = false;
   upsellHtml.value = '';
@@ -567,7 +523,6 @@ function restartSession() {
   lastAnswerResolved.value = false;
   sessionStreak.value = 0;
   microFeedback.value = { visible: false, lines: [], tone: 'good' };
-  freeTimerBaseline = null;
 
   let all;
   if (schwaechenMode) {
@@ -581,13 +536,7 @@ function restartSession() {
 
   queue.value = new AdaptiveQueue(all, { shuffle: true });
   queueVersion.value += 1;
-
-  if (!isPrem.value && !isBasis.value) {
-    const remaining = getFreeSecondsRemaining();
-    timer.reset(remaining, false);
-  } else {
-    timer.reset(0, false);
-  }
+  timer.reset(0, false);
 }
 
 /** Returns to landing (or premium for Premium users) with progress saved. */
@@ -639,57 +588,6 @@ const placementBreakdownRows = computed(() =>
     ? placementBreakdown(placementScores.value)
     : [],
 );
-
-const freeTimeExpired = computed(
-  () => finishReason.value === 'Zeit abgelaufen' && !isPrem.value && !isBasis.value,
-);
-
-/** Sticky upsell bar in free trainer mode (Concept A). */
-const showFunnelSticky = computed(
-  () =>
-    !isPrem.value &&
-    !isBasis.value &&
-    !finished.value &&
-    !!currentQuestion.value &&
-    !placementMode &&
-    !schwaechenMode,
-);
-
-function openFunnelCheckout(variant = 'checkout') {
-  conversionSheetVariant.value = variant;
-  conversionSheetOpen.value = true;
-}
-
-function openBasisPage() {
-  router.push({ name: 'premium', query: { focus: 'basis', hub: '1' } });
-}
-
-watch(sessionStreak, (val) => {
-  if (
-    val === 10 &&
-    !funnelStreakShown.value &&
-    !isPrem.value &&
-    !isBasis.value &&
-    !finished.value
-  ) {
-    funnelStreakShown.value = true;
-    openFunnelCheckout('streak10');
-  }
-});
-
-watch(answered, (val) => {
-  if (
-    val === 15 &&
-    !funnelQuestionsShown.value &&
-    !isPrem.value &&
-    !isBasis.value &&
-    !finished.value &&
-    !conversionSheetOpen.value
-  ) {
-    funnelQuestionsShown.value = true;
-    openFunnelCheckout('questions15');
-  }
-});
 
 /**
  * Whether the Weiter button should be enabled. A question is "done"
@@ -801,63 +699,27 @@ watch(lastAnswerResolved, (resolved) => {
       >
         <div style="font-size: 48px; margin-bottom: 8px;">
           {{
-            freeTimeExpired
-              ? '⏱️'
-              : placementDetectedLevel
-                ? '🎯'
-                : scorePct >= 80
-                  ? '🏆'
-                  : scorePct >= 60
-                    ? '💪'
-                    : '📚'
+            placementDetectedLevel
+              ? '🎯'
+              : scorePct >= 80
+                ? '🏆'
+                : scorePct >= 60
+                  ? '💪'
+                  : '📚'
           }}
         </div>
         <div style="font-size: 22px; font-weight: 900;">
           {{
-            freeTimeExpired
-              ? t('trainer.freeTimeExpiredTitle')
-              : placementDetectedLevel
-                ? `Dein Niveau: ${placementDetectedLevel}`
-                : scorePct >= 80
-                  ? t('trainer.excellent')
-                  : scorePct >= 60
-                    ? t('trainer.goodJob')
-                    : t('trainer.keepPracticing')
+            placementDetectedLevel
+              ? `Dein Niveau: ${placementDetectedLevel}`
+              : scorePct >= 80
+                ? t('trainer.excellent')
+                : scorePct >= 60
+                  ? t('trainer.goodJob')
+                  : t('trainer.keepPracticing')
           }}
         </div>
         <div
-          v-if="freeTimeExpired"
-          class="trainer-free-limit-msg"
-        >
-          {{ t('trainer.freeTimeExpiredMessage') }}
-        </div>
-
-        <div v-if="freeTimeExpired" class="funnel-timer-end">
-          <p class="funnel-timer-end__lead">{{ t('funnel.timerEndLead') }}</p>
-          <button
-            type="button"
-            class="funnel-timer-end__cta funnel-timer-end__cta--premium"
-            @click="openFunnelCheckout('checkout')"
-          >
-            {{ t('funnel.ctaPremium3') }}
-          </button>
-          <button
-            type="button"
-            class="funnel-timer-end__cta funnel-timer-end__cta--basis"
-            @click="openBasisPage"
-          >
-            {{ t('funnel.basisBtn', { price: PRICES_EUR.basis }) }}
-          </button>
-          <button
-            type="button"
-            class="funnel-timer-end__ghost"
-            @click="exitSession"
-          >
-            {{ t('funnel.timerEndTomorrow') }}
-          </button>
-        </div>
-        <div
-          v-else
           style="font-size: 14px; color: #888; margin: 8px 0 20px;"
         >
           {{ placementDetectedLevel ? 'Niveau-Test abgeschlossen' : t('trainer.sessionEnded') }}
@@ -984,7 +846,7 @@ watch(lastAnswerResolved, (resolved) => {
         </button>
 
         <button
-          v-if="!placementDetectedLevel && !freeTimeExpired"
+          v-if="!placementDetectedLevel"
           class="soft-btn"
           type="button"
           style="
@@ -1003,7 +865,6 @@ watch(lastAnswerResolved, (resolved) => {
         </button>
 
         <button
-          v-if="!freeTimeExpired"
           class="soft-btn"
           type="button"
           :style="{
@@ -1099,7 +960,6 @@ watch(lastAnswerResolved, (resolved) => {
     v-else
     ref="trainerRootRef"
     class="app-shell"
-    :class="{ 'app-shell--funnel': showFunnelSticky }"
     @click="onContainerClick"
   >
     <LzdLogo small />
@@ -1120,7 +980,7 @@ watch(lastAnswerResolved, (resolved) => {
         {{
           isPrem
             ? t('trainer.premium', { level })
-            : t('trainer.free', { level })
+            : t('trainer.basis', { level })
         }}
         <span v-if="topic"> / {{ topic }}</span>
       </template>
@@ -1216,7 +1076,7 @@ watch(lastAnswerResolved, (resolved) => {
     </button>
 
     <div style="display: flex; gap: 10px; justify-content: center; margin-top: 14px;">
-      <button class="soft-btn" type="button" @click="finish('Manuell beendet')">
+      <button class="soft-btn" type="button" @click="finish">
         {{ t('trainer.finish') }}
       </button>
       <button class="soft-btn" type="button" @click="back">{{ t('trainer.backShort') }}</button>
@@ -1228,25 +1088,5 @@ watch(lastAnswerResolved, (resolved) => {
       @close="dictTarget = null"
     />
 
-    <div v-if="showFunnelSticky" class="funnel-sticky" role="complementary">
-      <div class="funnel-sticky__meta">
-        <span class="funnel-sticky__level">{{ level }}</span>
-        <span class="funnel-sticky__dot">·</span>
-        <span class="funnel-sticky__timer">⏱ {{ timerLabel }}</span>
-      </div>
-      <button
-        type="button"
-        class="funnel-sticky__cta"
-        @click="openFunnelCheckout('checkout')"
-      >
-        {{ t('funnel.stickyCta') }}
-      </button>
-    </div>
   </div>
-
-  <ConversionSheet
-    v-model="conversionSheetOpen"
-    :variant="conversionSheetVariant"
-    plan="3months"
-  />
 </template>
