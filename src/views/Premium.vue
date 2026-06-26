@@ -29,6 +29,7 @@ import SchwaechenCard from '@/components/SchwaechenCard.vue';
 import ActivityCalendar from '@/components/ActivityCalendar.vue';
 import NiveauTestBlock from '@/components/NiveauTestBlock.vue';
 import PricingCompare from '@/components/PricingCompare.vue';
+import LegalFooter from '@/components/LegalFooter.vue';
 
 import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
 import { getQuestionsByTopic } from '@/data/questions.js';
@@ -1170,6 +1171,8 @@ function topicMastered(key) {
         </div>
       </div>
     </section>
+
+    <LegalFooter />
 
     <ConversionSheet
       v-model="conversionSheetOpen"
