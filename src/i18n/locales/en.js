@@ -38,7 +38,7 @@ export default {
     title: 'Der SprachCoach',
     subtitle: 'Speak German like a pro — 7 minutes a day is enough.',
     slogan: 'Your trainer for every situation',
-    freeStart: '✨ Start free · No sign-up required',
+    freeStart: 'Start free · No sign-up required',
     levelA1: 'Beginner',
     levelA2: 'Basics',
     levelB1: 'Everyday',
