@@ -151,7 +151,7 @@ export function validateCode(code, email = '') {
 
 /**
  * Consumes a magic-link token from an `?mltoken=…` URL parameter.
- * On success the server returns the resolved e-mail, a 7-day user
+ * On success the server returns the resolved e-mail, a 365-day sliding
  * session token, and the current Premium status.
  *
  * @param {string} token  Raw token value from the URL.
@@ -179,6 +179,23 @@ export function requestMagicLink(email) {
     requestMagicLink: true,
     email: String(email || '').trim().toLowerCase(),
     deviceId: getDeviceId(),
+  });
+}
+
+/**
+ * Extends a magic-link session (sliding expiry). Called on each app load
+ * while the user is still logged in.
+ *
+ * @param {string} email
+ * @param {string} sessionToken
+ * @return {Promise<{ok:boolean, sessionExpires?:string, isPremium?:boolean,
+ *   premiumExpires?:string, isBasis?:boolean, error?:string}>}
+ */
+export function refreshMagicSession(email, sessionToken) {
+  return postJson({
+    action: 'refreshMagicSession',
+    email: String(email || '').trim().toLowerCase(),
+    sessionToken: String(sessionToken || '').trim(),
   });
 }
 

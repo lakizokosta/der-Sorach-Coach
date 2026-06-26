@@ -1,10 +1,10 @@
 /**
- * @fileoverview Magic-Link user session (server-issued, 7-day HMAC).
+ * @fileoverview Magic-Link user session (server-issued, 365-day sliding).
  *
  * The Apps Script backend hands the SPA an opaque session token plus
  * an ISO-8601 expiry whenever the user consumes a magic-link token
- * (`?mltoken=…`). We persist that bundle in localStorage and expose a
- * tiny reactive surface so any view can show login state.
+ * (`?mltoken=…`). We persist that bundle in localStorage and extend
+ * the expiry on each app load while the session is still valid.
  *
  * Mirrors the `lzd_user` session contract from the original page but
  * uses a versioned key so old payloads don't conflict.
@@ -12,6 +12,7 @@
 
 import { reactive, computed } from 'vue';
 import { loadJSON, saveJSON, removeKey } from '@/composables/useStorage.js';
+import { hasBackend, refreshMagicSession } from '@/utils/api.js';
 
 const SESSION_KEY = 'lzd_user_v1';
 
@@ -73,11 +74,41 @@ function logout() {
 }
 
 /**
+ * Extends the magic-link session on app boot (sliding 365-day window).
+ * Clears local session when the server rejects the token.
+ *
+ * @return {Promise<void>}
+ */
+export async function refreshSessionOnLoad() {
+  if (!hasBackend()) return;
+  if (!state.email || !state.sessionToken || !state.sessionExpires) return;
+  if (new Date().toISOString() >= state.sessionExpires) {
+    logout();
+    return;
+  }
+
+  const res = await refreshMagicSession(state.email, state.sessionToken);
+  if (res && res.ok) {
+    setSession({
+      email: state.email,
+      sessionToken: state.sessionToken,
+      sessionExpires: res.sessionExpires,
+      isPremium: res.isPremium,
+      premiumExpires: res.premiumExpires,
+      isBasis: res.isBasis,
+    });
+    return;
+  }
+  if (res && res.error) logout();
+}
+
+/**
  * Returns the singleton auth composable surface.
  *
  * @return {{state: typeof state, isLoggedIn: typeof isLoggedIn,
- *   setSession: typeof setSession, logout: typeof logout}}
+ *   setSession: typeof setSession, logout: typeof logout,
+ *   refreshSessionOnLoad: typeof refreshSessionOnLoad}}
  */
 export function useAuth() {
-  return { state, isLoggedIn, setSession, logout };
+  return { state, isLoggedIn, setSession, logout, refreshSessionOnLoad };
 }

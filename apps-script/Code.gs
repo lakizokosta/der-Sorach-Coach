@@ -8,7 +8,7 @@
  *      e-mails the buyer the code + a one-click activation link.
  *   2. Validates activation codes posted by the SPA, returning a
  *      2-hour session token bound to the buyer's device.
- *   3. Issues magic-link login e-mails (7-day passwordless sessions).
+ *   3. Issues magic-link login e-mails (365-day sliding sessions).
  *   4. Issues one-shot 1-day trial codes.
  *   5. Relays the contact form to the support inbox.
  *
@@ -99,7 +99,7 @@ const MAX_DEVICES_PER_EMAIL = 2;
 
 /** Session lifetime once a code is validated. */
 const SESSION_LIFETIME_MS = 2 * 60 * 60 * 1000;            // 2 h
-const MAGIC_SESSION_LIFETIME_MS = 7 * 24 * 60 * 60 * 1000; // 7 d
+const MAGIC_SESSION_LIFETIME_MS = 365 * 24 * 60 * 60 * 1000; // 365 d (sliding)
 const MAGIC_TOKEN_LIFETIME_MS = 30 * 60 * 1000;            // 30 min
 
 /* ────────────────────────────────────────────────────────────────
@@ -160,6 +160,7 @@ function doPost(e) {
     if (body.action === 'saveStreakByEmail')  return json(saveProgressByEmail_(body, true));
     if (body.action === 'loadProgressByEmail') return json(loadProgressByEmail_(body, false));
     if (body.action === 'saveProgressByEmail') return json(saveProgressByEmail_(body, false));
+    if (body.action === 'refreshMagicSession') return json(refreshMagicSession_(body));
     if (body.loadProgress)  return json(loadProgressByEmail_(body, false));
     if (body.saveProgress)  return json(saveProgressByEmail_(body, false));
 
@@ -390,7 +391,7 @@ function issueSessionToken_(code, deviceId) {
 }
 
 /* ────────────────────────────────────────────────────────────────
-   Magic-link login (7-day session via e-mailed token).
+   Magic-link login (365-day sliding session via e-mailed token).
    ──────────────────────────────────────────────────────────────── */
 
 /**
@@ -466,7 +467,7 @@ function validateMagicToken(p) {
 }
 
 /**
- * Issues a 7-day session token for a magic-link login.
+ * Issues a magic-link session token (365-day sliding window).
  *
  * @param {string} email
  * @param {string} deviceId
@@ -1039,9 +1040,22 @@ function readProgressRow_(email) {
  * @return {boolean}
  */
 function validateMagicSession_(email, token) {
+  return extendMagicSession_(email, token, false) !== null;
+}
+
+/**
+ * Finds a valid magic session row and optionally extends its expiry
+ * (sliding window: now + `MAGIC_SESSION_LIFETIME_MS`).
+ *
+ * @param {string} email
+ * @param {string} token
+ * @param {boolean} [extend=true]
+ * @return {string|null}  ISO-8601 expiry, or null when invalid/expired.
+ */
+function extendMagicSession_(email, token, extend) {
   const norm = String(email || '').toLowerCase().trim();
   const tok = String(token || '').trim();
-  if (!norm || !tok) return false;
+  if (!norm || !tok) return null;
 
   const sheet = sheet_('MagicSessions');
   const data = sheet.getDataRange().getValues();
@@ -1050,9 +1064,40 @@ function validateMagicSession_(email, token) {
     if (String(data[r][0]).trim() !== tok) continue;
     if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
     const exp = data[r][4];
-    if (exp && new Date(exp).getTime() > now) return true;
+    if (!exp || new Date(exp).getTime() <= now) return null;
+
+    if (extend !== false) {
+      const newExp = new Date(now + MAGIC_SESSION_LIFETIME_MS);
+      sheet.getRange(r + 1, 5).setValue(newExp);
+      return newExp.toISOString();
+    }
+    return new Date(exp).toISOString();
   }
-  return false;
+  return null;
+}
+
+/**
+ * Extends a magic-link session on app load (sliding expiry + fresh entitlements).
+ *
+ * @param {!Object} body  {email, sessionToken}.
+ * @return {!Object}
+ */
+function refreshMagicSession_(body) {
+  const email = String(body.email || '').toLowerCase().trim();
+  const token = String(body.sessionToken || '').trim();
+  if (!email || !token) return { ok: false, error: 'Nicht angemeldet' };
+
+  const sessionExpires = extendMagicSession_(email, token, true);
+  if (!sessionExpires) return { ok: false, error: 'Session abgelaufen' };
+
+  const ent = getEntitlementsForEmail_(email);
+  return {
+    ok: true,
+    sessionExpires,
+    isPremium: ent.isPremium,
+    premiumExpires: ent.premiumExpires,
+    isBasis: ent.isBasis,
+  };
 }
 
 /**

@@ -15,7 +15,7 @@
  *                                  consumed after the next Magic-Link
  *                                  login completes.
  *   ?mltoken=<TOKEN>             → loading overlay → validate against
- *                                  the backend → store the 7-day user
+ *                                  the backend → store the sliding user
  *                                  session → consume any pending
  *                                  activation code.
  *
@@ -38,7 +38,7 @@ import {
 
 const router = useRouter();
 const { t } = useI18n();
-const { setSession } = useAuth();
+const { setSession, refreshSessionOnLoad } = useAuth();
 const { revalidateOnLoad } = usePremium();
 
 const PENDING_CODE_KEY = 'pendingActivationCode';
@@ -185,6 +185,7 @@ onMounted(async () => {
   handleStripeSuccess();
   handleActivateParam();
   await handleMagicToken();
+  await refreshSessionOnLoad();
   await revalidateOnLoad();
   await pullProgressFromServer();
 });
