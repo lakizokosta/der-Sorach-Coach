@@ -15,12 +15,15 @@ import { wrapWordsForDictionary } from '@/utils/dictionary.js';
 import { stripTrailingPromptHint } from '@/utils/markdownQuestion.js';
 import { resolveSpatialScene } from '@/utils/prepositionSpatial.js';
 import PrepositionSpatialHint from '@/components/PrepositionSpatialHint.vue';
+import { useI18n } from '@/i18n/index.js';
 
 const props = defineProps({
   question: { type: Object, required: true },
   premium: { type: Boolean, default: false },
 });
 const emit = defineEmits(['answer', 'complete']);
+
+const { t } = useI18n();
 
 const value = ref('');
 const checked = ref(false);
@@ -35,6 +38,8 @@ const acceptable = (props.question.correct || []).map((s) => String(s).toLowerCa
 
 const spatialScene = computed(() => resolveSpatialScene(props.question));
 const showSpatialHint = computed(() => spatialScene.value !== null);
+
+const verbInfinitive = computed(() => String(props.question.verbInfinitive || '').trim());
 
 const partLeftHtml = computed(() =>
   props.premium ? wrapWordsForDictionary(parts[0] || '') : escapeHtml(parts[0] || ''),
@@ -166,6 +171,10 @@ const inputStyle = computed(() => {
       />
       <span v-html="partRightHtml" />
     </div>
+
+    <p v-if="verbInfinitive" class="fill-infinitive-hint">
+      {{ t('trainer.infinitiveHint', { verb: verbInfinitive }) }}
+    </p>
 
     <div class="sprach-btns">
       <button

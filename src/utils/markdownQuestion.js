@@ -34,6 +34,7 @@
  */
 
 import { applyInterrogativePunctuation } from './questionPunctuation.js';
+import { resolveInputTextInfinitive } from './inputTextInfinitive.js';
 
 /**
  * Removes the trailing grammar hint in parentheses from a prompt body,
@@ -187,6 +188,8 @@ export function parseQuestionFile(raw, context) {
     hint: meta.hint || '',
   };
 
+  if (meta.lemma) question.lemma = String(meta.lemma);
+
   switch (question.type) {
     case 'select-one': {
       if (!Array.isArray(meta.options) || meta.options.length < 2) {
@@ -266,6 +269,7 @@ export function parseQuestionFile(raw, context) {
         throw new Error(`input-text needs at least one "correct" value (${context?.path})`);
       }
       question.correct = correctList;
+      question.verbInfinitive = resolveInputTextInfinitive(question);
       break;
     }
     case 'text-gaps': {

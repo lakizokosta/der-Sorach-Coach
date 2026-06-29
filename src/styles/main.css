@@ -1032,6 +1032,12 @@ button:not(:disabled):not(.logo-wrap) {
   text-align: left;
   padding: 0 4px;
 }
+.fill-infinitive-hint {
+  margin: -8px 0 14px 4px;
+  font-size: 14px;
+  color: #6b5b7a;
+  font-style: italic;
+}
 
 /* ── Lesen MC ───────────────────────────────────────────────────────────── */
 .lesen-text {

@@ -288,6 +288,7 @@ export default {
     freeTimeExpiredMessage:
       'Твои бесплатные 7 минут на сегодня истекли — приходи завтра!',
     sessionEnded: 'Сессия завершена',
+    infinitiveHint: 'Инфинитив: {verb}',
     placementShare: '📤 Поделиться уровнем',
     placementShareTitle: 'Мой уровень немецкого',
     placementShareText:

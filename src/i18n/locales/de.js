@@ -291,6 +291,7 @@ export default {
     freeTimeExpiredMessage:
       'Deine 7 Gratis-Minuten für heute sind verbraucht — komm morgen wieder!',
     sessionEnded: 'Session beendet',
+    infinitiveHint: 'Infinitiv: {verb}',
     placementShare: '📤 Niveau teilen',
     placementShareTitle: 'Mein Deutsch-Niveau',
     placementShareText:
