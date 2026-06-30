@@ -2,8 +2,10 @@
 /**
  * DragDrop — "Ordne die Wörter zum richtigen Satz" question.
  *
- * First wrong check: learner may reorder chips (emits `first-wrong`).
+ * First wrong check: learner may reorder chips (emits `first-wrong`);
+ * words already in the correct slot are highlighted green and locked.
  * Second wrong check: shows the correct sentence and finalises as wrong.
+ * The Tipp button inserts the next reference word (trimming a wrong tail).
  * Correct on first try (or after one wrong) finalises like MultipleChoice.
  *
  * Optional `commas` in question data: 0-based word indices after which a
@@ -72,6 +74,23 @@ onMounted(scrambleBank);
 
 const locked = computed(() => finalised.value || showSolution.value);
 
+/** True when a chip matches the reference order and must not be removed. */
+function isChipLocked(index) {
+  return (
+    wrongChecks.value >= 1
+    && !finalised.value
+    && !showSolution.value
+    && drop.value[index] === coreWords[index]
+  );
+}
+
+const canApplyHint = computed(() => {
+  if (locked.value) return false;
+  const nextIndex = drop.value.findIndex((w, i) => w !== coreWords[i]);
+  const targetIndex = nextIndex === -1 ? drop.value.length : nextIndex;
+  return targetIndex < coreWords.length;
+});
+
 function pushChip(index) {
   if (locked.value) return;
   const word = bank.value[index];
@@ -86,9 +105,34 @@ function pushChip(index) {
 }
 
 function popChip(index) {
-  if (locked.value) return;
+  if (locked.value || isChipLocked(index)) return;
   const [w] = drop.value.splice(index, 1);
   if (w !== undefined) bank.value.push(w);
+}
+
+/** Inserts the next reference word; trims a wrong tail first if needed. */
+function applyHint() {
+  if (!canApplyHint.value) return;
+
+  let nextIndex = drop.value.findIndex((w, i) => w !== coreWords[i]);
+  if (nextIndex === -1) nextIndex = drop.value.length;
+
+  while (drop.value.length > nextIndex) {
+    const w = drop.value.pop();
+    if (w !== undefined) bank.value.push(w);
+  }
+
+  const targetWord = coreWords[nextIndex];
+  const bankIndex = bank.value.indexOf(targetWord);
+  if (bankIndex === -1) return;
+
+  bank.value.splice(bankIndex, 1);
+  drop.value.push(targetWord);
+
+  if (bank.value.length === 1) {
+    const last = bank.value.splice(0, 1)[0];
+    drop.value.push(last);
+  }
 }
 
 function finalise(isCorrect) {
@@ -199,8 +243,11 @@ const promptLabel = computed(
 
 const chipClass = computed(() => (word, index) => {
   if (showSolution.value || (finalised.value && succeeded.value)) return 'correct';
-  if (!finalised.value || wrongChecks.value < 2) return '';
-  return drop.value[index] === correct[index] ? 'correct' : 'wrong';
+  if (finalised.value && wrongChecks.value >= 2) {
+    return drop.value[index] === coreWords[index] ? 'correct' : 'wrong';
+  }
+  if (wrongChecks.value >= 1 && drop.value[index] === coreWords[index]) return 'correct';
+  return '';
 });
 </script>
 
@@ -215,7 +262,7 @@ const chipClass = computed(() => (word, index) => {
       <template v-for="(w, i) in drop" :key="`d-${i}-${w}`">
         <span
           class="dd-chip"
-          :class="chipClass(w, i)"
+          :class="[chipClass(w, i), { locked: isChipLocked(i) }]"
           @click="popChip(i)"
         >
           {{ w }}
@@ -255,6 +302,14 @@ const chipClass = computed(() => (word, index) => {
         @click="check"
       >
         ✔ Prüfen
+      </button>
+      <button
+        type="button"
+        class="sprach-btn sprach-btn-hint"
+        :disabled="finalised || !canApplyHint"
+        @click="applyHint"
+      >
+        💡 Tipp
       </button>
       <button
         type="button"

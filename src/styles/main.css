@@ -994,6 +994,7 @@ button:not(:disabled):not(.logo-wrap) {
 }
 .dd-chip.correct { background: #e8f5e9; border-color: #69c43b; color: #2e7d32; }
 .dd-chip.wrong   { background: #fff0f0; border-color: #ed4545; color: #c62828; }
+.dd-chip.locked  { cursor: default; }
 .dd-placeholder  { color: #bbb; font-size: 13px; }
 .dd-comma {
   font-size: 20px;
@@ -1154,6 +1155,7 @@ button.lesen-gap-marker {
   margin: 0 5px;
 }
 .sprach-btn-check { background: #ab4dbb; color: #fff; }
+.sprach-btn-hint  { background: #FFB700; color: #000; }
 .sprach-btn-reset { background: #ddd; color: #333; }
 .sprach-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 .sprach-msg { text-align: center; margin-top: 10px; font-weight: 700; font-size: 15px; min-height: 20px; }
