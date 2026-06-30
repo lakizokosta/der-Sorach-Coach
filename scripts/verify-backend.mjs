@@ -95,22 +95,7 @@ if (unknown.data?.error === 'Unknown action') {
   fail('GET unknown action', unknown.raw || JSON.stringify(unknown.data));
 }
 
-// 3. POST requestTrial (+test bypass when TRIAL_TEST_MODE=true)
-const trial = await postJson({
-  requestTrial: true,
-  email: 'p0-smoke+test@example.com',
-  deviceId: 'p0-smoke-device',
-});
-if (trial.data?.ok === true) {
-  pass('POST requestTrial', trial.data.testMode ? 'TRIAL_TEST_MODE is ON' : 'trial sent');
-  if (trial.data.testMode) {
-    warn('TRIAL_TEST_MODE', 'Set TRIAL_TEST_MODE = false in Code.gs before production');
-  }
-} else {
-  fail('POST requestTrial', trial.data?.error || trial.raw);
-}
-
-// 4. POST requestMagicLink
+// 3. POST requestMagicLink
 const magic = await postJson({
   requestMagicLink: true,
   email: 'p0-smoke+test@example.com',

@@ -8,7 +8,6 @@
  *   - The Premium buy form (plan picker + Stripe + PayPal) — first.
  *   - Activation UI only after purchase: when the user is logged in
  *     or arrived via `?activate=CODE` from the payment e-mail.
- *   - Optional trial block.
  *
  * When Premium IS active, this screen shows:
  *   - Hero CTA, streak / XP summary.
@@ -50,7 +49,6 @@ import {
 import {
   hasBackend,
   requestMagicLink,
-  requestTrial,
 } from '@/utils/api.js';
 import { useI18n } from '@/i18n/index.js';
 
@@ -91,7 +89,7 @@ const topics = computed(() => getTopicsForLevel(activeLevel.value));
 const conversionSheetOpen = ref(false);
 const conversionVariant = ref('checkout');
 
-/** E-mail used for checkout, trial, and payment pre-fill. */
+/** E-mail used for checkout and payment pre-fill. */
 const emailForCheckout = computed(() =>
   isLoggedIn.value
     ? String(auth.email || '').trim().toLowerCase()
@@ -119,9 +117,6 @@ const planOptions = computed(() => [
 
 const magicStatus = ref({ text: '', color: '#888' });
 const magicSubmitting = ref(false);
-
-const trialStatus = ref({ text: '', color: '#888' });
-const trialSubmitting = ref(false);
 
 watch(
   () => auth.email,
@@ -344,44 +339,6 @@ async function submitMagicLink() {
   } else {
     magicStatus.value = {
       text: `✖ ${(res && res.error) || t('premium.magicLinkErr')}`,
-      color: '#ed4545',
-    };
-  }
-}
-
-/**
- * Requests a free 1-day trial code. The backend e-mails a `TRIAL-…`
- * code (one trial per e-mail / device). QA: e-mails with `+test` in the
- * local part bypass device deduplication when `TRIAL_TEST_MODE` is on
- * in the deployed Apps Script.
- */
-async function submitTrial() {
-  if (trialSubmitting.value) return;
-  const value = emailForCheckout.value;
-  if (!value || !value.includes('@')) {
-    trialStatus.value = {
-      text: isLoggedIn.value
-        ? t('premium.errNoSessionEmail')
-        : t('premium.errEmailForCode'),
-      color: '#ed4545',
-    };
-    return;
-  }
-  trialSubmitting.value = true;
-  trialStatus.value = { text: t('premium.trialRequestingCode'), color: '#888' };
-  saveString(USER_EMAIL_KEY, value);
-
-  const res = await requestTrial(value);
-  trialSubmitting.value = false;
-
-  if (res && res.ok) {
-    trialStatus.value = {
-      text: t('premium.trialSent', { email: value }),
-      color: '#69c43b',
-    };
-  } else {
-    trialStatus.value = {
-      text: `✖ ${(res && res.error) || t('premium.trialErr')}`,
       color: '#ed4545',
     };
   }
@@ -869,34 +826,6 @@ function topicMastered(key) {
               :style="{ color: magicStatus.color }"
             >
               {{ magicStatus.text }}
-            </div>
-          </details>
-
-          <details v-if="backendOn && !focusBasis" class="premium-flow-trial">
-            <summary>{{ t('premium.trial') }}</summary>
-            <p class="premium-flow__hint">
-              <template v-if="isLoggedIn">
-                {{ t('premium.trialLoggedIn', { email: auth.email }) }}
-              </template>
-              <template v-else-if="emailForCheckout">
-                {{ t('premium.trialEmail', { email: emailForCheckout }) }}
-              </template>
-              <template v-else>{{ t('premium.trialEnterEmail') }}</template>
-            </p>
-            <button
-              type="button"
-              class="premium-flow__btn premium-flow__btn--trial"
-              :disabled="trialSubmitting"
-              @click="submitTrial"
-            >
-              {{ trialSubmitting ? t('premium.trialRequesting') : t('premium.trialRequest') }}
-            </button>
-            <div
-              v-if="trialStatus.text"
-              class="premium-flow__status"
-              :style="{ color: trialStatus.color }"
-            >
-              {{ trialStatus.text }}
             </div>
           </details>
         </div>

@@ -64,18 +64,14 @@ const showProgressSection = computed(
     xp.totalXP > 0,
 );
 
-const showPricingBadge = computed(
+const showFreeBadge = computed(
   () => !isPremium.value && !isBasis.value,
 );
 
 const subtitleLines = computed(() => t('landing.subtitle').split(' — '));
 
 function startTrainer(lvl) {
-  if (!isPremium.value && !isBasis.value) {
-    openPremiumHub();
-    return;
-  }
-  router.push({ name: 'trainer', query: { level: lvl } });
+  router.push({ name: 'trainer', query: { level: lvl, mode: 'free' } });
 }
 
 function continuePractice() {
@@ -105,7 +101,7 @@ function openProfile() {
       </p>
       <p class="brand-slogan">{{ t('landing.slogan') }}</p>
 
-      <p v-if="showPricingBadge" class="landing-free-badge">{{ t('landing.pricingBadge') }}</p>
+      <p v-if="showFreeBadge" class="landing-free-badge">{{ t('landing.freeStart') }}</p>
 
       <div
         v-if="showProgressSection"

@@ -16,7 +16,7 @@ import { getDeviceId } from '@/utils/deviceId.js';
 
 /**
  * Returns true when a backend URL is configured. UI can use this to
- * hide server-only features (Magic Link, trial code, …) in pure demo
+ * hide server-only features (Magic Link, …) in pure demo
  * mode.
  *
  * @return {boolean}
@@ -196,21 +196,6 @@ export function refreshMagicSession(email, sessionToken) {
     action: 'refreshMagicSession',
     email: String(email || '').trim().toLowerCase(),
     sessionToken: String(sessionToken || '').trim(),
-  });
-}
-
-/**
- * Requests a one-time 1-day trial activation code by e-mail. Only one
- * trial is issued per (e-mail, device) pair.
- *
- * @param {string} email  Destination address.
- * @return {Promise<{ok:boolean, error?:string}>}
- */
-export function requestTrial(email) {
-  return postJson({
-    requestTrial: true,
-    email: String(email || '').trim().toLowerCase(),
-    deviceId: getDeviceId(),
   });
 }
 

@@ -9,8 +9,7 @@
  *   2. Validates activation codes posted by the SPA, returning a
  *      2-hour session token bound to the buyer's device.
  *   3. Issues magic-link login e-mails (365-day sliding sessions).
- *   4. Issues one-shot 1-day trial codes.
- *   5. Relays the contact form to the support inbox.
+ *   4. Relays the contact form to the support inbox.
  *
  * Deploy as a Web App (Execute as: Me, Access: Anyone) and put the
  * resulting `/exec` URL into:
@@ -82,15 +81,6 @@ const STRIPE_AMOUNT_MAP = {
   9000: { months: 12, plan: '12months', label: '12 Monate Premium'         },
 };
 
-/**
- * TEMPORARY trial QA flag — set to `false` before production.
- *
- * When `true`, addresses whose local part contains `+test`
- * (e.g. `you+test@gmail.com`) may request unlimited trial codes:
- * the Trial-sheet deduplication (one per e-mail / device) is skipped.
- */
-const TRIAL_TEST_MODE = true;
-
 /** Magic-link rate limit per e-mail address (sliding window). */
 const MAGIC_LINK_RATE = { count: 3, windowMs: 10 * 60 * 1000 };
 
@@ -152,7 +142,6 @@ function doPost(e) {
     // SPA → backend JSON body.
     const body = raw ? JSON.parse(raw) : {};
     if (body.requestMagicLink) return json(requestMagicLink(body));
-    if (body.requestTrial)     return json(requestTrial(body));
     if (body.contactForm)      return json(sendContactForm(body));
 
     // Progress sync (email account — cross-device XP + streak).
@@ -303,7 +292,7 @@ function generateActivationCode_(plan) {
  * @param {string} code
  * @param {string} email
  * @param {!Object} planInfo  Entry from STRIPE_AMOUNT_MAP.
- * @param {('stripe'|'paypal'|'manual'|'trial')} source
+ * @param {('stripe'|'paypal'|'manual')} source
  * @param {string} transactionId
  */
 function saveActivationCode_(code, email, planInfo, source, transactionId) {
@@ -552,61 +541,6 @@ function assertMagicDeviceSlot_(email, deviceId) {
 }
 
 /* ────────────────────────────────────────────────────────────────
-   Trial codes (1 day, one per buyer).
-   ──────────────────────────────────────────────────────────────── */
-
-/**
- * Returns true when `TRIAL_TEST_MODE` is on and the address is a QA
- * inbox (`+test` in the local part, e.g. `user+test@gmail.com`).
- *
- * @param {string} email  Normalised lower-case e-mail.
- * @return {boolean}
- */
-function isTrialTestBypassEmail_(email) {
-  if (!TRIAL_TEST_MODE) return false;
-  return String(email || '').toLowerCase().includes('+test');
-}
-
-/**
- * Issues one 1-day trial code per (e-mail, device) pair.
- *
- * QA bypass: when `TRIAL_TEST_MODE` is true and the e-mail contains
- * `+test`, deduplication is skipped so the same device can be tested
- * repeatedly (each request still creates a fresh code + e-mail).
- *
- * @param {!Object} body  {email, deviceId}.
- * @return {!Object}
- */
-function requestTrial(body) {
-  const email = String(body.email || '').toLowerCase().trim();
-  const deviceId = String(body.deviceId || '').trim();
-  if (!isValidEmail_(email)) return { ok: false, error: 'Ungültige E-Mail' };
-
-  const testBypass = isTrialTestBypassEmail_(email);
-
-  if (!testBypass) {
-    const trialSheet = sheet_('Trial', ['email', 'deviceId', 'code', 'issuedAt']);
-    const data = trialSheet.getDataRange().getValues();
-    for (let r = 1; r < data.length; r++) {
-      if (String(data[r][0]).toLowerCase() === email
-          || String(data[r][1]) === deviceId) {
-        return { ok: false, error: 'Du hast bereits einen Trial-Code erhalten.' };
-      }
-    }
-  }
-
-  const planInfo = { plan: 'trial', months: 0, label: '1 Tag Trial' };
-  const code = `TRIAL-${Utilities.getUuid().split('-')[0].toUpperCase()}`;
-  saveActivationCode_(code, email, planInfo, 'trial', '');
-  if (!testBypass) {
-    const trialSheet = sheet_('Trial', ['email', 'deviceId', 'code', 'issuedAt']);
-    trialSheet.appendRow([email, deviceId, code, new Date()]);
-  }
-  sendTrialCodeEmail_(email, code);
-  return { ok: true, testMode: testBypass };
-}
-
-/* ────────────────────────────────────────────────────────────────
    Contact form relay.
    ──────────────────────────────────────────────────────────────── */
 
@@ -640,14 +574,14 @@ function sendContactForm(body) {
    ──────────────────────────────────────────────────────────────── */
 
 /**
- * Builds a branded HTML e-mail shell shared by trial, activation, and
+ * Builds a branded HTML e-mail shell shared by activation and
  * magic-link messages. Uses table layout for broad client support.
  *
  * @param {!Object} opts
  * @param {string} opts.headline     Main H1 text.
  * @param {string} opts.introHtml    One or more HTML paragraphs.
  * @param {string} [opts.codeLabel]  Label above the monospace code.
- * @param {string} [opts.code]       Activation / trial code.
+ * @param {string} [opts.code]       Activation code.
  * @param {string} [opts.ctaLabel]   Button label.
  * @param {string} [opts.ctaLink]    Button href.
  * @param {string} [opts.footerNote] Small print below the card.
@@ -817,44 +751,6 @@ function sendMagicLinkEmail_(email, token) {
   sendBrandedEmail_(email, subject, html, `Login-Link (30 Min. gültig):\n${link}\n`);
 }
 
-/**
- * Sends the 1-day trial code. The e-mail contains a one-click
- * activation link, the bare URL as a fallback (in case the styled
- * button is stripped by the mail client), and a bare link to the
- * app's landing page.
- *
- * @param {string} email
- * @param {string} code
- */
-function sendTrialCodeEmail_(email, code) {
-  const link = `${APP_BASE_URL}/?activate=${encodeURIComponent(code)}`;
-  const subject = '🎁 Dein 1-Tag SprachCoach Trial';
-
-  const html = buildEmailHtml_({
-    headline: '🎁 Dein Gratis-Trial ist da!',
-    introHtml:
-      '<p style="margin:0 0 12px;line-height:1.6;font-size:15px;color:#444;text-align:center;">' +
-      'Du kannst <strong>Der SprachCoach</strong> 24 Stunden lang kostenlos testen — ' +
-      'mit <strong>allen Premium-Funktionen</strong>.</p>' +
-      '<p style="margin:0;line-height:1.6;font-size:14px;color:#69c43b;font-weight:700;text-align:center;">' +
-      '✓ Themen-Training · ✓ Grammatik · ✓ Wörterbuch</p>',
-    codeLabel: 'Dein Trial-Code (24 h gültig)',
-    code,
-    ctaLabel: '→ Jetzt aktivieren',
-    ctaLink: link,
-    footerNote: 'Der Trial-Code ist 24 Stunden ab Aktivierung gültig. Bei Fragen antworte auf diese E-Mail.',
-  });
-
-  const text =
-    `Dein 1-Tag SprachCoach Trial\n\n` +
-    `Trial-Code: ${code}\n` +
-    `Gültig: 24 Stunden ab Aktivierung\n\n` +
-    `Direkt aktivieren:\n${link}\n\n` +
-    `Oder gib den Code manuell in der App ein: ${APP_BASE_URL}\n`;
-
-  sendBrandedEmail_(email, subject, html, text);
-}
-
 /* ────────────────────────────────────────────────────────────────
    Helpers.
    ──────────────────────────────────────────────────────────────── */
@@ -972,17 +868,6 @@ function getEntitlementsForEmail_(email) {
 
     if (plan === 'basis') {
       out.isBasis = true;
-      continue;
-    }
-
-    if (plan === 'trial') {
-      const anchor = usedAt ? new Date(usedAt).getTime() : 0;
-      if (!anchor) continue;
-      const expires = anchor + 24 * 60 * 60 * 1000;
-      if (expires > now) {
-        out.isPremium = true;
-        out.premiumExpires = new Date(expires).toISOString().split('T')[0];
-      }
       continue;
     }
 
@@ -1282,18 +1167,12 @@ function json(payload) {
 }
 
 /**
- * Builds a safe API error payload. While `TRIAL_TEST_MODE` is on the
- * underlying exception message is included to speed up QA; otherwise
- * only the generic label is returned.
+ * Builds a safe API error payload.
  *
  * @param {*} err
  * @return {!Object}
  */
 function serverError_(err) {
-  const detail = String((err && err.message) || err || '');
-  if (TRIAL_TEST_MODE && detail) {
-    return { ok: false, error: `Serverfehler: ${detail}` };
-  }
   return { ok: false, error: 'Serverfehler' };
 }
 
