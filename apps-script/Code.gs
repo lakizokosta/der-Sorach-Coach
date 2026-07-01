@@ -316,13 +316,14 @@ function saveActivationCode_(code, email, planInfo, source, transactionId) {
 /**
  * Server-side validation of an activation code submitted by the SPA.
  *
- * @param {!Object} p  Query parameters: code, email, deviceId.
+ * @param {!Object} p  Query parameters: code, email, deviceId, sessionToken.
  * @return {!Object}
  */
 function validateCode(p) {
   const code = String(p.code || '').toUpperCase().trim();
   const email = String(p.email || '').toLowerCase().trim();
   const deviceId = String(p.deviceId || '').trim();
+  const sessionToken = String(p.sessionToken || '').trim();
   if (!code) return { ok: false, error: 'Kein Code übermittelt' };
 
   const sheet = sheet_('Codes');
@@ -337,25 +338,64 @@ function validateCode(p) {
     if (usedAt && usedBy && deviceId && usedBy !== deviceId) {
       return { ok: false, error: 'Code wurde auf einem anderen Gerät verwendet.' };
     }
-    if (!usedAt) {
+
+    if (usedAt) {
+      if (!verifySessionToken_(code, deviceId, sessionToken)) {
+        return { ok: false, error: 'Session abgelaufen — bitte Code erneut aktivieren.' };
+      }
+    } else {
       sheet.getRange(r + 1, 6).setValue(new Date());
       sheet.getRange(r + 1, 7).setValue(deviceId);
     }
 
     const months = Number(row[3]) || 0;
+    const planType = String(row[2] || '');
     const expires = months > 0
-      ? new Date(Date.now() + months * 30 * 24 * 60 * 60 * 1000)
+      ? new Date(
+          (usedAt ? new Date(usedAt).getTime() : Date.now()) + months * 30 * 24 * 60 * 60 * 1000,
+        )
       : null;
+
+    const tokenOut = usedAt
+      ? sessionToken
+      : issueSessionToken_(code, deviceId);
+
     return {
       ok: true,
-      type: row[2],
+      type: planType,
       months,
       expires: expires ? expires.toISOString() : null,
-      sessionToken: issueSessionToken_(code, deviceId),
+      sessionToken: tokenOut,
       sessionExpires: new Date(Date.now() + SESSION_LIFETIME_MS).toISOString(),
     };
   }
   return { ok: false, error: 'Code nicht gefunden' };
+}
+
+/**
+ * Checks a code-bound session token from the `Sessions` sheet.
+ *
+ * @param {string} code
+ * @param {string} deviceId
+ * @param {string} token
+ * @return {boolean}
+ */
+function verifySessionToken_(code, deviceId, token) {
+  if (!token) return false;
+  const normCode = String(code || '').toUpperCase().trim();
+  const sheet = sheet_('Sessions', ['token', 'code', 'deviceId', 'createdAt', 'expiresAt']);
+  const data = sheet.getDataRange().getValues();
+  const now = Date.now();
+  for (let r = 1; r < data.length; r++) {
+    const row = data[r];
+    if (String(row[0]).trim() !== token) continue;
+    if (String(row[1]).toUpperCase().trim() !== normCode) continue;
+    if (deviceId && String(row[2]).trim() !== deviceId) continue;
+    const exp = row[4] ? new Date(row[4]).getTime() : 0;
+    if (exp && now > exp) return false;
+    return true;
+  }
+  return false;
 }
 
 /**

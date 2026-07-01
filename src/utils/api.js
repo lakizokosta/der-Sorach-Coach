@@ -140,12 +140,13 @@ export function pingBackend() {
  * @return {Promise<{ok:boolean, expires?:string, sessionToken?:string,
  *   sessionExpires?:string, type?:string, error?:string}>}
  */
-export function validateCode(code, email = '') {
+export function validateCode(code, email = '', sessionToken = '') {
   return getJson({
     action: 'validateCode',
     code: String(code || '').trim().toUpperCase(),
     email: String(email || '').trim().toLowerCase(),
     deviceId: getDeviceId(),
+    sessionToken: String(sessionToken || '').trim(),
   });
 }
 

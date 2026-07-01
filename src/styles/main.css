@@ -1663,6 +1663,35 @@ button.lesen-gap-marker {
   }
 }
 
+/* ── Bootstrap entitlement gate ───────────────────────────────────────── */
+.app-bootstrap-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.92);
+}
+.app-bootstrap-overlay__card {
+  text-align: center;
+  padding: 28px 32px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  border: 2px solid #e8dcc8;
+}
+.app-bootstrap-overlay__icon {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+.app-bootstrap-overlay__text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #6b5b7a;
+}
+
 /* ── Contact modal & support button ─────────────────────────────────────── */
 .fab-stack {
   position: fixed;

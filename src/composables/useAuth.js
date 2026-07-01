@@ -1,18 +1,13 @@
 /**
  * @fileoverview Magic-Link user session (server-issued, 365-day sliding).
  *
- * The Apps Script backend hands the SPA an opaque session token plus
- * an ISO-8601 expiry whenever the user consumes a magic-link token
- * (`?mltoken=…`). We persist that bundle in localStorage and extend
- * the expiry on each app load while the session is still valid.
- *
- * Mirrors the `lzd_user` session contract from the original page but
- * uses a versioned key so old payloads don't conflict.
+ * Only login credentials are persisted (email + opaque session token +
+ * expiry). Premium / Basis flags are never stored — they come from the
+ * server on each bootstrap via `bootstrapEntitlements()` in usePremium.js.
  */
 
 import { reactive, computed } from 'vue';
 import { loadJSON, saveJSON, removeKey } from '@/composables/useStorage.js';
-import { hasBackend, refreshMagicSession } from '@/utils/api.js';
 
 const SESSION_KEY = 'lzd_user_v1';
 
@@ -20,95 +15,58 @@ const DEFAULT_SESSION = {
   email: '',
   sessionToken: '',
   sessionExpires: '',
-  isPremium: false,
-  premiumExpires: '',
-  isBasis: false,
 };
 
-const state = reactive({ ...DEFAULT_SESSION, ...loadJSON(SESSION_KEY, {}) });
+/**
+ * @return {{email:string, sessionToken:string, sessionExpires:string}}
+ */
+function loadSession() {
+  const stored = loadJSON(SESSION_KEY, {});
+  return {
+    email: String(stored.email || '').trim().toLowerCase(),
+    sessionToken: String(stored.sessionToken || ''),
+    sessionExpires: String(stored.sessionExpires || ''),
+  };
+}
+
+const state = reactive(loadSession());
 
 const isLoggedIn = computed(() => {
   if (!state.email || !state.sessionToken || !state.sessionExpires) return false;
   return new Date().toISOString() < state.sessionExpires;
 });
 
-/**
- * Persists the current session to localStorage. Called automatically
- * by every mutation in this module.
- */
+/** Persists login credentials only (no entitlements). */
 function persist() {
   saveJSON(SESSION_KEY, {
     email: state.email,
     sessionToken: state.sessionToken,
     sessionExpires: state.sessionExpires,
-    isPremium: state.isPremium,
-    premiumExpires: state.premiumExpires,
-    isBasis: state.isBasis,
   });
 }
 
 /**
- * Stores the session payload returned by the backend after a
- * successful `validateMagicToken` round-trip.
+ * Stores credentials returned by the backend after magic-link login.
  *
- * @param {{email:string, sessionToken:string, sessionExpires:string,
- *   isPremium?:boolean, premiumExpires?:string, isBasis?:boolean}} payload
+ * @param {{email:string, sessionToken:string, sessionExpires:string}} payload
  */
 function setSession(payload) {
   state.email = String(payload.email || '').trim().toLowerCase();
   state.sessionToken = payload.sessionToken || '';
   state.sessionExpires = payload.sessionExpires || '';
-  state.isPremium = !!payload.isPremium;
-  state.premiumExpires = payload.premiumExpires || '';
-  state.isBasis = !!payload.isBasis;
   persist();
 }
 
-/**
- * Clears the session and removes it from storage. Use on explicit
- * logout or when the server reports an expired token.
- */
+/** Clears the session and removes it from storage. */
 function logout() {
   Object.assign(state, DEFAULT_SESSION);
   removeKey(SESSION_KEY);
 }
 
 /**
- * Extends the magic-link session on app boot (sliding 365-day window).
- * Clears local session when the server rejects the token.
- *
- * @return {Promise<void>}
- */
-export async function refreshSessionOnLoad() {
-  if (!hasBackend()) return;
-  if (!state.email || !state.sessionToken || !state.sessionExpires) return;
-  if (new Date().toISOString() >= state.sessionExpires) {
-    logout();
-    return;
-  }
-
-  const res = await refreshMagicSession(state.email, state.sessionToken);
-  if (res && res.ok) {
-    setSession({
-      email: state.email,
-      sessionToken: state.sessionToken,
-      sessionExpires: res.sessionExpires,
-      isPremium: res.isPremium,
-      premiumExpires: res.premiumExpires,
-      isBasis: res.isBasis,
-    });
-    return;
-  }
-  if (res && res.error) logout();
-}
-
-/**
- * Returns the singleton auth composable surface.
- *
  * @return {{state: typeof state, isLoggedIn: typeof isLoggedIn,
- *   setSession: typeof setSession, logout: typeof logout,
- *   refreshSessionOnLoad: typeof refreshSessionOnLoad}}
+ *   setSession: typeof setSession, logout: typeof logout}}
  */
 export function useAuth() {
-  return { state, isLoggedIn, setSession, logout, refreshSessionOnLoad };
+  return { state, isLoggedIn, setSession, logout };
 }

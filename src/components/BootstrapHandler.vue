@@ -30,7 +30,7 @@ import { STRIPE_SUCCESS_PARAM } from '@/data/payment.js';
 import { useI18n } from '@/i18n/index.js';
 import { hasBackend, validateMagicToken } from '@/utils/api.js';
 import { useAuth } from '@/composables/useAuth.js';
-import { activateCode, usePremium } from '@/composables/usePremium.js';
+import { activateCode, bootstrapEntitlements } from '@/composables/usePremium.js';
 import {
   applyServerProgress,
   pullProgressFromServer,
@@ -38,8 +38,7 @@ import {
 
 const router = useRouter();
 const { t } = useI18n();
-const { setSession, refreshSessionOnLoad } = useAuth();
-const { revalidateOnLoad } = usePremium();
+const { setSession } = useAuth();
 
 const PENDING_CODE_KEY = 'pendingActivationCode';
 
@@ -146,7 +145,11 @@ async function handleMagicToken() {
     return;
   }
 
-  setSession(res);
+  setSession({
+    email: res.email,
+    sessionToken: res.sessionToken,
+    sessionExpires: res.sessionExpires,
+  });
   applyServerProgress(res.streakData, res.xpData, res.dailyGoalData);
 
   let pendingCode = '';
@@ -160,12 +163,6 @@ async function handleMagicToken() {
   if (pendingCode) {
     const ad = await activateCode(pendingCode, res.email);
     if (ad && ad.ok) {
-      setSession({
-        ...res,
-        isPremium: ad.type === 'premium',
-        isBasis: ad.type === 'basis',
-        premiumExpires: ad.expires || res.premiumExpires || '',
-      });
       showToast('✅ Willkommen & Code aktiviert!');
       setTimeout(() => window.location.reload(), 1500);
       return;
@@ -185,8 +182,7 @@ onMounted(async () => {
   handleStripeSuccess();
   handleActivateParam();
   await handleMagicToken();
-  await refreshSessionOnLoad();
-  await revalidateOnLoad();
+  await bootstrapEntitlements();
   await pullProgressFromServer();
 });
 </script>

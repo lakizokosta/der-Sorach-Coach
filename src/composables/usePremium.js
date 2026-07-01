@@ -1,68 +1,98 @@
 /**
- * @fileoverview Premium / Basis status composable.
+ * @fileoverview Premium / Basis entitlements composable.
  *
- * Activation uses the Apps Script backend (`src/utils/api.js`) when a
- * `SCRIPT_URL` is configured in `src/data/payment.js`. The server is
- * the single source of truth — codes (`STRIPE_*`, `PREMIUM_*`,
- * `BASIS_*`, `TEST1-*`, `TEST2024`) are validated against the `Codes`
- * sheet which also binds them to the buyer's e-mail and device.
+ * With a configured backend, `isPremium` / `isBasis` are true only after
+ * a successful server round-trip in `bootstrapEntitlements()`. Activation
+ * codes in localStorage are identifiers for re-validation — not proof
+ * of access. Fail-closed: any server error clears forged local state.
  *
- * When `SCRIPT_URL` is empty (e.g. local development without a
- * deployed backend) `activateCode` falls back to a permissive demo
- * activator that recognises the `PREMIUM_*` and `BASIS_*` prefixes
- * locally. This keeps the SPA usable offline without ever silently
- * accepting unknown codes against a real backend.
- *
- * The server-issued 2-hour `sessionToken` is cached in
- * `sessionStorage`; while it is valid we skip re-validation on page
- * load. Once it expires we re-validate against the server (silently
- * clearing premium if the server now rejects the code).
+ * Demo mode (`SCRIPT_URL` empty) falls back to local prefix activation.
  */
 
 import { reactive, computed } from 'vue';
 import { loadJSON, saveJSON, removeKey } from './useStorage.js';
-import { validateCode as validateOnServer, hasBackend } from '@/utils/api.js';
+import {
+  validateCode as validateOnServer,
+  refreshMagicSession,
+  hasBackend,
+} from '@/utils/api.js';
 import { useAuth } from './useAuth.js';
 
 const KEY = 'lzd_premium';
 const SESSION_TOKEN_KEY = 'lzd_premium_session_token';
 const SESSION_EXPIRES_KEY = 'lzd_premium_session_expires';
 
-/** Default empty premium status. */
+/** Default empty activation-code storage (codes only — no entitlements). */
 function defaults() {
-  return { premiumCode: '', premiumExpires: '', basisCode: '' };
+  return { premiumCode: '', basisCode: '' };
 }
 
-const state = reactive(loadJSON(KEY, defaults()));
+/**
+ * @param {object} raw
+ * @return {{premiumCode:string, basisCode:string}}
+ */
+function normalizeStoredCodes(raw) {
+  return {
+    premiumCode: String(raw?.premiumCode || ''),
+    basisCode: String(raw?.basisCode || ''),
+  };
+}
 
-/** Persist the current reactive state to localStorage. */
+const state = reactive(normalizeStoredCodes(loadJSON(KEY, defaults())));
+
+/** Server-confirmed entitlements (memory only). */
+const entitlements = reactive({
+  ready: false,
+  isPremium: false,
+  isBasis: false,
+  premiumExpires: '',
+});
+
+/** Persist activation codes only. */
 function persist() {
-  saveJSON(KEY, { ...state });
+  saveJSON(KEY, { premiumCode: state.premiumCode, basisCode: state.basisCode });
 }
 
 /**
- * Reads the cached server session token from sessionStorage.
- *
- * @return {{token:string, expires:string} | null}
+ * @param {string} value
+ * @return {string}
  */
-function readSessionToken() {
-  try {
-    const token = sessionStorage.getItem(SESSION_TOKEN_KEY) || '';
-    const expires = sessionStorage.getItem(SESSION_EXPIRES_KEY) || '';
-    if (!token || !expires) return null;
-    if (new Date().toISOString() >= expires) return null;
-    return { token, expires };
-  } catch {
-    return null;
+function normalizeExpiryDate(value) {
+  const raw = String(value || '').trim();
+  if (!raw) return '';
+  return raw.includes('T') ? raw.split('T')[0] : raw.slice(0, 10);
+}
+
+function clearEntitlements() {
+  entitlements.isPremium = false;
+  entitlements.isBasis = false;
+  entitlements.premiumExpires = '';
+}
+
+/**
+ * @param {{isPremium?:boolean, isBasis?:boolean, premiumExpires?:string}} res
+ */
+function applyEntitlementsFromServer(res) {
+  if (res.isPremium) entitlements.isPremium = true;
+  if (res.isBasis) entitlements.isBasis = true;
+  const exp = normalizeExpiryDate(res.premiumExpires);
+  if (exp) entitlements.premiumExpires = exp;
+}
+
+/**
+ * @param {{expires?:string, type?:string}} res
+ * @param {string} code
+ */
+function applyEntitlementsFromCode(res, code) {
+  const isBasis = code.startsWith('BASIS') || res.type === 'basis';
+  if (isBasis) {
+    entitlements.isBasis = true;
+    return;
   }
+  entitlements.isPremium = true;
+  entitlements.premiumExpires = normalizeExpiryDate(res.expires);
 }
 
-/**
- * Caches a server-issued session token in sessionStorage.
- *
- * @param {string} token
- * @param {string} expires  ISO-8601 expiry timestamp.
- */
 function writeSessionToken(token, expires) {
   try {
     sessionStorage.setItem(SESSION_TOKEN_KEY, token);
@@ -72,7 +102,6 @@ function writeSessionToken(token, expires) {
   }
 }
 
-/** Clears any cached session token. */
 function clearSessionToken() {
   try {
     sessionStorage.removeItem(SESSION_TOKEN_KEY);
@@ -83,44 +112,49 @@ function clearSessionToken() {
 }
 
 /**
- * Whether Premium is currently active (code present and not expired).
- *
- * @return {boolean}
+ * @return {string}  Cached code-session token for server re-validation, or ''.
  */
-function isPremiumActive() {
-  if (!state.premiumCode) return false;
-  if (!state.premiumExpires) return true;
-  return new Date().toISOString().split('T')[0] <= state.premiumExpires;
+function readSessionToken() {
+  try {
+    const token = sessionStorage.getItem(SESSION_TOKEN_KEY) || '';
+    const expires = sessionStorage.getItem(SESSION_EXPIRES_KEY) || '';
+    if (!token || !expires) return '';
+    if (new Date().toISOString() >= expires) return '';
+    return token;
+  } catch {
+    return '';
+  }
+}
+
+/** Demo-only: derive entitlements from stored codes when offline / no backend. */
+function applyDemoEntitlementsFromLocal() {
+  clearEntitlements();
+  if (state.basisCode && state.basisCode.toUpperCase().startsWith('BASIS')) {
+    entitlements.isBasis = true;
+  }
+  if (state.premiumCode) {
+    entitlements.isPremium = true;
+  }
 }
 
 /**
- * Whether the Basis plan (no time limit) is active.
- *
- * @return {boolean}
- */
-function isBasisActive() {
-  return Boolean(state.basisCode) && state.basisCode.toUpperCase().startsWith('BASIS');
-}
-
-/**
- * Demo-only fallback activator used when no Apps Script backend is
- * configured (`SCRIPT_URL` is empty). Recognises `PREMIUM_*` and
- * `BASIS_*` prefixes and unlocks the corresponding plan locally.
- *
- * @param {string} code  Already trimmed + uppercased.
+ * @param {string} code
  * @return {{ok:boolean, type:?string, error:?string}}
  */
 function activateLocally(code) {
   if (code.startsWith('PREMIUM')) {
-    const expiresDate = new Date(Date.now() + 30 * 86400000);
     state.premiumCode = code;
-    state.premiumExpires = expiresDate.toISOString().split('T')[0];
     persist();
+    entitlements.isPremium = true;
+    entitlements.premiumExpires = new Date(Date.now() + 30 * 86400000)
+      .toISOString()
+      .split('T')[0];
     return { ok: true, type: 'premium', error: null };
   }
   if (code.startsWith('BASIS')) {
     state.basisCode = code;
     persist();
+    entitlements.isBasis = true;
     return { ok: true, type: 'basis', error: null };
   }
   return {
@@ -133,23 +167,21 @@ function activateLocally(code) {
 /**
  * Validates and activates an activation code.
  *
- * In production the SPA delegates to the Apps Script `validateCode`
- * endpoint, which atomically checks expiry, binding, and the e-mail
- * tied to the code. In demo mode (`SCRIPT_URL` empty) the function
- * falls back to a local prefix-check.
- *
- * @param {string} rawCode  Code as typed by the user.
- * @param {string} [email]  Optional buyer e-mail for server-side binding.
- * @return {Promise<{ok:boolean, type:?string, error:?string,
- *   expires?:string}>}
+ * @param {string} rawCode
+ * @param {string} [email]
+ * @return {Promise<{ok:boolean, type:?string, error:?string, expires?:string}>}
  */
 export async function activateCode(rawCode, email = '') {
   const code = String(rawCode || '').trim().toUpperCase();
   if (!code) return { ok: false, type: null, error: 'Bitte Code eingeben.' };
 
-  if (!hasBackend()) return activateLocally(code);
+  if (!hasBackend()) {
+    const local = activateLocally(code);
+    if (local.ok) entitlements.ready = true;
+    return local;
+  }
 
-  const res = await validateOnServer(code, email);
+  const res = await validateOnServer(code, email, readSessionToken());
   if (!res || !res.ok) {
     return {
       ok: false,
@@ -161,110 +193,146 @@ export async function activateCode(rawCode, email = '') {
   const isBasis = code.startsWith('BASIS') || res.type === 'basis';
   if (isBasis) {
     state.basisCode = code;
-    persist();
+    state.premiumCode = '';
   } else {
     state.premiumCode = code;
-    state.premiumExpires = res.expires || '';
-    persist();
-    if (res.sessionToken && res.sessionExpires) {
-      writeSessionToken(res.sessionToken, res.sessionExpires);
-    }
+    state.basisCode = '';
   }
+  persist();
+
+  if (res.sessionToken && res.sessionExpires) {
+    writeSessionToken(res.sessionToken, res.sessionExpires);
+  }
+
+  applyEntitlementsFromCode(res, code);
+  entitlements.ready = true;
 
   return {
     ok: true,
     type: isBasis ? 'basis' : 'premium',
     error: null,
-    expires: res.expires || '',
+    expires: normalizeExpiryDate(res.expires),
   };
 }
 
 /**
- * Re-validates the stored Premium code on app boot. If the cached
- * server session token is still valid we skip the round-trip. If the
- * server rejects the code we silently clear premium so the UI cannot
- * lie about the user's status.
- *
- * Safe to call on every page load — no-op when no backend or no code.
+ * Re-validates entitlements on every app load. Always hits the server when
+ * credentials or activation codes exist; never trusts cached session tokens
+ * alone. Fail-closed on any error response or network failure.
  *
  * @return {Promise<void>}
  */
-export async function revalidateOnLoad() {
-  if (!hasBackend()) return;
-  if (!state.premiumCode) return;
-  if (readSessionToken()) return;
+export async function bootstrapEntitlements() {
+  entitlements.ready = false;
+  clearEntitlements();
 
-  const res = await validateOnServer(state.premiumCode, '');
-  if (res && res.ok) {
-    state.premiumExpires = res.expires || state.premiumExpires;
-    persist();
-    if (res.sessionToken && res.sessionExpires) {
-      writeSessionToken(res.sessionToken, res.sessionExpires);
-    }
+  if (!hasBackend()) {
+    applyDemoEntitlementsFromLocal();
+    entitlements.ready = true;
     return;
   }
-  if (res && res.error) {
-    state.premiumCode = '';
-    state.premiumExpires = '';
-    persist();
-    clearSessionToken();
+
+  const { state: auth, logout, setSession } = useAuth();
+  let magicVerified = false;
+
+  if (auth.email && auth.sessionToken && auth.sessionExpires) {
+    if (new Date().toISOString() >= auth.sessionExpires) {
+      logout();
+    } else {
+      const magicRes = await refreshMagicSession(auth.email, auth.sessionToken);
+      if (magicRes && magicRes.ok) {
+        setSession({
+          email: auth.email,
+          sessionToken: auth.sessionToken,
+          sessionExpires: magicRes.sessionExpires,
+        });
+        applyEntitlementsFromServer(magicRes);
+        magicVerified = true;
+      } else {
+        logout();
+      }
+    }
   }
+
+  const code = state.premiumCode || state.basisCode;
+  if (code) {
+    const codeRes = await validateOnServer(code, auth.email || '', readSessionToken());
+    if (codeRes && codeRes.ok) {
+      applyEntitlementsFromCode(codeRes, code);
+      if (codeRes.sessionToken && codeRes.sessionExpires) {
+        writeSessionToken(codeRes.sessionToken, codeRes.sessionExpires);
+      }
+    } else {
+      state.premiumCode = '';
+      state.basisCode = '';
+      persist();
+      clearSessionToken();
+      if (!magicVerified) clearEntitlements();
+    }
+  } else if (!magicVerified) {
+    clearEntitlements();
+  }
+
+  entitlements.ready = true;
 }
 
-/** Removes the Premium activation from storage. */
+/** @deprecated Use bootstrapEntitlements */
+export async function revalidateOnLoad() {
+  return bootstrapEntitlements();
+}
+
 export function clearPremium() {
   state.premiumCode = '';
-  state.premiumExpires = '';
   persist();
   clearSessionToken();
+  entitlements.isPremium = false;
+  entitlements.premiumExpires = '';
 }
 
-/** Removes the Basis activation from storage. */
 export function clearBasis() {
   state.basisCode = '';
   persist();
+  entitlements.isBasis = false;
 }
 
-/** Clears every activation and the storage key entirely. */
 export function clearAll() {
   state.premiumCode = '';
-  state.premiumExpires = '';
   state.basisCode = '';
   removeKey(KEY);
   clearSessionToken();
+  clearEntitlements();
 }
 
-/**
- * Public hook exposing reactive premium state plus helpers.
- *
- * @return {{state:object, isPremium:object, isBasis:object,
- *           activateCode:Function, clearPremium:Function,
- *           clearBasis:Function, clearAll:Function,
- *           revalidateOnLoad:Function}}
- */
-function isPremiumFromAuth() {
-  const { state, isLoggedIn } = useAuth();
-  if (!isLoggedIn.value || !state.isPremium) return false;
-  if (!state.premiumExpires) return true;
-  return new Date().toISOString().split('T')[0] <= state.premiumExpires;
-}
+const isPremium = computed(() => {
+  if (hasBackend()) {
+    if (!entitlements.ready) return false;
+    return entitlements.isPremium;
+  }
+  return entitlements.isPremium;
+});
 
-function isBasisFromAuth() {
-  const { state, isLoggedIn } = useAuth();
-  return isLoggedIn.value && state.isBasis;
-}
+const isBasis = computed(() => {
+  if (hasBackend()) {
+    if (!entitlements.ready) return false;
+    return entitlements.isBasis;
+  }
+  return entitlements.isBasis;
+});
+
+const entitlementsReady = computed(() => entitlements.ready);
 
 export function usePremium() {
-  const isPremium = computed(() => isPremiumFromAuth() || isPremiumActive());
-  const isBasis = computed(() => isBasisFromAuth() || isBasisActive());
   return {
     state,
+    entitlements,
     isPremium,
     isBasis,
+    entitlementsReady,
     activateCode,
     clearPremium,
     clearBasis,
     clearAll,
+    bootstrapEntitlements,
     revalidateOnLoad,
   };
 }

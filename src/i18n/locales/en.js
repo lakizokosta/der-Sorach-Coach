@@ -23,6 +23,7 @@ export default {
     imprint: 'Imprint',
     copyright: '© 2026 Lernziel Deutsch | Der SprachCoach',
     sending: 'Sending…',
+    checkingAccess: 'Checking access…',
     activate: 'Activate',
     signOut: 'Sign out',
     emailPlaceholder: 'your@email.de',

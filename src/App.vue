@@ -19,8 +19,10 @@ import { useI18n } from '@/i18n/index.js';
 
 const route = useRoute();
 const { isLoggedIn } = useAuth();
-const { isPremium, isBasis } = usePremium();
+const { isPremium, isBasis, entitlementsReady } = usePremium();
 const { t } = useI18n();
+
+const bootstrapping = computed(() => hasBackend() && !entitlementsReady.value);
 
 const showContact = ref(false);
 const { showLogin, openLogin, closeLogin } = useLoginModal();
@@ -34,6 +36,18 @@ const showLoginFab = computed(() => {
 
 <template>
   <BootstrapHandler />
+
+  <div
+    v-if="bootstrapping"
+    class="app-bootstrap-overlay"
+    role="status"
+    aria-live="polite"
+  >
+    <div class="app-bootstrap-overlay__card">
+      <div class="app-bootstrap-overlay__icon" aria-hidden="true">🔒</div>
+      <p class="app-bootstrap-overlay__text">{{ t('common.checkingAccess') }}</p>
+    </div>
+  </div>
 
   <LocaleSwitcher />
 
