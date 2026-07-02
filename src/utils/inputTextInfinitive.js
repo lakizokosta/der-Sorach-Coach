@@ -1,7 +1,8 @@
 /**
  * Resolves the verb infinitive shown as a learner hint on input-text gaps.
- * Sources (in order): frontmatter `lemma`, trailing `(…)` in the prompt body,
- * separable-verb particle + finite `correct` answer.
+ * Only shown when the gap is clearly a verb (topic, prompt tag, or lemma).
+ * Sources (in order): frontmatter `lemma`, trailing `(Verb …)` in the prompt body,
+ * separable-verb particle + finite `correct` answer (verb topics only).
  */
 
 function stripTrailingPromptHint(text) {
@@ -18,6 +19,27 @@ const SEPARABLE_PARTICLES = [
   'her', 'hin', 'um', 'durch',
 ];
 
+/** Topics where the blank is never a verb infinitive hint unless `lemma` / `(Verb …)`. */
+const NON_VERB_TOPIC_RE = /ARTIKEL|NOMEN|SUBSTANTIV|ADJEKTIV|PRÄPOS|PRAEPOS|PRÄPOSITION|KASUS|AKKUSATIV|DATIV|GENITIV|NOMINATIV|POSSESSIV|DEMONSTRATIV|RELATIV|INTERROGATIV|KONJUNktion|ADVERSATIV|TEMPORAL|LOKAL|KAUSAL|KONZESSIV|FINAL|KONDITIONAL|VERNEINUNG|WFRAGE|W-FRAGE|FRAGE|GEGENTEIL|KOMPARATIV|SUPERLATIV|STEIGERUNG|WORTSCHATZ|ZAHL|NUMBER|PLURAL/i;
+
+/** Topics where deriving an infinitive from the answer is allowed. */
+const VERB_TOPIC_RE = /VERB(?:EN|FORM)?|KONJUG|MODAL|PERFEKT|PASSIV|PRÄTER|PRATER|KONJUNKTIV|IMPERATIV|REFLEXIV|TRENNBAR|HILFSVERB|ZUSAMMEN|PARTIZIP|INFINITIV|FUTUR/i;
+
+/** Function words that must never become pseudo-infinitives (die → dien, etc.). */
+const NON_VERB_WORDS = new Set([
+  'die', 'der', 'das', 'den', 'dem', 'des',
+  'ein', 'eine', 'einer', 'einem', 'einen', 'eines',
+  'mein', 'meine', 'meiner', 'meinem', 'meinen', 'meines',
+  'dein', 'deine', 'deiner', 'deinem', 'deinen', 'deines',
+  'sein', 'seine', 'seiner', 'seinem', 'seinen', 'seines',
+  'ihr', 'ihre', 'ihrer', 'ihrem', 'ihren', 'ihres',
+  'unser', 'unsere', 'euer', 'eure',
+  'mir', 'dir', 'ihm', 'ihr', 'uns', 'euch', 'ihnen', 'mich', 'dich', 'sich',
+  'auf', 'in', 'an', 'aus', 'bei', 'mit', 'nach', 'von', 'zu', 'um', 'für', 'vor', 'über', 'unter', 'durch',
+  'nicht', 'kein', 'keine', 'keinen', 'keiner', 'keinem', 'keines',
+  'und', 'oder', 'aber', 'denn', 'weil', 'dass', 'wenn', 'als', 'ob',
+]);
+
 const FINITE_TO_INF = {
   bereite: 'vorbereiten', bereitest: 'vorbereiten', bereitet: 'vorbereiten',
   freue: 'freuen', freust: 'freuen', freut: 'freuen',
@@ -28,14 +50,16 @@ const FINITE_TO_INF = {
   stehe: 'stehen', stehst: 'stehen', steht: 'stehen',
   komme: 'kommen', kommst: 'kommen', kommt: 'kommen',
   nehme: 'nehmen', nimmst: 'nehmen', nimmt: 'nehmen',
-  bin: 'sein', bist: 'sein', ist: 'sein', sind: 'sein', seid: 'sein',
-  habe: 'haben', hast: 'haben', hat: 'haben', haben: 'haben', habt: 'haben',
-  werde: 'werden', wirst: 'werden', wird: 'werden', werdet: 'werden',
-  kann: 'können', kannst: 'können', können: 'können', könnt: 'können',
-  muss: 'müssen', musst: 'müssen', müssen: 'müssen', müsst: 'müssen',
-  darf: 'dürfen', darfst: 'dürfen', dürfen: 'dürfen', dürft: 'dürfen',
-  will: 'wollen', willst: 'wollen', wollen: 'wollen', wollt: 'wollen',
-  soll: 'sollen', sollst: 'sollen', sollen: 'sollen', sollt: 'sollen',
+  lese: 'lesen', liest: 'lesen', lest: 'lesen', las: 'lesen', lasst: 'lesen',
+  laufe: 'laufen', läufst: 'laufen', läuft: 'laufen', lief: 'laufen',
+  bin: 'sein', bist: 'sein', ist: 'sein', sind: 'sein', seid: 'sein', war: 'sein',
+  habe: 'haben', hast: 'haben', hat: 'haben', haben: 'haben', habt: 'haben', hatte: 'haben',
+  werde: 'werden', wirst: 'werden', wird: 'werden', werdet: 'werden', wurde: 'werden',
+  kann: 'können', kannst: 'können', können: 'können', könnt: 'können', konnte: 'können',
+  muss: 'müssen', musst: 'müssen', müssen: 'müssen', müsst: 'müssen', musste: 'müssen',
+  darf: 'dürfen', darfst: 'dürfen', dürfen: 'dürfen', dürft: 'dürfen', durfte: 'dürfen',
+  will: 'wollen', willst: 'wollen', wollen: 'wollen', wollt: 'wollen', wollte: 'wollen',
+  soll: 'sollen', sollst: 'sollen', sollen: 'sollen', sollt: 'sollen', sollte: 'sollen',
 };
 
 /**
@@ -44,11 +68,20 @@ const FINITE_TO_INF = {
  */
 function looksLikeInfinitive(word) {
   const w = String(word || '').toLowerCase().trim();
-  if (!w || PERSON.test(w)) return false;
+  if (!w || /\s/.test(w) || PERSON.test(w) || NON_VERB_WORDS.has(w)) return false;
   if (/^(?:sein|haben|werden|tun|wissen|können|müssen|sollen|dürfen|wollen|mögen|möchten)$/.test(w)) {
     return true;
   }
-  return /(?:en|eln|ern)$/i.test(w);
+  return /(?:en|eln|ern)$/i.test(w) && w.length >= 4;
+}
+
+/**
+ * @param {string} word
+ * @return {boolean}
+ */
+function isBlockedNonVerb(word) {
+  const w = String(word || '').toLowerCase().trim();
+  return !w || NON_VERB_WORDS.has(w);
 }
 
 /**
@@ -57,18 +90,19 @@ function looksLikeInfinitive(word) {
  */
 function finiteToInfinitive(word) {
   const w = String(word || '').toLowerCase().trim();
-  if (!w) return '';
+  if (!w || isBlockedNonVerb(w)) return '';
   if (FINITE_TO_INF[w]) return FINITE_TO_INF[w];
   if (/(?:en|eln|ern)$/i.test(w)) return w;
-  if (/[a-zäöüß]{2,}st$/i.test(w)) {
+  // 2nd person -st (kaufst, machst) — not 3rd person liest (handled in map).
+  if (/[a-zäöüß]{3,}st$/i.test(w) && w.length >= 6) {
     const stem = w.slice(0, -2);
     return stem.endsWith('e') ? `${stem}n` : `${stem}en`;
   }
-  if (/[a-zäöüß]{2,}t$/i.test(w)) {
+  if (/[a-zäöüß]{3,}t$/i.test(w)) {
     const stem = w.slice(0, -1);
     return stem.endsWith('e') ? `${stem}n` : `${stem}en`;
   }
-  if (/[a-zäöüß]{2,}e$/i.test(w)) return `${w.slice(0, -1)}en`;
+  if (/[a-zäöüß]{3,}e$/i.test(w)) return `${w.slice(0, -1)}en`;
   return '';
 }
 
@@ -79,6 +113,11 @@ function finiteToInfinitive(word) {
 function infinitiveFromParenInner(inner) {
   const text = String(inner || '').trim();
   if (!text) return '';
+
+  if (/Artikel|Adjektiv|Präposition|Präpos|Genitiv|Gegenteil|Komparativ|Frage nach|Nom\.|Dat\.|Akk\.|Gen\./i.test(text)
+    && !/\bVerb\b/i.test(text)) {
+    return '';
+  }
 
   const reflexiv = text.match(/Reflexiv\s*\+\s*Verb\s+([\wäöüÄÖÜß-]+)/i);
   if (reflexiv) {
@@ -92,9 +131,11 @@ function infinitiveFromParenInner(inner) {
   if (verbTag) {
     const verb = verbTag[1].toLowerCase();
     if (looksLikeInfinitive(verb)) return verb;
+    const derived = finiteToInfinitive(verb);
+    if (derived && looksLikeInfinitive(derived)) return derived;
   }
 
-  const dash = text.match(/—\s*([^/—,]+?)(?:\/[^/—,)]+)?\s*$/);
+  const dash = text.match(/—\s*([\wäöüÄÖÜß-]+)/);
   if (dash) {
     const verb = dash[1].trim().toLowerCase();
     if (looksLikeInfinitive(verb)) return verb;
@@ -118,6 +159,20 @@ function infinitiveFromTrailingParen(promptBody) {
   const match = String(promptBody || '').match(/\(([^)]*)\)\s*$/);
   if (!match) return '';
   return infinitiveFromParenInner(match[1]);
+}
+
+/**
+ * @param {{ prompt?: string, correct?: string[], topic?: string, lemma?: string }} question
+ * @return {boolean}
+ */
+function isVerbGapContext(question) {
+  const topic = String(question.topic || '').toUpperCase();
+  const prompt = String(question.prompt || '');
+
+  if (String(question.lemma || '').trim()) return true;
+  if (/\bVerb\b/i.test(prompt) || /Reflexiv\s*\+\s*Verb/i.test(prompt)) return true;
+  if (NON_VERB_TOPIC_RE.test(topic)) return false;
+  return VERB_TOPIC_RE.test(topic);
 }
 
 /**
@@ -151,7 +206,9 @@ export function resolveInputTextInfinitive(question) {
   if (lemma) return lemma;
 
   const fromParen = infinitiveFromTrailingParen(question.prompt || '');
-  if (fromParen) return fromParen;
+  if (fromParen && isVerbGapContext(question)) return fromParen;
+
+  if (!isVerbGapContext(question)) return '';
 
   const topic = String(question.topic || '').toUpperCase();
   const correct = Array.isArray(question.correct) ? question.correct[0] : '';
