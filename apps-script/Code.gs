@@ -1054,7 +1054,9 @@ function refreshMagicSession_(body) {
  * @return {string}
  */
 function base64UrlEncodeStr_(str) {
-  return Utilities.base64EncodeWebSafe(str).replace(/=+$/, '');
+  return Utilities.base64EncodeWebSafe(
+    Utilities.newBlob(String(str), 'UTF-8').getBytes(),
+  ).replace(/=+$/, '');
 }
 
 /**

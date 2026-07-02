@@ -64,25 +64,28 @@ function normalizeTopicKey(topicKey) {
  * @return {Promise<!Array<!Object>>}
  */
 async function parseLoaderEntries(loaders) {
-  const questions = [];
-  for (const [path, load] of Object.entries(loaders)) {
-    const meta = parsePath(path);
-    if (!meta) continue;
-    try {
-      const raw = await load();
-      const q = parseQuestionFile(raw, {
-        level: meta.level,
-        topic: meta.topic,
-        path,
-      });
-      if (!q.id) q.id = `${meta.level}-${meta.topic}-${meta.slug}`;
-      questions.push(q);
-    } catch (err) {
-      // eslint-disable-next-line no-console
-      console.warn(`[questions] skipping ${path}: ${err.message}`);
-    }
-  }
-  return questions;
+  const entries = Object.entries(loaders);
+  const parsed = await Promise.all(
+    entries.map(async ([path, load]) => {
+      const meta = parsePath(path);
+      if (!meta) return null;
+      try {
+        const raw = await load();
+        const q = parseQuestionFile(raw, {
+          level: meta.level,
+          topic: meta.topic,
+          path,
+        });
+        if (!q.id) q.id = `${meta.level}-${meta.topic}-${meta.slug}`;
+        return q;
+      } catch (err) {
+        // eslint-disable-next-line no-console
+        console.warn(`[questions] skipping ${path}: ${err.message}`);
+        return null;
+      }
+    }),
+  );
+  return parsed.filter(Boolean);
 }
 
 /**

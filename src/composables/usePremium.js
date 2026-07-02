@@ -85,13 +85,25 @@ function storeTrainingJwtFromServer(token) {
 }
 
 /**
+ * @param {{trainingJwt?:string, isPremium?:boolean, isBasis?:boolean, type?:string}} res
+ * @param {string} [code]
+ * @return {boolean}
+ */
+function isPremiumEntitlementResponse(res, code = '') {
+  if (String(code || '').startsWith('BASIS') || res.type === 'basis' || res.isBasis) {
+    return false;
+  }
+  if (res.isPremium === true) return true;
+  return !!code && !String(code).startsWith('BASIS');
+}
+
+/**
  * @param {{trainingJwt?:string, isPremium?:boolean, type?:string}} res
  * @param {string} [code]
  * @return {boolean}
  */
 function requirePremiumTrainingJwt(res, code = '') {
-  const isBasis = String(code || '').startsWith('BASIS') || res.type === 'basis' || res.isBasis;
-  if (isBasis || !res.isPremium) return true;
+  if (!isPremiumEntitlementResponse(res, code)) return true;
   return storeTrainingJwtFromServer(res.trainingJwt);
 }
 
@@ -291,6 +303,7 @@ async function refreshEntitlementsFromServer() {
           sessionExpires: magicRes.sessionExpires,
         });
         applyEntitlementsFromServer(magicRes);
+        if (magicRes.trainingJwt) storeTrainingJwtFromServer(magicRes.trainingJwt);
         magicVerified = true;
       } else {
         logout();
@@ -319,6 +332,7 @@ async function refreshEntitlementsFromServer() {
         return { ok: false };
       }
       applyEntitlementsFromCode(codeRes, code);
+      if (codeRes.trainingJwt) storeTrainingJwtFromServer(codeRes.trainingJwt);
       if (codeRes.sessionToken && codeRes.sessionExpires) {
         writeSessionToken(codeRes.sessionToken, codeRes.sessionExpires);
       }
