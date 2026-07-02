@@ -190,6 +190,14 @@ export async function activateCode(rawCode, email = '') {
     };
   }
 
+  if (!res.sessionToken || !res.sessionExpires) {
+    return {
+      ok: false,
+      type: null,
+      error: 'Ungültige Server-Antwort.',
+    };
+  }
+
   const isBasis = code.startsWith('BASIS') || res.type === 'basis';
   if (isBasis) {
     state.basisCode = code;
@@ -255,6 +263,14 @@ async function refreshEntitlementsFromServer() {
   if (code) {
     const codeRes = await validateOnServer(code, auth.email || '', readSessionToken());
     if (codeRes && codeRes.ok) {
+      if (!codeRes.sessionToken || !codeRes.sessionExpires) {
+        state.premiumCode = '';
+        state.basisCode = '';
+        persist();
+        clearSessionToken();
+        if (!magicVerified) clearEntitlements();
+        return { ok: false };
+      }
       applyEntitlementsFromCode(codeRes, code);
       if (codeRes.sessionToken && codeRes.sessionExpires) {
         writeSessionToken(codeRes.sessionToken, codeRes.sessionExpires);
@@ -349,7 +365,6 @@ const entitlementsReady = computed(() => entitlements.ready);
 export function usePremium() {
   return {
     state,
-    entitlements,
     isPremium,
     isBasis,
     entitlementsReady,

@@ -14,6 +14,11 @@
 import { SCRIPT_URL } from '@/data/payment.js';
 import { getDeviceId } from '@/utils/deviceId.js';
 
+/** Captured in index.html before app bundle — not replaced by casual console fetch hooks. */
+const httpFetch = typeof window !== 'undefined' && window.__LZD_NATIVE_FETCH__
+  ? window.__LZD_NATIVE_FETCH__
+  : fetch.bind(globalThis);
+
 /**
  * Returns true when a backend URL is configured. UI can use this to
  * hide server-only features (Magic Link, …) in pure demo
@@ -79,7 +84,7 @@ async function getJson(params) {
   if (!hasBackend()) return { ok: false, error: 'Kein Backend konfiguriert' };
   const qs = new URLSearchParams(params).toString();
   try {
-    const res = await fetch(`${SCRIPT_URL}?${qs}`, { method: 'GET' });
+    const res = await httpFetch(`${SCRIPT_URL}?${qs}`, { method: 'GET' });
     const text = await res.text();
     const fail = httpFailure(res, text);
     if (fail) return fail;
@@ -103,7 +108,7 @@ async function getJson(params) {
 async function postJson(body) {
   if (!hasBackend()) return { ok: false, error: 'Kein Backend konfiguriert' };
   try {
-    const res = await fetch(SCRIPT_URL, {
+    const res = await httpFetch(SCRIPT_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify(body),

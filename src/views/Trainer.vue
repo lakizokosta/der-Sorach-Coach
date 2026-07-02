@@ -45,6 +45,7 @@ import { useTimer, formatMmSs } from '@/composables/useTimer.js';
 
 import { getQuestionsByLevel, getQuestionsByTopic, getTopicQuestionCount } from '@/data/questions.js';
 import { hasBackend } from '@/utils/api.js';
+import { trainerRequiresPremium } from '@/utils/premiumAccess.js';
 import { PREMIUM_TOPICS } from '@/data/premiumTopics.js';
 import { AdaptiveQueue } from '@/utils/queue.js';
 import {
@@ -75,8 +76,6 @@ const level = ref(route.query.level || 'A1');
 const topic = ref(route.query.topic || '');
 const schwaechenMode = route.query.mode === 'schwaechen';
 const placementMode = route.query.mode === 'placement';
-const forcedPremium = route.query.mode === 'premium' || schwaechenMode || placementMode;
-const isPrem = computed(() => forcedPremium || isPremium.value);
 const schwaechenTopics = ref([]);
 
 // `shallowRef` so Vue's reactivity does NOT deeply proxy the queue's
@@ -118,7 +117,7 @@ const ENTITLEMENT_CHECK_MS = 5 * 60 * 1000;
 let entitlementTimer = null;
 
 const timer = useTimer(
-  isPrem.value || isBasis.value
+  isPremium.value || isBasis.value
     ? { mode: 'up', initialSeconds: 0 }
     : { mode: 'down', initialSeconds: FREE_SECONDS_PER_DAY, onExpire: () => finish('Zeit abgelaufen') },
 );
@@ -178,7 +177,7 @@ const topicPoolHint = computed(() => {
   });
 });
 
-const xpPerAnswer = computed(() => (isPrem.value ? 2 : 1));
+const xpPerAnswer = computed(() => (isPremium.value ? 2 : 1));
 
 /** Canonical topic key for mastery / XP attribution. */
 function activeTopicKey() {
@@ -278,16 +277,20 @@ function collectBonusLines(wasCorrect) {
 
 /** Loads the queue, restores any free-session timer, kicks things off. */
 async function ensureAccessBeforeLoad() {
-  if (!hasBackend()) return true;
-  if (!isPrem.value && !isBasis.value && !schwaechenMode && !placementMode) {
-    return true;
+  const needsPremium = trainerRequiresPremium(route.query);
+  const needsPaid = needsPremium || isPremium.value || isBasis.value;
+
+  if (!needsPaid) return true;
+
+  if (!hasBackend()) {
+    if (needsPremium) return false;
+    return isPremium.value || isBasis.value;
   }
 
   const verified = await verifyEntitlementsLive();
   if (!verified.ok) return false;
-  if ((schwaechenMode || placementMode) && !verified.isPremium) return false;
-  if (topic.value && route.query.mode === 'premium' && !verified.isPremium) return false;
-  if ((isPrem.value || isBasis.value) && !verified.isPremium && !verified.isBasis) {
+  if (needsPremium && !verified.isPremium) return false;
+  if ((isPremium.value || isBasis.value) && !verified.isPremium && !verified.isBasis) {
     return false;
   }
   return true;
@@ -325,9 +328,8 @@ function stopEntitlementPolling() {
 /** Ends the session when server revokes paid access mid-training. */
 async function runEntitlementCheck() {
   const verified = await verifyEntitlementsLive();
-  const needsPremium = schwaechenMode || placementMode
-    || (topic.value && route.query.mode === 'premium');
-  const needsPaid = needsPremium || isPrem.value || isBasis.value;
+  const needsPremium = trainerRequiresPremium(route.query);
+  const needsPaid = needsPremium || isPremium.value || isBasis.value;
 
   if (!verified.ok) {
     finish('Session beendet');
@@ -351,7 +353,7 @@ async function runEntitlementCheck() {
 function startEntitlementPolling() {
   stopEntitlementPolling();
   if (!hasBackend()) return;
-  if (!isPrem.value && !isBasis.value && !schwaechenMode && !placementMode) return;
+  if (!isPremium.value && !isBasis.value && !trainerRequiresPremium(route.query)) return;
   entitlementTimer = setInterval(runEntitlementCheck, ENTITLEMENT_CHECK_MS);
 }
 
@@ -387,7 +389,7 @@ async function initTrainer() {
     return;
   }
 
-  if (!isPrem.value && !isBasis.value) {
+  if (!isPremium.value && !isBasis.value) {
     const remaining = getFreeSecondsRemaining();
     timer.reset(remaining, false);
     if (remaining <= 0) {
@@ -414,7 +416,7 @@ onBeforeUnmount(() => {
  * Persists free-mode seconds used today (localStorage, per calendar day).
  */
 function persistFreeTimeUsed() {
-  if (isPrem.value || isBasis.value || freeTimerBaseline == null) return;
+  if (isPremium.value || isBasis.value || freeTimerBaseline == null) return;
   const used = Math.max(0, freeTimerBaseline - timer.value.value);
   addFreeSecondsUsed(used);
   freeTimerBaseline = timer.value.value;
@@ -431,7 +433,7 @@ function saveProgressEarly() {
 
 /** Starts the timer and snapshots the free countdown baseline. */
 function ensureTimerStarted() {
-  if (!isPrem.value && !isBasis.value && freeTimerBaseline == null) {
+  if (!isPremium.value && !isBasis.value && freeTimerBaseline == null) {
     freeTimerBaseline = timer.value.value;
   }
   timer.start();
@@ -480,8 +482,8 @@ function onAnswer(payload) {
       collectBonusLines(false);
       applyAnswerXp(false);
       recordWrongTopic();
-      showGrammarTip.value = isPrem.value;
-      if (!isPrem.value) refreshUpsell();
+      showGrammarTip.value = isPremium.value;
+      if (!isPremium.value) refreshUpsell();
     }
   }
 
@@ -512,8 +514,8 @@ function onFirstWrong() {
     }
     showRetry.value = true;
     if (!placementMode) {
-      showGrammarTip.value = isPrem.value;
-      if (!isPrem.value) refreshUpsell();
+      showGrammarTip.value = isPremium.value;
+      if (!isPremium.value) refreshUpsell();
     }
   }
 }
@@ -636,7 +638,7 @@ function exitSession() {
     return;
   }
   if (placementMode || schwaechenMode) router.push({ name: 'landing' });
-  else if (isPrem.value) router.push({ name: 'premium' });
+  else if (isPremium.value) router.push({ name: 'premium' });
   else router.push({ name: 'landing' });
 }
 
@@ -678,7 +680,7 @@ async function restartSession() {
   queue.value = new AdaptiveQueue(all, { shuffle: true });
   queueVersion.value += 1;
 
-  if (!isPrem.value && !isBasis.value) {
+  if (!isPremium.value && !isBasis.value) {
     const remaining = getFreeSecondsRemaining();
     timer.reset(remaining, false);
   } else {
@@ -713,7 +715,7 @@ function trainTopic(lvl, key) {
  */
 function onContainerClick(event) {
   const word = event.target.closest?.('.dict-word');
-  if (!word || !isPrem.value) return;
+  if (!word || !isPremium.value) return;
   event.stopPropagation();
   dictTarget.value = {
     word: word.dataset.word,
@@ -723,7 +725,7 @@ function onContainerClick(event) {
 }
 
 /** Result screen helpers — readable summary numbers. */
-const finalXp = computed(() => correct.value * (isPrem.value ? 2 : 1));
+const finalXp = computed(() => correct.value * (isPremium.value ? 2 : 1));
 const wrongTopicList = computed(() =>
   Object.entries(wrongTopics.value)
     .map(([k, v]) => ({ key: k, ...v }))
@@ -737,13 +739,13 @@ const placementBreakdownRows = computed(() =>
 );
 
 const freeTimeExpired = computed(
-  () => finishReason.value === 'Zeit abgelaufen' && !isPrem.value && !isBasis.value,
+  () => finishReason.value === 'Zeit abgelaufen' && !isPremium.value && !isBasis.value,
 );
 
 /** Sticky upsell bar in free trainer mode (Concept A). */
 const showFunnelSticky = computed(
   () =>
-    !isPrem.value &&
+    !isPremium.value &&
     !isBasis.value &&
     !finished.value &&
     !!currentQuestion.value &&
@@ -764,7 +766,7 @@ watch(sessionStreak, (val) => {
   if (
     val === 10 &&
     !funnelStreakShown.value &&
-    !isPrem.value &&
+    !isPremium.value &&
     !isBasis.value &&
     !finished.value
   ) {
@@ -777,7 +779,7 @@ watch(answered, (val) => {
   if (
     val === 15 &&
     !funnelQuestionsShown.value &&
-    !isPrem.value &&
+    !isPremium.value &&
     !isBasis.value &&
     !finished.value &&
     !conversionSheetOpen.value
@@ -1115,7 +1117,7 @@ watch(lastAnswerResolved, (resolved) => {
         </button>
 
         <button
-          v-if="isPrem && !placementDetectedLevel"
+          v-if="isPremium && !placementDetectedLevel"
           class="soft-btn"
           type="button"
           style="
@@ -1177,7 +1179,7 @@ watch(lastAnswerResolved, (resolved) => {
             </div>
           </div>
           <button
-            v-if="isPrem"
+            v-if="isPremium"
             type="button"
             class="soft-btn"
             style="background: #AB4DBB; color: #fff; padding: 5px 12px; margin: 0;"
@@ -1214,7 +1216,7 @@ watch(lastAnswerResolved, (resolved) => {
       </template>
       <template v-else>
         {{
-          isPrem
+          isPremium
             ? t('trainer.premium', { level })
             : t('trainer.free', { level })
         }}
@@ -1251,7 +1253,7 @@ watch(lastAnswerResolved, (resolved) => {
         >
           ⭐ {{ xpState.totalXP }} XP · Lv{{ liveLevel.num }}
         </span>
-        <span v-if="isPrem" class="training-badge training-badge--prem">
+        <span v-if="isPremium" class="training-badge training-badge--prem">
           💎 ×2 XP
         </span>
       </div>
@@ -1285,7 +1287,7 @@ watch(lastAnswerResolved, (resolved) => {
     <QuestionRenderer
       :key="currentQuestion.id"
       :question="currentQuestion"
-      :premium="isPrem"
+      :premium="isPremium"
       @answer="onAnswer"
       @first-wrong="onFirstWrong"
       @complete="onComplete"
@@ -1299,7 +1301,7 @@ watch(lastAnswerResolved, (resolved) => {
       <GrammarTip :topic-key="currentQuestion.topic || topic || ''" />
     </div>
 
-    <div v-if="!isPrem && upsellHtml" class="upsell-hint" v-html="upsellHtml" />
+    <div v-if="!isPremium && upsellHtml" class="upsell-hint" v-html="upsellHtml" />
 
     <button
       ref="nextBtnRef"
@@ -1319,7 +1321,7 @@ watch(lastAnswerResolved, (resolved) => {
     </div>
 
     <DictionaryPopup
-      v-if="isPrem"
+      v-if="isPremium"
       :target="dictTarget"
       @close="dictTarget = null"
     />
