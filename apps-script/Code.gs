@@ -319,6 +319,34 @@ function saveActivationCode_(code, email, planInfo, source, transactionId) {
 }
 
 /**
+ * @param {*} value
+ * @return {string|null}
+ */
+function safeIsoDate_(value) {
+  if (value === null || value === undefined || value === '') return null;
+  const t = new Date(value).getTime();
+  if (!Number.isFinite(t)) return null;
+  try {
+    return new Date(t).toISOString();
+  } catch (_) {
+    return null;
+  }
+}
+
+/**
+ * @param {*} usedAt
+ * @param {number} months
+ * @return {string|null}
+ */
+function codeExpiresIso_(usedAt, months) {
+  const m = Number(months) || 0;
+  if (m <= 0) return null;
+  const baseMs = usedAt ? new Date(usedAt).getTime() : Date.now();
+  const start = Number.isFinite(baseMs) ? baseMs : Date.now();
+  return safeIsoDate_(start + m * 30 * 24 * 60 * 60 * 1000);
+}
+
+/**
  * Server-side validation of an activation code submitted by the SPA.
  *
  * @param {!Object} p  Query parameters: code, email, deviceId, sessionToken.
@@ -337,59 +365,57 @@ function validateCode(p) {
     const row = data[r];
     if (String(row[0]).toUpperCase().trim() !== code) continue;
 
-    const usedAt = row[5];
-    const usedBy = String(row[6] || '').trim();
+    try {
+      const usedAt = row[5];
+      const usedBy = String(row[6] || '').trim();
+      const hasUsedAt = usedAt !== null && usedAt !== undefined && usedAt !== '';
 
-    if (usedAt && usedBy && deviceId && usedBy !== deviceId) {
-      return { ok: false, error: 'Code wurde auf einem anderen Gerät verwendet.' };
-    }
+      if (hasUsedAt && usedBy && deviceId && usedBy !== deviceId) {
+        return { ok: false, error: 'Code wurde auf einem anderen Gerät verwendet.' };
+      }
 
-    /** @type {string} */
-    let tokenOut;
-    if (usedAt) {
-      if (verifySessionToken_(code, deviceId, sessionToken)) {
-        tokenOut = sessionToken;
-      } else if (!usedBy || !deviceId || usedBy === deviceId) {
-        // Same device — issue a fresh session (2 h) after expiry or re-entry.
-        tokenOut = issueSessionToken_(code, deviceId);
+      var tokenOut = '';
+      if (hasUsedAt) {
+        if (verifySessionToken_(code, deviceId, sessionToken)) {
+          tokenOut = sessionToken;
+        } else if (!usedBy || !deviceId || usedBy === deviceId) {
+          tokenOut = issueSessionToken_(code, deviceId);
+        } else {
+          return { ok: false, error: 'Session abgelaufen — bitte Code erneut aktivieren.' };
+        }
       } else {
-        return { ok: false, error: 'Session abgelaufen — bitte Code erneut aktivieren.' };
+        sheet.getRange(r + 1, 6).setValue(new Date());
+        sheet.getRange(r + 1, 7).setValue(deviceId);
+        tokenOut = issueSessionToken_(code, deviceId);
       }
-    } else {
-      sheet.getRange(r + 1, 6).setValue(new Date());
-      sheet.getRange(r + 1, 7).setValue(deviceId);
-      tokenOut = issueSessionToken_(code, deviceId);
-    }
 
-    const months = Number(row[3]) || 0;
-    const planType = String(row[2] || '');
-    const expires = months > 0
-      ? new Date(
-          (usedAt ? new Date(usedAt).getTime() : Date.now()) + months * 30 * 24 * 60 * 60 * 1000,
-        )
-      : null;
-
-    const isBasis = planType === 'basis' || code.startsWith('BASIS');
-    const out = {
-      ok: true,
-      type: planType,
-      months,
-      expires: expires ? expires.toISOString() : null,
-      sessionToken: tokenOut,
-      sessionExpires: new Date(Date.now() + SESSION_LIFETIME_MS).toISOString(),
-    };
-    if (!isBasis) {
-      try {
-        out.trainingJwt = issueTrainingJwt_({
-          premium: true,
-          code: code,
-          deviceId: deviceId,
-        });
-      } catch (jwtErr) {
-        log('issueTrainingJwt', String(jwtErr && jwtErr.message || jwtErr));
+      const months = Number(row[3]) || 0;
+      const planType = String(row[2] || '');
+      const isBasis = planType === 'basis' || code.startsWith('BASIS');
+      const out = {
+        ok: true,
+        type: planType,
+        months: months,
+        expires: codeExpiresIso_(hasUsedAt ? usedAt : null, months),
+        sessionToken: tokenOut,
+        sessionExpires: safeIsoDate_(Date.now() + SESSION_LIFETIME_MS),
+      };
+      if (!isBasis) {
+        try {
+          out.trainingJwt = issueTrainingJwt_({
+            premium: true,
+            code: code,
+            deviceId: deviceId,
+          });
+        } catch (jwtErr) {
+          log('issueTrainingJwt', String(jwtErr && jwtErr.message || jwtErr));
+        }
       }
+      return out;
+    } catch (err) {
+      log('validateCode', String(err && err.stack || err));
+      return { ok: false, error: 'Code-Validierung fehlgeschlagen' };
     }
-    return out;
   }
   return { ok: false, error: 'Code nicht gefunden' };
 }
