@@ -219,7 +219,10 @@ export async function activateCode(rawCode, email = '') {
     return local;
   }
 
-  const res = await validateOnServer(code, email, readSessionToken());
+  // Fresh activation attempt — drop expired code-session so GAS can re-issue.
+  clearSessionToken();
+
+  const res = await validateOnServer(code, email, '');
   if (!res || !res.ok) {
     return {
       ok: false,

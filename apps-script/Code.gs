@@ -344,13 +344,21 @@ function validateCode(p) {
       return { ok: false, error: 'Code wurde auf einem anderen Gerät verwendet.' };
     }
 
+    /** @type {string} */
+    let tokenOut;
     if (usedAt) {
-      if (!verifySessionToken_(code, deviceId, sessionToken)) {
+      if (verifySessionToken_(code, deviceId, sessionToken)) {
+        tokenOut = sessionToken;
+      } else if (!usedBy || !deviceId || usedBy === deviceId) {
+        // Same device — issue a fresh session (2 h) after expiry or re-entry.
+        tokenOut = issueSessionToken_(code, deviceId);
+      } else {
         return { ok: false, error: 'Session abgelaufen — bitte Code erneut aktivieren.' };
       }
     } else {
       sheet.getRange(r + 1, 6).setValue(new Date());
       sheet.getRange(r + 1, 7).setValue(deviceId);
+      tokenOut = issueSessionToken_(code, deviceId);
     }
 
     const months = Number(row[3]) || 0;
@@ -360,10 +368,6 @@ function validateCode(p) {
           (usedAt ? new Date(usedAt).getTime() : Date.now()) + months * 30 * 24 * 60 * 60 * 1000,
         )
       : null;
-
-    const tokenOut = usedAt
-      ? sessionToken
-      : issueSessionToken_(code, deviceId);
 
     const isBasis = planType === 'basis' || code.startsWith('BASIS');
     const out = {
