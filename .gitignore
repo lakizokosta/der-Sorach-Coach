@@ -1,5 +1,6 @@
 node_modules
 dist
+server-questions
 .vite
 .wrangler
 .dev.vars

@@ -322,6 +322,21 @@ export async function revalidateOnLoad() {
   return bootstrapEntitlements();
 }
 
+/**
+ * Credentials for premium API requests (activation code + code session).
+ *
+ * @return {{premiumCode:string, basisCode:string, email:string, sessionToken:string}}
+ */
+export function getPremiumRequestContext() {
+  const { state: auth } = useAuth();
+  return {
+    premiumCode: state.premiumCode,
+    basisCode: state.basisCode,
+    email: auth.email || '',
+    sessionToken: readSessionToken(),
+  };
+}
+
 export function clearPremium() {
   state.premiumCode = '';
   persist();

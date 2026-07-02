@@ -150,6 +150,7 @@ function doPost(e) {
     if (body.action === 'loadProgressByEmail') return json(loadProgressByEmail_(body, false));
     if (body.action === 'saveProgressByEmail') return json(saveProgressByEmail_(body, false));
     if (body.action === 'refreshMagicSession') return json(refreshMagicSession_(body));
+    if (body.action === 'verifyTrainingAccess') return json(verifyTrainingAccess_(body));
     if (body.loadProgress)  return json(loadProgressByEmail_(body, false));
     if (body.saveProgress)  return json(saveProgressByEmail_(body, false));
 
@@ -1023,6 +1024,51 @@ function refreshMagicSession_(body) {
     premiumExpires: ent.premiumExpires,
     isBasis: ent.isBasis,
   };
+}
+
+/**
+ * Validates Premium access for the Cloudflare `/api/questions` Worker.
+ * Accepts either a magic-link session (email + token) or an activation
+ * code session (code + deviceId + sessionToken).
+ *
+ * @param {!Object} body  {email?, sessionToken?, code?, deviceId?}.
+ * @return {!Object}
+ */
+function verifyTrainingAccess_(body) {
+  const email = String(body.email || '').toLowerCase().trim();
+  const sessionToken = String(body.sessionToken || '').trim();
+  const code = String(body.code || '').toUpperCase().trim();
+  const deviceId = String(body.deviceId || '').trim();
+
+  if (email && sessionToken) {
+    if (!validateMagicSession_(email, sessionToken)) {
+      return { ok: false, error: 'Session abgelaufen' };
+    }
+    const ent = getEntitlementsForEmail_(email);
+    if (!ent.isPremium) return { ok: false, error: 'Premium erforderlich' };
+    return { ok: true, isPremium: true };
+  }
+
+  if (code && sessionToken) {
+    if (!verifySessionToken_(code, deviceId, sessionToken)) {
+      return { ok: false, error: 'Session abgelaufen — bitte Code erneut aktivieren.' };
+    }
+    const codeRes = validateCode({
+      code: code,
+      email: email,
+      deviceId: deviceId,
+      sessionToken: sessionToken,
+    });
+    if (!codeRes || !codeRes.ok) {
+      return { ok: false, error: (codeRes && codeRes.error) || 'Ungültiger Code.' };
+    }
+    if (codeRes.type === 'basis' || code.startsWith('BASIS')) {
+      return { ok: false, error: 'Premium erforderlich' };
+    }
+    return { ok: true, isPremium: true };
+  }
+
+  return { ok: false, error: 'Nicht angemeldet' };
 }
 
 /**

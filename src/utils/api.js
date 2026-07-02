@@ -271,3 +271,49 @@ export function saveStreakByCode(code, streakData) {
     streakData: streakData || '',
   });
 }
+
+/**
+ * Loads premium trainer questions from the Cloudflare Worker API.
+ * Auth is verified server-side against Google Apps Script.
+ *
+ * @param {{
+ *   level: string,
+ *   topic?: string,
+ *   limit?: number,
+ *   code?: string,
+ *   email?: string,
+ *   sessionToken?: string,
+ * }} params
+ * @return {Promise<{ok:boolean, questions?:!Array<!Object>, error?:string}>}
+ */
+export async function fetchQuestionsFromServer(params) {
+  if (!hasBackend()) {
+    return { ok: false, error: 'Kein Backend konfiguriert' };
+  }
+
+  const qs = new URLSearchParams({
+    level: String(params.level || '').toUpperCase(),
+    topic: String(params.topic || '').trim(),
+    limit: String(params.limit || 500),
+    code: String(params.code || '').trim().toUpperCase(),
+    email: String(params.email || '').trim().toLowerCase(),
+    sessionToken: String(params.sessionToken || '').trim(),
+    deviceId: getDeviceId(),
+  });
+
+  try {
+    const res = await httpFetch(`/api/questions?${qs.toString()}`, { method: 'GET' });
+    const text = await res.text();
+    if (!text) return { ok: false, error: 'Leere Antwort' };
+    const data = JSON.parse(text);
+    if (!res.ok) {
+      return {
+        ok: false,
+        error: (data && data.error) || `Fehler (${res.status})`,
+      };
+    }
+    return data;
+  } catch (err) {
+    return networkFailure(err);
+  }
+}

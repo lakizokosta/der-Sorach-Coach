@@ -6,9 +6,10 @@
   "description": "Der SprachCoach — a Vue 3 rebuild of the German language learning trainer.",
   "scripts": {
     "dev": "vite",
-    "build": "npm run dictionary:build && vite build",
+    "build": "npm run dictionary:build && npm run questions:export-server && vite build",
+    "questions:export-server": "node scripts/export-server-questions.mjs",
     "preview": "vite preview",
-    "deploy": "vite build && wrangler deploy",
+    "deploy": "npm run build && wrangler deploy",
     "questions:verify": "node scripts/verify-questions.mjs",
     "questions:audit-reflexiv": "node scripts/audit-reflexiv-hints.mjs",
     "questions:audit-genitiv": "node scripts/audit-genitiv-questions.mjs",

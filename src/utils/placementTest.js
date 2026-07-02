@@ -11,6 +11,8 @@
  */
 
 import { ensureQuestionsLoaded } from '@/data/questions.js';
+import { loadPremiumQuestions } from '@/utils/premiumQuestions.js';
+import { hasBackend } from '@/utils/api.js';
 import { shuffle } from '@/utils/random.js';
 
 export const PLACEMENT_LEVELS = ['A1', 'A2', 'B1', 'B2'];
@@ -21,14 +23,23 @@ export const PLACEMENT_TOTAL = PLACEMENT_PER_LEVEL * PLACEMENT_LEVELS.length;
 export const PLACEMENT_PASS_RATIO = 0.6;
 
 /**
+ * @param {!Array<!Object>} pool
+ * @param {number} count
+ * @return {!Array<!Object>}
+ */
+function pickRandomFromPool(pool, count) {
+  const shuffled = shuffle(pool.slice());
+  return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+/**
  * @param {string} level
  * @param {number} count
  * @return {Promise<!Array<!Object>>}
  */
-async function pickRandomForLevel(level, count) {
+async function pickRandomForLevelLocal(level, count) {
   const questions = await ensureQuestionsLoaded(level);
-  const pool = shuffle(questions.filter((q) => q.level === level));
-  return pool.slice(0, Math.min(count, pool.length));
+  return pickRandomFromPool(questions.filter((q) => q.level === level), count);
 }
 
 /**
@@ -85,14 +96,39 @@ export function buildProgressiveOrder(pools) {
 }
 
 /**
+ * @param {{
+ *   premiumCode?: string,
+ *   basisCode?: string,
+ *   email?: string,
+ *   sessionToken?: string,
+ * }|null} [authCtx]
  * @return {Promise<!Array<!Object>>}
  */
-export async function buildPlacementQuestions() {
+export async function buildPlacementQuestions(authCtx = null) {
+  if (hasBackend() && authCtx) {
+    const pools = Object.fromEntries(
+      await Promise.all(
+        PLACEMENT_LEVELS.map(async (lvl) => {
+          const questions = await loadPremiumQuestions({
+            level: lvl,
+            limit: PLACEMENT_PER_LEVEL + 40,
+            premiumCode: authCtx.premiumCode,
+            basisCode: authCtx.basisCode,
+            email: authCtx.email,
+            sessionToken: authCtx.sessionToken,
+          });
+          return [lvl, pickRandomFromPool(questions, PLACEMENT_PER_LEVEL)];
+        }),
+      ),
+    );
+    return buildProgressiveOrder(pools);
+  }
+
   const pools = Object.fromEntries(
     await Promise.all(
       PLACEMENT_LEVELS.map(async (lvl) => [
         lvl,
-        await pickRandomForLevel(lvl, PLACEMENT_PER_LEVEL),
+        await pickRandomForLevelLocal(lvl, PLACEMENT_PER_LEVEL),
       ]),
     ),
   );

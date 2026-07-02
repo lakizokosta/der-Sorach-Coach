@@ -23,7 +23,7 @@ import DictionaryPopup from '@/components/DictionaryPopup.vue';
 import QuestionRenderer from '@/components/questions/QuestionRenderer.vue';
 import ConversionSheet from '@/components/ConversionSheet.vue';
 
-import { usePremium, verifyEntitlementsLive } from '@/composables/usePremium.js';
+import { usePremium, verifyEntitlementsLive, getPremiumRequestContext } from '@/composables/usePremium.js';
 import { useXp, getLevel, recordTopicWrong } from '@/composables/useXp.js';
 import { getWeakestTopics, getQuestionsForWeakTopics } from '@/utils/weakTopics.js';
 import { useStreak } from '@/composables/useStreak.js';
@@ -46,6 +46,11 @@ import { useTimer, formatMmSs } from '@/composables/useTimer.js';
 import { getQuestionsByLevel, getQuestionsByTopic, getTopicQuestionCount } from '@/data/questions.js';
 import { hasBackend } from '@/utils/api.js';
 import { trainerRequiresPremium } from '@/utils/premiumAccess.js';
+import {
+  loadPremiumQuestions,
+  loadWeakTopicsFromServer,
+  shouldLoadQuestionsFromServer,
+} from '@/utils/premiumQuestions.js';
 import { PREMIUM_TOPICS } from '@/data/premiumTopics.js';
 import { AdaptiveQueue } from '@/utils/queue.js';
 import {
@@ -298,11 +303,14 @@ async function ensureAccessBeforeLoad() {
 
 /** Builds the question list for the current route mode. */
 async function loadSessionQuestions() {
+  const authCtx = getPremiumRequestContext();
+  const useServer = shouldLoadQuestionsFromServer(route.query);
+
   if (placementMode) {
     placementScores.value = Object.fromEntries(
       PLACEMENT_LEVELS.map((lvl) => [lvl, { correct: 0, total: 0 }]),
     );
-    return buildPlacementQuestions();
+    return buildPlacementQuestions(useServer ? authCtx : null);
   }
   if (schwaechenMode) {
     schwaechenTopics.value = getWeakestTopics(
@@ -310,10 +318,26 @@ async function loadSessionQuestions() {
       xpState.topicCorrect,
       3,
     );
+    if (useServer) {
+      return loadWeakTopicsFromServer(schwaechenTopics.value, authCtx);
+    }
     return getQuestionsForWeakTopics(schwaechenTopics.value);
   }
   if (topic.value) {
+    if (useServer) {
+      return loadPremiumQuestions({
+        level: level.value,
+        topic: topic.value,
+        ...authCtx,
+      });
+    }
     return getQuestionsByTopic(level.value, topic.value);
+  }
+  if (useServer && route.query.mode === 'premium') {
+    return loadPremiumQuestions({
+      level: level.value,
+      ...authCtx,
+    });
   }
   return getQuestionsByLevel(level.value);
 }
@@ -670,9 +694,26 @@ async function restartSession() {
   let all;
   if (schwaechenMode) {
     schwaechenTopics.value = getWeakestTopics(xpState.topicWrong, xpState.topicCorrect, 3);
-    all = await getQuestionsForWeakTopics(schwaechenTopics.value);
+    if (shouldLoadQuestionsFromServer(route.query)) {
+      all = await loadWeakTopicsFromServer(schwaechenTopics.value, getPremiumRequestContext());
+    } else {
+      all = await getQuestionsForWeakTopics(schwaechenTopics.value);
+    }
   } else if (topic.value) {
-    all = await getQuestionsByTopic(level.value, topic.value);
+    if (shouldLoadQuestionsFromServer(route.query)) {
+      all = await loadPremiumQuestions({
+        level: level.value,
+        topic: topic.value,
+        ...getPremiumRequestContext(),
+      });
+    } else {
+      all = await getQuestionsByTopic(level.value, topic.value);
+    }
+  } else if (shouldLoadQuestionsFromServer(route.query) && route.query.mode === 'premium') {
+    all = await loadPremiumQuestions({
+      level: level.value,
+      ...getPremiumRequestContext(),
+    });
   } else {
     all = await getQuestionsByLevel(level.value);
   }
