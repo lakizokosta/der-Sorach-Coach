@@ -104,6 +104,7 @@ function isPremiumEntitlementResponse(res, code = '') {
  */
 function requirePremiumTrainingJwt(res, code = '') {
   if (!isPremiumEntitlementResponse(res, code)) return true;
+  if (!res.trainingJwt) return true;
   return storeTrainingJwtFromServer(res.trainingJwt);
 }
 
@@ -240,7 +241,7 @@ export async function activateCode(rawCode, email = '') {
   }
 
   const isBasis = code.startsWith('BASIS') || res.type === 'basis';
-  if (!isBasis && !storeTrainingJwtFromServer(res.trainingJwt)) {
+  if (!isBasis && res.trainingJwt && !storeTrainingJwtFromServer(res.trainingJwt)) {
     return {
       ok: false,
       type: null,

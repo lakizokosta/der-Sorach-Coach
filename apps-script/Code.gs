@@ -379,11 +379,15 @@ function validateCode(p) {
       sessionExpires: new Date(Date.now() + SESSION_LIFETIME_MS).toISOString(),
     };
     if (!isBasis) {
-      out.trainingJwt = issueTrainingJwt_({
-        premium: true,
-        code: code,
-        deviceId: deviceId,
-      });
+      try {
+        out.trainingJwt = issueTrainingJwt_({
+          premium: true,
+          code: code,
+          deviceId: deviceId,
+        });
+      } catch (jwtErr) {
+        log('issueTrainingJwt', String(jwtErr && jwtErr.message || jwtErr));
+      }
     }
     return out;
   }
@@ -1059,7 +1063,7 @@ function refreshMagicSession_(body) {
  */
 function base64UrlEncodeStr_(str) {
   return Utilities.base64EncodeWebSafe(
-    Utilities.newBlob(String(str), 'UTF-8').getBytes(),
+    Utilities.newBlob(String(str)).getBytes(),
   ).replace(/=+$/, '');
 }
 
