@@ -31,7 +31,7 @@ import PricingCompare from '@/components/PricingCompare.vue';
 import LegalFooter from '@/components/LegalFooter.vue';
 
 import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
-import { getQuestionsByTopic } from '@/data/questions.js';
+import { getTopicQuestionCount } from '@/data/questions.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp, getLevel } from '@/composables/useXp.js';
@@ -269,7 +269,7 @@ function payBasisPaypal() {
  * @return {number}
  */
 function questionCount(topicKey) {
-  return getQuestionsByTopic(activeLevel.value, topicKey).length;
+  return getTopicQuestionCount(activeLevel.value, topicKey);
 }
 
 /**

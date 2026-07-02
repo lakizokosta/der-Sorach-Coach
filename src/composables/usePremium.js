@@ -216,20 +216,17 @@ export async function activateCode(rawCode, email = '') {
 }
 
 /**
- * Re-validates entitlements on every app load. Always hits the server when
- * credentials or activation codes exist; never trusts cached session tokens
- * alone. Fail-closed on any error response or network failure.
+ * Shared server round-trip for bootstrap and live session checks.
+ * Fail-closed: invalid codes or sessions clear local activation state.
  *
- * @return {Promise<void>}
+ * @return {Promise<{ok:boolean}>}
  */
-export async function bootstrapEntitlements() {
-  entitlements.ready = false;
+async function refreshEntitlementsFromServer() {
   clearEntitlements();
 
   if (!hasBackend()) {
     applyDemoEntitlementsFromLocal();
-    entitlements.ready = true;
-    return;
+    return { ok: true };
   }
 
   const { state: auth, logout, setSession } = useAuth();
@@ -273,7 +270,35 @@ export async function bootstrapEntitlements() {
     clearEntitlements();
   }
 
+  return { ok: true };
+}
+
+/**
+ * Re-validates entitlements on every app load. Always hits the server when
+ * credentials or activation codes exist; never trusts cached session tokens
+ * alone. Fail-closed on any error response or network failure.
+ *
+ * @return {Promise<void>}
+ */
+export async function bootstrapEntitlements() {
+  entitlements.ready = false;
+  await refreshEntitlementsFromServer();
   entitlements.ready = true;
+}
+
+/**
+ * Live entitlement check during training — does not flip `entitlements.ready`
+ * (avoids bootstrap overlay flash).
+ *
+ * @return {Promise<{ok:boolean, isPremium:boolean, isBasis:boolean}>}
+ */
+export async function verifyEntitlementsLive() {
+  const result = await refreshEntitlementsFromServer();
+  return {
+    ok: result.ok,
+    isPremium: entitlements.isPremium,
+    isBasis: entitlements.isBasis,
+  };
 }
 
 /** @deprecated Use bootstrapEntitlements */
@@ -333,6 +358,7 @@ export function usePremium() {
     clearBasis,
     clearAll,
     bootstrapEntitlements,
+    verifyEntitlementsLive,
     revalidateOnLoad,
   };
 }

@@ -23,7 +23,7 @@ import DictionaryPopup from '@/components/DictionaryPopup.vue';
 import QuestionRenderer from '@/components/questions/QuestionRenderer.vue';
 import ConversionSheet from '@/components/ConversionSheet.vue';
 
-import { usePremium } from '@/composables/usePremium.js';
+import { usePremium, verifyEntitlementsLive } from '@/composables/usePremium.js';
 import { useXp, getLevel, recordTopicWrong } from '@/composables/useXp.js';
 import { getWeakestTopics, getQuestionsForWeakTopics } from '@/utils/weakTopics.js';
 import { useStreak } from '@/composables/useStreak.js';
@@ -43,7 +43,8 @@ import {
 } from '@/composables/useFreeDailyLimit.js';
 import { useTimer, formatMmSs } from '@/composables/useTimer.js';
 
-import { getQuestionsByLevel, getQuestionsByTopic } from '@/data/questions.js';
+import { getQuestionsByLevel, getQuestionsByTopic, getTopicQuestionCount } from '@/data/questions.js';
+import { hasBackend } from '@/utils/api.js';
 import { PREMIUM_TOPICS } from '@/data/premiumTopics.js';
 import { AdaptiveQueue } from '@/utils/queue.js';
 import {
@@ -112,6 +113,10 @@ const microFeedback = ref({ visible: false, lines: [], tone: 'good' });
 const xpBadgePulse = ref(false);
 let microFeedbackTimer = null;
 
+/** Re-check paid access every 5 minutes during a session. */
+const ENTITLEMENT_CHECK_MS = 5 * 60 * 1000;
+let entitlementTimer = null;
+
 const timer = useTimer(
   isPrem.value || isBasis.value
     ? { mode: 'up', initialSeconds: 0 }
@@ -162,7 +167,7 @@ const currentTopicName = computed(() => {
 const currentTopicPoolSize = computed(() => {
   const q = currentQuestion.value;
   if (!q?.topic || topic.value) return 0;
-  return getQuestionsByTopic(q.level, q.topic).length;
+  return getTopicQuestionCount(q.level, q.topic);
 });
 
 const topicPoolHint = computed(() => {
@@ -272,30 +277,108 @@ function collectBonusLines(wasCorrect) {
 }
 
 /** Loads the queue, restores any free-session timer, kicks things off. */
-onMounted(() => {
-  if ((schwaechenMode || placementMode) && !isPremium.value) {
-    router.replace({ name: 'premium', query: { hub: '1' } });
-    return;
+async function ensureAccessBeforeLoad() {
+  if (!hasBackend()) return true;
+  if (!isPrem.value && !isBasis.value && !schwaechenMode && !placementMode) {
+    return true;
   }
 
-  let all;
+  const verified = await verifyEntitlementsLive();
+  if (!verified.ok) return false;
+  if ((schwaechenMode || placementMode) && !verified.isPremium) return false;
+  if (topic.value && route.query.mode === 'premium' && !verified.isPremium) return false;
+  if ((isPrem.value || isBasis.value) && !verified.isPremium && !verified.isBasis) {
+    return false;
+  }
+  return true;
+}
 
+/** Builds the question list for the current route mode. */
+async function loadSessionQuestions() {
   if (placementMode) {
-    all = buildPlacementQuestions();
     placementScores.value = Object.fromEntries(
       PLACEMENT_LEVELS.map((lvl) => [lvl, { correct: 0, total: 0 }]),
     );
-  } else if (schwaechenMode) {
+    return buildPlacementQuestions();
+  }
+  if (schwaechenMode) {
     schwaechenTopics.value = getWeakestTopics(
       xpState.topicWrong,
       xpState.topicCorrect,
       3,
     );
-    all = getQuestionsForWeakTopics(schwaechenTopics.value);
-  } else if (topic.value) {
-    all = getQuestionsByTopic(level.value, topic.value);
-  } else {
-    all = getQuestionsByLevel(level.value);
+    return getQuestionsForWeakTopics(schwaechenTopics.value);
+  }
+  if (topic.value) {
+    return getQuestionsByTopic(level.value, topic.value);
+  }
+  return getQuestionsByLevel(level.value);
+}
+
+function stopEntitlementPolling() {
+  if (entitlementTimer) {
+    clearInterval(entitlementTimer);
+    entitlementTimer = null;
+  }
+}
+
+/** Ends the session when server revokes paid access mid-training. */
+async function runEntitlementCheck() {
+  const verified = await verifyEntitlementsLive();
+  const needsPremium = schwaechenMode || placementMode
+    || (topic.value && route.query.mode === 'premium');
+  const needsPaid = needsPremium || isPrem.value || isBasis.value;
+
+  if (!verified.ok) {
+    finish('Session beendet');
+    stopEntitlementPolling();
+    router.replace({ name: 'landing' });
+    return;
+  }
+  if (needsPremium && !verified.isPremium) {
+    finish('Session beendet');
+    stopEntitlementPolling();
+    router.replace({ name: 'premium', query: { hub: '1' } });
+    return;
+  }
+  if (needsPaid && !verified.isPremium && !verified.isBasis) {
+    finish('Session beendet');
+    stopEntitlementPolling();
+    router.replace({ name: 'landing' });
+  }
+}
+
+function startEntitlementPolling() {
+  stopEntitlementPolling();
+  if (!hasBackend()) return;
+  if (!isPrem.value && !isBasis.value && !schwaechenMode && !placementMode) return;
+  entitlementTimer = setInterval(runEntitlementCheck, ENTITLEMENT_CHECK_MS);
+}
+
+async function initTrainer() {
+  if ((schwaechenMode || placementMode) && !isPremium.value) {
+    router.replace({ name: 'premium', query: { hub: '1' } });
+    return;
+  }
+
+  const accessOk = await ensureAccessBeforeLoad();
+  if (!accessOk) {
+    if (schwaechenMode || placementMode || (topic.value && route.query.mode === 'premium')) {
+      router.replace({ name: 'premium', query: { hub: '1' } });
+    } else {
+      router.replace({ name: 'landing' });
+    }
+    return;
+  }
+
+  let all;
+  try {
+    all = await loadSessionQuestions();
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('[trainer] failed to load questions', err);
+    finished.value = true;
+    return;
   }
 
   queue.value = new AdaptiveQueue(all, { shuffle: !placementMode });
@@ -312,10 +395,16 @@ onMounted(() => {
     }
   }
 
+  startEntitlementPolling();
+}
+
+onMounted(() => {
+  initTrainer();
   window.addEventListener('keydown', onTrainerKeydown);
 });
 
 onBeforeUnmount(() => {
+  stopEntitlementPolling();
   window.removeEventListener('keydown', onTrainerKeydown);
   if (microFeedbackTimer) clearTimeout(microFeedbackTimer);
   saveProgressEarly();
@@ -555,7 +644,7 @@ function exitSession() {
  * Restarts the same session without leaving the page.
  * Resets all state and rebuilds the queue with the same params.
  */
-function restartSession() {
+async function restartSession() {
   answered.value = 0;
   correct.value = 0;
   finished.value = false;
@@ -569,14 +658,21 @@ function restartSession() {
   microFeedback.value = { visible: false, lines: [], tone: 'good' };
   freeTimerBaseline = null;
 
+  const accessOk = await ensureAccessBeforeLoad();
+  if (!accessOk) {
+    stopEntitlementPolling();
+    router.replace({ name: 'premium', query: { hub: '1' } });
+    return;
+  }
+
   let all;
   if (schwaechenMode) {
     schwaechenTopics.value = getWeakestTopics(xpState.topicWrong, xpState.topicCorrect, 3);
-    all = getQuestionsForWeakTopics(schwaechenTopics.value);
+    all = await getQuestionsForWeakTopics(schwaechenTopics.value);
   } else if (topic.value) {
-    all = getQuestionsByTopic(level.value, topic.value);
+    all = await getQuestionsByTopic(level.value, topic.value);
   } else {
-    all = getQuestionsByLevel(level.value);
+    all = await getQuestionsByLevel(level.value);
   }
 
   queue.value = new AdaptiveQueue(all, { shuffle: true });

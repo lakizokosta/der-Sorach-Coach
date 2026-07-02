@@ -1,7 +1,7 @@
 /**
  * Niveau-Test (Premium): progressive A1→B2 sampling from the full trainer bank.
  *
- * Per level: 15 random questions (unique per session, all types from QUESTIONS).
+ * Per level: 15 random questions (unique per session, all types from the bank).
  * Order (60 total, new every session):
  *   • Starts with A1 only.
  *   • After 7 A1 questions, A2 is mixed in (A1 + A2 until A1 quota is done).
@@ -10,7 +10,7 @@
  * Trainer keeps shuffle off so this order is preserved.
  */
 
-import { QUESTIONS } from '@/data/questions.js';
+import { ensureQuestionsLoaded } from '@/data/questions.js';
 import { shuffle } from '@/utils/random.js';
 
 export const PLACEMENT_LEVELS = ['A1', 'A2', 'B1', 'B2'];
@@ -23,10 +23,11 @@ export const PLACEMENT_PASS_RATIO = 0.6;
 /**
  * @param {string} level
  * @param {number} count
- * @return {!Array<!Object>}
+ * @return {Promise<!Array<!Object>>}
  */
-function pickRandomForLevel(level, count) {
-  const pool = shuffle(QUESTIONS.filter((q) => q.level === level));
+async function pickRandomForLevel(level, count) {
+  const questions = await ensureQuestionsLoaded(level);
+  const pool = shuffle(questions.filter((q) => q.level === level));
   return pool.slice(0, Math.min(count, pool.length));
 }
 
@@ -84,11 +85,16 @@ export function buildProgressiveOrder(pools) {
 }
 
 /**
- * @return {!Array<!Object>}
+ * @return {Promise<!Array<!Object>>}
  */
-export function buildPlacementQuestions() {
+export async function buildPlacementQuestions() {
   const pools = Object.fromEntries(
-    PLACEMENT_LEVELS.map((lvl) => [lvl, pickRandomForLevel(lvl, PLACEMENT_PER_LEVEL)]),
+    await Promise.all(
+      PLACEMENT_LEVELS.map(async (lvl) => [
+        lvl,
+        await pickRandomForLevel(lvl, PLACEMENT_PER_LEVEL),
+      ]),
+    ),
   );
   return buildProgressiveOrder(pools);
 }
