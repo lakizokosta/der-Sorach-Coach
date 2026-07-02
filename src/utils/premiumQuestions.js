@@ -7,6 +7,7 @@
  */
 
 import { fetchQuestionsFromServer, hasBackend } from '@/utils/api.js';
+import { refreshTrainingJwt } from '@/composables/usePremium.js';
 import { getQuestionsByLevel, getQuestionsByTopic } from '@/data/questions.js';
 
 /**
@@ -18,6 +19,7 @@ import { getQuestionsByLevel, getQuestionsByTopic } from '@/data/questions.js';
  *   basisCode?: string,
  *   email?: string,
  *   sessionToken?: string,
+ *   trainingJwt?: string,
  * }} ctx
  * @return {Promise<!Array<!Object>>}
  */
@@ -39,6 +41,8 @@ export async function loadPremiumQuestions(ctx) {
     code,
     email: ctx.email || '',
     sessionToken: ctx.sessionToken || '',
+    trainingJwt: ctx.trainingJwt || '',
+    onTrainingJwt: refreshTrainingJwt,
   });
 
   if (!res || !res.ok || !Array.isArray(res.questions)) {

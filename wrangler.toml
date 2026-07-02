@@ -17,6 +17,8 @@ compatibility_date = "2025-01-01"
 
 [vars]
 SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw0oSHhowmjag6KMvsSd8C7nBkTduQ93L25Vv1yn6mY_7y6D_XEMxDRg5UuAvN36nkuRA/exec"
+# Must match `TRAINING_JWT_SECRET` / `WEBHOOK_SECRET` in apps-script/Code.gs
+TRAINING_JWT_SECRET = "LZD_S3cr3t_T0k3n_K3y_2024_xQ9mR7"
 
 [assets]
 directory = "./dist"

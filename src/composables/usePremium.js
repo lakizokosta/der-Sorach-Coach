@@ -16,6 +16,7 @@ import {
   refreshMagicSession,
   hasBackend,
 } from '@/utils/api.js';
+import { isPlausibleTrainingJwt } from '@/utils/trainingJwt.js';
 import { useAuth } from './useAuth.js';
 
 const KEY = 'lzd_premium';
@@ -39,6 +40,9 @@ function normalizeStoredCodes(raw) {
 }
 
 const state = reactive(normalizeStoredCodes(loadJSON(KEY, defaults())));
+
+/** Short-lived Premium training JWT — memory only (never persisted). */
+let trainingJwt = '';
 
 /** Server-confirmed entitlements (memory only). */
 const entitlements = reactive({
@@ -67,6 +71,28 @@ function clearEntitlements() {
   entitlements.isPremium = false;
   entitlements.isBasis = false;
   entitlements.premiumExpires = '';
+  trainingJwt = '';
+}
+
+/**
+ * @param {unknown} token
+ * @return {boolean}
+ */
+function storeTrainingJwtFromServer(token) {
+  if (!isPlausibleTrainingJwt(token)) return false;
+  trainingJwt = String(token);
+  return true;
+}
+
+/**
+ * @param {{trainingJwt?:string, isPremium?:boolean, type?:string}} res
+ * @param {string} [code]
+ * @return {boolean}
+ */
+function requirePremiumTrainingJwt(res, code = '') {
+  const isBasis = String(code || '').startsWith('BASIS') || res.type === 'basis' || res.isBasis;
+  if (isBasis || !res.isPremium) return true;
+  return storeTrainingJwtFromServer(res.trainingJwt);
 }
 
 /**
@@ -199,6 +225,14 @@ export async function activateCode(rawCode, email = '') {
   }
 
   const isBasis = code.startsWith('BASIS') || res.type === 'basis';
+  if (!isBasis && !storeTrainingJwtFromServer(res.trainingJwt)) {
+    return {
+      ok: false,
+      type: null,
+      error: 'Ungültige Server-Antwort.',
+    };
+  }
+
   if (isBasis) {
     state.basisCode = code;
     state.premiumCode = '';
@@ -246,6 +280,11 @@ async function refreshEntitlementsFromServer() {
     } else {
       const magicRes = await refreshMagicSession(auth.email, auth.sessionToken);
       if (magicRes && magicRes.ok) {
+        if (magicRes.isPremium && !requirePremiumTrainingJwt(magicRes)) {
+          logout();
+          clearEntitlements();
+          return { ok: false };
+        }
         setSession({
           email: auth.email,
           sessionToken: auth.sessionToken,
@@ -264,6 +303,14 @@ async function refreshEntitlementsFromServer() {
     const codeRes = await validateOnServer(code, auth.email || '', readSessionToken());
     if (codeRes && codeRes.ok) {
       if (!codeRes.sessionToken || !codeRes.sessionExpires) {
+        state.premiumCode = '';
+        state.basisCode = '';
+        persist();
+        clearSessionToken();
+        if (!magicVerified) clearEntitlements();
+        return { ok: false };
+      }
+      if (!requirePremiumTrainingJwt(codeRes, code)) {
         state.premiumCode = '';
         state.basisCode = '';
         persist();
@@ -325,7 +372,7 @@ export async function revalidateOnLoad() {
 /**
  * Credentials for premium API requests (activation code + code session).
  *
- * @return {{premiumCode:string, basisCode:string, email:string, sessionToken:string}}
+ * @return {{premiumCode:string, basisCode:string, email:string, sessionToken:string, trainingJwt:string}}
  */
 export function getPremiumRequestContext() {
   const { state: auth } = useAuth();
@@ -334,7 +381,13 @@ export function getPremiumRequestContext() {
     basisCode: state.basisCode,
     email: auth.email || '',
     sessionToken: readSessionToken(),
+    trainingJwt,
   };
+}
+
+/** Updates the in-memory training JWT after a verified Worker response. */
+export function refreshTrainingJwt(token) {
+  storeTrainingJwtFromServer(token);
 }
 
 export function clearPremium() {

@@ -1,9 +1,9 @@
 /**
  * Cloudflare Worker — serves the SPA assets and premium question API.
  *
- * `/api/questions` validates Premium access against Google Apps Script
- * (server-side fetch — not hookable from the browser console) and
- * returns question JSON from bundled `server-questions/` data.
+ * `/api/questions` validates Premium via a short-lived training JWT
+ * (HMAC, issued by GAS) or falls back to GAS `verifyTrainingAccess`.
+ * Question JSON is bundled in `server-questions/` — not in public assets.
  */
 
 /** @type {Record<string, () => Promise<{ default: !Array<!Object> }>>} */
@@ -17,11 +17,23 @@ const LEVEL_IMPORTS = {
 /** @type {Record<string, !Array<!Object>>} */
 const levelCache = {};
 
+/** @type {Map<string, {start:number, count:number}>} */
+const rateBuckets = new Map();
+
 const ALLOWED_ORIGINS = [
   'https://lernziel-deutsch.de',
   'http://localhost',
   'http://127.0.0.1',
 ];
+
+const RATE_LIMIT_MAX = 120;
+const RATE_LIMIT_WINDOW_MS = 60 * 1000;
+
+/** @type {Promise<CryptoKey>|null} */
+let jwtKeyPromise = null;
+
+/** @type {string} */
+let jwtKeyPromiseSecret = '';
 
 /**
  * @param {string} topicKey
@@ -71,11 +83,115 @@ function isAllowedOrigin(request) {
 
 /**
  * @param {Request} request
- * @param {{ SCRIPT_URL?: string }} env
  * @param {URLSearchParams} params
+ * @return {boolean}
+ */
+function rateLimitOk(request, params) {
+  const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
+  const deviceId = String(params.get('deviceId') || '').trim() || 'nodevice';
+  const key = `${ip}:${deviceId}`;
+  const now = Date.now();
+
+  if (rateBuckets.size > 5000) {
+    for (const [bucketKey, bucket] of rateBuckets.entries()) {
+      if (now - bucket.start > RATE_LIMIT_WINDOW_MS) rateBuckets.delete(bucketKey);
+    }
+  }
+
+  let bucket = rateBuckets.get(key);
+  if (!bucket || now - bucket.start > RATE_LIMIT_WINDOW_MS) {
+    bucket = { start: now, count: 0 };
+    rateBuckets.set(key, bucket);
+  }
+  bucket.count += 1;
+  return bucket.count <= RATE_LIMIT_MAX;
+}
+
+/**
+ * @param {string} segment
+ * @return {Uint8Array}
+ */
+function base64UrlToBytes(segment) {
+  const padded = segment.replace(/-/g, '+').replace(/_/g, '/');
+  const padLen = (4 - (padded.length % 4)) % 4;
+  const bin = atob(padded + '='.repeat(padLen));
+  const out = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i += 1) out[i] = bin.charCodeAt(i);
+  return out;
+}
+
+/**
+ * @param {string} secret
+ * @return {Promise<CryptoKey>}
+ */
+function importJwtKey(secret) {
+  if (!jwtKeyPromise || jwtKeyPromiseSecret !== secret) {
+    jwtKeyPromiseSecret = secret;
+    jwtKeyPromise = crypto.subtle.importKey(
+      'raw',
+      new TextEncoder().encode(secret),
+      { name: 'HMAC', hash: 'SHA-256' },
+      false,
+      ['verify'],
+    );
+  }
+  return jwtKeyPromise;
+}
+
+/**
+ * @param {string} token
+ * @param {string} secret
  * @return {Promise<{ok:boolean, isPremium?:boolean, error?:string}>}
  */
+async function verifyTrainingJwt(token, secret) {
+  const raw = String(token || '').trim();
+  if (!raw || !secret) return { ok: false, error: 'Missing training token' };
+
+  const parts = raw.split('.');
+  if (parts.length !== 3) return { ok: false, error: 'Invalid training token' };
+
+  let claims;
+  try {
+    claims = JSON.parse(new TextDecoder().decode(base64UrlToBytes(parts[1])));
+  } catch {
+    return { ok: false, error: 'Invalid training token' };
+  }
+
+  if (!claims || !claims.premium) {
+    return { ok: false, error: 'Premium required' };
+  }
+  const exp = Number(claims.exp);
+  if (!Number.isFinite(exp) || exp * 1000 <= Date.now()) {
+    return { ok: false, error: 'Training token expired' };
+  }
+
+  try {
+    const key = await importJwtKey(secret);
+    const data = new TextEncoder().encode(`${parts[0]}.${parts[1]}`);
+    const signature = base64UrlToBytes(parts[2]);
+    const valid = await crypto.subtle.verify('HMAC', key, signature, data);
+    if (!valid) return { ok: false, error: 'Invalid training token' };
+  } catch {
+    return { ok: false, error: 'Invalid training token' };
+  }
+
+  return { ok: true, isPremium: true };
+}
+
+/**
+ * @param {Request} request
+ * @param {{ SCRIPT_URL?: string, TRAINING_JWT_SECRET?: string }} env
+ * @param {URLSearchParams} params
+ * @return {Promise<{ok:boolean, isPremium?:boolean, trainingJwt?:string, error?:string}>}
+ */
 async function verifyTrainingAccess(request, env, params) {
+  const jwtSecret = String(env.TRAINING_JWT_SECRET || '').trim();
+  const trainingJwt = String(params.get('trainingJwt') || '').trim();
+  if (trainingJwt && jwtSecret) {
+    const jwtAccess = await verifyTrainingJwt(trainingJwt, jwtSecret);
+    if (jwtAccess.ok) return jwtAccess;
+  }
+
   const scriptUrl = String(env.SCRIPT_URL || '').trim();
   if (!scriptUrl) return { ok: false, error: 'Backend not configured' };
 
@@ -137,7 +253,7 @@ async function filterPool(level, topicKey) {
 
 /**
  * @param {Request} request
- * @param {{ SCRIPT_URL?: string }} env
+ * @param {{ SCRIPT_URL?: string, TRAINING_JWT_SECRET?: string }} env
  * @return {Promise<Response>}
  */
 async function handleQuestions(request, env) {
@@ -150,6 +266,11 @@ async function handleQuestions(request, env) {
 
   const url = new URL(request.url);
   const params = url.searchParams;
+
+  if (!rateLimitOk(request, params)) {
+    return jsonResponse({ ok: false, error: 'Rate limit exceeded' }, 429);
+  }
+
   const level = String(params.get('level') || '').toUpperCase();
   const topic = String(params.get('topic') || '').trim();
   const limitRaw = Number(params.get('limit') || 500);
@@ -174,18 +295,22 @@ async function handleQuestions(request, env) {
     return jsonResponse({ ok: false, error: 'No questions found' }, 404);
   }
 
-  return jsonResponse({
+  const payload = {
     ok: true,
     level,
     topic: topic || null,
     questions: shuffle(pool).slice(0, limit),
-  });
+  };
+  if (access.trainingJwt) payload.trainingJwt = access.trainingJwt;
+
+  return jsonResponse(payload);
 }
 
 export default {
   /**
    * @param {Request} request
-   * @param {{ ASSETS: { fetch: (req: Request) => Promise<Response> }, SCRIPT_URL?: string }} env
+   * @param {{ ASSETS: { fetch: (req: Request) => Promise<Response> },
+   *   SCRIPT_URL?: string, TRAINING_JWT_SECRET?: string }} env
    * @return {Promise<Response>}
    */
   async fetch(request, env) {

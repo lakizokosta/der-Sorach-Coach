@@ -92,6 +92,10 @@ const SESSION_LIFETIME_MS = 2 * 60 * 60 * 1000;            // 2 h
 const MAGIC_SESSION_LIFETIME_MS = 365 * 24 * 60 * 60 * 1000; // 365 d (sliding)
 const MAGIC_TOKEN_LIFETIME_MS = 30 * 60 * 1000;            // 30 min
 
+/** HMAC secret for short-lived Premium training JWTs (must match Worker `TRAINING_JWT_SECRET`). */
+const TRAINING_JWT_SECRET = WEBHOOK_SECRET;
+const TRAINING_JWT_LIFETIME_MS = 30 * 60 * 1000;           // 30 min
+
 /* ────────────────────────────────────────────────────────────────
    HTTP entry points.
    ──────────────────────────────────────────────────────────────── */
@@ -361,7 +365,8 @@ function validateCode(p) {
       ? sessionToken
       : issueSessionToken_(code, deviceId);
 
-    return {
+    const isBasis = planType === 'basis' || code.startsWith('BASIS');
+    const out = {
       ok: true,
       type: planType,
       months,
@@ -369,6 +374,14 @@ function validateCode(p) {
       sessionToken: tokenOut,
       sessionExpires: new Date(Date.now() + SESSION_LIFETIME_MS).toISOString(),
     };
+    if (!isBasis) {
+      out.trainingJwt = issueTrainingJwt_({
+        premium: true,
+        code: code,
+        deviceId: deviceId,
+      });
+    }
+    return out;
   }
   return { ok: false, error: 'Code nicht gefunden' };
 }
@@ -480,7 +493,7 @@ function validateMagicToken(p) {
 
     const ent = getEntitlementsForEmail_(email);
     const progress = readProgressRow_(email);
-    return {
+    const out = {
       ok: true,
       email,
       sessionToken: issueMagicSessionToken_(email, deviceId),
@@ -492,6 +505,10 @@ function validateMagicToken(p) {
       xpData: progress.xpJson,
       dailyGoalData: progress.dailyGoalJson,
     };
+    if (ent.isPremium) {
+      out.trainingJwt = issueTrainingJwt_({ premium: true, email: email });
+    }
+    return out;
   }
   return { ok: false, error: 'Link ungültig' };
 }
@@ -1017,13 +1034,55 @@ function refreshMagicSession_(body) {
   if (!sessionExpires) return { ok: false, error: 'Session abgelaufen' };
 
   const ent = getEntitlementsForEmail_(email);
-  return {
+  const out = {
     ok: true,
     sessionExpires,
     isPremium: ent.isPremium,
     premiumExpires: ent.premiumExpires,
     isBasis: ent.isBasis,
   };
+  if (ent.isPremium) {
+    out.trainingJwt = issueTrainingJwt_({ premium: true, email: email });
+  }
+  return out;
+}
+
+/**
+ * Base64url-encodes a string for JWT segments.
+ *
+ * @param {string} str
+ * @return {string}
+ */
+function base64UrlEncodeStr_(str) {
+  return Utilities.base64EncodeWebSafe(str).replace(/=+$/, '');
+}
+
+/**
+ * Base64url-encodes raw bytes for JWT signatures.
+ *
+ * @param {!Array<number>} bytes
+ * @return {string}
+ */
+function base64UrlEncodeBytes_(bytes) {
+  return Utilities.base64EncodeWebSafe(bytes).replace(/=+$/, '');
+}
+
+/**
+ * Issues a short-lived HMAC JWT for Premium training API access.
+ *
+ * @param {!Object} claims  Must include `{premium:true}` plus `email` or `code`.
+ * @return {string}
+ */
+function issueTrainingJwt_(claims) {
+  const header = base64UrlEncodeStr_(JSON.stringify({ alg: 'HS256', typ: 'JWT' }));
+  const payloadObj = Object.assign({}, claims, {
+    iat: Math.floor(Date.now() / 1000),
+    exp: Math.floor((Date.now() + TRAINING_JWT_LIFETIME_MS) / 1000),
+  });
+  const payload = base64UrlEncodeStr_(JSON.stringify(payloadObj));
+  const signingInput = header + '.' + payload;
+  const sigBytes = Utilities.computeHmacSha256Signature(signingInput, TRAINING_JWT_SECRET);
+  return signingInput + '.' + base64UrlEncodeBytes_(sigBytes);
 }
 
 /**
@@ -1046,7 +1105,11 @@ function verifyTrainingAccess_(body) {
     }
     const ent = getEntitlementsForEmail_(email);
     if (!ent.isPremium) return { ok: false, error: 'Premium erforderlich' };
-    return { ok: true, isPremium: true };
+    return {
+      ok: true,
+      isPremium: true,
+      trainingJwt: issueTrainingJwt_({ premium: true, email: email }),
+    };
   }
 
   if (code && sessionToken) {
@@ -1065,7 +1128,15 @@ function verifyTrainingAccess_(body) {
     if (codeRes.type === 'basis' || code.startsWith('BASIS')) {
       return { ok: false, error: 'Premium erforderlich' };
     }
-    return { ok: true, isPremium: true };
+    return {
+      ok: true,
+      isPremium: true,
+      trainingJwt: codeRes.trainingJwt || issueTrainingJwt_({
+        premium: true,
+        code: code,
+        deviceId: deviceId,
+      }),
+    };
   }
 
   return { ok: false, error: 'Nicht angemeldet' };

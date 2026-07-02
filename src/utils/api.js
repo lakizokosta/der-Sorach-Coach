@@ -13,6 +13,7 @@
 
 import { SCRIPT_URL } from '@/data/payment.js';
 import { getDeviceId } from '@/utils/deviceId.js';
+import { isPlausibleTrainingJwt } from '@/utils/trainingJwt.js';
 
 /** Captured in index.html before app bundle — not replaced by casual console fetch hooks. */
 const httpFetch = typeof window !== 'undefined' && window.__LZD_NATIVE_FETCH__
@@ -283,8 +284,10 @@ export function saveStreakByCode(code, streakData) {
  *   code?: string,
  *   email?: string,
  *   sessionToken?: string,
+ *   trainingJwt?: string,
+ *   onTrainingJwt?: (token: string) => void,
  * }} params
- * @return {Promise<{ok:boolean, questions?:!Array<!Object>, error?:string}>}
+ * @return {Promise<{ok:boolean, questions?:!Array<!Object>, trainingJwt?:string, error?:string}>}
  */
 export async function fetchQuestionsFromServer(params) {
   if (!hasBackend()) {
@@ -299,6 +302,7 @@ export async function fetchQuestionsFromServer(params) {
     email: String(params.email || '').trim().toLowerCase(),
     sessionToken: String(params.sessionToken || '').trim(),
     deviceId: getDeviceId(),
+    trainingJwt: String(params.trainingJwt || '').trim(),
   });
 
   try {
@@ -311,6 +315,9 @@ export async function fetchQuestionsFromServer(params) {
         ok: false,
         error: (data && data.error) || `Fehler (${res.status})`,
       };
+    }
+    if (data.trainingJwt && isPlausibleTrainingJwt(data.trainingJwt) && params.onTrainingJwt) {
+      params.onTrainingJwt(data.trainingJwt);
     }
     return data;
   } catch (err) {
