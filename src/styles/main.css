@@ -10,12 +10,19 @@
 *::before,
 *::after { box-sizing: border-box; }
 
+html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   text-align: center;
   background: #f5f6cf;
   color: #1a1a1a;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 a { color: inherit; }
@@ -65,11 +72,14 @@ button:not(:disabled):not(.logo-wrap) {
 
 /* ── Layout wrappers ────────────────────────────────────────────────────── */
 .app-shell {
+  width: 100%;
   max-width: 720px;
   margin: 0 auto;
   padding: calc(10px + env(safe-area-inset-top, 0px) + var(--locale-switcher-clearance)) 18px
     calc(20px + env(safe-area-inset-bottom, 0px)) 18px;
   min-height: 100vh;
+  min-width: 0;
+  overflow-x: clip;
 }
 .app-shell--landing {
   max-width: 980px;
@@ -80,11 +90,14 @@ button:not(:disabled):not(.logo-wrap) {
   max-width: 860px;
   margin: 0 auto;
   padding: 12px 18px 20px 18px;
+  min-width: 0;
 }
 .card {
   padding: 18px;
   border-radius: 20px;
   background: #fff;
+  max-width: 100%;
+  min-width: 0;
 }
 .premium-card {
   background: rgba(255, 255, 255, 0.78);
@@ -335,6 +348,9 @@ button:not(:disabled):not(.logo-wrap) {
   padding: 14px 16px;
   margin-bottom: 12px;
   border: 1px solid rgba(171, 77, 187, 0.15);
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
 }
 .premium-stats-card + .landing-niveau-block {
   margin-top: 0;
@@ -394,8 +410,8 @@ button:not(:disabled):not(.logo-wrap) {
 }
 .premium-stats-card__streak {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: stretch;
   gap: 10px;
   margin-top: 12px;
   padding-top: 12px;
@@ -403,11 +419,15 @@ button:not(:disabled):not(.logo-wrap) {
 }
 .premium-stats-card__streak-grid {
   display: flex;
-  gap: 14px;
-  flex: 1;
+  gap: 10px;
+  justify-content: space-around;
+  width: 100%;
+  min-width: 0;
 }
 .premium-stats-card__stat {
   text-align: center;
+  min-width: 0;
+  flex: 1 1 0;
 }
 .premium-stats-card__stat-num {
   display: block;
@@ -427,17 +447,50 @@ button:not(:disabled):not(.logo-wrap) {
   margin-top: 2px;
 }
 .premium-stats-card__medals {
-  font-size: 18px;
-  letter-spacing: 4px;
-  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  max-width: 100%;
 }
-@media (max-width: 420px) {
+.premium-stats-card__medals .small-note {
+  flex-shrink: 0;
+}
+@media (max-width: 480px) {
+  :root {
+    --locale-switcher-clearance: 2.5rem;
+  }
+  .app-shell {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .card {
+    padding: 14px;
+  }
   .premium-stats-card__top {
     flex-wrap: wrap;
   }
   .premium-stats-card__profile-btn {
     width: 100%;
     text-align: center;
+  }
+  .premium-level-tab {
+    font-size: 13px;
+    padding: 9px 4px;
+  }
+  .premium-level-tabs {
+    gap: 6px;
+  }
+  .premium-stats-card__stat-label {
+    font-size: 9px;
   }
 }
 .premium-hero-cta + .landing-niveau-block {
@@ -449,8 +502,11 @@ button:not(:disabled):not(.logo-wrap) {
 .premium-training {
   margin-top: 20px;
   padding-top: 18px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
   border-top: 1.5px solid rgba(171, 77, 187, 0.15);
   text-align: left;
+  min-width: 0;
+  max-width: 100%;
 }
 .premium-mode-switch {
   display: flex;
@@ -479,9 +535,11 @@ button:not(:disabled):not(.logo-wrap) {
 }
 .premium-level-tabs {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 8px;
   margin-bottom: 12px;
+  width: 100%;
+  min-width: 0;
 }
 .premium-level-tabs--sticky {
   position: sticky;
@@ -491,6 +549,7 @@ button:not(:disabled):not(.logo-wrap) {
   padding: 6px 0 10px;
   margin-bottom: 8px;
   box-shadow: 0 6px 12px rgba(255, 255, 255, 0.95);
+  max-width: 100%;
 }
 .premium-level-tab {
   border: none;
@@ -498,10 +557,11 @@ button:not(:disabled):not(.logo-wrap) {
   color: #7b2d8b;
   font-weight: 800;
   font-size: 15px;
-  padding: 10px 8px;
+  padding: 10px 6px;
   border-radius: 14px;
   cursor: pointer;
   transition: background 0.15s ease, box-shadow 0.15s ease;
+  min-width: 0;
 }
 .premium-level-tab--active {
   background: #ab4dbb;
@@ -510,7 +570,7 @@ button:not(:disabled):not(.logo-wrap) {
 }
 .premium-random-start {
   text-align: center;
-  padding: 8px 0 4px;
+  padding: 8px 0 calc(12px + env(safe-area-inset-bottom, 0px));
 }
 .premium-random-start__hint {
   margin: 0 0 12px;
@@ -1772,6 +1832,8 @@ button.lesen-gap-marker {
   .fab-stack {
     width: auto;
     align-items: flex-end;
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    right: calc(12px + env(safe-area-inset-right, 0px));
   }
   .app-fab {
     width: 44px;
@@ -2578,10 +2640,11 @@ button.lesen-gap-marker {
 }
 .activity-calendar__weekdays {
   display: grid;
-  grid-template-columns: repeat(7, 20px);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 4px;
-  justify-content: center;
-  margin-bottom: 4px;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto 4px;
   text-align: center;
   font-size: 10px;
   font-weight: 700;
@@ -2589,13 +2652,16 @@ button.lesen-gap-marker {
 }
 .activity-calendar__grid {
   display: grid;
-  grid-template-columns: repeat(7, 20px);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 4px;
-  justify-content: center;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
 }
 .activity-calendar__cell {
-  width: 20px;
-  height: 20px;
+  width: 100%;
+  aspect-ratio: 1;
+  height: auto;
   border-radius: 4px;
   background: #f0f0f0;
   border: 1px solid #e8e8e8;
