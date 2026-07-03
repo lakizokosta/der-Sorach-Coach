@@ -706,6 +706,40 @@ const ACTIVATION_CODE_SECURITY_TEXT =
   'Er ist persönlich und an dein Konto gebunden.\n\n';
 
 /**
+ * Outlook / Hotmail-safe CTA button (solid bgcolor, no CSS gradients).
+ *
+ * @param {string} label
+ * @param {string} link
+ * @return {string}
+ */
+function buildEmailCtaButtonHtml_(label, link) {
+  const safeLabel = escapeHtml_(label || '');
+  const safeLink = String(link || '');
+  if (!safeLabel || !safeLink) return '';
+
+  return `
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:8px auto 24px;">
+            <tr>
+              <td align="center" bgcolor="#AB4DBB" style="border-radius:999px;background-color:#AB4DBB;mso-padding-alt:16px 36px;">
+                <!--[if mso]>
+                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word"
+                  href="${safeLink}" style="height:48px;v-text-anchor:middle;width:260px;" arcsize="50%" stroke="f" fillcolor="#AB4DBB">
+                  <w:anchorlock/>
+                  <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">${safeLabel}</center>
+                </v:roundrect>
+                <![endif]-->
+                <!--[if !mso]><!-->
+                <a href="${safeLink}" target="_blank"
+                   style="display:inline-block;padding:16px 36px;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:900;line-height:1.2;color:#ffffff !important;text-decoration:none;border-radius:999px;background-color:#AB4DBB;border:2px solid #AB4DBB;">
+                  ${safeLabel}
+                </a>
+                <!--<![endif]-->
+              </td>
+            </tr>
+          </table>`;
+}
+
+/**
  * Builds a branded HTML e-mail shell shared by activation and
  * magic-link messages. Uses table layout for broad client support.
  *
@@ -750,16 +784,7 @@ function buildEmailHtml_(opts) {
           </table>` : '';
 
   const ctaBlock = (ctaLabel && ctaLink) ? `
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:8px 0 24px;">
-            <tr>
-              <td align="center">
-                <a href="${ctaLink}"
-                   style="background:linear-gradient(135deg,#AB4DBB 0%,#8f3ea3 100%);color:#ffffff;text-decoration:none;padding:16px 36px;border-radius:999px;font-weight:900;font-size:16px;display:inline-block;box-shadow:0 8px 20px rgba(171,77,187,0.35);">
-                  ${ctaLabel}
-                </a>
-              </td>
-            </tr>
-          </table>
+          ${buildEmailCtaButtonHtml_(ctaLabel, ctaLink)}
           <p style="font-size:13px;color:#666;line-height:1.6;margin:0 0 8px;text-align:center;">
             Funktioniert der Button nicht? Kopiere diese Adresse in deinen Browser:
           </p>
@@ -768,7 +793,7 @@ function buildEmailHtml_(opts) {
           </p>` : '';
 
   return `<!DOCTYPE html>
-<html lang="de">
+<html lang="de" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
 <body style="margin:0;padding:0;background:#f5f6cf;font-family:Arial,Helvetica,sans-serif;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f5f6cf;padding:32px 16px;">
