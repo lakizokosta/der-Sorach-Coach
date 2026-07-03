@@ -120,6 +120,41 @@ function applyEntitlementsFromServer(res) {
 }
 
 /**
+ * Persists activation codes returned with a magic-link session so
+ * bootstrap can re-validate via validateCode on the next app load.
+ *
+ * @param {{isPremium?:boolean, isBasis?:boolean, premiumCode?:string, basisCode?:string}} res
+ */
+function persistCodesFromMagicSession(res) {
+  const premiumCode = String(res.premiumCode || '').trim().toUpperCase();
+  const basisCode = String(res.basisCode || '').trim().toUpperCase();
+  if (res.isPremium && premiumCode) {
+    state.premiumCode = premiumCode;
+    state.basisCode = '';
+    persist();
+    return;
+  }
+  if (res.isBasis && basisCode) {
+    state.basisCode = basisCode;
+    state.premiumCode = '';
+    persist();
+  }
+}
+
+/**
+ * Applies entitlements from validateMagicToken / refreshMagicSession.
+ *
+ * @param {{isPremium?:boolean, isBasis?:boolean, premiumExpires?:string,
+ *   trainingJwt?:string, premiumCode?:string, basisCode?:string}} res
+ */
+export function applyMagicSessionEntitlements(res) {
+  if (!res) return;
+  applyEntitlementsFromServer(res);
+  if (res.trainingJwt) storeTrainingJwtFromServer(res.trainingJwt);
+  persistCodesFromMagicSession(res);
+}
+
+/**
  * @param {{expires?:string, type?:string}} res
  * @param {string} code
  */
@@ -302,10 +337,8 @@ async function refreshEntitlementsFromServer() {
     } else {
       const magicRes = await refreshMagicSession(auth.email, auth.sessionToken);
       if (magicRes && magicRes.ok) {
-        if (magicRes.isPremium && !requirePremiumTrainingJwt(magicRes)) {
-          logout();
-          clearEntitlements();
-          return { ok: false };
+        if (magicRes.isPremium && magicRes.trainingJwt) {
+          requirePremiumTrainingJwt(magicRes);
         }
         setSession({
           email: auth.email,
@@ -313,6 +346,7 @@ async function refreshEntitlementsFromServer() {
           sessionExpires: magicRes.sessionExpires,
         });
         applyEntitlementsFromServer(magicRes);
+        persistCodesFromMagicSession(magicRes);
         if (magicRes.trainingJwt) storeTrainingJwtFromServer(magicRes.trainingJwt);
         magicVerified = true;
       } else {
@@ -467,5 +501,6 @@ export function usePremium() {
     bootstrapEntitlements,
     verifyEntitlementsLive,
     revalidateOnLoad,
+    applyMagicSessionEntitlements,
   };
 }

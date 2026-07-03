@@ -30,7 +30,7 @@ import { STRIPE_SUCCESS_PARAM } from '@/data/payment.js';
 import { useI18n } from '@/i18n/index.js';
 import { hasBackend, validateMagicToken } from '@/utils/api.js';
 import { useAuth } from '@/composables/useAuth.js';
-import { activateCode, bootstrapEntitlements } from '@/composables/usePremium.js';
+import { activateCode, bootstrapEntitlements, applyMagicSessionEntitlements } from '@/composables/usePremium.js';
 import {
   applyServerProgress,
   pullProgressFromServer,
@@ -151,6 +151,7 @@ async function handleMagicToken() {
     sessionExpires: res.sessionExpires,
   });
   applyServerProgress(res.streakData, res.xpData, res.dailyGoalData);
+  applyMagicSessionEntitlements(res);
 
   let pendingCode = '';
   try {
@@ -172,6 +173,15 @@ async function handleMagicToken() {
       'error',
       5000,
     );
+    return;
+  }
+
+  if (res.isPremium) {
+    showToast(`✅ Willkommen, ${res.email}! Premium ist aktiv.`);
+    return;
+  }
+  if (res.isBasis) {
+    showToast(`✅ Willkommen, ${res.email}! Basis ist aktiv.`);
     return;
   }
 

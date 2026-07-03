@@ -206,7 +206,11 @@ function handleStripeWebhook_(rawBody) {
 
   const code = generateActivationCode_(planInfo.plan);
   saveActivationCode_(code, email, planInfo, 'stripe', event.id);
-  sendActivationEmail_(email, code, planInfo);
+  try {
+    sendActivationEmail_(email, code, planInfo);
+  } catch (mailErr) {
+    log('sendActivationEmail_stripe', String(mailErr && mailErr.message || mailErr));
+  }
 
   return { ok: true, code, plan: planInfo.plan, email };
 }
@@ -245,7 +249,11 @@ function handlePaypalIpn_(rawBody) {
 
   const code = generateActivationCode_(planInfo.plan);
   saveActivationCode_(code, email, planInfo, 'paypal', params.txn_id);
-  sendActivationEmail_(email, code, planInfo);
+  try {
+    sendActivationEmail_(email, code, planInfo);
+  } catch (mailErr) {
+    log('sendActivationEmail_paypal', String(mailErr && mailErr.message || mailErr));
+  }
 
   return { ok: true, code, plan: planInfo.plan, email };
 }
@@ -366,6 +374,11 @@ function validateCode(p) {
     if (String(row[0]).toUpperCase().trim() !== code) continue;
 
     try {
+      const rowEmail = String(row[1] || '').toLowerCase().trim();
+      if (email && !rowEmail) {
+        sheet.getRange(r + 1, 2).setValue(email);
+      }
+
       const usedAt = row[5];
       const usedBy = String(row[6] || '').trim();
       const hasUsedAt = usedAt !== null && usedAt !== undefined && usedAt !== '';
@@ -535,12 +548,18 @@ function validateMagicToken(p) {
       isPremium: ent.isPremium,
       premiumExpires: ent.premiumExpires,
       isBasis: ent.isBasis,
+      premiumCode: ent.premiumCode || '',
+      basisCode: ent.basisCode || '',
       streakData: progress.streakJson,
       xpData: progress.xpJson,
       dailyGoalData: progress.dailyGoalJson,
     };
     if (ent.isPremium) {
-      out.trainingJwt = issueTrainingJwt_({ premium: true, email: email });
+      try {
+        out.trainingJwt = issueTrainingJwt_({ premium: true, email: email });
+      } catch (jwtErr) {
+        log('issueTrainingJwt_magic', String(jwtErr && jwtErr.message || jwtErr));
+      }
     }
     return out;
   }
@@ -827,13 +846,19 @@ function sendActivationEmail_(email, code, planInfo) {
 function sendMagicLinkEmail_(email, token) {
   const link = `${APP_BASE_URL}/?mltoken=${encodeURIComponent(token)}`;
   const subject = '🔑 Dein SprachCoach Login-Link';
+  const hasPremium = hasActivePremium_(email);
+  const premiumNote = hasPremium
+    ? '<p style="margin:12px 0 0;line-height:1.6;font-size:15px;color:#444;">' +
+      'Dein <strong>Premium-Zugang</strong> wird nach dem Anmelden automatisch freigeschaltet.</p>'
+    : '';
 
   const html = buildEmailHtml_({
     headline: 'Dein Login-Link',
     introHtml:
       '<p style="margin:0;line-height:1.6;font-size:15px;color:#444;">' +
       'Klicke auf den Button, um dich beim SprachCoach anzumelden. ' +
-      'Der Link ist <strong>30 Minuten</strong> gültig und kann nur einmal benutzt werden.</p>',
+      'Der Link ist <strong>30 Minuten</strong> gültig und kann nur einmal benutzt werden.</p>' +
+      premiumNote,
     ctaLabel: '→ Jetzt anmelden',
     ctaLink: link,
     showManualHint: false,
@@ -935,14 +960,38 @@ function hasActivePremium_(email) {
 }
 
 /**
+ * Milliseconds when a subscription period started (safe parsing).
+ *
+ * @param {*} createdAt
+ * @param {*} usedAt
+ * @return {number}
+ */
+function entitlementIssuedMs_(createdAt, usedAt) {
+  const hasUsed = usedAt !== null && usedAt !== undefined && usedAt !== '';
+  if (hasUsed) {
+    const t = new Date(usedAt).getTime();
+    if (Number.isFinite(t)) return t;
+  }
+  const t = new Date(createdAt).getTime();
+  return Number.isFinite(t) ? t : Date.now();
+}
+
+/**
  * Resolves Premium / Basis entitlements tied to an e-mail address.
  *
  * @param {string} email
- * @return {{isPremium:boolean, premiumExpires:string, isBasis:boolean}}
+ * @return {{isPremium:boolean, premiumExpires:string, isBasis:boolean,
+ *   premiumCode:string, basisCode:string}}
  */
 function getEntitlementsForEmail_(email) {
   const norm = String(email || '').toLowerCase().trim();
-  const out = { isPremium: false, premiumExpires: '', isBasis: false };
+  const out = {
+    isPremium: false,
+    premiumExpires: '',
+    isBasis: false,
+    premiumCode: '',
+    basisCode: '',
+  };
   if (!norm) return out;
 
   const sheet = sheet_('Codes');
@@ -953,24 +1002,28 @@ function getEntitlementsForEmail_(email) {
     const row = data[r];
     if (String(row[1]).toLowerCase().trim() !== norm) continue;
 
+    const codeStr = String(row[0] || '').toUpperCase().trim();
     const plan = String(row[2] || '').toLowerCase();
     const months = Number(row[3]) || 0;
     const createdAt = row[4];
     const usedAt = row[5];
 
-    if (plan === 'basis') {
+    if (plan === 'basis' || codeStr.startsWith('BASIS')) {
       out.isBasis = true;
+      if (!out.basisCode) out.basisCode = codeStr;
       continue;
     }
 
     if (months > 0) {
-      const issued = usedAt ? new Date(usedAt).getTime() : new Date(createdAt).getTime();
+      const issued = entitlementIssuedMs_(createdAt, usedAt);
       const expires = issued + months * 30 * 24 * 60 * 60 * 1000;
-      if (expires > now) {
+      if (Number.isFinite(expires) && expires > now) {
         out.isPremium = true;
-        const iso = new Date(expires).toISOString().split('T')[0];
-        if (!out.premiumExpires || iso > out.premiumExpires) {
-          out.premiumExpires = iso;
+        const iso = safeIsoDate_(expires);
+        const isoDay = iso ? iso.split('T')[0] : '';
+        if (isoDay && (!out.premiumExpires || isoDay > out.premiumExpires)) {
+          out.premiumExpires = isoDay;
+          out.premiumCode = codeStr;
         }
       }
     }
@@ -1074,9 +1127,15 @@ function refreshMagicSession_(body) {
     isPremium: ent.isPremium,
     premiumExpires: ent.premiumExpires,
     isBasis: ent.isBasis,
+    premiumCode: ent.premiumCode || '',
+    basisCode: ent.basisCode || '',
   };
   if (ent.isPremium) {
-    out.trainingJwt = issueTrainingJwt_({ premium: true, email: email });
+    try {
+      out.trainingJwt = issueTrainingJwt_({ premium: true, email: email });
+    } catch (jwtErr) {
+      log('issueTrainingJwt_refresh', String(jwtErr && jwtErr.message || jwtErr));
+    }
   }
   return out;
 }
