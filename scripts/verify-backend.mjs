@@ -95,16 +95,17 @@ if (unknown.data?.error === 'Unknown action') {
   fail('GET unknown action', unknown.raw || JSON.stringify(unknown.data));
 }
 
-// 3. POST requestMagicLink
-const magic = await postJson({
-  requestMagicLink: true,
+// 3. GET requestMagicLink (SPA uses GET — iOS Safari POST hang workaround)
+const magic = await getJson({
+  action: 'requestMagicLink',
   email: 'p0-smoke+test@example.com',
   deviceId: 'p0-smoke-device',
+  _: String(Date.now()),
 });
 if (magic.data?.ok === true) {
-  pass('POST requestMagicLink', magic.data.message || 'ok');
+  pass('GET requestMagicLink', magic.data.message || 'ok');
 } else {
-  fail('POST requestMagicLink', magic.data?.error || magic.raw);
+  fail('GET requestMagicLink', magic.data?.error || magic.raw);
 }
 
 // 5. POST contactForm (sends real e-mail — use audit address)

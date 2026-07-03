@@ -329,19 +329,23 @@ async function submitMagicLink() {
   magicStatus.value = { text: t('login.sendingLink'), color: '#888' };
   saveString(USER_EMAIL_KEY, value);
 
-  const res = await requestMagicLink(value);
-  magicSubmitting.value = false;
-
-  if (res && res.ok) {
-    magicStatus.value = {
-      text: res.message || t('premium.magicLinkSent', { email: value }),
-      color: '#69c43b',
-    };
-  } else {
-    magicStatus.value = {
-      text: `✖ ${(res && res.error) || t('premium.magicLinkErr')}`,
-      color: '#ed4545',
-    };
+  try {
+    const res = await requestMagicLink(value);
+    if (res && res.ok) {
+      magicStatus.value = {
+        text: res.delayed
+          ? (res.message || t('login.linkSentDelayed', { email: value }))
+          : (res.message || t('premium.magicLinkSent', { email: value })),
+        color: '#69c43b',
+      };
+    } else {
+      magicStatus.value = {
+        text: `✖ ${(res && res.error) || t('premium.magicLinkErr')}`,
+        color: '#ed4545',
+      };
+    }
+  } finally {
+    magicSubmitting.value = false;
   }
 }
 

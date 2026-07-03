@@ -141,6 +141,8 @@ export default {
       'Gerätelimit erreicht (max. {maxDevices}). Melde dich auf einem registrierten Gerät an oder kontaktiere den Support.',
     sendingLink: 'Link wird gesendet…',
     linkSent: '✔ Link gesendet! Öffne dein Postfach ({email}) und tippe auf den Link.',
+    linkSentDelayed:
+      '✔ Link vermutlich gesendet — prüfe dein Postfach ({email}). Die Bestätigung vom Server kam verzögert.',
     errGeneric: 'Fehler. Bitte versuche es erneut.',
     errEnterCode: '✖ Bitte Code eingeben.',
     activating: 'Wird aktiviert…',

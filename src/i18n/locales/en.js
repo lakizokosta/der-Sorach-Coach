@@ -141,6 +141,8 @@ export default {
       'Device limit reached (max. {maxDevices}). Sign in on a registered device or contact support.',
     sendingLink: 'Sending link…',
     linkSent: '✔ Link sent! Open your inbox ({email}) and tap the link.',
+    linkSentDelayed:
+      '✔ Link likely sent — check your inbox ({email}). Server confirmation was delayed.',
     errGeneric: 'Error. Please try again.',
     errEnterCode: '✖ Please enter a code.',
     activating: 'Activating…',

@@ -113,6 +113,7 @@ function doGet(e) {
     switch (action) {
       case 'validateCode':       return json(validateCode(e.parameter));
       case 'validateMagicToken': return json(validateMagicToken(e.parameter));
+      case 'requestMagicLink':   return json(requestMagicLink(e.parameter));
       default:                   return json({ ok: false, error: 'Unknown action' });
     }
   } catch (err) {

@@ -79,13 +79,23 @@ function networkFailure(err) {
  * Performs a GET against the Apps Script Web App.
  *
  * @param {Object<string, string>} params  Query-string parameters.
+ * @param {{ timeoutMs?: number }} [options]
  * @return {Promise<Object>} The JSON response or `{ok:false,error}`.
  */
-async function getJson(params) {
+async function getJson(params, options = {}) {
   if (!hasBackend()) return { ok: false, error: 'Kein Backend konfiguriert' };
   const qs = new URLSearchParams(params).toString();
+  const timeoutMs = Number(options.timeoutMs) || 0;
+  const controller = timeoutMs > 0 ? new AbortController() : null;
+  const timer = controller
+    ? setTimeout(() => controller.abort(), timeoutMs)
+    : null;
   try {
-    const res = await httpFetch(`${SCRIPT_URL}?${qs}`, { method: 'GET' });
+    const res = await httpFetch(`${SCRIPT_URL}?${qs}`, {
+      method: 'GET',
+      cache: 'no-store',
+      signal: controller ? controller.signal : undefined,
+    });
     const text = await res.text();
     const fail = httpFailure(res, text);
     if (fail) return fail;
@@ -96,7 +106,12 @@ async function getJson(params) {
       return { ok: false, error: 'Ungültige Backend-Antwort (kein JSON)' };
     }
   } catch (err) {
+    if (controller && controller.signal.aborted) {
+      return { ok: false, error: 'Zeitüberschreitung', timedOut: true };
+    }
     return networkFailure(err);
+  } finally {
+    if (timer) clearTimeout(timer);
   }
 }
 
@@ -178,15 +193,31 @@ export function validateMagicToken(token) {
  * Requests a magic-link login email. Rate-limited server-side to 3
  * requests per 10 minutes per e-mail.
  *
+ * Uses GET (not POST) because iOS Safari often never receives the JSON
+ * response after a GAS POST redirect, even when MailApp already sent
+ * the e-mail.
+ *
  * @param {string} email  Destination address.
- * @return {Promise<{ok:boolean, message?:string, error?:string}>}
+ * @return {Promise<{ok:boolean, message?:string, error?:string, delayed?:boolean}>}
  */
-export function requestMagicLink(email) {
-  return postJson({
-    requestMagicLink: true,
+export async function requestMagicLink(email) {
+  const res = await getJson({
+    action: 'requestMagicLink',
     email: String(email || '').trim().toLowerCase(),
     deviceId: getDeviceId(),
-  });
+    _: String(Date.now()),
+  }, { timeoutMs: 35000 });
+
+  if (res && res.timedOut) {
+    return {
+      ok: true,
+      delayed: true,
+      message:
+        'Der Link wurde vermutlich gesendet — prüfe dein Postfach. ' +
+        '(Server-Antwort verzögert.)',
+    };
+  }
+  return res;
 }
 
 /**
