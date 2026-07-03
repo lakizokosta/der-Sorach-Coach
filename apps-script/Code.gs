@@ -374,21 +374,28 @@ function validateCode(p) {
     if (String(row[0]).toUpperCase().trim() !== code) continue;
 
     try {
-      const rowEmail = String(row[1] || '').toLowerCase().trim();
-      if (email && !rowEmail) {
-        sheet.getRange(r + 1, 2).setValue(email);
+      const parsed = parseCodesRow_(row);
+      const rowNum = r + 1;
+
+      if (email && !parsed.email) {
+        const emailCol = parsed.legacy ? 6 : 2;
+        sheet.getRange(rowNum, emailCol).setValue(email);
+        parsed.email = email;
       }
 
-      const usedAt = row[5];
-      const usedBy = String(row[6] || '').trim();
-      const hasUsedAt = usedAt !== null && usedAt !== undefined && usedAt !== '';
+      const usedBy = parsed.usedBy;
+      const hasUsed = parsed.legacy
+        ? Boolean(usedBy)
+        : parsed.usedAt !== null && parsed.usedAt !== undefined && parsed.usedAt !== '';
 
-      if (hasUsedAt && usedBy && deviceId && usedBy !== deviceId) {
-        return { ok: false, error: 'Code wurde auf einem anderen Gerät verwendet.' };
+      if (hasUsed && usedBy && deviceId && usedBy !== deviceId) {
+        if (!(parsed.legacy && isLegacyDevicePlaceholder_(usedBy))) {
+          return { ok: false, error: 'Code wurde auf einem anderen Gerät verwendet.' };
+        }
       }
 
       var tokenOut = '';
-      if (hasUsedAt) {
+      if (hasUsed) {
         if (verifySessionToken_(code, deviceId, sessionToken)) {
           tokenOut = sessionToken;
         } else if (!usedBy || !deviceId || usedBy === deviceId) {
@@ -397,19 +404,21 @@ function validateCode(p) {
           return { ok: false, error: 'Session abgelaufen — bitte Code erneut aktivieren.' };
         }
       } else {
-        sheet.getRange(r + 1, 6).setValue(new Date());
-        sheet.getRange(r + 1, 7).setValue(deviceId);
+        if (parsed.legacy) {
+          sheet.getRange(rowNum, 5).setValue(deviceId || 'activated');
+        } else {
+          sheet.getRange(rowNum, 6).setValue(new Date());
+          sheet.getRange(rowNum, 7).setValue(deviceId);
+        }
         tokenOut = issueSessionToken_(code, deviceId);
       }
 
-      const months = Number(row[3]) || 0;
-      const planType = String(row[2] || '');
-      const isBasis = planType === 'basis' || code.startsWith('BASIS');
+      const isBasis = parsed.plan === 'basis' || code.indexOf('BASIS') === 0;
       const out = {
         ok: true,
-        type: planType,
-        months: months,
-        expires: codeExpiresIso_(hasUsedAt ? usedAt : null, months),
+        type: parsed.plan,
+        months: parsed.months,
+        expires: codeExpiresFromParsed_(parsed, hasUsed ? parsed.usedAt : null),
         sessionToken: tokenOut,
         sessionExpires: safeIsoDate_(Date.now() + SESSION_LIFETIME_MS),
       };
@@ -1024,6 +1033,127 @@ function emailsMatchForLookup_(a, b) {
 }
 
 /**
+ * Detects the manual Codes sheet layout:
+ * CODE | PLAN | EXPIRES | ACTIVE | DEVICE_ID | EMAIL
+ *
+ * @param {!Array<*>} row
+ * @return {boolean}
+ */
+function isLegacyCodesRow_(row) {
+  const col1 = String(row[1] || '').trim();
+  const col5 = String(row[5] || '').trim();
+  return col5.indexOf('@') >= 0 && col1.indexOf('@') < 0;
+}
+
+/**
+ * @param {string} plan
+ * @return {number}
+ */
+function planStringToMonths_(plan) {
+  const p = String(plan || '').toLowerCase().trim();
+  if (p === 'basis') return 0;
+  if (p === '1month') return 1;
+  if (p === '3months') return 3;
+  if (p === '12months') return 12;
+  const m = p.match(/^(\d+)month/);
+  return m ? Number(m[1]) : 0;
+}
+
+/**
+ * Normalizes one Codes sheet row (standard or legacy layout).
+ *
+ * @param {!Array<*>} row
+ * @return {!Object}
+ */
+function parseCodesRow_(row) {
+  if (isLegacyCodesRow_(row)) {
+    const plan = String(row[1] || '').toLowerCase().trim();
+    const expiresMs = row[2] ? new Date(row[2]).getTime() : NaN;
+    const active = row[3] === true || String(row[3]).toUpperCase() === 'TRUE';
+    return {
+      legacy: true,
+      code: String(row[0] || '').toUpperCase().trim(),
+      email: String(row[5] || '').toLowerCase().trim(),
+      plan: plan,
+      months: planStringToMonths_(plan),
+      expiresMs: Number.isFinite(expiresMs) ? expiresMs : 0,
+      active: active,
+      usedBy: String(row[4] || '').trim(),
+      usedAt: null,
+      createdAt: row[2],
+    };
+  }
+  return {
+    legacy: false,
+    code: String(row[0] || '').toUpperCase().trim(),
+    email: String(row[1] || '').toLowerCase().trim(),
+    plan: String(row[2] || '').toLowerCase().trim(),
+    months: Number(row[3]) || 0,
+    createdAt: row[4],
+    usedAt: row[5],
+    usedBy: String(row[6] || '').trim(),
+    active: true,
+    expiresMs: 0,
+  };
+}
+
+/**
+ * @param {!Object} parsed
+ * @param {number} now
+ * @return {boolean}
+ */
+function codeEntitlementActive_(parsed, now) {
+  if (parsed.plan === 'basis' || parsed.code.indexOf('BASIS') === 0) {
+    return parsed.active !== false;
+  }
+  if (parsed.legacy) {
+    if (parsed.active === false) return false;
+    if (parsed.expiresMs && parsed.expiresMs > now) return true;
+    if (parsed.months > 0 && parsed.createdAt) {
+      const issued = new Date(parsed.createdAt).getTime();
+      if (Number.isFinite(issued)) {
+        return issued + parsed.months * 30 * 24 * 60 * 60 * 1000 > now;
+      }
+    }
+    return false;
+  }
+  if (parsed.months <= 0) return false;
+  const issued = entitlementIssuedMs_(parsed.createdAt, parsed.usedAt);
+  return issued + parsed.months * 30 * 24 * 60 * 60 * 1000 > now;
+}
+
+/**
+ * @param {!Object} parsed
+ * @param {*} usedAt
+ * @return {string}
+ */
+function codeExpiresFromParsed_(parsed, usedAt) {
+  if (parsed.legacy && parsed.expiresMs) {
+    const iso = safeIsoDate_(parsed.expiresMs);
+    return iso ? iso.split('T')[0] : '';
+  }
+  return normalizeExpiryDateFromIso_(codeExpiresIso_(usedAt, parsed.months));
+}
+
+/**
+ * @param {string|null|undefined} iso
+ * @return {string}
+ */
+function normalizeExpiryDateFromIso_(iso) {
+  if (!iso) return '';
+  return String(iso).split('T')[0];
+}
+
+/**
+ * @param {string} value
+ * @return {boolean}
+ */
+function isLegacyDevicePlaceholder_(value) {
+  const v = String(value || '').trim().toLowerCase();
+  return !v || v === 'trial' || v === 'test';
+}
+
+/**
  * Resolves Premium / Basis entitlements tied to an e-mail address.
  *
  * @param {string} email
@@ -1047,31 +1177,26 @@ function getEntitlementsForEmail_(email) {
 
   for (let r = 1; r < data.length; r++) {
     const row = data[r];
-    if (!emailsMatchForLookup_(row[1], norm)) continue;
+    const parsed = parseCodesRow_(row);
+    if (!emailsMatchForLookup_(parsed.email, norm)) continue;
 
-    const codeStr = String(row[0] || '').toUpperCase().trim();
-    const plan = String(row[2] || '').toLowerCase();
-    const months = Number(row[3]) || 0;
-    const createdAt = row[4];
-    const usedAt = row[5];
-
-    if (plan === 'basis' || codeStr.startsWith('BASIS')) {
+    const codeStr = parsed.code;
+    if (parsed.plan === 'basis' || codeStr.indexOf('BASIS') === 0) {
       out.isBasis = true;
       if (!out.basisCode) out.basisCode = codeStr;
       continue;
     }
 
-    if (months > 0) {
-      const issued = entitlementIssuedMs_(createdAt, usedAt);
-      const expires = issued + months * 30 * 24 * 60 * 60 * 1000;
-      if (Number.isFinite(expires) && expires > now) {
-        out.isPremium = true;
-        const iso = safeIsoDate_(expires);
-        const isoDay = iso ? iso.split('T')[0] : '';
-        if (isoDay && (!out.premiumExpires || isoDay > out.premiumExpires)) {
-          out.premiumExpires = isoDay;
-          out.premiumCode = codeStr;
-        }
+    if (codeEntitlementActive_(parsed, now)) {
+      out.isPremium = true;
+      const isoDay = normalizeExpiryDateFromIso_(
+        parsed.legacy && parsed.expiresMs
+          ? safeIsoDate_(parsed.expiresMs)
+          : codeExpiresIso_(parsed.usedAt, parsed.months),
+      );
+      if (isoDay && (!out.premiumExpires || isoDay > out.premiumExpires)) {
+        out.premiumExpires = isoDay;
+        out.premiumCode = codeStr;
       }
     }
   }
