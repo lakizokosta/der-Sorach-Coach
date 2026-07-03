@@ -22,10 +22,12 @@ import { useCefrLevel } from '@/composables/useCefrLevel.js';
 import { useNickname } from '@/composables/useNickname.js';
 import { SHARE_FORMAT } from '@/utils/shareCard.js';
 import { placementBreakdown } from '@/utils/placementTest.js';
+import { useI18n } from '@/i18n/index.js';
 
 const router = useRouter();
+const { t } = useI18n();
 const { isPremium } = usePremium();
-const { isLoggedIn } = useAuth();
+const { state: auth, isLoggedIn, logout } = useAuth();
 const { state: xp, level: liveLevel } = useXp();
 const { state: streak, medalsFor } = useStreak();
 const activeDaysCount = computed(() => (streak.activeDays || []).length);
@@ -64,6 +66,11 @@ function shareCard() {
     format: shareFormat.value,
   });
 }
+
+function signOut() {
+  logout();
+  window.location.reload();
+}
 </script>
 
 <template>
@@ -78,7 +85,16 @@ function shareCard() {
         </div>
 
         <div
-          v-if="!isLoggedIn"
+          v-if="isLoggedIn"
+          class="profile-account"
+        >
+          <span class="profile-account__email">👤 {{ auth.email }}</span>
+          <button type="button" class="profile-account__signout" @click="signOut">
+            {{ t('common.signOut') }}
+          </button>
+        </div>
+        <div
+          v-else
           class="profile-free__login-hint"
         >
           📱 <router-link :to="{ name: 'landing' }">Auf der Startseite einloggen</router-link>,
@@ -176,6 +192,12 @@ function shareCard() {
       <div class="card premium-card profile-premium">
         <header class="profile-premium__head">
           <h1 class="profile-premium__title">🏅 Mein Profil</h1>
+          <div v-if="isLoggedIn" class="profile-account profile-account--premium">
+            <span class="profile-account__email">👤 {{ auth.email }}</span>
+            <button type="button" class="profile-account__signout" @click="signOut">
+              {{ t('common.signOut') }}
+            </button>
+          </div>
         </header>
 
         <!-- XP + Level -->
