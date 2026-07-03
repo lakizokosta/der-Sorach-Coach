@@ -6,7 +6,8 @@
  * codes in localStorage are identifiers for re-validation — not proof
  * of access. Fail-closed: any server error clears forged local state.
  *
- * Demo mode (`SCRIPT_URL` empty) falls back to local prefix activation.
+ * Demo mode (`SCRIPT_URL` empty, dev only) falls back to local prefix activation.
+ * Stripped from production builds via `import.meta.env.DEV`.
  */
 
 import { reactive, computed } from 'vue';
@@ -215,6 +216,9 @@ export async function activateCode(rawCode, email = '') {
   if (!code) return { ok: false, type: null, error: 'Bitte Code eingeben.' };
 
   if (!hasBackend()) {
+    if (!import.meta.env.DEV) {
+      return { ok: false, type: null, error: 'Kein Backend konfiguriert.' };
+    }
     const local = activateLocally(code);
     if (local.ok) entitlements.ready = true;
     return local;
@@ -283,7 +287,9 @@ async function refreshEntitlementsFromServer() {
   clearEntitlements();
 
   if (!hasBackend()) {
-    applyDemoEntitlementsFromLocal();
+    if (import.meta.env.DEV) {
+      applyDemoEntitlementsFromLocal();
+    }
     return { ok: true };
   }
 
@@ -435,7 +441,7 @@ const isPremium = computed(() => {
     if (!entitlements.ready) return false;
     return entitlements.isPremium;
   }
-  return entitlements.isPremium;
+  return import.meta.env.DEV && entitlements.isPremium;
 });
 
 const isBasis = computed(() => {
@@ -443,7 +449,7 @@ const isBasis = computed(() => {
     if (!entitlements.ready) return false;
     return entitlements.isBasis;
   }
-  return entitlements.isBasis;
+  return import.meta.env.DEV && entitlements.isBasis;
 });
 
 const entitlementsReady = computed(() => entitlements.ready);

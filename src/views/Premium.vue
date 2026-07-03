@@ -65,6 +65,7 @@ const USER_EMAIL_KEY = 'userEmail';
 const PREMIUM_LEVELS = ['A1', 'A2', 'B1', 'B2'];
 const PENDING_CODE_KEY = 'pendingActivationCode';
 const backendOn = hasBackend();
+const isDev = import.meta.env.DEV;
 
 const activeLevel = ref('A1');
 const trainingMode = ref('random');
@@ -759,9 +760,9 @@ function topicMastered(key) {
             </div>
           </section>
 
-          <!-- Demo mode: no backend -->
+          <!-- Dev only: local demo activator when SCRIPT_URL is empty -->
           <div
-            v-else-if="!backendOn"
+            v-else-if="!backendOn && isDev"
             style="
               background: #f9f9f9;
               border-radius: 16px;

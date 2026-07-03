@@ -173,6 +173,7 @@ export default {
     sentDemo: '✔ Message sent (demo).',
     sentOk: '✔ Message sent. Thank you!',
     errSend: 'Sending failed.',
+    errBackend: 'Contact form is currently unavailable. Please try again later.',
   },
   premium: {
     title: 'Der SprachCoach',

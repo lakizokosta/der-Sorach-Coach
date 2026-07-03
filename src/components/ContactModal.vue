@@ -33,6 +33,11 @@ async function submit() {
   if (trimmedEmail) saveString(USER_EMAIL_KEY, trimmedEmail);
 
   if (!hasBackend()) {
+    if (!import.meta.env.DEV) {
+      status.value = { text: t('contact.errBackend'), color: '#ed4545' };
+      submitting.value = false;
+      return;
+    }
     setTimeout(() => {
       status.value = { text: t('contact.sentDemo'), color: '#69c43b' };
       finishAndClose();

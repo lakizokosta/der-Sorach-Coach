@@ -173,6 +173,7 @@ export default {
     sentDemo: '✔ Сообщение отправлено (демо).',
     sentOk: '✔ Сообщение отправлено. Спасибо!',
     errSend: 'Не удалось отправить.',
+    errBackend: 'Форма контакта сейчас недоступна. Попробуй позже.',
   },
   premium: {
     title: 'Der SprachCoach',
