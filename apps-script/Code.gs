@@ -684,6 +684,18 @@ function sendContactForm(body) {
    E-mail templates.
    ──────────────────────────────────────────────────────────────── */
 
+/** Shown in every post-purchase activation e-mail (HTML fragment). */
+const ACTIVATION_CODE_SECURITY_HTML =
+  '<p style="margin:16px 0 0;padding:12px 14px;background:#fff3e0;border:1.5px solid #ffb74d;' +
+  'border-radius:12px;line-height:1.55;font-size:14px;color:#5d4037;text-align:left;">' +
+  '<strong>⚠️ Wichtig:</strong> Bewahre diesen Code sicher auf und gib ihn ' +
+  '<strong>niemandem</strong> weiter. Er ist persönlich und an dein Konto gebunden.</p>';
+
+/** Plain-text counterpart for the activation-code security notice. */
+const ACTIVATION_CODE_SECURITY_TEXT =
+  'WICHTIG: Bewahre diesen Code sicher auf und gib ihn niemandem weiter. ' +
+  'Er ist persönlich und an dein Konto gebunden.\n\n';
+
 /**
  * Builds a branded HTML e-mail shell shared by activation and
  * magic-link messages. Uses table layout for broad client support.
@@ -697,11 +709,13 @@ function sendContactForm(body) {
  * @param {string} [opts.ctaLink]    Button href.
  * @param {string} [opts.footerNote] Small print below the card.
  * @param {boolean} [opts.showManualHint] Show “enter code manually” hint.
+ * @param {string} [opts.afterCodeHtml] Optional HTML block after the code box.
  * @return {string} Complete HTML body.
  */
 function buildEmailHtml_(opts) {
   const headline = escapeHtml_(opts.headline || '');
   const introHtml = opts.introHtml || '';
+  const afterCodeHtml = opts.afterCodeHtml || '';
   const codeLabel = escapeHtml_(opts.codeLabel || '');
   const code = escapeHtml_(opts.code || '');
   const ctaLabel = escapeHtml_(opts.ctaLabel || '');
@@ -772,6 +786,7 @@ function buildEmailHtml_(opts) {
               </h1>
               ${introHtml}
               ${codeBlock}
+              ${afterCodeHtml}
               ${ctaBlock}
               ${showManualHint ? `
               <p style="font-size:13px;color:#555;line-height:1.6;margin:0 0 6px;">
@@ -822,6 +837,7 @@ function sendActivationEmail_(email, code, planInfo) {
       `ist freigeschaltet. Dein persönlicher Code ist bereit.</p>`,
     codeLabel: 'Dein Aktivierungscode',
     code,
+    afterCodeHtml: ACTIVATION_CODE_SECURITY_HTML,
     ctaLabel: '→ Jetzt aktivieren',
     ctaLink: link,
     footerNote: 'Bei Problemen antworte einfach auf diese E-Mail — wir helfen dir gerne.',
@@ -831,6 +847,7 @@ function sendActivationEmail_(email, code, planInfo) {
     `Willkommen beim SprachCoach!\n\n` +
     `${planInfo.label} ist freigeschaltet.\n\n` +
     `Aktivierungscode: ${code}\n\n` +
+    ACTIVATION_CODE_SECURITY_TEXT +
     `Direkt aktivieren:\n${link}\n\n` +
     `Oder gib den Code manuell in der App ein: ${APP_BASE_URL}\n`;
 
@@ -977,6 +994,36 @@ function entitlementIssuedMs_(createdAt, usedAt) {
 }
 
 /**
+ * Normalizes e-mail for purchase ↔ login matching (Gmail dots/plus aliases).
+ *
+ * @param {string} email
+ * @return {string}
+ */
+function normalizeEmailForLookup_(email) {
+  const raw = String(email || '').toLowerCase().trim();
+  const at = raw.lastIndexOf('@');
+  if (at <= 0) return raw;
+  let local = raw.slice(0, at);
+  let domain = raw.slice(at + 1);
+  if (domain === 'googlemail.com') domain = 'gmail.com';
+  if (domain === 'gmail.com') {
+    local = local.split('+')[0].replace(/\./g, '');
+  }
+  return local + '@' + domain;
+}
+
+/**
+ * @param {string} a
+ * @param {string} b
+ * @return {boolean}
+ */
+function emailsMatchForLookup_(a, b) {
+  const na = normalizeEmailForLookup_(a);
+  const nb = normalizeEmailForLookup_(b);
+  return Boolean(na && nb && na === nb);
+}
+
+/**
  * Resolves Premium / Basis entitlements tied to an e-mail address.
  *
  * @param {string} email
@@ -1000,7 +1047,7 @@ function getEntitlementsForEmail_(email) {
 
   for (let r = 1; r < data.length; r++) {
     const row = data[r];
-    if (String(row[1]).toLowerCase().trim() !== norm) continue;
+    if (!emailsMatchForLookup_(row[1], norm)) continue;
 
     const codeStr = String(row[0] || '').toUpperCase().trim();
     const plan = String(row[2] || '').toLowerCase();
