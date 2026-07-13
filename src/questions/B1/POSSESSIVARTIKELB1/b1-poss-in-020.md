@@ -1,8 +1,11 @@
 ---
 id: b1-poss-in-020
 type: input-text
+hint: Possessivartikel — er, Dat./Gen.
 correct:
   - seiner
 ---
 
-Trotz ___ geringen Erfahrung bekommt er die Stelle. (Possessivartikel — er, Dat./Gen.)
+Ergänze den Possessivartikel:
+
+Trotz ___ geringen Erfahrung bekommt er die Stelle.

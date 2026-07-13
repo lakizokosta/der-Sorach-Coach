@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-003
 type: input-text
+hint: Dativ — der Lehrer, Dat.
 correct:
   - dem
 ---
 
-Ich danke ___ Lehrer. (Dativ — der Lehrer, Dat.)
+Ergänze die Dativform:
+
+Ich danke ___ Lehrer.

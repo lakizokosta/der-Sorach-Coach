@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-029
 type: input-text
+hint: Indirekte Rede + Verb werden
 correct:
   - werde
 ---
 
-Er sagte, er ___ morgen früher kommen. (Indirekte Rede + Verb werden)
+Ergänze die Form (Indirekte Rede):
+
+Er sagte, er ___ morgen früher kommen.

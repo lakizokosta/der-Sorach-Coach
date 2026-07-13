@@ -1,8 +1,11 @@
 ---
 id: b1-neg-in-040
 type: input-text
+hint: Verneinung — kein / keine / nicht / nie
 correct:
   - nicht
 ---
 
-Er ist ___ krank, sondern müde. (Verneinung — kein / keine / nicht / nie)
+Ergänze die Verneinung:
+
+Er ist ___ krank, sondern müde.

@@ -1,8 +1,11 @@
 ---
 id: b1-poss-in-034
 type: input-text
+hint: Possessivartikel — wir, Nom.
 correct:
   - unser
 ---
 
-Wir feiern ___ zehnjähriges Firmenjubiläum. (Possessivartikel — wir, Nom.)
+Ergänze den Possessivartikel:
+
+Wir feiern ___ zehnjähriges Firmenjubiläum.

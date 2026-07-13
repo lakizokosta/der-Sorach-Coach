@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-045
 type: input-text
+hint: Präsens + Verb aufstehen
 correct:
   - Stehst
 ---
 
-___ du früh auf? (Präsens + Verb aufstehen)
+Ergänze die Präsensform des Verbs:
+
+___ du früh auf?

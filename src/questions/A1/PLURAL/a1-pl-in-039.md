@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-039
 type: input-text
+hint: Plural: Monat
 correct:
   - Monate
 ---
 
-Im Sommer habe ich zwei freie ___. (Plural: Monat)
+Ergänze die Pluralform:
+
+Im Sommer habe ich zwei freie ___.

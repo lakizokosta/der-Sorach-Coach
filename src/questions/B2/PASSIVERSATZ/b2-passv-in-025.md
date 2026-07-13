@@ -1,8 +1,11 @@
 ---
 id: b2-passv-in-025
 type: input-text
+hint: Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten
 correct:
   - beantworten
 ---
 
-Diese Frage ist nicht zu ___ . (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)
+Ergänze die Passiv-Ersatzform:
+
+Diese Frage ist nicht zu ___ .

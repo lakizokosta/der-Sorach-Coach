@@ -1,8 +1,11 @@
 ---
 id: b1-pradv-in-045
 type: input-text
+hint: Pronominaladverb — Präp. von
 correct:
   - davon
 ---
 
-Was hältst du von dem Vorschlag? — Ich halte nichts ___. (Pronominaladverb — Präp. von)
+Ergänze das Pronominaladverb:
+
+Was hältst du von dem Vorschlag? — Ich halte nichts ___.

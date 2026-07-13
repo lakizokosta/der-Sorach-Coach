@@ -1,8 +1,11 @@
 ---
 id: b1-perf-in-047
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - sind
 ---
 
-Wir ___ pünktlich am Flughafen angekommen. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Wir ___ pünktlich am Flughafen angekommen.

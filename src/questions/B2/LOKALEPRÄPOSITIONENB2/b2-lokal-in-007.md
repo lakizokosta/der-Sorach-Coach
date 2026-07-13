@@ -1,8 +1,11 @@
 ---
 id: b2-lokal-in-007
 type: input-text
+hint: Lokale Präposition — am / beim / im / zum
 correct:
   - am
 ---
 
-Die Fabrik steht ___ Flussufer. (Lokale Präposition — am / beim / im / zum)
+Ergänze die Lokalpräposition:
+
+Die Fabrik steht ___ Flussufer.

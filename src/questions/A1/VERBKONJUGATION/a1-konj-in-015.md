@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-015
 type: input-text
+hint: Präsens + Verb spielen
 correct:
   - spielt
 ---
 
-Ihr ___ Computerspiele. (Präsens + Verb spielen)
+Ergänze die Präsensform des Verbs:
+
+Ihr ___ Computerspiele.

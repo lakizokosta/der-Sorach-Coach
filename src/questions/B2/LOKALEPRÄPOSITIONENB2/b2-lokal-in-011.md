@@ -1,8 +1,11 @@
 ---
 id: b2-lokal-in-011
 type: input-text
+hint: Lokale Präposition — an dem / auf dem / in dem / zum
 correct:
   - auf dem
 ---
 
-Die Kinder spielen ___ Hof. (Lokale Präposition — an dem / auf dem / in dem / zum)
+Ergänze die Lokalpräposition:
+
+Die Kinder spielen ___ Hof.

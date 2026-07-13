@@ -1,8 +1,11 @@
 ---
 id: b2-kadv-in-022
 type: input-text
+hint: Konjunktionaladverb — außerdem / dennoch / deshalb / trotzdem
 correct:
   - außerdem
 ---
 
-Er spricht drei Sprachen; ___ spielt er Klavier. (Konjunktionaladverb — außerdem / dennoch / deshalb / trotzdem)
+Ergänze das Konjunktionaladverb:
+
+Er spricht drei Sprachen; ___ spielt er Klavier.

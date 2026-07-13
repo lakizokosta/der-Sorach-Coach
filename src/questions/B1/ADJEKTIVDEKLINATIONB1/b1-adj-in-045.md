@@ -1,8 +1,11 @@
 ---
 id: b1-adj-in-045
 type: input-text
+hint: Adjektivdeklination — klein, neutr., Dat.
 correct:
   - kleinem
 ---
 
-Sie reist mit ___ Gepäck nach Italien. (Adjektivdeklination — klein, neutr., Dat.)
+Ergänze die Adjektivendung:
+
+Sie reist mit ___ Gepäck nach Italien.

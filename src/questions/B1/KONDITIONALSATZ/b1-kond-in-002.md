@@ -1,6 +1,7 @@
 ---
 id: b1-kond-in-002
 type: input-text
+hint: Konditionalsatz — wenn/falls
 correct:
   - wenn
   - Wenn
@@ -8,4 +9,6 @@ correct:
   - Falls
 ---
 
-___ es regnet, nehmen wir einen Schirm mit. (Konditionalsatz — wenn/falls)
+Ergänze die Konjunktion (Konditional):
+
+___ es regnet, nehmen wir einen Schirm mit.

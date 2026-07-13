@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-019
 type: input-text
+hint: Pronominaladverb — frühe / früher / frühes / frühest
 correct:
   - früher
 ---
 
-Ich denke oft daran, wie es ___ war. (Pronominaladverb — frühe / früher / frühes / frühest)
+Ergänze das Pronominaladverb:
+
+Ich denke oft daran, wie es ___ war.

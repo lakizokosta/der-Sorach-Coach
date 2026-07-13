@@ -1,8 +1,11 @@
 ---
 id: b1-poss-in-044
 type: input-text
+hint: Possessivartikel — wir, Dat./Gen.
 correct:
   - unserer
 ---
 
-Das ist das Ziel ___ Partei. (Possessivartikel — wir, Dat./Gen.)
+Ergänze den Possessivartikel:
+
+Das ist das Ziel ___ Partei.

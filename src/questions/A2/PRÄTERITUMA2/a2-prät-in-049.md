@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-049
 type: input-text
+hint: Präteritum + Verb wollen
 correct:
   - wollte
 ---
 
-Ich ___ auf meiner Schule bleiben. (Präteritum + Verb wollen)
+Ergänze die Präteritumsform:
+
+Ich ___ auf meiner Schule bleiben.

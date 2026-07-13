@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-044
 type: input-text
+hint: Artikel — eine Insel, fem., Akk.
 correct:
   - eine
 ---
 
-Wir besuchen ___ Insel. (Artikel — eine Insel, fem., Akk.)
+Ergänze den Artikel:
+
+Wir besuchen ___ Insel.

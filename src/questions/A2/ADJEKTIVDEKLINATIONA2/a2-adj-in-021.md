@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-021
 type: input-text
+hint: Adjektivdeklination — voll, mask., Akk.
 correct:
   - vollen
 ---
 
-Wir steigen in den ___ Bus ein. (Adjektivdeklination — voll, mask., Akk.)
+Ergänze die Adjektivendung:
+
+Wir steigen in den ___ Bus ein.

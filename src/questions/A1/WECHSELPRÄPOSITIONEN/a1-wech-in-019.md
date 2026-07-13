@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-019
 type: input-text
+hint: Wechselpräpositionen — Bewegung
 correct:
   - in den
 ---
 
-Wir steigen ___ Bus. (Wechselpräpositionen — Bewegung)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Wir steigen ___ Bus.

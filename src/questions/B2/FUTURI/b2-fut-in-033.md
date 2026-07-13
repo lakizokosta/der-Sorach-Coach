@@ -5,4 +5,6 @@ correct:
   - werden
 ---
 
+Ergänze die Futurform:
+
 Die Verhandlungen ___ (werden) länger dauern.

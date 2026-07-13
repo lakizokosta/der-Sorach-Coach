@@ -1,7 +1,10 @@
 lemma,pos,freq,ru,en,status
+"konjunktion",noun,1100,"","",pending
 "prüfung",noun,406,"экзамен","exam",done
 "zug",noun,310,"поезд","train",done
 "zeit",noun,304,"время","time",done
+"akkusativform",noun,300,"","",pending
+"lokalpräposition",noun,300,"","",pending
 "projekt",noun,294,"проект","project",done
 "büro",noun,262,"офис","office",done
 "wetter",noun,256,"погода","weather",done
@@ -16,7 +19,22 @@ lemma,pos,freq,ru,en,status
 "park",noun,202,"парк","park",done
 "berlin",noun,200,"Берлин","Berlin",done
 "kurs",noun,200,"курс","course",done
+"dativform",noun,200,"","",pending
+"gegenteil",noun,200,"противоположность","opposite",done
+"verneinung",noun,200,"","",pending
+"fragewort",noun,200,"","",pending
+"genitivform",noun,200,"","",pending
+"indefinitpronomen",noun,200,"","",pending
+"perfektform",noun,200,"","",pending
+"verbform",noun,200,"","",pending
+"konjunktionaladverb",noun,200,"","",pending
+"konjunktiv",noun,200,"","",pending
+"konzessiv",noun,200,"","",pending
+"passivform",noun,200,"","",pending
+"pronominaladverb",noun,200,"","",pending
+"relativpronomen",noun,200,"","",pending
 "medikament",noun,188,"лекарство","medicine / drug",done
+"frage",noun,186,"вопрос","question",done
 "firma",noun,186,"фирма","company",done
 "termin",noun,178,"встреча / приём","appointment",done
 "entscheidung",noun,170,"решение","decision",done
@@ -37,6 +55,7 @@ lemma,pos,freq,ru,en,status
 "hund",noun,138,"собака","dog",done
 "deutsch",adj,138,"немецкий","German",done
 "mutter",noun,138,"мать","mother",done
+"rede",noun,136,"Ораторское искусство","talk",done
 "antwort",noun,132,"ответ","answer",done
 "wasser",noun,128,"вода","water",done
 "wohnung",noun,128,"квартира","apartment",done
@@ -58,16 +77,35 @@ lemma,pos,freq,ru,en,status
 "gäste",noun,104,"Гости:","Guests",done
 "nachricht",noun,102,"сообщение","message",done
 "fest",noun,102,"праздник / фестиваль","festival / party",done
+"verbindung",noun,102,"Соединение","Connection",done
 "fahrrad",noun,100,"велосипед","bicycle",done
-"gegenteil",noun,100,"противоположность","opposite",done
 "kinder",noun,100,"Дети","children",done
+"pluralform",noun,100,"","",pending
+"präsensform",noun,100,"","",pending
+"verbs",noun,100,"","",pending
+"antwortpartikel",noun,100,"","",pending
+"komparativform",noun,100,"","",pending
+"modalverbform",noun,100,"","",pending
+"deklination",noun,100,"","",pending
+"präteritumsform",noun,100,"","",pending
+"reflexivform",noun,100,"","",pending
+"superlativform",noun,100,"","",pending
+"demonstrativartikel",noun,100,"","",pending
+"ergänzung",noun,100,"","",pending
+"final",noun,100,"","",pending
+"konditional",noun,100,"","",pending
+"wort",noun,100,"","",pending
+"futurform",noun,100,"","",pending
+"indirekte",noun,100,"","",pending
+"modal",noun,100,"","",pending
+"ersatzform",noun,100,"","",pending
+"redewendung",noun,100,"","",pending
 "reihenfolge",noun,100,"порядок","order / sequence",done
 "reisen",noun,99,"путешествиями","travel",done
 "haus",noun,96,"дом","house",done
 "tee",noun,90,"чай","tea",done
 "gründen",noun,90,"основать","to form, to establish",done
 "idee",noun,86,"идея","idea",done
-"frage",noun,86,"вопрос","question",done
 "hilfe",noun,86,"Справка","help",done
 "konferenz",noun,86,"конференция","conference",done
 "familie",noun,84,"семья","family",done
@@ -243,7 +281,6 @@ lemma,pos,freq,ru,en,status
 "heizung",noun,36,"Нагрев","Heating",done
 "klinik",noun,36,"КЛИНИК","clinic",done
 "bereich",noun,36,"значения","range",done
-"rede",noun,36,"Ораторское искусство","talk",done
 "mandanten",noun,36,"Клиенты","Clients",done
 "schreibtisch",noun,36,"Бюро","writing desk",done
 "obst",noun,34,"Фрукты","fruits",done
@@ -1438,7 +1475,6 @@ lemma,pos,freq,ru,en,status
 "paul",noun,2,"ПАуль","Paul",done
 "mahngebühren",noun,2,"Просроченные штрафы","reminder fees",done
 "zahlungsschwierigkeiten",noun,2,"трудности с оплатой","payment difficulties",done
-"verbindung",noun,2,"Соединение","Connection",done
 "buchhaltung",noun,2,"Бухгалтерский учет","Accounting",done
 "erinnerung",noun,2,"Напоминание","Reminder fee",done
 "bankdaten",noun,2,"Банковские реквизиты:","Bank data",done

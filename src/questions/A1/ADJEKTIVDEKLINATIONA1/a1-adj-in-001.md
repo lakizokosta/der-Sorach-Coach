@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-001
 type: input-text
+hint: Adjektivdeklination — klein, mask., Nom.
 correct:
   - kleiner
 ---
 
-Das ist ein ___ Hund. (Adjektivdeklination — klein, mask., Nom.)
+Ergänze die Adjektivendung:
+
+Das ist ein ___ Hund.

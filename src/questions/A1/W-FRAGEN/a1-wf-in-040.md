@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-040
 type: input-text
+hint: Frage nach Anzahl
 correct:
   - Wie viele
 ---
 
-___ Freunde kommen mit? — Zwei Freunde. (Frage nach Anzahl)
+Ergänze das Fragewort:
+
+___ Freunde kommen mit? — Zwei Freunde.

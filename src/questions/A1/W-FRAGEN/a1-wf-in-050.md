@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-050
 type: input-text
+hint: Frage nach Lied
 correct:
   - Welches
 ---
 
-___ Lied singst du? — Ein deutsches Lied. (Frage nach Lied)
+Ergänze das Fragewort:
+
+___ Lied singst du? — Ein deutsches Lied.

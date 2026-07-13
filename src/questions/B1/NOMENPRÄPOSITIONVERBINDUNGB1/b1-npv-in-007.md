@@ -1,8 +1,11 @@
 ---
 id: b1-npv-in-007
 type: input-text
+hint: Nomen + Präposition
 correct:
   - in
 ---
 
-Ich habe Vertrauen ___ unser Team. (Nomen + Präposition)
+Ergänze die passende Präposition:
+
+Ich habe Vertrauen ___ unser Team.

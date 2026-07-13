@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-038
 type: input-text
+hint: Dativ — das Messer, Dat.
 correct:
   - dem
 ---
 
-Mit ___ Messer schneide ich Brot. (Dativ — das Messer, Dat.)
+Ergänze die Dativform:
+
+Mit ___ Messer schneide ich Brot.

@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-049
 type: input-text
+hint: Indirekte Rede + Verb werden
 correct:
   - werde
 ---
 
-Er erklärte, das Problem ___ bald gelöst. (Indirekte Rede + Verb werden)
+Ergänze die Form (Indirekte Rede):
+
+Er erklärte, das Problem ___ bald gelöst.

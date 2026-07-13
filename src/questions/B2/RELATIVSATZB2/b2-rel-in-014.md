@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-014
 type: input-text
+hint: dem
 correct:
   - dem
 ---
 
-Das Land, aus ___ er stammt, liegt in Südamerika. (dem)
+Ergänze das Relativpronomen:
+
+Das Land, aus ___ er stammt, liegt in Südamerika.

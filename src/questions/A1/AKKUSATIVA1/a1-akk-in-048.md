@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-048
 type: input-text
+hint: Akkusativ — ein Ticket, Akk.
 correct:
   - ein
 ---
 
-Sie kauft ___ Ticket. (Akkusativ — ein Ticket, Akk.)
+Ergänze die Akkusativform:
+
+Sie kauft ___ Ticket.

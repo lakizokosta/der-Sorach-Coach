@@ -1,8 +1,11 @@
 ---
 id: b2-gen-in-022
 type: input-text
+hint: Genitiv-Präposition — Bei / Im Laufe / Mit / Trotz
 correct:
   - Im Laufe
 ---
 
-___ der Verhandlungen einigte man sich. (Genitiv-Präposition — Bei / Im Laufe / Mit / Trotz)
+Ergänze die Genitiv-Präposition:
+
+___ der Verhandlungen einigte man sich.

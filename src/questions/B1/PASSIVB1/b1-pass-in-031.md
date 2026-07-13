@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-031
 type: input-text
+hint: Passiv + Verb verabschieden
 correct:
   - wird
 ---
 
-Das neue Gesetz ___ morgen verabschiedet. (Passiv + Verb verabschieden)
+Ergänze die Passivform:
+
+Das neue Gesetz ___ morgen verabschiedet.

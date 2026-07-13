@@ -1,8 +1,11 @@
 ---
 id: b1-ws-in-025
 type: input-text
+hint: Wortschatz — erneuerbar / erneuerbare / erneuerbarer / erneuert
 correct:
   - erneuerbare
 ---
 
-Wir diskutieren über ___ Energiequellen. (Wortschatz — erneuerbar / erneuerbare / erneuerbarer / erneuert)
+Ergänze das passende Wort:
+
+Wir diskutieren über ___ Energiequellen.

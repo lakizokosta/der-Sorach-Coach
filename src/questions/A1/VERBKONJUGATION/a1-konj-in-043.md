@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-043
 type: input-text
+hint: Präsens + Verb tragen
 correct:
   - trägt
 ---
 
-Sie ___ einen blauen Mantel. (Präsens + Verb tragen)
+Ergänze die Präsensform des Verbs:
+
+Sie ___ einen blauen Mantel.

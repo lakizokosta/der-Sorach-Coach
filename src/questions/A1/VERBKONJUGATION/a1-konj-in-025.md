@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-025
 type: input-text
+hint: Präsens + Verb kommen
 correct:
   - kommen
 ---
 
-Meine Freunde ___ später. (Präsens + Verb kommen)
+Ergänze die Präsensform des Verbs:
+
+Meine Freunde ___ später.

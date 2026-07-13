@@ -1,6 +1,7 @@
 ---
 id: b1-kaus-in-013
 type: input-text
+hint: Kausalsatz — weil/da
 correct:
   - weil
   - Weil
@@ -8,4 +9,6 @@ correct:
   - Da
 ---
 
-Ich trinke Tee, ___ ich Halsweh habe. (Kausalsatz — weil/da)
+Ergänze die Konjunktion (Kausal):
+
+Ich trinke Tee, ___ ich Halsweh habe.

@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-027
 type: input-text
+hint: Adjektivdeklination — sonnig, mask., Dat.
 correct:
   - sonnigen
 ---
 
-An einem ___ Tag gehen wir spazieren. (Adjektivdeklination — sonnig, mask., Dat.)
+Ergänze die Adjektivendung:
+
+An einem ___ Tag gehen wir spazieren.

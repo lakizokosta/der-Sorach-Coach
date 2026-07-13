@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-049
 type: input-text
+hint: Adjektivdeklination — ruhig, fem., Dat.
 correct:
   - ruhigen
 ---
 
-In der ___ Straße wohne ich. (Adjektivdeklination — ruhig, fem., Dat.)
+Ergänze die Adjektivendung:
+
+In der ___ Straße wohne ich.

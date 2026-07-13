@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-033
 type: input-text
+hint: Wechselpräpositionen — Bewegung
 correct:
   - an die
 ---
 
-Er hängt das Plakat ___ Wand. (Wechselpräpositionen — Bewegung)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Er hängt das Plakat ___ Wand.

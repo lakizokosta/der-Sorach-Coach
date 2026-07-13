@@ -1,8 +1,11 @@
 ---
 id: a2-gen-in-026
 type: input-text
+hint: Genitiv — die Verspätung
 correct:
   - der
 ---
 
-Wegen ___ Verspätung verpassten wir den Zug. (Genitiv — die Verspätung)
+Ergänze die Genitivform:
+
+Wegen ___ Verspätung verpassten wir den Zug.

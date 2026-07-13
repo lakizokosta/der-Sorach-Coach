@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-030
 type: input-text
+hint: Negation
 correct:
   - kein
 ---
 
-Ich kaufe ___ Brot. (Negation)
+Ergänze die Verneinung:
+
+Ich kaufe ___ Brot.

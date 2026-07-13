@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-044
 type: input-text
+hint: Modalverb + Verb wollen
 correct:
   - wollen
 ---
 
-Wir ___ heute ins Schwimmbad gehen. (Modalverb + Verb wollen)
+Ergänze die Modalverbform:
+
+Wir ___ heute ins Schwimmbad gehen.

@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-038
 type: input-text
+hint: Artikel — der Bahnhof, Nom.
 correct:
   - Der
 ---
 
-___ Bahnhof ist groß. (Artikel — der Bahnhof, Nom.)
+Ergänze den Artikel:
+
+___ Bahnhof ist groß.

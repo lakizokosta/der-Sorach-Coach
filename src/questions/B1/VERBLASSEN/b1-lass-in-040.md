@@ -1,8 +1,11 @@
 ---
 id: b1-lass-in-040
 type: input-text
+hint: lassen + Verb geben
 correct:
   - lasse
 ---
 
-Ich ___ mir eine zweite Meinung geben. (lassen + Verb geben)
+Ergänze die lassen-Form:
+
+Ich ___ mir eine zweite Meinung geben.

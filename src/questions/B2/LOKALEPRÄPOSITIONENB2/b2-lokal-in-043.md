@@ -1,8 +1,11 @@
 ---
 id: b2-lokal-in-043
 type: input-text
+hint: Lokale Präposition — an der / auf der / in der / zur
 correct:
   - in der
 ---
 
-Das Geschäft ist ___ Fußgängerzone. (Lokale Präposition — an der / auf der / in der / zur)
+Ergänze die Lokalpräposition:
+
+Das Geschäft ist ___ Fußgängerzone.

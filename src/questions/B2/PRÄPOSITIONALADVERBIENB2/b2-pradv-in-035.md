@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-035
 type: input-text
+hint: Pronominaladverb — beziehst / bezieht / bezog / bezogen
 correct:
   - bezieht
 ---
 
-Worauf ___ sich Ihre Kritik? (Pronominaladverb — beziehst / bezieht / bezog / bezogen)
+Ergänze das Pronominaladverb:
+
+Worauf ___ sich Ihre Kritik?

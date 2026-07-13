@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-017
 type: input-text
+hint: Artikel — das Hotel, Nom.
 correct:
   - Das
 ---
 
-___ Hotel hat ein Schwimmbad. (Artikel — das Hotel, Nom.)
+Ergänze den Artikel:
+
+___ Hotel hat ein Schwimmbad.

@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-013
 type: input-text
+hint: Präsens + Verb schwimmen
 correct:
   - schwimmt
 ---
 
-Im Sommer ___ er im See. (Präsens + Verb schwimmen)
+Ergänze die Präsensform des Verbs:
+
+Im Sommer ___ er im See.

@@ -1,8 +1,11 @@
 ---
 id: b1-perf-in-045
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - hat
 ---
 
-Die Firma ___ viele neue Mitarbeiter eingestellt. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Die Firma ___ viele neue Mitarbeiter eingestellt.

@@ -1,6 +1,7 @@
 ---
 id: b1-kond-in-035
 type: input-text
+hint: Konditionalsatz — wenn/falls
 correct:
   - wenn
   - Wenn
@@ -8,4 +9,6 @@ correct:
   - Falls
 ---
 
-___ die Prüfung schwer ist, bleibe ich ruhig. (Konditionalsatz — wenn/falls)
+Ergänze die Konjunktion (Konditional):
+
+___ die Prüfung schwer ist, bleibe ich ruhig.

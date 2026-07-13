@@ -1,8 +1,11 @@
 ---
 id: b2-kadv-in-007
 type: input-text
+hint: Konjunktionaladverb — außerdem / dagegen / daher / trotzdem
 correct:
   - daher
 ---
 
-Sie hat sich verspätet; ___ verpasste sie den Anfang. (Konjunktionaladverb — außerdem / dagegen / daher / trotzdem)
+Ergänze das Konjunktionaladverb:
+
+Sie hat sich verspätet; ___ verpasste sie den Anfang.

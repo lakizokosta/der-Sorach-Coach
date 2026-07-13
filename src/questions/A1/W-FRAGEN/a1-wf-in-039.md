@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-039
 type: input-text
+hint: Frage nach Person
 correct:
   - Welchen
 ---
 
-___ Lehrer hast du? — Herr Müller. (Frage nach Person)
+Ergänze das Fragewort:
+
+___ Lehrer hast du? — Herr Müller.

@@ -1,8 +1,11 @@
 ---
 id: b2-modal-in-027
 type: input-text
+hint: Modalsatz — indem / obwohl / statt dass / weil
 correct:
   - indem
 ---
 
-Sie schrieb den Bericht, ___ sie die Daten auswertete. (Modalsatz — indem / obwohl / statt dass / weil)
+Ergänze die Konjunktion (Modal):
+
+Sie schrieb den Bericht, ___ sie die Daten auswertete.

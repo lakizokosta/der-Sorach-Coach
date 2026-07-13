@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-022
 type: input-text
+hint: Präsens + Verb warten
 correct:
   - wartet
 ---
 
-Er ___ auf den Bus. (Präsens + Verb warten)
+Ergänze die Präsensform des Verbs:
+
+Er ___ auf den Bus.

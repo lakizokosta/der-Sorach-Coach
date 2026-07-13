@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-049
 type: input-text
+hint: Possessivartikel — sie, neutr., Akk.
 correct:
   - ihr
 ---
 
-Sie sucht ___ Geschenk. (Possessivartikel — sie, neutr., Akk.)
+Ergänze den Possessivartikel:
+
+Sie sucht ___ Geschenk.

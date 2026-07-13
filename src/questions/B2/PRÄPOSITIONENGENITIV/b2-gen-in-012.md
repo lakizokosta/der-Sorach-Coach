@@ -1,8 +1,11 @@
 ---
 id: b2-gen-in-012
 type: input-text
+hint: Genitiv-Präposition — Bei / Trotz / Während / Wegen
 correct:
   - Während
 ---
 
-___ der Prüfung durfte er nicht sprechen. (Genitiv-Präposition — Bei / Trotz / Während / Wegen)
+Ergänze die Genitiv-Präposition:
+
+___ der Prüfung durfte er nicht sprechen.

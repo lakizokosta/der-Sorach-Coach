@@ -5,4 +5,6 @@ correct:
   - ihrer
 ---
 
+Ergänze die Genitivform:
+
 Sie erinnert sich gern ___ (ihr) Jugend.

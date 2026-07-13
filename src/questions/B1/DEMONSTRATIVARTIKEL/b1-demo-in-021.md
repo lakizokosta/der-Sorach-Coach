@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-021
 type: input-text
+hint: Demonstrativartikel — mask., Nom.
 correct:
   - Dieser
 ---
 
-___ Artikel in der Zeitung ist sehr aktuell. (Demonstrativartikel — mask., Nom.)
+Ergänze den Demonstrativartikel:
+
+___ Artikel in der Zeitung ist sehr aktuell.

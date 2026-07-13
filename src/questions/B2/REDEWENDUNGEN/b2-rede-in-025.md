@@ -1,8 +1,11 @@
 ---
 id: b2-rede-in-025
 type: input-text
+hint: Redewendung — einem / einen / einer / eines
 correct:
   - einer
 ---
 
-Wir sind ___ einer Meinung. (Redewendung — einem / einen / einer / eines)
+Ergänze die Redewendung:
+
+Wir sind ___ einer Meinung.

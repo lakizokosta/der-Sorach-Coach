@@ -1,8 +1,11 @@
 ---
 id: b2-modal-in-046
 type: input-text
+hint: Modalsatz — Anstatt / Indem / Ohne / Weil
 correct:
   - Ohne
 ---
 
-___ dass er es wusste, sagte er nichts. (Modalsatz — Anstatt / Indem / Ohne / Weil)
+Ergänze die Konjunktion (Modal):
+
+___ dass er es wusste, sagte er nichts.

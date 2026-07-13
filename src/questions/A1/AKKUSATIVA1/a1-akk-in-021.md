@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-021
 type: input-text
+hint: Akkusativ — ein Termin, Akk.
 correct:
   - einen
 ---
 
-Ich brauche ___ Termin. (Akkusativ — ein Termin, Akk.)
+Ergänze die Akkusativform:
+
+Ich brauche ___ Termin.

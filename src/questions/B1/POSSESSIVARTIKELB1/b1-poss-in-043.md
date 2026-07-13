@@ -1,8 +1,11 @@
 ---
 id: b1-poss-in-043
 type: input-text
+hint: Possessivartikel — er, Dat.
 correct:
   - seinem
 ---
 
-Er vertraut ___ Instinkt. (Possessivartikel — er, Dat.)
+Ergänze den Possessivartikel:
+
+Er vertraut ___ Instinkt.

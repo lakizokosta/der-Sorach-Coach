@@ -1,8 +1,11 @@
 ---
 id: b1-neg-in-001
 type: input-text
+hint: Verneinung — kein / keine / nichts / nie
 correct:
   - keine
 ---
 
-Ich habe ___ Zeit für ein langes Meeting. (Verneinung — kein / keine / nichts / nie)
+Ergänze die Verneinung:
+
+Ich habe ___ Zeit für ein langes Meeting.

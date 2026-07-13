@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-003
 type: input-text
+hint: Pronominaladverb — finanzieren / finanzierst / finanziert / finanzierte
 correct:
   - finanzierst
 ---
 
-Womit ___ du dein Studium? (Pronominaladverb — finanzieren / finanzierst / finanziert / finanzierte)
+Ergänze das Pronominaladverb:
+
+Womit ___ du dein Studium?

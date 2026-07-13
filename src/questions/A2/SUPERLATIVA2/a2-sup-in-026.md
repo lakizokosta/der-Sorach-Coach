@@ -1,8 +1,11 @@
 ---
 id: a2-sup-in-026
 type: input-text
+hint: Superlativ — gut, mask., Nom.
 correct:
   - bester
 ---
 
-Das ist mein ___ Freund. (Superlativ — gut, mask., Nom.)
+Ergänze die Superlativform:
+
+Das ist mein ___ Freund.

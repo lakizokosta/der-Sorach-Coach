@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-015
 type: input-text
+hint: Negation
 correct:
   - keine
 ---
 
-Ich spiele ___ Gitarre. (Negation)
+Ergänze die Verneinung:
+
+Ich spiele ___ Gitarre.

@@ -1,8 +1,11 @@
 ---
 id: b1-kadv-in-008
 type: input-text
+hint: Konjunktionaladverb — Außerdem / Denn / Deshalb / Trotzdem
 correct:
   - Deshalb
 ---
 
-Er hat Überstunden gemacht. ___, ist er müde. (Konjunktionaladverb — Außerdem / Denn / Deshalb / Trotzdem)
+Ergänze das Konjunktionaladverb:
+
+Er hat Überstunden gemacht. ___, ist er müde.

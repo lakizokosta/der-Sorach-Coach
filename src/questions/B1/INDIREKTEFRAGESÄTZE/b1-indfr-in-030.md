@@ -1,8 +1,11 @@
 ---
 id: b1-indfr-in-030
 type: input-text
+hint: Indirekte Frage — denn / ob / was / weil
 correct:
   - was
 ---
 
-Ich möchte wissen, ___ du denkst. (Indirekte Frage — denn / ob / was / weil)
+Ergänze das Fragewort (indirekte Frage):
+
+Ich möchte wissen, ___ du denkst.

@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-012
 type: input-text
+hint: Pronominaladverb — bauen / baut / baute / gebaut
 correct:
   - baut
 ---
 
-Hierauf ___ die ganze Argumentation. (Pronominaladverb — bauen / baut / baute / gebaut)
+Ergänze das Pronominaladverb:
+
+Hierauf ___ die ganze Argumentation.

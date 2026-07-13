@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-005
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Ich bin ___ müde. (Negation)
+Ergänze die Verneinung:
+
+Ich bin ___ müde.

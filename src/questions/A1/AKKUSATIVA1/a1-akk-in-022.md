@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-022
 type: input-text
+hint: Akkusativ — ein Job, Akk.
 correct:
   - einen
 ---
 
-Er sucht ___ Job. (Akkusativ — ein Job, Akk.)
+Ergänze die Akkusativform:
+
+Er sucht ___ Job.

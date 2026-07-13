@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-003
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - hat
 ---
 
-Er ___ den ganzen Tag im Büro gearbeitet. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Er ___ den ganzen Tag im Büro gearbeitet.

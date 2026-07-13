@@ -1,8 +1,11 @@
 ---
 id: b1-praep-in-035
 type: input-text
+hint: Präposition — ab / bis / nach / von
 correct:
   - ab
 ---
 
-Das Gesetz gilt ___ nächsten Monat. (Präposition — ab / bis / nach / von)
+Ergänze die Präposition:
+
+Das Gesetz gilt ___ nächsten Monat.

@@ -1,8 +1,11 @@
 ---
 id: b1-trenn-in-022
 type: input-text
+hint: Trennbares Verb + Verb absagen
 correct:
   - gebe
 ---
 
-Ich ___ den Brief um neun Uhr ab. (Trennbares Verb + Verb absagen)
+Ergänze die Verbform (trennbares Verb):
+
+Ich ___ den Brief um neun Uhr ab.

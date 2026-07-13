@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-046
 type: input-text
+hint: Nomen-Präp. — Teilnahme
 correct:
   - an
 ---
 
-Sie nimmt Teil ___ dem Kurs. (Nomen-Präp. — Teilnahme)
+Ergänze die passende Präposition:
+
+Sie nimmt Teil ___ dem Kurs.

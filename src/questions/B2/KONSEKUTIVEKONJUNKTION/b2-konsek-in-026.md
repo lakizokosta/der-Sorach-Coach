@@ -1,8 +1,11 @@
 ---
 id: b2-konsek-in-026
 type: input-text
+hint: Konsekutivsatz — damit / dass / obwohl / wenn
 correct:
   - dass
 ---
 
-Der Bericht war so detailliert, ___ er lange dauerte. (Konsekutivsatz — damit / dass / obwohl / wenn)
+Ergänze die konsekutive Konjunktion:
+
+Der Bericht war so detailliert, ___ er lange dauerte.

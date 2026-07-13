@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-021
 type: input-text
+hint: Dativ — der Schüler, Dat.
 correct:
   - dem
 ---
 
-Der Stift gehört ___ Schüler. (Dativ — der Schüler, Dat.)
+Ergänze die Dativform:
+
+Der Stift gehört ___ Schüler.

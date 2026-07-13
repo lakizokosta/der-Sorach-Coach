@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-033
 type: input-text
+hint: Artikel — Negation: kein, mask.
 correct:
   - keinen
 ---
 
-Es gibt ___ Wind heute. (Artikel — Negation: kein, mask.)
+Ergänze den Artikel:
+
+Es gibt ___ Wind heute.

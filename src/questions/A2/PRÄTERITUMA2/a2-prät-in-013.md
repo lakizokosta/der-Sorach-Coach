@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-013
 type: input-text
+hint: Präteritum + Verb warten
 correct:
   - warteten
 ---
 
-Wir ___ lange auf den Bus. (Präteritum + Verb warten)
+Ergänze die Präteritumsform:
+
+Wir ___ lange auf den Bus.

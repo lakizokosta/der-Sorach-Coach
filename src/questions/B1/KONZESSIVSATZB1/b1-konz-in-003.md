@@ -1,6 +1,7 @@
 ---
 id: b1-konz-in-003
 type: input-text
+hint: Konzessivsatz — obwohl/obschon
 correct:
   - obschon
   - Obschon
@@ -8,4 +9,6 @@ correct:
   - Obwohl
 ---
 
-___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz — obwohl/obschon)
+Ergänze die Konjunktion (Konzessiv):
+
+___ das Essen teuer war, hat es gut geschmeckt.

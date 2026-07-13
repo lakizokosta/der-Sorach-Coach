@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-038
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
   - auf
 ---
 
-Sie freut sich ___ den Geburtstag. (Feste Präposition — an / auf / für / mit / nach / über / von)
+Ergänze die feste Präposition:
+
+Sie freut sich ___ den Geburtstag.

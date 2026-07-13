@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-008
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - hat
 ---
 
-Er ___ Fußball im Verein gespielt. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Er ___ Fußball im Verein gespielt.

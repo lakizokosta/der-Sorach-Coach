@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-024
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
   - über
 ---
 
-Wir diskutieren ___ das Problem. (Feste Präposition — an / auf / für / mit / nach / über / von)
+Ergänze die feste Präposition:
+
+Wir diskutieren ___ das Problem.

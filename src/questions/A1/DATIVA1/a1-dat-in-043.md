@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-043
 type: input-text
+hint: Dativ — der Hund, Dat.
 correct:
   - dem
 ---
 
-Ich gebe ___ Hund Wasser. (Dativ — der Hund, Dat.)
+Ergänze die Dativform:
+
+Ich gebe ___ Hund Wasser.

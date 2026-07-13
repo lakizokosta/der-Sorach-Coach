@@ -1,8 +1,11 @@
 ---
 id: a2-temp-in-013
 type: input-text
+hint: Temporal — einmalig
 correct:
   - Als
 ---
 
-___ sie jung war, tanzte sie gern. (Temporal — einmalig)
+Ergänze die Konjunktion (Temporal):
+
+___ sie jung war, tanzte sie gern.

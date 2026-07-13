@@ -1,8 +1,11 @@
 ---
 id: b2-temp-in-019
 type: input-text
+hint: Temporalnebensatz — Bevor / Bis / Sobald / Während
 correct:
   - Sobald
 ---
 
-___, sie ankommt, rufe ich dich an. (Temporalnebensatz — Bevor / Bis / Sobald / Während)
+Ergänze die Konjunktion (Temporal):
+
+___, sie ankommt, rufe ich dich an.

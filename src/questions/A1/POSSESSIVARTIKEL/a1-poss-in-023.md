@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-023
 type: input-text
+hint: Possessivartikel — du, fem., Nom.
 correct:
   - deine
 ---
 
-Das ist ___ Schwester. (Possessivartikel — du, fem., Nom.)
+Ergänze den Possessivartikel:
+
+Das ist ___ Schwester.

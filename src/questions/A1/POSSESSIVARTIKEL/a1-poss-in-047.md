@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-047
 type: input-text
+hint: Possessivartikel — ihr, neutr., Nom.
 correct:
   - Euer
 ---
 
-___ Konzert war toll. (Possessivartikel — ihr, neutr., Nom.)
+Ergänze den Possessivartikel:
+
+___ Konzert war toll.

@@ -1,8 +1,11 @@
 ---
 id: b1-poss-in-047
 type: input-text
+hint: Possessivartikel — ich, Gen.
 correct:
   - meines
 ---
 
-Das ist die Meinung ___ Kollegen. (Possessivartikel — ich, Gen.)
+Ergänze den Possessivartikel:
+
+Das ist die Meinung ___ Kollegen.

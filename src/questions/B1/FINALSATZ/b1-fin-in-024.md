@@ -1,8 +1,11 @@
 ---
 id: b1-fin-in-024
 type: input-text
+hint: Finalsatz — um
 correct:
   - um
 ---
 
-Ich trinke Wasser, ___ gesund zu bleiben. (Finalsatz — um)
+Ergänze die Konjunktion (Final):
+
+Ich trinke Wasser, ___ gesund zu bleiben.

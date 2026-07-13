@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-044
 type: input-text
+hint: Nomen-Präp. — Bedarf
 correct:
   - an
 ---
 
-Ich habe Bedarf ___ Hilfe. (Nomen-Präp. — Bedarf)
+Ergänze die passende Präposition:
+
+Ich habe Bedarf ___ Hilfe.

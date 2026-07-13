@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-014
 type: input-text
+hint: Nomen-Präp. — Anspruch
 correct:
   - auf
 ---
 
-Er hat Anspruch ___ eine Belohnung. (Nomen-Präp. — Anspruch)
+Ergänze die passende Präposition:
+
+Er hat Anspruch ___ eine Belohnung.

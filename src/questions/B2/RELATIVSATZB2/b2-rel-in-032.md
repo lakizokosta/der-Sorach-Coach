@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-032
 type: input-text
+hint: der
 correct:
   - der
 ---
 
-Die Methode, mit ___ wir arbeiten, ist bewährt. (der)
+Ergänze das Relativpronomen:
+
+Die Methode, mit ___ wir arbeiten, ist bewährt.

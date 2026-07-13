@@ -5,4 +5,6 @@ correct:
   - schwerer
 ---
 
+Ergänze die Genitivform:
+
 Trotz ___ (schwer) Krise blieb die Firma stabil.

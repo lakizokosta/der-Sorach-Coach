@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-042
 type: input-text
+hint: Plural: Stunde
 correct:
   - Stunden
 ---
 
-Das Konzert dauert zwei ___. (Plural: Stunde)
+Ergänze die Pluralform:
+
+Das Konzert dauert zwei ___.

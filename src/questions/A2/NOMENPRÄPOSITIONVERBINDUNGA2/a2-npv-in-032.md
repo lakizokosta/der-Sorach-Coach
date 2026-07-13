@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-032
 type: input-text
+hint: Nomen-Präp. — Spaß
 correct:
   - an
 ---
 
-Wir haben Spaß ___ dem Spiel. (Nomen-Präp. — Spaß)
+Ergänze die passende Präposition:
+
+Wir haben Spaß ___ dem Spiel.

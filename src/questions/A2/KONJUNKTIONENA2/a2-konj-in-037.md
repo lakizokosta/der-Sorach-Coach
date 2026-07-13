@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-037
 type: input-text
+hint: Konjunktion — Bedingung
 correct:
   - Wenn
 ---
 
-___ es regnet, nehme ich einen Schirm. (Konjunktion — Bedingung)
+Ergänze die Konjunktion:
+
+___ es regnet, nehme ich einen Schirm.

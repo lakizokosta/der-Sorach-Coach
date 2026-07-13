@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-046
 type: input-text
+hint: Frage nach Sportart
 correct:
   - Welchen
 ---
 
-___ Sport machst du? — Tennis. (Frage nach Sportart)
+Ergänze das Fragewort:
+
+___ Sport machst du? — Tennis.

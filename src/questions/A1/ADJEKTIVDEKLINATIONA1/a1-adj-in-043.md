@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-043
 type: input-text
+hint: Adjektivdeklination — neu, fem., Akk.
 correct:
   - neue
 ---
 
-Der Arzt gibt mir gute ___ Medizin. (Adjektivdeklination — neu, fem., Akk.)
+Ergänze die Adjektivendung:
+
+Der Arzt gibt mir gute ___ Medizin.

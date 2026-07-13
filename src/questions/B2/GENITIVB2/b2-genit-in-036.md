@@ -5,4 +5,6 @@ correct:
   - der
 ---
 
+Ergänze die Genitivform:
+
 Während ___ (der) Verhandlungen wurde nicht telefoniert.

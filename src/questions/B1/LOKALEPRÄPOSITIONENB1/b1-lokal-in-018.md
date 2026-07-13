@@ -1,8 +1,11 @@
 ---
 id: b1-lokal-in-018
 type: input-text
+hint: Lokale Präposition — hinter / unter / vor / zwischen
 correct:
   - vor
 ---
 
-Wir treffen uns ___ dem Eingang der Universität. (Lokale Präposition — hinter / unter / vor / zwischen)
+Ergänze die Lokalpräposition:
+
+Wir treffen uns ___ dem Eingang der Universität.

@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-021
 type: input-text
+hint: Passiv + Hilfsverb werden
 correct:
   - wird
 ---
 
-Der Bericht ___ bis Freitag fertiggestellt. (Passiv + Hilfsverb werden)
+Ergänze die Passivform:
+
+Der Bericht ___ bis Freitag fertiggestellt.

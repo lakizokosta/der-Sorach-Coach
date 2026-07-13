@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-028
 type: input-text
+hint: Gegenteil von schwer
 correct:
   - leicht
 ---
 
-Das Training ist schwer, die Pause ist ___. (Gegenteil von schwer)
+Ergänze das Gegenteil:
+
+Das Training ist schwer, die Pause ist ___.

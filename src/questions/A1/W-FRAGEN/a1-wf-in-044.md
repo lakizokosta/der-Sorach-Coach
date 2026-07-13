@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-044
 type: input-text
+hint: Frage nach Farbe
 correct:
   - Welche
 ---
 
-___ Farbe magst du? — Blau. (Frage nach Farbe)
+Ergänze das Fragewort:
+
+___ Farbe magst du? — Blau.

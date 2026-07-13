@@ -1,8 +1,11 @@
 ---
 id: b2-konz-in-045
 type: input-text
+hint: Konzessivsatz — Damit / Obgleich / Obwohl / Wenngleich
 correct:
   - Obgleich
 ---
 
-___ er gewarnt worden war, fuhr er zu schnell. (Konzessivsatz — Damit / Obgleich / Obwohl / Wenngleich)
+Ergänze die Konjunktion (Konzessiv):
+
+___ er gewarnt worden war, fuhr er zu schnell.

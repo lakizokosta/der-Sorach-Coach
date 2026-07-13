@@ -1,8 +1,11 @@
 ---
 id: b2-modal-in-030
 type: input-text
+hint: Modalsatz — indem / ohne dass / statt dass / weil
 correct:
   - indem
 ---
 
-Sie trainierte hart, ___ sie ihre Ausdauer steigerte. (Modalsatz — indem / ohne dass / statt dass / weil)
+Ergänze die Konjunktion (Modal):
+
+Sie trainierte hart, ___ sie ihre Ausdauer steigerte.

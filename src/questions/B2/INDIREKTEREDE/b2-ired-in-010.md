@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-010
 type: input-text
+hint: Indirekte Rede + Verb sein
 correct:
   - sei
 ---
 
-Der Experte meinte, das ___ ein Fehler. (Indirekte Rede + Verb sein)
+Ergänze die Form (Indirekte Rede):
+
+Der Experte meinte, das ___ ein Fehler.

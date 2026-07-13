@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-007
 type: input-text
+hint: Dativ — die Kinder, Dat.
 correct:
   - den
 ---
 
-Ich erzähle ___ Kindern eine Geschichte. (Dativ — die Kinder, Dat.)
+Ergänze die Dativform:
+
+Ich erzähle ___ Kindern eine Geschichte.

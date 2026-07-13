@@ -1,6 +1,7 @@
 ---
 id: b1-kond-in-034
 type: input-text
+hint: Konditionalsatz — wenn/falls
 correct:
   - wenn
   - Wenn
@@ -8,4 +9,6 @@ correct:
   - Falls
 ---
 
-___ ich die Stelle bekomme, ziehe ich um. (Konditionalsatz — wenn/falls)
+Ergänze die Konjunktion (Konditional):
+
+___ ich die Stelle bekomme, ziehe ich um.

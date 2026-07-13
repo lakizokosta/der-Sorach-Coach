@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-031
 type: input-text
+hint: Adjektivdeklination — gut, fem., Akk.
 correct:
   - gute
 ---
 
-Er hat eine ___ Idee. (Adjektivdeklination — gut, fem., Akk.)
+Ergänze die Adjektivendung:
+
+Er hat eine ___ Idee.

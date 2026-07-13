@@ -1,8 +1,11 @@
 ---
 id: b1-lass-in-006
 type: input-text
+hint: lassen + Verb erklären
 correct:
   - lasse
 ---
 
-Ich ___ mir den Vertrag erklären. (lassen + Verb erklären)
+Ergänze die lassen-Form:
+
+Ich ___ mir den Vertrag erklären.

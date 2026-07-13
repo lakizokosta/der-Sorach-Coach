@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-047
 type: input-text
+hint: Artikel — das Konzert, Nom.
 correct:
   - Das
 ---
 
-___ Konzert war laut. (Artikel — das Konzert, Nom.)
+Ergänze den Artikel:
+
+___ Konzert war laut.

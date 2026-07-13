@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-049
 type: input-text
+hint: Akkusativ — die Brücke, Akk.
 correct:
   - die
 ---
 
-Ich fotografiere ___ Brücke. (Akkusativ — die Brücke, Akk.)
+Ergänze die Akkusativform:
+
+Ich fotografiere ___ Brücke.

@@ -1,8 +1,11 @@
 ---
 id: b2-konsek-in-023
 type: input-text
+hint: Konsekutivsatz — damit / dass / obwohl / weil
 correct:
   - dass
 ---
 
-Er übte so intensiv, ___ er die Prüfung bestand. (Konsekutivsatz — damit / dass / obwohl / weil)
+Ergänze die konsekutive Konjunktion:
+
+Er übte so intensiv, ___ er die Prüfung bestand.

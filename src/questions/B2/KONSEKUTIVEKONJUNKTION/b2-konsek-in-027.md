@@ -1,8 +1,11 @@
 ---
 id: b2-konsek-in-027
 type: input-text
+hint: Konsekutivsatz — damit / dass / obwohl / weil
 correct:
   - dass
 ---
 
-Er fuhr so schnell, ___ er geblitzt wurde. (Konsekutivsatz — damit / dass / obwohl / weil)
+Ergänze die konsekutive Konjunktion:
+
+Er fuhr so schnell, ___ er geblitzt wurde.

@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-011
 type: input-text
+hint: Plural: Blume
 correct:
   - Blumen
 ---
 
-Im Park wachsen bunte ___. (Plural: Blume)
+Ergänze die Pluralform:
+
+Im Park wachsen bunte ___.

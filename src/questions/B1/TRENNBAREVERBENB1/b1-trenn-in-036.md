@@ -1,8 +1,11 @@
 ---
 id: b1-trenn-in-036
 type: input-text
+hint: Trennbares Verb + Verb absagen
 correct:
   - sagt
 ---
 
-Er ___ den Termin leider ab. (Trennbares Verb + Verb absagen)
+Ergänze die Verbform (trennbares Verb):
+
+Er ___ den Termin leider ab.

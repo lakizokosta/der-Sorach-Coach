@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-023
 type: input-text
+hint: Pronominaladverb — gekonnt / kann / könnte / konntet
 correct:
   - kann
 ---
 
-Damit ___ ich nichts anfangen. (Pronominaladverb — gekonnt / kann / könnte / konntet)
+Ergänze das Pronominaladverb:
+
+Damit ___ ich nichts anfangen.

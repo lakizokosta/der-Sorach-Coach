@@ -1,8 +1,11 @@
 ---
 id: b2-konsek-in-042
 type: input-text
+hint: Konsekutivsatz — damit / dass / obwohl / wenn
 correct:
   - dass
 ---
 
-Sie war so überzeugend, ___ alle zustimmten. (Konsekutivsatz — damit / dass / obwohl / wenn)
+Ergänze die konsekutive Konjunktion:
+
+Sie war so überzeugend, ___ alle zustimmten.

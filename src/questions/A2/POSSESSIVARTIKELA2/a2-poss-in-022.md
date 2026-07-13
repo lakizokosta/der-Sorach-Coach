@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-022
 type: input-text
+hint: Possessivartikel — wir, Pl., Akk.
 correct:
   - unsere
 ---
 
-Wir besuchen ___ Großeltern. (Possessivartikel — wir, Pl., Akk.)
+Ergänze den Possessivartikel:
+
+Wir besuchen ___ Großeltern.

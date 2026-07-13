@@ -1,8 +1,11 @@
 ---
 id: b1-lokal-in-014
 type: input-text
+hint: Lokale Präposition — durch / hinter / über / unter
 correct:
   - über
 ---
 
-Wir gehen ___ die Straße. (Lokale Präposition — durch / hinter / über / unter)
+Ergänze die Lokalpräposition:
+
+Wir gehen ___ die Straße.

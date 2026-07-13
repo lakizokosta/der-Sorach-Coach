@@ -1,8 +1,11 @@
 ---
 id: b2-indef-in-030
 type: input-text
+hint: Indefinitpronomen — etwas / jemandem / jemanden / niemandem
 correct:
   - jemandem
 ---
 
-Er vertraut ___ , das ist seine Schwäche. (Indefinitpronomen — etwas / jemandem / jemanden / niemandem)
+Ergänze das Indefinitpronomen:
+
+Er vertraut ___ , das ist seine Schwäche.

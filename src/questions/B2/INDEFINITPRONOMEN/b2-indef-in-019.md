@@ -1,8 +1,11 @@
 ---
 id: b2-indef-in-019
 type: input-text
+hint: Indefinitpronomen — alles / etwas / nichts / niemand
 correct:
   - nichts
 ---
 
-Das Thema ist mir völlig neu; ich habe ___ davon gehört. (Indefinitpronomen — alles / etwas / nichts / niemand)
+Ergänze das Indefinitpronomen:
+
+Das Thema ist mir völlig neu; ich habe ___ davon gehört.

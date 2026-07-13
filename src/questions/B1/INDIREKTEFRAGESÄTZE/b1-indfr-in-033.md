@@ -1,8 +1,11 @@
 ---
 id: b1-indfr-in-033
 type: input-text
+hint: Indirekte Frage — dass / denn / ob / wenn
 correct:
   - ob
 ---
 
-Er fragt, ___ wir morgen kommen. (Indirekte Frage — dass / denn / ob / wenn)
+Ergänze das Fragewort (indirekte Frage):
+
+Er fragt, ___ wir morgen kommen.

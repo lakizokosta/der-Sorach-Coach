@@ -1,8 +1,11 @@
 ---
 id: b2-gen-in-027
 type: input-text
+hint: Genitiv-Präposition — Mit / Trotz / Während / Wegen
 correct:
   - Während
 ---
 
-___ des Umbaus ist das Museum geschlossen. (Genitiv-Präposition — Mit / Trotz / Während / Wegen)
+Ergänze die Genitiv-Präposition:
+
+___ des Umbaus ist das Museum geschlossen.

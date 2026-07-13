@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-043
 type: input-text
+hint: Nomen-Präp. — Vertrauen
 correct:
   - in
 ---
 
-Wir haben Vertrauen ___ unser Team. (Nomen-Präp. — Vertrauen)
+Ergänze die passende Präposition:
+
+Wir haben Vertrauen ___ unser Team.

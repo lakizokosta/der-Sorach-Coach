@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-008
 type: input-text
+hint: Artikel — die Sonne, Nom.
 correct:
   - Die
 ---
 
-___ Sonne scheint heute. (Artikel — die Sonne, Nom.)
+Ergänze den Artikel:
+
+___ Sonne scheint heute.

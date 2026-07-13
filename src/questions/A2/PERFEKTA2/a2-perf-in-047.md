@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-047
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - hat
 ---
 
-Er ___ seine Hausaufgaben gemacht. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Er ___ seine Hausaufgaben gemacht.

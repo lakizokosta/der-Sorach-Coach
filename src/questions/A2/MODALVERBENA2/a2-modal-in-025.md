@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-025
 type: input-text
+hint: Modalverb + Verb dürfen
 correct:
   - Darf
 ---
 
-___ man hier fotografieren? (Modalverb + Verb dürfen)
+Ergänze die Modalverbform:
+
+___ man hier fotografieren?

@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-019
 type: input-text
+hint: Adjektivdeklination — warm, mask., Akk.
 correct:
   - warmen
 ---
 
-Sie trägt einen ___ Mantel. (Adjektivdeklination — warm, mask., Akk.)
+Ergänze die Adjektivendung:
+
+Sie trägt einen ___ Mantel.

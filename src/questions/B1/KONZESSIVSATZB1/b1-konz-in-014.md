@@ -1,8 +1,11 @@
 ---
 id: b1-konz-in-014
 type: input-text
+hint: Konzessivsatz — trotzdem
 correct:
   - trotzdem
 ---
 
-Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz — trotzdem)
+Ergänze die Konjunktion (Konzessiv):
+
+Der Verkehr ist schlimm, ___ kommt er rechtzeitig an.

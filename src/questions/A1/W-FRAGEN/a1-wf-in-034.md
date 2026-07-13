@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-034
 type: input-text
+hint: Frage nach Sache
 correct:
   - Welches
 ---
 
-___ Instrument spielst du? — Gitarre. (Frage nach Sache)
+Ergänze das Fragewort:
+
+___ Instrument spielst du? — Gitarre.

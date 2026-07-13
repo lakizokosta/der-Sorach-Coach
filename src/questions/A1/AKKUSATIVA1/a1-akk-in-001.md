@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-001
 type: input-text
+hint: Akkusativ — der Mann, Akk.
 correct:
   - den
 ---
 
-Ich sehe ___ Mann. (Akkusativ — der Mann, Akk.)
+Ergänze die Akkusativform:
+
+Ich sehe ___ Mann.

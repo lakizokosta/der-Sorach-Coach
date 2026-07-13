@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-005
 type: input-text
+hint: Passiv + Verb verkaufen
 correct:
   - werden
 ---
 
-Die Tickets ___ online verkauft. (Passiv + Verb verkaufen)
+Ergänze die Passivform:
+
+Die Tickets ___ online verkauft.

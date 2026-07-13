@@ -1,8 +1,11 @@
 ---
 id: b2-kadv-in-030
 type: input-text
+hint: Konjunktionaladverb — außerdem / dennoch / somit / trotzdem
 correct:
   - somit
 ---
 
-Die Daten sind unvollständig; ___ ist die Analyse schwierig. (Konjunktionaladverb — außerdem / dennoch / somit / trotzdem)
+Ergänze das Konjunktionaladverb:
+
+Die Daten sind unvollständig; ___ ist die Analyse schwierig.

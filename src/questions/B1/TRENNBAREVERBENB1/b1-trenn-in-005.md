@@ -1,8 +1,11 @@
 ---
 id: b1-trenn-in-005
 type: input-text
+hint: Trennbares Verb + Verb ausmachen
 correct:
   - macht
 ---
 
-Sie ___ das Licht aus, wenn sie geht. (Trennbares Verb + Verb ausmachen)
+Ergänze die Verbform (trennbares Verb):
+
+Sie ___ das Licht aus, wenn sie geht.

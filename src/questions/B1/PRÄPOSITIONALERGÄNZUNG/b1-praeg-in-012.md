@@ -1,8 +1,11 @@
 ---
 id: b1-praeg-in-012
 type: input-text
+hint: Verb + Präposition
 correct:
   - über
 ---
 
-Wir diskutieren ___ dem Projekt. (Verb + Präposition)
+Ergänze die Präposition (Verb + Präposition):
+
+Wir diskutieren ___ dem Projekt.

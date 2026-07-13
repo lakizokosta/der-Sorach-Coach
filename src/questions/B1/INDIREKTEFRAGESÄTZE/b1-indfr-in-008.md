@@ -1,8 +1,11 @@
 ---
 id: b1-indfr-in-008
 type: input-text
+hint: Indirekte Frage — dass / ob / weil / wenn
 correct:
   - ob
 ---
 
-Ich frage mich, ___ er recht hat. (Indirekte Frage — dass / ob / weil / wenn)
+Ergänze das Fragewort (indirekte Frage):
+
+Ich frage mich, ___ er recht hat.

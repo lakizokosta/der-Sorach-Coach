@@ -1,8 +1,11 @@
 ---
 id: b1-pradv-in-044
 type: input-text
+hint: Pronominaladverb — Präp. über
 correct:
   - darüber
 ---
 
-Informierst du dich über das Gesetz? — Ich informiere mich ___. (Pronominaladverb — Präp. über)
+Ergänze das Pronominaladverb:
+
+Informierst du dich über das Gesetz? — Ich informiere mich ___.

@@ -1,6 +1,7 @@
 ---
 id: b1-konz-in-001
 type: input-text
+hint: Konzessivsatz — obwohl/obschon
 correct:
   - obwohl
   - Obwohl
@@ -8,4 +9,6 @@ correct:
   - Obschon
 ---
 
-___ er wenig schläft, arbeitet er sehr produktiv. (Konzessivsatz — obwohl/obschon)
+Ergänze die Konjunktion (Konzessiv):
+
+___ er wenig schläft, arbeitet er sehr produktiv.

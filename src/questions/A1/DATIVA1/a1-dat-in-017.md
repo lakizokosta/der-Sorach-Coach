@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-017
 type: input-text
+hint: Dativ — die Freundin, Dat.
 correct:
   - der
 ---
 
-Sie singt mit ___ Freundin. (Dativ — die Freundin, Dat.)
+Ergänze die Dativform:
+
+Sie singt mit ___ Freundin.

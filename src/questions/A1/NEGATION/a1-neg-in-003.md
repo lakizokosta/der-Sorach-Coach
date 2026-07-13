@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-003
 type: input-text
+hint: Negation
 correct:
   - keinen
 ---
 
-Ich habe ___ Hunger. (Negation)
+Ergänze die Verneinung:
+
+Ich habe ___ Hunger.

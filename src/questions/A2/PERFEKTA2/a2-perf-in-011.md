@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-011
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - haben
 ---
 
-Wir ___ auf der Hochzeit ein Lied gesungen. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Wir ___ auf der Hochzeit ein Lied gesungen.

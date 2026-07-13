@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-014
 type: input-text
+hint: Wechselpräpositionen — Wohin?
 correct:
   - nach
 ---
 
-Nach der Schule gehe ich ___ Haus. (Wechselpräpositionen — Wohin?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Nach der Schule gehe ich ___ Haus.

@@ -1,8 +1,11 @@
 ---
 id: b2-konsek-in-001
 type: input-text
+hint: Konsekutivsatz — dass / obwohl / weil / wenn
 correct:
   - dass
 ---
 
-Er sprach so leise, ___ niemand ihn verstehen konnte. (Konsekutivsatz — dass / obwohl / weil / wenn)
+Ergänze die konsekutive Konjunktion:
+
+Er sprach so leise, ___ niemand ihn verstehen konnte.

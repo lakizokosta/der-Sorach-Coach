@@ -1,6 +1,7 @@
 ---
 id: b1-kond-in-046
 type: input-text
+hint: Konditionalsatz — wenn/falls
 correct:
   - wenn
   - Wenn
@@ -8,4 +9,6 @@ correct:
   - Falls
 ---
 
-___ du morgen Zeit hast, treffen wir uns. (Konditionalsatz — wenn/falls)
+Ergänze die Konjunktion (Konditional):
+
+___ du morgen Zeit hast, treffen wir uns.

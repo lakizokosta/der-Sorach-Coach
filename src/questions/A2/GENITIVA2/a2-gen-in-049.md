@@ -1,8 +1,11 @@
 ---
 id: a2-gen-in-049
 type: input-text
+hint: Genitiv — die Arbeit
 correct:
   - der
 ---
 
-Wegen ___ Arbeit ist er müde. (Genitiv — die Arbeit)
+Ergänze die Genitivform:
+
+Wegen ___ Arbeit ist er müde.

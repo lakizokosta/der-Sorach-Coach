@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-016
 type: input-text
+hint: Plural: Tier
 correct:
   - Tiere
 ---
 
-Im Zoo leben viele ___. (Plural: Tier)
+Ergänze die Pluralform:
+
+Im Zoo leben viele ___.

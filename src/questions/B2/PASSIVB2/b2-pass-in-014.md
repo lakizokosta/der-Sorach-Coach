@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-014
 type: input-text
+hint: Passiv + Hilfsverb werden
 correct:
   - wurde
 ---
 
-Der Antrag ___ abgelehnt. (Passiv + Hilfsverb werden)
+Ergänze die Passivform:
+
+Der Antrag ___ abgelehnt.

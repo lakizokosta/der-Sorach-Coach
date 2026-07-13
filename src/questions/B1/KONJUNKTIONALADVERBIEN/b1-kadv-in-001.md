@@ -1,8 +1,11 @@
 ---
 id: b1-kadv-in-001
 type: input-text
+hint: Konjunktionaladverb — Denn / Deshalb / Trotzdem / Weil
 correct:
   - Trotzdem
 ---
 
-Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb — Denn / Deshalb / Trotzdem / Weil)
+Ergänze das Konjunktionaladverb:
+
+Es regnete den ganzen Tag. ___, sind wir spazieren gegangen.

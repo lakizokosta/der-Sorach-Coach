@@ -1,8 +1,11 @@
 ---
 id: b2-kadv-in-050
 type: input-text
+hint: Konjunktionaladverb — außerdem / dennoch / deshalb / folglich
 correct:
   - dennoch
 ---
 
-Das Projekt ist teuer; ___ lohnt es sich. (Konjunktionaladverb — außerdem / dennoch / deshalb / folglich)
+Ergänze das Konjunktionaladverb:
+
+Das Projekt ist teuer; ___ lohnt es sich.

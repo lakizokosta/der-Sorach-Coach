@@ -1,8 +1,11 @@
 ---
 id: b2-konsek-in-038
 type: input-text
+hint: Konsekutivsatz — damit / dass / obwohl / wenn
 correct:
   - dass
 ---
 
-Er war so müde, ___ er sofort einschlief. (Konsekutivsatz — damit / dass / obwohl / wenn)
+Ergänze die konsekutive Konjunktion:
+
+Er war so müde, ___ er sofort einschlief.

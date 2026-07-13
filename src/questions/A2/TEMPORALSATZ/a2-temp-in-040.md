@@ -1,8 +1,11 @@
 ---
 id: a2-temp-in-040
 type: input-text
+hint: Temporal — gleichzeitig
 correct:
   - Während
 ---
 
-___ des Essens sprechen wir über Arbeit. (Temporal — gleichzeitig)
+Ergänze die Konjunktion (Temporal):
+
+___ des Essens sprechen wir über Arbeit.

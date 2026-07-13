@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-020
 type: input-text
+hint: Adjektivdeklination — groß, mask., Dat.
 correct:
   - großen
 ---
 
-Auf dem ___ Markt kaufe ich Obst. (Adjektivdeklination — groß, mask., Dat.)
+Ergänze die Adjektivendung:
+
+Auf dem ___ Markt kaufe ich Obst.

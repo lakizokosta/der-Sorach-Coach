@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-005
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - habe
 ---
 
-Ich ___ meine Freunde im Park getroffen. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Ich ___ meine Freunde im Park getroffen.

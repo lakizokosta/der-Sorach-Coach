@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-011
 type: input-text
+hint: Akkusativ — die Musik, Akk.
 correct:
   - die
 ---
 
-Ich höre ___ Musik. (Akkusativ — die Musik, Akk.)
+Ergänze die Akkusativform:
+
+Ich höre ___ Musik.

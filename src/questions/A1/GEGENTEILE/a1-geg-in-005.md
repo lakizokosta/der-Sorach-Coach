@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-005
 type: input-text
+hint: Gegenteil von billig
 correct:
   - teuer
 ---
 
-Das Hemd ist billig, die Jacke ist ___. (Gegenteil von billig)
+Ergänze das Gegenteil:
+
+Das Hemd ist billig, die Jacke ist ___.

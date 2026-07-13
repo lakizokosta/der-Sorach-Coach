@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-020
 type: input-text
+hint: Dativ — der Verkäufer, Dat.
 correct:
   - dem
 ---
 
-Ich gebe ___ Verkäufer Geld. (Dativ — der Verkäufer, Dat.)
+Ergänze die Dativform:
+
+Ich gebe ___ Verkäufer Geld.

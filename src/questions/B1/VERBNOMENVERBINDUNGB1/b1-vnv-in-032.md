@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-032
 type: input-text
+hint: Verb-Nomen-Verbindung — gibt / leistet / macht / stellt
 correct:
   - leistet
 ---
 
-Sie ___ einen wichtigen Beitrag zur Diskussion. (Verb-Nomen-Verbindung — gibt / leistet / macht / stellt)
+Ergänze die Verb-Nomen-Verbindung:
+
+Sie ___ einen wichtigen Beitrag zur Diskussion.

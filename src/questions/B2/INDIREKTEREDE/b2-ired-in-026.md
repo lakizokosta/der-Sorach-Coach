@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-026
 type: input-text
+hint: Indirekte Rede + Verb haben
 correct:
   - habe
 ---
 
-Er erklärte, er ___ die Aufgabe erledigt. (Indirekte Rede + Verb haben)
+Ergänze die Form (Indirekte Rede):
+
+Er erklärte, er ___ die Aufgabe erledigt.

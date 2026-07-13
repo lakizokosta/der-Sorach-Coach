@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-020
 type: input-text
+hint: Indefinitpronomen — unbestimmte Sache = etwas
 correct:
   - etwas
 ---
 
-Ich habe ___ Wichtiges vergessen. (Indefinitpronomen — unbestimmte Sache = etwas)
+Ergänze das Indefinitpronomen:
+
+Ich habe ___ Wichtiges vergessen.

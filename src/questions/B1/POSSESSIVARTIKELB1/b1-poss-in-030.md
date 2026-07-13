@@ -1,8 +1,11 @@
 ---
 id: b1-poss-in-030
 type: input-text
+hint: Possessivartikel — wir, Akk.
 correct:
   - unseren
 ---
 
-Wir unterstützen ___ jüngeren Kollegen. (Possessivartikel — wir, Akk.)
+Ergänze den Possessivartikel:
+
+Wir unterstützen ___ jüngeren Kollegen.

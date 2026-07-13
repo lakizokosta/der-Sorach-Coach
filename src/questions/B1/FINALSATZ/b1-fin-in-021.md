@@ -1,8 +1,11 @@
 ---
 id: b1-fin-in-021
 type: input-text
+hint: Finalsatz — damit
 correct:
   - damit
 ---
 
-Die Firma schult das Personal, ___ die Qualität steigt. (Finalsatz — damit)
+Ergänze die Konjunktion (Final):
+
+Die Firma schult das Personal, ___ die Qualität steigt.

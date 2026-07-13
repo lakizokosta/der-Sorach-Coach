@@ -5,4 +5,6 @@ correct:
   - werden
 ---
 
+Ergänze die Futurform:
+
 Die Temperaturen ___ (werden) in den nächsten Tagen sinken.

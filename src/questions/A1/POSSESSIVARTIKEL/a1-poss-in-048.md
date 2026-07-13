@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-048
 type: input-text
+hint: Possessivartikel — du, mask., Akk.
 correct:
   - deinen
 ---
 
-Vergiss ___ Pass nicht! (Possessivartikel — du, mask., Akk.)
+Ergänze den Possessivartikel:
+
+Vergiss ___ Pass nicht!

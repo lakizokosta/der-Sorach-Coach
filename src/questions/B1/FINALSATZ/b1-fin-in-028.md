@@ -1,8 +1,11 @@
 ---
 id: b1-fin-in-028
 type: input-text
+hint: Finalsatz — um
 correct:
   - um
 ---
 
-Er macht Sport, ___ fit zu bleiben. (Finalsatz — um)
+Ergänze die Konjunktion (Final):
+
+Er macht Sport, ___ fit zu bleiben.

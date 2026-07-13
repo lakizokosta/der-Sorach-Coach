@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-037
 type: input-text
+hint: Plural: Schuh
 correct:
   - Schuhe
 ---
 
-Im Schrank stehen fünf ___. (Plural: Schuh)
+Ergänze die Pluralform:
+
+Im Schrank stehen fünf ___.

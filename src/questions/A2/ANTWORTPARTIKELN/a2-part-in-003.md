@@ -1,8 +1,11 @@
 ---
 id: a2-part-in-003
 type: input-text
+hint: Antwortpartikel
 correct:
   - Doch
 ---
 
-„Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel)
+Ergänze die Antwortpartikel:
+
+„Du warst doch in Berlin?" — „___, letztes Jahr."

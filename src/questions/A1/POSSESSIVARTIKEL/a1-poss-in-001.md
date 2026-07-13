@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-001
 type: input-text
+hint: Possessivartikel — ich, mask., Nom.
 correct:
   - mein
 ---
 
-Das ist ___ Vater. (Possessivartikel — ich, mask., Nom.)
+Ergänze den Possessivartikel:
+
+Das ist ___ Vater.

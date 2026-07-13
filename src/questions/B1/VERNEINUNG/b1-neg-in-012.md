@@ -1,8 +1,11 @@
 ---
 id: b1-neg-in-012
 type: input-text
+hint: Verneinung — kein / keine / nicht / nie
 correct:
   - kein
 ---
 
-Ich habe ___ Verständnis für diese Entscheidung. (Verneinung — kein / keine / nicht / nie)
+Ergänze die Verneinung:
+
+Ich habe ___ Verständnis für diese Entscheidung.

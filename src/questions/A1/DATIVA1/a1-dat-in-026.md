@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-026
 type: input-text
+hint: Dativ — das Fenster, Dat.
 correct:
   - dem
 ---
 
-Aus ___ Fenster sehe ich den Park. (Dativ — das Fenster, Dat.)
+Ergänze die Dativform:
+
+Aus ___ Fenster sehe ich den Park.

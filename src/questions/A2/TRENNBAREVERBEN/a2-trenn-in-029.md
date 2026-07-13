@@ -1,8 +1,11 @@
 ---
 id: a2-trenn-in-029
 type: input-text
+hint: Trennbares Verb + Verb einkaufen
 correct:
   - kaufen
 ---
 
-Wir ___ heute im Supermarkt ein. (Trennbares Verb + Verb einkaufen)
+Ergänze die Verbform (trennbares Verb):
+
+Wir ___ heute im Supermarkt ein.

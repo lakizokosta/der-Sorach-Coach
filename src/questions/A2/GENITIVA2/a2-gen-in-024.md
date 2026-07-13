@@ -1,8 +1,11 @@
 ---
 id: a2-gen-in-024
 type: input-text
+hint: Genitiv — der Tag
 correct:
   - des
 ---
 
-Während ___ ganzen Tages war ich unterwegs. (Genitiv — der Tag)
+Ergänze die Genitivform:
+
+Während ___ ganzen Tages war ich unterwegs.

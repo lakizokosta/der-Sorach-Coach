@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-043
 type: input-text
+hint: Gegenteil von modern
 correct:
   - altmodisch
 ---
 
-Das Lied ist modern, die Melodie ist ___. (Gegenteil von modern)
+Ergänze das Gegenteil:
+
+Das Lied ist modern, die Melodie ist ___.

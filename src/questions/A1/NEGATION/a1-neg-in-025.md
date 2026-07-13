@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-025
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Das ist ___ interessant. (Negation)
+Ergänze die Verneinung:
+
+Das ist ___ interessant.

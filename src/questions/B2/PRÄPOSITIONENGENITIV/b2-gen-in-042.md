@@ -1,8 +1,11 @@
 ---
 id: b2-gen-in-042
 type: input-text
+hint: Genitiv-Präposition — Bei / Mit / Trotz / Wegen
 correct:
   - Trotz
 ---
 
-___ aller Warnungen setzte er das Projekt fort. (Genitiv-Präposition — Bei / Mit / Trotz / Wegen)
+Ergänze die Genitiv-Präposition:
+
+___ aller Warnungen setzte er das Projekt fort.

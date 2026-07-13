@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-024
 type: input-text
+hint: Frage nach Körperteil
 correct:
   - Was
 ---
 
-___ tut dir weh? — Der Kopf. (Frage nach Körperteil)
+Ergänze das Fragewort:
+
+___ tut dir weh? — Der Kopf.

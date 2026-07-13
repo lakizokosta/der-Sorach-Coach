@@ -1,8 +1,11 @@
 ---
 id: b2-lokal-in-035
 type: input-text
+hint: Lokale Präposition — am / beim / im / zum
 correct:
   - am
 ---
 
-Das Büro befindet sich direkt ___ Marktplatz. (Lokale Präposition — am / beim / im / zum)
+Ergänze die Lokalpräposition:
+
+Das Büro befindet sich direkt ___ Marktplatz.

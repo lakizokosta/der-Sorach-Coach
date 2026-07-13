@@ -1,6 +1,7 @@
 ---
 id: b1-konz-in-050
 type: input-text
+hint: Konzessivsatz — obwohl/obschon
 correct:
   - obwohl
   - Obwohl
@@ -8,4 +9,6 @@ correct:
   - Obschon
 ---
 
-___ die Prüfung schwer war, hat sie bestanden. (Konzessivsatz — obwohl/obschon)
+Ergänze die Konjunktion (Konzessiv):
+
+___ die Prüfung schwer war, hat sie bestanden.

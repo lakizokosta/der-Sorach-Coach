@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-006
 type: input-text
+hint: Possessivartikel — ich, fem., Akk.
 correct:
   - meine
 ---
 
-Ich packe ___ Tasche. (Possessivartikel — ich, fem., Akk.)
+Ergänze den Possessivartikel:
+
+Ich packe ___ Tasche.

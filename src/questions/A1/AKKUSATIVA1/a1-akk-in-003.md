@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-003
 type: input-text
+hint: Akkusativ — das Brot, Akk.
 correct:
   - das
 ---
 
-Ich esse ___ Brot. (Akkusativ — das Brot, Akk.)
+Ergänze die Akkusativform:
+
+Ich esse ___ Brot.

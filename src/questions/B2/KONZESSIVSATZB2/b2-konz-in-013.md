@@ -1,8 +1,11 @@
 ---
 id: b2-konz-in-013
 type: input-text
+hint: Konzessivsatz — Damit / Obgleich / Obwohl / Wenngleich
 correct:
   - Obwohl
 ---
 
-___ die Beweise fehlten, wurde er verurteilt. (Konzessivsatz — Damit / Obgleich / Obwohl / Wenngleich)
+Ergänze die Konjunktion (Konzessiv):
+
+___ die Beweise fehlten, wurde er verurteilt.

@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-041
 type: input-text
+hint: Wechselpräpositionen — Wo?
 correct:
   - in der
 ---
 
-Wo sitzen wir beim Essen? — ___ Küche. (Wechselpräpositionen — Wo?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Wo sitzen wir beim Essen? — ___ Küche.

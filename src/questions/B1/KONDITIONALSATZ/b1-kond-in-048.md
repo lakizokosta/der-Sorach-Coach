@@ -1,8 +1,11 @@
 ---
 id: b1-kond-in-048
 type: input-text
+hint: Konditionalsatz — sobald
 correct:
   - Sobald
 ---
 
-___ der Zug ankommt, fahren wir los. (Konditionalsatz — sobald)
+Ergänze die Konjunktion (Konditional):
+
+___ der Zug ankommt, fahren wir los.

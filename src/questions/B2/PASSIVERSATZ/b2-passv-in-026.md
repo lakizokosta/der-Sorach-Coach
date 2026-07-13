@@ -1,8 +1,11 @@
 ---
 id: b2-passv-in-026
 type: input-text
+hint: Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten
 correct:
   - lässt
 ---
 
-Das Ergebnis ___ sich nicht vorhersagen. (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)
+Ergänze die Passiv-Ersatzform:
+
+Das Ergebnis ___ sich nicht vorhersagen.

@@ -1,8 +1,11 @@
 ---
 id: b2-gen-in-038
 type: input-text
+hint: Genitiv-Präposition — Bei / Inmitten / Mit / Wegen
 correct:
   - Wegen
 ---
 
-___ technischer Probleme verzögerte sich der Start. (Genitiv-Präposition — Bei / Inmitten / Mit / Wegen)
+Ergänze die Genitiv-Präposition:
+
+___ technischer Probleme verzögerte sich der Start.

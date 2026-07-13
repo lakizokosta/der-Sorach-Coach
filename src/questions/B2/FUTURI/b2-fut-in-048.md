@@ -5,4 +5,6 @@ correct:
   - wird
 ---
 
+Ergänze die Futurform:
+
 Die Partei ___ (werden) bei der Wahl zulegen.

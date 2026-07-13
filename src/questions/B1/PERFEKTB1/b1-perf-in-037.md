@@ -1,8 +1,11 @@
 ---
 id: b1-perf-in-037
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - haben
 ---
 
-Wir ___ die Rechnung schon bezahlt. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Wir ___ die Rechnung schon bezahlt.

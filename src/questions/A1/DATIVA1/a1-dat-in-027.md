@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-027
 type: input-text
+hint: Dativ — meine Freunde, Dat.
 correct:
   - meinen
 ---
 
-Mit ___ Freunden esse ich gern. (Dativ — meine Freunde, Dat.)
+Ergänze die Dativform:
+
+Mit ___ Freunden esse ich gern.

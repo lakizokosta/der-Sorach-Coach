@@ -5,4 +5,6 @@ correct:
   - werden
 ---
 
+Ergänze die Futurform:
+
 Die Experten ___ (werden) die Ergebnisse veröffentlichen.

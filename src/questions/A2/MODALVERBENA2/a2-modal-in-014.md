@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-014
 type: input-text
+hint: Modalverb + Verb müssen
 correct:
   - muss
 ---
 
-Er ___ pünktlich zur Arbeit sein. (Modalverb + Verb müssen)
+Ergänze die Modalverbform:
+
+Er ___ pünktlich zur Arbeit sein.

@@ -1,8 +1,11 @@
 ---
 id: a2-trenn-in-048
 type: input-text
+hint: Trennbares Verb + Verb ausfüllen
 correct:
   - fülle
 ---
 
-Ich ___ das Formular auf der Post aus. (Trennbares Verb + Verb ausfüllen)
+Ergänze die Verbform (trennbares Verb):
+
+Ich ___ das Formular auf der Post aus.

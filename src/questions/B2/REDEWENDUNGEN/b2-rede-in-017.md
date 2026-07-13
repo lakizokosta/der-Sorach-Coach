@@ -1,8 +1,11 @@
 ---
 id: b2-rede-in-017
 type: input-text
+hint: Redewendung — brachte / bringen / bringt / gebracht
 correct:
   - bringen
 ---
 
-Wir müssen die Sache auf den Punkt ___ . (Redewendung — brachte / bringen / bringt / gebracht)
+Ergänze die Redewendung:
+
+Wir müssen die Sache auf den Punkt ___ .

@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-008
 type: input-text
+hint: Indirekte Rede + Verb werden
 correct:
   - werde
 ---
 
-Der Arzt meinte, der Patient ___ bald genesen. (Indirekte Rede + Verb werden)
+Ergänze die Form (Indirekte Rede):
+
+Der Arzt meinte, der Patient ___ bald genesen.

@@ -1,8 +1,11 @@
 ---
 id: a2-akk-in-046
 type: input-text
+hint: Akkusativ — das Medikament
 correct:
   - das
 ---
 
-Er nimmt morgens ___ Medikament. (Akkusativ — das Medikament)
+Ergänze die Akkusativform:
+
+Er nimmt morgens ___ Medikament.

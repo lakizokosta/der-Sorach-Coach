@@ -1,8 +1,11 @@
 ---
 id: a2-trenn-in-042
 type: input-text
+hint: Trennbares Verb + Verb vorbereiten
 correct:
   - bereiten
 ---
 
-Wir ___ das Fest vor. (Trennbares Verb + Verb vorbereiten)
+Ergänze die Verbform (trennbares Verb):
+
+Wir ___ das Fest vor.

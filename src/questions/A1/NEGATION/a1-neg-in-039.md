@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-039
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Das ist ___ mein Koffer. (Negation)
+Ergänze die Verneinung:
+
+Das ist ___ mein Koffer.

@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-001
 type: input-text
+hint: Frage nach Ort
 correct:
   - Wo
 ---
 
-___ wohnst du? — In München. (Frage nach Ort)
+Ergänze das Fragewort:
+
+___ wohnst du? — In München.

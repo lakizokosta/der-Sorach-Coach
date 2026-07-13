@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-009
 type: input-text
+hint: Passiv + Hilfsverb werden
 correct:
   - werden
 ---
 
-Die Daten ___ sorgfältig ausgewertet. (Passiv + Hilfsverb werden)
+Ergänze die Passivform:
+
+Die Daten ___ sorgfältig ausgewertet.

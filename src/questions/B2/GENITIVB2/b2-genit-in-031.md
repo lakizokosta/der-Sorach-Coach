@@ -5,4 +5,6 @@ correct:
   - seiner
 ---
 
+Ergänze die Genitivform:
+
 Trotz ___ (sein) Bemühungen blieb das Ergebnis unbefriedigend.

@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-040
 type: input-text
+hint: Passiv + Hilfsverb werden
 correct:
   - wird
 ---
 
-Die Brücke ___ im nächsten Jahr renoviert. (Passiv + Hilfsverb werden)
+Ergänze die Passivform:
+
+Die Brücke ___ im nächsten Jahr renoviert.

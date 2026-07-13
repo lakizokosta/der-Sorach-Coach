@@ -1,8 +1,11 @@
 ---
 id: b2-kadv-in-001
 type: input-text
+hint: Konjunktionaladverb — dagegen / dennoch / deshalb / trotzdem
 correct:
   - deshalb
 ---
 
-Die Kosten sind gestiegen; ___ müssen wir sparen. (Konjunktionaladverb — dagegen / dennoch / deshalb / trotzdem)
+Ergänze das Konjunktionaladverb:
+
+Die Kosten sind gestiegen; ___ müssen wir sparen.

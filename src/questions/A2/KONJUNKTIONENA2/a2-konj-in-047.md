@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-047
 type: input-text
+hint: Konjunktion — Bedingung
 correct:
   - Wenn
 ---
 
-___ du müde bist, solltest du dich ausruhen. (Konjunktion — Bedingung)
+Ergänze die Konjunktion:
+
+___ du müde bist, solltest du dich ausruhen.

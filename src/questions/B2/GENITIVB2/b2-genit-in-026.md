@@ -5,4 +5,6 @@ correct:
   - der
 ---
 
+Ergänze die Genitivform:
+
 Infolge ___ (die) Reform änderten sich viele Regeln.

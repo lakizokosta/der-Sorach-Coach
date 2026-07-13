@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-045
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Das ist ___ billig. (Negation)
+Ergänze die Verneinung:
+
+Das ist ___ billig.

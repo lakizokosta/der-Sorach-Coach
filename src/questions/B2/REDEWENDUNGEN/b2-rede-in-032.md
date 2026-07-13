@@ -1,8 +1,11 @@
 ---
 id: b2-rede-in-032
 type: input-text
+hint: Redewendung — flach / flachen / flacher / flaches
 correct:
   - flach
 ---
 
-Sie hat den Ball ___ gehalten. (Redewendung — flach / flachen / flacher / flaches)
+Ergänze die Redewendung:
+
+Sie hat den Ball ___ gehalten.

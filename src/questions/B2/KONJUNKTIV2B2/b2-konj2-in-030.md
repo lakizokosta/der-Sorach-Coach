@@ -1,8 +1,11 @@
 ---
 id: b2-konj2-in-030
 type: input-text
+hint: Konjunktiv II + Verb sein
 correct:
   - wäre
 ---
 
-Wenn ich du ___, würde ich die Stelle annehmen. (Konjunktiv II + Verb sein)
+Ergänze die Konjunktiv-II-Form:
+
+Wenn ich du ___, würde ich die Stelle annehmen.

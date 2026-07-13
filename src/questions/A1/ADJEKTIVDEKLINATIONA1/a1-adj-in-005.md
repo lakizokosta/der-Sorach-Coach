@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-005
 type: input-text
+hint: Adjektivdeklination — groß, fem., Akk.
 correct:
   - große
 ---
 
-Ich habe keine ___ Wohnung. (Adjektivdeklination — groß, fem., Akk.)
+Ergänze die Adjektivendung:
+
+Ich habe keine ___ Wohnung.

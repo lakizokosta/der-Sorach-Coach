@@ -1,8 +1,11 @@
 ---
 id: b2-kadv-in-036
 type: input-text
+hint: Konjunktionaladverb — außerdem / dann / dennoch / deshalb
 correct:
   - dennoch
 ---
 
-Er war müde; ___ arbeitete er weiter. (Konjunktionaladverb — außerdem / dann / dennoch / deshalb)
+Ergänze das Konjunktionaladverb:
+
+Er war müde; ___ arbeitete er weiter.

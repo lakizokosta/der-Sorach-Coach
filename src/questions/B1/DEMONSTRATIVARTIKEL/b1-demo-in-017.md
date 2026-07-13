@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-017
 type: input-text
+hint: Demonstrativartikel — fem./Pl., Nom./Akk.
 correct:
   - Diese
 ---
 
-___ Kollegin aus der Abteilung hilft mir oft. (Demonstrativartikel — fem./Pl., Nom./Akk.)
+Ergänze den Demonstrativartikel:
+
+___ Kollegin aus der Abteilung hilft mir oft.

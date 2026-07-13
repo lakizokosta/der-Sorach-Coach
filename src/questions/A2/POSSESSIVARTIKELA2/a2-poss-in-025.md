@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-025
 type: input-text
+hint: Possessivartikel — ich, fem., Gen.
 correct:
   - meiner
 ---
 
-Das ist die Tasche ___ Mutter. (Possessivartikel — ich, fem., Gen.)
+Ergänze den Possessivartikel:
+
+Das ist die Tasche ___ Mutter.

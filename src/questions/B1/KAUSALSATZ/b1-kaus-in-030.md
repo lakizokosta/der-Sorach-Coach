@@ -1,6 +1,7 @@
 ---
 id: b1-kaus-in-030
 type: input-text
+hint: Kausalsatz — weil/da
 correct:
   - weil
   - Weil
@@ -8,4 +9,6 @@ correct:
   - Da
 ---
 
-___ die Heizung defekt ist, ist es im Büro kalt. (Kausalsatz — weil/da)
+Ergänze die Konjunktion (Kausal):
+
+___ die Heizung defekt ist, ist es im Büro kalt.

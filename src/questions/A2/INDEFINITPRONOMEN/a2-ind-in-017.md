@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-017
 type: input-text
+hint: Indefinitpronomen — unbestimmte Person = jemand
 correct:
   - Jemand
 ---
 
-___ ist da, der mir helfen kann. (Indefinitpronomen — unbestimmte Person = jemand)
+Ergänze das Indefinitpronomen:
+
+___ ist da, der mir helfen kann.

@@ -5,4 +5,6 @@ correct:
   - wird
 ---
 
+Ergänze die Futurform:
+
 Es ___ (werden) morgen regnen.

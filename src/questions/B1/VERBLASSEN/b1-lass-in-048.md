@@ -1,8 +1,11 @@
 ---
 id: b1-lass-in-048
 type: input-text
+hint: lassen + Verb bersetzen
 correct:
   - lassen
 ---
 
-Wir ___ unsere Dokumente übersetzen. (lassen + Verb bersetzen)
+Ergänze die lassen-Form:
+
+Wir ___ unsere Dokumente übersetzen.

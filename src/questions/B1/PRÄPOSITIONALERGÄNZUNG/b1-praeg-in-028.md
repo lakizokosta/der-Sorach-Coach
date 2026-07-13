@@ -1,8 +1,11 @@
 ---
 id: b1-praeg-in-028
 type: input-text
+hint: Verb + Präposition
 correct:
   - auf
 ---
 
-Er wartet ___ dem Arzt. (Verb + Präposition)
+Ergänze die Präposition (Verb + Präposition):
+
+Er wartet ___ dem Arzt.

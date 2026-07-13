@@ -1,8 +1,11 @@
 ---
 id: a2-dat-in-033
 type: input-text
+hint: Dativ — Personalpronomen — du, Dat.
 correct:
   - dir
 ---
 
-Das schmeckt ___ gut. (Dativ — Personalpronomen — du, Dat.)
+Ergänze die Dativform:
+
+Das schmeckt ___ gut.

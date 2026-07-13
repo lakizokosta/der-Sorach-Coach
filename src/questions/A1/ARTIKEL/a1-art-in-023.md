@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-023
 type: input-text
+hint: Artikel — ein Brot, neutr., Akk.
 correct:
   - ein
 ---
 
-Er isst ___ Brot. (Artikel — ein Brot, neutr., Akk.)
+Ergänze den Artikel:
+
+Er isst ___ Brot.

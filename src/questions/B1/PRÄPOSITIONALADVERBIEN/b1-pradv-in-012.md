@@ -1,8 +1,11 @@
 ---
 id: b1-pradv-in-012
 type: input-text
+hint: Pronominaladverb — Präp. an
 correct:
   - daran
 ---
 
-Glaubst du an einen Erfolg? — Ich glaube ___. (Pronominaladverb — Präp. an)
+Ergänze das Pronominaladverb:
+
+Glaubst du an einen Erfolg? — Ich glaube ___.

@@ -1,8 +1,11 @@
 ---
 id: b1-neg-in-045
 type: input-text
+hint: Verneinung — keine / nicht / nichts / nie
 correct:
   - nicht
 ---
 
-Wir fahren ___ mit dem Auto. (Verneinung — keine / nicht / nichts / nie)
+Ergänze die Verneinung:
+
+Wir fahren ___ mit dem Auto.

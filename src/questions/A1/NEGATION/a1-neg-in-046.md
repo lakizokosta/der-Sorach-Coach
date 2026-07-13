@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-046
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Ich verstehe ___ die Frage. (Negation)
+Ergänze die Verneinung:
+
+Ich verstehe ___ die Frage.

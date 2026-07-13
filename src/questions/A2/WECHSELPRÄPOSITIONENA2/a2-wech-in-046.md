@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-046
 type: input-text
+hint: Wechselpräpositionen — Wohin?
 correct:
   - in die
 ---
 
-Wir fahren ___ Berge. (Wechselpräpositionen — Wohin?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Wir fahren ___ Berge.

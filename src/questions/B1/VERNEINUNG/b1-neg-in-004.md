@@ -1,8 +1,11 @@
 ---
 id: b1-neg-in-004
 type: input-text
+hint: Verneinung — keine / keinen / nicht / nie
 correct:
   - keinen
 ---
 
-Sie trinkt ___ Kaffee mehr. (Verneinung — keine / keinen / nicht / nie)
+Ergänze die Verneinung:
+
+Sie trinkt ___ Kaffee mehr.

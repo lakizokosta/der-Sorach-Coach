@@ -1,8 +1,11 @@
 ---
 id: b2-konsek-in-032
 type: input-text
+hint: Konsekutivsatz — damit / dass / sodass / weil
 correct:
   - sodass
 ---
 
-Die Musik war so laut, ___ sich die Nachbarn beschwerten. (Konsekutivsatz — damit / dass / sodass / weil)
+Ergänze die konsekutive Konjunktion:
+
+Die Musik war so laut, ___ sich die Nachbarn beschwerten.

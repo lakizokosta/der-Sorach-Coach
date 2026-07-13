@@ -1,8 +1,11 @@
 ---
 id: a2-refl-in-007
 type: input-text
+hint: Reflexiv + Verb erkälten
 correct:
   - habe
 ---
 
-Ich ___ mich erkältet. (Reflexiv + Verb erkälten)
+Ergänze die Reflexivform:
+
+Ich ___ mich erkältet.

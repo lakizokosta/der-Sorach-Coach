@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-018
 type: input-text
+hint: Dativ — die Küche, Dat.
 correct:
   - der
 ---
 
-In ___ Küche kocht Papa. (Dativ — die Küche, Dat.)
+Ergänze die Dativform:
+
+In ___ Küche kocht Papa.

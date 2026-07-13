@@ -1,8 +1,11 @@
 ---
 id: b2-temp-in-016
 type: input-text
+hint: Temporalnebensatz — Bevor / Bis / Nachdem / Seitdem
 correct:
   - Bevor
 ---
 
-___, der Kurs begann, kannten sich alle. (Temporalnebensatz — Bevor / Bis / Nachdem / Seitdem)
+Ergänze die Konjunktion (Temporal):
+
+___, der Kurs begann, kannten sich alle.

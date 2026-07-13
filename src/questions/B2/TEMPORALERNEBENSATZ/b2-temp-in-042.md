@@ -1,8 +1,11 @@
 ---
 id: b2-temp-in-042
 type: input-text
+hint: Temporalnebensatz — Bevor / Bis / Nachdem / Während
 correct:
   - Bevor
 ---
 
-___, der Film begann, kamen noch viele Zuschauer. (Temporalnebensatz — Bevor / Bis / Nachdem / Während)
+Ergänze die Konjunktion (Temporal):
+
+___, der Film begann, kamen noch viele Zuschauer.

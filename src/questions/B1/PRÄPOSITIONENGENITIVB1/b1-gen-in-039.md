@@ -1,8 +1,11 @@
 ---
 id: b1-gen-in-039
 type: input-text
+hint: Genitiv-Präposition
 correct:
   - Trotz
 ---
 
-___ der guten Vorbereitung war sie nervös. (Genitiv-Präposition)
+Ergänze die Genitiv-Präposition:
+
+___ der guten Vorbereitung war sie nervös.

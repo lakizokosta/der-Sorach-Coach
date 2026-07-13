@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-028
 type: input-text
+hint: Adjektivdeklination — hell, fem., Dat.
 correct:
   - hellen
 ---
 
-In der ___ Küche kocht meine Mutter. (Adjektivdeklination — hell, fem., Dat.)
+Ergänze die Adjektivendung:
+
+In der ___ Küche kocht meine Mutter.

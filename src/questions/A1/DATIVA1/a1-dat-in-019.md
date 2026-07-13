@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-019
 type: input-text
+hint: Dativ — die Arbeit, Dat.
 correct:
   - der
 ---
 
-Bei ___ Arbeit lerne ich viel. (Dativ — die Arbeit, Dat.)
+Ergänze die Dativform:
+
+Bei ___ Arbeit lerne ich viel.

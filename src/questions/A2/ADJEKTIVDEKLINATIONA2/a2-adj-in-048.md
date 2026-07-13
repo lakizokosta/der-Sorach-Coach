@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-048
 type: input-text
+hint: Adjektivdeklination — groß, fem., Akk.
 correct:
   - große
 ---
 
-Ich bestelle eine ___ Pizza. (Adjektivdeklination — groß, fem., Akk.)
+Ergänze die Adjektivendung:
+
+Ich bestelle eine ___ Pizza.

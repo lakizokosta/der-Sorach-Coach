@@ -1,8 +1,11 @@
 ---
 id: b1-praep-in-030
 type: input-text
+hint: Präposition — auf / in / nach / zu
 correct:
   - in
 ---
 
-Er ist ___ dem Geschäft. (Präposition — auf / in / nach / zu)
+Ergänze die Präposition:
+
+Er ist ___ dem Geschäft.

@@ -1,8 +1,11 @@
 ---
 id: b2-konz-in-035
 type: input-text
+hint: Konzessivsatz — Damit / Obgleich / Weil / Wenngleich
 correct:
   - Obgleich
 ---
 
-___ die Chancen gering waren, versuchte er es. (Konzessivsatz — Damit / Obgleich / Weil / Wenngleich)
+Ergänze die Konjunktion (Konzessiv):
+
+___ die Chancen gering waren, versuchte er es.

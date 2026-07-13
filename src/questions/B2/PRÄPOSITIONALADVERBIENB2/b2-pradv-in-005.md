@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-005
 type: input-text
+hint: Pronominaladverb — haben / habt / hat / hättet
 correct:
   - habt
 ---
 
-Worüber ___ ihr gestern gesprochen? (Pronominaladverb — haben / habt / hat / hättet)
+Ergänze das Pronominaladverb:
+
+Worüber ___ ihr gestern gesprochen?

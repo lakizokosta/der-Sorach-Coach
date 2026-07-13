@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-038
 type: input-text
+hint: Frage nach Name
 correct:
   - Welche
 ---
 
-___ Straße ist das? — Die Goethestraße. (Frage nach Name)
+Ergänze das Fragewort:
+
+___ Straße ist das? — Die Goethestraße.

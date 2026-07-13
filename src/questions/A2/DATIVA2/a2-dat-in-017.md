@@ -1,8 +1,11 @@
 ---
 id: a2-dat-in-017
 type: input-text
+hint: Dativ — Personalpronomen — Sie, Dat.
 correct:
   - Ihnen
 ---
 
-Ich helfe ___ beim Ausfüllen. (Dativ — Personalpronomen — Sie, Dat.)
+Ergänze die Dativform:
+
+Ich helfe ___ beim Ausfüllen.

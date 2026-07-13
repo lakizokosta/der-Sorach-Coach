@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-050
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - haben
 ---
 
-Wir ___ die Reise im Reisebüro gebucht. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Wir ___ die Reise im Reisebüro gebucht.

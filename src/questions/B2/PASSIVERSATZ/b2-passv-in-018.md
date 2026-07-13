@@ -1,8 +1,11 @@
 ---
 id: b2-passv-in-018
 type: input-text
+hint: Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten
 correct:
   - lässt
 ---
 
-Das Problem ___ sich leicht lösen. (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)
+Ergänze die Passiv-Ersatzform:
+
+Das Problem ___ sich leicht lösen.

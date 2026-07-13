@@ -1,8 +1,11 @@
 ---
 id: b2-rede-in-003
 type: input-text
+hint: Redewendung — Rolle / Rollen / Rollende / Rollens
 correct:
   - Rollen
 ---
 
-Wir müssen den Stein ins ___ bringen. (Redewendung — Rolle / Rollen / Rollende / Rollens)
+Ergänze die Redewendung:
+
+Wir müssen den Stein ins ___ bringen.

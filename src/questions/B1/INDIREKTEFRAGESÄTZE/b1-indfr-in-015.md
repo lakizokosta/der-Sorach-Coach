@@ -1,8 +1,11 @@
 ---
 id: b1-indfr-in-015
 type: input-text
+hint: Indirekte Frage — dass / denn / was / weil
 correct:
   - was
 ---
 
-Ich möchte wissen, ___ du denkst. (Indirekte Frage — dass / denn / was / weil)
+Ergänze das Fragewort (indirekte Frage):
+
+Ich möchte wissen, ___ du denkst.

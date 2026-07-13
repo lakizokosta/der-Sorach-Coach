@@ -1,8 +1,11 @@
 ---
 id: b2-rede-in-010
 type: input-text
+hint: Redewendung — Blaue / Blauem / Blauen / Blaues
 correct:
   - Blaue
 ---
 
-Das war ein Schuss ins ___ . (Redewendung — Blaue / Blauem / Blauen / Blaues)
+Ergänze die Redewendung:
+
+Das war ein Schuss ins ___ .

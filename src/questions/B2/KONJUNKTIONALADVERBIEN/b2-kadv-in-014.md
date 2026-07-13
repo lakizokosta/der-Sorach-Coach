@@ -1,8 +1,11 @@
 ---
 id: b2-kadv-in-014
 type: input-text
+hint: Konjunktionaladverb — außerdem / daher / dennoch / trotzdem
 correct:
   - daher
 ---
 
-Er hat recht; ___ sollten wir zuhören. (Konjunktionaladverb — außerdem / daher / dennoch / trotzdem)
+Ergänze das Konjunktionaladverb:
+
+Er hat recht; ___ sollten wir zuhören.

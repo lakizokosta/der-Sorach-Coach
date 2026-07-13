@@ -1,6 +1,7 @@
 ---
 id: b1-konz-in-017
 type: input-text
+hint: Konzessivsatz — obwohl/obschon
 correct:
   - obwohl
   - Obwohl
@@ -8,4 +9,6 @@ correct:
   - Obschon
 ---
 
-Sie geht joggen, ___ es kalt ist. (Konzessivsatz — obwohl/obschon)
+Ergänze die Konjunktion (Konzessiv):
+
+Sie geht joggen, ___ es kalt ist.

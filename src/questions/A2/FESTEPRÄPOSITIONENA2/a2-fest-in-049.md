@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-049
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
   - über
 ---
 
-Wir lachen ___ den Witz. (Feste Präposition — an / auf / für / mit / nach / über / von)
+Ergänze die feste Präposition:
+
+Wir lachen ___ den Witz.

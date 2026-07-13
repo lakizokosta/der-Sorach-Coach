@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-045
 type: input-text
+hint: Verb-Nomen-Verbindung — mache / nehme / stelle / treffe
 correct:
   - mache
 ---
 
-Ich ___ eine Pause. (Verb-Nomen-Verbindung — mache / nehme / stelle / treffe)
+Ergänze die Verb-Nomen-Verbindung:
+
+Ich ___ eine Pause.

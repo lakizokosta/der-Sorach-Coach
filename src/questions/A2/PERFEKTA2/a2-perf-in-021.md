@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-021
 type: input-text
+hint: Perfekt + Hilfsverb sein
 correct:
   - ist
 ---
 
-Sie ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
+Ergänze die Perfektform:
+
+Sie ___ nach Berlin gefahren.

@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-041
 type: input-text
+hint: Possessivartikel — ich, mask., Akk.
 correct:
   - meinen
 ---
 
-Ich vergesse ___ Stift. (Possessivartikel — ich, mask., Akk.)
+Ergänze den Possessivartikel:
+
+Ich vergesse ___ Stift.

@@ -1,8 +1,11 @@
 ---
 id: b1-poss-in-037
 type: input-text
+hint: Possessivartikel — er, Nom./Akk.
 correct:
   - seine
 ---
 
-Er kennt ___ Nachbarn schon lange. (Possessivartikel — er, Nom./Akk.)
+Ergänze den Possessivartikel:
+
+Er kennt ___ Nachbarn schon lange.

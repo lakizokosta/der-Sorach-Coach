@@ -1,8 +1,11 @@
 ---
 id: b1-kaus-in-014
 type: input-text
+hint: Kausalsatz — denn
 correct:
   - denn
 ---
 
-Er ist pünktlich, ___ er den frühen Bus genommen hat. (Kausalsatz — denn)
+Ergänze die Konjunktion (Kausal):
+
+Er ist pünktlich, ___ er den frühen Bus genommen hat.

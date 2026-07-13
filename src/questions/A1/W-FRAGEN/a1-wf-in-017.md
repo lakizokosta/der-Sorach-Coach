@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-017
 type: input-text
+hint: Frage nach Person
 correct:
   - Wer
 ---
 
-___ hat heute Geburtstag? — Meine Schwester. (Frage nach Person)
+Ergänze das Fragewort:
+
+___ hat heute Geburtstag? — Meine Schwester.

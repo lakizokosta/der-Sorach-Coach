@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-026
 type: input-text
+hint: Modalverb + Verb müssen
 correct:
   - muss
 ---
 
-Sie ___ jeden Tag trainieren. (Modalverb + Verb müssen)
+Ergänze die Modalverbform:
+
+Sie ___ jeden Tag trainieren.

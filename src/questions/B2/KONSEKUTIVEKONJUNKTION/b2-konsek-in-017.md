@@ -1,8 +1,11 @@
 ---
 id: b2-konsek-in-017
 type: input-text
+hint: Konsekutivsatz — damit / obwohl / sodass / weil
 correct:
   - sodass
 ---
 
-Es war so heiß, ___ die Schule ausfiel. (Konsekutivsatz — damit / obwohl / sodass / weil)
+Ergänze die konsekutive Konjunktion:
+
+Es war so heiß, ___ die Schule ausfiel.

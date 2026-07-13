@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-036
 type: input-text
+hint: Adjektivdeklination — kalt, fem., Akk.
 correct:
   - kalte
 ---
 
-Wir trinken eine ___ Limonade. (Adjektivdeklination — kalt, fem., Akk.)
+Ergänze die Adjektivendung:
+
+Wir trinken eine ___ Limonade.

@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-009
 type: input-text
+hint: Gegenteil von offen
 correct:
   - geschlossen
 ---
 
-Das Geschäft ist offen, die Bank ist ___. (Gegenteil von offen)
+Ergänze das Gegenteil:
+
+Das Geschäft ist offen, die Bank ist ___.

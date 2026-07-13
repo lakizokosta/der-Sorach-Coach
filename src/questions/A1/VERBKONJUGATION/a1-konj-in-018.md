@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-018
 type: input-text
+hint: Präsens + Verb machen
 correct:
   - macht
 ---
 
-Er ___ die Hausaufgaben. (Präsens + Verb machen)
+Ergänze die Präsensform des Verbs:
+
+Er ___ die Hausaufgaben.

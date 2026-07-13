@@ -1,8 +1,11 @@
 ---
 id: b2-lokal-in-008
 type: input-text
+hint: Lokale Präposition — am entlang / den entlang / entlang / entlang den
 correct:
   - entlang
 ---
 
-Sie ging den Gang ___ bis zum Ende. (Lokale Präposition — am entlang / den entlang / entlang / entlang den)
+Ergänze die Lokalpräposition:
+
+Sie ging den Gang ___ bis zum Ende.

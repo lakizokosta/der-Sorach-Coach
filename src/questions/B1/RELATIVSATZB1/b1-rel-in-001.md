@@ -1,8 +1,11 @@
 ---
 id: b1-rel-in-001
 type: input-text
+hint: Relativpronomen — mask., Nom.
 correct:
   - der
 ---
 
-Der Kollege, ___ neben mir sitzt, ist neu. (Relativpronomen — mask., Nom.)
+Ergänze das Relativpronomen:
+
+Der Kollege, ___ neben mir sitzt, ist neu.

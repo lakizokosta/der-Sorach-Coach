@@ -1,8 +1,11 @@
 ---
 id: a2-dat-in-011
 type: input-text
+hint: Dativ — die Schule
 correct:
   - der
 ---
 
-Ich bin in ___ Schule. (Dativ — die Schule)
+Ergänze die Dativform:
+
+Ich bin in ___ Schule.

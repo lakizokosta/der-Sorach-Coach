@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-034
 type: input-text
+hint: Passiv + Verb sein
 correct:
   - sind
 ---
 
-Die Kandidaten ___ benachrichtigt worden. (Passiv + Verb sein)
+Ergänze die Passivform:
+
+Die Kandidaten ___ benachrichtigt worden.

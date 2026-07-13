@@ -1,8 +1,11 @@
 ---
 id: b2-passv-in-040
 type: input-text
+hint: Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten
 correct:
   - beantworten
 ---
 
-Die Frage ist schwer zu ___ . (Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten)
+Ergänze die Passiv-Ersatzform:
+
+Die Frage ist schwer zu ___ .

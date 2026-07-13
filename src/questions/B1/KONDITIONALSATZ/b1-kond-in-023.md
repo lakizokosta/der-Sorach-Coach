@@ -1,6 +1,7 @@
 ---
 id: b1-kond-in-023
 type: input-text
+hint: Konditionalsatz — wenn/falls
 correct:
   - wenn
   - Wenn
@@ -8,4 +9,6 @@ correct:
   - Falls
 ---
 
-___ das Gesetz verabschiedet wird, ändert sich vieles. (Konditionalsatz — wenn/falls)
+Ergänze die Konjunktion (Konditional):
+
+___ das Gesetz verabschiedet wird, ändert sich vieles.

@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-041
 type: input-text
+hint: Negation
 correct:
   - keinen
 ---
 
-Ich trage ___ Hut. (Negation)
+Ergänze die Verneinung:
+
+Ich trage ___ Hut.

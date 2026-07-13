@@ -1,8 +1,11 @@
 ---
 id: a2-akk-in-043
 type: input-text
+hint: Akkusativ — der Film
 correct:
   - den
 ---
 
-Wir sehen ___ Film. (Akkusativ — der Film)
+Ergänze die Akkusativform:
+
+Wir sehen ___ Film.

@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-033
 type: input-text
+hint: Passiv + Verb untersuchen
 correct:
   - werden
 ---
 
-Die Patienten ___ regelmäßig untersucht. (Passiv + Verb untersuchen)
+Ergänze die Passivform:
+
+Die Patienten ___ regelmäßig untersucht.

@@ -1,8 +1,11 @@
 ---
 id: b2-lokal-in-022
 type: input-text
+hint: Lokale Präposition — am / beim / im / vom
 correct:
   - am
 ---
 
-Das Hotel liegt ___ See. (Lokale Präposition — am / beim / im / vom)
+Ergänze die Lokalpräposition:
+
+Das Hotel liegt ___ See.

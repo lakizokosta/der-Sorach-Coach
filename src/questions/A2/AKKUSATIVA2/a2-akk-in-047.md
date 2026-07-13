@@ -1,8 +1,11 @@
 ---
 id: a2-akk-in-047
 type: input-text
+hint: Akkusativ — das Museum
 correct:
   - das
 ---
 
-Wir besuchen heute ___ Museum. (Akkusativ — das Museum)
+Ergänze die Akkusativform:
+
+Wir besuchen heute ___ Museum.

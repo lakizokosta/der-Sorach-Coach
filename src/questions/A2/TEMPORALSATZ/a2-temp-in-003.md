@@ -1,8 +1,11 @@
 ---
 id: a2-temp-in-003
 type: input-text
+hint: Temporal — gleichzeitig
 correct:
   - Während
 ---
 
-___ er kocht, höre ich Radio. (Temporal — gleichzeitig)
+Ergänze die Konjunktion (Temporal):
+
+___ er kocht, höre ich Radio.

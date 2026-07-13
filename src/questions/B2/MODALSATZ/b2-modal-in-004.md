@@ -1,8 +1,11 @@
 ---
 id: b2-modal-in-004
 type: input-text
+hint: Modalsatz — indem / obwohl / ohne dass / weil
 correct:
   - ohne dass
 ---
 
-Er ging, ___ er sich verabschiedete. (Modalsatz — indem / obwohl / ohne dass / weil)
+Ergänze die Konjunktion (Modal):
+
+Er ging, ___ er sich verabschiedete.

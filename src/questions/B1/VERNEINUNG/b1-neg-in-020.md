@@ -1,8 +1,11 @@
 ---
 id: b1-neg-in-020
 type: input-text
+hint: Verneinung — kein / keine / nicht / nie
 correct:
   - keine
 ---
 
-Das ist ___ gute Idee. (Verneinung — kein / keine / nicht / nie)
+Ergänze die Verneinung:
+
+Das ist ___ gute Idee.

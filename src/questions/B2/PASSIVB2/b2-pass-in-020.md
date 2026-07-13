@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-020
 type: input-text
+hint: Passiv + Hilfsverb werden
 correct:
   - werden
 ---
 
-Neue Regeln ___ derzeit diskutiert. (Passiv + Hilfsverb werden)
+Ergänze die Passivform:
+
+Neue Regeln ___ derzeit diskutiert.

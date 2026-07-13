@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-022
 type: input-text
+hint: Plural: Park
 correct:
   - Parks
 ---
 
-In dieser Stadt gibt es viele ___. (Plural: Park)
+Ergänze die Pluralform:
+
+In dieser Stadt gibt es viele ___.

@@ -1,8 +1,11 @@
 ---
 id: b1-indfr-in-036
 type: input-text
+hint: Indirekte Frage — dass / ob / weil / wenn
 correct:
   - ob
 ---
 
-Wir sind uns nicht sicher, ___ das stimmt. (Indirekte Frage — dass / ob / weil / wenn)
+Ergänze das Fragewort (indirekte Frage):
+
+Wir sind uns nicht sicher, ___ das stimmt.

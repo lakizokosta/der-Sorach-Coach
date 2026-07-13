@@ -12,6 +12,11 @@ import { md } from './b1-input-text-shared.mjs';
 import { getBank, INPUT_TOPICS as BANK_TOPICS } from './b2-input-text-data.mjs';
 import * as G from './b2-select-one-data.mjs';
 import { transformHint } from './fix-input-text-hints.mjs';
+import {
+  buildInputTextPrompt,
+  closedSetHint,
+  extractParentheticalHint,
+} from './input-text-prompt-shared.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B2');
 
@@ -64,37 +69,25 @@ function closedSetForBankTopic(folder) {
   return sorted;
 }
 
-function closedSetHint(label, correct, options) {
-  const all = [String(correct), ...((options || []).filter((o) => o !== correct))];
-  const sorted = [...new Set(all.map((s) => String(s).trim()))].sort((a, b) => a.localeCompare(b, 'de'));
-  return `${label} — ${sorted.join(' / ')}`;
-}
-
 /** Dativ or Akkusativ object — per base template in genAkkusativDativobjekt(). */
 const AKK_OBJ_CASE = [
   'Dativ', 'Akkusativ', 'Akkusativ', 'Dativ', 'Dativ', 'Dativ', 'Dativ', 'Dativ',
   'Akkusativ', 'Dativ', 'Dativ', 'Akkusativ', 'Dativ', 'Dativ', 'Dativ', 'Dativ', 'Dativ',
 ];
 
-function akkusativDativobjektPrompt(sentence, caseLabel) {
-  const task = caseLabel === 'Dativ'
-    ? 'Ergänze das Dativobjekt (Wem?):'
-    : 'Ergänze das Akkusativobjekt (Wen?):';
-  return `${task}\n\n${sentence}`;
-}
-
 function buildBankPrompt(rawPrompt, folder, correct, id) {
-  const m = rawPrompt.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
+  const { sentence, inner } = extractParentheticalHint(rawPrompt);
   const ans = Array.isArray(correct) ? correct : [correct];
-  if (!m && !CLOSED_SET_BANK_TOPICS[folder]) return rawPrompt;
-  const sentence = m ? m[1].trimEnd() : rawPrompt;
+  let hint;
   if (CLOSED_SET_BANK_TOPICS[folder]) {
     const set = closedSetForBankTopic(folder);
-    return `${sentence} (${CLOSED_SET_BANK_TOPICS[folder]} — ${set.join(' / ')})`;
+    hint = `${CLOSED_SET_BANK_TOPICS[folder]} — ${set.join(' / ')}`;
+  } else if (inner) {
+    hint = transformHint(inner, folder, ans, [], sentence, id);
+  } else {
+    hint = '';
   }
-  const inner = m[2].trim();
-  const hint = transformHint(inner, folder, ans, [], sentence, id);
-  return `${sentence} (${hint})`;
+  return buildInputTextPrompt({ topic: folder, rawPrompt, hint });
 }
 
 function writeBankTopic(folder, prefix, questions) {
@@ -105,8 +98,8 @@ function writeBankTopic(folder, prefix, questions) {
     const id = `${prefix}-${num}`;
     const path = join(ROOT, folder, `${id}.md`);
     if (!FORCE && existsSync(path)) return;
-    const prompt = buildBankPrompt(q.prompt, folder, q.correct, id);
-    writeFileSync(path, md(id, prompt, q.correct), 'utf8');
+    const { prompt, hint } = buildBankPrompt(q.prompt, folder, q.correct, id);
+    writeFileSync(path, md(id, prompt, q.correct, hint), 'utf8');
     n += 1;
   });
   return n;
@@ -121,11 +114,13 @@ function writeSelectOneTopic(folder, prefix, label, questions, { caseLabels } = 
     const path = join(ROOT, folder, `${id}.md`);
     if (!FORCE && existsSync(path)) return;
     const hint = closedSetHint(label, q.correct, q.options || []);
-    const sentence = q.prompt.replace(/\s*\([^)]*\)\s*$/, '').trim();
     const caseLabel = caseLabels?.[i % caseLabels.length];
-    const prompt = caseLabel
-      ? akkusativDativobjektPrompt(sentence, caseLabel)
-      : sentence;
+    const { prompt } = buildInputTextPrompt({
+      topic: folder,
+      rawPrompt: q.prompt,
+      caseLabel,
+      hint,
+    });
     writeFileSync(path, md(id, prompt, q.correct, hint), 'utf8');
     n += 1;
   });

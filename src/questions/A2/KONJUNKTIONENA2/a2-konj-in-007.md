@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-007
 type: input-text
+hint: Konjunktion — Nebensatz
 correct:
   - dass
 ---
 
-Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion — Nebensatz)
+Ergänze die Konjunktion:
+
+Sie sagt, ___ sie nächste Woche Urlaub macht.

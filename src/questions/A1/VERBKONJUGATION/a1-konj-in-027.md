@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-027
 type: input-text
+hint: Präsens + Verb sehen
 correct:
   - Siehst
 ---
 
-___ du den Turm? (Präsens + Verb sehen)
+Ergänze die Präsensform des Verbs:
+
+___ du den Turm?

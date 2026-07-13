@@ -1,8 +1,11 @@
 ---
 id: b1-poss-in-024
 type: input-text
+hint: Possessivartikel — wir, Nom./Akk.
 correct:
   - unsere
 ---
 
-Wir diskutieren ___ gemeinsame Zukunft. (Possessivartikel — wir, Nom./Akk.)
+Ergänze den Possessivartikel:
+
+Wir diskutieren ___ gemeinsame Zukunft.

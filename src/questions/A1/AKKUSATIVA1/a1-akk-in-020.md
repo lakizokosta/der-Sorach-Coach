@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-020
 type: input-text
+hint: Akkusativ — die Straße, Akk.
 correct:
   - die
 ---
 
-Ich kenne ___ Straße gut. (Akkusativ — die Straße, Akk.)
+Ergänze die Akkusativform:
+
+Ich kenne ___ Straße gut.

@@ -15,6 +15,10 @@ import { transformHint } from './fix-input-text-hints.mjs';
 import { inputTextAccepted, inputTextConjunctionHint } from './input-text-conjunction.mjs';
 import { possessivWhoFromForm } from './topic-context-hints.mjs';
 import { finiteToInfinitive } from './verb-hint-banks.mjs';
+import {
+  buildInputTextPrompt,
+  closedSetHint,
+} from './input-text-prompt-shared.mjs';
 
 const FORCE = process.argv.includes('--force');
 const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
@@ -193,14 +197,6 @@ function hintInner(topic, prompt, correct = '') {
   return HINT[topic] || topic;
 }
 
-/** Build a closed-set hint listing correct + distractors so input-text matches the select-one alternatives. */
-function closedSetHint(label, correct, options) {
-  const all = [String(correct), ...((options || []).filter((o) => o !== correct))];
-  // Sort alphabetically for stability; cap at 5 entries.
-  const sorted = [...new Set(all.map((s) => String(s).trim()))].slice(0, 5).sort((a, b) => a.localeCompare(b, 'de'));
-  return `${label} — ${sorted.join(' / ')}`;
-}
-
 /** Topics where input-text is essentially a lexical recall task — the hint
  *  must enumerate the candidate alternatives, otherwise the answer is unguessable.
  */
@@ -223,17 +219,16 @@ function writeTopic(folder, prefix, questions) {
     const id = `${prefix}-${num}`;
     const path = join(ROOT, folder, `${id}.md`);
     if (!FORCE && existsSync(path)) return;
-    let prompt;
     const accepted = inputTextAccepted(folder, q.correct);
+    let hint;
     if (CLOSED_SET_TOPICS[folder]) {
-      const hint = closedSetHint(CLOSED_SET_TOPICS[folder], q.correct, q.options || []);
-      prompt = `${q.prompt} (${hint})`;
+      hint = closedSetHint(CLOSED_SET_TOPICS[folder], q.correct, q.options || []);
     } else {
       const inner = hintInner(folder, q.prompt, q.correct);
-      const hint = transformHint(inner, folder, accepted, q.options || [], q.prompt, id);
-      prompt = `${q.prompt} (${hint})`;
+      hint = transformHint(inner, folder, accepted, q.options || [], q.prompt, id);
     }
-    writeFileSync(path, md(id, prompt, accepted), 'utf8');
+    const { prompt } = buildInputTextPrompt({ topic: folder, rawPrompt: q.prompt, hint });
+    writeFileSync(path, md(id, prompt, accepted, hint), 'utf8');
     n += 1;
   });
   return n;

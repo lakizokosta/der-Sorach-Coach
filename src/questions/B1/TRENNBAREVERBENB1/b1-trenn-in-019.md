@@ -1,8 +1,11 @@
 ---
 id: b1-trenn-in-019
 type: input-text
+hint: Trennbares Verb + Verb vorverlegen
 correct:
   - verlegen
 ---
 
-Wir ___ das Meeting auf nächste Woche vor. (Trennbares Verb + Verb vorverlegen)
+Ergänze die Verbform (trennbares Verb):
+
+Wir ___ das Meeting auf nächste Woche vor.

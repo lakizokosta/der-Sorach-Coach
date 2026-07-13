@@ -1,8 +1,11 @@
 ---
 id: b2-kadv-in-008
 type: input-text
+hint: Konjunktionaladverb — außerdem / dagegen / dennoch / infolgedessen
 correct:
   - infolgedessen
 ---
 
-Er hat Fehler gemacht; ___ wurde er kritisiert. (Konjunktionaladverb — außerdem / dagegen / dennoch / infolgedessen)
+Ergänze das Konjunktionaladverb:
+
+Er hat Fehler gemacht; ___ wurde er kritisiert.

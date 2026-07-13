@@ -1,8 +1,11 @@
 ---
 id: a2-part-in-045
 type: input-text
+hint: Antwortpartikel
 correct:
   - Nein
 ---
 
-„Ist die Wohnung teuer?" — „___, sie ist günstig." (Antwortpartikel)
+Ergänze die Antwortpartikel:
+
+„Ist die Wohnung teuer?" — „___, sie ist günstig."

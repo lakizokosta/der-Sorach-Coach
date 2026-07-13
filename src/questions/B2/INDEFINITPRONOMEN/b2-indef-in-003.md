@@ -1,8 +1,11 @@
 ---
 id: b2-indef-in-003
 type: input-text
+hint: Indefinitpronomen — Alles / Etwas / Jemand / Niemand
 correct:
   - Jemand
 ---
 
-___ hat die Tür offengelassen. (Indefinitpronomen — Alles / Etwas / Jemand / Niemand)
+Ergänze das Indefinitpronomen:
+
+___ hat die Tür offengelassen.

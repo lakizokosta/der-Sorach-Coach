@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-027
 type: input-text
+hint: Demonstrativartikel — mask., Akk. / Pl., Dat.
 correct:
   - jenen
 ---
 
-Ich kenne ___ Politiker aus dem Fernsehen. (Demonstrativartikel — mask., Akk. / Pl., Dat.)
+Ergänze den Demonstrativartikel:
+
+Ich kenne ___ Politiker aus dem Fernsehen.

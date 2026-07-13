@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-011
 type: input-text
+hint: Artikel — das Hobby, Nom.
 correct:
   - Das
 ---
 
-___ Hobby macht Spaß. (Artikel — das Hobby, Nom.)
+Ergänze den Artikel:
+
+___ Hobby macht Spaß.

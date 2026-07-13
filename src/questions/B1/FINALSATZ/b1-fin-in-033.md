@@ -1,8 +1,11 @@
 ---
 id: b1-fin-in-033
 type: input-text
+hint: Finalsatz — um
 correct:
   - um
 ---
 
-Ich nehme Medikamente, ___ die Schmerzen zu lindern. (Finalsatz — um)
+Ergänze die Konjunktion (Final):
+
+Ich nehme Medikamente, ___ die Schmerzen zu lindern.

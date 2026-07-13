@@ -1,8 +1,11 @@
 ---
 id: b2-lokal-in-036
 type: input-text
+hint: Lokale Präposition — auf die / die hinauf / hinauf / hinauf die
 correct:
   - hinauf
 ---
 
-Er ging die Treppe ___ . (Lokale Präposition — auf die / die hinauf / hinauf / hinauf die)
+Ergänze die Lokalpräposition:
+
+Er ging die Treppe ___ .

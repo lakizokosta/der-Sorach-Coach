@@ -1,8 +1,11 @@
 ---
 id: a2-sup-in-035
 type: input-text
+hint: Superlativ — schnell, mask., Nom.
 correct:
   - schnellste
 ---
 
-Der ICE ist der ___ Zug in Deutschland. (Superlativ — schnell, mask., Nom.)
+Ergänze die Superlativform:
+
+Der ICE ist der ___ Zug in Deutschland.

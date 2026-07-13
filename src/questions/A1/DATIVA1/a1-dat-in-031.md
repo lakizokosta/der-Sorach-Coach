@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-031
 type: input-text
+hint: Dativ — die Schuhe, Dat.
 correct:
   - den
 ---
 
-In ___ Schuhen laufe ich schnell. (Dativ — die Schuhe, Dat.)
+Ergänze die Dativform:
+
+In ___ Schuhen laufe ich schnell.

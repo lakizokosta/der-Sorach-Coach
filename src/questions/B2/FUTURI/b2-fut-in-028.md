@@ -5,4 +5,6 @@ correct:
   - werdet
 ---
 
+Ergänze die Futurform:
+
 Ihr ___ (werden) das Problem lösen können.

@@ -1,8 +1,11 @@
 ---
 id: a2-part-in-043
 type: input-text
+hint: Antwortpartikel
 correct:
   - Doch
 ---
 
-„Du kommst doch zur Hochzeit?" — „___, ich komme bestimmt." (Antwortpartikel)
+Ergänze die Antwortpartikel:
+
+„Du kommst doch zur Hochzeit?" — „___, ich komme bestimmt."

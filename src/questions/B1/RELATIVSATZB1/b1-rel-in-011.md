@@ -1,8 +1,11 @@
 ---
 id: b1-rel-in-011
 type: input-text
+hint: Relativpronomen — mask./neutr., Dat.
 correct:
   - dem
 ---
 
-Der Arzt, ___ ich vertraue, ist erfahren. (Relativpronomen — mask./neutr., Dat.)
+Ergänze das Relativpronomen:
+
+Der Arzt, ___ ich vertraue, ist erfahren.

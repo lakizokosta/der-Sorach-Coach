@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-032
 type: input-text
+hint: Akkusativ — die Wörter, Akk.
 correct:
   - die
 ---
 
-Ich lerne ___ Wörter. (Akkusativ — die Wörter, Akk.)
+Ergänze die Akkusativform:
+
+Ich lerne ___ Wörter.

@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-042
 type: input-text
+hint: Konjunktion — Bedingung
 correct:
   - Wenn
 ---
 
-___ du Zeit hast, ruf mich an. (Konjunktion — Bedingung)
+Ergänze die Konjunktion:
+
+___ du Zeit hast, ruf mich an.

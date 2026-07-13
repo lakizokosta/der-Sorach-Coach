@@ -1,8 +1,11 @@
 ---
 id: a2-dat-in-041
 type: input-text
+hint: Dativ — Possessiv — sein Freund, Dat.
 correct:
   - seinem
 ---
 
-Er schreibt ___ Freund eine Nachricht. (Dativ — Possessiv — sein Freund, Dat.)
+Ergänze die Dativform:
+
+Er schreibt ___ Freund eine Nachricht.

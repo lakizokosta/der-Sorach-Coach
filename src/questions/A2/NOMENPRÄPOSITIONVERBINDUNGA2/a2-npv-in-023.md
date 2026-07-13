@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-023
 type: input-text
+hint: Nomen-Präp. — Hoffnung
 correct:
   - auf
 ---
 
-Ich habe Hoffnung ___ besseres Wetter. (Nomen-Präp. — Hoffnung)
+Ergänze die passende Präposition:
+
+Ich habe Hoffnung ___ besseres Wetter.

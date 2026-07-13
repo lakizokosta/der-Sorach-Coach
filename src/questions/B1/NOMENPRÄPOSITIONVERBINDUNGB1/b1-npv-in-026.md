@@ -1,8 +1,11 @@
 ---
 id: b1-npv-in-026
 type: input-text
+hint: Nomen + Präposition
 correct:
   - an
 ---
 
-Er hat Anteil ___ dem Erfolg des Teams. (Nomen + Präposition)
+Ergänze die passende Präposition:
+
+Er hat Anteil ___ dem Erfolg des Teams.

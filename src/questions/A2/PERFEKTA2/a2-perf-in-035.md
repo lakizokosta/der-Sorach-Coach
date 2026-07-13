@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-035
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - habe
 ---
 
-Ich ___ gestern viele Leute kennengelernt. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Ich ___ gestern viele Leute kennengelernt.

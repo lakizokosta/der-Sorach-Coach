@@ -1,8 +1,11 @@
 ---
 id: b1-erg-in-043
 type: input-text
+hint: Ergänzungssatz
 correct:
   - was
 ---
 
-Mich interessiert, ___ du davon hältst. (Ergänzungssatz)
+Ergänze die Konjunktion (Ergänzung):
+
+Mich interessiert, ___ du davon hältst.

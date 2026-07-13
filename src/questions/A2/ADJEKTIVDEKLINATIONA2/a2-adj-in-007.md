@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-007
 type: input-text
+hint: Adjektivdeklination — nett, mask., Akk.
 correct:
   - netten
 ---
 
-Sie hat einen ___ Freund. (Adjektivdeklination — nett, mask., Akk.)
+Ergänze die Adjektivendung:
+
+Sie hat einen ___ Freund.

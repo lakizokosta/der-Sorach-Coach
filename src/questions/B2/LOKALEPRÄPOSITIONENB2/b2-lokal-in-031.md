@@ -1,8 +1,11 @@
 ---
 id: b2-lokal-in-031
 type: input-text
+hint: Lokale Präposition — in das / um / um dem / ums
 correct:
   - um
 ---
 
-Er ging ___ das Gebäude herum. (Lokale Präposition — in das / um / um dem / ums)
+Ergänze die Lokalpräposition:
+
+Er ging ___ das Gebäude herum.

@@ -1,8 +1,11 @@
 ---
 id: b1-lokal-in-027
 type: input-text
+hint: Lokale Präposition — an / auf / in / nach
 correct:
   - auf
 ---
 
-Er wohnt ___ dem Land. (Lokale Präposition — an / auf / in / nach)
+Ergänze die Lokalpräposition:
+
+Er wohnt ___ dem Land.

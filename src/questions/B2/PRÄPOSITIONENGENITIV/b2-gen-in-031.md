@@ -1,8 +1,11 @@
 ---
 id: b2-gen-in-031
 type: input-text
+hint: Genitiv-Präposition — Mit / Trotz / Während / Wegen
 correct:
   - Trotz
 ---
 
-___ der Schwierigkeiten gelang das Projekt. (Genitiv-Präposition — Mit / Trotz / Während / Wegen)
+Ergänze die Genitiv-Präposition:
+
+___ der Schwierigkeiten gelang das Projekt.

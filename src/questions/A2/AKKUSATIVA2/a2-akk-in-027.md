@@ -1,8 +1,11 @@
 ---
 id: a2-akk-in-027
 type: input-text
+hint: Akkusativ — ein Teppich
 correct:
   - einen
 ---
 
-Sie kauft ___ Teppich bei der Auktion. (Akkusativ — ein Teppich)
+Ergänze die Akkusativform:
+
+Sie kauft ___ Teppich bei der Auktion.

@@ -1,8 +1,11 @@
 ---
 id: b1-lass-in-005
 type: input-text
+hint: lassen + Verb kontrollieren
 correct:
   - lässt
 ---
 
-Du ___ dir die Zähne kontrollieren. (lassen + Verb kontrollieren)
+Ergänze die lassen-Form:
+
+Du ___ dir die Zähne kontrollieren.

@@ -1,8 +1,11 @@
 ---
 id: b1-lokal-in-004
 type: input-text
+hint: Lokale Präposition — an / auf / in / zu
 correct:
   - in
 ---
 
-Das Krankenhaus befindet sich ___ der Stadtmitte. (Lokale Präposition — an / auf / in / zu)
+Ergänze die Lokalpräposition:
+
+Das Krankenhaus befindet sich ___ der Stadtmitte.

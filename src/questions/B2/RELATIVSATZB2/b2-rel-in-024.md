@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-024
 type: input-text
+hint: denen
 correct:
   - denen
 ---
 
-Die Studenten, mit ___ wir diskutierten, waren engagiert. (denen)
+Ergänze das Relativpronomen:
+
+Die Studenten, mit ___ wir diskutierten, waren engagiert.

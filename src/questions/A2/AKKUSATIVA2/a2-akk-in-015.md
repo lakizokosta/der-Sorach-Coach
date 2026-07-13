@@ -1,8 +1,11 @@
 ---
 id: a2-akk-in-015
 type: input-text
+hint: Akkusativ — ein Tisch
 correct:
   - einen
 ---
 
-Sie reserviert ___ Tisch im Restaurant. (Akkusativ — ein Tisch)
+Ergänze die Akkusativform:
+
+Sie reserviert ___ Tisch im Restaurant.

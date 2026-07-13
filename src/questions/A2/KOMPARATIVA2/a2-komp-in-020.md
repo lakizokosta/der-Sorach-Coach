@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-020
 type: input-text
+hint: Komparativ — viel
 correct:
   - mehr
 ---
 
-Heute regnet es ___ als gestern. (Komparativ — viel)
+Ergänze die Komparativform:
+
+Heute regnet es ___ als gestern.

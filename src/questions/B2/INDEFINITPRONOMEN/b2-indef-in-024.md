@@ -1,8 +1,11 @@
 ---
 id: b2-indef-in-024
 type: input-text
+hint: Indefinitpronomen — etwas / jemand / nichts / niemand
 correct:
   - etwas
 ---
 
-Er hat ___ Interessantes berichtet. (Indefinitpronomen — etwas / jemand / nichts / niemand)
+Ergänze das Indefinitpronomen:
+
+Er hat ___ Interessantes berichtet.

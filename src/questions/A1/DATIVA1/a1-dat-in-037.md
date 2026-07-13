@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-037
 type: input-text
+hint: Dativ — die Party, Dat.
 correct:
   - der
 ---
 
-Auf ___ Party tanzen alle. (Dativ — die Party, Dat.)
+Ergänze die Dativform:
+
+Auf ___ Party tanzen alle.

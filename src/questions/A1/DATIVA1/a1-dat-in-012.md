@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-012
 type: input-text
+hint: Dativ — er, Dat.
 correct:
   - ihm
 ---
 
-Es geht ___ schlecht. (Dativ — er, Dat.)
+Ergänze die Dativform:
+
+Es geht ___ schlecht.

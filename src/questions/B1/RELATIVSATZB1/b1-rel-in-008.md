@@ -1,8 +1,11 @@
 ---
 id: b1-rel-in-008
 type: input-text
+hint: Relativpronomen — neutr., Nom./Akk.
 correct:
   - das
 ---
 
-Das Medikament, ___ er braucht, ist teuer. (Relativpronomen — neutr., Nom./Akk.)
+Ergänze das Relativpronomen:
+
+Das Medikament, ___ er braucht, ist teuer.

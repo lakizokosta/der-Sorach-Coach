@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-001
 type: input-text
+hint: Gegenteil von groß
 correct:
   - klein
 ---
 
-Der Turm ist groß, das Haus daneben ist ___. (Gegenteil von groß)
+Ergänze das Gegenteil:
+
+Der Turm ist groß, das Haus daneben ist ___.

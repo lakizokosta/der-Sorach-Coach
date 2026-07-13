@@ -1,8 +1,11 @@
 ---
 id: b1-indfr-in-012
 type: input-text
+hint: Indirekte Frage — dass / ob / weil / wenn
 correct:
   - ob
 ---
 
-Er fragt, ___ wir schon gebucht haben. (Indirekte Frage — dass / ob / weil / wenn)
+Ergänze das Fragewort (indirekte Frage):
+
+Er fragt, ___ wir schon gebucht haben.

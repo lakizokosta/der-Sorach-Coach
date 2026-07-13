@@ -1,8 +1,11 @@
 ---
 id: b2-rede-in-001
 type: input-text
+hint: Redewendung — Laufendem / Laufenden / Laufender / Laufendes
 correct:
   - Laufenden
 ---
 
-Bleib auf dem ___ — informiere dich regelmäßig! (Redewendung — Laufendem / Laufenden / Laufender / Laufendes)
+Ergänze die Redewendung:
+
+Bleib auf dem ___ — informiere dich regelmäßig!

@@ -1,8 +1,11 @@
 ---
 id: b2-gen-in-050
 type: input-text
+hint: Genitiv-Präposition — Bei / Dank / Mit / Trotz
 correct:
   - Dank
 ---
 
-___ der guten Vorbereitung bestand sie die Prüfung. (Genitiv-Präposition — Bei / Dank / Mit / Trotz)
+Ergänze die Genitiv-Präposition:
+
+___ der guten Vorbereitung bestand sie die Prüfung.

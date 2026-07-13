@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-021
 type: input-text
+hint: Präsens + Verb finden
 correct:
   - Findest
 ---
 
-___ du den Weg? (Präsens + Verb finden)
+Ergänze die Präsensform des Verbs:
+
+___ du den Weg?

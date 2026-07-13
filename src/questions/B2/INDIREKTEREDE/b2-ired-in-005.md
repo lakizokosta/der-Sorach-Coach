@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-005
 type: input-text
+hint: Indirekte Rede + Verb sein
 correct:
   - sei
 ---
 
-Die Zeitung schrieb, die Lage ___ ernst. (Indirekte Rede + Verb sein)
+Ergänze die Form (Indirekte Rede):
+
+Die Zeitung schrieb, die Lage ___ ernst.

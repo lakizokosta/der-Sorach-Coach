@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-032
 type: input-text
+hint: Indefinitpronomen — unbestimmte Person, Nom. = jemand
 correct:
   - Jemand
 ---
 
-___ wartet vor der Tür. (Indefinitpronomen — unbestimmte Person, Nom. = jemand)
+Ergänze das Indefinitpronomen:
+
+___ wartet vor der Tür.

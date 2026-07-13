@@ -1,8 +1,11 @@
 ---
 id: b2-indef-in-006
 type: input-text
+hint: Indefinitpronomen — etwas / jemand / jemanden / niemanden
 correct:
   - jemanden
 ---
 
-Kennst du ___ hier? (Indefinitpronomen — etwas / jemand / jemanden / niemanden)
+Ergänze das Indefinitpronomen:
+
+Kennst du ___ hier?

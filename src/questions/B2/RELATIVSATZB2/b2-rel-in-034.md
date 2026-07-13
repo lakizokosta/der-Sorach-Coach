@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-034
 type: input-text
+hint: das
 correct:
   - das
 ---
 
-Das Buch, ___ ich suche, ist vergriffen. (das)
+Ergänze das Relativpronomen:
+
+Das Buch, ___ ich suche, ist vergriffen.

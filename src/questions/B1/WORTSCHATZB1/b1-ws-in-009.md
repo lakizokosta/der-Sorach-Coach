@@ -1,8 +1,11 @@
 ---
 id: b1-ws-in-009
 type: input-text
+hint: Wortschatz — Bericht / Berichtbar / Berichten / Berichter
 correct:
   - Bericht
 ---
 
-Der ___ zeigt, dass die Wirtschaft wächst. (Wortschatz — Bericht / Berichtbar / Berichten / Berichter)
+Ergänze das passende Wort:
+
+Der ___ zeigt, dass die Wirtschaft wächst.

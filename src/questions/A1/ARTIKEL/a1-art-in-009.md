@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-009
 type: input-text
+hint: Artikel — der Freund, Nom.
 correct:
   - Der
 ---
 
-___ Freund wohnt in Berlin. (Artikel — der Freund, Nom.)
+Ergänze den Artikel:
+
+___ Freund wohnt in Berlin.

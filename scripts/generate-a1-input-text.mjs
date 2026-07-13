@@ -7,6 +7,11 @@ import { fileURLToPath } from 'node:url';
 
 import { transformHint } from './fix-input-text-hints.mjs';
 import { BANK } from './a1-input-text-data.mjs';
+import {
+  md,
+  buildInputTextPrompt,
+  extractParentheticalHint,
+} from './input-text-prompt-shared.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A1');
 
@@ -24,19 +29,13 @@ const TOPICS = {
   GEGENTEILE: 'a1-geg-in',
 };
 
-function md(id, prompt, correct) {
-  const ans = (Array.isArray(correct) ? correct : [correct]).map((c) => `  - ${c}`).join('\n');
-  return `---\nid: ${id}\ntype: input-text\ncorrect:\n${ans}\n---\n\n${prompt}\n`;
-}
-
-function fixPrompt(raw, topic, correct, id = '') {
-  const stripped = raw.replace(/^\[[^\]]+]\s+/, '');
-  const m = stripped.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
-  if (!m) return stripped;
+function buildPrompt(raw, topic, correct, id = '') {
+  const { inner } = extractParentheticalHint(raw);
   const ans = Array.isArray(correct) ? correct : [correct];
-  const sentence = m[1].trimEnd();
-  const hint = transformHint(m[2], topic, ans, [], sentence, id);
-  return `${sentence} (${hint})`;
+  const hint = inner
+    ? transformHint(inner, topic, ans, [], extractParentheticalHint(raw).sentence, id)
+    : '';
+  return buildInputTextPrompt({ topic, rawPrompt: raw, hint });
 }
 
 function writeTopic(folder, prefix, items, force = false) {
@@ -47,14 +46,14 @@ function writeTopic(folder, prefix, items, force = false) {
     const id = `${prefix}-${num}`;
     const path = join(ROOT, folder, `${id}.md`);
     if (!force && existsSync(path)) return;
-    const prompt = fixPrompt(item[0], folder, item[1], id);
-    writeFileSync(path, md(id, prompt, item[1]), 'utf8');
+    const { prompt, hint } = buildPrompt(item[0], folder, item[1], id);
+    writeFileSync(path, md(id, prompt, item[1], hint), 'utf8');
     n += 1;
   });
   return n;
 }
 
-/** Re-apply fixPrompt() to existing files (e.g. after hint policy change). */
+/** Re-apply prompts to existing files (e.g. after hint policy change). */
 function restoreTopicHints(topicKey) {
   const prefix = TOPICS[topicKey];
   const items = BANK[topicKey];
@@ -65,32 +64,40 @@ function restoreTopicHints(topicKey) {
     const id = `${prefix}-${num}`;
     const path = join(ROOT, topicKey, `${id}.md`);
     if (!existsSync(path)) return;
-    const prompt = fixPrompt(item[0], topicKey, item[1], id);
-    writeFileSync(path, md(id, prompt, item[1]), 'utf8');
+    const { prompt, hint } = buildPrompt(item[0], topicKey, item[1], id);
+    writeFileSync(path, md(id, prompt, item[1], hint), 'utf8');
     n += 1;
   });
   return n;
 }
 
-
-export { BANK, fixPrompt, md, restoreTopicHints };
+export { BANK, restoreTopicHints };
 
 const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
 if (isMain) {
   if (process.argv.includes('--restore-hints')) {
-    const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8) || 'VERBKONJUGATION';
-    const n = restoreTopicHints(topic);
-    console.log(`Restored hints in ${n} ${topic} files.`);
+    const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
+    if (topic) {
+      console.log(`Restored ${restoreTopicHints(topic)} ${topic} input-text files.`);
+    } else {
+      let total = 0;
+      for (const t of Object.keys(TOPICS)) total += restoreTopicHints(t);
+      console.log(`Restored ${total} A1 input-text files.`);
+    }
     process.exit(0);
   }
-  const force = process.argv.includes('--force');
-  const topicArg = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
+
+  const FORCE = process.argv.includes('--force');
+  const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
+
   let total = 0;
   for (const [folder, prefix] of Object.entries(TOPICS)) {
-    if (topicArg && folder !== topicArg) continue;
-    const n = writeTopic(folder, prefix, BANK[folder], force);
+    if (TOPIC_ARG && folder !== TOPIC_ARG) continue;
+    const items = BANK[folder];
+    if (!items) throw new Error(`Missing bank for ${folder}`);
+    const n = writeTopic(folder, prefix, items, FORCE);
     total += n;
-    console.log(`${folder}: ${force ? '~' : '+'}${n}`);
+    console.log(`${folder}: ${FORCE ? 'regen' : '+'}${n} input-text`);
   }
-  console.log(`\nTotal ${force ? 'updated' : 'new'} input-text files: ${total}`);
+  console.log(`\nTotal ${FORCE ? 'regenerated' : 'new'} input-text files: ${total}`);
 }

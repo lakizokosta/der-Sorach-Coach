@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-020
 type: input-text
+hint: Plural: Pizza
 correct:
   - Pizzen
 ---
 
-Wir bestellen zwei große ___. (Plural: Pizza)
+Ergänze die Pluralform:
+
+Wir bestellen zwei große ___.

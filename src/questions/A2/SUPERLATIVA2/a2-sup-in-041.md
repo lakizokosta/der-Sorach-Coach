@@ -1,8 +1,11 @@
 ---
 id: a2-sup-in-041
 type: input-text
+hint: Superlativ — gut
 correct:
   - besten
 ---
 
-Sie kocht am ___. (Superlativ — gut)
+Ergänze die Superlativform:
+
+Sie kocht am ___.

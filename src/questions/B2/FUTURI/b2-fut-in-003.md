@@ -5,4 +5,6 @@ correct:
   - wird
 ---
 
+Ergänze die Futurform:
+
 Das ___ (werden) sicher Konsequenzen haben.

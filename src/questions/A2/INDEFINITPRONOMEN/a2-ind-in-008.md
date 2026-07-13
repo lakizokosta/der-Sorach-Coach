@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-008
 type: input-text
+hint: Indefinitpronomen — unpersönliches Subjekt = man
 correct:
   - Man
 ---
 
-___ darf hier nicht rauchen. (Indefinitpronomen — unpersönliches Subjekt = man)
+Ergänze das Indefinitpronomen:
+
+___ darf hier nicht rauchen.

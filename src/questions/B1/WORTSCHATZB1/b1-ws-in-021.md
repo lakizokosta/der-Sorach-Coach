@@ -1,8 +1,11 @@
 ---
 id: b1-ws-in-021
 type: input-text
+hint: Wortschatz — Unterkommen / Unterkunft / Unterkünft / Unterkunftung
 correct:
   - Unterkunft
 ---
 
-Er hat eine ___ für nächsten Monat gebucht. (Wortschatz — Unterkommen / Unterkunft / Unterkünft / Unterkunftung)
+Ergänze das passende Wort:
+
+Er hat eine ___ für nächsten Monat gebucht.

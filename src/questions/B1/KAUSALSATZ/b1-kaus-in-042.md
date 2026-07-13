@@ -1,6 +1,7 @@
 ---
 id: b1-kaus-in-042
 type: input-text
+hint: Kausalsatz — weil/da
 correct:
   - da
   - Da
@@ -8,4 +9,6 @@ correct:
   - Weil
 ---
 
-___ die Politik sich ändert, reagieren viele Bürger. (Kausalsatz — weil/da)
+Ergänze die Konjunktion (Kausal):
+
+___ die Politik sich ändert, reagieren viele Bürger.

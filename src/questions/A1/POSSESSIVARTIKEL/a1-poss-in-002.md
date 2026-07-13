@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-002
 type: input-text
+hint: Possessivartikel — ich, fem., Nom.
 correct:
   - Meine
 ---
 
-___ Mutter kocht heute Suppe. (Possessivartikel — ich, fem., Nom.)
+Ergänze den Possessivartikel:
+
+___ Mutter kocht heute Suppe.

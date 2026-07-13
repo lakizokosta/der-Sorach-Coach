@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-040
 type: input-text
+hint: Adjektivdeklination — offiziell, fem., Nom.
 correct:
   - offizielle
 ---
 
-Das ist eine ___ Einladung. (Adjektivdeklination — offiziell, fem., Nom.)
+Ergänze die Adjektivendung:
+
+Das ist eine ___ Einladung.

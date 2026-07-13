@@ -1,8 +1,11 @@
 ---
 id: a2-part-in-023
 type: input-text
+hint: Antwortpartikel
 correct:
   - Ja
 ---
 
-„Ist das dein neues Fahrrad?" — „___, das ist meins." (Antwortpartikel)
+Ergänze die Antwortpartikel:
+
+„Ist das dein neues Fahrrad?" — „___, das ist meins."

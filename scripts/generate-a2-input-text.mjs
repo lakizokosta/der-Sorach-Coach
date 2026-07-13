@@ -12,7 +12,12 @@ import { fileURLToPath } from 'node:url';
 import { md } from './a2-input-text-shared.mjs';
 import { BANK } from './a2-input-text-data.mjs';
 import { transformHint } from './fix-input-text-hints.mjs';
-import { bodyWithHint, verbFormHint } from './topic-context-hints.mjs';
+import { verbFormHint } from './topic-context-hints.mjs';
+import {
+  buildInputTextPrompt,
+  closedSetHint,
+  extractParentheticalHint,
+} from './input-text-prompt-shared.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A2');
 
@@ -62,15 +67,18 @@ function closedSetForTopic(folder) {
 
 function buildPrompt(item, folder, id) {
   const raw = item[0].replace(/^\[[^\]]+]\s+/, '');
-  const m = raw.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
   const ans = Array.isArray(item[1]) ? item[1] : [item[1]];
-  const sentence = m ? m[1].trimEnd() : raw;
+  const { sentence, inner } = extractParentheticalHint(raw);
+  let hint;
   if (CLOSED_SET_TOPICS[folder]) {
     const set = closedSetForTopic(folder);
-    return `${sentence} (${CLOSED_SET_TOPICS[folder]} — ${set.join(' / ')})`;
+    hint = `${CLOSED_SET_TOPICS[folder]} — ${set.join(' / ')}`;
+  } else if (inner) {
+    hint = transformHint(inner, folder, ans, [], sentence, id);
+  } else {
+    hint = verbFormHint(folder, '', ans, [], raw, id);
   }
-  if (m) return `${sentence} (${transformHint(m[2], folder, ans, [], sentence, id)})`;
-  return bodyWithHint(raw, verbFormHint(folder, '', ans, [], raw, id));
+  return buildInputTextPrompt({ topic: folder, rawPrompt: raw, hint });
 }
 
 function writeTopic(folder, prefix, items, force = false) {
@@ -81,7 +89,8 @@ function writeTopic(folder, prefix, items, force = false) {
     const id = `${prefix}-${num}`;
     const path = join(ROOT, folder, `${id}.md`);
     if (!force && existsSync(path)) return;
-    writeFileSync(path, md(id, buildPrompt(item, folder, id), item[1]), 'utf8');
+    const { prompt, hint } = buildPrompt(item, folder, id);
+    writeFileSync(path, md(id, prompt, item[1], hint), 'utf8');
     n += 1;
   });
   return n;
@@ -97,7 +106,8 @@ function restoreTopicHints(topicKey) {
     const id = `${prefix}-${num}`;
     const path = join(ROOT, topicKey, `${id}.md`);
     if (!existsSync(path)) return;
-    writeFileSync(path, md(id, buildPrompt(item, topicKey, id), item[1]), 'utf8');
+    const { prompt, hint } = buildPrompt(item, topicKey, id);
+    writeFileSync(path, md(id, prompt, item[1], hint), 'utf8');
     n += 1;
   });
   return n;

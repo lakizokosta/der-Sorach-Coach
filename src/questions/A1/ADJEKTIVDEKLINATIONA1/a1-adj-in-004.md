@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-004
 type: input-text
+hint: Adjektivdeklination — neu, neutr., Nom.
 correct:
   - neue
 ---
 
-Das ___ Auto ist schnell. (Adjektivdeklination — neu, neutr., Nom.)
+Ergänze die Adjektivendung:
+
+Das ___ Auto ist schnell.

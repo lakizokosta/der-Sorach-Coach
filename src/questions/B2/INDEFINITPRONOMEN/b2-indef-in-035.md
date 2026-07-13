@@ -1,8 +1,11 @@
 ---
 id: b2-indef-in-035
 type: input-text
+hint: Indefinitpronomen — etwas / jemand / jemanden / niemand
 correct:
   - jemanden
 ---
 
-Hast du ___ in der Menge gesehen? (Indefinitpronomen — etwas / jemand / jemanden / niemand)
+Ergänze das Indefinitpronomen:
+
+Hast du ___ in der Menge gesehen?

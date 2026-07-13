@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-012
 type: input-text
+hint: Artikel — der Arzt, Nom.
 correct:
   - Der
 ---
 
-___ Arzt ist sehr nett. (Artikel — der Arzt, Nom.)
+Ergänze den Artikel:
+
+___ Arzt ist sehr nett.

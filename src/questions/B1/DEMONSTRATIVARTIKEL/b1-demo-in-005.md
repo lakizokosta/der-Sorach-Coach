@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-005
 type: input-text
+hint: Demonstrativartikel — neutr., Nom./Akk.
 correct:
   - Jenes
 ---
 
-___ Hotel war deutlich teurer als jenes. (Demonstrativartikel — neutr., Nom./Akk.)
+Ergänze den Demonstrativartikel:
+
+___ Hotel war deutlich teurer als jenes.

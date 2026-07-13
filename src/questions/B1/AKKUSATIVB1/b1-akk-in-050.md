@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-050
 type: input-text
+hint: Akkusativ — das / den / der / die
 correct:
   - den
 ---
 
-Wir lesen ___ Bericht über die Klimakonferenz. (Akkusativ — das / den / der / die)
+Ergänze die Akkusativform:
+
+Wir lesen ___ Bericht über die Klimakonferenz.

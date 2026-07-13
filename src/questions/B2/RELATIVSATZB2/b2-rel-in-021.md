@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-021
 type: input-text
+hint: das
 correct:
   - das
 ---
 
-Das Unternehmen, für ___ er arbeitet, expandiert. (das)
+Ergänze das Relativpronomen:
+
+Das Unternehmen, für ___ er arbeitet, expandiert.

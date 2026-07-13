@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-042
 type: input-text
+hint: Dativ — meine Schwester, Dat.
 correct:
   - meiner
 ---
 
-Mit ___ Schwester spiele ich Karten. (Dativ — meine Schwester, Dat.)
+Ergänze die Dativform:
+
+Mit ___ Schwester spiele ich Karten.

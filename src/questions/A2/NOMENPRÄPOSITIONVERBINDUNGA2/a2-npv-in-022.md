@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-022
 type: input-text
+hint: Nomen-Präp. — Respekt
 correct:
   - vor
 ---
 
-Er hat Respekt ___ Lehrern. (Nomen-Präp. — Respekt)
+Ergänze die passende Präposition:
+
+Er hat Respekt ___ Lehrern.

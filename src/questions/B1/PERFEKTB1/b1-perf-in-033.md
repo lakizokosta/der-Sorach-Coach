@@ -1,8 +1,11 @@
 ---
 id: b1-perf-in-033
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - hat
 ---
 
-Sie ___ sich für den Kurs angemeldet. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Sie ___ sich für den Kurs angemeldet.

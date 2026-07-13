@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-018
 type: input-text
+hint: Passiv + Hilfsverb werden
 correct:
   - wurde
 ---
 
-Das Gesetz ___ gestern verabschiedet. (Passiv + Hilfsverb werden)
+Ergänze die Passivform:
+
+Das Gesetz ___ gestern verabschiedet.

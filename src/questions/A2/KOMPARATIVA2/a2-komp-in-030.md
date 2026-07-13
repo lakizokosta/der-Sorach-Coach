@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-030
 type: input-text
+hint: Komparativ — schnell
 correct:
   - schneller
 ---
 
-Er läuft ___ als ich. (Komparativ — schnell)
+Ergänze die Komparativform:
+
+Er läuft ___ als ich.

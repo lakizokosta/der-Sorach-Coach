@@ -1,8 +1,11 @@
 ---
 id: b1-erg-in-034
 type: input-text
+hint: Ergänzungssatz
 correct:
   - ob
 ---
 
-Wir wissen nicht, ___ er heute kommt. (Ergänzungssatz)
+Ergänze die Konjunktion (Ergänzung):
+
+Wir wissen nicht, ___ er heute kommt.

@@ -1,8 +1,11 @@
 ---
 id: b2-konz-in-046
 type: input-text
+hint: Konzessivsatz — damit / dass / obwohl / weil
 correct:
   - obwohl
 ---
 
-Er nahm den Job an, ___ das Gehalt niedrig war. (Konzessivsatz — damit / dass / obwohl / weil)
+Ergänze die Konjunktion (Konzessiv):
+
+Er nahm den Job an, ___ das Gehalt niedrig war.

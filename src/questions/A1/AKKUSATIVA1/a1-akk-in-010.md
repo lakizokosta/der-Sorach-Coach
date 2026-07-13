@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-010
 type: input-text
+hint: Akkusativ — der Ball, Akk.
 correct:
   - den
 ---
 
-Ich spiele ___ Ball. (Akkusativ — der Ball, Akk.)
+Ergänze die Akkusativform:
+
+Ich spiele ___ Ball.

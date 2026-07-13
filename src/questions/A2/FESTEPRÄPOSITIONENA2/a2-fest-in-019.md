@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-019
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
   - an
 ---
 
-Er denkt ___ seine Familie. (Feste Präposition — an / auf / für / mit / nach / über / von)
+Ergänze die feste Präposition:
+
+Er denkt ___ seine Familie.

@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-018
 type: input-text
+hint: Gegenteil von dick
 correct:
   - dünn
 ---
 
-Der Mantel ist dick, die Jacke ist ___. (Gegenteil von dick)
+Ergänze das Gegenteil:
+
+Der Mantel ist dick, die Jacke ist ___.

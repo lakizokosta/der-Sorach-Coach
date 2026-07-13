@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-018
 type: input-text
+hint: Komparativ — groß
 correct:
   - größer
 ---
 
-Mein Zimmer ist ___ als deins. (Komparativ — groß)
+Ergänze die Komparativform:
+
+Mein Zimmer ist ___ als deins.

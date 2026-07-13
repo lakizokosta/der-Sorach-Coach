@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-023
 type: input-text
+hint: Plural: Straße
 correct:
   - Straßen
 ---
 
-Die ___ in der Altstadt sind eng. (Plural: Straße)
+Ergänze die Pluralform:
+
+Die ___ in der Altstadt sind eng.

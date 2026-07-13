@@ -1,8 +1,11 @@
 ---
 id: b2-rede-in-050
 type: input-text
+hint: Redewendung — gesprang / gesprungen / sprang / springt
 correct:
   - gesprungen
 ---
 
-Er ist ins kalte Wasser ___ . (Redewendung — gesprang / gesprungen / sprang / springt)
+Ergänze die Redewendung:
+
+Er ist ins kalte Wasser ___ .

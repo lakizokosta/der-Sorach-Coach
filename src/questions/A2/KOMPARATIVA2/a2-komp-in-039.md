@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-039
 type: input-text
+hint: Komparativ — gern
 correct:
   - lieber
 ---
 
-Ich trinke Tee ___. (Komparativ — gern)
+Ergänze die Komparativform:
+
+Ich trinke Tee ___.

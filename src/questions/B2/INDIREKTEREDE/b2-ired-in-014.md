@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-014
 type: input-text
+hint: Indirekte Rede + Verb haben
 correct:
   - habe
 ---
 
-Der Zeuge behauptete, er ___ alles gesehen. (Indirekte Rede + Verb haben)
+Ergänze die Form (Indirekte Rede):
+
+Der Zeuge behauptete, er ___ alles gesehen.

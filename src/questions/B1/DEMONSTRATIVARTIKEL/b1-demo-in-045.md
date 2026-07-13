@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-045
 type: input-text
+hint: Demonstrativartikel — mask., Akk. / Pl., Dat.
 correct:
   - diesen
 ---
 
-Wir diskutieren ___ Vorschlag im Meeting. (Demonstrativartikel — mask., Akk. / Pl., Dat.)
+Ergänze den Demonstrativartikel:
+
+Wir diskutieren ___ Vorschlag im Meeting.

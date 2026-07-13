@@ -1,6 +1,7 @@
 ---
 id: b1-kaus-in-033
 type: input-text
+hint: Kausalsatz — weil/da
 correct:
   - weil
   - Weil
@@ -8,4 +9,6 @@ correct:
   - Da
 ---
 
-Er kommt nicht mit, ___ er noch arbeiten muss. (Kausalsatz — weil/da)
+Ergänze die Konjunktion (Kausal):
+
+Er kommt nicht mit, ___ er noch arbeiten muss.

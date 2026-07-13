@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-011
 type: input-text
+hint: Präsens + Verb trinken
 correct:
   - trinke
 ---
 
-Morgens ___ ich Kaffee. (Präsens + Verb trinken)
+Ergänze die Präsensform des Verbs:
+
+Morgens ___ ich Kaffee.

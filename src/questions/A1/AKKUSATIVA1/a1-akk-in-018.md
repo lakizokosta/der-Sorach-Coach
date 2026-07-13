@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-018
 type: input-text
+hint: Akkusativ — ein Salat, Akk.
 correct:
   - einen
 ---
 
-Ich bestelle ___ Salat. (Akkusativ — ein Salat, Akk.)
+Ergänze die Akkusativform:
+
+Ich bestelle ___ Salat.

@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-031
 type: input-text
+hint: Frage nach Dauer
 correct:
   - Wie lange
 ---
 
-___ lange arbeitest du? — Acht Stunden. (Frage nach Dauer)
+Ergänze das Fragewort:
+
+___ lange arbeitest du? — Acht Stunden.

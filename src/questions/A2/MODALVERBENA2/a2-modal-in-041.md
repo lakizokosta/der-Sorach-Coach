@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-041
 type: input-text
+hint: Modalverb + Verb können
 correct:
   - kann
 ---
 
-Ich ___ leider nicht zur Einladung kommen. (Modalverb + Verb können)
+Ergänze die Modalverbform:
+
+Ich ___ leider nicht zur Einladung kommen.

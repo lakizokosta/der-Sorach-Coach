@@ -1,6 +1,7 @@
 ---
 id: b1-kond-in-030
 type: input-text
+hint: Konditionalsatz — wenn/falls
 correct:
   - wenn
   - Wenn
@@ -8,4 +9,6 @@ correct:
   - Falls
 ---
 
-___ etwas schiefgeht, melde dich sofort. (Konditionalsatz — wenn/falls)
+Ergänze die Konjunktion (Konditional):
+
+___ etwas schiefgeht, melde dich sofort.

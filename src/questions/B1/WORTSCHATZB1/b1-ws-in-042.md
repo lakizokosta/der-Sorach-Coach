@@ -1,8 +1,11 @@
 ---
 id: b1-ws-in-042
 type: input-text
+hint: Wortschatz — Konferenz / Konferenzbar / Konferenzierung / Konferierend
 correct:
   - Konferenz
 ---
 
-Die ___ beginnt morgen früh. (Wortschatz — Konferenz / Konferenzbar / Konferenzierung / Konferierend)
+Ergänze das passende Wort:
+
+Die ___ beginnt morgen früh.

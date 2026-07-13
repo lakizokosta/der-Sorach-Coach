@@ -1,6 +1,7 @@
 ---
 id: b1-kaus-in-046
 type: input-text
+hint: Kausalsatz — weil/da
 correct:
   - weil
   - Weil
@@ -8,4 +9,6 @@ correct:
   - Da
 ---
 
-Ich bleibe zu Hause, ___ ich krank bin. (Kausalsatz — weil/da)
+Ergänze die Konjunktion (Kausal):
+
+Ich bleibe zu Hause, ___ ich krank bin.

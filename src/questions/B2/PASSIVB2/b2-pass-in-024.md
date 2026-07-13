@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-024
 type: input-text
+hint: Passiv + Verb sein
 correct:
   - sind
 ---
 
-Alle Gäste ___ informiert worden. (Passiv + Verb sein)
+Ergänze die Passivform:
+
+Alle Gäste ___ informiert worden.

@@ -1,8 +1,11 @@
 ---
 id: b2-indef-in-016
 type: input-text
+hint: Indefinitpronomen — etwas / jemand / nichts / niemand
 correct:
   - etwas
 ---
 
-Ich habe ___ Besonderes erwartet. (Indefinitpronomen — etwas / jemand / nichts / niemand)
+Ergänze das Indefinitpronomen:
+
+Ich habe ___ Besonderes erwartet.

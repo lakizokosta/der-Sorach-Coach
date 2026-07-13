@@ -1,8 +1,11 @@
 ---
 id: a2-part-in-007
 type: input-text
+hint: Antwortpartikel
 correct:
   - Ja
 ---
 
-„Lernst du schon Deutsch?" — „___, seit einem Jahr." (Antwortpartikel)
+Ergänze die Antwortpartikel:
+
+„Lernst du schon Deutsch?" — „___, seit einem Jahr."

@@ -1,8 +1,11 @@
 ---
 id: b1-lokal-in-010
 type: input-text
+hint: Lokale Präposition — an / auf / nach / zu
 correct:
   - auf
 ---
 
-Die Klinik ist ___ der dritten Etage. (Lokale Präposition — an / auf / nach / zu)
+Ergänze die Lokalpräposition:
+
+Die Klinik ist ___ der dritten Etage.

@@ -1,8 +1,11 @@
 ---
 id: b2-rede-in-023
 type: input-text
+hint: Redewendung — an / auf / in / unter
 correct:
   - auf
 ---
 
-Das geht mir ___ die Nerven. (Redewendung — an / auf / in / unter)
+Ergänze die Redewendung:
+
+Das geht mir ___ die Nerven.

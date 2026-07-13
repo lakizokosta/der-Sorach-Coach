@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-011
 type: input-text
+hint: Dativ — der Hund, Dat.
 correct:
   - dem
 ---
 
-Ich folge ___ Hund. (Dativ — der Hund, Dat.)
+Ergänze die Dativform:
+
+Ich folge ___ Hund.

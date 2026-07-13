@@ -1,8 +1,11 @@
 ---
 id: b2-modal-in-043
 type: input-text
+hint: Modalsatz — Anstatt / Indem / Obwohl / Weil
 correct:
   - Anstatt
 ---
 
-___ zu warten, verließ er das Meeting. (Modalsatz — Anstatt / Indem / Obwohl / Weil)
+Ergänze die Konjunktion (Modal):
+
+___ zu warten, verließ er das Meeting.

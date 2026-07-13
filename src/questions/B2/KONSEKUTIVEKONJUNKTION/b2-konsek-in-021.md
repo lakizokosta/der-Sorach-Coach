@@ -1,8 +1,11 @@
 ---
 id: b2-konsek-in-021
 type: input-text
+hint: Konsekutivsatz — dass / obwohl / weil / wenn
 correct:
   - dass
 ---
 
-Er war so müde, ___ er sofort einschlief. (Konsekutivsatz — dass / obwohl / weil / wenn)
+Ergänze die konsekutive Konjunktion:
+
+Er war so müde, ___ er sofort einschlief.

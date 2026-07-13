@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-010
 type: input-text
+hint: Demonstrativartikel — neutr., Nom./Akk. / mask./neutr., Gen.
 correct:
   - Dieses
 ---
 
-___ Reiseziel empfehle ich dir besonders. (Demonstrativartikel — neutr., Nom./Akk. / mask./neutr., Gen.)
+Ergänze den Demonstrativartikel:
+
+___ Reiseziel empfehle ich dir besonders.

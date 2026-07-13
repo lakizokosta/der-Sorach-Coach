@@ -1,8 +1,11 @@
 ---
 id: b2-indef-in-038
 type: input-text
+hint: Indefinitpronomen — alles / etwas / jemand / nichts
 correct:
   - etwas
 ---
 
-Sie möchte ___ Neues ausprobieren. (Indefinitpronomen — alles / etwas / jemand / nichts)
+Ergänze das Indefinitpronomen:
+
+Sie möchte ___ Neues ausprobieren.

@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-002
 type: input-text
+hint: Adjektivdeklination — klein, mask., Nom.
 correct:
   - kleine
 ---
 
-Der ___ Hund bellt laut. (Adjektivdeklination — klein, mask., Nom.)
+Ergänze die Adjektivendung:
+
+Der ___ Hund bellt laut.

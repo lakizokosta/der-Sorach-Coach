@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-022
 type: input-text
+hint: Possessivartikel — ich, Pl., Akk.
 correct:
   - meine
 ---
 
-Ich lese gern ___ Bücher. (Possessivartikel — ich, Pl., Akk.)
+Ergänze den Possessivartikel:
+
+Ich lese gern ___ Bücher.

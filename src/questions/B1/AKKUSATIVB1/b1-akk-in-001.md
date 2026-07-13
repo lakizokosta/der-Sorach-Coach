@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-001
 type: input-text
+hint: Akkusativ — eine / einem / einen / einer
 correct:
   - einen
 ---
 
-Der Journalist recherchiert ___ komplexen Fall. (Akkusativ — eine / einem / einen / einer)
+Ergänze die Akkusativform:
+
+Der Journalist recherchiert ___ komplexen Fall.

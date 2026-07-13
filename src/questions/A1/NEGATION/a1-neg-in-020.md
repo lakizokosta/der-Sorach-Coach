@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-020
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Der Bus fährt ___ hier. (Negation)
+Ergänze die Verneinung:
+
+Der Bus fährt ___ hier.

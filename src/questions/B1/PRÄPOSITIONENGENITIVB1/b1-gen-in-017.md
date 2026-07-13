@@ -1,8 +1,11 @@
 ---
 id: b1-gen-in-017
 type: input-text
+hint: Genitiv-Präposition
 correct:
   - Wegen
 ---
 
-___ der Erkrankung bleibt er zu Hause. (Genitiv-Präposition)
+Ergänze die Genitiv-Präposition:
+
+___ der Erkrankung bleibt er zu Hause.

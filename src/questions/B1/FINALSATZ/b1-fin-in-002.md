@@ -1,8 +1,11 @@
 ---
 id: b1-fin-in-002
 type: input-text
+hint: Finalsatz — um
 correct:
   - um
 ---
 
-Sie spart Geld, ___ nächstes Jahr reisen zu können. (Finalsatz — um)
+Ergänze die Konjunktion (Final):
+
+Sie spart Geld, ___ nächstes Jahr reisen zu können.

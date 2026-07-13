@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-005
 type: input-text
+hint: dem
 correct:
   - dem
 ---
 
-Der Professor, von ___ ich gelernt habe, ist pensioniert. (dem)
+Ergänze das Relativpronomen:
+
+Der Professor, von ___ ich gelernt habe, ist pensioniert.

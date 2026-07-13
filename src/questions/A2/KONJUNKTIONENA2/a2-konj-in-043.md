@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-043
 type: input-text
+hint: Konjunktion — Nebensatz
 correct:
   - dass
 ---
 
-Es ist wichtig, ___ wir pünktlich sind. (Konjunktion — Nebensatz)
+Ergänze die Konjunktion:
+
+Es ist wichtig, ___ wir pünktlich sind.

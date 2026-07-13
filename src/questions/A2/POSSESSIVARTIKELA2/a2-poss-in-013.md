@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-013
 type: input-text
+hint: Possessivartikel — ich, fem., Gen.
 correct:
   - meiner
 ---
 
-Das Fahrrad ___ Schwester ist neu. (Possessivartikel — ich, fem., Gen.)
+Ergänze den Possessivartikel:
+
+Das Fahrrad ___ Schwester ist neu.

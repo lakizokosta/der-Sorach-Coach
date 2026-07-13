@@ -1,8 +1,11 @@
 ---
 id: b1-praep-in-038
 type: input-text
+hint: Präposition — an / auf / nach / zu
 correct:
   - auf
 ---
 
-Sie wohnt ___ dem Land. (Präposition — an / auf / nach / zu)
+Ergänze die Präposition:
+
+Sie wohnt ___ dem Land.

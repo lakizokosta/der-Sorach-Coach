@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-040
 type: input-text
+hint: Gegenteil von laut
 correct:
   - leise
 ---
 
-Der Hund ist laut, die Katze ist ___. (Gegenteil von laut)
+Ergänze das Gegenteil:
+
+Der Hund ist laut, die Katze ist ___.

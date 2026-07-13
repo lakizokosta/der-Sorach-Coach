@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-042
 type: input-text
+hint: Präteritum + Verb fahren
 correct:
   - fuhren
 ---
 
-Wir ___ mit dem Zug nach Italien. (Präteritum + Verb fahren)
+Ergänze die Präteritumsform:
+
+Wir ___ mit dem Zug nach Italien.

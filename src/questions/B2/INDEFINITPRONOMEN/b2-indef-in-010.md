@@ -1,8 +1,11 @@
 ---
 id: b2-indef-in-010
 type: input-text
+hint: Indefinitpronomen — Alles / Jemand / Nichts / Niemand
 correct:
   - Jemand
 ---
 
-___ hat mir diese Nachricht geschickt. (Indefinitpronomen — Alles / Jemand / Nichts / Niemand)
+Ergänze das Indefinitpronomen:
+
+___ hat mir diese Nachricht geschickt.

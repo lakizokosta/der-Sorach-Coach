@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-044
 type: input-text
+hint: Akkusativ — das / dem / den / der
 correct:
   - das
 ---
 
-Wir diskutieren ___ Problem im Team. (Akkusativ — das / dem / den / der)
+Ergänze die Akkusativform:
+
+Wir diskutieren ___ Problem im Team.

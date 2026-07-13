@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-045
 type: input-text
+hint: Pronominaladverb — denke / denken / denkst / gedacht
 correct:
   - denkst
 ---
 
-Woran ___ du bei der Entscheidung? (Pronominaladverb — denke / denken / denkst / gedacht)
+Ergänze das Pronominaladverb:
+
+Woran ___ du bei der Entscheidung?

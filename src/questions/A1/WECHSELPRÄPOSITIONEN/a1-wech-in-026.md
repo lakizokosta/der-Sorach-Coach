@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-026
 type: input-text
+hint: Wechselpräpositionen — Ort
 correct:
   - im
 ---
 
-Er arbeitet ___ Büro. (Wechselpräpositionen — Ort)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Er arbeitet ___ Büro.

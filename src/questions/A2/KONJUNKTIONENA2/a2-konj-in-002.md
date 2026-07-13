@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-002
 type: input-text
+hint: Konjunktion — Nebensatz
 correct:
   - dass
 ---
 
-Ich glaube, ___ er morgen zur Arbeit kommt. (Konjunktion — Nebensatz)
+Ergänze die Konjunktion:
+
+Ich glaube, ___ er morgen zur Arbeit kommt.

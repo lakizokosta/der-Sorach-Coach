@@ -1,8 +1,11 @@
 ---
 id: a2-sup-in-038
 type: input-text
+hint: Superlativ — schön, mask., Nom.
 correct:
   - schönste
 ---
 
-Das war der ___ Tag im Urlaub. (Superlativ — schön, mask., Nom.)
+Ergänze die Superlativform:
+
+Das war der ___ Tag im Urlaub.

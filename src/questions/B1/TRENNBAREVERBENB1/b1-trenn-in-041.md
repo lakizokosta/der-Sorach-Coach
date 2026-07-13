@@ -1,8 +1,11 @@
 ---
 id: b1-trenn-in-041
 type: input-text
+hint: Trennbares Verb + Verb einchecken
 correct:
   - checkt
 ---
 
-Sie ___ um 22 Uhr ein. (Trennbares Verb + Verb einchecken)
+Ergänze die Verbform (trennbares Verb):
+
+Sie ___ um 22 Uhr ein.

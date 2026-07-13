@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-031
 type: input-text
+hint: Pronominaladverb — achte / achten / achtete / geachtet
 correct:
   - achten
 ---
 
-Worauf ___ Sie besonders? (Pronominaladverb — achte / achten / achtete / geachtet)
+Ergänze das Pronominaladverb:
+
+Worauf ___ Sie besonders?

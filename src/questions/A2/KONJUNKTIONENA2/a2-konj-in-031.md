@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-031
 type: input-text
+hint: Konjunktion — Nebensatz
 correct:
   - dass
 ---
 
-Ich denke, ___ das eine gute Geschenkidee ist. (Konjunktion — Nebensatz)
+Ergänze die Konjunktion:
+
+Ich denke, ___ das eine gute Geschenkidee ist.

@@ -1,8 +1,11 @@
 ---
 id: b2-konj2-in-031
 type: input-text
+hint: Konjunktiv II + Verb wissen
 correct:
   - wüsste
 ---
 
-Er tut so, als ob er nichts ___. (Konjunktiv II + Verb wissen)
+Ergänze die Konjunktiv-II-Form:
+
+Er tut so, als ob er nichts ___.

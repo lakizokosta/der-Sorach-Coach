@@ -5,4 +5,6 @@ correct:
   - hoher
 ---
 
+Ergänze die Genitivform:
+
 Aufgrund ___ (hoch) Nachfrage stiegen die Preise.

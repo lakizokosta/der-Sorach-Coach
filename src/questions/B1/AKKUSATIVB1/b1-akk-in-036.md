@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-036
 type: input-text
+hint: Akkusativ — ein / eine / einen / einer
 correct:
   - ein
 ---
 
-Die Ärztin verschreibt ___ Medikament. (Akkusativ — ein / eine / einen / einer)
+Ergänze die Akkusativform:
+
+Die Ärztin verschreibt ___ Medikament.

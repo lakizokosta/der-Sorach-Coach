@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-048
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
   - nach
 ---
 
-Er fragt ___ dem Weg zum Hotel. (Feste Präposition — an / auf / für / mit / nach / über / von)
+Ergänze die feste Präposition:
+
+Er fragt ___ dem Weg zum Hotel.

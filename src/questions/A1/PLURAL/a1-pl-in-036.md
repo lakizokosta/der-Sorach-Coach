@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-036
 type: input-text
+hint: Plural: Lied
 correct:
   - Lieder
 ---
 
-Das Kind singt viele ___. (Plural: Lied)
+Ergänze die Pluralform:
+
+Das Kind singt viele ___.

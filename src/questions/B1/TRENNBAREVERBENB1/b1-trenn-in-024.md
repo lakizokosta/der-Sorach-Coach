@@ -1,8 +1,11 @@
 ---
 id: b1-trenn-in-024
 type: input-text
+hint: Trennbares Verb + Verb ausfüllen
 correct:
   - füllst
 ---
 
-Du ___ das Formular online aus. (Trennbares Verb + Verb ausfüllen)
+Ergänze die Verbform (trennbares Verb):
+
+Du ___ das Formular online aus.

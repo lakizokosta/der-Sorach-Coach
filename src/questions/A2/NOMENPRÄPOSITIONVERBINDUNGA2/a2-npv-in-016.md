@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-016
 type: input-text
+hint: Nomen-Präp. — Interesse
 correct:
   - für
 ---
 
-Ich interessiere mich sehr ___ den Tanzsport. (Nomen-Präp. — Interesse)
+Ergänze die passende Präposition:
+
+Ich interessiere mich sehr ___ den Tanzsport.

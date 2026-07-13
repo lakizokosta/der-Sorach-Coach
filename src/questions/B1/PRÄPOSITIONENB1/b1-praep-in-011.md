@@ -1,8 +1,11 @@
 ---
 id: b1-praep-in-011
 type: input-text
+hint: Präposition — auf / in / nach / zu
 correct:
   - nach
 ---
 
-Er reist ___ Italien. (Präposition — auf / in / nach / zu)
+Ergänze die Präposition:
+
+Er reist ___ Italien.

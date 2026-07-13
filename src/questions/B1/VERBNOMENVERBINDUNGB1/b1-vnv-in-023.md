@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-023
 type: input-text
+hint: Verb-Nomen-Verbindung — gibt / hält / nimmt / stellt
 correct:
   - hält
 ---
 
-Der Minister ___ eine Rede. (Verb-Nomen-Verbindung — gibt / hält / nimmt / stellt)
+Ergänze die Verb-Nomen-Verbindung:
+
+Der Minister ___ eine Rede.

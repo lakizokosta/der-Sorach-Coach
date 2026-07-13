@@ -1,8 +1,11 @@
 ---
 id: b1-fin-in-034
 type: input-text
+hint: Finalsatz — damit
 correct:
   - damit
 ---
 
-Er informiert die Kollegen, ___ alle Bescheid wissen. (Finalsatz — damit)
+Ergänze die Konjunktion (Final):
+
+Er informiert die Kollegen, ___ alle Bescheid wissen.

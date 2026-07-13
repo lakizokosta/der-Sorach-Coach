@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-007
 type: input-text
+hint: Frage nach Person
 correct:
   - Wer
 ---
 
-___ ist das? — Mein Bruder. (Frage nach Person)
+Ergänze das Fragewort:
+
+___ ist das? — Mein Bruder.

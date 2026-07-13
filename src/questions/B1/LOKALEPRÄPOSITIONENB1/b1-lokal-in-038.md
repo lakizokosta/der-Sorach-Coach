@@ -1,8 +1,11 @@
 ---
 id: b1-lokal-in-038
 type: input-text
+hint: Lokale Präposition — an / in / nach / zu
 correct:
   - an
 ---
 
-Das Hotel liegt ___ dem Fluss. (Lokale Präposition — an / in / nach / zu)
+Ergänze die Lokalpräposition:
+
+Das Hotel liegt ___ dem Fluss.

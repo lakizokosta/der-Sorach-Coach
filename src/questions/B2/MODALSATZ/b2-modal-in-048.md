@@ -1,8 +1,11 @@
 ---
 id: b2-modal-in-048
 type: input-text
+hint: Modalsatz — indem / obwohl / ohne dass / weil
 correct:
   - ohne dass
 ---
 
-Er antwortete, ___ er nachdachte. (Modalsatz — indem / obwohl / ohne dass / weil)
+Ergänze die Konjunktion (Modal):
+
+Er antwortete, ___ er nachdachte.

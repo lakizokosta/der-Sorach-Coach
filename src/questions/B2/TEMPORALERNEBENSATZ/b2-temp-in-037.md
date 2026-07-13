@@ -1,8 +1,11 @@
 ---
 id: b2-temp-in-037
 type: input-text
+hint: Temporalnebensatz — bevor / bis / nachdem / seitdem
 correct:
   - bis
 ---
 
-Er wartete, ___ der Zug abfuhr. (Temporalnebensatz — bevor / bis / nachdem / seitdem)
+Ergänze die Konjunktion (Temporal):
+
+Er wartete, ___ der Zug abfuhr.

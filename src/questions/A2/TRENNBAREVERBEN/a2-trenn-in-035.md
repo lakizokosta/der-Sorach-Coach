@@ -1,8 +1,11 @@
 ---
 id: a2-trenn-in-035
 type: input-text
+hint: Trennbares Verb + Verb aufstehen
 correct:
   - stehst
 ---
 
-Wann ___ du auf? (Trennbares Verb + Verb aufstehen)
+Ergänze die Verbform (trennbares Verb):
+
+Wann ___ du auf?

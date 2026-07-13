@@ -1,8 +1,11 @@
 ---
 id: b1-poss-in-033
 type: input-text
+hint: Possessivartikel — sie, Dat./Gen.
 correct:
   - ihrer
 ---
 
-Sie hilft ___ neuen Chefin bei der Einarbeitung. (Possessivartikel — sie, Dat./Gen.)
+Ergänze den Possessivartikel:
+
+Sie hilft ___ neuen Chefin bei der Einarbeitung.

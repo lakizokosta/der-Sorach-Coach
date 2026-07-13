@@ -1,8 +1,11 @@
 ---
 id: a2-part-in-047
 type: input-text
+hint: Antwortpartikel
 correct:
   - Doch
 ---
 
-„Du hast doch Zeit am Wochenende?" — „___, ich habe Zeit." (Antwortpartikel)
+Ergänze die Antwortpartikel:
+
+„Du hast doch Zeit am Wochenende?" — „___, ich habe Zeit."

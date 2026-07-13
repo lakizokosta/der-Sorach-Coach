@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-034
 type: input-text
+hint: Verb-Nomen-Verbindung — gibt / knüpft / macht / nimmt
 correct:
   - knüpft
 ---
 
-Die Firma ___ Kontakt mit neuen Kunden. (Verb-Nomen-Verbindung — gibt / knüpft / macht / nimmt)
+Ergänze die Verb-Nomen-Verbindung:
+
+Die Firma ___ Kontakt mit neuen Kunden.

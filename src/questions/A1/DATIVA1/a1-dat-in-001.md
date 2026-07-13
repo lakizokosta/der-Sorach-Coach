@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-001
 type: input-text
+hint: Dativ — das Kind, Dat.
 correct:
   - dem
 ---
 
-Ich helfe ___ Kind. (Dativ — das Kind, Dat.)
+Ergänze die Dativform:
+
+Ich helfe ___ Kind.

@@ -1,6 +1,7 @@
 ---
 id: b1-kond-in-042
 type: input-text
+hint: Konditionalsatz — wenn/falls
 correct:
   - wenn
   - Wenn
@@ -8,4 +9,6 @@ correct:
   - Falls
 ---
 
-___ der Termin ausfällt, informiere ich dich. (Konditionalsatz — wenn/falls)
+Ergänze die Konjunktion (Konditional):
+
+___ der Termin ausfällt, informiere ich dich.

@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-016
 type: input-text
+hint: Artikel — die Gitarre, Nom.
 correct:
   - Die
 ---
 
-___ Gitarre liegt auf dem Bett. (Artikel — die Gitarre, Nom.)
+Ergänze den Artikel:
+
+___ Gitarre liegt auf dem Bett.

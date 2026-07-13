@@ -1,8 +1,11 @@
 ---
 id: b1-praep-in-003
 type: input-text
+hint: Präposition — an / auf / in / zu
 correct:
   - auf
 ---
 
-Wir warten ___ den Arzt. (Präposition — an / auf / in / zu)
+Ergänze die Präposition:
+
+Wir warten ___ den Arzt.

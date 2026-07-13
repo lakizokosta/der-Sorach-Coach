@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-025
 type: input-text
+hint: Frage nach Sache
 correct:
   - Was
 ---
 
-___ kaufst du ein? — Ein Geschenk. (Frage nach Sache)
+Ergänze das Fragewort:
+
+___ kaufst du ein? — Ein Geschenk.

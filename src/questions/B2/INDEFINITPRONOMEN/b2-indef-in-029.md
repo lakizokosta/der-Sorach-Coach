@@ -1,8 +1,11 @@
 ---
 id: b2-indef-in-029
 type: input-text
+hint: Indefinitpronomen — alles / etwas / jemand / nichts
 correct:
   - jemand
 ---
 
-Ist ___ zu Hause? (Indefinitpronomen — alles / etwas / jemand / nichts)
+Ergänze das Indefinitpronomen:
+
+Ist ___ zu Hause?

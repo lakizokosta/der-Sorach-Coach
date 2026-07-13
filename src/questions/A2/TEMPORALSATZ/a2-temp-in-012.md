@@ -1,8 +1,11 @@
 ---
 id: a2-temp-in-012
 type: input-text
+hint: Temporal — gleichzeitig
 correct:
   - Während
 ---
 
-___ des Unterrichts ist es still. (Temporal — gleichzeitig)
+Ergänze die Konjunktion (Temporal):
+
+___ des Unterrichts ist es still.

@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-047
 type: input-text
+hint: Frage nach Anzahl
 correct:
   - Wie viele
 ---
 
-___ Eltern hast du? — Zwei. (Frage nach Anzahl)
+Ergänze das Fragewort:
+
+___ Eltern hast du? — Zwei.

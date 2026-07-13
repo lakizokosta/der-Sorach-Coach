@@ -1,8 +1,11 @@
 ---
 id: a2-akk-in-042
 type: input-text
+hint: Akkusativ — eine Information
 correct:
   - eine
 ---
 
-Ich brauche ___ neue Information. (Akkusativ — eine Information)
+Ergänze die Akkusativform:
+
+Ich brauche ___ neue Information.

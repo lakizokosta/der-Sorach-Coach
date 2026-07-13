@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-018
 type: input-text
+hint: Indefinitpronomen — unpersönliches Subjekt = man
 correct:
   - Man
 ---
 
-___ muss die Hausaufgaben machen. (Indefinitpronomen — unpersönliches Subjekt = man)
+Ergänze das Indefinitpronomen:
+
+___ muss die Hausaufgaben machen.

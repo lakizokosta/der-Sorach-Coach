@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-050
 type: input-text
+hint: Verb-Nomen-Verbindung — äußert / gibt / macht / nimmt
 correct:
   - äußert
 ---
 
-Er ___ eine klare Meinung zu der Frage. (Verb-Nomen-Verbindung — äußert / gibt / macht / nimmt)
+Ergänze die Verb-Nomen-Verbindung:
+
+Er ___ eine klare Meinung zu der Frage.

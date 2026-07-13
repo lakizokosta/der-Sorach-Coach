@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-003
 type: input-text
+hint: Demonstrativartikel — mask., Nom.
 correct:
   - Dieser
 ---
 
-___ Professor erklärt das Thema sehr verständlich. (Demonstrativartikel — mask., Nom.)
+Ergänze den Demonstrativartikel:
+
+___ Professor erklärt das Thema sehr verständlich.

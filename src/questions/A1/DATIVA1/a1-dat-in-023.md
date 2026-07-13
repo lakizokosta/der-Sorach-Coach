@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-023
 type: input-text
+hint: Dativ — wir, Dat.
 correct:
   - uns
 ---
 
-Das passt ___ gut. (Dativ — wir, Dat.)
+Ergänze die Dativform:
+
+Das passt ___ gut.

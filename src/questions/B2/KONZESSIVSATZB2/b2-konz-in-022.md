@@ -1,8 +1,11 @@
 ---
 id: b2-konz-in-022
 type: input-text
+hint: Konzessivsatz — Obgleich / Obwohl / Weil / Wenngleich
 correct:
   - Obgleich
 ---
 
-___ die Kritik berechtigt war, verteidigte er sein Konzept. (Konzessivsatz — Obgleich / Obwohl / Weil / Wenngleich)
+Ergänze die Konjunktion (Konzessiv):
+
+___ die Kritik berechtigt war, verteidigte er sein Konzept.

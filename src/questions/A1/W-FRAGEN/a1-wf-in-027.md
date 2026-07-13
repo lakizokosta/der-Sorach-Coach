@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-027
 type: input-text
+hint: Frage nach Herkunft des Kennenlernens
 correct:
   - Woher
 ---
 
-___ kennst du ihn? — Aus der Schule. (Frage nach Herkunft des Kennenlernens)
+Ergänze das Fragewort:
+
+___ kennst du ihn? — Aus der Schule.

@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-009
 type: input-text
+hint: Frage nach Preis
 correct:
   - Wie viel
 ---
 
-___ kostet das Brot? — 2 Euro. (Frage nach Preis)
+Ergänze das Fragewort:
+
+___ kostet das Brot? — 2 Euro.

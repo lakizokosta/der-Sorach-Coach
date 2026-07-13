@@ -5,4 +5,6 @@ correct:
   - schlechten
 ---
 
+Ergänze die Genitivform:
+
 Wegen ___ (schlecht) Wetters fiel das Fest aus.

@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-044
 type: input-text
+hint: Negation
 correct:
   - keine
 ---
 
-Es gibt ___ Milch. (Negation)
+Ergänze die Verneinung:
+
+Es gibt ___ Milch.

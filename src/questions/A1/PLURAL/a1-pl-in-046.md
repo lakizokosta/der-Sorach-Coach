@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-046
 type: input-text
+hint: Plural: Geschäft
 correct:
   - Geschäfte
 ---
 
-In der Fußgängerzone sind viele ___. (Plural: Geschäft)
+Ergänze die Pluralform:
+
+In der Fußgängerzone sind viele ___.

@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-007
 type: input-text
+hint: Gegenteil von leicht
 correct:
   - schwer
 ---
 
-Die Aufgabe ist leicht, die Prüfung ist ___. (Gegenteil von leicht)
+Ergänze das Gegenteil:
+
+Die Aufgabe ist leicht, die Prüfung ist ___.

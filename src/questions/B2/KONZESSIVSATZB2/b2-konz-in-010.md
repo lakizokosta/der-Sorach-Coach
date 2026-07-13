@@ -1,8 +1,11 @@
 ---
 id: b2-konz-in-010
 type: input-text
+hint: Konzessivsatz — damit / dass / obwohl / weil
 correct:
   - obwohl
 ---
 
-Sie blieb ruhig, ___ alle nervös waren. (Konzessivsatz — damit / dass / obwohl / weil)
+Ergänze die Konjunktion (Konzessiv):
+
+Sie blieb ruhig, ___ alle nervös waren.

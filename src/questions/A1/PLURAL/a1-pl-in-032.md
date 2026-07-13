@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-032
 type: input-text
+hint: Plural: Salat
 correct:
   - Salate
 ---
 
-Im Restaurant gibt es drei ___. (Plural: Salat)
+Ergänze die Pluralform:
+
+Im Restaurant gibt es drei ___.

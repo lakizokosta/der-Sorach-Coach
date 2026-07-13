@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-048
 type: input-text
+hint: Artikel — der Vogel, Nom.
 correct:
   - Der
 ---
 
-___ Vogel singt morgens. (Artikel — der Vogel, Nom.)
+Ergänze den Artikel:
+
+___ Vogel singt morgens.

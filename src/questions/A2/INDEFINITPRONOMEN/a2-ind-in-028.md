@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-028
 type: input-text
+hint: Indefinitpronomen — Verneinung Person, Akk. = niemanden
 correct:
   - niemanden
 ---
 
-Ich kenne ___ hier in der neuen Stadt. (Indefinitpronomen — Verneinung Person, Akk. = niemanden)
+Ergänze das Indefinitpronomen:
+
+Ich kenne ___ hier in der neuen Stadt.

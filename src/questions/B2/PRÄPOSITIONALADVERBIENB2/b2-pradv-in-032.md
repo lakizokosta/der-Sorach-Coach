@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-032
 type: input-text
+hint: Pronominaladverb — ist / sein / sind / wäre
 correct:
   - ist
 ---
 
-Daran ___ nichts zu ändern. (Pronominaladverb — ist / sein / sind / wäre)
+Ergänze das Pronominaladverb:
+
+Daran ___ nichts zu ändern.

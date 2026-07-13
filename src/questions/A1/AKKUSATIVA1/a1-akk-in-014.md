@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-014
 type: input-text
+hint: Akkusativ — der Film, Akk.
 correct:
   - den
 ---
 
-Ich finde ___ Film toll. (Akkusativ — der Film, Akk.)
+Ergänze die Akkusativform:
+
+Ich finde ___ Film toll.

@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-013
 type: input-text
+hint: Indefinitpronomen — unpersönliches Subjekt = man
 correct:
   - Man
 ---
 
-___ kann Fehler machen. (Indefinitpronomen — unpersönliches Subjekt = man)
+Ergänze das Indefinitpronomen:
+
+___ kann Fehler machen.

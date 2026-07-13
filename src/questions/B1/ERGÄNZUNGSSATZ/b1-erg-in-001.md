@@ -1,8 +1,11 @@
 ---
 id: b1-erg-in-001
 type: input-text
+hint: Ergänzungssatz
 correct:
   - dass
 ---
 
-Ich finde, ___ die neue Regelung sinnvoll ist. (Ergänzungssatz)
+Ergänze die Konjunktion (Ergänzung):
+
+Ich finde, ___ die neue Regelung sinnvoll ist.

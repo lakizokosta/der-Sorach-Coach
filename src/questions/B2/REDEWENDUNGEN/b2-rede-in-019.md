@@ -1,8 +1,11 @@
 ---
 id: b2-rede-in-019
 type: input-text
+hint: Redewendung — Kopf / Kopfe / Kopfen / Köpfen
 correct:
   - Kopf
 ---
 
-Er hat den Nagel auf den ___ getroffen. (Redewendung — Kopf / Kopfe / Kopfen / Köpfen)
+Ergänze die Redewendung:
+
+Er hat den Nagel auf den ___ getroffen.

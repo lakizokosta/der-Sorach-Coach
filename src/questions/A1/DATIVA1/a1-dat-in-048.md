@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-048
 type: input-text
+hint: Dativ — wir, Dat.
 correct:
   - uns
 ---
 
-Der Lehrer erklärt ___ die Regel. (Dativ — wir, Dat.)
+Ergänze die Dativform:
+
+Der Lehrer erklärt ___ die Regel.

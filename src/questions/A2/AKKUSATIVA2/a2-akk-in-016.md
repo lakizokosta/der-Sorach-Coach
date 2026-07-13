@@ -1,8 +1,11 @@
 ---
 id: a2-akk-in-016
 type: input-text
+hint: Akkusativ — eine Reise
 correct:
   - eine
 ---
 
-Ich buche ___ Reise im Reisebüro. (Akkusativ — eine Reise)
+Ergänze die Akkusativform:
+
+Ich buche ___ Reise im Reisebüro.

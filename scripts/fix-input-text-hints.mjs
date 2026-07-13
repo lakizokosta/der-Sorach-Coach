@@ -8,6 +8,11 @@ import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from '
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseVerbLemmaFromInner, verbFormHint } from './topic-context-hints.mjs';
+import {
+  buildInputTextPrompt,
+  extractParentheticalHint,
+  taskInstruction,
+} from './input-text-prompt-shared.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
 
@@ -247,22 +252,49 @@ if (isMain) {
     if (!parsed || parsed.type !== 'input-text') continue;
     scanned += 1;
 
-    const lines = parsed.body.split('\n');
-    const lastIdx = lines.length - 1;
-    const line = lines[lastIdx];
-    const hintMatch = line.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
-    if (!hintMatch) continue;
+    const body = parsed.body.trimEnd();
+    const lines = body.split('\n');
+    const hasInstruction = lines.length > 1 && !lines[0].includes('___');
+    const hintLine = parsed.fm.match(/^hint:\s*(.+)$/m)?.[1]?.trim() || '';
 
-    const sentence = hintMatch[1].trimEnd();
-    const oldInner = hintMatch[2];
+    let sentence;
+    let inner = '';
+    if (hasInstruction) {
+      const sentenceLine = lines.find((l) => l.includes('___')) || lines[lines.length - 1];
+      sentence = sentenceLine.trim();
+      const hintMatch = sentence.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
+      if (hintMatch) {
+        sentence = hintMatch[1].trimEnd();
+        inner = hintMatch[2].trim();
+      }
+    } else {
+      const hintMatch = body.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
+      if (!hintMatch && hintLine) continue;
+      if (hintMatch) {
+        sentence = hintMatch[1].trimEnd();
+        inner = hintMatch[2].trim();
+      } else {
+        sentence = body;
+      }
+    }
+
     const options = siblingSelectOneOptions(full, parsed.id);
-    const newInner = transformHint(oldInner, topic, parsed.correct, options, parsed.body, parsed.id);
+    const newHint = inner
+      ? transformHint(inner, topic, parsed.correct, options, body, parsed.id)
+      : hintLine;
+    const instruction = taskInstruction(topic);
+    const { prompt: newBody } = buildInputTextPrompt({
+      topic,
+      rawPrompt: sentence,
+      hint: newHint,
+    });
 
-    if (newInner === oldInner && !hintLeaksAnswer(oldInner, parsed.correct)) continue;
+    if (newBody === body && hintLine === newHint) continue;
 
-    lines[lastIdx] = `${sentence} (${newInner})`;
-    const newBody = `${lines.join('\n')}\n`;
-    writeFileSync(full, `---\n${parsed.fm}\n---\n\n${newBody}`, 'utf8');
+    const hintFm = newHint ? `hint: ${newHint}\n` : '';
+    const correctBlock = parsed.correct.map((c) => `  - ${c}`).join('\n');
+    const newFile = `---\nid: ${parsed.id}\ntype: input-text\n${hintFm}correct:\n${correctBlock}\n---\n\n${newBody}\n`;
+    writeFileSync(full, newFile, 'utf8');
     changed += 1;
   }
 

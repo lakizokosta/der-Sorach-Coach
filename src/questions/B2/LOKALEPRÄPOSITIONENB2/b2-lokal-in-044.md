@@ -1,8 +1,11 @@
 ---
 id: b2-lokal-in-044
 type: input-text
+hint: Lokale Präposition — vor / vor dem / vorm / vors
 correct:
   - vor
 ---
 
-Er stellte das Fahrrad ___ das Haus. (Lokale Präposition — vor / vor dem / vorm / vors)
+Ergänze die Lokalpräposition:
+
+Er stellte das Fahrrad ___ das Haus.

@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-010
 type: input-text
+hint: Pronominaladverb — haben / hat / hatte / hätten
 correct:
   - haben
 ---
 
-Darauf ___ wir uns geeinigt. (Pronominaladverb — haben / hat / hatte / hätten)
+Ergänze das Pronominaladverb:
+
+Darauf ___ wir uns geeinigt.

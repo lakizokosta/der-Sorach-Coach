@@ -1,4 +1,7 @@
 {
+  "konjunktion": {
+    "pos": "noun"
+  },
   "prüfung": {
     "pos": "noun",
     "ru": "экзамен",
@@ -16,6 +19,12 @@
     "ru": "время",
     "en": "time",
     "gender": "f"
+  },
+  "akkusativform": {
+    "pos": "noun"
+  },
+  "lokalpräposition": {
+    "pos": "noun"
   },
   "projekt": {
     "pos": "noun",
@@ -101,11 +110,62 @@
     "en": "course",
     "gender": "m"
   },
+  "dativform": {
+    "pos": "noun"
+  },
+  "gegenteil": {
+    "pos": "noun",
+    "ru": "противоположность",
+    "en": "opposite",
+    "gender": "n"
+  },
+  "verneinung": {
+    "pos": "noun"
+  },
+  "fragewort": {
+    "pos": "noun"
+  },
+  "genitivform": {
+    "pos": "noun"
+  },
+  "indefinitpronomen": {
+    "pos": "noun"
+  },
+  "perfektform": {
+    "pos": "noun"
+  },
+  "verbform": {
+    "pos": "noun"
+  },
+  "konjunktionaladverb": {
+    "pos": "noun"
+  },
+  "konjunktiv": {
+    "pos": "noun"
+  },
+  "konzessiv": {
+    "pos": "noun"
+  },
+  "passivform": {
+    "pos": "noun"
+  },
+  "pronominaladverb": {
+    "pos": "noun"
+  },
+  "relativpronomen": {
+    "pos": "noun"
+  },
   "medikament": {
     "pos": "noun",
     "ru": "лекарство",
     "en": "medicine / drug",
     "gender": "n"
+  },
+  "frage": {
+    "pos": "noun",
+    "ru": "вопрос",
+    "en": "question",
+    "gender": "f"
   },
   "firma": {
     "pos": "noun",
@@ -225,6 +285,11 @@
     "ru": "мать",
     "en": "mother",
     "gender": "f"
+  },
+  "rede": {
+    "pos": "noun",
+    "ru": "Ораторское искусство",
+    "en": "talk"
   },
   "antwort": {
     "pos": "noun",
@@ -349,22 +414,81 @@
     "en": "festival / party",
     "gender": "n"
   },
+  "verbindung": {
+    "pos": "noun",
+    "ru": "Соединение",
+    "en": "Connection"
+  },
   "fahrrad": {
     "pos": "noun",
     "ru": "велосипед",
     "en": "bicycle",
     "gender": "n"
   },
-  "gegenteil": {
-    "pos": "noun",
-    "ru": "противоположность",
-    "en": "opposite",
-    "gender": "n"
-  },
   "kinder": {
     "pos": "noun",
     "ru": "Дети",
     "en": "children"
+  },
+  "pluralform": {
+    "pos": "noun"
+  },
+  "präsensform": {
+    "pos": "noun"
+  },
+  "verbs": {
+    "pos": "noun"
+  },
+  "antwortpartikel": {
+    "pos": "noun"
+  },
+  "komparativform": {
+    "pos": "noun"
+  },
+  "modalverbform": {
+    "pos": "noun"
+  },
+  "deklination": {
+    "pos": "noun"
+  },
+  "präteritumsform": {
+    "pos": "noun"
+  },
+  "reflexivform": {
+    "pos": "noun"
+  },
+  "superlativform": {
+    "pos": "noun"
+  },
+  "demonstrativartikel": {
+    "pos": "noun"
+  },
+  "ergänzung": {
+    "pos": "noun"
+  },
+  "final": {
+    "pos": "noun"
+  },
+  "konditional": {
+    "pos": "noun"
+  },
+  "wort": {
+    "pos": "noun"
+  },
+  "futurform": {
+    "pos": "noun"
+  },
+  "indirekte": {
+    "pos": "noun"
+  },
+  "modal": {
+    "pos": "noun"
+  },
+  "ersatzform": {
+    "pos": "noun"
+  },
+  "redewendung": {
+    "pos": "noun"
   },
   "reihenfolge": {
     "pos": "noun",
@@ -398,12 +522,6 @@
     "pos": "noun",
     "ru": "идея",
     "en": "idea",
-    "gender": "f"
-  },
-  "frage": {
-    "pos": "noun",
-    "ru": "вопрос",
-    "en": "question",
     "gender": "f"
   },
   "hilfe": {
@@ -1290,11 +1408,6 @@
     "pos": "noun",
     "ru": "значения",
     "en": "range"
-  },
-  "rede": {
-    "pos": "noun",
-    "ru": "Ораторское искусство",
-    "en": "talk"
   },
   "mandanten": {
     "pos": "noun",
@@ -7229,11 +7342,6 @@
     "pos": "noun",
     "ru": "трудности с оплатой",
     "en": "payment difficulties"
-  },
-  "verbindung": {
-    "pos": "noun",
-    "ru": "Соединение",
-    "en": "Connection"
   },
   "buchhaltung": {
     "pos": "noun",

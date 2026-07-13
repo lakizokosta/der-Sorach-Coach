@@ -1,8 +1,11 @@
 ---
 id: b1-kond-in-028
 type: input-text
+hint: Konditionalsatz — sobald
 correct:
   - Sobald
 ---
 
-___ die Ergebnisse da sind, rufe ich an. (Konditionalsatz — sobald)
+Ergänze die Konjunktion (Konditional):
+
+___ die Ergebnisse da sind, rufe ich an.

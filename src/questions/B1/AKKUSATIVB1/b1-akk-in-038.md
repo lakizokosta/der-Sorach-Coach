@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-038
 type: input-text
+hint: Akkusativ — ein / eine / einem / einer
 correct:
   - eine
 ---
 
-Er denkt an ___ wichtige Entscheidung. (Akkusativ — ein / eine / einem / einer)
+Ergänze die Akkusativform:
+
+Er denkt an ___ wichtige Entscheidung.

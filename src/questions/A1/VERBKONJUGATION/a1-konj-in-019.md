@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-019
 type: input-text
+hint: Präsens + Verb gehen
 correct:
   - geht
 ---
 
-Sie ___ in die Stadt. (Präsens + Verb gehen)
+Ergänze die Präsensform des Verbs:
+
+Sie ___ in die Stadt.

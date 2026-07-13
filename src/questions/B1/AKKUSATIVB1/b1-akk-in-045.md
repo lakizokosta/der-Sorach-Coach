@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-045
 type: input-text
+hint: Akkusativ — ein / einem / einen / einer
 correct:
   - ein
 ---
 
-Sie kauft ___ Ticket für den Zug. (Akkusativ — ein / einem / einen / einer)
+Ergänze die Akkusativform:
+
+Sie kauft ___ Ticket für den Zug.

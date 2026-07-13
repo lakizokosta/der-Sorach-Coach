@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-001
 type: input-text
+hint: Possessivartikel — ich, mask., Gen.
 correct:
   - meines
 ---
 
-Das ist das Auto ___ Vaters. (Possessivartikel — ich, mask., Gen.)
+Ergänze den Possessivartikel:
+
+Das ist das Auto ___ Vaters.

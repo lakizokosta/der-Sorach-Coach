@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-019
 type: input-text
+hint: Frage nach Ort
 correct:
   - Wo
 ---
 
-___ spielst du Fußball? — Im Park. (Frage nach Ort)
+Ergänze das Fragewort:
+
+___ spielst du Fußball? — Im Park.

@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-041
 type: input-text
+hint: Plural: Minute
 correct:
   - Minuten
 ---
 
-Der Zug kommt in fünf ___. (Plural: Minute)
+Ergänze die Pluralform:
+
+Der Zug kommt in fünf ___.

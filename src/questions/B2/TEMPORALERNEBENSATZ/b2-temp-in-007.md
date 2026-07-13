@@ -1,8 +1,11 @@
 ---
 id: b2-temp-in-007
 type: input-text
+hint: Temporalnebensatz — bevor / bis / seitdem / während
 correct:
   - seitdem
 ---
 
-Sie wohnt hier, ___ sie ein Kind war. (Temporalnebensatz — bevor / bis / seitdem / während)
+Ergänze die Konjunktion (Temporal):
+
+Sie wohnt hier, ___ sie ein Kind war.

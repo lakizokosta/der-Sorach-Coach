@@ -1,8 +1,11 @@
 ---
 id: b1-neg-in-038
 type: input-text
+hint: Verneinung — keine / nicht / nichts / nie
 correct:
   - nie
 ---
 
-Sie arbeitet ___ am Wochenende. (Verneinung — keine / nicht / nichts / nie)
+Ergänze die Verneinung:
+
+Sie arbeitet ___ am Wochenende.

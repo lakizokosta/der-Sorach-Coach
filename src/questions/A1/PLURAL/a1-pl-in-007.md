@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-007
 type: input-text
+hint: Plural: Freund
 correct:
   - Freunde
 ---
 
-Am Wochenende treffe ich meine ___. (Plural: Freund)
+Ergänze die Pluralform:
+
+Am Wochenende treffe ich meine ___.

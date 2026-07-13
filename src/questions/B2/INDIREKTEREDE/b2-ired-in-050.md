@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-050
 type: input-text
+hint: Indirekte Rede + Verb haben
 correct:
   - habe
 ---
 
-Sie sagte, sie ___ keine Einwände. (Indirekte Rede + Verb haben)
+Ergänze die Form (Indirekte Rede):
+
+Sie sagte, sie ___ keine Einwände.

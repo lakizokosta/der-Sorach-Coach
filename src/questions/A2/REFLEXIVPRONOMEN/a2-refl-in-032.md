@@ -1,8 +1,11 @@
 ---
 id: a2-refl-in-032
 type: input-text
+hint: Reflexiv + Verb freuen
 correct:
   - freue
 ---
 
-Ich ___ mich über das Geschenk. (Reflexiv + Verb freuen)
+Ergänze die Reflexivform:
+
+Ich ___ mich über das Geschenk.

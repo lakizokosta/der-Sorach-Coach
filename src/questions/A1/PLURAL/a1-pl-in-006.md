@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-006
 type: input-text
+hint: Plural: Auto
 correct:
   - Autos
 ---
 
-Vor dem Haus stehen zwei ___. (Plural: Auto)
+Ergänze die Pluralform:
+
+Vor dem Haus stehen zwei ___.

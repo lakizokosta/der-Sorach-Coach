@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-011
 type: input-text
+hint: Wechselpräpositionen — Bewegung
 correct:
   - in die
 ---
 
-Das Flugzeug fliegt ___ Wolken. (Wechselpräpositionen — Bewegung)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Das Flugzeug fliegt ___ Wolken.

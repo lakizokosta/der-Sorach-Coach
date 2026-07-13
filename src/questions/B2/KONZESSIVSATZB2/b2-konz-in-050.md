@@ -1,8 +1,11 @@
 ---
 id: b2-konz-in-050
 type: input-text
+hint: Konzessivsatz — damit / dass / obwohl / weil
 correct:
   - obwohl
 ---
 
-Er lief weiter, ___ er einen Muskelfaserriss hatte. (Konzessivsatz — damit / dass / obwohl / weil)
+Ergänze die Konjunktion (Konzessiv):
+
+Er lief weiter, ___ er einen Muskelfaserriss hatte.

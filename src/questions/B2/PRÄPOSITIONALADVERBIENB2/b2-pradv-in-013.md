@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-013
 type: input-text
+hint: Pronominaladverb — haben / habt / hat / hatte
 correct:
   - hat
 ---
 
-Damit ___ er sein ganzes Leben. (Pronominaladverb — haben / habt / hat / hatte)
+Ergänze das Pronominaladverb:
+
+Damit ___ er sein ganzes Leben.

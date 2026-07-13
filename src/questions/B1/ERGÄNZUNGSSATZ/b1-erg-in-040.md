@@ -1,8 +1,11 @@
 ---
 id: b1-erg-in-040
 type: input-text
+hint: Ergänzungssatz
 correct:
   - ob
 ---
 
-Ich frage mich, ___ er recht hat. (Ergänzungssatz)
+Ergänze die Konjunktion (Ergänzung):
+
+Ich frage mich, ___ er recht hat.

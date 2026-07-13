@@ -1,8 +1,11 @@
 ---
 id: b1-trenn-in-044
 type: input-text
+hint: Trennbares Verb + Verb vorbereiten
 correct:
   - bereitet
 ---
 
-Er ___ die Präsentation gut vor. (Trennbares Verb + Verb vorbereiten)
+Ergänze die Verbform (trennbares Verb):
+
+Er ___ die Präsentation gut vor.

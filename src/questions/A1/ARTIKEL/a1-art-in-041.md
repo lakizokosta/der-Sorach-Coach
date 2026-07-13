@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-041
 type: input-text
+hint: Artikel — die Mutter, Nom.
 correct:
   - Die
 ---
 
-___ Mutter kocht gern. (Artikel — die Mutter, Nom.)
+Ergänze den Artikel:
+
+___ Mutter kocht gern.

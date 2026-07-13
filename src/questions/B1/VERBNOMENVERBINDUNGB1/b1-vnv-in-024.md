@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-024
 type: input-text
+hint: Verb-Nomen-Verbindung — führe / gebe / mache / stelle
 correct:
   - führe
 ---
 
-Ich ___ ein Gespräch mit dem Chef. (Verb-Nomen-Verbindung — führe / gebe / mache / stelle)
+Ergänze die Verb-Nomen-Verbindung:
+
+Ich ___ ein Gespräch mit dem Chef.

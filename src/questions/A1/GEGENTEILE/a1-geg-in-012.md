@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-012
 type: input-text
+hint: Gegenteil von laut
 correct:
   - leise
 ---
 
-Die Musik ist laut, die Nachbarn wollen es ___. (Gegenteil von laut)
+Ergänze das Gegenteil:
+
+Die Musik ist laut, die Nachbarn wollen es ___.

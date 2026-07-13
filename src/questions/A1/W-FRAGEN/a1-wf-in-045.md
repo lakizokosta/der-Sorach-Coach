@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-045
 type: input-text
+hint: Frage nach Tierart
 correct:
   - Welches
 ---
 
-___ Tier ist das? — Ein Hund. (Frage nach Tierart)
+Ergänze das Fragewort:
+
+___ Tier ist das? — Ein Hund.

@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-038
 type: input-text
+hint: Demonstrativartikel — mask., Nom.
 correct:
   - Dieser
 ---
 
-___ Studiengang passt besser zu meinen Interessen. (Demonstrativartikel — mask., Nom.)
+Ergänze den Demonstrativartikel:
+
+___ Studiengang passt besser zu meinen Interessen.

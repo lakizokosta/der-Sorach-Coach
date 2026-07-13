@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-026
 type: input-text
+hint: Adjektivdeklination — freundlich, fem., Akk.
 correct:
   - freundliche
 ---
 
-Ich kenne eine ___ Familie. (Adjektivdeklination — freundlich, fem., Akk.)
+Ergänze die Adjektivendung:
+
+Ich kenne eine ___ Familie.

@@ -1,8 +1,11 @@
 ---
 id: b2-konsek-in-024
 type: input-text
+hint: Konsekutivsatz — damit / dass / obwohl / weil
 correct:
   - dass
 ---
 
-Es war so kalt, ___ die Heizung nicht ausreichte. (Konsekutivsatz — damit / dass / obwohl / weil)
+Ergänze die konsekutive Konjunktion:
+
+Es war so kalt, ___ die Heizung nicht ausreichte.

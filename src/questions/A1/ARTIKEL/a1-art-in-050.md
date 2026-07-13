@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-050
 type: input-text
+hint: Artikel — das Meeting, Nom.
 correct:
   - Das
 ---
 
-___ Meeting beginnt jetzt. (Artikel — das Meeting, Nom.)
+Ergänze den Artikel:
+
+___ Meeting beginnt jetzt.

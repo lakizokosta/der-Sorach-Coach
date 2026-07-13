@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-039
 type: input-text
+hint: Akkusativ — das Projekt, Akk.
 correct:
   - das
 ---
 
-Ich beende ___ Projekt. (Akkusativ — das Projekt, Akk.)
+Ergänze die Akkusativform:
+
+Ich beende ___ Projekt.

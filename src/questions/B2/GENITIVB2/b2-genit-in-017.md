@@ -5,4 +5,6 @@ correct:
   - der
 ---
 
+Ergänze die Genitivform:
+
 Wegen ___ (die) Erkrankung fehlte er zwei Wochen.

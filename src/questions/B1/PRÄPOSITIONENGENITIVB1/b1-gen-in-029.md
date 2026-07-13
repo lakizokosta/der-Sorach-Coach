@@ -1,8 +1,11 @@
 ---
 id: b1-gen-in-029
 type: input-text
+hint: Genitiv-Präposition
 correct:
   - Wegen
 ---
 
-___ der hohen Nachfrage steigen die Preise. (Genitiv-Präposition)
+Ergänze die Genitiv-Präposition:
+
+___ der hohen Nachfrage steigen die Preise.

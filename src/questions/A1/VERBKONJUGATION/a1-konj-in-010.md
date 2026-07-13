@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-010
 type: input-text
+hint: Präsens + Verb hören
 correct:
   - hört
 ---
 
-Tom ___ gern Popmusik. (Präsens + Verb hören)
+Ergänze die Präsensform des Verbs:
+
+Tom ___ gern Popmusik.

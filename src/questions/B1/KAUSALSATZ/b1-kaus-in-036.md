@@ -1,6 +1,7 @@
 ---
 id: b1-kaus-in-036
 type: input-text
+hint: Kausalsatz — weil/da
 correct:
   - weil
   - Weil
@@ -8,4 +9,6 @@ correct:
   - Da
 ---
 
-Sie kündigt, ___ sie eine bessere Stelle gefunden hat. (Kausalsatz — weil/da)
+Ergänze die Konjunktion (Kausal):
+
+Sie kündigt, ___ sie eine bessere Stelle gefunden hat.

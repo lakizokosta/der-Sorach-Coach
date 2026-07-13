@@ -1,8 +1,11 @@
 ---
 id: a2-dat-in-006
 type: input-text
+hint: Dativ — Possessiv — meine Mutter, Dat.
 correct:
   - meiner
 ---
 
-Ich gebe ___ Mutter Blumen. (Dativ — Possessiv — meine Mutter, Dat.)
+Ergänze die Dativform:
+
+Ich gebe ___ Mutter Blumen.

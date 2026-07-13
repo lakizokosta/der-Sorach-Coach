@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-047
 type: input-text
+hint: Dativ — du, Dat.
 correct:
   - dir
 ---
 
-Ich wünsche ___ viel Erfolg. (Dativ — du, Dat.)
+Ergänze die Dativform:
+
+Ich wünsche ___ viel Erfolg.

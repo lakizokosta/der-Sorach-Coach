@@ -1,8 +1,11 @@
 ---
 id: a2-gen-in-020
 type: input-text
+hint: Genitiv — die Krankheit
 correct:
   - der
 ---
 
-Wegen ___ Krankheit fehlt er in der Schule. (Genitiv — die Krankheit)
+Ergänze die Genitivform:
+
+Wegen ___ Krankheit fehlt er in der Schule.

@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-023
 type: input-text
+hint: Perfekt + Hilfsverb sein
 correct:
   - sind
 ---
 
-Wir ___ im Stadtpark spaziert. (Perfekt + Hilfsverb sein)
+Ergänze die Perfektform:
+
+Wir ___ im Stadtpark spaziert.

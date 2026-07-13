@@ -1,8 +1,11 @@
 ---
 id: a1-wf-in-020
 type: input-text
+hint: Frage nach Zeit
 correct:
   - Wann
 ---
 
-___ hörst du gern Musik? — Abends. (Frage nach Zeit)
+Ergänze das Fragewort:
+
+___ hörst du gern Musik? — Abends.

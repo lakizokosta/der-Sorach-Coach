@@ -1,8 +1,11 @@
 ---
 id: a2-gen-in-027
 type: input-text
+hint: Genitiv — die Prüfung
 correct:
   - der
 ---
 
-Wegen ___ Prüfung lernt er viel. (Genitiv — die Prüfung)
+Ergänze die Genitivform:
+
+Wegen ___ Prüfung lernt er viel.

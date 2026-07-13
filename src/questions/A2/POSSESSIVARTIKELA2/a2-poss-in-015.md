@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-015
 type: input-text
+hint: Possessivartikel — sie Pl., mask., Gen.
 correct:
   - ihres
 ---
 
-Das ist das Handy ___ Chefs. (Possessivartikel — sie Pl., mask., Gen.)
+Ergänze den Possessivartikel:
+
+Das ist das Handy ___ Chefs.

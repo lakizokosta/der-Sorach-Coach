@@ -1,8 +1,11 @@
 ---
 id: b2-pradv-in-025
 type: input-text
+hint: Pronominaladverb — erinnere / erinnern / erinnerst / erinnert
 correct:
   - erinnere
 ---
 
-Daran ___ ich mich noch gut. (Pronominaladverb — erinnere / erinnern / erinnerst / erinnert)
+Ergänze das Pronominaladverb:
+
+Daran ___ ich mich noch gut.

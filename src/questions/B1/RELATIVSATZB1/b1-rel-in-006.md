@@ -1,8 +1,11 @@
 ---
 id: b1-rel-in-006
 type: input-text
+hint: Relativpronomen — mask./neutr., Gen.
 correct:
   - dessen
 ---
 
-Der Minister, ___ Entscheidung umstritten ist, spricht heute. (Relativpronomen — mask./neutr., Gen.)
+Ergänze das Relativpronomen:
+
+Der Minister, ___ Entscheidung umstritten ist, spricht heute.

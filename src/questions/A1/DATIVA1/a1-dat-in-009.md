@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-009
 type: input-text
+hint: Dativ — du, Dat.
 correct:
   - dir
 ---
 
-Das schmeckt ___ gut. (Dativ — du, Dat.)
+Ergänze die Dativform:
+
+Das schmeckt ___ gut.
