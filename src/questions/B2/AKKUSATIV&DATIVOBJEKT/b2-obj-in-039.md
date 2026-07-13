@@ -5,4 +5,4 @@ correct:
   - dem Journalisten
 ---
 
-Der Minister übermittelt ___ die wichtigsten Informationen. (Dativ/Akkusativ-Objekt — dem Journalisten / den Journalisten / des Journalisten / die Journalistin)
+Der Minister übermittelt ___ die wichtigsten Informationen. (Dativ/Akkusativ-Objekt — dem Journalisten / des Journalisten / die Journalisten / die Journalistin)

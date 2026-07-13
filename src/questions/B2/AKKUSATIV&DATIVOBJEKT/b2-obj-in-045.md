@@ -5,4 +5,4 @@ correct:
   - dem Unternehmen
 ---
 
-Die Behörde erteilt ___ eine Genehmigung. (Dativ/Akkusativ-Objekt — das Unternehmen / dem Unternehmen / den Unternehmen / die Unternehmen)
+Die Behörde erteilt ___ eine Genehmigung. (Dativ/Akkusativ-Objekt — das Unternehmen / dem Unternehmen / der Unternehmen / die Unternehmen)

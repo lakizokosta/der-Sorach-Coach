@@ -7,17 +7,17 @@ import { bank } from './b2-select-one-shared.mjs';
 
 export function genAkkusativDativobjekt() {
   return bank([
-    ['Der Anwalt erklärt ___ die rechtliche Lage.', 'seinem Mandanten', ['seinen Mandanten', 'sein Mandant', 'seinem Mandant', 'seine Mandantin']],
+    ['Der Anwalt erklärt ___ die rechtliche Lage.', 'seinem Mandanten', ['sein Mandant', 'seine Mandantin', 'seinem Mandant', 'seine Mandanten']],
     ['Die Richterin verurteilt ___ zu einer Geldstrafe.', 'den Angeklagten', ['der Angeklagte', 'dem Angeklagten', 'den Angeklagte', 'des Angeklagten']],
     ['Der Professor stellt ___ eine schwierige Frage.', 'den Studierenden', ['der Studierende', 'das Studierenden', 'die Studierenden', 'des Studierenden']],
-    ['Die Ärztin verschreibt ___ ein neues Medikament.', 'der Patientin', ['die Patientin', 'den Patienten', 'der Patient']],
-    ['Der Minister übermittelt ___ die wichtigsten Informationen.', 'dem Journalisten', ['der Journalist', 'den Journalisten', 'des Journalisten', 'die Journalistin']],
+    ['Die Ärztin verschreibt ___ ein neues Medikament.', 'der Patientin', ['die Patientin', 'die Patienten', 'der Patient']],
+    ['Der Minister übermittelt ___ die wichtigsten Informationen.', 'dem Journalisten', ['der Journalist', 'die Journalisten', 'des Journalisten', 'die Journalistin']],
     ['Ich schenke ___ zum Geburtstag ein Buch.', 'meiner Kollegin', ['meine Kollegin', 'meiner Kollege', 'meinen Kollegin', 'meinem Kollegin']],
     ['Sie zeigt ___ die neuen Unterlagen.', 'ihrem Chef', ['ihren Chef', 'ihre Chef', 'ihres Chefs', 'ihrem Chefin']],
     ['Der Autor widmet ___ sein neues Werk.', 'seiner Mutter', ['seine Mutter', 'seinen Mutter', 'seiner Muttern', 'seines Mutter']],
     ['Wir empfehlen ___ einen erfahrenen Anwalt.', 'unseren Mandanten', ['unser Mandant', 'unserer Mandanten', 'unserer Mandant', 'unseres Mandanten']],
     ['Er erzählt ___ von seiner Reise.', 'uns', ['wir', 'unsere', 'unser', 'unseren']],
-    ['Die Behörde erteilt ___ eine Genehmigung.', 'dem Unternehmen', ['das Unternehmen', 'den Unternehmen', 'des Unternehmens', 'die Unternehmen']],
+    ['Die Behörde erteilt ___ eine Genehmigung.', 'dem Unternehmen', ['das Unternehmen', 'die Unternehmen', 'des Unternehmens', 'der Unternehmen']],
     ['Sie bringt ___ jeden Morgen zur Schule.', 'ihre Kinder', ['ihren Kinder', 'ihrer Kinder', 'ihrem Kinder', 'ihres Kinder']],
     ['Der Trainer erklärt ___ die neue Taktik.', 'dem Team', ['das Team', 'den Team', 'des Teams', 'die Team']],
     ['Ich schreibe ___ eine lange E-Mail.', 'meinem Freund', ['meinen Freund', 'meine Freund', 'meines Freundes', 'meinem Freunde']],

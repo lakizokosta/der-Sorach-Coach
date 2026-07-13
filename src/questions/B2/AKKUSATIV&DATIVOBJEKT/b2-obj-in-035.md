@@ -5,4 +5,4 @@ correct:
   - seinem Mandanten
 ---
 
-Der Anwalt erklärt ___ die rechtliche Lage. (Dativ/Akkusativ-Objekt — sein Mandant / seine Mandantin / seinem Mandant / seinem Mandanten)
+Der Anwalt erklärt ___ die rechtliche Lage. (Dativ/Akkusativ-Objekt — seine Mandanten / seine Mandantin / seinem Mandant / seinem Mandanten)

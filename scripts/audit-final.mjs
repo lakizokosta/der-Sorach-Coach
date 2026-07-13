@@ -14,6 +14,7 @@ import { dirname } from 'node:path';
 
 import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
 import { duplicateModalIssue } from './audit-duplicate-modal.mjs';
+import { collectAmbiguousDistractorIssues } from './audit-ambiguous-distractors.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
 const LEVELS = new Set(['A1', 'A2', 'B1', 'B2']);
@@ -149,6 +150,9 @@ for (const file of walk(ROOT)) {
     if (q.prompt?.includes('___')) {
       const dupModal = duplicateModalIssue(q.prompt, cv);
       if (dupModal) add('CRITICAL', rel, q.id, 'grammar', dupModal);
+    }
+    for (const amb of collectAmbiguousDistractorIssues([{ rel, q, level, topic }])) {
+      add('MAJOR', rel, q.id, 'distractor', amb.msg);
     }
   }
 }
