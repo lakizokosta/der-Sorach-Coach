@@ -123,7 +123,7 @@ export function genFinalsatz() {
   const items = [
     ['Er lernt Deutsch, ___ in Berlin arbeiten zu können.', 'um', ['damit', 'weil', 'dass', 'wenn']],
     ['Sie spart Geld, ___ nächstes Jahr reisen zu können.', 'um', ['damit', 'weil', 'dass', 'wenn']],
-    ['Ich nehme Medikamente, ___ die Schmerzen lindern.', 'um', ['damit', 'weil', 'dass', 'wenn']],
+    ['Ich nehme Medikamente, ___ die Schmerzen zu lindern.', 'um', ['damit', 'weil', 'dass', 'wenn']],
     ['Er informiert die Kollegen, ___ alle Bescheid wissen.', 'damit', ['um', 'weil', 'dass', 'wenn']],
     ['Wir fahren früh los, ___ den Zug nicht zu verpassen.', 'um', ['damit', 'weil', 'dass', 'wenn']],
     ['Die Firma schult das Personal, ___ die Qualität steigt.', 'damit', ['um', 'weil', 'dass', 'wenn']],
