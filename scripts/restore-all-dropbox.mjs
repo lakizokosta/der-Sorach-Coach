@@ -172,7 +172,10 @@ for (const [folder, { prefix, bank }] of Object.entries(A1_TOPICS)) {
   console.log(`A1/${folder}: restored`);
 }
 
-const b2 = restoreLevel('B2', { TEKAMOLO: 'b2-tkml-dd' }, B2_BANK, b2md, b2assert);
+const b2 = restoreLevel('B2', {
+  TEKAMOLO: 'b2-tkml-dd',
+  'AKKUSATIV&DATIVOBJEKT': 'b2-obj-dd',
+}, B2_BANK, b2md, b2assert);
 grand += b2.total;
 allErrors.push(...b2.errors);
 

@@ -16,8 +16,14 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questio
 const FORCE = process.argv.includes('--force');
 const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
 
+const TOPIC_LIMIT = {
+  TEKAMOLO: 50,
+  'AKKUSATIV&DATIVOBJEKT': 25,
+};
+
 const TOPICS = {
   TEKAMOLO: 'b2-tkml-dd',
+  'AKKUSATIV&DATIVOBJEKT': 'b2-obj-dd',
 };
 
 let total = 0;
@@ -29,7 +35,8 @@ for (const [folder, prefix] of Object.entries(TOPICS)) {
   if (!bank) throw new Error(`Missing bank for ${folder}`);
   mkdirSync(join(ROOT, folder), { recursive: true });
   let n = 0;
-  bank.slice(0, 50).forEach((item, i) => {
+  const limit = TOPIC_LIMIT[folder] ?? 50;
+  bank.slice(0, limit).forEach((item, i) => {
     const num = String(i + 1).padStart(3, '0');
     const path = join(ROOT, folder, `${prefix}-${num}.md`);
     if (!FORCE && existsSync(path)) return;

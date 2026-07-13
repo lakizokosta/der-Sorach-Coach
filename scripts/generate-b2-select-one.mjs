@@ -10,6 +10,7 @@ import { fileURLToPath } from 'node:url';
 
 import { md } from './b2-select-one-shared.mjs';
 import * as G from './b2-select-one-data.mjs';
+import { genAkkusativDativobjektWordOrder } from './b2-obj-word-order-data.mjs';
 import { verbFormHint } from './topic-context-hints.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B2');
@@ -43,17 +44,18 @@ const TOPICS = {
   // SPRACHBAUSTEINEB2: exam format only — separate generator later
 };
 
-function writeTopic(folder, prefix, questions) {
+function writeTopic(folder, prefix, questions, { start = 1, count = 50 } = {}) {
   const dir = join(ROOT, folder);
   mkdirSync(dir, { recursive: true });
   let written = 0;
-  for (let i = 1; i <= 50; i++) {
-    const q = questions[i - 1];
+  for (let i = 0; i < count; i++) {
+    const q = questions[i];
     if (!q) break;
-    const num = String(i).padStart(3, '0');
+    const num = String(start + i).padStart(3, '0');
     const file = join(dir, `${prefix}-${num}.md`);
     if (!FORCE && existsSync(file)) continue;
-    writeFileSync(file, md({ id: `${prefix}-${num}`, hint: verbFormHint(folder, '', q.correct, q.options), ...q }), 'utf8');
+    const hint = q.hint || verbFormHint(folder, '', q.correct, q.options);
+    writeFileSync(file, md({ id: `${prefix}-${num}`, hint, ...q }), 'utf8');
     written += 1;
   }
   return written;
@@ -66,5 +68,11 @@ for (const [folder, { prefix, gen }] of Object.entries(TOPICS)) {
   const n = writeTopic(folder, prefix, qs);
   total += n;
   console.log(`${folder}: ${FORCE ? 'regen ' : '+'}${n} select-one`);
+  if (folder === 'AKKUSATIV&DATIVOBJEKT') {
+    const wo = genAkkusativDativobjektWordOrder();
+    const n2 = writeTopic(folder, prefix, wo, { start: 51, count: 25 });
+    total += n2;
+    console.log(`${folder} (Wortstellung): ${FORCE ? 'regen ' : '+'}${n2} select-one`);
+  }
 }
 console.log(`\nTotal ${FORCE ? 'regenerated' : 'new'} files: ${total}`);

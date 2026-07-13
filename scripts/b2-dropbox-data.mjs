@@ -3,6 +3,7 @@
  */
 
 import { cycle50 } from './b1-dropbox-shared.mjs';
+import { DROPBOX_BANK as OBJ_WORD_ORDER } from './b2-obj-word-order-data.mjs';
 
 const TEKAMOLO_RAW = [
   {
@@ -94,4 +95,5 @@ const TEKAMOLO_RAW = [
 
 export const BANK = {
   TEKAMOLO: cycle50(TEKAMOLO_RAW),
+  'AKKUSATIV&DATIVOBJEKT': OBJ_WORD_ORDER,
 };
