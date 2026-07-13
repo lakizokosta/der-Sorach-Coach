@@ -9,4 +9,4 @@ options:
 correct: sei
 ---
 
-Die Zeitung schrieb, die Lage ___ ernst. (Grammatikform)
+Die Zeitung schrieb, die Lage ___ ernst.

@@ -9,4 +9,4 @@ options:
 correct: sei
 ---
 
-Die Lehrerin erklärte, die Prüfung ___ schwierig. (Grammatikform)
+Die Lehrerin erklärte, die Prüfung ___ schwierig.

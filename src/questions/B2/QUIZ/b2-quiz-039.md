@@ -9,4 +9,4 @@ options:
 correct: gleichwohl
 ---
 
-Die Chancen sind gering; ___ geben wir nicht auf. (Grammatikform)
+Die Chancen sind gering; ___ geben wir nicht auf.

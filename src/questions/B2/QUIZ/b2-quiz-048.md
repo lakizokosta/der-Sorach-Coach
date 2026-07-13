@@ -9,4 +9,4 @@ options:
 correct: werde
 ---
 
-Er meinte, er ___ morgen früher kommen. (Grammatikform)
+Er meinte, er ___ morgen früher kommen.

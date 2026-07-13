@@ -5,4 +5,4 @@ correct:
   - könne
 ---
 
-Er meinte, er ___ das nicht tun können. (Indirekte Rede + Verb können)
+Er meinte, er ___ das nicht tun. (Indirekte Rede + Verb können)

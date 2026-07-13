@@ -9,4 +9,4 @@ options:
 correct: wüsste
 ---
 
-Sie spricht, als ob sie alles ___. (Grammatikform)
+Sie spricht, als ob sie alles ___.

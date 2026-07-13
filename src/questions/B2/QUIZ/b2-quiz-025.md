@@ -9,4 +9,4 @@ options:
 correct: wirst
 ---
 
-Du ___ dich sicher über die Nachricht freuen. (Grammatikform)
+Du ___ dich sicher über die Nachricht freuen.

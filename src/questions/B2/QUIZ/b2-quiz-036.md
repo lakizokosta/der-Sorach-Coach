@@ -9,4 +9,4 @@ options:
 correct: hingegen
 ---
 
-Sie hat Erfahrung; ___ fehlt ihr das nötige Zertifikat. (Grammatikform)
+Sie hat Erfahrung; ___ fehlt ihr das nötige Zertifikat.

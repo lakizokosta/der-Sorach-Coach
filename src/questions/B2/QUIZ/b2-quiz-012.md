@@ -9,4 +9,4 @@ options:
 correct: ist
 ---
 
-Ein Kompromiss ___ gefunden worden. (Grammatikform)
+Ein Kompromiss ___ gefunden worden.

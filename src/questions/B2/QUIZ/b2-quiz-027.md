@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Es ___ morgen regnen, sagt der Wetterbericht. (Grammatikform)
+Es ___ morgen regnen, sagt der Wetterbericht.

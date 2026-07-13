@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Die Straße ___ wegen Bauarbeiten gesperrt. (Grammatikform)
+Die Straße ___ wegen Bauarbeiten gesperrt.

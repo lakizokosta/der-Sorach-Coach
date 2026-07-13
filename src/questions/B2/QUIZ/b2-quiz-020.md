@@ -9,4 +9,4 @@ options:
 correct: der
 ---
 
-Die Ärztin, zu ___ ich gehe, ist sehr kompetent. (Grammatikform)
+Die Ärztin, zu ___ ich gehe, ist sehr kompetent.

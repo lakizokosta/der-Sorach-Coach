@@ -9,4 +9,4 @@ options:
 correct: sei
 ---
 
-Der Experte meinte, das ___ ein Fehler. (Grammatikform)
+Der Experte meinte, das ___ ein Fehler.

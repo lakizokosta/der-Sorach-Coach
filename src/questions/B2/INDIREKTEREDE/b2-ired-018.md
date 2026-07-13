@@ -9,4 +9,4 @@ options:
 correct: sei
 ---
 
-Er behauptete, er ___ unschuldig. (Indirekte Rede)
+Er behauptete, er ___ unschuldig. (Indirekte Rede + Verb sein)

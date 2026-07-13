@@ -13,6 +13,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 
 import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
+import { duplicateModalIssue } from './audit-duplicate-modal.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
 const LEVELS = new Set(['A1', 'A2', 'B1', 'B2']);
@@ -120,6 +121,8 @@ for (const file of walk(ROOT)) {
     if (q.prompt?.includes('___')) {
       const filled = q.prompt.replace('___', String(corrects[0] || ''));
       if (hasDoubleArticle(filled)) add('CRITICAL', rel, q.id, 'grammar', 'Doppelartikel when filled');
+      const dupModal = duplicateModalIssue(q.prompt, corrects[0] || '');
+      if (dupModal) add('CRITICAL', rel, q.id, 'grammar', dupModal);
     }
 
     if (/^\s*adjektivendung\s*$/i.test(hint)) {
@@ -142,6 +145,10 @@ for (const file of walk(ROOT)) {
     const cv = String(q.correct ?? '').trim();
     if (!q.options?.some((o) => String(o).trim() === cv)) {
       add('CRITICAL', rel, q.id, 'correct', `correct "${cv}" not in options`);
+    }
+    if (q.prompt?.includes('___')) {
+      const dupModal = duplicateModalIssue(q.prompt, cv);
+      if (dupModal) add('CRITICAL', rel, q.id, 'grammar', dupModal);
     }
   }
 }

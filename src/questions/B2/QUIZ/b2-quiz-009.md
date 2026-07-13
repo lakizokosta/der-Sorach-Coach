@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Daten ___ sorgfältig ausgewertet. (Grammatikform)
+Die Daten ___ sorgfältig ausgewertet.

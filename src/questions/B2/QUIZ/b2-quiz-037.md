@@ -9,4 +9,4 @@ options:
 correct: somit
 ---
 
-Die Daten sind unvollständig; ___ ist die Analyse schwierig. (Grammatikform)
+Die Daten sind unvollständig; ___ ist die Analyse schwierig.

@@ -49,6 +49,7 @@
     "questions:audit-dropbox": "node scripts/audit-dropbox-sentences.mjs",
     "questions:audit-informative": "node scripts/audit-input-text-informative.mjs",
     "questions:audit-final": "node scripts/audit-final.mjs",
+    "questions:audit-duplicate-modal": "node scripts/audit-duplicate-modal.mjs",
     "dictionary:build": "node scripts/build-dictionary.mjs",
     "dictionary:seed-en": "node scripts/sync-en-seed.mjs",
     "dictionary:build:fetch": "node scripts/build-dictionary.mjs --fetch-translations",

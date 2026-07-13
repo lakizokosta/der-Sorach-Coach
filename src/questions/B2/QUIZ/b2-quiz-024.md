@@ -9,4 +9,4 @@ options:
 correct: der
 ---
 
-Die Methode, mit ___ wir arbeiten, ist bewährt. (Grammatikform)
+Die Methode, mit ___ wir arbeiten, ist bewährt.

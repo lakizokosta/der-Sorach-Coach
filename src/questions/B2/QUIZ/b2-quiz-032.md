@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Das ___ keine einfachen Lösungen bringen. (Grammatikform)
+Das ___ keine einfachen Lösungen bringen.

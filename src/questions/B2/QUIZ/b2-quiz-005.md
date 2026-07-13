@@ -9,4 +9,4 @@ options:
 correct: wäre
 ---
 
-Wenn das Wetter besser ___, würden wir wandern gehen. (Grammatikform)
+Wenn das Wetter besser ___, würden wir wandern gehen.

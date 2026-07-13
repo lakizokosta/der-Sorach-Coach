@@ -9,4 +9,4 @@ options:
 correct: müsse
 ---
 
-Sie sagte, sie ___ den Termin verschieben müssen. (Indirekte Rede)
+Sie sagte, sie ___ den Termin verschieben. (Indirekte Rede + Verb müssen)

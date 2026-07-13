@@ -9,4 +9,4 @@ options:
 correct: habe
 ---
 
-Sie erklärte, sie ___ keine Zeit. (Indirekte Rede)
+Sie erklärte, sie ___ keine Zeit. (Indirekte Rede + Verb haben)

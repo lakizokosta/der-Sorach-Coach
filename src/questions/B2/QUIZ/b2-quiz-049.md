@@ -9,4 +9,4 @@ options:
 correct: müsse
 ---
 
-Sie sagte, sie ___ den Termin verschieben müssen. (Grammatikform)
+Sie sagte, sie ___ den Termin verschieben.

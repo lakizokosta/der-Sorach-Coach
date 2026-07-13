@@ -9,4 +9,4 @@ options:
 correct: dessen
 ---
 
-Der Mann, ___ Auto vor der Tür steht, ist mein Nachbar. (Grammatikform)
+Der Mann, ___ Auto vor der Tür steht, ist mein Nachbar.

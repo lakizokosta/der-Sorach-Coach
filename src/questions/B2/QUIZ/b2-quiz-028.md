@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Die Firma ___ nächstes Jahr neue Stellen schaffen. (Grammatikform)
+Die Firma ___ nächstes Jahr neue Stellen schaffen.

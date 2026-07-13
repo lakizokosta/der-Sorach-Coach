@@ -9,4 +9,4 @@ options:
 correct: wurden
 ---
 
-Die Verhandlungen ___ erfolgreich abgeschlossen. (Grammatikform)
+Die Verhandlungen ___ erfolgreich abgeschlossen.

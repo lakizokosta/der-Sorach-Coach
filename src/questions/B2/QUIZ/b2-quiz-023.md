@@ -9,4 +9,4 @@ options:
 correct: dem
 ---
 
-Das Land, aus ___ er stammt, liegt in Südamerika. (Grammatikform)
+Das Land, aus ___ er stammt, liegt in Südamerika.

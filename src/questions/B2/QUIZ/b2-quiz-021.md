@@ -9,4 +9,4 @@ options:
 correct: den
 ---
 
-Der Bericht, auf ___ er sich bezieht, ist veraltet. (Grammatikform)
+Der Bericht, auf ___ er sich bezieht, ist veraltet.

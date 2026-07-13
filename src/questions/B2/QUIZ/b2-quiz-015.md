@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Ergebnisse ___ morgen bekannt gegeben. (Grammatikform)
+Die Ergebnisse ___ morgen bekannt gegeben.

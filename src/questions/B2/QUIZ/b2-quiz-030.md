@@ -9,4 +9,4 @@ options:
 correct: wird
 ---
 
-Der Zug ___ in zehn Minuten in Berlin ankommen. (Grammatikform)
+Der Zug ___ in zehn Minuten in Berlin ankommen.

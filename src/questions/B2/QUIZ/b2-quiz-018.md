@@ -9,4 +9,4 @@ options:
 correct: der
 ---
 
-Die Firma, bei ___ ich Praktikum machte, stellt ein. (Grammatikform)
+Die Firma, bei ___ ich Praktikum machte, stellt ein.

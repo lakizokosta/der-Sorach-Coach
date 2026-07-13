@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Die Verhandlungen ___ vermutlich länger dauern als geplant. (Grammatikform)
+Die Verhandlungen ___ vermutlich länger dauern als geplant.

@@ -238,10 +238,10 @@ export function genIndirekteRede() {
     ['Er erklärte, er ___ die Aufgabe bereits erledigt.', 'habe', ['hat', 'hätte', 'hatte', 'haben']],
     ['Der Experte meinte, das ___ ein Fehler.', 'sei', ['ist', 'war', 'wäre', 'wird']],
     ['Sie behauptete, sie ___ nie dort gewesen.', 'sei', ['ist', 'war', 'wäre', 'wird']],
-    ['Er sagte, er ___ das nicht tun können.', 'könne', ['kann', 'könnte', 'konnte', 'können']],
+    ['Er sagte, er ___ das nicht tun.', 'könne', ['kann', 'könnte', 'konnte', 'können']],
     ['Die Lehrerin erklärte, die Prüfung ___ schwierig.', 'sei', ['ist', 'war', 'wäre', 'wird']],
     ['Er meinte, er ___ morgen früher kommen.', 'werde', ['wird', 'würde', 'wäre', 'war']],
-    ['Sie sagte, sie ___ den Termin verschieben müssen.', 'müsse', ['muss', 'müsste', 'musste', 'müssen']],
+    ['Sie sagte, sie ___ den Termin verschieben.', 'müsse', ['muss', 'müsste', 'musste', 'müssen']],
     ['Der Zeuge behauptete, er ___ alles genau gesehen.', 'habe', ['hat', 'hätte', 'hatte', 'haben']],
     ['Er erklärte, das Problem ___ bald gelöst.', 'werde', ['wird', 'würde', 'wäre', 'war']],
   ], 101);

@@ -9,4 +9,4 @@ options:
 correct: wäre
 ---
 
-Wenn er nicht so stur ___, ginge alles leichter. (Grammatikform)
+Wenn er nicht so stur ___, ginge alles leichter.

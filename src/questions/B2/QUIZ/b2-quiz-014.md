@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Der Antrag ___ abgelehnt. (Grammatikform)
+Der Antrag ___ abgelehnt.

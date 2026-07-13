@@ -9,4 +9,4 @@ options:
 correct: werden
 ---
 
-Wir ___ wohl bis Freitag auf eine Antwort warten müssen. (Grammatikform)
+Wir ___ wohl bis Freitag auf eine Antwort warten müssen.

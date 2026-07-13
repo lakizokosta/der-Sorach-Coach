@@ -9,4 +9,4 @@ options:
 correct: wäre
 ---
 
-Wenn ich du ___, würde ich die Stelle annehmen. (Grammatikform)
+Wenn ich du ___, würde ich die Stelle annehmen.

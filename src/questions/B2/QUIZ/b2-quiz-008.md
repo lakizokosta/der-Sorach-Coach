@@ -9,4 +9,4 @@ options:
 correct: wüsste
 ---
 
-Sie tut so, als ___ sie nichts davon. (Grammatikform)
+Sie tut so, als ___ sie nichts davon.
