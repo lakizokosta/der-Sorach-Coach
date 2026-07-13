@@ -29,6 +29,7 @@ const { showLogin, openLogin, closeLogin } = useLoginModal();
 
 const showLoginFab = computed(() => {
   if (!hasBackend() || isLoggedIn.value || isPremium.value) return false;
+  if (route.name === 'trainer') return false;
   if (route.name === 'landing') return !isBasis.value;
   return route.name === 'premium' && route.query.hub === '1';
 });

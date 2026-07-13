@@ -430,6 +430,7 @@ onMounted(() => {
 });
 
 onBeforeUnmount(() => {
+  delete document.documentElement.dataset.funnelSticky;
   stopEntitlementPolling();
   window.removeEventListener('keydown', onTrainerKeydown);
   if (microFeedbackTimer) clearTimeout(microFeedbackTimer);
@@ -792,6 +793,15 @@ const showFunnelSticky = computed(
     !!currentQuestion.value &&
     !placementMode &&
     !schwaechenMode,
+);
+
+watch(
+  showFunnelSticky,
+  (on) => {
+    if (on) document.documentElement.dataset.funnelSticky = '1';
+    else delete document.documentElement.dataset.funnelSticky;
+  },
+  { immediate: true },
 );
 
 function openFunnelCheckout(variant = 'checkout') {
