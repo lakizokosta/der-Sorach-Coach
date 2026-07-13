@@ -2,7 +2,7 @@
 id: a2-fest-in-014
 type: input-text
 correct:
-  - dem
+  - nach
 ---
 
-Er fragt nach ___ Weg zum Hotel. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Er fragt ___ dem Weg zum Hotel. (Feste Präposition — an / auf / für / mit / nach / über / von)

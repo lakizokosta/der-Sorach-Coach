@@ -2,11 +2,11 @@
 id: a2-fest-021
 type: select-one
 options:
-  - eine
-  - einen
-  - einer
-  - einem
-correct: einem
+  - mit
+  - über
+  - von
+  - auf
+correct: auf
 ---
 
-Er träumt von ___ Urlaub. (Feste Präposition)
+Sie freut sich ___ den Geburtstag. (Feste Präposition)

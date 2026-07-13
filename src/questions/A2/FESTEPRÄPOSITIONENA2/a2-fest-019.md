@@ -2,11 +2,11 @@
 id: a2-fest-019
 type: select-one
 options:
-  - dem
-  - den
-  - die
-  - der
-correct: den
+  - von
+  - an
+  - über
+  - nach
+correct: an
 ---
 
-Sie freut sich auf ___ Geburtstag. (Feste Präposition)
+Er denkt ___ seine Familie. (Feste Präposition)

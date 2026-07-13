@@ -2,11 +2,11 @@
 id: a2-fest-027
 type: select-one
 options:
-  - dem
-  - der
-  - den
-  - die
-correct: den
+  - bei
+  - nach
+  - an
+  - in
+correct: an
 ---
 
-Sie wartet auf ___ Zug. (Feste Präposition)
+Er erinnert sich ___ seine Kindheit. (Feste Präposition)

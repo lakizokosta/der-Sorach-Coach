@@ -2,11 +2,11 @@
 id: a2-fest-007
 type: select-one
 options:
-  - dem
-  - das
-  - die
-  - der
-correct: das
+  - in
+  - über
+  - an
+  - bei
+correct: über
 ---
 
-Wir diskutieren über ___ Problem. (Feste Präposition)
+Wir diskutieren ___ das Problem. (Feste Präposition)

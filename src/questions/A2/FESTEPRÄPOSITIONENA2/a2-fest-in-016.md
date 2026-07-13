@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Ich freue mich ___ das Fest. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Ich freue mich ___ das Fest. (Feste Präposition — an / auf / für / mit / nach / über / von)

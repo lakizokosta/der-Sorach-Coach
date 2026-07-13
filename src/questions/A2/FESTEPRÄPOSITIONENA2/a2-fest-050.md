@@ -3,10 +3,10 @@ id: a2-fest-050
 type: select-one
 options:
   - über
-  - für
   - auf
-  - mit
-correct: für
+  - in
+  - für
+correct: auf
 ---
 
-Ich interessiere mich ___ klassische Musik. (Feste Präposition)
+Ich freue mich ___ das Fest. (Feste Präposition)

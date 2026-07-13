@@ -2,11 +2,11 @@
 id: a2-fest-029
 type: select-one
 options:
-  - der
-  - das
-  - die
-  - dem
-correct: dem
+  - über
+  - von
+  - mit
+  - auf
+correct: auf
 ---
 
-Er fragt nach ___ Weg. (Feste Präposition)
+Sie wartet ___ den Zug. (Feste Präposition)

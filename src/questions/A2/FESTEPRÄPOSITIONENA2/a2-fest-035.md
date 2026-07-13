@@ -2,11 +2,11 @@
 id: a2-fest-035
 type: select-one
 options:
-  - an
+  - über
+  - in
   - auf
-  - für
   - mit
-correct: für
+correct: auf
 ---
 
-Ich interessiere mich ___ klassische Musik. (Feste Präposition)
+Ich warte ___ eine Antwort vom Reisebüro. (Feste Präposition)

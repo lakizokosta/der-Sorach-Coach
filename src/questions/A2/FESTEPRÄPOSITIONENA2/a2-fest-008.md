@@ -2,11 +2,11 @@
 id: a2-fest-008
 type: select-one
 options:
-  - dem
-  - den
-  - der
-  - das
-correct: den
+  - in
+  - über
+  - bei
+  - an
+correct: über
 ---
 
-Sie ärgert sich über ___ Fehler. (Feste Präposition)
+Sie ärgert sich ___ den Fehler. (Feste Präposition)

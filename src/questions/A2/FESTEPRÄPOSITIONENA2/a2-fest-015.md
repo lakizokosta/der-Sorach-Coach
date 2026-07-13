@@ -2,11 +2,11 @@
 id: a2-fest-015
 type: select-one
 options:
-  - dem
-  - den
-  - die
-  - der
-correct: den
+  - bei
+  - über
+  - von
+  - nach
+correct: über
 ---
 
-Wir lachen über ___ Witz. (Feste Präposition)
+Wir lachen ___ den Witz. (Feste Präposition)

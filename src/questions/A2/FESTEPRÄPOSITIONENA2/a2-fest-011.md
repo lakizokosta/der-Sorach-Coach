@@ -2,11 +2,11 @@
 id: a2-fest-011
 type: select-one
 options:
-  - der
-  - dem
-  - die
-  - den
-correct: dem
+  - in
+  - mit
+  - an
+  - für
+correct: mit
 ---
 
-Wir sprechen mit ___ Chef. (Feste Präposition)
+Wir sprechen ___ dem Chef. (Feste Präposition)

@@ -2,11 +2,11 @@
 id: a2-fest-026
 type: select-one
 options:
-  - den
-  - das
-  - dem
-  - die
-correct: dem
+  - nach
+  - mit
+  - auf
+  - über
+correct: auf
 ---
 
-Wir sprechen mit ___ Chef. (Feste Präposition)
+Ich hoffe ___ gutes Wetter. (Feste Präposition)

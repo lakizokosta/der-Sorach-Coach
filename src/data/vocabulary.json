@@ -47,17 +47,17 @@
     "en": "city",
     "gender": "f"
   },
-  "reise": {
-    "pos": "noun",
-    "ru": "поездка",
-    "en": "trip",
-    "gender": "f"
-  },
   "buch": {
     "pos": "noun",
     "ru": "книга",
     "en": "book",
     "gender": "n"
+  },
+  "reise": {
+    "pos": "noun",
+    "ru": "поездка",
+    "en": "trip",
+    "gender": "f"
   },
   "straße": {
     "pos": "noun",
@@ -221,16 +221,16 @@
     "en": "meeting",
     "gender": "n"
   },
-  "antwort": {
-    "pos": "noun",
-    "ru": "ответ",
-    "en": "answer",
-    "gender": "f"
-  },
   "wohnung": {
     "pos": "noun",
     "ru": "квартира",
     "en": "apartment",
+    "gender": "f"
+  },
+  "antwort": {
+    "pos": "noun",
+    "ru": "ответ",
+    "en": "answer",
     "gender": "f"
   },
   "tür": {
@@ -348,6 +348,12 @@
     "en": "message",
     "gender": "f"
   },
+  "fest": {
+    "pos": "noun",
+    "ru": "праздник / фестиваль",
+    "en": "festival / party",
+    "gender": "n"
+  },
   "professor": {
     "pos": "noun",
     "ru": "профессор",
@@ -377,12 +383,6 @@
     "en": "tea",
     "gender": "m"
   },
-  "fest": {
-    "pos": "noun",
-    "ru": "праздник / фестиваль",
-    "en": "festival / party",
-    "gender": "n"
-  },
   "gründen": {
     "pos": "noun",
     "ru": "основать",
@@ -392,12 +392,6 @@
     "pos": "noun",
     "ru": "идея",
     "en": "idea",
-    "gender": "f"
-  },
-  "familie": {
-    "pos": "noun",
-    "ru": "семья",
-    "en": "family",
     "gender": "f"
   },
   "haus": {
@@ -410,6 +404,12 @@
     "pos": "noun",
     "ru": "конференция",
     "en": "conference",
+    "gender": "f"
+  },
+  "familie": {
+    "pos": "noun",
+    "ru": "семья",
+    "en": "family",
     "gender": "f"
   },
   "kaffee": {
@@ -660,6 +660,11 @@
     "ru": "Ковер",
     "en": "Carpet"
   },
+  "reisebüro": {
+    "pos": "noun",
+    "ru": "Туристическое агентство",
+    "en": "Travel agency"
+  },
   "formular": {
     "pos": "noun",
     "ru": "Форма",
@@ -741,11 +746,6 @@
     "ru": "Родительские элементы",
     "en": "parents"
   },
-  "reisebüro": {
-    "pos": "noun",
-    "ru": "Туристическое агентство",
-    "en": "Travel agency"
-  },
   "journalist": {
     "pos": "noun",
     "ru": "Журналист",
@@ -786,11 +786,6 @@
     "ru": "КИНО",
     "en": "film&fun,kino"
   },
-  "geburtstag": {
-    "pos": "noun",
-    "ru": "Дата рождения",
-    "en": "Birthday"
-  },
   "bewegung": {
     "pos": "noun",
     "ru": "Движение",
@@ -815,6 +810,11 @@
     "pos": "noun",
     "ru": "Пауза",
     "en": "pertrauka"
+  },
+  "geburtstag": {
+    "pos": "noun",
+    "ru": "Дата рождения",
+    "en": "Birthday"
   },
   "mosel": {
     "pos": "noun",
@@ -2614,6 +2614,11 @@
     "ru": "Объединение",
     "en": "Association"
   },
+  "zahlung": {
+    "pos": "noun",
+    "ru": "Наименование выплаты",
+    "en": "payment"
+  },
   "rand": {
     "pos": "noun",
     "ru": "Граница",
@@ -3069,11 +3074,6 @@
     "pos": "noun",
     "ru": "Уведомление",
     "en": "announcement"
-  },
-  "zahlung": {
-    "pos": "noun",
-    "ru": "Наименование выплаты",
-    "en": "payment"
   },
   "mall": {
     "pos": "noun",

@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Er besteht ___ pünktliche Zahlung. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Er besteht ___ pünktliche Zahlung. (Feste Präposition — an / auf / für / mit / nach / über / von)

@@ -2,7 +2,7 @@
 id: a2-fest-in-037
 type: input-text
 correct:
-  - die
+  - über
 ---
 
-Wir sprechen über ___ Reise. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Wir sprechen ___ die Reise. (Feste Präposition — an / auf / für / mit / nach / über / von)

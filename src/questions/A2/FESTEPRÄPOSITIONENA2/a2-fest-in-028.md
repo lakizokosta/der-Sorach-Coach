@@ -2,7 +2,7 @@
 id: a2-fest-in-028
 type: input-text
 correct:
-  - dem
+  - mit
 ---
 
-Wir sprechen mit ___ Chef. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Wir sprechen ___ dem Chef. (Feste Präposition — an / auf / für / mit / nach / über / von)

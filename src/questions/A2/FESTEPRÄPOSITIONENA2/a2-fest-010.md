@@ -2,11 +2,11 @@
 id: a2-fest-010
 type: select-one
 options:
-  - seiner
-  - seine
-  - sein
-  - seinem
-correct: seine
+  - für
+  - an
+  - mit
+  - bei
+correct: an
 ---
 
-Er erinnert sich an ___ Kindheit. (Feste Präposition)
+Er erinnert sich ___ seine Kindheit. (Feste Präposition)

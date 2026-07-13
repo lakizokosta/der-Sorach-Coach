@@ -2,11 +2,11 @@
 id: a2-fest-013
 type: select-one
 options:
-  - dem
-  - den
-  - das
-  - die
-correct: die
+  - an
+  - über
+  - nach
+  - für
+correct: für
 ---
 
-Ich danke für ___ Hilfe. (Feste Präposition)
+Ich danke ___ die Hilfe. (Feste Präposition)

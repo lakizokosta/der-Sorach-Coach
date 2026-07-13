@@ -2,11 +2,11 @@
 id: a2-fest-030
 type: select-one
 options:
-  - das
-  - den
-  - der
-  - die
-correct: den
+  - nach
+  - für
+  - von
+  - mit
+correct: für
 ---
 
-Wir lachen über ___ Witz. (Feste Präposition)
+Ich danke ___ die Hilfe. (Feste Präposition)

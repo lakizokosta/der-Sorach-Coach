@@ -2,7 +2,7 @@
 id: a2-fest-in-025
 type: input-text
 correct:
-  - den
+  - über
 ---
 
-Sie ärgert sich über ___ Fehler. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Sie ärgert sich ___ den Fehler. (Feste Präposition — an / auf / für / mit / nach / über / von)

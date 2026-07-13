@@ -2,11 +2,11 @@
 id: a2-fest-022
 type: select-one
 options:
-  - der
-  - das
-  - die
-  - den
-correct: das
+  - nach
+  - für
+  - über
+  - an
+correct: für
 ---
 
-Wir diskutieren über ___ Problem. (Feste Präposition)
+Ich interessiere mich ___ klassische Musik. (Feste Präposition)

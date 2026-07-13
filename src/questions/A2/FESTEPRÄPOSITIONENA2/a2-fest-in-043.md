@@ -5,4 +5,4 @@ correct:
   - auf
 ---
 
-Ich hoffe ___ gutes Wetter. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Ich hoffe ___ gutes Wetter. (Feste Präposition — an / auf / für / mit / nach / über / von)

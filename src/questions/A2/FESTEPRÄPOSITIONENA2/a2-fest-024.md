@@ -2,11 +2,11 @@
 id: a2-fest-024
 type: select-one
 options:
-  - über
-  - auf
   - an
-  - mit
-correct: auf
+  - über
+  - in
+  - für
+correct: über
 ---
 
-Ich hoffe ___ gutes Wetter. (Feste Präposition)
+Wir diskutieren ___ das Problem. (Feste Präposition)

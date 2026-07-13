@@ -2,11 +2,11 @@
 id: a2-fest-023
 type: select-one
 options:
-  - dem
-  - der
-  - den
-  - die
-correct: den
+  - in
+  - für
+  - von
+  - mit
+correct: von
 ---
 
-Sie ärgert sich über ___ Fehler. (Feste Präposition)
+Er träumt ___ einem Urlaub. (Feste Präposition)

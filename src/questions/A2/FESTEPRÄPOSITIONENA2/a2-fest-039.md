@@ -2,11 +2,11 @@
 id: a2-fest-039
 type: select-one
 options:
-  - über
-  - auf
+  - in
   - für
   - an
-correct: auf
+  - über
+correct: für
 ---
 
-Ich hoffe ___ gutes Wetter. (Feste Präposition)
+Ich interessiere mich ___ klassische Musik. (Feste Präposition)

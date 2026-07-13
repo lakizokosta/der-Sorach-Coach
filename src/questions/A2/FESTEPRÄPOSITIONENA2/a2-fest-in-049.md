@@ -2,7 +2,7 @@
 id: a2-fest-in-049
 type: input-text
 correct:
-  - den
+  - über
 ---
 
-Wir lachen über ___ Witz. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Wir lachen ___ den Witz. (Feste Präposition — an / auf / für / mit / nach / über / von)

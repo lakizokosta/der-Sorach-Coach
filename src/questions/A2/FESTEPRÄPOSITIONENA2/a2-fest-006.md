@@ -2,11 +2,11 @@
 id: a2-fest-006
 type: select-one
 options:
-  - ein
-  - einem
-  - einer
-  - einen
-correct: einem
+  - in
+  - von
+  - mit
+  - an
+correct: von
 ---
 
-Er träumt von ___ Urlaub. (Feste Präposition)
+Er träumt ___ einem Urlaub. (Feste Präposition)

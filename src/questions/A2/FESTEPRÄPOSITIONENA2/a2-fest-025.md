@@ -2,11 +2,11 @@
 id: a2-fest-025
 type: select-one
 options:
-  - seinen
-  - seiner
-  - seinem
-  - seine
-correct: seine
+  - für
+  - an
+  - nach
+  - über
+correct: über
 ---
 
-Er erinnert sich an ___ Kindheit. (Feste Präposition)
+Sie ärgert sich ___ den Fehler. (Feste Präposition)

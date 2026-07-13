@@ -2,7 +2,7 @@
 id: a2-fest-in-006
 type: input-text
 correct:
-  - einem
+  - von
 ---
 
-Er träumt von ___ Urlaub. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Er träumt ___ einem Urlaub. (Feste Präposition — an / auf / für / mit / nach / über / von)

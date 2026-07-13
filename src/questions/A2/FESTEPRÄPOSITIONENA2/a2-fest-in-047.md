@@ -2,7 +2,7 @@
 id: a2-fest-in-047
 type: input-text
 correct:
-  - die
+  - für
 ---
 
-Ich danke für ___ Hilfe. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Ich danke ___ die Hilfe. (Feste Präposition — an / auf / für / mit / nach / über / von)

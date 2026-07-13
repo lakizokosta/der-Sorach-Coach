@@ -2,11 +2,11 @@
 id: a2-fest-017
 type: select-one
 options:
-  - seinen
-  - seiner
-  - seinem
-  - seine
-correct: seine
+  - über
+  - nach
+  - in
+  - auf
+correct: auf
 ---
 
-Er denkt an ___ Familie. (Feste Präposition)
+Er besteht ___ pünktliche Zahlung. (Feste Präposition)

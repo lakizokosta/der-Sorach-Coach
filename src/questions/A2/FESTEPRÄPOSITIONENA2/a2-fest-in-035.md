@@ -2,7 +2,7 @@
 id: a2-fest-in-035
 type: input-text
 correct:
-  - eine
+  - auf
 ---
 
-Ich warte auf ___ Antwort vom Reisebüro. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Ich warte ___ eine Antwort vom Reisebüro. (Feste Präposition — an / auf / für / mit / nach / über / von)

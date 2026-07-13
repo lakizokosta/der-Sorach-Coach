@@ -2,11 +2,11 @@
 id: a2-fest-028
 type: select-one
 options:
-  - der
-  - die
-  - den
-  - dem
-correct: die
+  - über
+  - mit
+  - in
+  - von
+correct: mit
 ---
 
-Ich danke für ___ Hilfe. (Feste Präposition)
+Wir sprechen ___ dem Chef. (Feste Präposition)

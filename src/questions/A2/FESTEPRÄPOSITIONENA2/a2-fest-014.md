@@ -2,11 +2,11 @@
 id: a2-fest-014
 type: select-one
 options:
-  - den
-  - dem
-  - die
-  - das
-correct: dem
+  - für
+  - nach
+  - über
+  - an
+correct: nach
 ---
 
-Er fragt nach ___ Weg. (Feste Präposition)
+Er fragt ___ dem Weg zum Hotel. (Feste Präposition)

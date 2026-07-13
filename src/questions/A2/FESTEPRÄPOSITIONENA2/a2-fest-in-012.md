@@ -2,7 +2,7 @@
 id: a2-fest-in-012
 type: input-text
 correct:
-  - den
+  - auf
 ---
 
-Sie wartet auf ___ Zug. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Sie wartet ___ den Zug. (Feste Präposition — an / auf / für / mit / nach / über / von)

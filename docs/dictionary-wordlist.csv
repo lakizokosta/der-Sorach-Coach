@@ -7,8 +7,8 @@ lemma,pos,freq,ru,en,status
 "wetter",noun,250,"погода","weather",done
 "büro",noun,250,"офис","office",done
 "stadt",noun,238,"город","city",done
-"reise",noun,230,"поездка","trip",done
 "buch",noun,228,"книга","book",done
+"reise",noun,228,"поездка","trip",done
 "straße",noun,224,"улица","street",done
 "kollegen",noun,214,"коллеги","colleagues",done
 "stelle",noun,204,"место / должность","place / position",done
@@ -36,8 +36,8 @@ lemma,pos,freq,ru,en,status
 "thema",noun,134,"тема","topic",done
 "essen",noun,133,"еда","food",done
 "meeting",noun,132,"совещание","meeting",done
-"antwort",noun,130,"ответ","answer",done
 "wohnung",noun,128,"квартира","apartment",done
+"antwort",noun,128,"ответ","answer",done
 "tür",noun,128,"дверь","door",done
 "deutsch",adj,126,"немецкий","German",done
 "wasser",noun,122,"вода","water",done
@@ -49,7 +49,7 @@ lemma,pos,freq,ru,en,status
 "ergebnisse",noun,112,"испытаний","Results",done
 "freund",noun,108,"друг","friend",done
 "minister",noun,108,"министр","minister",done
-"musik",noun,106,"музыка","music",done
+"musik",noun,104,"музыка","music",done
 "gäste",noun,104,"Гости:","Guests",done
 "wetters",noun,104,"погода","weather",done
 "bruder",noun,102,"брат","brother",done
@@ -58,17 +58,17 @@ lemma,pos,freq,ru,en,status
 "reihenfolge",noun,100,"порядок","order / sequence",done
 "reisen",noun,99,"путешествиями","travel",done
 "nachricht",noun,96,"сообщение","message",done
+"fest",noun,96,"праздник / фестиваль","festival / party",done
 "professor",noun,96,"профессор","professor",done
 "fahrrad",noun,94,"велосипед","bicycle",done
 "kinder",noun,94,"Дети","children",done
 "nachfrage",noun,94,"спрос","demand",done
 "tee",noun,90,"чай","tea",done
-"fest",noun,90,"праздник / фестиваль","festival / party",done
 "gründen",noun,90,"основать","to form, to establish",done
 "idee",noun,86,"идея","idea",done
-"familie",noun,86,"семья","family",done
 "haus",noun,86,"дом","house",done
 "konferenz",noun,86,"конференция","conference",done
+"familie",noun,84,"семья","family",done
 "kaffee",noun,84,"кофе","coffee",done
 "verspätung",noun,84,"опоздание","delay",done
 "nachrichten",noun,84,"Новости","messages",done
@@ -117,6 +117,7 @@ lemma,pos,freq,ru,en,status
 "hamburg",noun,60,"Гамбург","Hamburg",done
 "ecke",noun,60,"Угловая","Edge",done
 "teppich",noun,60,"Ковер","Carpet",done
+"reisebüro",noun,60,"Туристическое агентство","Travel agency",done
 "formular",noun,60,"Форма","Form",done
 "pizza",noun,58,"пицца","pizza",done
 "ärztin",noun,58,"Врач","Physician",done
@@ -133,7 +134,6 @@ lemma,pos,freq,ru,en,status
 "jacke",noun,54,"Куртка","jacket",done
 "lied",noun,54,"песни","Song",done
 "eltern",noun,54,"Родительские элементы","parents",done
-"reisebüro",noun,54,"Туристическое агентство","Travel agency",done
 "journalist",noun,54,"Журналист","journalist",done
 "politiker",noun,54,"Политик","politicians?",done
 "daten",noun,54,"Данные","data",done
@@ -142,12 +142,12 @@ lemma,pos,freq,ru,en,status
 "schwimmbad",noun,52,"Аквапарк","swimming_pool",done
 "geschäft",noun,52,"Магазин","business",done
 "kino",noun,52,"КИНО","film&fun,kino",done
-"geburtstag",noun,52,"Дата рождения","Birthday",done
 "bewegung",noun,52,"Движение","Movement",done
 "regierung",noun,52,"правительство","Government",done
 "mantel",noun,50,"Пальто","Coat",done
 "sommer",noun,50,"Лето","Summer",done
 "pause",noun,50,"Пауза","pertrauka",done
+"geburtstag",noun,50,"Дата рождения","Birthday",done
 "mosel",noun,50,"Мозель","Moselle (river)",done
 "zukunft",noun,50,"будущее","future",done
 "abteilung",noun,50,"Отделение","Department",done
@@ -505,6 +505,7 @@ lemma,pos,freq,ru,en,status
 "briefe",noun,14,"KORRESPONDENTSIIA KAK TEMA","LETTERS",done
 "vögel",noun,14,"Птицы","Birds",done
 "verein",noun,14,"Объединение","Association",done
+"zahlung",noun,14,"Наименование выплаты","payment",done
 "rand",noun,14,"Граница","edge / margin",done
 "polizisten",noun,14,"Полицейские","police officers.",done
 "journalistin",noun,14,"Журналистка","Journalist",done
@@ -596,7 +597,6 @@ lemma,pos,freq,ru,en,status
 "bergen",noun,10,"Берген","Retrieve",done
 "bühne",noun,10,"Площадка","stage",done
 "mitteilung",noun,10,"Уведомление","announcement",done
-"zahlung",noun,10,"Наименование выплаты","payment",done
 "mall",noun,10,"торговый центр","shopping mall",done
 "journalists",noun,10,"журналисты","journalists.",done
 "kunde",noun,10,"Клиент","customer",done

@@ -332,22 +332,25 @@ export function genAkkusativ() {
 }
 
 export function genFestePraep() {
+  const prepPool = ['auf', 'an', 'über', 'für', 'von', 'mit', 'nach', 'in', 'zu', 'bei'];
   const items = [
-    ['Ich warte auf ___ Antwort.', 'eine', ['ein', 'einen', 'einer', 'einem']],
-    ['Er denkt an ___ Familie.', 'seine', ['sein', 'seinen', 'seiner', 'seinem']],
-    ['Wir sprechen über ___ Reise.', 'die', ['der', 'dem', 'den', 'das']],
-    ['Sie freut sich auf ___ Geburtstag.', 'den', ['der', 'dem', 'das', 'die']],
-    ['Ich interessiere mich ___ klassische Musik.', 'für', ['auf', 'an', 'über', 'mit']],
-    ['Er träumt von ___ Urlaub.', 'einem', ['ein', 'eine', 'einen', 'einer']],
-    ['Wir diskutieren über ___ Problem.', 'das', ['der', 'dem', 'den', 'die']],
-    ['Sie ärgert sich über ___ Fehler.', 'den', ['der', 'dem', 'das', 'die']],
-    ['Ich hoffe ___ gutes Wetter.', 'auf', ['an', 'über', 'mit', 'für']],
-    ['Er erinnert sich an ___ Kindheit.', 'seine', ['sein', 'seinen', 'seiner', 'seinem']],
-    ['Wir sprechen mit ___ Chef.', 'dem', ['den', 'der', 'das', 'die']],
-    ['Sie wartet auf ___ Zug.', 'den', ['der', 'dem', 'das', 'die']],
-    ['Ich danke für ___ Hilfe.', 'die', ['der', 'dem', 'den', 'das']],
-    ['Er fragt nach ___ Weg.', 'dem', ['den', 'der', 'das', 'die']],
-    ['Wir lachen über ___ Witz.', 'den', ['der', 'dem', 'das', 'die']],
+    ['Ich warte ___ eine Antwort vom Reisebüro.', 'auf', prepPool],
+    ['Er denkt ___ seine Familie.', 'an', prepPool],
+    ['Wir sprechen ___ die Reise.', 'über', prepPool],
+    ['Sie freut sich ___ den Geburtstag.', 'auf', prepPool],
+    ['Ich interessiere mich ___ klassische Musik.', 'für', prepPool],
+    ['Er träumt ___ einem Urlaub.', 'von', prepPool],
+    ['Wir diskutieren ___ das Problem.', 'über', prepPool],
+    ['Sie ärgert sich ___ den Fehler.', 'über', prepPool],
+    ['Ich hoffe ___ gutes Wetter.', 'auf', prepPool],
+    ['Er erinnert sich ___ seine Kindheit.', 'an', prepPool],
+    ['Wir sprechen ___ dem Chef.', 'mit', prepPool],
+    ['Sie wartet ___ den Zug.', 'auf', prepPool],
+    ['Ich danke ___ die Hilfe.', 'für', prepPool],
+    ['Er fragt ___ dem Weg zum Hotel.', 'nach', prepPool],
+    ['Wir lachen ___ den Witz.', 'über', prepPool],
+    ['Ich freue mich ___ das Fest.', 'auf', prepPool],
+    ['Er besteht ___ pünktliche Zahlung.', 'auf', prepPool],
   ];
   return ensure50(() => {
     const out = [];

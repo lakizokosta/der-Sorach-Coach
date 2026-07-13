@@ -2,11 +2,11 @@
 id: a2-fest-002
 type: select-one
 options:
-  - sein
-  - seine
-  - seinem
-  - seiner
-correct: seine
+  - von
+  - an
+  - für
+  - über
+correct: an
 ---
 
-Er denkt an ___ Familie. (Feste Präposition)
+Er denkt ___ seine Familie. (Feste Präposition)

@@ -2,7 +2,7 @@
 id: a2-fest-in-027
 type: input-text
 correct:
-  - seine
+  - an
 ---
 
-Er erinnert sich an ___ Kindheit. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Er erinnert sich ___ seine Kindheit. (Feste Präposition — an / auf / für / mit / nach / über / von)

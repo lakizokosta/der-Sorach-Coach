@@ -2,11 +2,11 @@
 id: a2-fest-012
 type: select-one
 options:
-  - dem
-  - das
-  - den
-  - der
-correct: den
+  - über
+  - von
+  - auf
+  - nach
+correct: auf
 ---
 
-Sie wartet auf ___ Zug. (Feste Präposition)
+Sie wartet ___ den Zug. (Feste Präposition)

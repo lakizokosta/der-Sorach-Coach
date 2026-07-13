@@ -5,4 +5,4 @@ correct:
   - für
 ---
 
-Ich interessiere mich ___ klassische Musik. (Feste Präposition — auf / das / dem / den / die / eine / einem / für / seine)
+Ich interessiere mich ___ klassische Musik. (Feste Präposition — an / auf / für / mit / nach / über / von)
