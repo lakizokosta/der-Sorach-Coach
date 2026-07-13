@@ -1084,8 +1084,9 @@ button:not(:disabled):not(.logo-wrap) {
   line-height: 1.2;
   transition: width 0.12s ease, font-size 0.12s ease;
 }
-.fill-input.correct { border-color: #69c43b; background: #e8f5e9; color: #2e7d32; }
-.fill-input.wrong   { border-color: #ed4545; background: #fff0f0; color: #c62828; }
+.fill-input.correct  { border-color: #69c43b; background: #e8f5e9; color: #2e7d32; }
+.fill-input.wrong    { border-color: #ed4545; background: #fff0f0; color: #c62828; }
+.fill-input.revealed { border-color: #FFB700; background: #fff8e1; color: #6d4c00; }
 .fill-sentence {
   font-size: 19px;
   line-height: 2.6;

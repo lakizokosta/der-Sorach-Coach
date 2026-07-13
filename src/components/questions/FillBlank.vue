@@ -5,8 +5,13 @@
  * keyboard underneath lets touch users insert umlauts and ß without
  * switching keyboard layouts.
  *
+ * First wrong check: learner may edit and try again (emits `first-wrong`);
+ * the Noch-einmal button stays active. Second wrong check: shows the
+ * correct word in the gap (yellow) and finalises as wrong.
+ *
  * Emits:
- *   - 'answer'   { isCorrect:boolean }
+ *   - 'first-wrong'  — fired once on the very first wrong check.
+ *   - 'answer'       { isCorrect:boolean }
  *   - 'complete'
  */
 
@@ -21,12 +26,15 @@ const props = defineProps({
   question: { type: Object, required: true },
   premium: { type: Boolean, default: false },
 });
-const emit = defineEmits(['answer', 'complete']);
+const emit = defineEmits(['answer', 'first-wrong', 'complete']);
 
 const { t } = useI18n();
 
 const value = ref('');
-const checked = ref(false);
+const wrongChecks = ref(0);
+const hadWrong = ref(false);
+const finalised = ref(false);
+const showSolution = ref(false);
 const isOk = ref(false);
 const message = ref('');
 const hintVisible = ref(false);
@@ -70,30 +78,51 @@ onMounted(() => nextTick(() => inputRef.value?.focus()));
 
 /** Submits the typed answer. */
 function check() {
-  if (checked.value) return;
+  if (finalised.value) return;
   const userVal = normalizeGapAnswer(value.value);
   if (!userVal) {
     message.value = 'Bitte zuerst eine Antwort eingeben!';
     return;
   }
-  checked.value = true;
-  isOk.value = acceptable.includes(userVal);
-  if (isOk.value) {
+
+  if (acceptable.includes(userVal)) {
+    finalised.value = true;
+    isOk.value = true;
     message.value = '✅ Richtig! Sehr gut!';
-  } else {
-    message.value = '❌ Nicht richtig. Schau dir die Antwort an!';
-    value.value = props.question.correct?.[0] || value.value;
+    emit('answer', { isCorrect: !hadWrong.value });
+    emit('complete');
+    nextTick(() => inputRef.value?.blur());
+    return;
   }
-  emit('answer', { isCorrect: isOk.value });
+
+  wrongChecks.value += 1;
+  hadWrong.value = true;
+
+  if (wrongChecks.value === 1) {
+    message.value = '';
+    emit('first-wrong');
+    nextTick(() => inputRef.value?.focus());
+    return;
+  }
+
+  showSolution.value = true;
+  finalised.value = true;
+  isOk.value = false;
+  value.value = props.question.correct?.[0] || value.value;
+  message.value = '❌ Nicht richtig. Richtige Antwort:';
+  emit('answer', { isCorrect: false });
   emit('complete');
   nextTick(() => inputRef.value?.blur());
 }
 
-/** Resets the question without affecting the score. */
+/** Clears the gap so the learner can try again (until the question is finalised). */
 function reset() {
-  if (checked.value) return;
+  if (finalised.value) return;
   value.value = '';
   message.value = '';
+  wrongChecks.value = 0;
+  hadWrong.value = false;
+  showSolution.value = false;
   nextTick(() => inputRef.value?.focus());
 }
 
@@ -125,7 +154,7 @@ function insertChar(ch) {
  */
 function onKeyDown(ev) {
   if (ev.key !== 'Enter') return;
-  if (!checked.value) {
+  if (!finalised.value) {
     ev.preventDefault();
     ev.stopPropagation();
     check();
@@ -134,8 +163,9 @@ function onKeyDown(ev) {
 
 const inputClass = computed(() => ({
   'fill-input': true,
-  correct: checked.value && isOk.value,
-  wrong: checked.value && !isOk.value,
+  correct: finalised.value && isOk.value,
+  wrong: wrongChecks.value > 0 && !showSolution.value,
+  revealed: showSolution.value,
 }));
 
 /** Size the blank so typed/correct answers always fit (shorter words → larger type). */
@@ -176,7 +206,7 @@ const inputStyle = computed(() => {
         spellcheck="false"
         :class="inputClass"
         :style="inputStyle"
-        :disabled="checked"
+        :disabled="finalised"
         @keydown="onKeyDown"
       />
       <span v-html="partRightHtml" />
@@ -190,7 +220,7 @@ const inputStyle = computed(() => {
       <button
         type="button"
         class="sprach-btn sprach-btn-check"
-        :disabled="checked"
+        :disabled="finalised"
         @click="check"
       >
         ✔ Prüfen
@@ -207,7 +237,7 @@ const inputStyle = computed(() => {
       <button
         type="button"
         class="sprach-btn sprach-btn-reset"
-        :disabled="checked"
+        :disabled="finalised"
         @click="reset"
       >
         ↺ Noch einmal
@@ -235,13 +265,13 @@ const inputStyle = computed(() => {
     </div>
 
     <p
-      v-if="question.hint && !checked"
+      v-if="question.hint && !finalised"
       class="fill-choice-hint"
     >
       {{ t('trainer.fillBlankTipHint') }}
     </p>
 
-    <div v-if="!checked" class="de-kbd">
+    <div v-if="!finalised" class="de-kbd">
       <button
         v-for="ch in ['ä', 'ö', 'ü', 'Ä', 'Ö', 'Ü', 'ß']"
         :key="ch"
