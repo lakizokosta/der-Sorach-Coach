@@ -85,11 +85,11 @@ export function genKonsekutiveKonjunktion() {
     ['Er fuhr so schnell, ___ er geblitzt wurde.', 'dass', ['damit', 'weil', 'obwohl']],
     ['Die Lage war so ernst, ___ Sofortmaßnahmen nötig waren.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
     ['Er erklärte es so deutlich, ___ jeder es verstand.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
-    ['Sie sang so schön, ___ das Publikum begeistert applaudierte.', 'dass', ['damit', 'weil', 'obwohl']],
-    ['Das Essen war so gut, ___ wir noch einmal bestellten.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
-    ['Er war so nervös, ___ er seinen Namen vergaß.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
-    ['Die Aufgabe war so schwer, ___ niemand sie lösen konnte.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
-    ['Sie lachte so laut, ___ alle aufblickten.', 'dass', ['damit', 'weil', 'obwohl', 'wenn']],
+    ['Die Straße war so glatt, ___ mehrere Unfälle passierten.', 'sodass', ['dass', 'damit', 'weil', 'obwohl']],
+    ['Der Film war so spannend, ___ wir bis Mitternacht wach blieben.', 'sodass', ['dass', 'damit', 'weil', 'wenn']],
+    ['Die Musik war so laut, ___ sich die Nachbarn beschwerten.', 'sodass', ['dass', 'damit', 'weil', 'obwohl']],
+    ['Das Paket war so schwer, ___ ich Hilfe brauchte.', 'sodass', ['dass', 'damit', 'weil', 'wenn']],
+    ['Es war so heiß, ___ die Schule ausfiel.', 'sodass', ['dass', 'damit', 'weil', 'obwohl']],
   ], 31);
 }
 

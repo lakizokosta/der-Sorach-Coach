@@ -2,11 +2,11 @@
 id: b2-konsek-031
 type: select-one
 options:
-  - weil
-  - dass
-  - wenn
   - damit
-correct: dass
+  - sodass
+  - wenn
+  - dass
+correct: sodass
 ---
 
-Das Essen war so gut, ___ wir noch einmal bestellten. (Konsekutivsatz)
+Der Film war so spannend, ___ wir bis Mitternacht wach blieben. (Konsekutivsatz)

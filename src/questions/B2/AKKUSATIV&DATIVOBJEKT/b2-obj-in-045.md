@@ -1,0 +1,8 @@
+---
+id: b2-obj-in-045
+type: input-text
+correct:
+  - dem Unternehmen
+---
+
+Die Behörde erteilt ___ eine Genehmigung. (Dativ/Akkusativ-Objekt — das Unternehmen / dem Unternehmen / den Unternehmen / die Unternehmen)

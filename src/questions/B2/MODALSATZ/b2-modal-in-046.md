@@ -1,0 +1,8 @@
+---
+id: b2-modal-in-046
+type: input-text
+correct:
+  - Ohne
+---
+
+___ dass er es wusste, sagte er nichts. (Modalsatz — Anstatt / Indem / Ohne / Weil)
