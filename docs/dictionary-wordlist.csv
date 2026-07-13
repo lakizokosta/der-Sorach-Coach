@@ -94,6 +94,7 @@ lemma,pos,freq,ru,en,status
 "brücke",noun,76,"Мост","Bridge",done
 "bahnhof",noun,76,"ЖД станция","bahnhof.",done
 "wand",noun,76,"стена","wall",done
+"dativobjekt",noun,76,"","",pending
 "freundin",noun,72,"девочка","See you later my dear friend Bye",done
 "caf",noun,72,"кафе","café",done
 "mail",noun,72,"ЭЛЕКТРОННАЯ ПОЧТА","mail：",done
@@ -353,6 +354,7 @@ lemma,pos,freq,ru,en,status
 "arbeitsplätze",noun,24,"Рабочие места","Jobs",done
 "ereignisse",noun,24,"События","events",done
 "werk",noun,24,"Завод","plant",done
+"akkusativobjekt",noun,24,"","",pending
 "infolge",noun,24,"вследствие","as a result of",done
 "erwartungen",noun,24,"ожидания","expectations",done
 "experte",noun,24,"Эксперт","experts",done

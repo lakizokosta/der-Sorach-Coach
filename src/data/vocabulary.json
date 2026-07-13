@@ -543,6 +543,9 @@
     "ru": "стена",
     "en": "wall"
   },
+  "dativobjekt": {
+    "pos": "noun"
+  },
   "freundin": {
     "pos": "noun",
     "ru": "девочка",
@@ -1846,6 +1849,9 @@
     "pos": "noun",
     "ru": "Завод",
     "en": "plant"
+  },
+  "akkusativobjekt": {
+    "pos": "noun"
   },
   "infolge": {
     "pos": "noun",
