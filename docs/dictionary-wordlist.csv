@@ -1,77 +1,82 @@
 lemma,pos,freq,ru,en,status
-"prüfung",noun,376,"экзамен","exam",done
-"zug",noun,304,"поезд","train",done
+"prüfung",noun,406,"экзамен","exam",done
+"zug",noun,310,"поезд","train",done
 "zeit",noun,304,"время","time",done
-"projekt",noun,276,"проект","project",done
+"projekt",noun,294,"проект","project",done
+"büro",noun,262,"офис","office",done
+"wetter",noun,256,"погода","weather",done
 "arzt",noun,256,"врач","doctor",done
-"wetter",noun,250,"погода","weather",done
-"büro",noun,250,"офис","office",done
+"buch",noun,246,"книга","book",done
 "stadt",noun,238,"город","city",done
-"buch",noun,228,"книга","book",done
-"reise",noun,228,"поездка","trip",done
-"straße",noun,224,"улица","street",done
+"straße",noun,236,"улица","street",done
+"reise",noun,234,"поездка","trip",done
 "kollegen",noun,214,"коллеги","colleagues",done
+"schule",noun,206,"школа","school",done
 "stelle",noun,204,"место / должность","place / position",done
 "park",noun,202,"парк","park",done
 "berlin",noun,200,"Берлин","Berlin",done
-"kurs",noun,194,"курс","course",done
-"schule",noun,192,"школа","school",done
-"firma",noun,182,"фирма","company",done
+"kurs",noun,200,"курс","course",done
+"medikament",noun,188,"лекарство","medicine / drug",done
+"firma",noun,186,"фирма","company",done
 "termin",noun,178,"встреча / приём","appointment",done
-"medikament",noun,172,"лекарство","medicine / drug",done
+"entscheidung",noun,170,"решение","decision",done
+"chef",noun,168,"начальник","boss",done
+"universität",noun,168,"университет","university",done
 "gesetz",noun,168,"закон","law",done
-"entscheidung",noun,164,"решение","decision",done
-"universität",noun,162,"университет","university",done
+"bericht",noun,164,"отчёт","report",done
 "politik",noun,162,"политика","politics",done
+"kind",noun,154,"ребёнок","child",done
 "urlaub",noun,154,"отпуск","holiday / vacation",done
+"arbeit",noun,152,"работа","work",done
 "interesse",noun,152,"интерес","interest",done
-"bericht",noun,152,"отчёт","report",done
-"kind",noun,148,"ребёнок","child",done
+"meeting",noun,150,"совещание","meeting",done
 "tisch",noun,148,"стол","table",done
-"arbeit",noun,146,"работа","work",done
-"chef",noun,142,"начальник","boss",done
+"wochenende",noun,140,"выходные","weekend",done
+"tür",noun,140,"дверь","door",done
+"thema",noun,140,"тема","topic",done
 "hund",noun,138,"собака","dog",done
+"deutsch",adj,138,"немецкий","German",done
 "mutter",noun,138,"мать","mother",done
-"wochenende",noun,134,"выходные","weekend",done
-"thema",noun,134,"тема","topic",done
-"essen",noun,133,"еда","food",done
-"meeting",noun,132,"совещание","meeting",done
+"antwort",noun,132,"ответ","answer",done
+"wasser",noun,128,"вода","water",done
 "wohnung",noun,128,"квартира","apartment",done
-"antwort",noun,128,"ответ","answer",done
-"tür",noun,128,"дверь","door",done
-"deutsch",adj,126,"немецкий","German",done
-"wasser",noun,122,"вода","water",done
+"essen",noun,127,"еда","food",done
+"minister",noun,124,"министр","minister",done
+"meinung",noun,124,"мнение","opinion",done
+"fehler",noun,122,"ошибка","mistake",done
 "zimmer",noun,120,"комната","room",done
 "regelung",noun,120,"регулирование / правило","regulation",done
+"freund",noun,118,"друг","friend",done
 "geschenk",noun,118,"подарок","gift",done
-"meinung",noun,118,"мнение","opinion",done
-"fehler",noun,116,"ошибка","mistake",done
+"bruder",noun,118,"брат","brother",done
+"musik",noun,116,"музыка","music",done
+"nachfrage",noun,116,"спрос","demand",done
+"erfahrung",noun,114,"опыт","experience",done
+"professor",noun,112,"профессор","professor",done
 "ergebnisse",noun,112,"испытаний","Results",done
-"freund",noun,108,"друг","friend",done
-"minister",noun,108,"министр","minister",done
-"musik",noun,104,"музыка","music",done
+"wetters",noun,110,"погода","weather",done
 "gäste",noun,104,"Гости:","Guests",done
-"wetters",noun,104,"погода","weather",done
-"bruder",noun,102,"брат","brother",done
-"erfahrung",noun,102,"опыт","experience",done
+"nachricht",noun,102,"сообщение","message",done
+"fest",noun,102,"праздник / фестиваль","festival / party",done
+"fahrrad",noun,100,"велосипед","bicycle",done
 "gegenteil",noun,100,"противоположность","opposite",done
+"kinder",noun,100,"Дети","children",done
 "reihenfolge",noun,100,"порядок","order / sequence",done
 "reisen",noun,99,"путешествиями","travel",done
-"nachricht",noun,96,"сообщение","message",done
-"fest",noun,96,"праздник / фестиваль","festival / party",done
-"professor",noun,96,"профессор","professor",done
-"fahrrad",noun,94,"велосипед","bicycle",done
-"kinder",noun,94,"Дети","children",done
-"nachfrage",noun,94,"спрос","demand",done
+"haus",noun,96,"дом","house",done
 "tee",noun,90,"чай","tea",done
 "gründen",noun,90,"основать","to form, to establish",done
 "idee",noun,86,"идея","idea",done
-"haus",noun,86,"дом","house",done
+"frage",noun,86,"вопрос","question",done
+"hilfe",noun,86,"Справка","help",done
 "konferenz",noun,86,"конференция","conference",done
 "familie",noun,84,"семья","family",done
 "kaffee",noun,84,"кофе","coffee",done
+"ärztin",noun,84,"Врач","Physician",done
 "verspätung",noun,84,"опоздание","delay",done
 "nachrichten",noun,84,"Новости","messages",done
+"vertrag",noun,84,"geschaftsvertrag","contract",done
+"preise",noun,82,"ЦЕНЫ","prices",done
 "land",noun,82,"страна","country",done
 "platz",noun,82,"место / площадь","place / square",done
 "mann",noun,80,"мужчина","man",done
@@ -80,99 +85,106 @@ lemma,pos,freq,ru,en,status
 "studierenden",noun,80,"студенты","students",done
 "grüßen",noun,80,"привет","Best regards,",done
 "schwester",noun,78,"сестра","Sister",done
+"museum",noun,78,"Музей","museum",done
 "patienten",noun,78,"Пациенты","Patients",done
 "erfolg",noun,78,"успех","Success",done
+"kunden",noun,78,"Клиенты","Customers",done
 "vorlesung",noun,78,"лекция","Lecture",done
+"kosten",noun,78,"пoпробовать","fees",done
+"brücke",noun,76,"Мост","Bridge",done
 "bahnhof",noun,76,"ЖД станция","bahnhof.",done
-"hilfe",noun,74,"Справка","help",done
+"wand",noun,76,"стена","wall",done
 "freundin",noun,72,"девочка","See you later my dear friend Bye",done
-"museum",noun,72,"Музей","museum",done
 "caf",noun,72,"кафе","café",done
-"brücke",noun,70,"Мост","Bridge",done
-"preise",noun,70,"ЦЕНЫ","prices",done
-"wand",noun,70,"стена","wall",done
+"mail",noun,72,"ЭЛЕКТРОННАЯ ПОЧТА","mail：",done
+"geld",noun,70,"Деньги","money",done
 "transport",noun,68,"ТРАНСПОРТИРОВКА","transportation",done
+"bild",noun,68,"картинка","Image",done
 "krankenhaus",noun,68,"Больница","hospitals",done
-"kunden",noun,68,"Клиенты","Customers",done
-"vertrag",noun,68,"geschaftsvertrag","contract",done
-"frage",noun,66,"вопрос","question",done
+"ecke",noun,66,"Угловая","Edge",done
 "studiengang",noun,66,"Список академических дисциплин","degree programme / course of study",done
-"kosten",noun,66,"пoпробовать","fees",done
 "patient",noun,66,"Пациент","patient",done
+"daten",noun,66,"Данные","data",done
 "küche",noun,64,"кухня","Kitchen",done
-"geld",noun,64,"Деньги","money",done
+"geschäft",noun,64,"Магазин","business",done
 "freunde",noun,64,"Друзья","Friends",done
 "lust",noun,64,"желание / удовольствие","desire / pleasure",done
 "eingang",noun,64,"Входящий &#8470;","goods",done
 "studenten",noun,64,"Студент","Students",done
+"erkrankung",noun,64,"заболевание матери","disease",done
+"gebäude",noun,64,"Корпус","building",done
 "lampe",noun,62,"Лампа","Lamp",done
 "fußball",noun,62,"Футбол","Football",done
 "stuhl",noun,62,"стул:","google tranlator",done
-"bild",noun,62,"картинка","Image",done
 "unterrichts",noun,62,"обучение","Form of",done
 "angst",noun,62,"страх","Anxiety",done
-"aufgabe",noun,60,"Задача","task",done
 "brot",noun,60,"изображение","Bread",done
 "frau",noun,60,"женщина","woman",done
 "hamburg",noun,60,"Гамбург","Hamburg",done
-"ecke",noun,60,"Угловая","Edge",done
 "teppich",noun,60,"Ковер","Carpet",done
 "reisebüro",noun,60,"Туристическое агентство","Travel agency",done
 "formular",noun,60,"Форма","Form",done
+"lage",noun,60,"Расположение","situation",done
 "pizza",noun,58,"пицца","pizza",done
-"ärztin",noun,58,"Врач","Physician",done
 "supermarkt",noun,58,"В супермаркете","Supermarket",done
 "italien",noun,58,"Италия","ltaly",done
-"erkrankung",noun,58,"заболевание матери","disease",done
-"gebäude",noun,58,"Корпус","building",done
 "hausaufgaben",noun,56,"Домашние задания","Homework",done
-"mail",noun,56,"ЭЛЕКТРОННАЯ ПОЧТА","mail：",done
+"geburtstag",noun,56,"Дата рождения","Birthday",done
 "regens",noun,56,"дожди","rains",done
 "licht",noun,56,"Освещение","light&#x0D;",done
 "praktikum",noun,56,"стажировка","internship",done
 "freitag",noun,56,"Пятница","Friday",done
 "jacke",noun,54,"Куртка","jacket",done
 "lied",noun,54,"песни","Song",done
+"aufgabe",noun,54,"Задача","task",done
+"angebot",noun,54,"Предложение","estimate",done
 "eltern",noun,54,"Родительские элементы","parents",done
+"deutschland",noun,54,"Германия","Germany",done
+"zuschauer",noun,54,"Публика","Spectators",done
 "journalist",noun,54,"Журналист","journalist",done
 "politiker",noun,54,"Политик","politicians?",done
-"daten",noun,54,"Данные","data",done
+"gespräch",noun,54,"Цепочки писем:","conversation",done
+"süden",noun,54,"Юг","South",done
+"job",noun,52,"работа","job",done
 "sonne",noun,52,"Солнце","Aurinko",done
 "fenster",noun,52,"Окно","Windows",done
 "schwimmbad",noun,52,"Аквапарк","swimming_pool",done
-"geschäft",noun,52,"Магазин","business",done
+"nachbarn",noun,52,"Соседи","Neighbours",done
 "kino",noun,52,"КИНО","film&fun,kino",done
 "bewegung",noun,52,"Движение","Movement",done
 "regierung",noun,52,"правительство","Government",done
+"verhandlungen",noun,52,"Переговоры","Negotiations",done
 "mantel",noun,50,"Пальто","Coat",done
 "sommer",noun,50,"Лето","Summer",done
 "pause",noun,50,"Пауза","pertrauka",done
-"geburtstag",noun,50,"Дата рождения","Birthday",done
+"qualität",noun,50,"проволоки","quality",done
 "mosel",noun,50,"Мозель","Moselle (river)",done
 "zukunft",noun,50,"будущее","future",done
 "abteilung",noun,50,"Отделение","Department",done
 "personalabteilung",noun,50,"Отдел кадров","Human Resources Department",done
+"patientin",noun,50,"Пациент","Patient",done
 "+ präposition",verb,50,"Предлог","Preposition and postposition",done
+"wortstellung",noun,50,"","",pending
 "schirm",noun,48,"Зонт","Shield",done
 "weg",noun,48,"путь / дорога","way / path",done
-"deutschland",noun,48,"Германия","Germany",done
 "ort",noun,48,"Населенный пункт","City",done
-"zuschauer",noun,48,"Публика","Spectators",done
-"gespräch",noun,48,"Цепочки писем:","conversation",done
+"krise",noun,48,"кризис","crisis",done
 "wenngleich",noun,48,"хотя","EVEN THOUGH",done
-"süden",noun,48,"Юг","South",done
-"job",noun,46,"работа","job",done
 "hunger",noun,46,"Голод","hunger",done
 "fleisch",noun,46,"мясо","meat",done
 "ferien",noun,46,"Отпуск","Leave",done
-"verhandlungen",noun,46,"Переговоры","Negotiations",done
+"apotheke",noun,46,"В аптеке","Pharmacy",done
+"veranstaltung",noun,46,"Курс","events",done
+"ball",noun,44,"мяч","ball",done
 "kollege",noun,44,"коллега","colleague",done
-"qualität",noun,44,"проволоки","quality",done
 "abend",noun,44,"Вечер","evenings",done
 "tanzsport",noun,44,"Спортивные танцы","dance sports",done
+"post",noun,44,"по почте","mail / post",done
 "geh",noun,44,"дата рожд.:","go (imperative)",done
 "respekt",noun,44,"Уважение","respect",done
 "rechnung",noun,44,"СЧЁТ","Changes in Equity",done
+"kritik",noun,44,"Критика","reviews",done
+"unterlagen",noun,44,"Документы","documents",done
 "aufgrund",noun,44,"из-за, вследствие","higher",done
 "obgleich",noun,44,"хотя","although",done
 "fragen",verb,43,"спрашивать, задавать вопросы","to ask",done
@@ -185,37 +197,36 @@ lemma,pos,freq,ru,en,status
 "professorin",noun,42,"профессор","Professor",done
 "wirtschaft",noun,42,"Экономика / Economics","economy",done
 "überstunden",noun,42,"Сверхурочная работа","Overtime",done
+"experten",noun,42,"Поиск экспертов","Experts",done
 "umwelt",noun,42,"Окружающая среда","the environment",done
 "ergebnis",noun,42,"результат","result",done
 "damen",noun,42,"Женщины","women",done
 "herren",noun,42,"мужчины","men",done
-"krise",noun,42,"кризис","crisis",done
+"paket",noun,42,"Пакет","level",done
+"meetings",noun,42,"встречи","meetings",done
 "fahren",verb,41,"подвезти","to drive / go",done
-"nachbarn",noun,40,"Соседи","Neighbours",done
 "krankheit",noun,40,"диабет","illness",done
 "sturms",noun,40,"штормы","storms",done
-"apotheke",noun,40,"В аптеке","Pharmacy",done
 "chefs",noun,40,"шеф-повара","residents.",done
 "schmerzen",noun,40,"боль","ache",done
 "dennoch",noun,40,"хотя","nevertheless",done
-"veranstaltung",noun,40,"Курс","events",done
 "handy",noun,38,"Телефон","mobile phone",done
 "wind",noun,38,"Ветер","wind",done
 "spiel",noun,38,"Игра","match",done
 "lehrer",noun,38,"Педагоги","Teacher",done
 "klasse",noun,38,"огнестойкости","Class",done
-"ball",noun,38,"мяч","ball",done
-"angebot",noun,38,"Предложение","estimate",done
 "zoo",noun,38,"Зоопарк","zoo",done
 "wien",noun,38,"университет","Vienna",done
 "schlüssel",noun,38,"Ключ","key",done
 "kommst",noun,38,"приезжайте","are here.",done
 "hochzeit",noun,38,"Свадьба","Wedding",done
-"post",noun,38,"по почте","mail / post",done
+"ende",noun,38,"если","of education",done
+"autor",noun,38,"Автор","author",done
 "tasche",noun,36,"сумка","case",done
 "garten",noun,36,"Сад","Garden",done
 "suppe",noun,36,"Суп:","Soup",done
 "lösung",noun,36,"РЕШЕНИЕ","Solution",done
+"vorbereitung",noun,36,"подготовка","Preparation",done
 "preises",noun,36,"цены","price",done
 "bankschalter",noun,36,"банковский счетчик","bank counter",done
 "tunnel",noun,36,"Тоннель","tunnel",done
@@ -228,41 +239,43 @@ lemma,pos,freq,ru,en,status
 "ausland",noun,36,"Зарубежные страны","Abroad",done
 "vorschlag",noun,36,"Предложение","Default",done
 "bürger",noun,36,"Гражданин","Citizenship",done
-"experten",noun,36,"Поиск экспертов","Experts",done
+"heizung",noun,36,"Нагрев","Heating",done
 "klinik",noun,36,"КЛИНИК","clinic",done
 "bereich",noun,36,"значения","range",done
 "rede",noun,36,"Ораторское искусство","talk",done
+"mandanten",noun,36,"Клиенты","Clients",done
 "schreibtisch",noun,36,"Бюро","writing desk",done
-"meetings",noun,36,"встречи","meetings",done
+"obst",noun,34,"Фрукты","fruits",done
 "salat",noun,34,"салат","Lettuce",done
 "oma",noun,34,"Бабуль…","grandma / granny",done
 "straßen",noun,34,"Улицы","Roads",done
+"see",noun,34,"по морю","lake / sea",done
 "stadtpark",noun,34,"городской парк","The city park",done
 "lehrerin",noun,34,"учительница","teacher (female)",done
+"anwalt",noun,34,"Адвокат","Lawyer",done
 "unternehmen",noun,34,"предприятие / компания","company",done
 "markt",noun,32,"Рынок","market",done
 "gitarre",noun,32,"Гитара","Guitar",done
 "brief",noun,32,"Письмо","Letter",done
 "küste",noun,32,"Побережье","Coast",done
 "gehen",verb,32,"идти","to go",done
+"hauptstraße",noun,32,"Основная дорога","Main street",done
 "menschen",noun,32,"Люди","People",done
-"kritik",noun,32,"Критика","reviews",done
-"lage",noun,32,"Расположение","situation",done
-"autor",noun,32,"Автор","author",done
 "katze",noun,30,"Кошка","Cat",done
 "bestimmter",noun,30,"определенная","of certain",done
 "unbestimmter",noun,30,"бессрочно","indefinite",done
 "negationsartikel",noun,30,"статья отрицания","negation article",done
 "regen",noun,30,"дождь","rain",done
-"vorbereitung",noun,30,"подготовка","Preparation",done
 "interessierst",noun,30,"заинтересован","interested",done
+"neues",noun,30,"Новое","Purchase",done
+"brauchst",noun,30,"потребность","when you need it.",done
 "umweltschutz",noun,30,"Экология.","Environmental protection",done
-"heizung",noun,30,"Нагрев","Heating",done
-"patientin",noun,30,"Пациент","Patient",done
+"verkehr",noun,30,"транспортное сообщение","transport",done
 "chefin",noun,30,"Босс!","CHIEF",done
 "ministers",noun,30,"министры","ministers",done
 "partei",noun,30,"Стороны","party",done
-"paket",noun,30,"Пакет","level",done
+"warnung",noun,30,"Предупреждение","Warning",done
+"sitzung",noun,30,"Заседание","for the General Meeting",done
 "reform",noun,30,"Реформа","reform",done
 "anstatt",noun,30,"вместо","instead of",done
 "labor",noun,30,"Лаборатория","Laboratory",done
@@ -277,19 +290,19 @@ lemma,pos,freq,ru,en,status
 "turm",noun,28,"Башня","Tower",done
 "hobby",noun,28,"Хобби","hobby",done
 "medizin",noun,28,"Медицина.","medicine",done
-"obst",noun,28,"Фрукты","fruits",done
 "einladung",noun,28,"Приглашение","INVITATION",done
 "nachbar",noun,28,"Сосед","neighbour",done
 "tickets",noun,28,"Электронный запрос","tickets",done
 "vaters",noun,28,"отцы","Father",done
 "schaufenster",noun,28,"ВИТРИНА","Showcase slider",done
 "dank",noun,28,"благодаря","thank-you",done
-"unterlagen",noun,28,"Документы","documents",done
+"daran",noun,28,"в","at",done
 "antrag",noun,28,"Заявление","Application",done
+"auszeichnung",noun,28,"Награда","display",done
+"forscherin",noun,28,"исследователь","Researcher",done
 "konzert",noun,26,"концерт","Concert.",done
 "flug",noun,26,"Перелет","flight simulator",done
 "anna",noun,26,"Анна","Anna",done
-"hauptstraße",noun,26,"Основная дорога","Main street",done
 "herr",noun,26,"Господином","Mr.",done
 "kindheit",noun,26,"Детство","Infancy",done
 "ruhe",noun,26,"Тишина","Peace",done
@@ -298,8 +311,10 @@ lemma,pos,freq,ru,en,status
 "stellen",noun,26,".","horizontally",done
 "kandidaten",noun,26,"кандидаты","candidates",done
 "montag",noun,26,"Понедельник","Mon",done
-"ende",noun,26,"если","of education",done
-"mandanten",noun,26,"Клиенты","Clients",done
+"raum",noun,26,"Комната","room",done
+"wochen",noun,26,"недели","weeks",done
+"chancen",noun,26,"Возможности:","Opportunities",done
+"leben",noun,26,"жить","live",done
 "laden",noun,24,"магазин","shop",done
 "spaß",noun,24,"Забавное","fun",done
 "freunden",noun,24,"друзья","friends",done
@@ -307,11 +322,10 @@ lemma,pos,freq,ru,en,status
 "bank",noun,24,"площадке","bank / bench",done
 "flasche",noun,24,"Флакон","bottle",done
 "fahrt",noun,24,"Движение","drive",done
+"trainer",noun,24,"ТРЕНЕР","personal",done
 "berge",noun,24,"гор.","mountains",done
 "regal",noun,24,"Стеллаж","Shelf",done
 "panne",noun,24,"Поломка","Breakdown",done
-"neues",noun,24,"Новое","Purchase",done
-"brauchst",noun,24,"потребность","when you need it.",done
 "studentin",noun,24,"Студентка","Student's",done
 "freundes",noun,24,"друг","friend",done
 "fall",noun,24,"Случай болезни","case",done
@@ -319,7 +333,6 @@ lemma,pos,freq,ru,en,status
 "energie",noun,24,"Энергетика","energy",done
 "englisch",noun,24,"английский","English",done
 "französisch",adj,24,"французский","French",done
-"verkehr",noun,24,"транспортное сообщение","transport",done
 "arbeitsbedingungen",noun,24,"Условия работы","Working terms and conditions",done
 "fachkräften",noun,24,"квалифицированные рабочие","skilled workers",done
 "bewerbungen",noun,24,"Оценивание","applications",done
@@ -331,9 +344,7 @@ lemma,pos,freq,ru,en,status
 "hoffst",noun,24,"надежда","hope",done
 "zeiten",noun,24,"Время","Times",done
 "besprechung",noun,24,"Обсуждение","meeting",done
-"warnung",noun,24,"Предупреждение","Warning",done
 "debatte",noun,24,"Дебаты","Debates",done
-"sitzung",noun,24,"Заседание","for the General Meeting",done
 "spezialisten",noun,24,"специалисты","Experts",done
 "dokumente",noun,24,"Документы","documents",done
 "haare",noun,24,"Волосы","Hair",done
@@ -341,16 +352,20 @@ lemma,pos,freq,ru,en,status
 "kontakt",noun,24,"Контакты","contact",done
 "arbeitsplätze",noun,24,"Рабочие места","Jobs",done
 "ereignisse",noun,24,"События","events",done
+"werk",noun,24,"Завод","plant",done
 "infolge",noun,24,"вследствие","as a result of",done
 "erwartungen",noun,24,"ожидания","expectations",done
 "experte",noun,24,"Эксперт","experts",done
+"produktion",noun,24,"Производство","production",done
+"worauf",noun,24,"после чего","what",done
+"womit",noun,24,"Чем","USING",done
 "regenschirm",noun,22,"зонт","umbrella",done
 "gesundheit",noun,22,"Здоровье","health",done
 "kleidung",noun,22,"Одежду","ochronna",done
 "vater",noun,22,"отец","father",done
 "blumen",noun,22,"Блумен","Flowers",done
 "problems",noun,22,"проблемы","problems",done
-"see",noun,22,"по морю","lake / sea",done
+"kopf",noun,22,"ВЕРХНЯЯ","Header",done
 "großeltern",noun,22,"бабушки и дедушки","Grandpa",done
 "nachbarin",noun,22,"сосед","NEIGHBOR",done
 "kindes",noun,22,"ребенок","child",done
@@ -358,12 +373,16 @@ lemma,pos,freq,ru,en,status
 "bescheid",noun,22,"Уведомление","benefit",done
 "anmeldung",noun,22,"Запись на прием","login",done
 "verständnis",noun,22,"PONIMANIE","Profession",done
+"taktik",noun,22,"Тактика","Tactics",done
+"kommission",noun,22,"Комиссия","Commission",done
+"recht",noun,22,"Правовые вопросы","right",done
 "maschine",noun,22,"Машина","machine",done
 "ausruhen",noun,21,"отдых","resting",done
 "apfel",noun,20,"яблочный","apple",done
 "kindern",noun,20,"детям.","children",done
 "berg",noun,20,"БЕРГ","mountain",done
 "hände",noun,20,"Кисть","Hands",done
+"probleme",noun,20,"Проблемы","problems",done
 "rat",noun,20,"консультация, совет","hemitartrate",done
 "spanien",noun,20,"Испания","Spain",done
 "leg",noun,20,"нога","leg",done
@@ -376,14 +395,13 @@ lemma,pos,freq,ru,en,status
 "schülerin",noun,20,"Ученик","Female student",done
 "decke",noun,20,"Одеяло","Blanket",done
 "mitarbeiter",noun,20,"Сотрудник","employees",done
-"raum",noun,20,"Комната","room",done
+"informationen",noun,20,"Информация","information",done
 "stellung",noun,20,"настройка","production",done
 "kompromiss",noun,20,"компромисс","compromise",done
-"wochen",noun,20,"недели","weeks",done
-"leben",noun,20,"жить","live",done
 "kleid",noun,18,"Платье","dress",done
 "diskussion",noun,18,"Обсуждение","discussion",done
 "euro",noun,18,"ЕВРО","euro",done
+"sofa",noun,18,"Диван","sofa",done
 "keller",noun,18,"Келлер","basement (18)",done
 "podcast",noun,18,"Подкаст","podcast",done
 "lernst",noun,18,"учиться","to learn",done
@@ -469,42 +487,46 @@ lemma,pos,freq,ru,en,status
 "grippe",noun,18,"Грипп","Flu",done
 "energiequellen",noun,18,"Источники энергии","energy sources",done
 "unfall",noun,18,"Авария","accident",done
-"mandant",noun,18,"Клиент","Client",done
-"werk",noun,18,"Завод","plant",done
-"forscherin",noun,18,"исследователь","Researcher",done
+"redaktion",noun,18,"Редакция","Editorial",done
+"korrekturen",noun,18,"КОРРЕКЦИИ","Corrections",done
 "minuten",noun,18,"минут","minutes",done
 "direktor",noun,18,"Директор","Director",done
 "anlässlich",noun,18,"по случаю","on the occasion of",done
 "regeln",noun,18,"ПРАВИЛА","rules",done
+"start",noun,18,"старт / начало","start",done
 "— präp. auf",verb,17,"— подготовка на","— preparation on",done
 "schüler",noun,16,"Школьник","student",done
 "schön",adj,16,"красивый","beautiful / nice",done
 "neu",adj,16,"новый","new",done
+"bahn",noun,16,"Железная дорога","trains",done
 "blume",noun,16,"Цветок","Flower",done
 "insel",noun,16,"Остров","island",done
 "tal",noun,16,"Долина","valley",done
 "koffer",noun,16,"Чемоданы","case",done
-"kopf",noun,16,"ВЕРХНЯЯ","Header",done
+"gemüse",noun,16,"Овощи","vegetables",done
 "student",noun,16,"студент","student",done
 "teilnahme",noun,16,"Участие******","participation",done
 "welt",noun,16,"Worwoad","weltweit",done
 "rückfragen",noun,16,"Телефон для справок:","Queries",done
 "könnten",noun,16,"может","could&#x0D;",done
-"daran",noun,16,"в","at",done
+"zertifikat",noun,16,"СЕРТИФИКАТ","CERTIFICATE",done
 "rehabilitation",noun,16,"Реабилитация","rehabilitation",done
 "sicherheit",noun,16,"Безопасность","reliability",done
 "ausstoß",noun,16,"выход","Footprint",done
-"recht",noun,16,"Правовые вопросы","right",done
+"mandant",noun,16,"Клиент","Client",done
 "bauarbeiten",noun,16,"Строительные работы","Construction work",done
 "brei",noun,16,"Каша","Porridge",done
 "training",noun,14,"Тренировочный зал","training",done
 "party",noun,14,"вечеринка","Juhlat",done
+"hof",noun,14,"Хоф","courtyard / farm",done
 "bett",noun,14,"Кровать","bed",done
 "nähe",noun,14,"рядом.","proximity",done
-"probleme",noun,14,"Проблемы","problems",done
 "briefe",noun,14,"KORRESPONDENTSIIA KAK TEMA","LETTERS",done
 "vögel",noun,14,"Птицы","Birds",done
+"fußgängerzone",noun,14,"Пешеходная зона","Pedestrian zone",done
 "verein",noun,14,"Объединение","Association",done
+"kennst",noun,14,"вы знаете,","knowing",done
+"bergen",noun,14,"Берген","Retrieve",done
 "zahlung",noun,14,"Наименование выплаты","payment",done
 "rand",noun,14,"Граница","edge / margin",done
 "polizisten",noun,14,"Полицейские","police officers.",done
@@ -512,23 +534,25 @@ lemma,pos,freq,ru,en,status
 "präsidenten",noun,14,"Президент","president / presidents",done
 "wäre",noun,14,"было бы.","were",done
 "verfügung",noun,14,"выбытия","Decision",done
-"informationen",noun,14,"Информация","information",done
 "untersuchung",noun,14,"обследование","checkup",done
 "angeklagten",noun,14,"ответчики","Defendants",done
 "lösungen",noun,14,"Решения","solutions",done
 "äußerungen",noun,14,"примечания","remarks",done
 "zeuge",noun,14,"Свидетель:","witness",done
-"produktion",noun,14,"Производство","production",done
-"chancen",noun,14,"Возможности:","Opportunities",done
+"analyse",noun,14,"Анализ","analysis",done
+"gehalt",noun,14,"Зарплата","Salary",done
+"maßnahmen",noun,14,"меры","Actions",done
 "südamerika",noun,14,"ЮЖНАЯ АМЕРИКА","South America",done
 "methode",noun,14,"Метод","Method",done
+"stein",noun,14,"Природный камень","stone",done
+"details",noun,14,"Подробности","select",done
 "bearbeitung",noun,14,"Обработка","machining",done
 "klein",adj,13,"маленький","small",done
 "milch",noun,12,"Молоко","Milk",done
 "groß",adj,12,"большой","big / large",done
 "stift",noun,12,"ручку","Pen",done
+"dorf",noun,12,"окружное управление Оберпуллендорф","village",done
 "termine",noun,12,"Сроки","appointments",done
-"sofa",noun,12,"Диван","sofa",done
 "auktion",noun,12,"Аукцион","Auction",done
 "sammeln",noun,12,"Добавление в коллекцию","source materials",done
 "wichtiges",noun,12,"Важно","important",done
@@ -553,8 +577,10 @@ lemma,pos,freq,ru,en,status
 "unterkunft",noun,12,"Проживание","accommodation",done
 "impfung",noun,12,"Вакцинация","Vaccination",done
 "genesung",noun,12,"Выздоровление","Recovery",done
-"anwalt",noun,12,"Адвокат","Lawyer",done
-"auszeichnung",noun,12,"Награда","display",done
+"richterin",noun,12,"Судья","Judge",done
+"geldstrafe",noun,12,"денежного штрафа","Fine",done
+"behörde",noun,12,"Кем выдан","Authority",done
+"genehmigung",noun,12,"Разрешение","Approval",done
 "konsequenzen",noun,12,"последствия","Consequences",done
 "temperaturen",noun,12,"Температуры","temperatures",done
 "wahl",noun,12,"Выборы","Elective",done
@@ -566,8 +592,37 @@ lemma,pos,freq,ru,en,status
 "ungeachtet",noun,12,"несмотря на","Notwithstanding",done
 "proteste",noun,12,"Протесты","protests",done
 "bedeutung",noun,12,"Значение","Meaning",done
-"start",noun,12,"старт / начало","start",done
+"menge",noun,12,"Количество","quantity",done
+"interessantes",noun,12,"интересно","Interesting",done
+"falsches",noun,12,"неправильный","wrong",done
+"schwäche",noun,12,"Слабость","weakness",done
+"besonderes",noun,12,"специальный","Special remarks",done
+"sprachen",noun,12,"Языки","languages",done
+"klavier",noun,12,"Фортепиано","Piano",done
+"anfang",noun,12,"Начало","d’année",done
 "hätte",noun,12,"будет иметь","would have",done
+"sofortmaßnahmen",noun,12,"Неотложные мероприятия","Immediate measures",done
+"unfälle",noun,12,"","",pending
+"mitternacht",noun,12,"","",pending
+"konzept",noun,12,"Концепция","design",done
+"investition",noun,12,"инвестиции","Invest",done
+"beweise",noun,12,"Доказательства","Evidence",done
+"risiko",noun,12,"Риск","cancellation",done
+"meinungen",noun,12,"мнения","Opinions",done
+"muskelfaserriss",noun,12,"разрыв мышечного волокна","Pulled hamstring",done
+"marktplatz",noun,12,"Торговая площадка","Marketplace",done
+"treppe",noun,12,"Лестница","Staircase",done
+"stadtgrenze",noun,12,"граница города","City ​​limits",done
+"parkweg",noun,12,"парковая дорога","park road",done
+"seite",noun,12,"Страница","Page",done
+"fabrik",noun,12,"Фабрика","factory",done
+"flussufer",noun,12,"Берег реки","Shore",done
+"gang",noun,12,"Передача","CORRIDOR",done
+"autobahn",noun,12,"Автомагистраль","Motorway",done
+"richtung",noun,12,"направление","direction",done
+"stadtzentrums",noun,12,"центры городов","city centres",done
+"viertel",noun,12,"geo|Районы","quarters",done
+"ausdauer",noun,12,"выдержка","Stamina",done
 "sonnenstrahlen",noun,12,"солнечные лучи","Sunbeams",done
 "bach",noun,12,"Ручей","stream / brook",done
 "feuer",noun,12,"Огонь","Fire",done
@@ -580,21 +635,38 @@ lemma,pos,freq,ru,en,status
 "denkmalschutz",noun,12,"охрана памятника","PROTECTION OF HISTORIC BUILDINGS AND MONUMENTS",done
 "neue",noun,12,"новых","New",done
 "rätsel",noun,12,"Загадка","puzzle",done
-"worauf",noun,12,"после чего","what",done
-"womit",noun,12,"Чем","USING",done
+"studium",noun,12,"учеба","size",done
+"worüber",noun,12,"О чём?","Content",done
+"hieran",noun,12,"к этому","to this",done
+"worin",noun,12,"где","wherein",done
+"unterschied",noun,12,"Разница","difference",done
+"woran",noun,12,"что","What",done
+"hierauf",noun,12,"после этого","OF WHICH",done
+"argumentation",noun,12,"Аргумент","Reasoning/Argumentation",done
+"feiertage",noun,12,"Праздники","Public holidays",done
+"warnungen",noun,12,"Предупреждения","warnings",done
+"umstrukturierung",noun,12,"реструктуризация","Restructuring",done
+"kündigungen",noun,12,"прекращение действия","Withdrawals",done
+"umbaus",noun,12,"конверсия","conversion",done
+"schwierigkeiten",noun,12,"трудности","Difficulties",done
+"sommerferien",noun,12,"Каникулы","Summer holiday",done
+"bleib",noun,12,"пребывание","temps.",done
+"nagel",noun,12,"Нагель","Nail",done
+"nase",noun,12,"Носик","nose",done
+"nerven",noun,12,"Нерв","nerves",done
+"auge",noun,12,"Глаз","eye,",done
+"griff",noun,12,"Рукоятка","handle",done
+"schuss",noun,12,"выстрел","Committee.",done
 "lesen",noun,11,"читать","Reading",done
 "kaninchen",noun,10,"кролик","Rabbits",done
 "schnell",adj,10,"быстрый","fast",done
 "kellner",noun,10,"Официант","Waiter",done
 "jung",adj,10,"Юнг","young",done
-"bahn",noun,10,"Железная дорога","trains",done
 "geschichte",noun,10,"История","History",done
 "kuchen",noun,10,"Пирог","Lemon Cake",done
 "paris",noun,10,"Париж","Paris",done
-"gemüse",noun,10,"Овощи","vegetables",done
 "pasta",noun,10,"Макаронные изделия","pasta",done
 "peter",noun,10,"Петер","peter.",done
-"bergen",noun,10,"Берген","Retrieve",done
 "bühne",noun,10,"Площадка","stage",done
 "mitteilung",noun,10,"Уведомление","announcement",done
 "mall",noun,10,"торговый центр","shopping mall",done
@@ -605,7 +677,6 @@ lemma,pos,freq,ru,en,status
 "mai",noun,10,"Май","May",done
 "liebe",noun,10,"Любовь","love",done
 "website",noun,10,"Веб-сайт","website",done
-"zertifikat",noun,10,"СЕРТИФИКАТ","CERTIFICATE",done
 "+ verb absagen",verb,10,"+ отмена глагола","+ verb cancelling",done
 "reklamation",noun,10,"Рекламация","Complaint",done
 "angeklagte",noun,10,"ответчики","DEFENDANT",done
@@ -625,18 +696,13 @@ lemma,pos,freq,ru,en,status
 "schuhe",noun,8,"Обувь","shoes",done
 "hoch",adj,8,"высокая","high",done
 "vogel",noun,8,"Птица","bird",done
-"hof",noun,8,"Хоф","courtyard / farm",done
 "karte",noun,8,"КАРТА","card",done
 "sturm",noun,8,"Линия нападения","Storm",done
 "bad",noun,8,"Cremebad","bath",done
-"dorf",noun,8,"окружное управление Оберпуллендорф","village",done
 "geschwister",noun,8,"Сиблинги","sibling",done
 "tier",noun,8,"Животное","Animal.",done
 "bücher",noun,8,"Книги","Books",done
-"fußgängerzone",noun,8,"Пешеходная зона","Pedestrian zone",done
 "heft",noun,8,"Тетрадь","Defter",done
-"trainer",noun,8,"ТРЕНЕР","personal",done
-"kennst",noun,8,"вы знаете,","knowing",done
 "frühstück",noun,8,"Завтрак","breakfast",done
 "münchen",noun,8,"Мюнхен","Munich",done
 "polen",noun,8,"ПОЛЬША","Poland",done
@@ -652,14 +718,15 @@ lemma,pos,freq,ru,en,status
 "juni",noun,8,"июня","June",done
 "wetterbericht",noun,8,"Прогноз погоды","weather forecast",done
 "fristen",noun,8,"Сроки для открытия","Deadlines",done
-"analyse",noun,8,"Анализ","analysis",done
+"hinweise",noun,8,"Примечания","information",done
 "könntest",noun,8,"вы могли бы","you could",done
-"gehalt",noun,8,"Зарплата","Salary",done
 "menschenmenge",noun,8,"толпа","Crowd",done
-"maßnahmen",noun,8,"меры","Actions",done
-"stein",noun,8,"Природный камень","stone",done
-"details",noun,8,"Подробности","select",done
+"inflation",noun,8,"Инфляция","inflation",done
+"kaufkraft",noun,8,"покупательная способность","Purchasing power",done
+"sache",noun,8,"нещо","BAG...",done
+"punkt",noun,8,"Точка.","item",done
 "werktagen",noun,8,"рабочих дней","business days",done
+"abschluss",noun,8,"ИТОГОВЫЙ БАЛАНС","Accounts",done
 "warm",adj,7,"горячий","warm",done
 "kalt",adj,7,"с / экономия","cold",done
 "sehen",verb,7,"видеть","to see",done
@@ -748,12 +815,7 @@ lemma,pos,freq,ru,en,status
 "sichern",verb,6,"резервное копирование","to secure / back up",done
 "ausstoßen",noun,6,"извлечь","pushout",done
 "regierer",noun,6,"регулятор","governor",done
-"richterin",noun,6,"Судья","Judge",done
-"geldstrafe",noun,6,"денежного штрафа","Fine",done
-"behörde",noun,6,"Кем выдан","Authority",done
-"genehmigung",noun,6,"Разрешение","Approval",done
-"taktik",noun,6,"Тактика","Tactics",done
-"kommission",noun,6,"Комиссия","Commission",done
+"mandantin",noun,6,"клиент","ATTORNEY GIVER",done
 "forscherinnen",noun,6,"женщины-исследователи","female researchers",done
 "urlaubs",noun,6,"отпуск","vacation",done
 "stellvertreterin",noun,6,"DOVERENNYE LITSA","Alternate",done
@@ -768,72 +830,20 @@ lemma,pos,freq,ru,en,status
 "vorfalls",noun,6,"инцидент","the incident",done
 "worte",noun,6,"слова","words",done
 "jugend",noun,6,"Молодёжь","Teen",done
-"menge",noun,6,"Количество","quantity",done
-"interessantes",noun,6,"интересно","Interesting",done
-"falsches",noun,6,"неправильный","wrong",done
-"schwäche",noun,6,"Слабость","weakness",done
-"besonderes",noun,6,"специальный","Special remarks",done
 "ministerin",noun,6,"министр","MINISTER",done
 "einwände",noun,6,"возражения","OBJECTIONS",done
-"sprachen",noun,6,"Языки","languages",done
-"klavier",noun,6,"Фортепиано","Piano",done
-"anfang",noun,6,"Начало","d’année",done
-"sofortmaßnahmen",noun,6,"Неотложные мероприятия","Immediate measures",done
-"publikum",noun,6,"Публика","audience",done
-"namen",noun,6,"названия","names",done
-"konzept",noun,6,"Концепция","design",done
-"investition",noun,6,"инвестиции","Invest",done
-"beweise",noun,6,"Доказательства","Evidence",done
-"risiko",noun,6,"Риск","cancellation",done
-"meinungen",noun,6,"мнения","Opinions",done
-"muskelfaserriss",noun,6,"разрыв мышечного волокна","Pulled hamstring",done
-"marktplatz",noun,6,"Торговая площадка","Marketplace",done
-"treppe",noun,6,"Лестница","Staircase",done
-"stadtgrenze",noun,6,"граница города","City ​​limits",done
-"parkweg",noun,6,"парковая дорога","park road",done
-"seite",noun,6,"Страница","Page",done
-"fabrik",noun,6,"Фабрика","factory",done
-"flussufer",noun,6,"Берег реки","Shore",done
-"gang",noun,6,"Передача","CORRIDOR",done
-"autobahn",noun,6,"Автомагистраль","Motorway",done
-"richtung",noun,6,"направление","direction",done
-"stadtzentrums",noun,6,"центры городов","city centres",done
-"viertel",noun,6,"geo|Районы","quarters",done
-"ausdauer",noun,6,"выдержка","Stamina",done
 "parlament",noun,6,"Парламент","Classroom",done
-"studium",noun,6,"учеба","size",done
-"worüber",noun,6,"О чём?","Content",done
-"hieran",noun,6,"к этому","to this",done
-"worin",noun,6,"где","wherein",done
-"unterschied",noun,6,"Разница","difference",done
-"woran",noun,6,"что","What",done
-"hierauf",noun,6,"после этого","OF WHICH",done
-"argumentation",noun,6,"Аргумент","Reasoning/Argumentation",done
 "laufe",noun,6,"запустить","runs",done
-"feiertage",noun,6,"Праздники","Public holidays",done
-"warnungen",noun,6,"Предупреждения","warnings",done
-"umstrukturierung",noun,6,"реструктуризация","Restructuring",done
-"kündigungen",noun,6,"прекращение действия","Withdrawals",done
 "zuge",noun,6,"закрыто","closed",done
-"umbaus",noun,6,"конверсия","conversion",done
-"schwierigkeiten",noun,6,"трудности","Difficulties",done
-"sommerferien",noun,6,"Каникулы","Summer holiday",done
-"bleib",noun,6,"пребывание","temps.",done
 "laufendem",noun,6,"текущий","ongoing",done
 "laufenden",noun,6,"продолжается","ongoing",done
-"nagel",noun,6,"Нагель","Nail",done
 "kopfe",noun,6,"головки","heads",done
 "rolle",noun,6,"Роль","roll",done
 "rollen",noun,6,"Роли","Roles",done
-"nase",noun,6,"Носик","nose",done
-"nerven",noun,6,"Нерв","nerves",done
-"auge",noun,6,"Глаз","eye,",done
-"griff",noun,6,"Рукоятка","handle",done
 "überblicke",noun,6,"обзоры","overviews",done
 "überblicken",noun,6,"обзор","overview",done
 "überblicks",noun,6,"обзор","overview",done
 "überblick",noun,6,"Краткий обзор","overview",done
-"schuss",noun,6,"выстрел","Committee.",done
 "blauen",noun,6,"синих","blue",done
 "blaue",noun,6,"синий","blue",done
 "saft",noun,6,"сок","juice",done
@@ -982,20 +992,15 @@ lemma,pos,freq,ru,en,status
 "konferierend",noun,4,"конференц-связь","conferencing",done
 "medikamentler",noun,4,"аптекарь","druggist",done
 "genesend",noun,4,"восстановление","recovering",done
-"mandantin",noun,4,"клиент","ATTORNEY GIVER",done
 "muttern",noun,4,"гайки","Nuts",done
 "unternehmens",noun,4,"предприятия","company",done
 "brudern",noun,4,"братья","brothers",done
-"redaktion",noun,4,"Редакция","Editorial",done
-"korrekturen",noun,4,"КОРРЕКЦИИ","Corrections",done
 "studierende",noun,4,"студенты","Students",done
 "häuser",noun,4,"клеток","house",done
 "strom",noun,4,"Электричество","flow",done
 "äußerung",noun,4,"акт","Expression",done
-"hinweise",noun,4,"Примечания","information",done
+"— außerdem / dennoch / deshalb / folglich",verb,4,"","",pending
 "inmitten",noun,4,"в середине","Korrekt ...",done
-"inflation",noun,4,"Инфляция","inflation",done
-"kaufkraft",noun,4,"покупательная способность","Purchasing power",done
 "laufender",noun,4,"текущий","Runner",done
 "laufendes",noun,4,"текущий","current",done
 "kopfen",noun,4,"головки","heads",done
@@ -1007,8 +1012,6 @@ lemma,pos,freq,ru,en,status
 "breie",noun,4,"трикотаж","knitwear",done
 "beines",noun,4,"ноги","leg.",done
 "beins",noun,4,"нога","leg",done
-"sache",noun,4,"нещо","BAG...",done
-"punkt",noun,4,"Точка.","item",done
 "laufende",noun,4,"текущий","us Current",done
 "köpfen",noun,4,"головки","beheads",done
 "roller",noun,4,"","scooter",pending
@@ -1038,7 +1041,6 @@ lemma,pos,freq,ru,en,status
 "mangel",noun,4,"недостаток, нехватка","defect",done
 "zahlungen",noun,4,"Платежи","Payments",done
 "kundin",noun,4,"клиент","customer (female)",done
-"abschluss",noun,4,"ИТОГОВЫЙ БАЛАНС","Accounts",done
 "antworten",verb,3,"Ответы","answer",done
 "viel",adj,3,"много","significant",done
 "nah",adj,3,"Ближе","close",done
@@ -1086,6 +1088,7 @@ lemma,pos,freq,ru,en,status
 "einchecken",verb,3,"прибытие","Check in:",done
 "ruhen",verb,3,"отдых","to rest",done
 "abholen",verb,3,"& Получить","to pick up",done
+"— außerdem / dann / dennoch / deshalb",verb,3,"","",pending
 "gmb",noun,3,"","GmbH",pending
 "gmbh",noun,3,"","GmbH (limited company)",pending
 "luft",noun,2,"Воздух","air",done
@@ -1362,6 +1365,15 @@ lemma,pos,freq,ru,en,status
 "renovierungsarbeiten",noun,2,"ремонт;","maintenance work",done
 "rauchen",noun,2,"курить","to smoke",done
 "autors",noun,2,"авторы","authors",done
+"unserem",noun,2,"","",pending
+"— außerdem / dann / deshalb / trotzdem",verb,2,"","",pending
+"— außerdem / dagegen / daher / trotzdem",verb,2,"","",pending
+"— dann / dennoch / deshalb / folglich",verb,2,"","",pending
+"— außerdem / dennoch / deshalb / trotzdem",verb,2,"","",pending
+"— außerdem / dann / dennoch / folglich",verb,2,"","",pending
+"— dann / deshalb / folglich / trotzdem",verb,2,"","",pending
+"— außerdem / dagegen / daher / dennoch",verb,2,"","",pending
+"— außerdem / deshalb / folglich / trotzdem",verb,2,"","",pending
 "laborant",noun,2,"Лаборант","Organische Chemie",done
 "eingangsbestätigung",noun,2,"подтверждение получения","Confirmation of Submission",done
 "hinweis",noun,2,"Подсказка","NOTE",done
@@ -1550,12 +1562,91 @@ lemma,pos,freq,ru,en,status
 "lieben",verb,1,"любят","do I not love ?",done
 "— dennoch / deshalb / trotzdem / weil",verb,1,"— тем не менее / поэтому / тем не менее / потому что","— nevertheless / therefore / nevertheless / because",done
 "— denn / dennoch / deshalb / trotzdem",verb,1,"— потому что / тем не менее / поэтому / тем не менее","— because / nevertheless / therefore / nevertheless",done
+"— dagegen / dennoch / deshalb / trotzdem",verb,1,"","",pending
+"— außerdem / dagegen / folglich / trotzdem",verb,1,"","",pending
+"— außerdem / dennoch / folglich / trotzdem",verb,1,"","",pending
+"— außerdem / dagegen / dennoch / infolgedessen",verb,1,"","",pending
+"— dann / deshalb / folglich / jedoch",verb,1,"","",pending
+"— außerdem / demzufolge / dennoch / trotzdem",verb,1,"","",pending
+"— außerdem / dann / folglich / trotzdem",verb,1,"","",pending
+"— außerdem / dann / deshalb / hingegen",verb,1,"","",pending
+"— dagegen / dennoch / somit / trotzdem",verb,1,"","",pending
+"— außerdem / daher / dennoch / trotzdem",verb,1,"","",pending
+"— außerdem / dann / folglich / gleichwohl",verb,1,"","",pending
+"— außerdem / dagegen / dennoch / folglich",verb,1,"","",pending
+"— dagegen / dennoch / infolgedessen / trotzdem",verb,1,"","",pending
+"— außerdem / deshalb / folglich / jedoch",verb,1,"","",pending
+"— außerdem / dagegen / demzufolge / trotzdem",verb,1,"","",pending
+"— dann / deshalb / folglich / hingegen",verb,1,"","",pending
+"— außerdem / dennoch / somit / trotzdem",verb,1,"","",pending
+"— außerdem / dann / deshalb / gleichwohl",verb,1,"","",pending
+"— außerdem / dagegen / deshalb / trotzdem",verb,1,"","",pending
+"— dagegen / dennoch / folglich / trotzdem",verb,1,"","",pending
+"— dagegen / daher / dennoch / trotzdem",verb,1,"","",pending
+"— außerdem / dennoch / infolgedessen / trotzdem",verb,1,"","",pending
+"— außerdem / dann / folglich / jedoch",verb,1,"","",pending
+"— außerdem / dagegen / demzufolge / dennoch",verb,1,"","",pending
+"— außerdem / deshalb / folglich / hingegen",verb,1,"","",pending
+"— außerdem / dagegen / somit / trotzdem",verb,1,"","",pending
+"— dann / deshalb / folglich / gleichwohl",verb,1,"","",pending
+"— beziehen / beziehst / bezieht / bezogen",verb,1,"","",pending
+"— früh / frühe / früher / frühest",verb,1,"","",pending
+"— finanzieren / finanzierst / finanziert / finanzierte",verb,1,"","",pending
+"— freue / freuen / freute / gefreut",verb,1,"","",pending
+"— haben / habt / hat / hättet",verb,1,"","",pending
+"— kann / können / könnte / konntet",verb,1,"","",pending
+"— erkannt / erkannte / erkennst / erkennt",verb,1,"","",pending
+"— erinnere / erinnern / erinnert / erinnerte",verb,1,"","",pending
+"— bestanden / bestehen / bestehst / besteht",verb,1,"","",pending
+"— haben / hat / hatte / hätten",verb,1,"","",pending
+"— dachte / denke / denkst / gedacht",verb,1,"","",pending
+"— bauen / baut / baute / gebaut",verb,1,"","",pending
+"— haben / habt / hat / hatte",verb,1,"","",pending
+"— achte / achten / achtet / achtete",verb,1,"","",pending
+"— ist / sein / war / wäre",verb,1,"","",pending
+"— gelöst / lösen / löst / löste",verb,1,"","",pending
+"— gewartet / warte / warten / wartest",verb,1,"","",pending
+"— beziehen / beziehst / bezieht / bezog",verb,1,"","",pending
+"— frühe / früher / frühes / frühest",verb,1,"","",pending
+"— finanzier / finanzieren / finanzierst / finanzierte",verb,1,"","",pending
+"— freue / freuen / freust / gefreut",verb,1,"","",pending
+"— haben / habt / hat / hattet",verb,1,"","",pending
+"— gekonnt / kann / könnte / konntet",verb,1,"","",pending
+"— erkannt / erkannte / erkennen / erkennt",verb,1,"","",pending
+"— erinnere / erinnern / erinnerst / erinnert",verb,1,"","",pending
+"— bestand / bestehen / bestehst / besteht",verb,1,"","",pending
+"— haben / habt / hatte / hätten",verb,1,"","",pending
+"— dachte / denken / denkst / gedacht",verb,1,"","",pending
+"— bauen / baust / baut / gebaut",verb,1,"","",pending
+"— haben / hat / hatte / hätte",verb,1,"","",pending
+"— achte / achten / achtete / geachtet",verb,1,"","",pending
+"— ist / sein / sind / wäre",verb,1,"","",pending
+"— gelöst / lösen / löst / löstest",verb,1,"","",pending
+"— warte / warten / wartest / wartete",verb,1,"","",pending
+"— beziehst / bezieht / bezog / bezogen",verb,1,"","",pending
+"— früh / frühe / früher / frühes",verb,1,"","",pending
+"— finanzier / finanzieren / finanzierst / finanziert",verb,1,"","",pending
+"— freue / freuen / freust / freute",verb,1,"","",pending
+"— haben / habt / hattet / hättet",verb,1,"","",pending
+"— gekonnt / kann / können / könnte",verb,1,"","",pending
+"— erkannt / erkennen / erkennst / erkennt",verb,1,"","",pending
+"— erinnere / erinnern / erinnerst / erinnerte",verb,1,"","",pending
+"— bestand / bestanden / bestehst / besteht",verb,1,"","",pending
+"— haben / habt / hat / hätten",verb,1,"","",pending
+"— denke / denken / denkst / gedacht",verb,1,"","",pending
+"— bauen / baust / baut / baute",verb,1,"","",pending
+"— habt / hat / hatte / hätte",verb,1,"","",pending
+"— achten / achtet / achtete / geachtet",verb,1,"","",pending
+"— ist / sein / sind / war",verb,1,"","",pending
+"— lösen / löst / löste / löstest",verb,1,"","",pending
 "tech",noun,1,"Tech.","tech",done
 "techpro",noun,1,"","TechPRO",pending
 "green",noun,1,"зелёный","green",done
 "greentech",noun,1,"","GreenTech",pending
 "mode",noun,1,"","fashion",pending
 "modeonline",noun,1,"fashiononline","fashiononline",done
+"publikum",noun,0,"Публика","audience",done
+"namen",noun,0,"названия","names",done
 "sich freuen",verb,0,"радоваться","to look forward / be glad",done
 "gast",noun,0,"гость","guest",done
 "haben",verb,0,"иметь","to have",done
