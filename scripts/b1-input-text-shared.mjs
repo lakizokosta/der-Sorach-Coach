@@ -1,8 +1,9 @@
 /** Shared helpers for B1 input-text generation. */
 
-export function md(id, prompt, correct) {
+export function md(id, prompt, correct, hint = '') {
   const ans = (Array.isArray(correct) ? correct : [correct]).map((c) => `  - ${c}`).join('\n');
-  return `---\nid: ${id}\ntype: input-text\ncorrect:\n${ans}\n---\n\n${prompt}\n`;
+  const hintLine = hint ? `hint: ${hint}\n` : '';
+  return `---\nid: ${id}\ntype: input-text\n${hintLine}correct:\n${ans}\n---\n\n${prompt}\n`;
 }
 
 /** @param {[string, string|string[]][]} items */

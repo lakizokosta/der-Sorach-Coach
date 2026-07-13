@@ -1,8 +1,11 @@
 ---
 id: b2-obj-in-042
 type: input-text
+hint: Dativ/Akkusativ-Objekt — seine Mutter / seinen Mutter / seiner Mutter / seiner Muttern
 correct:
   - seiner Mutter
 ---
 
-Der Autor widmet ___ sein neues Werk. (Dativ/Akkusativ-Objekt — seine Mutter / seinen Mutter / seiner Mutter / seiner Muttern)
+Ergänze das Dativobjekt (Wem?):
+
+Der Autor widmet ___ sein neues Werk.

@@ -1,8 +1,11 @@
 ---
 id: b2-obj-in-041
 type: input-text
+hint: Dativ/Akkusativ-Objekt — ihre Chef / ihrem Chef / ihrem Chefin / ihren Chef
 correct:
   - ihrem Chef
 ---
 
-Sie zeigt ___ die neuen Unterlagen. (Dativ/Akkusativ-Objekt — ihre Chef / ihrem Chef / ihrem Chefin / ihren Chef)
+Ergänze das Dativobjekt (Wem?):
+
+Sie zeigt ___ die neuen Unterlagen.

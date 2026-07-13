@@ -49,6 +49,30 @@ export function stripTrailingPromptHint(text) {
     .trim();
 }
 
+/**
+ * Returns the trailing parenthetical hint from a prompt body, if any.
+ *
+ * @param {string} text
+ * @return {string}
+ */
+export function extractTrailingPromptHint(text) {
+  const m = String(text || '').match(/\(([^)]*)\)\s*$/);
+  return m ? m[1].trim() : '';
+}
+
+/**
+ * Normalises learner input for case-insensitive gap matching.
+ *
+ * @param {string} value
+ * @return {string}
+ */
+export function normalizeGapAnswer(value) {
+  return String(value || '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, ' ');
+}
+
 const FRONTMATTER_RE = /^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/;
 
 /**
@@ -185,7 +209,7 @@ export function parseQuestionFile(raw, context) {
     level: String(context.level || meta.level || '').toUpperCase(),
     topic: String(context.topic || meta.topic || '').toUpperCase(),
     prompt: body,
-    hint: meta.hint || '',
+    hint: meta.hint || extractTrailingPromptHint(body) || '',
   };
 
   if (meta.lemma) question.lemma = String(meta.lemma);

@@ -287,6 +287,8 @@ export default {
       'Deine 7 Gratis-Minuten für heute sind verbraucht — komm morgen wieder!',
     sessionEnded: 'Session beendet',
     infinitiveHint: 'Infinitiv: {verb}',
+    fillBlankDefault: 'Fülle die Lücke aus:',
+    fillBlankTipHint: 'Tipp: Mögliche Formen findest du unter 💡 Tipp.',
     placementShare: '📤 Niveau teilen',
     placementShareTitle: 'Mein Deutsch-Niveau',
     placementShareText:

@@ -1,8 +1,11 @@
 ---
 id: b2-obj-in-027
 type: input-text
+hint: Dativ/Akkusativ-Objekt — uns / unser / unsere / unseren
 correct:
   - uns
 ---
 
-Er erzählt ___ von seiner Reise. (Dativ/Akkusativ-Objekt — uns / unser / unsere / unseren)
+Ergänze das Dativobjekt (Wem?):
+
+Er erzählt ___ von seiner Reise.

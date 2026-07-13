@@ -12,7 +12,7 @@
 
 import { computed, nextTick, onMounted, ref } from 'vue';
 import { wrapWordsForDictionary } from '@/utils/dictionary.js';
-import { stripTrailingPromptHint } from '@/utils/markdownQuestion.js';
+import { stripTrailingPromptHint, normalizeGapAnswer } from '@/utils/markdownQuestion.js';
 import { resolveSpatialScene } from '@/utils/prepositionSpatial.js';
 import PrepositionSpatialHint from '@/components/PrepositionSpatialHint.vue';
 import { useI18n } from '@/i18n/index.js';
@@ -32,9 +32,19 @@ const message = ref('');
 const hintVisible = ref(false);
 const inputRef = ref(null);
 
-const displayPrompt = stripTrailingPromptHint(props.question.prompt || '');
+const rawPrompt = props.question.prompt || '';
+const withoutTrailing = stripTrailingPromptHint(rawPrompt);
+const promptLines = withoutTrailing.split('\n').map((l) => l.trim()).filter(Boolean);
+const sentenceLine = promptLines.find((l) => l.includes('___')) || promptLines[promptLines.length - 1] || '';
+const instructionText = promptLines.filter((l) => l !== sentenceLine).join(' ') || '';
+const displayPrompt = sentenceLine;
 const parts = displayPrompt.split('___');
-const acceptable = (props.question.correct || []).map((s) => String(s).toLowerCase());
+const acceptable = (props.question.correct || []).map((s) => normalizeGapAnswer(s));
+
+const fillInstruction = computed(() => {
+  if (instructionText) return instructionText;
+  return t('trainer.fillBlankDefault');
+});
 
 const spatialScene = computed(() => resolveSpatialScene(props.question));
 const showSpatialHint = computed(() => spatialScene.value !== null);
@@ -61,7 +71,7 @@ onMounted(() => nextTick(() => inputRef.value?.focus()));
 /** Submits the typed answer. */
 function check() {
   if (checked.value) return;
-  const userVal = value.value.trim().toLowerCase();
+  const userVal = normalizeGapAnswer(value.value);
   if (!userVal) {
     message.value = 'Bitte zuerst eine Antwort eingeben!';
     return;
@@ -154,7 +164,7 @@ const inputStyle = computed(() => {
 <template>
   <div>
     <PrepositionSpatialHint v-if="showSpatialHint" :scene="spatialScene" />
-    <div class="question-box">Fülle die Lücke aus:</div>
+    <div class="question-box">{{ fillInstruction }}</div>
 
     <div class="fill-sentence">
       <span v-html="partLeftHtml" />
@@ -223,6 +233,13 @@ const inputStyle = computed(() => {
     >
       💡 {{ question.hint }}
     </div>
+
+    <p
+      v-if="question.hint && !checked"
+      class="fill-choice-hint"
+    >
+      {{ t('trainer.fillBlankTipHint') }}
+    </p>
 
     <div v-if="!checked" class="de-kbd">
       <button

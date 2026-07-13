@@ -1,8 +1,11 @@
 ---
 id: b2-obj-in-021
 type: input-text
+hint: Dativ/Akkusativ-Objekt — der Patient / der Patientin / die Patienten / die Patientin
 correct:
   - der Patientin
 ---
 
-Die Ärztin verschreibt ___ ein neues Medikament. (Dativ/Akkusativ-Objekt — der Patient / der Patientin / die Patienten / die Patientin)
+Ergänze das Dativobjekt (Wem?):
+
+Die Ärztin verschreibt ___ ein neues Medikament.

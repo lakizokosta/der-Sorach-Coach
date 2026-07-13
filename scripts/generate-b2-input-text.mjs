@@ -70,6 +70,19 @@ function closedSetHint(label, correct, options) {
   return `${label} — ${sorted.join(' / ')}`;
 }
 
+/** Dativ or Akkusativ object — per base template in genAkkusativDativobjekt(). */
+const AKK_OBJ_CASE = [
+  'Dativ', 'Akkusativ', 'Akkusativ', 'Dativ', 'Dativ', 'Dativ', 'Dativ', 'Dativ',
+  'Akkusativ', 'Dativ', 'Dativ', 'Akkusativ', 'Dativ', 'Dativ', 'Dativ', 'Dativ', 'Dativ',
+];
+
+function akkusativDativobjektPrompt(sentence, caseLabel) {
+  const task = caseLabel === 'Dativ'
+    ? 'Ergänze das Dativobjekt (Wem?):'
+    : 'Ergänze das Akkusativobjekt (Wen?):';
+  return `${task}\n\n${sentence}`;
+}
+
 function buildBankPrompt(rawPrompt, folder, correct, id) {
   const m = rawPrompt.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
   const ans = Array.isArray(correct) ? correct : [correct];
@@ -99,7 +112,7 @@ function writeBankTopic(folder, prefix, questions) {
   return n;
 }
 
-function writeSelectOneTopic(folder, prefix, label, questions) {
+function writeSelectOneTopic(folder, prefix, label, questions, { caseLabels } = {}) {
   mkdirSync(join(ROOT, folder), { recursive: true });
   let n = 0;
   questions.slice(0, 50).forEach((q, i) => {
@@ -108,8 +121,12 @@ function writeSelectOneTopic(folder, prefix, label, questions) {
     const path = join(ROOT, folder, `${id}.md`);
     if (!FORCE && existsSync(path)) return;
     const hint = closedSetHint(label, q.correct, q.options || []);
-    const prompt = `${q.prompt} (${hint})`;
-    writeFileSync(path, md(id, prompt, q.correct), 'utf8');
+    const sentence = q.prompt.replace(/\s*\([^)]*\)\s*$/, '').trim();
+    const caseLabel = caseLabels?.[i % caseLabels.length];
+    const prompt = caseLabel
+      ? akkusativDativobjektPrompt(sentence, caseLabel)
+      : sentence;
+    writeFileSync(path, md(id, prompt, q.correct, hint), 'utf8');
     n += 1;
   });
   return n;
@@ -128,7 +145,8 @@ for (const folder of BANK_TOPICS) {
 
 for (const [folder, { prefix, gen, label }] of Object.entries(SELECT_ONE_TOPICS)) {
   if (TOPIC_ARG && folder !== TOPIC_ARG) continue;
-  const n = writeSelectOneTopic(folder, prefix, label, gen());
+  const extra = folder === 'AKKUSATIV&DATIVOBJEKT' ? { caseLabels: AKK_OBJ_CASE } : {};
+  const n = writeSelectOneTopic(folder, prefix, label, gen(), extra);
   total += n;
   console.log(`${folder}: ${FORCE ? 'regen ' : '+'}${n} input-text`);
 }

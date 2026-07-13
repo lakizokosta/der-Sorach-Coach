@@ -1,8 +1,11 @@
 ---
 id: b2-obj-in-031
 type: input-text
+hint: Dativ/Akkusativ-Objekt — meine Freund / meinem Freund / meinem Freunde / meines Freundes
 correct:
   - meinem Freund
 ---
 
-Ich schreibe ___ eine lange E-Mail. (Dativ/Akkusativ-Objekt — meine Freund / meinem Freund / meinem Freunde / meines Freundes)
+Ergänze das Dativobjekt (Wem?):
+
+Ich schreibe ___ eine lange E-Mail.

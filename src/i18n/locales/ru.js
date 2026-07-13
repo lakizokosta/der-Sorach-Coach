@@ -284,6 +284,8 @@ export default {
       'Твои бесплатные 7 минут на сегодня истекли — приходи завтра!',
     sessionEnded: 'Сессия завершена',
     infinitiveHint: 'Инфинитив: {verb}',
+    fillBlankDefault: 'Заполните пропуск:',
+    fillBlankTipHint: 'Подсказка: возможные формы — под кнопкой 💡 Подсказка.',
     placementShare: '📤 Поделиться уровнем',
     placementShareTitle: 'Мой уровень немецкого',
     placementShareText:

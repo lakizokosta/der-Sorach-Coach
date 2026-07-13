@@ -284,6 +284,8 @@ export default {
       'Your 7 free minutes for today are used up — come back tomorrow!',
     sessionEnded: 'Session ended',
     infinitiveHint: 'Infinitive: {verb}',
+    fillBlankDefault: 'Fill in the blank:',
+    fillBlankTipHint: 'Tip: tap 💡 Tip to see possible forms.',
     placementShare: '📤 Share my level',
     placementShareTitle: 'My German level',
     placementShareText:
