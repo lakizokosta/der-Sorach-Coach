@@ -164,7 +164,7 @@ function onKeyDown(ev) {
 const inputClass = computed(() => ({
   'fill-input': true,
   correct: finalised.value && isOk.value,
-  wrong: wrongChecks.value > 0 && !showSolution.value,
+  wrong: !finalised.value && wrongChecks.value > 0,
   revealed: showSolution.value,
 }));
 
