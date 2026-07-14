@@ -8257,6 +8257,11 @@
     "ru": "быть",
     "en": "to be"
   },
+  "folgen": {
+    "pos": "verb",
+    "ru": "следовать",
+    "en": "to follow"
+  },
   "gut": {
     "pos": "adj",
     "ru": "хороший",

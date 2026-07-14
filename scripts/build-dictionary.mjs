@@ -22,6 +22,7 @@ import { parseQuestionFile, stripTrailingPromptHint } from '../src/utils/markdow
 import { isDictStopword } from '../src/data/stopwords.js';
 import { isDictMetaSkipped } from '../src/data/dictMeta.js';
 import { NOUN_FORM_LEMMAS } from '../src/data/nounLemmaForms.js';
+import { VERB_FORM_LEMMAS } from '../src/data/verbLemmaForms.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const QROOT = join(ROOT, 'src', 'questions');
@@ -103,7 +104,7 @@ function* walk(dir) {
   }
 }
 
-const verbLemmas = {};
+const verbLemmas = { ...VERB_FORM_LEMMAS };
 const adjLemmas = {};
 const nounLemmas = { ...NOUN_FORM_LEMMAS };
 /** @type {Map<string, { pos: string, freq: number, gender?: string }>} */

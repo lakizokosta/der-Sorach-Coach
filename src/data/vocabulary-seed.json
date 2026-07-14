@@ -10,6 +10,7 @@
   "arbeiten": { "pos": "verb", "ru": "работать", "en": "to work" },
   "lernen": { "pos": "verb", "ru": "учить(ся)", "en": "to learn" },
   "freuen": { "pos": "verb", "ru": "радоваться", "en": "to be glad" },
+  "folgen": { "pos": "verb", "ru": "следовать", "en": "to follow" },
   "sich freuen": { "pos": "verb", "ru": "радоваться", "en": "to look forward / be glad" },
   "groß": { "pos": "adj", "ru": "большой", "en": "big / large" },
   "klein": { "pos": "adj", "ru": "маленький", "en": "small" },

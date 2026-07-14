@@ -1689,6 +1689,7 @@ lemma,pos,freq,ru,en,status
 "gast",noun,0,"гость","guest",done
 "haben",verb,0,"иметь","to have",done
 "sein",verb,0,"быть","to be",done
+"folgen",verb,0,"следовать","to follow",done
 "gut",adj,0,"хороший","good",done
 "problem",noun,0,"проблема","problem",done
 "tag",noun,0,"день","day",done
