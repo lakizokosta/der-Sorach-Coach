@@ -10,6 +10,8 @@ words:
   - zum
   - Zoo
   - kommen
+commas:
+  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — ob)

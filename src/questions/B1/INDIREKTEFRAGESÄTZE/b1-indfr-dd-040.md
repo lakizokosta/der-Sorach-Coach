@@ -10,6 +10,8 @@ words:
   - Minister
   - gesagt
   - hat
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

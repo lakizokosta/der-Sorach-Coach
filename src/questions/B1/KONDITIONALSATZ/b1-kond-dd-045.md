@@ -8,6 +8,8 @@ words:
   - melde
   - dich
   - sofort
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

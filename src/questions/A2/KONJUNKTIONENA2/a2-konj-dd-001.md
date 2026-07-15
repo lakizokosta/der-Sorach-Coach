@@ -10,6 +10,8 @@ words:
   - meine
   - Familie
   - vermisse
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)

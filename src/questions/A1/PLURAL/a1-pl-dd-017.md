@@ -6,6 +6,8 @@ words:
   - Jacken
   - hängen
   - da
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plural — die Jacken)

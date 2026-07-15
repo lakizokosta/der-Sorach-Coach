@@ -11,6 +11,8 @@ words:
   - der
   - Inhalt
   - spannend
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

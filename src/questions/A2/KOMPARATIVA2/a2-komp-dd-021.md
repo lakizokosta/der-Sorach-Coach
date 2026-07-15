@@ -9,6 +9,8 @@ words:
   - als
   - der
   - Bus
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — schnell)

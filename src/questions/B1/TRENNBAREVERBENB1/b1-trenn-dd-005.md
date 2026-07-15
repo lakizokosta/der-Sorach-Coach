@@ -10,6 +10,8 @@ words:
   - wenn
   - sie
   - geht
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

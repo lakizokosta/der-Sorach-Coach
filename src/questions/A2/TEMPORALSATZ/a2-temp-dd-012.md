@@ -8,6 +8,8 @@ words:
   - ist
   - es
   - still
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

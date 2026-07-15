@@ -10,6 +10,8 @@ words:
   - neun
   - Uhr
   - ab
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

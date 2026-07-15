@@ -10,6 +10,8 @@ words:
   - kauft
   - er
   - es
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

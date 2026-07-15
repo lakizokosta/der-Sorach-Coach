@@ -8,6 +8,8 @@ words:
   - trinke
   - ich
   - Kaffee
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz — Wenn)

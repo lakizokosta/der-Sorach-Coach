@@ -8,6 +8,8 @@ words:
   - die
   - Nachrichten
   - übertreiben
+commas:
+  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

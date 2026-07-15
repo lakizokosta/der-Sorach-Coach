@@ -12,6 +12,8 @@ words:
   - im
   - Büro
   - kalt
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

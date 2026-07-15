@@ -9,6 +9,8 @@ words:
   - die
   - Wirtschaft
   - wächst
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

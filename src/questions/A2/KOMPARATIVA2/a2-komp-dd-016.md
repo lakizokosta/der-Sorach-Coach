@@ -14,6 +14,8 @@ words:
   - als
   - der
   - Tisch
+commas:
+  - 8
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — schön)

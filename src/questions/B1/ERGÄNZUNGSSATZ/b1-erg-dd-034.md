@@ -10,6 +10,8 @@ words:
   - mehr
   - Zeit
   - brauchen
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

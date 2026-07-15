@@ -8,6 +8,8 @@ words:
   - war
   - ich
   - unterwegs
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

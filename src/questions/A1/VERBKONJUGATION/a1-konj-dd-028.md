@@ -7,6 +7,8 @@ words:
   - beginnt
   - um
   - acht
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präsens + Verb beginnen)

@@ -11,6 +11,8 @@ words:
   - in
   - der
   - Schule
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Dativ)

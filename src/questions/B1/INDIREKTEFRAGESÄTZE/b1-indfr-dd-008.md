@@ -10,6 +10,8 @@ words:
   - er
   - recht
   - hat
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

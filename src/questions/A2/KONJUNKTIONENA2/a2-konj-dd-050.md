@@ -10,6 +10,8 @@ words:
   - melde
   - dich
   - bitte
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)

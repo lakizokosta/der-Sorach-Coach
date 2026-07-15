@@ -8,6 +8,8 @@ words:
   - bis
   - Freitag
   - geprüft
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Passiv)

@@ -11,6 +11,8 @@ words:
   - Kosten
   - zu
   - senken
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — um Kosten senken)

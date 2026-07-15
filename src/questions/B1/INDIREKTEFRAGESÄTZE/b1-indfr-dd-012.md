@@ -9,6 +9,8 @@ words:
   - schon
   - gebucht
   - habt
+commas:
+  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

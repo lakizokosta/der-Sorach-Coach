@@ -1,8 +1,17 @@
 /** Shared helpers for A2 dropbox generation. */
 
-export function md(id, prompt, words) {
+import { resolveDropboxCommas } from '../src/utils/dropboxCommas.js';
+
+export function md(id, prompt, words, hint = '') {
   const lines = words.map((w) => `  - ${w}`).join('\n');
-  return `---\nid: ${id}\ntype: dropbox\nwords:\n${lines}\n---\n\n${prompt}\n`;
+  const resolvedCommas = resolveDropboxCommas({
+    words,
+    hint: hint || String(prompt || '').match(/\(([^)]+)\)\s*$/)?.[1] || '',
+  });
+  const commaBlock = resolvedCommas.length
+    ? `\ncommas:\n${resolvedCommas.map((c) => `  - ${c}`).join('\n')}`
+    : '';
+  return `---\nid: ${id}\ntype: dropbox\nwords:\n${lines}${commaBlock}\n---\n\n${prompt}\n`;
 }
 
 export function assertUnique(words, label) {

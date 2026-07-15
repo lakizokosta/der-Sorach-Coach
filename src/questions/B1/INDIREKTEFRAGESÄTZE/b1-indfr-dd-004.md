@@ -10,6 +10,8 @@ words:
   - neue
   - Regelung
   - bedeutet
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

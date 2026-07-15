@@ -10,6 +10,8 @@ words:
   - Regelung
   - sinnvoll
   - ist
+commas:
+  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

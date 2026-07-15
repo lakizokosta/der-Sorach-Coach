@@ -8,6 +8,8 @@ words:
   - größer
   - als
   - deins
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — groß)

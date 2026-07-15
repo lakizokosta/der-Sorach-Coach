@@ -12,6 +12,8 @@ words:
   - Studierenden
   - besser
   - lernen
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — damit Studierende lernen)

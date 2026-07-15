@@ -9,6 +9,8 @@ words:
   - weil
   - es
   - stürmt
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

@@ -10,6 +10,8 @@ words:
   - blieben
   - wir
   - drinnen
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — Weil)

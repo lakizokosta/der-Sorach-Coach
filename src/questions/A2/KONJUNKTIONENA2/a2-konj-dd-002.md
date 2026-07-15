@@ -10,6 +10,8 @@ words:
   - zur
   - Arbeit
   - kommt
+commas:
+  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)

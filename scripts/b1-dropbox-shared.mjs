@@ -1,14 +1,21 @@
 /** Shared helpers for B1 dropbox generation. */
 
-export function md(id, prompt, words, alternatives, commas) {
+import { resolveDropboxCommas } from '../src/utils/dropboxCommas.js';
+
+export function md(id, prompt, words, alternatives, commas, hint = '') {
   const lines = words.map((w) => `  - ${w}`).join('\n');
   let altBlock = '';
   if (Array.isArray(alternatives) && alternatives.length) {
     altBlock = `\nalternatives:\n${alternatives.map((a) => `  - ${a}`).join('\n')}`;
   }
+  const resolvedCommas = resolveDropboxCommas({
+    words,
+    commas,
+    hint: hint || String(prompt || '').match(/\(([^)]+)\)\s*$/)?.[1] || '',
+  });
   let commaBlock = '';
-  if (Array.isArray(commas) && commas.length) {
-    commaBlock = `\ncommas:\n${commas.map((c) => `  - ${c}`).join('\n')}`;
+  if (resolvedCommas.length) {
+    commaBlock = `\ncommas:\n${resolvedCommas.map((c) => `  - ${c}`).join('\n')}`;
   }
   return `---\nid: ${id}\ntype: dropbox\nwords:\n${lines}${commaBlock}${altBlock}\n---\n\n${prompt}\n`;
 }

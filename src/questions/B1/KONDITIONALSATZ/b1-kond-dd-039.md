@@ -9,6 +9,8 @@ words:
   - bleib
   - zu
   - Hause
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

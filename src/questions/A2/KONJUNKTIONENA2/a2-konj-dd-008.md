@@ -9,6 +9,8 @@ words:
   - ruf
   - mich
   - an
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)

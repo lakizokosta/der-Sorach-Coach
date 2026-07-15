@@ -11,6 +11,8 @@ words:
   - arbeiten
   - zu
   - können
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — um arbeiten zu können)

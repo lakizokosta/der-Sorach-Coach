@@ -7,6 +7,8 @@ words:
   - er
   - wie
   - versprochen
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — wie)

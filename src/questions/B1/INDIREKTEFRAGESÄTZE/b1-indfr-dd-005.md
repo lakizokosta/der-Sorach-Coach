@@ -9,6 +9,8 @@ words:
   - der
   - Kurs
   - beginnt
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

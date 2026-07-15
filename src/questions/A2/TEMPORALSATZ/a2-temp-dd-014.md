@@ -11,6 +11,8 @@ words:
   - es
   - zu
   - Hause
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

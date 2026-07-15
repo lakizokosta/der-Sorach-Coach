@@ -10,6 +10,8 @@ words:
   - reagieren
   - viele
   - Bürger
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — da)

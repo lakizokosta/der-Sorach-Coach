@@ -10,6 +10,8 @@ words:
   - Medikament
   - verfügbar
   - ist
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

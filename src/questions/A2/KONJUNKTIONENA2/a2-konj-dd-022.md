@@ -10,6 +10,8 @@ words:
   - Zug
   - pünktlich
   - ist
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — ob)

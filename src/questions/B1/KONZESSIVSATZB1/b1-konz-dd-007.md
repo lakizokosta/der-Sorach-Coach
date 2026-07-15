@@ -11,6 +11,8 @@ words:
   - kommt
   - er
   - pünktlich
+commas:
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

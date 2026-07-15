@@ -9,6 +9,8 @@ words:
   - als
   - der
   - Film
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — lang)

@@ -9,6 +9,8 @@ words:
   - 18
   - Uhr
   - geöffnet
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präpositionen)

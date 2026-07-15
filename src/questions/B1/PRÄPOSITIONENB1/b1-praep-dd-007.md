@@ -8,6 +8,8 @@ words:
   - um
   - halb
   - neun
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präpositionen)

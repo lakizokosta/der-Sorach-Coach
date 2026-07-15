@@ -9,6 +9,8 @@ words:
   - es
   - kalt
   - ist
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

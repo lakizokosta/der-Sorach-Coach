@@ -10,6 +10,8 @@ words:
   - mich
   - auf
   - Urlaub
+commas:
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitiv)

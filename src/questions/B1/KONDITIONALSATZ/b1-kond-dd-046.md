@@ -10,6 +10,8 @@ words:
   - treffen
   - wir
   - uns
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

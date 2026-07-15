@@ -15,6 +15,7 @@
 import { computed, ref, onMounted } from 'vue';
 import { shuffle } from '@/utils/random.js';
 import { stripTrailingPromptHint } from '@/utils/markdownQuestion.js';
+import { resolveDropboxCommas } from '@/utils/dropboxCommas.js';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -36,10 +37,11 @@ const showSolution = ref(false);
 const message = ref({ html: '', color: '' });
 
 const commaAfter = computed(() =>
-  [...(props.question.commas || [])]
-    .map((n) => Number(n))
-    .filter((n) => Number.isInteger(n) && n >= 0)
-    .sort((a, b) => a - b),
+  resolveDropboxCommas({
+    words: correct,
+    commas: props.question.commas,
+    hint: props.question.hint || stripTrailingPromptHint(props.question.prompt || ''),
+  }),
 );
 
 // A trailing punctuation mark is trivially obvious — pre-place it as a fixed

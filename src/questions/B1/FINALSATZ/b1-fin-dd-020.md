@@ -10,6 +10,8 @@ words:
   - Schmerzen
   - zu
   - lindern
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — um Schmerzen lindern)

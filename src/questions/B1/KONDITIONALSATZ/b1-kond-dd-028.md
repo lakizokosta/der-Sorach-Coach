@@ -10,6 +10,9 @@ words:
   - rufe
   - ich
   - an
+commas:
+  - 2
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

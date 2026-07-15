@@ -10,6 +10,8 @@ words:
   - einen
   - Schirm
   - mit
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

@@ -11,6 +11,8 @@ words:
   - die
   - Patienten
   - genesen
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — damit Patienten genesen)

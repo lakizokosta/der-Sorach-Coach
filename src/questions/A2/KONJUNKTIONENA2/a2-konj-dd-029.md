@@ -9,6 +9,8 @@ words:
   - ihr
   - Zeit
   - habt
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — wenn)

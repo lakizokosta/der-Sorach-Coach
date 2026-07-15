@@ -7,6 +7,8 @@ words:
   - schneller
   - als
   - ich
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — schnell)

@@ -8,6 +8,8 @@ words:
   - die
   - Preise
   - steigen
+commas:
+  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)
