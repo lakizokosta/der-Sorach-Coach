@@ -8247,6 +8247,11 @@
     "en": "guest",
     "gender": "m"
   },
+  "folgen": {
+    "pos": "verb",
+    "ru": "следовать",
+    "en": "to follow"
+  },
   "haben": {
     "pos": "verb",
     "ru": "иметь",
@@ -8256,11 +8261,6 @@
     "pos": "verb",
     "ru": "быть",
     "en": "to be"
-  },
-  "folgen": {
-    "pos": "verb",
-    "ru": "следовать",
-    "en": "to follow"
   },
   "gut": {
     "pos": "adj",

@@ -1687,9 +1687,9 @@ lemma,pos,freq,ru,en,status
 "namen",noun,0,"названия","names",done
 "sich freuen",verb,0,"радоваться","to look forward / be glad",done
 "gast",noun,0,"гость","guest",done
+"folgen",verb,0,"следовать","to follow",done
 "haben",verb,0,"иметь","to have",done
 "sein",verb,0,"быть","to be",done
-"folgen",verb,0,"следовать","to follow",done
 "gut",adj,0,"хороший","good",done
 "problem",noun,0,"проблема","problem",done
 "tag",noun,0,"день","day",done
