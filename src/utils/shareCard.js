@@ -327,18 +327,19 @@ function drawStreakWeek(ctx, cx, y, days, scale) {
 function drawPlacementBreakdown(ctx, cx, y, level, breakdown, isStory) {
   let rowY = y;
   const fontSize = isStory ? 24 : 20;
+  const lineH = isStory ? 36 : 30;
   for (const row of breakdown) {
     const highlight = row.level === level;
     ctx.fillStyle = highlight ? ACCENT : TEXT_MUTED;
     setFont(ctx, highlight ? 'bold' : 'normal', fontSize);
     ctx.textAlign = 'center';
-    ctx.textBaseline = 'alphabetic';
+    ctx.textBaseline = 'top';
     ctx.fillText(
       `${row.level}: ${row.correct}/${row.total} (${row.pct}%)`,
       px(cx),
       px(rowY),
     );
-    rowY += isStory ? 36 : 28;
+    rowY += lineH;
   }
   return rowY;
 }
@@ -466,7 +467,7 @@ function renderShareCard(data, ctx, w, h) {
   const ringLine = isStory ? 20 : 12;
   const ringOuter = ringR + (isStory ? 34 : 28);
   const ringZoneH = ringOuter * 2 + (isStory ? 20 : 12);
-  const placementH = hasPlacement ? (isStory ? 176 : 136) : 0;
+  const placementH = hasPlacement ? (isStory ? 220 : 185) : 0;
   const sectionHeights = isStory
     ? { header: 40, nickname: 78, ring: ringZoneH, stats: 136, placement: placementH, week: 130, badges: 88, summary: 120 }
     : { header: 32, nickname: 58, ring: ringZoneH, stats: 96, placement: placementH, week: 98, badges: 62, summary: 88 };
@@ -553,20 +554,43 @@ function renderShareCard(data, ctx, w, h) {
   y += sectionHeights.stats + gap;
 
   if (hasPlacement) {
+    const titleSize = isStory ? 22 : 19;
+    const rowLineH = isStory ? 36 : 30;
+    const titleGap = isStory ? 16 : 14;
+    const blockPadY = isStory ? 18 : 14;
+    const blockH = blockPadY * 2 + titleSize + titleGap
+      + placementBreakdown.length * rowLineH;
+    const blockW = innerW - (isStory ? 120 : 96);
+    const blockX = cx - blockW / 2;
+    const blockTop = y;
+
+    ctx.fillStyle = 'rgba(255,255,255,0.1)';
+    roundRect(ctx, blockX, blockTop, blockW, blockH, isStory ? 24 : 20);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.18)';
+    ctx.lineWidth = 2;
+    roundRect(ctx, blockX, blockTop, blockW, blockH, isStory ? 24 : 20);
+    ctx.stroke();
+
     ctx.fillStyle = TEXT_SOFT;
-    setFont(ctx, 'bold', isStory ? 22 : 19);
+    setFont(ctx, 'bold', titleSize);
     ctx.textAlign = 'center';
-    ctx.textBaseline = 'alphabetic';
-    ctx.fillText(`Einstufungtest · ${cefrLevel}`, px(cx), px(y + 16));
-    y = drawPlacementBreakdown(
+    ctx.textBaseline = 'top';
+    ctx.fillText(
+      `Einstufungtest · ${cefrLevel}`,
+      px(cx),
+      px(blockTop + blockPadY),
+    );
+
+    drawPlacementBreakdown(
       ctx,
       cx,
-      y + (isStory ? 28 : 22),
+      blockTop + blockPadY + titleSize + titleGap,
       cefrLevel,
       placementBreakdown,
       isStory,
     );
-    y += gap;
+    y = blockTop + blockH + gap;
   }
 
   ctx.fillStyle = TEXT_SOFT;
