@@ -304,6 +304,8 @@ function drawStreakWeek(ctx, cx, y, days, scale) {
 
     x += cell + gap;
   }
+
+  return y + cell + Math.round(30 * scale);
 }
 
 /**
@@ -342,6 +344,155 @@ function drawPlacementBreakdown(ctx, cx, y, level, breakdown, isStory) {
     rowY += lineH;
   }
   return rowY;
+}
+
+/**
+ * @param {boolean} isStory
+ * @param {boolean} hasStreak
+ * @return {{footerH:number, closingH:number, summaryH:number}}
+ */
+function measureBottomZones(isStory, hasStreak) {
+  const footerPad = isStory ? 12 : 10;
+  const footerUrlSize = isStory ? 28 : 22;
+  const footerHashSize = isStory ? 22 : 18;
+  const footerUrlGap = isStory ? 10 : 8;
+  const footerH = footerPad + footerUrlSize + footerUrlGap + footerHashSize + footerPad;
+
+  const closingPad = isStory ? 12 : 10;
+  const taglineSize = isStory ? 40 : 26;
+  const streakSize = hasStreak ? (isStory ? 22 : 17) : 0;
+  const taglineGap = hasStreak ? (isStory ? 10 : 8) : 0;
+  const closingH = closingPad + taglineSize + taglineGap + streakSize + closingPad;
+
+  const summaryPad = isStory ? 10 : 8;
+  const barH = isStory ? 32 : 18;
+  const themenSize = isStory ? 26 : 20;
+  const summaryGap = isStory ? 12 : 10;
+  const summaryH = summaryPad + barH + summaryGap + themenSize + summaryPad;
+
+  return { footerH, closingH, summaryH };
+}
+
+/**
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} cx
+ * @param {number} top
+ * @param {number} w
+ * @param {number} h
+ * @param {number} themePct
+ * @param {number} masteredCount
+ * @param {number} topicCount
+ * @param {boolean} isStory
+ */
+function drawSummaryZone(ctx, cx, top, w, h, themePct, masteredCount, topicCount, isStory) {
+  const padX = isStory ? 48 : 40;
+  const blockX = cx - w / 2;
+  const barH = isStory ? 32 : 18;
+  const themenSize = isStory ? 26 : 20;
+  const innerPad = isStory ? 10 : 8;
+  const barW = w - padX * 2;
+
+  ctx.fillStyle = 'rgba(255,255,255,0.08)';
+  roundRect(ctx, blockX, top, w, h, isStory ? 20 : 16);
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(255,255,255,0.14)';
+  ctx.lineWidth = 2;
+  roundRect(ctx, blockX, top, w, h, isStory ? 20 : 16);
+  ctx.stroke();
+
+  let y = top + innerPad;
+  ctx.fillStyle = 'rgba(255,255,255,0.15)';
+  roundRect(ctx, blockX + padX, y, barW, barH, barH / 2);
+  ctx.fill();
+  if (themePct > 0) {
+    const mg = ctx.createLinearGradient(blockX + padX, 0, blockX + padX + barW, 0);
+    mg.addColorStop(0, '#e6b800');
+    mg.addColorStop(1, '#fff176');
+    ctx.fillStyle = mg;
+    roundRect(
+      ctx,
+      blockX + padX,
+      y,
+      Math.max(barW * themePct, 24),
+      barH,
+      barH / 2,
+    );
+    ctx.fill();
+  }
+  y += barH + (isStory ? 12 : 10);
+
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', themenSize);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'top';
+  ctx.fillText(
+    `${masteredCount} von ${topicCount} Themen gemeistert`,
+    px(cx),
+    px(y),
+  );
+}
+
+/**
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} cx
+ * @param {number} top
+ * @param {number} w
+ * @param {number} h
+ * @param {string} tagline
+ * @param {number} longestStreak
+ * @param {boolean} isStory
+ */
+function drawClosingZone(ctx, cx, top, w, h, tagline, longestStreak, isStory) {
+  const blockX = cx - w / 2;
+  ctx.fillStyle = 'rgba(255,255,255,0.08)';
+  roundRect(ctx, blockX, top, w, h, isStory ? 20 : 16);
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(255,255,255,0.14)';
+  ctx.lineWidth = 2;
+  roundRect(ctx, blockX, top, w, h, isStory ? 20 : 16);
+  ctx.stroke();
+
+  const taglineSize = isStory ? 40 : 26;
+  const streakSize = isStory ? 22 : 17;
+  const innerPad = isStory ? 12 : 10;
+  const taglineGap = isStory ? 10 : 8;
+  let y = top + innerPad;
+
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'top';
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', taglineSize);
+  ctx.fillText(tagline, px(cx), px(y));
+  y += taglineSize + taglineGap;
+
+  if (longestStreak > 0) {
+    ctx.fillStyle = TEXT_MUTED;
+    setFont(ctx, 'normal', streakSize);
+    ctx.fillText(`Bester Streak: ${longestStreak} Tage 🏆`, px(cx), px(y));
+  }
+}
+
+/**
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} cx
+ * @param {number} top
+ * @param {boolean} isStory
+ */
+function drawFooterZone(ctx, cx, top, isStory) {
+  const footerUrlSize = isStory ? 28 : 22;
+  const footerHashSize = isStory ? 22 : 18;
+  const footerUrlGap = isStory ? 10 : 8;
+  const innerPad = isStory ? 12 : 10;
+  let y = top + innerPad;
+
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'top';
+  ctx.fillStyle = TEXT_MUTED;
+  setFont(ctx, 'bold', footerUrlSize);
+  ctx.fillText('lernziel-deutsch.de', px(cx), px(y));
+  y += footerUrlSize + footerUrlGap;
+  setFont(ctx, 'normal', footerHashSize);
+  ctx.fillText('#DeutschLernen · #SprachCoach', px(cx), px(y));
 }
 
 function drawBadges(ctx, cx, y, badges, maxW, scale) {
@@ -462,18 +613,30 @@ function renderShareCard(data, ctx, w, h) {
     ctx.fillText(`Niveau ${cefrLevel}`, px(bx + badgeW / 2), px(by + badgeH / 2));
   }
 
-  const footerReserve = isStory ? 120 : 96;
-  const ringR = isStory ? 108 : 64;
-  const ringLine = isStory ? 20 : 12;
-  const ringOuter = ringR + (isStory ? 34 : 28);
-  const ringZoneH = ringOuter * 2 + (isStory ? 20 : 12);
-  const placementH = hasPlacement ? (isStory ? 220 : 185) : 0;
+  const bottomZones = measureBottomZones(isStory, streak.longestStreak > 0);
+  const bottomGap = isStory ? 12 : 8;
+  const cardBottom = h - pad;
+  const footerTop = cardBottom - bottomZones.footerH;
+  const closingTop = footerTop - bottomGap - bottomZones.closingH;
+  const summaryTop = closingTop - bottomGap - bottomZones.summaryH;
+  const upperMaxY = summaryTop - (isStory ? 18 : 12);
+  const bottomBlockW = innerW - (isStory ? 96 : 72);
+
+  const compact = hasPlacement && !isStory;
+  const ringR = isStory ? 108 : (compact ? 50 : 64);
+  const ringLine = isStory ? 20 : (compact ? 10 : 12);
+  const ringOuter = ringR + (isStory ? 34 : (compact ? 22 : 28));
+  const ringZoneH = ringOuter * 2 + (isStory ? 20 : (compact ? 8 : 12));
+  const placementH = hasPlacement ? (isStory ? 220 : 181) : 0;
   const sectionHeights = isStory
-    ? { header: 40, nickname: 78, ring: ringZoneH, stats: 136, placement: placementH, week: 130, badges: 88, summary: 120 }
-    : { header: 32, nickname: 58, ring: ringZoneH, stats: 96, placement: placementH, week: 98, badges: 62, summary: 88 };
+    ? { header: 40, nickname: 78, ring: ringZoneH, stats: 136, placement: placementH, week: 108, badges: 56 }
+    : { header: 32, nickname: compact ? 50 : 58, ring: ringZoneH, stats: compact ? 88 : 96, placement: placementH, week: 92, badges: 50 };
   const sectionCount = Object.keys(sectionHeights).length;
   const contentMin = Object.values(sectionHeights).reduce((sum, n) => sum + n, 0);
-  const gap = Math.max(isStory ? 22 : 16, (innerH - footerReserve - contentMin) / (sectionCount + 1));
+  let gap = Math.max(isStory ? 18 : 12, (upperMaxY - pad - contentMin) / (sectionCount + 1));
+  if (gap < (isStory ? 14 : 8)) {
+    gap = isStory ? 14 : 8;
+  }
 
   let y = pad + gap;
 
@@ -510,7 +673,7 @@ function renderShareCard(data, ctx, w, h) {
   y += sectionHeights.ring + gap;
 
   const tileW = isStory ? 280 : Math.floor((innerW - 48 - 36) / 3);
-  const tileH = isStory ? 130 : 88;
+  const tileH = isStory ? 130 : (compact ? 80 : 88);
   const tileGap = isStory ? 24 : 18;
   const tilesStart = (w - tileW * 3 - tileGap * 2) / 2;
   const statValueSize = isStory ? 56 : 40;
@@ -596,84 +759,55 @@ function renderShareCard(data, ctx, w, h) {
   ctx.fillStyle = TEXT_SOFT;
   setFont(ctx, 'bold', isStory ? 22 : 19);
   ctx.textAlign = 'center';
-  ctx.textBaseline = 'alphabetic';
-  ctx.fillText('Letzte 7 Tage', px(cx), px(y + 16));
-  const weekTop = y + (isStory ? 24 : 18);
-  drawStreakWeek(ctx, cx, weekTop + (isStory ? 28 : 20) * scale, weekDays, scale);
-  y += sectionHeights.week + gap;
+  ctx.textBaseline = 'top';
+  ctx.fillText('Letzte 7 Tage', px(cx), px(y));
+  const weekBottom = drawStreakWeek(
+    ctx,
+    cx,
+    y + (isStory ? 28 : 22),
+    weekDays,
+    scale,
+  );
+  y = weekBottom + gap;
 
-  ctx.fillStyle = TEXT_SOFT;
-  setFont(ctx, 'bold', isStory ? 22 : 19);
-  ctx.fillText('Abzeichen', px(cx), px(y + 16));
-  const badgeLimit = isStory ? 6 : 4;
-  y = drawBadges(ctx, cx, y + (isStory ? 28 : 22), badges.slice(0, badgeLimit), innerW - 80, scale)
-    + gap;
-
-  const barX = pad + (isStory ? 68 : 48);
-  const barW = innerW - (isStory ? 136 : 96);
-  const barH = isStory ? 32 : 18;
-  ctx.fillStyle = 'rgba(255,255,255,0.15)';
-  roundRect(ctx, barX, y, barW, barH, barH / 2);
-  ctx.fill();
-  if (themePct > 0) {
-    const mg = ctx.createLinearGradient(barX, 0, barX + barW, 0);
-    mg.addColorStop(0, '#e6b800');
-    mg.addColorStop(1, '#fff176');
-    ctx.fillStyle = mg;
-    roundRect(ctx, barX, y, Math.max(barW * themePct, 24), barH, barH / 2);
-    ctx.fill();
-  }
-  y += barH + (isStory ? 24 : 14);
-
-  ctx.fillStyle = TEXT_SOFT;
-  setFont(ctx, 'bold', isStory ? 26 : 22);
-  ctx.textAlign = 'center';
-  ctx.fillText(`${masteredCount} von ${allTopics.length} Themen gemeistert`, px(cx), px(y + 18));
-  y += (isStory ? 34 : 24);
-
-  if (mastered.length) {
-    setFont(ctx, 'normal', Math.round(22 * scale));
-    let chipX = barX;
-    const chipY = y;
-    for (const name of mastered) {
-      const tw = ctx.measureText(name).width + 40;
-      if (chipX + tw > barX + barW) break;
-      ctx.fillStyle = 'rgba(255,215,0,0.22)';
-      roundRect(ctx, chipX, chipY, tw, 40, 20);
-      ctx.fill();
-      ctx.strokeStyle = 'rgba(255,215,0,0.55)';
-      ctx.lineWidth = 2;
-      roundRect(ctx, chipX, chipY, tw, 40, 20);
-      ctx.stroke();
-      ctx.fillStyle = '#fff8e1';
-      ctx.textAlign = 'left';
-      ctx.textBaseline = 'middle';
-      ctx.fillText(name, px(chipX + 20), px(chipY + 20));
-      chipX += tw + 12;
-    }
-    y += 48;
+  if (y < upperMaxY) {
+    ctx.fillStyle = TEXT_SOFT;
+    setFont(ctx, 'bold', isStory ? 22 : 19);
+    ctx.textBaseline = 'top';
+    ctx.fillText('Abzeichen', px(cx), px(y));
+    const badgeLimit = isStory ? 6 : 4;
+    y = drawBadges(
+      ctx,
+      cx,
+      y + (isStory ? 28 : 22),
+      badges.slice(0, badgeLimit),
+      innerW - 80,
+      scale,
+    ) + gap;
   }
 
-  ctx.textAlign = 'center';
-  ctx.fillStyle = TEXT;
-  setFont(ctx, 'bold', isStory ? 48 : 30);
-  ctx.fillText(tagline, px(cx), px(y + (isStory ? 28 : 20)));
-  y += (isStory ? 40 : 28);
-
-  if (streak.longestStreak > 0) {
-    ctx.fillStyle = TEXT_MUTED;
-    setFont(ctx, 'normal', isStory ? 26 : 20);
-    ctx.fillText(`Bester Streak: ${streak.longestStreak} Tage 🏆`, px(cx), px(y + 14));
-  }
-
-  const footerY = h - pad - (isStory ? 52 : 40);
-  ctx.fillStyle = TEXT_MUTED;
-  setFont(ctx, 'bold', isStory ? 30 : 26);
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'alphabetic';
-  ctx.fillText('lernziel-deutsch.de', px(cx), px(footerY));
-  setFont(ctx, 'normal', isStory ? 24 : 20);
-  ctx.fillText('#DeutschLernen · #SprachCoach', px(cx), px(footerY + (isStory ? 36 : 28)));
+  drawSummaryZone(
+    ctx,
+    cx,
+    summaryTop,
+    bottomBlockW,
+    bottomZones.summaryH,
+    themePct,
+    masteredCount,
+    allTopics.length,
+    isStory,
+  );
+  drawClosingZone(
+    ctx,
+    cx,
+    closingTop,
+    bottomBlockW,
+    bottomZones.closingH,
+    tagline,
+    streak.longestStreak,
+    isStory,
+  );
+  drawFooterZone(ctx, cx, footerTop, isStory);
 }
 
 /**
