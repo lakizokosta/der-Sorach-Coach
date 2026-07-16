@@ -3,20 +3,23 @@
  *
  * Behaviour mirrors a spaced-recall flashcard pile:
  *
- *   1. The pile is shuffled once at construction.
- *   2. `peek()` returns the next question without consuming it.
- *   3. `consumeCorrect()` removes the head card. The question is
+ *   1. Identical questions within the same task type are collapsed to one
+ *      random survivor (by content, not id).
+ *   2. The pile is shuffled once at construction.
+ *   3. `peek()` returns the next question without consuming it.
+ *   4. `consumeCorrect()` removes the head card. The question is
  *      considered solved.
- *   4. `consumeWrong()` removes the head card and re-inserts it
+ *   5. `consumeWrong()` removes the head card and re-inserts it
  *      `2–5` positions deeper in the pile so the user has to revisit
  *      it before the session ends.
- *   5. After `MAX_ATTEMPTS` wrong attempts a question is dropped to
+ *   6. After `MAX_ATTEMPTS` wrong attempts a question is dropped to
  *      avoid an infinite loop on a question the user can't solve.
  *
  * Progress is reported against the original unique-question count
  * (`total`) — re-queued items do not inflate the displayed total.
  */
 
+import { dedupeIdenticalQuestions } from '@/utils/dedupeQuestions.js';
 import { shuffle } from '@/utils/random.js';
 
 const MAX_ATTEMPTS = 3;
@@ -33,7 +36,9 @@ export class AdaptiveQueue {
    * @param {{ shuffle?: boolean }} [options]
    */
   constructor(questions, options = {}) {
-    const initial = Array.isArray(questions) ? questions.slice() : [];
+    const initial = dedupeIdenticalQuestions(
+      Array.isArray(questions) ? questions : [],
+    );
     const doShuffle = options.shuffle !== false;
     this._queue = doShuffle ? shuffle(initial) : initial.slice();
     this._original = initial.slice();
