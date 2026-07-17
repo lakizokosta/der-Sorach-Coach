@@ -4,7 +4,7 @@
  *
  * Reads `level` and (optionally) `topic` + `mode` from the route query
  * and drives the user through a varied queue of questions. Tracks live
- * score, drives the timer (7 min cap in free mode, count-up otherwise)
+ * score, drives the timer (10 min cap in free mode, count-up otherwise)
  * and renders a final result screen with mastery + topic feedback.
  *
  * Route examples:

@@ -1,4 +1,6 @@
 /** Russian UI strings. */
+import { FREE_MINUTES_PER_DAY } from '@/composables/useFreeDailyLimit.js';
+
 export default {
   common: {
     homepage: 'Главная',
@@ -37,7 +39,7 @@ export default {
   },
   landing: {
     title: 'Der SprachCoach',
-    subtitle: 'Немецкий как у профи — достаточно 7 минут в день.',
+    subtitle: `Немецкий как у профи — достаточно ${FREE_MINUTES_PER_DAY} минут в день.`,
     slogan: 'Твой тренер на все случаи',
     freeStart: 'Начни бесплатно · Регистрация не нужна',
     levelA1: 'Начинающий',
@@ -56,7 +58,7 @@ export default {
     sectionNew: 'Впервые здесь?',
     startA1Btn: '▶ Начать с A1 — бесплатно',
     levelPickTitle: 'Выбери свой уровень',
-    startA1Hint: '7 минут в день · вход не нужен',
+    startA1Hint: `${FREE_MINUTES_PER_DAY} минут в день · вход не нужен`,
     moreBtn: 'Ещё: тарифы',
     moreBack: '← Назад к старту',
     otherLevels: 'Другой уровень',
@@ -78,7 +80,7 @@ export default {
       grammarTips: 'Грамматика',
       streakFreeze: 'Streak Freeze',
       dictionary: 'Словарь',
-      freeLimit: '7 мин',
+      freeLimit: `${FREE_MINUTES_PER_DAY} мин`,
     },
     sectionLogin: 'Уже занимался или купил Premium?',
     sectionLoginHint: 'Без пароля — только e-mail, как при покупке.',
@@ -281,7 +283,7 @@ export default {
     finishEarly: 'Вопросы закончились',
     freeTimeExpiredTitle: '⏱️ Бесплатные минуты закончились',
     freeTimeExpiredMessage:
-      'Твои бесплатные 7 минут на сегодня истекли — приходи завтра!',
+      `Твои бесплатные ${FREE_MINUTES_PER_DAY} минут на сегодня истекли — приходи завтра!`,
     sessionEnded: 'Сессия завершена',
     infinitiveHint: 'Инфинитив: {verb}',
     fillBlankDefault: 'Заполните пропуск:',

@@ -1,4 +1,6 @@
 /** German UI strings (default). */
+import { FREE_MINUTES_PER_DAY } from '@/composables/useFreeDailyLimit.js';
+
 export default {
   common: {
     homepage: 'Startseite',
@@ -37,7 +39,7 @@ export default {
   },
   landing: {
     title: 'Der SprachCoach',
-    subtitle: 'Deutsch sprechen wie ein Profi — 7 Minuten täglich reichen.',
+    subtitle: `Deutsch sprechen wie ein Profi — ${FREE_MINUTES_PER_DAY} Minuten täglich reichen.`,
     slogan: 'Dein Trainer für alle Fälle',
     freeStart: 'Kostenlos starten · keine Registrierung nötig',
     levelA1: 'Anfänger',
@@ -56,7 +58,7 @@ export default {
     sectionNew: 'Neu hier?',
     startA1Btn: '▶ A1 starten — gratis',
     levelPickTitle: 'Wähle dein Niveau',
-    startA1Hint: '7 Minuten pro Tag · kein Login nötig',
+    startA1Hint: `${FREE_MINUTES_PER_DAY} Minuten pro Tag · kein Login nötig`,
     moreBtn: 'Mehr: Tarife',
     moreBack: '← Zurück zum Start',
     otherLevels: 'Anderes Niveau wählen',
@@ -78,7 +80,7 @@ export default {
       grammarTips: 'Grammatik-Tipps',
       streakFreeze: 'Streak Freeze',
       dictionary: 'Wort-Wörterbuch',
-      freeLimit: '7 Min',
+      freeLimit: `${FREE_MINUTES_PER_DAY} Min`,
     },
     sectionLogin: 'Schon geübt oder Premium gekauft?',
     sectionLoginHint: 'Kein Passwort — nur deine E-Mail wie beim Kauf.',
@@ -284,7 +286,7 @@ export default {
     finishEarly: 'Fragen zu Ende',
     freeTimeExpiredTitle: '⏱️ Gratis-Minuten aufgebraucht',
     freeTimeExpiredMessage:
-      'Deine 7 Gratis-Minuten für heute sind verbraucht — komm morgen wieder!',
+      `Deine ${FREE_MINUTES_PER_DAY} Gratis-Minuten für heute sind verbraucht — komm morgen wieder!`,
     sessionEnded: 'Session beendet',
     infinitiveHint: 'Infinitiv: {verb}',
     fillBlankDefault: 'Fülle die Lücke aus:',

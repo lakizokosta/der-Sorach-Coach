@@ -1,4 +1,6 @@
 /** English UI strings. */
+import { FREE_MINUTES_PER_DAY } from '@/composables/useFreeDailyLimit.js';
+
 export default {
   common: {
     homepage: 'Home',
@@ -37,7 +39,7 @@ export default {
   },
   landing: {
     title: 'Der SprachCoach',
-    subtitle: 'Speak German like a pro — 7 minutes a day is enough.',
+    subtitle: `Speak German like a pro — ${FREE_MINUTES_PER_DAY} minutes a day is enough.`,
     slogan: 'Your trainer for every situation',
     freeStart: 'Start free · No sign-up required',
     levelA1: 'Beginner',
@@ -56,7 +58,7 @@ export default {
     sectionNew: 'New here?',
     startA1Btn: '▶ Start A1 — free',
     levelPickTitle: 'Choose your level',
-    startA1Hint: '7 minutes a day · no login needed',
+    startA1Hint: `${FREE_MINUTES_PER_DAY} minutes a day · no login needed`,
     moreBtn: 'More: plans',
     moreBack: '← Back to start',
     otherLevels: 'Choose another level',
@@ -78,7 +80,7 @@ export default {
       grammarTips: 'Grammar tips',
       streakFreeze: 'Streak freeze',
       dictionary: 'Word dictionary',
-      freeLimit: '7 min',
+      freeLimit: `${FREE_MINUTES_PER_DAY} min`,
     },
     sectionLogin: 'Already practising or bought Premium?',
     sectionLoginHint: 'No password — just the email you used to pay.',
@@ -281,7 +283,7 @@ export default {
     finishEarly: 'Out of questions',
     freeTimeExpiredTitle: '⏱️ Free minutes used up',
     freeTimeExpiredMessage:
-      'Your 7 free minutes for today are used up — come back tomorrow!',
+      `Your ${FREE_MINUTES_PER_DAY} free minutes for today are used up — come back tomorrow!`,
     sessionEnded: 'Session ended',
     infinitiveHint: 'Infinitive: {verb}',
     fillBlankDefault: 'Fill in the blank:',
