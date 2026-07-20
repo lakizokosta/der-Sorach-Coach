@@ -2,11 +2,11 @@
 id: a2-refl-006
 type: select-one
 options:
-  - kannst
-  - musst
-  - willst
-  - darfst
-correct: musst
+  - zieht
+  - ziehst
+  - wäschst
+  - waschen
+correct: ziehst
 ---
 
-Du ___ dich anziehen. (Modalverb + Verb anziehen)
+Es ist kalt — du ___ dich warm an. (Reflexiv + Verb anziehen)

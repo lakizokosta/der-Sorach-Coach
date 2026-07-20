@@ -2,11 +2,11 @@
 id: a2-refl-039
 type: select-one
 options:
-  - ist
-  - habe
-  - sind
-  - bin
-correct: habe
+  - kümmern
+  - kümmert
+  - gekümmert
+  - kümmere
+correct: kümmert
 ---
 
-Ich ___ mich erkältet. (Reflexiv + Verb erkälten)
+Er ___ sich um die Hausaufgaben. (Reflexiv + Verb kümmern)

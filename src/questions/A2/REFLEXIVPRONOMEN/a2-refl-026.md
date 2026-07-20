@@ -2,11 +2,11 @@
 id: a2-refl-026
 type: select-one
 options:
-  - kannst
-  - darfst
-  - sollst
-  - willst
-correct: sollst
+  - ruht
+  - ruhst
+  - ruhe
+  - ausgeruht
+correct: ruhe
 ---
 
-Du ___ dich ausruhen. (Modalverb + Verb ausruhen)
+Nach der Arbeit ___ ich mich aus. (Reflexiv + Verb ruhen)

@@ -158,16 +158,16 @@ export function genReflexiv() {
     ['Wir ___ uns um 8 Uhr.', 'treffen', ['trifft', 'traf', 'getroffen', 'triffst']],
     ['Sie ___ sich schnell.', 'beeilt', ['beeile', 'beeilen', 'beeilst', 'beeilt']],
     ['Ich ___ mich für Sport.', 'interessiere', ['interessiert', 'interessieren', 'interessierst', 'interessierte']],
-    ['Du ___ dich anziehen.', 'musst', ['kannst', 'sollst', 'darfst', 'willst']],
+    ['Es ist kalt — du ___ dich warm an.', 'ziehst', ['zieht', 'ziehe', 'waschen', 'wäschst']],
     ['Er ___ sich die Hände.', 'wäscht', ['wasche', 'waschen', 'gewaschen', 'wäschst']],
-    ['Wir ___ uns freuen.', 'können', ['müssen', 'sollen', 'dürfen', 'wollen']],
-    ['Ich ___ mich erkältet.', 'habe', ['bin', 'ist', 'hat', 'sind']],
+    ['Wir ___ uns auf das Konzert.', 'freuen', ['freut', 'freue', 'freust', 'gefreut']],
+    ['Er ___ sich um die Hausaufgaben.', 'kümmert', ['kümmere', 'kümmern', 'kümmerst', 'gekümmert']],
     ['Sie ___ sich im Spiegel.', 'sieht', ['sehe', 'sehen', 'gesehen', 'siehst']],
-    ['Du ___ dich ausruhen.', 'sollst', ['kannst', 'musst', 'darfst', 'willst']],
+    ['Nach der Arbeit ___ ich mich aus.', 'ruhe', ['ruht', 'ruhen', 'ruhst', 'ausgeruht']],
     ['Ich ___ mich auf den Urlaub.', 'freue', ['freut', 'freuen', 'gefreut', 'freust']],
     ['Er ___ sich den Rücken.', 'verletzt', ['verletze', 'verletzen', 'verletzest', 'verletzt']],
     ['Wir ___ uns jeden Tag.', 'sehen', ['sieht', 'sah', 'gesehen', 'siehst']],
-    ['Ich ___ mich nicht gut.', 'fühle', ['fühlt', 'fühlen', 'gefühlt', 'fühlst']],
+    ['Sie ___ sich für das Fest.', 'bereitet', ['bereite', 'bereiten', 'bereitest', 'vorbereitet']],
   ];
   return ensure50(() => {
     const out = [];
