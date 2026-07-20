@@ -26,6 +26,8 @@ export default {
     copyright: '© 2026 Lernziel Deutsch | Der SprachCoach',
     sending: 'Wird gesendet…',
     checkingAccess: 'Zugriff wird geprüft…',
+    backendDegraded:
+      'Server vorübergehend nicht erreichbar — dein Zugang bleibt vorerst aktiv.',
     activate: 'Aktivieren',
     signOut: 'Abmelden',
     emailPlaceholder: 'deine@email.de',

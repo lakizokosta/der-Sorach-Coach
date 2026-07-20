@@ -22,6 +22,7 @@ const paymentJs = readFileSync(join(__dirname, '../src/data/payment.js'), 'utf8'
 const defaultUrl = paymentJs.match(/export const SCRIPT_URL\s*=\s*'([^']+)'/)?.[1] || '';
 
 const SCRIPT_URL = process.env.SCRIPT_URL || defaultUrl;
+const WORKER_URL = (process.env.WORKER_URL || 'https://lernziel-deutsch.de').replace(/\/$/, '');
 const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || '';
 const withWebhook = process.argv.includes('--webhook');
 
@@ -73,7 +74,34 @@ async function postJson(body) {
   }
 }
 
-console.log(`\nP0 Backend smoke test\nSCRIPT_URL: ${SCRIPT_URL}\n`);
+console.log(`\nP0 Backend smoke test\nSCRIPT_URL: ${SCRIPT_URL}\nWORKER_URL: ${WORKER_URL}\n`);
+
+// 0. Worker health (GAS ping via Cloudflare)
+try {
+  const healthRes = await fetch(`${WORKER_URL}/api/health`, { redirect: 'follow' });
+  const raw = await healthRes.text();
+  let health = null;
+  try {
+    health = raw ? JSON.parse(raw) : null;
+  } catch {
+    health = null;
+  }
+  if (!health) {
+    warn(
+      'Worker /api/health',
+      'endpoint not live yet — deploy Worker after merging (got HTML, not JSON)',
+    );
+  } else if (healthRes.ok && health.ok && health.gas?.reachable) {
+    pass('Worker /api/health', `${health.latencyMs || '?'}ms`);
+  } else {
+    fail(
+      'Worker /api/health',
+      health.error || health.gas?.error || JSON.stringify(health),
+    );
+  }
+} catch (err) {
+  fail('Worker /api/health', err?.message || String(err));
+}
 
 // 1. GET validateCode — German error = new Code.gs from repo
 const validate = await getJson({ action: 'validateCode', code: 'P0-SMOKE-TEST' });

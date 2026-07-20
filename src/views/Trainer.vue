@@ -352,6 +352,8 @@ function stopEntitlementPolling() {
 /** Ends the session when server revokes paid access mid-training. */
 async function runEntitlementCheck() {
   const verified = await verifyEntitlementsLive();
+  if (verified.degraded) return;
+
   const needsPremium = trainerRequiresPremium(route.query);
   const needsPaid = needsPremium || isPremium.value || isBasis.value;
 

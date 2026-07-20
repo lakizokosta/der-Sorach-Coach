@@ -4,7 +4,8 @@
  * With a configured backend, `isPremium` / `isBasis` are true only after
  * a successful server round-trip in `bootstrapEntitlements()`. Activation
  * codes in localStorage are identifiers for re-validation — not proof
- * of access. Fail-closed: any server error clears forged local state.
+ * of access. Transient GAS outages use a cached grace snapshot instead of
+ * stripping paid access immediately.
  *
  * Demo mode (`SCRIPT_URL` empty, dev only) falls back to local prefix activation.
  * Stripped from production builds via `import.meta.env.DEV`.
@@ -17,6 +18,12 @@ import {
   refreshMagicSession,
   hasBackend,
 } from '@/utils/api.js';
+import {
+  clearGraceSnapshot,
+  isTransientBackendError,
+  readGraceSnapshot,
+  writeGraceSnapshot,
+} from '@/utils/backendGrace.js';
 import { isPlausibleTrainingJwt } from '@/utils/trainingJwt.js';
 import { useAuth } from './useAuth.js';
 
@@ -52,6 +59,44 @@ const entitlements = reactive({
   isBasis: false,
   premiumExpires: '',
 });
+
+/** True when the server could not be reached but grace keeps access active. */
+export const backendDegraded = reactive({
+  active: false,
+  message: '',
+});
+
+function persistEntitlementGrace() {
+  if (!entitlements.isPremium && !entitlements.isBasis) {
+    clearGraceSnapshot();
+    return;
+  }
+  writeGraceSnapshot({
+    savedAt: Date.now(),
+    isPremium: entitlements.isPremium,
+    isBasis: entitlements.isBasis,
+    premiumExpires: entitlements.premiumExpires,
+    premiumCode: state.premiumCode,
+    basisCode: state.basisCode,
+  });
+  backendDegraded.active = false;
+  backendDegraded.message = '';
+}
+
+/**
+ * @param {import('@/utils/backendGrace.js').GraceSnapshot} grace
+ */
+function applyGraceSnapshot(grace) {
+  entitlements.isPremium = !!grace.isPremium;
+  entitlements.isBasis = !!grace.isBasis;
+  entitlements.premiumExpires = grace.premiumExpires || '';
+  if (grace.premiumCode) state.premiumCode = grace.premiumCode;
+  if (grace.basisCode) state.basisCode = grace.basisCode;
+  persist();
+  backendDegraded.active = true;
+  backendDegraded.message =
+    'Server vorübergehend nicht erreichbar — dein Zugang bleibt vorerst aktiv.';
+}
 
 /** Persist activation codes only. */
 function persist() {
@@ -152,6 +197,7 @@ export function applyMagicSessionEntitlements(res) {
   applyEntitlementsFromServer(res);
   if (res.trainingJwt) storeTrainingJwtFromServer(res.trainingJwt);
   persistCodesFromMagicSession(res);
+  persistEntitlementGrace();
 }
 
 /**
@@ -303,6 +349,7 @@ export async function activateCode(rawCode, email = '') {
 
   applyEntitlementsFromCode(res, code);
   entitlements.ready = true;
+  persistEntitlementGrace();
 
   return {
     ok: true,
@@ -314,11 +361,14 @@ export async function activateCode(rawCode, email = '') {
 
 /**
  * Shared server round-trip for bootstrap and live session checks.
- * Fail-closed: invalid codes or sessions clear local activation state.
+ * Definitive invalid codes/sessions clear local state; transient outages
+ * fall back to the last grace snapshot.
  *
- * @return {Promise<{ok:boolean}>}
+ * @return {Promise<{ok:boolean, degraded?:boolean}>}
  */
 async function refreshEntitlementsFromServer() {
+  backendDegraded.active = false;
+  backendDegraded.message = '';
   clearEntitlements();
 
   if (!hasBackend()) {
@@ -330,6 +380,8 @@ async function refreshEntitlementsFromServer() {
 
   const { state: auth, logout, setSession } = useAuth();
   let magicVerified = false;
+  let codeVerified = false;
+  let transientFailure = false;
 
   if (auth.email && auth.sessionToken && auth.sessionExpires) {
     if (new Date().toISOString() >= auth.sessionExpires) {
@@ -349,6 +401,8 @@ async function refreshEntitlementsFromServer() {
         persistCodesFromMagicSession(magicRes);
         if (magicRes.trainingJwt) storeTrainingJwtFromServer(magicRes.trainingJwt);
         magicVerified = true;
+      } else if (isTransientBackendError(magicRes)) {
+        transientFailure = true;
       } else {
         logout();
       }
@@ -364,30 +418,43 @@ async function refreshEntitlementsFromServer() {
         state.basisCode = '';
         persist();
         clearSessionToken();
-        if (!magicVerified) clearEntitlements();
-        return { ok: false };
-      }
-      if (!requirePremiumTrainingJwt(codeRes, code)) {
+      } else if (!requirePremiumTrainingJwt(codeRes, code)) {
         state.premiumCode = '';
         state.basisCode = '';
         persist();
         clearSessionToken();
-        if (!magicVerified) clearEntitlements();
-        return { ok: false };
+      } else {
+        applyEntitlementsFromCode(codeRes, code);
+        if (codeRes.trainingJwt) storeTrainingJwtFromServer(codeRes.trainingJwt);
+        if (codeRes.sessionToken && codeRes.sessionExpires) {
+          writeSessionToken(codeRes.sessionToken, codeRes.sessionExpires);
+        }
+        codeVerified = true;
       }
-      applyEntitlementsFromCode(codeRes, code);
-      if (codeRes.trainingJwt) storeTrainingJwtFromServer(codeRes.trainingJwt);
-      if (codeRes.sessionToken && codeRes.sessionExpires) {
-        writeSessionToken(codeRes.sessionToken, codeRes.sessionExpires);
-      }
+    } else if (isTransientBackendError(codeRes)) {
+      transientFailure = true;
     } else {
       state.premiumCode = '';
       state.basisCode = '';
       persist();
       clearSessionToken();
-      if (!magicVerified) clearEntitlements();
     }
-  } else if (!magicVerified) {
+  }
+
+  if (magicVerified || codeVerified) {
+    persistEntitlementGrace();
+    return { ok: true };
+  }
+
+  if (transientFailure) {
+    const grace = readGraceSnapshot();
+    if (grace && (grace.isPremium || grace.isBasis)) {
+      applyGraceSnapshot(grace);
+      return { ok: true, degraded: true };
+    }
+  }
+
+  if (!magicVerified && !codeVerified) {
     clearEntitlements();
   }
 
@@ -396,8 +463,8 @@ async function refreshEntitlementsFromServer() {
 
 /**
  * Re-validates entitlements on every app load. Always hits the server when
- * credentials or activation codes exist; never trusts cached session tokens
- * alone. Fail-closed on any error response or network failure.
+ * credentials or activation codes exist. Transient outages restore the last
+ * grace snapshot instead of stripping paid access.
  *
  * @return {Promise<void>}
  */
@@ -419,6 +486,7 @@ export async function verifyEntitlementsLive() {
     ok: result.ok,
     isPremium: entitlements.isPremium,
     isBasis: entitlements.isBasis,
+    degraded: !!result.degraded || backendDegraded.active,
   };
 }
 
@@ -494,6 +562,7 @@ export function usePremium() {
     isPremium,
     isBasis,
     entitlementsReady,
+    backendDegraded,
     activateCode,
     clearPremium,
     clearBasis,

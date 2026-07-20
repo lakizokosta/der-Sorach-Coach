@@ -14,6 +14,7 @@
 import { SCRIPT_URL } from '@/data/payment.js';
 import { getDeviceId } from '@/utils/deviceId.js';
 import { isPlausibleTrainingJwt } from '@/utils/trainingJwt.js';
+import { isTransientBackendError } from '@/utils/backendGrace.js';
 
 /** Captured in index.html before app bundle — not replaced by casual console fetch hooks. */
 const httpFetch = typeof window !== 'undefined' && window.__LZD_NATIVE_FETCH__
@@ -76,13 +77,21 @@ function networkFailure(err) {
 }
 
 /**
- * Performs a GET against the Apps Script Web App.
- *
- * @param {Object<string, string>} params  Query-string parameters.
- * @param {{ timeoutMs?: number }} [options]
- * @return {Promise<Object>} The JSON response or `{ok:false,error}`.
+ * @param {number} ms
+ * @return {Promise<void>}
  */
-async function getJson(params, options = {}) {
+function delay(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+/**
+ * @param {Object<string, string>} params
+ * @param {{ timeoutMs?: number }} options
+ * @return {Promise<Object>}
+ */
+async function getJsonOnce(params, options = {}) {
   if (!hasBackend()) return { ok: false, error: 'Kein Backend konfiguriert' };
   const qs = new URLSearchParams(params).toString();
   const timeoutMs = Number(options.timeoutMs) || 0;
@@ -116,12 +125,29 @@ async function getJson(params, options = {}) {
 }
 
 /**
- * Performs a POST against the Apps Script Web App.
+ * Performs a GET against the Apps Script Web App (with transient retries).
  *
- * @param {Object} body  Will be JSON-stringified and sent as the body.
+ * @param {Object<string, string>} params  Query-string parameters.
+ * @param {{ timeoutMs?: number, retries?: number }} [options]
  * @return {Promise<Object>} The JSON response or `{ok:false,error}`.
  */
-async function postJson(body) {
+async function getJson(params, options = {}) {
+  if (!hasBackend()) return { ok: false, error: 'Kein Backend konfiguriert' };
+  const retries = Number(options.retries ?? 2);
+  let last = { ok: false, error: 'Kein Backend konfiguriert' };
+  for (let attempt = 0; attempt <= retries; attempt += 1) {
+    last = await getJsonOnce(params, options);
+    if (last.ok || !isTransientBackendError(last) || attempt >= retries) return last;
+    await delay(700 * (attempt + 1));
+  }
+  return last;
+}
+
+/**
+ * @param {Object} body
+ * @return {Promise<Object>}
+ */
+async function postJsonOnce(body) {
   if (!hasBackend()) return { ok: false, error: 'Kein Backend konfiguriert' };
   try {
     const res = await httpFetch(SCRIPT_URL, {
@@ -141,6 +167,25 @@ async function postJson(body) {
   } catch (err) {
     return networkFailure(err);
   }
+}
+
+/**
+ * Performs a POST against the Apps Script Web App (with transient retries).
+ *
+ * @param {Object} body  Will be JSON-stringified and sent as the body.
+ * @param {{ retries?: number }} [options]
+ * @return {Promise<Object>} The JSON response or `{ok:false,error}`.
+ */
+async function postJson(body, options = {}) {
+  if (!hasBackend()) return { ok: false, error: 'Kein Backend konfiguriert' };
+  const retries = Number(options.retries ?? 2);
+  let last = { ok: false, error: 'Kein Backend konfiguriert' };
+  for (let attempt = 0; attempt <= retries; attempt += 1) {
+    last = await postJsonOnce(body);
+    if (last.ok || !isTransientBackendError(last) || attempt >= retries) return last;
+    await delay(700 * (attempt + 1));
+  }
+  return last;
 }
 
 /**

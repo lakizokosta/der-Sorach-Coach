@@ -306,6 +306,61 @@ async function handleQuestions(request, env) {
   return jsonResponse(payload);
 }
 
+/**
+ * @param {{ SCRIPT_URL?: string }} env
+ * @return {Promise<Response>}
+ */
+async function handleHealth(env) {
+  const scriptUrl = String(env.SCRIPT_URL || '').trim();
+  if (!scriptUrl) {
+    return jsonResponse({ ok: false, error: 'SCRIPT_URL not configured' }, 503);
+  }
+
+  const started = Date.now();
+  try {
+    const qs = new URLSearchParams({
+      action: 'validateCode',
+      code: 'HEALTH-PING',
+    });
+    const res = await fetch(`${scriptUrl}?${qs.toString()}`, {
+      method: 'GET',
+      redirect: 'follow',
+    });
+    const text = await res.text();
+    let data = null;
+    try {
+      data = text ? JSON.parse(text) : null;
+    } catch {
+      data = null;
+    }
+    const gasReachable = res.ok && data && typeof data === 'object';
+    return jsonResponse(
+      {
+        ok: gasReachable,
+        latencyMs: Date.now() - started,
+        gas: {
+          status: res.status,
+          reachable: gasReachable,
+          error: data && data.error ? String(data.error) : null,
+        },
+      },
+      gasReachable ? 200 : 503,
+    );
+  } catch (err) {
+    return jsonResponse(
+      {
+        ok: false,
+        latencyMs: Date.now() - started,
+        error: 'GAS unreachable',
+        detail: err && typeof err === 'object' && 'message' in err
+          ? String(err.message)
+          : '',
+      },
+      503,
+    );
+  }
+}
+
 export default {
   /**
    * @param {Request} request
@@ -315,6 +370,9 @@ export default {
    */
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === '/api/health') {
+      return handleHealth(env);
+    }
     if (url.pathname === '/api/questions') {
       return handleQuestions(request, env);
     }

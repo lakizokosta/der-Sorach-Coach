@@ -19,7 +19,7 @@ import { useI18n } from '@/i18n/index.js';
 
 const route = useRoute();
 const { isLoggedIn } = useAuth();
-const { isPremium, isBasis, entitlementsReady } = usePremium();
+const { isPremium, isBasis, entitlementsReady, backendDegraded } = usePremium();
 const { t } = useI18n();
 
 const bootstrapping = computed(() => hasBackend() && !entitlementsReady.value);
@@ -48,6 +48,16 @@ const showLoginFab = computed(() => {
       <div class="app-bootstrap-overlay__icon" aria-hidden="true">🔒</div>
       <p class="app-bootstrap-overlay__text">{{ t('common.checkingAccess') }}</p>
     </div>
+  </div>
+
+  <div
+    v-if="backendDegraded.active"
+    class="app-backend-banner"
+    role="status"
+    aria-live="polite"
+  >
+    <span class="app-backend-banner__icon" aria-hidden="true">⚠️</span>
+    <span>{{ backendDegraded.message || t('common.backendDegraded') }}</span>
   </div>
 
   <LocaleSwitcher />
