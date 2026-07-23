@@ -9,4 +9,4 @@ options:
 correct: Doch
 ---
 
-„Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel)
+„Warst du nicht in Berlin?" — „___, letztes Jahr." (Antwortpartikel)

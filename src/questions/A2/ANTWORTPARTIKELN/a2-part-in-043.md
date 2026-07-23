@@ -1,11 +1,11 @@
 ---
 id: a2-part-in-043
 type: input-text
-hint: Antwortpartikel
+hint: Antwortpartikel — Widerspruch
 correct:
   - Doch
 ---
 
 Ergänze die Antwortpartikel:
 
-„Du kommst doch zur Hochzeit?" — „___, ich komme bestimmt."
+„Kommst du nicht zur Hochzeit?" — „___, ich komme bestimmt."
