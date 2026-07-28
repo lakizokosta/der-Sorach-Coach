@@ -538,6 +538,23 @@ export function clearAll() {
   clearEntitlements();
 }
 
+/**
+ * Ends the magic-link session and clears server-side premium session
+ * tokens. Activation codes stay on the device; entitlements reset until
+ * the next bootstrap.
+ */
+export function signOutUser() {
+  const { logout } = useAuth();
+  logout();
+  clearSessionToken();
+  clearGraceSnapshot();
+  clearEntitlements();
+  entitlements.ready = true;
+  backendDegraded.active = false;
+  backendDegraded.message = '';
+  removeKey('userEmail');
+}
+
 const isPremium = computed(() => {
   if (hasBackend()) {
     if (!entitlements.ready) return false;
@@ -567,6 +584,7 @@ export function usePremium() {
     clearPremium,
     clearBasis,
     clearAll,
+    signOutUser,
     bootstrapEntitlements,
     verifyEntitlementsLive,
     revalidateOnLoad,

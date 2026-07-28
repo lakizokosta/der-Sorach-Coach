@@ -10,7 +10,7 @@ import { computed, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
-import { usePremium } from '@/composables/usePremium.js';
+import { usePremium, signOutUser } from '@/composables/usePremium.js';
 import { useXp, isTopicMastered } from '@/composables/useXp.js';
 import { useStreak } from '@/composables/useStreak.js';
 import DailyGoalCard from '@/components/DailyGoalCard.vue';
@@ -27,7 +27,7 @@ import { useI18n } from '@/i18n/index.js';
 const router = useRouter();
 const { t } = useI18n();
 const { isPremium } = usePremium();
-const { state: auth, isLoggedIn, logout } = useAuth();
+const { state: auth, isLoggedIn } = useAuth();
 const { state: xp, level: liveLevel } = useXp();
 const { state: streak, medalsFor } = useStreak();
 const activeDaysCount = computed(() => (streak.activeDays || []).length);
@@ -68,8 +68,8 @@ function shareCard() {
 }
 
 function signOut() {
-  logout();
-  window.location.reload();
+  signOutUser();
+  window.location.assign(router.resolve({ name: 'landing' }).href);
 }
 </script>
 

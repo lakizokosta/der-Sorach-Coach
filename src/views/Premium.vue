@@ -55,10 +55,10 @@ import { useI18n } from '@/i18n/index.js';
 const router = useRouter();
 const { t } = useI18n();
 const route = useRoute();
-const { isPremium, isBasis, activateCode } = usePremium();
+const { isPremium, isBasis, activateCode, signOutUser } = usePremium();
 const { state: streak, medalsFor } = useStreak();
 const { state: xp, level: liveLevel } = useXp();
-const { state: auth, isLoggedIn, logout } = useAuth();
+const { state: auth, isLoggedIn } = useAuth();
 const { level: cefrLevel } = useCefrLevel();
 
 const USER_EMAIL_KEY = 'userEmail';
@@ -349,10 +349,10 @@ async function submitMagicLink() {
   }
 }
 
-/** Logs the user out (clears the 7-day Magic-Link session). */
+/** Logs the user out (clears magic-link session + premium session tokens). */
 function signOut() {
-  logout();
-  magicStatus.value = { text: t('premium.signedOut'), color: '#888' };
+  signOutUser();
+  window.location.assign(router.resolve({ name: 'landing' }).href);
 }
 
 /**

@@ -6,7 +6,7 @@
 import { computed, ref } from 'vue';
 
 import { useAuth } from '@/composables/useAuth.js';
-import { activateCode, usePremium } from '@/composables/usePremium.js';
+import { activateCode, usePremium, signOutUser } from '@/composables/usePremium.js';
 import { loadString, saveString } from '@/composables/useStorage.js';
 import { hasBackend, requestMagicLink } from '@/utils/api.js';
 import { useI18n } from '@/i18n/index.js';
@@ -19,7 +19,7 @@ const USER_EMAIL_KEY = 'userEmail';
 const backendOn = hasBackend();
 const { t } = useI18n();
 
-const { state: auth, isLoggedIn, logout } = useAuth();
+const { state: auth, isLoggedIn } = useAuth();
 const { isPremium, isBasis } = usePremium();
 
 const magicEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
@@ -106,7 +106,7 @@ async function submitCode() {
 }
 
 function signOut() {
-  logout();
+  signOutUser();
   window.location.reload();
 }
 </script>
