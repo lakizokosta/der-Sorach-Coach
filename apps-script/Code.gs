@@ -155,6 +155,7 @@ function doPost(e) {
     if (body.action === 'loadProgressByEmail') return json(loadProgressByEmail_(body, false));
     if (body.action === 'saveProgressByEmail') return json(saveProgressByEmail_(body, false));
     if (body.action === 'refreshMagicSession') return json(refreshMagicSession_(body));
+    if (body.action === 'revokeMagicSession') return json(revokeMagicSession_(body));
     if (body.action === 'verifyTrainingAccess') return json(verifyTrainingAccess_(body));
     if (body.loadProgress)  return json(loadProgressByEmail_(body, false));
     if (body.saveProgress)  return json(saveProgressByEmail_(body, false));
@@ -543,11 +544,11 @@ function validateMagicToken(p) {
       return { ok: false, error: 'Link abgelaufen' };
     }
 
-    sheet.getRange(r + 1, 5).setValue(new Date());
     const email = String(row[1]).toLowerCase().trim();
     const deviceCheck = assertMagicDeviceSlot_(email, deviceId);
     if (!deviceCheck.ok) return deviceCheck;
 
+    sheet.getRange(r + 1, 5).setValue(new Date());
     const ent = getEntitlementsForEmail_(email);
     const progress = readProgressRow_(email);
     const out = {
@@ -1336,6 +1337,29 @@ function refreshMagicSession_(body) {
     }
   }
   return out;
+}
+
+/**
+ * Ends a magic-link session on sign-out — frees a device slot immediately.
+ *
+ * @param {!Object} body  {email, sessionToken}.
+ * @return {!Object}
+ */
+function revokeMagicSession_(body) {
+  const email = String(body.email || '').toLowerCase().trim();
+  const token = String(body.sessionToken || '').trim();
+  if (!email || !token) return { ok: true };
+
+  const sheet = sheet_('MagicSessions');
+  const data = sheet.getDataRange().getValues();
+  const now = new Date();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][0]).trim() !== token) continue;
+    if (String(data[r][1]).toLowerCase().trim() !== email) continue;
+    sheet.getRange(r + 1, 5).setValue(now);
+    return { ok: true };
+  }
+  return { ok: true };
 }
 
 /**

@@ -67,8 +67,8 @@ function shareCard() {
   });
 }
 
-function signOut() {
-  signOutUser();
+async function signOut() {
+  await signOutUser();
   window.location.assign(router.resolve({ name: 'landing' }).href);
 }
 </script>

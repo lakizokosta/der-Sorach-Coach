@@ -105,8 +105,8 @@ async function submitCode() {
   }
 }
 
-function signOut() {
-  signOutUser();
+async function signOut() {
+  await signOutUser();
   window.location.reload();
 }
 </script>

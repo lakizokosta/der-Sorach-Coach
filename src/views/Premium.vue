@@ -350,8 +350,8 @@ async function submitMagicLink() {
 }
 
 /** Logs the user out (clears magic-link session + premium session tokens). */
-function signOut() {
-  signOutUser();
+async function signOut() {
+  await signOutUser();
   window.location.assign(router.resolve({ name: 'landing' }).href);
 }
 

@@ -283,6 +283,22 @@ export function refreshMagicSession(email, sessionToken) {
 }
 
 /**
+ * Revokes the magic-link session on the server (frees a device slot).
+ *
+ * @param {string} email
+ * @param {string} sessionToken
+ * @return {Promise<{ok:boolean, error?:string}>}
+ */
+export function revokeMagicSession(email, sessionToken) {
+  return postJson({
+    action: 'revokeMagicSession',
+    email: String(email || '').trim().toLowerCase(),
+    sessionToken: String(sessionToken || '').trim(),
+    deviceId: getDeviceId(),
+  });
+}
+
+/**
  * Submits the contact form. The script forwards it to the support
  * inbox via `MailApp.sendEmail`.
  *

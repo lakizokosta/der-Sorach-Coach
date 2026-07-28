@@ -16,6 +16,7 @@ import { loadJSON, saveJSON, removeKey } from './useStorage.js';
 import {
   validateCode as validateOnServer,
   refreshMagicSession,
+  revokeMagicSession,
   hasBackend,
 } from '@/utils/api.js';
 import {
@@ -542,9 +543,18 @@ export function clearAll() {
  * Ends the magic-link session and clears server-side premium session
  * tokens. Activation codes stay on the device; entitlements reset until
  * the next bootstrap.
+ *
+ * @return {Promise<void>}
  */
-export function signOutUser() {
-  const { logout } = useAuth();
+export async function signOutUser() {
+  const { state: auth, logout } = useAuth();
+  if (hasBackend() && auth.email && auth.sessionToken) {
+    try {
+      await revokeMagicSession(auth.email, auth.sessionToken);
+    } catch {
+      /* offline — still clear local state */
+    }
+  }
   logout();
   clearSessionToken();
   clearGraceSnapshot();
