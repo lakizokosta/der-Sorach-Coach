@@ -74,12 +74,6 @@
     "en": "trip",
     "gender": "f"
   },
-  "kollegen": {
-    "pos": "noun",
-    "ru": "коллеги",
-    "en": "colleagues",
-    "gender": "m"
-  },
   "schule": {
     "pos": "noun",
     "ru": "школа",
@@ -381,11 +375,6 @@
     "en": "professor",
     "gender": "m"
   },
-  "ergebnisse": {
-    "pos": "noun",
-    "ru": "испытаний",
-    "en": "Results"
-  },
   "wetters": {
     "pos": "noun",
     "ru": "погода",
@@ -397,11 +386,6 @@
     "en": "festival / party",
     "gender": "n"
   },
-  "gäste": {
-    "pos": "noun",
-    "ru": "Гости:",
-    "en": "Guests"
-  },
   "nachricht": {
     "pos": "noun",
     "ru": "сообщение",
@@ -410,19 +394,15 @@
   },
   "verbindung": {
     "pos": "noun",
-    "ru": "Соединение",
-    "en": "Connection"
+    "ru": "соединение / связь",
+    "en": "connection",
+    "gender": "f"
   },
   "fahrrad": {
     "pos": "noun",
     "ru": "велосипед",
     "en": "bicycle",
     "gender": "n"
-  },
-  "kinder": {
-    "pos": "noun",
-    "ru": "Дети",
-    "en": "children"
   },
   "pluralform": {
     "pos": "noun"
@@ -551,11 +531,6 @@
     "ru": "опоздание",
     "en": "delay",
     "gender": "f"
-  },
-  "nachrichten": {
-    "pos": "noun",
-    "ru": "Новости",
-    "en": "messages"
   },
   "vertrag": {
     "pos": "noun",
@@ -736,13 +711,7 @@
   },
   "eingang": {
     "pos": "noun",
-    "ru": "Входящий &#8470;",
     "en": "goods"
-  },
-  "studenten": {
-    "pos": "noun",
-    "ru": "Студент",
-    "en": "Students"
   },
   "erkrankung": {
     "pos": "noun",
@@ -771,18 +740,20 @@
   },
   "stuhl": {
     "pos": "noun",
-    "ru": "стул:",
-    "en": "google tranlator"
+    "ru": "стул",
+    "en": "chair",
+    "gender": "m"
   },
   "unterrichts": {
     "pos": "noun",
     "ru": "обучение",
-    "en": "Form of"
+    "en": "instruction / teaching"
   },
   "angst": {
     "pos": "noun",
     "ru": "страх",
-    "en": "Anxiety"
+    "en": "fear / anxiety",
+    "gender": "f"
   },
   "brot": {
     "pos": "noun",
@@ -828,13 +799,14 @@
   },
   "supermarkt": {
     "pos": "noun",
-    "ru": "В супермаркете",
-    "en": "Supermarket"
+    "ru": "супермаркет",
+    "en": "supermarket",
+    "gender": "m"
   },
   "italien": {
     "pos": "noun",
     "ru": "Италия",
-    "en": "ltaly"
+    "en": "Italy"
   },
   "geburtstag": {
     "pos": "noun",
@@ -848,8 +820,9 @@
   },
   "licht": {
     "pos": "noun",
-    "ru": "Освещение",
-    "en": "light&#x0D;"
+    "ru": "свет",
+    "en": "light",
+    "gender": "n"
   },
   "praktikum": {
     "pos": "noun",
@@ -963,18 +936,21 @@
   },
   "mantel": {
     "pos": "noun",
-    "ru": "Пальто",
-    "en": "Coat"
+    "ru": "пальто",
+    "en": "coat",
+    "gender": "m"
   },
   "sommer": {
     "pos": "noun",
-    "ru": "Лето",
-    "en": "Summer"
+    "ru": "лето",
+    "en": "summer",
+    "gender": "m"
   },
   "pause": {
     "pos": "noun",
-    "ru": "Пауза",
-    "en": "pertrauka"
+    "ru": "пауза",
+    "en": "break / pause",
+    "gender": "f"
   },
   "qualität": {
     "pos": "noun",
@@ -993,8 +969,9 @@
   },
   "abteilung": {
     "pos": "noun",
-    "ru": "Отделение",
-    "en": "Department"
+    "ru": "отдел",
+    "en": "department",
+    "gender": "f"
   },
   "personalabteilung": {
     "pos": "noun",
@@ -1052,8 +1029,9 @@
   },
   "apotheke": {
     "pos": "noun",
-    "ru": "В аптеке",
-    "en": "Pharmacy"
+    "ru": "аптека",
+    "en": "pharmacy",
+    "gender": "f"
   },
   "veranstaltung": {
     "pos": "noun",
@@ -1154,8 +1132,9 @@
   },
   "bewerbung": {
     "pos": "noun",
-    "ru": "Соискание на должность",
-    "en": "Application"
+    "ru": "заявление о приёме на работу",
+    "en": "job application",
+    "gender": "f"
   },
   "professorin": {
     "pos": "noun",
@@ -1200,8 +1179,9 @@
   },
   "paket": {
     "pos": "noun",
-    "ru": "Пакет",
-    "en": "level"
+    "ru": "посылка / пакет",
+    "en": "package / parcel",
+    "gender": "n"
   },
   "meetings": {
     "pos": "noun",
@@ -1246,13 +1226,15 @@
   },
   "wind": {
     "pos": "noun",
-    "ru": "Ветер",
-    "en": "wind"
+    "ru": "ветер",
+    "en": "wind",
+    "gender": "m"
   },
   "spiel": {
     "pos": "noun",
-    "ru": "Игра",
-    "en": "match"
+    "ru": "игра",
+    "en": "game",
+    "gender": "n"
   },
   "lehrer": {
     "pos": "noun",
@@ -1420,11 +1402,6 @@
     "ru": "Бабуль…",
     "en": "grandma / granny"
   },
-  "straßen": {
-    "pos": "noun",
-    "ru": "Улицы",
-    "en": "Roads"
-  },
   "see": {
     "pos": "noun",
     "ru": "по морю",
@@ -1469,8 +1446,9 @@
   },
   "brief": {
     "pos": "noun",
-    "ru": "Письмо",
-    "en": "Letter"
+    "ru": "письмо",
+    "en": "letter",
+    "gender": "m"
   },
   "küste": {
     "pos": "noun",
@@ -1669,23 +1647,27 @@
   },
   "antrag": {
     "pos": "noun",
-    "ru": "Заявление",
-    "en": "Application"
+    "ru": "заявление",
+    "en": "application / request",
+    "gender": "m"
   },
   "auszeichnung": {
     "pos": "noun",
-    "ru": "Награда",
-    "en": "display"
+    "ru": "награда",
+    "en": "award / distinction",
+    "gender": "f"
   },
   "forscherin": {
     "pos": "noun",
-    "ru": "исследователь",
-    "en": "Researcher"
+    "ru": "исследовательница",
+    "en": "researcher (female)",
+    "gender": "f"
   },
   "flug": {
     "pos": "noun",
-    "ru": "Перелет",
-    "en": "flight simulator"
+    "ru": "перелёт",
+    "en": "flight",
+    "gender": "m"
   },
   "anna": {
     "pos": "noun",
@@ -1757,11 +1739,6 @@
     "ru": "Забавное",
     "en": "fun"
   },
-  "freunden": {
-    "pos": "noun",
-    "ru": "друзья",
-    "en": "friends"
-  },
   "winter": {
     "pos": "noun",
     "ru": "зима",
@@ -1779,13 +1756,9 @@
   },
   "trainer": {
     "pos": "noun",
-    "ru": "ТРЕНЕР",
-    "en": "personal"
-  },
-  "berge": {
-    "pos": "noun",
-    "ru": "горы",
-    "en": "mountains"
+    "ru": "тренер",
+    "en": "trainer / coach",
+    "gender": "m"
   },
   "regal": {
     "pos": "noun",
@@ -1801,11 +1774,6 @@
     "pos": "noun",
     "ru": "Студентка",
     "en": "Student's"
-  },
-  "freundes": {
-    "pos": "noun",
-    "ru": "друг",
-    "en": "friend"
   },
   "fall": {
     "pos": "noun",
@@ -2017,11 +1985,6 @@
     "ru": "сосед",
     "en": "NEIGHBOR"
   },
-  "kindes": {
-    "pos": "noun",
-    "ru": "ребенок",
-    "en": "child"
-  },
   "medikamente": {
     "pos": "noun",
     "ru": "лекарств",
@@ -2077,26 +2040,11 @@
     "ru": "яблочный",
     "en": "apple"
   },
-  "kindern": {
-    "pos": "noun",
-    "ru": "детям.",
-    "en": "children"
-  },
   "berg": {
     "pos": "noun",
     "ru": "гора",
     "en": "mountain",
     "gender": "m"
-  },
-  "hände": {
-    "pos": "noun",
-    "ru": "Кисть",
-    "en": "Hands"
-  },
-  "probleme": {
-    "pos": "noun",
-    "ru": "Проблемы",
-    "en": "problems"
   },
   "rat": {
     "pos": "noun",
@@ -2115,13 +2063,9 @@
   },
   "flugzeug": {
     "pos": "noun",
-    "ru": "Самолет",
-    "en": "Aircraft"
-  },
-  "sommers": {
-    "pos": "noun",
-    "ru": "Соммерс",
-    "en": "summers"
+    "ru": "самолёт",
+    "en": "airplane",
+    "gender": "n"
   },
   "bahnhofsplatz": {
     "pos": "noun",
@@ -2145,13 +2089,15 @@
   },
   "schülerin": {
     "pos": "noun",
-    "ru": "Ученик",
-    "en": "Female student"
+    "ru": "ученица",
+    "en": "female student",
+    "gender": "f"
   },
   "decke": {
     "pos": "noun",
-    "ru": "Одеяло",
-    "en": "Blanket"
+    "ru": "потолок / одеяло",
+    "en": "ceiling / blanket",
+    "gender": "f"
   },
   "mitarbeiter": {
     "pos": "noun",
@@ -2255,13 +2201,15 @@
   },
   "belohnung": {
     "pos": "noun",
-    "ru": "оплата",
-    "en": "reward"
+    "ru": "награда",
+    "en": "reward",
+    "gender": "f"
   },
   "spiegel": {
     "pos": "noun",
-    "ru": "Зеркальце",
-    "en": "level"
+    "ru": "зеркало",
+    "en": "mirror",
+    "gender": "m"
   },
   "everest": {
     "pos": "noun",
@@ -2709,8 +2657,7 @@
   },
   "könnten": {
     "pos": "noun",
-    "ru": "может",
-    "en": "could&#x0D;"
+    "ru": "может"
   },
   "zertifikat": {
     "pos": "noun",
@@ -3614,11 +3561,6 @@
     "ru": "Животное",
     "en": "Animal."
   },
-  "bücher": {
-    "pos": "noun",
-    "ru": "Книги",
-    "en": "Books"
-  },
   "heft": {
     "pos": "noun",
     "ru": "Тетрадь",
@@ -3838,11 +3780,6 @@
     "ru": "Авто.",
     "en": ".autos"
   },
-  "frauen": {
-    "pos": "noun",
-    "ru": "женщины",
-    "en": "women"
-  },
   "nachbars": {
     "pos": "noun",
     "ru": "соседи",
@@ -3947,11 +3884,6 @@
     "pos": "noun",
     "ru": "Итальянцы",
     "en": "Italian"
-  },
-  "bruders": {
-    "pos": "noun",
-    "ru": "братья",
-    "en": "brothers"
   },
   "natur": {
     "pos": "noun",
@@ -4353,7 +4285,7 @@
   },
   "lang": {
     "pos": "adj",
-    "ru": "длинная",
+    "ru": "длинный",
     "en": "long"
   },
   "ruhig": {
@@ -4505,11 +4437,6 @@
     "ru": "Яблоки",
     "en": "Apples"
   },
-  "städte": {
-    "pos": "noun",
-    "ru": "geo|Города",
-    "en": "Cities"
-  },
   "busse": {
     "pos": "noun",
     "ru": "Буссе"
@@ -4526,8 +4453,7 @@
   },
   "lampen": {
     "pos": "noun",
-    "ru": "Лампы",
-    "en": "lights&#x0D;"
+    "ru": "Лампы"
   },
   "züge": {
     "pos": "noun",
@@ -4568,11 +4494,6 @@
     "pos": "noun",
     "ru": "Гостиницы",
     "en": "hotels"
-  },
-  "männer": {
-    "pos": "noun",
-    "ru": "Для мужчин",
-    "en": "men"
   },
   "lieder": {
     "pos": "noun",
@@ -5009,21 +4930,6 @@
     "ru": "восстановление",
     "en": "recovering"
   },
-  "muttern": {
-    "pos": "noun",
-    "ru": "гайки",
-    "en": "Nuts"
-  },
-  "unternehmens": {
-    "pos": "noun",
-    "ru": "предприятия",
-    "en": "company"
-  },
-  "brudern": {
-    "pos": "noun",
-    "ru": "братья",
-    "en": "brothers"
-  },
   "studierende": {
     "pos": "noun",
     "ru": "студенты",
@@ -5253,9 +5159,9 @@
     "en": "answer"
   },
   "viel": {
-    "pos": "adj",
+    "pos": "adv",
     "ru": "много",
-    "en": "significant"
+    "en": "much / a lot"
   },
   "nah": {
     "pos": "adj",
@@ -5365,8 +5271,7 @@
     "en": "to use"
   },
   "hren": {
-    "pos": "verb",
-    "en": "Your&#x0D;"
+    "pos": "verb"
   },
   "sammelen": {
     "pos": "verb",
@@ -5666,11 +5571,6 @@
     "ru": "друзья",
     "en": "friends"
   },
-  "städten": {
-    "pos": "noun",
-    "ru": "города",
-    "en": "cities"
-  },
   "stadts": {
     "pos": "noun",
     "ru": "город",
@@ -5745,11 +5645,6 @@
     "ru": "рука",
     "en": "hand",
     "gender": "f"
-  },
-  "händen": {
-    "pos": "noun",
-    "ru": "руки",
-    "en": "hands"
   },
   "händ": {
     "pos": "noun",
@@ -6202,11 +6097,6 @@
     "ru": "дети",
     "en": "children"
   },
-  "büchern": {
-    "pos": "noun",
-    "ru": "книги",
-    "en": "* books"
-  },
   "büch": {
     "pos": "noun",
     "ru": "книга",
@@ -6216,11 +6106,6 @@
     "pos": "noun",
     "ru": "маннс",
     "en": "Manns"
-  },
-  "männern": {
-    "pos": "noun",
-    "ru": "мужчины",
-    "en": "Men"
   },
   "europa": {
     "pos": "noun",
@@ -8074,6 +7959,11 @@
     "pos": "verb",
     "ru": "следовать",
     "en": "to follow"
+  },
+  "lange": {
+    "pos": "adv",
+    "ru": "долго",
+    "en": "for a long time"
   },
   "haben": {
     "pos": "verb",

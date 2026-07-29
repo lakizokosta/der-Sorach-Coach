@@ -1,12 +1,37 @@
 {
+  "abteilung": {
+    "en": "department",
+    "pos": "noun",
+    "gender": "f"
+  },
+  "angst": {
+    "en": "fear / anxiety",
+    "pos": "noun",
+    "gender": "f"
+  },
   "anstatt": {
     "en": "instead of"
+  },
+  "antrag": {
+    "en": "application / request",
+    "pos": "noun",
+    "gender": "m"
+  },
+  "apotheke": {
+    "en": "pharmacy",
+    "pos": "noun",
+    "gender": "f"
   },
   "april": {
     "en": "April"
   },
   "august": {
     "en": "August"
+  },
+  "auszeichnung": {
+    "en": "award / distinction",
+    "pos": "noun",
+    "gender": "f"
   },
   "auten": {
     "en": "Auten"
@@ -42,8 +67,18 @@
     "en": "to visit",
     "pos": "verb"
   },
+  "bewerbung": {
+    "en": "job application",
+    "pos": "noun",
+    "gender": "f"
+  },
   "brandt": {
     "en": "Brandt"
+  },
+  "brief": {
+    "en": "letter",
+    "pos": "noun",
+    "gender": "m"
   },
   "briefs": {
     "en": "briefs / letters"
@@ -69,6 +104,11 @@
   "deadline": {
     "en": "deadline"
   },
+  "decke": {
+    "en": "ceiling / blanket",
+    "pos": "noun",
+    "gender": "f"
+  },
   "dorf": {
     "en": "village"
   },
@@ -85,6 +125,9 @@
   "elegant": {
     "en": "elegant",
     "pos": "adj"
+  },
+  "ergebnisse": {
+    "en": "results"
   },
   "euro": {
     "en": "euro"
@@ -105,11 +148,29 @@
   "films": {
     "en": "films"
   },
+  "flug": {
+    "en": "flight",
+    "pos": "noun",
+    "gender": "m"
+  },
+  "flugzeug": {
+    "en": "airplane",
+    "pos": "noun",
+    "gender": "n"
+  },
+  "forscherin": {
+    "en": "researcher (female)",
+    "pos": "noun",
+    "gender": "f"
+  },
   "fraus": {
     "en": "women (fragment)"
   },
   "führung": {
     "en": "management / guided tour"
+  },
+  "gäste": {
+    "en": "guests"
   },
   "geh": {
     "en": "go (imperative)"
@@ -203,6 +264,9 @@
   "intranet": {
     "en": "intranet"
   },
+  "italien": {
+    "en": "Italy"
+  },
   "jens": {
     "en": "Jens"
   },
@@ -247,6 +311,14 @@
   "lamp": {
     "en": "lamp"
   },
+  "lang": {
+    "en": "long",
+    "pos": "adj"
+  },
+  "lange": {
+    "en": "for a long time",
+    "pos": "adv"
+  },
   "laura": {
     "en": "Laura"
   },
@@ -255,6 +327,11 @@
   },
   "lehmann": {
     "en": "Lehmann"
+  },
+  "licht": {
+    "en": "light",
+    "pos": "noun",
+    "gender": "n"
   },
   "lindenstraße": {
     "en": "Linden Street"
@@ -273,6 +350,11 @@
   },
   "manns": {
     "en": "Manns"
+  },
+  "mantel": {
+    "en": "coat",
+    "pos": "noun",
+    "gender": "m"
   },
   "mario": {
     "en": "Mario"
@@ -338,6 +420,11 @@
   "oma": {
     "en": "grandma / granny"
   },
+  "paket": {
+    "en": "package / parcel",
+    "pos": "noun",
+    "gender": "n"
+  },
   "papa": {
     "en": "dad / papa"
   },
@@ -358,6 +445,11 @@
   },
   "paul": {
     "en": "Paul"
+  },
+  "pause": {
+    "en": "break / pause",
+    "pos": "noun",
+    "gender": "f"
   },
   "personal": {
     "en": "staff / personnel"
@@ -440,6 +532,11 @@
   "schneider": {
     "en": "Schneider / tailor"
   },
+  "schülerin": {
+    "en": "female student",
+    "pos": "noun",
+    "gender": "f"
+  },
   "see": {
     "en": "lake / sea"
   },
@@ -466,6 +563,11 @@
   "solutions": {
     "en": "solutions"
   },
+  "sommer": {
+    "en": "summer",
+    "pos": "noun",
+    "gender": "m"
+  },
   "song": {
     "en": "song"
   },
@@ -474,6 +576,16 @@
   },
   "sönnen": {
     "en": "Sonnen"
+  },
+  "spiegel": {
+    "en": "mirror",
+    "pos": "noun",
+    "gender": "m"
+  },
+  "spiel": {
+    "en": "game",
+    "pos": "noun",
+    "gender": "n"
   },
   "stadtmitte": {
     "en": "city centre"
@@ -496,8 +608,18 @@
   "studierenden": {
     "en": "students"
   },
+  "stuhl": {
+    "en": "chair",
+    "pos": "noun",
+    "gender": "m"
+  },
   "stuhs": {
     "en": "chairs (fragment)"
+  },
+  "supermarkt": {
+    "en": "supermarket",
+    "pos": "noun",
+    "gender": "m"
   },
   "tages": {
     "en": "of the day (Tag-)"
@@ -547,11 +669,20 @@
     "en": "to carry / wear",
     "pos": "verb"
   },
+  "trainer": {
+    "en": "trainer / coach",
+    "pos": "noun",
+    "gender": "m"
+  },
   "training": {
     "en": "training"
   },
   "transformation": {
     "en": "transformation"
+  },
+  "trinken": {
+    "en": "to drink",
+    "pos": "verb"
   },
   "tunnel": {
     "en": "tunnel"
@@ -559,8 +690,17 @@
   "umsetzung": {
     "en": "implementation"
   },
+  "verbindung": {
+    "en": "connection",
+    "pos": "noun",
+    "gender": "f"
+  },
   "verkäufer": {
     "en": "sales assistant / seller"
+  },
+  "viel": {
+    "en": "much / a lot",
+    "pos": "adv"
   },
   "vielen": {
     "en": "many (vielen-)"

@@ -13,7 +13,6 @@ lemma,pos,freq,ru,en,status
 "stadt",noun,238,"город","city",done
 "straße",noun,236,"улица","street",done
 "reise",noun,234,"поездка","trip",done
-"kollegen",noun,214,"коллеги","colleagues",done
 "schule",noun,206,"школа","school",done
 "stelle",noun,204,"место / должность","place / position",done
 "park",noun,202,"парк","park",done
@@ -71,14 +70,11 @@ lemma,pos,freq,ru,en,status
 "nachfrage",noun,116,"спрос","demand",done
 "erfahrung",noun,114,"опыт","experience",done
 "professor",noun,112,"профессор","professor",done
-"ergebnisse",noun,112,"испытаний","Results",done
 "wetters",noun,110,"погода","weather",done
 "fest",noun,108,"праздник / фестиваль","festival / party",done
-"gäste",noun,104,"Гости:","Guests",done
 "nachricht",noun,102,"сообщение","message",done
-"verbindung",noun,102,"Соединение","Connection",done
+"verbindung",noun,102,"соединение / связь","connection",done
 "fahrrad",noun,100,"велосипед","bicycle",done
-"kinder",noun,100,"Дети","children",done
 "pluralform",noun,100,"","",pending
 "präsensform",noun,100,"","",pending
 "verbs",noun,100,"","",pending
@@ -111,7 +107,6 @@ lemma,pos,freq,ru,en,status
 "kaffee",noun,84,"кофе","coffee",done
 "ärztin",noun,84,"Врач","Physician",done
 "verspätung",noun,84,"опоздание","delay",done
-"nachrichten",noun,84,"Новости","messages",done
 "vertrag",noun,84,"geschaftsvertrag","contract",done
 "preise",noun,82,"ЦЕНЫ","prices",done
 "land",noun,82,"страна","country",done
@@ -147,16 +142,15 @@ lemma,pos,freq,ru,en,status
 "geschäft",noun,64,"Магазин","business",done
 "freunde",noun,64,"Друзья","Friends",done
 "lust",noun,64,"желание / удовольствие","desire / pleasure",done
-"eingang",noun,64,"Входящий &#8470;","goods",done
-"studenten",noun,64,"Студент","Students",done
+"eingang",noun,64,"","goods",pending
 "erkrankung",noun,64,"заболевание матери","disease",done
 "gebäude",noun,64,"Корпус","building",done
 "lampe",noun,62,"Лампа","Lamp",done
 "fußball",noun,62,"Футбол","Football",done
 "hausaufgaben",noun,62,"Домашние задания","Homework",done
-"stuhl",noun,62,"стул:","google tranlator",done
-"unterrichts",noun,62,"обучение","Form of",done
-"angst",noun,62,"страх","Anxiety",done
+"stuhl",noun,62,"стул","chair",done
+"unterrichts",noun,62,"обучение","instruction / teaching",done
+"angst",noun,62,"страх","fear / anxiety",done
 "brot",noun,60,"изображение","Bread",done
 "frau",noun,60,"женщина","woman",done
 "hamburg",noun,60,"Гамбург","Hamburg",done
@@ -165,11 +159,11 @@ lemma,pos,freq,ru,en,status
 "formular",noun,60,"Форма","Form",done
 "lage",noun,60,"Расположение","situation",done
 "pizza",noun,58,"пицца","pizza",done
-"supermarkt",noun,58,"В супермаркете","Supermarket",done
-"italien",noun,58,"Италия","ltaly",done
+"supermarkt",noun,58,"супермаркет","supermarket",done
+"italien",noun,58,"Италия","Italy",done
 "geburtstag",noun,56,"Дата рождения","Birthday",done
 "regens",noun,56,"дожди","rains",done
-"licht",noun,56,"Освещение","light&#x0D;",done
+"licht",noun,56,"свет","light",done
 "praktikum",noun,56,"стажировка","internship",done
 "freitag",noun,56,"Пятница","Friday",done
 "jacke",noun,54,"Куртка","jacket",done
@@ -192,13 +186,13 @@ lemma,pos,freq,ru,en,status
 "bewegung",noun,52,"Движение","Movement",done
 "regierung",noun,52,"правительство","Government",done
 "verhandlungen",noun,52,"Переговоры","Negotiations",done
-"mantel",noun,50,"Пальто","Coat",done
-"sommer",noun,50,"Лето","Summer",done
-"pause",noun,50,"Пауза","pertrauka",done
+"mantel",noun,50,"пальто","coat",done
+"sommer",noun,50,"лето","summer",done
+"pause",noun,50,"пауза","break / pause",done
 "qualität",noun,50,"проволоки","quality",done
 "mosel",noun,50,"Мозель","Moselle (river)",done
 "zukunft",noun,50,"будущее","future",done
-"abteilung",noun,50,"Отделение","Department",done
+"abteilung",noun,50,"отдел","department",done
 "personalabteilung",noun,50,"Отдел кадров","Human Resources Department",done
 "patientin",noun,50,"Пациент","Patient",done
 "wortstellung",noun,50,"","",pending
@@ -210,7 +204,7 @@ lemma,pos,freq,ru,en,status
 "hunger",noun,46,"Голод","hunger",done
 "fleisch",noun,46,"мясо","meat",done
 "ferien",noun,46,"Отпуск","Leave",done
-"apotheke",noun,46,"В аптеке","Pharmacy",done
+"apotheke",noun,46,"аптека","pharmacy",done
 "veranstaltung",noun,46,"Курс","events",done
 "ball",noun,44,"мяч","ball",done
 "kollege",noun,44,"коллега","colleague",done
@@ -230,7 +224,7 @@ lemma,pos,freq,ru,en,status
 "hoffnung",noun,42,"NADEZHDA","hope",done
 "nacht",noun,42,"на ночь","night",done
 "stadtmitte",noun,42,"Центр города","city centre",done
-"bewerbung",noun,42,"Соискание на должность","Application",done
+"bewerbung",noun,42,"заявление о приёме на работу","job application",done
 "professorin",noun,42,"профессор","Professor",done
 "wirtschaft",noun,42,"Экономика / Economics","economy",done
 "überstunden",noun,42,"Сверхурочная работа","Overtime",done
@@ -239,7 +233,7 @@ lemma,pos,freq,ru,en,status
 "ergebnis",noun,42,"результат","result",done
 "damen",noun,42,"Женщины","women",done
 "herren",noun,42,"мужчины","men",done
-"paket",noun,42,"Пакет","level",done
+"paket",noun,42,"посылка / пакет","package / parcel",done
 "meetings",noun,42,"встречи","meetings",done
 "fahren",verb,41,"ехать, водить","to drive / go",done
 "krankheit",noun,40,"болезнь","illness / disease",done
@@ -248,8 +242,8 @@ lemma,pos,freq,ru,en,status
 "schmerzen",noun,40,"боль","ache",done
 "dennoch",noun,40,"хотя","nevertheless",done
 "handy",noun,38,"Телефон","mobile phone",done
-"wind",noun,38,"Ветер","wind",done
-"spiel",noun,38,"Игра","match",done
+"wind",noun,38,"ветер","wind",done
+"spiel",noun,38,"игра","game",done
 "lehrer",noun,38,"Педагоги","Teacher",done
 "klasse",noun,38,"огнестойкости","Class",done
 "zoo",noun,38,"Зоопарк","zoo",done
@@ -283,7 +277,6 @@ lemma,pos,freq,ru,en,status
 "obst",noun,34,"Фрукты","fruits",done
 "salat",noun,34,"салат","Lettuce",done
 "oma",noun,34,"Бабуль…","grandma / granny",done
-"straßen",noun,34,"Улицы","Roads",done
 "see",noun,34,"по морю","lake / sea",done
 "stadtpark",noun,34,"городской парк","The city park",done
 "lehrerin",noun,34,"учительница","teacher (female)",done
@@ -292,7 +285,7 @@ lemma,pos,freq,ru,en,status
 "markt",noun,32,"Рынок","market",done
 "gitarre",noun,32,"Гитара","Guitar",done
 "konzert",noun,32,"концерт","Concert.",done
-"brief",noun,32,"Письмо","Letter",done
+"brief",noun,32,"письмо","letter",done
 "küste",noun,32,"Побережье","Coast",done
 "gehen",verb,32,"идти","to go",done
 "hauptstraße",noun,32,"Основная дорога","Main street",done
@@ -332,10 +325,10 @@ lemma,pos,freq,ru,en,status
 "schaufenster",noun,28,"ВИТРИНА","Showcase slider",done
 "dank",noun,28,"благодаря","thank-you",done
 "daran",noun,28,"в","at",done
-"antrag",noun,28,"Заявление","Application",done
-"auszeichnung",noun,28,"Награда","display",done
-"forscherin",noun,28,"исследователь","Researcher",done
-"flug",noun,26,"Перелет","flight simulator",done
+"antrag",noun,28,"заявление","application / request",done
+"auszeichnung",noun,28,"награда","award / distinction",done
+"forscherin",noun,28,"исследовательница","researcher (female)",done
+"flug",noun,26,"перелёт","flight",done
 "anna",noun,26,"Анна","Anna",done
 "herr",noun,26,"Господином","",pending
 "kindheit",noun,26,"Детство","Infancy",done
@@ -350,16 +343,13 @@ lemma,pos,freq,ru,en,status
 "chancen",noun,26,"Возможности:","Opportunities",done
 "leben",noun,26,"жить","live",done
 "spaß",noun,24,"Забавное","fun",done
-"freunden",noun,24,"друзья","friends",done
 "winter",noun,24,"зима","summer",done
 "bank",noun,24,"площадке","bank / bench",done
 "flasche",noun,24,"Флакон","bottle",done
-"trainer",noun,24,"ТРЕНЕР","personal",done
-"berge",noun,24,"горы","mountains",done
+"trainer",noun,24,"тренер","trainer / coach",done
 "regal",noun,24,"Стеллаж","Shelf",done
 "panne",noun,24,"Поломка","Breakdown",done
 "studentin",noun,24,"Студентка","Student's",done
-"freundes",noun,24,"друг","friend",done
 "fall",noun,24,"Случай болезни","case",done
 "klimakonferenz",noun,24,"климатическая конференция","Climate Conference",done
 "energie",noun,24,"Энергетика","energy",done
@@ -402,7 +392,6 @@ lemma,pos,freq,ru,en,status
 "aufstehen",verb,22,"вставать","to get up",done
 "großeltern",noun,22,"бабушки и дедушки","Grandpa",done
 "nachbarin",noun,22,"сосед","NEIGHBOR",done
-"kindes",noun,22,"ребенок","child",done
 "medikamente",noun,22,"лекарств","List medicines",done
 "bescheid",noun,22,"Уведомление","benefit",done
 "anmeldung",noun,22,"Запись на прием","login",done
@@ -414,21 +403,17 @@ lemma,pos,freq,ru,en,status
 "einkaufen",noun,21,"делать покупки","shopping",done
 "ausruhen",noun,21,"отдых","resting",done
 "apfel",noun,20,"яблочный","apple",done
-"kindern",noun,20,"детям.","children",done
 "berg",noun,20,"гора","mountain",done
-"hände",noun,20,"Кисть","Hands",done
-"probleme",noun,20,"Проблемы","problems",done
 "rat",noun,20,"консультация, совет","hemitartrate",done
 "spanien",noun,20,"Испания","Spain",done
 "leg",noun,20,"нога","leg",done
-"flugzeug",noun,20,"Самолет","Aircraft",done
-"sommers",noun,20,"Соммерс","summers",done
+"flugzeug",noun,20,"самолёт","airplane",done
 "bahnhofsplatz",noun,20,"привокзальная площадь","station square",done
 "kunst",noun,20,"Искусство","Arts",done
 "spinnen",noun,20,"Прядение","Spiders",done
 "lehrern",noun,20,"учителя","teachers",done
-"schülerin",noun,20,"Ученик","Female student",done
-"decke",noun,20,"Одеяло","Blanket",done
+"schülerin",noun,20,"ученица","female student",done
+"decke",noun,20,"потолок / одеяло","ceiling / blanket",done
 "mitarbeiter",noun,20,"Сотрудник","employees",done
 "informationen",noun,20,"Информация","information",done
 "stellung",noun,20,"настройка","production",done
@@ -449,8 +434,8 @@ lemma,pos,freq,ru,en,status
 "name",noun,18,"имя","name",done
 "diskussionen",noun,18,"обсуждения","Discussions",done
 "anspruch",noun,18,"Пункт формулы изобретения","Entitlement",done
-"belohnung",noun,18,"оплата","reward",done
-"spiegel",noun,18,"Зеркальце","level",done
+"belohnung",noun,18,"награда","reward",done
+"spiegel",noun,18,"зеркало","mirror",done
 "everest",noun,18,"Эверест","Mount Everest",done
 "spieler",noun,18,"Игроки","players",done
 "essens",noun,18,"еда","food",done
@@ -539,7 +524,7 @@ lemma,pos,freq,ru,en,status
 "teilnahme",noun,16,"Участие******","participation",done
 "welt",noun,16,"Worwoad","weltweit",done
 "rückfragen",noun,16,"Телефон для справок:","Queries",done
-"könnten",noun,16,"может","could&#x0D;",done
+"könnten",noun,16,"может","",pending
 "zertifikat",noun,16,"СЕРТИФИКАТ","CERTIFICATE",done
 "rehabilitation",noun,16,"Реабилитация","rehabilitation",done
 "sicherheit",noun,16,"Безопасность","reliability",done
@@ -722,7 +707,6 @@ lemma,pos,freq,ru,en,status
 "bad",noun,8,"Cremebad","bath",done
 "geschwister",noun,8,"Сиблинги","sibling",done
 "tier",noun,8,"Животное","Animal.",done
-"bücher",noun,8,"Книги","Books",done
 "heft",noun,8,"Тетрадь","Defter",done
 "frühstück",noun,8,"Завтрак","breakfast",done
 "münchen",noun,8,"Мюнхен","Munich",done
@@ -767,7 +751,6 @@ lemma,pos,freq,ru,en,status
 "stimme",noun,6,"согласен/согласна","agree",done
 "glas",noun,6,"стекло","GLASS",done
 "autos",noun,6,"Авто.",".autos",done
-"frauen",noun,6,"женщины","women",done
 "nachbars",noun,6,"соседи","neighbors",done
 "abendessen",noun,6,"Ужин","Dinner",done
 "chor",noun,6,"Хор","Choir",done
@@ -789,7 +772,6 @@ lemma,pos,freq,ru,en,status
 "polizist",noun,6,"Полицейский","Police officer",done
 "präsidents",noun,6,"президенты","presidents",done
 "italiener",noun,6,"Итальянцы","Italian",done
-"bruders",noun,6,"братья","brothers",done
 "natur",noun,6,"натуральный","Nature",done
 "schulsystem",noun,6,"школьная система","educational system",done
 "frühling",noun,6,"Весна","The olive tree in Spring",done
@@ -870,7 +852,7 @@ lemma,pos,freq,ru,en,status
 "januar",noun,6,"января","January",done
 "teuer",adj,5,"дорого","high",done
 "billig",adj,5,"дешевый","cheap",done
-"lang",adj,5,"длинная","long",done
+"lang",adj,5,"длинный","long",done
 "ruhig",adj,5,"spagoina","Quiet setting",done
 "kaufen",verb,5,"покупать","to buy",done
 "trinken",verb,5,"пить","to drink",done
@@ -901,11 +883,10 @@ lemma,pos,freq,ru,en,status
 "haustier",noun,4,"Домашние животные","Pet",done
 "hut",noun,4,"Шляпа","",pending
 "äpfel",noun,4,"Яблоки","Apples",done
-"städte",noun,4,"geo|Города","Cities",done
 "busse",noun,4,"Буссе","",pending
 "fotos",noun,4,"Фото","photos",done
 "filme",noun,4,"Фильмы:","Movies",done
-"lampen",noun,4,"Лампы","lights&#x0D;",done
+"lampen",noun,4,"Лампы","",pending
 "züge",noun,4,"Цуг","trains",done
 "pizzen",noun,4,"пицца","Pizzas",done
 "parks",noun,4,"Парки","parks",done
@@ -914,7 +895,6 @@ lemma,pos,freq,ru,en,status
 "baum",noun,4,"Баум","Tree",done
 "tomaten",noun,4,"<g id=""1"">Помидоры</g>,","tomato",done
 "hotels",noun,4,"Гостиницы","hotels",done
-"männer",noun,4,"Для мужчин","men",done
 "lieder",noun,4,"песни","songs",done
 "wolken",noun,4,"облачность","Clouds.",done
 "aufgaben",noun,4,"Задачи","tasks",done
@@ -1003,9 +983,6 @@ lemma,pos,freq,ru,en,status
 "konferierend",noun,4,"конференц-связь","conferencing",done
 "medikamentler",noun,4,"аптекарь","druggist",done
 "genesend",noun,4,"восстановление","recovering",done
-"muttern",noun,4,"гайки","Nuts",done
-"unternehmens",noun,4,"предприятия","company",done
-"brudern",noun,4,"братья","brothers",done
 "studierende",noun,4,"студенты","Students",done
 "häuser",noun,4,"клеток","house",done
 "strom",noun,4,"Электричество","flow",done
@@ -1052,7 +1029,7 @@ lemma,pos,freq,ru,en,status
 "zahlungen",noun,4,"Платежи","Payments",done
 "kundin",noun,4,"клиент","customer (female)",done
 "antworten",verb,3,"Ответы","answer",done
-"viel",adj,3,"много","significant",done
+"viel",adv,3,"много","much / a lot",done
 "nah",adj,3,"Ближе","close",done
 "elegant",adj,3,"элегантный","elegant",done
 "schlafen",verb,3,"спать","to sleep",done
@@ -1076,7 +1053,7 @@ lemma,pos,freq,ru,en,status
 "fen",verb,3,"Fen!","linkage",done
 "senden",verb,3,"отправить","send",done
 "nutzen",verb,3,"средства.","to use",done
-"hren",verb,3,"","Your&#x0D;",pending
+"hren",verb,3,"","",pending
 "sammelen",verb,3,"собрать","collect",done
 "unterzeichnen",verb,3,"знак","and",done
 "einladen",verb,3,"","",pending
@@ -1139,7 +1116,6 @@ lemma,pos,freq,ru,en,status
 "auten",noun,2,"","Auten",pending
 "autosn",noun,2,"","cars",pending
 "freunds",noun,2,"друзья","friends",done
-"städten",noun,2,"города","cities",done
 "stadts",noun,2,"город","city",done
 "hobbysn",noun,2,"hobbiesn","hobbiesn",done
 "hobbien",noun,2,"хобби","hobbies",done
@@ -1155,7 +1131,6 @@ lemma,pos,freq,ru,en,status
 "tags",noun,2,"Пометки","days / tags",done
 "täg",noun,2,"день","day",done
 "hand",noun,2,"рука","hand",done
-"händen",noun,2,"руки","hands",done
 "händ",noun,2,"ручной","manual",done
 "hands",noun,2,"руки","hands",done
 "fotosn",noun,2,"фото","photos",done
@@ -1248,10 +1223,8 @@ lemma,pos,freq,ru,en,status
 "nachbaren",noun,2,"соседний","neighboring",done
 "kinde",noun,2,"ребенок","Child",done
 "kinds",noun,2,"дети","children",done
-"büchern",noun,2,"книги","* books",done
 "büch",noun,2,"книга","book",done
 "manns",noun,2,"маннс","Manns",done
-"männern",noun,2,"мужчины","Men",done
 "europa",noun,2,"Европа","Europe",done
 "ärzte",noun,2,"Врачи","Physicians",done
 "jacken",noun,2,"Куртки","jackets",done
@@ -1659,6 +1632,7 @@ lemma,pos,freq,ru,en,status
 "sich freuen",verb,0,"радоваться","to look forward / be glad",done
 "gast",noun,0,"гость","guest",done
 "folgen",verb,0,"следовать","to follow",done
+"lange",adv,0,"долго","for a long time",done
 "haben",verb,0,"иметь","to have",done
 "sein",verb,0,"быть","to be",done
 "gut",adj,0,"хороший","good",done

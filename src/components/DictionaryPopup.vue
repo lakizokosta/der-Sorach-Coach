@@ -61,6 +61,7 @@ async function lookup() {
 
   const pos = result.pos;
   if (pos === 'verb') posLabel.value = 'Verb';
+  else if (pos === 'adv') posLabel.value = 'Adv.';
   else if (pos === 'adj') posLabel.value = 'Adj.';
   else if (pos === 'noun' && result.gender) {
     posLabel.value = genderLabels[result.gender] || 'Nomen';

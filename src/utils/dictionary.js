@@ -44,6 +44,10 @@ export function resolveLemma(word) {
   if (verbLemmas[key]) {
     return { form, lemma: normalizeLemmaKey(verbLemmas[key]), pos: 'verb' };
   }
+  const directEntry = vocabulary[key];
+  if (directEntry?.pos === 'adv') {
+    return { form, lemma: key, pos: 'adv' };
+  }
   if (adjLemmas[key]) {
     return { form, lemma: adjLemmas[key], pos: 'adj' };
   }
@@ -108,7 +112,11 @@ function isUsableTranslation(text, lemma, lang) {
   if (lang === 'en' && /[а-яё]/i.test(text)) return false;
   if (/<[^>]+>/.test(text)) return false;
   if (/^\?+$|^\d+\.?$|^\.\.\.$|^-$|^\.$/.test(text.trim())) return false;
-  if (/SELLER NAME|Kurzinhalt|MYMEMORY/i.test(text)) return false;
+  if (/SELLER NAME|Kurzinhalt|MYMEMORY|google tranlator|pertrauka|ltaly|Form of|flight simulator/i.test(text)) {
+    return false;
+  }
+  if (/&#/.test(text)) return false;
+  if (lang === 'ru' && /^(в|на|из)\s/i.test(text.trim()) && !/\//.test(text)) return false;
   return true;
 }
 

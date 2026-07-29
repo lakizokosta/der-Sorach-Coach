@@ -202,6 +202,8 @@ function cleanFetchedTranslation(raw) {
   if (/^[a-zäöüß]{1,4}\.$/i.test(t)) return '';
   if (/^[а-яё]{1,3}\.$/i.test(t)) return '';
   if (/\b(if you|would like|are here)\b/i.test(t)) return '';
+  if (/&#/.test(t)) return '';
+  if (/google tranlator|pertrauka|ltaly|Form of|flight simulator/i.test(t)) return '';
   return t;
 }
 
@@ -232,6 +234,17 @@ for (const form of Object.keys(verbLemmas)) {
   if (row?.pos === 'noun' && form !== verbLemmas[form]) {
     vocab.delete(form);
   }
+}
+
+// Inflected noun forms wrongly indexed as separate lemmas (genitive/plural).
+for (const [form, lemma] of Object.entries(nounLemmas)) {
+  if (form === lemma) continue;
+  const row = vocab.get(form);
+  if (!row) continue;
+  if (row.pos === 'noun' && !vocab.get(lemma)) {
+    vocab.set(lemma, { ...row, freq: row.freq });
+  }
+  if (row.pos === 'noun') vocab.delete(form);
 }
 
 async function fetchTranslation(word, lang) {

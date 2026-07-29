@@ -48,4 +48,7 @@ export const NOUN_FORM_LEMMAS = {
   probleme: 'problem',
   fragen: 'frage',
   antworten: 'antwort',
+  decken: 'decke',
+  sommers: 'sommer',
+  berge: 'berg',
 };
