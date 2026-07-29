@@ -585,6 +585,7 @@ function validateMagicToken(p) {
  * @return {string}
  */
 function issueMagicSessionToken_(email, deviceId) {
+  expireMagicSessionsForDevice_(email, deviceId);
   const token = Utilities.getUuid().replace(/-/g, '');
   const sheet = sheet_('MagicSessions', ['token', 'email', 'deviceId', 'createdAt', 'expiresAt']);
   sheet.appendRow([
@@ -595,6 +596,68 @@ function issueMagicSessionToken_(email, deviceId) {
     new Date(Date.now() + MAGIC_SESSION_LIFETIME_MS),
   ]);
   return token;
+}
+
+/**
+ * Invalidates all active magic sessions for one e-mail + device pair.
+ *
+ * @param {string} email
+ * @param {string} deviceId
+ */
+function expireMagicSessionsForDevice_(email, deviceId) {
+  const norm = String(email || '').toLowerCase().trim();
+  const did = normalizeDeviceId_(deviceId);
+  if (!norm || !did) return;
+
+  const sheet = sheet_('MagicSessions');
+  const data = sheet.getDataRange().getValues();
+  const now = new Date();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
+    if (normalizeDeviceId_(data[r][2]) !== did) continue;
+    const exp = data[r][4];
+    if (exp && new Date(exp).getTime() <= now.getTime()) continue;
+    sheet.getRange(r + 1, 5).setValue(now);
+  }
+}
+
+/**
+ * When the device cap is full, drop the least recently used registered device
+ * so a new phone/browser can replace an old test session (not add a 3rd slot).
+ *
+ * @param {string} email
+ */
+function evictOldestMagicDevice_(email) {
+  const norm = String(email || '').toLowerCase().trim();
+  if (!norm) return;
+
+  const sheet = sheet_('MagicSessions');
+  const data = sheet.getDataRange().getValues();
+  const nowMs = Date.now();
+  /** @type {Record<string, number>} */
+  const lastSeen = {};
+
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
+    const exp = data[r][4];
+    if (exp && new Date(exp).getTime() <= nowMs) continue;
+    const did = normalizeDeviceId_(data[r][2]);
+    if (!did) continue;
+    const created = data[r][3] ? new Date(data[r][3]).getTime() : 0;
+    lastSeen[did] = Math.max(lastSeen[did] || 0, created);
+  }
+
+  const devices = Object.keys(lastSeen);
+  if (devices.length < MAX_DEVICES_PER_EMAIL) return;
+
+  devices.sort(function(a, b) { return lastSeen[a] - lastSeen[b]; });
+  const evict = devices[0];
+  const now = new Date();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
+    if (normalizeDeviceId_(data[r][2]) !== evict) continue;
+    sheet.getRange(r + 1, 5).setValue(now);
+  }
 }
 
 /**
@@ -650,14 +713,9 @@ function assertMagicDeviceSlot_(email, deviceId) {
   if (active.has(did)) return { ok: true };
 
   if (active.size >= MAX_DEVICES_PER_EMAIL) {
-    return {
-      ok: false,
-      errorCode: 'DEVICE_LIMIT',
-      maxDevices: MAX_DEVICES_PER_EMAIL,
-      error:
-        'Gerätelimit erreicht (max. ' + MAX_DEVICES_PER_EMAIL +
-        '). Melde dich auf einem registrierten Gerät an oder kontaktiere den Support.',
-    };
+    while (listActiveMagicDevices_(email).size >= MAX_DEVICES_PER_EMAIL) {
+      evictOldestMagicDevice_(email);
+    }
   }
   return { ok: true };
 }

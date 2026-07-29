@@ -79,8 +79,8 @@ let freeTimerBaseline = null;
 
 const level = ref(route.query.level || 'A1');
 const topic = ref(route.query.topic || '');
-const schwaechenMode = route.query.mode === 'schwaechen';
-const placementMode = route.query.mode === 'placement';
+const schwaechenMode = computed(() => route.query.mode === 'schwaechen');
+const placementMode = computed(() => route.query.mode === 'placement');
 const schwaechenTopics = ref([]);
 
 // `shallowRef` so Vue's reactivity does NOT deeply proxy the queue's
@@ -306,13 +306,13 @@ async function loadSessionQuestions() {
   const authCtx = getPremiumRequestContext();
   const useServer = shouldLoadQuestionsFromServer(route.query);
 
-  if (placementMode) {
+  if (placementMode.value) {
     placementScores.value = Object.fromEntries(
       PLACEMENT_LEVELS.map((lvl) => [lvl, { correct: 0, total: 0 }]),
     );
     return buildPlacementQuestions(useServer ? authCtx : null);
   }
-  if (schwaechenMode) {
+  if (schwaechenMode.value) {
     schwaechenTopics.value = getWeakestTopics(
       xpState.topicWrong,
       xpState.topicCorrect,
@@ -383,15 +383,37 @@ function startEntitlementPolling() {
   entitlementTimer = setInterval(runEntitlementCheck, ENTITLEMENT_CHECK_MS);
 }
 
+/** Clears in-session state when route params change or a round restarts. */
+function resetTrainerSessionState() {
+  answered.value = 0;
+  correct.value = 0;
+  finished.value = false;
+  finishReason.value = '';
+  showRetry.value = false;
+  showGrammarTip.value = false;
+  upsellHtml.value = '';
+  wrongTopics.value = {};
+  lastAnswerResolved.value = false;
+  sessionStreak.value = 0;
+  microFeedback.value = { visible: false, lines: [], tone: 'good' };
+  freeTimerBaseline = null;
+  placementDetectedLevel.value = '';
+  placementScores.value = {};
+  level.value = String(route.query.level || 'A1');
+  topic.value = String(route.query.topic || '');
+  queue.value = null;
+  queueVersion.value += 1;
+}
+
 async function initTrainer() {
-  if ((schwaechenMode || placementMode) && !isPremium.value) {
+  if ((schwaechenMode.value || placementMode.value) && !isPremium.value) {
     router.replace({ name: 'premium', query: { hub: '1' } });
     return;
   }
 
   const accessOk = await ensureAccessBeforeLoad();
   if (!accessOk) {
-    if (schwaechenMode || placementMode || (topic.value && route.query.mode === 'premium')) {
+    if (schwaechenMode.value || placementMode.value || (topic.value && route.query.mode === 'premium')) {
       router.replace({ name: 'premium', query: { hub: '1' } });
     } else {
       router.replace({ name: 'landing' });
@@ -409,7 +431,7 @@ async function initTrainer() {
     return;
   }
 
-  queue.value = new AdaptiveQueue(all, { shuffle: !placementMode });
+  queue.value = new AdaptiveQueue(all, { shuffle: !placementMode.value });
   if (!queue.value.hasNext()) {
     finished.value = true;
     return;
@@ -430,6 +452,17 @@ onMounted(() => {
   initTrainer();
   window.addEventListener('keydown', onTrainerKeydown);
 });
+
+watch(
+  () => [route.query.mode, route.query.level, route.query.topic].join('|'),
+  async (nextKey, prevKey) => {
+    if (prevKey === undefined) return;
+    if (nextKey === prevKey) return;
+    resetTrainerSessionState();
+    stopEntitlementPolling();
+    await initTrainer();
+  },
+);
 
 onBeforeUnmount(() => {
   delete document.documentElement.dataset.funnelSticky;
@@ -495,17 +528,17 @@ function onAnswer(payload) {
 
   if (!showRetry.value) {
     answered.value += 1;
-    if (placementMode) {
+    if (placementMode.value) {
       trackPlacementAnswer(isCorrect);
     } else {
       recordQuestionAnswered();
     }
     if (isCorrect) {
       correct.value += 1;
-      if (!placementMode) {
+      if (!placementMode.value) {
         applyAnswerXp(true, collectBonusLines(true));
       }
-    } else if (!placementMode) {
+    } else if (!placementMode.value) {
       collectBonusLines(false);
       applyAnswerXp(false);
       recordWrongTopic();
@@ -515,7 +548,7 @@ function onAnswer(payload) {
   }
 
   if (queue.value) {
-    if (isCorrect || placementMode) queue.value.consumeCorrect();
+    if (isCorrect || placementMode.value) queue.value.consumeCorrect();
     else queue.value.consumeWrong();
   }
   lastAnswerResolved.value = true;
@@ -531,7 +564,7 @@ function onFirstWrong() {
   ensureTimerStarted();
   if (!showRetry.value) {
     answered.value += 1;
-    if (placementMode) {
+    if (placementMode.value) {
       trackPlacementAnswer(false);
     } else {
       recordQuestionAnswered();
@@ -540,7 +573,7 @@ function onFirstWrong() {
       recordWrongTopic();
     }
     showRetry.value = true;
-    if (!placementMode) {
+    if (!placementMode.value) {
       showGrammarTip.value = isPremium.value;
       if (!isPremium.value) refreshUpsell();
     }
@@ -611,7 +644,7 @@ function next() {
   lastAnswerResolved.value = false;
   queueVersion.value += 1;
   if (!queue.value || !queue.value.hasNext()) {
-    if (placementMode) finalizePlacementResult();
+    if (placementMode.value) finalizePlacementResult();
     finish('Fragen zu Ende');
   }
 }
@@ -664,7 +697,7 @@ function exitSession() {
     });
     return;
   }
-  if (placementMode || schwaechenMode) router.push({ name: 'landing' });
+  if (placementMode.value || schwaechenMode.value) router.push({ name: 'landing' });
   else if (isPremium.value) router.push({ name: 'premium' });
   else router.push({ name: 'landing' });
 }
@@ -674,18 +707,7 @@ function exitSession() {
  * Resets all state and rebuilds the queue with the same params.
  */
 async function restartSession() {
-  answered.value = 0;
-  correct.value = 0;
-  finished.value = false;
-  finishReason.value = '';
-  showRetry.value = false;
-  showGrammarTip.value = false;
-  upsellHtml.value = '';
-  wrongTopics.value = {};
-  lastAnswerResolved.value = false;
-  sessionStreak.value = 0;
-  microFeedback.value = { visible: false, lines: [], tone: 'good' };
-  freeTimerBaseline = null;
+  resetTrainerSessionState();
 
   const accessOk = await ensureAccessBeforeLoad();
   if (!accessOk) {
@@ -695,33 +717,16 @@ async function restartSession() {
   }
 
   let all;
-  if (schwaechenMode) {
-    schwaechenTopics.value = getWeakestTopics(xpState.topicWrong, xpState.topicCorrect, 3);
-    if (shouldLoadQuestionsFromServer(route.query)) {
-      all = await loadWeakTopicsFromServer(schwaechenTopics.value, getPremiumRequestContext());
-    } else {
-      all = await getQuestionsForWeakTopics(schwaechenTopics.value);
-    }
-  } else if (topic.value) {
-    if (shouldLoadQuestionsFromServer(route.query)) {
-      all = await loadPremiumQuestions({
-        level: level.value,
-        topic: topic.value,
-        ...getPremiumRequestContext(),
-      });
-    } else {
-      all = await getQuestionsByTopic(level.value, topic.value);
-    }
-  } else if (shouldLoadQuestionsFromServer(route.query) && route.query.mode === 'premium') {
-    all = await loadPremiumQuestions({
-      level: level.value,
-      ...getPremiumRequestContext(),
-    });
-  } else {
-    all = await getQuestionsByLevel(level.value);
+  try {
+    all = await loadSessionQuestions();
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('[trainer] failed to reload questions', err);
+    finished.value = true;
+    return;
   }
 
-  queue.value = new AdaptiveQueue(all, { shuffle: true });
+  queue.value = new AdaptiveQueue(all, { shuffle: !placementMode.value });
   queueVersion.value += 1;
 
   if (!isPremium.value && !isBasis.value) {
@@ -777,7 +782,7 @@ const wrongTopicList = computed(() =>
 );
 
 const placementBreakdownRows = computed(() =>
-  placementMode && placementDetectedLevel.value
+  placementMode.value && placementDetectedLevel.value
     ? placementBreakdown(placementScores.value)
     : [],
 );
@@ -793,8 +798,8 @@ const showFunnelSticky = computed(
     !isBasis.value &&
     !finished.value &&
     !!currentQuestion.value &&
-    !placementMode &&
-    !schwaechenMode,
+    !placementMode.value &&
+    !schwaechenMode.value,
 );
 
 watch(

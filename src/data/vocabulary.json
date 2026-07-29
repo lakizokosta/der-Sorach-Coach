@@ -215,6 +215,12 @@
     "en": "politics",
     "gender": "f"
   },
+  "arbeit": {
+    "pos": "noun",
+    "ru": "работа",
+    "en": "work",
+    "gender": "f"
+  },
   "kind": {
     "pos": "noun",
     "ru": "ребёнок",
@@ -226,12 +232,6 @@
     "ru": "отпуск",
     "en": "holiday / vacation",
     "gender": "m"
-  },
-  "arbeit": {
-    "pos": "noun",
-    "ru": "работа",
-    "en": "work",
-    "gender": "f"
   },
   "interesse": {
     "pos": "noun",
@@ -397,6 +397,12 @@
     "ru": "погода",
     "en": "weather"
   },
+  "fest": {
+    "pos": "noun",
+    "ru": "праздник / фестиваль",
+    "en": "festival / party",
+    "gender": "n"
+  },
   "gäste": {
     "pos": "noun",
     "ru": "Гости:",
@@ -407,12 +413,6 @@
     "ru": "сообщение",
     "en": "message",
     "gender": "f"
-  },
-  "fest": {
-    "pos": "noun",
-    "ru": "праздник / фестиваль",
-    "en": "festival / party",
-    "gender": "n"
   },
   "verbindung": {
     "pos": "noun",
@@ -770,6 +770,11 @@
     "ru": "Футбол",
     "en": "Football"
   },
+  "hausaufgaben": {
+    "pos": "noun",
+    "ru": "Домашние задания",
+    "en": "Homework"
+  },
   "stuhl": {
     "pos": "noun",
     "ru": "стул:",
@@ -836,11 +841,6 @@
     "pos": "noun",
     "ru": "Италия",
     "en": "ltaly"
-  },
-  "hausaufgaben": {
-    "pos": "noun",
-    "ru": "Домашние задания",
-    "en": "Homework"
   },
   "geburtstag": {
     "pos": "noun",
@@ -991,6 +991,11 @@
     "pos": "noun",
     "ru": "Мозель",
     "en": "Moselle (river)"
+  },
+  "kommst": {
+    "pos": "noun",
+    "ru": "приезжайте",
+    "en": "are here."
   },
   "zukunft": {
     "pos": "noun",
@@ -1289,11 +1294,6 @@
     "ru": "Ключ",
     "en": "key"
   },
-  "kommst": {
-    "pos": "noun",
-    "ru": "приезжайте",
-    "en": "are here."
-  },
   "hochzeit": {
     "pos": "noun",
     "ru": "Свадьба",
@@ -1475,6 +1475,11 @@
     "pos": "noun",
     "ru": "Гитара",
     "en": "Guitar"
+  },
+  "konzert": {
+    "pos": "noun",
+    "ru": "концерт",
+    "en": "Concert."
   },
   "brief": {
     "pos": "noun",
@@ -1695,11 +1700,6 @@
     "pos": "noun",
     "ru": "исследователь",
     "en": "Researcher"
-  },
-  "konzert": {
-    "pos": "noun",
-    "ru": "концерт",
-    "en": "Concert."
   },
   "flug": {
     "pos": "noun",

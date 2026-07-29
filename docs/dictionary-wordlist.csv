@@ -43,9 +43,9 @@ lemma,pos,freq,ru,en,status
 "gesetz",noun,168,"закон","law",done
 "bericht",noun,164,"отчёт","report",done
 "politik",noun,162,"политика","politics",done
+"arbeit",noun,158,"работа","work",done
 "kind",noun,154,"ребёнок","child",done
 "urlaub",noun,154,"отпуск","holiday / vacation",done
-"arbeit",noun,152,"работа","work",done
 "interesse",noun,152,"интерес","interest",done
 "meeting",noun,150,"совещание","meeting",done
 "tisch",noun,148,"стол","table",done
@@ -74,9 +74,9 @@ lemma,pos,freq,ru,en,status
 "professor",noun,112,"профессор","professor",done
 "ergebnisse",noun,112,"испытаний","Results",done
 "wetters",noun,110,"погода","weather",done
+"fest",noun,108,"праздник / фестиваль","festival / party",done
 "gäste",noun,104,"Гости:","Guests",done
 "nachricht",noun,102,"сообщение","message",done
-"fest",noun,102,"праздник / фестиваль","festival / party",done
 "verbindung",noun,102,"Соединение","Connection",done
 "fahrrad",noun,100,"велосипед","bicycle",done
 "kinder",noun,100,"Дети","children",done
@@ -154,6 +154,7 @@ lemma,pos,freq,ru,en,status
 "gebäude",noun,64,"Корпус","building",done
 "lampe",noun,62,"Лампа","Lamp",done
 "fußball",noun,62,"Футбол","Football",done
+"hausaufgaben",noun,62,"Домашние задания","Homework",done
 "stuhl",noun,62,"стул:","google tranlator",done
 "unterrichts",noun,62,"обучение","Form of",done
 "angst",noun,62,"страх","Anxiety",done
@@ -167,7 +168,6 @@ lemma,pos,freq,ru,en,status
 "pizza",noun,58,"пицца","pizza",done
 "supermarkt",noun,58,"В супермаркете","Supermarket",done
 "italien",noun,58,"Италия","ltaly",done
-"hausaufgaben",noun,56,"Домашние задания","Homework",done
 "geburtstag",noun,56,"Дата рождения","Birthday",done
 "regens",noun,56,"дожди","rains",done
 "licht",noun,56,"Освещение","light&#x0D;",done
@@ -198,6 +198,7 @@ lemma,pos,freq,ru,en,status
 "pause",noun,50,"Пауза","pertrauka",done
 "qualität",noun,50,"проволоки","quality",done
 "mosel",noun,50,"Мозель","Moselle (river)",done
+"kommst",noun,50,"приезжайте","are here.",done
 "zukunft",noun,50,"будущее","future",done
 "abteilung",noun,50,"Отделение","Department",done
 "personalabteilung",noun,50,"Отдел кадров","Human Resources Department",done
@@ -257,7 +258,6 @@ lemma,pos,freq,ru,en,status
 "zoo",noun,38,"Зоопарк","zoo",done
 "wien",noun,38,"университет","Vienna",done
 "schlüssel",noun,38,"Ключ","key",done
-"kommst",noun,38,"приезжайте","are here.",done
 "hochzeit",noun,38,"Свадьба","Wedding",done
 "ende",noun,38,"если","of education",done
 "autor",noun,38,"Автор","author",done
@@ -294,6 +294,7 @@ lemma,pos,freq,ru,en,status
 "unternehmen",noun,34,"предприятие / компания","company",done
 "markt",noun,32,"Рынок","market",done
 "gitarre",noun,32,"Гитара","Guitar",done
+"konzert",noun,32,"концерт","Concert.",done
 "brief",noun,32,"Письмо","Letter",done
 "küste",noun,32,"Побережье","Coast",done
 "gehen",verb,32,"идти","to go",done
@@ -338,7 +339,6 @@ lemma,pos,freq,ru,en,status
 "antrag",noun,28,"Заявление","Application",done
 "auszeichnung",noun,28,"Награда","display",done
 "forscherin",noun,28,"исследователь","Researcher",done
-"konzert",noun,26,"концерт","Concert.",done
 "flug",noun,26,"Перелет","flight simulator",done
 "anna",noun,26,"Анна","Anna",done
 "herr",noun,26,"Господином","Mr.",done
