@@ -35,6 +35,13 @@
   "berg": {
     "en": "mountain"
   },
+  "berge": {
+    "en": "mountains"
+  },
+  "besuchen": {
+    "en": "to visit",
+    "pos": "verb"
+  },
   "brandt": {
     "en": "Brandt"
   },
@@ -64,6 +71,10 @@
   },
   "dorf": {
     "en": "village"
+  },
+  "durchgehen": {
+    "en": "to go through / skim",
+    "pos": "verb"
   },
   "eien": {
     "en": "one (fragment)"
@@ -105,6 +116,10 @@
   },
   "genes": {
     "en": "Genes"
+  },
+  "gern": {
+    "en": "gladly / with pleasure",
+    "pos": "adv"
   },
   "gib": {
     "en": "give (imperative)"
@@ -211,6 +226,11 @@
   },
   "koch": {
     "en": "cook / chef"
+  },
+  "krankheit": {
+    "en": "illness / disease",
+    "pos": "noun",
+    "gender": "f"
   },
   "krause": {
     "en": "Krause"
@@ -487,6 +507,11 @@
   },
   "tal": {
     "en": "valley"
+  },
+  "tasche": {
+    "en": "bag / purse",
+    "pos": "noun",
+    "gender": "f"
   },
   "tean": {
     "en": "team (fragment)"

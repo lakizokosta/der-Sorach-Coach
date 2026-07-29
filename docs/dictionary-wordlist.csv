@@ -34,7 +34,6 @@ lemma,pos,freq,ru,en,status
 "pronominaladverb",noun,200,"","",pending
 "relativpronomen",noun,200,"","",pending
 "medikament",noun,188,"лекарство","medicine / drug",done
-"frage",noun,186,"вопрос","question",done
 "firma",noun,186,"фирма","company",done
 "termin",noun,178,"встреча / приём","appointment",done
 "entscheidung",noun,170,"решение","decision",done
@@ -198,12 +197,10 @@ lemma,pos,freq,ru,en,status
 "pause",noun,50,"Пауза","pertrauka",done
 "qualität",noun,50,"проволоки","quality",done
 "mosel",noun,50,"Мозель","Moselle (river)",done
-"kommst",noun,50,"приезжайте","are here.",done
 "zukunft",noun,50,"будущее","future",done
 "abteilung",noun,50,"Отделение","Department",done
 "personalabteilung",noun,50,"Отдел кадров","Human Resources Department",done
 "patientin",noun,50,"Пациент","Patient",done
-"+ präposition",verb,50,"Предлог","Preposition and postposition",done
 "wortstellung",noun,50,"","",pending
 "schirm",noun,48,"Зонт","Shield",done
 "weg",noun,48,"путь / дорога","way / path",done
@@ -244,8 +241,8 @@ lemma,pos,freq,ru,en,status
 "herren",noun,42,"мужчины","men",done
 "paket",noun,42,"Пакет","level",done
 "meetings",noun,42,"встречи","meetings",done
-"fahren",verb,41,"подвезти","to drive / go",done
-"krankheit",noun,40,"диабет","illness",done
+"fahren",verb,41,"ехать, водить","to drive / go",done
+"krankheit",noun,40,"болезнь","illness / disease",done
 "sturms",noun,40,"штормы","storms",done
 "chefs",noun,40,"шеф-повара","residents.",done
 "schmerzen",noun,40,"боль","ache",done
@@ -261,7 +258,7 @@ lemma,pos,freq,ru,en,status
 "hochzeit",noun,38,"Свадьба","Wedding",done
 "ende",noun,38,"если","of education",done
 "autor",noun,38,"Автор","author",done
-"tasche",noun,36,"сумка","case",done
+"tasche",noun,36,"сумка","bag / purse",done
 "garten",noun,36,"Сад","Garden",done
 "suppe",noun,36,"Суп:","Soup",done
 "lösung",noun,36,"РЕШЕНИЕ","Solution",done
@@ -307,7 +304,6 @@ lemma,pos,freq,ru,en,status
 "regen",noun,30,"дождь","rain",done
 "interessierst",noun,30,"заинтересован","interested",done
 "neues",noun,30,"Новое","Purchase",done
-"brauchst",noun,30,"потребность","when you need it.",done
 "umweltschutz",noun,30,"Экология.","Environmental protection",done
 "verkehr",noun,30,"транспортное сообщение","transport",done
 "chefin",noun,30,"Босс!","CHIEF",done
@@ -341,7 +337,7 @@ lemma,pos,freq,ru,en,status
 "forscherin",noun,28,"исследователь","Researcher",done
 "flug",noun,26,"Перелет","flight simulator",done
 "anna",noun,26,"Анна","Anna",done
-"herr",noun,26,"Господином","Mr.",done
+"herr",noun,26,"Господином","",pending
 "kindheit",noun,26,"Детство","Infancy",done
 "ruhe",noun,26,"Тишина","Peace",done
 "eis",noun,26,"Лёд","ice",done
@@ -353,15 +349,13 @@ lemma,pos,freq,ru,en,status
 "wochen",noun,26,"недели","weeks",done
 "chancen",noun,26,"Возможности:","Opportunities",done
 "leben",noun,26,"жить","live",done
-"laden",noun,24,"магазин","shop",done
 "spaß",noun,24,"Забавное","fun",done
 "freunden",noun,24,"друзья","friends",done
 "winter",noun,24,"зима","summer",done
 "bank",noun,24,"площадке","bank / bench",done
 "flasche",noun,24,"Флакон","bottle",done
-"fahrt",noun,24,"Движение","drive",done
 "trainer",noun,24,"ТРЕНЕР","personal",done
-"berge",noun,24,"гор.","mountains",done
+"berge",noun,24,"горы","mountains",done
 "regal",noun,24,"Стеллаж","Shelf",done
 "panne",noun,24,"Поломка","Breakdown",done
 "studentin",noun,24,"Студентка","Student's",done
@@ -405,6 +399,7 @@ lemma,pos,freq,ru,en,status
 "blumen",noun,22,"Блумен","Flowers",done
 "problems",noun,22,"проблемы","problems",done
 "kopf",noun,22,"ВЕРХНЯЯ","Header",done
+"aufstehen",verb,22,"вставать","to get up",done
 "großeltern",noun,22,"бабушки и дедушки","Grandpa",done
 "nachbarin",noun,22,"сосед","NEIGHBOR",done
 "kindes",noun,22,"ребенок","child",done
@@ -416,10 +411,11 @@ lemma,pos,freq,ru,en,status
 "kommission",noun,22,"Комиссия","Commission",done
 "recht",noun,22,"Правовые вопросы","right",done
 "maschine",noun,22,"Машина","machine",done
+"einkaufen",noun,21,"делать покупки","shopping",done
 "ausruhen",noun,21,"отдых","resting",done
 "apfel",noun,20,"яблочный","apple",done
 "kindern",noun,20,"детям.","children",done
-"berg",noun,20,"БЕРГ","mountain",done
+"berg",noun,20,"гора","mountain",done
 "hände",noun,20,"Кисть","Hands",done
 "probleme",noun,20,"Проблемы","problems",done
 "rat",noun,20,"консультация, совет","hemitartrate",done
@@ -443,13 +439,11 @@ lemma,pos,freq,ru,en,status
 "sofa",noun,18,"Диван","sofa",done
 "keller",noun,18,"Келлер","basement (18)",done
 "podcast",noun,18,"Подкаст","podcast",done
-"lernst",noun,18,"учиться","to learn",done
 "witz",noun,18,"Анекдот","Joke",done
 "tages",noun,18,"Тагес","of the day (Tag-)",done
 "kälte",noun,18,"Переохлаждение","Cold",done
 "müdigkeit",noun,18,"Утомляемость","Fatigue",done
 "häusern",noun,18,"Хойзерн","cases",done
-"einkaufen",noun,18,"делать покупки","shopping",done
 "students",noun,18,"студенты","students",done
 "wagen",noun,18,"смею остановиться","do I not dare ?",done
 "name",noun,18,"имя","name",done
@@ -460,7 +454,6 @@ lemma,pos,freq,ru,en,status
 "everest",noun,18,"Эверест","Mount Everest",done
 "spieler",noun,18,"Игроки","players",done
 "essens",noun,18,"еда","food",done
-"+ verb aufstehen",verb,18,"+ глагол встать","+ verb to stand up",done
 "leiter",noun,18,"Руководитель","ladder",done
 "boden",noun,18,"Пол","floor",done
 "politikerin",noun,18,"политик","Politician (female)",done
@@ -533,7 +526,6 @@ lemma,pos,freq,ru,en,status
 "anlässlich",noun,18,"по случаю","on the occasion of",done
 "regeln",noun,18,"ПРАВИЛА","rules",done
 "start",noun,18,"старт / начало","start",done
-"— präp. auf",verb,17,"— подготовка на","— preparation on",done
 "schüler",noun,16,"Школьник","student",done
 "schön",adj,16,"красивый","beautiful / nice",done
 "neu",adj,16,"новый","new",done
@@ -566,12 +558,12 @@ lemma,pos,freq,ru,en,status
 "verein",noun,14,"Объединение","Association",done
 "kennst",noun,14,"вы знаете,","knowing",done
 "bergen",noun,14,"Берген","Retrieve",done
+"ausfüllen",noun,14,"ЗАПОЛНЕНИЕ","information",done
 "zahlung",noun,14,"Наименование выплаты","payment",done
 "rand",noun,14,"Граница","edge / margin",done
 "polizisten",noun,14,"Полицейские","police officers.",done
 "journalistin",noun,14,"Журналистка","Journalist",done
 "präsidenten",noun,14,"Президент","president / presidents",done
-"wäre",noun,14,"было бы.","were",done
 "verfügung",noun,14,"выбытия","Decision",done
 "untersuchung",noun,14,"обследование","checkup",done
 "angeklagten",noun,14,"ответчики","Defendants",done
@@ -605,7 +597,7 @@ lemma,pos,freq,ru,en,status
 "journaliste",noun,12,"журналист","journalist",done
 "komponisten",noun,12,"Композиторы","Chamber music",done
 "löwen",noun,12,"Лёвен","lions",done
-"teil",noun,12,"Teil.","taking part in",done
+"teil",noun,12,"","taking part in",pending
 "leute",noun,12,"люди","people",done
 "detektiv",noun,12,"Агент","Private investigator",done
 "wissen",verb,12,"Знание","to know",done
@@ -639,7 +631,6 @@ lemma,pos,freq,ru,en,status
 "sprachen",noun,12,"Языки","languages",done
 "klavier",noun,12,"Фортепиано","Piano",done
 "anfang",noun,12,"Начало","d’année",done
-"hätte",noun,12,"будет иметь","would have",done
 "sofortmaßnahmen",noun,12,"Неотложные мероприятия","Immediate measures",done
 "unfälle",noun,12,"","",pending
 "mitternacht",noun,12,"","",pending
@@ -667,7 +658,7 @@ lemma,pos,freq,ru,en,status
 "feuer",noun,12,"Огонь","Fire",done
 "kamin",noun,12,"камин","Fireplace",done
 "wellen",noun,12,"Валы","waves",done
-"arm",noun,12,"жалкий","pr.",done
+"arm",noun,12,"жалкий","",pending
 "saal",noun,12,"Зал:","Room",done
 "dach",noun,12,"Кровля","roof",done
 "ampel",noun,12,"Светофор","Traffic Light",done
@@ -711,27 +702,18 @@ lemma,pos,freq,ru,en,status
 "mall",noun,10,"торговый центр","shopping mall",done
 "journalists",noun,10,"журналисты","journalists.",done
 "kunde",noun,10,"Клиент","customer",done
-"— präp. an",verb,10,"— подготовка к","— prep. to",done
-"— präp. über",verb,10,"— приготовление через","— preparation via",done
 "mai",noun,10,"Май","May",done
-"liebe",noun,10,"Любовь","love",done
 "website",noun,10,"Веб-сайт","website",done
-"+ verb absagen",verb,10,"+ отмена глагола","+ verb cancelling",done
+"absagen",verb,10,"","",pending
 "reklamation",noun,10,"Рекламация","Complaint",done
 "angeklagte",noun,10,"ответчики","DEFENDANT",done
 "unterstützung",noun,10,"Поддержка","Support",done
 "gerät",noun,10,"механизм","Device",done
 "wichtig",adj,9,"важный","important",done
 "spielen",verb,9,"играть","to play",done
-"+ verb sollen",verb,9,"+ глагол","+ verb",done
-"+ verb müssen",verb,9,"+ глагол must","+ verb must",done
-"+ verb dürfen",verb,9,"+ глагол май","+ verb may",done
-"+ verb wollen",verb,9,"+ глагол хотеть","+ verb want",done
-"+ verb können",verb,9,"+ can verb","+ can verb",done
 "freuen",verb,9,"радоваться","to be glad",done
-"— denn / deshalb / trotzdem / weil",verb,9,"— потому / поэтому / тем не менее / потому что","— because / therefore / nevertheless / because",done
-"— außerdem / deshalb / trotzdem / weil",verb,9,"— также / поэтому / тем не менее / потому что","— also / therefore / nevertheless / because",done
-"— außerdem / denn / deshalb / trotzdem",verb,9,"— более того / потому / поэтому / тем не менее","— moreover / because / therefore / nevertheless",done
+"vorbereiten",verb,9,"подготовить","preparation",done
+"anmelden",noun,9,"войти","subscribe",done
 "schuhe",noun,8,"Обувь","shoes",done
 "hoch",adj,8,"высокая","high",done
 "vogel",noun,8,"Птица","bird",done
@@ -746,7 +728,6 @@ lemma,pos,freq,ru,en,status
 "münchen",noun,8,"Мюнхен","Munich",done
 "polen",noun,8,"ПОЛЬША","Poland",done
 "arbeitsplatz",noun,8,"Рабочее место","Workplace",done
-"ausfüllen",noun,8,"ЗАПОЛНЕНИЕ","information",done
 "hoffentlich",noun,8,"Надеюсь.","hopefully",done
 "schlafmangel",noun,8,"НЕДОСТАТОК СНА","Lack of sleep",done
 "märz",noun,8,"Март","Mar",done
@@ -758,7 +739,6 @@ lemma,pos,freq,ru,en,status
 "wetterbericht",noun,8,"Прогноз погоды","weather forecast",done
 "fristen",noun,8,"Сроки для открытия","Deadlines",done
 "hinweise",noun,8,"Примечания","information",done
-"könntest",noun,8,"вы могли бы","you could",done
 "menschenmenge",noun,8,"толпа","Crowd",done
 "inflation",noun,8,"Инфляция","inflation",done
 "kaufkraft",noun,8,"покупательная способность","Purchasing power",done
@@ -769,10 +749,9 @@ lemma,pos,freq,ru,en,status
 "warm",adj,7,"горячий","warm",done
 "kalt",adj,7,"с / экономия","cold",done
 "sehen",verb,7,"видеть","to see",done
+"anrufen",verb,7,"звонить","phoning",done
 "waschen",verb,7,"мыть","out",done
-"+ verb ausmachen",verb,7,"+ make out verb","+ make out verb",done
-"— außerdem / denn / deshalb / weil",verb,7,"— также / потому / потому / потому что","— also / because / because / because",done
-"+ verb anmelden",verb,7,"+ ввод глагола","+ verb login",done
+"ausmachen",verb,7,"","",pending
 "impfen",verb,7,"Вакцинация","vaccinate",done
 "pferd",noun,6,"Лошадь","Horse",done
 "test",noun,6,"Тест","test",done
@@ -797,8 +776,6 @@ lemma,pos,freq,ru,en,status
 "farbe",noun,6,"Окрашивание","colour",done
 "stell",noun,6,"место","Model year",done
 "plakat",noun,6,"Плакат","Poster",done
-"trinkst",noun,6,"напитки","Drink",done
-"isst",noun,6,"Рестораны","eating",done
 "poliziste",noun,6,"сотрудник полиции","police officer",done
 "polizists",noun,6,"сотрудники полиции","police officers",done
 "polizistin",noun,6,"Полицейская","Police Woman",done
@@ -817,10 +794,7 @@ lemma,pos,freq,ru,en,status
 "schulsystem",noun,6,"школьная система","educational system",done
 "frühling",noun,6,"Весна","The olive tree in Spring",done
 "maria",noun,6,"МарИя Йенч","Ana Maria",done
-"+ verb anrufen",verb,6,"+ глагол вызова","+ call verb",done
-"+ verb anmachen",verb,6,"+ включить глагол","+ turn on verb",done
-"+ verb vorbereiten",verb,6,"+ подготовить глагол","+ prepare verb",done
-"+ verb ausfüllen",verb,6,"+ заполнить глагол","+ fill in verb",done
+"anmachen",verb,6,"","",pending
 "inhalt",noun,6,"Содержание","Contents",done
 "seminar",noun,6,"Семинар","seminar",done
 "dezember",noun,6,"декабря","December",done
@@ -829,6 +803,7 @@ lemma,pos,freq,ru,en,status
 "ausweis",noun,6,"Удостоверение","Identity card",done
 "anfrage",noun,6,"Запрос","checkout",done
 "betrag",noun,6,"сегодня была выплачена следующая сумма","amount",done
+"einchecken",verb,6,"прибытие","Check in:",done
 "reservation",noun,6,"бронирование","reservation / booking",done
 "rezension",noun,6,"Обзор","review",done
 "renovierung",noun,6,"Реновация","Renovations",done
@@ -899,7 +874,7 @@ lemma,pos,freq,ru,en,status
 "ruhig",adj,5,"spagoina","Quiet setting",done
 "kaufen",verb,5,"покупать","to buy",done
 "trinken",verb,5,"пить","to drink",done
-"gern",adj,5,"нравится","purs.",done
+"gern",adv,5,"охотно, с удовольствием","gladly / with pleasure",done
 "laut",adj,4,"В СООТВ.С","noisy",done
 "alt",adj,4,"старый","old",done
 "sonnig",adj,4,"Облачность","mostly sunny",done
@@ -924,10 +899,10 @@ lemma,pos,freq,ru,en,status
 "zitrone",noun,4,"Лимон","Lemon",done
 "sonntag",noun,4,"Воскресенье","Sunday",done
 "haustier",noun,4,"Домашние животные","Pet",done
-"hut",noun,4,"Шляпа","Hat.",done
+"hut",noun,4,"Шляпа","",pending
 "äpfel",noun,4,"Яблоки","Apples",done
 "städte",noun,4,"geo|Города","Cities",done
-"busse",noun,4,"Буссе","fine.",done
+"busse",noun,4,"Буссе","",pending
 "fotos",noun,4,"Фото","photos",done
 "filme",noun,4,"Фильмы:","Movies",done
 "lampen",noun,4,"Лампы","lights&#x0D;",done
@@ -937,14 +912,12 @@ lemma,pos,freq,ru,en,status
 "hunde",noun,4,"Псовые","dogs",done
 "katzen",noun,4,"Кошки","Cat",done
 "baum",noun,4,"Баум","Tree",done
-"spiele",noun,4,"Игры","playing",done
 "tomaten",noun,4,"<g id=""1"">Помидоры</g>,","tomato",done
 "hotels",noun,4,"Гостиницы","hotels",done
 "männer",noun,4,"Для мужчин","men",done
 "lieder",noun,4,"песни","songs",done
 "wolken",noun,4,"облачность","Clouds.",done
 "aufgaben",noun,4,"Задачи","tasks",done
-"aufstehen",verb,4,"вставать","to get up",done
 "kasse",noun,4,"Касса","health insurance organisation.",done
 "stunden",noun,4,"отсрочивать, пролонгировать (платёж)","Defer",done
 "warten",verb,4,"ждать","waiting",done
@@ -956,7 +929,7 @@ lemma,pos,freq,ru,en,status
 "geschmack",noun,4,"вкус","Taste",done
 "grad",noun,4,"Градусы","Grade",done
 "müller",noun,4,"Мюллер","Müller / miller",done
-"komm",noun,4,"Идём.","comm.",done
+"komm",noun,4,"Идём.","",pending
 "sportplatz",noun,4,"Спортивная площадка","Sports Field",done
 "matte",noun,4,"Мат","mat",done
 "schweiz",noun,4,"Швейцария","Switzerland",done
@@ -989,7 +962,6 @@ lemma,pos,freq,ru,en,status
 "untersuchen",verb,4,"осмотреть","to examine",done
 "diskutiieren",verb,4,"обсудить","discuss",done
 "verkaufen",verb,4,"Продать","Sell",done
-"— präp. für",verb,4,"— подготовка к","— preparation for",done
 "schneider",noun,4,"","Schneider / tailor",pending
 "juli",noun,4,"июля","July",done
 "gerne",noun,4,"Isofix","enjoy",done
@@ -1005,7 +977,7 @@ lemma,pos,freq,ru,en,status
 "hiermit",noun,4,"настоящим","I/we (*) hereby",done
 "wunsch",noun,4,"Желание","Wants",done
 "frist",noun,4,"fp|Укажите срок","period",done
-"+ verb vorverlegen",verb,4,"+ авансовый глагол","+ advance verb",done
+"vorverlegen",verb,4,"","",pending
 "reparieren",verb,4,"Восстановить","how to repair",done
 "beraten",verb,4,"получите консультацию.","to offer you our detailed consulting",done
 "bersetzen",verb,4,"перевести","translate",done
@@ -1038,7 +1010,6 @@ lemma,pos,freq,ru,en,status
 "häuser",noun,4,"клеток","house",done
 "strom",noun,4,"Электричество","flow",done
 "äußerung",noun,4,"акт","Expression",done
-"— außerdem / dennoch / deshalb / folglich",verb,4,"","",pending
 "inmitten",noun,4,"в середине","Korrekt ...",done
 "laufender",noun,4,"текущий","Runner",done
 "laufendes",noun,4,"текущий","current",done
@@ -1049,7 +1020,7 @@ lemma,pos,freq,ru,en,status
 "blauem",noun,4,"синий","blue",done
 "blaues",noun,4,"синий","blue",done
 "breie",noun,4,"трикотаж","knitwear",done
-"beines",noun,4,"ноги","leg.",done
+"beines",noun,4,"ноги","",pending
 "beins",noun,4,"нога","leg",done
 "laufende",noun,4,"текущий","us Current",done
 "köpfen",noun,4,"головки","beheads",done
@@ -1084,7 +1055,6 @@ lemma,pos,freq,ru,en,status
 "viel",adj,3,"много","significant",done
 "nah",adj,3,"Ближе","close",done
 "elegant",adj,3,"элегантный","elegant",done
-"+ verb konjunktiv ii — können/du",verb,3,"+ глагол сослагательное слово ii — can/you","+ verb subjunctive ii — can/you",done
 "schlafen",verb,3,"спать","to sleep",done
 "ziehen",verb,3,"потянуть","pull",done
 "treffen",verb,3,"встречать(ся)","meets",done
@@ -1094,20 +1064,14 @@ lemma,pos,freq,ru,en,status
 "verletzen",verb,3,"ранить","Violate",done
 "fühlen",verb,3,"ощущать","feel",done
 "anziehen",verb,3,"одевать","hand",done
-"vorbereiten",verb,3,"подготовить","preparation",done
 "kümmern",verb,3,"уход","to show poor growth",done
-"+ verb einsteigen",verb,3,"+ введите глагол","+ enter verb",done
-"+ verb aufmachen",verb,3,"+ открытый глагол","+ open verb",done
-"+ verb zumachen",verb,3,"+ глагол to do","+ verb to do",done
-"+ verb einkaufen",verb,3,"+ глагольный шопинг","+ verb shopping",done
-"+ verb ausgehen",verb,3,"+ глагол go out","+ verb go out",done
+"einsteigen",verb,3,"","",pending
+"aufmachen",verb,3,"","",pending
+"zumachen",verb,3,"","",pending
+"ausgehen",verb,3,"","",pending
 "erfahren",adj,3,"- опыт","Experienced",done
 "aktuell",adj,3,"Текущий","current",done
 "international",adj,3,".","international",done
-"— außerdem / denn / trotzdem / weil",verb,3,"— более того / потому / тем не менее / потому что","— moreover / because / nevertheless / because",done
-"— außerdem / denn / dennoch / weil",verb,3,"— более того / потому / тем не менее / потому что","— moreover / because / nevertheless / because",done
-"— außerdem / dennoch / deshalb / weil",verb,3,"— также / тем не менее / потому / потому что","— also / nevertheless / because / because",done
-"— denn / dennoch / deshalb / weil",verb,3,"— потому что / тем не менее / потому что / потому что","— because / nevertheless / because / because",done
 "renoviieren",verb,3,"отремонтировать","renovate",done
 "fen",verb,3,"Fen!","linkage",done
 "senden",verb,3,"отправить","send",done
@@ -1115,19 +1079,13 @@ lemma,pos,freq,ru,en,status
 "hren",verb,3,"","Your&#x0D;",pending
 "sammelen",verb,3,"собрать","collect",done
 "unterzeichnen",verb,3,"знак","and",done
-"— präp. um",verb,3,"— приготовление при","— preparation at",done
-"— präp. bei",verb,3,"— приготовление при","— preparation at",done
-"— präp. von",verb,3,"— подготовка","— preparation of",done
-"+ verb einladen",verb,3,"+ глагол приглашения","+ invite verb",done
-"+ verb durchgehen",verb,3,"+ глагол пройти","+ verb go through",done
-"+ verb einchecken",verb,3,"+ прибытие глагола","+ verb check in",done
-"+ verb ansprechen",verb,3,"+ ответ глагола","+ verb response",done
-"+ verb einreichen",verb,3,"+ отправить глагол","+ submit verb",done
+"einladen",verb,3,"","",pending
+"durchgehen",verb,3,"просматривать, проходить","to go through / skim",done
+"ansprechen",verb,3,"","",pending
+"einreichen",verb,3,"","",pending
 "erklären",verb,3,"объяснять","to explain",done
-"einchecken",verb,3,"прибытие","Check in:",done
 "ruhen",verb,3,"отдых","to rest",done
 "abholen",verb,3,"& Получить","to pick up",done
-"— außerdem / dann / dennoch / deshalb",verb,3,"","",pending
 "gmb",noun,3,"","GmbH",pending
 "gmbh",noun,3,"","GmbH (limited company)",pending
 "luft",noun,2,"Воздух","air",done
@@ -1236,9 +1194,9 @@ lemma,pos,freq,ru,en,status
 "bröte",noun,2,"хлеб","bread",done
 "parke",noun,2,"парки","parks",done
 "parken",noun,2,"Парковка","parking",done
-"straßes",noun,2,"ул.","street",done
+"straßes",noun,2,"","street",pending
 "straßens",noun,2,"дорога","road",done
-"straß",noun,2,"ул.","street",done
+"straß",noun,2,"","street",pending
 "gemüs",noun,2,"овощи","vegetables",done
 "gemüsen",noun,2,"овощи","vegetables",done
 "gemüses",noun,2,"овощи","vegetables",done
@@ -1307,7 +1265,6 @@ lemma,pos,freq,ru,en,status
 "stürme",noun,2,"штормы","Storms",done
 "projekte",noun,2,"Проекты","projects",done
 "haltestelle",noun,2,"Остановка общественного транспорта","Station",done
-"wasche",noun,2,"wsche","wash",done
 "wohnzimmer",noun,2,"Гостиная","dining room",done
 "altstadt",noun,2,"СТАРЫЙ ГОРОД","OLD TOWN",done
 "tierheim",noun,2,"Приют для бездомных животных","Animal home",done
@@ -1320,7 +1277,6 @@ lemma,pos,freq,ru,en,status
 "koch",noun,2,"уже швырнуть","cook / chef",done
 "kamera",noun,2,"Камера","Camera",done
 "lieblingsessen",noun,2,"любимая еда","Favorite food",done
-"spielst",noun,2,"вы играете","you play",done
 "mannschaft",noun,2,"Экипаж","team",done
 "probier",noun,2,"try","try",done
 "zieh",noun,2,"перетаскивание","Pull!",done
@@ -1345,11 +1301,9 @@ lemma,pos,freq,ru,en,status
 "bürojob",noun,2,"работа в офисе","Social Job",done
 "häng",noun,2,"повесить","hang (fragment)",done
 "gewitter",noun,2,"Гроза","Thunderstorms",done
-"+ verb haben",verb,2,"+ глагол","+ verb",done
 "verben",noun,2,"Глагол","verbs",done
 "modalverben",noun,2,"модальные глаголы","modal verbs",done
 "erholen",verb,2,"восстановить","I recover",done
-"— außerdem / denn / dennoch / deshalb",verb,2,"— более того / потому что / тем не менее / поэтому","— moreover / because / nevertheless / therefore",done
 "stellenanzeige",noun,2,"Объявление о вакансии","vacancy.name.single",done
 "praktikantin",noun,2,"стажер","Intern",done
 "marketing",noun,2,"Маркетинг","marketing",done
@@ -1398,21 +1352,12 @@ lemma,pos,freq,ru,en,status
 "hausarbeit",noun,2,"работа по дому","Assignment",done
 "exkursion",noun,2,"Экскурсия","Excursion",done
 "anmeldungen",noun,2,"Число зарегистрированных участников","registrations",done
-"anmelden",noun,2,"войти","subscribe",done
 "anmeldend",noun,2,"вход","logging in",done
 "bibliothek",noun,2,"Библиотека","library",done
 "renovierungsarbeiten",noun,2,"ремонт;","maintenance work",done
 "rauchen",noun,2,"курить","to smoke",done
 "autors",noun,2,"авторы","authors",done
 "unserem",noun,2,"","",pending
-"— außerdem / dann / deshalb / trotzdem",verb,2,"","",pending
-"— außerdem / dagegen / daher / trotzdem",verb,2,"","",pending
-"— dann / dennoch / deshalb / folglich",verb,2,"","",pending
-"— außerdem / dennoch / deshalb / trotzdem",verb,2,"","",pending
-"— außerdem / dann / dennoch / folglich",verb,2,"","",pending
-"— dann / deshalb / folglich / trotzdem",verb,2,"","",pending
-"— außerdem / dagegen / daher / dennoch",verb,2,"","",pending
-"— außerdem / deshalb / folglich / trotzdem",verb,2,"","",pending
 "laborant",noun,2,"Лаборант","Organische Chemie",done
 "eingangsbestätigung",noun,2,"подтверждение получения","Confirmation of Submission",done
 "hinweis",noun,2,"Подсказка","NOTE",done
@@ -1585,104 +1530,130 @@ lemma,pos,freq,ru,en,status
 "arbeiten",verb,1,"работать","to work",done
 "nehmen",verb,1,"брать, взять","tak",done
 "finden",verb,1,"находить","finding",done
-"besuchen",verb,1,"навещать","if you'd like to find out",done
+"besuchen",verb,1,"навещать, посещать","to visit",done
 "helfen",verb,1,"помочь","helping",done
 "kommen",verb,1,"приходить","to come",done
 "brauchen",verb,1,"требовать","need",done
 "regnen",verb,1,"дождить","rain",done
 "bezahlen",verb,1,"оплатить","do you not pay ?",done
 "feiern",verb,1,"Развлечения","celebrate",done
-"anrufen",verb,1,"звонить","phoning",done
 "putzen",verb,1,"убирать","clean",done
 "grillen",verb,1,"Гриль","barbecue",done
 "tragen",verb,1,"носить, нести","to carry / wear",done
 "backen",verb,1,"Выпечка","baking",done
 "lieben",verb,1,"любят","do I not love ?",done
-"— dennoch / deshalb / trotzdem / weil",verb,1,"— тем не менее / поэтому / тем не менее / потому что","— nevertheless / therefore / nevertheless / because",done
-"— denn / dennoch / deshalb / trotzdem",verb,1,"— потому что / тем не менее / поэтому / тем не менее","— because / nevertheless / therefore / nevertheless",done
-"— dagegen / dennoch / deshalb / trotzdem",verb,1,"","",pending
-"— außerdem / dagegen / folglich / trotzdem",verb,1,"","",pending
-"— außerdem / dennoch / folglich / trotzdem",verb,1,"","",pending
-"— außerdem / dagegen / dennoch / infolgedessen",verb,1,"","",pending
-"— dann / deshalb / folglich / jedoch",verb,1,"","",pending
-"— außerdem / demzufolge / dennoch / trotzdem",verb,1,"","",pending
-"— außerdem / dann / folglich / trotzdem",verb,1,"","",pending
-"— außerdem / dann / deshalb / hingegen",verb,1,"","",pending
-"— dagegen / dennoch / somit / trotzdem",verb,1,"","",pending
-"— außerdem / daher / dennoch / trotzdem",verb,1,"","",pending
-"— außerdem / dann / folglich / gleichwohl",verb,1,"","",pending
-"— außerdem / dagegen / dennoch / folglich",verb,1,"","",pending
-"— dagegen / dennoch / infolgedessen / trotzdem",verb,1,"","",pending
-"— außerdem / deshalb / folglich / jedoch",verb,1,"","",pending
-"— außerdem / dagegen / demzufolge / trotzdem",verb,1,"","",pending
-"— dann / deshalb / folglich / hingegen",verb,1,"","",pending
-"— außerdem / dennoch / somit / trotzdem",verb,1,"","",pending
-"— außerdem / dann / deshalb / gleichwohl",verb,1,"","",pending
-"— außerdem / dagegen / deshalb / trotzdem",verb,1,"","",pending
-"— dagegen / dennoch / folglich / trotzdem",verb,1,"","",pending
-"— dagegen / daher / dennoch / trotzdem",verb,1,"","",pending
-"— außerdem / dennoch / infolgedessen / trotzdem",verb,1,"","",pending
-"— außerdem / dann / folglich / jedoch",verb,1,"","",pending
-"— außerdem / dagegen / demzufolge / dennoch",verb,1,"","",pending
-"— außerdem / deshalb / folglich / hingegen",verb,1,"","",pending
-"— außerdem / dagegen / somit / trotzdem",verb,1,"","",pending
-"— dann / deshalb / folglich / gleichwohl",verb,1,"","",pending
-"— beziehen / beziehst / bezieht / bezogen",verb,1,"","",pending
-"— früh / frühe / früher / frühest",verb,1,"","",pending
-"— finanzieren / finanzierst / finanziert / finanzierte",verb,1,"","",pending
-"— freue / freuen / freute / gefreut",verb,1,"","",pending
-"— haben / habt / hat / hättet",verb,1,"","",pending
-"— kann / können / könnte / konntet",verb,1,"","",pending
-"— erkannt / erkannte / erkennst / erkennt",verb,1,"","",pending
-"— erinnere / erinnern / erinnert / erinnerte",verb,1,"","",pending
-"— bestanden / bestehen / bestehst / besteht",verb,1,"","",pending
-"— haben / hat / hatte / hätten",verb,1,"","",pending
-"— dachte / denke / denkst / gedacht",verb,1,"","",pending
-"— bauen / baut / baute / gebaut",verb,1,"","",pending
-"— haben / habt / hat / hatte",verb,1,"","",pending
-"— achte / achten / achtet / achtete",verb,1,"","",pending
-"— ist / sein / war / wäre",verb,1,"","",pending
-"— gelöst / lösen / löst / löste",verb,1,"","",pending
-"— gewartet / warte / warten / wartest",verb,1,"","",pending
-"— beziehen / beziehst / bezieht / bezog",verb,1,"","",pending
-"— frühe / früher / frühes / frühest",verb,1,"","",pending
-"— finanzier / finanzieren / finanzierst / finanzierte",verb,1,"","",pending
-"— freue / freuen / freust / gefreut",verb,1,"","",pending
-"— haben / habt / hat / hattet",verb,1,"","",pending
-"— gekonnt / kann / könnte / konntet",verb,1,"","",pending
-"— erkannt / erkannte / erkennen / erkennt",verb,1,"","",pending
-"— erinnere / erinnern / erinnerst / erinnert",verb,1,"","",pending
-"— bestand / bestehen / bestehst / besteht",verb,1,"","",pending
-"— haben / habt / hatte / hätten",verb,1,"","",pending
-"— dachte / denken / denkst / gedacht",verb,1,"","",pending
-"— bauen / baust / baut / gebaut",verb,1,"","",pending
-"— haben / hat / hatte / hätte",verb,1,"","",pending
-"— achte / achten / achtete / geachtet",verb,1,"","",pending
-"— ist / sein / sind / wäre",verb,1,"","",pending
-"— gelöst / lösen / löst / löstest",verb,1,"","",pending
-"— warte / warten / wartest / wartete",verb,1,"","",pending
-"— beziehst / bezieht / bezog / bezogen",verb,1,"","",pending
-"— früh / frühe / früher / frühes",verb,1,"","",pending
-"— finanzier / finanzieren / finanzierst / finanziert",verb,1,"","",pending
-"— freue / freuen / freust / freute",verb,1,"","",pending
-"— haben / habt / hattet / hättet",verb,1,"","",pending
-"— gekonnt / kann / können / könnte",verb,1,"","",pending
-"— erkannt / erkennen / erkennst / erkennt",verb,1,"","",pending
-"— erinnere / erinnern / erinnerst / erinnerte",verb,1,"","",pending
-"— bestand / bestanden / bestehst / besteht",verb,1,"","",pending
-"— haben / habt / hat / hätten",verb,1,"","",pending
-"— denke / denken / denkst / gedacht",verb,1,"","",pending
-"— bauen / baust / baut / baute",verb,1,"","",pending
-"— habt / hat / hatte / hätte",verb,1,"","",pending
-"— achten / achtet / achtete / geachtet",verb,1,"","",pending
-"— ist / sein / sind / war",verb,1,"","",pending
-"— lösen / löst / löste / löstest",verb,1,"","",pending
-"tech",noun,1,"Tech.","tech",done
+"tech",noun,1,"","tech",pending
 "techpro",noun,1,"","TechPRO",pending
 "green",noun,1,"зелёный","green",done
 "greentech",noun,1,"","GreenTech",pending
 "mode",noun,1,"","fashion",pending
 "modeonline",noun,1,"fashiononline","fashiononline",done
+"+ präposition",verb,0,"Предлог","Preposition and postposition",done
+"— präp. auf",verb,0,"— подготовка на","— preparation on",done
+"— präp. an",verb,0,"— подготовка к","— prep. to",done
+"— präp. über",verb,0,"— приготовление через","— preparation via",done
+"— denn / deshalb / trotzdem / weil",verb,0,"— потому / поэтому / тем не менее / потому что","— because / therefore / nevertheless / because",done
+"— außerdem / deshalb / trotzdem / weil",verb,0,"— также / поэтому / тем не менее / потому что","— also / therefore / nevertheless / because",done
+"— außerdem / denn / deshalb / trotzdem",verb,0,"— более того / потому / поэтому / тем не менее","— moreover / because / therefore / nevertheless",done
+"— außerdem / denn / deshalb / weil",verb,0,"— также / потому / потому / потому что","— also / because / because / because",done
+"— präp. für",verb,0,"— подготовка к","— preparation for",done
+"— außerdem / dennoch / deshalb / folglich",verb,0,"","",pending
+"— außerdem / denn / trotzdem / weil",verb,0,"— более того / потому / тем не менее / потому что","— moreover / because / nevertheless / because",done
+"— außerdem / denn / dennoch / weil",verb,0,"— более того / потому / тем не менее / потому что","— moreover / because / nevertheless / because",done
+"— außerdem / dennoch / deshalb / weil",verb,0,"— также / тем не менее / потому / потому что","— also / nevertheless / because / because",done
+"— denn / dennoch / deshalb / weil",verb,0,"— потому что / тем не менее / потому что / потому что","— because / nevertheless / because / because",done
+"— präp. um",verb,0,"— приготовление при","— preparation at",done
+"— präp. bei",verb,0,"— приготовление при","— preparation at",done
+"— präp. von",verb,0,"— подготовка","— preparation of",done
+"— außerdem / dann / dennoch / deshalb",verb,0,"","",pending
+"— außerdem / denn / dennoch / deshalb",verb,0,"— более того / потому что / тем не менее / поэтому","— moreover / because / nevertheless / therefore",done
+"— außerdem / dann / deshalb / trotzdem",verb,0,"","",pending
+"— außerdem / dagegen / daher / trotzdem",verb,0,"","",pending
+"— dann / dennoch / deshalb / folglich",verb,0,"","",pending
+"— außerdem / dennoch / deshalb / trotzdem",verb,0,"","",pending
+"— außerdem / dann / dennoch / folglich",verb,0,"","",pending
+"— dann / deshalb / folglich / trotzdem",verb,0,"","",pending
+"— außerdem / dagegen / daher / dennoch",verb,0,"","",pending
+"— außerdem / deshalb / folglich / trotzdem",verb,0,"","",pending
+"— dennoch / deshalb / trotzdem / weil",verb,0,"— тем не менее / поэтому / тем не менее / потому что","— nevertheless / therefore / nevertheless / because",done
+"— denn / dennoch / deshalb / trotzdem",verb,0,"— потому что / тем не менее / поэтому / тем не менее","— because / nevertheless / therefore / nevertheless",done
+"— dagegen / dennoch / deshalb / trotzdem",verb,0,"","",pending
+"— außerdem / dagegen / folglich / trotzdem",verb,0,"","",pending
+"— außerdem / dennoch / folglich / trotzdem",verb,0,"","",pending
+"— außerdem / dagegen / dennoch / infolgedessen",verb,0,"","",pending
+"— dann / deshalb / folglich / jedoch",verb,0,"","",pending
+"— außerdem / demzufolge / dennoch / trotzdem",verb,0,"","",pending
+"— außerdem / dann / folglich / trotzdem",verb,0,"","",pending
+"— außerdem / dann / deshalb / hingegen",verb,0,"","",pending
+"— dagegen / dennoch / somit / trotzdem",verb,0,"","",pending
+"— außerdem / daher / dennoch / trotzdem",verb,0,"","",pending
+"— außerdem / dann / folglich / gleichwohl",verb,0,"","",pending
+"— außerdem / dagegen / dennoch / folglich",verb,0,"","",pending
+"— dagegen / dennoch / infolgedessen / trotzdem",verb,0,"","",pending
+"— außerdem / deshalb / folglich / jedoch",verb,0,"","",pending
+"— außerdem / dagegen / demzufolge / trotzdem",verb,0,"","",pending
+"— dann / deshalb / folglich / hingegen",verb,0,"","",pending
+"— außerdem / dennoch / somit / trotzdem",verb,0,"","",pending
+"— außerdem / dann / deshalb / gleichwohl",verb,0,"","",pending
+"— außerdem / dagegen / deshalb / trotzdem",verb,0,"","",pending
+"— dagegen / dennoch / folglich / trotzdem",verb,0,"","",pending
+"— dagegen / daher / dennoch / trotzdem",verb,0,"","",pending
+"— außerdem / dennoch / infolgedessen / trotzdem",verb,0,"","",pending
+"— außerdem / dann / folglich / jedoch",verb,0,"","",pending
+"— außerdem / dagegen / demzufolge / dennoch",verb,0,"","",pending
+"— außerdem / deshalb / folglich / hingegen",verb,0,"","",pending
+"— außerdem / dagegen / somit / trotzdem",verb,0,"","",pending
+"— dann / deshalb / folglich / gleichwohl",verb,0,"","",pending
+"— beziehen / beziehst / bezieht / bezogen",verb,0,"","",pending
+"— früh / frühe / früher / frühest",verb,0,"","",pending
+"— finanzieren / finanzierst / finanziert / finanzierte",verb,0,"","",pending
+"— freue / freuen / freute / gefreut",verb,0,"","",pending
+"— haben / habt / hat / hättet",verb,0,"","",pending
+"— kann / können / könnte / konntet",verb,0,"","",pending
+"— erkannt / erkannte / erkennst / erkennt",verb,0,"","",pending
+"— erinnere / erinnern / erinnert / erinnerte",verb,0,"","",pending
+"— bestanden / bestehen / bestehst / besteht",verb,0,"","",pending
+"— haben / hat / hatte / hätten",verb,0,"","",pending
+"— dachte / denke / denkst / gedacht",verb,0,"","",pending
+"— bauen / baut / baute / gebaut",verb,0,"","",pending
+"— haben / habt / hat / hatte",verb,0,"","",pending
+"— achte / achten / achtet / achtete",verb,0,"","",pending
+"— ist / sein / war / wäre",verb,0,"","",pending
+"— gelöst / lösen / löst / löste",verb,0,"","",pending
+"— gewartet / warte / warten / wartest",verb,0,"","",pending
+"— beziehen / beziehst / bezieht / bezog",verb,0,"","",pending
+"— frühe / früher / frühes / frühest",verb,0,"","",pending
+"— finanzier / finanzieren / finanzierst / finanzierte",verb,0,"","",pending
+"— freue / freuen / freust / gefreut",verb,0,"","",pending
+"— haben / habt / hat / hattet",verb,0,"","",pending
+"— gekonnt / kann / könnte / konntet",verb,0,"","",pending
+"— erkannt / erkannte / erkennen / erkennt",verb,0,"","",pending
+"— erinnere / erinnern / erinnerst / erinnert",verb,0,"","",pending
+"— bestand / bestehen / bestehst / besteht",verb,0,"","",pending
+"— haben / habt / hatte / hätten",verb,0,"","",pending
+"— dachte / denken / denkst / gedacht",verb,0,"","",pending
+"— bauen / baust / baut / gebaut",verb,0,"","",pending
+"— haben / hat / hatte / hätte",verb,0,"","",pending
+"— achte / achten / achtete / geachtet",verb,0,"","",pending
+"— ist / sein / sind / wäre",verb,0,"","",pending
+"— gelöst / lösen / löst / löstest",verb,0,"","",pending
+"— warte / warten / wartest / wartete",verb,0,"","",pending
+"— beziehst / bezieht / bezog / bezogen",verb,0,"","",pending
+"— früh / frühe / früher / frühes",verb,0,"","",pending
+"— finanzier / finanzieren / finanzierst / finanziert",verb,0,"","",pending
+"— freue / freuen / freust / freute",verb,0,"","",pending
+"— haben / habt / hattet / hättet",verb,0,"","",pending
+"— gekonnt / kann / können / könnte",verb,0,"","",pending
+"— erkannt / erkennen / erkennst / erkennt",verb,0,"","",pending
+"— erinnere / erinnern / erinnerst / erinnerte",verb,0,"","",pending
+"— bestand / bestanden / bestehst / besteht",verb,0,"","",pending
+"— haben / habt / hat / hätten",verb,0,"","",pending
+"— denke / denken / denkst / gedacht",verb,0,"","",pending
+"— bauen / baust / baut / baute",verb,0,"","",pending
+"— habt / hat / hatte / hätte",verb,0,"","",pending
+"— achten / achtet / achtete / geachtet",verb,0,"","",pending
+"— ist / sein / sind / war",verb,0,"","",pending
+"— lösen / löst / löste / löstest",verb,0,"","",pending
 "publikum",noun,0,"Публика","audience",done
 "namen",noun,0,"названия","names",done
 "sich freuen",verb,0,"радоваться","to look forward / be glad",done

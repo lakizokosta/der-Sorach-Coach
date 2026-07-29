@@ -64,8 +64,15 @@ function extractHint(text) {
 function parseHintLemma(hint) {
   if (!hint) return null;
 
-  let m = hint.match(/Verb\s+(.+)$/i);
-  if (m) return { pos: 'verb', lemma: m[1].trim().toLowerCase() };
+  let m = hint.match(/Trennbares?\s+Verb\s*\+\s*Verb\s+([a-zäöüß]+)/i);
+  if (m) return { pos: 'verb', lemma: m[1].toLowerCase() };
+
+  m = hint.match(/Verb\s+(.+)$/i);
+  if (m) {
+    let lemma = m[1].trim().toLowerCase().replace(/^\+ verb\s+/, '');
+    if (!lemma || /[+]/.test(lemma) || /—/.test(lemma)) return null;
+    return { pos: 'verb', lemma };
+  }
 
   m = hint.match(/Adjektivdeklination\s*—\s*([a-zäöüß]+)/i);
   if (m) return { pos: 'adj', lemma: m[1].toLowerCase() };
@@ -191,6 +198,10 @@ function cleanFetchedTranslation(raw) {
   if (!t) return '';
   if (/MYMEMORY WARNING/i.test(t)) return '';
   if (t.toLowerCase() === 'undefined') return '';
+  if (/^\+ verb/i.test(t) || /^\+ глагол/i.test(t)) return '';
+  if (/^[a-zäöüß]{1,4}\.$/i.test(t)) return '';
+  if (/^[а-яё]{1,3}\.$/i.test(t)) return '';
+  if (/\b(if you|would like|are here)\b/i.test(t)) return '';
   return t;
 }
 
@@ -215,6 +226,14 @@ function mergeSeedFile(path) {
 mergeSeedFile(SEED_PATH);
 mergeSeedFile(SEED_EN_PATH);
 
+// Inflected verb forms wrongly indexed as nouns (e.g. sentence-initial "Kommst").
+for (const form of Object.keys(verbLemmas)) {
+  const row = vocab.get(form);
+  if (row?.pos === 'noun' && form !== verbLemmas[form]) {
+    vocab.delete(form);
+  }
+}
+
 async function fetchTranslation(word, lang) {
   const langpair = lang === 'en' ? 'de|en' : 'de|ru';
   const url = `${MEMORY_URL}?q=${encodeURIComponent(word)}&langpair=${langpair}`;
@@ -237,6 +256,7 @@ function writeVocabularyOutputs() {
   /** @type {Record<string, { pos: string, ru?: string, en?: string, gender?: string }>} */
   const vocabularyOut = {};
   for (const [lemma, row] of [...vocab.entries()].sort((a, b) => b[1].freq - a[1].freq)) {
+    if (/^\+ verb/i.test(lemma) || /^\+ глагол/i.test(lemma)) continue;
     const ru = cleanFetchedTranslation(row.ru);
     const en = cleanFetchedTranslation(row.en);
     vocabularyOut[lemma] = {

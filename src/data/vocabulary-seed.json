@@ -114,5 +114,13 @@
   "anna": { "pos": "noun", "ru": "Анна", "en": "Anna", "gender": "f" },
   "infolge": { "pos": "noun", "ru": "вследствие", "en": "as a result of", "gender": "f" },
   "reihenfolge": { "pos": "noun", "ru": "порядок", "en": "order / sequence", "gender": "f" },
-  "lehrerin": { "pos": "noun", "ru": "учительница", "en": "teacher (female)", "gender": "f" }
+  "lehrerin": { "pos": "noun", "ru": "учительница", "en": "teacher (female)", "gender": "f" },
+  "gern": { "pos": "adv", "ru": "охотно, с удовольствием", "en": "gladly / with pleasure" },
+  "besuchen": { "pos": "verb", "ru": "навещать, посещать", "en": "to visit" },
+  "krankheit": { "pos": "noun", "ru": "болезнь", "en": "illness / disease", "gender": "f" },
+  "tasche": { "pos": "noun", "ru": "сумка", "en": "bag / purse", "gender": "f" },
+  "fahren": { "pos": "verb", "ru": "ехать, водить", "en": "to drive / go" },
+  "berge": { "pos": "noun", "ru": "горы", "en": "mountains" },
+  "durchgehen": { "pos": "verb", "ru": "просматривать, проходить", "en": "to go through / skim" },
+  "berg": { "pos": "noun", "ru": "гора", "en": "mountain", "gender": "m" }
 }

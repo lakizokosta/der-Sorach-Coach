@@ -161,12 +161,6 @@
     "en": "medicine / drug",
     "gender": "n"
   },
-  "frage": {
-    "pos": "noun",
-    "ru": "вопрос",
-    "en": "question",
-    "gender": "f"
-  },
   "firma": {
     "pos": "noun",
     "ru": "фирма",
@@ -992,11 +986,6 @@
     "ru": "Мозель",
     "en": "Moselle (river)"
   },
-  "kommst": {
-    "pos": "noun",
-    "ru": "приезжайте",
-    "en": "are here."
-  },
   "zukunft": {
     "pos": "noun",
     "ru": "будущее",
@@ -1016,11 +1005,6 @@
     "pos": "noun",
     "ru": "Пациент",
     "en": "Patient"
-  },
-  "+ präposition": {
-    "pos": "verb",
-    "ru": "Предлог",
-    "en": "Preposition and postposition"
   },
   "wortstellung": {
     "pos": "noun"
@@ -1226,13 +1210,14 @@
   },
   "fahren": {
     "pos": "verb",
-    "ru": "подвезти",
+    "ru": "ехать, водить",
     "en": "to drive / go"
   },
   "krankheit": {
     "pos": "noun",
-    "ru": "диабет",
-    "en": "illness"
+    "ru": "болезнь",
+    "en": "illness / disease",
+    "gender": "f"
   },
   "sturms": {
     "pos": "noun",
@@ -1312,7 +1297,8 @@
   "tasche": {
     "pos": "noun",
     "ru": "сумка",
-    "en": "case"
+    "en": "bag / purse",
+    "gender": "f"
   },
   "garten": {
     "pos": "noun",
@@ -1541,11 +1527,6 @@
     "ru": "Новое",
     "en": "Purchase"
   },
-  "brauchst": {
-    "pos": "noun",
-    "ru": "потребность",
-    "en": "when you need it."
-  },
   "umweltschutz": {
     "pos": "noun",
     "ru": "Экология.",
@@ -1714,8 +1695,7 @@
   },
   "herr": {
     "pos": "noun",
-    "ru": "Господином",
-    "en": "Mr."
+    "ru": "Господином"
   },
   "kindheit": {
     "pos": "noun",
@@ -1772,12 +1752,6 @@
     "ru": "жить",
     "en": "live"
   },
-  "laden": {
-    "pos": "noun",
-    "ru": "магазин",
-    "en": "shop",
-    "gender": "m"
-  },
   "spaß": {
     "pos": "noun",
     "ru": "Забавное",
@@ -1803,11 +1777,6 @@
     "ru": "Флакон",
     "en": "bottle"
   },
-  "fahrt": {
-    "pos": "noun",
-    "ru": "Движение",
-    "en": "drive"
-  },
   "trainer": {
     "pos": "noun",
     "ru": "ТРЕНЕР",
@@ -1815,7 +1784,7 @@
   },
   "berge": {
     "pos": "noun",
-    "ru": "гор.",
+    "ru": "горы",
     "en": "mountains"
   },
   "regal": {
@@ -2033,6 +2002,11 @@
     "ru": "ВЕРХНЯЯ",
     "en": "Header"
   },
+  "aufstehen": {
+    "pos": "verb",
+    "ru": "вставать",
+    "en": "to get up"
+  },
   "großeltern": {
     "pos": "noun",
     "ru": "бабушки и дедушки",
@@ -2088,6 +2062,11 @@
     "ru": "Машина",
     "en": "machine"
   },
+  "einkaufen": {
+    "pos": "noun",
+    "ru": "делать покупки",
+    "en": "shopping"
+  },
   "ausruhen": {
     "pos": "noun",
     "ru": "отдых",
@@ -2105,8 +2084,9 @@
   },
   "berg": {
     "pos": "noun",
-    "ru": "БЕРГ",
-    "en": "mountain"
+    "ru": "гора",
+    "en": "mountain",
+    "gender": "m"
   },
   "hände": {
     "pos": "noun",
@@ -2223,11 +2203,6 @@
     "ru": "Подкаст",
     "en": "podcast"
   },
-  "lernst": {
-    "pos": "noun",
-    "ru": "учиться",
-    "en": "to learn"
-  },
   "witz": {
     "pos": "noun",
     "ru": "Анекдот",
@@ -2252,11 +2227,6 @@
     "pos": "noun",
     "ru": "Хойзерн",
     "en": "cases"
-  },
-  "einkaufen": {
-    "pos": "noun",
-    "ru": "делать покупки",
-    "en": "shopping"
   },
   "students": {
     "pos": "noun",
@@ -2307,11 +2277,6 @@
     "pos": "noun",
     "ru": "еда",
     "en": "food"
-  },
-  "+ verb aufstehen": {
-    "pos": "verb",
-    "ru": "+ глагол встать",
-    "en": "+ verb to stand up"
   },
   "leiter": {
     "pos": "noun",
@@ -2676,11 +2641,6 @@
     "en": "start",
     "gender": "m"
   },
-  "— präp. auf": {
-    "pos": "verb",
-    "ru": "— подготовка на",
-    "en": "— preparation on"
-  },
   "schüler": {
     "pos": "noun",
     "ru": "Школьник",
@@ -2842,6 +2802,11 @@
     "ru": "Берген",
     "en": "Retrieve"
   },
+  "ausfüllen": {
+    "pos": "noun",
+    "ru": "ЗАПОЛНЕНИЕ",
+    "en": "information"
+  },
   "zahlung": {
     "pos": "noun",
     "ru": "Наименование выплаты",
@@ -2866,11 +2831,6 @@
     "pos": "noun",
     "ru": "Президент",
     "en": "president / presidents"
-  },
-  "wäre": {
-    "pos": "noun",
-    "ru": "было бы.",
-    "en": "were"
   },
   "verfügung": {
     "pos": "noun",
@@ -3039,7 +2999,6 @@
   },
   "teil": {
     "pos": "noun",
-    "ru": "Teil.",
     "en": "taking part in"
   },
   "leute": {
@@ -3207,11 +3166,6 @@
     "ru": "Начало",
     "en": "d’année"
   },
-  "hätte": {
-    "pos": "noun",
-    "ru": "будет иметь",
-    "en": "would have"
-  },
   "sofortmaßnahmen": {
     "pos": "noun",
     "ru": "Неотложные мероприятия",
@@ -3345,8 +3299,7 @@
   },
   "arm": {
     "pos": "noun",
-    "ru": "жалкий",
-    "en": "pr."
+    "ru": "жалкий"
   },
   "saal": {
     "pos": "noun",
@@ -3563,35 +3516,18 @@
     "ru": "Клиент",
     "en": "customer"
   },
-  "— präp. an": {
-    "pos": "verb",
-    "ru": "— подготовка к",
-    "en": "— prep. to"
-  },
-  "— präp. über": {
-    "pos": "verb",
-    "ru": "— приготовление через",
-    "en": "— preparation via"
-  },
   "mai": {
     "pos": "noun",
     "ru": "Май",
     "en": "May"
-  },
-  "liebe": {
-    "pos": "noun",
-    "ru": "Любовь",
-    "en": "love"
   },
   "website": {
     "pos": "noun",
     "ru": "Веб-сайт",
     "en": "website"
   },
-  "+ verb absagen": {
-    "pos": "verb",
-    "ru": "+ отмена глагола",
-    "en": "+ verb cancelling"
+  "absagen": {
+    "pos": "verb"
   },
   "reklamation": {
     "pos": "noun",
@@ -3623,50 +3559,20 @@
     "ru": "играть",
     "en": "to play"
   },
-  "+ verb sollen": {
-    "pos": "verb",
-    "ru": "+ глагол",
-    "en": "+ verb"
-  },
-  "+ verb müssen": {
-    "pos": "verb",
-    "ru": "+ глагол must",
-    "en": "+ verb must"
-  },
-  "+ verb dürfen": {
-    "pos": "verb",
-    "ru": "+ глагол май",
-    "en": "+ verb may"
-  },
-  "+ verb wollen": {
-    "pos": "verb",
-    "ru": "+ глагол хотеть",
-    "en": "+ verb want"
-  },
-  "+ verb können": {
-    "pos": "verb",
-    "ru": "+ can verb",
-    "en": "+ can verb"
-  },
   "freuen": {
     "pos": "verb",
     "ru": "радоваться",
     "en": "to be glad"
   },
-  "— denn / deshalb / trotzdem / weil": {
+  "vorbereiten": {
     "pos": "verb",
-    "ru": "— потому / поэтому / тем не менее / потому что",
-    "en": "— because / therefore / nevertheless / because"
+    "ru": "подготовить",
+    "en": "preparation"
   },
-  "— außerdem / deshalb / trotzdem / weil": {
-    "pos": "verb",
-    "ru": "— также / поэтому / тем не менее / потому что",
-    "en": "— also / therefore / nevertheless / because"
-  },
-  "— außerdem / denn / deshalb / trotzdem": {
-    "pos": "verb",
-    "ru": "— более того / потому / поэтому / тем не менее",
-    "en": "— moreover / because / therefore / nevertheless"
+  "anmelden": {
+    "pos": "noun",
+    "ru": "войти",
+    "en": "subscribe"
   },
   "schuhe": {
     "pos": "noun",
@@ -3738,11 +3644,6 @@
     "ru": "Рабочее место",
     "en": "Workplace"
   },
-  "ausfüllen": {
-    "pos": "noun",
-    "ru": "ЗАПОЛНЕНИЕ",
-    "en": "information"
-  },
   "hoffentlich": {
     "pos": "noun",
     "ru": "Надеюсь.",
@@ -3798,11 +3699,6 @@
     "ru": "Примечания",
     "en": "information"
   },
-  "könntest": {
-    "pos": "noun",
-    "ru": "вы могли бы",
-    "en": "you could"
-  },
   "menschenmenge": {
     "pos": "noun",
     "ru": "толпа",
@@ -3853,25 +3749,18 @@
     "ru": "видеть",
     "en": "to see"
   },
+  "anrufen": {
+    "pos": "verb",
+    "ru": "звонить",
+    "en": "phoning"
+  },
   "waschen": {
     "pos": "verb",
     "ru": "мыть",
     "en": "out"
   },
-  "+ verb ausmachen": {
-    "pos": "verb",
-    "ru": "+ make out verb",
-    "en": "+ make out verb"
-  },
-  "— außerdem / denn / deshalb / weil": {
-    "pos": "verb",
-    "ru": "— также / потому / потому / потому что",
-    "en": "— also / because / because / because"
-  },
-  "+ verb anmelden": {
-    "pos": "verb",
-    "ru": "+ ввод глагола",
-    "en": "+ verb login"
+  "ausmachen": {
+    "pos": "verb"
   },
   "impfen": {
     "pos": "verb",
@@ -3994,16 +3883,6 @@
     "ru": "Плакат",
     "en": "Poster"
   },
-  "trinkst": {
-    "pos": "noun",
-    "ru": "напитки",
-    "en": "Drink"
-  },
-  "isst": {
-    "pos": "noun",
-    "ru": "Рестораны",
-    "en": "eating"
-  },
   "poliziste": {
     "pos": "noun",
     "ru": "сотрудник полиции",
@@ -4094,25 +3973,8 @@
     "ru": "МарИя Йенч",
     "en": "Ana Maria"
   },
-  "+ verb anrufen": {
-    "pos": "verb",
-    "ru": "+ глагол вызова",
-    "en": "+ call verb"
-  },
-  "+ verb anmachen": {
-    "pos": "verb",
-    "ru": "+ включить глагол",
-    "en": "+ turn on verb"
-  },
-  "+ verb vorbereiten": {
-    "pos": "verb",
-    "ru": "+ подготовить глагол",
-    "en": "+ prepare verb"
-  },
-  "+ verb ausfüllen": {
-    "pos": "verb",
-    "ru": "+ заполнить глагол",
-    "en": "+ fill in verb"
+  "anmachen": {
+    "pos": "verb"
   },
   "inhalt": {
     "pos": "noun",
@@ -4153,6 +4015,11 @@
     "pos": "noun",
     "ru": "сегодня была выплачена следующая сумма",
     "en": "amount"
+  },
+  "einchecken": {
+    "pos": "verb",
+    "ru": "прибытие",
+    "en": "Check in:"
   },
   "reservation": {
     "pos": "noun",
@@ -4505,9 +4372,9 @@
     "en": "to drink"
   },
   "gern": {
-    "pos": "adj",
-    "ru": "нравится",
-    "en": "purs."
+    "pos": "adv",
+    "ru": "охотно, с удовольствием",
+    "en": "gladly / with pleasure"
   },
   "laut": {
     "pos": "adj",
@@ -4631,8 +4498,7 @@
   },
   "hut": {
     "pos": "noun",
-    "ru": "Шляпа",
-    "en": "Hat."
+    "ru": "Шляпа"
   },
   "äpfel": {
     "pos": "noun",
@@ -4646,8 +4512,7 @@
   },
   "busse": {
     "pos": "noun",
-    "ru": "Буссе",
-    "en": "fine."
+    "ru": "Буссе"
   },
   "fotos": {
     "pos": "noun",
@@ -4694,11 +4559,6 @@
     "ru": "Баум",
     "en": "Tree"
   },
-  "spiele": {
-    "pos": "noun",
-    "ru": "Игры",
-    "en": "playing"
-  },
   "tomaten": {
     "pos": "noun",
     "ru": "<g id=\"1\">Помидоры</g>,",
@@ -4728,11 +4588,6 @@
     "pos": "noun",
     "ru": "Задачи",
     "en": "tasks"
-  },
-  "aufstehen": {
-    "pos": "verb",
-    "ru": "вставать",
-    "en": "to get up"
   },
   "kasse": {
     "pos": "noun",
@@ -4791,8 +4646,7 @@
   },
   "komm": {
     "pos": "noun",
-    "ru": "Идём.",
-    "en": "comm."
+    "ru": "Идём."
   },
   "sportplatz": {
     "pos": "noun",
@@ -4856,8 +4710,7 @@
   },
   "herrs": {
     "pos": "noun",
-    "ru": "г-н",
-    "en": "Mr."
+    "ru": "г-н"
   },
   "komponist": {
     "pos": "noun",
@@ -4954,11 +4807,6 @@
     "ru": "Продать",
     "en": "Sell"
   },
-  "— präp. für": {
-    "pos": "verb",
-    "ru": "— подготовка к",
-    "en": "— preparation for"
-  },
   "schneider": {
     "pos": "noun",
     "en": "Schneider / tailor"
@@ -5033,10 +4881,8 @@
     "ru": "fp|Укажите срок",
     "en": "period"
   },
-  "+ verb vorverlegen": {
-    "pos": "verb",
-    "ru": "+ авансовый глагол",
-    "en": "+ advance verb"
+  "vorverlegen": {
+    "pos": "verb"
   },
   "reparieren": {
     "pos": "verb",
@@ -5198,9 +5044,6 @@
     "ru": "акт",
     "en": "Expression"
   },
-  "— außerdem / dennoch / deshalb / folglich": {
-    "pos": "verb"
-  },
   "inmitten": {
     "pos": "noun",
     "ru": "в середине",
@@ -5253,8 +5096,7 @@
   },
   "beines": {
     "pos": "noun",
-    "ru": "ноги",
-    "en": "leg."
+    "ru": "ноги"
   },
   "beins": {
     "pos": "noun",
@@ -5425,11 +5267,6 @@
     "ru": "элегантный",
     "en": "elegant"
   },
-  "+ verb konjunktiv ii — können/du": {
-    "pos": "verb",
-    "ru": "+ глагол сослагательное слово ii — can/you",
-    "en": "+ verb subjunctive ii — can/you"
-  },
   "schlafen": {
     "pos": "verb",
     "ru": "спать",
@@ -5475,40 +5312,22 @@
     "ru": "одевать",
     "en": "hand"
   },
-  "vorbereiten": {
-    "pos": "verb",
-    "ru": "подготовить",
-    "en": "preparation"
-  },
   "kümmern": {
     "pos": "verb",
     "ru": "уход",
     "en": "to show poor growth"
   },
-  "+ verb einsteigen": {
-    "pos": "verb",
-    "ru": "+ введите глагол",
-    "en": "+ enter verb"
+  "einsteigen": {
+    "pos": "verb"
   },
-  "+ verb aufmachen": {
-    "pos": "verb",
-    "ru": "+ открытый глагол",
-    "en": "+ open verb"
+  "aufmachen": {
+    "pos": "verb"
   },
-  "+ verb zumachen": {
-    "pos": "verb",
-    "ru": "+ глагол to do",
-    "en": "+ verb to do"
+  "zumachen": {
+    "pos": "verb"
   },
-  "+ verb einkaufen": {
-    "pos": "verb",
-    "ru": "+ глагольный шопинг",
-    "en": "+ verb shopping"
-  },
-  "+ verb ausgehen": {
-    "pos": "verb",
-    "ru": "+ глагол go out",
-    "en": "+ verb go out"
+  "ausgehen": {
+    "pos": "verb"
   },
   "erfahren": {
     "pos": "adj",
@@ -5524,26 +5343,6 @@
     "pos": "adj",
     "ru": ".",
     "en": "international"
-  },
-  "— außerdem / denn / trotzdem / weil": {
-    "pos": "verb",
-    "ru": "— более того / потому / тем не менее / потому что",
-    "en": "— moreover / because / nevertheless / because"
-  },
-  "— außerdem / denn / dennoch / weil": {
-    "pos": "verb",
-    "ru": "— более того / потому / тем не менее / потому что",
-    "en": "— moreover / because / nevertheless / because"
-  },
-  "— außerdem / dennoch / deshalb / weil": {
-    "pos": "verb",
-    "ru": "— также / тем не менее / потому / потому что",
-    "en": "— also / nevertheless / because / because"
-  },
-  "— denn / dennoch / deshalb / weil": {
-    "pos": "verb",
-    "ru": "— потому что / тем не менее / потому что / потому что",
-    "en": "— because / nevertheless / because / because"
   },
   "renoviieren": {
     "pos": "verb",
@@ -5579,55 +5378,24 @@
     "ru": "знак",
     "en": "and"
   },
-  "— präp. um": {
-    "pos": "verb",
-    "ru": "— приготовление при",
-    "en": "— preparation at"
+  "einladen": {
+    "pos": "verb"
   },
-  "— präp. bei": {
+  "durchgehen": {
     "pos": "verb",
-    "ru": "— приготовление при",
-    "en": "— preparation at"
+    "ru": "просматривать, проходить",
+    "en": "to go through / skim"
   },
-  "— präp. von": {
-    "pos": "verb",
-    "ru": "— подготовка",
-    "en": "— preparation of"
+  "ansprechen": {
+    "pos": "verb"
   },
-  "+ verb einladen": {
-    "pos": "verb",
-    "ru": "+ глагол приглашения",
-    "en": "+ invite verb"
-  },
-  "+ verb durchgehen": {
-    "pos": "verb",
-    "ru": "+ глагол пройти",
-    "en": "+ verb go through"
-  },
-  "+ verb einchecken": {
-    "pos": "verb",
-    "ru": "+ прибытие глагола",
-    "en": "+ verb check in"
-  },
-  "+ verb ansprechen": {
-    "pos": "verb",
-    "ru": "+ ответ глагола",
-    "en": "+ verb response"
-  },
-  "+ verb einreichen": {
-    "pos": "verb",
-    "ru": "+ отправить глагол",
-    "en": "+ submit verb"
+  "einreichen": {
+    "pos": "verb"
   },
   "erklären": {
     "pos": "verb",
     "ru": "объяснять",
     "en": "to explain"
-  },
-  "einchecken": {
-    "pos": "verb",
-    "ru": "прибытие",
-    "en": "Check in:"
   },
   "ruhen": {
     "pos": "verb",
@@ -5638,9 +5406,6 @@
     "pos": "verb",
     "ru": "& Получить",
     "en": "to pick up"
-  },
-  "— außerdem / dann / dennoch / deshalb": {
-    "pos": "verb"
   },
   "gmb": {
     "pos": "noun",
@@ -6178,7 +5943,6 @@
   },
   "straßes": {
     "pos": "noun",
-    "ru": "ул.",
     "en": "street"
   },
   "straßens": {
@@ -6188,7 +5952,6 @@
   },
   "straß": {
     "pos": "noun",
-    "ru": "ул.",
     "en": "street"
   },
   "gemüs": {
@@ -6524,11 +6287,6 @@
     "ru": "Остановка общественного транспорта",
     "en": "Station"
   },
-  "wasche": {
-    "pos": "noun",
-    "ru": "wsche",
-    "en": "wash"
-  },
   "wohnzimmer": {
     "pos": "noun",
     "ru": "Гостиная",
@@ -6588,11 +6346,6 @@
     "pos": "noun",
     "ru": "любимая еда",
     "en": "Favorite food"
-  },
-  "spielst": {
-    "pos": "noun",
-    "ru": "вы играете",
-    "en": "you play"
   },
   "mannschaft": {
     "pos": "noun",
@@ -6714,11 +6467,6 @@
     "ru": "Гроза",
     "en": "Thunderstorms"
   },
-  "+ verb haben": {
-    "pos": "verb",
-    "ru": "+ глагол",
-    "en": "+ verb"
-  },
   "verben": {
     "pos": "noun",
     "ru": "Глагол",
@@ -6733,11 +6481,6 @@
     "pos": "verb",
     "ru": "восстановить",
     "en": "I recover"
-  },
-  "— außerdem / denn / dennoch / deshalb": {
-    "pos": "verb",
-    "ru": "— более того / потому что / тем не менее / поэтому",
-    "en": "— moreover / because / nevertheless / therefore"
   },
   "stellenanzeige": {
     "pos": "noun",
@@ -6978,11 +6721,6 @@
     "ru": "Число зарегистрированных участников",
     "en": "registrations"
   },
-  "anmelden": {
-    "pos": "noun",
-    "ru": "войти",
-    "en": "subscribe"
-  },
   "anmeldend": {
     "pos": "noun",
     "ru": "вход",
@@ -7010,30 +6748,6 @@
   },
   "unserem": {
     "pos": "noun"
-  },
-  "— außerdem / dann / deshalb / trotzdem": {
-    "pos": "verb"
-  },
-  "— außerdem / dagegen / daher / trotzdem": {
-    "pos": "verb"
-  },
-  "— dann / dennoch / deshalb / folglich": {
-    "pos": "verb"
-  },
-  "— außerdem / dennoch / deshalb / trotzdem": {
-    "pos": "verb"
-  },
-  "— außerdem / dann / dennoch / folglich": {
-    "pos": "verb"
-  },
-  "— dann / deshalb / folglich / trotzdem": {
-    "pos": "verb"
-  },
-  "— außerdem / dagegen / daher / dennoch": {
-    "pos": "verb"
-  },
-  "— außerdem / deshalb / folglich / trotzdem": {
-    "pos": "verb"
   },
   "laborant": {
     "pos": "noun",
@@ -7895,8 +7609,8 @@
   },
   "besuchen": {
     "pos": "verb",
-    "ru": "навещать",
-    "en": "if you'd like to find out"
+    "ru": "навещать, посещать",
+    "en": "to visit"
   },
   "helfen": {
     "pos": "verb",
@@ -7928,11 +7642,6 @@
     "ru": "Развлечения",
     "en": "celebrate"
   },
-  "anrufen": {
-    "pos": "verb",
-    "ru": "звонить",
-    "en": "phoning"
-  },
   "putzen": {
     "pos": "verb",
     "ru": "убирать",
@@ -7957,6 +7666,147 @@
     "pos": "verb",
     "ru": "любят",
     "en": "do I not love ?"
+  },
+  "tech": {
+    "pos": "noun",
+    "en": "tech"
+  },
+  "techpro": {
+    "pos": "noun",
+    "en": "TechPRO"
+  },
+  "green": {
+    "pos": "noun",
+    "ru": "зелёный",
+    "en": "green"
+  },
+  "greentech": {
+    "pos": "noun",
+    "en": "GreenTech"
+  },
+  "mode": {
+    "pos": "noun",
+    "en": "fashion"
+  },
+  "modeonline": {
+    "pos": "noun",
+    "ru": "fashiononline",
+    "en": "fashiononline"
+  },
+  "+ präposition": {
+    "pos": "verb",
+    "ru": "Предлог",
+    "en": "Preposition and postposition"
+  },
+  "— präp. auf": {
+    "pos": "verb",
+    "ru": "— подготовка на",
+    "en": "— preparation on"
+  },
+  "— präp. an": {
+    "pos": "verb",
+    "ru": "— подготовка к",
+    "en": "— prep. to"
+  },
+  "— präp. über": {
+    "pos": "verb",
+    "ru": "— приготовление через",
+    "en": "— preparation via"
+  },
+  "— denn / deshalb / trotzdem / weil": {
+    "pos": "verb",
+    "ru": "— потому / поэтому / тем не менее / потому что",
+    "en": "— because / therefore / nevertheless / because"
+  },
+  "— außerdem / deshalb / trotzdem / weil": {
+    "pos": "verb",
+    "ru": "— также / поэтому / тем не менее / потому что",
+    "en": "— also / therefore / nevertheless / because"
+  },
+  "— außerdem / denn / deshalb / trotzdem": {
+    "pos": "verb",
+    "ru": "— более того / потому / поэтому / тем не менее",
+    "en": "— moreover / because / therefore / nevertheless"
+  },
+  "— außerdem / denn / deshalb / weil": {
+    "pos": "verb",
+    "ru": "— также / потому / потому / потому что",
+    "en": "— also / because / because / because"
+  },
+  "— präp. für": {
+    "pos": "verb",
+    "ru": "— подготовка к",
+    "en": "— preparation for"
+  },
+  "— außerdem / dennoch / deshalb / folglich": {
+    "pos": "verb"
+  },
+  "— außerdem / denn / trotzdem / weil": {
+    "pos": "verb",
+    "ru": "— более того / потому / тем не менее / потому что",
+    "en": "— moreover / because / nevertheless / because"
+  },
+  "— außerdem / denn / dennoch / weil": {
+    "pos": "verb",
+    "ru": "— более того / потому / тем не менее / потому что",
+    "en": "— moreover / because / nevertheless / because"
+  },
+  "— außerdem / dennoch / deshalb / weil": {
+    "pos": "verb",
+    "ru": "— также / тем не менее / потому / потому что",
+    "en": "— also / nevertheless / because / because"
+  },
+  "— denn / dennoch / deshalb / weil": {
+    "pos": "verb",
+    "ru": "— потому что / тем не менее / потому что / потому что",
+    "en": "— because / nevertheless / because / because"
+  },
+  "— präp. um": {
+    "pos": "verb",
+    "ru": "— приготовление при",
+    "en": "— preparation at"
+  },
+  "— präp. bei": {
+    "pos": "verb",
+    "ru": "— приготовление при",
+    "en": "— preparation at"
+  },
+  "— präp. von": {
+    "pos": "verb",
+    "ru": "— подготовка",
+    "en": "— preparation of"
+  },
+  "— außerdem / dann / dennoch / deshalb": {
+    "pos": "verb"
+  },
+  "— außerdem / denn / dennoch / deshalb": {
+    "pos": "verb",
+    "ru": "— более того / потому что / тем не менее / поэтому",
+    "en": "— moreover / because / nevertheless / therefore"
+  },
+  "— außerdem / dann / deshalb / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / daher / trotzdem": {
+    "pos": "verb"
+  },
+  "— dann / dennoch / deshalb / folglich": {
+    "pos": "verb"
+  },
+  "— außerdem / dennoch / deshalb / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dann / dennoch / folglich": {
+    "pos": "verb"
+  },
+  "— dann / deshalb / folglich / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / daher / dennoch": {
+    "pos": "verb"
+  },
+  "— außerdem / deshalb / folglich / trotzdem": {
+    "pos": "verb"
   },
   "— dennoch / deshalb / trotzdem / weil": {
     "pos": "verb",
@@ -8198,33 +8048,6 @@
   },
   "— lösen / löst / löste / löstest": {
     "pos": "verb"
-  },
-  "tech": {
-    "pos": "noun",
-    "ru": "Tech.",
-    "en": "tech"
-  },
-  "techpro": {
-    "pos": "noun",
-    "en": "TechPRO"
-  },
-  "green": {
-    "pos": "noun",
-    "ru": "зелёный",
-    "en": "green"
-  },
-  "greentech": {
-    "pos": "noun",
-    "en": "GreenTech"
-  },
-  "mode": {
-    "pos": "noun",
-    "en": "fashion"
-  },
-  "modeonline": {
-    "pos": "noun",
-    "ru": "fashiononline",
-    "en": "fashiononline"
   },
   "publikum": {
     "pos": "noun",

@@ -17,6 +17,14 @@ import adjLemmas from '@/data/adjLemmas.json';
 import nounLemmas from '@/data/nounLemmas.json';
 import vocabulary from '@/data/vocabulary.json';
 
+/** @param {string} lemma */
+function normalizeLemmaKey(lemma) {
+  const key = String(lemma || '').toLowerCase();
+  const bogus = key.match(/^\+ verb\s+([a-zäöüß]+)/);
+  if (bogus) return bogus[1];
+  return key;
+}
+
 /** @param {string} word */
 export function shouldSkipDictionaryWord(word) {
   const w = String(word || '').toLowerCase();
@@ -34,7 +42,7 @@ export function resolveLemma(word) {
   const form = String(word || '').trim();
   const key = form.toLowerCase();
   if (verbLemmas[key]) {
-    return { form, lemma: verbLemmas[key], pos: 'verb' };
+    return { form, lemma: normalizeLemmaKey(verbLemmas[key]), pos: 'verb' };
   }
   if (adjLemmas[key]) {
     return { form, lemma: adjLemmas[key], pos: 'adj' };
@@ -44,11 +52,12 @@ export function resolveLemma(word) {
     const entry = vocabulary[lemma];
     return { form, lemma, pos: entry?.pos || 'noun' };
   }
-  const entry = vocabulary[key];
+  const directKey = normalizeLemmaKey(key);
+  const entry = vocabulary[directKey];
   if (entry) {
-    return { form, lemma: key, pos: entry.pos || null };
+    return { form, lemma: directKey, pos: entry.pos || null };
   }
-  return { form, lemma: key, pos: null };
+  return { form, lemma: directKey, pos: null };
 }
 
 /**
@@ -69,7 +78,7 @@ export function resolveDictionaryTargetLangs(uiLocale) {
  * @return {string|null}
  */
 export function getLocalTranslation(lemma, lang) {
-  const entry = vocabulary[String(lemma || '').toLowerCase()];
+  const entry = vocabulary[normalizeLemmaKey(lemma)];
   if (!entry) return null;
   const raw = lang === 'en' ? entry.en : entry.ru;
   if (!raw || /MYMEMORY WARNING/i.test(raw)) return null;
@@ -84,6 +93,10 @@ export function getLocalTranslation(lemma, lang) {
  */
 function isUsableTranslation(text, lemma, lang) {
   if (!text || text === '—') return false;
+  if (/^\+ verb/i.test(text) || /^\+ глагол/i.test(text)) return false;
+  if (/^[a-zäöüß]{1,4}\.$/i.test(text.trim())) return false;
+  if (/^[а-яё]{1,3}\.$/i.test(text.trim())) return false;
+  if (/\b(if you|would like|are here)\b/i.test(text)) return false;
   if (text.toLowerCase() === lemma.toLowerCase()) {
     // English cognates (Park, Student, …) are valid glosses.
     if (lang === 'en') return true;
@@ -104,7 +117,7 @@ function isUsableTranslation(text, lemma, lang) {
  * @return {string|null}  `m` | `f` | `n`
  */
 export function getNounGender(lemma) {
-  const entry = vocabulary[String(lemma || '').toLowerCase()];
+  const entry = vocabulary[normalizeLemmaKey(lemma)];
   return entry?.gender || null;
 }
 
@@ -144,7 +157,7 @@ function lookupLemmaInLang(lemma, targetLang) {
 export async function lookupWord(word, uiLocale) {
   const { form, lemma, pos } = resolveLemma(word);
   const gender = getNounGender(lemma);
-  const entry = vocabulary[lemma];
+  const entry = vocabulary[normalizeLemmaKey(lemma)];
   const resolvedPos = pos || entry?.pos || null;
   const langs = resolveDictionaryTargetLangs(uiLocale);
 
