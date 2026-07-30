@@ -4,7 +4,11 @@ type: input-text
 lemma: Käse
 set: EINKAUFEN
 focus: word
-hint: Wortschatz — der Käse
+hint: „der“ — maskulin · Nominativ.
+wordChoices:
+  - Käse
+  - Milch
+  - Obst
 correct:
   - Käse
   - Käse

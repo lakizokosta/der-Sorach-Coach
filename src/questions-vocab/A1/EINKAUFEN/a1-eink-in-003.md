@@ -4,7 +4,11 @@ type: input-text
 lemma: Preis
 set: EINKAUFEN
 focus: word
-hint: Wortschatz — der Preis
+hint: „Der“ zeigt maskulin · Nominativ.
+wordChoices:
+  - Preis
+  - Milch
+  - Gemüse
 correct:
   - Preis
   - preis

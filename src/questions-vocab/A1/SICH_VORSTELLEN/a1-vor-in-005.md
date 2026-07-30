@@ -4,7 +4,11 @@ type: input-text
 lemma: Land
 set: SICH_VORSTELLEN
 focus: word
-hint: Wortschatz — das Land
+hint: „ein kleines …“ — neutral · Nominativ.
+wordChoices:
+  - Land
+  - Stadt
+  - Beruf
 correct:
   - Land
   - land

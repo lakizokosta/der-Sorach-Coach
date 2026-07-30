@@ -296,6 +296,9 @@ export function parseQuestionFile(raw, context) {
       }
       question.correct = correctList;
       question.verbInfinitive = resolveInputTextInfinitive(question);
+      if (Array.isArray(meta.wordChoices) && meta.wordChoices.length >= 2) {
+        question.wordChoices = meta.wordChoices.map(String);
+      }
       break;
     }
     case 'text-gaps': {

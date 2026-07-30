@@ -4,7 +4,11 @@ type: input-text
 lemma: Name
 set: SICH_VORSTELLEN
 focus: word
-hint: Wortschatz — der Name
+hint: „Mein … ist Lukas“ — wie heißt du?
+wordChoices:
+  - Name
+  - Stadt
+  - Land
 correct:
   - Name
   - name

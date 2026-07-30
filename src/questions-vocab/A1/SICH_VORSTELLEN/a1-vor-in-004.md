@@ -4,7 +4,11 @@ type: input-text
 lemma: Stadt
 set: SICH_VORSTELLEN
 focus: word
-hint: Wortschatz — die Stadt
+hint: „eine schöne …“ — feminin · Nominativ.
+wordChoices:
+  - Stadt
+  - Land
+  - Beruf
 correct:
   - Stadt
   - stadt

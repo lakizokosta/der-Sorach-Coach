@@ -4,7 +4,11 @@ type: input-text
 lemma: Milch
 set: EINKAUFEN
 focus: word
-hint: Wortschatz — die Milch
+hint: Was kaufst du zusammen mit Eiern?
+wordChoices:
+  - Milch
+  - Brot
+  - Käse
 correct:
   - Milch
   - milch

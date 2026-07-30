@@ -156,7 +156,11 @@ correct: eine Flasche`,
   },
   {
     id: 'a1-eink-in-001', type: 'input-text', lemma: 'kaufen',
-    fm: `hint: Wortschatz — einkaufen
+    fm: `hint: Was machst du im Supermarkt?
+wordChoices:
+  - kaufe
+  - koche
+  - schlafe
 correct:
   - kaufe
   - Kaufe`,
@@ -164,7 +168,11 @@ correct:
   },
   {
     id: 'a1-eink-in-002', type: 'input-text', lemma: 'Supermarkt',
-    fm: `hint: Wortschatz — der Supermarkt
+    fm: `hint: Nach „in den“ folgt ein maskulines Nomen (Akkusativ).
+wordChoices:
+  - Supermarkt
+  - Milch
+  - Obst
 correct:
   - Supermarkt
   - supermarkt`,
@@ -172,7 +180,11 @@ correct:
   },
   {
     id: 'a1-eink-in-003', type: 'input-text', lemma: 'Preis',
-    fm: `hint: Wortschatz — der Preis
+    fm: `hint: „Der“ zeigt maskulin · Nominativ.
+wordChoices:
+  - Preis
+  - Milch
+  - Gemüse
 correct:
   - Preis
   - preis`,
@@ -180,7 +192,11 @@ correct:
   },
   {
     id: 'a1-eink-in-004', type: 'input-text', lemma: 'billig',
-    fm: `hint: Wortschatz — billig
+    fm: `hint: Wie sind die Bananen heute — teuer oder günstig?
+wordChoices:
+  - billig
+  - teuer
+  - laut
 correct:
   - billig
   - Billig`,
@@ -188,7 +204,11 @@ correct:
   },
   {
     id: 'a1-eink-in-005', type: 'input-text', lemma: 'teuer',
-    fm: `hint: Wortschatz — teuer
+    fm: `hint: Der Kaffee kostet viel — welches Adjektiv passt?
+wordChoices:
+  - teuer
+  - billig
+  - klein
 correct:
   - teuer
   - Teuer`,
@@ -196,7 +216,11 @@ correct:
   },
   {
     id: 'a1-eink-in-006', type: 'input-text', lemma: 'Milch',
-    fm: `hint: Wortschatz — die Milch
+    fm: `hint: Was kaufst du zusammen mit Eiern?
+wordChoices:
+  - Milch
+  - Brot
+  - Käse
 correct:
   - Milch
   - milch`,
@@ -204,7 +228,11 @@ correct:
   },
   {
     id: 'a1-eink-in-007', type: 'input-text', lemma: 'Käse',
-    fm: `hint: Wortschatz — der Käse
+    fm: `hint: „der“ — maskulin · Nominativ.
+wordChoices:
+  - Käse
+  - Milch
+  - Obst
 correct:
   - Käse
   - Käse
@@ -214,7 +242,11 @@ correct:
   },
   {
     id: 'a1-eink-in-008', type: 'input-text', lemma: 'Obst',
-    fm: `hint: Wortschatz — das Obst
+    fm: `hint: Äpfel, Bananen, Orangen — welche Wortgruppe?
+wordChoices:
+  - Obst
+  - Gemüse
+  - Milch
 correct:
   - Obst
   - obst`,
@@ -222,7 +254,11 @@ correct:
   },
   {
     id: 'a1-eink-in-009', type: 'input-text', lemma: 'Gemüse',
-    fm: `hint: Wortschatz — das Gemüse
+    fm: `hint: Salat und Tomaten — Obst oder Gemüse?
+wordChoices:
+  - Gemüse
+  - Obst
+  - Fleisch
 correct:
   - Gemüse
   - gemüse
@@ -232,7 +268,11 @@ correct:
   },
   {
     id: 'a1-eink-in-010', type: 'input-text', lemma: 'bezahlen',
-    fm: `hint: Wortschatz — bezahlen
+    fm: `hint: Was machst du an der Kasse?
+wordChoices:
+  - bezahle
+  - koche
+  - schreibe
 correct:
   - bezahle
   - Bezahle`,
@@ -437,7 +477,11 @@ correct: Hallo`,
   },
   {
     id: 'a1-vor-in-001', type: 'input-text', lemma: 'heißen',
-    fm: `hint: Wortschatz — heißen
+    fm: `hint: Wie stellst du deinen Namen vor?
+wordChoices:
+  - heiße
+  - kaufe
+  - wohne
 correct:
   - heiße
   - Heiße`,
@@ -445,7 +489,11 @@ correct:
   },
   {
     id: 'a1-vor-in-002', type: 'input-text', lemma: 'kommen',
-    fm: `hint: Wortschatz — kommen aus
+    fm: `hint: Woher kommst du?
+wordChoices:
+  - komme
+  - wohne
+  - arbeite
 correct:
   - komme
   - Komme`,
@@ -453,7 +501,11 @@ correct:
   },
   {
     id: 'a1-vor-in-003', type: 'input-text', lemma: 'wohnen',
-    fm: `hint: Wortschatz — wohnen
+    fm: `hint: In welcher Stadt lebst du?
+wordChoices:
+  - wohne
+  - komme
+  - kaufe
 correct:
   - wohne
   - Wohne`,
@@ -461,7 +513,11 @@ correct:
   },
   {
     id: 'a1-vor-in-004', type: 'input-text', lemma: 'Stadt',
-    fm: `hint: Wortschatz — die Stadt
+    fm: `hint: „eine schöne …“ — feminin · Nominativ.
+wordChoices:
+  - Stadt
+  - Land
+  - Beruf
 correct:
   - Stadt
   - stadt`,
@@ -469,7 +525,11 @@ correct:
   },
   {
     id: 'a1-vor-in-005', type: 'input-text', lemma: 'Land',
-    fm: `hint: Wortschatz — das Land
+    fm: `hint: „ein kleines …“ — neutral · Nominativ.
+wordChoices:
+  - Land
+  - Stadt
+  - Beruf
 correct:
   - Land
   - land`,
@@ -477,7 +537,11 @@ correct:
   },
   {
     id: 'a1-vor-in-006', type: 'input-text', lemma: 'Beruf',
-    fm: `hint: Wortschatz — der Beruf
+    fm: `hint: Was machst du beruflich?
+wordChoices:
+  - Beruf
+  - Stadt
+  - Name
 correct:
   - Beruf
   - beruf`,
@@ -485,7 +549,11 @@ correct:
   },
   {
     id: 'a1-vor-in-007', type: 'input-text', lemma: 'sprechen',
-    fm: `hint: Wortschatz — sprechen
+    fm: `hint: Welche Sprache lernst du im Kurs?
+wordChoices:
+  - spreche
+  - kaufe
+  - esse
 correct:
   - spreche
   - Spreche`,
@@ -493,7 +561,11 @@ correct:
   },
   {
     id: 'a1-vor-in-008', type: 'input-text', lemma: 'arbeiten',
-    fm: `hint: Wortschatz — arbeiten
+    fm: `hint: Was machst du in der Firma?
+wordChoices:
+  - arbeite
+  - schlafe
+  - esse
 correct:
   - arbeite
   - Arbeite`,
@@ -501,7 +573,11 @@ correct:
   },
   {
     id: 'a1-vor-in-009', type: 'input-text', lemma: 'Jahre alt',
-    fm: `hint: Wortschatz — Jahre alt
+    fm: `hint: Schreib dein Alter als Zahl.
+wordChoices:
+  - 30
+  - 20
+  - 40
 correct:
   - 30
   - dreißig
@@ -510,7 +586,11 @@ correct:
   },
   {
     id: 'a1-vor-in-010', type: 'input-text', lemma: 'Name',
-    fm: `hint: Wortschatz — der Name
+    fm: `hint: „Mein … ist Lukas“ — wie heißt du?
+wordChoices:
+  - Name
+  - Stadt
+  - Land
 correct:
   - Name
   - name`,

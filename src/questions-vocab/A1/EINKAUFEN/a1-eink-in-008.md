@@ -4,7 +4,11 @@ type: input-text
 lemma: Obst
 set: EINKAUFEN
 focus: word
-hint: Wortschatz — das Obst
+hint: Äpfel, Bananen, Orangen — welche Wortgruppe?
+wordChoices:
+  - Obst
+  - Gemüse
+  - Milch
 correct:
   - Obst
   - obst

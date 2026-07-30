@@ -203,7 +203,18 @@ function infinitiveFromSeparableVerb(correct, promptBody) {
  */
 export function resolveInputTextInfinitive(question) {
   const lemma = String(question.lemma || '').trim().toLowerCase();
-  if (lemma) return lemma;
+  const focusWord = String(question.focus || '').toLowerCase() === 'word';
+
+  if (lemma) {
+    if (focusWord) {
+      if (looksLikeInfinitive(lemma)) return lemma;
+      const correct = Array.isArray(question.correct) ? question.correct[0] : '';
+      const fromAnswer = finiteToInfinitive(correct);
+      if (fromAnswer && looksLikeInfinitive(fromAnswer)) return fromAnswer;
+      return '';
+    }
+    return lemma;
+  }
 
   const fromParen = infinitiveFromTrailingParen(question.prompt || '');
   if (fromParen && isVerbGapContext(question)) return fromParen;

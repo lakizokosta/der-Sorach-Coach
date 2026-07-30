@@ -4,7 +4,11 @@ type: input-text
 lemma: kaufen
 set: EINKAUFEN
 focus: word
-hint: Wortschatz — einkaufen
+hint: Was machst du im Supermarkt?
+wordChoices:
+  - kaufe
+  - koche
+  - schlafe
 correct:
   - kaufe
   - Kaufe

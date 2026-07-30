@@ -4,7 +4,11 @@ type: input-text
 lemma: Jahre alt
 set: SICH_VORSTELLEN
 focus: word
-hint: Wortschatz — Jahre alt
+hint: Schreib dein Alter als Zahl.
+wordChoices:
+  - 30
+  - 20
+  - 40
 correct:
   - 30
   - dreißig

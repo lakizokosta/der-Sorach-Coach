@@ -4,7 +4,11 @@ type: input-text
 lemma: teuer
 set: EINKAUFEN
 focus: word
-hint: Wortschatz — teuer
+hint: Der Kaffee kostet viel — welches Adjektiv passt?
+wordChoices:
+  - teuer
+  - billig
+  - klein
 correct:
   - teuer
   - Teuer

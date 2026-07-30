@@ -4,7 +4,11 @@ type: input-text
 lemma: Beruf
 set: SICH_VORSTELLEN
 focus: word
-hint: Wortschatz — der Beruf
+hint: Was machst du beruflich?
+wordChoices:
+  - Beruf
+  - Stadt
+  - Name
 correct:
   - Beruf
   - beruf

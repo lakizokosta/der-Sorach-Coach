@@ -4,7 +4,11 @@ type: input-text
 lemma: wohnen
 set: SICH_VORSTELLEN
 focus: word
-hint: Wortschatz — wohnen
+hint: In welcher Stadt lebst du?
+wordChoices:
+  - wohne
+  - komme
+  - kaufe
 correct:
   - wohne
   - Wohne

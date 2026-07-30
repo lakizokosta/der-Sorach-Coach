@@ -1117,6 +1117,19 @@ button:not(:disabled):not(.logo-wrap) {
   color: #6b5b7a;
   font-style: italic;
 }
+.fill-word-choices-hint {
+  margin: -8px 0 14px 4px;
+  font-size: 14px;
+  color: #6b5b7a;
+  text-align: center;
+}
+.fill-word-choices-hint__items {
+  display: block;
+  margin-top: 4px;
+  font-weight: 700;
+  font-style: normal;
+  color: #5a4a6a;
+}
 .fill-choice-hint {
   margin: 0 0 12px 4px;
   font-size: 13px;

@@ -4,7 +4,11 @@ type: input-text
 lemma: Supermarkt
 set: EINKAUFEN
 focus: word
-hint: Wortschatz — der Supermarkt
+hint: Nach „in den“ folgt ein maskulines Nomen (Akkusativ).
+wordChoices:
+  - Supermarkt
+  - Milch
+  - Obst
 correct:
   - Supermarkt
   - supermarkt

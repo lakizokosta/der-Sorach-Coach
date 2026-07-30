@@ -4,7 +4,11 @@ type: input-text
 lemma: kommen
 set: SICH_VORSTELLEN
 focus: word
-hint: Wortschatz — kommen aus
+hint: Woher kommst du?
+wordChoices:
+  - komme
+  - wohne
+  - arbeite
 correct:
   - komme
   - Komme

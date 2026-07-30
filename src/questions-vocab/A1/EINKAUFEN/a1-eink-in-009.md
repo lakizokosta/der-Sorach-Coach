@@ -4,7 +4,11 @@ type: input-text
 lemma: Gemüse
 set: EINKAUFEN
 focus: word
-hint: Wortschatz — das Gemüse
+hint: Salat und Tomaten — Obst oder Gemüse?
+wordChoices:
+  - Gemüse
+  - Obst
+  - Fleisch
 correct:
   - Gemüse
   - gemüse

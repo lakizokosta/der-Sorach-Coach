@@ -294,6 +294,7 @@ export default {
       `Deine ${FREE_MINUTES_PER_DAY} Gratis-Minuten für heute sind verbraucht — komm morgen wieder!`,
     sessionEnded: 'Session beendet',
     infinitiveHint: 'Infinitiv: {verb}',
+    wordChoicesHint: 'Mögliche Wörter:',
     fillBlankDefault: 'Fülle die Lücke aus:',
     fillBlankTipHint: 'Tipp: Mögliche Formen findest du unter 💡 Tipp.',
     placementShare: '📤 Niveau teilen',

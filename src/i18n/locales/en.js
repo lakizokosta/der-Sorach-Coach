@@ -291,6 +291,7 @@ export default {
       `Your ${FREE_MINUTES_PER_DAY} free minutes for today are used up — come back tomorrow!`,
     sessionEnded: 'Session ended',
     infinitiveHint: 'Infinitive: {verb}',
+    wordChoicesHint: 'Possible words:',
     fillBlankDefault: 'Fill in the blank:',
     fillBlankTipHint: 'Tip: tap 💡 Tip to see possible forms.',
     placementShare: '📤 Share my level',

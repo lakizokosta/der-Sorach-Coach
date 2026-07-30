@@ -59,6 +59,18 @@ const showSpatialHint = computed(() => spatialScene.value !== null);
 
 const verbInfinitive = computed(() => String(props.question.verbInfinitive || '').trim());
 
+const shuffledWordChoices = ref([]);
+
+onMounted(() => {
+  nextTick(() => inputRef.value?.focus());
+  const choices = Array.isArray(props.question.wordChoices)
+    ? props.question.wordChoices.map(String)
+    : [];
+  if (choices.length >= 2) {
+    shuffledWordChoices.value = [...choices].sort(() => Math.random() - 0.5);
+  }
+});
+
 const partLeftHtml = computed(() =>
   props.premium ? wrapWordsForDictionary(parts[0] || '') : escapeHtml(parts[0] || ''),
 );
@@ -73,8 +85,6 @@ function escapeHtml(s) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
 }
-
-onMounted(() => nextTick(() => inputRef.value?.focus()));
 
 /** Submits the typed answer. */
 function check() {
@@ -214,6 +224,11 @@ const inputStyle = computed(() => {
 
     <p v-if="verbInfinitive" class="fill-infinitive-hint">
       {{ t('trainer.infinitiveHint', { verb: verbInfinitive }) }}
+    </p>
+
+    <p v-else-if="shuffledWordChoices.length" class="fill-word-choices-hint">
+      {{ t('trainer.wordChoicesHint') }}
+      <span class="fill-word-choices-hint__items">{{ shuffledWordChoices.join(' · ') }}</span>
     </p>
 
     <div class="sprach-btns">

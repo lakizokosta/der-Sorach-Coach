@@ -4,7 +4,11 @@ type: input-text
 lemma: bezahlen
 set: EINKAUFEN
 focus: word
-hint: Wortschatz — bezahlen
+hint: Was machst du an der Kasse?
+wordChoices:
+  - bezahle
+  - koche
+  - schreibe
 correct:
   - bezahle
   - Bezahle

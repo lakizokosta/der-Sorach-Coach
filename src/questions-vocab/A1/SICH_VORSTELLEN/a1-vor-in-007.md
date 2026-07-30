@@ -4,7 +4,11 @@ type: input-text
 lemma: sprechen
 set: SICH_VORSTELLEN
 focus: word
-hint: Wortschatz — sprechen
+hint: Welche Sprache lernst du im Kurs?
+wordChoices:
+  - spreche
+  - kaufe
+  - esse
 correct:
   - spreche
   - Spreche

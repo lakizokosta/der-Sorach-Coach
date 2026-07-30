@@ -291,6 +291,7 @@ export default {
       `Твои бесплатные ${FREE_MINUTES_PER_DAY} минут на сегодня истекли — приходи завтра!`,
     sessionEnded: 'Сессия завершена',
     infinitiveHint: 'Инфинитив: {verb}',
+    wordChoicesHint: 'Возможные слова:',
     fillBlankDefault: 'Заполните пропуск:',
     fillBlankTipHint: 'Подсказка: возможные формы — под кнопкой 💡 Подсказка.',
     placementShare: '📤 Поделиться уровнем',

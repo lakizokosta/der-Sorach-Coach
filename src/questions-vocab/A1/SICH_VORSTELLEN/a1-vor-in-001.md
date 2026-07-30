@@ -4,7 +4,11 @@ type: input-text
 lemma: heißen
 set: SICH_VORSTELLEN
 focus: word
-hint: Wortschatz — heißen
+hint: Wie stellst du deinen Namen vor?
+wordChoices:
+  - heiße
+  - kaufe
+  - wohne
 correct:
   - heiße
   - Heiße

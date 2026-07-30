@@ -4,7 +4,11 @@ type: input-text
 lemma: billig
 set: EINKAUFEN
 focus: word
-hint: Wortschatz — billig
+hint: Wie sind die Bananen heute — teuer oder günstig?
+wordChoices:
+  - billig
+  - teuer
+  - laut
 correct:
   - billig
   - Billig
