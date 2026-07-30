@@ -94,6 +94,19 @@ const vocabSetLabel = computed(() => {
   const set = getVocabSetsForLevel(level.value).find((s) => s.key === vocabSetKey.value);
   return set?.name || vocabSetKey.value;
 });
+const vocabShellClass = computed(() => ({
+  'app-shell--vocab-themed': vocabMode.value && !!vocabTheme.value,
+}));
+const vocabShellStyle = computed(() => {
+  const theme = vocabTheme.value;
+  if (!vocabMode.value || !theme) return undefined;
+  const style = {
+    '--vocab-tint': theme.tint,
+    '--vocab-accent': theme.accent,
+  };
+  if (theme.image) style['--vocab-bg-image'] = `url(${theme.image})`;
+  return style;
+});
 const schwaechenTopics = ref([]);
 
 // `shallowRef` so Vue's reactivity does NOT deeply proxy the queue's
@@ -950,13 +963,23 @@ watch(lastAnswerResolved, (resolved) => {
 
 <template>
   <!-- Loading / empty queue -->
-  <div v-if="!currentQuestion && !finished" class="app-shell">
+  <div
+    v-if="!currentQuestion && !finished"
+    class="app-shell"
+    :class="vocabShellClass"
+    :style="vocabShellStyle"
+  >
     <LzdLogo />
     <h2 style="margin-top: 20px;">{{ t('trainer.loading') }}</h2>
   </div>
 
   <!-- Empty result for missing topic -->
-  <div v-else-if="!currentQuestion && finished && answered === 0" class="app-shell">
+  <div
+    v-else-if="!currentQuestion && finished && answered === 0"
+    class="app-shell"
+    :class="vocabShellClass"
+    :style="vocabShellStyle"
+  >
     <LzdLogo />
     <h2>{{ t('trainer.noQuestions') }}</h2>
     <p v-if="schwaechenMode">{{ t('schwaechen.bodyNoErrors') }}</p>
@@ -965,7 +988,12 @@ watch(lastAnswerResolved, (resolved) => {
   </div>
 
   <!-- Final result screen -->
-  <div v-else-if="finished" class="app-shell">
+  <div
+    v-else-if="finished"
+    class="app-shell"
+    :class="vocabShellClass"
+    :style="vocabShellStyle"
+  >
     <LzdLogo />
     <div style="max-width: 520px; margin: 0 auto; padding: 10px 18px 30px;">
       <div
@@ -1278,14 +1306,8 @@ watch(lastAnswerResolved, (resolved) => {
     v-else
     ref="trainerRootRef"
     class="app-shell"
-    :class="{
-      'app-shell--funnel': showFunnelSticky,
-      'app-shell--vocab-themed': vocabMode && vocabTheme,
-    }"
-    :style="vocabTheme ? {
-      '--vocab-tint': vocabTheme.tint,
-      '--vocab-accent': vocabTheme.accent,
-    } : undefined"
+    :class="[{ 'app-shell--funnel': showFunnelSticky }, vocabShellClass]"
+    :style="vocabShellStyle"
     @click="onContainerClick"
   >
     <LzdLogo small />

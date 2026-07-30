@@ -4,20 +4,28 @@
  * Each set maps to Markdown under `src/questions-vocab/<LEVEL>/<KEY>/`.
  */
 
-/** @type {Record<string, Array<{key:string, name:string, desc:string, theme?:{tint:string, accent:string}}>>} */
+/** @type {Record<string, Array<{key:string, name:string, desc:string, theme?:{tint:string, accent:string, image:string}}>>} */
 export const VOCAB_SETS = {
   A1: [
     {
       key: 'EINKAUFEN',
       name: 'Einkaufen',
       desc: 'Lebensmittel, Preise, im Geschäft',
-      theme: { tint: 'rgba(255, 196, 120, 0.38)', accent: '#c47a2a' },
+      theme: {
+        tint: 'rgba(255, 196, 120, 0.14)',
+        accent: '#c47a2a',
+        image: '/themes/theme-einkaufen.png',
+      },
     },
     {
       key: 'SICH_VORSTELLEN',
       name: 'Sich vorstellen',
       desc: 'Name, Herkunft, Beruf, Hobbys',
-      theme: { tint: 'rgba(140, 190, 255, 0.35)', accent: '#3d6fb5' },
+      theme: {
+        tint: 'rgba(140, 190, 255, 0.12)',
+        accent: '#3d6fb5',
+        image: '/themes/theme-sich-vorstellen.png',
+      },
     },
   ],
   A2: [],
@@ -37,7 +45,7 @@ export function getVocabSetsForLevel(level) {
 /**
  * @param {string} level
  * @param {string} setKey
- * @return {?{tint:string, accent:string}}
+ * @return {?{tint:string, accent:string, image:string}}
  */
 export function getVocabSetTheme(level, setKey) {
   const target = String(setKey || '').toUpperCase();

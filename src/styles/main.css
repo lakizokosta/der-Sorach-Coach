@@ -544,11 +544,35 @@ button:not(:disabled):not(.logo-wrap) {
   border-left: 3px solid var(--vocab-accent, #ab4dbb);
 }
 .app-shell--vocab-themed {
+  position: relative;
+  isolation: isolate;
   background: linear-gradient(
     180deg,
-    var(--vocab-tint, rgba(171, 77, 187, 0.12)) 0%,
-    #faf8f5 42%
+    var(--vocab-tint, rgba(171, 77, 187, 0.1)) 0%,
+    rgba(250, 248, 245, 0.97) 38%,
+    #faf8f5 100%
   );
+}
+.app-shell--vocab-themed::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: clamp(48px, 12vh, 120px);
+  transform: translateX(-50%);
+  width: min(84vw, 340px);
+  height: min(44vw, 200px);
+  background-image: var(--vocab-bg-image);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  opacity: 0.13;
+  pointer-events: none;
+  z-index: 0;
+  filter: saturate(0.85);
+}
+.app-shell--vocab-themed > * {
+  position: relative;
+  z-index: 1;
 }
 .premium-level-tabs {
   display: grid;
