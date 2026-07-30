@@ -44,6 +44,8 @@ import {
 import { useTimer, formatMmSs } from '@/composables/useTimer.js';
 
 import { getQuestionsByLevel, getQuestionsByTopic, getTopicQuestionCount } from '@/data/questions.js';
+import { getQuestionsByVocabSet } from '@/data/questionsVocab.js';
+import { getVocabSetTheme, getVocabSetsForLevel } from '@/data/vocabularySets.js';
 import { hasBackend } from '@/utils/api.js';
 import { trainerRequiresPremium } from '@/utils/premiumAccess.js';
 import {
@@ -81,6 +83,17 @@ const level = ref(route.query.level || 'A1');
 const topic = ref(route.query.topic || '');
 const schwaechenMode = computed(() => route.query.mode === 'schwaechen');
 const placementMode = computed(() => route.query.mode === 'placement');
+const vocabMode = computed(() => route.query.mode === 'vocab');
+const vocabSetKey = computed(() => String(route.query.set || '').toUpperCase());
+const vocabTheme = computed(() => {
+  if (!vocabMode.value || !vocabSetKey.value) return null;
+  return getVocabSetTheme(level.value, vocabSetKey.value);
+});
+const vocabSetLabel = computed(() => {
+  if (!vocabSetKey.value) return '';
+  const set = getVocabSetsForLevel(level.value).find((s) => s.key === vocabSetKey.value);
+  return set?.name || vocabSetKey.value;
+});
 const schwaechenTopics = ref([]);
 
 // `shallowRef` so Vue's reactivity does NOT deeply proxy the queue's
@@ -323,6 +336,11 @@ async function loadSessionQuestions() {
     }
     return getQuestionsForWeakTopics(schwaechenTopics.value);
   }
+  if (vocabMode.value) {
+    const setKey = String(route.query.set || '').trim();
+    if (!setKey) return [];
+    return getQuestionsByVocabSet(level.value, setKey);
+  }
   if (topic.value) {
     if (useServer) {
       return loadPremiumQuestions({
@@ -406,14 +424,19 @@ function resetTrainerSessionState() {
 }
 
 async function initTrainer() {
-  if ((schwaechenMode.value || placementMode.value) && !isPremium.value) {
+  if ((schwaechenMode.value || placementMode.value || vocabMode.value) && !isPremium.value) {
     router.replace({ name: 'premium', query: { hub: '1' } });
     return;
   }
 
   const accessOk = await ensureAccessBeforeLoad();
   if (!accessOk) {
-    if (schwaechenMode.value || placementMode.value || (topic.value && route.query.mode === 'premium')) {
+    if (
+      schwaechenMode.value
+      || placementMode.value
+      || vocabMode.value
+      || (topic.value && route.query.mode === 'premium')
+    ) {
       router.replace({ name: 'premium', query: { hub: '1' } });
     } else {
       router.replace({ name: 'landing' });
@@ -454,7 +477,7 @@ onMounted(() => {
 });
 
 watch(
-  () => [route.query.mode, route.query.level, route.query.topic].join('|'),
+  () => [route.query.mode, route.query.level, route.query.topic, route.query.set].join('|'),
   async (nextKey, prevKey) => {
     if (prevKey === undefined) return;
     if (nextKey === prevKey) return;
@@ -1255,7 +1278,14 @@ watch(lastAnswerResolved, (resolved) => {
     v-else
     ref="trainerRootRef"
     class="app-shell"
-    :class="{ 'app-shell--funnel': showFunnelSticky }"
+    :class="{
+      'app-shell--funnel': showFunnelSticky,
+      'app-shell--vocab-themed': vocabMode && vocabTheme,
+    }"
+    :style="vocabTheme ? {
+      '--vocab-tint': vocabTheme.tint,
+      '--vocab-accent': vocabTheme.accent,
+    } : undefined"
     @click="onContainerClick"
   >
     <LzdLogo small />
@@ -1271,6 +1301,10 @@ watch(lastAnswerResolved, (resolved) => {
         <span v-if="schwaechenTopics.length">
           — {{ schwaechenTopics.map((t) => t.name).join(' · ') }}
         </span>
+      </template>
+      <template v-else-if="vocabMode">
+        📚 {{ t('trainer.vocabLabel', { level }) }}
+        <span v-if="vocabSetLabel"> / {{ vocabSetLabel }}</span>
       </template>
       <template v-else>
         {{

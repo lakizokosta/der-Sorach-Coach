@@ -32,6 +32,8 @@ import LegalFooter from '@/components/LegalFooter.vue';
 
 import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
 import { getTopicQuestionCount } from '@/data/questions.js';
+import { getVocabSetsForLevel } from '@/data/vocabularySets.js';
+import { getVocabSetQuestionCount } from '@/data/questionsVocab.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp, getLevel } from '@/composables/useXp.js';
@@ -86,6 +88,7 @@ const showTopicCatalog = computed(() => isPremium.value || isHubMode.value);
 /** Branding under logo on the active Premium home (not hub/checkout). */
 const showPremiumHero = computed(() => isPremium.value && !isHubMode.value);
 const topics = computed(() => getTopicsForLevel(activeLevel.value));
+const vocabSets = computed(() => getVocabSetsForLevel(activeLevel.value));
 
 const conversionSheetOpen = ref(false);
 const conversionVariant = ref('checkout');
@@ -274,6 +277,14 @@ function questionCount(topicKey) {
 }
 
 /**
+ * @param {string} setKey
+ * @return {number}
+ */
+function vocabQuestionCount(setKey) {
+  return getVocabSetQuestionCount(activeLevel.value, setKey);
+}
+
+/**
  * Submits the activation code and (optional) e-mail to the backend.
  * Updates the status message in-place. When no backend is configured
  * the call resolves locally against the demo activator.
@@ -375,6 +386,18 @@ function trainTopic(topicKey) {
 function trainRandomLevel(lvl) {
   if (!isPremium.value) return;
   const query = { level: lvl, mode: 'premium' };
+  if (isHubMode.value) query.returnTo = 'hub';
+  router.push({ name: 'trainer', query });
+}
+
+/** Wortschatz training for one themed set. */
+function trainVocabSet(setKey) {
+  if (!isPremium.value) return;
+  const query = {
+    level: activeLevel.value,
+    set: setKey,
+    mode: 'vocab',
+  };
   if (isHubMode.value) query.returnTo = 'hub';
   router.push({ name: 'trainer', query });
 }
@@ -927,6 +950,16 @@ function topicMastered(key) {
             >
               {{ t('premium.modeTopics') }}
             </button>
+            <button
+              type="button"
+              role="tab"
+              class="premium-mode-switch__btn"
+              :class="{ 'premium-mode-switch__btn--active': trainingMode === 'vocab' }"
+              :aria-selected="trainingMode === 'vocab'"
+              @click="trainingMode = 'vocab'"
+            >
+              {{ t('premium.modeVocab') }}
+            </button>
           </div>
 
           <div
@@ -959,7 +992,7 @@ function topicMastered(key) {
             </button>
           </div>
 
-          <div v-else class="topic-grid">
+          <div v-else-if="trainingMode === 'topics'" class="topic-grid">
             <button
               v-for="topicItem in topics"
               :key="topicItem.key"
@@ -994,6 +1027,45 @@ function topicMastered(key) {
                 </div>
               </div>
               <div class="topic-desc">{{ topicItem.desc }}</div>
+            </button>
+          </div>
+
+          <div v-else class="topic-grid">
+            <p v-if="!vocabSets.length" class="premium-vocab-empty">
+              {{ t('premium.vocabEmpty', { level: activeLevel }) }}
+            </p>
+            <button
+              v-for="setItem in vocabSets"
+              :key="setItem.key"
+              type="button"
+              class="topic-btn topic-btn--vocab"
+              :style="{ '--vocab-accent': setItem.theme?.accent || '#ab4dbb' }"
+              @click="trainVocabSet(setItem.key)"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                  gap: 8px;
+                "
+              >
+                <div class="topic-name">{{ setItem.name }}</div>
+                <div
+                  style="
+                    font-size: 11px;
+                    font-weight: 700;
+                    color: #AB4DBB;
+                    white-space: nowrap;
+                    padding: 2px 8px;
+                    background: #f3e8f9;
+                    border-radius: 20px;
+                  "
+                >
+                  {{ t('premium.questionsCount', { count: vocabQuestionCount(setItem.key) }) }}
+                </div>
+              </div>
+              <div class="topic-desc">{{ setItem.desc }}</div>
             </button>
           </div>
         </section>

@@ -11,7 +11,9 @@ export function trainerRequiresPremium(query) {
   return mode === 'schwaechen'
     || mode === 'placement'
     || mode === 'premium'
-    || !!String(query?.topic || '').trim();
+    || mode === 'vocab'
+    || !!String(query?.topic || '').trim()
+    || !!String(query?.set || '').trim();
 }
 
 /**

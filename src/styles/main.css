@@ -533,6 +533,23 @@ button:not(:disabled):not(.logo-wrap) {
   color: #ab4dbb;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
+.premium-vocab-empty {
+  grid-column: 1 / -1;
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+.topic-btn--vocab {
+  border-left: 3px solid var(--vocab-accent, #ab4dbb);
+}
+.app-shell--vocab-themed {
+  background: linear-gradient(
+    180deg,
+    var(--vocab-tint, rgba(171, 77, 187, 0.12)) 0%,
+    #faf8f5 42%
+  );
+}
 .premium-level-tabs {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

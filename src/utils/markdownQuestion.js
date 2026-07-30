@@ -213,6 +213,8 @@ export function parseQuestionFile(raw, context) {
   };
 
   if (meta.lemma) question.lemma = String(meta.lemma);
+  if (meta.set) question.set = String(meta.set).toUpperCase();
+  if (meta.focus) question.focus = String(meta.focus);
 
   switch (question.type) {
     case 'select-one': {
