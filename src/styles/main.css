@@ -555,12 +555,16 @@ button:not(:disabled):not(.logo-wrap) {
 }
 .app-shell--vocab-themed::before {
   content: '';
-  position: absolute;
-  inset: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(98vw, 920px);
+  height: min(85vh, 900px);
   background-image: var(--vocab-bg-image);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: min(100vw, 1020px);
+  background-size: contain;
   opacity: 0.13;
   pointer-events: none;
   z-index: 0;
