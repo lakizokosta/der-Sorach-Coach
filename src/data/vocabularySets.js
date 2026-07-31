@@ -27,6 +27,15 @@ export const VOCAB_SETS = {
         image: '/themes/theme-sich-vorstellen.png',
       },
     },
+    {
+      key: 'MEINE_FAMILIE',
+      name: 'Meine Familie',
+      desc: 'Familie — Onkel, Tante, Cousins, Enkel, Neffen …',
+      theme: {
+        tint: 'rgba(255, 170, 190, 0.14)',
+        accent: '#c45a7a',
+      },
+    },
   ],
   A2: [],
   B1: [],

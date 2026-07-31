@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * One-off writer for A1 pilot vocab sets (Einkaufen, Sich vorstellen).
+ * One-off writer for A1 pilot vocab sets (Einkaufen, Sich vorstellen, Meine Familie).
  * Run: node scripts/write-vocab-a1-pilot.mjs
  */
 
@@ -658,6 +658,647 @@ commas:
   },
 ];
 
+const MEINE_FAMILIE = [
+  {
+    id: 'a1-fam-so-001', type: 'select-one', lemma: 'Familie',
+    fm: `options:
+  - Familie
+  - Schule
+  - Arbeit
+correct: Familie`,
+    body: 'Das ist meine ___.',
+  },
+  {
+    id: 'a1-fam-so-002', type: 'select-one', lemma: 'Vater',
+    fm: `options:
+  - Mein
+  - Meine
+  - Meinen
+correct: Mein`,
+    body: '___ Vater heißt Thomas.',
+  },
+  {
+    id: 'a1-fam-so-003', type: 'select-one', lemma: 'Mutter',
+    fm: `options:
+  - meine
+  - mein
+  - meinen
+correct: meine`,
+    body: 'Das ist ___ Mutter.',
+  },
+  {
+    id: 'a1-fam-so-004', type: 'select-one', lemma: 'Bruder',
+    fm: `options:
+  - Bruder
+  - Schwester
+  - Onkel
+correct: Bruder`,
+    body: 'Ich habe einen ___.',
+  },
+  {
+    id: 'a1-fam-so-005', type: 'select-one', lemma: 'Schwester',
+    fm: `options:
+  - Schwester
+  - Bruder
+  - Cousin
+correct: Schwester`,
+    body: 'Meine ___ ist 12 Jahre alt.',
+  },
+  {
+    id: 'a1-fam-so-006', type: 'select-one', lemma: 'Eltern',
+    fm: `options:
+  - Eltern
+  - Kinder
+  - Freunde
+correct: Eltern`,
+    body: 'Meine ___ wohnen in Hamburg.',
+  },
+  {
+    id: 'a1-fam-so-007', type: 'select-one', lemma: 'Kind',
+    fm: `options:
+  - Kind
+  - Eltern
+  - Onkel
+correct: Kind`,
+    body: 'Das ___ spielt im Garten.',
+  },
+  {
+    id: 'a1-fam-so-008', type: 'select-one', lemma: 'Sohn',
+    fm: `options:
+  - Sohn
+  - Tochter
+  - Vater
+correct: Sohn`,
+    body: 'Er ist mein ___.',
+  },
+  {
+    id: 'a1-fam-so-009', type: 'select-one', lemma: 'Tochter',
+    fm: `options:
+  - Tochter
+  - Sohn
+  - Mutter
+correct: Tochter`,
+    body: 'Sie ist meine ___.',
+  },
+  {
+    id: 'a1-fam-so-010', type: 'select-one', lemma: 'Großvater',
+    fm: `options:
+  - Großvater
+  - Bruder
+  - Onkel
+correct: Großvater`,
+    body: 'Mein ___ ist 75 Jahre alt.',
+  },
+  {
+    id: 'a1-fam-so-011', type: 'select-one', lemma: 'Großmutter',
+    fm: `options:
+  - Großmutter
+  - Schwester
+  - Tante
+correct: Großmutter`,
+    body: 'Am Sonntag besuche ich meine ___.',
+  },
+  {
+    id: 'a1-fam-so-012', type: 'select-one', lemma: 'haben',
+    fm: `options:
+  - haben
+  - bin
+  - wohne
+correct: haben`,
+    body: 'Wir ___ eine große Familie.',
+  },
+  {
+    id: 'a1-fam-so-013', type: 'select-one', lemma: 'groß',
+    fm: `options:
+  - groß
+  - klein
+  - teuer
+correct: groß`,
+    body: 'Meine Familie ist sehr ___.',
+  },
+  {
+    id: 'a1-fam-so-014', type: 'select-one', lemma: 'klein',
+    fm: `options:
+  - klein
+  - groß
+  - alt
+correct: klein`,
+    body: 'Er hat eine ___ Familie — nur drei Personen.',
+  },
+  {
+    id: 'a1-fam-so-015', type: 'select-one', lemma: 'lieb',
+    fm: `options:
+  - lieb
+  - teuer
+  - laut
+correct: lieb`,
+    body: 'Meine kleine Schwester ist sehr ___.',
+  },
+  {
+    id: 'a1-fam-so-016', type: 'select-one', lemma: 'Onkel',
+    fm: `options:
+  - Onkel
+  - Tante
+  - Cousin
+correct: Onkel`,
+    body: 'Mein ___ ist der Bruder von meinem Vater.',
+  },
+  {
+    id: 'a1-fam-so-017', type: 'select-one', lemma: 'Tante',
+    fm: `options:
+  - Tante
+  - Onkel
+  - Neffe
+correct: Tante`,
+    body: 'Das ist meine ___. Sie ist die Schwester meiner Mutter.',
+  },
+  {
+    id: 'a1-fam-so-018', type: 'select-one', lemma: 'Cousin',
+    fm: `options:
+  - Cousin
+  - Cousine
+  - Neffe
+correct: Cousin`,
+    body: 'Er ist mein ___ — der Sohn meines Onkels.',
+  },
+  {
+    id: 'a1-fam-so-019', type: 'select-one', lemma: 'Cousine',
+    fm: `options:
+  - Cousine
+  - Cousin
+  - Nichte
+correct: Cousine`,
+    body: 'Sie ist meine ___. Wir spielen oft zusammen.',
+  },
+  {
+    id: 'a1-fam-so-020', type: 'select-one', lemma: 'Enkel',
+    fm: `options:
+  - Enkel
+  - Onkel
+  - Vater
+correct: Enkel`,
+    body: 'Der ___ spielt gern mit seiner Oma.',
+  },
+  {
+    id: 'a1-fam-so-021', type: 'select-one', lemma: 'Enkelin',
+    fm: `options:
+  - Enkelin
+  - Tochter
+  - Nichte
+correct: Enkelin`,
+    body: 'Die kleine ___ ist zwei Jahre alt.',
+  },
+  {
+    id: 'a1-fam-so-022', type: 'select-one', lemma: 'Neffe',
+    fm: `options:
+  - Neffe
+  - Nichte
+  - Cousin
+correct: Neffe`,
+    body: 'Mein ___ ist der Sohn meiner Schwester.',
+  },
+  {
+    id: 'a1-fam-so-023', type: 'select-one', lemma: 'Nichte',
+    fm: `options:
+  - Nichte
+  - Neffe
+  - Enkelin
+correct: Nichte`,
+    body: 'Meine ___ heißt Laura.',
+  },
+  {
+    id: 'a1-fam-so-024', type: 'select-one', lemma: 'Mann',
+    fm: `options:
+  - Mann
+  - Bruder
+  - Onkel
+correct: Mann`,
+    body: 'Das ist mein ___ — wir sind verheiratet.',
+  },
+  {
+    id: 'a1-fam-so-025', type: 'select-one', lemma: 'Frau',
+    fm: `options:
+  - Frau
+  - Schwester
+  - Tante
+correct: Frau`,
+    body: 'Das ist meine ___.',
+  },
+  {
+    id: 'a1-fam-so-026', type: 'select-one', lemma: 'Opa',
+    fm: `options:
+  - Opa
+  - Onkel
+  - Cousin
+correct: Opa`,
+    body: 'Mein ___ heißt Karl — das ist mein Großvater.',
+  },
+  {
+    id: 'a1-fam-so-027', type: 'select-one', lemma: 'Schwager',
+    fm: `options:
+  - Schwager
+  - Schwester
+  - Onkel
+correct: Schwager`,
+    body: 'Mein ___ ist der Bruder meiner Frau.',
+  },
+  {
+    id: 'a1-fam-so-028', type: 'select-one', lemma: 'Schwägerin',
+    fm: `options:
+  - Schwägerin
+  - Schwester
+  - Tante
+correct: Schwägerin`,
+    body: 'Meine ___ ist die Schwester meines Mannes.',
+  },
+  {
+    id: 'a1-fam-so-029', type: 'select-one', lemma: 'Baby',
+    fm: `options:
+  - Baby
+  - Kind
+  - Enkel
+correct: Baby`,
+    body: 'Das ___ schläft im Kinderzimmer.',
+  },
+  {
+    id: 'a1-fam-so-030', type: 'select-one', lemma: 'Großeltern',
+    fm: `options:
+  - Großeltern
+  - Eltern
+  - Geschwister
+correct: Großeltern`,
+    body: 'Meine ___ wohnen auf dem Land.',
+  },
+  {
+    id: 'a1-fam-in-001', type: 'input-text', lemma: 'Vater',
+    fm: `hint: Wer ist der Mann in deiner Familie — Papa?
+wordChoices:
+  - Vater
+  - Mutter
+  - Bruder
+correct:
+  - Vater
+  - vater`,
+    body: 'Mein ___ heißt Hans.',
+  },
+  {
+    id: 'a1-fam-in-002', type: 'input-text', lemma: 'Mutter',
+    fm: `hint: „meine …“ — feminin.
+wordChoices:
+  - Mutter
+  - Vater
+  - Bruder
+correct:
+  - Mutter
+  - mutter`,
+    body: 'Das ist meine ___.',
+  },
+  {
+    id: 'a1-fam-in-003', type: 'input-text', lemma: 'Bruder',
+    fm: `hint: „einen …“ — maskulin · Akkusativ.
+wordChoices:
+  - Bruder
+  - Schwester
+  - Mutter
+correct:
+  - Bruder
+  - bruder`,
+    body: 'Ich habe einen ___ und eine Schwester.',
+  },
+  {
+    id: 'a1-fam-in-004', type: 'input-text', lemma: 'Schwester',
+    fm: `hint: „Meine … ist 10 Jahre alt.“
+wordChoices:
+  - Schwester
+  - Bruder
+  - Vater
+correct:
+  - Schwester
+  - schwester`,
+    body: 'Meine ___ ist 10 Jahre alt.',
+  },
+  {
+    id: 'a1-fam-in-005', type: 'input-text', lemma: 'Familie',
+    fm: `hint: Vater, Mutter, Kinder — das ist die …
+wordChoices:
+  - Familie
+  - Schule
+  - Arbeit
+correct:
+  - Familie
+  - familie`,
+    body: 'Meine ___ ist groß.',
+  },
+  {
+    id: 'a1-fam-in-006', type: 'input-text', lemma: 'haben',
+    fm: `hint: Zwei Kinder — wir … zwei Kinder.
+wordChoices:
+  - haben
+  - bin
+  - wohne
+correct:
+  - haben
+  - Haben`,
+    body: 'Wir ___ zwei Kinder.',
+  },
+  {
+    id: 'a1-fam-in-007', type: 'input-text', lemma: 'Sohn',
+    fm: `hint: „Mein … heißt Max“ — ein Junge.
+wordChoices:
+  - Sohn
+  - Tochter
+  - Vater
+correct:
+  - Sohn
+  - sohn`,
+    body: 'Mein ___ heißt Max.',
+  },
+  {
+    id: 'a1-fam-in-008', type: 'input-text', lemma: 'Tochter',
+    fm: `hint: „Meine … heißt Anna“ — ein Mädchen.
+wordChoices:
+  - Tochter
+  - Sohn
+  - Schwester
+correct:
+  - Tochter
+  - tochter`,
+    body: 'Meine ___ heißt Anna.',
+  },
+  {
+    id: 'a1-fam-in-009', type: 'input-text', lemma: 'Eltern',
+    fm: `hint: Vater und Mutter zusammen — die …
+wordChoices:
+  - Eltern
+  - Kinder
+  - Freunde
+correct:
+  - Eltern
+  - eltern`,
+    body: 'Meine ___ wohnen in Köln.',
+  },
+  {
+    id: 'a1-fam-in-010', type: 'input-text', lemma: 'Großmutter',
+    fm: `hint: Die Mutter deiner Mutter — Oma / …
+wordChoices:
+  - Großmutter
+  - Schwester
+  - Tante
+correct:
+  - Großmutter
+  - grossmutter
+  - Oma
+  - oma`,
+    body: 'Ich besuche meine ___ am Sonntag.',
+  },
+  {
+    id: 'a1-fam-in-011', type: 'input-text', lemma: 'Onkel',
+    fm: `hint: Der Bruder von Vater oder Mutter.
+wordChoices:
+  - Onkel
+  - Tante
+  - Cousin
+correct:
+  - Onkel
+  - onkel`,
+    body: 'Mein ___ wohnt in Wien.',
+  },
+  {
+    id: 'a1-fam-in-012', type: 'input-text', lemma: 'Tante',
+    fm: `hint: „Meine …“ — die Schwester der Mutter.
+wordChoices:
+  - Tante
+  - Onkel
+  - Cousine
+correct:
+  - Tante
+  - tante`,
+    body: 'Meine ___ kocht sehr gut.',
+  },
+  {
+    id: 'a1-fam-in-013', type: 'input-text', lemma: 'Cousin',
+    fm: `hint: Der Sohn vom Onkel — mein …
+wordChoices:
+  - Cousin
+  - Cousine
+  - Neffe
+correct:
+  - Cousin
+  - cousin`,
+    body: 'Mein ___ spielt Fußball.',
+  },
+  {
+    id: 'a1-fam-in-014', type: 'input-text', lemma: 'Cousine',
+    fm: `hint: Die Tochter der Tante — meine …
+wordChoices:
+  - Cousine
+  - Cousin
+  - Nichte
+correct:
+  - Cousine
+  - cousine`,
+    body: 'Meine ___ studiert Medizin.',
+  },
+  {
+    id: 'a1-fam-in-015', type: 'input-text', lemma: 'Enkel',
+    fm: `hint: Die Kinder von deinen Kindern — Oma hat zwei …
+wordChoices:
+  - Enkel
+  - Neffen
+  - Cousins
+correct:
+  - Enkel
+  - enkel`,
+    body: 'Meine Großeltern haben zwei ___.',
+  },
+  {
+    id: 'a1-fam-in-016', type: 'input-text', lemma: 'Enkelin',
+    fm: `hint: Das Mädchen — die kleine …
+wordChoices:
+  - Enkelin
+  - Enkel
+  - Nichte
+correct:
+  - Enkelin
+  - enkelin`,
+    body: 'Die ___ ist erst ein Jahr alt.',
+  },
+  {
+    id: 'a1-fam-in-017', type: 'input-text', lemma: 'Neffe',
+    fm: `hint: Der Sohn deiner Schwester — dein …
+wordChoices:
+  - Neffe
+  - Nichte
+  - Cousin
+correct:
+  - Neffe
+  - neffe`,
+    body: 'Mein ___ ist fünf Jahre alt.',
+  },
+  {
+    id: 'a1-fam-in-018', type: 'input-text', lemma: 'Nichte',
+    fm: `hint: Die Tochter deines Bruders — deine …
+wordChoices:
+  - Nichte
+  - Neffe
+  - Enkelin
+correct:
+  - Nichte
+  - nichte`,
+    body: 'Meine ___ geht schon in die Schule.',
+  },
+  {
+    id: 'a1-fam-in-019', type: 'input-text', lemma: 'Großeltern',
+    fm: `hint: Oma und Opa zusammen — die …
+wordChoices:
+  - Großeltern
+  - Eltern
+  - Geschwister
+correct:
+  - Großeltern
+  - grosseltern`,
+    body: 'Am Wochenende besuche ich meine ___.',
+  },
+  {
+    id: 'a1-fam-in-020', type: 'input-text', lemma: 'Geschwister',
+    fm: `hint: Bruder und Schwester zusammen — …
+wordChoices:
+  - Geschwister
+  - Cousins
+  - Enkel
+correct:
+  - Geschwister
+  - geschwister`,
+    body: 'Ich habe zwei ___ — einen Bruder und eine Schwester.',
+  },
+  {
+    id: 'a1-fam-dd-001', type: 'dropbox', lemma: 'Familie',
+    fm: `words:
+  - Das
+  - ist
+  - meine
+  - Familie
+commas:
+  - 2`,
+    body: 'Ordne die Wörter: (Familie zeigen)',
+  },
+  {
+    id: 'a1-fam-dd-002', type: 'dropbox', lemma: 'Bruder',
+    fm: `words:
+  - Ich
+  - habe
+  - einen
+  - Bruder
+  - und
+  - eine
+  - Schwester
+commas:
+  - 2
+  - 6`,
+    body: 'Ordne die Wörter: (Geschwister)',
+  },
+  {
+    id: 'a1-fam-dd-003', type: 'dropbox', lemma: 'Vater',
+    fm: `words:
+  - Mein
+  - Vater
+  - arbeitet
+  - in
+  - Berlin
+commas:
+  - 2`,
+    body: 'Ordne die Wörter: (Vater)',
+  },
+  {
+    id: 'a1-fam-dd-004', type: 'dropbox', lemma: 'Mutter',
+    fm: `words:
+  - Meine
+  - Mutter
+  - kocht
+  - gern
+commas:
+  - 2`,
+    body: 'Ordne die Wörter: (Mutter)',
+  },
+  {
+    id: 'a1-fam-dd-005', type: 'dropbox', lemma: 'Eltern',
+    fm: `words:
+  - Wir
+  - wohnen
+  - mit
+  - unseren
+  - Eltern
+commas:
+  - 2
+  - 4`,
+    body: 'Ordne die Wörter: (Mit den Eltern wohnen)',
+  },
+  {
+    id: 'a1-fam-dd-006', type: 'dropbox', lemma: 'Onkel',
+    fm: `words:
+  - Mein
+  - Onkel
+  - kommt
+  - aus
+  - Österreich
+commas:
+  - 2`,
+    body: 'Ordne die Wörter: (Onkel)',
+  },
+  {
+    id: 'a1-fam-dd-007', type: 'dropbox', lemma: 'Tante',
+    fm: `words:
+  - Meine
+  - Tante
+  - wohnt
+  - in
+  - Berlin
+commas:
+  - 2`,
+    body: 'Ordne die Wörter: (Tante)',
+  },
+  {
+    id: 'a1-fam-dd-008', type: 'dropbox', lemma: 'Cousin',
+    fm: `words:
+  - Mein
+  - Cousin
+  - und
+  - meine
+  - Cousine
+  - spielen
+  - gern
+commas:
+  - 2
+  - 5`,
+    body: 'Ordne die Wörter: (Cousin und Cousine)',
+  },
+  {
+    id: 'a1-fam-dd-009', type: 'dropbox', lemma: 'Enkel',
+    fm: `words:
+  - Oma
+  - und
+  - Opa
+  - haben
+  - drei
+  - Enkel
+commas:
+  - 2
+  - 4`,
+    body: 'Ordne die Wörter: (Enkel)',
+  },
+  {
+    id: 'a1-fam-dd-010', type: 'dropbox', lemma: 'Nichte',
+    fm: `words:
+  - Meine
+  - Nichte
+  - heißt
+  - Sophie
+commas:
+  - 2`,
+    body: 'Ordne die Wörter: (Nichte)',
+  },
+];
+
 /** @param {typeof EINKAUFEN} list @param {string} setKey */
 function emitSet(list, setKey) {
   for (const q of list) {
@@ -677,5 +1318,6 @@ ${q.body}`;
 
 emitSet(EINKAUFEN, 'EINKAUFEN');
 emitSet(SICH_VORSTELLEN, 'SICH_VORSTELLEN');
+emitSet(MEINE_FAMILIE, 'MEINE_FAMILIE');
 
-console.log(`Wrote ${EINKAUFEN.length} EINKAUFEN + ${SICH_VORSTELLEN.length} SICH_VORSTELLEN questions.`);
+console.log(`Wrote ${EINKAUFEN.length} EINKAUFEN + ${SICH_VORSTELLEN.length} SICH_VORSTELLEN + ${MEINE_FAMILIE.length} MEINE_FAMILIE questions.`);
