@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 /**
- * One-off writer for A1 pilot vocab sets (Einkaufen, Sich vorstellen, Meine Familie).
+ * One-off writer for A1 pilot vocab sets (Einkaufen, Sich vorstellen, Meine Familie, Meine Wohnung).
  * Run: node scripts/write-vocab-a1-pilot.mjs
  */
 
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { MEINE_WOHNUNG } from './vocab-sets/meine-wohnung.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const BASE = join(ROOT, 'src', 'questions-vocab', 'A1');
@@ -1319,5 +1320,6 @@ ${q.body}`;
 emitSet(EINKAUFEN, 'EINKAUFEN');
 emitSet(SICH_VORSTELLEN, 'SICH_VORSTELLEN');
 emitSet(MEINE_FAMILIE, 'MEINE_FAMILIE');
+emitSet(MEINE_WOHNUNG, 'MEINE_WOHNUNG');
 
-console.log(`Wrote ${EINKAUFEN.length} EINKAUFEN + ${SICH_VORSTELLEN.length} SICH_VORSTELLEN + ${MEINE_FAMILIE.length} MEINE_FAMILIE questions.`);
+console.log(`Wrote ${EINKAUFEN.length} EINKAUFEN + ${SICH_VORSTELLEN.length} SICH_VORSTELLEN + ${MEINE_FAMILIE.length} MEINE_FAMILIE + ${MEINE_WOHNUNG.length} MEINE_WOHNUNG questions.`);

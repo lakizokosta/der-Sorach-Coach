@@ -37,6 +37,15 @@ export const VOCAB_SETS = {
         image: '/themes/theme-meine-familie.png',
       },
     },
+    {
+      key: 'MEINE_WOHNUNG',
+      name: 'Meine Wohnung',
+      desc: 'Räume, Möbel, mieten — Wohnung beschreiben',
+      theme: {
+        tint: 'rgba(150, 195, 170, 0.14)',
+        accent: '#4a8f6a',
+      },
+    },
   ],
   A2: [],
   B1: [],
