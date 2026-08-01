@@ -34,6 +34,7 @@ export const VOCAB_SETS = {
       theme: {
         tint: 'rgba(255, 170, 190, 0.14)',
         accent: '#c45a7a',
+        image: '/themes/theme-meine-familie.png',
       },
     },
   ],
