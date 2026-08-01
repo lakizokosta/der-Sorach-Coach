@@ -11,4 +11,4 @@ options:
 correct: Großmutter
 ---
 
-Am Sonntag besuche ich meine ___.
+Am Sonntag besuche ich meine ___. Sie ist die Mutter meines Vaters.

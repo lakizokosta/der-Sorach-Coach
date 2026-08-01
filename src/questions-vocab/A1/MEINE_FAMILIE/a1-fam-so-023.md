@@ -11,4 +11,4 @@ options:
 correct: Nichte
 ---
 
-Meine ___ heißt Laura.
+Meine ___ ist die Tochter meines Bruders.

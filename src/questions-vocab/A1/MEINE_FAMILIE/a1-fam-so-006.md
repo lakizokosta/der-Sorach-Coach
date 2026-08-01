@@ -6,9 +6,9 @@ set: MEINE_FAMILIE
 focus: word
 options:
   - Eltern
-  - Kinder
-  - Freunde
+  - Großeltern
+  - Geschwister
 correct: Eltern
 ---
 
-Meine ___ wohnen in Hamburg.
+Vater und Mutter — das sind meine ___. Sie wohnen in Hamburg.

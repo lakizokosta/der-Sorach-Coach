@@ -11,4 +11,4 @@ options:
 correct: Cousine
 ---
 
-Sie ist meine ___. Wir spielen oft zusammen.
+Sie ist meine ___. Sie ist die Tochter meiner Tante.

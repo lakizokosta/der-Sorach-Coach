@@ -11,4 +11,4 @@ options:
 correct: Frau
 ---
 
-Das ist meine ___.
+Das ist meine ___. Wir sind verheiratet.

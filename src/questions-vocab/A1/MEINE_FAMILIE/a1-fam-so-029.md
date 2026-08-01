@@ -6,9 +6,9 @@ set: MEINE_FAMILIE
 focus: word
 options:
   - Baby
-  - Kind
-  - Enkel
+  - Onkel
+  - Cousin
 correct: Baby
 ---
 
-Das ___ schläft im Kinderzimmer.
+Das ___ ist erst drei Monate alt und schläft viel.

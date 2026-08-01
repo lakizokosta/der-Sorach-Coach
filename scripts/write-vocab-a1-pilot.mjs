@@ -693,7 +693,7 @@ correct: meine`,
   - Schwester
   - Onkel
 correct: Bruder`,
-    body: 'Ich habe einen ___.',
+    body: 'Ich habe einen ___ und eine Schwester.',
   },
   {
     id: 'a1-fam-so-005', type: 'select-one', lemma: 'Schwester',
@@ -708,10 +708,10 @@ correct: Schwester`,
     id: 'a1-fam-so-006', type: 'select-one', lemma: 'Eltern',
     fm: `options:
   - Eltern
-  - Kinder
-  - Freunde
+  - Großeltern
+  - Geschwister
 correct: Eltern`,
-    body: 'Meine ___ wohnen in Hamburg.',
+    body: 'Vater und Mutter — das sind meine ___. Sie wohnen in Hamburg.',
   },
   {
     id: 'a1-fam-so-007', type: 'select-one', lemma: 'Kind',
@@ -756,7 +756,7 @@ correct: Großvater`,
   - Schwester
   - Tante
 correct: Großmutter`,
-    body: 'Am Sonntag besuche ich meine ___.',
+    body: 'Am Sonntag besuche ich meine ___. Sie ist die Mutter meines Vaters.',
   },
   {
     id: 'a1-fam-so-012', type: 'select-one', lemma: 'haben',
@@ -828,7 +828,7 @@ correct: Cousin`,
   - Cousin
   - Nichte
 correct: Cousine`,
-    body: 'Sie ist meine ___. Wir spielen oft zusammen.',
+    body: 'Sie ist meine ___. Sie ist die Tochter meiner Tante.',
   },
   {
     id: 'a1-fam-so-020', type: 'select-one', lemma: 'Enkel',
@@ -846,7 +846,7 @@ correct: Enkel`,
   - Tochter
   - Nichte
 correct: Enkelin`,
-    body: 'Die kleine ___ ist zwei Jahre alt.',
+    body: 'Die kleine ___ ist zwei Jahre alt. Sie ist die Tochter meines Sohnes.',
   },
   {
     id: 'a1-fam-so-022', type: 'select-one', lemma: 'Neffe',
@@ -864,7 +864,7 @@ correct: Neffe`,
   - Neffe
   - Enkelin
 correct: Nichte`,
-    body: 'Meine ___ heißt Laura.',
+    body: 'Meine ___ ist die Tochter meines Bruders.',
   },
   {
     id: 'a1-fam-so-024', type: 'select-one', lemma: 'Mann',
@@ -882,7 +882,7 @@ correct: Mann`,
   - Schwester
   - Tante
 correct: Frau`,
-    body: 'Das ist meine ___.',
+    body: 'Das ist meine ___. Wir sind verheiratet.',
   },
   {
     id: 'a1-fam-so-026', type: 'select-one', lemma: 'Opa',
@@ -915,10 +915,10 @@ correct: Schwägerin`,
     id: 'a1-fam-so-029', type: 'select-one', lemma: 'Baby',
     fm: `options:
   - Baby
-  - Kind
-  - Enkel
+  - Onkel
+  - Cousin
 correct: Baby`,
-    body: 'Das ___ schläft im Kinderzimmer.',
+    body: 'Das ___ ist erst drei Monate alt und schläft viel.',
   },
   {
     id: 'a1-fam-so-030', type: 'select-one', lemma: 'Großeltern',
@@ -927,7 +927,7 @@ correct: Baby`,
   - Eltern
   - Geschwister
 correct: Großeltern`,
-    body: 'Meine ___ wohnen auf dem Land.',
+    body: 'Oma und Opa — das sind meine ___. Sie wohnen auf dem Land.',
   },
   {
     id: 'a1-fam-in-001', type: 'input-text', lemma: 'Vater',
@@ -1157,7 +1157,7 @@ wordChoices:
 correct:
   - Großeltern
   - grosseltern`,
-    body: 'Am Wochenende besuche ich meine ___.',
+    body: 'Oma und Opa — das sind meine ___.',
   },
   {
     id: 'a1-fam-in-020', type: 'input-text', lemma: 'Geschwister',

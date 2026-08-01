@@ -11,4 +11,4 @@ options:
 correct: Enkelin
 ---
 
-Die kleine ___ ist zwei Jahre alt.
+Die kleine ___ ist zwei Jahre alt. Sie ist die Tochter meines Sohnes.

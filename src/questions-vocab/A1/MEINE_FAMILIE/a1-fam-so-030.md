@@ -11,4 +11,4 @@ options:
 correct: Großeltern
 ---
 
-Meine ___ wohnen auf dem Land.
+Oma und Opa — das sind meine ___. Sie wohnen auf dem Land.

@@ -11,4 +11,4 @@ options:
 correct: Bruder
 ---
 
-Ich habe einen ___.
+Ich habe einen ___ und eine Schwester.

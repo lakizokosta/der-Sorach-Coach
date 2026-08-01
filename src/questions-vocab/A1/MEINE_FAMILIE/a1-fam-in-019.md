@@ -14,4 +14,4 @@ correct:
   - grosseltern
 ---
 
-Am Wochenende besuche ich meine ___.
+Oma und Opa — das sind meine ___.
