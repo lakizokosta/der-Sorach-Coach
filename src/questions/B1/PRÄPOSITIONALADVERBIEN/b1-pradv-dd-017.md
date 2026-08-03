@@ -8,9 +8,10 @@ words:
   - an
   - den
   - Termin
+  - —
   - Ich
   - denke
   - daran
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dafür (Dank))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

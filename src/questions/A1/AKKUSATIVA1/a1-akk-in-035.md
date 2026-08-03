@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-035
 type: input-text
+hint: Akkusativ — der Markt, Akk.
 correct:
   - den
 ---
 
-Wir erkunden ___ Markt. (Akkusativ — Akk.)
+Ergänze die Akkusativform:
+
+Wir erkunden ___ Markt.

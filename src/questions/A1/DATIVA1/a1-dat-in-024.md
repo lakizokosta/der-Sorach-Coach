@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-024
 type: input-text
+hint: Dativ — ihr, Dat.
 correct:
   - euch
 ---
 
-Das gefällt ___ sehr. (Dativ — Dat.)
+Ergänze die Dativform:
+
+Das gefällt ___ sehr.

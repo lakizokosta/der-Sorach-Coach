@@ -1,8 +1,11 @@
 ---
 id: a2-part-in-020
 type: input-text
+hint: Antwortpartikel — Widerspruch
 correct:
   - Doch
 ---
 
-„Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel — Widerspruch)
+Ergänze die Antwortpartikel:
+
+„Warst du nicht in Berlin?" — „___, letztes Jahr."

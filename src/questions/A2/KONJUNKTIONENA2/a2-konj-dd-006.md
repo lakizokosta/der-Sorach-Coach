@@ -3,12 +3,15 @@ id: a2-konj-dd-006
 type: dropbox
 words:
   - Weil
-  - müde
+  - das
+  - Wetter
+  - schlecht
   - war
-  - ging
-  - ich
-  - früh
-  - schlafen
+  - blieben
+  - wir
+  - drinnen
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — Weil)

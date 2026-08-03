@@ -2,11 +2,11 @@
 id: b1-praep-dd-047
 type: dropbox
 words:
-  - Sie
-  - kommt
-  - aus
-  - der
-  - Türkei
+  - Er
+  - arbeitet
+  - ab
+  - 8
+  - Uhr
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — aus Türkei)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

@@ -2,14 +2,15 @@
 id: b1-erg-dd-018
 type: dropbox
 words:
-  - Ich
-  - finde
+  - Sie
+  - hofft
   - dass
+  - sie
   - die
-  - neue
-  - Regelung
-  - sinnvoll
-  - ist
+  - Prüfung
+  - besteht
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass sinnvoll ist)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

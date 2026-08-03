@@ -2,12 +2,13 @@
 id: b1-demo-dd-038
 type: dropbox
 words:
-  - Ich
-  - habe
-  - diese
-  - Nachrichten
-  - schon
-  - gelesen
+  - Dieser
+  - Studiengang
+  - passt
+  - besser
+  - zu
+  - meinen
+  - Interessen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diese Nachrichten)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

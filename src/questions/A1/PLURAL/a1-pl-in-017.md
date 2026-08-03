@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-017
 type: input-text
+hint: Plural: Zug
 correct:
   - Züge
 ---
 
-Am Bahnhof fahren viele ___. (Plural)
+Ergänze die Pluralform:
+
+Am Bahnhof fahren viele ___.

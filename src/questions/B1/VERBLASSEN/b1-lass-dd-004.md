@@ -9,4 +9,4 @@ words:
   - schneiden
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb schneiden)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

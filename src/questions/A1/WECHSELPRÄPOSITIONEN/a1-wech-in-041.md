@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-041
 type: input-text
+hint: Wechselpräpositionen — Bewegung
 correct:
   - auf die
 ---
 
-Er springt ___ Matte. (Dativ oder Akkusativ)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Er springt ___ Matte.

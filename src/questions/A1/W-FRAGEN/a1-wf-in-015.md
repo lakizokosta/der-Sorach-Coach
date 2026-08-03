@@ -1,9 +1,11 @@
 ---
 id: a1-wf-in-015
 type: input-text
+hint: Frage nach Sache
 correct:
   - Was
 ---
 
-___ ist dein Hobby? — Musik. (Frage nach Sache)
+Ergänze das Fragewort:
 
+___ ist dein Hobby? — Musik.

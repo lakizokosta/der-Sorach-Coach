@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-025
 type: input-text
+hint: Gegenteil von gesund
 correct:
   - krank
 ---
 
-Ich bin gesund, mein Freund ist ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Ich bin gesund, mein Freund ist ___.

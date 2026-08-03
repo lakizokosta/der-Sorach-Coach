@@ -2,12 +2,11 @@
 id: b1-lass-dd-031
 type: dropbox
 words:
-  - Du
-  - lässt
-  - dir
-  - Zeit
-  - zum
-  - Ausruhen
+  - Ich
+  - lasse
+  - das
+  - Auto
+  - reparieren
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb reparieren)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

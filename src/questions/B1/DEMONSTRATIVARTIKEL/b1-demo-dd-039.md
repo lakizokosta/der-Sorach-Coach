@@ -2,13 +2,12 @@
 id: b1-demo-dd-039
 type: dropbox
 words:
-  - Jenes
-  - Hotel
-  - war
-  - deutlich
-  - teurer
-  - als
-  - jenes
+  - Er
+  - vertraut
+  - jener
+  - Meinung
+  - seines
+  - Chefs
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Jenes Hotel)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

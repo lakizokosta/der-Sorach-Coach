@@ -10,6 +10,8 @@ words:
   - die
   - Reise
   - dauert
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie lange Reise dauert)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

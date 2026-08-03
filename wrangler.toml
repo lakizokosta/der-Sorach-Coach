@@ -1,10 +1,8 @@
 # Cloudflare Workers configuration for Der SprachCoach.
 #
-# This is an assets-only Worker (no JS entry point): the contents of
-# ./dist are served directly from Cloudflare's edge. The Vue Router is
-# in hash mode so deep links never hit the server, but we still enable
-# single-page-application fallback so any unknown path returns
-# index.html instead of a 404.
+# The Worker serves:
+#   - `/api/questions` — Premium question bank (auth via GAS, server-side)
+#   - static SPA assets from `./dist`
 #
 # CI usage (Cloudflare → Workers & Pages → Builds):
 #   Build command:  npm run build
@@ -13,9 +11,17 @@
 # Local usage:
 #   npm run deploy
 
-name = "der-sprachcoach"
+name = "der-sorach-coach"
+main = "worker/index.js"
 compatibility_date = "2025-01-01"
+
+[vars]
+SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw0oSHhowmjag6KMvsSd8C7nBkTduQ93L25Vv1yn6mY_7y6D_XEMxDRg5UuAvN36nkuRA/exec"
+# Must match `TRAINING_JWT_SECRET` / `WEBHOOK_SECRET` in apps-script/Code.gs
+TRAINING_JWT_SECRET = "LZD_S3cr3t_T0k3n_K3y_2024_xQ9mR7"
 
 [assets]
 directory = "./dist"
+binding = "ASSETS"
+run_worker_first = true
 not_found_handling = "single-page-application"

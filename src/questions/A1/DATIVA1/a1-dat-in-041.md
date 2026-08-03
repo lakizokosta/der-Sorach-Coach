@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-041
 type: input-text
+hint: Dativ — die Verkäuferin, Dat.
 correct:
-  - der Verkäuferin
+  - der
 ---
 
-Ich danke ___ netten Verkäuferin. (Dativ — Dat.)
+Ergänze die Dativform:
+
+Ich danke ___ netten Verkäuferin.

@@ -1,8 +1,11 @@
 ---
 id: b1-rel-in-033
 type: input-text
+hint: Relativpronomen — neutr., Nom./Akk.
 correct:
   - das
 ---
 
-Das Projekt, ___ wir planen, ist ambitioniert. (Relativpronomen)
+Ergänze das Relativpronomen:
+
+Das Projekt, ___ wir planen, ist ambitioniert.

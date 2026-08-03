@@ -2,15 +2,13 @@
 id: b1-gen-dd-044
 type: dropbox
 words:
-  - Während
+  - Wegen
   - der
-  - Reparatur
-  - kann
-  - man
+  - hohen
+  - Nachfrage
+  - steigen
   - die
-  - Straße
-  - nicht
-  - benutzen
+  - Preise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Reparatur)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

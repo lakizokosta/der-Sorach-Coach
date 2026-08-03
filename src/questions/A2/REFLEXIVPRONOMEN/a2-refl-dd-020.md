@@ -11,6 +11,8 @@ words:
   - vor
   - dem
   - Hotel
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb treffen)

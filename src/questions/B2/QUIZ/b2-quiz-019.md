@@ -2,11 +2,11 @@
 id: b2-quiz-019
 type: select-one
 options:
-  - den
-  - dem
-  - das
   - der
-correct: der
+  - das
+  - den
+  - die
+correct: das
 ---
 
-Die Kollegin, ___ ich vertraue, hat recht. (Grammatikform)
+Das Thema, über ___ wir sprachen, war komplex.

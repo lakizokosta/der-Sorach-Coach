@@ -3,11 +3,15 @@ id: b1-kond-dd-032
 type: dropbox
 words:
   - Falls
-  - etwas
-  - schiefgeht
-  - melde
-  - dich
-  - sofort
+  - es
+  - regnet
+  - nehmen
+  - wir
+  - einen
+  - Schirm
+  - mit
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls etwas schiefgeht)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

@@ -2,12 +2,12 @@
 id: b1-praeg-dd-037
 type: dropbox
 words:
-  - Wir
-  - sprechen
+  - Sie
+  - ärgert
+  - sich
   - über
-  - das
-  - neue
-  - Gesetz
+  - den
+  - Fehler
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — sprechen über)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

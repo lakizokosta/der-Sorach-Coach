@@ -1,8 +1,11 @@
 ---
 id: b1-erg-in-043
 type: input-text
+hint: Ergänzungssatz
 correct:
-  - dass
+  - was
 ---
 
-Es stimmt, ___ Umweltschutz wichtig ist. (Ergänzungssatz)
+Ergänze die Konjunktion (Ergänzung):
+
+Mich interessiert, ___ du davon hältst.

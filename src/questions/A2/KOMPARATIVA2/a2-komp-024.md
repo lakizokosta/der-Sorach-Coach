@@ -9,4 +9,4 @@ options:
 correct: höher
 ---
 
-Ich mag Tee ___. (Komparativ — kalt)
+Ich mag Tee ___. (hoch)

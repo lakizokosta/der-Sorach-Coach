@@ -2,14 +2,16 @@
 id: b1-indfr-dd-041
 type: dropbox
 words:
-  - Er
-  - erkundigt
-  - sich
+  - Ich
+  - bin
+  - gespannt
   - wie
-  - viel
+  - lange
   - die
-  - Behandlung
-  - kostet
+  - Reise
+  - dauert
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie viel Behandlung kostet)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

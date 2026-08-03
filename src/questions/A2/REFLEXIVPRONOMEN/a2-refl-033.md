@@ -9,4 +9,4 @@ options:
 correct: treffen
 ---
 
-Wir ___ uns um 8 Uhr. (Reflexiv + Verb triffen)
+Wir ___ uns um 8 Uhr. (Reflexiv + Verb treffen)

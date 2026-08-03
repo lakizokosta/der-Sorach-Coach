@@ -10,4 +10,4 @@ words:
   - Ereignisse
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Journalist)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

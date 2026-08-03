@@ -1,9 +1,11 @@
 ---
 id: a1-wf-in-033
 type: input-text
+hint: Frage nach Person/Team
 correct:
   - Welches
 ---
 
-___ Team gewinnt? — Unser Team. (Frage nach Person/Team)
+Ergänze das Fragewort:
 
+___ Team gewinnt? — Unser Team.

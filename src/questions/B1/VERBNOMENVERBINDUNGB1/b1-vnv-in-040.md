@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-040
 type: input-text
+hint: Verb-Nomen-Verbindung — gibt / macht / reicht / stellt
 correct:
   - reicht
 ---
 
-Er ___ eine Bewerbung ein. (Verb-Nomen-Verbindung)
+Ergänze die Verb-Nomen-Verbindung:
+
+Er ___ eine Bewerbung ein.

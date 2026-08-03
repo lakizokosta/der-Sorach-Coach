@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-039
 type: input-text
+hint: Präsens + Verb fahren
 correct:
   - fahrt
 ---
 
-Ihr ___ nach Österreich. (Präsens + Verb fahren)
+Ergänze die Präsensform des Verbs:
+
+Ihr ___ nach Österreich.

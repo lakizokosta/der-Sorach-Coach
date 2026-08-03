@@ -12,6 +12,8 @@ words:
   - nicht
   - zu
   - erkälten
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — um sich erkälten)

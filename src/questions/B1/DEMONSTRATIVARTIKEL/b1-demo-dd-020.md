@@ -2,13 +2,15 @@
 id: b1-demo-dd-020
 type: dropbox
 words:
-  - Dieser
-  - Professor
-  - erklärt
-  - das
-  - Thema
-  - sehr
-  - verständlich
+  - Jenes
+  - Hotel
+  - war
+  - deutlich
+  - teurer
+  - als
+  - jenes
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Professor)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

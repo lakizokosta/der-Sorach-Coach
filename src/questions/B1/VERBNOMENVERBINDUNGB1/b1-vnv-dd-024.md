@@ -2,13 +2,13 @@
 id: b1-vnv-dd-024
 type: dropbox
 words:
-  - Sie
-  - absolviert
+  - Ich
+  - führe
   - ein
-  - Praktikum
-  - in
-  - einer
-  - Klinik
+  - Gespräch
+  - mit
+  - dem
+  - Chef
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Praktikum absolvieren)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

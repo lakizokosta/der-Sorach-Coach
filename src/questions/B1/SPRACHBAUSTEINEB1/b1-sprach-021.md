@@ -9,4 +9,4 @@ options:
 correct: zur
 ---
 
-Für Rückfragen stehe ich Ihnen gerne ___ Verfügung. (Grammatikform)
+Für Rückfragen stehe ich Ihnen gerne ___ Verfügung.

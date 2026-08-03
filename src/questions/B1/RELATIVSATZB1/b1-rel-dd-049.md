@@ -3,13 +3,17 @@ id: b1-rel-dd-049
 type: dropbox
 words:
   - Der
-  - Politiker
-  - dessen
-  - Rede
-  - lange
-  - dauerte
-  - ist
-  - bekannt
+  - Patient
+  - den
+  - der
+  - Arzt
+  - behandelt
+  - fühlt
+  - sich
+  - besser
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — deren Rede dauerte)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

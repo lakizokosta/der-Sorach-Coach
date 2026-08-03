@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-018
 type: input-text
+hint: Adjektivdeklination — kalt, neutr., Akk.
 correct:
   - kaltes
 ---
 
-Nach dem Sport trinke ich ___ Wasser. (Adjektivdeklination — neutr., Akk.)
+Ergänze die Adjektivendung:
+
+Nach dem Sport trinke ich ___ Wasser.

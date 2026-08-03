@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-049
 type: input-text
+hint: Negation
 correct:
   - keinen
 ---
 
-Wir haben ___ Hund. (Negation)
+Ergänze die Verneinung:
+
+Wir haben ___ Hund.

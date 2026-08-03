@@ -2,11 +2,11 @@
 id: b2-quiz-045
 type: select-one
 options:
-  - würde
-  - wird
-  - werde
   - war
-correct: werde
+  - ist
+  - sei
+  - wird
+correct: sei
 ---
 
-Der Arzt meinte, der Patient ___ bald genesen. (Grammatikform)
+Sie behauptete, sie ___ nie dort gewesen.

@@ -18,7 +18,7 @@
 ### 1. `a2-fest-001` · select-one
 
 **Aufgabe:**
-> Ich warte auf ___ Antwort. (feste Präp. — auf + Akk.)
+> Ich warte auf ___ Antwort. (feste Präposition)
 
 **Optionen:**
 - einem
@@ -32,7 +32,7 @@
 ### 2. `a2-fest-002` · select-one
 
 **Aufgabe:**
-> Er denkt an ___ Familie. (feste Präp. — an + Akk.)
+> Er denkt an ___ Familie. (feste Präposition)
 
 **Optionen:**
 - sein
@@ -46,7 +46,7 @@
 ### 3. `a2-fest-003` · select-one
 
 **Aufgabe:**
-> Wir sprechen über ___ Reise. (feste Präp. — über + Akk.)
+> Wir sprechen über ___ Reise. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -60,7 +60,7 @@
 ### 4. `a2-fest-004` · select-one
 
 **Aufgabe:**
-> Sie freut sich auf ___ Geburtstag. (feste Präp. — auf + Akk.)
+> Sie freut sich auf ___ Geburtstag. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -74,7 +74,7 @@
 ### 5. `a2-fest-005` · select-one
 
 **Aufgabe:**
-> Ich interessiere mich für ___ Musik. (feste Präp. — für + Akk.)
+> Ich interessiere mich für ___ Musik. (feste Präposition)
 
 **Optionen:**
 - klassisch
@@ -88,7 +88,7 @@
 ### 6. `a2-fest-006` · select-one
 
 **Aufgabe:**
-> Er träumt von ___ Urlaub. (feste Präp. — von + Dat.)
+> Er träumt von ___ Urlaub. (feste Präposition)
 
 **Optionen:**
 - ein
@@ -102,7 +102,7 @@
 ### 7. `a2-fest-007` · select-one
 
 **Aufgabe:**
-> Wir diskutieren über ___ Problem. (feste Präp. — über + Akk.)
+> Wir diskutieren über ___ Problem. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -116,7 +116,7 @@
 ### 8. `a2-fest-008` · select-one
 
 **Aufgabe:**
-> Sie ärgert sich über ___ Fehler. (feste Präp. — über + Akk.)
+> Sie ärgert sich über ___ Fehler. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -130,7 +130,7 @@
 ### 9. `a2-fest-009` · select-one
 
 **Aufgabe:**
-> Ich hoffe auf ___ gutes Wetter. (feste Präp. — auf + Akk.)
+> Ich hoffe auf ___ gutes Wetter. (feste Präposition)
 
 **Optionen:**
 - gutem
@@ -144,7 +144,7 @@
 ### 10. `a2-fest-010` · select-one
 
 **Aufgabe:**
-> Er erinnert sich an ___ Kindheit. (feste Präp. — an + Akk.)
+> Er erinnert sich an ___ Kindheit. (feste Präposition)
 
 **Optionen:**
 - seiner
@@ -158,7 +158,7 @@
 ### 11. `a2-fest-011` · select-one
 
 **Aufgabe:**
-> Wir sprechen mit ___ Chef. (feste Präp. — mit + Dat.)
+> Wir sprechen mit ___ Chef. (feste Präposition)
 
 **Optionen:**
 - der
@@ -172,7 +172,7 @@
 ### 12. `a2-fest-012` · select-one
 
 **Aufgabe:**
-> Sie wartet auf ___ Zug. (feste Präp. — auf + Akk.)
+> Sie wartet auf ___ Zug. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -186,7 +186,7 @@
 ### 13. `a2-fest-013` · select-one
 
 **Aufgabe:**
-> Ich danke für ___ Hilfe. (feste Präp. — für + Akk.)
+> Ich danke für ___ Hilfe. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -200,7 +200,7 @@
 ### 14. `a2-fest-014` · select-one
 
 **Aufgabe:**
-> Er fragt nach ___ Weg. (feste Präp. — nach + Dat.)
+> Er fragt nach ___ Weg. (feste Präposition)
 
 **Optionen:**
 - den
@@ -214,7 +214,7 @@
 ### 15. `a2-fest-015` · select-one
 
 **Aufgabe:**
-> Wir lachen über ___ Witz. (feste Präp. — über + Akk.)
+> Wir lachen über ___ Witz. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -256,7 +256,7 @@
 ### 18. `a2-fest-018` · select-one
 
 **Aufgabe:**
-> Wir sprechen über ___ Reise. (feste Präp. — auf + Akk.)
+> Wir sprechen über ___ Reise. (feste Präposition)
 
 **Optionen:**
 - der
@@ -270,7 +270,7 @@
 ### 19. `a2-fest-019` · select-one
 
 **Aufgabe:**
-> Sie freut sich auf ___ Geburtstag. (feste Präp. — an + Akk.)
+> Sie freut sich auf ___ Geburtstag. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -284,7 +284,7 @@
 ### 20. `a2-fest-020` · select-one
 
 **Aufgabe:**
-> Ich interessiere mich für ___ Musik. (feste Präp. — über + Akk.)
+> Ich interessiere mich für ___ Musik. (feste Präposition)
 
 **Optionen:**
 - klassischer
@@ -298,7 +298,7 @@
 ### 21. `a2-fest-021` · select-one
 
 **Aufgabe:**
-> Er träumt von ___ Urlaub. (feste Präp. — auf + Akk.)
+> Er träumt von ___ Urlaub. (feste Präposition)
 
 **Optionen:**
 - eine
@@ -312,7 +312,7 @@
 ### 22. `a2-fest-022` · select-one
 
 **Aufgabe:**
-> Wir diskutieren über ___ Problem. (feste Präp. — für + Akk.)
+> Wir diskutieren über ___ Problem. (feste Präposition)
 
 **Optionen:**
 - der
@@ -326,7 +326,7 @@
 ### 23. `a2-fest-023` · select-one
 
 **Aufgabe:**
-> Sie ärgert sich über ___ Fehler. (feste Präp. — von + Dat.)
+> Sie ärgert sich über ___ Fehler. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -340,7 +340,7 @@
 ### 24. `a2-fest-024` · select-one
 
 **Aufgabe:**
-> Ich hoffe auf ___ gutes Wetter. (feste Präp. — über + Akk.)
+> Ich hoffe auf ___ gutes Wetter. (feste Präposition)
 
 **Optionen:**
 - guten
@@ -354,7 +354,7 @@
 ### 25. `a2-fest-025` · select-one
 
 **Aufgabe:**
-> Er erinnert sich an ___ Kindheit. (feste Präp. — über + Akk.)
+> Er erinnert sich an ___ Kindheit. (feste Präposition)
 
 **Optionen:**
 - seinen
@@ -368,7 +368,7 @@
 ### 26. `a2-fest-026` · select-one
 
 **Aufgabe:**
-> Wir sprechen mit ___ Chef. (feste Präp. — auf + Akk.)
+> Wir sprechen mit ___ Chef. (feste Präposition)
 
 **Optionen:**
 - den
@@ -382,7 +382,7 @@
 ### 27. `a2-fest-027` · select-one
 
 **Aufgabe:**
-> Sie wartet auf ___ Zug. (feste Präp. — an + Akk.)
+> Sie wartet auf ___ Zug. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -396,7 +396,7 @@
 ### 28. `a2-fest-028` · select-one
 
 **Aufgabe:**
-> Ich danke für ___ Hilfe. (feste Präp. — mit + Dat.)
+> Ich danke für ___ Hilfe. (feste Präposition)
 
 **Optionen:**
 - der
@@ -410,7 +410,7 @@
 ### 29. `a2-fest-029` · select-one
 
 **Aufgabe:**
-> Er fragt nach ___ Weg. (feste Präp. — auf + Akk.)
+> Er fragt nach ___ Weg. (feste Präposition)
 
 **Optionen:**
 - der
@@ -424,7 +424,7 @@
 ### 30. `a2-fest-030` · select-one
 
 **Aufgabe:**
-> Wir lachen über ___ Witz. (feste Präp. — für + Akk.)
+> Wir lachen über ___ Witz. (feste Präposition)
 
 **Optionen:**
 - das
@@ -438,7 +438,7 @@
 ### 31. `a2-fest-031` · select-one
 
 **Aufgabe:**
-> Ich warte auf ___ Antwort. (feste Präp. — nach + Dat.)
+> Ich warte auf ___ Antwort. (feste Präposition)
 
 **Optionen:**
 - einen
@@ -452,7 +452,7 @@
 ### 32. `a2-fest-032` · select-one
 
 **Aufgabe:**
-> Er denkt an ___ Familie. (feste Präp. — über + Akk.)
+> Er denkt an ___ Familie. (feste Präposition)
 
 **Optionen:**
 - seinen
@@ -494,7 +494,7 @@
 ### 35. `a2-fest-035` · select-one
 
 **Aufgabe:**
-> Ich interessiere mich für ___ Musik. (feste Präp. — auf + Akk.)
+> Ich interessiere mich für ___ Musik. (feste Präposition)
 
 **Optionen:**
 - klassischen
@@ -508,7 +508,7 @@
 ### 36. `a2-fest-036` · select-one
 
 **Aufgabe:**
-> Er träumt von ___ Urlaub. (feste Präp. — an + Akk.)
+> Er träumt von ___ Urlaub. (feste Präposition)
 
 **Optionen:**
 - ein
@@ -522,7 +522,7 @@
 ### 37. `a2-fest-037` · select-one
 
 **Aufgabe:**
-> Wir diskutieren über ___ Problem. (feste Präp. — über + Akk.)
+> Wir diskutieren über ___ Problem. (feste Präposition)
 
 **Optionen:**
 - die
@@ -536,7 +536,7 @@
 ### 38. `a2-fest-038` · select-one
 
 **Aufgabe:**
-> Sie ärgert sich über ___ Fehler. (feste Präp. — auf + Akk.)
+> Sie ärgert sich über ___ Fehler. (feste Präposition)
 
 **Optionen:**
 - der
@@ -550,7 +550,7 @@
 ### 39. `a2-fest-039` · select-one
 
 **Aufgabe:**
-> Ich hoffe auf ___ gutes Wetter. (feste Präp. — für + Akk.)
+> Ich hoffe auf ___ gutes Wetter. (feste Präposition)
 
 **Optionen:**
 - guten
@@ -564,7 +564,7 @@
 ### 40. `a2-fest-040` · select-one
 
 **Aufgabe:**
-> Er erinnert sich an ___ Kindheit. (feste Präp. — von + Dat.)
+> Er erinnert sich an ___ Kindheit. (feste Präposition)
 
 **Optionen:**
 - seinen
@@ -578,7 +578,7 @@
 ### 41. `a2-fest-041` · select-one
 
 **Aufgabe:**
-> Wir sprechen mit ___ Chef. (feste Präp. — über + Akk.)
+> Wir sprechen mit ___ Chef. (feste Präposition)
 
 **Optionen:**
 - der
@@ -592,7 +592,7 @@
 ### 42. `a2-fest-042` · select-one
 
 **Aufgabe:**
-> Sie wartet auf ___ Zug. (feste Präp. — über + Akk.)
+> Sie wartet auf ___ Zug. (feste Präposition)
 
 **Optionen:**
 - das
@@ -606,7 +606,7 @@
 ### 43. `a2-fest-043` · select-one
 
 **Aufgabe:**
-> Ich danke für ___ Hilfe. (feste Präp. — auf + Akk.)
+> Ich danke für ___ Hilfe. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -620,7 +620,7 @@
 ### 44. `a2-fest-044` · select-one
 
 **Aufgabe:**
-> Er fragt nach ___ Weg. (feste Präp. — an + Akk.)
+> Er fragt nach ___ Weg. (feste Präposition)
 
 **Optionen:**
 - den
@@ -634,7 +634,7 @@
 ### 45. `a2-fest-045` · select-one
 
 **Aufgabe:**
-> Wir lachen über ___ Witz. (feste Präp. — mit + Dat.)
+> Wir lachen über ___ Witz. (feste Präposition)
 
 **Optionen:**
 - die
@@ -648,7 +648,7 @@
 ### 46. `a2-fest-046` · select-one
 
 **Aufgabe:**
-> Ich warte auf ___ Antwort. (feste Präp. — auf + Akk.)
+> Ich warte auf ___ Antwort. (feste Präposition)
 
 **Optionen:**
 - ein
@@ -662,7 +662,7 @@
 ### 47. `a2-fest-047` · select-one
 
 **Aufgabe:**
-> Er denkt an ___ Familie. (feste Präp. — für + Akk.)
+> Er denkt an ___ Familie. (feste Präposition)
 
 **Optionen:**
 - seinen
@@ -676,7 +676,7 @@
 ### 48. `a2-fest-048` · select-one
 
 **Aufgabe:**
-> Wir sprechen über ___ Reise. (feste Präp. — nach + Dat.)
+> Wir sprechen über ___ Reise. (feste Präposition)
 
 **Optionen:**
 - der
@@ -690,7 +690,7 @@
 ### 49. `a2-fest-049` · select-one
 
 **Aufgabe:**
-> Sie freut sich auf ___ Geburtstag. (feste Präp. — über + Akk.)
+> Sie freut sich auf ___ Geburtstag. (feste Präposition)
 
 **Optionen:**
 - dem
@@ -720,7 +720,7 @@
 ### 51. `a2-fest-in-001` · input-text
 
 **Aufgabe:**
-> Ich warte auf ___ Antwort vom Reisebüro. (feste Präp. — auf + Akk.)
+> Ich warte auf ___ Antwort vom Reisebüro. (feste Präposition)
 
 **Antwort:** `eine`
 
@@ -730,7 +730,7 @@
 ### 52. `a2-fest-in-002` · input-text
 
 **Aufgabe:**
-> Er denkt an ___ Familie. (feste Präp. — an + Akk.)
+> Er denkt an ___ Familie. (feste Präposition)
 
 **Antwort:** `seine`
 
@@ -740,7 +740,7 @@
 ### 53. `a2-fest-in-003` · input-text
 
 **Aufgabe:**
-> Wir sprechen über ___ Reise. (feste Präp. — über + Akk.)
+> Wir sprechen über ___ Reise. (feste Präposition)
 
 **Antwort:** `die`
 
@@ -750,7 +750,7 @@
 ### 54. `a2-fest-in-004` · input-text
 
 **Aufgabe:**
-> Sie freut sich auf ___ Geburtstag. (feste Präp. — auf + Akk.)
+> Sie freut sich auf ___ Geburtstag. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -760,7 +760,7 @@
 ### 55. `a2-fest-in-005` · input-text
 
 **Aufgabe:**
-> Ich interessiere mich für ___ Musik. (feste Präp. — für + Akk.)
+> Ich interessiere mich für ___ Musik. (feste Präposition)
 
 **Antwort:** `klassische`
 
@@ -770,7 +770,7 @@
 ### 56. `a2-fest-in-006` · input-text
 
 **Aufgabe:**
-> Er träumt von ___ Urlaub. (feste Präp. — von + Dat.)
+> Er träumt von ___ Urlaub. (feste Präposition)
 
 **Antwort:** `einem`
 
@@ -780,7 +780,7 @@
 ### 57. `a2-fest-in-007` · input-text
 
 **Aufgabe:**
-> Wir diskutieren über ___ Problem. (feste Präp. — über + Akk.)
+> Wir diskutieren über ___ Problem. (feste Präposition)
 
 **Antwort:** `das`
 
@@ -790,7 +790,7 @@
 ### 58. `a2-fest-in-008` · input-text
 
 **Aufgabe:**
-> Sie ärgert sich über ___ Fehler. (feste Präp. — über + Akk.)
+> Sie ärgert sich über ___ Fehler. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -800,7 +800,7 @@
 ### 59. `a2-fest-in-009` · input-text
 
 **Aufgabe:**
-> Ich hoffe auf ___ gutes Wetter. (feste Präp. — auf + Akk.)
+> Ich hoffe auf ___ gutes Wetter. (feste Präposition)
 
 **Antwort:** `gutes`
 
@@ -810,7 +810,7 @@
 ### 60. `a2-fest-in-010` · input-text
 
 **Aufgabe:**
-> Er erinnert sich an ___ Kindheit. (feste Präp. — an + Akk.)
+> Er erinnert sich an ___ Kindheit. (feste Präposition)
 
 **Antwort:** `seine`
 
@@ -820,7 +820,7 @@
 ### 61. `a2-fest-in-011` · input-text
 
 **Aufgabe:**
-> Wir sprechen mit ___ Chef. (feste Präp. — mit + Dat.)
+> Wir sprechen mit ___ Chef. (feste Präposition)
 
 **Antwort:** `dem`
 
@@ -830,7 +830,7 @@
 ### 62. `a2-fest-in-012` · input-text
 
 **Aufgabe:**
-> Sie wartet auf ___ Zug. (feste Präp. — auf + Akk.)
+> Sie wartet auf ___ Zug. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -840,7 +840,7 @@
 ### 63. `a2-fest-in-013` · input-text
 
 **Aufgabe:**
-> Ich danke für ___ Hilfe. (feste Präp. — für + Akk.)
+> Ich danke für ___ Hilfe. (feste Präposition)
 
 **Antwort:** `die`
 
@@ -850,7 +850,7 @@
 ### 64. `a2-fest-in-014` · input-text
 
 **Aufgabe:**
-> Er fragt nach ___ Weg zum Hotel. (feste Präp. — nach + Dat.)
+> Er fragt nach ___ Weg zum Hotel. (feste Präposition)
 
 **Antwort:** `dem`
 
@@ -860,7 +860,7 @@
 ### 65. `a2-fest-in-015` · input-text
 
 **Aufgabe:**
-> Wir lachen über ___ Witz. (feste Präp. — über + Akk.)
+> Wir lachen über ___ Witz. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -890,7 +890,7 @@
 ### 68. `a2-fest-in-018` · input-text
 
 **Aufgabe:**
-> Ich warte auf ___ Antwort vom Reisebüro. (feste Präp. — auf + Akk.)
+> Ich warte auf ___ Antwort vom Reisebüro. (feste Präposition)
 
 **Antwort:** `eine`
 
@@ -900,7 +900,7 @@
 ### 69. `a2-fest-in-019` · input-text
 
 **Aufgabe:**
-> Er denkt an ___ Familie. (feste Präp. — an + Akk.)
+> Er denkt an ___ Familie. (feste Präposition)
 
 **Antwort:** `seine`
 
@@ -910,7 +910,7 @@
 ### 70. `a2-fest-in-020` · input-text
 
 **Aufgabe:**
-> Wir sprechen über ___ Reise. (feste Präp. — über + Akk.)
+> Wir sprechen über ___ Reise. (feste Präposition)
 
 **Antwort:** `die`
 
@@ -920,7 +920,7 @@
 ### 71. `a2-fest-in-021` · input-text
 
 **Aufgabe:**
-> Sie freut sich auf ___ Geburtstag. (feste Präp. — auf + Akk.)
+> Sie freut sich auf ___ Geburtstag. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -930,7 +930,7 @@
 ### 72. `a2-fest-in-022` · input-text
 
 **Aufgabe:**
-> Ich interessiere mich für ___ Musik. (feste Präp. — für + Akk.)
+> Ich interessiere mich für ___ Musik. (feste Präposition)
 
 **Antwort:** `klassische`
 
@@ -940,7 +940,7 @@
 ### 73. `a2-fest-in-023` · input-text
 
 **Aufgabe:**
-> Er träumt von ___ Urlaub. (feste Präp. — von + Dat.)
+> Er träumt von ___ Urlaub. (feste Präposition)
 
 **Antwort:** `einem`
 
@@ -950,7 +950,7 @@
 ### 74. `a2-fest-in-024` · input-text
 
 **Aufgabe:**
-> Wir diskutieren über ___ Problem. (feste Präp. — über + Akk.)
+> Wir diskutieren über ___ Problem. (feste Präposition)
 
 **Antwort:** `das`
 
@@ -960,7 +960,7 @@
 ### 75. `a2-fest-in-025` · input-text
 
 **Aufgabe:**
-> Sie ärgert sich über ___ Fehler. (feste Präp. — über + Akk.)
+> Sie ärgert sich über ___ Fehler. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -970,7 +970,7 @@
 ### 76. `a2-fest-in-026` · input-text
 
 **Aufgabe:**
-> Ich hoffe auf ___ gutes Wetter. (feste Präp. — auf + Akk.)
+> Ich hoffe auf ___ gutes Wetter. (feste Präposition)
 
 **Antwort:** `gutes`
 
@@ -980,7 +980,7 @@
 ### 77. `a2-fest-in-027` · input-text
 
 **Aufgabe:**
-> Er erinnert sich an ___ Kindheit. (feste Präp. — an + Akk.)
+> Er erinnert sich an ___ Kindheit. (feste Präposition)
 
 **Antwort:** `seine`
 
@@ -990,7 +990,7 @@
 ### 78. `a2-fest-in-028` · input-text
 
 **Aufgabe:**
-> Wir sprechen mit ___ Chef. (feste Präp. — mit + Dat.)
+> Wir sprechen mit ___ Chef. (feste Präposition)
 
 **Antwort:** `dem`
 
@@ -1000,7 +1000,7 @@
 ### 79. `a2-fest-in-029` · input-text
 
 **Aufgabe:**
-> Sie wartet auf ___ Zug. (feste Präp. — auf + Akk.)
+> Sie wartet auf ___ Zug. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -1010,7 +1010,7 @@
 ### 80. `a2-fest-in-030` · input-text
 
 **Aufgabe:**
-> Ich danke für ___ Hilfe. (feste Präp. — für + Akk.)
+> Ich danke für ___ Hilfe. (feste Präposition)
 
 **Antwort:** `die`
 
@@ -1020,7 +1020,7 @@
 ### 81. `a2-fest-in-031` · input-text
 
 **Aufgabe:**
-> Er fragt nach ___ Weg zum Hotel. (feste Präp. — nach + Dat.)
+> Er fragt nach ___ Weg zum Hotel. (feste Präposition)
 
 **Antwort:** `dem`
 
@@ -1030,7 +1030,7 @@
 ### 82. `a2-fest-in-032` · input-text
 
 **Aufgabe:**
-> Wir lachen über ___ Witz. (feste Präp. — über + Akk.)
+> Wir lachen über ___ Witz. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -1060,7 +1060,7 @@
 ### 85. `a2-fest-in-035` · input-text
 
 **Aufgabe:**
-> Ich warte auf ___ Antwort vom Reisebüro. (feste Präp. — auf + Akk.)
+> Ich warte auf ___ Antwort vom Reisebüro. (feste Präposition)
 
 **Antwort:** `eine`
 
@@ -1070,7 +1070,7 @@
 ### 86. `a2-fest-in-036` · input-text
 
 **Aufgabe:**
-> Er denkt an ___ Familie. (feste Präp. — an + Akk.)
+> Er denkt an ___ Familie. (feste Präposition)
 
 **Antwort:** `seine`
 
@@ -1080,7 +1080,7 @@
 ### 87. `a2-fest-in-037` · input-text
 
 **Aufgabe:**
-> Wir sprechen über ___ Reise. (feste Präp. — über + Akk.)
+> Wir sprechen über ___ Reise. (feste Präposition)
 
 **Antwort:** `die`
 
@@ -1090,7 +1090,7 @@
 ### 88. `a2-fest-in-038` · input-text
 
 **Aufgabe:**
-> Sie freut sich auf ___ Geburtstag. (feste Präp. — auf + Akk.)
+> Sie freut sich auf ___ Geburtstag. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -1100,7 +1100,7 @@
 ### 89. `a2-fest-in-039` · input-text
 
 **Aufgabe:**
-> Ich interessiere mich für ___ Musik. (feste Präp. — für + Akk.)
+> Ich interessiere mich für ___ Musik. (feste Präposition)
 
 **Antwort:** `klassische`
 
@@ -1110,7 +1110,7 @@
 ### 90. `a2-fest-in-040` · input-text
 
 **Aufgabe:**
-> Er träumt von ___ Urlaub. (feste Präp. — von + Dat.)
+> Er träumt von ___ Urlaub. (feste Präposition)
 
 **Antwort:** `einem`
 
@@ -1120,7 +1120,7 @@
 ### 91. `a2-fest-in-041` · input-text
 
 **Aufgabe:**
-> Wir diskutieren über ___ Problem. (feste Präp. — über + Akk.)
+> Wir diskutieren über ___ Problem. (feste Präposition)
 
 **Antwort:** `das`
 
@@ -1130,7 +1130,7 @@
 ### 92. `a2-fest-in-042` · input-text
 
 **Aufgabe:**
-> Sie ärgert sich über ___ Fehler. (feste Präp. — über + Akk.)
+> Sie ärgert sich über ___ Fehler. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -1140,7 +1140,7 @@
 ### 93. `a2-fest-in-043` · input-text
 
 **Aufgabe:**
-> Ich hoffe auf ___ gutes Wetter. (feste Präp. — auf + Akk.)
+> Ich hoffe auf ___ gutes Wetter. (feste Präposition)
 
 **Antwort:** `gutes`
 
@@ -1150,7 +1150,7 @@
 ### 94. `a2-fest-in-044` · input-text
 
 **Aufgabe:**
-> Er erinnert sich an ___ Kindheit. (feste Präp. — an + Akk.)
+> Er erinnert sich an ___ Kindheit. (feste Präposition)
 
 **Antwort:** `seine`
 
@@ -1160,7 +1160,7 @@
 ### 95. `a2-fest-in-045` · input-text
 
 **Aufgabe:**
-> Wir sprechen mit ___ Chef. (feste Präp. — mit + Dat.)
+> Wir sprechen mit ___ Chef. (feste Präposition)
 
 **Antwort:** `dem`
 
@@ -1170,7 +1170,7 @@
 ### 96. `a2-fest-in-046` · input-text
 
 **Aufgabe:**
-> Sie wartet auf ___ Zug. (feste Präp. — auf + Akk.)
+> Sie wartet auf ___ Zug. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -1180,7 +1180,7 @@
 ### 97. `a2-fest-in-047` · input-text
 
 **Aufgabe:**
-> Ich danke für ___ Hilfe. (feste Präp. — für + Akk.)
+> Ich danke für ___ Hilfe. (feste Präposition)
 
 **Antwort:** `die`
 
@@ -1190,7 +1190,7 @@
 ### 98. `a2-fest-in-048` · input-text
 
 **Aufgabe:**
-> Er fragt nach ___ Weg zum Hotel. (feste Präp. — nach + Dat.)
+> Er fragt nach ___ Weg zum Hotel. (feste Präposition)
 
 **Antwort:** `dem`
 
@@ -1200,7 +1200,7 @@
 ### 99. `a2-fest-in-049` · input-text
 
 **Aufgabe:**
-> Wir lachen über ___ Witz. (feste Präp. — über + Akk.)
+> Wir lachen über ___ Witz. (feste Präposition)
 
 **Antwort:** `den`
 
@@ -1222,7 +1222,7 @@
 ### 101. `a2-fest-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — eine)
+> Ordne die Wörter zum richtigen Satz: (warten auf)
 
 **Wörter:** Ich · warte · auf · eine · Antwort · vom · Reisebüro
 
@@ -1232,7 +1232,7 @@
 ### 102. `a2-fest-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — seine)
+> Ordne die Wörter zum richtigen Satz: (denken an)
 
 **Wörter:** Er · denkt · an · seine · Familie
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-fest-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — die)
+> Ordne die Wörter zum richtigen Satz: (sprechen über)
 
 **Wörter:** Wir · sprechen · über · die · Reise
 
@@ -1252,7 +1252,7 @@
 ### 104. `a2-fest-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (sich freuen auf)
 
 **Wörter:** Sie · freut · sich · auf · den · Geburtstag
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-fest-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — klassische)
+> Ordne die Wörter zum richtigen Satz: (sich interessieren für)
 
 **Wörter:** Ich · interessiere · mich · für · klassische · Musik
 
@@ -1272,7 +1272,7 @@
 ### 106. `a2-fest-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — einem)
+> Ordne die Wörter zum richtigen Satz: (träumen von)
 
 **Wörter:** Er · träumt · von · einem · Urlaub
 
@@ -1282,7 +1282,7 @@
 ### 107. `a2-fest-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — das)
+> Ordne die Wörter zum richtigen Satz: (diskutieren über)
 
 **Wörter:** Wir · diskutieren · über · das · Problem
 
@@ -1292,7 +1292,7 @@
 ### 108. `a2-fest-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (sich ärgern über)
 
 **Wörter:** Sie · ärgert · sich · über · den · Fehler
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-fest-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — gutes)
+> Ordne die Wörter zum richtigen Satz: (hoffen auf)
 
 **Wörter:** Ich · hoffe · auf · gutes · Wetter
 
@@ -1312,7 +1312,7 @@
 ### 110. `a2-fest-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — seine)
+> Ordne die Wörter zum richtigen Satz: (sich erinnern an)
 
 **Wörter:** Er · erinnert · sich · an · seine · Kindheit
 
@@ -1322,7 +1322,7 @@
 ### 111. `a2-fest-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — dem)
+> Ordne die Wörter zum richtigen Satz: (sprechen mit)
 
 **Wörter:** Wir · sprechen · mit · dem · Chef
 
@@ -1332,7 +1332,7 @@
 ### 112. `a2-fest-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (warten auf)
 
 **Wörter:** Sie · wartet · auf · den · Zug
 
@@ -1342,7 +1342,7 @@
 ### 113. `a2-fest-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — die)
+> Ordne die Wörter zum richtigen Satz: (danken für)
 
 **Wörter:** Ich · danke · für · die · Hilfe
 
@@ -1352,7 +1352,7 @@
 ### 114. `a2-fest-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — dem)
+> Ordne die Wörter zum richtigen Satz: (fragen nach)
 
 **Wörter:** Er · fragt · nach · dem · Weg · zum · Hotel
 
@@ -1362,7 +1362,7 @@
 ### 115. `a2-fest-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (lachen über)
 
 **Wörter:** Wir · lachen · über · den · Witz
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-fest-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (sich freuen auf)
 
 **Wörter:** Ich · freue · mich · auf · das · Fest
 
@@ -1382,7 +1382,7 @@
 ### 117. `a2-fest-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (bestehen auf)
 
 **Wörter:** Er · besteht · auf · pünktliche · Zahlung
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-fest-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — eine)
+> Ordne die Wörter zum richtigen Satz: (warten auf)
 
 **Wörter:** Ich · warte · auf · eine · Antwort · vom · Reisebüro
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-fest-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — seine)
+> Ordne die Wörter zum richtigen Satz: (denken an)
 
 **Wörter:** Er · denkt · an · seine · Familie
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-fest-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — die)
+> Ordne die Wörter zum richtigen Satz: (sprechen über)
 
 **Wörter:** Wir · sprechen · über · die · Reise
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-fest-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (sich freuen auf)
 
 **Wörter:** Sie · freut · sich · auf · den · Geburtstag
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-fest-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — klassische)
+> Ordne die Wörter zum richtigen Satz: (sich interessieren für)
 
 **Wörter:** Ich · interessiere · mich · für · klassische · Musik
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-fest-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — einem)
+> Ordne die Wörter zum richtigen Satz: (träumen von)
 
 **Wörter:** Er · träumt · von · einem · Urlaub
 
@@ -1452,7 +1452,7 @@
 ### 124. `a2-fest-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — das)
+> Ordne die Wörter zum richtigen Satz: (diskutieren über)
 
 **Wörter:** Wir · diskutieren · über · das · Problem
 
@@ -1462,7 +1462,7 @@
 ### 125. `a2-fest-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (sich ärgern über)
 
 **Wörter:** Sie · ärgert · sich · über · den · Fehler
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-fest-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — gutes)
+> Ordne die Wörter zum richtigen Satz: (hoffen auf)
 
 **Wörter:** Ich · hoffe · auf · gutes · Wetter
 
@@ -1482,7 +1482,7 @@
 ### 127. `a2-fest-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — seine)
+> Ordne die Wörter zum richtigen Satz: (sich erinnern an)
 
 **Wörter:** Er · erinnert · sich · an · seine · Kindheit
 
@@ -1492,7 +1492,7 @@
 ### 128. `a2-fest-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — dem)
+> Ordne die Wörter zum richtigen Satz: (sprechen mit)
 
 **Wörter:** Wir · sprechen · mit · dem · Chef
 
@@ -1502,7 +1502,7 @@
 ### 129. `a2-fest-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (warten auf)
 
 **Wörter:** Sie · wartet · auf · den · Zug
 
@@ -1512,7 +1512,7 @@
 ### 130. `a2-fest-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — die)
+> Ordne die Wörter zum richtigen Satz: (danken für)
 
 **Wörter:** Ich · danke · für · die · Hilfe
 
@@ -1522,7 +1522,7 @@
 ### 131. `a2-fest-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — dem)
+> Ordne die Wörter zum richtigen Satz: (fragen nach)
 
 **Wörter:** Er · fragt · nach · dem · Weg · zum · Hotel
 
@@ -1532,7 +1532,7 @@
 ### 132. `a2-fest-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (lachen über)
 
 **Wörter:** Wir · lachen · über · den · Witz
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-fest-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (sich freuen auf)
 
 **Wörter:** Ich · freue · mich · auf · das · Fest
 
@@ -1552,7 +1552,7 @@
 ### 134. `a2-fest-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (bestehen auf)
 
 **Wörter:** Er · besteht · auf · pünktliche · Zahlung
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-fest-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — eine)
+> Ordne die Wörter zum richtigen Satz: (warten auf)
 
 **Wörter:** Ich · warte · auf · eine · Antwort · vom · Reisebüro
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-fest-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — seine)
+> Ordne die Wörter zum richtigen Satz: (denken an)
 
 **Wörter:** Er · denkt · an · seine · Familie
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-fest-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — die)
+> Ordne die Wörter zum richtigen Satz: (sprechen über)
 
 **Wörter:** Wir · sprechen · über · die · Reise
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-fest-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (sich freuen auf)
 
 **Wörter:** Sie · freut · sich · auf · den · Geburtstag
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-fest-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — klassische)
+> Ordne die Wörter zum richtigen Satz: (sich interessieren für)
 
 **Wörter:** Ich · interessiere · mich · für · klassische · Musik
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-fest-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — einem)
+> Ordne die Wörter zum richtigen Satz: (träumen von)
 
 **Wörter:** Er · träumt · von · einem · Urlaub
 
@@ -1622,7 +1622,7 @@
 ### 141. `a2-fest-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — das)
+> Ordne die Wörter zum richtigen Satz: (diskutieren über)
 
 **Wörter:** Wir · diskutieren · über · das · Problem
 
@@ -1632,7 +1632,7 @@
 ### 142. `a2-fest-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (sich ärgern über)
 
 **Wörter:** Sie · ärgert · sich · über · den · Fehler
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-fest-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — gutes)
+> Ordne die Wörter zum richtigen Satz: (hoffen auf)
 
 **Wörter:** Ich · hoffe · auf · gutes · Wetter
 
@@ -1652,7 +1652,7 @@
 ### 144. `a2-fest-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — seine)
+> Ordne die Wörter zum richtigen Satz: (sich erinnern an)
 
 **Wörter:** Er · erinnert · sich · an · seine · Kindheit
 
@@ -1662,7 +1662,7 @@
 ### 145. `a2-fest-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — dem)
+> Ordne die Wörter zum richtigen Satz: (sprechen mit)
 
 **Wörter:** Wir · sprechen · mit · dem · Chef
 
@@ -1672,7 +1672,7 @@
 ### 146. `a2-fest-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (warten auf)
 
 **Wörter:** Sie · wartet · auf · den · Zug
 
@@ -1682,7 +1682,7 @@
 ### 147. `a2-fest-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — die)
+> Ordne die Wörter zum richtigen Satz: (danken für)
 
 **Wörter:** Ich · danke · für · die · Hilfe
 
@@ -1692,7 +1692,7 @@
 ### 148. `a2-fest-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — dem)
+> Ordne die Wörter zum richtigen Satz: (fragen nach)
 
 **Wörter:** Er · fragt · nach · dem · Weg · zum · Hotel
 
@@ -1702,7 +1702,7 @@
 ### 149. `a2-fest-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — den)
+> Ordne die Wörter zum richtigen Satz: (lachen über)
 
 **Wörter:** Wir · lachen · über · den · Witz
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-fest-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (feste Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (sich freuen auf)
 
 **Wörter:** Ich · freue · mich · auf · das · Fest
 

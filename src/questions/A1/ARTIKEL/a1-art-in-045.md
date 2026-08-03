@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-045
 type: input-text
+hint: Artikel — eine Bluse, fem., Akk.
 correct:
   - eine
 ---
 
-Sie kauft ___ Bluse. (Artikel — fem., Akk.)
+Ergänze den Artikel:
+
+Sie kauft ___ Bluse.

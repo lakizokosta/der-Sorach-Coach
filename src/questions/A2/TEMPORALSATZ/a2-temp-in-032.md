@@ -1,8 +1,11 @@
 ---
 id: a2-temp-in-032
 type: input-text
+hint: Temporal — gleichzeitig
 correct:
   - Während
 ---
 
-___ der Pause essen wir. (Temporal — gleichzeitig)
+Ergänze die Konjunktion (Temporal):
+
+___ der Pause essen wir.

@@ -9,4 +9,4 @@ options:
 correct: trotzdem
 ---
 
-Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz — obwohl)
+Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz)

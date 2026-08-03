@@ -2,14 +2,17 @@
 id: b1-rel-dd-046
 type: dropbox
 words:
-  - Die
-  - Reise
-  - die
-  - wir
-  - gebucht
-  - haben
-  - beginnt
-  - morgen
+  - Der
+  - Kollege
+  - der
+  - neben
+  - mir
+  - sitzt
+  - ist
+  - neu
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — die wir gebucht haben)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

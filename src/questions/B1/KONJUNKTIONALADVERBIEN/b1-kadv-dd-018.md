@@ -2,16 +2,15 @@
 id: b1-kadv-dd-018
 type: dropbox
 words:
-  - Es
-  - regnete
-  - den
-  - ganzen
-  - Tag
-  - Trotzdem
-  - sind
-  - wir
-  - spazieren
-  - gegangen
+  - Sie
+  - spricht
+  - fließend
+  - Englisch
+  - Außerdem
+  - kann
+  - sie
+  - auch
+  - Französisch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem gegangen)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

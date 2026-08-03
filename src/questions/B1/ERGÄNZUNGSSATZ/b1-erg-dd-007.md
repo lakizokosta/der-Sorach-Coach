@@ -10,6 +10,8 @@ words:
   - richtig
   - gemacht
   - hat
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass richtig gemacht hat)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

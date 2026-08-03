@@ -1,8 +1,11 @@
 ---
 id: a2-trenn-in-002
 type: input-text
+hint: Trennbares Verb + Verb anrufen
 correct:
   - ruft
 ---
 
-Er ___ mich heute an. (Trennbares Verb + Verb anrufen)
+Ergänze die Verbform (trennbares Verb):
+
+Er ___ mich heute an.

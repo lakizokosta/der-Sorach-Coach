@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-022
 type: input-text
+hint: Negation
 correct:
   - kein
 ---
 
-Ich habe ___ Haustier. (Negation)
+Ergänze die Verneinung:
+
+Ich habe ___ Haustier.

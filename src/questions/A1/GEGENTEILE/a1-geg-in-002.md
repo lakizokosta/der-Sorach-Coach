@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-002
 type: input-text
+hint: Gegenteil von schnell
 correct:
   - langsam
 ---
 
-Er läuft schnell, ich laufe ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Er läuft schnell, ich laufe ___.

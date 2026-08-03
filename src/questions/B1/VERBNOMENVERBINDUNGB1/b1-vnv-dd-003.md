@@ -12,4 +12,4 @@ words:
   - Thema
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Interesse zeigen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

@@ -1,8 +1,11 @@
 ---
 id: a2-temp-in-028
 type: input-text
+hint: Temporal — Bedingung
 correct:
   - Wenn
 ---
 
-___ du müde bist, solltest du schlafen. (Temporal — Bedingung)
+Ergänze die Konjunktion (Temporal):
+
+___ du müde bist, solltest du schlafen.

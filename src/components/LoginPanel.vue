@@ -1,56 +1,82 @@
 <script setup>
 /**
- * LoginPanel — magic-link login on the landing page (save progress only).
+ * LoginPanel — compact magic-link login on the landing page.
  */
 
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 
-import DeviceGuide from '@/components/DeviceGuide.vue';
 import { useAuth } from '@/composables/useAuth.js';
-import { activateCode, usePremium } from '@/composables/usePremium.js';
+import { activateCode, usePremium, signOutUser } from '@/composables/usePremium.js';
 import { loadString, saveString } from '@/composables/useStorage.js';
 import { hasBackend, requestMagicLink } from '@/utils/api.js';
 import { useI18n } from '@/i18n/index.js';
+
+defineProps({
+  prominent: { type: Boolean, default: false },
+});
 
 const USER_EMAIL_KEY = 'userEmail';
 const backendOn = hasBackend();
 const { t } = useI18n();
 
-const { state: auth, isLoggedIn, logout } = useAuth();
+const { state: auth, isLoggedIn } = useAuth();
 const { isPremium, isBasis } = usePremium();
 
 const magicEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
 const magicStatus = ref({ text: '', color: '#888' });
 const magicSubmitting = ref(false);
+const linkSent = ref(false);
 
 const code = ref('');
 const codeStatus = ref({ text: '', color: '#888' });
 const codeSubmitting = ref(false);
+
+const savedEmail = computed(() => (loadString(USER_EMAIL_KEY) || '').trim().toLowerCase());
+
+const showWelcomeBack = computed(() => {
+  if (isLoggedIn.value || linkSent.value) return false;
+  const current = magicEmail.value.trim().toLowerCase();
+  return savedEmail.value.includes('@') && current === savedEmail.value;
+});
+
+const panelTitle = computed(() => {
+  if ((isPremium.value || isBasis.value) && !isLoggedIn.value) {
+    return t('login.otherDeviceTitleShort');
+  }
+  return t('login.compactTitle');
+});
 
 async function submitMagicLink() {
   if (!backendOn || magicSubmitting.value) return;
   const value = magicEmail.value.trim().toLowerCase();
   if (!value || !value.includes('@')) {
     magicStatus.value = { text: t('login.errInvalidEmail'), color: '#ed4545' };
+    linkSent.value = false;
     return;
   }
   magicSubmitting.value = true;
+  linkSent.value = false;
   magicStatus.value = { text: t('login.sendingLink'), color: '#888' };
   saveString(USER_EMAIL_KEY, value);
 
-  const res = await requestMagicLink(value);
-  magicSubmitting.value = false;
-
-  if (res && res.ok) {
-    magicStatus.value = {
-      text: t('login.linkSent', { email: value }),
-      color: '#69c43b',
-    };
-  } else {
-    magicStatus.value = {
-      text: `✖ ${(res && res.error) || t('login.errGeneric')}`,
-      color: '#ed4545',
-    };
+  try {
+    const res = await requestMagicLink(value);
+    if (res && res.ok) {
+      linkSent.value = true;
+      magicStatus.value = {
+        text: res.delayed
+          ? (res.message || t('login.linkSentDelayed', { email: value }))
+          : (res.message || t('login.linkSent', { email: value })),
+        color: '#69c43b',
+      };
+    } else {
+      magicStatus.value = {
+        text: `✖ ${(res && res.error) || t('login.errGeneric')}`,
+        color: '#ed4545',
+      };
+    }
+  } finally {
+    magicSubmitting.value = false;
   }
 }
 
@@ -79,14 +105,18 @@ async function submitCode() {
   }
 }
 
-function signOut() {
-  logout();
+async function signOut() {
+  await signOutUser();
   window.location.reload();
 }
 </script>
 
 <template>
-  <div v-if="backendOn" class="login-panel">
+  <div
+    v-if="backendOn"
+    class="login-panel"
+    :class="{ 'login-panel--prominent': prominent }"
+  >
     <template v-if="isLoggedIn && (isPremium || isBasis)">
       <div class="login-panel__session login-panel__session--premium">
         <div class="login-panel__session-email">👤 {{ auth.email }}</div>
@@ -95,43 +125,91 @@ function signOut() {
         </button>
       </div>
       <p class="login-panel__ok-note">{{ t('login.loggedInPremium') }}</p>
-      <slot name="after-intro" />
     </template>
 
-    <div v-else-if="(isPremium || isBasis) && !isLoggedIn" class="login-panel-card">
-      <div class="login-panel-card__badge">{{ t('login.badgeHome') }}</div>
-      <h3 class="login-panel-card__title">{{ t('login.otherDeviceTitle') }}</h3>
-      <p class="login-panel-card__intro">
-        {{ t('login.otherDeviceBefore') }}
-        <strong>{{ t('login.otherDeviceEmail') }}</strong>
-        {{ t('login.otherDeviceMid') }}
-        <strong>{{ t('login.otherDeviceNoCode') }}</strong>
-      </p>
-      <DeviceGuide variant="landing" />
-      <slot name="after-intro" />
-      <div class="login-panel-card__row">
-        <input
-          v-model="magicEmail"
-          type="email"
-          class="login-panel-card__input"
-          :placeholder="t('common.emailPlaceholder')"
-        />
+    <div
+      v-else-if="(isPremium || isBasis) && !isLoggedIn"
+      class="login-panel-card login-panel-card--primary"
+    >
+      <h3 v-if="!prominent" class="login-panel-card__title">{{ panelTitle }}</h3>
+      <p v-if="!prominent" class="login-panel-card__hint">{{ t('login.compactHint') }}</p>
+
+      <div v-if="linkSent" class="login-panel__sent">
+        <div class="login-panel__sent-icon">✉️</div>
+        <p class="login-panel__sent-text">{{ magicStatus.text }}</p>
         <button
           type="button"
-          class="login-panel__btn"
+          class="login-panel__sent-resend"
           :disabled="magicSubmitting"
           @click="submitMagicLink"
         >
-          {{ magicSubmitting ? '…' : t('login.sendLink') }}
+          {{ t('login.sendLinkShort') }}
         </button>
       </div>
-      <ol class="login-panel-card__how">
-        <li>{{ t('login.step1') }}</li>
-        <li>{{ t('login.step2') }}</li>
-        <li>{{ t('login.step3') }}</li>
-      </ol>
+
+      <template v-else>
+        <div class="login-steps-visual" aria-hidden="true">
+          <div class="login-steps-visual__item">
+            <span class="login-steps-visual__icon">📧</span>
+            <span class="login-steps-visual__label">{{ t('login.visualEmail') }}</span>
+          </div>
+          <span class="login-steps-visual__arrow">→</span>
+          <div class="login-steps-visual__item">
+            <span class="login-steps-visual__icon">📬</span>
+            <span class="login-steps-visual__label">{{ t('login.visualMail') }}</span>
+          </div>
+          <span class="login-steps-visual__arrow">→</span>
+          <div class="login-steps-visual__item">
+            <span class="login-steps-visual__icon">✅</span>
+            <span class="login-steps-visual__label">{{ t('login.visualDone') }}</span>
+          </div>
+        </div>
+
+        <div
+          v-if="showWelcomeBack"
+          class="login-panel__welcome"
+        >
+          <span class="login-panel__welcome-label">{{ t('login.welcomeBack') }}</span>
+          <button
+            type="button"
+            class="login-panel__welcome-btn"
+            :disabled="magicSubmitting"
+            @click="submitMagicLink"
+          >
+            {{ t('login.welcomeBackSend', { email: magicEmail.trim() }) }}
+          </button>
+        </div>
+
+        <div class="login-panel-card__row login-panel-card__row--stack">
+          <label
+            v-if="prominent"
+            class="login-panel__email-label"
+            for="magic-email-input"
+          >
+            {{ t('common.emailLoginPlaceholder') }}
+          </label>
+          <input
+            id="magic-email-input"
+            v-model="magicEmail"
+            type="email"
+            class="login-panel-card__input"
+            autocomplete="email"
+            inputmode="email"
+            :placeholder="prominent ? 'name@beispiel.de' : t('common.emailLoginPlaceholder')"
+          />
+          <button
+            type="button"
+            class="login-panel__btn login-panel__btn--full"
+            :disabled="magicSubmitting"
+            @click="submitMagicLink"
+          >
+            {{ magicSubmitting ? '…' : t('login.sendLink') }}
+          </button>
+        </div>
+      </template>
+
       <p
-        v-if="magicStatus.text"
+        v-if="magicStatus.text && !linkSent"
         class="login-panel-card__status"
         :style="{ color: magicStatus.color }"
       >
@@ -140,16 +218,14 @@ function signOut() {
     </div>
 
     <div v-else-if="isLoggedIn" class="login-panel-card login-panel-card--code">
-      <div class="login-panel-card__badge">{{ t('login.badgeHome') }}</div>
       <div class="login-panel__session-row">
         <span class="login-panel__session-email">👤 {{ auth.email }}</span>
         <button type="button" class="login-panel__signout-text" @click="signOut">
           {{ t('common.signOut') }}
         </button>
       </div>
-      <slot name="after-intro" />
       <p class="login-panel-card__intro">{{ t('login.codePrompt') }}</p>
-      <div class="login-panel-card__row">
+      <div class="login-panel-card__row login-panel-card__row--stack">
         <input
           v-model="code"
           type="text"
@@ -158,7 +234,7 @@ function signOut() {
         />
         <button
           type="button"
-          class="login-panel__btn login-panel__btn--code"
+          class="login-panel__btn login-panel__btn--code login-panel__btn--full"
           :disabled="codeSubmitting"
           @click="submitCode"
         >
@@ -179,48 +255,86 @@ function signOut() {
       </p>
     </div>
 
-    <div v-else class="login-panel-card">
-      <div class="login-panel-card__badge">{{ t('login.badgeHome') }}</div>
-      <h3 class="login-panel-card__title">{{ t('login.saveTitle') }}</h3>
-      <p class="login-panel-card__intro">
-        {{ t('login.saveIntroBefore') }}
-        <strong>{{ t('login.saveIntroStrong') }}</strong>
-        {{ t('login.saveIntroMid') }}
-        <strong>{{ t('login.saveIntroNoPw') }}</strong>
-        {{ t('login.saveIntroPwMid') }}
-        {{ t('login.saveIntroBuyBefore') }}
-        <router-link :to="{ name: 'premium' }">{{ t('common.premium') }}</router-link>
-        {{ t('login.saveIntroBuyAfter') }}
-      </p>
-      <slot name="after-intro" />
-      <div class="login-panel-card__row">
-        <input
-          v-model="magicEmail"
-          type="email"
-          class="login-panel-card__input"
-          :placeholder="t('common.emailPlaceholder')"
-        />
+    <div v-else class="login-panel-card login-panel-card--primary">
+      <h3 v-if="!prominent" class="login-panel-card__title">{{ panelTitle }}</h3>
+      <p v-if="!prominent" class="login-panel-card__hint">{{ t('login.compactHint') }}</p>
+
+      <div v-if="linkSent" class="login-panel__sent">
+        <div class="login-panel__sent-icon">✉️</div>
+        <p class="login-panel__sent-text">{{ magicStatus.text }}</p>
         <button
           type="button"
-          class="login-panel__btn"
+          class="login-panel__sent-resend"
           :disabled="magicSubmitting"
           @click="submitMagicLink"
         >
-          {{ magicSubmitting ? '…' : t('login.sendLink') }}
+          {{ t('login.sendLinkShort') }}
         </button>
       </div>
-      <ol class="login-panel-card__how">
-        <li>{{ t('login.step1') }}</li>
-        <li>{{ t('login.step2') }}</li>
-        <li>{{ t('login.step3done') }}</li>
-      </ol>
-      <p class="login-panel-card__aside">
-        {{ t('login.asidePremiumBefore') }}
-        <router-link :to="{ name: 'premium' }">{{ t('common.premium') }}</router-link>
-        {{ t('login.asidePremiumAfter') }}
-      </p>
+
+      <template v-else>
+        <div class="login-steps-visual" aria-hidden="true">
+          <div class="login-steps-visual__item">
+            <span class="login-steps-visual__icon">📧</span>
+            <span class="login-steps-visual__label">{{ t('login.visualEmail') }}</span>
+          </div>
+          <span class="login-steps-visual__arrow">→</span>
+          <div class="login-steps-visual__item">
+            <span class="login-steps-visual__icon">📬</span>
+            <span class="login-steps-visual__label">{{ t('login.visualMail') }}</span>
+          </div>
+          <span class="login-steps-visual__arrow">→</span>
+          <div class="login-steps-visual__item">
+            <span class="login-steps-visual__icon">✅</span>
+            <span class="login-steps-visual__label">{{ t('login.visualDone') }}</span>
+          </div>
+        </div>
+
+        <div
+          v-if="showWelcomeBack"
+          class="login-panel__welcome"
+        >
+          <span class="login-panel__welcome-label">{{ t('login.welcomeBack') }}</span>
+          <button
+            type="button"
+            class="login-panel__welcome-btn"
+            :disabled="magicSubmitting"
+            @click="submitMagicLink"
+          >
+            {{ t('login.welcomeBackSend', { email: magicEmail.trim() }) }}
+          </button>
+        </div>
+
+        <div class="login-panel-card__row login-panel-card__row--stack">
+          <label
+            v-if="prominent"
+            class="login-panel__email-label"
+            for="magic-email-input"
+          >
+            {{ t('common.emailLoginPlaceholder') }}
+          </label>
+          <input
+            id="magic-email-input"
+            v-model="magicEmail"
+            type="email"
+            class="login-panel-card__input"
+            autocomplete="email"
+            inputmode="email"
+            :placeholder="prominent ? 'name@beispiel.de' : t('common.emailLoginPlaceholder')"
+          />
+          <button
+            type="button"
+            class="login-panel__btn login-panel__btn--full"
+            :disabled="magicSubmitting"
+            @click="submitMagicLink"
+          >
+            {{ magicSubmitting ? '…' : t('login.sendLink') }}
+          </button>
+        </div>
+      </template>
+
       <p
-        v-if="magicStatus.text"
+        v-if="magicStatus.text && !linkSent"
         class="login-panel-card__status"
         :style="{ color: magicStatus.color }"
       >

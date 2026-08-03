@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-044
 type: input-text
+hint: Adjektivdeklination — rot, neutr., Akk.
 correct:
   - rotes
 ---
 
-Sie kauft ein ___ Kleid. (Adjektivdeklination — neutr., Akk.)
+Ergänze die Adjektivendung:
+
+Sie kauft ein ___ Kleid.

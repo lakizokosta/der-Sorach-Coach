@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-003
 type: input-text
+hint: Possessivartikel — er, fem., Gen.
 correct:
   - seiner
 ---
 
-Wegen ___ Krankheit bleibt er zu Hause. (Possessivartikel — er, fem., Gen.)
+Ergänze den Possessivartikel:
+
+Wegen ___ Krankheit bleibt er zu Hause.

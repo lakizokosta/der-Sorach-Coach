@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-047
 type: input-text
+hint: Passiv + Verb ffentlichen
 correct:
   - wurde
 ---
 
-Der Bericht ___ gestern veröffentlicht. (Passiv + Verb ffentlichen)
+Ergänze die Passivform:
+
+Der Bericht ___ gestern veröffentlicht.

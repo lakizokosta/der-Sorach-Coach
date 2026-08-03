@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-011
 type: input-text
+hint: Komparativ — nah
 correct:
   - näher
 ---
 
-Die Bäckerei ist ___ als der Supermarkt. (Komparativ — nah)
+Ergänze die Komparativform:
+
+Die Bäckerei ist ___ als der Supermarkt.

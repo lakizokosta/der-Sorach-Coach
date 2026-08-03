@@ -26,6 +26,7 @@
 import { computed, ref, onMounted } from 'vue';
 import { shuffle } from '@/utils/random.js';
 import { wrapWordsForDictionary } from '@/utils/dictionary.js';
+import { stripTrailingPromptHint } from '@/utils/markdownQuestion.js';
 import { resolveSpatialScene } from '@/utils/prepositionSpatial.js';
 import PrepositionSpatialHint from '@/components/PrepositionSpatialHint.vue';
 
@@ -45,24 +46,15 @@ onMounted(() => {
   shuffled.value = shuffle((props.question.options || []).slice());
 });
 
-const renderedPrompt = computed(() =>
-  props.premium
-    ? wrapWordsForDictionary(props.question.prompt || '')
-    : props.question.prompt || '',
-);
+const renderedPrompt = computed(() => {
+  const prompt = stripTrailingPromptHint(props.question.prompt || '');
+  return props.premium ? wrapWordsForDictionary(prompt) : prompt;
+});
 
 const correctValue = computed(() => String(props.question.correct ?? '').trim());
 
 const spatialScene = computed(() => resolveSpatialScene(props.question));
-
-const WECHSEL_TOPICS = new Set(['WECHSELPRÄPOSITIONEN', 'WECHSELPRÄPOSITIONENA2']);
-
-// For Wechselpräpositionen the badge (Wo·Dativ / Wohin·Akkusativ) reveals the
-// answer, so we show the diagram only after the correct option is picked.
-const showSpatialHint = computed(() =>
-  spatialScene.value !== null &&
-  (!WECHSEL_TOPICS.has(props.question.topic) || finalised.value),
-);
+const showSpatialHint = computed(() => spatialScene.value !== null);
 
 /**
  * Returns true iff `option` matches the declared correct answer. The

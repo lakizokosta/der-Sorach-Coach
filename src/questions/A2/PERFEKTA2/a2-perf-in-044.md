@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-044
 type: input-text
+hint: Perfekt + Hilfsverb sein
 correct:
   - ist
 ---
 
-Sie ___ spät nach Hause gekommen. (Perfekt + Hilfsverb sein)
+Ergänze die Perfektform:
+
+Sie ___ spät nach Hause gekommen.

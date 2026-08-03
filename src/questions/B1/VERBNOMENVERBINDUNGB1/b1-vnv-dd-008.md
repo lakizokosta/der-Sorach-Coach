@@ -9,4 +9,4 @@ words:
   - Rede
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rede halten)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

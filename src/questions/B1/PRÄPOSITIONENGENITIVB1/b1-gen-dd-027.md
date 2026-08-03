@@ -2,15 +2,12 @@
 id: b1-gen-dd-027
 type: dropbox
 words:
-  - Während
-  - der
-  - Reparatur
-  - kann
-  - man
-  - die
-  - Straße
-  - nicht
-  - benutzen
+  - Trotz
+  - des
+  - Regens
+  - gehen
+  - wir
+  - spazieren
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Reparatur)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

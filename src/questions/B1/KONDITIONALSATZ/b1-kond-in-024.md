@@ -1,8 +1,14 @@
 ---
 id: b1-kond-in-024
 type: input-text
+hint: Konditionalsatz — wenn/falls
 correct:
+  - wenn
+  - Wenn
+  - falls
   - Falls
 ---
 
-___ du dich erkältest, bleib zu Hause. (Konditionalsatz — wenn)
+Ergänze die Konjunktion (Konditional):
+
+___ du dich erkältest, bleib zu Hause.

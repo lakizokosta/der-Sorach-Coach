@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-009
 type: input-text
+hint: Wechselpräpositionen — Ort
 correct:
   - auf dem
 ---
 
-Das Buch liegt ___ Tisch. (Wechselpräp. — Ort)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Das Buch liegt ___ Tisch.

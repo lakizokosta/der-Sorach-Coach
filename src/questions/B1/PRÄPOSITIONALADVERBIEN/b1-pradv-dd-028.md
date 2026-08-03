@@ -2,14 +2,15 @@
 id: b1-pradv-dd-028
 type: dropbox
 words:
-  - Bestehst
+  - Hörst
   - du
   - auf
-  - deiner
-  - Meinung
+  - gute
+  - Ratschläge
+  - —
   - Ich
-  - bestehe
+  - höre
   - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Bestehen))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

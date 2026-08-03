@@ -2,10 +2,11 @@
 id: b1-neg-dd-041
 type: dropbox
 words:
-  - Ich
-  - sehe
-  - kein
-  - Problem
+  - Das
+  - Medikament
+  - hat
+  - nicht
+  - geholfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kein Problem)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

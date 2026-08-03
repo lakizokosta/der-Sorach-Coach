@@ -2,13 +2,15 @@
 id: b1-adj-dd-043
 type: dropbox
 words:
-  - Trotz
-  - hohen
-  - Preises
-  - buchen
-  - viele
+  - In
+  - einer
+  - ruhigen
+  - Gegend
+  - der
+  - Stadt
+  - wohnt
   - die
-  - Reise
+  - Familie
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — kleinem Gepäck)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

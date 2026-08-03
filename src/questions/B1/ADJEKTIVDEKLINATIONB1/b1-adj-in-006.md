@@ -1,8 +1,11 @@
 ---
 id: b1-adj-in-006
 type: input-text
+hint: Adjektivdeklination — erfahren, fem., Dat.
 correct:
   - erfahrenen
 ---
 
-Er diskutiert mit einer ___ Politikerin. (Adj. — erfahren, fem., Dat.)
+Ergänze die Adjektivendung:
+
+Er diskutiert mit einer ___ Politikerin.

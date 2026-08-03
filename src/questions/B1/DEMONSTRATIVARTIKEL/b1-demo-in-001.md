@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-001
 type: input-text
+hint: Demonstrativartikel — neutr., Nom./Akk. / mask./neutr., Gen.
 correct:
   - Dieses
 ---
 
-___ Projekt gefällt mir besser als das andere. (Demonstrativartikel)
+Ergänze den Demonstrativartikel:
+
+___ Projekt gefällt mir besser als das andere.

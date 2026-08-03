@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-002
 type: input-text
+hint: Wechselpräpositionen — Wohin?
 correct:
   - auf den
 ---
 
-Kann ich das ___ Tisch legen? (Dativ oder Akkusativ — Wohin?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Kann ich das ___ Tisch legen?

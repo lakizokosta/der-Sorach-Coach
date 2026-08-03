@@ -60,7 +60,7 @@
 ### 4. `b1-konz-003` · select-one
 
 **Aufgabe:**
-> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz — obwohl)
+> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz)
 
 **Optionen:**
 - Deshalb
@@ -74,7 +74,7 @@
 ### 5. `b1-konz-004` · select-one
 
 **Aufgabe:**
-> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz — obwohl)
+> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz)
 
 **Optionen:**
 - obwohl
@@ -102,7 +102,7 @@
 ### 7. `b1-konz-006` · select-one
 
 **Aufgabe:**
-> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz — obwohl)
+> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz)
 
 **Optionen:**
 - dass
@@ -130,7 +130,7 @@
 ### 9. `b1-konz-008` · select-one
 
 **Aufgabe:**
-> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz — obwohl)
+> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz)
 
 **Optionen:**
 - obwohl
@@ -144,7 +144,7 @@
 ### 10. `b1-konz-009` · select-one
 
 **Aufgabe:**
-> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz — obwohl)
+> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz)
 
 **Optionen:**
 - Damit
@@ -158,7 +158,7 @@
 ### 11. `b1-konz-010` · select-one
 
 **Aufgabe:**
-> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz — obwohl)
+> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz)
 
 **Optionen:**
 - weil
@@ -186,7 +186,7 @@
 ### 13. `b1-konz-012` · select-one
 
 **Aufgabe:**
-> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz — obwohl)
+> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz)
 
 **Optionen:**
 - obwohl
@@ -200,7 +200,7 @@
 ### 14. `b1-konz-013` · select-one
 
 **Aufgabe:**
-> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz — obwohl)
+> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz)
 
 **Optionen:**
 - Deshalb
@@ -214,7 +214,7 @@
 ### 15. `b1-konz-014` · select-one
 
 **Aufgabe:**
-> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz — obwohl)
+> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz)
 
 **Optionen:**
 - weil
@@ -270,7 +270,7 @@
 ### 19. `b1-konz-018` · select-one
 
 **Aufgabe:**
-> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz — obwohl)
+> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz)
 
 **Optionen:**
 - Weil
@@ -284,7 +284,7 @@
 ### 20. `b1-konz-019` · select-one
 
 **Aufgabe:**
-> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz — obwohl)
+> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz)
 
 **Optionen:**
 - obwohl
@@ -312,7 +312,7 @@
 ### 22. `b1-konz-021` · select-one
 
 **Aufgabe:**
-> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz — obwohl)
+> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz)
 
 **Optionen:**
 - damit
@@ -340,7 +340,7 @@
 ### 24. `b1-konz-023` · select-one
 
 **Aufgabe:**
-> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz — obwohl)
+> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz)
 
 **Optionen:**
 - obwohl
@@ -354,7 +354,7 @@
 ### 25. `b1-konz-024` · select-one
 
 **Aufgabe:**
-> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz — obwohl)
+> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz)
 
 **Optionen:**
 - Deshalb
@@ -368,7 +368,7 @@
 ### 26. `b1-konz-025` · select-one
 
 **Aufgabe:**
-> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz — obwohl)
+> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz)
 
 **Optionen:**
 - damit
@@ -396,7 +396,7 @@
 ### 28. `b1-konz-027` · select-one
 
 **Aufgabe:**
-> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz — obwohl)
+> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz)
 
 **Optionen:**
 - obwohl
@@ -410,7 +410,7 @@
 ### 29. `b1-konz-028` · select-one
 
 **Aufgabe:**
-> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz — obwohl)
+> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz)
 
 **Optionen:**
 - Deshalb
@@ -424,7 +424,7 @@
 ### 30. `b1-konz-029` · select-one
 
 **Aufgabe:**
-> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz — obwohl)
+> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz)
 
 **Optionen:**
 - damit
@@ -480,7 +480,7 @@
 ### 34. `b1-konz-033` · select-one
 
 **Aufgabe:**
-> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz — obwohl)
+> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz)
 
 **Optionen:**
 - Deshalb
@@ -494,7 +494,7 @@
 ### 35. `b1-konz-034` · select-one
 
 **Aufgabe:**
-> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz — obwohl)
+> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz)
 
 **Optionen:**
 - weil
@@ -522,7 +522,7 @@
 ### 37. `b1-konz-036` · select-one
 
 **Aufgabe:**
-> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz — obwohl)
+> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz)
 
 **Optionen:**
 - obwohl
@@ -550,7 +550,7 @@
 ### 39. `b1-konz-038` · select-one
 
 **Aufgabe:**
-> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz — obwohl)
+> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz)
 
 **Optionen:**
 - weil
@@ -564,7 +564,7 @@
 ### 40. `b1-konz-039` · select-one
 
 **Aufgabe:**
-> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz — obwohl)
+> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz)
 
 **Optionen:**
 - Deshalb
@@ -578,7 +578,7 @@
 ### 41. `b1-konz-040` · select-one
 
 **Aufgabe:**
-> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz — obwohl)
+> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz)
 
 **Optionen:**
 - weil
@@ -606,7 +606,7 @@
 ### 43. `b1-konz-042` · select-one
 
 **Aufgabe:**
-> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz — obwohl)
+> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz)
 
 **Optionen:**
 - weil
@@ -620,7 +620,7 @@
 ### 44. `b1-konz-043` · select-one
 
 **Aufgabe:**
-> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz — obwohl)
+> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz)
 
 **Optionen:**
 - Deshalb
@@ -634,7 +634,7 @@
 ### 45. `b1-konz-044` · select-one
 
 **Aufgabe:**
-> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz — obwohl)
+> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz)
 
 **Optionen:**
 - obwohl
@@ -690,7 +690,7 @@
 ### 49. `b1-konz-048` · select-one
 
 **Aufgabe:**
-> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz — obwohl)
+> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz)
 
 **Optionen:**
 - Weil
@@ -704,7 +704,7 @@
 ### 50. `b1-konz-049` · select-one
 
 **Aufgabe:**
-> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz — obwohl)
+> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz)
 
 **Optionen:**
 - obwohl
@@ -754,7 +754,7 @@
 ### 54. `b1-konz-in-003` · input-text
 
 **Aufgabe:**
-> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz — obwohl)
+> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz)
 
 **Antwort:** `Obschon`
 
@@ -764,7 +764,7 @@
 ### 55. `b1-konz-in-004` · input-text
 
 **Aufgabe:**
-> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz — obwohl)
+> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -784,7 +784,7 @@
 ### 57. `b1-konz-in-006` · input-text
 
 **Aufgabe:**
-> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz — obwohl)
+> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -804,7 +804,7 @@
 ### 59. `b1-konz-in-008` · input-text
 
 **Aufgabe:**
-> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz — obwohl)
+> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -814,7 +814,7 @@
 ### 60. `b1-konz-in-009` · input-text
 
 **Aufgabe:**
-> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz — obwohl)
+> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz)
 
 **Antwort:** `Obschon`
 
@@ -824,7 +824,7 @@
 ### 61. `b1-konz-in-010` · input-text
 
 **Aufgabe:**
-> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz — obwohl)
+> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -844,7 +844,7 @@
 ### 63. `b1-konz-in-012` · input-text
 
 **Aufgabe:**
-> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz — obwohl)
+> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -854,7 +854,7 @@
 ### 64. `b1-konz-in-013` · input-text
 
 **Aufgabe:**
-> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz — obwohl)
+> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz)
 
 **Antwort:** `Obschon`
 
@@ -864,7 +864,7 @@
 ### 65. `b1-konz-in-014` · input-text
 
 **Aufgabe:**
-> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz — obwohl)
+> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -904,7 +904,7 @@
 ### 69. `b1-konz-in-018` · input-text
 
 **Aufgabe:**
-> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz — obwohl)
+> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz)
 
 **Antwort:** `Obschon`
 
@@ -914,7 +914,7 @@
 ### 70. `b1-konz-in-019` · input-text
 
 **Aufgabe:**
-> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz — obwohl)
+> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -934,7 +934,7 @@
 ### 72. `b1-konz-in-021` · input-text
 
 **Aufgabe:**
-> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz — obwohl)
+> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -954,7 +954,7 @@
 ### 74. `b1-konz-in-023` · input-text
 
 **Aufgabe:**
-> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz — obwohl)
+> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -964,7 +964,7 @@
 ### 75. `b1-konz-in-024` · input-text
 
 **Aufgabe:**
-> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz — obwohl)
+> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz)
 
 **Antwort:** `Obschon`
 
@@ -974,7 +974,7 @@
 ### 76. `b1-konz-in-025` · input-text
 
 **Aufgabe:**
-> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz — obwohl)
+> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -994,7 +994,7 @@
 ### 78. `b1-konz-in-027` · input-text
 
 **Aufgabe:**
-> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz — obwohl)
+> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -1004,7 +1004,7 @@
 ### 79. `b1-konz-in-028` · input-text
 
 **Aufgabe:**
-> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz — obwohl)
+> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz)
 
 **Antwort:** `Obschon`
 
@@ -1014,7 +1014,7 @@
 ### 80. `b1-konz-in-029` · input-text
 
 **Aufgabe:**
-> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz — obwohl)
+> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -1054,7 +1054,7 @@
 ### 84. `b1-konz-in-033` · input-text
 
 **Aufgabe:**
-> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz — obwohl)
+> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz)
 
 **Antwort:** `Obschon`
 
@@ -1064,7 +1064,7 @@
 ### 85. `b1-konz-in-034` · input-text
 
 **Aufgabe:**
-> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz — obwohl)
+> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -1084,7 +1084,7 @@
 ### 87. `b1-konz-in-036` · input-text
 
 **Aufgabe:**
-> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz — obwohl)
+> Das Projekt ist schwierig; ___ geben wir nicht auf. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -1104,7 +1104,7 @@
 ### 89. `b1-konz-in-038` · input-text
 
 **Aufgabe:**
-> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz — obwohl)
+> Die Nachrichten sind negativ, ___ bleibt er optimistisch. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -1114,7 +1114,7 @@
 ### 90. `b1-konz-in-039` · input-text
 
 **Aufgabe:**
-> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz — obwohl)
+> ___ das Medikament teuer ist, kauft er es. (Konzessivsatz)
 
 **Antwort:** `Obschon`
 
@@ -1124,7 +1124,7 @@
 ### 91. `b1-konz-in-040` · input-text
 
 **Aufgabe:**
-> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz — obwohl)
+> Es regnet, ___ fahren wir in den Urlaub. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -1144,7 +1144,7 @@
 ### 93. `b1-konz-in-042` · input-text
 
 **Aufgabe:**
-> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz — obwohl)
+> Sie hat wenig Zeit, ___ hilft sie uns. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -1154,7 +1154,7 @@
 ### 94. `b1-konz-in-043` · input-text
 
 **Aufgabe:**
-> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz — obwohl)
+> ___ die Vorlesung lang war, war sie interessant. (Konzessivsatz)
 
 **Antwort:** `Obschon`
 
@@ -1164,7 +1164,7 @@
 ### 95. `b1-konz-in-044` · input-text
 
 **Aufgabe:**
-> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz — obwohl)
+> Der Verkehr ist schlimm, ___ kommt er rechtzeitig an. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -1204,7 +1204,7 @@
 ### 99. `b1-konz-in-048` · input-text
 
 **Aufgabe:**
-> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz — obwohl)
+> ___ das Essen teuer war, hat es gut geschmeckt. (Konzessivsatz)
 
 **Antwort:** `Obschon`
 
@@ -1214,7 +1214,7 @@
 ### 100. `b1-konz-in-049` · input-text
 
 **Aufgabe:**
-> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz — obwohl)
+> Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz)
 
 **Antwort:** `trotzdem`
 
@@ -1236,7 +1236,7 @@
 ### 102. `b1-konz-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig schläft)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · Schlafmangel · herrscht · arbeitet · Kollege · sehr · produktiv
 
@@ -1246,7 +1246,7 @@
 ### 103. `b1-konz-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl kalt ist)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Sie · geht · joggen · obwohl · es · kalt · ist
 
@@ -1256,7 +1256,7 @@
 ### 104. `b1-konz-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon teuer war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obschon · das · Essen · teuer · war · hat · es · gut · geschmeckt
 
@@ -1266,7 +1266,7 @@
 ### 105. `b1-konz-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl schwer war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Er · ist · müde · trotzdem · hat · er · Überstunden · gemacht
 
@@ -1276,7 +1276,7 @@
 ### 106. `b1-konz-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl kein Auto)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · die · Prüfung · schwer · war · hat · sie · bestanden
 
@@ -1286,7 +1286,7 @@
 ### 107. `b1-konz-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon teuer ist)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Das · Projekt · ist · schwierig · trotzdem · geben · wir · nicht · auf
 
@@ -1296,7 +1296,7 @@
 ### 108. `b1-konz-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl umstritten)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · er · kein · Auto · hat · bleibt · Kollege · pünktlich
 
@@ -1306,7 +1306,7 @@
 ### 109. `b1-konz-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon lang war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Die · Nachrichten · sind · negativ · trotzdem · bleibt · er · optimistisch
 
@@ -1316,7 +1316,7 @@
 ### 110. `b1-konz-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl belastet)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obschon · das · Medikament · teuer · ist · kauft · er · es
 
@@ -1326,7 +1326,7 @@
 ### 111. `b1-konz-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig Zeit)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Es · regnet · trotzdem · fahren · wir · in · den · Urlaub
 
@@ -1336,7 +1336,7 @@
 ### 112. `b1-konz-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Regen fällt)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · die · Politik · umstritten · ist · diskutieren · viele · Menschen
 
@@ -1346,7 +1346,7 @@
 ### 113. `b1-konz-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Warnung kam)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Sie · hat · wenig · Zeit · trotzdem · hilft · sie · uns
 
@@ -1356,7 +1356,7 @@
 ### 114. `b1-konz-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Kritik laut)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obschon · die · Vorlesung · lang · war · blieb · Kursinhalt · spannend
 
@@ -1366,7 +1366,7 @@
 ### 115. `b1-konz-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig Erfahrung)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Der · Verkehr · ist · schlimm · trotzdem · kommt · er · rechtzeitig · an
 
@@ -1376,7 +1376,7 @@
 ### 116. `b1-konz-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl teuer war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · die · Umwelt · belastet · ist · reisen · viele · weiter · viel
 
@@ -1386,7 +1386,7 @@
 ### 117. `b1-konz-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Sturm weht)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · Schlafmangel · herrscht · arbeitet · Kollege · sehr · produktiv
 
@@ -1396,7 +1396,7 @@
 ### 118. `b1-konz-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl müde ist)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Sie · geht · joggen · obwohl · es · kalt · ist
 
@@ -1406,7 +1406,7 @@
 ### 119. `b1-konz-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig schläft)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · Schlafmangel · herrscht · arbeitet · Kollege · sehr · produktiv
 
@@ -1416,7 +1416,7 @@
 ### 120. `b1-konz-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl kalt ist)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Sie · geht · joggen · obwohl · es · kalt · ist
 
@@ -1426,7 +1426,7 @@
 ### 121. `b1-konz-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon teuer war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obschon · das · Essen · teuer · war · hat · es · gut · geschmeckt
 
@@ -1436,7 +1436,7 @@
 ### 122. `b1-konz-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl schwer war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Er · ist · müde · trotzdem · hat · er · Überstunden · gemacht
 
@@ -1446,7 +1446,7 @@
 ### 123. `b1-konz-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl kein Auto)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · die · Prüfung · schwer · war · hat · sie · bestanden
 
@@ -1456,7 +1456,7 @@
 ### 124. `b1-konz-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon teuer ist)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Das · Projekt · ist · schwierig · trotzdem · geben · wir · nicht · auf
 
@@ -1466,7 +1466,7 @@
 ### 125. `b1-konz-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl umstritten)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · er · kein · Auto · hat · bleibt · Kollege · pünktlich
 
@@ -1476,7 +1476,7 @@
 ### 126. `b1-konz-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon lang war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Die · Nachrichten · sind · negativ · trotzdem · bleibt · er · optimistisch
 
@@ -1486,7 +1486,7 @@
 ### 127. `b1-konz-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl belastet)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obschon · das · Medikament · teuer · ist · kauft · er · es
 
@@ -1496,7 +1496,7 @@
 ### 128. `b1-konz-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig Zeit)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Es · regnet · trotzdem · fahren · wir · in · den · Urlaub
 
@@ -1506,7 +1506,7 @@
 ### 129. `b1-konz-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Regen fällt)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · die · Politik · umstritten · ist · diskutieren · viele · Menschen
 
@@ -1516,7 +1516,7 @@
 ### 130. `b1-konz-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Warnung kam)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Sie · hat · wenig · Zeit · trotzdem · hilft · sie · uns
 
@@ -1526,7 +1526,7 @@
 ### 131. `b1-konz-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Kritik laut)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obschon · die · Vorlesung · lang · war · blieb · Kursinhalt · spannend
 
@@ -1536,7 +1536,7 @@
 ### 132. `b1-konz-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig Erfahrung)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Der · Verkehr · ist · schlimm · trotzdem · kommt · er · rechtzeitig · an
 
@@ -1546,7 +1546,7 @@
 ### 133. `b1-konz-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl teuer war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · die · Umwelt · belastet · ist · reisen · viele · weiter · viel
 
@@ -1556,7 +1556,7 @@
 ### 134. `b1-konz-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Sturm weht)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · Schlafmangel · herrscht · arbeitet · Kollege · sehr · produktiv
 
@@ -1566,7 +1566,7 @@
 ### 135. `b1-konz-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl müde ist)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Sie · geht · joggen · obwohl · es · kalt · ist
 
@@ -1576,7 +1576,7 @@
 ### 136. `b1-konz-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig schläft)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · Schlafmangel · herrscht · arbeitet · Kollege · sehr · produktiv
 
@@ -1586,7 +1586,7 @@
 ### 137. `b1-konz-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl kalt ist)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Sie · geht · joggen · obwohl · es · kalt · ist
 
@@ -1596,7 +1596,7 @@
 ### 138. `b1-konz-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon teuer war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obschon · das · Essen · teuer · war · hat · es · gut · geschmeckt
 
@@ -1606,7 +1606,7 @@
 ### 139. `b1-konz-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl schwer war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Er · ist · müde · trotzdem · hat · er · Überstunden · gemacht
 
@@ -1616,7 +1616,7 @@
 ### 140. `b1-konz-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl kein Auto)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · die · Prüfung · schwer · war · hat · sie · bestanden
 
@@ -1626,7 +1626,7 @@
 ### 141. `b1-konz-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon teuer ist)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Das · Projekt · ist · schwierig · trotzdem · geben · wir · nicht · auf
 
@@ -1636,7 +1636,7 @@
 ### 142. `b1-konz-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl umstritten)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · er · kein · Auto · hat · bleibt · Kollege · pünktlich
 
@@ -1646,7 +1646,7 @@
 ### 143. `b1-konz-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon lang war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Die · Nachrichten · sind · negativ · trotzdem · bleibt · er · optimistisch
 
@@ -1656,7 +1656,7 @@
 ### 144. `b1-konz-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl belastet)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obschon · das · Medikament · teuer · ist · kauft · er · es
 
@@ -1666,7 +1666,7 @@
 ### 145. `b1-konz-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig Zeit)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Es · regnet · trotzdem · fahren · wir · in · den · Urlaub
 
@@ -1676,7 +1676,7 @@
 ### 146. `b1-konz-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Regen fällt)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · die · Politik · umstritten · ist · diskutieren · viele · Menschen
 
@@ -1686,7 +1686,7 @@
 ### 147. `b1-konz-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Warnung kam)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Sie · hat · wenig · Zeit · trotzdem · hilft · sie · uns
 
@@ -1696,7 +1696,7 @@
 ### 148. `b1-konz-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Kritik laut)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obschon · die · Vorlesung · lang · war · blieb · Kursinhalt · spannend
 
@@ -1706,7 +1706,7 @@
 ### 149. `b1-konz-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig Erfahrung)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Der · Verkehr · ist · schlimm · trotzdem · kommt · er · rechtzeitig · an
 
@@ -1716,7 +1716,7 @@
 ### 150. `b1-konz-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl teuer war)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · die · Umwelt · belastet · ist · reisen · viele · weiter · viel
 
@@ -1726,7 +1726,7 @@
 ### 151. `b1-konz-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Sturm weht)
+> Ordne die Wörter zum richtigen Satz: (Konzessivsatz)
 
 **Wörter:** Obwohl · Schlafmangel · herrscht · arbeitet · Kollege · sehr · produktiv
 

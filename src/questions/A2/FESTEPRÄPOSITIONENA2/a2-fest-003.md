@@ -2,11 +2,11 @@
 id: a2-fest-003
 type: select-one
 options:
-  - dem
-  - die
-  - das
-  - der
-correct: die
+  - an
+  - über
+  - nach
+  - von
+correct: über
 ---
 
-Wir sprechen über ___ Reise. (feste Präposition)
+Wir sprechen ___ die Reise. (Feste Präposition)

@@ -1,8 +1,11 @@
 ---
 id: a2-sup-in-047
 type: input-text
+hint: Superlativ — klein, neutr., Nom.
 correct:
   - kleinste
 ---
 
-Das ist das ___ Zimmer in der Wohnung. (Superlativ — neutr., Nom.)
+Ergänze die Superlativform:
+
+Das ist das ___ Zimmer in der Wohnung.

@@ -2,11 +2,12 @@
 id: b1-demo-dd-045
 type: dropbox
 words:
-  - Diese
-  - Patienten
-  - müssen
-  - länger
-  - warten
+  - Wir
+  - diskutieren
+  - diesen
+  - Vorschlag
+  - im
+  - Meeting
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Patienten)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

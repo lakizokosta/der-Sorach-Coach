@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-006
 type: input-text
+hint: Wechselpräpositionen — Wohin?
 correct:
   - an die
 ---
 
-Stellen Sie die Leiter ___ Wand. (Dativ oder Akkusativ — Wohin?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Stellen Sie die Leiter ___ Wand.

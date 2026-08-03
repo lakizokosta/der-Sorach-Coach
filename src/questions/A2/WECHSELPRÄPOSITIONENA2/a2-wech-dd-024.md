@@ -2,9 +2,8 @@
 id: a2-wech-dd-024
 type: dropbox
 words:
-  - Wo
+  - Wir
   - sitzen
-  - wir
   - beim
   - Essen
   - in

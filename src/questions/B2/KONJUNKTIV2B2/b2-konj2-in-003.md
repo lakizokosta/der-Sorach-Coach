@@ -1,8 +1,11 @@
 ---
 id: b2-konj2-in-003
 type: input-text
+hint: Konjunktiv II + Verb sein
 correct:
   - wäre
 ---
 
-An deiner Stelle ___ ich vorsichtiger. (Konjunktiv II + Verb sein)
+Ergänze die Konjunktiv-II-Form:
+
+An deiner Stelle ___ ich vorsichtiger.

@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main, 'update_worker_name_to_der-sorach-coach']
+  pull_request:
+    branches: [main]
+
+jobs:
+  stabilize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Stabilize (unit + verify + build + size budget)
+        run: npm run test:stabilize

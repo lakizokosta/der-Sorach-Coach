@@ -9,4 +9,4 @@ words:
   - ein
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Bewerbung einreichen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

@@ -2,11 +2,11 @@
 id: a2-fest-040
 type: select-one
 options:
-  - seinen
-  - seiner
-  - seine
-  - sein
-correct: seine
+  - bei
+  - für
+  - von
+  - an
+correct: von
 ---
 
-Er erinnert sich an ___ Kindheit. (feste Präposition)
+Er träumt ___ einem Urlaub. (Feste Präposition)

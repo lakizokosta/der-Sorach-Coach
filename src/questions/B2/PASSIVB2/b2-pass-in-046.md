@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-046
 type: input-text
+hint: Passiv + Verb sein
 correct:
   - ist
 ---
 
-Ein Kompromiss ___ gefunden worden. (Passiv + Verb sein)
+Ergänze die Passivform:
+
+Ein Kompromiss ___ gefunden worden.

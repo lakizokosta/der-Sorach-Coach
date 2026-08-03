@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-024
 type: input-text
+hint: Possessivartikel — ihr, Pl., Akk.
 correct:
   - eure
 ---
 
-Kennst du ___ Nachbarn? (Possessivartikel — ihr, Pl., Akk.)
+Ergänze den Possessivartikel:
+
+Kennst du ___ Nachbarn?

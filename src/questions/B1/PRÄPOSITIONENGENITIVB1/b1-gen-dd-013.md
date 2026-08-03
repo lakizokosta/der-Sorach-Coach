@@ -9,6 +9,8 @@ words:
   - das
   - Büro
   - geschlossen
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Sitzung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

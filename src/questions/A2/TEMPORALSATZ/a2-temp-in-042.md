@@ -1,8 +1,11 @@
 ---
 id: a2-temp-in-042
 type: input-text
+hint: Temporal — wiederholt
 correct:
   - Wenn
 ---
 
-___ die Sonne scheint, gehen wir in den Zoo. (Temporal — wiederholt)
+Ergänze die Konjunktion (Temporal):
+
+___ die Sonne scheint, gehen wir in den Zoo.

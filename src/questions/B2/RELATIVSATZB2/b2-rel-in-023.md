@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-023
 type: input-text
+hint: deren
 correct:
   - deren
 ---
 
-Die Frau, ___ Mann Arzt ist, kennt sich aus. (Relativpronomen)
+Ergänze das Relativpronomen:
+
+Die Frau, ___ Mann Arzt ist, kennt sich aus.

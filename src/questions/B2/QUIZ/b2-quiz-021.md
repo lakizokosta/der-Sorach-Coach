@@ -2,11 +2,11 @@
 id: b2-quiz-021
 type: select-one
 options:
+  - das
   - der
   - dem
-  - die
   - den
-correct: dem
+correct: den
 ---
 
-Der Professor, von ___ ich gelernt habe, ist pensioniert. (Grammatikform)
+Der Bericht, auf ___ er sich bezieht, ist veraltet.

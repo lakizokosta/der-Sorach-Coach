@@ -10,4 +10,4 @@ words:
   - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — freut auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

@@ -4,9 +4,10 @@ type: dropbox
 words:
   - Wir
   - gehen
+  - jetzt
   - über
   - die
   - Straße
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — über)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)

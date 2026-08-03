@@ -1,8 +1,11 @@
 ---
 id: b1-fin-in-041
 type: input-text
+hint: Finalsatz — um
 correct:
   - um
 ---
 
-Wir melden uns rechtzeitig an, ___ einen Platz zu bekommen. (Finalsatz)
+Ergänze die Konjunktion (Final):
+
+Wir melden uns rechtzeitig an, ___ einen Platz zu bekommen.

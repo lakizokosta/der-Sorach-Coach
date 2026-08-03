@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-044
 type: input-text
+hint: Dativ — das Bad, Dat.
 correct:
-  - dem Bad
+  - dem
 ---
 
-In ___ Bad dusche ich morgens. (Dativ — Dat.)
+Ergänze die Dativform:
+
+In ___ Bad dusche ich morgens.

@@ -2,14 +2,17 @@
 id: b1-kaus-dd-033
 type: dropbox
 words:
-  - Ich
-  - bleibe
-  - zu
-  - Hause
+  - Er
+  - kommt
+  - nicht
+  - mit
   - weil
-  - ich
-  - krank
-  - bin
+  - er
+  - noch
+  - arbeiten
+  - muss
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Termin wichtig)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

@@ -2,14 +2,14 @@
 id: b1-kadv-dd-038
 type: dropbox
 words:
-  - Das
-  - Projekt
+  - Er
+  - hat
+  - Überstunden
+  - gemacht
+  - Deshalb
   - ist
-  - teuer
-  - Dennoch
-  - lohnt
-  - es
-  - sich
+  - er
+  - müde
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch lohnt)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-033
 type: input-text
+hint: Adjektivdeklination — neu, neutr., Nom.
 correct:
   - neues
 ---
 
-Das ist mein ___ Buch. (Adjektivendung)
+Ergänze die Adjektivendung:
+
+Das ist mein ___ Buch.

@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-019
 type: input-text
+hint: Demonstrativartikel — fem./Pl., Nom./Akk.
 correct:
   - diese
 ---
 
-Ich habe ___ Nachrichten schon gelesen. (Demonstrativartikel)
+Ergänze den Demonstrativartikel:
+
+Ich habe ___ Nachrichten schon gelesen.

@@ -4,11 +4,14 @@ type: dropbox
 words:
   - Sobald
   - der
-  - Zug
-  - ankommt
-  - fahren
+  - Arzt
+  - kommt
+  - warten
   - wir
-  - los
+  - im
+  - Wartezimmer
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Zug ankommt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

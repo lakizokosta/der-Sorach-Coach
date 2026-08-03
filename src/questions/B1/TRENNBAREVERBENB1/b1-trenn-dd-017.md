@@ -8,7 +8,7 @@ words:
   - wichtige
   - E-Mail
   - sofort
-  - an
+  - ab
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb abschicken)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

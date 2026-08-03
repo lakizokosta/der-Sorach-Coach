@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-003
 type: input-text
+hint: Indirekte Rede + Verb sein
 correct:
   - sei
 ---
 
-Der Minister betonte, die Reform ___ notwendig. (Indirekte Rede)
+Ergänze die Form (Indirekte Rede):
+
+Der Minister betonte, die Reform ___ notwendig.

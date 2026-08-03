@@ -12,4 +12,4 @@ words:
   - gelernt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt)
+Ordne die Wörter zum richtigen Satz: (Perfekt — hast gelernt)

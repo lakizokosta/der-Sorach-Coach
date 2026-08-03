@@ -1,8 +1,11 @@
 ---
 id: b1-praeg-in-010
 type: input-text
+hint: Verb + Präposition
 correct:
   - für
 ---
 
-Ich danke ___ deine Hilfe. (Verb + Präposition)
+Ergänze die Präposition (Verb + Präposition):
+
+Ich danke ___ deine Hilfe.

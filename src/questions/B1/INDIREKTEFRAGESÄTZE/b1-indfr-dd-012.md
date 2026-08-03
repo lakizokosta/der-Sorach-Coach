@@ -2,13 +2,15 @@
 id: b1-indfr-dd-012
 type: dropbox
 words:
-  - Er
-  - fragt
+  - Wir
+  - fragen
   - ob
-  - wir
+  - ihr
   - schon
   - gebucht
-  - haben
+  - habt
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob gebucht haben)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-050
 type: input-text
+hint: Plural: Obstsorte
 correct:
   - Obstsorten
 ---
 
-Auf dem Markt gibt es viele ___. (Plural)
+Ergänze die Pluralform:
+
+Auf dem Markt gibt es viele ___.

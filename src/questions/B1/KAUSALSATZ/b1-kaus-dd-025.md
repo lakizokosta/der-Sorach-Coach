@@ -2,14 +2,18 @@
 id: b1-kaus-dd-025
 type: dropbox
 words:
-  - Er
+  - Wir
+  - fahren
+  - mit
+  - dem
+  - Zug
+  - weil
+  - das
+  - Auto
+  - kaputt
   - ist
-  - gestresst
-  - denn
-  - zu
-  - viel
-  - Arbeit
-  - wartet
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn viel zu tun)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

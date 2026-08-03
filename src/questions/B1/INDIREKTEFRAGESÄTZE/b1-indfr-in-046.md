@@ -1,8 +1,11 @@
 ---
 id: b1-indfr-in-046
 type: input-text
+hint: Indirekte Frage — denn / ob / weil / wenn
 correct:
   - ob
 ---
 
-Ich weiß nicht, ___ der Termin stattfindet. (Indirekte Frage)
+Ergänze das Fragewort (indirekte Frage):
+
+Ich weiß nicht, ___ der Termin stattfindet.

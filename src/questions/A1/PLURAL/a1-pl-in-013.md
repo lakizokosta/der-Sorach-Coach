@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-013
 type: input-text
+hint: Plural: Hand
 correct:
   - Hände
 ---
 
-Wasche deine ___ vor dem Essen! (Plural)
+Ergänze die Pluralform:
+
+Wasche deine ___ vor dem Essen!

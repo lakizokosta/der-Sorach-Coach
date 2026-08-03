@@ -5,8 +5,8 @@ options:
   - dafür
   - darüber
   - damit
-  - daran teil
-correct: daran teil
+  - darauf
+correct: darauf
 ---
 
-Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+Hörst du auf gute Ratschläge? — Ich höre ___. (Pronominaladverb)

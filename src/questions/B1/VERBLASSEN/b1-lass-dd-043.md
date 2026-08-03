@@ -4,10 +4,12 @@ type: dropbox
 words:
   - Sie
   - lässt
-  - den
-  - Bericht
-  - Korrektur
-  - lesen
+  - die
+  - Kinder
+  - von
+  - der
+  - Oma
+  - abholen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb abholen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

@@ -3,10 +3,10 @@ id: b1-pass-dd-020
 type: dropbox
 words:
   - Die
-  - Patienten
+  - Tickets
   - werden
-  - regelmäßig
-  - untersucht
+  - online
+  - verkauft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb verkaufen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

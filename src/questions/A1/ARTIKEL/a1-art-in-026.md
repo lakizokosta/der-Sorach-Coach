@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-026
 type: input-text
+hint: Artikel — Negation: kein, neutr.
 correct:
   - kein
 ---
 
-Ich habe ___ Geld. (Artikel — neutr.)
+Ergänze den Artikel:
+
+Ich habe ___ Geld.

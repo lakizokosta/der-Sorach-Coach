@@ -2,13 +2,14 @@
 id: b1-vnv-dd-035
 type: dropbox
 words:
-  - Wir
-  - müssen
-  - heute
+  - Er
+  - äußert
   - eine
-  - wichtige
-  - Entscheidung
-  - treffen
+  - klare
+  - Meinung
+  - zu
+  - der
+  - Frage
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Entscheidung treffen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

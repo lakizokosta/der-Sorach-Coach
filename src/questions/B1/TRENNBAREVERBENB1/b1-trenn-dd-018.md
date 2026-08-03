@@ -2,14 +2,15 @@
 id: b1-trenn-dd-018
 type: dropbox
 words:
-  - Wann
-  - meldest
-  - du
-  - dich
-  - für
-  - den
-  - Kurs
-  - an
+  - Ich
+  - stehe
+  - morgen
+  - früh
+  - um
+  - sechs
+  - auf
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb aufstehen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

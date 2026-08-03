@@ -1,8 +1,11 @@
 ---
 id: b1-perf-in-031
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - hat
 ---
 
-Der Minister ___ die neue Regelung erklärt. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Der Minister ___ die neue Regelung erklärt.

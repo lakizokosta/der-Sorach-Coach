@@ -2,10 +2,12 @@
 id: b1-vnv-dd-032
 type: dropbox
 words:
-  - Ich
-  - mache
+  - Er
+  - führt
   - eine
-  - Pause
+  - sorgfältige
+  - Untersuchung
+  - durch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Pause machen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

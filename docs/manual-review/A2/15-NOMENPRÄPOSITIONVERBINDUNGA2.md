@@ -88,7 +88,7 @@
 ### 6. `a2-npv-006` · select-one
 
 **Aufgabe:**
-> Ich habe Hoffnung ___ besseres Wetter. (Nomen-Präp. — Hoffnung)
+> Ich habe Hoffnung ___ besseres Wetter. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -102,7 +102,7 @@
 ### 7. `a2-npv-007` · select-one
 
 **Aufgabe:**
-> Sie hat Freude ___ Musik. (Nomen-Präp. — Freude)
+> Sie hat Freude ___ Musik. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -116,7 +116,7 @@
 ### 8. `a2-npv-008` · select-one
 
 **Aufgabe:**
-> Er hat keine Zeit ___ Diskussionen. (Nomen-Präp. — Zeit)
+> Er hat keine Zeit ___ Diskussionen. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -130,7 +130,7 @@
 ### 9. `a2-npv-009` · select-one
 
 **Aufgabe:**
-> Wir haben Vertrauen ___ unser Team. (Nomen-Präp. — Vertrauen)
+> Wir haben Vertrauen ___ unser Team. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -144,7 +144,7 @@
 ### 10. `a2-npv-010` · select-one
 
 **Aufgabe:**
-> Ich habe Bedarf ___ Hilfe. (Nomen-Präp. — Bedarf)
+> Ich habe Bedarf ___ Hilfe. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -158,7 +158,7 @@
 ### 11. `a2-npv-011` · select-one
 
 **Aufgabe:**
-> Er hat Erfolg ___ der Prüfung. (Nomen-Präp. — Erfolg)
+> Er hat Erfolg ___ der Prüfung. (Nomen-Präposition)
 
 **Optionen:**
 - mit
@@ -172,7 +172,7 @@
 ### 12. `a2-npv-012` · select-one
 
 **Aufgabe:**
-> Sie hat Teilnahme ___ dem Kurs. (Nomen-Präp. — Teilnahme)
+> Sie hat Teilnahme ___ dem Kurs. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -186,7 +186,7 @@
 ### 13. `a2-npv-013` · select-one
 
 **Aufgabe:**
-> Ich habe Zweifel ___ der Idee. (Nomen-Präp. — Zweifel)
+> Ich habe Zweifel ___ der Idee. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -200,7 +200,7 @@
 ### 14. `a2-npv-014` · select-one
 
 **Aufgabe:**
-> Er hat Recht ___ der Sache. (Nomen-Präp. — Recht)
+> Er hat Recht ___ der Sache. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -214,7 +214,7 @@
 ### 15. `a2-npv-015` · select-one
 
 **Aufgabe:**
-> Wir haben Spaß ___ dem Spiel. (Nomen-Präp. — Spaß)
+> Wir haben Spaß ___ dem Spiel. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -228,7 +228,7 @@
 ### 16. `a2-npv-016` · select-one
 
 **Aufgabe:**
-> Ich habe Interesse ___ Kunst. (Nomen-Präp. — Interesse)
+> Ich habe Interesse ___ Kunst. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -242,7 +242,7 @@
 ### 17. `a2-npv-017` · select-one
 
 **Aufgabe:**
-> Er hat Angst ___ Spinnen. (Nomen-Präp. — Lust)
+> Er hat Angst ___ Spinnen. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -256,7 +256,7 @@
 ### 18. `a2-npv-018` · select-one
 
 **Aufgabe:**
-> Sie hat Lust ___ Eis. (Nomen-Präp. — Interesse)
+> Sie hat Lust ___ Eis. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -284,7 +284,7 @@
 ### 20. `a2-npv-020` · select-one
 
 **Aufgabe:**
-> Er hat Respekt ___ Lehrern. (Nomen-Präp. — Lust)
+> Er hat Respekt ___ Lehrern. (Nomen-Präposition)
 
 **Optionen:**
 - an
@@ -298,7 +298,7 @@
 ### 21. `a2-npv-021` · select-one
 
 **Aufgabe:**
-> Ich habe Hoffnung ___ besseres Wetter. (Nomen-Präp. — denken)
+> Ich habe Hoffnung ___ besseres Wetter. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -312,7 +312,7 @@
 ### 22. `a2-npv-022` · select-one
 
 **Aufgabe:**
-> Sie hat Freude ___ Musik. (Nomen-Präp. — Respekt)
+> Sie hat Freude ___ Musik. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -326,7 +326,7 @@
 ### 23. `a2-npv-023` · select-one
 
 **Aufgabe:**
-> Er hat keine Zeit ___ Diskussionen. (Nomen-Präp. — Hoffnung)
+> Er hat keine Zeit ___ Diskussionen. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -340,7 +340,7 @@
 ### 24. `a2-npv-024` · select-one
 
 **Aufgabe:**
-> Wir haben Vertrauen ___ unser Team. (Nomen-Präp. — Freude)
+> Wir haben Vertrauen ___ unser Team. (Nomen-Präposition)
 
 **Optionen:**
 - an
@@ -354,7 +354,7 @@
 ### 25. `a2-npv-025` · select-one
 
 **Aufgabe:**
-> Ich habe Bedarf ___ Hilfe. (Nomen-Präp. — Zeit)
+> Ich habe Bedarf ___ Hilfe. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -368,7 +368,7 @@
 ### 26. `a2-npv-026` · select-one
 
 **Aufgabe:**
-> Er hat Erfolg ___ der Prüfung. (Nomen-Präp. — Vertrauen)
+> Er hat Erfolg ___ der Prüfung. (Nomen-Präposition)
 
 **Optionen:**
 - an
@@ -382,7 +382,7 @@
 ### 27. `a2-npv-027` · select-one
 
 **Aufgabe:**
-> Sie hat Teilnahme ___ dem Kurs. (Nomen-Präp. — Bedarf)
+> Sie hat Teilnahme ___ dem Kurs. (Nomen-Präposition)
 
 **Optionen:**
 - zu
@@ -396,7 +396,7 @@
 ### 28. `a2-npv-028` · select-one
 
 **Aufgabe:**
-> Ich habe Zweifel ___ der Idee. (Nomen-Präp. — Erfolg)
+> Ich habe Zweifel ___ der Idee. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -410,7 +410,7 @@
 ### 29. `a2-npv-029` · select-one
 
 **Aufgabe:**
-> Er hat Recht ___ der Sache. (Nomen-Präp. — Teilnahme)
+> Er hat Recht ___ der Sache. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -424,7 +424,7 @@
 ### 30. `a2-npv-030` · select-one
 
 **Aufgabe:**
-> Wir haben Spaß ___ dem Spiel. (Nomen-Präp. — Zweifel)
+> Wir haben Spaß ___ dem Spiel. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -438,7 +438,7 @@
 ### 31. `a2-npv-031` · select-one
 
 **Aufgabe:**
-> Ich habe Interesse ___ Kunst. (Nomen-Präp. — Recht)
+> Ich habe Interesse ___ Kunst. (Nomen-Präposition)
 
 **Optionen:**
 - zu
@@ -452,7 +452,7 @@
 ### 32. `a2-npv-032` · select-one
 
 **Aufgabe:**
-> Er hat Angst ___ Spinnen. (Nomen-Präp. — Spaß)
+> Er hat Angst ___ Spinnen. (Nomen-Präposition)
 
 **Optionen:**
 - an
@@ -466,7 +466,7 @@
 ### 33. `a2-npv-033` · select-one
 
 **Aufgabe:**
-> Sie hat Lust ___ Eis. (Nomen-Präp. — Interesse)
+> Sie hat Lust ___ Eis. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -480,7 +480,7 @@
 ### 34. `a2-npv-034` · select-one
 
 **Aufgabe:**
-> Wir denken ___ die Zukunft. (Nomen-Präp. — Lust)
+> Wir denken ___ die Zukunft. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -494,7 +494,7 @@
 ### 35. `a2-npv-035` · select-one
 
 **Aufgabe:**
-> Er hat Respekt ___ Lehrern. (Nomen-Präp. — Interesse)
+> Er hat Respekt ___ Lehrern. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -508,7 +508,7 @@
 ### 36. `a2-npv-036` · select-one
 
 **Aufgabe:**
-> Ich habe Hoffnung ___ besseres Wetter. (Nomen-Präp. — Angst)
+> Ich habe Hoffnung ___ besseres Wetter. (Nomen-Präposition)
 
 **Optionen:**
 - mit
@@ -522,7 +522,7 @@
 ### 37. `a2-npv-037` · select-one
 
 **Aufgabe:**
-> Sie hat Freude ___ Musik. (Nomen-Präp. — Lust)
+> Sie hat Freude ___ Musik. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -536,7 +536,7 @@
 ### 38. `a2-npv-038` · select-one
 
 **Aufgabe:**
-> Er hat keine Zeit ___ Diskussionen. (Nomen-Präp. — denken)
+> Er hat keine Zeit ___ Diskussionen. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -550,7 +550,7 @@
 ### 39. `a2-npv-039` · select-one
 
 **Aufgabe:**
-> Wir haben Vertrauen ___ unser Team. (Nomen-Präp. — Respekt)
+> Wir haben Vertrauen ___ unser Team. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -564,7 +564,7 @@
 ### 40. `a2-npv-040` · select-one
 
 **Aufgabe:**
-> Ich habe Bedarf ___ Hilfe. (Nomen-Präp. — Hoffnung)
+> Ich habe Bedarf ___ Hilfe. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -578,7 +578,7 @@
 ### 41. `a2-npv-041` · select-one
 
 **Aufgabe:**
-> Er hat Erfolg ___ der Prüfung. (Nomen-Präp. — Freude)
+> Er hat Erfolg ___ der Prüfung. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -592,7 +592,7 @@
 ### 42. `a2-npv-042` · select-one
 
 **Aufgabe:**
-> Sie hat Teilnahme ___ dem Kurs. (Nomen-Präp. — Zeit)
+> Sie hat Teilnahme ___ dem Kurs. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -606,7 +606,7 @@
 ### 43. `a2-npv-043` · select-one
 
 **Aufgabe:**
-> Ich habe Zweifel ___ der Idee. (Nomen-Präp. — Vertrauen)
+> Ich habe Zweifel ___ der Idee. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -620,7 +620,7 @@
 ### 44. `a2-npv-044` · select-one
 
 **Aufgabe:**
-> Er hat Recht ___ der Sache. (Nomen-Präp. — Bedarf)
+> Er hat Recht ___ der Sache. (Nomen-Präposition)
 
 **Optionen:**
 - mit
@@ -634,7 +634,7 @@
 ### 45. `a2-npv-045` · select-one
 
 **Aufgabe:**
-> Wir haben Spaß ___ dem Spiel. (Nomen-Präp. — Erfolg)
+> Wir haben Spaß ___ dem Spiel. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -648,7 +648,7 @@
 ### 46. `a2-npv-046` · select-one
 
 **Aufgabe:**
-> Ich habe Interesse ___ Kunst. (Nomen-Präp. — Teilnahme)
+> Ich habe Interesse ___ Kunst. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -662,7 +662,7 @@
 ### 47. `a2-npv-047` · select-one
 
 **Aufgabe:**
-> Er hat Angst ___ Spinnen. (Nomen-Präp. — Zweifel)
+> Er hat Angst ___ Spinnen. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -676,7 +676,7 @@
 ### 48. `a2-npv-048` · select-one
 
 **Aufgabe:**
-> Sie hat Lust ___ Eis. (Nomen-Präp. — Recht)
+> Sie hat Lust ___ Eis. (Nomen-Präposition)
 
 **Optionen:**
 - an
@@ -690,7 +690,7 @@
 ### 49. `a2-npv-049` · select-one
 
 **Aufgabe:**
-> Wir denken ___ die Zukunft. (Nomen-Präp. — Spaß)
+> Wir denken ___ die Zukunft. (Nomen-Präposition)
 
 **Optionen:**
 - in
@@ -704,7 +704,7 @@
 ### 50. `a2-npv-050` · select-one
 
 **Aufgabe:**
-> Er hat Respekt ___ Lehrern. (Nomen-Präp. — Interesse)
+> Er hat Respekt ___ Lehrern. (Nomen-Präposition)
 
 **Optionen:**
 - an
@@ -1222,7 +1222,7 @@
 ### 101. `a2-npv-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Interesse · an · Kunst
 
@@ -1232,7 +1232,7 @@
 ### 102. `a2-npv-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Angst · vor · Spinnen
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-npv-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Lust · auf · Eis
 
@@ -1252,7 +1252,7 @@
 ### 104. `a2-npv-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · denken · an · die · Reise
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-npv-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Respekt · vor · Lehrern
 
@@ -1272,7 +1272,7 @@
 ### 106. `a2-npv-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Hoffnung · auf · besseres · Wetter
 
@@ -1282,7 +1282,7 @@
 ### 107. `a2-npv-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Freude · an · Musik
 
@@ -1292,7 +1292,7 @@
 ### 108. `a2-npv-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — für)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · keine · Zeit · für · Diskussionen
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-npv-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Vertrauen · in · unser · Team
 
@@ -1312,9 +1312,9 @@
 ### 110. `a2-npv-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
-**Wörter:** Ich · habe · Bedarf · an · Hilfe
+**Wörter:** Ich · habe · Lust · auf · ein · Eis
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1322,7 +1322,7 @@
 ### 111. `a2-npv-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — bei)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hatte · Erfolg · bei · der · Prüfung
 
@@ -1332,7 +1332,7 @@
 ### 112. `a2-npv-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · nimmt · Teil · an · dem · Kurs
 
@@ -1342,7 +1342,7 @@
 ### 113. `a2-npv-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Zweifel · an · der · Idee
 
@@ -1352,7 +1352,7 @@
 ### 114. `a2-npv-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Recht · in · der · Sache
 
@@ -1362,7 +1362,7 @@
 ### 115. `a2-npv-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Spaß · an · dem · Spiel
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-npv-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — für)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · interessiere · mich · sehr · für · den · Tanzsport
 
@@ -1382,7 +1382,7 @@
 ### 117. `a2-npv-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · keine · Lust · auf · Sport · heute
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-npv-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Interesse · an · Kunst
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-npv-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Angst · vor · Spinnen
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-npv-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Lust · auf · Eis
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-npv-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · denken · an · die · Reise
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-npv-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Respekt · vor · Lehrern
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-npv-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Hoffnung · auf · besseres · Wetter
 
@@ -1452,7 +1452,7 @@
 ### 124. `a2-npv-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Freude · an · Musik
 
@@ -1462,7 +1462,7 @@
 ### 125. `a2-npv-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — für)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · keine · Zeit · für · Diskussionen
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-npv-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Vertrauen · in · unser · Team
 
@@ -1482,9 +1482,9 @@
 ### 127. `a2-npv-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
-**Wörter:** Ich · habe · Bedarf · an · Hilfe
+**Wörter:** Ich · habe · Lust · auf · ein · Eis
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,7 +1492,7 @@
 ### 128. `a2-npv-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — bei)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hatte · Erfolg · bei · der · Prüfung
 
@@ -1502,7 +1502,7 @@
 ### 129. `a2-npv-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · nimmt · Teil · an · dem · Kurs
 
@@ -1512,7 +1512,7 @@
 ### 130. `a2-npv-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Zweifel · an · der · Idee
 
@@ -1522,7 +1522,7 @@
 ### 131. `a2-npv-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Recht · in · der · Sache
 
@@ -1532,7 +1532,7 @@
 ### 132. `a2-npv-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Spaß · an · dem · Spiel
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-npv-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — für)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · interessiere · mich · sehr · für · den · Tanzsport
 
@@ -1552,7 +1552,7 @@
 ### 134. `a2-npv-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · keine · Lust · auf · Sport · heute
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-npv-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Interesse · an · Kunst
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-npv-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Angst · vor · Spinnen
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-npv-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Lust · auf · Eis
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-npv-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · denken · an · die · Reise
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-npv-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — vor)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Respekt · vor · Lehrern
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-npv-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — auf)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Hoffnung · auf · besseres · Wetter
 
@@ -1622,7 +1622,7 @@
 ### 141. `a2-npv-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · hat · Freude · an · Musik
 
@@ -1632,7 +1632,7 @@
 ### 142. `a2-npv-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — für)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · keine · Zeit · für · Diskussionen
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-npv-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Vertrauen · in · unser · Team
 
@@ -1652,9 +1652,9 @@
 ### 144. `a2-npv-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
-**Wörter:** Ich · habe · Bedarf · an · Hilfe
+**Wörter:** Ich · habe · Lust · auf · ein · Eis
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,7 +1662,7 @@
 ### 145. `a2-npv-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — bei)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hatte · Erfolg · bei · der · Prüfung
 
@@ -1672,7 +1672,7 @@
 ### 146. `a2-npv-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Sie · nimmt · Teil · an · dem · Kurs
 
@@ -1682,7 +1682,7 @@
 ### 147. `a2-npv-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · habe · Zweifel · an · der · Idee
 
@@ -1692,7 +1692,7 @@
 ### 148. `a2-npv-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — in)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Er · hat · Recht · in · der · Sache
 
@@ -1702,7 +1702,7 @@
 ### 149. `a2-npv-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — an)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Wir · haben · Spaß · an · dem · Spiel
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-npv-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Nomen-Präp. — für)
+> Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)
 
 **Wörter:** Ich · interessiere · mich · sehr · für · den · Tanzsport
 

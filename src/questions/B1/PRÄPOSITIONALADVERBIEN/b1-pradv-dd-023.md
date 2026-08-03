@@ -2,16 +2,19 @@
 id: b1-pradv-dd-023
 type: dropbox
 words:
-  - Erinnerst
+  - Kümmerst
   - du
   - dich
-  - an
+  - um
   - die
-  - Vorlesung
+  - Patienten
+  - —
   - Ich
-  - erinnere
+  - kümmere
   - mich
-  - daran
+  - darum
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — daran (Erinnerung))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

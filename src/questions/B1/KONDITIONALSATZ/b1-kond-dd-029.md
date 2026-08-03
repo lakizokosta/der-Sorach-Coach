@@ -2,13 +2,14 @@
 id: b1-kond-dd-029
 type: dropbox
 words:
-  - Falls
-  - der
-  - Termin
-  - ausfällt
-  - informiere
-  - ich
-  - dich
+  - Wenn
+  - du
+  - pünktlich
+  - bist
+  - beginnen
+  - wir
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls der Termin ausfällt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

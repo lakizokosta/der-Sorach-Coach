@@ -2,14 +2,14 @@
 id: b1-adj-dd-031
 type: dropbox
 words:
-  - Das
-  - ist
-  - ein
-  - wichtiges
-  - Thema
-  - in
-  - der
-  - Politik
+  - In
+  - einem
+  - modernen
+  - Büro
+  - arbeiten
+  - viele
+  - junge
+  - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — guten Rat)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

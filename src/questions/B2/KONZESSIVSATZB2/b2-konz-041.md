@@ -2,11 +2,11 @@
 id: b2-konz-041
 type: select-one
 options:
-  - Damit
+  - Wenngleich
   - Obwohl
-  - Dass
-  - Weil
+  - Damit
+  - Obgleich
 correct: Obwohl
 ---
 
-___, obwohl er müde war, leitete er die Sitzung. (Konzessivsatz)
+___ er müde war, leitete er die Sitzung. (Konzessivsatz)

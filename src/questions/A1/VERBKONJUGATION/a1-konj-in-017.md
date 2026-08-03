@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-017
 type: input-text
+hint: Präsens + Verb schreiben
 correct:
   - schreibst
 ---
 
-Du ___ einen Brief. (Präsens + Verb schreiben)
+Ergänze die Präsensform des Verbs:
+
+Du ___ einen Brief.

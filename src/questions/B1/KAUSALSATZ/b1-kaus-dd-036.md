@@ -2,13 +2,17 @@
 id: b1-kaus-dd-036
 type: dropbox
 words:
-  - Weil
-  - er
-  - fleißig
-  - war
-  - bestand
-  - seine
-  - Prüfung
+  - Sie
+  - kündigt
+  - weil
+  - sie
+  - eine
+  - bessere
+  - Stelle
+  - gefunden
+  - hat
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil gelernt hat)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

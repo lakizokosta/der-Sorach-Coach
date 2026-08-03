@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-025
 type: input-text
+hint: dessen
 correct:
   - dessen
 ---
 
-Der Mann, ___ Auto dort steht, ist mein Nachbar. (Relativpronomen)
+Ergänze das Relativpronomen:
+
+Der Mann, ___ Auto dort steht, ist mein Nachbar.

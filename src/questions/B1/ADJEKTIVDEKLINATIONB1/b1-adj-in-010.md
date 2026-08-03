@@ -1,8 +1,11 @@
 ---
 id: b1-adj-in-010
 type: input-text
+hint: Adjektivdeklination — neu, mask., Dat.
 correct:
   - neuen
 ---
 
-Wir sprechen mit einem ___ Professor über das Projekt. (Adj. — neu, mask., Dat.)
+Ergänze die Adjektivendung:
+
+Wir sprechen mit einem ___ Professor über das Projekt.

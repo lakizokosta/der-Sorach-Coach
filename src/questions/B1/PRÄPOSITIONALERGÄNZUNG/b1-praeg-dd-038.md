@@ -2,12 +2,11 @@
 id: b1-praeg-dd-038
 type: dropbox
 words:
-  - Sie
-  - freut
-  - sich
+  - Wir
+  - hoffen
   - auf
-  - die
-  - Reise
+  - gutes
+  - Wetter
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — freut auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

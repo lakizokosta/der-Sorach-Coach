@@ -5,4 +5,6 @@ correct:
   - wird
 ---
 
-Die Partei ___ (werden) bei der Wahl zulegen. (Futur + Verb werden)
+Ergänze die Futurform:
+
+Die Partei ___ (werden) bei der Wahl zulegen.

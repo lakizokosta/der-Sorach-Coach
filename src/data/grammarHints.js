@@ -272,6 +272,11 @@ export const GRAMMAR_HINTS = {
     RU: 'Куда? nach (без артикля), in (с артиклем), zu (люди/учреждения). Где? bei. Откуда? aus, von.',
     EN: 'Where to? nach, in, zu. Where? bei. Where from? aus, von.',
   },
+  LOKALEPRÄPOSITIONENB2: {
+    DE: 'Wo? am/an der, im/in der. Wohin? auf die, vor das. Wo? außerhalb/innerhalb + Genitiv. Richtung: hinauf, entlang, herum (Akk.).',
+    RU: 'Wo? am/an der. Wohin? auf die. außerhalb/innerhalb + Genitiv. hinauf, entlang, um … herum (Akk.).',
+    EN: 'Wo? am/an der. Wohin? auf die. außerhalb/innerhalb + genitive. hinauf, entlang, um … herum (acc.).',
+  },
   NOMENPRÄPOSITIONVERBINDUNGB1: {
     DE: 'Interesse an, Angst vor, Freude über, Einfluss auf, Reaktion auf, Meinung zu, Beziehung zu, Kritik an, Wunsch nach.',
     RU: 'Interesse an, Angst vor, Freude über, Einfluss auf, Reaktion auf, Meinung zu.',
@@ -301,11 +306,6 @@ export const GRAMMAR_HINTS = {
     DE: 'Untrennbare Präfixe: be-, er-, ver-, zer-, ent-, ge-, miss-. Trennbare: an-, auf-, aus-, ein-. Betonung entscheidet bei gleicher Vorsilbe.',
     RU: 'Неотделяемые: be-, er-, ver-, zer-, ent-, ge-, miss-. Отделяемые: an-, auf-, aus-, ein-.',
     EN: 'Non-separable: be-, er-, ver-, zer-, ent-, ge-, miss-. Separable: an-, auf-, aus-, ein-.',
-  },
-  VERBPRÄPOSITIONVERBINDUNG: {
-    DE: 'denken an, warten auf, sich interessieren für, sich freuen über/auf, sich ärgern über, antworten auf, teilnehmen an.',
-    RU: 'denken an, warten auf, sich interessieren für, sich freuen über, sich ärgern über, antworten auf.',
-    EN: 'denken an, warten auf, sich interessieren für, sich freuen über, sich ärgern über, antworten auf.',
   },
   VERNEINUNG: {
     DE: 'nicht: Verben, Adjektive, Adverbien, Präpositionalgruppen. kein: Nomen. Keine doppelte Verneinung! nicht müssen ≠ darf nicht.',

@@ -1,8 +1,11 @@
 ---
 id: b1-poss-in-010
 type: input-text
+hint: Possessivartikel — er, Gen.
 correct:
-  - des
+  - seines
 ---
 
-Das ist die Entscheidung ___ Ministers. (Possessivartikelform)
+Ergänze den Possessivartikel:
+
+Das ist die Entscheidung ___ Ministers.

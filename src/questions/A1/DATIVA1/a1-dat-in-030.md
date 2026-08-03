@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-030
 type: input-text
+hint: Dativ — der Patient, Dat.
 correct:
-  - dem Patienten
+  - dem
 ---
 
-Der Arzt hilft ___ Patient. (Dativ — der Patient, Dat.)
+Ergänze die Dativform:
+
+Der Arzt hilft ___ Patienten.

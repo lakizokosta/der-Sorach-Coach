@@ -1,8 +1,11 @@
 ---
 id: b1-indfr-in-039
 type: input-text
+hint: Indirekte Frage — dass / denn / ob / weil
 correct:
   - ob
 ---
 
-Kannst du prüfen, ___ das Medikament verfügbar ist? (Indirekte Frage)
+Ergänze das Fragewort (indirekte Frage):
+
+Kannst du prüfen, ___ das Medikament verfügbar ist?

@@ -1,8 +1,14 @@
 ---
 id: b1-kaus-in-020
 type: input-text
+hint: Kausalsatz — weil/da
 correct:
+  - da
   - Da
+  - weil
+  - Weil
 ---
 
-___ die Nachfrage steigt, werden die Preise höher. (Kausalsatz)
+Ergänze die Konjunktion (Kausal):
+
+___ die Nachfrage steigt, werden die Preise höher.

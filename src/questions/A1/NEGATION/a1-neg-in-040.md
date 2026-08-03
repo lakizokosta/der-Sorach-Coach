@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-040
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Ich bin ___ krank. (Negation)
+Ergänze die Verneinung:
+
+Ich bin ___ krank.

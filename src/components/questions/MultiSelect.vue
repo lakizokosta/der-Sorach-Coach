@@ -18,6 +18,7 @@
 import { computed, onMounted, ref } from 'vue';
 import { shuffle } from '@/utils/random.js';
 import { wrapWordsForDictionary } from '@/utils/dictionary.js';
+import { stripTrailingPromptHint } from '@/utils/markdownQuestion.js';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -34,11 +35,10 @@ onMounted(() => {
   shuffled.value = shuffle((props.question.options || []).slice());
 });
 
-const renderedPrompt = computed(() =>
-  props.premium
-    ? wrapWordsForDictionary(props.question.prompt || '')
-    : props.question.prompt || '',
-);
+const renderedPrompt = computed(() => {
+  const prompt = stripTrailingPromptHint(props.question.prompt || '');
+  return props.premium ? wrapWordsForDictionary(prompt) : prompt;
+});
 
 const correctSet = computed(() => new Set(props.question.correct || []));
 

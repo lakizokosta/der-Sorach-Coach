@@ -1,8 +1,11 @@
 ---
 id: b1-pradv-in-013
 type: input-text
+hint: Pronominaladverb — Präp. auf
 correct:
-  - daran teil
+  - darauf
 ---
 
-Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+Ergänze das Pronominaladverb:
+
+Hörst du auf gute Ratschläge? — Ich höre ___.

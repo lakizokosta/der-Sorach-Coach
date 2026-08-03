@@ -2,10 +2,13 @@
 id: b1-lass-dd-045
 type: dropbox
 words:
-  - Er
-  - lässt
-  - sich
-  - impfen
+  - Ich
+  - lasse
+  - mich
+  - nicht
+  - unter
+  - Druck
+  - setzen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb setzen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

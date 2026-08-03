@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-031
 type: input-text
+hint: Possessivartikel — ihr, mask., Akk.
 correct:
   - euren
 ---
 
-Wir feiern ___ Geburtstag. (Possessivartikel — ihr, mask., Akk.)
+Ergänze den Possessivartikel:
+
+Wir feiern ___ Geburtstag.

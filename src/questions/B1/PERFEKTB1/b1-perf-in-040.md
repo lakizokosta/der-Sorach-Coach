@@ -1,8 +1,11 @@
 ---
 id: b1-perf-in-040
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - haben
 ---
 
-Die Politiker ___ eine Einigung erzielt. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Die Politiker ___ eine Einigung erzielt.

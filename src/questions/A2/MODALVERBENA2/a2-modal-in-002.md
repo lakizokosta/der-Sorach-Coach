@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-002
 type: input-text
+hint: Modalverb + Verb müssen
 correct:
   - muss
 ---
 
-Ich ___ heute nicht arbeiten. (Modalverb + Verb müssen)
+Ergänze die Modalverbform:
+
+Ich ___ heute nicht arbeiten.

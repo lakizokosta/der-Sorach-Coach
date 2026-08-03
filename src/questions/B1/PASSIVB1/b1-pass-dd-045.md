@@ -2,13 +2,11 @@
 id: b1-pass-dd-045
 type: dropbox
 words:
-  - Die
-  - Ergebnisse
-  - werden
-  - nächste
-  - Woche
-  - bekannt
-  - gegeben
+  - Der
+  - Vertrag
+  - wurde
+  - gestern
+  - unterzeichnet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb unterzeichneen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

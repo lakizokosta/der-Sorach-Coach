@@ -2,13 +2,15 @@
 id: b1-kaus-dd-022
 type: dropbox
 words:
-  - Da
-  - die
-  - Nachfrage
-  - steigt
-  - werden
-  - Preise
-  - höher
+  - Das
+  - Flugzeug
+  - hat
+  - Verspätung
+  - weil
+  - es
+  - stürmt
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Nachfrage steigt)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

@@ -4,12 +4,10 @@ type: dropbox
 words:
   - Sie
   - hat
-  - Lust
-  - auf
-  - einer
-  - Reise
-  - nach
-  - Spanien
+  - Freude
+  - an
+  - ihrer
+  - Arbeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Lust auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

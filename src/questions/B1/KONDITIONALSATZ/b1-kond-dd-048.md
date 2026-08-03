@@ -2,12 +2,15 @@
 id: b1-kond-dd-048
 type: dropbox
 words:
-  - Wenn
-  - du
-  - pünktlich
-  - bist
-  - beginnen
+  - Sobald
+  - der
+  - Zug
+  - ankommt
+  - fahren
   - wir
+  - los
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du pünktlich bist)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

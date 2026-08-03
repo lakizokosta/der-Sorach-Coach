@@ -2,11 +2,11 @@
 id: b1-pass-dd-049
 type: dropbox
 words:
-  - Der
-  - Vertrag
-  - wurde
-  - gestern
-  - unterzeichnet
+  - Das
+  - Projekt
+  - wird
+  - gerade
+  - diskutiert
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb diskutiieren)
+Ordne die Wörter zum richtigen Satz: (Passiv)

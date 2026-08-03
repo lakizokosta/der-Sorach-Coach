@@ -1,8 +1,11 @@
 ---
 id: b1-lass-in-039
 type: input-text
+hint: lassen + Verb lesen
 correct:
   - lässt
 ---
 
-Sie ___ den Bericht Korrektur lesen. (lassen + Verb lesen)
+Ergänze die lassen-Form:
+
+Sie ___ den Bericht Korrektur lesen.

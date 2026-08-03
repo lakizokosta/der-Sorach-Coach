@@ -2,15 +2,13 @@
 id: b1-adj-dd-030
 type: dropbox
 words:
-  - In
-  - einer
-  - ruhigen
-  - Gegend
-  - der
-  - Stadt
-  - wohnt
-  - die
-  - Familie
+  - Sie
+  - reist
+  - mit
+  - kleinem
+  - Gepäck
+  - nach
+  - Italien
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — ruhigen Gegend)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

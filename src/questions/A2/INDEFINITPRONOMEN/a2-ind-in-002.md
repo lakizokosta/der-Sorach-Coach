@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-002
 type: input-text
+hint: Indefinitpronomen — Verneinung Person = niemand
 correct:
   - niemand
 ---
 
-Hier ist ___ zu Hause. (Indefinitpronomen — Verneinung)
+Ergänze das Indefinitpronomen:
+
+Hier ist ___ zu Hause.

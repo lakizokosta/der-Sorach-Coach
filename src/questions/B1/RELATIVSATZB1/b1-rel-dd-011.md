@@ -9,6 +9,9 @@ words:
   - vertraue
   - ist
   - erfahren
+commas:
+  - 1
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — dem ich vertraue)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

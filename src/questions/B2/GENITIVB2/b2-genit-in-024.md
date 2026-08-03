@@ -5,4 +5,6 @@ correct:
   - vieler
 ---
 
-Statt ___ (viel) Worte handelte er sofort. (Genitivform)
+Ergänze die Genitivform:
+
+Statt ___ (viel) Worte handelte er sofort.

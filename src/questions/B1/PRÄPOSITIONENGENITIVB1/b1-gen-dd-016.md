@@ -12,4 +12,4 @@ words:
   - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Krankheit)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

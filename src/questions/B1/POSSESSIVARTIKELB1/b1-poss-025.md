@@ -2,11 +2,11 @@
 id: b1-poss-025
 type: select-one
 options:
-  - dem
-  - der
-  - des
-  - das
-correct: des
+  - seine
+  - sein
+  - seines
+  - seinem
+correct: seines
 ---
 
 Das ist die Entscheidung ___ Ministers. (Possessivartikelform)

@@ -1,8 +1,14 @@
 ---
 id: b1-kond-in-021
 type: input-text
+hint: Konditionalsatz — wenn/falls
 correct:
+  - wenn
+  - Wenn
+  - falls
   - Falls
 ---
 
-___ du Fragen hast, schreib mir. (Konditionalsatz — wenn)
+Ergänze die Konjunktion (Konditional):
+
+___ du Fragen hast, schreib mir.

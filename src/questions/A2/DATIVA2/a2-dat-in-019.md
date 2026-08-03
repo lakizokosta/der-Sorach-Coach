@@ -1,8 +1,11 @@
 ---
 id: a2-dat-in-019
 type: input-text
+hint: Dativ — das Kind
 correct:
   - dem
 ---
 
-Er hilft ___ Kind beim Formular. (Dativ — das Kind)
+Ergänze die Dativform:
+
+Er hilft ___ Kind beim Formular.

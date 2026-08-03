@@ -2,14 +2,17 @@
 id: b1-pradv-dd-024
 type: dropbox
 words:
-  - Wartest
+  - Ärgerst
   - du
-  - auf
+  - dich
+  - über
   - die
-  - Ergebnisse
+  - Nachricht
+  - —
   - Ich
-  - warte
-  - darauf
+  - ärgere
+  - mich
+  - darüber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Warten))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

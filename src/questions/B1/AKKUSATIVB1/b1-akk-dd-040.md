@@ -2,11 +2,12 @@
 id: b1-akk-dd-040
 type: dropbox
 words:
-  - Die
-  - Ärztin
-  - verschreibt
+  - Sie
+  - reserviert
   - ein
-  - Medikament
+  - Zimmer
+  - im
+  - Hotel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Medikament)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-016
 type: input-text
+hint: Gegenteil von hoch
 correct:
   - niedrig
 ---
 
-Der Berg ist hoch, das Tal ist ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Der Berg ist hoch, das Tal ist ___.

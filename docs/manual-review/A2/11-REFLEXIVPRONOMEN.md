@@ -46,13 +46,13 @@
 ### 3. `a2-refl-002` · select-one
 
 **Aufgabe:**
-> Er ___ sich für die Prüfung. (Reflexiv + Verb freuen)
+> Er ___ sich für Musik. (Reflexiv + Verb interessieren)
 
 **Optionen:**
-- freue
-- gefreet
-- freut **✓**
-- freust
+- interessiert **✓**
+- interessiere
+- interessierst
+- interessieren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -256,13 +256,13 @@
 ### 18. `a2-refl-017` · select-one
 
 **Aufgabe:**
-> Er ___ sich für die Prüfung. (Reflexiv + Verb freuen)
+> Er ___ sich für Musik. (Reflexiv + Verb interessieren)
 
 **Optionen:**
-- freuen
-- gefreet
-- freust
-- freut **✓**
+- interessiere
+- interessieren
+- interessiert **✓**
+- interessierst
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -466,13 +466,13 @@
 ### 33. `a2-refl-032` · select-one
 
 **Aufgabe:**
-> Er ___ sich für die Prüfung. (Reflexiv + Verb freuen)
+> Er ___ sich für Musik. (Reflexiv + Verb interessieren)
 
 **Optionen:**
-- freuen
-- freut **✓**
-- freue
-- gefreet
+- interessiert **✓**
+- interessieren
+- interessierst
+- interessiere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -676,13 +676,13 @@
 ### 48. `a2-refl-047` · select-one
 
 **Aufgabe:**
-> Er ___ sich für die Prüfung. (Reflexiv + Verb freuen)
+> Er ___ sich für Musik. (Reflexiv + Verb interessieren)
 
 **Optionen:**
-- freuen
-- freue
-- freut **✓**
-- freust
+- interessiere
+- interessierst
+- interessieren
+- interessiert **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1338,7 +1338,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb sehen)
 
-**Wörter:** Wir · sehen · uns · jeden · Tag · nach · der · Arbeit
+**Wörter:** Wir · sehen · uns · jeden · Tag · im · Büro
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1508,7 +1508,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb sehen)
 
-**Wörter:** Wir · sehen · uns · jeden · Tag · nach · der · Arbeit
+**Wörter:** Wir · sehen · uns · jeden · Tag · im · Büro
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1678,7 +1678,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb sehen)
 
-**Wörter:** Wir · sehen · uns · jeden · Tag · nach · der · Arbeit
+**Wörter:** Wir · sehen · uns · jeden · Tag · im · Büro
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

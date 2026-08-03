@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-011
 type: input-text
+hint: Gegenteil von fröhlich
 correct:
   - traurig
 ---
 
-Heute bin ich fröhlich, gestern war ich ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Heute bin ich fröhlich, gestern war ich ___.

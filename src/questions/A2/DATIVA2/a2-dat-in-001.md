@@ -1,8 +1,11 @@
 ---
 id: a2-dat-in-001
 type: input-text
+hint: Dativ — die Freundin
 correct:
   - der
 ---
 
-Ich antworte ___ Freundin. (Dativ — die Freundin)
+Ergänze die Dativform:
+
+Ich antworte ___ Freundin.

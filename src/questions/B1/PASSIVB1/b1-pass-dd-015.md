@@ -9,4 +9,4 @@ words:
   - unterzeichnet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb unterzeichneen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

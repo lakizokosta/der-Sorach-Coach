@@ -13,4 +13,4 @@ words:
   - Reisen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Kosten)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

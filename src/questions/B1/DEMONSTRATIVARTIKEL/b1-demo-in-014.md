@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-014
 type: input-text
+hint: Demonstrativartikel — fem./Pl., Nom./Akk.
 correct:
   - Diese
 ---
 
-___ Vorlesung war interessanter als die andere. (Demonstrativartikel)
+Ergänze den Demonstrativartikel:
+
+___ Vorlesung war interessanter als die andere.

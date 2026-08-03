@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-033
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
   - auf
 ---
 
-Ich freue mich ___ das Fest. (Feste Präpositionen)
+Ergänze die feste Präposition:
+
+Ich freue mich ___ das Fest.

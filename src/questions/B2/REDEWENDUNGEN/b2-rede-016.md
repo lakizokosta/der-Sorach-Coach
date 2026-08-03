@@ -9,4 +9,4 @@ options:
 correct: gesprungen
 ---
 
-Er ist ins kalte Wasser ___ . (Redewendung)
+Er ist ins kalte Wasser ___ . (Grammatikform)

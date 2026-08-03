@@ -2,14 +2,15 @@
 id: b1-indfr-dd-028
 type: dropbox
 words:
-  - Ich
-  - bin
-  - gespannt
-  - wie
-  - lange
-  - die
-  - Reise
-  - dauert
+  - Niemand
+  - weiß
+  - ob
+  - das
+  - Problem
+  - gelöst
+  - wird
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie lange Reise dauert)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

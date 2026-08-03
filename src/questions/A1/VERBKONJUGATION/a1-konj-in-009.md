@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-009
 type: input-text
+hint: Präsens + Verb lernen
 correct:
   - lernst
 ---
 
-Du ___ fleißig Deutsch. (Präsens + Verb lernen)
+Ergänze die Präsensform des Verbs:
+
+Du ___ fleißig Deutsch.

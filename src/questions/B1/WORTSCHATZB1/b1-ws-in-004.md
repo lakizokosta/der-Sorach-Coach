@@ -1,8 +1,11 @@
 ---
 id: b1-ws-in-004
 type: input-text
+hint: Wortschatz — Ausstoß / Ausstoßer / Ausstoßment / Ausstoßung
 correct:
   - Ausstoß
 ---
 
-Wir müssen den ___ senken, um die Umwelt zu schützen. (Wortschatz B1)
+Ergänze das passende Wort:
+
+Wir müssen den ___ senken, um die Umwelt zu schützen.

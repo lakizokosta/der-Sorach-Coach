@@ -1,8 +1,11 @@
 ---
 id: b1-perf-in-038
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - hat
 ---
 
-Sie ___ sich beim Sport verletzt. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Sie ___ sich beim Sport verletzt.

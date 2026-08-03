@@ -8,6 +8,11 @@ import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from '
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseVerbLemmaFromInner, verbFormHint } from './topic-context-hints.mjs';
+import {
+  buildInputTextPrompt,
+  extractParentheticalHint,
+  taskInstruction,
+} from './input-text-prompt-shared.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
 
@@ -67,7 +72,6 @@ const TOPIC_LABEL = {
   PRÄPOSITIONALERGÄNZUNG: 'Präpositionalergänzung',
   PRÄPOSITIONALADVERBIEN: 'Pronominaladverb',
   POSSESSIVARTIKELB1: 'Possessivartikel',
-  VERBPRÄPOSITIONVERBINDUNG: 'Verb + Präposition',
   VERNEINUNG: 'Verneinung',
   VERBNOMENVERBINDUNGB1: 'Verb-Nomen-Verbindung',
   VERBLASSEN: 'Verben lassen',
@@ -75,6 +79,7 @@ const TOPIC_LABEL = {
   AKKUSATIVB1: 'Akkusativ',
   DEMONSTRATIVARTIKEL: 'Demonstrativartikel',
   LOKALEPRÄPOSITIONENB1: 'Lokale Präposition',
+  LOKALEPRÄPOSITIONENB2: 'Lokale Präposition',
   NOMENPRÄPOSITIONVERBINDUNGB1: 'Nomen-Präposition',
   PERFEKTB1: 'Perfekt',
   PRÄPOSITIONENB1: 'Präposition',
@@ -106,11 +111,19 @@ function hintLeaksAnswer(inner, correct) {
   return false;
 }
 
-/** @param {string} inner */
+/**
+ * Methodological rule for input-text:
+ *   The hint MUST give the learner enough info to derive the answer:
+ *   verb lemma, adjective stem, noun lemma, person, gender/case, etc.
+ *   We never drop lemmata; we only normalize the wrapper label.
+ *
+ *   For lexical/categorical answers (functional words, particles) the
+ *   raw inner from the bank already encodes the needed info.
+ * @param {string} inner
+ */
 export function transformHint(inner, topic, correct, options = [], body = '', id = '') {
   if (topic === 'NEGATION') return 'Negation';
-  if (topic === 'GEGENTEILE') return 'Gegenteile';
-  if (topic === 'PLURAL') return 'Plural';
+  if (topic === 'GEGENTEILE') return inner && /\(/.test(inner) ? inner : (inner || 'Gegenteil');
   if (topic === 'W-FRAGEN') return inner;
 
   // Antwortpartikel — keep subtype only
@@ -119,52 +132,37 @@ export function transformHint(inner, topic, correct, options = [], body = '', id
     return sub && sub !== 'Antwortpartikel' ? `Antwortpartikel — ${sub}` : 'Antwortpartikel';
   }
 
-  // Possessiv: person (ich/du/er …) is required — it does not leak the ending.
+  // Possessiv: person (ich/du/er …) is the required cue, keep verbatim.
   if (topic === 'POSSESSIVARTIKEL' || topic === 'POSSESSIVARTIKELA2' || topic === 'POSSESSIVARTIKELB1') {
     let rest = inner.replace(/^Possessiv(?:artikel)?\s*—\s*/i, '').trim();
     if (!rest) rest = inner.replace(/^Possessiv\s*—\s*/i, '').trim();
-    const parts = rest.split(',').map((s) => s.trim());
-    if (parts.length && PERSON_MARK.test(parts[0])) {
-      return `Possessivartikel — ${parts.join(', ')}`;
-    }
     return rest ? `Possessivartikel — ${rest}` : 'Possessivartikel';
   }
 
-  // Adjektivdeklination — drop adjective stem
-  if (topic === 'ADJEKTIVDEKLINATIONA1' || topic === 'ADJEKTIVDEKLINATIONA2') {
-    let rest = inner.replace(/^Adj\.?\s*—\s*|^Adjektivdeklination\s*—\s*/i, '').trim();
-    const parts = rest.split(',').map((s) => s.trim());
-    if (parts.length >= 2 && !CASE_MARK.test(parts[0]) && !/^ein\b/i.test(parts[0])) {
-      rest = parts.slice(1).join(', ');
-    }
+  // Adjektivdeklination — KEEP adjective stem. Without it, input-text is unguessable.
+  if (topic === 'ADJEKTIVDEKLINATIONA1' || topic === 'ADJEKTIVDEKLINATIONA2' || topic === 'ADJEKTIVDEKLINATIONB1') {
+    const rest = inner.replace(/^Adj\.?\s*—\s*|^Adjektivdeklination\s*—\s*/i, '').trim();
     return `Adjektivdeklination — ${rest}`;
   }
 
-  // Artikel — drop noun + article word
+  // Artikel — keep noun phrase (Artikel form depends on noun gender)
   if (topic === 'ARTIKEL') {
-    const nounPhrase = inner.match(
-      /^(?:(?:der|die|das|ein|eine|einen|kein|keine|keinen|keinem|keiner)\s+[^,]+),\s*(.+)$/i,
-    );
-    if (nounPhrase) return `Artikel — ${nounPhrase[1]}`;
     if (inner.startsWith('Artikel')) return inner;
-    return 'Artikel';
+    return inner ? `Artikel — ${inner}` : 'Artikel';
   }
 
-  // Akkusativ / Dativ — drop noun, keep case info
-  if (topic === 'AKKUSATIVA1' || topic === 'AKKUSATIVA2' || topic === 'DATIVA1' || topic === 'DATIVA2') {
-    const label = topic.startsWith('AKK') ? 'Akkusativ' : 'Dativ';
-    let rest = inner.replace(/^(?:Akkusativ|Dativ|Possessiv)\s*—\s*/i, '').trim();
-    const noun = rest.match(/^(?:(?:der|die|das|den|dem|des|ein|eine|einen|kein|keine|keinen)\s+[^,]+),\s*(.+)$/i);
-    if (noun) rest = noun[1];
-    const parts = rest.split(',').map((s) => s.trim());
-    if (parts.length >= 2 && !CASE_MARK.test(parts[0]) && !PERSON_MARK.test(parts[0])) {
-      const art = parts[0].toLowerCase();
-      if (GENDER_FROM_ART[art]) rest = `${GENDER_FROM_ART[art]}, ${parts.slice(1).join(', ')}`;
-    }
-    if (parts.length && PERSON_MARK.test(parts[0])) {
-      rest = parts.slice(1).join(', ');
-    }
-    return `${label} — ${rest}`;
+  // Akkusativ / Dativ / Genitiv — keep all info from bank (incl. noun & case)
+  if (topic === 'AKKUSATIVA1' || topic === 'AKKUSATIVA2' || topic === 'AKKUSATIVB1') {
+    const rest = inner.replace(/^Akkusativ\s*(?:—\s*)?/i, '').trim();
+    return rest && rest.toLowerCase() !== 'akkusativ' ? `Akkusativ — ${rest}` : 'Akkusativ';
+  }
+  if (topic === 'DATIVA1' || topic === 'DATIVA2') {
+    const rest = inner.replace(/^Dativ\s*(?:—\s*)?/i, '').trim();
+    return rest && rest.toLowerCase() !== 'dativ' ? `Dativ — ${rest}` : 'Dativ';
+  }
+  if (topic === 'GENITIVA2' || topic === 'GENITIVB2') {
+    const rest = inner.replace(/^Genitiv(?:form)?\s*(?:—\s*)?/i, '').trim();
+    return rest && rest.toLowerCase() !== 'genitiv' ? `Genitiv — ${rest}` : 'Genitiv';
   }
 
   // Verb — Präsens + Verb (not person)
@@ -173,45 +171,40 @@ export function transformHint(inner, topic, correct, options = [], body = '', id
     if (hint) return hint;
   }
 
-  // Wechselpräpositionen — drop example preposition
+  // Wechselpräpositionen — Wo?/Wohin? cue is the canonical hint.
   if (topic === 'WECHSELPRÄPOSITIONEN' || topic === 'WECHSELPRÄPOSITIONENA2') {
     const wo = inner.match(/(Wo\?|Wohin\?|Ort|Bewegung)/i);
     if (wo) return `Wechselpräpositionen — ${wo[0]}`;
-    return 'Wechselpräpositionen';
+    return inner || 'Wechselpräpositionen';
   }
 
-  if (['PRÄTERITUMA2', 'PERFEKTA2', 'PERFEKTB1', 'MODALVERBENA2', 'REFLEXIVPRONOMEN', 'TRENNBAREVERBEN', 'TRENNBAREVERBENB1', 'PASSIVB1', 'PASSIVB2', 'KONJUNKTIV2', 'KONJUNKTIV2B2', 'FUTURI', 'VERBLASSEN'].includes(topic)) {
+  if (['PRÄTERITUMA2', 'PERFEKTA2', 'PERFEKTB1', 'MODALVERBENA2', 'REFLEXIVPRONOMEN', 'TRENNBAREVERBEN', 'TRENNBAREVERBENB1', 'PASSIVB1', 'PASSIVB2', 'KONJUNKTIV2', 'KONJUNKTIV2B2', 'FUTURI', 'VERBLASSEN', 'PASSIVERSATZ', 'PARTIZIP1', 'PARTIZIP2', 'INDIREKTEREDE'].includes(topic)) {
     let hint = verbFormHint(topic, inner, correct, options, body, id);
     if (topic === 'REFLEXIVPRONOMEN' && (!hint?.includes('+ Verb'))) {
       hint = verbFormHint(topic, '', correct, options, body, id);
     }
-    if (hint) return hint;
+    if (hint && hint !== 'Grammatikform') return hint;
   }
 
-  // Superlativ — drop adjective stem
+  // Superlativ / Komparativ — KEEP adjective stem.
   if (topic === 'SUPERLATIVA2' || /^Superlativ\s*—/i.test(inner)) {
-    let rest = inner.replace(/^Superlativ\s*—\s*/i, '').trim();
-    const parts = rest.split(',').map((s) => s.trim());
-    if (parts.length >= 2 && !CASE_MARK.test(parts[0]) && !/^am\b/i.test(parts[0])) {
-      rest = parts.slice(1).join(', ');
-    }
-    return `Superlativ — ${rest}`;
+    const rest = inner.replace(/^Superlativ\s*—\s*/i, '').trim();
+    return rest ? `Superlativ — ${rest}` : 'Superlativ';
+  }
+  if (topic === 'KOMPARATIVA2' || /^Komparativ\s*—/i.test(inner)) {
+    const rest = inner.replace(/^Komparativ\s*—\s*/i, '').trim();
+    return rest ? `Komparativ — ${rest}` : 'Komparativ';
   }
 
-  // N-Deklination — drop noun lemma
+  // N-Deklination — KEEP noun lemma & case info.
   if (topic === 'N-DEKLINATION' || /^N-Deklination\s*—/i.test(inner)) {
-    let rest = inner.replace(/^N-Deklination\s*—\s*/i, '').trim();
-    const parts = rest.split(',').map((s) => s.trim());
-    if (parts.length === 2 && !/^(Dativ|Genitiv|Akk|Nom)/i.test(parts[0])) {
-      return `N-Deklination — ${parts[1]}`;
-    }
-    return inner.startsWith('N-Deklination') ? inner : `N-Deklination — ${rest}`;
+    const rest = inner.replace(/^N-Deklination\s*—\s*/i, '').trim();
+    return rest ? `N-Deklination — ${rest}` : 'N-Deklination';
   }
 
-  // Konjunktion, Genitiv, etc. — keep if no leak
-  if (!hintLeaksAnswer(inner, correct)) return inner;
-
-  return TOPIC_LABEL[topic] || inner.split(' — ')[0] || topic;
+  // Default — keep inner as-is when it carries any info.
+  if (inner && inner.trim()) return inner;
+  return TOPIC_LABEL[topic] || topic;
 }
 
 function parseListBlock(fm, key) {
@@ -259,22 +252,49 @@ if (isMain) {
     if (!parsed || parsed.type !== 'input-text') continue;
     scanned += 1;
 
-    const lines = parsed.body.split('\n');
-    const lastIdx = lines.length - 1;
-    const line = lines[lastIdx];
-    const hintMatch = line.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
-    if (!hintMatch) continue;
+    const body = parsed.body.trimEnd();
+    const lines = body.split('\n');
+    const hasInstruction = lines.length > 1 && !lines[0].includes('___');
+    const hintLine = parsed.fm.match(/^hint:\s*(.+)$/m)?.[1]?.trim() || '';
 
-    const sentence = hintMatch[1].trimEnd();
-    const oldInner = hintMatch[2];
+    let sentence;
+    let inner = '';
+    if (hasInstruction) {
+      const sentenceLine = lines.find((l) => l.includes('___')) || lines[lines.length - 1];
+      sentence = sentenceLine.trim();
+      const hintMatch = sentence.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
+      if (hintMatch) {
+        sentence = hintMatch[1].trimEnd();
+        inner = hintMatch[2].trim();
+      }
+    } else {
+      const hintMatch = body.match(/^([\s\S]*?)\s*\(([^)]*)\)\s*$/);
+      if (!hintMatch && hintLine) continue;
+      if (hintMatch) {
+        sentence = hintMatch[1].trimEnd();
+        inner = hintMatch[2].trim();
+      } else {
+        sentence = body;
+      }
+    }
+
     const options = siblingSelectOneOptions(full, parsed.id);
-    const newInner = transformHint(oldInner, topic, parsed.correct, options, parsed.body, parsed.id);
+    const newHint = inner
+      ? transformHint(inner, topic, parsed.correct, options, body, parsed.id)
+      : hintLine;
+    const instruction = taskInstruction(topic);
+    const { prompt: newBody } = buildInputTextPrompt({
+      topic,
+      rawPrompt: sentence,
+      hint: newHint,
+    });
 
-    if (newInner === oldInner && !hintLeaksAnswer(oldInner, parsed.correct)) continue;
+    if (newBody === body && hintLine === newHint) continue;
 
-    lines[lastIdx] = `${sentence} (${newInner})`;
-    const newBody = `${lines.join('\n')}\n`;
-    writeFileSync(full, `---\n${parsed.fm}\n---\n\n${newBody}`, 'utf8');
+    const hintFm = newHint ? `hint: ${newHint}\n` : '';
+    const correctBlock = parsed.correct.map((c) => `  - ${c}`).join('\n');
+    const newFile = `---\nid: ${parsed.id}\ntype: input-text\n${hintFm}correct:\n${correctBlock}\n---\n\n${newBody}\n`;
+    writeFileSync(full, newFile, 'utf8');
     changed += 1;
   }
 

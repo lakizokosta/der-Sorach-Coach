@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-001
 type: input-text
+hint: Nomen-Präp. — Interesse
 correct:
   - an
 ---
 
-Ich habe Interesse ___ Kunst. (Nomen-Präp. — Interesse)
+Ergänze die passende Präposition:
+
+Ich habe Interesse ___ Kunst.

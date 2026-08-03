@@ -5,4 +5,6 @@ correct:
   - wird
 ---
 
-Er ___ (werden) wohl nicht mehr kommen. (Futur + Verb werden)
+Ergänze die Futurform:
+
+Er ___ (werden) wohl nicht mehr kommen.

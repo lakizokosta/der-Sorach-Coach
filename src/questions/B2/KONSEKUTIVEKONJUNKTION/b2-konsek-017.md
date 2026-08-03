@@ -2,11 +2,11 @@
 id: b2-konsek-017
 type: select-one
 options:
+  - damit
   - weil
   - obwohl
-  - wenn
-  - dass
-correct: dass
+  - sodass
+correct: sodass
 ---
 
-Sie lachte so laut, ___ alle aufblickten. (Konsekutivsatz)
+Es war so heiß, ___ die Schule ausfiel. (Konsekutivsatz)

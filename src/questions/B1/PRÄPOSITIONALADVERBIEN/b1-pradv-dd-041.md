@@ -2,14 +2,15 @@
 id: b1-pradv-dd-041
 type: dropbox
 words:
-  - Wartest
+  - Bestehst
   - du
   - auf
-  - die
-  - Ergebnisse
+  - deiner
+  - Meinung
+  - —
   - Ich
-  - warte
+  - bestehe
   - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Warten))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

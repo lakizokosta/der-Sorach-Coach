@@ -10,4 +10,4 @@ words:
   - Zukunft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — denkt an)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

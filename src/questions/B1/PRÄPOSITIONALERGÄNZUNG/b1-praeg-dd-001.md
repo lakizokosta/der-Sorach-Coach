@@ -11,4 +11,4 @@ words:
   - Personalabteilung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — warte auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

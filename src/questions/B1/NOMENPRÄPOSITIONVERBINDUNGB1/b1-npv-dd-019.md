@@ -2,12 +2,12 @@
 id: b1-npv-dd-019
 type: dropbox
 words:
-  - Er
+  - Die
+  - Firma
   - hat
-  - Angst
-  - vor
-  - der
-  - Operation
+  - Bedarf
+  - an
+  - Fachkräften
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Angst vor)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

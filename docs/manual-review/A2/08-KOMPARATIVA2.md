@@ -4,8 +4,8 @@
 |---|---|
 | **Topic-Key** | `KOMPARATIVA2` |
 | **Beschreibung** | größer, besser |
-| **Fragen gesamt** | 151 |
-| Auswahl (1 Antwort) | 51 |
+| **Fragen gesamt** | 150 |
+| Auswahl (1 Antwort) | 50 |
 | Eingabe | 50 |
 | Wörter ordnen | 50 |
 
@@ -13,7 +13,7 @@
 
 ---
 
-## Auswahl (1 Antwort) (51)
+## Auswahl (1 Antwort) (50)
 
 ### 1. `a2-komp-001` · select-one
 
@@ -29,21 +29,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 2. `a2-komp-1` · select-one
-
-**Aufgabe:**
-> Anna ist ___ als Tom. (Komparativform)
-
-**Optionen:**
-- größer **✓**
-- groß
-- am größten
-- gross
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 3. `a2-komp-002` · select-one
+### 2. `a2-komp-002` · select-one
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — gut)
@@ -57,7 +43,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 4. `a2-komp-003` · select-one
+### 3. `a2-komp-003` · select-one
 
 **Aufgabe:**
 > Heute ist es ___ als gestern. (Komparativ — viel)
@@ -71,7 +57,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 5. `a2-komp-004` · select-one
+### 4. `a2-komp-004` · select-one
 
 **Aufgabe:**
 > Ich mag Tee ___. (Komparativ — schnell)
@@ -85,7 +71,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 6. `a2-komp-005` · select-one
+### 5. `a2-komp-005` · select-one
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — gern)
@@ -99,7 +85,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 7. `a2-komp-006` · select-one
+### 6. `a2-komp-006` · select-one
 
 **Aufgabe:**
 > Mein Auto ist ___ als deins. (Komparativ — schön)
@@ -113,7 +99,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 8. `a2-komp-007` · select-one
+### 7. `a2-komp-007` · select-one
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — kalt)
@@ -127,7 +113,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 9. `a2-komp-008` · select-one
+### 8. `a2-komp-008` · select-one
 
 **Aufgabe:**
 > Heute ist es ___ als gestern. (Komparativ — teuer)
@@ -141,7 +127,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 10. `a2-komp-009` · select-one
+### 9. `a2-komp-009` · select-one
 
 **Aufgabe:**
 > Ich mag Tee ___. (Komparativ — billig)
@@ -155,7 +141,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 11. `a2-komp-010` · select-one
+### 10. `a2-komp-010` · select-one
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — hoch)
@@ -169,7 +155,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 12. `a2-komp-011` · select-one
+### 11. `a2-komp-011` · select-one
 
 **Aufgabe:**
 > Mein Auto ist ___ als deins. (Komparativ — nah)
@@ -183,7 +169,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 13. `a2-komp-012` · select-one
+### 12. `a2-komp-012` · select-one
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — elegant)
@@ -197,7 +183,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 14. `a2-komp-013` · select-one
+### 13. `a2-komp-013` · select-one
 
 **Aufgabe:**
 > Heute ist es ___ als gestern. (Komparativ — schnell)
@@ -211,7 +197,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 15. `a2-komp-014` · select-one
+### 14. `a2-komp-014` · select-one
 
 **Aufgabe:**
 > Ich mag Tee ___. (Komparativ — warm)
@@ -225,7 +211,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 16. `a2-komp-015` · select-one
+### 15. `a2-komp-015` · select-one
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — lang)
@@ -239,7 +225,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 17. `a2-komp-016` · select-one
+### 16. `a2-komp-016` · select-one
 
 **Aufgabe:**
 > Mein Auto ist ___ als deins. (Komparativ — schön)
@@ -253,7 +239,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 18. `a2-komp-017` · select-one
+### 17. `a2-komp-017` · select-one
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — stark)
@@ -267,7 +253,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 19. `a2-komp-018` · select-one
+### 18. `a2-komp-018` · select-one
 
 **Aufgabe:**
 > Heute ist es ___ als gestern. (Komparativ — groß)
@@ -281,7 +267,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 20. `a2-komp-019` · select-one
+### 19. `a2-komp-019` · select-one
 
 **Aufgabe:**
 > Ich mag Tee ___. (Komparativ — gut)
@@ -295,7 +281,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 21. `a2-komp-020` · select-one
+### 20. `a2-komp-020` · select-one
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — viel)
@@ -309,7 +295,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 22. `a2-komp-021` · select-one
+### 21. `a2-komp-021` · select-one
 
 **Aufgabe:**
 > Mein Auto ist ___ als deins. (Komparativ — schnell)
@@ -323,7 +309,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 23. `a2-komp-022` · select-one
+### 22. `a2-komp-022` · select-one
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — gern)
@@ -337,7 +323,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 24. `a2-komp-023` · select-one
+### 23. `a2-komp-023` · select-one
 
 **Aufgabe:**
 > Heute ist es ___ als gestern. (Komparativ — schön)
@@ -351,7 +337,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 25. `a2-komp-024` · select-one
+### 24. `a2-komp-024` · select-one
 
 **Aufgabe:**
 > Ich mag Tee ___. (Komparativ — kalt)
@@ -365,7 +351,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 26. `a2-komp-025` · select-one
+### 25. `a2-komp-025` · select-one
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — teuer)
@@ -379,7 +365,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 27. `a2-komp-026` · select-one
+### 26. `a2-komp-026` · select-one
 
 **Aufgabe:**
 > Mein Auto ist ___ als deins. (Komparativ — billig)
@@ -393,7 +379,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 28. `a2-komp-027` · select-one
+### 27. `a2-komp-027` · select-one
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — hoch)
@@ -407,7 +393,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 29. `a2-komp-028` · select-one
+### 28. `a2-komp-028` · select-one
 
 **Aufgabe:**
 > Heute ist es ___ als gestern. (Komparativ — nah)
@@ -421,7 +407,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 30. `a2-komp-029` · select-one
+### 29. `a2-komp-029` · select-one
 
 **Aufgabe:**
 > Ich mag Tee ___. (Komparativ — elegant)
@@ -435,7 +421,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 31. `a2-komp-030` · select-one
+### 30. `a2-komp-030` · select-one
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — schnell)
@@ -449,7 +435,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 32. `a2-komp-031` · select-one
+### 31. `a2-komp-031` · select-one
 
 **Aufgabe:**
 > Mein Auto ist ___ als deins. (Komparativ — warm)
@@ -463,7 +449,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 33. `a2-komp-032` · select-one
+### 32. `a2-komp-032` · select-one
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — lang)
@@ -477,7 +463,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 34. `a2-komp-033` · select-one
+### 33. `a2-komp-033` · select-one
 
 **Aufgabe:**
 > Heute ist es ___ als gestern. (Komparativ — schön)
@@ -491,7 +477,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 35. `a2-komp-034` · select-one
+### 34. `a2-komp-034` · select-one
 
 **Aufgabe:**
 > Ich mag Tee ___. (Komparativ — stark)
@@ -505,7 +491,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 36. `a2-komp-035` · select-one
+### 35. `a2-komp-035` · select-one
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — groß)
@@ -519,7 +505,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 37. `a2-komp-036` · select-one
+### 36. `a2-komp-036` · select-one
 
 **Aufgabe:**
 > Mein Auto ist ___ als deins. (Komparativ — gut)
@@ -533,7 +519,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 38. `a2-komp-037` · select-one
+### 37. `a2-komp-037` · select-one
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — viel)
@@ -547,7 +533,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 39. `a2-komp-038` · select-one
+### 38. `a2-komp-038` · select-one
 
 **Aufgabe:**
 > Heute ist es ___ als gestern. (Komparativ — schnell)
@@ -561,7 +547,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 40. `a2-komp-039` · select-one
+### 39. `a2-komp-039` · select-one
 
 **Aufgabe:**
 > Ich mag Tee ___. (Komparativ — gern)
@@ -575,7 +561,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 41. `a2-komp-040` · select-one
+### 40. `a2-komp-040` · select-one
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — schön)
@@ -589,7 +575,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 42. `a2-komp-041` · select-one
+### 41. `a2-komp-041` · select-one
 
 **Aufgabe:**
 > Mein Auto ist ___ als deins. (Komparativ — kalt)
@@ -603,7 +589,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 43. `a2-komp-042` · select-one
+### 42. `a2-komp-042` · select-one
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — teuer)
@@ -617,7 +603,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 44. `a2-komp-043` · select-one
+### 43. `a2-komp-043` · select-one
 
 **Aufgabe:**
 > Heute ist es ___ als gestern. (Komparativ — billig)
@@ -631,7 +617,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 45. `a2-komp-044` · select-one
+### 44. `a2-komp-044` · select-one
 
 **Aufgabe:**
 > Ich mag Tee ___. (Komparativ — hoch)
@@ -645,7 +631,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 46. `a2-komp-045` · select-one
+### 45. `a2-komp-045` · select-one
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — nah)
@@ -659,7 +645,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 47. `a2-komp-046` · select-one
+### 46. `a2-komp-046` · select-one
 
 **Aufgabe:**
 > Mein Auto ist ___ als deins. (Komparativ — elegant)
@@ -673,7 +659,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 48. `a2-komp-047` · select-one
+### 47. `a2-komp-047` · select-one
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — schnell)
@@ -687,7 +673,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 49. `a2-komp-048` · select-one
+### 48. `a2-komp-048` · select-one
 
 **Aufgabe:**
 > Heute ist es ___ als gestern. (Komparativ — warm)
@@ -701,7 +687,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 50. `a2-komp-049` · select-one
+### 49. `a2-komp-049` · select-one
 
 **Aufgabe:**
 > Ich mag Tee ___. (Komparativ — lang)
@@ -715,7 +701,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 51. `a2-komp-050` · select-one
+### 50. `a2-komp-050` · select-one
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — schön)
@@ -731,7 +717,7 @@
 
 ## Eingabe (50)
 
-### 52. `a2-komp-in-001` · input-text
+### 51. `a2-komp-in-001` · input-text
 
 **Aufgabe:**
 > Mein Zimmer ist ___ als deins. (Komparativ — groß)
@@ -741,7 +727,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 53. `a2-komp-in-002` · input-text
+### 52. `a2-komp-in-002` · input-text
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — gut)
@@ -751,7 +737,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 54. `a2-komp-in-003` · input-text
+### 53. `a2-komp-in-003` · input-text
 
 **Aufgabe:**
 > Heute regnet es ___ als gestern. (Komparativ — viel)
@@ -761,7 +747,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 55. `a2-komp-in-004` · input-text
+### 54. `a2-komp-in-004` · input-text
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — schnell)
@@ -771,7 +757,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 56. `a2-komp-in-005` · input-text
+### 55. `a2-komp-in-005` · input-text
 
 **Aufgabe:**
 > Ich trinke Tee ___. (Komparativ — gern)
@@ -781,7 +767,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 57. `a2-komp-in-006` · input-text
+### 56. `a2-komp-in-006` · input-text
 
 **Aufgabe:**
 > Die neue Wohnung ist ___ als die alte. (Komparativ — schön)
@@ -791,7 +777,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 58. `a2-komp-in-007` · input-text
+### 57. `a2-komp-in-007` · input-text
 
 **Aufgabe:**
 > Im Winter ist es ___ als im Sommer. (Komparativ — kalt)
@@ -801,7 +787,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 59. `a2-komp-in-008` · input-text
+### 58. `a2-komp-in-008` · input-text
 
 **Aufgabe:**
 > Das Hotel ist ___ als das Hostel. (Komparativ — teuer)
@@ -811,7 +797,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 60. `a2-komp-in-009` · input-text
+### 59. `a2-komp-in-009` · input-text
 
 **Aufgabe:**
 > Der Teppich ist ___ als der Stuhl. (Komparativ — billig)
@@ -821,7 +807,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 61. `a2-komp-in-010` · input-text
+### 60. `a2-komp-in-010` · input-text
 
 **Aufgabe:**
 > Der Turm ist ___ als das Haus. (Komparativ — hoch)
@@ -831,7 +817,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 62. `a2-komp-in-011` · input-text
+### 61. `a2-komp-in-011` · input-text
 
 **Aufgabe:**
 > Die Bäckerei ist ___ als der Supermarkt. (Komparativ — nah)
@@ -841,7 +827,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 63. `a2-komp-in-012` · input-text
+### 62. `a2-komp-in-012` · input-text
 
 **Aufgabe:**
 > Dieses Kleid ist ___ als das andere. (Komparativ — elegant)
@@ -851,7 +837,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 64. `a2-komp-in-013` · input-text
+### 63. `a2-komp-in-013` · input-text
 
 **Aufgabe:**
 > Er läuft ___ als ich. (Komparativ — schnell)
@@ -861,7 +847,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 65. `a2-komp-in-014` · input-text
+### 64. `a2-komp-in-014` · input-text
 
 **Aufgabe:**
 > Die Suppe ist ___ als der Salat. (Komparativ — warm)
@@ -871,7 +857,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 66. `a2-komp-in-015` · input-text
+### 65. `a2-komp-in-015` · input-text
 
 **Aufgabe:**
 > Das Buch ist ___ als der Film. (Komparativ — lang)
@@ -881,7 +867,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 67. `a2-komp-in-016` · input-text
+### 66. `a2-komp-in-016` · input-text
 
 **Aufgabe:**
 > Am schönsten finde ich den Teppich — er ist ___ als der Tisch. (Komparativ — schön)
@@ -891,7 +877,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 68. `a2-komp-in-017` · input-text
+### 67. `a2-komp-in-017` · input-text
 
 **Aufgabe:**
 > Trotzdem habe ich gewonnen — ich war ___ als mein Gegner. (Komparativ — stark)
@@ -901,7 +887,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 69. `a2-komp-in-018` · input-text
+### 68. `a2-komp-in-018` · input-text
 
 **Aufgabe:**
 > Mein Zimmer ist ___ als deins. (Komparativ — groß)
@@ -911,7 +897,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 70. `a2-komp-in-019` · input-text
+### 69. `a2-komp-in-019` · input-text
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — gut)
@@ -921,7 +907,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 71. `a2-komp-in-020` · input-text
+### 70. `a2-komp-in-020` · input-text
 
 **Aufgabe:**
 > Heute regnet es ___ als gestern. (Komparativ — viel)
@@ -931,7 +917,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 72. `a2-komp-in-021` · input-text
+### 71. `a2-komp-in-021` · input-text
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — schnell)
@@ -941,7 +927,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 73. `a2-komp-in-022` · input-text
+### 72. `a2-komp-in-022` · input-text
 
 **Aufgabe:**
 > Ich trinke Tee ___. (Komparativ — gern)
@@ -951,7 +937,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 74. `a2-komp-in-023` · input-text
+### 73. `a2-komp-in-023` · input-text
 
 **Aufgabe:**
 > Die neue Wohnung ist ___ als die alte. (Komparativ — schön)
@@ -961,7 +947,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 75. `a2-komp-in-024` · input-text
+### 74. `a2-komp-in-024` · input-text
 
 **Aufgabe:**
 > Im Winter ist es ___ als im Sommer. (Komparativ — kalt)
@@ -971,7 +957,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 76. `a2-komp-in-025` · input-text
+### 75. `a2-komp-in-025` · input-text
 
 **Aufgabe:**
 > Das Hotel ist ___ als das Hostel. (Komparativ — teuer)
@@ -981,7 +967,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 77. `a2-komp-in-026` · input-text
+### 76. `a2-komp-in-026` · input-text
 
 **Aufgabe:**
 > Der Teppich ist ___ als der Stuhl. (Komparativ — billig)
@@ -991,7 +977,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 78. `a2-komp-in-027` · input-text
+### 77. `a2-komp-in-027` · input-text
 
 **Aufgabe:**
 > Der Turm ist ___ als das Haus. (Komparativ — hoch)
@@ -1001,7 +987,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 79. `a2-komp-in-028` · input-text
+### 78. `a2-komp-in-028` · input-text
 
 **Aufgabe:**
 > Die Bäckerei ist ___ als der Supermarkt. (Komparativ — nah)
@@ -1011,7 +997,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 80. `a2-komp-in-029` · input-text
+### 79. `a2-komp-in-029` · input-text
 
 **Aufgabe:**
 > Dieses Kleid ist ___ als das andere. (Komparativ — elegant)
@@ -1021,7 +1007,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 81. `a2-komp-in-030` · input-text
+### 80. `a2-komp-in-030` · input-text
 
 **Aufgabe:**
 > Er läuft ___ als ich. (Komparativ — schnell)
@@ -1031,7 +1017,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 82. `a2-komp-in-031` · input-text
+### 81. `a2-komp-in-031` · input-text
 
 **Aufgabe:**
 > Die Suppe ist ___ als der Salat. (Komparativ — warm)
@@ -1041,7 +1027,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 83. `a2-komp-in-032` · input-text
+### 82. `a2-komp-in-032` · input-text
 
 **Aufgabe:**
 > Das Buch ist ___ als der Film. (Komparativ — lang)
@@ -1051,7 +1037,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 84. `a2-komp-in-033` · input-text
+### 83. `a2-komp-in-033` · input-text
 
 **Aufgabe:**
 > Am schönsten finde ich den Teppich — er ist ___ als der Tisch. (Komparativ — schön)
@@ -1061,7 +1047,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 85. `a2-komp-in-034` · input-text
+### 84. `a2-komp-in-034` · input-text
 
 **Aufgabe:**
 > Trotzdem habe ich gewonnen — ich war ___ als mein Gegner. (Komparativ — stark)
@@ -1071,7 +1057,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 86. `a2-komp-in-035` · input-text
+### 85. `a2-komp-in-035` · input-text
 
 **Aufgabe:**
 > Mein Zimmer ist ___ als deins. (Komparativ — groß)
@@ -1081,7 +1067,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 87. `a2-komp-in-036` · input-text
+### 86. `a2-komp-in-036` · input-text
 
 **Aufgabe:**
 > Dieser Film ist ___ als der andere. (Komparativ — gut)
@@ -1091,7 +1077,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 88. `a2-komp-in-037` · input-text
+### 87. `a2-komp-in-037` · input-text
 
 **Aufgabe:**
 > Heute regnet es ___ als gestern. (Komparativ — viel)
@@ -1101,7 +1087,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 89. `a2-komp-in-038` · input-text
+### 88. `a2-komp-in-038` · input-text
 
 **Aufgabe:**
 > Der ICE ist ___ als der Bus. (Komparativ — schnell)
@@ -1111,7 +1097,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 90. `a2-komp-in-039` · input-text
+### 89. `a2-komp-in-039` · input-text
 
 **Aufgabe:**
 > Ich trinke Tee ___. (Komparativ — gern)
@@ -1121,7 +1107,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 91. `a2-komp-in-040` · input-text
+### 90. `a2-komp-in-040` · input-text
 
 **Aufgabe:**
 > Die neue Wohnung ist ___ als die alte. (Komparativ — schön)
@@ -1131,7 +1117,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 92. `a2-komp-in-041` · input-text
+### 91. `a2-komp-in-041` · input-text
 
 **Aufgabe:**
 > Im Winter ist es ___ als im Sommer. (Komparativ — kalt)
@@ -1141,7 +1127,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 93. `a2-komp-in-042` · input-text
+### 92. `a2-komp-in-042` · input-text
 
 **Aufgabe:**
 > Das Hotel ist ___ als das Hostel. (Komparativ — teuer)
@@ -1151,7 +1137,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 94. `a2-komp-in-043` · input-text
+### 93. `a2-komp-in-043` · input-text
 
 **Aufgabe:**
 > Der Teppich ist ___ als der Stuhl. (Komparativ — billig)
@@ -1161,7 +1147,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 95. `a2-komp-in-044` · input-text
+### 94. `a2-komp-in-044` · input-text
 
 **Aufgabe:**
 > Der Turm ist ___ als das Haus. (Komparativ — hoch)
@@ -1171,7 +1157,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 96. `a2-komp-in-045` · input-text
+### 95. `a2-komp-in-045` · input-text
 
 **Aufgabe:**
 > Die Bäckerei ist ___ als der Supermarkt. (Komparativ — nah)
@@ -1181,7 +1167,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 97. `a2-komp-in-046` · input-text
+### 96. `a2-komp-in-046` · input-text
 
 **Aufgabe:**
 > Dieses Kleid ist ___ als das andere. (Komparativ — elegant)
@@ -1191,7 +1177,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 98. `a2-komp-in-047` · input-text
+### 97. `a2-komp-in-047` · input-text
 
 **Aufgabe:**
 > Er läuft ___ als ich. (Komparativ — schnell)
@@ -1201,7 +1187,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 99. `a2-komp-in-048` · input-text
+### 98. `a2-komp-in-048` · input-text
 
 **Aufgabe:**
 > Die Suppe ist ___ als der Salat. (Komparativ — warm)
@@ -1211,7 +1197,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 100. `a2-komp-in-049` · input-text
+### 99. `a2-komp-in-049` · input-text
 
 **Aufgabe:**
 > Das Buch ist ___ als der Film. (Komparativ — lang)
@@ -1221,7 +1207,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 101. `a2-komp-in-050` · input-text
+### 100. `a2-komp-in-050` · input-text
 
 **Aufgabe:**
 > Am schönsten finde ich den Teppich — er ist ___ als der Tisch. (Komparativ — schön)
@@ -1233,500 +1219,500 @@
 
 ## Wörter ordnen (50)
 
-### 102. `a2-komp-dd-001` · dropbox
+### 101. `a2-komp-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — größer)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — groß)
 
 **Wörter:** Mein · Zimmer · ist · größer · als · deins
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 103. `a2-komp-dd-002` · dropbox
+### 102. `a2-komp-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — besser)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — gut)
 
 **Wörter:** Dieser · Film · ist · besser · als · der · andere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 104. `a2-komp-dd-003` · dropbox
+### 103. `a2-komp-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — mehr)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — viel)
 
 **Wörter:** Heute · regnet · es · mehr · als · gestern
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 105. `a2-komp-dd-004` · dropbox
+### 104. `a2-komp-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schneller)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schnell)
 
 **Wörter:** Der · ICE · ist · schneller · als · der · Bus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 106. `a2-komp-dd-005` · dropbox
+### 105. `a2-komp-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — lieber)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — gern)
 
 **Wörter:** Ich · trinke · Tee · lieber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 107. `a2-komp-dd-006` · dropbox
+### 106. `a2-komp-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schöner)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schön)
 
 **Wörter:** Die · neue · Wohnung · ist · schöner · als · die · alte
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 108. `a2-komp-dd-007` · dropbox
+### 107. `a2-komp-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — kälter)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — kalt)
 
 **Wörter:** Im · Winter · ist · es · kälter · als · im · Sommer
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 109. `a2-komp-dd-008` · dropbox
+### 108. `a2-komp-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — teurer)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — teuer)
 
 **Wörter:** Das · Hotel · ist · teurer · als · das · Hostel
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 110. `a2-komp-dd-009` · dropbox
+### 109. `a2-komp-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — billiger)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — billig)
 
 **Wörter:** Der · Teppich · ist · billiger · als · der · Stuhl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 111. `a2-komp-dd-010` · dropbox
+### 110. `a2-komp-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — höher)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — hoch)
 
 **Wörter:** Der · Turm · ist · höher · als · das · Haus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 112. `a2-komp-dd-011` · dropbox
+### 111. `a2-komp-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — näher)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — nah)
 
 **Wörter:** Die · Bäckerei · ist · näher · als · der · Supermarkt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 113. `a2-komp-dd-012` · dropbox
+### 112. `a2-komp-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — eleganter)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — elegant)
 
 **Wörter:** Dieses · Kleid · ist · eleganter · als · das · andere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 114. `a2-komp-dd-013` · dropbox
+### 113. `a2-komp-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schneller)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schnell)
 
 **Wörter:** Er · läuft · schneller · als · ich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 115. `a2-komp-dd-014` · dropbox
+### 114. `a2-komp-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — wärmer)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — warm)
 
 **Wörter:** Die · Suppe · ist · wärmer · als · der · Salat
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 116. `a2-komp-dd-015` · dropbox
+### 115. `a2-komp-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — länger)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — lang)
 
 **Wörter:** Das · Buch · ist · länger · als · der · Film
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 117. `a2-komp-dd-016` · dropbox
+### 116. `a2-komp-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schöner)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schön)
 
 **Wörter:** Am · schönsten · finde · ich · den · Teppich · er · ist · schöner · als · der · Tisch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 118. `a2-komp-dd-017` · dropbox
+### 117. `a2-komp-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — stärker)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — stark)
 
 **Wörter:** Trotzdem · gewann · ich · als · stärkerer · Sportler
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 119. `a2-komp-dd-018` · dropbox
+### 118. `a2-komp-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — größer)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — groß)
 
 **Wörter:** Mein · Zimmer · ist · größer · als · deins
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 120. `a2-komp-dd-019` · dropbox
+### 119. `a2-komp-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — besser)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — gut)
 
 **Wörter:** Dieser · Film · ist · besser · als · der · andere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 121. `a2-komp-dd-020` · dropbox
+### 120. `a2-komp-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — mehr)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — viel)
 
 **Wörter:** Heute · regnet · es · mehr · als · gestern
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 122. `a2-komp-dd-021` · dropbox
+### 121. `a2-komp-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schneller)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schnell)
 
 **Wörter:** Der · ICE · ist · schneller · als · der · Bus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 123. `a2-komp-dd-022` · dropbox
+### 122. `a2-komp-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — lieber)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — gern)
 
 **Wörter:** Ich · trinke · Tee · lieber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 124. `a2-komp-dd-023` · dropbox
+### 123. `a2-komp-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schöner)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schön)
 
 **Wörter:** Die · neue · Wohnung · ist · schöner · als · die · alte
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 125. `a2-komp-dd-024` · dropbox
+### 124. `a2-komp-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — kälter)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — kalt)
 
 **Wörter:** Im · Winter · ist · es · kälter · als · im · Sommer
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 126. `a2-komp-dd-025` · dropbox
+### 125. `a2-komp-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — teurer)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — teuer)
 
 **Wörter:** Das · Hotel · ist · teurer · als · das · Hostel
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 127. `a2-komp-dd-026` · dropbox
+### 126. `a2-komp-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — billiger)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — billig)
 
 **Wörter:** Der · Teppich · ist · billiger · als · der · Stuhl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 128. `a2-komp-dd-027` · dropbox
+### 127. `a2-komp-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — höher)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — hoch)
 
 **Wörter:** Der · Turm · ist · höher · als · das · Haus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 129. `a2-komp-dd-028` · dropbox
+### 128. `a2-komp-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — näher)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — nah)
 
 **Wörter:** Die · Bäckerei · ist · näher · als · der · Supermarkt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 130. `a2-komp-dd-029` · dropbox
+### 129. `a2-komp-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — eleganter)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — elegant)
 
 **Wörter:** Dieses · Kleid · ist · eleganter · als · das · andere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 131. `a2-komp-dd-030` · dropbox
+### 130. `a2-komp-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schneller)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schnell)
 
 **Wörter:** Er · läuft · schneller · als · ich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 132. `a2-komp-dd-031` · dropbox
+### 131. `a2-komp-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — wärmer)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — warm)
 
 **Wörter:** Die · Suppe · ist · wärmer · als · der · Salat
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 133. `a2-komp-dd-032` · dropbox
+### 132. `a2-komp-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — länger)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — lang)
 
 **Wörter:** Das · Buch · ist · länger · als · der · Film
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 134. `a2-komp-dd-033` · dropbox
+### 133. `a2-komp-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schöner)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schön)
 
 **Wörter:** Am · schönsten · finde · ich · den · Teppich · er · ist · schöner · als · der · Tisch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 135. `a2-komp-dd-034` · dropbox
+### 134. `a2-komp-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — stärker)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — stark)
 
 **Wörter:** Trotzdem · gewann · ich · als · stärkerer · Sportler
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 136. `a2-komp-dd-035` · dropbox
+### 135. `a2-komp-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — größer)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — groß)
 
 **Wörter:** Mein · Zimmer · ist · größer · als · deins
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 137. `a2-komp-dd-036` · dropbox
+### 136. `a2-komp-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — besser)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — gut)
 
 **Wörter:** Dieser · Film · ist · besser · als · der · andere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 138. `a2-komp-dd-037` · dropbox
+### 137. `a2-komp-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — mehr)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — viel)
 
 **Wörter:** Heute · regnet · es · mehr · als · gestern
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 139. `a2-komp-dd-038` · dropbox
+### 138. `a2-komp-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schneller)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schnell)
 
 **Wörter:** Der · ICE · ist · schneller · als · der · Bus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 140. `a2-komp-dd-039` · dropbox
+### 139. `a2-komp-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — lieber)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — gern)
 
 **Wörter:** Ich · trinke · Tee · lieber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 141. `a2-komp-dd-040` · dropbox
+### 140. `a2-komp-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schöner)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schön)
 
 **Wörter:** Die · neue · Wohnung · ist · schöner · als · die · alte
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 142. `a2-komp-dd-041` · dropbox
+### 141. `a2-komp-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — kälter)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — kalt)
 
 **Wörter:** Im · Winter · ist · es · kälter · als · im · Sommer
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 143. `a2-komp-dd-042` · dropbox
+### 142. `a2-komp-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — teurer)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — teuer)
 
 **Wörter:** Das · Hotel · ist · teurer · als · das · Hostel
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 144. `a2-komp-dd-043` · dropbox
+### 143. `a2-komp-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — billiger)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — billig)
 
 **Wörter:** Der · Teppich · ist · billiger · als · der · Stuhl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 145. `a2-komp-dd-044` · dropbox
+### 144. `a2-komp-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — höher)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — hoch)
 
 **Wörter:** Der · Turm · ist · höher · als · das · Haus
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 146. `a2-komp-dd-045` · dropbox
+### 145. `a2-komp-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — näher)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — nah)
 
 **Wörter:** Die · Bäckerei · ist · näher · als · der · Supermarkt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 147. `a2-komp-dd-046` · dropbox
+### 146. `a2-komp-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — eleganter)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — elegant)
 
 **Wörter:** Dieses · Kleid · ist · eleganter · als · das · andere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 148. `a2-komp-dd-047` · dropbox
+### 147. `a2-komp-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schneller)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schnell)
 
 **Wörter:** Er · läuft · schneller · als · ich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 149. `a2-komp-dd-048` · dropbox
+### 148. `a2-komp-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — wärmer)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — warm)
 
 **Wörter:** Die · Suppe · ist · wärmer · als · der · Salat
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 150. `a2-komp-dd-049` · dropbox
+### 149. `a2-komp-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — länger)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — lang)
 
 **Wörter:** Das · Buch · ist · länger · als · der · Film
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 151. `a2-komp-dd-050` · dropbox
+### 150. `a2-komp-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Komparativ — schöner)
+> Ordne die Wörter zum richtigen Satz: (Komparativ — schön)
 
 **Wörter:** Am · schönsten · finde · ich · den · Teppich · er · ist · schöner · als · der · Tisch
 

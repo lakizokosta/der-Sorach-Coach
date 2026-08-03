@@ -2,12 +2,14 @@
 id: b1-perf-dd-034
 type: dropbox
 words:
-  - Wir
-  - sind
-  - pünktlich
-  - am
-  - Flughafen
-  - angekommen
+  - Ich
+  - habe
+  - den
+  - Artikel
+  - gestern
+  - gelesen
+alternatives:
+  - Ich,habe,gestern,den,Artikel,gelesen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

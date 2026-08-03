@@ -2,11 +2,11 @@
 id: a2-fest-020
 type: select-one
 options:
-  - klassischer
-  - klassische
-  - klassisches
-  - klassischen
-correct: klassische
+  - in
+  - über
+  - an
+  - für
+correct: über
 ---
 
-Ich interessiere mich für ___ Musik. (feste Präposition)
+Wir sprechen ___ die Reise. (Feste Präposition)

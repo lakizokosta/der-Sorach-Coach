@@ -10,4 +10,4 @@ words:
   - gereist
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt)
+Ordne die Wörter zum richtigen Satz: (Perfekt — bin gereist)

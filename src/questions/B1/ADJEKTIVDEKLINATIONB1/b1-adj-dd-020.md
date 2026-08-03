@@ -2,15 +2,13 @@
 id: b1-adj-dd-020
 type: dropbox
 words:
-  - Der
-  - neue
-  - Studiengang
-  - an
-  - der
-  - Universität
-  - ist
-  - sehr
-  - beliebt
+  - Wegen
+  - schlechten
+  - Wetters
+  - fällt
+  - die
+  - Reise
+  - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — interessanten Artikel)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

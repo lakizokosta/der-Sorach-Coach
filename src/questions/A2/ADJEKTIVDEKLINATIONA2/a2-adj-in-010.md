@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-010
 type: input-text
+hint: Adjektivdeklination — laut, neutr., Akk.
 correct:
   - lautes
 ---
 
-Wir hören ein ___ Lied. (Adjektivendung)
+Ergänze die Adjektivendung:
+
+Wir hören ein ___ Lied.

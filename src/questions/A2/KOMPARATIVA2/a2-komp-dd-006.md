@@ -10,6 +10,8 @@ words:
   - als
   - die
   - alte
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — schön)

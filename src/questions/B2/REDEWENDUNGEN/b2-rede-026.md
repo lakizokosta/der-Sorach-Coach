@@ -9,4 +9,4 @@ options:
 correct: Überblick
 ---
 
-Er hat den ___ im Griff. (Redewendung)
+Er hat den ___ im Griff. (Grammatikform)

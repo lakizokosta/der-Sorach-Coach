@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-044
 type: input-text
+hint: Passiv + Verb sammelen
 correct:
   - werden
 ---
 
-Die Abfälle ___ getrennt gesammelt. (Passiv + Verb gesammelen)
+Ergänze die Passivform:
+
+Die Abfälle ___ getrennt gesammelt.

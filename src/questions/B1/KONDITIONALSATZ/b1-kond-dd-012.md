@@ -6,9 +6,12 @@ words:
   - der
   - Termin
   - ausfällt
+  - dann
   - informiere
   - ich
   - dich
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls der Termin ausfällt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

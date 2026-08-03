@@ -9,4 +9,4 @@ words:
   - Universität
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — an Universität)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

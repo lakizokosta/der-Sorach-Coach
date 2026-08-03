@@ -3,10 +3,10 @@ id: b2-quiz-017
 type: select-one
 options:
   - denen
-  - deren
-  - dessen
+  - dem
   - den
+  - dessen
 correct: dessen
 ---
 
-Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen. (Grammatikform)
+Der Mann, ___ Auto vor der Tür steht, ist mein Nachbar.

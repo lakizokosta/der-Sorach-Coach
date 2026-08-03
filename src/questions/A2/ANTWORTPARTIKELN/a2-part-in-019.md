@@ -1,8 +1,11 @@
 ---
 id: a2-part-in-019
 type: input-text
+hint: Antwortpartikel
 correct:
   - Ja
 ---
 
-„Hast du schon jemanden kennengelernt?" — „___, zwei Kollegen." (Antwortpartikel)
+Ergänze die Antwortpartikel:
+
+„Hast du schon jemanden kennengelernt?" — „___, zwei Kollegen."

@@ -12,4 +12,4 @@ words:
   - Geräte
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — internationale Konferenz)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

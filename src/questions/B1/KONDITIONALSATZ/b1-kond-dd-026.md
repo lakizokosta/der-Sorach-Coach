@@ -2,13 +2,16 @@
 id: b1-kond-dd-026
 type: dropbox
 words:
-  - Falls
-  - du
-  - dich
-  - erkältest
-  - bleib
-  - zu
-  - Hause
+  - Wenn
+  - die
+  - Sonne
+  - scheint
+  - machen
+  - wir
+  - einen
+  - Ausflug
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls du dich erkältest)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

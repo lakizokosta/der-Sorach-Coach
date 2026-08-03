@@ -2,11 +2,11 @@
 id: b2-quiz-035
 type: select-one
 options:
-  - trotzdem
-  - außerdem
-  - dagegen
   - folglich
-correct: folglich
+  - deshalb
+  - trotzdem
+  - dann
+correct: trotzdem
 ---
 
-Sie hat viel gelernt; ___ bestand sie die Prüfung. (Grammatikform)
+Er war krank; ___ nahm er am Meeting teil.

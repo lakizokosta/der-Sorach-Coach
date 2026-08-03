@@ -12,4 +12,4 @@ words:
   - Problem
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — nachhaltige)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

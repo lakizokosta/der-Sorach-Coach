@@ -30,7 +30,7 @@
 ### 2. `b2-indef-002` · select-one
 
 **Aufgabe:**
-> Ich habe ___ davon gehört. (Indefinitpronomen)
+> Das Thema ist mir völlig neu; ich habe ___ davon gehört. (Indefinitpronomen)
 
 **Optionen:**
 - jemand
@@ -184,13 +184,13 @@
 ### 13. `b2-indef-013` · select-one
 
 **Aufgabe:**
-> Er vertraut ___ Fremden nicht. (Indefinitpronomen)
+> Er vertraut ___ , das ist seine Schwäche. (Indefinitpronomen)
 
 **Optionen:**
-- keine
-- keiner
-- keines
-- keinem **✓**
+- jemand
+- etwas
+- niemandem
+- jemandem **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -212,13 +212,13 @@
 ### 15. `b2-indef-015` · select-one
 
 **Aufgabe:**
-> ___ von euch kann mir helfen? (Indefinitpronomen)
+> Ich hoffe, ___ von euch kann mir helfen. (Indefinitpronomen)
 
 **Optionen:**
-- Etwas
-- Niemand
-- Jemand **✓**
-- Alles
+- etwas
+- niemand
+- jemand **✓**
+- alles
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -268,7 +268,7 @@
 ### 19. `b2-indef-019` · select-one
 
 **Aufgabe:**
-> Ich habe ___ davon gehört. (Indefinitpronomen)
+> Das Thema ist mir völlig neu; ich habe ___ davon gehört. (Indefinitpronomen)
 
 **Optionen:**
 - niemand
@@ -422,13 +422,13 @@
 ### 30. `b2-indef-030` · select-one
 
 **Aufgabe:**
-> Er vertraut ___ Fremden nicht. (Indefinitpronomen)
+> Er vertraut ___ , das ist seine Schwäche. (Indefinitpronomen)
 
 **Optionen:**
-- keiner
-- keinem **✓**
-- keinen
-- keines
+- etwas
+- jemandem **✓**
+- jemanden
+- niemandem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -450,13 +450,13 @@
 ### 32. `b2-indef-032` · select-one
 
 **Aufgabe:**
-> ___ von euch kann mir helfen? (Indefinitpronomen)
+> Ich hoffe, ___ von euch kann mir helfen. (Indefinitpronomen)
 
 **Optionen:**
-- Etwas
-- Nichts
-- Jemand **✓**
-- Niemand
+- etwas
+- nichts
+- jemand **✓**
+- niemand
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -506,7 +506,7 @@
 ### 36. `b2-indef-036` · select-one
 
 **Aufgabe:**
-> Ich habe ___ davon gehört. (Indefinitpronomen)
+> Das Thema ist mir völlig neu; ich habe ___ davon gehört. (Indefinitpronomen)
 
 **Optionen:**
 - niemand
@@ -660,13 +660,13 @@
 ### 47. `b2-indef-047` · select-one
 
 **Aufgabe:**
-> Er vertraut ___ Fremden nicht. (Indefinitpronomen)
+> Er vertraut ___ , das ist seine Schwäche. (Indefinitpronomen)
 
 **Optionen:**
-- keine
-- keinen
-- keinem **✓**
-- keines
+- jemand
+- jemanden
+- jemandem **✓**
+- niemandem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -688,13 +688,13 @@
 ### 49. `b2-indef-049` · select-one
 
 **Aufgabe:**
-> ___ von euch kann mir helfen? (Indefinitpronomen)
+> Ich hoffe, ___ von euch kann mir helfen. (Indefinitpronomen)
 
 **Optionen:**
-- Etwas
-- Nichts
-- Alles
-- Jemand **✓**
+- etwas
+- nichts
+- alles
+- jemand **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

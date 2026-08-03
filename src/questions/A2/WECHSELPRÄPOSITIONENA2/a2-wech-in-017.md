@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-017
 type: input-text
+hint: Wechselpräpositionen — Wo?
 correct:
   - im
 ---
 
-Das Kind spielt ___ Garten. (Dativ oder Akkusativ — Wo?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Das Kind spielt ___ Garten.

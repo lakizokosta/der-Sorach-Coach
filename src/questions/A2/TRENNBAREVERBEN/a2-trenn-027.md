@@ -2,11 +2,11 @@
 id: a2-trenn-027
 type: select-one
 options:
-  - einfahren
-  - fahren
-  - fahre
-  - fahren ein
-correct: fahren
+  - einkaufen
+  - kaufen
+  - kaufe
+  - kaufen ein
+correct: kaufen
 ---
 
-Wir ___ nach Hause ein. (Trennbares Verb)
+Wir ___ heute im Supermarkt ein. (Trennbares Verb + Verb einkaufen)

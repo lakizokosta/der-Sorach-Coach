@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-032
 type: input-text
+hint: Adjektivdeklination — klein, mask., Dat.
 correct:
   - kleinen
 ---
 
-Im ___ Laden ist alles günstig. (Adjektivdeklination — mask., Dat.)
+Ergänze die Adjektivendung:
+
+Im ___ Laden ist alles günstig.

@@ -102,7 +102,7 @@
 ### 7. `a2-lokal-007` · select-one
 
 **Aufgabe:**
-> Fahren Sie ___ den Tunnel! (Lokalpräposition + Akk.)
+> Fahren Sie ___ den Tunnel! (Lokalpräposition)
 
 **Optionen:**
 - unter
@@ -200,7 +200,7 @@
 ### 14. `a2-lokal-014` · select-one
 
 **Aufgabe:**
-> Wir gehen ___ die Straße. (Lokalpräposition + Akk.)
+> Wir gehen ___ die Straße. (Lokalpräposition)
 
 **Optionen:**
 - hinter
@@ -214,7 +214,7 @@
 ### 15. `a2-lokal-015` · select-one
 
 **Aufgabe:**
-> Vom Eingang der Mall aus: Die Apotheke ist ___ . (Lokalpräposition + Akk.)
+> Vom Eingang der Mall aus: Die Apotheke ist ___ . (Lokalpräposition)
 
 **Optionen:**
 - geradeaus
@@ -298,7 +298,7 @@
 ### 21. `a2-lokal-021` · select-one
 
 **Aufgabe:**
-> Das Geschäft ist ___ zwei Häusern. (Lokalpräposition + Akk.)
+> Das Geschäft ist ___ zwei Häusern. (Lokalpräposition)
 
 **Optionen:**
 - gegenüber
@@ -354,7 +354,7 @@
 ### 25. `a2-lokal-025` · select-one
 
 **Aufgabe:**
-> Wir treffen uns ___ dem Platz. (Lokalpräposition + Akk.)
+> Wir treffen uns ___ dem Platz. (Lokalpräposition)
 
 **Optionen:**
 - nach
@@ -452,7 +452,7 @@
 ### 32. `a2-lokal-032` · select-one
 
 **Aufgabe:**
-> Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition + Akk.)
+> Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition)
 
 **Optionen:**
 - hinter
@@ -466,7 +466,7 @@
 ### 33. `a2-lokal-033` · select-one
 
 **Aufgabe:**
-> Geh ___ die Brücke! (Lokalpräposition + Akk.)
+> Geh ___ die Brücke! (Lokalpräposition)
 
 **Optionen:**
 - neben
@@ -550,7 +550,7 @@
 ### 39. `a2-lokal-039` · select-one
 
 **Aufgabe:**
-> Das Büro ist ___ der zweiten Etage. (Lokalpräposition + Akk.)
+> Das Büro ist ___ der zweiten Etage. (Lokalpräposition)
 
 **Optionen:**
 - in
@@ -606,7 +606,7 @@
 ### 43. `a2-lokal-043` · select-one
 
 **Aufgabe:**
-> Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter. (Lokalpräposition + Akk.)
+> Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter. (Lokalpräposition)
 
 **Optionen:**
 - hinter
@@ -704,7 +704,7 @@
 ### 50. `a2-lokal-050` · select-one
 
 **Aufgabe:**
-> Wir warten ___ dem Eingang. (Lokalpräposition + Akk.)
+> Wir warten ___ dem Eingang. (Lokalpräposition)
 
 **Optionen:**
 - hinter
@@ -1222,7 +1222,7 @@
 ### 101. `a2-lokal-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — gegenüber)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Die · Bank · ist · gegenüber · der · Post
 
@@ -1232,7 +1232,7 @@
 ### 102. `a2-lokal-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — neben)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Café · ist · neben · dem · Park
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-lokal-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — über)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Geh · über · die · Brücke
 
@@ -1252,7 +1252,7 @@
 ### 104. `a2-lokal-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — hinter)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Vom · Bahnhofsplatz · aus · sieht · man · das · Hotel · nicht · es · liegt · hinter · dem · Bahnhof
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-lokal-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — vor)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Wir · warten · vor · dem · Eingang
 
@@ -1272,7 +1272,7 @@
 ### 106. `a2-lokal-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — zwischen)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Geschäft · ist · zwischen · zwei · Häusern
 
@@ -1282,7 +1282,7 @@
 ### 107. `a2-lokal-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — durch)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Fahren · Sie · durch · den · Tunnel
 
@@ -1292,7 +1292,7 @@
 ### 108. `a2-lokal-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — an)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Der · Supermarkt · ist · an · der · Ecke
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-lokal-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — auf)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Büro · ist · auf · der · zweiten · Etage
 
@@ -1312,7 +1312,7 @@
 ### 110. `a2-lokal-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — auf)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Wir · treffen · uns · auf · dem · Platz
 
@@ -1322,7 +1322,7 @@
 ### 111. `a2-lokal-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — über)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Bild · hängt · über · der · Tür
 
@@ -1332,7 +1332,7 @@
 ### 112. `a2-lokal-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — unter)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Der · Hund · liegt · unter · dem · Tisch
 
@@ -1342,9 +1342,9 @@
 ### 113. `a2-lokal-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — neben)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
-**Wörter:** Das · Kind · steht · neben · Mutter · beim · Einkaufen
+**Wörter:** Das · Kind · steht · neben · der · Mutter · beim · Einkaufen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1352,9 +1352,9 @@
 ### 114. `a2-lokal-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — über)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
-**Wörter:** Wir · gehen · über · die · Straße
+**Wörter:** Wir · gehen · jetzt · über · die · Straße
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1362,7 +1362,7 @@
 ### 115. `a2-lokal-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — durch)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Gehen · Sie · dann · durch · den · Stadtpark
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-lokal-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — gegenüber)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Hotel · liegt · direkt · gegenüber · dem · Bahnhof
 
@@ -1382,7 +1382,7 @@
 ### 117. `a2-lokal-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — aus)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Ihr · kommt · aus · dem · Hotel
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-lokal-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — gegenüber)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Die · Bank · ist · gegenüber · der · Post
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-lokal-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — neben)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Café · ist · neben · dem · Park
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-lokal-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — über)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Geh · über · die · Brücke
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-lokal-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — hinter)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Vom · Bahnhofsplatz · aus · sieht · man · das · Hotel · nicht · es · liegt · hinter · dem · Bahnhof
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-lokal-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — vor)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Wir · warten · vor · dem · Eingang
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-lokal-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — zwischen)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Geschäft · ist · zwischen · zwei · Häusern
 
@@ -1452,7 +1452,7 @@
 ### 124. `a2-lokal-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — durch)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Fahren · Sie · durch · den · Tunnel
 
@@ -1462,7 +1462,7 @@
 ### 125. `a2-lokal-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — an)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Der · Supermarkt · ist · an · der · Ecke
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-lokal-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — auf)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Büro · ist · auf · der · zweiten · Etage
 
@@ -1482,7 +1482,7 @@
 ### 127. `a2-lokal-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — auf)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Wir · treffen · uns · auf · dem · Platz
 
@@ -1492,7 +1492,7 @@
 ### 128. `a2-lokal-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — über)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Bild · hängt · über · der · Tür
 
@@ -1502,7 +1502,7 @@
 ### 129. `a2-lokal-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — unter)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Der · Hund · liegt · unter · dem · Tisch
 
@@ -1512,9 +1512,9 @@
 ### 130. `a2-lokal-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — neben)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
-**Wörter:** Das · Kind · steht · neben · Mutter · beim · Einkaufen
+**Wörter:** Das · Kind · steht · neben · der · Mutter · beim · Einkaufen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `a2-lokal-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — über)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
-**Wörter:** Wir · gehen · über · die · Straße
+**Wörter:** Wir · gehen · jetzt · über · die · Straße
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,7 +1532,7 @@
 ### 132. `a2-lokal-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — durch)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Gehen · Sie · dann · durch · den · Stadtpark
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-lokal-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — gegenüber)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Hotel · liegt · direkt · gegenüber · dem · Bahnhof
 
@@ -1552,7 +1552,7 @@
 ### 134. `a2-lokal-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — aus)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Ihr · kommt · aus · dem · Hotel
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-lokal-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — gegenüber)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Die · Bank · ist · gegenüber · der · Post
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-lokal-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — neben)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Café · ist · neben · dem · Park
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-lokal-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — über)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Geh · über · die · Brücke
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-lokal-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — hinter)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Vom · Bahnhofsplatz · aus · sieht · man · das · Hotel · nicht · es · liegt · hinter · dem · Bahnhof
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-lokal-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — vor)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Wir · warten · vor · dem · Eingang
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-lokal-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — zwischen)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Geschäft · ist · zwischen · zwei · Häusern
 
@@ -1622,7 +1622,7 @@
 ### 141. `a2-lokal-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — durch)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Fahren · Sie · durch · den · Tunnel
 
@@ -1632,7 +1632,7 @@
 ### 142. `a2-lokal-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — an)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Der · Supermarkt · ist · an · der · Ecke
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-lokal-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — auf)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Büro · ist · auf · der · zweiten · Etage
 
@@ -1652,7 +1652,7 @@
 ### 144. `a2-lokal-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — auf)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Wir · treffen · uns · auf · dem · Platz
 
@@ -1662,7 +1662,7 @@
 ### 145. `a2-lokal-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — über)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Bild · hängt · über · der · Tür
 
@@ -1672,7 +1672,7 @@
 ### 146. `a2-lokal-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — unter)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Der · Hund · liegt · unter · dem · Tisch
 
@@ -1682,9 +1682,9 @@
 ### 147. `a2-lokal-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — neben)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
-**Wörter:** Das · Kind · steht · neben · Mutter · beim · Einkaufen
+**Wörter:** Das · Kind · steht · neben · der · Mutter · beim · Einkaufen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `a2-lokal-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — über)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
-**Wörter:** Wir · gehen · über · die · Straße
+**Wörter:** Wir · gehen · jetzt · über · die · Straße
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,7 +1702,7 @@
 ### 149. `a2-lokal-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition + Akk. — durch)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Gehen · Sie · dann · durch · den · Stadtpark
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-lokal-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokalpräposition — gegenüber)
+> Ordne die Wörter zum richtigen Satz: (Lokalpräposition)
 
 **Wörter:** Das · Hotel · liegt · direkt · gegenüber · dem · Bahnhof
 

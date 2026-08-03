@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-043
 type: input-text
+hint: Wechselpräpositionen — Wo?
 correct:
   - auf dem
 ---
 
-Wo liegt der Teppich? — ___ Boden. (Dativ oder Akkusativ — Wo?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Wo liegt der Teppich? — ___ Boden.

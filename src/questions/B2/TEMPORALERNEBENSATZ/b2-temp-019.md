@@ -9,4 +9,4 @@ options:
 correct: Sobald
 ---
 
-___, sie ankommt, rufe ich dich an. (Temporalnebensatz)
+___, sie ankommt, rufe ich dich an. (Grammatikform)

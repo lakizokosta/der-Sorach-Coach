@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-021
 type: input-text
+hint: Modalverb + Verb wollen
 correct:
   - wollen
 ---
 
-Wir ___ morgen früh losfahren. (Modalverb + Verb wollen)
+Ergänze die Modalverbform:
+
+Wir ___ morgen früh losfahren.

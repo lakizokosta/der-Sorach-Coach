@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-042
 type: input-text
+hint: Possessivartikel — Sie, fem., Nom.
 correct:
   - Ihre
 ---
 
-___ Mannschaft trainiert viel. (Possessivartikel — Sie, fem., Nom.)
+Ergänze den Possessivartikel:
+
+___ Mannschaft trainiert viel.

@@ -1,8 +1,11 @@
 ---
 id: a2-refl-in-027
 type: input-text
+hint: Reflexiv + Verb verletzen
 correct:
   - verletzt
 ---
 
-Er ___ sich beim Sport den Rücken. (Reflexiv + Verb verletzen)
+Ergänze die Reflexivform:
+
+Er ___ sich beim Sport den Rücken.

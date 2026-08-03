@@ -2,13 +2,16 @@
 id: b1-gen-dd-048
 type: dropbox
 words:
-  - Wegen
-  - der
-  - hohen
-  - Nachfrage
-  - steigen
-  - die
-  - Preise
+  - Während
+  - des
+  - Unterrichts
+  - ist
+  - es
+  - im
+  - Gebäude
+  - ruhig
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Nachfrage)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

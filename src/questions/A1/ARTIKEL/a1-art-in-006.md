@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-006
 type: input-text
+hint: Artikel — das Essen, Nom.
 correct:
   - Das
 ---
 
-___ Essen schmeckt gut. (Artikel — Nom.)
+Ergänze den Artikel:
+
+___ Essen schmeckt gut.

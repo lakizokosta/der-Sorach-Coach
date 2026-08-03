@@ -2,14 +2,15 @@
 id: b1-konz-dd-047
 type: dropbox
 words:
-  - Obschon
-  - die
-  - Vorlesung
-  - lang
-  - war
-  - blieb
-  - Kursinhalt
-  - spannend
+  - Sie
+  - geht
+  - joggen
+  - obwohl
+  - es
+  - kalt
+  - ist
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Kritik laut)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

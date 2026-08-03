@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-046
 type: input-text
+hint: Konjunktion — Bedingung
 correct:
   - wenn
 ---
 
-Kommst du mit, ___ du Zeit hast? (Konjunktion — Bedingung)
+Ergänze die Konjunktion:
+
+Kommst du mit, ___ du Zeit hast?

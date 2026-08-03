@@ -10,4 +10,4 @@ words:
   - Gesetz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — sprechen über)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

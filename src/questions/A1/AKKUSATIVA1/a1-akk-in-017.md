@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-017
 type: input-text
+hint: Akkusativ — die Aufgabe, Akk.
 correct:
   - die
 ---
 
-Ich schreibe ___ Aufgabe. (Akkusativ — Akk.)
+Ergänze die Akkusativform:
+
+Ich schreibe ___ Aufgabe.

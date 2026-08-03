@@ -1,8 +1,11 @@
 ---
 id: b1-lokal-in-020
 type: input-text
+hint: Lokale Präposition — hinter / neben / über / unter
 correct:
   - über
 ---
 
-Geh ___ die Brücke und dann links! (Lokale Präposition)
+Ergänze die Lokalpräposition:
+
+Geh ___ die Brücke und dann links!

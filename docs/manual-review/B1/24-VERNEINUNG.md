@@ -74,7 +74,7 @@
 ### 5. `b1-neg-005` · select-one
 
 **Aufgabe:**
-> Das ist ___ eine gute Idee. (Verneinung)
+> Das ist ___ gute Idee. (Verneinung)
 
 **Optionen:**
 - nie
@@ -284,7 +284,7 @@
 ### 20. `b1-neg-020` · select-one
 
 **Aufgabe:**
-> Das ist ___ eine gute Idee. (Verneinung)
+> Das ist ___ gute Idee. (Verneinung)
 
 **Optionen:**
 - nicht
@@ -494,7 +494,7 @@
 ### 35. `b1-neg-035` · select-one
 
 **Aufgabe:**
-> Das ist ___ eine gute Idee. (Verneinung)
+> Das ist ___ gute Idee. (Verneinung)
 
 **Optionen:**
 - nie
@@ -704,7 +704,7 @@
 ### 50. `b1-neg-050` · select-one
 
 **Aufgabe:**
-> Das ist ___ eine gute Idee. (Verneinung)
+> Das ist ___ gute Idee. (Verneinung)
 
 **Optionen:**
 - kein
@@ -760,7 +760,7 @@
 ### 55. `b1-neg-in-005` · input-text
 
 **Aufgabe:**
-> Das ist ___ eine gute Idee. (Verneinung)
+> Das ist ___ gute Idee. (Verneinung)
 
 **Antwort:** `keine`
 
@@ -910,7 +910,7 @@
 ### 70. `b1-neg-in-020` · input-text
 
 **Aufgabe:**
-> Das ist ___ eine gute Idee. (Verneinung)
+> Das ist ___ gute Idee. (Verneinung)
 
 **Antwort:** `keine`
 
@@ -1060,7 +1060,7 @@
 ### 85. `b1-neg-in-035` · input-text
 
 **Aufgabe:**
-> Das ist ___ eine gute Idee. (Verneinung)
+> Das ist ___ gute Idee. (Verneinung)
 
 **Antwort:** `keine`
 
@@ -1210,7 +1210,7 @@
 ### 100. `b1-neg-in-050` · input-text
 
 **Aufgabe:**
-> Das ist ___ eine gute Idee. (Verneinung)
+> Das ist ___ gute Idee. (Verneinung)
 
 **Antwort:** `keine`
 
@@ -1222,7 +1222,7 @@
 ### 101. `b1-neg-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keine Zeit)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Ich · habe · keine · Zeit · für · ein · langes · Meeting
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-neg-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kommt nicht)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Er · kommt · heute · nicht
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-neg-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Interesse)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Wir · haben · kein · Interesse · an · dem · Angebot
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-neg-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keinen Kaffee)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Sie · trinkt · keinen · Kaffee · mehr
 
@@ -1262,9 +1262,9 @@
 ### 105. `b1-neg-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keine Idee)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Das · ist · keine · eine · gute · Idee
+**Wörter:** Das · ist · keine · gute · Idee
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1272,7 +1272,7 @@
 ### 106. `b1-neg-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht geantwortet)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Er · hat · nicht · auf · die · Nachricht · geantwortet
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-neg-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Problem)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Ich · sehe · kein · Problem
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-neg-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nie am Wochenende)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Sie · arbeitet · nie · am · Wochenende
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-neg-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Geld)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Wir · haben · kein · Geld · übrig
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-neg-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht krank)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Er · ist · nicht · krank · sondern · müde
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-neg-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht geholfen)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Das · Medikament · hat · nicht · geholfen
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-neg-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Verständnis)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Ich · habe · kein · Verständnis · für · diese · Entscheidung
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-neg-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — weder noch)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Sie · isst · weder · Fleisch · noch · Fisch
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-neg-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keine Erfahrung)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Er · hat · keine · Erfahrung · in · diesem · Bereich
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-neg-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht mit Auto)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Wir · fahren · nicht · mit · dem · Auto
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-neg-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — niemand da)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Ich · habe · keine · Zeit · für · ein · langes · Meeting
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-neg-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nichts Neues)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
 **Wörter:** Er · kommt · heute · nicht
 
@@ -1392,9 +1392,9 @@
 ### 118. `b1-neg-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keine Zeit)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Ich · habe · keine · Zeit · für · ein · langes · Meeting
+**Wörter:** Wir · haben · kein · Interesse · an · dem · Angebot
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1402,9 +1402,9 @@
 ### 119. `b1-neg-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kommt nicht)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Er · kommt · heute · nicht
+**Wörter:** Sie · trinkt · keinen · Kaffee · mehr
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,9 +1412,9 @@
 ### 120. `b1-neg-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Interesse)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Wir · haben · kein · Interesse · an · dem · Angebot
+**Wörter:** Das · ist · keine · gute · Idee
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1422,9 +1422,9 @@
 ### 121. `b1-neg-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keinen Kaffee)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Sie · trinkt · keinen · Kaffee · mehr
+**Wörter:** Er · hat · nicht · auf · die · Nachricht · geantwortet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1432,9 +1432,9 @@
 ### 122. `b1-neg-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keine Idee)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Das · ist · keine · eine · gute · Idee
+**Wörter:** Ich · sehe · kein · Problem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1442,9 +1442,9 @@
 ### 123. `b1-neg-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht geantwortet)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Er · hat · nicht · auf · die · Nachricht · geantwortet
+**Wörter:** Sie · arbeitet · nie · am · Wochenende
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `b1-neg-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Problem)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Ich · sehe · kein · Problem
+**Wörter:** Wir · haben · kein · Geld · übrig
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,9 +1462,9 @@
 ### 125. `b1-neg-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nie am Wochenende)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Sie · arbeitet · nie · am · Wochenende
+**Wörter:** Er · ist · nicht · krank · sondern · müde
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1472,9 +1472,9 @@
 ### 126. `b1-neg-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Geld)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Wir · haben · kein · Geld · übrig
+**Wörter:** Das · Medikament · hat · nicht · geholfen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,9 +1482,9 @@
 ### 127. `b1-neg-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht krank)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Er · ist · nicht · krank · sondern · müde
+**Wörter:** Ich · habe · kein · Verständnis · für · diese · Entscheidung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `b1-neg-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht geholfen)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Das · Medikament · hat · nicht · geholfen
+**Wörter:** Sie · isst · weder · Fleisch · noch · Fisch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `b1-neg-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Verständnis)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Ich · habe · kein · Verständnis · für · diese · Entscheidung
+**Wörter:** Er · hat · keine · Erfahrung · in · diesem · Bereich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `b1-neg-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — weder noch)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Sie · isst · weder · Fleisch · noch · Fisch
+**Wörter:** Wir · fahren · nicht · mit · dem · Auto
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-neg-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keine Erfahrung)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Er · hat · keine · Erfahrung · in · diesem · Bereich
+**Wörter:** Ich · habe · keine · Zeit · für · ein · langes · Meeting
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `b1-neg-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht mit Auto)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Wir · fahren · nicht · mit · dem · Auto
+**Wörter:** Er · kommt · heute · nicht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `b1-neg-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — niemand da)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Ich · habe · keine · Zeit · für · ein · langes · Meeting
+**Wörter:** Wir · haben · kein · Interesse · an · dem · Angebot
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1552,9 +1552,9 @@
 ### 134. `b1-neg-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nichts Neues)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Er · kommt · heute · nicht
+**Wörter:** Sie · trinkt · keinen · Kaffee · mehr
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,9 +1562,9 @@
 ### 135. `b1-neg-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keine Zeit)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Ich · habe · keine · Zeit · für · ein · langes · Meeting
+**Wörter:** Das · ist · keine · gute · Idee
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `b1-neg-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kommt nicht)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Er · kommt · heute · nicht
+**Wörter:** Er · hat · nicht · auf · die · Nachricht · geantwortet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,9 +1582,9 @@
 ### 137. `b1-neg-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Interesse)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Wir · haben · kein · Interesse · an · dem · Angebot
+**Wörter:** Ich · sehe · kein · Problem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1592,9 +1592,9 @@
 ### 138. `b1-neg-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keinen Kaffee)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Sie · trinkt · keinen · Kaffee · mehr
+**Wörter:** Sie · arbeitet · nie · am · Wochenende
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `b1-neg-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keine Idee)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Das · ist · keine · eine · gute · Idee
+**Wörter:** Wir · haben · kein · Geld · übrig
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1612,9 +1612,9 @@
 ### 140. `b1-neg-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht geantwortet)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Er · hat · nicht · auf · die · Nachricht · geantwortet
+**Wörter:** Er · ist · nicht · krank · sondern · müde
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `b1-neg-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Problem)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Ich · sehe · kein · Problem
+**Wörter:** Das · Medikament · hat · nicht · geholfen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,9 +1632,9 @@
 ### 142. `b1-neg-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nie am Wochenende)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Sie · arbeitet · nie · am · Wochenende
+**Wörter:** Ich · habe · kein · Verständnis · für · diese · Entscheidung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1642,9 +1642,9 @@
 ### 143. `b1-neg-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Geld)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Wir · haben · kein · Geld · übrig
+**Wörter:** Sie · isst · weder · Fleisch · noch · Fisch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `b1-neg-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht krank)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Er · ist · nicht · krank · sondern · müde
+**Wörter:** Er · hat · keine · Erfahrung · in · diesem · Bereich
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `b1-neg-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht geholfen)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Das · Medikament · hat · nicht · geholfen
+**Wörter:** Wir · fahren · nicht · mit · dem · Auto
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `b1-neg-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — kein Verständnis)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Ich · habe · kein · Verständnis · für · diese · Entscheidung
+**Wörter:** Ich · habe · keine · Zeit · für · ein · langes · Meeting
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,9 +1682,9 @@
 ### 147. `b1-neg-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — weder noch)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Sie · isst · weder · Fleisch · noch · Fisch
+**Wörter:** Er · kommt · heute · nicht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-neg-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — keine Erfahrung)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Er · hat · keine · Erfahrung · in · diesem · Bereich
+**Wörter:** Wir · haben · kein · Interesse · an · dem · Angebot
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,9 +1702,9 @@
 ### 149. `b1-neg-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — nicht mit Auto)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Wir · fahren · nicht · mit · dem · Auto
+**Wörter:** Sie · trinkt · keinen · Kaffee · mehr
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1712,9 +1712,9 @@
 ### 150. `b1-neg-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verneinung — niemand da)
+> Ordne die Wörter zum richtigen Satz: (Verneinung)
 
-**Wörter:** Ich · habe · keine · Zeit · für · ein · langes · Meeting
+**Wörter:** Das · ist · keine · gute · Idee
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

@@ -2,14 +2,14 @@
 id: b1-akk-dd-037
 type: dropbox
 words:
-  - Sie
-  - bereitet
+  - Ich
+  - interessiere
+  - mich
+  - für
   - eine
-  - Prüfung
-  - an
-  - der
-  - Universität
-  - vor
+  - Stelle
+  - im
+  - Ausland
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Prüfung)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

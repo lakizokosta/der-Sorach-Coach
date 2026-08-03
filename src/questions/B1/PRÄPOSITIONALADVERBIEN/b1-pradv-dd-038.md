@@ -2,15 +2,19 @@
 id: b1-pradv-dd-038
 type: dropbox
 words:
-  - Sprichst
+  - Kümmerst
   - du
-  - über
-  - das
-  - Problem
-  - Ja
-  - wir
-  - sprechen
-  - darüber
+  - dich
+  - um
+  - die
+  - Patienten
+  - —
+  - Ich
+  - kümmere
+  - mich
+  - darum
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-026
 type: input-text
+hint: Possessivartikel — ihr, neutr., Nom.
 correct:
   - Euer
 ---
 
-___ Team gewinnt heute. (Possessivartikel — ihr, mask., Nom.)
+Ergänze den Possessivartikel:
+
+___ Team gewinnt heute.

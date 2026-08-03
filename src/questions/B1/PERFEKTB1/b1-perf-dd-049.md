@@ -2,13 +2,14 @@
 id: b1-perf-dd-049
 type: dropbox
 words:
-  - Die
-  - Firma
-  - hat
-  - viele
-  - neue
-  - Mitarbeiter
-  - eingestellt
+  - Ich
+  - habe
+  - den
+  - Artikel
+  - gestern
+  - gelesen
+alternatives:
+  - Ich,habe,gestern,den,Artikel,gelesen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

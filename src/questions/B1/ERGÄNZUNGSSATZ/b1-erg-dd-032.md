@@ -2,13 +2,16 @@
 id: b1-erg-dd-032
 type: dropbox
 words:
-  - Wir
-  - wissen
+  - Der
+  - Chef
+  - sagt
   - dass
-  - die
-  - Entscheidung
-  - schwer
-  - war
+  - das
+  - Meeting
+  - verschoben
+  - wird
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Entscheidung schwer war)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

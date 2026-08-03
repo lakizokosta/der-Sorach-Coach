@@ -2,11 +2,11 @@
 id: a2-fest-024
 type: select-one
 options:
-  - guten
-  - gutes
-  - guter
-  - gute
-correct: gutes
+  - an
+  - über
+  - in
+  - für
+correct: über
 ---
 
-Ich hoffe auf ___ gutes Wetter. (feste Präposition)
+Wir diskutieren ___ das Problem. (Feste Präposition)

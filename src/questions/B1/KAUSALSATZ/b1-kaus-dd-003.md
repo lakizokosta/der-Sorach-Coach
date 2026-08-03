@@ -11,6 +11,8 @@ words:
   - noch
   - arbeiten
   - muss
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil arbeiten muss)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

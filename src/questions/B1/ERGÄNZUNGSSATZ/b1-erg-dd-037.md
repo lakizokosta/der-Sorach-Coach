@@ -2,13 +2,16 @@
 id: b1-erg-dd-037
 type: dropbox
 words:
-  - Sie
-  - hofft
+  - Er
+  - behauptet
   - dass
-  - sie
-  - die
-  - Prüfung
-  - besteht
+  - er
+  - alles
+  - richtig
+  - gemacht
+  - hat
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Prüfung besteht)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

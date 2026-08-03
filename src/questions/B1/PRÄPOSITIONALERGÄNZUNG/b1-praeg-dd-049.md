@@ -3,10 +3,11 @@ id: b1-praeg-dd-049
 type: dropbox
 words:
   - Sie
-  - achtet
+  - freut
+  - sich
   - auf
-  - ihre
-  - Gesundheit
+  - die
+  - Reise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — achtet auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

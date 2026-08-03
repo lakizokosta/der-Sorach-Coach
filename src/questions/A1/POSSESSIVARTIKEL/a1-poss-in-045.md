@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-045
 type: input-text
+hint: Possessivartikel — er, neutr., Akk.
 correct:
   - sein
 ---
 
-Er repariert ___ Fahrrad. (Possessivartikel — er, neutr., Akk.)
+Ergänze den Possessivartikel:
+
+Er repariert ___ Fahrrad.

@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-022
 type: input-text
+hint: Passiv + Hilfsverb werden
 correct:
   - wird
 ---
 
-Das Medikament ___ in Apotheken angeboten. (Passiv + Hilfsverb werden)
+Ergänze die Passivform:
+
+Das Medikament ___ in Apotheken angeboten.

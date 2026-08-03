@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-010
 type: input-text
+hint: Passiv + Hilfsverb werden
 correct:
   - wird
 ---
 
-Das Projekt ___ von der EU gefördert. (Passiv + Hilfsverb werden)
+Ergänze die Passivform:
+
+Das Projekt ___ von der EU gefördert.

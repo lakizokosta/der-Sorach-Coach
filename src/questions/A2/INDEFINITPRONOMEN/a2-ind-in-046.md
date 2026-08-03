@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-046
 type: input-text
+hint: Indefinitpronomen — unbestimmte Sache = etwas
 correct:
   - etwas
 ---
 
-Brauchst du ___ für die Reise? (Indefinitpronomen — Sache)
+Ergänze das Indefinitpronomen:
+
+Brauchst du ___ für die Reise?

@@ -2,13 +2,16 @@
 id: b1-demo-dd-031
 type: dropbox
 words:
-  - Diese
-  - Vorlesung
-  - war
-  - interessanter
+  - Dieses
+  - Projekt
+  - gefällt
+  - mir
+  - besser
   - als
-  - die
+  - das
   - andere
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Vorlesung)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

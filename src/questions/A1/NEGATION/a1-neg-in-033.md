@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-033
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Das ist ___ meine Mutter. (Negation)
+Ergänze die Verneinung:
+
+Das ist ___ meine Mutter.

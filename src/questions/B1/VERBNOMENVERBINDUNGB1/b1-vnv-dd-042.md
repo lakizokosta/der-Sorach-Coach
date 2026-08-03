@@ -2,11 +2,10 @@
 id: b1-vnv-dd-042
 type: dropbox
 words:
-  - Der
-  - Minister
-  - hält
+  - Sie
+  - stellt
   - eine
-  - Rede
+  - Diagnose
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Rede halten)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

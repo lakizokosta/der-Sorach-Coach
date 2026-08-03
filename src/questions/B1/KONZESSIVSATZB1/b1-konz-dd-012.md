@@ -12,4 +12,4 @@ words:
   - uns
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Warnung kam)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

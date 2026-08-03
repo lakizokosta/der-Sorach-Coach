@@ -9,4 +9,4 @@ options:
 correct: Nach
 ---
 
-Wohin gehst du nach der Schule? — ___ Haus. (Dativ oder Akkusativ — Wohin?)
+Wohin gehst du nach der Schule? — ___ Hause. (Dativ oder Akkusativ)

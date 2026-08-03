@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-018
 type: input-text
+hint: Akkusativ — ein / eine / einem / einer
 correct:
   - eine
 ---
 
-Sie bereitet ___ Prüfung an der Universität vor. (Akkusativ)
+Ergänze die Akkusativform:
+
+Sie bereitet ___ Prüfung an der Universität vor.

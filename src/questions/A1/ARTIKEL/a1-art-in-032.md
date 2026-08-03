@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-032
 type: input-text
+hint: Artikel — ein Ticket, neutr., Akk.
 correct:
   - ein
 ---
 
-Sie hat ___ Ticket. (Artikel — neutr., Akk.)
+Ergänze den Artikel:
+
+Sie hat ___ Ticket.

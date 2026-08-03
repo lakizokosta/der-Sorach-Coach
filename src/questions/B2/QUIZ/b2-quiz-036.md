@@ -2,11 +2,11 @@
 id: b2-quiz-036
 type: select-one
 options:
-  - außerdem
-  - trotzdem
+  - folglich
+  - hingegen
   - deshalb
-  - dann
-correct: trotzdem
+  - außerdem
+correct: hingegen
 ---
 
-Das Wetter war schlecht; ___ fand das Fest statt. (Grammatikform)
+Sie hat Erfahrung; ___ fehlt ihr das nötige Zertifikat.

@@ -4,6 +4,8 @@ type: dropbox
 words:
   - Das
   - ist
+  - das
+  - Auto
   - meines
   - Vaters
 ---

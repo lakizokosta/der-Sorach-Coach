@@ -11,4 +11,4 @@ words:
   - bringen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb bringen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

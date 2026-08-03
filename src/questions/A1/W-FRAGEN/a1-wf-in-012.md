@@ -1,9 +1,11 @@
 ---
 id: a1-wf-in-012
 type: input-text
+hint: Frage nach Essen
 correct:
   - Was
 ---
 
-___ isst du gern? — Pizza. (Frage nach Essen)
+Ergänze das Fragewort:
 
+___ isst du gern? — Pizza.

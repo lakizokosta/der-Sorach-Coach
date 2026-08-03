@@ -2,13 +2,10 @@
 id: b1-vnv-dd-026
 type: dropbox
 words:
-  - Ich
-  - führe
+  - Wir
+  - haben
   - ein
-  - Gespräch
-  - mit
-  - dem
-  - Chef
+  - Meeting
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Gespräch führen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

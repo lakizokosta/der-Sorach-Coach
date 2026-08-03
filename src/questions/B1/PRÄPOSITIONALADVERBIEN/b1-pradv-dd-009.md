@@ -8,10 +8,11 @@ words:
   - über
   - die
   - Nachricht
+  - —
   - Ich
   - ärgere
   - mich
   - darüber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

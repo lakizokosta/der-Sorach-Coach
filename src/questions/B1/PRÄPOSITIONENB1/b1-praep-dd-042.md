@@ -2,11 +2,12 @@
 id: b1-praep-dd-042
 type: dropbox
 words:
-  - Sie
-  - wohnt
-  - auf
-  - dem
-  - Land
+  - Wir
+  - diskutieren
+  - über
+  - den
+  - neuen
+  - Plan
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — auf Land)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

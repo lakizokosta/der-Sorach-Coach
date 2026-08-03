@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-036
 type: input-text
+hint: Präsens + Verb waschen
 correct:
   - wäschst
 ---
 
-Du ___ die Kleidung. (Präsens + Verb waschen)
+Ergänze die Präsensform des Verbs:
+
+Du ___ die Kleidung.

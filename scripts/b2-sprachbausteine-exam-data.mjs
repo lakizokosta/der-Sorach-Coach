@@ -14,7 +14,7 @@ export const TEIL1 = [
     gaps: [
       { options: ['ob', 'wann', 'denn'], correct: 'ob' },
       { options: ['sofort', 'später', 'gestern'], correct: 'sofort' },
-      { options: ['wenn', 'weil', 'obwohl'], correct: 'wenn' },
+      { options: ['wenn', 'weil', 'damit'], correct: 'wenn' },
       { options: ['für', 'über', 'ohne'], correct: 'für' },
       { options: ['gerne', 'nie', 'selten'], correct: 'gerne' },
     ],
@@ -78,9 +78,9 @@ export const TEIL1 = [
     hint: 'Teil 1: Beschwerde — Lärmbelästigung',
     text: 'Sehr geehrte Damen und Herren,\nseit mehreren Wochen ist die Lärmbelästigung deutlich gestiegen, ___ Bauarbeiten bis spät in die Nacht dauern. Wir bitten Sie, die Ruhezeiten zu überprüfen und ___ Maßnahmen zu ergreifen. ___ sich die Situation nicht bessert, werden wir erneut Stellung nehmen, ___ dies rechtlich erforderlich ist. Wir zählen ___ Ihre Unterstützung.\nMit freundlichen Grüßen\nDie Anwohner',
     gaps: [
-      { options: ['weil', 'obwohl', 'wenn'], correct: 'weil' },
+      { options: ['weil', 'obwohl', 'damit'], correct: 'weil' },
       { options: ['geeignete', 'geeigneten', 'geeigneter'], correct: 'geeignete' },
-      { options: ['Wenn', 'Weil', 'Obwohl'], correct: 'Wenn' },
+      { options: ['Wenn', 'Obwohl', 'Sobald'], correct: 'Wenn' },
       { options: ['falls', 'weil', 'obwohl'], correct: 'falls' },
       { options: ['auf', 'über', 'gegen'], correct: 'auf' },
     ],
@@ -122,7 +122,7 @@ export const TEIL1 = [
     hint: 'Teil 1: Beschwerde Hotel',
     text: 'Sehr geehrte Damen und Herren,\nwährend meines Aufenthalts vom 8. bis 10. Juni war das Zimmer nicht sauber, ___ die Heizung in der Nacht ausfiel. Trotz Reklamation wurde ___ unternommen. Ich erwarte eine Preisreduzierung, ___ ich andernfalls eine Bewertung veröffentlichen werde. Eine Antwort ___ Ende der Woche wäre ___ .\nMit freundlichen Grüßen\nClaudia Brandt',
     gaps: [
-      { options: ['und', 'sondern', 'oder'], correct: 'und' },
+      { options: ['weil', 'und', 'oder'], correct: 'weil' },
       { options: ['nichts', 'etwas', 'alles'], correct: 'nichts' },
       { options: ['sonst', 'deshalb', 'außerdem'], correct: 'sonst' },
       { options: ['bis', 'seit', 'während'], correct: 'bis' },
@@ -222,7 +222,7 @@ export const TEIL1 = [
     text: 'Sehr geehrte Frau Wagner,\nhiermit kündige ich meinen Mietvertrag zum nächstmöglichen Termin. Die Wohnung werde ich sauber ___ übergeben, ___ ich bereits eine Nachmieterin gefunden habe. Bitte bestätigen Sie mir den ___ schriftlich, ___ Unklarheiten vermieden werden. Für Rückfragen bin ich ___ erreichbar.\nMit freundlichen Grüßen\nStefan Wolf',
     gaps: [
       { options: ['zurück', 'weg', 'hin'], correct: 'zurück' },
-      { options: ['sobald', 'während', 'bevor'], correct: 'sobald' },
+      { options: ['weil', 'sobald', 'bevor'], correct: 'weil' },
       { options: ['Eingang', 'Ausgang', 'Umgang'], correct: 'Eingang' },
       { options: ['damit', 'weil', 'obwohl'], correct: 'damit' },
       { options: ['jederzeit', 'niemals', 'selten'], correct: 'jederzeit' },
@@ -293,7 +293,7 @@ export const TEIL2 = [
     gaps: [
       { options: ['weiterhin', 'sofort', 'rückwirkend'], correct: 'weiterhin' },
       { options: ['850', '85', '8500'], correct: '850' },
-      { options: ['jährlich', 'monatlich', 'stündlich'], correct: 'jährlich' },
+      { options: ['jährlich', 'einmalig', 'stündlich'], correct: 'jährlich' },
       { options: ['schriftlich', 'mündlich', 'telepathisch'], correct: 'schriftlich' },
       { options: ['per Post', 'per Fax', 'mündlich'], correct: 'per Post' },
     ],
@@ -427,7 +427,7 @@ export const TEIL2 = [
       { options: ['inklusive', 'ausschließlich', 'ohne jede'], correct: 'inklusive' },
       { options: ['Zertifikat', 'Strafzettel', 'Mahnbescheid'], correct: 'Zertifikat' },
       { options: ['Anmeldungen', 'Kündigungen', 'Strafen'], correct: 'Anmeldungen' },
-      { options: ['entgegen', 'entgegenüber', 'entgegennehmen'], correct: 'entgegen' },
+      { options: ['entgegen', 'mit', 'entgegennehmen'], correct: 'entgegen' },
     ],
   },
   {

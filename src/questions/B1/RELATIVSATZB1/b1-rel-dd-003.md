@@ -9,6 +9,9 @@ words:
   - planen
   - ist
   - ambitioniert
+commas:
+  - 1
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — das wir planen)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

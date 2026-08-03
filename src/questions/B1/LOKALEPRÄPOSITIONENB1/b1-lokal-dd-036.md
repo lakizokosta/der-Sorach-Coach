@@ -2,12 +2,12 @@
 id: b1-lokal-dd-036
 type: dropbox
 words:
-  - Die
-  - Apotheke
+  - Das
+  - Café
   - ist
-  - an
-  - der
-  - Ecke
+  - neben
+  - dem
+  - Park
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — an Ecke)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

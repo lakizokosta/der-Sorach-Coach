@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Er ___ sich impfen. (lassen + Verb impfen)
+Er ___ sich impfen. (Verben lassen)

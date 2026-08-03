@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-040
 type: input-text
+hint: Akkusativ — ein / eine / einen / einer
 correct:
   - ein
 ---
 
-Sie reserviert ___ Zimmer im Hotel. (Akkusativ)
+Ergänze die Akkusativform:
+
+Sie reserviert ___ Zimmer im Hotel.

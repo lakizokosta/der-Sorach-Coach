@@ -8,6 +8,8 @@ words:
   - Rechnung
   - schon
   - bezahlt
+alternatives:
+  - Wir,haben,schon,die,Rechnung,bezahlt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

@@ -8,6 +8,8 @@ words:
   - um
   - die
   - Hausaufgaben
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb kümmern)

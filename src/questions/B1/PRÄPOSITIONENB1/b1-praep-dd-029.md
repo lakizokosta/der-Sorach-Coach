@@ -2,12 +2,12 @@
 id: b1-praep-dd-029
 type: dropbox
 words:
-  - Wir
-  - diskutieren
-  - über
-  - dem
-  - neuen
-  - Plan
+  - Das
+  - Hotel
+  - liegt
+  - an
+  - der
+  - Küste
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — über Plan)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

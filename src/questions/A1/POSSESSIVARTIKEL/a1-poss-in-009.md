@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-009
 type: input-text
+hint: Possessivartikel — wir, fem., Akk.
 correct:
   - unsere
 ---
 
-Wir suchen ___ Wohnung. (Possessivartikel — wir, fem., Akk.)
+Ergänze den Possessivartikel:
+
+Wir suchen ___ Wohnung.

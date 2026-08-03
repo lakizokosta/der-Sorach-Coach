@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-032
 type: input-text
+hint: Wechselpräpositionen — Wo?
 correct:
   - in einer
 ---
 
-Ich wohne ___ kleinen Stadt. (Dativ oder Akkusativ — Wo?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Ich wohne ___ kleinen Stadt.

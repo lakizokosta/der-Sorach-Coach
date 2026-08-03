@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-035
 type: input-text
+hint: Dativ — die Kinder, Dat.
 correct:
-  - den Kindern
+  - den
 ---
 
-Ich bringe ___ Kindern Süßigkeiten. (Dativ — Dat.)
+Ergänze die Dativform:
+
+Ich bringe ___ Kindern Süßigkeiten.

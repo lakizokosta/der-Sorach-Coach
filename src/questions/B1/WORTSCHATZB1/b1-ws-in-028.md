@@ -1,8 +1,11 @@
 ---
 id: b1-ws-in-028
 type: input-text
+hint: Wortschatz — nachhaltbar / nachhaltend / nachhaltig / nachhaltige
 correct:
   - nachhaltige
 ---
 
-Sie sucht eine ___ Lösung für das Problem. (Wortschatz B1)
+Ergänze das passende Wort:
+
+Sie sucht eine ___ Lösung für das Problem.

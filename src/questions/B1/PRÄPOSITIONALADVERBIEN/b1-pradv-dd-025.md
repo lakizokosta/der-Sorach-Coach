@@ -2,17 +2,15 @@
 id: b1-pradv-dd-025
 type: dropbox
 words:
-  - Kümmerst
+  - Hilfst
   - du
-  - dich
-  - um
-  - die
-  - Patienten
-  - Ja
-  - ich
-  - kümmere
-  - mich
-  - darum
+  - bei
+  - dem
+  - Projekt
+  - —
+  - Ich
+  - helfe
+  - dabei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darum)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

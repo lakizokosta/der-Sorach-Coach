@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-042
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
-  - den
+  - über
 ---
 
-Sie ärgert sich über ___ Fehler. (feste Präposition)
+Ergänze die feste Präposition:
+
+Sie ärgert sich ___ den Fehler.

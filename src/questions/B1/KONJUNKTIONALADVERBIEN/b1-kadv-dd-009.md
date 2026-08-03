@@ -11,4 +11,4 @@ words:
   - nebenbei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem jobbt)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

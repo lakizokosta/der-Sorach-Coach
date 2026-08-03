@@ -12,4 +12,4 @@ words:
   - müde
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb müde)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

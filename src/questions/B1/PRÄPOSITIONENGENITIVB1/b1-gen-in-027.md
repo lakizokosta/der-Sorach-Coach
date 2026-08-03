@@ -1,8 +1,11 @@
 ---
 id: b1-gen-in-027
 type: input-text
+hint: Genitiv-Präposition
 correct:
   - Trotz
 ---
 
-___ des Regens gehen wir spazieren. (Genitiv-Präposition)
+Ergänze die Genitiv-Präposition:
+
+___ des Regens gehen wir spazieren.

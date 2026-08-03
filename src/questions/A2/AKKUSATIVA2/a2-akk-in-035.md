@@ -1,8 +1,11 @@
 ---
 id: a2-akk-in-035
 type: input-text
+hint: Akkusativ — der Bus
 correct:
   - den
 ---
 
-Ich warte auf ___ Bus. (Akkusativ — der Bus)
+Ergänze die Akkusativform:
+
+Ich warte auf ___ Bus.

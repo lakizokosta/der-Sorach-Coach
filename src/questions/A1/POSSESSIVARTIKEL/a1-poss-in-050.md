@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-050
 type: input-text
+hint: Possessivartikel — wir, Pl., Nom.
 correct:
   - Unsere
 ---
 
-___ Kollegen sind nett. (Possessivartikel — wir, Pl., Nom.)
+Ergänze den Possessivartikel:
+
+___ Kollegen sind nett.

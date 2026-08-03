@@ -2,14 +2,11 @@
 id: b1-akk-dd-021
 type: dropbox
 words:
-  - Er
-  - informiert
-  - seine
-  - Kollegen
-  - über
-  - die
-  - neue
-  - Regelung
+  - Die
+  - Ärztin
+  - verschreibt
+  - ein
+  - Medikament
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — seine Kollegen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

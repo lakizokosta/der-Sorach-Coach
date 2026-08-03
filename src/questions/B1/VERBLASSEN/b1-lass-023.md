@@ -9,4 +9,4 @@ options:
 correct: lassen
 ---
 
-Wir ___ uns im Hotel einchecken. (lassen + Verb einchecken)
+Wir ___ uns im Hotel einchecken. (Verben lassen)

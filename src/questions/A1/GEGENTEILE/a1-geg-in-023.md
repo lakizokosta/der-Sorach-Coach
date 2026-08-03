@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-023
 type: input-text
+hint: Gegenteil von pünktlich
 correct:
   - unpünktlich
 ---
 
-Der Zug ist pünktlich, der Bus ist ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Der Zug ist pünktlich, der Bus ist ___.

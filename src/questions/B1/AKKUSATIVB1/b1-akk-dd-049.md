@@ -2,13 +2,14 @@
 id: b1-akk-dd-049
 type: dropbox
 words:
-  - Sie
-  - kauft
-  - ein
-  - Ticket
-  - für
-  - den
-  - Zug
+  - Er
+  - informiert
+  - seine
+  - Kollegen
+  - über
+  - die
+  - neue
+  - Regelung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Ticket)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

@@ -2,11 +2,11 @@
 id: a2-fest-045
 type: select-one
 options:
-  - die
-  - dem
-  - das
-  - den
-correct: den
+  - von
+  - über
+  - bei
+  - mit
+correct: mit
 ---
 
-Wir lachen über ___ Witz. (feste Präposition)
+Wir sprechen ___ dem Chef. (Feste Präposition)

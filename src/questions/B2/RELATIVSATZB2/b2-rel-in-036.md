@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-036
 type: input-text
+hint: der
 correct:
   - der
 ---
 
-Die Stadt, in ___ ich wohne, hat sich verändert. (Relativpronomen)
+Ergänze das Relativpronomen:
+
+Die Stadt, in ___ ich wohne, hat sich verändert.

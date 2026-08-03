@@ -8,4 +8,4 @@ words:
   - Geburtstag
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihr)
+Ordne die Wörter zum richtigen Satz: (Possessiv — ihr)

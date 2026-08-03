@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-018
 type: input-text
+hint: Modalverb + Verb sollen
 correct:
   - sollst
 ---
 
-Du ___ mehr Wasser trinken. (Modalverb + Verb sollen)
+Ergänze die Modalverbform:
+
+Du ___ mehr Wasser trinken.

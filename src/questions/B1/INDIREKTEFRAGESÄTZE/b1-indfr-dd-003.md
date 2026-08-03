@@ -8,6 +8,8 @@ words:
   - wir
   - morgen
   - kommen
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob morgen kommen)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

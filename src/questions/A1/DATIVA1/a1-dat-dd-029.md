@@ -8,4 +8,4 @@ words:
   - gut
 ---
 
-Ordne die Wörter zum richtigen Satz: (Dativ — mir geht gut)
+Ordne die Wörter zum richtigen Satz: (Dativ — Mir geht es gut)

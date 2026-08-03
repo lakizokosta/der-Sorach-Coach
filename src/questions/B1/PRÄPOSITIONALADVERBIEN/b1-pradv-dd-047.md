@@ -2,15 +2,16 @@
 id: b1-pradv-dd-047
 type: dropbox
 words:
-  - Teilnimmst
+  - Wann
+  - denkst
   - du
   - an
-  - der
-  - Konferenz
+  - den
+  - Termin
+  - —
   - Ich
-  - nehme
+  - denke
   - daran
-  - teil
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber (Informieren))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

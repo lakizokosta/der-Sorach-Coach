@@ -21,10 +21,10 @@
 > Ich antworte ___ Freundin. (Dativ — die Freundin)
 
 **Optionen:**
-- das
-- den
-- dem
 - der **✓**
+- die
+- den
+- des
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -36,9 +36,9 @@
 
 **Optionen:**
 - das
-- dem **✓**
 - den
-- die
+- des
+- dem **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -49,9 +49,9 @@
 > Wir danken ___ Lehrerin. (Dativ — die Lehrerin)
 
 **Optionen:**
-- den
 - der **✓**
-- das
+- den
+- des
 - die
 
 - [ ] OK
@@ -63,10 +63,10 @@
 > Ich folge ___ Hund. (Dativ — der Hund)
 
 **Optionen:**
-- der
-- das
-- dem **✓**
 - den
+- dem **✓**
+- des
+- der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -78,9 +78,9 @@
 
 **Optionen:**
 - der
-- die
-- das
+- den
 - dem **✓**
+- des
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -91,10 +91,10 @@
 > Ich gebe ___ Mutter Blumen. (Dativ — meine Mutter, Dat.)
 
 **Optionen:**
-- mein
-- meiner **✓**
 - meine
-- meinem
+- meinen
+- meines
+- meiner **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -105,10 +105,10 @@
 > Er schreibt ___ Freund. (Dativ — sein Freund, Dat.)
 
 **Optionen:**
-- seinen
-- sein
 - seinem **✓**
-- seiner
+- seinen
+- seine
+- sein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -119,10 +119,10 @@
 > Wir fahren mit ___ Bus. (Dativ — der Bus)
 
 **Optionen:**
-- der
-- das
-- dem **✓**
 - den
+- dem **✓**
+- des
+- der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -133,10 +133,10 @@
 > Ich wohne bei ___ Eltern. (Dativ — meine Eltern, Dat.)
 
 **Optionen:**
-- meinem
 - meiner
-- mein
+- meine
 - meinen **✓**
+- meines
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -147,10 +147,10 @@
 > Sie arbeitet in ___ Firma. (Dativ — eine Firma)
 
 **Optionen:**
+- einen
+- eines
 - eine
 - einer **✓**
-- einem
-- ein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -161,9 +161,9 @@
 > Ich bin in ___ Schule. (Dativ — die Schule)
 
 **Optionen:**
-- den
 - der **✓**
-- das
+- des
+- den
 - die
 
 - [ ] OK
@@ -175,10 +175,10 @@
 > Er sitzt auf ___ Stuhl. (Dativ — der Stuhl)
 
 **Optionen:**
-- der
-- das
-- dem **✓**
 - den
+- des
+- dem **✓**
+- der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -189,10 +189,10 @@
 > Wir essen mit ___ Freunden. (Dativ — unsere Freunde, Dat.)
 
 **Optionen:**
-- unserer
-- unser
-- unserem
 - unseren **✓**
+- unserer
+- unsere
+- unseres
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -204,9 +204,9 @@
 
 **Optionen:**
 - meine
+- meines
+- meinen
 - meiner **✓**
-- meinem
-- mein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -218,9 +218,9 @@
 
 **Optionen:**
 - den
-- die
+- des
 - der **✓**
-- das
+- die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -231,10 +231,10 @@
 > Ich antworte ___ Freundin. (Dativ — Personalpronomen — du, Dat.)
 
 **Optionen:**
-- den
-- dem
+- des
 - der **✓**
 - die
+- den
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -245,10 +245,10 @@
 > Er hilft ___ Kind. (Dativ — Personalpronomen — Sie, Dat.)
 
 **Optionen:**
-- die
-- der
-- das
 - dem **✓**
+- den
+- das
+- des
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -260,9 +260,9 @@
 
 **Optionen:**
 - die
-- dem
+- des
+- den
 - der **✓**
-- das
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -274,8 +274,8 @@
 
 **Optionen:**
 - der
+- des
 - dem **✓**
-- die
 - den
 
 - [ ] OK
@@ -287,10 +287,10 @@
 > Sie gratuliert ___ Bruder. (Dativ — die Lehrerin)
 
 **Optionen:**
-- der
-- die
+- des
 - dem **✓**
 - den
+- der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -301,10 +301,10 @@
 > Ich gebe ___ Mutter Blumen. (Dativ — der Hund)
 
 **Optionen:**
-- meinem
-- meinen
-- mein
 - meiner **✓**
+- meine
+- meinen
+- meines
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -316,9 +316,9 @@
 
 **Optionen:**
 - sein
-- seinem **✓**
-- seiner
+- seinen
 - seine
+- seinem **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -329,9 +329,9 @@
 > Wir fahren mit ___ Bus. (Dativ — meine Mutter, Dat.)
 
 **Optionen:**
-- der
 - dem **✓**
-- die
+- der
+- des
 - den
 
 - [ ] OK
@@ -343,10 +343,10 @@
 > Ich wohne bei ___ Eltern. (Dativ — sein Freund, Dat.)
 
 **Optionen:**
-- meiner
-- mein
-- meinen **✓**
 - meine
+- meinen **✓**
+- meines
+- meiner
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -357,10 +357,10 @@
 > Sie arbeitet in ___ Firma. (Dativ — der Bus)
 
 **Optionen:**
-- einem
 - einen
-- ein
+- eine
 - einer **✓**
+- eines
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -371,10 +371,10 @@
 > Ich bin in ___ Schule. (Dativ — meine Eltern, Dat.)
 
 **Optionen:**
+- den
+- des
 - die
 - der **✓**
-- das
-- dem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -385,9 +385,9 @@
 > Er sitzt auf ___ Stuhl. (Dativ — eine Firma)
 
 **Optionen:**
-- der
 - dem **✓**
-- die
+- des
+- der
 - den
 
 - [ ] OK
@@ -399,10 +399,10 @@
 > Wir essen mit ___ Freunden. (Dativ — die Schule)
 
 **Optionen:**
-- unserer
-- unseren **✓**
 - unsere
-- unser
+- unseren **✓**
+- unseres
+- unserer
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -413,10 +413,10 @@
 > Ich kaufe ___ Schwester ein Geschenk. (Dativ — der Stuhl)
 
 **Optionen:**
-- meinem
 - meinen
-- mein
+- meine
 - meiner **✓**
+- meines
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -427,10 +427,10 @@
 > Er vertraut ___ Ärztin. (Dativ — unsere Freunde, Dat.)
 
 **Optionen:**
-- dem
-- der **✓**
+- den
+- des
 - die
-- das
+- der **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -441,9 +441,9 @@
 > Ich antworte ___ Freundin. (Dativ — meine Schwester, Dat.)
 
 **Optionen:**
-- den
 - der **✓**
-- das
+- des
+- den
 - die
 
 - [ ] OK
@@ -455,8 +455,8 @@
 > Er hilft ___ Kind. (Dativ — die Ärztin)
 
 **Optionen:**
-- der
 - das
+- des
 - dem **✓**
 - den
 
@@ -469,10 +469,10 @@
 > Wir danken ___ Lehrerin. (Dativ — Personalpronomen — du, Dat.)
 
 **Optionen:**
-- den
-- dem
-- das
 - der **✓**
+- den
+- die
+- des
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -484,9 +484,9 @@
 
 **Optionen:**
 - den
+- des
+- der
 - dem **✓**
-- die
-- das
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -498,8 +498,8 @@
 
 **Optionen:**
 - der
+- des
 - dem **✓**
-- das
 - den
 
 - [ ] OK
@@ -511,10 +511,10 @@
 > Ich gebe ___ Mutter Blumen. (Dativ — das Kind)
 
 **Optionen:**
-- meinen
+- meines
 - meiner **✓**
 - meine
-- mein
+- meinen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -525,10 +525,10 @@
 > Er schreibt ___ Freund. (Dativ — die Lehrerin)
 
 **Optionen:**
+- seinem **✓**
+- sein
 - seinen
 - seine
-- seiner
-- seinem **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -540,9 +540,9 @@
 
 **Optionen:**
 - den
-- das
+- der
+- des
 - dem **✓**
-- die
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -554,8 +554,8 @@
 
 **Optionen:**
 - meiner
+- meines
 - meinen **✓**
-- meinem
 - meine
 
 - [ ] OK
@@ -567,9 +567,9 @@
 > Sie arbeitet in ___ Firma. (Dativ — meine Mutter, Dat.)
 
 **Optionen:**
-- eine
+- eines
 - einer **✓**
-- ein
+- eine
 - einen
 
 - [ ] OK
@@ -581,10 +581,10 @@
 > Ich bin in ___ Schule. (Dativ — sein Freund, Dat.)
 
 **Optionen:**
-- den
-- dem
-- das
 - der **✓**
+- die
+- den
+- des
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -596,9 +596,9 @@
 
 **Optionen:**
 - den
+- der
+- des
 - dem **✓**
-- die
-- das
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -609,10 +609,10 @@
 > Wir essen mit ___ Freunden. (Dativ — meine Eltern, Dat.)
 
 **Optionen:**
-- unserer
-- unsere
 - unseren **✓**
-- unserem
+- unserer
+- unseres
+- unsere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -623,10 +623,10 @@
 > Ich kaufe ___ Schwester ein Geschenk. (Dativ — eine Firma)
 
 **Optionen:**
-- meinen
-- meiner **✓**
 - meine
-- mein
+- meiner **✓**
+- meines
+- meinen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -638,9 +638,9 @@
 
 **Optionen:**
 - den
-- dem
-- das
+- die
 - der **✓**
+- des
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -651,10 +651,10 @@
 > Ich antworte ___ Freundin. (Dativform)
 
 **Optionen:**
+- den
+- des
 - die
-- dem
 - der **✓**
-- das
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -665,10 +665,10 @@
 > Er hilft ___ Kind. (Dativ — unsere Freunde, Dat.)
 
 **Optionen:**
-- der
-- den
 - dem **✓**
-- die
+- des
+- den
+- das
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -680,8 +680,8 @@
 
 **Optionen:**
 - die
+- des
 - der **✓**
-- dem
 - den
 
 - [ ] OK
@@ -693,10 +693,10 @@
 > Ich folge ___ Hund. (Dativ — die Ärztin)
 
 **Optionen:**
-- der
-- das
-- die
 - dem **✓**
+- der
+- den
+- des
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -707,10 +707,10 @@
 > Sie gratuliert ___ Bruder. (Dativ — Personalpronomen — du, Dat.)
 
 **Optionen:**
-- die
-- dem **✓**
+- der
+- des
 - den
-- das
+- dem **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1222,7 +1222,7 @@
 ### 101. `a2-dat-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · antworte · der · Freundin
 
@@ -1232,7 +1232,7 @@
 ### 102. `a2-dat-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Er · hilft · dem · Kind · beim · Formular
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-dat-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Wir · danken · der · Lehrerin
 
@@ -1252,7 +1252,7 @@
 ### 104. `a2-dat-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · folge · dem · Hund · im · Park
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-dat-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Sie · gratuliert · dem · Bruder · zur · Hochzeit
 
@@ -1272,7 +1272,7 @@
 ### 106. `a2-dat-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — meiner)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · gebe · meiner · Mutter · Blumen
 
@@ -1282,7 +1282,7 @@
 ### 107. `a2-dat-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — seinem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Er · schreibt · seinem · Freund · eine · Nachricht
 
@@ -1292,7 +1292,7 @@
 ### 108. `a2-dat-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Wir · fahren · mit · dem · Bus
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-dat-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — meinen)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · wohne · bei · meinen · Eltern
 
@@ -1312,7 +1312,7 @@
 ### 110. `a2-dat-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — einer)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Sie · arbeitet · in · einer · Firma
 
@@ -1322,9 +1322,9 @@
 ### 111. `a2-dat-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
-**Wörter:** Ich · bin · in · der · Schule
+**Wörter:** Ich · bin · heute · bis · drei · Uhr · in · der · Schule
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,9 +1332,9 @@
 ### 112. `a2-dat-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
-**Wörter:** Er · sitzt · auf · dem · Stuhl
+**Wörter:** Er · sitzt · bequem · auf · dem · neuen · Stuhl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1342,7 +1342,7 @@
 ### 113. `a2-dat-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — unseren)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Wir · essen · mit · unseren · Freunden
 
@@ -1352,7 +1352,7 @@
 ### 114. `a2-dat-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — meiner)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · kaufe · meiner · Schwester · ein · Geschenk
 
@@ -1362,7 +1362,7 @@
 ### 115. `a2-dat-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Er · vertraut · der · Ärztin
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-dat-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Personalpronomen — dir)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Das · schmeckt · dir · gut
 
@@ -1382,7 +1382,7 @@
 ### 117. `a2-dat-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Personalpronomen — Ihnen)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · helfe · Ihnen · beim · Ausfüllen
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-dat-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · antworte · der · Freundin
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-dat-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Er · hilft · dem · Kind · beim · Formular
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-dat-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Wir · danken · der · Lehrerin
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-dat-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · folge · dem · Hund · im · Park
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-dat-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Sie · gratuliert · dem · Bruder · zur · Hochzeit
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-dat-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — meiner)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · gebe · meiner · Mutter · Blumen
 
@@ -1452,7 +1452,7 @@
 ### 124. `a2-dat-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — seinem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Er · schreibt · seinem · Freund · eine · Nachricht
 
@@ -1462,7 +1462,7 @@
 ### 125. `a2-dat-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Wir · fahren · mit · dem · Bus
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-dat-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — meinen)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · wohne · bei · meinen · Eltern
 
@@ -1482,7 +1482,7 @@
 ### 127. `a2-dat-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — einer)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Sie · arbeitet · in · einer · Firma
 
@@ -1492,9 +1492,9 @@
 ### 128. `a2-dat-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
-**Wörter:** Ich · bin · in · der · Schule
+**Wörter:** Ich · bin · heute · bis · drei · Uhr · in · der · Schule
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `a2-dat-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
-**Wörter:** Er · sitzt · auf · dem · Stuhl
+**Wörter:** Er · sitzt · bequem · auf · dem · neuen · Stuhl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,7 +1512,7 @@
 ### 130. `a2-dat-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — unseren)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Wir · essen · mit · unseren · Freunden
 
@@ -1522,7 +1522,7 @@
 ### 131. `a2-dat-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — meiner)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · kaufe · meiner · Schwester · ein · Geschenk
 
@@ -1532,7 +1532,7 @@
 ### 132. `a2-dat-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Er · vertraut · der · Ärztin
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-dat-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Personalpronomen — dir)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Das · schmeckt · dir · gut
 
@@ -1552,7 +1552,7 @@
 ### 134. `a2-dat-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Personalpronomen — Ihnen)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · helfe · Ihnen · beim · Ausfüllen
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-dat-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · antworte · der · Freundin
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-dat-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Er · hilft · dem · Kind · beim · Formular
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-dat-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Wir · danken · der · Lehrerin
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-dat-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · folge · dem · Hund · im · Park
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-dat-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Sie · gratuliert · dem · Bruder · zur · Hochzeit
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-dat-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — meiner)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · gebe · meiner · Mutter · Blumen
 
@@ -1622,7 +1622,7 @@
 ### 141. `a2-dat-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — seinem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Er · schreibt · seinem · Freund · eine · Nachricht
 
@@ -1632,7 +1632,7 @@
 ### 142. `a2-dat-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Wir · fahren · mit · dem · Bus
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-dat-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — meinen)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · wohne · bei · meinen · Eltern
 
@@ -1652,7 +1652,7 @@
 ### 144. `a2-dat-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — einer)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Sie · arbeitet · in · einer · Firma
 
@@ -1662,9 +1662,9 @@
 ### 145. `a2-dat-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
-**Wörter:** Ich · bin · in · der · Schule
+**Wörter:** Ich · bin · heute · bis · drei · Uhr · in · der · Schule
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `a2-dat-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
-**Wörter:** Er · sitzt · auf · dem · Stuhl
+**Wörter:** Er · sitzt · bequem · auf · dem · neuen · Stuhl
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,7 +1682,7 @@
 ### 147. `a2-dat-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — unseren)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Wir · essen · mit · unseren · Freunden
 
@@ -1692,7 +1692,7 @@
 ### 148. `a2-dat-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessiv — meiner)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Ich · kaufe · meiner · Schwester · ein · Geschenk
 
@@ -1702,7 +1702,7 @@
 ### 149. `a2-dat-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — der)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Er · vertraut · der · Ärztin
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-dat-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Personalpronomen — dir)
+> Ordne die Wörter zum richtigen Satz: (Dativ)
 
 **Wörter:** Das · schmeckt · dir · gut
 

@@ -10,6 +10,8 @@ words:
   - Fehler
   - gemacht
   - hat
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Fehler gemacht hat)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

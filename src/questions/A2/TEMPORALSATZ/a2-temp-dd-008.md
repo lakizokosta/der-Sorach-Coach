@@ -11,6 +11,8 @@ words:
   - in
   - den
   - Zoo
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

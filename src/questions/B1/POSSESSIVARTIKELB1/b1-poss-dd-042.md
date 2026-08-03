@@ -2,12 +2,13 @@
 id: b1-poss-dd-042
 type: dropbox
 words:
-  - Während
-  - ihres
-  - Studiums
-  - arbeitete
-  - sie
-  - nebenbei
+  - Wegen
+  - meiner
+  - Verspätung
+  - verpasste
+  - ich
+  - den
+  - Termin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres Studiums)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

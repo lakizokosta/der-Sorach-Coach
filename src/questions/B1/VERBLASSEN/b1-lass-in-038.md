@@ -1,8 +1,11 @@
 ---
 id: b1-lass-in-038
 type: input-text
+hint: lassen + Verb einchecken
 correct:
   - lassen
 ---
 
-Wir ___ uns im Hotel einchecken. (lassen + Verb einchecken)
+Ergänze die lassen-Form:
+
+Wir ___ uns im Hotel einchecken.

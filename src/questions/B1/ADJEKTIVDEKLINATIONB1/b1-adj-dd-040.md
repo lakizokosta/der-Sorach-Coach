@@ -2,12 +2,15 @@
 id: b1-adj-dd-040
 type: dropbox
 words:
-  - Er
-  - diskutiert
+  - Wir
+  - sprechen
   - mit
-  - einer
-  - erfahrenen
-  - Politikerin
+  - einem
+  - neuen
+  - Professor
+  - über
+  - das
+  - Projekt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — erfahrenen Politikerin)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

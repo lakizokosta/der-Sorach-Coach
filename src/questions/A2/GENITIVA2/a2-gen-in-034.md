@@ -1,8 +1,11 @@
 ---
 id: a2-gen-in-034
 type: input-text
+hint: Genitiv — das Wetter
 correct:
   - des
 ---
 
-Trotz ___ schlechten Wetters fahren wir an die Mosel. (Genitiv — das Wetter)
+Ergänze die Genitivform:
+
+Trotz ___ schlechten Wetters fahren wir an die Mosel.

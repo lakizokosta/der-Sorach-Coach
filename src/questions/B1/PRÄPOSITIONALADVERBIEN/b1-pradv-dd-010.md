@@ -7,10 +7,10 @@ words:
   - bei
   - dem
   - Projekt
-  - Ja
-  - ich
+  - —
+  - Ich
   - helfe
   - dabei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dabei)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -2,11 +2,11 @@
 id: a2-fest-046
 type: select-one
 options:
-  - ein
-  - eine
-  - einem
-  - einer
-correct: eine
+  - von
+  - auf
+  - für
+  - nach
+correct: auf
 ---
 
-Ich warte auf ___ Antwort. (feste Präposition)
+Sie wartet ___ den Zug. (Feste Präposition)

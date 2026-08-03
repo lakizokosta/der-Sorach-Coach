@@ -2,14 +2,17 @@
 id: b1-konz-dd-046
 type: dropbox
 words:
-  - Sie
-  - hat
-  - wenig
-  - Zeit
-  - trotzdem
-  - hilft
-  - sie
-  - uns
+  - Obwohl
+  - es
+  - Schlafmangel
+  - gibt
+  - arbeitet
+  - der
+  - Kollege
+  - sehr
+  - produktiv
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Warnung kam)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

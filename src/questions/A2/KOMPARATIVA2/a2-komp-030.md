@@ -9,4 +9,4 @@ options:
 correct: länger
 ---
 
-Der ICE ist ___ als der Bus. (Komparativ — schnell)
+Der ICE ist ___ als der Bus. (lang)

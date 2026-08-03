@@ -1,8 +1,11 @@
 ---
 id: b1-praeg-in-036
 type: input-text
+hint: Verb + Präposition
 correct:
   - an
 ---
 
-Ich erinnere mich ___ unseren letzten Urlaub. (Verb + Präposition)
+Ergänze die Präposition (Verb + Präposition):
+
+Ich erinnere mich ___ unseren letzten Urlaub.

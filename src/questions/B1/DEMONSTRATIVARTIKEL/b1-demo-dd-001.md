@@ -10,6 +10,8 @@ words:
   - als
   - das
   - andere
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Projekt)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

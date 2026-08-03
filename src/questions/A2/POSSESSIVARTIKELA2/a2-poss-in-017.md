@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-017
 type: input-text
+hint: Possessivartikel — ich, fem., Nom.
 correct:
   - Meine
 ---
 
-___ Kindheit war schön. (Possessivartikel — ich, fem., Nom.)
+Ergänze den Possessivartikel:
+
+___ Kindheit war schön.

@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-040
 type: input-text
+hint: Akkusativ — das Konzert, Akk.
 correct:
   - das
 ---
 
-Wir hören ___ Konzert. (Akkusativ — Akk.)
+Ergänze die Akkusativform:
+
+Wir hören ___ Konzert.

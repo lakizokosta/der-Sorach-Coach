@@ -8,14 +8,16 @@ words:
   - aus
   - Interesse
   - an
+  - der
   - Politik
   - regelmäßig
-  - die
-  - Zeitung
+  - im
+  - Sessel
 codes:
   - _
   - _
   - T
+  - K
   - K
   - K
   - K
@@ -25,4 +27,4 @@ codes:
   - L
 ---
 
-Ordne die Wörter zum richtigen Satz: (TeKaMoLo — abends / aus Interesse / regelmäßig / die Zeitung)
+Ordne die Wörter zum richtigen Satz: (TeKaMoLo — abends / an der Politik / regelmäßig / im Sessel)

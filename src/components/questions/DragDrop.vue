@@ -2,13 +2,20 @@
 /**
  * DragDrop — "Ordne die Wörter zum richtigen Satz" question.
  *
- * First wrong check: learner may reorder chips (emits `first-wrong`).
+ * First wrong check: learner may reorder chips (emits `first-wrong`);
+ * words already in the correct slot are highlighted green and locked.
  * Second wrong check: shows the correct sentence and finalises as wrong.
+ * The Tipp button inserts the next reference word (trimming a wrong tail).
  * Correct on first try (or after one wrong) finalises like MultipleChoice.
+ *
+ * Optional `commas` in question data: 0-based word indices after which a
+ * comma is shown (Relativsatz and similar).
  */
 
 import { computed, ref, onMounted } from 'vue';
 import { shuffle } from '@/utils/random.js';
+import { stripTrailingPromptHint } from '@/utils/markdownQuestion.js';
+import { resolveDropboxCommas } from '@/utils/dropboxCommas.js';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -16,6 +23,10 @@ const props = defineProps({
 const emit = defineEmits(['answer', 'first-wrong', 'complete']);
 
 const correct = props.question.words || [];
+const validOrders = [
+  correct,
+  ...(props.question.alternatives || []),
+];
 const bank = ref([]);
 const drop = ref([]);
 const wrongChecks = ref(0);
@@ -25,6 +36,14 @@ const succeeded = ref(false);
 const showSolution = ref(false);
 const message = ref({ html: '', color: '' });
 
+const commaAfter = computed(() =>
+  resolveDropboxCommas({
+    words: correct,
+    commas: props.question.commas,
+    hint: props.question.hint || stripTrailingPromptHint(props.question.prompt || ''),
+  }),
+);
+
 // A trailing punctuation mark is trivially obvious — pre-place it as a fixed
 // suffix so the learner only arranges the meaningful words.
 const TRAILING_PUNCT = new Set(['?', '!']);
@@ -32,6 +51,17 @@ const lastWord = correct[correct.length - 1] ?? '';
 const suffix = TRAILING_PUNCT.has(lastWord) ? lastWord : '';
 // Words the student actually needs to arrange (excludes the fixed suffix).
 const coreWords = suffix ? correct.slice(0, -1) : correct;
+
+/** Builds a display string with optional comma positions. */
+function formatSentence(words, suffixChar = '') {
+  let out = '';
+  for (let i = 0; i < words.length; i++) {
+    if (i > 0) out += ' ';
+    out += words[i];
+    if (commaAfter.value.includes(i)) out += ',';
+  }
+  return out + (suffixChar || '');
+}
 
 function scrambleBank() {
   let s = shuffle(coreWords);
@@ -46,10 +76,28 @@ onMounted(scrambleBank);
 
 const locked = computed(() => finalised.value || showSolution.value);
 
-function pushChip(word) {
+/** True when a chip matches the reference order and must not be removed. */
+function isChipLocked(index) {
+  return (
+    wrongChecks.value >= 1
+    && !finalised.value
+    && !showSolution.value
+    && drop.value[index] === coreWords[index]
+  );
+}
+
+const canApplyHint = computed(() => {
+  if (locked.value) return false;
+  const nextIndex = drop.value.findIndex((w, i) => w !== coreWords[i]);
+  const targetIndex = nextIndex === -1 ? drop.value.length : nextIndex;
+  return targetIndex < coreWords.length;
+});
+
+function pushChip(index) {
   if (locked.value) return;
-  const i = bank.value.indexOf(word);
-  if (i !== -1) bank.value.splice(i, 1);
+  const word = bank.value[index];
+  if (word === undefined) return;
+  bank.value.splice(index, 1);
   drop.value.push(word);
   // Auto-place the last remaining word (already handles "?" via suffix).
   if (bank.value.length === 1) {
@@ -59,9 +107,34 @@ function pushChip(word) {
 }
 
 function popChip(index) {
-  if (locked.value) return;
+  if (locked.value || isChipLocked(index)) return;
   const [w] = drop.value.splice(index, 1);
   if (w !== undefined) bank.value.push(w);
+}
+
+/** Inserts the next reference word; trims a wrong tail first if needed. */
+function applyHint() {
+  if (!canApplyHint.value) return;
+
+  let nextIndex = drop.value.findIndex((w, i) => w !== coreWords[i]);
+  if (nextIndex === -1) nextIndex = drop.value.length;
+
+  while (drop.value.length > nextIndex) {
+    const w = drop.value.pop();
+    if (w !== undefined) bank.value.push(w);
+  }
+
+  const targetWord = coreWords[nextIndex];
+  const bankIndex = bank.value.indexOf(targetWord);
+  if (bankIndex === -1) return;
+
+  bank.value.splice(bankIndex, 1);
+  drop.value.push(targetWord);
+
+  if (bank.value.length === 1) {
+    const last = bank.value.splice(0, 1)[0];
+    drop.value.push(last);
+  }
 }
 
 function finalise(isCorrect) {
@@ -79,9 +152,7 @@ function showCorrectSolution() {
   drop.value = [...coreWords];
   bank.value = [];
   let html = '❌ Nicht richtig. Richtige Lösung:';
-  // Build display sentence without awkward space before punctuation.
-  const displaySentence = coreWords.join(' ') + (suffix ? suffix : '');
-  html += `<div style="margin-top:10px;font-weight:700;color:#2e7d32;">${displaySentence}</div>`;
+  html += `<div style="margin-top:10px;font-weight:700;color:#2e7d32;">${formatSentence(coreWords, suffix)}</div>`;
   if (props.question.codes && props.question.codes.length === correct.length) {
     html += renderTekamoloBreakdown(correct, props.question.codes);
   }
@@ -97,7 +168,8 @@ function check() {
 
   // Include the fixed suffix when checking (it is not part of the drop array).
   const full = suffix ? [...drop.value, suffix] : drop.value;
-  const isCorrect = full.join('|') === correct.join('|');
+  const key = full.join('|');
+  const isCorrect = validOrders.some((order) => order.join('|') === key);
   if (isCorrect) {
     finalise(true);
     return;
@@ -108,10 +180,6 @@ function check() {
 
   if (wrongChecks.value === 1) {
     emit('first-wrong');
-    message.value = {
-      html: '❌ Noch nicht richtig. Ordne die Wörter noch einmal.',
-      color: '#ed4545',
-    };
     return;
   }
 
@@ -169,30 +237,40 @@ function renderTekamoloBreakdown(words, codes) {
   );
 }
 
+const promptLabel = computed(
+  () =>
+    stripTrailingPromptHint(props.question.prompt || '') ||
+    'Ordne die Wörter zum richtigen Satz:',
+);
+
 const chipClass = computed(() => (word, index) => {
   if (showSolution.value || (finalised.value && succeeded.value)) return 'correct';
-  if (!finalised.value || wrongChecks.value < 2) return '';
-  return drop.value[index] === correct[index] ? 'correct' : 'wrong';
+  if (finalised.value && wrongChecks.value >= 2) {
+    return drop.value[index] === coreWords[index] ? 'correct' : 'wrong';
+  }
+  if (wrongChecks.value >= 1 && drop.value[index] === coreWords[index]) return 'correct';
+  return '';
 });
 </script>
 
 <template>
   <div>
     <div class="question-box">
-      {{ question.prompt || 'Ordne die Wörter zum richtigen Satz:' }}
+      {{ promptLabel }}
     </div>
 
     <div class="dd-drop">
       <span v-if="drop.length === 0" class="dd-placeholder">Tippe auf Wörter ↓</span>
-      <span
-        v-for="(w, i) in drop"
-        :key="`d-${i}-${w}`"
-        class="dd-chip"
-        :class="chipClass(w, i)"
-        @click="popChip(i)"
-      >
-        {{ w }}
-      </span>
+      <template v-for="(w, i) in drop" :key="`d-${i}-${w}`">
+        <span
+          class="dd-chip"
+          :class="[chipClass(w, i), { locked: isChipLocked(i) }]"
+          @click="popChip(i)"
+        >
+          {{ w }}
+        </span>
+        <span v-if="commaAfter.includes(i)" class="dd-comma">,</span>
+      </template>
       <!-- Fixed trailing punctuation — pre-placed, not draggable -->
       <span
         v-if="suffix"
@@ -206,7 +284,7 @@ const chipClass = computed(() => (word, index) => {
         v-for="(w, i) in bank"
         :key="`b-${i}-${w}`"
         class="dd-chip"
-        @click="pushChip(w)"
+        @click="pushChip(i)"
       >
         {{ w }}
       </span>
@@ -226,6 +304,14 @@ const chipClass = computed(() => (word, index) => {
         @click="check"
       >
         ✔ Prüfen
+      </button>
+      <button
+        type="button"
+        class="sprach-btn sprach-btn-hint"
+        :disabled="finalised || !canApplyHint"
+        @click="applyHint"
+      >
+        💡 Tipp
       </button>
       <button
         type="button"

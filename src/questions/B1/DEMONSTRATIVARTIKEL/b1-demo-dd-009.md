@@ -10,4 +10,4 @@ words:
   - Chefs
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jene Meinung)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

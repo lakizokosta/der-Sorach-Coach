@@ -12,4 +12,4 @@ words:
   - Ausland
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Stelle)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

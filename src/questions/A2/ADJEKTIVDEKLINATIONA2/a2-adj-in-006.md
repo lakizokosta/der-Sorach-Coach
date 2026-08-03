@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-006
 type: input-text
+hint: Adjektivdeklination — schnell, neutr., Akk.
 correct:
   - schnelles
 ---
 
-Er fährt ein ___ Fahrrad. (Adjektivendung)
+Ergänze die Adjektivendung:
+
+Er fährt ein ___ Fahrrad.

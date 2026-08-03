@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-006
 type: input-text
+hint: Indirekte Rede + Verb können
 correct:
   - könne
 ---
 
-Er meinte, er ___ das nicht tun können. (Indirekte Rede)
+Ergänze die Form (Indirekte Rede):
+
+Er meinte, er ___ das nicht tun.

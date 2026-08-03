@@ -9,6 +9,8 @@ words:
   - fahren
   - wir
   - los
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Zug ankommt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

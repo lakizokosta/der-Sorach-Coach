@@ -8,4 +8,4 @@ words:
   - Bruder
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — sie)
+Ordne die Wörter zum richtigen Satz: (Possessiv — sie)

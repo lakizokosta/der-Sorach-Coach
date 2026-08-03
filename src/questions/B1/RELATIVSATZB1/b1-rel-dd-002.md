@@ -10,6 +10,9 @@ words:
   - traf
   - war
   - nett
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — die ich traf)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

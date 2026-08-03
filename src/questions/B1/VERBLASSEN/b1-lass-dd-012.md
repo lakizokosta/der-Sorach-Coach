@@ -7,8 +7,7 @@ words:
   - das
   - Problem
   - nicht
-  - zu
   - ruhen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb ruhen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

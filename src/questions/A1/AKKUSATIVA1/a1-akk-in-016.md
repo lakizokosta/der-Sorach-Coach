@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-016
 type: input-text
+hint: Akkusativ — mein Bruder, Akk.
 correct:
   - meinen
 ---
 
-Ich rufe ___ Bruder an. (Akkusativ — mein Bruder, Akk.)
+Ergänze die Akkusativform:
+
+Ich rufe ___ Bruder an.

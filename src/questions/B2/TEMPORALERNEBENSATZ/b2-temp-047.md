@@ -4,9 +4,9 @@ type: select-one
 options:
   - Bevor
   - Während
-  - Bis
+  - Seitdem
   - Sobald
 correct: Sobald
 ---
 
-___, das Meeting zu Ende war, gingen alle. (Temporalnebensatz)
+___, das Meeting zu Ende war, gingen alle. (Grammatikform)

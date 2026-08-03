@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-039
 type: input-text
+hint: Wechselpräpositionen — Bewegung
 correct:
   - auf die
 ---
 
-Wir fahren ___ Insel. (Dativ oder Akkusativ)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Wir fahren ___ Insel.

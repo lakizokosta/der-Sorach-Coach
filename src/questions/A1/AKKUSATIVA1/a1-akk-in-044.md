@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-044
 type: input-text
+hint: Akkusativ — meine Kollegin, Akk.
 correct:
   - meine
 ---
 
-Ich lade ___ Kollegin ein. (Akkusativ — Akkusativform)
+Ergänze die Akkusativform:
+
+Ich lade ___ Kollegin ein.

@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-046
 type: input-text
+hint: Adjektivdeklination — wichtig, neutr., Nom.
 correct:
   - wichtiges
 ---
 
-Das ist ein ___ Projekt. (Adjektivendung)
+Ergänze die Adjektivendung:
+
+Das ist ein ___ Projekt.

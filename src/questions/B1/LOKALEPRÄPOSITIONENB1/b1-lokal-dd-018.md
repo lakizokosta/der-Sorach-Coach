@@ -2,13 +2,14 @@
 id: b1-lokal-dd-018
 type: dropbox
 words:
-  - Das
-  - Büro
-  - liegt
-  - direkt
-  - gegenüber
+  - Wir
+  - treffen
+  - uns
+  - vor
   - dem
-  - Bahnhof
+  - Eingang
+  - der
+  - Universität
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — gegenüber Bahnhof)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

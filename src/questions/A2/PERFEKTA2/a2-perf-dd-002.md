@@ -9,4 +9,4 @@ words:
   - gegessen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt)
+Ordne die Wörter zum richtigen Satz: (Perfekt — haben gegessen)

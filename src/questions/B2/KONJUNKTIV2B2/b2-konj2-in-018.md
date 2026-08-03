@@ -1,8 +1,11 @@
 ---
 id: b2-konj2-in-018
 type: input-text
+hint: Konjunktiv II + Verb sein
 correct:
   - wäre
 ---
 
-Wenn ich an seiner Stelle ___, würde ich ablehnen. (Konjunktiv II + Verb sein)
+Ergänze die Konjunktiv-II-Form:
+
+Wenn ich an seiner Stelle ___, würde ich ablehnen.

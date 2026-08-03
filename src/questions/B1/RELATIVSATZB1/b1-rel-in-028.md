@@ -1,8 +1,11 @@
 ---
 id: b1-rel-in-028
 type: input-text
+hint: Relativpronomen — neutr., Nom./Akk.
 correct:
   - das
 ---
 
-Das Gesetz, ___ gestern verabschiedet wurde, tritt bald in Kraft. (Relativpronomen)
+Ergänze das Relativpronomen:
+
+Das Gesetz, ___ gestern verabschiedet wurde, tritt bald in Kraft.

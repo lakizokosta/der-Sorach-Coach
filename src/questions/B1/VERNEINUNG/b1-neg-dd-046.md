@@ -4,11 +4,12 @@ type: dropbox
 words:
   - Ich
   - habe
-  - kein
-  - Verständnis
+  - keine
+  - Zeit
   - für
-  - diese
-  - Entscheidung
+  - ein
+  - langes
+  - Meeting
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kein Verständnis)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

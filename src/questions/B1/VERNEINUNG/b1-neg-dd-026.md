@@ -2,11 +2,11 @@
 id: b1-neg-dd-026
 type: dropbox
 words:
-  - Wir
-  - haben
-  - kein
-  - Geld
-  - übrig
+  - Das
+  - Medikament
+  - hat
+  - nicht
+  - geholfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kein Geld)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

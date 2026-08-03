@@ -10,6 +10,8 @@ words:
   - Wetter
   - schön
   - ist
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)

@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-040
 type: input-text
+hint: Indefinitpronomen — Verneinung Person, Akk. = niemanden
 correct:
   - niemanden
 ---
 
-Ich sehe ___ auf der Straße. (Indefinitpronomen — Verneinung, Akk.)
+Ergänze das Indefinitpronomen:
+
+Ich sehe ___ auf der Straße.

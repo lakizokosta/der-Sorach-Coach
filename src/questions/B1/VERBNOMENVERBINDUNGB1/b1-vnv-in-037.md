@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-037
 type: input-text
+hint: Verb-Nomen-Verbindung — absolviert / macht / nimmt / stellt
 correct:
   - absolviert
 ---
 
-Sie ___ ein Praktikum in einer Klinik. (Verb-Nomen-Verbindung)
+Ergänze die Verb-Nomen-Verbindung:
+
+Sie ___ ein Praktikum in einer Klinik.

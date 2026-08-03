@@ -3,15 +3,15 @@ id: b1-kaus-dd-032
 type: dropbox
 words:
   - Weil
+  - er
+  - fleißig
+  - war
+  - bestand
   - die
-  - Heizung
-  - defekt
-  - ist
-  - wird
-  - es
-  - im
-  - Büro
-  - kalt
+  - Studentin
+  - sofort
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Heizung defekt)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

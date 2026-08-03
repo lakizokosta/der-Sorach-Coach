@@ -9,4 +9,4 @@ options:
 correct: Während
 ---
 
-___, wir redeten, klingelte das Telefon. (Temporalnebensatz)
+___, wir redeten, klingelte das Telefon. (Grammatikform)

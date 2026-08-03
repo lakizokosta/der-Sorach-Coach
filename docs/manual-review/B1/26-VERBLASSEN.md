@@ -18,7 +18,7 @@
 ### 1. `b1-lass-001` · select-one
 
 **Aufgabe:**
-> Ich ___ das Auto reparieren. (lassen + Verb reparieren)
+> Ich ___ das Auto reparieren. (Verben lassen)
 
 **Optionen:**
 - gelassen
@@ -32,7 +32,7 @@
 ### 2. `b1-lass-002` · select-one
 
 **Aufgabe:**
-> Er ___ sich von einem Spezialisten beraten. (lassen + Verb beraten)
+> Er ___ sich von einem Spezialisten beraten. (Verben lassen)
 
 **Optionen:**
 - ließ
@@ -46,7 +46,7 @@
 ### 3. `b1-lass-003` · select-one
 
 **Aufgabe:**
-> Wir ___ unsere Dokumente übersetzen. (lassen + Verb bersetzen)
+> Wir ___ unsere Dokumente übersetzen. (Verben lassen)
 
 **Optionen:**
 - lasst
@@ -60,7 +60,7 @@
 ### 4. `b1-lass-004` · select-one
 
 **Aufgabe:**
-> Sie ___ die Haare schneiden. (lassen + Verb schneiden)
+> Sie ___ die Haare schneiden. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -74,7 +74,7 @@
 ### 5. `b1-lass-005` · select-one
 
 **Aufgabe:**
-> Du ___ dir die Zähne kontrollieren. (lassen + Verb kontrollieren)
+> Du ___ dir die Zähne kontrollieren. (Verben lassen)
 
 **Optionen:**
 - gelassen
@@ -88,7 +88,7 @@
 ### 6. `b1-lass-006` · select-one
 
 **Aufgabe:**
-> Ich ___ mir den Vertrag erklären. (lassen + Verb erklären)
+> Ich ___ mir den Vertrag erklären. (Verben lassen)
 
 **Optionen:**
 - lasst
@@ -102,7 +102,7 @@
 ### 7. `b1-lass-007` · select-one
 
 **Aufgabe:**
-> Er ___ das Paket nach Hause bringen. (lassen + Verb bringen)
+> Er ___ das Paket nach Hause bringen. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -116,7 +116,7 @@
 ### 8. `b1-lass-008` · select-one
 
 **Aufgabe:**
-> Wir ___ uns im Hotel einchecken. (lassen + Verb einchecken)
+> Wir ___ uns im Hotel einchecken. (Verben lassen)
 
 **Optionen:**
 - lasse
@@ -130,7 +130,7 @@
 ### 9. `b1-lass-009` · select-one
 
 **Aufgabe:**
-> Sie ___ den Bericht Korrektur lesen. (lassen + Verb lesen)
+> Sie ___ den Bericht Korrektur lesen. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -144,7 +144,7 @@
 ### 10. `b1-lass-010` · select-one
 
 **Aufgabe:**
-> Ich ___ mir eine zweite Meinung geben. (lassen + Verb geben)
+> Ich ___ mir eine zweite Meinung geben. (Verben lassen)
 
 **Optionen:**
 - lasst
@@ -158,7 +158,7 @@
 ### 11. `b1-lass-011` · select-one
 
 **Aufgabe:**
-> Er ___ sich impfen. (lassen + Verb impfen)
+> Er ___ sich impfen. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -172,7 +172,7 @@
 ### 12. `b1-lass-012` · select-one
 
 **Aufgabe:**
-> Wir ___ das Problem nicht zu ruhen. (lassen + Verb ruhen)
+> Wir ___ das Problem nicht ruhen. (Verben lassen)
 
 **Optionen:**
 - lasse
@@ -186,7 +186,7 @@
 ### 13. `b1-lass-013` · select-one
 
 **Aufgabe:**
-> Sie ___ die Kinder von der Oma abholen. (lassen + Verb abholen)
+> Sie ___ die Kinder von der Oma abholen. (Verben lassen)
 
 **Optionen:**
 - gelassen
@@ -200,7 +200,7 @@
 ### 14. `b1-lass-014` · select-one
 
 **Aufgabe:**
-> Du ___ dir Zeit zum Ausruhen. (lassen + Verb Ausruhen)
+> Du ___ dir Zeit zum Ausruhen. (Verben lassen)
 
 **Optionen:**
 - ließ
@@ -214,7 +214,7 @@
 ### 15. `b1-lass-015` · select-one
 
 **Aufgabe:**
-> Ich ___ mich nicht unter Druck setzen. (lassen + Verb setzen)
+> Ich ___ mich nicht unter Druck setzen. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -228,7 +228,7 @@
 ### 16. `b1-lass-016` · select-one
 
 **Aufgabe:**
-> Ich ___ das Auto reparieren. (lassen + Verb reparieren)
+> Ich ___ das Auto reparieren. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -242,7 +242,7 @@
 ### 17. `b1-lass-017` · select-one
 
 **Aufgabe:**
-> Er ___ sich von einem Spezialisten beraten. (lassen + Verb beraten)
+> Er ___ sich von einem Spezialisten beraten. (Verben lassen)
 
 **Optionen:**
 - gelassen
@@ -256,7 +256,7 @@
 ### 18. `b1-lass-018` · select-one
 
 **Aufgabe:**
-> Wir ___ unsere Dokumente übersetzen. (lassen + Verb bersetzen)
+> Wir ___ unsere Dokumente übersetzen. (Verben lassen)
 
 **Optionen:**
 - lasse
@@ -270,7 +270,7 @@
 ### 19. `b1-lass-019` · select-one
 
 **Aufgabe:**
-> Sie ___ die Haare schneiden. (lassen + Verb schneiden)
+> Sie ___ die Haare schneiden. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -284,7 +284,7 @@
 ### 20. `b1-lass-020` · select-one
 
 **Aufgabe:**
-> Du ___ dir die Zähne kontrollieren. (lassen + Verb kontrollieren)
+> Du ___ dir die Zähne kontrollieren. (Verben lassen)
 
 **Optionen:**
 - lasse
@@ -298,7 +298,7 @@
 ### 21. `b1-lass-021` · select-one
 
 **Aufgabe:**
-> Ich ___ mir den Vertrag erklären. (lassen + Verb erklären)
+> Ich ___ mir den Vertrag erklären. (Verben lassen)
 
 **Optionen:**
 - gelassen
@@ -312,7 +312,7 @@
 ### 22. `b1-lass-022` · select-one
 
 **Aufgabe:**
-> Er ___ das Paket nach Hause bringen. (lassen + Verb bringen)
+> Er ___ das Paket nach Hause bringen. (Verben lassen)
 
 **Optionen:**
 - ließ
@@ -326,7 +326,7 @@
 ### 23. `b1-lass-023` · select-one
 
 **Aufgabe:**
-> Wir ___ uns im Hotel einchecken. (lassen + Verb einchecken)
+> Wir ___ uns im Hotel einchecken. (Verben lassen)
 
 **Optionen:**
 - lasst
@@ -340,7 +340,7 @@
 ### 24. `b1-lass-024` · select-one
 
 **Aufgabe:**
-> Sie ___ den Bericht Korrektur lesen. (lassen + Verb lesen)
+> Sie ___ den Bericht Korrektur lesen. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -354,7 +354,7 @@
 ### 25. `b1-lass-025` · select-one
 
 **Aufgabe:**
-> Ich ___ mir eine zweite Meinung geben. (lassen + Verb geben)
+> Ich ___ mir eine zweite Meinung geben. (Verben lassen)
 
 **Optionen:**
 - gelassen
@@ -368,7 +368,7 @@
 ### 26. `b1-lass-026` · select-one
 
 **Aufgabe:**
-> Er ___ sich impfen. (lassen + Verb impfen)
+> Er ___ sich impfen. (Verben lassen)
 
 **Optionen:**
 - lasse
@@ -382,7 +382,7 @@
 ### 27. `b1-lass-027` · select-one
 
 **Aufgabe:**
-> Wir ___ das Problem nicht zu ruhen. (lassen + Verb ruhen)
+> Wir ___ das Problem nicht ruhen. (Verben lassen)
 
 **Optionen:**
 - lasst
@@ -396,7 +396,7 @@
 ### 28. `b1-lass-028` · select-one
 
 **Aufgabe:**
-> Sie ___ die Kinder von der Oma abholen. (lassen + Verb abholen)
+> Sie ___ die Kinder von der Oma abholen. (Verben lassen)
 
 **Optionen:**
 - lasse
@@ -410,7 +410,7 @@
 ### 29. `b1-lass-029` · select-one
 
 **Aufgabe:**
-> Du ___ dir Zeit zum Ausruhen. (lassen + Verb Ausruhen)
+> Du ___ dir Zeit zum Ausruhen. (Verben lassen)
 
 **Optionen:**
 - gelassen
@@ -424,7 +424,7 @@
 ### 30. `b1-lass-030` · select-one
 
 **Aufgabe:**
-> Ich ___ mich nicht unter Druck setzen. (lassen + Verb setzen)
+> Ich ___ mich nicht unter Druck setzen. (Verben lassen)
 
 **Optionen:**
 - ließ
@@ -438,7 +438,7 @@
 ### 31. `b1-lass-031` · select-one
 
 **Aufgabe:**
-> Ich ___ das Auto reparieren. (lassen + Verb reparieren)
+> Ich ___ das Auto reparieren. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -452,7 +452,7 @@
 ### 32. `b1-lass-032` · select-one
 
 **Aufgabe:**
-> Er ___ sich von einem Spezialisten beraten. (lassen + Verb beraten)
+> Er ___ sich von einem Spezialisten beraten. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -466,7 +466,7 @@
 ### 33. `b1-lass-033` · select-one
 
 **Aufgabe:**
-> Wir ___ unsere Dokumente übersetzen. (lassen + Verb bersetzen)
+> Wir ___ unsere Dokumente übersetzen. (Verben lassen)
 
 **Optionen:**
 - lasst
@@ -480,7 +480,7 @@
 ### 34. `b1-lass-034` · select-one
 
 **Aufgabe:**
-> Sie ___ die Haare schneiden. (lassen + Verb schneiden)
+> Sie ___ die Haare schneiden. (Verben lassen)
 
 **Optionen:**
 - lasse
@@ -494,7 +494,7 @@
 ### 35. `b1-lass-035` · select-one
 
 **Aufgabe:**
-> Du ___ dir die Zähne kontrollieren. (lassen + Verb kontrollieren)
+> Du ___ dir die Zähne kontrollieren. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -508,7 +508,7 @@
 ### 36. `b1-lass-036` · select-one
 
 **Aufgabe:**
-> Ich ___ mir den Vertrag erklären. (lassen + Verb erklären)
+> Ich ___ mir den Vertrag erklären. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -522,7 +522,7 @@
 ### 37. `b1-lass-037` · select-one
 
 **Aufgabe:**
-> Er ___ das Paket nach Hause bringen. (lassen + Verb bringen)
+> Er ___ das Paket nach Hause bringen. (Verben lassen)
 
 **Optionen:**
 - gelassen
@@ -536,7 +536,7 @@
 ### 38. `b1-lass-038` · select-one
 
 **Aufgabe:**
-> Wir ___ uns im Hotel einchecken. (lassen + Verb einchecken)
+> Wir ___ uns im Hotel einchecken. (Verben lassen)
 
 **Optionen:**
 - ließ
@@ -550,7 +550,7 @@
 ### 39. `b1-lass-039` · select-one
 
 **Aufgabe:**
-> Sie ___ den Bericht Korrektur lesen. (lassen + Verb lesen)
+> Sie ___ den Bericht Korrektur lesen. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -564,7 +564,7 @@
 ### 40. `b1-lass-040` · select-one
 
 **Aufgabe:**
-> Ich ___ mir eine zweite Meinung geben. (lassen + Verb geben)
+> Ich ___ mir eine zweite Meinung geben. (Verben lassen)
 
 **Optionen:**
 - lasst
@@ -578,7 +578,7 @@
 ### 41. `b1-lass-041` · select-one
 
 **Aufgabe:**
-> Er ___ sich impfen. (lassen + Verb impfen)
+> Er ___ sich impfen. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -592,7 +592,7 @@
 ### 42. `b1-lass-042` · select-one
 
 **Aufgabe:**
-> Wir ___ das Problem nicht zu ruhen. (lassen + Verb ruhen)
+> Wir ___ das Problem nicht ruhen. (Verben lassen)
 
 **Optionen:**
 - lasse
@@ -606,7 +606,7 @@
 ### 43. `b1-lass-043` · select-one
 
 **Aufgabe:**
-> Sie ___ die Kinder von der Oma abholen. (lassen + Verb abholen)
+> Sie ___ die Kinder von der Oma abholen. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -620,7 +620,7 @@
 ### 44. `b1-lass-044` · select-one
 
 **Aufgabe:**
-> Du ___ dir Zeit zum Ausruhen. (lassen + Verb Ausruhen)
+> Du ___ dir Zeit zum Ausruhen. (Verben lassen)
 
 **Optionen:**
 - lasse
@@ -634,7 +634,7 @@
 ### 45. `b1-lass-045` · select-one
 
 **Aufgabe:**
-> Ich ___ mich nicht unter Druck setzen. (lassen + Verb setzen)
+> Ich ___ mich nicht unter Druck setzen. (Verben lassen)
 
 **Optionen:**
 - gelassen
@@ -648,7 +648,7 @@
 ### 46. `b1-lass-046` · select-one
 
 **Aufgabe:**
-> Ich ___ das Auto reparieren. (lassen + Verb reparieren)
+> Ich ___ das Auto reparieren. (Verben lassen)
 
 **Optionen:**
 - lasst
@@ -662,7 +662,7 @@
 ### 47. `b1-lass-047` · select-one
 
 **Aufgabe:**
-> Er ___ sich von einem Spezialisten beraten. (lassen + Verb beraten)
+> Er ___ sich von einem Spezialisten beraten. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -676,7 +676,7 @@
 ### 48. `b1-lass-048` · select-one
 
 **Aufgabe:**
-> Wir ___ unsere Dokumente übersetzen. (lassen + Verb bersetzen)
+> Wir ___ unsere Dokumente übersetzen. (Verben lassen)
 
 **Optionen:**
 - lasst
@@ -690,7 +690,7 @@
 ### 49. `b1-lass-049` · select-one
 
 **Aufgabe:**
-> Sie ___ die Haare schneiden. (lassen + Verb schneiden)
+> Sie ___ die Haare schneiden. (Verben lassen)
 
 **Optionen:**
 - lassen
@@ -704,7 +704,7 @@
 ### 50. `b1-lass-050` · select-one
 
 **Aufgabe:**
-> Du ___ dir die Zähne kontrollieren. (lassen + Verb kontrollieren)
+> Du ___ dir die Zähne kontrollieren. (Verben lassen)
 
 **Optionen:**
 - lasse
@@ -720,7 +720,7 @@
 ### 51. `b1-lass-in-001` · input-text
 
 **Aufgabe:**
-> Ich ___ das Auto reparieren. (lassen + Verb reparieren)
+> Ich ___ das Auto reparieren. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -730,7 +730,7 @@
 ### 52. `b1-lass-in-002` · input-text
 
 **Aufgabe:**
-> Er ___ sich von einem Spezialisten beraten. (lassen + Verb beraten)
+> Er ___ sich von einem Spezialisten beraten. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -740,7 +740,7 @@
 ### 53. `b1-lass-in-003` · input-text
 
 **Aufgabe:**
-> Wir ___ unsere Dokumente übersetzen. (lassen + Verb bersetzen)
+> Wir ___ unsere Dokumente übersetzen. (Verben lassen)
 
 **Antwort:** `lassen`
 
@@ -750,7 +750,7 @@
 ### 54. `b1-lass-in-004` · input-text
 
 **Aufgabe:**
-> Sie ___ die Haare schneiden. (lassen + Verb schneiden)
+> Sie ___ die Haare schneiden. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -760,7 +760,7 @@
 ### 55. `b1-lass-in-005` · input-text
 
 **Aufgabe:**
-> Du ___ dir die Zähne kontrollieren. (lassen + Verb kontrollieren)
+> Du ___ dir die Zähne kontrollieren. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -770,7 +770,7 @@
 ### 56. `b1-lass-in-006` · input-text
 
 **Aufgabe:**
-> Ich ___ mir den Vertrag erklären. (lassen + Verb erklären)
+> Ich ___ mir den Vertrag erklären. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -780,7 +780,7 @@
 ### 57. `b1-lass-in-007` · input-text
 
 **Aufgabe:**
-> Er ___ das Paket nach Hause bringen. (lassen + Verb bringen)
+> Er ___ das Paket nach Hause bringen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -790,7 +790,7 @@
 ### 58. `b1-lass-in-008` · input-text
 
 **Aufgabe:**
-> Wir ___ uns im Hotel einchecken. (lassen + Verb einchecken)
+> Wir ___ uns im Hotel einchecken. (Verben lassen)
 
 **Antwort:** `lassen`
 
@@ -800,7 +800,7 @@
 ### 59. `b1-lass-in-009` · input-text
 
 **Aufgabe:**
-> Sie ___ den Bericht Korrektur lesen. (lassen + Verb lesen)
+> Sie ___ den Bericht Korrektur lesen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -810,7 +810,7 @@
 ### 60. `b1-lass-in-010` · input-text
 
 **Aufgabe:**
-> Ich ___ mir eine zweite Meinung geben. (lassen + Verb geben)
+> Ich ___ mir eine zweite Meinung geben. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -820,7 +820,7 @@
 ### 61. `b1-lass-in-011` · input-text
 
 **Aufgabe:**
-> Er ___ sich impfen. (lassen + Verb impfen)
+> Er ___ sich impfen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -830,7 +830,7 @@
 ### 62. `b1-lass-in-012` · input-text
 
 **Aufgabe:**
-> Wir ___ das Problem nicht zu ruhen. (lassen + Verb ruhen)
+> Wir ___ das Problem nicht ruhen. (Verben lassen)
 
 **Antwort:** `lassen`
 
@@ -840,7 +840,7 @@
 ### 63. `b1-lass-in-013` · input-text
 
 **Aufgabe:**
-> Sie ___ die Kinder von der Oma abholen. (lassen + Verb abholen)
+> Sie ___ die Kinder von der Oma abholen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -850,7 +850,7 @@
 ### 64. `b1-lass-in-014` · input-text
 
 **Aufgabe:**
-> Du ___ dir Zeit zum Ausruhen. (lassen + Verb Ausruhen)
+> Du ___ dir Zeit zum Ausruhen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -860,7 +860,7 @@
 ### 65. `b1-lass-in-015` · input-text
 
 **Aufgabe:**
-> Ich ___ mich nicht unter Druck setzen. (lassen + Verb setzen)
+> Ich ___ mich nicht unter Druck setzen. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -870,7 +870,7 @@
 ### 66. `b1-lass-in-016` · input-text
 
 **Aufgabe:**
-> Ich ___ das Auto reparieren. (lassen + Verb reparieren)
+> Ich ___ das Auto reparieren. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -880,7 +880,7 @@
 ### 67. `b1-lass-in-017` · input-text
 
 **Aufgabe:**
-> Er ___ sich von einem Spezialisten beraten. (lassen + Verb beraten)
+> Er ___ sich von einem Spezialisten beraten. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -890,7 +890,7 @@
 ### 68. `b1-lass-in-018` · input-text
 
 **Aufgabe:**
-> Wir ___ unsere Dokumente übersetzen. (lassen + Verb bersetzen)
+> Wir ___ unsere Dokumente übersetzen. (Verben lassen)
 
 **Antwort:** `lassen`
 
@@ -900,7 +900,7 @@
 ### 69. `b1-lass-in-019` · input-text
 
 **Aufgabe:**
-> Sie ___ die Haare schneiden. (lassen + Verb schneiden)
+> Sie ___ die Haare schneiden. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -910,7 +910,7 @@
 ### 70. `b1-lass-in-020` · input-text
 
 **Aufgabe:**
-> Du ___ dir die Zähne kontrollieren. (lassen + Verb kontrollieren)
+> Du ___ dir die Zähne kontrollieren. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -920,7 +920,7 @@
 ### 71. `b1-lass-in-021` · input-text
 
 **Aufgabe:**
-> Ich ___ mir den Vertrag erklären. (lassen + Verb erklären)
+> Ich ___ mir den Vertrag erklären. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -930,7 +930,7 @@
 ### 72. `b1-lass-in-022` · input-text
 
 **Aufgabe:**
-> Er ___ das Paket nach Hause bringen. (lassen + Verb bringen)
+> Er ___ das Paket nach Hause bringen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -940,7 +940,7 @@
 ### 73. `b1-lass-in-023` · input-text
 
 **Aufgabe:**
-> Wir ___ uns im Hotel einchecken. (lassen + Verb einchecken)
+> Wir ___ uns im Hotel einchecken. (Verben lassen)
 
 **Antwort:** `lassen`
 
@@ -950,7 +950,7 @@
 ### 74. `b1-lass-in-024` · input-text
 
 **Aufgabe:**
-> Sie ___ den Bericht Korrektur lesen. (lassen + Verb lesen)
+> Sie ___ den Bericht Korrektur lesen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -960,7 +960,7 @@
 ### 75. `b1-lass-in-025` · input-text
 
 **Aufgabe:**
-> Ich ___ mir eine zweite Meinung geben. (lassen + Verb geben)
+> Ich ___ mir eine zweite Meinung geben. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -970,7 +970,7 @@
 ### 76. `b1-lass-in-026` · input-text
 
 **Aufgabe:**
-> Er ___ sich impfen. (lassen + Verb impfen)
+> Er ___ sich impfen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -980,7 +980,7 @@
 ### 77. `b1-lass-in-027` · input-text
 
 **Aufgabe:**
-> Wir ___ das Problem nicht zu ruhen. (lassen + Verb ruhen)
+> Wir ___ das Problem nicht ruhen. (Verben lassen)
 
 **Antwort:** `lassen`
 
@@ -990,7 +990,7 @@
 ### 78. `b1-lass-in-028` · input-text
 
 **Aufgabe:**
-> Sie ___ die Kinder von der Oma abholen. (lassen + Verb abholen)
+> Sie ___ die Kinder von der Oma abholen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1000,7 +1000,7 @@
 ### 79. `b1-lass-in-029` · input-text
 
 **Aufgabe:**
-> Du ___ dir Zeit zum Ausruhen. (lassen + Verb Ausruhen)
+> Du ___ dir Zeit zum Ausruhen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1010,7 +1010,7 @@
 ### 80. `b1-lass-in-030` · input-text
 
 **Aufgabe:**
-> Ich ___ mich nicht unter Druck setzen. (lassen + Verb setzen)
+> Ich ___ mich nicht unter Druck setzen. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -1020,7 +1020,7 @@
 ### 81. `b1-lass-in-031` · input-text
 
 **Aufgabe:**
-> Ich ___ das Auto reparieren. (lassen + Verb reparieren)
+> Ich ___ das Auto reparieren. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -1030,7 +1030,7 @@
 ### 82. `b1-lass-in-032` · input-text
 
 **Aufgabe:**
-> Er ___ sich von einem Spezialisten beraten. (lassen + Verb beraten)
+> Er ___ sich von einem Spezialisten beraten. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1040,7 +1040,7 @@
 ### 83. `b1-lass-in-033` · input-text
 
 **Aufgabe:**
-> Wir ___ unsere Dokumente übersetzen. (lassen + Verb bersetzen)
+> Wir ___ unsere Dokumente übersetzen. (Verben lassen)
 
 **Antwort:** `lassen`
 
@@ -1050,7 +1050,7 @@
 ### 84. `b1-lass-in-034` · input-text
 
 **Aufgabe:**
-> Sie ___ die Haare schneiden. (lassen + Verb schneiden)
+> Sie ___ die Haare schneiden. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1060,7 +1060,7 @@
 ### 85. `b1-lass-in-035` · input-text
 
 **Aufgabe:**
-> Du ___ dir die Zähne kontrollieren. (lassen + Verb kontrollieren)
+> Du ___ dir die Zähne kontrollieren. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1070,7 +1070,7 @@
 ### 86. `b1-lass-in-036` · input-text
 
 **Aufgabe:**
-> Ich ___ mir den Vertrag erklären. (lassen + Verb erklären)
+> Ich ___ mir den Vertrag erklären. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -1080,7 +1080,7 @@
 ### 87. `b1-lass-in-037` · input-text
 
 **Aufgabe:**
-> Er ___ das Paket nach Hause bringen. (lassen + Verb bringen)
+> Er ___ das Paket nach Hause bringen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1090,7 +1090,7 @@
 ### 88. `b1-lass-in-038` · input-text
 
 **Aufgabe:**
-> Wir ___ uns im Hotel einchecken. (lassen + Verb einchecken)
+> Wir ___ uns im Hotel einchecken. (Verben lassen)
 
 **Antwort:** `lassen`
 
@@ -1100,7 +1100,7 @@
 ### 89. `b1-lass-in-039` · input-text
 
 **Aufgabe:**
-> Sie ___ den Bericht Korrektur lesen. (lassen + Verb lesen)
+> Sie ___ den Bericht Korrektur lesen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1110,7 +1110,7 @@
 ### 90. `b1-lass-in-040` · input-text
 
 **Aufgabe:**
-> Ich ___ mir eine zweite Meinung geben. (lassen + Verb geben)
+> Ich ___ mir eine zweite Meinung geben. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -1120,7 +1120,7 @@
 ### 91. `b1-lass-in-041` · input-text
 
 **Aufgabe:**
-> Er ___ sich impfen. (lassen + Verb impfen)
+> Er ___ sich impfen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1130,7 +1130,7 @@
 ### 92. `b1-lass-in-042` · input-text
 
 **Aufgabe:**
-> Wir ___ das Problem nicht zu ruhen. (lassen + Verb ruhen)
+> Wir ___ das Problem nicht ruhen. (Verben lassen)
 
 **Antwort:** `lassen`
 
@@ -1140,7 +1140,7 @@
 ### 93. `b1-lass-in-043` · input-text
 
 **Aufgabe:**
-> Sie ___ die Kinder von der Oma abholen. (lassen + Verb abholen)
+> Sie ___ die Kinder von der Oma abholen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1150,7 +1150,7 @@
 ### 94. `b1-lass-in-044` · input-text
 
 **Aufgabe:**
-> Du ___ dir Zeit zum Ausruhen. (lassen + Verb Ausruhen)
+> Du ___ dir Zeit zum Ausruhen. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1160,7 +1160,7 @@
 ### 95. `b1-lass-in-045` · input-text
 
 **Aufgabe:**
-> Ich ___ mich nicht unter Druck setzen. (lassen + Verb setzen)
+> Ich ___ mich nicht unter Druck setzen. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -1170,7 +1170,7 @@
 ### 96. `b1-lass-in-046` · input-text
 
 **Aufgabe:**
-> Ich ___ das Auto reparieren. (lassen + Verb reparieren)
+> Ich ___ das Auto reparieren. (Verben lassen)
 
 **Antwort:** `lasse`
 
@@ -1180,7 +1180,7 @@
 ### 97. `b1-lass-in-047` · input-text
 
 **Aufgabe:**
-> Er ___ sich von einem Spezialisten beraten. (lassen + Verb beraten)
+> Er ___ sich von einem Spezialisten beraten. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1190,7 +1190,7 @@
 ### 98. `b1-lass-in-048` · input-text
 
 **Aufgabe:**
-> Wir ___ unsere Dokumente übersetzen. (lassen + Verb bersetzen)
+> Wir ___ unsere Dokumente übersetzen. (Verben lassen)
 
 **Antwort:** `lassen`
 
@@ -1200,7 +1200,7 @@
 ### 99. `b1-lass-in-049` · input-text
 
 **Aufgabe:**
-> Sie ___ die Haare schneiden. (lassen + Verb schneiden)
+> Sie ___ die Haare schneiden. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1210,7 +1210,7 @@
 ### 100. `b1-lass-in-050` · input-text
 
 **Aufgabe:**
-> Du ___ dir die Zähne kontrollieren. (lassen + Verb kontrollieren)
+> Du ___ dir die Zähne kontrollieren. (Verben lassen)
 
 **Antwort:** `lässt`
 
@@ -1222,7 +1222,7 @@
 ### 101. `b1-lass-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb reparieren)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Ich · lasse · das · Auto · reparieren
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-lass-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb beraten)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Er · lässt · sich · von · einem · Spezialisten · beraten
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-lass-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb bersetzen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Wir · lassen · unsere · Dokumente · übersetzen
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-lass-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb schneiden)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Sie · lässt · die · Haare · schneiden
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-lass-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb kontrollieren)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Du · lässt · dir · die · Zähne · kontrollieren
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-lass-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb erklären)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Ich · lasse · mir · den · Vertrag · erklären
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-lass-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb bringen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Er · lässt · das · Paket · nach · Hause · bringen
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-lass-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb einchecken)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Wir · lassen · uns · im · Hotel · einchecken
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-lass-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb lesen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Sie · lässt · den · Bericht · Korrektur · lesen
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-lass-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb geben)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Ich · lasse · mir · eine · zweite · Meinung · geben
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-lass-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb impfen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Er · lässt · sich · impfen
 
@@ -1332,9 +1332,9 @@
 ### 112. `b1-lass-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb ruhen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Wir · lassen · das · Problem · nicht · zu · ruhen
+**Wörter:** Wir · lassen · das · Problem · nicht · ruhen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1342,7 +1342,7 @@
 ### 113. `b1-lass-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb abholen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Sie · lässt · die · Kinder · von · der · Oma · abholen
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-lass-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb Ausruhen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Du · lässt · dir · Zeit · zum · Ausruhen
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-lass-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb setzen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Ich · lasse · mich · nicht · unter · Druck · setzen
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-lass-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb reparieren)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Ich · lasse · das · Auto · reparieren
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-lass-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb beraten)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
 **Wörter:** Er · lässt · sich · von · einem · Spezialisten · beraten
 
@@ -1392,9 +1392,9 @@
 ### 118. `b1-lass-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb bersetzen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Ich · lasse · das · Auto · reparieren
+**Wörter:** Wir · lassen · unsere · Dokumente · übersetzen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1402,9 +1402,9 @@
 ### 119. `b1-lass-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb schneiden)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Er · lässt · sich · von · einem · Spezialisten · beraten
+**Wörter:** Sie · lässt · die · Haare · schneiden
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,9 +1412,9 @@
 ### 120. `b1-lass-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb kontrollieren)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Wir · lassen · unsere · Dokumente · übersetzen
+**Wörter:** Du · lässt · dir · die · Zähne · kontrollieren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1422,9 +1422,9 @@
 ### 121. `b1-lass-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb erklären)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Sie · lässt · die · Haare · schneiden
+**Wörter:** Ich · lasse · mir · den · Vertrag · erklären
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1432,9 +1432,9 @@
 ### 122. `b1-lass-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb bringen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Du · lässt · dir · die · Zähne · kontrollieren
+**Wörter:** Er · lässt · das · Paket · nach · Hause · bringen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1442,9 +1442,9 @@
 ### 123. `b1-lass-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb einchecken)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Ich · lasse · mir · den · Vertrag · erklären
+**Wörter:** Wir · lassen · uns · im · Hotel · einchecken
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `b1-lass-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb lesen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Er · lässt · das · Paket · nach · Hause · bringen
+**Wörter:** Sie · lässt · den · Bericht · Korrektur · lesen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,9 +1462,9 @@
 ### 125. `b1-lass-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb geben)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Wir · lassen · uns · im · Hotel · einchecken
+**Wörter:** Ich · lasse · mir · eine · zweite · Meinung · geben
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1472,9 +1472,9 @@
 ### 126. `b1-lass-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb impfen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Sie · lässt · den · Bericht · Korrektur · lesen
+**Wörter:** Er · lässt · sich · impfen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,9 +1482,9 @@
 ### 127. `b1-lass-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb ruhen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Ich · lasse · mir · eine · zweite · Meinung · geben
+**Wörter:** Wir · lassen · das · Problem · nicht · ruhen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `b1-lass-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb abholen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Er · lässt · sich · impfen
+**Wörter:** Sie · lässt · die · Kinder · von · der · Oma · abholen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `b1-lass-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb Ausruhen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Wir · lassen · das · Problem · nicht · zu · ruhen
+**Wörter:** Du · lässt · dir · Zeit · zum · Ausruhen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `b1-lass-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb setzen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Sie · lässt · die · Kinder · von · der · Oma · abholen
+**Wörter:** Ich · lasse · mich · nicht · unter · Druck · setzen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-lass-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb reparieren)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Du · lässt · dir · Zeit · zum · Ausruhen
+**Wörter:** Ich · lasse · das · Auto · reparieren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `b1-lass-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb beraten)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Ich · lasse · mich · nicht · unter · Druck · setzen
+**Wörter:** Er · lässt · sich · von · einem · Spezialisten · beraten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `b1-lass-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb bersetzen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Ich · lasse · das · Auto · reparieren
+**Wörter:** Wir · lassen · unsere · Dokumente · übersetzen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1552,9 +1552,9 @@
 ### 134. `b1-lass-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb schneiden)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Er · lässt · sich · von · einem · Spezialisten · beraten
+**Wörter:** Sie · lässt · die · Haare · schneiden
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,9 +1562,9 @@
 ### 135. `b1-lass-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb kontrollieren)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Ich · lasse · das · Auto · reparieren
+**Wörter:** Du · lässt · dir · die · Zähne · kontrollieren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `b1-lass-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb erklären)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Er · lässt · sich · von · einem · Spezialisten · beraten
+**Wörter:** Ich · lasse · mir · den · Vertrag · erklären
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,9 +1582,9 @@
 ### 137. `b1-lass-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb bringen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Wir · lassen · unsere · Dokumente · übersetzen
+**Wörter:** Er · lässt · das · Paket · nach · Hause · bringen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1592,9 +1592,9 @@
 ### 138. `b1-lass-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb einchecken)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Sie · lässt · die · Haare · schneiden
+**Wörter:** Wir · lassen · uns · im · Hotel · einchecken
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `b1-lass-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb lesen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Du · lässt · dir · die · Zähne · kontrollieren
+**Wörter:** Sie · lässt · den · Bericht · Korrektur · lesen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1612,9 +1612,9 @@
 ### 140. `b1-lass-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb geben)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Ich · lasse · mir · den · Vertrag · erklären
+**Wörter:** Ich · lasse · mir · eine · zweite · Meinung · geben
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `b1-lass-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb impfen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Er · lässt · das · Paket · nach · Hause · bringen
+**Wörter:** Er · lässt · sich · impfen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,9 +1632,9 @@
 ### 142. `b1-lass-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb ruhen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Wir · lassen · uns · im · Hotel · einchecken
+**Wörter:** Wir · lassen · das · Problem · nicht · ruhen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1642,9 +1642,9 @@
 ### 143. `b1-lass-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb abholen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Sie · lässt · den · Bericht · Korrektur · lesen
+**Wörter:** Sie · lässt · die · Kinder · von · der · Oma · abholen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `b1-lass-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb Ausruhen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Ich · lasse · mir · eine · zweite · Meinung · geben
+**Wörter:** Du · lässt · dir · Zeit · zum · Ausruhen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `b1-lass-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb setzen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Er · lässt · sich · impfen
+**Wörter:** Ich · lasse · mich · nicht · unter · Druck · setzen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `b1-lass-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb reparieren)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Wir · lassen · das · Problem · nicht · zu · ruhen
+**Wörter:** Ich · lasse · das · Auto · reparieren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,9 +1682,9 @@
 ### 147. `b1-lass-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb beraten)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Sie · lässt · die · Kinder · von · der · Oma · abholen
+**Wörter:** Er · lässt · sich · von · einem · Spezialisten · beraten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-lass-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb bersetzen)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Du · lässt · dir · Zeit · zum · Ausruhen
+**Wörter:** Wir · lassen · unsere · Dokumente · übersetzen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,9 +1702,9 @@
 ### 149. `b1-lass-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb schneiden)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Ich · lasse · mich · nicht · unter · Druck · setzen
+**Wörter:** Sie · lässt · die · Haare · schneiden
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1712,9 +1712,9 @@
 ### 150. `b1-lass-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (lassen + Verb kontrollieren)
+> Ordne die Wörter zum richtigen Satz: (Verben lassen)
 
-**Wörter:** Ich · lasse · das · Auto · reparieren
+**Wörter:** Du · lässt · dir · die · Zähne · kontrollieren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

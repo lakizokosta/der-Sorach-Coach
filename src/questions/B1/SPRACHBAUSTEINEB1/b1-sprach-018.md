@@ -9,4 +9,4 @@ options:
 correct: Aufgrund
 ---
 
-___ der hohen Nachfrage können wir leider nicht alle Termine anbieten. (Grammatikform)
+___ der hohen Nachfrage können wir leider nicht alle Termine anbieten.

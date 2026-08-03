@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-041
 type: input-text
+hint: Indefinitpronomen — unbestimmte Sache = etwas
 correct:
   - etwas
 ---
 
-Hast du ___ Interesse an Sport? (Indefinitpronomen — Sache)
+Ergänze das Indefinitpronomen:
+
+Hast du ___ Interesse an Sport?

@@ -2,12 +2,13 @@
 id: b1-akk-dd-028
 type: dropbox
 words:
-  - Der
-  - Minister
-  - erklärt
+  - Er
+  - freut
+  - sich
+  - schon
+  - auf
   - die
-  - neue
-  - Politik
+  - Geschäftsreise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — die Politik)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

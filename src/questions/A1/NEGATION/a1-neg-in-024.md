@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-024
 type: input-text
+hint: Negation
 correct:
   - keine
 ---
 
-Wir haben ___ Koffer dabei. (Negation)
+Ergänze die Verneinung:
+
+Wir haben ___ Koffer dabei.

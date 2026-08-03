@@ -9,6 +9,8 @@ words:
   - als
   - Schule
   - genutzt
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb genutzen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

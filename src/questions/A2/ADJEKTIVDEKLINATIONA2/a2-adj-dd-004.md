@@ -9,4 +9,4 @@ words:
   - schnell
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivendung)
+Ordne die Wörter zum richtigen Satz: (neu, neutr., Nom. — neue)

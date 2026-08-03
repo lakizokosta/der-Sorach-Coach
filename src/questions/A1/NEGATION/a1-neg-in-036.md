@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-036
 type: input-text
+hint: Negation
 correct:
   - kein
 ---
 
-Sie isst ___ Obst. (Negation)
+Ergänze die Verneinung:
+
+Sie isst ___ Obst.

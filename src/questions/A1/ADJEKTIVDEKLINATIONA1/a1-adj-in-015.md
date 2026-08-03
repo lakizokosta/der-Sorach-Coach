@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-015
 type: input-text
+hint: Adjektivdeklination — alt, fem., Akk.
 correct:
   - alte
 ---
 
-Wir besuchen eine ___ Stadt. (Adjektivdeklination — fem., Akk.)
+Ergänze die Adjektivendung:
+
+Wir besuchen eine ___ Stadt.

@@ -11,6 +11,8 @@ words:
   - Deutschland
   - arbeiten
   - will
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)

@@ -2,11 +2,11 @@
 id: b2-quiz-031
 type: select-one
 options:
-  - wäre
-  - hätte
-  - könnte
-  - wird
-correct: wird
+  - wollten
+  - werden
+  - könnten
+  - würden
+correct: werden
 ---
 
-Die Partei ___ bei der Wahl wahrscheinlich zulegen. (Grammatikform)
+Wir ___ wohl bis Freitag auf eine Antwort warten müssen.

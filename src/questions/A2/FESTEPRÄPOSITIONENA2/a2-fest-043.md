@@ -2,11 +2,11 @@
 id: a2-fest-043
 type: select-one
 options:
-  - dem
-  - der
-  - die
-  - das
-correct: die
+  - nach
+  - über
+  - auf
+  - bei
+correct: auf
 ---
 
-Ich danke für ___ Hilfe. (feste Präposition)
+Ich hoffe ___ gutes Wetter. (Feste Präposition)

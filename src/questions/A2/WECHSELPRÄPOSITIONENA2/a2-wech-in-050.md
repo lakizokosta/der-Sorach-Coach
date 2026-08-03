@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-050
 type: input-text
+hint: Wechselpräpositionen — Wohin?
 correct:
   - ins
 ---
 
-Leg die Flasche ___ Regal. (Dativ oder Akkusativ — Wohin?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Leg die Flasche ___ Regal.

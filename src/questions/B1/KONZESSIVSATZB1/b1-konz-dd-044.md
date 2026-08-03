@@ -2,14 +2,15 @@
 id: b1-konz-dd-044
 type: dropbox
 words:
-  - Es
-  - regnet
+  - Der
+  - Verkehr
+  - ist
+  - schlimm
   - trotzdem
-  - fahren
-  - wir
-  - in
-  - den
-  - Urlaub
+  - kommt
+  - er
+  - rechtzeitig
+  - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig Zeit)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

@@ -2,14 +2,17 @@
 id: b1-rel-dd-036
 type: dropbox
 words:
-  - Die
-  - Professorin
-  - die
-  - ich
-  - gestern
-  - traf
-  - war
-  - nett
+  - Der
+  - Minister
+  - dessen
+  - Entscheidung
+  - umstritten
+  - ist
+  - spricht
+  - heute
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — die ich traf)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

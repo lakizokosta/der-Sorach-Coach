@@ -2,13 +2,12 @@
 id: b1-adj-dd-021
 type: dropbox
 words:
-  - Sie
-  - liest
-  - einen
-  - interessanten
-  - Artikel
-  - über
-  - Umweltschutz
+  - Er
+  - diskutiert
+  - mit
+  - einer
+  - erfahrenen
+  - Politikerin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — hohen Preises)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

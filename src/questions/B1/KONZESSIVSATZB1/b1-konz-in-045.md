@@ -1,8 +1,14 @@
 ---
 id: b1-konz-in-045
 type: input-text
+hint: Konzessivsatz — obwohl/obschon
 correct:
+  - obwohl
   - Obwohl
+  - obschon
+  - Obschon
 ---
 
-___ die Umwelt belastet ist, reisen viele weiter viel. (Konzessivsatz)
+Ergänze die Konjunktion (Konzessiv):
+
+___ die Umwelt belastet ist, reisen viele weiter viel.

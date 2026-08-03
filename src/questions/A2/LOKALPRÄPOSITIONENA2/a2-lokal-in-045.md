@@ -1,8 +1,11 @@
 ---
 id: a2-lokal-in-045
 type: input-text
+hint: Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen
 correct:
   - auf
 ---
 
-Das Büro ist ___ der zweiten Etage. (Lokalpräposition)
+Ergänze die Lokalpräposition:
+
+Das Büro ist ___ der zweiten Etage.

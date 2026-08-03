@@ -1,8 +1,11 @@
 ---
 id: b1-ws-in-026
 type: input-text
+hint: Wortschatz — verantwortend / verantwortet / verantwortlich / verantwortliche
 correct:
   - verantwortliche
 ---
 
-Er hat eine ___ Stellung in der Firma. (Wortschatz B1)
+Ergänze das passende Wort:
+
+Er hat eine ___ Stellung in der Firma.

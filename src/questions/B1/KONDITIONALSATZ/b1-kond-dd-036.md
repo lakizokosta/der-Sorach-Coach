@@ -3,13 +3,13 @@ id: b1-kond-dd-036
 type: dropbox
 words:
   - Falls
-  - es
-  - regnet
-  - nehmen
-  - wir
-  - einen
-  - Schirm
-  - mit
+  - du
+  - Fragen
+  - hast
+  - schreib
+  - mir
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls es regnet)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

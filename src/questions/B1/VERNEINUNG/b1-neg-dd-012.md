@@ -11,4 +11,4 @@ words:
   - Entscheidung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kein Verständnis)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

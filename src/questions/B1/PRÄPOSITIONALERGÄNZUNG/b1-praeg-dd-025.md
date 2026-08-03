@@ -2,11 +2,11 @@
 id: b1-praeg-dd-025
 type: dropbox
 words:
-  - Wir
-  - hoffen
-  - auf
-  - gutes
-  - Wetter
+  - Ich
+  - danke
+  - für
+  - deine
+  - Hilfe
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — hofft auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

@@ -2,14 +2,17 @@
 id: b1-pradv-dd-029
 type: dropbox
 words:
-  - Vertraust
+  - Informierst
   - du
-  - in
+  - dich
+  - über
   - das
-  - Team
+  - Gesetz
+  - —
   - Ich
-  - vertraue
-  - darin
+  - informiere
+  - mich
+  - darüber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darin)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

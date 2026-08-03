@@ -2,13 +2,11 @@
 id: b1-pass-dd-047
 type: dropbox
 words:
-  - Die
-  - Prüfung
-  - wird
-  - in
-  - zwei
-  - Räumen
-  - durchgeführt
+  - Der
+  - Bericht
+  - wurde
+  - gestern
+  - veröffentlicht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb ffentlichen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

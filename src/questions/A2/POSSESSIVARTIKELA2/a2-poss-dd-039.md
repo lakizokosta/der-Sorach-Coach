@@ -8,4 +8,4 @@ words:
   - Großeltern
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — wir)
+Ordne die Wörter zum richtigen Satz: (Possessiv — wir)

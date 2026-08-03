@@ -11,4 +11,4 @@ words:
   - lang
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Genesung)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

@@ -1,8 +1,11 @@
 ---
 id: b1-trenn-in-003
 type: input-text
+hint: Trennbares Verb + Verb aufstehen
 correct:
   - stehe
 ---
 
-Ich ___ morgen früh um sechs auf. (Trennbares Verb + Verb aufstehen)
+Ergänze die Verbform (trennbares Verb):
+
+Ich ___ morgen früh um sechs auf.

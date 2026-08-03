@@ -10,6 +10,8 @@ words:
   - die
   - Behandlung
   - kostet
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie viel Behandlung kostet)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

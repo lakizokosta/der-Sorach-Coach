@@ -1,0 +1,8001 @@
+{
+  "konjunktion": {
+    "pos": "noun"
+  },
+  "prüfung": {
+    "pos": "noun",
+    "ru": "экзамен",
+    "en": "exam",
+    "gender": "f"
+  },
+  "zug": {
+    "pos": "noun",
+    "ru": "поезд",
+    "en": "train",
+    "gender": "m"
+  },
+  "zeit": {
+    "pos": "noun",
+    "ru": "время",
+    "en": "time",
+    "gender": "f"
+  },
+  "akkusativform": {
+    "pos": "noun"
+  },
+  "lokalpräposition": {
+    "pos": "noun"
+  },
+  "projekt": {
+    "pos": "noun",
+    "ru": "проект",
+    "en": "project",
+    "gender": "n"
+  },
+  "büro": {
+    "pos": "noun",
+    "ru": "офис",
+    "en": "office",
+    "gender": "n"
+  },
+  "wetter": {
+    "pos": "noun",
+    "ru": "погода",
+    "en": "weather",
+    "gender": "n"
+  },
+  "arzt": {
+    "pos": "noun",
+    "ru": "врач",
+    "en": "doctor",
+    "gender": "m"
+  },
+  "buch": {
+    "pos": "noun",
+    "ru": "книга",
+    "en": "book",
+    "gender": "n"
+  },
+  "stadt": {
+    "pos": "noun",
+    "ru": "город",
+    "en": "city",
+    "gender": "f"
+  },
+  "straße": {
+    "pos": "noun",
+    "ru": "улица",
+    "en": "street",
+    "gender": "f"
+  },
+  "reise": {
+    "pos": "noun",
+    "ru": "поездка",
+    "en": "trip",
+    "gender": "f"
+  },
+  "schule": {
+    "pos": "noun",
+    "ru": "школа",
+    "en": "school",
+    "gender": "f"
+  },
+  "stelle": {
+    "pos": "noun",
+    "ru": "место / должность",
+    "en": "place / position",
+    "gender": "f"
+  },
+  "park": {
+    "pos": "noun",
+    "ru": "парк",
+    "en": "park",
+    "gender": "m"
+  },
+  "berlin": {
+    "pos": "noun",
+    "ru": "Берлин",
+    "en": "Berlin",
+    "gender": "n"
+  },
+  "kurs": {
+    "pos": "noun",
+    "ru": "курс",
+    "en": "course",
+    "gender": "m"
+  },
+  "dativform": {
+    "pos": "noun"
+  },
+  "gegenteil": {
+    "pos": "noun",
+    "ru": "противоположность",
+    "en": "opposite",
+    "gender": "n"
+  },
+  "verneinung": {
+    "pos": "noun"
+  },
+  "fragewort": {
+    "pos": "noun"
+  },
+  "genitivform": {
+    "pos": "noun"
+  },
+  "indefinitpronomen": {
+    "pos": "noun"
+  },
+  "perfektform": {
+    "pos": "noun"
+  },
+  "verbform": {
+    "pos": "noun"
+  },
+  "konjunktionaladverb": {
+    "pos": "noun"
+  },
+  "konjunktiv": {
+    "pos": "noun"
+  },
+  "konzessiv": {
+    "pos": "noun"
+  },
+  "passivform": {
+    "pos": "noun"
+  },
+  "pronominaladverb": {
+    "pos": "noun"
+  },
+  "relativpronomen": {
+    "pos": "noun"
+  },
+  "medikament": {
+    "pos": "noun",
+    "ru": "лекарство",
+    "en": "medicine / drug",
+    "gender": "n"
+  },
+  "firma": {
+    "pos": "noun",
+    "ru": "фирма",
+    "en": "company",
+    "gender": "f"
+  },
+  "termin": {
+    "pos": "noun",
+    "ru": "встреча / приём",
+    "en": "appointment",
+    "gender": "m"
+  },
+  "entscheidung": {
+    "pos": "noun",
+    "ru": "решение",
+    "en": "decision",
+    "gender": "f"
+  },
+  "chef": {
+    "pos": "noun",
+    "ru": "начальник",
+    "en": "boss",
+    "gender": "m"
+  },
+  "universität": {
+    "pos": "noun",
+    "ru": "университет",
+    "en": "university",
+    "gender": "f"
+  },
+  "gesetz": {
+    "pos": "noun",
+    "ru": "закон",
+    "en": "law",
+    "gender": "n"
+  },
+  "bericht": {
+    "pos": "noun",
+    "ru": "отчёт",
+    "en": "report",
+    "gender": "m"
+  },
+  "politik": {
+    "pos": "noun",
+    "ru": "политика",
+    "en": "politics",
+    "gender": "f"
+  },
+  "arbeit": {
+    "pos": "noun",
+    "ru": "работа",
+    "en": "work",
+    "gender": "f"
+  },
+  "kind": {
+    "pos": "noun",
+    "ru": "ребёнок",
+    "en": "child",
+    "gender": "n"
+  },
+  "urlaub": {
+    "pos": "noun",
+    "ru": "отпуск",
+    "en": "holiday / vacation",
+    "gender": "m"
+  },
+  "interesse": {
+    "pos": "noun",
+    "ru": "интерес",
+    "en": "interest",
+    "gender": "n"
+  },
+  "meeting": {
+    "pos": "noun",
+    "ru": "совещание",
+    "en": "meeting",
+    "gender": "n"
+  },
+  "tisch": {
+    "pos": "noun",
+    "ru": "стол",
+    "en": "table",
+    "gender": "m"
+  },
+  "wochenende": {
+    "pos": "noun",
+    "ru": "выходные",
+    "en": "weekend",
+    "gender": "n"
+  },
+  "tür": {
+    "pos": "noun",
+    "ru": "дверь",
+    "en": "door",
+    "gender": "f"
+  },
+  "thema": {
+    "pos": "noun",
+    "ru": "тема",
+    "en": "topic",
+    "gender": "n"
+  },
+  "hund": {
+    "pos": "noun",
+    "ru": "собака",
+    "en": "dog",
+    "gender": "m"
+  },
+  "deutsch": {
+    "pos": "adj",
+    "ru": "немецкий",
+    "en": "German"
+  },
+  "mutter": {
+    "pos": "noun",
+    "ru": "мать",
+    "en": "mother",
+    "gender": "f"
+  },
+  "rede": {
+    "pos": "noun",
+    "ru": "Ораторское искусство",
+    "en": "talk"
+  },
+  "antwort": {
+    "pos": "noun",
+    "ru": "ответ",
+    "en": "answer",
+    "gender": "f"
+  },
+  "wasser": {
+    "pos": "noun",
+    "ru": "вода",
+    "en": "water",
+    "gender": "n"
+  },
+  "wohnung": {
+    "pos": "noun",
+    "ru": "квартира",
+    "en": "apartment",
+    "gender": "f"
+  },
+  "essen": {
+    "pos": "noun",
+    "ru": "еда",
+    "en": "food",
+    "gender": "n"
+  },
+  "minister": {
+    "pos": "noun",
+    "ru": "министр",
+    "en": "minister",
+    "gender": "m"
+  },
+  "meinung": {
+    "pos": "noun",
+    "ru": "мнение",
+    "en": "opinion",
+    "gender": "f"
+  },
+  "fehler": {
+    "pos": "noun",
+    "ru": "ошибка",
+    "en": "mistake",
+    "gender": "m"
+  },
+  "zimmer": {
+    "pos": "noun",
+    "ru": "комната",
+    "en": "room",
+    "gender": "n"
+  },
+  "regelung": {
+    "pos": "noun",
+    "ru": "регулирование / правило",
+    "en": "regulation",
+    "gender": "f"
+  },
+  "freund": {
+    "pos": "noun",
+    "ru": "друг",
+    "en": "friend",
+    "gender": "m"
+  },
+  "geschenk": {
+    "pos": "noun",
+    "ru": "подарок",
+    "en": "gift",
+    "gender": "n"
+  },
+  "bruder": {
+    "pos": "noun",
+    "ru": "брат",
+    "en": "brother",
+    "gender": "m"
+  },
+  "musik": {
+    "pos": "noun",
+    "ru": "музыка",
+    "en": "music",
+    "gender": "f"
+  },
+  "nachfrage": {
+    "pos": "noun",
+    "ru": "спрос",
+    "en": "demand",
+    "gender": "f"
+  },
+  "erfahrung": {
+    "pos": "noun",
+    "ru": "опыт",
+    "en": "experience",
+    "gender": "f"
+  },
+  "professor": {
+    "pos": "noun",
+    "ru": "профессор",
+    "en": "professor",
+    "gender": "m"
+  },
+  "wetters": {
+    "pos": "noun",
+    "ru": "погода",
+    "en": "weather"
+  },
+  "fest": {
+    "pos": "noun",
+    "ru": "праздник / фестиваль",
+    "en": "festival / party",
+    "gender": "n"
+  },
+  "nachricht": {
+    "pos": "noun",
+    "ru": "сообщение",
+    "en": "message",
+    "gender": "f"
+  },
+  "verbindung": {
+    "pos": "noun",
+    "ru": "соединение / связь",
+    "en": "connection",
+    "gender": "f"
+  },
+  "fahrrad": {
+    "pos": "noun",
+    "ru": "велосипед",
+    "en": "bicycle",
+    "gender": "n"
+  },
+  "pluralform": {
+    "pos": "noun"
+  },
+  "präsensform": {
+    "pos": "noun"
+  },
+  "verbs": {
+    "pos": "noun"
+  },
+  "antwortpartikel": {
+    "pos": "noun"
+  },
+  "komparativform": {
+    "pos": "noun"
+  },
+  "modalverbform": {
+    "pos": "noun"
+  },
+  "deklination": {
+    "pos": "noun"
+  },
+  "präteritumsform": {
+    "pos": "noun"
+  },
+  "reflexivform": {
+    "pos": "noun"
+  },
+  "superlativform": {
+    "pos": "noun"
+  },
+  "demonstrativartikel": {
+    "pos": "noun"
+  },
+  "ergänzung": {
+    "pos": "noun"
+  },
+  "final": {
+    "pos": "noun"
+  },
+  "konditional": {
+    "pos": "noun"
+  },
+  "wort": {
+    "pos": "noun"
+  },
+  "futurform": {
+    "pos": "noun"
+  },
+  "indirekte": {
+    "pos": "noun"
+  },
+  "modal": {
+    "pos": "noun"
+  },
+  "ersatzform": {
+    "pos": "noun"
+  },
+  "redewendung": {
+    "pos": "noun"
+  },
+  "reihenfolge": {
+    "pos": "noun",
+    "ru": "порядок",
+    "en": "order / sequence",
+    "gender": "f"
+  },
+  "reisen": {
+    "pos": "noun",
+    "ru": "путешествиями",
+    "en": "travel"
+  },
+  "haus": {
+    "pos": "noun",
+    "ru": "дом",
+    "en": "house",
+    "gender": "n"
+  },
+  "tee": {
+    "pos": "noun",
+    "ru": "чай",
+    "en": "tea",
+    "gender": "m"
+  },
+  "gründen": {
+    "pos": "noun",
+    "ru": "основать",
+    "en": "to form, to establish"
+  },
+  "idee": {
+    "pos": "noun",
+    "ru": "идея",
+    "en": "idea",
+    "gender": "f"
+  },
+  "hilfe": {
+    "pos": "noun",
+    "ru": "Справка",
+    "en": "help"
+  },
+  "konferenz": {
+    "pos": "noun",
+    "ru": "конференция",
+    "en": "conference",
+    "gender": "f"
+  },
+  "familie": {
+    "pos": "noun",
+    "ru": "семья",
+    "en": "family",
+    "gender": "f"
+  },
+  "kaffee": {
+    "pos": "noun",
+    "ru": "кофе",
+    "en": "coffee",
+    "gender": "m"
+  },
+  "ärztin": {
+    "pos": "noun",
+    "ru": "Врач",
+    "en": "Physician"
+  },
+  "verspätung": {
+    "pos": "noun",
+    "ru": "опоздание",
+    "en": "delay",
+    "gender": "f"
+  },
+  "vertrag": {
+    "pos": "noun",
+    "ru": "geschaftsvertrag",
+    "en": "contract"
+  },
+  "preise": {
+    "pos": "noun",
+    "ru": "ЦЕНЫ",
+    "en": "prices"
+  },
+  "land": {
+    "pos": "noun",
+    "ru": "страна",
+    "en": "country",
+    "gender": "n"
+  },
+  "platz": {
+    "pos": "noun",
+    "ru": "место / площадь",
+    "en": "place / square",
+    "gender": "m"
+  },
+  "mann": {
+    "pos": "noun",
+    "ru": "мужчина",
+    "en": "man",
+    "gender": "m"
+  },
+  "kollegin": {
+    "pos": "noun",
+    "ru": "Коллега",
+    "en": "Colleague,"
+  },
+  "zeitung": {
+    "pos": "noun",
+    "ru": "Газета",
+    "en": "Newspaper"
+  },
+  "studierenden": {
+    "pos": "noun",
+    "ru": "студенты",
+    "en": "students"
+  },
+  "grüßen": {
+    "pos": "noun",
+    "ru": "привет",
+    "en": "Best regards,"
+  },
+  "schwester": {
+    "pos": "noun",
+    "ru": "сестра",
+    "en": "Sister"
+  },
+  "museum": {
+    "pos": "noun",
+    "ru": "Музей",
+    "en": "museum"
+  },
+  "patienten": {
+    "pos": "noun",
+    "ru": "Пациенты",
+    "en": "Patients"
+  },
+  "erfolg": {
+    "pos": "noun",
+    "ru": "успех",
+    "en": "Success"
+  },
+  "kunden": {
+    "pos": "noun",
+    "ru": "Клиенты",
+    "en": "Customers"
+  },
+  "vorlesung": {
+    "pos": "noun",
+    "ru": "лекция",
+    "en": "Lecture"
+  },
+  "kosten": {
+    "pos": "noun",
+    "ru": "пoпробовать",
+    "en": "fees"
+  },
+  "brücke": {
+    "pos": "noun",
+    "ru": "Мост",
+    "en": "Bridge"
+  },
+  "bahnhof": {
+    "pos": "noun",
+    "ru": "ЖД станция",
+    "en": "bahnhof."
+  },
+  "wand": {
+    "pos": "noun",
+    "ru": "стена",
+    "en": "wall"
+  },
+  "dativobjekt": {
+    "pos": "noun"
+  },
+  "freundin": {
+    "pos": "noun",
+    "ru": "девочка",
+    "en": "See you later my dear friend Bye"
+  },
+  "caf": {
+    "pos": "noun",
+    "ru": "кафе",
+    "en": "café"
+  },
+  "mail": {
+    "pos": "noun",
+    "ru": "ЭЛЕКТРОННАЯ ПОЧТА",
+    "en": "mail："
+  },
+  "geld": {
+    "pos": "noun",
+    "ru": "Деньги",
+    "en": "money"
+  },
+  "transport": {
+    "pos": "noun",
+    "ru": "ТРАНСПОРТИРОВКА",
+    "en": "transportation"
+  },
+  "bild": {
+    "pos": "noun",
+    "ru": "картинка",
+    "en": "Image"
+  },
+  "krankenhaus": {
+    "pos": "noun",
+    "ru": "Больница",
+    "en": "hospitals"
+  },
+  "ecke": {
+    "pos": "noun",
+    "ru": "Угловая",
+    "en": "Edge"
+  },
+  "studiengang": {
+    "pos": "noun",
+    "ru": "Список академических дисциплин",
+    "en": "degree programme / course of study"
+  },
+  "patient": {
+    "pos": "noun",
+    "ru": "Пациент",
+    "en": "patient"
+  },
+  "daten": {
+    "pos": "noun",
+    "ru": "Данные",
+    "en": "data"
+  },
+  "küche": {
+    "pos": "noun",
+    "ru": "кухня",
+    "en": "Kitchen"
+  },
+  "geschäft": {
+    "pos": "noun",
+    "ru": "Магазин",
+    "en": "business"
+  },
+  "freunde": {
+    "pos": "noun",
+    "ru": "Друзья",
+    "en": "Friends"
+  },
+  "lust": {
+    "pos": "noun",
+    "ru": "желание / удовольствие",
+    "en": "desire / pleasure",
+    "gender": "f"
+  },
+  "eingang": {
+    "pos": "noun",
+    "en": "goods"
+  },
+  "erkrankung": {
+    "pos": "noun",
+    "ru": "заболевание матери",
+    "en": "disease"
+  },
+  "gebäude": {
+    "pos": "noun",
+    "ru": "Корпус",
+    "en": "building"
+  },
+  "lampe": {
+    "pos": "noun",
+    "ru": "Лампа",
+    "en": "Lamp"
+  },
+  "fußball": {
+    "pos": "noun",
+    "ru": "Футбол",
+    "en": "Football"
+  },
+  "hausaufgaben": {
+    "pos": "noun",
+    "ru": "Домашние задания",
+    "en": "Homework"
+  },
+  "stuhl": {
+    "pos": "noun",
+    "ru": "стул",
+    "en": "chair",
+    "gender": "m"
+  },
+  "unterrichts": {
+    "pos": "noun",
+    "ru": "обучение",
+    "en": "instruction / teaching"
+  },
+  "angst": {
+    "pos": "noun",
+    "ru": "страх",
+    "en": "fear / anxiety",
+    "gender": "f"
+  },
+  "brot": {
+    "pos": "noun",
+    "ru": "изображение",
+    "en": "Bread"
+  },
+  "frau": {
+    "pos": "noun",
+    "ru": "женщина",
+    "en": "woman",
+    "gender": "f"
+  },
+  "hamburg": {
+    "pos": "noun",
+    "ru": "Гамбург",
+    "en": "Hamburg"
+  },
+  "teppich": {
+    "pos": "noun",
+    "ru": "Ковер",
+    "en": "Carpet"
+  },
+  "reisebüro": {
+    "pos": "noun",
+    "ru": "Туристическое агентство",
+    "en": "Travel agency"
+  },
+  "formular": {
+    "pos": "noun",
+    "ru": "Форма",
+    "en": "Form"
+  },
+  "lage": {
+    "pos": "noun",
+    "ru": "Расположение",
+    "en": "situation"
+  },
+  "pizza": {
+    "pos": "noun",
+    "ru": "пицца",
+    "en": "pizza",
+    "gender": "f"
+  },
+  "supermarkt": {
+    "pos": "noun",
+    "ru": "супермаркет",
+    "en": "supermarket",
+    "gender": "m"
+  },
+  "italien": {
+    "pos": "noun",
+    "ru": "Италия",
+    "en": "Italy"
+  },
+  "geburtstag": {
+    "pos": "noun",
+    "ru": "Дата рождения",
+    "en": "Birthday"
+  },
+  "regens": {
+    "pos": "noun",
+    "ru": "дожди",
+    "en": "rains"
+  },
+  "licht": {
+    "pos": "noun",
+    "ru": "свет",
+    "en": "light",
+    "gender": "n"
+  },
+  "praktikum": {
+    "pos": "noun",
+    "ru": "стажировка",
+    "en": "internship"
+  },
+  "freitag": {
+    "pos": "noun",
+    "ru": "Пятница",
+    "en": "Friday"
+  },
+  "jacke": {
+    "pos": "noun",
+    "ru": "Куртка",
+    "en": "jacket"
+  },
+  "lied": {
+    "pos": "noun",
+    "ru": "песни",
+    "en": "Song"
+  },
+  "aufgabe": {
+    "pos": "noun",
+    "ru": "Задача",
+    "en": "task"
+  },
+  "angebot": {
+    "pos": "noun",
+    "ru": "Предложение",
+    "en": "estimate"
+  },
+  "eltern": {
+    "pos": "noun",
+    "ru": "Родительские элементы",
+    "en": "parents"
+  },
+  "deutschland": {
+    "pos": "noun",
+    "ru": "Германия",
+    "en": "Germany"
+  },
+  "zuschauer": {
+    "pos": "noun",
+    "ru": "Публика",
+    "en": "Spectators"
+  },
+  "journalist": {
+    "pos": "noun",
+    "ru": "Журналист",
+    "en": "journalist"
+  },
+  "politiker": {
+    "pos": "noun",
+    "ru": "Политик",
+    "en": "politicians?"
+  },
+  "gespräch": {
+    "pos": "noun",
+    "ru": "Цепочки писем:",
+    "en": "conversation"
+  },
+  "süden": {
+    "pos": "noun",
+    "ru": "Юг",
+    "en": "South"
+  },
+  "job": {
+    "pos": "noun",
+    "ru": "работа",
+    "en": "job"
+  },
+  "sonne": {
+    "pos": "noun",
+    "ru": "Солнце",
+    "en": "Aurinko"
+  },
+  "fenster": {
+    "pos": "noun",
+    "ru": "Окно",
+    "en": "Windows"
+  },
+  "schwimmbad": {
+    "pos": "noun",
+    "ru": "Аквапарк",
+    "en": "swimming_pool"
+  },
+  "nachbarn": {
+    "pos": "noun",
+    "ru": "Соседи",
+    "en": "Neighbours"
+  },
+  "kino": {
+    "pos": "noun",
+    "ru": "КИНО",
+    "en": "film&fun,kino"
+  },
+  "bewegung": {
+    "pos": "noun",
+    "ru": "Движение",
+    "en": "Movement"
+  },
+  "regierung": {
+    "pos": "noun",
+    "ru": "правительство",
+    "en": "Government"
+  },
+  "verhandlungen": {
+    "pos": "noun",
+    "ru": "Переговоры",
+    "en": "Negotiations"
+  },
+  "mantel": {
+    "pos": "noun",
+    "ru": "пальто",
+    "en": "coat",
+    "gender": "m"
+  },
+  "sommer": {
+    "pos": "noun",
+    "ru": "лето",
+    "en": "summer",
+    "gender": "m"
+  },
+  "pause": {
+    "pos": "noun",
+    "ru": "пауза",
+    "en": "break / pause",
+    "gender": "f"
+  },
+  "qualität": {
+    "pos": "noun",
+    "ru": "проволоки",
+    "en": "quality"
+  },
+  "mosel": {
+    "pos": "noun",
+    "ru": "Мозель",
+    "en": "Moselle (river)"
+  },
+  "zukunft": {
+    "pos": "noun",
+    "ru": "будущее",
+    "en": "future"
+  },
+  "abteilung": {
+    "pos": "noun",
+    "ru": "отдел",
+    "en": "department",
+    "gender": "f"
+  },
+  "personalabteilung": {
+    "pos": "noun",
+    "ru": "Отдел кадров",
+    "en": "Human Resources Department"
+  },
+  "patientin": {
+    "pos": "noun",
+    "ru": "Пациент",
+    "en": "Patient"
+  },
+  "wortstellung": {
+    "pos": "noun"
+  },
+  "schirm": {
+    "pos": "noun",
+    "ru": "Зонт",
+    "en": "Shield"
+  },
+  "weg": {
+    "pos": "noun",
+    "ru": "путь / дорога",
+    "en": "way / path",
+    "gender": "m"
+  },
+  "ort": {
+    "pos": "noun",
+    "ru": "Населенный пункт",
+    "en": "City"
+  },
+  "krise": {
+    "pos": "noun",
+    "ru": "кризис",
+    "en": "crisis"
+  },
+  "wenngleich": {
+    "pos": "noun",
+    "ru": "хотя",
+    "en": "EVEN THOUGH"
+  },
+  "hunger": {
+    "pos": "noun",
+    "ru": "Голод",
+    "en": "hunger"
+  },
+  "fleisch": {
+    "pos": "noun",
+    "ru": "мясо",
+    "en": "meat"
+  },
+  "ferien": {
+    "pos": "noun",
+    "ru": "Отпуск",
+    "en": "Leave"
+  },
+  "apotheke": {
+    "pos": "noun",
+    "ru": "аптека",
+    "en": "pharmacy",
+    "gender": "f"
+  },
+  "veranstaltung": {
+    "pos": "noun",
+    "ru": "Курс",
+    "en": "events"
+  },
+  "ball": {
+    "pos": "noun",
+    "ru": "мяч",
+    "en": "ball",
+    "gender": "m"
+  },
+  "kollege": {
+    "pos": "noun",
+    "ru": "коллега",
+    "en": "colleague",
+    "gender": "m"
+  },
+  "abend": {
+    "pos": "noun",
+    "ru": "Вечер",
+    "en": "evenings"
+  },
+  "tanzsport": {
+    "pos": "noun",
+    "ru": "Спортивные танцы",
+    "en": "dance sports"
+  },
+  "post": {
+    "pos": "noun",
+    "ru": "по почте",
+    "en": "mail / post"
+  },
+  "geh": {
+    "pos": "noun",
+    "ru": "дата рожд.:",
+    "en": "go (imperative)"
+  },
+  "respekt": {
+    "pos": "noun",
+    "ru": "Уважение",
+    "en": "respect"
+  },
+  "rechnung": {
+    "pos": "noun",
+    "ru": "СЧЁТ",
+    "en": "Changes in Equity"
+  },
+  "kritik": {
+    "pos": "noun",
+    "ru": "Критика",
+    "en": "reviews"
+  },
+  "unterlagen": {
+    "pos": "noun",
+    "ru": "Документы",
+    "en": "documents"
+  },
+  "aufgrund": {
+    "pos": "noun",
+    "ru": "из-за, вследствие",
+    "en": "higher"
+  },
+  "obgleich": {
+    "pos": "noun",
+    "ru": "хотя",
+    "en": "although"
+  },
+  "fragen": {
+    "pos": "verb",
+    "ru": "спрашивать, задавать вопросы",
+    "en": "to ask"
+  },
+  "lärms": {
+    "pos": "noun",
+    "ru": "шумно",
+    "en": "noisy"
+  },
+  "journalisten": {
+    "pos": "noun",
+    "ru": "Журналисты",
+    "en": "Journalists"
+  },
+  "hoffnung": {
+    "pos": "noun",
+    "ru": "NADEZHDA",
+    "en": "hope"
+  },
+  "nacht": {
+    "pos": "noun",
+    "ru": "на ночь",
+    "en": "night"
+  },
+  "stadtmitte": {
+    "pos": "noun",
+    "ru": "Центр города",
+    "en": "city centre"
+  },
+  "bewerbung": {
+    "pos": "noun",
+    "ru": "заявление о приёме на работу",
+    "en": "job application",
+    "gender": "f"
+  },
+  "professorin": {
+    "pos": "noun",
+    "ru": "профессор",
+    "en": "Professor"
+  },
+  "wirtschaft": {
+    "pos": "noun",
+    "ru": "Экономика / Economics",
+    "en": "economy"
+  },
+  "überstunden": {
+    "pos": "noun",
+    "ru": "Сверхурочная работа",
+    "en": "Overtime"
+  },
+  "experten": {
+    "pos": "noun",
+    "ru": "Поиск экспертов",
+    "en": "Experts"
+  },
+  "umwelt": {
+    "pos": "noun",
+    "ru": "Окружающая среда",
+    "en": "the environment"
+  },
+  "ergebnis": {
+    "pos": "noun",
+    "ru": "результат",
+    "en": "result",
+    "gender": "n"
+  },
+  "damen": {
+    "pos": "noun",
+    "ru": "Женщины",
+    "en": "women"
+  },
+  "herren": {
+    "pos": "noun",
+    "ru": "мужчины",
+    "en": "men"
+  },
+  "paket": {
+    "pos": "noun",
+    "ru": "посылка / пакет",
+    "en": "package / parcel",
+    "gender": "n"
+  },
+  "meetings": {
+    "pos": "noun",
+    "ru": "встречи",
+    "en": "meetings"
+  },
+  "fahren": {
+    "pos": "verb",
+    "ru": "ехать, водить",
+    "en": "to drive / go"
+  },
+  "krankheit": {
+    "pos": "noun",
+    "ru": "болезнь",
+    "en": "illness / disease",
+    "gender": "f"
+  },
+  "sturms": {
+    "pos": "noun",
+    "ru": "штормы",
+    "en": "storms"
+  },
+  "chefs": {
+    "pos": "noun",
+    "ru": "шеф-повара",
+    "en": "residents."
+  },
+  "schmerzen": {
+    "pos": "noun",
+    "ru": "боль",
+    "en": "ache"
+  },
+  "dennoch": {
+    "pos": "noun",
+    "ru": "хотя",
+    "en": "nevertheless"
+  },
+  "handy": {
+    "pos": "noun",
+    "ru": "Телефон",
+    "en": "mobile phone"
+  },
+  "wind": {
+    "pos": "noun",
+    "ru": "ветер",
+    "en": "wind",
+    "gender": "m"
+  },
+  "spiel": {
+    "pos": "noun",
+    "ru": "игра",
+    "en": "game",
+    "gender": "n"
+  },
+  "lehrer": {
+    "pos": "noun",
+    "ru": "Педагоги",
+    "en": "Teacher"
+  },
+  "klasse": {
+    "pos": "noun",
+    "ru": "огнестойкости",
+    "en": "Class"
+  },
+  "zoo": {
+    "pos": "noun",
+    "ru": "Зоопарк",
+    "en": "zoo"
+  },
+  "wien": {
+    "pos": "noun",
+    "ru": "университет",
+    "en": "Vienna"
+  },
+  "schlüssel": {
+    "pos": "noun",
+    "ru": "Ключ",
+    "en": "key"
+  },
+  "hochzeit": {
+    "pos": "noun",
+    "ru": "Свадьба",
+    "en": "Wedding"
+  },
+  "ende": {
+    "pos": "noun",
+    "ru": "если",
+    "en": "of education"
+  },
+  "autor": {
+    "pos": "noun",
+    "ru": "Автор",
+    "en": "author"
+  },
+  "tasche": {
+    "pos": "noun",
+    "ru": "сумка",
+    "en": "bag / purse",
+    "gender": "f"
+  },
+  "garten": {
+    "pos": "noun",
+    "ru": "Сад",
+    "en": "Garden"
+  },
+  "suppe": {
+    "pos": "noun",
+    "ru": "Суп:",
+    "en": "Soup"
+  },
+  "lösung": {
+    "pos": "noun",
+    "ru": "РЕШЕНИЕ",
+    "en": "Solution"
+  },
+  "vorbereitung": {
+    "pos": "noun",
+    "ru": "подготовка",
+    "en": "Preparation"
+  },
+  "preises": {
+    "pos": "noun",
+    "ru": "цены",
+    "en": "price"
+  },
+  "bankschalter": {
+    "pos": "noun",
+    "ru": "банковский счетчик",
+    "en": "bank counter"
+  },
+  "tunnel": {
+    "pos": "noun",
+    "ru": "Тоннель",
+    "en": "tunnel"
+  },
+  "etage": {
+    "pos": "noun",
+    "ru": "Этаж",
+    "en": "Floor"
+  },
+  "freude": {
+    "pos": "noun",
+    "ru": "Радость",
+    "en": "pleasure"
+  },
+  "vertrauen": {
+    "pos": "noun",
+    "ru": "Доверие",
+    "en": "trust"
+  },
+  "bedarf": {
+    "pos": "noun",
+    "ru": "требований",
+    "en": "Needed"
+  },
+  "zweifel": {
+    "pos": "noun",
+    "ru": "Сомнение",
+    "en": "I have no doubt"
+  },
+  "rücken": {
+    "pos": "noun",
+    "ru": "Спинка",
+    "en": "back"
+  },
+  "ausland": {
+    "pos": "noun",
+    "ru": "Зарубежные страны",
+    "en": "Abroad"
+  },
+  "vorschlag": {
+    "pos": "noun",
+    "ru": "Предложение",
+    "en": "Default"
+  },
+  "bürger": {
+    "pos": "noun",
+    "ru": "Гражданин",
+    "en": "Citizenship"
+  },
+  "heizung": {
+    "pos": "noun",
+    "ru": "Нагрев",
+    "en": "Heating"
+  },
+  "klinik": {
+    "pos": "noun",
+    "ru": "КЛИНИК",
+    "en": "clinic"
+  },
+  "bereich": {
+    "pos": "noun",
+    "ru": "значения",
+    "en": "range"
+  },
+  "mandanten": {
+    "pos": "noun",
+    "ru": "Клиенты",
+    "en": "Clients"
+  },
+  "schreibtisch": {
+    "pos": "noun",
+    "ru": "Бюро",
+    "en": "writing desk"
+  },
+  "obst": {
+    "pos": "noun",
+    "ru": "Фрукты",
+    "en": "fruits"
+  },
+  "salat": {
+    "pos": "noun",
+    "ru": "салат",
+    "en": "Lettuce"
+  },
+  "oma": {
+    "pos": "noun",
+    "ru": "Бабуль…",
+    "en": "grandma / granny"
+  },
+  "see": {
+    "pos": "noun",
+    "ru": "по морю",
+    "en": "lake / sea"
+  },
+  "stadtpark": {
+    "pos": "noun",
+    "ru": "городской парк",
+    "en": "The city park"
+  },
+  "lehrerin": {
+    "pos": "noun",
+    "ru": "учительница",
+    "en": "teacher (female)",
+    "gender": "f"
+  },
+  "anwalt": {
+    "pos": "noun",
+    "ru": "Адвокат",
+    "en": "Lawyer"
+  },
+  "unternehmen": {
+    "pos": "noun",
+    "ru": "предприятие / компания",
+    "en": "company",
+    "gender": "n"
+  },
+  "markt": {
+    "pos": "noun",
+    "ru": "Рынок",
+    "en": "market"
+  },
+  "gitarre": {
+    "pos": "noun",
+    "ru": "Гитара",
+    "en": "Guitar"
+  },
+  "konzert": {
+    "pos": "noun",
+    "ru": "концерт",
+    "en": "Concert."
+  },
+  "brief": {
+    "pos": "noun",
+    "ru": "письмо",
+    "en": "letter",
+    "gender": "m"
+  },
+  "küste": {
+    "pos": "noun",
+    "ru": "Побережье",
+    "en": "Coast"
+  },
+  "gehen": {
+    "pos": "verb",
+    "ru": "идти",
+    "en": "to go"
+  },
+  "hauptstraße": {
+    "pos": "noun",
+    "ru": "Основная дорога",
+    "en": "Main street"
+  },
+  "menschen": {
+    "pos": "noun",
+    "ru": "Люди",
+    "en": "People"
+  },
+  "katze": {
+    "pos": "noun",
+    "ru": "Кошка",
+    "en": "Cat"
+  },
+  "bestimmter": {
+    "pos": "noun",
+    "ru": "определенная",
+    "en": "of certain"
+  },
+  "unbestimmter": {
+    "pos": "noun",
+    "ru": "бессрочно",
+    "en": "indefinite"
+  },
+  "negationsartikel": {
+    "pos": "noun",
+    "ru": "статья отрицания",
+    "en": "negation article"
+  },
+  "regen": {
+    "pos": "noun",
+    "ru": "дождь",
+    "en": "rain"
+  },
+  "interessierst": {
+    "pos": "noun",
+    "ru": "заинтересован",
+    "en": "interested"
+  },
+  "neues": {
+    "pos": "noun",
+    "ru": "Новое",
+    "en": "Purchase"
+  },
+  "umweltschutz": {
+    "pos": "noun",
+    "ru": "Экология.",
+    "en": "Environmental protection"
+  },
+  "verkehr": {
+    "pos": "noun",
+    "ru": "транспортное сообщение",
+    "en": "transport"
+  },
+  "chefin": {
+    "pos": "noun",
+    "ru": "Босс!",
+    "en": "CHIEF"
+  },
+  "ministers": {
+    "pos": "noun",
+    "ru": "министры",
+    "en": "ministers"
+  },
+  "partei": {
+    "pos": "noun",
+    "ru": "Стороны",
+    "en": "party"
+  },
+  "warnung": {
+    "pos": "noun",
+    "ru": "Предупреждение",
+    "en": "Warning"
+  },
+  "sitzung": {
+    "pos": "noun",
+    "ru": "Заседание",
+    "en": "for the General Meeting"
+  },
+  "reform": {
+    "pos": "noun",
+    "ru": "Реформа",
+    "en": "reform"
+  },
+  "anstatt": {
+    "pos": "noun",
+    "ru": "вместо",
+    "en": "instead of"
+  },
+  "labor": {
+    "pos": "noun",
+    "ru": "Лаборатория",
+    "en": "Laboratory"
+  },
+  "termins": {
+    "pos": "noun",
+    "ru": "встречи",
+    "en": "appointments"
+  },
+  "sessel": {
+    "pos": "noun",
+    "ru": "Кресла",
+    "en": "Easy chair"
+  },
+  "messe": {
+    "pos": "noun",
+    "ru": "Выставка",
+    "en": "fair"
+  },
+  "deadline": {
+    "pos": "noun",
+    "ru": "Дедлайн",
+    "en": "deadline"
+  },
+  "zeitgründen": {
+    "pos": "noun",
+    "ru": "ограничения по времени",
+    "en": "time constraints"
+  },
+  "selbststudium": {
+    "pos": "noun",
+    "ru": "Самоучка",
+    "en": "Self-study"
+  },
+  "projekts": {
+    "pos": "noun",
+    "ru": "проект",
+    "en": "project"
+  },
+  "hotelzimmer": {
+    "pos": "noun",
+    "ru": "Номер в отеле",
+    "en": "Hotel rooms"
+  },
+  "turm": {
+    "pos": "noun",
+    "ru": "Башня",
+    "en": "Tower"
+  },
+  "hobby": {
+    "pos": "noun",
+    "ru": "Хобби",
+    "en": "hobby"
+  },
+  "medizin": {
+    "pos": "noun",
+    "ru": "Медицина.",
+    "en": "medicine"
+  },
+  "einladung": {
+    "pos": "noun",
+    "ru": "Приглашение",
+    "en": "INVITATION"
+  },
+  "nachbar": {
+    "pos": "noun",
+    "ru": "Сосед",
+    "en": "neighbour"
+  },
+  "tickets": {
+    "pos": "noun",
+    "ru": "Электронный запрос",
+    "en": "tickets"
+  },
+  "vaters": {
+    "pos": "noun",
+    "ru": "отцы",
+    "en": "Father"
+  },
+  "schaufenster": {
+    "pos": "noun",
+    "ru": "ВИТРИНА",
+    "en": "Showcase slider"
+  },
+  "dank": {
+    "pos": "noun",
+    "ru": "благодаря",
+    "en": "thank-you"
+  },
+  "daran": {
+    "pos": "noun",
+    "ru": "в",
+    "en": "at"
+  },
+  "antrag": {
+    "pos": "noun",
+    "ru": "заявление",
+    "en": "application / request",
+    "gender": "m"
+  },
+  "auszeichnung": {
+    "pos": "noun",
+    "ru": "награда",
+    "en": "award / distinction",
+    "gender": "f"
+  },
+  "forscherin": {
+    "pos": "noun",
+    "ru": "исследовательница",
+    "en": "researcher (female)",
+    "gender": "f"
+  },
+  "flug": {
+    "pos": "noun",
+    "ru": "перелёт",
+    "en": "flight",
+    "gender": "m"
+  },
+  "anna": {
+    "pos": "noun",
+    "ru": "Анна",
+    "en": "Anna",
+    "gender": "f"
+  },
+  "herr": {
+    "pos": "noun",
+    "ru": "Господином"
+  },
+  "kindheit": {
+    "pos": "noun",
+    "ru": "Детство",
+    "en": "Infancy"
+  },
+  "ruhe": {
+    "pos": "noun",
+    "ru": "Тишина",
+    "en": "Peace"
+  },
+  "eis": {
+    "pos": "noun",
+    "ru": "Лёд",
+    "en": "ice"
+  },
+  "jahres": {
+    "pos": "noun",
+    "ru": "год",
+    "en": "3 and 4"
+  },
+  "stellen": {
+    "pos": "noun",
+    "ru": ".",
+    "en": "horizontally"
+  },
+  "kandidaten": {
+    "pos": "noun",
+    "ru": "кандидаты",
+    "en": "candidates"
+  },
+  "montag": {
+    "pos": "noun",
+    "ru": "Понедельник",
+    "en": "Mon"
+  },
+  "raum": {
+    "pos": "noun",
+    "ru": "Комната",
+    "en": "room"
+  },
+  "wochen": {
+    "pos": "noun",
+    "ru": "недели",
+    "en": "weeks"
+  },
+  "chancen": {
+    "pos": "noun",
+    "ru": "Возможности:",
+    "en": "Opportunities"
+  },
+  "leben": {
+    "pos": "noun",
+    "ru": "жить",
+    "en": "live"
+  },
+  "spaß": {
+    "pos": "noun",
+    "ru": "Забавное",
+    "en": "fun"
+  },
+  "winter": {
+    "pos": "noun",
+    "ru": "зима",
+    "en": "summer"
+  },
+  "bank": {
+    "pos": "noun",
+    "ru": "площадке",
+    "en": "bank / bench"
+  },
+  "flasche": {
+    "pos": "noun",
+    "ru": "Флакон",
+    "en": "bottle"
+  },
+  "trainer": {
+    "pos": "noun",
+    "ru": "тренер",
+    "en": "trainer / coach",
+    "gender": "m"
+  },
+  "regal": {
+    "pos": "noun",
+    "ru": "Стеллаж",
+    "en": "Shelf"
+  },
+  "panne": {
+    "pos": "noun",
+    "ru": "Поломка",
+    "en": "Breakdown"
+  },
+  "studentin": {
+    "pos": "noun",
+    "ru": "Студентка",
+    "en": "Student's"
+  },
+  "fall": {
+    "pos": "noun",
+    "ru": "Случай болезни",
+    "en": "case"
+  },
+  "klimakonferenz": {
+    "pos": "noun",
+    "ru": "климатическая конференция",
+    "en": "Climate Conference"
+  },
+  "energie": {
+    "pos": "noun",
+    "ru": "Энергетика",
+    "en": "energy"
+  },
+  "englisch": {
+    "pos": "noun",
+    "ru": "английский",
+    "en": "English"
+  },
+  "französisch": {
+    "pos": "adj",
+    "ru": "французский",
+    "en": "French"
+  },
+  "arbeitsbedingungen": {
+    "pos": "noun",
+    "ru": "Условия работы",
+    "en": "Working terms and conditions"
+  },
+  "fachkräften": {
+    "pos": "noun",
+    "ru": "квалифицированные рабочие",
+    "en": "skilled workers"
+  },
+  "bewerbungen": {
+    "pos": "noun",
+    "ru": "Оценивание",
+    "en": "applications"
+  },
+  "flughafen": {
+    "pos": "noun",
+    "ru": "Аэропорт",
+    "en": "Airport"
+  },
+  "einarbeitung": {
+    "pos": "noun",
+    "ru": "Освоение специальности",
+    "en": "Induction"
+  },
+  "firmenjubiläum": {
+    "pos": "noun",
+    "ru": "юбилей компании",
+    "en": "Company anniversary"
+  },
+  "freust": {
+    "pos": "noun",
+    "ru": "доволен",
+    "en": "are"
+  },
+  "sprichst": {
+    "pos": "noun",
+    "ru": "говорит",
+    "en": "speak"
+  },
+  "hoffst": {
+    "pos": "noun",
+    "ru": "надежда",
+    "en": "hope"
+  },
+  "zeiten": {
+    "pos": "noun",
+    "ru": "Время",
+    "en": "Times"
+  },
+  "besprechung": {
+    "pos": "noun",
+    "ru": "Обсуждение",
+    "en": "meeting"
+  },
+  "debatte": {
+    "pos": "noun",
+    "ru": "Дебаты",
+    "en": "Debates"
+  },
+  "spezialisten": {
+    "pos": "noun",
+    "ru": "специалисты",
+    "en": "Experts"
+  },
+  "dokumente": {
+    "pos": "noun",
+    "ru": "Документы",
+    "en": "documents"
+  },
+  "haare": {
+    "pos": "noun",
+    "ru": "Волосы",
+    "en": "Hair"
+  },
+  "zähne": {
+    "pos": "noun",
+    "ru": "Зубья",
+    "en": "Teeth"
+  },
+  "kontakt": {
+    "pos": "noun",
+    "ru": "Контакты",
+    "en": "contact"
+  },
+  "arbeitsplätze": {
+    "pos": "noun",
+    "ru": "Рабочие места",
+    "en": "Jobs"
+  },
+  "ereignisse": {
+    "pos": "noun",
+    "ru": "События",
+    "en": "events"
+  },
+  "werk": {
+    "pos": "noun",
+    "ru": "Завод",
+    "en": "plant"
+  },
+  "akkusativobjekt": {
+    "pos": "noun"
+  },
+  "infolge": {
+    "pos": "noun",
+    "ru": "вследствие",
+    "en": "as a result of",
+    "gender": "f"
+  },
+  "erwartungen": {
+    "pos": "noun",
+    "ru": "ожидания",
+    "en": "expectations"
+  },
+  "experte": {
+    "pos": "noun",
+    "ru": "Эксперт",
+    "en": "experts"
+  },
+  "produktion": {
+    "pos": "noun",
+    "ru": "Производство",
+    "en": "production"
+  },
+  "worauf": {
+    "pos": "noun",
+    "ru": "после чего",
+    "en": "what"
+  },
+  "womit": {
+    "pos": "noun",
+    "ru": "Чем",
+    "en": "USING"
+  },
+  "regenschirm": {
+    "pos": "noun",
+    "ru": "зонт",
+    "en": "umbrella"
+  },
+  "gesundheit": {
+    "pos": "noun",
+    "ru": "Здоровье",
+    "en": "health"
+  },
+  "kleidung": {
+    "pos": "noun",
+    "ru": "Одежду",
+    "en": "ochronna"
+  },
+  "vater": {
+    "pos": "noun",
+    "ru": "отец",
+    "en": "father",
+    "gender": "m"
+  },
+  "blumen": {
+    "pos": "noun",
+    "ru": "Блумен",
+    "en": "Flowers"
+  },
+  "problems": {
+    "pos": "noun",
+    "ru": "проблемы",
+    "en": "problems"
+  },
+  "kopf": {
+    "pos": "noun",
+    "ru": "ВЕРХНЯЯ",
+    "en": "Header"
+  },
+  "aufstehen": {
+    "pos": "verb",
+    "ru": "вставать",
+    "en": "to get up"
+  },
+  "großeltern": {
+    "pos": "noun",
+    "ru": "бабушки и дедушки",
+    "en": "Grandpa"
+  },
+  "nachbarin": {
+    "pos": "noun",
+    "ru": "сосед",
+    "en": "NEIGHBOR"
+  },
+  "medikamente": {
+    "pos": "noun",
+    "ru": "лекарств",
+    "en": "List medicines"
+  },
+  "bescheid": {
+    "pos": "noun",
+    "ru": "Уведомление",
+    "en": "benefit"
+  },
+  "anmeldung": {
+    "pos": "noun",
+    "ru": "Запись на прием",
+    "en": "login"
+  },
+  "verständnis": {
+    "pos": "noun",
+    "ru": "PONIMANIE",
+    "en": "Profession"
+  },
+  "taktik": {
+    "pos": "noun",
+    "ru": "Тактика",
+    "en": "Tactics"
+  },
+  "kommission": {
+    "pos": "noun",
+    "ru": "Комиссия",
+    "en": "Commission"
+  },
+  "recht": {
+    "pos": "noun",
+    "ru": "Правовые вопросы",
+    "en": "right"
+  },
+  "maschine": {
+    "pos": "noun",
+    "ru": "Машина",
+    "en": "machine"
+  },
+  "einkaufen": {
+    "pos": "noun",
+    "ru": "делать покупки",
+    "en": "shopping"
+  },
+  "ausruhen": {
+    "pos": "noun",
+    "ru": "отдых",
+    "en": "resting"
+  },
+  "apfel": {
+    "pos": "noun",
+    "ru": "яблочный",
+    "en": "apple"
+  },
+  "berg": {
+    "pos": "noun",
+    "ru": "гора",
+    "en": "mountain",
+    "gender": "m"
+  },
+  "rat": {
+    "pos": "noun",
+    "ru": "консультация, совет",
+    "en": "hemitartrate"
+  },
+  "spanien": {
+    "pos": "noun",
+    "ru": "Испания",
+    "en": "Spain"
+  },
+  "leg": {
+    "pos": "noun",
+    "ru": "нога",
+    "en": "leg"
+  },
+  "flugzeug": {
+    "pos": "noun",
+    "ru": "самолёт",
+    "en": "airplane",
+    "gender": "n"
+  },
+  "bahnhofsplatz": {
+    "pos": "noun",
+    "ru": "привокзальная площадь",
+    "en": "station square"
+  },
+  "kunst": {
+    "pos": "noun",
+    "ru": "Искусство",
+    "en": "Arts"
+  },
+  "spinnen": {
+    "pos": "noun",
+    "ru": "Прядение",
+    "en": "Spiders"
+  },
+  "lehrern": {
+    "pos": "noun",
+    "ru": "учителя",
+    "en": "teachers"
+  },
+  "schülerin": {
+    "pos": "noun",
+    "ru": "ученица",
+    "en": "female student",
+    "gender": "f"
+  },
+  "decke": {
+    "pos": "noun",
+    "ru": "потолок / одеяло",
+    "en": "ceiling / blanket",
+    "gender": "f"
+  },
+  "mitarbeiter": {
+    "pos": "noun",
+    "ru": "Сотрудник",
+    "en": "employees"
+  },
+  "informationen": {
+    "pos": "noun",
+    "ru": "Информация",
+    "en": "information"
+  },
+  "stellung": {
+    "pos": "noun",
+    "ru": "настройка",
+    "en": "production"
+  },
+  "kompromiss": {
+    "pos": "noun",
+    "ru": "компромисс",
+    "en": "compromise"
+  },
+  "kleid": {
+    "pos": "noun",
+    "ru": "Платье",
+    "en": "dress"
+  },
+  "diskussion": {
+    "pos": "noun",
+    "ru": "Обсуждение",
+    "en": "discussion"
+  },
+  "euro": {
+    "pos": "noun",
+    "ru": "ЕВРО",
+    "en": "euro"
+  },
+  "sofa": {
+    "pos": "noun",
+    "ru": "Диван",
+    "en": "sofa"
+  },
+  "keller": {
+    "pos": "noun",
+    "ru": "Келлер",
+    "en": "basement (18)"
+  },
+  "podcast": {
+    "pos": "noun",
+    "ru": "Подкаст",
+    "en": "podcast"
+  },
+  "witz": {
+    "pos": "noun",
+    "ru": "Анекдот",
+    "en": "Joke"
+  },
+  "tages": {
+    "pos": "noun",
+    "ru": "Тагес",
+    "en": "of the day (Tag-)"
+  },
+  "kälte": {
+    "pos": "noun",
+    "ru": "Переохлаждение",
+    "en": "Cold"
+  },
+  "müdigkeit": {
+    "pos": "noun",
+    "ru": "Утомляемость",
+    "en": "Fatigue"
+  },
+  "häusern": {
+    "pos": "noun",
+    "ru": "Хойзерн",
+    "en": "cases"
+  },
+  "students": {
+    "pos": "noun",
+    "ru": "студенты",
+    "en": "students"
+  },
+  "wagen": {
+    "pos": "noun",
+    "ru": "смею остановиться",
+    "en": "do I not dare ?"
+  },
+  "name": {
+    "pos": "noun",
+    "ru": "имя",
+    "en": "name"
+  },
+  "diskussionen": {
+    "pos": "noun",
+    "ru": "обсуждения",
+    "en": "Discussions"
+  },
+  "anspruch": {
+    "pos": "noun",
+    "ru": "Пункт формулы изобретения",
+    "en": "Entitlement"
+  },
+  "belohnung": {
+    "pos": "noun",
+    "ru": "награда",
+    "en": "reward",
+    "gender": "f"
+  },
+  "spiegel": {
+    "pos": "noun",
+    "ru": "зеркало",
+    "en": "mirror",
+    "gender": "m"
+  },
+  "everest": {
+    "pos": "noun",
+    "ru": "Эверест",
+    "en": "Mount Everest"
+  },
+  "spieler": {
+    "pos": "noun",
+    "ru": "Игроки",
+    "en": "players"
+  },
+  "essens": {
+    "pos": "noun",
+    "ru": "еда",
+    "en": "food"
+  },
+  "leiter": {
+    "pos": "noun",
+    "ru": "Руководитель",
+    "en": "ladder"
+  },
+  "boden": {
+    "pos": "noun",
+    "ru": "Пол",
+    "en": "floor"
+  },
+  "politikerin": {
+    "pos": "noun",
+    "ru": "политик",
+    "en": "Politician (female)"
+  },
+  "geräte": {
+    "pos": "noun",
+    "ru": "Оборудование",
+    "en": "equipment"
+  },
+  "entwicklung": {
+    "pos": "noun",
+    "ru": "Разработка",
+    "en": "development"
+  },
+  "gegend": {
+    "pos": "noun",
+    "ru": "площадь",
+    "en": "Area"
+  },
+  "gepäck": {
+    "pos": "noun",
+    "ru": "багажа",
+    "en": "Luggage"
+  },
+  "ausstellung": {
+    "pos": "noun",
+    "ru": "выставка",
+    "en": "exhibition"
+  },
+  "energien": {
+    "pos": "noun",
+    "ru": "энергии",
+    "en": "Energy"
+  },
+  "geschäftsreise": {
+    "pos": "noun",
+    "ru": "командировка",
+    "en": "Business trip"
+  },
+  "amt": {
+    "pos": "noun",
+    "ru": "должность / ведомство",
+    "en": "office / authority",
+    "gender": "n"
+  },
+  "interessen": {
+    "pos": "noun",
+    "ru": "Интересы",
+    "en": "interest"
+  },
+  "reiseziel": {
+    "pos": "noun",
+    "ru": "Пункт назначения",
+    "en": "destination"
+  },
+  "fernsehen": {
+    "pos": "noun",
+    "ru": "смотреть телевизор",
+    "en": "to watch television"
+  },
+  "personal": {
+    "pos": "noun",
+    "ru": "Персонал",
+    "en": "staff / personnel"
+  },
+  "fachliteratur": {
+    "pos": "noun",
+    "ru": "Техническая литература",
+    "en": "Specialist literature"
+  },
+  "zusammenfassung": {
+    "pos": "noun",
+    "ru": "Резюме",
+    "en": "Abstract"
+  },
+  "tutorien": {
+    "pos": "noun",
+    "ru": "учебные пособия",
+    "en": "Tutorials"
+  },
+  "behandlung": {
+    "pos": "noun",
+    "ru": "Лечение",
+    "en": "treatment"
+  },
+  "halsweh": {
+    "pos": "noun",
+    "ru": "Першение в горле",
+    "en": "sore throat"
+  },
+  "wartezimmer": {
+    "pos": "noun",
+    "ru": "зал ожидания",
+    "en": "Waiting rooms"
+  },
+  "ausflug": {
+    "pos": "noun",
+    "ru": "экскурсия",
+    "en": "Road trip"
+  },
+  "fluss": {
+    "pos": "noun",
+    "ru": "Поток",
+    "en": "flow"
+  },
+  "rathaus": {
+    "pos": "noun",
+    "ru": "Городская администрация",
+    "en": "CITY HALL"
+  },
+  "gebäuden": {
+    "pos": "noun",
+    "ru": "здания",
+    "en": "buildings"
+  },
+  "wohnviertel": {
+    "pos": "noun",
+    "ru": "жилой район",
+    "en": "Residential area"
+  },
+  "anteil": {
+    "pos": "noun",
+    "ru": "Доля",
+    "en": "contribution"
+  },
+  "einfluss": {
+    "pos": "noun",
+    "ru": "Воздействие",
+    "en": "Influence"
+  },
+  "hunden": {
+    "pos": "noun",
+    "ru": "собаки",
+    "en": "dogs"
+  },
+  "apotheken": {
+    "pos": "noun",
+    "ru": "APTEKI",
+    "en": "Pharmacies"
+  },
+  "räumen": {
+    "pos": "noun",
+    "ru": "Протяжка",
+    "en": "areas"
+  },
+  "abfälle": {
+    "pos": "noun",
+    "ru": "Отходы",
+    "en": "Waste"
+  },
+  "einigung": {
+    "pos": "noun",
+    "ru": "договор",
+    "en": "Agreement"
+  },
+  "professors": {
+    "pos": "noun",
+    "ru": "профессора",
+    "en": "professors"
+  },
+  "studiums": {
+    "pos": "noun",
+    "ru": "исследования",
+    "en": "studies"
+  },
+  "instinkt": {
+    "pos": "noun",
+    "ru": "Инстинкт",
+    "en": "Instinct"
+  },
+  "ziel": {
+    "pos": "noun",
+    "ru": "Цель",
+    "en": "Goal"
+  },
+  "erinnerst": {
+    "pos": "noun",
+    "ru": "помнит",
+    "en": "DO YOU.."
+  },
+  "wartest": {
+    "pos": "noun",
+    "ru": "тест ожидания",
+    "en": "to wait"
+  },
+  "kümmerst": {
+    "pos": "noun",
+    "ru": "позаботьтесь о",
+    "en": "take care of"
+  },
+  "ärgerst": {
+    "pos": "noun",
+    "ru": "раздражает",
+    "en": "annoying"
+  },
+  "hilfst": {
+    "pos": "noun",
+    "ru": "помощь",
+    "en": "to help"
+  },
+  "bestehst": {
+    "pos": "noun",
+    "ru": "зачтено",
+    "en": "pass"
+  },
+  "glaubst": {
+    "pos": "noun",
+    "ru": "верить",
+    "en": "believe"
+  },
+  "hörst": {
+    "pos": "noun",
+    "ru": "вы слышите",
+    "en": "you hear"
+  },
+  "ratschläge": {
+    "pos": "noun",
+    "ru": "консультация",
+    "en": "advice points"
+  },
+  "informierst": {
+    "pos": "noun",
+    "ru": "информирует",
+    "en": "informs"
+  },
+  "plan": {
+    "pos": "noun",
+    "ru": "план",
+    "en": "plan",
+    "gender": "m"
+  },
+  "türkei": {
+    "pos": "noun",
+    "ru": "ТУРЦИЯ",
+    "en": "Turkey"
+  },
+  "schiffe": {
+    "pos": "noun",
+    "ru": "Кораблей",
+    "en": "Vessels"
+  },
+  "hafen": {
+    "pos": "noun",
+    "ru": "Порты",
+    "en": "harbour / port"
+  },
+  "reparatur": {
+    "pos": "noun",
+    "ru": "Ремонт",
+    "en": "Repair"
+  },
+  "anschlusszug": {
+    "pos": "noun",
+    "ru": "соединительный кабель",
+    "en": "connection cable"
+  },
+  "kraft": {
+    "pos": "noun",
+    "ru": "moc",
+    "en": "power"
+  },
+  "präsentation": {
+    "pos": "noun",
+    "ru": "Презентация",
+    "en": "presentation"
+  },
+  "korrektur": {
+    "pos": "noun",
+    "ru": "Поправка",
+    "en": "correction"
+  },
+  "druck": {
+    "pos": "noun",
+    "ru": "Давление",
+    "en": "pressure"
+  },
+  "beitrag": {
+    "pos": "noun",
+    "ru": "Взнос",
+    "en": "post"
+  },
+  "rücksicht": {
+    "pos": "noun",
+    "ru": "рассмотрение",
+    "en": "consideration"
+  },
+  "diagnose": {
+    "pos": "noun",
+    "ru": "Диагноз",
+    "en": "Diagnosis"
+  },
+  "verantwortung": {
+    "pos": "noun",
+    "ru": "Ответственность",
+    "en": "responsibility"
+  },
+  "fisch": {
+    "pos": "noun",
+    "ru": ".",
+    "en": "Fish"
+  },
+  "grippe": {
+    "pos": "noun",
+    "ru": "Грипп",
+    "en": "Flu"
+  },
+  "energiequellen": {
+    "pos": "noun",
+    "ru": "Источники энергии",
+    "en": "energy sources"
+  },
+  "unfall": {
+    "pos": "noun",
+    "ru": "Авария",
+    "en": "accident"
+  },
+  "redaktion": {
+    "pos": "noun",
+    "ru": "Редакция",
+    "en": "Editorial"
+  },
+  "korrekturen": {
+    "pos": "noun",
+    "ru": "КОРРЕКЦИИ",
+    "en": "Corrections"
+  },
+  "minuten": {
+    "pos": "noun",
+    "ru": "минут",
+    "en": "minutes"
+  },
+  "direktor": {
+    "pos": "noun",
+    "ru": "Директор",
+    "en": "Director"
+  },
+  "anlässlich": {
+    "pos": "noun",
+    "ru": "по случаю",
+    "en": "on the occasion of"
+  },
+  "regeln": {
+    "pos": "noun",
+    "ru": "ПРАВИЛА",
+    "en": "rules"
+  },
+  "start": {
+    "pos": "noun",
+    "ru": "старт / начало",
+    "en": "start",
+    "gender": "m"
+  },
+  "schüler": {
+    "pos": "noun",
+    "ru": "Школьник",
+    "en": "student"
+  },
+  "schön": {
+    "pos": "adj",
+    "ru": "красивый",
+    "en": "beautiful / nice"
+  },
+  "neu": {
+    "pos": "adj",
+    "ru": "новый",
+    "en": "new"
+  },
+  "bahn": {
+    "pos": "noun",
+    "ru": "Железная дорога",
+    "en": "trains"
+  },
+  "blume": {
+    "pos": "noun",
+    "ru": "Цветок",
+    "en": "Flower"
+  },
+  "insel": {
+    "pos": "noun",
+    "ru": "Остров",
+    "en": "island"
+  },
+  "tal": {
+    "pos": "noun",
+    "ru": "Долина",
+    "en": "valley"
+  },
+  "koffer": {
+    "pos": "noun",
+    "ru": "Чемоданы",
+    "en": "case"
+  },
+  "gemüse": {
+    "pos": "noun",
+    "ru": "Овощи",
+    "en": "vegetables"
+  },
+  "student": {
+    "pos": "noun",
+    "ru": "студент",
+    "en": "student",
+    "gender": "m"
+  },
+  "teilnahme": {
+    "pos": "noun",
+    "ru": "Участие******",
+    "en": "participation"
+  },
+  "welt": {
+    "pos": "noun",
+    "ru": "Worwoad",
+    "en": "weltweit"
+  },
+  "rückfragen": {
+    "pos": "noun",
+    "ru": "Телефон для справок:",
+    "en": "Queries"
+  },
+  "könnten": {
+    "pos": "noun",
+    "ru": "может"
+  },
+  "zertifikat": {
+    "pos": "noun",
+    "ru": "СЕРТИФИКАТ",
+    "en": "CERTIFICATE"
+  },
+  "rehabilitation": {
+    "pos": "noun",
+    "ru": "Реабилитация",
+    "en": "rehabilitation"
+  },
+  "sicherheit": {
+    "pos": "noun",
+    "ru": "Безопасность",
+    "en": "reliability"
+  },
+  "ausstoß": {
+    "pos": "noun",
+    "ru": "выход",
+    "en": "Footprint"
+  },
+  "mandant": {
+    "pos": "noun",
+    "ru": "Клиент",
+    "en": "Client"
+  },
+  "bauarbeiten": {
+    "pos": "noun",
+    "ru": "Строительные работы",
+    "en": "Construction work"
+  },
+  "brei": {
+    "pos": "noun",
+    "ru": "Каша",
+    "en": "Porridge"
+  },
+  "training": {
+    "pos": "noun",
+    "ru": "Тренировочный зал",
+    "en": "training"
+  },
+  "party": {
+    "pos": "noun",
+    "ru": "вечеринка",
+    "en": "Juhlat"
+  },
+  "hof": {
+    "pos": "noun",
+    "ru": "Хоф",
+    "en": "courtyard / farm"
+  },
+  "bett": {
+    "pos": "noun",
+    "ru": "Кровать",
+    "en": "bed"
+  },
+  "nähe": {
+    "pos": "noun",
+    "ru": "рядом.",
+    "en": "proximity"
+  },
+  "briefe": {
+    "pos": "noun",
+    "ru": "KORRESPONDENTSIIA KAK TEMA",
+    "en": "LETTERS"
+  },
+  "vögel": {
+    "pos": "noun",
+    "ru": "Птицы",
+    "en": "Birds"
+  },
+  "fußgängerzone": {
+    "pos": "noun",
+    "ru": "Пешеходная зона",
+    "en": "Pedestrian zone"
+  },
+  "verein": {
+    "pos": "noun",
+    "ru": "Объединение",
+    "en": "Association"
+  },
+  "kennst": {
+    "pos": "noun",
+    "ru": "вы знаете,",
+    "en": "knowing"
+  },
+  "bergen": {
+    "pos": "noun",
+    "ru": "Берген",
+    "en": "Retrieve"
+  },
+  "ausfüllen": {
+    "pos": "noun",
+    "ru": "ЗАПОЛНЕНИЕ",
+    "en": "information"
+  },
+  "zahlung": {
+    "pos": "noun",
+    "ru": "Наименование выплаты",
+    "en": "payment"
+  },
+  "rand": {
+    "pos": "noun",
+    "ru": "Граница",
+    "en": "edge / margin"
+  },
+  "polizisten": {
+    "pos": "noun",
+    "ru": "Полицейские",
+    "en": "police officers."
+  },
+  "journalistin": {
+    "pos": "noun",
+    "ru": "Журналистка",
+    "en": "Journalist"
+  },
+  "präsidenten": {
+    "pos": "noun",
+    "ru": "Президент",
+    "en": "president / presidents"
+  },
+  "verfügung": {
+    "pos": "noun",
+    "ru": "выбытия",
+    "en": "Decision"
+  },
+  "untersuchung": {
+    "pos": "noun",
+    "ru": "обследование",
+    "en": "checkup"
+  },
+  "angeklagten": {
+    "pos": "noun",
+    "ru": "ответчики",
+    "en": "Defendants"
+  },
+  "lösungen": {
+    "pos": "noun",
+    "ru": "Решения",
+    "en": "solutions"
+  },
+  "äußerungen": {
+    "pos": "noun",
+    "ru": "примечания",
+    "en": "remarks"
+  },
+  "zeuge": {
+    "pos": "noun",
+    "ru": "Свидетель:",
+    "en": "witness"
+  },
+  "analyse": {
+    "pos": "noun",
+    "ru": "Анализ",
+    "en": "analysis"
+  },
+  "gehalt": {
+    "pos": "noun",
+    "ru": "Зарплата",
+    "en": "Salary"
+  },
+  "maßnahmen": {
+    "pos": "noun",
+    "ru": "меры",
+    "en": "Actions"
+  },
+  "südamerika": {
+    "pos": "noun",
+    "ru": "ЮЖНАЯ АМЕРИКА",
+    "en": "South America"
+  },
+  "methode": {
+    "pos": "noun",
+    "ru": "Метод",
+    "en": "Method"
+  },
+  "stein": {
+    "pos": "noun",
+    "ru": "Природный камень",
+    "en": "stone"
+  },
+  "details": {
+    "pos": "noun",
+    "ru": "Подробности",
+    "en": "select"
+  },
+  "bearbeitung": {
+    "pos": "noun",
+    "ru": "Обработка",
+    "en": "machining"
+  },
+  "klein": {
+    "pos": "adj",
+    "ru": "маленький",
+    "en": "small"
+  },
+  "milch": {
+    "pos": "noun",
+    "ru": "Молоко",
+    "en": "Milk"
+  },
+  "groß": {
+    "pos": "adj",
+    "ru": "большой",
+    "en": "big / large"
+  },
+  "stift": {
+    "pos": "noun",
+    "ru": "ручку",
+    "en": "Pen"
+  },
+  "dorf": {
+    "pos": "noun",
+    "ru": "окружное управление Оберпуллендорф",
+    "en": "village"
+  },
+  "termine": {
+    "pos": "noun",
+    "ru": "Сроки",
+    "en": "appointments"
+  },
+  "auktion": {
+    "pos": "noun",
+    "ru": "Аукцион",
+    "en": "Auction"
+  },
+  "sammeln": {
+    "pos": "noun",
+    "ru": "Добавление в коллекцию",
+    "en": "source materials"
+  },
+  "wichtiges": {
+    "pos": "noun",
+    "ru": "Важно",
+    "en": "important"
+  },
+  "hostel": {
+    "pos": "noun",
+    "ru": "Хостел",
+    "en": "hostel"
+  },
+  "bäckerei": {
+    "pos": "noun",
+    "ru": "Пекарня",
+    "en": "Bakery Shop"
+  },
+  "geschenkidee": {
+    "pos": "noun",
+    "ru": "идея подарка",
+    "en": "Gift idea"
+  },
+  "jungen": {
+    "pos": "noun",
+    "ru": "мальчики",
+    "en": "Boys"
+  },
+  "pilot": {
+    "pos": "noun",
+    "ru": "пилот",
+    "en": "pilot"
+  },
+  "fotografen": {
+    "pos": "noun",
+    "ru": "фотографы",
+    "en": "Photographers"
+  },
+  "herrn": {
+    "pos": "noun",
+    "ru": "Г-ну",
+    "en": "Sirs"
+  },
+  "journaliste": {
+    "pos": "noun",
+    "ru": "журналист",
+    "en": "journalist"
+  },
+  "komponisten": {
+    "pos": "noun",
+    "ru": "Композиторы",
+    "en": "Chamber music"
+  },
+  "löwen": {
+    "pos": "noun",
+    "ru": "Лёвен",
+    "en": "lions"
+  },
+  "teil": {
+    "pos": "noun",
+    "en": "taking part in"
+  },
+  "leute": {
+    "pos": "noun",
+    "ru": "люди",
+    "en": "people"
+  },
+  "detektiv": {
+    "pos": "noun",
+    "ru": "Агент",
+    "en": "Private investigator"
+  },
+  "wissen": {
+    "pos": "verb",
+    "ru": "Знание",
+    "en": "to know"
+  },
+  "hausaufgabe": {
+    "pos": "noun",
+    "ru": "Домашнее задание",
+    "en": "Homework"
+  },
+  "november": {
+    "pos": "noun",
+    "ru": "ноября",
+    "en": "November"
+  },
+  "rückmeldung": {
+    "pos": "noun",
+    "ru": "Повторное зачисление",
+    "en": "Feedback"
+  },
+  "oktober": {
+    "pos": "noun",
+    "ru": "Октябрь",
+    "en": "October"
+  },
+  "unterkunft": {
+    "pos": "noun",
+    "ru": "Проживание",
+    "en": "accommodation"
+  },
+  "impfung": {
+    "pos": "noun",
+    "ru": "Вакцинация",
+    "en": "Vaccination"
+  },
+  "genesung": {
+    "pos": "noun",
+    "ru": "Выздоровление",
+    "en": "Recovery"
+  },
+  "richterin": {
+    "pos": "noun",
+    "ru": "Судья",
+    "en": "Judge"
+  },
+  "geldstrafe": {
+    "pos": "noun",
+    "ru": "денежного штрафа",
+    "en": "Fine"
+  },
+  "behörde": {
+    "pos": "noun",
+    "ru": "Кем выдан",
+    "en": "Authority"
+  },
+  "genehmigung": {
+    "pos": "noun",
+    "ru": "Разрешение",
+    "en": "Approval"
+  },
+  "konsequenzen": {
+    "pos": "noun",
+    "ru": "последствия",
+    "en": "Consequences"
+  },
+  "temperaturen": {
+    "pos": "noun",
+    "ru": "Температуры",
+    "en": "temperatures"
+  },
+  "wahl": {
+    "pos": "noun",
+    "ru": "Выборы",
+    "en": "Elective"
+  },
+  "bemühungen": {
+    "pos": "noun",
+    "ru": "усилия",
+    "en": "efforts"
+  },
+  "experiment": {
+    "pos": "noun",
+    "ru": "Эксперимент",
+    "en": "experiment"
+  },
+  "entgegen": {
+    "pos": "noun",
+    "ru": "против",
+    "en": "stand in the way."
+  },
+  "jubiläums": {
+    "pos": "noun",
+    "ru": "годовщина",
+    "en": "anniversary."
+  },
+  "feier": {
+    "pos": "noun",
+    "ru": "Вечеринка",
+    "en": "Celebration"
+  },
+  "ungeachtet": {
+    "pos": "noun",
+    "ru": "несмотря на",
+    "en": "Notwithstanding"
+  },
+  "proteste": {
+    "pos": "noun",
+    "ru": "Протесты",
+    "en": "protests"
+  },
+  "bedeutung": {
+    "pos": "noun",
+    "ru": "Значение",
+    "en": "Meaning"
+  },
+  "menge": {
+    "pos": "noun",
+    "ru": "Количество",
+    "en": "quantity"
+  },
+  "interessantes": {
+    "pos": "noun",
+    "ru": "интересно",
+    "en": "Interesting"
+  },
+  "falsches": {
+    "pos": "noun",
+    "ru": "неправильный",
+    "en": "wrong"
+  },
+  "schwäche": {
+    "pos": "noun",
+    "ru": "Слабость",
+    "en": "weakness"
+  },
+  "besonderes": {
+    "pos": "noun",
+    "ru": "специальный",
+    "en": "Special remarks"
+  },
+  "sprachen": {
+    "pos": "noun",
+    "ru": "Языки",
+    "en": "languages"
+  },
+  "klavier": {
+    "pos": "noun",
+    "ru": "Фортепиано",
+    "en": "Piano"
+  },
+  "anfang": {
+    "pos": "noun",
+    "ru": "Начало",
+    "en": "d’année"
+  },
+  "sofortmaßnahmen": {
+    "pos": "noun",
+    "ru": "Неотложные мероприятия",
+    "en": "Immediate measures"
+  },
+  "unfälle": {
+    "pos": "noun"
+  },
+  "mitternacht": {
+    "pos": "noun"
+  },
+  "konzept": {
+    "pos": "noun",
+    "ru": "Концепция",
+    "en": "design"
+  },
+  "investition": {
+    "pos": "noun",
+    "ru": "инвестиции",
+    "en": "Invest"
+  },
+  "beweise": {
+    "pos": "noun",
+    "ru": "Доказательства",
+    "en": "Evidence"
+  },
+  "risiko": {
+    "pos": "noun",
+    "ru": "Риск",
+    "en": "cancellation"
+  },
+  "meinungen": {
+    "pos": "noun",
+    "ru": "мнения",
+    "en": "Opinions"
+  },
+  "muskelfaserriss": {
+    "pos": "noun",
+    "ru": "разрыв мышечного волокна",
+    "en": "Pulled hamstring"
+  },
+  "marktplatz": {
+    "pos": "noun",
+    "ru": "Торговая площадка",
+    "en": "Marketplace"
+  },
+  "treppe": {
+    "pos": "noun",
+    "ru": "Лестница",
+    "en": "Staircase"
+  },
+  "stadtgrenze": {
+    "pos": "noun",
+    "ru": "граница города",
+    "en": "City ​​limits"
+  },
+  "parkweg": {
+    "pos": "noun",
+    "ru": "парковая дорога",
+    "en": "park road"
+  },
+  "seite": {
+    "pos": "noun",
+    "ru": "Страница",
+    "en": "Page"
+  },
+  "fabrik": {
+    "pos": "noun",
+    "ru": "Фабрика",
+    "en": "factory"
+  },
+  "flussufer": {
+    "pos": "noun",
+    "ru": "Берег реки",
+    "en": "Shore"
+  },
+  "gang": {
+    "pos": "noun",
+    "ru": "Передача",
+    "en": "CORRIDOR"
+  },
+  "autobahn": {
+    "pos": "noun",
+    "ru": "Автомагистраль",
+    "en": "Motorway"
+  },
+  "richtung": {
+    "pos": "noun",
+    "ru": "направление",
+    "en": "direction"
+  },
+  "stadtzentrums": {
+    "pos": "noun",
+    "ru": "центры городов",
+    "en": "city centres"
+  },
+  "viertel": {
+    "pos": "noun",
+    "ru": "geo|Районы",
+    "en": "quarters"
+  },
+  "ausdauer": {
+    "pos": "noun",
+    "ru": "выдержка",
+    "en": "Stamina"
+  },
+  "sonnenstrahlen": {
+    "pos": "noun",
+    "ru": "солнечные лучи",
+    "en": "Sunbeams"
+  },
+  "bach": {
+    "pos": "noun",
+    "ru": "Ручей",
+    "en": "stream / brook"
+  },
+  "feuer": {
+    "pos": "noun",
+    "ru": "Огонь",
+    "en": "Fire"
+  },
+  "kamin": {
+    "pos": "noun",
+    "ru": "камин",
+    "en": "Fireplace"
+  },
+  "wellen": {
+    "pos": "noun",
+    "ru": "Валы",
+    "en": "waves"
+  },
+  "arm": {
+    "pos": "noun",
+    "ru": "жалкий"
+  },
+  "saal": {
+    "pos": "noun",
+    "ru": "Зал:",
+    "en": "Room"
+  },
+  "dach": {
+    "pos": "noun",
+    "ru": "Кровля",
+    "en": "roof"
+  },
+  "ampel": {
+    "pos": "noun",
+    "ru": "Светофор",
+    "en": "Traffic Light"
+  },
+  "denkmalschutz": {
+    "pos": "noun",
+    "ru": "охрана памятника",
+    "en": "PROTECTION OF HISTORIC BUILDINGS AND MONUMENTS"
+  },
+  "neue": {
+    "pos": "noun",
+    "ru": "новых",
+    "en": "New"
+  },
+  "rätsel": {
+    "pos": "noun",
+    "ru": "Загадка",
+    "en": "puzzle"
+  },
+  "studium": {
+    "pos": "noun",
+    "ru": "учеба",
+    "en": "size"
+  },
+  "worüber": {
+    "pos": "noun",
+    "ru": "О чём?",
+    "en": "Content"
+  },
+  "hieran": {
+    "pos": "noun",
+    "ru": "к этому",
+    "en": "to this"
+  },
+  "worin": {
+    "pos": "noun",
+    "ru": "где",
+    "en": "wherein"
+  },
+  "unterschied": {
+    "pos": "noun",
+    "ru": "Разница",
+    "en": "difference"
+  },
+  "woran": {
+    "pos": "noun",
+    "ru": "что",
+    "en": "What"
+  },
+  "hierauf": {
+    "pos": "noun",
+    "ru": "после этого",
+    "en": "OF WHICH"
+  },
+  "argumentation": {
+    "pos": "noun",
+    "ru": "Аргумент",
+    "en": "Reasoning/Argumentation"
+  },
+  "feiertage": {
+    "pos": "noun",
+    "ru": "Праздники",
+    "en": "Public holidays"
+  },
+  "warnungen": {
+    "pos": "noun",
+    "ru": "Предупреждения",
+    "en": "warnings"
+  },
+  "umstrukturierung": {
+    "pos": "noun",
+    "ru": "реструктуризация",
+    "en": "Restructuring"
+  },
+  "kündigungen": {
+    "pos": "noun",
+    "ru": "прекращение действия",
+    "en": "Withdrawals"
+  },
+  "umbaus": {
+    "pos": "noun",
+    "ru": "конверсия",
+    "en": "conversion"
+  },
+  "schwierigkeiten": {
+    "pos": "noun",
+    "ru": "трудности",
+    "en": "Difficulties"
+  },
+  "sommerferien": {
+    "pos": "noun",
+    "ru": "Каникулы",
+    "en": "Summer holiday"
+  },
+  "bleib": {
+    "pos": "noun",
+    "ru": "пребывание",
+    "en": "temps."
+  },
+  "nagel": {
+    "pos": "noun",
+    "ru": "Нагель",
+    "en": "Nail"
+  },
+  "nase": {
+    "pos": "noun",
+    "ru": "Носик",
+    "en": "nose"
+  },
+  "nerven": {
+    "pos": "noun",
+    "ru": "Нерв",
+    "en": "nerves"
+  },
+  "auge": {
+    "pos": "noun",
+    "ru": "Глаз",
+    "en": "eye,"
+  },
+  "griff": {
+    "pos": "noun",
+    "ru": "Рукоятка",
+    "en": "handle"
+  },
+  "schuss": {
+    "pos": "noun",
+    "ru": "выстрел",
+    "en": "Committee."
+  },
+  "lesen": {
+    "pos": "noun",
+    "ru": "читать",
+    "en": "Reading"
+  },
+  "kaninchen": {
+    "pos": "noun",
+    "ru": "кролик",
+    "en": "Rabbits"
+  },
+  "schnell": {
+    "pos": "adj",
+    "ru": "быстрый",
+    "en": "fast"
+  },
+  "kellner": {
+    "pos": "noun",
+    "ru": "Официант",
+    "en": "Waiter"
+  },
+  "jung": {
+    "pos": "adj",
+    "ru": "Юнг",
+    "en": "young"
+  },
+  "geschichte": {
+    "pos": "noun",
+    "ru": "История",
+    "en": "History"
+  },
+  "kuchen": {
+    "pos": "noun",
+    "ru": "Пирог",
+    "en": "Lemon Cake"
+  },
+  "paris": {
+    "pos": "noun",
+    "ru": "Париж",
+    "en": "Paris"
+  },
+  "pasta": {
+    "pos": "noun",
+    "ru": "Макаронные изделия",
+    "en": "pasta"
+  },
+  "peter": {
+    "pos": "noun",
+    "ru": "Петер",
+    "en": "peter."
+  },
+  "bühne": {
+    "pos": "noun",
+    "ru": "Площадка",
+    "en": "stage"
+  },
+  "mitteilung": {
+    "pos": "noun",
+    "ru": "Уведомление",
+    "en": "announcement"
+  },
+  "mall": {
+    "pos": "noun",
+    "ru": "торговый центр",
+    "en": "shopping mall"
+  },
+  "journalists": {
+    "pos": "noun",
+    "ru": "журналисты",
+    "en": "journalists."
+  },
+  "kunde": {
+    "pos": "noun",
+    "ru": "Клиент",
+    "en": "customer"
+  },
+  "mai": {
+    "pos": "noun",
+    "ru": "Май",
+    "en": "May"
+  },
+  "website": {
+    "pos": "noun",
+    "ru": "Веб-сайт",
+    "en": "website"
+  },
+  "absagen": {
+    "pos": "verb"
+  },
+  "reklamation": {
+    "pos": "noun",
+    "ru": "Рекламация",
+    "en": "Complaint"
+  },
+  "angeklagte": {
+    "pos": "noun",
+    "ru": "ответчики",
+    "en": "DEFENDANT"
+  },
+  "unterstützung": {
+    "pos": "noun",
+    "ru": "Поддержка",
+    "en": "Support"
+  },
+  "gerät": {
+    "pos": "noun",
+    "ru": "механизм",
+    "en": "Device"
+  },
+  "wichtig": {
+    "pos": "adj",
+    "ru": "важный",
+    "en": "important"
+  },
+  "spielen": {
+    "pos": "verb",
+    "ru": "играть",
+    "en": "to play"
+  },
+  "freuen": {
+    "pos": "verb",
+    "ru": "радоваться",
+    "en": "to be glad"
+  },
+  "vorbereiten": {
+    "pos": "verb",
+    "ru": "подготовить",
+    "en": "preparation"
+  },
+  "anmelden": {
+    "pos": "noun",
+    "ru": "войти",
+    "en": "subscribe"
+  },
+  "schuhe": {
+    "pos": "noun",
+    "ru": "Обувь",
+    "en": "shoes"
+  },
+  "hoch": {
+    "pos": "adj",
+    "ru": "высокая",
+    "en": "high"
+  },
+  "vogel": {
+    "pos": "noun",
+    "ru": "Птица",
+    "en": "bird"
+  },
+  "karte": {
+    "pos": "noun",
+    "ru": "КАРТА",
+    "en": "card"
+  },
+  "sturm": {
+    "pos": "noun",
+    "ru": "Линия нападения",
+    "en": "Storm"
+  },
+  "bad": {
+    "pos": "noun",
+    "ru": "Cremebad",
+    "en": "bath"
+  },
+  "geschwister": {
+    "pos": "noun",
+    "ru": "Сиблинги",
+    "en": "sibling"
+  },
+  "tier": {
+    "pos": "noun",
+    "ru": "Животное",
+    "en": "Animal."
+  },
+  "heft": {
+    "pos": "noun",
+    "ru": "Тетрадь",
+    "en": "Defter"
+  },
+  "frühstück": {
+    "pos": "noun",
+    "ru": "Завтрак",
+    "en": "breakfast"
+  },
+  "münchen": {
+    "pos": "noun",
+    "ru": "Мюнхен",
+    "en": "Munich"
+  },
+  "polen": {
+    "pos": "noun",
+    "ru": "ПОЛЬША",
+    "en": "Poland"
+  },
+  "arbeitsplatz": {
+    "pos": "noun",
+    "ru": "Рабочее место",
+    "en": "Workplace"
+  },
+  "hoffentlich": {
+    "pos": "noun",
+    "ru": "Надеюсь.",
+    "en": "hopefully"
+  },
+  "schlafmangel": {
+    "pos": "noun",
+    "ru": "НЕДОСТАТОК СНА",
+    "en": "Lack of sleep"
+  },
+  "märz": {
+    "pos": "noun",
+    "ru": "Март",
+    "en": "Mar"
+  },
+  "kolleginnen": {
+    "pos": "noun",
+    "ru": "коллеги",
+    "en": "colleagues"
+  },
+  "verschiebung": {
+    "pos": "noun",
+    "ru": "Сдвиг",
+    "en": "Displacement"
+  },
+  "prüfungsergebnisse": {
+    "pos": "noun",
+    "ru": "результаты обследования",
+    "en": "Examination results"
+  },
+  "seminarraum": {
+    "pos": "noun",
+    "ru": "Конференц-зал",
+    "en": "Seminar Room"
+  },
+  "juni": {
+    "pos": "noun",
+    "ru": "июня",
+    "en": "June"
+  },
+  "wetterbericht": {
+    "pos": "noun",
+    "ru": "Прогноз погоды",
+    "en": "weather forecast"
+  },
+  "fristen": {
+    "pos": "noun",
+    "ru": "Сроки для открытия",
+    "en": "Deadlines"
+  },
+  "hinweise": {
+    "pos": "noun",
+    "ru": "Примечания",
+    "en": "information"
+  },
+  "menschenmenge": {
+    "pos": "noun",
+    "ru": "толпа",
+    "en": "Crowd"
+  },
+  "inflation": {
+    "pos": "noun",
+    "ru": "Инфляция",
+    "en": "inflation"
+  },
+  "kaufkraft": {
+    "pos": "noun",
+    "ru": "покупательная способность",
+    "en": "Purchasing power"
+  },
+  "sache": {
+    "pos": "noun",
+    "ru": "нещо",
+    "en": "BAG..."
+  },
+  "punkt": {
+    "pos": "noun",
+    "ru": "Точка.",
+    "en": "item"
+  },
+  "werktagen": {
+    "pos": "noun",
+    "ru": "рабочих дней",
+    "en": "business days"
+  },
+  "abschluss": {
+    "pos": "noun",
+    "ru": "ИТОГОВЫЙ БАЛАНС",
+    "en": "Accounts"
+  },
+  "warm": {
+    "pos": "adj",
+    "ru": "горячий",
+    "en": "warm"
+  },
+  "kalt": {
+    "pos": "adj",
+    "ru": "с / экономия",
+    "en": "cold"
+  },
+  "sehen": {
+    "pos": "verb",
+    "ru": "видеть",
+    "en": "to see"
+  },
+  "anrufen": {
+    "pos": "verb",
+    "ru": "звонить",
+    "en": "phoning"
+  },
+  "waschen": {
+    "pos": "verb",
+    "ru": "мыть",
+    "en": "out"
+  },
+  "ausmachen": {
+    "pos": "verb"
+  },
+  "impfen": {
+    "pos": "verb",
+    "ru": "Вакцинация",
+    "en": "vaccinate"
+  },
+  "pferd": {
+    "pos": "noun",
+    "ru": "Лошадь",
+    "en": "Horse"
+  },
+  "test": {
+    "pos": "noun",
+    "ru": "Тест",
+    "en": "test"
+  },
+  "preis": {
+    "pos": "noun",
+    "ru": "Вынос",
+    "en": "price"
+  },
+  "schlecht": {
+    "pos": "adj",
+    "ru": "плохо",
+    "en": "poorly"
+  },
+  "interessant": {
+    "pos": "adj",
+    "ru": "интересный",
+    "en": "interesting"
+  },
+  "roman": {
+    "pos": "noun",
+    "ru": "РомАн",
+    "en": "novel"
+  },
+  "banane": {
+    "pos": "noun",
+    "ru": "Банан",
+    "en": "banana"
+  },
+  "text": {
+    "pos": "noun",
+    "ru": "текст",
+    "en": "text",
+    "gender": "m"
+  },
+  "bluse": {
+    "pos": "noun",
+    "ru": "Блузка",
+    "en": "blouse"
+  },
+  "nimm": {
+    "pos": "noun",
+    "ru": "Возьми",
+    "en": "TAKE"
+  },
+  "schuh": {
+    "pos": "noun",
+    "ru": "Ботинок",
+    "en": "shoe"
+  },
+  "stimme": {
+    "pos": "noun",
+    "ru": "согласен/согласна",
+    "en": "agree"
+  },
+  "glas": {
+    "pos": "noun",
+    "ru": "стекло",
+    "en": "GLASS"
+  },
+  "autos": {
+    "pos": "noun",
+    "ru": "Авто.",
+    "en": ".autos"
+  },
+  "nachbars": {
+    "pos": "noun",
+    "ru": "соседи",
+    "en": "neighbors"
+  },
+  "abendessen": {
+    "pos": "noun",
+    "ru": "Ужин",
+    "en": "Dinner"
+  },
+  "chor": {
+    "pos": "noun",
+    "ru": "Хор",
+    "en": "Choir"
+  },
+  "linie": {
+    "pos": "noun",
+    "ru": "Линия",
+    "en": "line"
+  },
+  "größe": {
+    "pos": "noun",
+    "ru": "предприятия",
+    "en": "Size"
+  },
+  "farbe": {
+    "pos": "noun",
+    "ru": "Окрашивание",
+    "en": "colour"
+  },
+  "stell": {
+    "pos": "noun",
+    "ru": "место",
+    "en": "Model year"
+  },
+  "plakat": {
+    "pos": "noun",
+    "ru": "Плакат",
+    "en": "Poster"
+  },
+  "poliziste": {
+    "pos": "noun",
+    "ru": "сотрудник полиции",
+    "en": "police officer"
+  },
+  "polizists": {
+    "pos": "noun",
+    "ru": "сотрудники полиции",
+    "en": "police officers"
+  },
+  "polizistin": {
+    "pos": "noun",
+    "ru": "Полицейская",
+    "en": "Police Woman"
+  },
+  "präsidente": {
+    "pos": "noun",
+    "ru": "президент",
+    "en": "president"
+  },
+  "präsident": {
+    "pos": "noun",
+    "ru": "Президент университета",
+    "en": "president"
+  },
+  "präsidentin": {
+    "pos": "noun",
+    "ru": "президент",
+    "en": "President"
+  },
+  "pilots": {
+    "pos": "noun",
+    "ru": "пилоты",
+    "en": "pilots"
+  },
+  "fotografin": {
+    "pos": "noun",
+    "ru": "фотограф",
+    "en": "Photographer (female)"
+  },
+  "komponists": {
+    "pos": "noun",
+    "ru": "композиторы",
+    "en": "composers"
+  },
+  "löwin": {
+    "pos": "noun",
+    "ru": "львица",
+    "en": "LIONESS"
+  },
+  "polizist": {
+    "pos": "noun",
+    "ru": "Полицейский",
+    "en": "Police officer"
+  },
+  "präsidents": {
+    "pos": "noun",
+    "ru": "президенты",
+    "en": "presidents"
+  },
+  "italiener": {
+    "pos": "noun",
+    "ru": "Итальянцы",
+    "en": "Italian"
+  },
+  "natur": {
+    "pos": "noun",
+    "ru": "натуральный",
+    "en": "Nature"
+  },
+  "schulsystem": {
+    "pos": "noun",
+    "ru": "школьная система",
+    "en": "educational system"
+  },
+  "frühling": {
+    "pos": "noun",
+    "ru": "Весна",
+    "en": "The olive tree in Spring"
+  },
+  "maria": {
+    "pos": "noun",
+    "ru": "МарИя Йенч",
+    "en": "Ana Maria"
+  },
+  "anmachen": {
+    "pos": "verb"
+  },
+  "inhalt": {
+    "pos": "noun",
+    "ru": "Содержание",
+    "en": "Contents"
+  },
+  "seminar": {
+    "pos": "noun",
+    "ru": "Семинар",
+    "en": "seminar"
+  },
+  "dezember": {
+    "pos": "noun",
+    "ru": "декабря",
+    "en": "December"
+  },
+  "bewerbungsfrist": {
+    "pos": "noun",
+    "ru": "крайний срок подачи заявок",
+    "en": "Deadline for applications"
+  },
+  "hygienevorschriften": {
+    "pos": "noun",
+    "ru": "Правила гигиены:",
+    "en": "Hygiene regulations"
+  },
+  "ausweis": {
+    "pos": "noun",
+    "ru": "Удостоверение",
+    "en": "Identity card"
+  },
+  "anfrage": {
+    "pos": "noun",
+    "ru": "Запрос",
+    "en": "checkout"
+  },
+  "betrag": {
+    "pos": "noun",
+    "ru": "сегодня была выплачена следующая сумма",
+    "en": "amount"
+  },
+  "einchecken": {
+    "pos": "verb",
+    "ru": "прибытие",
+    "en": "Check in:"
+  },
+  "reservation": {
+    "pos": "noun",
+    "ru": "бронирование",
+    "en": "reservation / booking"
+  },
+  "rezension": {
+    "pos": "noun",
+    "ru": "Обзор",
+    "en": "review"
+  },
+  "renovierung": {
+    "pos": "noun",
+    "ru": "Реновация",
+    "en": "Renovations"
+  },
+  "sicherlichkeit": {
+    "pos": "noun",
+    "ru": "безопасность",
+    "en": "safety"
+  },
+  "sicheres": {
+    "pos": "noun",
+    "ru": "безопасный",
+    "en": "Safe"
+  },
+  "sicherheitssystem": {
+    "pos": "noun",
+    "ru": "Система безопасности",
+    "en": "Security system"
+  },
+  "journale": {
+    "pos": "noun",
+    "ru": "Журнал",
+    "en": "Journals"
+  },
+  "journal": {
+    "pos": "noun",
+    "ru": "Выпуск",
+    "en": "journal / magazine"
+  },
+  "journalismus": {
+    "pos": "noun",
+    "ru": "Журналистика",
+    "en": "journalism"
+  },
+  "ausstoßung": {
+    "pos": "noun",
+    "ru": "выброс",
+    "en": "ejection"
+  },
+  "ausstoßment": {
+    "pos": "noun",
+    "ru": "выброс",
+    "en": "ejection"
+  },
+  "ausstoßer": {
+    "pos": "noun",
+    "ru": "выбрасыватель",
+    "en": "Ejector"
+  },
+  "regierend": {
+    "pos": "noun",
+    "ru": "регулирующие",
+    "en": "governing"
+  },
+  "regierbar": {
+    "pos": "noun",
+    "ru": "регулируемый",
+    "en": "governable"
+  },
+  "regiering": {
+    "pos": "noun",
+    "ru": "правительство",
+    "en": "government"
+  },
+  "unterkunftung": {
+    "pos": "noun",
+    "ru": "проживание",
+    "en": "accommodation"
+  },
+  "nachfragend": {
+    "pos": "noun",
+    "ru": "запрос",
+    "en": "inquiring"
+  },
+  "impfer": {
+    "pos": "noun",
+    "ru": "вакцинатор",
+    "en": "vaccinator"
+  },
+  "berichtbar": {
+    "pos": "noun",
+    "ru": "подлежит регистрации",
+    "en": "reportable"
+  },
+  "konferenzbar": {
+    "pos": "noun",
+    "ru": "с возможностью проведения конференций",
+    "en": "conference-capable"
+  },
+  "medikamentierung": {
+    "pos": "noun",
+    "ru": "лекарство",
+    "en": "medication"
+  },
+  "genesungbar": {
+    "pos": "noun",
+    "ru": "извлекаемый",
+    "en": "recoverable"
+  },
+  "sichern": {
+    "pos": "verb",
+    "ru": "резервное копирование",
+    "en": "to secure / back up"
+  },
+  "ausstoßen": {
+    "pos": "noun",
+    "ru": "извлечь",
+    "en": "pushout"
+  },
+  "regierer": {
+    "pos": "noun",
+    "ru": "регулятор",
+    "en": "governor"
+  },
+  "mandantin": {
+    "pos": "noun",
+    "ru": "клиент",
+    "en": "ATTORNEY GIVER"
+  },
+  "forscherinnen": {
+    "pos": "noun",
+    "ru": "женщины-исследователи",
+    "en": "female researchers"
+  },
+  "urlaubs": {
+    "pos": "noun",
+    "ru": "отпуск",
+    "en": "vacation"
+  },
+  "stellvertreterin": {
+    "pos": "noun",
+    "ru": "DOVERENNYE LITSA",
+    "en": "Alternate"
+  },
+  "direktors": {
+    "pos": "noun",
+    "ru": "директора",
+    "en": "Director"
+  },
+  "fehlers": {
+    "pos": "noun",
+    "ru": "ошибка",
+    "en": "failure"
+  },
+  "tradition": {
+    "pos": "noun",
+    "ru": "Традиция",
+    "en": "tradition"
+  },
+  "brauch": {
+    "pos": "noun",
+    "ru": "Обычай",
+    "en": "custom"
+  },
+  "unweit": {
+    "pos": "noun",
+    "ru": "недалеко",
+    "en": "not far"
+  },
+  "hauses": {
+    "pos": "noun",
+    "ru": "дома",
+    "en": "houses"
+  },
+  "brunnen": {
+    "pos": "noun",
+    "ru": "БРУННЕН",
+    "en": "Fountain"
+  },
+  "schutzes": {
+    "pos": "noun",
+    "ru": "защита",
+    "en": "protection"
+  },
+  "vorfalls": {
+    "pos": "noun",
+    "ru": "инцидент",
+    "en": "the incident"
+  },
+  "worte": {
+    "pos": "noun",
+    "ru": "слова",
+    "en": "words"
+  },
+  "jugend": {
+    "pos": "noun",
+    "ru": "Молодёжь",
+    "en": "Teen"
+  },
+  "ministerin": {
+    "pos": "noun",
+    "ru": "министр",
+    "en": "MINISTER"
+  },
+  "einwände": {
+    "pos": "noun",
+    "ru": "возражения",
+    "en": "OBJECTIONS"
+  },
+  "parlament": {
+    "pos": "noun",
+    "ru": "Парламент",
+    "en": "Classroom"
+  },
+  "laufe": {
+    "pos": "noun",
+    "ru": "запустить",
+    "en": "runs"
+  },
+  "zuge": {
+    "pos": "noun",
+    "ru": "закрыто",
+    "en": "closed"
+  },
+  "laufendem": {
+    "pos": "noun",
+    "ru": "текущий",
+    "en": "ongoing"
+  },
+  "laufenden": {
+    "pos": "noun",
+    "ru": "продолжается",
+    "en": "ongoing"
+  },
+  "kopfe": {
+    "pos": "noun",
+    "ru": "головки",
+    "en": "heads"
+  },
+  "rolle": {
+    "pos": "noun",
+    "ru": "Роль",
+    "en": "roll"
+  },
+  "rollen": {
+    "pos": "noun",
+    "ru": "Роли",
+    "en": "Roles"
+  },
+  "überblicke": {
+    "pos": "noun",
+    "ru": "обзоры",
+    "en": "overviews"
+  },
+  "überblicken": {
+    "pos": "noun",
+    "ru": "обзор",
+    "en": "overview"
+  },
+  "überblicks": {
+    "pos": "noun",
+    "ru": "обзор",
+    "en": "overview"
+  },
+  "überblick": {
+    "pos": "noun",
+    "ru": "Краткий обзор",
+    "en": "overview"
+  },
+  "blauen": {
+    "pos": "noun",
+    "ru": "синих",
+    "en": "blue"
+  },
+  "blaue": {
+    "pos": "noun",
+    "ru": "синий",
+    "en": "blue"
+  },
+  "saft": {
+    "pos": "noun",
+    "ru": "сок",
+    "en": "juice"
+  },
+  "bier": {
+    "pos": "noun",
+    "ru": "Пиво",
+    "en": "beer"
+  },
+  "beine": {
+    "pos": "noun",
+    "ru": "ножек.",
+    "en": "the legs"
+  },
+  "bein": {
+    "pos": "noun",
+    "ru": "Нога",
+    "en": "Leg"
+  },
+  "berger": {
+    "pos": "noun",
+    "ru": "БЕргер",
+    "en": "berger..."
+  },
+  "vielen": {
+    "pos": "noun",
+    "ru": "たくさんの",
+    "en": "many (vielen-)"
+  },
+  "überweisung": {
+    "pos": "noun",
+    "ru": "Перевод",
+    "en": "Transfer"
+  },
+  "januar": {
+    "pos": "noun",
+    "ru": "января",
+    "en": "January"
+  },
+  "teuer": {
+    "pos": "adj",
+    "ru": "дорого",
+    "en": "high"
+  },
+  "billig": {
+    "pos": "adj",
+    "ru": "дешевый",
+    "en": "cheap"
+  },
+  "lang": {
+    "pos": "adj",
+    "ru": "длинный",
+    "en": "long"
+  },
+  "ruhig": {
+    "pos": "adj",
+    "ru": "spagoina",
+    "en": "Quiet setting"
+  },
+  "kaufen": {
+    "pos": "verb",
+    "ru": "покупать",
+    "en": "to buy"
+  },
+  "trinken": {
+    "pos": "verb",
+    "ru": "пить",
+    "en": "to drink"
+  },
+  "gern": {
+    "pos": "adv",
+    "ru": "охотно, с удовольствием",
+    "en": "gladly / with pleasure"
+  },
+  "laut": {
+    "pos": "adj",
+    "ru": "В СООТВ.С",
+    "en": "noisy"
+  },
+  "alt": {
+    "pos": "adj",
+    "ru": "старый",
+    "en": "old"
+  },
+  "sonnig": {
+    "pos": "adj",
+    "ru": "Облачность",
+    "en": "mostly sunny"
+  },
+  "braun": {
+    "pos": "adj",
+    "ru": "коричневый",
+    "en": "brown"
+  },
+  "limonade": {
+    "pos": "noun",
+    "ru": "Лимонад",
+    "en": "Soda"
+  },
+  "stark": {
+    "pos": "adj",
+    "ru": "имеются в большом количестве",
+    "en": "strong"
+  },
+  "balkon": {
+    "pos": "noun",
+    "ru": "БАЛКОН",
+    "en": "balcony"
+  },
+  "rock": {
+    "pos": "noun",
+    "ru": "Рок",
+    "en": "skirt / rock (music)"
+  },
+  "song": {
+    "pos": "noun",
+    "ru": "песня",
+    "en": "song"
+  },
+  "einkauf": {
+    "pos": "noun",
+    "ru": "Отдел закупок",
+    "en": "purchase"
+  },
+  "serie": {
+    "pos": "noun",
+    "ru": "Серия",
+    "en": "series"
+  },
+  "briefmarken": {
+    "pos": "noun",
+    "ru": "Музей",
+    "en": "Stamps"
+  },
+  "mädchen": {
+    "pos": "noun",
+    "ru": "Девочка",
+    "en": "Girls"
+  },
+  "verkäufer": {
+    "pos": "noun",
+    "ru": "Продавец",
+    "en": "sales assistant / seller"
+  },
+  "messer": {
+    "pos": "noun",
+    "ru": "диаметр",
+    "en": "knife"
+  },
+  "schuhen": {
+    "pos": "noun",
+    "ru": "обувь",
+    "en": "shoes"
+  },
+  "fahr": {
+    "pos": "noun",
+    "ru": "Двигай!",
+    "en": "Drive."
+  },
+  "regel": {
+    "pos": "noun",
+    "ru": "Правило",
+    "en": "Rule"
+  },
+  "himmel": {
+    "pos": "noun",
+    "ru": "Небо",
+    "en": "Sky"
+  },
+  "vortrag": {
+    "pos": "noun",
+    "ru": "лекция",
+    "en": "carried  forward"
+  },
+  "socken": {
+    "pos": "noun",
+    "ru": "Носки",
+    "en": "Socks"
+  },
+  "zitrone": {
+    "pos": "noun",
+    "ru": "Лимон",
+    "en": "Lemon"
+  },
+  "sonntag": {
+    "pos": "noun",
+    "ru": "Воскресенье",
+    "en": "Sunday"
+  },
+  "haustier": {
+    "pos": "noun",
+    "ru": "Домашние животные",
+    "en": "Pet"
+  },
+  "hut": {
+    "pos": "noun",
+    "ru": "Шляпа"
+  },
+  "äpfel": {
+    "pos": "noun",
+    "ru": "Яблоки",
+    "en": "Apples"
+  },
+  "busse": {
+    "pos": "noun",
+    "ru": "Буссе"
+  },
+  "fotos": {
+    "pos": "noun",
+    "ru": "Фото",
+    "en": "photos"
+  },
+  "filme": {
+    "pos": "noun",
+    "ru": "Фильмы:",
+    "en": "Movies"
+  },
+  "lampen": {
+    "pos": "noun",
+    "ru": "Лампы"
+  },
+  "züge": {
+    "pos": "noun",
+    "ru": "Цуг",
+    "en": "trains"
+  },
+  "pizzen": {
+    "pos": "noun",
+    "ru": "пицца",
+    "en": "Pizzas"
+  },
+  "parks": {
+    "pos": "noun",
+    "ru": "Парки",
+    "en": "parks"
+  },
+  "hunde": {
+    "pos": "noun",
+    "ru": "Псовые",
+    "en": "dogs"
+  },
+  "katzen": {
+    "pos": "noun",
+    "ru": "Кошки",
+    "en": "Cat"
+  },
+  "baum": {
+    "pos": "noun",
+    "ru": "Баум",
+    "en": "Tree"
+  },
+  "tomaten": {
+    "pos": "noun",
+    "ru": "<g id=\"1\">Помидоры</g>,",
+    "en": "tomato"
+  },
+  "hotels": {
+    "pos": "noun",
+    "ru": "Гостиницы",
+    "en": "hotels"
+  },
+  "lieder": {
+    "pos": "noun",
+    "ru": "песни",
+    "en": "songs"
+  },
+  "wolken": {
+    "pos": "noun",
+    "ru": "облачность",
+    "en": "Clouds."
+  },
+  "aufgaben": {
+    "pos": "noun",
+    "ru": "Задачи",
+    "en": "tasks"
+  },
+  "kasse": {
+    "pos": "noun",
+    "ru": "Касса",
+    "en": "health insurance organisation."
+  },
+  "stunden": {
+    "pos": "noun",
+    "ru": "отсрочивать, пролонгировать (платёж)",
+    "en": "Defer"
+  },
+  "warten": {
+    "pos": "verb",
+    "ru": "ждать",
+    "en": "waiting"
+  },
+  "geben": {
+    "pos": "verb",
+    "ru": "давать",
+    "en": "put"
+  },
+  "bringen": {
+    "pos": "verb",
+    "ru": "принести",
+    "en": "to bring"
+  },
+  "tennis": {
+    "pos": "noun",
+    "ru": "Теннис",
+    "en": "tennis"
+  },
+  "lieblingsfach": {
+    "pos": "noun",
+    "ru": "любимый предмет",
+    "en": "favourite subject"
+  },
+  "instrument": {
+    "pos": "noun",
+    "ru": "инструмент",
+    "en": "instrument"
+  },
+  "geschmack": {
+    "pos": "noun",
+    "ru": "вкус",
+    "en": "Taste"
+  },
+  "grad": {
+    "pos": "noun",
+    "ru": "Градусы",
+    "en": "Grade"
+  },
+  "müller": {
+    "pos": "noun",
+    "ru": "Мюллер",
+    "en": "Müller / miller"
+  },
+  "komm": {
+    "pos": "noun",
+    "ru": "Идём."
+  },
+  "sportplatz": {
+    "pos": "noun",
+    "ru": "Спортивная площадка",
+    "en": "Sports Field"
+  },
+  "matte": {
+    "pos": "noun",
+    "ru": "Мат",
+    "en": "mat"
+  },
+  "schweiz": {
+    "pos": "noun",
+    "ru": "Швейцария",
+    "en": "Switzerland"
+  },
+  "sportler": {
+    "pos": "noun",
+    "ru": "Атлет",
+    "en": "Engines"
+  },
+  "gegner": {
+    "pos": "noun",
+    "ru": "Противник",
+    "en": "Opponent"
+  },
+  "nachbarns": {
+    "pos": "noun",
+    "ru": "соседи",
+    "en": "neighbours"
+  },
+  "junges": {
+    "pos": "noun",
+    "ru": "молодой",
+    "en": "young"
+  },
+  "jungin": {
+    "pos": "noun",
+    "ru": "джунгин",
+    "en": "junior (female)"
+  },
+  "piloten": {
+    "pos": "noun",
+    "ru": "Свая",
+    "en": "pilots"
+  },
+  "pilotin": {
+    "pos": "noun",
+    "ru": "пилот",
+    "en": "pilot"
+  },
+  "fotografe": {
+    "pos": "noun",
+    "ru": "фотограф",
+    "en": "photographer"
+  },
+  "fotograf": {
+    "pos": "noun",
+    "ru": "Фотограф",
+    "en": "PHOTOGRAPHER"
+  },
+  "herrs": {
+    "pos": "noun",
+    "ru": "г-н"
+  },
+  "komponist": {
+    "pos": "noun",
+    "ru": "Композитор",
+    "en": "Composer"
+  },
+  "komponistin": {
+    "pos": "noun",
+    "ru": "композитор",
+    "en": "Composer"
+  },
+  "löw": {
+    "pos": "noun",
+    "ru": "лёв",
+    "en": "Löw / lion"
+  },
+  "löwe": {
+    "pos": "noun",
+    "ru": "Лев",
+    "en": "Lion"
+  },
+  "kunder": {
+    "pos": "noun",
+    "ru": "клиент",
+    "en": "customer"
+  },
+  "kundes": {
+    "pos": "noun",
+    "ru": "клиент",
+    "en": "customer"
+  },
+  "junge": {
+    "pos": "noun",
+    "ru": "Мальчик",
+    "en": "young"
+  },
+  "pilote": {
+    "pos": "noun",
+    "ru": "пилот",
+    "en": "pilot"
+  },
+  "fotografs": {
+    "pos": "noun",
+    "ru": "фотографы",
+    "en": "photographers"
+  },
+  "komponiste": {
+    "pos": "noun",
+    "ru": "композитор",
+    "en": "composer"
+  },
+  "löwes": {
+    "pos": "noun",
+    "ru": "loewes",
+    "en": "loewes"
+  },
+  "kundens": {
+    "pos": "noun",
+    "ru": "клиенты",
+    "en": "customers"
+  },
+  "psychologe": {
+    "pos": "noun",
+    "ru": "психолога",
+    "en": "Psychologist"
+  },
+  "modern": {
+    "pos": "adj",
+    "ru": "современный",
+    "en": "modern"
+  },
+  "verabschieden": {
+    "pos": "verb",
+    "ru": "попрощаться",
+    "en": "icicle- lāsteka."
+  },
+  "ffentlichen": {
+    "pos": "verb",
+    "ru": "публичный",
+    "en": "public"
+  },
+  "untersuchen": {
+    "pos": "verb",
+    "ru": "осмотреть",
+    "en": "to examine"
+  },
+  "diskutiieren": {
+    "pos": "verb",
+    "ru": "обсудить",
+    "en": "discuss"
+  },
+  "verkaufen": {
+    "pos": "verb",
+    "ru": "Продать",
+    "en": "Sell"
+  },
+  "schneider": {
+    "pos": "noun",
+    "en": "Schneider / tailor"
+  },
+  "juli": {
+    "pos": "noun",
+    "ru": "июля",
+    "en": "July"
+  },
+  "gerne": {
+    "pos": "noun",
+    "ru": "Isofix",
+    "en": "enjoy"
+  },
+  "krause": {
+    "pos": "noun",
+    "ru": "Краузе",
+    "en": "Krause"
+  },
+  "hoffmann": {
+    "pos": "noun",
+    "ru": "Хоффманн",
+    "en": "Hoffmann"
+  },
+  "zustand": {
+    "pos": "noun",
+    "ru": "Состояние",
+    "en": "entage"
+  },
+  "bestätigung": {
+    "pos": "noun",
+    "ru": "Подтверждение",
+    "en": "confirmation"
+  },
+  "aufenthalts": {
+    "pos": "noun",
+    "ru": "пребывание",
+    "en": "stay:"
+  },
+  "hierfür": {
+    "pos": "noun",
+    "ru": "для этого, на это",
+    "en": "for the war."
+  },
+  "erhalt": {
+    "pos": "noun",
+    "ru": "получать",
+    "en": "Maintenance"
+  },
+  "konto": {
+    "pos": "noun",
+    "ru": "Счет",
+    "en": "account"
+  },
+  "terminverschiebung": {
+    "pos": "noun",
+    "ru": "реструктуризация",
+    "en": "Postponement KWT"
+  },
+  "hiermit": {
+    "pos": "noun",
+    "ru": "настоящим",
+    "en": "I/we (*) hereby"
+  },
+  "wunsch": {
+    "pos": "noun",
+    "ru": "Желание",
+    "en": "Wants"
+  },
+  "frist": {
+    "pos": "noun",
+    "ru": "fp|Укажите срок",
+    "en": "period"
+  },
+  "vorverlegen": {
+    "pos": "verb"
+  },
+  "reparieren": {
+    "pos": "verb",
+    "ru": "Восстановить",
+    "en": "how to repair"
+  },
+  "beraten": {
+    "pos": "verb",
+    "ru": "получите консультацию.",
+    "en": "to offer you our detailed consulting"
+  },
+  "bersetzen": {
+    "pos": "verb",
+    "ru": "перевести",
+    "en": "translate"
+  },
+  "schneiden": {
+    "pos": "verb",
+    "ru": "резать",
+    "en": "cut"
+  },
+  "kontrollieren": {
+    "pos": "verb",
+    "ru": "контролировать",
+    "en": "control"
+  },
+  "unterkommen": {
+    "pos": "noun",
+    "ru": "размещенный",
+    "en": "unterkommen ?"
+  },
+  "unterkunftbar": {
+    "pos": "noun",
+    "ru": "можно разместить",
+    "en": "can be accommodated"
+  },
+  "nachfragebar": {
+    "pos": "noun",
+    "ru": "требовательный",
+    "en": "demandable"
+  },
+  "nachfrager": {
+    "pos": "noun",
+    "ru": "Спрос",
+    "en": "demander"
+  },
+  "impff": {
+    "pos": "noun",
+    "ru": "vaccff",
+    "en": "vaccff"
+  },
+  "impft": {
+    "pos": "noun",
+    "ru": "вакцинирован",
+    "en": "vaccinated"
+  },
+  "berichter": {
+    "pos": "noun",
+    "ru": "репортер",
+    "en": "reporter"
+  },
+  "berichten": {
+    "pos": "noun",
+    "ru": "сообщать",
+    "en": "effects"
+  },
+  "konferenzierung": {
+    "pos": "noun",
+    "ru": "конференц-связь",
+    "en": "conferencing"
+  },
+  "konferenzler": {
+    "pos": "noun",
+    "ru": "конференц-связь",
+    "en": "conferencer"
+  },
+  "medikamentier": {
+    "pos": "noun",
+    "ru": "лечащий врач",
+    "en": "medicator"
+  },
+  "medikamentbar": {
+    "pos": "noun",
+    "ru": "лечебный",
+    "en": "medicatable"
+  },
+  "genes": {
+    "pos": "noun",
+    "ru": "Genes.",
+    "en": "Genes"
+  },
+  "genesungler": {
+    "pos": "noun",
+    "ru": "выздоравливающий",
+    "en": "convalescent"
+  },
+  "unterkünft": {
+    "pos": "noun",
+    "ru": "проживание",
+    "en": "Accommodation"
+  },
+  "nachfragen": {
+    "pos": "noun",
+    "ru": "& Запрос",
+    "en": "Checking"
+  },
+  "berichtung": {
+    "pos": "noun",
+    "ru": "регулировка",
+    "en": "adjustment"
+  },
+  "konferierend": {
+    "pos": "noun",
+    "ru": "конференц-связь",
+    "en": "conferencing"
+  },
+  "medikamentler": {
+    "pos": "noun",
+    "ru": "аптекарь",
+    "en": "druggist"
+  },
+  "genesend": {
+    "pos": "noun",
+    "ru": "восстановление",
+    "en": "recovering"
+  },
+  "studierende": {
+    "pos": "noun",
+    "ru": "студенты",
+    "en": "Students"
+  },
+  "häuser": {
+    "pos": "noun",
+    "ru": "клеток",
+    "en": "house"
+  },
+  "strom": {
+    "pos": "noun",
+    "ru": "Электричество",
+    "en": "flow"
+  },
+  "äußerung": {
+    "pos": "noun",
+    "ru": "акт",
+    "en": "Expression"
+  },
+  "inmitten": {
+    "pos": "noun",
+    "ru": "в середине",
+    "en": "Korrekt ..."
+  },
+  "laufender": {
+    "pos": "noun",
+    "ru": "текущий",
+    "en": "Runner"
+  },
+  "laufendes": {
+    "pos": "noun",
+    "ru": "текущий",
+    "en": "current"
+  },
+  "kopfen": {
+    "pos": "noun",
+    "ru": "головки",
+    "en": "heads"
+  },
+  "kopfs": {
+    "pos": "noun",
+    "ru": "головки",
+    "en": "heads"
+  },
+  "rollende": {
+    "pos": "noun",
+    "ru": "прокатка",
+    "en": "rolling"
+  },
+  "rollens": {
+    "pos": "noun",
+    "ru": "ролик",
+    "en": "roller"
+  },
+  "blauem": {
+    "pos": "noun",
+    "ru": "синий",
+    "en": "blue"
+  },
+  "blaues": {
+    "pos": "noun",
+    "ru": "синий",
+    "en": "blue"
+  },
+  "breie": {
+    "pos": "noun",
+    "ru": "трикотаж",
+    "en": "knitwear"
+  },
+  "beines": {
+    "pos": "noun",
+    "ru": "ноги"
+  },
+  "beins": {
+    "pos": "noun",
+    "ru": "нога",
+    "en": "leg"
+  },
+  "laufende": {
+    "pos": "noun",
+    "ru": "текущий",
+    "en": "us Current"
+  },
+  "köpfen": {
+    "pos": "noun",
+    "ru": "головки",
+    "en": "beheads"
+  },
+  "roller": {
+    "pos": "noun",
+    "en": "scooter"
+  },
+  "blauer": {
+    "pos": "noun",
+    "ru": "синий",
+    "en": "blue"
+  },
+  "topf": {
+    "pos": "noun",
+    "ru": "Бак",
+    "en": "Pot"
+  },
+  "wein": {
+    "pos": "noun",
+    "ru": "ВИНО",
+    "en": "Wine"
+  },
+  "beinen": {
+    "pos": "noun",
+    "ru": "ноги",
+    "en": "legs"
+  },
+  "bestellung": {
+    "pos": "noun",
+    "ru": "заказ",
+    "en": "order."
+  },
+  "verzögerung": {
+    "pos": "noun",
+    "ru": "замедление",
+    "en": "pressure"
+  },
+  "sendung": {
+    "pos": "noun",
+    "ru": "Отправление",
+    "en": "broadcast"
+  },
+  "sendungsnummer": {
+    "pos": "noun",
+    "ru": "Номер отправки",
+    "en": "consignment number"
+  },
+  "lieferung": {
+    "pos": "noun",
+    "ru": "Доставка",
+    "en": "delivery"
+  },
+  "jens": {
+    "pos": "noun",
+    "ru": "Йенс",
+    "en": "Jens"
+  },
+  "scherer": {
+    "pos": "noun",
+    "ru": "ШЕрер",
+    "en": "Scherer"
+  },
+  "kaufpreis": {
+    "pos": "noun",
+    "ru": "Покупная цена",
+    "en": "Purchase price"
+  },
+  "hartmann": {
+    "pos": "noun",
+    "ru": "Хартман",
+    "en": "Hartmann"
+  },
+  "richter": {
+    "pos": "noun",
+    "ru": "Судья",
+    "en": "judge"
+  },
+  "akademie": {
+    "pos": "noun",
+    "ru": "Академия",
+    "en": "Academy"
+  },
+  "brandt": {
+    "pos": "noun",
+    "ru": "горит",
+    "en": "Brandt"
+  },
+  "schadensfall": {
+    "pos": "noun",
+    "ru": "случай повреждения",
+    "en": "Claims"
+  },
+  "lehmann": {
+    "pos": "noun",
+    "ru": "Леманн",
+    "en": "Lehmann"
+  },
+  "schmitt": {
+    "pos": "noun",
+    "ru": "Шмитт",
+    "en": "Schmitt"
+  },
+  "unannehmlichkeiten": {
+    "pos": "noun",
+    "ru": "неудобства",
+    "en": "Particulars of Inconvenience"
+  },
+  "rashid": {
+    "pos": "noun",
+    "ru": "рашид",
+    "en": "Rashid"
+  },
+  "mietvertrag": {
+    "pos": "noun",
+    "ru": "ДОГОВОР АРЕНДЫ",
+    "en": "rental contract / lease"
+  },
+  "wolf": {
+    "pos": "noun",
+    "ru": "Вольф",
+    "en": "wolf"
+  },
+  "mangel": {
+    "pos": "noun",
+    "ru": "недостаток, нехватка",
+    "en": "defect"
+  },
+  "zahlungen": {
+    "pos": "noun",
+    "ru": "Платежи",
+    "en": "Payments"
+  },
+  "kundin": {
+    "pos": "noun",
+    "ru": "клиент",
+    "en": "customer (female)"
+  },
+  "antworten": {
+    "pos": "verb",
+    "ru": "Ответы",
+    "en": "answer"
+  },
+  "viel": {
+    "pos": "adv",
+    "ru": "много",
+    "en": "much / a lot"
+  },
+  "nah": {
+    "pos": "adj",
+    "ru": "Ближе",
+    "en": "close"
+  },
+  "elegant": {
+    "pos": "adj",
+    "ru": "элегантный",
+    "en": "elegant"
+  },
+  "schlafen": {
+    "pos": "verb",
+    "ru": "спать",
+    "en": "to sleep"
+  },
+  "ziehen": {
+    "pos": "verb",
+    "ru": "потянуть",
+    "en": "pull"
+  },
+  "treffen": {
+    "pos": "verb",
+    "ru": "встречать(ся)",
+    "en": "meets"
+  },
+  "beeilen": {
+    "pos": "verb",
+    "ru": "поторопись",
+    "en": "hurry"
+  },
+  "interessieren": {
+    "pos": "verb",
+    "ru": "Интерес",
+    "en": "in our price list,"
+  },
+  "erkälten": {
+    "pos": "verb",
+    "ru": "простуда",
+    "en": "to catch"
+  },
+  "verletzen": {
+    "pos": "verb",
+    "ru": "ранить",
+    "en": "Violate"
+  },
+  "fühlen": {
+    "pos": "verb",
+    "ru": "ощущать",
+    "en": "feel"
+  },
+  "anziehen": {
+    "pos": "verb",
+    "ru": "одевать",
+    "en": "hand"
+  },
+  "kümmern": {
+    "pos": "verb",
+    "ru": "уход",
+    "en": "to show poor growth"
+  },
+  "einsteigen": {
+    "pos": "verb"
+  },
+  "aufmachen": {
+    "pos": "verb"
+  },
+  "zumachen": {
+    "pos": "verb"
+  },
+  "ausgehen": {
+    "pos": "verb"
+  },
+  "erfahren": {
+    "pos": "adj",
+    "ru": "- опыт",
+    "en": "Experienced"
+  },
+  "aktuell": {
+    "pos": "adj",
+    "ru": "Текущий",
+    "en": "current"
+  },
+  "international": {
+    "pos": "adj",
+    "ru": ".",
+    "en": "international"
+  },
+  "renoviieren": {
+    "pos": "verb",
+    "ru": "отремонтировать",
+    "en": "renovate"
+  },
+  "fen": {
+    "pos": "verb",
+    "ru": "Fen!",
+    "en": "linkage"
+  },
+  "senden": {
+    "pos": "verb",
+    "ru": "отправить",
+    "en": "send"
+  },
+  "nutzen": {
+    "pos": "verb",
+    "ru": "средства.",
+    "en": "to use"
+  },
+  "hren": {
+    "pos": "verb"
+  },
+  "sammelen": {
+    "pos": "verb",
+    "ru": "собрать",
+    "en": "collect"
+  },
+  "unterzeichnen": {
+    "pos": "verb",
+    "ru": "знак",
+    "en": "and"
+  },
+  "einladen": {
+    "pos": "verb"
+  },
+  "durchgehen": {
+    "pos": "verb",
+    "ru": "просматривать, проходить",
+    "en": "to go through / skim"
+  },
+  "ansprechen": {
+    "pos": "verb"
+  },
+  "einreichen": {
+    "pos": "verb"
+  },
+  "erklären": {
+    "pos": "verb",
+    "ru": "объяснять",
+    "en": "to explain"
+  },
+  "ruhen": {
+    "pos": "verb",
+    "ru": "отдых",
+    "en": "to rest"
+  },
+  "abholen": {
+    "pos": "verb",
+    "ru": "& Получить",
+    "en": "to pick up"
+  },
+  "gmb": {
+    "pos": "noun",
+    "en": "GmbH"
+  },
+  "gmbh": {
+    "pos": "noun",
+    "en": "GmbH (limited company)"
+  },
+  "luft": {
+    "pos": "noun",
+    "ru": "Воздух",
+    "en": "air"
+  },
+  "band": {
+    "pos": "noun",
+    "ru": "Лента",
+    "en": "belt"
+  },
+  "stadion": {
+    "pos": "noun",
+    "ru": "Стадион",
+    "en": "Stadium Name"
+  },
+  "nett": {
+    "pos": "adj",
+    "ru": "красивый",
+    "en": "nice"
+  },
+  "schwer": {
+    "pos": "adj",
+    "ru": "тяжёлая",
+    "en": "severe"
+  },
+  "voll": {
+    "pos": "adj",
+    "ru": "полный",
+    "en": "full"
+  },
+  "frisch": {
+    "pos": "adj",
+    "ru": "свежий",
+    "en": "Fresh"
+  },
+  "spannend": {
+    "pos": "adj",
+    "ru": "Это увлекательно",
+    "en": "thrilling"
+  },
+  "freundlich": {
+    "pos": "adj",
+    "ru": "дружеский",
+    "en": "Friendly"
+  },
+  "hell": {
+    "pos": "adj",
+    "ru": "светлые",
+    "en": "Bright"
+  },
+  "hart": {
+    "pos": "adj",
+    "ru": "твёрдый",
+    "en": "hard"
+  },
+  "bekannt": {
+    "pos": "adj",
+    "ru": "Известно:",
+    "en": "Known"
+  },
+  "offiziell": {
+    "pos": "adj",
+    "ru": "должностное лицо",
+    "en": "official"
+  },
+  "rot": {
+    "pos": "adj",
+    "ru": "Красный",
+    "en": "Red"
+  },
+  "großmutter": {
+    "pos": "noun",
+    "ru": "Дед",
+    "en": "Grandmother"
+  },
+  "sonnencreme": {
+    "pos": "noun",
+    "ru": "солнцезащитный крем",
+    "en": "Sun cream"
+  },
+  "holz": {
+    "pos": "noun",
+    "ru": "Дерево",
+    "en": "timber"
+  },
+  "stock": {
+    "pos": "noun",
+    "ru": "Шток",
+    "en": "floor / stock"
+  },
+  "mama": {
+    "pos": "noun",
+    "ru": "Мама",
+    "en": "mother"
+  },
+  "reiseleiterin": {
+    "pos": "noun",
+    "ru": "экскурсовод",
+    "en": "tour guide"
+  },
+  "gib": {
+    "pos": "noun",
+    "ru": "ГиБ",
+    "en": "give (imperative)"
+  },
+  "reiseführer": {
+    "pos": "noun",
+    "ru": "Путеводители",
+    "en": "Travel Guides"
+  },
+  "papa": {
+    "pos": "noun",
+    "ru": "Папа.",
+    "en": "dad / papa"
+  },
+  "süßigkeiten": {
+    "pos": "noun",
+    "ru": "Кондитерские изделия",
+    "en": "Candy"
+  },
+  "verkäuferin": {
+    "pos": "noun",
+    "ru": "Продавщица",
+    "en": "Saleswoman"
+  },
+  "karten": {
+    "pos": "noun",
+    "ru": "Билеты",
+    "en": "cards"
+  },
+  "zuhause": {
+    "pos": "noun",
+    "ru": "Heim",
+    "en": "At home"
+  },
+  "vorher": {
+    "pos": "noun",
+    "ru": "previat",
+    "en": "before"
+  },
+  "hemd": {
+    "pos": "noun",
+    "ru": "футболка",
+    "en": "shirt"
+  },
+  "werbung": {
+    "pos": "noun",
+    "ru": "Реклама",
+    "en": "advertising"
+  },
+  "melodie": {
+    "pos": "noun",
+    "ru": "Мелодия",
+    "en": "Melody"
+  },
+  "zentrum": {
+    "pos": "noun",
+    "ru": "Василия",
+    "en": "Centre"
+  },
+  "baby": {
+    "pos": "noun",
+    "ru": "Малыши",
+    "en": "baby"
+  },
+  "rad": {
+    "pos": "noun",
+    "ru": "радиан",
+    "en": "Wheel"
+  },
+  "stuhs": {
+    "pos": "noun",
+    "en": "chairs (fragment)"
+  },
+  "stühlen": {
+    "pos": "noun",
+    "ru": "кресла",
+    "en": "chairs"
+  },
+  "stühle": {
+    "pos": "noun",
+    "ru": "Стулья",
+    "en": "Chairs"
+  },
+  "täschen": {
+    "pos": "noun",
+    "ru": "мешочки",
+    "en": "pouches"
+  },
+  "taschens": {
+    "pos": "noun",
+    "ru": "мешки",
+    "en": "bags"
+  },
+  "taschen": {
+    "pos": "noun",
+    "ru": "Сумки",
+    "en": "BAGS"
+  },
+  "tasch": {
+    "pos": "noun",
+    "ru": "карман",
+    "en": "pocket"
+  },
+  "fraus": {
+    "pos": "noun",
+    "en": "women (fragment)"
+  },
+  "frauens": {
+    "pos": "noun",
+    "ru": "женский",
+    "en": "women's"
+  },
+  "tischen": {
+    "pos": "noun",
+    "ru": "таблицы",
+    "en": "tables"
+  },
+  "tische": {
+    "pos": "noun",
+    "ru": "Столы",
+    "en": "tables"
+  },
+  "tischs": {
+    "pos": "noun",
+    "ru": "таблицы",
+    "en": "tables"
+  },
+  "apfeln": {
+    "pos": "noun",
+    "ru": "яблоки",
+    "en": "apples"
+  },
+  "apfels": {
+    "pos": "noun",
+    "ru": "яблоки",
+    "en": "apples"
+  },
+  "auten": {
+    "pos": "noun",
+    "en": "Auten"
+  },
+  "autosn": {
+    "pos": "noun",
+    "en": "cars"
+  },
+  "freunds": {
+    "pos": "noun",
+    "ru": "друзья",
+    "en": "friends"
+  },
+  "stadts": {
+    "pos": "noun",
+    "ru": "город",
+    "en": "city"
+  },
+  "hobbysn": {
+    "pos": "noun",
+    "ru": "hobbiesn",
+    "en": "hobbiesn"
+  },
+  "hobbien": {
+    "pos": "noun",
+    "ru": "хобби",
+    "en": "hobbies"
+  },
+  "hobbys": {
+    "pos": "noun",
+    "ru": "ХОББИ",
+    "en": "HOBBIES"
+  },
+  "buss": {
+    "pos": "noun",
+    "ru": "шина",
+    "en": "bus"
+  },
+  "bussen": {
+    "pos": "noun",
+    "ru": "автобусы",
+    "en": "coaches and buses"
+  },
+  "blum": {
+    "pos": "noun",
+    "ru": "Блюм",
+    "en": "Blum (?)"
+  },
+  "blümen": {
+    "pos": "noun",
+    "ru": "цветы",
+    "en": "flowers"
+  },
+  "blumens": {
+    "pos": "noun",
+    "ru": "цветы",
+    "en": "flowers"
+  },
+  "eier": {
+    "pos": "noun",
+    "ru": "Яйца",
+    "en": "Eggs"
+  },
+  "eiers": {
+    "pos": "noun",
+    "ru": "яйца",
+    "en": "eggs"
+  },
+  "eien": {
+    "pos": "noun",
+    "en": "one (fragment)"
+  },
+  "tags": {
+    "pos": "noun",
+    "ru": "Пометки",
+    "en": "days / tags"
+  },
+  "täg": {
+    "pos": "noun",
+    "ru": "день",
+    "en": "day"
+  },
+  "hand": {
+    "pos": "noun",
+    "ru": "рука",
+    "en": "hand",
+    "gender": "f"
+  },
+  "händ": {
+    "pos": "noun",
+    "ru": "ручной",
+    "en": "manual"
+  },
+  "hands": {
+    "pos": "noun",
+    "ru": "руки",
+    "en": "hands"
+  },
+  "fotosn": {
+    "pos": "noun",
+    "ru": "фото",
+    "en": "photos"
+  },
+  "foten": {
+    "pos": "noun",
+    "ru": "футы",
+    "en": "feet"
+  },
+  "films": {
+    "pos": "noun",
+    "ru": "фильмы",
+    "en": "films"
+  },
+  "filmen": {
+    "pos": "noun",
+    "ru": "съемки",
+    "en": "they're riding around."
+  },
+  "lamp": {
+    "pos": "noun",
+    "ru": "лампа",
+    "en": "lamp"
+  },
+  "lämpen": {
+    "pos": "noun",
+    "ru": "загорается",
+    "en": "light up"
+  },
+  "lampes": {
+    "pos": "noun",
+    "ru": "лампы",
+    "en": "lamps"
+  },
+  "tieren": {
+    "pos": "noun",
+    "ru": "голов)",
+    "en": "tation"
+  },
+  "tiers": {
+    "pos": "noun",
+    "ru": "Тирес",
+    "en": "tiers:"
+  },
+  "tiere": {
+    "pos": "noun",
+    "ru": "Животные",
+    "en": "Animals"
+  },
+  "zügen": {
+    "pos": "noun",
+    "ru": "глотками",
+    "en": "trains"
+  },
+  "züg": {
+    "pos": "noun",
+    "ru": "быстро",
+    "en": "swiftly"
+  },
+  "uhres": {
+    "pos": "noun",
+    "ru": "часы",
+    "en": "clock"
+  },
+  "uhren": {
+    "pos": "noun",
+    "ru": "Часы",
+    "en": "watch"
+  },
+  "uhrenn": {
+    "pos": "noun",
+    "ru": "ohrenn",
+    "en": "ohrenn"
+  },
+  "problemen": {
+    "pos": "noun",
+    "ru": "близким людям.",
+    "en": "problems"
+  },
+  "kuchens": {
+    "pos": "noun",
+    "ru": "торт",
+    "en": "cake"
+  },
+  "küchen": {
+    "pos": "noun",
+    "ru": "Кухни",
+    "en": "Kitchens"
+  },
+  "kuchs": {
+    "pos": "noun",
+    "ru": "торт",
+    "en": "cake"
+  },
+  "banan": {
+    "pos": "noun",
+    "ru": "банан",
+    "en": "banana"
+  },
+  "bananen": {
+    "pos": "noun",
+    "ru": "бананы",
+    "en": "bananas"
+  },
+  "bananens": {
+    "pos": "noun",
+    "ru": "бананы",
+    "en": "bananas"
+  },
+  "bananes": {
+    "pos": "noun",
+    "ru": "бананы",
+    "en": "bananas"
+  },
+  "museen": {
+    "pos": "noun",
+    "ru": "Музеи",
+    "en": "museums"
+  },
+  "museums": {
+    "pos": "noun",
+    "ru": "музеи",
+    "en": "museums"
+  },
+  "museens": {
+    "pos": "noun",
+    "ru": "музеи",
+    "en": "museums"
+  },
+  "schülers": {
+    "pos": "noun",
+    "ru": "студент",
+    "en": "student"
+  },
+  "schülern": {
+    "pos": "noun",
+    "ru": "студенты",
+    "en": "students"
+  },
+  "schüle": {
+    "pos": "noun",
+    "ru": "школа",
+    "en": "school"
+  },
+  "pizzens": {
+    "pos": "noun",
+    "ru": "пицца",
+    "en": "pizzas"
+  },
+  "pizzes": {
+    "pos": "noun",
+    "ru": "пицца",
+    "en": "pizzas"
+  },
+  "broten": {
+    "pos": "noun",
+    "ru": "хлеб",
+    "en": "breads"
+  },
+  "brote": {
+    "pos": "noun",
+    "ru": "Хлеб",
+    "en": "Bread"
+  },
+  "bröte": {
+    "pos": "noun",
+    "ru": "хлеб",
+    "en": "bread"
+  },
+  "parke": {
+    "pos": "noun",
+    "ru": "парки",
+    "en": "parks"
+  },
+  "parken": {
+    "pos": "noun",
+    "ru": "Парковка",
+    "en": "parking"
+  },
+  "straßes": {
+    "pos": "noun",
+    "en": "street"
+  },
+  "straßens": {
+    "pos": "noun",
+    "ru": "дорога",
+    "en": "road"
+  },
+  "straß": {
+    "pos": "noun",
+    "en": "street"
+  },
+  "gemüs": {
+    "pos": "noun",
+    "ru": "овощи",
+    "en": "vegetables"
+  },
+  "gemüsen": {
+    "pos": "noun",
+    "ru": "овощи",
+    "en": "vegetables"
+  },
+  "gemüses": {
+    "pos": "noun",
+    "ru": "овощи",
+    "en": "vegetables"
+  },
+  "hünde": {
+    "pos": "noun",
+    "ru": "собаки",
+    "en": "dogs"
+  },
+  "hunds": {
+    "pos": "noun",
+    "ru": "собаки",
+    "en": "dogs"
+  },
+  "katzes": {
+    "pos": "noun",
+    "ru": "кот",
+    "en": "cat"
+  },
+  "katz": {
+    "pos": "noun",
+    "ru": "Кац",
+    "en": "cat"
+  },
+  "kätzen": {
+    "pos": "noun",
+    "ru": "katting",
+    "en": "katting"
+  },
+  "glass": {
+    "pos": "noun",
+    "en": "glass"
+  },
+  "gläsern": {
+    "pos": "noun",
+    "ru": "очки",
+    "en": "Gläsern Schule begann vor ein paar Wochen"
+  },
+  "gläser": {
+    "pos": "noun",
+    "ru": "Стёкла",
+    "en": "glasses"
+  },
+  "bäumen": {
+    "pos": "noun",
+    "ru": "деревья.",
+    "en": "trees"
+  },
+  "bäume": {
+    "pos": "noun",
+    "ru": "Деревья",
+    "en": "The trees"
+  },
+  "bäum": {
+    "pos": "noun",
+    "ru": "дерево",
+    "en": "tree"
+  },
+  "sonn": {
+    "pos": "noun",
+    "ru": "солнце",
+    "en": "sun"
+  },
+  "sönnen": {
+    "pos": "noun",
+    "en": "Sonnen"
+  },
+  "sonnen": {
+    "pos": "noun",
+    "ru": "Зоннен",
+    "en": "Sonnen"
+  },
+  "sonnes": {
+    "pos": "noun",
+    "ru": "солнца",
+    "en": "suns"
+  },
+  "spiels": {
+    "pos": "noun",
+    "ru": "игра",
+    "en": "game"
+  },
+  "computers": {
+    "pos": "noun",
+    "ru": "компьютеры",
+    "en": "on the table."
+  },
+  "computern": {
+    "pos": "noun",
+    "ru": "компьютеры",
+    "en": "computers"
+  },
+  "computere": {
+    "pos": "noun",
+    "ru": "компьютер",
+    "en": "computer"
+  },
+  "idees": {
+    "pos": "noun",
+    "ru": "идеи",
+    "en": "ideas"
+  },
+  "ideen": {
+    "pos": "noun",
+    "ru": "Идеи",
+    "en": "ideas"
+  },
+  "ideens": {
+    "pos": "noun",
+    "ru": "идеи",
+    "en": "ideas"
+  },
+  "ide": {
+    "pos": "noun",
+    "en": "ide ,"
+  },
+  "ticketsn": {
+    "pos": "noun",
+    "en": "tickets"
+  },
+  "ticketen": {
+    "pos": "noun",
+    "ru": "продажа билетов",
+    "en": "ticketing"
+  },
+  "kaffeen": {
+    "pos": "noun",
+    "ru": "кофе",
+    "en": "coffee"
+  },
+  "kaffees": {
+    "pos": "noun",
+    "ru": "кофе",
+    "en": "coffees"
+  },
+  "kaffes": {
+    "pos": "noun",
+    "ru": "кофе",
+    "en": "coffee"
+  },
+  "tean": {
+    "pos": "noun",
+    "en": "team (fragment)"
+  },
+  "teesn": {
+    "pos": "noun",
+    "en": "tea (fragment)"
+  },
+  "tees": {
+    "pos": "noun",
+    "ru": "Тис",
+    "en": "teez"
+  },
+  "tomate": {
+    "pos": "noun",
+    "ru": "помидоры",
+    "en": "tomatoes"
+  },
+  "tomatens": {
+    "pos": "noun",
+    "ru": "помидоры",
+    "en": "tomatoes"
+  },
+  "tomates": {
+    "pos": "noun",
+    "ru": "помидоры",
+    "en": "tomatoes"
+  },
+  "tomat": {
+    "pos": "noun",
+    "ru": "помидор",
+    "en": "tomato"
+  },
+  "salate": {
+    "pos": "noun",
+    "ru": "Салаты",
+    "en": "Salads"
+  },
+  "saläte": {
+    "pos": "noun",
+    "ru": "салаты",
+    "en": "salads"
+  },
+  "salats": {
+    "pos": "noun",
+    "ru": "салаты",
+    "en": "salads"
+  },
+  "briefs": {
+    "pos": "noun",
+    "ru": "брифы",
+    "en": "briefs / letters"
+  },
+  "briefen": {
+    "pos": "noun",
+    "ru": "буквы",
+    "en": "letters"
+  },
+  "handysen": {
+    "pos": "noun",
+    "ru": "сотовые телефоны",
+    "en": "cell phones"
+  },
+  "handysn": {
+    "pos": "noun",
+    "ru": "мобильные телефоны",
+    "en": "mobile phones"
+  },
+  "handys": {
+    "pos": "noun",
+    "ru": "мобильные телефоны",
+    "en": "mobile phones"
+  },
+  "hoteln": {
+    "pos": "noun",
+    "en": "hotels"
+  },
+  "hotell": {
+    "pos": "noun",
+    "ru": "отель",
+    "en": "hotel"
+  },
+  "nachbaren": {
+    "pos": "noun",
+    "ru": "соседний",
+    "en": "neighboring"
+  },
+  "kinde": {
+    "pos": "noun",
+    "ru": "ребенок",
+    "en": "Child"
+  },
+  "kinds": {
+    "pos": "noun",
+    "ru": "дети",
+    "en": "children"
+  },
+  "büch": {
+    "pos": "noun",
+    "ru": "книга",
+    "en": "book"
+  },
+  "manns": {
+    "pos": "noun",
+    "ru": "маннс",
+    "en": "Manns"
+  },
+  "europa": {
+    "pos": "noun",
+    "ru": "Европа",
+    "en": "Europe"
+  },
+  "ärzte": {
+    "pos": "noun",
+    "ru": "Врачи",
+    "en": "Physicians"
+  },
+  "jacken": {
+    "pos": "noun",
+    "ru": "Куртки",
+    "en": "jackets"
+  },
+  "konzerte": {
+    "pos": "noun",
+    "ru": "Концерты",
+    "en": "Events, Konzerte"
+  },
+  "bälle": {
+    "pos": "noun",
+    "ru": "Балы",
+    "en": "Balls"
+  },
+  "geschäfte": {
+    "pos": "noun",
+    "ru": "Магазины",
+    "en": "business"
+  },
+  "tabletten": {
+    "pos": "noun",
+    "ru": "Таблетки",
+    "en": "Tableting"
+  },
+  "hüte": {
+    "pos": "noun",
+    "ru": "шляпы",
+    "en": "Hats"
+  },
+  "kinofilme": {
+    "pos": "noun",
+    "ru": "кинофильмы",
+    "en": "Feature film"
+  },
+  "bands": {
+    "pos": "noun",
+    "ru": "Полосы",
+    "en": "bands / stripes"
+  },
+  "stürme": {
+    "pos": "noun",
+    "ru": "штормы",
+    "en": "Storms"
+  },
+  "projekte": {
+    "pos": "noun",
+    "ru": "Проекты",
+    "en": "projects"
+  },
+  "haltestelle": {
+    "pos": "noun",
+    "ru": "Остановка общественного транспорта",
+    "en": "Station"
+  },
+  "wohnzimmer": {
+    "pos": "noun",
+    "ru": "Гостиная",
+    "en": "dining room"
+  },
+  "altstadt": {
+    "pos": "noun",
+    "ru": "СТАРЫЙ ГОРОД",
+    "en": "OLD TOWN"
+  },
+  "tierheim": {
+    "pos": "noun",
+    "ru": "Приют для бездомных животных",
+    "en": "Animal home"
+  },
+  "herbst": {
+    "pos": "noun",
+    "ru": "Осень",
+    "en": "Fall"
+  },
+  "schrank": {
+    "pos": "noun",
+    "ru": "Шкаф",
+    "en": "cabinet"
+  },
+  "region": {
+    "pos": "noun",
+    "ru": "Регион: <g id=\"1\">−</g>",
+    "en": "regio"
+  },
+  "samstag": {
+    "pos": "noun",
+    "ru": "Суббота",
+    "en": "saturday"
+  },
+  "einkäufe": {
+    "pos": "noun",
+    "ru": "Закупки",
+    "en": "Shopping:"
+  },
+  "bilder": {
+    "pos": "noun",
+    "ru": "Изображения",
+    "en": "images"
+  },
+  "koch": {
+    "pos": "noun",
+    "ru": "уже швырнуть",
+    "en": "cook / chef"
+  },
+  "kamera": {
+    "pos": "noun",
+    "ru": "Камера",
+    "en": "Camera"
+  },
+  "lieblingsessen": {
+    "pos": "noun",
+    "ru": "любимая еда",
+    "en": "Favorite food"
+  },
+  "mannschaft": {
+    "pos": "noun",
+    "ru": "Экипаж",
+    "en": "team"
+  },
+  "probier": {
+    "pos": "noun",
+    "ru": "try",
+    "en": "try"
+  },
+  "zieh": {
+    "pos": "noun",
+    "ru": "перетаскивание",
+    "en": "Pull!"
+  },
+  "handschuhe": {
+    "pos": "noun",
+    "ru": "Перчатки",
+    "en": "Gloves"
+  },
+  "vergiss": {
+    "pos": "noun",
+    "ru": "забыть",
+    "en": "forget"
+  },
+  "pass": {
+    "pos": "noun",
+    "ru": "Паспорт",
+    "en": "passport / pass"
+  },
+  "wohnen": {
+    "pos": "verb",
+    "ru": "жить",
+    "en": "to live"
+  },
+  "tom": {
+    "pos": "noun",
+    "ru": "Том",
+    "en": "updated by tom"
+  },
+  "popmusik": {
+    "pos": "noun",
+    "ru": "Поп-музыка",
+    "en": "Pop music"
+  },
+  "morgens": {
+    "pos": "noun",
+    "ru": "утром",
+    "en": "mornings"
+  },
+  "computerspiele": {
+    "pos": "noun",
+    "ru": "Компьютерные игры",
+    "en": "Personal computer games"
+  },
+  "machen": {
+    "pos": "verb",
+    "ru": "делать",
+    "en": "to do / make"
+  },
+  "österreich": {
+    "pos": "noun",
+    "ru": "Австрия",
+    "en": "Austria"
+  },
+  "yoga": {
+    "pos": "noun",
+    "ru": "Это мой распорядок дня",
+    "en": "yoga teacher"
+  },
+  "abends": {
+    "pos": "noun",
+    "ru": "вечером",
+    "en": "evenings"
+  },
+  "jeden": {
+    "pos": "noun",
+    "ru": "каждый",
+    "en": "every"
+  },
+  "zugticket": {
+    "pos": "noun",
+    "ru": "билет на поезд",
+    "en": "train ticket"
+  },
+  "süß": {
+    "pos": "noun",
+    "ru": "dulce",
+    "en": "cute"
+  },
+  "goethestraße": {
+    "pos": "noun",
+    "ru": "goethestrasse",
+    "en": "Goethe Street"
+  },
+  "schlafzimmer": {
+    "pos": "noun",
+    "ru": "Спальня",
+    "en": "bedrooms"
+  },
+  "blau": {
+    "pos": "noun",
+    "ru": "синий",
+    "en": "the"
+  },
+  "bürojob": {
+    "pos": "noun",
+    "ru": "работа в офисе",
+    "en": "Social Job"
+  },
+  "häng": {
+    "pos": "noun",
+    "ru": "повесить",
+    "en": "hang (fragment)"
+  },
+  "gewitter": {
+    "pos": "noun",
+    "ru": "Гроза",
+    "en": "Thunderstorms"
+  },
+  "verben": {
+    "pos": "noun",
+    "ru": "Глагол",
+    "en": "verbs"
+  },
+  "modalverben": {
+    "pos": "noun",
+    "ru": "модальные глаголы",
+    "en": "modal verbs"
+  },
+  "erholen": {
+    "pos": "verb",
+    "ru": "восстановить",
+    "en": "I recover"
+  },
+  "stellenanzeige": {
+    "pos": "noun",
+    "ru": "Объявление о вакансии",
+    "en": "vacancy.name.single"
+  },
+  "praktikantin": {
+    "pos": "noun",
+    "ru": "стажер",
+    "en": "Intern"
+  },
+  "marketing": {
+    "pos": "noun",
+    "ru": "Маркетинг",
+    "en": "marketing"
+  },
+  "semester": {
+    "pos": "noun",
+    "ru": "семестр",
+    "en": "sabbatical"
+  },
+  "betriebswirtschaft": {
+    "pos": "noun",
+    "ru": "Экономика организации",
+    "en": "Business Administration"
+  },
+  "eindruck": {
+    "pos": "noun",
+    "ru": "впечатление",
+    "en": "impression"
+  },
+  "anforderungen": {
+    "pos": "noun",
+    "ru": "Требования:",
+    "en": "Requirements"
+  },
+  "studienplatz": {
+    "pos": "noun",
+    "ru": "место учебы",
+    "en": "place of study"
+  },
+  "masterstudiengang": {
+    "pos": "noun",
+    "ru": "Магистр",
+    "en": "Master's degree"
+  },
+  "germanistik": {
+    "pos": "noun",
+    "ru": "Германистика",
+    "en": "German"
+  },
+  "bachelorabschluss": {
+    "pos": "noun",
+    "ru": "степень бакалавра",
+    "en": "bachelor's degree"
+  },
+  "medienwissenschaft": {
+    "pos": "noun",
+    "ru": "Медиаведение",
+    "en": "Media studies"
+  },
+  "vorkenntnisse": {
+    "pos": "noun",
+    "ru": "предыдущие знания",
+    "en": "Previous knowledge"
+  },
+  "becker": {
+    "pos": "noun",
+    "en": "Becker"
+  },
+  "arztes": {
+    "pos": "noun",
+    "ru": "врача",
+    "en": "doctor"
+  },
+  "bescheinigung": {
+    "pos": "noun",
+    "ru": "Свидетельство",
+    "en": "Disability"
+  },
+  "lindenstraße": {
+    "pos": "noun",
+    "ru": "Линденштрассе",
+    "en": "Linden Street"
+  },
+  "schreibens": {
+    "pos": "noun",
+    "ru": "написание",
+    "en": "writing"
+  },
+  "guten": {
+    "pos": "noun",
+    "ru": "Добрый",
+    "en": "good"
+  },
+  "abendkurs": {
+    "pos": "noun",
+    "ru": "вечерний курс",
+    "en": ">> Evening courses"
+  },
+  "mitarbeiterinnen": {
+    "pos": "noun",
+    "ru": "Сотрудники",
+    "en": "Employee"
+  },
+  "jahresfeier": {
+    "pos": "noun",
+    "ru": "ежегодное празднование",
+    "en": "annual celebration"
+  },
+  "konferenzsaal": {
+    "pos": "noun",
+    "ru": "конференц-зал",
+    "en": "Conference Hall"
+  },
+  "kostenübernahme": {
+    "pos": "noun",
+    "ru": "Покрытие расходов",
+    "en": "Cost covering"
+  },
+  "rehasportkurses": {
+    "pos": "noun",
+    "ru": "rehasport course",
+    "en": "rehasport course"
+  },
+  "hausarzt": {
+    "pos": "noun",
+    "ru": "Врач общей практики",
+    "en": "Family doctor"
+  },
+  "elternabend": {
+    "pos": "noun",
+    "ru": "Родительское собрание",
+    "en": "Parents' Evening"
+  },
+  "donnerstag": {
+    "pos": "noun",
+    "ru": "Четверг",
+    "en": "invoice will be paid tomorrow"
+  },
+  "aula": {
+    "pos": "noun",
+    "ru": "Актовый зал",
+    "en": "Auditorium"
+  },
+  "mittwoch": {
+    "pos": "noun",
+    "ru": "Среда",
+    "en": "Wednesday"
+  },
+  "klassenleitung": {
+    "pos": "noun",
+    "ru": "управление классами",
+    "en": "Class Teacher"
+  },
+  "hotline": {
+    "pos": "noun",
+    "ru": "Горячая линия",
+    "en": "hotline"
+  },
+  "integrationskurs": {
+    "pos": "noun",
+    "ru": "интеграционный курс",
+    "en": "Integration Course"
+  },
+  "eintrittskarten": {
+    "pos": "noun",
+    "ru": "билеты",
+    "en": "Admission tickets"
+  },
+  "voraus": {
+    "pos": "noun",
+    "ru": "вперёд",
+    "en": "Estimated"
+  },
+  "leistungsnachweis": {
+    "pos": "noun",
+    "ru": "Доказательство работоспособности",
+    "en": "Performance record"
+  },
+  "dienstag": {
+    "pos": "noun",
+    "ru": "Понедельник",
+    "en": "dinstag"
+  },
+  "informationsveranstaltung": {
+    "pos": "noun",
+    "ru": "информационное мероприятие",
+    "en": "Informational event"
+  },
+  "kursgebühr": {
+    "pos": "noun",
+    "ru": "плата за курс",
+    "en": "Charges:"
+  },
+  "agentur": {
+    "pos": "noun",
+    "ru": "агентство",
+    "en": "Agency"
+  },
+  "anmeldeformular": {
+    "pos": "noun",
+    "ru": "форма регистрации",
+    "en": "Sign-up form"
+  },
+  "kursende": {
+    "pos": "noun",
+    "ru": "Конец курса",
+    "en": "Date of return"
+  },
+  "ferienzeit": {
+    "pos": "noun",
+    "ru": "период отпуска",
+    "en": "Holiday Season"
+  },
+  "veranstaltungsraum": {
+    "pos": "noun",
+    "ru": "комната для проведения мероприятий",
+    "en": "Room"
+  },
+  "einreichung": {
+    "pos": "noun",
+    "ru": "представление",
+    "en": "deposit"
+  },
+  "hausarbeit": {
+    "pos": "noun",
+    "ru": "работа по дому",
+    "en": "Assignment"
+  },
+  "exkursion": {
+    "pos": "noun",
+    "ru": "Экскурсия",
+    "en": "Excursion"
+  },
+  "anmeldungen": {
+    "pos": "noun",
+    "ru": "Число зарегистрированных участников",
+    "en": "registrations"
+  },
+  "anmeldend": {
+    "pos": "noun",
+    "ru": "вход",
+    "en": "logging in"
+  },
+  "bibliothek": {
+    "pos": "noun",
+    "ru": "Библиотека",
+    "en": "library"
+  },
+  "renovierungsarbeiten": {
+    "pos": "noun",
+    "ru": "ремонт;",
+    "en": "maintenance work"
+  },
+  "rauchen": {
+    "pos": "noun",
+    "ru": "курить",
+    "en": "to smoke"
+  },
+  "autors": {
+    "pos": "noun",
+    "ru": "авторы",
+    "en": "authors"
+  },
+  "unserem": {
+    "pos": "noun"
+  },
+  "laborant": {
+    "pos": "noun",
+    "ru": "Лаборант",
+    "en": "Organische Chemie"
+  },
+  "eingangsbestätigung": {
+    "pos": "noun",
+    "ru": "подтверждение получения",
+    "en": "Confirmation of Submission"
+  },
+  "hinweis": {
+    "pos": "noun",
+    "ru": "Подсказка",
+    "en": "NOTE"
+  },
+  "mario": {
+    "pos": "noun",
+    "ru": "Мариус",
+    "en": "Mario"
+  },
+  "czesnik": {
+    "pos": "noun",
+    "en": "Czesnik"
+  },
+  "april": {
+    "pos": "noun",
+    "ru": "April).",
+    "en": "April"
+  },
+  "ware": {
+    "pos": "noun",
+    "ru": "Товар",
+    "en": "Middleware"
+  },
+  "kauf": {
+    "pos": "noun",
+    "ru": "Покупка",
+    "en": "a car"
+  },
+  "sandra": {
+    "pos": "noun",
+    "ru": "Сандра",
+    "en": "Sandra"
+  },
+  "systemausfall": {
+    "pos": "noun",
+    "ru": "отказ системы",
+    "en": "System Failure"
+  },
+  "wohnsitzes": {
+    "pos": "noun",
+    "ru": "домициль",
+    "en": "domicile"
+  },
+  "nachmittag": {
+    "pos": "noun",
+    "ru": "После обеда",
+    "en": "afternoon"
+  },
+  "ahmed": {
+    "pos": "noun",
+    "ru": "Ахмед",
+    "en": "Ahmad"
+  },
+  "hassan": {
+    "pos": "noun",
+    "ru": "Хасан",
+    "en": "Hassan"
+  },
+  "bildschirm": {
+    "pos": "noun",
+    "ru": "монитором",
+    "en": "Screen."
+  },
+  "ersatzgerät": {
+    "pos": "noun",
+    "ru": "сменное устройство",
+    "en": "Replacement Device"
+  },
+  "thomas": {
+    "pos": "noun",
+    "ru": "ТОмас",
+    "en": "Thomas"
+  },
+  "weber": {
+    "pos": "noun",
+    "ru": "Ткач",
+    "en": "Weber / weaver"
+  },
+  "qualifikationen": {
+    "pos": "noun",
+    "ru": "Квалификация",
+    "en": "QUALIFICATIONS"
+  },
+  "kandidatin": {
+    "pos": "noun",
+    "ru": "кандидат",
+    "en": "candidate"
+  },
+  "gute": {
+    "pos": "noun",
+    "ru": "Хорошая",
+    "en": "good"
+  },
+  "ausschreibung": {
+    "pos": "noun",
+    "ru": "Конкурс",
+    "en": "Call for applications"
+  },
+  "lisa": {
+    "pos": "noun",
+    "ru": "Лиза",
+    "en": "Lisa"
+  },
+  "lärmbelästigung": {
+    "pos": "noun",
+    "ru": "Шумовое загрязнение",
+    "en": "Noise pollution"
+  },
+  "ruhezeiten": {
+    "pos": "noun",
+    "ru": "Нерабочее время",
+    "en": "Rest periods"
+  },
+  "anwohner": {
+    "pos": "noun",
+    "ru": "Квартира",
+    "en": "esidenti"
+  },
+  "meier": {
+    "pos": "noun",
+    "ru": "МАйер",
+    "en": "Meier"
+  },
+  "anmietung": {
+    "pos": "noun",
+    "ru": "Аренда",
+    "en": "rental"
+  },
+  "gehaltsbescheinigung": {
+    "pos": "noun",
+    "ru": "Справка о заработной плате",
+    "en": "Salary Certificate"
+  },
+  "intranet": {
+    "pos": "noun",
+    "ru": "Интранет",
+    "en": "intranet"
+  },
+  "angaben": {
+    "pos": "noun",
+    "ru": "Данные",
+    "en": "data"
+  },
+  "jonas": {
+    "pos": "noun",
+    "en": "Jonas"
+  },
+  "teilnehmerin": {
+    "pos": "noun",
+    "ru": "участник",
+    "en": "Participant"
+  },
+  "teilnehmer": {
+    "pos": "noun",
+    "ru": "Участник",
+    "en": "participants"
+  },
+  "digitale": {
+    "pos": "noun",
+    "ru": "цифровой",
+    "en": "digital"
+  },
+  "kommunikation": {
+    "pos": "noun",
+    "ru": "Связь:",
+    "en": "communication"
+  },
+  "beginn": {
+    "pos": "noun",
+    "ru": "года",
+    "en": "beginning"
+  },
+  "ersatzteilnehmer": {
+    "pos": "noun",
+    "ru": "замещающий участник",
+    "en": "Substitute participants"
+  },
+  "materialien": {
+    "pos": "noun",
+    "ru": "Материалы",
+    "en": "materials"
+  },
+  "kursbeginn": {
+    "pos": "noun",
+    "ru": "начало курса",
+    "en": "Beginning of the course"
+  },
+  "stellenangebot": {
+    "pos": "noun",
+    "ru": "вакансия",
+    "en": "job"
+  },
+  "homeoffice": {
+    "pos": "noun",
+    "ru": "домашний офис",
+    "en": "Remote work"
+  },
+  "elena": {
+    "pos": "noun",
+    "ru": "Елена",
+    "en": "07/10/2010 - 08:52 by elena"
+  },
+  "popov": {
+    "pos": "noun",
+    "ru": "Попов",
+    "en": "Popov"
+  },
+  "preisreduzierung": {
+    "pos": "noun",
+    "ru": "снижение цены",
+    "en": "Markdown"
+  },
+  "bewertung": {
+    "pos": "noun",
+    "ru": "управления",
+    "en": "assessment"
+  },
+  "claudia": {
+    "pos": "noun",
+    "ru": "КлАудия",
+    "en": "Claudia"
+  },
+  "fischer": {
+    "pos": "noun",
+    "ru": "Фишер",
+    "en": "specific"
+  },
+  "belege": {
+    "pos": "noun",
+    "ru": "Приложение",
+    "en": "documents"
+  },
+  "sabine": {
+    "pos": "noun",
+    "ru": "Сабинас",
+    "en": "Sabinas"
+  },
+  "krüger": {
+    "pos": "noun",
+    "ru": "КрЮгер",
+    "en": "Krüger"
+  },
+  "umbuchung": {
+    "pos": "noun",
+    "ru": "Перераспределение на другой счет",
+    "en": "Reallocation"
+  },
+  "markus": {
+    "pos": "noun",
+    "ru": "Маркус",
+    "en": "Markus"
+  },
+  "beschreibung": {
+    "pos": "noun",
+    "ru": "Описание",
+    "en": "Description"
+  },
+  "produkt": {
+    "pos": "noun",
+    "ru": "товар",
+    "en": "edd"
+  },
+  "rückzahlung": {
+    "pos": "noun",
+    "ru": "погашение",
+    "en": "Repayment"
+  },
+  "schritte": {
+    "pos": "noun",
+    "ru": "Шаги",
+    "en": "steps"
+  },
+  "nina": {
+    "pos": "noun",
+    "ru": "Нина",
+    "en": "Nina"
+  },
+  "referenzen": {
+    "pos": "noun",
+    "ru": "ОТЗЫВЫ О НАС",
+    "en": "references"
+  },
+  "paul": {
+    "pos": "noun",
+    "ru": "ПАуль",
+    "en": "Paul"
+  },
+  "mahngebühren": {
+    "pos": "noun",
+    "ru": "Просроченные штрафы",
+    "en": "reminder fees"
+  },
+  "zahlungsschwierigkeiten": {
+    "pos": "noun",
+    "ru": "трудности с оплатой",
+    "en": "payment difficulties"
+  },
+  "buchhaltung": {
+    "pos": "noun",
+    "ru": "Бухгалтерский учет",
+    "en": "Accounting"
+  },
+  "erinnerung": {
+    "pos": "noun",
+    "ru": "Напоминание",
+    "en": "Reminder fee"
+  },
+  "bankdaten": {
+    "pos": "noun",
+    "ru": "Банковские реквизиты:",
+    "en": "Bank data"
+  },
+  "laura": {
+    "pos": "noun",
+    "ru": "ЛаУра",
+    "en": "Laura"
+  },
+  "elternzeit": {
+    "pos": "noun",
+    "ru": "Отпуск по беременности и родам",
+    "en": "Parental leave"
+  },
+  "vertretung": {
+    "pos": "noun",
+    "ru": "Замещение",
+    "en": "Representation"
+  },
+  "daniel": {
+    "pos": "noun",
+    "ru": "Даниэль",
+    "en": "\"Daniel"
+  },
+  "antrags": {
+    "pos": "noun",
+    "ru": "заявка",
+    "en": "application"
+  },
+  "formulare": {
+    "pos": "noun",
+    "ru": "Формы",
+    "en": "forms"
+  },
+  "auskunft": {
+    "pos": "noun",
+    "ru": "Справка",
+    "en": "Disclosure"
+  },
+  "stellungnahme": {
+    "pos": "noun",
+    "ru": "мнение",
+    "en": "Statement"
+  },
+  "rechte": {
+    "pos": "noun",
+    "ru": "Правый",
+    "en": "Rights"
+  },
+  "fatima": {
+    "pos": "noun",
+    "ru": "Фатима",
+    "en": "Fatima"
+  },
+  "wagner": {
+    "pos": "noun",
+    "ru": "ВАгнер",
+    "en": "Wagner"
+  },
+  "nachmieterin": {
+    "pos": "noun",
+    "ru": "последующий арендатор",
+    "en": "subsequent tenant"
+  },
+  "unklarheiten": {
+    "pos": "noun",
+    "ru": "неоднозначности",
+    "en": "Ambiguities"
+  },
+  "stefan": {
+    "pos": "noun",
+    "ru": "ТрЭммэль",
+    "en": "Stefan"
+  },
+  "kreisner": {
+    "pos": "noun",
+    "ru": "крейснер",
+    "en": "Kreisner"
+  },
+  "august": {
+    "pos": "noun",
+    "ru": "Август",
+    "en": "August"
+  },
+  "unzufriedenheit": {
+    "pos": "noun",
+    "ru": "неудовлетворенность",
+    "en": "Dissatisfaction"
+  },
+  "alternativ": {
+    "pos": "noun",
+    "ru": "альтернатива",
+    "en": "alternative"
+  },
+  "kundenservice": {
+    "pos": "noun",
+    "ru": "ЦЕНТР ОБСЛУЖИВАНИЯ КЛИЕНТОВ",
+    "en": "Customer Service"
+  },
+  "auftrags": {
+    "pos": "noun",
+    "ru": "заказ",
+    "en": "Order"
+  },
+  "logistik": {
+    "pos": "noun",
+    "ru": "Логистика",
+    "en": "Logistics"
+  },
+  "nord": {
+    "pos": "noun",
+    "ru": "Север",
+    "en": "North"
+  },
+  "bewerberin": {
+    "pos": "noun",
+    "ru": "заявитель",
+    "en": "Applicant"
+  },
+  "bewerber": {
+    "pos": "noun",
+    "ru": "Кандидат",
+    "en": "candidates"
+  },
+  "zeitpunkt": {
+    "pos": "noun",
+    "ru": "Время",
+    "en": "date"
+  },
+  "projektleiterin": {
+    "pos": "noun",
+    "ru": "Руководитель проекта",
+    "en": "Project Manager"
+  },
+  "koordination": {
+    "pos": "noun",
+    "ru": "координация",
+    "en": "coordination"
+  },
+  "fachseminar": {
+    "pos": "noun",
+    "ru": "технический семинар",
+    "en": "Specialty seminar course"
+  },
+  "workshop": {
+    "pos": "noun",
+    "ru": "Семинар",
+    "en": "workshop"
+  },
+  "themen": {
+    "pos": "noun",
+    "ru": "Темы",
+    "en": "topics"
+  },
+  "transformation": {
+    "pos": "noun",
+    "ru": "Трансформация",
+    "en": "transformation"
+  },
+  "mitglieder": {
+    "pos": "noun",
+    "ru": "Участники",
+    "en": "users"
+  },
+  "institut": {
+    "pos": "noun",
+    "ru": "институт",
+    "en": "Institute"
+  },
+  "weiterbildung": {
+    "pos": "noun",
+    "ru": "Последующее Непрерывное Обучение",
+    "en": "CPD"
+  },
+  "miete": {
+    "pos": "noun",
+    "ru": "Арендная плата",
+    "en": "Rent"
+  },
+  "nebenkosten": {
+    "pos": "noun",
+    "ru": "Дополнительные затраты",
+    "en": "ancillary costs"
+  },
+  "hausverwaltung": {
+    "pos": "noun",
+    "ru": "Домоуправление",
+    "en": "Property management"
+  },
+  "haftpflichtversicherung": {
+    "pos": "noun",
+    "ru": "Страхование гражданской ответственности",
+    "en": "Liability Insurance"
+  },
+  "beruf": {
+    "pos": "noun",
+    "ru": "Профессия",
+    "en": "Profession"
+  },
+  "summe": {
+    "pos": "noun",
+    "ru": "Итого",
+    "en": "Total"
+  },
+  "jahresende": {
+    "pos": "noun",
+    "ru": "конец года",
+    "en": "Year End"
+  },
+  "beratung": {
+    "pos": "noun",
+    "ru": "консультации",
+    "en": "consulting"
+  },
+  "anhang": {
+    "pos": "noun",
+    "ru": "Приложение",
+    "en": "annex"
+  },
+  "versicherung": {
+    "pos": "noun",
+    "ru": "Страхование",
+    "en": "insurance"
+  },
+  "sicher": {
+    "pos": "noun",
+    "ru": "верный",
+    "en": "safe"
+  },
+  "ausübung": {
+    "pos": "noun",
+    "ru": "упражнение",
+    "en": "production"
+  },
+  "widerrufs": {
+    "pos": "noun",
+    "ru": "отзыв",
+    "en": "revocation"
+  },
+  "rücksendung": {
+    "pos": "noun",
+    "ru": "Обратная отправка",
+    "en": "Returning"
+  },
+  "datum": {
+    "pos": "noun",
+    "ru": "срока действия",
+    "en": "Date"
+  },
+  "erhalts": {
+    "pos": "noun",
+    "ru": "получать",
+    "en": "receive"
+  },
+  "shop": {
+    "pos": "noun",
+    "ru": "магазин.",
+    "en": "shop / store"
+  },
+  "digitalisierung": {
+    "pos": "noun",
+    "ru": "цифровизация",
+    "en": "digitisation"
+  },
+  "phase": {
+    "pos": "noun",
+    "ru": "строительства",
+    "en": "phase / stage"
+  },
+  "abläufe": {
+    "pos": "noun",
+    "ru": "процедуры",
+    "en": "operations"
+  },
+  "umsetzung": {
+    "pos": "noun",
+    "ru": "Реализация",
+    "en": "implementation"
+  },
+  "zeitplan": {
+    "pos": "noun",
+    "ru": "Расписание",
+    "en": "Schedule"
+  },
+  "consulting": {
+    "pos": "noun",
+    "ru": "Консалтинг",
+    "en": "consulting"
+  },
+  "plus": {
+    "pos": "noun",
+    "ru": "плюс",
+    "en": "plus"
+  },
+  "forschungseinrichtungen": {
+    "pos": "noun",
+    "ru": "научно-исследовательские учреждения",
+    "en": "Research institutes"
+  },
+  "energieversorgung": {
+    "pos": "noun",
+    "ru": "Энергоснабжение",
+    "en": "Energy supply"
+  },
+  "skizze": {
+    "pos": "noun",
+    "ru": "Эскиз",
+    "en": "short distance still"
+  },
+  "solutions": {
+    "pos": "noun",
+    "ru": "Решения!",
+    "en": "solutions"
+  },
+  "versichertenkarte": {
+    "pos": "noun",
+    "ru": "страховая карточка",
+    "en": "insurance card"
+  },
+  "medikamentenliste": {
+    "pos": "noun",
+    "ru": "список лекарств",
+    "en": "List of medications"
+  },
+  "verhinderung": {
+    "pos": "noun",
+    "ru": "профилактика",
+    "en": "Prevention"
+  },
+  "straßenbahnhaltestelle": {
+    "pos": "noun",
+    "ru": "остановка трамвая",
+    "en": "tram stop"
+  },
+  "praxis": {
+    "pos": "noun",
+    "ru": "Практика",
+    "en": "Practice"
+  },
+  "neumann": {
+    "pos": "noun",
+    "ru": "Нейман",
+    "en": "Neumann"
+  },
+  "materialkosten": {
+    "pos": "noun",
+    "ru": "Материальные расходы",
+    "en": "Material costs"
+  },
+  "erhöhung": {
+    "pos": "noun",
+    "ru": "возрастания",
+    "en": "increasion"
+  },
+  "prozent": {
+    "pos": "noun",
+    "ru": "Процент",
+    "en": "Percent"
+  },
+  "bestehende": {
+    "pos": "noun",
+    "ru": "существующий",
+    "en": "Existing"
+  },
+  "vertragsablauf": {
+    "pos": "noun",
+    "ru": "истечение срока действия договора",
+    "en": "contract expiry"
+  },
+  "ausführliche": {
+    "pos": "noun",
+    "ru": "Подробный",
+    "en": "Detailed"
+  },
+  "süd": {
+    "pos": "noun",
+    "ru": "Юг",
+    "en": "south"
+  },
+  "qualitätskontrolle": {
+    "pos": "noun",
+    "ru": "Контроль качества",
+    "en": "Quality Control"
+  },
+  "prozesse": {
+    "pos": "noun",
+    "ru": "Процессы",
+    "en": "processes."
+  },
+  "west": {
+    "pos": "noun",
+    "ru": "Запад",
+    "en": "west"
+  },
+  "zeugnisse": {
+    "pos": "noun",
+    "ru": "Сертификаты,",
+    "en": "Certificates"
+  },
+  "september": {
+    "pos": "noun",
+    "ru": "сентября",
+    "en": "September"
+  },
+  "andernfalls": {
+    "pos": "noun",
+    "ru": "<g id=\"803\">} Иначе {</g>",
+    "en": "Otherwise"
+  },
+  "finanzbuchhaltung": {
+    "pos": "noun",
+    "ru": "Бухгалтерский финансовый учет",
+    "en": "Financial accounting"
+  },
+  "entwurf": {
+    "pos": "noun",
+    "ru": "Черновик",
+    "en": "Draft"
+  },
+  "heizungsanlage": {
+    "pos": "noun",
+    "ru": "Система отопления",
+    "en": "Heating System"
+  },
+  "ausfall": {
+    "pos": "noun",
+    "ru": "Выпад.",
+    "en": "failure"
+  },
+  "vierteljahr": {
+    "pos": "noun",
+    "ru": "квартал",
+    "en": "QUARTER"
+  },
+  "techniker": {
+    "pos": "noun",
+    "ru": "Техник",
+    "en": "technician"
+  },
+  "führungskräfte": {
+    "pos": "noun",
+    "ru": "Руководители",
+    "en": "Managers"
+  },
+  "kommunikationsstrategien": {
+    "pos": "noun",
+    "ru": "коммуникационные стратегии",
+    "en": "Communication strategies"
+  },
+  "teilnahmegebühr": {
+    "pos": "noun",
+    "ru": "Плата за участие",
+    "en": "Entry Fee"
+  },
+  "verpflegung": {
+    "pos": "noun",
+    "ru": "Питание",
+    "en": "Meals"
+  },
+  "absolventen": {
+    "pos": "noun",
+    "ru": "выпускники",
+    "en": "Graduates"
+  },
+  "führung": {
+    "pos": "noun",
+    "ru": "компании",
+    "en": "management / guided tour"
+  },
+  "anliegen": {
+    "pos": "noun",
+    "ru": "Запрос",
+    "en": "is issued."
+  },
+  "qualitätsmanagement": {
+    "pos": "noun",
+    "ru": "Менеджмент качества",
+    "en": "Quality Management"
+  },
+  "aufkommens": {
+    "pos": "noun",
+    "ru": "возникновение",
+    "en": "occurrence"
+  },
+  "bürgeramt": {
+    "pos": "noun",
+    "ru": "<g id=\"150\"><g id=\"148\">Орган регистрационного учёта</g></g><g id=\"153\">,</g>",
+    "en": "citizens' registration office"
+  },
+  "mitte": {
+    "pos": "noun",
+    "ru": "центр",
+    "en": "middle"
+  },
+  "kochen": {
+    "pos": "verb",
+    "ru": "Специи заверните в марлю и прокипятите в большем количестве воды.",
+    "en": "to cook"
+  },
+  "tanzen": {
+    "pos": "verb",
+    "ru": "танцевать",
+    "en": "Dancing"
+  },
+  "singen": {
+    "pos": "verb",
+    "ru": "петь",
+    "en": "sing"
+  },
+  "lernen": {
+    "pos": "verb",
+    "ru": "учить(ся)",
+    "en": "to learn"
+  },
+  "hören": {
+    "pos": "verb",
+    "ru": "слушать",
+    "en": "hear"
+  },
+  "schwimmen": {
+    "pos": "verb",
+    "ru": "плавать",
+    "en": "Swimming"
+  },
+  "arbeiten": {
+    "pos": "verb",
+    "ru": "работать",
+    "en": "to work"
+  },
+  "nehmen": {
+    "pos": "verb",
+    "ru": "брать, взять",
+    "en": "tak"
+  },
+  "finden": {
+    "pos": "verb",
+    "ru": "находить",
+    "en": "finding"
+  },
+  "besuchen": {
+    "pos": "verb",
+    "ru": "навещать, посещать",
+    "en": "to visit"
+  },
+  "helfen": {
+    "pos": "verb",
+    "ru": "помочь",
+    "en": "helping"
+  },
+  "kommen": {
+    "pos": "verb",
+    "ru": "приходить",
+    "en": "to come"
+  },
+  "brauchen": {
+    "pos": "verb",
+    "ru": "требовать",
+    "en": "need"
+  },
+  "regnen": {
+    "pos": "verb",
+    "ru": "дождить",
+    "en": "rain"
+  },
+  "bezahlen": {
+    "pos": "verb",
+    "ru": "оплатить",
+    "en": "do you not pay ?"
+  },
+  "feiern": {
+    "pos": "verb",
+    "ru": "Развлечения",
+    "en": "celebrate"
+  },
+  "putzen": {
+    "pos": "verb",
+    "ru": "убирать",
+    "en": "clean"
+  },
+  "grillen": {
+    "pos": "verb",
+    "ru": "Гриль",
+    "en": "barbecue"
+  },
+  "tragen": {
+    "pos": "verb",
+    "ru": "носить, нести",
+    "en": "to carry / wear"
+  },
+  "backen": {
+    "pos": "verb",
+    "ru": "Выпечка",
+    "en": "baking"
+  },
+  "lieben": {
+    "pos": "verb",
+    "ru": "любят",
+    "en": "do I not love ?"
+  },
+  "tech": {
+    "pos": "noun",
+    "en": "tech"
+  },
+  "techpro": {
+    "pos": "noun",
+    "en": "TechPRO"
+  },
+  "green": {
+    "pos": "noun",
+    "ru": "зелёный",
+    "en": "green"
+  },
+  "greentech": {
+    "pos": "noun",
+    "en": "GreenTech"
+  },
+  "mode": {
+    "pos": "noun",
+    "en": "fashion"
+  },
+  "modeonline": {
+    "pos": "noun",
+    "ru": "fashiononline",
+    "en": "fashiononline"
+  },
+  "+ präposition": {
+    "pos": "verb",
+    "ru": "Предлог",
+    "en": "Preposition and postposition"
+  },
+  "— präp. auf": {
+    "pos": "verb",
+    "ru": "— подготовка на",
+    "en": "— preparation on"
+  },
+  "— präp. an": {
+    "pos": "verb",
+    "ru": "— подготовка к",
+    "en": "— prep. to"
+  },
+  "— präp. über": {
+    "pos": "verb",
+    "ru": "— приготовление через",
+    "en": "— preparation via"
+  },
+  "— denn / deshalb / trotzdem / weil": {
+    "pos": "verb",
+    "ru": "— потому / поэтому / тем не менее / потому что",
+    "en": "— because / therefore / nevertheless / because"
+  },
+  "— außerdem / deshalb / trotzdem / weil": {
+    "pos": "verb",
+    "ru": "— также / поэтому / тем не менее / потому что",
+    "en": "— also / therefore / nevertheless / because"
+  },
+  "— außerdem / denn / deshalb / trotzdem": {
+    "pos": "verb",
+    "ru": "— более того / потому / поэтому / тем не менее",
+    "en": "— moreover / because / therefore / nevertheless"
+  },
+  "— außerdem / denn / deshalb / weil": {
+    "pos": "verb",
+    "ru": "— также / потому / потому / потому что",
+    "en": "— also / because / because / because"
+  },
+  "— präp. für": {
+    "pos": "verb",
+    "ru": "— подготовка к",
+    "en": "— preparation for"
+  },
+  "— außerdem / dennoch / deshalb / folglich": {
+    "pos": "verb"
+  },
+  "— außerdem / denn / trotzdem / weil": {
+    "pos": "verb",
+    "ru": "— более того / потому / тем не менее / потому что",
+    "en": "— moreover / because / nevertheless / because"
+  },
+  "— außerdem / denn / dennoch / weil": {
+    "pos": "verb",
+    "ru": "— более того / потому / тем не менее / потому что",
+    "en": "— moreover / because / nevertheless / because"
+  },
+  "— außerdem / dennoch / deshalb / weil": {
+    "pos": "verb",
+    "ru": "— также / тем не менее / потому / потому что",
+    "en": "— also / nevertheless / because / because"
+  },
+  "— denn / dennoch / deshalb / weil": {
+    "pos": "verb",
+    "ru": "— потому что / тем не менее / потому что / потому что",
+    "en": "— because / nevertheless / because / because"
+  },
+  "— präp. um": {
+    "pos": "verb",
+    "ru": "— приготовление при",
+    "en": "— preparation at"
+  },
+  "— präp. bei": {
+    "pos": "verb",
+    "ru": "— приготовление при",
+    "en": "— preparation at"
+  },
+  "— präp. von": {
+    "pos": "verb",
+    "ru": "— подготовка",
+    "en": "— preparation of"
+  },
+  "— außerdem / dann / dennoch / deshalb": {
+    "pos": "verb"
+  },
+  "— außerdem / denn / dennoch / deshalb": {
+    "pos": "verb",
+    "ru": "— более того / потому что / тем не менее / поэтому",
+    "en": "— moreover / because / nevertheless / therefore"
+  },
+  "— außerdem / dann / deshalb / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / daher / trotzdem": {
+    "pos": "verb"
+  },
+  "— dann / dennoch / deshalb / folglich": {
+    "pos": "verb"
+  },
+  "— außerdem / dennoch / deshalb / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dann / dennoch / folglich": {
+    "pos": "verb"
+  },
+  "— dann / deshalb / folglich / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / daher / dennoch": {
+    "pos": "verb"
+  },
+  "— außerdem / deshalb / folglich / trotzdem": {
+    "pos": "verb"
+  },
+  "— dennoch / deshalb / trotzdem / weil": {
+    "pos": "verb",
+    "ru": "— тем не менее / поэтому / тем не менее / потому что",
+    "en": "— nevertheless / therefore / nevertheless / because"
+  },
+  "— denn / dennoch / deshalb / trotzdem": {
+    "pos": "verb",
+    "ru": "— потому что / тем не менее / поэтому / тем не менее",
+    "en": "— because / nevertheless / therefore / nevertheless"
+  },
+  "— dagegen / dennoch / deshalb / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / folglich / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dennoch / folglich / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / dennoch / infolgedessen": {
+    "pos": "verb"
+  },
+  "— dann / deshalb / folglich / jedoch": {
+    "pos": "verb"
+  },
+  "— außerdem / demzufolge / dennoch / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dann / folglich / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dann / deshalb / hingegen": {
+    "pos": "verb"
+  },
+  "— dagegen / dennoch / somit / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / daher / dennoch / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dann / folglich / gleichwohl": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / dennoch / folglich": {
+    "pos": "verb"
+  },
+  "— dagegen / dennoch / infolgedessen / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / deshalb / folglich / jedoch": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / demzufolge / trotzdem": {
+    "pos": "verb"
+  },
+  "— dann / deshalb / folglich / hingegen": {
+    "pos": "verb"
+  },
+  "— außerdem / dennoch / somit / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dann / deshalb / gleichwohl": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / deshalb / trotzdem": {
+    "pos": "verb"
+  },
+  "— dagegen / dennoch / folglich / trotzdem": {
+    "pos": "verb"
+  },
+  "— dagegen / daher / dennoch / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dennoch / infolgedessen / trotzdem": {
+    "pos": "verb"
+  },
+  "— außerdem / dann / folglich / jedoch": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / demzufolge / dennoch": {
+    "pos": "verb"
+  },
+  "— außerdem / deshalb / folglich / hingegen": {
+    "pos": "verb"
+  },
+  "— außerdem / dagegen / somit / trotzdem": {
+    "pos": "verb"
+  },
+  "— dann / deshalb / folglich / gleichwohl": {
+    "pos": "verb"
+  },
+  "— beziehen / beziehst / bezieht / bezogen": {
+    "pos": "verb"
+  },
+  "— früh / frühe / früher / frühest": {
+    "pos": "verb"
+  },
+  "— finanzieren / finanzierst / finanziert / finanzierte": {
+    "pos": "verb"
+  },
+  "— freue / freuen / freute / gefreut": {
+    "pos": "verb"
+  },
+  "— haben / habt / hat / hättet": {
+    "pos": "verb"
+  },
+  "— kann / können / könnte / konntet": {
+    "pos": "verb"
+  },
+  "— erkannt / erkannte / erkennst / erkennt": {
+    "pos": "verb"
+  },
+  "— erinnere / erinnern / erinnert / erinnerte": {
+    "pos": "verb"
+  },
+  "— bestanden / bestehen / bestehst / besteht": {
+    "pos": "verb"
+  },
+  "— haben / hat / hatte / hätten": {
+    "pos": "verb"
+  },
+  "— dachte / denke / denkst / gedacht": {
+    "pos": "verb"
+  },
+  "— bauen / baut / baute / gebaut": {
+    "pos": "verb"
+  },
+  "— haben / habt / hat / hatte": {
+    "pos": "verb"
+  },
+  "— achte / achten / achtet / achtete": {
+    "pos": "verb"
+  },
+  "— ist / sein / war / wäre": {
+    "pos": "verb"
+  },
+  "— gelöst / lösen / löst / löste": {
+    "pos": "verb"
+  },
+  "— gewartet / warte / warten / wartest": {
+    "pos": "verb"
+  },
+  "— beziehen / beziehst / bezieht / bezog": {
+    "pos": "verb"
+  },
+  "— frühe / früher / frühes / frühest": {
+    "pos": "verb"
+  },
+  "— finanzier / finanzieren / finanzierst / finanzierte": {
+    "pos": "verb"
+  },
+  "— freue / freuen / freust / gefreut": {
+    "pos": "verb"
+  },
+  "— haben / habt / hat / hattet": {
+    "pos": "verb"
+  },
+  "— gekonnt / kann / könnte / konntet": {
+    "pos": "verb"
+  },
+  "— erkannt / erkannte / erkennen / erkennt": {
+    "pos": "verb"
+  },
+  "— erinnere / erinnern / erinnerst / erinnert": {
+    "pos": "verb"
+  },
+  "— bestand / bestehen / bestehst / besteht": {
+    "pos": "verb"
+  },
+  "— haben / habt / hatte / hätten": {
+    "pos": "verb"
+  },
+  "— dachte / denken / denkst / gedacht": {
+    "pos": "verb"
+  },
+  "— bauen / baust / baut / gebaut": {
+    "pos": "verb"
+  },
+  "— haben / hat / hatte / hätte": {
+    "pos": "verb"
+  },
+  "— achte / achten / achtete / geachtet": {
+    "pos": "verb"
+  },
+  "— ist / sein / sind / wäre": {
+    "pos": "verb"
+  },
+  "— gelöst / lösen / löst / löstest": {
+    "pos": "verb"
+  },
+  "— warte / warten / wartest / wartete": {
+    "pos": "verb"
+  },
+  "— beziehst / bezieht / bezog / bezogen": {
+    "pos": "verb"
+  },
+  "— früh / frühe / früher / frühes": {
+    "pos": "verb"
+  },
+  "— finanzier / finanzieren / finanzierst / finanziert": {
+    "pos": "verb"
+  },
+  "— freue / freuen / freust / freute": {
+    "pos": "verb"
+  },
+  "— haben / habt / hattet / hättet": {
+    "pos": "verb"
+  },
+  "— gekonnt / kann / können / könnte": {
+    "pos": "verb"
+  },
+  "— erkannt / erkennen / erkennst / erkennt": {
+    "pos": "verb"
+  },
+  "— erinnere / erinnern / erinnerst / erinnerte": {
+    "pos": "verb"
+  },
+  "— bestand / bestanden / bestehst / besteht": {
+    "pos": "verb"
+  },
+  "— haben / habt / hat / hätten": {
+    "pos": "verb"
+  },
+  "— denke / denken / denkst / gedacht": {
+    "pos": "verb"
+  },
+  "— bauen / baust / baut / baute": {
+    "pos": "verb"
+  },
+  "— habt / hat / hatte / hätte": {
+    "pos": "verb"
+  },
+  "— achten / achtet / achtete / geachtet": {
+    "pos": "verb"
+  },
+  "— ist / sein / sind / war": {
+    "pos": "verb"
+  },
+  "— lösen / löst / löste / löstest": {
+    "pos": "verb"
+  },
+  "publikum": {
+    "pos": "noun",
+    "ru": "Публика",
+    "en": "audience"
+  },
+  "namen": {
+    "pos": "noun",
+    "ru": "названия",
+    "en": "names"
+  },
+  "sich freuen": {
+    "pos": "verb",
+    "ru": "радоваться",
+    "en": "to look forward / be glad"
+  },
+  "gast": {
+    "pos": "noun",
+    "ru": "гость",
+    "en": "guest",
+    "gender": "m"
+  },
+  "folgen": {
+    "pos": "verb",
+    "ru": "следовать",
+    "en": "to follow"
+  },
+  "lange": {
+    "pos": "adv",
+    "ru": "долго",
+    "en": "for a long time"
+  },
+  "haben": {
+    "pos": "verb",
+    "ru": "иметь",
+    "en": "to have"
+  },
+  "sein": {
+    "pos": "verb",
+    "ru": "быть",
+    "en": "to be"
+  },
+  "gut": {
+    "pos": "adj",
+    "ru": "хороший",
+    "en": "good"
+  },
+  "problem": {
+    "pos": "noun",
+    "ru": "проблема",
+    "en": "problem",
+    "gender": "n"
+  },
+  "tag": {
+    "pos": "noun",
+    "ru": "день",
+    "en": "day",
+    "gender": "m"
+  },
+  "jahr": {
+    "pos": "noun",
+    "ru": "год",
+    "en": "year",
+    "gender": "n"
+  }
+}

@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-014
 type: input-text
+hint: Gegenteil von voll
 correct:
   - leer
 ---
 
-Das Glas ist voll, die Flasche ist ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Das Glas ist voll, die Flasche ist ___.

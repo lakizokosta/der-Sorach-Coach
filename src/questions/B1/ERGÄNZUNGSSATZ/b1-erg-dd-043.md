@@ -2,14 +2,14 @@
 id: b1-erg-dd-043
 type: dropbox
 words:
-  - Die
-  - Professorin
-  - erklärt
+  - Es
+  - stimmt
   - dass
-  - der
-  - Kurs
-  - anspruchsvoll
+  - Umweltschutz
+  - wichtig
   - ist
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Kurs anspruchsvoll ist)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

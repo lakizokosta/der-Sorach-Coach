@@ -10,4 +10,4 @@ words:
   - Fisch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — weder noch)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

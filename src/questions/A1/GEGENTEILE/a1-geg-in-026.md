@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-026
 type: input-text
+hint: Gegenteil von klar
 correct:
   - bewölkt
 ---
 
-Der Himmel ist klar, morgen ist er ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Der Himmel ist klar, morgen ist er ___.

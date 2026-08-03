@@ -3,10 +3,10 @@ id: b1-sprach-008
 type: select-one
 options:
   - Dafür
-  - Hierfür
-  - Daran
   - Darauf
-correct: Hierfür
+  - Damit
+  - Daran
+correct: Darauf
 ---
 
-___ freue ich mich auf eine positive Rückmeldung. (Grammatikform)
+___ freue ich mich auf eine positive Rückmeldung.

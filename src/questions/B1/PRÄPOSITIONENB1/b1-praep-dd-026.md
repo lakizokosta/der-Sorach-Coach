@@ -2,11 +2,10 @@
 id: b1-praep-dd-026
 type: dropbox
 words:
-  - Ich
-  - bin
-  - seit
-  - 2020
-  - hier
+  - Er
+  - reist
+  - nach
+  - Italien
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — seit 2020)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

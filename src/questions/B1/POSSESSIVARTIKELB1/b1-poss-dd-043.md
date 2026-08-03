@@ -2,11 +2,10 @@
 id: b1-poss-dd-043
 type: dropbox
 words:
-  - Wir
-  - diskutieren
-  - unsere
-  - gemeinsame
-  - Zukunft
+  - Er
+  - vertraut
+  - seinem
+  - Instinkt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere Zukunft)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

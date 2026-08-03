@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-017
 type: input-text
+hint: Präteritum + Verb sein
 correct:
   - war
 ---
 
-Das ___ ein richtig schöner Tag! (Präteritum + Verb sein)
+Ergänze die Präteritumsform:
+
+Das ___ ein richtig schöner Tag!

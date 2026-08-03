@@ -2,11 +2,11 @@
 id: b2-genit-006
 type: select-one
 options:
-  - Nach
-  - Aus
   - Von
-  - Bei
-correct: Aus
+  - Infolge
+  - Aus
+  - Nach
+correct: Infolge
 ---
 
 ___ einer langen Tradition folgt die Universität diesem Brauch. (Genitivform)

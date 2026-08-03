@@ -12,4 +12,4 @@ words:
   - Politik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — guten Rat)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

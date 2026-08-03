@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-028
 type: input-text
+hint: Possessivartikel — sie, neutr., Akk.
 correct:
   - ihr
 ---
 
-Sie kocht ___ Lieblingsessen. (Possessivartikel — sie, neutr., Akk.)
+Ergänze den Possessivartikel:
+
+Sie kocht ___ Lieblingsessen.

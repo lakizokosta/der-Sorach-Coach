@@ -1222,7 +1222,7 @@
 ### 101. `a2-ind-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Man)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Man · muss · die · Hausaufgaben · machen
 
@@ -1232,7 +1232,7 @@
 ### 102. `a2-ind-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Hier · ist · niemand · zu · Hause
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-ind-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Ich · habe · etwas · Wichtiges · vergessen
 
@@ -1252,7 +1252,7 @@
 ### 104. `a2-ind-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Kann · jemand · mir · am · Bankschalter · helfen
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-ind-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · war · bei · der · Panne · sehr · nett
 
@@ -1272,7 +1272,7 @@
 ### 106. `a2-ind-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemanden)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Ich · sehe · niemanden · auf · der · Straße
 
@@ -1282,9 +1282,9 @@
 ### 107. `a2-ind-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
-**Wörter:** Hast · du · etwas · Interesse · an · Sport
+**Wörter:** Hast · du · etwas · Interesse · an · Sport · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1292,7 +1292,7 @@
 ### 108. `a2-ind-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Man)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Man · darf · hier · nicht · rauchen
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-ind-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Es · gibt · etwas · Neues · im · Radio
 
@@ -1312,7 +1312,7 @@
 ### 110. `a2-ind-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · hat · die · Tür · offen · gelassen
 
@@ -1322,9 +1322,9 @@
 ### 111. `a2-ind-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemanden)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
-**Wörter:** Ich · kenne · niemanden · hier · in · der · neuen · Stadt
+**Wörter:** Ich · kenne · niemanden · in · dieser · Stadt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,7 +1332,7 @@
 ### 112. `a2-ind-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Brauchst · du · etwas · für · die · Reise
 
@@ -1342,7 +1342,7 @@
 ### 113. `a2-ind-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Man)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Man · kann · Fehler · machen
 
@@ -1352,7 +1352,7 @@
 ### 114. `a2-ind-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Hier · stimmt · etwas · nicht
 
@@ -1362,7 +1362,7 @@
 ### 115. `a2-ind-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · wartet · vor · der · Tür
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-ind-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — nichts)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Ich · habe · nichts · davon · gehört
 
@@ -1382,7 +1382,7 @@
 ### 117. `a2-ind-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · ist · da · der · mir · helfen · kann
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-ind-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Man)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Man · muss · die · Hausaufgaben · machen
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-ind-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Hier · ist · niemand · zu · Hause
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-ind-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Ich · habe · etwas · Wichtiges · vergessen
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-ind-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Kann · jemand · mir · am · Bankschalter · helfen
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-ind-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · war · bei · der · Panne · sehr · nett
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-ind-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemanden)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Ich · sehe · niemanden · auf · der · Straße
 
@@ -1452,9 +1452,9 @@
 ### 124. `a2-ind-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
-**Wörter:** Hast · du · etwas · Interesse · an · Sport
+**Wörter:** Hast · du · etwas · Interesse · an · Sport · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,7 +1462,7 @@
 ### 125. `a2-ind-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Man)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Man · darf · hier · nicht · rauchen
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-ind-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Es · gibt · etwas · Neues · im · Radio
 
@@ -1482,7 +1482,7 @@
 ### 127. `a2-ind-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · hat · die · Tür · offen · gelassen
 
@@ -1492,9 +1492,9 @@
 ### 128. `a2-ind-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemanden)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
-**Wörter:** Ich · kenne · niemanden · hier · in · der · neuen · Stadt
+**Wörter:** Ich · kenne · niemanden · in · dieser · Stadt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,7 +1502,7 @@
 ### 129. `a2-ind-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Brauchst · du · etwas · für · die · Reise
 
@@ -1512,7 +1512,7 @@
 ### 130. `a2-ind-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Man)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Man · kann · Fehler · machen
 
@@ -1522,7 +1522,7 @@
 ### 131. `a2-ind-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Hier · stimmt · etwas · nicht
 
@@ -1532,7 +1532,7 @@
 ### 132. `a2-ind-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · wartet · vor · der · Tür
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-ind-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — nichts)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Ich · habe · nichts · davon · gehört
 
@@ -1552,7 +1552,7 @@
 ### 134. `a2-ind-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · ist · da · der · mir · helfen · kann
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-ind-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Man)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Man · muss · die · Hausaufgaben · machen
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-ind-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Hier · ist · niemand · zu · Hause
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-ind-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Ich · habe · etwas · Wichtiges · vergessen
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-ind-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Kann · jemand · mir · am · Bankschalter · helfen
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-ind-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · war · bei · der · Panne · sehr · nett
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-ind-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemanden)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Ich · sehe · niemanden · auf · der · Straße
 
@@ -1622,9 +1622,9 @@
 ### 141. `a2-ind-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
-**Wörter:** Hast · du · etwas · Interesse · an · Sport
+**Wörter:** Hast · du · etwas · Interesse · an · Sport · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,7 +1632,7 @@
 ### 142. `a2-ind-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Man)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Man · darf · hier · nicht · rauchen
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-ind-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Es · gibt · etwas · Neues · im · Radio
 
@@ -1652,7 +1652,7 @@
 ### 144. `a2-ind-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · hat · die · Tür · offen · gelassen
 
@@ -1662,9 +1662,9 @@
 ### 145. `a2-ind-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — niemanden)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
-**Wörter:** Ich · kenne · niemanden · hier · in · der · neuen · Stadt
+**Wörter:** Ich · kenne · niemanden · in · dieser · Stadt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,7 +1672,7 @@
 ### 146. `a2-ind-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Brauchst · du · etwas · für · die · Reise
 
@@ -1682,7 +1682,7 @@
 ### 147. `a2-ind-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Man)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Man · kann · Fehler · machen
 
@@ -1692,7 +1692,7 @@
 ### 148. `a2-ind-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — etwas)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Hier · stimmt · etwas · nicht
 
@@ -1702,7 +1702,7 @@
 ### 149. `a2-ind-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — Jemand)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Jemand · wartet · vor · der · Tür
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-ind-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen — nichts)
+> Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)
 
 **Wörter:** Ich · habe · nichts · davon · gehört
 

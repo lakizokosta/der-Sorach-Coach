@@ -5,4 +5,6 @@ correct:
   - wirst
 ---
 
-Du ___ (werden) dich sicher freuen. (Futur + Verb werden)
+Ergänze die Futurform:
+
+Du ___ (werden) dich sicher freuen.

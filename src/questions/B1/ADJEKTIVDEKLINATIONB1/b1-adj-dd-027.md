@@ -2,15 +2,14 @@
 id: b1-adj-dd-027
 type: dropbox
 words:
-  - Wir
-  - sprechen
-  - mit
-  - einem
-  - neuen
-  - Professor
-  - über
-  - das
-  - Projekt
+  - Er
+  - hat
+  - einen
+  - guten
+  - Rat
+  - für
+  - meine
+  - Bewerbung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — großen Krankenhaus)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

@@ -1,8 +1,11 @@
 ---
 id: b1-praep-in-022
 type: input-text
+hint: Präposition — am / an / in / um
 correct:
   - um
 ---
 
-Wir treffen uns ___ halb neun. (Präposition)
+Ergänze die Präposition:
+
+Wir treffen uns ___ halb neun.

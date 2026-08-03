@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-008
 type: input-text
+hint: Passiv + Verb fen
 correct:
   - werden
 ---
 
-Alle Bewerbungen ___ bis Freitag geprüft. (Passiv + Verb fen)
+Ergänze die Passivform:
+
+Alle Bewerbungen ___ bis Freitag geprüft.

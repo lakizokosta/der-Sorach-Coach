@@ -12,4 +12,4 @@ words:
   - Meeting
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — keine Zeit)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

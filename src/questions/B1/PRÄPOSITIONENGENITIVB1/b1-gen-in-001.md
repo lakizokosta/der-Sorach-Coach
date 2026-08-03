@@ -1,8 +1,11 @@
 ---
 id: b1-gen-in-001
 type: input-text
+hint: Genitiv-Präposition
 correct:
   - Wegen
 ---
 
-___ des schlechten Wetters fällt die Veranstaltung aus. (Genitiv-Präposition)
+Ergänze die Genitiv-Präposition:
+
+___ des schlechten Wetters fällt die Veranstaltung aus.

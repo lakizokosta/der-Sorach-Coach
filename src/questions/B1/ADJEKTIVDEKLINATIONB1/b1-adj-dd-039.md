@@ -2,13 +2,13 @@
 id: b1-adj-dd-039
 type: dropbox
 words:
-  - Wegen
-  - schlechten
-  - Wetters
-  - fällt
+  - Trotz
+  - hohen
+  - Preises
+  - buchen
+  - viele
   - die
   - Reise
-  - aus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — schlechten Wetters)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

@@ -9,4 +9,4 @@ options:
 correct: In die
 ---
 
-Wohin fährst du? — ___ Berge. (Dativ oder Akkusativ — Wohin?)
+Wohin fährst du? — ___ Berge. (Dativ oder Akkusativ)

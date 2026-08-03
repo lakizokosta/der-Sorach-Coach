@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-028
 type: input-text
+hint: Konjunktion — Grund
 correct:
   - weil
 ---
 
-Ich bleibe zu Hause, ___ ich noch viel zu tun habe. (Konjunktion — Grund)
+Ergänze die Konjunktion:
+
+Ich bleibe zu Hause, ___ ich noch viel zu tun habe.

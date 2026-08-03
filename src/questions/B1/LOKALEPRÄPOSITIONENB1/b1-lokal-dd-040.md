@@ -2,12 +2,13 @@
 id: b1-lokal-dd-040
 type: dropbox
 words:
-  - Das
-  - Café
+  - Die
+  - Klinik
   - ist
-  - neben
-  - dem
-  - Park
+  - auf
+  - der
+  - dritten
+  - Etage
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — neben Park)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

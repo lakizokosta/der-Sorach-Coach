@@ -2,14 +2,16 @@
 id: b1-kond-dd-034
 type: dropbox
 words:
-  - Falls
-  - es
-  - regnet
-  - nehmen
+  - Wenn
+  - ich
+  - die
+  - Stelle
+  - bekomme
+  - ziehen
   - wir
-  - einen
-  - Schirm
-  - mit
+  - um
+commas:
+  - 6
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Bericht fertig ist)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

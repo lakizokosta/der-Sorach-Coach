@@ -12,4 +12,4 @@ words:
   - Studiengang
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Recht auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

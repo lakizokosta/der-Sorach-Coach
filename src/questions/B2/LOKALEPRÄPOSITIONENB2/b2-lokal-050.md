@@ -1,0 +1,12 @@
+---
+id: b2-lokal-050
+type: select-one
+options:
+  - unterhalb
+  - außerhalb
+  - innerhalb
+  - diesseits
+correct: außerhalb
+---
+
+Sie wohnt ___ des Stadtzentrums in einem ruhigen Viertel. (Lokale Präposition)

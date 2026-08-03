@@ -2,13 +2,15 @@
 id: b1-adj-dd-025
 type: dropbox
 words:
-  - Die
-  - Zeitung
-  - berichtet
+  - Wir
+  - sprechen
+  - mit
+  - einem
+  - neuen
+  - Professor
   - über
-  - eine
-  - aktuelle
-  - Entwicklung
+  - das
+  - Projekt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtiges Thema)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

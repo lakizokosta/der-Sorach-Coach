@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-030
 type: input-text
+hint: Adjektivdeklination — billig, neutr., Dat.
 correct:
   - billigen
 ---
 
-Wir übernachten in einem ___ Hotel. (Adjektivdeklination — neutr., Dat.)
+Ergänze die Adjektivendung:
+
+Wir übernachten in einem ___ Hotel.

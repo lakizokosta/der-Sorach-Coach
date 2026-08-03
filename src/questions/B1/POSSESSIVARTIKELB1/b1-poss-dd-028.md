@@ -2,12 +2,10 @@
 id: b1-poss-dd-028
 type: dropbox
 words:
-  - Sie
-  - besucht
-  - ihre
-  - Eltern
-  - am
-  - Wochenende
+  - Er
+  - vertraut
+  - seinem
+  - Instinkt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihre Eltern)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

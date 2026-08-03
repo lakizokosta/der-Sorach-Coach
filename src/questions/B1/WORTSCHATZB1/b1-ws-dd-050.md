@@ -2,13 +2,13 @@
 id: b1-ws-dd-050
 type: dropbox
 words:
-  - Nach
-  - der
-  - Operation
-  - braucht
-  - ein
-  - Patient
-  - Rehabilitation
+  - Die
+  - Regierung
+  - hat
+  - eine
+  - neue
+  - Regelung
+  - beschlossen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Bewerbung)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

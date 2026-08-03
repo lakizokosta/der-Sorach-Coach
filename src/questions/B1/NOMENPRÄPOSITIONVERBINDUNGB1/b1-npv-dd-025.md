@@ -2,12 +2,12 @@
 id: b1-npv-dd-025
 type: dropbox
 words:
-  - Er
+  - Sie
   - hat
-  - Erfolg
-  - bei
-  - der
-  - Prüfung
+  - Freude
+  - an
+  - ihrer
+  - Arbeit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfolg bei)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

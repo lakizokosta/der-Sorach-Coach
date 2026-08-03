@@ -9,4 +9,4 @@ options:
 correct: lasse
 ---
 
-Ich ___ mich nicht unter Druck setzen. (lassen + Verb setzen)
+Ich ___ mich nicht unter Druck setzen. (Verben lassen)

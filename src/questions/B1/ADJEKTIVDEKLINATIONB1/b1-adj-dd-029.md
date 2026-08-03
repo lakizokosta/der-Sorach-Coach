@@ -2,14 +2,14 @@
 id: b1-adj-dd-029
 type: dropbox
 words:
-  - Er
-  - hat
-  - einen
-  - guten
-  - Rat
-  - für
-  - meine
-  - Bewerbung
+  - Das
+  - ist
+  - ein
+  - wichtiges
+  - Thema
+  - in
+  - der
+  - Politik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neuen Professor)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

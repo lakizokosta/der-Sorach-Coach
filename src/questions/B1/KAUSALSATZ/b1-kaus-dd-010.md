@@ -12,6 +12,8 @@ words:
   - Auto
   - kaputt
   - ist
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Auto kaputt)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

@@ -9,4 +9,4 @@ options:
 correct: nach
 ---
 
-Er fragt ___ dem Weg zum Krankenhaus. (Verb + Präposition)
+Er fragt ___ dem Weg zum Krankenhaus. (Präpositionalergänzung)

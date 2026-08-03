@@ -2,13 +2,14 @@
 id: b1-neg-dd-031
 type: dropbox
 words:
-  - Er
-  - hat
+  - Ich
+  - habe
   - keine
-  - Erfahrung
-  - in
-  - diesem
-  - Bereich
+  - Zeit
+  - für
+  - ein
+  - langes
+  - Meeting
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — keine Erfahrung)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

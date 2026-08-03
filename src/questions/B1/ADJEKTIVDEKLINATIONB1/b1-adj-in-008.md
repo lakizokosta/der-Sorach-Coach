@@ -1,8 +1,11 @@
 ---
 id: b1-adj-in-008
 type: input-text
+hint: Adjektivdeklination — aktuell, fem., Akk.
 correct:
   - aktuelle
 ---
 
-Die Zeitung berichtet über eine ___ Entwicklung. (Adj. — aktuell, fem., Akk.)
+Ergänze die Adjektivendung:
+
+Die Zeitung berichtet über eine ___ Entwicklung.

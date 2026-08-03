@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-046
 type: input-text
+hint: Wechselpräpositionen — Bewegung
 correct:
   - auf den
 ---
 
-Komm ___ Platz! (Dativ oder Akkusativ)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Komm ___ Platz!

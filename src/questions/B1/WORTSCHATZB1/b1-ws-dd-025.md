@@ -2,13 +2,11 @@
 id: b1-ws-dd-025
 type: dropbox
 words:
-  - Sie
-  - hat
-  - eine
-  - Impfung
-  - gegen
-  - Grippe
-  - bekommen
+  - Wir
+  - diskutieren
+  - über
+  - erneuerbare
+  - Energiequellen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Impfung)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

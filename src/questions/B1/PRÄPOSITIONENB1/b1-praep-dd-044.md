@@ -3,12 +3,11 @@ id: b1-praep-dd-044
 type: dropbox
 words:
   - Das
-  - Büro
-  - ist
-  - bis
-  - 18
-  - Uhr
-  - geöffnet
+  - Hotel
+  - liegt
+  - an
+  - der
+  - Küste
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — bis 18 Uhr)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

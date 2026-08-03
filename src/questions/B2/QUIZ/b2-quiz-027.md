@@ -2,11 +2,11 @@
 id: b2-quiz-027
 type: select-one
 options:
-  - könnte
   - wäre
-  - hätte
   - wird
+  - könnten
+  - würde
 correct: wird
 ---
 
-Das ___ sicher Konsequenzen für die Wirtschaft haben. (Grammatikform)
+Es ___ morgen regnen, sagt der Wetterbericht.

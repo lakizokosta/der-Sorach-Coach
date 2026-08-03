@@ -3,12 +3,15 @@ id: b1-konz-dd-050
 type: dropbox
 words:
   - Obwohl
-  - Schlafmangel
-  - herrscht
-  - arbeitet
-  - Kollege
-  - sehr
-  - produktiv
+  - die
+  - Prüfung
+  - schwer
+  - war
+  - hat
+  - sie
+  - bestanden
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Sturm weht)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

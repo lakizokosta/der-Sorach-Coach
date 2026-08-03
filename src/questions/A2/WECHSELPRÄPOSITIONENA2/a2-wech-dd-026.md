@@ -2,10 +2,9 @@
 id: a2-wech-dd-026
 type: dropbox
 words:
-  - Wo
-  - liegt
-  - der
+  - Der
   - Teppich
+  - liegt
   - auf
   - dem
   - Boden

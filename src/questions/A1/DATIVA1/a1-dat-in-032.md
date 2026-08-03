@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-032
 type: input-text
+hint: Dativ — die Gitarre, Dat.
 correct:
-  - der Gitarre
+  - der
 ---
 
-Mit ___ Gitarre spielt er ein Lied. (Dativ — Dat.)
+Ergänze die Dativform:
+
+Mit ___ Gitarre spielt er ein Lied.

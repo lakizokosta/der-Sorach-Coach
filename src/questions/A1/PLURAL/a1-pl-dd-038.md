@@ -6,6 +6,8 @@ words:
   - Autos
   - stehen
   - da
+commas:
+  - 2
 ---
 
 [Transport] Ordne die Wörter zum richtigen Satz: (Plural — die Autos)

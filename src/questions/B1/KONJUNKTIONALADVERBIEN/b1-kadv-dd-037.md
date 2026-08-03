@@ -2,15 +2,14 @@
 id: b1-kadv-dd-037
 type: dropbox
 words:
-  - Sie
-  - spricht
-  - fließend
-  - Englisch
-  - Außerdem
-  - kann
-  - sie
-  - auch
-  - Französisch
+  - Die
+  - Nachrichten
+  - sind
+  - alarmierend
+  - Dennoch
+  - bleiben
+  - viele
+  - ruhig
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem Französisch)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

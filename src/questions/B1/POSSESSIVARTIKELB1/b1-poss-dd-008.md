@@ -10,4 +10,4 @@ words:
   - nebenbei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres Studiums)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

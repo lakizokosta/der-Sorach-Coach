@@ -2,13 +2,18 @@
 id: b1-rel-dd-037
 type: dropbox
 words:
-  - Das
-  - Projekt
-  - das
-  - wir
-  - planen
-  - ist
-  - ambitioniert
+  - Die
+  - Studierenden
+  - die
+  - ihre
+  - Prüfung
+  - bestanden
+  - haben
+  - feiern
+  - heute
+commas:
+  - 1
+  - 6
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — das wir planen)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

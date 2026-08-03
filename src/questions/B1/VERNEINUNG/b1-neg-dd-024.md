@@ -2,10 +2,11 @@
 id: b1-neg-dd-024
 type: dropbox
 words:
-  - Ich
-  - sehe
+  - Wir
+  - haben
   - kein
-  - Problem
+  - Geld
+  - übrig
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kein Problem)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

@@ -1,9 +1,11 @@
 ---
 id: a1-wf-in-006
 type: input-text
+hint: Frage nach Tätigkeit
 correct:
   - Was
 ---
 
-___ machst du heute? — Sport. (Frage nach Tätigkeit)
+Ergänze das Fragewort:
 
+___ machst du heute? — Sport.

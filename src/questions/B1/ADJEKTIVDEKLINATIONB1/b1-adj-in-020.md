@@ -1,8 +1,11 @@
 ---
 id: b1-adj-in-020
 type: input-text
+hint: Adjektivdeklination — schlecht, neutr., Gen.
 correct:
   - schlechten
 ---
 
-Wegen ___ Wetters fällt die Reise aus. (Adj. — schlecht, neutr., Gen.)
+Ergänze die Adjektivendung:
+
+Wegen ___ Wetters fällt die Reise aus.

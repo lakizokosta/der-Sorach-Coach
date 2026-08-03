@@ -2,11 +2,11 @@
 id: a2-fest-034
 type: select-one
 options:
-  - der
-  - den
-  - die
-  - das
-correct: den
+  - von
+  - auf
+  - nach
+  - bei
+correct: auf
 ---
 
-Sie freut sich auf ___ Geburtstag. (Feste Präpositionen)
+Er besteht ___ pünktliche Zahlung. (Feste Präposition)

@@ -2,11 +2,11 @@
 id: a2-fest-044
 type: select-one
 options:
-  - den
-  - dem
-  - das
-  - der
-correct: dem
+  - von
+  - an
+  - mit
+  - für
+correct: an
 ---
 
-Er fragt nach ___ Weg. (feste Präposition)
+Er erinnert sich ___ seine Kindheit. (Feste Präposition)

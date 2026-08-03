@@ -2,12 +2,12 @@
 id: b1-lokal-dd-047
 type: dropbox
 words:
-  - Das
-  - Reisebüro
+  - Die
+  - Apotheke
   - ist
-  - in
+  - an
   - der
-  - Hauptstraße
+  - Ecke
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — in Hauptstraße)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

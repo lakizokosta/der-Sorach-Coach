@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-047
 type: input-text
+hint: Negation
 correct:
   - keinen
 ---
 
-Er hat ___ Chef. (Negation)
+Ergänze die Verneinung:
+
+Er hat ___ Chef.

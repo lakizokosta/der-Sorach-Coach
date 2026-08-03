@@ -2,11 +2,11 @@
 id: b1-poss-006
 type: select-one
 options:
-  - der
-  - des
-  - den
-  - dem
-correct: des
+  - mein
+  - meines
+  - meinen
+  - meine
+correct: meines
 ---
 
 Das ist das Auto ___ Professors. (Possessivartikelform)

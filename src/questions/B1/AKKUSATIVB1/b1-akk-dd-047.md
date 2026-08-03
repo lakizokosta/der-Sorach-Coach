@@ -2,12 +2,13 @@
 id: b1-akk-dd-047
 type: dropbox
 words:
-  - Er
-  - freut
-  - sich
+  - Ich
+  - warte
   - auf
   - die
-  - Geschäftsreise
+  - Antwort
+  - der
+  - Personalabteilung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — die Reise)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

@@ -1,8 +1,11 @@
 ---
 id: b1-ws-in-045
 type: input-text
+hint: Wortschatz — Genes / Genesend / Genesung / Genesungbar
 correct:
   - Genesung
 ---
 
-Die ___ nach dem Unfall war lang. (Wortschatz B1)
+Ergänze das passende Wort:
+
+Die ___ nach dem Unfall war lang.

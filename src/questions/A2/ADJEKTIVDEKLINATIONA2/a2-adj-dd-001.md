@@ -9,4 +9,4 @@ words:
   - Hund
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivendung)
+Ordne die Wörter zum richtigen Satz: (klein, mask., Nom. — kleiner)

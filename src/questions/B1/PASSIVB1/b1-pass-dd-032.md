@@ -3,10 +3,10 @@ id: b1-pass-dd-032
 type: dropbox
 words:
   - Der
-  - Vertrag
+  - Bericht
   - wurde
   - gestern
-  - unterzeichnet
+  - veröffentlicht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb ffentlichen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

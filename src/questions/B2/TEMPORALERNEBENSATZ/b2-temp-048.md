@@ -9,4 +9,4 @@ options:
 correct: während
 ---
 
-Er lernte Deutsch, ___ er in Deutschland lebte. (Temporalnebensatz)
+Er lernte Deutsch, ___ er in Deutschland lebte. (Grammatikform)

@@ -2,16 +2,14 @@
 id: b1-kaus-dd-049
 type: dropbox
 words:
-  - Weil
-  - die
-  - Heizung
-  - defekt
-  - ist
-  - wird
-  - es
-  - im
-  - Büro
-  - kalt
+  - Ich
+  - bin
+  - müde
+  - denn
+  - ich
+  - habe
+  - wenig
+  - geschlafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Heizung defekt)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

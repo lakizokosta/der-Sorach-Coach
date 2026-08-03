@@ -2,12 +2,11 @@
 id: b1-neg-dd-049
 type: dropbox
 words:
-  - Wir
-  - fahren
-  - nicht
-  - mit
-  - dem
-  - Auto
+  - Sie
+  - trinkt
+  - keinen
+  - Kaffee
+  - mehr
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nicht mit Auto)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

@@ -2,13 +2,12 @@
 id: b1-trenn-dd-042
 type: dropbox
 words:
-  - Wir
-  - freuen
-  - uns
-  - schon
-  - auf
-  - die
-  - Reise
+  - Ich
+  - rufe
+  - den
+  - Kollegen
+  - später
+  - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmelden)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

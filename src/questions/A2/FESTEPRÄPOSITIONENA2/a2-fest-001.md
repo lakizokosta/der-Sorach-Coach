@@ -2,11 +2,11 @@
 id: a2-fest-001
 type: select-one
 options:
-  - einem
-  - einen
-  - einer
-  - eine
-correct: eine
+  - für
+  - von
+  - über
+  - auf
+correct: auf
 ---
 
-Ich warte auf ___ Antwort. (feste Präposition)
+Ich warte ___ eine Antwort vom Reisebüro. (Feste Präposition)

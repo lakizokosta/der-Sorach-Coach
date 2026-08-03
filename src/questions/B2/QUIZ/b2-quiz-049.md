@@ -2,11 +2,11 @@
 id: b2-quiz-049
 type: select-one
 options:
-  - hätte
-  - habe
-  - haben
-  - hat
-correct: habe
+  - müsste
+  - müsse
+  - müssen
+  - muss
+correct: müsse
 ---
 
-Er erklärte, er ___ die Aufgabe bereits erledigt. (Grammatikform)
+Sie sagte, sie ___ den Termin verschieben.

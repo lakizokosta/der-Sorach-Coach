@@ -2,14 +2,14 @@
 id: b1-kadv-dd-030
 type: dropbox
 words:
-  - Er
-  - spart
-  - Energie
+  - Wir
+  - brauchen
+  - Hilfe
   - Deshalb
-  - senkt
-  - er
-  - seine
-  - Kosten
+  - rufen
+  - wir
+  - einen
+  - Experten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb senkt)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

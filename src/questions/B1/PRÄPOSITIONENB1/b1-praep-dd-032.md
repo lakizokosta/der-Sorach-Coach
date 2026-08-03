@@ -3,9 +3,10 @@ id: b1-praep-dd-032
 type: dropbox
 words:
   - Er
-  - ist
-  - auf
-  - Geschäft
+  - arbeitet
+  - ab
+  - 8
+  - Uhr
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — auf Geschäft)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

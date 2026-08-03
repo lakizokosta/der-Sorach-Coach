@@ -2,11 +2,12 @@
 id: b1-neg-dd-043
 type: dropbox
 words:
-  - Wir
-  - haben
-  - kein
-  - Geld
-  - übrig
+  - Sie
+  - isst
+  - weder
+  - Fleisch
+  - noch
+  - Fisch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kein Geld)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

@@ -2,12 +2,16 @@
 id: b1-erg-dd-047
 type: dropbox
 words:
-  - Es
-  - stimmt
+  - Der
+  - Chef
+  - sagt
   - dass
-  - Umweltschutz
-  - wichtig
-  - ist
+  - das
+  - Meeting
+  - verschoben
+  - wird
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Umweltschutz wichtig ist)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

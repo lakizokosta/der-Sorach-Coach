@@ -2,12 +2,13 @@
 id: b1-perf-dd-046
 type: dropbox
 words:
-  - Wir
-  - sind
-  - den
-  - ganzen
-  - Tag
-  - gereist
+  - Der
+  - Minister
+  - hat
+  - die
+  - neue
+  - Regelung
+  - erklärt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

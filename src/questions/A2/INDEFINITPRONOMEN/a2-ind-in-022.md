@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-022
 type: input-text
+hint: Indefinitpronomen — unbestimmte Person, Nom. = jemand
 correct:
   - Jemand
 ---
 
-___ war bei der Panne sehr nett. (Indefinitpronomen — Person, Nom.)
+Ergänze das Indefinitpronomen:
+
+___ war bei der Panne sehr nett.

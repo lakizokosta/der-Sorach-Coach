@@ -2,13 +2,16 @@
 id: b1-demo-dd-046
 type: dropbox
 words:
-  - Ich
-  - kenne
-  - jenen
-  - Politiker
-  - aus
-  - dem
-  - Fernsehen
+  - Dieses
+  - Projekt
+  - gefällt
+  - mir
+  - besser
+  - als
+  - das
+  - andere
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jenen Politiker)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

@@ -4,12 +4,14 @@ type: dropbox
 words:
   - Obwohl
   - die
-  - Politik
-  - umstritten
+  - Umwelt
+  - belastet
   - ist
-  - diskutieren
+  - reisen
   - viele
-  - Menschen
+  - weiter
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Regen fällt)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

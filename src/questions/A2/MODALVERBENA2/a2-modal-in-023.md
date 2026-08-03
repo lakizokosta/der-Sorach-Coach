@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-023
 type: input-text
+hint: Modalverb + Verb sollen
 correct:
   - sollst
 ---
 
-Du ___ leiser sprechen. (Modalverb + Verb sollen)
+Ergänze die Modalverbform:
+
+Du ___ leiser sprechen.

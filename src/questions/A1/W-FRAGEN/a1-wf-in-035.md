@@ -1,9 +1,11 @@
 ---
 id: a1-wf-in-035
 type: input-text
+hint: Frage nach Sache
 correct:
   - Welches
 ---
 
-___ Ticket brauchst du? — Ein Zugticket. (Frage nach Sache)
+Ergänze das Fragewort:
 
+___ Ticket brauchst du? — Ein Zugticket.

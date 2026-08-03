@@ -9,4 +9,4 @@ words:
   - Medikament
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Medikament)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

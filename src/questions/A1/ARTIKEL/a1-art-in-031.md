@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-031
 type: input-text
+hint: Artikel — ein Ball, mask., Akk.
 correct:
   - einen
 ---
 
-Er kauft ___ Ball. (Artikel — mask., Akk.)
+Ergänze den Artikel:
+
+Er kauft ___ Ball.

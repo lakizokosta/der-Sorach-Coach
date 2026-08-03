@@ -1,8 +1,11 @@
 ---
 id: b1-adj-in-004
 type: input-text
+hint: Adjektivdeklination — interessant, mask., Akk.
 correct:
   - interessanten
 ---
 
-Sie liest einen ___ Artikel über Umweltschutz. (Adj. — interessant, mask., Akk.)
+Ergänze die Adjektivendung:
+
+Sie liest einen ___ Artikel über Umweltschutz.

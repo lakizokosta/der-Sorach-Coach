@@ -7,9 +7,10 @@ words:
   - auf
   - deiner
   - Meinung
+  - —
   - Ich
   - bestehe
   - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Bestehen))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

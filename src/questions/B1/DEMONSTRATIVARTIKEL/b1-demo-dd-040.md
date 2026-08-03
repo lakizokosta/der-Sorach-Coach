@@ -2,14 +2,12 @@
 id: b1-demo-dd-040
 type: dropbox
 words:
-  - Dieser
-  - Artikel
-  - in
-  - der
-  - Zeitung
-  - ist
-  - sehr
-  - aktuell
+  - Dieses
+  - Reiseziel
+  - empfehle
+  - ich
+  - dir
+  - besonders
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieser Artikel)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

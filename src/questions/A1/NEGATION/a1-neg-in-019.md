@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-019
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Der Laden ist ___ geöffnet. (Negation)
+Ergänze die Verneinung:
+
+Der Laden ist ___ geöffnet.

@@ -1222,7 +1222,7 @@
 ### 101. `b1-lokal-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — gegenüber Bahnhof)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Büro · liegt · direkt · gegenüber · dem · Bahnhof
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-lokal-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — an Ecke)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Die · Apotheke · ist · an · der · Ecke
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-lokal-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — vor Eingang)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Wir · treffen · uns · vor · dem · Eingang · der · Universität
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-lokal-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — in Stadtmitte)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Krankenhaus · befindet · sich · in · der · Stadtmitte
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-lokal-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — über Brücke)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Geh · über · die · Brücke · und · dann · links
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-lokal-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — neben Park)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Café · ist · neben · dem · Park
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-lokal-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — durch Tunnel)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Fahren · Sie · durch · den · Tunnel
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-lokal-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — am Fluss)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Hotel · liegt · an · dem · Fluss
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-lokal-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — vor Rathaus)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Wir · warten · vor · dem · Rathaus
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-lokal-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — auf Etage)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Die · Klinik · ist · auf · der · dritten · Etage
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-lokal-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — zwischen Gebäuden)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Museum · ist · zwischen · zwei · Gebäuden
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-lokal-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — auf Land)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Er · wohnt · auf · dem · Land
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-lokal-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — in Hauptstraße)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Reisebüro · ist · in · der · Hauptstraße
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-lokal-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — über Straße)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Wir · gehen · über · die · Straße
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-lokal-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — hinter Viertel)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Der · Park · liegt · hinter · dem · Wohnviertel
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-lokal-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — unter Brücke)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Büro · liegt · direkt · gegenüber · dem · Bahnhof
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-lokal-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — beim Ausgang)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Die · Apotheke · ist · an · der · Ecke
 
@@ -1392,7 +1392,7 @@
 ### 118. `b1-lokal-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — gegenüber Bahnhof)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Büro · liegt · direkt · gegenüber · dem · Bahnhof
 
@@ -1402,7 +1402,7 @@
 ### 119. `b1-lokal-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — an Ecke)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Die · Apotheke · ist · an · der · Ecke
 
@@ -1412,7 +1412,7 @@
 ### 120. `b1-lokal-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — vor Eingang)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Wir · treffen · uns · vor · dem · Eingang · der · Universität
 
@@ -1422,7 +1422,7 @@
 ### 121. `b1-lokal-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — in Stadtmitte)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Krankenhaus · befindet · sich · in · der · Stadtmitte
 
@@ -1432,7 +1432,7 @@
 ### 122. `b1-lokal-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — über Brücke)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Geh · über · die · Brücke · und · dann · links
 
@@ -1442,7 +1442,7 @@
 ### 123. `b1-lokal-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — neben Park)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Café · ist · neben · dem · Park
 
@@ -1452,7 +1452,7 @@
 ### 124. `b1-lokal-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — durch Tunnel)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Fahren · Sie · durch · den · Tunnel
 
@@ -1462,7 +1462,7 @@
 ### 125. `b1-lokal-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — am Fluss)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Hotel · liegt · an · dem · Fluss
 
@@ -1472,7 +1472,7 @@
 ### 126. `b1-lokal-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — vor Rathaus)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Wir · warten · vor · dem · Rathaus
 
@@ -1482,7 +1482,7 @@
 ### 127. `b1-lokal-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — auf Etage)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Die · Klinik · ist · auf · der · dritten · Etage
 
@@ -1492,7 +1492,7 @@
 ### 128. `b1-lokal-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — zwischen Gebäuden)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Museum · ist · zwischen · zwei · Gebäuden
 
@@ -1502,7 +1502,7 @@
 ### 129. `b1-lokal-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — auf Land)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Er · wohnt · auf · dem · Land
 
@@ -1512,7 +1512,7 @@
 ### 130. `b1-lokal-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — in Hauptstraße)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Reisebüro · ist · in · der · Hauptstraße
 
@@ -1522,7 +1522,7 @@
 ### 131. `b1-lokal-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — über Straße)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Wir · gehen · über · die · Straße
 
@@ -1532,7 +1532,7 @@
 ### 132. `b1-lokal-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — hinter Viertel)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Der · Park · liegt · hinter · dem · Wohnviertel
 
@@ -1542,7 +1542,7 @@
 ### 133. `b1-lokal-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — unter Brücke)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Büro · liegt · direkt · gegenüber · dem · Bahnhof
 
@@ -1552,7 +1552,7 @@
 ### 134. `b1-lokal-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — beim Ausgang)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Die · Apotheke · ist · an · der · Ecke
 
@@ -1562,7 +1562,7 @@
 ### 135. `b1-lokal-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — gegenüber Bahnhof)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Büro · liegt · direkt · gegenüber · dem · Bahnhof
 
@@ -1572,7 +1572,7 @@
 ### 136. `b1-lokal-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — an Ecke)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Die · Apotheke · ist · an · der · Ecke
 
@@ -1582,7 +1582,7 @@
 ### 137. `b1-lokal-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — vor Eingang)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Wir · treffen · uns · vor · dem · Eingang · der · Universität
 
@@ -1592,7 +1592,7 @@
 ### 138. `b1-lokal-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — in Stadtmitte)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Krankenhaus · befindet · sich · in · der · Stadtmitte
 
@@ -1602,7 +1602,7 @@
 ### 139. `b1-lokal-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — über Brücke)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Geh · über · die · Brücke · und · dann · links
 
@@ -1612,7 +1612,7 @@
 ### 140. `b1-lokal-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — neben Park)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Café · ist · neben · dem · Park
 
@@ -1622,7 +1622,7 @@
 ### 141. `b1-lokal-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — durch Tunnel)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Fahren · Sie · durch · den · Tunnel
 
@@ -1632,7 +1632,7 @@
 ### 142. `b1-lokal-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — am Fluss)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Hotel · liegt · an · dem · Fluss
 
@@ -1642,7 +1642,7 @@
 ### 143. `b1-lokal-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — vor Rathaus)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Wir · warten · vor · dem · Rathaus
 
@@ -1652,7 +1652,7 @@
 ### 144. `b1-lokal-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — auf Etage)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Die · Klinik · ist · auf · der · dritten · Etage
 
@@ -1662,7 +1662,7 @@
 ### 145. `b1-lokal-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — zwischen Gebäuden)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Museum · ist · zwischen · zwei · Gebäuden
 
@@ -1672,7 +1672,7 @@
 ### 146. `b1-lokal-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — auf Land)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Er · wohnt · auf · dem · Land
 
@@ -1682,7 +1682,7 @@
 ### 147. `b1-lokal-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — in Hauptstraße)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Reisebüro · ist · in · der · Hauptstraße
 
@@ -1692,7 +1692,7 @@
 ### 148. `b1-lokal-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — über Straße)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Wir · gehen · über · die · Straße
 
@@ -1702,7 +1702,7 @@
 ### 149. `b1-lokal-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — hinter Viertel)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Der · Park · liegt · hinter · dem · Wohnviertel
 
@@ -1712,7 +1712,7 @@
 ### 150. `b1-lokal-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Lokal — unter Brücke)
+> Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)
 
 **Wörter:** Das · Büro · liegt · direkt · gegenüber · dem · Bahnhof
 

@@ -1,8 +1,11 @@
 ---
 id: b1-lass-in-028
 type: input-text
+hint: lassen + Verb abholen
 correct:
   - lässt
 ---
 
-Sie ___ die Kinder von der Oma abholen. (lassen + Verb abholen)
+Ergänze die lassen-Form:
+
+Sie ___ die Kinder von der Oma abholen.

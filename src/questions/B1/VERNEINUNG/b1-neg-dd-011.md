@@ -9,4 +9,4 @@ words:
   - geholfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nicht geholfen)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

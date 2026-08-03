@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-037
 type: input-text
+hint: Adjektivdeklination — hart, neutr., Dat.
 correct:
   - harten
 ---
 
-Nach dem ___ Training bin ich müde. (Adjektivdeklination — neutr., Dat.)
+Ergänze die Adjektivendung:
+
+Nach dem ___ Training bin ich müde.

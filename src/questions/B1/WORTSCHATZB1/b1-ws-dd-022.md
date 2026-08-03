@@ -3,12 +3,13 @@ id: b1-ws-dd-022
 type: dropbox
 words:
   - Die
-  - Regierung
-  - hat
-  - eine
-  - neue
-  - Regelung
-  - beschlossen
+  - Nachfrage
+  - an
+  - der
+  - Universität
+  - ist
+  - sehr
+  - hoch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Regierung)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

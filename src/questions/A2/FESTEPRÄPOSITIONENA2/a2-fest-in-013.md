@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-013
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
-  - die
+  - für
 ---
 
-Ich danke für ___ Hilfe. (feste Präposition)
+Ergänze die feste Präposition:
+
+Ich danke ___ die Hilfe.

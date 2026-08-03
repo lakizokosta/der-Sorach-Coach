@@ -2,14 +2,15 @@
 id: b1-erg-dd-048
 type: dropbox
 words:
-  - Er
-  - merkt
+  - Sie
+  - hofft
   - dass
-  - er
-  - einen
-  - Fehler
-  - gemacht
-  - hat
+  - sie
+  - die
+  - Prüfung
+  - besteht
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Fehler gemacht hat)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

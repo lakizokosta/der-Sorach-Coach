@@ -2,16 +2,15 @@
 id: b1-pradv-dd-037
 type: dropbox
 words:
-  - Freust
+  - Wartest
   - du
-  - dich
   - auf
   - die
-  - Reise
+  - Ergebnisse
+  - —
   - Ich
-  - freue
-  - mich
+  - warte
   - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

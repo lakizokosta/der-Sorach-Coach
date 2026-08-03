@@ -3,11 +3,12 @@ id: b1-praeg-dd-041
 type: dropbox
 words:
   - Sie
-  - ärgert
-  - sich
-  - über
-  - den
-  - Fehler
+  - träumt
+  - von
+  - einer
+  - Stelle
+  - im
+  - Ausland
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — ärgert über)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

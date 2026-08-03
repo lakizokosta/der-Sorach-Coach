@@ -2,15 +2,17 @@
 id: b1-pradv-dd-044
 type: dropbox
 words:
-  - Hilfst
+  - Informierst
   - du
-  - bei
-  - dem
-  - Projekt
-  - Ja
-  - ich
-  - helfe
-  - dabei
+  - dich
+  - über
+  - das
+  - Gesetz
+  - —
+  - Ich
+  - informiere
+  - mich
+  - darüber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dabei)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

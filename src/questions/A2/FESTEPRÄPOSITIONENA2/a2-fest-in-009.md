@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-009
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
-  - gutes
+  - auf
 ---
 
-Ich hoffe auf ___ gutes Wetter. (feste Präposition)
+Ergänze die feste Präposition:
+
+Ich hoffe ___ gutes Wetter.

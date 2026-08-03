@@ -1,8 +1,11 @@
 ---
 id: b1-praep-in-013
 type: input-text
+hint: Präposition — aus / in / nach / zu
 correct:
   - aus
 ---
 
-Sie kommt ___ der Türkei. (Präposition)
+Ergänze die Präposition:
+
+Sie kommt ___ der Türkei.

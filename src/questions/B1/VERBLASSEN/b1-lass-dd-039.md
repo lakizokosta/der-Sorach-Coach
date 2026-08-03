@@ -2,12 +2,12 @@
 id: b1-lass-dd-039
 type: dropbox
 words:
-  - Du
+  - Sie
   - lässt
-  - dir
-  - die
-  - Zähne
-  - kontrollieren
+  - den
+  - Bericht
+  - Korrektur
+  - lesen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb lesen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

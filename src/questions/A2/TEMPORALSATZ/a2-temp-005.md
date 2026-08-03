@@ -9,4 +9,4 @@ options:
 correct: Wenn
 ---
 
-___ du Zeit hast, komm vorbei. (Temporal — Bedingung)
+___ du Zeit hast, komm vorbei. (Temporalsatz)

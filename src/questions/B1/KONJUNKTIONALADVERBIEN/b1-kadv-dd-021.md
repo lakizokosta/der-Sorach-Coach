@@ -2,14 +2,15 @@
 id: b1-kadv-dd-021
 type: dropbox
 words:
-  - Das
-  - Projekt
-  - ist
-  - teuer
-  - Dennoch
-  - lohnt
-  - es
-  - sich
+  - Der
+  - Arzt
+  - riet
+  - zur
+  - Ruhe
+  - Trotzdem
+  - arbeitet
+  - er
+  - weiter
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch lohnt)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

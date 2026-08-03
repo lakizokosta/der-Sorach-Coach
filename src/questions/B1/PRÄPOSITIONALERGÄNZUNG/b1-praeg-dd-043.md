@@ -3,12 +3,10 @@ id: b1-praeg-dd-043
 type: dropbox
 words:
   - Er
-  - fragt
-  - nach
-  - dem
-  - Weg
-  - zum
-  - Krankenhaus
+  - wartet
+  - auf
+  - den
+  - Arzt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — fragt nach)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

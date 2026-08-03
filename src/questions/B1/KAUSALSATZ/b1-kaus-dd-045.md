@@ -2,14 +2,18 @@
 id: b1-kaus-dd-045
 type: dropbox
 words:
-  - Die
-  - Straßen
-  - sind
-  - nass
-  - denn
+  - Weil
+  - die
+  - Heizung
+  - defekt
+  - ist
+  - wird
   - es
-  - geregnet
-  - hat
+  - im
+  - Büro
+  - kalt
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn geregnet hat)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

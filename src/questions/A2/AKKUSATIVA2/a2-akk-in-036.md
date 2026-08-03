@@ -1,8 +1,11 @@
 ---
 id: a2-akk-in-036
 type: input-text
+hint: Akkusativ — der Urlaub
 correct:
   - den
 ---
 
-Er denkt an ___ Urlaub an der Mosel. (Akkusativ — der Urlaub)
+Ergänze die Akkusativform:
+
+Er denkt an ___ Urlaub an der Mosel.

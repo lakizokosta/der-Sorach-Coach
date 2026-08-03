@@ -2,11 +2,11 @@
 id: b1-trenn-037
 type: select-one
 options:
-  - freuen
-  - freust
-  - gefreet
-  - freue
-correct: freue
+  - geben
+  - abgebe
+  - gebe ab
+  - gebe
+correct: gebe
 ---
 
-Ich ___ mich über das Ergebnis. (Trennbares Verb + Verb sich freuen)
+Ich ___ den Brief um neun Uhr ab. (Trennbares Verb)

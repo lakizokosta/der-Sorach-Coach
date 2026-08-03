@@ -2,14 +2,14 @@
 id: b1-poss-dd-020
 type: dropbox
 words:
-  - Sie
-  - hilft
-  - ihrer
-  - neuen
-  - Chefin
-  - bei
-  - der
-  - Einarbeitung
+  - Trotz
+  - seiner
+  - geringen
+  - Erfahrung
+  - bekommt
+  - er
+  - die
+  - Stelle
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer Chefin)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

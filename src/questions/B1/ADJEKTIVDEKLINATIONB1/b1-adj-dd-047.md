@@ -2,15 +2,15 @@
 id: b1-adj-dd-047
 type: dropbox
 words:
-  - In
-  - einer
-  - ruhigen
-  - Gegend
+  - Der
+  - Chef
+  - präsentiert
+  - einen
+  - wichtigen
+  - Bericht
+  - vor
   - der
-  - Stadt
-  - wohnt
-  - die
-  - Familie
+  - Abteilung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — ruhigen Gegend)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

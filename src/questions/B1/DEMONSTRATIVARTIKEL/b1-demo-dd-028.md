@@ -2,11 +2,11 @@
 id: b1-demo-dd-028
 type: dropbox
 words:
-  - Diese
-  - Patienten
-  - müssen
-  - länger
-  - warten
+  - Dieses
+  - Gesetz
+  - wurde
+  - gestern
+  - verabschiedet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Patienten)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

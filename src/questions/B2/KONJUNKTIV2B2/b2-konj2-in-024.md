@@ -1,8 +1,11 @@
 ---
 id: b2-konj2-in-024
 type: input-text
+hint: Konjunktiv II + Verb sein
 correct:
   - wäre
 ---
 
-Wenn ich reich ___, würde ich viel reisen. (Konjunktiv II + Verb sein)
+Ergänze die Konjunktiv-II-Form:
+
+Wenn ich reich ___, würde ich viel reisen.

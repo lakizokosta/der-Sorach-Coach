@@ -2,13 +2,12 @@
 id: b1-lass-dd-044
 type: dropbox
 words:
-  - Ich
-  - lasse
-  - mir
-  - eine
-  - zweite
-  - Meinung
-  - geben
+  - Du
+  - lässt
+  - dir
+  - Zeit
+  - zum
+  - Ausruhen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb Ausruhen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

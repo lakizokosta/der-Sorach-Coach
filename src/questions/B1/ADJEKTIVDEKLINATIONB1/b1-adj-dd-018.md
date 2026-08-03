@@ -2,14 +2,15 @@
 id: b1-adj-dd-018
 type: dropbox
 words:
-  - In
-  - einem
-  - modernen
-  - Büro
-  - arbeiten
-  - viele
-  - junge
-  - Kollegen
+  - Der
+  - neue
+  - Studiengang
+  - an
+  - der
+  - Universität
+  - ist
+  - sehr
+  - beliebt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtigen Bericht)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

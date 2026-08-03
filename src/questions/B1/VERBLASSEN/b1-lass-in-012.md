@@ -1,8 +1,11 @@
 ---
 id: b1-lass-in-012
 type: input-text
+hint: lassen + Verb ruhen
 correct:
   - lassen
 ---
 
-Wir ___ das Problem nicht zu ruhen. (lassen + Verb ruhen)
+Ergänze die lassen-Form:
+
+Wir ___ das Problem nicht ruhen.

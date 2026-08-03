@@ -12,7 +12,7 @@
  * redirect URL configured on each Payment Link.
  *
  * The `SCRIPT_URL` constant points to the Google Apps Script Web App
- * that handles code validation, magic-link login, trial requests, and
+ * that handles code validation, magic-link login, and
  * the Stripe / PayPal IPN webhooks. Leave it empty to run the SPA in
  * pure demo mode (no network calls, demo activator only).
  */

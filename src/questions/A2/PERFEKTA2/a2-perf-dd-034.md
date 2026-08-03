@@ -11,4 +11,4 @@ words:
   - interessiert
 ---
 
-Ordne die Wörter zum richtigen Satz: (Perfekt)
+Ordne die Wörter zum richtigen Satz: (Perfekt — hat interessiert)

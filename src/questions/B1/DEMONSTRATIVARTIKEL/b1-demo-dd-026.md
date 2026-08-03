@@ -2,12 +2,11 @@
 id: b1-demo-dd-026
 type: dropbox
 words:
-  - Er
-  - vertraut
-  - jener
-  - Meinung
-  - seines
-  - Chefs
+  - Diese
+  - Patienten
+  - müssen
+  - länger
+  - warten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — jene Meinung)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-004
 type: input-text
+hint: Passiv + Verb diskutiieren
 correct:
   - wird
 ---
 
-Das Projekt ___ gerade diskutiert. (Passiv + Verb diskutiieren)
+Ergänze die Passivform:
+
+Das Projekt ___ gerade diskutiert.

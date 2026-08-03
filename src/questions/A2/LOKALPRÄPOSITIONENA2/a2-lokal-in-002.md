@@ -1,8 +1,11 @@
 ---
 id: a2-lokal-in-002
 type: input-text
+hint: Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen
 correct:
   - neben
 ---
 
-Nicht im Park, sondern am Rand: Das Café ist ___ dem Park. (Lokalpräposition)
+Ergänze die Lokalpräposition:
+
+Nicht im Park, sondern am Rand: Das Café ist ___ dem Park.

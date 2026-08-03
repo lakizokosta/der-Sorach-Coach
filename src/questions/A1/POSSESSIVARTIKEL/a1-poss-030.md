@@ -2,9 +2,9 @@
 id: a1-poss-030
 type: select-one
 options:
-  - eure
-  - ihr
-  - unser
+  - meinen
+  - meinem
+  - meiner
   - meine
 correct: meine
 ---

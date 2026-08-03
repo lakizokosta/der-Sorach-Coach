@@ -2,11 +2,13 @@
 id: b1-neg-dd-021
 type: dropbox
 words:
-  - Sie
-  - trinkt
-  - keinen
-  - Kaffee
-  - mehr
+  - Er
+  - hat
+  - nicht
+  - auf
+  - die
+  - Nachricht
+  - geantwortet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — keinen Kaffee)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

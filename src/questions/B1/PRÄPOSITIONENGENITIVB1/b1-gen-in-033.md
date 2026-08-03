@@ -1,8 +1,11 @@
 ---
 id: b1-gen-in-033
 type: input-text
+hint: Genitiv-Präposition
 correct:
   - Während
 ---
 
-___ des Unterrichts ist es im Gebäude ruhig. (Genitiv-Präposition)
+Ergänze die Genitiv-Präposition:
+
+___ des Unterrichts ist es im Gebäude ruhig.

@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-009
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - habe
 ---
 
-Ich ___ lange geschlafen. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Ich ___ lange geschlafen.

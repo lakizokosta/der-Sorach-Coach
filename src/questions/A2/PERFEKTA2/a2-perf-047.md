@@ -3,7 +3,7 @@ id: a2-perf-047
 type: select-one
 options:
   - hat
-  - wurden
+  - ist
   - sein
   - haben
 correct: haben

@@ -2,14 +2,11 @@
 id: b1-poss-dd-039
 type: dropbox
 words:
-  - Trotz
-  - seiner
-  - geringen
-  - Erfahrung
-  - bekommt
-  - er
-  - die
-  - Stelle
+  - Wir
+  - diskutieren
+  - unsere
+  - gemeinsame
+  - Zukunft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erfahrung)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

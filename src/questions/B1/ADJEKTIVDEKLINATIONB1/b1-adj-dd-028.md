@@ -2,11 +2,15 @@
 id: b1-adj-dd-028
 type: dropbox
 words:
-  - Die
-  - internationale
-  - Konferenz
-  - beginnt
-  - morgen
+  - In
+  - einer
+  - ruhigen
+  - Gegend
+  - der
+  - Stadt
+  - wohnt
+  - die
+  - Familie
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — neue Studiengang)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

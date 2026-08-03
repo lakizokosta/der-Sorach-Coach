@@ -9,4 +9,4 @@ options:
 correct: nachdem
 ---
 
-Er ruhte sich aus, ___ er gearbeitet hatte. (Temporalnebensatz)
+Er ruhte sich aus, ___ er gearbeitet hatte. (Grammatikform)

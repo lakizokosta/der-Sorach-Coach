@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-020
 type: input-text
+hint: Wechselpräpositionen — Ort
 correct:
   - im
 ---
 
-Wir sitzen ___ Bus. (Dativ oder Akkusativ)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Wir sitzen ___ Bus.

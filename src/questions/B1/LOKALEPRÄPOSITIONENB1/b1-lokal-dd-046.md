@@ -2,11 +2,13 @@
 id: b1-lokal-dd-046
 type: dropbox
 words:
-  - Er
-  - wohnt
-  - auf
+  - Das
+  - Büro
+  - liegt
+  - direkt
+  - gegenüber
   - dem
-  - Land
+  - Bahnhof
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — auf Land)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

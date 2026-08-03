@@ -2,14 +2,15 @@
 id: b1-kadv-dd-047
 type: dropbox
 words:
-  - Er
-  - spart
-  - Energie
-  - Deshalb
-  - senkt
-  - er
-  - seine
-  - Kosten
+  - Sie
+  - hat
+  - viel
+  - gelernt
+  - deshalb
+  - war
+  - die
+  - Prüfung
+  - leicht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb senkt)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

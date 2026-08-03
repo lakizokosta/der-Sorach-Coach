@@ -2,11 +2,11 @@
 id: b2-konz-035
 type: select-one
 options:
+  - Wenngleich
+  - Weil
   - Damit
-  - Wenn
-  - Dass
-  - Obwohl
-correct: Obwohl
+  - Obgleich
+correct: Obgleich
 ---
 
-___, obgleich die Chancen gering waren, versuchte er es. (Konzessivsatz)
+___ die Chancen gering waren, versuchte er es. (Konzessivsatz)

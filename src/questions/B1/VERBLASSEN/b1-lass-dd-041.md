@@ -4,11 +4,8 @@ type: dropbox
 words:
   - Er
   - lässt
-  - das
-  - Paket
-  - nach
-  - Hause
-  - bringen
+  - sich
+  - impfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb impfen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

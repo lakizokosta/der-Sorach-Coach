@@ -1,8 +1,11 @@
 ---
 id: a2-refl-in-006
 type: input-text
+hint: Reflexiv + Verb waschen
 correct:
   - wäscht
 ---
 
-Er ___ sich die Hände vor dem Essen. (Reflexiv + Verb waschen)
+Ergänze die Reflexivform:
+
+Er ___ sich die Hände vor dem Essen.

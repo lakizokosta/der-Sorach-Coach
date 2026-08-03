@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-016
 type: input-text
+hint: Possessivartikel — sie Pl., neutr., Nom.
 correct:
   - Ihr
 ---
 
-___ Kaninchen ist süß. (Possessivartikel — sie Pl., neutr., Nom.)
+Ergänze den Possessivartikel:
+
+___ Kaninchen ist süß.

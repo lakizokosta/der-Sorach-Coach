@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-033
 type: input-text
+hint: Possessivartikel — ich, mask., Dat.
 correct:
   - meinem
 ---
 
-Ich habe ___ Mann ein Geschenk gekauft. (Possessivartikel — ich, mask., Dat.)
+Ergänze den Possessivartikel:
+
+Ich habe ___ Mann ein Geschenk gekauft.

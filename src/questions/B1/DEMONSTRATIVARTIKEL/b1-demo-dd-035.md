@@ -2,14 +2,15 @@
 id: b1-demo-dd-035
 type: dropbox
 words:
-  - Dieses
-  - Projekt
-  - gefällt
-  - mir
-  - besser
+  - Jenes
+  - Hotel
+  - war
+  - deutlich
+  - teurer
   - als
-  - das
-  - andere
+  - jenes
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Projekt)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

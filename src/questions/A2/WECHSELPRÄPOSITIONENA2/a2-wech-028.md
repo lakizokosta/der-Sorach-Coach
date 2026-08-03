@@ -9,4 +9,4 @@ options:
 correct: bei der
 ---
 
-Wo bist du? — ___ Arbeit. (Dativ oder Akkusativ — Wo?)
+Wo bist du? — ___ Arbeit. (Dativ oder Akkusativ)

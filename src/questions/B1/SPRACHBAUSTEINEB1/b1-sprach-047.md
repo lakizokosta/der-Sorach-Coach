@@ -9,4 +9,4 @@ options:
 correct: bis
 ---
 
-Bitte reichen Sie Ihre Unterlagen ___ spätestens Freitag ein. (Grammatikform)
+Bitte reichen Sie Ihre Unterlagen ___ spätestens Freitag ein.

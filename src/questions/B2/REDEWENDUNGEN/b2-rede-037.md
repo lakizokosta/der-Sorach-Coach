@@ -2,11 +2,11 @@
 id: b2-rede-037
 type: select-one
 options:
-  - Roller
   - Rolle
-  - Rollens
+  - Roller
+  - Rollende
   - Rollen
 correct: Rollen
 ---
 
-Wir müssen den Stein ins ___ bringen. (Redewendung)
+Wir müssen den Stein ins ___ bringen. (Grammatikform)

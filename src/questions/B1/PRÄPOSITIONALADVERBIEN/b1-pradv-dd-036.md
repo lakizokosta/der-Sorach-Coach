@@ -2,15 +2,17 @@
 id: b1-pradv-dd-036
 type: dropbox
 words:
-  - Wann
-  - denkst
+  - Erinnerst
   - du
+  - dich
   - an
-  - den
-  - Termin
+  - die
+  - Vorlesung
+  - —
   - Ich
-  - denke
+  - erinnere
+  - mich
   - daran
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — daran)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

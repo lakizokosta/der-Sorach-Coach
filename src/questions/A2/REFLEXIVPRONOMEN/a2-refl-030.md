@@ -2,11 +2,11 @@
 id: a2-refl-030
 type: select-one
 options:
-  - fühlt
-  - gefühlt
-  - fühle
-  - fühlst
-correct: fühle
+  - bereite
+  - bereitest
+  - bereitet
+  - vorbereitet
+correct: bereitet
 ---
 
-Ich ___ mich nicht gut. (Reflexiv + Verb fühlen)
+Sie ___ sich für das Fest. (Reflexiv + Verb vorbereiten)

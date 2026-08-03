@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-012
 type: input-text
+hint: Verb-Nomen-Verbindung — gibt / macht / stellt / trifft
 correct:
   - stellt
 ---
 
-Sie ___ eine Diagnose. (Verb-Nomen-Verbindung)
+Ergänze die Verb-Nomen-Verbindung:
+
+Sie ___ eine Diagnose.

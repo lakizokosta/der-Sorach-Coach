@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-002
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - haben
 ---
 
-Wir ___ zusammen Pizza gegessen. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Wir ___ zusammen Pizza gegessen.

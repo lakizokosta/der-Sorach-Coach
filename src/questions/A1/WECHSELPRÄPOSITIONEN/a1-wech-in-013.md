@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-013
 type: input-text
+hint: Wechselpräpositionen — Ort
 correct:
   - auf dem
 ---
 
-Die Katze sitzt ___ Sofa. (Dativ oder Akkusativ)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Die Katze sitzt ___ Sofa.

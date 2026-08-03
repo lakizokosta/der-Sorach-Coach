@@ -2,13 +2,12 @@
 id: b1-poss-dd-029
 type: dropbox
 words:
-  - Wegen
-  - meiner
-  - Verspätung
-  - verpasste
-  - ich
-  - den
-  - Termin
+  - Das
+  - ist
+  - das
+  - Ziel
+  - unserer
+  - Partei
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner Verspätung)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

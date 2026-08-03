@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-024
 type: input-text
+hint: Possessivartikel — sie, mask., Akk.
 correct:
   - ihren
 ---
 
-Ich kenne ___ Bruder. (Possessivartikel — sie, mask., Akk.)
+Ergänze den Possessivartikel:
+
+Ich kenne ___ Bruder.

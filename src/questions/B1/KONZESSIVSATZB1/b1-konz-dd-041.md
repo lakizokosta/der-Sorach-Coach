@@ -3,13 +3,15 @@ id: b1-konz-dd-041
 type: dropbox
 words:
   - Obwohl
-  - er
-  - kein
-  - Auto
-  - hat
-  - bleibt
-  - Kollege
-  - pünktlich
+  - die
+  - Politik
+  - umstritten
+  - ist
+  - diskutieren
+  - viele
+  - Menschen
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl umstritten)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

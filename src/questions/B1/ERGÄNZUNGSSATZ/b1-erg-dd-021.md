@@ -2,14 +2,14 @@
 id: b1-erg-dd-021
 type: dropbox
 words:
-  - Es
-  - ist
-  - klar
+  - Ich
+  - glaube
   - dass
-  - wir
-  - mehr
-  - Zeit
-  - brauchen
+  - die
+  - Nachrichten
+  - übertreiben
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Zeit brauchen)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

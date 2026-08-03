@@ -2,13 +2,15 @@
 id: b1-gen-dd-023
 type: dropbox
 words:
-  - Trotz
+  - Während
   - der
-  - Warnung
-  - fahren
-  - viele
-  - zu
-  - schnell
+  - Debatte
+  - dürfen
+  - Zuschauer
+  - nicht
+  - sprechen
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Warnung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

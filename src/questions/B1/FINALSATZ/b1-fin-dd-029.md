@@ -12,6 +12,8 @@ words:
   - sie
   - schnell
   - liest
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — damit Chef schnell liest)

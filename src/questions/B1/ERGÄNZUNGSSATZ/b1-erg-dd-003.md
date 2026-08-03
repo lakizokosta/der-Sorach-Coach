@@ -9,6 +9,8 @@ words:
   - die
   - Prüfung
   - besteht
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Prüfung besteht)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

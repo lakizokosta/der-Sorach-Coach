@@ -1,8 +1,11 @@
 ---
 id: a2-trenn-in-015
 type: input-text
+hint: Trennbares Verb + Verb anmachen
 correct:
   - macht
 ---
 
-Er ___ das Radio an. (Trennbares Verb + Verb anmachen)
+Ergänze die Verbform (trennbares Verb):
+
+Er ___ das Radio an.

@@ -11,6 +11,8 @@ words:
   - Straße
   - nicht
   - benutzen
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Reparatur)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

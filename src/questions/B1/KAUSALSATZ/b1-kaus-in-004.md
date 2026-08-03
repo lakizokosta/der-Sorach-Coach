@@ -1,8 +1,11 @@
 ---
 id: b1-kaus-in-004
 type: input-text
+hint: Kausalsatz — denn
 correct:
   - denn
 ---
 
-Ich bin müde, ___ ich habe wenig geschlafen. (Kausalsatz)
+Ergänze die Konjunktion (Kausal):
+
+Ich bin müde, ___ ich habe wenig geschlafen.

@@ -10,6 +10,8 @@ words:
   - wir
   - im
   - Wartezimmer
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Arzt kommt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-025
 type: input-text
+hint: Artikel — ein Bruder, mask., Akk.
 correct:
   - einen
 ---
 
-Sie hat ___ Bruder. (Artikel — mask., Akk.)
+Ergänze den Artikel:
+
+Sie hat ___ Bruder.

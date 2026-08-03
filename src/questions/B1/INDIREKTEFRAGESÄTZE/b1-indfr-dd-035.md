@@ -2,13 +2,15 @@
 id: b1-indfr-dd-035
 type: dropbox
 words:
-  - Ich
-  - weiß
-  - nicht
-  - ob
+  - Sie
+  - möchte
+  - wissen
+  - wann
   - der
-  - Termin
-  - stattfindet
+  - Kurs
+  - beginnt
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Termin stattfindet)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

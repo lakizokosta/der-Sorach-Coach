@@ -2,12 +2,14 @@
 id: b1-npv-dd-046
 type: dropbox
 words:
-  - Die
-  - Patientin
+  - Sie
   - hat
-  - Schmerzen
-  - im
-  - Rücken
+  - großes
+  - Interesse
+  - an
+  - dem
+  - neuen
+  - Studiengang
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfahrung in)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

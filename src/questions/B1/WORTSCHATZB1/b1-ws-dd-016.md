@@ -2,13 +2,10 @@
 id: b1-ws-dd-016
 type: dropbox
 words:
-  - Nach
-  - der
-  - Operation
+  - Nach der Operation
   - braucht
-  - ein
-  - Patient
+  - der Patient
   - Rehabilitation
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Bewerbung)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

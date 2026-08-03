@@ -3,10 +3,13 @@ id: b1-lokal-dd-048
 type: dropbox
 words:
   - Wir
-  - gehen
-  - über
-  - die
-  - Straße
+  - treffen
+  - uns
+  - vor
+  - dem
+  - Eingang
+  - der
+  - Universität
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — über Straße)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

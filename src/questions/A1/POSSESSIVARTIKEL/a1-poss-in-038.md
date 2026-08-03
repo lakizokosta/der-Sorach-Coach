@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-038
 type: input-text
+hint: Possessivartikel — du, neutr., Akk.
 correct:
   - dein
 ---
 
-Spielst du ___ Spiel? (Possessivartikel — du, neutr., Akk.)
+Ergänze den Possessivartikel:
+
+Spielst du ___ Spiel?

@@ -10,4 +10,4 @@ words:
   - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner Meinung)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

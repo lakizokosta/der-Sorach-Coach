@@ -10,4 +10,4 @@ words:
   - Sport
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum + Verb trinken)
+Ordne die Wörter zum richtigen Satz: (Präteritum — trank)

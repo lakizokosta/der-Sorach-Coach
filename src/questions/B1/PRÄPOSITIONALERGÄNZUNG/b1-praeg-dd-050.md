@@ -2,13 +2,11 @@
 id: b1-praeg-dd-050
 type: dropbox
 words:
-  - Ich
-  - warte
-  - auf
-  - die
-  - Antwort
-  - der
-  - Personalabteilung
+  - Er
+  - interessiert
+  - sich
+  - für
+  - Politik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — konzentriert auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

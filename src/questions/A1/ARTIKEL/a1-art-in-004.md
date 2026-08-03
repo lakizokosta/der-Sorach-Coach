@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-004
 type: input-text
+hint: Artikel — der Zug, Nom.
 correct:
   - Der
 ---
 
-___ Zug kommt pünktlich. (Artikel — Nom.)
+Ergänze den Artikel:
+
+___ Zug kommt pünktlich.

@@ -2,13 +2,16 @@
 id: b1-kond-dd-020
 type: dropbox
 words:
-  - Sobald
-  - der
-  - Zug
-  - ankommt
-  - fahren
-  - wir
-  - los
+  - Wenn
+  - die
+  - Prüfung
+  - schwer
+  - ist
+  - bleibe
+  - ich
+  - ruhig
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald der Zug ankommt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

@@ -5,4 +5,6 @@ correct:
   - werden
 ---
 
-Wir ___ (werden) wohl bis Freitag warten müssen. (Futur + Verb werden)
+Ergänze die Futurform:
+
+Wir ___ (werden) wohl bis Freitag warten müssen.

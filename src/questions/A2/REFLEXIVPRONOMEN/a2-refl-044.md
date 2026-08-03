@@ -9,4 +9,4 @@ options:
 correct: sehen
 ---
 
-Wir ___ uns jeden Tag. (Reflexiv + Verb gesehen)
+Wir ___ uns jeden Tag. (Reflexiv + Verb sehen)

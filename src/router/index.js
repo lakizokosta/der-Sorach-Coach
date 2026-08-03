@@ -16,6 +16,9 @@ import Trainer from '@/views/Trainer.vue';
 import Premium from '@/views/Premium.vue';
 import Profile from '@/views/Profile.vue';
 import Legal from '@/views/Legal.vue';
+import { usePremium } from '@/composables/usePremium.js';
+import { hasBackend } from '@/utils/api.js';
+import { trainerRequiresPremium } from '@/utils/premiumAccess.js';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -35,6 +38,23 @@ const router = createRouter({
   scrollBehavior() {
     return { top: 0 };
   },
+});
+
+router.beforeEach((to) => {
+  const { isPremium, entitlementsReady } = usePremium();
+
+  if (to.name === 'landing') {
+    if (isPremium.value) return { name: 'premium' };
+    return true;
+  }
+
+  if (to.name === 'trainer' && hasBackend() && entitlementsReady.value) {
+    if (trainerRequiresPremium(to.query) && !isPremium.value) {
+      return { name: 'premium', query: { hub: '1' } };
+    }
+  }
+
+  return true;
 });
 
 export default router;

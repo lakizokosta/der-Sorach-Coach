@@ -2,11 +2,11 @@
 id: b2-konsek-016
 type: select-one
 options:
-  - weil
-  - obwohl
-  - dass
   - damit
-correct: dass
+  - weil
+  - sodass
+  - dass
+correct: sodass
 ---
 
-Die Aufgabe war so schwer, ___ niemand sie lösen konnte. (Konsekutivsatz)
+Das Paket war so schwer, ___ ich Hilfe brauchte. (Konsekutivsatz)

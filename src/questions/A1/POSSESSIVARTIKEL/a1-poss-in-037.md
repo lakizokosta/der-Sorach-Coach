@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-037
 type: input-text
+hint: Possessivartikel — wir, fem., Nom.
 correct:
   - Unsere
 ---
 
-___ Küche ist klein. (Possessivartikel — wir, fem., Nom.)
+Ergänze den Possessivartikel:
+
+___ Küche ist klein.

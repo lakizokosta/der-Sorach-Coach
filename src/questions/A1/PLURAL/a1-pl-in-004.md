@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-004
 type: input-text
+hint: Plural: Buch
 correct:
   - Bücher
 ---
 
-In der Tasche sind drei ___. (Plural)
+Ergänze die Pluralform:
+
+In der Tasche sind drei ___.

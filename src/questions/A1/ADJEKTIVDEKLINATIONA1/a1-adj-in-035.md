@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-035
 type: input-text
+hint: Adjektivdeklination — hoch, mask., Akk.
 correct:
   - hohen
 ---
 
-Ich sehe einen ___ Turm. (Adjektivdeklination — mask., Akk.)
+Ergänze die Adjektivendung:
+
+Ich sehe einen ___ Turm.

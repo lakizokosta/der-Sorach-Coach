@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-022
 type: input-text
+hint: Demonstrativartikel — mask., Akk. / Pl., Dat.
 correct:
   - diesen
 ---
 
-Wir wählen ___ Kandidaten für das Amt. (Demonstrativartikel)
+Ergänze den Demonstrativartikel:
+
+Wir wählen ___ Kandidaten für das Amt.

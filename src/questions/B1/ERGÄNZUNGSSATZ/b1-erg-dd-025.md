@@ -2,13 +2,14 @@
 id: b1-erg-dd-025
 type: dropbox
 words:
-  - Wir
-  - sind
-  - überzeugt
+  - Man
+  - hört
   - dass
-  - das
-  - Projekt
-  - gelingt
+  - die
+  - Preise
+  - steigen
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Projekt gelingt)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

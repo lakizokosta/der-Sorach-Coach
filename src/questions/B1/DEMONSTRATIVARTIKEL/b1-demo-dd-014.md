@@ -9,6 +9,8 @@ words:
   - als
   - die
   - andere
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Diese Vorlesung)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

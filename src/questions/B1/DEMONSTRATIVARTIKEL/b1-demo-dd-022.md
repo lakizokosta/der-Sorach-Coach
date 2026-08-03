@@ -2,13 +2,13 @@
 id: b1-demo-dd-022
 type: dropbox
 words:
-  - Jenes
-  - Hotel
-  - war
-  - deutlich
-  - teurer
-  - als
-  - jenes
+  - Wir
+  - wählen
+  - diesen
+  - Kandidaten
+  - für
+  - das
+  - Amt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Jenes Hotel)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

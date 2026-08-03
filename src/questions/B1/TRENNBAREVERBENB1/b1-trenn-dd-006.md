@@ -10,4 +10,4 @@ words:
   - ab
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb absagen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

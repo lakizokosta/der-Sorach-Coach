@@ -4,10 +4,10 @@
 |---|---|
 | **Topic-Key** | `RELATIVSATZB1` |
 | **Beschreibung** | der, die, das |
-| **Fragen gesamt** | 153 |
+| **Fragen gesamt** | 152 |
 | Auswahl (1 Antwort) | 52 |
 | Eingabe | 50 |
-| Wörter ordnen | 51 |
+| Wörter ordnen | 50 |
 
 > Manuelle Prüfung: Grammatik, Sinn des Satzes, Hinweise, Antworten.
 
@@ -1245,514 +1245,504 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-## Wörter ordnen (51)
+## Wörter ordnen (50)
 
 ### 103. `b1-rel-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — der neben mir sitzt)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Kollege · der · neben · mir · sitzt · ist · neu
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 104. `b1-sort-1` · dropbox
+### 104. `b1-rel-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz:
-
-**Wörter:** Die · Frau, · die · dort · steht, · ist · meine · Tante
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 105. `b1-rel-dd-002` · dropbox
-
-**Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — die ich traf)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Professorin · die · ich · gestern · traf · war · nett
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 106. `b1-rel-dd-003` · dropbox
+### 105. `b1-rel-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — das wir planen)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Das · Projekt · das · wir · planen · ist · ambitioniert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 107. `b1-rel-dd-004` · dropbox
+### 106. `b1-rel-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — den Arzt behandelt)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Patient · den · der · Arzt · behandelt · fühlt · sich · besser
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 108. `b1-rel-dd-005` · dropbox
+### 107. `b1-rel-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — in der ich wohne)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Stadt · in · der · ich · wohne · ist · klein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 109. `b1-rel-dd-006` · dropbox
+### 108. `b1-rel-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — dessen Entscheidung)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Minister · dessen · Entscheidung · umstritten · ist · spricht · heute
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 110. `b1-rel-dd-007` · dropbox
+### 109. `b1-rel-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — die bestanden haben)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Studierende · die · Prüfung · bestanden · haben · feiern · heute
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 111. `b1-rel-dd-008` · dropbox
+### 110. `b1-rel-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — das er braucht)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Das · Medikament · das · er · braucht · ist · teuer
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 112. `b1-rel-dd-009` · dropbox
+### 111. `b1-rel-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — der in Zeitung stand)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
-**Wörter:** Artikel · der · in · Zeitung · stand · war · interessant
+**Wörter:** Der · Artikel · der · in · der · Zeitung · stand · war · interessant
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 113. `b1-rel-dd-010` · dropbox
+### 112. `b1-rel-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — für die er arbeitet)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Firma · für · die · er · arbeitet · wächst · schnell
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 114. `b1-rel-dd-011` · dropbox
+### 113. `b1-rel-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — dem ich vertraue)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Arzt · dem · ich · vertraue · ist · erfahren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 115. `b1-rel-dd-012` · dropbox
+### 114. `b1-rel-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — die wir gebucht haben)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Reise · die · wir · gebucht · haben · beginnt · morgen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 116. `b1-rel-dd-013` · dropbox
+### 115. `b1-rel-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — das verabschiedet wurde)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Das · Gesetz · das · gestern · verabschiedet · wurde · tritt · bald · in · Kraft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 117. `b1-rel-dd-014` · dropbox
+### 116. `b1-rel-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — denen ich danke)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Kollegen · denen · ich · danke · haben · mir · geholfen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 118. `b1-rel-dd-015` · dropbox
+### 117. `b1-rel-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — deren Rede dauerte)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Politiker · dessen · Rede · lange · dauerte · ist · bekannt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 119. `b1-rel-dd-016` · dropbox
+### 118. `b1-rel-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — wo wir arbeiten)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Kollege · der · neben · mir · sitzt · ist · neu
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 120. `b1-rel-dd-017` · dropbox
+### 119. `b1-rel-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — was er sagte)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Professorin · die · ich · gestern · traf · war · nett
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 121. `b1-rel-dd-018` · dropbox
+### 120. `b1-rel-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — der neben mir sitzt)
-
-**Wörter:** Der · Kollege · der · neben · mir · sitzt · ist · neu
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 122. `b1-rel-dd-019` · dropbox
-
-**Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — die ich traf)
-
-**Wörter:** Die · Professorin · die · ich · gestern · traf · war · nett
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 123. `b1-rel-dd-020` · dropbox
-
-**Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — das wir planen)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Das · Projekt · das · wir · planen · ist · ambitioniert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 124. `b1-rel-dd-021` · dropbox
+### 121. `b1-rel-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — den Arzt behandelt)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Patient · den · der · Arzt · behandelt · fühlt · sich · besser
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 125. `b1-rel-dd-022` · dropbox
+### 122. `b1-rel-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — in der ich wohne)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Stadt · in · der · ich · wohne · ist · klein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 126. `b1-rel-dd-023` · dropbox
+### 123. `b1-rel-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — dessen Entscheidung)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Minister · dessen · Entscheidung · umstritten · ist · spricht · heute
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 127. `b1-rel-dd-024` · dropbox
+### 124. `b1-rel-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — die bestanden haben)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Studierende · die · Prüfung · bestanden · haben · feiern · heute
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 128. `b1-rel-dd-025` · dropbox
+### 125. `b1-rel-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — das er braucht)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Das · Medikament · das · er · braucht · ist · teuer
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 129. `b1-rel-dd-026` · dropbox
+### 126. `b1-rel-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — der in Zeitung stand)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
-**Wörter:** Artikel · der · in · Zeitung · stand · war · interessant
+**Wörter:** Der · Artikel · der · in · der · Zeitung · stand · war · interessant
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 130. `b1-rel-dd-027` · dropbox
+### 127. `b1-rel-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — für die er arbeitet)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Firma · für · die · er · arbeitet · wächst · schnell
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 131. `b1-rel-dd-028` · dropbox
+### 128. `b1-rel-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — dem ich vertraue)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Arzt · dem · ich · vertraue · ist · erfahren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 132. `b1-rel-dd-029` · dropbox
+### 129. `b1-rel-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — die wir gebucht haben)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Reise · die · wir · gebucht · haben · beginnt · morgen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 133. `b1-rel-dd-030` · dropbox
+### 130. `b1-rel-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — das verabschiedet wurde)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Das · Gesetz · das · gestern · verabschiedet · wurde · tritt · bald · in · Kraft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 134. `b1-rel-dd-031` · dropbox
+### 131. `b1-rel-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — denen ich danke)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Kollegen · denen · ich · danke · haben · mir · geholfen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 135. `b1-rel-dd-032` · dropbox
+### 132. `b1-rel-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — deren Rede dauerte)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Politiker · dessen · Rede · lange · dauerte · ist · bekannt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 136. `b1-rel-dd-033` · dropbox
+### 133. `b1-rel-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — wo wir arbeiten)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Kollege · der · neben · mir · sitzt · ist · neu
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 137. `b1-rel-dd-034` · dropbox
+### 134. `b1-rel-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — was er sagte)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Professorin · die · ich · gestern · traf · war · nett
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 138. `b1-rel-dd-035` · dropbox
+### 135. `b1-rel-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — der neben mir sitzt)
-
-**Wörter:** Der · Kollege · der · neben · mir · sitzt · ist · neu
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 139. `b1-rel-dd-036` · dropbox
-
-**Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — die ich traf)
-
-**Wörter:** Die · Professorin · die · ich · gestern · traf · war · nett
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 140. `b1-rel-dd-037` · dropbox
-
-**Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — das wir planen)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Das · Projekt · das · wir · planen · ist · ambitioniert
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 141. `b1-rel-dd-038` · dropbox
+### 136. `b1-rel-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — den Arzt behandelt)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Patient · den · der · Arzt · behandelt · fühlt · sich · besser
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 142. `b1-rel-dd-039` · dropbox
+### 137. `b1-rel-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — in der ich wohne)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Stadt · in · der · ich · wohne · ist · klein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 143. `b1-rel-dd-040` · dropbox
+### 138. `b1-rel-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — dessen Entscheidung)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Minister · dessen · Entscheidung · umstritten · ist · spricht · heute
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 144. `b1-rel-dd-041` · dropbox
+### 139. `b1-rel-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — die bestanden haben)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Studierende · die · Prüfung · bestanden · haben · feiern · heute
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 145. `b1-rel-dd-042` · dropbox
+### 140. `b1-rel-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — das er braucht)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Das · Medikament · das · er · braucht · ist · teuer
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 146. `b1-rel-dd-043` · dropbox
+### 141. `b1-rel-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — der in Zeitung stand)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
-**Wörter:** Artikel · der · in · Zeitung · stand · war · interessant
+**Wörter:** Der · Artikel · der · in · der · Zeitung · stand · war · interessant
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 147. `b1-rel-dd-044` · dropbox
+### 142. `b1-rel-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — für die er arbeitet)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Firma · für · die · er · arbeitet · wächst · schnell
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 148. `b1-rel-dd-045` · dropbox
+### 143. `b1-rel-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — dem ich vertraue)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Arzt · dem · ich · vertraue · ist · erfahren
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 149. `b1-rel-dd-046` · dropbox
+### 144. `b1-rel-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — die wir gebucht haben)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Reise · die · wir · gebucht · haben · beginnt · morgen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 150. `b1-rel-dd-047` · dropbox
+### 145. `b1-rel-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — das verabschiedet wurde)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Das · Gesetz · das · gestern · verabschiedet · wurde · tritt · bald · in · Kraft
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 151. `b1-rel-dd-048` · dropbox
+### 146. `b1-rel-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — denen ich danke)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Die · Kollegen · denen · ich · danke · haben · mir · geholfen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 152. `b1-rel-dd-049` · dropbox
+### 147. `b1-rel-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — deren Rede dauerte)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Politiker · dessen · Rede · lange · dauerte · ist · bekannt
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 153. `b1-rel-dd-050` · dropbox
+### 148. `b1-rel-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Relativsatz — wo wir arbeiten)
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
 
 **Wörter:** Der · Kollege · der · neben · mir · sitzt · ist · neu
+
+- [ ] OK
+- [ ] Fehler / Anmerkung:
+
+### 149. `b1-rel-dd-047` · dropbox
+
+**Aufgabe:**
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
+
+**Wörter:** Die · Professorin · die · ich · gestern · traf · war · nett
+
+- [ ] OK
+- [ ] Fehler / Anmerkung:
+
+### 150. `b1-rel-dd-048` · dropbox
+
+**Aufgabe:**
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
+
+**Wörter:** Das · Projekt · das · wir · planen · ist · ambitioniert
+
+- [ ] OK
+- [ ] Fehler / Anmerkung:
+
+### 151. `b1-rel-dd-049` · dropbox
+
+**Aufgabe:**
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
+
+**Wörter:** Der · Patient · den · der · Arzt · behandelt · fühlt · sich · besser
+
+- [ ] OK
+- [ ] Fehler / Anmerkung:
+
+### 152. `b1-rel-dd-050` · dropbox
+
+**Aufgabe:**
+> Ordne die Wörter zum richtigen Satz: (Relativsatz)
+
+**Wörter:** Die · Stadt · in · der · ich · wohne · ist · klein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

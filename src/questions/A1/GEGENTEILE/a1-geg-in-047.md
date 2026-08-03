@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-047
 type: input-text
+hint: Gegenteil von sportlich
 correct:
   - unsportlich
 ---
 
-Sie ist sportlich, ihr Bruder ist ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Sie ist sportlich, ihr Bruder ist ___.

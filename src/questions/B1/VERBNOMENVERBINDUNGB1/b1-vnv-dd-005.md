@@ -12,4 +12,4 @@ words:
   - Frage
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Meinung äußern)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

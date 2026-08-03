@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-005
 type: input-text
+hint: Wechselpräpositionen — Wo?
 correct:
   - auf der
 ---
 
-Wo steht der Bus? — ___ Straße. (Dativ oder Akkusativ — Wo?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Wo steht der Bus? — ___ Straße.

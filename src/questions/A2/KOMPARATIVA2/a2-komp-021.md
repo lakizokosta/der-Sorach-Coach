@@ -9,4 +9,4 @@ options:
 correct: jünger
 ---
 
-Mein Auto ist ___ als deins. (Komparativ — schnell)
+Mein Auto ist ___ als deins. (jung)

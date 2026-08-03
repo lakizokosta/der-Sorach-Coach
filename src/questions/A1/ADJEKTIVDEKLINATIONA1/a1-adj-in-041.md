@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-041
 type: input-text
+hint: Adjektivdeklination — stark, mask., Dat.
 correct:
   - starkem
 ---
 
-Bei ___ Wind ziehe ich eine Jacke an. (Adjektivdeklination — mask., Dat.)
+Ergänze die Adjektivendung:
+
+Bei ___ Wind ziehe ich eine Jacke an.

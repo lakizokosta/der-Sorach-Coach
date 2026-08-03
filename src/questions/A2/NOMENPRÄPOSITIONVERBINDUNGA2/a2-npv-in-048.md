@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-048
 type: input-text
+hint: Nomen-Präp. — Anspruch
 correct:
-  - in
+  - auf
 ---
 
-Er hat Recht ___ der Sache. (Nomen-Präp. — Recht)
+Ergänze die passende Präposition:
+
+Er hat Anspruch ___ eine Belohnung.

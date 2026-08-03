@@ -11,4 +11,4 @@ words:
   - Hause
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Konferenz)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

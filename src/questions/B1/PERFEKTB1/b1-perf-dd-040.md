@@ -2,11 +2,12 @@
 id: b1-perf-dd-040
 type: dropbox
 words:
-  - Er
-  - ist
-  - nach
-  - Berlin
-  - gefahren
+  - Die
+  - Politiker
+  - haben
+  - eine
+  - Einigung
+  - erzielt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

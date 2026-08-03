@@ -1,8 +1,11 @@
 ---
 id: b1-praeg-in-024
 type: input-text
+hint: Verb + Präposition
 correct:
   - nach
 ---
 
-Er fragt ___ dem Weg zum Krankenhaus. (Verb + Präposition)
+Ergänze die Präposition (Verb + Präposition):
+
+Er fragt ___ dem Weg zum Krankenhaus.

@@ -1,8 +1,11 @@
 ---
 id: b2-passv-in-025
 type: input-text
+hint: Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten
 correct:
-  - zusammenfassen
+  - beantworten
 ---
 
-Der Text ist zu lang zu ___ . (Passiversatz)
+Ergänze die Passiv-Ersatzform:
+
+Diese Frage ist nicht zu ___ .

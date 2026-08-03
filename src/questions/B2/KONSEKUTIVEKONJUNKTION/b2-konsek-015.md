@@ -2,11 +2,11 @@
 id: b2-konsek-015
 type: select-one
 options:
-  - weil
-  - dass
-  - wenn
   - damit
-correct: dass
+  - sodass
+  - obwohl
+  - dass
+correct: sodass
 ---
 
-Er war so nervös, ___ er seinen Namen vergaß. (Konsekutivsatz)
+Die Musik war so laut, ___ sich die Nachbarn beschwerten. (Konsekutivsatz)

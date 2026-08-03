@@ -1,8 +1,11 @@
 ---
 id: b1-npv-in-020
 type: input-text
+hint: Nomen + Präposition
 correct:
   - vor
 ---
 
-Er hat Respekt ___ erfahrenen Kollegen. (Nomen + Präposition)
+Ergänze die passende Präposition:
+
+Er hat Respekt ___ erfahrenen Kollegen.

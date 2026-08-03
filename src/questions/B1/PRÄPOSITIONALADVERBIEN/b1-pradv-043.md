@@ -3,10 +3,10 @@ id: b1-pradv-043
 type: select-one
 options:
   - dafür
+  - daran
   - darauf
-  - daran teil
   - damit
-correct: daran teil
+correct: darauf
 ---
 
-Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+Hörst du auf gute Ratschläge? — Ich höre ___. (Pronominaladverb)

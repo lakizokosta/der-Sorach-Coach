@@ -2,13 +2,17 @@
 id: b1-konz-dd-018
 type: dropbox
 words:
-  - Obwohl
-  - Schlafmangel
-  - herrscht
-  - arbeitet
-  - Kollege
-  - sehr
-  - produktiv
+  - Obschon
+  - das
+  - Essen
+  - teuer
+  - war
+  - hat
+  - es
+  - gut
+  - geschmeckt
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig schläft)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

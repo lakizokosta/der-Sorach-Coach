@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Er ___ den ganzen Tag gearbeitet. (Perfekt + Hilfsverb sein)
+Er ___ den ganzen Tag gearbeitet. (Perfekt + Hilfsverb haben)

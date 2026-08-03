@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Sie freut sich ___ die Reise. (Verb + Präposition)
+Sie freut sich ___ die Reise. (Präpositionalergänzung)

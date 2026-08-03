@@ -10,6 +10,8 @@ words:
   - Prüfung
   - zu
   - bestehen
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — um Prüfung bestehen)

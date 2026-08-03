@@ -5,4 +5,6 @@ correct:
   - des
 ---
 
-Anlässlich ___ (das) Jubiläums gab es eine Feier. (Genitivform)
+Ergänze die Genitivform:
+
+Anlässlich ___ (das) Jubiläums gab es eine Feier.

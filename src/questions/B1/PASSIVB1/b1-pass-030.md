@@ -9,4 +9,4 @@ options:
 correct: wurde
 ---
 
-Der Vertrag ___ gestern unterzeichnet. (Passiv + Verb unterzeichneen)
+Der Vertrag ___ gestern unterzeichnet. (Passiv + Hilfsverb werden)

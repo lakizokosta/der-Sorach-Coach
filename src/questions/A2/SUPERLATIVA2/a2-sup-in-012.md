@@ -1,8 +1,11 @@
 ---
 id: a2-sup-in-012
 type: input-text
+hint: Superlativ — laut
 correct:
   - lautesten
 ---
 
-Sie singt am ___. (Superlativ — laut)
+Ergänze die Superlativform:
+
+Sie singt am ___.

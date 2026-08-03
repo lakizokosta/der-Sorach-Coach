@@ -8,6 +8,8 @@ words:
   - bist
   - beginnen
   - wir
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn du pünktlich bist)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

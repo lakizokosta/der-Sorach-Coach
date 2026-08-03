@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-030
 type: input-text
+hint: Wechselpräpositionen — Wo?
 correct:
   - bei der
 ---
 
-Wo arbeitest du? — ___ Arbeit. (Dativ oder Akkusativ — Wo?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Wo arbeitest du? — ___ Arbeit.

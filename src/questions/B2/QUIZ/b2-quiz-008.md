@@ -2,11 +2,11 @@
 id: b2-quiz-008
 type: select-one
 options:
-  - war
-  - wäre
-  - bin
-  - werde
-correct: wäre
+  - weiß
+  - wüsste
+  - gewusst
+  - wissen
+correct: wüsste
 ---
 
-Ich ___ gern früher kommen, aber der Zug hatte Verspätung. (Grammatikform)
+Sie tut so, als ___ sie nichts davon.

@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-037
 type: input-text
+hint: Präsens + Verb putzen
 correct:
   - putzt
 ---
 
-Er ___ das Zimmer. (Präsens + Verb putzen)
+Ergänze die Präsensform des Verbs:
+
+Er ___ das Zimmer.

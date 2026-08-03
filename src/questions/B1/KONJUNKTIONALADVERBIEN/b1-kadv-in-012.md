@@ -1,8 +1,11 @@
 ---
 id: b1-kadv-in-012
 type: input-text
+hint: Konjunktionaladverb — Außerdem / Denn / Dennoch / Deshalb
 correct:
   - Dennoch
 ---
 
-Das Essen war teuer. ___, war die Qualität hoch. (Konjunktionaladverb)
+Ergänze das Konjunktionaladverb:
+
+Das Essen war teuer. ___, war die Qualität hoch.

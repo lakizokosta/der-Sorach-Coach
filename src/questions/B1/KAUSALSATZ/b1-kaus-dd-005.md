@@ -7,8 +7,11 @@ words:
   - Nachfrage
   - steigt
   - werden
+  - auch
   - Preise
   - höher
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Nachfrage steigt)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — da)

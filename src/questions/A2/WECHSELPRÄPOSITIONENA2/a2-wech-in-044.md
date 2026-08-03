@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-044
 type: input-text
+hint: Wechselpräpositionen — Wohin?
 correct:
   - an die
 ---
 
-Wohin hängst du das Bild? — ___ Wand. (Dativ oder Akkusativ — Wohin?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Wohin hängst du das Bild? — ___ Wand.

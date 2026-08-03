@@ -10,7 +10,7 @@ import { computed, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
-import { usePremium } from '@/composables/usePremium.js';
+import { usePremium, signOutUser } from '@/composables/usePremium.js';
 import { useXp, isTopicMastered } from '@/composables/useXp.js';
 import { useStreak } from '@/composables/useStreak.js';
 import DailyGoalCard from '@/components/DailyGoalCard.vue';
@@ -21,14 +21,24 @@ import { shareProgressCard } from '@/utils/shareCard.js';
 import { useCefrLevel } from '@/composables/useCefrLevel.js';
 import { useNickname } from '@/composables/useNickname.js';
 import { SHARE_FORMAT } from '@/utils/shareCard.js';
+import { placementBreakdown } from '@/utils/placementTest.js';
+import { useI18n } from '@/i18n/index.js';
 
 const router = useRouter();
+const { t } = useI18n();
 const { isPremium } = usePremium();
-const { isLoggedIn } = useAuth();
+const { state: auth, isLoggedIn } = useAuth();
 const { state: xp, level: liveLevel } = useXp();
 const { state: streak, medalsFor } = useStreak();
 const activeDaysCount = computed(() => (streak.activeDays || []).length);
-const { level: cefrLevel } = useCefrLevel();
+const { level: cefrLevel, state: cefrState } = useCefrLevel();
+const placementRows = computed(() =>
+  cefrLevel.value ? placementBreakdown(cefrState.scores) : [],
+);
+const placementScorePct = computed(() => {
+  if (!cefrState.totalAnswered) return 0;
+  return Math.round((cefrState.totalCorrect / cefrState.totalAnswered) * 100);
+});
 const { state: nicknameState, displayName, setNickname } = useNickname();
 const shareFormat = ref(SHARE_FORMAT.POST);
 
@@ -51,9 +61,15 @@ function shareCard() {
     streak,
     isMastered: isTopicMastered,
     cefrLevel: cefrLevel.value || '',
+    placementBreakdown: placementRows.value,
     nickname: displayName.value,
     format: shareFormat.value,
   });
+}
+
+async function signOut() {
+  await signOutUser();
+  window.location.assign(router.resolve({ name: 'landing' }).href);
 }
 </script>
 
@@ -69,11 +85,20 @@ function shareCard() {
         </div>
 
         <div
-          v-if="!isLoggedIn"
+          v-if="isLoggedIn"
+          class="profile-account"
+        >
+          <span class="profile-account__email">👤 {{ auth.email }}</span>
+          <button type="button" class="profile-account__signout" @click="signOut">
+            {{ t('common.signOut') }}
+          </button>
+        </div>
+        <div
+          v-else
           class="profile-free__login-hint"
         >
           📱 <router-link :to="{ name: 'landing' }">Auf der Startseite einloggen</router-link>,
-          um Fortschritt auf allen Geräten zu speichern.
+          um Fortschritt auf bis zu 2 Geräten zu speichern.
         </div>
 
         <!-- XP + Level -->
@@ -146,7 +171,7 @@ function shareCard() {
           <button
             type="button"
             class="profile-free__upsell-btn"
-            @click="router.push({ name: 'premium' })"
+            @click="router.push({ name: 'premium', query: { hub: '1' } })"
           >
             Premium freischalten
           </button>
@@ -164,41 +189,28 @@ function shareCard() {
     </section>
 
     <section v-else class="section">
-      <div class="card premium-card">
-        <div style="text-align: center; margin-bottom: 16px;">
-          <div style="font-size: 18px; font-weight: 900; color: #AB4DBB;">🏅 Mein Profil</div>
-        </div>
+      <div class="card premium-card profile-premium">
+        <header class="profile-premium__head">
+          <h1 class="profile-premium__title">🏅 Mein Profil</h1>
+          <div v-if="isLoggedIn" class="profile-account profile-account--premium">
+            <span class="profile-account__email">👤 {{ auth.email }}</span>
+            <button type="button" class="profile-account__signout" @click="signOut">
+              {{ t('common.signOut') }}
+            </button>
+          </div>
+        </header>
 
         <!-- XP + Level -->
-        <div
-          style="
-            background: linear-gradient(135deg, #f5f0ff, #fff);
-            border-radius: 16px;
-            padding: 20px;
-            margin-bottom: 16px;
-            border: 1px solid rgba(171, 77, 187, 0.2);
-          "
-        >
-          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 14px;">
+        <div class="profile-block profile-block--xp">
+          <div class="profile-xp-row">
             <div
-              style="
-                width: 52px;
-                height: 52px;
-                border-radius: 50%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 16px;
-                font-weight: 900;
-                color: #fff;
-                flex-shrink: 0;
-              "
+              class="profile-xp-badge"
               :style="{ background: liveLevel.color }"
             >
               Lv{{ liveLevel.num }}
             </div>
-            <div style="flex: 1; text-align: left;">
-              <div style="font-size: 18px; font-weight: 900;">{{ liveLevel.name }}</div>
+            <div class="profile-xp-text">
+              <div class="profile-xp-name">{{ liveLevel.name }}</div>
               <div class="small-note">
                 ⭐ {{ xp.totalXP }} XP
                 <template v-if="liveLevel.next">
@@ -210,17 +222,9 @@ function shareCard() {
               </div>
             </div>
           </div>
-          <div
-            style="
-              background: #ecdff8;
-              border-radius: 8px;
-              height: 12px;
-              overflow: hidden;
-              margin-bottom: 6px;
-            "
-          >
+          <div class="profile-xp-bar-track">
             <div
-              style="height: 12px; border-radius: 8px; transition: width 0.8s;"
+              class="profile-xp-bar-fill"
               :style="{
                 width: `${xpPct}%`,
                 background: `linear-gradient(90deg, ${liveLevel.color}, #AB4DBB)`,
@@ -230,43 +234,49 @@ function shareCard() {
         </div>
 
         <!-- Streak -->
-        <div
-          style="
-            background: #fff9f0;
-            border-radius: 16px;
-            padding: 16px;
-            margin-bottom: 16px;
-            border: 1px solid #ffcc80;
-          "
-        >
-          <div
-            style="font-size: 14px; font-weight: 900; color: #e65100; margin-bottom: 12px;"
-          >
-            🔥 Streak
-          </div>
-          <div style="display: flex; justify-content: space-around; text-align: center;">
+        <div class="profile-block profile-block--streak">
+          <div class="profile-block__title">🔥 Streak</div>
+          <div class="profile-streak-grid">
             <div>
-              <div style="font-size: 28px; font-weight: 900;">
-                {{ streak.currentStreak }}
-              </div>
-              <div class="small-note" style="text-transform: uppercase;">Aktuell</div>
+              <div class="profile-streak-grid__num">{{ streak.currentStreak }}</div>
+              <div class="profile-streak-grid__label">Aktuell</div>
             </div>
             <div>
-              <div style="font-size: 28px; font-weight: 900;">
-                {{ streak.longestStreak }}
-              </div>
-              <div class="small-note" style="text-transform: uppercase;">Rekord 🏆</div>
+              <div class="profile-streak-grid__num">{{ streak.longestStreak }}</div>
+              <div class="profile-streak-grid__label">Rekord 🏆</div>
             </div>
             <div>
-              <div style="font-size: 28px; font-weight: 900; color: #69c43b;">
+              <div class="profile-streak-grid__num profile-streak-grid__num--green">
                 {{ streak.freezes }}
               </div>
-              <div class="small-note" style="text-transform: uppercase;">Freezes</div>
+              <div class="profile-streak-grid__label">Freezes</div>
             </div>
           </div>
-          <div style="margin-top: 10px; text-align: center;" class="small-note">
+          <p class="profile-streak-medals small-note">
             🏅 {{ medalsFor(streak.longestStreak) }}
+          </p>
+        </div>
+
+        <div v-if="cefrLevel" class="profile-block profile-block--placement">
+          <div class="profile-block__title profile-block__title--placement">
+            📊 Einstufungtest · {{ cefrLevel }}
           </div>
+          <ul class="profile-placement-rows">
+            <li
+              v-for="row in placementRows"
+              :key="row.level"
+              class="profile-placement-rows__row"
+              :class="{ 'profile-placement-rows__row--active': row.level === cefrLevel }"
+            >
+              <span class="profile-placement-rows__level">{{ row.level }}</span>
+              <span class="profile-placement-rows__score">
+                {{ row.correct }}/{{ row.total }} ({{ row.pct }}%)
+              </span>
+            </li>
+          </ul>
+          <p v-if="placementScorePct" class="profile-placement-summary small-note">
+            {{ placementScorePct }}% richtig gesamt
+          </p>
         </div>
 
         <label class="profile-nickname">
@@ -291,6 +301,7 @@ function shareCard() {
           :streak="streak"
           :is-mastered="isTopicMastered"
           :cefr-level="cefrLevel || ''"
+          :placement-breakdown="placementRows"
           :nickname="displayName"
         />
 

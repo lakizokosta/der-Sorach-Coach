@@ -2,14 +2,14 @@
 id: b1-kadv-dd-028
 type: dropbox
 words:
-  - Die
-  - Politik
-  - ändert
-  - sich
-  - Deshalb
-  - reagieren
-  - die
-  - Bürger
+  - Er
+  - spart
+  - Energie
+  - deshalb
+  - senkt
+  - er
+  - seine
+  - Kosten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb reagieren)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

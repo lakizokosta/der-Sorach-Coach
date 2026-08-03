@@ -11,4 +11,4 @@ words:
   - Bahnhof
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition — gegenüber)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)

@@ -1,9 +1,11 @@
 ---
 id: a1-wf-in-041
 type: input-text
+hint: Frage nach Raum
 correct:
   - Welches
 ---
 
-___ Zimmer ist das? — Das Schlafzimmer. (Frage nach Raum)
+Ergänze das Fragewort:
 
+___ Zimmer ist das? — Das Schlafzimmer.

@@ -10,4 +10,4 @@ words:
   - Bereich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Anteil am)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

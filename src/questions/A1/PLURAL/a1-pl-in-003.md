@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-003
 type: input-text
+hint: Plural: Frau
 correct:
   - Frauen
 ---
 
-In der Firma arbeiten zehn ___. (Plural)
+Ergänze die Pluralform:
+
+In der Firma arbeiten zehn ___.

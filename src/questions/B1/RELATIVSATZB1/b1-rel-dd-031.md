@@ -2,14 +2,17 @@
 id: b1-rel-dd-031
 type: dropbox
 words:
-  - Die
-  - Kollegen
-  - denen
-  - ich
-  - danke
-  - haben
+  - Der
+  - Kollege
+  - der
+  - neben
   - mir
-  - geholfen
+  - sitzt
+  - ist
+  - neu
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — denen ich danke)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

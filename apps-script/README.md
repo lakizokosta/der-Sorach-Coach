@@ -10,7 +10,10 @@
 | `POST {requestTrial, email}` from the SPA | One-shot 24-hour trial code, e-mailed to the buyer. |
 | `POST {contactForm, …}` from the SPA | Forwarded to `SUPPORT_EMAIL`. |
 | `GET ?action=validateCode&code=…` | Server-side code check, returns a 2-hour session token. |
-| `GET ?action=validateMagicToken&token=…` | Consumes a magic-link token, returns a 7-day session. |
+| `GET ?action=validateMagicToken&token=…` | Consumes a magic-link token, returns a 365-day sliding session. |
+| `GET ?action=monitorNotify&secret=…&level=…&deployDate=…&message=…` | **CI monitor alert** — e-mail to `SUPPORT_EMAIL`, dedup 1× per deploy cycle. |
+| `POST {action:refreshMagicSession, email, sessionToken}` | Extends session expiry (+365 days from now) and returns fresh Premium status. Called on every SPA load. |
+| *(device limit)* | **Max 2 devices per e-mail** (`MAX_DEVICES_PER_EMAIL`); re-login on a registered device is allowed; expired sessions free a slot. |
 
 Every outgoing e-mail uses the script owner's Gmail (free tier limit: **100 e-mails / day**; Workspace: 1,500 / day).
 
@@ -127,10 +130,54 @@ In the Apps Script editor:
 
 ## 7. Updating the backend
 
-1. Edit `apps-script/Code.gs` in this repo.
-2. Paste the changes into the Apps Script editor.
-3. **Deploy → Manage deployments → ⚙ Edit → New version → Deploy**.  
-   The `/exec` URL stays the same, so the SPA does not need to be rebuilt.
+> **OAuth stability:** periodic 403 outages are usually caused by expired OAuth tokens or scope drift. See [06-backend-outage-investigation.md](../docs/system-analysis/06-backend-outage-investigation.md).
+
+### Pre-deploy checklist
+
+```bash
+npm run ops:verify-manifest   # scopes + webapp access must match repo
+```
+
+1. Edit `apps-script/Code.gs` **and** `apps-script/appsscript.json` in this repo.
+2. Paste **both files** into the Apps Script editor (script.google.com):
+   - `Code.gs` → main editor
+   - `appsscript.json` → ⚙ Project Settings → **Show appsscript.json** → paste manifest
+3. Deploy while logged in as **lakizo.kosta@gmail.com** only.
+4. **Deploy → Manage deployments → ⚙ Edit → New version → Deploy** → re-authorise scopes if prompted.
+5. Update `docs/ops/gas-deploy-log.json`:
+
+   ```json
+   { "lastDeployAt": "YYYY-MM-DD", "oauthMode": "production", "deployedBy": "lakizo.kosta@gmail.com" }
+   ```
+
+6. Smoke test:
+
+   ```bash
+   node scripts/check-backend-url.mjs
+   npm run backend:monitor
+   npm run ops:monitor:verify
+   WEBHOOK_SECRET=… npm run ops:monitor:test-email   # after GitHub secret configured
+   ```
+
+The `/exec` URL stays the same — SPA rebuild is **not** required unless `SCRIPT_URL` changed.
+
+### Monitor e-mail (production)
+
+GitHub Actions send proactive redeploy reminders (~24h before OAuth expiry). Full rollout: [docs/runbooks/gas-monitoring.md](../docs/runbooks/gas-monitoring.md).
+
+| GitHub Secret | Required | Value |
+| --- | --- | --- |
+| `WEBHOOK_SECRET` | **Yes** | Same as `WEBHOOK_SECRET` in `Code.gs` |
+| `NOTIFY_EMAIL_TO` | No | Defaults to `SUPPORT_EMAIL` in Code.gs |
+| `RESEND_API_KEY` | No | Fallback when GAS returns 403 |
+
+### OAuth consent (GCP Console)
+
+If the backend fails with HTTP 403 every ~7 days:
+
+1. Google Cloud Console → **OAuth consent screen** → set **Publishing status = In production**
+2. Add Privacy Policy URL (e.g. `https://lernziel-deutsch.de/legal`)
+3. Redeploy Web App and complete the consent dialog once
 
 ---
 

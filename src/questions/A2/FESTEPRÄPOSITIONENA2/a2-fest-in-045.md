@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-045
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
-  - dem
+  - mit
 ---
 
-Wir sprechen mit ___ Chef. (feste Präposition)
+Ergänze die feste Präposition:
+
+Wir sprechen ___ dem Chef.

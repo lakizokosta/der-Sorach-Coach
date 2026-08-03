@@ -15,6 +15,7 @@ import { BANK as A2_BANK } from './a2-dropbox-data.mjs';
 import * as D1 from './a1-dropbox-data.mjs';
 import * as D2 from './a1-dropbox-data-2.mjs';
 import * as D3 from './a1-dropbox-data-3.mjs';
+import { resolveDropboxCommas } from '../src/utils/dropboxCommas.js';
 import { md as b2md, assertUnique as b2assert } from './b2-dropbox-shared.mjs';
 import { BANK as B2_BANK } from './b2-dropbox-data.mjs';
 
@@ -43,7 +44,6 @@ const B1_TOPICS = {
   PRÄPOSITIONENB1: 'b1-praep-dd',
   RELATIVSATZB1: 'b1-rel-dd',
   TRENNBAREVERBENB1: 'b1-trenn-dd',
-  VERBPRÄPOSITIONVERBINDUNG: 'b1-vpv-dd',
   VERNEINUNG: 'b1-neg-dd',
   VERBNOMENVERBINDUNGB1: 'b1-vnv-dd',
   VERBLASSEN: 'b1-lass-dd',
@@ -90,9 +90,16 @@ const A1_TOPICS = {
 
 const DROPBOX_KEEP_THEME = new Set(['Transport', 'Reisen', 'Stadt', 'Sport', 'Wetter']);
 
-function a1md(id, prompt, words) {
+function a1md(id, prompt, words, hint = '') {
   const lines = words.map((w) => `  - ${w}`).join('\n');
-  return `---\nid: ${id}\ntype: dropbox\nwords:\n${lines}\n---\n\n${prompt}\n`;
+  const resolvedCommas = resolveDropboxCommas({
+    words,
+    hint: hint || String(prompt || '').match(/\(([^)]+)\)\s*$/)?.[1] || '',
+  });
+  const commaBlock = resolvedCommas.length
+    ? `\ncommas:\n${resolvedCommas.map((c) => `  - ${c}`).join('\n')}`
+    : '';
+  return `---\nid: ${id}\ntype: dropbox\nwords:\n${lines}${commaBlock}\n---\n\n${prompt}\n`;
 }
 
 function restoreLevel(level, topics, bank, mdFn, assertFn, extra = {}) {
@@ -121,13 +128,16 @@ function restoreLevel(level, topics, bank, mdFn, assertFn, extra = {}) {
       if (level === 'A1') {
         const theme = DROPBOX_KEEP_THEME.has(item.theme) ? `[${item.theme}] ` : '';
         prompt = `${theme}Ordne die Wörter zum richtigen Satz: (${item.hint})`;
-        writeFileSync(path, a1md(`${pre}-${num}`, prompt, item.words), 'utf8');
+        writeFileSync(path, a1md(`${pre}-${num}`, prompt, item.words, item.hint), 'utf8');
       } else if (level === 'B2') {
         prompt = `Ordne die Wörter zum richtigen Satz: (${item.hint})`;
         writeFileSync(path, mdFn(`${pre}-${num}`, prompt, item.words, item.codes), 'utf8');
+      } else if (level === 'B1') {
+        prompt = `Ordne die Wörter zum richtigen Satz: (${item.hint})`;
+        writeFileSync(path, mdFn(`${pre}-${num}`, prompt, item.words, item.alternatives, item.commas, item.hint), 'utf8');
       } else {
         prompt = `Ordne die Wörter zum richtigen Satz: (${item.hint})`;
-        writeFileSync(path, mdFn(`${pre}-${num}`, prompt, item.words), 'utf8');
+        writeFileSync(path, mdFn(`${pre}-${num}`, prompt, item.words, item.hint), 'utf8');
       }
       total += 1;
     }
@@ -167,13 +177,16 @@ for (const [folder, { prefix, bank }] of Object.entries(A1_TOPICS)) {
     }
     const theme = DROPBOX_KEEP_THEME.has(item.theme) ? `[${item.theme}] ` : '';
     const prompt = `${theme}Ordne die Wörter zum richtigen Satz: (${item.hint})`;
-    writeFileSync(path, a1md(`${prefix}-${num}`, prompt, item.words), 'utf8');
+    writeFileSync(path, a1md(`${prefix}-${num}`, prompt, item.words, item.hint), 'utf8');
     grand += 1;
   }
   console.log(`A1/${folder}: restored`);
 }
 
-const b2 = restoreLevel('B2', { TEKAMOLO: 'b2-tkml-dd' }, B2_BANK, b2md, b2assert);
+const b2 = restoreLevel('B2', {
+  TEKAMOLO: 'b2-tkml-dd',
+  'AKKUSATIV&DATIVOBJEKT': 'b2-obj-dd',
+}, B2_BANK, b2md, b2assert);
 grand += b2.total;
 allErrors.push(...b2.errors);
 

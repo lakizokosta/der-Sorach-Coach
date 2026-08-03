@@ -9,4 +9,4 @@ words:
   - Zukunft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere Zukunft)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

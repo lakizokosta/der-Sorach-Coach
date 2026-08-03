@@ -2,12 +2,15 @@
 id: b1-demo-dd-044
 type: dropbox
 words:
-  - Dieses
-  - Reiseziel
-  - empfehle
-  - ich
-  - dir
-  - besonders
+  - Diese
+  - Vorlesung
+  - war
+  - interessanter
+  - als
+  - die
+  - andere
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Reiseziel)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

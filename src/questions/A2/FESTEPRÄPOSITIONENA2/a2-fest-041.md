@@ -2,11 +2,11 @@
 id: a2-fest-041
 type: select-one
 options:
-  - der
-  - das
-  - die
-  - dem
-correct: dem
+  - in
+  - von
+  - für
+  - über
+correct: über
 ---
 
-Wir sprechen mit ___ Chef. (feste Präposition)
+Wir diskutieren ___ das Problem. (Feste Präposition)

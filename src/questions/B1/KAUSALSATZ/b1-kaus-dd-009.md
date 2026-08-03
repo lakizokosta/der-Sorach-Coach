@@ -8,8 +8,11 @@ words:
   - schlecht
   - ist
   - fällt
+  - unser
   - Fest
   - aus
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Wetter schlecht)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

@@ -2,13 +2,15 @@
 id: b1-rel-dd-009
 type: dropbox
 words:
-  - Artikel
+  - Der Artikel
   - der
-  - in
-  - Zeitung
+  - in der Zeitung
   - stand
   - war
   - interessant
+commas:
+  - 0
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — der in Zeitung stand)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

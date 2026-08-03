@@ -1,8 +1,11 @@
 ---
 id: b1-npv-in-048
 type: input-text
+hint: Nomen + Präposition
 correct:
   - auf
 ---
 
-Wir haben Hoffnung ___ bessere Arbeitsbedingungen. (Nomen + Präposition)
+Ergänze die passende Präposition:
+
+Wir haben Hoffnung ___ bessere Arbeitsbedingungen.

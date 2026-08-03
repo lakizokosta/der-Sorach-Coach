@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-019
 type: input-text
+hint: Passiv + Verb sein
 correct:
   - ist
 ---
 
-Die Entscheidung ___ bereits getroffen worden. (Passiv + Verb sein)
+Ergänze die Passivform:
+
+Die Entscheidung ___ bereits getroffen worden.

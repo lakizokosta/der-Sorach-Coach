@@ -12,6 +12,8 @@ words:
   - nicht
   - zu
   - verpassen
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — um Zug verpassen)

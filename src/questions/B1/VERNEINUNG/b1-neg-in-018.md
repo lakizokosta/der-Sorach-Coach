@@ -1,8 +1,11 @@
 ---
 id: b1-neg-in-018
 type: input-text
+hint: Verneinung — kein / keine / nicht / nichts
 correct:
   - kein
 ---
 
-Wir haben ___ Interesse an dem Angebot. (Verneinung)
+Ergänze die Verneinung:
+
+Wir haben ___ Interesse an dem Angebot.

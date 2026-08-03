@@ -2,14 +2,15 @@
 id: b1-kaus-dd-038
 type: dropbox
 words:
-  - Ich
-  - bin
-  - müde
+  - Er
+  - ist
+  - gestresst
   - denn
-  - ich
-  - habe
-  - wenig
-  - geschlafen
+  - er
+  - hat
+  - viel
+  - zu
+  - tun
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn wenig geschlafen)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

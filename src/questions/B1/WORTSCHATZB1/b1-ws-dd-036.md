@@ -2,14 +2,14 @@
 id: b1-ws-dd-036
 type: dropbox
 words:
-  - Die
-  - Sicherheit
-  - der
-  - Arbeitsplätze
-  - ist
-  - ein
-  - wichtiges
-  - Thema
+  - Er
+  - hat
+  - eine
+  - Unterkunft
+  - für
+  - nächsten
+  - Monat
+  - gebucht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Sicherheit)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

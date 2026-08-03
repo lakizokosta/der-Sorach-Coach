@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-040
 type: input-text
+hint: Dativ — ich, Dat.
 correct:
   - mir
 ---
 
-Mein Chef gibt ___ eine Aufgabe. (Dativ — Dat.)
+Ergänze die Dativform:
+
+Mein Chef gibt ___ eine Aufgabe.

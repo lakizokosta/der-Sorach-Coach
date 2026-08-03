@@ -1,8 +1,11 @@
 ---
 id: b1-adj-in-013
 type: input-text
+hint: Adjektivdeklination — ruhig, fem., Dat.
 correct:
   - ruhigen
 ---
 
-In einer ___ Gegend der Stadt wohnt die Familie. (Adj. — ruhig, fem., Dat.)
+Ergänze die Adjektivendung:
+
+In einer ___ Gegend der Stadt wohnt die Familie.

@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-013
 type: input-text
+hint: Possessivartikel — sie, neutr., Dat.
 correct:
   - ihrem
 ---
 
-Sie fährt mit ___ Auto. (Possessivartikel — sie, neutr., Dat.)
+Ergänze den Possessivartikel:
+
+Sie fährt mit ___ Auto.

@@ -2,11 +2,11 @@
 id: a2-fest-047
 type: select-one
 options:
-  - seinen
-  - seine
-  - seinem
-  - sein
-correct: seine
+  - mit
+  - für
+  - über
+  - in
+correct: für
 ---
 
-Er denkt an ___ Familie. (feste Präposition)
+Ich danke ___ die Hilfe. (Feste Präposition)

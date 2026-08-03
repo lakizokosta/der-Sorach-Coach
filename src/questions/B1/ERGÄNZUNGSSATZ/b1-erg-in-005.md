@@ -1,8 +1,11 @@
 ---
 id: b1-erg-in-005
 type: input-text
+hint: Ergänzungssatz
 correct:
   - dass
 ---
 
-Der Arzt meint, ___ du mehr schlafen solltest. (Ergänzungssatz)
+Ergänze die Konjunktion (Ergänzung):
+
+Der Arzt meint, ___ du mehr schlafen solltest.

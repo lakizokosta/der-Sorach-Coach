@@ -88,7 +88,7 @@
 ### 6. `a1-wf-006` · select-one
 
 **Aufgabe:**
-> ___ wohnst du? — In München. (Frage nach Tätigkeit)
+> ___ wohnst du? — In München. (Fragewort)
 
 **Optionen:**
 - Wann
@@ -102,7 +102,7 @@
 ### 7. `a1-wf-007` · select-one
 
 **Aufgabe:**
-> ___ kommst du? — Aus Polen. (Frage nach Person)
+> ___ kommst du? — Aus Polen. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -116,7 +116,7 @@
 ### 8. `a1-wf-008` · select-one
 
 **Aufgabe:**
-> ___ fährst du? — Nach Hamburg. (Frage nach Grund)
+> ___ fährst du? — Nach Hamburg. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -130,7 +130,7 @@
 ### 9. `a1-wf-009` · select-one
 
 **Aufgabe:**
-> ___ beginnt der Kurs? — Um 9 Uhr. (Frage nach Preis)
+> ___ beginnt der Kurs? — Um 9 Uhr. (Fragewort)
 
 **Optionen:**
 - Was
@@ -144,7 +144,7 @@
 ### 10. `a1-wf-010` · select-one
 
 **Aufgabe:**
-> ___ heißt du? — Anna. (Frage nach Zustand)
+> ___ heißt du? — Anna. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -158,7 +158,7 @@
 ### 11. `a1-wf-011` · select-one
 
 **Aufgabe:**
-> ___ machst du heute? — Sport. (Frage nach Ort)
+> ___ machst du heute? — Sport. (Fragewort)
 
 **Optionen:**
 - Wann
@@ -172,7 +172,7 @@
 ### 12. `a1-wf-012` · select-one
 
 **Aufgabe:**
-> ___ ist das? — Mein Bruder. (Frage nach Essen)
+> ___ ist das? — Mein Bruder. (Fragewort)
 
 **Optionen:**
 - Wie
@@ -186,7 +186,7 @@
 ### 13. `a1-wf-013` · select-one
 
 **Aufgabe:**
-> ___ lernst du Deutsch? — Für die Arbeit. (Frage nach Zeit)
+> ___ lernst du Deutsch? — Für die Arbeit. (Fragewort)
 
 **Optionen:**
 - Was
@@ -200,7 +200,7 @@
 ### 14. `a1-wf-014` · select-one
 
 **Aufgabe:**
-> ___ kostet das Brot? — 2 Euro. (Frage nach Art und Weise)
+> ___ kostet das Brot? — 2 Euro. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -214,7 +214,7 @@
 ### 15. `a1-wf-015` · select-one
 
 **Aufgabe:**
-> ___ ist das Wetter? — Schön und warm. (Frage nach Sache)
+> ___ ist das Wetter? — Schön und warm. (Fragewort)
 
 **Optionen:**
 - Wann
@@ -228,7 +228,7 @@
 ### 16. `a1-wf-016` · select-one
 
 **Aufgabe:**
-> ___ ist der Bahnhof? — Dort drüben. (Frage nach Ort)
+> ___ ist der Bahnhof? — Dort drüben. (Fragewort)
 
 **Optionen:**
 - Woher
@@ -242,7 +242,7 @@
 ### 17. `a1-wf-017` · select-one
 
 **Aufgabe:**
-> ___ isst du gern? — Pizza. (Frage nach Person)
+> ___ isst du gern? — Pizza. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -256,7 +256,7 @@
 ### 18. `a1-wf-018` · select-one
 
 **Aufgabe:**
-> ___ kommst du? — Um 18 Uhr. (Frage nach Ort)
+> ___ kommst du? — Um 18 Uhr. (Fragewort)
 
 **Optionen:**
 - Wer
@@ -270,7 +270,7 @@
 ### 19. `a1-wf-019` · select-one
 
 **Aufgabe:**
-> ___ kommst du zur Schule? — Mit dem Bus. (Frage nach Ort)
+> ___ kommst du zur Schule? — Mit dem Bus. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -284,7 +284,7 @@
 ### 20. `a1-wf-020` · select-one
 
 **Aufgabe:**
-> ___ ist dein Hobby? — Musik. (Frage nach Zeit)
+> ___ ist dein Hobby? — Musik. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -298,7 +298,7 @@
 ### 21. `a1-wf-021` · select-one
 
 **Aufgabe:**
-> ___ wohnst du? — In München. (Frage nach Ort)
+> ___ wohnst du? — In München. (Fragewort)
 
 **Optionen:**
 - Woher
@@ -312,7 +312,7 @@
 ### 22. `a1-wf-022` · select-one
 
 **Aufgabe:**
-> ___ kommst du? — Aus Polen. (Frage nach Getränk)
+> ___ kommst du? — Aus Polen. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -326,7 +326,7 @@
 ### 23. `a1-wf-023` · select-one
 
 **Aufgabe:**
-> ___ fährst du? — Nach Hamburg. (Frage nach Zeit)
+> ___ fährst du? — Nach Hamburg. (Fragewort)
 
 **Optionen:**
 - Woher
@@ -340,7 +340,7 @@
 ### 24. `a1-wf-024` · select-one
 
 **Aufgabe:**
-> ___ beginnt der Kurs? — Um 9 Uhr. (Frage nach Körperteil)
+> ___ beginnt der Kurs? — Um 9 Uhr. (Fragewort)
 
 **Optionen:**
 - Was
@@ -354,7 +354,7 @@
 ### 25. `a1-wf-025` · select-one
 
 **Aufgabe:**
-> ___ heißt du? — Anna. (Frage nach Sache)
+> ___ heißt du? — Anna. (Fragewort)
 
 **Optionen:**
 - Was
@@ -368,7 +368,7 @@
 ### 26. `a1-wf-026` · select-one
 
 **Aufgabe:**
-> ___ machst du heute? — Sport. (Frage nach Fach)
+> ___ machst du heute? — Sport. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -382,7 +382,7 @@
 ### 27. `a1-wf-027` · select-one
 
 **Aufgabe:**
-> ___ ist das? — Mein Bruder. (Frage nach Herkunft des Kennenlernens)
+> ___ ist das? — Mein Bruder. (Fragewort)
 
 **Optionen:**
 - Wie
@@ -396,7 +396,7 @@
 ### 28. `a1-wf-028` · select-one
 
 **Aufgabe:**
-> ___ lernst du Deutsch? — Für die Arbeit. (Frage nach Ziel)
+> ___ lernst du Deutsch? — Für die Arbeit. (Fragewort)
 
 **Optionen:**
 - Wann
@@ -410,7 +410,7 @@
 ### 29. `a1-wf-029` · select-one
 
 **Aufgabe:**
-> ___ kostet das Brot? — 2 Euro. (Frage nach Häufigkeit)
+> ___ kostet das Brot? — 2 Euro. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -424,7 +424,7 @@
 ### 30. `a1-wf-030` · select-one
 
 **Aufgabe:**
-> ___ ist das Wetter? — Schön und warm. (Frage nach Alter)
+> ___ ist das Wetter? — Schön und warm. (Fragewort)
 
 **Optionen:**
 - Wann
@@ -438,7 +438,7 @@
 ### 31. `a1-wf-031` · select-one
 
 **Aufgabe:**
-> ___ ist der Bahnhof? — Dort drüben. (Frage nach Dauer)
+> ___ ist der Bahnhof? — Dort drüben. (Fragewort)
 
 **Optionen:**
 - Wohin
@@ -452,7 +452,7 @@
 ### 32. `a1-wf-032` · select-one
 
 **Aufgabe:**
-> ___ isst du gern? — Pizza. (Frage nach Temperatur)
+> ___ isst du gern? — Pizza. (Fragewort)
 
 **Optionen:**
 - Wann
@@ -466,7 +466,7 @@
 ### 33. `a1-wf-033` · select-one
 
 **Aufgabe:**
-> ___ kommst du? — Um 18 Uhr. (Frage nach Person/Team)
+> ___ kommst du? — Um 18 Uhr. (Fragewort)
 
 **Optionen:**
 - Was
@@ -480,7 +480,7 @@
 ### 34. `a1-wf-034` · select-one
 
 **Aufgabe:**
-> ___ kommst du zur Schule? — Mit dem Bus. (Frage nach Sache)
+> ___ kommst du zur Schule? — Mit dem Bus. (Fragewort)
 
 **Optionen:**
 - Was
@@ -494,7 +494,7 @@
 ### 35. `a1-wf-035` · select-one
 
 **Aufgabe:**
-> ___ ist dein Hobby? — Musik. (Frage nach Sache)
+> ___ ist dein Hobby? — Musik. (Fragewort)
 
 **Optionen:**
 - Wer
@@ -508,7 +508,7 @@
 ### 36. `a1-wf-036` · select-one
 
 **Aufgabe:**
-> ___ wohnst du? — In München. (Frage nach Eigenschaft)
+> ___ wohnst du? — In München. (Fragewort)
 
 **Optionen:**
 - Woher
@@ -522,7 +522,7 @@
 ### 37. `a1-wf-037` · select-one
 
 **Aufgabe:**
-> ___ kommst du? — Aus Polen. (Frage nach Liniennummer)
+> ___ kommst du? — Aus Polen. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -536,7 +536,7 @@
 ### 38. `a1-wf-038` · select-one
 
 **Aufgabe:**
-> ___ fährst du? — Nach Hamburg. (Frage nach Name)
+> ___ fährst du? — Nach Hamburg. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -550,7 +550,7 @@
 ### 39. `a1-wf-039` · select-one
 
 **Aufgabe:**
-> ___ beginnt der Kurs? — Um 9 Uhr. (Frage nach Person)
+> ___ beginnt der Kurs? — Um 9 Uhr. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -564,7 +564,7 @@
 ### 40. `a1-wf-040` · select-one
 
 **Aufgabe:**
-> ___ heißt du? — Anna. (Frage nach Anzahl)
+> ___ heißt du? — Anna. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -578,7 +578,7 @@
 ### 41. `a1-wf-041` · select-one
 
 **Aufgabe:**
-> ___ machst du heute? — Sport. (Frage nach Raum)
+> ___ machst du heute? — Sport. (Fragewort)
 
 **Optionen:**
 - Wer
@@ -592,7 +592,7 @@
 ### 42. `a1-wf-042` · select-one
 
 **Aufgabe:**
-> ___ ist das? — Mein Bruder. (Frage nach Größe)
+> ___ ist das? — Mein Bruder. (Fragewort)
 
 **Optionen:**
 - Was
@@ -606,7 +606,7 @@
 ### 43. `a1-wf-043` · select-one
 
 **Aufgabe:**
-> ___ lernst du Deutsch? — Für die Arbeit. (Frage nach Befinden)
+> ___ lernst du Deutsch? — Für die Arbeit. (Fragewort)
 
 **Optionen:**
 - Was
@@ -620,7 +620,7 @@
 ### 44. `a1-wf-044` · select-one
 
 **Aufgabe:**
-> ___ kostet das Brot? — 2 Euro. (Frage nach Farbe)
+> ___ kostet das Brot? — 2 Euro. (Fragewort)
 
 **Optionen:**
 - Was
@@ -634,7 +634,7 @@
 ### 45. `a1-wf-045` · select-one
 
 **Aufgabe:**
-> ___ ist das Wetter? — Schön und warm. (Frage nach Tierart)
+> ___ ist das Wetter? — Schön und warm. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -648,7 +648,7 @@
 ### 46. `a1-wf-046` · select-one
 
 **Aufgabe:**
-> ___ ist der Bahnhof? — Dort drüben. (Frage nach Sportart)
+> ___ ist der Bahnhof? — Dort drüben. (Fragewort)
 
 **Optionen:**
 - Woher
@@ -662,7 +662,7 @@
 ### 47. `a1-wf-047` · select-one
 
 **Aufgabe:**
-> ___ isst du gern? — Pizza. (Frage nach Anzahl)
+> ___ isst du gern? — Pizza. (Fragewort)
 
 **Optionen:**
 - Wo
@@ -676,7 +676,7 @@
 ### 48. `a1-wf-048` · select-one
 
 **Aufgabe:**
-> ___ kommst du? — Um 18 Uhr. (Frage nach Beruf)
+> ___ kommst du? — Um 18 Uhr. (Fragewort)
 
 **Optionen:**
 - Wer
@@ -690,7 +690,7 @@
 ### 49. `a1-wf-049` · select-one
 
 **Aufgabe:**
-> ___ kommst du zur Schule? — Mit dem Bus. (Frage nach Land)
+> ___ kommst du zur Schule? — Mit dem Bus. (Fragewort)
 
 **Optionen:**
 - Was
@@ -704,7 +704,7 @@
 ### 50. `a1-wf-050` · select-one
 
 **Aufgabe:**
-> ___ ist dein Hobby? — Musik. (Frage nach Lied)
+> ___ ist dein Hobby? — Musik. (Fragewort)
 
 **Optionen:**
 - Wer
@@ -1110,9 +1110,9 @@
 ### 90. `a1-wf-in-040` · input-text
 
 **Aufgabe:**
-> ___ Freunde kommst du mit? — Mit zwei Freunden. (Frage nach Anzahl)
+> ___ Freunde kommen mit? — Zwei Freunde. (Frage nach Anzahl)
 
-**Antwort:** `Mit wie vielen`
+**Antwort:** `Wie viele`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1352,9 +1352,9 @@
 ### 114. `a1-wf-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (W-Frage — Wie zur Schule?)
+> [Schule] Ordne die Wörter zum richtigen Satz: (W-Frage — Wie zur Schule?)
 
-**Wörter:** Wie · kommst · du · hin
+**Wörter:** Wie · kommst · du · zur · Schule
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

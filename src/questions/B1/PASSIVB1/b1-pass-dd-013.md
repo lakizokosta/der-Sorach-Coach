@@ -11,4 +11,4 @@ words:
   - durchgeführt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb hren)
+Ordne die Wörter zum richtigen Satz: (Passiv)

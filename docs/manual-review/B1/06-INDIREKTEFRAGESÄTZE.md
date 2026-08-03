@@ -1222,7 +1222,7 @@
 ### 101. `b1-indfr-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Termin stattfindet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · weiß · nicht · ob · der · Termin · stattfindet
 
@@ -1232,9 +1232,9 @@
 ### 102. `b1-indfr-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wann Zug ankommt)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
-**Wörter:** Kannst · du · mir · sagen · wann · der · Zug · ankommt
+**Wörter:** Kannst · du · mir · sagen · wann · der · Zug · ankommt · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1242,7 +1242,7 @@
 ### 103. `b1-indfr-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob morgen kommen)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Er · fragt · ob · wir · morgen · kommen
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-indfr-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was Regelung bedeutet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · interessiere · mich · dafür · was · die · neue · Regelung · bedeutet
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-indfr-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wann Kurs beginnt)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Sie · möchte · wissen · wann · der · Kurs · beginnt
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-indfr-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob das stimmt)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Wir · sind · uns · nicht · sicher · ob · das · stimmt
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-indfr-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie viel Behandlung kostet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Er · erkundigt · sich · wie · viel · die · Behandlung · kostet
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-indfr-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob er recht hat)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · frage · mich · ob · er · recht · hat
 
@@ -1302,9 +1302,9 @@
 ### 109. `b1-indfr-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Medikament verfügbar ist)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
-**Wörter:** Kannst · du · prüfen · ob · das · Medikament · verfügbar · ist
+**Wörter:** Kannst · du · prüfen · ob · das · Medikament · verfügbar · ist · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1312,7 +1312,7 @@
 ### 110. `b1-indfr-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was Minister gesagt hat)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Sie · will · wissen · was · der · Minister · gesagt · hat
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-indfr-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie lange Reise dauert)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · bin · gespannt · wie · lange · die · Reise · dauert
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-indfr-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob gebucht haben)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Er · fragt · ob · wir · schon · gebucht · haben
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-indfr-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Problem gelöst wird)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Wir · wissen · nicht · ob · das · Problem · gelöst · wird
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-indfr-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Professor da ist)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Sie · erkundigt · sich · ob · der · Professor · heute · da · ist
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-indfr-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was du denkst)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · möchte · wissen · was · du · denkst
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-indfr-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wo Meeting stattfindet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · weiß · nicht · ob · der · Termin · stattfindet
 
@@ -1382,9 +1382,9 @@
 ### 117. `b1-indfr-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — warum Preise steigen)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
-**Wörter:** Kannst · du · mir · sagen · wann · der · Zug · ankommt
+**Wörter:** Kannst · du · mir · sagen · wann · der · Zug · ankommt · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1392,7 +1392,7 @@
 ### 118. `b1-indfr-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Termin stattfindet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · weiß · nicht · ob · der · Termin · stattfindet
 
@@ -1402,9 +1402,9 @@
 ### 119. `b1-indfr-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wann Zug ankommt)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
-**Wörter:** Kannst · du · mir · sagen · wann · der · Zug · ankommt
+**Wörter:** Kannst · du · mir · sagen · wann · der · Zug · ankommt · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,7 +1412,7 @@
 ### 120. `b1-indfr-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob morgen kommen)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Er · fragt · ob · wir · morgen · kommen
 
@@ -1422,7 +1422,7 @@
 ### 121. `b1-indfr-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was Regelung bedeutet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · interessiere · mich · dafür · was · die · neue · Regelung · bedeutet
 
@@ -1432,7 +1432,7 @@
 ### 122. `b1-indfr-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wann Kurs beginnt)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Sie · möchte · wissen · wann · der · Kurs · beginnt
 
@@ -1442,7 +1442,7 @@
 ### 123. `b1-indfr-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob das stimmt)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Wir · sind · uns · nicht · sicher · ob · das · stimmt
 
@@ -1452,7 +1452,7 @@
 ### 124. `b1-indfr-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie viel Behandlung kostet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Er · erkundigt · sich · wie · viel · die · Behandlung · kostet
 
@@ -1462,7 +1462,7 @@
 ### 125. `b1-indfr-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob er recht hat)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · frage · mich · ob · er · recht · hat
 
@@ -1472,9 +1472,9 @@
 ### 126. `b1-indfr-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Medikament verfügbar ist)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
-**Wörter:** Kannst · du · prüfen · ob · das · Medikament · verfügbar · ist
+**Wörter:** Kannst · du · prüfen · ob · das · Medikament · verfügbar · ist · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,7 +1482,7 @@
 ### 127. `b1-indfr-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was Minister gesagt hat)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Sie · will · wissen · was · der · Minister · gesagt · hat
 
@@ -1492,7 +1492,7 @@
 ### 128. `b1-indfr-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie lange Reise dauert)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · bin · gespannt · wie · lange · die · Reise · dauert
 
@@ -1502,7 +1502,7 @@
 ### 129. `b1-indfr-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob gebucht haben)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Er · fragt · ob · wir · schon · gebucht · haben
 
@@ -1512,7 +1512,7 @@
 ### 130. `b1-indfr-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Problem gelöst wird)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Wir · wissen · nicht · ob · das · Problem · gelöst · wird
 
@@ -1522,7 +1522,7 @@
 ### 131. `b1-indfr-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Professor da ist)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Sie · erkundigt · sich · ob · der · Professor · heute · da · ist
 
@@ -1532,7 +1532,7 @@
 ### 132. `b1-indfr-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was du denkst)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · möchte · wissen · was · du · denkst
 
@@ -1542,7 +1542,7 @@
 ### 133. `b1-indfr-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wo Meeting stattfindet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · weiß · nicht · ob · der · Termin · stattfindet
 
@@ -1552,9 +1552,9 @@
 ### 134. `b1-indfr-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — warum Preise steigen)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
-**Wörter:** Kannst · du · mir · sagen · wann · der · Zug · ankommt
+**Wörter:** Kannst · du · mir · sagen · wann · der · Zug · ankommt · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,7 +1562,7 @@
 ### 135. `b1-indfr-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Termin stattfindet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · weiß · nicht · ob · der · Termin · stattfindet
 
@@ -1572,9 +1572,9 @@
 ### 136. `b1-indfr-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wann Zug ankommt)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
-**Wörter:** Kannst · du · mir · sagen · wann · der · Zug · ankommt
+**Wörter:** Kannst · du · mir · sagen · wann · der · Zug · ankommt · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,7 +1582,7 @@
 ### 137. `b1-indfr-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob morgen kommen)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Er · fragt · ob · wir · morgen · kommen
 
@@ -1592,7 +1592,7 @@
 ### 138. `b1-indfr-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was Regelung bedeutet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · interessiere · mich · dafür · was · die · neue · Regelung · bedeutet
 
@@ -1602,7 +1602,7 @@
 ### 139. `b1-indfr-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wann Kurs beginnt)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Sie · möchte · wissen · wann · der · Kurs · beginnt
 
@@ -1612,7 +1612,7 @@
 ### 140. `b1-indfr-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob das stimmt)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Wir · sind · uns · nicht · sicher · ob · das · stimmt
 
@@ -1622,7 +1622,7 @@
 ### 141. `b1-indfr-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie viel Behandlung kostet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Er · erkundigt · sich · wie · viel · die · Behandlung · kostet
 
@@ -1632,7 +1632,7 @@
 ### 142. `b1-indfr-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob er recht hat)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · frage · mich · ob · er · recht · hat
 
@@ -1642,9 +1642,9 @@
 ### 143. `b1-indfr-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Medikament verfügbar ist)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
-**Wörter:** Kannst · du · prüfen · ob · das · Medikament · verfügbar · ist
+**Wörter:** Kannst · du · prüfen · ob · das · Medikament · verfügbar · ist · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,7 +1652,7 @@
 ### 144. `b1-indfr-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was Minister gesagt hat)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Sie · will · wissen · was · der · Minister · gesagt · hat
 
@@ -1662,7 +1662,7 @@
 ### 145. `b1-indfr-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wie lange Reise dauert)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · bin · gespannt · wie · lange · die · Reise · dauert
 
@@ -1672,7 +1672,7 @@
 ### 146. `b1-indfr-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob gebucht haben)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Er · fragt · ob · wir · schon · gebucht · haben
 
@@ -1682,7 +1682,7 @@
 ### 147. `b1-indfr-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Problem gelöst wird)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Wir · wissen · nicht · ob · das · Problem · gelöst · wird
 
@@ -1692,7 +1692,7 @@
 ### 148. `b1-indfr-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Professor da ist)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Sie · erkundigt · sich · ob · der · Professor · heute · da · ist
 
@@ -1702,7 +1702,7 @@
 ### 149. `b1-indfr-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was du denkst)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · möchte · wissen · was · du · denkst
 
@@ -1712,7 +1712,7 @@
 ### 150. `b1-indfr-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wo Meeting stattfindet)
+> Ordne die Wörter zum richtigen Satz: (Indirekte Frage)
 
 **Wörter:** Ich · weiß · nicht · ob · der · Termin · stattfindet
 

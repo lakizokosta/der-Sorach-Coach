@@ -1,8 +1,11 @@
 ---
 id: a2-trenn-in-043
 type: input-text
+hint: Trennbares Verb + Verb aufmachen
 correct:
   - machst
 ---
 
-Du ___ die Tür auf. (Trennbares Verb + Verb aufmachen)
+Ergänze die Verbform (trennbares Verb):
+
+Du ___ die Tür auf.

@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-041
 type: input-text
+hint: Gegenteil von neu
 correct:
   - alt
 ---
 
-Die Schuhe sind neu, die Socken sind ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Die Schuhe sind neu, die Socken sind ___.

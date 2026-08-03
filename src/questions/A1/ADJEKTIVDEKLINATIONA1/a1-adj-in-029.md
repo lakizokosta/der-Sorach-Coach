@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-029
 type: input-text
+hint: Adjektivdeklination — braun, neutr., Nom.
 correct:
   - braune
 ---
 
-Das ___ Pferd läuft schnell. (Adjektivdeklination — neutr., Nom.)
+Ergänze die Adjektivendung:
+
+Das ___ Pferd läuft schnell.

@@ -2,14 +2,15 @@
 id: b1-kond-dd-039
 type: dropbox
 words:
-  - Wenn
-  - die
-  - Prüfung
-  - schwer
-  - ist
-  - bleibe
-  - ich
-  - ruhig
+  - Falls
+  - du
+  - dich
+  - erkältest
+  - bleib
+  - zu
+  - Hause
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Prüfung schwer ist)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

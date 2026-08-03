@@ -3,10 +3,10 @@ id: b1-sprach-020
 type: select-one
 options:
   - in
-  - im
-  - zum
-  - am
-correct: in
+  - vor
+  - auf
+  - an
+correct: vor
 ---
 
-Wir bitten Sie, pünktlich ___ dem Seminarraum zu erscheinen. (Grammatikform)
+Wir bitten Sie, pünktlich ___ dem Seminarraum zu erscheinen.

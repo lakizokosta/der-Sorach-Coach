@@ -11,4 +11,4 @@ words:
   - Bereich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — keine Erfahrung)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

@@ -1,8 +1,11 @@
 ---
 id: b1-praeg-in-023
 type: input-text
+hint: Verb + Präposition
 correct:
   - auf
 ---
 
-Wir hoffen ___ gutes Wetter. (Verb + Präposition)
+Ergänze die Präposition (Verb + Präposition):
+
+Wir hoffen ___ gutes Wetter.

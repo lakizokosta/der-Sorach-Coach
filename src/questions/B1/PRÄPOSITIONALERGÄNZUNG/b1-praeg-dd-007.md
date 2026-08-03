@@ -10,4 +10,4 @@ words:
   - Fehler
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — ärgert über)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

@@ -2,11 +2,14 @@
 id: b1-pass-dd-038
 type: dropbox
 words:
-  - Das
-  - Projekt
-  - wird
-  - gerade
-  - diskutiert
+  - Alle
+  - Bewerbungen
+  - werden
+  - bis
+  - Freitag
+  - geprüft
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb fen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

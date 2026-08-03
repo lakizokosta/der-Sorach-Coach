@@ -10,4 +10,4 @@ words:
   - Auto
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nicht mit Auto)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

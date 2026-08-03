@@ -2,13 +2,12 @@
 id: b1-praeg-dd-018
 type: dropbox
 words:
-  - Ich
-  - warte
-  - auf
-  - die
-  - Antwort
-  - der
-  - Personalabteilung
+  - Wir
+  - sprechen
+  - über
+  - das
+  - neue
+  - Gesetz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — warte auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-004
 type: input-text
+hint: Konjunktion — Grund
 correct:
   - weil
 ---
 
-Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion — Grund)
+Ergänze die Konjunktion:
+
+Er lernt Deutsch, ___ er in Deutschland arbeiten will.

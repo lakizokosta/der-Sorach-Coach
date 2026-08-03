@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-025
 type: input-text
+hint: Plural: Katze
 correct:
   - Katzen
 ---
 
-Im Tierheim warten viele ___. (Plural)
+Ergänze die Pluralform:
+
+Im Tierheim warten viele ___.

@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-023
 type: input-text
+hint: Possessivartikel — er, fem., Dat.
 correct:
   - seiner
 ---
 
-Er hilft ___ Nachbarin. (Possessivartikel — er, fem., Dat.)
+Ergänze den Possessivartikel:
+
+Er hilft ___ Nachbarin.

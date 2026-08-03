@@ -7,9 +7,10 @@ words:
   - auf
   - bessere
   - Zeiten
+  - —
   - Ich
   - hoffe
   - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Hoffnung))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

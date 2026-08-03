@@ -10,6 +10,8 @@ words:
   - im
   - Gebäude
   - ruhig
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Unterrichts)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

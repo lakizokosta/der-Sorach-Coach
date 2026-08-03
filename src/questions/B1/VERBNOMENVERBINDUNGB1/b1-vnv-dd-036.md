@@ -2,12 +2,12 @@
 id: b1-vnv-dd-036
 type: dropbox
 words:
-  - Er
-  - führt
-  - durch
-  - eine
-  - sorgfältige
-  - Untersuchung
+  - Wir
+  - nehmen
+  - Rücksicht
+  - auf
+  - die
+  - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Untersuchung durchführen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

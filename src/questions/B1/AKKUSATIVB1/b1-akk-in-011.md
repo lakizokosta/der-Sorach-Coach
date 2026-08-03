@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-011
 type: input-text
+hint: Akkusativ — das / dem / der / die
 correct:
   - die
 ---
 
-Der Minister erklärt ___ neue Politik. (Akkusativ)
+Ergänze die Akkusativform:
+
+Der Minister erklärt ___ neue Politik.

@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-039
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
-  - klassische
+  - für
 ---
 
-Ich interessiere mich für ___ Musik. (feste Präposition)
+Ergänze die feste Präposition:
+
+Ich interessiere mich ___ klassische Musik.

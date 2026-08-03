@@ -6,6 +6,8 @@ words:
   - wem
   - gehst
   - du
+commas:
+  - 0
 ---
 
 Ordne die Wörter zum richtigen Satz: (W-Frage — Mit wem gehen?)

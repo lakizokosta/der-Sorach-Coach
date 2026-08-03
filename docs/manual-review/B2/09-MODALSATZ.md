@@ -4,14 +4,14 @@
 |---|---|
 | **Topic-Key** | `MODALSATZ` |
 | **Beschreibung** | indem, ohne dass, statt dass |
-| **Fragen gesamt** | 51 |
-| Auswahl (1 Antwort) | 51 |
+| **Fragen gesamt** | 50 |
+| Auswahl (1 Antwort) | 50 |
 
 > Manuelle Prüfung: Grammatik, Sinn des Satzes, Hinweise, Antworten.
 
 ---
 
-## Auswahl (1 Antwort) (51)
+## Auswahl (1 Antwort) (50)
 
 ### 1. `b2-modal-001` · select-one
 
@@ -27,21 +27,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 2. `b2-modal-1` · select-one
-
-**Aufgabe:**
-> Sie verbessert ihre Aussprache, ___ sie täglich übt. (Modalsatz)
-
-**Optionen:**
-- indem **✓**
-- ohne dass
-- damit
-- während
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 3. `b2-modal-002` · select-one
+### 2. `b2-modal-002` · select-one
 
 **Aufgabe:**
 > ___ zu kündigen, suchte er ein Gespräch mit dem Chef. (Modalsatz)
@@ -55,7 +41,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 4. `b2-modal-003` · select-one
+### 3. `b2-modal-003` · select-one
 
 **Aufgabe:**
 > Sie lernte schwimmen, ___ sie es im See übte. (Modalsatz)
@@ -69,7 +55,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 5. `b2-modal-004` · select-one
+### 4. `b2-modal-004` · select-one
 
 **Aufgabe:**
 > Er ging, ___ er sich verabschiedete. (Modalsatz)
@@ -83,21 +69,21 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 6. `b2-modal-005` · select-one
+### 5. `b2-modal-005` · select-one
 
 **Aufgabe:**
 > ___ dass er fragte, nahm er einfach das Buch. (Modalsatz)
 
 **Optionen:**
-- Indem
+- Statt
 - Ohne
-- Statt **✓**
-- Obwohl
+- Anstatt **✓**
+- Weil
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 7. `b2-modal-006` · select-one
+### 6. `b2-modal-006` · select-one
 
 **Aufgabe:**
 > Er spart Geld, ___ er weniger ausgeht. (Modalsatz)
@@ -111,10 +97,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 8. `b2-modal-007` · select-one
+### 7. `b2-modal-007` · select-one
 
 **Aufgabe:**
-> Sie aß Obst, ___ sie Gemüse aß. (Modalsatz)
+> Sie aß Obst, ___ ihr Bruder Gemüse aß. (Modalsatz)
 
 **Optionen:**
 - obwohl
@@ -125,7 +111,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 9. `b2-modal-008` · select-one
+### 8. `b2-modal-008` · select-one
 
 **Aufgabe:**
 > Er löste das Problem, ___ er kreativ dachte. (Modalsatz)
@@ -139,7 +125,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 10. `b2-modal-009` · select-one
+### 9. `b2-modal-009` · select-one
 
 **Aufgabe:**
 > ___ zu warten, verließ er das Meeting. (Modalsatz)
@@ -153,7 +139,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 11. `b2-modal-010` · select-one
+### 10. `b2-modal-010` · select-one
 
 **Aufgabe:**
 > Sie schrieb den Bericht, ___ sie die Daten auswertete. (Modalsatz)
@@ -167,7 +153,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 12. `b2-modal-011` · select-one
+### 11. `b2-modal-011` · select-one
 
 **Aufgabe:**
 > Er kaufte online, ___ er ins Geschäft ging. (Modalsatz)
@@ -181,7 +167,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 13. `b2-modal-012` · select-one
+### 12. `b2-modal-012` · select-one
 
 **Aufgabe:**
 > ___ dass er es wusste, sagte er nichts. (Modalsatz)
@@ -195,7 +181,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 14. `b2-modal-013` · select-one
+### 13. `b2-modal-013` · select-one
 
 **Aufgabe:**
 > Sie trainierte hart, ___ sie ihre Ausdauer steigerte. (Modalsatz)
@@ -209,7 +195,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 15. `b2-modal-014` · select-one
+### 14. `b2-modal-014` · select-one
 
 **Aufgabe:**
 > Er antwortete, ___ er nachdachte. (Modalsatz)
@@ -223,7 +209,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 16. `b2-modal-015` · select-one
+### 15. `b2-modal-015` · select-one
 
 **Aufgabe:**
 > ___ ein Taxi zu nehmen, fuhr er mit der U-Bahn. (Modalsatz)
@@ -237,7 +223,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 17. `b2-modal-016` · select-one
+### 16. `b2-modal-016` · select-one
 
 **Aufgabe:**
 > Er überzeugte sie, ___ er ruhig argumentierte. (Modalsatz)
@@ -251,7 +237,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 18. `b2-modal-017` · select-one
+### 17. `b2-modal-017` · select-one
 
 **Aufgabe:**
 > Sie verließ das Haus, ___ jemand es bemerkte. (Modalsatz)
@@ -265,7 +251,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 19. `b2-modal-018` · select-one
+### 18. `b2-modal-018` · select-one
 
 **Aufgabe:**
 > Er verbesserte sein Deutsch, ___ er jeden Tag las. (Modalsatz)
@@ -279,7 +265,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 20. `b2-modal-019` · select-one
+### 19. `b2-modal-019` · select-one
 
 **Aufgabe:**
 > ___ zu kündigen, suchte er ein Gespräch mit dem Chef. (Modalsatz)
@@ -293,7 +279,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 21. `b2-modal-020` · select-one
+### 20. `b2-modal-020` · select-one
 
 **Aufgabe:**
 > Sie lernte schwimmen, ___ sie es im See übte. (Modalsatz)
@@ -307,7 +293,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 22. `b2-modal-021` · select-one
+### 21. `b2-modal-021` · select-one
 
 **Aufgabe:**
 > Er ging, ___ er sich verabschiedete. (Modalsatz)
@@ -321,21 +307,21 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 23. `b2-modal-022` · select-one
+### 22. `b2-modal-022` · select-one
 
 **Aufgabe:**
 > ___ dass er fragte, nahm er einfach das Buch. (Modalsatz)
 
 **Optionen:**
+- Statt
 - Indem
-- Weil
-- Statt **✓**
+- Anstatt **✓**
 - Ohne
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 24. `b2-modal-023` · select-one
+### 23. `b2-modal-023` · select-one
 
 **Aufgabe:**
 > Er spart Geld, ___ er weniger ausgeht. (Modalsatz)
@@ -349,10 +335,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 25. `b2-modal-024` · select-one
+### 24. `b2-modal-024` · select-one
 
 **Aufgabe:**
-> Sie aß Obst, ___ sie Gemüse aß. (Modalsatz)
+> Sie aß Obst, ___ ihr Bruder Gemüse aß. (Modalsatz)
 
 **Optionen:**
 - indem
@@ -363,7 +349,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 26. `b2-modal-025` · select-one
+### 25. `b2-modal-025` · select-one
 
 **Aufgabe:**
 > Er löste das Problem, ___ er kreativ dachte. (Modalsatz)
@@ -377,7 +363,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 27. `b2-modal-026` · select-one
+### 26. `b2-modal-026` · select-one
 
 **Aufgabe:**
 > ___ zu warten, verließ er das Meeting. (Modalsatz)
@@ -391,7 +377,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 28. `b2-modal-027` · select-one
+### 27. `b2-modal-027` · select-one
 
 **Aufgabe:**
 > Sie schrieb den Bericht, ___ sie die Daten auswertete. (Modalsatz)
@@ -405,7 +391,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 29. `b2-modal-028` · select-one
+### 28. `b2-modal-028` · select-one
 
 **Aufgabe:**
 > Er kaufte online, ___ er ins Geschäft ging. (Modalsatz)
@@ -419,7 +405,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 30. `b2-modal-029` · select-one
+### 29. `b2-modal-029` · select-one
 
 **Aufgabe:**
 > ___ dass er es wusste, sagte er nichts. (Modalsatz)
@@ -433,7 +419,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 31. `b2-modal-030` · select-one
+### 30. `b2-modal-030` · select-one
 
 **Aufgabe:**
 > Sie trainierte hart, ___ sie ihre Ausdauer steigerte. (Modalsatz)
@@ -447,7 +433,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 32. `b2-modal-031` · select-one
+### 31. `b2-modal-031` · select-one
 
 **Aufgabe:**
 > Er antwortete, ___ er nachdachte. (Modalsatz)
@@ -461,7 +447,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 33. `b2-modal-032` · select-one
+### 32. `b2-modal-032` · select-one
 
 **Aufgabe:**
 > ___ ein Taxi zu nehmen, fuhr er mit der U-Bahn. (Modalsatz)
@@ -475,7 +461,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 34. `b2-modal-033` · select-one
+### 33. `b2-modal-033` · select-one
 
 **Aufgabe:**
 > Er überzeugte sie, ___ er ruhig argumentierte. (Modalsatz)
@@ -489,7 +475,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 35. `b2-modal-034` · select-one
+### 34. `b2-modal-034` · select-one
 
 **Aufgabe:**
 > Sie verließ das Haus, ___ jemand es bemerkte. (Modalsatz)
@@ -503,7 +489,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 36. `b2-modal-035` · select-one
+### 35. `b2-modal-035` · select-one
 
 **Aufgabe:**
 > Er verbesserte sein Deutsch, ___ er jeden Tag las. (Modalsatz)
@@ -517,7 +503,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 37. `b2-modal-036` · select-one
+### 36. `b2-modal-036` · select-one
 
 **Aufgabe:**
 > ___ zu kündigen, suchte er ein Gespräch mit dem Chef. (Modalsatz)
@@ -531,7 +517,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 38. `b2-modal-037` · select-one
+### 37. `b2-modal-037` · select-one
 
 **Aufgabe:**
 > Sie lernte schwimmen, ___ sie es im See übte. (Modalsatz)
@@ -545,7 +531,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 39. `b2-modal-038` · select-one
+### 38. `b2-modal-038` · select-one
 
 **Aufgabe:**
 > Er ging, ___ er sich verabschiedete. (Modalsatz)
@@ -559,21 +545,21 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 40. `b2-modal-039` · select-one
+### 39. `b2-modal-039` · select-one
 
 **Aufgabe:**
 > ___ dass er fragte, nahm er einfach das Buch. (Modalsatz)
 
 **Optionen:**
-- Obwohl
-- Indem
 - Weil
-- Statt **✓**
+- Statt
+- Indem
+- Anstatt **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 41. `b2-modal-040` · select-one
+### 40. `b2-modal-040` · select-one
 
 **Aufgabe:**
 > Er spart Geld, ___ er weniger ausgeht. (Modalsatz)
@@ -587,10 +573,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 42. `b2-modal-041` · select-one
+### 41. `b2-modal-041` · select-one
 
 **Aufgabe:**
-> Sie aß Obst, ___ sie Gemüse aß. (Modalsatz)
+> Sie aß Obst, ___ ihr Bruder Gemüse aß. (Modalsatz)
 
 **Optionen:**
 - ohne dass
@@ -601,7 +587,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 43. `b2-modal-042` · select-one
+### 42. `b2-modal-042` · select-one
 
 **Aufgabe:**
 > Er löste das Problem, ___ er kreativ dachte. (Modalsatz)
@@ -615,7 +601,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 44. `b2-modal-043` · select-one
+### 43. `b2-modal-043` · select-one
 
 **Aufgabe:**
 > ___ zu warten, verließ er das Meeting. (Modalsatz)
@@ -629,7 +615,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 45. `b2-modal-044` · select-one
+### 44. `b2-modal-044` · select-one
 
 **Aufgabe:**
 > Sie schrieb den Bericht, ___ sie die Daten auswertete. (Modalsatz)
@@ -643,7 +629,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 46. `b2-modal-045` · select-one
+### 45. `b2-modal-045` · select-one
 
 **Aufgabe:**
 > Er kaufte online, ___ er ins Geschäft ging. (Modalsatz)
@@ -657,7 +643,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 47. `b2-modal-046` · select-one
+### 46. `b2-modal-046` · select-one
 
 **Aufgabe:**
 > ___ dass er es wusste, sagte er nichts. (Modalsatz)
@@ -671,7 +657,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 48. `b2-modal-047` · select-one
+### 47. `b2-modal-047` · select-one
 
 **Aufgabe:**
 > Sie trainierte hart, ___ sie ihre Ausdauer steigerte. (Modalsatz)
@@ -685,7 +671,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 49. `b2-modal-048` · select-one
+### 48. `b2-modal-048` · select-one
 
 **Aufgabe:**
 > Er antwortete, ___ er nachdachte. (Modalsatz)
@@ -699,7 +685,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 50. `b2-modal-049` · select-one
+### 49. `b2-modal-049` · select-one
 
 **Aufgabe:**
 > ___ ein Taxi zu nehmen, fuhr er mit der U-Bahn. (Modalsatz)
@@ -713,7 +699,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 51. `b2-modal-050` · select-one
+### 50. `b2-modal-050` · select-one
 
 **Aufgabe:**
 > Er überzeugte sie, ___ er ruhig argumentierte. (Modalsatz)

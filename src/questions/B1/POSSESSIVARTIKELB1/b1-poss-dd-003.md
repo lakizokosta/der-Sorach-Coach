@@ -12,4 +12,4 @@ words:
   - Einarbeitung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer Chefin)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

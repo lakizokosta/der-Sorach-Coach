@@ -9,4 +9,4 @@ options:
 correct: in der
 ---
 
-Wo sitzt du? — ___ Küche. (Dativ oder Akkusativ — Wo?)
+Wo sitzt du? — ___ Küche. (Dativ oder Akkusativ)

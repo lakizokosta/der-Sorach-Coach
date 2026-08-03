@@ -1,8 +1,11 @@
 ---
 id: a2-sup-in-048
 type: input-text
+hint: Superlativ — jung, mask., Nom.
 correct:
   - jüngste
 ---
 
-Er ist der ___ Spieler im Team. (Superlativ — mask., Nom.)
+Ergänze die Superlativform:
+
+Er ist der ___ Spieler im Team.

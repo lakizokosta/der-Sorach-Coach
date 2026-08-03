@@ -1,8 +1,11 @@
 ---
 id: b2-konj2-in-050
 type: input-text
+hint: Konjunktiv II + Verb sein
 correct:
   - wäre
 ---
 
-Ich ___ gern früher kommen, aber der Zug hatte Verspätung. (Konjunktiv II + Verb sein)
+Ergänze die Konjunktiv-II-Form:
+
+Ich ___ gern früher kommen, aber der Zug hatte Verspätung.

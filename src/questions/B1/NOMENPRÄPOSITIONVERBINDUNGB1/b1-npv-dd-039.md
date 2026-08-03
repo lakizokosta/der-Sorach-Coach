@@ -2,12 +2,13 @@
 id: b1-npv-dd-039
 type: dropbox
 words:
-  - Er
-  - hat
-  - Respekt
-  - vor
-  - erfahrenen
-  - Kollegen
+  - Wir
+  - haben
+  - Zweifel
+  - an
+  - der
+  - neuen
+  - Politik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Respekt vor)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

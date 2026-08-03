@@ -2,13 +2,15 @@
 id: b1-gen-dd-043
 type: dropbox
 words:
-  - Trotz
+  - Während
   - der
-  - guten
-  - Vorbereitung
-  - war
-  - sie
-  - nervös
+  - Sitzung
+  - ist
+  - das
+  - Büro
+  - geschlossen
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Vorbereitung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

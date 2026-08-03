@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-046
 type: input-text
+hint: Präteritum + Verb haben
 correct:
   - hatte
 ---
 
-Ich ___ großen Hunger. (Präteritum + Verb haben)
+Ergänze die Präteritumsform:
+
+Ich ___ großen Hunger.

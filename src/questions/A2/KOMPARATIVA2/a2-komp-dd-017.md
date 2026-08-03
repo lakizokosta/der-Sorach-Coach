@@ -8,6 +8,8 @@ words:
   - als
   - stärkerer
   - Sportler
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — stark)

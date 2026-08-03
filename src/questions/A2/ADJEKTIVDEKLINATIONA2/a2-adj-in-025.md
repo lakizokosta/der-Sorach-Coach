@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-025
 type: input-text
+hint: Adjektivdeklination — jung, mask., Nom.
 correct:
   - junge
 ---
 
-Der ___ Lehrer erklärt gut. (Adjektivendung)
+Ergänze die Adjektivendung:
+
+Der ___ Lehrer erklärt gut.

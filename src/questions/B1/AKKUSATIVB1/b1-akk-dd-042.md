@@ -2,12 +2,13 @@
 id: b1-akk-dd-042
 type: dropbox
 words:
-  - Er
-  - denkt
-  - an
-  - eine
-  - wichtige
-  - Entscheidung
+  - Ich
+  - suche
+  - einen
+  - geeigneten
+  - Kurs
+  - für
+  - B1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Entscheidung)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

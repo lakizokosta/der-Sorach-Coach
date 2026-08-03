@@ -3,10 +3,10 @@ id: b1-poss-dd-049
 type: dropbox
 words:
   - Wir
-  - unterstützen
-  - unseren
-  - jüngeren
-  - Kollegen
+  - feiern
+  - unser
+  - zehnjähriges
+  - Firmenjubiläum
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — unseren Kollegen)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

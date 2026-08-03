@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-014
 type: input-text
+hint: Possessivartikel — ich, mask., Akk.
 correct:
   - meinen
 ---
 
-Bei Regen brauche ich ___ Regenschirm. (Possessivartikel — ich, mask., Akk.)
+Ergänze den Possessivartikel:
+
+Bei Regen brauche ich ___ Regenschirm.

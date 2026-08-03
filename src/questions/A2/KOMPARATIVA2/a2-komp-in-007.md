@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-007
 type: input-text
+hint: Komparativ — kalt
 correct:
   - kälter
 ---
 
-Im Winter ist es ___ als im Sommer. (Komparativ — kalt)
+Ergänze die Komparativform:
+
+Im Winter ist es ___ als im Sommer.

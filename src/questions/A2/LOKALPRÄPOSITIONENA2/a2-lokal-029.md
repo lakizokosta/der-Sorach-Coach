@@ -9,4 +9,4 @@ options:
 correct: über
 ---
 
-Wir gehen ___ die Straße. (Lokalpräposition)
+Wir gehen ___ die Straße. (Lokale Präposition)

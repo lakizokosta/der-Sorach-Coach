@@ -2,14 +2,16 @@
 id: b1-trenn-dd-022
 type: dropbox
 words:
-  - Sie
-  - macht
-  - das
-  - Licht
-  - aus
-  - wenn
-  - sie
-  - geht
+  - Ich
+  - gebe
+  - den
+  - Brief
+  - um
+  - neun
+  - Uhr
+  - ab
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb sich freuen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

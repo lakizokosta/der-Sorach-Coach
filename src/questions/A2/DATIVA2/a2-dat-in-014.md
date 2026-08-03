@@ -1,8 +1,11 @@
 ---
 id: a2-dat-in-014
 type: input-text
+hint: Dativ — Possessiv — meine Schwester, Dat.
 correct:
   - meiner
 ---
 
-Ich kaufe ___ Schwester ein Geschenk. (Dativ — meine Schwester, Dat.)
+Ergänze die Dativform:
+
+Ich kaufe ___ Schwester ein Geschenk.

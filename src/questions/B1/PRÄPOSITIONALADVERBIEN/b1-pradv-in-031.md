@@ -1,8 +1,11 @@
 ---
 id: b1-pradv-in-031
 type: input-text
+hint: Pronominaladverb — Präp. für
 correct:
   - dafür
 ---
 
-Interessierst du dich für den Kurs? — Ja, ich interessiere mich ___. (Pronominaladverb)
+Ergänze das Pronominaladverb:
+
+Interessierst du dich für den Kurs? — Ja, ich interessiere mich ___.

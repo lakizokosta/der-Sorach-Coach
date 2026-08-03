@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-021
 type: input-text
+hint: Passiv + Verb renoviieren
 correct:
   - wurde
 ---
 
-Die Straße ___ letztes Jahr renoviert. (Passiv + Verb renoviieren)
+Ergänze die Passivform:
+
+Die Straße ___ letztes Jahr renoviert.

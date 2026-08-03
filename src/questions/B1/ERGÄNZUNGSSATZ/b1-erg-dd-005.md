@@ -10,6 +10,8 @@ words:
   - mehr
   - schlafen
   - solltest
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass schlafen solltest)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

@@ -2,14 +2,16 @@
 id: b1-erg-dd-035
 type: dropbox
 words:
-  - Ich
-  - finde
+  - Der
+  - Arzt
+  - meint
   - dass
-  - die
-  - neue
-  - Regelung
-  - sinnvoll
-  - ist
+  - du
+  - mehr
+  - schlafen
+  - solltest
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass sinnvoll ist)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

@@ -2,14 +2,15 @@
 id: b1-konz-dd-029
 type: dropbox
 words:
-  - Sie
-  - hat
-  - wenig
-  - Zeit
+  - Der
+  - Verkehr
+  - ist
+  - schlimm
   - trotzdem
-  - hilft
-  - sie
-  - uns
+  - kommt
+  - er
+  - rechtzeitig
+  - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obschon Warnung kam)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

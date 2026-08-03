@@ -12,4 +12,4 @@ words:
   - Regelung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — seine Kollegen)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

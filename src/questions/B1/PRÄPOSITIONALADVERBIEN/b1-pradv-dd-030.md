@@ -2,15 +2,17 @@
 id: b1-pradv-dd-030
 type: dropbox
 words:
-  - Teilnimmst
+  - Was
+  - hältst
   - du
-  - an
-  - der
-  - Konferenz
+  - von
+  - dem
+  - Vorschlag
+  - —
   - Ich
-  - nehme
-  - daran
-  - teil
+  - halte
+  - nichts
+  - davon
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber (Informieren))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

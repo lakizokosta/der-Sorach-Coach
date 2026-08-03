@@ -3,7 +3,7 @@
  */
 
 import { getAllTopics } from '@/data/premiumTopics.js';
-import { getQuestionsByTopic } from '@/data/questions.js';
+import { getQuestionsByTopic, getTopicQuestionCount } from '@/data/questions.js';
 
 /**
  * Returns the N weakest topics ranked by wrong-answer count.
@@ -23,7 +23,7 @@ export function getWeakestTopics(topicWrong, topicCorrect, limit = 3) {
     const wrong = Number(topicWrong[key]) || 0;
     if (wrong <= 0) continue;
 
-    const questionCount = getQuestionsByTopic(t.level, t.key).length;
+    const questionCount = getTopicQuestionCount(t.level, t.key);
     if (questionCount === 0) continue;
 
     const correct = Number(topicCorrect[key]) || 0;
@@ -46,14 +46,14 @@ export function getWeakestTopics(topicWrong, topicCorrect, limit = 3) {
  * Collects questions for the given weak-topic descriptors (deduped by id).
  *
  * @param {!Array<{level:string, key:string}>} topics
- * @return {!Array<!Object>}
+ * @return {Promise<!Array<!Object>>}
  */
-export function getQuestionsForWeakTopics(topics) {
+export async function getQuestionsForWeakTopics(topics) {
   const seen = new Set();
   const out = [];
 
   for (const t of topics) {
-    for (const q of getQuestionsByTopic(t.level, t.key)) {
+    for (const q of await getQuestionsByTopic(t.level, t.key)) {
       if (seen.has(q.id)) continue;
       seen.add(q.id);
       out.push(q);

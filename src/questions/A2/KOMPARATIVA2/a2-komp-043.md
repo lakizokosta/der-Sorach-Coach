@@ -9,4 +9,4 @@ options:
 correct: kälter
 ---
 
-Heute ist es ___ als gestern. (Komparativ — billig)
+Heute ist es ___ als gestern. (kalt)

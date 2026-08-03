@@ -2,13 +2,17 @@
 id: b1-rel-dd-020
 type: dropbox
 words:
-  - Das
-  - Projekt
-  - das
-  - wir
-  - planen
+  - Die
+  - Stadt
+  - in
+  - der
+  - ich
+  - wohne
   - ist
-  - ambitioniert
+  - klein
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — das wir planen)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

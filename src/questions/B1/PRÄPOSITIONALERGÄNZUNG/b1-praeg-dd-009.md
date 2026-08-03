@@ -11,4 +11,4 @@ words:
   - Krankenhaus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — fragt nach)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

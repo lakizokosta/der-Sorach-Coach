@@ -2,12 +2,13 @@
 id: b1-trenn-dd-028
 type: dropbox
 words:
-  - Sie
-  - checkt
-  - um
-  - 22
-  - Uhr
-  - ein
+  - Wir
+  - sprechen
+  - das
+  - Problem
+  - im
+  - Team
+  - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ansprechen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

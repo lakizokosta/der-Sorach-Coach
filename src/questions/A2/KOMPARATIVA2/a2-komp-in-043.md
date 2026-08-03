@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-043
 type: input-text
+hint: Komparativ — billig
 correct:
   - billiger
 ---
 
-Der Teppich ist ___ als der Stuhl. (Komparativ — billig)
+Ergänze die Komparativform:
+
+Der Teppich ist ___ als der Stuhl.

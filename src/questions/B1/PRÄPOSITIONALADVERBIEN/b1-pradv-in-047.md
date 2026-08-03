@@ -1,8 +1,11 @@
 ---
 id: b1-pradv-in-047
 type: input-text
+hint: Pronominaladverb — Präp. an
 correct:
   - daran
 ---
 
-Wann denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
+Ergänze das Pronominaladverb:
+
+Wann denkst du an den Termin? — Ich denke ___.

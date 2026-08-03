@@ -2,13 +2,11 @@
 id: b1-akk-dd-036
 type: dropbox
 words:
-  - Ich
-  - warte
-  - auf
-  - die
-  - Antwort
-  - der
-  - Personalabteilung
+  - Die
+  - Ärztin
+  - verschreibt
+  - ein
+  - Medikament
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — die Antwort)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

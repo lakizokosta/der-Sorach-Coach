@@ -10,4 +10,4 @@ words:
   - Rücken
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfahrung in)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

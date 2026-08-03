@@ -2,12 +2,13 @@
 id: b1-lokal-dd-025
 type: dropbox
 words:
-  - Das
-  - Hotel
-  - liegt
-  - an
-  - dem
-  - Fluss
+  - Die
+  - Klinik
+  - ist
+  - auf
+  - der
+  - dritten
+  - Etage
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — am Fluss)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

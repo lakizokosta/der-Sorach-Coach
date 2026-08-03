@@ -2,11 +2,11 @@
 id: b1-praeg-dd-030
 type: dropbox
 words:
-  - Er
-  - wartet
+  - Sie
+  - achtet
   - auf
-  - dem
-  - Arzt
+  - ihre
+  - Gesundheit
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — wartet auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

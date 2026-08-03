@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-007
 type: input-text
+hint: Possessivartikel — ich, neutr., Nom.
 correct:
   - Mein
 ---
 
-___ Fahrrad ist neu. (Possessivartikel — ich, neutr., Nom.)
+Ergänze den Possessivartikel:
+
+___ Fahrrad ist neu.

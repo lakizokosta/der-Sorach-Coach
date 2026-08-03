@@ -8,8 +8,11 @@ words:
   - lang
   - war
   - blieb
-  - Kursinhalt
+  - der
+  - Inhalt
   - spannend
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl Kritik laut)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

@@ -1,8 +1,11 @@
 ---
 id: b1-kadv-in-043
 type: input-text
+hint: Konjunktionaladverb — Außerdem / Denn / Deshalb / Weil
 correct:
   - Deshalb
 ---
 
-Er spart Energie. ___, senkt er seine Kosten. (Konjunktionaladverb)
+Ergänze das Konjunktionaladverb:
+
+Er spart Energie. ___, senkt er seine Kosten.

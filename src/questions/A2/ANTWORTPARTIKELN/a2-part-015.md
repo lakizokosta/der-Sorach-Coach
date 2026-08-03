@@ -9,4 +9,4 @@ options:
 correct: aber
 ---
 
-„Das Wetter ist schön, ___ es ist windig." (Antwortpartikel — Kontrast)
+„Das Wetter ist schön, ___ es ist windig." (Antwortpartikel)

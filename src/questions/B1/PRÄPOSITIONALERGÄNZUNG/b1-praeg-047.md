@@ -9,4 +9,4 @@ options:
 correct: an
 ---
 
-Er denkt oft ___ seine Zukunft. (Verb + Präposition)
+Er denkt oft ___ seine Zukunft. (Präpositionalergänzung)

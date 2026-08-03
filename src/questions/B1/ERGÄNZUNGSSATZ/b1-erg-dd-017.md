@@ -10,6 +10,8 @@ words:
   - Meeting
   - verschoben
   - wird
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Vertrag gilt)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

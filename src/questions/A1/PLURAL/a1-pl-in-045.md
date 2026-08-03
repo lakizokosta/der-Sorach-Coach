@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-045
 type: input-text
+hint: Plural: Dorf
 correct:
   - Dörfer
 ---
 
-In der Region gibt es kleine ___. (Plural)
+Ergänze die Pluralform:
+
+In der Region gibt es kleine ___.

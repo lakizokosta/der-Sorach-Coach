@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-025
 type: input-text
+hint: Passiv + Hilfsverb werden
 correct:
   - wurde
 ---
 
-Der Termin ___ verschoben. (Passiv + Hilfsverb werden)
+Ergänze die Passivform:
+
+Der Termin ___ verschoben.

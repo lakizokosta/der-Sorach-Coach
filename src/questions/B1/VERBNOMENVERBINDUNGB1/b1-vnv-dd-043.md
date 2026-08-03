@@ -2,13 +2,12 @@
 id: b1-vnv-dd-043
 type: dropbox
 words:
-  - Ich
-  - führe
-  - ein
-  - Gespräch
-  - mit
-  - dem
-  - Chef
+  - Er
+  - übernimmt
+  - Verantwortung
+  - für
+  - das
+  - Projekt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Gespräch führen)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

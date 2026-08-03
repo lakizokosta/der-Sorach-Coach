@@ -1,8 +1,11 @@
 ---
 id: b1-perf-in-028
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - hat
 ---
 
-Sie ___ ein wichtiges Gespräch geführt. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Sie ___ ein wichtiges Gespräch geführt.

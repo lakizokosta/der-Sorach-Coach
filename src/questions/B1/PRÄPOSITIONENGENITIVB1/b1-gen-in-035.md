@@ -1,8 +1,11 @@
 ---
 id: b1-gen-in-035
 type: input-text
+hint: Genitiv-Präposition
 correct:
   - Trotz
 ---
 
-___ der hohen Kosten gehen wir trotzdem auf Reisen. (Genitiv-Präposition)
+Ergänze die Genitiv-Präposition:
+
+___ der hohen Kosten gehen wir trotzdem auf Reisen.

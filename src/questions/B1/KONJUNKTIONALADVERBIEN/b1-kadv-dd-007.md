@@ -12,4 +12,4 @@ words:
   - ruhig
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch ruhig)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

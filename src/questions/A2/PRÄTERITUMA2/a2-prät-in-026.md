@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-026
 type: input-text
+hint: Präteritum + Verb wissen
 correct:
   - wusste
 ---
 
-Ich ___ das nicht. (Präteritum + Verb wissen)
+Ergänze die Präteritumsform:
+
+Ich ___ das nicht.

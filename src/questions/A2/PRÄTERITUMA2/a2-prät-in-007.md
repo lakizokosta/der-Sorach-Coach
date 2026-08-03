@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-007
 type: input-text
+hint: Präteritum + Verb schlafen
 correct:
   - schlief
 ---
 
-Er ___ die ganze Nacht. (Präteritum + Verb schlafen)
+Ergänze die Präteritumsform:
+
+Er ___ die ganze Nacht.

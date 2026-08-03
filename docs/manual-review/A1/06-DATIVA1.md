@@ -74,7 +74,7 @@
 ### 5. `a1-dat-006` · select-one
 
 **Aufgabe:**
-> Ich helfe ___ Kind. (Dativ — Dat.)
+> Ich helfe ___ Kind. (Dativ — das Kind, Dat.)
 
 **Optionen:**
 - das
@@ -88,7 +88,7 @@
 ### 6. `a1-dat-007` · select-one
 
 **Aufgabe:**
-> Ich gebe ___ Frau die Blume. (Dativ — Dat.)
+> Ich gebe ___ Frau die Blume. (Dativ — die Frau, Dat.)
 
 **Optionen:**
 - dem
@@ -102,7 +102,7 @@
 ### 7. `a1-dat-008` · select-one
 
 **Aufgabe:**
-> Ich danke ___ Lehrer. (Dativ — Dat.)
+> Ich danke ___ Lehrer. (Dativ — der Lehrer, Dat.)
 
 **Optionen:**
 - die
@@ -116,7 +116,7 @@
 ### 8. `a1-dat-009` · select-one
 
 **Aufgabe:**
-> Das gehört ___ Bruder. (Dativ — Dat.)
+> Das gehört ___ Bruder. (Dativ — der Bruder, Dat.)
 
 **Optionen:**
 - den
@@ -130,7 +130,7 @@
 ### 9. `a1-dat-010` · select-one
 
 **Aufgabe:**
-> Ich antworte ___ Freundin. (Dativ — meine Mutter, Dat.)
+> Ich antworte ___ Freundin. (Dativ — die Freundin, Dat.)
 
 **Optionen:**
 - dem
@@ -144,7 +144,7 @@
 ### 10. `a1-dat-011` · select-one
 
 **Aufgabe:**
-> Wir gratulieren ___ Eltern. (Dativ — Dat.)
+> Wir gratulieren ___ Eltern. (Dativ — die Eltern, Dat.)
 
 **Optionen:**
 - der
@@ -158,7 +158,7 @@
 ### 11. `a1-dat-012` · select-one
 
 **Aufgabe:**
-> Ich erzähle ___ Kindern eine Geschichte. (Dativ — Dat.)
+> Ich erzähle ___ Kindern eine Geschichte. (Dativ — die Kinder, Dat.)
 
 **Optionen:**
 - dem Kind
@@ -172,7 +172,7 @@
 ### 12. `a1-dat-013` · select-one
 
 **Aufgabe:**
-> Kannst du ___ helfen? (Dativ — Dativform)
+> Kannst du ___ helfen? (Dativ — ich, Dat.)
 
 **Optionen:**
 - mein
@@ -186,7 +186,7 @@
 ### 13. `a1-dat-014` · select-one
 
 **Aufgabe:**
-> Das schmeckt ___ gut. (Dativ — Dat.)
+> Das schmeckt ___ gut. (Dativ — du, Dat.)
 
 **Optionen:**
 - du
@@ -200,7 +200,7 @@
 ### 14. `a1-dat-015` · select-one
 
 **Aufgabe:**
-> Ich kaufe ___ eine Karte. (Dativ — Dat.)
+> Ich kaufe ___ eine Karte. (Dativ — meine Mutter, Dat.)
 
 **Optionen:**
 - meine Mutter
@@ -214,7 +214,7 @@
 ### 15. `a1-dat-016` · select-one
 
 **Aufgabe:**
-> Ich folge ___ Hund. (Dativ — Dat.)
+> Ich folge ___ Hund. (Dativ — der Hund, Dat.)
 
 **Optionen:**
 - der
@@ -228,7 +228,7 @@
 ### 16. `a1-dat-017` · select-one
 
 **Aufgabe:**
-> Es geht ___ schlecht. (Dativ — Dat.)
+> Es geht ___ schlecht. (Dativ — er, Dat.)
 
 **Optionen:**
 - sein
@@ -242,7 +242,7 @@
 ### 17. `a1-dat-018` · select-one
 
 **Aufgabe:**
-> Ich schreibe ___ einen Brief. (Dativ — Dat.)
+> Ich schreibe ___ einen Brief. (Dativ — Anna, Dat.)
 
 **Optionen:**
 - Annam
@@ -256,7 +256,7 @@
 ### 18. `a1-dat-019` · select-one
 
 **Aufgabe:**
-> Mit ___ fahre ich zur Arbeit. (Dativ — Dat.)
+> Mit ___ fahre ich zur Arbeit. (Dativ — der Bus, Dat.)
 
 **Optionen:**
 - der Bus
@@ -270,7 +270,7 @@
 ### 19. `a1-dat-020` · select-one
 
 **Aufgabe:**
-> In ___ Stadt wohne ich. (Dativ — Dat.)
+> In ___ Stadt wohne ich. (Dativ — die Stadt, Dat.)
 
 **Optionen:**
 - dem
@@ -284,7 +284,7 @@
 ### 20. `a1-dat-021` · select-one
 
 **Aufgabe:**
-> Ich helfe ___ Kind. (Dativ — Dat.)
+> Ich helfe ___ Kind. (Dativ — das Kind, Dat.)
 
 **Optionen:**
 - der
@@ -298,7 +298,7 @@
 ### 21. `a1-dat-022` · select-one
 
 **Aufgabe:**
-> Ich gebe ___ Frau die Blume. (Dativ — meine Oma, Dat.)
+> Ich gebe ___ Frau die Blume. (Dativ — die Frau, Dat.)
 
 **Optionen:**
 - dem
@@ -312,7 +312,7 @@
 ### 22. `a1-dat-023` · select-one
 
 **Aufgabe:**
-> Ich danke ___ Lehrer. (Dativ — Dat.)
+> Ich danke ___ Lehrer. (Dativ — der Lehrer, Dat.)
 
 **Optionen:**
 - die
@@ -326,7 +326,7 @@
 ### 23. `a1-dat-024` · select-one
 
 **Aufgabe:**
-> Das gehört ___ Bruder. (Dativ — Dat.)
+> Das gehört ___ Bruder. (Dativ — der Bruder, Dat.)
 
 **Optionen:**
 - des
@@ -340,7 +340,7 @@
 ### 24. `a1-dat-025` · select-one
 
 **Aufgabe:**
-> Ich antworte ___ Freundin. (Dativ — Dat.)
+> Ich antworte ___ Freundin. (Dativ — die Freundin, Dat.)
 
 **Optionen:**
 - den
@@ -354,7 +354,7 @@
 ### 25. `a1-dat-026` · select-one
 
 **Aufgabe:**
-> Wir gratulieren ___ Eltern. (Dativ — Dat.)
+> Wir gratulieren ___ Eltern. (Dativ — die Eltern, Dat.)
 
 **Optionen:**
 - dem
@@ -368,7 +368,7 @@
 ### 26. `a1-dat-027` · select-one
 
 **Aufgabe:**
-> Ich erzähle ___ Kindern eine Geschichte. (Dativ — meine Freunde, Dat.)
+> Ich erzähle ___ Kindern eine Geschichte. (Dativ — die Kinder, Dat.)
 
 **Optionen:**
 - dem Kind
@@ -382,7 +382,7 @@
 ### 27. `a1-dat-028` · select-one
 
 **Aufgabe:**
-> Kannst du ___ helfen? (Dativ — Dat.)
+> Kannst du ___ helfen? (Dativ — ich, Dat.)
 
 **Optionen:**
 - ich
@@ -396,7 +396,7 @@
 ### 28. `a1-dat-029` · select-one
 
 **Aufgabe:**
-> Das schmeckt ___ gut. (Dativ — Dat.)
+> Das schmeckt ___ gut. (Dativ — du, Dat.)
 
 **Optionen:**
 - du
@@ -410,7 +410,7 @@
 ### 29. `a1-dat-030` · select-one
 
 **Aufgabe:**
-> Ich kaufe ___ eine Karte. (Dativ — Dat.)
+> Ich kaufe ___ eine Karte. (Dativ — meine Mutter, Dat.)
 
 **Optionen:**
 - meinem Mutter
@@ -424,7 +424,7 @@
 ### 30. `a1-dat-031` · select-one
 
 **Aufgabe:**
-> Ich folge ___ Hund. (Dativ — Dat.)
+> Ich folge ___ Hund. (Dativ — der Hund, Dat.)
 
 **Optionen:**
 - den
@@ -438,7 +438,7 @@
 ### 31. `a1-dat-032` · select-one
 
 **Aufgabe:**
-> Es geht ___ schlecht. (Dativ — Dat.)
+> Es geht ___ schlecht. (Dativ — er, Dat.)
 
 **Optionen:**
 - er
@@ -452,7 +452,7 @@
 ### 32. `a1-dat-033` · select-one
 
 **Aufgabe:**
-> Ich schreibe ___ einen Brief. (Dativ — Dat.)
+> Ich schreibe ___ einen Brief. (Dativ — Anna, Dat.)
 
 **Optionen:**
 - Annas
@@ -466,7 +466,7 @@
 ### 33. `a1-dat-034` · select-one
 
 **Aufgabe:**
-> Mit ___ fahre ich zur Arbeit. (Dativ — Dat.)
+> Mit ___ fahre ich zur Arbeit. (Dativ — der Bus, Dat.)
 
 **Optionen:**
 - der Bus
@@ -480,7 +480,7 @@
 ### 34. `a1-dat-035` · select-one
 
 **Aufgabe:**
-> In ___ Stadt wohne ich. (Dativ — Dat.)
+> In ___ Stadt wohne ich. (Dativ — die Stadt, Dat.)
 
 **Optionen:**
 - die
@@ -494,7 +494,7 @@
 ### 35. `a1-dat-036` · select-one
 
 **Aufgabe:**
-> Ich helfe ___ Kind. (Dativ — mein Freund, Dat.)
+> Ich helfe ___ Kind. (Dativ — das Kind, Dat.)
 
 **Optionen:**
 - der
@@ -508,7 +508,7 @@
 ### 36. `a1-dat-037` · select-one
 
 **Aufgabe:**
-> Ich gebe ___ Frau die Blume. (Dativ — Dat.)
+> Ich gebe ___ Frau die Blume. (Dativ — die Frau, Dat.)
 
 **Optionen:**
 - die
@@ -522,7 +522,7 @@
 ### 37. `a1-dat-038` · select-one
 
 **Aufgabe:**
-> Ich danke ___ Lehrer. (Dativ — Dat.)
+> Ich danke ___ Lehrer. (Dativ — der Lehrer, Dat.)
 
 **Optionen:**
 - der
@@ -536,7 +536,7 @@
 ### 38. `a1-dat-039` · select-one
 
 **Aufgabe:**
-> Das gehört ___ Bruder. (Dativ — Dat.)
+> Das gehört ___ Bruder. (Dativ — der Bruder, Dat.)
 
 **Optionen:**
 - des
@@ -550,7 +550,7 @@
 ### 39. `a1-dat-040` · select-one
 
 **Aufgabe:**
-> Ich antworte ___ Freundin. (Dativ — Dat.)
+> Ich antworte ___ Freundin. (Dativ — die Freundin, Dat.)
 
 **Optionen:**
 - die
@@ -564,7 +564,7 @@
 ### 40. `a1-dat-041` · select-one
 
 **Aufgabe:**
-> Wir gratulieren ___ Eltern. (Dativ — Dat.)
+> Wir gratulieren ___ Eltern. (Dativ — die Eltern, Dat.)
 
 **Optionen:**
 - dem
@@ -578,7 +578,7 @@
 ### 41. `a1-dat-042` · select-one
 
 **Aufgabe:**
-> Ich erzähle ___ Kindern eine Geschichte. (Dativ — meine Schwester, Dat.)
+> Ich erzähle ___ Kindern eine Geschichte. (Dativ — die Kinder, Dat.)
 
 **Optionen:**
 - dem Kind
@@ -592,7 +592,7 @@
 ### 42. `a1-dat-043` · select-one
 
 **Aufgabe:**
-> Kannst du ___ helfen? (Dativ — Dat.)
+> Kannst du ___ helfen? (Dativ — ich, Dat.)
 
 **Optionen:**
 - mich
@@ -606,7 +606,7 @@
 ### 43. `a1-dat-044` · select-one
 
 **Aufgabe:**
-> Das schmeckt ___ gut. (Dativ — Dat.)
+> Das schmeckt ___ gut. (Dativ — du, Dat.)
 
 **Optionen:**
 - dein
@@ -620,7 +620,7 @@
 ### 44. `a1-dat-045` · select-one
 
 **Aufgabe:**
-> Ich kaufe ___ eine Karte. (Dativ — Dat.)
+> Ich kaufe ___ eine Karte. (Dativ — meine Mutter, Dat.)
 
 **Optionen:**
 - meinen Mutter
@@ -634,7 +634,7 @@
 ### 45. `a1-dat-046` · select-one
 
 **Aufgabe:**
-> Ich folge ___ Hund. (Dativ — Dat.)
+> Ich folge ___ Hund. (Dativ — der Hund, Dat.)
 
 **Optionen:**
 - der
@@ -648,7 +648,7 @@
 ### 46. `a1-dat-047` · select-one
 
 **Aufgabe:**
-> Es geht ___ schlecht. (Dativ — Dat.)
+> Es geht ___ schlecht. (Dativ — er, Dat.)
 
 **Optionen:**
 - ihn
@@ -662,7 +662,7 @@
 ### 47. `a1-dat-048` · select-one
 
 **Aufgabe:**
-> Ich schreibe ___ einen Brief. (Dativ — Dat.)
+> Ich schreibe ___ einen Brief. (Dativ — Anna, Dat.)
 
 **Optionen:**
 - Annas
@@ -676,7 +676,7 @@
 ### 48. `a1-dat-049` · select-one
 
 **Aufgabe:**
-> Mit ___ fahre ich zur Arbeit. (Dativ — mein Vater, Dat.)
+> Mit ___ fahre ich zur Arbeit. (Dativ — der Bus, Dat.)
 
 **Optionen:**
 - der Bus
@@ -690,7 +690,7 @@
 ### 49. `a1-dat-050` · select-one
 
 **Aufgabe:**
-> In ___ Stadt wohne ich. (Dativ — Dat.)
+> In ___ Stadt wohne ich. (Dativ — die Stadt, Dat.)
 
 **Optionen:**
 - dem
@@ -1020,9 +1020,9 @@
 ### 81. `a1-dat-in-030` · input-text
 
 **Aufgabe:**
-> Der Arzt hilft ___ Patient. (Dativ — Dat.)
+> Der Arzt hilft ___ Patient. (Dativ — der Patient, Dat.)
 
-**Antwort:** `dem Patient`
+**Antwort:** `dem Patienten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1294,7 +1294,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Dativ — mir helfen)
 
-**Wörter:** Kannst · du · mir · helfen
+**Wörter:** Kannst · du · mir · helfen · ?
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1392,9 +1392,9 @@
 ### 118. `a1-dat-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — dem Patient helfen)
+> [Gesundheit] Ordne die Wörter zum richtigen Satz: (Dativ — dem Patienten helfen)
 
-**Wörter:** Der · Arzt · hilft · dem · Patient
+**Wörter:** Der · Arzt · hilft · dem · Patienten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `a1-dat-dd-023` · dropbox
 
 **Aufgabe:**
-> [Transport] Ordne die Wörter zum richtigen Satz: (Dativ — nach Hause fahren)
+> [Schule] Ordne die Wörter zum richtigen Satz: (Dativ — nach der Schule spielen)
 
-**Wörter:** Wir · fahren · nach · Hause
+**Wörter:** Wir · spielen · nach · der · Schule
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `a1-dat-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — in den Schuhen laufen)
+> [Kleidung] Ordne die Wörter zum richtigen Satz: (Dativ — in den Schuhen laufen)
 
-**Wörter:** Ich · laufe · in · Schuhen
+**Wörter:** Ich · laufe · in · den · Schuhen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `a1-dat-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Dativ — mit den Freunden essen)
+> [Essen] Ordne die Wörter zum richtigen Satz: (Dativ — mit den Freunden essen)
 
-**Wörter:** Wir · essen · mit · Freunden
+**Wörter:** Wir · essen · mit · den · Freunden
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

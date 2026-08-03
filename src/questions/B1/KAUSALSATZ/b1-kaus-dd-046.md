@@ -2,14 +2,16 @@
 id: b1-kaus-dd-046
 type: dropbox
 words:
-  - Da
-  - die
-  - Politik
-  - sich
-  - ändert
-  - reagieren
-  - viele
-  - Bürger
+  - Ich
+  - bleibe
+  - zu
+  - Hause
+  - weil
+  - ich
+  - krank
+  - bin
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Politik sich ändert)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

@@ -1,8 +1,14 @@
 ---
 id: b1-kaus-in-009
 type: input-text
+hint: Kausalsatz — weil/da
 correct:
+  - weil
   - Weil
+  - da
+  - Da
 ---
 
-___ das Wetter schlecht ist, fällt das Fest aus. (Kausalsatz)
+Ergänze die Konjunktion (Kausal):
+
+___ das Wetter schlecht ist, fällt das Fest aus.

@@ -2,12 +2,11 @@
 id: b1-perf-dd-021
 type: dropbox
 words:
-  - Ich
-  - habe
-  - den
-  - Artikel
-  - gestern
-  - gelesen
+  - Er
+  - ist
+  - nach
+  - Berlin
+  - gefahren
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

@@ -10,4 +10,4 @@ words:
   - Park
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — neben Park)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

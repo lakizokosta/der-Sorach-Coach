@@ -2,12 +2,14 @@
 id: b1-erg-dd-040
 type: dropbox
 words:
-  - Ich
-  - glaube
+  - Man
+  - hört
   - dass
   - die
-  - Nachrichten
-  - übertreiben
+  - Preise
+  - steigen
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Nachrichten übertreiben)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

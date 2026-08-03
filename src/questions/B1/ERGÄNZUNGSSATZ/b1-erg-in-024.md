@@ -1,8 +1,11 @@
 ---
 id: b1-erg-in-024
 type: input-text
+hint: Ergänzungssatz
 correct:
   - dass
 ---
 
-Die Professorin erklärt, ___ der Kurs anspruchsvoll ist. (Ergänzungssatz)
+Ergänze die Konjunktion (Ergänzung):
+
+Die Professorin erklärt, ___ der Kurs anspruchsvoll ist.

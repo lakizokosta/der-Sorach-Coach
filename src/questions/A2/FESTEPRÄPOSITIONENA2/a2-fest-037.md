@@ -2,11 +2,11 @@
 id: a2-fest-037
 type: select-one
 options:
-  - die
-  - dem
-  - den
-  - das
-correct: das
+  - für
+  - von
+  - an
+  - über
+correct: über
 ---
 
-Wir diskutieren über ___ Problem. (feste Präposition)
+Wir sprechen ___ die Reise. (Feste Präposition)

@@ -1,8 +1,14 @@
 ---
 id: b1-konz-in-009
 type: input-text
+hint: Konzessivsatz — obwohl/obschon
 correct:
+  - obschon
   - Obschon
+  - obwohl
+  - Obwohl
 ---
 
-___ das Medikament teuer ist, kauft er es. (Konzessivsatz — obwohl)
+Ergänze die Konjunktion (Konzessiv):
+
+___ das Medikament teuer ist, kauft er es.

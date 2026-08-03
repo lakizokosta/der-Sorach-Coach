@@ -2,11 +2,12 @@
 id: b1-praep-dd-020
 type: dropbox
 words:
-  - Wir
-  - warten
-  - auf
-  - den
-  - Arzt
+  - Das
+  - Gesetz
+  - gilt
+  - ab
+  - nächsten
+  - Monat
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — auf Arzt)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

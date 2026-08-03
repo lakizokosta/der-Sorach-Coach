@@ -1,8 +1,14 @@
 ---
 id: b1-konz-in-011
 type: input-text
+hint: Konzessivsatz — obwohl/obschon
 correct:
+  - obwohl
   - Obwohl
+  - obschon
+  - Obschon
 ---
 
-___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz)
+Ergänze die Konjunktion (Konzessiv):
+
+___ die Politik umstritten ist, diskutieren viele Menschen.

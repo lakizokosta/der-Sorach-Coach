@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-006
 type: input-text
+hint: Akkusativ — meine Freundin, Akk.
 correct:
   - meine
 ---
 
-Ich besuche ___ Freundin. (Akkusativ — Akkusativform)
+Ergänze die Akkusativform:
+
+Ich besuche ___ Freundin.

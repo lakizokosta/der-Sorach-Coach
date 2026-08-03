@@ -5,4 +5,6 @@ correct:
   - wird
 ---
 
-Sie ___ (werden) sicher Recht behalten. (Futur + Verb werden)
+Ergänze die Futurform:
+
+Sie ___ (werden) sicher Recht behalten.

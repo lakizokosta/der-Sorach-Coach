@@ -10,4 +10,4 @@ words:
   - Küste
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — an Küste)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

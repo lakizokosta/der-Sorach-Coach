@@ -18,13 +18,13 @@
 ### 1. `a2-akk-001` · select-one
 
 **Aufgabe:**
-> Ich warte auf ___ Bus. (Akkusativ — der Bus)
+> Ich gehe ohne ___ Regenschirm. (Akkusativ — der Regenschirm)
 
 **Optionen:**
-- dem
+- der
 - den **✓**
 - die
-- der
+- dem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -32,13 +32,13 @@
 ### 2. `a2-akk-002` · select-one
 
 **Aufgabe:**
-> Er denkt an ___ Urlaub. (Akkusativ — der Urlaub)
+> Er läuft gegen ___ Wind. (Akkusativ — der Wind)
 
 **Optionen:**
-- dem
-- das
-- den **✓**
 - der
+- des
+- den **✓**
+- dem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -49,8 +49,8 @@
 > Wir fahren durch ___ Park. (Akkusativ — der Park)
 
 **Optionen:**
-- dem
-- das
+- der
+- des
 - die
 - den **✓**
 
@@ -228,13 +228,13 @@
 ### 16. `a2-akk-016` · select-one
 
 **Aufgabe:**
-> Ich warte auf ___ Bus. (Akkusativ — Akkusativform)
+> Ich gehe ohne ___ Regenschirm. (Akkusativ — der Regenschirm)
 
 **Optionen:**
-- der
+- dem
 - den **✓**
 - die
-- das
+- des
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -242,13 +242,13 @@
 ### 17. `a2-akk-017` · select-one
 
 **Aufgabe:**
-> Er denkt an ___ Urlaub. (Akkusativ — Akkusativform)
+> Er läuft gegen ___ Wind. (Akkusativ — der Wind)
 
 **Optionen:**
-- dem
+- der
 - den **✓**
 - die
-- der
+- dem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -256,13 +256,13 @@
 ### 18. `a2-akk-018` · select-one
 
 **Aufgabe:**
-> Wir fahren durch ___ Park. (Akkusativ — der Bus)
+> Wir fahren durch ___ Park. (Akkusativ — der Park)
 
 **Optionen:**
-- dem
-- den **✓**
 - der
-- das
+- den **✓**
+- dem
+- des
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -438,11 +438,11 @@
 ### 31. `a2-akk-031` · select-one
 
 **Aufgabe:**
-> Ich warte auf ___ Bus. (Akkusativ — der Podcast)
+> Ich gehe ohne ___ Regenschirm. (Akkusativ — der Regenschirm)
 
 **Optionen:**
-- dem
-- das
+- der
+- des
 - die
 - den **✓**
 
@@ -452,13 +452,13 @@
 ### 32. `a2-akk-032` · select-one
 
 **Aufgabe:**
-> Er denkt an ___ Urlaub. (Akkusativ — ein Tisch)
+> Er läuft gegen ___ Wind. (Akkusativ — der Wind)
 
 **Optionen:**
-- der
+- dem
 - den **✓**
 - die
-- das
+- des
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -466,11 +466,11 @@
 ### 33. `a2-akk-033` · select-one
 
 **Aufgabe:**
-> Wir fahren durch ___ Park. (Akkusativ — Akkusativform)
+> Wir fahren durch ___ Park. (Akkusativ — der Park)
 
 **Optionen:**
-- dem
 - der
+- dem
 - den **✓**
 - die
 
@@ -648,13 +648,13 @@
 ### 46. `a2-akk-046` · select-one
 
 **Aufgabe:**
-> Ich warte auf ___ Bus. (Akkusativ — Akkusativform)
+> Ich gehe ohne ___ Regenschirm. (Akkusativ — der Regenschirm)
 
 **Optionen:**
-- der
-- den **✓**
-- das
 - dem
+- den **✓**
+- des
+- der
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -662,12 +662,12 @@
 ### 47. `a2-akk-047` · select-one
 
 **Aufgabe:**
-> Er denkt an ___ Urlaub. (Akkusativ — Akkusativform)
+> Er läuft gegen ___ Wind. (Akkusativ — der Wind)
 
 **Optionen:**
 - die
-- dem
-- das
+- der
+- des
 - den **✓**
 
 - [ ] OK
@@ -676,11 +676,11 @@
 ### 48. `a2-akk-048` · select-one
 
 **Aufgabe:**
-> Wir fahren durch ___ Park. (Akkusativ — der Podcast)
+> Wir fahren durch ___ Park. (Akkusativ — der Park)
 
 **Optionen:**
-- der
-- das
+- dem
+- des
 - den **✓**
 - die
 
@@ -810,7 +810,7 @@
 ### 60. `a2-akk-in-010` · input-text
 
 **Aufgabe:**
-> Sie kauft ___ Teppich auf der Auktion. (Akkusativ — ein Teppich)
+> Sie kauft ___ Teppich bei der Auktion. (Akkusativ — ein Teppich)
 
 **Antwort:** `einen`
 
@@ -820,7 +820,7 @@
 ### 61. `a2-akk-in-011` · input-text
 
 **Aufgabe:**
-> Ich lese ___ Artikel im Radio-Interview. (Akkusativ — der Artikel)
+> Ich lese ___ Artikel in der Zeitung. (Akkusativ — der Artikel)
 
 **Antwort:** `den`
 
@@ -830,7 +830,7 @@
 ### 62. `a2-akk-in-012` · input-text
 
 **Aufgabe:**
-> Er nimmt ___ Medikament. (Akkusativ — Akkusativform)
+> Er nimmt morgens ___ Medikament. (Akkusativ — Akkusativform)
 
 **Antwort:** `das`
 
@@ -840,7 +840,7 @@
 ### 63. `a2-akk-in-013` · input-text
 
 **Aufgabe:**
-> Wir besuchen ___ Museum. (Akkusativ — Akkusativform)
+> Wir besuchen heute ___ Museum. (Akkusativ — Akkusativform)
 
 **Antwort:** `das`
 
@@ -980,7 +980,7 @@
 ### 77. `a2-akk-in-027` · input-text
 
 **Aufgabe:**
-> Sie kauft ___ Teppich auf der Auktion. (Akkusativ — ein Teppich)
+> Sie kauft ___ Teppich bei der Auktion. (Akkusativ — ein Teppich)
 
 **Antwort:** `einen`
 
@@ -990,7 +990,7 @@
 ### 78. `a2-akk-in-028` · input-text
 
 **Aufgabe:**
-> Ich lese ___ Artikel im Radio-Interview. (Akkusativ — der Artikel)
+> Ich lese ___ Artikel in der Zeitung. (Akkusativ — der Artikel)
 
 **Antwort:** `den`
 
@@ -1000,7 +1000,7 @@
 ### 79. `a2-akk-in-029` · input-text
 
 **Aufgabe:**
-> Er nimmt ___ Medikament. (Akkusativ — Akkusativform)
+> Er nimmt morgens ___ Medikament. (Akkusativ — Akkusativform)
 
 **Antwort:** `das`
 
@@ -1010,7 +1010,7 @@
 ### 80. `a2-akk-in-030` · input-text
 
 **Aufgabe:**
-> Wir besuchen ___ Museum. (Akkusativ — Akkusativform)
+> Wir besuchen heute ___ Museum. (Akkusativ — Akkusativform)
 
 **Antwort:** `das`
 
@@ -1150,7 +1150,7 @@
 ### 94. `a2-akk-in-044` · input-text
 
 **Aufgabe:**
-> Sie kauft ___ Teppich auf der Auktion. (Akkusativ — ein Teppich)
+> Sie kauft ___ Teppich bei der Auktion. (Akkusativ — ein Teppich)
 
 **Antwort:** `einen`
 
@@ -1160,7 +1160,7 @@
 ### 95. `a2-akk-in-045` · input-text
 
 **Aufgabe:**
-> Ich lese ___ Artikel im Radio-Interview. (Akkusativ — der Artikel)
+> Ich lese ___ Artikel in der Zeitung. (Akkusativ — der Artikel)
 
 **Antwort:** `den`
 
@@ -1170,7 +1170,7 @@
 ### 96. `a2-akk-in-046` · input-text
 
 **Aufgabe:**
-> Er nimmt ___ Medikament. (Akkusativ — Akkusativform)
+> Er nimmt morgens ___ Medikament. (Akkusativ — Akkusativform)
 
 **Antwort:** `das`
 
@@ -1180,7 +1180,7 @@
 ### 97. `a2-akk-in-047` · input-text
 
 **Aufgabe:**
-> Wir besuchen ___ Museum. (Akkusativ — Akkusativform)
+> Wir besuchen heute ___ Museum. (Akkusativ — Akkusativform)
 
 **Antwort:** `das`
 
@@ -1314,7 +1314,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — einen)
 
-**Wörter:** Sie · kauft · einen · Teppich · auf · der · Auktion
+**Wörter:** Sie · kauft · einen · Teppich · bei · der · Auktion
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1324,7 +1324,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — den)
 
-**Wörter:** Ich · lese · den · Artikel · im · Radio-Interview
+**Wörter:** Ich · lese · den · Artikel · in · der · Zeitung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1334,7 +1334,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das)
 
-**Wörter:** Er · nimmt · das · Medikament
+**Wörter:** Er · nimmt · morgens · das · Medikament
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1344,7 +1344,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das)
 
-**Wörter:** Wir · besuchen · das · Museum
+**Wörter:** Wir · besuchen · heute · das · Museum
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1484,7 +1484,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — einen)
 
-**Wörter:** Sie · kauft · einen · Teppich · auf · der · Auktion
+**Wörter:** Sie · kauft · einen · Teppich · bei · der · Auktion
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1494,7 +1494,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — den)
 
-**Wörter:** Ich · lese · den · Artikel · im · Radio-Interview
+**Wörter:** Ich · lese · den · Artikel · in · der · Zeitung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1504,7 +1504,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das)
 
-**Wörter:** Er · nimmt · das · Medikament
+**Wörter:** Er · nimmt · morgens · das · Medikament
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1514,7 +1514,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das)
 
-**Wörter:** Wir · besuchen · das · Museum
+**Wörter:** Wir · besuchen · heute · das · Museum
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1654,7 +1654,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — einen)
 
-**Wörter:** Sie · kauft · einen · Teppich · auf · der · Auktion
+**Wörter:** Sie · kauft · einen · Teppich · bei · der · Auktion
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1664,7 +1664,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — den)
 
-**Wörter:** Ich · lese · den · Artikel · im · Radio-Interview
+**Wörter:** Ich · lese · den · Artikel · in · der · Zeitung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1674,7 +1674,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das)
 
-**Wörter:** Er · nimmt · das · Medikament
+**Wörter:** Er · nimmt · morgens · das · Medikament
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1684,7 +1684,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das)
 
-**Wörter:** Wir · besuchen · das · Museum
+**Wörter:** Wir · besuchen · heute · das · Museum
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

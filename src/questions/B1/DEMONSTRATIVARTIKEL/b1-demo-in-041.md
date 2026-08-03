@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-041
 type: input-text
+hint: Demonstrativartikel — fem./Pl., Nom./Akk.
 correct:
   - Diese
 ---
 
-___ Patienten müssen länger warten. (Demonstrativartikel)
+Ergänze den Demonstrativartikel:
+
+___ Patienten müssen länger warten.

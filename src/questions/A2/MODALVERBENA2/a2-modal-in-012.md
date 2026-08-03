@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-012
 type: input-text
+hint: Modalverb + Verb können
 correct:
   - kann
 ---
 
-Ich ___ dir beim Formular helfen. (Modalverb + Verb können)
+Ergänze die Modalverbform:
+
+Ich ___ dir beim Formular helfen.

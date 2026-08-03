@@ -13,4 +13,4 @@ words:
   - Abteilung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — modernen Büro)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

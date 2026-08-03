@@ -1,8 +1,11 @@
 ---
 id: b1-npv-in-030
 type: input-text
+hint: Nomen + Präposition
 correct:
   - vor
 ---
 
-Sie hat Angst ___ großen Hunden. (Nomen + Präposition)
+Ergänze die passende Präposition:
+
+Sie hat Angst ___ großen Hunden.

@@ -5,4 +5,6 @@ correct:
   - wird
 ---
 
-Sie ___ (werden) die Prüfung bestehen. (Futur + Verb werden)
+Ergänze die Futurform:
+
+Sie ___ (werden) die Prüfung bestehen.

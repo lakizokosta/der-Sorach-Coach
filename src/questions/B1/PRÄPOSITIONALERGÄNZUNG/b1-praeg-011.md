@@ -9,4 +9,4 @@ options:
 correct: von
 ---
 
-Sie träumt ___ einer Stelle im Ausland. (Verb + Präposition)
+Sie träumt ___ einer Stelle im Ausland. (Präpositionalergänzung)

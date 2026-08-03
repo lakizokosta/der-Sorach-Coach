@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-019
 type: input-text
+hint: Akkusativ — der Zug, Akk.
 correct:
   - den
 ---
 
-Ich verpasse ___ Zug. (Akkusativ — Akk.)
+Ergänze die Akkusativform:
+
+Ich verpasse ___ Zug.

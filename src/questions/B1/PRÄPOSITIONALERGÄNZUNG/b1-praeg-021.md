@@ -9,4 +9,4 @@ options:
 correct: an
 ---
 
-Ich erinnere mich ___ unseren letzten Urlaub. (Verb + Präposition)
+Ich erinnere mich ___ unseren letzten Urlaub. (Präpositionalergänzung)

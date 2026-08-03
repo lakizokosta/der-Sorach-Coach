@@ -3,12 +3,15 @@ id: b1-konz-dd-035
 type: dropbox
 words:
   - Obwohl
-  - Schlafmangel
-  - herrscht
-  - arbeitet
-  - Kollege
-  - sehr
-  - produktiv
+  - die
+  - Prüfung
+  - schwer
+  - war
+  - hat
+  - sie
+  - bestanden
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl wenig schläft)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

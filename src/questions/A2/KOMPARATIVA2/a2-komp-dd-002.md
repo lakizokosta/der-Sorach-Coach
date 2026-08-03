@@ -9,6 +9,8 @@ words:
   - als
   - der
   - andere
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — gut)

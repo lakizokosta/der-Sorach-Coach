@@ -2,13 +2,17 @@
 id: b1-gen-dd-040
 type: dropbox
 words:
-  - Trotz
+  - Während
   - der
-  - Warnung
-  - fahren
-  - viele
-  - zu
-  - schnell
+  - Reparatur
+  - kann
+  - man
+  - die
+  - Straße
+  - nicht
+  - benutzen
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Warnung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

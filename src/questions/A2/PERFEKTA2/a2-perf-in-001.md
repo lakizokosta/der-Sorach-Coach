@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-001
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
-  - bin
+  - habe
 ---
 
-Ich ___ gestern viele Leute kennengelernt. (Perfekt + Hilfsverb sein)
+Ergänze die Perfektform:
+
+Ich ___ gestern viele Leute kennengelernt.

@@ -9,4 +9,4 @@ options:
 correct: Nein
 ---
 
-„Warst du krank?" — „___, ich war nur müde." (Antwortpartikel — Kontrast)
+„Warst du krank?" — „___, ich war nur müde." (Antwortpartikel)

@@ -9,4 +9,4 @@ words:
   - Uhr
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — ohne Termin)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

@@ -10,6 +10,8 @@ words:
   - Bus
   - nach
   - Berlin
+alternatives:
+  - ich,fahre,Morgen,mit,dem,Bus,nach,Berlin
 codes:
   - T
   - _

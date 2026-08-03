@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-036
 type: input-text
+hint: Artikel — das Fenster, Nom.
 correct:
   - Das
 ---
 
-___ Fenster ist offen. (Artikel — Nom.)
+Ergänze den Artikel:
+
+___ Fenster ist offen.

@@ -2,11 +2,11 @@
 id: a2-fest-018
 type: select-one
 options:
-  - der
-  - den
-  - die
-  - das
-correct: die
+  - nach
+  - in
+  - auf
+  - über
+correct: auf
 ---
 
-Wir sprechen über ___ Reise. (feste Präposition)
+Ich warte ___ eine Antwort vom Reisebüro. (Feste Präposition)

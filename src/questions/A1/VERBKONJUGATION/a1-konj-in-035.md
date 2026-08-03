@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-035
 type: input-text
+hint: Präsens + Verb anrufen
 correct:
   - rufe
 ---
 
-Ich ___ meine Freundin an. (Präsens + Verb anrufen)
+Ergänze die Präsensform des Verbs:
+
+Ich ___ meine Freundin an.

@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-028
 type: input-text
+hint: Plural: Computer
 correct:
   - Computer
 ---
 
-Im Büro stehen zehn ___. (Plural)
+Ergänze die Pluralform:
+
+Im Büro stehen zehn ___.

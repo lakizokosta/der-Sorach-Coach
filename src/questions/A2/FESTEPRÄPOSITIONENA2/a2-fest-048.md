@@ -2,11 +2,11 @@
 id: a2-fest-048
 type: select-one
 options:
-  - der
-  - die
-  - den
-  - dem
-correct: die
+  - mit
+  - nach
+  - bei
+  - an
+correct: nach
 ---
 
-Wir sprechen über ___ Reise. (feste Präposition)
+Er fragt ___ dem Weg zum Hotel. (Feste Präposition)

@@ -3,15 +3,16 @@ id: b1-kaus-dd-048
 type: dropbox
 words:
   - Er
-  - ist
-  - pünktlich
-  - denn
+  - kommt
+  - nicht
+  - mit
+  - weil
   - er
-  - den
-  - frühen
-  - Bus
-  - genommen
-  - hat
+  - noch
+  - arbeiten
+  - muss
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn Bus genommen)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

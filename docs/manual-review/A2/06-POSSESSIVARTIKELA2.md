@@ -1222,7 +1222,7 @@
 ### 101. `a2-poss-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meines)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Das · ist · das · Auto · meines · Vaters
 
@@ -1242,7 +1242,7 @@
 ### 103. `a2-poss-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Die · Idee · meiner · Kollegin · ist · gut
 
@@ -1262,7 +1262,7 @@
 ### 105. `a2-poss-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Wegen · seiner · Krankheit · bleibt · er · zu · Hause
 
@@ -1282,7 +1282,7 @@
 ### 107. `a2-poss-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — Artikel — des)
+> Ordne die Wörter zum richtigen Satz: (Genitiv)
 
 **Wörter:** Das · Zimmer · des · Kindes · ist · klein
 
@@ -1292,7 +1292,7 @@
 ### 108. `a2-poss-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — wir)
 
 **Wörter:** Wir · besuchen · unsere · Großeltern
 
@@ -1302,7 +1302,7 @@
 ### 109. `a2-poss-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Er · hilft · seiner · Nachbarin
 
@@ -1312,7 +1312,7 @@
 ### 110. `a2-poss-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihren)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — sie)
 
 **Wörter:** Ich · kenne · ihren · Bruder
 
@@ -1322,7 +1322,7 @@
 ### 111. `a2-poss-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Das · ist · die · Tasche · meiner · Mutter
 
@@ -1332,7 +1332,7 @@
 ### 112. `a2-poss-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — Artikel — des)
+> Ordne die Wörter zum richtigen Satz: (Genitiv)
 
 **Wörter:** Wegen · des · Regens · bleiben · wir · drinnen
 
@@ -1342,7 +1342,7 @@
 ### 113. `a2-poss-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seines)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Die · Wohnung · seines · Freundes · ist · schön
 
@@ -1352,9 +1352,9 @@
 ### 114. `a2-poss-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meine)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
-**Wörter:** Ich · liebe · meine · Stadt
+**Wörter:** Ich · fahre · mit · meiner · Familie · in · den · Urlaub
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1362,7 +1362,7 @@
 ### 115. `a2-poss-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinen)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Er · sucht · seinen · Schlüssel
 
@@ -1372,7 +1372,7 @@
 ### 116. `a2-poss-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Das · Fahrrad · meiner · Schwester · ist · neu
 
@@ -1382,7 +1382,7 @@
 ### 117. `a2-poss-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — euren)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihr)
 
 **Wörter:** Wir · feiern · euren · Geburtstag
 
@@ -1392,7 +1392,7 @@
 ### 118. `a2-poss-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — sie)
 
 **Wörter:** Das · ist · das · Handy · ihres · Chefs
 
@@ -1402,7 +1402,7 @@
 ### 119. `a2-poss-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meinem)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Ich · habe · meinem · Mann · ein · Geschenk · gekauft
 
@@ -1412,7 +1412,7 @@
 ### 120. `a2-poss-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — Meine)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Meine · Kindheit · war · schön
 
@@ -1422,7 +1422,7 @@
 ### 121. `a2-poss-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meines)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Das · ist · das · Auto · meines · Vaters
 
@@ -1432,7 +1432,7 @@
 ### 122. `a2-poss-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Die · Idee · meiner · Kollegin · ist · gut
 
@@ -1442,7 +1442,7 @@
 ### 123. `a2-poss-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Wegen · seiner · Krankheit · bleibt · er · zu · Hause
 
@@ -1452,7 +1452,7 @@
 ### 124. `a2-poss-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — Artikel — des)
+> Ordne die Wörter zum richtigen Satz: (Genitiv)
 
 **Wörter:** Das · Zimmer · des · Kindes · ist · klein
 
@@ -1462,7 +1462,7 @@
 ### 125. `a2-poss-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — wir)
 
 **Wörter:** Wir · besuchen · unsere · Großeltern
 
@@ -1472,7 +1472,7 @@
 ### 126. `a2-poss-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Er · hilft · seiner · Nachbarin
 
@@ -1482,7 +1482,7 @@
 ### 127. `a2-poss-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihren)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — sie)
 
 **Wörter:** Ich · kenne · ihren · Bruder
 
@@ -1492,7 +1492,7 @@
 ### 128. `a2-poss-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Das · ist · die · Tasche · meiner · Mutter
 
@@ -1502,7 +1502,7 @@
 ### 129. `a2-poss-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — Artikel — des)
+> Ordne die Wörter zum richtigen Satz: (Genitiv)
 
 **Wörter:** Wegen · des · Regens · bleiben · wir · drinnen
 
@@ -1512,7 +1512,7 @@
 ### 130. `a2-poss-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seines)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Die · Wohnung · seines · Freundes · ist · schön
 
@@ -1522,9 +1522,9 @@
 ### 131. `a2-poss-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meine)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
-**Wörter:** Ich · liebe · meine · Stadt
+**Wörter:** Ich · fahre · mit · meiner · Familie · in · den · Urlaub
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,7 +1532,7 @@
 ### 132. `a2-poss-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinen)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Er · sucht · seinen · Schlüssel
 
@@ -1542,7 +1542,7 @@
 ### 133. `a2-poss-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Das · Fahrrad · meiner · Schwester · ist · neu
 
@@ -1552,7 +1552,7 @@
 ### 134. `a2-poss-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — euren)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihr)
 
 **Wörter:** Wir · feiern · euren · Geburtstag
 
@@ -1562,7 +1562,7 @@
 ### 135. `a2-poss-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — sie)
 
 **Wörter:** Das · ist · das · Handy · ihres · Chefs
 
@@ -1572,7 +1572,7 @@
 ### 136. `a2-poss-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meinem)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Ich · habe · meinem · Mann · ein · Geschenk · gekauft
 
@@ -1582,7 +1582,7 @@
 ### 137. `a2-poss-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — Meine)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Meine · Kindheit · war · schön
 
@@ -1592,7 +1592,7 @@
 ### 138. `a2-poss-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meines)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Das · ist · das · Auto · meines · Vaters
 
@@ -1602,7 +1602,7 @@
 ### 139. `a2-poss-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Die · Idee · meiner · Kollegin · ist · gut
 
@@ -1612,7 +1612,7 @@
 ### 140. `a2-poss-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Wegen · seiner · Krankheit · bleibt · er · zu · Hause
 
@@ -1622,7 +1622,7 @@
 ### 141. `a2-poss-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — Artikel — des)
+> Ordne die Wörter zum richtigen Satz: (Genitiv)
 
 **Wörter:** Das · Zimmer · des · Kindes · ist · klein
 
@@ -1632,7 +1632,7 @@
 ### 142. `a2-poss-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — unsere)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — wir)
 
 **Wörter:** Wir · besuchen · unsere · Großeltern
 
@@ -1642,7 +1642,7 @@
 ### 143. `a2-poss-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Er · hilft · seiner · Nachbarin
 
@@ -1652,7 +1652,7 @@
 ### 144. `a2-poss-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihren)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — sie)
 
 **Wörter:** Ich · kenne · ihren · Bruder
 
@@ -1662,7 +1662,7 @@
 ### 145. `a2-poss-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Das · ist · die · Tasche · meiner · Mutter
 
@@ -1672,7 +1672,7 @@
 ### 146. `a2-poss-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — Artikel — des)
+> Ordne die Wörter zum richtigen Satz: (Genitiv)
 
 **Wörter:** Wegen · des · Regens · bleiben · wir · drinnen
 
@@ -1682,7 +1682,7 @@
 ### 147. `a2-poss-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seines)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Die · Wohnung · seines · Freundes · ist · schön
 
@@ -1692,9 +1692,9 @@
 ### 148. `a2-poss-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meine)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
-**Wörter:** Ich · liebe · meine · Stadt
+**Wörter:** Ich · fahre · mit · meiner · Familie · in · den · Urlaub
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,7 +1702,7 @@
 ### 149. `a2-poss-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinen)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — er)
 
 **Wörter:** Er · sucht · seinen · Schlüssel
 
@@ -1712,7 +1712,7 @@
 ### 150. `a2-poss-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Das · Fahrrad · meiner · Schwester · ist · neu
 
@@ -1722,7 +1722,7 @@
 ### 151. `a2-poss-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — euren)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihr)
 
 **Wörter:** Wir · feiern · euren · Geburtstag
 
@@ -1732,7 +1732,7 @@
 ### 152. `a2-poss-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihres)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — sie)
 
 **Wörter:** Das · ist · das · Handy · ihres · Chefs
 
@@ -1742,7 +1742,7 @@
 ### 153. `a2-poss-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Possessivartikel — meinem)
+> Ordne die Wörter zum richtigen Satz: (Possessivartikel — ich)
 
 **Wörter:** Ich · habe · meinem · Mann · ein · Geschenk · gekauft
 

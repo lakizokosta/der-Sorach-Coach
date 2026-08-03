@@ -2,13 +2,12 @@
 id: b1-ws-dd-018
 type: dropbox
 words:
-  - Nach
-  - der
-  - Operation
-  - braucht
-  - ein
-  - Patient
-  - Rehabilitation
+  - Der
+  - Journalist
+  - berichtet
+  - über
+  - internationale
+  - Ereignisse
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Rehabilitation)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

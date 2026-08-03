@@ -1,17 +1,14 @@
 <script setup>
 /**
- * DictionaryPopup — floating translation popup for a single German word.
+ * DictionaryPopup — floating translation for a clicked German word.
  *
- * It positions itself just below the clicked word, fetches a translation
- * from MyMemory, and dismisses on any outside click. The component owns
- * its own RU/EN language switch independent of the grammar tip language.
- *
- * @prop {?{word:string, rect:DOMRect}} target
- *   When non-null the popup is shown; when set to `null` the popup hides.
+ * Uses the app UI locale (DE / RU / EN). DE UI shows RU/EN gloss — never German→German.
  */
 
-import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue';
-import { translate } from '@/utils/dictionary.js';
+import { ref, watch, computed, onMounted, onBeforeUnmount } from 'vue';
+
+import { lookupWord, resolveLemma } from '@/utils/dictionary.js';
+import { useI18n } from '@/i18n/index.js';
 
 const props = defineProps({
   target: { type: Object, default: null },
@@ -19,80 +16,103 @@ const props = defineProps({
 
 const emit = defineEmits(['close']);
 
-const lang = ref('RU');
+const { locale } = useI18n();
+
 const translation = ref('');
+const lemmaLine = ref('');
+const posLabel = ref('');
+const source = ref('local');
 const loading = ref(false);
+const popupStyle = ref({ display: 'none' });
 
-const style = computed(() => {
-  if (!props.target?.rect) return { display: 'none' };
-  const rect = props.target.rect;
-  const top = rect.bottom + window.scrollY + 6;
-  let left = rect.left + window.scrollX;
-  if (left + 260 > window.innerWidth) left = window.innerWidth - 265;
-  return { top: `${top}px`, left: `${left}px` };
-});
+const genderLabels = { m: 'der', f: 'die', n: 'das' };
 
-/** Triggers a fresh translation lookup for the current target word. */
+const showLemma = computed(
+  () =>
+    lemmaLine.value &&
+    props.target?.word &&
+    lemmaLine.value.toLowerCase() !== String(props.target.word).toLowerCase(),
+);
+
+function syncPosition() {
+  const anchor = props.target?.anchor;
+  if (!anchor?.isConnected) {
+    popupStyle.value = { display: 'none' };
+    return;
+  }
+  const rect = anchor.getBoundingClientRect();
+  let left = rect.left;
+  if (left + 280 > window.innerWidth) left = Math.max(8, window.innerWidth - 285);
+  if (left < 8) left = 8;
+  popupStyle.value = {
+    top: `${rect.bottom + 6}px`,
+    left: `${left}px`,
+  };
+}
+
 async function lookup() {
   if (!props.target?.word) return;
   loading.value = true;
-  translation.value = await translate(props.target.word, lang.value);
+  const resolved = resolveLemma(props.target.word);
+  const result = await lookupWord(props.target.word, locale.value);
+
+  lemmaLine.value = resolved.lemma;
+  translation.value = result.translation;
+
+  const pos = result.pos;
+  if (pos === 'verb') posLabel.value = 'Verb';
+  else if (pos === 'adv') posLabel.value = 'Adv.';
+  else if (pos === 'adj') posLabel.value = 'Adj.';
+  else if (pos === 'noun' && result.gender) {
+    posLabel.value = genderLabels[result.gender] || 'Nomen';
+  } else if (pos === 'noun') posLabel.value = 'Nomen';
+  else posLabel.value = '';
+
+  source.value = result.source;
   loading.value = false;
 }
 
-watch(() => [props.target?.word, lang.value], lookup, { immediate: true });
+watch(
+  () => [props.target?.token, locale.value],
+  () => {
+    syncPosition();
+    lookup();
+  },
+  { immediate: true },
+);
 
-/**
- * Closes the popup when the user clicks anywhere outside of it and
- * outside of any `.dict-word` (so clicking another word reopens it).
- *
- * @param {MouseEvent} event
- */
 function handleOutsideClick(event) {
   const root = document.getElementById('dict-popup-root');
-  if (root && !root.contains(event.target) && !event.target.classList.contains('dict-word')) {
+  if (root && !root.contains(event.target) && !event.target.closest?.('.dict-word')) {
     emit('close');
   }
 }
 
 onMounted(() => {
   setTimeout(() => document.addEventListener('click', handleOutsideClick), 150);
+  window.addEventListener('scroll', syncPosition, true);
+  window.addEventListener('resize', syncPosition);
 });
-onBeforeUnmount(() => document.removeEventListener('click', handleOutsideClick));
+onBeforeUnmount(() => {
+  document.removeEventListener('click', handleOutsideClick);
+  window.removeEventListener('scroll', syncPosition, true);
+  window.removeEventListener('resize', syncPosition);
+});
 </script>
 
 <template>
-  <div v-if="target" id="dict-popup-root" class="dict-popup" :style="style">
-    <div
-      style="
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 8px;
-      "
-    >
-      <div style="font-weight: 900; color: #AB4DBB; font-size: 14px;">
-        {{ target.word }}
+  <div v-if="target" id="dict-popup-root" class="dict-popup" :style="popupStyle">
+    <div class="dict-popup__head">
+      <div>
+        <div class="dict-popup__word">{{ target.word }}</div>
+        <div v-if="showLemma" class="dict-popup__lemma">→ {{ lemmaLine }}</div>
       </div>
-      <div style="display: flex; gap: 4px;">
-        <button
-          v-for="l in ['RU', 'EN']"
-          :key="l"
-          type="button"
-          class="lang-btn"
-          :class="{ active: lang === l }"
-          @click="lang = l"
-        >
-          {{ l }}
-        </button>
-      </div>
+      <span v-if="posLabel" class="dict-popup__pos">{{ posLabel }}</span>
     </div>
-    <div style="color: #444; font-size: 14px;">
+    <div class="dict-popup__body">
       <span v-if="loading">⏳</span>
       <span v-else>{{ translation }}</span>
     </div>
-    <div style="font-size: 10px; color: #ccc; margin-top: 6px; text-align: right;">
-      MyMemory
-    </div>
+    <div v-if="source === 'local'" class="dict-popup__source">Wörterbuch</div>
   </div>
 </template>

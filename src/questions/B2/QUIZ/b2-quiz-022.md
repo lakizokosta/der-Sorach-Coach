@@ -4,9 +4,9 @@ type: select-one
 options:
   - dessen
   - deren
+  - den
   - dem
-  - denen
 correct: deren
 ---
 
-Die Frau, ___ Mann Arzt ist, kennt sich aus. (Grammatikform)
+Die Menschen, ___ Leben er rettete, dankten ihm.

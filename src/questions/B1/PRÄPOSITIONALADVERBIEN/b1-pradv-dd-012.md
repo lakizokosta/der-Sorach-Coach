@@ -2,14 +2,15 @@
 id: b1-pradv-dd-012
 type: dropbox
 words:
-  - Vertraust
+  - Glaubst
   - du
-  - in
-  - das
-  - Team
+  - an
+  - einen
+  - Erfolg
+  - —
   - Ich
-  - vertraue
-  - darin
+  - glaube
+  - daran
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darin)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

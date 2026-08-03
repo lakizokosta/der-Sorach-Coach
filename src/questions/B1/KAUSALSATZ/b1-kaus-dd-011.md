@@ -8,8 +8,8 @@ words:
   - nass
   - denn
   - es
-  - geregnet
   - hat
+  - geregnet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn geregnet hat)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

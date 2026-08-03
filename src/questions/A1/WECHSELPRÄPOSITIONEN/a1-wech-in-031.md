@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-031
 type: input-text
+hint: Wechselpräpositionen — Bewegung
 correct:
   - auf die
 ---
 
-Sie geht ___ Brücke. (Dativ oder Akkusativ)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Sie geht ___ Brücke.

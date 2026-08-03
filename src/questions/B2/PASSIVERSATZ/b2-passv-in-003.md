@@ -1,8 +1,11 @@
 ---
 id: b2-passv-in-003
 type: input-text
+hint: Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten
 correct:
   - lässt
 ---
 
-Das Buch ___ sich gut lesen. (lassen)
+Ergänze die Passiv-Ersatzform:
+
+Das Buch ___ sich gut lesen.

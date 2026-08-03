@@ -10,4 +10,4 @@ words:
   - Arbeitsbedingungen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Hoffnung auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-021
 type: input-text
+hint: Artikel — der Park, Nom.
 correct:
   - Der
 ---
 
-___ Park ist in der Nähe. (Artikel — Nom.)
+Ergänze den Artikel:
+
+___ Park ist in der Nähe.

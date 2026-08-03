@@ -12,4 +12,4 @@ words:
   - hoch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Nachfrage)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

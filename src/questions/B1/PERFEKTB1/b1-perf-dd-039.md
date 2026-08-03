@@ -2,14 +2,12 @@
 id: b1-perf-dd-039
 type: dropbox
 words:
-  - Die
-  - Studierenden
-  - haben
-  - lange
-  - über
-  - das
-  - Thema
-  - diskutiert
+  - Ich
+  - habe
+  - die
+  - ganze
+  - Nacht
+  - gearbeitet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

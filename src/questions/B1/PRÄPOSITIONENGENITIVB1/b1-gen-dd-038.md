@@ -4,12 +4,13 @@ type: dropbox
 words:
   - Während
   - der
-  - Ferien
-  - arbeitet
-  - sie
-  - in
-  - einem
-  - Café
+  - Debatte
+  - dürfen
+  - Zuschauer
+  - nicht
+  - sprechen
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Während Ferien)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

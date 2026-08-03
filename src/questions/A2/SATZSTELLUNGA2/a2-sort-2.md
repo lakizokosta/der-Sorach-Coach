@@ -1,5 +1,5 @@
 ---
-id: a2-satz-sort-2
+id: a2-sort-2
 type: dropbox
 words:
   - Heute
@@ -7,6 +7,8 @@ words:
   - ich
   - ins
   - Kino
+alternatives:
+  - ich,gehe,Heute,ins,Kino
 ---
 
 Ordne die Wörter zum richtigen Satz:

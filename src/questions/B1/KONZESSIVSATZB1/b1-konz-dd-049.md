@@ -2,15 +2,14 @@
 id: b1-konz-dd-049
 type: dropbox
 words:
-  - Obwohl
-  - die
-  - Umwelt
-  - belastet
+  - Er
   - ist
-  - reisen
-  - viele
-  - weiter
-  - viel
+  - müde
+  - trotzdem
+  - hat
+  - er
+  - Überstunden
+  - gemacht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl teuer war)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

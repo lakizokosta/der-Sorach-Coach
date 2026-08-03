@@ -2,14 +2,16 @@
 id: b1-kond-dd-025
 type: dropbox
 words:
-  - Wenn
-  - das
-  - Gesetz
-  - verabschiedet
-  - wird
-  - ändert
-  - sich
-  - vieles
+  - Sobald
+  - wir
+  - im
+  - Hotel
+  - angekommen
+  - sind
+  - gehen
+  - essen
+commas:
+  - 6
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn das Gesetz verabschiedet wird)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

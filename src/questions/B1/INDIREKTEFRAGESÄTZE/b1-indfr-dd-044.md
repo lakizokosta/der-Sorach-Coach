@@ -3,13 +3,17 @@ id: b1-indfr-dd-044
 type: dropbox
 words:
   - Sie
-  - will
-  - wissen
-  - was
+  - erkundigt
+  - sich
+  - ob
   - der
-  - Minister
-  - gesagt
-  - hat
+  - Professor
+  - heute
+  - da
+  - ist
+commas:
+  - 2
+  - 6
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was Minister gesagt hat)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

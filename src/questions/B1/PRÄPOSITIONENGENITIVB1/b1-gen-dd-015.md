@@ -13,4 +13,4 @@ words:
   - fort
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Kritik)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

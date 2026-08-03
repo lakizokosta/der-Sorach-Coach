@@ -11,4 +11,4 @@ words:
   - nervös
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Vorbereitung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

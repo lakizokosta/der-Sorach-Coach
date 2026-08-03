@@ -1,8 +1,11 @@
 ---
 id: b1-ws-in-038
 type: input-text
+hint: Wortschatz — Impfen / Impfer / Impff / Impfung
 correct:
   - Impfung
 ---
 
-Sie hat eine ___ gegen Grippe bekommen. (Wortschatz B1)
+Ergänze das passende Wort:
+
+Sie hat eine ___ gegen Grippe bekommen.

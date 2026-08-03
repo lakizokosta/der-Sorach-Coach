@@ -2,13 +2,13 @@
 id: b1-adj-dd-038
 type: dropbox
 words:
-  - Sie
-  - liest
-  - einen
-  - interessanten
-  - Artikel
+  - Die
+  - Zeitung
+  - berichtet
   - über
-  - Umweltschutz
+  - eine
+  - aktuelle
+  - Entwicklung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — hohen Preises)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-026
 type: input-text
+hint: Verb-Nomen-Verbindung — geben / haben / machen / treffen
 correct:
   - haben
 ---
 
-Wir ___ ein Meeting. (Verb-Nomen-Verbindung)
+Ergänze die Verb-Nomen-Verbindung:
+
+Wir ___ ein Meeting.

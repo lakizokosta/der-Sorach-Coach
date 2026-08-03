@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-024
 type: input-text
+hint: Passiv + Verb senden
 correct:
   - wurde
 ---
 
-Die Nachricht ___ sofort gesendet. (Passiv + Verb gesendeen)
+Ergänze die Passivform:
+
+Die Nachricht ___ sofort gesendet.

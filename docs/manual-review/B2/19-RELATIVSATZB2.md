@@ -17,7 +17,7 @@
 ### 1. `b2-rel-001` · select-one
 
 **Aufgabe:**
-> Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen. (Relativpronomen)
+> Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen. (Grammatikform)
 
 **Optionen:**
 - denen
@@ -31,7 +31,7 @@
 ### 2. `b2-rel-002` · select-one
 
 **Aufgabe:**
-> Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert. (Relativpronomen)
+> Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert. (Grammatikform)
 
 **Optionen:**
 - dem
@@ -45,7 +45,7 @@
 ### 3. `b2-rel-003` · select-one
 
 **Aufgabe:**
-> Die Kollegin, ___ ich vertraue, hat recht. (Relativpronomen)
+> Die Kollegin, ___ ich vertraue, hat recht. (Grammatikform)
 
 **Optionen:**
 - den
@@ -59,7 +59,7 @@
 ### 4. `b2-rel-004` · select-one
 
 **Aufgabe:**
-> Das Unternehmen, für ___ er arbeitet, expandiert. (Relativpronomen)
+> Das Unternehmen, für ___ er arbeitet, expandiert. (Grammatikform)
 
 **Optionen:**
 - die
@@ -73,7 +73,7 @@
 ### 5. `b2-rel-005` · select-one
 
 **Aufgabe:**
-> Der Professor, von ___ ich gelernt habe, ist pensioniert. (Relativpronomen)
+> Der Professor, von ___ ich gelernt habe, ist pensioniert. (Grammatikform)
 
 **Optionen:**
 - der
@@ -87,7 +87,7 @@
 ### 6. `b2-rel-006` · select-one
 
 **Aufgabe:**
-> Die Frau, ___ Mann Arzt ist, kennt sich aus. (Relativpronomen)
+> Die Frau, ___ Mann Arzt ist, kennt sich aus. (Grammatikform)
 
 **Optionen:**
 - dessen
@@ -101,7 +101,7 @@
 ### 7. `b2-rel-007` · select-one
 
 **Aufgabe:**
-> Das Buch, ___ ich suche, ist vergriffen. (Relativpronomen)
+> Das Buch, ___ ich suche, ist vergriffen. (Grammatikform)
 
 **Optionen:**
 - den
@@ -115,7 +115,7 @@
 ### 8. `b2-rel-008` · select-one
 
 **Aufgabe:**
-> Die Studenten, mit ___ wir diskutierten, waren engagiert. (Relativpronomen)
+> Die Studenten, mit ___ wir diskutierten, waren engagiert. (Grammatikform)
 
 **Optionen:**
 - deren
@@ -129,7 +129,7 @@
 ### 9. `b2-rel-009` · select-one
 
 **Aufgabe:**
-> Der Mann, ___ Auto vor der Tür steht, ist mein Nachbar. (Relativpronomen)
+> Der Mann, ___ Auto vor der Tür steht, ist mein Nachbar. (Grammatikform)
 
 **Optionen:**
 - denen
@@ -143,7 +143,7 @@
 ### 10. `b2-rel-010` · select-one
 
 **Aufgabe:**
-> Die Firma, bei ___ ich Praktikum machte, stellt ein. (Relativpronomen)
+> Die Firma, bei ___ ich Praktikum machte, stellt ein. (Grammatikform)
 
 **Optionen:**
 - dem
@@ -157,7 +157,7 @@
 ### 11. `b2-rel-011` · select-one
 
 **Aufgabe:**
-> Das Thema, über ___ wir sprachen, war komplex. (Relativpronomen)
+> Das Thema, über ___ wir sprachen, war komplex. (Grammatikform)
 
 **Optionen:**
 - den
@@ -171,7 +171,7 @@
 ### 12. `b2-rel-012` · select-one
 
 **Aufgabe:**
-> Die Ärztin, zu ___ ich gehe, ist sehr kompetent. (Relativpronomen)
+> Die Ärztin, zu ___ ich gehe, ist sehr kompetent. (Grammatikform)
 
 **Optionen:**
 - die
@@ -185,7 +185,7 @@
 ### 13. `b2-rel-013` · select-one
 
 **Aufgabe:**
-> Der Bericht, auf ___ er sich bezieht, ist veraltet. (Relativpronomen)
+> Der Bericht, auf ___ er sich bezieht, ist veraltet. (Grammatikform)
 
 **Optionen:**
 - der
@@ -199,7 +199,7 @@
 ### 14. `b2-rel-014` · select-one
 
 **Aufgabe:**
-> Die Menschen, ___ Leben er rettete, dankten ihm. (Relativpronomen)
+> Die Menschen, ___ Leben er rettete, dankten ihm. (Grammatikform)
 
 **Optionen:**
 - dessen
@@ -213,7 +213,7 @@
 ### 15. `b2-rel-015` · select-one
 
 **Aufgabe:**
-> Das Land, aus ___ er stammt, liegt in Südamerika. (Relativpronomen)
+> Das Land, aus ___ er stammt, liegt in Südamerika. (Grammatikform)
 
 **Optionen:**
 - der
@@ -227,7 +227,7 @@
 ### 16. `b2-rel-016` · select-one
 
 **Aufgabe:**
-> Die Methode, mit ___ wir arbeiten, ist bewährt. (Relativpronomen)
+> Die Methode, mit ___ wir arbeiten, ist bewährt. (Grammatikform)
 
 **Optionen:**
 - den
@@ -241,7 +241,7 @@
 ### 17. `b2-rel-017` · select-one
 
 **Aufgabe:**
-> Der Experte, ___ Meinung zählt, hat zugestimmt. (Relativpronomen)
+> Der Experte, ___ Meinung zählt, hat zugestimmt. (Grammatikform)
 
 **Optionen:**
 - denen
@@ -255,7 +255,7 @@
 ### 18. `b2-rel-018` · select-one
 
 **Aufgabe:**
-> Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen. (Relativpronomen)
+> Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen. (Grammatikform)
 
 **Optionen:**
 - denen
@@ -269,7 +269,7 @@
 ### 19. `b2-rel-019` · select-one
 
 **Aufgabe:**
-> Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert. (Relativpronomen)
+> Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert. (Grammatikform)
 
 **Optionen:**
 - dem
@@ -283,7 +283,7 @@
 ### 20. `b2-rel-020` · select-one
 
 **Aufgabe:**
-> Die Kollegin, ___ ich vertraue, hat recht. (Relativpronomen)
+> Die Kollegin, ___ ich vertraue, hat recht. (Grammatikform)
 
 **Optionen:**
 - die
@@ -297,7 +297,7 @@
 ### 21. `b2-rel-021` · select-one
 
 **Aufgabe:**
-> Das Unternehmen, für ___ er arbeitet, expandiert. (Relativpronomen)
+> Das Unternehmen, für ___ er arbeitet, expandiert. (Grammatikform)
 
 **Optionen:**
 - der
@@ -311,7 +311,7 @@
 ### 22. `b2-rel-022` · select-one
 
 **Aufgabe:**
-> Der Professor, von ___ ich gelernt habe, ist pensioniert. (Relativpronomen)
+> Der Professor, von ___ ich gelernt habe, ist pensioniert. (Grammatikform)
 
 **Optionen:**
 - den
@@ -325,7 +325,7 @@
 ### 23. `b2-rel-023` · select-one
 
 **Aufgabe:**
-> Die Frau, ___ Mann Arzt ist, kennt sich aus. (Relativpronomen)
+> Die Frau, ___ Mann Arzt ist, kennt sich aus. (Grammatikform)
 
 **Optionen:**
 - denen
@@ -339,7 +339,7 @@
 ### 24. `b2-rel-024` · select-one
 
 **Aufgabe:**
-> Das Buch, ___ ich suche, ist vergriffen. (Relativpronomen)
+> Das Buch, ___ ich suche, ist vergriffen. (Grammatikform)
 
 **Optionen:**
 - dem
@@ -353,7 +353,7 @@
 ### 25. `b2-rel-025` · select-one
 
 **Aufgabe:**
-> Die Studenten, mit ___ wir diskutierten, waren engagiert. (Relativpronomen)
+> Die Studenten, mit ___ wir diskutierten, waren engagiert. (Grammatikform)
 
 **Optionen:**
 - dessen
@@ -367,7 +367,7 @@
 ### 26. `b2-rel-026` · select-one
 
 **Aufgabe:**
-> Der Mann, ___ Auto vor der Tür steht, ist mein Nachbar. (Relativpronomen)
+> Der Mann, ___ Auto vor der Tür steht, ist mein Nachbar. (Grammatikform)
 
 **Optionen:**
 - denen
@@ -381,7 +381,7 @@
 ### 27. `b2-rel-027` · select-one
 
 **Aufgabe:**
-> Die Firma, bei ___ ich Praktikum machte, stellt ein. (Relativpronomen)
+> Die Firma, bei ___ ich Praktikum machte, stellt ein. (Grammatikform)
 
 **Optionen:**
 - dem
@@ -395,7 +395,7 @@
 ### 28. `b2-rel-028` · select-one
 
 **Aufgabe:**
-> Das Thema, über ___ wir sprachen, war komplex. (Relativpronomen)
+> Das Thema, über ___ wir sprachen, war komplex. (Grammatikform)
 
 **Optionen:**
 - die
@@ -409,7 +409,7 @@
 ### 29. `b2-rel-029` · select-one
 
 **Aufgabe:**
-> Die Ärztin, zu ___ ich gehe, ist sehr kompetent. (Relativpronomen)
+> Die Ärztin, zu ___ ich gehe, ist sehr kompetent. (Grammatikform)
 
 **Optionen:**
 - dem
@@ -423,7 +423,7 @@
 ### 30. `b2-rel-030` · select-one
 
 **Aufgabe:**
-> Der Bericht, auf ___ er sich bezieht, ist veraltet. (Relativpronomen)
+> Der Bericht, auf ___ er sich bezieht, ist veraltet. (Grammatikform)
 
 **Optionen:**
 - die
@@ -437,7 +437,7 @@
 ### 31. `b2-rel-031` · select-one
 
 **Aufgabe:**
-> Die Menschen, ___ Leben er rettete, dankten ihm. (Relativpronomen)
+> Die Menschen, ___ Leben er rettete, dankten ihm. (Grammatikform)
 
 **Optionen:**
 - den
@@ -451,7 +451,7 @@
 ### 32. `b2-rel-032` · select-one
 
 **Aufgabe:**
-> Das Land, aus ___ er stammt, liegt in Südamerika. (Relativpronomen)
+> Das Land, aus ___ er stammt, liegt in Südamerika. (Grammatikform)
 
 **Optionen:**
 - den
@@ -465,7 +465,7 @@
 ### 33. `b2-rel-033` · select-one
 
 **Aufgabe:**
-> Die Methode, mit ___ wir arbeiten, ist bewährt. (Relativpronomen)
+> Die Methode, mit ___ wir arbeiten, ist bewährt. (Grammatikform)
 
 **Optionen:**
 - dem
@@ -479,7 +479,7 @@
 ### 34. `b2-rel-034` · select-one
 
 **Aufgabe:**
-> Der Experte, ___ Meinung zählt, hat zugestimmt. (Relativpronomen)
+> Der Experte, ___ Meinung zählt, hat zugestimmt. (Grammatikform)
 
 **Optionen:**
 - deren
@@ -493,7 +493,7 @@
 ### 35. `b2-rel-035` · select-one
 
 **Aufgabe:**
-> Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen. (Relativpronomen)
+> Der Autor, ___ Werk weltberühmt ist, lebt zurückgezogen. (Grammatikform)
 
 **Optionen:**
 - den
@@ -507,7 +507,7 @@
 ### 36. `b2-rel-036` · select-one
 
 **Aufgabe:**
-> Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert. (Relativpronomen)
+> Die Stadt, in ___ ich aufgewachsen bin, hat sich verändert. (Grammatikform)
 
 **Optionen:**
 - die
@@ -521,7 +521,7 @@
 ### 37. `b2-rel-037` · select-one
 
 **Aufgabe:**
-> Die Kollegin, ___ ich vertraue, hat recht. (Relativpronomen)
+> Die Kollegin, ___ ich vertraue, hat recht. (Grammatikform)
 
 **Optionen:**
 - den
@@ -535,7 +535,7 @@
 ### 38. `b2-rel-038` · select-one
 
 **Aufgabe:**
-> Das Unternehmen, für ___ er arbeitet, expandiert. (Relativpronomen)
+> Das Unternehmen, für ___ er arbeitet, expandiert. (Grammatikform)
 
 **Optionen:**
 - der
@@ -549,7 +549,7 @@
 ### 39. `b2-rel-039` · select-one
 
 **Aufgabe:**
-> Der Professor, von ___ ich gelernt habe, ist pensioniert. (Relativpronomen)
+> Der Professor, von ___ ich gelernt habe, ist pensioniert. (Grammatikform)
 
 **Optionen:**
 - die
@@ -563,7 +563,7 @@
 ### 40. `b2-rel-040` · select-one
 
 **Aufgabe:**
-> Die Frau, ___ Mann Arzt ist, kennt sich aus. (Relativpronomen)
+> Die Frau, ___ Mann Arzt ist, kennt sich aus. (Grammatikform)
 
 **Optionen:**
 - dessen
@@ -577,7 +577,7 @@
 ### 41. `b2-rel-041` · select-one
 
 **Aufgabe:**
-> Das Buch, ___ ich suche, ist vergriffen. (Relativpronomen)
+> Das Buch, ___ ich suche, ist vergriffen. (Grammatikform)
 
 **Optionen:**
 - der
@@ -591,7 +591,7 @@
 ### 42. `b2-rel-042` · select-one
 
 **Aufgabe:**
-> Die Studenten, mit ___ wir diskutierten, waren engagiert. (Relativpronomen)
+> Die Studenten, mit ___ wir diskutierten, waren engagiert. (Grammatikform)
 
 **Optionen:**
 - dessen
@@ -605,7 +605,7 @@
 ### 43. `b2-rel-043` · select-one
 
 **Aufgabe:**
-> Der Mann, ___ Auto vor der Tür steht, ist mein Nachbar. (Relativpronomen)
+> Der Mann, ___ Auto vor der Tür steht, ist mein Nachbar. (Grammatikform)
 
 **Optionen:**
 - denen
@@ -619,7 +619,7 @@
 ### 44. `b2-rel-044` · select-one
 
 **Aufgabe:**
-> Die Firma, bei ___ ich Praktikum machte, stellt ein. (Relativpronomen)
+> Die Firma, bei ___ ich Praktikum machte, stellt ein. (Grammatikform)
 
 **Optionen:**
 - den
@@ -633,7 +633,7 @@
 ### 45. `b2-rel-045` · select-one
 
 **Aufgabe:**
-> Das Thema, über ___ wir sprachen, war komplex. (Relativpronomen)
+> Das Thema, über ___ wir sprachen, war komplex. (Grammatikform)
 
 **Optionen:**
 - der
@@ -647,7 +647,7 @@
 ### 46. `b2-rel-046` · select-one
 
 **Aufgabe:**
-> Die Ärztin, zu ___ ich gehe, ist sehr kompetent. (Relativpronomen)
+> Die Ärztin, zu ___ ich gehe, ist sehr kompetent. (Grammatikform)
 
 **Optionen:**
 - die
@@ -661,7 +661,7 @@
 ### 47. `b2-rel-047` · select-one
 
 **Aufgabe:**
-> Der Bericht, auf ___ er sich bezieht, ist veraltet. (Relativpronomen)
+> Der Bericht, auf ___ er sich bezieht, ist veraltet. (Grammatikform)
 
 **Optionen:**
 - das
@@ -675,7 +675,7 @@
 ### 48. `b2-rel-048` · select-one
 
 **Aufgabe:**
-> Die Menschen, ___ Leben er rettete, dankten ihm. (Relativpronomen)
+> Die Menschen, ___ Leben er rettete, dankten ihm. (Grammatikform)
 
 **Optionen:**
 - dessen
@@ -689,7 +689,7 @@
 ### 49. `b2-rel-049` · select-one
 
 **Aufgabe:**
-> Das Land, aus ___ er stammt, liegt in Südamerika. (Relativpronomen)
+> Das Land, aus ___ er stammt, liegt in Südamerika. (Grammatikform)
 
 **Optionen:**
 - der
@@ -703,7 +703,7 @@
 ### 50. `b2-rel-050` · select-one
 
 **Aufgabe:**
-> Die Methode, mit ___ wir arbeiten, ist bewährt. (Relativpronomen)
+> Die Methode, mit ___ wir arbeiten, ist bewährt. (Grammatikform)
 
 **Optionen:**
 - die

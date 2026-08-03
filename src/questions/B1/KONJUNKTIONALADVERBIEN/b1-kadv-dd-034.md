@@ -2,14 +2,14 @@
 id: b1-kadv-dd-034
 type: dropbox
 words:
-  - Er
-  - hat
-  - viel
-  - gelernt
-  - deshalb
-  - bestand
-  - seine
-  - Prüfung
+  - Das
+  - Projekt
+  - ist
+  - teuer
+  - Dennoch
+  - lohnt
+  - es
+  - sich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Außerdem informiert)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

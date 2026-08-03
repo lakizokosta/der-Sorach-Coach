@@ -9,6 +9,8 @@ words:
   - ich
   - Halsweh
   - habe
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Halsweh habe)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

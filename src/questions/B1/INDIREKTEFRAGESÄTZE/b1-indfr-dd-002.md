@@ -10,7 +10,8 @@ words:
   - der
   - Zug
   - ankommt
-  - ?
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wann Zug ankommt)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

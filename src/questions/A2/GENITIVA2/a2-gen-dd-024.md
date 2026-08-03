@@ -9,6 +9,8 @@ words:
   - war
   - ich
   - unterwegs
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitiv)

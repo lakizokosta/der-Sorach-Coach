@@ -2,14 +2,13 @@
 id: b1-lass-dd-047
 type: dropbox
 words:
-  - Sie
+  - Er
   - lässt
-  - die
-  - Kinder
+  - sich
   - von
-  - der
-  - Oma
-  - abholen
+  - einem
+  - Spezialisten
+  - beraten
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb beraten)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

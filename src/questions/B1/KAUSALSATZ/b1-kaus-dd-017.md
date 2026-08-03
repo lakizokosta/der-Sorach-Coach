@@ -7,8 +7,11 @@ words:
   - fleißig
   - war
   - bestand
-  - seine
-  - Prüfung
+  - die
+  - Studentin
+  - sofort
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — da Kosten steigen)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

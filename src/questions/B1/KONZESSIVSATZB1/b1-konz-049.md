@@ -9,4 +9,4 @@ options:
 correct: trotzdem
 ---
 
-Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz — obwohl)
+Er ist müde; ___ hat er Überstunden gemacht. (Konzessivsatz)

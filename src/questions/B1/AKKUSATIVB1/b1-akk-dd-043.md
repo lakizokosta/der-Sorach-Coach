@@ -2,13 +2,13 @@
 id: b1-akk-dd-043
 type: dropbox
 words:
-  - Wir
-  - besuchen
-  - eine
-  - Ausstellung
-  - über
-  - erneuerbare
-  - Energien
+  - Er
+  - freut
+  - sich
+  - schon
+  - auf
+  - die
+  - Geschäftsreise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Ausstellung)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

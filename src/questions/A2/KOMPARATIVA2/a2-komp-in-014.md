@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-014
 type: input-text
+hint: Komparativ — warm
 correct:
   - wärmer
 ---
 
-Die Suppe ist ___ als der Salat. (Komparativ — warm)
+Ergänze die Komparativform:
+
+Die Suppe ist ___ als der Salat.

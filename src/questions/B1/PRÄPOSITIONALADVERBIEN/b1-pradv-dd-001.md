@@ -8,11 +8,11 @@ words:
   - für
   - den
   - Kurs
-  - Ja
-  - ich
+  - —
+  - Ich
   - interessiere
   - mich
   - dafür
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dafür)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

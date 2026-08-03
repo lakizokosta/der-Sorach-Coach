@@ -10,4 +10,4 @@ words:
   - Ecke
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition — an)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)

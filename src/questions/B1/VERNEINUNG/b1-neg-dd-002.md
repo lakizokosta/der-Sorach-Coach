@@ -8,4 +8,4 @@ words:
   - nicht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kommt nicht)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

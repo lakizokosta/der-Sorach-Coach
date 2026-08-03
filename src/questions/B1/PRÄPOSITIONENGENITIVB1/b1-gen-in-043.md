@@ -1,8 +1,11 @@
 ---
 id: b1-gen-in-043
 type: input-text
+hint: Genitiv-Präposition
 correct:
   - Während
 ---
 
-___ der Sitzung ist das Büro geschlossen. (Genitiv-Präposition)
+Ergänze die Genitiv-Präposition:
+
+___ der Sitzung ist das Büro geschlossen.

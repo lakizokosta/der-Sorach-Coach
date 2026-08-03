@@ -2,11 +2,11 @@
 id: b1-praep-015
 type: select-one
 options:
-  - in
   - an
   - auf
+  - in
   - nach
-correct: auf
+correct: in
 ---
 
-Er ist ___ Geschäft. (Präposition)
+Er ist ___ dem Geschäft. (Präposition)

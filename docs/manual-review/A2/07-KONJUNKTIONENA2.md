@@ -4,8 +4,8 @@
 |---|---|
 | **Topic-Key** | `KONJUNKTIONENA2` |
 | **Beschreibung** | weil, dass, wenn |
-| **Fragen gesamt** | 152 |
-| Auswahl (1 Antwort) | 51 |
+| **Fragen gesamt** | 151 |
+| Auswahl (1 Antwort) | 50 |
 | Eingabe | 51 |
 | Wörter ordnen | 50 |
 
@@ -13,40 +13,26 @@
 
 ---
 
-## Auswahl (1 Antwort) (51)
+## Auswahl (1 Antwort) (50)
 
 ### 1. `a2-konj-001` · select-one
-
-**Aufgabe:**
-> Ich bleibe zu Hause, ___ ich krank bin. (Konjunktion — Grund)
-
-**Optionen:**
-- aber
-- oder
-- und
-- weil **✓**
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 2. `a2-konj-1` · select-one
 
 **Aufgabe:**
 > Ich bleibe zu Hause, ___ ich krank bin. (Konjunktion)
 
 **Optionen:**
-- weil **✓**
-- denn
 - aber
 - oder
+- und
+- weil **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 3. `a2-konj-002` · select-one
+### 2. `a2-konj-002` · select-one
 
 **Aufgabe:**
-> Ich glaube, ___ er morgen kommt. (Konjunktion — Nebensatz)
+> Ich glaube, ___ er morgen kommt. (Konjunktion)
 
 **Optionen:**
 - oder
@@ -57,10 +43,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 4. `a2-konj-003` · select-one
+### 3. `a2-konj-003` · select-one
 
 **Aufgabe:**
-> ___ es regnet, nehme ich einen Schirm. (Konjunktion — Bedingung)
+> ___ es regnet, nehme ich einen Schirm. (Konjunktion)
 
 **Optionen:**
 - Dass
@@ -71,10 +57,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 5. `a2-konj-004` · select-one
+### 4. `a2-konj-004` · select-one
 
 **Aufgabe:**
-> Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion — Grund)
+> Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion)
 
 **Optionen:**
 - oder
@@ -85,10 +71,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 6. `a2-konj-005` · select-one
+### 5. `a2-konj-005` · select-one
 
 **Aufgabe:**
-> Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion — indirekte Frage)
+> Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion)
 
 **Optionen:**
 - dass
@@ -99,10 +85,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 7. `a2-konj-006` · select-one
+### 6. `a2-konj-006` · select-one
 
 **Aufgabe:**
-> ___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion — Grund)
+> ___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion)
 
 **Optionen:**
 - Oder
@@ -113,10 +99,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 8. `a2-konj-007` · select-one
+### 7. `a2-konj-007` · select-one
 
 **Aufgabe:**
-> Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion — Nebensatz)
+> Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -127,10 +113,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 9. `a2-konj-008` · select-one
+### 8. `a2-konj-008` · select-one
 
 **Aufgabe:**
-> ___ du Zeit hast, ruf mich an. (Konjunktion — Bedingung)
+> ___ du Zeit hast, ruf mich an. (Konjunktion)
 
 **Optionen:**
 - Dass
@@ -141,10 +127,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 10. `a2-konj-009` · select-one
+### 9. `a2-konj-009` · select-one
 
 **Aufgabe:**
-> Ich bleibe, ___ ich noch viel zu tun habe. (Konjunktion — Nebensatz)
+> Ich bleibe, ___ ich noch viel zu tun habe. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -155,10 +141,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 11. `a2-konj-010` · select-one
+### 10. `a2-konj-010` · select-one
 
 **Aufgabe:**
-> Er fragt, ___ wir mitkommen. (Konjunktion — indirekte Frage)
+> Er fragt, ___ wir mitkommen. (Konjunktion)
 
 **Optionen:**
 - weil
@@ -169,10 +155,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 12. `a2-konj-011` · select-one
+### 11. `a2-konj-011` · select-one
 
 **Aufgabe:**
-> Ich bin traurig, ___ ich meine Familie vermisse. (Konjunktion — Grund)
+> Ich bin traurig, ___ ich meine Familie vermisse. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -183,10 +169,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 13. `a2-konj-012` · select-one
+### 12. `a2-konj-012` · select-one
 
 **Aufgabe:**
-> Kommst du mit, ___ du Zeit hast? (Konjunktion — Bedingung)
+> Kommst du mit, ___ du Zeit hast? (Konjunktion)
 
 **Optionen:**
 - weil
@@ -197,10 +183,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 14. `a2-konj-013` · select-one
+### 13. `a2-konj-013` · select-one
 
 **Aufgabe:**
-> ___ du müde bist, solltest du schlafen. (Konjunktion — Bedingung)
+> ___ du müde bist, solltest du schlafen. (Konjunktion)
 
 **Optionen:**
 - Und
@@ -211,10 +197,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 15. `a2-konj-014` · select-one
+### 14. `a2-konj-014` · select-one
 
 **Aufgabe:**
-> Ich denke, ___ das eine gute Idee ist. (Konjunktion — Nebensatz)
+> Ich denke, ___ das eine gute Idee ist. (Konjunktion)
 
 **Optionen:**
 - weil
@@ -225,10 +211,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 16. `a2-konj-015` · select-one
+### 15. `a2-konj-015` · select-one
 
 **Aufgabe:**
-> Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion — Grund)
+> Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -239,10 +225,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 17. `a2-konj-016` · select-one
+### 16. `a2-konj-016` · select-one
 
 **Aufgabe:**
-> Ich bleibe zu Hause, ___ ich krank bin. (Konjunktion — Bedingung)
+> Ich bleibe zu Hause, ___ ich krank bin. (Konjunktion)
 
 **Optionen:**
 - denn
@@ -253,10 +239,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 18. `a2-konj-017` · select-one
+### 17. `a2-konj-017` · select-one
 
 **Aufgabe:**
-> Ich glaube, ___ er morgen kommt. (Konjunktion — Art und Weise)
+> Ich glaube, ___ er morgen kommt. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -267,10 +253,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 19. `a2-konj-018` · select-one
+### 18. `a2-konj-018` · select-one
 
 **Aufgabe:**
-> ___ es regnet, nehme ich einen Schirm. (Konjunktion — Grund)
+> ___ es regnet, nehme ich einen Schirm. (Konjunktion)
 
 **Optionen:**
 - Aber
@@ -281,10 +267,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 20. `a2-konj-019` · select-one
+### 19. `a2-konj-019` · select-one
 
 **Aufgabe:**
-> Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion — Nebensatz)
+> Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion)
 
 **Optionen:**
 - oder
@@ -295,10 +281,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 21. `a2-konj-020` · select-one
+### 20. `a2-konj-020` · select-one
 
 **Aufgabe:**
-> Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion — Bedingung)
+> Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion)
 
 **Optionen:**
 - weil
@@ -309,10 +295,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 22. `a2-konj-021` · select-one
+### 21. `a2-konj-021` · select-one
 
 **Aufgabe:**
-> ___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion — Grund)
+> ___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion)
 
 **Optionen:**
 - Aber
@@ -323,10 +309,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 23. `a2-konj-022` · select-one
+### 22. `a2-konj-022` · select-one
 
 **Aufgabe:**
-> Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion — indirekte Frage)
+> Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion)
 
 **Optionen:**
 - oder
@@ -337,10 +323,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 24. `a2-konj-023` · select-one
+### 23. `a2-konj-023` · select-one
 
 **Aufgabe:**
-> ___ du Zeit hast, ruf mich an. (Konjunktion — Grund)
+> ___ du Zeit hast, ruf mich an. (Konjunktion)
 
 **Optionen:**
 - Dass
@@ -351,10 +337,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 25. `a2-konj-024` · select-one
+### 24. `a2-konj-024` · select-one
 
 **Aufgabe:**
-> Ich bleibe, ___ ich noch viel zu tun habe. (Konjunktion — Nebensatz)
+> Ich bleibe, ___ ich noch viel zu tun habe. (Konjunktion)
 
 **Optionen:**
 - dass
@@ -365,10 +351,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 26. `a2-konj-025` · select-one
+### 25. `a2-konj-025` · select-one
 
 **Aufgabe:**
-> Er fragt, ___ wir mitkommen. (Konjunktion — Bedingung)
+> Er fragt, ___ wir mitkommen. (Konjunktion)
 
 **Optionen:**
 - dass
@@ -379,10 +365,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 27. `a2-konj-026` · select-one
+### 26. `a2-konj-026` · select-one
 
 **Aufgabe:**
-> Ich bin traurig, ___ ich meine Familie vermisse. (Konjunktion — Nebensatz)
+> Ich bin traurig, ___ ich meine Familie vermisse. (Konjunktion)
 
 **Optionen:**
 - oder
@@ -393,10 +379,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 28. `a2-konj-027` · select-one
+### 27. `a2-konj-027` · select-one
 
 **Aufgabe:**
-> Kommst du mit, ___ du Zeit hast? (Konjunktion — indirekte Frage)
+> Kommst du mit, ___ du Zeit hast? (Konjunktion)
 
 **Optionen:**
 - dass
@@ -407,10 +393,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 29. `a2-konj-028` · select-one
+### 28. `a2-konj-028` · select-one
 
 **Aufgabe:**
-> ___ du müde bist, solltest du schlafen. (Konjunktion — Grund)
+> ___ du müde bist, solltest du schlafen. (Konjunktion)
 
 **Optionen:**
 - Dass
@@ -421,10 +407,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 30. `a2-konj-029` · select-one
+### 29. `a2-konj-029` · select-one
 
 **Aufgabe:**
-> Ich denke, ___ das eine gute Idee ist. (Konjunktion — Bedingung)
+> Ich denke, ___ das eine gute Idee ist. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -435,10 +421,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 31. `a2-konj-030` · select-one
+### 30. `a2-konj-030` · select-one
 
 **Aufgabe:**
-> Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion — Bedingung)
+> Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion)
 
 **Optionen:**
 - dass
@@ -449,10 +435,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 32. `a2-konj-031` · select-one
+### 31. `a2-konj-031` · select-one
 
 **Aufgabe:**
-> Ich bleibe zu Hause, ___ ich krank bin. (Konjunktion — Nebensatz)
+> Ich bleibe zu Hause, ___ ich krank bin. (Konjunktion)
 
 **Optionen:**
 - aber
@@ -463,10 +449,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 33. `a2-konj-032` · select-one
+### 32. `a2-konj-032` · select-one
 
 **Aufgabe:**
-> Ich glaube, ___ er morgen kommt. (Konjunktion — Grund)
+> Ich glaube, ___ er morgen kommt. (Konjunktion)
 
 **Optionen:**
 - weil
@@ -477,10 +463,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 34. `a2-konj-033` · select-one
+### 33. `a2-konj-033` · select-one
 
 **Aufgabe:**
-> ___ es regnet, nehme ich einen Schirm. (Konjunktion — Bedingung)
+> ___ es regnet, nehme ich einen Schirm. (Konjunktion)
 
 **Optionen:**
 - Dass
@@ -491,10 +477,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 35. `a2-konj-034` · select-one
+### 34. `a2-konj-034` · select-one
 
 **Aufgabe:**
-> Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion — Art und Weise)
+> Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion)
 
 **Optionen:**
 - aber
@@ -505,10 +491,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 36. `a2-konj-035` · select-one
+### 35. `a2-konj-035` · select-one
 
 **Aufgabe:**
-> Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion — Grund)
+> Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion)
 
 **Optionen:**
 - dass
@@ -519,10 +505,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 37. `a2-konj-036` · select-one
+### 36. `a2-konj-036` · select-one
 
 **Aufgabe:**
-> ___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion — Nebensatz)
+> ___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion)
 
 **Optionen:**
 - Wenn
@@ -533,10 +519,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 38. `a2-konj-037` · select-one
+### 37. `a2-konj-037` · select-one
 
 **Aufgabe:**
-> Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion — Bedingung)
+> Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -547,10 +533,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 39. `a2-konj-038` · select-one
+### 38. `a2-konj-038` · select-one
 
 **Aufgabe:**
-> ___ du Zeit hast, ruf mich an. (Konjunktion — Grund)
+> ___ du Zeit hast, ruf mich an. (Konjunktion)
 
 **Optionen:**
 - Weil
@@ -561,10 +547,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 40. `a2-konj-039` · select-one
+### 39. `a2-konj-039` · select-one
 
 **Aufgabe:**
-> Ich bleibe, ___ ich noch viel zu tun habe. (Konjunktion — indirekte Frage)
+> Ich bleibe, ___ ich noch viel zu tun habe. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -575,10 +561,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 41. `a2-konj-040` · select-one
+### 40. `a2-konj-040` · select-one
 
 **Aufgabe:**
-> Er fragt, ___ wir mitkommen. (Konjunktion — Grund)
+> Er fragt, ___ wir mitkommen. (Konjunktion)
 
 **Optionen:**
 - dass
@@ -589,10 +575,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 42. `a2-konj-041` · select-one
+### 41. `a2-konj-041` · select-one
 
 **Aufgabe:**
-> Ich bin traurig, ___ ich meine Familie vermisse. (Konjunktion — Nebensatz)
+> Ich bin traurig, ___ ich meine Familie vermisse. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -603,10 +589,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 43. `a2-konj-042` · select-one
+### 42. `a2-konj-042` · select-one
 
 **Aufgabe:**
-> Kommst du mit, ___ du Zeit hast? (Konjunktion — Bedingung)
+> Kommst du mit, ___ du Zeit hast? (Konjunktion)
 
 **Optionen:**
 - weil
@@ -617,10 +603,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 44. `a2-konj-043` · select-one
+### 43. `a2-konj-043` · select-one
 
 **Aufgabe:**
-> ___ du müde bist, solltest du schlafen. (Konjunktion — Nebensatz)
+> ___ du müde bist, solltest du schlafen. (Konjunktion)
 
 **Optionen:**
 - Dass
@@ -631,10 +617,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 45. `a2-konj-044` · select-one
+### 44. `a2-konj-044` · select-one
 
 **Aufgabe:**
-> Ich denke, ___ das eine gute Idee ist. (Konjunktion — indirekte Frage)
+> Ich denke, ___ das eine gute Idee ist. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -645,10 +631,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 46. `a2-konj-045` · select-one
+### 45. `a2-konj-045` · select-one
 
 **Aufgabe:**
-> Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion — Grund)
+> Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -659,10 +645,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 47. `a2-konj-046` · select-one
+### 46. `a2-konj-046` · select-one
 
 **Aufgabe:**
-> Ich bleibe zu Hause, ___ ich krank bin. (Konjunktion — Bedingung)
+> Ich bleibe zu Hause, ___ ich krank bin. (Konjunktion)
 
 **Optionen:**
 - denn
@@ -673,10 +659,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 48. `a2-konj-047` · select-one
+### 47. `a2-konj-047` · select-one
 
 **Aufgabe:**
-> Ich glaube, ___ er morgen kommt. (Konjunktion — Bedingung)
+> Ich glaube, ___ er morgen kommt. (Konjunktion)
 
 **Optionen:**
 - wenn
@@ -687,10 +673,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 49. `a2-konj-048` · select-one
+### 48. `a2-konj-048` · select-one
 
 **Aufgabe:**
-> ___ es regnet, nehme ich einen Schirm. (Konjunktion — Nebensatz)
+> ___ es regnet, nehme ich einen Schirm. (Konjunktion)
 
 **Optionen:**
 - Dass
@@ -701,10 +687,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 50. `a2-konj-049` · select-one
+### 49. `a2-konj-049` · select-one
 
 **Aufgabe:**
-> Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion — Grund)
+> Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion)
 
 **Optionen:**
 - oder
@@ -715,10 +701,10 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 51. `a2-konj-050` · select-one
+### 50. `a2-konj-050` · select-one
 
 **Aufgabe:**
-> Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion — Bedingung)
+> Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion)
 
 **Optionen:**
 - weil
@@ -731,7 +717,7 @@
 
 ## Eingabe (51)
 
-### 52. `a2-konj-in-001` · input-text
+### 51. `a2-konj-in-001` · input-text
 
 **Aufgabe:**
 > Ich bin traurig, ___ ich meine Familie vermisse. (Konjunktion — Grund)
@@ -741,7 +727,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 53. `a2-fill-2` · input-text
+### 52. `a2-fill-2` · input-text
 
 **Aufgabe:**
 > Ich glaube, ___ er recht hat. (Konjunktion)
@@ -751,7 +737,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 54. `a2-konj-in-002` · input-text
+### 53. `a2-konj-in-002` · input-text
 
 **Aufgabe:**
 > Ich glaube, ___ er morgen zur Arbeit kommt. (Konjunktion — Nebensatz)
@@ -761,7 +747,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 55. `a2-konj-in-003` · input-text
+### 54. `a2-konj-in-003` · input-text
 
 **Aufgabe:**
 > ___ es regnet, nehme ich einen Schirm. (Konjunktion — Bedingung)
@@ -771,7 +757,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 56. `a2-konj-in-004` · input-text
+### 55. `a2-konj-in-004` · input-text
 
 **Aufgabe:**
 > Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion — Grund)
@@ -781,7 +767,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 57. `a2-konj-in-005` · input-text
+### 56. `a2-konj-in-005` · input-text
 
 **Aufgabe:**
 > Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion — indirekte Frage)
@@ -791,7 +777,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 58. `a2-konj-in-006` · input-text
+### 57. `a2-konj-in-006` · input-text
 
 **Aufgabe:**
 > ___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion — Grund)
@@ -801,7 +787,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 59. `a2-konj-in-007` · input-text
+### 58. `a2-konj-in-007` · input-text
 
 **Aufgabe:**
 > Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion — Nebensatz)
@@ -811,7 +797,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 60. `a2-konj-in-008` · input-text
+### 59. `a2-konj-in-008` · input-text
 
 **Aufgabe:**
 > ___ du Zeit hast, ruf mich an. (Konjunktion — Bedingung)
@@ -821,7 +807,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 61. `a2-konj-in-009` · input-text
+### 60. `a2-konj-in-009` · input-text
 
 **Aufgabe:**
 > Es ist wichtig, ___ wir pünktlich sind. (Konjunktion — Nebensatz)
@@ -831,7 +817,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 62. `a2-konj-in-010` · input-text
+### 61. `a2-konj-in-010` · input-text
 
 **Aufgabe:**
 > Er fragt, ___ wir mit zum Zoo kommen. (Konjunktion — indirekte Frage)
@@ -841,7 +827,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 63. `a2-konj-in-011` · input-text
+### 62. `a2-konj-in-011` · input-text
 
 **Aufgabe:**
 > Ich bleibe zu Hause, ___ ich noch viel zu tun habe. (Konjunktion — Grund)
@@ -851,7 +837,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 64. `a2-konj-in-012` · input-text
+### 63. `a2-konj-in-012` · input-text
 
 **Aufgabe:**
 > Kommst du mit, ___ du Zeit hast? (Konjunktion — Bedingung)
@@ -861,7 +847,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 65. `a2-konj-in-013` · input-text
+### 64. `a2-konj-in-013` · input-text
 
 **Aufgabe:**
 > ___ du müde bist, solltest du dich ausruhen. (Konjunktion — Bedingung)
@@ -871,7 +857,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 66. `a2-konj-in-014` · input-text
+### 65. `a2-konj-in-014` · input-text
 
 **Aufgabe:**
 > Ich denke, ___ das eine gute Geschenkidee ist. (Konjunktion — Nebensatz)
@@ -881,7 +867,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 67. `a2-konj-in-015` · input-text
+### 66. `a2-konj-in-015` · input-text
 
 **Aufgabe:**
 > Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion — Grund)
@@ -891,7 +877,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 68. `a2-konj-in-016` · input-text
+### 67. `a2-konj-in-016` · input-text
 
 **Aufgabe:**
 > ___ Sie einen Fehler gemacht haben, melden Sie sich. (Konjunktion — Bedingung)
@@ -901,7 +887,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 69. `a2-konj-in-017` · input-text
+### 68. `a2-konj-in-017` · input-text
 
 **Aufgabe:**
 > Hoffentlich kommt er, ___ er versprochen hat. (Konjunktion — Art und Weise)
@@ -911,7 +897,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 70. `a2-konj-in-018` · input-text
+### 69. `a2-konj-in-018` · input-text
 
 **Aufgabe:**
 > Ich bin traurig, ___ ich meine Familie vermisse. (Konjunktion — Grund)
@@ -921,7 +907,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 71. `a2-konj-in-019` · input-text
+### 70. `a2-konj-in-019` · input-text
 
 **Aufgabe:**
 > Ich glaube, ___ er morgen zur Arbeit kommt. (Konjunktion — Nebensatz)
@@ -931,7 +917,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 72. `a2-konj-in-020` · input-text
+### 71. `a2-konj-in-020` · input-text
 
 **Aufgabe:**
 > ___ es regnet, nehme ich einen Schirm. (Konjunktion — Bedingung)
@@ -941,7 +927,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 73. `a2-konj-in-021` · input-text
+### 72. `a2-konj-in-021` · input-text
 
 **Aufgabe:**
 > Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion — Grund)
@@ -951,7 +937,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 74. `a2-konj-in-022` · input-text
+### 73. `a2-konj-in-022` · input-text
 
 **Aufgabe:**
 > Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion — indirekte Frage)
@@ -961,7 +947,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 75. `a2-konj-in-023` · input-text
+### 74. `a2-konj-in-023` · input-text
 
 **Aufgabe:**
 > ___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion — Grund)
@@ -971,7 +957,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 76. `a2-konj-in-024` · input-text
+### 75. `a2-konj-in-024` · input-text
 
 **Aufgabe:**
 > Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion — Nebensatz)
@@ -981,7 +967,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 77. `a2-konj-in-025` · input-text
+### 76. `a2-konj-in-025` · input-text
 
 **Aufgabe:**
 > ___ du Zeit hast, ruf mich an. (Konjunktion — Bedingung)
@@ -991,7 +977,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 78. `a2-konj-in-026` · input-text
+### 77. `a2-konj-in-026` · input-text
 
 **Aufgabe:**
 > Es ist wichtig, ___ wir pünktlich sind. (Konjunktion — Nebensatz)
@@ -1001,7 +987,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 79. `a2-konj-in-027` · input-text
+### 78. `a2-konj-in-027` · input-text
 
 **Aufgabe:**
 > Er fragt, ___ wir mit zum Zoo kommen. (Konjunktion — indirekte Frage)
@@ -1011,7 +997,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 80. `a2-konj-in-028` · input-text
+### 79. `a2-konj-in-028` · input-text
 
 **Aufgabe:**
 > Ich bleibe zu Hause, ___ ich noch viel zu tun habe. (Konjunktion — Grund)
@@ -1021,7 +1007,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 81. `a2-konj-in-029` · input-text
+### 80. `a2-konj-in-029` · input-text
 
 **Aufgabe:**
 > Kommst du mit, ___ du Zeit hast? (Konjunktion — Bedingung)
@@ -1031,7 +1017,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 82. `a2-konj-in-030` · input-text
+### 81. `a2-konj-in-030` · input-text
 
 **Aufgabe:**
 > ___ du müde bist, solltest du dich ausruhen. (Konjunktion — Bedingung)
@@ -1041,7 +1027,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 83. `a2-konj-in-031` · input-text
+### 82. `a2-konj-in-031` · input-text
 
 **Aufgabe:**
 > Ich denke, ___ das eine gute Geschenkidee ist. (Konjunktion — Nebensatz)
@@ -1051,7 +1037,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 84. `a2-konj-in-032` · input-text
+### 83. `a2-konj-in-032` · input-text
 
 **Aufgabe:**
 > Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion — Grund)
@@ -1061,7 +1047,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 85. `a2-konj-in-033` · input-text
+### 84. `a2-konj-in-033` · input-text
 
 **Aufgabe:**
 > ___ Sie einen Fehler gemacht haben, melden Sie sich. (Konjunktion — Bedingung)
@@ -1071,7 +1057,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 86. `a2-konj-in-034` · input-text
+### 85. `a2-konj-in-034` · input-text
 
 **Aufgabe:**
 > Hoffentlich kommt er, ___ er versprochen hat. (Konjunktion — Art und Weise)
@@ -1081,7 +1067,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 87. `a2-konj-in-035` · input-text
+### 86. `a2-konj-in-035` · input-text
 
 **Aufgabe:**
 > Ich bin traurig, ___ ich meine Familie vermisse. (Konjunktion — Grund)
@@ -1091,7 +1077,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 88. `a2-konj-in-036` · input-text
+### 87. `a2-konj-in-036` · input-text
 
 **Aufgabe:**
 > Ich glaube, ___ er morgen zur Arbeit kommt. (Konjunktion — Nebensatz)
@@ -1101,7 +1087,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 89. `a2-konj-in-037` · input-text
+### 88. `a2-konj-in-037` · input-text
 
 **Aufgabe:**
 > ___ es regnet, nehme ich einen Schirm. (Konjunktion — Bedingung)
@@ -1111,7 +1097,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 90. `a2-konj-in-038` · input-text
+### 89. `a2-konj-in-038` · input-text
 
 **Aufgabe:**
 > Er lernt Deutsch, ___ er in Deutschland arbeiten will. (Konjunktion — Grund)
@@ -1121,7 +1107,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 91. `a2-konj-in-039` · input-text
+### 90. `a2-konj-in-039` · input-text
 
 **Aufgabe:**
 > Ich weiß nicht, ___ der Zug pünktlich ist. (Konjunktion — indirekte Frage)
@@ -1131,7 +1117,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 92. `a2-konj-in-040` · input-text
+### 91. `a2-konj-in-040` · input-text
 
 **Aufgabe:**
 > ___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion — Grund)
@@ -1141,7 +1127,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 93. `a2-konj-in-041` · input-text
+### 92. `a2-konj-in-041` · input-text
 
 **Aufgabe:**
 > Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion — Nebensatz)
@@ -1151,7 +1137,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 94. `a2-konj-in-042` · input-text
+### 93. `a2-konj-in-042` · input-text
 
 **Aufgabe:**
 > ___ du Zeit hast, ruf mich an. (Konjunktion — Bedingung)
@@ -1161,7 +1147,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 95. `a2-konj-in-043` · input-text
+### 94. `a2-konj-in-043` · input-text
 
 **Aufgabe:**
 > Es ist wichtig, ___ wir pünktlich sind. (Konjunktion — Nebensatz)
@@ -1171,7 +1157,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 96. `a2-konj-in-044` · input-text
+### 95. `a2-konj-in-044` · input-text
 
 **Aufgabe:**
 > Er fragt, ___ wir mit zum Zoo kommen. (Konjunktion — indirekte Frage)
@@ -1181,7 +1167,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 97. `a2-konj-in-045` · input-text
+### 96. `a2-konj-in-045` · input-text
 
 **Aufgabe:**
 > Ich bleibe zu Hause, ___ ich noch viel zu tun habe. (Konjunktion — Grund)
@@ -1191,7 +1177,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 98. `a2-konj-in-046` · input-text
+### 97. `a2-konj-in-046` · input-text
 
 **Aufgabe:**
 > Kommst du mit, ___ du Zeit hast? (Konjunktion — Bedingung)
@@ -1201,7 +1187,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 99. `a2-konj-in-047` · input-text
+### 98. `a2-konj-in-047` · input-text
 
 **Aufgabe:**
 > ___ du müde bist, solltest du dich ausruhen. (Konjunktion — Bedingung)
@@ -1211,7 +1197,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 100. `a2-konj-in-048` · input-text
+### 99. `a2-konj-in-048` · input-text
 
 **Aufgabe:**
 > Ich denke, ___ das eine gute Geschenkidee ist. (Konjunktion — Nebensatz)
@@ -1221,7 +1207,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 101. `a2-konj-in-049` · input-text
+### 100. `a2-konj-in-049` · input-text
 
 **Aufgabe:**
 > Wir gehen spazieren, ___ das Wetter schön ist. (Konjunktion — Grund)
@@ -1231,7 +1217,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 102. `a2-konj-in-050` · input-text
+### 101. `a2-konj-in-050` · input-text
 
 **Aufgabe:**
 > ___ Sie einen Fehler gemacht haben, melden Sie sich. (Konjunktion — Bedingung)
@@ -1243,7 +1229,7 @@
 
 ## Wörter ordnen (50)
 
-### 103. `a2-konj-dd-001` · dropbox
+### 102. `a2-konj-dd-001` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
@@ -1253,7 +1239,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 104. `a2-konj-dd-002` · dropbox
+### 103. `a2-konj-dd-002` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1263,7 +1249,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 105. `a2-konj-dd-003` · dropbox
+### 104. `a2-konj-dd-003` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
@@ -1273,7 +1259,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 106. `a2-konj-dd-004` · dropbox
+### 105. `a2-konj-dd-004` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
@@ -1283,7 +1269,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 107. `a2-konj-dd-005` · dropbox
+### 106. `a2-konj-dd-005` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — ob)
@@ -1293,7 +1279,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 108. `a2-konj-dd-006` · dropbox
+### 107. `a2-konj-dd-006` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Weil)
@@ -1303,7 +1289,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 109. `a2-konj-dd-007` · dropbox
+### 108. `a2-konj-dd-007` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1313,7 +1299,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 110. `a2-konj-dd-008` · dropbox
+### 109. `a2-konj-dd-008` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
@@ -1323,7 +1309,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 111. `a2-konj-dd-009` · dropbox
+### 110. `a2-konj-dd-009` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1333,7 +1319,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 112. `a2-konj-dd-010` · dropbox
+### 111. `a2-konj-dd-010` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — ob)
@@ -1343,37 +1329,37 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 113. `a2-konj-dd-011` · dropbox
+### 112. `a2-konj-dd-011` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
 
-**Wörter:** Ich · bleibe · Zuhause · weil · noch · viel · Arbeit · wartet
+**Wörter:** Ich · bleibe · zu · Hause · weil · ich · krank · bin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 114. `a2-konj-dd-012` · dropbox
+### 113. `a2-konj-dd-012` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — wenn)
 
-**Wörter:** Kommst · du · mit · wenn · Zeit · vorhanden · ist
+**Wörter:** Kommst · du · mit · wenn · du · Zeit · hast
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 115. `a2-konj-dd-013` · dropbox
+### 114. `a2-konj-dd-013` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
 
-**Wörter:** Bei · Müdigkeit · solltest · dich · ausruhen
+**Wörter:** Wenn · du · müde · bist · solltest · du · dich · ausruhen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 116. `a2-konj-dd-014` · dropbox
+### 115. `a2-konj-dd-014` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1383,7 +1369,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 117. `a2-konj-dd-015` · dropbox
+### 116. `a2-konj-dd-015` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
@@ -1393,7 +1379,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 118. `a2-konj-dd-016` · dropbox
+### 117. `a2-konj-dd-016` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
@@ -1403,7 +1389,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 119. `a2-konj-dd-017` · dropbox
+### 118. `a2-konj-dd-017` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — wie)
@@ -1413,7 +1399,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 120. `a2-konj-dd-018` · dropbox
+### 119. `a2-konj-dd-018` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
@@ -1423,7 +1409,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 121. `a2-konj-dd-019` · dropbox
+### 120. `a2-konj-dd-019` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1433,7 +1419,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 122. `a2-konj-dd-020` · dropbox
+### 121. `a2-konj-dd-020` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
@@ -1443,7 +1429,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 123. `a2-konj-dd-021` · dropbox
+### 122. `a2-konj-dd-021` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
@@ -1453,7 +1439,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 124. `a2-konj-dd-022` · dropbox
+### 123. `a2-konj-dd-022` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — ob)
@@ -1463,7 +1449,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 125. `a2-konj-dd-023` · dropbox
+### 124. `a2-konj-dd-023` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Weil)
@@ -1473,7 +1459,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 126. `a2-konj-dd-024` · dropbox
+### 125. `a2-konj-dd-024` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1483,7 +1469,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 127. `a2-konj-dd-025` · dropbox
+### 126. `a2-konj-dd-025` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
@@ -1493,7 +1479,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 128. `a2-konj-dd-026` · dropbox
+### 127. `a2-konj-dd-026` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1503,7 +1489,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 129. `a2-konj-dd-027` · dropbox
+### 128. `a2-konj-dd-027` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — ob)
@@ -1513,37 +1499,37 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 130. `a2-konj-dd-028` · dropbox
+### 129. `a2-konj-dd-028` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
 
-**Wörter:** Ich · bleibe · Zuhause · weil · noch · viel · Arbeit · wartet
+**Wörter:** Ich · bleibe · zu · Hause · weil · ich · krank · bin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 131. `a2-konj-dd-029` · dropbox
+### 130. `a2-konj-dd-029` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — wenn)
 
-**Wörter:** Kommst · du · mit · wenn · Zeit · vorhanden · ist
+**Wörter:** Kommst · du · mit · wenn · du · Zeit · hast
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 132. `a2-konj-dd-030` · dropbox
+### 131. `a2-konj-dd-030` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
 
-**Wörter:** Bei · Müdigkeit · solltest · dich · ausruhen
+**Wörter:** Wenn · du · müde · bist · solltest · du · dich · ausruhen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 133. `a2-konj-dd-031` · dropbox
+### 132. `a2-konj-dd-031` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1553,7 +1539,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 134. `a2-konj-dd-032` · dropbox
+### 133. `a2-konj-dd-032` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
@@ -1563,7 +1549,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 135. `a2-konj-dd-033` · dropbox
+### 134. `a2-konj-dd-033` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
@@ -1573,7 +1559,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 136. `a2-konj-dd-034` · dropbox
+### 135. `a2-konj-dd-034` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — wie)
@@ -1583,7 +1569,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 137. `a2-konj-dd-035` · dropbox
+### 136. `a2-konj-dd-035` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
@@ -1593,7 +1579,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 138. `a2-konj-dd-036` · dropbox
+### 137. `a2-konj-dd-036` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1603,7 +1589,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 139. `a2-konj-dd-037` · dropbox
+### 138. `a2-konj-dd-037` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
@@ -1613,7 +1599,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 140. `a2-konj-dd-038` · dropbox
+### 139. `a2-konj-dd-038` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
@@ -1623,7 +1609,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 141. `a2-konj-dd-039` · dropbox
+### 140. `a2-konj-dd-039` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — ob)
@@ -1633,7 +1619,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 142. `a2-konj-dd-040` · dropbox
+### 141. `a2-konj-dd-040` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Weil)
@@ -1643,7 +1629,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 143. `a2-konj-dd-041` · dropbox
+### 142. `a2-konj-dd-041` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1653,7 +1639,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 144. `a2-konj-dd-042` · dropbox
+### 143. `a2-konj-dd-042` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
@@ -1663,7 +1649,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 145. `a2-konj-dd-043` · dropbox
+### 144. `a2-konj-dd-043` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1673,7 +1659,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 146. `a2-konj-dd-044` · dropbox
+### 145. `a2-konj-dd-044` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — ob)
@@ -1683,37 +1669,37 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 147. `a2-konj-dd-045` · dropbox
+### 146. `a2-konj-dd-045` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
 
-**Wörter:** Ich · bleibe · Zuhause · weil · noch · viel · Arbeit · wartet
+**Wörter:** Ich · bleibe · zu · Hause · weil · ich · krank · bin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 148. `a2-konj-dd-046` · dropbox
+### 147. `a2-konj-dd-046` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — wenn)
 
-**Wörter:** Kommst · du · mit · wenn · Zeit · vorhanden · ist
+**Wörter:** Kommst · du · mit · wenn · du · Zeit · hast
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 149. `a2-konj-dd-047` · dropbox
+### 148. `a2-konj-dd-047` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)
 
-**Wörter:** Bei · Müdigkeit · solltest · dich · ausruhen
+**Wörter:** Wenn · du · müde · bist · solltest · du · dich · ausruhen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 150. `a2-konj-dd-048` · dropbox
+### 149. `a2-konj-dd-048` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)
@@ -1723,7 +1709,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 151. `a2-konj-dd-049` · dropbox
+### 150. `a2-konj-dd-049` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — weil)
@@ -1733,7 +1719,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 152. `a2-konj-dd-050` · dropbox
+### 151. `a2-konj-dd-050` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)

@@ -12,4 +12,4 @@ words:
   - vor
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorverlegen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

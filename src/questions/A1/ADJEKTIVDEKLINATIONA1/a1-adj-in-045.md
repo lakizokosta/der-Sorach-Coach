@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-045
 type: input-text
+hint: Adjektivdeklination — sonnig, mask., Dat.
 correct:
   - sonnigen
 ---
 
-Auf dem ___ Balkon frühstücken wir. (Adjektivdeklination — mask., Dat.)
+Ergänze die Adjektivendung:
+
+Auf dem ___ Balkon frühstücken wir.

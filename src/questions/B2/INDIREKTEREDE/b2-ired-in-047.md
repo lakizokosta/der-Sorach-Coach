@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-047
 type: input-text
+hint: Indirekte Rede + Verb sein
 correct:
   - sei
 ---
 
-Die Lehrerin erklärte, die Prüfung ___ schwierig. (Indirekte Rede)
+Ergänze die Form (Indirekte Rede):
+
+Die Lehrerin erklärte, die Prüfung ___ schwierig.

@@ -12,4 +12,4 @@ words:
   - Hafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Sturms)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

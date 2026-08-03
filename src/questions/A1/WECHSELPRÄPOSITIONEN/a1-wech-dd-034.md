@@ -2,7 +2,9 @@
 id: a1-wech-dd-034
 type: dropbox
 words:
-  - Geh
+  - Bei
+  - Sturm
+  - geh
   - schnell
   - in
   - den

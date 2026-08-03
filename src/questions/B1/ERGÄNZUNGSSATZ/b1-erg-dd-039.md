@@ -2,14 +2,16 @@
 id: b1-erg-dd-039
 type: dropbox
 words:
-  - Der
-  - Arzt
-  - meint
+  - Die
+  - Professorin
+  - erklärt
   - dass
-  - du
-  - mehr
-  - schlafen
-  - solltest
+  - der
+  - Kurs
+  - anspruchsvoll
+  - ist
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass schlafen solltest)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

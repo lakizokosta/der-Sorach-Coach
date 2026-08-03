@@ -1222,7 +1222,7 @@
 ### 101. `b1-vpv-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — denkt an)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Er · denkt · oft · an · seine · Karriere
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-vpv-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — warte auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Ich · warte · auf · die · Genehmigung
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-vpv-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — interessiert für)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Sie · interessiert · sich · für · Umweltschutz
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-vpv-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — spricht über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Wir · sprechen · über · die · neue · Strategie
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-vpv-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — erinnert an)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Er · erinnert · sich · an · das · Gespräch
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-vpv-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — hofft auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Ich · hoffe · auf · eine · schnelle · Lösung
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-vpv-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — ärgert über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Sie · ärgert · sich · über · die · Verspätung
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-vpv-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — fragt nach)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Er · fragt · nach · dem · Weg
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-vpv-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — besteht auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Wir · bestehen · auf · klaren · Regeln
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-vpv-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — träumt von)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Sie · träumt · von · einem · Job · im · Ausland
 
@@ -1322,9 +1322,9 @@
 ### 111. `b1-vpv-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — dankt für)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Ich · danke · für · deiner · Unterstützung
+**Wörter:** Ich · danke · für · deine · Unterstützung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,7 +1332,7 @@
 ### 112. `b1-vpv-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — achtet auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Er · achtet · auf · Details
 
@@ -1342,9 +1342,9 @@
 ### 113. `b1-vpv-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — diskutiert über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Wir · diskutieren · über · dem · Vorschlag
+**Wörter:** Wir · diskutieren · über · den · Vorschlag
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1352,9 +1352,9 @@
 ### 114. `b1-vpv-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — wartet auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Sie · wartet · auf · dem · Ergebnis
+**Wörter:** Sie · wartet · auf · das · Ergebnis
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1362,9 +1362,9 @@
 ### 115. `b1-vpv-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — informiert über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · informiert · sich · über · dem · Thema
+**Wörter:** Er · informiert · sich · über · das · Thema
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1372,7 +1372,7 @@
 ### 116. `b1-vpv-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — konzentriert auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Er · denkt · oft · an · seine · Karriere
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-vpv-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — entscheidet über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
 **Wörter:** Ich · warte · auf · die · Genehmigung
 
@@ -1392,9 +1392,9 @@
 ### 118. `b1-vpv-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — denkt an)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · denkt · oft · an · seine · Karriere
+**Wörter:** Sie · interessiert · sich · für · Umweltschutz
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1402,9 +1402,9 @@
 ### 119. `b1-vpv-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — warte auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Ich · warte · auf · die · Genehmigung
+**Wörter:** Wir · sprechen · über · die · neue · Strategie
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,9 +1412,9 @@
 ### 120. `b1-vpv-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — interessiert für)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Sie · interessiert · sich · für · Umweltschutz
+**Wörter:** Er · erinnert · sich · an · das · Gespräch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1422,9 +1422,9 @@
 ### 121. `b1-vpv-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — spricht über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Wir · sprechen · über · die · neue · Strategie
+**Wörter:** Ich · hoffe · auf · eine · schnelle · Lösung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1432,9 +1432,9 @@
 ### 122. `b1-vpv-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — erinnert an)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · erinnert · sich · an · das · Gespräch
+**Wörter:** Sie · ärgert · sich · über · die · Verspätung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1442,9 +1442,9 @@
 ### 123. `b1-vpv-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — hofft auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Ich · hoffe · auf · eine · schnelle · Lösung
+**Wörter:** Er · fragt · nach · dem · Weg
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `b1-vpv-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — ärgert über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Sie · ärgert · sich · über · die · Verspätung
+**Wörter:** Wir · bestehen · auf · klaren · Regeln
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,9 +1462,9 @@
 ### 125. `b1-vpv-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — fragt nach)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · fragt · nach · dem · Weg
+**Wörter:** Sie · träumt · von · einem · Job · im · Ausland
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1472,9 +1472,9 @@
 ### 126. `b1-vpv-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — besteht auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Wir · bestehen · auf · klaren · Regeln
+**Wörter:** Ich · danke · für · deine · Unterstützung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,9 +1482,9 @@
 ### 127. `b1-vpv-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — träumt von)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Sie · träumt · von · einem · Job · im · Ausland
+**Wörter:** Er · achtet · auf · Details
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `b1-vpv-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — dankt für)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Ich · danke · für · deiner · Unterstützung
+**Wörter:** Wir · diskutieren · über · den · Vorschlag
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `b1-vpv-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — achtet auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · achtet · auf · Details
+**Wörter:** Sie · wartet · auf · das · Ergebnis
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `b1-vpv-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — diskutiert über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Wir · diskutieren · über · dem · Vorschlag
+**Wörter:** Er · informiert · sich · über · das · Thema
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-vpv-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — wartet auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Sie · wartet · auf · dem · Ergebnis
+**Wörter:** Er · denkt · oft · an · seine · Karriere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `b1-vpv-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — informiert über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · informiert · sich · über · dem · Thema
+**Wörter:** Ich · warte · auf · die · Genehmigung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `b1-vpv-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — konzentriert auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · denkt · oft · an · seine · Karriere
+**Wörter:** Sie · interessiert · sich · für · Umweltschutz
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1552,9 +1552,9 @@
 ### 134. `b1-vpv-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — entscheidet über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Ich · warte · auf · die · Genehmigung
+**Wörter:** Wir · sprechen · über · die · neue · Strategie
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,9 +1562,9 @@
 ### 135. `b1-vpv-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — denkt an)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · denkt · oft · an · seine · Karriere
+**Wörter:** Er · erinnert · sich · an · das · Gespräch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `b1-vpv-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — warte auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Ich · warte · auf · die · Genehmigung
+**Wörter:** Ich · hoffe · auf · eine · schnelle · Lösung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,9 +1582,9 @@
 ### 137. `b1-vpv-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — interessiert für)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Sie · interessiert · sich · für · Umweltschutz
+**Wörter:** Sie · ärgert · sich · über · die · Verspätung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1592,9 +1592,9 @@
 ### 138. `b1-vpv-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — spricht über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Wir · sprechen · über · die · neue · Strategie
+**Wörter:** Er · fragt · nach · dem · Weg
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `b1-vpv-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — erinnert an)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · erinnert · sich · an · das · Gespräch
+**Wörter:** Wir · bestehen · auf · klaren · Regeln
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1612,9 +1612,9 @@
 ### 140. `b1-vpv-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — hofft auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Ich · hoffe · auf · eine · schnelle · Lösung
+**Wörter:** Sie · träumt · von · einem · Job · im · Ausland
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `b1-vpv-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — ärgert über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Sie · ärgert · sich · über · die · Verspätung
+**Wörter:** Ich · danke · für · deine · Unterstützung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,9 +1632,9 @@
 ### 142. `b1-vpv-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — fragt nach)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · fragt · nach · dem · Weg
+**Wörter:** Er · achtet · auf · Details
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1642,9 +1642,9 @@
 ### 143. `b1-vpv-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — besteht auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Wir · bestehen · auf · klaren · Regeln
+**Wörter:** Wir · diskutieren · über · den · Vorschlag
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `b1-vpv-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — träumt von)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Sie · träumt · von · einem · Job · im · Ausland
+**Wörter:** Sie · wartet · auf · das · Ergebnis
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `b1-vpv-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — dankt für)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Ich · danke · für · deiner · Unterstützung
+**Wörter:** Er · informiert · sich · über · das · Thema
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `b1-vpv-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — achtet auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · achtet · auf · Details
+**Wörter:** Er · denkt · oft · an · seine · Karriere
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,9 +1682,9 @@
 ### 147. `b1-vpv-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — diskutiert über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Wir · diskutieren · über · dem · Vorschlag
+**Wörter:** Ich · warte · auf · die · Genehmigung
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-vpv-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — wartet auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Sie · wartet · auf · dem · Ergebnis
+**Wörter:** Sie · interessiert · sich · für · Umweltschutz
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,9 +1702,9 @@
 ### 149. `b1-vpv-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — informiert über)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · informiert · sich · über · dem · Thema
+**Wörter:** Wir · sprechen · über · die · neue · Strategie
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1712,9 +1712,9 @@
 ### 150. `b1-vpv-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Verb+Präp — konzentriert auf)
+> Ordne die Wörter zum richtigen Satz: (Verb + Präposition)
 
-**Wörter:** Er · denkt · oft · an · seine · Karriere
+**Wörter:** Er · erinnert · sich · an · das · Gespräch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

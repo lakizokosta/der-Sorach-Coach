@@ -1,0 +1,1116 @@
+{
+  "files": 10434,
+  "uniqueTokens": 3730,
+  "byCategory": {
+    "stopword_current": {
+      "count": 101,
+      "top20": [
+        {
+          "word": "die",
+          "count": 6197
+        },
+        {
+          "word": "der",
+          "count": 2933
+        },
+        {
+          "word": "ich",
+          "count": 2661
+        },
+        {
+          "word": "das",
+          "count": 2305
+        },
+        {
+          "word": "ist",
+          "count": 1750
+        },
+        {
+          "word": "wir",
+          "count": 1660
+        },
+        {
+          "word": "sie",
+          "count": 1557
+        },
+        {
+          "word": "den",
+          "count": 1305
+        },
+        {
+          "word": "auf",
+          "count": 1301
+        },
+        {
+          "word": "dem",
+          "count": 1050
+        },
+        {
+          "word": "hat",
+          "count": 809
+        },
+        {
+          "word": "ein",
+          "count": 677
+        },
+        {
+          "word": "mit",
+          "count": 626
+        },
+        {
+          "word": "eine",
+          "count": 619
+        },
+        {
+          "word": "war",
+          "count": 597
+        },
+        {
+          "word": "nicht",
+          "count": 587
+        },
+        {
+          "word": "wegen",
+          "count": 533
+        },
+        {
+          "word": "haben",
+          "count": 520
+        },
+        {
+          "word": "des",
+          "count": 478
+        },
+        {
+          "word": "über",
+          "count": 445
+        }
+      ]
+    },
+    "dictionary_candidate": {
+      "count": 1441,
+      "top20": [
+        {
+          "word": "zum",
+          "count": 3028
+        },
+        {
+          "word": "satz",
+          "count": 2955
+        },
+        {
+          "word": "verb",
+          "count": 1446
+        },
+        {
+          "word": "präposition",
+          "count": 900
+        },
+        {
+          "word": "weil",
+          "count": 810
+        },
+        {
+          "word": "dass",
+          "count": 707
+        },
+        {
+          "word": "wenn",
+          "count": 668
+        },
+        {
+          "word": "akkusativ",
+          "count": 490
+        },
+        {
+          "word": "grammatikform",
+          "count": 470
+        },
+        {
+          "word": "obwohl",
+          "count": 420
+        },
+        {
+          "word": "akk",
+          "count": 398
+        },
+        {
+          "word": "dativ",
+          "count": 396
+        },
+        {
+          "word": "während",
+          "count": 355
+        },
+        {
+          "word": "damit",
+          "count": 339
+        },
+        {
+          "word": "genitiv",
+          "count": 309
+        },
+        {
+          "word": "possessivartikel",
+          "count": 303
+        },
+        {
+          "word": "hilfsverb",
+          "count": 298
+        },
+        {
+          "word": "nom",
+          "count": 269
+        },
+        {
+          "word": "perfekt",
+          "count": 251
+        },
+        {
+          "word": "passiv",
+          "count": 250
+        }
+      ]
+    },
+    "likely_adj_or_noun_form": {
+      "count": 455,
+      "top20": [
+        {
+          "word": "wörter",
+          "count": 2958
+        },
+        {
+          "word": "trennbares",
+          "count": 301
+        },
+        {
+          "word": "trotzdem",
+          "count": 267
+        },
+        {
+          "word": "hinter",
+          "count": 148
+        },
+        {
+          "word": "außerdem",
+          "count": 141
+        },
+        {
+          "word": "wetter",
+          "count": 131
+        },
+        {
+          "word": "gegenüber",
+          "count": 121
+        },
+        {
+          "word": "teuer",
+          "count": 98
+        },
+        {
+          "word": "hier",
+          "count": 87
+        },
+        {
+          "word": "mutter",
+          "count": 86
+        },
+        {
+          "word": "schwer",
+          "count": 70
+        },
+        {
+          "word": "wasser",
+          "count": 67
+        },
+        {
+          "word": "bruder",
+          "count": 67
+        },
+        {
+          "word": "zimmer",
+          "count": 65
+        },
+        {
+          "word": "indem",
+          "count": 64
+        },
+        {
+          "word": "kinder",
+          "count": 61
+        },
+        {
+          "word": "darüber",
+          "count": 61
+        },
+        {
+          "word": "fehler",
+          "count": 58
+        },
+        {
+          "word": "nachdem",
+          "count": 58
+        },
+        {
+          "word": "minister",
+          "count": 54
+        }
+      ]
+    },
+    "comparative_superlative": {
+      "count": 21,
+      "top20": [
+        {
+          "word": "mehr",
+          "count": 125
+        },
+        {
+          "word": "besser",
+          "count": 82
+        },
+        {
+          "word": "nächsten",
+          "count": 58
+        },
+        {
+          "word": "nächste",
+          "count": 54
+        },
+        {
+          "word": "schneller",
+          "count": 32
+        },
+        {
+          "word": "höher",
+          "count": 27
+        },
+        {
+          "word": "kleiner",
+          "count": 26
+        },
+        {
+          "word": "schnellsten",
+          "count": 20
+        },
+        {
+          "word": "besten",
+          "count": 19
+        },
+        {
+          "word": "weniger",
+          "count": 18
+        },
+        {
+          "word": "schnellste",
+          "count": 17
+        },
+        {
+          "word": "beste",
+          "count": 16
+        },
+        {
+          "word": "größer",
+          "count": 14
+        },
+        {
+          "word": "näher",
+          "count": 12
+        },
+        {
+          "word": "höchste",
+          "count": 12
+        },
+        {
+          "word": "bester",
+          "count": 12
+        },
+        {
+          "word": "kleinste",
+          "count": 12
+        },
+        {
+          "word": "älter",
+          "count": 8
+        },
+        {
+          "word": "kleinsten",
+          "count": 3
+        },
+        {
+          "word": "bestes",
+          "count": 3
+        }
+      ]
+    },
+    "likely_adj_form": {
+      "count": 212,
+      "top20": [
+        {
+          "word": "frage",
+          "count": 308
+        },
+        {
+          "word": "lokale",
+          "count": 250
+        },
+        {
+          "word": "wäre",
+          "count": 243
+        },
+        {
+          "word": "hause",
+          "count": 187
+        },
+        {
+          "word": "neue",
+          "count": 184
+        },
+        {
+          "word": "straße",
+          "count": 121
+        },
+        {
+          "word": "reise",
+          "count": 119
+        },
+        {
+          "word": "rede",
+          "count": 118
+        },
+        {
+          "word": "müde",
+          "count": 110
+        },
+        {
+          "word": "viele",
+          "count": 109
+        },
+        {
+          "word": "schule",
+          "count": 104
+        },
+        {
+          "word": "interessiere",
+          "count": 65
+        },
+        {
+          "word": "bleibe",
+          "count": 64
+        },
+        {
+          "word": "freue",
+          "count": 56
+        },
+        {
+          "word": "nachfrage",
+          "count": 56
+        },
+        {
+          "word": "gute",
+          "count": 54
+        },
+        {
+          "word": "rufe",
+          "count": 52
+        },
+        {
+          "word": "sehe",
+          "count": 51
+        },
+        {
+          "word": "kaufe",
+          "count": 49
+        },
+        {
+          "word": "idee",
+          "count": 46
+        }
+      ]
+    },
+    "likely_verb_form": {
+      "count": 547,
+      "top20": [
+        {
+          "word": "ordne",
+          "count": 2955
+        },
+        {
+          "word": "indirekte",
+          "count": 256
+        },
+        {
+          "word": "würde",
+          "count": 244
+        },
+        {
+          "word": "lässt",
+          "count": 236
+        },
+        {
+          "word": "macht",
+          "count": 142
+        },
+        {
+          "word": "arzt",
+          "count": 130
+        },
+        {
+          "word": "kommt",
+          "count": 119
+        },
+        {
+          "word": "stelle",
+          "count": 113
+        },
+        {
+          "word": "feste",
+          "count": 100
+        },
+        {
+          "word": "reihenfolge",
+          "count": 100
+        },
+        {
+          "word": "hätte",
+          "count": 98
+        },
+        {
+          "word": "interesse",
+          "count": 85
+        },
+        {
+          "word": "bericht",
+          "count": 85
+        },
+        {
+          "word": "lasse",
+          "count": 80
+        },
+        {
+          "word": "lange",
+          "count": 78
+        },
+        {
+          "word": "wochenende",
+          "count": 76
+        },
+        {
+          "word": "fährt",
+          "count": 73
+        },
+        {
+          "word": "stellt",
+          "count": 71
+        },
+        {
+          "word": "nimmt",
+          "count": 66
+        },
+        {
+          "word": "schlecht",
+          "count": 62
+        }
+      ]
+    },
+    "likely_verb_infinitive_or_form": {
+      "count": 675,
+      "top20": [
+        {
+          "word": "richtigen",
+          "count": 2955
+        },
+        {
+          "word": "nomen",
+          "count": 450
+        },
+        {
+          "word": "morgen",
+          "count": 247
+        },
+        {
+          "word": "lassen",
+          "count": 222
+        },
+        {
+          "word": "indefinitpronomen",
+          "count": 200
+        },
+        {
+          "word": "neben",
+          "count": 173
+        },
+        {
+          "word": "fahren",
+          "count": 171
+        },
+        {
+          "word": "wechselpräpositionen",
+          "count": 150
+        },
+        {
+          "word": "gehen",
+          "count": 144
+        },
+        {
+          "word": "machen",
+          "count": 143
+        },
+        {
+          "word": "essen",
+          "count": 137
+        },
+        {
+          "word": "treffen",
+          "count": 125
+        },
+        {
+          "word": "zwischen",
+          "count": 124
+        },
+        {
+          "word": "kollegen",
+          "count": 108
+        },
+        {
+          "word": "sprechen",
+          "count": 102
+        },
+        {
+          "word": "verben",
+          "count": 101
+        },
+        {
+          "word": "präpositionen",
+          "count": 100
+        },
+        {
+          "word": "relativpronomen",
+          "count": 100
+        },
+        {
+          "word": "neuen",
+          "count": 99
+        },
+        {
+          "word": "arbeiten",
+          "count": 96
+        }
+      ]
+    },
+    "participle": {
+      "count": 96,
+      "top20": [
+        {
+          "word": "gemacht",
+          "count": 63
+        },
+        {
+          "word": "gelassen",
+          "count": 47
+        },
+        {
+          "word": "geworden",
+          "count": 44
+        },
+        {
+          "word": "gelernt",
+          "count": 44
+        },
+        {
+          "word": "gefällt",
+          "count": 42
+        },
+        {
+          "word": "gebucht",
+          "count": 42
+        },
+        {
+          "word": "geschlafen",
+          "count": 37
+        },
+        {
+          "word": "gelesen",
+          "count": 34
+        },
+        {
+          "word": "geschäft",
+          "count": 28
+        },
+        {
+          "word": "gefahren",
+          "count": 26
+        },
+        {
+          "word": "gearbeitet",
+          "count": 25
+        },
+        {
+          "word": "getroffen",
+          "count": 25
+        },
+        {
+          "word": "gelöst",
+          "count": 25
+        },
+        {
+          "word": "geschlossen",
+          "count": 23
+        },
+        {
+          "word": "gefunden",
+          "count": 23
+        },
+        {
+          "word": "gegangen",
+          "count": 22
+        },
+        {
+          "word": "gekommen",
+          "count": 21
+        },
+        {
+          "word": "gesundheitlichen",
+          "count": 21
+        },
+        {
+          "word": "geholfen",
+          "count": 18
+        },
+        {
+          "word": "gewusst",
+          "count": 17
+        }
+      ]
+    },
+    "aux_modal": {
+      "count": 43,
+      "top20": [
+        {
+          "word": "habe",
+          "count": 461
+        },
+        {
+          "word": "werden",
+          "count": 397
+        },
+        {
+          "word": "können",
+          "count": 102
+        },
+        {
+          "word": "hast",
+          "count": 100
+        },
+        {
+          "word": "müssen",
+          "count": 95
+        },
+        {
+          "word": "hatte",
+          "count": 81
+        },
+        {
+          "word": "werde",
+          "count": 77
+        },
+        {
+          "word": "worden",
+          "count": 77
+        },
+        {
+          "word": "wollen",
+          "count": 68
+        },
+        {
+          "word": "sei",
+          "count": 62
+        },
+        {
+          "word": "sollst",
+          "count": 48
+        },
+        {
+          "word": "kannst",
+          "count": 42
+        },
+        {
+          "word": "sollen",
+          "count": 39
+        },
+        {
+          "word": "dürfen",
+          "count": 39
+        },
+        {
+          "word": "möchte",
+          "count": 38
+        },
+        {
+          "word": "solltest",
+          "count": 36
+        },
+        {
+          "word": "wurden",
+          "count": 32
+        },
+        {
+          "word": "sollten",
+          "count": 19
+        },
+        {
+          "word": "warst",
+          "count": 18
+        },
+        {
+          "word": "habt",
+          "count": 18
+        }
+      ]
+    },
+    "internationalism": {
+      "count": 21,
+      "top20": [
+        {
+          "word": "bus",
+          "count": 154
+        },
+        {
+          "word": "hotel",
+          "count": 141
+        },
+        {
+          "word": "auto",
+          "count": 132
+        },
+        {
+          "word": "problem",
+          "count": 131
+        },
+        {
+          "word": "sport",
+          "count": 103
+        },
+        {
+          "word": "team",
+          "count": 101
+        },
+        {
+          "word": "film",
+          "count": 61
+        },
+        {
+          "word": "musik",
+          "count": 60
+        },
+        {
+          "word": "mail",
+          "count": 28
+        },
+        {
+          "word": "ticket",
+          "count": 26
+        },
+        {
+          "word": "online",
+          "count": 26
+        },
+        {
+          "word": "radio",
+          "count": 24
+        },
+        {
+          "word": "operation",
+          "count": 24
+        },
+        {
+          "word": "restaurant",
+          "count": 18
+        },
+        {
+          "word": "foto",
+          "count": 16
+        },
+        {
+          "word": "taxi",
+          "count": 13
+        },
+        {
+          "word": "information",
+          "count": 13
+        },
+        {
+          "word": "computer",
+          "count": 11
+        },
+        {
+          "word": "programm",
+          "count": 4
+        },
+        {
+          "word": "telefon",
+          "count": 3
+        }
+      ]
+    },
+    "likely_praeteritum": {
+      "count": 35,
+      "top20": [
+        {
+          "word": "heute",
+          "count": 308
+        },
+        {
+          "word": "behauptete",
+          "count": 23
+        },
+        {
+          "word": "arbeitete",
+          "count": 18
+        },
+        {
+          "word": "regnete",
+          "count": 15
+        },
+        {
+          "word": "wartete",
+          "count": 10
+        },
+        {
+          "word": "arbeite",
+          "count": 9
+        },
+        {
+          "word": "geräte",
+          "count": 9
+        },
+        {
+          "word": "laute",
+          "count": 8
+        },
+        {
+          "word": "gewartete",
+          "count": 7
+        },
+        {
+          "word": "rettete",
+          "count": 7
+        },
+        {
+          "word": "leute",
+          "count": 6
+        },
+        {
+          "word": "auswertete",
+          "count": 6
+        },
+        {
+          "word": "website",
+          "count": 5
+        },
+        {
+          "word": "beantwortete",
+          "count": 5
+        },
+        {
+          "word": "brote",
+          "count": 3
+        },
+        {
+          "word": "salate",
+          "count": 3
+        },
+        {
+          "word": "bereite",
+          "count": 3
+        },
+        {
+          "word": "leitete",
+          "count": 3
+        },
+        {
+          "word": "seite",
+          "count": 3
+        },
+        {
+          "word": "verabschiedete",
+          "count": 3
+        }
+      ]
+    },
+    "too_short": {
+      "count": 32,
+      "top20": [
+        {
+          "word": "er",
+          "count": 2060
+        },
+        {
+          "word": "an",
+          "count": 1053
+        },
+        {
+          "word": "in",
+          "count": 968
+        },
+        {
+          "word": "du",
+          "count": 771
+        },
+        {
+          "word": "im",
+          "count": 603
+        },
+        {
+          "word": "zu",
+          "count": 578
+        },
+        {
+          "word": "es",
+          "count": 379
+        },
+        {
+          "word": "um",
+          "count": 369
+        },
+        {
+          "word": "am",
+          "count": 334
+        },
+        {
+          "word": "ob",
+          "count": 281
+        },
+        {
+          "word": "ii",
+          "count": 203
+        },
+        {
+          "word": "da",
+          "count": 178
+        },
+        {
+          "word": "wo",
+          "count": 153
+        },
+        {
+          "word": "n",
+          "count": 150
+        },
+        {
+          "word": "ja",
+          "count": 103
+        },
+        {
+          "word": "ab",
+          "count": 101
+        },
+        {
+          "word": "so",
+          "count": 75
+        },
+        {
+          "word": "b",
+          "count": 62
+        },
+        {
+          "word": "pl",
+          "count": 61
+        },
+        {
+          "word": "w",
+          "count": 50
+        }
+      ]
+    },
+    "pronoun": {
+      "count": 51,
+      "top20": [
+        {
+          "word": "sich",
+          "count": 431
+        },
+        {
+          "word": "seine",
+          "count": 197
+        },
+        {
+          "word": "meine",
+          "count": 188
+        },
+        {
+          "word": "etwas",
+          "count": 173
+        },
+        {
+          "word": "nichts",
+          "count": 157
+        },
+        {
+          "word": "was",
+          "count": 150
+        },
+        {
+          "word": "jemand",
+          "count": 147
+        },
+        {
+          "word": "man",
+          "count": 132
+        },
+        {
+          "word": "mein",
+          "count": 129
+        },
+        {
+          "word": "meiner",
+          "count": 123
+        },
+        {
+          "word": "diese",
+          "count": 118
+        },
+        {
+          "word": "seiner",
+          "count": 117
+        },
+        {
+          "word": "niemand",
+          "count": 113
+        },
+        {
+          "word": "alles",
+          "count": 105
+        },
+        {
+          "word": "ihre",
+          "count": 100
+        },
+        {
+          "word": "dieser",
+          "count": 98
+        },
+        {
+          "word": "seinen",
+          "count": 93
+        },
+        {
+          "word": "meinen",
+          "count": 91
+        },
+        {
+          "word": "unsere",
+          "count": 89
+        },
+        {
+          "word": "alle",
+          "count": 83
+        }
+      ]
+    }
+  },
+  "dictCandidates": 1441,
+  "likelyLemmaNeeded": {
+    "verbForms": 1353,
+    "adjForms": 667
+  }
+}

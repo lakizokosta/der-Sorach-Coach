@@ -3,10 +3,12 @@ id: b1-praeg-dd-039
 type: dropbox
 words:
   - Er
-  - interessiert
-  - sich
-  - für
-  - Politik
+  - fragt
+  - nach
+  - dem
+  - Weg
+  - zum
+  - Krankenhaus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — interessiert für)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

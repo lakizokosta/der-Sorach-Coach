@@ -1,8 +1,11 @@
 ---
 id: b1-gen-in-040
 type: input-text
+hint: Genitiv-Präposition
 correct:
   - Während
 ---
 
-___ der Reparatur kann man die Straße nicht benutzen. (Genitiv-Präposition)
+Ergänze die Genitiv-Präposition:
+
+___ der Reparatur kann man die Straße nicht benutzen.

@@ -2,11 +2,13 @@
 id: b1-perf-dd-045
 type: dropbox
 words:
-  - Er
+  - Die
+  - Firma
   - hat
-  - das
-  - Medikament
-  - eingenommen
+  - viele
+  - neue
+  - Mitarbeiter
+  - eingestellt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

@@ -9,4 +9,4 @@ options:
 correct: schneller
 ---
 
-Ich mag Tee ___. (Komparativ — lang)
+Ich mag Tee ___. (schnell)

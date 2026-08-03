@@ -10,4 +10,4 @@ words:
   - besonders
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Reiseziel)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

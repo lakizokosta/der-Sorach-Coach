@@ -2,12 +2,11 @@
 id: b1-poss-dd-024
 type: dropbox
 words:
-  - Er
-  - kennt
-  - seine
-  - Nachbarn
-  - schon
-  - lange
+  - Wir
+  - diskutieren
+  - unsere
+  - gemeinsame
+  - Zukunft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seine Nachbarn)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

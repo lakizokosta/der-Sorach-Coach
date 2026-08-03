@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-038
 type: input-text
+hint: Adjektivdeklination — bekannt, neutr., Akk.
 correct:
   - bekanntes
 ---
 
-Er singt ein ___ Lied. (Adjektivdeklination — neutr., Akk.)
+Ergänze die Adjektivendung:
+
+Er singt ein ___ Lied.

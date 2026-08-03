@@ -8,10 +8,11 @@ words:
   - von
   - dem
   - Vorschlag
+  - —
   - Ich
   - halte
   - nichts
   - davon
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — damit)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

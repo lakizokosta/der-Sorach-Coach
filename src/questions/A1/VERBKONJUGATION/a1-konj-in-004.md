@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-004
 type: input-text
+hint: Präsens + Verb lesen
 correct:
   - liest
 ---
 
-Anna ___ jeden Abend ein Buch. (Präsens + Verb lesen — sie (Fem.))
+Ergänze die Präsensform des Verbs:
+
+Anna ___ jeden Abend ein Buch.

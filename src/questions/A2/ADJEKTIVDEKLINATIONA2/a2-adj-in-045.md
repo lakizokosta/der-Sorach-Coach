@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-045
 type: input-text
+hint: Adjektivdeklination — lang, fem., Akk.
 correct:
   - lange
 ---
 
-Wir machen eine ___ Reise. (Adjektivendung)
+Ergänze die Adjektivendung:
+
+Wir machen eine ___ Reise.

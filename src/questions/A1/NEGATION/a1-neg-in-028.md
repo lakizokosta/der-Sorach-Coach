@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-028
 type: input-text
+hint: Negation
 correct:
   - keinen
 ---
 
-Ich mache ___ Sport. (Negation)
+Ergänze die Verneinung:
+
+Ich mache ___ Sport.

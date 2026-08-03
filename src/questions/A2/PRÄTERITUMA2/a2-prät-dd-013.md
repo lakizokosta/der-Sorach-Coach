@@ -4,10 +4,11 @@ type: dropbox
 words:
   - Wir
   - warteten
-  - lange
+  - am
+  - Bahnhof
   - auf
   - den
   - Bus
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präteritum + Verb warten)
+Ordne die Wörter zum richtigen Satz: (Präteritum — warteten)

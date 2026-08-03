@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-024
 type: input-text
+hint: Akkusativ — ein / eine / einen / einer
 correct:
   - eine
 ---
 
-Wir besuchen ___ Ausstellung über erneuerbare Energien. (Akkusativ)
+Ergänze die Akkusativform:
+
+Wir besuchen ___ Ausstellung über erneuerbare Energien.

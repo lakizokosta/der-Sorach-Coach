@@ -33,6 +33,46 @@
  * (and the leading code-fence-free Markdown structure) is trimmed.
  */
 
+import { applyInterrogativePunctuation } from './questionPunctuation.js';
+import { resolveInputTextInfinitive } from './inputTextInfinitive.js';
+
+/**
+ * Removes the trailing grammar hint in parentheses from a prompt body,
+ * e.g. `(Indirekte Rede + Verb sein)` or `(Relativsatz)`.
+ *
+ * @param {string} text
+ * @return {string}
+ */
+export function stripTrailingPromptHint(text) {
+  return String(text || '')
+    .replace(/\s*\([^)]*\)\s*$/, '')
+    .trim();
+}
+
+/**
+ * Returns the trailing parenthetical hint from a prompt body, if any.
+ *
+ * @param {string} text
+ * @return {string}
+ */
+export function extractTrailingPromptHint(text) {
+  const m = String(text || '').match(/\(([^)]*)\)\s*$/);
+  return m ? m[1].trim() : '';
+}
+
+/**
+ * Normalises learner input for case-insensitive gap matching.
+ *
+ * @param {string} value
+ * @return {string}
+ */
+export function normalizeGapAnswer(value) {
+  return String(value || '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, ' ');
+}
+
 const FRONTMATTER_RE = /^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/;
 
 /**
@@ -169,8 +209,12 @@ export function parseQuestionFile(raw, context) {
     level: String(context.level || meta.level || '').toUpperCase(),
     topic: String(context.topic || meta.topic || '').toUpperCase(),
     prompt: body,
-    hint: meta.hint || '',
+    hint: meta.hint || extractTrailingPromptHint(body) || '',
   };
+
+  if (meta.lemma) question.lemma = String(meta.lemma);
+  if (meta.set) question.set = String(meta.set).toUpperCase();
+  if (meta.focus) question.focus = String(meta.focus);
 
   switch (question.type) {
     case 'select-one': {
@@ -215,7 +259,30 @@ export function parseQuestionFile(raw, context) {
         throw new Error(`dropbox needs a "words" list with 2+ items (${context?.path})`);
       }
       question.words = meta.words.map(String);
+      if (Array.isArray(meta.commas)) {
+        question.commas = meta.commas.map((n) => Number(n)).filter((n) => Number.isInteger(n) && n >= 0);
+      }
       if (Array.isArray(meta.codes)) question.codes = meta.codes.map(String);
+      if (Array.isArray(meta.alternatives)) {
+        const primaryKey = [...question.words].sort().join('|');
+        question.alternatives = meta.alternatives.map((alt, i) => {
+          const words = String(alt)
+            .split(',')
+            .map((s) => s.trim())
+            .filter(Boolean);
+          if (words.length !== question.words.length) {
+            throw new Error(
+              `dropbox alternative ${i + 1} must have ${question.words.length} words (${context?.path})`,
+            );
+          }
+          if ([...words].sort().join('|') !== primaryKey) {
+            throw new Error(
+              `dropbox alternative ${i + 1} must use the same words as "words" (${context?.path})`,
+            );
+          }
+          return words;
+        });
+      }
       break;
     }
     case 'input-text': {
@@ -228,6 +295,10 @@ export function parseQuestionFile(raw, context) {
         throw new Error(`input-text needs at least one "correct" value (${context?.path})`);
       }
       question.correct = correctList;
+      question.verbInfinitive = resolveInputTextInfinitive(question);
+      if (Array.isArray(meta.wordChoices) && meta.wordChoices.length >= 2) {
+        question.wordChoices = meta.wordChoices.map(String);
+      }
       break;
     }
     case 'text-gaps': {
@@ -273,5 +344,5 @@ export function parseQuestionFile(raw, context) {
       );
   }
 
-  return question;
+  return applyInterrogativePunctuation(question);
 }

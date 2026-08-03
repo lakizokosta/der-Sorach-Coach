@@ -9,4 +9,4 @@ options:
 correct: Auf den
 ---
 
-Wohin legst du das Buch? — ___ Tisch. (Dativ oder Akkusativ — Wo?)
+Wohin legst du das Buch? — ___ Tisch. (Dativ oder Akkusativ)

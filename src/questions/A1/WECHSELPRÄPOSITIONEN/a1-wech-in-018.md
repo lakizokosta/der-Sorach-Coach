@@ -1,8 +1,11 @@
 ---
 id: a1-wech-in-018
 type: input-text
+hint: Wechselpräpositionen — Ort
 correct:
   - an der
 ---
 
-Das Café ist ___ Ecke. (Dativ oder Akkusativ)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Das Café ist ___ Ecke.

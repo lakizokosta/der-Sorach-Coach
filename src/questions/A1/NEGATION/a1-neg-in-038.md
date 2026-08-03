@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-038
 type: input-text
+hint: Negation
 correct:
   - kein
 ---
 
-Er hat ___ Handy. (Negation)
+Ergänze die Verneinung:
+
+Er hat ___ Handy.

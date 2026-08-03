@@ -2,11 +2,11 @@
 id: b1-pradv-012
 type: select-one
 options:
-  - daran
   - darin
+  - daran
   - darauf
   - dafür
-correct: darin
+correct: daran
 ---
 
-Vertraust du in das Team? — Ich vertraue ___. (Pronominaladverb)
+Glaubst du an einen Erfolg? — Ich glaube ___. (Pronominaladverb)

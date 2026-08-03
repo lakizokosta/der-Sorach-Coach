@@ -1,8 +1,11 @@
 ---
 id: b1-lokal-in-043
 type: input-text
+hint: Lokale Präposition — an / auf / in / nach
 correct:
   - in
 ---
 
-Das Reisebüro ist ___ der Hauptstraße. (Lokale Präposition)
+Ergänze die Lokalpräposition:
+
+Das Reisebüro ist ___ der Hauptstraße.

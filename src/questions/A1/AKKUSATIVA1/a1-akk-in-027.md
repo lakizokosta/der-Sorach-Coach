@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-027
 type: input-text
+hint: Akkusativ — das Spiel, Akk.
 correct:
   - das
 ---
 
-Wir gewinnen ___ Spiel. (Akkusativ — Akk.)
+Ergänze die Akkusativform:
+
+Wir gewinnen ___ Spiel.

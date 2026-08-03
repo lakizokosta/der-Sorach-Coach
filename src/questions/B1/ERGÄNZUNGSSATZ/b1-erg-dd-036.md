@@ -2,14 +2,14 @@
 id: b1-erg-dd-036
 type: dropbox
 words:
-  - Der
-  - Chef
-  - sagt
+  - Ich
+  - glaube
   - dass
-  - das
-  - Meeting
-  - verschoben
-  - wird
+  - die
+  - Nachrichten
+  - übertreiben
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass verschoben wird)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

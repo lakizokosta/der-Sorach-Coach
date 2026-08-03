@@ -358,7 +358,7 @@
 - wäre
 - würde
 - wird **✓**
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -371,8 +371,8 @@
 **Optionen:**
 - würden
 - werden **✓**
-- hätten
-- wären
+- sollten
+- wollten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -383,7 +383,7 @@
 > Das ___ sicher Konsequenzen für die Wirtschaft haben. (Grammatikform)
 
 **Optionen:**
-- könnte
+- könnten
 - wäre
 - hätte
 - wird **✓**
@@ -400,7 +400,7 @@
 - würde
 - hätte
 - wird **✓**
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -411,7 +411,7 @@
 > Die Temperaturen ___ in den nächsten Tagen sinken. (Grammatikform)
 
 **Optionen:**
-- wären
+- wollten
 - werden **✓**
 - könnten
 - würden
@@ -441,7 +441,7 @@
 **Optionen:**
 - wäre
 - hätte
-- könnte
+- könnten
 - wird **✓**
 
 - [ ] OK
@@ -456,7 +456,7 @@
 - hätte
 - wird **✓**
 - würde
-- könnte
+- könnten
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -469,7 +469,7 @@
 **Optionen:**
 - trotzdem
 - deshalb **✓**
-- folglich
+- dagegen
 - dennoch
 
 - [ ] OK
@@ -478,7 +478,7 @@
 ### 34. `b2-quiz-034` · select-one
 
 **Aufgabe:**
-> Er war müde, ___ arbeitete er weiter. (Grammatikform)
+> Er war müde; ___ arbeitete er weiter. (Grammatikform)
 
 **Optionen:**
 - deshalb

@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-042
 type: input-text
+hint: Negation
 correct:
   - keine
 ---
 
-Wir hören ___ Musik. (Negation)
+Ergänze die Verneinung:
+
+Wir hören ___ Musik.

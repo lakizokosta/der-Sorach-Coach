@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-039
 type: input-text
+hint: Präteritum + Verb kaufen
 correct:
   - kaufte
 ---
 
-Sie ___ ein Geschenk für ihren Mann. (Präteritum + Verb kaufen)
+Ergänze die Präteritumsform:
+
+Sie ___ ein Geschenk für ihren Mann.

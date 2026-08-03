@@ -9,4 +9,4 @@ options:
 correct: Ihren
 ---
 
-Bitte bringen Sie ___ Ausweis und Stift mit. (Grammatikform)
+Bitte bringen Sie ___ Ausweis und Stift mit.

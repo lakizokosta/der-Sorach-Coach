@@ -2,12 +2,14 @@
 id: b1-akk-dd-033
 type: dropbox
 words:
-  - Der
-  - Journalist
-  - recherchiert
-  - einen
-  - komplexen
-  - Fall
+  - Sie
+  - bereitet
+  - eine
+  - Prüfung
+  - an
+  - der
+  - Universität
+  - vor
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Termin)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

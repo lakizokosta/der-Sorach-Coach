@@ -1,8 +1,11 @@
 ---
 id: b1-adj-in-003
 type: input-text
+hint: Adjektivdeklination — neu, mask., Nom.
 correct:
   - neue
 ---
 
-Der ___ Studiengang an der Universität ist sehr beliebt. (Adj. — neu, mask., Nom.)
+Ergänze die Adjektivendung:
+
+Der ___ Studiengang an der Universität ist sehr beliebt.

@@ -2,12 +2,10 @@
 id: b1-neg-dd-047
 type: dropbox
 words:
-  - Sie
-  - isst
-  - weder
-  - Fleisch
-  - noch
-  - Fisch
+  - Er
+  - kommt
+  - heute
+  - nicht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — weder noch)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

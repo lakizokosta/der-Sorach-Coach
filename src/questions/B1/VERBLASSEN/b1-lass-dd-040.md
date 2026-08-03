@@ -5,9 +5,10 @@ words:
   - Ich
   - lasse
   - mir
-  - den
-  - Vertrag
-  - erklären
+  - eine
+  - zweite
+  - Meinung
+  - geben
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb geben)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

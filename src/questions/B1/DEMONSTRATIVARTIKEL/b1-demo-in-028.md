@@ -1,8 +1,11 @@
 ---
 id: b1-demo-in-028
 type: input-text
+hint: Demonstrativartikel — neutr., Nom./Akk. / mask./neutr., Gen.
 correct:
   - Dieses
 ---
 
-___ Gesetz wurde gestern verabschiedet. (Demonstrativartikel)
+Ergänze den Demonstrativartikel:
+
+___ Gesetz wurde gestern verabschiedet.

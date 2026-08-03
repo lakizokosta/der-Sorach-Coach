@@ -2,13 +2,13 @@
 id: b1-perf-dd-048
 type: dropbox
 words:
-  - Ich
-  - habe
-  - mich
-  - über
-  - das
-  - Ergebnis
-  - gefreut
+  - Sie
+  - hat
+  - sich
+  - für
+  - den
+  - Kurs
+  - angemeldet
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

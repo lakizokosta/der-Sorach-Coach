@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-020
 type: input-text
+hint: Possessivartikel — ich, neutr., Dat.
 correct:
   - meinem
 ---
 
-In ___ Zimmer ist es ruhig. (Possessivartikel — ich, neutr., Dat.)
+Ergänze den Possessivartikel:
+
+In ___ Zimmer ist es ruhig.

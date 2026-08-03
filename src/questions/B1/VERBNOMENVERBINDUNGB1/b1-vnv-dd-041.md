@@ -2,13 +2,10 @@
 id: b1-vnv-dd-041
 type: dropbox
 words:
-  - Sie
-  - absolviert
+  - Wir
+  - haben
   - ein
-  - Praktikum
-  - in
-  - einer
-  - Klinik
+  - Meeting
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Praktikum absolvieren)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

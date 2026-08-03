@@ -1,8 +1,11 @@
 ---
 id: b2-passv-in-015
 type: input-text
+hint: Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten
 correct:
   - lässt
 ---
 
-Das Problem ___ sich vermeiden. (lassen)
+Ergänze die Passiv-Ersatzform:
+
+Das Problem ___ sich vermeiden.

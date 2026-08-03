@@ -1,8 +1,11 @@
 ---
 id: b1-trenn-in-047
 type: input-text
+hint: Trennbares Verb + Verb absagen
 correct:
   - schickt
 ---
 
-Er ___ die wichtige E-Mail sofort an. (Trennbares Verb + Verb anmelden)
+Ergänze die Verbform (trennbares Verb):
+
+Er ___ die wichtige E-Mail sofort ab.

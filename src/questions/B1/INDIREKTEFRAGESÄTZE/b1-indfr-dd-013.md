@@ -2,14 +2,15 @@
 id: b1-indfr-dd-013
 type: dropbox
 words:
-  - Wir
-  - wissen
-  - nicht
+  - Niemand
+  - weiß
   - ob
   - das
   - Problem
   - gelöst
   - wird
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Problem gelöst wird)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

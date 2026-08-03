@@ -2,12 +2,10 @@
 id: b1-lass-dd-026
 type: dropbox
 words:
-  - Sie
+  - Er
   - lässt
-  - den
-  - Bericht
-  - Korrektur
-  - lesen
+  - sich
+  - impfen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb impfen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

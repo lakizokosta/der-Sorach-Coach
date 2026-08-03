@@ -7,9 +7,10 @@ words:
   - auf
   - die
   - Ergebnisse
+  - —
   - Ich
   - warte
   - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Warten))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

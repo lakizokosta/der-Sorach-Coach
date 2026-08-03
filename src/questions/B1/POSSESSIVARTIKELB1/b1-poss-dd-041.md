@@ -2,12 +2,12 @@
 id: b1-poss-dd-041
 type: dropbox
 words:
-  - Er
-  - kennt
-  - seine
-  - Nachbarn
-  - schon
-  - lange
+  - Sie
+  - besucht
+  - ihre
+  - Eltern
+  - am
+  - Wochenende
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seine Nachbarn)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

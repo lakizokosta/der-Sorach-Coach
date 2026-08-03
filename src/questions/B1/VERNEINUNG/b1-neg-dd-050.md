@@ -2,14 +2,11 @@
 id: b1-neg-dd-050
 type: dropbox
 words:
-  - Ich
-  - habe
+  - Das
+  - ist
   - keine
-  - Zeit
-  - für
-  - ein
-  - langes
-  - Meeting
+  - gute
+  - Idee
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — niemand da)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

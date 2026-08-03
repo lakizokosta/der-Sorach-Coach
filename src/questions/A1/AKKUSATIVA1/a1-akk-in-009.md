@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-009
 type: input-text
+hint: Akkusativ — ein Hotel, Akk.
 correct:
   - ein
 ---
 
-Ich suche ___ Hotel. (Akkusativ — Akk.)
+Ergänze die Akkusativform:
+
+Ich suche ___ Hotel.

@@ -9,6 +9,8 @@ words:
   - es
   - schon
   - dunkel
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

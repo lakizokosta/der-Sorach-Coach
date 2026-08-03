@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-003
 type: input-text
+hint: Adjektivdeklination — schön, fem., Akk.
 correct:
   - schöne
 ---
 
-Ich habe eine ___ Katze. (Adjektivendung)
+Ergänze die Adjektivendung:
+
+Ich habe eine ___ Katze.

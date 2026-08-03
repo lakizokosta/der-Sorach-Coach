@@ -1,9 +1,5 @@
 /** Shared helpers for A2 input-text generation. */
-
-export function md(id, prompt, correct) {
-  const ans = (Array.isArray(correct) ? correct : [correct]).map((c) => `  - ${c}`).join('\n');
-  return `---\nid: ${id}\ntype: input-text\ncorrect:\n${ans}\n---\n\n${prompt}\n`;
-}
+export { md } from './input-text-prompt-shared.mjs';
 
 /** @param {[string, string|string[]][]} items */
 export function cycle50(items) {

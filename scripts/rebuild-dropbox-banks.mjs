@@ -38,7 +38,6 @@ const B1_GEN = {
   PRÄPOSITIONENB1: B1G.genPraepositionenB1,
   RELATIVSATZB1: B1G.genRelativsatzB1,
   TRENNBAREVERBENB1: B1G.genTrennbareVerbenB1,
-  VERBPRÄPOSITIONVERBINDUNG: B1G.genVerbPraeposition,
   VERNEINUNG: B1G.genVerneinung,
   VERBNOMENVERBINDUNGB1: B1G.genVerbNomenVerbindungB1,
   VERBLASSEN: B1G.genVerblassen,

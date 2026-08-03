@@ -2,14 +2,15 @@
 id: b1-konz-dd-021
 type: dropbox
 words:
-  - Er
+  - Das
+  - Projekt
   - ist
-  - müde
+  - schwierig
   - trotzdem
-  - hat
-  - er
-  - Überstunden
-  - gemacht
+  - geben
+  - wir
+  - nicht
+  - auf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl schwer war)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

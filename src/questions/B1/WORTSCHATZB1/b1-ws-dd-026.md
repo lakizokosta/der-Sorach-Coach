@@ -2,13 +2,14 @@
 id: b1-ws-dd-026
 type: dropbox
 words:
-  - Der
-  - Bericht
-  - zeigt
-  - dass
-  - die
-  - Wirtschaft
-  - wächst
+  - Er
+  - hat
+  - eine
+  - verantwortliche
+  - Stellung
+  - in
+  - der
+  - Firma
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Bericht)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

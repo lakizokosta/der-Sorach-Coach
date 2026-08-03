@@ -2,14 +2,13 @@
 id: b1-neg-dd-018
 type: dropbox
 words:
-  - Ich
-  - habe
-  - keine
-  - Zeit
-  - für
-  - ein
-  - langes
-  - Meeting
+  - Wir
+  - haben
+  - kein
+  - Interesse
+  - an
+  - dem
+  - Angebot
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — keine Zeit)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

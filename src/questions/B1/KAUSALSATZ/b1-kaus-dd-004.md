@@ -12,4 +12,4 @@ words:
   - geschlafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn wenig geschlafen)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

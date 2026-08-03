@@ -1,8 +1,11 @@
 ---
 id: b2-passv-in-007
 type: input-text
+hint: Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten
 correct:
   - lässt
 ---
 
-Das Fenster ___ sich nicht öffnen. (lassen)
+Ergänze die Passiv-Ersatzform:
+
+Das Fenster ___ sich nicht öffnen.

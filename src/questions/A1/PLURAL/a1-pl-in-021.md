@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-021
 type: input-text
+hint: Plural: Brot
 correct:
   - Brote
 ---
 
-Im Laden gibt es frische ___. (Plural)
+Ergänze die Pluralform:
+
+Im Laden gibt es frische ___.

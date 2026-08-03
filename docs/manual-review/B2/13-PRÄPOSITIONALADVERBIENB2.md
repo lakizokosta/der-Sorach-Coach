@@ -89,7 +89,7 @@
 > Damit ___ ich nichts anfangen. (Pronominaladverb)
 
 **Optionen:**
-- konnte
+- konntet
 - kann **✓**
 - können
 - könnte
@@ -327,7 +327,7 @@
 > Damit ___ ich nichts anfangen. (Pronominaladverb)
 
 **Optionen:**
-- konnte
+- konntet
 - könnte
 - gekonnt
 - kann **✓**

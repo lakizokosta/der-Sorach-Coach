@@ -2,10 +2,11 @@
 id: b1-praep-dd-049
 type: dropbox
 words:
-  - Er
+  - Sie
   - ist
-  - auf
-  - Geschäft
+  - an
+  - der
+  - Universität
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — auf Geschäft)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

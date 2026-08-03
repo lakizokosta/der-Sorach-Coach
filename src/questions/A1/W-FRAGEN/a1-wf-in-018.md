@@ -1,9 +1,11 @@
 ---
 id: a1-wf-in-018
 type: input-text
+hint: Frage nach Ort
 correct:
   - Wo
 ---
 
-___ arbeitest du? — In einem Büro. (Frage nach Ort)
+Ergänze das Fragewort:
 
+___ arbeitest du? — In einem Büro.

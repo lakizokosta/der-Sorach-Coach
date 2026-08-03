@@ -11,4 +11,4 @@ words:
   - Termin
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — meiner Verspätung)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

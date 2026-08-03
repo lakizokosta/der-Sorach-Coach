@@ -3,13 +3,16 @@ id: b1-rel-dd-044
 type: dropbox
 words:
   - Die
-  - Firma
-  - für
-  - die
-  - er
-  - arbeitet
-  - wächst
-  - schnell
+  - Kollegen
+  - denen
+  - ich
+  - danke
+  - haben
+  - mir
+  - geholfen
+commas:
+  - 1
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — für die er arbeitet)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

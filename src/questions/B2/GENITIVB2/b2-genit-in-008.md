@@ -5,4 +5,6 @@ correct:
   - starker
 ---
 
-Ungeachtet ___ (stark) Proteste wurde das Gesetz verabschiedet. (Genitivform)
+Ergänze die Genitivform:
+
+Ungeachtet ___ (stark) Proteste wurde das Gesetz verabschiedet.

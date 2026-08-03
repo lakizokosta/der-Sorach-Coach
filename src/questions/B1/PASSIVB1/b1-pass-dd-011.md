@@ -11,4 +11,4 @@ words:
   - gegeben
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Hilfsverb werden)
+Ordne die Wörter zum richtigen Satz: (Passiv)

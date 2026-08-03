@@ -8,7 +8,7 @@ words:
   - gehe
   - ich
   - nach
-  - Haus
+  - Hause
 ---
 
 Ordne die Wörter zum richtigen Satz: (Wechselpräpositionen)

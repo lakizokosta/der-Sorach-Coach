@@ -10,6 +10,8 @@ words:
   - als
   - im
   - Sommer
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — kalt)

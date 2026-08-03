@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-047
 type: input-text
+hint: Verb-Nomen-Verbindung — gibt / leistet / nimmt / stellt
 correct:
-  - führt durch
+  - leistet
 ---
 
-Er ___ eine sorgfältige Untersuchung. (Verb-Nomen-Verbindung)
+Ergänze die Verb-Nomen-Verbindung:
+
+Sie ___ einen wichtigen Beitrag zur Diskussion.

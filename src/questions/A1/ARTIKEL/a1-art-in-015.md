@@ -1,8 +1,11 @@
 ---
 id: a1-art-in-015
 type: input-text
+hint: Artikel — der Markt, Nom.
 correct:
   - Der
 ---
 
-___ Markt öffnet um 7 Uhr. (Artikel — Nom.)
+Ergänze den Artikel:
+
+___ Markt öffnet um 7 Uhr.

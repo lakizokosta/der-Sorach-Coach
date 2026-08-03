@@ -4,7 +4,7 @@ type: select-one
 options:
   - sind
   - haben
-  - wurden
+  - ist
   - hat
 correct: haben
 ---

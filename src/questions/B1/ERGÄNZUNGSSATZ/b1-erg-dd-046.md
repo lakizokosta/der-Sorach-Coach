@@ -2,13 +2,16 @@
 id: b1-erg-dd-046
 type: dropbox
 words:
-  - Sie
-  - bestätigt
+  - Ich
+  - finde
   - dass
-  - der
-  - Flug
-  - pünktlich
-  - startet
+  - die
+  - neue
+  - Regelung
+  - sinnvoll
+  - ist
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Flug startet)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

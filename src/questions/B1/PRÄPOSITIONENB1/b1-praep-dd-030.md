@@ -2,11 +2,11 @@
 id: b1-praep-dd-030
 type: dropbox
 words:
-  - Sie
-  - kommt
-  - aus
-  - der
-  - Türkei
+  - Er
+  - ist
+  - in
+  - dem
+  - Geschäft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — aus Türkei)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

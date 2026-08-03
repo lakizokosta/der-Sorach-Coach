@@ -2,11 +2,15 @@
 id: b1-praep-dd-025
 type: dropbox
 words:
-  - Sie
-  - wohnt
-  - auf
-  - dem
-  - Land
+  - Das
+  - Büro
+  - ist
+  - bis
+  - 18
+  - Uhr
+  - geöffnet
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — auf Land)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

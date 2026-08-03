@@ -1,8 +1,11 @@
 ---
 id: a2-modal-in-016
 type: input-text
+hint: Modalverb + Verb Konjunktiv II — können/du
 correct:
   - könntest
 ---
 
-Du ___ auch mitmachen. (Modalverb + Verb können)
+Ergänze die Modalverbform:
+
+Du ___ auch mitmachen.

@@ -2,13 +2,13 @@
 id: b1-neg-dd-048
 type: dropbox
 words:
-  - Er
-  - hat
-  - keine
-  - Erfahrung
-  - in
-  - diesem
-  - Bereich
+  - Wir
+  - haben
+  - kein
+  - Interesse
+  - an
+  - dem
+  - Angebot
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — keine Erfahrung)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

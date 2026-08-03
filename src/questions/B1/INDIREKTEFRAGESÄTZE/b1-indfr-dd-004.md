@@ -3,14 +3,15 @@ id: b1-indfr-dd-004
 type: dropbox
 words:
   - Ich
-  - interessiere
+  - frage
   - mich
-  - dafür
   - was
   - die
   - neue
   - Regelung
   - bedeutet
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was Regelung bedeutet)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

@@ -2,11 +2,12 @@
 id: b1-pass-dd-031
 type: dropbox
 words:
-  - Die
-  - Abfälle
-  - werden
-  - getrennt
-  - gesammelt
+  - Das
+  - neue
+  - Gesetz
+  - wird
+  - morgen
+  - verabschiedet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb verabschiedeen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

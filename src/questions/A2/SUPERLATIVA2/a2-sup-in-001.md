@@ -1,8 +1,11 @@
 ---
 id: a2-sup-in-001
 type: input-text
+hint: Superlativ — schnell, mask., Nom.
 correct:
-  - liebstes
+  - schnellste
 ---
 
-Das ist mein ___ Buch. (Superlativ — neutr., Nom.)
+Ergänze die Superlativform:
+
+Der ICE ist der ___ Zug in Deutschland.

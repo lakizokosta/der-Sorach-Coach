@@ -12,6 +12,9 @@ words:
   - bald
   - in
   - Kraft
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — das verabschiedet wurde)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

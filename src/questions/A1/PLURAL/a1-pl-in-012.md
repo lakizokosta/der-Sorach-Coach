@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-012
 type: input-text
+hint: Plural: Tag
 correct:
   - Tage
 ---
 
-Im Sommer sind die ___ lang. (Plural)
+Ergänze die Pluralform:
+
+Im Sommer sind die ___ lang.

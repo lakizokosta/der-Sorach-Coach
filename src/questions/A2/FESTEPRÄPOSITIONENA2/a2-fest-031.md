@@ -2,11 +2,11 @@
 id: a2-fest-031
 type: select-one
 options:
-  - einen
-  - eine
-  - einem
-  - ein
-correct: eine
+  - über
+  - nach
+  - an
+  - für
+correct: nach
 ---
 
-Ich warte auf ___ Antwort. (feste Präposition)
+Er fragt ___ dem Weg zum Hotel. (Feste Präposition)

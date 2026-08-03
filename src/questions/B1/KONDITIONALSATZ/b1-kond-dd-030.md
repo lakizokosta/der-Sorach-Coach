@@ -2,14 +2,14 @@
 id: b1-kond-dd-030
 type: dropbox
 words:
-  - Sobald
-  - die
-  - Ergebnisse
-  - da
-  - sind
-  - rufe
-  - ich
-  - an
+  - Falls
+  - etwas
+  - schiefgeht
+  - melde
+  - dich
+  - sofort
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald die Ergebnisse da sind)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

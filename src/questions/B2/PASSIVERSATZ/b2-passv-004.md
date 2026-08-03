@@ -9,4 +9,4 @@ options:
 correct: überarbeiten
 ---
 
-Der Bericht ist noch zu ___ . (Passiversatz)
+Der Bericht ist noch zu ___ . (Grammatikform)

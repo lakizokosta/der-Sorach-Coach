@@ -1,9 +1,11 @@
 ---
 id: a1-wf-in-029
 type: input-text
+hint: Frage nach Häufigkeit
 correct:
   - Wie oft
 ---
 
-___ oft liest du? — Jeden Tag. (Frage nach Häufigkeit)
+Ergänze das Fragewort:
 
+___ oft liest du? — Jeden Tag.

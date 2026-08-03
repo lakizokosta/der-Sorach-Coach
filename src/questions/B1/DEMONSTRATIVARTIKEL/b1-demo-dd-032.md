@@ -2,12 +2,14 @@
 id: b1-demo-dd-032
 type: dropbox
 words:
-  - Wir
-  - diskutieren
-  - diesen
-  - Vorschlag
-  - im
-  - Meeting
+  - Diese
+  - Kollegin
+  - aus
+  - der
+  - Abteilung
+  - hilft
+  - mir
+  - oft
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — diesen Vorschlag)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

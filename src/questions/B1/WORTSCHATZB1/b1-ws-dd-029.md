@@ -2,11 +2,11 @@
 id: b1-ws-dd-029
 type: dropbox
 words:
-  - Die
-  - Konferenz
-  - beginnt
-  - morgen
-  - früh
+  - Der
+  - Arzt
+  - verschreibt
+  - ein
+  - Medikament
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Konferenz)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-029
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
-  - den
+  - auf
 ---
 
-Sie wartet auf ___ Zug. (feste Präposition)
+Ergänze die feste Präposition:
+
+Sie wartet ___ den Zug.

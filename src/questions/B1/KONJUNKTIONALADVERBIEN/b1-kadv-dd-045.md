@@ -2,14 +2,14 @@
 id: b1-kadv-dd-045
 type: dropbox
 words:
-  - Die
-  - Politik
-  - ändert
-  - sich
+  - Wir
+  - brauchen
+  - Hilfe
   - Deshalb
-  - reagieren
-  - die
-  - Bürger
+  - rufen
+  - wir
+  - einen
+  - Experten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb reagieren)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

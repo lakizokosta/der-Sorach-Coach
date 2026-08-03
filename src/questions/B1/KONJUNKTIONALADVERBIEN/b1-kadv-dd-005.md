@@ -13,4 +13,4 @@ words:
   - verpasst
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb verpasst)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

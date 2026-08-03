@@ -2,12 +2,14 @@
 id: b1-trenn-dd-041
 type: dropbox
 words:
-  - Ich
-  - freue
-  - mich
-  - über
-  - das
-  - Ergebnis
+  - Sie
+  - checkt
+  - um
+  - 22
+  - Uhr
+  - ein
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einchecken)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

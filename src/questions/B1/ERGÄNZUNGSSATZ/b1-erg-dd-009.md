@@ -10,6 +10,8 @@ words:
   - Kurs
   - anspruchsvoll
   - ist
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Kurs anspruchsvoll ist)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

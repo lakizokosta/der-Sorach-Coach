@@ -2,12 +2,13 @@
 id: b1-akk-dd-044
 type: dropbox
 words:
-  - Sie
-  - reserviert
-  - ein
-  - Zimmer
+  - Wir
+  - diskutieren
+  - das
+  - Problem
+  - gemeinsam
   - im
-  - Hotel
+  - Team
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Zimmer)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

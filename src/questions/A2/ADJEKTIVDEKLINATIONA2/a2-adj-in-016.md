@@ -1,8 +1,11 @@
 ---
 id: a2-adj-in-016
 type: input-text
+hint: Adjektivdeklination — schwer, neutr., Nom.
 correct:
   - schweres
 ---
 
-Das ist kein ___ Problem. (Adjektivendung)
+Ergänze die Adjektivendung:
+
+Das ist kein ___ Problem.

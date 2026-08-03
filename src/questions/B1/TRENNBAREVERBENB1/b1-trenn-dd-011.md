@@ -8,6 +8,8 @@ words:
   - 22
   - Uhr
   - ein
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb einchecken)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

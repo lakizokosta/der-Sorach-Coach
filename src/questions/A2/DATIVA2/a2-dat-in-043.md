@@ -1,8 +1,11 @@
 ---
 id: a2-dat-in-043
 type: input-text
+hint: Dativ — Possessiv — meine Eltern, Dat.
 correct:
   - meinen
 ---
 
-Ich wohne bei ___ Eltern. (Dativ — meine Eltern, Dat.)
+Ergänze die Dativform:
+
+Ich wohne bei ___ Eltern.

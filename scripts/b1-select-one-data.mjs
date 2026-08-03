@@ -96,18 +96,18 @@ export function genErgaenzungssatz() {
     ['Ich finde, ___ die neue Regelung sinnvoll ist.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
     ['Der Chef sagt, ___ das Meeting verschoben wird.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
     ['Sie hofft, ___ sie die Prüfung besteht.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
-    ['Es ist klar, ___ wir mehr Zeit brauchen.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
+    ['Wir wissen nicht, ___ er heute kommt.', 'ob', ['dass', 'weil', 'wenn', 'denn']],
     ['Der Arzt meint, ___ du mehr schlafen solltest.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
-    ['Ich glaube, ___ die Nachrichten übertreiben.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
+    ['Sie fragt mich, ___ ich die Hausaufgabe gemacht habe.', 'ob', ['dass', 'weil', 'wenn', 'denn']],
     ['Er behauptet, ___ er alles richtig gemacht hat.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
-    ['Wir sind überzeugt, ___ das Projekt gelingt.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
+    ['Ich weiß nicht, ___ er morgen sagen wird.', 'was', ['dass', 'weil', 'ob', 'denn']],
     ['Die Professorin erklärt, ___ der Kurs anspruchsvoll ist.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
-    ['Man hört, ___ die Preise steigen.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
+    ['Ich frage mich, ___ er recht hat.', 'ob', ['dass', 'weil', 'wenn', 'denn']],
     ['Ich finde es gut, ___ du mitkommst.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
     ['Sie bestätigt, ___ der Flug pünktlich startet.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
-    ['Es stimmt, ___ Umweltschutz wichtig ist.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
+    ['Mich interessiert, ___ du davon hältst.', 'was', ['dass', 'weil', 'ob', 'denn']],
     ['Er merkt, ___ er einen Fehler gemacht hat.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
-    ['Wir wissen, ___ die Entscheidung schwer war.', 'dass', ['weil', 'wenn', 'ob', 'denn']],
+    ['Wir möchten wissen, ___ der Termin noch frei ist.', 'ob', ['dass', 'weil', 'wenn', 'denn']],
   ];
   return ensure50(() => {
     const out = [];
@@ -123,7 +123,7 @@ export function genFinalsatz() {
   const items = [
     ['Er lernt Deutsch, ___ in Berlin arbeiten zu können.', 'um', ['damit', 'weil', 'dass', 'wenn']],
     ['Sie spart Geld, ___ nächstes Jahr reisen zu können.', 'um', ['damit', 'weil', 'dass', 'wenn']],
-    ['Ich nehme Medikamente, ___ die Schmerzen lindern.', 'um', ['damit', 'weil', 'dass', 'wenn']],
+    ['Ich nehme Medikamente, ___ die Schmerzen zu lindern.', 'um', ['damit', 'weil', 'dass', 'wenn']],
     ['Er informiert die Kollegen, ___ alle Bescheid wissen.', 'damit', ['um', 'weil', 'dass', 'wenn']],
     ['Wir fahren früh los, ___ den Zug nicht zu verpassen.', 'um', ['damit', 'weil', 'dass', 'wenn']],
     ['Die Firma schult das Personal, ___ die Qualität steigt.', 'damit', ['um', 'weil', 'dass', 'wenn']],
@@ -496,8 +496,8 @@ export function genPraepositionaleAdverbien() {
     ['Ärgerst du dich über die Nachricht? — Ich ärgere mich ___.', 'darüber', ['darauf', 'daran', 'dafür', 'damit']],
     ['Hilfst du bei dem Projekt? — Ja, ich helfe ___.', 'dabei', ['darauf', 'daran', 'dafür', 'damit']],
     ['Bestehst du auf deiner Meinung? — Ich bestehe ___.', 'darauf', ['daran', 'dafür', 'darüber', 'damit']],
-    ['Vertraust du in das Team? — Ich vertraue ___.', 'darin', ['darauf', 'daran', 'dafür', 'damit']],
-    ['Teilnimmst du an der Konferenz? — Ich nehme ___.', 'daran teil', ['darauf', 'dafür', 'darüber', 'damit']],
+    ['Glaubst du an einen Erfolg? — Ich glaube ___.', 'daran', ['darauf', 'darin', 'dafür', 'damit']],
+    ['Hörst du auf gute Ratschläge? — Ich höre ___.', 'darauf', ['daran', 'dafür', 'darüber', 'damit']],
     ['Informierst du dich über das Gesetz? — Ich informiere mich ___.', 'darüber', ['darauf', 'daran', 'dafür', 'damit']],
     ['Was hältst du von dem Vorschlag? — Ich halte nichts ___.', 'davon', ['darauf', 'daran', 'dafür', 'damit']],
   ];
@@ -518,15 +518,15 @@ export function genPossessivartikelB1() {
     ['Sie hilft ___ neuen Chefin bei der Einarbeitung.', 'ihrer', ['ihr', 'ihre', 'ihren', 'ihrem']],
     ['Wir feiern ___ zehnjähriges Firmenjubiläum.', 'unser', ['unsere', 'unseren', 'unserer', 'unserem']],
     ['Trotz ___ geringen Erfahrung bekommt er die Stelle.', 'seiner', ['sein', 'seine', 'seinen', 'seinem']],
-    ['Das ist das Auto ___ Professors.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Das ist das Auto ___ Professors.', 'meines', ['mein', 'meine', 'meinen', 'meinem']],
     ['Er kennt ___ Nachbarn schon lange.', 'seine', ['sein', 'seinen', 'seiner', 'seinem']],
     ['Während ___ Studiums arbeitete sie nebenbei.', 'ihres', ['ihr', 'ihre', 'ihren', 'ihrem']],
     ['Wir diskutieren ___ gemeinsame Zukunft.', 'unsere', ['unser', 'unseren', 'unserer', 'unserem']],
-    ['Das ist die Entscheidung ___ Ministers.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Das ist die Entscheidung ___ Ministers.', 'seines', ['sein', 'seine', 'seinen', 'seinem']],
     ['Sie besucht ___ Eltern am Wochenende.', 'ihre', ['ihr', 'ihren', 'ihrer', 'ihrem']],
     ['Wegen ___ Verspätung verpasste ich den Termin.', 'meiner', ['mein', 'meine', 'meinen', 'meinem']],
     ['Er vertraut ___ Instinkt.', 'seinem', ['sein', 'seine', 'seinen', 'seiner']],
-    ['Das ist das Ziel ___ Partei.', 'der', ['des', 'dem', 'den', 'das']],
+    ['Das ist das Ziel ___ Partei.', 'unserer', ['unser', 'unsere', 'unseren', 'unserem']],
     ['Wir unterstützen ___ jüngeren Kollegen.', 'unseren', ['unser', 'unsere', 'unserer', 'unserem']],
   ];
   return ensure50(() => {
@@ -552,10 +552,10 @@ export function genPraepositionenB1() {
     ['Ich bin ___ 2020 hier.', 'seit', ['von', 'bis', 'ab', 'nach']],
     ['Das Büro ist ___ 18 Uhr geöffnet.', 'bis', ['von', 'seit', 'ab', 'nach']],
     ['Er reist ___ Italien.', 'nach', ['in', 'zu', 'an', 'auf']],
-    ['Wir diskutieren ___ dem neuen Plan.', 'über', ['an', 'auf', 'in', 'mit']],
+    ['Wir diskutieren ___ den neuen Plan.', 'über', ['an', 'auf', 'in', 'mit']],
     ['Sie kommt ___ der Türkei.', 'aus', ['von', 'in', 'zu', 'nach']],
     ['Das Hotel liegt ___ der Küste.', 'an', ['in', 'auf', 'zu', 'nach']],
-    ['Er ist ___ Geschäft.', 'auf', ['an', 'in', 'zu', 'nach']],
+    ['Er ist ___ dem Geschäft.', 'in', ['auf', 'an', 'zu', 'nach']],
   ];
   return ensure50(() => {
     const out = [];
@@ -598,13 +598,13 @@ export function genRelativsatzB1() {
 export function genTrennbareVerbenB1() {
   const items = [
     ['Wann ___ du dich für den Kurs an?', 'meldest', ['meldet', 'melden', 'anmeldest', 'meldest an']],
-    ['Er ___ die wichtige E-Mail sofort an.', 'schickt', ['schickt ab', 'abschickt', 'schicke', 'schicken']],
+    ['Er ___ die wichtige E-Mail sofort ab.', 'schickt', ['schickt ab', 'abschickt', 'schicke', 'schicken']],
     ['Ich ___ morgen früh um sechs auf.', 'stehe', ['steht', 'stehen', 'aufstehe', 'stehe auf']],
     ['Wir ___ das Meeting auf nächste Woche vor.', 'verlegen', ['verlegen vor', 'vorverlegen', 'verlegt', 'verlegen']],
     ['Sie ___ das Licht aus, wenn sie geht.', 'macht', ['macht aus', 'ausmacht', 'mache', 'machen']],
     ['Er ___ den Termin leider ab.', 'sagt', ['sagt ab', 'absagt', 'sage', 'sagen']],
-    ['Ich ___ mich über das Ergebnis.', 'freue', ['freut', 'freuen', 'freust', 'gefreet']],
-    ['Wir ___ uns schon auf die Reise.', 'freuen', ['freut', 'freue', 'freust', 'gefreet']],
+    ['Ich ___ den Brief um neun Uhr ab.', 'gebe', ['gibt', 'geben', 'abgebe', 'gebe ab']],
+    ['Wir ___ unsere Gäste herzlich ein.', 'laden', ['lädt', 'lade', 'einladen', 'laden ein']],
     ['Du ___ das Formular online aus.', 'füllst', ['füllt', 'füllen', 'ausfüllst', 'füllst aus']],
     ['Er ___ die Nachrichten jeden Morgen durch.', 'geht', ['geht durch', 'durchgeht', 'gehe', 'gehen']],
     ['Sie ___ um 22 Uhr ein.', 'checkt', ['checkt ein', 'eincheckt', 'checke', 'checken']],
@@ -623,41 +623,13 @@ export function genTrennbareVerbenB1() {
   });
 }
 
-export function genVerbPraeposition() {
-  const items = [
-    ['Er denkt oft ___ seine Karriere.', 'an', ['auf', 'in', 'mit', 'zu']],
-    ['Ich warte ___ die Genehmigung.', 'auf', ['an', 'in', 'mit', 'zu']],
-    ['Sie interessiert sich ___ Umweltschutz.', 'für', ['an', 'auf', 'in', 'mit']],
-    ['Wir sprechen ___ die neue Strategie.', 'über', ['an', 'auf', 'in', 'mit']],
-    ['Er erinnert sich ___ das Gespräch.', 'an', ['auf', 'in', 'mit', 'zu']],
-    ['Ich hoffe ___ eine schnelle Lösung.', 'auf', ['an', 'in', 'mit', 'zu']],
-    ['Sie ärgert sich ___ die Verspätung.', 'über', ['an', 'auf', 'in', 'mit']],
-    ['Er fragt ___ dem Weg.', 'nach', ['an', 'auf', 'in', 'mit']],
-    ['Wir bestehen ___ klaren Regeln.', 'auf', ['an', 'in', 'mit', 'zu']],
-    ['Sie träumt ___ einem Job im Ausland.', 'von', ['an', 'auf', 'in', 'mit']],
-    ['Ich danke ___ deiner Unterstützung.', 'für', ['an', 'auf', 'in', 'mit']],
-    ['Er achtet ___ Details.', 'auf', ['an', 'in', 'mit', 'zu']],
-    ['Wir diskutieren ___ dem Vorschlag.', 'über', ['an', 'auf', 'in', 'mit']],
-    ['Sie wartet ___ dem Ergebnis.', 'auf', ['an', 'in', 'mit', 'zu']],
-    ['Er informiert sich ___ dem Thema.', 'über', ['an', 'auf', 'in', 'mit']],
-  ];
-  return ensure50(() => {
-    const out = [];
-    for (let i = 0; i < 50; i++) {
-      const [p, c, pool] = items[i % items.length];
-      out.push({ prompt: p, options: options4(c, pool, i + 221), correct: c });
-    }
-    return out;
-  });
-}
-
 export function genVerneinung() {
   const items = [
     ['Ich habe ___ Zeit für ein langes Meeting.', 'keine', ['nicht', 'nie', 'kein', 'nichts']],
     ['Er kommt heute ___.', 'nicht', ['kein', 'keine', 'nie', 'nichts']],
     ['Wir haben ___ Interesse an dem Angebot.', 'kein', ['nicht', 'nie', 'keine', 'nichts']],
     ['Sie trinkt ___ Kaffee mehr.', 'keinen', ['nicht', 'nie', 'keine', 'nichts']],
-    ['Das ist ___ eine gute Idee.', 'keine', ['nicht', 'nie', 'kein', 'nichts']],
+    ['Das ist ___ gute Idee.', 'keine', ['nicht', 'nie', 'kein', 'nichts']],
     ['Er hat ___ auf die Nachricht geantwortet.', 'nicht', ['kein', 'keine', 'nie', 'nichts']],
     ['Ich sehe ___ Problem.', 'kein', ['nicht', 'nie', 'keine', 'nichts']],
     ['Sie arbeitet ___ am Wochenende.', 'nie', ['nicht', 'kein', 'keine', 'nichts']],
@@ -682,7 +654,7 @@ export function genVerneinung() {
 export function genVerbNomenVerbindungB1() {
   const items = [
     ['Wir müssen heute eine wichtige Entscheidung ___.', 'treffen', ['machen', 'nehmen', 'geben', 'stellen']],
-    ['Er ___ eine sorgfältige Untersuchung.', 'führt durch', ['macht', 'nimmt', 'gibt', 'stellt']],
+    ['Sie ___ einen wichtigen Beitrag zur Diskussion.', 'leistet', ['macht', 'nimmt', 'gibt', 'stellt']],
     ['Sie ___ ein großes Interesse an dem Thema.', 'zeigt', ['macht', 'nimmt', 'gibt', 'stellt']],
     ['Die Firma ___ Kontakt mit neuen Kunden.', 'knüpft', ['macht', 'nimmt', 'gibt', 'stellt']],
     ['Er ___ eine klare Meinung zu der Frage.', 'äußert', ['macht', 'nimmt', 'gibt', 'stellt']],
@@ -720,7 +692,7 @@ export function genVerblassen() {
     ['Sie ___ den Bericht Korrektur lesen.', 'lässt', ['lasse', 'lassen', 'ließ', 'gelassen']],
     ['Ich ___ mir eine zweite Meinung geben.', 'lasse', ['lasst', 'lassen', 'ließ', 'gelassen']],
     ['Er ___ sich impfen.', 'lässt', ['lasse', 'lassen', 'ließ', 'gelassen']],
-    ['Wir ___ das Problem nicht zu ruhen.', 'lassen', ['lasse', 'lasst', 'ließ', 'gelassen']],
+    ['Wir ___ das Problem nicht ruhen.', 'lassen', ['lasse', 'lasst', 'ließ', 'gelassen']],
     ['Sie ___ die Kinder von der Oma abholen.', 'lässt', ['lasse', 'lassen', 'ließ', 'gelassen']],
     ['Du ___ dir Zeit zum Ausruhen.', 'lässt', ['lasse', 'lassen', 'ließ', 'gelassen']],
     ['Ich ___ mich nicht unter Druck setzen.', 'lasse', ['lasst', 'lassen', 'ließ', 'gelassen']],
@@ -738,9 +710,9 @@ export function genVerblassen() {
 export function genWortschatzB1() {
   const items = [
     ['Nach der Operation braucht der Patient eine ___.', 'Rehabilitation', ['Renovierung', 'Reservation', 'Reklamation', 'Rezension']],
-    ['Die ___ der Arbeitsplätze ist ein wichtiges Thema.', 'Sicherheit', ['Sicherung', 'Sicherheitssystem', 'Sicheres', 'Sichern']],
+    ['Die ___ der Arbeitsplätze ist ein wichtiges Thema.', 'Sicherheit', ['Sicherlichkeit', 'Sicherheitssystem', 'Sicheres', 'Sichern']],
     ['Der ___ berichtet über internationale Ereignisse.', 'Journalist', ['Jurnalist', 'Journal', 'Journalismus', 'Journale']],
-    ['Wir müssen den ___ senken, um die Umwelt zu schützen.', 'Ausstoß', ['Ausstoss', 'Ausstoßen', 'Ausstoßung', 'Ausstoßer']],
+    ['Wir müssen den ___ senken, um die Umwelt zu schützen.', 'Ausstoß', ['Ausstoßment', 'Ausstoßen', 'Ausstoßung', 'Ausstoßer']],
     ['Die ___ hat eine neue Regelung beschlossen.', 'Regierung', ['Regiering', 'Regierend', 'Regierer', 'Regierbar']],
     ['Er hat eine ___ für nächsten Monat gebucht.', 'Unterkunft', ['Unterkunftung', 'Unterkommen', 'Unterkunftbar', 'Unterkünft']],
     ['Die ___ an der Universität ist sehr hoch.', 'Nachfrage', ['Nachfragen', 'Nachfragend', 'Nachfrager', 'Nachfragebar']],
@@ -769,12 +741,12 @@ export function genSprachbausteineB1() {
     ['Bitte reichen Sie Ihre Unterlagen ___ spätestens Freitag ein.', 'bis', ['für', 'seit', 'ab', 'von']],
     ['___ der hohen Nachfrage können wir leider nicht alle Termine anbieten.', 'Aufgrund', ['Trotz', 'Während', 'Wegen', 'Ohne']],
     ['Die Prüfungsergebnisse werden Ihnen ___ E-Mail zugesandt.', 'per', ['mit', 'auf', 'an', 'in']],
-    ['Wir bitten Sie, pünktlich ___ dem Seminarraum zu erscheinen.', 'in', ['im', 'am', 'zum', 'beim']],
+    ['Wir bitten Sie, pünktlich ___ dem Seminarraum zu erscheinen.', 'vor', ['in', 'an', 'auf', 'mit']],
     ['Für Rückfragen stehe ich Ihnen gerne ___ Verfügung.', 'zur', ['in', 'an', 'auf', 'mit']],
     ['Die Bewerbungsfrist endet am 15. März; danach können wir ___ Bewerbungen nicht mehr berücksichtigen.', 'eingehende', ['eingehend', 'eingehenden', 'eingehendem', 'eingehender']],
-    ['___ freue ich mich auf eine positive Rückmeldung.', 'Hierfür', ['Dafür', 'Darauf', 'Daran', 'Damit']],
+    ['___ freue ich mich auf eine positive Rückmeldung.', 'Darauf', ['Dafür', 'Daran', 'Damit', 'Hierfür']],
     ['Bitte beachten Sie, dass eine Anmeldung ___ ist.', 'verbindlich', ['verbindliche', 'verbindlichen', 'verbindlichem', 'verbindlicher']],
-    ['Die Veranstaltung findet ___ der aktuellen Hygienevorschriften statt.', 'gemäß', ['laut', 'trotz', 'während', 'wegen']],
+    ['Die Veranstaltung findet ___ der aktuellen Hygienevorschriften statt.', 'gemäß', ['ohne', 'trotz', 'während', 'wegen']],
     ['Wir empfehlen, frühzeitig ___ Hotel zu buchen.', 'ein', ['eine', 'einen', 'einer']],
     ['___ weitere Informationen besuchen Sie unsere Website.', 'Für', ['Mit', 'An', 'Auf', 'In']],
     ['Die Teilnahme ist kostenlos, eine Anmeldung ist jedoch ___.', 'erforderlich', ['erforderliche', 'erforderlichen', 'erforderlichem', 'erforderlicher']],

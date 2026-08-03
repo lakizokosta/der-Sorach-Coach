@@ -1,8 +1,11 @@
 ---
 id: b2-passv-in-014
 type: input-text
+hint: Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten
 correct:
   - prüfen
 ---
 
-Der Antrag ist noch zu ___ . (Passiversatz)
+Ergänze die Passiv-Ersatzform:
+
+Der Antrag ist noch zu ___ .

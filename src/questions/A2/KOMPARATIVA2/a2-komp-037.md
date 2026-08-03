@@ -9,4 +9,4 @@ options:
 correct: teurer
 ---
 
-Dieser Film ist ___ als der andere. (Komparativ — viel)
+Dieser Film ist ___ als der andere. (teuer)

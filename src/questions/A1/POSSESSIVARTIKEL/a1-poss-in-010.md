@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-010
 type: input-text
+hint: Possessivartikel — er, mask., Akk.
 correct:
   - seinen
 ---
 
-Er isst ___ Apfel. (Possessivartikel — er, mask., Akk.)
+Ergänze den Possessivartikel:
+
+Er isst ___ Apfel.

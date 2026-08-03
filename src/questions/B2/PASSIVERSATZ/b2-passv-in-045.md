@@ -1,8 +1,11 @@
 ---
 id: b2-passv-in-045
 type: input-text
+hint: Passiv-Ersatz — auswerten / beantworten / bedienen / erledigen / finden / lässt / prüfen / überarbeiten
 correct:
   - lässt
 ---
 
-Der Fehler ___ sich schnell beheben. (lassen)
+Ergänze die Passiv-Ersatzform:
+
+Der Fehler ___ sich schnell beheben.

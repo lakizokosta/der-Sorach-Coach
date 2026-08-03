@@ -9,4 +9,4 @@ options:
 correct: auf
 ---
 
-Das geht mir ___ die Nerven. (Redewendung)
+Das geht mir ___ die Nerven. (Grammatikform)

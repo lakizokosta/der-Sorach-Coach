@@ -1,8 +1,11 @@
 ---
 id: b1-npv-in-024
 type: input-text
+hint: Nomen + Präposition
 correct:
   - an
 ---
 
-Wir haben Zweifel ___ der neuen Politik. (Nomen + Präposition)
+Ergänze die passende Präposition:
+
+Wir haben Zweifel ___ der neuen Politik.

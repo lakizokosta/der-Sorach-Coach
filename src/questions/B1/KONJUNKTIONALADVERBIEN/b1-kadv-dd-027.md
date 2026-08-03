@@ -3,14 +3,14 @@ id: b1-kadv-dd-027
 type: dropbox
 words:
   - Das
-  - Hotel
+  - Essen
   - war
-  - laut
-  - Trotzdem
-  - haben
-  - wir
-  - gut
-  - geschlafen
+  - teuer
+  - dennoch
+  - blieb
+  - die
+  - Qualität
+  - hoch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem geschlafen)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

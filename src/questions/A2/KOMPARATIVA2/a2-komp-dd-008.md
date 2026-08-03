@@ -9,6 +9,8 @@ words:
   - als
   - das
   - Hostel
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — teuer)

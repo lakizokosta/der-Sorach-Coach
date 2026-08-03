@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-013
 type: input-text
+hint: Akkusativ — diese Stadt, Akk.
 correct:
   - diese
 ---
 
-Ich liebe ___ Stadt. (Akkusativ — Akkusativform)
+Ergänze die Akkusativform:
+
+Ich liebe ___ Stadt.

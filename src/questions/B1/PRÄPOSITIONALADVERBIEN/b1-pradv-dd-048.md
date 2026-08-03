@@ -2,16 +2,17 @@
 id: b1-pradv-dd-048
 type: dropbox
 words:
-  - Informierst
+  - Freust
   - du
   - dich
-  - über
-  - das
-  - Gesetz
+  - auf
+  - die
+  - Reise
+  - —
   - Ich
-  - informiere
+  - freue
   - mich
-  - darüber
+  - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — davon)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

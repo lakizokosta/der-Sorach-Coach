@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-029
 type: input-text
+hint: Possessivartikel — er, neutr., Nom.
 correct:
   - sein
 ---
 
-Das ist ___ Fahrrad. (Possessivartikel — er, neutr., Nom.)
+Ergänze den Possessivartikel:
+
+Das ist ___ Fahrrad.

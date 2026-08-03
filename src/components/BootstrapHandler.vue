@@ -15,7 +15,7 @@
  *                                  consumed after the next Magic-Link
  *                                  login completes.
  *   ?mltoken=<TOKEN>             → loading overlay → validate against
- *                                  the backend → store the 7-day user
+ *                                  the backend → store the sliding user
  *                                  session → consume any pending
  *                                  activation code.
  *
@@ -27,17 +27,18 @@ import { onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 import { STRIPE_SUCCESS_PARAM } from '@/data/payment.js';
+import { useI18n } from '@/i18n/index.js';
 import { hasBackend, validateMagicToken } from '@/utils/api.js';
+import { activateCode, bootstrapEntitlements, applyMagicSessionEntitlements, usePremium } from '@/composables/usePremium.js';
 import { useAuth } from '@/composables/useAuth.js';
-import { activateCode, usePremium } from '@/composables/usePremium.js';
 import {
   applyServerProgress,
   pullProgressFromServer,
 } from '@/composables/useProgressSync.js';
 
 const router = useRouter();
+const { t } = useI18n();
 const { setSession } = useAuth();
-const { revalidateOnLoad } = usePremium();
 
 const PENDING_CODE_KEY = 'pendingActivationCode';
 
@@ -94,7 +95,7 @@ function handleStripeSuccess() {
   if (params.get(STRIPE_SUCCESS_PARAM) !== '1') return;
   stripParam(STRIPE_SUCCESS_PARAM);
   stripeBannerVisible.value = true;
-  setTimeout(() => router.push({ name: 'premium' }), 2000);
+  setTimeout(() => router.push({ name: 'premium', query: { hub: '1' } }), 2000);
 }
 
 /**
@@ -111,24 +112,24 @@ function handleActivateParam() {
   } catch {
     /* ignored */
   }
-  router.push({ name: 'premium' });
+  router.push({ name: 'premium', query: { hub: '1' } });
 }
 
 /**
  * Consumes `?mltoken=<TOKEN>`, validates it against the backend,
  * stores the user session and optionally activates a pending code.
  *
- * @return {Promise<void>}
+ * @return {Promise<{navigatePremium:boolean}|null>}
  */
 async function handleMagicToken() {
   const params = new URLSearchParams(window.location.search);
   const token = params.get('mltoken');
-  if (!token) return;
+  if (!token) return null;
   stripParam('mltoken');
 
   if (!hasBackend()) {
     showToast('⚠ Magic-Link benötigt eine Backend-Konfiguration.', 'error', 6000);
-    return;
+    return { navigatePremium: false };
   }
 
   magicLoading.value = true;
@@ -136,12 +137,21 @@ async function handleMagicToken() {
   magicLoading.value = false;
 
   if (!res || !res.ok) {
-    showToast(`⚠ ${(res && res.error) || 'Link ungültig'}`, 'error', 5000);
-    return;
+    const msg =
+      res && res.errorCode === 'DEVICE_LIMIT'
+        ? t('login.errDeviceLimit', { maxDevices: res.maxDevices || 2 })
+        : (res && res.error) || 'Link ungültig';
+    showToast(`⚠ ${msg}`, 'error', 6000);
+    return { navigatePremium: false };
   }
 
-  setSession(res);
+  setSession({
+    email: res.email,
+    sessionToken: res.sessionToken,
+    sessionExpires: res.sessionExpires,
+  });
   applyServerProgress(res.streakData, res.xpData, res.dailyGoalData);
+  applyMagicSessionEntitlements(res);
 
   let pendingCode = '';
   try {
@@ -154,33 +164,57 @@ async function handleMagicToken() {
   if (pendingCode) {
     const ad = await activateCode(pendingCode, res.email);
     if (ad && ad.ok) {
-      setSession({
-        ...res,
-        isPremium: ad.type === 'premium',
-        isBasis: ad.type === 'basis',
-        premiumExpires: ad.expires || res.premiumExpires || '',
-      });
       showToast('✅ Willkommen & Code aktiviert!');
       setTimeout(() => window.location.reload(), 1500);
-      return;
+      return { navigatePremium: true };
     }
     showToast(
       `Willkommen! Code-Fehler: ${(ad && ad.error) || 'Ungültiger Code'}`,
       'error',
       5000,
     );
-    return;
+    return { navigatePremium: false };
   }
 
-  showToast(`✅ Willkommen, ${res.email}!`);
+  let navigatePremium = Boolean(res.isPremium || res.isBasis);
+  const linkedCode = String(res.premiumCode || res.basisCode || '')
+    .trim()
+    .toUpperCase();
+
+  if (linkedCode) {
+    const ad = await activateCode(linkedCode, res.email);
+    if (ad && ad.ok) navigatePremium = true;
+  }
+
+  if (navigatePremium) {
+    const activeLabel = res.isBasis && !res.isPremium ? 'Basis ist aktiv' : 'Premium ist aktiv';
+    showToast(`✅ Willkommen, ${res.email}! ${activeLabel}.`);
+  } else {
+    showToast(`✅ Willkommen, ${res.email}!`);
+  }
+
+  return { navigatePremium };
+}
+
+async function finishPostLoginNavigation(magicResult) {
+  const { isPremium, isBasis } = usePremium();
+  const { isLoggedIn } = useAuth();
+  const shouldOpenPremium =
+    magicResult?.navigatePremium ||
+    (isLoggedIn.value && (isPremium.value || isBasis.value));
+
+  if (!shouldOpenPremium) return;
+  if (router.currentRoute.value.name === 'premium') return;
+  await router.replace({ name: 'premium' });
 }
 
 onMounted(async () => {
   handleStripeSuccess();
   handleActivateParam();
-  await handleMagicToken();
-  await revalidateOnLoad();
+  const magicResult = await handleMagicToken();
+  await bootstrapEntitlements();
   await pullProgressFromServer();
+  await finishPostLoginNavigation(magicResult);
 });
 </script>
 

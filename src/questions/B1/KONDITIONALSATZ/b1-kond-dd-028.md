@@ -2,14 +2,17 @@
 id: b1-kond-dd-028
 type: dropbox
 words:
-  - Wenn
+  - Sobald
   - die
-  - Sonne
-  - scheint
-  - machen
-  - wir
-  - einen
-  - Ausflug
+  - Ergebnisse
+  - da
+  - sind
+  - rufe
+  - ich
+  - an
+commas:
+  - 2
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Sonne scheint)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

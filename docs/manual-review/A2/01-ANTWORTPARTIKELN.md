@@ -21,10 +21,10 @@
 > „Kommst du mit?" — „___, ich habe keine Zeit." (Antwortpartikel)
 
 **Optionen:**
-- oder
-- nein **✓**
-- doch
-- aber
+- Oder
+- Nein **✓**
+- Doch
+- Aber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -35,9 +35,9 @@
 > "Hast du keinen Hunger?" — "___, ich habe Hunger!" (Antwortpartikel)
 
 **Optionen:**
-- Doch **✓**
-- Ja
-- Nein
+- doch **✓**
+- ja
+- nein
 - Schon
 
 - [ ] OK
@@ -49,10 +49,10 @@
 > „Hast du Hunger?" — „___, gern!" (Antwortpartikel)
 
 **Optionen:**
-- oder
-- ja **✓**
-- doch
-- vielleicht
+- Oder
+- Ja **✓**
+- Doch
+- Vielleicht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -63,10 +63,10 @@
 > „Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel — Widerspruch)
 
 **Optionen:**
-- nein
-- oder
-- vielleicht
-- doch **✓**
+- Nein
+- Oder
+- Vielleicht
+- Doch **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -105,10 +105,10 @@
 > „Ist das dein Auto?" — „___, das ist meins." (Antwortpartikel)
 
 **Optionen:**
-- oder
-- ja **✓**
-- vielleicht
-- aber
+- Oder
+- Ja **✓**
+- Vielleicht
+- Aber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -119,10 +119,10 @@
 > „Lernst du Deutsch?" — „___, seit einem Jahr." (Antwortpartikel)
 
 **Optionen:**
-- aber
-- oder
-- vielleicht
-- ja **✓**
+- Aber
+- Oder
+- Vielleicht
+- Ja **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -133,10 +133,10 @@
 > „Warst du krank?" — „___, ich war nur müde." (Antwortpartikel)
 
 **Optionen:**
-- vielleicht
-- nein **✓**
-- doch
-- aber
+- Vielleicht
+- Nein **✓**
+- Doch
+- Aber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -147,10 +147,10 @@
 > „Du kommst doch zur Party?" — „___, ich komme bestimmt." (Antwortpartikel)
 
 **Optionen:**
-- aber
-- doch **✓**
-- nein
-- vielleicht
+- Aber
+- Doch **✓**
+- Nein
+- Vielleicht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -161,10 +161,10 @@
 > „Magst du Sport?" — „___, ich mag Fußball." (Antwortpartikel)
 
 **Optionen:**
-- oder
-- ja **✓**
-- doch
-- aber
+- Oder
+- Ja **✓**
+- Doch
+- Aber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -175,10 +175,10 @@
 > „Ist das teuer?" — „___, es ist günstig." (Antwortpartikel)
 
 **Optionen:**
-- doch
-- aber
-- oder
-- nein **✓**
+- Doch
+- Aber
+- Oder
+- Nein **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -189,10 +189,10 @@
 > „Trinkst du Milch?" — „___, ich trinke keinen." (Antwortpartikel)
 
 **Optionen:**
-- oder
-- nein **✓**
-- vielleicht
-- doch
+- Oder
+- Nein **✓**
+- Vielleicht
+- Doch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -203,10 +203,10 @@
 > „Du hast doch Zeit?" — „___, ich habe Zeit." (Antwortpartikel)
 
 **Optionen:**
-- nein
-- oder
-- doch **✓**
-- vielleicht
+- Nein
+- Oder
+- Doch **✓**
+- Vielleicht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -245,10 +245,10 @@
 > „Kommst du mit?" — „___, ich habe keine Zeit." (Antwortpartikel)
 
 **Optionen:**
-- aber
-- nein **✓**
-- oder
-- vielleicht
+- Aber
+- Nein **✓**
+- Oder
+- Vielleicht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -259,10 +259,10 @@
 > „Hast du Hunger?" — „___, gern!" (Antwortpartikel)
 
 **Optionen:**
-- aber
-- ja **✓**
-- vielleicht
-- oder
+- Aber
+- Ja **✓**
+- Vielleicht
+- Oder
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -273,10 +273,10 @@
 > „Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel)
 
 **Optionen:**
-- nein
-- doch **✓**
-- aber
-- vielleicht
+- Nein
+- Doch **✓**
+- Aber
+- Vielleicht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -315,10 +315,10 @@
 > „Ist das dein Auto?" — „___, das ist meins." (Antwortpartikel — Kontrast)
 
 **Optionen:**
-- doch
-- oder
-- ja **✓**
-- aber
+- Doch
+- Oder
+- Ja **✓**
+- Aber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -329,10 +329,10 @@
 > „Lernst du Deutsch?" — „___, seit einem Jahr." (Antwortpartikel — Alternative)
 
 **Optionen:**
-- vielleicht
-- ja **✓**
-- doch
-- oder
+- Vielleicht
+- Ja **✓**
+- Doch
+- Oder
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -343,10 +343,10 @@
 > „Warst du krank?" — „___, ich war nur müde." (Antwortpartikel)
 
 **Optionen:**
-- oder
-- doch
-- vielleicht
-- nein **✓**
+- Oder
+- Doch
+- Vielleicht
+- Nein **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -357,10 +357,10 @@
 > „Du kommst doch zur Party?" — „___, ich komme bestimmt." (Antwortpartikel)
 
 **Optionen:**
-- nein
-- oder
-- doch **✓**
-- aber
+- Nein
+- Oder
+- Doch **✓**
+- Aber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -371,10 +371,10 @@
 > „Magst du Sport?" — „___, ich mag Fußball." (Antwortpartikel)
 
 **Optionen:**
-- aber
-- ja **✓**
-- doch
-- oder
+- Aber
+- Ja **✓**
+- Doch
+- Oder
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -385,10 +385,10 @@
 > „Ist das teuer?" — „___, es ist günstig." (Antwortpartikel)
 
 **Optionen:**
-- oder
-- nein **✓**
-- aber
-- vielleicht
+- Oder
+- Nein **✓**
+- Aber
+- Vielleicht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -399,10 +399,10 @@
 > „Trinkst du Milch?" — „___, ich trinke keinen." (Antwortpartikel)
 
 **Optionen:**
-- vielleicht
-- aber
-- oder
-- nein **✓**
+- Vielleicht
+- Aber
+- Oder
+- Nein **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -413,10 +413,10 @@
 > „Du hast doch Zeit?" — „___, ich habe Zeit." (Antwortpartikel)
 
 **Optionen:**
-- aber
-- doch **✓**
-- vielleicht
-- nein
+- Aber
+- Doch **✓**
+- Vielleicht
+- Nein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -455,10 +455,10 @@
 > „Kommst du mit?" — „___, ich habe keine Zeit." (Antwortpartikel — Alternative)
 
 **Optionen:**
-- oder
-- doch
-- aber
-- nein **✓**
+- Oder
+- Doch
+- Aber
+- Nein **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -469,10 +469,10 @@
 > „Hast du Hunger?" — „___, gern!" (Antwortpartikel — Kontrast)
 
 **Optionen:**
-- oder
-- ja **✓**
-- vielleicht
-- doch
+- Oder
+- Ja **✓**
+- Vielleicht
+- Doch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -483,10 +483,10 @@
 > „Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel)
 
 **Optionen:**
-- vielleicht
-- doch **✓**
-- nein
-- oder
+- Vielleicht
+- Doch **✓**
+- Nein
+- Oder
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -525,10 +525,10 @@
 > „Ist das dein Auto?" — „___, das ist meins." (Antwortpartikel)
 
 **Optionen:**
-- vielleicht
-- ja **✓**
-- oder
-- aber
+- Vielleicht
+- Ja **✓**
+- Oder
+- Aber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -539,10 +539,10 @@
 > „Lernst du Deutsch?" — „___, seit einem Jahr." (Antwortpartikel — Widerspruch)
 
 **Optionen:**
-- doch
-- aber
-- ja **✓**
-- vielleicht
+- Doch
+- Aber
+- Ja **✓**
+- Vielleicht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -553,10 +553,10 @@
 > „Warst du krank?" — „___, ich war nur müde." (Antwortpartikel — Kontrast)
 
 **Optionen:**
-- doch
-- vielleicht
-- nein **✓**
-- aber
+- Doch
+- Vielleicht
+- Nein **✓**
+- Aber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -567,10 +567,10 @@
 > „Du kommst doch zur Party?" — „___, ich komme bestimmt." (Antwortpartikel — Alternative)
 
 **Optionen:**
-- aber
-- oder
-- nein
-- doch **✓**
+- Aber
+- Oder
+- Nein
+- Doch **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -581,10 +581,10 @@
 > „Magst du Sport?" — „___, ich mag Fußball." (Antwortpartikel)
 
 **Optionen:**
-- oder
-- ja **✓**
-- aber
-- doch
+- Oder
+- Ja **✓**
+- Aber
+- Doch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -595,10 +595,10 @@
 > „Ist das teuer?" — „___, es ist günstig." (Antwortpartikel)
 
 **Optionen:**
-- doch
-- nein **✓**
-- vielleicht
-- oder
+- Doch
+- Nein **✓**
+- Vielleicht
+- Oder
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -609,10 +609,10 @@
 > „Trinkst du Milch?" — „___, ich trinke keinen." (Antwortpartikel)
 
 **Optionen:**
-- vielleicht
-- nein **✓**
-- doch
-- oder
+- Vielleicht
+- Nein **✓**
+- Doch
+- Oder
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -623,10 +623,10 @@
 > „Du hast doch Zeit?" — „___, ich habe Zeit." (Antwortpartikel)
 
 **Optionen:**
-- aber
-- oder
-- nein
-- doch **✓**
+- Aber
+- Oder
+- Nein
+- Doch **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -665,10 +665,10 @@
 > „Kommst du mit?" — „___, ich habe keine Zeit." (Antwortpartikel)
 
 **Optionen:**
-- vielleicht
-- oder
-- nein **✓**
-- aber
+- Vielleicht
+- Oder
+- Nein **✓**
+- Aber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -679,10 +679,10 @@
 > „Hast du Hunger?" — „___, gern!" (Antwortpartikel)
 
 **Optionen:**
-- aber
-- doch
-- vielleicht
-- ja **✓**
+- Aber
+- Doch
+- Vielleicht
+- Ja **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -693,10 +693,10 @@
 > „Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel — Alternative)
 
 **Optionen:**
-- vielleicht
-- doch **✓**
-- aber
-- nein
+- Vielleicht
+- Doch **✓**
+- Aber
+- Nein
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -736,7 +736,7 @@
 **Aufgabe:**
 > „Kommst du zur Einladung mit?" — „___, ich habe keine Zeit." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -746,7 +746,7 @@
 **Aufgabe:**
 > „Hast du schon jemanden kennengelernt?" — „___, zwei Kollegen." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -756,7 +756,7 @@
 **Aufgabe:**
 > „Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel — Widerspruch)
 
-**Antwort:** `doch`
+**Antwort:** `Doch`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -786,7 +786,7 @@
 **Aufgabe:**
 > „Ist das dein neues Fahrrad?" — „___, das ist meins." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -796,7 +796,7 @@
 **Aufgabe:**
 > „Lernst du schon Deutsch?" — „___, seit einem Jahr." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -806,7 +806,7 @@
 **Aufgabe:**
 > „Warst du bei der Panne dabei?" — „___, ich war nur Zuschauer." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -816,7 +816,7 @@
 **Aufgabe:**
 > „Du kommst doch zur Hochzeit?" — „___, ich komme bestimmt." (Antwortpartikel)
 
-**Antwort:** `doch`
+**Antwort:** `Doch`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -826,7 +826,7 @@
 **Aufgabe:**
 > „Interessierst du dich für Tanzsport?" — „___, sehr." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -836,7 +836,7 @@
 **Aufgabe:**
 > „Ist die Wohnung teuer?" — „___, sie ist günstig." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -846,7 +846,7 @@
 **Aufgabe:**
 > „Isst du Fleisch?" — „___, ich esse nie Fleisch." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -856,7 +856,7 @@
 **Aufgabe:**
 > „Du hast doch Zeit am Wochenende?" — „___, ich habe Zeit." (Antwortpartikel)
 
-**Antwort:** `doch`
+**Antwort:** `Doch`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -886,7 +886,7 @@
 **Aufgabe:**
 > „Kann ich das auf den Tisch legen?" — „___, gern." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -896,7 +896,7 @@
 **Aufgabe:**
 > „Hast du Lust auf Sport?" — „___, darauf habe ich keine Lust." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -906,7 +906,7 @@
 **Aufgabe:**
 > „Kommst du zur Einladung mit?" — „___, ich habe keine Zeit." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -916,7 +916,7 @@
 **Aufgabe:**
 > „Hast du schon jemanden kennengelernt?" — „___, zwei Kollegen." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -926,7 +926,7 @@
 **Aufgabe:**
 > „Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel — Widerspruch)
 
-**Antwort:** `doch`
+**Antwort:** `Doch`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -956,7 +956,7 @@
 **Aufgabe:**
 > „Ist das dein neues Fahrrad?" — „___, das ist meins." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -966,7 +966,7 @@
 **Aufgabe:**
 > „Lernst du schon Deutsch?" — „___, seit einem Jahr." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -976,7 +976,7 @@
 **Aufgabe:**
 > „Warst du bei der Panne dabei?" — „___, ich war nur Zuschauer." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -986,7 +986,7 @@
 **Aufgabe:**
 > „Du kommst doch zur Hochzeit?" — „___, ich komme bestimmt." (Antwortpartikel)
 
-**Antwort:** `doch`
+**Antwort:** `Doch`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -996,7 +996,7 @@
 **Aufgabe:**
 > „Interessierst du dich für Tanzsport?" — „___, sehr." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1006,7 +1006,7 @@
 **Aufgabe:**
 > „Ist die Wohnung teuer?" — „___, sie ist günstig." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1016,7 +1016,7 @@
 **Aufgabe:**
 > „Isst du Fleisch?" — „___, ich esse nie Fleisch." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1026,7 +1026,7 @@
 **Aufgabe:**
 > „Du hast doch Zeit am Wochenende?" — „___, ich habe Zeit." (Antwortpartikel)
 
-**Antwort:** `doch`
+**Antwort:** `Doch`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1056,7 +1056,7 @@
 **Aufgabe:**
 > „Kann ich das auf den Tisch legen?" — „___, gern." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1066,7 +1066,7 @@
 **Aufgabe:**
 > „Hast du Lust auf Sport?" — „___, darauf habe ich keine Lust." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1076,7 +1076,7 @@
 **Aufgabe:**
 > „Kommst du zur Einladung mit?" — „___, ich habe keine Zeit." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1086,7 +1086,7 @@
 **Aufgabe:**
 > „Hast du schon jemanden kennengelernt?" — „___, zwei Kollegen." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1096,7 +1096,7 @@
 **Aufgabe:**
 > „Du warst doch in Berlin?" — „___, letztes Jahr." (Antwortpartikel — Widerspruch)
 
-**Antwort:** `doch`
+**Antwort:** `Doch`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1126,7 +1126,7 @@
 **Aufgabe:**
 > „Ist das dein neues Fahrrad?" — „___, das ist meins." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1136,7 +1136,7 @@
 **Aufgabe:**
 > „Lernst du schon Deutsch?" — „___, seit einem Jahr." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1146,7 +1146,7 @@
 **Aufgabe:**
 > „Warst du bei der Panne dabei?" — „___, ich war nur Zuschauer." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1156,7 +1156,7 @@
 **Aufgabe:**
 > „Du kommst doch zur Hochzeit?" — „___, ich komme bestimmt." (Antwortpartikel)
 
-**Antwort:** `doch`
+**Antwort:** `Doch`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1166,7 +1166,7 @@
 **Aufgabe:**
 > „Interessierst du dich für Tanzsport?" — „___, sehr." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1176,7 +1176,7 @@
 **Aufgabe:**
 > „Ist die Wohnung teuer?" — „___, sie ist günstig." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1186,7 +1186,7 @@
 **Aufgabe:**
 > „Isst du Fleisch?" — „___, ich esse nie Fleisch." (Antwortpartikel)
 
-**Antwort:** `nein`
+**Antwort:** `Nein`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1196,7 +1196,7 @@
 **Aufgabe:**
 > „Du hast doch Zeit am Wochenende?" — „___, ich habe Zeit." (Antwortpartikel)
 
-**Antwort:** `doch`
+**Antwort:** `Doch`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1226,7 +1226,7 @@
 **Aufgabe:**
 > „Kann ich das auf den Tisch legen?" — „___, gern." (Antwortpartikel)
 
-**Antwort:** `ja`
+**Antwort:** `Ja`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1328,7 +1328,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)
 
-**Wörter:** Interessierst · du · dich · für · Tanzsport · ja · sehr
+**Wörter:** Ja · ich · interessiere · mich · sehr · für · Tanzsport
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1338,7 +1338,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)
 
-**Wörter:** Ist · die · Wohnung · teuer · nein · sie · ist · günstig
+**Wörter:** Nein · die · Wohnung · ist · günstig
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1358,7 +1358,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Antwortpartikel — doch)
 
-**Wörter:** Doch · am · Wochenende · habe · ich · Zeit
+**Wörter:** Doch · ich · habe · Zeit
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1498,7 +1498,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)
 
-**Wörter:** Interessierst · du · dich · für · Tanzsport · ja · sehr
+**Wörter:** Ja · ich · interessiere · mich · sehr · für · Tanzsport
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1508,7 +1508,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)
 
-**Wörter:** Ist · die · Wohnung · teuer · nein · sie · ist · günstig
+**Wörter:** Nein · die · Wohnung · ist · günstig
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1528,7 +1528,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Antwortpartikel — doch)
 
-**Wörter:** Doch · am · Wochenende · habe · ich · Zeit
+**Wörter:** Doch · ich · habe · Zeit
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1668,7 +1668,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)
 
-**Wörter:** Interessierst · du · dich · für · Tanzsport · ja · sehr
+**Wörter:** Ja · ich · interessiere · mich · sehr · für · Tanzsport
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1678,7 +1678,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)
 
-**Wörter:** Ist · die · Wohnung · teuer · nein · sie · ist · günstig
+**Wörter:** Nein · die · Wohnung · ist · günstig
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1698,7 +1698,7 @@
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Antwortpartikel — doch)
 
-**Wörter:** Doch · am · Wochenende · habe · ich · Zeit
+**Wörter:** Doch · ich · habe · Zeit
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

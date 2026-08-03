@@ -2,13 +2,15 @@
 id: b1-adj-dd-032
 type: dropbox
 words:
-  - Sie
-  - reist
-  - mit
-  - kleinem
-  - Gepäck
-  - nach
-  - Italien
+  - Der
+  - Chef
+  - präsentiert
+  - einen
+  - wichtigen
+  - Bericht
+  - vor
+  - der
+  - Abteilung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — aktuelle Entwicklung)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

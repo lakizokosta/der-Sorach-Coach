@@ -2,12 +2,11 @@
 id: b1-lokal-dd-042
 type: dropbox
 words:
-  - Das
-  - Hotel
-  - liegt
-  - an
+  - Er
+  - wohnt
+  - auf
   - dem
-  - Fluss
+  - Land
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokal — am Fluss)
+Ordne die Wörter zum richtigen Satz: (Lokale Präpositionen)

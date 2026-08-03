@@ -2,11 +2,11 @@
 id: b2-quiz-001
 type: select-one
 options:
-  - damit
-  - obwohl
-  - weil
-  - als ob
-correct: als ob
+  - bist
+  - wäre
+  - würde
+  - bin
+correct: wäre
 ---
 
-Er tut so, ___ er alles wüsste. (Grammatikform)
+Wenn ich du ___, würde ich die Stelle annehmen.

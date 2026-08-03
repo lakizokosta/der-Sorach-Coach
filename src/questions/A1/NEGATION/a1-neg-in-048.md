@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-048
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Der Wind weht ___ stark. (Negation)
+Ergänze die Verneinung:
+
+Der Wind weht ___ stark.

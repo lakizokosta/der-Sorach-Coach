@@ -9,6 +9,8 @@ words:
   - ich
   - einen
   - Schirm
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)

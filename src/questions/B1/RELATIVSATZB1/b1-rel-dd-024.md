@@ -2,13 +2,15 @@
 id: b1-rel-dd-024
 type: dropbox
 words:
-  - Studierende
-  - die
-  - Prüfung
-  - bestanden
-  - haben
-  - feiern
-  - heute
+  - Der Artikel
+  - der
+  - in der Zeitung
+  - stand
+  - war
+  - interessant
+commas:
+  - 0
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — die bestanden haben)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

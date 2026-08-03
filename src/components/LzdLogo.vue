@@ -6,7 +6,7 @@
  * Use the `small` prop in the trainer / premium screens where space is
  * tighter than on the landing page.
  *
- * @prop {boolean} small  Render the compact 52px version instead of 132px.
+ * @prop {boolean} small  Render the compact 104px version instead of 260px.
  */
 
 import { useRouter } from 'vue-router';

@@ -2,14 +2,16 @@
 id: b1-erg-dd-031
 type: dropbox
 words:
-  - Er
-  - merkt
+  - Ich
+  - finde
   - dass
-  - er
-  - einen
-  - Fehler
-  - gemacht
-  - hat
+  - die
+  - neue
+  - Regelung
+  - sinnvoll
+  - ist
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Fehler gemacht hat)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

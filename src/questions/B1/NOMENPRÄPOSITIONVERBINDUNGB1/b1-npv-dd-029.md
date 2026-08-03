@@ -2,12 +2,12 @@
 id: b1-npv-dd-029
 type: dropbox
 words:
-  - Die
-  - Patientin
+  - Er
   - hat
-  - Schmerzen
-  - im
-  - Rücken
+  - Erfahrung
+  - in
+  - diesem
+  - Bereich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Erfahrung in)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

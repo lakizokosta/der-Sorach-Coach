@@ -1,8 +1,11 @@
 ---
 id: b1-akk-in-004
 type: input-text
+hint: Akkusativ — sein / seine / seinen / seiner
 correct:
   - seine
 ---
 
-Er informiert ___ Kollegen über die neue Regelung. (Akkusativ)
+Ergänze die Akkusativform:
+
+Er informiert ___ Kollegen über die neue Regelung.

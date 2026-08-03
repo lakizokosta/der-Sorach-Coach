@@ -9,4 +9,4 @@ words:
   - Firmenjubiläum
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — unser Jubiläum)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

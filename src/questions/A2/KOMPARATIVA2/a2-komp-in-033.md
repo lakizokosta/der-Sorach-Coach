@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-033
 type: input-text
+hint: Komparativ — schön
 correct:
   - schöner
 ---
 
-Am schönsten finde ich den Teppich — er ist ___ als der Tisch. (Komparativ — schön)
+Ergänze die Komparativform:
+
+Am schönsten finde ich den Teppich — er ist ___ als der Tisch.

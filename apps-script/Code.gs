@@ -8,9 +8,9 @@
  *      e-mails the buyer the code + a one-click activation link.
  *   2. Validates activation codes posted by the SPA, returning a
  *      2-hour session token bound to the buyer's device.
- *   3. Issues magic-link login e-mails (7-day passwordless sessions).
- *   4. Issues one-shot 1-day trial codes.
- *   5. Relays the contact form to the support inbox.
+ *   3. Issues magic-link login e-mails (365-day sliding sessions).
+ *   4. Relays the contact form to the support inbox.
+ *   5. Sends monitor alert e-mails (CI redeploy reminders).
  *
  * Deploy as a Web App (Execute as: Me, Access: Anyone) and put the
  * resulting `/exec` URL into:
@@ -82,22 +82,20 @@ const STRIPE_AMOUNT_MAP = {
   9000: { months: 12, plan: '12months', label: '12 Monate Premium'         },
 };
 
-/**
- * TEMPORARY trial QA flag — set to `false` before production.
- *
- * When `true`, addresses whose local part contains `+test`
- * (e.g. `you+test@gmail.com`) may request unlimited trial codes:
- * the Trial-sheet deduplication (one per e-mail / device) is skipped.
- */
-const TRIAL_TEST_MODE = true;
-
 /** Magic-link rate limit per e-mail address (sliding window). */
 const MAGIC_LINK_RATE = { count: 3, windowMs: 10 * 60 * 1000 };
 
+/** Max distinct browsers/devices per e-mail (magic-link sessions). */
+const MAX_DEVICES_PER_EMAIL = 2;
+
 /** Session lifetime once a code is validated. */
 const SESSION_LIFETIME_MS = 2 * 60 * 60 * 1000;            // 2 h
-const MAGIC_SESSION_LIFETIME_MS = 7 * 24 * 60 * 60 * 1000; // 7 d
+const MAGIC_SESSION_LIFETIME_MS = 365 * 24 * 60 * 60 * 1000; // 365 d (sliding)
 const MAGIC_TOKEN_LIFETIME_MS = 30 * 60 * 1000;            // 30 min
+
+/** HMAC secret for short-lived Premium training JWTs (must match Worker `TRAINING_JWT_SECRET`). */
+const TRAINING_JWT_SECRET = WEBHOOK_SECRET;
+const TRAINING_JWT_LIFETIME_MS = 30 * 60 * 1000;           // 30 min
 
 /* ────────────────────────────────────────────────────────────────
    HTTP entry points.
@@ -116,6 +114,8 @@ function doGet(e) {
     switch (action) {
       case 'validateCode':       return json(validateCode(e.parameter));
       case 'validateMagicToken': return json(validateMagicToken(e.parameter));
+      case 'requestMagicLink':   return json(requestMagicLink(e.parameter));
+      case 'monitorNotify':      return json(handleMonitorNotify_(e.parameter));
       default:                   return json({ ok: false, error: 'Unknown action' });
     }
   } catch (err) {
@@ -149,7 +149,6 @@ function doPost(e) {
     // SPA → backend JSON body.
     const body = raw ? JSON.parse(raw) : {};
     if (body.requestMagicLink) return json(requestMagicLink(body));
-    if (body.requestTrial)     return json(requestTrial(body));
     if (body.contactForm)      return json(sendContactForm(body));
 
     // Progress sync (email account — cross-device XP + streak).
@@ -157,6 +156,9 @@ function doPost(e) {
     if (body.action === 'saveStreakByEmail')  return json(saveProgressByEmail_(body, true));
     if (body.action === 'loadProgressByEmail') return json(loadProgressByEmail_(body, false));
     if (body.action === 'saveProgressByEmail') return json(saveProgressByEmail_(body, false));
+    if (body.action === 'refreshMagicSession') return json(refreshMagicSession_(body));
+    if (body.action === 'revokeMagicSession') return json(revokeMagicSession_(body));
+    if (body.action === 'verifyTrainingAccess') return json(verifyTrainingAccess_(body));
     if (body.loadProgress)  return json(loadProgressByEmail_(body, false));
     if (body.saveProgress)  return json(saveProgressByEmail_(body, false));
 
@@ -208,7 +210,11 @@ function handleStripeWebhook_(rawBody) {
 
   const code = generateActivationCode_(planInfo.plan);
   saveActivationCode_(code, email, planInfo, 'stripe', event.id);
-  sendActivationEmail_(email, code, planInfo);
+  try {
+    sendActivationEmail_(email, code, planInfo);
+  } catch (mailErr) {
+    log('sendActivationEmail_stripe', String(mailErr && mailErr.message || mailErr));
+  }
 
   return { ok: true, code, plan: planInfo.plan, email };
 }
@@ -247,7 +253,11 @@ function handlePaypalIpn_(rawBody) {
 
   const code = generateActivationCode_(planInfo.plan);
   saveActivationCode_(code, email, planInfo, 'paypal', params.txn_id);
-  sendActivationEmail_(email, code, planInfo);
+  try {
+    sendActivationEmail_(email, code, planInfo);
+  } catch (mailErr) {
+    log('sendActivationEmail_paypal', String(mailErr && mailErr.message || mailErr));
+  }
 
   return { ok: true, code, plan: planInfo.plan, email };
 }
@@ -299,7 +309,7 @@ function generateActivationCode_(plan) {
  * @param {string} code
  * @param {string} email
  * @param {!Object} planInfo  Entry from STRIPE_AMOUNT_MAP.
- * @param {('stripe'|'paypal'|'manual'|'trial')} source
+ * @param {('stripe'|'paypal'|'manual')} source
  * @param {string} transactionId
  */
 function saveActivationCode_(code, email, planInfo, source, transactionId) {
@@ -321,15 +331,44 @@ function saveActivationCode_(code, email, planInfo, source, transactionId) {
 }
 
 /**
+ * @param {*} value
+ * @return {string|null}
+ */
+function safeIsoDate_(value) {
+  if (value === null || value === undefined || value === '') return null;
+  const t = new Date(value).getTime();
+  if (!Number.isFinite(t)) return null;
+  try {
+    return new Date(t).toISOString();
+  } catch (_) {
+    return null;
+  }
+}
+
+/**
+ * @param {*} usedAt
+ * @param {number} months
+ * @return {string|null}
+ */
+function codeExpiresIso_(usedAt, months) {
+  const m = Number(months) || 0;
+  if (m <= 0) return null;
+  const baseMs = usedAt ? new Date(usedAt).getTime() : Date.now();
+  const start = Number.isFinite(baseMs) ? baseMs : Date.now();
+  return safeIsoDate_(start + m * 30 * 24 * 60 * 60 * 1000);
+}
+
+/**
  * Server-side validation of an activation code submitted by the SPA.
  *
- * @param {!Object} p  Query parameters: code, email, deviceId.
+ * @param {!Object} p  Query parameters: code, email, deviceId, sessionToken.
  * @return {!Object}
  */
 function validateCode(p) {
   const code = String(p.code || '').toUpperCase().trim();
   const email = String(p.email || '').toLowerCase().trim();
   const deviceId = String(p.deviceId || '').trim();
+  const sessionToken = String(p.sessionToken || '').trim();
   if (!code) return { ok: false, error: 'Kein Code übermittelt' };
 
   const sheet = sheet_('Codes');
@@ -338,31 +377,99 @@ function validateCode(p) {
     const row = data[r];
     if (String(row[0]).toUpperCase().trim() !== code) continue;
 
-    const usedAt = row[5];
-    const usedBy = String(row[6] || '').trim();
+    try {
+      const parsed = parseCodesRow_(row);
+      const rowNum = r + 1;
 
-    if (usedAt && usedBy && deviceId && usedBy !== deviceId) {
-      return { ok: false, error: 'Code wurde auf einem anderen Gerät verwendet.' };
-    }
-    if (!usedAt) {
-      sheet.getRange(r + 1, 6).setValue(new Date());
-      sheet.getRange(r + 1, 7).setValue(deviceId);
-    }
+      if (email && !parsed.email) {
+        const emailCol = parsed.legacy ? 6 : 2;
+        sheet.getRange(rowNum, emailCol).setValue(email);
+        parsed.email = email;
+      }
 
-    const months = Number(row[3]) || 0;
-    const expires = months > 0
-      ? new Date(Date.now() + months * 30 * 24 * 60 * 60 * 1000)
-      : null;
-    return {
-      ok: true,
-      type: row[2],
-      months,
-      expires: expires ? expires.toISOString() : null,
-      sessionToken: issueSessionToken_(code, deviceId),
-      sessionExpires: new Date(Date.now() + SESSION_LIFETIME_MS).toISOString(),
-    };
+      const usedBy = parsed.usedBy;
+      const hasUsed = parsed.legacy
+        ? Boolean(usedBy)
+        : parsed.usedAt !== null && parsed.usedAt !== undefined && parsed.usedAt !== '';
+
+      if (hasUsed && usedBy && deviceId && usedBy !== deviceId) {
+        if (!(parsed.legacy && isLegacyDevicePlaceholder_(usedBy))) {
+          return { ok: false, error: 'Code wurde auf einem anderen Gerät verwendet.' };
+        }
+      }
+
+      var tokenOut = '';
+      if (hasUsed) {
+        if (verifySessionToken_(code, deviceId, sessionToken)) {
+          tokenOut = sessionToken;
+        } else if (!usedBy || !deviceId || usedBy === deviceId) {
+          tokenOut = issueSessionToken_(code, deviceId);
+        } else {
+          return { ok: false, error: 'Session abgelaufen — bitte Code erneut aktivieren.' };
+        }
+      } else {
+        if (parsed.legacy) {
+          sheet.getRange(rowNum, 5).setValue(deviceId || 'activated');
+        } else {
+          sheet.getRange(rowNum, 6).setValue(new Date());
+          sheet.getRange(rowNum, 7).setValue(deviceId);
+        }
+        tokenOut = issueSessionToken_(code, deviceId);
+      }
+
+      const isBasis = parsed.plan === 'basis' || code.indexOf('BASIS') === 0;
+      const out = {
+        ok: true,
+        type: parsed.plan,
+        months: parsed.months,
+        expires: codeExpiresFromParsed_(parsed, hasUsed ? parsed.usedAt : null),
+        sessionToken: tokenOut,
+        sessionExpires: safeIsoDate_(Date.now() + SESSION_LIFETIME_MS),
+      };
+      if (!isBasis) {
+        try {
+          out.trainingJwt = issueTrainingJwt_({
+            premium: true,
+            code: code,
+            deviceId: deviceId,
+          });
+        } catch (jwtErr) {
+          log('issueTrainingJwt', String(jwtErr && jwtErr.message || jwtErr));
+        }
+      }
+      return out;
+    } catch (err) {
+      log('validateCode', String(err && err.stack || err));
+      return { ok: false, error: 'Code-Validierung fehlgeschlagen' };
+    }
   }
   return { ok: false, error: 'Code nicht gefunden' };
+}
+
+/**
+ * Checks a code-bound session token from the `Sessions` sheet.
+ *
+ * @param {string} code
+ * @param {string} deviceId
+ * @param {string} token
+ * @return {boolean}
+ */
+function verifySessionToken_(code, deviceId, token) {
+  if (!token) return false;
+  const normCode = String(code || '').toUpperCase().trim();
+  const sheet = sheet_('Sessions', ['token', 'code', 'deviceId', 'createdAt', 'expiresAt']);
+  const data = sheet.getDataRange().getValues();
+  const now = Date.now();
+  for (let r = 1; r < data.length; r++) {
+    const row = data[r];
+    if (String(row[0]).trim() !== token) continue;
+    if (String(row[1]).toUpperCase().trim() !== normCode) continue;
+    if (deviceId && String(row[2]).trim() !== deviceId) continue;
+    const exp = row[4] ? new Date(row[4]).getTime() : 0;
+    if (exp && now > exp) return false;
+    return true;
+  }
+  return false;
 }
 
 /**
@@ -387,7 +494,7 @@ function issueSessionToken_(code, deviceId) {
 }
 
 /* ────────────────────────────────────────────────────────────────
-   Magic-link login (7-day session via e-mailed token).
+   Magic-link login (365-day sliding session via e-mailed token).
    ──────────────────────────────────────────────────────────────── */
 
 /**
@@ -439,11 +546,14 @@ function validateMagicToken(p) {
       return { ok: false, error: 'Link abgelaufen' };
     }
 
-    sheet.getRange(r + 1, 5).setValue(new Date());
     const email = String(row[1]).toLowerCase().trim();
+    const deviceCheck = assertMagicDeviceSlot_(email, deviceId);
+    if (!deviceCheck.ok) return deviceCheck;
+
+    sheet.getRange(r + 1, 5).setValue(new Date());
     const ent = getEntitlementsForEmail_(email);
     const progress = readProgressRow_(email);
-    return {
+    const out = {
       ok: true,
       email,
       sessionToken: issueMagicSessionToken_(email, deviceId),
@@ -451,22 +561,33 @@ function validateMagicToken(p) {
       isPremium: ent.isPremium,
       premiumExpires: ent.premiumExpires,
       isBasis: ent.isBasis,
+      premiumCode: ent.premiumCode || '',
+      basisCode: ent.basisCode || '',
       streakData: progress.streakJson,
       xpData: progress.xpJson,
       dailyGoalData: progress.dailyGoalJson,
     };
+    if (ent.isPremium) {
+      try {
+        out.trainingJwt = issueTrainingJwt_({ premium: true, email: email });
+      } catch (jwtErr) {
+        log('issueTrainingJwt_magic', String(jwtErr && jwtErr.message || jwtErr));
+      }
+    }
+    return out;
   }
   return { ok: false, error: 'Link ungültig' };
 }
 
 /**
- * Issues a 7-day session token for a magic-link login.
+ * Issues a magic-link session token (365-day sliding window).
  *
  * @param {string} email
  * @param {string} deviceId
  * @return {string}
  */
 function issueMagicSessionToken_(email, deviceId) {
+  expireMagicSessionsForDevice_(email, deviceId);
   const token = Utilities.getUuid().replace(/-/g, '');
   const sheet = sheet_('MagicSessions', ['token', 'email', 'deviceId', 'createdAt', 'expiresAt']);
   sheet.appendRow([
@@ -479,59 +600,126 @@ function issueMagicSessionToken_(email, deviceId) {
   return token;
 }
 
-/* ────────────────────────────────────────────────────────────────
-   Trial codes (1 day, one per buyer).
-   ──────────────────────────────────────────────────────────────── */
-
 /**
- * Returns true when `TRIAL_TEST_MODE` is on and the address is a QA
- * inbox (`+test` in the local part, e.g. `user+test@gmail.com`).
+ * Invalidates all active magic sessions for one e-mail + device pair.
  *
- * @param {string} email  Normalised lower-case e-mail.
- * @return {boolean}
+ * @param {string} email
+ * @param {string} deviceId
  */
-function isTrialTestBypassEmail_(email) {
-  if (!TRIAL_TEST_MODE) return false;
-  return String(email || '').toLowerCase().includes('+test');
+function expireMagicSessionsForDevice_(email, deviceId) {
+  const norm = String(email || '').toLowerCase().trim();
+  const did = normalizeDeviceId_(deviceId);
+  if (!norm || !did) return;
+
+  const sheet = sheet_('MagicSessions');
+  const data = sheet.getDataRange().getValues();
+  const now = new Date();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
+    if (normalizeDeviceId_(data[r][2]) !== did) continue;
+    const exp = data[r][4];
+    if (exp && new Date(exp).getTime() <= now.getTime()) continue;
+    sheet.getRange(r + 1, 5).setValue(now);
+  }
 }
 
 /**
- * Issues one 1-day trial code per (e-mail, device) pair.
+ * When the device cap is full, drop the least recently used registered device
+ * so a new phone/browser can replace an old test session (not add a 3rd slot).
  *
- * QA bypass: when `TRIAL_TEST_MODE` is true and the e-mail contains
- * `+test`, deduplication is skipped so the same device can be tested
- * repeatedly (each request still creates a fresh code + e-mail).
+ * @param {string} email
+ */
+function evictOldestMagicDevice_(email) {
+  const norm = String(email || '').toLowerCase().trim();
+  if (!norm) return;
+
+  const sheet = sheet_('MagicSessions');
+  const data = sheet.getDataRange().getValues();
+  const nowMs = Date.now();
+  /** @type {Record<string, number>} */
+  const lastSeen = {};
+
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
+    const exp = data[r][4];
+    if (exp && new Date(exp).getTime() <= nowMs) continue;
+    const did = normalizeDeviceId_(data[r][2]);
+    if (!did) continue;
+    const created = data[r][3] ? new Date(data[r][3]).getTime() : 0;
+    lastSeen[did] = Math.max(lastSeen[did] || 0, created);
+  }
+
+  const devices = Object.keys(lastSeen);
+  if (devices.length < MAX_DEVICES_PER_EMAIL) return;
+
+  devices.sort(function(a, b) { return lastSeen[a] - lastSeen[b]; });
+  const evict = devices[0];
+  const now = new Date();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
+    if (normalizeDeviceId_(data[r][2]) !== evict) continue;
+    sheet.getRange(r + 1, 5).setValue(now);
+  }
+}
+
+/**
+ * Stable device key from the SPA payload (`dev_…__fp_…` → `dev_…`).
  *
- * @param {!Object} body  {email, deviceId}.
+ * @param {string} raw
+ * @return {string}
+ */
+function normalizeDeviceId_(raw) {
+  const id = String(raw || '').trim();
+  if (!id) return '';
+  const split = id.indexOf('__');
+  return split === -1 ? id : id.slice(0, split);
+}
+
+/**
+ * Distinct devices with a non-expired magic session for `email`.
+ *
+ * @param {string} email
+ * @return {Set<string>}
+ */
+function listActiveMagicDevices_(email) {
+  const norm = String(email || '').toLowerCase().trim();
+  const devices = new Set();
+  if (!norm) return devices;
+
+  const sheet = sheet_('MagicSessions');
+  const data = sheet.getDataRange().getValues();
+  const now = Date.now();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
+    const exp = data[r][4];
+    if (exp && new Date(exp).getTime() <= now) continue;
+    const did = normalizeDeviceId_(data[r][2]);
+    if (did) devices.add(did);
+  }
+  return devices;
+}
+
+/**
+ * Blocks login when the account already has the max number of devices.
+ * Re-login on a registered device is always allowed.
+ *
+ * @param {string} email
+ * @param {string} deviceId
  * @return {!Object}
  */
-function requestTrial(body) {
-  const email = String(body.email || '').toLowerCase().trim();
-  const deviceId = String(body.deviceId || '').trim();
-  if (!isValidEmail_(email)) return { ok: false, error: 'Ungültige E-Mail' };
+function assertMagicDeviceSlot_(email, deviceId) {
+  const did = normalizeDeviceId_(deviceId);
+  if (!did) return { ok: true };
 
-  const testBypass = isTrialTestBypassEmail_(email);
+  const active = listActiveMagicDevices_(email);
+  if (active.has(did)) return { ok: true };
 
-  if (!testBypass) {
-    const trialSheet = sheet_('Trial', ['email', 'deviceId', 'code', 'issuedAt']);
-    const data = trialSheet.getDataRange().getValues();
-    for (let r = 1; r < data.length; r++) {
-      if (String(data[r][0]).toLowerCase() === email
-          || String(data[r][1]) === deviceId) {
-        return { ok: false, error: 'Du hast bereits einen Trial-Code erhalten.' };
-      }
+  if (active.size >= MAX_DEVICES_PER_EMAIL) {
+    while (listActiveMagicDevices_(email).size >= MAX_DEVICES_PER_EMAIL) {
+      evictOldestMagicDevice_(email);
     }
   }
-
-  const planInfo = { plan: 'trial', months: 0, label: '1 Tag Trial' };
-  const code = `TRIAL-${Utilities.getUuid().split('-')[0].toUpperCase()}`;
-  saveActivationCode_(code, email, planInfo, 'trial', '');
-  if (!testBypass) {
-    const trialSheet = sheet_('Trial', ['email', 'deviceId', 'code', 'issuedAt']);
-    trialSheet.appendRow([email, deviceId, code, new Date()]);
-  }
-  sendTrialCodeEmail_(email, code);
-  return { ok: true, testMode: testBypass };
+  return { ok: true };
 }
 
 /* ────────────────────────────────────────────────────────────────
@@ -563,28 +751,121 @@ function sendContactForm(body) {
   return { ok: true };
 }
 
+/**
+ * CI monitor — sends a redeploy reminder e-mail to SUPPORT_EMAIL.
+ * Deduped once per deploy cycle (CacheService key = deployDate + level).
+ *
+ * GET ?action=monitorNotify&secret=…&level=warn|fail&message=…&deployDate=2026-08-01
+ *
+ * @param {!Object} p
+ * @return {!Object}
+ */
+function handleMonitorNotify_(p) {
+  if (!p || p.secret !== WEBHOOK_SECRET) {
+    return { ok: false, error: 'Forbidden' };
+  }
+
+  const level = String(p.level || 'warn').toLowerCase();
+  const message = String(p.message || p.body || '').trim();
+  if (!message) return { ok: false, error: 'Empty message' };
+
+  const deployDate = String(p.deployDate || 'unknown').trim();
+  const cacheKey = 'monitor_' + deployDate + '_' + level;
+  const cache = CacheService.getScriptCache();
+  if (cache.get(cacheKey)) {
+    return { ok: true, skipped: true, reason: 'already_sent_for_deploy' };
+  }
+
+  const subject =
+    '[SprachCoach Monitor] ' + level.toUpperCase() + ' — GAS redeploy (~24h vor Ablauf)';
+  const body =
+    message +
+    '\n\n---\n' +
+    'Automatische Monitor-Benachrichtigung (1× pro Deploy-Zyklus)\n' +
+    'Deploy-Datum: ' + deployDate + '\n' +
+    'Zeit: ' + new Date().toISOString() + '\n' +
+    'Deploy: script.google.com → Manage deployments → New version\n';
+
+  MailApp.sendEmail({
+    to: SUPPORT_EMAIL,
+    subject: subject,
+    body: body,
+  });
+
+  cache.put(cacheKey, '1', 86400 * 10);
+  return { ok: true, sentTo: SUPPORT_EMAIL };
+}
+
 /* ────────────────────────────────────────────────────────────────
    E-mail templates.
    ──────────────────────────────────────────────────────────────── */
 
+/** Shown in every post-purchase activation e-mail (HTML fragment). */
+const ACTIVATION_CODE_SECURITY_HTML =
+  '<p style="margin:16px 0 0;padding:12px 14px;background:#fff3e0;border:1.5px solid #ffb74d;' +
+  'border-radius:12px;line-height:1.55;font-size:14px;color:#5d4037;text-align:left;">' +
+  '<strong>⚠️ Wichtig:</strong> Bewahre diesen Code sicher auf und gib ihn ' +
+  '<strong>niemandem</strong> weiter. Er ist persönlich und an dein Konto gebunden.</p>';
+
+/** Plain-text counterpart for the activation-code security notice. */
+const ACTIVATION_CODE_SECURITY_TEXT =
+  'WICHTIG: Bewahre diesen Code sicher auf und gib ihn niemandem weiter. ' +
+  'Er ist persönlich und an dein Konto gebunden.\n\n';
+
 /**
- * Builds a branded HTML e-mail shell shared by trial, activation, and
+ * Outlook / Hotmail-safe CTA button (solid bgcolor, no CSS gradients).
+ *
+ * @param {string} label
+ * @param {string} link
+ * @return {string}
+ */
+function buildEmailCtaButtonHtml_(label, link) {
+  const safeLabel = escapeHtml_(label || '');
+  const safeLink = String(link || '');
+  if (!safeLabel || !safeLink) return '';
+
+  return `
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:8px auto 24px;">
+            <tr>
+              <td align="center" bgcolor="#AB4DBB" style="border-radius:999px;background-color:#AB4DBB;mso-padding-alt:16px 36px;">
+                <!--[if mso]>
+                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word"
+                  href="${safeLink}" style="height:48px;v-text-anchor:middle;width:260px;" arcsize="50%" stroke="f" fillcolor="#AB4DBB">
+                  <w:anchorlock/>
+                  <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">${safeLabel}</center>
+                </v:roundrect>
+                <![endif]-->
+                <!--[if !mso]><!-->
+                <a href="${safeLink}" target="_blank"
+                   style="display:inline-block;padding:16px 36px;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:900;line-height:1.2;color:#ffffff !important;text-decoration:none;border-radius:999px;background-color:#AB4DBB;border:2px solid #AB4DBB;">
+                  ${safeLabel}
+                </a>
+                <!--<![endif]-->
+              </td>
+            </tr>
+          </table>`;
+}
+
+/**
+ * Builds a branded HTML e-mail shell shared by activation and
  * magic-link messages. Uses table layout for broad client support.
  *
  * @param {!Object} opts
  * @param {string} opts.headline     Main H1 text.
  * @param {string} opts.introHtml    One or more HTML paragraphs.
  * @param {string} [opts.codeLabel]  Label above the monospace code.
- * @param {string} [opts.code]       Activation / trial code.
+ * @param {string} [opts.code]       Activation code.
  * @param {string} [opts.ctaLabel]   Button label.
  * @param {string} [opts.ctaLink]    Button href.
  * @param {string} [opts.footerNote] Small print below the card.
  * @param {boolean} [opts.showManualHint] Show “enter code manually” hint.
+ * @param {string} [opts.afterCodeHtml] Optional HTML block after the code box.
  * @return {string} Complete HTML body.
  */
 function buildEmailHtml_(opts) {
   const headline = escapeHtml_(opts.headline || '');
   const introHtml = opts.introHtml || '';
+  const afterCodeHtml = opts.afterCodeHtml || '';
   const codeLabel = escapeHtml_(opts.codeLabel || '');
   const code = escapeHtml_(opts.code || '');
   const ctaLabel = escapeHtml_(opts.ctaLabel || '');
@@ -610,16 +891,7 @@ function buildEmailHtml_(opts) {
           </table>` : '';
 
   const ctaBlock = (ctaLabel && ctaLink) ? `
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:8px 0 24px;">
-            <tr>
-              <td align="center">
-                <a href="${ctaLink}"
-                   style="background:linear-gradient(135deg,#AB4DBB 0%,#8f3ea3 100%);color:#ffffff;text-decoration:none;padding:16px 36px;border-radius:999px;font-weight:900;font-size:16px;display:inline-block;box-shadow:0 8px 20px rgba(171,77,187,0.35);">
-                  ${ctaLabel}
-                </a>
-              </td>
-            </tr>
-          </table>
+          ${buildEmailCtaButtonHtml_(ctaLabel, ctaLink)}
           <p style="font-size:13px;color:#666;line-height:1.6;margin:0 0 8px;text-align:center;">
             Funktioniert der Button nicht? Kopiere diese Adresse in deinen Browser:
           </p>
@@ -628,7 +900,7 @@ function buildEmailHtml_(opts) {
           </p>` : '';
 
   return `<!DOCTYPE html>
-<html lang="de">
+<html lang="de" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
 <body style="margin:0;padding:0;background:#f5f6cf;font-family:Arial,Helvetica,sans-serif;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f5f6cf;padding:32px 16px;">
@@ -655,6 +927,7 @@ function buildEmailHtml_(opts) {
               </h1>
               ${introHtml}
               ${codeBlock}
+              ${afterCodeHtml}
               ${ctaBlock}
               ${showManualHint ? `
               <p style="font-size:13px;color:#555;line-height:1.6;margin:0 0 6px;">
@@ -705,6 +978,7 @@ function sendActivationEmail_(email, code, planInfo) {
       `ist freigeschaltet. Dein persönlicher Code ist bereit.</p>`,
     codeLabel: 'Dein Aktivierungscode',
     code,
+    afterCodeHtml: ACTIVATION_CODE_SECURITY_HTML,
     ctaLabel: '→ Jetzt aktivieren',
     ctaLink: link,
     footerNote: 'Bei Problemen antworte einfach auf diese E-Mail — wir helfen dir gerne.',
@@ -714,6 +988,7 @@ function sendActivationEmail_(email, code, planInfo) {
     `Willkommen beim SprachCoach!\n\n` +
     `${planInfo.label} ist freigeschaltet.\n\n` +
     `Aktivierungscode: ${code}\n\n` +
+    ACTIVATION_CODE_SECURITY_TEXT +
     `Direkt aktivieren:\n${link}\n\n` +
     `Oder gib den Code manuell in der App ein: ${APP_BASE_URL}\n`;
 
@@ -729,13 +1004,19 @@ function sendActivationEmail_(email, code, planInfo) {
 function sendMagicLinkEmail_(email, token) {
   const link = `${APP_BASE_URL}/?mltoken=${encodeURIComponent(token)}`;
   const subject = '🔑 Dein SprachCoach Login-Link';
+  const hasPremium = hasActivePremium_(email);
+  const premiumNote = hasPremium
+    ? '<p style="margin:12px 0 0;line-height:1.6;font-size:15px;color:#444;">' +
+      'Dein <strong>Premium-Zugang</strong> wird nach dem Anmelden automatisch freigeschaltet.</p>'
+    : '';
 
   const html = buildEmailHtml_({
     headline: 'Dein Login-Link',
     introHtml:
       '<p style="margin:0;line-height:1.6;font-size:15px;color:#444;">' +
       'Klicke auf den Button, um dich beim SprachCoach anzumelden. ' +
-      'Der Link ist <strong>30 Minuten</strong> gültig und kann nur einmal benutzt werden.</p>',
+      'Der Link ist <strong>30 Minuten</strong> gültig und kann nur einmal benutzt werden.</p>' +
+      premiumNote,
     ctaLabel: '→ Jetzt anmelden',
     ctaLink: link,
     showManualHint: false,
@@ -743,44 +1024,6 @@ function sendMagicLinkEmail_(email, token) {
   });
 
   sendBrandedEmail_(email, subject, html, `Login-Link (30 Min. gültig):\n${link}\n`);
-}
-
-/**
- * Sends the 1-day trial code. The e-mail contains a one-click
- * activation link, the bare URL as a fallback (in case the styled
- * button is stripped by the mail client), and a bare link to the
- * app's landing page.
- *
- * @param {string} email
- * @param {string} code
- */
-function sendTrialCodeEmail_(email, code) {
-  const link = `${APP_BASE_URL}/?activate=${encodeURIComponent(code)}`;
-  const subject = '🎁 Dein 1-Tag SprachCoach Trial';
-
-  const html = buildEmailHtml_({
-    headline: '🎁 Dein Gratis-Trial ist da!',
-    introHtml:
-      '<p style="margin:0 0 12px;line-height:1.6;font-size:15px;color:#444;text-align:center;">' +
-      'Du kannst <strong>Der SprachCoach</strong> 24 Stunden lang kostenlos testen — ' +
-      'mit <strong>allen Premium-Funktionen</strong>.</p>' +
-      '<p style="margin:0;line-height:1.6;font-size:14px;color:#69c43b;font-weight:700;text-align:center;">' +
-      '✓ Themen-Training · ✓ Grammatik · ✓ Wörterbuch</p>',
-    codeLabel: 'Dein Trial-Code (24 h gültig)',
-    code,
-    ctaLabel: '→ Jetzt aktivieren',
-    ctaLink: link,
-    footerNote: 'Der Trial-Code ist 24 Stunden ab Aktivierung gültig. Bei Fragen antworte auf diese E-Mail.',
-  });
-
-  const text =
-    `Dein 1-Tag SprachCoach Trial\n\n` +
-    `Trial-Code: ${code}\n` +
-    `Gültig: 24 Stunden ab Aktivierung\n\n` +
-    `Direkt aktivieren:\n${link}\n\n` +
-    `Oder gib den Code manuell in der App ein: ${APP_BASE_URL}\n`;
-
-  sendBrandedEmail_(email, subject, html, text);
 }
 
 /* ────────────────────────────────────────────────────────────────
@@ -875,14 +1118,189 @@ function hasActivePremium_(email) {
 }
 
 /**
+ * Milliseconds when a subscription period started (safe parsing).
+ *
+ * @param {*} createdAt
+ * @param {*} usedAt
+ * @return {number}
+ */
+function entitlementIssuedMs_(createdAt, usedAt) {
+  const hasUsed = usedAt !== null && usedAt !== undefined && usedAt !== '';
+  if (hasUsed) {
+    const t = new Date(usedAt).getTime();
+    if (Number.isFinite(t)) return t;
+  }
+  const t = new Date(createdAt).getTime();
+  return Number.isFinite(t) ? t : Date.now();
+}
+
+/**
+ * Normalizes e-mail for purchase ↔ login matching (Gmail dots/plus aliases).
+ *
+ * @param {string} email
+ * @return {string}
+ */
+function normalizeEmailForLookup_(email) {
+  const raw = String(email || '').toLowerCase().trim();
+  const at = raw.lastIndexOf('@');
+  if (at <= 0) return raw;
+  let local = raw.slice(0, at);
+  let domain = raw.slice(at + 1);
+  if (domain === 'googlemail.com') domain = 'gmail.com';
+  if (domain === 'gmail.com') {
+    local = local.split('+')[0].replace(/\./g, '');
+  }
+  return local + '@' + domain;
+}
+
+/**
+ * @param {string} a
+ * @param {string} b
+ * @return {boolean}
+ */
+function emailsMatchForLookup_(a, b) {
+  const na = normalizeEmailForLookup_(a);
+  const nb = normalizeEmailForLookup_(b);
+  return Boolean(na && nb && na === nb);
+}
+
+/**
+ * Detects the manual Codes sheet layout:
+ * CODE | PLAN | EXPIRES | ACTIVE | DEVICE_ID | EMAIL
+ *
+ * @param {!Array<*>} row
+ * @return {boolean}
+ */
+function isLegacyCodesRow_(row) {
+  const col1 = String(row[1] || '').trim();
+  const col5 = String(row[5] || '').trim();
+  return col5.indexOf('@') >= 0 && col1.indexOf('@') < 0;
+}
+
+/**
+ * @param {string} plan
+ * @return {number}
+ */
+function planStringToMonths_(plan) {
+  const p = String(plan || '').toLowerCase().trim();
+  if (p === 'basis') return 0;
+  if (p === '1month') return 1;
+  if (p === '3months') return 3;
+  if (p === '12months') return 12;
+  const m = p.match(/^(\d+)month/);
+  return m ? Number(m[1]) : 0;
+}
+
+/**
+ * Normalizes one Codes sheet row (standard or legacy layout).
+ *
+ * @param {!Array<*>} row
+ * @return {!Object}
+ */
+function parseCodesRow_(row) {
+  if (isLegacyCodesRow_(row)) {
+    const plan = String(row[1] || '').toLowerCase().trim();
+    const expiresMs = row[2] ? new Date(row[2]).getTime() : NaN;
+    const active = row[3] === true || String(row[3]).toUpperCase() === 'TRUE';
+    return {
+      legacy: true,
+      code: String(row[0] || '').toUpperCase().trim(),
+      email: String(row[5] || '').toLowerCase().trim(),
+      plan: plan,
+      months: planStringToMonths_(plan),
+      expiresMs: Number.isFinite(expiresMs) ? expiresMs : 0,
+      active: active,
+      usedBy: String(row[4] || '').trim(),
+      usedAt: null,
+      createdAt: row[2],
+    };
+  }
+  return {
+    legacy: false,
+    code: String(row[0] || '').toUpperCase().trim(),
+    email: String(row[1] || '').toLowerCase().trim(),
+    plan: String(row[2] || '').toLowerCase().trim(),
+    months: Number(row[3]) || 0,
+    createdAt: row[4],
+    usedAt: row[5],
+    usedBy: String(row[6] || '').trim(),
+    active: true,
+    expiresMs: 0,
+  };
+}
+
+/**
+ * @param {!Object} parsed
+ * @param {number} now
+ * @return {boolean}
+ */
+function codeEntitlementActive_(parsed, now) {
+  if (parsed.plan === 'basis' || parsed.code.indexOf('BASIS') === 0) {
+    return parsed.active !== false;
+  }
+  if (parsed.legacy) {
+    if (parsed.active === false) return false;
+    if (parsed.expiresMs && parsed.expiresMs > now) return true;
+    if (parsed.months > 0 && parsed.createdAt) {
+      const issued = new Date(parsed.createdAt).getTime();
+      if (Number.isFinite(issued)) {
+        return issued + parsed.months * 30 * 24 * 60 * 60 * 1000 > now;
+      }
+    }
+    return false;
+  }
+  if (parsed.months <= 0) return false;
+  const issued = entitlementIssuedMs_(parsed.createdAt, parsed.usedAt);
+  return issued + parsed.months * 30 * 24 * 60 * 60 * 1000 > now;
+}
+
+/**
+ * @param {!Object} parsed
+ * @param {*} usedAt
+ * @return {string}
+ */
+function codeExpiresFromParsed_(parsed, usedAt) {
+  if (parsed.legacy && parsed.expiresMs) {
+    const iso = safeIsoDate_(parsed.expiresMs);
+    return iso ? iso.split('T')[0] : '';
+  }
+  return normalizeExpiryDateFromIso_(codeExpiresIso_(usedAt, parsed.months));
+}
+
+/**
+ * @param {string|null|undefined} iso
+ * @return {string}
+ */
+function normalizeExpiryDateFromIso_(iso) {
+  if (!iso) return '';
+  return String(iso).split('T')[0];
+}
+
+/**
+ * @param {string} value
+ * @return {boolean}
+ */
+function isLegacyDevicePlaceholder_(value) {
+  const v = String(value || '').trim().toLowerCase();
+  return !v || v === 'trial' || v === 'test';
+}
+
+/**
  * Resolves Premium / Basis entitlements tied to an e-mail address.
  *
  * @param {string} email
- * @return {{isPremium:boolean, premiumExpires:string, isBasis:boolean}}
+ * @return {{isPremium:boolean, premiumExpires:string, isBasis:boolean,
+ *   premiumCode:string, basisCode:string}}
  */
 function getEntitlementsForEmail_(email) {
   const norm = String(email || '').toLowerCase().trim();
-  const out = { isPremium: false, premiumExpires: '', isBasis: false };
+  const out = {
+    isPremium: false,
+    premiumExpires: '',
+    isBasis: false,
+    premiumCode: '',
+    basisCode: '',
+  };
   if (!norm) return out;
 
   const sheet = sheet_('Codes');
@@ -891,38 +1309,26 @@ function getEntitlementsForEmail_(email) {
 
   for (let r = 1; r < data.length; r++) {
     const row = data[r];
-    if (String(row[1]).toLowerCase().trim() !== norm) continue;
+    const parsed = parseCodesRow_(row);
+    if (!emailsMatchForLookup_(parsed.email, norm)) continue;
 
-    const plan = String(row[2] || '').toLowerCase();
-    const months = Number(row[3]) || 0;
-    const createdAt = row[4];
-    const usedAt = row[5];
-
-    if (plan === 'basis') {
+    const codeStr = parsed.code;
+    if (parsed.plan === 'basis' || codeStr.indexOf('BASIS') === 0) {
       out.isBasis = true;
+      if (!out.basisCode) out.basisCode = codeStr;
       continue;
     }
 
-    if (plan === 'trial') {
-      const anchor = usedAt ? new Date(usedAt).getTime() : 0;
-      if (!anchor) continue;
-      const expires = anchor + 24 * 60 * 60 * 1000;
-      if (expires > now) {
-        out.isPremium = true;
-        out.premiumExpires = new Date(expires).toISOString().split('T')[0];
-      }
-      continue;
-    }
-
-    if (months > 0) {
-      const issued = usedAt ? new Date(usedAt).getTime() : new Date(createdAt).getTime();
-      const expires = issued + months * 30 * 24 * 60 * 60 * 1000;
-      if (expires > now) {
-        out.isPremium = true;
-        const iso = new Date(expires).toISOString().split('T')[0];
-        if (!out.premiumExpires || iso > out.premiumExpires) {
-          out.premiumExpires = iso;
-        }
+    if (codeEntitlementActive_(parsed, now)) {
+      out.isPremium = true;
+      const isoDay = normalizeExpiryDateFromIso_(
+        parsed.legacy && parsed.expiresMs
+          ? safeIsoDate_(parsed.expiresMs)
+          : codeExpiresIso_(parsed.usedAt, parsed.months),
+      );
+      if (isoDay && (!out.premiumExpires || isoDay > out.premiumExpires)) {
+        out.premiumExpires = isoDay;
+        out.premiumCode = codeStr;
       }
     }
   }
@@ -968,9 +1374,22 @@ function readProgressRow_(email) {
  * @return {boolean}
  */
 function validateMagicSession_(email, token) {
+  return extendMagicSession_(email, token, false) !== null;
+}
+
+/**
+ * Finds a valid magic session row and optionally extends its expiry
+ * (sliding window: now + `MAGIC_SESSION_LIFETIME_MS`).
+ *
+ * @param {string} email
+ * @param {string} token
+ * @param {boolean} [extend=true]
+ * @return {string|null}  ISO-8601 expiry, or null when invalid/expired.
+ */
+function extendMagicSession_(email, token, extend) {
   const norm = String(email || '').toLowerCase().trim();
   const tok = String(token || '').trim();
-  if (!norm || !tok) return false;
+  if (!norm || !tok) return null;
 
   const sheet = sheet_('MagicSessions');
   const data = sheet.getDataRange().getValues();
@@ -979,9 +1398,170 @@ function validateMagicSession_(email, token) {
     if (String(data[r][0]).trim() !== tok) continue;
     if (String(data[r][1]).toLowerCase().trim() !== norm) continue;
     const exp = data[r][4];
-    if (exp && new Date(exp).getTime() > now) return true;
+    if (!exp || new Date(exp).getTime() <= now) return null;
+
+    if (extend !== false) {
+      const newExp = new Date(now + MAGIC_SESSION_LIFETIME_MS);
+      sheet.getRange(r + 1, 5).setValue(newExp);
+      return newExp.toISOString();
+    }
+    return new Date(exp).toISOString();
   }
-  return false;
+  return null;
+}
+
+/**
+ * Extends a magic-link session on app load (sliding expiry + fresh entitlements).
+ *
+ * @param {!Object} body  {email, sessionToken}.
+ * @return {!Object}
+ */
+function refreshMagicSession_(body) {
+  const email = String(body.email || '').toLowerCase().trim();
+  const token = String(body.sessionToken || '').trim();
+  if (!email || !token) return { ok: false, error: 'Nicht angemeldet' };
+
+  const sessionExpires = extendMagicSession_(email, token, true);
+  if (!sessionExpires) return { ok: false, error: 'Session abgelaufen' };
+
+  const ent = getEntitlementsForEmail_(email);
+  const out = {
+    ok: true,
+    sessionExpires,
+    isPremium: ent.isPremium,
+    premiumExpires: ent.premiumExpires,
+    isBasis: ent.isBasis,
+    premiumCode: ent.premiumCode || '',
+    basisCode: ent.basisCode || '',
+  };
+  if (ent.isPremium) {
+    try {
+      out.trainingJwt = issueTrainingJwt_({ premium: true, email: email });
+    } catch (jwtErr) {
+      log('issueTrainingJwt_refresh', String(jwtErr && jwtErr.message || jwtErr));
+    }
+  }
+  return out;
+}
+
+/**
+ * Ends a magic-link session on sign-out — frees a device slot immediately.
+ *
+ * @param {!Object} body  {email, sessionToken}.
+ * @return {!Object}
+ */
+function revokeMagicSession_(body) {
+  const email = String(body.email || '').toLowerCase().trim();
+  const token = String(body.sessionToken || '').trim();
+  if (!email || !token) return { ok: true };
+
+  const sheet = sheet_('MagicSessions');
+  const data = sheet.getDataRange().getValues();
+  const now = new Date();
+  for (let r = 1; r < data.length; r++) {
+    if (String(data[r][0]).trim() !== token) continue;
+    if (String(data[r][1]).toLowerCase().trim() !== email) continue;
+    sheet.getRange(r + 1, 5).setValue(now);
+    return { ok: true };
+  }
+  return { ok: true };
+}
+
+/**
+ * Base64url-encodes a string for JWT segments.
+ *
+ * @param {string} str
+ * @return {string}
+ */
+function base64UrlEncodeStr_(str) {
+  return Utilities.base64EncodeWebSafe(
+    Utilities.newBlob(String(str)).getBytes(),
+  ).replace(/=+$/, '');
+}
+
+/**
+ * Base64url-encodes raw bytes for JWT signatures.
+ *
+ * @param {!Array<number>} bytes
+ * @return {string}
+ */
+function base64UrlEncodeBytes_(bytes) {
+  return Utilities.base64EncodeWebSafe(bytes).replace(/=+$/, '');
+}
+
+/**
+ * Issues a short-lived HMAC JWT for Premium training API access.
+ *
+ * @param {!Object} claims  Must include `{premium:true}` plus `email` or `code`.
+ * @return {string}
+ */
+function issueTrainingJwt_(claims) {
+  const header = base64UrlEncodeStr_(JSON.stringify({ alg: 'HS256', typ: 'JWT' }));
+  const payloadObj = Object.assign({}, claims, {
+    iat: Math.floor(Date.now() / 1000),
+    exp: Math.floor((Date.now() + TRAINING_JWT_LIFETIME_MS) / 1000),
+  });
+  const payload = base64UrlEncodeStr_(JSON.stringify(payloadObj));
+  const signingInput = header + '.' + payload;
+  const sigBytes = Utilities.computeHmacSha256Signature(signingInput, TRAINING_JWT_SECRET);
+  return signingInput + '.' + base64UrlEncodeBytes_(sigBytes);
+}
+
+/**
+ * Validates Premium access for the Cloudflare `/api/questions` Worker.
+ * Accepts either a magic-link session (email + token) or an activation
+ * code session (code + deviceId + sessionToken).
+ *
+ * @param {!Object} body  {email?, sessionToken?, code?, deviceId?}.
+ * @return {!Object}
+ */
+function verifyTrainingAccess_(body) {
+  const email = String(body.email || '').toLowerCase().trim();
+  const sessionToken = String(body.sessionToken || '').trim();
+  const code = String(body.code || '').toUpperCase().trim();
+  const deviceId = String(body.deviceId || '').trim();
+
+  if (email && sessionToken) {
+    if (!validateMagicSession_(email, sessionToken)) {
+      return { ok: false, error: 'Session abgelaufen' };
+    }
+    const ent = getEntitlementsForEmail_(email);
+    if (!ent.isPremium) return { ok: false, error: 'Premium erforderlich' };
+    return {
+      ok: true,
+      isPremium: true,
+      trainingJwt: issueTrainingJwt_({ premium: true, email: email }),
+    };
+  }
+
+  if (code && sessionToken) {
+    if (!verifySessionToken_(code, deviceId, sessionToken)) {
+      return { ok: false, error: 'Session abgelaufen — bitte Code erneut aktivieren.' };
+    }
+    const codeRes = validateCode({
+      code: code,
+      email: email,
+      deviceId: deviceId,
+      sessionToken: sessionToken,
+    });
+    if (!codeRes || !codeRes.ok) {
+      return { ok: false, error: (codeRes && codeRes.error) || 'Ungültiger Code.' };
+    }
+    if (codeRes.type === 'basis' || code.startsWith('BASIS')) {
+      return { ok: false, error: 'Premium erforderlich' };
+    }
+    return {
+      ok: true,
+      isPremium: true,
+      trainingJwt: codeRes.trainingJwt || issueTrainingJwt_({
+        premium: true,
+        code: code,
+        deviceId: deviceId,
+      }),
+    };
+  }
+
+  return { ok: false, error: 'Nicht angemeldet' };
 }
 
 /**
@@ -1166,18 +1746,12 @@ function json(payload) {
 }
 
 /**
- * Builds a safe API error payload. While `TRIAL_TEST_MODE` is on the
- * underlying exception message is included to speed up QA; otherwise
- * only the generic label is returned.
+ * Builds a safe API error payload.
  *
  * @param {*} err
  * @return {!Object}
  */
 function serverError_(err) {
-  const detail = String((err && err.message) || err || '');
-  if (TRIAL_TEST_MODE && detail) {
-    return { ok: false, error: `Serverfehler: ${detail}` };
-  }
   return { ok: false, error: 'Serverfehler' };
 }
 

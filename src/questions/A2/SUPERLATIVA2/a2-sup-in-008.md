@@ -1,8 +1,11 @@
 ---
 id: a2-sup-in-008
 type: input-text
+hint: Superlativ — hoch, mask., Nom.
 correct:
   - höchste
 ---
 
-Der Mount Everest ist der ___ Berg. (Superlativ — mask., Nom.)
+Ergänze die Superlativform:
+
+Der Mount Everest ist der ___ Berg.

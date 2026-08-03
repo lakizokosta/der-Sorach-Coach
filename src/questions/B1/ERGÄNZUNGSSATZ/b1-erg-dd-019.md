@@ -2,14 +2,16 @@
 id: b1-erg-dd-019
 type: dropbox
 words:
-  - Der
-  - Chef
-  - sagt
+  - Es
+  - ist
+  - klar
   - dass
-  - das
-  - Meeting
-  - verschoben
-  - wird
+  - wir
+  - mehr
+  - Zeit
+  - brauchen
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass verschoben wird)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

@@ -1,8 +1,11 @@
 ---
 id: b2-konj2-in-023
 type: input-text
+hint: Konjunktiv II + Verb können
 correct:
   - Könntest
 ---
 
-___ du mir helfen, wäre ich dankbar. (Konjunktiv II + Verb können)
+Ergänze die Konjunktiv-II-Form:
+
+___ du mir helfen, wäre ich dankbar.

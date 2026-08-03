@@ -2,12 +2,14 @@
 id: b1-trenn-dd-046
 type: dropbox
 words:
-  - Ich
-  - rufe
+  - Wann
+  - meldest
+  - du
+  - dich
+  - für
   - den
-  - Kollegen
-  - später
+  - Kurs
   - an
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb anmeldeen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-045
 type: input-text
+hint: Dativ — das Taxi, Dat.
 correct:
-  - dem Taxi
+  - dem
 ---
 
-Mit ___ Taxi komme ich schnell an. (Dativ — Dat.)
+Ergänze die Dativform:
+
+Mit ___ Taxi komme ich schnell an.

@@ -2,12 +2,11 @@
 id: b1-lass-dd-048
 type: dropbox
 words:
-  - Du
-  - lässt
-  - dir
-  - Zeit
-  - zum
-  - Ausruhen
+  - Wir
+  - lassen
+  - unsere
+  - Dokumente
+  - übersetzen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb bersetzen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

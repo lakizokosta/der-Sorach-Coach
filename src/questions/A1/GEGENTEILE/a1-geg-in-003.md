@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-003
 type: input-text
+hint: Gegenteil von warm
 correct:
   - kalt
 ---
 
-Gestern war es warm, heute ist es ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Gestern war es warm, heute ist es ___.

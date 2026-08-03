@@ -1,8 +1,11 @@
 ---
 id: a2-wech-in-011
 type: input-text
+hint: Wechselpräpositionen — Wo?
 correct:
   - in der
 ---
 
-Wo ist das Museum? — ___ Stadtmitte. (Dativ oder Akkusativ — Wo?)
+Ergänze die Präposition (Akkusativ oder Dativ):
+
+Wo ist das Museum? — ___ Stadtmitte.

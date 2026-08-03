@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-035
 type: input-text
+hint: Präteritum + Verb spielen
 correct:
   - spielte
 ---
 
-Als Kind ___ ich gern Fußball. (Präteritum + Verb spielen)
+Ergänze die Präteritumsform:
+
+Als Kind ___ ich gern Fußball.

@@ -2,13 +2,11 @@
 id: b1-neg-dd-023
 type: dropbox
 words:
-  - Er
-  - hat
-  - nicht
-  - auf
-  - die
-  - Nachricht
-  - geantwortet
+  - Sie
+  - arbeitet
+  - nie
+  - am
+  - Wochenende
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — nicht geantwortet)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

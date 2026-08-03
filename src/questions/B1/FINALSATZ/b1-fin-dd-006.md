@@ -11,6 +11,8 @@ words:
   - die
   - Qualität
   - steigt
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — damit Qualität steigt)

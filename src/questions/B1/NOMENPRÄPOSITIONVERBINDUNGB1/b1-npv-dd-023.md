@@ -2,14 +2,12 @@
 id: b1-npv-dd-023
 type: dropbox
 words:
-  - Sie
+  - Er
   - hat
-  - Lust
-  - auf
-  - einer
-  - Reise
-  - nach
-  - Spanien
+  - Erfolg
+  - bei
+  - der
+  - Prüfung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Lust auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

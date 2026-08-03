@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-040
 type: input-text
+hint: Konjunktion — Grund
 correct:
   - Weil
 ---
 
-___ ich müde war, bin ich früh ins Bett gegangen. (Konjunktion — Grund)
+Ergänze die Konjunktion:
+
+___ ich müde war, bin ich früh ins Bett gegangen.

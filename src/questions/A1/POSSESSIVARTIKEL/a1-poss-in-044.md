@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-044
 type: input-text
+hint: Possessivartikel — du, fem., Akk.
 correct:
   - deine
 ---
 
-Probier ___ Suppe! (Possessivartikel — du, fem., Akk.)
+Ergänze den Possessivartikel:
+
+Probier ___ Suppe!

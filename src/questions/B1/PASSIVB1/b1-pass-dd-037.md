@@ -2,11 +2,12 @@
 id: b1-pass-dd-037
 type: dropbox
 words:
-  - Die
-  - Patienten
-  - werden
-  - regelmäßig
-  - untersucht
+  - Das
+  - Medikament
+  - wird
+  - in
+  - Apotheken
+  - angeboten
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Hilfsverb werden)
+Ordne die Wörter zum richtigen Satz: (Passiv)

@@ -6,8 +6,8 @@ words:
   - ist
   - das
   - Auto
-  - des
+  - meines
   - Professors
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — des Professors)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

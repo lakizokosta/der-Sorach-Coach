@@ -2,11 +2,11 @@
 id: a2-fest-050
 type: select-one
 options:
-  - klassisches
-  - klassische
-  - klassischer
-  - klassisch
-correct: klassische
+  - über
+  - auf
+  - in
+  - für
+correct: auf
 ---
 
-Ich interessiere mich für ___ Musik. (Feste Präpositionen)
+Ich freue mich ___ das Fest. (Feste Präposition)

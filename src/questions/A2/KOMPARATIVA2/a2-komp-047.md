@@ -9,4 +9,4 @@ options:
 correct: besser
 ---
 
-Dieser Film ist ___ als der andere. (Komparativ — schnell)
+Dieser Film ist ___ als der andere. (gut)

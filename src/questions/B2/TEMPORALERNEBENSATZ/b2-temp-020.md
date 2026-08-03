@@ -9,4 +9,4 @@ options:
 correct: bis
 ---
 
-Er wartete, ___ der Zug abfuhr. (Temporalnebensatz)
+Er wartete, ___ der Zug abfuhr. (Grammatikform)

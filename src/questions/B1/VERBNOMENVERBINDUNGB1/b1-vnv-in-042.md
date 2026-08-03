@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-042
 type: input-text
+hint: Verb-Nomen-Verbindung — gibt / macht / nimmt / stellt
 correct:
   - stellt
 ---
 
-Sie ___ eine Diagnose. (Verb-Nomen-Verbindung)
+Ergänze die Verb-Nomen-Verbindung:
+
+Sie ___ eine Diagnose.

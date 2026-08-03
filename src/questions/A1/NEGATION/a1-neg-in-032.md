@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-032
 type: input-text
+hint: Negation
 correct:
   - keinen
 ---
 
-Ich habe ___ Termin. (Negation)
+Ergänze die Verneinung:
+
+Ich habe ___ Termin.

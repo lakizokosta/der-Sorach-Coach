@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-028
 type: input-text
+hint: Präteritum + Verb lesen
 correct:
   - las
 ---
 
-Er ___ ein Buch über das Schulsystem. (Präteritum + Verb lesen)
+Ergänze die Präteritumsform:
+
+Er ___ ein Buch über das Schulsystem.

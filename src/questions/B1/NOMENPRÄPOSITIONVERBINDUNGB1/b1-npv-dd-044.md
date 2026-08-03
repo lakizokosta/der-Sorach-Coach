@@ -2,12 +2,12 @@
 id: b1-npv-dd-044
 type: dropbox
 words:
-  - Sie
+  - Er
   - hat
-  - Freude
-  - an
-  - ihrer
-  - Arbeit
+  - Erfahrung
+  - in
+  - diesem
+  - Bereich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Freude an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

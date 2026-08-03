@@ -3,13 +3,15 @@ id: b1-kond-dd-038
 type: dropbox
 words:
   - Wenn
-  - ich
-  - die
-  - Stelle
-  - bekomme
-  - ziehen
-  - wir
-  - um
+  - das
+  - Gesetz
+  - verabschiedet
+  - wird
+  - ändert
+  - sich
+  - vieles
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn ich Stelle bekomme)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

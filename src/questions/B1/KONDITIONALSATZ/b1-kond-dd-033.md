@@ -2,14 +2,15 @@
 id: b1-kond-dd-033
 type: dropbox
 words:
-  - Wenn
-  - du
-  - morgen
-  - Zeit
-  - hast
-  - treffen
+  - Sobald
+  - der
+  - Zug
+  - ankommt
+  - fahren
   - wir
-  - uns
+  - los
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Wenn die Genehmigung kommt)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-013
 type: input-text
+hint: Gegenteil von sauber
 correct:
   - schmutzig
 ---
 
-Die Küche ist sauber, das Bad ist ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Die Küche ist sauber, das Bad ist ___.

@@ -2,17 +2,15 @@
 id: b1-pradv-dd-042
 type: dropbox
 words:
-  - Kümmerst
+  - Glaubst
   - du
-  - dich
-  - um
-  - die
-  - Patienten
-  - Ja
-  - ich
-  - kümmere
-  - mich
-  - darum
+  - an
+  - einen
+  - Erfolg
+  - —
+  - Ich
+  - glaube
+  - daran
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darum)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

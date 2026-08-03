@@ -2,15 +2,15 @@
 id: b1-pradv-dd-034
 type: dropbox
 words:
-  - Wann
-  - denkst
+  - Sprichst
   - du
-  - an
-  - den
-  - Termin
-  - Ich
-  - denke
-  - daran
+  - über
+  - das
+  - Problem
+  - —
+  - Wir
+  - sprechen
+  - darüber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dafür (Dank))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

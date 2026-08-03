@@ -2,11 +2,11 @@
 id: a2-fest-009
 type: select-one
 options:
-  - gutem
-  - guten
-  - gute
-  - gutes
-correct: gutes
+  - von
+  - mit
+  - bei
+  - auf
+correct: auf
 ---
 
-Ich hoffe auf ___ gutes Wetter. (feste Präposition)
+Ich hoffe ___ gutes Wetter. (Feste Präposition)

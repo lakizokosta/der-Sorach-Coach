@@ -9,4 +9,4 @@ words:
   - verabschiedet
 ---
 
-Ordne die Wörter zum richtigen Satz: (Demonstrativartikel — Dieses Gesetz)
+Ordne die Wörter zum richtigen Satz: (Demonstrativartikel)

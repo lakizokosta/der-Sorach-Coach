@@ -2,11 +2,12 @@
 id: b1-lass-dd-020
 type: dropbox
 words:
-  - Wir
-  - lassen
-  - unsere
-  - Dokumente
-  - übersetzen
+  - Du
+  - lässt
+  - dir
+  - die
+  - Zähne
+  - kontrollieren
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb kontrollieren)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

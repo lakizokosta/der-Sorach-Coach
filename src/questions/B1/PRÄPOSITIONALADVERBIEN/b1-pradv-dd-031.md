@@ -2,16 +2,17 @@
 id: b1-pradv-dd-031
 type: dropbox
 words:
-  - Informierst
+  - Interessierst
   - du
   - dich
-  - über
-  - das
-  - Gesetz
+  - für
+  - den
+  - Kurs
+  - —
   - Ich
-  - informiere
+  - interessiere
   - mich
-  - darüber
+  - dafür
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — davon)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -2,11 +2,11 @@
 id: b2-quiz-039
 type: select-one
 options:
-  - trotzdem
-  - außerdem
-  - dagegen
-  - daher
-correct: daher
+  - folglich
+  - gleichwohl
+  - dann
+  - deshalb
+correct: gleichwohl
 ---
 
-Sie hat sich verspätet; ___ verpasste sie den Anfang. (Grammatikform)
+Die Chancen sind gering; ___ geben wir nicht auf.

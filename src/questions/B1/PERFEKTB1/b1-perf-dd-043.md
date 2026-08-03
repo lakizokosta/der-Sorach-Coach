@@ -2,12 +2,12 @@
 id: b1-perf-dd-043
 type: dropbox
 words:
-  - Ich
-  - habe
-  - die
-  - ganze
-  - Nacht
-  - gearbeitet
+  - Sie
+  - hat
+  - ein
+  - wichtiges
+  - Gespräch
+  - geführt
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

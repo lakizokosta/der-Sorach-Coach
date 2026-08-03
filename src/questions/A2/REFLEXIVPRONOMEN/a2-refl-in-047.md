@@ -1,8 +1,11 @@
 ---
 id: a2-refl-in-047
 type: input-text
+hint: Reflexiv + Verb anziehen
 correct:
   - ziehst
 ---
 
-Du ___ dich warm an. (Reflexiv + Verb anziehen)
+Ergänze die Reflexivform:
+
+Du ___ dich warm an.

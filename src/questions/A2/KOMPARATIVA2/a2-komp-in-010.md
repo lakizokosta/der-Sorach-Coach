@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-010
 type: input-text
+hint: Komparativ — hoch
 correct:
   - höher
 ---
 
-Der Turm ist ___ als das Haus. (Komparativ — hoch)
+Ergänze die Komparativform:
+
+Der Turm ist ___ als das Haus.

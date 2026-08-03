@@ -2,11 +2,11 @@
 id: b2-quiz-043
 type: select-one
 options:
-  - würde
-  - wäre
-  - war
-  - werde
-correct: werde
+  - hätte
+  - hatte
+  - haben
+  - habe
+correct: habe
 ---
 
-Er sagte, er ___ morgen ankommen. (Grammatikform)
+Er erklärte, er ___ die Aufgabe bereits erledigt.

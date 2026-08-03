@@ -4,9 +4,9 @@ type: select-one
 options:
   - ist
   - lässt
-  - lässt sich
+  - lassen
   - wird
 correct: lässt
 ---
 
-Das Problem ___ sich leicht lösen. (lassen)
+Das Problem ___ sich leicht lösen. (Grammatikform)

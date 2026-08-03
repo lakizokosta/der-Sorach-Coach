@@ -2,10 +2,15 @@
 id: b1-pass-dd-027
 type: dropbox
 words:
-  - Der
-  - Termin
-  - wird
-  - verschoben
+  - Das
+  - Haus
+  - wurde
+  - früher
+  - als
+  - Schule
+  - genutzt
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Passiv + Verb genutzen)
+Ordne die Wörter zum richtigen Satz: (Passiv)

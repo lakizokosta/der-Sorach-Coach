@@ -2,16 +2,15 @@
 id: b1-pradv-dd-049
 type: dropbox
 words:
-  - Was
-  - hältst
+  - Sprichst
   - du
-  - von
-  - dem
-  - Vorschlag
-  - Ich
-  - halte
-  - nichts
-  - davon
+  - über
+  - das
+  - Problem
+  - —
+  - Wir
+  - sprechen
+  - darüber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — damit)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

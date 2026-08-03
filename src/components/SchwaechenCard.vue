@@ -52,7 +52,7 @@ function startSchwaechen() {
 }
 
 function openPremium() {
-  router.push({ name: 'premium' });
+  router.push({ name: 'premium', query: { hub: '1' } });
 }
 </script>
 

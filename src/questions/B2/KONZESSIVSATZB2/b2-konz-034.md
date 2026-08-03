@@ -2,11 +2,11 @@
 id: b2-konz-034
 type: select-one
 options:
-  - Damit
-  - Wenn
-  - Obwohl
+  - Wenngleich
   - Weil
-correct: Obwohl
+  - Obgleich
+  - Obwohl
+correct: Obgleich
 ---
 
-___, obgleich die Nachfrage sinkt, erhöht die Firma die Produktion. (Konzessivsatz)
+___ die Nachfrage sinkt, erhöht die Firma die Produktion. (Konzessivsatz)

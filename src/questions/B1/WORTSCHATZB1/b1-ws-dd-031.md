@@ -2,11 +2,10 @@
 id: b1-ws-dd-031
 type: dropbox
 words:
-  - Der
-  - Arzt
-  - verschreibt
-  - ein
-  - Medikament
+  - Nach der Operation
+  - braucht
+  - der Patient
+  - Rehabilitation
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Medikament)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

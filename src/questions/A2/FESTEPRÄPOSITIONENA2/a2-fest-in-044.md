@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-044
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
-  - seine
+  - an
 ---
 
-Er erinnert sich an ___ Kindheit. (feste Präposition)
+Ergänze die feste Präposition:
+
+Er erinnert sich ___ seine Kindheit.

@@ -2,14 +2,16 @@
 id: b1-trenn-dd-035
 type: dropbox
 words:
-  - Wann
-  - meldest
-  - du
-  - dich
-  - für
-  - den
-  - Kurs
-  - an
+  - Sie
+  - macht
+  - das
+  - Licht
+  - aus
+  - wenn
+  - sie
+  - geht
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb ausmachen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

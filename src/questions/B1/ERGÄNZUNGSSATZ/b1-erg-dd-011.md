@@ -9,6 +9,8 @@ words:
   - dass
   - du
   - mitkommst
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass mitkommst)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

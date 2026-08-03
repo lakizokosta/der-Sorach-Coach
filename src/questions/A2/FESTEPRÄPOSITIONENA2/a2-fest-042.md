@@ -2,11 +2,11 @@
 id: a2-fest-042
 type: select-one
 options:
-  - das
-  - den
-  - der
-  - die
-correct: den
+  - bei
+  - über
+  - nach
+  - mit
+correct: über
 ---
 
-Sie wartet auf ___ Zug. (feste Präposition)
+Sie ärgert sich ___ den Fehler. (Feste Präposition)

@@ -2,11 +2,11 @@
 id: b1-poss-014
 type: select-one
 options:
-  - des
-  - der
-  - den
-  - dem
-correct: der
+  - unser
+  - unserer
+  - unseren
+  - unsere
+correct: unserer
 ---
 
 Das ist das Ziel ___ Partei. (Possessivartikelform)

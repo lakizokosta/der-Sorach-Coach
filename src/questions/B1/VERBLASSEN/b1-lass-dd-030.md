@@ -2,14 +2,13 @@
 id: b1-lass-dd-030
 type: dropbox
 words:
-  - Sie
-  - lässt
-  - die
-  - Kinder
-  - von
-  - der
-  - Oma
-  - abholen
+  - Ich
+  - lasse
+  - mich
+  - nicht
+  - unter
+  - Druck
+  - setzen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb setzen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

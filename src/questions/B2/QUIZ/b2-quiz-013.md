@@ -2,11 +2,11 @@
 id: b2-quiz-013
 type: select-one
 options:
-  - geworden
   - worden
-  - würde
+  - wird
+  - geworden
   - wurde
-correct: wurde
+correct: wird
 ---
 
-Das Problem ___ leider nicht gelöst. (Grammatikform)
+Die Straße ___ wegen Bauarbeiten gesperrt.

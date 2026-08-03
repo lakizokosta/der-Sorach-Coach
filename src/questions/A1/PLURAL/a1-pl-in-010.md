@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-010
 type: input-text
+hint: Plural: Bus
 correct:
   - Busse
 ---
 
-An der Haltestelle warten drei ___. (Plural)
+Ergänze die Pluralform:
+
+An der Haltestelle warten drei ___.

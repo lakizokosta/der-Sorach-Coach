@@ -2,12 +2,12 @@
 id: b1-akk-dd-025
 type: dropbox
 words:
-  - Er
-  - denkt
-  - an
-  - eine
-  - wichtige
-  - Entscheidung
+  - Sie
+  - reserviert
+  - ein
+  - Zimmer
+  - im
+  - Hotel
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Entscheidung)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

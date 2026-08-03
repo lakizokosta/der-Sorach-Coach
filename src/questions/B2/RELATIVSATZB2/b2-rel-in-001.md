@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-001
 type: input-text
+hint: dessen
 correct:
   - dessen
 ---
 
-Der Autor, ___ Werk berühmt ist, lebt zurückgezogen. (Relativpronomen)
+Ergänze das Relativpronomen:
+
+Der Autor, ___ Werk berühmt ist, lebt zurückgezogen.

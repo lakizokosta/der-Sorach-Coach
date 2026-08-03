@@ -2,14 +2,12 @@
 id: b1-npv-dd-018
 type: dropbox
 words:
-  - Sie
-  - hat
-  - großes
-  - Interesse
-  - an
-  - dem
-  - neuen
-  - Studiengang
+  - Wir
+  - haben
+  - Hoffnung
+  - auf
+  - bessere
+  - Arbeitsbedingungen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Interesse an)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

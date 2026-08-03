@@ -2,13 +2,14 @@
 id: b1-kaus-dd-019
 type: dropbox
 words:
-  - Weil
-  - er
-  - fleißig
-  - war
-  - bestand
-  - seine
-  - Prüfung
+  - Ich
+  - bin
+  - müde
+  - denn
+  - ich
+  - habe
+  - wenig
+  - geschlafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil gelernt hat)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

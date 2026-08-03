@@ -2,11 +2,11 @@
 id: b2-quiz-012
 type: select-one
 options:
-  - wurde
+  - wäre
+  - ist
   - wird
-  - würde
-  - worden
-correct: wird
+  - war
+correct: ist
 ---
 
-Der Bericht ___ bis Freitag fertiggestellt werden. (Grammatikform)
+Ein Kompromiss ___ gefunden worden.

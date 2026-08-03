@@ -11,4 +11,4 @@ words:
   - Etage
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition — auf)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)

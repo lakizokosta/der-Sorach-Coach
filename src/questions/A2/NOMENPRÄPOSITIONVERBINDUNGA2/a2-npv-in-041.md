@@ -1,8 +1,11 @@
 ---
 id: a2-npv-in-041
 type: input-text
+hint: Nomen-Präp. — Freude
 correct:
   - an
 ---
 
-Sie hat Freude ___ Musik. (Nomen-Präp. — Freude)
+Ergänze die passende Präposition:
+
+Sie hat Freude ___ Musik.

@@ -1,8 +1,11 @@
 ---
 id: b2-pass-in-050
 type: input-text
+hint: Passiv + Hilfsverb werden
 correct:
   - wurde
 ---
 
-Das Gebäude ___ 1920 erbaut. (Passiv + Hilfsverb werden)
+Ergänze die Passivform:
+
+Das Gebäude ___ 1920 erbaut.

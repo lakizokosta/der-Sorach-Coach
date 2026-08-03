@@ -4,9 +4,9 @@ type: select-one
 options:
   - trotz
   - gemäß
-  - laut
+  - ohne
   - während
 correct: gemäß
 ---
 
-Die Veranstaltung findet ___ der aktuellen Hygienevorschriften statt. (Grammatikform)
+Die Veranstaltung findet ___ der aktuellen Hygienevorschriften statt.

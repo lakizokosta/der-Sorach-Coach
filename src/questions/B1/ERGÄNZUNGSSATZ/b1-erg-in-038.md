@@ -1,8 +1,11 @@
 ---
 id: b1-erg-in-038
 type: input-text
+hint: Ergänzungssatz
 correct:
-  - dass
+  - was
 ---
 
-Wir sind überzeugt, ___ das Projekt gelingt. (Ergänzungssatz)
+Ergänze die Konjunktion (Ergänzung):
+
+Ich weiß nicht, ___ er morgen sagen wird.

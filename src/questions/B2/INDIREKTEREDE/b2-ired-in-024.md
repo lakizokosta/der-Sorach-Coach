@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-024
 type: input-text
+hint: Indirekte Rede + Verb müssen
 correct:
   - müsse
 ---
 
-Sie sagte, sie ___ den Termin verschieben müssen. (Indirekte Rede)
+Ergänze die Form (Indirekte Rede):
+
+Sie sagte, sie ___ den Termin verschieben.

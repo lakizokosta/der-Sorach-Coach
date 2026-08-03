@@ -5,4 +5,6 @@ correct:
   - wird
 ---
 
-Man ___ (werden) die Reform umsetzen. (Futur + Verb werden)
+Ergänze die Futurform:
+
+Man ___ (werden) die Reform umsetzen.

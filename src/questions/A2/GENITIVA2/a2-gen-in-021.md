@@ -1,8 +1,11 @@
 ---
 id: a2-gen-in-021
 type: input-text
+hint: Genitiv — der Unterricht
 correct:
   - des
 ---
 
-Während ___ Unterrichts lerne ich viel. (Genitiv — der Unterricht)
+Ergänze die Genitivform:
+
+Während ___ Unterrichts lerne ich viel.

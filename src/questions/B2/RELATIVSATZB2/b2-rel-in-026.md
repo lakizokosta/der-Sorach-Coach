@@ -1,8 +1,11 @@
 ---
 id: b2-rel-in-026
 type: input-text
+hint: der
 correct:
   - der
 ---
 
-Die Firma, bei ___ ich Praktikum machte, stellt ein. (Relativpronomen)
+Ergänze das Relativpronomen:
+
+Die Firma, bei ___ ich Praktikum machte, stellt ein.

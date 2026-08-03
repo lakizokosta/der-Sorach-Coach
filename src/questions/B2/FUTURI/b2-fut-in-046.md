@@ -5,4 +5,6 @@ correct:
   - wird
 ---
 
-Die Firma ___ (werden) neue Stellen schaffen. (Futur + Verb werden)
+Ergänze die Futurform:
+
+Die Firma ___ (werden) neue Stellen schaffen.

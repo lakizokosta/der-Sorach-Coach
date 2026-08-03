@@ -9,4 +9,4 @@ words:
   - Hilfe
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — dankt für)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

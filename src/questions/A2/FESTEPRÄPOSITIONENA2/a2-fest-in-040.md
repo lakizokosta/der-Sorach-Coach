@@ -1,8 +1,11 @@
 ---
 id: a2-fest-in-040
 type: input-text
+hint: Feste Präposition — an / auf / für / mit / nach / über / von
 correct:
-  - einem
+  - von
 ---
 
-Er träumt von ___ Urlaub. (feste Präposition)
+Ergänze die feste Präposition:
+
+Er träumt ___ einem Urlaub.

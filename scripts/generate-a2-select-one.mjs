@@ -47,9 +47,11 @@ function writeTopic(folder, prefix, questions, force = false) {
     const q = questions[i - 1];
     if (!q) break;
     const num = String(i).padStart(3, '0');
-    const file = join(dir, `${prefix}-${num}.md`);
+    const id = `${prefix}-${num}`;
+    const file = join(dir, `${id}.md`);
     if (!force && existsSync(file)) continue;
-    writeFileSync(file, md({ id: `${prefix}-${num}`, hint: verbFormHint(folder, '', q.correct, q.options), ...q }), 'utf8');
+    const hint = verbFormHint(folder, '', q.correct, q.options, q.prompt, id);
+    writeFileSync(file, md({ id, hint, ...q }), 'utf8');
     written += 1;
   }
   return written;
@@ -64,6 +66,17 @@ function restoreTopic(topicKey) {
 const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
 
 if (isMain) {
+  if (process.argv.includes('--restore-all')) {
+    let total = 0;
+    for (const topic of Object.keys(TOPICS)) {
+      const n = restoreTopic(topic);
+      total += n;
+      console.log(`${topic}: restored ${n} select-one files`);
+    }
+    console.log(`\nTotal restored: ${total}`);
+    process.exit(0);
+  }
+
   if (process.argv.includes('--restore')) {
     const topic = process.argv.find((a) => a.startsWith('--topic='))?.slice(8) || 'LOKALPRÄPOSITIONENA2';
     const n = restoreTopic(topic);

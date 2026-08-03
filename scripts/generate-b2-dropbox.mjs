@@ -13,22 +13,33 @@ import { BANK } from './b2-dropbox-data.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B2');
 
+const FORCE = process.argv.includes('--force');
+const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
+
+const TOPIC_LIMIT = {
+  TEKAMOLO: 50,
+  'AKKUSATIV&DATIVOBJEKT': 25,
+};
+
 const TOPICS = {
   TEKAMOLO: 'b2-tkml-dd',
+  'AKKUSATIV&DATIVOBJEKT': 'b2-obj-dd',
 };
 
 let total = 0;
 const errors = [];
 
 for (const [folder, prefix] of Object.entries(TOPICS)) {
+  if (TOPIC_ARG && folder !== TOPIC_ARG) continue;
   const bank = BANK[folder];
   if (!bank) throw new Error(`Missing bank for ${folder}`);
   mkdirSync(join(ROOT, folder), { recursive: true });
   let n = 0;
-  bank.slice(0, 50).forEach((item, i) => {
+  const limit = TOPIC_LIMIT[folder] ?? 50;
+  bank.slice(0, limit).forEach((item, i) => {
     const num = String(i + 1).padStart(3, '0');
     const path = join(ROOT, folder, `${prefix}-${num}.md`);
-    if (existsSync(path)) return;
+    if (!FORCE && existsSync(path)) return;
     try {
       assertUnique(item.words, `${folder} #${i + 1}`);
     } catch (e) {
@@ -40,12 +51,12 @@ for (const [folder, prefix] of Object.entries(TOPICS)) {
     n += 1;
     total += 1;
   });
-  console.log(`${folder}: +${n}`);
+  console.log(`${folder}: ${FORCE ? 'regen ' : '+'}${n}`);
 }
 
 if (errors.length) {
   console.error('\nSkipped due to duplicate words:');
   errors.forEach((e) => console.error(`  ${e}`));
 }
-console.log(`\nTotal new dropbox files: ${total}`);
+console.log(`\nTotal ${FORCE ? 'regenerated' : 'new'} dropbox files: ${total}`);
 if (errors.length) process.exit(1);

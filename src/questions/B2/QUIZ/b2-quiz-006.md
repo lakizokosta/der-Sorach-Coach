@@ -2,11 +2,11 @@
 id: b2-quiz-006
 type: select-one
 options:
-  - ist
+  - war
   - wäre
   - würde
   - wird
-correct: wäre
+correct: würde
 ---
 
-Er benimmt sich, als ___ er der Chef. (Grammatikform)
+Er ___ lieber zu Hause bleiben, aber er muss arbeiten.

@@ -2,11 +2,11 @@
 id: a2-fest-016
 type: select-one
 options:
-  - einen
-  - eine
-  - ein
-  - einer
-correct: eine
+  - nach
+  - auf
+  - von
+  - bei
+correct: auf
 ---
 
-Ich warte auf ___ Antwort. (Feste Präpositionen)
+Ich freue mich ___ das Fest. (Feste Präposition)

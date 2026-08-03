@@ -186,13 +186,13 @@
 ### 13. `b1-pradv-013` · select-one
 
 **Aufgabe:**
-> Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+> Nimmst du an der Konferenz teil? — Ich nehme ___. (Pronominaladverb)
 
 **Optionen:**
 - dafür
 - darüber
 - damit
-- daran teil **✓**
+- daran **✓**
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -396,11 +396,11 @@
 ### 28. `b1-pradv-028` · select-one
 
 **Aufgabe:**
-> Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+> Nimmst du an der Konferenz teil? — Ich nehme ___. (Pronominaladverb)
 
 **Optionen:**
 - dafür
-- daran teil **✓**
+- daran **✓**
 - darauf
 - darüber
 
@@ -606,12 +606,12 @@
 ### 43. `b1-pradv-043` · select-one
 
 **Aufgabe:**
-> Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+> Nimmst du an der Konferenz teil? — Ich nehme ___. (Pronominaladverb)
 
 **Optionen:**
 - dafür
 - darauf
-- daran teil **✓**
+- daran **✓**
 - damit
 
 - [ ] OK
@@ -840,9 +840,9 @@
 ### 63. `b1-pradv-in-013` · input-text
 
 **Aufgabe:**
-> Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+> Nimmst du an der Konferenz teil? — Ich nehme ___. (Pronominaladverb)
 
-**Antwort:** `daran teil`
+**Antwort:** `daran`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -990,9 +990,9 @@
 ### 78. `b1-pradv-in-028` · input-text
 
 **Aufgabe:**
-> Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+> Nimmst du an der Konferenz teil? — Ich nehme ___. (Pronominaladverb)
 
-**Antwort:** `daran teil`
+**Antwort:** `daran`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1140,9 +1140,9 @@
 ### 93. `b1-pradv-in-043` · input-text
 
 **Aufgabe:**
-> Teilnimmst du an der Konferenz? — Ich nehme ___. (Pronominaladverb)
+> Nimmst du an der Konferenz teil? — Ich nehme ___. (Pronominaladverb)
 
-**Antwort:** `daran teil`
+**Antwort:** `daran`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1222,9 +1222,9 @@
 ### 101. `b1-pradv-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dafür)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Interessierst · du · dich · für · den · Kurs · Ja · ich · interessiere · mich · dafür
+**Wörter:** Interessierst · du · dich · für · den · Kurs · — · Ich · interessiere · mich · dafür
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1232,9 +1232,9 @@
 ### 102. `b1-pradv-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — daran)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Wann · denkst · du · an · den · Termin · Ich · denke · daran
+**Wörter:** Wann · denkst · du · an · den · Termin · — · Ich · denke · daran
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1242,9 +1242,9 @@
 ### 103. `b1-pradv-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Freust · du · dich · auf · die · Reise · Ich · freue · mich · darauf
+**Wörter:** Freust · du · dich · auf · die · Reise · — · Ich · freue · mich · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1252,9 +1252,9 @@
 ### 104. `b1-pradv-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Sprichst · du · über · das · Problem · Ja · wir · sprechen · darüber
+**Wörter:** Sprichst · du · über · das · Problem · — · Wir · sprechen · darüber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1262,9 +1262,9 @@
 ### 105. `b1-pradv-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Hoffnung))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Hoffst · du · auf · bessere · Zeiten · Ich · hoffe · darauf
+**Wörter:** Hoffst · du · auf · bessere · Zeiten · — · Ich · hoffe · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1272,9 +1272,9 @@
 ### 106. `b1-pradv-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — daran (Erinnerung))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Erinnerst · du · dich · an · die · Vorlesung · Ich · erinnere · mich · daran
+**Wörter:** Erinnerst · du · dich · an · die · Vorlesung · — · Ich · erinnere · mich · daran
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1282,9 +1282,9 @@
 ### 107. `b1-pradv-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Warten))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Wartest · du · auf · die · Ergebnisse · Ich · warte · darauf
+**Wörter:** Wartest · du · auf · die · Ergebnisse · — · Ich · warte · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1292,9 +1292,9 @@
 ### 108. `b1-pradv-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darum)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Kümmerst · du · dich · um · die · Patienten · Ja · ich · kümmere · mich · darum
+**Wörter:** Kümmerst · du · dich · um · die · Patienten · — · Ich · kümmere · mich · darum
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1302,9 +1302,9 @@
 ### 109. `b1-pradv-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Ärgerst · du · dich · über · die · Nachricht · Ich · ärgere · mich · darüber
+**Wörter:** Ärgerst · du · dich · über · die · Nachricht · — · Ich · ärgere · mich · darüber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1312,9 +1312,9 @@
 ### 110. `b1-pradv-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dabei)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Hilfst · du · bei · dem · Projekt · Ja · ich · helfe · dabei
+**Wörter:** Hilfst · du · bei · dem · Projekt · — · Ich · helfe · dabei
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1322,9 +1322,9 @@
 ### 111. `b1-pradv-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Bestehen))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Bestehst · du · auf · deiner · Meinung · Ich · bestehe · darauf
+**Wörter:** Bestehst · du · auf · deiner · Meinung · — · Ich · bestehe · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,9 +1332,9 @@
 ### 112. `b1-pradv-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darin)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Vertraust · du · in · das · Team · Ich · vertraue · darin
+**Wörter:** Vertraust · du · in · das · Team · — · Ich · vertraue · darin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1342,9 +1342,9 @@
 ### 113. `b1-pradv-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber (Informieren))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Teilnimmst · du · an · der · Konferenz · Ich · nehme · daran · teil
+**Wörter:** Nimmst · du · an · der · Konferenz · teil · — · Ich · nehme · daran
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1352,9 +1352,9 @@
 ### 114. `b1-pradv-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — davon)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Informierst · du · dich · über · das · Gesetz · Ich · informiere · mich · darüber
+**Wörter:** Informierst · du · dich · über · das · Gesetz · — · Ich · informiere · mich · darüber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1362,9 +1362,9 @@
 ### 115. `b1-pradv-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — damit)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Was · hältst · du · von · dem · Vorschlag · Ich · halte · nichts · davon
+**Wörter:** Was · hältst · du · von · dem · Vorschlag · — · Ich · halte · nichts · davon
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1372,9 +1372,9 @@
 ### 116. `b1-pradv-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dazu)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Interessierst · du · dich · für · den · Kurs · Ja · ich · interessiere · mich · dafür
+**Wörter:** Interessierst · du · dich · für · den · Kurs · — · Ich · interessiere · mich · dafür
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1382,9 +1382,9 @@
 ### 117. `b1-pradv-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dafür (Dank))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Wann · denkst · du · an · den · Termin · Ich · denke · daran
+**Wörter:** Wann · denkst · du · an · den · Termin · — · Ich · denke · daran
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1392,9 +1392,9 @@
 ### 118. `b1-pradv-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dafür)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Interessierst · du · dich · für · den · Kurs · Ja · ich · interessiere · mich · dafür
+**Wörter:** Freust · du · dich · auf · die · Reise · — · Ich · freue · mich · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1402,9 +1402,9 @@
 ### 119. `b1-pradv-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — daran)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Wann · denkst · du · an · den · Termin · Ich · denke · daran
+**Wörter:** Sprichst · du · über · das · Problem · — · Wir · sprechen · darüber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,9 +1412,9 @@
 ### 120. `b1-pradv-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Freust · du · dich · auf · die · Reise · Ich · freue · mich · darauf
+**Wörter:** Hoffst · du · auf · bessere · Zeiten · — · Ich · hoffe · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1422,9 +1422,9 @@
 ### 121. `b1-pradv-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Sprichst · du · über · das · Problem · Ja · wir · sprechen · darüber
+**Wörter:** Erinnerst · du · dich · an · die · Vorlesung · — · Ich · erinnere · mich · daran
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1432,9 +1432,9 @@
 ### 122. `b1-pradv-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Hoffnung))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Hoffst · du · auf · bessere · Zeiten · Ich · hoffe · darauf
+**Wörter:** Wartest · du · auf · die · Ergebnisse · — · Ich · warte · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1442,9 +1442,9 @@
 ### 123. `b1-pradv-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — daran (Erinnerung))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Erinnerst · du · dich · an · die · Vorlesung · Ich · erinnere · mich · daran
+**Wörter:** Kümmerst · du · dich · um · die · Patienten · — · Ich · kümmere · mich · darum
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `b1-pradv-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Warten))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Wartest · du · auf · die · Ergebnisse · Ich · warte · darauf
+**Wörter:** Ärgerst · du · dich · über · die · Nachricht · — · Ich · ärgere · mich · darüber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,9 +1462,9 @@
 ### 125. `b1-pradv-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darum)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Kümmerst · du · dich · um · die · Patienten · Ja · ich · kümmere · mich · darum
+**Wörter:** Hilfst · du · bei · dem · Projekt · — · Ich · helfe · dabei
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1472,9 +1472,9 @@
 ### 126. `b1-pradv-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Ärgerst · du · dich · über · die · Nachricht · Ich · ärgere · mich · darüber
+**Wörter:** Bestehst · du · auf · deiner · Meinung · — · Ich · bestehe · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,9 +1482,9 @@
 ### 127. `b1-pradv-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dabei)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Hilfst · du · bei · dem · Projekt · Ja · ich · helfe · dabei
+**Wörter:** Vertraust · du · in · das · Team · — · Ich · vertraue · darin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `b1-pradv-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Bestehen))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Bestehst · du · auf · deiner · Meinung · Ich · bestehe · darauf
+**Wörter:** Nimmst · du · an · der · Konferenz · teil · — · Ich · nehme · daran
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `b1-pradv-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darin)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Vertraust · du · in · das · Team · Ich · vertraue · darin
+**Wörter:** Informierst · du · dich · über · das · Gesetz · — · Ich · informiere · mich · darüber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `b1-pradv-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber (Informieren))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Teilnimmst · du · an · der · Konferenz · Ich · nehme · daran · teil
+**Wörter:** Was · hältst · du · von · dem · Vorschlag · — · Ich · halte · nichts · davon
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-pradv-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — davon)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Informierst · du · dich · über · das · Gesetz · Ich · informiere · mich · darüber
+**Wörter:** Interessierst · du · dich · für · den · Kurs · — · Ich · interessiere · mich · dafür
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `b1-pradv-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — damit)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Was · hältst · du · von · dem · Vorschlag · Ich · halte · nichts · davon
+**Wörter:** Wann · denkst · du · an · den · Termin · — · Ich · denke · daran
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `b1-pradv-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dazu)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Interessierst · du · dich · für · den · Kurs · Ja · ich · interessiere · mich · dafür
+**Wörter:** Freust · du · dich · auf · die · Reise · — · Ich · freue · mich · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1552,9 +1552,9 @@
 ### 134. `b1-pradv-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dafür (Dank))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Wann · denkst · du · an · den · Termin · Ich · denke · daran
+**Wörter:** Sprichst · du · über · das · Problem · — · Wir · sprechen · darüber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,9 +1562,9 @@
 ### 135. `b1-pradv-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dafür)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Interessierst · du · dich · für · den · Kurs · Ja · ich · interessiere · mich · dafür
+**Wörter:** Hoffst · du · auf · bessere · Zeiten · — · Ich · hoffe · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `b1-pradv-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — daran)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Wann · denkst · du · an · den · Termin · Ich · denke · daran
+**Wörter:** Erinnerst · du · dich · an · die · Vorlesung · — · Ich · erinnere · mich · daran
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,9 +1582,9 @@
 ### 137. `b1-pradv-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Freust · du · dich · auf · die · Reise · Ich · freue · mich · darauf
+**Wörter:** Wartest · du · auf · die · Ergebnisse · — · Ich · warte · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1592,9 +1592,9 @@
 ### 138. `b1-pradv-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Sprichst · du · über · das · Problem · Ja · wir · sprechen · darüber
+**Wörter:** Kümmerst · du · dich · um · die · Patienten · — · Ich · kümmere · mich · darum
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `b1-pradv-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Hoffnung))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Hoffst · du · auf · bessere · Zeiten · Ich · hoffe · darauf
+**Wörter:** Ärgerst · du · dich · über · die · Nachricht · — · Ich · ärgere · mich · darüber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1612,9 +1612,9 @@
 ### 140. `b1-pradv-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — daran (Erinnerung))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Erinnerst · du · dich · an · die · Vorlesung · Ich · erinnere · mich · daran
+**Wörter:** Hilfst · du · bei · dem · Projekt · — · Ich · helfe · dabei
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `b1-pradv-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Warten))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Wartest · du · auf · die · Ergebnisse · Ich · warte · darauf
+**Wörter:** Bestehst · du · auf · deiner · Meinung · — · Ich · bestehe · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,9 +1632,9 @@
 ### 142. `b1-pradv-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darum)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Kümmerst · du · dich · um · die · Patienten · Ja · ich · kümmere · mich · darum
+**Wörter:** Vertraust · du · in · das · Team · — · Ich · vertraue · darin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1642,9 +1642,9 @@
 ### 143. `b1-pradv-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Ärgerst · du · dich · über · die · Nachricht · Ich · ärgere · mich · darüber
+**Wörter:** Nimmst · du · an · der · Konferenz · teil · — · Ich · nehme · daran
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `b1-pradv-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dabei)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Hilfst · du · bei · dem · Projekt · Ja · ich · helfe · dabei
+**Wörter:** Informierst · du · dich · über · das · Gesetz · — · Ich · informiere · mich · darüber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `b1-pradv-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darauf (Bestehen))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Bestehst · du · auf · deiner · Meinung · Ich · bestehe · darauf
+**Wörter:** Was · hältst · du · von · dem · Vorschlag · — · Ich · halte · nichts · davon
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `b1-pradv-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darin)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Vertraust · du · in · das · Team · Ich · vertraue · darin
+**Wörter:** Interessierst · du · dich · für · den · Kurs · — · Ich · interessiere · mich · dafür
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,9 +1682,9 @@
 ### 147. `b1-pradv-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber (Informieren))
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Teilnimmst · du · an · der · Konferenz · Ich · nehme · daran · teil
+**Wörter:** Wann · denkst · du · an · den · Termin · — · Ich · denke · daran
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-pradv-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — davon)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Informierst · du · dich · über · das · Gesetz · Ich · informiere · mich · darüber
+**Wörter:** Freust · du · dich · auf · die · Reise · — · Ich · freue · mich · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,9 +1702,9 @@
 ### 149. `b1-pradv-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — damit)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Was · hältst · du · von · dem · Vorschlag · Ich · halte · nichts · davon
+**Wörter:** Sprichst · du · über · das · Problem · — · Wir · sprechen · darüber
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1712,9 +1712,9 @@
 ### 150. `b1-pradv-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — dazu)
+> Ordne die Wörter zum richtigen Satz: (Pronominaladverb)
 
-**Wörter:** Interessierst · du · dich · für · den · Kurs · Ja · ich · interessiere · mich · dafür
+**Wörter:** Hoffst · du · auf · bessere · Zeiten · — · Ich · hoffe · darauf
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

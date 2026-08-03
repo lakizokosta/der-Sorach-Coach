@@ -1,8 +1,11 @@
 ---
 id: a1-geg-in-024
 type: input-text
+hint: Gegenteil von interessant
 correct:
   - langweilig
 ---
 
-Das Buch ist interessant, der Vortrag ist ___. (Gegenteile)
+Ergänze das Gegenteil:
+
+Das Buch ist interessant, der Vortrag ist ___.

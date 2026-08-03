@@ -1,8 +1,11 @@
 ---
 id: a2-konj-in-027
 type: input-text
+hint: Konjunktion — indirekte Frage
 correct:
   - ob
 ---
 
-Er fragt, ___ wir mit zum Zoo kommen. (Konjunktion — indirekte Frage)
+Ergänze die Konjunktion:
+
+Er fragt, ___ wir mit zum Zoo kommen.

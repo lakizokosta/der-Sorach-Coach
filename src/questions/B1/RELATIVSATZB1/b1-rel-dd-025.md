@@ -2,13 +2,17 @@
 id: b1-rel-dd-025
 type: dropbox
 words:
-  - Das
-  - Medikament
-  - das
+  - Die
+  - Firma
+  - für
+  - die
   - er
-  - braucht
-  - ist
-  - teuer
+  - arbeitet
+  - wächst
+  - schnell
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — das er braucht)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

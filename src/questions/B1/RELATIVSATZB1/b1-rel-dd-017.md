@@ -10,6 +10,9 @@ words:
   - traf
   - war
   - nett
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — was er sagte)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

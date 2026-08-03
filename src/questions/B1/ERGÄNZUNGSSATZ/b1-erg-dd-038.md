@@ -2,14 +2,15 @@
 id: b1-erg-dd-038
 type: dropbox
 words:
-  - Es
-  - ist
-  - klar
+  - Wir
+  - sind
+  - überzeugt
   - dass
-  - wir
-  - mehr
-  - Zeit
-  - brauchen
+  - das
+  - Projekt
+  - gelingt
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Zeit brauchen)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

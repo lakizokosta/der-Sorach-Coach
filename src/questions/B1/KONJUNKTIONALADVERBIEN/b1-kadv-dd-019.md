@@ -2,14 +2,14 @@
 id: b1-kadv-dd-019
 type: dropbox
 words:
-  - Er
-  - hat
-  - viel
-  - gelernt
-  - deshalb
-  - bestand
-  - seine
-  - Prüfung
+  - Das
+  - Projekt
+  - ist
+  - teuer
+  - Dennoch
+  - lohnt
+  - es
+  - sich
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb bestanden)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

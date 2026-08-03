@@ -88,7 +88,7 @@
 ### 6. `a1-adj-006` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Hund. (Adjektivdeklination — neutr., Akk.)
+> Das ist ein ___ Hund. (Adjektivendung)
 
 **Optionen:**
 - kleines
@@ -102,7 +102,7 @@
 ### 7. `a1-adj-007` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Tasche. (Adjektivdeklination — mask., Akk.)
+> Das ist eine ___ Tasche. (Adjektivendung)
 
 **Optionen:**
 - kleine
@@ -116,7 +116,7 @@
 ### 8. `a1-adj-008` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Fahrrad. (Adjektivdeklination — fem., Dat.)
+> Das ist ein ___ Fahrrad. (Adjektivendung)
 
 **Optionen:**
 - guter
@@ -130,7 +130,7 @@
 ### 9. `a1-adj-009` · select-one
 
 **Aufgabe:**
-> Der ___ Freund gefällt mir. (Adjektivdeklination — neutr., Dat.)
+> Der ___ Freund gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - kleinen
@@ -144,7 +144,7 @@
 ### 10. `a1-adj-010` · select-one
 
 **Aufgabe:**
-> Die ___ Stadt gefällt mir. (Adjektivdeklination — neutr., Akk.)
+> Die ___ Stadt gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - neue
@@ -158,7 +158,7 @@
 ### 11. `a1-adj-011` · select-one
 
 **Aufgabe:**
-> Das ___ Essen gefällt mir. (Adjektivdeklination — fem., Akk.)
+> Das ___ Essen gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - kleinen
@@ -172,7 +172,7 @@
 ### 12. `a1-adj-012` · select-one
 
 **Aufgabe:**
-> Das ist kein ___ Garten. (Adjektivdeklination — neutr., Dat.)
+> Das ist kein ___ Garten. (Adjektivendung)
 
 **Optionen:**
 - kleinen
@@ -186,7 +186,7 @@
 ### 13. `a1-adj-013` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Jacke. (Adjektivdeklination — neutr., Akk.)
+> Ich habe eine ___ Jacke. (Adjektivendung)
 
 **Optionen:**
 - neues
@@ -200,7 +200,7 @@
 ### 14. `a1-adj-014` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Zug. (Adjektivdeklination — mask., Nom.)
+> Das ist ein ___ Zug. (Adjektivendung)
 
 **Optionen:**
 - kleine
@@ -214,7 +214,7 @@
 ### 15. `a1-adj-015` · select-one
 
 **Aufgabe:**
-> Der ___ Bus gefällt mir. (Adjektivdeklination — fem., Akk.)
+> Der ___ Bus gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - neue
@@ -228,7 +228,7 @@
 ### 16. `a1-adj-016` · select-one
 
 **Aufgabe:**
-> Das ist eine ___ Idee. (Adjektivdeklination — neutr., Nom.)
+> Ich habe eine ___ Idee. (Adjektivendung)
 
 **Optionen:**
 - neuen
@@ -242,7 +242,7 @@
 ### 17. `a1-adj-017` · select-one
 
 **Aufgabe:**
-> Das ___ Handy gefällt mir. (Adjektivdeklination — fem., Nom.)
+> Das ___ Handy gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - kleine
@@ -256,7 +256,7 @@
 ### 18. `a1-adj-018` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Wasser. (Adjektivdeklination — neutr., Akk.)
+> Das ist ein ___ Wasser. (Adjektivendung)
 
 **Optionen:**
 - neues
@@ -270,7 +270,7 @@
 ### 19. `a1-adj-019` · select-one
 
 **Aufgabe:**
-> Der ___ Mantel gefällt mir. (Adjektivdeklination — mask., Akk.)
+> Der ___ Mantel gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - neuer
@@ -284,7 +284,7 @@
 ### 20. `a1-adj-020` · select-one
 
 **Aufgabe:**
-> Die ___ Milch gefällt mir. (Adjektivdeklination — mask., Dat.)
+> Die ___ Milch gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - neue
@@ -298,7 +298,7 @@
 ### 21. `a1-adj-021` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Hund. (Adjektivdeklination — mask., Akk.)
+> Das ist ein ___ Hund. (Adjektivendung)
 
 **Optionen:**
 - guter
@@ -312,7 +312,7 @@
 ### 22. `a1-adj-022` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Tasche. (Adjektivdeklination — mask., Akk.)
+> Das ist eine ___ Tasche. (Adjektivendung)
 
 **Optionen:**
 - neuer
@@ -326,7 +326,7 @@
 ### 23. `a1-adj-023` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Fahrrad. (Adjektivdeklination — neutr., Nom.)
+> Das ist ein ___ Fahrrad. (Adjektivendung)
 
 **Optionen:**
 - kleinen
@@ -340,7 +340,7 @@
 ### 24. `a1-adj-024` · select-one
 
 **Aufgabe:**
-> Der ___ Freund gefällt mir. (Adjektivdeklination — fem., Akk.)
+> Der ___ Freund gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - guter
@@ -354,7 +354,7 @@
 ### 25. `a1-adj-025` · select-one
 
 **Aufgabe:**
-> Die ___ Stadt gefällt mir. (Adjektivdeklination — mask., Nom.)
+> Die ___ Stadt gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - gutes
@@ -368,7 +368,7 @@
 ### 26. `a1-adj-026` · select-one
 
 **Aufgabe:**
-> Das ___ Essen gefällt mir. (Adjektivdeklination — fem., Akk.)
+> Das ___ Essen gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - kleine
@@ -382,7 +382,7 @@
 ### 27. `a1-adj-027` · select-one
 
 **Aufgabe:**
-> Das ist kein ___ Garten. (Adjektivdeklination — mask., Dat.)
+> Das ist kein ___ Garten. (Adjektivendung)
 
 **Optionen:**
 - guter
@@ -396,7 +396,7 @@
 ### 28. `a1-adj-028` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Jacke. (Adjektivdeklination — fem., Dat.)
+> Ich habe eine ___ Jacke. (Adjektivendung)
 
 **Optionen:**
 - kleines
@@ -410,7 +410,7 @@
 ### 29. `a1-adj-029` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Zug. (Adjektivdeklination — neutr., Nom.)
+> Das ist ein ___ Zug. (Adjektivendung)
 
 **Optionen:**
 - neue
@@ -424,7 +424,7 @@
 ### 30. `a1-adj-030` · select-one
 
 **Aufgabe:**
-> Der ___ Bus gefällt mir. (Adjektivdeklination — neutr., Dat.)
+> Der ___ Bus gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - neuen
@@ -438,7 +438,7 @@
 ### 31. `a1-adj-031` · select-one
 
 **Aufgabe:**
-> Das ist eine ___ Idee. (Adjektivdeklination — fem., Akk.)
+> Ich habe eine ___ Idee. (Adjektivendung)
 
 **Optionen:**
 - gute
@@ -452,7 +452,7 @@
 ### 32. `a1-adj-032` · select-one
 
 **Aufgabe:**
-> Das ___ Handy gefällt mir. (Adjektivdeklination — mask., Dat.)
+> Das ___ Handy gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - neuer
@@ -466,7 +466,7 @@
 ### 33. `a1-adj-033` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Wasser. (Adjektivdeklination — neutr., Nom.)
+> Das ist ein ___ Wasser. (Adjektivendung)
 
 **Optionen:**
 - kleinen
@@ -480,7 +480,7 @@
 ### 34. `a1-adj-034` · select-one
 
 **Aufgabe:**
-> Der ___ Mantel gefällt mir. (Adjektivdeklination — neutr., Dat.)
+> Der ___ Mantel gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - guter
@@ -494,7 +494,7 @@
 ### 35. `a1-adj-035` · select-one
 
 **Aufgabe:**
-> Die ___ Milch gefällt mir. (Adjektivdeklination — mask., Akk.)
+> Die ___ Milch gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - kleine
@@ -508,7 +508,7 @@
 ### 36. `a1-adj-036` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Hund. (Adjektivdeklination — fem., Akk.)
+> Das ist ein ___ Hund. (Adjektivendung)
 
 **Optionen:**
 - guten
@@ -522,7 +522,7 @@
 ### 37. `a1-adj-037` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Tasche. (Adjektivdeklination — neutr., Dat.)
+> Das ist eine ___ Tasche. (Adjektivendung)
 
 **Optionen:**
 - gute
@@ -536,7 +536,7 @@
 ### 38. `a1-adj-038` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Fahrrad. (Adjektivdeklination — neutr., Akk.)
+> Das ist ein ___ Fahrrad. (Adjektivendung)
 
 **Optionen:**
 - kleine
@@ -550,7 +550,7 @@
 ### 39. `a1-adj-039` · select-one
 
 **Aufgabe:**
-> Der ___ Freund gefällt mir. (Adjektivdeklination — fem., Dat.)
+> Der ___ Freund gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - neuen
@@ -564,7 +564,7 @@
 ### 40. `a1-adj-040` · select-one
 
 **Aufgabe:**
-> Die ___ Stadt gefällt mir. (Adjektivdeklination — fem., Nom.)
+> Die ___ Stadt gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - kleines
@@ -578,7 +578,7 @@
 ### 41. `a1-adj-041` · select-one
 
 **Aufgabe:**
-> Das ___ Essen gefällt mir. (Adjektivdeklination — mask., Dat.)
+> Das ___ Essen gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - neues
@@ -592,7 +592,7 @@
 ### 42. `a1-adj-042` · select-one
 
 **Aufgabe:**
-> Das ist kein ___ Garten. (Adjektivdeklination — fem., Dat.)
+> Das ist kein ___ Garten. (Adjektivendung)
 
 **Optionen:**
 - neuen
@@ -606,7 +606,7 @@
 ### 43. `a1-adj-043` · select-one
 
 **Aufgabe:**
-> Ich habe ___ Jacke. (Adjektivdeklination — fem., Akk.)
+> Ich habe eine ___ Jacke. (Adjektivendung)
 
 **Optionen:**
 - neues
@@ -620,7 +620,7 @@
 ### 44. `a1-adj-044` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Zug. (Adjektivdeklination — neutr., Akk.)
+> Das ist ein ___ Zug. (Adjektivendung)
 
 **Optionen:**
 - neues
@@ -634,7 +634,7 @@
 ### 45. `a1-adj-045` · select-one
 
 **Aufgabe:**
-> Der ___ Bus gefällt mir. (Adjektivdeklination — mask., Dat.)
+> Der ___ Bus gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - gutes
@@ -648,7 +648,7 @@
 ### 46. `a1-adj-046` · select-one
 
 **Aufgabe:**
-> Das ist eine ___ Idee. (Adjektivdeklination — fem., Akk.)
+> Ich habe eine ___ Idee. (Adjektivendung)
 
 **Optionen:**
 - gute
@@ -662,7 +662,7 @@
 ### 47. `a1-adj-047` · select-one
 
 **Aufgabe:**
-> Das ___ Handy gefällt mir. (Adjektivdeklination — neutr., Nom.)
+> Das ___ Handy gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - guter
@@ -676,7 +676,7 @@
 ### 48. `a1-adj-048` · select-one
 
 **Aufgabe:**
-> Das ist ein ___ Wasser. (Adjektivdeklination — mask., Akk.)
+> Das ist ein ___ Wasser. (Adjektivendung)
 
 **Optionen:**
 - kleine
@@ -690,7 +690,7 @@
 ### 49. `a1-adj-049` · select-one
 
 **Aufgabe:**
-> Der ___ Mantel gefällt mir. (Adjektivdeklination — fem., Akk.)
+> Der ___ Mantel gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - kleine
@@ -704,7 +704,7 @@
 ### 50. `a1-adj-050` · select-one
 
 **Aufgabe:**
-> Die ___ Milch gefällt mir. (Adjektivdeklination — fem., Dat.)
+> Die ___ Milch gefällt mir. (Adjektivendung)
 
 **Optionen:**
 - kleinen
@@ -1040,9 +1040,9 @@
 ### 83. `a1-adj-in-033` · input-text
 
 **Aufgabe:**
-> Das ist mein ___ Buch. (Adjektivdeklination — neutr., Nom.)
+> Das ist mein ___ Buch. (Adjektivdeklination — gut, neutr., Nom.)
 
-**Antwort:** `liebes`
+**Antwort:** `gutes`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1304,7 +1304,7 @@
 **Aufgabe:**
 > [Wetter] Ordne die Wörter zum richtigen Satz: (Adjektiv — kaltes Wasser)
 
-**Wörter:** Ich · trinke · kaltes · Wasser · heute
+**Wörter:** Ich · trinke · kaltes · Wasser
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

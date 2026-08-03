@@ -9,4 +9,4 @@ options:
 correct: steht
 ---
 
-Er ___ früh auf. (Trennbares Verb)
+Er ___ früh auf. (Trennbares Verb + Verb aufstehen)

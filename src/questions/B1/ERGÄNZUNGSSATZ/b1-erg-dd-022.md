@@ -2,14 +2,16 @@
 id: b1-erg-dd-022
 type: dropbox
 words:
-  - Der
-  - Arzt
-  - meint
+  - Er
+  - behauptet
   - dass
-  - du
-  - mehr
-  - schlafen
-  - solltest
+  - er
+  - alles
+  - richtig
+  - gemacht
+  - hat
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass schlafen solltest)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

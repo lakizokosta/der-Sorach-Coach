@@ -1,9 +1,11 @@
 ---
 id: a1-wf-in-013
 type: input-text
+hint: Frage nach Zeit
 correct:
   - Wann
 ---
 
-___ kommst du? — Um 18 Uhr. (Frage nach Zeit)
+Ergänze das Fragewort:
 
+___ kommst du? — Um 18 Uhr.

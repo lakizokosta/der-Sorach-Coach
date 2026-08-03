@@ -9,6 +9,8 @@ words:
   - der
   - Termin
   - stattfindet
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wo Meeting stattfindet)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

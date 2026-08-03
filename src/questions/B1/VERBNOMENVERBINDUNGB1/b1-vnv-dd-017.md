@@ -4,10 +4,10 @@ type: dropbox
 words:
   - Er
   - führt
-  - durch
   - eine
   - sorgfältige
   - Untersuchung
+  - durch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verb-Nomen — Einfluss ausüben)
+Ordne die Wörter zum richtigen Satz: (Verb-Nomen-Verbindung)

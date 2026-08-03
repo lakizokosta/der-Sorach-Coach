@@ -1222,7 +1222,7 @@
 ### 101. `b1-kaus-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil krank bin)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · bleibe · zu · Hause · weil · ich · krank · bin
 
@@ -1232,7 +1232,7 @@
 ### 102. `b1-kaus-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil gelernt hat)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · er · fleißig · war · bestand · seine · Prüfung
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-kaus-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil arbeiten muss)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Er · kommt · nicht · mit · weil · er · noch · arbeiten · muss
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-kaus-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn wenig geschlafen)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · bin · müde · denn · ich · habe · wenig · geschlafen
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-kaus-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Nachfrage steigt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Da · die · Nachfrage · steigt · werden · Preise · höher
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-kaus-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Stelle gefunden)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Sie · kündigt · weil · sie · eine · bessere · Stelle · gefunden · hat
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-kaus-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil es stürmt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Das · Flugzeug · hat · Verspätung · weil · es · stürmt
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-kaus-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn viel zu tun)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Er · ist · gestresst · denn · zu · viel · Arbeit · wartet
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-kaus-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Wetter schlecht)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · das · Wetter · schlecht · ist · fällt · Fest · aus
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-kaus-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Auto kaputt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Wir · fahren · mit · dem · Zug · weil · das · Auto · kaputt · ist
 
@@ -1322,9 +1322,9 @@
 ### 111. `b1-kaus-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn geregnet hat)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
-**Wörter:** Die · Straßen · sind · nass · denn · es · geregnet · hat
+**Wörter:** Die · Straßen · sind · nass · denn · es · hat · geregnet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1332,7 +1332,7 @@
 ### 112. `b1-kaus-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Politik sich ändert)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Da · die · Politik · sich · ändert · reagieren · viele · Bürger
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-kaus-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Halsweh habe)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · trinke · Tee · weil · ich · Halsweh · habe
 
@@ -1352,9 +1352,9 @@
 ### 114. `b1-kaus-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn Bus genommen)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
-**Wörter:** Er · ist · pünktlich · denn · er · den · frühen · Bus · genommen · hat
+**Wörter:** Er · ist · pünktlich · denn · er · hat · den · frühen · Bus · genommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1362,7 +1362,7 @@
 ### 115. `b1-kaus-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Heizung defekt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · die · Heizung · defekt · ist · wird · es · im · Büro · kalt
 
@@ -1372,7 +1372,7 @@
 ### 116. `b1-kaus-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Termin wichtig)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · bleibe · zu · Hause · weil · ich · krank · bin
 
@@ -1382,7 +1382,7 @@
 ### 117. `b1-kaus-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — da Kosten steigen)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · er · fleißig · war · bestand · seine · Prüfung
 
@@ -1392,7 +1392,7 @@
 ### 118. `b1-kaus-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil krank bin)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · bleibe · zu · Hause · weil · ich · krank · bin
 
@@ -1402,7 +1402,7 @@
 ### 119. `b1-kaus-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil gelernt hat)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · er · fleißig · war · bestand · seine · Prüfung
 
@@ -1412,7 +1412,7 @@
 ### 120. `b1-kaus-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil arbeiten muss)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Er · kommt · nicht · mit · weil · er · noch · arbeiten · muss
 
@@ -1422,7 +1422,7 @@
 ### 121. `b1-kaus-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn wenig geschlafen)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · bin · müde · denn · ich · habe · wenig · geschlafen
 
@@ -1432,7 +1432,7 @@
 ### 122. `b1-kaus-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Nachfrage steigt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Da · die · Nachfrage · steigt · werden · Preise · höher
 
@@ -1442,7 +1442,7 @@
 ### 123. `b1-kaus-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Stelle gefunden)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Sie · kündigt · weil · sie · eine · bessere · Stelle · gefunden · hat
 
@@ -1452,7 +1452,7 @@
 ### 124. `b1-kaus-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil es stürmt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Das · Flugzeug · hat · Verspätung · weil · es · stürmt
 
@@ -1462,7 +1462,7 @@
 ### 125. `b1-kaus-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn viel zu tun)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Er · ist · gestresst · denn · zu · viel · Arbeit · wartet
 
@@ -1472,7 +1472,7 @@
 ### 126. `b1-kaus-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Wetter schlecht)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · das · Wetter · schlecht · ist · fällt · Fest · aus
 
@@ -1482,7 +1482,7 @@
 ### 127. `b1-kaus-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Auto kaputt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Wir · fahren · mit · dem · Zug · weil · das · Auto · kaputt · ist
 
@@ -1492,9 +1492,9 @@
 ### 128. `b1-kaus-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn geregnet hat)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
-**Wörter:** Die · Straßen · sind · nass · denn · es · geregnet · hat
+**Wörter:** Die · Straßen · sind · nass · denn · es · hat · geregnet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,7 +1502,7 @@
 ### 129. `b1-kaus-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Politik sich ändert)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Da · die · Politik · sich · ändert · reagieren · viele · Bürger
 
@@ -1512,7 +1512,7 @@
 ### 130. `b1-kaus-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Halsweh habe)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · trinke · Tee · weil · ich · Halsweh · habe
 
@@ -1522,9 +1522,9 @@
 ### 131. `b1-kaus-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn Bus genommen)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
-**Wörter:** Er · ist · pünktlich · denn · er · den · frühen · Bus · genommen · hat
+**Wörter:** Er · ist · pünktlich · denn · er · hat · den · frühen · Bus · genommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,7 +1532,7 @@
 ### 132. `b1-kaus-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Heizung defekt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · die · Heizung · defekt · ist · wird · es · im · Büro · kalt
 
@@ -1542,7 +1542,7 @@
 ### 133. `b1-kaus-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Termin wichtig)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · bleibe · zu · Hause · weil · ich · krank · bin
 
@@ -1552,7 +1552,7 @@
 ### 134. `b1-kaus-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — da Kosten steigen)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · er · fleißig · war · bestand · seine · Prüfung
 
@@ -1562,7 +1562,7 @@
 ### 135. `b1-kaus-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil krank bin)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · bleibe · zu · Hause · weil · ich · krank · bin
 
@@ -1572,7 +1572,7 @@
 ### 136. `b1-kaus-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil gelernt hat)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · er · fleißig · war · bestand · seine · Prüfung
 
@@ -1582,7 +1582,7 @@
 ### 137. `b1-kaus-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil arbeiten muss)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Er · kommt · nicht · mit · weil · er · noch · arbeiten · muss
 
@@ -1592,7 +1592,7 @@
 ### 138. `b1-kaus-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn wenig geschlafen)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · bin · müde · denn · ich · habe · wenig · geschlafen
 
@@ -1602,7 +1602,7 @@
 ### 139. `b1-kaus-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Nachfrage steigt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Da · die · Nachfrage · steigt · werden · Preise · höher
 
@@ -1612,7 +1612,7 @@
 ### 140. `b1-kaus-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Stelle gefunden)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Sie · kündigt · weil · sie · eine · bessere · Stelle · gefunden · hat
 
@@ -1622,7 +1622,7 @@
 ### 141. `b1-kaus-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil es stürmt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Das · Flugzeug · hat · Verspätung · weil · es · stürmt
 
@@ -1632,7 +1632,7 @@
 ### 142. `b1-kaus-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn viel zu tun)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Er · ist · gestresst · denn · zu · viel · Arbeit · wartet
 
@@ -1642,7 +1642,7 @@
 ### 143. `b1-kaus-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Wetter schlecht)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · das · Wetter · schlecht · ist · fällt · Fest · aus
 
@@ -1652,7 +1652,7 @@
 ### 144. `b1-kaus-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Auto kaputt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Wir · fahren · mit · dem · Zug · weil · das · Auto · kaputt · ist
 
@@ -1662,9 +1662,9 @@
 ### 145. `b1-kaus-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn geregnet hat)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
-**Wörter:** Die · Straßen · sind · nass · denn · es · geregnet · hat
+**Wörter:** Die · Straßen · sind · nass · denn · es · hat · geregnet
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,7 +1672,7 @@
 ### 146. `b1-kaus-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Politik sich ändert)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Da · die · Politik · sich · ändert · reagieren · viele · Bürger
 
@@ -1682,7 +1682,7 @@
 ### 147. `b1-kaus-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Halsweh habe)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · trinke · Tee · weil · ich · Halsweh · habe
 
@@ -1692,9 +1692,9 @@
 ### 148. `b1-kaus-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn Bus genommen)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
-**Wörter:** Er · ist · pünktlich · denn · er · den · frühen · Bus · genommen · hat
+**Wörter:** Er · ist · pünktlich · denn · er · hat · den · frühen · Bus · genommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,7 +1702,7 @@
 ### 149. `b1-kaus-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — Weil Heizung defekt)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Weil · die · Heizung · defekt · ist · wird · es · im · Büro · kalt
 
@@ -1712,7 +1712,7 @@
 ### 150. `b1-kaus-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Termin wichtig)
+> Ordne die Wörter zum richtigen Satz: (Kausalsatz)
 
 **Wörter:** Ich · bleibe · zu · Hause · weil · ich · krank · bin
 

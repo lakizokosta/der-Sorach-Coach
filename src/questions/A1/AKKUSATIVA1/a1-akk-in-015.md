@@ -1,8 +1,11 @@
 ---
 id: a1-akk-in-015
 type: input-text
+hint: Akkusativ — eine Jacke, Akk.
 correct:
   - eine
 ---
 
-Ich kaufe ___ Jacke. (Akkusativ — Akk.)
+Ergänze die Akkusativform:
+
+Ich kaufe ___ Jacke.

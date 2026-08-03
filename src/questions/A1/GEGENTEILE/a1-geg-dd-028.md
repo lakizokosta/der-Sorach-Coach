@@ -2,10 +2,10 @@
 id: a1-geg-dd-028
 type: dropbox
 words:
-  - Die
-  - Pause
+  - Das
+  - Brot
   - ist
-  - sanft
+  - weich
 ---
 
-[Sport] Ordne die Wörter zum richtigen Satz: (Gegenteil — hart / sanft)
+Ordne die Wörter zum richtigen Satz: (Gegenteil — hart / weich)

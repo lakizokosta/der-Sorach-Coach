@@ -2,12 +2,16 @@
 id: b1-indfr-dd-032
 type: dropbox
 words:
-  - Ich
-  - möchte
-  - wissen
-  - was
+  - Kannst
   - du
-  - denkst
+  - mir
+  - sagen
+  - wann
+  - der
+  - Zug
+  - ankommt
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was du denkst)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

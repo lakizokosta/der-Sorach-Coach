@@ -10,4 +10,4 @@ words:
   - statt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — mit Zug)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

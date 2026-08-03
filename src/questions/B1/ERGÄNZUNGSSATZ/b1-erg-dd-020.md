@@ -2,13 +2,16 @@
 id: b1-erg-dd-020
 type: dropbox
 words:
-  - Sie
-  - hofft
+  - Der
+  - Arzt
+  - meint
   - dass
-  - sie
-  - die
-  - Prüfung
-  - besteht
+  - du
+  - mehr
+  - schlafen
+  - solltest
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Prüfung besteht)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

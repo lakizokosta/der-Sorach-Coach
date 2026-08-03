@@ -2,14 +2,12 @@
 id: b1-akk-dd-041
 type: dropbox
 words:
-  - Ich
-  - interessiere
-  - mich
-  - für
-  - eine
-  - Stelle
-  - im
-  - Ausland
+  - Der
+  - Minister
+  - erklärt
+  - die
+  - neue
+  - Politik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Stelle)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

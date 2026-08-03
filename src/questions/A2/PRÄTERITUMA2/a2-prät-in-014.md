@@ -1,8 +1,11 @@
 ---
 id: a2-prät-in-014
 type: input-text
+hint: Präteritum + Verb ziehen
 correct:
   - zog
 ---
 
-Sie ___ nach Berlin. (Präteritum + Verb ziehen)
+Ergänze die Präteritumsform:
+
+Sie ___ nach Berlin.

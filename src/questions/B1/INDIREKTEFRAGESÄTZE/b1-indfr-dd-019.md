@@ -2,15 +2,16 @@
 id: b1-indfr-dd-019
 type: dropbox
 words:
-  - Kannst
-  - du
-  - mir
-  - sagen
-  - wann
-  - der
-  - Zug
-  - ankommt
-  - ?
+  - Ich
+  - frage
+  - mich
+  - was
+  - die
+  - neue
+  - Regelung
+  - bedeutet
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — wann Zug ankommt)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

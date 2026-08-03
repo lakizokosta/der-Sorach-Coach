@@ -1,8 +1,11 @@
 ---
 id: a2-komp-in-032
 type: input-text
+hint: Komparativ — lang
 correct:
   - länger
 ---
 
-Das Buch ist ___ als der Film. (Komparativ — lang)
+Ergänze die Komparativform:
+
+Das Buch ist ___ als der Film.

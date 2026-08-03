@@ -4,7 +4,7 @@
  *
  * Reads `level` and (optionally) `topic` + `mode` from the route query
  * and drives the user through a varied queue of questions. Tracks live
- * score, drives the timer (7 min cap in free mode, count-up otherwise)
+ * score, drives the timer (10 min cap in free mode, count-up otherwise)
  * and renders a final result screen with mastery + topic feedback.
  *
  * Route examples:
@@ -14,15 +14,16 @@
  *   /trainer?mode=placement          (Premium Niveau-Test A1–B2)
  */
 
-import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch } from 'vue';
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch, markRaw } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
 import LzdLogo from '@/components/LzdLogo.vue';
 import GrammarTip from '@/components/GrammarTip.vue';
 import DictionaryPopup from '@/components/DictionaryPopup.vue';
 import QuestionRenderer from '@/components/questions/QuestionRenderer.vue';
+import ConversionSheet from '@/components/ConversionSheet.vue';
 
-import { usePremium } from '@/composables/usePremium.js';
+import { usePremium, verifyEntitlementsLive, getPremiumRequestContext } from '@/composables/usePremium.js';
 import { useXp, getLevel, recordTopicWrong } from '@/composables/useXp.js';
 import { getWeakestTopics, getQuestionsForWeakTopics } from '@/utils/weakTopics.js';
 import { useStreak } from '@/composables/useStreak.js';
@@ -42,7 +43,16 @@ import {
 } from '@/composables/useFreeDailyLimit.js';
 import { useTimer, formatMmSs } from '@/composables/useTimer.js';
 
-import { getQuestionsByLevel, getQuestionsByTopic } from '@/data/questions.js';
+import { getQuestionsByLevel, getQuestionsByTopic, getTopicQuestionCount } from '@/data/questions.js';
+import { getQuestionsByVocabSet } from '@/data/questionsVocab.js';
+import { getVocabSetTheme, getVocabSetsForLevel } from '@/data/vocabularySets.js';
+import { hasBackend } from '@/utils/api.js';
+import { trainerRequiresPremium } from '@/utils/premiumAccess.js';
+import {
+  loadPremiumQuestions,
+  loadWeakTopicsFromServer,
+  shouldLoadQuestionsFromServer,
+} from '@/utils/premiumQuestions.js';
 import { PREMIUM_TOPICS } from '@/data/premiumTopics.js';
 import { AdaptiveQueue } from '@/utils/queue.js';
 import {
@@ -53,7 +63,10 @@ import {
   PLACEMENT_TOTAL,
 } from '@/utils/placementTest.js';
 import { setCefrLevel } from '@/composables/useCefrLevel.js';
+import { useNickname } from '@/composables/useNickname.js';
+import { sharePlacementCard } from '@/utils/shareCard.js';
 import { useI18n } from '@/i18n/index.js';
+import { PRICES_EUR } from '@/data/payment.js';
 
 const route = useRoute();
 const { t } = useI18n();
@@ -61,16 +74,39 @@ const router = useRouter();
 const { isPremium, isBasis } = usePremium();
 const { addXP, state: xpState, level: liveLevel, MASTERY_THRESHOLD } = useXp();
 const { state: streakState } = useStreak();
+const { displayName } = useNickname();
 
 /** Free countdown at session start — used to persist seconds used today. */
 let freeTimerBaseline = null;
 
 const level = ref(route.query.level || 'A1');
 const topic = ref(route.query.topic || '');
-const schwaechenMode = route.query.mode === 'schwaechen';
-const placementMode = route.query.mode === 'placement';
-const forcedPremium = route.query.mode === 'premium' || schwaechenMode || placementMode;
-const isPrem = computed(() => forcedPremium || isPremium.value);
+const schwaechenMode = computed(() => route.query.mode === 'schwaechen');
+const placementMode = computed(() => route.query.mode === 'placement');
+const vocabMode = computed(() => route.query.mode === 'vocab');
+const vocabSetKey = computed(() => String(route.query.set || '').toUpperCase());
+const vocabTheme = computed(() => {
+  if (!vocabMode.value || !vocabSetKey.value) return null;
+  return getVocabSetTheme(level.value, vocabSetKey.value);
+});
+const vocabSetLabel = computed(() => {
+  if (!vocabSetKey.value) return '';
+  const set = getVocabSetsForLevel(level.value).find((s) => s.key === vocabSetKey.value);
+  return set?.name || vocabSetKey.value;
+});
+const vocabShellClass = computed(() => ({
+  'app-shell--vocab-themed': vocabMode.value && !!vocabTheme.value,
+}));
+const vocabShellStyle = computed(() => {
+  const theme = vocabTheme.value;
+  if (!vocabMode.value || !theme) return undefined;
+  const style = {
+    '--vocab-tint': theme.tint,
+    '--vocab-accent': theme.accent,
+  };
+  if (theme.image) style['--vocab-bg-image'] = `url(${theme.image})`;
+  return style;
+});
 const schwaechenTopics = ref([]);
 
 // `shallowRef` so Vue's reactivity does NOT deeply proxy the queue's
@@ -91,6 +127,11 @@ const wrongTopics = ref({});              // key -> { name, level, count }
 const upsellHtml = ref('');
 const lastAnswerResolved = ref(false);    // is the head question fully resolved?
 const sessionStreak = ref(0);             // consecutive correct answers this session
+/** Funnel sheets — at most once per session each. */
+const funnelStreakShown = ref(false);
+const funnelQuestionsShown = ref(false);
+const conversionSheetOpen = ref(false);
+const conversionSheetVariant = ref('checkout');
 /** @type {import('vue').Ref<Record<string, { correct: number, total: number }>>} */
 const placementScores = ref({});
 const placementDetectedLevel = ref('');
@@ -102,8 +143,12 @@ const microFeedback = ref({ visible: false, lines: [], tone: 'good' });
 const xpBadgePulse = ref(false);
 let microFeedbackTimer = null;
 
+/** Re-check paid access every 5 minutes during a session. */
+const ENTITLEMENT_CHECK_MS = 5 * 60 * 1000;
+let entitlementTimer = null;
+
 const timer = useTimer(
-  isPrem.value || isBasis.value
+  isPremium.value || isBasis.value
     ? { mode: 'up', initialSeconds: 0 }
     : { mode: 'down', initialSeconds: FREE_SECONDS_PER_DAY, onExpire: () => finish('Zeit abgelaufen') },
 );
@@ -137,7 +182,33 @@ const questionNumber = computed(() => {
   return Math.min(queue.value.solvedCount + 1, queue.value.total);
 });
 
-const xpPerAnswer = computed(() => (isPrem.value ? 2 : 1));
+/** Friendly topic label for the active question (Premium topic grid names). */
+const currentTopicName = computed(() => {
+  const q = currentQuestion.value;
+  if (!q?.topic) return '';
+  const lvl = q.level || level.value;
+  const found = (PREMIUM_TOPICS[lvl] || []).find(
+    (t) => t.key.toUpperCase() === String(q.topic).toUpperCase(),
+  );
+  return found?.name || q.topic;
+});
+
+/** Pool size of the current question's topic (shown in level-wide sessions). */
+const currentTopicPoolSize = computed(() => {
+  const q = currentQuestion.value;
+  if (!q?.topic || topic.value) return 0;
+  return getTopicQuestionCount(q.level, q.topic);
+});
+
+const topicPoolHint = computed(() => {
+  if (!currentTopicPoolSize.value || !currentTopicName.value) return '';
+  return t('trainer.topicPool', {
+    topic: currentTopicName.value,
+    count: currentTopicPoolSize.value,
+  });
+});
+
+const xpPerAnswer = computed(() => (isPremium.value ? 2 : 1));
 
 /** Canonical topic key for mastery / XP attribution. */
 function activeTopicKey() {
@@ -236,39 +307,173 @@ function collectBonusLines(wasCorrect) {
 }
 
 /** Loads the queue, restores any free-session timer, kicks things off. */
-onMounted(() => {
-  if ((schwaechenMode || placementMode) && !isPremium.value) {
-    router.replace({ name: 'premium' });
-    return;
+async function ensureAccessBeforeLoad() {
+  const needsPremium = trainerRequiresPremium(route.query);
+  const needsPaid = needsPremium || isPremium.value || isBasis.value;
+
+  if (!needsPaid) return true;
+
+  if (!hasBackend()) {
+    if (needsPremium) return false;
+    return isPremium.value || isBasis.value;
   }
 
-  let all;
+  const verified = await verifyEntitlementsLive();
+  if (!verified.ok) return false;
+  if (needsPremium && !verified.isPremium) return false;
+  if ((isPremium.value || isBasis.value) && !verified.isPremium && !verified.isBasis) {
+    return false;
+  }
+  return true;
+}
 
-  if (placementMode) {
-    all = buildPlacementQuestions();
+/** Builds the question list for the current route mode. */
+async function loadSessionQuestions() {
+  const authCtx = getPremiumRequestContext();
+  const useServer = shouldLoadQuestionsFromServer(route.query);
+
+  if (placementMode.value) {
     placementScores.value = Object.fromEntries(
       PLACEMENT_LEVELS.map((lvl) => [lvl, { correct: 0, total: 0 }]),
     );
-  } else if (schwaechenMode) {
+    return buildPlacementQuestions(useServer ? authCtx : null);
+  }
+  if (schwaechenMode.value) {
     schwaechenTopics.value = getWeakestTopics(
       xpState.topicWrong,
       xpState.topicCorrect,
       3,
     );
-    all = getQuestionsForWeakTopics(schwaechenTopics.value);
-  } else if (topic.value) {
-    all = getQuestionsByTopic(level.value, topic.value);
-  } else {
-    all = getQuestionsByLevel(level.value);
+    if (useServer) {
+      return loadWeakTopicsFromServer(schwaechenTopics.value, authCtx);
+    }
+    return getQuestionsForWeakTopics(schwaechenTopics.value);
+  }
+  if (vocabMode.value) {
+    const setKey = String(route.query.set || '').trim();
+    if (!setKey) return [];
+    return getQuestionsByVocabSet(level.value, setKey);
+  }
+  if (topic.value) {
+    if (useServer) {
+      return loadPremiumQuestions({
+        level: level.value,
+        topic: topic.value,
+        ...authCtx,
+      });
+    }
+    return getQuestionsByTopic(level.value, topic.value);
+  }
+  if (useServer && route.query.mode === 'premium') {
+    return loadPremiumQuestions({
+      level: level.value,
+      ...authCtx,
+    });
+  }
+  return getQuestionsByLevel(level.value);
+}
+
+function stopEntitlementPolling() {
+  if (entitlementTimer) {
+    clearInterval(entitlementTimer);
+    entitlementTimer = null;
+  }
+}
+
+/** Ends the session when server revokes paid access mid-training. */
+async function runEntitlementCheck() {
+  const verified = await verifyEntitlementsLive();
+  if (verified.degraded) return;
+
+  const needsPremium = trainerRequiresPremium(route.query);
+  const needsPaid = needsPremium || isPremium.value || isBasis.value;
+
+  if (!verified.ok) {
+    finish('Session beendet');
+    stopEntitlementPolling();
+    router.replace({ name: 'landing' });
+    return;
+  }
+  if (needsPremium && !verified.isPremium) {
+    finish('Session beendet');
+    stopEntitlementPolling();
+    router.replace({ name: 'premium', query: { hub: '1' } });
+    return;
+  }
+  if (needsPaid && !verified.isPremium && !verified.isBasis) {
+    finish('Session beendet');
+    stopEntitlementPolling();
+    router.replace({ name: 'landing' });
+  }
+}
+
+function startEntitlementPolling() {
+  stopEntitlementPolling();
+  if (!hasBackend()) return;
+  if (!isPremium.value && !isBasis.value && !trainerRequiresPremium(route.query)) return;
+  entitlementTimer = setInterval(runEntitlementCheck, ENTITLEMENT_CHECK_MS);
+}
+
+/** Clears in-session state when route params change or a round restarts. */
+function resetTrainerSessionState() {
+  answered.value = 0;
+  correct.value = 0;
+  finished.value = false;
+  finishReason.value = '';
+  showRetry.value = false;
+  showGrammarTip.value = false;
+  upsellHtml.value = '';
+  wrongTopics.value = {};
+  lastAnswerResolved.value = false;
+  sessionStreak.value = 0;
+  microFeedback.value = { visible: false, lines: [], tone: 'good' };
+  freeTimerBaseline = null;
+  placementDetectedLevel.value = '';
+  placementScores.value = {};
+  level.value = String(route.query.level || 'A1');
+  topic.value = String(route.query.topic || '');
+  queue.value = null;
+  queueVersion.value += 1;
+}
+
+async function initTrainer() {
+  if ((schwaechenMode.value || placementMode.value || vocabMode.value) && !isPremium.value) {
+    router.replace({ name: 'premium', query: { hub: '1' } });
+    return;
   }
 
-  queue.value = new AdaptiveQueue(all, { shuffle: !placementMode });
+  const accessOk = await ensureAccessBeforeLoad();
+  if (!accessOk) {
+    if (
+      schwaechenMode.value
+      || placementMode.value
+      || vocabMode.value
+      || (topic.value && route.query.mode === 'premium')
+    ) {
+      router.replace({ name: 'premium', query: { hub: '1' } });
+    } else {
+      router.replace({ name: 'landing' });
+    }
+    return;
+  }
+
+  let all;
+  try {
+    all = await loadSessionQuestions();
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('[trainer] failed to load questions', err);
+    finished.value = true;
+    return;
+  }
+
+  queue.value = new AdaptiveQueue(all, { shuffle: !placementMode.value });
   if (!queue.value.hasNext()) {
     finished.value = true;
     return;
   }
 
-  if (!isPrem.value && !isBasis.value) {
+  if (!isPremium.value && !isBasis.value) {
     const remaining = getFreeSecondsRemaining();
     timer.reset(remaining, false);
     if (remaining <= 0) {
@@ -276,10 +481,28 @@ onMounted(() => {
     }
   }
 
+  startEntitlementPolling();
+}
+
+onMounted(() => {
+  initTrainer();
   window.addEventListener('keydown', onTrainerKeydown);
 });
 
+watch(
+  () => [route.query.mode, route.query.level, route.query.topic, route.query.set].join('|'),
+  async (nextKey, prevKey) => {
+    if (prevKey === undefined) return;
+    if (nextKey === prevKey) return;
+    resetTrainerSessionState();
+    stopEntitlementPolling();
+    await initTrainer();
+  },
+);
+
 onBeforeUnmount(() => {
+  delete document.documentElement.dataset.funnelSticky;
+  stopEntitlementPolling();
   window.removeEventListener('keydown', onTrainerKeydown);
   if (microFeedbackTimer) clearTimeout(microFeedbackTimer);
   saveProgressEarly();
@@ -289,7 +512,7 @@ onBeforeUnmount(() => {
  * Persists free-mode seconds used today (localStorage, per calendar day).
  */
 function persistFreeTimeUsed() {
-  if (isPrem.value || isBasis.value || freeTimerBaseline == null) return;
+  if (isPremium.value || isBasis.value || freeTimerBaseline == null) return;
   const used = Math.max(0, freeTimerBaseline - timer.value.value);
   addFreeSecondsUsed(used);
   freeTimerBaseline = timer.value.value;
@@ -306,7 +529,7 @@ function saveProgressEarly() {
 
 /** Starts the timer and snapshots the free countdown baseline. */
 function ensureTimerStarted() {
-  if (!isPrem.value && !isBasis.value && freeTimerBaseline == null) {
+  if (!isPremium.value && !isBasis.value && freeTimerBaseline == null) {
     freeTimerBaseline = timer.value.value;
   }
   timer.start();
@@ -341,27 +564,27 @@ function onAnswer(payload) {
 
   if (!showRetry.value) {
     answered.value += 1;
-    if (placementMode) {
+    if (placementMode.value) {
       trackPlacementAnswer(isCorrect);
     } else {
       recordQuestionAnswered();
     }
     if (isCorrect) {
       correct.value += 1;
-      if (!placementMode) {
+      if (!placementMode.value) {
         applyAnswerXp(true, collectBonusLines(true));
       }
-    } else if (!placementMode) {
+    } else if (!placementMode.value) {
       collectBonusLines(false);
       applyAnswerXp(false);
       recordWrongTopic();
-      showGrammarTip.value = isPrem.value;
-      if (!isPrem.value) refreshUpsell();
+      showGrammarTip.value = isPremium.value;
+      if (!isPremium.value) refreshUpsell();
     }
   }
 
   if (queue.value) {
-    if (isCorrect || placementMode) queue.value.consumeCorrect();
+    if (isCorrect || placementMode.value) queue.value.consumeCorrect();
     else queue.value.consumeWrong();
   }
   lastAnswerResolved.value = true;
@@ -377,7 +600,7 @@ function onFirstWrong() {
   ensureTimerStarted();
   if (!showRetry.value) {
     answered.value += 1;
-    if (placementMode) {
+    if (placementMode.value) {
       trackPlacementAnswer(false);
     } else {
       recordQuestionAnswered();
@@ -386,9 +609,9 @@ function onFirstWrong() {
       recordWrongTopic();
     }
     showRetry.value = true;
-    if (!placementMode) {
-      showGrammarTip.value = isPrem.value;
-      if (!isPrem.value) refreshUpsell();
+    if (!placementMode.value) {
+      showGrammarTip.value = isPremium.value;
+      if (!isPremium.value) refreshUpsell();
     }
   }
 }
@@ -457,7 +680,7 @@ function next() {
   lastAnswerResolved.value = false;
   queueVersion.value += 1;
   if (!queue.value || !queue.value.hasNext()) {
-    if (placementMode) finalizePlacementResult();
+    if (placementMode.value) finalizePlacementResult();
     finish('Fragen zu Ende');
   }
 }
@@ -470,6 +693,20 @@ function trainAtDetectedLevel() {
   const lvl = placementDetectedLevel.value;
   if (!lvl) return;
   router.push({ name: 'trainer', query: { level: lvl, mode: 'premium' } });
+}
+
+function sharePlacementResult() {
+  if (!placementDetectedLevel.value) return;
+  sharePlacementCard({
+    level: placementDetectedLevel.value,
+    breakdown: placementBreakdownRows.value,
+    scorePct: scorePct.value,
+    nickname: displayName.value,
+    shareTitle: t('trainer.placementShareTitle'),
+    shareText: t('trainer.placementShareText', {
+      level: placementDetectedLevel.value,
+    }),
+  });
 }
 
 /**
@@ -489,8 +726,15 @@ function finish(reason) {
  * Re-routes after the session ends (back to landing or premium menu).
  */
 function exitSession() {
-  if (placementMode || schwaechenMode) router.push({ name: 'landing' });
-  else if (isPrem.value) router.push({ name: 'premium' });
+  if (route.query.returnTo === 'hub') {
+    router.push({
+      name: 'premium',
+      query: { hub: '1', level: level.value },
+    });
+    return;
+  }
+  if (placementMode.value || schwaechenMode.value) router.push({ name: 'landing' });
+  else if (isPremium.value) router.push({ name: 'premium' });
   else router.push({ name: 'landing' });
 }
 
@@ -498,34 +742,30 @@ function exitSession() {
  * Restarts the same session without leaving the page.
  * Resets all state and rebuilds the queue with the same params.
  */
-function restartSession() {
-  answered.value = 0;
-  correct.value = 0;
-  finished.value = false;
-  finishReason.value = '';
-  showRetry.value = false;
-  showGrammarTip.value = false;
-  upsellHtml.value = '';
-  wrongTopics.value = {};
-  lastAnswerResolved.value = false;
-  sessionStreak.value = 0;
-  microFeedback.value = { visible: false, lines: [], tone: 'good' };
-  freeTimerBaseline = null;
+async function restartSession() {
+  resetTrainerSessionState();
 
-  let all;
-  if (schwaechenMode) {
-    schwaechenTopics.value = getWeakestTopics(xpState.topicWrong, xpState.topicCorrect, 3);
-    all = getQuestionsForWeakTopics(schwaechenTopics.value);
-  } else if (topic.value) {
-    all = getQuestionsByTopic(level.value, topic.value);
-  } else {
-    all = getQuestionsByLevel(level.value);
+  const accessOk = await ensureAccessBeforeLoad();
+  if (!accessOk) {
+    stopEntitlementPolling();
+    router.replace({ name: 'premium', query: { hub: '1' } });
+    return;
   }
 
-  queue.value = new AdaptiveQueue(all, { shuffle: true });
+  let all;
+  try {
+    all = await loadSessionQuestions();
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('[trainer] failed to reload questions', err);
+    finished.value = true;
+    return;
+  }
+
+  queue.value = new AdaptiveQueue(all, { shuffle: !placementMode.value });
   queueVersion.value += 1;
 
-  if (!isPrem.value && !isBasis.value) {
+  if (!isPremium.value && !isBasis.value) {
     const remaining = getFreeSecondsRemaining();
     timer.reset(remaining, false);
   } else {
@@ -547,7 +787,9 @@ function back() {
  * @param {string} key   Topic key.
  */
 function trainTopic(lvl, key) {
-  router.push({ name: 'trainer', query: { level: lvl, topic: key, mode: 'premium' } });
+  const query = { level: lvl, topic: key, mode: 'premium' };
+  if (route.query.returnTo === 'hub') query.returnTo = 'hub';
+  router.push({ name: 'trainer', query });
 }
 
 /**
@@ -558,16 +800,17 @@ function trainTopic(lvl, key) {
  */
 function onContainerClick(event) {
   const word = event.target.closest?.('.dict-word');
-  if (!word || !isPrem.value) return;
+  if (!word || !isPremium.value) return;
   event.stopPropagation();
   dictTarget.value = {
     word: word.dataset.word,
-    rect: word.getBoundingClientRect(),
+    anchor: markRaw(word),
+    token: Date.now(),
   };
 }
 
 /** Result screen helpers — readable summary numbers. */
-const finalXp = computed(() => correct.value * (isPrem.value ? 2 : 1));
+const finalXp = computed(() => correct.value * (isPremium.value ? 2 : 1));
 const wrongTopicList = computed(() =>
   Object.entries(wrongTopics.value)
     .map(([k, v]) => ({ key: k, ...v }))
@@ -575,14 +818,70 @@ const wrongTopicList = computed(() =>
 );
 
 const placementBreakdownRows = computed(() =>
-  placementMode && placementDetectedLevel.value
+  placementMode.value && placementDetectedLevel.value
     ? placementBreakdown(placementScores.value)
     : [],
 );
 
 const freeTimeExpired = computed(
-  () => finishReason.value === 'Zeit abgelaufen' && !isPrem.value && !isBasis.value,
+  () => finishReason.value === 'Zeit abgelaufen' && !isPremium.value && !isBasis.value,
 );
+
+/** Sticky upsell bar in free trainer mode (Concept A). */
+const showFunnelSticky = computed(
+  () =>
+    !isPremium.value &&
+    !isBasis.value &&
+    !finished.value &&
+    !!currentQuestion.value &&
+    !placementMode.value &&
+    !schwaechenMode.value,
+);
+
+watch(
+  showFunnelSticky,
+  (on) => {
+    if (on) document.documentElement.dataset.funnelSticky = '1';
+    else delete document.documentElement.dataset.funnelSticky;
+  },
+  { immediate: true },
+);
+
+function openFunnelCheckout(variant = 'checkout') {
+  conversionSheetVariant.value = variant;
+  conversionSheetOpen.value = true;
+}
+
+function openBasisPage() {
+  router.push({ name: 'premium', query: { focus: 'basis', hub: '1' } });
+}
+
+watch(sessionStreak, (val) => {
+  if (
+    val === 10 &&
+    !funnelStreakShown.value &&
+    !isPremium.value &&
+    !isBasis.value &&
+    !finished.value
+  ) {
+    funnelStreakShown.value = true;
+    openFunnelCheckout('streak10');
+  }
+});
+
+watch(answered, (val) => {
+  if (
+    val === 15 &&
+    !funnelQuestionsShown.value &&
+    !isPremium.value &&
+    !isBasis.value &&
+    !finished.value &&
+    !conversionSheetOpen.value
+  ) {
+    funnelQuestionsShown.value = true;
+    openFunnelCheckout('questions15');
+  }
+});
 
 /**
  * Whether the Weiter button should be enabled. A question is "done"
@@ -625,17 +924,19 @@ function moveButtonFocus(direction) {
 
 /**
  * Global keyboard shortcuts for the active session:
- *   Enter  → Weiter (after the question is resolved)
+ *   Enter  → Weiter (after the question is resolved; not from gap-fill input)
  *   Arrows → move focus between buttons (Prüfen, Antworten, Weiter, …)
  */
 function onTrainerKeydown(ev) {
   if (finished.value || !currentQuestion.value) return;
 
   const active = document.activeElement;
-  const inOpenFillInput = active?.matches?.('input.fill-input:not([disabled])');
+  const fromFillInput =
+    ev.target?.matches?.('input.fill-input') ||
+    active?.matches?.('input.fill-input');
 
   if (ev.key === 'Enter') {
-    if (inOpenFillInput) return;
+    if (fromFillInput) return;
     if (canAdvance.value) {
       ev.preventDefault();
       next();
@@ -662,13 +963,23 @@ watch(lastAnswerResolved, (resolved) => {
 
 <template>
   <!-- Loading / empty queue -->
-  <div v-if="!currentQuestion && !finished" class="app-shell">
+  <div
+    v-if="!currentQuestion && !finished"
+    class="app-shell"
+    :class="vocabShellClass"
+    :style="vocabShellStyle"
+  >
     <LzdLogo />
     <h2 style="margin-top: 20px;">{{ t('trainer.loading') }}</h2>
   </div>
 
   <!-- Empty result for missing topic -->
-  <div v-else-if="!currentQuestion && finished && answered === 0" class="app-shell">
+  <div
+    v-else-if="!currentQuestion && finished && answered === 0"
+    class="app-shell"
+    :class="vocabShellClass"
+    :style="vocabShellStyle"
+  >
     <LzdLogo />
     <h2>{{ t('trainer.noQuestions') }}</h2>
     <p v-if="schwaechenMode">{{ t('schwaechen.bodyNoErrors') }}</p>
@@ -677,7 +988,12 @@ watch(lastAnswerResolved, (resolved) => {
   </div>
 
   <!-- Final result screen -->
-  <div v-else-if="finished" class="app-shell">
+  <div
+    v-else-if="finished"
+    class="app-shell"
+    :class="vocabShellClass"
+    :style="vocabShellStyle"
+  >
     <LzdLogo />
     <div style="max-width: 520px; margin: 0 auto; padding: 10px 18px 30px;">
       <div
@@ -719,20 +1035,33 @@ watch(lastAnswerResolved, (resolved) => {
         <div
           v-if="freeTimeExpired"
           class="trainer-free-limit-msg"
-          style="
-            margin: 12px 0 20px;
-            padding: 14px 16px;
-            background: #fff8e1;
-            border: 1.5px solid #ffcc80;
-            border-radius: 14px;
-            font-size: 15px;
-            font-weight: 700;
-            line-height: 1.45;
-            color: #e65100;
-            text-align: center;
-          "
         >
           {{ t('trainer.freeTimeExpiredMessage') }}
+        </div>
+
+        <div v-if="freeTimeExpired" class="funnel-timer-end">
+          <p class="funnel-timer-end__lead">{{ t('funnel.timerEndLead') }}</p>
+          <button
+            type="button"
+            class="funnel-timer-end__cta funnel-timer-end__cta--premium"
+            @click="openFunnelCheckout('checkout')"
+          >
+            {{ t('funnel.ctaPremium3') }}
+          </button>
+          <button
+            type="button"
+            class="funnel-timer-end__cta funnel-timer-end__cta--basis"
+            @click="openBasisPage"
+          >
+            {{ t('funnel.basisBtn', { price: PRICES_EUR.basis }) }}
+          </button>
+          <button
+            type="button"
+            class="funnel-timer-end__ghost"
+            @click="exitSession"
+          >
+            {{ t('funnel.timerEndTomorrow') }}
+          </button>
         </div>
         <div
           v-else
@@ -838,6 +1167,15 @@ watch(lastAnswerResolved, (resolved) => {
 
         <button
           v-if="placementDetectedLevel"
+          type="button"
+          class="trainer-placement-share"
+          @click="sharePlacementResult"
+        >
+          {{ t('trainer.placementShare') }}
+        </button>
+
+        <button
+          v-if="placementDetectedLevel"
           class="soft-btn"
           type="button"
           style="
@@ -872,6 +1210,7 @@ watch(lastAnswerResolved, (resolved) => {
         </button>
 
         <button
+          v-if="!freeTimeExpired"
           class="soft-btn"
           type="button"
           :style="{
@@ -887,7 +1226,7 @@ watch(lastAnswerResolved, (resolved) => {
         </button>
 
         <button
-          v-if="isPrem && !placementDetectedLevel"
+          v-if="isPremium && !placementDetectedLevel"
           class="soft-btn"
           type="button"
           style="
@@ -949,7 +1288,7 @@ watch(lastAnswerResolved, (resolved) => {
             </div>
           </div>
           <button
-            v-if="isPrem"
+            v-if="isPremium"
             type="button"
             class="soft-btn"
             style="background: #AB4DBB; color: #fff; padding: 5px 12px; margin: 0;"
@@ -963,7 +1302,14 @@ watch(lastAnswerResolved, (resolved) => {
   </div>
 
   <!-- Active question screen -->
-  <div v-else ref="trainerRootRef" class="app-shell" @click="onContainerClick">
+  <div
+    v-else
+    ref="trainerRootRef"
+    class="app-shell"
+    :class="[{ 'app-shell--funnel': showFunnelSticky }, vocabShellClass]"
+    :style="vocabShellStyle"
+    @click="onContainerClick"
+  >
     <LzdLogo small />
 
     <div class="small-note">
@@ -978,9 +1324,13 @@ watch(lastAnswerResolved, (resolved) => {
           — {{ schwaechenTopics.map((t) => t.name).join(' · ') }}
         </span>
       </template>
+      <template v-else-if="vocabMode">
+        📚 {{ t('trainer.vocabLabel', { level }) }}
+        <span v-if="vocabSetLabel"> / {{ vocabSetLabel }}</span>
+      </template>
       <template v-else>
         {{
-          isPrem
+          isPremium
             ? t('trainer.premium', { level })
             : t('trainer.free', { level })
         }}
@@ -1017,7 +1367,7 @@ watch(lastAnswerResolved, (resolved) => {
         >
           ⭐ {{ xpState.totalXP }} XP · Lv{{ liveLevel.num }}
         </span>
-        <span v-if="isPrem" class="training-badge training-badge--prem">
+        <span v-if="isPremium" class="training-badge training-badge--prem">
           💎 ×2 XP
         </span>
       </div>
@@ -1041,20 +1391,23 @@ watch(lastAnswerResolved, (resolved) => {
       </Transition>
     </div>
 
-    <h2 style="margin: 6px 0 12px 0;">
+    <h2 style="margin: 6px 0 4px 0;">
       {{ t('trainer.question', { current: questionNumber, total: totalQuestions }) }}
     </h2>
+    <p v-if="topicPoolHint" class="small-note" style="margin: 0 0 12px 0;">
+      {{ topicPoolHint }}
+    </p>
 
     <QuestionRenderer
       :key="currentQuestion.id"
       :question="currentQuestion"
-      :premium="isPrem"
+      :premium="isPremium"
       @answer="onAnswer"
       @first-wrong="onFirstWrong"
       @complete="onComplete"
     />
 
-    <div v-if="showRetry" class="retry-hint">
+    <div v-if="showRetry && !canAdvance" class="retry-hint">
       {{ t('trainer.wrongRetry') }}
     </div>
 
@@ -1062,7 +1415,7 @@ watch(lastAnswerResolved, (resolved) => {
       <GrammarTip :topic-key="currentQuestion.topic || topic || ''" />
     </div>
 
-    <div v-if="!isPrem && upsellHtml" class="upsell-hint" v-html="upsellHtml" />
+    <div v-if="!isPremium && upsellHtml" class="upsell-hint" v-html="upsellHtml" />
 
     <button
       ref="nextBtnRef"
@@ -1082,9 +1435,30 @@ watch(lastAnswerResolved, (resolved) => {
     </div>
 
     <DictionaryPopup
-      v-if="isPrem"
+      v-if="isPremium"
       :target="dictTarget"
       @close="dictTarget = null"
     />
+
+    <div v-if="showFunnelSticky" class="funnel-sticky" role="complementary">
+      <div class="funnel-sticky__meta">
+        <span class="funnel-sticky__level">{{ level }}</span>
+        <span class="funnel-sticky__dot">·</span>
+        <span class="funnel-sticky__timer">⏱ {{ timerLabel }}</span>
+      </div>
+      <button
+        type="button"
+        class="funnel-sticky__cta"
+        @click="openFunnelCheckout('checkout')"
+      >
+        {{ t('funnel.stickyCta') }}
+      </button>
+    </div>
   </div>
+
+  <ConversionSheet
+    v-model="conversionSheetOpen"
+    :variant="conversionSheetVariant"
+    plan="3months"
+  />
 </template>

@@ -11,4 +11,4 @@ words:
   - Urlaub
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — erinnert an)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

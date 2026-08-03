@@ -6,11 +6,11 @@ words:
   - hat
   - wenig
   - Erfahrung
-  - Trotzdem
+  - trotzdem
   - bekommt
   - sie
   - die
   - Stelle
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Trotzdem Stelle)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

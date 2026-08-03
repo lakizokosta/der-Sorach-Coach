@@ -2,14 +2,15 @@
 id: b1-erg-dd-041
 type: dropbox
 words:
-  - Er
-  - behauptet
+  - Ich
+  - finde
+  - es
+  - gut
   - dass
-  - er
-  - alles
-  - richtig
-  - gemacht
-  - hat
+  - du
+  - mitkommst
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass richtig gemacht hat)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

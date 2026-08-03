@@ -9,4 +9,4 @@ options:
 correct: erforderlich
 ---
 
-Die Teilnahme ist kostenlos, eine Anmeldung ist jedoch ___. (Grammatikform)
+Die Teilnahme ist kostenlos, eine Anmeldung ist jedoch ___.

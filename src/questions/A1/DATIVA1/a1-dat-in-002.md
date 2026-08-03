@@ -1,8 +1,11 @@
 ---
 id: a1-dat-in-002
 type: input-text
+hint: Dativ — die Frau, Dat.
 correct:
   - der
 ---
 
-Ich gebe ___ Frau die Blume. (Dativ — Dat.)
+Ergänze die Dativform:
+
+Ich gebe ___ Frau die Blume.

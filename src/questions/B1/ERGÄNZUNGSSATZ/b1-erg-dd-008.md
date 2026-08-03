@@ -9,6 +9,8 @@ words:
   - das
   - Projekt
   - gelingt
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Projekt gelingt)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

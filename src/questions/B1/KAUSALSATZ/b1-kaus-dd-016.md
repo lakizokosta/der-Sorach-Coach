@@ -10,6 +10,8 @@ words:
   - ich
   - krank
   - bin
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Termin wichtig)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

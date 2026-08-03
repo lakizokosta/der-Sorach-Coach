@@ -1,8 +1,11 @@
 ---
 id: b1-neg-in-007
 type: input-text
+hint: Verneinung — kein / nicht / nichts / nie
 correct:
   - kein
 ---
 
-Ich sehe ___ Problem. (Verneinung)
+Ergänze die Verneinung:
+
+Ich sehe ___ Problem.

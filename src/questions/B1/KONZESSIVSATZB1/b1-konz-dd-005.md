@@ -10,6 +10,8 @@ words:
   - hat
   - sie
   - bestanden
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — Obwohl kein Auto)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

@@ -2,14 +2,16 @@
 id: b1-erg-dd-024
 type: dropbox
 words:
-  - Er
-  - behauptet
+  - Die
+  - Professorin
+  - erklärt
   - dass
-  - er
-  - alles
-  - richtig
-  - gemacht
-  - hat
+  - der
+  - Kurs
+  - anspruchsvoll
+  - ist
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass richtig gemacht hat)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

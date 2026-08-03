@@ -3,10 +3,10 @@ id: b1-praeg-dd-042
 type: dropbox
 words:
   - Wir
-  - hoffen
-  - auf
-  - gutes
-  - Wetter
+  - diskutieren
+  - über
+  - das
+  - Projekt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — hofft auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

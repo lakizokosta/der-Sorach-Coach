@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-044
 type: input-text
+hint: Plural: Land
 correct:
   - Länder
 ---
 
-Wir besuchen gern neue ___. (Plural)
+Ergänze die Pluralform:
+
+Wir besuchen gern neue ___.

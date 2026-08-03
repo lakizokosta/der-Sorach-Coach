@@ -11,6 +11,8 @@ words:
   - Stelle
   - gefunden
   - hat
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil Stelle gefunden)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

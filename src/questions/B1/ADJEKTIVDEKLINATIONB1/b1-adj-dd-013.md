@@ -13,4 +13,4 @@ words:
   - Familie
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — ruhigen Gegend)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

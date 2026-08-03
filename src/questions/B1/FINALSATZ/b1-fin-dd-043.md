@@ -9,6 +9,8 @@ words:
   - gesund
   - zu
   - bleiben
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Finalsatz — um gesund bleiben)

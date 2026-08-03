@@ -2,14 +2,14 @@
 id: b1-indfr-dd-030
 type: dropbox
 words:
-  - Wir
+  - Ich
+  - möchte
   - wissen
-  - nicht
-  - ob
-  - das
-  - Problem
-  - gelöst
-  - wird
+  - was
+  - du
+  - denkst
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob Problem gelöst wird)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

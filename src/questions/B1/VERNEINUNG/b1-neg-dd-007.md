@@ -8,4 +8,4 @@ words:
   - Problem
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kein Problem)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

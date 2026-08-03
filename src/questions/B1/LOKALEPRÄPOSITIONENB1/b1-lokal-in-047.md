@@ -1,8 +1,11 @@
 ---
 id: b1-lokal-in-047
 type: input-text
+hint: Lokale Präposition — an / auf / in / nach
 correct:
   - an
 ---
 
-Die Apotheke ist ___ der Ecke. (Lokale Präposition)
+Ergänze die Lokalpräposition:
+
+Die Apotheke ist ___ der Ecke.

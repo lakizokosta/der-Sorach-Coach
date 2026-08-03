@@ -1,8 +1,11 @@
 ---
 id: b1-pass-in-042
 type: input-text
+hint: Passiv + Verb nutzen
 correct:
   - wurde
 ---
 
-Das Haus ___ früher als Schule genutzt. (Passiv + Verb genutzen)
+Ergänze die Passivform:
+
+Das Haus ___ früher als Schule genutzt.

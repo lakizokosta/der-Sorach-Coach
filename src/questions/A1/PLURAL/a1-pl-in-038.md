@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-038
 type: input-text
+hint: Plural: Jahr
 correct:
   - Jahre
 ---
 
-Meine Geschwister sind acht ___ alt. (Plural)
+Ergänze die Pluralform:
+
+Meine Geschwister sind acht ___ alt.

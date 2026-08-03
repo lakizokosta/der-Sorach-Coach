@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-007
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Das Wetter ist ___ schön. (Negation)
+Ergänze die Verneinung:
+
+Das Wetter ist ___ schön.

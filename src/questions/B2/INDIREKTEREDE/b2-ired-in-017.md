@@ -1,8 +1,11 @@
 ---
 id: b2-ired-in-017
 type: input-text
+hint: Indirekte Rede + Verb haben
 correct:
   - habe
 ---
 
-Er meinte, er ___ die Nachricht erhalten. (Indirekte Rede)
+Ergänze die Form (Indirekte Rede):
+
+Er meinte, er ___ die Nachricht erhalten.

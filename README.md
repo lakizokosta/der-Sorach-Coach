@@ -159,7 +159,7 @@ Everything the original `blogspot.html` did, but in a single small SPA:
 ### Free tier
 
 - Choose a CEFR level: **A1, A2, B1 or B2**.
-- 5-minute training sprints with a live count-down.
+- 10-minute daily training budget with a live count-down.
 - Five mixed question types (see below) with a "second chance" on the
   first wrong multiple-choice answer.
 - Daily streak with up to **3 freezes** and a medal ladder
@@ -171,7 +171,7 @@ Everything the original `blogspot.html` did, but in a single small SPA:
 
 - Topic-focused training across the **A1–B2 curriculum**
   (Artikel, Konjugation, Akkusativ/Dativ/Genitiv, Konjunktiv II, Passiv, …).
-- **No time limit** — count-up timer instead of the free 5-minute sprint.
+- **No time limit** — count-up timer instead of the free 10-minute daily budget.
 - **Grammar tips** in German, Russian and English, on demand per question.
 - **Click-to-translate** dictionary popup for any non-stop-word in the text.
 - **Profile dashboard** with XP, level, streak history and topic mastery.

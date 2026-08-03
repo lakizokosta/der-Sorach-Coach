@@ -2,13 +2,14 @@
 id: b1-kond-dd-044
 type: dropbox
 words:
-  - Sobald
-  - Hotel
-  - eingecheckt
-  - ist
-  - gehen
+  - Wenn
+  - du
+  - pünktlich
+  - bist
+  - beginnen
   - wir
-  - essen
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Sobald alle eingecheckt haben)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

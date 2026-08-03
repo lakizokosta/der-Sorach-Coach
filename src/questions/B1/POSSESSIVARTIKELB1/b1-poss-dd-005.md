@@ -12,4 +12,4 @@ words:
   - Stelle
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seiner Erfahrung)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

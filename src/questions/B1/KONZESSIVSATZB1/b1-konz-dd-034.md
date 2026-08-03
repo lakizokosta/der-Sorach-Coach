@@ -2,13 +2,14 @@
 id: b1-konz-dd-034
 type: dropbox
 words:
-  - Sie
-  - geht
-  - joggen
-  - obwohl
-  - es
-  - kalt
+  - Er
   - ist
+  - müde
+  - trotzdem
+  - hat
+  - er
+  - Überstunden
+  - gemacht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl müde ist)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

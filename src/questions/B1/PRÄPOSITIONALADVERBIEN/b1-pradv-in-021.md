@@ -1,8 +1,11 @@
 ---
 id: b1-pradv-in-021
 type: input-text
+hint: Pronominaladverb — Präp. an
 correct:
   - daran
 ---
 
-Erinnerst du dich an die Vorlesung? — Ich erinnere mich ___. (Pronominaladverb)
+Ergänze das Pronominaladverb:
+
+Erinnerst du dich an die Vorlesung? — Ich erinnere mich ___.

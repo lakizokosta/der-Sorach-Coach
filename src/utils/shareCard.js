@@ -15,6 +15,20 @@ const STORY_W = 1080;
 const STORY_H = 1920;
 
 const DAY_LABELS = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+const FONT = 'Arial, Helvetica, sans-serif';
+const ACCENT = '#ffd700';
+const TEXT = '#ffffff';
+const TEXT_SOFT = 'rgba(255,255,255,0.92)';
+const TEXT_MUTED = 'rgba(255,255,255,0.78)';
+
+/** Snap text coords to whole pixels for sharper canvas labels. */
+function px(n) {
+  return Math.round(n);
+}
+
+function setFont(ctx, weight, size) {
+  ctx.font = `${weight} ${px(size)}px ${FONT}`;
+}
 
 /** @type {Array<{id:string, emoji:string, label:string, check:Function}>} */
 const BADGE_DEFS = [
@@ -57,13 +71,14 @@ function roundRect(ctx, x, y, w, h, r) {
  * @return {string}
  */
 export function getShareTagline(p) {
-  const { streak, masteredCount, level } = p;
+  const { streak, masteredCount, level, cefrLevel } = p;
   if (streak.currentStreak >= 14) return 'Zwei Wochen Streak! 🔥';
   if (streak.currentStreak >= 7) return 'Eine Woche jeden Tag! 🔥';
   if (masteredCount >= 10) return 'Grammatik-Profi! 📚';
   if (masteredCount >= 1) return 'Erstes Thema gemeistert! ✅';
   if (level.num >= 4) return 'Auf dem Weg zum Profi! 💪';
   if (level.num >= 2) return 'Ich bleibe dran! 🇩🇪';
+  if (cefrLevel) return `Einstufungtest: Niveau ${cefrLevel}! 📊`;
   return 'Deutsch lernen — jeden Tag! ✨';
 }
 
@@ -72,10 +87,17 @@ export function getShareTagline(p) {
  * @return {Array<{emoji:string, label:string}>}
  */
 export function getEarnedBadges(data) {
-  return BADGE_DEFS.filter((b) => b.check(data)).map((b) => ({
+  const badges = BADGE_DEFS.filter((b) => b.check(data)).map((b) => ({
     emoji: b.emoji,
     label: b.label,
   }));
+  if (data.cefrLevel) {
+    badges.unshift({
+      emoji: '📊',
+      label: `Einstufung ${data.cefrLevel}`,
+    });
+  }
+  return badges;
 }
 
 /**
@@ -178,7 +200,7 @@ function drawRing(ctx, cx, cy, radius, lineW, pct, color) {
  * @param {string} accent
  * @param {number} [valueSize]
  */
-function drawStatTile(ctx, x, y, w, h, value, label, accent, valueSize = 52) {
+function drawStatTile(ctx, x, y, w, h, value, label, accent, valueSize = 52, labelSize = 24) {
   ctx.fillStyle = 'rgba(255,255,255,0.12)';
   roundRect(ctx, x, y, w, h, 28);
   ctx.fill();
@@ -188,14 +210,14 @@ function drawStatTile(ctx, x, y, w, h, value, label, accent, valueSize = 52) {
   ctx.stroke();
 
   ctx.fillStyle = accent;
-  ctx.font = `bold ${valueSize}px Arial, Helvetica, sans-serif`;
+  setFont(ctx, 'bold', valueSize);
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText(value, x + w / 2, y + h / 2 - 14);
+  ctx.fillText(value, px(x + w / 2), px(y + h / 2 - 14));
 
-  ctx.fillStyle = 'rgba(255,255,255,0.85)';
-  ctx.font = 'bold 22px Arial, Helvetica, sans-serif';
-  ctx.fillText(label, x + w / 2, y + h / 2 + 32);
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', labelSize);
+  ctx.fillText(label, px(x + w / 2), px(y + h / 2 + 32));
 }
 
 /**
@@ -204,33 +226,38 @@ function drawStatTile(ctx, x, y, w, h, value, label, accent, valueSize = 52) {
  * @param {number} y
  * @param {string} nickname
  * @param {number} scale
+ * @return {number} bottom Y of the nickname row
  */
 function drawNickname(ctx, cx, y, nickname, scale) {
   const name = (nickname || 'Lernender').trim().slice(0, 24);
   const initial = (name[0] || 'L').toUpperCase();
   const avatarR = 28 * scale;
+  const avatarX = cx - 120 * scale;
 
   ctx.fillStyle = 'rgba(255,255,255,0.2)';
   ctx.beginPath();
-  ctx.arc(cx - 120 * scale, y, avatarR, 0, Math.PI * 2);
+  ctx.arc(avatarX, y, avatarR, 0, Math.PI * 2);
   ctx.fill();
   ctx.strokeStyle = 'rgba(255,255,255,0.45)';
   ctx.lineWidth = 2;
   ctx.stroke();
 
-  ctx.fillStyle = '#fff';
-  ctx.font = `bold ${Math.round(28 * scale)}px Arial, Helvetica, sans-serif`;
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', Math.round(28 * scale));
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText(initial, cx - 120 * scale, y);
+  ctx.fillText(initial, px(avatarX), px(y));
 
+  const textX = cx - 78 * scale;
   ctx.textAlign = 'left';
-  ctx.font = `bold ${Math.round(34 * scale)}px Arial, Helvetica, sans-serif`;
-  ctx.fillText(name, cx - 78 * scale, y);
+  setFont(ctx, 'bold', Math.round(36 * scale));
+  ctx.fillText(name, px(textX), px(y - 6 * scale));
 
-  ctx.fillStyle = 'rgba(255,255,255,0.65)';
-  ctx.font = `${Math.round(20 * scale)}px Arial, Helvetica, sans-serif`;
-  ctx.fillText('Deutsch-Lerner', cx - 78 * scale, y + 28 * scale);
+  ctx.fillStyle = TEXT_MUTED;
+  setFont(ctx, 'normal', Math.round(22 * scale));
+  ctx.fillText('Mein Deutsch-Fortschritt', px(textX), px(y + 22 * scale));
+
+  return y + avatarR + 10 * scale;
 }
 
 /**
@@ -255,28 +282,30 @@ function drawStreakWeek(ctx, cx, y, days, scale) {
     ctx.fill();
 
     if (day.isToday) {
-      ctx.strokeStyle = '#ffd700';
+      ctx.strokeStyle = ACCENT;
       ctx.lineWidth = 3;
       roundRect(ctx, x, y, cell, cell, 14 * scale);
       ctx.stroke();
     }
 
     if (day.active) {
-      ctx.font = `${Math.round(28 * scale)}px Arial, Helvetica, sans-serif`;
-      ctx.fillText('🔥', x + cell / 2, y + cell / 2 - 4 * scale);
+      setFont(ctx, 'normal', Math.round(28 * scale));
+      ctx.fillText('🔥', px(x + cell / 2), px(y + cell / 2 - 4 * scale));
     } else {
-      ctx.fillStyle = 'rgba(255,255,255,0.25)';
+      ctx.fillStyle = 'rgba(255,255,255,0.3)';
       ctx.beginPath();
-      ctx.arc(x + cell / 2, y + cell / 2, 8 * scale, 0, Math.PI * 2);
+      ctx.arc(px(x + cell / 2), px(y + cell / 2), 8 * scale, 0, Math.PI * 2);
       ctx.fill();
     }
 
-    ctx.fillStyle = 'rgba(255,255,255,0.75)';
-    ctx.font = `bold ${Math.round(16 * scale)}px Arial, Helvetica, sans-serif`;
-    ctx.fillText(day.label, x + cell / 2, y + cell + 18 * scale);
+    ctx.fillStyle = TEXT_SOFT;
+    setFont(ctx, 'bold', Math.round(18 * scale));
+    ctx.fillText(day.label, px(x + cell / 2), px(y + cell + 18 * scale));
 
     x += cell + gap;
   }
+
+  return y + cell + Math.round(30 * scale);
 }
 
 /**
@@ -288,13 +317,191 @@ function drawStreakWeek(ctx, cx, y, days, scale) {
  * @param {number} scale
  * @return {number} bottom Y
  */
+/**
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} cx
+ * @param {number} y
+ * @param {string} level
+ * @param {!Array<{level:string,correct:number,total:number,pct:number}>} breakdown
+ * @param {boolean} isStory
+ * @return {number}
+ */
+function drawPlacementBreakdown(ctx, cx, y, level, breakdown, isStory) {
+  let rowY = y;
+  const fontSize = isStory ? 24 : 20;
+  const lineH = isStory ? 36 : 30;
+  for (const row of breakdown) {
+    const highlight = row.level === level;
+    ctx.fillStyle = highlight ? ACCENT : TEXT_MUTED;
+    setFont(ctx, highlight ? 'bold' : 'normal', fontSize);
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'top';
+    ctx.fillText(
+      `${row.level}: ${row.correct}/${row.total} (${row.pct}%)`,
+      px(cx),
+      px(rowY),
+    );
+    rowY += lineH;
+  }
+  return rowY;
+}
+
+/**
+ * @param {boolean} isStory
+ * @param {boolean} hasStreak
+ * @return {{footerH:number, closingH:number, summaryH:number}}
+ */
+function measureBottomZones(isStory, hasStreak) {
+  const footerPad = isStory ? 12 : 10;
+  const footerUrlSize = isStory ? 28 : 22;
+  const footerHashSize = isStory ? 22 : 18;
+  const footerUrlGap = isStory ? 10 : 8;
+  const footerH = footerPad + footerUrlSize + footerUrlGap + footerHashSize + footerPad;
+
+  const closingPad = isStory ? 12 : 10;
+  const taglineSize = isStory ? 40 : 26;
+  const streakSize = hasStreak ? (isStory ? 22 : 17) : 0;
+  const taglineGap = hasStreak ? (isStory ? 10 : 8) : 0;
+  const closingH = closingPad + taglineSize + taglineGap + streakSize + closingPad;
+
+  const summaryPad = isStory ? 10 : 8;
+  const barH = isStory ? 32 : 18;
+  const themenSize = isStory ? 26 : 20;
+  const summaryGap = isStory ? 12 : 10;
+  const summaryH = summaryPad + barH + summaryGap + themenSize + summaryPad;
+
+  return { footerH, closingH, summaryH };
+}
+
+/**
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} cx
+ * @param {number} top
+ * @param {number} w
+ * @param {number} h
+ * @param {number} themePct
+ * @param {number} masteredCount
+ * @param {number} topicCount
+ * @param {boolean} isStory
+ */
+function drawSummaryZone(ctx, cx, top, w, h, themePct, masteredCount, topicCount, isStory) {
+  const padX = isStory ? 48 : 40;
+  const blockX = cx - w / 2;
+  const barH = isStory ? 32 : 18;
+  const themenSize = isStory ? 26 : 20;
+  const innerPad = isStory ? 10 : 8;
+  const barW = w - padX * 2;
+
+  ctx.fillStyle = 'rgba(255,255,255,0.08)';
+  roundRect(ctx, blockX, top, w, h, isStory ? 20 : 16);
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(255,255,255,0.14)';
+  ctx.lineWidth = 2;
+  roundRect(ctx, blockX, top, w, h, isStory ? 20 : 16);
+  ctx.stroke();
+
+  let y = top + innerPad;
+  ctx.fillStyle = 'rgba(255,255,255,0.15)';
+  roundRect(ctx, blockX + padX, y, barW, barH, barH / 2);
+  ctx.fill();
+  if (themePct > 0) {
+    const mg = ctx.createLinearGradient(blockX + padX, 0, blockX + padX + barW, 0);
+    mg.addColorStop(0, '#e6b800');
+    mg.addColorStop(1, '#fff176');
+    ctx.fillStyle = mg;
+    roundRect(
+      ctx,
+      blockX + padX,
+      y,
+      Math.max(barW * themePct, 24),
+      barH,
+      barH / 2,
+    );
+    ctx.fill();
+  }
+  y += barH + (isStory ? 12 : 10);
+
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', themenSize);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'top';
+  ctx.fillText(
+    `${masteredCount} von ${topicCount} Themen gemeistert`,
+    px(cx),
+    px(y),
+  );
+}
+
+/**
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} cx
+ * @param {number} top
+ * @param {number} w
+ * @param {number} h
+ * @param {string} tagline
+ * @param {number} longestStreak
+ * @param {boolean} isStory
+ */
+function drawClosingZone(ctx, cx, top, w, h, tagline, longestStreak, isStory) {
+  const blockX = cx - w / 2;
+  ctx.fillStyle = 'rgba(255,255,255,0.08)';
+  roundRect(ctx, blockX, top, w, h, isStory ? 20 : 16);
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(255,255,255,0.14)';
+  ctx.lineWidth = 2;
+  roundRect(ctx, blockX, top, w, h, isStory ? 20 : 16);
+  ctx.stroke();
+
+  const taglineSize = isStory ? 40 : 26;
+  const streakSize = isStory ? 22 : 17;
+  const innerPad = isStory ? 12 : 10;
+  const taglineGap = isStory ? 10 : 8;
+  let y = top + innerPad;
+
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'top';
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', taglineSize);
+  ctx.fillText(tagline, px(cx), px(y));
+  y += taglineSize + taglineGap;
+
+  if (longestStreak > 0) {
+    ctx.fillStyle = TEXT_MUTED;
+    setFont(ctx, 'normal', streakSize);
+    ctx.fillText(`Bester Streak: ${longestStreak} Tage 🏆`, px(cx), px(y));
+  }
+}
+
+/**
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} cx
+ * @param {number} top
+ * @param {boolean} isStory
+ */
+function drawFooterZone(ctx, cx, top, isStory) {
+  const footerUrlSize = isStory ? 28 : 22;
+  const footerHashSize = isStory ? 22 : 18;
+  const footerUrlGap = isStory ? 10 : 8;
+  const innerPad = isStory ? 12 : 10;
+  let y = top + innerPad;
+
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'top';
+  ctx.fillStyle = TEXT_MUTED;
+  setFont(ctx, 'bold', footerUrlSize);
+  ctx.fillText('lernziel-deutsch.de', px(cx), px(y));
+  y += footerUrlSize + footerUrlGap;
+  setFont(ctx, 'normal', footerHashSize);
+  ctx.fillText('#DeutschLernen · #SprachCoach', px(cx), px(y));
+}
+
 function drawBadges(ctx, cx, y, badges, maxW, scale) {
   const list = badges.slice(0, 6);
   if (!list.length) {
     ctx.textAlign = 'center';
-    ctx.fillStyle = 'rgba(255,255,255,0.5)';
-    ctx.font = `${Math.round(20 * scale)}px Arial, Helvetica, sans-serif`;
-    ctx.fillText('Noch keine Abzeichen — weiter üben!', cx, y + 20 * scale);
+    ctx.fillStyle = TEXT_MUTED;
+    setFont(ctx, 'normal', Math.round(22 * scale));
+    ctx.fillText('Noch keine Abzeichen — weiter üben!', px(cx), px(y + 20 * scale));
     return y + 40 * scale;
   }
 
@@ -302,8 +509,8 @@ function drawBadges(ctx, cx, y, badges, maxW, scale) {
   const padY = 10 * scale;
   const rowH = 44 * scale;
   const gap = 12 * scale;
-  const fontSize = Math.round(20 * scale);
-  ctx.font = `bold ${fontSize}px Arial, Helvetica, sans-serif`;
+  const fontSize = Math.round(22 * scale);
+  setFont(ctx, 'bold', fontSize);
 
   let rowX = cx - maxW / 2;
   let rowY = y;
@@ -344,6 +551,7 @@ function drawBadges(ctx, cx, y, badges, maxW, scale) {
  * @param {Object} data.streak
  * @param {!Function} data.isMastered
  * @param {string} [data.cefrLevel]
+ * @param {!Array<{level:string,correct:number,total:number,pct:number}>} [data.placementBreakdown]
  * @param {string} [data.nickname]
  * @param {string} [data.format]
  * @param {!CanvasRenderingContext2D} ctx
@@ -357,6 +565,7 @@ function renderShareCard(data, ctx, w, h) {
     streak,
     isMastered,
     cefrLevel = '',
+    placementBreakdown = [],
     nickname = '',
     format = SHARE_FORMAT.POST,
   } = data;
@@ -365,16 +574,19 @@ function renderShareCard(data, ctx, w, h) {
   const scale = isStory ? 1.15 : 0.82;
   const cx = w / 2;
   const pad = isStory ? 64 : 56;
+  const hasPlacement = cefrLevel && placementBreakdown.length > 0;
 
   const allTopics = getAllTopics();
   const masteredCount = allTopics.filter((t) => isMastered(t.key)).length;
   const themePct = allTopics.length ? masteredCount / allTopics.length : 0;
   const mastered = masteredNames(isMastered, isStory ? 5 : 0);
-  const tagline = getShareTagline({ streak, masteredCount, level });
-  const badges = getEarnedBadges({ totalXP, level, streak, masteredCount });
+  const tagline = getShareTagline({ streak, masteredCount, level, cefrLevel });
+  const badges = getEarnedBadges({ totalXP, level, streak, masteredCount, cefrLevel });
   const weekDays = getLast7Days(streak.activeDays);
 
   drawBackground(ctx, w, h);
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
 
   const innerH = h - pad * 2;
   const innerW = w - pad * 2;
@@ -386,68 +598,98 @@ function renderShareCard(data, ctx, w, h) {
   roundRect(ctx, pad, pad, innerW, innerH, isStory ? 56 : 48);
   ctx.stroke();
 
-  let y = pad + (isStory ? 56 : 40);
-
-  ctx.fillStyle = '#fff';
-  ctx.font = `bold ${isStory ? 36 : 30}px Arial, Helvetica, sans-serif`;
-  ctx.textAlign = 'center';
-  ctx.fillText('Der SprachCoach', cx, y);
-  y += isStory ? 38 : 30;
-
-  drawNickname(ctx, cx, y + (isStory ? 18 : 14) * scale, nickname, scale);
-  y += isStory ? 72 : 48;
-
-  ctx.fillStyle = 'rgba(255,255,255,0.75)';
-  ctx.font = `${isStory ? 24 : 20}px Arial, Helvetica, sans-serif`;
-  ctx.textAlign = 'center';
-  ctx.fillText('Mein Deutsch-Fortschritt', cx, y);
-  y += isStory ? 36 : 22;
-
   if (cefrLevel) {
-    const badgeW = 200;
-    const badgeH = 52;
-    const bx = w - pad - badgeW - 8;
-    const by = pad + 36;
+    const badgeW = isStory ? 220 : 188;
+    const badgeH = isStory ? 56 : 48;
+    const bx = w - pad - badgeW - 10;
+    const by = pad + (isStory ? 40 : 32);
     ctx.fillStyle = 'rgba(255,215,0,0.95)';
-    roundRect(ctx, bx, by, badgeW, badgeH, 26);
+    roundRect(ctx, bx, by, badgeW, badgeH, badgeH / 2);
     ctx.fill();
     ctx.fillStyle = '#3d0f5c';
-    ctx.font = 'bold 24px Arial, Helvetica, sans-serif';
+    setFont(ctx, 'bold', isStory ? 26 : 24);
     ctx.textAlign = 'center';
-    ctx.fillText(`Niveau ${cefrLevel}`, bx + badgeW / 2, by + badgeH / 2 + 2);
+    ctx.textBaseline = 'middle';
+    ctx.fillText(`Niveau ${cefrLevel}`, px(bx + badgeW / 2), px(by + badgeH / 2));
   }
 
-  const ringY = y + (isStory ? 100 : 58);
-  const ringR = isStory ? 108 : 68;
-  const ringLine = isStory ? 20 : 14;
+  const bottomZones = measureBottomZones(isStory, streak.longestStreak > 0);
+  const bottomGap = isStory ? 12 : 8;
+  const cardBottom = h - pad;
+  const footerTop = cardBottom - bottomZones.footerH;
+  const closingTop = footerTop - bottomGap - bottomZones.closingH;
+  const summaryTop = closingTop - bottomGap - bottomZones.summaryH;
+  const upperMaxY = summaryTop - (isStory ? 18 : 12);
+  const bottomBlockW = innerW - (isStory ? 96 : 72);
+
+  const compact = hasPlacement && !isStory;
+  const ringR = isStory ? 108 : (compact ? 50 : 64);
+  const ringLine = isStory ? 20 : (compact ? 10 : 12);
+  const ringOuter = ringR + (isStory ? 34 : (compact ? 22 : 28));
+  const ringZoneH = ringOuter * 2 + (isStory ? 20 : (compact ? 8 : 12));
+  const placementH = hasPlacement ? (isStory ? 220 : 181) : 0;
+  const sectionHeights = isStory
+    ? { header: 40, nickname: 78, ring: ringZoneH, stats: 136, placement: placementH, week: 108, badges: 56 }
+    : { header: 32, nickname: compact ? 50 : 58, ring: ringZoneH, stats: compact ? 88 : 96, placement: placementH, week: 92, badges: 50 };
+  const sectionCount = Object.keys(sectionHeights).length;
+  const contentMin = Object.values(sectionHeights).reduce((sum, n) => sum + n, 0);
+  let gap = Math.max(isStory ? 18 : 12, (upperMaxY - pad - contentMin) / (sectionCount + 1));
+  if (gap < (isStory ? 14 : 8)) {
+    gap = isStory ? 14 : 8;
+  }
+
+  let y = pad + gap;
+
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', isStory ? 36 : 32);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText('Der SprachCoach', px(cx), px(y + sectionHeights.header - 8));
+  y += sectionHeights.header + gap;
+
+  y = drawNickname(ctx, cx, y + (isStory ? 22 : 16) * scale, nickname, scale) + gap;
+
+  const ringY = y + ringOuter;
   drawRing(
     ctx,
     cx,
     ringY,
-    ringR + 30,
+    ringOuter,
     ringLine,
     level.next ? (totalXP - level.prev) / (level.next - level.prev) : 1,
-    '#ffd700',
+    ACCENT,
   );
-  ctx.fillStyle = level.color;
+  ctx.fillStyle = ACCENT;
   ctx.beginPath();
-  ctx.arc(cx, ringY, ringR, 0, Math.PI * 2);
+  ctx.arc(px(cx), px(ringY), ringR, 0, Math.PI * 2);
   ctx.fill();
-  ctx.fillStyle = '#fff';
-  ctx.font = `bold ${isStory ? 72 : 48}px Arial, Helvetica, sans-serif`;
+  ctx.fillStyle = '#3d0f5c';
+  setFont(ctx, 'bold', isStory ? 72 : 46);
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText(`Lv${level.num}`, cx, ringY - 4);
-  ctx.font = `bold ${isStory ? 30 : 20}px Arial, Helvetica, sans-serif`;
-  ctx.fillText(level.name, cx, ringY + (isStory ? 36 : 28));
+  ctx.fillText(`Lv${level.num}`, px(cx), px(ringY - 2));
+  setFont(ctx, 'bold', isStory ? 30 : 20);
+  ctx.fillText(level.name, px(cx), px(ringY + (isStory ? 36 : 24)));
+  y += sectionHeights.ring + gap;
 
-  y = ringY + ringR + (isStory ? 56 : 32);
-
-  const tileW = isStory ? 280 : 220;
-  const tileH = isStory ? 130 : 92;
+  const tileW = isStory ? 280 : Math.floor((innerW - 48 - 36) / 3);
+  const tileH = isStory ? 130 : (compact ? 80 : 88);
   const tileGap = isStory ? 24 : 18;
   const tilesStart = (w - tileW * 3 - tileGap * 2) / 2;
-  drawStatTile(ctx, tilesStart, y, tileW, tileH, String(totalXP), 'XP ⭐', '#ffd700', isStory ? 56 : 40);
+  const statValueSize = isStory ? 56 : 40;
+  const statLabelSize = isStory ? 26 : 24;
+  drawStatTile(
+    ctx,
+    tilesStart,
+    y,
+    tileW,
+    tileH,
+    String(totalXP),
+    'XP ⭐',
+    ACCENT,
+    statValueSize,
+    statLabelSize,
+  );
   drawStatTile(
     ctx,
     tilesStart + tileW + tileGap,
@@ -456,8 +698,9 @@ function renderShareCard(data, ctx, w, h) {
     tileH,
     String(streak.currentStreak),
     'Streak 🔥',
-    '#ffab40',
-    isStory ? 56 : 40,
+    ACCENT,
+    statValueSize,
+    statLabelSize,
   );
   drawStatTile(
     ctx,
@@ -467,91 +710,104 @@ function renderShareCard(data, ctx, w, h) {
     tileH,
     `${masteredCount}/${allTopics.length}`,
     'Themen 📚',
-    '#69f0ae',
-    isStory ? 56 : 40,
+    ACCENT,
+    statValueSize,
+    statLabelSize,
   );
+  y += sectionHeights.stats + gap;
 
-  y += tileH + (isStory ? 40 : 20);
+  if (hasPlacement) {
+    const titleSize = isStory ? 22 : 19;
+    const rowLineH = isStory ? 36 : 30;
+    const titleGap = isStory ? 16 : 14;
+    const blockPadY = isStory ? 18 : 14;
+    const blockH = blockPadY * 2 + titleSize + titleGap
+      + placementBreakdown.length * rowLineH;
+    const blockW = innerW - (isStory ? 120 : 96);
+    const blockX = cx - blockW / 2;
+    const blockTop = y;
 
-  ctx.fillStyle = 'rgba(255,255,255,0.8)';
-  ctx.font = `bold ${isStory ? 22 : 18}px Arial, Helvetica, sans-serif`;
-  ctx.textAlign = 'center';
-  ctx.fillText('Letzte 7 Tage', cx, y);
-  y += isStory ? 20 : 14;
-  drawStreakWeek(ctx, cx, y + (isStory ? 28 : 22) * scale, weekDays, scale);
-  y += (isStory ? 56 : 46) * scale + (isStory ? 36 : 22);
-
-  ctx.fillStyle = 'rgba(255,255,255,0.8)';
-  ctx.font = `bold ${isStory ? 22 : 18}px Arial, Helvetica, sans-serif`;
-  ctx.fillText('Abzeichen', cx, y);
-  y += isStory ? 16 : 10;
-  const badgeLimit = isStory ? 6 : 4;
-  y = drawBadges(ctx, cx, y + 8, badges.slice(0, badgeLimit), innerW - 80, scale)
-    + (isStory ? 28 : 14);
-
-  const barX = pad + 68;
-  const barW = innerW - 136;
-  const barH = isStory ? 32 : 20;
-  ctx.fillStyle = 'rgba(255,255,255,0.15)';
-  roundRect(ctx, barX, y, barW, barH, barH / 2);
-  ctx.fill();
-  if (themePct > 0) {
-    const mg = ctx.createLinearGradient(barX, 0, barX + barW, 0);
-    mg.addColorStop(0, '#43a047');
-    mg.addColorStop(1, '#b9f6ca');
-    ctx.fillStyle = mg;
-    roundRect(ctx, barX, y, Math.max(barW * themePct, 24), barH, barH / 2);
+    ctx.fillStyle = 'rgba(255,255,255,0.1)';
+    roundRect(ctx, blockX, blockTop, blockW, blockH, isStory ? 24 : 20);
     ctx.fill();
-  }
-  y += barH + (isStory ? 36 : 22);
+    ctx.strokeStyle = 'rgba(255,255,255,0.18)';
+    ctx.lineWidth = 2;
+    roundRect(ctx, blockX, blockTop, blockW, blockH, isStory ? 24 : 20);
+    ctx.stroke();
 
-  ctx.fillStyle = 'rgba(255,255,255,0.9)';
-  ctx.font = `bold ${isStory ? 26 : 22}px Arial, Helvetica, sans-serif`;
+    ctx.fillStyle = TEXT_SOFT;
+    setFont(ctx, 'bold', titleSize);
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'top';
+    ctx.fillText(
+      `Einstufungtest · ${cefrLevel}`,
+      px(cx),
+      px(blockTop + blockPadY),
+    );
+
+    drawPlacementBreakdown(
+      ctx,
+      cx,
+      blockTop + blockPadY + titleSize + titleGap,
+      cefrLevel,
+      placementBreakdown,
+      isStory,
+    );
+    y = blockTop + blockH + gap;
+  }
+
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', isStory ? 22 : 19);
   ctx.textAlign = 'center';
-  ctx.fillText(`${masteredCount} von ${allTopics.length} Themen gemeistert`, cx, y);
-  y += isStory ? 40 : 28;
+  ctx.textBaseline = 'top';
+  ctx.fillText('Letzte 7 Tage', px(cx), px(y));
+  const weekBottom = drawStreakWeek(
+    ctx,
+    cx,
+    y + (isStory ? 28 : 22),
+    weekDays,
+    scale,
+  );
+  y = weekBottom + gap;
 
-  if (mastered.length) {
-    ctx.font = `${Math.round(20 * scale)}px Arial, Helvetica, sans-serif`;
-    let chipX = barX;
-    const chipY = y;
-    for (const name of mastered) {
-      const tw = ctx.measureText(name).width + 40;
-      if (chipX + tw > barX + barW) break;
-      ctx.fillStyle = 'rgba(105,240,174,0.25)';
-      roundRect(ctx, chipX, chipY, tw, 40, 20);
-      ctx.fill();
-      ctx.strokeStyle = 'rgba(105,240,174,0.6)';
-      ctx.lineWidth = 2;
-      roundRect(ctx, chipX, chipY, tw, 40, 20);
-      ctx.stroke();
-      ctx.fillStyle = '#e8f5e9';
-      ctx.textAlign = 'left';
-      ctx.textBaseline = 'middle';
-      ctx.fillText(name, chipX + 20, chipY + 20);
-      chipX += tw + 12;
-    }
-    y += 56;
+  if (y < upperMaxY) {
+    ctx.fillStyle = TEXT_SOFT;
+    setFont(ctx, 'bold', isStory ? 22 : 19);
+    ctx.textBaseline = 'top';
+    ctx.fillText('Abzeichen', px(cx), px(y));
+    const badgeLimit = isStory ? 6 : 4;
+    y = drawBadges(
+      ctx,
+      cx,
+      y + (isStory ? 28 : 22),
+      badges.slice(0, badgeLimit),
+      innerW - 80,
+      scale,
+    ) + gap;
   }
 
-  ctx.textAlign = 'center';
-  ctx.fillStyle = '#fff';
-  ctx.font = `bold ${isStory ? 48 : 32}px Arial, Helvetica, sans-serif`;
-  ctx.fillText(tagline, cx, y);
-  y += isStory ? 48 : 32;
-
-  if (streak.longestStreak > 0) {
-    ctx.fillStyle = 'rgba(255,255,255,0.7)';
-    ctx.font = `${isStory ? 26 : 20}px Arial, Helvetica, sans-serif`;
-    ctx.fillText(`Bester Streak: ${streak.longestStreak} Tage 🏆`, cx, y);
-  }
-
-  const footerY = isStory ? h - pad - 48 : h - 52;
-  ctx.fillStyle = 'rgba(255,255,255,0.55)';
-  ctx.font = 'bold 30px Arial, Helvetica, sans-serif';
-  ctx.fillText('lernziel-deutsch.de', cx, footerY);
-  ctx.font = '24px Arial, Helvetica, sans-serif';
-  ctx.fillText('#DeutschLernen · #SprachCoach', cx, footerY + 36);
+  drawSummaryZone(
+    ctx,
+    cx,
+    summaryTop,
+    bottomBlockW,
+    bottomZones.summaryH,
+    themePct,
+    masteredCount,
+    allTopics.length,
+    isStory,
+  );
+  drawClosingZone(
+    ctx,
+    cx,
+    closingTop,
+    bottomBlockW,
+    bottomZones.closingH,
+    tagline,
+    streak.longestStreak,
+    isStory,
+  );
+  drawFooterZone(ctx, cx, footerTop, isStory);
 }
 
 /**
@@ -590,6 +846,7 @@ export function shareProgressCard(progress) {
       streak: progress.streak,
       masteredCount,
       level: progress.level,
+      cefrLevel: progress.cefrLevel || '',
     });
     if (
       navigator.share &&
@@ -613,5 +870,126 @@ export function shareProgressCard(progress) {
       document.body.removeChild(a);
       setTimeout(() => URL.revokeObjectURL(url), 1000);
     }
+  }, 'image/png');
+}
+
+/**
+ * Renders a compact card for Einstufungtest results (1080×1080).
+ *
+ * @param {Object} data
+ * @param {string} data.level
+ * @param {!Array<{level:string,correct:number,total:number,pct:number}>} data.breakdown
+ * @param {number} data.scorePct
+ * @param {string} [data.nickname]
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} w
+ * @param {number} h
+ */
+function renderPlacementShareCard(data, ctx, w, h) {
+  const { level, breakdown, scorePct, nickname = '' } = data;
+  const cx = w / 2;
+  const pad = 56;
+
+  drawBackground(ctx, w, h);
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
+
+  let y = pad + 36;
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', 34);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText('Der SprachCoach', px(cx), px(y));
+  y += 48;
+
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', 26);
+  ctx.fillText('Einstufungtest abgeschlossen', px(cx), px(y));
+  y += 36;
+
+  if (nickname && nickname !== 'Lernender') {
+    setFont(ctx, 'normal', 24);
+    ctx.fillText(nickname, px(cx), px(y));
+    y += 32;
+  }
+
+  const ringY = y + 100;
+  ctx.fillStyle = ACCENT;
+  ctx.beginPath();
+  ctx.arc(px(cx), px(ringY), 96, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = '#3d0f5c';
+  setFont(ctx, 'bold', 88);
+  ctx.textBaseline = 'middle';
+  ctx.fillText(level, px(cx), px(ringY));
+  y = ringY + 130;
+
+  ctx.textBaseline = 'alphabetic';
+  for (const row of breakdown) {
+    const highlight = row.level === level;
+    ctx.fillStyle = highlight ? ACCENT : TEXT_SOFT;
+    setFont(ctx, highlight ? 'bold' : 'normal', 28);
+    ctx.fillText(
+      `${row.level}: ${row.correct}/${row.total} (${row.pct}%)`,
+      px(cx),
+      px(y),
+    );
+    y += 42;
+  }
+
+  y += 16;
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', 34);
+  ctx.fillText(`${scorePct}% richtig`, px(cx), px(y));
+
+  ctx.fillStyle = TEXT_MUTED;
+  setFont(ctx, 'normal', 22);
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText('#DeutschLernen · #SprachCoach', px(cx), px(h - pad - 16));
+}
+
+/**
+ * Shares the placement-test result card (Web Share API or PNG download).
+ *
+ * @param {Object} data
+ * @param {string} data.level
+ * @param {!Array<{level:string,correct:number,total:number,pct:number}>} data.breakdown
+ * @param {number} data.scorePct
+ * @param {string} data.shareText
+ * @param {string} [data.shareTitle]
+ * @param {string} [data.nickname]
+ */
+export function sharePlacementCard(data) {
+  const canvas = document.createElement('canvas');
+  canvas.width = POST_SIZE;
+  canvas.height = POST_SIZE;
+  const ctx = canvas.getContext('2d');
+  renderPlacementShareCard(data, ctx, POST_SIZE, POST_SIZE);
+  const filename = `einstufung-${String(data.level || 'a1').toLowerCase()}-sprachcoach.png`;
+
+  canvas.toBlob((blob) => {
+    if (!blob) return;
+    const file = new File([blob], filename, { type: 'image/png' });
+    const title = data.shareTitle || 'Mein Deutsch-Niveau';
+    const text = data.shareText || `Mein Niveau: ${data.level} — Der SprachCoach`;
+    if (
+      navigator.share &&
+      typeof navigator.canShare === 'function' &&
+      navigator.canShare({ files: [file] })
+    ) {
+      navigator.share({ files: [file], title, text }).catch(() => {});
+      return;
+    }
+    if (navigator.share) {
+      navigator.share({ title, text }).catch(() => {});
+    }
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
   }, 'image/png');
 }

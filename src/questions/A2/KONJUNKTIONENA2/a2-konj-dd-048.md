@@ -10,6 +10,8 @@ words:
   - gute
   - Geschenkidee
   - ist
+commas:
+  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)

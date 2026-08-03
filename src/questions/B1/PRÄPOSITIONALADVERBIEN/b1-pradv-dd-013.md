@@ -2,15 +2,15 @@
 id: b1-pradv-dd-013
 type: dropbox
 words:
-  - Teilnimmst
+  - Hörst
   - du
-  - an
-  - der
-  - Konferenz
+  - auf
+  - gute
+  - Ratschläge
+  - —
   - Ich
-  - nehme
-  - daran
-  - teil
+  - höre
+  - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber (Informieren))
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -2,11 +2,12 @@
 id: b1-praep-dd-021
 type: dropbox
 words:
-  - Sie
-  - ist
-  - an
-  - der
-  - Universität
+  - Er
+  - fährt
+  - von
+  - Berlin
+  - nach
+  - Hamburg
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — an Universität)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

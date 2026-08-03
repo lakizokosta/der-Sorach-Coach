@@ -2,12 +2,16 @@
 id: b1-kond-dd-040
 type: dropbox
 words:
-  - Falls
-  - du
-  - Fragen
-  - hast
-  - schreib
-  - mir
+  - Sobald
+  - wir
+  - im
+  - Hotel
+  - angekommen
+  - sind
+  - gehen
+  - essen
+commas:
+  - 6
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konditionalsatz — Falls du Fragen hast)
+Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

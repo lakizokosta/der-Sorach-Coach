@@ -10,6 +10,9 @@ words:
   - sitzt
   - ist
   - neu
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — der neben mir sitzt)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

@@ -9,4 +9,4 @@ options:
 correct: Nachdem
 ---
 
-___, er das Buch gelesen hatte, verstand er alles. (Temporalnebensatz)
+___, er das Buch gelesen hatte, verstand er alles. (Grammatikform)

@@ -11,4 +11,4 @@ words:
   - Angebot
 ---
 
-Ordne die Wörter zum richtigen Satz: (Verneinung — kein Interesse)
+Ordne die Wörter zum richtigen Satz: (Verneinung)

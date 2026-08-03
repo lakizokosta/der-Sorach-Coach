@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-029
 type: input-text
+hint: Verb-Nomen-Verbindung — bietet / macht / nimmt / stellt
 correct:
   - bietet
 ---
 
-Die Universität ___ einen Kurs an. (Verb-Nomen-Verbindung)
+Ergänze die Verb-Nomen-Verbindung:
+
+Die Universität ___ einen Kurs an.

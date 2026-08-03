@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-031
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Der Test ist ___ schwer. (Negation)
+Ergänze die Verneinung:
+
+Der Test ist ___ schwer.

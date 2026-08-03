@@ -173,8 +173,8 @@ export function medalsFor(longest) {
   const totalMedals = 6;
   const earned = [...medals].length;
   let result = medals;
-  for (let i = earned; i < totalMedals; i++) result += ' ⬜';
-  return result || '⬜ ⬜ ⬜ ⬜ ⬜ ⬜';
+  for (let i = earned; i < totalMedals; i++) result += '▫';
+  return result || '▫▫▫▫▫▫';
 }
 
 /**

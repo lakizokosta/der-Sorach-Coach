@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-043
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Das Team verliert ___. (Negation)
+Ergänze die Verneinung:
+
+Das Team verliert ___.

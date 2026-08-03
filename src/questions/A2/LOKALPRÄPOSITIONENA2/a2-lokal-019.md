@@ -9,4 +9,4 @@ options:
 correct: hinter
 ---
 
-Vom Bahnhofsplatz aus sieht man das Hotel nicht — es liegt ___ dem Bahnhof. (Lokalpräposition)
+Vom Bahnhofsplatz aus sieht man das Hotel nicht — es liegt ___ dem Bahnhof. (Lokale Präposition)

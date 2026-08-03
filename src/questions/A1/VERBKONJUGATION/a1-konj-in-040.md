@@ -1,8 +1,11 @@
 ---
 id: a1-konj-in-040
 type: input-text
+hint: Präsens + Verb machen
 correct:
   - mache
 ---
 
-Ich ___ Yoga am Morgen. (Präsens + Verb machen)
+Ergänze die Präsensform des Verbs:
+
+Ich ___ Yoga am Morgen.

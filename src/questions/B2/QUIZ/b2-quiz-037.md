@@ -2,11 +2,11 @@
 id: b2-quiz-037
 type: select-one
 options:
+  - dagegen
   - trotzdem
   - außerdem
-  - folglich
-  - dennoch
-correct: außerdem
+  - somit
+correct: somit
 ---
 
-Er spricht drei Sprachen; ___ spielt er Klavier. (Grammatikform)
+Die Daten sind unvollständig; ___ ist die Analyse schwierig.

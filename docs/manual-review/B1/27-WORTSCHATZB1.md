@@ -35,7 +35,7 @@
 > Die ___ der Arbeitsplätze ist ein wichtiges Thema. (Wortschatz B1)
 
 **Optionen:**
-- Sicherung
+- Sicherlichkeit
 - Sicherheit **✓**
 - Sicheres
 - Sicherheitssystem
@@ -65,7 +65,7 @@
 **Optionen:**
 - Ausstoßung
 - Ausstoß **✓**
-- Ausstoss
+- Ausstoßment
 - Ausstoßer
 
 - [ ] OK
@@ -248,7 +248,7 @@
 - Sicherheitssystem
 - Sicherheit **✓**
 - Sichern
-- Sicherung
+- Sicherlichkeit
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -455,7 +455,7 @@
 > Die ___ der Arbeitsplätze ist ein wichtiges Thema. (Wortschatz B1)
 
 **Optionen:**
-- Sicherung
+- Sicherlichkeit
 - Sicheres
 - Sicherheit **✓**
 - Sichern
@@ -483,7 +483,7 @@
 > Wir müssen den ___ senken, um die Umwelt zu schützen. (Wortschatz B1)
 
 **Optionen:**
-- Ausstoss
+- Ausstoßment
 - Ausstoß **✓**
 - Ausstoßung
 - Ausstoßen
@@ -696,7 +696,7 @@
 - Ausstoßen
 - Ausstoß **✓**
 - Ausstoßer
-- Ausstoss
+- Ausstoßment
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1222,9 +1222,9 @@
 ### 101. `b1-ws-dd-001` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Rehabilitation)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Nach · der · Operation · braucht · ein · Patient · Rehabilitation
+**Wörter:** Nach · der · Operation · braucht · der · Patient · Rehabilitation
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1232,7 +1232,7 @@
 ### 102. `b1-ws-dd-002` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Sicherheit)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Die · Sicherheit · der · Arbeitsplätze · ist · ein · wichtiges · Thema
 
@@ -1242,7 +1242,7 @@
 ### 103. `b1-ws-dd-003` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Journalist)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Der · Journalist · berichtet · über · internationale · Ereignisse
 
@@ -1252,7 +1252,7 @@
 ### 104. `b1-ws-dd-004` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Ausstoß)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Wir · müssen · den · Ausstoß · senken · um · die · Umwelt · zu · schützen
 
@@ -1262,7 +1262,7 @@
 ### 105. `b1-ws-dd-005` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Regierung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Die · Regierung · hat · eine · neue · Regelung · beschlossen
 
@@ -1272,7 +1272,7 @@
 ### 106. `b1-ws-dd-006` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Unterkunft)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Er · hat · eine · Unterkunft · für · nächsten · Monat · gebucht
 
@@ -1282,7 +1282,7 @@
 ### 107. `b1-ws-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Nachfrage)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Die · Nachfrage · an · der · Universität · ist · sehr · hoch
 
@@ -1292,7 +1292,7 @@
 ### 108. `b1-ws-dd-008` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Impfung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Sie · hat · eine · Impfung · gegen · Grippe · bekommen
 
@@ -1302,7 +1302,7 @@
 ### 109. `b1-ws-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Bericht)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Der · Bericht · zeigt · dass · die · Wirtschaft · wächst
 
@@ -1312,7 +1312,7 @@
 ### 110. `b1-ws-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — erneuerbare)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Wir · diskutieren · über · erneuerbare · Energiequellen
 
@@ -1322,7 +1322,7 @@
 ### 111. `b1-ws-dd-011` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — verantwortliche)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Er · hat · eine · verantwortliche · Stellung · in · der · Firma
 
@@ -1332,7 +1332,7 @@
 ### 112. `b1-ws-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Konferenz)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Die · Konferenz · beginnt · morgen · früh
 
@@ -1342,7 +1342,7 @@
 ### 113. `b1-ws-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — nachhaltige)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Sie · sucht · eine · nachhaltige · Lösung · für · das · Problem
 
@@ -1352,7 +1352,7 @@
 ### 114. `b1-ws-dd-014` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Medikament)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Der · Arzt · verschreibt · ein · Medikament
 
@@ -1362,7 +1362,7 @@
 ### 115. `b1-ws-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Genesung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Die · Genesung · nach · dem · Unfall · war · lang
 
@@ -1372,9 +1372,9 @@
 ### 116. `b1-ws-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Bewerbung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Nach · der · Operation · braucht · ein · Patient · Rehabilitation
+**Wörter:** Nach · der · Operation · braucht · der · Patient · Rehabilitation
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1382,7 +1382,7 @@
 ### 117. `b1-ws-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Umweltschutz)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
 **Wörter:** Die · Sicherheit · der · Arbeitsplätze · ist · ein · wichtiges · Thema
 
@@ -1392,9 +1392,9 @@
 ### 118. `b1-ws-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Rehabilitation)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Nach · der · Operation · braucht · ein · Patient · Rehabilitation
+**Wörter:** Der · Journalist · berichtet · über · internationale · Ereignisse
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1402,9 +1402,9 @@
 ### 119. `b1-ws-dd-019` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Sicherheit)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Sicherheit · der · Arbeitsplätze · ist · ein · wichtiges · Thema
+**Wörter:** Wir · müssen · den · Ausstoß · senken · um · die · Umwelt · zu · schützen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1412,9 +1412,9 @@
 ### 120. `b1-ws-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Journalist)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Der · Journalist · berichtet · über · internationale · Ereignisse
+**Wörter:** Die · Regierung · hat · eine · neue · Regelung · beschlossen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1422,9 +1422,9 @@
 ### 121. `b1-ws-dd-021` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Ausstoß)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Wir · müssen · den · Ausstoß · senken · um · die · Umwelt · zu · schützen
+**Wörter:** Er · hat · eine · Unterkunft · für · nächsten · Monat · gebucht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1432,9 +1432,9 @@
 ### 122. `b1-ws-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Regierung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Regierung · hat · eine · neue · Regelung · beschlossen
+**Wörter:** Die · Nachfrage · an · der · Universität · ist · sehr · hoch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1442,9 +1442,9 @@
 ### 123. `b1-ws-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Unterkunft)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Er · hat · eine · Unterkunft · für · nächsten · Monat · gebucht
+**Wörter:** Sie · hat · eine · Impfung · gegen · Grippe · bekommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1452,9 +1452,9 @@
 ### 124. `b1-ws-dd-024` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Nachfrage)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Nachfrage · an · der · Universität · ist · sehr · hoch
+**Wörter:** Der · Bericht · zeigt · dass · die · Wirtschaft · wächst
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1462,9 +1462,9 @@
 ### 125. `b1-ws-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Impfung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Sie · hat · eine · Impfung · gegen · Grippe · bekommen
+**Wörter:** Wir · diskutieren · über · erneuerbare · Energiequellen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1472,9 +1472,9 @@
 ### 126. `b1-ws-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Bericht)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Der · Bericht · zeigt · dass · die · Wirtschaft · wächst
+**Wörter:** Er · hat · eine · verantwortliche · Stellung · in · der · Firma
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1482,9 +1482,9 @@
 ### 127. `b1-ws-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — erneuerbare)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Wir · diskutieren · über · erneuerbare · Energiequellen
+**Wörter:** Die · Konferenz · beginnt · morgen · früh
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1492,9 +1492,9 @@
 ### 128. `b1-ws-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — verantwortliche)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Er · hat · eine · verantwortliche · Stellung · in · der · Firma
+**Wörter:** Sie · sucht · eine · nachhaltige · Lösung · für · das · Problem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1502,9 +1502,9 @@
 ### 129. `b1-ws-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Konferenz)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Konferenz · beginnt · morgen · früh
+**Wörter:** Der · Arzt · verschreibt · ein · Medikament
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1512,9 +1512,9 @@
 ### 130. `b1-ws-dd-030` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — nachhaltige)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Sie · sucht · eine · nachhaltige · Lösung · für · das · Problem
+**Wörter:** Die · Genesung · nach · dem · Unfall · war · lang
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1522,9 +1522,9 @@
 ### 131. `b1-ws-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Medikament)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Der · Arzt · verschreibt · ein · Medikament
+**Wörter:** Nach · der · Operation · braucht · der · Patient · Rehabilitation
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1532,9 +1532,9 @@
 ### 132. `b1-ws-dd-032` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Genesung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Genesung · nach · dem · Unfall · war · lang
+**Wörter:** Die · Sicherheit · der · Arbeitsplätze · ist · ein · wichtiges · Thema
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1542,9 +1542,9 @@
 ### 133. `b1-ws-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Bewerbung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Nach · der · Operation · braucht · ein · Patient · Rehabilitation
+**Wörter:** Der · Journalist · berichtet · über · internationale · Ereignisse
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1552,9 +1552,9 @@
 ### 134. `b1-ws-dd-034` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Umweltschutz)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Sicherheit · der · Arbeitsplätze · ist · ein · wichtiges · Thema
+**Wörter:** Wir · müssen · den · Ausstoß · senken · um · die · Umwelt · zu · schützen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1562,9 +1562,9 @@
 ### 135. `b1-ws-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Rehabilitation)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Nach · der · Operation · braucht · ein · Patient · Rehabilitation
+**Wörter:** Die · Regierung · hat · eine · neue · Regelung · beschlossen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1572,9 +1572,9 @@
 ### 136. `b1-ws-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Sicherheit)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Sicherheit · der · Arbeitsplätze · ist · ein · wichtiges · Thema
+**Wörter:** Er · hat · eine · Unterkunft · für · nächsten · Monat · gebucht
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1582,9 +1582,9 @@
 ### 137. `b1-ws-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Journalist)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Der · Journalist · berichtet · über · internationale · Ereignisse
+**Wörter:** Die · Nachfrage · an · der · Universität · ist · sehr · hoch
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1592,9 +1592,9 @@
 ### 138. `b1-ws-dd-038` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Ausstoß)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Wir · müssen · den · Ausstoß · senken · um · die · Umwelt · zu · schützen
+**Wörter:** Sie · hat · eine · Impfung · gegen · Grippe · bekommen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1602,9 +1602,9 @@
 ### 139. `b1-ws-dd-039` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Regierung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Regierung · hat · eine · neue · Regelung · beschlossen
+**Wörter:** Der · Bericht · zeigt · dass · die · Wirtschaft · wächst
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1612,9 +1612,9 @@
 ### 140. `b1-ws-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Unterkunft)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Er · hat · eine · Unterkunft · für · nächsten · Monat · gebucht
+**Wörter:** Wir · diskutieren · über · erneuerbare · Energiequellen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1622,9 +1622,9 @@
 ### 141. `b1-ws-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Nachfrage)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Nachfrage · an · der · Universität · ist · sehr · hoch
+**Wörter:** Er · hat · eine · verantwortliche · Stellung · in · der · Firma
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1632,9 +1632,9 @@
 ### 142. `b1-ws-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Impfung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Sie · hat · eine · Impfung · gegen · Grippe · bekommen
+**Wörter:** Die · Konferenz · beginnt · morgen · früh
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1642,9 +1642,9 @@
 ### 143. `b1-ws-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Bericht)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Der · Bericht · zeigt · dass · die · Wirtschaft · wächst
+**Wörter:** Sie · sucht · eine · nachhaltige · Lösung · für · das · Problem
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1652,9 +1652,9 @@
 ### 144. `b1-ws-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — erneuerbare)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Wir · diskutieren · über · erneuerbare · Energiequellen
+**Wörter:** Der · Arzt · verschreibt · ein · Medikament
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1662,9 +1662,9 @@
 ### 145. `b1-ws-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — verantwortliche)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Er · hat · eine · verantwortliche · Stellung · in · der · Firma
+**Wörter:** Die · Genesung · nach · dem · Unfall · war · lang
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1672,9 +1672,9 @@
 ### 146. `b1-ws-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Konferenz)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Konferenz · beginnt · morgen · früh
+**Wörter:** Nach · der · Operation · braucht · der · Patient · Rehabilitation
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1682,9 +1682,9 @@
 ### 147. `b1-ws-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — nachhaltige)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Sie · sucht · eine · nachhaltige · Lösung · für · das · Problem
+**Wörter:** Die · Sicherheit · der · Arbeitsplätze · ist · ein · wichtiges · Thema
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1692,9 +1692,9 @@
 ### 148. `b1-ws-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Medikament)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Der · Arzt · verschreibt · ein · Medikament
+**Wörter:** Der · Journalist · berichtet · über · internationale · Ereignisse
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1702,9 +1702,9 @@
 ### 149. `b1-ws-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Genesung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Die · Genesung · nach · dem · Unfall · war · lang
+**Wörter:** Wir · müssen · den · Ausstoß · senken · um · die · Umwelt · zu · schützen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1712,9 +1712,9 @@
 ### 150. `b1-ws-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Wortschatz — Bewerbung)
+> Ordne die Wörter zum richtigen Satz: (Wortschatz B1)
 
-**Wörter:** Nach · der · Operation · braucht · ein · Patient · Rehabilitation
+**Wörter:** Die · Regierung · hat · eine · neue · Regelung · beschlossen
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

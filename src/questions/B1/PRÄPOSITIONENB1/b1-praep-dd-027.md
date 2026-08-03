@@ -2,13 +2,12 @@
 id: b1-praep-dd-027
 type: dropbox
 words:
-  - Das
-  - Büro
-  - ist
-  - bis
-  - 18
-  - Uhr
-  - geöffnet
+  - Wir
+  - diskutieren
+  - über
+  - den
+  - neuen
+  - Plan
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — bis 18 Uhr)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

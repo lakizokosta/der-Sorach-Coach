@@ -12,4 +12,4 @@ words:
   - gebucht
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Unterkunft)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

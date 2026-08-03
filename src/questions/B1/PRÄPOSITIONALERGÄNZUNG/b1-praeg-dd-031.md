@@ -3,11 +3,12 @@ id: b1-praeg-dd-031
 type: dropbox
 words:
   - Ich
-  - bestehe
+  - warte
   - auf
-  - einer
-  - klaren
+  - die
   - Antwort
+  - der
+  - Personalabteilung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — besteht auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

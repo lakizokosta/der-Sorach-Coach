@@ -2,13 +2,16 @@
 id: b1-gen-dd-019
 type: dropbox
 words:
-  - Wegen
+  - Während
   - der
-  - Erkrankung
-  - bleibt
-  - er
-  - zu
-  - Hause
+  - Ferien
+  - arbeitet
+  - sie
+  - in
+  - einem
+  - Café
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Wegen Erkrankung)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

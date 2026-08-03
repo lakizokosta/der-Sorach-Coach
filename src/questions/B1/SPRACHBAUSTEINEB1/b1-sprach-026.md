@@ -9,4 +9,4 @@ options:
 correct: ein
 ---
 
-Wir empfehlen, frühzeitig ___ Hotel zu buchen. (Grammatikform)
+Wir empfehlen, frühzeitig ___ Hotel zu buchen.

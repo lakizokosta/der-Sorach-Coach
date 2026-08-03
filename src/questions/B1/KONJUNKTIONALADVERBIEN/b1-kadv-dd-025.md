@@ -2,14 +2,15 @@
 id: b1-kadv-dd-025
 type: dropbox
 words:
-  - Er
-  - hat
-  - Überstunden
-  - gemacht
-  - Deshalb
-  - ist
-  - er
-  - müde
+  - Das
+  - Hotel
+  - war
+  - laut
+  - Trotzdem
+  - haben
+  - wir
+  - gut
+  - geschlafen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Deshalb müde)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

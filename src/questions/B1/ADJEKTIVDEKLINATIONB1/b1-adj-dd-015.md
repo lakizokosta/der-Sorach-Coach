@@ -11,4 +11,4 @@ words:
   - Italien
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — aktuelle Entwicklung)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

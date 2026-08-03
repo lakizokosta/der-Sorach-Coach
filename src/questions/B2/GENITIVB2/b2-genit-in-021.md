@@ -5,4 +5,6 @@ correct:
   - kurzer
 ---
 
-Innerhalb ___ (kurz) Zeit wurde alles erledigt. (Genitivform)
+Ergänze die Genitivform:
+
+Innerhalb ___ (kurz) Zeit wurde alles erledigt.

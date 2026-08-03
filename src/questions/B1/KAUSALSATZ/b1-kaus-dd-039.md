@@ -2,13 +2,17 @@
 id: b1-kaus-dd-039
 type: dropbox
 words:
-  - Da
-  - die
-  - Nachfrage
-  - steigt
-  - werden
-  - Preise
-  - höher
+  - Weil
+  - das
+  - Wetter
+  - schlecht
+  - ist
+  - fällt
+  - unser
+  - Fest
+  - aus
+commas:
+  - 4
 ---
 
-Ordne die Wörter zum richtigen Satz: (Kausalsatz — Da Nachfrage steigt)
+Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

@@ -1,8 +1,11 @@
 ---
 id: a2-refl-in-043
 type: input-text
+hint: Reflexiv + Verb freuen
 correct:
   - freue
 ---
 
-Ich ___ mich auf den Urlaub an der Mosel. (Reflexiv + Verb freuen)
+Ergänze die Reflexivform:
+
+Ich ___ mich auf den Urlaub an der Mosel.

@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-013
 type: input-text
+hint: Adjektivdeklination — gut, neutr., Akk.
 correct:
   - gutes
 ---
 
-Ich suche ein ___ Geschenk. (Adjektivdeklination — neutr., Akk.)
+Ergänze die Adjektivendung:
+
+Ich suche ein ___ Geschenk.

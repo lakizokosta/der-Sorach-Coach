@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-017
 type: input-text
+hint: Negation
 correct:
   - keine
 ---
 
-Es gibt ___ Hausaufgaben. (Negation)
+Ergänze die Verneinung:
+
+Es gibt ___ Hausaufgaben.

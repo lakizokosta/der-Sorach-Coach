@@ -2,12 +2,13 @@
 id: b1-perf-dd-044
 type: dropbox
 words:
-  - Die
-  - Politiker
-  - haben
-  - eine
-  - Einigung
-  - erzielt
+  - Ich
+  - habe
+  - mich
+  - über
+  - das
+  - Ergebnis
+  - gefreut
 ---
 
 Ordne die Wörter zum richtigen Satz: (Perfektform)

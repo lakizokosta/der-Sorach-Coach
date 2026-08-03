@@ -6,9 +6,10 @@ words:
   - Kind
   - steht
   - neben
+  - der
   - Mutter
   - beim
   - Einkaufen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Lokalpräposition — neben)
+Ordne die Wörter zum richtigen Satz: (Lokalpräposition)

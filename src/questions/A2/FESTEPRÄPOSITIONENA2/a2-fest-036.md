@@ -2,11 +2,11 @@
 id: a2-fest-036
 type: select-one
 options:
-  - ein
-  - einem
-  - einen
-  - eine
-correct: einem
+  - von
+  - an
+  - über
+  - nach
+correct: an
 ---
 
-Er träumt von ___ Urlaub. (feste Präposition)
+Er denkt ___ seine Familie. (Feste Präposition)

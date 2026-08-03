@@ -1,8 +1,11 @@
 ---
 id: b1-lass-in-022
 type: input-text
+hint: lassen + Verb bringen
 correct:
   - lässt
 ---
 
-Er ___ das Paket nach Hause bringen. (lassen + Verb bringen)
+Ergänze die lassen-Form:
+
+Er ___ das Paket nach Hause bringen.

@@ -2,11 +2,11 @@
 id: a2-fest-033
 type: select-one
 options:
-  - dem
-  - den
-  - das
-  - die
-correct: die
+  - bei
+  - über
+  - von
+  - auf
+correct: auf
 ---
 
-Wir sprechen über ___ Reise. (Feste Präpositionen)
+Ich freue mich ___ das Fest. (Feste Präposition)

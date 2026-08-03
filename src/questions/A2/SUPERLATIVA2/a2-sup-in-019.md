@@ -1,8 +1,11 @@
 ---
 id: a2-sup-in-019
 type: input-text
+hint: Superlativ — lieb, neutr., Nom.
 correct:
   - liebstes
 ---
 
-Das ist mein ___ Buch. (Superlativ — neutr., Nom.)
+Ergänze die Superlativform:
+
+Das ist mein ___ Buch.

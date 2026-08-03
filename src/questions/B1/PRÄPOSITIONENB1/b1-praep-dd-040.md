@@ -2,12 +2,15 @@
 id: b1-praep-dd-040
 type: dropbox
 words:
-  - Er
-  - fährt
-  - von
-  - Berlin
-  - nach
-  - Hamburg
+  - Das
+  - Büro
+  - ist
+  - bis
+  - 18
+  - Uhr
+  - geöffnet
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — von Berlin)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

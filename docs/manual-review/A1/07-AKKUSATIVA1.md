@@ -4,10 +4,10 @@
 |---|---|
 | **Topic-Key** | `AKKUSATIVA1` |
 | **Beschreibung** | Wen/was? Akkusativ-Artikel |
-| **Fragen gesamt** | 152 |
+| **Fragen gesamt** | 150 |
 | Auswahl (1 Antwort) | 50 |
-| Eingabe | 51 |
-| Wörter ordnen | 51 |
+| Eingabe | 50 |
+| Wörter ordnen | 50 |
 
 > Manuelle Prüfung: Grammatik, Sinn des Satzes, Hinweise, Antworten.
 
@@ -60,7 +60,7 @@
 ### 4. `a1-akk-006` · select-one
 
 **Aufgabe:**
-> Ich sehe ___ Mann. (Akkusativ — Akkusativform)
+> Ich sehe ___ Mann. (Akkusativ — der Mann, Akk.)
 
 **Optionen:**
 - des
@@ -74,7 +74,7 @@
 ### 5. `a1-akk-007` · select-one
 
 **Aufgabe:**
-> Ich kaufe ___ Apfel. (Akkusativ — Akk.)
+> Ich kaufe ___ Apfel. (Akkusativ — ein Apfel, Akk.)
 
 **Optionen:**
 - einer
@@ -88,7 +88,7 @@
 ### 6. `a1-akk-008` · select-one
 
 **Aufgabe:**
-> Ich esse ___ Brot. (Akkusativ — Akk.)
+> Ich esse ___ Brot. (Akkusativ — das Brot, Akk.)
 
 **Optionen:**
 - dem
@@ -102,7 +102,7 @@
 ### 7. `a1-akk-009` · select-one
 
 **Aufgabe:**
-> Ich trinke ___ Wasser. (Akkusativ — Akk.)
+> Ich trinke ___ Wasser. (Akkusativ — das Wasser, Akk.)
 
 **Optionen:**
 - den
@@ -116,7 +116,7 @@
 ### 8. `a1-akk-010` · select-one
 
 **Aufgabe:**
-> Ich lese ___ Buch. (Akkusativ — Akk.)
+> Ich lese ___ Buch. (Akkusativ — ein Buch, Akk.)
 
 **Optionen:**
 - eine
@@ -130,7 +130,7 @@
 ### 9. `a1-akk-011` · select-one
 
 **Aufgabe:**
-> Ich besuche ___ Freundin. (Akkusativ — Akk.)
+> Ich besuche ___ Freundin. (Akkusativ — meine Freundin, Akk.)
 
 **Optionen:**
 - meiner
@@ -144,7 +144,7 @@
 ### 10. `a1-akk-012` · select-one
 
 **Aufgabe:**
-> Ich nehme ___ Bus. (Akkusativ — Akk.)
+> Ich nehme ___ Bus. (Akkusativ — der Bus, Akk.)
 
 **Optionen:**
 - des
@@ -158,7 +158,7 @@
 ### 11. `a1-akk-013` · select-one
 
 **Aufgabe:**
-> Ich brauche ___ Regenschirm. (Akkusativ — Akkusativform)
+> Ich brauche ___ Regenschirm. (Akkusativ — ein Regenschirm, Akk.)
 
 **Optionen:**
 - eine
@@ -172,7 +172,7 @@
 ### 12. `a1-akk-014` · select-one
 
 **Aufgabe:**
-> Ich suche ___ Hotel. (Akkusativ — Akk.)
+> Ich suche ___ Hotel. (Akkusativ — ein Hotel, Akk.)
 
 **Optionen:**
 - eine
@@ -186,7 +186,7 @@
 ### 13. `a1-akk-015` · select-one
 
 **Aufgabe:**
-> Ich spiele ___ Ball. (Akkusativ — Akk.)
+> Ich spiele ___ Ball. (Akkusativ — der Ball, Akk.)
 
 **Optionen:**
 - dem
@@ -200,7 +200,7 @@
 ### 14. `a1-akk-016` · select-one
 
 **Aufgabe:**
-> Ich höre ___ Musik. (Akkusativ — mein Bruder, Akk.)
+> Ich höre ___ Musik. (Akkusativ — die Musik, Akk.)
 
 **Optionen:**
 - dem
@@ -214,7 +214,7 @@
 ### 15. `a1-akk-017` · select-one
 
 **Aufgabe:**
-> Ich mache ___ Foto. (Akkusativ — Akk.)
+> Ich mache ___ Foto. (Akkusativ — ein Foto, Akk.)
 
 **Optionen:**
 - einer
@@ -228,7 +228,7 @@
 ### 16. `a1-akk-018` · select-one
 
 **Aufgabe:**
-> Ich liebe ___ Stadt. (Akkusativ — Akk.)
+> Ich liebe ___ Stadt. (Akkusativ — diese Stadt, Akk.)
 
 **Optionen:**
 - diesen
@@ -242,7 +242,7 @@
 ### 17. `a1-akk-019` · select-one
 
 **Aufgabe:**
-> Ich finde ___ Film toll. (Akkusativ — Akk.)
+> Ich finde ___ Film toll. (Akkusativ — der Film, Akk.)
 
 **Optionen:**
 - des
@@ -256,7 +256,7 @@
 ### 18. `a1-akk-020` · select-one
 
 **Aufgabe:**
-> Ich kaufe ___ Jacke. (Akkusativ — Akk.)
+> Ich kaufe ___ Jacke. (Akkusativ — eine Jacke, Akk.)
 
 **Optionen:**
 - einen
@@ -270,7 +270,7 @@
 ### 19. `a1-akk-021` · select-one
 
 **Aufgabe:**
-> Ich sehe ___ Mann. (Akkusativ — Akk.)
+> Ich sehe ___ Mann. (Akkusativ — der Mann, Akk.)
 
 **Optionen:**
 - des
@@ -284,7 +284,7 @@
 ### 20. `a1-akk-022` · select-one
 
 **Aufgabe:**
-> Ich kaufe ___ Apfel. (Akkusativ — Akk.)
+> Ich kaufe ___ Apfel. (Akkusativ — ein Apfel, Akk.)
 
 **Optionen:**
 - eine
@@ -298,7 +298,7 @@
 ### 21. `a1-akk-023` · select-one
 
 **Aufgabe:**
-> Ich esse ___ Brot. (Akkusativ — Akk.)
+> Ich esse ___ Brot. (Akkusativ — das Brot, Akk.)
 
 **Optionen:**
 - dem
@@ -312,7 +312,7 @@
 ### 22. `a1-akk-024` · select-one
 
 **Aufgabe:**
-> Ich trinke ___ Wasser. (Akkusativ — Akk.)
+> Ich trinke ___ Wasser. (Akkusativ — das Wasser, Akk.)
 
 **Optionen:**
 - die
@@ -326,7 +326,7 @@
 ### 23. `a1-akk-025` · select-one
 
 **Aufgabe:**
-> Ich lese ___ Buch. (Akkusativ — Akk.)
+> Ich lese ___ Buch. (Akkusativ — ein Buch, Akk.)
 
 **Optionen:**
 - einen
@@ -340,7 +340,7 @@
 ### 24. `a1-akk-026` · select-one
 
 **Aufgabe:**
-> Ich besuche ___ Freundin. (Akkusativ — Akk.)
+> Ich besuche ___ Freundin. (Akkusativ — meine Freundin, Akk.)
 
 **Optionen:**
 - meinen
@@ -354,7 +354,7 @@
 ### 25. `a1-akk-027` · select-one
 
 **Aufgabe:**
-> Ich nehme ___ Bus. (Akkusativ — Akk.)
+> Ich nehme ___ Bus. (Akkusativ — der Bus, Akk.)
 
 **Optionen:**
 - dem
@@ -368,7 +368,7 @@
 ### 26. `a1-akk-028` · select-one
 
 **Aufgabe:**
-> Ich brauche ___ Regenschirm. (Akkusativ — Akk.)
+> Ich brauche ___ Regenschirm. (Akkusativ — ein Regenschirm, Akk.)
 
 **Optionen:**
 - eine
@@ -382,7 +382,7 @@
 ### 27. `a1-akk-029` · select-one
 
 **Aufgabe:**
-> Ich suche ___ Hotel. (Akkusativ — Akk.)
+> Ich suche ___ Hotel. (Akkusativ — ein Hotel, Akk.)
 
 **Optionen:**
 - einen
@@ -396,7 +396,7 @@
 ### 28. `a1-akk-030` · select-one
 
 **Aufgabe:**
-> Ich spiele ___ Ball. (Akkusativ — mein Freund, Akk.)
+> Ich spiele ___ Ball. (Akkusativ — der Ball, Akk.)
 
 **Optionen:**
 - dem
@@ -410,7 +410,7 @@
 ### 29. `a1-akk-031` · select-one
 
 **Aufgabe:**
-> Ich höre ___ Musik. (Akkusativ — Akkusativform)
+> Ich höre ___ Musik. (Akkusativ — die Musik, Akk.)
 
 **Optionen:**
 - der
@@ -424,7 +424,7 @@
 ### 30. `a1-akk-032` · select-one
 
 **Aufgabe:**
-> Ich mache ___ Foto. (Akkusativ — Akk.)
+> Ich mache ___ Foto. (Akkusativ — ein Foto, Akk.)
 
 **Optionen:**
 - eine
@@ -438,7 +438,7 @@
 ### 31. `a1-akk-033` · select-one
 
 **Aufgabe:**
-> Ich liebe ___ Stadt. (Akkusativ — Akk.)
+> Ich liebe ___ Stadt. (Akkusativ — diese Stadt, Akk.)
 
 **Optionen:**
 - diesen
@@ -452,7 +452,7 @@
 ### 32. `a1-akk-034` · select-one
 
 **Aufgabe:**
-> Ich finde ___ Film toll. (Akkusativ — Akk.)
+> Ich finde ___ Film toll. (Akkusativ — der Film, Akk.)
 
 **Optionen:**
 - der
@@ -466,7 +466,7 @@
 ### 33. `a1-akk-035` · select-one
 
 **Aufgabe:**
-> Ich kaufe ___ Jacke. (Akkusativ — Akk.)
+> Ich kaufe ___ Jacke. (Akkusativ — eine Jacke, Akk.)
 
 **Optionen:**
 - einen
@@ -480,7 +480,7 @@
 ### 34. `a1-akk-036` · select-one
 
 **Aufgabe:**
-> Ich sehe ___ Mann. (Akkusativ — Akk.)
+> Ich sehe ___ Mann. (Akkusativ — der Mann, Akk.)
 
 **Optionen:**
 - des
@@ -494,7 +494,7 @@
 ### 35. `a1-akk-037` · select-one
 
 **Aufgabe:**
-> Ich kaufe ___ Apfel. (Akkusativ — Akk.)
+> Ich kaufe ___ Apfel. (Akkusativ — ein Apfel, Akk.)
 
 **Optionen:**
 - ein
@@ -508,7 +508,7 @@
 ### 36. `a1-akk-038` · select-one
 
 **Aufgabe:**
-> Ich esse ___ Brot. (Akkusativ — Akk.)
+> Ich esse ___ Brot. (Akkusativ — das Brot, Akk.)
 
 **Optionen:**
 - der
@@ -522,7 +522,7 @@
 ### 37. `a1-akk-039` · select-one
 
 **Aufgabe:**
-> Ich trinke ___ Wasser. (Akkusativ — Akk.)
+> Ich trinke ___ Wasser. (Akkusativ — das Wasser, Akk.)
 
 **Optionen:**
 - dem
@@ -536,7 +536,7 @@
 ### 38. `a1-akk-040` · select-one
 
 **Aufgabe:**
-> Ich lese ___ Buch. (Akkusativ — Akk.)
+> Ich lese ___ Buch. (Akkusativ — ein Buch, Akk.)
 
 **Optionen:**
 - eine
@@ -550,7 +550,7 @@
 ### 39. `a1-akk-041` · select-one
 
 **Aufgabe:**
-> Ich besuche ___ Freundin. (Akkusativ — Akk.)
+> Ich besuche ___ Freundin. (Akkusativ — meine Freundin, Akk.)
 
 **Optionen:**
 - mein
@@ -564,7 +564,7 @@
 ### 40. `a1-akk-042` · select-one
 
 **Aufgabe:**
-> Ich nehme ___ Bus. (Akkusativ — Akk.)
+> Ich nehme ___ Bus. (Akkusativ — der Bus, Akk.)
 
 **Optionen:**
 - dem
@@ -578,7 +578,7 @@
 ### 41. `a1-akk-043` · select-one
 
 **Aufgabe:**
-> Ich brauche ___ Regenschirm. (Akkusativ — Akk.)
+> Ich brauche ___ Regenschirm. (Akkusativ — ein Regenschirm, Akk.)
 
 **Optionen:**
 - eine
@@ -592,7 +592,7 @@
 ### 42. `a1-akk-044` · select-one
 
 **Aufgabe:**
-> Ich suche ___ Hotel. (Akkusativ — Akkusativform)
+> Ich suche ___ Hotel. (Akkusativ — ein Hotel, Akk.)
 
 **Optionen:**
 - eine
@@ -606,7 +606,7 @@
 ### 43. `a1-akk-045` · select-one
 
 **Aufgabe:**
-> Ich spiele ___ Ball. (Akkusativ — Akkusativform)
+> Ich spiele ___ Ball. (Akkusativ — der Ball, Akk.)
 
 **Optionen:**
 - der
@@ -620,7 +620,7 @@
 ### 44. `a1-akk-046` · select-one
 
 **Aufgabe:**
-> Ich höre ___ Musik. (Akkusativ — Akk.)
+> Ich höre ___ Musik. (Akkusativ — die Musik, Akk.)
 
 **Optionen:**
 - dem
@@ -634,7 +634,7 @@
 ### 45. `a1-akk-047` · select-one
 
 **Aufgabe:**
-> Ich mache ___ Foto. (Akkusativ — Akk.)
+> Ich mache ___ Foto. (Akkusativ — ein Foto, Akk.)
 
 **Optionen:**
 - einen
@@ -648,7 +648,7 @@
 ### 46. `a1-akk-048` · select-one
 
 **Aufgabe:**
-> Ich liebe ___ Stadt. (Akkusativ — Akk.)
+> Ich liebe ___ Stadt. (Akkusativ — diese Stadt, Akk.)
 
 **Optionen:**
 - dieser
@@ -662,7 +662,7 @@
 ### 47. `a1-akk-049` · select-one
 
 **Aufgabe:**
-> Ich finde ___ Film toll. (Akkusativ — Akk.)
+> Ich finde ___ Film toll. (Akkusativ — der Film, Akk.)
 
 **Optionen:**
 - des
@@ -676,7 +676,7 @@
 ### 48. `a1-akk-050` · select-one
 
 **Aufgabe:**
-> Ich kaufe ___ Jacke. (Akkusativ — Akk.)
+> Ich kaufe ___ Jacke. (Akkusativ — eine Jacke, Akk.)
 
 **Optionen:**
 - einer
@@ -715,7 +715,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-## Eingabe (51)
+## Eingabe (50)
 
 ### 51. `a1-akk-in-001` · input-text
 
@@ -727,17 +727,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 52. `a1-fill-1` · input-text
-
-**Aufgabe:**
-> Ich kaufe ___ Apfel. (Akkusativform)
-
-**Antwort:** `einen`
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 53. `a1-akk-in-002` · input-text
+### 52. `a1-akk-in-002` · input-text
 
 **Aufgabe:**
 > Ich kaufe ___ Apfel. (Akkusativ — Akk.)
@@ -747,7 +737,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 54. `a1-akk-in-003` · input-text
+### 53. `a1-akk-in-003` · input-text
 
 **Aufgabe:**
 > Ich esse ___ Brot. (Akkusativ — Akk.)
@@ -757,7 +747,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 55. `a1-akk-in-004` · input-text
+### 54. `a1-akk-in-004` · input-text
 
 **Aufgabe:**
 > Ich trinke ___ Wasser. (Akkusativ — Akk.)
@@ -767,7 +757,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 56. `a1-akk-in-005` · input-text
+### 55. `a1-akk-in-005` · input-text
 
 **Aufgabe:**
 > Ich lese ___ Buch. (Akkusativ — Akk.)
@@ -777,7 +767,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 57. `a1-akk-in-006` · input-text
+### 56. `a1-akk-in-006` · input-text
 
 **Aufgabe:**
 > Ich besuche ___ Freundin. (Akkusativ — Akkusativform)
@@ -787,7 +777,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 58. `a1-akk-in-007` · input-text
+### 57. `a1-akk-in-007` · input-text
 
 **Aufgabe:**
 > Ich nehme ___ Bus. (Akkusativ — Akk.)
@@ -797,7 +787,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 59. `a1-akk-in-008` · input-text
+### 58. `a1-akk-in-008` · input-text
 
 **Aufgabe:**
 > Ich brauche ___ Regenschirm. (Akkusativ — Akk.)
@@ -807,7 +797,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 60. `a1-akk-in-009` · input-text
+### 59. `a1-akk-in-009` · input-text
 
 **Aufgabe:**
 > Ich suche ___ Hotel. (Akkusativ — Akk.)
@@ -817,7 +807,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 61. `a1-akk-in-010` · input-text
+### 60. `a1-akk-in-010` · input-text
 
 **Aufgabe:**
 > Ich spiele ___ Ball. (Akkusativ — Akk.)
@@ -827,7 +817,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 62. `a1-akk-in-011` · input-text
+### 61. `a1-akk-in-011` · input-text
 
 **Aufgabe:**
 > Ich höre ___ Musik. (Akkusativ — Akk.)
@@ -837,7 +827,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 63. `a1-akk-in-012` · input-text
+### 62. `a1-akk-in-012` · input-text
 
 **Aufgabe:**
 > Ich mache ___ Foto. (Akkusativ — Akk.)
@@ -847,7 +837,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 64. `a1-akk-in-013` · input-text
+### 63. `a1-akk-in-013` · input-text
 
 **Aufgabe:**
 > Ich liebe ___ Stadt. (Akkusativ — Akkusativform)
@@ -857,7 +847,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 65. `a1-akk-in-014` · input-text
+### 64. `a1-akk-in-014` · input-text
 
 **Aufgabe:**
 > Ich finde ___ Film toll. (Akkusativ — Akk.)
@@ -867,7 +857,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 66. `a1-akk-in-015` · input-text
+### 65. `a1-akk-in-015` · input-text
 
 **Aufgabe:**
 > Ich kaufe ___ Jacke. (Akkusativ — Akk.)
@@ -877,7 +867,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 67. `a1-akk-in-016` · input-text
+### 66. `a1-akk-in-016` · input-text
 
 **Aufgabe:**
 > Ich rufe ___ Bruder an. (Akkusativ — mein Bruder, Akk.)
@@ -887,7 +877,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 68. `a1-akk-in-017` · input-text
+### 67. `a1-akk-in-017` · input-text
 
 **Aufgabe:**
 > Ich schreibe ___ Aufgabe. (Akkusativ — Akk.)
@@ -897,7 +887,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 69. `a1-akk-in-018` · input-text
+### 68. `a1-akk-in-018` · input-text
 
 **Aufgabe:**
 > Ich bestelle ___ Salat. (Akkusativ — Akk.)
@@ -907,7 +897,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 70. `a1-akk-in-019` · input-text
+### 69. `a1-akk-in-019` · input-text
 
 **Aufgabe:**
 > Ich verpasse ___ Zug. (Akkusativ — Akk.)
@@ -917,7 +907,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 71. `a1-akk-in-020` · input-text
+### 70. `a1-akk-in-020` · input-text
 
 **Aufgabe:**
 > Ich kenne ___ Straße gut. (Akkusativ — Akk.)
@@ -927,7 +917,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 72. `a1-akk-in-021` · input-text
+### 71. `a1-akk-in-021` · input-text
 
 **Aufgabe:**
 > Ich brauche ___ Termin. (Akkusativ — Akk.)
@@ -937,7 +927,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 73. `a1-akk-in-022` · input-text
+### 72. `a1-akk-in-022` · input-text
 
 **Aufgabe:**
 > Er sucht ___ Job. (Akkusativ — Akk.)
@@ -947,7 +937,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 74. `a1-akk-in-023` · input-text
+### 73. `a1-akk-in-023` · input-text
 
 **Aufgabe:**
 > Ich putze ___ Zimmer. (Akkusativ — Akk.)
@@ -957,7 +947,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 75. `a1-akk-in-024` · input-text
+### 74. `a1-akk-in-024` · input-text
 
 **Aufgabe:**
 > Ich streichle ___ Katze. (Akkusativ — Akk.)
@@ -967,7 +957,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 76. `a1-akk-in-025` · input-text
+### 75. `a1-akk-in-025` · input-text
 
 **Aufgabe:**
 > Sie kauft ___ Rock. (Akkusativ — Akk.)
@@ -977,7 +967,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 77. `a1-akk-in-026` · input-text
+### 76. `a1-akk-in-026` · input-text
 
 **Aufgabe:**
 > Er hört ___ Song. (Akkusativ — Akk.)
@@ -987,7 +977,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 78. `a1-akk-in-027` · input-text
+### 77. `a1-akk-in-027` · input-text
 
 **Aufgabe:**
 > Wir gewinnen ___ Spiel. (Akkusativ — Akk.)
@@ -997,7 +987,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 79. `a1-akk-in-028` · input-text
+### 78. `a1-akk-in-028` · input-text
 
 **Aufgabe:**
 > Wir besuchen ___ Museum. (Akkusativ — Akk.)
@@ -1007,7 +997,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 80. `a1-akk-in-029` · input-text
+### 79. `a1-akk-in-029` · input-text
 
 **Aufgabe:**
 > Ich bezahle ___ Einkauf. (Akkusativ — Akk.)
@@ -1017,7 +1007,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 81. `a1-akk-in-030` · input-text
+### 80. `a1-akk-in-030` · input-text
 
 **Aufgabe:**
 > Ich treffe ___ Freund. (Akkusativ — mein Freund, Akk.)
@@ -1027,7 +1017,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 82. `a1-akk-in-031` · input-text
+### 81. `a1-akk-in-031` · input-text
 
 **Aufgabe:**
 > Ich besuche ___ Großmutter. (Akkusativ — Akkusativform)
@@ -1037,7 +1027,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 83. `a1-akk-in-032` · input-text
+### 82. `a1-akk-in-032` · input-text
 
 **Aufgabe:**
 > Ich lerne ___ Wörter. (Akkusativ — Akk.)
@@ -1047,7 +1037,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 84. `a1-akk-in-033` · input-text
+### 83. `a1-akk-in-033` · input-text
 
 **Aufgabe:**
 > Sie isst ___ Banane. (Akkusativ — Akk.)
@@ -1057,7 +1047,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 85. `a1-akk-in-034` · input-text
+### 84. `a1-akk-in-034` · input-text
 
 **Aufgabe:**
 > Er repariert ___ Fahrrad. (Akkusativ — Akk.)
@@ -1067,7 +1057,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 86. `a1-akk-in-035` · input-text
+### 85. `a1-akk-in-035` · input-text
 
 **Aufgabe:**
 > Wir erkunden ___ Markt. (Akkusativ — Akk.)
@@ -1077,7 +1067,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 87. `a1-akk-in-036` · input-text
+### 86. `a1-akk-in-036` · input-text
 
 **Aufgabe:**
 > Ich schaue ___ Serie. (Akkusativ — Akk.)
@@ -1087,7 +1077,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 88. `a1-akk-in-037` · input-text
+### 87. `a1-akk-in-037` · input-text
 
 **Aufgabe:**
 > Ich nehme ___ Sonnencreme mit. (Akkusativ — Akk.)
@@ -1097,7 +1087,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 89. `a1-akk-in-038` · input-text
+### 88. `a1-akk-in-038` · input-text
 
 **Aufgabe:**
 > Sie trinkt ___ Tee. (Akkusativ — Akk.)
@@ -1107,7 +1097,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 90. `a1-akk-in-039` · input-text
+### 89. `a1-akk-in-039` · input-text
 
 **Aufgabe:**
 > Ich beende ___ Projekt. (Akkusativ — Akk.)
@@ -1117,7 +1107,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 91. `a1-akk-in-040` · input-text
+### 90. `a1-akk-in-040` · input-text
 
 **Aufgabe:**
 > Wir hören ___ Konzert. (Akkusativ — Akk.)
@@ -1127,17 +1117,17 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 92. `a1-akk-in-041` · input-text
+### 91. `a1-akk-in-041` · input-text
 
 **Aufgabe:**
-> Er wirft ___ Frisbee. (Akkusativ — Akk.)
+> Er wirft ___ Ball. (Akkusativ — der Ball, Akk.)
 
 **Antwort:** `den`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 93. `a1-akk-in-042` · input-text
+### 92. `a1-akk-in-042` · input-text
 
 **Aufgabe:**
 > Ich buche ___ Flug. (Akkusativ — Akk.)
@@ -1147,7 +1137,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 94. `a1-akk-in-043` · input-text
+### 93. `a1-akk-in-043` · input-text
 
 **Aufgabe:**
 > Ich finde ___ Angebot. (Akkusativ — Akk.)
@@ -1157,7 +1147,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 95. `a1-akk-in-044` · input-text
+### 94. `a1-akk-in-044` · input-text
 
 **Aufgabe:**
 > Ich lade ___ Kollegin ein. (Akkusativ — Akkusativform)
@@ -1167,7 +1157,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 96. `a1-akk-in-045` · input-text
+### 95. `a1-akk-in-045` · input-text
 
 **Aufgabe:**
 > Er liebt ___ Familie. (Akkusativ — Akkusativform)
@@ -1177,7 +1167,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 97. `a1-akk-in-046` · input-text
+### 96. `a1-akk-in-046` · input-text
 
 **Aufgabe:**
 > Du liest ___ Text. (Akkusativ — Akk.)
@@ -1187,7 +1177,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 98. `a1-akk-in-047` · input-text
+### 97. `a1-akk-in-047` · input-text
 
 **Aufgabe:**
 > Wir teilen ___ Pizza. (Akkusativ — Akk.)
@@ -1197,7 +1187,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 99. `a1-akk-in-048` · input-text
+### 98. `a1-akk-in-048` · input-text
 
 **Aufgabe:**
 > Sie kauft ___ Ticket. (Akkusativ — Akk.)
@@ -1207,7 +1197,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 100. `a1-akk-in-049` · input-text
+### 99. `a1-akk-in-049` · input-text
 
 **Aufgabe:**
 > Ich fotografiere ___ Brücke. (Akkusativ — Akk.)
@@ -1217,7 +1207,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 101. `a1-akk-in-050` · input-text
+### 100. `a1-akk-in-050` · input-text
 
 **Aufgabe:**
 > Er sammelt ___ Briefmarken. (Akkusativ — Akk.)
@@ -1227,9 +1217,9 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-## Wörter ordnen (51)
+## Wörter ordnen (50)
 
-### 102. `a1-akk-dd-001` · dropbox
+### 101. `a1-akk-dd-001` · dropbox
 
 **Aufgabe:**
 > [Stadt] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Mann sehen)
@@ -1239,7 +1229,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 103. `a1-akk-dd-002` · dropbox
+### 102. `a1-akk-dd-002` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Apfel kaufen)
@@ -1249,17 +1239,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 104. `a1-sort-2` · dropbox
-
-**Aufgabe:**
-> Ordne die Wörter zum richtigen Satz:
-
-**Wörter:** Ich · kaufe · einen · roten · Apfel
-
-- [ ] OK
-- [ ] Fehler / Anmerkung:
-
-### 105. `a1-akk-dd-003` · dropbox
+### 103. `a1-akk-dd-003` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das Brot essen)
@@ -1269,7 +1249,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 106. `a1-akk-dd-004` · dropbox
+### 104. `a1-akk-dd-004` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Buch lesen)
@@ -1279,7 +1259,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 107. `a1-akk-dd-005` · dropbox
+### 105. `a1-akk-dd-005` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — meine Freundin besuchen)
@@ -1289,7 +1269,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 108. `a1-akk-dd-006` · dropbox
+### 106. `a1-akk-dd-006` · dropbox
 
 **Aufgabe:**
 > [Transport] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Bus nehmen)
@@ -1299,7 +1279,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 109. `a1-akk-dd-007` · dropbox
+### 107. `a1-akk-dd-007` · dropbox
 
 **Aufgabe:**
 > [Wetter] Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Schirm brauchen)
@@ -1309,7 +1289,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 110. `a1-akk-dd-008` · dropbox
+### 108. `a1-akk-dd-008` · dropbox
 
 **Aufgabe:**
 > [Reisen] Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Hotel suchen)
@@ -1319,7 +1299,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 111. `a1-akk-dd-009` · dropbox
+### 109. `a1-akk-dd-009` · dropbox
 
 **Aufgabe:**
 > [Sport] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Ball werfen)
@@ -1329,7 +1309,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 112. `a1-akk-dd-010` · dropbox
+### 110. `a1-akk-dd-010` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — die Musik hören)
@@ -1339,7 +1319,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 113. `a1-akk-dd-011` · dropbox
+### 111. `a1-akk-dd-011` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Foto machen)
@@ -1349,7 +1329,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 114. `a1-akk-dd-012` · dropbox
+### 112. `a1-akk-dd-012` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Jacke kaufen)
@@ -1359,7 +1339,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 115. `a1-akk-dd-013` · dropbox
+### 113. `a1-akk-dd-013` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — meinen Bruder rufen)
@@ -1369,7 +1349,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 116. `a1-akk-dd-014` · dropbox
+### 114. `a1-akk-dd-014` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — die Aufgabe schreiben)
@@ -1379,7 +1359,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 117. `a1-akk-dd-015` · dropbox
+### 115. `a1-akk-dd-015` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Salat bestellen)
@@ -1389,7 +1369,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 118. `a1-akk-dd-016` · dropbox
+### 116. `a1-akk-dd-016` · dropbox
 
 **Aufgabe:**
 > [Transport] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Zug verpassen)
@@ -1399,7 +1379,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 119. `a1-akk-dd-017` · dropbox
+### 117. `a1-akk-dd-017` · dropbox
 
 **Aufgabe:**
 > [Stadt] Ordne die Wörter zum richtigen Satz: (Akkusativ — die Straße kennen)
@@ -1409,7 +1389,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 120. `a1-akk-dd-018` · dropbox
+### 118. `a1-akk-dd-018` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Termin brauchen)
@@ -1419,7 +1399,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 121. `a1-akk-dd-019` · dropbox
+### 119. `a1-akk-dd-019` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Job suchen)
@@ -1429,7 +1409,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 122. `a1-akk-dd-020` · dropbox
+### 120. `a1-akk-dd-020` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das Zimmer putzen)
@@ -1439,7 +1419,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 123. `a1-akk-dd-021` · dropbox
+### 121. `a1-akk-dd-021` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — die Katze streicheln)
@@ -1449,7 +1429,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 124. `a1-akk-dd-022` · dropbox
+### 122. `a1-akk-dd-022` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — einen Rock kaufen)
@@ -1459,7 +1439,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 125. `a1-akk-dd-023` · dropbox
+### 123. `a1-akk-dd-023` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — den Song hören)
@@ -1469,7 +1449,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 126. `a1-akk-dd-024` · dropbox
+### 124. `a1-akk-dd-024` · dropbox
 
 **Aufgabe:**
 > [Sport] Ordne die Wörter zum richtigen Satz: (Akkusativ — das Spiel gewinnen)
@@ -1479,7 +1459,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 127. `a1-akk-dd-025` · dropbox
+### 125. `a1-akk-dd-025` · dropbox
 
 **Aufgabe:**
 > [Reisen] Ordne die Wörter zum richtigen Satz: (Akkusativ — das Museum besuchen)
@@ -1489,7 +1469,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 128. `a1-akk-dd-026` · dropbox
+### 126. `a1-akk-dd-026` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — den Einkauf bezahlen)
@@ -1499,7 +1479,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 129. `a1-akk-dd-027` · dropbox
+### 127. `a1-akk-dd-027` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — meinen Freund treffen)
@@ -1509,7 +1489,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 130. `a1-akk-dd-028` · dropbox
+### 128. `a1-akk-dd-028` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — meine Oma besuchen)
@@ -1519,7 +1499,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 131. `a1-akk-dd-029` · dropbox
+### 129. `a1-akk-dd-029` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Banane essen)
@@ -1529,7 +1509,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 132. `a1-akk-dd-030` · dropbox
+### 130. `a1-akk-dd-030` · dropbox
 
 **Aufgabe:**
 > [Transport] Ordne die Wörter zum richtigen Satz: (Akkusativ — das Fahrrad reparieren)
@@ -1539,7 +1519,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 133. `a1-akk-dd-031` · dropbox
+### 131. `a1-akk-dd-031` · dropbox
 
 **Aufgabe:**
 > [Stadt] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Markt erkunden)
@@ -1549,7 +1529,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 134. `a1-akk-dd-032` · dropbox
+### 132. `a1-akk-dd-032` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — eine Serie schauen)
@@ -1559,7 +1539,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 135. `a1-akk-dd-033` · dropbox
+### 133. `a1-akk-dd-033` · dropbox
 
 **Aufgabe:**
 > [Wetter] Ordne die Wörter zum richtigen Satz: (Akkusativ — die Sonne genießen)
@@ -1569,7 +1549,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 136. `a1-akk-dd-034` · dropbox
+### 134. `a1-akk-dd-034` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — den Tee trinken)
@@ -1579,7 +1559,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 137. `a1-akk-dd-035` · dropbox
+### 135. `a1-akk-dd-035` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das Projekt beenden)
@@ -1589,7 +1569,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 138. `a1-akk-dd-036` · dropbox
+### 136. `a1-akk-dd-036` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das Konzert hören)
@@ -1599,17 +1579,17 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 139. `a1-akk-dd-037` · dropbox
+### 137. `a1-akk-dd-037` · dropbox
 
 **Aufgabe:**
-> [Sport] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Frisbee werfen)
+> [Sport] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Ball werfen)
 
-**Wörter:** Er · wirft · den · Frisbee
+**Wörter:** Er · wirft · den · Ball
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 140. `a1-akk-dd-038` · dropbox
+### 138. `a1-akk-dd-038` · dropbox
 
 **Aufgabe:**
 > [Reisen] Ordne die Wörter zum richtigen Satz: (Akkusativ — den Flug buchen)
@@ -1619,7 +1599,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 141. `a1-akk-dd-039` · dropbox
+### 139. `a1-akk-dd-039` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das Angebot finden)
@@ -1629,7 +1609,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 142. `a1-akk-dd-040` · dropbox
+### 140. `a1-akk-dd-040` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — den Text lesen)
@@ -1639,7 +1619,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 143. `a1-akk-dd-041` · dropbox
+### 141. `a1-akk-dd-041` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — die Pizza teilen)
@@ -1649,7 +1629,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 144. `a1-akk-dd-042` · dropbox
+### 142. `a1-akk-dd-042` · dropbox
 
 **Aufgabe:**
 > [Transport] Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Ticket kaufen)
@@ -1659,7 +1639,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 145. `a1-akk-dd-043` · dropbox
+### 143. `a1-akk-dd-043` · dropbox
 
 **Aufgabe:**
 > [Stadt] Ordne die Wörter zum richtigen Satz: (Akkusativ — die Brücke fotografieren)
@@ -1669,17 +1649,17 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 146. `a1-akk-dd-044` · dropbox
+### 144. `a1-akk-dd-044` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — Briefmarken sammeln)
+> [Hobby] Ordne die Wörter zum richtigen Satz: (Akkusativ — Briefmarken sammeln)
 
-**Wörter:** Er · sammelt · Briefmarken · gern
+**Wörter:** Er · sammelt · Briefmarken
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 147. `a1-akk-dd-045` · dropbox
+### 145. `a1-akk-dd-045` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — das Fenster öffnen)
@@ -1689,7 +1669,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 148. `a1-akk-dd-046` · dropbox
+### 146. `a1-akk-dd-046` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — seine Familie lieben)
@@ -1699,7 +1679,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 149. `a1-akk-dd-047` · dropbox
+### 147. `a1-akk-dd-047` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — meine Kollegin einladen)
@@ -1709,7 +1689,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 150. `a1-akk-dd-048` · dropbox
+### 148. `a1-akk-dd-048` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — den Hund spazieren führen)
@@ -1719,7 +1699,7 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 151. `a1-akk-dd-049` · dropbox
+### 149. `a1-akk-dd-049` · dropbox
 
 **Aufgabe:**
 > Ordne die Wörter zum richtigen Satz: (Akkusativ — die Bluse kaufen)
@@ -1729,12 +1709,12 @@
 - [ ] OK
 - [ ] Fehler / Anmerkung:
 
-### 152. `a1-akk-dd-050` · dropbox
+### 150. `a1-akk-dd-050` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Akkusativ — die Medizin nehmen)
+> [Gesundheit] Ordne die Wörter zum richtigen Satz: (Akkusativ — die Medizin nehmen)
 
-**Wörter:** Nimm · die · Medizin · bitte
+**Wörter:** Nimm · die · Medizin
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

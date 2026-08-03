@@ -2,13 +2,16 @@
 id: b1-indfr-dd-025
 type: dropbox
 words:
-  - Ich
-  - frage
-  - mich
-  - ob
-  - er
-  - recht
+  - Sie
+  - will
+  - wissen
+  - was
+  - der
+  - Minister
+  - gesagt
   - hat
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — ob er recht hat)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

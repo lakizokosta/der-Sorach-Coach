@@ -2,13 +2,14 @@
 id: b1-adj-dd-042
 type: dropbox
 words:
-  - Die
-  - Zeitung
-  - berichtet
-  - über
-  - eine
-  - aktuelle
-  - Entwicklung
+  - Er
+  - hat
+  - einen
+  - guten
+  - Rat
+  - für
+  - meine
+  - Bewerbung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — wichtiges Thema)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

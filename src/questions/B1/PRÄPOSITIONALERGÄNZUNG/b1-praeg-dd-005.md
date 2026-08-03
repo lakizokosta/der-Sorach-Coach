@@ -9,4 +9,4 @@ words:
   - Politik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — interessiert für)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

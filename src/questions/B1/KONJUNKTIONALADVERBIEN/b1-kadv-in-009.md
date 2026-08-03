@@ -1,8 +1,11 @@
 ---
 id: b1-kadv-in-009
 type: input-text
+hint: Konjunktionaladverb — Außerdem / Denn / Deshalb / Trotzdem
 correct:
   - Außerdem
 ---
 
-Sie studiert Medizin. ___, jobbt sie nebenbei. (Konjunktionaladverb)
+Ergänze das Konjunktionaladverb:
+
+Sie studiert Medizin. ___, jobbt sie nebenbei.

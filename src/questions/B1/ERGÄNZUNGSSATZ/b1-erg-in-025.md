@@ -1,8 +1,11 @@
 ---
 id: b1-erg-in-025
 type: input-text
+hint: Ergänzungssatz
 correct:
-  - dass
+  - ob
 ---
 
-Man hört, ___ die Preise steigen. (Ergänzungssatz)
+Ergänze die Konjunktion (Ergänzung):
+
+Ich frage mich, ___ er recht hat.

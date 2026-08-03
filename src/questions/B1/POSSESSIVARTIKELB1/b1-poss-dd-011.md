@@ -10,4 +10,4 @@ words:
   - Wochenende
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihre Eltern)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

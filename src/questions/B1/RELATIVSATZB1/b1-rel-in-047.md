@@ -1,8 +1,11 @@
 ---
 id: b1-rel-in-047
 type: input-text
+hint: Relativpronomen — fem./Pl., Nom./Akk.
 correct:
   - die
 ---
 
-Die Professorin, ___ ich gestern traf, war nett. (Relativpronomen)
+Ergänze das Relativpronomen:
+
+Die Professorin, ___ ich gestern traf, war nett.

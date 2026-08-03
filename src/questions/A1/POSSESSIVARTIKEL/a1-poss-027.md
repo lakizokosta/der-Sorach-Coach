@@ -2,10 +2,10 @@
 id: a1-poss-027
 type: select-one
 options:
-  - meinen
+  - ihrem
   - ihre
-  - sein
-  - unsere
+  - ihr
+  - ihrer
 correct: ihre
 ---
 

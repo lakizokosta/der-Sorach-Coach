@@ -1,8 +1,11 @@
 ---
 id: b1-pradv-in-012
 type: input-text
+hint: Pronominaladverb — Präp. an
 correct:
-  - darin
+  - daran
 ---
 
-Vertraust du in das Team? — Ich vertraue ___. (Pronominaladverb)
+Ergänze das Pronominaladverb:
+
+Glaubst du an einen Erfolg? — Ich glaube ___.

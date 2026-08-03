@@ -2,15 +2,14 @@
 id: b1-adj-dd-044
 type: dropbox
 words:
-  - Wir
-  - sprechen
-  - mit
-  - einem
-  - neuen
-  - Professor
-  - über
-  - das
-  - Projekt
+  - Das
+  - ist
+  - ein
+  - wichtiges
+  - Thema
+  - in
+  - der
+  - Politik
 ---
 
-Ordne die Wörter zum richtigen Satz: (Adjektivdeklination — großen Krankenhaus)
+Ordne die Wörter zum richtigen Satz: (Adjektivdeklination)

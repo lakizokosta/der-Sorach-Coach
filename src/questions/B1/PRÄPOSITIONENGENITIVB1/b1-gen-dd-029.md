@@ -2,12 +2,13 @@
 id: b1-gen-dd-029
 type: dropbox
 words:
-  - Trotz
-  - des
-  - Regens
-  - gehen
-  - wir
-  - spazieren
+  - Wegen
+  - der
+  - hohen
+  - Nachfrage
+  - steigen
+  - die
+  - Preise
 ---
 
-Ordne die Wörter zum richtigen Satz: (Genitivpräp — Trotz Regens)
+Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

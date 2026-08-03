@@ -2,16 +2,15 @@
 id: b1-kadv-dd-033
 type: dropbox
 words:
-  - Es
-  - regnete
-  - den
-  - ganzen
-  - Tag
-  - Trotzdem
-  - sind
-  - wir
-  - spazieren
-  - gegangen
+  - Sie
+  - spricht
+  - fließend
+  - Englisch
+  - Außerdem
+  - kann
+  - sie
+  - auch
+  - Französisch
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb — Dennoch teilgenommen)
+Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

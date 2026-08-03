@@ -1,8 +1,11 @@
 ---
 id: b1-npv-in-040
 type: input-text
+hint: Nomen + Präposition
 correct:
   - an
 ---
 
-Sie hat Freude ___ ihrer Arbeit. (Nomen + Präposition)
+Ergänze die passende Präposition:
+
+Sie hat Freude ___ ihrer Arbeit.

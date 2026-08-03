@@ -9,6 +9,8 @@ words:
   - wir
   - pünktlich
   - sind
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — dass)

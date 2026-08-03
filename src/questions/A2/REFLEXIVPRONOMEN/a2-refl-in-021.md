@@ -1,8 +1,11 @@
 ---
 id: a2-refl-in-021
 type: input-text
+hint: Reflexiv + Verb beeilen
 correct:
   - beeilt
 ---
 
-Sie ___ sich, weil der Zug kommt. (Reflexiv + Verb beeilen)
+Ergänze die Reflexivform:
+
+Sie ___ sich, weil der Zug kommt.

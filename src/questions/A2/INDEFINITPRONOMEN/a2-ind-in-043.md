@@ -1,8 +1,11 @@
 ---
 id: a2-ind-in-043
 type: input-text
+hint: Indefinitpronomen — unbestimmte Sache = etwas
 correct:
   - etwas
 ---
 
-Es gibt ___ Neues im Radio. (Indefinitpronomen — Sache)
+Ergänze das Indefinitpronomen:
+
+Es gibt ___ Neues im Radio.

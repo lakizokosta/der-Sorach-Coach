@@ -9,4 +9,4 @@ words:
   - übersetzen
 ---
 
-Ordne die Wörter zum richtigen Satz: (lassen + Verb bersetzen)
+Ordne die Wörter zum richtigen Satz: (Verben lassen)

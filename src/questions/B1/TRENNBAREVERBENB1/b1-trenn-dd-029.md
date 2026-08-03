@@ -2,12 +2,12 @@
 id: b1-trenn-dd-029
 type: dropbox
 words:
-  - Ich
-  - rufe
-  - den
-  - Kollegen
-  - später
-  - an
+  - Er
+  - bereitet
+  - die
+  - Präsentation
+  - gut
+  - vor
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb vorbereiteen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

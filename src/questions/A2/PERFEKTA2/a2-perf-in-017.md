@@ -1,8 +1,11 @@
 ---
 id: a2-perf-in-017
 type: input-text
+hint: Perfekt + Hilfsverb haben
 correct:
   - hat
 ---
 
-Er ___ sich für den Tanzsport interessiert. (Perfekt + Hilfsverb haben)
+Ergänze die Perfektform:
+
+Er ___ sich für den Tanzsport interessiert.

@@ -1,8 +1,11 @@
 ---
 id: a2-lokal-in-012
 type: input-text
+hint: Lokalpräposition — an / auf / aus / durch / gegenüber / hinter / neben / rechts / über / unter / vor / zwischen
 correct:
   - unter
 ---
 
-Der Hund liegt ___ dem Tisch. (Lokalpräposition)
+Ergänze die Lokalpräposition:
+
+Der Hund liegt ___ dem Tisch.

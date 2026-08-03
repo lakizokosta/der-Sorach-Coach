@@ -9,6 +9,8 @@ words:
   - der
   - Zug
   - kommt
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb beeilen)

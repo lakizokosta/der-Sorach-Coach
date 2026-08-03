@@ -1,8 +1,11 @@
 ---
 id: a1-pl-in-027
 type: input-text
+hint: Plural: Spiel
 correct:
   - Spiele
 ---
 
-Kinder lieben bunte ___. (Plural)
+Ergänze die Pluralform:
+
+Kinder lieben bunte ___.

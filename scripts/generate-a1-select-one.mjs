@@ -114,7 +114,7 @@ function genPossessiv() {
     { theme: 'Hobby', case: 'nom_n', noun: 'Fahrrad', prompt: (n) => `[Hobby] ___ ${n} ist neu.` },
     { theme: 'Hobby', case: 'dat_m', noun: 'Computer', prompt: (n) => `[Hobby] Ich spiele mit ___ ${n}.` },
     { theme: 'Stadt', case: 'akk_f', noun: 'Wohnung', prompt: (n) => `[Stadt] Wir suchen ___ ${n}.` },
-    { theme: 'Stadt', case: 'dat_n', noun: 'Büro', prompt: (n) => `[Stadt] Im Sommer arbeite ich in ___ ${n}.` },
+    { theme: 'Arbeit', case: 'dat_n', noun: 'Büro', prompt: (n) => `[Arbeit] Ich arbeite in ___ ${n}.` },
     { theme: 'Essen', case: 'akk_m', noun: 'Apfel', prompt: (n) => `[Essen] Ich esse ___ ${n}.` },
     { theme: 'Essen', case: 'nom_f', noun: 'Pizza', prompt: (n) => `[Essen] ___ ${n} schmeckt super.` },
     { theme: 'Transport', case: 'dat_n', noun: 'Auto', prompt: (n) => `[Transport] Wir fahren mit ___ ${n} nach Berlin.` },
@@ -132,8 +132,6 @@ function genPossessiv() {
     { theme: 'Hobby', case: 'akk_pl', noun: 'Bücher', prompt: (n) => `[Hobby] Ich lese gern ___ ${n}.` },
   ];
 
-  const pool = ['mein', 'meine', 'meinen', 'meinem', 'meiner', 'dein', 'deine', 'deinen', 'sein', 'seine', 'seinen', 'ihr', 'ihre', 'ihren', 'unser', 'unsere', 'euer', 'eure'];
-
   for (let i = 0; i < 45; i++) {
     const s = sets[i % sets.length];
     const tpl = templates[i % templates.length];
@@ -149,11 +147,16 @@ function genPossessiv() {
     else if (tpl.case === 'nom_n') correct = s.n;
     else correct = s.m;
 
+    // Per-person pool: all unique forms of the same possessor (ich, du, er, …).
+    // Distractors stay grammatically meaningful (same person, different case/gender).
+    const personPool = [s.m, s.f, s.n, s.pl, s.akk_m, s.dat_m, s.dat_f]
+      .filter((x, idx, arr) => x && arr.indexOf(x) === idx);
+
     const hint = `Possessivartikel — ${s.who}, ${POSSESSIV_CASE_LABEL[tpl.case] || 'Nom.'}`;
     out.push({
       prompt: tpl.prompt(noun),
       hint,
-      options: options4(correct, pool, i + 11),
+      options: options4(correct, personPool, i + 11),
       correct,
     });
   }
@@ -311,7 +314,11 @@ function genAdjektiv() {
     { art: 'der', g: 'm', adj: 'teuer', end: 'teure', noun: 'Mantel', theme: 'Einkaufen' },
     { art: 'die', g: 'f', adj: 'frisch', end: 'frische', noun: 'Milch', theme: 'Essen' },
   ];
-  const wrongEnds = ['kleiner', 'kleine', 'kleines', 'kleinen', 'guter', 'gute', 'gutes', 'guten', 'neuer', 'neue', 'neues', 'neuen'];
+  // Generate distractors from the same adjective stem so all 4 options share the lemma.
+  /** @param {string} adj */
+  function endingsOf(adj) {
+    return [`${adj}er`, `${adj}e`, `${adj}es`, `${adj}en`, `${adj}em`];
+  }
 
   /** @param {typeof items[0]} it */
   function adjPrompt(it) {
@@ -319,7 +326,10 @@ function genAdjektiv() {
     if (it.art === 'der' || it.art === 'die' || it.art === 'das') {
       return `[${t}] ${it.art.charAt(0).toUpperCase() + it.art.slice(1)} ___ ${it.noun} gefällt mir.`;
     }
-    if (it.art === 'keine' || it.art === 'eine') {
+    if (it.art === 'keine') {
+      return `[${t}] Ich habe keine ___ ${it.noun}.`;
+    }
+    if (it.art === 'eine') {
       return `[${t}] Ich habe eine ___ ${it.noun}.`;
     }
     if (it.art === 'kein') {
@@ -338,7 +348,7 @@ function genAdjektiv() {
     out.push({
       prompt: adjPrompt(it),
       hint: 'Adjektivendung',
-      options: options4(it.end, wrongEnds, i + 17),
+      options: options4(it.end, endingsOf(it.adj), i + 17),
       correct: it.end,
     });
   }
@@ -400,7 +410,7 @@ function genDativ() {
     { sent: 'Das gehört ___ Bruder.', correct: 'dem', pool: ['dem', 'den', 'der', 'des'], theme: 'Familie', hint: 'Dativ — der Bruder, Dat.' },
     { sent: 'Ich antworte ___ Freundin.', correct: 'der', pool: ['der', 'die', 'dem', 'den'], theme: 'Freunde', hint: 'Dativ — die Freundin, Dat.' },
     { sent: 'Wir gratulieren ___ Eltern.', correct: 'den', pool: ['den', 'der', 'dem', 'die'], theme: 'Familie', hint: 'Dativ — die Eltern, Dat.' },
-    { sent: 'Ich erzähle ___ Kindern eine Geschichte.', correct: 'den Kindern', pool: ['den Kindern', 'die Kinder', 'der Kinder', 'dem Kind'], theme: 'Schule', hint: 'Dativ — die Kinder, Dat.' },
+    { sent: 'Ich erzähle ___ Kindern eine Geschichte.', correct: 'den', pool: ['den', 'die', 'der', 'dem'], theme: 'Schule', hint: 'Dativ — die Kinder, Dat.' },
     { sent: 'Kannst du ___ helfen?', correct: 'mir', pool: ['mir', 'mich', 'ich', 'mein'], theme: 'Freunde', hint: 'Dativ — ich, Dat.' },
     { sent: 'Das schmeckt ___ gut.', correct: 'dir', pool: ['dir', 'dich', 'du', 'dein'], theme: 'Essen', hint: 'Dativ — du, Dat.' },
     { sent: 'Ich kaufe ___ eine Karte.', correct: 'meiner Mutter', pool: ['meiner Mutter', 'meine Mutter', 'meinen Mutter', 'meinem Mutter'], theme: 'Reisen', hint: 'Dativ — meine Mutter, Dat.' },
@@ -502,6 +512,11 @@ function genArtikel() {
     return 'kein';
   }
 
+  // Per-mode pools so the learner sees only paradigm-mates (no case-mixing across articles).
+  const defPool = ['Der', 'Die', 'Das', 'Den'];
+  const einPool = ['ein', 'eine', 'einen'];
+  const keinPool = ['kein', 'keine', 'keinen'];
+
   /** @type {Q[]} */
   const out = [];
   for (let i = 0; i < 45; i++) {
@@ -509,20 +524,27 @@ function genArtikel() {
     const mode = modes[i % modes.length];
     let correct;
     let prompt;
+    let pool;
+    let hint;
     if (mode === 'def') {
       correct = n.der;
       prompt = `[${n.theme}] ___ ${n.noun} ist wichtig.`;
+      pool = defPool;
+      hint = 'Bestimmter Artikel (Nom.)';
     } else if (mode === 'ein') {
       correct = habenArtikel(n.g, 'ein');
       prompt = `[${n.theme}] Ich habe ___ ${n.noun}.`;
+      pool = einPool;
+      hint = 'Unbestimmter Artikel (Akk.)';
     } else {
       correct = habenArtikel(n.g, 'kein');
-      prompt = `[${n.theme}] Ich habe ___ ${n.noun}.`;
+      prompt = `[${n.theme}] Nein, ich habe ___ ${n.noun}.`;
+      pool = keinPool;
+      hint = 'Negationsartikel (Akk.)';
     }
-    const pool = ['Der', 'Die', 'Das', 'Den', 'ein', 'eine', 'einen', 'kein', 'keine', 'keinen'];
     out.push({
       prompt,
-      hint: 'Artikelform',
+      hint,
       options: options4(correct, pool, i + 41),
       correct,
     });

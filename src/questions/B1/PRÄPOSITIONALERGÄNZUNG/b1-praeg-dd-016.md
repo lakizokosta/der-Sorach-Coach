@@ -11,4 +11,4 @@ words:
   - Personalabteilung
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präp. Ergänzung — konzentriert auf)
+Ordne die Wörter zum richtigen Satz: (Präpositionalergänzung)

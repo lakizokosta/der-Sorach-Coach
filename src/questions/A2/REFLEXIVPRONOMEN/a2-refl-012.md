@@ -4,7 +4,7 @@ type: select-one
 options:
   - freut
   - freue
-  - gefreet
+  - gefreut
   - freuen
 correct: freue
 ---

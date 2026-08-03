@@ -28,7 +28,7 @@ export const TOPIC_FORM_HINT = {
   KONJUNKTIV2: 'Konjunktiv-II-Form',
   KONJUNKTIV2B2: 'Konjunktiv-II-Form',
   PARTIZIP1: 'Partizip-I-Form',
-  PARTIZIP2: 'Partizip-II-Form',
+  PARTIZIP2: 'Grammatikform',
   FUTURI: 'Futurform',
   VERBLASSEN: 'lassen-Form',
   ARTIKEL: 'Artikelform',
@@ -55,6 +55,7 @@ export const TOPIC_FORM_HINT = {
   WECHSELPRÄPOSITIONENA2: 'Dativ oder Akkusativ',
   LOKALPRÄPOSITIONENA2: 'Lokale Präposition',
   LOKALEPRÄPOSITIONENB1: 'Lokale Präposition',
+  LOKALEPRÄPOSITIONENB2: 'Lokale Präposition',
   FESTEPRÄPOSITIONENA2: 'Feste Präposition',
   PRÄPOSITIONENB1: 'Präposition',
   PRÄPOSITIONENGENITIV: 'Genitiv-Präposition',
@@ -83,7 +84,6 @@ export const TOPIC_FORM_HINT = {
   DEMONSTRATIVARTIKEL: 'Demonstrativartikel',
   NOMENPRÄPOSITIONVERBINDUNGA2: 'Nomen mit Präposition',
   NOMENPRÄPOSITIONVERBINDUNGB1: 'Nomen mit Präposition',
-  VERBPRÄPOSITIONVERBINDUNG: 'Verb mit Präposition',
   VERBNOMENVERBINDUNGB1: 'Verb-Nomen-Verbindung',
   SATZSTELLUNGA2: 'Satzstellung',
   TEKAMOLO: 'TeKaMoLo-Reihenfolge',
@@ -106,10 +106,14 @@ const VERB_HINT_LABEL = {
   TRENNBAREVERBENB1: 'Trennbares Verb',
   PASSIVB1: 'Passiv',
   PASSIVB2: 'Passiv',
+  PASSIVERSATZ: 'Passiv-Ersatz',
   KONJUNKTIV2: 'Konjunktiv II',
   KONJUNKTIV2B2: 'Konjunktiv II',
   FUTURI: 'Futur',
   VERBLASSEN: 'lassen',
+  INDIREKTEREDE: 'Indirekte Rede',
+  PARTIZIP1: 'Partizip I',
+  PARTIZIP2: 'Partizip II',
 };
 
 const VERB_FORM_TOPICS = new Set([
@@ -123,10 +127,14 @@ const VERB_FORM_TOPICS = new Set([
   'TRENNBAREVERBENB1',
   'PASSIVB1',
   'PASSIVB2',
+  'PASSIVERSATZ',
   'KONJUNKTIV2',
   'KONJUNKTIV2B2',
   'FUTURI',
   'VERBLASSEN',
+  'INDIREKTEREDE',
+  'PARTIZIP1',
+  'PARTIZIP2',
 ]);
 
 export const POSSESSIV_TOPICS = new Set([
@@ -206,6 +214,9 @@ function isLikelyLemma(word) {
   if (!w || PERSON_MARK.test(w) || /form$/i.test(w)) return false;
   if (IRREGULAR_INF.has(w)) return true;
   if (FINITE_EN_FORMS.has(w) || SEIN_FORMS.has(w) || HABEN_FORMS.has(w)) return false;
+  // Partizip II (ge-XXX-en / ge-XXX-t) requires stem of at least 3 chars after `ge-`
+  // to avoid false positives on lemmas like `gehen`, `geben`, `gelten`.
+  if (/^ge[a-zäöüß]{3,}(en|t)$/i.test(w)) return false;
   return /(?:en|eln|ern)$/i.test(w);
 }
 
@@ -259,7 +270,12 @@ export function extractInfinitiveFromOptions(options, correct) {
     if (IRREGULAR_INF.has(o.toLowerCase())) return o.toLowerCase();
   }
 
-  const infinitives = opts.filter((o) => isLikelyLemma(o));
+  // Filter out Partizip II forms (ge-XXX-en / ge-XXX-t with stem ≥3) — they're not infinitives.
+  const infinitives = opts.filter((o) => {
+    const lo = String(o).toLowerCase();
+    if (/^ge[a-zäöüß]{3,}(en|t)$/i.test(lo)) return false;
+    return isLikelyLemma(o);
+  });
 
   if (infinitives.length === 1) return infinitives[0].toLowerCase();
   if (infinitives.length > 1) {
@@ -330,8 +346,16 @@ function inferPassivLemma(body) {
   if (!m) return 'werden';
   const pp = m[1];
   if (pp.endsWith('iert')) return `${pp.slice(0, -3)}ieren`;
-  if (pp.endsWith('ert')) return `${pp.slice(0, -2)}en`;
-  if (pp.endsWith('t')) return `${pp.slice(0, -1)}en`;
+  if (pp.endsWith('ert')) {
+    const stem = pp.slice(0, -2);
+    return stem.endsWith('e') ? `${stem}n` : `${stem}en`;
+  }
+  if (pp.endsWith('t')) {
+    // Strip leading "ge" (Partizip II prefix), then -t and add -en (avoid double-e)
+    let stem = pp.replace(/^ge/, '');
+    stem = stem.slice(0, -1);
+    return stem.endsWith('e') ? `${stem}n` : `${stem}en`;
+  }
   return 'werden';
 }
 
@@ -434,10 +458,10 @@ function reflexivFormHint(inner, correct, options, body, id) {
     }
   }
 
-  const oldFinite = inner.match(/^Reflexiv\s*—\s*(\S+)/i);
+  const oldFinite = inner.match(/^Reflexiv\s*—\s*/i);
   if (oldFinite) {
-    const inf = finiteToInfinitive(oldFinite[1]);
-    if (inf) return formatVerbHint('REFLEXIVPRONOMEN', inf);
+    const lemma = parseVerbLemmaFromInner(inner);
+    if (lemma) return formatVerbHint('REFLEXIVPRONOMEN', lemma);
   }
 
   let lemma = bankLemmaFromBody(body, 'REFLEXIVPRONOMEN')
@@ -461,6 +485,10 @@ function reflexivFormHint(inner, correct, options, body, id) {
  * @return {string}
  */
 export function verbFormHint(topic, inner = '', correct = [], options = [], body = '', id = '') {
+  // Note: previously these topics early-returned 'Grammatikform' which discarded
+  // the verb lemma entirely, making input-text questions unguessable.
+  // Now we fall through to the lemma-extraction pipeline.
+
   if (topic === 'REFLEXIVPRONOMEN') {
     const hint = reflexivFormHint(inner, correct, options, body, id);
     if (hint && !/^Reflexivform$/i.test(hint)) return hint;

@@ -9,4 +9,4 @@ words:
   - Uhr
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — ab 8 Uhr)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

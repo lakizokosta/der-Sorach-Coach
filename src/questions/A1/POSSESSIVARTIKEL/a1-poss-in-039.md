@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-039
 type: input-text
+hint: Possessivartikel — ich, fem., Akk.
 correct:
   - meine
 ---
 
-Ich liebe ___ Oma. (Possessivartikel — ich, fem., Akk.)
+Ergänze den Possessivartikel:
+
+Ich liebe ___ Oma.

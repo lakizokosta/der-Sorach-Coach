@@ -8,4 +8,4 @@ words:
   - Instinkt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinem Instinkt)
+Ordne die Wörter zum richtigen Satz: (Possessivartikel)

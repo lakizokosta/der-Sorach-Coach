@@ -8,10 +8,11 @@ words:
   - über
   - das
   - Gesetz
+  - —
   - Ich
   - informiere
   - mich
   - darüber
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — davon)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-032
 type: input-text
+hint: Possessivartikel — sie, mask., Akk.
 correct:
   - ihren
 ---
 
-Ich füttere ___ Hund. (Possessivartikel — sie, mask., Akk.)
+Ergänze den Possessivartikel:
+
+Ich füttere ___ Hund.

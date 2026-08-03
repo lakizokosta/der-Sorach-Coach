@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-045
 type: input-text
+hint: Possessivartikel — ich, fem., Akk.
 correct:
   - meine
 ---
 
-Ich liebe ___ Stadt. (Possessivartikel — ich, fem., Akk.)
+Ergänze den Possessivartikel:
+
+Ich liebe ___ Stadt.

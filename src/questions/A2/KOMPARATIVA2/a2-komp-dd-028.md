@@ -9,6 +9,8 @@ words:
   - als
   - der
   - Supermarkt
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — nah)

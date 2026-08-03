@@ -2,12 +2,12 @@
 id: b1-npv-dd-020
 type: dropbox
 words:
-  - Wir
-  - haben
-  - Hoffnung
-  - auf
-  - bessere
-  - Arbeitsbedingungen
+  - Er
+  - hat
+  - Respekt
+  - vor
+  - erfahrenen
+  - Kollegen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Nomen+Präp — Hoffnung auf)
+Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

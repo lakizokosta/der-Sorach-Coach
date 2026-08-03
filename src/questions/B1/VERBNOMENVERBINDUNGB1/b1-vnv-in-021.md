@@ -1,8 +1,11 @@
 ---
 id: b1-vnv-in-021
 type: input-text
+hint: Verb-Nomen-Verbindung — machen / nehmen / stellen / treffen
 correct:
   - nehmen
 ---
 
-Wir ___ Rücksicht auf die Kollegen. (Verb-Nomen-Verbindung)
+Ergänze die Verb-Nomen-Verbindung:
+
+Wir ___ Rücksicht auf die Kollegen.

@@ -3,11 +3,15 @@ id: b1-indfr-dd-049
 type: dropbox
 words:
   - Ich
-  - möchte
-  - wissen
+  - frage
+  - mich
   - was
-  - du
-  - denkst
+  - die
+  - neue
+  - Regelung
+  - bedeutet
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Indirekte Frage — was du denkst)
+Ordne die Wörter zum richtigen Satz: (Indirekte Frage)

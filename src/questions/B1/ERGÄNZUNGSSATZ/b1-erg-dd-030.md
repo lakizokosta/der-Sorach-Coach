@@ -2,12 +2,15 @@
 id: b1-erg-dd-030
 type: dropbox
 words:
-  - Es
-  - stimmt
+  - Wir
+  - wissen
   - dass
-  - Umweltschutz
-  - wichtig
-  - ist
+  - die
+  - Entscheidung
+  - schwer
+  - war
+commas:
+  - 1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Ergänzungssatz — dass Umweltschutz wichtig ist)
+Ordne die Wörter zum richtigen Satz: (Ergänzungssatz)

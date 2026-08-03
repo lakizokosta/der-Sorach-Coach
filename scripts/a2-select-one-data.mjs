@@ -15,17 +15,17 @@ export function genAntwortpartikeln() {
   const items = [
     ['„Kommst du mit?" — „___, ich habe keine Zeit."', 'Nein', PART_POOL_CAPS],
     ['„Hast du Hunger?" — „___, gern!"', 'Ja', PART_POOL_CAPS],
-    ['„Du warst doch in Berlin?" — „___, letztes Jahr."', 'Doch', PART_POOL_CAPS],
+    ['„Warst du nicht in Berlin?" — „___, letztes Jahr."', 'Doch', PART_POOL_CAPS],
     ['„Ich mag Kaffee, ___ Tee mag ich lieber."', 'aber', PART_POOL],
     ['„Gehen wir ins Kino ___ nach Hause?"', 'oder', PART_POOL],
     ['„Ist das dein Auto?" — „___, das ist meins."', 'Ja', PART_POOL_CAPS],
     ['„Lernst du Deutsch?" — „___, seit einem Jahr."', 'Ja', PART_POOL_CAPS],
     ['„Warst du krank?" — „___, ich war nur müde."', 'Nein', PART_POOL_CAPS],
-    ['„Du kommst doch zur Party?" — „___, ich komme bestimmt."', 'Doch', PART_POOL_CAPS],
+    ['„Kommst du nicht zur Party?" — „___, ich komme bestimmt."', 'Doch', PART_POOL_CAPS],
     ['„Magst du Sport?" — „___, ich mag Fußball."', 'Ja', PART_POOL_CAPS],
     ['„Ist das teuer?" — „___, es ist günstig."', 'Nein', PART_POOL_CAPS],
-    ['„Trinkst du Milch?" — „___, ich trinke keinen."', 'Nein', PART_POOL_CAPS],
-    ['„Du hast doch Zeit?" — „___, ich habe Zeit."', 'Doch', PART_POOL_CAPS],
+    ['„Trinkst du Kaffee?" — „___, ich trinke keinen."', 'Nein', PART_POOL_CAPS],
+    ['„Hast du keine Zeit?" — „___, ich habe Zeit."', 'Doch', PART_POOL_CAPS],
     ['„Wir fahren morgen, ___ du bleibst?"', 'oder', PART_POOL],
     ['„Das Wetter ist schön, ___ es ist windig."', 'aber', PART_POOL],
   ];
@@ -70,7 +70,7 @@ export function genKonjunktionen() {
 export function genPerfekt() {
   const items = [
     ['Ich ___ gestern ins Kino gegangen.', 'bin', ['habe', 'war', 'hatte', 'wird']],
-    ['Wir ___ Pizza gegessen.', 'haben', ['sind', 'hat', 'wurden', 'sein']],
+    ['Wir ___ Pizza gegessen.', 'haben', ['sind', 'hat', 'ist', 'sein']],
     ['Er ___ den ganzen Tag gearbeitet.', 'hat', ['ist', 'haben', 'war', 'bin']],
     ['Sie ___ nach Berlin gefahren.', 'ist', ['hat', 'haben', 'war', 'hatte']],
     ['Ich ___ meine Freunde getroffen.', 'habe', ['bin', 'ist', 'war', 'sind']],
@@ -154,20 +154,20 @@ export function genModalverben() {
 export function genReflexiv() {
   const items = [
     ['Ich ___ mich jeden Morgen.', 'wasche', ['wäscht', 'waschen', 'gewaschen', 'wäschst']],
-    ['Er ___ sich für Musik.', 'interessiert', ['interessiere', 'interessierst', 'interessieren', 'interessiert']],
+    ['Er ___ sich für Musik.', 'interessiert', ['interessiere', 'interessierst', 'interessieren', 'interessierte']],
     ['Wir ___ uns um 8 Uhr.', 'treffen', ['trifft', 'traf', 'getroffen', 'triffst']],
     ['Sie ___ sich schnell.', 'beeilt', ['beeile', 'beeilen', 'beeilst', 'beeilt']],
-    ['Ich ___ mich für Sport.', 'interessiere', ['interessiert', 'interessieren', 'interessierst', 'interessiert']],
-    ['Du ___ dich anziehen.', 'musst', ['kannst', 'sollst', 'darfst', 'willst']],
+    ['Ich ___ mich für Sport.', 'interessiere', ['interessiert', 'interessieren', 'interessierst', 'interessierte']],
+    ['Es ist kalt — du ___ dich warm an.', 'ziehst', ['zieht', 'ziehe', 'waschen', 'wäschst']],
     ['Er ___ sich die Hände.', 'wäscht', ['wasche', 'waschen', 'gewaschen', 'wäschst']],
-    ['Wir ___ uns freuen.', 'können', ['müssen', 'sollen', 'dürfen', 'wollen']],
-    ['Ich ___ mich erkältet.', 'habe', ['bin', 'ist', 'hat', 'sind']],
+    ['Wir ___ uns auf das Konzert.', 'freuen', ['freut', 'freue', 'freust', 'gefreut']],
+    ['Er ___ sich um die Hausaufgaben.', 'kümmert', ['kümmere', 'kümmern', 'kümmerst', 'gekümmert']],
     ['Sie ___ sich im Spiegel.', 'sieht', ['sehe', 'sehen', 'gesehen', 'siehst']],
-    ['Du ___ dich ausruhen.', 'sollst', ['kannst', 'musst', 'darfst', 'willst']],
-    ['Ich ___ mich auf den Urlaub.', 'freue', ['freut', 'freuen', 'gefreet', 'freust']],
+    ['Nach der Arbeit ___ ich mich aus.', 'ruhe', ['ruht', 'ruhen', 'ruhst', 'ausgeruht']],
+    ['Ich ___ mich auf den Urlaub.', 'freue', ['freut', 'freuen', 'gefreut', 'freust']],
     ['Er ___ sich den Rücken.', 'verletzt', ['verletze', 'verletzen', 'verletzest', 'verletzt']],
     ['Wir ___ uns jeden Tag.', 'sehen', ['sieht', 'sah', 'gesehen', 'siehst']],
-    ['Ich ___ mich nicht gut.', 'fühle', ['fühlt', 'fühlen', 'gefühlt', 'fühlst']],
+    ['Sie ___ sich für das Fest.', 'bereitet', ['bereite', 'bereiten', 'bereitest', 'vorbereitet']],
   ];
   return ensure50(() => {
     const out = [];
@@ -262,7 +262,7 @@ export function genWechsel() {
     { q: 'Wo ist das Museum? — ___ Stadtmitte.', c: 'in der', p: ['in die', 'ins', 'an der', 'auf der'] },
     { q: 'Wohin fährst du? — ___ Berge.', c: 'In die', p: ['In den', 'Ins', 'An die', 'Auf die'] },
     { q: 'Wo bist du? — ___ Arbeit.', c: 'bei der', p: ['bei die', 'in der', 'an der', 'auf der'] },
-    { q: 'Wohin gehst du nach der Schule? — ___ Haus.', c: 'Nach', p: ['In', 'Zu', 'Auf', 'An'] },
+    { q: 'Wohin gehst du nach der Schule? — ___ Hause.', c: 'Nach', p: ['In', 'Zu', 'Auf', 'An'] },
     { q: 'Wo wohnst du? — ___ kleinen Stadt.', c: 'in einer', p: ['in die', 'ins', 'an einer', 'auf einer'] },
   ];
   return ensure50(() => {
@@ -332,22 +332,25 @@ export function genAkkusativ() {
 }
 
 export function genFestePraep() {
+  const prepPool = ['auf', 'an', 'über', 'für', 'von', 'mit', 'nach', 'in', 'zu', 'bei'];
   const items = [
-    ['Ich warte auf ___ Antwort.', 'eine', ['ein', 'einen', 'einer', 'einem']],
-    ['Er denkt an ___ Familie.', 'seine', ['sein', 'seinen', 'seiner', 'seinem']],
-    ['Wir sprechen über ___ Reise.', 'die', ['der', 'dem', 'den', 'das']],
-    ['Sie freut sich auf ___ Geburtstag.', 'den', ['der', 'dem', 'das', 'die']],
-    ['Ich interessiere mich für ___ Musik.', 'klassische', ['klassischer', 'klassischen', 'klassisches', 'klassisch']],
-    ['Er träumt von ___ Urlaub.', 'einem', ['ein', 'eine', 'einen', 'einer']],
-    ['Wir diskutieren über ___ Problem.', 'das', ['der', 'dem', 'den', 'die']],
-    ['Sie ärgert sich über ___ Fehler.', 'den', ['der', 'dem', 'das', 'die']],
-    ['Ich hoffe auf ___ gutes Wetter.', 'gutes', ['guter', 'guten', 'gute', 'gutem']],
-    ['Er erinnert sich an ___ Kindheit.', 'seine', ['sein', 'seinen', 'seiner', 'seinem']],
-    ['Wir sprechen mit ___ Chef.', 'dem', ['den', 'der', 'das', 'die']],
-    ['Sie wartet auf ___ Zug.', 'den', ['der', 'dem', 'das', 'die']],
-    ['Ich danke für ___ Hilfe.', 'die', ['der', 'dem', 'den', 'das']],
-    ['Er fragt nach ___ Weg.', 'dem', ['den', 'der', 'das', 'die']],
-    ['Wir lachen über ___ Witz.', 'den', ['der', 'dem', 'das', 'die']],
+    ['Ich warte ___ eine Antwort vom Reisebüro.', 'auf', prepPool],
+    ['Er denkt ___ seine Familie.', 'an', prepPool],
+    ['Wir sprechen ___ die Reise.', 'über', prepPool],
+    ['Sie freut sich ___ den Geburtstag.', 'auf', prepPool],
+    ['Ich interessiere mich ___ klassische Musik.', 'für', prepPool],
+    ['Er träumt ___ einem Urlaub.', 'von', prepPool],
+    ['Wir diskutieren ___ das Problem.', 'über', prepPool],
+    ['Sie ärgert sich ___ den Fehler.', 'über', prepPool],
+    ['Ich hoffe ___ gutes Wetter.', 'auf', prepPool],
+    ['Er erinnert sich ___ seine Kindheit.', 'an', prepPool],
+    ['Wir sprechen ___ dem Chef.', 'mit', prepPool],
+    ['Sie wartet ___ den Zug.', 'auf', prepPool],
+    ['Ich danke ___ die Hilfe.', 'für', prepPool],
+    ['Er fragt ___ dem Weg zum Hotel.', 'nach', prepPool],
+    ['Wir lachen ___ den Witz.', 'über', prepPool],
+    ['Ich freue mich ___ das Fest.', 'auf', prepPool],
+    ['Er besteht ___ pünktliche Zahlung.', 'auf', prepPool],
   ];
   return ensure50(() => {
     const out = [];
@@ -488,7 +491,7 @@ export function genNomenPraep() {
     ['Er hat Erfolg ___ der Prüfung.', 'bei', ['an', 'auf', 'in', 'mit']],
     ['Sie hat Teilnahme ___ dem Kurs.', 'an', ['auf', 'in', 'mit', 'zu']],
     ['Ich habe Zweifel ___ der Idee.', 'an', ['auf', 'in', 'mit', 'zu']],
-    ['Er hat Recht ___ der Sache.', 'in', ['an', 'auf', 'mit', 'zu']],
+    ['Er hat Anspruch ___ eine Belohnung.', 'auf', ['an', 'in', 'mit', 'für']],
     ['Wir haben Spaß ___ dem Spiel.', 'an', ['auf', 'in', 'mit', 'zu']],
   ];
   return ensure50(() => {
@@ -514,7 +517,7 @@ export function genTrennbar() {
     ['Du ___ gut auf.', 'machst', ['machst auf', 'aufmachst', 'macht', 'machen']],
     ['Ich ___ meine Freundin an.', 'rufe', ['rufe an', 'anrufe', 'ruft', 'rufen']],
     ['Er ___ die Tür zu.', 'macht', ['macht zu', 'zumacht', 'mache', 'machen']],
-    ['Wir ___ nach Hause ein.', 'fahren', ['fahren ein', 'einfahren', 'fährt', 'fahre']],
+    ['Wir ___ heute im Supermarkt ein.', 'kaufen', ['kaufen ein', 'einkaufen', 'kauft', 'kaufe']],
     ['Sie ___ um 7 Uhr auf.', 'steht', ['steht auf', 'aufsteht', 'stehe', 'stehen']],
     ['Ich ___ das Formular aus.', 'fülle', ['fülle aus', 'ausfülle', 'füllt', 'füllen']],
     ['Er ___ das Radio an.', 'macht', ['macht an', 'anmacht', 'mache', 'machen']],
@@ -573,7 +576,7 @@ export function genLokal() {
     ['Der Hund liegt ___ dem Tisch.', 'unter', ['über', 'neben', 'hinter', 'vor']],
     ['Beim Einkaufen bleibt das Kind gern in der Nähe — es steht ___ der Mutter.', 'neben', ['gegenüber', 'hinter', 'vor', 'zwischen']],
     ['Wir gehen ___ die Straße.', 'über', ['unter', 'neben', 'hinter', 'durch']],
-    ['Vom Eingang der Mall aus: Die Apotheke ist ___ .', 'auf der rechten Seite', ['auf der linken Seite', 'geradeaus', 'hinten', 'vorne']],
+    ['Vom Eingang der Mall aus: Die Apotheke ist ___.', 'rechts', ['links', 'oben', 'unten', 'gegenüber']],
   ];
   return ensure50(() => {
     const out = [];
@@ -587,21 +590,21 @@ export function genLokal() {
 
 export function genNdekl() {
   const items = [
-    ['Ich helfe ___ Studenten.', 'dem', ['den', 'der', 'das', 'die']],
-    ['Das ist das Auto ___ Studenten.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Ich helfe dem ___.', 'Studenten', ['Student', 'Students', 'Studentem', 'Studentin']],
+    ['Das ist das Auto des ___.', 'Studenten', ['Student', 'Students', 'Studentem', 'Studentin']],
     ['Ich sehe einen ___.', 'Polizisten', ['Polizist', 'Poliziste', 'Polizists', 'Polizistin']],
     ['Er spricht mit einem ___.', 'Journalisten', ['Journalist', 'Journaliste', 'Journalists', 'Journalistin']],
     ['Wir besuchen den ___.', 'Präsidenten', ['Präsident', 'Präsidente', 'Präsidents', 'Präsidentin']],
-    ['Das ist der Wagen ___ Nachbarn.', 'des', ['der', 'dem', 'den', 'das']],
-    ['Ich kenne einen ___.', 'Italiener', ['Italienen', 'Italienens', 'Italienener', 'Italienisch']],
+    ['Das ist der Wagen des ___.', 'Nachbarn', ['Nachbar', 'Nachbars', 'Nachbarns', 'Nachbarin']],
+    ['Ich kenne einen ___.', 'Jungen', ['Junge', 'Jung', 'Junges', 'Jungin']],
     ['Er ist ___ geworden.', 'Pilot', ['Piloten', 'Pilote', 'Pilots', 'Pilotin']],
     ['Wir fragen den ___.', 'Fotografen', ['Fotograf', 'Fotografe', 'Fotografs', 'Fotografin']],
     ['Ich grüße den ___.', 'Herrn', ['Herr', 'Herre', 'Herrs', 'Frau']],
-    ['Das ist das Buch ___ Autors.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Das ist das Buch des ___.', 'Journalisten', ['Journalist', 'Journaliste', 'Journalists', 'Journalistin']],
     ['Er trifft einen ___.', 'Komponisten', ['Komponist', 'Komponiste', 'Komponists', 'Komponistin']],
     ['Ich sehe den ___.', 'Löwen', ['Löwe', 'Löw', 'Löwes', 'Löwin']],
-    ['Wir helfen dem ___.', 'Kunden', ['Kunde', 'Kunden', 'Kundes', 'Kundin']],
-    ['Das ist der Name ___ Studenten.', 'des', ['der', 'dem', 'den', 'das']],
+    ['Wir helfen dem ___.', 'Kunden', ['Kunde', 'Kundes', 'Kunder', 'Kundens']],
+    ['Das ist der Name des ___.', 'Studenten', ['Student', 'Students', 'Studentem', 'Studentin']],
   ];
   return ensure50(() => {
     const out = [];

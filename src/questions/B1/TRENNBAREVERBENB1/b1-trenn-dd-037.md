@@ -3,12 +3,15 @@ id: b1-trenn-dd-037
 type: dropbox
 words:
   - Ich
-  - stehe
-  - morgen
-  - früh
+  - gebe
+  - den
+  - Brief
   - um
-  - sechs
-  - auf
+  - neun
+  - Uhr
+  - ab
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Trennbares Verb + Verb sich freuen)
+Ordne die Wörter zum richtigen Satz: (Trennbares Verb)

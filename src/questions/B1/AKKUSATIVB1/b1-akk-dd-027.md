@@ -2,12 +2,13 @@
 id: b1-akk-dd-027
 type: dropbox
 words:
-  - Sie
-  - reserviert
-  - ein
-  - Zimmer
-  - im
-  - Hotel
+  - Ich
+  - suche
+  - einen
+  - geeigneten
+  - Kurs
+  - für
+  - B1
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — ein Zimmer)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

@@ -2,16 +2,15 @@
 id: b1-pradv-dd-043
 type: dropbox
 words:
-  - Ärgerst
+  - Hörst
   - du
-  - dich
-  - über
-  - die
-  - Nachricht
+  - auf
+  - gute
+  - Ratschläge
+  - —
   - Ich
-  - ärgere
-  - mich
-  - darüber
+  - höre
+  - darauf
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präpositionaladverb — darüber)
+Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -1,8 +1,11 @@
 ---
 id: a2-poss-in-044
 type: input-text
+hint: Possessivartikel — er, mask., Gen.
 correct:
   - seines
 ---
 
-Die Wohnung ___ Freundes ist schön. (Possessivartikel — er, mask., Gen.)
+Ergänze den Possessivartikel:
+
+Die Wohnung ___ Freundes ist schön.

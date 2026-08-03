@@ -2,12 +2,13 @@
 id: b1-akk-dd-050
 type: dropbox
 words:
-  - Der
-  - Journalist
-  - recherchiert
-  - einen
-  - komplexen
-  - Fall
+  - Wir
+  - lesen
+  - den
+  - Bericht
+  - über
+  - die
+  - Klimakonferenz
 ---
 
-Ordne die Wörter zum richtigen Satz: (Akkusativ — den Termin)
+Ordne die Wörter zum richtigen Satz: (Akkusativ)

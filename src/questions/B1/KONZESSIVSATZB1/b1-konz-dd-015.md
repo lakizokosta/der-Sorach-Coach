@@ -10,7 +10,8 @@ words:
   - reisen
   - viele
   - weiter
-  - viel
+commas:
+  - 3
 ---
 
-Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl teuer war)
+Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

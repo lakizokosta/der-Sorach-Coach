@@ -2,13 +2,15 @@
 id: b1-ws-dd-039
 type: dropbox
 words:
-  - Die
-  - Regierung
-  - hat
-  - eine
-  - neue
-  - Regelung
-  - beschlossen
+  - Der
+  - Bericht
+  - zeigt
+  - dass
+  - die
+  - Wirtschaft
+  - wächst
+commas:
+  - 2
 ---
 
-Ordne die Wörter zum richtigen Satz: (Wortschatz — Regierung)
+Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

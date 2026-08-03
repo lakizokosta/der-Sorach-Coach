@@ -6,9 +6,11 @@ words:
   - du
   - mit
   - wenn
-  - du
+  - ihr
   - Zeit
-  - hast
+  - habt
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — wenn)

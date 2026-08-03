@@ -2,11 +2,11 @@
 id: b2-rede-030
 type: select-one
 options:
-  - Biers
-  - Biere
+  - Wein
+  - Tee
   - Bier
-  - Bieres
+  - Saft
 correct: Bier
 ---
 
-Das ist nicht mein ___ . (Redewendung)
+Das ist nicht mein ___ . (Grammatikform)

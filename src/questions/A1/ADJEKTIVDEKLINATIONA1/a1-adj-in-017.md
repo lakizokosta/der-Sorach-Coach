@@ -1,8 +1,11 @@
 ---
 id: a1-adj-in-017
 type: input-text
+hint: Adjektivdeklination — jung, fem., Nom.
 correct:
   - junge
 ---
 
-Meine ___ Schwester wohnt in Berlin. (Adjektivdeklination — fem., Nom.)
+Ergänze die Adjektivendung:
+
+Meine ___ Schwester wohnt in Berlin.

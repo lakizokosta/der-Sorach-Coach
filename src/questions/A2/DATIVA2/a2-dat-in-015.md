@@ -1,8 +1,11 @@
 ---
 id: a2-dat-in-015
 type: input-text
+hint: Dativ — die Ärztin
 correct:
   - der
 ---
 
-Er vertraut ___ Ärztin. (Dativ — die Ärztin)
+Ergänze die Dativform:
+
+Er vertraut ___ Ärztin.

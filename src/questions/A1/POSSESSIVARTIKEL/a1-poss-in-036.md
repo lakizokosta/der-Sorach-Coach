@@ -1,8 +1,11 @@
 ---
 id: a1-poss-in-036
 type: input-text
+hint: Possessivartikel — er, neutr., Akk.
 correct:
   - sein
 ---
 
-Er verlässt ___ Büro. (Possessivartikel — er, neutr., Akk.)
+Ergänze den Possessivartikel:
+
+Er verlässt ___ Büro.

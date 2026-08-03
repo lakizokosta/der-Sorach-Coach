@@ -1,8 +1,11 @@
 ---
 id: b1-gen-in-049
 type: input-text
+hint: Genitiv-Präposition
 correct:
   - Während
 ---
 
-___ der Ferien arbeitet sie in einem Café. (Genitiv-Präposition)
+Ergänze die Genitiv-Präposition:
+
+___ der Ferien arbeitet sie in einem Café.

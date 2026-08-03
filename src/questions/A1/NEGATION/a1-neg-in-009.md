@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-009
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Ich gehe ___ ins Kino. (Negation)
+Ergänze die Verneinung:
+
+Ich gehe ___ ins Kino.

@@ -9,4 +9,4 @@ words:
   - Arzt
 ---
 
-Ordne die Wörter zum richtigen Satz: (Präposition — auf Arzt)
+Ordne die Wörter zum richtigen Satz: (Präpositionen)

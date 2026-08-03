@@ -2,13 +2,19 @@
 id: b1-rel-dd-043
 type: dropbox
 words:
-  - Artikel
-  - der
+  - Das
+  - Gesetz
+  - das
+  - gestern
+  - verabschiedet
+  - wurde
+  - tritt
+  - bald
   - in
-  - Zeitung
-  - stand
-  - war
-  - interessant
+  - Kraft
+commas:
+  - 1
+  - 5
 ---
 
-Ordne die Wörter zum richtigen Satz: (Relativsatz — der in Zeitung stand)
+Ordne die Wörter zum richtigen Satz: (Relativsatz)

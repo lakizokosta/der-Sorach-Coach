@@ -1,8 +1,11 @@
 ---
 id: a2-akk-in-037
 type: input-text
+hint: Akkusativ — der Park
 correct:
   - den
 ---
 
-Wir fahren durch ___ Stadtpark. (Akkusativ — der Park)
+Ergänze die Akkusativform:
+
+Wir fahren durch ___ Stadtpark.

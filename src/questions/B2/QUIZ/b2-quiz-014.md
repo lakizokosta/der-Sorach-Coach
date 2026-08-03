@@ -2,11 +2,11 @@
 id: b2-quiz-014
 type: select-one
 options:
+  - worden
   - wurde
   - wird
-  - geworden
   - würde
-correct: wird
+correct: wurde
 ---
 
-Die Brücke ___ im nächsten Jahr renoviert. (Grammatikform)
+Der Antrag ___ abgelehnt.

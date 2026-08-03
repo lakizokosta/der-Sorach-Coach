@@ -18,7 +18,7 @@
 ### 1. `a1-konj-1` · select-one
 
 **Aufgabe:**
-> Du ___ heute Brot. (Präsens + Verb spielen)
+> Du ___ heute Brot. (Präsens + Verb kaufen)
 
 **Optionen:**
 - kaufst **✓**
@@ -32,7 +32,7 @@
 ### 2. `a1-konj-2` · select-one
 
 **Aufgabe:**
-> Wir ___ gern Fußball. (Präsens + Verb kaufen)
+> Wir ___ gern Fußball. (Präsens + Verb spielen)
 
 **Optionen:**
 - spielen **✓**
@@ -46,7 +46,7 @@
 ### 3. `a1-konj-3` · select-one
 
 **Aufgabe:**
-> Sie ___ jeden Abend ein Buch. (Präsens + Verb fahren)
+> Sie ___ jeden Abend ein Buch. (Präsens + Verb lesen — sie (Fem.))
 
 **Optionen:**
 - liest **✓**
@@ -60,7 +60,7 @@
 ### 4. `a1-konj-006` · select-one
 
 **Aufgabe:**
-> Ich ___ Fußball im Park. (Präsens + Verb tanzen)
+> Ich ___ Fußball im Park. (Präsens + Verb spielen)
 
 **Optionen:**
 - spielt
@@ -74,7 +74,7 @@
 ### 5. `a1-konj-007` · select-one
 
 **Aufgabe:**
-> Du ___ Brot im Supermarkt. (Präsens + Verb singen)
+> Du ___ Brot im Supermarkt. (Präsens + Verb kaufen)
 
 **Optionen:**
 - kaufen
@@ -88,7 +88,7 @@
 ### 6. `a1-konj-008` · select-one
 
 **Aufgabe:**
-> Er ___ mit dem Bus zur Schule. (Präsens + Verb wohnen)
+> Er ___ mit dem Bus zur Schule. (Präsens + Verb fahren)
 
 **Optionen:**
 - fährst
@@ -102,7 +102,7 @@
 ### 7. `a1-konj-009` · select-one
 
 **Aufgabe:**
-> Sie ___ ein Buch über Reisen. (Präsens + Verb lernen)
+> Sie ___ ein Buch über Reisen. (Präsens + Verb lesen — sie (Pl.))
 
 **Optionen:**
 - lese
@@ -116,7 +116,7 @@
 ### 8. `a1-konj-010` · select-one
 
 **Aufgabe:**
-> Wir ___ eine E-Mail an Freunde. (Präsens + Verb hören)
+> Wir ___ eine E-Mail an Freunde. (Präsens + Verb schreiben)
 
 **Optionen:**
 - schreibst
@@ -130,7 +130,7 @@
 ### 9. `a1-konj-011` · select-one
 
 **Aufgabe:**
-> Ihr ___ Pasta zum Abendessen. (Präsens + Verb trinken)
+> Ihr ___ Pasta zum Abendessen. (Präsens + Verb kochen)
 
 **Optionen:**
 - kochen
@@ -144,7 +144,7 @@
 ### 10. `a1-konj-012` · select-one
 
 **Aufgabe:**
-> Anna ___ gern am Wochenende. (Präsens + Verb essen)
+> Anna ___ gern am Wochenende. (Präsens + Verb tanzen)
 
 **Optionen:**
 - tanzen
@@ -158,7 +158,7 @@
 ### 11. `a1-konj-013` · select-one
 
 **Aufgabe:**
-> Peter ___ laut im Chor. (Präsens + Verb schwimmen)
+> Peter ___ laut im Chor. (Präsens + Verb singen)
 
 **Optionen:**
 - singen
@@ -172,7 +172,7 @@
 ### 12. `a1-konj-014` · select-one
 
 **Aufgabe:**
-> Meine Freunde ___ im Büro in der Stadt. (Präsens + Verb reisen)
+> Meine Freunde ___ im Büro in der Stadt. (Präsens + Verb arbeiten)
 
 **Optionen:**
 - arbeitest
@@ -186,7 +186,7 @@
 ### 13. `a1-konj-015` · select-one
 
 **Aufgabe:**
-> Wir ___ in einer kleinen Wohnung. (Präsens + Verb spielen)
+> Wir ___ in einer kleinen Wohnung. (Präsens + Verb wohnen)
 
 **Optionen:**
 - wohnst
@@ -200,7 +200,7 @@
 ### 14. `a1-konj-016` · select-one
 
 **Aufgabe:**
-> Ich ___ Deutsch für die Schule. (Präsens + Verb arbeiten)
+> Ich ___ Deutsch für die Schule. (Präsens + Verb lernen)
 
 **Optionen:**
 - lernen
@@ -214,7 +214,7 @@
 ### 15. `a1-konj-017` · select-one
 
 **Aufgabe:**
-> Du ___ Musik beim Sport. (Präsens + Verb schreiben)
+> Du ___ Musik beim Sport. (Präsens + Verb machen)
 
 **Optionen:**
 - hört
@@ -228,7 +228,7 @@
 ### 16. `a1-konj-018` · select-one
 
 **Aufgabe:**
-> Er ___ Wasser nach dem Training. (Präsens + Verb machen)
+> Er ___ Wasser nach dem Training. (Präsens + Verb trinken)
 
 **Optionen:**
 - trinken
@@ -242,13 +242,13 @@
 ### 17. `a1-konj-019` · select-one
 
 **Aufgabe:**
-> Sie ___ Obst zum Frühstück. (Präsens + Verb gehen)
+> Wir ___ Obst zum Frühstück. (Präsens + Verb essen)
 
 **Optionen:**
 - isst
 - essen **✓**
 - esse
-- machen
+- esst
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -256,7 +256,7 @@
 ### 18. `a1-konj-020` · select-one
 
 **Aufgabe:**
-> Wir ___ im See im Sommer. (Präsens + Verb nehmen)
+> Wir ___ im See im Sommer. (Präsens + Verb schwimmen)
 
 **Optionen:**
 - schwimmst
@@ -270,7 +270,7 @@
 ### 19. `a1-konj-021` · select-one
 
 **Aufgabe:**
-> Ihr ___ Fußball im Park. (Präsens + Verb finden)
+> Ihr ___ Fußball im Park. (Präsens + Verb spielen)
 
 **Optionen:**
 - spielen
@@ -284,7 +284,7 @@
 ### 20. `a1-konj-022` · select-one
 
 **Aufgabe:**
-> Anna ___ Brot im Supermarkt. (Präsens + Verb warten)
+> Anna ___ Brot im Supermarkt. (Präsens + Verb kaufen)
 
 **Optionen:**
 - kaufst
@@ -298,7 +298,7 @@
 ### 21. `a1-konj-023` · select-one
 
 **Aufgabe:**
-> Peter ___ mit dem Bus zur Schule. (Präsens + Verb besuchen)
+> Peter ___ mit dem Bus zur Schule. (Präsens + Verb fahren)
 
 **Optionen:**
 - fahren
@@ -312,7 +312,7 @@
 ### 22. `a1-konj-024` · select-one
 
 **Aufgabe:**
-> Meine Freunde ___ ein Buch über Reisen. (Präsens + Verb helfen)
+> Meine Freunde ___ ein Buch über Reisen. (Präsens + Verb lesen)
 
 **Optionen:**
 - lest
@@ -326,7 +326,7 @@
 ### 23. `a1-konj-025` · select-one
 
 **Aufgabe:**
-> Wir ___ eine E-Mail an Freunde. (Präsens + Verb kommen)
+> Wir ___ eine E-Mail an Freunde. (Präsens + Verb schreiben)
 
 **Optionen:**
 - schreibe
@@ -340,7 +340,7 @@
 ### 24. `a1-konj-026` · select-one
 
 **Aufgabe:**
-> Ich ___ Pasta zum Abendessen. (Präsens + Verb brauchen)
+> Ich ___ Pasta zum Abendessen. (Präsens + Verb kochen)
 
 **Optionen:**
 - kochen
@@ -354,7 +354,7 @@
 ### 25. `a1-konj-027` · select-one
 
 **Aufgabe:**
-> Du ___ gern am Wochenende. (Präsens + Verb sehen)
+> Du ___ gern am Wochenende. (Präsens + Verb tanzen)
 
 **Optionen:**
 - tanze
@@ -368,7 +368,7 @@
 ### 26. `a1-konj-028` · select-one
 
 **Aufgabe:**
-> Er ___ laut im Chor. (Präsens + Verb regnen)
+> Er ___ laut im Chor. (Präsens + Verb singen)
 
 **Optionen:**
 - singen
@@ -382,7 +382,7 @@
 ### 27. `a1-konj-029` · select-one
 
 **Aufgabe:**
-> Sie ___ im Büro in der Stadt. (Präsens + Verb fragen)
+> Sie ___ im Büro in der Stadt. (Präsens + Verb arbeiten — sie (Pl.))
 
 **Optionen:**
 - arbeitet
@@ -396,7 +396,7 @@
 ### 28. `a1-konj-030` · select-one
 
 **Aufgabe:**
-> Wir ___ in einer kleinen Wohnung. (Präsens + Verb antworten)
+> Wir ___ in einer kleinen Wohnung. (Präsens + Verb wohnen)
 
 **Optionen:**
 - wohnst
@@ -410,7 +410,7 @@
 ### 29. `a1-konj-031` · select-one
 
 **Aufgabe:**
-> Ihr ___ Deutsch für die Schule. (Präsens + Verb bezahlen)
+> Ihr ___ Deutsch für die Schule. (Präsens + Verb lernen)
 
 **Optionen:**
 - lernen
@@ -424,7 +424,7 @@
 ### 30. `a1-konj-032` · select-one
 
 **Aufgabe:**
-> Anna ___ Musik beim Sport. (Präsens + Verb feiern)
+> Anna ___ Musik beim Sport. (Präsens + Verb machen)
 
 **Optionen:**
 - hören
@@ -452,7 +452,7 @@
 ### 32. `a1-konj-034` · select-one
 
 **Aufgabe:**
-> Meine Freunde ___ Obst zum Frühstück. (Präsens + Verb wohnen)
+> Meine Freunde ___ Obst zum Frühstück. (Präsens + Verb essen)
 
 **Optionen:**
 - isst
@@ -466,7 +466,7 @@
 ### 33. `a1-konj-035` · select-one
 
 **Aufgabe:**
-> Wir ___ im See im Sommer. (Präsens + Verb anrufen)
+> Wir ___ im See im Sommer. (Präsens + Verb schwimmen)
 
 **Optionen:**
 - schwimme
@@ -480,7 +480,7 @@
 ### 34. `a1-konj-036` · select-one
 
 **Aufgabe:**
-> Ich ___ Fußball im Park. (Präsens + Verb waschen)
+> Ich ___ Fußball im Park. (Präsens + Verb spielen)
 
 **Optionen:**
 - spielt
@@ -494,7 +494,7 @@
 ### 35. `a1-konj-037` · select-one
 
 **Aufgabe:**
-> Du ___ Brot im Supermarkt. (Präsens + Verb putzen)
+> Du ___ Brot im Supermarkt. (Präsens + Verb kaufen)
 
 **Optionen:**
 - kauft
@@ -508,7 +508,7 @@
 ### 36. `a1-konj-038` · select-one
 
 **Aufgabe:**
-> Er ___ mit dem Bus zur Schule. (Präsens + Verb grillen)
+> Er ___ mit dem Bus zur Schule. (Präsens + Verb fahren)
 
 **Optionen:**
 - fährst
@@ -522,7 +522,7 @@
 ### 37. `a1-konj-039` · select-one
 
 **Aufgabe:**
-> Sie ___ ein Buch über Reisen. (Präsens + Verb fahren)
+> Sie ___ ein Buch über Reisen. (Präsens + Verb lesen — sie (Pl.))
 
 **Optionen:**
 - liest
@@ -536,7 +536,7 @@
 ### 38. `a1-konj-040` · select-one
 
 **Aufgabe:**
-> Wir ___ eine E-Mail an Freunde. (Präsens + Verb machen)
+> Wir ___ eine E-Mail an Freunde. (Präsens + Verb schreiben)
 
 **Optionen:**
 - schreibst
@@ -550,7 +550,7 @@
 ### 39. `a1-konj-041` · select-one
 
 **Aufgabe:**
-> Ihr ___ Pasta zum Abendessen. (Präsens + Verb geben)
+> Ihr ___ Pasta zum Abendessen. (Präsens + Verb kochen)
 
 **Optionen:**
 - kochen
@@ -564,7 +564,7 @@
 ### 40. `a1-konj-042` · select-one
 
 **Aufgabe:**
-> Anna ___ gern am Wochenende. (Präsens + Verb bringen)
+> Anna ___ gern am Wochenende. (Präsens + Verb tanzen)
 
 **Optionen:**
 - tanzen
@@ -578,7 +578,7 @@
 ### 41. `a1-konj-043` · select-one
 
 **Aufgabe:**
-> Peter ___ laut im Chor. (Präsens + Verb tragen)
+> Peter ___ laut im Chor. (Präsens + Verb singen)
 
 **Optionen:**
 - singen
@@ -592,7 +592,7 @@
 ### 42. `a1-konj-044` · select-one
 
 **Aufgabe:**
-> Meine Freunde ___ im Büro in der Stadt. (Präsens + Verb aufstehen)
+> Meine Freunde ___ im Büro in der Stadt. (Präsens + Verb arbeiten)
 
 **Optionen:**
 - arbeitest
@@ -606,7 +606,7 @@
 ### 43. `a1-konj-045` · select-one
 
 **Aufgabe:**
-> Wir ___ in einer kleinen Wohnung. (Präsens + Verb aufstehen)
+> Wir ___ in einer kleinen Wohnung. (Präsens + Verb wohnen)
 
 **Optionen:**
 - wohnt
@@ -620,7 +620,7 @@
 ### 44. `a1-konj-046` · select-one
 
 **Aufgabe:**
-> Ich ___ Deutsch für die Schule. (Präsens + Verb aufstehen)
+> Ich ___ Deutsch für die Schule. (Präsens + Verb lernen)
 
 **Optionen:**
 - lernen
@@ -634,7 +634,7 @@
 ### 45. `a1-konj-047` · select-one
 
 **Aufgabe:**
-> Du ___ Musik beim Sport. (Präsens + Verb kaufen)
+> Du ___ Musik beim Sport. (Präsens + Verb machen)
 
 **Optionen:**
 - hören
@@ -648,7 +648,7 @@
 ### 46. `a1-konj-048` · select-one
 
 **Aufgabe:**
-> Er ___ Wasser nach dem Training. (Präsens + Verb spielen)
+> Er ___ Wasser nach dem Training. (Präsens + Verb trinken)
 
 **Optionen:**
 - trinken
@@ -662,7 +662,7 @@
 ### 47. `a1-konj-049` · select-one
 
 **Aufgabe:**
-> Sie ___ Obst zum Frühstück. (Präsens + Verb backen)
+> Sie ___ Obst zum Frühstück. (Präsens + Verb essen — sie (Pl.))
 
 **Optionen:**
 - esse
@@ -676,7 +676,7 @@
 ### 48. `a1-konj-050` · select-one
 
 **Aufgabe:**
-> Wir ___ im See im Sommer. (Präsens + Verb lieben)
+> Wir ___ im See im Sommer. (Präsens + Verb schwimmen)
 
 **Optionen:**
 - schwimmst
@@ -716,7 +716,7 @@
 ### 51. `a1-fill-2` · input-text
 
 **Aufgabe:**
-> Er ___ jeden Tag um 7 Uhr auf. (Präsens + Verb kaufen)
+> Er ___ jeden Tag um 7 Uhr auf. (Präsens + Verb aufstehen)
 
 **Antwort:** `steht`
 
@@ -746,7 +746,7 @@
 ### 54. `a1-konj-4` · input-text
 
 **Aufgabe:**
-> Ich ___ morgen zur Schule. (Präsens + Verb lesen)
+> Ich ___ morgen zur Schule. (Präsens + Verb gehen)
 
 **Antwort:** `gehe`
 
@@ -756,7 +756,7 @@
 ### 55. `a1-konj-in-004` · input-text
 
 **Aufgabe:**
-> Anna ___ jeden Abend ein Buch. (Präsens + Verb lesen)
+> Anna ___ jeden Abend ein Buch. (Präsens + Verb lesen — sie (Fem.))
 
 **Antwort:** `liest`
 
@@ -786,7 +786,7 @@
 ### 58. `a1-konj-in-007` · input-text
 
 **Aufgabe:**
-> Die Kinder ___ ein Lied. (Präsens + Verb singen)
+> Die Kinder ___ ein Lied. (Präsens + Verb singen — sie (Pl.))
 
 **Antwort:** `singen`
 
@@ -906,7 +906,7 @@
 ### 70. `a1-konj-in-019` · input-text
 
 **Aufgabe:**
-> Sie ___ in die Stadt. (Präsens + Verb gehen)
+> Sie ___ in die Stadt. (Präsens + Verb gehen — sie (Fem.))
 
 **Antwort:** `geht`
 
@@ -956,9 +956,9 @@
 ### 75. `a1-konj-in-024` · input-text
 
 **Aufgabe:**
-> ___ mir bitte! (Präsens + Verb helfen)
+> Ihr ___ mir im Garten. (Präsens + Verb helfen)
 
-**Antwort:** `Helft`
+**Antwort:** `helft`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -966,7 +966,7 @@
 ### 76. `a1-konj-in-025` · input-text
 
 **Aufgabe:**
-> Meine Freunde ___ später. (Präsens + Verb kommen)
+> Meine Freunde ___ später. (Präsens + Verb kommen — sie (Pl.))
 
 **Antwort:** `kommen`
 
@@ -1056,7 +1056,7 @@
 ### 85. `a1-konj-in-034` · input-text
 
 **Aufgabe:**
-> Sie ___ in Hamburg. (Präsens + Verb wohnen)
+> Sie ___ in Hamburg. (Präsens + Verb wohnen — sie (Pl.))
 
 **Antwort:** `wohnen`
 
@@ -1146,7 +1146,7 @@
 ### 94. `a1-konj-in-043` · input-text
 
 **Aufgabe:**
-> Sie ___ einen blauen Mantel. (Präsens + Verb tragen)
+> Sie ___ einen blauen Mantel. (Präsens + Verb tragen — sie (Fem.))
 
 **Antwort:** `trägt`
 
@@ -1206,7 +1206,7 @@
 ### 100. `a1-konj-in-049` · input-text
 
 **Aufgabe:**
-> Sie ___ einen Kuchen. (Präsens + Verb backen)
+> Sie ___ einen Kuchen. (Präsens + Verb backen — sie (Fem.))
 
 **Antwort:** `backt`
 
@@ -1288,7 +1288,7 @@
 ### 108. `a1-konj-dd-007` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb singen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb lernen)
 
 **Wörter:** Sie · lernen · fleißig · Deutsch
 
@@ -1308,7 +1308,7 @@
 ### 110. `a1-konj-dd-009` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb lernen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb rufen)
 
 **Wörter:** Ich · rufe · dich · an
 
@@ -1318,7 +1318,7 @@
 ### 111. `a1-konj-dd-010` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb hören)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb besuchen)
 
 **Wörter:** Wir · besuchen · unsere · Oma
 
@@ -1328,7 +1328,7 @@
 ### 112. `a1-konj-dd-011` · dropbox
 
 **Aufgabe:**
-> [Wetter] Ordne die Wörter zum richtigen Satz: (Präsens + Verb trinken)
+> [Wetter] Ordne die Wörter zum richtigen Satz: (Präsens + Verb regnen)
 
 **Wörter:** Es · regnet · heute · leicht
 
@@ -1338,7 +1338,7 @@
 ### 113. `a1-konj-dd-012` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb essen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb arbeiten)
 
 **Wörter:** Ich · arbeite · im · Büro
 
@@ -1348,7 +1348,7 @@
 ### 114. `a1-konj-dd-013` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb schwimmen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb putzen)
 
 **Wörter:** Er · putzt · sein · Zimmer
 
@@ -1368,7 +1368,7 @@
 ### 116. `a1-konj-dd-015` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb spielen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb helfen)
 
 **Wörter:** Ich · helfe · dir · gern
 
@@ -1378,7 +1378,7 @@
 ### 117. `a1-konj-dd-016` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb arbeiten)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb füttern)
 
 **Wörter:** Sie · füttert · den · Hund
 
@@ -1388,7 +1388,7 @@
 ### 118. `a1-konj-dd-017` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb schreiben)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb tragen)
 
 **Wörter:** Ich · trage · einen · Mantel
 
@@ -1398,7 +1398,7 @@
 ### 119. `a1-konj-dd-018` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb machen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb essen)
 
 **Wörter:** Du · isst · gern · Obst
 
@@ -1408,7 +1408,7 @@
 ### 120. `a1-konj-dd-019` · dropbox
 
 **Aufgabe:**
-> [Transport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb gehen)
+> [Transport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb warten)
 
 **Wörter:** Er · wartet · auf · den · Zug
 
@@ -1418,7 +1418,7 @@
 ### 121. `a1-konj-dd-020` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb nehmen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb singen)
 
 **Wörter:** Wir · singen · ein · Lied
 
@@ -1428,7 +1428,7 @@
 ### 122. `a1-konj-dd-021` · dropbox
 
 **Aufgabe:**
-> [Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb finden)
+> [Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb schwimmen)
 
 **Wörter:** Ich · schwimme · im · See
 
@@ -1438,7 +1438,7 @@
 ### 123. `a1-konj-dd-022` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb warten)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb schreiben)
 
 **Wörter:** Du · schreibst · einen · Text
 
@@ -1448,7 +1448,7 @@
 ### 124. `a1-konj-dd-023` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb besuchen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb kommen)
 
 **Wörter:** Sie · kommen · heute · Abend
 
@@ -1458,7 +1458,7 @@
 ### 125. `a1-konj-dd-024` · dropbox
 
 **Aufgabe:**
-> [Stadt] Ordne die Wörter zum richtigen Satz: (Präsens + Verb helfen)
+> [Stadt] Ordne die Wörter zum richtigen Satz: (Präsens + Verb gehen)
 
 **Wörter:** Ich · gehe · in · die · Stadt
 
@@ -1468,7 +1468,7 @@
 ### 126. `a1-konj-dd-025` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb kommen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb malen)
 
 **Wörter:** Er · malt · ein · Bild
 
@@ -1478,7 +1478,7 @@
 ### 127. `a1-konj-dd-026` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb brauchen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb feiern)
 
 **Wörter:** Wir · feiern · heute · Geburtstag
 
@@ -1488,7 +1488,7 @@
 ### 128. `a1-konj-dd-027` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb sehen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb bezahlen)
 
 **Wörter:** Sie · bezahlt · an · der · Kasse
 
@@ -1498,7 +1498,7 @@
 ### 129. `a1-konj-dd-028` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb regnen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb beginnen)
 
 **Wörter:** Der · Kurs · beginnt · um · acht
 
@@ -1508,7 +1508,7 @@
 ### 130. `a1-konj-dd-029` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb fragen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb schlafen)
 
 **Wörter:** Ich · schlafe · acht · Stunden
 
@@ -1518,7 +1518,7 @@
 ### 131. `a1-konj-dd-030` · dropbox
 
 **Aufgabe:**
-> [Reisen] Ordne die Wörter zum richtigen Satz: (Präsens + Verb antworten)
+> [Reisen] Ordne die Wörter zum richtigen Satz: (Präsens + Verb fliegen)
 
 **Wörter:** Wir · fliegen · nach · Wien
 
@@ -1528,7 +1528,7 @@
 ### 132. `a1-konj-dd-031` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb bezahlen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb trinken)
 
 **Wörter:** Du · trinkst · viel · Wasser
 
@@ -1538,7 +1538,7 @@
 ### 133. `a1-konj-dd-032` · dropbox
 
 **Aufgabe:**
-> [Wetter] Ordne die Wörter zum richtigen Satz: (Präsens + Verb feiern)
+> [Wetter] Ordne die Wörter zum richtigen Satz: (Präsens + Verb scheinen)
 
 **Wörter:** Die · Sonne · scheint · heute
 
@@ -1548,7 +1548,7 @@
 ### 134. `a1-konj-dd-033` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb trinken)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb hören)
 
 **Wörter:** Ich · höre · gern · Musik
 
@@ -1558,7 +1558,7 @@
 ### 135. `a1-konj-dd-034` · dropbox
 
 **Aufgabe:**
-> [Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb wohnen)
+> [Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb laufen)
 
 **Wörter:** Er · läuft · im · Park
 
@@ -1568,7 +1568,7 @@
 ### 136. `a1-konj-dd-035` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb anrufen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb fragen)
 
 **Wörter:** Ich · frage · den · Lehrer
 
@@ -1578,7 +1578,7 @@
 ### 137. `a1-konj-dd-036` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb waschen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb treffen)
 
 **Wörter:** Wir · treffen · uns · heute
 
@@ -1588,7 +1588,7 @@
 ### 138. `a1-konj-dd-037` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb putzen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb backen)
 
 **Wörter:** Sie · backt · einen · Kuchen
 
@@ -1598,7 +1598,7 @@
 ### 139. `a1-konj-dd-038` · dropbox
 
 **Aufgabe:**
-> [Transport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb grillen)
+> [Transport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb steigen)
 
 **Wörter:** Ich · steige · in · den · Bus
 
@@ -1608,7 +1608,7 @@
 ### 140. `a1-konj-dd-039` · dropbox
 
 **Aufgabe:**
-> [Stadt] Ordne die Wörter zum richtigen Satz: (Präsens + Verb fahren)
+> [Stadt] Ordne die Wörter zum richtigen Satz: (Präsens + Verb suchen)
 
 **Wörter:** Wir · suchen · ein · Café
 
@@ -1618,7 +1618,7 @@
 ### 141. `a1-konj-dd-040` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb machen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb fotografieren)
 
 **Wörter:** Er · fotografiert · die · Stadt
 
@@ -1628,7 +1628,7 @@
 ### 142. `a1-konj-dd-041` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb geben)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb lieben)
 
 **Wörter:** Ich · liebe · meine · Familie
 
@@ -1638,7 +1638,7 @@
 ### 143. `a1-konj-dd-042` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb bringen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb machen)
 
 **Wörter:** Du · machst · gute · Arbeit
 
@@ -1648,7 +1648,7 @@
 ### 144. `a1-konj-dd-043` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb tragen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb kochen)
 
 **Wörter:** Sie · kocht · das · Essen
 
@@ -1658,7 +1658,7 @@
 ### 145. `a1-konj-dd-044` · dropbox
 
 **Aufgabe:**
-> [Reisen] Ordne die Wörter zum richtigen Satz: (Präsens + Verb aufstehen)
+> [Reisen] Ordne die Wörter zum richtigen Satz: (Präsens + Verb packen)
 
 **Wörter:** Ich · packe · meinen · Koffer
 
@@ -1668,7 +1668,7 @@
 ### 146. `a1-konj-dd-045` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb aufstehen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb ruhen)
 
 **Wörter:** Er · ruht · sich · aus
 
@@ -1678,7 +1678,7 @@
 ### 147. `a1-konj-dd-046` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb aufstehen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb streicheln)
 
 **Wörter:** Ich · streiche · die · Katze
 
@@ -1688,7 +1688,7 @@
 ### 148. `a1-konj-dd-047` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb kaufen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb anziehen)
 
 **Wörter:** Du · ziehst · dich · an
 
@@ -1698,7 +1698,7 @@
 ### 149. `a1-konj-dd-048` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb spielen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb finden)
 
 **Wörter:** Wir · finden · ein · Angebot
 
@@ -1708,7 +1708,7 @@
 ### 150. `a1-konj-dd-049` · dropbox
 
 **Aufgabe:**
-> Ordne die Wörter zum richtigen Satz: (Präsens + Verb backen)
+> Ordne die Wörter zum richtigen Satz: (Präsens + Verb üben)
 
 **Wörter:** Ich · übe · jeden · Tag
 
@@ -1718,7 +1718,7 @@
 ### 151. `a1-konj-dd-050` · dropbox
 
 **Aufgabe:**
-> [Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb lieben)
+> [Sport] Ordne die Wörter zum richtigen Satz: (Präsens + Verb gewinnen)
 
 **Wörter:** Sie · gewinnt · das · Spiel
 

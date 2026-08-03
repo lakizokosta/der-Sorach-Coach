@@ -1,8 +1,11 @@
 ---
 id: a1-neg-in-034
 type: input-text
+hint: Negation
 correct:
   - nicht
 ---
 
-Ich kenne ___ diese Straße. (Negation)
+Ergänze die Verneinung:
+
+Ich kenne ___ diese Straße.
