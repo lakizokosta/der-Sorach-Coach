@@ -15,6 +15,7 @@ import { SCRIPT_URL } from '@/data/payment.js';
 import { getDeviceId } from '@/utils/deviceId.js';
 import { isPlausibleTrainingJwt } from '@/utils/trainingJwt.js';
 import { isTransientBackendError } from '@/utils/backendGrace.js';
+import { classifyGasHttpFailure } from '@/utils/gasResponse.js';
 
 /** Captured in index.html before app bundle — not replaced by casual console fetch hooks. */
 const httpFetch = typeof window !== 'undefined' && window.__LZD_NATIVE_FETCH__
@@ -38,14 +39,9 @@ export function hasBackend() {
  * @return {{ ok: false, error: string }|null}
  */
 function httpFailure(res, text) {
+  const gasFail = classifyGasHttpFailure(res, text);
+  if (gasFail) return gasFail;
   if (res.ok) return null;
-  if (res.status === 403) {
-    return {
-      ok: false,
-      error:
-        'Backend-Zugriff verweigert (403). Apps Script neu deployen: „Execute as: Me“, „Who has access: Anyone“.',
-    };
-  }
   if (res.status >= 500) {
     return { ok: false, error: `Backend-Serverfehler (${res.status})` };
   }

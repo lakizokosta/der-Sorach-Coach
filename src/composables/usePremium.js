@@ -21,6 +21,7 @@ import {
 } from '@/utils/api.js';
 import {
   clearGraceSnapshot,
+  isOAuthBackendError,
   isTransientBackendError,
   readGraceSnapshot,
   writeGraceSnapshot,
@@ -86,8 +87,9 @@ function persistEntitlementGrace() {
 
 /**
  * @param {import('@/utils/backendGrace.js').GraceSnapshot} grace
+ * @param {{ oauth?: boolean }} [options]
  */
-function applyGraceSnapshot(grace) {
+function applyGraceSnapshot(grace, options = {}) {
   entitlements.isPremium = !!grace.isPremium;
   entitlements.isBasis = !!grace.isBasis;
   entitlements.premiumExpires = grace.premiumExpires || '';
@@ -95,8 +97,9 @@ function applyGraceSnapshot(grace) {
   if (grace.basisCode) state.basisCode = grace.basisCode;
   persist();
   backendDegraded.active = true;
-  backendDegraded.message =
-    'Server vorübergehend nicht erreichbar — dein Zugang bleibt vorerst aktiv.';
+  backendDegraded.message = options.oauth
+    ? 'Backend vorübergehend nicht erreichbar (OAuth) — dein Zugang bleibt vorerst aktiv.'
+    : 'Server vorübergehend nicht erreichbar — dein Zugang bleibt vorerst aktiv.';
 }
 
 /** Persist activation codes only. */
@@ -383,6 +386,7 @@ async function refreshEntitlementsFromServer() {
   let magicVerified = false;
   let codeVerified = false;
   let transientFailure = false;
+  let oauthTransientFailure = false;
 
   if (auth.email && auth.sessionToken && auth.sessionExpires) {
     if (new Date().toISOString() >= auth.sessionExpires) {
@@ -404,6 +408,7 @@ async function refreshEntitlementsFromServer() {
         magicVerified = true;
       } else if (isTransientBackendError(magicRes)) {
         transientFailure = true;
+        if (isOAuthBackendError(magicRes)) oauthTransientFailure = true;
       } else {
         logout();
       }
@@ -434,6 +439,7 @@ async function refreshEntitlementsFromServer() {
       }
     } else if (isTransientBackendError(codeRes)) {
       transientFailure = true;
+      if (isOAuthBackendError(codeRes)) oauthTransientFailure = true;
     } else {
       state.premiumCode = '';
       state.basisCode = '';
@@ -450,7 +456,7 @@ async function refreshEntitlementsFromServer() {
   if (transientFailure) {
     const grace = readGraceSnapshot();
     if (grace && (grace.isPremium || grace.isBasis)) {
-      applyGraceSnapshot(grace);
+      applyGraceSnapshot(grace, { oauth: oauthTransientFailure });
       return { ok: true, degraded: true };
     }
   }

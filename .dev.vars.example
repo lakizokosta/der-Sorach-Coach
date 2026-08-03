@@ -1,0 +1,9 @@
+# Local Cloudflare Worker secrets (copy to .dev.vars — never commit)
+#
+#   cp .dev.vars.example .dev.vars
+#
+# Must match TRAINING_JWT_SECRET in apps-script/Code.gs
+TRAINING_JWT_SECRET=your-local-dev-secret-here
+
+# Optional override (defaults to wrangler.toml [vars])
+# SCRIPT_URL=https://script.google.com/macros/s/.../exec

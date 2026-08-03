@@ -56,7 +56,17 @@
     "dictionary:build:fetch": "node scripts/build-dictionary.mjs --fetch-translations",
     "dictionary:build:fetch:top": "node scripts/build-dictionary.mjs --fetch-translations --fetch-limit=200",
     "backend:verify": "node scripts/verify-backend.mjs",
-    "backend:check": "node scripts/check-backend-url.mjs"
+    "backend:check": "node scripts/check-backend-url.mjs",
+    "backend:monitor": "node scripts/monitor-gas-backend.mjs",
+    "ops:monitor:verify": "node scripts/verify-monitor-setup.mjs",
+    "ops:monitor:test-email": "node scripts/send-monitor-test-email.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "questions:verify:vocab": "node scripts/verify-vocab-questions.mjs",
+    "vocab:verify-sets": "node scripts/verify-vocab-sets.mjs",
+    "ops:verify-manifest": "node scripts/verify-appsscript-manifest.mjs",
+    "test:stabilize": "npm run test && npm run questions:verify && npm run questions:verify:vocab && npm run vocab:verify-sets && npm run ops:verify-manifest && npm run build && node scripts/check-bundle-size.mjs"
   },
   "dependencies": {
     "vue": "^3.5.13",
@@ -64,7 +74,10 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "@vitest/coverage-v8": "^4.1.10",
+    "happy-dom": "^20.11.1",
     "vite": "^6.0.7",
+    "vitest": "^4.1.10",
     "wrangler": "^4.98.0"
   },
   "engines": {

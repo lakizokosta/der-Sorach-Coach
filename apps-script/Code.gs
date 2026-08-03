@@ -10,6 +10,7 @@
  *      2-hour session token bound to the buyer's device.
  *   3. Issues magic-link login e-mails (365-day sliding sessions).
  *   4. Relays the contact form to the support inbox.
+ *   5. Sends monitor alert e-mails (CI redeploy reminders).
  *
  * Deploy as a Web App (Execute as: Me, Access: Anyone) and put the
  * resulting `/exec` URL into:
@@ -114,6 +115,7 @@ function doGet(e) {
       case 'validateCode':       return json(validateCode(e.parameter));
       case 'validateMagicToken': return json(validateMagicToken(e.parameter));
       case 'requestMagicLink':   return json(requestMagicLink(e.parameter));
+      case 'monitorNotify':      return json(handleMonitorNotify_(e.parameter));
       default:                   return json({ ok: false, error: 'Unknown action' });
     }
   } catch (err) {
@@ -747,6 +749,51 @@ function sendContactForm(body) {
       `${message}`,
   });
   return { ok: true };
+}
+
+/**
+ * CI monitor — sends a redeploy reminder e-mail to SUPPORT_EMAIL.
+ * Deduped once per deploy cycle (CacheService key = deployDate + level).
+ *
+ * GET ?action=monitorNotify&secret=…&level=warn|fail&message=…&deployDate=2026-08-01
+ *
+ * @param {!Object} p
+ * @return {!Object}
+ */
+function handleMonitorNotify_(p) {
+  if (!p || p.secret !== WEBHOOK_SECRET) {
+    return { ok: false, error: 'Forbidden' };
+  }
+
+  const level = String(p.level || 'warn').toLowerCase();
+  const message = String(p.message || p.body || '').trim();
+  if (!message) return { ok: false, error: 'Empty message' };
+
+  const deployDate = String(p.deployDate || 'unknown').trim();
+  const cacheKey = 'monitor_' + deployDate + '_' + level;
+  const cache = CacheService.getScriptCache();
+  if (cache.get(cacheKey)) {
+    return { ok: true, skipped: true, reason: 'already_sent_for_deploy' };
+  }
+
+  const subject =
+    '[SprachCoach Monitor] ' + level.toUpperCase() + ' — GAS redeploy (~24h vor Ablauf)';
+  const body =
+    message +
+    '\n\n---\n' +
+    'Automatische Monitor-Benachrichtigung (1× pro Deploy-Zyklus)\n' +
+    'Deploy-Datum: ' + deployDate + '\n' +
+    'Zeit: ' + new Date().toISOString() + '\n' +
+    'Deploy: script.google.com → Manage deployments → New version\n';
+
+  MailApp.sendEmail({
+    to: SUPPORT_EMAIL,
+    subject: subject,
+    body: body,
+  });
+
+  cache.put(cacheKey, '1', 86400 * 10);
+  return { ok: true, sentTo: SUPPORT_EMAIL };
 }
 
 /* ────────────────────────────────────────────────────────────────

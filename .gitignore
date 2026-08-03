@@ -6,3 +6,4 @@ server-questions
 .dev.vars
 .DS_Store
 *.log
+monitor-email-body.txt

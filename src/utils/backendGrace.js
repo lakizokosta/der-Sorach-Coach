@@ -16,12 +16,23 @@ export const GRACE_MAX_MS = 72 * 60 * 60 * 1000;
  * @param {unknown} res
  * @return {boolean}
  */
+export function isOAuthBackendError(res) {
+  if (!res || typeof res !== 'object' || res.ok) return false;
+  const err = String(res.error || '');
+  return /Backend-Zugriff verweigert|Apps Script neu deployen|Google-Anmeldeseite|OAuth abgelaufen|Access Denied/i.test(err);
+}
+
+/**
+ * @param {unknown} res
+ * @return {boolean}
+ */
 export function isTransientBackendError(res) {
   if (!res || typeof res !== 'object') return true;
   if (res.ok) return false;
 
   const err = String(res.error || '');
   if (res.timedOut) return true;
+  if (isOAuthBackendError(res)) return true;
   if (/Keine Verbindung|Zeitüberschreitung|timeout|network|unreachable|Backend unreachable|Empty backend|Serverfehler \(5/i.test(err)) {
     return true;
   }

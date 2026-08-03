@@ -1,12 +1,13 @@
 name: Backend health
 
+# Scheduled cron runs only from the repository default branch (main).
 on:
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
-  verify:
+  monitor:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,7 +16,45 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Smoke test GAS + Worker
-        run: npm run backend:verify
+      - name: Monitor GAS + Worker
+        id: monitor
+        run: |
+          set +e
+          node scripts/monitor-gas-backend.mjs --json > monitor-report.json
+          EXIT=$?
+          echo "exit_code=$EXIT" >> "$GITHUB_OUTPUT"
+          cat monitor-report.json
+          exit $EXIT
         env:
           WORKER_URL: https://lernziel-deutsch.de
+
+      - name: E-mail notifications
+        if: steps.monitor.outputs.exit_code != '0'
+        id: notify
+        run: node scripts/notify-monitor.mjs monitor-report.json
+        continue-on-error: true
+        env:
+          WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+
+      - name: SMTP fallback (when GAS is down)
+        if: steps.monitor.outputs.exit_code != '0' && steps.notify.outcome == 'failure'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: '[SprachCoach Monitor] KRITISCH — GAS redeploy'
+          to: ${{ secrets.NOTIFY_EMAIL_TO }}
+          from: Der SprachCoach Monitor
+          body: file://monitor-email-body.txt
+
+      - name: Fail workflow on critical
+        if: steps.monitor.outputs.exit_code == '1'
+        run: |
+          echo "::error::GAS backend critical — see monitor-report.json"
+          exit 1

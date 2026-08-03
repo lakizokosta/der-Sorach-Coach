@@ -31,10 +31,22 @@ Outgoing mail uses the script owner account; a second account causes OAuth 403 /
 9. Stripe Payment Links: success redirect = `https://lernziel-deutsch.de/?stripe_success=1`
 
 ## Updating after code changes (every time)
-1. Edit `apps-script/Code.gs` in the repo.
-2. Copy-paste into the Apps Script editor (script.google.com).
-3. **Deploy → Manage deployments → ⚙ Edit → New version → Deploy**
-4. The `/exec` URL stays the same — SPA rebuild is NOT required unless `SCRIPT_URL` changed.
+
+> See [06-backend-outage-investigation.md](../../docs/system-analysis/06-backend-outage-investigation.md) if the backend returns HTTP 403 periodically.
+
+1. Run `npm run ops:verify-manifest` locally — scopes must match before deploy.
+2. Edit `apps-script/Code.gs` **and** `apps-script/appsscript.json` in the repo.
+3. Copy-paste **both** into script.google.com (manifest: Project Settings → Show appsscript.json).
+4. Deploy as **lakizo.kosta@gmail.com** → **Deploy → Manage deployments → ⚙ Edit → New version → Deploy**.
+5. Update `docs/ops/gas-deploy-log.json` (`lastDeployAt`, `oauthMode`).
+6. Smoke: `node scripts/check-backend-url.mjs` and `npm run backend:monitor`.
+7. The `/exec` URL stays the same — SPA rebuild is NOT required unless `SCRIPT_URL` changed.
+
+## OAuth / GCP (when 403 every ~7 days)
+
+- GCP Console → OAuth consent screen → **In production** (not Testing)
+- Privacy Policy URL on lernziel-deutsch.de required for production mode
+- Always deploy from `lakizo.kosta@gmail.com` — other accounts cause OAuth 403
 
 ## URL rules
 - `APP_BASE_URL` / `BASE_URL` must be `https://lernziel-deutsch.de` (no `/#/`).

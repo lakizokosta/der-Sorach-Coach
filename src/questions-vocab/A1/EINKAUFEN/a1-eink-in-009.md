@@ -4,7 +4,7 @@ type: input-text
 lemma: Gemüse
 set: EINKAUFEN
 focus: word
-hint: Salat und Tomaten — Obst oder Gemüse?
+hint: Salat und Tomaten — Obst oder …?
 wordChoices:
   - Gemüse
   - Obst

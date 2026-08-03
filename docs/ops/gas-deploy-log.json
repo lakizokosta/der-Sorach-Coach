@@ -1,0 +1,9 @@
+{
+  "lastDeployAt": "2026-08-01",
+  "lastIncidentAt": "2026-08-01",
+  "lastIncidentSymptom": "HTTP 403 OAuth token expiry (~7d Testing mode); fixed temporarily by redeploy + re-consent",
+  "deployedBy": "lakizo.kosta@gmail.com",
+  "oauthMode": "testing",
+  "oauthTokenLifetimeDays": 7,
+  "notes": "lastDeployAt — дата последнего GAS redeploy. oauthMode: testing (7d token) | production (no proactive mail unless oauthTokenLifetimeDays set). E-mail отправляется ровно за 1 сутки до истечения (day 6 при lifetime=7)."
+}

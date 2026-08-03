@@ -4,7 +4,7 @@ type: input-text
 lemma: Großmutter
 set: MEINE_FAMILIE
 focus: word
-hint: Die Mutter deiner Mutter — Oma / …
+hint: Die Mutter deiner Mutter — umgangssprachlich?
 wordChoices:
   - Großmutter
   - Schwester
