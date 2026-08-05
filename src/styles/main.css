@@ -931,8 +931,12 @@ button:not(:disabled):not(.logo-wrap) {
   fill: none;
   stroke: #ab4dbb;
   stroke-width: 1.5;
-  stroke-dasharray: 4 3;
   opacity: 0.65;
+}
+.spatial-path--movement {
+  stroke: #8e24aa;
+  stroke-width: 2;
+  opacity: 0.92;
 }
 .preposition-spatial-badge {
   margin: 6px 0 0;
