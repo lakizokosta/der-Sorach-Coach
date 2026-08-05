@@ -16,6 +16,11 @@ import { computed, ref, onMounted } from 'vue';
 import { shuffle } from '@/utils/random.js';
 import { stripTrailingPromptHint } from '@/utils/markdownQuestion.js';
 import { resolveDropboxCommas } from '@/utils/dropboxCommas.js';
+import {
+  chunkifyDropboxWords,
+  commaAfterChunk,
+  flattenDropboxChunks,
+} from '@/utils/dropboxChunks.js';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -51,6 +56,7 @@ const lastWord = correct[correct.length - 1] ?? '';
 const suffix = TRAILING_PUNCT.has(lastWord) ? lastWord : '';
 // Words the student actually needs to arrange (excludes the fixed suffix).
 const coreWords = suffix ? correct.slice(0, -1) : correct;
+const coreChunks = computed(() => chunkifyDropboxWords(coreWords));
 
 /** Builds a display string with optional comma positions. */
 function formatSentence(words, suffixChar = '') {
@@ -64,12 +70,21 @@ function formatSentence(words, suffixChar = '') {
 }
 
 function scrambleBank() {
-  let s = shuffle(coreWords);
-  if (s.join('|') === coreWords.join('|') && s.length > 1) {
+  let s = shuffle([...coreChunks.value]);
+  const coreKey = coreChunks.value.map((c) => c.id).join('|');
+  if (s.map((c) => c.id).join('|') === coreKey && s.length > 1) {
     [s[0], s[s.length - 1]] = [s[s.length - 1], s[0]];
   }
   bank.value = s;
   drop.value = [];
+}
+
+function flatDropWords() {
+  return flattenDropboxChunks(drop.value);
+}
+
+function chunksMatch(a, b) {
+  return a?.id === b?.id;
 }
 
 onMounted(scrambleBank);
@@ -82,24 +97,23 @@ function isChipLocked(index) {
     wrongChecks.value >= 1
     && !finalised.value
     && !showSolution.value
-    && drop.value[index] === coreWords[index]
+    && chunksMatch(drop.value[index], coreChunks.value[index])
   );
 }
 
 const canApplyHint = computed(() => {
   if (locked.value) return false;
-  const nextIndex = drop.value.findIndex((w, i) => w !== coreWords[i]);
+  const nextIndex = drop.value.findIndex((chunk, i) => !chunksMatch(chunk, coreChunks.value[i]));
   const targetIndex = nextIndex === -1 ? drop.value.length : nextIndex;
-  return targetIndex < coreWords.length;
+  return targetIndex < coreChunks.value.length;
 });
 
 function pushChip(index) {
   if (locked.value) return;
-  const word = bank.value[index];
-  if (word === undefined) return;
+  const chunk = bank.value[index];
+  if (chunk === undefined) return;
   bank.value.splice(index, 1);
-  drop.value.push(word);
-  // Auto-place the last remaining word (already handles "?" via suffix).
+  drop.value.push(chunk);
   if (bank.value.length === 1) {
     const last = bank.value.splice(0, 1)[0];
     drop.value.push(last);
@@ -108,28 +122,28 @@ function pushChip(index) {
 
 function popChip(index) {
   if (locked.value || isChipLocked(index)) return;
-  const [w] = drop.value.splice(index, 1);
-  if (w !== undefined) bank.value.push(w);
+  const [chunk] = drop.value.splice(index, 1);
+  if (chunk !== undefined) bank.value.push(chunk);
 }
 
-/** Inserts the next reference word; trims a wrong tail first if needed. */
+/** Inserts the next reference chunk; trims a wrong tail first if needed. */
 function applyHint() {
   if (!canApplyHint.value) return;
 
-  let nextIndex = drop.value.findIndex((w, i) => w !== coreWords[i]);
+  let nextIndex = drop.value.findIndex((chunk, i) => !chunksMatch(chunk, coreChunks.value[i]));
   if (nextIndex === -1) nextIndex = drop.value.length;
 
   while (drop.value.length > nextIndex) {
-    const w = drop.value.pop();
-    if (w !== undefined) bank.value.push(w);
+    const chunk = drop.value.pop();
+    if (chunk !== undefined) bank.value.push(chunk);
   }
 
-  const targetWord = coreWords[nextIndex];
-  const bankIndex = bank.value.indexOf(targetWord);
+  const targetChunk = coreChunks.value[nextIndex];
+  const bankIndex = bank.value.findIndex((c) => c.id === targetChunk.id);
   if (bankIndex === -1) return;
 
   bank.value.splice(bankIndex, 1);
-  drop.value.push(targetWord);
+  drop.value.push(targetChunk);
 
   if (bank.value.length === 1) {
     const last = bank.value.splice(0, 1)[0];
@@ -149,7 +163,7 @@ function finalise(isCorrect) {
 
 function showCorrectSolution() {
   showSolution.value = true;
-  drop.value = [...coreWords];
+  drop.value = [...coreChunks.value];
   bank.value = [];
   let html = '❌ Nicht richtig. Richtige Lösung:';
   html += `<div style="margin-top:10px;font-weight:700;color:#2e7d32;">${formatSentence(coreWords, suffix)}</div>`;
@@ -166,8 +180,7 @@ function check() {
     return;
   }
 
-  // Include the fixed suffix when checking (it is not part of the drop array).
-  const full = suffix ? [...drop.value, suffix] : drop.value;
+  const full = suffix ? [...flatDropWords(), suffix] : flatDropWords();
   const key = full.join('|');
   const isCorrect = validOrders.some((order) => order.join('|') === key);
   if (isCorrect) {
@@ -243,14 +256,18 @@ const promptLabel = computed(
     'Ordne die Wörter zum richtigen Satz:',
 );
 
-const chipClass = computed(() => (word, index) => {
+const chipClass = computed(() => (chunk, index) => {
   if (showSolution.value || (finalised.value && succeeded.value)) return 'correct';
   if (finalised.value && wrongChecks.value >= 2) {
-    return drop.value[index] === coreWords[index] ? 'correct' : 'wrong';
+    return chunksMatch(chunk, coreChunks.value[index]) ? 'correct' : 'wrong';
   }
-  if (wrongChecks.value >= 1 && drop.value[index] === coreWords[index]) return 'correct';
+  if (wrongChecks.value >= 1 && chunksMatch(chunk, coreChunks.value[index])) return 'correct';
   return '';
 });
+
+function showCommaAfter(chunkIndex) {
+  return commaAfterChunk(drop.value, chunkIndex, commaAfter.value);
+}
 </script>
 
 <template>
@@ -261,15 +278,18 @@ const chipClass = computed(() => (word, index) => {
 
     <div class="dd-drop">
       <span v-if="drop.length === 0" class="dd-placeholder">Tippe auf Wörter ↓</span>
-      <template v-for="(w, i) in drop" :key="`d-${i}-${w}`">
+      <template v-for="(chunk, i) in drop" :key="`d-${chunk.id}-${i}`">
         <span
           class="dd-chip"
-          :class="[chipClass(w, i), { locked: isChipLocked(i) }]"
+          :class="[
+            chipClass(chunk, i),
+            { locked: isChipLocked(i), 'dd-chip--group': chunk.words.length > 1 },
+          ]"
           @click="popChip(i)"
         >
-          {{ w }}
+          {{ chunk.text }}
         </span>
-        <span v-if="commaAfter.includes(i)" class="dd-comma">,</span>
+        <span v-if="showCommaAfter(i)" class="dd-comma">,</span>
       </template>
       <!-- Fixed trailing punctuation — pre-placed, not draggable -->
       <span
@@ -281,12 +301,13 @@ const chipClass = computed(() => (word, index) => {
 
     <div class="dd-bank">
       <span
-        v-for="(w, i) in bank"
-        :key="`b-${i}-${w}`"
+        v-for="(chunk, i) in bank"
+        :key="`b-${chunk.id}`"
         class="dd-chip"
+        :class="{ 'dd-chip--group': chunk.words.length > 1 }"
         @click="pushChip(i)"
       >
-        {{ w }}
+        {{ chunk.text }}
       </span>
     </div>
 

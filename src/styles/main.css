@@ -1100,6 +1100,10 @@ button:not(:disabled):not(.logo-wrap) {
 .dd-chip.correct { background: #e8f5e9; border-color: #69c43b; color: #2e7d32; }
 .dd-chip.wrong   { background: #fff0f0; border-color: #ed4545; color: #c62828; }
 .dd-chip.locked  { cursor: default; }
+.dd-chip--group {
+  padding: 8px 16px;
+  letter-spacing: 0.01em;
+}
 .dd-placeholder  { color: #bbb; font-size: 13px; }
 .dd-comma {
   font-size: 20px;
