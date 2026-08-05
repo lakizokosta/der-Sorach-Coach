@@ -24,12 +24,27 @@ Deploy day 0 ──────────────────────�
 
 ## Расписание проверок
 
-| Workflow | Cron | E-mail |
-| -------- | ---- | ------ |
-| `gas-redeploy-email.yml` | ежедневно 07:00 UTC | только если `daysUntilExpiry === 1` |
-| `backend-health.yml` | каждый час | только при FAIL (403) или `daysUntilExpiry === 1` |
+| Workflow | Cron | E-mail от SprachCoach |
+| -------- | ---- | --------------------- |
+| `backend-health.yml` | каждый час | **только** при FAIL (403) или `daysUntilExpiry === 1` |
+| `gas-redeploy-email.yml` | вручную (Run workflow) | то же — для smoke-теста |
+
+**Важно:** когда всё OK, **письма от SprachCoach не отправляются**. Если приходят ежедневные «всё хорошо» — это уведомления **GitHub** о успешном workflow (см. ниже).
 
 Dedup в GAS: **1 письмо на deploy-цикл** (ключ `deployDate + level`), не 1 раз в день.
+
+---
+
+## Отключить ежедневные «всё OK» от GitHub
+
+GitHub шлёт свои письма вида *«Run succeeded: GAS redeploy email reminder»* — это **не** наш monitor.
+
+1. Открой [github.com/settings/notifications](https://github.com/settings/notifications)
+2. Раздел **Actions**
+3. Выбери **Send notifications for failed workflows only** (только при сбое)
+4. Или сними галочку **Actions** / отключи watch для репозитория
+
+После merge фикса workflows (`exit 0` всегда) GitHub не будет помечать runs как failed при proactive-напоминании.
 
 ---
 

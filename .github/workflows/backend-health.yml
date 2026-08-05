@@ -1,6 +1,9 @@
 name: Backend health
 
-# Scheduled cron runs only from the repository default branch (main).
+# Checks GAS + Worker hourly. Custom e-mail ONLY when action is required.
+# Workflow always succeeds (exit 0) — no GitHub "run failed/succeeded" spam.
+# Cron runs only from default branch (main).
+
 on:
   schedule:
     - cron: '0 * * * *'
@@ -23,13 +26,18 @@ jobs:
           node scripts/monitor-gas-backend.mjs --json > monitor-report.json
           EXIT=$?
           echo "exit_code=$EXIT" >> "$GITHUB_OUTPUT"
+          if [ "$EXIT" != "0" ]; then
+            echo "send_email=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "send_email=false" >> "$GITHUB_OUTPUT"
+          fi
           cat monitor-report.json
-          exit $EXIT
+          exit 0
         env:
           WORKER_URL: https://lernziel-deutsch.de
 
-      - name: E-mail notifications
-        if: steps.monitor.outputs.exit_code != '0'
+      - name: Send e-mail (action required only)
+        if: steps.monitor.outputs.send_email == 'true'
         id: notify
         run: node scripts/notify-monitor.mjs monitor-report.json
         continue-on-error: true
@@ -40,7 +48,7 @@ jobs:
           NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
 
       - name: SMTP fallback (when GAS is down)
-        if: steps.monitor.outputs.exit_code != '0' && steps.notify.outcome == 'failure'
+        if: steps.monitor.outputs.send_email == 'true' && steps.notify.outcome == 'failure'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -52,9 +60,3 @@ jobs:
           to: ${{ secrets.NOTIFY_EMAIL_TO }}
           from: Der SprachCoach Monitor
           body: file://monitor-email-body.txt
-
-      - name: Fail workflow on critical
-        if: steps.monitor.outputs.exit_code == '1'
-        run: |
-          echo "::error::GAS backend critical — see monitor-report.json"
-          exit 1
