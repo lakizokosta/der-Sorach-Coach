@@ -141,15 +141,23 @@ async function getJson(params, options = {}) {
 
 /**
  * @param {Object} body
+ * @param {{ timeoutMs?: number }} [options]
  * @return {Promise<Object>}
  */
-async function postJsonOnce(body) {
+async function postJsonOnce(body, options = {}) {
   if (!hasBackend()) return { ok: false, error: 'Kein Backend konfiguriert' };
+  const timeoutMs = Number(options.timeoutMs) || 0;
+  const controller = timeoutMs > 0 ? new AbortController() : null;
+  const timer = controller
+    ? setTimeout(() => controller.abort(), timeoutMs)
+    : null;
   try {
     const res = await httpFetch(SCRIPT_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify(body),
+      cache: 'no-store',
+      signal: controller ? controller.signal : undefined,
     });
     const text = await res.text();
     const fail = httpFailure(res, text);
@@ -161,7 +169,12 @@ async function postJsonOnce(body) {
       return { ok: false, error: 'Ungültige Backend-Antwort (kein JSON)' };
     }
   } catch (err) {
+    if (controller && controller.signal.aborted) {
+      return { ok: false, error: 'Zeitüberschreitung', timedOut: true };
+    }
     return networkFailure(err);
+  } finally {
+    if (timer) clearTimeout(timer);
   }
 }
 
@@ -169,7 +182,7 @@ async function postJsonOnce(body) {
  * Performs a POST against the Apps Script Web App (with transient retries).
  *
  * @param {Object} body  Will be JSON-stringified and sent as the body.
- * @param {{ retries?: number }} [options]
+ * @param {{ retries?: number, timeoutMs?: number }} [options]
  * @return {Promise<Object>} The JSON response or `{ok:false,error}`.
  */
 async function postJson(body, options = {}) {
@@ -177,7 +190,7 @@ async function postJson(body, options = {}) {
   const retries = Number(options.retries ?? 2);
   let last = { ok: false, error: 'Kein Backend konfiguriert' };
   for (let attempt = 0; attempt <= retries; attempt += 1) {
-    last = await postJsonOnce(body);
+    last = await postJsonOnce(body, options);
     if (last.ok || !isTransientBackendError(last) || attempt >= retries) return last;
     await delay(700 * (attempt + 1));
   }
@@ -209,7 +222,7 @@ export function validateCode(code, email = '', sessionToken = '') {
     email: String(email || '').trim().toLowerCase(),
     deviceId: getDeviceId(),
     sessionToken: String(sessionToken || '').trim(),
-  });
+  }, { timeoutMs: 25000, retries: 1 });
 }
 
 /**
@@ -265,17 +278,20 @@ export async function requestMagicLink(email) {
  * Extends a magic-link session (sliding expiry). Called on each app load
  * while the user is still logged in.
  *
+ * Uses GET (not POST) — iOS Safari often loses JSON after GAS POST redirects.
+ *
  * @param {string} email
  * @param {string} sessionToken
  * @return {Promise<{ok:boolean, sessionExpires?:string, isPremium?:boolean,
  *   premiumExpires?:string, isBasis?:boolean, error?:string}>}
  */
 export function refreshMagicSession(email, sessionToken) {
-  return postJson({
+  return getJson({
     action: 'refreshMagicSession',
     email: String(email || '').trim().toLowerCase(),
     sessionToken: String(sessionToken || '').trim(),
-  });
+    _: String(Date.now()),
+  }, { timeoutMs: 25000, retries: 1 });
 }
 
 /**

@@ -477,8 +477,11 @@ async function refreshEntitlementsFromServer() {
  */
 export async function bootstrapEntitlements() {
   entitlements.ready = false;
-  await refreshEntitlementsFromServer();
-  entitlements.ready = true;
+  try {
+    await refreshEntitlementsFromServer();
+  } finally {
+    entitlements.ready = true;
+  }
 }
 
 /**

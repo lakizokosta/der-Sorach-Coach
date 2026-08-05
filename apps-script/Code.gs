@@ -115,6 +115,7 @@ function doGet(e) {
       case 'validateCode':       return json(validateCode(e.parameter));
       case 'validateMagicToken': return json(validateMagicToken(e.parameter));
       case 'requestMagicLink':   return json(requestMagicLink(e.parameter));
+      case 'refreshMagicSession': return json(refreshMagicSession_(e.parameter));
       case 'monitorNotify':      return json(handleMonitorNotify_(e.parameter));
       default:                   return json({ ok: false, error: 'Unknown action' });
     }
