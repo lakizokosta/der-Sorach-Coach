@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Perfektform:
 
-Sie ___ nach Berlin gefahren.
+Sie (sie, Sg.) ___ nach Berlin gefahren.

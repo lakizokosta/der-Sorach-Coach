@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Verbform (trennbares Verb):
 
-Sie ___ die Rechnung sofort ein.
+Sie (sie, Sg.) ___ die Rechnung sofort ein.

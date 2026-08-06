@@ -9,4 +9,4 @@ options:
 correct: reicht
 ---
 
-Sie ___ die Rechnung sofort ein. (Trennbares Verb)
+Sie (sie, Sg.) ___ die Rechnung sofort ein. (Trennbares Verb)

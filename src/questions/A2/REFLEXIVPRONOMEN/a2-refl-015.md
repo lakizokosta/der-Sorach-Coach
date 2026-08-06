@@ -9,4 +9,4 @@ options:
 correct: bereitet
 ---
 
-Sie ___ sich für das Fest. (Reflexiv + Verb vorbereiten)
+Sie (sie, Sg.) ___ sich für das Fest. (Reflexiv + Verb vorbereiten)

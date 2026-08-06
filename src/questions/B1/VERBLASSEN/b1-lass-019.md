@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Sie ___ die Haare schneiden. (Verben lassen)
+Sie (sie, Sg.) ___ die Haare schneiden (Verben lassen).

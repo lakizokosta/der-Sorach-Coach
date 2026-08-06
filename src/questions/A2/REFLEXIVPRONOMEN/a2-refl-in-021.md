@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Reflexivform:
 
-Sie ___ sich, weil der Zug kommt.
+Sie (sie, Sg.) ___ sich, weil der Zug kommt.

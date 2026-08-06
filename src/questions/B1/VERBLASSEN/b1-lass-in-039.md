@@ -8,4 +8,4 @@ correct:
 
 Ergänze die lassen-Form:
 
-Sie ___ den Bericht Korrektur lesen.
+Sie (sie, Sg.) ___ den Bericht Korrektur lesen.

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Präteritumsform:
 
-Sie ___ nach Berlin.
+Sie (sie, Sg.) ___ nach Berlin.

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die lassen-Form:
 
-Sie ___ die Haare schneiden.
+Sie (sie, Sg.) ___ die Haare schneiden.

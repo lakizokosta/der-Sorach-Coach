@@ -9,4 +9,4 @@ options:
 correct: steht
 ---
 
-Sie ___ um 7 Uhr auf. (Trennbares Verb + Verb aufstehen)
+Sie (sie, Sg.) ___ um 7 Uhr auf. (Trennbares Verb + Verb aufstehen)

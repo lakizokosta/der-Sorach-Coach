@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Verbform (trennbares Verb):
 
-Sie ___ das Licht aus.
+Sie (sie, Sg.) ___ das Licht aus.

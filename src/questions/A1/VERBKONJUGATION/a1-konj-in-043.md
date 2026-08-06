@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Präsensform des Verbs:
 
-Sie ___ einen blauen Mantel.
+Sie (sie, Sg.) ___ einen blauen Mantel.

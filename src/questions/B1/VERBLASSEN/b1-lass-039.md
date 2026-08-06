@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Sie ___ den Bericht Korrektur lesen. (Verben lassen)
+Sie (sie, Sg.) ___ den Bericht Korrektur lesen (Verben lassen).

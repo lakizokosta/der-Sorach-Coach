@@ -8,4 +8,4 @@ correct:
 
 Ergänze die lassen-Form:
 
-Sie ___ die Kinder von der Oma abholen.
+Sie (sie, Sg.) ___ die Kinder von der Oma abholen.

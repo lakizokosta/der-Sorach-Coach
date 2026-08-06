@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Präsensform des Verbs:
 
-Sie ___ in die Stadt.
+Sie (sie, Sg.) ___ in die Stadt.
