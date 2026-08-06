@@ -9,4 +9,4 @@ options:
 correct: jener
 ---
 
-Er vertraut ___ Meinung seines Chefs. (Demonstrativartikel)
+Er vertraut nicht dieser, sondern ___ Meinung seines Chefs. (Demonstrativartikel)

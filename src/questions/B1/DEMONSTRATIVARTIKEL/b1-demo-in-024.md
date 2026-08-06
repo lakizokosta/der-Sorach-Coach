@@ -1,11 +1,11 @@
 ---
 id: b1-demo-in-024
 type: input-text
-hint: Demonstrativartikel — mask., Nom.
+hint: Demonstrativartikel — fem., Dat.
 correct:
   - jener
 ---
 
 Ergänze den Demonstrativartikel:
 
-Er vertraut ___ Meinung seines Chefs.
+Er vertraut nicht dieser, sondern ___ Meinung seines Chefs.
