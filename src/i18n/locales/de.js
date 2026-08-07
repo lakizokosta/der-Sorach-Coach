@@ -301,6 +301,11 @@ export default {
     placementShareTitle: 'Mein Deutsch-Niveau',
     placementShareText:
       'Mein Deutsch-Niveau: {level} — Einstufungtest mit Der SprachCoach 🇩🇪',
+    sessionShare: '📤 Ergebnis teilen',
+    sessionShareTitle: 'Mein Training',
+    sessionShareText:
+      '{scorePct}% richtig ({correct}/{answered} Fragen) — Der SprachCoach 🇩🇪',
+    schwaechenShareLabel: 'Schwächen trainieren',
   },
   funnel: {
     sheetAria: 'Premium-Angebot',

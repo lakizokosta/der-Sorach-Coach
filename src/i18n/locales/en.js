@@ -298,6 +298,11 @@ export default {
     placementShareTitle: 'My German level',
     placementShareText:
       'My German level: {level} — placement test with Der SprachCoach 🇩🇪',
+    sessionShare: '📤 Share result',
+    sessionShareTitle: 'My training session',
+    sessionShareText:
+      '{scorePct}% correct ({correct}/{answered} questions) — Der SprachCoach 🇩🇪',
+    schwaechenShareLabel: 'Weak spots training',
   },
   funnel: {
     sheetAria: 'Premium offer',

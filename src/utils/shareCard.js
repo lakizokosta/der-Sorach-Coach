@@ -993,3 +993,147 @@ export function sharePlacementCard(data) {
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }, 'image/png');
 }
+
+/**
+ * Renders a session result card (1080×1080).
+ *
+ * @param {Object} data
+ * @param {!CanvasRenderingContext2D} ctx
+ * @param {number} w
+ * @param {number} h
+ */
+function renderSessionShareCard(data, ctx, w, h) {
+  const {
+    scorePct = 0,
+    answered = 0,
+    correct = 0,
+    wrong = 0,
+    xpEarned = 0,
+    streak = 0,
+    levelNum = 1,
+    levelName = '',
+    nickname = '',
+    sessionLabel = '',
+    headline = '',
+  } = data;
+  const cx = w / 2;
+  const pad = 56;
+
+  drawBackground(ctx, w, h);
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
+
+  let y = pad + 36;
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', 34);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText('Der SprachCoach', px(cx), px(y));
+  y += 44;
+
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'bold', 26);
+  ctx.fillText(headline || 'Session beendet', px(cx), px(y));
+  y += 34;
+
+  if (sessionLabel) {
+    setFont(ctx, 'normal', 24);
+    ctx.fillText(sessionLabel, px(cx), px(y));
+    y += 30;
+  }
+
+  if (nickname && nickname !== 'Lernender') {
+    setFont(ctx, 'normal', 22);
+    ctx.fillStyle = TEXT_MUTED;
+    ctx.fillText(nickname, px(cx), px(y));
+    y += 28;
+  }
+
+  const ringY = y + 88;
+  drawRing(ctx, cx, ringY, 92, 14, scorePct / 100, ACCENT);
+  ctx.fillStyle = TEXT;
+  setFont(ctx, 'bold', 72);
+  ctx.textBaseline = 'middle';
+  ctx.fillText(`${scorePct}%`, px(cx), px(ringY));
+  y = ringY + 118;
+
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillStyle = TEXT_SOFT;
+  setFont(ctx, 'normal', 26);
+  const stats = [
+    `${answered} Fragen`,
+    `${correct} richtig`,
+    wrong > 0 ? `${wrong} falsch` : null,
+  ].filter(Boolean);
+  ctx.fillText(stats.join('  ·  '), px(cx), px(y));
+  y += 48;
+
+  const badges = [];
+  if (streak > 0) badges.push(`🔥 Tag ${streak}`);
+  if (xpEarned > 0) badges.push(`+${xpEarned} XP`);
+  if (levelNum > 0) badges.push(`Lv${levelNum} ${levelName}`.trim());
+
+  if (badges.length) {
+    ctx.fillStyle = TEXT;
+    setFont(ctx, 'bold', 28);
+    ctx.fillText(badges.join('   '), px(cx), px(y));
+  }
+
+  ctx.fillStyle = TEXT_MUTED;
+  setFont(ctx, 'normal', 22);
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText('#DeutschLernen · #SprachCoach', px(cx), px(h - pad - 16));
+}
+
+/**
+ * Shares the training session result card (Web Share API or PNG download).
+ *
+ * @param {Object} data
+ * @param {number} data.scorePct
+ * @param {number} data.answered
+ * @param {number} data.correct
+ * @param {number} [data.wrong]
+ * @param {number} [data.xpEarned]
+ * @param {number} [data.streak]
+ * @param {number} [data.levelNum]
+ * @param {string} [data.levelName]
+ * @param {string} [data.nickname]
+ * @param {string} [data.sessionLabel]
+ * @param {string} [data.headline]
+ * @param {string} data.shareText
+ * @param {string} [data.shareTitle]
+ */
+export function shareSessionCard(data) {
+  const canvas = document.createElement('canvas');
+  canvas.width = POST_SIZE;
+  canvas.height = POST_SIZE;
+  const ctx = canvas.getContext('2d');
+  renderSessionShareCard(data, ctx, POST_SIZE, POST_SIZE);
+  const filename = `session-${data.scorePct || 0}-sprachcoach.png`;
+
+  canvas.toBlob((blob) => {
+    if (!blob) return;
+    const file = new File([blob], filename, { type: 'image/png' });
+    const title = data.shareTitle || 'Mein Training';
+    const text = data.shareText || `${data.scorePct}% richtig — Der SprachCoach`;
+    if (
+      navigator.share &&
+      typeof navigator.canShare === 'function' &&
+      navigator.canShare({ files: [file] })
+    ) {
+      navigator.share({ files: [file], title, text }).catch(() => {});
+      return;
+    }
+    if (navigator.share) {
+      navigator.share({ title, text }).catch(() => {});
+    }
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }, 'image/png');
+}

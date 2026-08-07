@@ -64,7 +64,7 @@ import {
 } from '@/utils/placementTest.js';
 import { setCefrLevel } from '@/composables/useCefrLevel.js';
 import { useNickname } from '@/composables/useNickname.js';
-import { sharePlacementCard } from '@/utils/shareCard.js';
+import { sharePlacementCard, shareSessionCard } from '@/utils/shareCard.js';
 import { useI18n } from '@/i18n/index.js';
 import { PRICES_EUR } from '@/data/payment.js';
 
@@ -206,6 +206,21 @@ const topicPoolHint = computed(() => {
     topic: currentTopicName.value,
     count: currentTopicPoolSize.value,
   });
+});
+
+/** Label for session result screen and share card (level · topic). */
+const sessionTopicLabel = computed(() => {
+  if (vocabMode.value && vocabSetLabel.value) {
+    return `${level.value} · ${vocabSetLabel.value}`;
+  }
+  if (topic.value) {
+    const found = (PREMIUM_TOPICS[level.value] || []).find(
+      (item) => item.key.toUpperCase() === String(topic.value).toUpperCase(),
+    );
+    return found ? `${level.value} · ${found.name}` : `${level.value} · ${topic.value}`;
+  }
+  if (schwaechenMode.value) return t('trainer.schwaechenShareLabel');
+  return level.value;
 });
 
 const xpPerAnswer = computed(() => (isPremium.value ? 2 : 1));
@@ -709,6 +724,29 @@ function sharePlacementResult() {
   });
 }
 
+function shareSessionResult() {
+  if (answered.value === 0 || placementDetectedLevel.value || freeTimeExpired.value) return;
+  shareSessionCard({
+    scorePct: scorePct.value,
+    answered: answered.value,
+    correct: correct.value,
+    wrong: wrongCount.value,
+    xpEarned: finalXp.value,
+    streak: streakState.currentStreak,
+    levelNum: liveLevel.num,
+    levelName: liveLevel.name,
+    nickname: displayName.value,
+    sessionLabel: sessionTopicLabel.value,
+    headline: sessionResultHeadline.value,
+    shareTitle: t('trainer.sessionShareTitle'),
+    shareText: t('trainer.sessionShareText', {
+      scorePct: scorePct.value,
+      correct: correct.value,
+      answered: answered.value,
+    }),
+  });
+}
+
 /**
  * Ends the session, persists XP & streak and renders the result screen.
  *
@@ -826,6 +864,14 @@ const placementBreakdownRows = computed(() =>
 const freeTimeExpired = computed(
   () => finishReason.value === 'Zeit abgelaufen' && !isPremium.value && !isBasis.value,
 );
+
+const sessionResultHeadline = computed(() => {
+  if (freeTimeExpired.value) return t('trainer.freeTimeExpiredTitle');
+  if (placementDetectedLevel.value) return `Dein Niveau: ${placementDetectedLevel.value}`;
+  if (scorePct.value >= 80) return t('trainer.excellent');
+  if (scorePct.value >= 60) return t('trainer.goodJob');
+  return t('trainer.keepPracticing');
+});
 
 /** Sticky upsell bar in free trainer mode (Concept A). */
 const showFunnelSticky = computed(
@@ -1172,6 +1218,15 @@ watch(lastAnswerResolved, (resolved) => {
           @click="sharePlacementResult"
         >
           {{ t('trainer.placementShare') }}
+        </button>
+
+        <button
+          v-if="!placementDetectedLevel && !freeTimeExpired && answered > 0"
+          type="button"
+          class="trainer-placement-share"
+          @click="shareSessionResult"
+        >
+          {{ t('trainer.sessionShare') }}
         </button>
 
         <button
