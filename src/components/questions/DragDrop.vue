@@ -56,7 +56,9 @@ const lastWord = correct[correct.length - 1] ?? '';
 const suffix = TRAILING_PUNCT.has(lastWord) ? lastWord : '';
 // Words the student actually needs to arrange (excludes the fixed suffix).
 const coreWords = suffix ? correct.slice(0, -1) : correct;
-const coreChunks = computed(() => chunkifyDropboxWords(coreWords));
+const coreChunks = computed(() =>
+  chunkifyDropboxWords(coreWords, { commas: commaAfter.value }),
+);
 
 /** Builds a display string with optional comma positions. */
 function formatSentence(words, suffixChar = '') {

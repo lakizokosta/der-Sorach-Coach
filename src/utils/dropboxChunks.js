@@ -142,21 +142,82 @@ function consumeChunk(words, i) {
  * @typedef {{ id: string, text: string, words: string[], start: number }} DropboxChunk
  */
 
+/** @param {string[]} words @param {number} umIdx */
+function isTimeUm(words, umIdx) {
+  if (umIdx + 1 >= words.length) return false;
+  const next = lw(words[umIdx + 1]);
+  if (/^\d+$/.test(next) || next === 'halb') return true;
+  if (umIdx + 2 < words.length && lw(words[umIdx + 2]) === 'uhr') return true;
+  return false;
+}
+
+/**
+ * Finalsatz marker: um … zu (not clock time like „um neun Uhr“).
+ * @param {string[]} words
+ * @return {number|null}
+ */
+function findUmZuClauseStart(words) {
+  for (let i = 0; i < words.length; i++) {
+    if (lw(words[i]) !== 'um' || isTimeUm(words, i)) continue;
+    for (let j = i + 1; j < words.length; j++) {
+      if (lw(words[j]) === 'zu') return i;
+    }
+  }
+  return null;
+}
+
+/**
+ * Split at comma boundaries into Hauptsatz / Nebensatz blocks (B1/B2 compound sentences).
+ * @param {string[]} words
+ * @param {number[]} commas 0-based word indices after which a comma appears
+ * @return {{ words: string[], start: number }[]|null}
+ */
+function tryClauseSegments(words, commas) {
+  const sorted = [...new Set(commas.map(Number).filter((n) => Number.isInteger(n) && n >= 0))]
+    .sort((a, b) => a - b);
+
+  /** @type {{ words: string[], start: number }[]} */
+  let segments = [];
+  let start = 0;
+
+  for (const commaIdx of sorted) {
+    if (commaIdx < start) continue;
+    const end = commaIdx + 1;
+    if (end <= start || end > words.length) continue;
+    segments.push({ words: words.slice(start, end), start });
+    start = end;
+  }
+
+  if (start < words.length) {
+    segments.push({ words: words.slice(start), start });
+  }
+
+  if (segments.length < 2) {
+    const umIdx = findUmZuClauseStart(words);
+    if (umIdx === null || umIdx === 0) return null;
+    segments = [
+      { words: words.slice(0, umIdx), start: 0 },
+      { words: words.slice(umIdx), start: umIdx },
+    ];
+  }
+
+  if (segments.length < 2) return null;
+  if (segments.some((s) => s.words.length === 0)) return null;
+  return segments;
+}
+
 /**
  * @param {string[]} words
- * @param {{ minWords?: number }} [options]
+ * @param {boolean} usePhraseGrouping
  * @return {DropboxChunk[]}
  */
-export function chunkifyDropboxWords(words, { minWords = 8 } = {}) {
-  if (!Array.isArray(words) || words.length === 0) return [];
-
-  const useGrouping = words.length >= minWords;
+function phraseChunks(words, usePhraseGrouping) {
   /** @type {DropboxChunk[]} */
   const chunks = [];
   let i = 0;
 
   while (i < words.length) {
-    const slice = useGrouping ? consumeChunk(words, i) : [words[i]];
+    const slice = usePhraseGrouping ? consumeChunk(words, i) : [words[i]];
     chunks.push({
       id: `c-${i}`,
       text: slice.join(' '),
@@ -167,6 +228,52 @@ export function chunkifyDropboxWords(words, { minWords = 8 } = {}) {
   }
 
   return chunks;
+}
+
+/**
+ * @param {string[]} words
+ * @param {{ minWords?: number, commas?: number[] }} [options]
+ * @return {DropboxChunk[]}
+ */
+export function chunkifyDropboxWords(words, { minWords = 8, commas = [] } = {}) {
+  if (!Array.isArray(words) || words.length === 0) return [];
+
+  const useGrouping = words.length >= minWords;
+
+  if (useGrouping && Array.isArray(commas) && commas.length) {
+    const segments = tryClauseSegments(words, commas);
+    if (segments) {
+      return segments.map((seg) => ({
+        id: `c-${seg.start}`,
+        text: seg.words.join(' '),
+        words: seg.words,
+        start: seg.start,
+      }));
+    }
+  }
+
+  if (useGrouping && (!commas || commas.length === 0)) {
+    const umIdx = findUmZuClauseStart(words);
+    if (umIdx !== null && umIdx > 0) {
+      const segments = [
+        { words: words.slice(0, umIdx), start: 0 },
+        { words: words.slice(umIdx), start: umIdx },
+      ];
+      /** @type {DropboxChunk[]} */
+      const chunks = [];
+      for (const seg of segments) {
+        chunks.push({
+          id: `c-${seg.start}`,
+          text: seg.words.join(' '),
+          words: seg.words,
+          start: seg.start,
+        });
+      }
+      if (chunks.length < words.length) return chunks;
+    }
+  }
+
+  return phraseChunks(words, useGrouping);
 }
 
 /**
