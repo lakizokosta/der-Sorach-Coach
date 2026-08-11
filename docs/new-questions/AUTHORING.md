@@ -43,9 +43,10 @@ docs/new-questions/<тема>/
 
 1. **Черновик** → `docs/new-questions/<tema>/…`
 2. **Ручная проверка** владельцем
-3. **Перенос** в банк:
+3. **Перенос** в банк (иначе тема **не появится** в тренажёре):
    - грамматика: `src/questions/<LEVEL>/<TOPIC_KEY>/`
-   - словарь: `src/questions-vocab/<LEVEL>/<SET_KEY>/` + запись в `src/data/vocabularySets.js`
+   - словарь: плоская папка `src/questions-vocab/<LEVEL>/<SET_KEY>/*.md` + запись в `src/data/vocabularySets.js`
+   - проверка: `npm run vocab:verify-sets` и `npm run questions:verify:vocab`
 4. Новые леммы → `src/data/vocabulary.json` (`pos`, `ru`, `en`, `gender` для Nomen)
 
 Имена файлов = `id` (пример: `a2-arzt-so-001.md`).

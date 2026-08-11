@@ -473,7 +473,7 @@ Arzt: Leider liegt eine ___ vor.
 Patient: Welche Alternative gibt es?`,
   },
   'b2-arzt-tg-013': {
-    hint: 'Lesen Sie die Vorgeschichte',
+    hint: 'Lesen Sie die Situation',
     options: ['Vorgeschichte,Nachsorge,Verordnung', 'Operationen,Impfungen,Allergien'],
     correct: ['Vorgeschichte', 'Operationen'],
     body: `Situation: Vor zwei Jahren wurden Sie schon einmal operiert. Der Arzt fragt nach früheren Eingriffen in Ihrer medizinischen Historie.

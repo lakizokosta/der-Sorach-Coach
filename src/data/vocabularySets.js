@@ -47,9 +47,39 @@ export const VOCAB_SETS = {
       },
     },
   ],
-  A2: [],
-  B1: [],
-  B2: [],
+  A2: [
+    {
+      key: 'BEIM_ARZT',
+      name: 'Beim Arzt',
+      desc: 'Symptome, Termin, Rezept, Apotheke',
+      theme: {
+        tint: 'rgba(120, 180, 200, 0.14)',
+        accent: '#2f7a8a',
+      },
+    },
+  ],
+  B1: [
+    {
+      key: 'BEIM_ARZT',
+      name: 'Beim Arzt',
+      desc: 'Untersuchung, Überweisung, Krankschreibung, Nebenwirkungen',
+      theme: {
+        tint: 'rgba(120, 180, 200, 0.14)',
+        accent: '#2f7a8a',
+      },
+    },
+  ],
+  B2: [
+    {
+      key: 'BEIM_ARZT',
+      name: 'Beim Arzt',
+      desc: 'Anamnese, Klinik, ambulant/stationär, Verträglichkeit',
+      theme: {
+        tint: 'rgba(120, 180, 200, 0.14)',
+        accent: '#2f7a8a',
+      },
+    },
+  ],
 };
 
 /**

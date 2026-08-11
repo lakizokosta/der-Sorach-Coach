@@ -217,7 +217,7 @@ export const b2Questions = [
     lemma: 'stationär',
     options: ['Krankenhausbett', 'Übernachtung', 'Station', 'Apotheke', 'Rezept'],
     correct: ['Krankenhausbett', 'Übernachtung', 'Station'],
-    hint: 'Wortschatz — stationär',
+    hint: 'Wortschatz — Behandlung mit Übernachtung im Krankenhaus',
     body: 'Was gehört zur stationären Behandlung? Wählen Sie alle richtigen Antworten.',
   },
   {

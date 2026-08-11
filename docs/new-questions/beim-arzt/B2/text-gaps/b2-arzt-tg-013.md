@@ -4,7 +4,7 @@ type: text-gaps
 lemma: Vorgeschichte
 set: BEIM_ARZT
 focus: word
-hint: Lesen Sie die Vorgeschichte
+hint: Lesen Sie die Situation
 options:
   - Vorgeschichte,Nachsorge,Verordnung
   - Operationen,Impfungen,Allergien

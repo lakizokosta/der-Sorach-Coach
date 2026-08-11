@@ -4,7 +4,7 @@ type: multi-select
 lemma: stationär
 set: BEIM_ARZT
 focus: word
-hint: "Wortschatz — stationär"
+hint: "Wortschatz — Behandlung mit Übernachtung im Krankenhaus"
 options:
   - Krankenhausbett
   - Übernachtung
