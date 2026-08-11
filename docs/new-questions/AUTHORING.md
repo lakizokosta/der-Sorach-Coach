@@ -205,3 +205,11 @@ focus: word
   4. `hint`: `Lesen Sie die Vorgeschichte` (или аналог).
   5. В UI переносы строк поддерживаются (`TextGaps.vue` → `white-space: pre-wrap`).
 - Пример: см. `docs/new-questions/beim-arzt/A2/text-gaps/a2-arzt-tg-002.md`.
+
+### 2026-08-11 — input-text: Infinitiv-подсказка не должна выдавать ответ
+- Симптом: при `focus: word` / `lemma: Husten` UI показывает `Infinitiv: husten` — ответ угадывается.
+- Причина: существительные на `-en` (`Husten`, `Niesen`…) проходят эвристику «похоже на инфинитив» в `resolveInputTextInfinitive`.
+- Правило: если `lemma` совпадает с `correct` (без учёта регистра) — **не** показывать Infinitiv-строку. Infinitiv только когда ответ — спрягаемая форма глагола, а lemma — настоящий инфинитив.
+- ❌ `lemma: Husten` + `correct: [Husten]` → `Infinitiv: husten`
+- ✅ та же карточка → только тематический `hint` (напр. `Symptom`), без Infinitiv
+- Код: `src/utils/inputTextInfinitive.js`

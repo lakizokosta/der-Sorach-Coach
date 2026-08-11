@@ -204,15 +204,24 @@ function infinitiveFromSeparableVerb(correct, promptBody) {
 export function resolveInputTextInfinitive(question) {
   const lemma = String(question.lemma || '').trim().toLowerCase();
   const focusWord = String(question.focus || '').toLowerCase() === 'word';
+  const correctRaw = Array.isArray(question.correct) ? question.correct[0] : '';
+  const correct = String(correctRaw || '').trim();
+  const correctLc = correct.toLowerCase();
 
   if (lemma) {
     if (focusWord) {
-      if (looksLikeInfinitive(lemma)) return lemma;
-      const correct = Array.isArray(question.correct) ? question.correct[0] : '';
+      // Vocab identity gaps (lemma ≈ answer): never show Infinitiv.
+      // Nouns like Husten/Niesen end in -en and would spoil the answer
+      // as «Infinitiv: husten».
+      if (!correct || correctLc === lemma) return '';
+      // Conjugation-style vocab only: infinitive lemma + finite answer.
+      if (!looksLikeInfinitive(lemma)) return '';
       const fromAnswer = finiteToInfinitive(correct);
-      if (fromAnswer && looksLikeInfinitive(fromAnswer)) return fromAnswer;
+      if (fromAnswer && fromAnswer === lemma) return lemma;
       return '';
     }
+    // Non-vocab lemma: still hide when it equals the gap answer (same leak).
+    if (correctLc && correctLc === lemma) return '';
     return lemma;
   }
 
@@ -222,7 +231,6 @@ export function resolveInputTextInfinitive(question) {
   if (!isVerbGapContext(question)) return '';
 
   const topic = String(question.topic || '').toUpperCase();
-  const correct = Array.isArray(question.correct) ? question.correct[0] : '';
   if (/TRENNBAREVERBEN/.test(topic)) {
     const sep = infinitiveFromSeparableVerb(correct, question.prompt || '');
     if (sep) return sep;
