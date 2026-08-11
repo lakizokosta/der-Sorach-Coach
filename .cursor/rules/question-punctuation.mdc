@@ -1,0 +1,37 @@
+---
+description: Пунктуация и грамматика в .md-заданиях тренажёра
+globs: docs/new-questions/**/*.md,src/questions/**/*.md,src/questions-vocab/**/*.md,scripts/**/*frage*,scripts/**/*arzt*,scripts/generate-*-drafts.mjs
+alwaysApply: false
+---
+
+# Пунктуация и грамматика в заданиях
+
+## Тело задания
+- Каждое немецкое предложение заканчивается `.` `?` или `!`.
+- Вопросы (`Haben Sie…`, `Seit wann…`, `Was…`) → `?`.
+- Императив с Sie (`Nehmen Sie…`, `Melden Sie sich…`) → `.` (не `?`).
+- Метки сцены не оставлять голыми: `An der Rezeption: Haben Sie …?` (одна строка).
+- Без пробела перед знаком; после запятой — пробел.
+
+## dropbox
+- Вопросительное предложение: отдельная плитка `?` в конце `words`.
+- Утверждение / императив: отдельная плитка `.` в конце `words`.
+- Инструкция: `Ordne die Wörter zum richtigen Satz (Thema).`
+
+## text-gaps / multi-select
+- `text-gaps`: сначала Vorgeschichte, затем реплики с `___`; ответ только из контекста предистории.
+- Реплики диалога — с финальным знаком.
+- Опции-предложения в multi-select — с `.` или `?`.
+
+## Согласование (частые ошибки)
+- Предикатив/наречие: `Der Eingriff erfolgt ambulant.` / `Sie werden stationär aufgenommen.`
+- Не атрибутив без окончания: ~~eine stationär Aufnahme~~ → переписать или `stationäre`.
+- То же для `stechend` → не `einen stechend Schmerz`, а `Der Schmerz ist stechend.` или `stechenden`.
+
+## Дистракторы (тема + однозначность) — все уровни A1–B2
+- Все `options` / `wordChoices` — из поля темы задания (никаких Fahrrad/Kino…).
+- Несколько вариантов не должны одновременно подходить в `___` (род/падеж/коллокация/смысл).
+- Канон: `docs/new-questions/AUTHORING.md` §4.1 и §9.
+
+## Перед сдачей черновика
+Прогнать проверку терминальной пунктуации по всем новым `.md` (тело + dropbox `words`).
