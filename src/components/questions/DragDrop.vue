@@ -21,6 +21,10 @@ import {
   commaAfterChunk,
   flattenDropboxChunks,
 } from '@/utils/dropboxChunks.js';
+import {
+  extractFixedPunctuation,
+  punctAfterIndex,
+} from '@/utils/dropboxPunctuation.js';
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -41,34 +45,35 @@ const succeeded = ref(false);
 const showSolution = ref(false);
 const message = ref({ html: '', color: '' });
 
+// `.` `?` `!` in `words` are fixed (not chips) — including mid-sentence «?»
+// in Q+A mini-dialogues: Kann ich … legen ? Ja gern .
+const { coreWords, punctAfter } = extractFixedPunctuation(correct);
+const validCoreOrders = validOrders.map(
+  (order) => extractFixedPunctuation(order).coreWords,
+);
+
 const commaAfter = computed(() =>
   resolveDropboxCommas({
-    words: correct,
+    words: coreWords,
     commas: props.question.commas,
     hint: props.question.hint || stripTrailingPromptHint(props.question.prompt || ''),
   }),
 );
 
-// A trailing punctuation mark is trivially obvious — pre-place it as a fixed
-// suffix so the learner only arranges the meaningful words.
-const TRAILING_PUNCT = new Set(['?', '!']);
-const lastWord = correct[correct.length - 1] ?? '';
-const suffix = TRAILING_PUNCT.has(lastWord) ? lastWord : '';
-// Words the student actually needs to arrange (excludes the fixed suffix).
-const coreWords = suffix ? correct.slice(0, -1) : correct;
 const coreChunks = computed(() =>
   chunkifyDropboxWords(coreWords, { commas: commaAfter.value }),
 );
 
-/** Builds a display string with optional comma positions. */
-function formatSentence(words, suffixChar = '') {
+/** Builds a display string with commas and fixed punctuation. */
+function formatSentence(words) {
   let out = '';
   for (let i = 0; i < words.length; i++) {
     if (i > 0) out += ' ';
     out += words[i];
     if (commaAfter.value.includes(i)) out += ',';
+    out += punctAfterIndex(i, punctAfter);
   }
-  return out + (suffixChar || '');
+  return out;
 }
 
 function scrambleBank() {
@@ -168,9 +173,11 @@ function showCorrectSolution() {
   drop.value = [...coreChunks.value];
   bank.value = [];
   let html = '❌ Nicht richtig. Richtige Lösung:';
-  html += `<div style="margin-top:10px;font-weight:700;color:#2e7d32;">${formatSentence(coreWords, suffix)}</div>`;
+  html += `<div style="margin-top:10px;font-weight:700;color:#2e7d32;">${formatSentence(coreWords)}</div>`;
   if (props.question.codes && props.question.codes.length === correct.length) {
     html += renderTekamoloBreakdown(correct, props.question.codes);
+  } else if (props.question.codes && props.question.codes.length === coreWords.length) {
+    html += renderTekamoloBreakdown(coreWords, props.question.codes);
   }
   message.value = { html, color: '#ed4545' };
 }
@@ -182,9 +189,8 @@ function check() {
     return;
   }
 
-  const full = suffix ? [...flatDropWords(), suffix] : flatDropWords();
-  const key = full.join('|');
-  const isCorrect = validOrders.some((order) => order.join('|') === key);
+  const key = flatDropWords().join('|');
+  const isCorrect = validCoreOrders.some((order) => order.join('|') === key);
   if (isCorrect) {
     finalise(true);
     return;
@@ -270,6 +276,32 @@ const chipClass = computed(() => (chunk, index) => {
 function showCommaAfter(chunkIndex) {
   return commaAfterChunk(drop.value, chunkIndex, commaAfter.value);
 }
+
+/** Fixed «?» / «.» after the last word of this dropped chunk. */
+function fixedPunctAfterChunk(chunkIndex) {
+  const chunk = drop.value[chunkIndex];
+  if (!chunk) return '';
+  const lastWordIndex = chunk.start + chunk.words.length - 1;
+  return punctAfterIndex(lastWordIndex, punctAfter);
+}
+
+/**
+ * Punctuation whose host word is not yet at the end of a dropped chunk —
+ * shown at the end of the drop zone so «?» is visible from the start.
+ */
+function unanchoredPunctMarks() {
+  /** @type {Set<number>} */
+  const anchored = new Set();
+  for (const chunk of drop.value) {
+    const last = chunk.start + chunk.words.length - 1;
+    if (punctAfterIndex(last, punctAfter)) anchored.add(last);
+  }
+  return Object.keys(punctAfter)
+    .map(Number)
+    .sort((a, b) => a - b)
+    .filter((i) => !anchored.has(i))
+    .map((i) => punctAfter[i]);
+}
 </script>
 
 <template>
@@ -292,13 +324,19 @@ function showCommaAfter(chunkIndex) {
           {{ chunk.text }}
         </span>
         <span v-if="showCommaAfter(i)" class="dd-comma">,</span>
+        <!-- Fixed punctuation from `words` — pre-placed, not draggable -->
+        <span
+          v-if="fixedPunctAfterChunk(i)"
+          class="dd-chip correct"
+          style="opacity: 0.55; cursor: default;"
+        >{{ fixedPunctAfterChunk(i) }}</span>
       </template>
-      <!-- Fixed trailing punctuation — pre-placed, not draggable -->
       <span
-        v-if="suffix"
+        v-for="(mark, mi) in unanchoredPunctMarks()"
+        :key="`punct-${mi}-${mark}`"
         class="dd-chip correct"
         style="opacity: 0.55; cursor: default;"
-      >{{ suffix }}</span>
+      >{{ mark }}</span>
     </div>
 
     <div class="dd-bank">

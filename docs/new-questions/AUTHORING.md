@@ -213,3 +213,13 @@ focus: word
 - ❌ `lemma: Husten` + `correct: [Husten]` → `Infinitiv: husten`
 - ✅ та же карточка → только тематический `hint` (напр. `Symptom`), без Infinitiv
 - Код: `src/utils/inputTextInfinitive.js`
+
+### 2026-08-21 — dropbox: «?» у всех прямых вопросов (не только W-Fragen)
+- Симптом: Ja/Nein-вопрос в dropbox без `?` (`Kann ich das auf den Tisch legen ja gern`) — ученик не видит, что это вопрос; раньше авто-`?` работал только для темы `W-FRAGEN`.
+- Правило:
+  1. В `words` у прямого вопроса — плитка `?` (для мини-диалога Frage+Antwort: `… legen ? Ja gern .`).
+  2. В UI (`DragDrop.vue`) знаки `.?!` **не** перетаскиваются — фиксируются у нужного слова; `?` виден с самого начала.
+  3. Runtime: `ensureDropboxInterrogativePunctuation` в `questionPunctuation.js` дописывает знаки, если их нет в `.md`.
+- ❌ `Kann ich … legen ja gern`
+- ✅ `Kann ich … legen ? Ja gern .`
+- Код: `src/utils/questionPunctuation.js`, `src/utils/dropboxPunctuation.js`, `src/components/questions/DragDrop.vue`
