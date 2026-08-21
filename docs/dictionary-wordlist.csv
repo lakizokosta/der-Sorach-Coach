@@ -391,6 +391,7 @@ lemma,pos,freq,ru,en,status
 "kopf",noun,22,"ВЕРХНЯЯ","Header",done
 "aufstehen",verb,22,"вставать","to get up",done
 "großeltern",noun,22,"бабушки и дедушки","Grandpa",done
+"verben",noun,22,"Глагол","verbs",done
 "nachbarin",noun,22,"сосед","NEIGHBOR",done
 "medikamente",noun,22,"лекарств","List medicines",done
 "bescheid",noun,22,"Уведомление","benefit",done
@@ -1274,7 +1275,6 @@ lemma,pos,freq,ru,en,status
 "bürojob",noun,2,"работа в офисе","Social Job",done
 "häng",noun,2,"повесить","hang (fragment)",done
 "gewitter",noun,2,"Гроза","Thunderstorms",done
-"verben",noun,2,"Глагол","verbs",done
 "modalverben",noun,2,"модальные глаголы","modal verbs",done
 "erholen",verb,2,"восстановить","I recover",done
 "stellenanzeige",noun,2,"Объявление о вакансии","vacancy.name.single",done
@@ -1521,118 +1521,199 @@ lemma,pos,freq,ru,en,status
 "greentech",noun,1,"","GreenTech",pending
 "mode",noun,1,"","fashion",pending
 "modeonline",noun,1,"fashiononline","fashiononline",done
-"+ präposition",verb,0,"Предлог","Preposition and postposition",done
-"— präp. auf",verb,0,"— подготовка на","— preparation on",done
-"— präp. an",verb,0,"— подготовка к","— prep. to",done
-"— präp. über",verb,0,"— приготовление через","— preparation via",done
-"— denn / deshalb / trotzdem / weil",verb,0,"— потому / поэтому / тем не менее / потому что","— because / therefore / nevertheless / because",done
-"— außerdem / deshalb / trotzdem / weil",verb,0,"— также / поэтому / тем не менее / потому что","— also / therefore / nevertheless / because",done
+"— achte / achten / achtet / achtete",verb,0,"","",pending
+"— achte / achten / achtete / geachtet",verb,0,"","",pending
+"— achten / achtet / achtete / geachtet",verb,0,"","",pending
+"— außerdem / dagegen / daher / dennoch",verb,0,"","",pending
+"— außerdem / dagegen / daher / trotzdem",verb,0,"","",pending
+"— außerdem / dagegen / demzufolge / dennoch",verb,0,"","",pending
+"— außerdem / dagegen / demzufolge / trotzdem",verb,0,"","",pending
+"— außerdem / dagegen / dennoch / folglich",verb,0,"","",pending
+"— außerdem / dagegen / dennoch / infolgedessen",verb,0,"","",pending
+"— außerdem / dagegen / deshalb / trotzdem",verb,0,"","",pending
+"— außerdem / dagegen / folglich / trotzdem",verb,0,"","",pending
+"— außerdem / dagegen / somit / trotzdem",verb,0,"","",pending
+"— außerdem / daher / dennoch / trotzdem",verb,0,"","",pending
+"— außerdem / dann / dennoch / deshalb",verb,0,"","",pending
+"— außerdem / dann / dennoch / folglich",verb,0,"","",pending
+"— außerdem / dann / deshalb / gleichwohl",verb,0,"","",pending
+"— außerdem / dann / deshalb / hingegen",verb,0,"","",pending
+"— außerdem / dann / deshalb / trotzdem",verb,0,"","",pending
+"— außerdem / dann / folglich / gleichwohl",verb,0,"","",pending
+"— außerdem / dann / folglich / jedoch",verb,0,"","",pending
+"— außerdem / dann / folglich / trotzdem",verb,0,"","",pending
+"— außerdem / demzufolge / dennoch / trotzdem",verb,0,"","",pending
+"— außerdem / denn / dennoch / deshalb",verb,0,"— более того / потому что / тем не менее / поэтому","— moreover / because / nevertheless / therefore",done
+"— außerdem / denn / dennoch / weil",verb,0,"— более того / потому / тем не менее / потому что","— moreover / because / nevertheless / because",done
 "— außerdem / denn / deshalb / trotzdem",verb,0,"— более того / потому / поэтому / тем не менее","— moreover / because / therefore / nevertheless",done
 "— außerdem / denn / deshalb / weil",verb,0,"— также / потому / потому / потому что","— also / because / because / because",done
-"— präp. für",verb,0,"— подготовка к","— preparation for",done
-"— außerdem / dennoch / deshalb / folglich",verb,0,"","",pending
 "— außerdem / denn / trotzdem / weil",verb,0,"— более того / потому / тем не менее / потому что","— moreover / because / nevertheless / because",done
-"— außerdem / denn / dennoch / weil",verb,0,"— более того / потому / тем не менее / потому что","— moreover / because / nevertheless / because",done
-"— außerdem / dennoch / deshalb / weil",verb,0,"— также / тем не менее / потому / потому что","— also / nevertheless / because / because",done
-"— denn / dennoch / deshalb / weil",verb,0,"— потому что / тем не менее / потому что / потому что","— because / nevertheless / because / because",done
-"— präp. um",verb,0,"— приготовление при","— preparation at",done
-"— präp. bei",verb,0,"— приготовление при","— preparation at",done
-"— präp. von",verb,0,"— подготовка","— preparation of",done
-"— außerdem / dann / dennoch / deshalb",verb,0,"","",pending
-"— außerdem / denn / dennoch / deshalb",verb,0,"— более того / потому что / тем не менее / поэтому","— moreover / because / nevertheless / therefore",done
-"— außerdem / dann / deshalb / trotzdem",verb,0,"","",pending
-"— außerdem / dagegen / daher / trotzdem",verb,0,"","",pending
-"— dann / dennoch / deshalb / folglich",verb,0,"","",pending
+"— außerdem / dennoch / deshalb / folglich",verb,0,"","",pending
 "— außerdem / dennoch / deshalb / trotzdem",verb,0,"","",pending
-"— außerdem / dann / dennoch / folglich",verb,0,"","",pending
-"— dann / deshalb / folglich / trotzdem",verb,0,"","",pending
-"— außerdem / dagegen / daher / dennoch",verb,0,"","",pending
-"— außerdem / deshalb / folglich / trotzdem",verb,0,"","",pending
-"— dennoch / deshalb / trotzdem / weil",verb,0,"— тем не менее / поэтому / тем не менее / потому что","— nevertheless / therefore / nevertheless / because",done
-"— denn / dennoch / deshalb / trotzdem",verb,0,"— потому что / тем не менее / поэтому / тем не менее","— because / nevertheless / therefore / nevertheless",done
-"— dagegen / dennoch / deshalb / trotzdem",verb,0,"","",pending
-"— außerdem / dagegen / folglich / trotzdem",verb,0,"","",pending
+"— außerdem / dennoch / deshalb / weil",verb,0,"— также / тем не менее / потому / потому что","— also / nevertheless / because / because",done
 "— außerdem / dennoch / folglich / trotzdem",verb,0,"","",pending
-"— außerdem / dagegen / dennoch / infolgedessen",verb,0,"","",pending
-"— dann / deshalb / folglich / jedoch",verb,0,"","",pending
-"— außerdem / demzufolge / dennoch / trotzdem",verb,0,"","",pending
-"— außerdem / dann / folglich / trotzdem",verb,0,"","",pending
-"— außerdem / dann / deshalb / hingegen",verb,0,"","",pending
-"— dagegen / dennoch / somit / trotzdem",verb,0,"","",pending
-"— außerdem / daher / dennoch / trotzdem",verb,0,"","",pending
-"— außerdem / dann / folglich / gleichwohl",verb,0,"","",pending
-"— außerdem / dagegen / dennoch / folglich",verb,0,"","",pending
-"— dagegen / dennoch / infolgedessen / trotzdem",verb,0,"","",pending
-"— außerdem / deshalb / folglich / jedoch",verb,0,"","",pending
-"— außerdem / dagegen / demzufolge / trotzdem",verb,0,"","",pending
-"— dann / deshalb / folglich / hingegen",verb,0,"","",pending
-"— außerdem / dennoch / somit / trotzdem",verb,0,"","",pending
-"— außerdem / dann / deshalb / gleichwohl",verb,0,"","",pending
-"— außerdem / dagegen / deshalb / trotzdem",verb,0,"","",pending
-"— dagegen / dennoch / folglich / trotzdem",verb,0,"","",pending
-"— dagegen / daher / dennoch / trotzdem",verb,0,"","",pending
 "— außerdem / dennoch / infolgedessen / trotzdem",verb,0,"","",pending
-"— außerdem / dann / folglich / jedoch",verb,0,"","",pending
-"— außerdem / dagegen / demzufolge / dennoch",verb,0,"","",pending
+"— außerdem / dennoch / somit / trotzdem",verb,0,"","",pending
 "— außerdem / deshalb / folglich / hingegen",verb,0,"","",pending
-"— außerdem / dagegen / somit / trotzdem",verb,0,"","",pending
-"— dann / deshalb / folglich / gleichwohl",verb,0,"","",pending
-"— beziehen / beziehst / bezieht / bezogen",verb,0,"","",pending
-"— früh / frühe / früher / frühest",verb,0,"","",pending
-"— finanzieren / finanzierst / finanziert / finanzierte",verb,0,"","",pending
-"— freue / freuen / freute / gefreut",verb,0,"","",pending
-"— haben / habt / hat / hättet",verb,0,"","",pending
-"— kann / können / könnte / konntet",verb,0,"","",pending
-"— erkannt / erkannte / erkennst / erkennt",verb,0,"","",pending
-"— erinnere / erinnern / erinnert / erinnerte",verb,0,"","",pending
-"— bestanden / bestehen / bestehst / besteht",verb,0,"","",pending
-"— haben / hat / hatte / hätten",verb,0,"","",pending
-"— dachte / denke / denkst / gedacht",verb,0,"","",pending
-"— bauen / baut / baute / gebaut",verb,0,"","",pending
-"— haben / habt / hat / hatte",verb,0,"","",pending
-"— achte / achten / achtet / achtete",verb,0,"","",pending
-"— ist / sein / war / wäre",verb,0,"","",pending
-"— gelöst / lösen / löst / löste",verb,0,"","",pending
-"— gewartet / warte / warten / wartest",verb,0,"","",pending
-"— beziehen / beziehst / bezieht / bezog",verb,0,"","",pending
-"— frühe / früher / frühes / frühest",verb,0,"","",pending
-"— finanzier / finanzieren / finanzierst / finanzierte",verb,0,"","",pending
-"— freue / freuen / freust / gefreut",verb,0,"","",pending
-"— haben / habt / hat / hattet",verb,0,"","",pending
-"— gekonnt / kann / könnte / konntet",verb,0,"","",pending
-"— erkannt / erkannte / erkennen / erkennt",verb,0,"","",pending
-"— erinnere / erinnern / erinnerst / erinnert",verb,0,"","",pending
-"— bestand / bestehen / bestehst / besteht",verb,0,"","",pending
-"— haben / habt / hatte / hätten",verb,0,"","",pending
-"— dachte / denken / denkst / gedacht",verb,0,"","",pending
-"— bauen / baust / baut / gebaut",verb,0,"","",pending
-"— haben / hat / hatte / hätte",verb,0,"","",pending
-"— achte / achten / achtete / geachtet",verb,0,"","",pending
-"— ist / sein / sind / wäre",verb,0,"","",pending
-"— gelöst / lösen / löst / löstest",verb,0,"","",pending
-"— warte / warten / wartest / wartete",verb,0,"","",pending
-"— beziehst / bezieht / bezog / bezogen",verb,0,"","",pending
-"— früh / frühe / früher / frühes",verb,0,"","",pending
-"— finanzier / finanzieren / finanzierst / finanziert",verb,0,"","",pending
-"— freue / freuen / freust / freute",verb,0,"","",pending
-"— haben / habt / hattet / hättet",verb,0,"","",pending
-"— gekonnt / kann / können / könnte",verb,0,"","",pending
-"— erkannt / erkennen / erkennst / erkennt",verb,0,"","",pending
-"— erinnere / erinnern / erinnerst / erinnerte",verb,0,"","",pending
-"— bestand / bestanden / bestehst / besteht",verb,0,"","",pending
-"— haben / habt / hat / hätten",verb,0,"","",pending
-"— denke / denken / denkst / gedacht",verb,0,"","",pending
+"— außerdem / deshalb / folglich / jedoch",verb,0,"","",pending
+"— außerdem / deshalb / folglich / trotzdem",verb,0,"","",pending
+"— außerdem / deshalb / trotzdem / weil",verb,0,"— также / поэтому / тем не менее / потому что","— also / therefore / nevertheless / because",done
 "— bauen / baust / baut / baute",verb,0,"","",pending
+"— bauen / baust / baut / gebaut",verb,0,"","",pending
+"— bauen / baut / baute / gebaut",verb,0,"","",pending
+"— bestand / bestanden / bestehst / besteht",verb,0,"","",pending
+"— bestand / bestehen / bestehst / besteht",verb,0,"","",pending
+"— bestanden / bestehen / bestehst / besteht",verb,0,"","",pending
+"— beziehen / beziehst / bezieht / bezog",verb,0,"","",pending
+"— beziehen / beziehst / bezieht / bezogen",verb,0,"","",pending
+"— beziehst / bezieht / bezog / bezogen",verb,0,"","",pending
+"— dachte / denke / denkst / gedacht",verb,0,"","",pending
+"— dachte / denken / denkst / gedacht",verb,0,"","",pending
+"— dagegen / daher / dennoch / trotzdem",verb,0,"","",pending
+"— dagegen / dennoch / deshalb / trotzdem",verb,0,"","",pending
+"— dagegen / dennoch / folglich / trotzdem",verb,0,"","",pending
+"— dagegen / dennoch / infolgedessen / trotzdem",verb,0,"","",pending
+"— dagegen / dennoch / somit / trotzdem",verb,0,"","",pending
+"— dann / dennoch / deshalb / folglich",verb,0,"","",pending
+"— dann / deshalb / folglich / gleichwohl",verb,0,"","",pending
+"— dann / deshalb / folglich / hingegen",verb,0,"","",pending
+"— dann / deshalb / folglich / jedoch",verb,0,"","",pending
+"— dann / deshalb / folglich / trotzdem",verb,0,"","",pending
+"— denke / denken / denkst / gedacht",verb,0,"","",pending
+"— denn / dennoch / deshalb / trotzdem",verb,0,"— потому что / тем не менее / поэтому / тем не менее","— because / nevertheless / therefore / nevertheless",done
+"— denn / dennoch / deshalb / weil",verb,0,"— потому что / тем не менее / потому что / потому что","— because / nevertheless / because / because",done
+"— denn / deshalb / trotzdem / weil",verb,0,"— потому / поэтому / тем не менее / потому что","— because / therefore / nevertheless / because",done
+"— dennoch / deshalb / trotzdem / weil",verb,0,"— тем не менее / поэтому / тем не менее / потому что","— nevertheless / therefore / nevertheless / because",done
+"— erinnere / erinnern / erinnerst / erinnert",verb,0,"","",pending
+"— erinnere / erinnern / erinnerst / erinnerte",verb,0,"","",pending
+"— erinnere / erinnern / erinnert / erinnerte",verb,0,"","",pending
+"— erkannt / erkannte / erkennen / erkennt",verb,0,"","",pending
+"— erkannt / erkannte / erkennst / erkennt",verb,0,"","",pending
+"— erkannt / erkennen / erkennst / erkennt",verb,0,"","",pending
+"— finanzier / finanzieren / finanzierst / finanziert",verb,0,"","",pending
+"— finanzier / finanzieren / finanzierst / finanzierte",verb,0,"","",pending
+"— finanzieren / finanzierst / finanziert / finanzierte",verb,0,"","",pending
+"— freue / freuen / freust / freute",verb,0,"","",pending
+"— freue / freuen / freust / gefreut",verb,0,"","",pending
+"— freue / freuen / freute / gefreut",verb,0,"","",pending
+"— früh / frühe / früher / frühes",verb,0,"","",pending
+"— früh / frühe / früher / frühest",verb,0,"","",pending
+"— frühe / früher / frühes / frühest",verb,0,"","",pending
+"— gekonnt / kann / können / könnte",verb,0,"","",pending
+"— gekonnt / kann / könnte / konntet",verb,0,"","",pending
+"— gelöst / lösen / löst / löste",verb,0,"","",pending
+"— gelöst / lösen / löst / löstest",verb,0,"","",pending
+"— gewartet / warte / warten / wartest",verb,0,"","",pending
+"— haben / habt / hat / hatte",verb,0,"","",pending
+"— haben / habt / hat / hätten",verb,0,"","",pending
+"— haben / habt / hat / hattet",verb,0,"","",pending
+"— haben / habt / hat / hättet",verb,0,"","",pending
+"— haben / habt / hatte / hätten",verb,0,"","",pending
+"— haben / habt / hattet / hättet",verb,0,"","",pending
+"— haben / hat / hatte / hätte",verb,0,"","",pending
+"— haben / hat / hatte / hätten",verb,0,"","",pending
 "— habt / hat / hatte / hätte",verb,0,"","",pending
-"— achten / achtet / achtete / geachtet",verb,0,"","",pending
 "— ist / sein / sind / war",verb,0,"","",pending
+"— ist / sein / sind / wäre",verb,0,"","",pending
+"— ist / sein / war / wäre",verb,0,"","",pending
+"— kann / können / könnte / konntet",verb,0,"","",pending
 "— lösen / löst / löste / löstest",verb,0,"","",pending
-"publikum",noun,0,"Публика","audience",done
-"namen",noun,0,"названия","names",done
-"sich freuen",verb,0,"радоваться","to look forward / be glad",done
-"gast",noun,0,"гость","guest",done
+"— präp. an",verb,0,"— подготовка к","— prep. to",done
+"— präp. auf",verb,0,"— подготовка на","— preparation on",done
+"— präp. bei",verb,0,"— приготовление при","— preparation at",done
+"— präp. für",verb,0,"— подготовка к","— preparation for",done
+"— präp. über",verb,0,"— приготовление через","— preparation via",done
+"— präp. um",verb,0,"— приготовление при","— preparation at",done
+"— präp. von",verb,0,"— подготовка","— preparation of",done
+"— warte / warten / wartest / wartete",verb,0,"","",pending
+"+ präposition",verb,0,"Предлог","Preposition and postposition",done
+"akut",adj,0,"острый","acute",done
+"allergie",noun,0,"аллергия","allergy",done
+"allergisch",adj,0,"аллергический","allergic",done
+"ambulant",adj,0,"амбулаторно","outpatient",done
+"anamnese",noun,0,"анамнез","medical history / anamnesis",done
+"anhaltend",adj,0,"постоянный / непрекращающийся","persistent",done
+"antibiotikum",noun,0,"антибиотик","antibiotic",done
+"arbeitsunfähigkeit",noun,0,"нетрудоспособность","inability to work",done
+"arztbrief",noun,0,"выписной эпикриз / письмо врача","discharge letter",done
+"atemnot",noun,0,"одышка","shortness of breath",done
+"attest",noun,0,"справка","medical certificate",done
+"aufnahme",noun,0,"приём (в больницу)","admission",done
+"augenarzt",noun,0,"офтальмолог","ophthalmologist",done
+"auslöser",noun,0,"провоцирующий фактор","trigger",done
+"ausschlag",noun,0,"сыпь","rash",done
+"bauchschmerzen",noun,0,"боль в животе","stomachache",done
+"befund",noun,0,"заключение / находка","findings / result",done
+"beschwerden",noun,0,"жалобы / недомогание","complaints / symptoms",done
+"blutdruck",noun,0,"кровяное давление","blood pressure",done
+"blutuntersuchung",noun,0,"анализ крови","blood test",done
+"bruch",noun,0,"перелом","fracture",done
+"chronisch",adj,0,"хронический","chronic",done
+"dauermedikation",noun,0,"постоянный приём лекарств","long-term medication",done
+"dumpf",adj,0,"тупой (о боли)","dull (pain)",done
+"einweisung",noun,0,"госпитализация / направление в стационар","hospital admission order",done
+"entlassung",noun,0,"выписка","discharge",done
+"erkältung",noun,0,"простуда","cold",done
+"facharzt",noun,0,"врач-специалист","specialist doctor",done
+"fieber",noun,0,"температура / лихорадка","fever",done
 "folgen",verb,0,"следовать","to follow",done
+"gast",noun,0,"гость","guest",done
+"halsschmerzen",noun,0,"боль в горле","sore throat",done
+"hautarzt",noun,0,"дерматолог","dermatologist",done
+"husten",noun,0,"кашель","cough",done
+"indikation",noun,0,"показание","indication",done
+"infektion",noun,0,"инфекция","infection",done
+"intensität",noun,0,"интенсивность","intensity",done
+"kontraindikation",noun,0,"противопоказание","contraindication",done
+"kopfschmerzen",noun,0,"головная боль","headache",done
+"krankenkasse",noun,0,"больничная касса / страховка","health insurance fund",done
+"krankschreibung",noun,0,"больничный","sick note",done
 "lange",adv,0,"долго","for a long time",done
+"lokalisation",noun,0,"локализация","localisation",done
+"medikationsplan",noun,0,"план приёма лекарств","medication plan",done
+"messen",verb,0,"измерять","to measure",done
+"nachsorge",noun,0,"последующее наблюдение","aftercare / follow-up",done
+"namen",noun,0,"названия","names",done
+"nebenwirkung",noun,0,"побочный эффект","side effect",done
+"notarzt",noun,0,"врач скорой помощи","emergency doctor",done
+"notaufnahme",noun,0,"приёмное отделение","emergency room",done
+"notfall",noun,0,"неотложный случай","emergency",done
+"nüchtern",adj,0,"натощак","on an empty stomach",done
+"penicillin",noun,0,"пенициллин","penicillin",done
+"physiotherapie",noun,0,"физиотерапия","physiotherapy",done
+"publikum",noun,0,"Публика","audience",done
+"rezept",noun,0,"рецепт","prescription",done
+"rezeption",noun,0,"ресепшен / регистратура","reception",done
+"röntgen",noun,0,"рентген","X-ray",done
+"rückenschmerzen",noun,0,"боль в спине","back pain",done
+"salbe",noun,0,"мазь","ointment",done
+"schmerz",noun,0,"боль","pain",done
+"schmerzmittel",noun,0,"обезболивающее","painkiller",done
+"schnupfen",noun,0,"насморк","runny nose / cold",done
+"schwellung",noun,0,"отёк / припухлость","swelling",done
+"schwindel",noun,0,"головокружение","dizziness",done
+"sich freuen",verb,0,"радоваться","to look forward / be glad",done
+"stationär",adj,0,"стационарно","inpatient",done
+"stechend",adj,0,"колющий (о боли)","stabbing (pain)",done
+"symptom",noun,0,"симптом","symptom",done
+"tablette",noun,0,"таблетка","tablet",done
+"therapie",noun,0,"терапия / лечение","therapy",done
+"triage",noun,0,"триаж","triage",done
+"tropfen",noun,0,"капли","drops",done
+"übelkeit",noun,0,"тошнота","nausea",done
+"überweisen",verb,0,"направлять (к специалисту)","to refer",done
+"überweisungsschein",noun,0,"направление (бланк)","referral form",done
+"untersuchungszimmer",noun,0,"смотровой кабинет","examination room",done
+"verlauf",noun,0,"течение (болезни)","course / progression",done
+"verordnung",noun,0,"назначение","prescription / order",done
+"verschreiben",verb,0,"выписывать (рецепт)","to prescribe",done
+"versicherungskarte",noun,0,"страховая карта","health insurance card",done
+"verträglichkeit",noun,0,"переносимость","tolerability",done
+"vorgeschichte",noun,0,"история болезни","medical history",done
+"wechselwirkung",noun,0,"взаимодействие (лекарств)","interaction (drugs)",done
+"wehtun",verb,0,"болеть","to hurt",done
+"zahnarzt",noun,0,"стоматолог","dentist",done
+"zahnschmerzen",noun,0,"зубная боль","toothache",done
 "haben",verb,0,"иметь","to have",done
 "sein",verb,0,"быть","to be",done
 "gut",adj,0,"хороший","good",done

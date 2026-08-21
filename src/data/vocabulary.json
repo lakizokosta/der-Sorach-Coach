@@ -380,6 +380,11 @@
     "ru": "Отходы",
     "en": "Waste"
   },
+  "abheben": {
+    "pos": "verb",
+    "ru": "снимать (деньги)",
+    "en": "to withdraw"
+  },
   "abholen": {
     "pos": "verb",
     "ru": "& Получить",
@@ -407,6 +412,12 @@
     "pos": "noun",
     "ru": "отдел",
     "en": "department",
+    "gender": "f"
+  },
+  "adressänderung": {
+    "pos": "noun",
+    "ru": "смена адреса",
+    "en": "change of address",
     "gender": "f"
   },
   "agentur": {
@@ -548,6 +559,12 @@
     "pos": "noun",
     "ru": "Приложение",
     "en": "annex"
+  },
+  "anlageberatung": {
+    "pos": "noun",
+    "ru": "инвестиционное консультирование",
+    "en": "investment advisory",
+    "gender": "f"
   },
   "anlässlich": {
     "pos": "noun",
@@ -901,6 +918,12 @@
     "ru": "Зарубежные страны",
     "en": "Abroad"
   },
+  "auslandsüberweisung": {
+    "pos": "noun",
+    "ru": "международный перевод",
+    "en": "international transfer",
+    "gender": "f"
+  },
   "auslöser": {
     "pos": "noun",
     "ru": "провоцирующий фактор",
@@ -1010,6 +1033,12 @@
     "pos": "noun",
     "en": "cars"
   },
+  "aval": {
+    "pos": "noun",
+    "ru": "банковская гарантия / аваль",
+    "en": "bank guarantee (aval)",
+    "gender": "n"
+  },
   "baby": {
     "pos": "noun",
     "ru": "Малыши",
@@ -1109,17 +1138,35 @@
   "bank": {
     "pos": "noun",
     "ru": "площадке",
-    "en": "bank / bench"
+    "en": "bank / bench",
+    "gender": "f"
   },
   "bankdaten": {
     "pos": "noun",
     "ru": "Банковские реквизиты:",
     "en": "Bank data"
   },
+  "bankkarte": {
+    "pos": "noun",
+    "ru": "банковская карта",
+    "en": "bank card",
+    "gender": "f"
+  },
   "bankschalter": {
     "pos": "noun",
     "ru": "банковский счетчик",
     "en": "bank counter"
+  },
+  "bargeld": {
+    "pos": "noun",
+    "ru": "наличные",
+    "en": "cash",
+    "gender": "n"
+  },
+  "bargeld abheben": {
+    "pos": "verb",
+    "ru": "снять наличные",
+    "en": "to withdraw cash"
   },
   "bauarbeiten": {
     "pos": "noun",
@@ -1151,6 +1198,12 @@
     "pos": "noun",
     "ru": "деревья.",
     "en": "trees"
+  },
+  "bausparvertrag": {
+    "pos": "noun",
+    "ru": "договор накопительного строительства",
+    "en": "building savings contract",
+    "gender": "m"
   },
   "bearbeitung": {
     "pos": "noun",
@@ -1231,6 +1284,11 @@
     "ru": "Известно:",
     "en": "Known"
   },
+  "belasten": {
+    "pos": "verb",
+    "ru": "списать (со счёта)",
+    "en": "to debit / charge (an account)"
+  },
   "belege": {
     "pos": "noun",
     "ru": "Приложение",
@@ -1255,7 +1313,14 @@
   "beratung": {
     "pos": "noun",
     "ru": "консультации",
-    "en": "consulting"
+    "en": "consulting",
+    "gender": "f"
+  },
+  "beratungsgespräch": {
+    "pos": "noun",
+    "ru": "консультационная беседа",
+    "en": "advisory meeting",
+    "gender": "n"
   },
   "bereich": {
     "pos": "noun",
@@ -1554,6 +1619,12 @@
     "ru": "Пол",
     "en": "floor"
   },
+  "bonitätsprüfung": {
+    "pos": "noun",
+    "ru": "проверка кредитоспособности",
+    "en": "creditworthiness check",
+    "gender": "f"
+  },
   "brandt": {
     "pos": "noun",
     "ru": "горит",
@@ -1754,6 +1825,12 @@
     "ru": "КлАудия",
     "en": "Claudia"
   },
+  "compliance": {
+    "pos": "noun",
+    "ru": "комплаенс (соблюдение норм)",
+    "en": "compliance",
+    "gender": "f"
+  },
   "computere": {
     "pos": "noun",
     "ru": "компьютер",
@@ -1824,6 +1901,17 @@
     "ru": "срока действия",
     "en": "Date"
   },
+  "dauerauftrag": {
+    "pos": "noun",
+    "ru": "постоянное платёжное поручение",
+    "en": "standing order",
+    "gender": "m"
+  },
+  "dauerauftrag ändern": {
+    "pos": "verb",
+    "ru": "изменить постоянное поручение",
+    "en": "to change a standing order"
+  },
   "dauermedikation": {
     "pos": "noun",
     "ru": "постоянный приём лекарств",
@@ -1861,6 +1949,12 @@
     "pos": "noun",
     "ru": "хотя",
     "en": "nevertheless"
+  },
+  "depot": {
+    "pos": "noun",
+    "ru": "депозитарный счёт (ценные бумаги)",
+    "en": "securities account / depot",
+    "gender": "n"
   },
   "details": {
     "pos": "noun",
@@ -1933,6 +2027,12 @@
     "ru": "обсудить",
     "en": "discuss"
   },
+  "dispo": {
+    "pos": "noun",
+    "ru": "овердрафт / кредитная линия на счёте",
+    "en": "overdraft facility",
+    "gender": "m"
+  },
   "dokumente": {
     "pos": "noun",
     "ru": "Документы",
@@ -1963,10 +2063,22 @@
     "ru": "просматривать, проходить",
     "en": "to go through / skim"
   },
+  "ec-karte": {
+    "pos": "noun",
+    "ru": "банковская карта (EC)",
+    "en": "debit card (EC card)",
+    "gender": "f"
+  },
   "ecke": {
     "pos": "noun",
     "ru": "Угловая",
     "en": "Edge"
+  },
+  "effektivzins": {
+    "pos": "noun",
+    "ru": "эффективная процентная ставка",
+    "en": "effective annual interest rate",
+    "gender": "m"
   },
   "eien": {
     "pos": "noun",
@@ -2064,6 +2176,17 @@
     "pos": "noun",
     "ru": "госпитализация / направление в стационар",
     "en": "hospital admission order",
+    "gender": "f"
+  },
+  "einzahlen": {
+    "pos": "verb",
+    "ru": "вносить (деньги)",
+    "en": "to deposit"
+  },
+  "einzahlung": {
+    "pos": "noun",
+    "ru": "внесение (денег)",
+    "en": "deposit (payment in)",
     "gender": "f"
   },
   "eis": {
@@ -2271,7 +2394,8 @@
   "euro": {
     "pos": "noun",
     "ru": "ЕВРО",
-    "en": "euro"
+    "en": "euro",
+    "gender": "m"
   },
   "europa": {
     "pos": "noun",
@@ -2444,6 +2568,12 @@
     "en": "fever",
     "gender": "n"
   },
+  "filiale": {
+    "pos": "noun",
+    "ru": "отделение (банка)",
+    "en": "branch (bank)",
+    "gender": "f"
+  },
   "filme": {
     "pos": "noun",
     "ru": "Фильмы:",
@@ -2538,7 +2668,8 @@
   "formular": {
     "pos": "noun",
     "ru": "Форма",
-    "en": "Form"
+    "en": "Form",
+    "gender": "n"
   },
   "formulare": {
     "pos": "noun",
@@ -2628,6 +2759,12 @@
   "fraus": {
     "pos": "noun",
     "en": "women (fragment)"
+  },
+  "freistellungsauftrag": {
+    "pos": "noun",
+    "ru": "заявление на необложение налогом (проценты)",
+    "en": "exemption order (for interest tax)",
+    "gender": "m"
   },
   "freitag": {
     "pos": "noun",
@@ -2759,6 +2896,12 @@
     "ru": "давать",
     "en": "put"
   },
+  "gebühren": {
+    "pos": "noun",
+    "ru": "комиссии / сборы",
+    "en": "fees / charges",
+    "gender": "pl"
+  },
   "geburtstag": {
     "pos": "noun",
     "ru": "Дата рождения",
@@ -2788,7 +2931,8 @@
   "gehalt": {
     "pos": "noun",
     "ru": "Зарплата",
-    "en": "Salary"
+    "en": "Salary",
+    "gender": "n"
   },
   "gehaltsbescheinigung": {
     "pos": "noun",
@@ -2803,12 +2947,25 @@
   "geld": {
     "pos": "noun",
     "ru": "Деньги",
-    "en": "money"
+    "en": "money",
+    "gender": "n"
+  },
+  "geldautomat": {
+    "pos": "noun",
+    "ru": "банкомат",
+    "en": "ATM / cash machine",
+    "gender": "m"
   },
   "geldstrafe": {
     "pos": "noun",
     "ru": "денежного штрафа",
     "en": "Fine"
+  },
+  "geldwäschegesetz": {
+    "pos": "noun",
+    "ru": "закон о противодействии отмыванию денег",
+    "en": "Anti-Money Laundering Act",
+    "gender": "n"
   },
   "gemüs": {
     "pos": "noun",
@@ -2961,6 +3118,12 @@
     "ru": "ГиБ",
     "en": "give (imperative)"
   },
+  "girokonto": {
+    "pos": "noun",
+    "ru": "расчётный счёт",
+    "en": "current/checking account",
+    "gender": "n"
+  },
   "gitarre": {
     "pos": "noun",
     "ru": "Гитара",
@@ -3076,6 +3239,11 @@
     "pos": "noun",
     "ru": "Добрый",
     "en": "good"
+  },
+  "gutschreiben": {
+    "pos": "verb",
+    "ru": "зачислить (на счёт)",
+    "en": "to credit (an account)"
   },
   "haare": {
     "pos": "noun",
@@ -3498,6 +3666,18 @@
     "ru": "Правила гигиены:",
     "en": "Hygiene regulations"
   },
+  "hypothek": {
+    "pos": "noun",
+    "ru": "ипотека",
+    "en": "mortgage",
+    "gender": "f"
+  },
+  "iban": {
+    "pos": "noun",
+    "ru": "IBAN (международный номер счёта)",
+    "en": "IBAN",
+    "gender": "f"
+  },
   "ide": {
     "pos": "noun",
     "en": "ide ,"
@@ -3522,6 +3702,12 @@
     "pos": "noun",
     "ru": "идеи",
     "en": "ideas"
+  },
+  "identifikation": {
+    "pos": "noun",
+    "ru": "идентификация",
+    "en": "identification",
+    "gender": "f"
   },
   "impfen": {
     "pos": "verb",
@@ -3891,6 +4077,11 @@
     "ru": "КАРТА",
     "en": "card"
   },
+  "karte sperren": {
+    "pos": "verb",
+    "ru": "заблокировать карту",
+    "en": "to block a card"
+  },
   "karten": {
     "pos": "noun",
     "ru": "Билеты",
@@ -4180,7 +4371,53 @@
   "konto": {
     "pos": "noun",
     "ru": "Счет",
-    "en": "account"
+    "en": "account",
+    "gender": "n"
+  },
+  "konto eröffnen": {
+    "pos": "verb",
+    "ru": "открыть счёт",
+    "en": "to open an account"
+  },
+  "konto kündigen": {
+    "pos": "verb",
+    "ru": "закрыть счёт",
+    "en": "to close/cancel an account"
+  },
+  "kontoauszug": {
+    "pos": "noun",
+    "ru": "выписка по счёту",
+    "en": "bank statement",
+    "gender": "m"
+  },
+  "kontoauszug beglaubigen": {
+    "pos": "verb",
+    "ru": "заверить выписку по счёту",
+    "en": "to certify a bank statement"
+  },
+  "kontoführungsgebühr": {
+    "pos": "noun",
+    "ru": "плата за ведение счёта",
+    "en": "account maintenance fee",
+    "gender": "f"
+  },
+  "kontokorrent": {
+    "pos": "noun",
+    "ru": "текущий (расчётный) счёт (коммерческий)",
+    "en": "current account (commercial)",
+    "gender": "n"
+  },
+  "kontostand": {
+    "pos": "noun",
+    "ru": "баланс счёта",
+    "en": "account balance",
+    "gender": "m"
+  },
+  "kontoübersicht": {
+    "pos": "noun",
+    "ru": "обзор счетов",
+    "en": "account overview",
+    "gender": "f"
   },
   "kontraindikation": {
     "pos": "noun",
@@ -4300,6 +4537,24 @@
     "ru": "Краузе",
     "en": "Krause"
   },
+  "kredit": {
+    "pos": "noun",
+    "ru": "кредит",
+    "en": "loan / credit",
+    "gender": "m"
+  },
+  "kreditkarte": {
+    "pos": "noun",
+    "ru": "кредитная карта",
+    "en": "credit card",
+    "gender": "f"
+  },
+  "kreditlinie": {
+    "pos": "noun",
+    "ru": "кредитная линия",
+    "en": "credit line",
+    "gender": "f"
+  },
   "kreisner": {
     "pos": "noun",
     "ru": "крейснер",
@@ -4389,6 +4644,12 @@
     "pos": "noun",
     "ru": "прекращение действия",
     "en": "Withdrawals"
+  },
+  "kündigungsfrist": {
+    "pos": "noun",
+    "ru": "срок уведомления об расторжении",
+    "en": "notice period (for cancellation)",
+    "gender": "f"
   },
   "kundin": {
     "pos": "noun",
@@ -4490,6 +4751,12 @@
     "pos": "noun",
     "ru": "шумно",
     "en": "noisy"
+  },
+  "lastschrift": {
+    "pos": "noun",
+    "ru": "прямое списание",
+    "en": "direct debit",
+    "gender": "f"
   },
   "laufe": {
     "pos": "noun",
@@ -5088,6 +5355,12 @@
     "ru": "Мюнхен",
     "en": "Munich"
   },
+  "münze": {
+    "pos": "noun",
+    "ru": "монета",
+    "en": "coin",
+    "gender": "f"
+  },
   "museen": {
     "pos": "noun",
     "ru": "Музеи",
@@ -5357,6 +5630,12 @@
     "ru": "должностное лицо",
     "en": "official"
   },
+  "öffnungszeiten": {
+    "pos": "noun",
+    "ru": "часы работы",
+    "en": "opening hours",
+    "gender": "pl"
+  },
   "oktober": {
     "pos": "noun",
     "ru": "Октябрь",
@@ -5366,6 +5645,12 @@
     "pos": "noun",
     "ru": "Бабуль…",
     "en": "grandma / granny"
+  },
+  "online-banking": {
+    "pos": "noun",
+    "ru": "онлайн-банкинг",
+    "en": "online banking",
+    "gender": "n"
   },
   "ort": {
     "pos": "noun",
@@ -5542,6 +5827,12 @@
     "pos": "noun",
     "ru": "пилоты",
     "en": "pilots"
+  },
+  "pin": {
+    "pos": "noun",
+    "ru": "PIN-код",
+    "en": "PIN code",
+    "gender": "f"
   },
   "pizza": {
     "pos": "noun",
@@ -5947,6 +6238,12 @@
     "ru": "ОТЗЫВЫ О НАС",
     "en": "references"
   },
+  "referenzkonto": {
+    "pos": "noun",
+    "ru": "референсный (связанный) счёт",
+    "en": "reference / linked account",
+    "gender": "n"
+  },
   "reflexivform": {
     "pos": "noun"
   },
@@ -6148,6 +6445,12 @@
     "ru": "направление",
     "en": "direction"
   },
+  "riester-rente": {
+    "pos": "noun",
+    "ru": "пенсия Riester (гос. поддержка)",
+    "en": "Riester pension (subsidized retirement plan)",
+    "gender": "f"
+  },
   "risiko": {
     "pos": "noun",
     "ru": "Риск",
@@ -6326,6 +6629,12 @@
     "ru": "случай повреждения",
     "en": "Claims"
   },
+  "schalter": {
+    "pos": "noun",
+    "ru": "касса / окно обслуживания",
+    "en": "counter (bank teller)",
+    "gender": "m"
+  },
   "schaufenster": {
     "pos": "noun",
     "ru": "ВИТРИНА",
@@ -6437,6 +6746,12 @@
     "pos": "noun",
     "ru": "Шаги",
     "en": "steps"
+  },
+  "schufa-auskunft": {
+    "pos": "noun",
+    "ru": "справка Schufa (кредитная история)",
+    "en": "Schufa credit report",
+    "gender": "f"
   },
   "schuh": {
     "pos": "noun",
@@ -6602,6 +6917,12 @@
     "ru": "Номер отправки",
     "en": "consignment number"
   },
+  "sepa": {
+    "pos": "noun",
+    "ru": "SEPA (единая зона платежей в евро)",
+    "en": "SEPA (Single Euro Payments Area)",
+    "gender": "f"
+  },
   "september": {
     "pos": "noun",
     "ru": "сентября",
@@ -6641,6 +6962,12 @@
     "pos": "noun",
     "ru": "Безопасность",
     "en": "reliability"
+  },
+  "sicherheiten": {
+    "pos": "noun",
+    "ru": "обеспечение / залог",
+    "en": "collateral / security",
+    "gender": "pl"
   },
   "sicherheitssystem": {
     "pos": "noun",
@@ -6761,6 +7088,18 @@
     "pos": "adj",
     "ru": "Это увлекательно",
     "en": "thrilling"
+  },
+  "sparkasse": {
+    "pos": "noun",
+    "ru": "сберегательная касса",
+    "en": "savings bank (Sparkasse)",
+    "gender": "f"
+  },
+  "sparkonto": {
+    "pos": "noun",
+    "ru": "сберегательный счёт",
+    "en": "savings account",
+    "gender": "n"
   },
   "spaß": {
     "pos": "noun",
@@ -6931,6 +7270,12 @@
     "pos": "noun",
     "ru": "DOVERENNYE LITSA",
     "en": "Alternate"
+  },
+  "steuerbescheinigung": {
+    "pos": "noun",
+    "ru": "налоговая справка",
+    "en": "tax certificate",
+    "gender": "f"
   },
   "stift": {
     "pos": "noun",
@@ -7159,6 +7504,12 @@
     "ru": "Долина",
     "en": "valley"
   },
+  "tan": {
+    "pos": "noun",
+    "ru": "TAN-код (одноразовый пароль)",
+    "en": "TAN (transaction number)",
+    "gender": "f"
+  },
   "tanzen": {
     "pos": "verb",
     "ru": "танцевать",
@@ -7363,6 +7714,12 @@
     "pos": "noun",
     "ru": "Тирес",
     "en": "tiers:"
+  },
+  "tilgung": {
+    "pos": "noun",
+    "ru": "погашение (кредита)",
+    "en": "repayment (of loan)",
+    "gender": "f"
   },
   "tisch": {
     "pos": "noun",
@@ -7680,6 +8037,12 @@
     "ru": "Разница",
     "en": "difference"
   },
+  "unterschrift": {
+    "pos": "noun",
+    "ru": "подпись",
+    "en": "signature",
+    "gender": "f"
+  },
   "unterstützung": {
     "pos": "noun",
     "ru": "Поддержка",
@@ -7726,6 +8089,12 @@
     "pos": "noun",
     "ru": "отпуск",
     "en": "vacation"
+  },
+  "valuta": {
+    "pos": "noun",
+    "ru": "валютирование / дата проводки",
+    "en": "value date (of a transaction)",
+    "gender": "f"
   },
   "vater": {
     "pos": "noun",
@@ -7838,6 +8207,12 @@
     "pos": "noun",
     "ru": "назначение",
     "en": "prescription / order",
+    "gender": "f"
+  },
+  "verpfändung": {
+    "pos": "noun",
+    "ru": "залог / залоговое обременение",
+    "en": "pledge / lien",
     "gender": "f"
   },
   "verpflegung": {
@@ -8079,6 +8454,12 @@
     "ru": "Веб-сайт",
     "en": "website"
   },
+  "wechselkurs": {
+    "pos": "noun",
+    "ru": "обменный курс",
+    "en": "exchange rate",
+    "gender": "m"
+  },
   "wechselwirkung": {
     "pos": "noun",
     "ru": "взаимодействие (лекарств)",
@@ -8135,6 +8516,12 @@
     "pos": "noun",
     "ru": "рабочих дней",
     "en": "business days"
+  },
+  "wertpapier": {
+    "pos": "noun",
+    "ru": "ценная бумага",
+    "en": "security / bond / stock",
+    "gender": "n"
   },
   "west": {
     "pos": "noun",
@@ -8404,6 +8791,12 @@
     "ru": "комната",
     "en": "room",
     "gender": "n"
+  },
+  "zinsen": {
+    "pos": "noun",
+    "ru": "проценты",
+    "en": "interest (payments)",
+    "gender": "pl"
   },
   "zitrone": {
     "pos": "noun",

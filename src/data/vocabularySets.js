@@ -46,6 +46,15 @@ export const VOCAB_SETS = {
         accent: '#4a8f6a',
       },
     },
+    {
+      key: 'AUF_DER_BANK',
+      name: 'Auf der Bank',
+      desc: 'Konto, Geld, EC-Karte, einzahlen, abheben',
+      theme: {
+        tint: 'rgba(255, 210, 100, 0.14)',
+        accent: '#9a7b2a',
+      },
+    },
   ],
   A2: [
     {
@@ -55,6 +64,16 @@ export const VOCAB_SETS = {
       theme: {
         tint: 'rgba(120, 180, 200, 0.14)',
         accent: '#2f7a8a',
+        image: '/themes/theme-beim-arzt.png',
+      },
+    },
+    {
+      key: 'AUF_DER_BANK',
+      name: 'Auf der Bank',
+      desc: 'Girokonto, Überweisung, Online-Banking, Kontoauszug',
+      theme: {
+        tint: 'rgba(255, 210, 100, 0.14)',
+        accent: '#9a7b2a',
       },
     },
   ],
@@ -66,6 +85,16 @@ export const VOCAB_SETS = {
       theme: {
         tint: 'rgba(120, 180, 200, 0.14)',
         accent: '#2f7a8a',
+        image: '/themes/theme-beim-arzt.png',
+      },
+    },
+    {
+      key: 'AUF_DER_BANK',
+      name: 'Auf der Bank',
+      desc: 'Kredit, Zinsen, Lastschrift, SEPA, Dispo',
+      theme: {
+        tint: 'rgba(255, 210, 100, 0.14)',
+        accent: '#9a7b2a',
       },
     },
   ],
@@ -77,6 +106,16 @@ export const VOCAB_SETS = {
       theme: {
         tint: 'rgba(120, 180, 200, 0.14)',
         accent: '#2f7a8a',
+        image: '/themes/theme-beim-arzt.png',
+      },
+    },
+    {
+      key: 'AUF_DER_BANK',
+      name: 'Auf der Bank',
+      desc: 'Kontokorrent, Bonität, Depot, Compliance, Valuta',
+      theme: {
+        tint: 'rgba(255, 210, 100, 0.14)',
+        accent: '#9a7b2a',
       },
     },
   ],
