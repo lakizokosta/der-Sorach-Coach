@@ -1,0 +1,24 @@
+---
+id: b2-arzt-wsn-011
+type: multi-select
+lemma: Therapie
+set: BEIM_ARZT
+focus: synonym
+replace: Therapie
+hint: "Wortschatz — medizinische Behandlung"
+options:
+  - Behandlungsregime
+  - Heilbehandlung
+  - Anamnese
+  - Aufnahme
+  - Verordnung
+correct:
+  - Behandlungsregime
+  - Heilbehandlung
+---
+
+Wie würden Sie es noch sagen?
+
+Wir passen die Therapie an Ihre Beschwerden an.
+
+Welche Wörter oder Ausdrücke passen auch statt «Therapie»? Wählen Sie alle richtigen Antworten.

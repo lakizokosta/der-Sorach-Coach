@@ -1,0 +1,24 @@
+---
+id: a1-bank-wsn-008
+type: multi-select
+lemma: abheben
+set: AUF_DER_BANK
+focus: synonym
+replace: abheben
+hint: "Wortschatz — Geld vom Konto holen"
+options:
+  - Bargeld holen
+  - mir auszahlen lassen
+  - einzahlen
+  - überweisen
+  - unterschreiben
+correct:
+  - Bargeld holen
+  - mir auszahlen lassen
+---
+
+Wie würdest du es noch sagen?
+
+Am Automaten möchte ich 100 Euro abheben.
+
+Welche Wörter oder Ausdrücke passen auch statt «abheben»? Wähle alle richtigen Antworten.
