@@ -2,10 +2,12 @@
 import { buildSynonymSets } from './make-set.mjs';
 import { B1_ARZT } from './data/b1-arzt.mjs';
 import { B1_BANK } from './data/b1-bank.mjs';
+import { B1_HOBBYS } from './data/b1-hobbys.mjs';
 
 export const b1SynonymSets = buildSynonymSets('Sie', 'B1', [
   { setKey: 'BEIM_ARZT', idPrefix: 'b1-arzt', items: B1_ARZT },
   { setKey: 'AUF_DER_BANK', idPrefix: 'b1-bank', items: B1_BANK },
+  { setKey: 'HOBBYS_FREIZEIT', idPrefix: 'b1-hobb', items: B1_HOBBYS },
 ]);
 
 export { buildSynonymBody } from './emit.mjs';

@@ -55,6 +55,15 @@ export const VOCAB_SETS = {
         accent: '#9a7b2a',
       },
     },
+    {
+      key: 'HOBBYS_FREIZEIT',
+      name: 'Hobbys & Freizeit',
+      desc: 'Sport, Kino, lesen, Verein, Freizeit',
+      theme: {
+        tint: 'rgba(140, 200, 160, 0.14)',
+        accent: '#4a9a6a',
+      },
+    },
   ],
   A2: [
     {
@@ -74,6 +83,15 @@ export const VOCAB_SETS = {
       theme: {
         tint: 'rgba(255, 210, 100, 0.14)',
         accent: '#9a7b2a',
+      },
+    },
+    {
+      key: 'HOBBYS_FREIZEIT',
+      name: 'Hobbys & Freizeit',
+      desc: 'Interesse, trainieren, Ausflug, Verein, entspannen',
+      theme: {
+        tint: 'rgba(130, 190, 170, 0.14)',
+        accent: '#3d8a6a',
       },
     },
   ],
@@ -97,6 +115,15 @@ export const VOCAB_SETS = {
         accent: '#9a7b2a',
       },
     },
+    {
+      key: 'HOBBYS_FREIZEIT',
+      name: 'Hobbys & Freizeit',
+      desc: 'Leidenschaft, Verein, Theater, Chor, Freizeitgestaltung',
+      theme: {
+        tint: 'rgba(150, 180, 200, 0.14)',
+        accent: '#4a7a9a',
+      },
+    },
   ],
   B2: [
     {
@@ -116,6 +143,15 @@ export const VOCAB_SETS = {
       theme: {
         tint: 'rgba(255, 210, 100, 0.14)',
         accent: '#9a7b2a',
+      },
+    },
+    {
+      key: 'HOBBYS_FREIZEIT',
+      name: 'Hobbys & Freizeit',
+      desc: 'Freizeitverhalten, Vereinsleben, Kulturangebot, Lifestyle',
+      theme: {
+        tint: 'rgba(160, 170, 210, 0.14)',
+        accent: '#5a6a9a',
       },
     },
   ],

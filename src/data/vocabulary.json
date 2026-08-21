@@ -702,7 +702,8 @@
   "freunde": {
     "pos": "noun",
     "ru": "Друзья",
-    "en": "Friends"
+    "en": "Friends",
+    "gender": "pl"
   },
   "lust": {
     "pos": "noun",
@@ -732,7 +733,8 @@
   "fußball": {
     "pos": "noun",
     "ru": "Футбол",
-    "en": "Football"
+    "en": "Football",
+    "gender": "m"
   },
   "hausaufgaben": {
     "pos": "noun",
@@ -919,7 +921,8 @@
   "kino": {
     "pos": "noun",
     "ru": "КИНО",
-    "en": "film&fun,kino"
+    "en": "film&fun,kino",
+    "gender": "n"
   },
   "bewegung": {
     "pos": "noun",
@@ -1439,12 +1442,14 @@
   "gitarre": {
     "pos": "noun",
     "ru": "Гитара",
-    "en": "Guitar"
+    "en": "Guitar",
+    "gender": "f"
   },
   "konzert": {
     "pos": "noun",
     "ru": "концерт",
-    "en": "Concert."
+    "en": "Concert.",
+    "gender": "n"
   },
   "brief": {
     "pos": "noun",
@@ -1605,7 +1610,8 @@
   "hobby": {
     "pos": "noun",
     "ru": "Хобби",
-    "en": "hobby"
+    "en": "hobby",
+    "gender": "n"
   },
   "medizin": {
     "pos": "noun",
@@ -1740,7 +1746,8 @@
   "spaß": {
     "pos": "noun",
     "ru": "Забавное",
-    "en": "fun"
+    "en": "fun",
+    "gender": "m"
   },
   "winter": {
     "pos": "noun",
@@ -2346,7 +2353,8 @@
   "ausflug": {
     "pos": "noun",
     "ru": "экскурсия",
-    "en": "Road trip"
+    "en": "Road trip",
+    "gender": "m"
   },
   "fluss": {
     "pos": "noun",
@@ -2749,7 +2757,8 @@
   "verein": {
     "pos": "noun",
     "ru": "Объединение",
-    "en": "Association"
+    "en": "Association",
+    "gender": "m"
   },
   "kennst": {
     "pos": "noun",
@@ -3121,7 +3130,8 @@
   "klavier": {
     "pos": "noun",
     "ru": "Фортепиано",
-    "en": "Piano"
+    "en": "Piano",
+    "gender": "n"
   },
   "anfang": {
     "pos": "noun",
@@ -3808,7 +3818,8 @@
   "chor": {
     "pos": "noun",
     "ru": "Хор",
-    "en": "Choir"
+    "en": "Choir",
+    "gender": "m"
   },
   "linie": {
     "pos": "noun",
@@ -4603,7 +4614,7 @@
   "sportler": {
     "pos": "noun",
     "ru": "Атлет",
-    "en": "Engines"
+    "en": "athlete"
   },
   "gegner": {
     "pos": "noun",
@@ -5594,9 +5605,7 @@
     "en": "city"
   },
   "hobbysn": {
-    "pos": "noun",
-    "ru": "hobbiesn",
-    "en": "hobbiesn"
+    "pos": "noun"
   },
   "hobbien": {
     "pos": "noun",
@@ -6317,7 +6326,8 @@
   "yoga": {
     "pos": "noun",
     "ru": "Это мой распорядок дня",
-    "en": "yoga teacher"
+    "en": "yoga teacher",
+    "gender": "f"
   },
   "abends": {
     "pos": "noun",
@@ -7976,6 +7986,12 @@
     "ru": "аллергический",
     "en": "allergic"
   },
+  "amateur": {
+    "pos": "noun",
+    "ru": "любитель",
+    "en": "amateur",
+    "gender": "m"
+  },
   "ambulant": {
     "pos": "adj",
     "ru": "амбулаторно",
@@ -8040,6 +8056,11 @@
     "en": "ophthalmologist",
     "gender": "m"
   },
+  "ausgleichen": {
+    "pos": "verb",
+    "ru": "компенсировать / балансировать",
+    "en": "to balance / compensate"
+  },
   "auslandsüberweisung": {
     "pos": "noun",
     "ru": "международный перевод",
@@ -8057,6 +8078,17 @@
     "ru": "сыпь",
     "en": "rash",
     "gender": "m"
+  },
+  "ausüben": {
+    "pos": "verb",
+    "ru": "заниматься (спортом/хобби)",
+    "en": "to practise / pursue (a hobby)"
+  },
+  "auszeit": {
+    "pos": "noun",
+    "ru": "перерыв / пауза",
+    "en": "break / time out",
+    "gender": "f"
   },
   "aval": {
     "pos": "noun",
@@ -8080,6 +8112,11 @@
     "pos": "verb",
     "ru": "снять наличные",
     "en": "to withdraw cash"
+  },
+  "basteln": {
+    "pos": "verb",
+    "ru": "мастерить / поделки",
+    "en": "to do crafts / make things by hand"
   },
   "bauchschmerzen": {
     "pos": "noun",
@@ -8151,6 +8188,11 @@
     "en": "compliance",
     "gender": "f"
   },
+  "computer spielen": {
+    "pos": "verb",
+    "ru": "играть на компьютере",
+    "en": "to play computer games"
+  },
   "dauerauftrag": {
     "pos": "noun",
     "ru": "постоянное платёжное поручение",
@@ -8185,6 +8227,12 @@
     "ru": "тупой (о боли)",
     "en": "dull (pain)"
   },
+  "durchhaltevermögen": {
+    "pos": "noun",
+    "ru": "выносливость / упорство",
+    "en": "perseverance / stamina",
+    "gender": "n"
+  },
   "ec-karte": {
     "pos": "noun",
     "ru": "банковская карта (EC)",
@@ -8196,6 +8244,11 @@
     "ru": "эффективная процентная ставка",
     "en": "effective annual interest rate",
     "gender": "m"
+  },
+  "ehrenamtlich": {
+    "pos": "adj",
+    "ru": "на общественных началах",
+    "en": "voluntary / unpaid (community work)"
   },
   "einweisung": {
     "pos": "noun",
@@ -8214,10 +8267,27 @@
     "en": "deposit (payment in)",
     "gender": "f"
   },
+  "engagement": {
+    "pos": "noun",
+    "ru": "вовлечённость / активность",
+    "en": "commitment / engagement",
+    "gender": "n"
+  },
   "entlassung": {
     "pos": "noun",
     "ru": "выписка",
     "en": "discharge",
+    "gender": "f"
+  },
+  "entspannen": {
+    "pos": "verb",
+    "ru": "отдыхать / расслабляться",
+    "en": "to relax"
+  },
+  "erholung": {
+    "pos": "noun",
+    "ru": "отдых / восстановление",
+    "en": "recovery / relaxation",
     "gender": "f"
   },
   "erkältung": {
@@ -8226,11 +8296,23 @@
     "en": "cold",
     "gender": "f"
   },
+  "event": {
+    "pos": "noun",
+    "ru": "мероприятие",
+    "en": "event",
+    "gender": "n"
+  },
   "facharzt": {
     "pos": "noun",
     "ru": "врач-специалист",
     "en": "specialist doctor",
     "gender": "m"
+  },
+  "festival": {
+    "pos": "noun",
+    "ru": "фестиваль",
+    "en": "festival",
+    "gender": "n"
   },
   "fieber": {
     "pos": "noun",
@@ -8244,16 +8326,52 @@
     "en": "branch (bank)",
     "gender": "f"
   },
+  "fitnessstudio": {
+    "pos": "noun",
+    "ru": "фитнес-зал",
+    "en": "gym / fitness studio",
+    "gender": "n"
+  },
   "folgen": {
     "pos": "verb",
     "ru": "следовать",
     "en": "to follow"
+  },
+  "fotografie": {
+    "pos": "noun",
+    "ru": "фотография",
+    "en": "photography",
+    "gender": "f"
   },
   "freistellungsauftrag": {
     "pos": "noun",
     "ru": "заявление на необложение налогом (проценты)",
     "en": "exemption order (for interest tax)",
     "gender": "m"
+  },
+  "freizeit": {
+    "pos": "noun",
+    "ru": "свободное время",
+    "en": "free time / leisure",
+    "gender": "f"
+  },
+  "freizeitgestaltung": {
+    "pos": "noun",
+    "ru": "организация досуга",
+    "en": "leisure activities / how you spend free time",
+    "gender": "f"
+  },
+  "freizeitpark": {
+    "pos": "noun",
+    "ru": "парк развлечений",
+    "en": "amusement / leisure park",
+    "gender": "m"
+  },
+  "freizeitverhalten": {
+    "pos": "noun",
+    "ru": "поведение в свободное время",
+    "en": "leisure behaviour",
+    "gender": "n"
   },
   "gast": {
     "pos": "noun",
@@ -8302,6 +8420,12 @@
     "en": "dermatologist",
     "gender": "m"
   },
+  "freizeitmarkt": {
+    "pos": "noun",
+    "ru": "рынок досуга",
+    "en": "leisure market",
+    "gender": "m"
+  },
   "husten": {
     "pos": "noun",
     "ru": "кашель",
@@ -8344,10 +8468,20 @@
     "en": "intensity",
     "gender": "f"
   },
+  "joggen": {
+    "pos": "verb",
+    "ru": "бегать трусцой",
+    "en": "to jog / go jogging"
+  },
   "karte sperren": {
     "pos": "verb",
     "ru": "заблокировать карту",
     "en": "to block a card"
+  },
+  "klettern": {
+    "pos": "verb",
+    "ru": "лазать / заниматься скалолазанием",
+    "en": "to climb"
   },
   "konto eröffnen": {
     "pos": "verb",
@@ -8418,6 +8552,12 @@
     "en": "sick note",
     "gender": "f"
   },
+  "kreativität": {
+    "pos": "noun",
+    "ru": "креативность",
+    "en": "creativity",
+    "gender": "f"
+  },
   "kredit": {
     "pos": "noun",
     "ru": "кредит",
@@ -8436,6 +8576,12 @@
     "en": "credit line",
     "gender": "f"
   },
+  "kulturangebot": {
+    "pos": "noun",
+    "ru": "культурная программа",
+    "en": "cultural offerings",
+    "gender": "n"
+  },
   "kündigungsfrist": {
     "pos": "noun",
     "ru": "срок уведомления об расторжении",
@@ -8447,17 +8593,46 @@
     "ru": "долго",
     "en": "for a long time"
   },
+  "langeweile": {
+    "pos": "noun",
+    "ru": "скука",
+    "en": "boredom",
+    "gender": "f"
+  },
   "lastschrift": {
     "pos": "noun",
     "ru": "прямое списание",
     "en": "direct debit",
     "gender": "f"
   },
+  "leidenschaft": {
+    "pos": "noun",
+    "ru": "страсть / увлечение",
+    "en": "passion",
+    "gender": "f"
+  },
+  "lifestyle": {
+    "pos": "noun",
+    "ru": "образ жизни",
+    "en": "lifestyle",
+    "gender": "m"
+  },
   "lokalisation": {
     "pos": "noun",
     "ru": "локализация",
     "en": "localisation",
     "gender": "f"
+  },
+  "malen": {
+    "pos": "verb",
+    "ru": "рисовать / красить",
+    "en": "to paint / draw"
+  },
+  "mannschaftssport": {
+    "pos": "noun",
+    "ru": "командный спорт",
+    "en": "team sport",
+    "gender": "m"
   },
   "medikationsplan": {
     "pos": "noun",
@@ -8470,10 +8645,22 @@
     "ru": "измерять",
     "en": "to measure"
   },
+  "mitgliedschaft": {
+    "pos": "noun",
+    "ru": "членство",
+    "en": "membership",
+    "gender": "f"
+  },
   "münze": {
     "pos": "noun",
     "ru": "монета",
     "en": "coin",
+    "gender": "f"
+  },
+  "nachhaltigkeit": {
+    "pos": "noun",
+    "ru": "устойчивость / экологичность",
+    "en": "sustainability",
     "gender": "f"
   },
   "nachsorge": {
@@ -8492,6 +8679,12 @@
     "ru": "побочный эффект",
     "en": "side effect",
     "gender": "f"
+  },
+  "netzwerk": {
+    "pos": "noun",
+    "ru": "сеть / контакты",
+    "en": "network",
+    "gender": "n"
   },
   "notarzt": {
     "pos": "noun",
@@ -8528,6 +8721,12 @@
     "en": "online banking",
     "gender": "n"
   },
+  "outdoor-aktivität": {
+    "pos": "noun",
+    "ru": "активность на свежем воздухе",
+    "en": "outdoor activity",
+    "gender": "f"
+  },
   "penicillin": {
     "pos": "noun",
     "ru": "пенициллин",
@@ -8546,16 +8745,39 @@
     "en": "PIN code",
     "gender": "f"
   },
+  "profi": {
+    "pos": "noun",
+    "ru": "профессионал",
+    "en": "professional",
+    "gender": "m"
+  },
   "publikum": {
     "pos": "noun",
     "ru": "Публика",
     "en": "audience"
+  },
+  "rad fahren": {
+    "pos": "verb",
+    "ru": "кататься на велосипеде",
+    "en": "to ride a bike / cycle"
+  },
+  "radtour": {
+    "pos": "noun",
+    "ru": "велопрогулка",
+    "en": "bike tour / cycling trip",
+    "gender": "f"
   },
   "referenzkonto": {
     "pos": "noun",
     "ru": "референсный (связанный) счёт",
     "en": "reference / linked account",
     "gender": "n"
+  },
+  "regeneration": {
+    "pos": "noun",
+    "ru": "восстановление",
+    "en": "regeneration / recovery",
+    "gender": "f"
   },
   "rezept": {
     "pos": "noun",
@@ -8664,6 +8886,24 @@
     "en": "savings account",
     "gender": "n"
   },
+  "sponsoring": {
+    "pos": "noun",
+    "ru": "спонсорство",
+    "en": "sponsorship",
+    "gender": "n"
+  },
+  "sportverein": {
+    "pos": "noun",
+    "ru": "спортивный клуб",
+    "en": "sports club",
+    "gender": "m"
+  },
+  "stammkneipe": {
+    "pos": "noun",
+    "ru": "любимый паб / постоянное место",
+    "en": "regular pub / local hangout",
+    "gender": "f"
+  },
   "stationär": {
     "pos": "adj",
     "ru": "стационарно",
@@ -8698,6 +8938,12 @@
     "en": "TAN (transaction number)",
     "gender": "f"
   },
+  "theater": {
+    "pos": "noun",
+    "ru": "театр",
+    "en": "theatre",
+    "gender": "n"
+  },
   "therapie": {
     "pos": "noun",
     "ru": "терапия / лечение",
@@ -8709,6 +8955,11 @@
     "ru": "погашение (кредита)",
     "en": "repayment (of loan)",
     "gender": "f"
+  },
+  "trainieren": {
+    "pos": "verb",
+    "ru": "тренироваться",
+    "en": "to train / work out"
   },
   "triage": {
     "pos": "noun",
@@ -8722,10 +8973,22 @@
     "en": "drops",
     "gender": "pl"
   },
+  "turnier": {
+    "pos": "noun",
+    "ru": "турнир",
+    "en": "tournament",
+    "gender": "n"
+  },
   "übelkeit": {
     "pos": "noun",
     "ru": "тошнота",
     "en": "nausea",
+    "gender": "f"
+  },
+  "übernachtung": {
+    "pos": "noun",
+    "ru": "ночёвка",
+    "en": "overnight stay",
     "gender": "f"
   },
   "überweisen": {
@@ -8738,6 +9001,12 @@
     "ru": "направление (бланк)",
     "en": "referral form",
     "gender": "m"
+  },
+  "unternehmung": {
+    "pos": "noun",
+    "ru": "мероприятие / совместное занятие",
+    "en": "activity / outing",
+    "gender": "f"
   },
   "unterschrift": {
     "pos": "noun",
@@ -8756,6 +9025,18 @@
     "ru": "валютирование / дата проводки",
     "en": "value date (of a transaction)",
     "gender": "f"
+  },
+  "vereinsleben": {
+    "pos": "noun",
+    "ru": "клубная жизнь",
+    "en": "club life / association activities",
+    "gender": "n"
+  },
+  "vereinsmitglied": {
+    "pos": "noun",
+    "ru": "член клуба",
+    "en": "club member",
+    "gender": "n"
   },
   "verlauf": {
     "pos": "noun",
@@ -8792,11 +9073,22 @@
     "en": "tolerability",
     "gender": "f"
   },
+  "volleyball": {
+    "pos": "noun",
+    "ru": "волейбол",
+    "en": "volleyball",
+    "gender": "m"
+  },
   "vorgeschichte": {
     "pos": "noun",
     "ru": "история болезни",
     "en": "medical history",
     "gender": "f"
+  },
+  "wandern": {
+    "pos": "verb",
+    "ru": "ходить в поход",
+    "en": "to hike / go hiking"
   },
   "wechselkurs": {
     "pos": "noun",
@@ -8821,6 +9113,24 @@
     "en": "security / bond / stock",
     "gender": "n"
   },
+  "wettkampf": {
+    "pos": "noun",
+    "ru": "соревнование",
+    "en": "competition",
+    "gender": "m"
+  },
+  "work-life-balance": {
+    "pos": "noun",
+    "ru": "баланс работы и жизни",
+    "en": "work-life balance",
+    "gender": "f"
+  },
+  "workout": {
+    "pos": "noun",
+    "ru": "тренировка",
+    "en": "workout",
+    "gender": "n"
+  },
   "zahnarzt": {
     "pos": "noun",
     "ru": "стоматолог",
@@ -8832,6 +9142,17 @@
     "ru": "зубная боль",
     "en": "toothache",
     "gender": "pl"
+  },
+  "zeichnen": {
+    "pos": "verb",
+    "ru": "рисовать (карандашом)",
+    "en": "to draw"
+  },
+  "zeitmanagement": {
+    "pos": "noun",
+    "ru": "управление временем",
+    "en": "time management",
+    "gender": "n"
   },
   "zinsen": {
     "pos": "noun",
