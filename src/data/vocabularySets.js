@@ -94,6 +94,15 @@ export const VOCAB_SETS = {
         accent: '#3d8a6a',
       },
     },
+    {
+      key: 'JOB_SUCHE',
+      name: 'Jobsuche',
+      desc: 'Bewerbung, Lebenslauf, Gehalt, Vorstellungsgespräch',
+      theme: {
+        tint: 'rgba(180, 170, 210, 0.14)',
+        accent: '#5a5a9a',
+      },
+    },
   ],
   B1: [
     {
@@ -124,6 +133,15 @@ export const VOCAB_SETS = {
         accent: '#4a7a9a',
       },
     },
+    {
+      key: 'JOB_SUCHE',
+      name: 'Jobsuche',
+      desc: 'Arbeitsvertrag, Karriere, Probezeit, Personalabteilung',
+      theme: {
+        tint: 'rgba(170, 165, 210, 0.14)',
+        accent: '#4a4a8a',
+      },
+    },
   ],
   B2: [
     {
@@ -152,6 +170,15 @@ export const VOCAB_SETS = {
       theme: {
         tint: 'rgba(160, 170, 210, 0.14)',
         accent: '#5a6a9a',
+      },
+    },
+    {
+      key: 'JOB_SUCHE',
+      name: 'Jobsuche',
+      desc: 'Arbeitsmarkt, Recruiting, Tarifvertrag, Karriereplanung',
+      theme: {
+        tint: 'rgba(150, 160, 220, 0.14)',
+        accent: '#4a508a',
       },
     },
   ],
