@@ -69,6 +69,7 @@
     "vocab:generate-hobbys": "node scripts/generate-hobbys-freizeit.mjs",
     "vocab:generate-jobs": "node scripts/generate-job-suche.mjs",
     "vocab:generate-buerokratie": "node scripts/generate-buerokratie.mjs",
+    "vocab:generate-redewendungen": "node scripts/generate-redewendungen.mjs",
     "ops:verify-manifest": "node scripts/verify-appsscript-manifest.mjs",
     "test:stabilize": "npm run test && npm run questions:verify && npm run questions:verify:vocab && npm run vocab:verify-sets && npm run ops:verify-manifest && npm run build && node scripts/check-bundle-size.mjs"
   },

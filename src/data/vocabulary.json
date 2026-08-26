@@ -492,6 +492,11 @@
     "ru": "аллергический",
     "en": "allergic"
   },
+  "alles unter einen hut bringen": {
+    "pos": "phrase",
+    "ru": "свести всё воедино",
+    "en": "to coordinate everything"
+  },
   "alt": {
     "pos": "adj",
     "ru": "старый",
@@ -956,6 +961,36 @@
     "en": "medical certificate",
     "gender": "n"
   },
+  "auf dem holzweg sein": {
+    "pos": "phrase",
+    "ru": "идти не в ту сторону",
+    "en": "to be on the wrong track"
+  },
+  "auf den zahn fühlen": {
+    "pos": "phrase",
+    "ru": "прощупать / допросить",
+    "en": "to grill / test thoroughly"
+  },
+  "auf die lange bank schieben": {
+    "pos": "phrase",
+    "ru": "отложить на потом",
+    "en": "to put off / procrastinate"
+  },
+  "auf die tube drücken": {
+    "pos": "phrase",
+    "ru": "пожать на газ / поторопиться",
+    "en": "to step on it / hurry"
+  },
+  "auf großem fuß leben": {
+    "pos": "phrase",
+    "ru": "жить на широкую ногу",
+    "en": "to live in luxury"
+  },
+  "auf wolke sieben schweben": {
+    "pos": "phrase",
+    "ru": "быть на седьмом небе",
+    "en": "to be on cloud nine"
+  },
   "aufenthalts": {
     "pos": "noun",
     "ru": "пребывание",
@@ -1055,6 +1090,16 @@
     "pos": "noun",
     "ru": "Актовый зал",
     "en": "Auditorium"
+  },
+  "aus allen wolken fallen": {
+    "pos": "phrase",
+    "ru": "быть в шоке",
+    "en": "to be stunned"
+  },
+  "aus dem nähkästchen plaudern": {
+    "pos": "phrase",
+    "ru": "рассказать личное",
+    "en": "to spill the beans"
   },
   "ausbildung": {
     "pos": "noun",
@@ -2149,6 +2194,16 @@
     "pos": "noun",
     "en": "Czesnik"
   },
+  "da ist der wurm drin": {
+    "pos": "phrase",
+    "ru": "тут что-то не так",
+    "en": "something is wrong"
+  },
+  "da steppt der bär": {
+    "pos": "phrase",
+    "ru": "там кипит жизнь",
+    "en": "it's jumping / lively"
+  },
   "dach": {
     "pos": "noun",
     "ru": "Кровля",
@@ -2173,6 +2228,31 @@
     "pos": "noun",
     "ru": "в",
     "en": "at"
+  },
+  "das a und o": {
+    "pos": "phrase",
+    "ru": "самое главное",
+    "en": "the be-all and end-all"
+  },
+  "das a und o sein": {
+    "pos": "phrase",
+    "ru": "самое главное",
+    "en": "the be-all and end-all"
+  },
+  "das eis brechen": {
+    "pos": "phrase",
+    "ru": "растопить лёд",
+    "en": "to break the ice"
+  },
+  "das haar in der suppe suchen": {
+    "pos": "phrase",
+    "ru": "искать подвох",
+    "en": "to nitpick"
+  },
+  "das leben ist kein ponyhof": {
+    "pos": "phrase",
+    "ru": "жизнь — не сказка",
+    "en": "life is no picnic"
   },
   "daten": {
     "pos": "noun",
@@ -2235,6 +2315,36 @@
   "demonstrativartikel": {
     "pos": "noun"
   },
+  "den ball flach halten": {
+    "pos": "phrase",
+    "ru": "не раздувать конфликт",
+    "en": "to keep things calm"
+  },
+  "den bock zum gärtner machen": {
+    "pos": "phrase",
+    "ru": "назначить козла смотрителем огорода",
+    "en": "to set a fox to guard the henhouse"
+  },
+  "den faden verlieren": {
+    "pos": "phrase",
+    "ru": "потерять нить",
+    "en": "to lose the thread"
+  },
+  "den gürtel enger schnallen": {
+    "pos": "phrase",
+    "ru": "затянуть пояс",
+    "en": "to tighten one's belt"
+  },
+  "den hut in den ring werfen": {
+    "pos": "phrase",
+    "ru": "бросить шляпу на ринг / выставить кандидатуру",
+    "en": "to throw one's hat in the ring"
+  },
+  "den nagel auf den kopf treffen": {
+    "pos": "phrase",
+    "ru": "попасть в точку",
+    "en": "to hit the nail on the head"
+  },
   "denkmalschutz": {
     "pos": "noun",
     "ru": "охрана памятника",
@@ -2281,6 +2391,21 @@
     "ru": "Диагноз",
     "en": "Diagnosis",
     "gender": "f"
+  },
+  "die flinte ins korn werfen": {
+    "pos": "phrase",
+    "ru": "опустить руки",
+    "en": "to throw in the towel"
+  },
+  "die halbe miete sein": {
+    "pos": "phrase",
+    "ru": "полдела сделано",
+    "en": "to be half the battle"
+  },
+  "die kuh vom eis holen": {
+    "pos": "phrase",
+    "ru": "вытащить из беды",
+    "en": "to get out of a tight spot"
   },
   "dienstag": {
     "pos": "noun",
@@ -2412,6 +2537,36 @@
     "ru": "яйца",
     "en": "eggs"
   },
+  "eigenlob stinkt": {
+    "pos": "phrase",
+    "ru": "хвалить себя — не дело",
+    "en": "self-praise stinks"
+  },
+  "ein auge zudrücken": {
+    "pos": "phrase",
+    "ru": "закрыть глаза на",
+    "en": "to turn a blind eye"
+  },
+  "ein brett vor dem kopf haben": {
+    "pos": "phrase",
+    "ru": "не видеть очевидного",
+    "en": "to be oblivious"
+  },
+  "ein dickes fell haben": {
+    "pos": "phrase",
+    "ru": "быть толстокожим",
+    "en": "to have a thick skin"
+  },
+  "ein tropfen auf den heißen stein": {
+    "pos": "phrase",
+    "ru": "капля в море",
+    "en": "a drop in the bucket"
+  },
+  "ein x für ein u vormachen": {
+    "pos": "phrase",
+    "ru": "обмануть / подменить",
+    "en": "to pull a fast one"
+  },
   "einarbeitung": {
     "pos": "noun",
     "ru": "Освоение специальности",
@@ -2427,6 +2582,41 @@
     "pos": "noun",
     "ru": "впечатление",
     "en": "impression"
+  },
+  "eine extrawurst bekommen": {
+    "pos": "phrase",
+    "ru": "получить особое отношение",
+    "en": "to get special treatment"
+  },
+  "einen bären aufbinden": {
+    "pos": "phrase",
+    "ru": "обмануть / наврать",
+    "en": "to pull someone's leg / lie"
+  },
+  "einen dachschaden haben": {
+    "pos": "phrase",
+    "ru": "быть с приветом (разг.)",
+    "en": "to be crazy (colloquial)"
+  },
+  "einen kater haben": {
+    "pos": "phrase",
+    "ru": "иметь похмелье",
+    "en": "to have a hangover"
+  },
+  "einen korb bekommen": {
+    "pos": "phrase",
+    "ru": "получить отказ",
+    "en": "to be rejected"
+  },
+  "einen ohrwurm haben": {
+    "pos": "phrase",
+    "ru": "застряла песня в голове",
+    "en": "to have an earworm"
+  },
+  "einen strich durch die rechnung machen": {
+    "pos": "phrase",
+    "ru": "перечеркнуть планы",
+    "en": "to spoil someone's plans"
   },
   "einfluss": {
     "pos": "noun",
@@ -2480,6 +2670,11 @@
     "pos": "noun",
     "ru": "представление",
     "en": "deposit"
+  },
+  "eins auf den deckel bekommen": {
+    "pos": "phrase",
+    "ru": "получить выговор",
+    "en": "to get told off"
   },
   "einspruchsfrist": {
     "pos": "noun",
@@ -2737,6 +2932,11 @@
     "ru": "ожидания",
     "en": "expectations"
   },
+  "es brennt die luft": {
+    "pos": "phrase",
+    "ru": "в воздухе напряжение",
+    "en": "the air is tense"
+  },
   "essen": {
     "pos": "noun",
     "ru": "еда",
@@ -2752,6 +2952,21 @@
     "pos": "noun",
     "ru": "Этаж",
     "en": "Floor"
+  },
+  "etwas an den nagel hängen": {
+    "pos": "phrase",
+    "ru": "завязать с чем-то",
+    "en": "to give up / quit"
+  },
+  "etwas durch die blume sagen": {
+    "pos": "phrase",
+    "ru": "сказать намёком",
+    "en": "to say something indirectly"
+  },
+  "etwas unter den teppich kehren": {
+    "pos": "phrase",
+    "ru": "замести под ковёр",
+    "en": "to sweep under the rug"
   },
   "euro": {
     "pos": "noun",
@@ -3990,6 +4205,11 @@
     "ru": "Небо",
     "en": "Sky"
   },
+  "hinter dem mond leben": {
+    "pos": "phrase",
+    "ru": "жить в прошлом веке",
+    "en": "to live under a rock"
+  },
   "hinweis": {
     "pos": "noun",
     "ru": "Подсказка",
@@ -4201,6 +4421,11 @@
     "en": "identification",
     "gender": "f"
   },
+  "im eimer sein": {
+    "pos": "phrase",
+    "ru": "быть в плохом состоянии",
+    "en": "to be in bad shape"
+  },
   "impfen": {
     "pos": "verb",
     "ru": "Вакцинация",
@@ -4226,6 +4451,11 @@
     "ru": "Вакцинация",
     "en": "Vaccination",
     "gender": "f"
+  },
+  "in den sauren apfel beißen": {
+    "pos": "phrase",
+    "ru": "решиться на неприятное",
+    "en": "to bite the bullet"
   },
   "indefinitpronomen": {
     "pos": "noun"
@@ -4280,6 +4510,11 @@
     "pos": "noun",
     "ru": "в середине",
     "en": "Korrekt ..."
+  },
+  "ins gras beißen": {
+    "pos": "phrase",
+    "ru": "окончательно выйти из строя (разг.)",
+    "en": "to bite the dust / stop working"
   },
   "insel": {
     "pos": "noun",
@@ -4415,6 +4650,41 @@
     "pos": "noun",
     "ru": "каждый",
     "en": "every"
+  },
+  "jemandem auf den zahn fühlen": {
+    "pos": "phrase",
+    "ru": "прощупать / допросить",
+    "en": "to grill / test thoroughly"
+  },
+  "jemandem die daumen drücken": {
+    "pos": "phrase",
+    "ru": "желать удачи",
+    "en": "to keep one's fingers crossed for someone"
+  },
+  "jemandem ein x für ein u vormachen": {
+    "pos": "phrase",
+    "ru": "обмануть / подменить",
+    "en": "to pull a fast one"
+  },
+  "jemandem einen bären aufbinden": {
+    "pos": "phrase",
+    "ru": "обмануть / наврать",
+    "en": "to pull someone's leg / lie"
+  },
+  "jemandem einen strich durch die rechnung machen": {
+    "pos": "phrase",
+    "ru": "перечеркнуть планы",
+    "en": "to spoil someone's plans"
+  },
+  "jemanden auf die palme bringen": {
+    "pos": "phrase",
+    "ru": "вывести из себя",
+    "en": "to drive someone up the wall"
+  },
+  "jemanden die daumen drücken": {
+    "pos": "phrase",
+    "ru": "желать удачи",
+    "en": "to keep one's fingers crossed for someone"
   },
   "jens": {
     "pos": "noun",
@@ -5370,6 +5640,11 @@
     "ru": "жить",
     "en": "live"
   },
+  "leben wie gott in frankreich": {
+    "pos": "phrase",
+    "ru": "жить припеваючи",
+    "en": "to live like a king"
+  },
   "lebenslauf": {
     "pos": "noun",
     "ru": "резюме",
@@ -5456,6 +5731,11 @@
     "ru": "свет",
     "en": "light",
     "gender": "n"
+  },
+  "liebe geht durch den magen": {
+    "pos": "phrase",
+    "ru": "путь к сердцу через желудок",
+    "en": "the way to the heart is through the stomach"
   },
   "lieben": {
     "pos": "verb",
@@ -5893,6 +6173,26 @@
     "ru": "минут",
     "en": "minutes"
   },
+  "mit allen wassern gewaschen sein": {
+    "pos": "phrase",
+    "ru": "быть очень опытным",
+    "en": "to be worldly-wise"
+  },
+  "mit dem kopf durch die wand": {
+    "pos": "phrase",
+    "ru": "ломиться через стену",
+    "en": "to be stubbornly forceful"
+  },
+  "mit dem schiff nach afrika fahren": {
+    "pos": "phrase",
+    "ru": "заниматься ерундой",
+    "en": "to waste time on nonsense"
+  },
+  "mit jemandem ist nicht gut kirschen essen": {
+    "pos": "phrase",
+    "ru": "с кем-то не стоит связываться",
+    "en": "not to be on good terms with someone"
+  },
   "mitarbeiter": {
     "pos": "noun",
     "ru": "Сотрудник",
@@ -6241,6 +6541,11 @@
     "pos": "noun",
     "ru": "Нейман",
     "en": "Neumann"
+  },
+  "nicht das blaue vom himmel versprechen": {
+    "pos": "phrase",
+    "ru": "не обещать невозможного",
+    "en": "not to promise the moon"
   },
   "nimm": {
     "pos": "noun",
@@ -7616,6 +7921,11 @@
     "ru": "Слабость",
     "en": "weakness"
   },
+  "schwein haben": {
+    "pos": "phrase",
+    "ru": "повезло",
+    "en": "to be lucky"
+  },
   "schweiz": {
     "pos": "noun",
     "ru": "Швейцария",
@@ -7748,6 +8058,11 @@
     "pos": "verb",
     "ru": "радоваться",
     "en": "to look forward / be glad"
+  },
+  "sich zum affen machen": {
+    "pos": "phrase",
+    "ru": "выставить себя дураком",
+    "en": "to make a fool of oneself"
   },
   "sicher": {
     "pos": "noun",
@@ -8637,6 +8952,11 @@
     "ru": "<g id=\"1\">Помидоры</g>,",
     "en": "tomato"
   },
+  "tomaten auf den augen haben": {
+    "pos": "phrase",
+    "ru": "ничего не видеть",
+    "en": "to be oblivious"
+  },
   "tomatens": {
     "pos": "noun",
     "ru": "помидоры",
@@ -8752,6 +9072,11 @@
     "ru": "тошнота",
     "en": "nausea",
     "gender": "f"
+  },
+  "über den eigenen schatten springen": {
+    "pos": "phrase",
+    "ru": "преодолеть себя",
+    "en": "to overcome oneself"
   },
   "überblick": {
     "pos": "noun",

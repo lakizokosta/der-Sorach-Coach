@@ -160,6 +160,15 @@ export const VOCAB_SETS = {
         accent: '#4a5268',
       },
     },
+    {
+      key: 'REDEWENDUNGEN',
+      name: 'Deutsch Redewendungen',
+      desc: 'Redewendungen, Sprichwörter, Umgangssprache',
+      theme: {
+        tint: 'rgba(200, 170, 140, 0.14)',
+        accent: '#8a6840',
+      },
+    },
   ],
   B2: [
     {
@@ -206,6 +215,15 @@ export const VOCAB_SETS = {
       theme: {
         tint: 'rgba(120, 130, 160, 0.14)',
         accent: '#3a4460',
+      },
+    },
+    {
+      key: 'REDEWENDUNGEN',
+      name: 'Deutsch Redewendungen',
+      desc: 'Redewendungen, Sprichwörter, feste Wendungen',
+      theme: {
+        tint: 'rgba(190, 160, 130, 0.14)',
+        accent: '#7a5830',
       },
     },
   ],
