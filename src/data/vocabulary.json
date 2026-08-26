@@ -395,6 +395,12 @@
     "ru": "процедуры",
     "en": "operations"
   },
+  "ablehnung": {
+    "pos": "noun",
+    "ru": "отказ",
+    "en": "rejection / denial",
+    "gender": "f"
+  },
   "absagen": {
     "pos": "verb"
   },
@@ -420,6 +426,12 @@
     "en": "change of address",
     "gender": "f"
   },
+  "adresse": {
+    "pos": "noun",
+    "ru": "адрес",
+    "en": "address",
+    "gender": "f"
+  },
   "agentur": {
     "pos": "noun",
     "ru": "агентство",
@@ -440,6 +452,24 @@
   },
   "akkusativobjekt": {
     "pos": "noun"
+  },
+  "akteneinsicht": {
+    "pos": "noun",
+    "ru": "ознакомление с делом",
+    "en": "access to file / inspection of records",
+    "gender": "f"
+  },
+  "aktenvermerk": {
+    "pos": "noun",
+    "ru": "запись в деле",
+    "en": "file note / record entry",
+    "gender": "m"
+  },
+  "aktenzeichen": {
+    "pos": "noun",
+    "ru": "номер дела",
+    "en": "file reference number",
+    "gender": "n"
   },
   "aktuell": {
     "pos": "adj",
@@ -498,6 +528,18 @@
     "ru": "должность / ведомство",
     "en": "office / authority",
     "gender": "n"
+  },
+  "amtshaftung": {
+    "pos": "noun",
+    "ru": "государственная ответственность",
+    "en": "state liability",
+    "gender": "f"
+  },
+  "amtssprache": {
+    "pos": "noun",
+    "ru": "официальный язык",
+    "en": "official language",
+    "gender": "f"
   },
   "analyse": {
     "pos": "noun",
@@ -566,6 +608,12 @@
     "ru": "Приложение",
     "en": "annex"
   },
+  "anhörung": {
+    "pos": "noun",
+    "ru": "слушание / опрос",
+    "en": "hearing (administrative)",
+    "gender": "f"
+  },
   "anlageberatung": {
     "pos": "noun",
     "ru": "инвестиционное консультирование",
@@ -603,7 +651,8 @@
   "anmeldung": {
     "pos": "noun",
     "ru": "Запись на прием",
-    "en": "login"
+    "en": "login",
+    "gender": "f"
   },
   "anmeldungen": {
     "pos": "noun",
@@ -677,6 +726,12 @@
     "pos": "noun",
     "ru": "заявка",
     "en": "application"
+  },
+  "antragsformular": {
+    "pos": "noun",
+    "ru": "форма заявления",
+    "en": "application form",
+    "gender": "n"
   },
   "antwort": {
     "pos": "noun",
@@ -906,6 +961,24 @@
     "ru": "пребывание",
     "en": "stay:"
   },
+  "aufenthaltserlaubnis": {
+    "pos": "noun",
+    "ru": "разрешение на пребывание",
+    "en": "residence permit",
+    "gender": "f"
+  },
+  "aufenthaltsgesetz": {
+    "pos": "noun",
+    "ru": "закон о пребывании",
+    "en": "Residence Act",
+    "gender": "n"
+  },
+  "aufenthaltstitel": {
+    "pos": "noun",
+    "ru": "вид на жительство / разрешение на пребывание",
+    "en": "residence permit",
+    "gender": "m"
+  },
   "aufgabe": {
     "pos": "noun",
     "ru": "Задача",
@@ -920,6 +993,12 @@
     "pos": "noun",
     "ru": "из-за, вследствие",
     "en": "higher"
+  },
+  "aufhebungsbescheid": {
+    "pos": "noun",
+    "ru": "решение об отмене",
+    "en": "revocation notice",
+    "gender": "m"
   },
   "aufkommens": {
     "pos": "noun",
@@ -1027,6 +1106,12 @@
     "ru": "Зарубежные страны",
     "en": "Abroad"
   },
+  "ausländerbehörde": {
+    "pos": "noun",
+    "ru": "ведомство по делам иностранцев",
+    "en": "immigration office",
+    "gender": "f"
+  },
   "auslandsüberweisung": {
     "pos": "noun",
     "ru": "международный перевод",
@@ -1111,7 +1196,8 @@
   "ausweis": {
     "pos": "noun",
     "ru": "Удостоверение",
-    "en": "Identity card"
+    "en": "Identity card",
+    "gender": "m"
   },
   "auszeichnung": {
     "pos": "noun",
@@ -1333,7 +1419,20 @@
   "bearbeitung": {
     "pos": "noun",
     "ru": "Обработка",
-    "en": "machining"
+    "en": "machining",
+    "gender": "f"
+  },
+  "bearbeitungsdauer": {
+    "pos": "noun",
+    "ru": "срок обработки",
+    "en": "processing duration",
+    "gender": "f"
+  },
+  "bearbeitungsstand": {
+    "pos": "noun",
+    "ru": "статус обработки",
+    "en": "processing status",
+    "gender": "m"
   },
   "becker": {
     "pos": "noun",
@@ -1370,6 +1469,12 @@
     "ru": "года",
     "en": "beginning"
   },
+  "beglaubigung": {
+    "pos": "noun",
+    "ru": "заверение копии",
+    "en": "certification / notarization",
+    "gender": "f"
+  },
   "behandlung": {
     "pos": "noun",
     "ru": "Лечение",
@@ -1378,7 +1483,8 @@
   "behörde": {
     "pos": "noun",
     "ru": "Кем выдан",
-    "en": "Authority"
+    "en": "Authority",
+    "gender": "f"
   },
   "bein": {
     "pos": "noun",
@@ -1531,7 +1637,8 @@
   "bescheid": {
     "pos": "noun",
     "ru": "Уведомление",
-    "en": "benefit"
+    "en": "benefit",
+    "gender": "m"
   },
   "bescheinigung": {
     "pos": "noun",
@@ -1542,6 +1649,12 @@
     "pos": "noun",
     "ru": "Описание",
     "en": "Description"
+  },
+  "beschwerde": {
+    "pos": "noun",
+    "ru": "жалоба",
+    "en": "complaint / grievance",
+    "gender": "f"
   },
   "beschwerden": {
     "pos": "noun",
@@ -1926,7 +2039,8 @@
   "bürgeramt": {
     "pos": "noun",
     "ru": "<g id=\"150\"><g id=\"148\">Орган регистрационного учёта</g></g><g id=\"153\">,</g>",
-    "en": "citizens' registration office"
+    "en": "citizens' registration office",
+    "gender": "n"
   },
   "büro": {
     "pos": "noun",
@@ -2065,6 +2179,12 @@
     "ru": "Данные",
     "en": "data"
   },
+  "datenschutz": {
+    "pos": "noun",
+    "ru": "защита данных",
+    "en": "data protection",
+    "gender": "m"
+  },
   "dativform": {
     "pos": "noun"
   },
@@ -2167,6 +2287,12 @@
     "ru": "Понедельник",
     "en": "dinstag"
   },
+  "dienstaufsicht": {
+    "pos": "noun",
+    "ru": "служебный надзор",
+    "en": "supervisory authority (over civil servants)",
+    "gender": "f"
+  },
   "digitale": {
     "pos": "noun",
     "ru": "цифровой",
@@ -2244,6 +2370,12 @@
     "en": "perseverance / stamina",
     "gender": "n"
   },
+  "e-akte": {
+    "pos": "noun",
+    "ru": "электронное дело",
+    "en": "electronic file",
+    "gender": "f"
+  },
   "ec-karte": {
     "pos": "noun",
     "ru": "банковская карта (EC)",
@@ -2308,7 +2440,8 @@
   "eingangsbestätigung": {
     "pos": "noun",
     "ru": "подтверждение получения",
-    "en": "Confirmation of Submission"
+    "en": "Confirmation of Submission",
+    "gender": "f"
   },
   "einigung": {
     "pos": "noun",
@@ -2339,12 +2472,20 @@
     "en": "INVITATION"
   },
   "einreichen": {
-    "pos": "verb"
+    "pos": "verb",
+    "ru": "подавать (документы)",
+    "en": "to submit / hand in"
   },
   "einreichung": {
     "pos": "noun",
     "ru": "представление",
     "en": "deposit"
+  },
+  "einspruchsfrist": {
+    "pos": "noun",
+    "ru": "срок подачи возражения",
+    "en": "appeal deadline",
+    "gender": "f"
   },
   "einsteigen": {
     "pos": "verb"
@@ -2410,6 +2551,12 @@
     "pos": "noun",
     "ru": "Отпуск по беременности и родам",
     "en": "Parental leave"
+  },
+  "empfang": {
+    "pos": "noun",
+    "ru": "ресепшен / приёмная",
+    "en": "reception",
+    "gender": "m"
   },
   "employability": {
     "pos": "noun",
@@ -2921,6 +3068,12 @@
     "ru": "Формы",
     "en": "forms"
   },
+  "formularvordruck": {
+    "pos": "noun",
+    "ru": "типовой бланк",
+    "en": "form template",
+    "gender": "m"
+  },
   "forscherin": {
     "pos": "noun",
     "ru": "исследовательница",
@@ -3108,12 +3261,24 @@
   "frist": {
     "pos": "noun",
     "ru": "fp|Укажите срок",
-    "en": "period"
+    "en": "period",
+    "gender": "f"
   },
   "fristen": {
     "pos": "noun",
     "ru": "Сроки для открытия",
     "en": "Deadlines"
+  },
+  "fristverlängerung": {
+    "pos": "noun",
+    "ru": "продление срока",
+    "en": "deadline extension",
+    "gender": "f"
+  },
+  "fristwahrend": {
+    "pos": "adj",
+    "ru": "соблюдающий срок",
+    "en": "timely (within deadline)"
   },
   "frühling": {
     "pos": "noun",
@@ -3190,6 +3355,12 @@
     "pos": "verb",
     "ru": "давать",
     "en": "put"
+  },
+  "gebühr": {
+    "pos": "noun",
+    "ru": "пошлина / сбор",
+    "en": "fee / charge",
+    "gender": "f"
   },
   "gebühren": {
     "pos": "noun",
@@ -3303,7 +3474,8 @@
   "genehmigung": {
     "pos": "noun",
     "ru": "Разрешение",
-    "en": "Approval"
+    "en": "Approval",
+    "gender": "f"
   },
   "genes": {
     "pos": "noun",
@@ -4132,7 +4304,14 @@
   "integrationskurs": {
     "pos": "noun",
     "ru": "интеграционный курс",
-    "en": "Integration Course"
+    "en": "Integration Course",
+    "gender": "m"
+  },
+  "integrationsnachweis": {
+    "pos": "noun",
+    "ru": "подтверждение интеграции",
+    "en": "proof of integration",
+    "gender": "m"
   },
   "intensität": {
     "pos": "noun",
@@ -4842,6 +5021,12 @@
     "en": "headache",
     "gender": "pl"
   },
+  "kopie": {
+    "pos": "noun",
+    "ru": "копия",
+    "en": "copy",
+    "gender": "f"
+  },
   "korrektur": {
     "pos": "noun",
     "ru": "Поправка",
@@ -5196,6 +5381,12 @@
     "ru": "нога",
     "en": "leg"
   },
+  "legitimationsprüfung": {
+    "pos": "noun",
+    "ru": "проверка личности",
+    "en": "identity verification",
+    "gender": "f"
+  },
   "lehmann": {
     "pos": "noun",
     "ru": "Леманн",
@@ -5222,6 +5413,18 @@
     "ru": "страсть / увлечение",
     "en": "passion",
     "gender": "f"
+  },
+  "leistungsantrag": {
+    "pos": "noun",
+    "ru": "заявление на пособие",
+    "en": "benefit application",
+    "gender": "m"
+  },
+  "leistungsbescheid": {
+    "pos": "noun",
+    "ru": "решение о назначении пособия",
+    "en": "benefit decision notice",
+    "gender": "m"
   },
   "leistungsnachweis": {
     "pos": "noun",
@@ -5602,6 +5805,12 @@
     "ru": "мнения",
     "en": "Opinions"
   },
+  "meldebescheinigung": {
+    "pos": "noun",
+    "ru": "справка о регистрации",
+    "en": "registration certificate",
+    "gender": "f"
+  },
   "melodie": {
     "pos": "noun",
     "ru": "Мелодия",
@@ -5719,7 +5928,8 @@
   "mitteilung": {
     "pos": "noun",
     "ru": "Уведомление",
-    "en": "announcement"
+    "en": "announcement",
+    "gender": "f"
   },
   "mitternacht": {
     "pos": "noun"
@@ -5728,6 +5938,12 @@
     "pos": "noun",
     "ru": "Среда",
     "en": "Wednesday"
+  },
+  "mitwirkungspflicht": {
+    "pos": "noun",
+    "ru": "обязанность содействовать",
+    "en": "duty to cooperate",
+    "gender": "f"
   },
   "modal": {
     "pos": "noun"
@@ -5899,6 +6115,12 @@
     "ru": "После обеда",
     "en": "afternoon"
   },
+  "nachreichung": {
+    "pos": "noun",
+    "ru": "дополнительная подача документов",
+    "en": "supplementary submission",
+    "gender": "f"
+  },
   "nachricht": {
     "pos": "noun",
     "ru": "сообщение",
@@ -5915,6 +6137,12 @@
     "pos": "noun",
     "ru": "на ночь",
     "en": "night"
+  },
+  "nachweis": {
+    "pos": "noun",
+    "ru": "подтверждение / доказательство",
+    "en": "proof / evidence",
+    "gender": "m"
   },
   "nagel": {
     "pos": "noun",
@@ -6099,6 +6327,12 @@
     "en": "online banking",
     "gender": "n"
   },
+  "online-portal": {
+    "pos": "noun",
+    "ru": "онлайн-портал",
+    "en": "online portal",
+    "gender": "n"
+  },
   "ort": {
     "pos": "noun",
     "ru": "Населенный пункт",
@@ -6241,6 +6475,12 @@
     "ru": "Отдел кадров",
     "en": "Human Resources Department",
     "gender": "f"
+  },
+  "personalausweis": {
+    "pos": "noun",
+    "ru": "удостоверение личности",
+    "en": "identity card",
+    "gender": "m"
   },
   "personalentwicklung": {
     "pos": "noun",
@@ -6722,6 +6962,24 @@
     "ru": "Правый",
     "en": "Rights"
   },
+  "rechtsbehelfsbelehrung": {
+    "pos": "noun",
+    "ru": "разъяснение о правовых средствах защиты",
+    "en": "information on legal remedies",
+    "gender": "f"
+  },
+  "rechtsmittel": {
+    "pos": "noun",
+    "ru": "правовое средство защиты",
+    "en": "legal remedy",
+    "gender": "n"
+  },
+  "rechtswidrigkeit": {
+    "pos": "noun",
+    "ru": "противоправность",
+    "en": "illegality / unlawfulness",
+    "gender": "f"
+  },
   "recruiting": {
     "pos": "noun",
     "ru": "подбор персонала",
@@ -7094,6 +7352,12 @@
     "ru": "Сабинас",
     "en": "Sabinas"
   },
+  "sachbearbeiter": {
+    "pos": "noun",
+    "ru": "делопроизводитель / специалист",
+    "en": "case officer / clerk",
+    "gender": "m"
+  },
   "sache": {
     "pos": "noun",
     "ru": "нещо",
@@ -7267,6 +7531,12 @@
     "pos": "noun",
     "ru": "Бюро",
     "en": "writing desk"
+  },
+  "schriftverkehr": {
+    "pos": "noun",
+    "ru": "переписка",
+    "en": "written correspondence",
+    "gender": "m"
   },
   "schritte": {
     "pos": "noun",
@@ -7771,6 +8041,12 @@
     "ru": "стационарно",
     "en": "inpatient"
   },
+  "statusabfrage": {
+    "pos": "noun",
+    "ru": "запрос статуса",
+    "en": "status inquiry",
+    "gender": "f"
+  },
   "stechend": {
     "pos": "adj",
     "ru": "колющий (о боли)",
@@ -8220,6 +8496,12 @@
     "ru": "встречи",
     "en": "appointments"
   },
+  "terminvereinbarung": {
+    "pos": "noun",
+    "ru": "запись на приём",
+    "en": "appointment booking",
+    "gender": "f"
+  },
   "terminverschiebung": {
     "pos": "noun",
     "ru": "реструктуризация",
@@ -8630,7 +8912,8 @@
   "unterlagen": {
     "pos": "noun",
     "ru": "Документы",
-    "en": "documents"
+    "en": "documents",
+    "gender": "pl"
   },
   "unternehmen": {
     "pos": "noun",
@@ -8653,6 +8936,11 @@
     "pos": "noun",
     "ru": "Разница",
     "en": "difference"
+  },
+  "unterschreiben": {
+    "pos": "verb",
+    "ru": "подписывать",
+    "en": "to sign"
   },
   "unterschrift": {
     "pos": "noun",
@@ -8780,6 +9068,12 @@
     "en": "club member",
     "gender": "n"
   },
+  "verfahrensfrist": {
+    "pos": "noun",
+    "ru": "процессуальный срок",
+    "en": "procedural deadline",
+    "gender": "f"
+  },
   "verfügung": {
     "pos": "noun",
     "ru": "выбытия",
@@ -8825,6 +9119,12 @@
     "ru": "транспортное сообщение",
     "en": "transport"
   },
+  "verlängerung": {
+    "pos": "noun",
+    "ru": "продление",
+    "en": "extension / renewal",
+    "gender": "f"
+  },
   "verlauf": {
     "pos": "noun",
     "ru": "течение (болезни)",
@@ -8866,6 +9166,12 @@
     "pos": "noun",
     "ru": "Питание",
     "en": "Meals"
+  },
+  "verpflichtungserklärung": {
+    "pos": "noun",
+    "ru": "обязательство / поручительство",
+    "en": "declaration of commitment",
+    "gender": "f"
   },
   "verschiebung": {
     "pos": "noun",
@@ -8930,6 +9236,30 @@
     "ru": "Замещение",
     "en": "Representation"
   },
+  "verwaltungsakt": {
+    "pos": "noun",
+    "ru": "административный акт",
+    "en": "administrative act",
+    "gender": "m"
+  },
+  "verwaltungsgericht": {
+    "pos": "noun",
+    "ru": "административный суд",
+    "en": "administrative court",
+    "gender": "n"
+  },
+  "verwaltungsverfahren": {
+    "pos": "noun",
+    "ru": "административное производство",
+    "en": "administrative procedure",
+    "gender": "n"
+  },
+  "verwaltungsvorschriften": {
+    "pos": "noun",
+    "ru": "административные предписания",
+    "en": "administrative regulations",
+    "gender": "pl"
+  },
   "verzögerung": {
     "pos": "noun",
     "ru": "замедление",
@@ -8975,6 +9305,12 @@
     "ru": "волейбол",
     "en": "volleyball",
     "gender": "m"
+  },
+  "vollmacht": {
+    "pos": "noun",
+    "ru": "доверенность",
+    "en": "power of attorney / authorization",
+    "gender": "f"
   },
   "vollzeit": {
     "pos": "noun",
@@ -9092,10 +9428,22 @@
     "ru": "ждать",
     "en": "waiting"
   },
+  "wartenummer": {
+    "pos": "noun",
+    "ru": "номерок в очереди",
+    "en": "queue number",
+    "gender": "f"
+  },
   "wartest": {
     "pos": "noun",
     "ru": "тест ожидания",
     "en": "to wait"
+  },
+  "wartezeit": {
+    "pos": "noun",
+    "ru": "время ожидания",
+    "en": "waiting time",
+    "gender": "f"
   },
   "wartezimmer": {
     "pos": "noun",
@@ -9236,6 +9584,24 @@
     "ru": "отзыв",
     "en": "revocation"
   },
+  "widerspruch": {
+    "pos": "noun",
+    "ru": "возражение / апелляция",
+    "en": "objection / appeal",
+    "gender": "m"
+  },
+  "widerspruchsbegründung": {
+    "pos": "noun",
+    "ru": "обоснование возражения",
+    "en": "statement of grounds for objection",
+    "gender": "f"
+  },
+  "widerspruchsverfahren": {
+    "pos": "noun",
+    "ru": "процедура рассмотрения возражения",
+    "en": "objection procedure",
+    "gender": "n"
+  },
   "wien": {
     "pos": "noun",
     "ru": "университет",
@@ -9282,6 +9648,18 @@
     "pos": "verb",
     "ru": "жить",
     "en": "to live"
+  },
+  "wohnort": {
+    "pos": "noun",
+    "ru": "место проживания",
+    "en": "place of residence",
+    "gender": "m"
+  },
+  "wohnsitz": {
+    "pos": "noun",
+    "ru": "место жительства",
+    "en": "residence / domicile",
+    "gender": "m"
   },
   "wohnsitzes": {
     "pos": "noun",
@@ -9573,6 +9951,30 @@
     "pos": "noun",
     "ru": "Состояние",
     "en": "entage"
+  },
+  "zuständigkeit": {
+    "pos": "noun",
+    "ru": "компетенция / подведомственность",
+    "en": "jurisdiction / responsibility",
+    "gender": "f"
+  },
+  "zustellnachweis": {
+    "pos": "noun",
+    "ru": "подтверждение вручения",
+    "en": "proof of delivery",
+    "gender": "m"
+  },
+  "zustellung": {
+    "pos": "noun",
+    "ru": "вручение / доставка",
+    "en": "delivery / service of documents",
+    "gender": "f"
+  },
+  "zustellungsurkunde": {
+    "pos": "noun",
+    "ru": "акт о вручении",
+    "en": "certificate of service",
+    "gender": "f"
   },
   "zweifel": {
     "pos": "noun",

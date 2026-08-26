@@ -103,6 +103,15 @@ export const VOCAB_SETS = {
         accent: '#5a5a9a',
       },
     },
+    {
+      key: 'BUEROKRATIE',
+      name: 'Bürokratie',
+      desc: 'Bürgeramt, Formular, Antrag, Termin, Behörde',
+      theme: {
+        tint: 'rgba(140, 150, 170, 0.14)',
+        accent: '#5a6278',
+      },
+    },
   ],
   B1: [
     {
@@ -142,6 +151,15 @@ export const VOCAB_SETS = {
         accent: '#4a4a8a',
       },
     },
+    {
+      key: 'BUEROKRATIE',
+      name: 'Bürokratie',
+      desc: 'Ausländerbehörde, Bescheid, Widerspruch, Unterlagen',
+      theme: {
+        tint: 'rgba(130, 140, 165, 0.14)',
+        accent: '#4a5268',
+      },
+    },
   ],
   B2: [
     {
@@ -179,6 +197,15 @@ export const VOCAB_SETS = {
       theme: {
         tint: 'rgba(150, 160, 220, 0.14)',
         accent: '#4a508a',
+      },
+    },
+    {
+      key: 'BUEROKRATIE',
+      name: 'Bürokratie',
+      desc: 'Verwaltungsakt, Rechtsmittel, Akteneinsicht, Verfahrensfrist',
+      theme: {
+        tint: 'rgba(120, 130, 160, 0.14)',
+        accent: '#3a4460',
       },
     },
   ],
