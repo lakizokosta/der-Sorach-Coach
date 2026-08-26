@@ -10,6 +10,8 @@ words:
   - er
   - Überstunden
   - gemacht
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

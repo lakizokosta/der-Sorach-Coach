@@ -12,6 +12,8 @@ words:
   - Sie
   - versichert
   - "?"
+commas:
+  - 0
 ---
 
 Ordne die Wörter zum richtigen Satz (Versicherung).

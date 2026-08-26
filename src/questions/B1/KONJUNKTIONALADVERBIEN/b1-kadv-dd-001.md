@@ -12,6 +12,8 @@ words:
   - wir
   - spazieren
   - gegangen
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

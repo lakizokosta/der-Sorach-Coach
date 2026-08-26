@@ -11,6 +11,8 @@ words:
   - arbeitet
   - er
   - weiter
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

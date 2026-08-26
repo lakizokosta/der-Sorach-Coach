@@ -10,8 +10,6 @@ words:
   - arbeitet
   - in
   - Berlin
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Vater)

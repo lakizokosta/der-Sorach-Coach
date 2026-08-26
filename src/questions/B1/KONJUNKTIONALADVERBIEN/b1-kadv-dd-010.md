@@ -11,6 +11,8 @@ words:
   - wir
   - gut
   - geschlafen
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

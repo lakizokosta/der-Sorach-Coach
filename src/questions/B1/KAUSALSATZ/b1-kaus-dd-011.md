@@ -10,6 +10,8 @@ words:
   - es
   - hat
   - geregnet
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

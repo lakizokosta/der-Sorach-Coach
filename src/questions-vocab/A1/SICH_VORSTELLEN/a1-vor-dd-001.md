@@ -12,9 +12,6 @@ words:
   - komme
   - aus
   - Italien
-commas:
-  - 2
-  - 6
 ---
 
 Ordne die Wörter: (Sich vorstellen)

@@ -10,8 +10,6 @@ words:
   - steht
   - im
   - Wohnzimmer
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Wohnzimmer)

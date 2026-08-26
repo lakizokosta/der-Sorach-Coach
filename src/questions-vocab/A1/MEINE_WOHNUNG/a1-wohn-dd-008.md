@@ -10,8 +10,6 @@ words:
   - gefällt
   - mir
   - sehr
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Meinung — gefallen)

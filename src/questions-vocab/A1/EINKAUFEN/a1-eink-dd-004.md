@@ -10,8 +10,6 @@ words:
   - an
   - der
   - Kasse
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Bezahlen)

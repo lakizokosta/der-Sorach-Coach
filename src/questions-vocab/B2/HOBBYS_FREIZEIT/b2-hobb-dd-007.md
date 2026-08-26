@@ -13,6 +13,8 @@ words:
   - im
   - Sportverein
   - .
+commas:
+  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz (Sportverein).

@@ -9,8 +9,6 @@ words:
   - kostet
   - das
   - Brot
-commas:
-  - 0
 ---
 
 Ordne die Wörter: (Nach dem Preis fragen)

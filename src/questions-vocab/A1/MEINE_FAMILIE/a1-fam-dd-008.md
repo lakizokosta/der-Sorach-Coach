@@ -12,9 +12,6 @@ words:
   - Cousine
   - spielen
   - gern
-commas:
-  - 2
-  - 5
 ---
 
 Ordne die Wörter: (Cousin und Cousine)

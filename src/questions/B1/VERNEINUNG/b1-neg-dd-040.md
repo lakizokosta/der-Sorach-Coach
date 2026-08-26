@@ -8,6 +8,8 @@ words:
   - krank
   - sondern
   - müde
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Verneinung)

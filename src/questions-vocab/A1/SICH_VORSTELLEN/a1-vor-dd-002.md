@@ -9,8 +9,6 @@ words:
   - wohne
   - in
   - München
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Wo wohnst du?)

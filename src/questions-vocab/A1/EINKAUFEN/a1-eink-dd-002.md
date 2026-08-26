@@ -10,8 +10,6 @@ words:
   - einen
   - Apfel
   - bitte
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (An der Theke)

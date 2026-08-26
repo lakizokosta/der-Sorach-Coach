@@ -13,7 +13,10 @@ import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
 import { resolveDropboxCommas } from '../src/utils/dropboxCommas.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const QROOT = join(ROOT, 'src', 'questions');
+const QROOTS = [
+  join(ROOT, 'src', 'questions'),
+  join(ROOT, 'src', 'questions-vocab'),
+];
 
 function* walk(dir) {
   for (const entry of readdirSync(dir)) {
@@ -24,8 +27,8 @@ function* walk(dir) {
   }
 }
 
-function patchDropboxFile(path) {
-  const rel = relative(QROOT, path);
+function patchDropboxFile(path, qroot) {
+  const rel = relative(qroot, path);
   const [level, topic] = rel.split(/[\\/]/);
   const raw = readFileSync(path, 'utf8');
   let q;
@@ -36,11 +39,17 @@ function patchDropboxFile(path) {
   }
   if (q.type !== 'dropbox' || !q.words?.length) return null;
 
-  const commas = resolveDropboxCommas({
+  const hint = q.hint || String(q.prompt || '').match(/\(([^)]+)\)\s*$/)?.[1] || '';
+  const inferred = resolveDropboxCommas({
     words: q.words,
-    commas: q.commas,
-    hint: q.hint || String(q.prompt || '').match(/\(([^)]+)\)\s*$/)?.[1] || '',
+    commas: undefined, // re-infer (ignore stale YAML)
+    hint,
   });
+  // Keep hand-authored commas only when inference finds nothing (edge Relativsatz etc.).
+  const existing = Array.isArray(q.commas)
+    ? q.commas.map(Number).filter((n) => Number.isInteger(n) && n >= 0)
+    : [];
+  const commas = inferred.length ? inferred : existing;
 
   const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n\n([\s\S]*)$/);
   if (!fmMatch) return null;
@@ -77,12 +86,18 @@ function patchDropboxFile(path) {
 
 let patched = 0;
 let withCommas = 0;
+let scanned = 0;
 
-for (const file of walk(QROOT)) {
-  const result = patchDropboxFile(file);
-  if (!result) continue;
-  if (result.commas > 0) withCommas += 1;
-  if (result.changed) patched += 1;
+for (const qroot of QROOTS) {
+  for (const file of walk(qroot)) {
+    const result = patchDropboxFile(file, qroot);
+    if (!result) continue;
+    scanned += 1;
+    if (result.commas > 0) withCommas += 1;
+    if (result.changed) patched += 1;
+  }
 }
 
-console.log(`Dropbox comma patch complete: ${patched} file(s) updated, ${withCommas} with comma positions.`);
+console.log(
+  `Dropbox comma patch complete: scanned ${scanned}, updated ${patched}, with commas ${withCommas}.`,
+);

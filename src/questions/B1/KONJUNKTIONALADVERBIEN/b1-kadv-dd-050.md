@@ -11,6 +11,8 @@ words:
   - die
   - Vorlesung
   - verpasst
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

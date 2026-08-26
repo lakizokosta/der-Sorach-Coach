@@ -13,6 +13,8 @@ words:
   - Freitag
   - erfolgen
   - .
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz (Nachreichung).

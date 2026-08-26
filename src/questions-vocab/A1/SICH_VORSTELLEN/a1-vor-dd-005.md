@@ -8,8 +8,6 @@ words:
   - Freut
   - mich
   - sehr
-commas:
-  - 1
 ---
 
 Ordne die Wörter: (Höfliche Antwort)

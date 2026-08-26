@@ -11,6 +11,8 @@ words:
   - Bus
   - kam
   - rechtzeitig
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

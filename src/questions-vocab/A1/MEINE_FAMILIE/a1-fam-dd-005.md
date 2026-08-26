@@ -10,9 +10,6 @@ words:
   - mit
   - unseren
   - Eltern
-commas:
-  - 2
-  - 4
 ---
 
 Ordne die Wörter: (Mit den Eltern wohnen)

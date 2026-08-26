@@ -11,9 +11,6 @@ words:
   - Milch
   - und
   - Käse
-commas:
-  - 2
-  - 5
 ---
 
 Ordne die Wörter: (Küche)

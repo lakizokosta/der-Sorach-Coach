@@ -1,6 +1,6 @@
 /**
  * Infer comma positions (0-based word indices) for dropbox sentence-building tasks.
- * Commas mark boundaries before/after subordinate clauses (Nebensätze).
+ * Commas mark boundaries between Hauptsätze / before Nebensätze.
  */
 
 const SUBORD_AT_0 = new Set([
@@ -22,7 +22,29 @@ const INDIRECT_Q = new Set([
   'welche', 'welcher', 'welches',
 ]);
 
+/** Coordinating connectors: always comma when not sentence-initial. */
+const COORD_COMMA = new Set(['aber', 'denn', 'sondern', 'doch']);
+
+/**
+ * Konjunktionaladverbien that open a second Hauptsatz with V2
+ * (…, trotzdem fahren wir …). Mid-clause use (Wir fahren trotzdem …) has no comma.
+ */
+const KONJ_ADV_V2 = new Set([
+  'trotzdem', 'dennoch', 'jedoch', 'allerdings', 'stattdessen', 'hingegen',
+  'deshalb', 'daher', 'deswegen', 'darum',
+  'außerdem', 'zudem', 'ferner',
+  'somit', 'folglich', 'demnach',
+  'dann', 'danach', 'sonst',
+]);
+
 const REL_PRON = new Set(['der', 'die', 'das', 'den', 'dem', 'dessen', 'deren', 'denen']);
+
+const REL_PREPS = new Set([
+  'in', 'an', 'auf', 'für', 'mit', 'von', 'bei', 'aus', 'nach', 'zu',
+  'über', 'unter', 'durch', 'ohne', 'um', 'gegen', 'seit',
+]);
+
+const PERSON = /^(ich|du|er|sie|es|wir|ihr|Sie|man)$/i;
 
 const MAIN_FINITE = new Set([
   'würde', 'würden', 'würdest', 'könnte', 'könnten', 'könntest', 'hätte', 'hätten', 'hättest',
@@ -51,6 +73,9 @@ const MAIN_FINITE = new Set([
   'kündigt', 'bleibe', 'geht', 'kommt', 'arbeitet', 'kocht', 'schläft', 'präsentiert',
   'diskutieren', 'telefoniert', 'trainiert', 'reist', 'sitzt', 'traf', 'planen', 'behandelt',
   'wohne', 'vertraue', 'gebucht', 'verabschiedet', 'danke', 'dauerte', 'stand', 'gibt',
+  'regnet', 'regnete', 'scheint', 'schneit', 'funktioniert', 'klappt', 'stimmt', 'passt',
+  'hilft', 'helfen', 'half', 'bekommt', 'bekommen', 'bekam', 'nimmt', 'nehmen',
+  'ruft', 'ruft', 'läuft', 'lief', 'schläft', 'schlafen', 'gewinnt', 'verliert',
 ]);
 
 /** @param {string} w */
@@ -61,6 +86,24 @@ function lw(w) {
 /** @param {string} w */
 function isMainFinite(w) {
   return MAIN_FINITE.has(lw(w));
+}
+
+/**
+ * Broad finite-verb guess for Konjunktionaladverb V2 (hilft, bleibt, …).
+ * @param {string} w
+ * @return {boolean}
+ */
+function looksLikeFiniteVerb(w) {
+  if (isMainFinite(w)) return true;
+  const s = lw(w);
+  if (!s || s.length < 4 || PERSON.test(s)) return false;
+  if (/^(nicht|mit|seit|laut|wert|erst|oft|jetzt|dort|hier|sonst|etwas|nichts|manchmal|heute|morgen|gestern)$/.test(s)) {
+    return false;
+  }
+  if (/^(der|die|das|den|dem|des|ein|eine|einer|einem|einen|eines)$/.test(s)) return false;
+  if (REL_PREPS.has(s)) return false;
+  return /(?:en|eln|ern|t|st|te|ten|test|tet)$/i.test(s)
+    && !/(?:heit|keit|ung|schaft|tion|ität|nis)$/i.test(s);
 }
 
 /**
@@ -88,12 +131,22 @@ function inferRelativsatzCommas(words) {
   for (let i = 1; i < words.length - 1; i++) {
     if (!REL_PRON.has(lw(words[i]))) continue;
     const before = words[i - 1];
-    if (!before || before === before.toLowerCase()) continue;
+    if (!before) continue;
 
-    const firstComma = i - 1;
+    let firstComma = -1;
+    // Die Stadt, in der ich wohne, …
+    if (REL_PREPS.has(lw(before)) && i >= 2) {
+      firstComma = i - 2;
+    } else if (before !== before.toLowerCase()) {
+      // Der Minister, dessen … / Die Professorin, die …
+      firstComma = i - 1;
+    } else {
+      continue;
+    }
+
     let relVerbIdx = -1;
     for (let j = i + 1; j < words.length; j++) {
-      if (isMainFinite(words[j])) {
+      if (looksLikeFiniteVerb(words[j])) {
         relVerbIdx = j;
         break;
       }
@@ -101,7 +154,7 @@ function inferRelativsatzCommas(words) {
     if (relVerbIdx === -1) continue;
 
     for (let k = relVerbIdx + 1; k < words.length; k++) {
-      if (isMainFinite(words[k])) {
+      if (looksLikeFiniteVerb(words[k])) {
         return [firstComma, relVerbIdx];
       }
     }
@@ -139,7 +192,18 @@ export function inferDropboxCommas(words, hint = '', explicit) {
 
   for (let i = 1; i < ws.length; i++) {
     const w = lw(ws[i]);
-    if (w === 'denn' || w === 'trotzdem' || w === 'aber' || w === 'dann') continue;
+
+    if (COORD_COMMA.has(w)) {
+      commas.add(i - 1);
+      continue;
+    }
+
+    // Es regnet, trotzdem fahren/hilft … — not: Wir fahren trotzdem …
+    if (KONJ_ADV_V2.has(w) && i + 1 < ws.length && looksLikeFiniteVerb(ws[i + 1])) {
+      commas.add(i - 1);
+      continue;
+    }
+
     if (SUBORD_EMBEDDED.has(w) || INDIRECT_Q.has(w)) {
       commas.add(i - 1);
     }

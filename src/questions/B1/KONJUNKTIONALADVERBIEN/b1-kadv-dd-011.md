@@ -10,6 +10,8 @@ words:
   - reagieren
   - die
   - Bürger
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

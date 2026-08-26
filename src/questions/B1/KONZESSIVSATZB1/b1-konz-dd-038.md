@@ -10,6 +10,8 @@ words:
   - bleibt
   - er
   - optimistisch
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — trotzdem)

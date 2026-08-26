@@ -11,8 +11,6 @@ words:
   - ein
   - großes
   - Bett
-commas:
-  - 3
 ---
 
 Ordne die Wörter: (Schlafzimmer)

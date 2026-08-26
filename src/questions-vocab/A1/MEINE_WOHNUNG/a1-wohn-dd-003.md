@@ -10,8 +10,6 @@ words:
   - ist
   - eine
   - Dusche
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Bad)

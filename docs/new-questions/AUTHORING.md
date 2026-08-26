@@ -214,6 +214,20 @@ focus: word
 - ✅ та же карточка → только тематический `hint` (напр. `Symptom`), без Infinitiv
 - Код: `src/utils/inputTextInfinitive.js`
 
+### 2026-08-26 — dropbox: запятая перед trotzdem / Konjunktionaladverbien
+- Симптом: `Es regnet trotzdem fahren wir…` без запятой в поле сборки (плитки `Es regnet` | `trotzdem` | …).
+- Причина: `inferDropboxCommas` пропускал `trotzdem`/`aber`/`denn`/`dann`.
+- Правило:
+  1. Между двумя Hauptsätzen перед Konjunktionaladverb с V2 (`trotzdem fahren wir`, `deshalb bleibt er`) — запятая (`commas` = индекс слова **перед** коннектором).
+  2. Mid-clause (`wir fahren trotzdem …`) — **без** запятой.
+  3. `aber` / `denn` / `sondern` между частями — запятая.
+  4. Relativsatz с `in der` / `für die`: запятые вокруг придаточного (`Die Stadt, in der ich wohne, ist klein`).
+- Патч банка: `node scripts/patch-dropbox-commas.mjs` (questions + questions-vocab).
+- ❌ `Es regnet trotzdem fahren wir in den Urlaub.`
+- ✅ `Es regnet, trotzdem fahren wir in den Urlaub.`
+- Код: `src/utils/dropboxCommas.js`, UI: `DragDrop.vue` (`dd-comma`)
+
+
 ### 2026-08-21 — dropbox: «?» у всех прямых вопросов (не только W-Fragen)
 - Симптом: Ja/Nein-вопрос в dropbox без `?` (`Kann ich das auf den Tisch legen ja gern`) — ученик не видит, что это вопрос; раньше авто-`?` работал только для темы `W-FRAGEN`.
 - Правило:

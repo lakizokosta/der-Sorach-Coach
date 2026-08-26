@@ -17,8 +17,13 @@ alwaysApply: false
 - Вопросительное предложение: отдельная плитка `?` в конце `words` (или после вопроса в мини-диалоге Frage+Antwort: `… ? Ja … .`).
 - Утверждение / императив: отдельная плитка `.` в конце `words`.
 - В UI знаки `.?!` фиксируются автоматически и **не** входят в банк перетаскиваемых чипов (`DragDrop.vue` + `questionPunctuation.js`).
+- Запятые между Hauptsätzen / перед Nebensatz: поле `commas` (0-based индекс слова, **после** которого ставится `,`) или авто-инференс в `dropboxCommas.js`.
+  - `obwohl/weil/wenn/…` → запятая перед союзом / после Nebensatz.
+  - `trotzdem/deshalb/jedoch/…` + V2 (`…, trotzdem fahren wir`) → запятая; mid-clause (`wir fahren trotzdem …`) → без запятой.
+  - `aber/denn/sondern` между частями → запятая.
 - Инструкция: `Ordne die Wörter zum richtigen Satz (Thema).`
 - Runtime дописывает `?` для прямых Ja/Nein- и W-вопросов, если знака нет в файле (не только тема `W-FRAGEN`).
+- После правок инференса: `node scripts/patch-dropbox-commas.mjs`
 
 ## text-gaps / multi-select
 - `text-gaps`: сначала Vorgeschichte, затем реплики с `___`; ответ только из контекста предистории.

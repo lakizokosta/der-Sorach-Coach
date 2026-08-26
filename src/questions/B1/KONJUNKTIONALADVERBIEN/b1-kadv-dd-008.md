@@ -10,6 +10,8 @@ words:
   - ist
   - er
   - müde
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

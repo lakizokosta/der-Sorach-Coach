@@ -11,8 +11,6 @@ words:
   - einer
   - kleinen
   - Wohnung
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Wohnung)

@@ -11,7 +11,7 @@ words:
   - einem
   - Jahr
 commas:
-  - 4
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

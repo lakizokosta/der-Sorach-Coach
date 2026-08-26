@@ -10,8 +10,6 @@ words:
   - ist
   - heute
   - geöffnet
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Öffnungszeiten)

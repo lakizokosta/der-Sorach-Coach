@@ -12,6 +12,8 @@ words:
   - Tagen
   - Husten
   - .
+commas:
+  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz (Symptom + Dauer).
