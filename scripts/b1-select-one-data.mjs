@@ -261,21 +261,21 @@ export function genKonditionalsatz() {
 
 export function genKonzessivsatzB1() {
   const items = [
-    ['___ er wenig schläft, arbeitet er sehr produktiv.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Damit']],
-    ['Sie geht joggen, ___ es kalt ist.', 'obwohl', ['weil', 'deshalb', 'dass', 'damit']],
-    ['___ das Essen teuer war, hat es gut geschmeckt.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ er wenig schläft, arbeitet er sehr produktiv.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
+    ['Sie geht joggen, ___ es kalt ist.', 'obwohl', ['weil', 'deshalb', 'dass', 'trotzdem']],
+    ['___ das Essen teuer war, hat es gut geschmeckt.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Er ist müde; ___ hat er Überstunden gemacht.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ die Prüfung schwer war, hat sie bestanden.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ die Prüfung schwer war, hat sie bestanden.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Das Projekt ist schwierig; ___ geben wir nicht auf.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ er kein Auto hat, kommt er immer pünktlich.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ er kein Auto hat, kommt er immer pünktlich.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Die Nachrichten sind negativ, ___ bleibt er optimistisch.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ das Medikament teuer ist, kauft er es.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ das Medikament teuer ist, kauft er es.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Es regnet, ___ fahren wir in den Urlaub.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ die Politik umstritten ist, diskutieren viele Menschen.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ die Politik umstritten ist, diskutieren viele Menschen.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Sie hat wenig Zeit, ___ hilft sie uns.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ die Vorlesung lang war, war sie interessant.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ die Vorlesung lang war, war sie interessant.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Der Verkehr ist schlimm, ___ kommt er rechtzeitig an.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ die Umwelt belastet ist, reisen viele weiter viel.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ die Umwelt belastet ist, reisen viele weiter viel.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
   ];
   return ensure50(() => {
     const out = [];

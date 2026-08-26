@@ -4,7 +4,7 @@ type: select-one
 options:
   - Weil
   - Obwohl
-  - Damit
+  - Trotzdem
   - Dass
 correct: Obwohl
 ---

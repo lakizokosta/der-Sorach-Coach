@@ -2,7 +2,7 @@
 id: b1-konz-017
 type: select-one
 options:
-  - damit
+  - trotzdem
   - deshalb
   - dass
   - obwohl

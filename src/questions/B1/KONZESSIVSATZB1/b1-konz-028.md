@@ -5,7 +5,7 @@ options:
   - Deshalb
   - Obschon
   - Weil
-  - Dass
+  - Trotzdem
 correct: Obschon
 ---
 

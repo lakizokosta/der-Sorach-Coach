@@ -227,6 +227,16 @@ focus: word
 - ✅ `Es regnet, trotzdem fahren wir in den Urlaub.`
 - Код: `src/utils/dropboxCommas.js`, UI: `DragDrop.vue` (`dd-comma`)
 
+### 2026-08-26 — KONZESSIVSATZB1 select-one: оба коннектора темы в options
+- Симптом: в `select-one` только один коннектор темы (`Obwohl` среди Damit/Dass/Deshalb/Weil) — `trotzdem` отсутствует, тема выглядит однобоко.
+- Правило: в options KONZESSIV всегда держать контраст **obwohl/obschon** ↔ **trotzdem** (плюс 1–2 внетематических дистрактора вроде weil/deshalb/dass).
+  - Верный ответ по слоту не менять: `___ … Verb-end` → obwohl/obschon; `…, ___ V2` → trotzdem.
+  - `trotzdem` как дистрактор при obwohl-щели — ок (не открывает Nebensatz).
+- ❌ options: `[Deshalb, Dass, Damit, Obwohl]`
+- ✅ options: `[Deshalb, Dass, Trotzdem, Obwohl]`
+- Статус: применено к **37** select-one в `src/questions/B1/KONZESSIVSATZB1/`.
+
+
 
 ### 2026-08-21 — dropbox: «?» у всех прямых вопросов (не только W-Fragen)
 - Симптом: Ja/Nein-вопрос в dropbox без `?` (`Kann ich das auf den Tisch legen ja gern`) — ученик не видит, что это вопрос; раньше авто-`?` работал только для темы `W-FRAGEN`.

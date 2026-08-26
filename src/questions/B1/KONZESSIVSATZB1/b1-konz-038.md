@@ -5,7 +5,7 @@ options:
   - weil
   - dass
   - trotzdem
-  - damit
+  - obwohl
 correct: trotzdem
 ---
 

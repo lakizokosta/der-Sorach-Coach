@@ -3,7 +3,7 @@ id: b1-konz-016
 type: select-one
 options:
   - Deshalb
-  - Dass
+  - Trotzdem
   - Obwohl
   - Weil
 correct: Obwohl
