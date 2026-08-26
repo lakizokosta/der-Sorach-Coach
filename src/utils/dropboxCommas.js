@@ -76,6 +76,8 @@ const MAIN_FINITE = new Set([
   'regnet', 'regnete', 'scheint', 'schneit', 'funktioniert', 'klappt', 'stimmt', 'passt',
   'hilft', 'helfen', 'half', 'bekommt', 'bekommen', 'bekam', 'nimmt', 'nehmen',
   'ruft', 'ruft', 'läuft', 'lief', 'schläft', 'schlafen', 'gewinnt', 'verliert',
+  'blieb', 'bleiben', 'sah', 'lag', 'saß', 'sprach', 'schrieb', 'hielt', 'rief',
+  'begann', 'gewann', 'verlor', 'trank', 'flog', 'zog', 'wuchs', 'schien',
 ]);
 
 /** @param {string} w */
@@ -89,7 +91,7 @@ function isMainFinite(w) {
 }
 
 /**
- * Broad finite-verb guess for Konjunktionaladverb V2 (hilft, bleibt, …).
+ * Broad finite-verb guess for Konjunktionaladverb V2 (hilft, bleibt, blieb …).
  * @param {string} w
  * @return {boolean}
  */
@@ -104,6 +106,33 @@ function looksLikeFiniteVerb(w) {
   if (REL_PREPS.has(s)) return false;
   return /(?:en|eln|ern|t|st|te|ten|test|tet)$/i.test(s)
     && !/(?:heit|keit|ung|schaft|tion|ität|nis)$/i.test(s);
+}
+
+/**
+ * True when sentence-initial als/seit/… opens a Nebensatz (not Als Abgeordneter / Seit dem …).
+ * @param {string[]} words
+ * @return {boolean}
+ */
+function opensWithSubordinateClause(words) {
+  const first = lw(words[0] || '');
+  if (K2_V1_STARTERS.has(first)) return true;
+  if (!SUBORD_AT_0.has(first)) return false;
+
+  const second = String(words[1] || '');
+  const secondLw = lw(second);
+
+  // Seit dem Konzert … / Bis zum … — preposition + article
+  if ((first === 'seit' || first === 'seitdem' || first === 'bis' || first === 'während')
+    && /^(der|die|das|dem|den|des|einem|einer|eines|zum|zur)$/i.test(secondLw)) {
+    return false;
+  }
+
+  // Als Abgeordneter … — als = in the role of + capitalized noun
+  if (first === 'als' && second && second[0] === second[0].toUpperCase() && !PERSON.test(second)) {
+    return false;
+  }
+
+  return true;
 }
 
 /**
@@ -185,7 +214,7 @@ export function inferDropboxCommas(words, hint = '', explicit) {
   }
 
   const first = lw(ws[0]);
-  if (SUBORD_AT_0.has(first) || K2_V1_STARTERS.has(first)) {
+  if (opensWithSubordinateClause(ws)) {
     const c = commaAfterV1Subordinate(ws);
     if (c !== null && c >= 0) commas.add(c);
   }

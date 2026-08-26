@@ -60,11 +60,24 @@ describe('resolveDropboxCommas', () => {
     ).toEqual([1, 5]);
   });
 
-  it('does not add comma for trotzdem auf Reisen (mid-clause)', () => {
+  it('adds comma before dennoch blieb (strong past finite)', () => {
     expect(
       resolveDropboxCommas({
-        words: ['Trotz', 'der', 'hohen', 'Kosten', 'gehen', 'wir', 'trotzdem', 'auf', 'Reisen'],
-        hint: 'Genitiv-Präposition',
+        words: ['Das', 'Essen', 'war', 'teuer', 'dennoch', 'blieb', 'die', 'Qualität', 'hoch'],
+        hint: 'Konjunktionaladverb',
+      }),
+    ).toEqual([3]);
+  });
+
+  it('does not treat Als Abgeordneter / Seit dem as Nebensatz openers', () => {
+    expect(
+      resolveDropboxCommas({
+        words: ['Als', 'Abgeordneter', 'haben', 'Sie', 'ein', 'dickes', 'Fell', '.'],
+      }),
+    ).toEqual([]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Seit', 'dem', 'Konzert', 'haben', 'Sie', 'einen', 'Ohrwurm', '.'],
       }),
     ).toEqual([]);
   });
