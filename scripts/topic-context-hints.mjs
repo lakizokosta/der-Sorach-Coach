@@ -79,6 +79,7 @@ export const TOPIC_FORM_HINT = {
   INDIREKTEREDE: 'Indirekte Rede',
   RELATIVSATZB1: 'Relativpronomen',
   RELATIVSATZB2: 'Relativpronomen',
+  RELATIVSATZERWEITERTB2: 'Relativsatz (Präp. / was / wo)',
   'N-DEKLINATION': 'N-Deklination',
   INDEFINITPRONOMEN: 'Indefinitpronomen',
   DEMONSTRATIVARTIKEL: 'Demonstrativartikel',

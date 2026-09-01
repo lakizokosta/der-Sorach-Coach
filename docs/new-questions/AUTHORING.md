@@ -236,6 +236,14 @@ focus: word
 - ✅ options: `[Deshalb, Dass, Trotzdem, Obwohl]`
 - Статус: применено к **37** select-one в `src/questions/B1/KONZESSIVSATZB1/`.
 
+### 2026-09-01 — Relativsatz wo(r)- / was: однозначность + Falle „das“
+- Симптом (`RELATIVSATZERWEITERTB2`): input принимает только одну wo(r)-форму, хотя глагол допускает две (`gesprochen haben` → `worüber`/`wovon`; `stammt` → `wovon`/`woraus`); у части `was`-select-one нет дистрактора `das`; `Ursache, wodurch…` педагогически криво; клон *Land, aus ___ stammt* с Relativsätze I.
+- Правило:
+  1. Глагол/контекст для wo(r)- должен однозначно тянуть одну форму (`austauschen über` → `worüber`; `ausgehen von` → `wovon`; `anreisen` → `woher`) **или** перечислить все допустимые в `correct:`.
+  2. Во всех `was`-select-one всегда включать дистрактор **`das`**.
+  3. Антецедент для `wodurch` — событие/средство (`Unfall`, `Maßnahme`), не `Ursache`.
+  4. Не копировать стемы из `RELATIVSATZB2` дословно.
+- Источник: `scripts/b2-relativ-erweitert-data.mjs` → `node scripts/generate-b2-relativ-erweitert.mjs --force`
 
 
 ### 2026-08-21 — dropbox: «?» у всех прямых вопросов (не только W-Fragen)

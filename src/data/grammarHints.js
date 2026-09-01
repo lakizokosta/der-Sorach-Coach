@@ -419,6 +419,11 @@ export const GRAMMAR_HINTS = {
     RU: 'was после alles/nichts/etwas. wer/wen/wem без антецедента. wo для мест. wo(r)+предлог.',
     EN: 'was after alles/nichts/etwas. wer/wen/wem without antecedent. wo for places. wo(r)+prep.',
   },
+  RELATIVSATZERWEITERTB2: {
+    DE: 'Präp. + Relativpronomen (mit dem, in der…). was nach alles/nichts/etwas/Superlativ. wo / wohin / woher / worauf / womit / wodurch… Genitiv: dessen / deren.',
+    RU: 'Предлог + относительное местоимение. was после alles/nichts/etwas. wo / worauf / womit… Genitiv: dessen / deren.',
+    EN: 'Prep. + relative pronoun. was after alles/nichts/etwas. wo / worauf / womit… Genitive: dessen / deren.',
+  },
   TEKAMOLO: {
     DE: 'Reihenfolge: Temporal, Kausal, Modal, Lokal. Zeit VOR Ort! Pronomen stehen davor.',
     RU: 'Порядок: Temporal, Kausal, Modal, Lokal. ВРЕМЯ перед МЕСТОМ!',

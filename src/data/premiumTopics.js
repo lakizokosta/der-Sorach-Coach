@@ -96,6 +96,7 @@ export const PREMIUM_TOPICS = {
     { key: 'PASSIVERSATZ',                  name: 'Passiversatz',               desc: 'sich lassen, sein + zu' },
     { key: 'REDEWENDUNGEN',                 name: 'Redewendungen',              desc: 'idiomatische Ausdrücke' },
     { key: 'RELATIVSATZB2',                 name: 'Relativsätze',               desc: 'komplexe Relativkonstruktionen' },
+    { key: 'RELATIVSATZERWEITERTB2',         name: 'Relativsätze II',            desc: 'Präpositionen, was, wo(r)-, Genitiv' },
     { key: 'TEKAMOLO',                      name: 'TeKaMoLo',                   desc: 'Temporal, Kausal, Modal, Lokal' },
     { key: 'TEMPORALERNEBENSATZ',           name: 'Temporale Nebensätze',       desc: 'nachdem, bevor, seitdem' },
     { key: 'QUIZ',                          name: 'Quiz',                       desc: 'gemischte B2-Aufgaben' },

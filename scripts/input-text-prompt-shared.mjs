@@ -89,6 +89,7 @@ export const TASK_INSTRUCTION = {
   INDIREKTEREDE: 'Ergänze die Form (Indirekte Rede):',
   RELATIVSATZB1: 'Ergänze das Relativpronomen:',
   RELATIVSATZB2: 'Ergänze das Relativpronomen:',
+  RELATIVSATZERWEITERTB2: 'Ergänzen Sie das Relativpronomen bzw. Relativadverb:',
   KAUSALSATZ: 'Ergänze die Konjunktion (Kausal):',
   KONDITIONALSATZ: 'Ergänze die Konjunktion (Konditional):',
   KONZESSIVSATZB1: 'Ergänze die Konjunktion (Konzessiv):',
