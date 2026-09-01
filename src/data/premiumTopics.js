@@ -63,6 +63,7 @@ export const PREMIUM_TOPICS = {
     { key: 'NOMENPRÄPOSITIONVERBINDUNGB1',  name: 'Nomen-Präposition',      desc: 'Interesse an' },
     { key: 'PASSIVB1',                      name: 'Passiv',                 desc: 'werden + Partizip II' },
     { key: 'PERFEKTB1',                     name: 'Perfekt',                desc: 'Vertiefung' },
+    { key: 'PLUSQUAMPERFEKTB1',              name: 'Plusquamperfekt',        desc: 'hatte/war + Partizip II; nachdem, bevor, als' },
     { key: 'PRÄPOSITIONENGENITIVB1',        name: 'Genitiv-Präpositionen',  desc: 'trotz, während' },
     { key: 'PRÄPOSITIONALERGÄNZUNG',        name: 'Präpositionalergänzung', desc: 'warten auf' },
     { key: 'PRÄPOSITIONALADVERBIEN',        name: 'Pronominaladverbien',    desc: 'darauf, daran' },

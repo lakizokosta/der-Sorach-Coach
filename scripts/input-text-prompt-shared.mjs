@@ -110,6 +110,7 @@ export const TASK_INSTRUCTION = {
   NOMENPRÄPOSITIONVERBINDUNGB1: 'Ergänze die passende Präposition:',
   DEMONSTRATIVARTIKEL: 'Ergänze den Demonstrativartikel:',
   PERFEKTB1: 'Ergänze die Perfektform:',
+  PLUSQUAMPERFEKTB1: 'Ergänze die Plusquamperfektform bzw. Konjunktion:',
   TRENNBAREVERBENB1: 'Ergänze die Verbform (trennbares Verb):',
   VERNEINUNG: 'Ergänze die Verneinung:',
   VERBNOMENVERBINDUNGB1: 'Ergänze die Verb-Nomen-Verbindung:',

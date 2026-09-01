@@ -287,6 +287,11 @@ export const GRAMMAR_HINTS = {
     RU: 'Отделяемые: ge- между приставкой и корнем. Неотделяемые: БЕЗ ge-. -ieren: БЕЗ ge-.',
     EN: 'Separable: ge- between prefix and stem. Non-separable: NO ge-. -ieren: NO ge-.',
   },
+  PLUSQUAMPERFEKTB1: {
+    DE: 'Plusquamperfekt = hatte/war + Partizip II (Vorzeitigkeit). Typisch nach nachdem. Auch mit bevor/als: Vorzeitigkeit im Hauptsatz.',
+    RU: 'Plusquamperfekt = hatte/war + Partizip II (предшествование). Типично после nachdem. Также с bevor/als.',
+    EN: 'Plusquamperfekt = hatte/war + past participle (anteriority). Typical after nachdem; also with bevor/als.',
+  },
   PRÄPOSITIONENGENITIVB1: {
     DE: 'wegen, trotz, während, statt, aufgrund, innerhalb, außerhalb. Mask./neutr.: des+(e)s. Fem./pl.: der.',
     RU: 'wegen, trotz, während, statt, aufgrund. Муж./ср.: des+(e)s. Жен./мн.: der.',

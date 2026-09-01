@@ -245,6 +245,15 @@ focus: word
   4. Не копировать стемы из `RELATIVSATZB2` дословно.
 - Источник: `scripts/b2-relativ-erweitert-data.mjs` → `node scripts/generate-b2-relativ-erweitert.mjs --force`
 
+### 2026-09-01 — Plusquamperfekt B1: реальный Plq + артикли + однозначный союз
+- Симптом (`PLUSQUAMPERFEKTB1`): *hatte er schon eine neue Stelle* без Partizip II; телеграф в DD (*Chef Unterlagen*, *Polizei…Diebe*); в options рядом *Bevor* и *Als* (оба возможны).
+- Правило:
+  1. Plusquamperfekt = **Hilfsverb + Partizip II** (не *hatte* + NP владения).
+  2. В gap и dropbox — полные артикли; без телеграфных Nomen.
+  3. В `select-one` на Konjunktion не ставить конкурирующие темпоральные (*Nachdem* / *Bevor* / *Als*) в одном пуле — дистракторы *Weil/Obwohl/Damit/Während*.
+  4. Dropbox: одна запятая (NS, HS); слова-уники (без дублей чипов).
+- Источник: `scripts/b1-plusquamperfekt-data.mjs` → `node scripts/generate-b1-plusquamperfekt.mjs --force`
+
 
 ### 2026-08-21 — dropbox: «?» у всех прямых вопросов (не только W-Fragen)
 - Симптом: Ja/Nein-вопрос в dropbox без `?` (`Kann ich das auf den Tisch legen ja gern`) — ученик не видит, что это вопрос; раньше авто-`?` работал только для темы `W-FRAGEN`.
