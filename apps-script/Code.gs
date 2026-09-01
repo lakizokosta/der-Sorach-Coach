@@ -1523,16 +1523,16 @@ function verifyTrainingAccess_(body) {
   const deviceId = String(body.deviceId || '').trim();
 
   if (email && sessionToken) {
-    if (!validateMagicSession_(email, sessionToken)) {
-      return { ok: false, error: 'Session abgelaufen' };
+    if (validateMagicSession_(email, sessionToken)) {
+      const ent = getEntitlementsForEmail_(email);
+      if (!ent.isPremium) return { ok: false, error: 'Premium erforderlich' };
+      return {
+        ok: true,
+        isPremium: true,
+        trainingJwt: issueTrainingJwt_({ premium: true, email: email }),
+      };
     }
-    const ent = getEntitlementsForEmail_(email);
-    if (!ent.isPremium) return { ok: false, error: 'Premium erforderlich' };
-    return {
-      ok: true,
-      isPremium: true,
-      trainingJwt: issueTrainingJwt_({ premium: true, email: email }),
-    };
+    // Fall through: sessionToken may belong to a code session, not magic-link.
   }
 
   if (code && sessionToken) {

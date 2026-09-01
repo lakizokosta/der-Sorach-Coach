@@ -506,17 +506,23 @@ export async function revalidateOnLoad() {
 }
 
 /**
- * Credentials for premium API requests (activation code + code session).
+ * Credentials for premium API requests (activation code + sessions).
+ *
+ * Magic-link sessions live in `useAuth`; code sessions live in sessionStorage.
+ * The Worker checks `email + sessionToken` as a magic session first — so when
+ * an e-mail is present we must send the magic token, not the code token.
  *
  * @return {{premiumCode:string, basisCode:string, email:string, sessionToken:string, trainingJwt:string}}
  */
 export function getPremiumRequestContext() {
   const { state: auth } = useAuth();
+  const magicSession = String(auth.sessionToken || '').trim();
+  const codeSession = readSessionToken();
   return {
     premiumCode: state.premiumCode,
     basisCode: state.basisCode,
     email: auth.email || '',
-    sessionToken: readSessionToken(),
+    sessionToken: magicSession || codeSession,
     trainingJwt,
   };
 }

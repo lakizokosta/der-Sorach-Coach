@@ -106,22 +106,33 @@ export function buildProgressiveOrder(pools) {
  */
 export async function buildPlacementQuestions(authCtx = null) {
   if (hasBackend() && authCtx) {
-    const pools = Object.fromEntries(
-      await Promise.all(
-        PLACEMENT_LEVELS.map(async (lvl) => {
-          const questions = await loadPremiumQuestions({
-            level: lvl,
-            limit: PLACEMENT_PER_LEVEL + 40,
-            premiumCode: authCtx.premiumCode,
-            basisCode: authCtx.basisCode,
-            email: authCtx.email,
-            sessionToken: authCtx.sessionToken,
-          });
-          return [lvl, pickRandomFromPool(questions, PLACEMENT_PER_LEVEL)];
-        }),
-      ),
-    );
-    return buildProgressiveOrder(pools);
+    try {
+      const pools = Object.fromEntries(
+        await Promise.all(
+          PLACEMENT_LEVELS.map(async (lvl) => {
+            const questions = await loadPremiumQuestions({
+              level: lvl,
+              limit: PLACEMENT_PER_LEVEL + 40,
+              premiumCode: authCtx.premiumCode,
+              basisCode: authCtx.basisCode,
+              email: authCtx.email,
+              sessionToken: authCtx.sessionToken,
+              trainingJwt: authCtx.trainingJwt,
+            });
+            return [lvl, pickRandomFromPool(questions, PLACEMENT_PER_LEVEL)];
+          }),
+        ),
+      );
+      for (const lvl of PLACEMENT_LEVELS) {
+        if (!pools[lvl] || pools[lvl].length < PLACEMENT_PER_LEVEL) {
+          throw new Error(`placement: not enough server questions for ${lvl}`);
+        }
+      }
+      return buildProgressiveOrder(pools);
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error('[placement] server load failed — falling back to local bank', err);
+    }
   }
 
   const pools = Object.fromEntries(

@@ -1029,6 +1029,7 @@ watch(lastAnswerResolved, (resolved) => {
     <LzdLogo />
     <h2>{{ t('trainer.noQuestions') }}</h2>
     <p v-if="schwaechenMode">{{ t('schwaechen.bodyNoErrors') }}</p>
+    <p v-else-if="placementMode">{{ t('trainer.noQuestionsLevel') }}</p>
     <p v-else>{{ t('trainer.noQuestionsTopic') }}</p>
     <button class="soft-btn" type="button" @click="exitSession">{{ t('trainer.back') }}</button>
   </div>
