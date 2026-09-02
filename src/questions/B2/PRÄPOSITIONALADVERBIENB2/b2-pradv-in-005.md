@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-005
 type: input-text
-hint: Pronominaladverb — haben / habt / hat / hättet
+hint: Pronominaladverb — Präp. an
 correct:
-  - habt
+  - daran
 ---
 
 Ergänze das Pronominaladverb:
 
-Worüber ___ ihr gestern gesprochen?
+Erinnerst du dich noch an das Gespräch? — Ich erinnere mich noch gut ___.

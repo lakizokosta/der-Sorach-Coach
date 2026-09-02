@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-018
 type: input-text
-hint: Pronominaladverb — beziehen / beziehst / bezieht / bezog
+hint: Pronominaladverb — Präp. über
 correct:
-  - bezieht
+  - darüber
 ---
 
 Ergänze das Pronominaladverb:
 
-Worauf ___ sich Ihre Kritik?
+Ärgerst du dich über die Entscheidung? — Ich ärgere mich ___.

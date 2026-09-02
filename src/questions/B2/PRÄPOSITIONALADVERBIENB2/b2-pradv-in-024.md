@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-024
 type: input-text
-hint: Pronominaladverb — erkannt / erkannte / erkennen / erkennt
+hint: Pronominaladverb — Präp. auf
 correct:
-  - erkennt
+  - Worauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Hieran ___ man die Qualität.
+Sie achten besonders auf die Formalia. — ___ achten Sie besonders?

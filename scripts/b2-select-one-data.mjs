@@ -311,24 +311,35 @@ export function genPraepositionenGenitiv() {
 }
 
 export function genPraepositionaleAdverbienB2() {
+  // Gap = Pronominaladverb (da-/wo-), never the verb. First clause pins the Präposition.
+  const da = ['darauf', 'daran', 'dafür', 'darüber', 'damit', 'darin', 'davon', 'dabei'];
+  const wo = ['Worauf', 'Woran', 'Womit', 'Worüber', 'Worin'];
   return bank([
-    ['Worauf ___ sich Ihre Kritik?', 'bezieht', ['beziehen', 'beziehst', 'bezog', 'bezogen']],
-    ['Ich denke oft daran, wie es ___ war.', 'früher', ['früh', 'frühest', 'frühe', 'frühes']],
-    ['Womit ___ du dein Studium?', 'finanzierst', ['finanzier', 'finanziert', 'finanzierte', 'finanzieren']],
-    ['Darauf ___ ich mich schon lange.', 'freue', ['freuen', 'freust', 'freute', 'gefreut']],
-    ['Worüber ___ ihr gestern gesprochen?', 'habt', ['hat', 'haben', 'hattet', 'hättet']],
-    ['Damit ___ ich nichts anfangen.', 'kann', ['können', 'konntet', 'könnte', 'gekonnt']],
-    ['Hieran ___ man die Qualität.', 'erkennt', ['erkennen', 'erkennst', 'erkannte', 'erkannt']],
-    ['Daran ___ ich mich noch gut.', 'erinnere', ['erinnern', 'erinnerst', 'erinnerte', 'erinnert']],
-    ['Worin ___ der Unterschied?', 'besteht', ['bestehen', 'bestehst', 'bestand', 'bestanden']],
-    ['Darauf ___ wir uns geeinigt.', 'haben', ['hat', 'hatte', 'hätten', 'habt']],
-    ['Woran ___ du bei der Entscheidung?', 'denkst', ['denken', 'denke', 'dachte', 'gedacht']],
-    ['Hierauf ___ die ganze Argumentation.', 'baut', ['bauen', 'baust', 'baute', 'gebaut']],
-    ['Damit ___ er sein ganzes Leben.', 'hat', ['haben', 'hatte', 'hätte', 'habt']],
-    ['Worauf ___ Sie besonders?', 'achten', ['achtet', 'achte', 'achtete', 'geachtet']],
-    ['Daran ___ nichts zu ändern.', 'ist', ['sind', 'war', 'wäre', 'sein']],
-    ['Womit ___ man das Problem?', 'löst', ['lösen', 'löstest', 'löste', 'gelöst']],
-    ['Darauf ___ ich nicht.', 'warte', ['warten', 'wartest', 'wartete', 'gewartet']],
+    ['Bezieht sich Ihre Kritik auf den Bericht? — Ja, sie bezieht sich ___.', 'darauf', da],
+    ['Freust du dich schon lange auf die Premiere? — Ich freue mich schon lange ___.', 'darauf', da],
+    ['Habt ihr gestern über die Reform gesprochen? — Ja, wir haben ___ gesprochen.', 'darüber', da],
+    ['Kannst du mit dem Vorschlag etwas anfangen? — Nein, ich kann ___ nichts anfangen.', 'damit', da],
+    ['Erinnerst du dich noch an das Gespräch? — Ich erinnere mich noch gut ___.', 'daran', da],
+    ['Der Unterschied liegt in der Methode. — Der Unterschied besteht ___.', 'darin', da],
+    ['Habt ihr euch auf einen Termin geeinigt? — Ja, wir haben uns ___ geeinigt.', 'darauf', da],
+    ['Denkst du bei der Entscheidung an die Risiken? — Ja, ich denke ___.', 'daran', da],
+    ['Baut die Argumentation auf dieser These? — Ja, sie baut ___.', 'darauf', da],
+    ['Achten Sie besonders auf die Formalia? — Ja, wir achten besonders ___.', 'darauf', da],
+    ['Löst man das Problem mit einem Kompromiss? — Ja, man löst es ___.', 'damit', da],
+    ['Wartest du auf eine Antwort der Behörde? — Ich warte ___.', 'darauf', da],
+    ['Hat er sein ganzes Leben mit diesem Glauben verbracht? — Ja, er hat ___ sein ganzes Leben verbracht.', 'damit', da],
+    ['Interessierst du dich für das Forschungsthema? — Ich interessiere mich ___.', 'dafür', da],
+    ['Glaubst du an den neuen Plan? — Ich glaube ___.', 'daran', da],
+    ['Hältst du viel von dem Vorschlag? — Ich halte wenig ___.', 'davon', da],
+    ['Hilfst du bei dem Forschungsprojekt? — Ja, ich helfe ___.', 'dabei', da],
+    ['Ärgerst du dich über die Entscheidung? — Ich ärgere mich ___.', 'darüber', da],
+    ['Ihre Kritik bezieht sich auf den Bericht. — ___ bezieht sich Ihre Kritik?', 'Worauf', wo],
+    ['Du finanzierst dein Studium mit einem Stipendium. — ___ finanzierst du dein Studium?', 'Womit', wo],
+    ['Ihr habt gestern über die Reform gesprochen. — ___ habt ihr gestern gesprochen?', 'Worüber', wo],
+    ['Der Unterschied besteht in der Methode. — ___ besteht der Unterschied?', 'Worin', wo],
+    ['Du denkst bei der Entscheidung an die Risiken. — ___ denkst du bei der Entscheidung?', 'Woran', wo],
+    ['Sie achten besonders auf die Formalia. — ___ achten Sie besonders?', 'Worauf', wo],
+    ['Man löst das Problem mit einem Kompromiss. — ___ löst man das Problem?', 'Womit', wo],
   ], 121);
 }
 

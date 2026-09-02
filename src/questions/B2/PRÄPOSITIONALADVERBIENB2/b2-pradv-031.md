@@ -2,11 +2,11 @@
 id: b2-pradv-031
 type: select-one
 options:
-  - achte
-  - achtete
-  - geachtet
-  - achten
-correct: achten
+  - daran
+  - darüber
+  - davon
+  - darin
+correct: darin
 ---
 
-Worauf ___ Sie besonders? (Pronominaladverb)
+Der Unterschied liegt in der Methode. — Der Unterschied besteht ___. (Pronominaladverb)

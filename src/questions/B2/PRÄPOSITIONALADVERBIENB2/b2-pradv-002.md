@@ -2,11 +2,11 @@
 id: b2-pradv-002
 type: select-one
 options:
-  - frühest
-  - frühe
-  - früher
-  - früh
-correct: früher
+  - dafür
+  - darüber
+  - darauf
+  - damit
+correct: darauf
 ---
 
-Ich denke oft daran, wie es ___ war. (Pronominaladverb)
+Freust du dich schon lange auf die Premiere? — Ich freue mich schon lange ___. (Pronominaladverb)

@@ -2,11 +2,11 @@
 id: b2-pradv-035
 type: select-one
 options:
-  - bezogen
-  - beziehst
-  - bezog
-  - bezieht
-correct: bezieht
+  - davon
+  - damit
+  - dafür
+  - darauf
+correct: darauf
 ---
 
-Worauf ___ sich Ihre Kritik? (Pronominaladverb)
+Achten Sie besonders auf die Formalia? — Ja, wir achten besonders ___. (Pronominaladverb)

@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-046
 type: input-text
-hint: Pronominaladverb — bauen / baust / baut / baute
+hint: Pronominaladverb — Präp. über
 correct:
-  - baut
+  - Worüber
 ---
 
 Ergänze das Pronominaladverb:
 
-Hierauf ___ die ganze Argumentation.
+Ihr habt gestern über die Reform gesprochen. — ___ habt ihr gestern gesprochen?

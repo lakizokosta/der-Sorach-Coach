@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-047
 type: input-text
-hint: Pronominaladverb — habt / hat / hatte / hätte
+hint: Pronominaladverb — Präp. in
 correct:
-  - hat
+  - Worin
 ---
 
 Ergänze das Pronominaladverb:
 
-Damit ___ er sein ganzes Leben.
+Der Unterschied besteht in der Methode. — ___ besteht der Unterschied?

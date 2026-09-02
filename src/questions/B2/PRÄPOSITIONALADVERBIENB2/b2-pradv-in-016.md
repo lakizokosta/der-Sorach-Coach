@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-016
 type: input-text
-hint: Pronominaladverb — gelöst / lösen / löst / löste
+hint: Pronominaladverb — Präp. von
 correct:
-  - löst
+  - davon
 ---
 
 Ergänze das Pronominaladverb:
 
-Womit ___ man das Problem?
+Hältst du viel von dem Vorschlag? — Ich halte wenig ___.

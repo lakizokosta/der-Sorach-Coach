@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-010
 type: input-text
-hint: Pronominaladverb — haben / hat / hatte / hätten
+hint: Pronominaladverb — Präp. auf
 correct:
-  - haben
+  - darauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Darauf ___ wir uns geeinigt.
+Achten Sie besonders auf die Formalia? — Ja, wir achten besonders ___.

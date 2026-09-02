@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-050
 type: input-text
-hint: Pronominaladverb — lösen / löst / löste / löstest
+hint: Pronominaladverb — Präp. mit
 correct:
-  - löst
+  - Womit
 ---
 
 Ergänze das Pronominaladverb:
 
-Womit ___ man das Problem?
+Man löst das Problem mit einem Kompromiss. — ___ löst man das Problem?

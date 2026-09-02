@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-028
 type: input-text
-hint: Pronominaladverb — dachte / denken / denkst / gedacht
+hint: Pronominaladverb — Präp. über
 correct:
-  - denkst
+  - darüber
 ---
 
 Ergänze das Pronominaladverb:
 
-Woran ___ du bei der Entscheidung?
+Habt ihr gestern über die Reform gesprochen? — Ja, wir haben ___ gesprochen.

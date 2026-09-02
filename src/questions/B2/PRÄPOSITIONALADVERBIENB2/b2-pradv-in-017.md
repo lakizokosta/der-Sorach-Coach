@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-017
 type: input-text
-hint: Pronominaladverb — gewartet / warte / warten / wartest
+hint: Pronominaladverb — Präp. bei
 correct:
-  - warte
+  - dabei
 ---
 
 Ergänze das Pronominaladverb:
 
-Darauf ___ ich nicht.
+Hilfst du bei dem Forschungsprojekt? — Ja, ich helfe ___.

@@ -2,11 +2,11 @@
 id: b2-pradv-049
 type: select-one
 options:
-  - war
-  - ist
-  - sein
-  - sind
-correct: ist
+  - Womit
+  - Worauf
+  - Worin
+  - Woran
+correct: Worauf
 ---
 
-Daran ___ nichts zu ändern. (Pronominaladverb)
+Sie achten besonders auf die Formalia. — ___ achten Sie besonders? (Pronominaladverb)

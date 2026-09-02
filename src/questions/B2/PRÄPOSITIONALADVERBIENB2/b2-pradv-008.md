@@ -2,11 +2,11 @@
 id: b2-pradv-008
 type: select-one
 options:
-  - erinnern
-  - erinnerte
-  - erinnere
-  - erinnert
-correct: erinnere
+  - dafür
+  - damit
+  - daran
+  - darin
+correct: daran
 ---
 
-Daran ___ ich mich noch gut. (Pronominaladverb)
+Denkst du bei der Entscheidung an die Risiken? — Ja, ich denke ___. (Pronominaladverb)

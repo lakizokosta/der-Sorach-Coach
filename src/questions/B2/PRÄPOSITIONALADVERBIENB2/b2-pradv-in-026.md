@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-026
 type: input-text
-hint: Pronominaladverb — bestand / bestehen / bestehst / besteht
+hint: Pronominaladverb — Präp. auf
 correct:
-  - besteht
+  - darauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Worin ___ der Unterschied?
+Bezieht sich Ihre Kritik auf den Bericht? — Ja, sie bezieht sich ___.

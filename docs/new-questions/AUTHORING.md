@@ -255,6 +255,14 @@ focus: word
 - Источник: `scripts/b1-plusquamperfekt-data.mjs` → `node scripts/generate-b1-plusquamperfekt.mjs --force`
 
 
+### 2026-09-02 — Pronominaladverbien B2: щель на наречии, не на глаголе
+- Симптом (`PRÄPOSITIONALADVERBIENB2`): *Hierauf ___ die ganze Argumentation* + options *bauen/baut…*, инструкция «Ergänze das Pronominaladverb» — наречие уже дано, ответ = глагол; смысл и задача непрозрачны.
+- Правило: в теме Pronominaladverbien пробел **только** на *da-/wo-(hier-)* форме. Контекст (вопрос с Präp. или ответная реплика) однозначно задаёт форму. Дистракторы — другие Pronominaladverbien, не спряжения глагола.
+- ❌ `Hierauf ___ die ganze Argumentation.` / correct `baut`
+- ✅ `Baut die Argumentation auf dieser These? — Ja, sie baut ___.` / correct `darauf`
+- Источник: `scripts/b2-select-one-data.mjs` → `genPraepositionaleAdverbienB2` + `--force` select-one/input-text.
+
+
 ### 2026-09-02 — Indefinitpronomen: однозначность jemand/niemand/etwas
 - Симптом (`INDEFINITPRONOMEN` B2, частично A2): *Hast du ___ in der Menge gesehen?* с options *jemanden/etwas/niemanden* — несколько грамматически верных ответов.
 - Правило: Indefinitpronomen в щели однозначны через **контекст** (50/50):

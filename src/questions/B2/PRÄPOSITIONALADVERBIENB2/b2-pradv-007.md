@@ -2,11 +2,11 @@
 id: b2-pradv-007
 type: select-one
 options:
-  - erkennst
-  - erkannte
-  - erkannt
-  - erkennt
-correct: erkennt
+  - darin
+  - dabei
+  - davon
+  - darauf
+correct: darauf
 ---
 
-Hieran ___ man die Qualität. (Pronominaladverb)
+Habt ihr euch auf einen Termin geeinigt? — Ja, wir haben uns ___ geeinigt. (Pronominaladverb)

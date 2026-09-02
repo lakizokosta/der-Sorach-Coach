@@ -2,11 +2,11 @@
 id: b2-pradv-038
 type: select-one
 options:
-  - freuen
-  - freue
-  - freute
-  - freust
-correct: freue
+  - dabei
+  - damit
+  - dafür
+  - daran
+correct: damit
 ---
 
-Darauf ___ ich mich schon lange. (Pronominaladverb)
+Hat er sein ganzes Leben mit diesem Glauben verbracht? — Ja, er hat ___ sein ganzes Leben verbracht. (Pronominaladverb)

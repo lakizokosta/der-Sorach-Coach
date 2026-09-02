@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-027
 type: input-text
-hint: Pronominaladverb — haben / habt / hatte / hätten
+hint: Pronominaladverb — Präp. auf
 correct:
-  - haben
+  - darauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Darauf ___ wir uns geeinigt.
+Freust du dich schon lange auf die Premiere? — Ich freue mich schon lange ___.

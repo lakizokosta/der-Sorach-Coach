@@ -2,11 +2,11 @@
 id: b2-pradv-039
 type: select-one
 options:
-  - haben
-  - hattet
-  - hättet
-  - habt
-correct: habt
+  - daran
+  - davon
+  - darin
+  - dafür
+correct: dafür
 ---
 
-Worüber ___ ihr gestern gesprochen? (Pronominaladverb)
+Interessierst du dich für das Forschungsthema? — Ich interessiere mich ___. (Pronominaladverb)

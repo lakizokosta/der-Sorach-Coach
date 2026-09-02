@@ -2,11 +2,11 @@
 id: b2-pradv-044
 type: select-one
 options:
-  - hätten
-  - haben
-  - hat
-  - habt
-correct: haben
+  - Worüber
+  - Worauf
+  - Woran
+  - Worin
+correct: Worauf
 ---
 
-Darauf ___ wir uns geeinigt. (Pronominaladverb)
+Ihre Kritik bezieht sich auf den Bericht. — ___ bezieht sich Ihre Kritik? (Pronominaladverb)

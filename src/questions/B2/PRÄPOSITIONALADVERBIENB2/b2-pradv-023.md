@@ -2,11 +2,11 @@
 id: b2-pradv-023
 type: select-one
 options:
-  - konntet
-  - könnte
-  - gekonnt
-  - kann
-correct: kann
+  - Womit
+  - Worüber
+  - Worin
+  - Woran
+correct: Woran
 ---
 
-Damit ___ ich nichts anfangen. (Pronominaladverb)
+Du denkst bei der Entscheidung an die Risiken. — ___ denkst du bei der Entscheidung? (Pronominaladverb)

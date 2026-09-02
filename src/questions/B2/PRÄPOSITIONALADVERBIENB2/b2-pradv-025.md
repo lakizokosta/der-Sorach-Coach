@@ -2,11 +2,11 @@
 id: b2-pradv-025
 type: select-one
 options:
-  - erinnerst
-  - erinnern
-  - erinnere
-  - erinnert
-correct: erinnere
+  - Woran
+  - Worauf
+  - Womit
+  - Worin
+correct: Womit
 ---
 
-Daran ___ ich mich noch gut. (Pronominaladverb)
+Man löst das Problem mit einem Kompromiss. — ___ löst man das Problem? (Pronominaladverb)

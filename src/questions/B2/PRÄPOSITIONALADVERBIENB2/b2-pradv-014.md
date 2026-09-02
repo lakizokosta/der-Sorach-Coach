@@ -2,11 +2,11 @@
 id: b2-pradv-014
 type: select-one
 options:
-  - achte
-  - achten
-  - achtet
-  - achtete
-correct: achten
+  - darin
+  - dafür
+  - damit
+  - davon
+correct: dafür
 ---
 
-Worauf ___ Sie besonders? (Pronominaladverb)
+Interessierst du dich für das Forschungsthema? — Ich interessiere mich ___. (Pronominaladverb)

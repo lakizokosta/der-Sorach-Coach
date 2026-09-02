@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-045
 type: input-text
-hint: Pronominaladverb — denke / denken / denkst / gedacht
+hint: Pronominaladverb — Präp. mit
 correct:
-  - denkst
+  - Womit
 ---
 
 Ergänze das Pronominaladverb:
 
-Woran ___ du bei der Entscheidung?
+Du finanzierst dein Studium mit einem Stipendium. — ___ finanzierst du dein Studium?

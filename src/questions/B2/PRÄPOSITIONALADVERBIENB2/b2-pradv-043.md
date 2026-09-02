@@ -2,11 +2,11 @@
 id: b2-pradv-043
 type: select-one
 options:
-  - bestanden
-  - bestehst
-  - bestand
-  - besteht
-correct: besteht
+  - dafür
+  - damit
+  - daran
+  - darüber
+correct: darüber
 ---
 
-Worin ___ der Unterschied? (Pronominaladverb)
+Ärgerst du dich über die Entscheidung? — Ich ärgere mich ___. (Pronominaladverb)

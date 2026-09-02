@@ -2,11 +2,11 @@
 id: b2-pradv-016
 type: select-one
 options:
-  - lösen
-  - löste
-  - löst
-  - gelöst
-correct: löst
+  - darüber
+  - dafür
+  - davon
+  - daran
+correct: davon
 ---
 
-Womit ___ man das Problem? (Pronominaladverb)
+Hältst du viel von dem Vorschlag? — Ich halte wenig ___. (Pronominaladverb)

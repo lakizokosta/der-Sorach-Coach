@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-030
 type: input-text
-hint: Pronominaladverb — haben / hat / hatte / hätte
+hint: Pronominaladverb — Präp. an
 correct:
-  - hat
+  - daran
 ---
 
 Ergänze das Pronominaladverb:
 
-Damit ___ er sein ganzes Leben.
+Erinnerst du dich noch an das Gespräch? — Ich erinnere mich noch gut ___.

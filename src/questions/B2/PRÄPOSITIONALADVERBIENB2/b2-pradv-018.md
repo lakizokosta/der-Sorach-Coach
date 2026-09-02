@@ -2,11 +2,11 @@
 id: b2-pradv-018
 type: select-one
 options:
-  - beziehen
-  - bezieht
-  - bezog
-  - beziehst
-correct: bezieht
+  - damit
+  - darüber
+  - davon
+  - dafür
+correct: darüber
 ---
 
-Worauf ___ sich Ihre Kritik? (Pronominaladverb)
+Ärgerst du dich über die Entscheidung? — Ich ärgere mich ___. (Pronominaladverb)

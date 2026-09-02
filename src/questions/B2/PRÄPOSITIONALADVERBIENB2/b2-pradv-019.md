@@ -2,11 +2,11 @@
 id: b2-pradv-019
 type: select-one
 options:
-  - frühest
-  - frühe
-  - frühes
-  - früher
-correct: früher
+  - Womit
+  - Worüber
+  - Worin
+  - Worauf
+correct: Worauf
 ---
 
-Ich denke oft daran, wie es ___ war. (Pronominaladverb)
+Ihre Kritik bezieht sich auf den Bericht. — ___ bezieht sich Ihre Kritik? (Pronominaladverb)

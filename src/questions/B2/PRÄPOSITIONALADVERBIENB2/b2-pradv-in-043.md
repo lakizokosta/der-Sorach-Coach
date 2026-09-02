@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-043
 type: input-text
-hint: Pronominaladverb — bestand / bestanden / bestehst / besteht
+hint: Pronominaladverb — Präp. über
 correct:
-  - besteht
+  - darüber
 ---
 
 Ergänze das Pronominaladverb:
 
-Worin ___ der Unterschied?
+Ärgerst du dich über die Entscheidung? — Ich ärgere mich ___.

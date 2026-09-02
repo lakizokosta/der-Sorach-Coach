@@ -2,11 +2,11 @@
 id: b2-pradv-040
 type: select-one
 options:
-  - könnte
-  - kann
-  - können
-  - gekonnt
-correct: kann
+  - davon
+  - daran
+  - damit
+  - dabei
+correct: daran
 ---
 
-Damit ___ ich nichts anfangen. (Pronominaladverb)
+Glaubst du an den neuen Plan? — Ich glaube ___. (Pronominaladverb)

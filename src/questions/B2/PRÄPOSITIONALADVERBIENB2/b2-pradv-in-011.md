@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-011
 type: input-text
-hint: Pronominaladverb — dachte / denke / denkst / gedacht
+hint: Pronominaladverb — Präp. mit
 correct:
-  - denkst
+  - damit
 ---
 
 Ergänze das Pronominaladverb:
 
-Woran ___ du bei der Entscheidung?
+Löst man das Problem mit einem Kompromiss? — Ja, man löst es ___.

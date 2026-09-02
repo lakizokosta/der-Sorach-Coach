@@ -2,11 +2,11 @@
 id: b2-pradv-009
 type: select-one
 options:
-  - bestehst
-  - besteht
-  - bestanden
-  - bestehen
-correct: besteht
+  - dafür
+  - darauf
+  - darüber
+  - dabei
+correct: darauf
 ---
 
-Worin ___ der Unterschied? (Pronominaladverb)
+Baut die Argumentation auf dieser These? — Ja, sie baut ___. (Pronominaladverb)
