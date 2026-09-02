@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-Hast du ___ in der Menge gesehen?
+Hast du ___ von deinen Freunden in der Menge gesehen?

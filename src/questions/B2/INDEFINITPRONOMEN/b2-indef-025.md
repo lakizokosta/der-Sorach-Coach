@@ -2,11 +2,11 @@
 id: b2-indef-025
 type: select-one
 options:
-  - Alles
-  - Etwas
-  - Nichts
-  - Niemand
-correct: Niemand
+  - alles
+  - jemand
+  - niemand
+  - etwas
+correct: etwas
 ---
 
-___ darf den Raum betreten. (Indefinitpronomen)
+Ich habe in dem Brief ___ Ungewöhnliches gelesen. (Indefinitpronomen)

@@ -2,11 +2,11 @@
 id: b2-indef-011
 type: select-one
 options:
-  - niemand
-  - nichts
-  - alles
+  - jemand
   - etwas
-correct: nichts
+  - alles
+  - nichts
+correct: etwas
 ---
 
-Sie hat ___ Falsches gesagt. (Indefinitpronomen)
+Er hat uns ___ wirklich Interessantes berichtet. (Indefinitpronomen)

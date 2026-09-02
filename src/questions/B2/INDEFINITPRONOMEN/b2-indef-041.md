@@ -2,11 +2,12 @@
 id: b2-indef-041
 type: select-one
 options:
-  - niemand
-  - jemand
-  - alles
-  - etwas
-correct: etwas
+  - Etwas
+  - Nichts
+  - Alles
+  - Niemand
+correct: Niemand
 ---
 
-Er hat ___ Interessantes berichtet. (Indefinitpronomen)
+Nach dem Alarm war der Flur leer.
+___ darf den Raum betreten. (Indefinitpronomen)

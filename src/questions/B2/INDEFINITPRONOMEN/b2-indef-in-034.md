@@ -1,11 +1,12 @@
 ---
 id: b2-indef-in-034
 type: input-text
-hint: Indefinitpronomen — Alles / Jemand / Nichts / Niemand
+hint: Indefinitpronomen — etwas / jemand / jemanden / niemand
 correct:
-  - Niemand
+  - jemanden
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ weiß die Antwort auf diese Frage.
+Du suchst eine Ansprechperson im Büro.
+Hast du ___ vom Empfang getroffen?

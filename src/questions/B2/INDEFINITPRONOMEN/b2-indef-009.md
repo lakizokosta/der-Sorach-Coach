@@ -3,10 +3,10 @@ id: b2-indef-009
 type: select-one
 options:
   - alles
-  - niemand
-  - jemand
   - etwas
-correct: etwas
+  - nichts
+  - niemand
+correct: niemand
 ---
 
-Brauchst du ___ von mir? (Indefinitpronomen)
+Nach dem lauten Knall war plötzlich ___ im Raum. (Indefinitpronomen)

@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-Hier stimmt ___ nicht.
+Brauchst du ___ für die Reise?

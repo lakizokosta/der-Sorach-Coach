@@ -3,9 +3,10 @@ id: b2-indef-in-042
 type: input-text
 hint: Indefinitpronomen — Alles / Jemand / Nichts / Niemand
 correct:
-  - Niemand
+  - Jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ darf den Raum betreten.
+Eine anonyme Nachricht liegt im Postfach.
+___ hat mir diese Nachricht geschickt.

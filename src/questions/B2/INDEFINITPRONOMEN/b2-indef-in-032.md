@@ -8,4 +8,5 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-Ich hoffe, ___ von euch kann mir helfen.
+Du brauchst Unterstützung beim Umzug.
+Kann ___ von euch mir helfen?

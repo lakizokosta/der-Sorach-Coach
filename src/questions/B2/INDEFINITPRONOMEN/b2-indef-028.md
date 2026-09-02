@@ -2,11 +2,12 @@
 id: b2-indef-028
 type: select-one
 options:
-  - niemand
-  - nichts
-  - etwas
+  - niemanden
+  - jemanden
   - jemand
-correct: nichts
+  - etwas
+correct: jemanden
 ---
 
-Sie hat ___ Falsches gesagt. (Indefinitpronomen)
+Du bist neu in der Stadt und kennst kaum Leute.
+Kennst du ___ hier? (Indefinitpronomen)

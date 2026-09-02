@@ -2,11 +2,12 @@
 id: b2-indef-035
 type: select-one
 options:
-  - niemand
-  - jemanden
-  - etwas
-  - jemand
-correct: jemanden
+  - Etwas
+  - Niemand
+  - Alles
+  - Jemand
+correct: Niemand
 ---
 
-Hast du ___ in der Menge gesehen? (Indefinitpronomen)
+Die Prüfung war unfair schwer.
+___ wusste die richtige Antwort. (Indefinitpronomen)

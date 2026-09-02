@@ -2,11 +2,11 @@
 id: b2-indef-019
 type: select-one
 options:
-  - niemand
-  - nichts
-  - alles
+  - jemand
   - etwas
-correct: nichts
+  - alles
+  - nichts
+correct: etwas
 ---
 
-Das Thema ist mir völlig neu; ich habe ___ davon gehört. (Indefinitpronomen)
+Wir brauchen noch ___ Hilfe von dir. (Indefinitpronomen)

@@ -48,8 +48,17 @@ onMounted(() => {
 
 const renderedPrompt = computed(() => {
   const prompt = stripTrailingPromptHint(props.question.prompt || '');
-  return props.premium ? wrapWordsForDictionary(prompt) : prompt;
+  const html = props.premium ? wrapWordsForDictionary(prompt) : escapePromptHtml(prompt);
+  return html.replace(/\n/g, '<br>');
 });
+
+/** @param {string} text @return {string} */
+function escapePromptHtml(text) {
+  return String(text || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
 
 const correctValue = computed(() => String(props.question.correct ?? '').trim());
 

@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-Ich sehe ___ auf der Straße.
+Ich sehe ___ von meinen Freunden auf der Straße.

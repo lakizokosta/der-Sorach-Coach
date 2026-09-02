@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-Sie möchte ___ Neues ausprobieren.
+Sie möchte unbedingt ___ Neues ausprobieren.

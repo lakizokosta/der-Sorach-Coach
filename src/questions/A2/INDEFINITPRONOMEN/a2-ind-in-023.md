@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-023
 type: input-text
-hint: Indefinitpronomen — Verneinung Person, Akk. = niemanden
+hint: Indefinitpronomen — unbestimmte Person = jemand
 correct:
-  - niemanden
+  - jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Ich sehe ___ auf der Straße.
+Kann ___ mir am Bankschalter helfen?

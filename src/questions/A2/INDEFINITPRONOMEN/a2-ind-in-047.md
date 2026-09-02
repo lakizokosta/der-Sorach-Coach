@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-047
 type: input-text
-hint: Indefinitpronomen — unpersönliches Subjekt = man
+hint: Indefinitpronomen — unbestimmte Sache = etwas
 correct:
-  - Man
+  - etwas
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ kann Fehler machen.
+Es gibt ___ Neues im Radio.

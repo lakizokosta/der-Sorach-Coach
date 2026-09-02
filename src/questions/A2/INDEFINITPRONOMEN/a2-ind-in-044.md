@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-044
 type: input-text
-hint: Indefinitpronomen — unbestimmte Person, Nom. = jemand
+hint: Indefinitpronomen — Verneinung Person, Akk. = niemanden
 correct:
-  - Jemand
+  - niemanden
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ hat die Tür offen gelassen.
+Ich sehe ___ von meinen Freunden auf der Straße.

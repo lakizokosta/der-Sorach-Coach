@@ -5,9 +5,10 @@ words:
   - Ich
   - kenne
   - niemanden
-  - in
-  - dieser
-  - Stadt
+  - von
+  - den
+  - Gästen
+  - hier
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)

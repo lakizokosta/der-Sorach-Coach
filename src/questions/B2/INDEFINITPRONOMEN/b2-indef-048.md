@@ -2,11 +2,12 @@
 id: b2-indef-048
 type: select-one
 options:
-  - nichts
-  - alles
-  - niemand
-  - etwas
-correct: alles
+  - Jemand
+  - Niemand
+  - Nichts
+  - Etwas
+correct: Niemand
 ---
 
-Sie hat ___ gefunden, was sie suchte. (Indefinitpronomen)
+Im Konferenzraum ist es still.
+___ weiß die Antwort auf diese Frage. (Indefinitpronomen)

@@ -2,11 +2,12 @@
 id: b2-indef-042
 type: select-one
 options:
-  - Jemand
   - Niemand
+  - Jemand
   - Alles
   - Nichts
-correct: Niemand
+correct: Jemand
 ---
 
-___ darf den Raum betreten. (Indefinitpronomen)
+Eine anonyme Nachricht liegt im Postfach.
+___ hat mir diese Nachricht geschickt. (Indefinitpronomen)

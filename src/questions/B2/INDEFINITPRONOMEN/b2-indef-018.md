@@ -3,10 +3,10 @@ id: b2-indef-018
 type: select-one
 options:
   - jemand
-  - niemanden
-  - jemanden
   - etwas
+  - jemanden
+  - niemand
 correct: jemanden
 ---
 
-Hast du ___ in der Menge gesehen? (Indefinitpronomen)
+Hast du schon ___ von deinen Nachbarn getroffen? (Indefinitpronomen)

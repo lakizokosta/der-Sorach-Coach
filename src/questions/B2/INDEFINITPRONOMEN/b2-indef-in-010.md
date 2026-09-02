@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-___ hat mir diese Nachricht geschickt.
+___ von den Gästen hat die Tür offengelassen.

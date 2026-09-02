@@ -2,11 +2,11 @@
 id: b2-indef-003
 type: select-one
 options:
-  - Etwas
-  - Jemand
-  - Alles
-  - Niemand
-correct: Jemand
+  - etwas
+  - jemand
+  - alles
+  - niemand
+correct: jemand
 ---
 
-___ hat die Tür offengelassen. (Indefinitpronomen)
+Ich hoffe, ___ von euch kann mir helfen. (Indefinitpronomen)

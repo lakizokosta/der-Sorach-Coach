@@ -1,11 +1,12 @@
 ---
 id: b2-indef-in-035
 type: input-text
-hint: Indefinitpronomen — etwas / jemand / jemanden / niemand
+hint: Indefinitpronomen — Alles / Etwas / Jemand / Niemand
 correct:
-  - jemanden
+  - Niemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Hast du ___ in der Menge gesehen?
+Die Prüfung war unfair schwer.
+___ wusste die richtige Antwort.

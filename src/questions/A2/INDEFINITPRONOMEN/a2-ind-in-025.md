@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-025
 type: input-text
-hint: Indefinitpronomen — unpersönliches Subjekt = man
+hint: Indefinitpronomen — Verneinung Person, Akk. = niemanden
 correct:
-  - Man
+  - niemanden
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ darf hier nicht rauchen.
+Ich sehe ___ von meinen Freunden auf der Straße.

@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-039
 type: input-text
-hint: Indefinitpronomen — unbestimmte Person, Nom. = jemand
+hint: Indefinitpronomen — unpersönliches Subjekt = man
 correct:
-  - Jemand
+  - Man
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ war bei der Panne sehr nett.
+___ muss die Hausaufgaben machen.

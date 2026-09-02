@@ -2,11 +2,12 @@
 id: b2-indef-026
 type: select-one
 options:
-  - nichts
-  - etwas
-  - alles
   - jemand
-correct: etwas
+  - jemanden
+  - niemand
+  - etwas
+correct: jemanden
 ---
 
-Brauchst du ___ von mir? (Indefinitpronomen)
+Du suchst deinen Bruder in der Menge.
+Hast du ___ dort gesehen? (Indefinitpronomen)

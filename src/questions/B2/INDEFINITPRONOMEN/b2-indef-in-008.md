@@ -1,11 +1,11 @@
 ---
 id: b2-indef-in-008
 type: input-text
-hint: Indefinitpronomen — Etwas / Jemand / Nichts / Niemand
+hint: Indefinitpronomen — etwas / jemand / nichts / niemand
 correct:
-  - Niemand
+  - etwas
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ darf den Raum betreten.
+Brauchst du noch ___ von diesen Unterlagen?

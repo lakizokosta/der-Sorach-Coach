@@ -5,6 +5,9 @@ words:
   - Ich
   - sehe
   - niemanden
+  - von
+  - meinen
+  - Freunden
   - auf
   - der
   - Straße

@@ -1,11 +1,12 @@
 ---
 id: b2-indef-in-031
 type: input-text
-hint: Indefinitpronomen — alles / etwas / jemand / nichts
+hint: Indefinitpronomen — Alles / Etwas / Jemand / Niemand
 correct:
-  - alles
+  - Niemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Sie hat ___ gefunden, was sie suchte.
+Nach dem Streit war die Küche leer.
+___ wollte noch sprechen.

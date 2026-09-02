@@ -1,11 +1,11 @@
 ---
 id: b2-indef-in-009
 type: input-text
-hint: Indefinitpronomen — alles / etwas / jemand / niemand
+hint: Indefinitpronomen — alles / etwas / nichts / niemand
 correct:
-  - etwas
+  - niemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Brauchst du ___ von mir?
+Nach dem lauten Knall war plötzlich ___ im Raum.

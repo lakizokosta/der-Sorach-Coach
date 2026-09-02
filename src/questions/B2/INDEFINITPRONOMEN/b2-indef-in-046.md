@@ -1,11 +1,12 @@
 ---
 id: b2-indef-in-046
 type: input-text
-hint: Indefinitpronomen — alles / jemand / nichts / niemand
+hint: Indefinitpronomen — Alles / Jemand / Nichts / Niemand
 correct:
-  - jemand
+  - Jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Ist ___ zu Hause?
+Die Tür steht offen, aber niemand meldet sich.
+___ hat die Tür offengelassen.

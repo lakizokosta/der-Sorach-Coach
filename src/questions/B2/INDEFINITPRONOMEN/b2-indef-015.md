@@ -9,4 +9,4 @@ options:
 correct: jemand
 ---
 
-Ich hoffe, ___ von euch kann mir helfen. (Indefinitpronomen)
+Ist denn ___ von der Familie zu Hause? (Indefinitpronomen)

@@ -255,6 +255,15 @@ focus: word
 - Источник: `scripts/b1-plusquamperfekt-data.mjs` → `node scripts/generate-b1-plusquamperfekt.mjs --force`
 
 
+### 2026-09-02 — Indefinitpronomen: однозначность jemand/niemand/etwas
+- Симптом (`INDEFINITPRONOMEN` B2, частично A2): *Hast du ___ in der Menge gesehen?* с options *jemanden/etwas/niemanden* — несколько грамматически верных ответов.
+- Правило: Indefinitpronomen в щели однозначны через **контекст** (50/50):
+  1. Inline: *von deinen Freunden / von den Kollegen / unbedingt / völlig neu…*
+  2. Или короткая **Vorgeschichte** строкой выше предложения с `___`.
+- Дистракторы: падежные ловушки (*jemand* vs *jemanden*) ок; конкурирующая полярность (*niemanden* при ключе *jemanden*) — только если контекст её отсекает.
+- Источник B2: `scripts/b2-select-one-data.mjs` → `node scripts/generate-b2-select-one.mjs --force --topic=INDEFINITPRONOMEN` + input-text.
+
+
 ### 2026-08-21 — dropbox: «?» у всех прямых вопросов (не только W-Fragen)
 - Симптом: Ja/Nein-вопрос в dropbox без `?` (`Kann ich das auf den Tisch legen ja gern`) — ученик не видит, что это вопрос; раньше авто-`?` работал только для темы `W-FRAGEN`.
 - Правило:

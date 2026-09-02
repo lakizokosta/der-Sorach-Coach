@@ -2,11 +2,11 @@
 id: b2-indef-008
 type: select-one
 options:
-  - Etwas
-  - Nichts
-  - Niemand
-  - Jemand
-correct: Niemand
+  - jemand
+  - niemand
+  - etwas
+  - nichts
+correct: etwas
 ---
 
-___ darf den Raum betreten. (Indefinitpronomen)
+Brauchst du noch ___ von diesen Unterlagen? (Indefinitpronomen)

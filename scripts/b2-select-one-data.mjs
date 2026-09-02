@@ -204,25 +204,66 @@ export function genModalsatz() {
 }
 
 export function genIndefinitpronomen() {
-  return bank([
-    ['Hast du ___ in der Menge gesehen?', 'jemanden', ['jemand', 'niemand', 'niemanden', 'etwas']],
-    ['Das Thema ist mir völlig neu; ich habe ___ davon gehört.', 'nichts', ['etwas', 'niemand', 'jemand', 'alles']],
-    ['___ hat die Tür offengelassen.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
-    ['Sie möchte ___ Neues ausprobieren.', 'etwas', ['nichts', 'niemand', 'jemand', 'alles']],
-    ['___ war zu Hause, als ich anrief.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
-    ['Kennst du ___ hier?', 'jemanden', ['jemand', 'niemand', 'niemanden', 'etwas']],
-    ['Er hat ___ Interessantes berichtet.', 'etwas', ['nichts', 'niemand', 'jemand', 'alles']],
-    ['___ darf den Raum betreten.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
-    ['Brauchst du ___ von mir?', 'etwas', ['nichts', 'niemand', 'jemand', 'alles']],
-    ['___ hat mir diese Nachricht geschickt.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
-    ['Sie hat ___ Falsches gesagt.', 'nichts', ['etwas', 'niemand', 'jemand', 'alles']],
-    ['Ist ___ zu Hause?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
-    ['Er vertraut ___ , das ist seine Schwäche.', 'jemandem', ['jemanden', 'jemand', 'etwas', 'niemandem']],
-    ['Sie hat ___ gefunden, was sie suchte.', 'alles', ['nichts', 'etwas', 'niemand', 'jemand']],
+  /** 50 unique: 25 inline context + 25 Vorgeschichte (unambiguous correct). */
+  const inline = [
+    ['Hast du ___ von deinen Freunden in der Menge gesehen?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Kennst du ___ von den Kollegen hier?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
     ['Ich hoffe, ___ von euch kann mir helfen.', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
-    ['Ich habe ___ Besonderes erwartet.', 'etwas', ['nichts', 'niemand', 'jemand', 'alles']],
-    ['___ weiß die Antwort auf diese Frage.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
-  ], 91);
+    ['Sie möchte unbedingt ___ Neues ausprobieren.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Das Thema ist mir völlig neu; ich habe ___ davon gehört.', 'nichts', ['etwas', 'jemand', 'niemand', 'alles']],
+    ['Er vertraut leider ___ , das ist seine Schwäche.', 'jemandem', ['jemanden', 'jemand', 'etwas', 'niemandem']],
+    ['Sie hat genau ___ gefunden, was sie suchte.', 'alles', ['nichts', 'etwas', 'niemand', 'jemand']],
+    ['Brauchst du noch ___ von diesen Unterlagen?', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Nach dem lauten Knall war plötzlich ___ im Raum.', 'niemand', ['jemand', 'etwas', 'nichts', 'alles']],
+    ['___ von den Gästen hat die Tür offengelassen.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Er hat uns ___ wirklich Interessantes berichtet.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Ohne Ausweis darf ___ den Raum betreten.', 'niemand', ['jemand', 'etwas', 'nichts', 'alles']],
+    ['___ aus dem Team hat mir diese Nachricht geschickt.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Sie hat bewusst ___ Falsches gesagt.', 'nichts', ['etwas', 'jemand', 'niemand', 'alles']],
+    ['Ist denn ___ von der Familie zu Hause?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Ich habe ___ Besonderes von dir erwartet.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Bei dieser Frage weiß leider ___ die Antwort.', 'niemand', ['jemand', 'etwas', 'nichts', 'alles']],
+    ['Hast du schon ___ von deinen Nachbarn getroffen?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Wir brauchen noch ___ Hilfe von dir.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Im leeren Büro war heute Morgen ___ .', 'niemand', ['jemand', 'etwas', 'nichts', 'alles']],
+    ['Sie sucht ___ , der Italienisch spricht.', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Nach dem Diebstahl fehlte uns ___ Wichtiges.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Trotz der Einladung kam ___ zu der Feier.', 'niemand', ['jemand', 'etwas', 'nichts', 'alles']],
+    ['Kann ___ von euch mir kurz helfen?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Ich habe in dem Brief ___ Ungewöhnliches gelesen.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+  ];
+
+  const vorgeschichte = [
+    ['Du suchst deinen Bruder in der Menge.\nHast du ___ dort gesehen?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Die Wohnung war dunkel und still.\n___ war zu Hause, als ich anrief.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Du bist neu in der Stadt und kennst kaum Leute.\nKennst du ___ hier?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Es klopft unerwartet an der Tür.\nIst ___ zu Hause?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Du erwartest eine wichtige Sendung.\nHat ___ das Paket angenommen?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Nach dem Streit war die Küche leer.\n___ wollte noch sprechen.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Du brauchst Unterstützung beim Umzug.\nKann ___ von euch mir helfen?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Der Zeuge will niemanden belasten.\nEr hat ___ Verdächtiges gesehen.', 'nichts', ['etwas', 'jemand', 'niemand', 'alles']],
+    ['Du suchst eine Ansprechperson im Büro.\nHast du ___ vom Empfang getroffen?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Die Prüfung war unfair schwer.\n___ wusste die richtige Antwort.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Du willst etwas Ungewöhnliches ausprobieren.\nMöchtest du ___ Neues testen?', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Das Thema ist brandneu für dich.\nIch habe ___ davon gehört.', 'nichts', ['etwas', 'jemand', 'niemand', 'alles']],
+    ['Sie vertraut zu schnell fremden Menschen.\nSie vertraut leider ___ .', 'jemandem', ['jemanden', 'jemand', 'etwas', 'niemandem']],
+    ['Alles auf der Liste ist erledigt.\nSie hat ___ gefunden, was sie suchte.', 'alles', ['nichts', 'etwas', 'niemand', 'jemand']],
+    ['Du fragst nach den Unterlagen auf dem Tisch.\nBrauchst du noch ___ davon?', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Nach dem Alarm war der Flur leer.\n___ darf den Raum betreten.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Eine anonyme Nachricht liegt im Postfach.\n___ hat mir diese Nachricht geschickt.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Sie will die Wahrheit sagen.\nSie hat ___ Falsches gesagt.', 'nichts', ['etwas', 'jemand', 'niemand', 'alles']],
+    ['Du wartest auf Freunde an der Haltestelle.\nHast du ___ von ihnen gesehen?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Der Bericht soll spannend sein.\nEr hat ___ Interessantes berichtet.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Die Tür steht offen, aber niemand meldet sich.\n___ hat die Tür offengelassen.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Du erwartest eine Überraschung.\nIch habe ___ Besonderes erwartet.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Im Konferenzraum ist es still.\n___ weiß die Antwort auf diese Frage.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Du suchst Hilfe bei den Anwesenden.\nIch hoffe, ___ von euch kann helfen.', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Nach dem Brand war das Gebäude geräumt.\n___ war noch im Gebäude.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+  ];
+
+  const items = [...inline, ...vorgeschichte];
+  if (items.length !== 50) throw new Error(`Indefinitpronomen: expected 50, got ${items.length}`);
+  return bank(items, 91);
 }
 
 export function genIndirekteRede() {

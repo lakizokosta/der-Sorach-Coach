@@ -449,23 +449,29 @@ export function genGenitiv() {
 }
 
 export function genIndefinit() {
-  const items = [
+  const inline = [
     ['___ muss die Hausaufgaben machen.', 'Man', ['Jemand', 'Niemand', 'Etwas', 'Alles']],
-    ['Hier ist ___ zu Hause.', 'niemand', ['jemand', 'etwas', 'alle', 'man']],
-    ['Ich habe ___ vergessen.', 'etwas', ['jemand', 'niemand', 'alle', 'man']],
-    ['Kann ___ mir helfen?', 'jemand', ['niemand', 'etwas', 'man', 'alle']],
-    ['___ war sehr nett.', 'Jemand', ['Niemand', 'Etwas', 'Man', 'Alles']],
-    ['Ich sehe ___ auf der Straße.', 'niemanden', ['jemanden', 'etwas', 'alle', 'man']],
+    ['Hier im Haus ist heute ___ zu Hause.', 'niemand', ['jemand', 'etwas', 'alle', 'man']],
+    ['Ich habe ___ Wichtiges vergessen.', 'etwas', ['jemand', 'niemand', 'alle', 'man']],
+    ['Kann ___ von euch mir helfen?', 'jemand', ['niemand', 'etwas', 'man', 'alle']],
+    ['___ an der Tür war sehr nett.', 'Jemand', ['Niemand', 'Etwas', 'Man', 'Alles']],
+    ['Ich sehe ___ von meinen Freunden auf der Straße.', 'niemanden', ['jemanden', 'etwas', 'alle', 'man']],
     ['Hast du ___ Interesse an Sport?', 'etwas', ['jemand', 'niemand', 'alle', 'man']],
     ['___ darf hier nicht rauchen.', 'Man', ['Jemand', 'Niemand', 'Etwas', 'Alles']],
     ['Es gibt ___ Neues im Radio.', 'etwas', ['jemand', 'niemand', 'alle', 'man']],
-    ['___ hat die Tür offen gelassen.', 'Jemand', ['Niemand', 'Etwas', 'Man', 'Alles']],
-    ['Ich kenne ___ hier.', 'niemanden', ['jemanden', 'etwas', 'alle', 'man']],
-    ['Brauchst du ___?', 'etwas', ['jemand', 'niemand', 'alle', 'man']],
+    ['___ von den Nachbarn hat die Tür offen gelassen.', 'Jemand', ['Niemand', 'Etwas', 'Man', 'Alles']],
+    ['Ich kenne ___ von den Gästen hier.', 'niemanden', ['jemanden', 'etwas', 'alle', 'man']],
+    ['Brauchst du noch ___ Hilfe?', 'etwas', ['jemand', 'niemand', 'alle', 'man']],
     ['___ kann Fehler machen.', 'Man', ['Jemand', 'Niemand', 'Etwas', 'Alles']],
-    ['Hier ist ___ falsch.', 'etwas', ['jemand', 'niemand', 'alle', 'man']],
-    ['___ wartet vor der Tür.', 'Jemand', ['Niemand', 'Etwas', 'Man', 'Alles']],
   ];
+  const vorgeschichte = [
+    ['Die Straße ist voller Fremder.\nIch sehe ___ von meiner Familie.', 'niemanden', ['jemanden', 'etwas', 'alle', 'man']],
+    ['Du suchst Hilfe im Kurs.\nKann ___ mir helfen?', 'jemand', ['niemand', 'etwas', 'man', 'alle']],
+    ['Es ist spät und dunkel im Haus.\nHier ist ___ zu Hause.', 'niemand', ['jemand', 'etwas', 'alle', 'man']],
+    ['Du hast die Einkaufsliste vergessen.\nIch habe ___ vergessen.', 'etwas', ['jemand', 'niemand', 'alle', 'man']],
+  ];
+  // pad to cycle cleanly toward 50 with unique-enough mix
+  const items = [...inline, ...vorgeschichte];
   return ensure50(() => {
     const out = [];
     for (let i = 0; i < 50; i++) {

@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-043
 type: input-text
-hint: Indefinitpronomen — unbestimmte Sache = etwas
+hint: Indefinitpronomen — unbestimmte Person, Nom. = jemand
 correct:
-  - etwas
+  - Jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Es gibt ___ Neues im Radio.
+___ war bei der Panne sehr nett.

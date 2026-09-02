@@ -2,11 +2,11 @@
 id: b2-indef-022
 type: select-one
 options:
-  - Jemand
-  - Niemand
-  - Alles
-  - Nichts
-correct: Niemand
+  - nichts
+  - etwas
+  - alles
+  - niemand
+correct: etwas
 ---
 
-___ war zu Hause, als ich anrief. (Indefinitpronomen)
+Nach dem Diebstahl fehlte uns ___ Wichtiges. (Indefinitpronomen)

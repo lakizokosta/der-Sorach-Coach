@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-042
 type: input-text
-hint: Indefinitpronomen — unpersönliches Subjekt = man
+hint: Indefinitpronomen — unbestimmte Person = jemand
 correct:
-  - Man
+  - jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ darf hier nicht rauchen.
+Kann ___ mir am Bankschalter helfen?

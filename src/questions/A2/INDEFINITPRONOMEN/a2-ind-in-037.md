@@ -1,11 +1,12 @@
 ---
 id: a2-ind-in-037
 type: input-text
-hint: Indefinitpronomen — unbestimmte Sache = etwas
+hint: Indefinitpronomen — unbestimmte Person = jemand
 correct:
-  - etwas
+  - jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Ich habe ___ Wichtiges vergessen.
+Du suchst Hilfe im Kurs.
+Kann ___ mir helfen?

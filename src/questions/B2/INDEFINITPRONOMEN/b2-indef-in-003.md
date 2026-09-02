@@ -1,11 +1,11 @@
 ---
 id: b2-indef-in-003
 type: input-text
-hint: Indefinitpronomen — Alles / Etwas / Jemand / Niemand
+hint: Indefinitpronomen — alles / etwas / jemand / niemand
 correct:
-  - Jemand
+  - jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ hat die Tür offengelassen.
+Ich hoffe, ___ von euch kann mir helfen.

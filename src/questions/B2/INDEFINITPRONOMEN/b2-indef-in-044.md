@@ -1,11 +1,12 @@
 ---
 id: b2-indef-in-044
 type: input-text
-hint: Indefinitpronomen — Etwas / Jemand / Nichts / Niemand
+hint: Indefinitpronomen — etwas / jemand / jemanden / niemanden
 correct:
-  - Jemand
+  - jemanden
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ hat mir diese Nachricht geschickt.
+Du wartest auf Freunde an der Haltestelle.
+Hast du ___ von ihnen gesehen?

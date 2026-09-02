@@ -2,11 +2,12 @@
 id: b2-indef-037
 type: select-one
 options:
-  - Etwas
-  - Nichts
-  - Alles
-  - Jemand
-correct: Jemand
+  - jemand
+  - niemand
+  - alles
+  - nichts
+correct: nichts
 ---
 
-___ hat die Tür offengelassen. (Indefinitpronomen)
+Das Thema ist brandneu für dich.
+Ich habe ___ davon gehört. (Indefinitpronomen)

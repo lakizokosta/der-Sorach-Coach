@@ -9,4 +9,5 @@ options:
 correct: jemand
 ---
 
-Ich hoffe, ___ von euch kann mir helfen. (Indefinitpronomen)
+Du suchst Hilfe bei den Anwesenden.
+Ich hoffe, ___ von euch kann helfen. (Indefinitpronomen)

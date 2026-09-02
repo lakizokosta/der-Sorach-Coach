@@ -2,11 +2,12 @@
 id: b2-indef-033
 type: select-one
 options:
-  - niemand
   - jemand
+  - niemand
   - alles
-  - etwas
-correct: etwas
+  - nichts
+correct: nichts
 ---
 
-Ich habe ___ Besonderes erwartet. (Indefinitpronomen)
+Der Zeuge will niemanden belasten.
+Er hat ___ Verdächtiges gesehen. (Indefinitpronomen)

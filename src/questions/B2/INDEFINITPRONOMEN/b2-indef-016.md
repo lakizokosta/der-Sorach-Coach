@@ -2,11 +2,11 @@
 id: b2-indef-016
 type: select-one
 options:
-  - niemand
   - jemand
+  - niemand
   - etwas
   - nichts
 correct: etwas
 ---
 
-Ich habe ___ Besonderes erwartet. (Indefinitpronomen)
+Ich habe ___ Besonderes von dir erwartet. (Indefinitpronomen)

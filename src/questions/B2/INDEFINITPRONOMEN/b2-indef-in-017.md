@@ -1,11 +1,11 @@
 ---
 id: b2-indef-in-017
 type: input-text
-hint: Indefinitpronomen — Alles / Etwas / Nichts / Niemand
+hint: Indefinitpronomen — alles / etwas / nichts / niemand
 correct:
-  - Niemand
+  - niemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ weiß die Antwort auf diese Frage.
+Bei dieser Frage weiß leider ___ die Antwort.

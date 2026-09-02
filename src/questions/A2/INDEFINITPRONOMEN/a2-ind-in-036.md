@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-036
 type: input-text
-hint: Indefinitpronomen — Verneinung Person = niemand
+hint: Indefinitpronomen — unbestimmte Person = jemand
 correct:
-  - niemand
+  - Jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Hier ist ___ zu Hause.
+___ ist da, der mir helfen kann.
