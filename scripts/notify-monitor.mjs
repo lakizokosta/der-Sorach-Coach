@@ -25,12 +25,11 @@ if (!reportPath) {
 const report = JSON.parse(readFileSync(reportPath, 'utf8'));
 
 if (!shouldSendMonitorEmail(report)) {
-  console.log('No redeploy e-mail needed (OK or non-redeploy WARN)');
+  console.log('No outage e-mail needed');
   process.exit(0);
 }
 
-const level = String(report.level || 'ok').toLowerCase();
-const redeployEmailDue = report.checks?.redeployEmailDue === true;
+const level = 'fail';
 const deployDate = String(report.checks?.deployLog?.lastDeployAt || 'unknown');
 
 const paymentJs = readFileSync(join(ROOT, 'src/data/payment.js'), 'utf8');
@@ -42,17 +41,12 @@ const NOTIFY_EMAIL_TO = process.env.NOTIFY_EMAIL_TO || 'lakizo.kosta@gmail.com';
 const RESEND_API_KEY = process.env.RESEND_API_KEY || '';
 const RESEND_FROM = process.env.RESEND_FROM || 'Der SprachCoach Monitor <onboarding@resend.dev>';
 
-const emoji = level === 'fail' ? '🚨' : '⏰';
-const subject = redeployEmailDue && level !== 'fail'
-  ? '[SprachCoach Monitor] OAuth läuft in ~24h ab — GAS redeploy'
-  : `[SprachCoach Monitor] ${level.toUpperCase()} — GAS redeploy`;
+const subject = '[SprachCoach Monitor] AUSFALL — Backend prüfen';
 
 const body = [
-  `${emoji} Der SprachCoach — Backend Monitor`,
+  '🚨 Der SprachCoach — Backend Monitor',
   '',
-  redeployEmailDue && level !== 'fail'
-    ? 'Proactive alert: OAuth token expires in approximately 24 hours.'
-    : `Level: ${level.toUpperCase()}`,
+  'Es wurde ein Ausfall erkannt (GAS/Worker nicht erreichbar oder ungültige Antwort).',
   `Time:        ${report.checkedAt}`,
   `Deploy date: ${deployDate}`,
   '',
@@ -83,7 +77,7 @@ async function sendViaGas() {
   const qs = new URLSearchParams({
     action: 'monitorNotify',
     secret: WEBHOOK_SECRET,
-    level: redeployEmailDue ? 'warn' : level,
+    level,
     deployDate,
     message: body.slice(0, 4500),
   });

@@ -5,7 +5,7 @@
  * Logic lives in src/utils/gasDeployLog.js (unit-tested).
  * Proactive e-mail: exactly when OAuth token expires in ~24h.
  *
- * Exit codes: 0 OK | 1 FAIL | 2 redeployEmailDue
+ * Exit codes: 0 OK | 1 outage detected (e-mail due)
  */
 
 import { readFileSync } from 'node:fs';
@@ -18,7 +18,7 @@ import {
   DEFAULT_OAUTH_TOKEN_LIFETIME_DAYS,
   parseDeployLog,
 } from '../src/utils/gasDeployLog.js';
-import { monitorExitCode } from '../src/utils/monitorNotify.js';
+import { monitorExitCode, shouldSendMonitorEmail } from '../src/utils/monitorNotify.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -193,6 +193,7 @@ async function main() {
   report.level = level;
   report.messages = messages;
   report.checks.redeployEmailDue = redeployEmailDue;
+  report.checks.outageDetected = shouldSendMonitorEmail(report);
 
   if (asJson) {
     console.log(JSON.stringify(report, null, 2));
@@ -203,12 +204,15 @@ async function main() {
     }
     if (messages.length === 0) console.log('✅ All checks passed');
     if (redeployEmailDue) {
-      console.log('\n📧 Proactive redeploy e-mail due (~24h before OAuth expiry)\n');
+      console.log('\n⏰ OAuth redeploy due in ~24h (no e-mail — outage-only alerts)\n');
+    }
+    if (report.checks.outageDetected) {
+      console.log('\n📧 Outage detected — e-mail will be sent\n');
     }
     console.log(`Level: ${level.toUpperCase()}\n`);
   }
 
-  process.exit(monitorExitCode(level, redeployEmailDue));
+  process.exit(monitorExitCode(report));
 }
 
 main().catch((err) => {

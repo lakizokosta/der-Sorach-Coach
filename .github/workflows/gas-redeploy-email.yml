@@ -1,7 +1,7 @@
 name: GAS redeploy email reminder
 
 # Manual smoke test only. Scheduled checks run in backend-health.yml (hourly).
-# Custom e-mail is sent only when redeploy or backend failure is detected.
+# Custom e-mail is sent only when a live backend outage is detected.
 
 on:
   workflow_dispatch:
