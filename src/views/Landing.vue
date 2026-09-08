@@ -19,6 +19,8 @@ import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { useCefrLevel } from '@/composables/useCefrLevel.js';
+import { useLoginModal } from '@/composables/useLoginModal.js';
+import { hasBackend } from '@/utils/api.js';
 import { useI18n } from '@/i18n/index.js';
 
 const router = useRouter();
@@ -29,6 +31,7 @@ const { state: streak } = useStreak();
 const { state: xp, level } = useXp();
 const { isPremium, isBasis } = usePremium();
 const { level: cefrLevel } = useCefrLevel();
+const { openLogin } = useLoginModal();
 const conversionSheetOpen = ref(false);
 
 const summaryText = computed(() => {
@@ -66,6 +69,10 @@ const showProgressSection = computed(
 
 const showFreeBadge = computed(
   () => !isPremium.value && !isBasis.value,
+);
+
+const showLoginBtn = computed(
+  () => hasBackend() && !isLoggedIn.value && !isPremium.value && !isBasis.value,
 );
 
 const subtitleLines = computed(() => t('landing.subtitle').split(' — '));
@@ -201,6 +208,15 @@ function openProfile() {
         </div>
 
         <NiveauTestBlock @locked="onNiveauLocked" />
+
+        <button
+          v-if="showLoginBtn"
+          type="button"
+          class="landing-login-btn"
+          @click="openLogin"
+        >
+          🔑 {{ t('login.fabLabel') }}
+        </button>
 
         <button
           type="button"
