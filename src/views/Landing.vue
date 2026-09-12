@@ -1,6 +1,7 @@
 <script setup>
 /**
- * Landing — game-first home. Tarife & Login live on Premium Hub (`/premium?hub=1`).
+ * Landing — game-first home. Free levels + Premium training panel
+ * (locked teaser for free users). Tarife checkout: `/premium?hub=1`.
  */
 
 import { computed, ref } from 'vue';
@@ -14,6 +15,7 @@ import SchwaechenCard from '@/components/SchwaechenCard.vue';
 import LegalFooter from '@/components/LegalFooter.vue';
 import NiveauTestBlock from '@/components/NiveauTestBlock.vue';
 import ConversionSheet from '@/components/ConversionSheet.vue';
+import TrainingHubPanel from '@/components/TrainingHubPanel.vue';
 import { useAuth } from '@/composables/useAuth.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
@@ -33,6 +35,7 @@ const { isPremium, isBasis } = usePremium();
 const { level: cefrLevel } = useCefrLevel();
 const { openLogin } = useLoginModal();
 const conversionSheetOpen = ref(false);
+const conversionVariant = ref('niveau');
 
 const summaryText = computed(() => {
   const parts = [];
@@ -75,6 +78,9 @@ const showLoginBtn = computed(
   () => hasBackend() && !isLoggedIn.value && !isPremium.value && !isBasis.value,
 );
 
+/** Free level grid stays for free/Basis; Premium uses TrainingHubPanel. */
+const showFreeLevelGrid = computed(() => !isPremium.value);
+
 const subtitleLines = computed(() => t('landing.subtitle').split(' — '));
 
 function startTrainer(lvl) {
@@ -89,8 +95,17 @@ function openPremiumHub() {
   router.push({ name: 'premium', query: { hub: '1' } });
 }
 
-function onNiveauLocked() {
+function openConversion(variant = 'checkout') {
+  conversionVariant.value = variant;
   conversionSheetOpen.value = true;
+}
+
+function onNiveauLocked() {
+  openConversion('niveau');
+}
+
+function onPremiumLocked() {
+  openConversion('checkout');
 }
 
 function openProfile() {
@@ -167,47 +182,56 @@ function openProfile() {
         class="landing-section landing-section--levels landing-block"
         :aria-label="t('landing.sectionStart')"
       >
-        <div class="landing-level-pick">
-          <h2 class="landing-level-pick__title">{{ t('landing.levelPickTitle') }}</h2>
-          <p class="landing-level-pick__hint">{{ t('landing.startA1Hint') }}</p>
-        </div>
+        <template v-if="showFreeLevelGrid">
+          <div class="landing-level-pick">
+            <h2 class="landing-level-pick__title">{{ t('landing.levelPickTitle') }}</h2>
+            <p class="landing-level-pick__hint">{{ t('landing.startA1Hint') }}</p>
+          </div>
 
-        <div class="level-grid level-grid--landing">
-          <button
-            type="button"
-            class="level-card level-card--a1"
-            @click="startTrainer('A1')"
-          >
-            <div class="level-name">A1</div>
-            <div class="level-desc">{{ t('landing.levelA1') }}</div>
-          </button>
-          <button
-            type="button"
-            class="level-card level-card--b1"
-            @click="startTrainer('B1')"
-          >
-            <div class="level-name">B1</div>
-            <div class="level-desc">{{ t('landing.levelB1') }}</div>
-          </button>
-          <button
-            type="button"
-            class="level-card level-card--a2"
-            @click="startTrainer('A2')"
-          >
-            <div class="level-name">A2</div>
-            <div class="level-desc">{{ t('landing.levelA2') }}</div>
-          </button>
-          <button
-            type="button"
-            class="level-card level-card--b2"
-            @click="startTrainer('B2')"
-          >
-            <div class="level-name">B2</div>
-            <div class="level-desc">{{ t('landing.levelB2') }}</div>
-          </button>
-        </div>
+          <div class="level-grid level-grid--landing">
+            <button
+              type="button"
+              class="level-card level-card--a1"
+              @click="startTrainer('A1')"
+            >
+              <div class="level-name">A1</div>
+              <div class="level-desc">{{ t('landing.levelA1') }}</div>
+            </button>
+            <button
+              type="button"
+              class="level-card level-card--b1"
+              @click="startTrainer('B1')"
+            >
+              <div class="level-name">B1</div>
+              <div class="level-desc">{{ t('landing.levelB1') }}</div>
+            </button>
+            <button
+              type="button"
+              class="level-card level-card--a2"
+              @click="startTrainer('A2')"
+            >
+              <div class="level-name">A2</div>
+              <div class="level-desc">{{ t('landing.levelA2') }}</div>
+            </button>
+            <button
+              type="button"
+              class="level-card level-card--b2"
+              @click="startTrainer('B2')"
+            >
+              <div class="level-name">B2</div>
+              <div class="level-desc">{{ t('landing.levelB2') }}</div>
+            </button>
+          </div>
+        </template>
 
         <NiveauTestBlock @locked="onNiveauLocked" />
+
+        <TrainingHubPanel
+          class="landing-block"
+          :locked="!isPremium"
+          :initial-level="continueLevel"
+          @unlock="onPremiumLocked"
+        />
 
         <button
           v-if="showLoginBtn"
@@ -219,6 +243,7 @@ function openProfile() {
         </button>
 
         <button
+          v-if="!isPremium"
           type="button"
           class="landing-more-btn"
           @click="openPremiumHub"
@@ -245,7 +270,7 @@ function openProfile() {
         <div class="landing-progress">
           <DailyGoalCard />
           <BonusMissionsCard />
-          <SchwaechenCard />
+          <SchwaechenCard @locked="onPremiumLocked" />
           <ActivityCalendar />
         </div>
       </section>
@@ -255,7 +280,7 @@ function openProfile() {
 
     <ConversionSheet
       v-model="conversionSheetOpen"
-      variant="niveau"
+      :variant="conversionVariant"
       plan="3months"
     />
   </div>

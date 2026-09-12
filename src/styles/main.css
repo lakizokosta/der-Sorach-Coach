@@ -508,6 +508,67 @@ button:not(:disabled):not(.logo-wrap) {
   min-width: 0;
   max-width: 100%;
 }
+.training-hub-panel__head {
+  margin-bottom: 12px;
+}
+.training-hub-panel__title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 900;
+  color: #5b2a6b;
+}
+.training-hub-panel__gem {
+  margin-left: 4px;
+  font-size: 14px;
+}
+.training-hub-panel__hint {
+  margin: 6px 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #888;
+  line-height: 1.35;
+}
+.training-hub-panel__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+.training-hub-panel__count {
+  font-size: 11px;
+  font-weight: 700;
+  color: #ab4dbb;
+  white-space: nowrap;
+  padding: 2px 8px;
+  background: #f3e8f9;
+  border-radius: 20px;
+}
+.training-hub-panel__ok {
+  margin-left: 4px;
+}
+.training-hub-panel--locked {
+  filter: grayscale(0.55);
+  opacity: 0.88;
+  background: linear-gradient(180deg, #f7f5f8 0%, #fafafa 100%);
+  border-radius: 16px;
+  padding: 14px 12px 16px;
+  border: 1.5px solid #e0c8f0;
+  border-top: 1.5px solid #e0c8f0;
+}
+.training-hub-panel--locked .premium-mode-switch {
+  background: #ebe7ee;
+}
+.training-hub-panel--locked .premium-random-start__btn--locked,
+.premium-random-start__btn--locked {
+  background: #c4b0cc;
+  box-shadow: none;
+  color: #fff;
+}
+.schwaechen-card--locked {
+  filter: grayscale(0.45);
+  opacity: 0.9;
+  border-color: #ddd;
+}
 .premium-mode-switch {
   display: flex;
   gap: 6px;

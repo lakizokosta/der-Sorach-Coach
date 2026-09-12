@@ -29,15 +29,11 @@ import ActivityCalendar from '@/components/ActivityCalendar.vue';
 import NiveauTestBlock from '@/components/NiveauTestBlock.vue';
 import PricingCompare from '@/components/PricingCompare.vue';
 import LegalFooter from '@/components/LegalFooter.vue';
+import TrainingHubPanel from '@/components/TrainingHubPanel.vue';
 
-import { PREMIUM_TOPICS, getTopicsForLevel } from '@/data/premiumTopics.js';
-import { getTopicQuestionCount } from '@/data/questions.js';
-import { getVocabSetsForLevel } from '@/data/vocabularySets.js';
-import { getVocabSetQuestionCount } from '@/data/questionsVocab.js';
 import { usePremium } from '@/composables/usePremium.js';
 import { useStreak } from '@/composables/useStreak.js';
-import { useXp, getLevel } from '@/composables/useXp.js';
-import { isTopicMastered } from '@/composables/useXp.js';
+import { useXp } from '@/composables/useXp.js';
 import { useAuth } from '@/composables/useAuth.js';
 import { useCefrLevel } from '@/composables/useCefrLevel.js';
 import { loadString, saveString } from '@/composables/useStorage.js';
@@ -70,7 +66,6 @@ const backendOn = hasBackend();
 const isDev = import.meta.env.DEV;
 
 const activeLevel = ref('A1');
-const trainingMode = ref('random');
 const code = ref('');
 /** E-mail for Stripe / PayPal checkout (no login required). */
 const buyEmail = ref(auth.email || loadString(USER_EMAIL_KEY) || '');
@@ -87,8 +82,6 @@ const isHubMode = computed(() => route.query.hub === '1');
 const showTopicCatalog = computed(() => isPremium.value || isHubMode.value);
 /** Branding under logo on the active Premium home (not hub/checkout). */
 const showPremiumHero = computed(() => isPremium.value && !isHubMode.value);
-const topics = computed(() => getTopicsForLevel(activeLevel.value));
-const vocabSets = computed(() => getVocabSetsForLevel(activeLevel.value));
 
 const conversionSheetOpen = ref(false);
 const conversionVariant = ref('checkout');
@@ -267,24 +260,6 @@ function payBasisPaypal() {
 }
 
 /**
- * Returns the number of available questions for a topic in `activeLevel`.
- *
- * @param {string} topicKey
- * @return {number}
- */
-function questionCount(topicKey) {
-  return getTopicQuestionCount(activeLevel.value, topicKey);
-}
-
-/**
- * @param {string} setKey
- * @return {number}
- */
-function vocabQuestionCount(setKey) {
-  return getVocabSetQuestionCount(activeLevel.value, setKey);
-}
-
-/**
  * Submits the activation code and (optional) e-mail to the backend.
  * Updates the status message in-place. When no backend is configured
  * the call resolves locally against the demo activator.
@@ -366,58 +341,17 @@ async function signOut() {
   window.location.assign(router.resolve({ name: 'landing' }).href);
 }
 
-/**
- * Starts a training session focussed on the chosen topic.
- *
- * @param {string} topicKey
- */
-function trainTopic(topicKey) {
-  if (!isPremium.value) return;
-  const query = {
-    level: activeLevel.value,
-    topic: topicKey,
-    mode: 'premium',
-  };
-  if (isHubMode.value) query.returnTo = 'hub';
-  router.push({ name: 'trainer', query });
-}
-
-/** Random mixed training for one CEFR level (all topics). */
-function trainRandomLevel(lvl) {
-  if (!isPremium.value) return;
-  const query = { level: lvl, mode: 'premium' };
-  if (isHubMode.value) query.returnTo = 'hub';
-  router.push({ name: 'trainer', query });
-}
-
-/** Wortschatz training for one themed set. */
-function trainVocabSet(setKey) {
-  if (!isPremium.value) return;
-  const query = {
-    level: activeLevel.value,
-    set: setKey,
-    mode: 'vocab',
-  };
-  if (isHubMode.value) query.returnTo = 'hub';
-  router.push({ name: 'trainer', query });
-}
-
 function openProfile() {
   router.push({ name: 'profile' });
 }
 
-/** Locked topic tap in hub mode — open quick checkout. */
-function onTopicClick(_topicKey) {
-  if (isPremium.value) {
-    trainTopic(_topicKey);
-    return;
-  }
-  conversionVariant.value = 'checkout';
+function onNiveauLocked() {
+  conversionVariant.value = 'niveau';
   conversionSheetOpen.value = true;
 }
 
-function onNiveauLocked() {
-  conversionVariant.value = 'niveau';
+function onTrainingLocked() {
+  conversionVariant.value = 'checkout';
   conversionSheetOpen.value = true;
 }
 
@@ -427,11 +361,6 @@ function goPremiumBack() {
     return;
   }
   router.push({ name: 'landing' });
-}
-
-/** Returns true when the topic has been mastered (50+ correct). */
-function topicMastered(key) {
-  return isTopicMastered(key);
 }
 </script>
 
@@ -923,152 +852,13 @@ function topicMastered(key) {
           <NiveauTestBlock />
         </div>
 
-        <!-- Premium training: one level picker + random / topics mode -->
-        <section
+        <!-- Premium training: shared hub panel -->
+        <TrainingHubPanel
           v-if="isPremium"
-          class="premium-training"
-          :aria-label="t('premium.trainingAria')"
-        >
-          <div class="premium-mode-switch" role="tablist">
-            <button
-              type="button"
-              role="tab"
-              class="premium-mode-switch__btn"
-              :class="{ 'premium-mode-switch__btn--active': trainingMode === 'random' }"
-              :aria-selected="trainingMode === 'random'"
-              @click="trainingMode = 'random'"
-            >
-              {{ t('premium.modeRandom') }}
-            </button>
-            <button
-              type="button"
-              role="tab"
-              class="premium-mode-switch__btn"
-              :class="{ 'premium-mode-switch__btn--active': trainingMode === 'topics' }"
-              :aria-selected="trainingMode === 'topics'"
-              @click="trainingMode = 'topics'"
-            >
-              {{ t('premium.modeTopics') }}
-            </button>
-            <button
-              type="button"
-              role="tab"
-              class="premium-mode-switch__btn"
-              :class="{ 'premium-mode-switch__btn--active': trainingMode === 'vocab' }"
-              :aria-selected="trainingMode === 'vocab'"
-              @click="trainingMode = 'vocab'"
-            >
-              {{ t('premium.modeVocab') }}
-            </button>
-          </div>
-
-          <div
-            class="premium-level-tabs premium-level-tabs--sticky"
-            role="tablist"
-            :aria-label="t('premium.chooseLevel')"
-          >
-            <button
-              v-for="lvl in PREMIUM_LEVELS"
-              :key="lvl"
-              type="button"
-              role="tab"
-              class="premium-level-tab"
-              :class="{ 'premium-level-tab--active': activeLevel === lvl }"
-              :aria-selected="activeLevel === lvl"
-              @click="activeLevel = lvl"
-            >
-              {{ lvl }}
-            </button>
-          </div>
-
-          <div v-if="trainingMode === 'random'" class="premium-random-start">
-            <p class="premium-random-start__hint">{{ t('premium.randomTrainingHint') }}</p>
-            <button
-              type="button"
-              class="premium-random-start__btn"
-              @click="trainRandomLevel(activeLevel)"
-            >
-              {{ t('premium.startRandomLevel', { level: activeLevel }) }}
-            </button>
-          </div>
-
-          <div v-else-if="trainingMode === 'topics'" class="topic-grid">
-            <button
-              v-for="topicItem in topics"
-              :key="topicItem.key"
-              type="button"
-              class="topic-btn"
-              @click="onTopicClick(topicItem.key)"
-            >
-              <div
-                style="
-                  display: flex;
-                  justify-content: space-between;
-                  align-items: flex-start;
-                  gap: 8px;
-                "
-              >
-                <div class="topic-name">
-                  {{ topicItem.name }}
-                  <span v-if="topicMastered(topicItem.key)" style="margin-left: 4px;">✅</span>
-                </div>
-                <div
-                  style="
-                    font-size: 11px;
-                    font-weight: 700;
-                    color: #AB4DBB;
-                    white-space: nowrap;
-                    padding: 2px 8px;
-                    background: #f3e8f9;
-                    border-radius: 20px;
-                  "
-                >
-                  {{ t('premium.questionsCount', { count: questionCount(topicItem.key) }) }}
-                </div>
-              </div>
-              <div class="topic-desc">{{ topicItem.desc }}</div>
-            </button>
-          </div>
-
-          <div v-else class="topic-grid">
-            <p v-if="!vocabSets.length" class="premium-vocab-empty">
-              {{ t('premium.vocabEmpty', { level: activeLevel }) }}
-            </p>
-            <button
-              v-for="setItem in vocabSets"
-              :key="setItem.key"
-              type="button"
-              class="topic-btn topic-btn--vocab"
-              :style="{ '--vocab-accent': setItem.theme?.accent || '#ab4dbb' }"
-              @click="trainVocabSet(setItem.key)"
-            >
-              <div
-                style="
-                  display: flex;
-                  justify-content: space-between;
-                  align-items: flex-start;
-                  gap: 8px;
-                "
-              >
-                <div class="topic-name">{{ setItem.name }}</div>
-                <div
-                  style="
-                    font-size: 11px;
-                    font-weight: 700;
-                    color: #AB4DBB;
-                    white-space: nowrap;
-                    padding: 2px 8px;
-                    background: #f3e8f9;
-                    border-radius: 20px;
-                  "
-                >
-                  {{ t('premium.questionsCount', { count: vocabQuestionCount(setItem.key) }) }}
-                </div>
-              </div>
-              <div class="topic-desc">{{ setItem.desc }}</div>
-            </button>
-          </div>
-        </section>
+          :locked="false"
+          :return-to-hub="isHubMode"
+          :initial-level="activeLevel"
+        />
 
         <section
           v-if="isPremium"
@@ -1084,82 +874,15 @@ function topicMastered(key) {
           </div>
         </section>
 
-        <!-- Hub topic preview (locked, non-Premium) -->
+        <!-- Hub preview for free users (locked) -->
         <div v-else-if="showTopicCatalog" class="premium-topic-catalog">
           <NiveauTestBlock @locked="onNiveauLocked" />
-
-          <div class="premium-topic-catalog__head">
-            <div style="font-weight: 900;">{{ t('premium.topicsHeading') }}</div>
-            <p class="premium-topic-catalog__hint">
-              {{
-                isPremium
-                  ? t('premium.hubTopicsHintActive')
-                  : t('premium.hubTopicsHint')
-              }}
-            </p>
-          </div>
-
-          <div style="margin-top: 12px;">
-            <div style="font-weight: 900; margin-bottom: 10px;">{{ t('premium.chooseLevel') }}</div>
-            <div
-              class="premium-level-tabs premium-level-tabs--sticky"
-              role="tablist"
-              :aria-label="t('premium.chooseLevel')"
-            >
-              <button
-                v-for="lvl in PREMIUM_LEVELS"
-                :key="lvl"
-                type="button"
-                role="tab"
-                class="premium-level-tab"
-                :class="{ 'premium-level-tab--active': activeLevel === lvl }"
-                :aria-selected="activeLevel === lvl"
-                @click="activeLevel = lvl"
-              >
-                {{ lvl }}
-              </button>
-            </div>
-          </div>
-
-          <div class="topic-grid">
-            <button
-              v-for="topicItem in topics"
-              :key="topicItem.key"
-              type="button"
-              class="topic-btn"
-              :class="{ 'topic-btn--locked': !isPremium }"
-              @click="onTopicClick(topicItem.key)"
-            >
-              <div
-                style="
-                  display: flex;
-                  justify-content: space-between;
-                  align-items: flex-start;
-                  gap: 8px;
-                "
-              >
-                <div class="topic-name">
-                  {{ topicItem.name }}
-                  <span v-if="isPremium && topicMastered(topicItem.key)" style="margin-left: 4px;">✅</span>
-                  <span v-if="!isPremium" class="topic-btn__lock">💎</span>
-                </div>
-                <div
-                  style="
-                    font-size: 11px;
-                    font-weight: 700;
-                    color: #AB4DBB;
-                    white-space: nowrap;
-                    padding: 2px 8px;
-                    background: #f3e8f9;
-                    border-radius: 20px;
-                  "
-                >
-                  {{ t('premium.questionsCount', { count: questionCount(topicItem.key) }) }}
-                </div>
-              </div>
-              <div class="topic-desc">{{ topicItem.desc }}</div>
-            </button>
-          </div>
+          <TrainingHubPanel
+            :locked="true"
+            :return-to-hub="isHubMode"
+            :initial-level="activeLevel"
+            @unlock="onTrainingLocked"
+          />
         </div>
 
         <div
