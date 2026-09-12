@@ -1,8 +1,7 @@
 <script setup>
 /**
  * App — top-level layout. Renders the active route plus persistent FABs
- * (login on Premium Hub, Support / Kontakt) and their modals.
- * Landing login is the in-page Anmelden button, not the FAB.
+ * (Anmelden above Support / Kontakt) and their modals.
  */
 
 import { computed, ref } from 'vue';
@@ -20,7 +19,7 @@ import { useI18n } from '@/i18n/index.js';
 
 const route = useRoute();
 const { isLoggedIn } = useAuth();
-const { isPremium, entitlementsReady, backendDegraded } = usePremium();
+const { isPremium, isBasis, entitlementsReady, backendDegraded } = usePremium();
 const { t } = useI18n();
 
 const bootstrapping = computed(() => hasBackend() && !entitlementsReady.value);
@@ -31,8 +30,7 @@ const { showLogin, openLogin, closeLogin } = useLoginModal();
 const showLoginFab = computed(() => {
   if (!hasBackend() || isLoggedIn.value || isPremium.value) return false;
   if (route.name === 'trainer') return false;
-  // Landing has its own Anmelden button — FAB only on Premium Hub.
-  if (route.name === 'landing') return false;
+  if (route.name === 'landing') return !isBasis.value;
   return route.name === 'premium' && route.query.hub === '1';
 });
 </script>
