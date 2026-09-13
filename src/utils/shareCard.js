@@ -232,7 +232,17 @@ function drawNickname(ctx, cx, y, nickname, scale) {
   const name = (nickname || 'Lernender').trim().slice(0, 24);
   const initial = (name[0] || 'L').toUpperCase();
   const avatarR = 28 * scale;
-  const avatarX = cx - 120 * scale;
+  const gap = 16 * scale;
+
+  setFont(ctx, 'bold', Math.round(36 * scale));
+  const nameW = ctx.measureText(name).width;
+  setFont(ctx, 'normal', Math.round(22 * scale));
+  const subW = ctx.measureText('Mein Deutsch-Fortschritt').width;
+  const textW = Math.max(nameW, subW);
+  const totalW = avatarR * 2 + gap + textW;
+  const left = cx - totalW / 2;
+  const avatarX = left + avatarR;
+  const textX = left + avatarR * 2 + gap;
 
   ctx.fillStyle = 'rgba(255,255,255,0.2)';
   ctx.beginPath();
@@ -248,7 +258,6 @@ function drawNickname(ctx, cx, y, nickname, scale) {
   ctx.textBaseline = 'middle';
   ctx.fillText(initial, px(avatarX), px(y));
 
-  const textX = cx - 78 * scale;
   ctx.textAlign = 'left';
   setFont(ctx, 'bold', Math.round(36 * scale));
   ctx.fillText(name, px(textX), px(y - 6 * scale));
@@ -330,15 +339,20 @@ function drawPlacementBreakdown(ctx, cx, y, level, breakdown, isStory) {
   let rowY = y;
   const fontSize = isStory ? 24 : 20;
   const lineH = isStory ? 36 : 30;
+  const colGap = isStory ? 28 : 22;
   for (const row of breakdown) {
     const highlight = row.level === level;
     ctx.fillStyle = highlight ? ACCENT : TEXT_MUTED;
     setFont(ctx, highlight ? 'bold' : 'normal', fontSize);
-    ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
+
+    ctx.textAlign = 'right';
+    ctx.fillText(row.level, px(cx - colGap), px(rowY));
+
+    ctx.textAlign = 'left';
     ctx.fillText(
-      `${row.level}: ${row.correct}/${row.total} (${row.pct}%)`,
-      px(cx),
+      `${row.correct}/${row.total} · ${row.pct}%`,
+      px(cx + colGap),
       px(rowY),
     );
     rowY += lineH;
@@ -506,39 +520,53 @@ function drawBadges(ctx, cx, y, badges, maxW, scale) {
   }
 
   const padX = 18 * scale;
-  const padY = 10 * scale;
   const rowH = 44 * scale;
   const gap = 12 * scale;
   const fontSize = Math.round(22 * scale);
   setFont(ctx, 'bold', fontSize);
 
-  let rowX = cx - maxW / 2;
-  let rowY = y;
-  let rowBottom = y;
-
+  /** @type {!Array<!Array<{text:string, tw:number}>>} */
+  const rows = [[]];
+  let rowW = 0;
   for (const badge of list) {
     const text = `${badge.emoji} ${badge.label}`;
     const tw = ctx.measureText(text).width + padX * 2;
-    if (rowX + tw > cx + maxW / 2 && rowX > cx - maxW / 2) {
-      rowX = cx - maxW / 2;
-      rowY += rowH + gap;
+    const current = rows[rows.length - 1];
+    const nextW = current.length ? rowW + gap + tw : tw;
+    if (current.length && nextW > maxW) {
+      rows.push([{ text, tw }]);
+      rowW = tw;
+    } else {
+      current.push({ text, tw });
+      rowW = nextW;
     }
+  }
 
-    ctx.fillStyle = 'rgba(255,215,0,0.22)';
-    roundRect(ctx, rowX, rowY, tw, rowH, rowH / 2);
-    ctx.fill();
-    ctx.strokeStyle = 'rgba(255,215,0,0.55)';
-    ctx.lineWidth = 2;
-    roundRect(ctx, rowX, rowY, tw, rowH, rowH / 2);
-    ctx.stroke();
+  let rowY = y;
+  let rowBottom = y;
+  for (const row of rows) {
+    const total =
+      row.reduce((sum, b) => sum + b.tw, 0) + Math.max(0, row.length - 1) * gap;
+    let rowX = cx - total / 2;
+    for (const badge of row) {
+      ctx.fillStyle = 'rgba(255,215,0,0.22)';
+      roundRect(ctx, rowX, rowY, badge.tw, rowH, rowH / 2);
+      ctx.fill();
+      ctx.strokeStyle = 'rgba(255,215,0,0.55)';
+      ctx.lineWidth = 2;
+      roundRect(ctx, rowX, rowY, badge.tw, rowH, rowH / 2);
+      ctx.stroke();
 
-    ctx.fillStyle = '#fff8e1';
-    ctx.textAlign = 'left';
-    ctx.textBaseline = 'middle';
-    ctx.fillText(text, rowX + padX, rowY + rowH / 2);
+      ctx.fillStyle = '#fff8e1';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      setFont(ctx, 'bold', fontSize);
+      ctx.fillText(badge.text, px(rowX + badge.tw / 2), px(rowY + rowH / 2));
 
-    rowX += tw + gap;
-    rowBottom = rowY + rowH;
+      rowX += badge.tw + gap;
+      rowBottom = rowY + rowH;
+    }
+    rowY += rowH + gap;
   }
 
   return rowBottom;
@@ -590,6 +618,7 @@ function renderShareCard(data, ctx, w, h) {
 
   const innerH = h - pad * 2;
   const innerW = w - pad * 2;
+  const contentW = innerW - (isStory ? 96 : 72);
   ctx.fillStyle = 'rgba(255,255,255,0.08)';
   roundRect(ctx, pad, pad, innerW, innerH, isStory ? 56 : 48);
   ctx.fill();
@@ -598,45 +627,31 @@ function renderShareCard(data, ctx, w, h) {
   roundRect(ctx, pad, pad, innerW, innerH, isStory ? 56 : 48);
   ctx.stroke();
 
-  if (cefrLevel) {
-    const badgeW = isStory ? 220 : 188;
-    const badgeH = isStory ? 56 : 48;
-    const bx = w - pad - badgeW - 10;
-    const by = pad + (isStory ? 40 : 32);
-    ctx.fillStyle = 'rgba(255,215,0,0.95)';
-    roundRect(ctx, bx, by, badgeW, badgeH, badgeH / 2);
-    ctx.fill();
-    ctx.fillStyle = '#3d0f5c';
-    setFont(ctx, 'bold', isStory ? 26 : 24);
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    ctx.fillText(`Niveau ${cefrLevel}`, px(bx + badgeW / 2), px(by + badgeH / 2));
-  }
-
   const bottomZones = measureBottomZones(isStory, streak.longestStreak > 0);
-  const bottomGap = isStory ? 12 : 8;
+  const bottomGap = isStory ? 14 : 10;
   const cardBottom = h - pad;
   const footerTop = cardBottom - bottomZones.footerH;
   const closingTop = footerTop - bottomGap - bottomZones.closingH;
   const summaryTop = closingTop - bottomGap - bottomZones.summaryH;
   const upperMaxY = summaryTop - (isStory ? 18 : 12);
-  const bottomBlockW = innerW - (isStory ? 96 : 72);
+  const bottomBlockW = contentW;
 
   const compact = hasPlacement && !isStory;
   const ringR = isStory ? 108 : (compact ? 50 : 64);
   const ringLine = isStory ? 20 : (compact ? 10 : 12);
   const ringOuter = ringR + (isStory ? 34 : (compact ? 22 : 28));
   const ringZoneH = ringOuter * 2 + (isStory ? 20 : (compact ? 8 : 12));
+  const cefrBandH = cefrLevel ? (isStory ? 64 : 52) : 0;
   const placementH = hasPlacement ? (isStory ? 220 : 181) : 0;
   const sectionHeights = isStory
-    ? { header: 40, nickname: 78, ring: ringZoneH, stats: 136, placement: placementH, week: 108, badges: 56 }
-    : { header: 32, nickname: compact ? 50 : 58, ring: ringZoneH, stats: compact ? 88 : 96, placement: placementH, week: 92, badges: 50 };
-  const sectionCount = Object.keys(sectionHeights).length;
-  const contentMin = Object.values(sectionHeights).reduce((sum, n) => sum + n, 0);
-  let gap = Math.max(isStory ? 18 : 12, (upperMaxY - pad - contentMin) / (sectionCount + 1));
-  if (gap < (isStory ? 14 : 8)) {
-    gap = isStory ? 14 : 8;
-  }
+    ? { header: 40, nickname: 78, cefr: cefrBandH, ring: ringZoneH, stats: 136, placement: placementH, week: 108, badges: 56 }
+    : { header: 32, nickname: compact ? 50 : 58, cefr: cefrBandH, ring: ringZoneH, stats: compact ? 88 : 96, placement: placementH, week: 92, badges: 50 };
+  const activeHeights = Object.values(sectionHeights).filter((n) => n > 0);
+  const sectionCount = activeHeights.length;
+  const contentMin = activeHeights.reduce((sum, n) => sum + n, 0);
+  const evenGap = isStory ? 18 : 14;
+  let gap = Math.max(evenGap, (upperMaxY - pad - contentMin) / (sectionCount + 1));
+  if (gap < evenGap) gap = evenGap;
 
   let y = pad + gap;
 
@@ -648,6 +663,22 @@ function renderShareCard(data, ctx, w, h) {
   y += sectionHeights.header + gap;
 
   y = drawNickname(ctx, cx, y + (isStory ? 22 : 16) * scale, nickname, scale) + gap;
+
+  if (cefrLevel) {
+    const badgeW = isStory ? 220 : 188;
+    const badgeH = isStory ? 52 : 44;
+    const bx = cx - badgeW / 2;
+    const by = y;
+    ctx.fillStyle = 'rgba(255,215,0,0.95)';
+    roundRect(ctx, bx, by, badgeW, badgeH, badgeH / 2);
+    ctx.fill();
+    ctx.fillStyle = '#3d0f5c';
+    setFont(ctx, 'bold', isStory ? 26 : 22);
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(`Niveau ${cefrLevel}`, px(cx), px(by + badgeH / 2));
+    y += sectionHeights.cefr + gap;
+  }
 
   const ringY = y + ringOuter;
   drawRing(
@@ -672,12 +703,12 @@ function renderShareCard(data, ctx, w, h) {
   ctx.fillText(level.name, px(cx), px(ringY + (isStory ? 36 : 24)));
   y += sectionHeights.ring + gap;
 
-  const tileW = isStory ? 280 : Math.floor((innerW - 48 - 36) / 3);
+  const tileGap = isStory ? 24 : 16;
+  const tileW = Math.floor((contentW - tileGap * 2) / 3);
   const tileH = isStory ? 130 : (compact ? 80 : 88);
-  const tileGap = isStory ? 24 : 18;
-  const tilesStart = (w - tileW * 3 - tileGap * 2) / 2;
+  const tilesStart = cx - (tileW * 3 + tileGap * 2) / 2;
   const statValueSize = isStory ? 56 : 40;
-  const statLabelSize = isStory ? 26 : 24;
+  const statLabelSize = isStory ? 26 : 22;
   drawStatTile(
     ctx,
     tilesStart,
@@ -723,7 +754,7 @@ function renderShareCard(data, ctx, w, h) {
     const blockPadY = isStory ? 18 : 14;
     const blockH = blockPadY * 2 + titleSize + titleGap
       + placementBreakdown.length * rowLineH;
-    const blockW = innerW - (isStory ? 120 : 96);
+    const blockW = contentW;
     const blockX = cx - blockW / 2;
     const blockTop = y;
 
@@ -740,7 +771,7 @@ function renderShareCard(data, ctx, w, h) {
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
     ctx.fillText(
-      `Einstufungtest · ${cefrLevel}`,
+      `Einstufungstest · ${cefrLevel}`,
       px(cx),
       px(blockTop + blockPadY),
     );
@@ -781,7 +812,7 @@ function renderShareCard(data, ctx, w, h) {
       cx,
       y + (isStory ? 28 : 22),
       badges.slice(0, badgeLimit),
-      innerW - 80,
+      contentW,
       scale,
     ) + gap;
   }
