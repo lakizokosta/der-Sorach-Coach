@@ -2,10 +2,10 @@
  * @fileoverview Vue Router configuration for Der SprachCoach.
  *
  * Named routes:
- *   - landing  (`/`)         The home screen.
+ *   - landing  (`/`)         Shared home (free + Premium training panel).
  *   - trainer  (`/trainer`)  The question-flow screen. Requires `level`
  *                            query param plus optional `topic` and `mode`.
- *   - premium  (`/premium`)  Activation + topic-selection screen.
+ *   - premium  (`/premium`)  Checkout / activation (not the main home).
  *   - profile  (`/profile`)  Learner dashboard (mini for Free, full for Premium).
  */
 
@@ -43,9 +43,10 @@ const router = createRouter({
 router.beforeEach((to) => {
   const { isPremium, entitlementsReady } = usePremium();
 
-  if (to.name === 'landing') {
-    if (isPremium.value) return { name: 'premium' };
-    return true;
+  // Landing is the shared home for free and Premium (training panel unlocks in-place).
+  // `/premium` stays for checkout / activation only (not when already Premium).
+  if (to.name === 'premium' && isPremium.value && to.query.focus !== 'basis') {
+    return { name: 'landing' };
   }
 
   if (to.name === 'trainer' && hasBackend() && entitlementsReady.value) {

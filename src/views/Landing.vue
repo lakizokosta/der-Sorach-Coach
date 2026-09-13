@@ -1,7 +1,8 @@
 <script setup>
 /**
- * Landing — game-first home. Free levels + Premium training panel
- * (locked teaser for free users). Tarife checkout: `/premium?hub=1`.
+ * Landing — same layout for free and Premium.
+ * Premium only unlocks features on this page (hub, Niveau, Schwächen) + profile.
+ * Tarife checkout: `/premium?hub=1`.
  */
 
 import { computed, ref } from 'vue';
@@ -48,17 +49,7 @@ const summaryText = computed(() => {
   return parts.join(' &nbsp;·&nbsp; ');
 });
 
-const continueLevel = computed(() => cefrLevel.value || 'A1');
-
-const continueLabel = computed(() =>
-  cefrLevel.value
-    ? t('landing.premiumContinue', { level: cefrLevel.value })
-    : t('landing.premiumContinueDefault'),
-);
-
-const showLocalPremiumBanner = computed(
-  () => (isPremium.value || isBasis.value) && !isLoggedIn.value,
-);
+const hubLevel = computed(() => cefrLevel.value || 'A1');
 
 const showProgressSection = computed(
   () =>
@@ -71,17 +62,10 @@ const showFreeBadge = computed(
   () => !isPremium.value && !isBasis.value,
 );
 
-/** Free level grid stays for free/Basis; Premium uses TrainingHubPanel. */
-const showFreeLevelGrid = computed(() => !isPremium.value);
-
 const subtitleLines = computed(() => t('landing.subtitle').split(' — '));
 
 function startTrainer(lvl) {
   router.push({ name: 'trainer', query: { level: lvl, mode: 'free' } });
-}
-
-function continuePractice() {
-  startTrainer(continueLevel.value);
 }
 
 function openPremiumHub() {
@@ -126,103 +110,56 @@ function openProfile() {
     </header>
 
     <div class="landing-stack">
-      <div
-        v-if="showLocalPremiumBanner"
-        class="landing-premium-banner landing-block"
-      >
-        <p class="landing-premium-banner__title">{{ t('landing.premiumActiveLocal') }}</p>
-        <p class="landing-premium-banner__hint">{{ t('landing.premiumActiveLocalHint') }}</p>
-        <button
-          type="button"
-          class="landing-premium-banner__btn"
-          @click="continuePractice"
-        >
-          {{ continueLabel }}
-        </button>
-        <button
-          v-if="isPremium"
-          type="button"
-          class="landing-more-btn landing-more-btn--secondary"
-          @click="openPremiumHub"
-        >
-          {{ t('premium.topicsHeading') }} →
-        </button>
-      </div>
-
-      <div
-        v-else-if="isLoggedIn && (isPremium || isBasis)"
-        class="landing-premium-banner landing-premium-banner--ok landing-block"
-      >
-        <p class="landing-premium-banner__title">{{ t('landing.premiumActiveLoggedIn') }}</p>
-        <button
-          type="button"
-          class="landing-premium-banner__btn"
-          @click="continuePractice"
-        >
-          {{ continueLabel }}
-        </button>
-        <button
-          v-if="isPremium"
-          type="button"
-          class="landing-more-btn landing-more-btn--secondary"
-          @click="openPremiumHub"
-        >
-          {{ t('premium.topicsHeading') }} →
-        </button>
-      </div>
-
       <section
         class="landing-section landing-section--levels landing-block"
         :aria-label="t('landing.sectionStart')"
       >
-        <template v-if="showFreeLevelGrid">
-          <div class="landing-level-pick">
-            <h2 class="landing-level-pick__title">{{ t('landing.levelPickTitle') }}</h2>
-            <p class="landing-level-pick__hint">{{ t('landing.startA1Hint') }}</p>
-          </div>
+        <div class="landing-level-pick">
+          <h2 class="landing-level-pick__title">{{ t('landing.levelPickTitle') }}</h2>
+          <p class="landing-level-pick__hint">{{ t('landing.startA1Hint') }}</p>
+        </div>
 
-          <div class="level-grid level-grid--landing">
-            <button
-              type="button"
-              class="level-card level-card--a1"
-              @click="startTrainer('A1')"
-            >
-              <div class="level-name">A1</div>
-              <div class="level-desc">{{ t('landing.levelA1') }}</div>
-            </button>
-            <button
-              type="button"
-              class="level-card level-card--b1"
-              @click="startTrainer('B1')"
-            >
-              <div class="level-name">B1</div>
-              <div class="level-desc">{{ t('landing.levelB1') }}</div>
-            </button>
-            <button
-              type="button"
-              class="level-card level-card--a2"
-              @click="startTrainer('A2')"
-            >
-              <div class="level-name">A2</div>
-              <div class="level-desc">{{ t('landing.levelA2') }}</div>
-            </button>
-            <button
-              type="button"
-              class="level-card level-card--b2"
-              @click="startTrainer('B2')"
-            >
-              <div class="level-name">B2</div>
-              <div class="level-desc">{{ t('landing.levelB2') }}</div>
-            </button>
-          </div>
-        </template>
+        <div class="level-grid level-grid--landing">
+          <button
+            type="button"
+            class="level-card level-card--a1"
+            @click="startTrainer('A1')"
+          >
+            <div class="level-name">A1</div>
+            <div class="level-desc">{{ t('landing.levelA1') }}</div>
+          </button>
+          <button
+            type="button"
+            class="level-card level-card--b1"
+            @click="startTrainer('B1')"
+          >
+            <div class="level-name">B1</div>
+            <div class="level-desc">{{ t('landing.levelB1') }}</div>
+          </button>
+          <button
+            type="button"
+            class="level-card level-card--a2"
+            @click="startTrainer('A2')"
+          >
+            <div class="level-name">A2</div>
+            <div class="level-desc">{{ t('landing.levelA2') }}</div>
+          </button>
+          <button
+            type="button"
+            class="level-card level-card--b2"
+            @click="startTrainer('B2')"
+          >
+            <div class="level-name">B2</div>
+            <div class="level-desc">{{ t('landing.levelB2') }}</div>
+          </button>
+        </div>
 
         <NiveauTestBlock @locked="onNiveauLocked" />
 
         <TrainingHubPanel
           class="landing-block"
           :locked="!isPremium"
-          :initial-level="continueLevel"
+          :initial-level="hubLevel"
           @unlock="onPremiumLocked"
         />
 

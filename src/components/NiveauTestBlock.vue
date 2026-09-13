@@ -1,6 +1,6 @@
 <script setup>
 /**
- * Niveau-Test entry — active for Premium, inactive upsell for Free/Basis.
+ * Niveau-Test entry — active Premium colors; click gated for free/Basis.
  */
 
 import { useRouter } from 'vue-router';
@@ -29,12 +29,7 @@ function onClick() {
   <div class="landing-niveau-block">
     <button
       type="button"
-      class="niveau-test-btn"
-      :class="{
-        'level-card': isPremium,
-        'niveau-test-btn--unlocked': isPremium,
-        'niveau-test-btn--inactive': !isPremium,
-      }"
+      class="niveau-test-btn level-card niveau-test-btn--unlocked"
       @click="onClick"
     >
       <span class="niveau-test-btn__label">
@@ -44,7 +39,7 @@ function onClick() {
             : t('landing.niveauTest')
         }}
       </span>
-      <span v-if="!isPremium" class="niveau-test-btn__badge">💎 {{ t('common.premium') }}</span>
+      <span class="niveau-test-btn__badge">💎 {{ t('common.premium') }}</span>
     </button>
     <p class="niveau-test-btn__hint">
       {{ isPremium ? t('landing.niveauHintPremium') : t('landing.niveauHintLocked') }}

@@ -95,7 +95,7 @@ function handleStripeSuccess() {
   if (params.get(STRIPE_SUCCESS_PARAM) !== '1') return;
   stripParam(STRIPE_SUCCESS_PARAM);
   stripeBannerVisible.value = true;
-  setTimeout(() => router.push({ name: 'premium', query: { hub: '1' } }), 2000);
+  setTimeout(() => router.push({ name: 'landing' }), 2000);
 }
 
 /**
@@ -199,13 +199,14 @@ async function handleMagicToken() {
 async function finishPostLoginNavigation(magicResult) {
   const { isPremium, isBasis } = usePremium();
   const { isLoggedIn } = useAuth();
-  const shouldOpenPremium =
+  const shouldGoHome =
     magicResult?.navigatePremium ||
     (isLoggedIn.value && (isPremium.value || isBasis.value));
 
-  if (!shouldOpenPremium) return;
-  if (router.currentRoute.value.name === 'premium') return;
-  await router.replace({ name: 'premium' });
+  if (!shouldGoHome) return;
+  // Shared home is Landing (Premium training unlocks there).
+  if (router.currentRoute.value.name === 'landing') return;
+  await router.replace({ name: 'landing' });
 }
 
 onMounted(async () => {

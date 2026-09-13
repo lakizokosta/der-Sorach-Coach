@@ -473,13 +473,33 @@ async function refreshEntitlementsFromServer() {
  * credentials or activation codes exist. Transient outages restore the last
  * grace snapshot instead of stripping paid access.
  *
+ * UI unlocks after a short cap even if the backend hangs — otherwise the
+ * bootstrap overlay ("Zugriff wird geprüft…") can block the whole app.
+ *
  * @return {Promise<void>}
  */
 export async function bootstrapEntitlements() {
   entitlements.ready = false;
+  const BOOTSTRAP_UI_MS = 4000;
+  const refreshPromise = refreshEntitlementsFromServer();
+  let timeoutId;
   try {
-    await refreshEntitlementsFromServer();
+    const winner = await Promise.race([
+      refreshPromise.then(() => 'done'),
+      new Promise((resolve) => {
+        timeoutId = setTimeout(() => resolve('timeout'), BOOTSTRAP_UI_MS);
+      }),
+    ]);
+    if (winner === 'timeout') {
+      const grace = readGraceSnapshot();
+      if (grace && (grace.isPremium || grace.isBasis)) {
+        applyGraceSnapshot(grace);
+      }
+      // Keep refresh running; do not await it (would re-block the overlay).
+      refreshPromise.catch(() => {});
+    }
   } finally {
+    if (timeoutId) clearTimeout(timeoutId);
     entitlements.ready = true;
   }
 }

@@ -761,19 +761,10 @@ function finish(reason) {
 }
 
 /**
- * Re-routes after the session ends (back to landing or premium menu).
+ * Re-routes after the session ends (back to landing home).
  */
 function exitSession() {
-  if (route.query.returnTo === 'hub') {
-    router.push({
-      name: 'premium',
-      query: { hub: '1', level: level.value },
-    });
-    return;
-  }
-  if (placementMode.value || schwaechenMode.value) router.push({ name: 'landing' });
-  else if (isPremium.value) router.push({ name: 'premium' });
-  else router.push({ name: 'landing' });
+  router.push({ name: 'landing' });
 }
 
 /**
