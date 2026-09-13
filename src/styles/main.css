@@ -754,13 +754,34 @@ button:not(:disabled):not(.logo-wrap) {
   margin-bottom: 12px;
 }
 .landing-logged-in-actions--hero {
-  margin: 10px auto 0;
-  max-width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px auto 16px;
+  max-width: 420px;
   width: 100%;
+  box-sizing: border-box;
+  padding: 0 4px;
 }
 .landing-logged-in-actions--hero .landing-profile-btn {
-  margin-bottom: 0;
+  margin: 0 auto;
   width: 100%;
+  max-width: 420px;
+  display: block;
+  text-align: center;
+}
+.landing-daily-goal-hero {
+  margin: 0 auto 14px;
+  max-width: 420px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 4px;
+  text-align: left;
+}
+.landing-daily-goal-hero .daily-goal {
+  width: 100%;
+  max-width: none;
+  margin: 0;
 }
 .landing-logged-in-actions .landing-profile-btn {
   margin-bottom: 10px;
@@ -852,9 +873,17 @@ button:not(:disabled):not(.logo-wrap) {
     align-items: start;
     margin-bottom: 14px;
   }
+  .landing-logged-in-actions--hero {
+    display: flex;
+    grid-template-columns: none;
+    max-width: 420px;
+  }
   .landing-logged-in-actions .landing-profile-btn {
     margin-bottom: 0;
     max-width: none;
+  }
+  .landing-logged-in-actions--hero .landing-profile-btn {
+    max-width: 420px;
   }
 }
 .landing-profile-wrap--in-login {

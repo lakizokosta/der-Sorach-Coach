@@ -117,6 +117,13 @@ function openProfile() {
           {{ t('landing.profileBtn') }}
         </button>
       </div>
+
+      <div
+        v-if="showProgressSection"
+        class="landing-daily-goal-hero"
+      >
+        <DailyGoalCard />
+      </div>
     </header>
 
     <div class="landing-stack">
@@ -193,7 +200,6 @@ function openProfile() {
         </div>
 
         <div class="landing-progress">
-          <DailyGoalCard />
           <BonusMissionsCard />
           <SchwaechenCard @locked="onPremiumLocked" />
           <ActivityCalendar />
