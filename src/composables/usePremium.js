@@ -591,9 +591,8 @@ export async function signOutUser() {
     }
   }
   logout();
-  clearSessionToken();
   clearGraceSnapshot();
-  clearEntitlements();
+  clearAll();
   entitlements.ready = true;
   backendDegraded.active = false;
   backendDegraded.message = '';

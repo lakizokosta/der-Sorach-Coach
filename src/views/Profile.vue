@@ -192,8 +192,10 @@ async function signOut() {
       <div class="card premium-card profile-premium">
         <header class="profile-premium__head">
           <h1 class="profile-premium__title">🏅 Mein Profil</h1>
-          <div v-if="isLoggedIn" class="profile-account profile-account--premium">
-            <span class="profile-account__email">👤 {{ auth.email }}</span>
+          <div class="profile-account profile-account--premium">
+            <span class="profile-account__email">
+              {{ isLoggedIn ? `👤 ${auth.email}` : '💎 Premium aktiv' }}
+            </span>
             <button type="button" class="profile-account__signout" @click="signOut">
               {{ t('common.signOut') }}
             </button>
