@@ -133,7 +133,7 @@ function openProfile() {
       >
         <div class="landing-level-pick">
           <h2 class="landing-level-pick__title">{{ t('landing.levelPickTitle') }}</h2>
-          <p class="landing-level-pick__hint">{{ t('landing.startA1Hint') }}</p>
+          <p v-if="!isPremium" class="landing-level-pick__hint">{{ t('landing.startA1Hint') }}</p>
         </div>
 
         <div class="level-grid level-grid--landing">
