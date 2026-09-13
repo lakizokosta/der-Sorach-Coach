@@ -3170,6 +3170,19 @@ button.lesen-gap-marker {
   background: linear-gradient(135deg, #ffd700, #ffb700);
   color: #000;
 }
+.niveau-test-btn--locked {
+  background: #d4c8d8;
+  color: #5a4a62;
+  box-shadow: none;
+  filter: grayscale(0.35);
+  border: 1.5px solid #cbb8d4;
+}
+.niveau-test-btn--locked:hover {
+  box-shadow: none;
+}
+.niveau-test-btn--locked:active {
+  transform: scale(0.98);
+}
 .niveau-test-btn__label {
   line-height: 1.2;
   text-align: center;
@@ -3186,6 +3199,10 @@ button.lesen-gap-marker {
 .niveau-test-btn--inactive .niveau-test-btn__badge {
   background: rgba(0, 0, 0, 0.08);
   color: #5d4037;
+}
+.niveau-test-btn--locked .niveau-test-btn__badge {
+  background: rgba(0, 0, 0, 0.12);
+  color: #4a3a52;
 }
 .niveau-test-btn--unlocked .niveau-test-btn__badge {
   background: rgba(0, 0, 0, 0.08);

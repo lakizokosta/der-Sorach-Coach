@@ -1,8 +1,7 @@
 <script setup>
 /**
  * TrainingHubPanel — Nach Thema / Wortschatz + level tabs.
- * Active colors for everyone; Premium only enables train actions.
- * (Zufällig removed — top level cards on Landing already start mixed practice.)
+ * Free/Basis: gray locked chrome + 💎; Premium: active colors and train actions.
  */
 
 import { computed, ref, watch } from 'vue';
@@ -18,7 +17,7 @@ import { useCefrLevel } from '@/composables/useCefrLevel.js';
 import { useI18n } from '@/i18n/index.js';
 
 const props = defineProps({
-  /** When true, train actions emit `locked` (paywall). */
+  /** When true, gray locked teaser; train actions emit `locked`. */
   locked: { type: Boolean, default: false },
   /** Pass returnTo=hub into trainer query when started from Premium Hub. */
   returnToHub: { type: Boolean, default: false },
@@ -109,12 +108,17 @@ function trainVocabSet(setKey) {
 <template>
   <section
     class="premium-training training-hub-panel"
+    :class="{ 'training-hub-panel--locked': locked }"
     :aria-label="t('premium.trainingAria')"
   >
     <div class="training-hub-panel__head">
       <h2 class="training-hub-panel__title">
         {{ t('premium.trainingAria') }}
+        <span v-if="locked" class="training-hub-panel__gem" aria-hidden="true">💎</span>
       </h2>
+      <p v-if="locked" class="training-hub-panel__hint">
+        {{ t('premium.hubTopicsHint') }}
+      </p>
     </div>
 
     <div class="premium-mode-switch" role="tablist">
@@ -165,6 +169,7 @@ function trainVocabSet(setKey) {
         :key="topicItem.key"
         type="button"
         class="topic-btn"
+        :class="{ 'topic-btn--locked': locked }"
         @click="trainTopic(topicItem.key)"
       >
         <div class="training-hub-panel__row">
@@ -174,6 +179,7 @@ function trainVocabSet(setKey) {
               v-if="!locked && isPremium && topicMastered(topicItem.key)"
               class="training-hub-panel__ok"
             >✅</span>
+            <span v-if="locked" class="topic-btn__lock">💎</span>
           </div>
           <div class="training-hub-panel__count">
             {{ t('premium.questionsCount', { count: questionCount(topicItem.key) }) }}
@@ -192,12 +198,14 @@ function trainVocabSet(setKey) {
         :key="setItem.key"
         type="button"
         class="topic-btn topic-btn--vocab"
+        :class="{ 'topic-btn--locked': locked }"
         :style="{ '--vocab-accent': setItem.theme?.accent || '#ab4dbb' }"
         @click="trainVocabSet(setItem.key)"
       >
         <div class="training-hub-panel__row">
           <div class="topic-name">
             {{ setItem.name }}
+            <span v-if="locked" class="topic-btn__lock">💎</span>
           </div>
           <div class="training-hub-panel__count">
             {{ t('premium.questionsCount', { count: vocabQuestionCount(setItem.key) }) }}
