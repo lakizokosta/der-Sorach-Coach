@@ -753,6 +753,15 @@ button:not(:disabled):not(.logo-wrap) {
 .landing-logged-in-actions {
   margin-bottom: 12px;
 }
+.landing-logged-in-actions--hero {
+  margin: 10px auto 0;
+  max-width: 320px;
+  width: 100%;
+}
+.landing-logged-in-actions--hero .landing-profile-btn {
+  margin-bottom: 0;
+  width: 100%;
+}
 .landing-logged-in-actions .landing-profile-btn {
   margin-bottom: 10px;
 }

@@ -39,7 +39,7 @@ function onClick() {
             : t('landing.niveauTest')
         }}
       </span>
-      <span class="niveau-test-btn__badge">💎 {{ t('common.premium') }}</span>
+      <span v-if="!isPremium" class="niveau-test-btn__badge">💎 {{ t('common.premium') }}</span>
     </button>
     <p class="niveau-test-btn__hint">
       {{ isPremium ? t('landing.niveauHintPremium') : t('landing.niveauHintLocked') }}

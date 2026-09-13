@@ -1,7 +1,8 @@
 <script setup>
 /**
- * TrainingHubPanel — Zufällig / Nach Thema / Wortschatz + level tabs.
+ * TrainingHubPanel — Nach Thema / Wortschatz + level tabs.
  * Active colors for everyone; Premium only enables train actions.
+ * (Zufällig removed — top level cards on Landing already start mixed practice.)
  */
 
 import { computed, ref, watch } from 'vue';
@@ -17,7 +18,7 @@ import { useCefrLevel } from '@/composables/useCefrLevel.js';
 import { useI18n } from '@/i18n/index.js';
 
 const props = defineProps({
-  /** When true, panel is a gray teaser; train actions emit `locked`. */
+  /** When true, train actions emit `locked` (paywall). */
   locked: { type: Boolean, default: false },
   /** Pass returnTo=hub into trainer query when started from Premium Hub. */
   returnToHub: { type: Boolean, default: false },
@@ -34,7 +35,7 @@ const { t } = useI18n();
 const { isPremium } = usePremium();
 const { level: cefrLevel } = useCefrLevel();
 
-const trainingMode = ref('random');
+const trainingMode = ref('topics');
 const activeLevel = ref('A1');
 
 watch(
@@ -76,16 +77,6 @@ function setLevel(lvl) {
   activeLevel.value = lvl;
 }
 
-function trainRandomLevel(lvl) {
-  if (props.locked || !isPremium.value) {
-    requestUnlock();
-    return;
-  }
-  const query = { level: lvl, mode: 'premium' };
-  if (props.returnToHub) query.returnTo = 'hub';
-  router.push({ name: 'trainer', query });
-}
-
 function trainTopic(topicKey) {
   if (props.locked || !isPremium.value) {
     requestUnlock();
@@ -116,7 +107,6 @@ function trainVocabSet(setKey) {
 </script>
 
 <template>
-  <!-- Active colors for everyone; Premium only unlocks the click handlers. -->
   <section
     class="premium-training training-hub-panel"
     :aria-label="t('premium.trainingAria')"
@@ -128,16 +118,6 @@ function trainVocabSet(setKey) {
     </div>
 
     <div class="premium-mode-switch" role="tablist">
-      <button
-        type="button"
-        role="tab"
-        class="premium-mode-switch__btn"
-        :class="{ 'premium-mode-switch__btn--active': trainingMode === 'random' }"
-        :aria-selected="trainingMode === 'random'"
-        @click="setMode('random')"
-      >
-        {{ t('premium.modeRandom') }}
-      </button>
       <button
         type="button"
         role="tab"
@@ -179,18 +159,7 @@ function trainVocabSet(setKey) {
       </button>
     </div>
 
-    <div v-if="trainingMode === 'random'" class="premium-random-start">
-      <p class="premium-random-start__hint">{{ t('premium.randomTrainingHint') }}</p>
-      <button
-        type="button"
-        class="premium-random-start__btn"
-        @click="trainRandomLevel(activeLevel)"
-      >
-        {{ t('premium.startRandomLevel', { level: activeLevel }) }}
-      </button>
-    </div>
-
-    <div v-else-if="trainingMode === 'topics'" class="topic-grid">
+    <div v-if="trainingMode === 'topics'" class="topic-grid">
       <button
         v-for="topicItem in topics"
         :key="topicItem.key"

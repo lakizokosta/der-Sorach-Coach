@@ -53,10 +53,14 @@ const hubLevel = computed(() => cefrLevel.value || 'A1');
 
 const showProgressSection = computed(
   () =>
+    isPremium.value ||
     isLoggedIn.value ||
     streak.currentStreak > 0 ||
     xp.totalXP > 0,
 );
+
+/** Mein Profil for Premium (code or login) and for logged-in free users. */
+const showProfileBtn = computed(() => isPremium.value || isLoggedIn.value);
 
 const showFreeBadge = computed(
   () => !isPremium.value && !isBasis.value,
@@ -107,6 +111,12 @@ function openProfile() {
         class="landing-summary"
         v-html="summaryText"
       />
+
+      <div v-if="showProfileBtn" class="landing-logged-in-actions landing-logged-in-actions--hero">
+        <button type="button" class="landing-profile-btn" @click="openProfile">
+          {{ t('landing.profileBtn') }}
+        </button>
+      </div>
     </header>
 
     <div class="landing-stack">
@@ -180,12 +190,6 @@ function openProfile() {
       >
         <div class="landing-divider" role="separator">
           <span class="landing-divider__label">{{ t('landing.sectionDashboard') }}</span>
-        </div>
-
-        <div v-if="isLoggedIn" class="landing-logged-in-actions">
-          <button type="button" class="landing-profile-btn" @click="openProfile">
-            {{ t('landing.profileBtn') }}
-          </button>
         </div>
 
         <div class="landing-progress">
