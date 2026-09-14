@@ -565,9 +565,31 @@ button:not(:disabled):not(.logo-wrap) {
   color: #fff;
 }
 .schwaechen-card--locked {
-  filter: grayscale(0.45);
-  opacity: 0.9;
-  border-color: #ddd;
+  background: #e8e4ea;
+  border-color: #d0c6d6;
+  box-shadow: none;
+  filter: grayscale(0.55);
+  opacity: 0.92;
+}
+.schwaechen-card--locked:hover,
+.schwaechen-card--locked:has(.schwaechen-card__summary:active) {
+  transform: none;
+  border-color: #d0c6d6;
+  box-shadow: none;
+}
+.schwaechen-card--locked .schwaechen-card__title,
+.schwaechen-card--locked .schwaechen-card__count,
+.schwaechen-card--locked .schwaechen-card__summary::after {
+  color: #6a5a72;
+}
+.schwaechen-card--locked .schwaechen-card__bar {
+  background: #ddd8e0;
+}
+.schwaechen-card--locked .schwaechen-card__fill {
+  background: #b8aebc;
+}
+.schwaechen-card--locked .schwaechen-card__hint-summary {
+  color: #7a7080;
 }
 .premium-mode-switch {
   display: flex;

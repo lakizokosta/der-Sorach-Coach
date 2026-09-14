@@ -215,8 +215,8 @@ function onProfileClick() {
 
         <div class="landing-progress">
           <BonusMissionsCard />
-          <SchwaechenCard @locked="onPremiumLocked" />
           <ActivityCalendar />
+          <SchwaechenCard @locked="onPremiumLocked" />
         </div>
       </section>
     </div>

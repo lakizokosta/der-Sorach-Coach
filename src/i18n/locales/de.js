@@ -340,7 +340,7 @@ export default {
     hintLocked: 'Gezielt schwache Themen üben — nur mit Premium. Tippe für Details.',
     unlock: '💎 Premium freischalten',
     aria: 'Schwächen-Modus',
-    countPremium: 'Premium',
+    countPremium: '💎 Premium',
     countEmpty: '0 / 3 Themen',
     countSummary: '{errors} Fehler · {topics} Themen',
     hintEmpty: 'Noch keine Schwachstellen erfasst. Tippe für mehr Infos.',

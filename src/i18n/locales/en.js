@@ -337,7 +337,7 @@ export default {
     hintLocked: 'Train weak topics — Premium only. Tap for details.',
     unlock: '💎 Unlock Premium',
     aria: 'Weakness mode',
-    countPremium: 'Premium',
+    countPremium: '💎 Premium',
     countEmpty: '0 / 3 topics',
     countSummary: '{errors} errors · {topics} topics',
     hintEmpty: 'No weak spots recorded yet. Tap for more info.',

@@ -337,7 +337,7 @@ export default {
     hintLocked: 'Тренировка слабых тем — только с Premium. Нажми для подробностей.',
     unlock: '💎 Открыть Premium',
     aria: 'Режим слабых мест',
-    countPremium: 'Premium',
+    countPremium: '💎 Premium',
     countEmpty: '0 / 3 тем',
     countSummary: '{errors} ошибок · {topics} тем',
     hintEmpty: 'Слабых мест пока нет. Нажми для подробностей.',
