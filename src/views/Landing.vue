@@ -59,8 +59,8 @@ const showProgressSection = computed(
     xp.totalXP > 0,
 );
 
-/** Mein Profil for Premium (code or login) and for logged-in free users. */
-const showProfileBtn = computed(() => isPremium.value || isLoggedIn.value);
+/** Always show Mein Profil; locked teaser for free/Basis without access. */
+const profileLocked = computed(() => !isPremium.value);
 
 const showFreeBadge = computed(
   () => !isPremium.value && !isBasis.value,
@@ -92,6 +92,14 @@ function onPremiumLocked() {
 function openProfile() {
   router.push({ name: 'profile' });
 }
+
+function onProfileClick() {
+  if (profileLocked.value && !isLoggedIn.value) {
+    openConversion('checkout');
+    return;
+  }
+  openProfile();
+}
 </script>
 
 <template>
@@ -112,9 +120,15 @@ function openProfile() {
         v-html="summaryText"
       />
 
-      <div v-if="showProfileBtn" class="landing-logged-in-actions landing-logged-in-actions--hero">
-        <button type="button" class="landing-profile-btn" @click="openProfile">
+      <div class="landing-logged-in-actions landing-logged-in-actions--hero">
+        <button
+          type="button"
+          class="landing-profile-btn"
+          :class="{ 'landing-profile-btn--locked': profileLocked }"
+          @click="onProfileClick"
+        >
           {{ t('landing.profileBtn') }}
+          <span v-if="profileLocked" class="landing-profile-btn__lock" aria-hidden="true">💎</span>
         </button>
       </div>
 

@@ -2259,6 +2259,26 @@ button.lesen-gap-marker {
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(171, 77, 187, 0.15);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.landing-profile-btn--locked {
+  background: #e8e4ea;
+  border-color: #d0c6d6;
+  color: #6a5a72;
+  box-shadow: none;
+  filter: grayscale(0.45);
+  opacity: 0.92;
+}
+.landing-profile-btn--locked:hover {
+  transform: none;
+  box-shadow: none;
+}
+.landing-profile-btn__lock {
+  font-size: 14px;
+  line-height: 1;
 }
 .landing-profile-btn:hover {
   transform: translateY(-3px);

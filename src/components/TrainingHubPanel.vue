@@ -35,22 +35,45 @@ const { isPremium } = usePremium();
 const { level: cefrLevel } = useCefrLevel();
 
 const trainingMode = ref('topics');
-const activeLevel = ref('A1');
+/** Empty while locked + collapsed — no A1–B2 selected yet. */
+const activeLevel = ref('');
+/** When locked, topic lists stay collapsed until a level tab is tapped. */
+const listOpen = ref(false);
+
+function resolveDefaultLevel() {
+  if (props.initialLevel && LEVELS.includes(props.initialLevel)) {
+    return props.initialLevel;
+  }
+  if (cefrLevel.value && LEVELS.includes(cefrLevel.value)) {
+    return cefrLevel.value;
+  }
+  return 'A1';
+}
+
+function syncUnlockedLevel() {
+  if (props.locked) {
+    activeLevel.value = '';
+    listOpen.value = false;
+    return;
+  }
+  activeLevel.value = resolveDefaultLevel();
+  listOpen.value = true;
+}
 
 watch(
-  () => props.initialLevel,
-  (lvl) => {
-    if (lvl && LEVELS.includes(lvl)) activeLevel.value = lvl;
+  () => [props.locked, props.initialLevel, cefrLevel.value],
+  () => {
+    syncUnlockedLevel();
   },
   { immediate: true },
 );
 
-if (!props.initialLevel && cefrLevel.value && LEVELS.includes(cefrLevel.value)) {
-  activeLevel.value = cefrLevel.value;
-}
-
-const topics = computed(() => getTopicsForLevel(activeLevel.value));
-const vocabSets = computed(() => getVocabSetsForLevel(activeLevel.value));
+const topics = computed(() =>
+  activeLevel.value ? getTopicsForLevel(activeLevel.value) : [],
+);
+const vocabSets = computed(() =>
+  activeLevel.value ? getVocabSetsForLevel(activeLevel.value) : [],
+);
 
 function questionCount(topicKey) {
   return getTopicQuestionCount(activeLevel.value, topicKey);
@@ -73,6 +96,16 @@ function setMode(mode) {
 }
 
 function setLevel(lvl) {
+  if (props.locked) {
+    if (listOpen.value && activeLevel.value === lvl) {
+      listOpen.value = false;
+      activeLevel.value = '';
+      return;
+    }
+    activeLevel.value = lvl;
+    listOpen.value = true;
+    return;
+  }
   activeLevel.value = lvl;
 }
 
@@ -163,7 +196,10 @@ function trainVocabSet(setKey) {
       </button>
     </div>
 
-    <div v-if="trainingMode === 'topics'" class="topic-grid">
+    <div
+      v-if="listOpen && trainingMode === 'topics'"
+      class="topic-grid"
+    >
       <button
         v-for="topicItem in topics"
         :key="topicItem.key"
@@ -189,7 +225,10 @@ function trainVocabSet(setKey) {
       </button>
     </div>
 
-    <div v-else class="topic-grid">
+    <div
+      v-else-if="listOpen && trainingMode === 'vocab'"
+      class="topic-grid"
+    >
       <p v-if="!vocabSets.length" class="premium-vocab-empty">
         {{ t('premium.vocabEmpty', { level: activeLevel }) }}
       </p>
