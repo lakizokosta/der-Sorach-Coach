@@ -1246,6 +1246,11 @@ button:not(:disabled):not(.logo-wrap) {
   text-align: left;
   padding: 0 4px;
 }
+.fill-gap-cue {
+  color: #6b5b7a;
+  font-weight: 600;
+  white-space: nowrap;
+}
 .fill-infinitive-hint {
   margin: -8px 0 14px 4px;
   font-size: 14px;

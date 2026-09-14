@@ -255,6 +255,24 @@ focus: word
 - Источник: `scripts/b1-plusquamperfekt-data.mjs` → `node scripts/generate-b1-plusquamperfekt.mjs --force`
 
 
+### 2026-09-02 — Full-bank audit Sprint B/C: дедуп клонов
+- Симптом: grammar ratio ~0.21 (150 файлов / ~31 unique) → placement кормит повторами.
+- Правило: один stem = один файл на тип; **не** размножать `items[i % len]` до 50.
+- Fix: `bank()` / `ensure50` без cycling; TEKAMOLO/OBJ — уникальный prompt (`Bausteine:` / `Wörter:`); `scripts/dedupe-grammar-prompt-clones.mjs`.
+- Результат: все grammar-темы **uniqueBodies/files = 1.0** (было 76 тем <0.85).
+- ❌ `Welche Satzstellung…?` ×50 с разными options  
+- ✅ `Welche Satzstellung…?\nBausteine: morgen · wegen…` — один stem на карточку
+
+
+### 2026-09-02 — Full-bank audit Sprint A (handoff `AUDIT-FULL-BANK-2026-09-02`)
+- Orphan `A2/SATZSTELLUNGA2` (2 stub files) → `docs/_orphans/A2/SATZSTELLUNGA2/`; placement filters to `PREMIUM_TOPICS`.
+- Cross-bank id collision: grammar `b2-rede-in-*` → `b2-rede-g-in-*` (vocab keeps `b2-rede-in-*`).
+- Dropbox: batch final `.`/`?` in sources + runtime `ensureDropboxStatementPunctuation`.
+- Vocab multi-select: sentence options/correct get final `.`/`?`.
+- A2 `INDEFINITPRONOMEN`: 50 unique stems with pinned polarity (no bare *Hier ist ___ zu Hause*).
+- Script: `scripts/patch-audit-p0-2026-09-02.mjs`.
+
+
 ### 2026-09-02 — Pronominaladverbien B2: щель на наречии, не на глаголе
 - Симптом (`PRÄPOSITIONALADVERBIENB2`): *Hierauf ___ die ganze Argumentation* + options *bauen/baut…*, инструкция «Ergänze das Pronominaladverb» — наречие уже дано, ответ = глагол; смысл и задача непрозрачны.
 - Правило: в теме Pronominaladverbien пробел **только** на *da-/wo-(hier-)* форме. Контекст (вопрос с Präp. или ответная реплика) однозначно задаёт форму. Дистракторы — другие Pronominaladverbien, не спряжения глагола.
@@ -281,3 +299,15 @@ focus: word
 - ❌ `Kann ich … legen ja gern`
 - ✅ `Kann ich … legen ? Ja gern .`
 - Код: `src/utils/questionPunctuation.js`, `src/utils/dropboxPunctuation.js`, `src/components/questions/DragDrop.vue`
+
+### 2026-09-14 — input-text: базовое слово сразу в скобках после предложения
+- Симптом (N-Deklination u. a.): `Ich kenne einen ___.` без `(Junge)` — непонятно, что склонять; форма была только под 💡 Tipp (`hint: N-Deklination — junge, Akk.`).
+- Причина: `FillBlank` снимал trailing `(…)` с prompt, а `hint`/`lemma` показывались только после Tipp. У глаголов уже был `Infinitiv: …`, у form-filling — нет.
+- Правило для **всех** `input-text` с формой от базового слова:
+  1. В UI сразу после предложения: `(Lemma)` / базовый артикль+Nomen / Gegenteil-von / Plural-Stamm.
+  2. Источник: `lemma` → сегмент после `—` в `hint` → `Gegenteil von X` / `Plural: X` → trailing `(…)`.
+  3. 💡 Tipp остаётся для падежа/рода/темы (`…, Akk.`).
+  4. Не дублировать, если уже есть `Infinitiv:` или `wordChoices`.
+- ❌ только Tipp: `N-Deklination — Junge, Akk.`
+- ✅ сразу: `Ich kenne einen ___. (Junge)` + Tipp с полным hint
+- Код: `src/utils/inputTextGapCue.js`, `FillBlank.vue`
