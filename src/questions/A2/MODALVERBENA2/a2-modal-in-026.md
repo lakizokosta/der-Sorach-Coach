@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-026
 type: input-text
-hint: Modalverb + Verb müssen
+hint: Modalverb + Verb dürfen
 correct:
-  - muss
+  - darf
 ---
 
 Ergänze die Modalverbform:
 
-Sie (sie, Sg.) ___ jeden Tag trainieren.
+Die Polizei sagt klar: Hier ___ man nicht parken.

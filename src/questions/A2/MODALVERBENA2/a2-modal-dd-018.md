@@ -4,9 +4,8 @@ type: dropbox
 words:
   - Du
   - sollst
-  - mehr
-  - Wasser
-  - trinken
+  - höflich
+  - grüßen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Ich ___ heute nicht arbeiten.
+Er hat hohes Fieber. Deshalb ___ er heute im Bett bleiben.

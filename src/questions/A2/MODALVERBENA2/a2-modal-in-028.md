@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-028
 type: input-text
-hint: Modalverb + Verb sollen
+hint: Modalverb + Verb müssen
 correct:
-  - sollst
+  - müssen
 ---
 
 Ergänze die Modalverbform:
 
-Du ___ den Arzt anrufen.
+Der Bus fährt gleich. Wir ___ jetzt zur Haltestelle eilen.

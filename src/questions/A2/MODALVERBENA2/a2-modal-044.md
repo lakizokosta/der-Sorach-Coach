@@ -2,11 +2,11 @@
 id: a2-modal-044
 type: select-one
 options:
-  - will
-  - muss
-  - kann
-  - soll
-correct: muss
+  - dürft
+  - sollt
+  - könnt
+  - wollt
+correct: sollt
 ---
 
-Er ___ pünktlich sein. (Modalverb + Verb müssen)
+Der Zettel an der Tür: „Ruhe!“ — Ihr ___ leiser sein. (Modalverb + Verb sollen)

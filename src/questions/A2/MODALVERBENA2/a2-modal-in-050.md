@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-050
 type: input-text
-hint: Modalverb + Verb Konjunktiv II — können/du
+hint: Modalverb + Verb dürfen
 correct:
-  - könntest
+  - Darf
 ---
 
 Ergänze die Modalverbform:
 
-Du ___ auch mitmachen.
+Schild am Pool: „Nicht springen!“ — ___ man hier springen?

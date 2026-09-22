@@ -2,12 +2,11 @@
 id: a2-modal-dd-047
 type: dropbox
 words:
-  - Darf
-  - ich
-  - das
-  - Fenster
-  - öffnen
-  - ?
+  - Wir
+  - müssen
+  - die
+  - Koffer
+  - packen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

@@ -5,8 +5,6 @@ words:
   - Er
   - muss
   - pünktlich
-  - zur
-  - Arbeit
   - sein
 ---
 

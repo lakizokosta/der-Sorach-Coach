@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-039
 type: input-text
-hint: Modalverb + Verb können
+hint: Modalverb + Verb wollen
 correct:
-  - kann
+  - wollen
 ---
 
 Ergänze die Modalverbform:
 
-Er ___ sehr gut Deutsch.
+Unser Ziel ist klar: Wir ___ bis Juni alle Prüfungen schaffen.

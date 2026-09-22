@@ -2,11 +2,11 @@
 id: a2-modal-046
 type: select-one
 options:
-  - musst
-  - sollst
-  - kannst
-  - darfst
-correct: sollst
+  - darf
+  - kann
+  - muss
+  - will
+correct: kann
 ---
 
-Du ___ mehr Wasser trinken. (Modalverb + Verb sollen)
+Mein Bein ist verletzt. Ich ___ heute nicht Fußball spielen. (Modalverb + Verb können)

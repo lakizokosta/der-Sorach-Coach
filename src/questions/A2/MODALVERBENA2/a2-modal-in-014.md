@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Er ___ pünktlich zur Arbeit sein.
+Im Arbeitsvertrag steht: Er ___ pünktlich sein.

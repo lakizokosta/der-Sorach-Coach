@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-049
 type: input-text
-hint: Modalverb + Verb wollen
+hint: Modalverb + Verb sollen
 correct:
-  - wollen
+  - sollst
 ---
 
 Ergänze die Modalverbform:
 
-Wir ___ am Wochenende ausruhen.
+Die Lehrerin rät: Du ___ mehr üben.

@@ -2,11 +2,11 @@
 id: a2-modal-dd-036
 type: dropbox
 words:
-  - Ich
+  - Er
   - muss
-  - heute
-  - nicht
-  - arbeiten
+  - im
+  - Bett
+  - bleiben
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

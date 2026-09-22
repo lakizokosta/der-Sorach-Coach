@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-027
 type: input-text
-hint: Modalverb + Verb wollen
+hint: Modalverb + Verb können
 correct:
-  - wollen
+  - kann
 ---
 
 Ergänze die Modalverbform:
 
-Wir ___ heute ins Schwimmbad gehen.
+Tom spricht fünf Sprachen. Besonders gut ___ er Spanisch.

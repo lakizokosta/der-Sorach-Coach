@@ -2,11 +2,11 @@
 id: a2-modal-031
 type: select-one
 options:
-  - musst
-  - darfst
-  - willst
-  - sollst
-correct: sollst
+  - muss
+  - will
+  - soll
+  - darf
+correct: darf
 ---
 
-Du ___ mehr Wasser trinken. (Modalverb + Verb sollen)
+Ohne Führerschein ___ ich laut Gesetz kein Auto fahren. (Modalverb + Verb dürfen)

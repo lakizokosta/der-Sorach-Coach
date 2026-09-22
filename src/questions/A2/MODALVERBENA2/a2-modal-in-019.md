@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-019
 type: input-text
-hint: Modalverb + Verb müssen
+hint: Modalverb + Verb wollen
 correct:
-  - muss
+  - wollen
 ---
 
 Ergänze die Modalverbform:
 
-Ich ___ heute nicht arbeiten.
+Wir ___ unbedingt nach Berlin — das ist unser Traum.

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Ich ___ heute nicht arbeiten.
+Heute ist Feiertag. Laut Vertrag ___ ich nicht arbeiten.

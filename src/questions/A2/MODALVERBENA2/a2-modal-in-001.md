@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Du ___ mehr Wasser trinken.
+Der Arzt sagt: Du ___ mehr Wasser trinken.

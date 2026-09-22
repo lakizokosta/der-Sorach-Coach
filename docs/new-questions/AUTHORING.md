@@ -311,3 +311,21 @@ focus: word
 - ❌ только Tipp: `N-Deklination — Junge, Akk.`
 - ✅ сразу: `Ich kenne einen ___. (Junge)` + Tipp с полным hint
 - Код: `src/utils/inputTextGapCue.js`, `FillBlank.vue`
+
+### 2026-09-15 — dropbox: не склеивать придаточные в 2 мега-плитки
+- Симптом (Plusquamperfekt u. a.): вместо слов две плитки `Als sie den Raum betrat` | `hatte jemand das Fenster geöffnet` — задание почти без выбора.
+- Причина: `chunkifyDropboxWords` → `tryClauseSegments` по `commas` резал на целые NS/HS.
+- Правило: при наличии `commas` — **одна плитка = одно слово**; запятая и `.`/`?` остаются фиксированными в UI (`DragDrop`), не чипами.
+- Phrase-grouping (артикли/предлоги) — только у длинных предложений **без** фиксированных запятых.
+- ❌ 2 куска-придаточных  
+- ✅ `Als` `sie` `den` `Raum` `betrat` `,` `hatte` … `geöffnet` `.`
+- Код: `src/utils/dropboxChunks.js`
+
+### 2026-09-22 — Modalverben A2: контекст, один верный Modal
+- Симптом: `Ich ___ heute nicht arbeiten` + options *kann/will/darf/muss* — все грамматически возможны; система принимает только *muss*.
+- Правило для **select-one / input-text** Modalverben (A1–B2, будущие темы):
+  1. В предложении (или короткой строке выше) — контекст, который тянет **ровно один** Modal: Pflicht (*Vertrag/Feiertag*), Fähigkeit (*Kurs/Schlüssel*), Erlaubnis (*Schild/bitte*), Rat (*Arzt sagt*), Wunsch/Plan (*Lust/Plan/Wunsch*).
+  2. Дистракторы — другие Modalформы того же лица; без «пустого» gap.
+- ❌ `Ich ___ heute nicht arbeiten.` / correct `muss`
+- ✅ `Heute ist Feiertag. Laut Vertrag ___ ich nicht arbeiten.` / correct `muss`
+- Источник: `scripts/a2-select-one-data.mjs` (`genModalverben`), `a2-input-text-data.mjs`, `a2-dropbox-data.mjs`

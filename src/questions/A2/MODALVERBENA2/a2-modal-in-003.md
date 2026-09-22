@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-___ ich hier am Bankschalter fragen?
+Schild: „Parken verboten“. ___ ich hier trotzdem parken?

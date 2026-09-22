@@ -2,11 +2,10 @@
 id: a2-modal-dd-039
 type: dropbox
 words:
-  - Er
-  - kann
-  - sehr
-  - gut
-  - Deutsch
+  - Wir
+  - wollen
+  - Prüfungen
+  - schaffen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Ich ___ leider nicht zur Einladung kommen.
+Ohne Internet ___ ich die E-Mail nicht senden.

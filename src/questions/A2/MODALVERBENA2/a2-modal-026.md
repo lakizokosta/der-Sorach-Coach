@@ -2,11 +2,11 @@
 id: a2-modal-026
 type: select-one
 options:
-  - musst
-  - darfst
-  - sollst
-  - kannst
-correct: sollst
+  - muss
+  - will
+  - darf
+  - kann
+correct: darf
 ---
 
-Du ___ den Arzt anrufen. (Modalverb + Verb sollen)
+Die Polizei sagt klar: Hier ___ man nicht parken. (Modalverb + Verb dürfen)

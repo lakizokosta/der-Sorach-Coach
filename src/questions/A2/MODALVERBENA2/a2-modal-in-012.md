@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Ich ___ dir beim Formular helfen.
+Warte, ich habe Zeit — ich ___ dir helfen.

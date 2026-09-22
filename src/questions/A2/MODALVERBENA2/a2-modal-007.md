@@ -9,4 +9,4 @@ options:
 correct: kann
 ---
 
-Ich ___ leider nicht kommen. (Modalverb + Verb können)
+Ich bin krank. Ich ___ leider nicht zur Party kommen. (Modalverb + Verb können)

@@ -9,4 +9,4 @@ options:
 correct: Darf
 ---
 
-___ ich das Fenster öffnen? (Modalverb + Verb dürfen)
+Mir ist warm. ___ ich bitte das Fenster öffnen? (Modalverb + Verb dürfen)

@@ -2,11 +2,11 @@
 id: a2-modal-036
 type: select-one
 options:
-  - kannst
-  - darfst
-  - sollst
-  - willst
-correct: sollst
+  - kann
+  - will
+  - muss
+  - soll
+correct: muss
 ---
 
-Du ___ leiser sprechen. (Modalverb + Verb sollen)
+Er hat hohes Fieber. Deshalb ___ er heute im Bett bleiben. (Modalverb + Verb müssen)

@@ -2,11 +2,10 @@
 id: a2-modal-dd-035
 type: dropbox
 words:
-  - Du
-  - sollst
-  - mehr
-  - Wasser
-  - trinken
+  - Wir
+  - wollen
+  - Vegetarier
+  - bleiben
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

@@ -2,11 +2,11 @@
 id: a2-modal-021
 type: select-one
 options:
-  - musst
-  - sollst
-  - willst
-  - kannst
-correct: sollst
+  - müsst
+  - sollt
+  - wollt
+  - könnt
+correct: sollt
 ---
 
-Du ___ leiser sprechen. (Modalverb + Verb sollen)
+Der Lehrer erklärt: Ihr ___ im Unterricht leise sein. (Modalverb + Verb sollen)

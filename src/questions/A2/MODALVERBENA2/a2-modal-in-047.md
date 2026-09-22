@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-047
 type: input-text
-hint: Modalverb + Verb dürfen
+hint: Modalverb + Verb müssen
 correct:
-  - Darf
+  - müssen
 ---
 
 Ergänze die Modalverbform:
 
-___ ich das Fenster öffnen?
+Vor der Reise ___ wir noch die Koffer packen.

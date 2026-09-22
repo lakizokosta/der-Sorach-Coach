@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-040
 type: input-text
-hint: Modalverb + Verb sollen
+hint: Modalverb + Verb dürfen
 correct:
-  - sollst
+  - Darf
 ---
 
 Ergänze die Modalverbform:
 
-Du ___ leiser sprechen.
+Auf dem Campingplatz: „Kein Feuer!“ — ___ man hier grillen?

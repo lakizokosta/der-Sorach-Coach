@@ -2,11 +2,11 @@
 id: a2-modal-040
 type: select-one
 options:
-  - können
-  - dürfen
-  - wollen
-  - sollen
-correct: wollen
+  - Kann
+  - Will
+  - Darf
+  - Soll
+correct: Darf
 ---
 
-Wir ___ heute ins Schwimmbad gehen. (Modalverb + Verb wollen)
+Auf dem Campingplatz: „Kein Feuer!“ — ___ man hier grillen? (Modalverb + Verb dürfen)

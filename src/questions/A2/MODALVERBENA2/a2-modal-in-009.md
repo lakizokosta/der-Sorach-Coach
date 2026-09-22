@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Sie (sie, Sg.) ___ jeden Tag trainieren.
+Für den Marathon ___ sie jeden Tag trainieren.

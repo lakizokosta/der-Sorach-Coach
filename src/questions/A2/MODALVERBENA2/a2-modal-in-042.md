@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-042
 type: input-text
-hint: Modalverb + Verb dürfen
+hint: Modalverb + Verb müssen
 correct:
-  - Darf
+  - müssen
 ---
 
 Ergänze die Modalverbform:
 
-___ man hier fotografieren?
+Im Jobcenter sagt man: Sie ___ diese Formulare mitbringen.

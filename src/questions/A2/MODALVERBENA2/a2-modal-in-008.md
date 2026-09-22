@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-___ man hier fotografieren?
+Schild: „Fotografieren verboten!“ — ___ man hier fotografieren?

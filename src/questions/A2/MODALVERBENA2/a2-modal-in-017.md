@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-017
 type: input-text
-hint: Modalverb + Verb haben
+hint: Modalverb + Verb müssen
 correct:
-  - hätte
+  - musst
 ---
 
 Ergänze die Modalverbform:
 
-Ich ___ gern ein bisschen Ruhe.
+Für den Kurs ___ du Hausaufgaben machen.

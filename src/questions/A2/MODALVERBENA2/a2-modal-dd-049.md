@@ -2,11 +2,10 @@
 id: a2-modal-dd-049
 type: dropbox
 words:
-  - Wir
-  - wollen
-  - am
-  - Wochenende
-  - ausruhen
+  - Du
+  - sollst
+  - mehr
+  - üben
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-___ man hier fotografieren?
+Schild „Nur Personal“. ___ ich hier durch den Eingang?

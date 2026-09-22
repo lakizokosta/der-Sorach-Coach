@@ -5,8 +5,6 @@ words:
   - Ich
   - kann
   - dir
-  - beim
-  - Formular
   - helfen
 ---
 

@@ -2,11 +2,11 @@
 id: a2-modal-039
 type: select-one
 options:
-  - soll
-  - darf
-  - will
-  - muss
-correct: muss
+  - sollen
+  - müssen
+  - dürfen
+  - wollen
+correct: wollen
 ---
 
-Sie (sie, Sg.) ___ jeden Tag trainieren. (Modalverb + Verb müssen)
+Unser Ziel ist klar: Wir ___ bis Juni alle Prüfungen schaffen. (Modalverb + Verb wollen)

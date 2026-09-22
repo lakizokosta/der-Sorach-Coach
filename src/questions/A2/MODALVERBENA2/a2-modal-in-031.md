@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-031
 type: input-text
-hint: Modalverb + Verb müssen
+hint: Modalverb + Verb dürfen
 correct:
-  - muss
+  - darf
 ---
 
 Ergänze die Modalverbform:
 
-Er ___ pünktlich zur Arbeit sein.
+Ohne Führerschein ___ ich laut Gesetz kein Auto fahren.

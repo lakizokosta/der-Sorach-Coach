@@ -2,11 +2,11 @@
 id: a2-modal-025
 type: select-one
 options:
-  - müssen
-  - wollen
-  - sollen
-  - können
-correct: wollen
+  - Muss
+  - Darf
+  - Soll
+  - Kann
+correct: Darf
 ---
 
-Wir ___ heute ins Schwimmbad gehen. (Modalverb + Verb wollen)
+Schild „Nur Personal“. ___ ich hier durch den Eingang? (Modalverb + Verb dürfen)

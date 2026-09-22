@@ -2,11 +2,11 @@
 id: a2-modal-033
 type: select-one
 options:
-  - Muss
-  - Darf
-  - Soll
-  - Kann
-correct: Darf
+  - darf
+  - muss
+  - soll
+  - kann
+correct: muss
 ---
 
-___ ich hier parken? (Modalverb + Verb dürfen)
+Laut Fahrplan ___ der Zug um acht abfahren. (Modalverb + Verb müssen)

@@ -2,11 +2,11 @@
 id: a2-modal-023
 type: select-one
 options:
-  - Muss
-  - Will
-  - Soll
-  - Darf
-correct: Darf
+  - darf
+  - will
+  - soll
+  - muss
+correct: muss
 ---
 
-___ man hier fotografieren? (Modalverb + Verb dürfen)
+Vor der Prüfung ___ er noch zwei Stunden lernen. (Modalverb + Verb müssen)

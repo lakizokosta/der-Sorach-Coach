@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-032
 type: input-text
-hint: Modalverb + Verb wollen
+hint: Modalverb + Verb können
 correct:
-  - wollen
+  - kann
 ---
 
 Ergänze die Modalverbform:
 
-Wir ___ am Wochenende ausruhen.
+Ohne Brille ___ sie die Tafel nicht lesen.

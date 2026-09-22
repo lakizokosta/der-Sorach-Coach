@@ -9,4 +9,4 @@ options:
 correct: muss
 ---
 
-Sie (sie, Sg.) ___ jeden Tag trainieren. (Modalverb + Verb müssen)
+Für den Marathon ___ sie jeden Tag trainieren. (Modalverb + Verb müssen)

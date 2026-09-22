@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-035
 type: input-text
-hint: Modalverb + Verb sollen
+hint: Modalverb + Verb wollen
 correct:
-  - sollst
+  - wollen
 ---
 
 Ergänze die Modalverbform:
 
-Du ___ mehr Wasser trinken.
+Wir essen kein Fleisch — wir ___ Vegetarier bleiben.

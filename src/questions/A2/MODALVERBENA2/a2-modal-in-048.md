@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-048
 type: input-text
-hint: Modalverb + Verb müssen
+hint: Modalverb + Verb wollen
 correct:
-  - muss
+  - wollen
 ---
 
 Ergänze die Modalverbform:
 
-Er ___ pünktlich zur Arbeit sein.
+Die Freunde haben beschlossen: Wir ___ zusammen kochen.

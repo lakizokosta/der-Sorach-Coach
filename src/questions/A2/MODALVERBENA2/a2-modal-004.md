@@ -9,4 +9,4 @@ options:
 correct: wollen
 ---
 
-Wir ___ morgen früh losfahren. (Modalverb + Verb wollen)
+Unser Plan steht fest: Wir ___ morgen früh losfahren. (Modalverb + Verb wollen)

@@ -2,7 +2,10 @@
 id: a2-modal-dd-001
 type: dropbox
 words:
-  - Du
+  - Der
+  - Arzt
+  - sagt
+  - du
   - sollst
   - mehr
   - Wasser
