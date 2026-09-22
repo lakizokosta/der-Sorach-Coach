@@ -10,8 +10,9 @@ words:
   - sie
   - zum
   - Gate
+  - .
 commas:
-  - 3
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plusquamperfekt — eine Komma-Stelle)

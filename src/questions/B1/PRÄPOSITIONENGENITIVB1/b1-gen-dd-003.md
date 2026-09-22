@@ -10,8 +10,7 @@ words:
   - im
   - Gebäude
   - ruhig
-commas:
-  - 2
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

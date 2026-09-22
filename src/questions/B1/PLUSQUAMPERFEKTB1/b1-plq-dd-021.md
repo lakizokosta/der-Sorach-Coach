@@ -9,8 +9,9 @@ words:
   - Lisa
   - schon
   - gekocht
+  - .
 commas:
-  - 2
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plusquamperfekt — eine Komma-Stelle)

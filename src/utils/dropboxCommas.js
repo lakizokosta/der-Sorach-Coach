@@ -15,6 +15,7 @@ const K2_V1_STARTERS = new Set([
 const SUBORD_EMBEDDED = new Set([
   'wenn', 'falls', 'sobald', 'als', 'während', 'nachdem', 'bevor', 'bis', 'seit', 'seitdem',
   'obwohl', 'obschon', 'obgleich', 'weil', 'da', 'dass', 'ob', 'damit', 'um', 'sofern', 'indem',
+  'sodass', 'so dass', 'ehe', 'wohingegen',
 ]);
 
 const INDIRECT_Q = new Set([
@@ -41,8 +42,8 @@ const KONJ_ADV_V2 = new Set([
   'trotzdem', 'dennoch', 'jedoch', 'allerdings', 'stattdessen', 'hingegen',
   'deshalb', 'daher', 'deswegen', 'darum',
   'außerdem', 'zudem', 'ferner',
-  'somit', 'folglich', 'demnach',
-  'dann', 'danach', 'sonst',
+  'somit', 'folglich', 'demnach', 'infolgedessen',
+  'dann', 'danach', 'sonst', 'immerhin', 'nichtsdestotrotz',
 ]);
 
 const REL_PRON = new Set(['der', 'die', 'das', 'den', 'dem', 'dessen', 'deren', 'denen']);
@@ -56,18 +57,18 @@ const PERSON = /^(ich|du|er|sie|es|wir|ihr|Sie|man)$/i;
 
 const MAIN_FINITE = new Set([
   'würde', 'würden', 'würdest', 'könnte', 'könnten', 'könntest', 'hätte', 'hätten', 'hättest',
-  'müsste', 'müssten', 'sollte', 'sollten', 'wäre', 'wären', 'wärst',
-  'bin', 'bist', 'ist', 'sind', 'war', 'waren', 'wird', 'werden', 'wurde', 'wurden', 'worden',
+  'müsste', 'müssten', 'sollte', 'sollten', 'solltet', 'wäre', 'wären', 'wärst',
+  'bin', 'bist', 'ist', 'sind', 'seid', 'sei', 'seien', 'war', 'waren', 'warst', 'wart', 'wird', 'werden', 'wurde', 'wurden', 'worden',
   'habe', 'hast', 'hat', 'haben', 'hatte', 'hatten',
   'kann', 'kannst', 'können', 'konnte', 'konnten', 'konntest',
   'muss', 'musst', 'müssen', 'musste', 'mussten',
-  'soll', 'sollst', 'sollen', 'sollte', 'sollten',
+  'soll', 'sollst', 'sollen', 'sollte', 'sollten', 'solltet',
   'will', 'willst', 'wollen', 'wollte', 'wollten',
   'mag', 'mögen', 'mochte', 'darf', 'dürfen', 'durfte',
   'bleibe', 'bleibt', 'bleiben', 'gehe', 'geht', 'gehen', 'ging', 'komme', 'kommt', 'kommen', 'kam',
   'fahre', 'fährt', 'fahren', 'fuhr', 'mache', 'macht', 'machen', 'nahm', 'nehme', 'nimmt', 'nehmen',
   'gebe', 'gibt', 'geben', 'gab', 'finde', 'findet', 'finden', 'fand',
-  'arbeite', 'arbeitet', 'arbeiten', 'lerne', 'lernt', 'lernen', 'kaufe', 'kauft', 'kaufen',
+  'arbeite', 'arbeitet', 'arbeiten', 'lerne', 'lernt', 'lernen', 'lernte', 'kaufe', 'kauft', 'kaufen',
   'bestand', 'besteht', 'bestehen', 'fällt', 'fiel', 'reagieren', 'beginnt', 'beginnen', 'beginne',
   'informiere', 'informiert', 'rufe', 'ruft', 'melde', 'meldet', 'schreib', 'schreibt', 'schreiben',
   'treffen', 'trifft', 'warte', 'wartet', 'warten', 'fahr',
@@ -75,7 +76,7 @@ const MAIN_FINITE = new Set([
   'vorbei', 'anfangen', 'starten', 'bestanden', 'gelingt', 'gelingen', 'steigen', 'wächst', 'wachsen',
   'genesen', 'dauert', 'dauern', 'stattfindet', 'stattfinden', 'verfügbar', 'bedeutet', 'kostet',
   'denkt', 'denken', 'glaube', 'glaubt', 'sagt', 'sagte', 'meint', 'hofft', 'behauptet', 'bestätigt',
-  'merkt', 'hört', 'weiß', 'wissen', 'fragt', 'fragen', 'erkundigt', 'prüfen', 'prüft', 'möchte',
+  'merkt', 'hört', 'höre', 'weiß', 'wissen', 'fragt', 'fragen', 'erkundigt', 'prüfen', 'prüft', 'möchte',
   'gibt', 'geben', 'trinke', 'trinkt', 'spart', 'informiert', 'schult', 'liest',
   'erklärt', 'packt', 'verschreibt', 'investiert', 'melden', 'bietet', 'diskutiert', 'zeigt',
   'kündigt', 'bleibe', 'geht', 'kommt', 'arbeitet', 'kocht', 'schläft', 'präsentiert',
@@ -84,8 +85,10 @@ const MAIN_FINITE = new Set([
   'regnet', 'regnete', 'scheint', 'schneit', 'funktioniert', 'klappt', 'stimmt', 'passt',
   'hilft', 'helfen', 'half', 'bekommt', 'bekommen', 'bekam', 'nimmt', 'nehmen',
   'ruft', 'ruft', 'läuft', 'lief', 'schläft', 'schlafen', 'gewinnt', 'verliert',
-  'blieb', 'bleiben', 'sah', 'lag', 'saß', 'sprach', 'schrieb', 'hielt', 'rief',
+  'blieb', 'bleiben', 'sah', 'lag', 'saß', 'sprach', 'schrieb', 'hielt', 'rief', 'anrief',
   'begann', 'gewann', 'verlor', 'trank', 'flog', 'zog', 'wuchs', 'schien',
+  'lebte', 'lebten', 'tanzte', 'tanzten', 'spielte', 'spielten', 'wohnte', 'wohnten',
+  'eintrat', 'betrat', 'betreten',
 ]);
 
 /** @param {string} w */
@@ -105,15 +108,30 @@ function isMainFinite(w) {
  */
 function looksLikeFiniteVerb(w) {
   if (isMainFinite(w)) return true;
-  const s = lw(w);
-  if (!s || s.length < 4 || PERSON.test(s)) return false;
-  if (/^(nicht|mit|seit|laut|wert|erst|oft|jetzt|dort|hier|sonst|etwas|nichts|manchmal|heute|morgen|gestern)$/.test(s)) {
+  const raw = String(w || '');
+  const s = lw(raw);
+  if (!s || PERSON.test(s)) return false;
+  // Mid-sentence capitals are nouns/names (Vollzeit, Land), not finite verbs
+  if (/^[A-ZÄÖÜ]/.test(raw)) return false;
+  // Short strong-past / sein forms
+  if (/^(kam|gab|las|aß|sah|tat|lag|saß|warf|sang|trank|flog|zog|wuchs|schien|blieb|ging|fand|half|rief|seid|warst|wart)$/.test(s)) {
+    return true;
+  }
+  if (s.length < 4) return false;
+  if (/^(nicht|mit|seit|laut|wert|erst|oft|jetzt|dort|hier|sonst|etwas|nichts|manchmal|heute|morgen|gestern|gern|gerne|schon|noch|auch|nur|sehr|fast|bald|dann|denn|aber|oder|und)$/.test(s)) {
     return false;
   }
   if (/^(der|die|das|den|dem|des|ein|eine|einer|einem|einen|eines)$/.test(s)) return false;
   if (REL_PREPS.has(s)) return false;
+  // Strong past: anrief, eintrat, betrat, … (avoid *and/*ang — Land, Gang)
+  if (/(?:ief|ahm|ong|uss|ieß|traf|trat|rief)$/i.test(s)) return true;
   return /(?:en|eln|ern|t|st|te|ten|test|tet)$/i.test(s)
     && !/(?:heit|keit|ung|schaft|tion|ität|nis)$/i.test(s);
+}
+
+/** @param {string} w */
+function isFiniteGuess(w) {
+  return isMainFinite(w) || looksLikeFiniteVerb(w);
 }
 
 /**
@@ -135,27 +153,38 @@ function opensWithSubordinateClause(words) {
     return false;
   }
 
-  // Als Abgeordneter … — als = in the role of + capitalized noun
+  // Als Abgeordneter / Als Kind … — role; Als Maria anrief, … — temporal (≥2 finites)
   if (first === 'als' && second && second[0] === second[0].toUpperCase() && !PERSON.test(second)) {
-    return false;
+    let finites = 0;
+    for (let i = 1; i < words.length; i++) {
+      if (isFiniteGuess(words[i])) finites += 1;
+    }
+    return finites >= 2;
   }
 
   return true;
 }
 
 /**
+ * Comma after the first Nebensatz finite when a second finite opens the Hauptsatz.
  * @param {string[]} words
  * @return {number|null}
  */
 function commaAfterV1Subordinate(words) {
-  for (let i = 1; i < words.length; i++) {
-    if (!isMainFinite(words[i])) continue;
-    if (i + 1 < words.length && isMainFinite(words[i + 1])) continue;
-    if (i >= 2) return i - 1;
-    if (i === 1 && K2_V1_STARTERS.has(lw(words[0]))) return i - 1;
+  const k2 = K2_V1_STARTERS.has(lw(words[0]));
+  const finites = [];
+  for (let i = k2 ? 0 : 1; i < words.length; i++) {
+    if (isFiniteGuess(words[i])) finites.push(i);
   }
-  for (let i = 2; i < words.length; i++) {
-    if (isMainFinite(words[i])) return i - 1;
+
+  // Wäre ich reich, würde ich … — comma before the second finite
+  if (k2 && finites.length >= 2) {
+    return finites[1] - 1;
+  }
+
+  // Wenn ihr müde seid, solltet … / Als wir lebten, lernte …
+  if (finites.length >= 2) {
+    return finites[0];
   }
   return null;
 }

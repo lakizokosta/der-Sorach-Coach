@@ -8,8 +8,9 @@ words:
   - seid
   - solltet
   - schlafen
+  - .
 commas:
-  - 4
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

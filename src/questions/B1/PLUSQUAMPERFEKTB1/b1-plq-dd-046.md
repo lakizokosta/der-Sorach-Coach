@@ -11,8 +11,9 @@ words:
   - Wanderer
   - schon
   - aufgebrochen
+  - .
 commas:
-  - 3
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plusquamperfekt — eine Komma-Stelle)

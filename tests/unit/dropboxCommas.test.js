@@ -110,4 +110,61 @@ describe('resolveDropboxCommas', () => {
       }),
     ).toEqual([2]);
   });
+
+  it('adds comma after initial Nebensatz (Wenn / Als …, HS)', () => {
+    expect(
+      resolveDropboxCommas({
+        words: ['Wenn', 'ihr', 'müde', 'seid', 'solltet', 'euch', 'ausruhen', '.'],
+        hint: 'Konjunktion — Wenn',
+      }),
+    ).toEqual([3]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Als', 'wir', 'in', 'Berlin', 'lebten', 'lernte', 'ich', 'viel', '.'],
+        hint: 'Temporalsatz',
+      }),
+    ).toEqual([4]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Als', 'Maria', 'jung', 'war', 'tanzte', 'sie', 'gern', '.'],
+        hint: 'Temporalsatz',
+      }),
+    ).toEqual([3]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Als', 'Maria', 'anrief', 'hatte', 'Tom', 'schon', 'geantwortet', '.'],
+        hint: 'Plusquamperfekt',
+      }),
+    ).toEqual([2]);
+  });
+
+  it('does not add comma for Als Kind / Während des (no Nebensatz)', () => {
+    expect(
+      resolveDropboxCommas({
+        words: ['Als', 'Kind', 'wohnte', 'ich', 'auf', 'dem', 'Land', '.'],
+        hint: 'Temporalsatz',
+      }),
+    ).toEqual([]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Als', 'Kind', 'spielte', 'ich', 'gern', 'Fußball', '.'],
+        hint: 'Präteritum',
+      }),
+    ).toEqual([]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Während', 'des', 'Essens', 'sprechen', 'wir', 'über', 'Arbeit', '.'],
+        hint: 'Temporalsatz',
+      }),
+    ).toEqual([]);
+  });
+
+  it('adds comma for Während + Nebensatz (Während er kocht, …)', () => {
+    expect(
+      resolveDropboxCommas({
+        words: ['Während', 'er', 'kocht', 'höre', 'ich', 'Radio', '.'],
+        hint: 'Temporalsatz',
+      }),
+    ).toEqual([2]);
+  });
 });

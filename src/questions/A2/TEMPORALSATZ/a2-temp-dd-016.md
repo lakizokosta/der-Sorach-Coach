@@ -9,8 +9,9 @@ words:
   - sind
   - wir
   - glücklich
+  - .
 commas:
-  - 3
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz — Nachdem)

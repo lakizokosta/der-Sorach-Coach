@@ -11,8 +11,9 @@ words:
   - hatte
   - unterschrieb
   - er
+  - .
 commas:
-  - 6
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plusquamperfekt — eine Komma-Stelle)

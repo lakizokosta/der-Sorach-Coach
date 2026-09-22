@@ -11,8 +11,9 @@ words:
   - sie
   - Personal
   - ein
+  - .
 commas:
-  - 4
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plusquamperfekt — eine Komma-Stelle)

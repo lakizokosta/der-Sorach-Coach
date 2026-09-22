@@ -8,8 +8,7 @@ words:
   - lerne
   - ich
   - viel
-commas:
-  - 2
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitiv)

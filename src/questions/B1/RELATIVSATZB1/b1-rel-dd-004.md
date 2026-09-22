@@ -11,9 +11,10 @@ words:
   - fühlt
   - sich
   - besser
+  - .
 commas:
   - 1
-  - 4
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Relativsatz)

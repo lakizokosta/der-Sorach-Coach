@@ -10,8 +10,7 @@ words:
   - in
   - einem
   - Café
-commas:
-  - 2
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

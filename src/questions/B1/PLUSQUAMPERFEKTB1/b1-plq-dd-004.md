@@ -10,8 +10,9 @@ words:
   - hatten
   - feierten
   - alle
+  - .
 commas:
-  - 5
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plusquamperfekt — eine Komma-Stelle)

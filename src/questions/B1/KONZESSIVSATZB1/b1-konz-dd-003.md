@@ -11,8 +11,9 @@ words:
   - es
   - gut
   - geschmeckt
+  - .
 commas:
-  - 1
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

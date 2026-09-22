@@ -11,8 +11,9 @@ words:
   - wartete
   - er
   - monatelang
+  - .
 commas:
-  - 5
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plusquamperfekt — eine Komma-Stelle)

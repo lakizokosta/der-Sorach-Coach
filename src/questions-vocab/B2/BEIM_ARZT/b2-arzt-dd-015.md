@@ -13,7 +13,6 @@ words:
   - "?"
 commas:
   - 0
-  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz (Anamnese-Frage).

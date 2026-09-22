@@ -11,8 +11,9 @@ words:
   - unser
   - Fest
   - aus
+  - .
 commas:
-  - 4
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

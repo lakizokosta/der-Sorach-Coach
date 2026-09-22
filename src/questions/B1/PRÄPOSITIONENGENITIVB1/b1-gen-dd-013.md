@@ -9,8 +9,7 @@ words:
   - das
   - Büro
   - geschlossen
-commas:
-  - 2
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

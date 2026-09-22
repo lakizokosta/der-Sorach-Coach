@@ -11,8 +11,7 @@ words:
   - Straße
   - nicht
   - benutzen
-commas:
-  - 2
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

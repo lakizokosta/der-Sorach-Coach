@@ -9,8 +9,9 @@ words:
   - tanzte
   - sie
   - gern
+  - .
 commas:
-  - 2
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

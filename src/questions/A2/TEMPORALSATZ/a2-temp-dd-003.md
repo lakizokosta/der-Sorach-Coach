@@ -8,8 +8,9 @@ words:
   - höre
   - ich
   - Radio
+  - .
 commas:
-  - 1
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

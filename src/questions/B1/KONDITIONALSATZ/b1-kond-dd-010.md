@@ -10,8 +10,9 @@ words:
   - sind
   - gehen
   - essen
+  - .
 commas:
-  - 6
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

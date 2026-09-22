@@ -11,8 +11,9 @@ words:
   - freute
   - sich
   - Markus
+  - .
 commas:
-  - 5
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plusquamperfekt — eine Komma-Stelle)

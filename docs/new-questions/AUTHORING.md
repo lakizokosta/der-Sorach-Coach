@@ -329,6 +329,17 @@ focus: word
 - ✅ `Nein, die Wohnung ist günstig.`
 - Код: `src/utils/dropboxCommas.js`; патч банка: `node scripts/patch-dropbox-commas.mjs`
 
+### 2026-09-22 — dropbox: запятая после начального Nebensatz (Wenn/Als …, HS)
+- Симптом: `Wenn ihr müde seid solltet euch ausruhen` / `Als Maria anrief hatte Tom…` без запятой между NS и HS.
+- Причина: (1) `commaAfterV1Subordinate` искал только узкий `MAIN_FINITE` и ставил индекс на слово *перед* глаголом NS; (2) `Als` + имя (`Maria`) ошибочно считалось ролевым *Als Abgeordneter*.
+- Правило:
+  1. После финитного глагола начального Nebensatz — запятая, если дальше идёт второй финит (Hauptsatz).
+  2. *Als* + CapWord: роль без запятой при **одном** фините (`Als Kind wohnte ich…`); темпоральный NS при **≥2** финитах (`Als Maria anrief, hatte…`).
+  3. *Während des/der…*, *Seit dem…* — по-прежнему без NS-запятой.
+- ❌ `Als wir in Berlin lebten lernte ich viel.`
+- ✅ `Als wir in Berlin lebten, lernte ich viel.`
+- Код: `src/utils/dropboxCommas.js`; патч: `node scripts/patch-dropbox-commas.mjs`
+
 ### 2026-09-22 — Modalverben A2: контекст, один верный Modal
 - Симптом: `Ich ___ heute nicht arbeiten` + options *kann/will/darf/muss* — все грамматически возможны; система принимает только *muss*.
 - Правило для **select-one / input-text** Modalverben (A1–B2, будущие темы):

@@ -9,8 +9,9 @@ words:
   - antwortete
   - Maria
   - sofort
+  - .
 commas:
-  - 3
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plusquamperfekt — eine Komma-Stelle)

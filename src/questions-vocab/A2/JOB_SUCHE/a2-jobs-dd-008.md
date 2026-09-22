@@ -12,8 +12,6 @@ words:
   - ich
   - Vollzeit
   - .
-commas:
-  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz (Arbeitnehmer).
