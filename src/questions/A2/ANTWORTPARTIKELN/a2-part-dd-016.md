@@ -11,6 +11,9 @@ words:
   - legen
   - ja
   - gern
+  - ?
+commas:
+  - 7
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

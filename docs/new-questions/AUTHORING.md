@@ -321,6 +321,14 @@ focus: word
 - ✅ `Als` `sie` `den` `Raum` `betrat` `,` `hatte` … `geöffnet` `.`
 - Код: `src/utils/dropboxChunks.js`
 
+### 2026-09-22 — dropbox: запятая после Ja / Nein / Doch (Antwortpartikel)
+- Симптом: `Nein die Wohnung ist günstig .` — точка фиксирована (салатовая), запятой нет; ученик не видит норму *Nein, …*.
+- Правило: как `.`/`?`, запятые **фиксированы в UI** (`dd-comma`), не чипы. После *Ja* / *Nein* (и *Doch* как ответ) — запятая, если дальше есть слова. Adversative mid-clause *doch* — запятая **перед** ним (как раньше).
+- Инференс на **core words** (без `.?!` в списке).
+- ❌ `Nein die Wohnung ist günstig.`
+- ✅ `Nein, die Wohnung ist günstig.`
+- Код: `src/utils/dropboxCommas.js`; патч банка: `node scripts/patch-dropbox-commas.mjs`
+
 ### 2026-09-22 — Modalverben A2: контекст, один верный Modal
 - Симптом: `Ich ___ heute nicht arbeiten` + options *kann/will/darf/muss* — все грамматически возможны; система принимает только *muss*.
 - Правило для **select-one / input-text** Modalverben (A1–B2, будущие темы):

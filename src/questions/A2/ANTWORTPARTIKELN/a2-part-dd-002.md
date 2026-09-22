@@ -10,6 +10,9 @@ words:
   - ja
   - zwei
   - Kollegen
+  - ?
+commas:
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

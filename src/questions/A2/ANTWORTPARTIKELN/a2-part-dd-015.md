@@ -8,6 +8,7 @@ words:
   - schön
   - aber
   - windig
+  - .
 commas:
   - 3
 ---

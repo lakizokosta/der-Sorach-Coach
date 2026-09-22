@@ -10,6 +10,7 @@ words:
   - trinke
   - ich
   - lieber
+  - .
 commas:
   - 2
 ---

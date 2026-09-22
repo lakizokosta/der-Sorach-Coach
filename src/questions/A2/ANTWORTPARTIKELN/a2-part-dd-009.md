@@ -8,6 +8,9 @@ words:
   - bestimmt
   - zur
   - Hochzeit
+  - .
+commas:
+  - 0
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — doch)

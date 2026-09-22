@@ -12,6 +12,9 @@ words:
   - habe
   - keine
   - Zeit
+  - ?
+commas:
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)

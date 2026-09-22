@@ -8,6 +8,9 @@ words:
   - ich
   - keine
   - Lust
+  - .
+commas:
+  - 0
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)

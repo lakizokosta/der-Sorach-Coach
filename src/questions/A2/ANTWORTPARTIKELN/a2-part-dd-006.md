@@ -8,6 +8,9 @@ words:
   - mein
   - neues
   - Fahrrad
+  - .
+commas:
+  - 0
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

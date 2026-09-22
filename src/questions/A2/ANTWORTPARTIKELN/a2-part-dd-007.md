@@ -10,8 +10,9 @@ words:
   - seit
   - einem
   - Jahr
+  - ?
 commas:
-  - 5
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

@@ -13,6 +13,9 @@ words:
   - war
   - nur
   - Zuschauer
+  - .
+commas:
+  - 6
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)

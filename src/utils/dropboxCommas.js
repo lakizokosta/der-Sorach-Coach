@@ -26,6 +26,14 @@ const INDIRECT_Q = new Set([
 const COORD_COMMA = new Set(['aber', 'denn', 'sondern', 'doch']);
 
 /**
+ * Antwortpartikeln Ja / Nein — always comma when more words follow
+ * (Nein, die Wohnung ist günstig. / Ja, gern.).
+ * Doch as answer particle only at clause start (index 0); mid-sentence
+ * adversative doch uses COORD_COMMA (comma before, not after).
+ */
+const ANSWER_PARTICLE_JA_NEIN = new Set(['ja', 'nein']);
+
+/**
  * Konjunktionaladverbien that open a second Hauptsatz with V2
  * (…, trotzdem fahren wir …). Mid-clause use (Wir fahren trotzdem …) has no comma.
  */
@@ -219,8 +227,19 @@ export function inferDropboxCommas(words, hint = '', explicit) {
     if (c !== null && c >= 0) commas.add(c);
   }
 
-  for (let i = 1; i < ws.length; i++) {
+  for (let i = 0; i < ws.length; i++) {
     const w = lw(ws[i]);
+
+    // Ja, … / Nein, … when not the last token (incl. after „?“ in mini-dialogues)
+    if (ANSWER_PARTICLE_JA_NEIN.has(w) && i < ws.length - 1) {
+      commas.add(i);
+    }
+    // Doch, ich … — Antwortpartikel (capitalized); mid adversative „doch“ uses COORD_COMMA
+    if (w === 'doch' && i < ws.length - 1 && String(ws[i])[0] === 'D') {
+      commas.add(i);
+    }
+
+    if (i === 0) continue;
 
     if (COORD_COMMA.has(w)) {
       commas.add(i - 1);
@@ -250,5 +269,8 @@ export function resolveDropboxCommas(question) {
     question?.hint ||
     String(question?.prompt || '').match(/\(([^)]+)\)\s*$/)?.[1] ||
     '';
-  return inferDropboxCommas(question?.words, hint, question?.commas);
+  // Infer on core words (`.`/`?`/`!` are fixed punct, not chips) — same as DragDrop.
+  const raw = Array.isArray(question?.words) ? question.words : [];
+  const core = raw.filter((w) => !/^[.?!]$/.test(String(w)));
+  return inferDropboxCommas(core, hint, question?.commas);
 }

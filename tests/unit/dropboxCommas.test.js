@@ -81,4 +81,33 @@ describe('resolveDropboxCommas', () => {
       }),
     ).toEqual([]);
   });
+
+  it('adds comma after Ja / Nein / Doch as Antwortpartikel', () => {
+    expect(
+      resolveDropboxCommas({
+        words: ['Nein', 'die', 'Wohnung', 'ist', 'günstig', '.'],
+        hint: 'Antwortpartikel — nein',
+      }),
+    ).toEqual([0]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Kann', 'ich', 'das', 'auf', 'den', 'Tisch', 'legen', '?', 'Ja', 'gern', '.'],
+        hint: 'Antwortpartikel — ja',
+      }),
+    ).toEqual([7]); // core without ?: Kann ich das auf den Tisch legen Ja gern
+    expect(
+      resolveDropboxCommas({
+        words: ['Doch', 'ich', 'komme', 'bestimmt', 'zur', 'Hochzeit', '.'],
+        hint: 'Antwortpartikel — doch',
+      }),
+    ).toEqual([0]);
+  });
+
+  it('keeps comma before mid-sentence adversative doch (not after)', () => {
+    expect(
+      resolveDropboxCommas({
+        words: ['Es', 'ist', 'teuer', 'doch', 'wir', 'kaufen', 'es'],
+      }),
+    ).toEqual([2]);
+  });
 });
