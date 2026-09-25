@@ -409,8 +409,16 @@ export async function fetchQuestionsFromServer(params) {
     trainingJwt: String(params.trainingJwt || '').trim(),
   });
 
+  const timeoutMs = 20000;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
   try {
-    const res = await httpFetch(`/api/questions?${qs.toString()}`, { method: 'GET' });
+    const res = await httpFetch(`/api/questions?${qs.toString()}`, {
+      method: 'GET',
+      cache: 'no-store',
+      signal: controller.signal,
+    });
     const text = await res.text();
     if (!text) return { ok: false, error: 'Leere Antwort' };
     const data = JSON.parse(text);
@@ -425,6 +433,11 @@ export async function fetchQuestionsFromServer(params) {
     }
     return data;
   } catch (err) {
+    if (controller.signal.aborted) {
+      return { ok: false, error: 'Zeitüberschreitung', timedOut: true };
+    }
     return networkFailure(err);
+  } finally {
+    clearTimeout(timer);
   }
 }

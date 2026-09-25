@@ -71,7 +71,7 @@ import { PRICES_EUR } from '@/data/payment.js';
 const route = useRoute();
 const { t } = useI18n();
 const router = useRouter();
-const { isPremium, isBasis } = usePremium();
+const { isPremium, isBasis, entitlementsReady } = usePremium();
 const { addXP, state: xpState, level: liveLevel, MASTERY_THRESHOLD } = useXp();
 const { state: streakState } = useStreak();
 const { displayName } = useNickname();
@@ -331,6 +331,11 @@ async function ensureAccessBeforeLoad() {
   if (!hasBackend()) {
     if (needsPremium) return false;
     return isPremium.value || isBasis.value;
+  }
+
+  // Bootstrap already confirmed access — avoid a second blocking GAS round-trip on every click.
+  if (entitlementsReady.value && (isPremium.value || isBasis.value)) {
+    return true;
   }
 
   const verified = await verifyEntitlementsLive();

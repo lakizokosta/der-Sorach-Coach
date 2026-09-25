@@ -209,6 +209,7 @@ async function verifyTrainingAccess(request, env, params) {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify(body),
+      signal: AbortSignal.timeout(15000),
     });
     const text = await res.text();
     if (!text) return { ok: false, error: 'Empty backend response' };
