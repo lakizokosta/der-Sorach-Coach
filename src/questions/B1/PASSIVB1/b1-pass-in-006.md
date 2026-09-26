@@ -1,7 +1,7 @@
 ---
 id: b1-pass-in-006
 type: input-text
-hint: Passiv + Verb renoviieren
+hint: Passiv + Verb renovieren
 correct:
   - wurde
 ---
