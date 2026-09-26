@@ -7,12 +7,13 @@ words:
   - zur
   - Einladung
   - mit
-  - nein
+  - ?
+  - Nein
   - ich
   - habe
   - keine
   - Zeit
-  - ?
+  - .
 commas:
   - 5
 ---

@@ -9,9 +9,10 @@ words:
   - den
   - Tisch
   - legen
-  - ja
-  - gern
   - ?
+  - Ja
+  - gern
+  - .
 commas:
   - 7
 ---

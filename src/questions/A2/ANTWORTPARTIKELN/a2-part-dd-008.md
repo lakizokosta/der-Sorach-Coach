@@ -8,7 +8,8 @@ words:
   - der
   - Panne
   - dabei
-  - nein
+  - ?
+  - Nein
   - ich
   - war
   - nur

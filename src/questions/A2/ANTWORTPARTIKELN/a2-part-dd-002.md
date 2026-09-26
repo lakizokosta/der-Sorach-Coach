@@ -7,10 +7,11 @@ words:
   - schon
   - jemanden
   - kennengelernt
-  - ja
+  - ?
+  - Ja
   - zwei
   - Kollegen
-  - ?
+  - .
 commas:
   - 5
 ---
