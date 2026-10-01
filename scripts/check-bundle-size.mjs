@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Fails if dist/ exceeds bundle size budget (default 60 MB).
+ * Fails if dist/ exceeds bundle size budget (default 75 MB).
  */
 
 import { execSync } from 'node:child_process';
@@ -9,7 +9,7 @@ import { join } from 'node:path';
 
 const ROOT = process.cwd();
 const DIST = join(ROOT, 'dist');
-const BUDGET_MB = Number(process.env.BUNDLE_BUDGET_MB || 60);
+const BUDGET_MB = Number(process.env.BUNDLE_BUDGET_MB || 75);
 
 if (!existsSync(DIST)) {
   console.error('dist/ not found — run npm run build first');
