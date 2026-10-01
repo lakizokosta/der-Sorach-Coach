@@ -8,13 +8,13 @@ replace: Absicherung
 hint: "Wortschatz — Risiko reduzieren"
 options:
   - Risikoabsicherung
-  - Absicherungsgeschäft
+  - Kurssicherung
   - Einzahlung
   - Abhebung
   - Gebühr
 correct:
   - Risikoabsicherung
-  - Absicherungsgeschäft
+  - Kurssicherung
 ---
 
 Wie würden Sie es noch sagen?

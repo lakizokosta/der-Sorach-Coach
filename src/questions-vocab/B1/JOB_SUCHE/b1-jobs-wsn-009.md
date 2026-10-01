@@ -4,21 +4,21 @@ type: multi-select
 lemma: Branche
 set: JOB_SUCHE
 focus: synonym
-replace: Branche
+replace: in dieser Branche
 hint: "Wortschatz — Wirtschaftsbereich einer Firma"
 options:
-  - Wirtschaftszweig
-  - Industriezweig
-  - Gehalt
-  - Urlaub
-  - Bewerbung
+  - in diesem Wirtschaftszweig
+  - in diesem Bereich
+  - in dieser Bewerbung
+  - in diesem Urlaub
+  - in dieser Probezeit
 correct:
-  - Wirtschaftszweig
-  - Industriezweig
+  - in diesem Wirtschaftszweig
+  - in diesem Bereich
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie haben zehn Jahre Erfahrung in dieser Branche.
 
-Welche Wörter oder Ausdrücke passen auch statt «Branche»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «in dieser Branche»? Wählen Sie alle richtigen Antworten.

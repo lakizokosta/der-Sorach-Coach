@@ -3,10 +3,10 @@ id: b2-passv-010
 type: select-one
 options:
   - auswertend
-  - auswertete
-  - auswerten
+  - zu auswerten
+  - auszuwerten
   - ausgewertet
-correct: auswerten
+correct: auszuwerten
 ---
 
-Die Daten sind leicht zu ___ . (Grammatikform)
+Die Daten sind leicht ___ . (Grammatikform)

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Homeoffice
 set: JOB_SUCHE
 focus: synonym
-replace: Homeoffice
+replace: im Homeoffice
 hint: "Wortschatz — Arbeiten von zu Hause aus"
 options:
-  - Telearbeit
-  - Arbeit im Homeoffice
-  - Büro
-  - Kündigung
-  - Stellenanzeige
+  - von zu Hause aus
+  - in Telearbeit
+  - im Büro
+  - in der Kantine
+  - beim Kunden
 correct:
-  - Telearbeit
-  - Arbeit im Homeoffice
+  - von zu Hause aus
+  - in Telearbeit
 ---
 
 Wie würden Sie es noch sagen?
 
 Zweimal pro Woche arbeiten Sie im Homeoffice.
 
-Welche Wörter oder Ausdrücke passen auch statt «Homeoffice»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «im Homeoffice»? Wählen Sie alle richtigen Antworten.

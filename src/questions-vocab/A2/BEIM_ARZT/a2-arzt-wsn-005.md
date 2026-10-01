@@ -4,17 +4,17 @@ type: multi-select
 lemma: Apotheke
 set: BEIM_ARZT
 focus: synonym
-replace: Apotheke
+replace: In der Apotheke
 hint: "Wortschatz — Medikamente abholen"
 options:
-  - Apothekenfiliale
-  - Offizin
-  - Praxis
-  - Rezeption
-  - Wartezimmer
+  - Beim Apotheker
+  - Bei der Apothekerin
+  - Im Wartezimmer
+  - An der Rezeption
+  - Bei der Krankenkasse
 correct:
-  - Apothekenfiliale
-  - Offizin
+  - Beim Apotheker
+  - Bei der Apothekerin
 ---
 
 Wie würden Sie es noch sagen?
@@ -23,4 +23,4 @@ Wo bekommen Sie die Medizin?
 
 In der Apotheke.
 
-Welche Wörter oder Ausdrücke passen auch statt «Apotheke»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «In der Apotheke»? Wählen Sie alle richtigen Antworten.

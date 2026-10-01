@@ -10,8 +10,8 @@ options:
   - Kundenberatung
   - Finanzberatung
   - Abhebung
-  - PIN
-  - TAN
+  - Einzahlung
+  - Überweisung
 correct:
   - Kundenberatung
   - Finanzberatung

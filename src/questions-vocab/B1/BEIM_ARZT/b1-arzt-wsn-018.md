@@ -4,21 +4,21 @@ type: multi-select
 lemma: Verschreibung
 set: BEIM_ARZT
 focus: synonym
-replace: die Verschreibung
+replace: der Verschreibung
 hint: "Wortschatz — Medikament vom Arzt"
 options:
-  - das Rezept
-  - die Medikamentenverordnung
-  - Überweisung
-  - Attest
-  - Termin
+  - dem Rezept
+  - der ärztlichen Verordnung
+  - der Überweisung
+  - dem Attest
+  - der Krankschreibung
 correct:
-  - das Rezept
-  - die Medikamentenverordnung
+  - dem Rezept
+  - der ärztlichen Verordnung
 ---
 
 Wie würden Sie es noch sagen?
 
-Die Verschreibung holen Sie in der Apotheke ab.
+Mit der Verschreibung gehen Sie in die Apotheke.
 
-Welche Wörter oder Ausdrücke passen auch statt «die Verschreibung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «der Verschreibung»? Wählen Sie alle richtigen Antworten.

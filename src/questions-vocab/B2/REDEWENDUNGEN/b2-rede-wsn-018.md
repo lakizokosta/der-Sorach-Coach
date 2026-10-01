@@ -7,14 +7,14 @@ focus: synonym
 replace: eins auf den Deckel bekommen
 hint: "Redewendung — Bild mit Schlag auf den Deckel"
 options:
-  - Tadel bekommen
-  - scharf gerügt werden
-  - Ein dickes Fell haben
-  - Ein Auge zudrücken
-  - Jemanden auf die Palme bringen
+  - einen Rüffel bekommen
+  - eine Rüge bekommen
+  - einen Korb bekommen
+  - eine Extrawurst bekommen
+  - Schwein gehabt
 correct:
-  - Tadel bekommen
-  - scharf gerügt werden
+  - einen Rüffel bekommen
+  - eine Rüge bekommen
 ---
 
 Wie würden Sie es noch sagen?

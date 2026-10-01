@@ -8,13 +8,13 @@ replace: Zinsderivat
 hint: "Wortschatz — Absicherung gegen Zinsänderung"
 options:
   - Zinsswap
-  - Zinsderivative
+  - Zinssicherungsinstrument
   - Girokonto
   - Sparkonto
   - Lastschrift
 correct:
   - Zinsswap
-  - Zinsderivative
+  - Zinssicherungsinstrument
 ---
 
 Wie würden Sie es noch sagen?

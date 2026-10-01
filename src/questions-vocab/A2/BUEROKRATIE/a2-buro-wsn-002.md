@@ -4,21 +4,21 @@ type: multi-select
 lemma: Formular
 set: BUEROKRATIE
 focus: synonym
-replace: Formular
+replace: dieses Formular
 hint: "Wortschatz — offizielles Blatt zum Ausfüllen"
 options:
-  - Vordruck
-  - Blankoformular
-  - Bescheid
-  - Termin
-  - Wartenummer
+  - diesen Vordruck
+  - diesen Fragebogen
+  - diesen Bescheid
+  - diesen Termin
+  - diese Wartenummer
 correct:
-  - Vordruck
-  - Blankoformular
+  - diesen Vordruck
+  - diesen Fragebogen
 ---
 
 Wie würden Sie es noch sagen?
 
 Bitte füllen Sie dieses Formular vollständig aus.
 
-Welche Wörter oder Ausdrücke passen auch statt «Formular»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «dieses Formular»? Wählen Sie alle richtigen Antworten.

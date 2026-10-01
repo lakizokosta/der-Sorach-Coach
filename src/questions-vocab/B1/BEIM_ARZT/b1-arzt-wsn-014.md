@@ -4,21 +4,21 @@ type: multi-select
 lemma: Blutuntersuchung
 set: BEIM_ARZT
 focus: synonym
-replace: Blutuntersuchung
+replace: zur Blutuntersuchung
 hint: "Wortschatz — Labor aus dem Blut"
 options:
-  - Bluttest
-  - Laboruntersuchung
-  - Röntgen
-  - Impfung
-  - Attest
+  - zum Bluttest
+  - zur Blutabnahme
+  - zur Impfung
+  - zum Röntgen
+  - zur Physiotherapie
 correct:
-  - Bluttest
-  - Laboruntersuchung
+  - zum Bluttest
+  - zur Blutabnahme
 ---
 
 Wie würden Sie es noch sagen?
 
 Kommen Sie morgen früh nüchtern zur Blutuntersuchung.
 
-Welche Wörter oder Ausdrücke passen auch statt «Blutuntersuchung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «zur Blutuntersuchung»? Wählen Sie alle richtigen Antworten.

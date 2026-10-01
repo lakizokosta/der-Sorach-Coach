@@ -4,21 +4,21 @@ type: multi-select
 lemma: Termin
 set: BUEROKRATIE
 focus: synonym
-replace: Termin
+replace: einen Termin
 hint: "Wortschatz — festgelegter Besuch beim Amt"
 options:
-  - Vorsprachetermin
-  - Amtstermin
-  - Wartezeit
-  - Frist
-  - Brief
+  - einen Amtstermin
+  - einen Vorsprachetermin
+  - eine Frist
+  - eine Gebühr
+  - eine Wartenummer
 correct:
-  - Vorsprachetermin
-  - Amtstermin
+  - einen Amtstermin
+  - einen Vorsprachetermin
 ---
 
 Wie würden Sie es noch sagen?
 
 Bitte vereinbaren Sie einen Termin online.
 
-Welche Wörter oder Ausdrücke passen auch statt «Termin»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «einen Termin»? Wählen Sie alle richtigen Antworten.

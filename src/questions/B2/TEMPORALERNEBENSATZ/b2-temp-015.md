@@ -9,4 +9,4 @@ options:
 correct: Sobald
 ---
 
-___, ich angekommen bin, melde ich mich. (Grammatikform)
+___ ich angekommen bin, melde ich mich. (Grammatikform)

@@ -8,13 +8,13 @@ replace: Aufklärung
 hint: "Wortschatz — Information vor Eingriff"
 options:
   - Patientenaufklärung
-  - Informationsgespräch
+  - Patienteninformation
   - Entlassung
   - Anamnese
   - Verordnung
 correct:
   - Patientenaufklärung
-  - Informationsgespräch
+  - Patienteninformation
 ---
 
 Wie würden Sie es noch sagen?

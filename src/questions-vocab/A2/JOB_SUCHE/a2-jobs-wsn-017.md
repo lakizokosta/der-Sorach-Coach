@@ -7,13 +7,13 @@ focus: synonym
 replace: Der Chef
 hint: "Wortschatz — Person mit Führungsverantwortung"
 options:
-  - Die Vorgesetzte
+  - Der Vorgesetzte
   - Der Abteilungsleiter
-  - Kollege
-  - Praktikant
-  - Bewerbung
+  - Der Kunde
+  - Der Praktikant
+  - Der Bewerber
 correct:
-  - Die Vorgesetzte
+  - Der Vorgesetzte
   - Der Abteilungsleiter
 ---
 

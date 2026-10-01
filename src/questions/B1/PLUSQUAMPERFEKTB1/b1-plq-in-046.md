@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, die Sonne aufging, waren alle Wanderer schon aufgebrochen.
+___ die Sonne aufging, waren alle Wanderer schon aufgebrochen.

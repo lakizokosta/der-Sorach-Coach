@@ -4,21 +4,21 @@ type: multi-select
 lemma: Karte sperren
 set: AUF_DER_BANK
 focus: synonym
-replace: lasse ... sperren
+replace: sperren
 hint: "Wortschatz — Karte ist weg"
 options:
-  - blockieren lassen
-  - sperren lassen
-  - aktivieren lassen
+  - blockieren
+  - deaktivieren
+  - aktivieren
   - einzahlen
   - kaufen
 correct:
-  - blockieren lassen
-  - sperren lassen
+  - blockieren
+  - deaktivieren
 ---
 
 Wie würdest du es noch sagen?
 
 Ich lasse meine Karte sperren — sie ist weg.
 
-Welche Wörter oder Ausdrücke passen auch statt «lasse ... sperren»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «sperren»? Wähle alle richtigen Antworten.

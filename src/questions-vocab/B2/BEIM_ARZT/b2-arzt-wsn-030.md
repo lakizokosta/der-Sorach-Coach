@@ -4,21 +4,21 @@ type: multi-select
 lemma: Klinik
 set: BEIM_ARZT
 focus: synonym
-replace: Klinik
+replace: unserer universitären Klinik
 hint: "Wortschatz — medizinische Einrichtung"
 options:
-  - Krankenhaus
-  - Krankenanstalt
-  - Apotheke
-  - Praxis
-  - Rezeption
+  - unserem Universitätsklinikum
+  - unserer Uniklinik
+  - unserer Apotheke
+  - unserer Praxis
+  - unserer Rezeption
 correct:
-  - Krankenhaus
-  - Krankenanstalt
+  - unserem Universitätsklinikum
+  - unserer Uniklinik
 ---
 
 Wie würden Sie es noch sagen?
 
 Die Behandlung erfolgt in unserer universitären Klinik.
 
-Welche Wörter oder Ausdrücke passen auch statt «Klinik»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «unserer universitären Klinik»? Wählen Sie alle richtigen Antworten.

@@ -7,18 +7,18 @@ focus: synonym
 replace: neu
 hint: "Wortschatz — kürzlich bezogen"
 options:
-  - frisch
-  - modern eingerichtet
-  - alt
-  - schmutzig
-  - teuer
+  - frisch gebaut
+  - ein Neubau
+  - ein Altbau
+  - sehr alt
+  - schon hundert Jahre alt
 correct:
-  - frisch
-  - modern eingerichtet
+  - frisch gebaut
+  - ein Neubau
 ---
 
 Wie würdest du es noch sagen?
 
-Die Wohnung ist neu — wir sind erst eingezogen.
+Das Haus ist neu — es ist erst ein Jahr alt.
 
 Welche Wörter oder Ausdrücke passen auch statt «neu»? Wähle alle richtigen Antworten.

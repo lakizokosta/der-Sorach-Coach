@@ -7,14 +7,14 @@ focus: synonym
 replace: wie Gott in Frankreich
 hint: "Redewendung — Bild mit Sonne und Genuss"
 options:
-  - sorgenfrei und angenehm leben
-  - es sich gut gehen lassen
-  - Den Gürtel enger schnallen
-  - Im Eimer sein
-  - Hinter dem Mond leben
+  - sorgenfrei und luxuriös
+  - in Saus und Braus
+  - hinter dem Mond
+  - von der Hand in den Mund
+  - wie Hund und Katze
 correct:
-  - sorgenfrei und angenehm leben
-  - es sich gut gehen lassen
+  - sorgenfrei und luxuriös
+  - in Saus und Braus
 ---
 
 Wie würden Sie es noch sagen?

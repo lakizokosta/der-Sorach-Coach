@@ -7,13 +7,13 @@ focus: synonym
 replace: Beschwerden
 hint: "Wortschatz — subjektive Symptome"
 options:
-  - Symptomatik
+  - Symptome
   - Leiden
   - Befunde
   - Verordnungen
   - Aufnahmen
 correct:
-  - Symptomatik
+  - Symptome
   - Leiden
 ---
 

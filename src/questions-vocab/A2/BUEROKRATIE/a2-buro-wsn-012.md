@@ -9,9 +9,9 @@ hint: "Wortschatz — Antrag bei der Behörde abgeben"
 options:
   - geben den Antrag bis Freitag ab
   - übergeben den Antrag bis Freitag
-  - füllen das Formular aus
-  - Wartezeit
-  - Gebühr
+  - holen den Antrag bis Freitag ab
+  - lesen den Antrag bis Freitag durch
+  - füllen den Antrag bis Freitag aus
 correct:
   - geben den Antrag bis Freitag ab
   - übergeben den Antrag bis Freitag

@@ -343,10 +343,59 @@ focus: word
 ### 2026-10-01 — trennbare Verben im Nebensatz: Präfix nicht abtrennen
 - Симптом (`a2-konj-in-010`): `Er fragt, ob wir mit zum Zoo kommen.` — приставка *mit* оторвана от глагола внутри Nebensatz.
 - Правило: в Nebensatz (после *ob/dass/weil/wenn/als…*, в Relativsatz, в косвенном вопросе) отделяемый глагол стоит **слитно в конце**. Приставка отделяется только в Hauptsatz (V2/V1).
-- Проверка набора: скан всех Nebensätze в `src/questions*` и `scripts/` на «приставка … глагол в конце» — других случаев нет.
 - ❌ `Er fragt, ob wir mit zum Zoo kommen.`
 - ✅ `Er fragt, ob wir zum Zoo mitkommen.`
 - Источник: `scripts/a2-input-text-data.mjs`
+
+### 2026-10-01 — Аудит trennbare Verben (весь пул, 7722 задания, A1–B2, все 5 типов)
+- Метод: в каждое задание подставлен правильный ответ (dropbox — порядок `words`, multi-select synonym — подстановка в `replace`), затем проверка всех предложений на позицию отделяемой приставки.
+- Правила (для всех будущих заданий):
+  1. **Nebensatz / Infinitiv**: глагол слитно в конце (`…, ob wir zum Zoo mitkommen`; `ich will mitspielen`; `weiterarbeiten`).
+  2. **Hauptsatz V1/V2**: приставка — в самом конце рамки (`Kommen Sie zum Konzert mit?`, `Sie nimmt an dem Kurs teil.`), не сразу за глаголом и не перед дополнением.
+  3. **Imperativ Sie**: `Füllen Sie das Formular aus.` — не `Ausfüllen Sie … aus`.
+  4. **zu-Infinitiv**: `zu` внутри (`auszuwerten`); пробел не ставить между `zu` и отделяемым глаголом (`leicht zu ___` + `auswerten` ❌).
+  5. **Щель не должна резать глагол**: `mit ___` + `spielen`, `___ Sie … aus` + `ausfüllen` — переформулировать так, чтобы ответ был целой формой.
+  6. **Synonym-подстановка** (`replace`): вариант-предложение с отделяемым глаголом должен заканчивать предложение (`Eine Firma sucht eine Bürokraft. Sie bewerben sich.`), иначе приставка оказывается в середине.
+- Исправлено: `a2-konj-dd-010`, `a1-hobb-tg-006`, `b1-buro-in-015`, `a2-npv-012/-in-012/-dd-012`, `a2-buro-in-011`, `a2-hobb-tg-003`, `b2-passv-010/-in-010`, `a2-jobs-wsn-019` (+ генераторы).
+- Не ошибки (норма): `spazieren gehen`, `offen lassen` (раздельно); `vom Bahnhofsplatz aus sieht man`; Ausklammerung перед `um … zu` (`Wir fahren früh los, um …`).
+
+### 2026-10-01 — Запятая сразу после щели в начале предложения
+- Симптом (`b1-kadv-*`, `b1-plq-*`, `b2-temp-*` + `-in-`): `Es regnete. ___, sind wir spazieren gegangen.` → после подстановки *Trotzdem, sind wir…*; `___, Paul angerufen hatte, antwortete…` → *Nachdem, Paul…*.
+- Правило:
+  1. **Konjunktionaladverb в Vorfeld** (*trotzdem, deshalb, dennoch, außerdem*): запятой после него нет — `___ sind wir…`.
+  2. **Subjunktion в начале Nebensatz** (*nachdem, bevor, als, sobald, während, solange*): запятая только в конце NS перед глаголом HS — `___ Paul angerufen hatte, antwortete…`.
+  3. Исключение: Antwortpartikel (*Ja/Nein/Doch*) — запятая после щели остаётся (`___, ich komme mit.`).
+- ❌ `Das Hotel war laut. ___, haben wir gut geschlafen.`
+- ✅ `Das Hotel war laut. ___ haben wir gut geschlafen.`
+- Источники: `scripts/b1-select-one-data.mjs` (`genKonjunktionaladverbien`, из него же `-in-`), `scripts/b1-plusquamperfekt-data.mjs`, `scripts/b2-select-one-data.mjs` (Temporaler Nebensatz).
+
+### 2026-10-01 — dropbox: сломанные предложения после удаления повторов + запятая перед Hilfsverb
+- Симптом 1 (`dropbox-duplicate-fixes.mjs` / `assertUnique`): чтобы слова не повторялись, из предложения вырезали подлежащее или артикль — `Wenn ich mehr Zeit hätte, würde ein Praktikum machen`, `Wenn ihr müde seid, solltet euch ausruhen`, `werden auch Preise höher`, `Weil er fleißig war, bestand die Studentin`.
+- Правило:
+  1. Ответ dropbox — **полное правильное предложение**. Нельзя ради уникальности фишек выкидывать подлежащее, артикль, отделяемую приставку (`Ich lade meine Kollegin ein`), обязательное дополнение (`Ich gebe der Frau das Buch`).
+  2. Если слово повторяется — **переформулировать** (`Wenn mir mehr Zeit bliebe, würde ich…`, `Wenn ihr müde seid, ruht euch aus`), а не вырезать. Повтор разного регистра (`Ich … ich`) допустим.
+  3. Konjunktionaladverb после запятой — со строчной: `…, trotzdem sind wir…` (не `Trotzdem`).
+  4. Мини-диалог: `?` сразу после вопроса, точка после ответа — `Denkst du an den Termin? — Ich denke daran.`
+  5. `scripts/rebuild-dropbox-banks.mjs` + `dropbox-duplicate-fixes.mjs` **не перезапускать**: они восстанавливают сломанные варианты; банк правится в `.md` + `*-dropbox-data.mjs`.
+- Симптом 2 (регрессия `commaAfterV1Subordinate`): `Nachdem ich die Nachricht gelesen, hatte rief Karl zurück` — партицип принимался за финитный глагол, запятая вставала перед Hilfsverb.
+- Правило: запятая — после **последнего** Hilfs-/Modalverb в первой цепочке глаголов (`gelesen hatte, rief`; `angekommen bin, gehen`; `schlecht war, blieben`). `um` без `zu` и `Da` + V2 (`Da ist jemand…`) — не Nebensatz.
+- ❌ `Sobald wir im Hotel angekommen, sind gehen essen.`
+- ✅ `Sobald ich im Hotel angekommen bin, gehen wir essen.`
+- Код: `src/utils/dropboxCommas.js` (+ тесты); патч: `node scripts/patch-dropbox-commas.mjs`.
+
+### 2026-10-01 — Synonym (`replace`): правильный вариант должен грамматически встать в предложение
+- Симптом: подстановка правильной опции вместо `replace` даёт неграмматичное предложение — `Seit dem Konzert haben Sie ein Lied im Kopf haben`, `Die Krankheitsbild`, `Das TagesHöchstbetrag`, `Ich lege an heute ein neues Konto`.
+- Правило (все уровни, все сеты):
+  1. **Та же форма слота**: NP ↔ NP, финитный глагол ↔ финитный глагол, Infinitiv ↔ Infinitiv (`zu` сохраняется: `abzubauen`, `zu kompensieren`).
+  2. **Род/падеж**: если синонимы разного рода — артикль входит в `replace` и во все опции (`replace: ein Rezidiv` → `einen Rückfall` / `ein Wiederauftreten`); прилагательное — с верным окончанием (`elektronischen Akte`).
+  3. **Число**: `replace` во множественном, если в контексте множественное (`Aufstiegschancen`, `Derivate`).
+  4. **Redewendung с глаголом**: глагол входит в `replace`, если опции — глагольные фразы (`treffen Sie den Nagel auf den Kopf` → `liegen Sie genau richtig`).
+  5. `replace` должен стоять в контексте **буквально**; раздельная рамка — через `...` (`spiele ... Gitarre`).
+  6. **Дистракторы** — в той же форме и регистре, что и правильные (не `Den Faden verlieren.` рядом с `alles koordinieren`), иначе ответ угадывается по виду.
+  7. Синоним ≠ сама лемма (`Widerspruchsverfahren der Behörde`, `sperren lassen` вместо `sperren`).
+- ❌ `replace: einen Ohrwurm` / correct `ein Lied im Kopf haben`
+- ✅ `replace: einen Ohrwurm` / correct `eine Melodie im Kopf`, `ein Lied im Ohr`
+- Источник: `scripts/wortschatz-synonym/data/*.mjs` (+ `.md` в `src/questions-vocab/*/*/*-wsn-*.md`).
 
 ### 2026-09-22 — Modalverben A2: контекст, один верный Modal
 - Симптом: `Ich ___ heute nicht arbeiten` + options *kann/will/darf/muss* — все грамматически возможны; система принимает только *muss*.

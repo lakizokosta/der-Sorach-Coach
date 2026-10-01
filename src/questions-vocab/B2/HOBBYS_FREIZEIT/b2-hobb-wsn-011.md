@@ -4,21 +4,21 @@ type: multi-select
 lemma: Zeitmanagement
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Zeitmanagement
+replace: Gutes Zeitmanagement
 hint: "Wortschatz — Freizeit und Job sinnvoll planen"
 options:
-  - Zeitplanung
-  - Organisation der Zeit
-  - Sponsoring
-  - Wettkampf
-  - Event
+  - Gute Zeitplanung
+  - Gute Zeiteinteilung
+  - Gutes Sponsoring
+  - Guter Wettkampf
+  - Gutes Event
 correct:
-  - Zeitplanung
-  - Organisation der Zeit
+  - Gute Zeitplanung
+  - Gute Zeiteinteilung
 ---
 
 Wie würden Sie es noch sagen?
 
 Gutes Zeitmanagement hilft Ihnen, Hobbys einzuplanen.
 
-Welche Wörter oder Ausdrücke passen auch statt «Zeitmanagement»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Gutes Zeitmanagement»? Wählen Sie alle richtigen Antworten.

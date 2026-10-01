@@ -7,14 +7,14 @@ focus: synonym
 replace: Fleisch
 hint: "Wortschatz — Wurst und Steak"
 options:
-  - Metzware
   - Fleischwaren
+  - Rindfleisch
   - Obst
   - Gemüse
   - Brot
 correct:
-  - Metzware
   - Fleischwaren
+  - Rindfleisch
 ---
 
 Wie würdest du es noch sagen?

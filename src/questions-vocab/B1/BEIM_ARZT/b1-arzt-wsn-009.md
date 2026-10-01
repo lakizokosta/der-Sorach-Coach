@@ -7,13 +7,13 @@ focus: synonym
 replace: Impfung
 hint: "Wortschatz — präventive Maßnahme"
 options:
-  - Vakzinierung
+  - Schutzimpfung
   - Immunisierung
-  - Untersuchung
-  - Röntgen
-  - Attest
+  - Operation
+  - Röntgenuntersuchung
+  - Überweisung
 correct:
-  - Vakzinierung
+  - Schutzimpfung
   - Immunisierung
 ---
 

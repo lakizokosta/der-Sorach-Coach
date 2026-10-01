@@ -4,21 +4,21 @@ type: multi-select
 lemma: Wartezimmer
 set: BEIM_ARZT
 focus: synonym
-replace: Wartezimmer
+replace: im Wartezimmer
 hint: "Wortschatz — vor dem Arztbesuch"
 options:
-  - Wartebereich
-  - Wartezimmerbereich
-  - Apotheke
-  - Notaufnahme
-  - Labor
+  - im Wartebereich
+  - im Warteraum
+  - im Labor
+  - in der Apotheke
+  - in der Notaufnahme
 correct:
-  - Wartebereich
-  - Wartezimmerbereich
+  - im Wartebereich
+  - im Warteraum
 ---
 
 Wie würden Sie es noch sagen?
 
 Bitte nehmen Sie im Wartezimmer Platz.
 
-Welche Wörter oder Ausdrücke passen auch statt «Wartezimmer»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «im Wartezimmer»? Wählen Sie alle richtigen Antworten.

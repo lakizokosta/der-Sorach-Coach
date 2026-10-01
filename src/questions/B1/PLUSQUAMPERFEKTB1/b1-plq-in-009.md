@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, Nora eingecheckt hatte, ging sie zum Gate.
+___ Nora eingecheckt hatte, ging sie zum Gate.

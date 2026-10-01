@@ -7,13 +7,13 @@ focus: synonym
 replace: mit dem Kopf durch die Wand
 hint: "Redewendung — stur und ohne Kompromisse handeln"
 options:
-  - stur ohne Kompromisse handeln
+  - seinen Willen um jeden Preis durchsetzen
   - keinen Kompromiss eingehen
-  - aus dem Nähkästchen plaudern
-  - jemandem auf den Zahn fühlen
-  - auf die lange Bank schieben
+  - Rücksicht auf alle nehmen
+  - auf das Team hören
+  - gemeinsam entscheiden
 correct:
-  - stur ohne Kompromisse handeln
+  - seinen Willen um jeden Preis durchsetzen
   - keinen Kompromiss eingehen
 ---
 

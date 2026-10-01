@@ -8,13 +8,13 @@ replace: Therapie
 hint: "Wortschatz — medizinische Maßnahme"
 options:
   - Behandlung
-  - Heilungsverfahren
+  - Heilbehandlung
   - Überweisung
-  - Attest
-  - Impfpass
+  - Impfung
+  - Krankschreibung
 correct:
   - Behandlung
-  - Heilungsverfahren
+  - Heilbehandlung
 ---
 
 Wie würden Sie es noch sagen?

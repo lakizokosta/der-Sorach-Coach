@@ -7,18 +7,18 @@ focus: synonym
 replace: Fußball
 hint: "Wortschatz — Mannschaftsspiel mit Ball"
 options:
-  - Ballspiel
-  - Fußballspiel
-  - Gitarre
-  - Film
-  - Langeweile
+  - Fußballspiele
+  - Bundesliga
+  - Filme
+  - Nachrichten
+  - Krimis
 correct:
-  - Ballspiel
-  - Fußballspiel
+  - Fußballspiele
+  - Bundesliga
 ---
 
 Wie würdest du es noch sagen?
 
-Im Verein spiele ich Fußball.
+Am Wochenende schaue ich Fußball im Fernsehen.
 
 Welche Wörter oder Ausdrücke passen auch statt «Fußball»? Wähle alle richtigen Antworten.

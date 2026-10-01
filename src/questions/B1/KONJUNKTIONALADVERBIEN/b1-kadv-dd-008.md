@@ -6,10 +6,11 @@ words:
   - hat
   - Überstunden
   - gemacht
-  - Deshalb
+  - deshalb
   - ist
   - er
   - müde
+  - .
 commas:
   - 3
 ---

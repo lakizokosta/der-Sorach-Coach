@@ -4,21 +4,21 @@ type: multi-select
 lemma: Natur
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Natur
+replace: die Natur
 hint: "Wortschatz — Wald, Berge und"
 options:
-  - Landschaft
-  - frische Luft
-  - Kino
-  - Konzert
-  - Grillen
+  - die Landschaft
+  - die frische Luft
+  - das Kino
+  - das Konzert
+  - die Stadt
 correct:
-  - Landschaft
-  - frische Luft
+  - die Landschaft
+  - die frische Luft
 ---
 
 Wie würden Sie es noch sagen?
 
 Beim Wandern genießen Sie die Natur.
 
-Welche Wörter oder Ausdrücke passen auch statt «Natur»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «die Natur»? Wählen Sie alle richtigen Antworten.

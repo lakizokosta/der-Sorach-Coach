@@ -8,13 +8,13 @@ replace: stationär
 hint: "Wortschatz — mit Aufenthalt in der Klinik"
 options:
   - im Krankenhaus
-  - mit Übernachtung
+  - in der Klinik
   - ambulant
   - extern
   - nüchtern
 correct:
   - im Krankenhaus
-  - mit Übernachtung
+  - in der Klinik
 ---
 
 Wie würden Sie es noch sagen?

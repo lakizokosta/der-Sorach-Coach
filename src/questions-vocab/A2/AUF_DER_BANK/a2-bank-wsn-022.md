@@ -8,13 +8,13 @@ replace: Lastschrift
 hint: "Wortschatz — Firma zieht Geld ein"
 options:
   - SEPA-Lastschrift
-  - Einzugsermächtigung
+  - Bankeinzug
   - Überweisung
-  - Abhebung
-  - PIN
+  - Barzahlung
+  - Post
 correct:
   - SEPA-Lastschrift
-  - Einzugsermächtigung
+  - Bankeinzug
 ---
 
 Wie würden Sie es noch sagen?

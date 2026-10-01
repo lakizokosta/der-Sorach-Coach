@@ -4,21 +4,21 @@ type: multi-select
 lemma: tanzen
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: tanze
+replace: tanze ich
 hint: "Wortschatz — sich zur Musik bewegen"
 options:
-  - bewege mich zur Musik
-  - gehe tanzen
-  - lese
-  - schwimme
-  - koche
+  - bewege ich mich
+  - feiere ich
+  - lese ich
+  - schwimme ich
+  - koche ich
 correct:
-  - bewege mich zur Musik
-  - gehe tanzen
+  - bewege ich mich
+  - feiere ich
 ---
 
 Wie würdest du es noch sagen?
 
 Im Club tanze ich gern zu Popmusik.
 
-Welche Wörter oder Ausdrücke passen auch statt «tanze»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «tanze ich»? Wähle alle richtigen Antworten.

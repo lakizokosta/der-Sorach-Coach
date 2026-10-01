@@ -4,21 +4,21 @@ type: multi-select
 lemma: Fitnessstudio
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Fitnessstudio
+replace: ins Fitnessstudio
 hint: "Wortschatz — Ort zum Trainieren mit Geräten"
 options:
-  - Sportstudio
-  - Trainingszentrum
-  - Kino
-  - Konzert
-  - Freizeitpark
+  - ins Sportstudio
+  - ins Fitnesscenter
+  - ins Kino
+  - ins Konzert
+  - in den Freizeitpark
 correct:
-  - Sportstudio
-  - Trainingszentrum
+  - ins Sportstudio
+  - ins Fitnesscenter
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie gehen dreimal pro Woche ins Fitnessstudio.
 
-Welche Wörter oder Ausdrücke passen auch statt «Fitnessstudio»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ins Fitnessstudio»? Wählen Sie alle richtigen Antworten.

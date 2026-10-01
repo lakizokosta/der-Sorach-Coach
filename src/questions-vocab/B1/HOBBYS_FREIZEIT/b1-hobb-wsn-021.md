@@ -4,21 +4,21 @@ type: multi-select
 lemma: Hobby
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Hobby
+replace: Ihr Hobby
 hint: "Wortschatz — was man gern in der Freizeit macht in der Freizeit"
 options:
-  - Freizeitbeschäftigung
-  - Lieblingsbeschäftigung
-  - Mitgliedschaft
-  - Turnier
-  - Langeweile
+  - Ihre Freizeitbeschäftigung
+  - Ihre Lieblingsbeschäftigung
+  - Ihre Mitgliedschaft
+  - Ihr Beruf
+  - Ihre Pflicht
 correct:
-  - Freizeitbeschäftigung
-  - Lieblingsbeschäftigung
+  - Ihre Freizeitbeschäftigung
+  - Ihre Lieblingsbeschäftigung
 ---
 
 Wie würden Sie es noch sagen?
 
 Seit Jahren ist Wandern Ihr Hobby.
 
-Welche Wörter oder Ausdrücke passen auch statt «Hobby»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihr Hobby»? Wählen Sie alle richtigen Antworten.

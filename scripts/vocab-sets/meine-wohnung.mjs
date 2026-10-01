@@ -620,13 +620,10 @@ commas:
     fm: `words:
   - Im
   - Kühlschrank
-  - ist
+  - sind
   - Milch
   - und
-  - Käse
-commas:
-  - 2
-  - 5`,
+  - Käse`,
     body: 'Ordne die Wörter: (Küche)',
   },
   {

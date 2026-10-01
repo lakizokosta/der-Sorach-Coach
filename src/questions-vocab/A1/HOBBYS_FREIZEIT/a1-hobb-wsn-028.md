@@ -4,21 +4,21 @@ type: multi-select
 lemma: Freude
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Freude
+replace: große Freude
 hint: "Wortschatz — gutes Gefühl beim Hobby"
 options:
-  - Vergnügen
-  - Spaß
-  - Langeweile
-  - Hausaufgaben
-  - Schule
+  - großes Vergnügen
+  - großen Spaß
+  - große Langeweile
+  - große Angst
+  - großen Stress
 correct:
-  - Vergnügen
-  - Spaß
+  - großes Vergnügen
+  - großen Spaß
 ---
 
 Wie würdest du es noch sagen?
 
 Tanzen bereitet mir große Freude.
 
-Welche Wörter oder Ausdrücke passen auch statt «Freude»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «große Freude»? Wähle alle richtigen Antworten.

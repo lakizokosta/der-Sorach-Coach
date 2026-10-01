@@ -4,16 +4,16 @@ type: multi-select
 lemma: jung
 set: MEINE_FAMILIE
 focus: synonym
-replace: jung
+replace: noch jung
 hint: "Wortschatz — wenige Jahre alt"
 options:
-  - klein
+  - noch klein
   - noch ein Kind
-  - alt
-  - groß
-  - stark
+  - schon alt
+  - schon groß
+  - schon erwachsen
 correct:
-  - klein
+  - noch klein
   - noch ein Kind
 ---
 
@@ -21,4 +21,4 @@ Wie würdest du es noch sagen?
 
 Mein Bruder ist noch jung — erst zehn.
 
-Welche Wörter oder Ausdrücke passen auch statt «jung»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «noch jung»? Wähle alle richtigen Antworten.

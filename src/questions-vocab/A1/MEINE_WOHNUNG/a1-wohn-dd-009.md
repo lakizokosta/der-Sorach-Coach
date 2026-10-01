@@ -7,7 +7,7 @@ focus: word
 words:
   - Im
   - Kühlschrank
-  - ist
+  - sind
   - Milch
   - und
   - Käse

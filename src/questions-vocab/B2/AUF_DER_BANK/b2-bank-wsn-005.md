@@ -8,13 +8,13 @@ replace: Sicherheiten
 hint: "Wortschatz — Absicherung des Kredits"
 options:
   - Kreditsicherheiten
-  - Belastung von Vermögen
+  - Sicherungsmittel
   - Kontoauszug
   - TAN
   - Valuta
 correct:
   - Kreditsicherheiten
-  - Belastung von Vermögen
+  - Sicherungsmittel
 ---
 
 Wie würden Sie es noch sagen?

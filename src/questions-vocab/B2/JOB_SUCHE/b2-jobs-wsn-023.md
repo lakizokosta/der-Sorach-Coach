@@ -8,13 +8,13 @@ replace: Mitbestimmung
 hint: "Wortschatz — Beteiligung der Belegschaft an Entscheidungen"
 options:
   - Mitwirkung
-  - Beteiligung der Arbeitnehmer
+  - Beteiligung
   - Kündigung
   - Urlaub
   - Bewerbung
 correct:
   - Mitwirkung
-  - Beteiligung der Arbeitnehmer
+  - Beteiligung
 ---
 
 Wie würden Sie es noch sagen?

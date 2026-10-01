@@ -4,21 +4,21 @@ type: multi-select
 lemma: Jemanden auf die Palme bringen
 set: REDEWENDUNGEN
 focus: synonym
-replace: auf die Palme
+replace: bringen die Chefin auf die Palme
 hint: "Redewendung — Bild mit Palme und Wut"
 options:
-  - jemanden wütend machen
-  - jemanden in Rage bringen
-  - Ein Auge zudrücken
-  - Das Eis brechen
-  - Jemandem die Daumen drücken
+  - machen die Chefin wütend
+  - bringen die Chefin in Rage
+  - bringen die Chefin auf Wolke sieben
+  - drücken der Chefin die Daumen
+  - brechen das Eis mit der Chefin
 correct:
-  - jemanden wütend machen
-  - jemanden in Rage bringen
+  - machen die Chefin wütend
+  - bringen die Chefin in Rage
 ---
 
 Wie würden Sie es noch sagen?
 
 Diese ständigen Verspätungen bringen die Chefin auf die Palme.
 
-Welche Wörter oder Ausdrücke passen auch statt «auf die Palme»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «bringen die Chefin auf die Palme»? Wählen Sie alle richtigen Antworten.

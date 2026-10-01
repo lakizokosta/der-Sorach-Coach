@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit Hut und vielen Zuständigkeiten"
 options:
   - alles koordinieren
   - alles organisieren
-  - Den Faden verlieren
-  - Das Eis brechen
-  - Das Haar in der Suppe suchen
+  - den Faden verlieren
+  - das Eis brechen
+  - das Haar in der Suppe suchen
 correct:
   - alles koordinieren
   - alles organisieren

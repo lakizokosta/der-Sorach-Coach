@@ -14,7 +14,7 @@ words:
   - kalt
   - .
 commas:
-  - 3
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

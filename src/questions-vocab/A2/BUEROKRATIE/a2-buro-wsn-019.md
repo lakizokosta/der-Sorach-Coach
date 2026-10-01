@@ -9,9 +9,9 @@ hint: "Wortschatz — öffentliche Institution vor Ort"
 options:
   - Die Behörde
   - Die Verwaltungsstelle
-  - Antrag
-  - Brief
-  - Gebühr
+  - Die Post
+  - Die Bank
+  - Die Apotheke
 correct:
   - Die Behörde
   - Die Verwaltungsstelle

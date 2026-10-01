@@ -4,21 +4,21 @@ type: multi-select
 lemma: Tablette
 set: BEIM_ARZT
 focus: synonym
-replace: Tablette
+replace: eine Tablette
 hint: "Wortschatz — Medikament zum Schlucken"
 options:
-  - Pille
-  - Dragee
-  - Salbe
-  - Tropfen
-  - Spritze
+  - eine Pille
+  - eine Kapsel
+  - eine Salbe
+  - ein Pflaster
+  - eine Spritze
 correct:
-  - Pille
-  - Dragee
+  - eine Pille
+  - eine Kapsel
 ---
 
 Wie würden Sie es noch sagen?
 
 Nehmen Sie dreimal am Tag eine Tablette.
 
-Welche Wörter oder Ausdrücke passen auch statt «Tablette»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine Tablette»? Wählen Sie alle richtigen Antworten.

@@ -7,14 +7,14 @@ focus: synonym
 replace: Eigenlob stinkt
 hint: "Redewendung — Bild mit Selbstlob und Abwehrhaltung"
 options:
-  - sich nicht selbst loben
-  - Bescheidenheit zeigen
-  - Eine Extrawurst bekommen
-  - Ein dickes Fell haben
-  - Schwein haben
+  - Man lobt sich nicht selbst
+  - Bescheidenheit ist eine Zier
+  - Liebe geht durch den Magen
+  - Da ist der Wurm drin
+  - Wer zuerst kommt, mahlt zuerst
 correct:
-  - sich nicht selbst loben
-  - Bescheidenheit zeigen
+  - Man lobt sich nicht selbst
+  - Bescheidenheit ist eine Zier
 ---
 
 Wie würden Sie es noch sagen?

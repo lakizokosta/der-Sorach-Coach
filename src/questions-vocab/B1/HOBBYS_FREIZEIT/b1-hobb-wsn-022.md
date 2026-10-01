@@ -11,7 +11,7 @@ options:
   - Club
   - Theater
   - Turnier
-  - Langeweile
+  - Urlaub
 correct:
   - Sportclub
   - Club

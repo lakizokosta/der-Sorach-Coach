@@ -4,21 +4,21 @@ type: multi-select
 lemma: Arbeitgeber
 set: JOB_SUCHE
 focus: synonym
-replace: Arbeitgeber
+replace: Ihr Arbeitgeber
 hint: "Wortschatz — Person oder Firma, die jemanden beschäftigt"
 options:
-  - Dienstgeber
-  - Unternehmen
-  - Arbeitnehmer
-  - Bewerbung
-  - Lebenslauf
+  - Ihre Firma
+  - Ihr Unternehmen
+  - Ihr Kollege
+  - Ihr Praktikant
+  - Ihre Nachbarin
 correct:
-  - Dienstgeber
-  - Unternehmen
+  - Ihre Firma
+  - Ihr Unternehmen
 ---
 
 Wie würden Sie es noch sagen?
 
 Ihr Arbeitgeber bietet Ihnen eine gute Ausbildung an.
 
-Welche Wörter oder Ausdrücke passen auch statt «Arbeitgeber»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihr Arbeitgeber»? Wählen Sie alle richtigen Antworten.

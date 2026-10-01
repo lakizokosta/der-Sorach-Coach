@@ -9,9 +9,9 @@ hint: "Wortschatz — präventive Gesundheitsmaßnahme"
 options:
   - Prävention
   - Gesundheitsvorsorge
-  - Rezept
-  - Attest
-  - Impfpass
+  - Krankschreibung
+  - Überweisung
+  - Operation
 correct:
   - Prävention
   - Gesundheitsvorsorge

@@ -9,9 +9,9 @@ hint: "Wortschatz — nach Belastung oder Stress"
 options:
   - Erholung
   - Ruhe
-  - Turnier
-  - Engagement
-  - Wettkampf
+  - Stress
+  - Hektik
+  - Anstrengung
 correct:
   - Erholung
   - Ruhe

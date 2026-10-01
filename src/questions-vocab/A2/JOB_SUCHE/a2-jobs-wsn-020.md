@@ -10,8 +10,8 @@ options:
   - anstellen
   - beschäftigen
   - kündigen
-  - bewerben
-  - Urlaub
+  - entlassen
+  - versetzen
 correct:
   - anstellen
   - beschäftigen

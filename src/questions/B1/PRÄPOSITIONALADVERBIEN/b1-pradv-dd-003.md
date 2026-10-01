@@ -8,11 +8,13 @@ words:
   - auf
   - die
   - Reise
+  - ?
   - —
   - Ich
   - freue
   - mich
   - darauf
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

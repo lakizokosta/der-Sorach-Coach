@@ -4,21 +4,21 @@ type: multi-select
 lemma: Ball
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Ball
+replace: einen Ball
 hint: "Wortschatz — rund und zum Spielen"
 options:
-  - Spielball
-  - Spielgerät
-  - Gitarre
-  - Film
-  - Langeweile
+  - einen Spielball
+  - einen Fußball
+  - eine Gitarre
+  - einen Film
+  - ein Buch
 correct:
-  - Spielball
-  - Spielgerät
+  - einen Spielball
+  - einen Fußball
 ---
 
 Wie würdest du es noch sagen?
 
 Beim Mannschaftsspiel brauchst du einen Ball.
 
-Welche Wörter oder Ausdrücke passen auch statt «Ball»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «einen Ball»? Wähle alle richtigen Antworten.

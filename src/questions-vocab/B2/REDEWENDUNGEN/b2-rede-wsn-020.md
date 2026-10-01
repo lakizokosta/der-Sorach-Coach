@@ -4,21 +4,21 @@ type: multi-select
 lemma: Etwas durch die Blume sagen
 set: REDEWENDUNGEN
 focus: synonym
-replace: es durch die Blume
+replace: sagen Sie es durch die Blume
 hint: "Redewendung — Bild mit Blume und Andeutung"
 options:
-  - indirekt sagen
-  - Andeutungen machen
-  - Das Eis brechen
-  - Den Nagel auf den Kopf treffen
-  - Das Haar in der Suppe suchen
+  - sagen Sie es indirekt
+  - deuten Sie es nur an
+  - brechen Sie das Eis
+  - treffen Sie den Nagel auf den Kopf
+  - suchen Sie das Haar in der Suppe
 correct:
-  - indirekt sagen
-  - Andeutungen machen
+  - sagen Sie es indirekt
+  - deuten Sie es nur an
 ---
 
 Wie würden Sie es noch sagen?
 
 Statt direkt zu kritisieren, sagen Sie es durch die Blume.
 
-Welche Wörter oder Ausdrücke passen auch statt «es durch die Blume»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «sagen Sie es durch die Blume»? Wählen Sie alle richtigen Antworten.

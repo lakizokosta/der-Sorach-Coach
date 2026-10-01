@@ -9,4 +9,4 @@ options:
 correct: Solange
 ---
 
-___, er krank war, blieb er zu Hause. (Grammatikform)
+___ er krank war, blieb er zu Hause. (Grammatikform)

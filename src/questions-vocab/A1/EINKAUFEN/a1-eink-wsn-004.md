@@ -4,21 +4,21 @@ type: multi-select
 lemma: Supermarkt
 set: EINKAUFEN
 focus: synonym
-replace: Supermarkt
+replace: in den Supermarkt
 hint: "Wortschatz — Ort für Lebensmittel"
 options:
-  - Laden
-  - Geschäft
-  - Bäckerei
-  - Apotheke
-  - Bank
+  - in den Laden
+  - ins Geschäft
+  - in die Bäckerei
+  - in die Apotheke
+  - in die Metzgerei
 correct:
-  - Laden
-  - Geschäft
+  - in den Laden
+  - ins Geschäft
 ---
 
 Wie würdest du es noch sagen?
 
 Ich gehe in den Supermarkt und hole Milch.
 
-Welche Wörter oder Ausdrücke passen auch statt «Supermarkt»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «in den Supermarkt»? Wähle alle richtigen Antworten.

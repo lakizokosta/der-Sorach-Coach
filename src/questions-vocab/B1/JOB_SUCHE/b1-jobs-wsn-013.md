@@ -7,14 +7,14 @@ focus: synonym
 replace: Verantwortung
 hint: "Wortschatz — Pflichten und Entscheidungen im Job"
 options:
-  - Zuständigkeit
-  - Verantwortungsbereich
+  - Zuständigkeiten
+  - Pflichten
   - Urlaub
-  - Gehalt
-  - Bewerbung
+  - Freizeit
+  - Pausen
 correct:
-  - Zuständigkeit
-  - Verantwortungsbereich
+  - Zuständigkeiten
+  - Pflichten
 ---
 
 Wie würden Sie es noch sagen?

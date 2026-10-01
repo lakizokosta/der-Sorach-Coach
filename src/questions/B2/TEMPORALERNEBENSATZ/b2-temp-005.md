@@ -9,4 +9,4 @@ options:
 correct: Nachdem
 ---
 
-___, er das Buch gelesen hatte, verstand er alles. (Grammatikform)
+___ er das Buch gelesen hatte, verstand er alles. (Grammatikform)

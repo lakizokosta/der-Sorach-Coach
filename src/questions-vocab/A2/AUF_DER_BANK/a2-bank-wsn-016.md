@@ -7,14 +7,14 @@ focus: synonym
 replace: Zinsen
 hint: "Wortschatz — Kosten für geliehenes Geld"
 options:
-  - Verzinsung
-  - Zinsertrag
-  - Gebühr
-  - Miete
-  - PIN
+  - Zinserträge
+  - Erträge
+  - Gebühren
+  - Schulden
+  - Kontoauszüge
 correct:
-  - Verzinsung
-  - Zinsertrag
+  - Zinserträge
+  - Erträge
 ---
 
 Wie würden Sie es noch sagen?

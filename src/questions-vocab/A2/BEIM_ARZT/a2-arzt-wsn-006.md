@@ -4,21 +4,21 @@ type: multi-select
 lemma: Husten
 set: BEIM_ARZT
 focus: synonym
-replace: Husten
+replace: starken Husten
 hint: "Wortschatz — Symptom in der Luftröhre"
 options:
-  - Hustenanfall
-  - Hustenreiz
-  - Fieber
-  - Schnupfen
-  - Rezept
+  - einen schlimmen Husten
+  - heftigen Hustenreiz
+  - hohes Fieber
+  - einen starken Schnupfen
+  - starke Kopfschmerzen
 correct:
-  - Hustenanfall
-  - Hustenreiz
+  - einen schlimmen Husten
+  - heftigen Hustenreiz
 ---
 
 Wie würden Sie es noch sagen?
 
 Ich habe seit drei Tagen starken Husten.
 
-Welche Wörter oder Ausdrücke passen auch statt «Husten»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «starken Husten»? Wählen Sie alle richtigen Antworten.

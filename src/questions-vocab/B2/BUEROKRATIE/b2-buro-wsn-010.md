@@ -8,13 +8,13 @@ replace: Verwaltungsgericht
 hint: "Wortschatz — Gericht für Streit mit der Behörde"
 options:
   - Gericht für Verwaltungssachen
-  - Verwaltungsrechtliches Gericht
+  - Gericht für Verwaltungsstreitigkeiten
   - Antrag
   - Formular
   - Schalter
 correct:
   - Gericht für Verwaltungssachen
-  - Verwaltungsrechtliches Gericht
+  - Gericht für Verwaltungsstreitigkeiten
 ---
 
 Wie würden Sie es noch sagen?

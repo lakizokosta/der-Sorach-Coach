@@ -4,21 +4,21 @@ type: multi-select
 lemma: Dauerauftrag
 set: AUF_DER_BANK
 focus: synonym
-replace: Dauerauftrag
+replace: mit einem Dauerauftrag
 hint: "Wortschatz — monatlich automatisch"
 options:
-  - wiederkehrende Überweisung
-  - regelmäßige Zahlung
-  - Einmalüberweisung
-  - Abhebung
-  - PIN
+  - mit einer regelmäßigen Überweisung
+  - mit einer automatischen Überweisung
+  - mit einer Abhebung
+  - mit einem Kontoauszug
+  - mit einer Geheimzahl
 correct:
-  - wiederkehrende Überweisung
-  - regelmäßige Zahlung
+  - mit einer regelmäßigen Überweisung
+  - mit einer automatischen Überweisung
 ---
 
 Wie würden Sie es noch sagen?
 
-Die Miete zahlen Sie jeden Monat per Dauerauftrag.
+Die Miete zahlen Sie mit einem Dauerauftrag.
 
-Welche Wörter oder Ausdrücke passen auch statt «Dauerauftrag»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «mit einem Dauerauftrag»? Wählen Sie alle richtigen Antworten.

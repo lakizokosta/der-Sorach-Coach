@@ -4,21 +4,21 @@ type: multi-select
 lemma: Aufhebungsbescheid
 set: BUEROKRATIE
 focus: synonym
-replace: Aufhebungsbescheid
+replace: Der Aufhebungsbescheid
 hint: "Wortschatz — Bescheid, der eine Entscheidung aufhebt"
 options:
-  - Bescheid über die Aufhebung
-  - Aufhebungsverfügung
-  - Antrag
-  - Termin
-  - Formular
+  - Der Bescheid über die Aufhebung
+  - Die Aufhebungsverfügung
+  - Der Antrag
+  - Der Termin
+  - Das Formular
 correct:
-  - Bescheid über die Aufhebung
-  - Aufhebungsverfügung
+  - Der Bescheid über die Aufhebung
+  - Die Aufhebungsverfügung
 ---
 
 Wie würden Sie es noch sagen?
 
 Der Aufhebungsbescheid tritt sofort in Kraft.
 
-Welche Wörter oder Ausdrücke passen auch statt «Aufhebungsbescheid»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Der Aufhebungsbescheid»? Wählen Sie alle richtigen Antworten.

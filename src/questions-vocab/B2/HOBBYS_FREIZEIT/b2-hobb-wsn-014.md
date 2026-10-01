@@ -8,13 +8,13 @@ replace: Amateur
 hint: "Wortschatz — Hobby-Sportler ohne Profivertrag"
 options:
   - Hobbysportler
-  - Nichtprofisportler
+  - Freizeitsportler
   - Profi
   - Sponsor
   - Event
 correct:
   - Hobbysportler
-  - Nichtprofisportler
+  - Freizeitsportler
 ---
 
 Wie würden Sie es noch sagen?

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, der Zug abfuhr, hatte Lea ihr Gepäck verstaut.
+___ der Zug abfuhr, hatte Lea ihr Gepäck verstaut.

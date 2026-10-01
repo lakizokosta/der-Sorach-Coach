@@ -562,7 +562,7 @@ export function genNomenPraep() {
     ['Wir haben Vertrauen ___ unser Team.', 'in', ['an', 'auf', 'mit', 'zu']],
     ['Ich habe Bedarf ___ Hilfe.', 'an', ['auf', 'in', 'mit', 'zu']],
     ['Er hat Erfolg ___ der Prüfung.', 'bei', ['an', 'auf', 'in', 'mit']],
-    ['Sie hat Teilnahme ___ dem Kurs.', 'an', ['auf', 'in', 'mit', 'zu']],
+    ['Ihre Teilnahme ___ dem Kurs ist kostenlos.', 'an', ['auf', 'in', 'mit', 'zu']],
     ['Ich habe Zweifel ___ der Idee.', 'an', ['auf', 'in', 'mit', 'zu']],
     ['Er hat Anspruch ___ eine Belohnung.', 'auf', ['an', 'in', 'mit', 'für']],
     ['Wir haben Spaß ___ dem Spiel.', 'an', ['auf', 'in', 'mit', 'zu']],

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kompetenz
 set: JOB_SUCHE
 focus: synonym
-replace: Kompetenz
+replace: Ihre Kompetenz
 hint: "Wortschatz — Können für bestimmte Aufgaben"
 options:
-  - Fähigkeit
-  - Qualifikation
-  - Gehalt
-  - Urlaub
-  - Kündigung
+  - Ihr Können
+  - Ihre Qualifikation
+  - Ihre Kündigung
+  - Ihre Unpünktlichkeit
+  - Ihr Urlaub
 correct:
-  - Fähigkeit
-  - Qualifikation
+  - Ihr Können
+  - Ihre Qualifikation
 ---
 
 Wie würden Sie es noch sagen?
 
 Ihre Kompetenz im Projektmanagement ist gefragt.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kompetenz»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre Kompetenz»? Wählen Sie alle richtigen Antworten.

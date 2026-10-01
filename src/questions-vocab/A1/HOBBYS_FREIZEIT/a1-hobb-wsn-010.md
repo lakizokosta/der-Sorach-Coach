@@ -11,7 +11,7 @@ options:
   - Kinofilm
   - Verein
   - Sport
-  - Hausaufgaben
+  - Unterricht
 correct:
   - Spielfilm
   - Kinofilm

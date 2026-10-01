@@ -4,21 +4,21 @@ type: multi-select
 lemma: Feier
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Feier
+replace: eine Feier
 hint: "Wortschatz — fröhliches Treffen mit Musik"
 options:
-  - Fest
-  - Festlichkeit
-  - Training
-  - Langeweile
-  - Yoga
+  - ein Fest
+  - eine Party
+  - ein Training
+  - ein Turnier
+  - ein Spiel
 correct:
-  - Fest
-  - Festlichkeit
+  - ein Fest
+  - eine Party
 ---
 
 Wie würden Sie es noch sagen?
 
 Am Samstag ist eine Feier im Verein.
 
-Welche Wörter oder Ausdrücke passen auch statt «Feier»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine Feier»? Wählen Sie alle richtigen Antworten.

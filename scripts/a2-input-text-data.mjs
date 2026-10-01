@@ -407,7 +407,7 @@ const BANK_RAW = {
     ['Wir haben Vertrauen ___ unser Team. (Nomen-Präp. — Vertrauen)', 'in'],
     ['Ich habe Bedarf ___ Hilfe. (Nomen-Präp. — Bedarf)', 'an'],
     ['Er hatte Erfolg ___ der Prüfung. (Nomen-Präp. — Erfolg)', 'bei'],
-    ['Sie nimmt Teil ___ dem Kurs. (Nomen-Präp. — Teilnahme)', 'an'],
+    ['Ihre Teilnahme ___ dem Kurs ist kostenlos. (Nomen-Präp. — Teilnahme)', 'an'],
     ['Ich habe Zweifel ___ der Idee. (Nomen-Präp. — Zweifel)', 'an'],
     ['Er hat Anspruch ___ eine Belohnung. (Nomen-Präp. — Anspruch)', 'auf'],
     ['Wir haben Spaß ___ dem Spiel. (Nomen-Präp. — Spaß)', 'an'],

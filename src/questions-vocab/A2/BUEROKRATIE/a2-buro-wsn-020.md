@@ -4,21 +4,21 @@ type: multi-select
 lemma: Jobcenter
 set: BUEROKRATIE
 focus: synonym
-replace: Jobcenter
+replace: Beim Jobcenter
 hint: "Wortschatz — Amt für Arbeitslosengeld"
 options:
-  - Agentur für Arbeit
-  - Arbeitsagentur
-  - Bürgeramt
-  - Formular
-  - Schalter
+  - Bei der Agentur für Arbeit
+  - Bei der Arbeitsagentur
+  - Beim Bürgeramt
+  - Beim Finanzamt
+  - Bei der Post
 correct:
-  - Agentur für Arbeit
-  - Arbeitsagentur
+  - Bei der Agentur für Arbeit
+  - Bei der Arbeitsagentur
 ---
 
 Wie würden Sie es noch sagen?
 
 Beim Jobcenter beantragen Sie Arbeitslosengeld.
 
-Welche Wörter oder Ausdrücke passen auch statt «Jobcenter»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Beim Jobcenter»? Wählen Sie alle richtigen Antworten.

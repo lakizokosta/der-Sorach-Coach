@@ -10,8 +10,8 @@ options:
   - Geldscheine
   - Banknoten
   - Münzen
-  - Cent
-  - Formular
+  - Kleingeld
+  - Formulare
 correct:
   - Geldscheine
   - Banknoten

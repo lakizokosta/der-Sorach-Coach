@@ -4,21 +4,21 @@ type: multi-select
 lemma: Familie
 set: MEINE_FAMILIE
 focus: synonym
-replace: Familie
+replace: isst die ganze Familie
 hint: "Wortschatz — alle zu Hause"
 options:
-  - Verwandtschaft
-  - Familienmitglieder
-  - Freunde
-  - Kollegen
-  - Nachbarn
+  - isst die ganze Verwandtschaft
+  - essen alle Familienmitglieder
+  - isst die ganze Klasse
+  - essen alle Kollegen
+  - essen alle Nachbarn
 correct:
-  - Verwandtschaft
-  - Familienmitglieder
+  - isst die ganze Verwandtschaft
+  - essen alle Familienmitglieder
 ---
 
 Wie würdest du es noch sagen?
 
 Am Sonntag isst die ganze Familie zusammen.
 
-Welche Wörter oder Ausdrücke passen auch statt «Familie»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «isst die ganze Familie»? Wähle alle richtigen Antworten.

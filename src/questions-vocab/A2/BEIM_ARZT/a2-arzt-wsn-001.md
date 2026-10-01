@@ -21,6 +21,6 @@ Wie würden Sie es noch sagen?
 
 Was haben Sie?
 
-Ich habe starke Kopfschmerzen.
+Ich habe Kopfschmerzen.
 
 Welche Wörter oder Ausdrücke passen auch statt «Kopfschmerzen»? Wählen Sie alle richtigen Antworten.

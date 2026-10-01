@@ -9,9 +9,9 @@ hint: "Wortschatz — Ort, an dem man arbeitet"
 options:
   - Ihre neue Stelle
   - Ihr neuer Job
-  - Bewerbung
-  - Lebenslauf
-  - Urlaub
+  - Ihr neuer Kollege
+  - Ihr neuer Chef
+  - Ihre neue Wohnung
 correct:
   - Ihre neue Stelle
   - Ihr neuer Job

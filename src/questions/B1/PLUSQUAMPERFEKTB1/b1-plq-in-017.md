@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, Nina umgezogen war, richtete sie die Wohnung ein.
+___ Nina umgezogen war, richtete sie die Wohnung ein.

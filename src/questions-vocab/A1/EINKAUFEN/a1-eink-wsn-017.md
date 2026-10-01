@@ -4,21 +4,21 @@ type: multi-select
 lemma: Bäckerei
 set: EINKAUFEN
 focus: synonym
-replace: Bäckerei
+replace: in der Bäckerei
 hint: "Wortschatz — hier gibt es Brötchen"
 options:
-  - Backstube
-  - Backshop
-  - Metzgerei
-  - Apotheke
-  - Post
+  - beim Bäcker
+  - im Backshop
+  - in der Metzgerei
+  - in der Apotheke
+  - im Blumenladen
 correct:
-  - Backstube
-  - Backshop
+  - beim Bäcker
+  - im Backshop
 ---
 
 Wie würdest du es noch sagen?
 
 Frische Brötchen holst du in der Bäckerei.
 
-Welche Wörter oder Ausdrücke passen auch statt «Bäckerei»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «in der Bäckerei»? Wähle alle richtigen Antworten.

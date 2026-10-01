@@ -8,7 +8,7 @@ words:
   - Wir
   - machen
   - ein
-  - Röntgen
+  - Röntgenbild
   - von
   - der
   - Lunge

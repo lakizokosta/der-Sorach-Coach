@@ -4,21 +4,21 @@ type: multi-select
 lemma: Vollzeitarbeit
 set: JOB_SUCHE
 focus: synonym
-replace: Vollzeitarbeit
+replace: in Vollzeitarbeit
 hint: "Wortschatz — Arbeit mit voller Wochenstundenzahl"
 options:
-  - Ganztagsbeschäftigung
-  - voller Pensum
-  - Teilzeit
-  - Praktikum
-  - Urlaub
+  - mit voller Stundenzahl
+  - mit 40 Wochenstunden
+  - in Teilzeit
+  - auf Minijob-Basis
+  - mit 10 Wochenstunden
 correct:
-  - Ganztagsbeschäftigung
-  - voller Pensum
+  - mit voller Stundenzahl
+  - mit 40 Wochenstunden
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie suchen eine Stelle in Vollzeitarbeit.
 
-Welche Wörter oder Ausdrücke passen auch statt «Vollzeitarbeit»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «in Vollzeitarbeit»? Wählen Sie alle richtigen Antworten.

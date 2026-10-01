@@ -7,13 +7,13 @@ focus: synonym
 replace: das Blaue vom Himmel
 hint: "Redewendung — Bild mit blauem Himmel als Versprechen"
 options:
-  - Unrealistisches
+  - das Unmögliche
   - zu viel
-  - jemandem ein X für ein U vormachen
-  - jemandem einen Bären aufbinden
-  - auf großem Fuß leben
+  - einen pünktlichen Termin
+  - eine ehrliche Beratung
+  - einen fairen Preis
 correct:
-  - Unrealistisches
+  - das Unmögliche
   - zu viel
 ---
 

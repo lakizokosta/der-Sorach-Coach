@@ -7,14 +7,14 @@ focus: synonym
 replace: Rechtsmittel
 hint: "Wortschatz — Möglichkeit gegen einen Bescheid vorzugehen"
 options:
-  - Rechtsbehelf
-  - Rechtsweg
-  - Antrag
-  - Genehmigung
-  - Formular
+  - Rechtsbehelfe
+  - rechtliche Schritte
+  - Anträge
+  - Genehmigungen
+  - Formulare
 correct:
-  - Rechtsbehelf
-  - Rechtsweg
+  - Rechtsbehelfe
+  - rechtliche Schritte
 ---
 
 Wie würden Sie es noch sagen?

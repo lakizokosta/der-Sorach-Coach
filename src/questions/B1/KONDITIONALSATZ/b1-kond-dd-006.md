@@ -10,7 +10,7 @@ words:
   - mir
   - .
 commas:
-  - 2
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

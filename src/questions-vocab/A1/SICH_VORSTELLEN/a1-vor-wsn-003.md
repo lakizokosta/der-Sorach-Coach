@@ -9,9 +9,9 @@ hint: "Wortschatz — Herkunftsland"
 options:
   - stamme aus
   - bin aus
-  - wohne
-  - fahre
-  - fliege
+  - wohne in
+  - arbeite in
+  - bin in
 correct:
   - stamme aus
   - bin aus

@@ -9,9 +9,9 @@ hint: "Wortschatz — höflich fragen"
 options:
   - wenn du erlaubst
   - wenn ich fragen darf
-  - danke
-  - tschüss
-  - gern
+  - wenn du Zeit hast
+  - wenn du müde bist
+  - wenn du Hunger hast
 correct:
   - wenn du erlaubst
   - wenn ich fragen darf

@@ -11,7 +11,7 @@ options:
   - Anlagekonto
   - Girokonto
   - Sparkonto
-  - PIN
+  - Schließfach
 correct:
   - Wertpapierdepot
   - Anlagekonto

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Balkon
 set: MEINE_WOHNUNG
 focus: synonym
-replace: Balkon
+replace: auf dem Balkon
 hint: "Wortschatz — draußen an der Wohnung"
 options:
-  - Loggia
-  - überdachter Balkon
-  - Flur
-  - Keller
-  - Dachboden
+  - auf der Loggia
+  - auf der Terrasse
+  - im Flur
+  - im Keller
+  - auf dem Dachboden
 correct:
-  - Loggia
-  - überdachter Balkon
+  - auf der Loggia
+  - auf der Terrasse
 ---
 
 Wie würdest du es noch sagen?
 
 Im Sommer frühstücke ich auf dem Balkon.
 
-Welche Wörter oder Ausdrücke passen auch statt «Balkon»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «auf dem Balkon»? Wähle alle richtigen Antworten.

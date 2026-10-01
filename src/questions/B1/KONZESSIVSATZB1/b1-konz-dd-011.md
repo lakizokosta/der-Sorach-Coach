@@ -7,12 +7,12 @@ words:
   - Politik
   - umstritten
   - ist
-  - diskutieren
+  - schweigen
   - viele
   - Menschen
   - .
 commas:
-  - 3
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

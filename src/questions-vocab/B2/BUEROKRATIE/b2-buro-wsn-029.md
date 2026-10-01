@@ -7,14 +7,14 @@ focus: synonym
 replace: Rechtswidrigkeit
 hint: "Wortschatz — Verstoß gegen geltendes Recht"
 options:
-  - rechtswidrige Entscheidung
-  - Verstoß gegen das Recht
+  - Unrechtmäßigkeit
+  - Gesetzwidrigkeit
   - Antrag
   - Genehmigung
   - Formular
 correct:
-  - rechtswidrige Entscheidung
-  - Verstoß gegen das Recht
+  - Unrechtmäßigkeit
+  - Gesetzwidrigkeit
 ---
 
 Wie würden Sie es noch sagen?

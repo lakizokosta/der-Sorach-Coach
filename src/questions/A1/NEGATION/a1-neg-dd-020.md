@@ -5,8 +5,9 @@ words:
   - Der
   - Bus
   - fährt
-  - nicht
   - hier
+  - nicht
+  - .
 ---
 
 [Transport] Ordne die Wörter zum richtigen Satz: (Negation — nicht hier)

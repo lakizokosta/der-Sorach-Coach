@@ -7,14 +7,14 @@ focus: synonym
 replace: Unterlagen
 hint: "Wortschatz — Dokumente zum Antrag"
 options:
-  - Antragsunterlagen
-  - Belege und Dokumente
-  - Termin
-  - Schalter
-  - Wartezeit
+  - Dokumente
+  - Papiere
+  - Termine
+  - Wartenummern
+  - Gebühren
 correct:
-  - Antragsunterlagen
-  - Belege und Dokumente
+  - Dokumente
+  - Papiere
 ---
 
 Wie würden Sie es noch sagen?

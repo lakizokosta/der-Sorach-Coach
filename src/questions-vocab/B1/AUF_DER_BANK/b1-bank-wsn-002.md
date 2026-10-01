@@ -8,13 +8,13 @@ replace: Dispokredit
 hint: "Wortschatz — Überziehung des Girokontos"
 options:
   - Überziehungskredit
-  - Kontoüberziehung
-  - Sparkonto
+  - Dispositionskredit
   - Dauerauftrag
-  - IBAN
+  - Bausparvertrag
+  - Kontoauszug
 correct:
   - Überziehungskredit
-  - Kontoüberziehung
+  - Dispositionskredit
 ---
 
 Wie würden Sie es noch sagen?

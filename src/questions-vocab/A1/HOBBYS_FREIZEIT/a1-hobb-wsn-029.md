@@ -4,21 +4,21 @@ type: multi-select
 lemma: Abend
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Abend
+replace: Am Abend
 hint: "Wortschatz — Zeit nach der Schule zum Entspannen"
 options:
-  - Feierabend
-  - späte Stunde
-  - Morgen
-  - Langeweile
-  - Arbeitstag
+  - Am Feierabend
+  - Abends
+  - Am Morgen
+  - Am Mittag
+  - Morgens
 correct:
-  - Feierabend
-  - späte Stunde
+  - Am Feierabend
+  - Abends
 ---
 
 Wie würdest du es noch sagen?
 
 Am Abend höre ich gern Musik.
 
-Welche Wörter oder Ausdrücke passen auch statt «Abend»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Am Abend»? Wähle alle richtigen Antworten.

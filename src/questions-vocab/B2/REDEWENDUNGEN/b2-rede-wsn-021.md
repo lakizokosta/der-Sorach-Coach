@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit Schwein und Glücksfall"
 options:
   - Glück gehabt
   - viel Glück gehabt
-  - Im Eimer sein
-  - Einen Korb bekommen
-  - Da ist der Wurm drin
+  - Pech gehabt
+  - einen Korb bekommen
+  - Tomaten auf den Augen gehabt
 correct:
   - Glück gehabt
   - viel Glück gehabt

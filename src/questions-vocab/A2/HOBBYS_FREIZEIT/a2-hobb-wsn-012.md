@@ -9,9 +9,9 @@ hint: "Wortschatz — Sport mit Team und Mitspielern"
 options:
   - Teamsport
   - Sport im Team
-  - Konzert
+  - Einzelsport
+  - Wassersport
   - Ausflug
-  - Langeweile
 correct:
   - Teamsport
   - Sport im Team

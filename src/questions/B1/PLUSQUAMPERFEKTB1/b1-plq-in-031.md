@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, Clara telefonierte, hatte sie die Notizen gemacht.
+___ Clara telefonierte, hatte sie die Notizen gemacht.

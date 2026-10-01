@@ -8,17 +8,17 @@ replace: Ihre Kündigung
 hint: "Wortschatz — Beendigung des Arbeitsverhältnisses"
 options:
   - Ihr Kündigungsschreiben
-  - Ihre Vertragsauflösung
-  - Bewerbung
-  - Gehalt
-  - Probezeit
+  - Ihre Kündigungserklärung
+  - Ihre Bewerbung
+  - Ihren Urlaubsantrag
+  - Ihre Probezeit
 correct:
   - Ihr Kündigungsschreiben
-  - Ihre Vertragsauflösung
+  - Ihre Kündigungserklärung
 ---
 
 Wie würden Sie es noch sagen?
 
-Ihre Kündigung muss schriftlich eingereicht werden.
+Ihre Kündigung müssen Sie bis zum 30. Juni einreichen.
 
 Welche Wörter oder Ausdrücke passen auch statt «Ihre Kündigung»? Wählen Sie alle richtigen Antworten.

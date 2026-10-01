@@ -6,11 +6,12 @@ words:
   - spricht
   - fließend
   - Englisch
-  - Außerdem
+  - außerdem
   - kann
   - sie
   - auch
   - Französisch
+  - .
 commas:
   - 3
 ---

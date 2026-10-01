@@ -382,7 +382,7 @@ export const b1Words = [
     in: {
       wordChoices: ['Genehmigung', 'Ablehnung', 'Nachreichung'],
       correct: ['Genehmigung'],
-      body: 'Ergänzen Sie:\n\nMit der ___ können Sie weiter arbeiten.',
+      body: 'Ergänzen Sie:\n\nMit der ___ können Sie weiterarbeiten.',
     },
     tg: {
       story: 'Vorgeschichte: Das Jobcenter hat Ihren Antrag bewilligt. Der Bescheid ist positiv — keine Ablehnung und keine Nachreichung nötig.',

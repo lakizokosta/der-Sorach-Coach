@@ -5,7 +5,7 @@ words:
   - Ihr
   - tanzt
   - gern
-  - heute
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präsens + Verb tanzen)

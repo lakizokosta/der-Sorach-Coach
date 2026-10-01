@@ -9,9 +9,9 @@ hint: "Wortschatz — Ort, an dem man gemeldet ist"
 options:
   - Ihren Wohnort
   - Ihre Meldeadresse
-  - Brief
-  - Schalter
-  - Gebühr
+  - Ihren Beruf
+  - Ihr Geburtsdatum
+  - Ihre Telefonnummer
 correct:
   - Ihren Wohnort
   - Ihre Meldeadresse

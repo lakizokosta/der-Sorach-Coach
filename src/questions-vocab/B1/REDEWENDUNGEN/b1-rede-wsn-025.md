@@ -7,14 +7,14 @@ focus: synonym
 replace: unter den Teppich kehren
 hint: "Redewendung — Bild mit Kehricht unter dem Teppich"
 options:
-  - etwas vertuschen
-  - etwas geheim halten
-  - aus dem Nähkästchen plaudern
-  - den Hut in den Ring werfen
-  - die Kuh vom Eis holen
+  - vertuschen
+  - verheimlichen
+  - offen zugeben
+  - korrigieren
+  - melden
 correct:
-  - etwas vertuschen
-  - etwas geheim halten
+  - vertuschen
+  - verheimlichen
 ---
 
 Wie würden Sie es noch sagen?

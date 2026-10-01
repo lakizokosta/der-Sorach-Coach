@@ -4,21 +4,21 @@ type: multi-select
 lemma: Vollzeit
 set: JOB_SUCHE
 focus: synonym
-replace: Vollzeit
+replace: eine Stelle in Vollzeit
 hint: "Wortschatz — ganzer Arbeitstag ohne Reduzierung"
 options:
-  - Ganztagsarbeit
-  - volle Wochenarbeitszeit
-  - Teilzeit
-  - Praktikum
-  - Bewerbung
+  - eine Vollzeitstelle
+  - eine Ganztagsstelle
+  - eine Stelle in Teilzeit
+  - einen Minijob
+  - ein Praktikum
 correct:
-  - Ganztagsarbeit
-  - volle Wochenarbeitszeit
+  - eine Vollzeitstelle
+  - eine Ganztagsstelle
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie suchen eine Stelle in Vollzeit.
 
-Welche Wörter oder Ausdrücke passen auch statt «Vollzeit»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine Stelle in Vollzeit»? Wählen Sie alle richtigen Antworten.

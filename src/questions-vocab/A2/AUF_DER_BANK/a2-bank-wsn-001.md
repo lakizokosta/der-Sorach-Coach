@@ -4,21 +4,21 @@ type: multi-select
 lemma: Girokonto
 set: AUF_DER_BANK
 focus: synonym
-replace: Girokonto
+replace: ein Girokonto
 hint: "Wortschatz — Konto für Alltag"
 options:
-  - Gehaltskonto
-  - Alltagskonto
-  - Sparkonto
-  - Kreditkarte
-  - Kontoauszug
+  - ein Gehaltskonto
+  - ein laufendes Konto
+  - ein Sparkonto
+  - eine Kreditkarte
+  - einen Kontoauszug
 correct:
-  - Gehaltskonto
-  - Alltagskonto
+  - ein Gehaltskonto
+  - ein laufendes Konto
 ---
 
 Wie würden Sie es noch sagen?
 
 Für Gehalt und Miete brauchen Sie ein Girokonto.
 
-Welche Wörter oder Ausdrücke passen auch statt «Girokonto»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ein Girokonto»? Wählen Sie alle richtigen Antworten.

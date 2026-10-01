@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Das Hotel war laut. ___, haben wir gut geschlafen.
+Das Hotel war laut. ___ haben wir gut geschlafen.

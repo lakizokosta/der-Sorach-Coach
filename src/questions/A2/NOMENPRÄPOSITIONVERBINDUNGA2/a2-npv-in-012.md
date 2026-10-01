@@ -8,4 +8,4 @@ correct:
 
 Ergänze die passende Präposition:
 
-Sie nimmt Teil ___ dem Kurs.
+Ihre Teilnahme ___ dem Kurs ist kostenlos.

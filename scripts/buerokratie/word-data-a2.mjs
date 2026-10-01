@@ -278,7 +278,7 @@ export const a2Words = [
     in: {
       wordChoices: ['ausfüllen', 'einreichen', 'unterschreiben'],
       correct: ['ausfüllen'],
-      body: 'Ergänzen Sie:\n\nBevor Sie kommen, ___ Sie bitte das Formular aus.',
+      body: 'Ergänzen Sie:\n\nBevor Sie kommen, sollten Sie das Formular ___.',
     },
     tg: {
       story: 'Vorgeschichte: Auf dem Tisch liegt ein leeres Dokument mit vielen Feldern. Sie sollen alle Angaben eintragen — nicht einreichen und nicht unterschreiben ist jetzt die Aufgabe.',

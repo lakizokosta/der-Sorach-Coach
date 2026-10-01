@@ -10,8 +10,8 @@ options:
   - Fortbildung
   - Qualifizierung
   - Kündigung
-  - Gehalt
-  - Urlaub
+  - Mittagspause
+  - Bewerbung
 correct:
   - Fortbildung
   - Qualifizierung

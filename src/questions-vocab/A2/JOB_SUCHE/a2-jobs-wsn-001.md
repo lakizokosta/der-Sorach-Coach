@@ -7,18 +7,18 @@ focus: synonym
 replace: einen passenden Beruf
 hint: "Wortschatz — erlernte Arbeit nach der Schule"
 options:
+  - einen passenden Job
   - eine passende Tätigkeit
-  - einen passenden Berufszweig
-  - Gehalt
-  - Urlaub
-  - Bewerbung
+  - ein passendes Hobby
+  - einen passenden Urlaub
+  - eine passende Wohnung
 correct:
+  - einen passenden Job
   - eine passende Tätigkeit
-  - einen passenden Berufszweig
 ---
 
 Wie würden Sie es noch sagen?
 
-Nach der Schule lernen Sie einen passenden Beruf.
+Nach der Schule wählen Sie einen passenden Beruf.
 
 Welche Wörter oder Ausdrücke passen auch statt «einen passenden Beruf»? Wählen Sie alle richtigen Antworten.

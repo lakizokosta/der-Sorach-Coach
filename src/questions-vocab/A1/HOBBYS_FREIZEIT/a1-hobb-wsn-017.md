@@ -4,21 +4,21 @@ type: multi-select
 lemma: malen
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: male
+replace: male ich Landschaften
 hint: "Wortschatz — Bilder machen"
 options:
-  - zeichne
-  - male Bilder
-  - schwimme
-  - tanze
-  - lese
+  - zeichne ich Landschaften
+  - mache ich Bilder von Landschaften
+  - lese ich Romane
+  - koche ich Suppen
+  - schwimme ich im See
 correct:
-  - zeichne
-  - male Bilder
+  - zeichne ich Landschaften
+  - mache ich Bilder von Landschaften
 ---
 
 Wie würdest du es noch sagen?
 
 In der Freizeit male ich Landschaften.
 
-Welche Wörter oder Ausdrücke passen auch statt «male»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «male ich Landschaften»? Wähle alle richtigen Antworten.

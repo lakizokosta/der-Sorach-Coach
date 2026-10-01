@@ -9,9 +9,9 @@ hint: "Wortschatz — hoher Preis"
 options:
   - nicht billig
   - nicht günstig
-  - preiswert
-  - günstig
+  - nicht teuer
   - billig
+  - preiswert
 correct:
   - nicht billig
   - nicht günstig

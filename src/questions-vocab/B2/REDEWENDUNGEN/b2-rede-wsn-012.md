@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit dickem Tierfell"
 options:
   - Kritik aushalten
   - Angriffe ertragen
-  - Eins auf den Deckel bekommen
-  - Eigenlob stinkt
-  - Einen Korb bekommen
+  - eins auf den Deckel bekommen
+  - einen Korb bekommen
+  - eine Extrawurst bekommen
 correct:
   - Kritik aushalten
   - Angriffe ertragen

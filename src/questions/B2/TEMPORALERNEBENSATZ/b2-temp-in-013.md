@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, das Meeting zu Ende war, gingen alle.
+___ das Meeting zu Ende war, gingen alle.

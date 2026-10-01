@@ -9,9 +9,9 @@ hint: "Wortschatz — kurze Ruhe nach Anstrengung"
 options:
   - Ruhepause
   - Erholungspause
-  - Training
-  - Turnier
-  - Hausaufgaben
+  - Hausaufgabe
+  - Prüfung
+  - Trainingseinheit
 correct:
   - Ruhepause
   - Erholungspause

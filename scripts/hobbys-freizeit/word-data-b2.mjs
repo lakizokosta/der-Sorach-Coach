@@ -40,7 +40,7 @@ export const b2Words = [
       options: ['Sport', 'Regeneration', 'Auszeit', 'Überstunden', 'Stress'],
       correct: ['Sport', 'Regeneration', 'Auszeit'],
     },
-    dd: ['Sport', 'hilft', 'mir', 'den', 'Alltag', 'auszugleichen', '.'],
+    dd: ['Sport', 'hilft', 'mir', 'den', 'Alltagsstress', 'auszugleichen', '.'],
     in: {
       wordChoices: ['ausgleichen', 'verlieren', 'vergessen'],
       correct: ['ausgleichen'],
@@ -326,7 +326,7 @@ export const b2Words = [
       options: ['Geld', 'Partner', 'Werbung', 'Training', 'Chor'],
       correct: ['Geld', 'Partner', 'Werbung'],
     },
-    dd: ['Das', 'Event', 'sucht', 'neues', 'Sponsoring', '.'],
+    dd: ['Das', 'Event', 'braucht', 'neues', 'Sponsoring', '.'],
     in: {
       wordChoices: ['Sponsoring', 'Regeneration', 'Amateur'],
       correct: ['Sponsoring'],

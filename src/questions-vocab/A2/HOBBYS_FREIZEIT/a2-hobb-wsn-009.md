@@ -4,21 +4,21 @@ type: multi-select
 lemma: Computer spielen
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: spielen
+replace: spielen Sie gern am Computer
 hint: "Wortschatz — digitale Spiele am PC"
 options:
-  - zocken
-  - Computerspiele machen
-  - wandern
-  - grillen
-  - trainieren
+  - zocken Sie gern am Computer
+  - daddeln Sie gern am PC
+  - kochen Sie gern zu Hause
+  - lesen Sie gern ein Buch
+  - wandern Sie gern im Wald
 correct:
-  - zocken
-  - Computerspiele machen
+  - zocken Sie gern am Computer
+  - daddeln Sie gern am PC
 ---
 
 Wie würden Sie es noch sagen?
 
 Am Abend spielen Sie gern am Computer mit Freunden.
 
-Welche Wörter oder Ausdrücke passen auch statt «spielen»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «spielen Sie gern am Computer»? Wählen Sie alle richtigen Antworten.

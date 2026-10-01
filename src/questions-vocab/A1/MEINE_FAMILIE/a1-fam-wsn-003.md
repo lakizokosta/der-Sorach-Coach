@@ -4,21 +4,21 @@ type: multi-select
 lemma: Bruder
 set: MEINE_FAMILIE
 focus: synonym
-replace: Bruder
+replace: Mein Bruder
 hint: "Wortschatz — männliches Geschwister"
 options:
-  - Brüderchen
-  - Bruder in der Familie
-  - Geschwister
-  - Schwester
-  - Cousin
+  - Der Sohn meiner Eltern
+  - Der Sohn von Mama und Papa
+  - Der Sohn meiner Tante
+  - Der Sohn meiner Schwester
+  - Der Mann meiner Tante
 correct:
-  - Brüderchen
-  - Bruder in der Familie
+  - Der Sohn meiner Eltern
+  - Der Sohn von Mama und Papa
 ---
 
 Wie würdest du es noch sagen?
 
-Mein Bruder ist 15 Jahre alt.
+Ich bin Lena. Mein Bruder ist 15 Jahre alt.
 
-Welche Wörter oder Ausdrücke passen auch statt «Bruder»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Mein Bruder»? Wähle alle richtigen Antworten.

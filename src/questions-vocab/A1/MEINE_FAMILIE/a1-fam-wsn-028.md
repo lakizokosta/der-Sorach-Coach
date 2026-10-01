@@ -10,7 +10,7 @@ options:
   - Bild
   - Familienfoto
   - Brief
-  - Karte
+  - Zettel
   - Buch
 correct:
   - Bild

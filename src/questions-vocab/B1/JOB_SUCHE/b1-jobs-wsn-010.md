@@ -4,21 +4,21 @@ type: multi-select
 lemma: Karriere
 set: JOB_SUCHE
 focus: synonym
-replace: Karriere
+replace: Ihre Karriere
 hint: "Wortschatz — Entwicklung im Berufsleben über Jahre"
 options:
-  - Berufslaufbahn
-  - beruflicher Werdegang
-  - Urlaub
-  - Kündigung
-  - Probezeit
+  - Ihre Berufslaufbahn
+  - Ihre berufliche Laufbahn
+  - Ihren Urlaub
+  - Ihre Kündigung
+  - Ihre Rente
 correct:
-  - Berufslaufbahn
-  - beruflicher Werdegang
+  - Ihre Berufslaufbahn
+  - Ihre berufliche Laufbahn
 ---
 
 Wie würden Sie es noch sagen?
 
 Mit dieser Stelle starten Sie Ihre Karriere im Marketing.
 
-Welche Wörter oder Ausdrücke passen auch statt «Karriere»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre Karriere»? Wählen Sie alle richtigen Antworten.

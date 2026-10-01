@@ -7,14 +7,14 @@ focus: synonym
 replace: Überstunden
 hint: "Wortschatz — Arbeitszeit über die reguläre hinaus"
 options:
-  - Mehrarbeit
-  - zusätzliche Arbeitsstunden
+  - zusätzliche Stunden
+  - Extrastunden
   - Urlaub
-  - Kündigung
-  - Bewerbung
+  - Pause
+  - Feierabend
 correct:
-  - Mehrarbeit
-  - zusätzliche Arbeitsstunden
+  - zusätzliche Stunden
+  - Extrastunden
 ---
 
 Wie würden Sie es noch sagen?

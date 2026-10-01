@@ -4,21 +4,21 @@ type: multi-select
 lemma: Online-Banking
 set: AUF_DER_BANK
 focus: synonym
-replace: Online-Banking
+replace: mit Online-Banking
 hint: "Wortschatz — Bank zu Hause am Computer"
 options:
-  - Internetbanking
-  - Banking online
-  - Geldautomat
-  - Schalter
-  - Brief
+  - mit Internetbanking
+  - im Internet
+  - am Schalter
+  - mit einem Formular
+  - am Geldautomaten
 correct:
-  - Internetbanking
-  - Banking online
+  - mit Internetbanking
+  - im Internet
 ---
 
 Wie würdest du es noch sagen?
 
 Überweisungen mache ich mit Online-Banking.
 
-Welche Wörter oder Ausdrücke passen auch statt «Online-Banking»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «mit Online-Banking»? Wähle alle richtigen Antworten.

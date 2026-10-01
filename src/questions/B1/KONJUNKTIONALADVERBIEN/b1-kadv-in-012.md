@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Das Essen war teuer. ___, war die Qualität hoch.
+Das Essen war günstig. ___ war die Qualität hoch.

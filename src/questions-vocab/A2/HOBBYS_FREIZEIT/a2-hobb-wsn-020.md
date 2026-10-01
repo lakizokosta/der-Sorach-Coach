@@ -7,14 +7,14 @@ focus: synonym
 replace: Langeweile
 hint: "Wortschatz — wenn nichts Interessantes passiert"
 options:
-  - Eintönigkeit
-  - Leere
-  - Interesse
-  - Spaß
-  - Konzert
+  - keine Abwechslung
+  - nichts zu tun
+  - viel Spaß
+  - gute Laune
+  - viel Energie
 correct:
-  - Eintönigkeit
-  - Leere
+  - keine Abwechslung
+  - nichts zu tun
 ---
 
 Wie würden Sie es noch sagen?

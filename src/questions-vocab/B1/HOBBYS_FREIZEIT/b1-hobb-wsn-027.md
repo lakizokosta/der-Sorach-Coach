@@ -8,13 +8,13 @@ replace: Radtour
 hint: "Wortschatz — Fahrradfahrt als Freizeitaktivität"
 options:
   - Fahrradtour
-  - Fahrradausflug
-  - Turnier
-  - Chor
-  - Theater
+  - Radwanderung
+  - Bootsfahrt
+  - Autofahrt
+  - Klettertour
 correct:
   - Fahrradtour
-  - Fahrradausflug
+  - Radwanderung
 ---
 
 Wie würden Sie es noch sagen?

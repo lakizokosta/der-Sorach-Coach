@@ -7,14 +7,14 @@ focus: synonym
 replace: Widerspruchsverfahren
 hint: "Wortschatz — Prüfung nach einem Widerspruch"
 options:
-  - Widerspruchsverfahren der Behörde
   - Einspruchsverfahren
+  - Vorverfahren
   - Antrag
   - Termin
   - Schalter
 correct:
-  - Widerspruchsverfahren der Behörde
   - Einspruchsverfahren
+  - Vorverfahren
 ---
 
 Wie würden Sie es noch sagen?

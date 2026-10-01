@@ -4,21 +4,21 @@ type: multi-select
 lemma: Lebenslauf
 set: JOB_SUCHE
 focus: synonym
-replace: Lebenslauf
+replace: Ihren Lebenslauf
 hint: "Wortschatz — Übersicht über Ausbildung und Werdegang"
 options:
-  - CV
-  - tabellarischer Werdegang
-  - Stellenanzeige
-  - Gehalt
-  - Praktikum
+  - Ihren CV
+  - Ihren beruflichen Werdegang
+  - Ihre Kündigung
+  - Ihren Urlaubsplan
+  - Ihre Telefonnummer
 correct:
-  - CV
-  - tabellarischer Werdegang
+  - Ihren CV
+  - Ihren beruflichen Werdegang
 ---
 
 Wie würden Sie es noch sagen?
 
 Bitte senden Sie uns Ihren Lebenslauf per E-Mail.
 
-Welche Wörter oder Ausdrücke passen auch statt «Lebenslauf»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihren Lebenslauf»? Wählen Sie alle richtigen Antworten.

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Wechselgeld
 set: AUF_DER_BANK
 focus: synonym
-replace: Wechselgeld
+replace: das Wechselgeld
 hint: "Wortschatz — zurück nach dem Bezahlen"
 options:
-  - Rückgeld
-  - Restbetrag
-  - Gebühr
-  - Kontostand
-  - PIN
+  - das Rückgeld
+  - das Restgeld
+  - das Formular
+  - die PIN
+  - die Unterschrift
 correct:
-  - Rückgeld
-  - Restbetrag
+  - das Rückgeld
+  - das Restgeld
 ---
 
 Wie würdest du es noch sagen?
 
-Kann ich Wechselgeld in Münzen bekommen?
+Die Frau an der Kasse gibt mir das Wechselgeld.
 
-Welche Wörter oder Ausdrücke passen auch statt «Wechselgeld»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «das Wechselgeld»? Wähle alle richtigen Antworten.

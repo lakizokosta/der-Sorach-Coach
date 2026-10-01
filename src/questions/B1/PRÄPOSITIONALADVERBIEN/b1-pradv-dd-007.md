@@ -7,10 +7,12 @@ words:
   - auf
   - die
   - Ergebnisse
+  - ?
   - —
   - Ich
   - warte
   - darauf
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

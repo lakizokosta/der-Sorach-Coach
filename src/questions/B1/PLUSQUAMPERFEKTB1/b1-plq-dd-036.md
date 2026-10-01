@@ -8,7 +8,8 @@ words:
   - hatte
   - Tom
   - schon
-  - geantwortet
+  - gegessen
+  - .
 commas:
   - 2
 ---

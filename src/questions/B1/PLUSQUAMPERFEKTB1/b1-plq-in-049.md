@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, die Nachricht kam, hatte unsere Firma schon reagiert.
+___ die Nachricht kam, hatte unsere Firma schon reagiert.

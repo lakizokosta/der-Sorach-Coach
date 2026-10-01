@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit Wurm in der Frucht"
 options:
   - etwas stimmt nicht
   - ein Fehler steckt dahinter
-  - Auf Wolke sieben schweben
-  - Den Nagel auf den Kopf treffen
-  - Schwein haben
+  - da schweben alle auf Wolke sieben
+  - da trifft jemand den Nagel auf den Kopf
+  - da hat jemand Schwein gehabt
 correct:
   - etwas stimmt nicht
   - ein Fehler steckt dahinter

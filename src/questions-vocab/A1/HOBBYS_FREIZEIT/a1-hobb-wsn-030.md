@@ -4,21 +4,21 @@ type: multi-select
 lemma: Computer
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Computer
+replace: am Computer
 hint: "Wortschatz — Gerät für Spiele und Internet"
 options:
-  - Rechner
-  - Heimrechner
-  - Gitarre
-  - Ball
-  - Langeweile
+  - am Rechner
+  - am PC
+  - an der Gitarre
+  - im Garten
+  - mit dem Ball
 correct:
-  - Rechner
-  - Heimrechner
+  - am Rechner
+  - am PC
 ---
 
 Wie würdest du es noch sagen?
 
 Manchmal spiele ich am Computer.
 
-Welche Wörter oder Ausdrücke passen auch statt «Computer»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «am Computer»? Wähle alle richtigen Antworten.

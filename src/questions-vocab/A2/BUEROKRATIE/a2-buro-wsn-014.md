@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kopie
 set: BUEROKRATIE
 focus: synonym
-replace: Kopie
+replace: eine Kopie
 hint: "Wortschatz — Abdruck eines Dokuments"
 options:
-  - Abschrift
-  - Fotokopie
-  - Antrag
-  - Termin
-  - Schalter
+  - eine Abschrift
+  - eine Fotokopie
+  - das Original
+  - eine Übersetzung
+  - eine Beschreibung
 correct:
-  - Abschrift
-  - Fotokopie
+  - eine Abschrift
+  - eine Fotokopie
 ---
 
 Wie würden Sie es noch sagen?
 
 Bitte legen Sie eine Kopie des Ausweises bei.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kopie»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine Kopie»? Wählen Sie alle richtigen Antworten.

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-Nachdem die Kinder eingeschlafen ___, las der Vater vor.
+Nachdem die Kinder eingeschlafen ___, las der Vater ein Buch.

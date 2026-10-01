@@ -11,7 +11,7 @@ options:
   - Ansprechpartner im Amt
   - Formular
   - Antrag
-  - Frist
+  - Vermieter
 correct:
   - zuständiger Mitarbeiter
   - Ansprechpartner im Amt

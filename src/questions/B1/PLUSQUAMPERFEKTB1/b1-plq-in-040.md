@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, David eintrat, hatte jemand die Lichter ausgeschaltet.
+___ David eintrat, hatte jemand die Lichter ausgeschaltet.

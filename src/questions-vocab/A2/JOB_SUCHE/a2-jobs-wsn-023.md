@@ -4,21 +4,21 @@ type: multi-select
 lemma: Firma
 set: JOB_SUCHE
 focus: synonym
-replace: Firma
+replace: In dieser Firma
 hint: "Wortschatz — Firma als Arbeitgeber"
 options:
-  - Unternehmen
-  - Betrieb
-  - Bewerbung
-  - Lebenslauf
-  - Urlaub
+  - In diesem Unternehmen
+  - In diesem Betrieb
+  - In dieser Bewerbung
+  - In diesem Lebenslauf
+  - In diesem Arbeitsvertrag
 correct:
-  - Unternehmen
-  - Betrieb
+  - In diesem Unternehmen
+  - In diesem Betrieb
 ---
 
 Wie würden Sie es noch sagen?
 
 In dieser Firma finden Sie viele offene Stellen.
 
-Welche Wörter oder Ausdrücke passen auch statt «Firma»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «In dieser Firma»? Wählen Sie alle richtigen Antworten.

@@ -6,6 +6,9 @@ words:
   - gibt
   - seinem
   - Lehrer
+  - das
+  - Heft
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Possessivartikel — seinem)

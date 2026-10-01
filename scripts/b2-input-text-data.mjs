@@ -175,7 +175,7 @@ const BANK = {
     ['Das Fenster ___ sich nicht öffnen. (lassen)', 'lässt'],
     ['Diese Frage ist nicht zu ___ . (Infinitiv)', 'beantworten'],
     ['Das Ergebnis ___ sich nicht vorhersagen. (lassen)', 'lässt'],
-    ['Die Daten sind leicht zu ___ . (auswerten)', 'auswerten'],
+    ['Die Daten sind leicht ___ . (auswerten)', 'auszuwerten'],
     ['Der Fehler ___ sich schnell beheben. (lassen)', 'lässt'],
     ['Die Maschine ist leicht zu ___ . (Infinitiv)', 'bedienen'],
     ['Die Tür ___ sich nicht schließen. (lassen)', 'lässt'],

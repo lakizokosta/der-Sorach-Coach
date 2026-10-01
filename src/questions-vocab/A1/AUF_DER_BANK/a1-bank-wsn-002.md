@@ -9,9 +9,9 @@ hint: "Wortschatz — Münzen und Scheine"
 options:
   - Bargeld
   - Finanzmittel
-  - Formular
-  - Brief
-  - Karte
+  - Zeit
+  - Hilfe
+  - Papier
 correct:
   - Bargeld
   - Finanzmittel

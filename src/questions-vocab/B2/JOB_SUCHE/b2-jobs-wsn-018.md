@@ -8,13 +8,13 @@ replace: Arbeitslosigkeit
 hint: "Wortschatz — gesellschaftliches Problem fehlender Beschäftigung"
 options:
   - Erwerbslosigkeit
-  - Mangel an Jobs
+  - Erwerbslosenquote
   - Vollzeit
   - Gehalt
   - Bewerbung
 correct:
   - Erwerbslosigkeit
-  - Mangel an Jobs
+  - Erwerbslosenquote
 ---
 
 Wie würden Sie es noch sagen?

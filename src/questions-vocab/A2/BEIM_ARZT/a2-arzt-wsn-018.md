@@ -7,14 +7,14 @@ focus: synonym
 replace: ein Attest
 hint: "Wortschatz — Papier für Arbeit/Schule"
 options:
-  - eine Arbeitsunfähigkeitsbescheinigung
-  - eine Bescheinigung
+  - eine Krankschreibung
+  - eine ärztliche Bescheinigung
   - ein Rezept
   - einen Termin
   - einen Impfpass
 correct:
-  - eine Arbeitsunfähigkeitsbescheinigung
-  - eine Bescheinigung
+  - eine Krankschreibung
+  - eine ärztliche Bescheinigung
 ---
 
 Wie würden Sie es noch sagen?

@@ -11,7 +11,7 @@ words:
   - glücklich
   - .
 commas:
-  - 2
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz — Nachdem)

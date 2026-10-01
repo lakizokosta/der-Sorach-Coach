@@ -8,13 +8,13 @@ replace: vermittelt Sie
 hint: "Wortschatz — passende Stelle für jemanden finden"
 options:
   - stellt Sie einem Arbeitgeber vor
-  - findet Ihnen einen Job
-  - kündigen
-  - Urlaub
-  - Praktikum
+  - findet für Sie eine Stelle
+  - kündigt Ihnen
+  - entlässt Sie
+  - lehnt Sie ab
 correct:
   - stellt Sie einem Arbeitgeber vor
-  - findet Ihnen einen Job
+  - findet für Sie eine Stelle
 ---
 
 Wie würden Sie es noch sagen?

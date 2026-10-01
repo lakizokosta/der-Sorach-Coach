@@ -7,14 +7,14 @@ focus: synonym
 replace: unterschreiben Sie unten auf dem Formular
 hint: "Wortschatz — den Namen auf dem Formular setzen"
 options:
-  - setzen Sie unten Ihre Unterschrift
-  - signieren Sie unten
-  - reichen den Antrag ein
-  - Termin
-  - Wartenummer
+  - signieren Sie unten auf dem Formular
+  - setzen Sie Ihre Unterschrift unten auf das Formular
+  - lesen Sie den Text unten auf dem Formular
+  - schreiben Sie unten auf das Formular Ihre Adresse
+  - kleben Sie unten auf das Formular ein Foto
 correct:
-  - setzen Sie unten Ihre Unterschrift
-  - signieren Sie unten
+  - signieren Sie unten auf dem Formular
+  - setzen Sie Ihre Unterschrift unten auf das Formular
 ---
 
 Wie würden Sie es noch sagen?

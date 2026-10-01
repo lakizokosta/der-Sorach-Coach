@@ -4,21 +4,21 @@ type: multi-select
 lemma: Studium
 set: SICH_VORSTELLEN
 focus: synonym
-replace: Studium
+replace: Mein Studium
 hint: "Wortschatz — an der Universität"
 options:
-  - Ausbildung
-  - Universitätsstudium
-  - Beruf
-  - Hobby
-  - Schule
+  - Mein Studienfach
+  - Mein Fach an der Uni
+  - Mein Beruf
+  - Mein Hobby
+  - Mein Job
 correct:
-  - Ausbildung
-  - Universitätsstudium
+  - Mein Studienfach
+  - Mein Fach an der Uni
 ---
 
 Wie würdest du es noch sagen?
 
 Mein Studium ist Medizin.
 
-Welche Wörter oder Ausdrücke passen auch statt «Studium»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Mein Studium»? Wähle alle richtigen Antworten.

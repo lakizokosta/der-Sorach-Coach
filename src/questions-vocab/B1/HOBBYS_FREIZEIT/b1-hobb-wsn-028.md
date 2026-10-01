@@ -4,21 +4,21 @@ type: multi-select
 lemma: Freundeskreis
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Freundeskreis
+replace: Ihren Freundeskreis
 hint: "Wortschatz — Gruppe enger Freunde in der Freizeit"
 options:
-  - Freundesgruppe
-  - Bekanntenkreis
-  - Turnier
-  - Mitgliedschaft
-  - Langeweile
+  - Ihre Freunde
+  - Ihre Clique
+  - Ihren Chef
+  - Ihre Kunden
+  - Ihren Vermieter
 correct:
-  - Freundesgruppe
-  - Bekanntenkreis
+  - Ihre Freunde
+  - Ihre Clique
 ---
 
 Wie würden Sie es noch sagen?
 
 Am Wochenende treffen Sie Ihren Freundeskreis.
 
-Welche Wörter oder Ausdrücke passen auch statt «Freundeskreis»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihren Freundeskreis»? Wählen Sie alle richtigen Antworten.

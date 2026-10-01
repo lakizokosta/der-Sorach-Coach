@@ -8,17 +8,17 @@ replace: Rücklastschrift
 hint: "Wortschatz — Lastschrift kam zurück"
 options:
   - Rückbuchung
-  - retournierte Lastschrift
+  - Lastschriftrückgabe
   - Überweisung
   - Einzahlung
-  - Gehalt
+  - Gutschrift
 correct:
   - Rückbuchung
-  - retournierte Lastschrift
+  - Lastschriftrückgabe
 ---
 
 Wie würden Sie es noch sagen?
 
-Wegen Kontodeckung erfolgte eine Rücklastschrift.
+Wegen fehlender Kontodeckung erfolgte eine Rücklastschrift.
 
 Welche Wörter oder Ausdrücke passen auch statt «Rücklastschrift»? Wählen Sie alle richtigen Antworten.

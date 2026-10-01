@@ -4,21 +4,21 @@ type: multi-select
 lemma: Sport
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Sport
+replace: Regelmäßiger Sport
 hint: "Wortschatz — körperliche Aktivität zur Erholung"
 options:
-  - Bewegung
-  - sportliche Betätigung
-  - Theater
-  - Chor
-  - Langeweile
+  - Regelmäßige Bewegung
+  - Regelmäßiges Training
+  - Regelmäßiges Fernsehen
+  - Regelmäßiger Stress
+  - Regelmäßige Langeweile
 correct:
-  - Bewegung
-  - sportliche Betätigung
+  - Regelmäßige Bewegung
+  - Regelmäßiges Training
 ---
 
 Wie würden Sie es noch sagen?
 
 Regelmäßiger Sport hält Sie fit.
 
-Welche Wörter oder Ausdrücke passen auch statt «Sport»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Regelmäßiger Sport»? Wählen Sie alle richtigen Antworten.

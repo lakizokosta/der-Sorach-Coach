@@ -9,8 +9,8 @@ hint: "Wortschatz — andere Person darf handeln"
 options:
   - Bankvollmacht
   - Bevollmächtigung
-  - Kontoauszug
-  - TAN
+  - Kündigung
+  - Überweisung
   - Gebühr
 correct:
   - Bankvollmacht

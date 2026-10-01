@@ -7,7 +7,7 @@ focus: word
 words:
   - Wir
   - wohnen
-  - mit
+  - bei
   - unseren
   - Eltern
 ---

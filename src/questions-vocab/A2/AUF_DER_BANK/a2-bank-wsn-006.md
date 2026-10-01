@@ -4,21 +4,21 @@ type: multi-select
 lemma: IBAN
 set: AUF_DER_BANK
 focus: synonym
-replace: IBAN
+replace: Ihre IBAN
 hint: "Wortschatz — internationale Kontonummer"
 options:
-  - Kontonummer international
-  - Internationale Bankkontonummer
-  - TAN
-  - PIN
-  - BIC
+  - Ihre internationale Kontonummer
+  - Ihre Kontonummer
+  - Ihren Kontostand
+  - Ihre Geheimzahl
+  - Ihre Kreditkarte
 correct:
-  - Kontonummer international
-  - Internationale Bankkontonummer
+  - Ihre internationale Kontonummer
+  - Ihre Kontonummer
 ---
 
 Wie würden Sie es noch sagen?
 
 Für die Überweisung brauchen wir Ihre IBAN.
 
-Welche Wörter oder Ausdrücke passen auch statt «IBAN»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre IBAN»? Wählen Sie alle richtigen Antworten.

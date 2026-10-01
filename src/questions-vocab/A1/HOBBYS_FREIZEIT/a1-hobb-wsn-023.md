@@ -4,21 +4,21 @@ type: multi-select
 lemma: Picknick
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Picknick
+replace: ein Picknick
 hint: "Wortschatz — Essen draußen in der Natur"
 options:
-  - Essen im Freien
-  - Imbiss draußen
-  - Training
-  - Konzert
-  - Hausaufgaben
+  - ein Essen im Freien
+  - ein kleines Essen draußen
+  - ein Training
+  - ein Konzert
+  - ein Fußballspiel
 correct:
-  - Essen im Freien
-  - Imbiss draußen
+  - ein Essen im Freien
+  - ein kleines Essen draußen
 ---
 
 Wie würdest du es noch sagen?
 
 Im Park machen wir ein Picknick.
 
-Welche Wörter oder Ausdrücke passen auch statt «Picknick»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ein Picknick»? Wähle alle richtigen Antworten.

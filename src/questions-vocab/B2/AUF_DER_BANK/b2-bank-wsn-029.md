@@ -7,14 +7,14 @@ focus: synonym
 replace: Nachrangdarlehen
 hint: "Wortschatz — im Insolvenzfall nachrangig"
 options:
-  - nachrangiges Darlehen
-  - hybrides Kapital
+  - nachrangige Darlehen
+  - Nachrangkapital
   - Girokonto
   - Sparkonto
   - PIN
 correct:
-  - nachrangiges Darlehen
-  - hybrides Kapital
+  - nachrangige Darlehen
+  - Nachrangkapital
 ---
 
 Wie würden Sie es noch sagen?

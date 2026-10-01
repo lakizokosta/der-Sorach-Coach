@@ -7,13 +7,13 @@ focus: synonym
 replace: alt
 hint: "Wortschatz — schon lange da"
 options:
-  - historisch
+  - nicht mehr neu
   - in die Jahre gekommen
-  - neu
-  - groß
-  - hell
+  - ganz neu
+  - sehr groß
+  - sehr hell
 correct:
-  - historisch
+  - nicht mehr neu
   - in die Jahre gekommen
 ---
 

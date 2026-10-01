@@ -4,21 +4,21 @@ type: multi-select
 lemma: Adresse
 set: BUEROKRATIE
 focus: synonym
-replace: Adresse
+replace: Ihre aktuelle Adresse
 hint: "Wortschatz — Straße und Hausnummer"
 options:
-  - Anschrift
-  - Wohnadresse
-  - Termin
-  - Antrag
-  - Wartezeit
+  - Ihre aktuelle Anschrift
+  - Ihre aktuelle Wohnadresse
+  - Ihre aktuelle Telefonnummer
+  - Ihren aktuellen Beruf
+  - Ihr aktuelles Gehalt
 correct:
-  - Anschrift
-  - Wohnadresse
+  - Ihre aktuelle Anschrift
+  - Ihre aktuelle Wohnadresse
 ---
 
 Wie würden Sie es noch sagen?
 
 Tragen Sie Ihre aktuelle Adresse ein.
 
-Welche Wörter oder Ausdrücke passen auch statt «Adresse»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre aktuelle Adresse»? Wählen Sie alle richtigen Antworten.

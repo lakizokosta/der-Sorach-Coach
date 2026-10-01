@@ -7,14 +7,14 @@ focus: synonym
 replace: Untersuchung
 hint: "Wortschatz — ärztliche Kontrolle"
 options:
-  - körperliche Untersuchung
-  - Untersuchung durch den Arzt
+  - Kontrolle
+  - Überprüfung
   - Überweisung
   - Krankschreibung
   - Impfung
 correct:
-  - körperliche Untersuchung
-  - Untersuchung durch den Arzt
+  - Kontrolle
+  - Überprüfung
 ---
 
 Wie würden Sie es noch sagen?

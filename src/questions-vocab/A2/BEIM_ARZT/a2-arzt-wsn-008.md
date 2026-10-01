@@ -4,21 +4,21 @@ type: multi-select
 lemma: Versicherungskarte
 set: BEIM_ARZT
 focus: synonym
-replace: Versicherungskarte
+replace: Ihre Versicherungskarte
 hint: "Wortschatz — Karte der Krankenkasse"
 options:
-  - Krankenkassenkarte
-  - Gesundheitskarte
-  - Rezept
-  - Attest
-  - Impfpass
+  - Ihre Krankenkassenkarte
+  - Ihre Gesundheitskarte
+  - Ihr Rezept
+  - Ihr Attest
+  - Ihren Impfpass
 correct:
-  - Krankenkassenkarte
-  - Gesundheitskarte
+  - Ihre Krankenkassenkarte
+  - Ihre Gesundheitskarte
 ---
 
 Wie würden Sie es noch sagen?
 
 An der Rezeption: Haben Sie Ihre Versicherungskarte dabei?
 
-Welche Wörter oder Ausdrücke passen auch statt «Versicherungskarte»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre Versicherungskarte»? Wählen Sie alle richtigen Antworten.

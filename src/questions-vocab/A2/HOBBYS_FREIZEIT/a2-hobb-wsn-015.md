@@ -8,13 +8,13 @@ replace: zeichnen
 hint: "Wortschatz — Bilder mit Stift oder Kreide machen"
 options:
   - skizzieren
-  - malen mit Stift
-  - trainieren
-  - grillen
-  - wandern
+  - malen
+  - fotografieren
+  - beschreiben
+  - erkunden
 correct:
   - skizzieren
-  - malen mit Stift
+  - malen
 ---
 
 Wie würden Sie es noch sagen?

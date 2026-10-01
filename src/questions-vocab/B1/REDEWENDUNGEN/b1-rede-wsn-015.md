@@ -8,13 +8,13 @@ replace: steppt der Bär
 hint: "Redewendung — es ist lebhaft und ausgelassen"
 options:
   - geht es hoch her
-  - ist es ausgelassen
-  - ein Brett vor dem Kopf haben
-  - einen Dachschaden haben
-  - auf die lange Bank schieben
+  - ist die Stimmung ausgelassen
+  - ist es sehr ruhig
+  - ist es langweilig
+  - ist kaum jemand da
 correct:
   - geht es hoch her
-  - ist es ausgelassen
+  - ist die Stimmung ausgelassen
 ---
 
 Wie würden Sie es noch sagen?

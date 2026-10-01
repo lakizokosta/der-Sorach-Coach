@@ -4,21 +4,21 @@ type: multi-select
 lemma: Übelkeit
 set: BEIM_ARZT
 focus: synonym
-replace: Übelkeit
+replace: starke Übelkeit
 hint: "Wortschatz — Magen unwohl"
 options:
-  - Brechreiz
-  - Magenverstimmung
-  - Fieber
-  - Husten
-  - Impfung
+  - starken Brechreiz
+  - eine starke Magenverstimmung
+  - starkes Fieber
+  - starken Husten
+  - starke Rückenschmerzen
 correct:
-  - Brechreiz
-  - Magenverstimmung
+  - starken Brechreiz
+  - eine starke Magenverstimmung
 ---
 
 Wie würden Sie es noch sagen?
 
 Seit heute Morgen habe ich starke Übelkeit.
 
-Welche Wörter oder Ausdrücke passen auch statt «Übelkeit»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «starke Übelkeit»? Wählen Sie alle richtigen Antworten.

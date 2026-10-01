@@ -7,13 +7,13 @@ focus: synonym
 replace: Verwaltungsverfahren
 hint: "Wortschatz — gesamter Ablauf bei der Behörde"
 options:
-  - behördliches Verfahren
+  - behördliche Verfahren
   - Amtsverfahren
   - Formular
   - Brief
   - Wartezeit
 correct:
-  - behördliches Verfahren
+  - behördliche Verfahren
   - Amtsverfahren
 ---
 

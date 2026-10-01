@@ -7,14 +7,14 @@ focus: synonym
 replace: die halbe Miete
 hint: "Redewendung — Bild mit halber Miete als Meilenstein"
 options:
-  - schon viel erreicht haben
-  - ein großer Schritt sein
-  - Ein Tropfen auf den heißen Stein
-  - Den Gürtel enger schnallen
-  - Im Eimer sein
+  - schon ein großer Erfolg
+  - ein großer Schritt
+  - ein Tropfen auf den heißen Stein
+  - ein Korb
+  - eine Extrawurst
 correct:
-  - schon viel erreicht haben
-  - ein großer Schritt sein
+  - schon ein großer Erfolg
+  - ein großer Schritt
 ---
 
 Wie würden Sie es noch sagen?

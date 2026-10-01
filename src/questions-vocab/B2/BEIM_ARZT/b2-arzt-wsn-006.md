@@ -8,13 +8,13 @@ replace: Notaufnahme
 hint: "Wortschatz — akute Versorgung im KH"
 options:
   - Notfallstation
-  - Zentraler Notfall
+  - Rettungsstelle
   - Apotheke
   - Rezeption
   - Ambulanz
 correct:
   - Notfallstation
-  - Zentraler Notfall
+  - Rettungsstelle
 ---
 
 Wie würden Sie es noch sagen?

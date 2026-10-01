@@ -7,14 +7,14 @@ focus: synonym
 replace: Schwindel
 hint: "Wortschatz — alles dreht sich"
 options:
-  - Benommenheit
-  - Schwindelgefühl
-  - Husten
-  - Fieber
-  - Rezept
+  - ein Schwindelgefühl
+  - Gleichgewichtsstörungen
+  - starken Husten
+  - hohes Fieber
+  - Halsschmerzen
 correct:
-  - Benommenheit
-  - Schwindelgefühl
+  - ein Schwindelgefühl
+  - Gleichgewichtsstörungen
 ---
 
 Wie würden Sie es noch sagen?

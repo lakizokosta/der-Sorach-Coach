@@ -7,10 +7,12 @@ words:
   - über
   - das
   - Problem
+  - ?
   - —
   - Wir
   - sprechen
   - darüber
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

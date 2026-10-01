@@ -7,13 +7,13 @@ focus: synonym
 replace: Zustellungsurkunde
 hint: "Wortschatz — amtlicher Nachweis der Zustellung"
 options:
-  - Zustellungsnachweis
+  - Zustellungsbestätigung
   - Urkunde über die Zustellung
   - Antrag
   - Formular
   - Gebühr
 correct:
-  - Zustellungsnachweis
+  - Zustellungsbestätigung
   - Urkunde über die Zustellung
 ---
 

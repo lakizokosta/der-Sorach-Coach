@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-Als Maria anrief, ___ Tom schon geantwortet.
+Als Maria anrief, ___ Tom schon gegessen.

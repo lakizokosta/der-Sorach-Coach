@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, das Meeting startete, hatte Jan die Folien geprüft.
+___ das Meeting startete, hatte Jan die Folien geprüft.

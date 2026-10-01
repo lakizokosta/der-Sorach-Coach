@@ -9,9 +9,9 @@ hint: "Wortschatz — Kraft tanken nach Anstrengung"
 options:
   - Regeneration
   - Entspannung
-  - Turnier
-  - Engagement
-  - Mitgliedschaft
+  - Training
+  - Anstrengung
+  - Stress
 correct:
   - Regeneration
   - Entspannung

@@ -6,10 +6,11 @@ words:
   - Projekt
   - ist
   - teuer
-  - Dennoch
+  - dennoch
   - lohnt
   - es
   - sich
+  - .
 commas:
   - 3
 ---

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Unterschrift
 set: AUF_DER_BANK
 focus: synonym
-replace: Unterschrift
+replace: Ihre Unterschrift
 hint: "Wortschatz — auf dem Vertrag"
 options:
-  - Signatur
-  - Handunterschrift
-  - PIN
-  - TAN
-  - IBAN
+  - Ihre Signatur
+  - Ihr Namenszug
+  - Ihre PIN
+  - Ihre IBAN
+  - Ihr Geburtsdatum
 correct:
-  - Signatur
-  - Handunterschrift
+  - Ihre Signatur
+  - Ihr Namenszug
 ---
 
 Wie würden Sie es noch sagen?
 
-Bitte leisten Sie hier Ihre Unterschrift.
+Hier fehlt noch Ihre Unterschrift.
 
-Welche Wörter oder Ausdrücke passen auch statt «Unterschrift»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre Unterschrift»? Wählen Sie alle richtigen Antworten.

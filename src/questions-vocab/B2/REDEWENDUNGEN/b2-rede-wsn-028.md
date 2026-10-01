@@ -7,14 +7,14 @@ focus: synonym
 replace: hinter dem Mond
 hint: "Redewendung — Bild mit Mond und Abgeschiedenheit"
 options:
-  - von der Welt abgeschnitten sein
-  - nicht informiert sein
-  - Tomaten auf den Augen haben
-  - Den Nagel auf den Kopf treffen
-  - Das Eis brechen
+  - von der Welt abgeschnitten
+  - völlig weltfremd
+  - wie Gott in Frankreich
+  - auf großem Fuß
+  - in Saus und Braus
 correct:
-  - von der Welt abgeschnitten sein
-  - nicht informiert sein
+  - von der Welt abgeschnitten
+  - völlig weltfremd
 ---
 
 Wie würden Sie es noch sagen?

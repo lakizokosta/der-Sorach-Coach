@@ -9,9 +9,9 @@ hint: "Wortschatz — Amtliche Kontrolle Ihres Antrags"
 options:
   - Prüfung
   - Sachbearbeitung
-  - Formular
-  - Schalter
   - Gebühr
+  - Kopie
+  - Unterschrift
 correct:
   - Prüfung
   - Sachbearbeitung

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kontowechsel
 set: AUF_DER_BANK
 focus: synonym
-replace: Kontowechsel
+replace: Beim Kontowechsel
 hint: "Wortschatz — zur anderen Bank wechseln"
 options:
-  - Bankwechsel
-  - Kontoübertrag
-  - Abhebung
-  - Einzahlung
-  - PIN
+  - Beim Bankwechsel
+  - Beim Wechsel des Kontos
+  - Bei der Abhebung
+  - Bei der Einzahlung
+  - Beim Geldautomaten
 correct:
-  - Bankwechsel
-  - Kontoübertrag
+  - Beim Bankwechsel
+  - Beim Wechsel des Kontos
 ---
 
 Wie würden Sie es noch sagen?
 
 Beim Kontowechsel helfen wir Ihnen mit dem Formular.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kontowechsel»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Beim Kontowechsel»? Wählen Sie alle richtigen Antworten.

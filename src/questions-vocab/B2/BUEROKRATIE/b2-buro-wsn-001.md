@@ -4,21 +4,21 @@ type: multi-select
 lemma: Verwaltungsakt
 set: BUEROKRATIE
 focus: synonym
-replace: Verwaltungsakt
+replace: Der Verwaltungsakt
 hint: "Wortschatz — bindende Entscheidung der Behörde"
 options:
-  - behördlicher Verwaltungsakt
-  - Amtshandlung
-  - Antrag
-  - Formular
-  - Termin
+  - Der Bescheid
+  - Die behördliche Entscheidung
+  - Der Antrag
+  - Das Formular
+  - Der Termin
 correct:
-  - behördlicher Verwaltungsakt
-  - Amtshandlung
+  - Der Bescheid
+  - Die behördliche Entscheidung
 ---
 
 Wie würden Sie es noch sagen?
 
 Der Verwaltungsakt wird Ihnen schriftlich zugestellt.
 
-Welche Wörter oder Ausdrücke passen auch statt «Verwaltungsakt»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Der Verwaltungsakt»? Wählen Sie alle richtigen Antworten.

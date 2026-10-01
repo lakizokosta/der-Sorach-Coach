@@ -9,9 +9,9 @@ hint: "Wortschatz — umgangssprachlich für eine Stelle"
 options:
   - eine neue Arbeitsstelle
   - eine neue Anstellung
-  - Freizeit
-  - Praktikum
-  - Urlaub
+  - einen neuen Kollegen
+  - einen neuen Chef
+  - ein neues Hobby
 correct:
   - eine neue Arbeitsstelle
   - eine neue Anstellung

@@ -8,13 +8,13 @@ replace: befristet
 hint: "Wortschatz — Vertrag nur für eine bestimmte Zeit"
 options:
   - zeitlich begrenzt
-  - nur für eine Dauer
+  - zeitlich beschränkt
   - unbefristet
-  - Vollzeit
-  - Urlaub
+  - gekündigt
+  - kostenlos
 correct:
   - zeitlich begrenzt
-  - nur für eine Dauer
+  - zeitlich beschränkt
 ---
 
 Wie würden Sie es noch sagen?

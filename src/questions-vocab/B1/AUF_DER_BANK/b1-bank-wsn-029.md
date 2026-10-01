@@ -8,13 +8,13 @@ replace: Kontomodell
 hint: "Wortschatz — Paket mit Gebühren und Leistungen"
 options:
   - Kontopaket
-  - Kontovariante
-  - Depot
-  - Hypothek
-  - TAN
+  - Kontoangebot
+  - Schließfach
+  - Sparbuch
+  - Passwort
 correct:
   - Kontopaket
-  - Kontovariante
+  - Kontoangebot
 ---
 
 Wie würden Sie es noch sagen?

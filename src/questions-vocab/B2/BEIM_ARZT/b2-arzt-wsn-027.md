@@ -4,21 +4,21 @@ type: multi-select
 lemma: Rezidiv
 set: BEIM_ARZT
 focus: synonym
-replace: Rezidiv
+replace: ein Rezidiv
 hint: "Wortschatz — erneutes Auftreten"
 options:
-  - Rückfall
-  - Wiederauftreten
-  - Remission
-  - Genesung
-  - Anamnese
+  - einen Rückfall
+  - ein Wiederauftreten
+  - eine Remission
+  - eine Genesung
+  - eine Anamnese
 correct:
-  - Rückfall
-  - Wiederauftreten
+  - einen Rückfall
+  - ein Wiederauftreten
 ---
 
 Wie würden Sie es noch sagen?
 
 Es besteht ein erhöhtes Risiko für ein Rezidiv.
 
-Welche Wörter oder Ausdrücke passen auch statt «Rezidiv»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ein Rezidiv»? Wählen Sie alle richtigen Antworten.

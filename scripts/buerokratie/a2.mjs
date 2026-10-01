@@ -1123,7 +1123,7 @@ export const a2Questions = [
     correct: [
       "ausfüllen"
     ],
-    body: "Ergänzen Sie:\n\nBevor Sie kommen, ___ Sie bitte das Formular aus."
+    body: "Ergänzen Sie:\n\nBevor Sie kommen, sollten Sie das Formular ___."
   },
   {
     id: "a2-buro-in-012",

@@ -7,18 +7,18 @@ focus: synonym
 replace: auf die lange Bank schieben
 hint: "Redewendung — eine Aufgabe auf später verschieben"
 options:
-  - die Aufgabe vertagen
-  - etwas auf später verschieben
-  - auf die Tube drücken
-  - den Hut in den Ring werfen
-  - die Kuh vom Eis holen
+  - auf später verschieben
+  - hinauszögern
+  - sofort erledigen
+  - gleich abschicken
+  - direkt einreichen
 correct:
-  - die Aufgabe vertagen
-  - etwas auf später verschieben
+  - auf später verschieben
+  - hinauszögern
 ---
 
 Wie würden Sie es noch sagen?
 
-Sie wollen den Antrag nicht heute ausfüllen und auf die lange Bank schieben.
+Sie wollen den Antrag nicht sofort ausfüllen, sondern auf die lange Bank schieben.
 
 Welche Wörter oder Ausdrücke passen auch statt «auf die lange Bank schieben»? Wählen Sie alle richtigen Antworten.

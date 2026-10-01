@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kündigungsfrist
 set: AUF_DER_BANK
 focus: synonym
-replace: Kündigungsfrist
+replace: Die Kündigungsfrist
 hint: "Wortschatz — Frist zum Konto beenden"
 options:
-  - Kündigungszeitraum
-  - Vertragsfrist
-  - Valuta
-  - TAN
-  - IBAN
+  - Die Frist für eine Kündigung
+  - Die Kündigungszeit
+  - Die Wertstellung
+  - Die Kontonummer
+  - Die Gebühr
 correct:
-  - Kündigungszeitraum
-  - Vertragsfrist
+  - Die Frist für eine Kündigung
+  - Die Kündigungszeit
 ---
 
 Wie würden Sie es noch sagen?
 
-Die Kündigungsfrist für das Konto beträgt drei Monate.
+Die Kündigungsfrist Ihres Kontos beträgt drei Monate.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kündigungsfrist»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Kündigungsfrist»? Wählen Sie alle richtigen Antworten.

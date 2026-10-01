@@ -4,16 +4,16 @@ type: multi-select
 lemma: wohnen
 set: SICH_VORSTELLEN
 focus: synonym
-replace: wohne
+replace: wohne in
 hint: "Wortschatz — deine Stadt"
 options:
-  - lebe
+  - lebe in
   - bin zu Hause in
-  - arbeite
-  - komme
-  - fahre
+  - arbeite in
+  - lerne in
+  - bin zu Besuch in
 correct:
-  - lebe
+  - lebe in
   - bin zu Hause in
 ---
 
@@ -21,4 +21,4 @@ Wie würdest du es noch sagen?
 
 Ich wohne in Berlin.
 
-Welche Wörter oder Ausdrücke passen auch statt «wohne»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «wohne in»? Wähle alle richtigen Antworten.

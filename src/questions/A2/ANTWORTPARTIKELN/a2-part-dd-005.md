@@ -2,15 +2,16 @@
 id: a2-part-dd-005
 type: dropbox
 words:
-  - Gehen
+  - Wollen
   - wir
   - ins
   - Kino
+  - gehen
   - oder
-  - bleiben
   - zu
   - Hause
-  - .
+  - bleiben
+  - ?
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — oder)

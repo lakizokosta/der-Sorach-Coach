@@ -4,21 +4,21 @@ type: multi-select
 lemma: Wartezimmer
 set: BUEROKRATIE
 focus: synonym
-replace: Wartezimmer
+replace: im Wartezimmer
 hint: "Wortschatz — Raum vor dem Schalter"
 options:
-  - Wartebereich
-  - Wartesaal
-  - Formular
-  - Frist
-  - Antrag
+  - im Wartebereich
+  - im Wartesaal
+  - im Büro
+  - im Keller
+  - auf der Straße
 correct:
-  - Wartebereich
-  - Wartesaal
+  - im Wartebereich
+  - im Wartesaal
 ---
 
 Wie würden Sie es noch sagen?
 
 Bitte warten Sie im Wartezimmer.
 
-Welche Wörter oder Ausdrücke passen auch statt «Wartezimmer»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «im Wartezimmer»? Wählen Sie alle richtigen Antworten.

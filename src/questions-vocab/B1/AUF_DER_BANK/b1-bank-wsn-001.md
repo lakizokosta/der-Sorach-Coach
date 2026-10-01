@@ -8,13 +8,13 @@ replace: Kontoführungsgebühr
 hint: "Wortschatz — monatliche Kosten fürs Konto"
 options:
   - Kontogebühr
-  - Kontoservicegebühr
-  - Zinsen
-  - Gehalt
+  - Gebühr für das Konto
   - Miete
+  - Sparrate
+  - Zinszahlung
 correct:
   - Kontogebühr
-  - Kontoservicegebühr
+  - Gebühr für das Konto
 ---
 
 Wie würden Sie es noch sagen?

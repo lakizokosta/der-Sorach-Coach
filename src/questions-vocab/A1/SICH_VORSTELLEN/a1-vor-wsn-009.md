@@ -7,14 +7,14 @@ focus: synonym
 replace: 28 Jahre alt
 hint: "Wortschatz — wie viele Jahre"
 options:
+  - 28
   - achtundzwanzig Jahre alt
-  - im Alter von 28 Jahren
-  - groß
-  - klein
-  - neu
+  - 28 Jahre verheiratet
+  - seit 28 Tagen hier
+  - 1,28 Meter groß
 correct:
+  - 28
   - achtundzwanzig Jahre alt
-  - im Alter von 28 Jahren
 ---
 
 Wie würdest du es noch sagen?

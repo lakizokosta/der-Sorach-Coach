@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kind
 set: MEINE_FAMILIE
 focus: synonym
-replace: Kind
+replace: haben ein Kind
 hint: "Wortschatz — junger Mensch in der Familie"
 options:
-  - Nachwuchs
-  - Sohn oder Tochter
-  - Eltern
-  - Großeltern
-  - Onkel
+  - sind Eltern
+  - haben Nachwuchs
+  - haben keine Kinder
+  - sind Großeltern
+  - haben ein Haus
 correct:
-  - Nachwuchs
-  - Sohn oder Tochter
+  - sind Eltern
+  - haben Nachwuchs
 ---
 
 Wie würdest du es noch sagen?
 
 Wir haben ein Kind.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kind»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «haben ein Kind»? Wähle alle richtigen Antworten.

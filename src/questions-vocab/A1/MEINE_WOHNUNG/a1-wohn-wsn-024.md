@@ -8,13 +8,13 @@ replace: Kühlgerät
 hint: "Wortschatz — Lebensmittel kalt lagern"
 options:
   - Kühlschrank
-  - Kühlschrank für Lebensmittel
+  - Eisschrank
   - Herd
-  - Waschmaschine
   - Fernseher
+  - Backofen
 correct:
   - Kühlschrank
-  - Kühlschrank für Lebensmittel
+  - Eisschrank
 ---
 
 Wie würdest du es noch sagen?

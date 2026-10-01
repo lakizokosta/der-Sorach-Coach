@@ -11,7 +11,7 @@ options:
   - Erholung
   - Impfung
   - Überweisung
-  - Attest
+  - Untersuchung
 correct:
   - Heilung
   - Erholung

@@ -10,8 +10,8 @@ options:
   - Handynummer
   - Nummer
   - Adresse
-  - Name
-  - Alter
+  - Hausnummer
+  - Postleitzahl
 correct:
   - Handynummer
   - Nummer

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Aufenthaltserlaubnis
 set: BUEROKRATIE
 focus: synonym
-replace: Aufenthaltserlaubnis
+replace: der Aufenthaltserlaubnis
 hint: "Wortschatz — befristete Erlaubnis zum Aufenthalt"
 options:
-  - Aufenthaltstitel
-  - Aufenthaltsgenehmigung
-  - Formular
-  - Brief
-  - Termin
+  - des Aufenthaltstitels
+  - der Aufenthaltsgenehmigung
+  - des Formulars
+  - des Briefs
+  - des Termins
 correct:
-  - Aufenthaltstitel
-  - Aufenthaltsgenehmigung
+  - des Aufenthaltstitels
+  - der Aufenthaltsgenehmigung
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie beantragen eine Verlängerung der Aufenthaltserlaubnis.
 
-Welche Wörter oder Ausdrücke passen auch statt «Aufenthaltserlaubnis»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «der Aufenthaltserlaubnis»? Wählen Sie alle richtigen Antworten.

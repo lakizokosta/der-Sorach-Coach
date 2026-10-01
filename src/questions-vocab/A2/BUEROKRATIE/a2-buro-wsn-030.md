@@ -8,13 +8,13 @@ replace: Am Empfang
 hint: "Wortschatz — erster Kontakt im Amt"
 options:
   - Am Informationsschalter
-  - An der Rezeption
-  - Formular
-  - Frist
-  - Antrag
+  - An der Information
+  - Im Wartezimmer
+  - Am Telefon
+  - Im Briefkasten
 correct:
   - Am Informationsschalter
-  - An der Rezeption
+  - An der Information
 ---
 
 Wie würden Sie es noch sagen?

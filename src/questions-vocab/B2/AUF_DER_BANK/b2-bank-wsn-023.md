@@ -8,13 +8,13 @@ replace: KYC-Prüfung
 hint: "Wortschatz — Know Your Customer"
 options:
   - Kundenidentifizierung
-  - Know-Your-Customer-Prozess
+  - Know-Your-Customer-Prüfung
   - Abhebung
   - Valuta
   - PIN
 correct:
   - Kundenidentifizierung
-  - Know-Your-Customer-Prozess
+  - Know-Your-Customer-Prüfung
 ---
 
 Wie würden Sie es noch sagen?

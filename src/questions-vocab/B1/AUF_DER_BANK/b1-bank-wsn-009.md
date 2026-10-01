@@ -4,21 +4,21 @@ type: multi-select
 lemma: Zinssatz
 set: AUF_DER_BANK
 focus: synonym
-replace: Zinssatz
+replace: Der Zinssatz
 hint: "Wortschatz — Prozentsatz für Kredit/Sparen"
 options:
-  - Zinspercentage
-  - Verzinsungssatz
-  - Gebühr
-  - Miete
-  - PIN
+  - Der Zins
+  - Die Verzinsung
+  - Die Gebühr
+  - Der Kontostand
+  - Die Miete
 correct:
-  - Zinspercentage
-  - Verzinsungssatz
+  - Der Zins
+  - Die Verzinsung
 ---
 
 Wie würden Sie es noch sagen?
 
 Der Zinssatz für Ihr Sparkonto liegt bei 2,5 Prozent.
 
-Welche Wörter oder Ausdrücke passen auch statt «Zinssatz»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Der Zinssatz»? Wählen Sie alle richtigen Antworten.

@@ -10,8 +10,8 @@ options:
   - Einstiegsphase
   - Anfangsphase
   - Kündigung
-  - Gehalt
-  - Urlaub
+  - Mittagspause
+  - Elternzeit
 correct:
   - Einstiegsphase
   - Anfangsphase

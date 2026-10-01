@@ -8,13 +8,13 @@ replace: Eier
 hint: "Wortschatz — vom Huhn, zum Backen"
 options:
   - Hühnereier
-  - Eierpackung
+  - Bio-Eier
   - Milch
   - Mehl
   - Zucker
 correct:
   - Hühnereier
-  - Eierpackung
+  - Bio-Eier
 ---
 
 Wie würdest du es noch sagen?

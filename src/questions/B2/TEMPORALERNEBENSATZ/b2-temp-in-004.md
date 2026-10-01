@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, ich studierte, arbeitete ich nebenbei.
+___ ich studierte, arbeitete ich nebenbei.

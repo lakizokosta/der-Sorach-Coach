@@ -4,21 +4,21 @@ type: multi-select
 lemma: Stadt
 set: SICH_VORSTELLEN
 focus: synonym
-replace: Stadt
+replace: einer großen Stadt
 hint: "Wortschatz — Berlin, Hamburg …"
 options:
-  - Metropole
-  - Großstadt
-  - Dorf
-  - Land
-  - Haus
+  - einer Großstadt
+  - einer Metropole
+  - einem Dorf
+  - einem kleinen Ort
+  - einer kleinen Stadt
 correct:
-  - Metropole
-  - Großstadt
+  - einer Großstadt
+  - einer Metropole
 ---
 
 Wie würdest du es noch sagen?
 
 Ich komme aus einer großen Stadt.
 
-Welche Wörter oder Ausdrücke passen auch statt «Stadt»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «einer großen Stadt»? Wähle alle richtigen Antworten.

@@ -8,13 +8,13 @@ replace: Emissionsprospekt
 hint: "Wortschatz — Dokument für Wertpapieremission"
 options:
   - Wertpapierprospekt
-  - Anlegerinformation
+  - Verkaufsprospekt
   - Kontoauszug
   - PIN
   - TAN
 correct:
   - Wertpapierprospekt
-  - Anlegerinformation
+  - Verkaufsprospekt
 ---
 
 Wie würden Sie es noch sagen?

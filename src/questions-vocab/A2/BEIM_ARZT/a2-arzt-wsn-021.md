@@ -4,21 +4,21 @@ type: multi-select
 lemma: Tropfen
 set: BEIM_ARZT
 focus: synonym
-replace: Tropfen
+replace: Die Tropfen
 hint: "Wortschatz — flüssiges Medikament"
 options:
-  - Flüssigkeit
-  - Tropflösung
-  - Tablette
-  - Salbe
-  - Pflaster
+  - Die flüssige Medizin
+  - Das flüssige Medikament
+  - Die fettige Salbe
+  - Das kleine Pflaster
+  - Den festen Verband
 correct:
-  - Flüssigkeit
-  - Tropflösung
+  - Die flüssige Medizin
+  - Das flüssige Medikament
 ---
 
 Wie würden Sie es noch sagen?
 
-Nehmen Sie morgens zehn Tropfen.
+Die Tropfen nehmen Sie morgens mit etwas Wasser.
 
-Welche Wörter oder Ausdrücke passen auch statt «Tropfen»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Tropfen»? Wählen Sie alle richtigen Antworten.

@@ -7,14 +7,14 @@ focus: synonym
 replace: klettern
 hint: "Wortschatz — an Felsen oder Wänden hochsteigen"
 options:
-  - hochklettern
-  - an der Wand klettern
+  - bouldern
+  - kraxeln
   - joggen
   - basteln
   - lesen
 correct:
-  - hochklettern
-  - an der Wand klettern
+  - bouldern
+  - kraxeln
 ---
 
 Wie würden Sie es noch sagen?

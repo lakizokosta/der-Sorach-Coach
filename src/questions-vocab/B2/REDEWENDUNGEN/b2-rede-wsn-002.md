@@ -4,21 +4,21 @@ type: multi-select
 lemma: Auf Wolke sieben schweben
 set: REDEWENDUNGEN
 focus: synonym
-replace: auf Wolke sieben
+replace: schweben Sie auf Wolke sieben
 hint: "Redewendung — Bild mit Wolke und der Zahl sieben"
 options:
-  - sehr glücklich sein
-  - in Verzückung sein
-  - Einen Kater haben
-  - Da ist der Wurm drin
-  - Im Eimer sein
+  - sind Sie überglücklich
+  - sind Sie im siebten Himmel
+  - haben Sie einen Kater
+  - sind Sie im Eimer
+  - haben Sie einen Korb bekommen
 correct:
-  - sehr glücklich sein
-  - in Verzückung sein
+  - sind Sie überglücklich
+  - sind Sie im siebten Himmel
 ---
 
 Wie würden Sie es noch sagen?
 
 Seit der Verlobung schweben Sie auf Wolke sieben.
 
-Welche Wörter oder Ausdrücke passen auch statt «auf Wolke sieben»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «schweben Sie auf Wolke sieben»? Wählen Sie alle richtigen Antworten.

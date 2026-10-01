@@ -2,15 +2,16 @@
 id: a2-ind-dd-017
 type: dropbox
 words:
-  - Jemand
+  - Da
   - ist
-  - da
+  - jemand
   - der
   - mir
   - helfen
   - kann
+  - .
 commas:
-  - 1
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Indefinitpronomen)

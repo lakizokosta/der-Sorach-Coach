@@ -8,13 +8,13 @@ replace: Kulturangebot
 hint: "Wortschatz — kulturelle Veranstaltungen in einer Stadt"
 options:
   - Kulturprogramm
-  - kulturelle Angebote
+  - Kulturleben
   - Workout
   - Sponsoring
   - Wettkampf
 correct:
   - Kulturprogramm
-  - kulturelle Angebote
+  - Kulturleben
 ---
 
 Wie würden Sie es noch sagen?

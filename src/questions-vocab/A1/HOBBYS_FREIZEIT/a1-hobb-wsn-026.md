@@ -4,21 +4,21 @@ type: multi-select
 lemma: Team
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Team
+replace: einem Team
 hint: "Wortschatz — Mitspieler im Sportverein"
 options:
-  - Mannschaft
-  - Gruppe
-  - Kino
-  - Film
-  - Langeweile
+  - einer Mannschaft
+  - einer Gruppe
+  - einem Kino
+  - einem Film
+  - einer Küche
 correct:
-  - Mannschaft
-  - Gruppe
+  - einer Mannschaft
+  - einer Gruppe
 ---
 
 Wie würdest du es noch sagen?
 
 Im Verein spiele ich in einem Team.
 
-Welche Wörter oder Ausdrücke passen auch statt «Team»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «einem Team»? Wähle alle richtigen Antworten.

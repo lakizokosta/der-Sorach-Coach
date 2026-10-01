@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, Felix kündigte, hatte er schon eine neue Stelle gefunden.
+___ Felix kündigte, hatte er schon eine neue Stelle gefunden.

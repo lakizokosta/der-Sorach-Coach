@@ -4,21 +4,21 @@ type: multi-select
 lemma: Rad fahren
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: fahre Rad
+replace: fahre ... Rad
 hint: "Wortschatz — mit dem Fahrrad"
 options:
-  - fahre Fahrrad
-  - bin mit dem Rad unterwegs
-  - gehe ins Kino
-  - koche
-  - lese
+  - fahre ... Fahrrad
+  - bin ... mit dem Rad unterwegs
+  - gehe ... ins Kino
+  - gehe ... schwimmen
+  - lese ... ein Buch
 correct:
-  - fahre Fahrrad
-  - bin mit dem Rad unterwegs
+  - fahre ... Fahrrad
+  - bin ... mit dem Rad unterwegs
 ---
 
 Wie würdest du es noch sagen?
 
-Im Frühling fahre ich gern Rad im Park.
+Im Frühling fahre ich im Park gern Rad.
 
-Welche Wörter oder Ausdrücke passen auch statt «fahre Rad»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «fahre ... Rad»? Wähle alle richtigen Antworten.

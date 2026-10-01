@@ -4,21 +4,21 @@ type: multi-select
 lemma: Sponsoring
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Sponsoring
+replace: neues Sponsoring
 hint: "Wortschatz — Geld von Sponsoren für Events"
 options:
-  - Förderung
-  - finanzielle Unterstützung
-  - Regeneration
-  - Amateur
-  - Chor
+  - neue Sponsoren
+  - neue finanzielle Unterstützung
+  - neue Regeneration
+  - neue Amateure
+  - einen neuen Chor
 correct:
-  - Förderung
-  - finanzielle Unterstützung
+  - neue Sponsoren
+  - neue finanzielle Unterstützung
 ---
 
 Wie würden Sie es noch sagen?
 
-Das Festival sucht neues Sponsoring.
+Das Festival braucht neues Sponsoring.
 
-Welche Wörter oder Ausdrücke passen auch statt «Sponsoring»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «neues Sponsoring»? Wählen Sie alle richtigen Antworten.

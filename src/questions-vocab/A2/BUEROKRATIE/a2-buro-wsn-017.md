@@ -4,21 +4,21 @@ type: multi-select
 lemma: Wartenummer
 set: BUEROKRATIE
 focus: synonym
-replace: Wartenummer
+replace: eine Wartenummer
 hint: "Wortschatz — Ticket für die Reihe am Schalter"
 options:
-  - Nummer für die Warteschlange
-  - Wartemarke
-  - Formular
-  - Antrag
-  - Brief
+  - eine Nummer
+  - eine Wartemarke
+  - ein Formular
+  - einen Stift
+  - einen Antrag
 correct:
-  - Nummer für die Warteschlange
-  - Wartemarke
+  - eine Nummer
+  - eine Wartemarke
 ---
 
 Wie würden Sie es noch sagen?
 
 Bitte nehmen Sie eine Wartenummer.
 
-Welche Wörter oder Ausdrücke passen auch statt «Wartenummer»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine Wartenummer»? Wählen Sie alle richtigen Antworten.

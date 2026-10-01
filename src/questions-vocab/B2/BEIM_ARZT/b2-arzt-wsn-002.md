@@ -7,14 +7,14 @@ focus: synonym
 replace: Befund
 hint: "Wortschatz — Ergebnis der Untersuchung"
 options:
-  - Untersuchungsergebnis
-  - medizinischer Befund
+  - Bildbefund
+  - Untersuchungsbefund
   - Anamnese
   - Verordnung
   - Aufnahme
 correct:
-  - Untersuchungsergebnis
-  - medizinischer Befund
+  - Bildbefund
+  - Untersuchungsbefund
 ---
 
 Wie würden Sie es noch sagen?

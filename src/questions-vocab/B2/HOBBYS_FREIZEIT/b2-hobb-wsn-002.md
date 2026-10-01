@@ -7,18 +7,18 @@ focus: synonym
 replace: auszugleichen
 hint: "Wortschatz — Stress durch Freizeit"
 options:
-  - kompensieren
-  - in Balance bringen
-  - verlieren
-  - vergessen
-  - stressen
+  - zu kompensieren
+  - abzubauen
+  - zu verstärken
+  - zu erhöhen
+  - zu verlängern
 correct:
-  - kompensieren
-  - in Balance bringen
+  - zu kompensieren
+  - abzubauen
 ---
 
 Wie würden Sie es noch sagen?
 
-Yoga hilft Ihnen, den Alltag auszugleichen.
+Yoga hilft Ihnen, den Alltagsstress auszugleichen.
 
 Welche Wörter oder Ausdrücke passen auch statt «auszugleichen»? Wählen Sie alle richtigen Antworten.

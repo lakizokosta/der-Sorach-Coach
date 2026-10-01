@@ -74,7 +74,7 @@ export const a2Words = [
     },
     tg: {
       story: 'Vorgeschichte: Ihre Kollegin hat Tickets. Sie hören Live-Musik — kein Training und kein Wandern.',
-      dialog: 'Kollegin: Kommen Sie mit zum ___?\nSie: Gern, ich liebe Live-Musik.',
+      dialog: 'Kollegin: Kommen Sie zum ___ mit?\nSie: Gern, ich liebe Live-Musik.',
       options: ['Konzert,Kino,Ausflug'],
       correct: ['Konzert'],
     },
@@ -300,7 +300,7 @@ export const a2Words = [
       options: ['Fußball', 'Volleyball', 'Handball', 'Fotografie', 'lesen'],
       correct: ['Fußball', 'Volleyball', 'Handball'],
     },
-    dd: ['Fußball', 'ist', 'Mannschaftssport', '.'],
+    dd: ['Fußball', 'ist', 'ein', 'Mannschaftssport', '.'],
     in: {
       wordChoices: ['Mannschaftssport', 'Konzert', 'Langeweile'],
       correct: ['Mannschaftssport'],

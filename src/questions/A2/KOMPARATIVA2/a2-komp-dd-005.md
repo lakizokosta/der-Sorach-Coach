@@ -4,8 +4,9 @@ type: dropbox
 words:
   - Ich
   - trinke
-  - Tee
   - lieber
+  - Tee
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — gern)

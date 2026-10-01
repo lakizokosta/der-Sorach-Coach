@@ -8,13 +8,13 @@ replace: Ablehnung
 hint: "Wortschatz — negative Entscheidung der Behörde"
 options:
   - Zurückweisung
-  - Ablehnungsbescheid
+  - Absage
   - Genehmigung
-  - Termin
-  - Antrag
+  - Eingangsbestätigung
+  - Wartezeit
 correct:
   - Zurückweisung
-  - Ablehnungsbescheid
+  - Absage
 ---
 
 Wie würden Sie es noch sagen?

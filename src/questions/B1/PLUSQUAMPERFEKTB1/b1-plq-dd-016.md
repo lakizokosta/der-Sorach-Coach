@@ -15,7 +15,7 @@ words:
   - aus
   - .
 commas:
-  - 4
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Plusquamperfekt — eine Komma-Stelle)

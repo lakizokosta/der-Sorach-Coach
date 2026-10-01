@@ -4,21 +4,21 @@ type: multi-select
 lemma: Sport
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Sport
+replace: machen Sie Sport
 hint: "Wortschatz — körperliche Aktivität in der Freizeit"
 options:
-  - Bewegung
-  - sportliche Betätigung
-  - Konzert
-  - Langeweile
-  - Grillen
+  - trainieren Sie
+  - treiben Sie Sport
+  - singen Sie
+  - spielen Sie Schach
+  - spielen Sie Theater
 correct:
-  - Bewegung
-  - sportliche Betätigung
+  - trainieren Sie
+  - treiben Sie Sport
 ---
 
 Wie würden Sie es noch sagen?
 
 Zweimal pro Woche machen Sie Sport im Verein.
 
-Welche Wörter oder Ausdrücke passen auch statt «Sport»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «machen Sie Sport»? Wählen Sie alle richtigen Antworten.

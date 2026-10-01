@@ -9,9 +9,9 @@ hint: "Wortschatz — ohne feste Anstellung"
 options:
   - ohne Job
   - ohne Arbeit
-  - eingestellt
-  - beschäftigt
-  - Vollzeit
+  - im Urlaub
+  - in Rente
+  - in der Probezeit
 correct:
   - ohne Job
   - ohne Arbeit

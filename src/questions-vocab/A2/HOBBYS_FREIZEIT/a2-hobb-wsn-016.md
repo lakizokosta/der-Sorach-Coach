@@ -4,21 +4,21 @@ type: multi-select
 lemma: Vereinsmitglied
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Vereinsmitglied
+replace: Vereinsmitglied im Tennisverein
 hint: "Wortschatz — Person in einem Sport- oder Hobbyverein"
 options:
-  - Clubmitglied
-  - Mitglied im Verein
-  - Langeweile
-  - Konzert
-  - Grillen
+  - Mitglied im Tennisverein
+  - Mitglied im Tennisclub
+  - Trainer im Tennisverein
+  - Gast im Tennisverein
+  - Zuschauer im Tennisverein
 correct:
-  - Clubmitglied
-  - Mitglied im Verein
+  - Mitglied im Tennisverein
+  - Mitglied im Tennisclub
 ---
 
 Wie würden Sie es noch sagen?
 
 Seit Januar sind Sie Vereinsmitglied im Tennisverein.
 
-Welche Wörter oder Ausdrücke passen auch statt «Vereinsmitglied»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Vereinsmitglied im Tennisverein»? Wählen Sie alle richtigen Antworten.

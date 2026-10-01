@@ -9,9 +9,9 @@ hint: "Wortschatz — Material für den Antrag"
 options:
   - Dokumente
   - Papiere
-  - Wartezeit
-  - Gebühr
-  - Schalter
+  - Gebühren
+  - Wartenummern
+  - Stempel
 correct:
   - Dokumente
   - Papiere

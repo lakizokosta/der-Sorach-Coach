@@ -4,21 +4,21 @@ type: multi-select
 lemma: Dispo
 set: AUF_DER_BANK
 focus: synonym
-replace: Dispo
+replace: den Dispo
 hint: "Wortschatz — kurzfristiger Kreditrahmen"
 options:
-  - Überziehungskredit
-  - Kontoüberziehung
-  - Sparkonto
-  - Dauerauftrag
-  - Gebühr
+  - den Dispokredit
+  - den Überziehungskredit
+  - den Dauerauftrag
+  - das Online-Banking
+  - die Lastschrift
 correct:
-  - Überziehungskredit
-  - Kontoüberziehung
+  - den Dispokredit
+  - den Überziehungskredit
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie nutzen den Dispo auf Ihrem Girokonto.
 
-Welche Wörter oder Ausdrücke passen auch statt «Dispo»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «den Dispo»? Wählen Sie alle richtigen Antworten.

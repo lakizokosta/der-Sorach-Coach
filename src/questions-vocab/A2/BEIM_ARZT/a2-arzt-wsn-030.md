@@ -4,21 +4,21 @@ type: multi-select
 lemma: Pflaster
 set: BEIM_ARZT
 focus: synonym
-replace: Pflaster
+replace: ein Pflaster
 hint: "Wortschatz — auf kleine Wunde"
 options:
-  - Wundpflaster
-  - Heftpflaster
-  - Salbe
-  - Tablette
-  - Spritze
+  - ein Heftpflaster
+  - ein Wundpflaster
+  - eine Salbe
+  - eine Tablette
+  - eine Spritze
 correct:
-  - Wundpflaster
-  - Heftpflaster
+  - ein Heftpflaster
+  - ein Wundpflaster
 ---
 
 Wie würden Sie es noch sagen?
 
-Kleben Sie ein Pflaster auf die Wunde.
+Kleben Sie ein Pflaster auf das Knie.
 
-Welche Wörter oder Ausdrücke passen auch statt «Pflaster»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ein Pflaster»? Wählen Sie alle richtigen Antworten.

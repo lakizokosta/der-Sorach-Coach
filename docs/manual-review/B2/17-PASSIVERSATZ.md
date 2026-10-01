@@ -143,12 +143,12 @@
 ### 10. `b2-passv-010` · select-one
 
 **Aufgabe:**
-> Die Daten sind leicht zu ___ . (Grammatikform)
+> Die Daten sind leicht ___ . (Grammatikform)
 
 **Optionen:**
 - auswertend
-- auswertete
-- auswerten **✓**
+- zu auswerten
+- auszuwerten **✓**
 - ausgewertet
 
 - [ ] OK
@@ -809,9 +809,9 @@
 ### 60. `b2-passv-in-010` · input-text
 
 **Aufgabe:**
-> Die Daten sind leicht zu ___ . (Passiversatz)
+> Die Daten sind leicht ___ . (Passiversatz)
 
-**Antwort:** `auswerten`
+**Antwort:** `auszuwerten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -979,9 +979,9 @@
 ### 77. `b2-passv-in-027` · input-text
 
 **Aufgabe:**
-> Die Daten sind leicht zu ___ . (Passiversatz)
+> Die Daten sind leicht ___ . (Passiversatz)
 
-**Antwort:** `auswerten`
+**Antwort:** `auszuwerten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:
@@ -1149,9 +1149,9 @@
 ### 94. `b2-passv-in-044` · input-text
 
 **Aufgabe:**
-> Die Daten sind leicht zu ___ . (Passiversatz)
+> Die Daten sind leicht ___ . (Passiversatz)
 
-**Antwort:** `auswerten`
+**Antwort:** `auszuwerten`
 
 - [ ] OK
 - [ ] Fehler / Anmerkung:

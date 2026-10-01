@@ -9,9 +9,9 @@ hint: "Wortschatz — Stadt oder Ort der Meldung"
 options:
   - Ihr Wohnsitz
   - Ihre Meldeadresse
-  - Antrag
-  - Termin
-  - Brief
+  - Ihr Beruf
+  - Ihr Gehalt
+  - Ihre Telefonnummer
 correct:
   - Ihr Wohnsitz
   - Ihre Meldeadresse

@@ -8,13 +8,13 @@ replace: Soft Skills
 hint: "Wortschatz — soziale und persönliche Kompetenzen im Job"
 options:
   - Sozialkompetenz
-  - persönliche Fähigkeiten
+  - persönlichen Fähigkeiten
   - Gehalt
   - Kündigung
   - Tarifvertrag
 correct:
   - Sozialkompetenz
-  - persönliche Fähigkeiten
+  - persönlichen Fähigkeiten
 ---
 
 Wie würden Sie es noch sagen?

@@ -7,14 +7,14 @@ focus: synonym
 replace: den Faden
 hint: "Redewendung — Bild mit Faden und Vortrag"
 options:
-  - den roten Faden
-  - die Linie
-  - Alles unter einen Hut bringen
-  - Das Haar in der Suppe suchen
-  - Das Eis brechen
+  - den Überblick
+  - den Zusammenhang
+  - den Gürtel
+  - das Eis
+  - den Nagel
 correct:
-  - den roten Faden
-  - die Linie
+  - den Überblick
+  - den Zusammenhang
 ---
 
 Wie würden Sie es noch sagen?

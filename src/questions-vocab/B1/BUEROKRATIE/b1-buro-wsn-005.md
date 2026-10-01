@@ -4,21 +4,21 @@ type: multi-select
 lemma: Widerspruch
 set: BUEROKRATIE
 focus: synonym
-replace: Widerspruch
+replace: Widerspruch einlegen
 hint: "Wortschatz — formeller Protest gegen einen Bescheid"
 options:
-  - Einspruch
-  - Rechtsmittel
-  - Antrag
-  - Genehmigung
-  - Termin
+  - Einspruch erheben
+  - sich offiziell beschweren
+  - einen Antrag stellen
+  - eine Gebühr zahlen
+  - einen Termin vereinbaren
 correct:
-  - Einspruch
-  - Rechtsmittel
+  - Einspruch erheben
+  - sich offiziell beschweren
 ---
 
 Wie würden Sie es noch sagen?
 
 Gegen den Bescheid können Sie Widerspruch einlegen.
 
-Welche Wörter oder Ausdrücke passen auch statt «Widerspruch»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Widerspruch einlegen»? Wählen Sie alle richtigen Antworten.

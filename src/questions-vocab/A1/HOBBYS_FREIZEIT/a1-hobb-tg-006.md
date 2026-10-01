@@ -14,4 +14,4 @@ correct:
 Vorgeschichte: Deine Freunde warten im Park. Ihr macht ein Ballspiel — ihr kocht nicht und lest kein Formular.
 
 Freund: Kommst du?
-Du: Ja, ich will mit ___!
+Du: Ja, ich will auch ___!

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Engagement
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Engagement
+replace: Ihr Engagement
 hint: "Wortschatz — aktiver im Verein"
 options:
-  - Einsatz
-  - Mitwirkung
-  - Langeweile
-  - Sponsoring
-  - Büroarbeit
+  - Ihr Einsatz
+  - Ihre Mitwirkung
+  - Ihre Langeweile
+  - Ihr Sponsoring
+  - Ihre Büroarbeit
 correct:
-  - Einsatz
-  - Mitwirkung
+  - Ihr Einsatz
+  - Ihre Mitwirkung
 ---
 
 Wie würden Sie es noch sagen?
 
 Ihr Engagement im Sportverein ist bekannt.
 
-Welche Wörter oder Ausdrücke passen auch statt «Engagement»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihr Engagement»? Wählen Sie alle richtigen Antworten.

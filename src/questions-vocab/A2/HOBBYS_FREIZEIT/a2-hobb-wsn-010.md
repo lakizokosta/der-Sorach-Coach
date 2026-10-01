@@ -4,21 +4,21 @@ type: multi-select
 lemma: Ausflug
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Ausflug
+replace: einen Ausflug
 hint: "Wortschatz — kurze Reise oder Trip am Tag"
 options:
-  - Tagesreise
-  - Exkursion
-  - Konzert
-  - Training
-  - Langeweile
+  - eine Tagestour
+  - eine kleine Reise
+  - eine Pause
+  - einen Kuchen
+  - ein Spiel
 correct:
-  - Tagesreise
-  - Exkursion
+  - eine Tagestour
+  - eine kleine Reise
 ---
 
 Wie würden Sie es noch sagen?
 
-Am Sonntag machen wir einen Ausflug an den See.
+Am Sonntag machen Sie mit der Familie einen Ausflug.
 
-Welche Wörter oder Ausdrücke passen auch statt «Ausflug»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «einen Ausflug»? Wählen Sie alle richtigen Antworten.

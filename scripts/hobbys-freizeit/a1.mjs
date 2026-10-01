@@ -836,14 +836,7 @@ export const a1Questions = [
     id: "a1-hobb-dd-014",
     type: "dropbox",
     lemma: "Gitarre",
-    words: [
-      "Ich",
-      "spiele",
-      "Gitarre",
-      "jeden",
-      "Tag",
-      "."
-    ],
+    words: ['Ich', 'spiele', 'jeden', 'Tag', 'Gitarre', '.'],
     hint: "Wortschatz — Instrument mit Saiten",
     body: "Ordne die Wörter zum richtigen Satz (Gitarre)."
   },
@@ -1310,7 +1303,7 @@ export const a1Questions = [
     correct: [
       "spielen"
     ],
-    body: "Vorgeschichte: Deine Freunde warten im Park. Ihr macht ein Ballspiel — ihr kocht nicht und lest kein Formular.\n\nFreund: Kommst du?\nDu: Ja, ich will mit ___!"
+    body: "Vorgeschichte: Deine Freunde warten im Park. Ihr macht ein Ballspiel — ihr kocht nicht und lest kein Formular.\n\nFreund: Kommst du?\nDu: Ja, ich will auch ___!"
   },
   {
     id: "a1-hobb-tg-007",

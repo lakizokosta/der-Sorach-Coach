@@ -4,21 +4,21 @@ type: multi-select
 lemma: Nebenwirkung
 set: BEIM_ARZT
 focus: synonym
-replace: Nebenwirkung
+replace: Nebenwirkungen
 hint: "Wortschatz — unerwünschte Medikamentenwirkung"
 options:
-  - unerwünschte Wirkung
-  - Nebeneffekt
-  - Überweisung
-  - Impfung
-  - Termin
+  - unerwünschte Wirkungen
+  - Nebeneffekte
+  - Impfungen
+  - Rezepte
+  - Preise
 correct:
-  - unerwünschte Wirkung
-  - Nebeneffekt
+  - unerwünschte Wirkungen
+  - Nebeneffekte
 ---
 
 Wie würden Sie es noch sagen?
 
 Haben Sie Nebenwirkungen von den Tabletten bemerkt?
 
-Welche Wörter oder Ausdrücke passen auch statt «Nebenwirkung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Nebenwirkungen»? Wählen Sie alle richtigen Antworten.

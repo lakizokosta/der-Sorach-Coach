@@ -8,13 +8,13 @@ replace: Kontosperre
 hint: "Wortschatz — Konto vorübergehend gesperrt"
 options:
   - Kontoblockade
-  - Sperrung
+  - Sperrung des Kontos
   - Einzahlung
-  - Gehalt
-  - Miete
+  - Gutschrift
+  - Gehaltserhöhung
 correct:
   - Kontoblockade
-  - Sperrung
+  - Sperrung des Kontos
 ---
 
 Wie würden Sie es noch sagen?

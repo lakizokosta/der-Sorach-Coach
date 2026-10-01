@@ -4,21 +4,21 @@ type: multi-select
 lemma: Termin
 set: BEIM_ARZT
 focus: synonym
-replace: Termin
+replace: einen Termin
 hint: "Wortschatz — vereinbarte Zeit beim Arzt"
 options:
-  - Arzttermin
-  - Vereinbarung
-  - Rezept
-  - Attest
-  - Impfung
+  - einen Arzttermin
+  - einen Untersuchungstermin
+  - ein Rezept
+  - ein Attest
+  - eine Impfung
 correct:
-  - Arzttermin
-  - Vereinbarung
+  - einen Arzttermin
+  - einen Untersuchungstermin
 ---
 
 Wie würden Sie es noch sagen?
 
 An der Rezeption: Können Sie mir einen Termin für morgen geben?
 
-Welche Wörter oder Ausdrücke passen auch statt «Termin»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «einen Termin»? Wählen Sie alle richtigen Antworten.

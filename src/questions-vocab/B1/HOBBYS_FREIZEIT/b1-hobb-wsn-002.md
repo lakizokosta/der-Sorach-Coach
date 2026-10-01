@@ -7,14 +7,14 @@ focus: synonym
 replace: betreiben
 hint: "Wortschatz — ein Hobby oder Sport regelmäßig"
 options:
-  - treiben
-  - üben
-  - basteln
-  - joggen
-  - schlafen
+  - spielen
+  - trainieren
+  - vermeiden
+  - beobachten
+  - kritisieren
 correct:
-  - treiben
-  - üben
+  - spielen
+  - trainieren
 ---
 
 Wie würden Sie es noch sagen?

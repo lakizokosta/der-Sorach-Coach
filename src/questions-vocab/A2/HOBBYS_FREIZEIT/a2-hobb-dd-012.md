@@ -8,6 +8,7 @@ hint: "Wortschatz — Sport mit Team und Mitspielern"
 words:
   - Fußball
   - ist
+  - ein
   - Mannschaftssport
   - .
 ---

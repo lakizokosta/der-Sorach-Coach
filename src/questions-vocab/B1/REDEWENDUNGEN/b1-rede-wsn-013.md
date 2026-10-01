@@ -7,14 +7,14 @@ focus: synonym
 replace: den Bock zum Gärtner machen
 hint: "Redewendung — einen Ungeeigneten für eine Aufgabe einsetzen"
 options:
-  - den Falschen einsetzen
-  - einen Unqualifizierten befördern
-  - die Kuh vom Eis holen
-  - den Hut in den Ring werfen
-  - das A und O sein
+  - den völlig Falschen einsetzen
+  - einen Ungeeigneten zum Chef machen
+  - den Besten auswählen
+  - einen Experten einstellen
+  - eine kluge Entscheidung treffen
 correct:
-  - den Falschen einsetzen
-  - einen Unqualifizierten befördern
+  - den völlig Falschen einsetzen
+  - einen Ungeeigneten zum Chef machen
 ---
 
 Wie würden Sie es noch sagen?

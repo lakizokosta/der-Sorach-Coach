@@ -9,9 +9,9 @@ hint: "Wortschatz — feste Arbeit in einer Firma"
 options:
   - einen festen Job
   - eine feste Beschäftigung
-  - Arbeitslosigkeit
-  - Kündigung
-  - Praktikum
+  - einen kurzen Urlaub
+  - eine schnelle Kündigung
+  - ein unbezahltes Praktikum
 correct:
   - einen festen Job
   - eine feste Beschäftigung

@@ -9,9 +9,9 @@ hint: "Wortschatz — Zeit bis zur Entscheidung"
 options:
   - Bearbeitungszeit
   - Dauer der Prüfung
-  - Formular
-  - Antrag
-  - Termin
+  - Gebühr
+  - Unterschrift
+  - Gültigkeit
 correct:
   - Bearbeitungszeit
   - Dauer der Prüfung

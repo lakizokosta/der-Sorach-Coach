@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit enger geschnalltem Gürtel"
 options:
   - sparsamer leben
   - Ausgaben reduzieren
-  - Eine Extrawurst bekommen
-  - Leben wie Gott in Frankreich
-  - Die halbe Miete sein
+  - eine Extrawurst bekommen
+  - wie Gott in Frankreich leben
+  - die halbe Miete sein
 correct:
   - sparsamer leben
   - Ausgaben reduzieren

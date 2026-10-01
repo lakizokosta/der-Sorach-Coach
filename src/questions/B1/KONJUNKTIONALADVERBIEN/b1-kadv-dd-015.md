@@ -5,11 +5,12 @@ words:
   - Wir
   - brauchen
   - Hilfe
-  - Deshalb
+  - deshalb
   - rufen
   - wir
   - einen
   - Experten
+  - .
 commas:
   - 2
 ---

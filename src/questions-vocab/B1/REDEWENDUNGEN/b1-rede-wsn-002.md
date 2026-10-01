@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit ungenießbarem Obst"
 options:
   - eine unangenehme Pflicht erfüllen
   - etwas Unangenehmes tun
-  - auf großem Fuß leben
-  - da steppt der Bär
-  - die Kuh vom Eis holen
+  - lange schlafen
+  - Geld ausgeben
+  - Freunde treffen
 correct:
   - eine unangenehme Pflicht erfüllen
   - etwas Unangenehmes tun

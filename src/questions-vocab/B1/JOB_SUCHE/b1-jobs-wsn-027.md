@@ -10,8 +10,8 @@ options:
   - Praxis im Beruf
   - Erfahrung im Arbeitsleben
   - Urlaub
-  - Kündigung
-  - Bewerbung
+  - Elternzeit
+  - Arbeitslosigkeit
 correct:
   - Praxis im Beruf
   - Erfahrung im Arbeitsleben

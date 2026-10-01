@@ -13,5 +13,5 @@ correct:
 
 Vorgeschichte: Ihre Kollegin hat Tickets. Sie hören Live-Musik — kein Training und kein Wandern.
 
-Kollegin: Kommen Sie mit zum ___?
+Kollegin: Kommen Sie zum ___ mit?
 Sie: Gern, ich liebe Live-Musik.

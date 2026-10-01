@@ -4,21 +4,21 @@ type: multi-select
 lemma: Freizeitpark
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Freizeitpark
+replace: den Freizeitpark
 hint: "Wortschatz — Ort mit Fahrgeschäften und Attraktionen"
 options:
-  - Vergnügungspark
-  - Erlebnispark
-  - Fitnessstudio
-  - Konzert
-  - Yoga
+  - den Vergnügungspark
+  - den Erlebnispark
+  - das Fitnessstudio
+  - das Konzert
+  - den Yogakurs
 correct:
-  - Vergnügungspark
-  - Erlebnispark
+  - den Vergnügungspark
+  - den Erlebnispark
 ---
 
 Wie würden Sie es noch sagen?
 
 Mit den Kindern besuchen Sie den Freizeitpark.
 
-Welche Wörter oder Ausdrücke passen auch statt «Freizeitpark»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «den Freizeitpark»? Wählen Sie alle richtigen Antworten.

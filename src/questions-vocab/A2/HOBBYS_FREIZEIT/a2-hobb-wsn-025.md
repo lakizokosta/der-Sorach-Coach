@@ -4,21 +4,21 @@ type: multi-select
 lemma: Training
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Training
+replace: Das Training
 hint: "Wortschatz — regelmäßiges Üben im Verein"
 options:
-  - Übungseinheit
-  - Trainingsstunde
-  - Konzert
-  - Langeweile
-  - Grillen
+  - Die Übungsstunde
+  - Die Trainingsstunde
+  - Das Konzert
+  - Die Feier
+  - Das Turnier
 correct:
-  - Übungseinheit
-  - Trainingsstunde
+  - Die Übungsstunde
+  - Die Trainingsstunde
 ---
 
 Wie würden Sie es noch sagen?
 
-Dienstags ist Training im Sportverein.
+Das Training im Sportverein ist dienstags.
 
-Welche Wörter oder Ausdrücke passen auch statt «Training»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Das Training»? Wählen Sie alle richtigen Antworten.

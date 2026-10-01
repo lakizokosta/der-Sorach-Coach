@@ -11,7 +11,7 @@ options:
   - Nachweis der Zustellung
   - Antrag
   - Termin
-  - Formular
+  - Briefumschlag
 correct:
   - Zustellungsbeleg
   - Nachweis der Zustellung

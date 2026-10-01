@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit Pony auf dem Hof"
 options:
   - Das Leben ist hart
   - Man muss mit Rückschlägen rechnen
-  - auf großem Fuß leben
-  - da steppt der Bär
-  - die Kuh vom Eis holen
+  - Das Leben ist immer leicht
+  - Alles geht von selbst
+  - Man bekommt alles geschenkt
 correct:
   - Das Leben ist hart
   - Man muss mit Rückschlägen rechnen

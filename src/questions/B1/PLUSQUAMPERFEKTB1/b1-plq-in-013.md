@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, unser Team trainiert hatte, startete das Finale.
+___ unser Team trainiert hatte, startete das Finale.

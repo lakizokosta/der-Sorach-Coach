@@ -7,18 +7,18 @@ focus: synonym
 replace: Freundin
 hint: "Wortschatz — weibliche Person, die du gut kennst"
 options:
-  - Bekannte
   - Partnerin
+  - feste Freundin
   - Kollegin
   - Schwester
-  - Mutter
+  - Nachbarin
 correct:
-  - Bekannte
   - Partnerin
+  - feste Freundin
 ---
 
 Wie würdest du es noch sagen?
 
-Meine Freundin heißt Maria.
+Meine Freundin heißt Maria. Wir sind ein Paar.
 
 Welche Wörter oder Ausdrücke passen auch statt «Freundin»? Wähle alle richtigen Antworten.

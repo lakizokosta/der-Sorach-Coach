@@ -9,9 +9,9 @@ hint: "Wortschatz — Messung am Oberarm"
 options:
   - Blutdruckwert
   - RR-Wert
-  - Fieber
   - Puls
-  - Impfung
+  - Blutzucker
+  - Gewicht
 correct:
   - Blutdruckwert
   - RR-Wert

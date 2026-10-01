@@ -4,21 +4,21 @@ type: multi-select
 lemma: kündigen
 set: JOB_SUCHE
 focus: synonym
-replace: kündigen
+replace: kündigen Ihren Job
 hint: "Wortschatz — Arbeitsverhältnis freiwillig auflösen"
 options:
-  - verlassen
-  - beenden
-  - bewerben
-  - einstellen
-  - Urlaub
+  - verlassen Ihren Job
+  - geben Ihren Job auf
+  - suchen einen Job
+  - behalten Ihren Job
+  - lieben Ihren Job
 correct:
-  - verlassen
-  - beenden
+  - verlassen Ihren Job
+  - geben Ihren Job auf
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie kündigen Ihren Job.
 
-Welche Wörter oder Ausdrücke passen auch statt «kündigen»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «kündigen Ihren Job»? Wählen Sie alle richtigen Antworten.

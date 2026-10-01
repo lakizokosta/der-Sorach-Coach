@@ -8,13 +8,13 @@ replace: Engagement
 hint: "Wortschatz — aktiver in Verein oder Hobby"
 options:
   - Einsatz
-  - Mitwirkung
-  - Langeweile
-  - Auszeit
-  - Turnier
+  - Eifer
+  - Desinteresse
+  - Fehlen
+  - Zuspätkommen
 correct:
   - Einsatz
-  - Mitwirkung
+  - Eifer
 ---
 
 Wie würden Sie es noch sagen?

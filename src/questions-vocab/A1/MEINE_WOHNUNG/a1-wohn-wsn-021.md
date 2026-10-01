@@ -4,21 +4,21 @@ type: multi-select
 lemma: Lampe
 set: MEINE_WOHNUNG
 focus: synonym
-replace: Lampe
+replace: Die Lampe
 hint: "Wortschatz — Beleuchtung am Abend"
 options:
-  - Leuchte
-  - Licht
-  - Fenster
-  - Tür
-  - Teppich
+  - Die Leuchte
+  - Das Licht
+  - Die Tür
+  - Der Teppich
+  - Der Schrank
 correct:
-  - Leuchte
-  - Licht
+  - Die Leuchte
+  - Das Licht
 ---
 
 Wie würdest du es noch sagen?
 
 Die Lampe im Wohnzimmer ist sehr hell.
 
-Welche Wörter oder Ausdrücke passen auch statt «Lampe»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Lampe»? Wähle alle richtigen Antworten.

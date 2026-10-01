@@ -4,21 +4,21 @@ type: multi-select
 lemma: Event
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Event
+replace: ein großes Event
 hint: "Wortschatz — geplante"
 options:
-  - Veranstaltung
-  - Ereignis
-  - Regeneration
-  - Amateur
-  - Langeweile
+  - eine große Veranstaltung
+  - ein großes Fest
+  - eine große Regeneration
+  - einen großen Amateur
+  - eine große Langeweile
 correct:
-  - Veranstaltung
-  - Ereignis
+  - eine große Veranstaltung
+  - ein großes Fest
 ---
 
 Wie würden Sie es noch sagen?
 
 Im Sommer organisiert der Verein ein großes Event.
 
-Welche Wörter oder Ausdrücke passen auch statt «Event»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ein großes Event»? Wählen Sie alle richtigen Antworten.

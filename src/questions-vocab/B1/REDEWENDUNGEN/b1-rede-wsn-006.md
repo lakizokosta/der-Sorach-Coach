@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit Gaspedal und Eile"
 options:
   - uns beeilen
   - Tempo machen
-  - auf die lange Bank schieben
-  - auf großem Fuß leben
-  - da steppt der Bär
+  - eine Pause machen
+  - uns Zeit lassen
+  - langsam gehen
 correct:
   - uns beeilen
   - Tempo machen

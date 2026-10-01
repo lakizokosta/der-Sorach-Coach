@@ -7,14 +7,14 @@ focus: synonym
 replace: Volleyball
 hint: "Wortschatz — Mannschaftssport mit Netz und Ball"
 options:
-  - Netzballspiel
-  - Ballspiel am Netz
+  - ein Mannschaftsspiel mit Ball und Netz
+  - Hallenvolleyball
   - Theater
-  - Basteln
-  - Chor
+  - Schach
+  - Klavier
 correct:
-  - Netzballspiel
-  - Ballspiel am Netz
+  - ein Mannschaftsspiel mit Ball und Netz
+  - Hallenvolleyball
 ---
 
 Wie würden Sie es noch sagen?

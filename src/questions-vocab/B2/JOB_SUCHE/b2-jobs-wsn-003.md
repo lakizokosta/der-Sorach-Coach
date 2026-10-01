@@ -8,13 +8,13 @@ replace: Headhunter
 hint: "Wortschatz — externer Spezialist für Führungskräfte"
 options:
   - Personalberater
-  - Executive Search
+  - Personalvermittler
   - Praktikant
   - Bewerber
   - Auszubildender
 correct:
   - Personalberater
-  - Executive Search
+  - Personalvermittler
 ---
 
 Wie würden Sie es noch sagen?

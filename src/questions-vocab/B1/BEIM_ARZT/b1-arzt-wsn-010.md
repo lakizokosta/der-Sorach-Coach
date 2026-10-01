@@ -9,9 +9,9 @@ hint: "Wortschatz — bildgebendes Verfahren"
 options:
   - ein Röntgenbild
   - eine Röntgenuntersuchung
-  - Impfung
-  - Blutdruck
-  - Attest
+  - eine Impfung
+  - ein Attest
+  - eine Krankschreibung
 correct:
   - ein Röntgenbild
   - eine Röntgenuntersuchung

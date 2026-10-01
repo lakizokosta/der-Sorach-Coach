@@ -4,21 +4,21 @@ type: multi-select
 lemma: spielen
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: spiele
+replace: spiele ich
 hint: "Wortschatz — Sport oder Spiele"
 options:
-  - vergnüge mich
-  - habe Spielspaß
-  - koche
-  - male
-  - lese
+  - vergnüge ich mich
+  - habe ich Spaß
+  - koche ich
+  - male ich
+  - lese ich
 correct:
-  - vergnüge mich
-  - habe Spielspaß
+  - vergnüge ich mich
+  - habe ich Spaß
 ---
 
 Wie würdest du es noch sagen?
 
 Nach der Schule spiele ich mit Freunden.
 
-Welche Wörter oder Ausdrücke passen auch statt «spiele»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «spiele ich»? Wähle alle richtigen Antworten.

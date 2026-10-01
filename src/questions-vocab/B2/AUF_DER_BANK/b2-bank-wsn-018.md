@@ -7,13 +7,13 @@ focus: synonym
 replace: Treuhandkonto
 hint: "Wortschatz — neutrales Konto für Dritte"
 options:
-  - Treuhandverwahrung
+  - Anderkonto
   - Treuhanddepot
   - Sparkonto
   - Dispo
   - PIN
 correct:
-  - Treuhandverwahrung
+  - Anderkonto
   - Treuhanddepot
 ---
 

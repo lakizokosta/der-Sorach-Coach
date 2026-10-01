@@ -4,21 +4,21 @@ type: multi-select
 lemma: Sparkasse
 set: AUF_DER_BANK
 focus: synonym
-replace: Sparkasse
+replace: der Sparkasse
 hint: "Wortschatz — Name einer Bank"
 options:
-  - Sparkassenfiliale
-  - öffentliche Bank
-  - Supermarkt
-  - Post
-  - Apotheke
+  - der Bank
+  - der Sparkassenfiliale
+  - dem Supermarkt
+  - der Apotheke
+  - der Schule
 correct:
-  - Sparkassenfiliale
-  - öffentliche Bank
+  - der Bank
+  - der Sparkassenfiliale
 ---
 
 Wie würdest du es noch sagen?
 
 Mein Konto ist bei der Sparkasse.
 
-Welche Wörter oder Ausdrücke passen auch statt «Sparkasse»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «der Sparkasse»? Wähle alle richtigen Antworten.

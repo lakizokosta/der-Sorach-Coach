@@ -4,21 +4,21 @@ type: multi-select
 lemma: Schwager
 set: MEINE_FAMILIE
 focus: synonym
-replace: Schwager
+replace: Mein Schwager
 hint: "Wortschatz — Ehemann der Schwester"
 options:
-  - Ehemann meiner Schwester
-  - Bruder meiner Frau
-  - Onkel
-  - Cousin
-  - Neffe
+  - Der Mann meiner Schwester
+  - Der Bruder meiner Frau
+  - Der Bruder meiner Mutter
+  - Der Sohn meiner Tante
+  - Der Sohn meiner Schwester
 correct:
-  - Ehemann meiner Schwester
-  - Bruder meiner Frau
+  - Der Mann meiner Schwester
+  - Der Bruder meiner Frau
 ---
 
 Wie würdest du es noch sagen?
 
 Mein Schwager ist Mechaniker.
 
-Welche Wörter oder Ausdrücke passen auch statt «Schwager»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Mein Schwager»? Wähle alle richtigen Antworten.

@@ -8,13 +8,13 @@ replace: Genesung
 hint: "Wortschatz — Heilungsverlauf"
 options:
   - Rekonvaleszenz
-  - Heilungsprozess
+  - Erholung
   - Einweisung
   - Indikation
   - Verordnung
 correct:
   - Rekonvaleszenz
-  - Heilungsprozess
+  - Erholung
 ---
 
 Wie würden Sie es noch sagen?

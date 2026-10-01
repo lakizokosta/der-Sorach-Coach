@@ -7,18 +7,18 @@ focus: synonym
 replace: Fieber
 hint: "Wortschatz — erhöhte Körperwärme"
 options:
-  - erhöhte Körpertemperatur
-  - Fieberzustand
-  - Husten
-  - Schwindel
-  - Rezept
+  - erhöhte Temperatur
+  - hohe Temperatur
+  - starken Husten
+  - starken Schnupfen
+  - hohen Blutdruck
 correct:
-  - erhöhte Körpertemperatur
-  - Fieberzustand
+  - erhöhte Temperatur
+  - hohe Temperatur
 ---
 
 Wie würden Sie es noch sagen?
 
-Bei Ihnen liegt Fieber vor.
+Sie haben Fieber.
 
 Welche Wörter oder Ausdrücke passen auch statt «Fieber»? Wählen Sie alle richtigen Antworten.

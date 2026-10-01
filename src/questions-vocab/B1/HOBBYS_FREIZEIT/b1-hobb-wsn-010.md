@@ -8,13 +8,13 @@ replace: joggen
 hint: "Wortschatz — regelmäßig zur Fitness"
 options:
   - laufen
-  - eine Laufrunde machen
+  - rennen
   - basteln
   - klettern
   - schlafen
 correct:
   - laufen
-  - eine Laufrunde machen
+  - rennen
 ---
 
 Wie würden Sie es noch sagen?

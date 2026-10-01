@@ -4,21 +4,21 @@ type: multi-select
 lemma: Tür
 set: MEINE_WOHNUNG
 focus: synonym
-replace: Tür
+replace: Die Tür zur Wohnung
 hint: "Wortschatz — Eingang zur Wohnung"
 options:
-  - Wohnungstür
-  - Eingangstür
-  - Fenster
-  - Balkon
-  - Herd
+  - Die Wohnungstür
+  - Die Eingangstür
+  - Die Badezimmertür
+  - Die Küche
+  - Die Garage
 correct:
-  - Wohnungstür
-  - Eingangstür
+  - Die Wohnungstür
+  - Die Eingangstür
 ---
 
 Wie würdest du es noch sagen?
 
 Die Tür zur Wohnung ist rot.
 
-Welche Wörter oder Ausdrücke passen auch statt «Tür»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Tür zur Wohnung»? Wähle alle richtigen Antworten.

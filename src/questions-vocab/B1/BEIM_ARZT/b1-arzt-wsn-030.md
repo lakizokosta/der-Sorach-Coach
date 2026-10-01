@@ -10,8 +10,8 @@ options:
   - Allergie
   - Unverträglichkeit
   - Impfung
-  - Fieber
-  - Husten
+  - Entzündung
+  - Verletzung
 correct:
   - Allergie
   - Unverträglichkeit

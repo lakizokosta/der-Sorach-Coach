@@ -4,21 +4,21 @@ type: multi-select
 lemma: Work-Life-Balance
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Work-Life-Balance
+replace: bei der Work-Life-Balance
 hint: "Wortschatz — Balance zwischen Job und Freizeit"
 options:
-  - Gleichgewicht von Beruf und Freizeit
-  - Ausgleich zwischen Job und Leben
-  - Mitgliedschaft
-  - Turnier
-  - Langeweile
+  - beim Ausgleich zwischen Beruf und Privatleben
+  - bei der Balance zwischen Arbeit und Freizeit
+  - bei der Mitgliedschaft
+  - beim Turnier
+  - bei der Langeweile
 correct:
-  - Gleichgewicht von Beruf und Freizeit
-  - Ausgleich zwischen Job und Leben
+  - beim Ausgleich zwischen Beruf und Privatleben
+  - bei der Balance zwischen Arbeit und Freizeit
 ---
 
 Wie würden Sie es noch sagen?
 
 Sport hilft Ihnen bei der Work-Life-Balance.
 
-Welche Wörter oder Ausdrücke passen auch statt «Work-Life-Balance»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «bei der Work-Life-Balance»? Wählen Sie alle richtigen Antworten.

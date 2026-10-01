@@ -4,21 +4,21 @@ type: multi-select
 lemma: Mindestlohn
 set: JOB_SUCHE
 focus: synonym
-replace: Mindestlohn
+replace: den aktuellen Mindestlohn
 hint: "Wortschatz — gesetzliche Untergrenze des Lohns"
 options:
-  - Lohnuntergrenze
-  - gesetzlicher Mindestlohn
-  - Urlaub
-  - Bewerbung
-  - Probezeit
+  - die aktuelle Lohnuntergrenze
+  - das aktuelle Mindestgehalt
+  - den aktuellen Urlaubsanspruch
+  - die aktuelle Probezeit
+  - die aktuelle Bewerbungsfrist
 correct:
-  - Lohnuntergrenze
-  - gesetzlicher Mindestlohn
+  - die aktuelle Lohnuntergrenze
+  - das aktuelle Mindestgehalt
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie informieren sich über den aktuellen Mindestlohn.
 
-Welche Wörter oder Ausdrücke passen auch statt «Mindestlohn»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «den aktuellen Mindestlohn»? Wählen Sie alle richtigen Antworten.

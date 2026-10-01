@@ -4,21 +4,21 @@ type: multi-select
 lemma: Integrationsnachweis
 set: BUEROKRATIE
 focus: synonym
-replace: Integrationsnachweis
+replace: den Integrationsnachweis
 hint: "Wortschatz — Nachweis über Integrationsleistungen"
 options:
-  - Nachweis der Integration
-  - Integrationsbescheinigung
-  - Antrag
-  - Formular
-  - Termin
+  - den Nachweis der Integration
+  - die Integrationsbescheinigung
+  - den Antrag
+  - das Formular
+  - den Termin
 correct:
-  - Nachweis der Integration
-  - Integrationsbescheinigung
+  - den Nachweis der Integration
+  - die Integrationsbescheinigung
 ---
 
 Wie würden Sie es noch sagen?
 
 Legen Sie den Integrationsnachweis bei der Verlängerung vor.
 
-Welche Wörter oder Ausdrücke passen auch statt «Integrationsnachweis»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «den Integrationsnachweis»? Wählen Sie alle richtigen Antworten.

@@ -8,13 +8,13 @@ replace: Remission
 hint: "Wortschatz — Rückgang der Symptome"
 options:
   - Besserung
-  - Symptomrückgang
+  - Rückbildung
   - Rezidiv
   - Indikation
   - Kontraindikation
 correct:
   - Besserung
-  - Symptomrückgang
+  - Rückbildung
 ---
 
 Wie würden Sie es noch sagen?

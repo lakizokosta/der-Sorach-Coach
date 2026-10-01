@@ -4,21 +4,21 @@ type: multi-select
 lemma: Arbeitsbedingungen
 set: JOB_SUCHE
 focus: synonym
-replace: Arbeitsbedingungen
+replace: die Arbeitsbedingungen
 hint: "Wortschatz — Rahmenbedingungen am Arbeitsplatz"
 options:
-  - Beschäftigungsbedingungen
-  - Rahmen am Arbeitsplatz
-  - Gehalt
-  - Urlaub
-  - Bewerbung
+  - die Bedingungen am Arbeitsplatz
+  - die Beschäftigungsbedingungen
+  - die Kündigungen
+  - die Bewerbungen
+  - die Parkplätze
 correct:
-  - Beschäftigungsbedingungen
-  - Rahmen am Arbeitsplatz
+  - die Bedingungen am Arbeitsplatz
+  - die Beschäftigungsbedingungen
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie schätzen die Arbeitsbedingungen in der Firma als fair ein.
 
-Welche Wörter oder Ausdrücke passen auch statt «Arbeitsbedingungen»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «die Arbeitsbedingungen»? Wählen Sie alle richtigen Antworten.

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Hobby
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Hobby
+replace: Mein Hobby
 hint: "Wortschatz — etwas, das dir Spaß macht"
 options:
-  - Lieblingsbeschäftigung
-  - Freizeitbeschäftigung
-  - Sport
-  - Kino
-  - Langeweile
+  - Meine Freizeitbeschäftigung
+  - Meine Lieblingsbeschäftigung
+  - Meine Arbeit
+  - Mein Problem
+  - Meine Langeweile
 correct:
-  - Lieblingsbeschäftigung
-  - Freizeitbeschäftigung
+  - Meine Freizeitbeschäftigung
+  - Meine Lieblingsbeschäftigung
 ---
 
 Wie würdest du es noch sagen?
 
 Was machst du gern in deiner Freizeit? Mein Hobby ist Lesen.
 
-Welche Wörter oder Ausdrücke passen auch statt «Hobby»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Mein Hobby»? Wähle alle richtigen Antworten.

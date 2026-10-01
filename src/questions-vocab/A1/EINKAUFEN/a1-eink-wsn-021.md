@@ -9,9 +9,9 @@ hint: "Wortschatz — mit Münzen und Scheinen"
 options:
   - in bar
   - mit Bargeld
-  - Bargeld
   - mit Karte
-  - überweisen
+  - per Überweisung
+  - mit der EC-Karte
 correct:
   - in bar
   - mit Bargeld

@@ -6,6 +6,8 @@ words:
   - lade
   - meine
   - Kollegin
+  - ein
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Akkusativ — meine Kollegin einladen)

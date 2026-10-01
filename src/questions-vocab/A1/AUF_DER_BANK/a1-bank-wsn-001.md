@@ -4,21 +4,21 @@ type: multi-select
 lemma: Bank
 set: AUF_DER_BANK
 focus: synonym
-replace: Bank
+replace: zur Bank
 hint: "Wortschatz — Gebäude für Geld"
 options:
-  - Geldinstitut
-  - Kreditinstitut
-  - Supermarkt
-  - Apotheke
-  - Schule
+  - zum Geldinstitut
+  - zum Kreditinstitut
+  - zum Supermarkt
+  - zur Apotheke
+  - zur Schule
 correct:
-  - Geldinstitut
-  - Kreditinstitut
+  - zum Geldinstitut
+  - zum Kreditinstitut
 ---
 
 Wie würdest du es noch sagen?
 
 Ich gehe zur Bank und eröffne ein Konto.
 
-Welche Wörter oder Ausdrücke passen auch statt «Bank»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «zur Bank»? Wähle alle richtigen Antworten.

@@ -8,13 +8,13 @@ replace: lieb
 hint: "Wortschatz — freundlich zur Familie"
 options:
   - nett
-  - herzig
+  - freundlich
   - böse
   - laut
-  - fremd
+  - frech
 correct:
   - nett
-  - herzig
+  - freundlich
 ---
 
 Wie würdest du es noch sagen?

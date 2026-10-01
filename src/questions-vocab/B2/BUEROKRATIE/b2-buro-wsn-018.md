@@ -7,14 +7,14 @@ focus: synonym
 replace: E-Akte
 hint: "Wortschatz — digitale Behördenakte"
 options:
-  - elektronische Akte
-  - digitale Verwaltungsakte
+  - elektronischen Akte
+  - digitalen Akte
   - Formular
   - Termin
   - Gebühr
 correct:
-  - elektronische Akte
-  - digitale Verwaltungsakte
+  - elektronischen Akte
+  - digitalen Akte
 ---
 
 Wie würden Sie es noch sagen?

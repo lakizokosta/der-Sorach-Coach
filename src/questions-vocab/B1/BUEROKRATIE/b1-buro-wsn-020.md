@@ -4,21 +4,21 @@ type: multi-select
 lemma: Leistungsantrag
 set: BUEROKRATIE
 focus: synonym
-replace: Leistungsantrag
+replace: Den Leistungsantrag
 hint: "Wortschatz — Antrag auf staatliche Leistung"
 options:
-  - Antrag auf Sozialleistung
-  - Leistungsgesuch
-  - Formular
-  - Termin
-  - Schalter
+  - Den Antrag auf Sozialleistungen
+  - Den Antrag auf Leistungen
+  - Den Urlaubsantrag
+  - Den Mietvertrag
+  - Die Steuererklärung
 correct:
-  - Antrag auf Sozialleistung
-  - Leistungsgesuch
+  - Den Antrag auf Sozialleistungen
+  - Den Antrag auf Leistungen
 ---
 
 Wie würden Sie es noch sagen?
 
 Den Leistungsantrag reichen Sie beim Jobcenter ein.
 
-Welche Wörter oder Ausdrücke passen auch statt «Leistungsantrag»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Den Leistungsantrag»? Wählen Sie alle richtigen Antworten.

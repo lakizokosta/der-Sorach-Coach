@@ -10,8 +10,8 @@ options:
   - Angestellter
   - Beschäftigter
   - Arbeitgeber
-  - Stellenanzeige
-  - Praktikum
+  - Kunde
+  - Besucher
 correct:
   - Angestellter
   - Beschäftigter

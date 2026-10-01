@@ -662,15 +662,7 @@ export const b2Questions = [
     id: "b2-hobb-dd-002",
     type: "dropbox",
     lemma: "ausgleichen",
-    words: [
-      "Sport",
-      "hilft",
-      "mir",
-      "den",
-      "Alltag",
-      "auszugleichen",
-      "."
-    ],
+    words: ['Sport', 'hilft', 'mir', 'den', 'Alltagsstress', 'auszugleichen', '.'],
     hint: "Wortschatz — Stress durch Freizeit kompensieren",
     body: "Ordne die Wörter zum richtigen Satz (ausgleichen)."
   },
@@ -835,14 +827,7 @@ export const b2Questions = [
     id: "b2-hobb-dd-013",
     type: "dropbox",
     lemma: "Sponsoring",
-    words: [
-      "Das",
-      "Event",
-      "sucht",
-      "neues",
-      "Sponsoring",
-      "."
-    ],
+    words: ['Das', 'Event', 'braucht', 'neues', 'Sponsoring', '.'],
     hint: "Wortschatz — finanzielle Unterstützung für Events",
     body: "Ordne die Wörter zum richtigen Satz (Sponsoring)."
   },

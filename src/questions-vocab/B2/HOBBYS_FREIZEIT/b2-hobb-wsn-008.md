@@ -8,13 +8,13 @@ replace: Wettkampf
 hint: "Wortschatz — sportlicher"
 options:
   - Wettstreit
-  - Konkurrenz
+  - Turnier
   - Festival
   - Chor
   - Regeneration
 correct:
   - Wettstreit
-  - Konkurrenz
+  - Turnier
 ---
 
 Wie würden Sie es noch sagen?

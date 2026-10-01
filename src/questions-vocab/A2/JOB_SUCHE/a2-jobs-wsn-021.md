@@ -9,9 +9,9 @@ hint: "Wortschatz — offene Stelle in einer Firma"
 options:
   - Die Position als Verkäufer
   - Der Verkäuferjob
-  - Gehalt
-  - Urlaub
-  - Lebenslauf
+  - Die Stelle als Koch
+  - Die Ausbildung zum Friseur
+  - Das Praktikum als Kellner
 correct:
   - Die Position als Verkäufer
   - Der Verkäuferjob

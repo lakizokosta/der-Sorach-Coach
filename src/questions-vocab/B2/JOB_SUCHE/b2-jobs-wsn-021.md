@@ -7,13 +7,13 @@ focus: synonym
 replace: Fluktuation
 hint: "Wortschatz — häufiger Wechsel von Mitarbeitern"
 options:
-  - Personalwechsel
+  - Personalfluktuation
   - Mitarbeiterfluktuation
   - Einstellung
   - Bewerbung
   - Urlaub
 correct:
-  - Personalwechsel
+  - Personalfluktuation
   - Mitarbeiterfluktuation
 ---
 

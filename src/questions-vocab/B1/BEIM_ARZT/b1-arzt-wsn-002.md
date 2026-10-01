@@ -7,14 +7,14 @@ focus: synonym
 replace: eine Überweisung
 hint: "Wortschatz — zum Facharzt"
 options:
+  - einen Überweisungsschein
   - eine Facharztüberweisung
-  - eine Zuweisung
-  - Krankschreibung
-  - Rezept
-  - Attest
+  - eine Krankschreibung
+  - ein Rezept
+  - ein Attest
 correct:
+  - einen Überweisungsschein
   - eine Facharztüberweisung
-  - eine Zuweisung
 ---
 
 Wie würden Sie es noch sagen?

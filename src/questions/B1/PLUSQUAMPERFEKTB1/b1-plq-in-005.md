@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, Paul angerufen hatte, antwortete Maria sofort.
+___ Paul angerufen hatte, antwortete Maria sofort.

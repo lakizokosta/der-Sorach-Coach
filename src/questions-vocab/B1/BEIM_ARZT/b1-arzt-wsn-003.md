@@ -9,9 +9,9 @@ hint: "Wortschatz — für den Arbeitgeber"
 options:
   - Arbeitsunfähigkeitsbescheinigung
   - AU-Bescheinigung
-  - Rezept
-  - Impfpass
-  - Termin
+  - Überweisung
+  - Rechnung
+  - Terminbestätigung
 correct:
   - Arbeitsunfähigkeitsbescheinigung
   - AU-Bescheinigung

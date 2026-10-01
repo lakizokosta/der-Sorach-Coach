@@ -7,14 +7,14 @@ focus: synonym
 replace: zahle ... ein
 hint: "Wortschatz — Geld aufs Konto legen"
 options:
-  - lege ... ein
-  - buche ... ein
+  - bringe ... aufs Konto
+  - bringe ... zur Bank
   - hebe ... ab
-  - überweise
-  - kaufe
+  - hole ... vom Konto
+  - gebe ... aus
 correct:
-  - lege ... ein
-  - buche ... ein
+  - bringe ... aufs Konto
+  - bringe ... zur Bank
 ---
 
 Wie würdest du es noch sagen?

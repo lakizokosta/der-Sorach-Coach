@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, ich angekommen bin, melde ich mich.
+___ ich angekommen bin, melde ich mich.

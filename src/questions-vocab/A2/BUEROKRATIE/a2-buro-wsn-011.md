@@ -8,13 +8,13 @@ replace: füllen Sie alle Felder aus
 hint: "Wortschatz — Angaben in ein Formular eintragen"
 options:
   - tragen Sie alle Angaben ein
-  - machen Sie alle Felder fertig
+  - machen Sie alle Angaben
   - reichen Sie den Antrag ein
-  - Termin
-  - Schalter
+  - nehmen Sie eine Wartenummer
+  - vereinbaren Sie einen Termin
 correct:
   - tragen Sie alle Angaben ein
-  - machen Sie alle Felder fertig
+  - machen Sie alle Angaben
 ---
 
 Wie würden Sie es noch sagen?

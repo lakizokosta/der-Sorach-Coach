@@ -8,13 +8,13 @@ replace: Arbeitsbedingungen
 hint: "Wortschatz — konkrete Rahmenbedingungen der Beschäftigung"
 options:
   - Beschäftigungsbedingungen
-  - Arbeitsrahmen
+  - Rahmenbedingungen
   - Gehalt
   - Urlaub
   - Lebenslauf
 correct:
   - Beschäftigungsbedingungen
-  - Arbeitsrahmen
+  - Rahmenbedingungen
 ---
 
 Wie würden Sie es noch sagen?

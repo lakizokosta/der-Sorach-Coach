@@ -4,21 +4,21 @@ type: multi-select
 lemma: kochen
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: koche
+replace: koche ... Abendessen
 hint: "Wortschatz — Essen zubereiten"
 options:
-  - bereite Essen zu
-  - mache Essen
-  - lese
-  - schwimme
-  - tanze
+  - mache ... Abendessen
+  - bereite ... Abendessen zu
+  - esse ... Abendessen
+  - bestelle ... Abendessen
+  - bezahle ... Abendessen
 correct:
-  - bereite Essen zu
-  - mache Essen
+  - mache ... Abendessen
+  - bereite ... Abendessen zu
 ---
 
 Wie würdest du es noch sagen?
 
-Am Samstag koche ich mit Freunden.
+Am Samstag koche ich für Freunde das Abendessen.
 
-Welche Wörter oder Ausdrücke passen auch statt «koche»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «koche ... Abendessen»? Wähle alle richtigen Antworten.

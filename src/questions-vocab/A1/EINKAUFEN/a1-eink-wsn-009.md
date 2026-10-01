@@ -19,6 +19,6 @@ correct:
 
 Wie würdest du es noch sagen?
 
-Salat und Tomaten sind Gemüse.
+Ich kaufe heute Gemüse für das Abendessen.
 
 Welche Wörter oder Ausdrücke passen auch statt «Gemüse»? Wähle alle richtigen Antworten.

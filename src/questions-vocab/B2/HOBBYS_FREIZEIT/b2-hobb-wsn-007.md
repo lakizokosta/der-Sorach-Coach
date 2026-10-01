@@ -8,13 +8,13 @@ replace: Sportverein
 hint: "Wortschatz — Organisation für Sport und Training"
 options:
   - Sportclub
-  - Sportorganisation
+  - Turnverein
   - Festival
   - Event
   - Chor
 correct:
   - Sportclub
-  - Sportorganisation
+  - Turnverein
 ---
 
 Wie würden Sie es noch sagen?

@@ -9,9 +9,9 @@ hint: "Wortschatz — um eine Stelle nachfragen"
 options:
   - Sie schicken Ihre Bewerbung ab
   - Sie reichen Ihre Unterlagen ein
-  - kündigen
-  - Urlaub
-  - Praktikum
+  - Sie kündigen Ihre Stelle
+  - Sie nehmen Urlaub
+  - Sie machen ein Praktikum
 correct:
   - Sie schicken Ihre Bewerbung ab
   - Sie reichen Ihre Unterlagen ein
@@ -19,6 +19,6 @@ correct:
 
 Wie würden Sie es noch sagen?
 
-Sie bewerben sich um eine Stelle als Bürokraft.
+Eine Firma sucht eine Bürokraft. Sie bewerben sich.
 
 Welche Wörter oder Ausdrücke passen auch statt «Sie bewerben sich»? Wählen Sie alle richtigen Antworten.

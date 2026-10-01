@@ -4,21 +4,21 @@ type: multi-select
 lemma: Schwellung
 set: BEIM_ARZT
 focus: synonym
-replace: Schwellung
+replace: eine deutliche Schwellung
 hint: "Wortschatz — aufgetriebene Stelle"
 options:
-  - Ödem
-  - Anschwellung
-  - Ausschlag
-  - Fieber
-  - Husten
+  - eine deutliche Anschwellung
+  - ein deutliches Ödem
+  - einen deutlichen Ausschlag
+  - eine deutliche Narbe
+  - eine deutliche Wunde
 correct:
-  - Ödem
-  - Anschwellung
+  - eine deutliche Anschwellung
+  - ein deutliches Ödem
 ---
 
 Wie würden Sie es noch sagen?
 
 Am Knöchel sehe ich eine deutliche Schwellung.
 
-Welche Wörter oder Ausdrücke passen auch statt «Schwellung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine deutliche Schwellung»? Wählen Sie alle richtigen Antworten.

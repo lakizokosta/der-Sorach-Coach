@@ -9,9 +9,9 @@ hint: "Wortschatz — rechtzeitig vor Ablauf der Frist"
 options:
   - fristgerecht
   - innerhalb der Frist
-  - Antrag
-  - Bescheid
-  - Termin
+  - verspätet
+  - verfristet
+  - unvollständig
 correct:
   - fristgerecht
   - innerhalb der Frist

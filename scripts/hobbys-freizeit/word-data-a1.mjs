@@ -330,7 +330,7 @@ export const a1Words = [
     },
     tg: {
       story: "Vorgeschichte: Deine Freunde warten im Park. Ihr macht ein Ballspiel — ihr kocht nicht und lest kein Formular.",
-      dialog: "Freund: Kommst du?\nDu: Ja, ich will mit ___!",
+      dialog: "Freund: Kommst du?\nDu: Ja, ich will auch ___!",
       options: [
         "spielen,kochen,schlafen"
       ],
@@ -765,14 +765,7 @@ export const a1Words = [
         "lernen"
       ]
     },
-    dd: [
-      "Ich",
-      "spiele",
-      "Gitarre",
-      "jeden",
-      "Tag",
-      "."
-    ],
+    dd: ['Ich', 'spiele', 'jeden', 'Tag', 'Gitarre', '.'],
     in: {
       wordChoices: [
         "Gitarre",

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Notfall
 set: BEIM_ARZT
 focus: synonym
-replace: Notfall
+replace: Bei einem Notfall
 hint: "Wortschatz — dringend, sofort"
 options:
-  - Dringlichkeit
-  - akuter Fall
-  - Termin
-  - Rezept
-  - Impfung
+  - Bei Lebensgefahr
+  - In einer Notsituation
+  - Bei leichtem Schnupfen
+  - Bei einer Terminfrage
+  - Bei Fragen zum Rezept
 correct:
-  - Dringlichkeit
-  - akuter Fall
+  - Bei Lebensgefahr
+  - In einer Notsituation
 ---
 
 Wie würden Sie es noch sagen?
 
 Bei einem Notfall wählen Sie die 112.
 
-Welche Wörter oder Ausdrücke passen auch statt «Notfall»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Bei einem Notfall»? Wählen Sie alle richtigen Antworten.

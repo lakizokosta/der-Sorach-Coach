@@ -4,21 +4,21 @@ type: multi-select
 lemma: Hypothek
 set: AUF_DER_BANK
 focus: synonym
-replace: Hypothek
+replace: eine Hypothek
 hint: "Wortschatz — Immobilienkredit"
 options:
-  - Immobiliendarlehen
-  - Hypothekendarlehen
-  - Dispo
-  - Gebühr
-  - TAN
+  - ein Immobiliendarlehen
+  - einen Immobilienkredit
+  - einen Dispokredit
+  - ein Sparbuch
+  - eine Kreditkarte
 correct:
-  - Immobiliendarlehen
-  - Hypothekendarlehen
+  - ein Immobiliendarlehen
+  - einen Immobilienkredit
 ---
 
 Wie würden Sie es noch sagen?
 
-Für die Wohnung benötigen Sie eine Hypothek.
+Für den Kauf der Wohnung benötigen Sie eine Hypothek.
 
-Welche Wörter oder Ausdrücke passen auch statt «Hypothek»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine Hypothek»? Wählen Sie alle richtigen Antworten.

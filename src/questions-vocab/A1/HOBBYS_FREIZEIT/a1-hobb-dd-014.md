@@ -8,9 +8,9 @@ hint: "Wortschatz — Instrument mit Saiten"
 words:
   - Ich
   - spiele
-  - Gitarre
   - jeden
   - Tag
+  - Gitarre
   - .
 ---
 

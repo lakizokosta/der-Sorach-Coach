@@ -4,21 +4,21 @@ type: multi-select
 lemma: Personalausweis
 set: BUEROKRATIE
 focus: synonym
-replace: Personalausweis
+replace: Ihren Personalausweis
 hint: "Wortschatz — amtliches Lichtbilddokument"
 options:
-  - amtlicher Lichtbildausweis
-  - Identitätsausweis
-  - Formular
-  - Antrag
-  - Frist
+  - Ihren Ausweis
+  - Ihren Perso
+  - Ihr Formular
+  - Ihren Antrag
+  - Ihre Wartenummer
 correct:
-  - amtlicher Lichtbildausweis
-  - Identitätsausweis
+  - Ihren Ausweis
+  - Ihren Perso
 ---
 
 Wie würden Sie es noch sagen?
 
 Bringen Sie bitte Ihren Personalausweis mit.
 
-Welche Wörter oder Ausdrücke passen auch statt «Personalausweis»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihren Personalausweis»? Wählen Sie alle richtigen Antworten.

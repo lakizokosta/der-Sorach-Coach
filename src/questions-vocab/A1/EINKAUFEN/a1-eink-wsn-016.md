@@ -4,21 +4,21 @@ type: multi-select
 lemma: Markt
 set: EINKAUFEN
 focus: synonym
-replace: Markt
+replace: auf den Markt
 hint: "Wortschatz — draußen einkaufen"
 options:
-  - Wochenmarkt
-  - Marktplatz
-  - Supermarkt
-  - Bank
-  - Bahnhof
+  - auf den Wochenmarkt
+  - auf den Bauernmarkt
+  - in den Supermarkt
+  - zur Bank
+  - zum Bahnhof
 correct:
-  - Wochenmarkt
-  - Marktplatz
+  - auf den Wochenmarkt
+  - auf den Bauernmarkt
 ---
 
 Wie würdest du es noch sagen?
 
 Am Samstag gehe ich auf den Markt.
 
-Welche Wörter oder Ausdrücke passen auch statt «Markt»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «auf den Markt»? Wähle alle richtigen Antworten.

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Eltern
 set: MEINE_FAMILIE
 focus: synonym
-replace: Eltern
+replace: Meine Eltern
 hint: "Wortschatz — Mutter und Vater"
 options:
-  - Mama und Papa
-  - Erziehungsberechtigte
-  - Kinder
-  - Geschwister
-  - Cousins
+  - Meine Mama und mein Papa
+  - Mein Vater und meine Mutter
+  - Mein Bruder und meine Schwester
+  - Mein Onkel und meine Tante
+  - Mein Sohn und meine Tochter
 correct:
-  - Mama und Papa
-  - Erziehungsberechtigte
+  - Meine Mama und mein Papa
+  - Mein Vater und meine Mutter
 ---
 
 Wie würdest du es noch sagen?
 
 Meine Eltern wohnen in Hamburg.
 
-Welche Wörter oder Ausdrücke passen auch statt «Eltern»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Meine Eltern»? Wähle alle richtigen Antworten.

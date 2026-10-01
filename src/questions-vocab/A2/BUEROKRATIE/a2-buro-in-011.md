@@ -15,4 +15,4 @@ correct:
 
 Ergänzen Sie:
 
-Bevor Sie kommen, ___ Sie bitte das Formular aus.
+Bevor Sie kommen, sollten Sie das Formular ___.

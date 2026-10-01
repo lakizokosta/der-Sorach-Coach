@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Ich war krank. ___, habe ich die Vorlesung verpasst.
+Ich war krank. ___ habe ich die Vorlesung verpasst.

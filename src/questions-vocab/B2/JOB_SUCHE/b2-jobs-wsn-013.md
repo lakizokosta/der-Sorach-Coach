@@ -4,21 +4,21 @@ type: multi-select
 lemma: Arbeitgebermarke
 set: JOB_SUCHE
 focus: synonym
-replace: Arbeitgebermarke
+replace: Ihre starke Arbeitgebermarke
 hint: "Wortschatz — Image einer Firma als attraktiver Arbeitgeber"
 options:
-  - Employer Branding
-  - Arbeitgeberimage
-  - Kündigung
-  - Gehalt
-  - Probezeit
+  - Ihr starkes Arbeitgeberimage
+  - Ihr guter Ruf als Arbeitgeber
+  - Ihre hohe Kündigungsrate
+  - Ihr niedriges Gehalt
+  - Ihre lange Probezeit
 correct:
-  - Employer Branding
-  - Arbeitgeberimage
+  - Ihr starkes Arbeitgeberimage
+  - Ihr guter Ruf als Arbeitgeber
 ---
 
 Wie würden Sie es noch sagen?
 
 Ihre starke Arbeitgebermarke zieht qualifizierte Bewerber an.
 
-Welche Wörter oder Ausdrücke passen auch statt «Arbeitgebermarke»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre starke Arbeitgebermarke»? Wählen Sie alle richtigen Antworten.

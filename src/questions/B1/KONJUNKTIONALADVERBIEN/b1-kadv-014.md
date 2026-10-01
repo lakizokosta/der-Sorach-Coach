@@ -9,4 +9,4 @@ options:
 correct: Trotzdem
 ---
 
-Sie hat wenig Erfahrung. ___, bekommt sie die Stelle. (Konjunktionaladverb)
+Sie hat wenig Erfahrung. ___ bekommt sie die Stelle. (Konjunktionaladverb)

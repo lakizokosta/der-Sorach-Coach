@@ -4,21 +4,21 @@ type: multi-select
 lemma: jemandem einen Strich durch die Rechnung machen
 set: REDEWENDUNGEN
 focus: synonym
-replace: einen Strich durch die Rechnung
+replace: macht uns einen Strich durch die Rechnung
 hint: "Redewendung — jemandes Pläne vereiteln"
 options:
-  - unsere Pläne zunichtemachen
-  - alles vereiteln
-  - die Kuh vom Eis holen
-  - den Hut in den Ring werfen
-  - auf großem Fuß leben
+  - macht unsere Pläne zunichte
+  - durchkreuzt unsere Pläne
+  - hilft uns sehr
+  - erleichtert unsere Reise
+  - spart uns viel Geld
 correct:
-  - unsere Pläne zunichtemachen
-  - alles vereiteln
+  - macht unsere Pläne zunichte
+  - durchkreuzt unsere Pläne
 ---
 
 Wie würden Sie es noch sagen?
 
 Der plötzliche Streik macht uns einen Strich durch die Rechnung.
 
-Welche Wörter oder Ausdrücke passen auch statt «einen Strich durch die Rechnung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «macht uns einen Strich durch die Rechnung»? Wählen Sie alle richtigen Antworten.

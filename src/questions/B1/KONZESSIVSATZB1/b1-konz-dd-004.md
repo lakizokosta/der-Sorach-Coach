@@ -3,13 +3,14 @@ id: b1-konz-dd-004
 type: dropbox
 words:
   - Er
-  - ist
+  - war
   - müde
   - trotzdem
   - hat
   - er
   - Überstunden
   - gemacht
+  - .
 commas:
   - 2
 ---

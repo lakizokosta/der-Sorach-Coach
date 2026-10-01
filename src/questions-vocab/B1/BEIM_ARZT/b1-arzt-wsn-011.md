@@ -8,13 +8,13 @@ replace: Hausarzt
 hint: "Wortschatz — erste Anlaufstelle"
 options:
   - Allgemeinmediziner
-  - Arzt des Vertrauens
+  - Allgemeinarzt
   - Facharzt
   - Zahnarzt
   - Apotheker
 correct:
   - Allgemeinmediziner
-  - Arzt des Vertrauens
+  - Allgemeinarzt
 ---
 
 Wie würden Sie es noch sagen?

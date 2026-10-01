@@ -4,21 +4,21 @@ type: multi-select
 lemma: Genehmigung
 set: BUEROKRATIE
 focus: synonym
-replace: Genehmigung
+replace: Die Genehmigung Ihres Antrags
 hint: "Wortschatz — positive Entscheidung der Behörde"
 options:
-  - Zustimmung
-  - Bewilligung
-  - Ablehnung
-  - Formular
-  - Gebühr
+  - Die Bewilligung Ihres Antrags
+  - Die positive Entscheidung über Ihren Antrag
+  - Die Ablehnung Ihres Antrags
+  - Die Gebühr für Ihren Antrag
+  - Die Mahnung zu Ihrem Antrag
 correct:
-  - Zustimmung
-  - Bewilligung
+  - Die Bewilligung Ihres Antrags
+  - Die positive Entscheidung über Ihren Antrag
 ---
 
 Wie würden Sie es noch sagen?
 
 Die Genehmigung Ihres Antrags kommt per Post.
 
-Welche Wörter oder Ausdrücke passen auch statt «Genehmigung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Genehmigung Ihres Antrags»? Wählen Sie alle richtigen Antworten.

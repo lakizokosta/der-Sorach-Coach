@@ -4,21 +4,21 @@ type: multi-select
 lemma: Frist
 set: BUEROKRATIE
 focus: synonym
-replace: Frist
+replace: Die Frist
 hint: "Wortschatz — letzter Tag für eine Handlung"
 options:
-  - Bearbeitungsfrist
-  - Antwortfrist
-  - Termin
-  - Wartezeit
-  - Schalter
+  - Die Abgabefrist
+  - Die Antragsfrist
+  - Die Wartezeit
+  - Die Sprechstunde
+  - Die Mittagspause
 correct:
-  - Bearbeitungsfrist
-  - Antwortfrist
+  - Die Abgabefrist
+  - Die Antragsfrist
 ---
 
 Wie würden Sie es noch sagen?
 
 Die Frist endet am letzten Tag des Monats.
 
-Welche Wörter oder Ausdrücke passen auch statt «Frist»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Frist»? Wählen Sie alle richtigen Antworten.

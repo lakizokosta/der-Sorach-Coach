@@ -9,9 +9,9 @@ hint: "Wortschatz — Kenntnisse aus früherer Arbeit"
 options:
   - Praxis
   - Praxiswissen
-  - Bewerbung
-  - Stellenanzeige
   - Urlaub
+  - Pausen
+  - Platz
 correct:
   - Praxis
   - Praxiswissen

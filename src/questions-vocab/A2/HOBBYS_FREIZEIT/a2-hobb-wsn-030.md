@@ -10,8 +10,8 @@ options:
   - Erholung
   - Ruhe
   - Training
-  - Turnier
-  - Grillen
+  - Stress
+  - Hektik
 correct:
   - Erholung
   - Ruhe

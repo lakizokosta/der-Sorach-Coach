@@ -8,13 +8,13 @@ replace: Anleihe
 hint: "Wortschatz — festverzinsliches Wertpapier"
 options:
   - Schuldverschreibung
-  - Anleihepapier
+  - Obligation
   - Aktie
   - Girokonto
   - PIN
 correct:
   - Schuldverschreibung
-  - Anleihepapier
+  - Obligation
 ---
 
 Wie würden Sie es noch sagen?

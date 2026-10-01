@@ -4,21 +4,21 @@ type: multi-select
 lemma: Schlafzimmer
 set: MEINE_WOHNUNG
 focus: synonym
-replace: Schlafzimmer
+replace: Mein Schlafzimmer
 hint: "Wortschatz — Bett und Schrank"
 options:
-  - Schlafraum
-  - Schlafkammer
-  - Wohnzimmer
-  - Flur
-  - Küche
+  - Mein Schlafraum
+  - Meine Schlafkammer
+  - Mein Wohnzimmer
+  - Mein Flur
+  - Meine Küche
 correct:
-  - Schlafraum
-  - Schlafkammer
+  - Mein Schlafraum
+  - Meine Schlafkammer
 ---
 
 Wie würdest du es noch sagen?
 
 Mein Schlafzimmer ist im hinteren Teil der Wohnung.
 
-Welche Wörter oder Ausdrücke passen auch statt «Schlafzimmer»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Mein Schlafzimmer»? Wähle alle richtigen Antworten.

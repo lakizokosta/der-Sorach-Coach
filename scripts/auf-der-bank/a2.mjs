@@ -522,7 +522,7 @@ export const a2Questions = [
     id: 'a2-bank-dd-020',
     type: 'dropbox',
     lemma: 'Konto eröffnen',
-    words: ['Zum', 'Konto', 'eröffnen', 'brauchen', 'wir', 'Ihren', 'Ausweis', '.'],
+    words: ['Zur', 'Kontoeröffnung', 'brauchen', 'wir', 'Ihren', 'Ausweis', '.'],
     hint: 'Wortschatz — neues Konto',
     body: 'Ordne die Wörter zum richtigen Satz (Schalter).',
   },

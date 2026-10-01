@@ -4,21 +4,21 @@ type: multi-select
 lemma: neu
 set: SICH_VORSTELLEN
 focus: synonym
-replace: neu
+replace: neu in der Stadt
 hint: "Wortschatz — kürzlich angekommen"
 options:
-  - frisch
-  - erst kurz hier
-  - alt
-  - bekannt
-  - fremd
+  - erst seit kurzem hier
+  - noch nicht lange hier
+  - schon lange hier
+  - nur zu Besuch hier
+  - hier geboren
 correct:
-  - frisch
-  - erst kurz hier
+  - erst seit kurzem hier
+  - noch nicht lange hier
 ---
 
 Wie würdest du es noch sagen?
 
 Ich bin neu in der Stadt.
 
-Welche Wörter oder Ausdrücke passen auch statt «neu»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «neu in der Stadt»? Wähle alle richtigen Antworten.

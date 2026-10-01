@@ -9,9 +9,9 @@ hint: "Wortschatz — Sicherheit für Kredit"
 options:
   - Kreditbürgschaft
   - Bürgschaftserklärung
-  - Kontoauszug
   - TAN
   - IBAN
+  - Kontonummer
 correct:
   - Kreditbürgschaft
   - Bürgschaftserklärung

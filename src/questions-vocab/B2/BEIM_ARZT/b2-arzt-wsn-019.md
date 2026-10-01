@@ -8,13 +8,13 @@ replace: Entlassung
 hint: "Wortschatz — Verlassen der Klinik"
 options:
   - Krankenhausentlassung
-  - Austritt
+  - Klinikentlassung
   - Einweisung
   - Aufnahme
   - Anamnese
 correct:
   - Krankenhausentlassung
-  - Austritt
+  - Klinikentlassung
 ---
 
 Wie würden Sie es noch sagen?

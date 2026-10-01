@@ -9,9 +9,9 @@ hint: "Wortschatz — maximaler Kreditbetrag"
 options:
   - Kreditlimit
   - Darlehensrahmen
-  - Gebühr
-  - Zinsen
-  - PIN
+  - Kontostand
+  - Gehalt
+  - Sparbetrag
 correct:
   - Kreditlimit
   - Darlehensrahmen

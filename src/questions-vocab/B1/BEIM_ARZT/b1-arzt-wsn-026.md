@@ -7,14 +7,14 @@ focus: synonym
 replace: Notaufnahme
 hint: "Wortschatz — bei akutem Notfall"
 options:
+  - Notfallambulanz
   - Notfallstation
-  - Klinik-Notfall
   - Apotheke
   - Praxis
   - Rezeption
 correct:
+  - Notfallambulanz
   - Notfallstation
-  - Klinik-Notfall
 ---
 
 Wie würden Sie es noch sagen?

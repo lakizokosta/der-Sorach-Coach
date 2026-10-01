@@ -4,21 +4,21 @@ type: multi-select
 lemma: Freizeit
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Freizeit
+replace: In Ihrer Freizeit
 hint: "Wortschatz — Zeit außerhalb des Berufs"
 options:
-  - Muße
-  - freie Zeit
-  - Sponsoring
-  - Wettkampf
-  - Langeweile
+  - In Ihrer freien Zeit
+  - In Ihren Mußestunden
+  - In Ihrem Sponsoring
+  - In Ihrem Wettkampf
+  - In Ihrer Langeweile
 correct:
-  - Muße
-  - freie Zeit
+  - In Ihrer freien Zeit
+  - In Ihren Mußestunden
 ---
 
 Wie würden Sie es noch sagen?
 
 In Ihrer Freizeit kombinieren Sie Sport und Kultur.
 
-Welche Wörter oder Ausdrücke passen auch statt «Freizeit»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «In Ihrer Freizeit»? Wählen Sie alle richtigen Antworten.

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Impfung
 set: BEIM_ARZT
 focus: synonym
-replace: Impfung
+replace: eine Impfung
 hint: "Wortschatz — Schutz vor Krankheit"
 options:
-  - Vakzination
-  - Impfstoffgabe
-  - Tablette
-  - Rezept
-  - Attest
+  - eine Spritze
+  - eine Schutzimpfung
+  - eine Salbe
+  - ein Pflaster
+  - einen Verband
 correct:
-  - Vakzination
-  - Impfstoffgabe
+  - eine Spritze
+  - eine Schutzimpfung
 ---
 
 Wie würden Sie es noch sagen?
 
 Brauchen Sie eine Impfung gegen Grippe?
 
-Welche Wörter oder Ausdrücke passen auch statt «Impfung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine Impfung»? Wählen Sie alle richtigen Antworten.

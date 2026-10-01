@@ -11,7 +11,7 @@ options:
   - Schmerzen im Hals
   - Kopfschmerzen
   - Fieber
-  - Impfung
+  - Husten
 correct:
   - Halsweh
   - Schmerzen im Hals

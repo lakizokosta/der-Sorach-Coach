@@ -8,13 +8,13 @@ replace: ambulant
 hint: "Wortschatz — ohne stationären Aufenthalt"
 options:
   - ohne Übernachtung
-  - extern
+  - ohne Klinikaufenthalt
   - stationär
   - nüchtern
   - chronisch
 correct:
   - ohne Übernachtung
-  - extern
+  - ohne Klinikaufenthalt
 ---
 
 Wie würden Sie es noch sagen?

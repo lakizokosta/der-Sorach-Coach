@@ -4,21 +4,21 @@ type: multi-select
 lemma: Clearing
 set: AUF_DER_BANK
 focus: synonym
-replace: Clearing
+replace: Das Clearing
 hint: "Wortschatz — Verrechnung zwischen Banken"
 options:
-  - Verrechnungsverkehr
-  - Abwicklung
-  - Einzahlung
-  - Abhebung
-  - Gebühr
+  - Die Verrechnung
+  - Die Abwicklung
+  - Die Einzahlung
+  - Die Abhebung
+  - Die Gebühr
 correct:
-  - Verrechnungsverkehr
-  - Abwicklung
+  - Die Verrechnung
+  - Die Abwicklung
 ---
 
 Wie würden Sie es noch sagen?
 
 Das Clearing der Transaktion dauert einen Werktag.
 
-Welche Wörter oder Ausdrücke passen auch statt «Clearing»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Das Clearing»? Wählen Sie alle richtigen Antworten.

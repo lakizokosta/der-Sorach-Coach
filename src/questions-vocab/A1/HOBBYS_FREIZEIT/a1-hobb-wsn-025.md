@@ -9,9 +9,9 @@ hint: "Wortschatz — Wald, Berge, draußen"
 options:
   - Landschaft
   - frische Luft
-  - Kino
   - Büroarbeit
   - Hausaufgaben
+  - Stadt
 correct:
   - Landschaft
   - frische Luft

@@ -9,9 +9,9 @@ hint: "Wortschatz — schriftliche Beurteilung durch den Arbeitgeber"
 options:
   - Dienstzeugnis
   - Beurteilungsschreiben
-  - Lebenslauf
   - Anschreiben
-  - Stellenanzeige
+  - Bewerbungsfoto
+  - Visum
 correct:
   - Dienstzeugnis
   - Beurteilungsschreiben

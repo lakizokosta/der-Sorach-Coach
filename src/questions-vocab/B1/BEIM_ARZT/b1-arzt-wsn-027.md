@@ -4,21 +4,21 @@ type: multi-select
 lemma: Krankenhaus
 set: BEIM_ARZT
 focus: synonym
-replace: Krankenhaus
+replace: ins Krankenhaus
 hint: "Wortschatz — stationäre Behandlung"
 options:
-  - Klinik
-  - Krankenanstalt
-  - Apotheke
-  - Praxis
-  - Rezeption
+  - in die Klinik
+  - ins Spital
+  - in die Apotheke
+  - in die Praxis
+  - ins Labor
 correct:
-  - Klinik
-  - Krankenanstalt
+  - in die Klinik
+  - ins Spital
 ---
 
 Wie würden Sie es noch sagen?
 
 Im Zweifel überweisen wir Sie ins Krankenhaus.
 
-Welche Wörter oder Ausdrücke passen auch statt «Krankenhaus»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ins Krankenhaus»? Wählen Sie alle richtigen Antworten.

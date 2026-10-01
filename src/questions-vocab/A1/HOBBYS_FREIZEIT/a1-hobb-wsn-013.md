@@ -10,8 +10,8 @@ options:
   - Sportclub
   - Club
   - Kino
-  - Film
-  - Büroarbeit
+  - Büro
+  - Supermarkt
 correct:
   - Sportclub
   - Club

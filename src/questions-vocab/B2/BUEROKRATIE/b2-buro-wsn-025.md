@@ -7,14 +7,14 @@ focus: synonym
 replace: Verpflichtungserklärung
 hint: "Wortschatz — schriftliche Verpflichtung gegenüber dem Staat"
 options:
-  - Verpflichtungserklärung gegenüber dem Staat
-  - Erklärung des Verpflichtungsgebers
+  - Kostenübernahmeerklärung
+  - Bürgschaftserklärung
   - Bescheid
   - Schalter
   - Gebühr
 correct:
-  - Verpflichtungserklärung gegenüber dem Staat
-  - Erklärung des Verpflichtungsgebers
+  - Kostenübernahmeerklärung
+  - Bürgschaftserklärung
 ---
 
 Wie würden Sie es noch sagen?

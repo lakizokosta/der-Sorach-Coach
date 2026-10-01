@@ -10,8 +10,8 @@ options:
   - Pause
   - Erholungsphase
   - Mitgliedschaft
-  - Turnier
-  - Engagement
+  - Herausforderung
+  - Mehrbelastung
 correct:
   - Pause
   - Erholungsphase

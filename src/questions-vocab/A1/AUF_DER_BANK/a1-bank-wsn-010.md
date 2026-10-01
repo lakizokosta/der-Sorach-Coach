@@ -4,21 +4,21 @@ type: multi-select
 lemma: Filiale
 set: AUF_DER_BANK
 focus: synonym
-replace: Filiale
+replace: Die nächste Filiale
 hint: "Wortschatz — Bank in deiner Straße"
 options:
-  - Bankfiliale
-  - Zweigstelle
-  - Geldautomat
-  - Konto
-  - PIN
+  - Die nächste Bankfiliale
+  - Die nächste Zweigstelle
+  - Der nächste Geldautomat
+  - Die nächste Post
+  - Der nächste Supermarkt
 correct:
-  - Bankfiliale
-  - Zweigstelle
+  - Die nächste Bankfiliale
+  - Die nächste Zweigstelle
 ---
 
 Wie würdest du es noch sagen?
 
 Die nächste Filiale ist in der Hauptstraße.
 
-Welche Wörter oder Ausdrücke passen auch statt «Filiale»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die nächste Filiale»? Wähle alle richtigen Antworten.

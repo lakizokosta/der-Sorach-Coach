@@ -4,21 +4,21 @@ type: multi-select
 lemma: Unternehmung
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Unternehmung
+replace: eine Unternehmung
 hint: "Wortschatz — oder"
 options:
-  - Ausflug
-  - gemeinsame Aktivität
-  - Mitgliedschaft
-  - Langeweile
-  - Turnier
+  - einen Ausflug
+  - eine gemeinsame Aktivität
+  - eine Mitgliedschaft
+  - eine Kündigung
+  - einen Streit
 correct:
-  - Ausflug
-  - gemeinsame Aktivität
+  - einen Ausflug
+  - eine gemeinsame Aktivität
 ---
 
 Wie würden Sie es noch sagen?
 
 Am Sonntag planen Sie eine Unternehmung mit Freunden.
 
-Welche Wörter oder Ausdrücke passen auch statt «Unternehmung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine Unternehmung»? Wählen Sie alle richtigen Antworten.

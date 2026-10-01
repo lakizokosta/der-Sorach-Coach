@@ -4,21 +4,21 @@ type: multi-select
 lemma: Tochter
 set: MEINE_FAMILIE
 focus: synonym
-replace: Tochter
+replace: Meine Tochter
 hint: "Wortschatz — weibliches Kind"
 options:
-  - Töchterchen
-  - Tochterlein
-  - Sohn
-  - Schwester
-  - Mutter
+  - Mein Töchterchen
+  - Meine Kleine
+  - Meine Nichte
+  - Meine Schwester
+  - Mein Sohn
 correct:
-  - Töchterchen
-  - Tochterlein
+  - Mein Töchterchen
+  - Meine Kleine
 ---
 
 Wie würdest du es noch sagen?
 
 Meine Tochter geht in die erste Klasse.
 
-Welche Wörter oder Ausdrücke passen auch statt «Tochter»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Meine Tochter»? Wähle alle richtigen Antworten.

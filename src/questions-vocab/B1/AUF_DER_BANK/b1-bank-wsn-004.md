@@ -9,9 +9,9 @@ hint: "Wortschatz — verknüpftes Hauptkonto"
 options:
   - Verrechnungskonto
   - Hauptgirokonto
-  - Kreditkarte
-  - TAN
-  - Gebühr
+  - Sparbuch
+  - Schließfach
+  - Depot
 correct:
   - Verrechnungskonto
   - Hauptgirokonto

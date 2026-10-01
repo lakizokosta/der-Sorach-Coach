@@ -4,21 +4,21 @@ type: multi-select
 lemma: Miete
 set: MEINE_WOHNUNG
 focus: synonym
-replace: Miete
+replace: Die Miete beträgt
 hint: "Wortschatz — jeden Monat für die Wohnung"
 options:
-  - Monatsmiete
-  - Wohnkosten
-  - Strom
-  - Essen
-  - Gehalt
+  - Die Monatsmiete beträgt
+  - Die Mietkosten betragen
+  - Die Stromkosten betragen
+  - Die Kaution beträgt
+  - Das Gehalt beträgt
 correct:
-  - Monatsmiete
-  - Wohnkosten
+  - Die Monatsmiete beträgt
+  - Die Mietkosten betragen
 ---
 
 Wie würdest du es noch sagen?
 
-Die Miete beträgt 750 Euro im Monat.
+Die Miete beträgt 750 Euro.
 
-Welche Wörter oder Ausdrücke passen auch statt «Miete»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Miete beträgt»? Wähle alle richtigen Antworten.

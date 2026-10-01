@@ -7,10 +7,12 @@ words:
   - auf
   - bessere
   - Zeiten
+  - ?
   - —
   - Ich
   - hoffe
   - darauf
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

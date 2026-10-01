@@ -7,13 +7,13 @@ focus: synonym
 replace: Liquidität
 hint: "Wortschatz — kurzfristige Zahlungsfähigkeit"
 options:
-  - Zahlungsmittel
+  - Liquiditätsausstattung
   - Cashflow-Reserve
   - Hypothek
   - Depot
   - PIN
 correct:
-  - Zahlungsmittel
+  - Liquiditätsausstattung
   - Cashflow-Reserve
 ---
 

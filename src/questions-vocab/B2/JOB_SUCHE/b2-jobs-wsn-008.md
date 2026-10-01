@@ -7,18 +7,18 @@ focus: synonym
 replace: Arbeitsrecht
 hint: "Wortschatz — gesetzliche Regeln für das Arbeitsverhältnis"
 options:
-  - Beschäftigungsrecht
+  - Arbeitsvertragsrecht
   - Recht der Arbeit
   - Gehalt
   - Urlaub
   - Bewerbung
 correct:
-  - Beschäftigungsrecht
+  - Arbeitsvertragsrecht
   - Recht der Arbeit
 ---
 
 Wie würden Sie es noch sagen?
 
-Bei Unklarheiten beraten Sie sich im Arbeitsrecht.
+Bei Unklarheiten lassen Sie sich im Arbeitsrecht beraten.
 
 Welche Wörter oder Ausdrücke passen auch statt «Arbeitsrecht»? Wählen Sie alle richtigen Antworten.

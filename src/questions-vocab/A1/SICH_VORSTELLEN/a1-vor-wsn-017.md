@@ -9,9 +9,9 @@ hint: "Wortschatz — Straße und Hausnummer"
 options:
   - Wohnadresse
   - Anschrift
-  - Telefon
-  - Name
-  - Beruf
+  - Telefonnummer
+  - Handynummer
+  - Postleitzahl
 correct:
   - Wohnadresse
   - Anschrift

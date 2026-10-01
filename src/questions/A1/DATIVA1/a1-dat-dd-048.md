@@ -6,6 +6,9 @@ words:
   - Lehrer
   - erklärt
   - uns
+  - die
+  - Aufgabe
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Dativ — uns erklären)

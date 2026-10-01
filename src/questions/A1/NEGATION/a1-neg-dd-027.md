@@ -4,8 +4,9 @@ type: dropbox
 words:
   - Es
   - regnet
-  - nicht
   - heute
+  - nicht
+  - .
 ---
 
 [Wetter] Ordne die Wörter zum richtigen Satz: (Negation — nicht heute)

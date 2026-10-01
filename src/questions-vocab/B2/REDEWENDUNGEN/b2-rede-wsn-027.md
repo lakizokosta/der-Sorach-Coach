@@ -7,14 +7,14 @@ focus: synonym
 replace: im Eimer
 hint: "Redewendung — Bild mit Eimer und Erschöpfung"
 options:
-  - völlig erschöpft sein
-  - am Ende sein
-  - Auf Wolke sieben schweben
-  - Schwein haben
-  - Leben wie Gott in Frankreich
+  - völlig erschöpft
+  - total fertig
+  - auf Wolke sieben
+  - voller Energie
+  - gut gelaunt
 correct:
-  - völlig erschöpft sein
-  - am Ende sein
+  - völlig erschöpft
+  - total fertig
 ---
 
 Wie würden Sie es noch sagen?

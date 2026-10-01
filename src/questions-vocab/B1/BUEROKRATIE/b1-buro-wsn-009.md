@@ -7,14 +7,14 @@ focus: synonym
 replace: Beglaubigung
 hint: "Wortschatz — amtliche Bestätigung einer Kopie"
 options:
-  - amtliche Beglaubigung
-  - beglaubigte Abschrift
-  - Antrag
-  - Termin
-  - Schalter
+  - amtliche Bestätigung
+  - Echtheitsbestätigung
+  - Übersetzung
+  - Vernichtung
+  - Zustellung
 correct:
-  - amtliche Beglaubigung
-  - beglaubigte Abschrift
+  - amtliche Bestätigung
+  - Echtheitsbestätigung
 ---
 
 Wie würden Sie es noch sagen?

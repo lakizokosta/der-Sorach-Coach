@@ -4,21 +4,21 @@ type: multi-select
 lemma: warten
 set: AUF_DER_BANK
 focus: synonym
-replace: warte
+replace: warte ich
 hint: "Wortschatz — in der Schlange"
 options:
-  - stehe Schlange
-  - bin in der Warteschlange
-  - arbeite
-  - schlafe
-  - esse
+  - stehe ich Schlange
+  - stehe ich an
+  - arbeite ich
+  - schlafe ich
+  - esse ich
 correct:
-  - stehe Schlange
-  - bin in der Warteschlange
+  - stehe ich Schlange
+  - stehe ich an
 ---
 
 Wie würdest du es noch sagen?
 
-Ich warte am Schalter auf meine Nummer.
+Am Schalter warte ich, bis meine Nummer kommt.
 
-Welche Wörter oder Ausdrücke passen auch statt «warte»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «warte ich»? Wähle alle richtigen Antworten.

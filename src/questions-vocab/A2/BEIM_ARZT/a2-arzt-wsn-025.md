@@ -4,21 +4,21 @@ type: multi-select
 lemma: Medikament
 set: BEIM_ARZT
 focus: synonym
-replace: Medikament
+replace: das Medikament
 hint: "Wortschatz — hilft gegen die Krankheit"
 options:
-  - Arznei
-  - Präparat
-  - Termin
-  - Attest
-  - Impfpass
+  - die Arznei
+  - die Medizin
+  - das Rezept
+  - den Termin
+  - das Pflaster
 correct:
-  - Arznei
-  - Präparat
+  - die Arznei
+  - die Medizin
 ---
 
 Wie würden Sie es noch sagen?
 
 Nehmen Sie das Medikament regelmäßig ein.
 
-Welche Wörter oder Ausdrücke passen auch statt «Medikament»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «das Medikament»? Wählen Sie alle richtigen Antworten.

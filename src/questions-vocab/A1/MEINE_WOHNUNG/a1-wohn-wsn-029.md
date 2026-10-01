@@ -9,9 +9,9 @@ hint: "Wortschatz — mit Garten, nicht Wohnung"
 options:
   - Einfamilienhaus
   - Eigenheim
-  - Wohnung
+  - Hochhaus
+  - Wohnheim
   - Zimmer
-  - Garage
 correct:
   - Einfamilienhaus
   - Eigenheim

@@ -19,6 +19,6 @@ correct:
 
 Wie würdest du es noch sagen?
 
-Ich kaufe eine Flasche Wasser.
+Ich bringe die leere Flasche in den Supermarkt zurück.
 
 Welche Wörter oder Ausdrücke passen auch statt «Flasche»? Wähle alle richtigen Antworten.

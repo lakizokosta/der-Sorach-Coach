@@ -4,21 +4,21 @@ type: multi-select
 lemma: lernen
 set: SICH_VORSTELLEN
 focus: synonym
-replace: lerne
+replace: lerne Deutsch in einem Kurs
 hint: "Wortschatz — in der Schule / im Kurs"
 options:
-  - studiere
-  - übe
-  - spreche
-  - arbeite
-  - wohne
+  - besuche einen Deutschkurs
+  - mache einen Deutschkurs
+  - unterrichte Deutsch in einem Kurs
+  - suche einen Deutschkurs
+  - brauche einen Deutschkurs
 correct:
-  - studiere
-  - übe
+  - besuche einen Deutschkurs
+  - mache einen Deutschkurs
 ---
 
 Wie würdest du es noch sagen?
 
 Ich lerne Deutsch in einem Kurs.
 
-Welche Wörter oder Ausdrücke passen auch statt «lerne»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «lerne Deutsch in einem Kurs»? Wähle alle richtigen Antworten.

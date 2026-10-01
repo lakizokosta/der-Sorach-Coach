@@ -8,13 +8,13 @@ replace: suchen Sie eine neue Stelle
 hint: "Wortschatz — aktiv nach einer Arbeitsstelle fragen"
 options:
   - sind Sie auf Jobsuche
-  - durchstöbern Sie Stellenanzeigen
-  - kündigen
-  - Urlaub
-  - Praktikum
+  - suchen Sie einen neuen Arbeitsplatz
+  - haben Sie eine neue Stelle
+  - machen Sie Urlaub
+  - arbeiten Sie in Teilzeit
 correct:
   - sind Sie auf Jobsuche
-  - durchstöbern Sie Stellenanzeigen
+  - suchen Sie einen neuen Arbeitsplatz
 ---
 
 Wie würden Sie es noch sagen?

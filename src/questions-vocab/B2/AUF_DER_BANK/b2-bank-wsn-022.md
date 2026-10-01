@@ -4,21 +4,21 @@ type: multi-select
 lemma: Basel-Regulatorik
 set: AUF_DER_BANK
 focus: synonym
-replace: Basel-Regulatorik
+replace: der Basel-Regulatorik
 hint: "Wortschatz — bankaufsichtliche Vorgaben"
 options:
-  - Bankenaufsichtsrecht
-  - Kapitaladäquanzvorschriften
-  - Kontoauszug
-  - PIN
-  - Miete
+  - dem Bankenaufsichtsrecht
+  - den Eigenkapitalvorschriften
+  - dem Kontoauszug
+  - der PIN
+  - der Miete
 correct:
-  - Bankenaufsichtsrecht
-  - Kapitaladäquanzvorschriften
+  - dem Bankenaufsichtsrecht
+  - den Eigenkapitalvorschriften
 ---
 
 Wie würden Sie es noch sagen?
 
 Die Kreditvergabe unterliegt der Basel-Regulatorik.
 
-Welche Wörter oder Ausdrücke passen auch statt «Basel-Regulatorik»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «der Basel-Regulatorik»? Wählen Sie alle richtigen Antworten.

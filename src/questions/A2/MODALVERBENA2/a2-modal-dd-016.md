@@ -6,6 +6,8 @@ words:
   - Schlüssel
   - kann
   - ich
+  - die
+  - Tür
   - nicht
   - öffnen
 ---

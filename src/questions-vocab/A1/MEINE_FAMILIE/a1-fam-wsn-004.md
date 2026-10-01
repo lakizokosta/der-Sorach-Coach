@@ -4,21 +4,21 @@ type: multi-select
 lemma: Schwester
 set: MEINE_FAMILIE
 focus: synonym
-replace: Schwester
+replace: Meine Schwester
 hint: "Wortschatz — weibliches Geschwister"
 options:
-  - Schwesterchen
-  - Schwester in der Familie
-  - Cousine
-  - Tante
-  - Mutter
+  - Die Tochter meiner Eltern
+  - Die Tochter von Mama und Papa
+  - Die Tochter meiner Tante
+  - Die Tochter meines Bruders
+  - Die Frau meines Onkels
 correct:
-  - Schwesterchen
-  - Schwester in der Familie
+  - Die Tochter meiner Eltern
+  - Die Tochter von Mama und Papa
 ---
 
 Wie würdest du es noch sagen?
 
-Meine Schwester studiert Medizin.
+Ich bin Tim. Meine Schwester studiert Medizin.
 
-Welche Wörter oder Ausdrücke passen auch statt «Schwester»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Meine Schwester»? Wähle alle richtigen Antworten.

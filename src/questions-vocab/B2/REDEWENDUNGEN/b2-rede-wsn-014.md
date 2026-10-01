@@ -7,13 +7,13 @@ focus: synonym
 replace: eine Extrawurst bekommen
 hint: "Redewendung — Bild mit extra Wurst für einen"
 options:
-  - Sonderbehandlung bekommen
+  - eine Sonderbehandlung bekommen
   - bevorzugt werden
-  - Den Gürtel enger schnallen
-  - Eigenlob stinkt
-  - Einen Korb bekommen
+  - den Gürtel enger schnallen
+  - einen Korb bekommen
+  - eins auf den Deckel bekommen
 correct:
-  - Sonderbehandlung bekommen
+  - eine Sonderbehandlung bekommen
   - bevorzugt werden
 ---
 

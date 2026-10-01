@@ -1226,12 +1226,9 @@ commas:
     fm: `words:
   - Wir
   - wohnen
-  - mit
+  - bei
   - unseren
-  - Eltern
-commas:
-  - 2
-  - 4`,
+  - Eltern`,
     body: 'Ordne die Wörter: (Mit den Eltern wohnen)',
   },
   {

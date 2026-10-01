@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kreditkarte
 set: AUF_DER_BANK
 focus: synonym
-replace: Kreditkarte
+replace: Mit der Kreditkarte
 hint: "Wortschatz — weltweit bezahlen"
 options:
-  - Visa-Karte
-  - Mastercard
-  - Girokonto
-  - Sparkonto
-  - Kontoauszug
+  - Mit der Visa-Karte
+  - Mit der Mastercard
+  - Mit dem Sparbuch
+  - Mit dem Kontoauszug
+  - Mit der TAN
 correct:
-  - Visa-Karte
-  - Mastercard
+  - Mit der Visa-Karte
+  - Mit der Mastercard
 ---
 
 Wie würden Sie es noch sagen?
 
 Mit der Kreditkarte können Sie auch im Ausland bezahlen.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kreditkarte»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Mit der Kreditkarte»? Wählen Sie alle richtigen Antworten.

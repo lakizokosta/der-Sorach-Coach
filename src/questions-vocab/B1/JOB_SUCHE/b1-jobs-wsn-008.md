@@ -10,8 +10,8 @@ options:
   - Anstellungsvertrag
   - Dienstvertrag
   - Lebenslauf
-  - Anschreiben
-  - Stellenanzeige
+  - Urlaubsantrag
+  - Kündigungsbrief
 correct:
   - Anstellungsvertrag
   - Dienstvertrag

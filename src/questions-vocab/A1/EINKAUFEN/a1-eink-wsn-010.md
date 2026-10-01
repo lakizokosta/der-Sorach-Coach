@@ -9,9 +9,9 @@ hint: "Wortschatz — was etwas kostet"
 options:
   - Betrag
   - Kaufpreis
-  - Kasse
-  - Rechnung
-  - Wechselgeld
+  - Bon
+  - Laden
+  - Korb
 correct:
   - Betrag
   - Kaufpreis

@@ -7,14 +7,14 @@ focus: synonym
 replace: Leasing
 hint: "Wortschatz — Nutzung statt Kauf"
 options:
-  - Mietkaufmodell
-  - Mietleasing
+  - Leasingverträge
+  - Mietfinanzierung
   - Überweisung
   - PIN
   - TAN
 correct:
-  - Mietkaufmodell
-  - Mietleasing
+  - Leasingverträge
+  - Mietfinanzierung
 ---
 
 Wie würden Sie es noch sagen?

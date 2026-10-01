@@ -9,9 +9,9 @@ hint: "Redewendung — zwei Buchstaben als Symbol für das Wichtigste"
 options:
   - das Entscheidende
   - der Schlüssel zum Erfolg
-  - die Flinte ins Korn werfen
-  - in den sauren Apfel beißen
-  - auf die Tube drücken
+  - eine Nebensache
+  - ein unnötiger Luxus
+  - das Unwichtigste
 correct:
   - das Entscheidende
   - der Schlüssel zum Erfolg

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Jobcenter
 set: JOB_SUCHE
 focus: synonym
-replace: Jobcenter
+replace: Beim Jobcenter
 hint: "Wortschatz — Behörde für Arbeitslose und Vermittlung"
 options:
-  - Arbeitsagentur
-  - Vermittlungsstelle
-  - Gehalt
-  - Kündigung
-  - Probezeit
+  - Bei der Arbeitsagentur
+  - Bei der Agentur für Arbeit
+  - Beim Finanzamt
+  - Bei der Krankenkasse
+  - Beim Standesamt
 correct:
-  - Arbeitsagentur
-  - Vermittlungsstelle
+  - Bei der Arbeitsagentur
+  - Bei der Agentur für Arbeit
 ---
 
 Wie würden Sie es noch sagen?
 
 Beim Jobcenter melden Sie sich arbeitssuchend.
 
-Welche Wörter oder Ausdrücke passen auch statt «Jobcenter»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Beim Jobcenter»? Wählen Sie alle richtigen Antworten.

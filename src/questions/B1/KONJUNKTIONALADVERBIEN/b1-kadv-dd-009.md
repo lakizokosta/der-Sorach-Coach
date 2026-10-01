@@ -5,10 +5,11 @@ words:
   - Sie
   - studiert
   - Medizin
-  - Außerdem
+  - außerdem
   - jobbt
   - sie
   - nebenbei
+  - .
 commas:
   - 2
 ---

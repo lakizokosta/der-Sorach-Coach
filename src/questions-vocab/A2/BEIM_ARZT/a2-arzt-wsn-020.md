@@ -4,21 +4,21 @@ type: multi-select
 lemma: Salbe
 set: BEIM_ARZT
 focus: synonym
-replace: Salbe
+replace: die Salbe
 hint: "Wortschatz — auf die Haut"
 options:
-  - Salbenmittel
-  - Creme
-  - Tablette
-  - Tropfen
-  - Spritze
+  - die Creme
+  - die Hautcreme
+  - die Tablette
+  - die Tropfen
+  - den Sirup
 correct:
-  - Salbenmittel
-  - Creme
+  - die Creme
+  - die Hautcreme
 ---
 
 Wie würden Sie es noch sagen?
 
 Tragen Sie die Salbe zweimal täglich auf.
 
-Welche Wörter oder Ausdrücke passen auch statt «Salbe»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «die Salbe»? Wählen Sie alle richtigen Antworten.

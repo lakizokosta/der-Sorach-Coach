@@ -7,6 +7,9 @@ words:
   - gibt
   - dem
   - Schüler
+  - ein
+  - Buch
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Dativ — dem Schüler geben)

@@ -7,13 +7,13 @@ focus: synonym
 replace: Gehaltsband
 hint: "Wortschatz — festgelegter Lohnrahmen für eine Stelle"
 options:
-  - Lohnspanne
+  - Gehaltsrahmen
   - Vergütungsrahmen
   - Kündigung
   - Urlaub
   - Bewerbung
 correct:
-  - Lohnspanne
+  - Gehaltsrahmen
   - Vergütungsrahmen
 ---
 

@@ -7,14 +7,14 @@ focus: synonym
 replace: ein Tropfen auf den heißen Stein
 hint: "Redewendung — Bild mit Tropfen auf heißem Stein"
 options:
-  - zu wenig Wirkung haben
-  - kaum spürbar helfen
-  - Die halbe Miete sein
-  - Den Gürtel enger schnallen
-  - Schwein haben
+  - viel zu wenig
+  - kaum spürbar
+  - die halbe Miete
+  - ein voller Erfolg
+  - eine Extrawurst
 correct:
-  - zu wenig Wirkung haben
-  - kaum spürbar helfen
+  - viel zu wenig
+  - kaum spürbar
 ---
 
 Wie würden Sie es noch sagen?

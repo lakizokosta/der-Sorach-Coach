@@ -4,21 +4,21 @@ type: multi-select
 lemma: Flur
 set: MEINE_WOHNUNG
 focus: synonym
-replace: Flur
+replace: Im Flur
 hint: "Wortschatz — Gang zwischen den Räumen"
 options:
-  - Diele
-  - Eingangsbereich
-  - Küche
-  - Bad
-  - Balkon
+  - In der Diele
+  - Im Eingangsbereich
+  - In der Küche
+  - Im Bad
+  - Auf dem Balkon
 correct:
-  - Diele
-  - Eingangsbereich
+  - In der Diele
+  - Im Eingangsbereich
 ---
 
 Wie würdest du es noch sagen?
 
 Im Flur hängen unsere Jacken.
 
-Welche Wörter oder Ausdrücke passen auch statt «Flur»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Im Flur»? Wähle alle richtigen Antworten.

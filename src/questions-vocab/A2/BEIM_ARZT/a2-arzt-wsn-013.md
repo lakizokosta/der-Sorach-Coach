@@ -7,14 +7,14 @@ focus: synonym
 replace: Schmerzen
 hint: "Wortschatz — körperliches Unwohlsein"
 options:
-  - Weh
   - Beschwerden
-  - Rezept
-  - Termin
-  - Impfung
+  - Probleme
+  - Rezepte
+  - Termine
+  - Impfungen
 correct:
-  - Weh
   - Beschwerden
+  - Probleme
 ---
 
 Wie würden Sie es noch sagen?

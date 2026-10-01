@@ -9,9 +9,9 @@ hint: "Wortschatz — Geld an anderes Konto"
 options:
   - schicke
   - sende
-  - einzahle
-  - abhebe
+  - bekomme
   - unterschreibe
+  - vergesse
 correct:
   - schicke
   - sende

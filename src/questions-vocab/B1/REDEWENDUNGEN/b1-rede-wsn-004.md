@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit Waffe und Getreidefeld"
 options:
   - aufgeben
   - nicht weitermachen
-  - den Hut in den Ring werfen
-  - die Kuh vom Eis holen
-  - auf die Tube drücken
+  - es noch einmal versuchen
+  - weiterkämpfen
+  - durchhalten
 correct:
   - aufgeben
   - nicht weitermachen

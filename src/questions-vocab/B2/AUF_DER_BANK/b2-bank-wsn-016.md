@@ -8,13 +8,13 @@ replace: Portfolio
 hint: "Wortschatz — Gesamtheit der Anlagen"
 options:
   - Anlageportfolio
-  - Depotbestand
+  - Wertpapierdepot
   - Kontoauszug
   - PIN
   - Miete
 correct:
   - Anlageportfolio
-  - Depotbestand
+  - Wertpapierdepot
 ---
 
 Wie würden Sie es noch sagen?

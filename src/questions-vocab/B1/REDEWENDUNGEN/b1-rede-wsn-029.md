@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit flach gehaltenem Ball"
 options:
   - sich zurückhalten
   - keine unnötigen Risiken eingehen
-  - auf die Tube drücken
-  - da steppt der Bär
-  - mit dem Kopf durch die Wand
+  - viel riskieren
+  - laut auftreten
+  - große Versprechen machen
 correct:
   - sich zurückhalten
   - keine unnötigen Risiken eingehen

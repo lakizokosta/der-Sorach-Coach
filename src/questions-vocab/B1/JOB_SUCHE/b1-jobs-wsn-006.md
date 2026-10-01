@@ -7,14 +7,14 @@ focus: synonym
 replace: Probezeit
 hint: "Wortschatz — Einstiegsphase am Anfang der Anstellung"
 options:
-  - Einstellungsprobe
   - Testphase
-  - Kündigung
-  - Urlaub
-  - Bewerbung
+  - Probephase
+  - Kündigungsfrist
+  - Mittagspause
+  - Elternzeit
 correct:
-  - Einstellungsprobe
   - Testphase
+  - Probephase
 ---
 
 Wie würden Sie es noch sagen?

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Dosierung
 set: BEIM_ARZT
 focus: synonym
-replace: Dosierung
+replace: die Dosierung
 hint: "Wortschatz — wie viel Medikament"
 options:
-  - Dosis
-  - Einnahmemenge
-  - Rezept
-  - Termin
-  - Attest
+  - die Dosis
+  - die Einnahmemenge
+  - den Termin
+  - die Bettruhe
+  - die Diät
 correct:
-  - Dosis
-  - Einnahmemenge
+  - die Dosis
+  - die Einnahmemenge
 ---
 
 Wie würden Sie es noch sagen?
 
 Bitte halten Sie die Dosierung genau ein.
 
-Welche Wörter oder Ausdrücke passen auch statt «Dosierung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «die Dosierung»? Wählen Sie alle richtigen Antworten.

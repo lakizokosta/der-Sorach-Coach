@@ -4,21 +4,21 @@ type: multi-select
 lemma: Herd
 set: MEINE_WOHNUNG
 focus: synonym
-replace: Herd
+replace: Auf dem Herd
 hint: "Wortschatz — kochen in der Küche"
 options:
-  - Kochfeld
-  - Kochplatte
-  - Kühlschrank
-  - Sofa
-  - Bett
+  - Auf dem Kochfeld
+  - Auf der Kochplatte
+  - Im Kühlschrank
+  - Auf dem Sofa
+  - Im Bett
 correct:
-  - Kochfeld
-  - Kochplatte
+  - Auf dem Kochfeld
+  - Auf der Kochplatte
 ---
 
 Wie würdest du es noch sagen?
 
 Auf dem Herd koche ich Suppe.
 
-Welche Wörter oder Ausdrücke passen auch statt «Herd»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Auf dem Herd»? Wähle alle richtigen Antworten.

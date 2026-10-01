@@ -4,21 +4,21 @@ type: multi-select
 lemma: Limit
 set: AUF_DER_BANK
 focus: synonym
-replace: Limit
+replace: das Limit
 hint: "Wortschatz — maximale Abhebesumme"
 options:
-  - Höchstbetrag
-  - Obergrenze
-  - Gebühr
-  - Zinsen
-  - Miete
+  - der Höchstbetrag
+  - die Obergrenze
+  - die Gebühr
+  - die Zinsen
+  - die Miete
 correct:
-  - Höchstbetrag
-  - Obergrenze
+  - der Höchstbetrag
+  - die Obergrenze
 ---
 
 Wie würden Sie es noch sagen?
 
-Das Tageslimit am Automaten beträgt 1000 Euro.
+Am Automaten beträgt das Limit 1000 Euro pro Tag.
 
-Welche Wörter oder Ausdrücke passen auch statt «Limit»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «das Limit»? Wählen Sie alle richtigen Antworten.

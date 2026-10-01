@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit Sprung über den Schatten"
 options:
   - sich überwinden
   - etwas Unangenehmes tun
-  - Ein Auge zudrücken
-  - Eigenlob stinkt
-  - Mit jemandem ist nicht gut Kirschen essen
+  - ein Auge zudrücken
+  - das Eis brechen
+  - eine Extrawurst bekommen
 correct:
   - sich überwinden
   - etwas Unangenehmes tun

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Onkel
 set: MEINE_FAMILIE
 focus: synonym
-replace: Onkel
+replace: Mein Onkel
 hint: "Wortschatz — Bruder der Eltern"
 options:
-  - Bruder meiner Eltern
-  - Onkel von Mama
-  - Cousin
-  - Neffe
-  - Schwager
+  - Der Bruder meiner Mutter
+  - Der Bruder meines Vaters
+  - Der Sohn meiner Tante
+  - Der Sohn meines Bruders
+  - Der Vater meiner Mutter
 correct:
-  - Bruder meiner Eltern
-  - Onkel von Mama
+  - Der Bruder meiner Mutter
+  - Der Bruder meines Vaters
 ---
 
 Wie würdest du es noch sagen?
 
 Mein Onkel kommt am Sonntag zu Besuch.
 
-Welche Wörter oder Ausdrücke passen auch statt «Onkel»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Mein Onkel»? Wähle alle richtigen Antworten.

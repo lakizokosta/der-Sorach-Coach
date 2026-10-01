@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit Haar und Suppe"
 options:
   - Kleinigkeiten kritisieren
   - unnötig nörgeln
-  - Den Nagel auf den Kopf treffen
-  - Ein Auge zudrücken
-  - Das Eis brechen
+  - den Nagel auf den Kopf treffen
+  - ein Auge zudrücken
+  - das Eis brechen
 correct:
   - Kleinigkeiten kritisieren
   - unnötig nörgeln

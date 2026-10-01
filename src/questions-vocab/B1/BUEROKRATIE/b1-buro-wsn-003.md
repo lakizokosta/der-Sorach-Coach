@@ -4,21 +4,21 @@ type: multi-select
 lemma: Verlängerung
 set: BUEROKRATIE
 focus: synonym
-replace: Verlängerung
+replace: die Verlängerung
 hint: "Wortschatz — Verlängerung eines Titels"
 options:
-  - Verlängerung des Titels
-  - Erneuerung des Aufenthaltstitels
-  - Formular
-  - Termin
-  - Wartezeit
+  - die Erneuerung
+  - die Neuausstellung
+  - die Rückgabe
+  - die Übersetzung
+  - die Kopie
 correct:
-  - Verlängerung des Titels
-  - Erneuerung des Aufenthaltstitels
+  - die Erneuerung
+  - die Neuausstellung
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie beantragen die Verlängerung Ihres Aufenthaltstitels.
 
-Welche Wörter oder Ausdrücke passen auch statt «Verlängerung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «die Verlängerung»? Wählen Sie alle richtigen Antworten.

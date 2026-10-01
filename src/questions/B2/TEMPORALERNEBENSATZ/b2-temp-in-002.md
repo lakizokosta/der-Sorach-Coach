@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, sie ankommt, rufe ich dich an.
+___ sie ankommt, rufe ich dich an.

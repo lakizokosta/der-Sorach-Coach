@@ -4,21 +4,21 @@ type: multi-select
 lemma: Anmeldung
 set: BUEROKRATIE
 focus: synonym
-replace: Anmeldung
+replace: Die Anmeldung Ihres Wohnsitzes
 hint: "Wortschatz — Meldung des Wohnsitzes"
 options:
-  - Wohnsitzanmeldung
-  - Meldepflicht-Erfüllung
-  - Brief
-  - Schalter
-  - Wartenummer
+  - Die Wohnsitzanmeldung
+  - Die Meldung beim Bürgeramt
+  - Die Kündigung Ihrer Wohnung
+  - Die Reinigung Ihrer Wohnung
+  - Die Renovierung Ihrer Wohnung
 correct:
-  - Wohnsitzanmeldung
-  - Meldepflicht-Erfüllung
+  - Die Wohnsitzanmeldung
+  - Die Meldung beim Bürgeramt
 ---
 
 Wie würden Sie es noch sagen?
 
 Die Anmeldung Ihres Wohnsitzes ist Pflicht.
 
-Welche Wörter oder Ausdrücke passen auch statt «Anmeldung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Anmeldung Ihres Wohnsitzes»? Wählen Sie alle richtigen Antworten.

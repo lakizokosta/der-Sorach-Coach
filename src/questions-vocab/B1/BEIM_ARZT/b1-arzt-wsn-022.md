@@ -4,21 +4,21 @@ type: multi-select
 lemma: Vorerkrankung
 set: BEIM_ARZT
 focus: synonym
-replace: Vorerkrankung
+replace: Vorerkrankungen
 hint: "Wortschatz — frühere Krankheit"
 options:
-  - frühere Erkrankung
-  - Vorgeschichte
-  - Impfung
-  - Termin
-  - Rezept
+  - frühere Erkrankungen
+  - frühere Krankheiten
+  - Impfungen
+  - Termine
+  - Rezepte
 correct:
-  - frühere Erkrankung
-  - Vorgeschichte
+  - frühere Erkrankungen
+  - frühere Krankheiten
 ---
 
 Wie würden Sie es noch sagen?
 
 Gibt es relevante Vorerkrankungen?
 
-Welche Wörter oder Ausdrücke passen auch statt «Vorerkrankung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Vorerkrankungen»? Wählen Sie alle richtigen Antworten.

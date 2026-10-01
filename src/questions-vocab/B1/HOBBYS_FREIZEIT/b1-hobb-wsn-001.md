@@ -10,8 +10,8 @@ options:
   - Begeisterung
   - Hingabe
   - Langeweile
-  - Mitgliedschaft
-  - Turnier
+  - Abneigung
+  - Gleichgültigkeit
 correct:
   - Begeisterung
   - Hingabe

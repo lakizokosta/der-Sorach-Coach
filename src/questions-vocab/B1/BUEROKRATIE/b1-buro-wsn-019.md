@@ -7,13 +7,13 @@ focus: synonym
 replace: Online-Portal
 hint: "Wortschatz — digitale Plattform der Behörde"
 options:
-  - E-Government-Portal
+  - Internetportal
   - Behördenportal
-  - Schalter
-  - Brief
-  - Wartezeit
+  - Wartezimmer
+  - Briefkasten
+  - Callcenter
 correct:
-  - E-Government-Portal
+  - Internetportal
   - Behördenportal
 ---
 

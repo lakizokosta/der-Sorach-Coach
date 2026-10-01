@@ -7,14 +7,14 @@ focus: synonym
 replace: Fotografie
 hint: "Wortschatz — Bilder mit der Kamera machen"
 options:
-  - Fotokunst
-  - Bildgestaltung
-  - Langeweile
-  - Grillen
-  - Yoga
+  - das Fotografieren
+  - die Fotokunst
+  - das Grillen
+  - das Wandern
+  - das Kochen
 correct:
-  - Fotokunst
-  - Bildgestaltung
+  - das Fotografieren
+  - die Fotokunst
 ---
 
 Wie würden Sie es noch sagen?

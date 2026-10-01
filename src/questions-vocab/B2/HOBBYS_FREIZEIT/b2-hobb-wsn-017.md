@@ -7,13 +7,13 @@ focus: synonym
 replace: Festival
 hint: "Wortschatz — großes mehrtägiges Kultur- oder Sportfest"
 options:
-  - Großveranstaltung
+  - Musikfest
   - Kulturfest
   - Wettkampf
   - Workout
   - Regeneration
 correct:
-  - Großveranstaltung
+  - Musikfest
   - Kulturfest
 ---
 

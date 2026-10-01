@@ -4,21 +4,21 @@ type: multi-select
 lemma: Ausflug
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Ausflug
+replace: einen Ausflug
 hint: "Wortschatz — kurzer Ausflug in der Freizeit"
 options:
-  - Tagesreise
-  - Exkursion
-  - Turnier
-  - Mitgliedschaft
-  - Langeweile
+  - eine Tagesfahrt
+  - eine Tagestour
+  - ein Turnier
+  - eine Mitgliederversammlung
+  - einen Bastelkurs
 correct:
-  - Tagesreise
-  - Exkursion
+  - eine Tagesfahrt
+  - eine Tagestour
 ---
 
 Wie würden Sie es noch sagen?
 
 Der Verein organisiert einen Ausflug ans Meer.
 
-Welche Wörter oder Ausdrücke passen auch statt «Ausflug»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «einen Ausflug»? Wählen Sie alle richtigen Antworten.

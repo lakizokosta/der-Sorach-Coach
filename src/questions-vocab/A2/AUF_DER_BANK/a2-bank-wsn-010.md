@@ -4,21 +4,21 @@ type: multi-select
 lemma: TAN
 set: AUF_DER_BANK
 focus: synonym
-replace: TAN
+replace: Ihre TAN
 hint: "Wortschatz — Code für Online-Überweisung"
 options:
-  - Transaktionsnummer
-  - Sicherheitscode
-  - IBAN
-  - PIN
-  - Kontostand
+  - Ihre Transaktionsnummer
+  - Ihren Sicherheitscode
+  - Ihre IBAN
+  - Ihren Kontostand
+  - Ihr Gehalt
 correct:
-  - Transaktionsnummer
-  - Sicherheitscode
+  - Ihre Transaktionsnummer
+  - Ihren Sicherheitscode
 ---
 
 Wie würden Sie es noch sagen?
 
 Bitte geben Sie Ihre TAN ein.
 
-Welche Wörter oder Ausdrücke passen auch statt «TAN»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre TAN»? Wählen Sie alle richtigen Antworten.

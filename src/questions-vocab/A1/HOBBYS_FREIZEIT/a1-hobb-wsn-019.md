@@ -7,14 +7,14 @@ focus: synonym
 replace: Freunde
 hint: "Wortschatz — Personen, die dir wichtig sind"
 options:
-  - Kameraden
   - Kumpel
+  - Kameraden
   - Lehrer
-  - Schule
-  - Büroarbeit
+  - Kollegen
+  - Nachbarn
 correct:
-  - Kameraden
   - Kumpel
+  - Kameraden
 ---
 
 Wie würdest du es noch sagen?

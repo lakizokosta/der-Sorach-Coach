@@ -4,21 +4,21 @@ type: multi-select
 lemma: Schriftverkehr
 set: BUEROKRATIE
 focus: synonym
-replace: Schriftverkehr
+replace: Der Schriftverkehr
 hint: "Wortschatz — Briefe mit der Behörde"
 options:
-  - schriftlicher Verkehr
-  - Postverkehr mit dem Amt
-  - Termin
-  - Schalter
-  - Gebühr
+  - Die Korrespondenz
+  - Der Briefwechsel
+  - Der Termin
+  - Die Wartezeit
+  - Die Gebühr
 correct:
-  - schriftlicher Verkehr
-  - Postverkehr mit dem Amt
+  - Die Korrespondenz
+  - Der Briefwechsel
 ---
 
 Wie würden Sie es noch sagen?
 
 Der Schriftverkehr erfolgt nur auf Deutsch.
 
-Welche Wörter oder Ausdrücke passen auch statt «Schriftverkehr»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Der Schriftverkehr»? Wählen Sie alle richtigen Antworten.

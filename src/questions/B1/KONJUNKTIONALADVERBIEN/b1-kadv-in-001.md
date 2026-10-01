@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Es regnete den ganzen Tag. ___, sind wir spazieren gegangen.
+Es regnete den ganzen Tag. ___ sind wir spazieren gegangen.

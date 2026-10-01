@@ -7,14 +7,14 @@ focus: synonym
 replace: Bauchschmerzen
 hint: "Wortschatz — Schmerz im Magenbereich"
 options:
-  - Magenweh
-  - Unterleibsschmerzen
+  - Bauchweh
+  - Magenschmerzen
   - Kopfschmerzen
   - Fieber
   - Husten
 correct:
-  - Magenweh
-  - Unterleibsschmerzen
+  - Bauchweh
+  - Magenschmerzen
 ---
 
 Wie würden Sie es noch sagen?

@@ -8,13 +8,13 @@ words:
   - um
   - die
   - Patienten
+  - ?
   - —
   - Ich
   - kümmere
   - mich
   - darum
-commas:
-  - 2
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, Julia kam, hatte Boris bereits bestellt.
+___ Julia kam, hatte Boris bereits bestellt.

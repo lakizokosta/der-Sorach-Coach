@@ -8,13 +8,13 @@ replace: Eingangsbestätigung
 hint: "Wortschatz — Beleg, dass der Antrag angekommen ist"
 options:
   - Empfangsbestätigung
-  - Eingangsnachweis
-  - Bescheid
-  - Schalter
-  - Gebühr
+  - Bestätigung über den Eingang
+  - Ablehnung
+  - Mahnung
+  - Gebührenrechnung
 correct:
   - Empfangsbestätigung
-  - Eingangsnachweis
+  - Bestätigung über den Eingang
 ---
 
 Wie würden Sie es noch sagen?

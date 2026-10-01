@@ -4,21 +4,21 @@ type: multi-select
 lemma: Untersuchung
 set: BEIM_ARZT
 focus: synonym
-replace: Untersuchung
+replace: eine kurze Untersuchung
 hint: "Wortschatz — der Arzt schaut nach"
 options:
-  - körperliche Kontrolle
-  - ärztliche Kontrolle
-  - Rezept
-  - Impfung
-  - Attest
+  - einen kurzen Check
+  - eine kurze Kontrolle
+  - eine kurze Pause
+  - einen kurzen Anruf
+  - eine kurze Notiz
 correct:
-  - körperliche Kontrolle
-  - ärztliche Kontrolle
+  - einen kurzen Check
+  - eine kurze Kontrolle
 ---
 
 Wie würden Sie es noch sagen?
 
 Der Arzt macht eine kurze Untersuchung.
 
-Welche Wörter oder Ausdrücke passen auch statt «Untersuchung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine kurze Untersuchung»? Wählen Sie alle richtigen Antworten.

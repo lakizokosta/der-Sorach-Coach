@@ -8,13 +8,13 @@ replace: aus dem Nähkästchen zu plaudern
 hint: "Redewendung — private Geschichten erzählen"
 options:
   - private Geschichten zu erzählen
-  - intime Details zu verraten
-  - jemandem auf den Zahn fühlen
-  - den Bock zum Gärtner machen
-  - mit dem Kopf durch die Wand
+  - persönliche Geheimnisse zu verraten
+  - über das Wetter zu reden
+  - schweigend zuzuhören
+  - die Zeitung zu lesen
 correct:
   - private Geschichten zu erzählen
-  - intime Details zu verraten
+  - persönliche Geheimnisse zu verraten
 ---
 
 Wie würden Sie es noch sagen?

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, der Kurs begann, kannten sich alle.
+___ der Kurs begann, kannten sich alle.

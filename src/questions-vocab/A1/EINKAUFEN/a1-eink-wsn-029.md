@@ -10,8 +10,8 @@ options:
   - eine Menge
   - jede Menge
   - wenig
-  - nichts
-  - alles
+  - kein
+  - ein bisschen
 correct:
   - eine Menge
   - jede Menge

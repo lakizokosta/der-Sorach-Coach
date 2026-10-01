@@ -8,13 +8,13 @@ replace: Fristverlängerung
 hint: "Wortschatz — mehr Zeit für eine Handlung"
 options:
   - Verlängerung der Frist
-  - Fristaufschub
-  - Antrag
-  - Termin
-  - Schalter
+  - Verschiebung des Abgabetermins
+  - Ablehnung
+  - Gebühr
+  - Wartenummer
 correct:
   - Verlängerung der Frist
-  - Fristaufschub
+  - Verschiebung des Abgabetermins
 ---
 
 Wie würden Sie es noch sagen?

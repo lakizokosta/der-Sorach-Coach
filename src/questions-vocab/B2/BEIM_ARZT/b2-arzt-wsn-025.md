@@ -8,13 +8,13 @@ replace: Laborwerte
 hint: "Wortschatz — Ergebnisse aus dem Blut"
 options:
   - Blutwerte
-  - Labordiagnostik
-  - Röntgenbefund
-  - Verordnung
-  - Entlassung
+  - Laborergebnisse
+  - Röntgenbefunde
+  - Verordnungen
+  - Entlassungen
 correct:
   - Blutwerte
-  - Labordiagnostik
+  - Laborergebnisse
 ---
 
 Wie würden Sie es noch sagen?

@@ -5,12 +5,13 @@ words:
   - Das
   - Essen
   - war
-  - teuer
+  - günstig
   - dennoch
   - blieb
   - die
   - Qualität
   - hoch
+  - .
 commas:
   - 3
 ---

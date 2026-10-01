@@ -4,21 +4,21 @@ type: multi-select
 lemma: Ausbildung
 set: JOB_SUCHE
 focus: synonym
-replace: Ausbildung
+replace: Ihre Ausbildung
 hint: "Wortschatz — Lernen eines Berufs nach der Schule"
 options:
-  - Lehre
-  - Berufsausbildung
-  - Gehalt
-  - Kündigung
-  - Bewerbungsgespräch
+  - Ihre Lehre
+  - Ihre Berufsausbildung
+  - Ihren Urlaub
+  - Ihre Rente
+  - Ihre Elternzeit
 correct:
-  - Lehre
-  - Berufsausbildung
+  - Ihre Lehre
+  - Ihre Berufsausbildung
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie beginnen im September Ihre Ausbildung.
 
-Welche Wörter oder Ausdrücke passen auch statt «Ausbildung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre Ausbildung»? Wählen Sie alle richtigen Antworten.

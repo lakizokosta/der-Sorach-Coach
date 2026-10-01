@@ -7,14 +7,14 @@ focus: synonym
 replace: Statusabfrage
 hint: "Wortschatz — Frage nach dem Bearbeitungsstand"
 options:
-  - Standabfrage
   - Anfrage zum Bearbeitungsstand
-  - Formular
-  - Brief
-  - Gebühr
+  - Nachfrage zum Stand des Antrags
+  - Gebührenzahlung
+  - Beglaubigung
+  - Unterschrift
 correct:
-  - Standabfrage
   - Anfrage zum Bearbeitungsstand
+  - Nachfrage zum Stand des Antrags
 ---
 
 Wie würden Sie es noch sagen?

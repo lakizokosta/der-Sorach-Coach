@@ -8,13 +8,13 @@ replace: Amtssprache
 hint: "Wortschatz — Sprache für den Schriftverkehr"
 options:
   - Behördensprache
-  - offizielle Sprache
+  - offizieller Sprache
   - Antrag
   - Bescheid
   - Schalter
 correct:
   - Behördensprache
-  - offizielle Sprache
+  - offizieller Sprache
 ---
 
 Wie würden Sie es noch sagen?

@@ -7,10 +7,12 @@ words:
   - bei
   - dem
   - Projekt
+  - ?
   - —
   - Ich
   - helfe
   - dabei
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Land
 set: SICH_VORSTELLEN
 focus: synonym
-replace: Land
+replace: Mein Land
 hint: "Wortschatz — Ukraine, Polen, Türkei …"
 options:
-  - Heimatland
-  - Heimat
-  - Stadt
-  - Straße
-  - Sprache
+  - Mein Heimatland
+  - Meine Heimat
+  - Meine Stadt
+  - Meine Straße
+  - Meine Sprache
 correct:
-  - Heimatland
-  - Heimat
+  - Mein Heimatland
+  - Meine Heimat
 ---
 
 Wie würdest du es noch sagen?
 
 Mein Land ist Polen.
 
-Welche Wörter oder Ausdrücke passen auch statt «Land»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Mein Land»? Wähle alle richtigen Antworten.

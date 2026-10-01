@@ -10,8 +10,8 @@ options:
   - Kleingeld
   - Centstücke
   - Scheine
-  - Karte
-  - Formular
+  - Karten
+  - Formulare
 correct:
   - Kleingeld
   - Centstücke

@@ -9,9 +9,9 @@ hint: "Wortschatz — gewünschter Lohn bei der Bewerbung"
 options:
   - Ihren Lohnwunsch
   - Ihren Gehaltswunsch
-  - Kündigung
-  - Urlaub
-  - Probezeit
+  - Ihre Kündigungsfrist
+  - Ihren Urlaubsort
+  - Ihre Probezeit
 correct:
   - Ihren Lohnwunsch
   - Ihren Gehaltswunsch

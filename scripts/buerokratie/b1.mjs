@@ -1175,7 +1175,7 @@ export const b1Questions = [
     correct: [
       "Genehmigung"
     ],
-    body: "Ergänzen Sie:\n\nMit der ___ können Sie weiter arbeiten."
+    body: "Ergänzen Sie:\n\nMit der ___ können Sie weiterarbeiten."
   },
   {
     id: "b1-buro-in-016",

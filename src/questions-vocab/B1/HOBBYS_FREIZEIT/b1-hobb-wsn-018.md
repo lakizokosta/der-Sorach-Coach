@@ -9,9 +9,9 @@ hint: "Wortschatz — mit mehreren Teams"
 options:
   - einem Wettkampf
   - einer Meisterschaft
-  - Chor
-  - Theater
-  - Basteln
+  - einer Chorprobe
+  - einem Theaterabend
+  - einem Bastelkurs
 correct:
   - einem Wettkampf
   - einer Meisterschaft

@@ -59,7 +59,7 @@ export const DUPLICATE_FIXES = {
   // fix above still has ich twice - use:
   // (overridden below after review)
 
-  'A2:SUPERLATIVA2:15': ['Am', 'schönsten', 'finde', 'ich', 'Frühling'],
+  'A2:SUPERLATIVA2:15': ['Am', 'schönsten', 'finde', 'ich', 'den', 'Frühling'],
 
   'A2:WECHSELPRÄPOSITIONENA2:0': ['Die', 'Lampe', 'hängt', 'an', 'der', 'Decke'],
   'A2:WECHSELPRÄPOSITIONENA2:2': ['Das', 'Kind', 'ist', 'im', 'Park'],
@@ -86,7 +86,7 @@ export const DUPLICATE_FIXES = {
 };
 
 // KOMPARATIVA2:16 — second pass
-DUPLICATE_FIXES['A2:KOMPARATIVA2:16'] = ['Trotzdem', 'gewann', 'ich', 'als', 'stärkerer', 'Sportler'];
+DUPLICATE_FIXES['A2:KOMPARATIVA2:16'] = ['Ich', 'gewann', 'weil', 'mein', 'Gegner', 'schwächer', 'war'];
 
 // AKKUSATIVA2:1 — "an" twice
 DUPLICATE_FIXES['A2:AKKUSATIVA2:1'] = ['Er', 'denkt', 'gern', 'an', 'Urlaub', 'Mosel'];

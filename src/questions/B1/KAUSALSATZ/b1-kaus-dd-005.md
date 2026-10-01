@@ -8,8 +8,10 @@ words:
   - steigt
   - werden
   - auch
+  - unsere
   - Preise
   - höher
+  - .
 commas:
   - 3
 ---

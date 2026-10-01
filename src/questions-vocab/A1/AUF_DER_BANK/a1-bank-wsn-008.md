@@ -7,14 +7,14 @@ focus: synonym
 replace: abheben
 hint: "Wortschatz — Geld vom Konto holen"
 options:
-  - Bargeld holen
-  - mir auszahlen lassen
+  - holen
+  - ziehen
   - einzahlen
   - überweisen
   - unterschreiben
 correct:
-  - Bargeld holen
-  - mir auszahlen lassen
+  - holen
+  - ziehen
 ---
 
 Wie würdest du es noch sagen?

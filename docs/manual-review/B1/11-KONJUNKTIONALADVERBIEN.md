@@ -18,7 +18,7 @@
 ### 1. `b1-kadv-001` · select-one
 
 **Aufgabe:**
-> Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb)
+> Es regnete den ganzen Tag. ___ sind wir spazieren gegangen. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -32,7 +32,7 @@
 ### 2. `b1-kadv-002` · select-one
 
 **Aufgabe:**
-> Er hat viel gelernt. ___, hat er die Prüfung bestanden. (Konjunktionaladverb)
+> Er hat viel gelernt. ___ hat er die Prüfung bestanden. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -46,7 +46,7 @@
 ### 3. `b1-kadv-003` · select-one
 
 **Aufgabe:**
-> Sie spricht fließend Englisch. ___, kann sie auch Französisch. (Konjunktionaladverb)
+> Sie spricht fließend Englisch. ___ kann sie auch Französisch. (Konjunktionaladverb)
 
 **Optionen:**
 - Trotzdem
@@ -60,7 +60,7 @@
 ### 4. `b1-kadv-004` · select-one
 
 **Aufgabe:**
-> Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb)
+> Das Projekt ist teuer. ___ lohnt es sich. (Konjunktionaladverb)
 
 **Optionen:**
 - Deshalb
@@ -74,7 +74,7 @@
 ### 5. `b1-kadv-005` · select-one
 
 **Aufgabe:**
-> Ich war krank. ___, habe ich die Vorlesung verpasst. (Konjunktionaladverb)
+> Ich war krank. ___ habe ich die Vorlesung verpasst. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -88,7 +88,7 @@
 ### 6. `b1-kadv-006` · select-one
 
 **Aufgabe:**
-> Der Arzt riet zur Ruhe. ___, arbeitet er weiter. (Konjunktionaladverb)
+> Der Arzt riet ihm zur Ruhe. ___ arbeitete er weiter. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -102,7 +102,7 @@
 ### 7. `b1-kadv-007` · select-one
 
 **Aufgabe:**
-> Die Nachrichten sind alarmierend. ___, bleiben viele ruhig. (Konjunktionaladverb)
+> Die Nachrichten sind alarmierend. ___ bleiben viele ruhig. (Konjunktionaladverb)
 
 **Optionen:**
 - Denn
@@ -116,7 +116,7 @@
 ### 8. `b1-kadv-008` · select-one
 
 **Aufgabe:**
-> Er hat Überstunden gemacht. ___, ist er müde. (Konjunktionaladverb)
+> Er hat Überstunden gemacht. ___ ist er müde. (Konjunktionaladverb)
 
 **Optionen:**
 - Trotzdem
@@ -130,7 +130,7 @@
 ### 9. `b1-kadv-009` · select-one
 
 **Aufgabe:**
-> Sie studiert Medizin. ___, jobbt sie nebenbei. (Konjunktionaladverb)
+> Sie studiert Medizin. ___ jobbt sie nebenbei. (Konjunktionaladverb)
 
 **Optionen:**
 - Trotzdem
@@ -144,7 +144,7 @@
 ### 10. `b1-kadv-010` · select-one
 
 **Aufgabe:**
-> Das Hotel war laut. ___, haben wir gut geschlafen. (Konjunktionaladverb)
+> Das Hotel war laut. ___ haben wir gut geschlafen. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -158,7 +158,7 @@
 ### 11. `b1-kadv-011` · select-one
 
 **Aufgabe:**
-> Die Politik ändert sich. ___, reagieren die Bürger. (Konjunktionaladverb)
+> Die Politik ändert sich. ___ reagieren die Bürger. (Konjunktionaladverb)
 
 **Optionen:**
 - Denn
@@ -172,7 +172,7 @@
 ### 12. `b1-kadv-012` · select-one
 
 **Aufgabe:**
-> Das Essen war teuer. ___, war die Qualität hoch. (Konjunktionaladverb)
+> Das Essen war günstig. ___ war die Qualität hoch. (Konjunktionaladverb)
 
 **Optionen:**
 - Deshalb
@@ -186,7 +186,7 @@
 ### 13. `b1-kadv-013` · select-one
 
 **Aufgabe:**
-> Er spart Energie. ___, senkt er seine Kosten. (Konjunktionaladverb)
+> Er spart Energie. ___ senkt er seine Kosten. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -200,7 +200,7 @@
 ### 14. `b1-kadv-014` · select-one
 
 **Aufgabe:**
-> Sie hat wenig Erfahrung. ___, bekommt sie die Stelle. (Konjunktionaladverb)
+> Sie hat wenig Erfahrung. ___ bekommt sie die Stelle. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -214,7 +214,7 @@
 ### 15. `b1-kadv-015` · select-one
 
 **Aufgabe:**
-> Wir brauchen Hilfe. ___, rufen wir einen Experten. (Konjunktionaladverb)
+> Wir brauchen Hilfe. ___ rufen wir einen Experten. (Konjunktionaladverb)
 
 **Optionen:**
 - Denn
@@ -228,7 +228,7 @@
 ### 16. `b1-kadv-016` · select-one
 
 **Aufgabe:**
-> Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb)
+> Es regnete den ganzen Tag. ___ sind wir spazieren gegangen. (Konjunktionaladverb)
 
 **Optionen:**
 - Deshalb
@@ -242,7 +242,7 @@
 ### 17. `b1-kadv-017` · select-one
 
 **Aufgabe:**
-> Er hat viel gelernt. ___, hat er die Prüfung bestanden. (Konjunktionaladverb)
+> Er hat viel gelernt. ___ hat er die Prüfung bestanden. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -256,7 +256,7 @@
 ### 18. `b1-kadv-018` · select-one
 
 **Aufgabe:**
-> Sie spricht fließend Englisch. ___, kann sie auch Französisch. (Konjunktionaladverb)
+> Sie spricht fließend Englisch. ___ kann sie auch Französisch. (Konjunktionaladverb)
 
 **Optionen:**
 - Trotzdem
@@ -270,7 +270,7 @@
 ### 19. `b1-kadv-019` · select-one
 
 **Aufgabe:**
-> Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb)
+> Das Projekt ist teuer. ___ lohnt es sich. (Konjunktionaladverb)
 
 **Optionen:**
 - Denn
@@ -284,7 +284,7 @@
 ### 20. `b1-kadv-020` · select-one
 
 **Aufgabe:**
-> Ich war krank. ___, habe ich die Vorlesung verpasst. (Konjunktionaladverb)
+> Ich war krank. ___ habe ich die Vorlesung verpasst. (Konjunktionaladverb)
 
 **Optionen:**
 - Außerdem
@@ -298,7 +298,7 @@
 ### 21. `b1-kadv-021` · select-one
 
 **Aufgabe:**
-> Der Arzt riet zur Ruhe. ___, arbeitet er weiter. (Konjunktionaladverb)
+> Der Arzt riet ihm zur Ruhe. ___ arbeitete er weiter. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -312,7 +312,7 @@
 ### 22. `b1-kadv-022` · select-one
 
 **Aufgabe:**
-> Die Nachrichten sind alarmierend. ___, bleiben viele ruhig. (Konjunktionaladverb)
+> Die Nachrichten sind alarmierend. ___ bleiben viele ruhig. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -326,7 +326,7 @@
 ### 23. `b1-kadv-023` · select-one
 
 **Aufgabe:**
-> Er hat Überstunden gemacht. ___, ist er müde. (Konjunktionaladverb)
+> Er hat Überstunden gemacht. ___ ist er müde. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -340,7 +340,7 @@
 ### 24. `b1-kadv-024` · select-one
 
 **Aufgabe:**
-> Sie studiert Medizin. ___, jobbt sie nebenbei. (Konjunktionaladverb)
+> Sie studiert Medizin. ___ jobbt sie nebenbei. (Konjunktionaladverb)
 
 **Optionen:**
 - Deshalb
@@ -354,7 +354,7 @@
 ### 25. `b1-kadv-025` · select-one
 
 **Aufgabe:**
-> Das Hotel war laut. ___, haben wir gut geschlafen. (Konjunktionaladverb)
+> Das Hotel war laut. ___ haben wir gut geschlafen. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -368,7 +368,7 @@
 ### 26. `b1-kadv-026` · select-one
 
 **Aufgabe:**
-> Die Politik ändert sich. ___, reagieren die Bürger. (Konjunktionaladverb)
+> Die Politik ändert sich. ___ reagieren die Bürger. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -382,7 +382,7 @@
 ### 27. `b1-kadv-027` · select-one
 
 **Aufgabe:**
-> Das Essen war teuer. ___, war die Qualität hoch. (Konjunktionaladverb)
+> Das Essen war günstig. ___ war die Qualität hoch. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -396,7 +396,7 @@
 ### 28. `b1-kadv-028` · select-one
 
 **Aufgabe:**
-> Er spart Energie. ___, senkt er seine Kosten. (Konjunktionaladverb)
+> Er spart Energie. ___ senkt er seine Kosten. (Konjunktionaladverb)
 
 **Optionen:**
 - Trotzdem
@@ -410,7 +410,7 @@
 ### 29. `b1-kadv-029` · select-one
 
 **Aufgabe:**
-> Sie hat wenig Erfahrung. ___, bekommt sie die Stelle. (Konjunktionaladverb)
+> Sie hat wenig Erfahrung. ___ bekommt sie die Stelle. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -424,7 +424,7 @@
 ### 30. `b1-kadv-030` · select-one
 
 **Aufgabe:**
-> Wir brauchen Hilfe. ___, rufen wir einen Experten. (Konjunktionaladverb)
+> Wir brauchen Hilfe. ___ rufen wir einen Experten. (Konjunktionaladverb)
 
 **Optionen:**
 - Trotzdem
@@ -438,7 +438,7 @@
 ### 31. `b1-kadv-031` · select-one
 
 **Aufgabe:**
-> Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb)
+> Es regnete den ganzen Tag. ___ sind wir spazieren gegangen. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -452,7 +452,7 @@
 ### 32. `b1-kadv-032` · select-one
 
 **Aufgabe:**
-> Er hat viel gelernt. ___, hat er die Prüfung bestanden. (Konjunktionaladverb)
+> Er hat viel gelernt. ___ hat er die Prüfung bestanden. (Konjunktionaladverb)
 
 **Optionen:**
 - Trotzdem
@@ -466,7 +466,7 @@
 ### 33. `b1-kadv-033` · select-one
 
 **Aufgabe:**
-> Sie spricht fließend Englisch. ___, kann sie auch Französisch. (Konjunktionaladverb)
+> Sie spricht fließend Englisch. ___ kann sie auch Französisch. (Konjunktionaladverb)
 
 **Optionen:**
 - Trotzdem
@@ -480,7 +480,7 @@
 ### 34. `b1-kadv-034` · select-one
 
 **Aufgabe:**
-> Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb)
+> Das Projekt ist teuer. ___ lohnt es sich. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -494,7 +494,7 @@
 ### 35. `b1-kadv-035` · select-one
 
 **Aufgabe:**
-> Ich war krank. ___, habe ich die Vorlesung verpasst. (Konjunktionaladverb)
+> Ich war krank. ___ habe ich die Vorlesung verpasst. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -508,7 +508,7 @@
 ### 36. `b1-kadv-036` · select-one
 
 **Aufgabe:**
-> Der Arzt riet zur Ruhe. ___, arbeitet er weiter. (Konjunktionaladverb)
+> Der Arzt riet ihm zur Ruhe. ___ arbeitete er weiter. (Konjunktionaladverb)
 
 **Optionen:**
 - Deshalb
@@ -522,7 +522,7 @@
 ### 37. `b1-kadv-037` · select-one
 
 **Aufgabe:**
-> Die Nachrichten sind alarmierend. ___, bleiben viele ruhig. (Konjunktionaladverb)
+> Die Nachrichten sind alarmierend. ___ bleiben viele ruhig. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -536,7 +536,7 @@
 ### 38. `b1-kadv-038` · select-one
 
 **Aufgabe:**
-> Er hat Überstunden gemacht. ___, ist er müde. (Konjunktionaladverb)
+> Er hat Überstunden gemacht. ___ ist er müde. (Konjunktionaladverb)
 
 **Optionen:**
 - Trotzdem
@@ -550,7 +550,7 @@
 ### 39. `b1-kadv-039` · select-one
 
 **Aufgabe:**
-> Sie studiert Medizin. ___, jobbt sie nebenbei. (Konjunktionaladverb)
+> Sie studiert Medizin. ___ jobbt sie nebenbei. (Konjunktionaladverb)
 
 **Optionen:**
 - Trotzdem
@@ -564,7 +564,7 @@
 ### 40. `b1-kadv-040` · select-one
 
 **Aufgabe:**
-> Das Hotel war laut. ___, haben wir gut geschlafen. (Konjunktionaladverb)
+> Das Hotel war laut. ___ haben wir gut geschlafen. (Konjunktionaladverb)
 
 **Optionen:**
 - Außerdem
@@ -578,7 +578,7 @@
 ### 41. `b1-kadv-041` · select-one
 
 **Aufgabe:**
-> Die Politik ändert sich. ___, reagieren die Bürger. (Konjunktionaladverb)
+> Die Politik ändert sich. ___ reagieren die Bürger. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -592,7 +592,7 @@
 ### 42. `b1-kadv-042` · select-one
 
 **Aufgabe:**
-> Das Essen war teuer. ___, war die Qualität hoch. (Konjunktionaladverb)
+> Das Essen war günstig. ___ war die Qualität hoch. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -606,7 +606,7 @@
 ### 43. `b1-kadv-043` · select-one
 
 **Aufgabe:**
-> Er spart Energie. ___, senkt er seine Kosten. (Konjunktionaladverb)
+> Er spart Energie. ___ senkt er seine Kosten. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -620,7 +620,7 @@
 ### 44. `b1-kadv-044` · select-one
 
 **Aufgabe:**
-> Sie hat wenig Erfahrung. ___, bekommt sie die Stelle. (Konjunktionaladverb)
+> Sie hat wenig Erfahrung. ___ bekommt sie die Stelle. (Konjunktionaladverb)
 
 **Optionen:**
 - Deshalb
@@ -634,7 +634,7 @@
 ### 45. `b1-kadv-045` · select-one
 
 **Aufgabe:**
-> Wir brauchen Hilfe. ___, rufen wir einen Experten. (Konjunktionaladverb)
+> Wir brauchen Hilfe. ___ rufen wir einen Experten. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -648,7 +648,7 @@
 ### 46. `b1-kadv-046` · select-one
 
 **Aufgabe:**
-> Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb)
+> Es regnete den ganzen Tag. ___ sind wir spazieren gegangen. (Konjunktionaladverb)
 
 **Optionen:**
 - Deshalb
@@ -662,7 +662,7 @@
 ### 47. `b1-kadv-047` · select-one
 
 **Aufgabe:**
-> Er hat viel gelernt. ___, hat er die Prüfung bestanden. (Konjunktionaladverb)
+> Er hat viel gelernt. ___ hat er die Prüfung bestanden. (Konjunktionaladverb)
 
 **Optionen:**
 - Denn
@@ -676,7 +676,7 @@
 ### 48. `b1-kadv-048` · select-one
 
 **Aufgabe:**
-> Sie spricht fließend Englisch. ___, kann sie auch Französisch. (Konjunktionaladverb)
+> Sie spricht fließend Englisch. ___ kann sie auch Französisch. (Konjunktionaladverb)
 
 **Optionen:**
 - Deshalb
@@ -690,7 +690,7 @@
 ### 49. `b1-kadv-049` · select-one
 
 **Aufgabe:**
-> Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb)
+> Das Projekt ist teuer. ___ lohnt es sich. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -704,7 +704,7 @@
 ### 50. `b1-kadv-050` · select-one
 
 **Aufgabe:**
-> Ich war krank. ___, habe ich die Vorlesung verpasst. (Konjunktionaladverb)
+> Ich war krank. ___ habe ich die Vorlesung verpasst. (Konjunktionaladverb)
 
 **Optionen:**
 - Weil
@@ -720,7 +720,7 @@
 ### 51. `b1-kadv-in-001` · input-text
 
 **Aufgabe:**
-> Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb)
+> Es regnete den ganzen Tag. ___ sind wir spazieren gegangen. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -730,7 +730,7 @@
 ### 52. `b1-kadv-in-002` · input-text
 
 **Aufgabe:**
-> Er hat viel gelernt. ___, hat er die Prüfung bestanden. (Konjunktionaladverb)
+> Er hat viel gelernt. ___ hat er die Prüfung bestanden. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -740,7 +740,7 @@
 ### 53. `b1-kadv-in-003` · input-text
 
 **Aufgabe:**
-> Sie spricht fließend Englisch. ___, kann sie auch Französisch. (Konjunktionaladverb)
+> Sie spricht fließend Englisch. ___ kann sie auch Französisch. (Konjunktionaladverb)
 
 **Antwort:** `Außerdem`
 
@@ -750,7 +750,7 @@
 ### 54. `b1-kadv-in-004` · input-text
 
 **Aufgabe:**
-> Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb)
+> Das Projekt ist teuer. ___ lohnt es sich. (Konjunktionaladverb)
 
 **Antwort:** `Dennoch`
 
@@ -760,7 +760,7 @@
 ### 55. `b1-kadv-in-005` · input-text
 
 **Aufgabe:**
-> Ich war krank. ___, habe ich die Vorlesung verpasst. (Konjunktionaladverb)
+> Ich war krank. ___ habe ich die Vorlesung verpasst. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -770,7 +770,7 @@
 ### 56. `b1-kadv-in-006` · input-text
 
 **Aufgabe:**
-> Der Arzt riet zur Ruhe. ___, arbeitet er weiter. (Konjunktionaladverb)
+> Der Arzt riet ihm zur Ruhe. ___ arbeitete er weiter. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -780,7 +780,7 @@
 ### 57. `b1-kadv-in-007` · input-text
 
 **Aufgabe:**
-> Die Nachrichten sind alarmierend. ___, bleiben viele ruhig. (Konjunktionaladverb)
+> Die Nachrichten sind alarmierend. ___ bleiben viele ruhig. (Konjunktionaladverb)
 
 **Antwort:** `Dennoch`
 
@@ -790,7 +790,7 @@
 ### 58. `b1-kadv-in-008` · input-text
 
 **Aufgabe:**
-> Er hat Überstunden gemacht. ___, ist er müde. (Konjunktionaladverb)
+> Er hat Überstunden gemacht. ___ ist er müde. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -800,7 +800,7 @@
 ### 59. `b1-kadv-in-009` · input-text
 
 **Aufgabe:**
-> Sie studiert Medizin. ___, jobbt sie nebenbei. (Konjunktionaladverb)
+> Sie studiert Medizin. ___ jobbt sie nebenbei. (Konjunktionaladverb)
 
 **Antwort:** `Außerdem`
 
@@ -810,7 +810,7 @@
 ### 60. `b1-kadv-in-010` · input-text
 
 **Aufgabe:**
-> Das Hotel war laut. ___, haben wir gut geschlafen. (Konjunktionaladverb)
+> Das Hotel war laut. ___ haben wir gut geschlafen. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -820,7 +820,7 @@
 ### 61. `b1-kadv-in-011` · input-text
 
 **Aufgabe:**
-> Die Politik ändert sich. ___, reagieren die Bürger. (Konjunktionaladverb)
+> Die Politik ändert sich. ___ reagieren die Bürger. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -830,7 +830,7 @@
 ### 62. `b1-kadv-in-012` · input-text
 
 **Aufgabe:**
-> Das Essen war teuer. ___, war die Qualität hoch. (Konjunktionaladverb)
+> Das Essen war günstig. ___ war die Qualität hoch. (Konjunktionaladverb)
 
 **Antwort:** `Dennoch`
 
@@ -840,7 +840,7 @@
 ### 63. `b1-kadv-in-013` · input-text
 
 **Aufgabe:**
-> Er spart Energie. ___, senkt er seine Kosten. (Konjunktionaladverb)
+> Er spart Energie. ___ senkt er seine Kosten. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -850,7 +850,7 @@
 ### 64. `b1-kadv-in-014` · input-text
 
 **Aufgabe:**
-> Sie hat wenig Erfahrung. ___, bekommt sie die Stelle. (Konjunktionaladverb)
+> Sie hat wenig Erfahrung. ___ bekommt sie die Stelle. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -860,7 +860,7 @@
 ### 65. `b1-kadv-in-015` · input-text
 
 **Aufgabe:**
-> Wir brauchen Hilfe. ___, rufen wir einen Experten. (Konjunktionaladverb)
+> Wir brauchen Hilfe. ___ rufen wir einen Experten. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -870,7 +870,7 @@
 ### 66. `b1-kadv-in-016` · input-text
 
 **Aufgabe:**
-> Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb)
+> Es regnete den ganzen Tag. ___ sind wir spazieren gegangen. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -880,7 +880,7 @@
 ### 67. `b1-kadv-in-017` · input-text
 
 **Aufgabe:**
-> Er hat viel gelernt. ___, hat er die Prüfung bestanden. (Konjunktionaladverb)
+> Er hat viel gelernt. ___ hat er die Prüfung bestanden. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -890,7 +890,7 @@
 ### 68. `b1-kadv-in-018` · input-text
 
 **Aufgabe:**
-> Sie spricht fließend Englisch. ___, kann sie auch Französisch. (Konjunktionaladverb)
+> Sie spricht fließend Englisch. ___ kann sie auch Französisch. (Konjunktionaladverb)
 
 **Antwort:** `Außerdem`
 
@@ -900,7 +900,7 @@
 ### 69. `b1-kadv-in-019` · input-text
 
 **Aufgabe:**
-> Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb)
+> Das Projekt ist teuer. ___ lohnt es sich. (Konjunktionaladverb)
 
 **Antwort:** `Dennoch`
 
@@ -910,7 +910,7 @@
 ### 70. `b1-kadv-in-020` · input-text
 
 **Aufgabe:**
-> Ich war krank. ___, habe ich die Vorlesung verpasst. (Konjunktionaladverb)
+> Ich war krank. ___ habe ich die Vorlesung verpasst. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -920,7 +920,7 @@
 ### 71. `b1-kadv-in-021` · input-text
 
 **Aufgabe:**
-> Der Arzt riet zur Ruhe. ___, arbeitet er weiter. (Konjunktionaladverb)
+> Der Arzt riet ihm zur Ruhe. ___ arbeitete er weiter. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -930,7 +930,7 @@
 ### 72. `b1-kadv-in-022` · input-text
 
 **Aufgabe:**
-> Die Nachrichten sind alarmierend. ___, bleiben viele ruhig. (Konjunktionaladverb)
+> Die Nachrichten sind alarmierend. ___ bleiben viele ruhig. (Konjunktionaladverb)
 
 **Antwort:** `Dennoch`
 
@@ -940,7 +940,7 @@
 ### 73. `b1-kadv-in-023` · input-text
 
 **Aufgabe:**
-> Er hat Überstunden gemacht. ___, ist er müde. (Konjunktionaladverb)
+> Er hat Überstunden gemacht. ___ ist er müde. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -950,7 +950,7 @@
 ### 74. `b1-kadv-in-024` · input-text
 
 **Aufgabe:**
-> Sie studiert Medizin. ___, jobbt sie nebenbei. (Konjunktionaladverb)
+> Sie studiert Medizin. ___ jobbt sie nebenbei. (Konjunktionaladverb)
 
 **Antwort:** `Außerdem`
 
@@ -960,7 +960,7 @@
 ### 75. `b1-kadv-in-025` · input-text
 
 **Aufgabe:**
-> Das Hotel war laut. ___, haben wir gut geschlafen. (Konjunktionaladverb)
+> Das Hotel war laut. ___ haben wir gut geschlafen. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -970,7 +970,7 @@
 ### 76. `b1-kadv-in-026` · input-text
 
 **Aufgabe:**
-> Die Politik ändert sich. ___, reagieren die Bürger. (Konjunktionaladverb)
+> Die Politik ändert sich. ___ reagieren die Bürger. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -980,7 +980,7 @@
 ### 77. `b1-kadv-in-027` · input-text
 
 **Aufgabe:**
-> Das Essen war teuer. ___, war die Qualität hoch. (Konjunktionaladverb)
+> Das Essen war günstig. ___ war die Qualität hoch. (Konjunktionaladverb)
 
 **Antwort:** `Dennoch`
 
@@ -990,7 +990,7 @@
 ### 78. `b1-kadv-in-028` · input-text
 
 **Aufgabe:**
-> Er spart Energie. ___, senkt er seine Kosten. (Konjunktionaladverb)
+> Er spart Energie. ___ senkt er seine Kosten. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -1000,7 +1000,7 @@
 ### 79. `b1-kadv-in-029` · input-text
 
 **Aufgabe:**
-> Sie hat wenig Erfahrung. ___, bekommt sie die Stelle. (Konjunktionaladverb)
+> Sie hat wenig Erfahrung. ___ bekommt sie die Stelle. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -1010,7 +1010,7 @@
 ### 80. `b1-kadv-in-030` · input-text
 
 **Aufgabe:**
-> Wir brauchen Hilfe. ___, rufen wir einen Experten. (Konjunktionaladverb)
+> Wir brauchen Hilfe. ___ rufen wir einen Experten. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -1020,7 +1020,7 @@
 ### 81. `b1-kadv-in-031` · input-text
 
 **Aufgabe:**
-> Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb)
+> Es regnete den ganzen Tag. ___ sind wir spazieren gegangen. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -1030,7 +1030,7 @@
 ### 82. `b1-kadv-in-032` · input-text
 
 **Aufgabe:**
-> Er hat viel gelernt. ___, hat er die Prüfung bestanden. (Konjunktionaladverb)
+> Er hat viel gelernt. ___ hat er die Prüfung bestanden. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -1040,7 +1040,7 @@
 ### 83. `b1-kadv-in-033` · input-text
 
 **Aufgabe:**
-> Sie spricht fließend Englisch. ___, kann sie auch Französisch. (Konjunktionaladverb)
+> Sie spricht fließend Englisch. ___ kann sie auch Französisch. (Konjunktionaladverb)
 
 **Antwort:** `Außerdem`
 
@@ -1050,7 +1050,7 @@
 ### 84. `b1-kadv-in-034` · input-text
 
 **Aufgabe:**
-> Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb)
+> Das Projekt ist teuer. ___ lohnt es sich. (Konjunktionaladverb)
 
 **Antwort:** `Dennoch`
 
@@ -1060,7 +1060,7 @@
 ### 85. `b1-kadv-in-035` · input-text
 
 **Aufgabe:**
-> Ich war krank. ___, habe ich die Vorlesung verpasst. (Konjunktionaladverb)
+> Ich war krank. ___ habe ich die Vorlesung verpasst. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -1070,7 +1070,7 @@
 ### 86. `b1-kadv-in-036` · input-text
 
 **Aufgabe:**
-> Der Arzt riet zur Ruhe. ___, arbeitet er weiter. (Konjunktionaladverb)
+> Der Arzt riet ihm zur Ruhe. ___ arbeitete er weiter. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -1080,7 +1080,7 @@
 ### 87. `b1-kadv-in-037` · input-text
 
 **Aufgabe:**
-> Die Nachrichten sind alarmierend. ___, bleiben viele ruhig. (Konjunktionaladverb)
+> Die Nachrichten sind alarmierend. ___ bleiben viele ruhig. (Konjunktionaladverb)
 
 **Antwort:** `Dennoch`
 
@@ -1090,7 +1090,7 @@
 ### 88. `b1-kadv-in-038` · input-text
 
 **Aufgabe:**
-> Er hat Überstunden gemacht. ___, ist er müde. (Konjunktionaladverb)
+> Er hat Überstunden gemacht. ___ ist er müde. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -1100,7 +1100,7 @@
 ### 89. `b1-kadv-in-039` · input-text
 
 **Aufgabe:**
-> Sie studiert Medizin. ___, jobbt sie nebenbei. (Konjunktionaladverb)
+> Sie studiert Medizin. ___ jobbt sie nebenbei. (Konjunktionaladverb)
 
 **Antwort:** `Außerdem`
 
@@ -1110,7 +1110,7 @@
 ### 90. `b1-kadv-in-040` · input-text
 
 **Aufgabe:**
-> Das Hotel war laut. ___, haben wir gut geschlafen. (Konjunktionaladverb)
+> Das Hotel war laut. ___ haben wir gut geschlafen. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -1120,7 +1120,7 @@
 ### 91. `b1-kadv-in-041` · input-text
 
 **Aufgabe:**
-> Die Politik ändert sich. ___, reagieren die Bürger. (Konjunktionaladverb)
+> Die Politik ändert sich. ___ reagieren die Bürger. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -1130,7 +1130,7 @@
 ### 92. `b1-kadv-in-042` · input-text
 
 **Aufgabe:**
-> Das Essen war teuer. ___, war die Qualität hoch. (Konjunktionaladverb)
+> Das Essen war günstig. ___ war die Qualität hoch. (Konjunktionaladverb)
 
 **Antwort:** `Dennoch`
 
@@ -1140,7 +1140,7 @@
 ### 93. `b1-kadv-in-043` · input-text
 
 **Aufgabe:**
-> Er spart Energie. ___, senkt er seine Kosten. (Konjunktionaladverb)
+> Er spart Energie. ___ senkt er seine Kosten. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -1150,7 +1150,7 @@
 ### 94. `b1-kadv-in-044` · input-text
 
 **Aufgabe:**
-> Sie hat wenig Erfahrung. ___, bekommt sie die Stelle. (Konjunktionaladverb)
+> Sie hat wenig Erfahrung. ___ bekommt sie die Stelle. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -1160,7 +1160,7 @@
 ### 95. `b1-kadv-in-045` · input-text
 
 **Aufgabe:**
-> Wir brauchen Hilfe. ___, rufen wir einen Experten. (Konjunktionaladverb)
+> Wir brauchen Hilfe. ___ rufen wir einen Experten. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -1170,7 +1170,7 @@
 ### 96. `b1-kadv-in-046` · input-text
 
 **Aufgabe:**
-> Es regnete den ganzen Tag. ___, sind wir spazieren gegangen. (Konjunktionaladverb)
+> Es regnete den ganzen Tag. ___ sind wir spazieren gegangen. (Konjunktionaladverb)
 
 **Antwort:** `Trotzdem`
 
@@ -1180,7 +1180,7 @@
 ### 97. `b1-kadv-in-047` · input-text
 
 **Aufgabe:**
-> Er hat viel gelernt. ___, hat er die Prüfung bestanden. (Konjunktionaladverb)
+> Er hat viel gelernt. ___ hat er die Prüfung bestanden. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 
@@ -1190,7 +1190,7 @@
 ### 98. `b1-kadv-in-048` · input-text
 
 **Aufgabe:**
-> Sie spricht fließend Englisch. ___, kann sie auch Französisch. (Konjunktionaladverb)
+> Sie spricht fließend Englisch. ___ kann sie auch Französisch. (Konjunktionaladverb)
 
 **Antwort:** `Außerdem`
 
@@ -1200,7 +1200,7 @@
 ### 99. `b1-kadv-in-049` · input-text
 
 **Aufgabe:**
-> Das Projekt ist teuer. ___, lohnt es sich. (Konjunktionaladverb)
+> Das Projekt ist teuer. ___ lohnt es sich. (Konjunktionaladverb)
 
 **Antwort:** `Dennoch`
 
@@ -1210,7 +1210,7 @@
 ### 100. `b1-kadv-in-050` · input-text
 
 **Aufgabe:**
-> Ich war krank. ___, habe ich die Vorlesung verpasst. (Konjunktionaladverb)
+> Ich war krank. ___ habe ich die Vorlesung verpasst. (Konjunktionaladverb)
 
 **Antwort:** `Deshalb`
 

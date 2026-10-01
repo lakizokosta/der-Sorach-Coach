@@ -8,7 +8,7 @@ hint: "Wortschatz — finanzielle Unterstützung für Events"
 words:
   - Das
   - Event
-  - sucht
+  - braucht
   - neues
   - Sponsoring
   - .

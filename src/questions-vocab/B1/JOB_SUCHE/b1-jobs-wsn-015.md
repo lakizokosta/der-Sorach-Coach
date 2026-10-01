@@ -4,21 +4,21 @@ type: multi-select
 lemma: Bewerbungsfrist
 set: JOB_SUCHE
 focus: synonym
-replace: Ihre Bewerbungsfrist
+replace: Die Bewerbungsfrist
 hint: "Wortschatz — letzter Tag für die Einreichung"
 options:
-  - Ihre Einsendefrist
-  - Ihr Abgabetermin
-  - Gehalt
-  - Probezeit
-  - Urlaub
+  - Die Einsendefrist
+  - Die Frist für Bewerbungen
+  - Die Probezeit
+  - Der Urlaub
+  - Das Praktikum
 correct:
-  - Ihre Einsendefrist
-  - Ihr Abgabetermin
+  - Die Einsendefrist
+  - Die Frist für Bewerbungen
 ---
 
 Wie würden Sie es noch sagen?
 
-Ihre Bewerbungsfrist endet am 15. März.
+Die Bewerbungsfrist endet am 15. März.
 
-Welche Wörter oder Ausdrücke passen auch statt «Ihre Bewerbungsfrist»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Bewerbungsfrist»? Wählen Sie alle richtigen Antworten.

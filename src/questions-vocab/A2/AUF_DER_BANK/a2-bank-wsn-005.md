@@ -4,21 +4,21 @@ type: multi-select
 lemma: Überweisung
 set: AUF_DER_BANK
 focus: synonym
-replace: Überweisung
+replace: eine Überweisung
 hint: "Wortschatz — Geld senden"
 options:
-  - Geldtransfer
-  - Banküberweisung
-  - Einzahlung
-  - Abhebung
-  - Kontostand
+  - eine Banküberweisung
+  - einen Geldtransfer
+  - eine Einzahlung
+  - eine Abhebung
+  - einen Kauf
 correct:
-  - Geldtransfer
-  - Banküberweisung
+  - eine Banküberweisung
+  - einen Geldtransfer
 ---
 
 Wie würden Sie es noch sagen?
 
 Ich möchte eine Überweisung tätigen.
 
-Welche Wörter oder Ausdrücke passen auch statt «Überweisung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine Überweisung»? Wählen Sie alle richtigen Antworten.

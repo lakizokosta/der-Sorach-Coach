@@ -114,7 +114,7 @@ function looksLikeFiniteVerb(w) {
   // Mid-sentence capitals are nouns/names (Vollzeit, Land), not finite verbs
   if (/^[A-ZÄÖÜ]/.test(raw)) return false;
   // Short strong-past / sein forms
-  if (/^(kam|gab|las|aß|sah|tat|lag|saß|warf|sang|trank|flog|zog|wuchs|schien|blieb|ging|fand|half|rief|seid|warst|wart)$/.test(s)) {
+  if (/^(kam|gab|las|aß|sah|tat|lag|saß|warf|sang|trank|flog|zog|wuchs|schien|blieb|ging|fand|half|rief|seid|warst|wart|bliebe|gäbe|käme|ginge|nähme|ließe|fände|sähe|stünde|läge)$/.test(s)) {
     return true;
   }
   if (s.length < 4) return false;
@@ -153,6 +153,9 @@ function opensWithSubordinateClause(words) {
     return false;
   }
 
+  // Da ist jemand … — Adverb in V2, kein kausales da
+  if (first === 'da' && isMainFinite(second)) return false;
+
   // Als Abgeordneter / Als Kind … — role; Als Maria anrief, … — temporal (≥2 finites)
   if (first === 'als' && second && second[0] === second[0].toUpperCase() && !PERSON.test(second)) {
     let finites = 0;
@@ -184,7 +187,33 @@ function commaAfterV1Subordinate(words) {
 
   // Wenn ihr müde seid, solltet … / Als wir lebten, lernte …
   if (finites.length >= 2) {
+    // Nachdem ich … gelesen hatte, rief … — participle/adjective + aux + HS finite
+    const run = firstAdjacentRun(finites);
+    if (run) {
+      for (let j = run.length - 2; j >= 0; j--) {
+        if (NS_FINAL_AUX.test(lw(words[run[j]]))) return run[j];
+      }
+      return run[0];
+    }
     return finites[0];
+  }
+  return null;
+}
+
+const NS_FINAL_AUX = /^(bin|bist|ist|sind|seid|war|warst|waren|wart|habe|hast|hat|haben|habt|hatte|hattest|hatten|hattet|werde|wirst|wird|werden|werdet|wurde|wurden|kann|kannst|können|könnt|konnte|konnten|muss|musst|müssen|müsst|musste|mussten|will|willst|wollen|wollt|wollte|wollten|soll|sollst|sollen|sollt|sollte|sollten|darf|darfst|dürfen|dürft|durfte|durften|mag|möchte|möchten)$/;
+
+/**
+ * First run of ≥2 consecutive word indices (NS-final verb cluster + HS finite).
+ * @param {number[]} idx
+ * @return {number[]|null}
+ */
+function firstAdjacentRun(idx) {
+  for (let i = 0; i < idx.length - 1; i++) {
+    if (idx[i + 1] !== idx[i] + 1) continue;
+    const run = [idx[i]];
+    let j = i + 1;
+    while (j < idx.length && idx[j] === run[run.length - 1] + 1) run.push(idx[j++]);
+    return run;
   }
   return null;
 }
@@ -280,6 +309,9 @@ export function inferDropboxCommas(words, hint = '', explicit) {
       commas.add(i - 1);
       continue;
     }
+
+    // Kümmerst du dich um die Patienten — Präposition, kein um … zu
+    if (w === 'um' && !ws.slice(i + 1).some((x) => lw(x) === 'zu')) continue;
 
     if (SUBORD_EMBEDDED.has(w) || INDIRECT_Q.has(w)) {
       commas.add(i - 1);

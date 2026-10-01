@@ -814,12 +814,7 @@ export const a2Questions = [
     id: "a2-hobb-dd-012",
     type: "dropbox",
     lemma: "Mannschaftssport",
-    words: [
-      "Fußball",
-      "ist",
-      "Mannschaftssport",
-      "."
-    ],
+    words: ['Fußball', 'ist', 'ein', 'Mannschaftssport', '.'],
     hint: "Wortschatz — Sport mit Team und Mitspielern",
     body: "Ordne die Wörter zum richtigen Satz (Mannschaftssport)."
   },
@@ -1279,7 +1274,7 @@ export const a2Questions = [
     correct: [
       "Konzert"
     ],
-    body: "Vorgeschichte: Ihre Kollegin hat Tickets. Sie hören Live-Musik — kein Training und kein Wandern.\n\nKollegin: Kommen Sie mit zum ___?\nSie: Gern, ich liebe Live-Musik."
+    body: "Vorgeschichte: Ihre Kollegin hat Tickets. Sie hören Live-Musik — kein Training und kein Wandern.\n\nKollegin: Kommen Sie zum ___ mit?\nSie: Gern, ich liebe Live-Musik."
   },
   {
     id: "a2-hobb-tg-004",

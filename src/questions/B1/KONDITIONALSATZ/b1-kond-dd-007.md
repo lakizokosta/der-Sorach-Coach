@@ -6,10 +6,11 @@ words:
   - der
   - Arzt
   - kommt
-  - warten
+  - gehen
   - wir
-  - im
-  - Wartezimmer
+  - ins
+  - Behandlungszimmer
+  - .
 commas:
   - 3
 ---

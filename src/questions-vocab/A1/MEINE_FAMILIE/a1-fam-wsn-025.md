@@ -8,13 +8,13 @@ replace: zusammen
 hint: "Wortschatz — alle am Tisch"
 options:
   - gemeinsam
-  - mit der Familie
+  - miteinander
   - allein
   - getrennt
   - draußen
 correct:
   - gemeinsam
-  - mit der Familie
+  - miteinander
 ---
 
 Wie würdest du es noch sagen?

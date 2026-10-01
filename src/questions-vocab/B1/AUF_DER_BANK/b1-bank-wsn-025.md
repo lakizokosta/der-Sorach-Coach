@@ -8,13 +8,13 @@ replace: Auslandsüberweisung
 hint: "Wortschatz — Zahlung ins Ausland"
 options:
   - internationale Überweisung
-  - SWIFT-Transfer
-  - SEPA-Überweisung
+  - Überweisung ins Ausland
   - Lastschrift
-  - PIN
+  - Bargeldabhebung
+  - Kontoeröffnung
 correct:
   - internationale Überweisung
-  - SWIFT-Transfer
+  - Überweisung ins Ausland
 ---
 
 Wie würden Sie es noch sagen?

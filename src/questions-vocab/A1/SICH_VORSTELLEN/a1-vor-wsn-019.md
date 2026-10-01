@@ -7,14 +7,14 @@ focus: synonym
 replace: ledig
 hint: "Wortschatz — kein Ehepartner"
 options:
-  - alleinstehend
-  - ohne Partner
+  - nicht verheiratet
+  - unverheiratet
   - verheiratet
-  - verwitwet
-  - groß
+  - frisch verheiratet
+  - schon lange verheiratet
 correct:
-  - alleinstehend
-  - ohne Partner
+  - nicht verheiratet
+  - unverheiratet
 ---
 
 Wie würdest du es noch sagen?

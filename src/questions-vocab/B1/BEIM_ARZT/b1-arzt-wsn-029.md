@@ -8,13 +8,13 @@ replace: Rehabilitation
 hint: "Wortschatz — nach Krankheit wieder fit"
 options:
   - Reha
-  - Wiedereingliederung
+  - Kur
   - Impfung
-  - Attest
-  - Termin
+  - Blutabnahme
+  - Röntgenuntersuchung
 correct:
   - Reha
-  - Wiedereingliederung
+  - Kur
 ---
 
 Wie würden Sie es noch sagen?

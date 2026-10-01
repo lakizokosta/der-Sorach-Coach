@@ -4,21 +4,21 @@ type: multi-select
 lemma: Fenster
 set: MEINE_WOHNUNG
 focus: synonym
-replace: Fenster
+replace: Das Fenster
 hint: "Wortschatz — Licht von draußen"
 options:
-  - Fensterfront
-  - Glasfront
-  - Tür
-  - Wand
-  - Decke
+  - Die Fensterfront
+  - Die Glasfront
+  - Die Tür
+  - Die Wand
+  - Die Decke
 correct:
-  - Fensterfront
-  - Glasfront
+  - Die Fensterfront
+  - Die Glasfront
 ---
 
 Wie würdest du es noch sagen?
 
 Das Fenster im Schlafzimmer geht zum Hof.
 
-Welche Wörter oder Ausdrücke passen auch statt «Fenster»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Das Fenster»? Wähle alle richtigen Antworten.

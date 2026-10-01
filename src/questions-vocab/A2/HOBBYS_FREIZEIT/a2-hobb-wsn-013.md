@@ -9,9 +9,9 @@ hint: "Wortschatz — Übungen für Körper und Entspannung"
 options:
   - Entspannungsübungen
   - Körperübungen
-  - Grillen
-  - Konzert
-  - Radtour
+  - Musik
+  - Krafttraining
+  - Kampfsport
 correct:
   - Entspannungsübungen
   - Körperübungen

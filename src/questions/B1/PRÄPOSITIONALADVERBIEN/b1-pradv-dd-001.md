@@ -8,11 +8,13 @@ words:
   - für
   - den
   - Kurs
+  - ?
   - —
   - Ich
   - interessiere
   - mich
   - dafür
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Bescheid
 set: BUEROKRATIE
 focus: synonym
-replace: Bescheid
+replace: Den Bescheid
 hint: "Wortschatz — schriftliche Entscheidung der Behörde"
 options:
-  - Verwaltungsbescheid
-  - Amtlicher Bescheid
-  - Antrag
-  - Formular
-  - Termin
+  - Den Verwaltungsbescheid
+  - Die amtliche Entscheidung
+  - Den Antrag
+  - Das Formular
+  - Die Wartenummer
 correct:
-  - Verwaltungsbescheid
-  - Amtlicher Bescheid
+  - Den Verwaltungsbescheid
+  - Die amtliche Entscheidung
 ---
 
 Wie würden Sie es noch sagen?
 
 Den Bescheid erhalten Sie per Post.
 
-Welche Wörter oder Ausdrücke passen auch statt «Bescheid»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Den Bescheid»? Wählen Sie alle richtigen Antworten.

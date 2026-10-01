@@ -4,21 +4,21 @@ type: multi-select
 lemma: Zustellung
 set: BUEROKRATIE
 focus: synonym
-replace: Zustellung
+replace: Die Zustellung
 hint: "Wortschatz — Übergabe eines Schreibens"
 options:
-  - Postzustellung
-  - Zustellung des Schreibens
-  - Antrag
-  - Termin
-  - Wartenummer
+  - Der Versand
+  - Die Übermittlung
+  - Die Bearbeitung
+  - Die Unterschrift
+  - Die Bezahlung
 correct:
-  - Postzustellung
-  - Zustellung des Schreibens
+  - Der Versand
+  - Die Übermittlung
 ---
 
 Wie würden Sie es noch sagen?
 
 Die Zustellung des Bescheids erfolgt per Post.
 
-Welche Wörter oder Ausdrücke passen auch statt «Zustellung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Zustellung»? Wählen Sie alle richtigen Antworten.

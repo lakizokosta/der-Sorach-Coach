@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kontoauszug
 set: AUF_DER_BANK
 focus: synonym
-replace: Kontoauszug
+replace: einen Kontoauszug
 hint: "Wortschatz — Übersicht der Buchungen"
 options:
-  - Kontobewegungen
-  - Umsatzübersicht
-  - Überweisung
-  - TAN
-  - PIN
+  - eine Kontoübersicht
+  - eine Umsatzübersicht
+  - eine Überweisung
+  - eine Kreditkarte
+  - einen Geldschein
 correct:
-  - Kontobewegungen
-  - Umsatzübersicht
+  - eine Kontoübersicht
+  - eine Umsatzübersicht
 ---
 
 Wie würden Sie es noch sagen?
 
 Möchten Sie einen Kontoauszug ausdrucken?
 
-Welche Wörter oder Ausdrücke passen auch statt «Kontoauszug»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «einen Kontoauszug»? Wählen Sie alle richtigen Antworten.

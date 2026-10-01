@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kontoführung
 set: AUF_DER_BANK
 focus: synonym
-replace: Kontoführung
+replace: Die Kontoführung
 hint: "Wortschatz — Service der Bank fürs Konto"
 options:
-  - Kontoverwaltung
-  - Kontoservice
-  - Abhebung
-  - Gehalt
-  - Miete
+  - Die Kontoverwaltung
+  - Das Konto
+  - Die Abhebung
+  - Das Gehalt
+  - Die Miete
 correct:
-  - Kontoverwaltung
-  - Kontoservice
+  - Die Kontoverwaltung
+  - Das Konto
 ---
 
 Wie würden Sie es noch sagen?
 
 Die Kontoführung kostet 5 Euro im Monat.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kontoführung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Kontoführung»? Wählen Sie alle richtigen Antworten.

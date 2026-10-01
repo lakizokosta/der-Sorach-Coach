@@ -8,13 +8,13 @@ replace: Ihnen einen Bären aufzubinden
 hint: "Redewendung — jemanden bewusst anlügen"
 options:
   - Sie bewusst anzulügen
-  - Ihnen Unwahrheiten aufzutischen
-  - jemandem auf den Zahn fühlen
-  - jemandem ein X für ein U vormachen
-  - die Kuh vom Eis holen
+  - Ihnen eine Lüge zu erzählen
+  - Ihnen die Wahrheit zu sagen
+  - Ihnen ehrlich zu helfen
+  - Sie fair zu beraten
 correct:
   - Sie bewusst anzulügen
-  - Ihnen Unwahrheiten aufzutischen
+  - Ihnen eine Lüge zu erzählen
 ---
 
 Wie würden Sie es noch sagen?

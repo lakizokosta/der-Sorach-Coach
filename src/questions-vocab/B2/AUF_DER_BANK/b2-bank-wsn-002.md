@@ -8,13 +8,13 @@ replace: Valutierung
 hint: "Wortschatz — Buchungsdatum"
 options:
   - Wertstellung
-  - Buchungsvaluta
+  - Valutastellung
   - Kontoauszug
   - PIN
   - TAN
 correct:
   - Wertstellung
-  - Buchungsvaluta
+  - Valutastellung
 ---
 
 Wie würden Sie es noch sagen?

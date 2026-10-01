@@ -11,7 +11,7 @@ options:
   - Auszahlung
   - Einzahlung
   - Überweisung
-  - Kontoauszug
+  - Kontoeröffnung
 correct:
   - Bargeldabhebung
   - Auszahlung

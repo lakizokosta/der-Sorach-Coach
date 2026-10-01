@@ -4,21 +4,21 @@ type: multi-select
 lemma: BIC
 set: AUF_DER_BANK
 focus: synonym
-replace: BIC
+replace: den BIC
 hint: "Wortschatz — Bankleitzahl international"
 options:
-  - SWIFT-Code
-  - Bank-Identifikationscode
-  - IBAN
-  - TAN
-  - PIN
+  - den SWIFT-Code
+  - den Bank-Identifikationscode
+  - die PIN
+  - die TAN
+  - den Kontostand
 correct:
-  - SWIFT-Code
-  - Bank-Identifikationscode
+  - den SWIFT-Code
+  - den Bank-Identifikationscode
 ---
 
 Wie würden Sie es noch sagen?
 
 Für Auslandsüberweisungen brauchen wir auch den BIC.
 
-Welche Wörter oder Ausdrücke passen auch statt «BIC»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «den BIC»? Wählen Sie alle richtigen Antworten.

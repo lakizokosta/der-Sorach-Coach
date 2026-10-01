@@ -6,7 +6,8 @@ words:
   - komme
   - von
   - der
-  - Stadt
+  - Arbeit
+  - .
 ---
 
 [Stadt] Ordne die Wörter zum richtigen Satz: (Dativ — von der Stadt kommen)

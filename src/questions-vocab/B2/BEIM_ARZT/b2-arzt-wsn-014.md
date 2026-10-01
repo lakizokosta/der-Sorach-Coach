@@ -7,14 +7,14 @@ focus: synonym
 replace: Kontraindikation
 hint: "Wortschatz — Grund gegen die Maßnahme"
 options:
-  - Ausschlussgrund
   - Gegenanzeige
+  - Gegenindikation
   - Indikation
   - Verträglichkeit
   - Therapie
 correct:
-  - Ausschlussgrund
   - Gegenanzeige
+  - Gegenindikation
 ---
 
 Wie würden Sie es noch sagen?

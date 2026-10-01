@@ -7,13 +7,13 @@ focus: synonym
 replace: Verwaltungsvorschriften
 hint: "Wortschatz — interne Regeln der Behörde"
 options:
-  - behördliche Vorschriften
+  - behördlichen Vorschriften
   - Verwaltungsanweisungen
   - Antrag
   - Brief
   - Schalter
 correct:
-  - behördliche Vorschriften
+  - behördlichen Vorschriften
   - Verwaltungsanweisungen
 ---
 

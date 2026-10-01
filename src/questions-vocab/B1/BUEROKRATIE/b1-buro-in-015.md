@@ -15,4 +15,4 @@ correct:
 
 Ergänzen Sie:
 
-Mit der ___ können Sie weiter arbeiten.
+Mit der ___ können Sie weiterarbeiten.

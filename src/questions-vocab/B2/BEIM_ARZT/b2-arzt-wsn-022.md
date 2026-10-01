@@ -4,21 +4,21 @@ type: multi-select
 lemma: Konsil
 set: BEIM_ARZT
 focus: synonym
-replace: Konsil
+replace: ein internes Konsil
 hint: "Wortschatz — fachärztliche Rücksprache"
 options:
-  - Fachärztliche Konsultation
-  - Konsiliaruntersuchung
-  - Rezept
-  - Attest
-  - Impfpass
+  - eine interne fachärztliche Konsultation
+  - eine interne Konsiliaruntersuchung
+  - ein Rezept
+  - ein Attest
+  - einen Impfpass
 correct:
-  - Fachärztliche Konsultation
-  - Konsiliaruntersuchung
+  - eine interne fachärztliche Konsultation
+  - eine interne Konsiliaruntersuchung
 ---
 
 Wie würden Sie es noch sagen?
 
 Wir holen ein internes Konsil bei der Kardiologie ein.
 
-Welche Wörter oder Ausdrücke passen auch statt «Konsil»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ein internes Konsil»? Wählen Sie alle richtigen Antworten.

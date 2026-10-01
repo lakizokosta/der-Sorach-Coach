@@ -9,9 +9,9 @@ hint: "Wortschatz — konkretes Angebot einer Firma"
 options:
   - Jobangebot
   - Arbeitsplatzangebot
-  - Lebenslauf
-  - Kündigung
-  - Urlaub
+  - Kündigungsschreiben
+  - Urlaubsgeld
+  - Betriebsfest
 correct:
   - Jobangebot
   - Arbeitsplatzangebot

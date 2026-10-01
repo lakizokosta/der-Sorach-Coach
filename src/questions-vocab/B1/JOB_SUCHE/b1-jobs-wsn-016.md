@@ -8,13 +8,13 @@ replace: die Personalabteilung
 hint: "Wortschatz — Abteilung für Mitarbeiter und Bewerbungen"
 options:
   - die HR-Abteilung
-  - das Personalwesen
-  - Gehalt
-  - Kündigung
-  - Stellenanzeige
+  - das Personalbüro
+  - die Buchhaltung
+  - die Kantine
+  - den Betriebsarzt
 correct:
   - die HR-Abteilung
-  - das Personalwesen
+  - das Personalbüro
 ---
 
 Wie würden Sie es noch sagen?

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Gebühr
 set: AUF_DER_BANK
 focus: synonym
-replace: Gebühr
+replace: eine monatliche Gebühr
 hint: "Wortschatz — Preis für Bankdienst"
 options:
-  - Entgelt
-  - Kosten
-  - Gehalt
-  - Kredit
-  - Zinsen
+  - ein monatliches Entgelt
+  - monatliche Kosten
+  - ein monatliches Gehalt
+  - monatliche Zinsen
+  - eine monatliche Miete
 correct:
-  - Entgelt
-  - Kosten
+  - ein monatliches Entgelt
+  - monatliche Kosten
 ---
 
 Wie würden Sie es noch sagen?
 
-Für die Kontoführung fällt eine monatliche Gebühr an.
+Für die Kontoführung zahlen Sie eine monatliche Gebühr.
 
-Welche Wörter oder Ausdrücke passen auch statt «Gebühr»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine monatliche Gebühr»? Wählen Sie alle richtigen Antworten.

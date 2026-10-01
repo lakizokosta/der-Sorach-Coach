@@ -4,21 +4,21 @@ type: multi-select
 lemma: Enkel
 set: MEINE_FAMILIE
 focus: synonym
-replace: Enkelkind
+replace: ihr Enkelkind
 hint: "Wortschatz — Kind der eigenen Kinder"
 options:
-  - Enkel
-  - Enkelchen
-  - Onkel
-  - Bruder
-  - Cousin
+  - ihren Enkel
+  - ihr Enkelchen
+  - ihren Sohn
+  - ihre Tochter
+  - ihre Nichte
 correct:
-  - Enkel
-  - Enkelchen
+  - ihren Enkel
+  - ihr Enkelchen
 ---
 
 Wie würdest du es noch sagen?
 
 Die Großeltern besuchen ihr Enkelkind.
 
-Welche Wörter oder Ausdrücke passen auch statt «Enkelkind»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ihr Enkelkind»? Wähle alle richtigen Antworten.

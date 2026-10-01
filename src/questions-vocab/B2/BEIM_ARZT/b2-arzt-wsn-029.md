@@ -4,21 +4,21 @@ type: multi-select
 lemma: Differentialdiagnose
 set: BEIM_ARZT
 focus: synonym
-replace: Differentialdiagnose
+replace: Differentialdiagnosen
 hint: "Wortschatz — alternative Erklärungen prüfen"
 options:
-  - DD
   - alternative Diagnosen
-  - Hauptdiagnose
-  - Verordnung
-  - Entlassung
+  - andere mögliche Diagnosen
+  - Hauptdiagnosen
+  - Verordnungen
+  - Entlassungen
 correct:
-  - DD
   - alternative Diagnosen
+  - andere mögliche Diagnosen
 ---
 
 Wie würden Sie es noch sagen?
 
 Wir müssen mehrere Differentialdiagnosen abklären.
 
-Welche Wörter oder Ausdrücke passen auch statt «Differentialdiagnose»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Differentialdiagnosen»? Wählen Sie alle richtigen Antworten.

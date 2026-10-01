@@ -4,21 +4,21 @@ type: multi-select
 lemma: wandern
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: wandern
+replace: wandern wir ... Bergen
 hint: "Wortschatz — zu Fuß in der Natur"
 options:
-  - gehen zu Fuß
-  - unternehmen eine Wanderung
-  - tanzen
-  - kochen
-  - schwimmen
+  - machen wir ... Bergen eine Tour
+  - sind wir ... Bergen zu Fuß unterwegs
+  - tanzen wir ... Bergen
+  - kochen wir ... Bergen
+  - schlafen wir ... Bergen
 correct:
-  - gehen zu Fuß
-  - unternehmen eine Wanderung
+  - machen wir ... Bergen eine Tour
+  - sind wir ... Bergen zu Fuß unterwegs
 ---
 
 Wie würdest du es noch sagen?
 
 Am Wochenende wandern wir in den Bergen.
 
-Welche Wörter oder Ausdrücke passen auch statt «wandern»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «wandern wir ... Bergen»? Wähle alle richtigen Antworten.

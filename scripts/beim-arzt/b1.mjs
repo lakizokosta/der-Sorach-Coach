@@ -426,7 +426,7 @@ export const b1Questions = [
     id: 'b1-arzt-dd-009',
     type: 'dropbox',
     lemma: 'Röntgen',
-    words: ['Wir', 'machen', 'ein', 'Röntgen', 'von', 'der', 'Lunge', '.'],
+    words: ['Wir', 'machen', 'ein', 'Röntgenbild', 'von', 'der', 'Lunge', '.'],
     body: 'Ordne die Wörter zum richtigen Satz (Diagnostik).',
   },
   {

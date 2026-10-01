@@ -10,8 +10,8 @@ options:
   - Fantasie
   - Einfallsreichtum
   - Langeweile
-  - Turnier
-  - Mitgliedschaft
+  - Ungeduld
+  - Nervosität
 correct:
   - Fantasie
   - Einfallsreichtum

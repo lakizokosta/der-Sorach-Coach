@@ -8,13 +8,13 @@ replace: auf großem Fuß leben
 hint: "Redewendung — im Luxus und ohne Sparzwang leben"
 options:
   - im Luxus leben
-  - großzügig ausgeben
-  - in den sauren Apfel beißen
-  - die Flinte ins Korn werfen
-  - auf die lange Bank schieben
+  - viel Geld ausgeben
+  - sparsam leben
+  - kaum seine Miete zahlen
+  - bescheiden leben
 correct:
   - im Luxus leben
-  - großzügig ausgeben
+  - viel Geld ausgeben
 ---
 
 Wie würden Sie es noch sagen?

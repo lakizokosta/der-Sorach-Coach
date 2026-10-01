@@ -7,14 +7,14 @@ focus: synonym
 replace: einen Kater
 hint: "Redewendung — Bild mit Katze nach der Feier"
 options:
-  - einen Hangover haben
-  - Kopfschmerzen am Morgen danach
-  - Auf Wolke sieben schweben
-  - Einen Ohrwurm haben
-  - Schwein haben
+  - einen Brummschädel
+  - einen schweren Kopf
+  - einen Ohrwurm
+  - einen Korb
+  - Schwein
 correct:
-  - einen Hangover haben
-  - Kopfschmerzen am Morgen danach
+  - einen Brummschädel
+  - einen schweren Kopf
 ---
 
 Wie würden Sie es noch sagen?

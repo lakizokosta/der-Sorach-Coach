@@ -7,14 +7,14 @@ focus: synonym
 replace: einen Ohrwurm
 hint: "Redewendung — Bild mit Ohr und Melodie"
 options:
-  - ein Lied im Kopf haben
-  - eine Melodie nicht loswerden
-  - Einen Kater haben
-  - Auf Wolke sieben schweben
-  - Einen Korb bekommen
+  - eine Melodie im Kopf
+  - ein Lied im Ohr
+  - einen Kater
+  - einen Korb
+  - Tomaten auf den Augen
 correct:
-  - ein Lied im Kopf haben
-  - eine Melodie nicht loswerden
+  - eine Melodie im Kopf
+  - ein Lied im Ohr
 ---
 
 Wie würden Sie es noch sagen?

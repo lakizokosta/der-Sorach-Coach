@@ -10,7 +10,7 @@ words:
   - hilft
   - mir
   - den
-  - Alltag
+  - Alltagsstress
   - auszugleichen
   - .
 ---

@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit Eisschicht und erstem Wort"
 options:
   - Kontakt herstellen
   - die Spannung lösen
-  - Alles unter einen Hut bringen
-  - Etwas durch die Blume sagen
-  - Den Faden verlieren
+  - alles unter einen Hut bringen
+  - etwas durch die Blume sagen
+  - den Faden verlieren
 correct:
   - Kontakt herstellen
   - die Spannung lösen

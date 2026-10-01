@@ -9,9 +9,9 @@ hint: "Wortschatz — am Ende zum Tragen"
 options:
   - Einkaufstüte
   - Tragetasche
+  - Rechnung
   - Kasse
-  - Regal
-  - Bon
+  - Waage
 correct:
   - Einkaufstüte
   - Tragetasche

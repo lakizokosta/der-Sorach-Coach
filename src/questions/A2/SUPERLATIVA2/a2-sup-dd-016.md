@@ -6,7 +6,9 @@ words:
   - schönsten
   - finde
   - ich
+  - den
   - Frühling
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Superlativ — schön)

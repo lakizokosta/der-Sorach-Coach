@@ -7,14 +7,14 @@ focus: synonym
 replace: Liebe geht durch den Magen
 hint: "Redewendung — Bild mit Teller und Herz"
 options:
-  - gutes Essen stärkt die Zuneigung
-  - über den Magen erreicht man Herzen
-  - Auf Wolke sieben schweben
-  - Einen Kater haben
-  - Tomaten auf den Augen haben
+  - Gutes Essen stärkt die Zuneigung
+  - Über den Magen gewinnt man das Herz
+  - Eigenlob stinkt
+  - Da ist der Wurm drin
+  - Man hat Tomaten auf den Augen
 correct:
-  - gutes Essen stärkt die Zuneigung
-  - über den Magen erreicht man Herzen
+  - Gutes Essen stärkt die Zuneigung
+  - Über den Magen gewinnt man das Herz
 ---
 
 Wie würden Sie es noch sagen?

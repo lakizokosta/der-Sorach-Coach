@@ -4,21 +4,21 @@ type: multi-select
 lemma: Interesse
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Interesse
+replace: großes Interesse
 hint: "Wortschatz — Neugier für ein Thema oder eine Aktivität"
 options:
-  - Neigung
-  - Begeisterung
-  - Langeweile
-  - Konzert
-  - Grillen
+  - große Begeisterung
+  - große Leidenschaft
+  - keine Zeit
+  - wenig Geld
+  - kein Talent
 correct:
-  - Neigung
-  - Begeisterung
+  - große Begeisterung
+  - große Leidenschaft
 ---
 
 Wie würden Sie es noch sagen?
 
-Für Fotografie habe ich großes Interesse.
+Für Fotografie haben Sie großes Interesse.
 
-Welche Wörter oder Ausdrücke passen auch statt «Interesse»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «großes Interesse»? Wählen Sie alle richtigen Antworten.

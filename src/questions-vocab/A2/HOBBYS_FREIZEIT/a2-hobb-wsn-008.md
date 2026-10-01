@@ -7,18 +7,18 @@ focus: synonym
 replace: Klavier
 hint: "Wortschatz — großes"
 options:
-  - Tasteninstrument
-  - Flügel
-  - Volleyball
-  - Grillen
-  - Radtour
+  - Piano
+  - ein Tasteninstrument
+  - Fußball
+  - Schach
+  - Karten
 correct:
-  - Tasteninstrument
-  - Flügel
+  - Piano
+  - ein Tasteninstrument
 ---
 
 Wie würden Sie es noch sagen?
 
-Seit Kindheit spielen Sie Klavier.
+Seit Ihrer Kindheit spielen Sie Klavier.
 
 Welche Wörter oder Ausdrücke passen auch statt «Klavier»? Wählen Sie alle richtigen Antworten.

@@ -6,10 +6,11 @@ words:
   - Nachrichten
   - sind
   - alarmierend
-  - Dennoch
+  - dennoch
   - bleiben
   - viele
   - ruhig
+  - .
 commas:
   - 3
 ---

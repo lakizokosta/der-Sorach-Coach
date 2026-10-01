@@ -7,14 +7,14 @@ focus: synonym
 replace: Zustellung
 hint: "Wortschatz — offizielle Übergabe eines Bescheids"
 options:
-  - Amtliche Zustellung
-  - Zustellung per Post
-  - Antrag
-  - Termin
-  - Formular
+  - Übermittlung
+  - Aushändigung
+  - Übersetzung
+  - Kopie
+  - Ablehnung
 correct:
-  - Amtliche Zustellung
-  - Zustellung per Post
+  - Übermittlung
+  - Aushändigung
 ---
 
 Wie würden Sie es noch sagen?

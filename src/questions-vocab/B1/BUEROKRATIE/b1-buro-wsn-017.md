@@ -9,9 +9,9 @@ hint: "Wortschatz — feste Zeit für ein Gespräch"
 options:
   - Terminbuchung
   - Vereinbarung eines Termins
-  - Formular
-  - Brief
-  - Schalter
+  - Unterschrift
+  - Wartezeit
+  - Beglaubigung
 correct:
   - Terminbuchung
   - Vereinbarung eines Termins

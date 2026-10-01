@@ -4,21 +4,21 @@ type: multi-select
 lemma: Etwas an den Nagel hängen
 set: REDEWENDUNGEN
 focus: synonym
-replace: an den Nagel hängen
+replace: das Training an den Nagel hängen
 hint: "Redewendung — Bild mit Nagel und aufgehängtem Ding"
 options:
-  - etwas aufgeben
-  - damit aufhören
-  - Den Faden verlieren
-  - Den Gürtel enger schnallen
-  - Das Eis brechen
+  - das Training aufgeben
+  - mit dem Training aufhören
+  - das Training unter einen Hut bringen
+  - beim Training den Faden verlieren
+  - beim Training das Eis brechen
 correct:
-  - etwas aufgeben
-  - damit aufhören
+  - das Training aufgeben
+  - mit dem Training aufhören
 ---
 
 Wie würden Sie es noch sagen?
 
 Aus gesundheitlichen Gründen müssen Sie das Training an den Nagel hängen.
 
-Welche Wörter oder Ausdrücke passen auch statt «an den Nagel hängen»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «das Training an den Nagel hängen»? Wählen Sie alle richtigen Antworten.

@@ -9,9 +9,9 @@ hint: "Wortschatz — Dokument für den legalen Aufenthalt"
 options:
   - Ihre Aufenthaltserlaubnis
   - Ihr Aufenthaltsdokument
-  - Antrag
-  - Brief
-  - Schalter
+  - Ihren Antrag
+  - Ihre Wartenummer
+  - Ihren Führerschein
 correct:
   - Ihre Aufenthaltserlaubnis
   - Ihr Aufenthaltsdokument

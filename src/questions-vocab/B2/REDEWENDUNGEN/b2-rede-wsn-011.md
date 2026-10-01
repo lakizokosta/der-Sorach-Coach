@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit zugedrücktem Auge"
 options:
   - etwas tolerieren
   - etwas ignorieren
-  - Eins auf den Deckel bekommen
-  - Das Haar in der Suppe suchen
-  - Jemanden auf die Palme bringen
+  - eins auf den Deckel bekommen
+  - das Haar in der Suppe suchen
+  - jemanden auf die Palme bringen
 correct:
   - etwas tolerieren
   - etwas ignorieren

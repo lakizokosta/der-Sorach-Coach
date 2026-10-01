@@ -4,21 +4,21 @@ type: multi-select
 lemma: Freizeitverhalten
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Freizeitverhalten
+replace: das Freizeitverhalten
 hint: "Wortschatz — wie Menschen ihre Freizeit nutzen"
 options:
-  - Freizeitgewohnheiten
-  - Umgang mit freier Zeit
-  - Sponsoring
-  - Wettkampf
-  - Langeweile
+  - die Freizeitgewohnheiten
+  - den Umgang mit freier Zeit
+  - das Sponsoring
+  - den Wettkampf
+  - die Langeweile
 correct:
-  - Freizeitgewohnheiten
-  - Umgang mit freier Zeit
+  - die Freizeitgewohnheiten
+  - den Umgang mit freier Zeit
 ---
 
 Wie würden Sie es noch sagen?
 
 In der Studie analysieren Sie das Freizeitverhalten der Teilnehmer.
 
-Welche Wörter oder Ausdrücke passen auch statt «Freizeitverhalten»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «das Freizeitverhalten»? Wählen Sie alle richtigen Antworten.

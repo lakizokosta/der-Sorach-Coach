@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, Ina die Küche betrat, hatte Leo schon gekocht.
+___ Ina die Küche betrat, hatte Leo schon gekocht.

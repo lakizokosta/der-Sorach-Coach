@@ -7,14 +7,14 @@ focus: synonym
 replace: einen Korb bekommen
 hint: "Redewendung — Bild mit Korb als Absage"
 options:
-  - abgelehnt werden
   - eine Absage erhalten
-  - Eine Extrawurst bekommen
-  - Eins auf den Deckel bekommen
-  - Die halbe Miete sein
+  - eine Abfuhr bekommen
+  - eine Extrawurst bekommen
+  - eins auf den Deckel bekommen
+  - Schwein gehabt
 correct:
-  - abgelehnt werden
   - eine Absage erhalten
+  - eine Abfuhr bekommen
 ---
 
 Wie würden Sie es noch sagen?

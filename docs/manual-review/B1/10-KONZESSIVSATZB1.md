@@ -172,7 +172,7 @@
 ### 12. `b1-konz-011` · select-one
 
 **Aufgabe:**
-> ___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz)
+> ___ die Politik umstritten ist, schweigen viele Menschen. (Konzessivsatz)
 
 **Optionen:**
 - Deshalb
@@ -382,7 +382,7 @@
 ### 27. `b1-konz-026` · select-one
 
 **Aufgabe:**
-> ___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz)
+> ___ die Politik umstritten ist, schweigen viele Menschen. (Konzessivsatz)
 
 **Optionen:**
 - Weil
@@ -592,7 +592,7 @@
 ### 42. `b1-konz-041` · select-one
 
 **Aufgabe:**
-> ___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz)
+> ___ die Politik umstritten ist, schweigen viele Menschen. (Konzessivsatz)
 
 **Optionen:**
 - Deshalb
@@ -834,7 +834,7 @@
 ### 62. `b1-konz-in-011` · input-text
 
 **Aufgabe:**
-> ___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz)
+> ___ die Politik umstritten ist, schweigen viele Menschen. (Konzessivsatz)
 
 **Antwort:** `Obwohl`
 
@@ -984,7 +984,7 @@
 ### 77. `b1-konz-in-026` · input-text
 
 **Aufgabe:**
-> ___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz)
+> ___ die Politik umstritten ist, schweigen viele Menschen. (Konzessivsatz)
 
 **Antwort:** `Obwohl`
 
@@ -1134,7 +1134,7 @@
 ### 92. `b1-konz-in-041` · input-text
 
 **Aufgabe:**
-> ___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz)
+> ___ die Politik umstritten ist, schweigen viele Menschen. (Konzessivsatz)
 
 **Antwort:** `Obwohl`
 

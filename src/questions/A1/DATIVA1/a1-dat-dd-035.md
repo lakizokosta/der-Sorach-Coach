@@ -6,6 +6,8 @@ words:
   - kaufe
   - im
   - Geschäft
+  - ein
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Dativ — in dem Geschäft kaufen)

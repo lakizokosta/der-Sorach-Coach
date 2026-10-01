@@ -9,9 +9,9 @@ hint: "Wortschatz — Inserat für eine offene Position"
 options:
   - eine Jobanzeige
   - ein Stelleninserat
-  - Lebenslauf
-  - Gehalt
-  - Kündigung
+  - einen Lebenslauf
+  - eine Kündigung
+  - ein Zeugnis
 correct:
   - eine Jobanzeige
   - ein Stelleninserat

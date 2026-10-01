@@ -4,21 +4,21 @@ type: multi-select
 lemma: Währung
 set: AUF_DER_BANK
 focus: synonym
-replace: Währung
+replace: in eine andere Währung
 hint: "Wortschatz — Euro, Dollar …"
 options:
-  - Geldwährung
-  - Zahlungsmittel
-  - Gebühr
-  - Kredit
-  - PIN
+  - in Devisen
+  - in ausländisches Geld
+  - in Gold
+  - in Aktien
+  - in Wertpapiere
 correct:
-  - Geldwährung
-  - Zahlungsmittel
+  - in Devisen
+  - in ausländisches Geld
 ---
 
 Wie würden Sie es noch sagen?
 
-In welcher Währung soll die Überweisung erfolgen?
+Vor der Reise tauschen Sie Euro in eine andere Währung um.
 
-Welche Wörter oder Ausdrücke passen auch statt «Währung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «in eine andere Währung»? Wählen Sie alle richtigen Antworten.

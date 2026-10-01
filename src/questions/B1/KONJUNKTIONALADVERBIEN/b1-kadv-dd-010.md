@@ -6,11 +6,12 @@ words:
   - Hotel
   - war
   - laut
-  - Trotzdem
+  - trotzdem
   - haben
   - wir
   - gut
   - geschlafen
+  - .
 commas:
   - 3
 ---

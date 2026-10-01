@@ -9,9 +9,9 @@ hint: "Wortschatz — Bankgeschäfte im Internet"
 options:
   - Internetbanking
   - E-Banking
-  - Schalter
-  - Geldautomat
-  - Filiale
+  - Post
+  - Telefon
+  - Fax
 correct:
   - Internetbanking
   - E-Banking

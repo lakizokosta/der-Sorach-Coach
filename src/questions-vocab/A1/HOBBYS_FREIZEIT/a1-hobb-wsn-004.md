@@ -7,14 +7,14 @@ focus: synonym
 replace: Musik
 hint: "Wortschatz — hören, singen, Instrumente"
 options:
-  - Töne
   - Melodien
-  - Sport
-  - Film
-  - Langeweile
+  - Lieder
+  - Filme
+  - Bücher
+  - Spiele
 correct:
-  - Töne
   - Melodien
+  - Lieder
 ---
 
 Wie würdest du es noch sagen?

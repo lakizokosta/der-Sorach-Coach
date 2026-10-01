@@ -4,21 +4,21 @@ type: multi-select
 lemma: Allergie
 set: BEIM_ARZT
 focus: synonym
-replace: Allergie
+replace: Allergien
 hint: "Wortschatz — Reaktion auf Medikament"
 options:
-  - Medikamentenallergie
-  - Unverträglichkeit
-  - Impfung
-  - Fieber
-  - Husten
+  - Unverträglichkeiten
+  - Überempfindlichkeiten
+  - Rezepte
+  - Impfungen
+  - Überweisungen
 correct:
-  - Medikamentenallergie
-  - Unverträglichkeit
+  - Unverträglichkeiten
+  - Überempfindlichkeiten
 ---
 
 Wie würden Sie es noch sagen?
 
 Haben Sie Allergien gegen bestimmte Medikamente?
 
-Welche Wörter oder Ausdrücke passen auch statt «Allergie»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Allergien»? Wählen Sie alle richtigen Antworten.

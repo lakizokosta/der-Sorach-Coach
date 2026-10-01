@@ -7,14 +7,14 @@ focus: synonym
 replace: krank
 hint: "Wortschatz — nicht gesund"
 options:
-  - unwohl
   - erkrankt
+  - nicht gesund
   - gesund
   - fit
-  - müde
+  - fröhlich
 correct:
-  - unwohl
   - erkrankt
+  - nicht gesund
 ---
 
 Wie würden Sie es noch sagen?

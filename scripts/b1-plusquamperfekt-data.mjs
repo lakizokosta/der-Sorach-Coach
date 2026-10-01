@@ -64,7 +64,7 @@ const ITEMS = [
   },
   {
     signal: 'nachdem', focus: 'conj',
-    gap: '___, Paul angerufen hatte, antwortete Maria sofort.',
+    gap: '___ Paul angerufen hatte, antwortete Maria sofort.',
     correct: 'Nachdem', pool: CONJ_DIST,
     hint: 'Konjunktion — Vorzeitigkeit',
     words: ['Nachdem', 'Paul', 'angerufen', 'hatte', 'antwortete', 'Maria', 'sofort'],
@@ -96,7 +96,7 @@ const ITEMS = [
   },
   {
     signal: 'nachdem', focus: 'conj',
-    gap: '___, Nora eingecheckt hatte, ging sie zum Gate.',
+    gap: '___ Nora eingecheckt hatte, ging sie zum Gate.',
     correct: 'Nachdem', pool: CONJ_DIST,
     hint: 'Konjunktion — Vorzeitigkeit',
     words: ['Nachdem', 'Nora', 'eingecheckt', 'hatte', 'ging', 'sie', 'zum', 'Gate'],
@@ -128,7 +128,7 @@ const ITEMS = [
   },
   {
     signal: 'nachdem', focus: 'conj',
-    gap: '___, unser Team trainiert hatte, startete das Finale.',
+    gap: '___ unser Team trainiert hatte, startete das Finale.',
     correct: 'Nachdem', pool: CONJ_DIST,
     hint: 'Konjunktion — Vorzeitigkeit',
     words: ['Nachdem', 'unser', 'Team', 'trainiert', 'hatte', 'startete', 'das', 'Finale'],
@@ -144,10 +144,10 @@ const ITEMS = [
   },
   {
     signal: 'nachdem', focus: 'aux',
-    gap: 'Nachdem die Kinder eingeschlafen ___, las der Vater vor.',
+    gap: 'Nachdem die Kinder eingeschlafen ___, las der Vater ein Buch.',
     correct: 'waren', pool: ['sind', 'hatten', 'war', 'haben'],
     hint: 'Plusquamperfekt — sein Pl.',
-    words: ['Nachdem', 'die', 'Kinder', 'eingeschlafen', 'waren', 'las', 'der', 'Vater', 'vor'],
+    words: ['Nachdem', 'die', 'Kinder', 'eingeschlafen', 'waren', 'las', 'der', 'Vater', 'ein', 'Buch'],
     commaAfter: 4,
   },
   {
@@ -160,7 +160,7 @@ const ITEMS = [
   },
   {
     signal: 'nachdem', focus: 'conj',
-    gap: '___, Nina umgezogen war, richtete sie die Wohnung ein.',
+    gap: '___ Nina umgezogen war, richtete sie die Wohnung ein.',
     correct: 'Nachdem', pool: CONJ_DIST,
     hint: 'Konjunktion — Vorzeitigkeit',
     words: ['Nachdem', 'Nina', 'umgezogen', 'war', 'richtete', 'sie', 'die', 'Wohnung', 'ein'],
@@ -202,7 +202,7 @@ const ITEMS = [
   },
   {
     signal: 'bevor', focus: 'conj',
-    gap: '___, Markus eintrat, hatte Sara bereits gedeckt.',
+    gap: '___ Markus eintrat, hatte Sara bereits gedeckt.',
     correct: 'Bevor', pool: CONJ_DIST,
     hint: 'Konjunktion — bevor',
     words: ['Bevor', 'Markus', 'eintrat', 'hatte', 'Sara', 'bereits', 'gedeckt'],
@@ -226,7 +226,7 @@ const ITEMS = [
   },
   {
     signal: 'bevor', focus: 'conj',
-    gap: '___, das Meeting startete, hatte Jan die Folien geprüft.',
+    gap: '___ das Meeting startete, hatte Jan die Folien geprüft.',
     correct: 'Bevor', pool: CONJ_DIST,
     hint: 'Konjunktion — bevor',
     words: ['Bevor', 'das', 'Meeting', 'startete', 'hatte', 'Jan', 'die', 'Folien', 'geprüft'],
@@ -250,7 +250,7 @@ const ITEMS = [
   },
   {
     signal: 'bevor', focus: 'conj',
-    gap: '___, der Zug abfuhr, hatte Lea ihr Gepäck verstaut.',
+    gap: '___ der Zug abfuhr, hatte Lea ihr Gepäck verstaut.',
     correct: 'Bevor', pool: CONJ_DIST,
     hint: 'Konjunktion — bevor',
     words: ['Bevor', 'der', 'Zug', 'abfuhr', 'hatte', 'Lea', 'ihr', 'Gepäck', 'verstaut'],
@@ -274,7 +274,7 @@ const ITEMS = [
   },
   {
     signal: 'bevor', focus: 'conj',
-    gap: '___, Clara telefonierte, hatte sie die Notizen gemacht.',
+    gap: '___ Clara telefonierte, hatte sie die Notizen gemacht.',
     correct: 'Bevor', pool: CONJ_DIST,
     hint: 'Konjunktion — bevor',
     words: ['Bevor', 'Clara', 'telefonierte', 'hatte', 'sie', 'die', 'Notizen', 'gemacht'],
@@ -298,7 +298,7 @@ const ITEMS = [
   },
   {
     signal: 'bevor', focus: 'conj',
-    gap: '___, Felix kündigte, hatte er schon eine neue Stelle gefunden.',
+    gap: '___ Felix kündigte, hatte er schon eine neue Stelle gefunden.',
     correct: 'Bevor', pool: CONJ_DIST,
     hint: 'Konjunktion — bevor',
     words: ['Bevor', 'Felix', 'kündigte', 'hatte', 'er', 'schon', 'eine', 'neue', 'Stelle', 'gefunden'],
@@ -316,15 +316,15 @@ const ITEMS = [
   // —— als + Plusquamperfekt (15) ——
   {
     signal: 'als', focus: 'aux',
-    gap: 'Als Maria anrief, ___ Tom schon geantwortet.',
+    gap: 'Als Maria anrief, ___ Tom schon gegessen.',
     correct: 'hatte', pool: ['hat', 'war', 'ist', 'haben'],
     hint: 'Plusquamperfekt — Vorzeitigkeit',
-    words: ['Als', 'Maria', 'anrief', 'hatte', 'Tom', 'schon', 'geantwortet'],
+    words: ['Als', 'Maria', 'anrief', 'hatte', 'Tom', 'schon', 'gegessen'],
     commaAfter: 2,
   },
   {
     signal: 'als', focus: 'conj',
-    gap: '___, Julia kam, hatte Boris bereits bestellt.',
+    gap: '___ Julia kam, hatte Boris bereits bestellt.',
     correct: 'Als', pool: CONJ_DIST,
     hint: 'Konjunktion — als (Vergangenheit)',
     words: ['Als', 'Julia', 'kam', 'hatte', 'Boris', 'bereits', 'bestellt'],
@@ -348,7 +348,7 @@ const ITEMS = [
   },
   {
     signal: 'als', focus: 'conj',
-    gap: '___, David eintrat, hatte jemand die Lichter ausgeschaltet.',
+    gap: '___ David eintrat, hatte jemand die Lichter ausgeschaltet.',
     correct: 'Als', pool: CONJ_DIST,
     hint: 'Konjunktion — als',
     words: ['Als', 'David', 'eintrat', 'hatte', 'jemand', 'die', 'Lichter', 'ausgeschaltet'],
@@ -372,7 +372,7 @@ const ITEMS = [
   },
   {
     signal: 'als', focus: 'conj',
-    gap: '___, Ina die Küche betrat, hatte Leo schon gekocht.',
+    gap: '___ Ina die Küche betrat, hatte Leo schon gekocht.',
     correct: 'Als', pool: CONJ_DIST,
     hint: 'Konjunktion — als',
     words: ['Als', 'Ina', 'die', 'Küche', 'betrat', 'hatte', 'Leo', 'schon', 'gekocht'],
@@ -396,7 +396,7 @@ const ITEMS = [
   },
   {
     signal: 'als', focus: 'conj',
-    gap: '___, die Sonne aufging, waren alle Wanderer schon aufgebrochen.',
+    gap: '___ die Sonne aufging, waren alle Wanderer schon aufgebrochen.',
     correct: 'Als', pool: CONJ_DIST,
     hint: 'Konjunktion — als',
     words: ['Als', 'die', 'Sonne', 'aufging', 'waren', 'alle', 'Wanderer', 'schon', 'aufgebrochen'],
@@ -420,7 +420,7 @@ const ITEMS = [
   },
   {
     signal: 'als', focus: 'conj',
-    gap: '___, die Nachricht kam, hatte unsere Firma schon reagiert.',
+    gap: '___ die Nachricht kam, hatte unsere Firma schon reagiert.',
     correct: 'Als', pool: CONJ_DIST,
     hint: 'Konjunktion — als',
     words: ['Als', 'die', 'Nachricht', 'kam', 'hatte', 'unsere', 'Firma', 'schon', 'reagiert'],

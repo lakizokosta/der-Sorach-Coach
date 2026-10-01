@@ -4,7 +4,8 @@ type: dropbox
 words:
   - Wir
   - wollen
-  - Prüfungen
+  - die
+  - Prüfung
   - schaffen
 ---
 

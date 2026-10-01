@@ -10,8 +10,8 @@ options:
   - Legitimationsprüfung
   - Ausweiskontrolle
   - Abhebung
-  - PIN
-  - Zinsen
+  - Gutschrift
+  - Zinszahlung
 correct:
   - Legitimationsprüfung
   - Ausweiskontrolle

@@ -8,13 +8,13 @@ replace: Probe
 hint: "Wortschatz — gemeinsames Üben vor einer Aufführung"
 options:
   - Übungsstunde
-  - Generalprobe
-  - Turnier
-  - Volleyball
-  - Joggen
+  - Singstunde
+  - Konzert
+  - Pause
+  - Vorstandssitzung
 correct:
   - Übungsstunde
-  - Generalprobe
+  - Singstunde
 ---
 
 Wie würden Sie es noch sagen?

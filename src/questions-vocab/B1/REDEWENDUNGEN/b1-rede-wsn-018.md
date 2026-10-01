@@ -7,14 +7,14 @@ focus: synonym
 replace: sich zum Affen zu machen
 hint: "Redewendung — Bild mit Affe vor Publikum"
 options:
-  - peinlich wirken
-  - lächerlich wirken
-  - den Hut in den Ring werfen
-  - mit allen Wassern gewaschen sein
-  - die Kuh vom Eis holen
+  - sich lächerlich zu machen
+  - peinlich zu wirken
+  - sehr witzig zu wirken
+  - Applaus zu bekommen
+  - Sympathie zu gewinnen
 correct:
-  - peinlich wirken
-  - lächerlich wirken
+  - sich lächerlich zu machen
+  - peinlich zu wirken
 ---
 
 Wie würden Sie es noch sagen?

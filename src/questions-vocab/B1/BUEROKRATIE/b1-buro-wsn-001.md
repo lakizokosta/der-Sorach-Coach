@@ -4,21 +4,21 @@ type: multi-select
 lemma: Ausländerbehörde
 set: BUEROKRATIE
 focus: synonym
-replace: Ausländerbehörde
+replace: an die Ausländerbehörde
 hint: "Wortschatz — Amt für Aufenthaltstitel"
 options:
-  - Ausländeramt
-  - Behörde für Aufenthalt
-  - Bürgeramt
-  - Formular
-  - Gebühr
+  - an das Ausländeramt
+  - an das Amt für Migration
+  - an das Finanzamt
+  - an das Standesamt
+  - an die Kfz-Zulassungsstelle
 correct:
-  - Ausländeramt
-  - Behörde für Aufenthalt
+  - an das Ausländeramt
+  - an das Amt für Migration
 ---
 
 Wie würden Sie es noch sagen?
 
 Für die Verlängerung wenden Sie sich an die Ausländerbehörde.
 
-Welche Wörter oder Ausdrücke passen auch statt «Ausländerbehörde»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «an die Ausländerbehörde»? Wählen Sie alle richtigen Antworten.

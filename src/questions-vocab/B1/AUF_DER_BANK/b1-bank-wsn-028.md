@@ -9,9 +9,9 @@ hint: "Wortschatz — Geld in Minuten"
 options:
   - Sofortüberweisung
   - Express-Überweisung
-  - Dauerauftrag
   - Lastschrift
-  - PIN
+  - Standardüberweisung
+  - Scheckeinreichung
 correct:
   - Sofortüberweisung
   - Express-Überweisung

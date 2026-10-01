@@ -4,21 +4,21 @@ type: multi-select
 lemma: Arbeitszeit
 set: JOB_SUCHE
 focus: synonym
-replace: Arbeitszeit
+replace: Ihre Arbeitszeit
 hint: "Wortschatz — Stunden, die man täglich arbeitet"
 options:
-  - Wochenarbeitszeit
-  - Dienstzeit
-  - Urlaub
-  - Gehalt
-  - Bewerbung
+  - Ihre Wochenarbeitszeit
+  - Ihre Dienstzeit
+  - Ihr Urlaub
+  - Ihre Mittagspause
+  - Ihre Probezeit
 correct:
-  - Wochenarbeitszeit
-  - Dienstzeit
+  - Ihre Wochenarbeitszeit
+  - Ihre Dienstzeit
 ---
 
 Wie würden Sie es noch sagen?
 
-Ihre Arbeitszeit beträgt 38 Stunden pro Woche.
+Ihre Arbeitszeit beträgt 38 Stunden.
 
-Welche Wörter oder Ausdrücke passen auch statt «Arbeitszeit»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre Arbeitszeit»? Wählen Sie alle richtigen Antworten.

@@ -7,18 +7,18 @@ focus: synonym
 replace: Diagnose
 hint: "Wortschatz — festgestellte Erkrankung"
 options:
-  - Krankheitsbild
-  - Erkrankungsfeststellung
+  - Diagnosestellung
+  - Krankheitsbestimmung
   - Anamnese
   - Nachsorge
   - Entlassung
 correct:
-  - Krankheitsbild
-  - Erkrankungsfeststellung
+  - Diagnosestellung
+  - Krankheitsbestimmung
 ---
 
 Wie würden Sie es noch sagen?
 
-Nach Abschluss der Tests stellen wir die Diagnose.
+Nach Abschluss der Tests erfolgt die Diagnose.
 
 Welche Wörter oder Ausdrücke passen auch statt «Diagnose»? Wählen Sie alle richtigen Antworten.

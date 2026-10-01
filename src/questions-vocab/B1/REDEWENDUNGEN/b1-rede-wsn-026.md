@@ -4,21 +4,21 @@ type: multi-select
 lemma: ins Gras beißen
 set: REDEWENDUNGEN
 focus: synonym
-replace: ins Gras beißen
+replace: hat ... ins Gras gebissen
 hint: "Redewendung — Bild mit Gras und kaputtem Motor"
 options:
-  - definitiv ausfallen
-  - nicht mehr funktionieren
-  - den Hut in den Ring werfen
-  - die Flinte ins Korn werfen
-  - auf großem Fuß leben
+  - ist ... kaputtgegangen
+  - ist ... endgültig ausgefallen
+  - ist ... angesprungen
+  - ist ... schneller geworden
+  - hat ... frisches Öl bekommen
 correct:
-  - definitiv ausfallen
-  - nicht mehr funktionieren
+  - ist ... kaputtgegangen
+  - ist ... endgültig ausgefallen
 ---
 
 Wie würden Sie es noch sagen?
 
-Nach der langen Fahrt musste der alte Motor leider ins Gras beißen.
+Nach der langen Fahrt hat der alte Motor leider ins Gras gebissen.
 
-Welche Wörter oder Ausdrücke passen auch statt «ins Gras beißen»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «hat ... ins Gras gebissen»? Wählen Sie alle richtigen Antworten.

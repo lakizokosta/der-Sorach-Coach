@@ -7,14 +7,14 @@ focus: synonym
 replace: eingezogen
 hint: "Wortschatz — neu in der Wohnung wohnen"
 options:
-  - hierher gezogen
-  - neu eingezogen
+  - hierhergezogen
+  - umgezogen
   - ausgezogen
-  - verkauft
-  - gebaut
+  - weggefahren
+  - in Urlaub gefahren
 correct:
-  - hierher gezogen
-  - neu eingezogen
+  - hierhergezogen
+  - umgezogen
 ---
 
 Wie würdest du es noch sagen?

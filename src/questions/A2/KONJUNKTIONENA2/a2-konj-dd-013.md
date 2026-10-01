@@ -6,9 +6,9 @@ words:
   - ihr
   - müde
   - seid
-  - solltet
+  - ruht
   - euch
-  - ausruhen
+  - aus
   - .
 commas:
   - 3

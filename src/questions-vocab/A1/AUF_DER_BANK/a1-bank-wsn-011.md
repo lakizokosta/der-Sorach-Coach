@@ -7,14 +7,14 @@ focus: synonym
 replace: Bargeld
 hint: "Wortschatz — Münzen und Scheine in der Hand"
 options:
-  - bar
-  - in Münzen und Scheinen
-  - Karte
-  - Formular
-  - Brief
+  - Münzen und Scheine
+  - Geld in bar
+  - eine Karte
+  - ein Formular
+  - einen Brief
 correct:
-  - bar
-  - in Münzen und Scheinen
+  - Münzen und Scheine
+  - Geld in bar
 ---
 
 Wie würdest du es noch sagen?

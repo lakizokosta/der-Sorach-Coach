@@ -4,7 +4,7 @@ type: multi-select
 lemma: freut mich
 set: SICH_VORSTELLEN
 focus: synonym
-replace: freut mich
+replace: Freut mich
 hint: "Wortschatz — nach dem Namen"
 options:
   - Angenehm
@@ -21,4 +21,4 @@ Wie würdest du es noch sagen?
 
 Hallo, ich bin Max. — Freut mich!
 
-Welche Wörter oder Ausdrücke passen auch statt «freut mich»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Freut mich»? Wähle alle richtigen Antworten.

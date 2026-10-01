@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kontowechsel-Service
 set: AUF_DER_BANK
 focus: synonym
-replace: Kontowechselservice
+replace: Unser Kontowechselservice
 hint: "Wortschatz — Bank wechseln mit Hilfe"
 options:
-  - Bankwechselhilfe
-  - Kontoübertragsservice
-  - Abhebung
-  - PIN
-  - TAN
+  - Unser Kontoumzugsservice
+  - Unsere Kontowechselhilfe
+  - Unser Geldautomat
+  - Unser Schließfach
+  - Unsere Börsenabteilung
 correct:
-  - Bankwechselhilfe
-  - Kontoübertragsservice
+  - Unser Kontoumzugsservice
+  - Unsere Kontowechselhilfe
 ---
 
 Wie würden Sie es noch sagen?
 
 Unser Kontowechselservice übernimmt die Daueraufträge.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kontowechselservice»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Unser Kontowechselservice»? Wählen Sie alle richtigen Antworten.

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kredit
 set: AUF_DER_BANK
 focus: synonym
-replace: Kredit
+replace: einen Kredit
 hint: "Wortschatz — geliehenes Geld der Bank"
 options:
-  - Darlehen
-  - Bankkredit
-  - Gehalt
-  - Miete
-  - Gebühr
+  - ein Darlehen
+  - einen Bankkredit
+  - ein Sparbuch
+  - eine Überweisung
+  - einen Kontoauszug
 correct:
-  - Darlehen
-  - Bankkredit
+  - ein Darlehen
+  - einen Bankkredit
 ---
 
 Wie würden Sie es noch sagen?
 
 Für die Wohnung beantragen Sie einen Kredit.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kredit»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «einen Kredit»? Wählen Sie alle richtigen Antworten.

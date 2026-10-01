@@ -6,6 +6,8 @@ words:
   - packt
   - ihre
   - Kamera
+  - ein
+  - .
 ---
 
 [Reisen] Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihre)

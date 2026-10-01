@@ -7,13 +7,13 @@ focus: synonym
 replace: Saldenmitteilung
 hint: "Wortschatz — aktueller Kontostand schriftlich"
 options:
-  - Kontostandsnachweis
+  - Kontostandsmitteilung
   - Saldoübersicht
   - Überweisung
   - PIN
   - Miete
 correct:
-  - Kontostandsnachweis
+  - Kontostandsmitteilung
   - Saldoübersicht
 ---
 

@@ -7,13 +7,13 @@ focus: synonym
 replace: Therapie
 hint: "Wortschatz — medizinische Behandlung"
 options:
-  - Behandlungsregime
+  - Behandlung
   - Heilbehandlung
   - Anamnese
   - Aufnahme
   - Verordnung
 correct:
-  - Behandlungsregime
+  - Behandlung
   - Heilbehandlung
 ---
 

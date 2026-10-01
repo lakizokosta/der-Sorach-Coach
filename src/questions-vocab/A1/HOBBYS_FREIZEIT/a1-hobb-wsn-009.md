@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kino
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Kino
+replace: ins Kino
 hint: "Wortschatz — Filme auf der Leinwand"
 options:
-  - Filmtheater
-  - Lichtspielhaus
-  - Verein
-  - Fitnessstudio
-  - Büroarbeit
+  - ins Filmtheater
+  - ins Lichtspielhaus
+  - ins Fitnessstudio
+  - in den Verein
+  - zur Arbeit
 correct:
-  - Filmtheater
-  - Lichtspielhaus
+  - ins Filmtheater
+  - ins Lichtspielhaus
 ---
 
 Wie würdest du es noch sagen?
 
 Am Freitag gehen wir ins Kino.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kino»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ins Kino»? Wähle alle richtigen Antworten.

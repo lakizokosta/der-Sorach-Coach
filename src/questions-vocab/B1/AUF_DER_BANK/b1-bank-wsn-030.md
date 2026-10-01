@@ -9,9 +9,9 @@ hint: "Wortschatz — Bonitätsdaten"
 options:
   - Bonitätsauskunft
   - Kreditauskunft
-  - Kontoauszug
-  - Valuta
+  - Kontoeröffnung
   - PIN
+  - Kreditkarte
 correct:
   - Bonitätsauskunft
   - Kreditauskunft

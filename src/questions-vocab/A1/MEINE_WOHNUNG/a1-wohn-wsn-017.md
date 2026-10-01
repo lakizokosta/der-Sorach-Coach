@@ -4,21 +4,21 @@ type: multi-select
 lemma: Schrank
 set: MEINE_WOHNUNG
 focus: synonym
-replace: Schrank
+replace: Im Schrank
 hint: "Wortschatz — Kleider aufbewahren"
 options:
-  - Kleiderschrank
-  - Schrankmöbel
-  - Tisch
-  - Herd
-  - Lampe
+  - Im Kleiderschrank
+  - In der Garderobe
+  - Im Kühlschrank
+  - Im Bücherregal
+  - In der Spülmaschine
 correct:
-  - Kleiderschrank
-  - Schrankmöbel
+  - Im Kleiderschrank
+  - In der Garderobe
 ---
 
 Wie würdest du es noch sagen?
 
 Im Schrank hängen meine Jacken.
 
-Welche Wörter oder Ausdrücke passen auch statt «Schrank»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Im Schrank»? Wähle alle richtigen Antworten.

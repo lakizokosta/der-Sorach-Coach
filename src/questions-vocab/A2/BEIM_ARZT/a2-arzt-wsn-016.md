@@ -4,21 +4,21 @@ type: multi-select
 lemma: Praxis
 set: BEIM_ARZT
 focus: synonym
-replace: Praxis
+replace: Die Praxis
 hint: "Wortschatz — wo der Arzt arbeitet"
 options:
-  - Arztpraxis
-  - Praxisräume
-  - Apotheke
-  - Krankenhaus
-  - Labor
+  - Die Arztpraxis
+  - Die Hausarztpraxis
+  - Die Apotheke
+  - Das Krankenhaus
+  - Das Labor
 correct:
-  - Arztpraxis
-  - Praxisräume
+  - Die Arztpraxis
+  - Die Hausarztpraxis
 ---
 
 Wie würden Sie es noch sagen?
 
 Die Praxis ist montags bis freitags geöffnet.
 
-Welche Wörter oder Ausdrücke passen auch statt «Praxis»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Praxis»? Wählen Sie alle richtigen Antworten.

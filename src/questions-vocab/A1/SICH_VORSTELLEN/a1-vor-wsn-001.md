@@ -4,21 +4,21 @@ type: multi-select
 lemma: heißen
 set: SICH_VORSTELLEN
 focus: synonym
-replace: heiße
+replace: Ich heiße
 hint: "Wortschatz — dein Name"
 options:
-  - bin
-  - nenne mich
-  - komme
-  - wohne
-  - arbeite
+  - Ich bin
+  - Mein Name ist
+  - Ich kenne
+  - Ich suche
+  - Ich frage
 correct:
-  - bin
-  - nenne mich
+  - Ich bin
+  - Mein Name ist
 ---
 
 Wie würdest du es noch sagen?
 
 Hallo! Ich heiße Anna.
 
-Welche Wörter oder Ausdrücke passen auch statt «heiße»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ich heiße»? Wähle alle richtigen Antworten.

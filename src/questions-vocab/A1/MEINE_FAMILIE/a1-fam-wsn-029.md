@@ -9,9 +9,9 @@ hint: "Wortschatz — Hochzeit feiern"
 options:
   - Heirat
   - Trauung
-  - Geburtstag
-  - Schule
-  - Arbeit
+  - Geburtstagsfeier
+  - Scheidung
+  - Reise
 correct:
   - Heirat
   - Trauung

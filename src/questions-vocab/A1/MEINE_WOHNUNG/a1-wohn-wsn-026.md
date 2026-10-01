@@ -7,13 +7,13 @@ focus: synonym
 replace: sauber
 hint: "Wortschatz — nach dem Putzen"
 options:
-  - rein
+  - geputzt
   - aufgeräumt
   - schmutzig
   - voll
   - leer
 correct:
-  - rein
+  - geputzt
   - aufgeräumt
 ---
 

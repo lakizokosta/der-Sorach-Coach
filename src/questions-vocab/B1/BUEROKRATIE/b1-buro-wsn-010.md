@@ -8,13 +8,13 @@ replace: Nachreichung
 hint: "Wortschatz — später eingereichte Unterlagen"
 options:
   - nachträgliche Einreichung
-  - Nachlieferung von Unterlagen
-  - Formular
-  - Gebühr
-  - Wartezeit
+  - spätere Abgabe
+  - Vernichtung
+  - Übersetzung
+  - Rückgabe
 correct:
   - nachträgliche Einreichung
-  - Nachlieferung von Unterlagen
+  - spätere Abgabe
 ---
 
 Wie würden Sie es noch sagen?

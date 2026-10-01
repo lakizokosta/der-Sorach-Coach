@@ -8,13 +8,13 @@ replace: Öffnungszeiten
 hint: "Wortschatz — Zeiten, in denen das Amt offen ist"
 options:
   - Sprechzeiten
-  - Amtszeiten
-  - Frist
-  - Antrag
-  - Formular
+  - Servicezeiten
+  - Fristen
+  - Formulare
+  - Gebühren
 correct:
   - Sprechzeiten
-  - Amtszeiten
+  - Servicezeiten
 ---
 
 Wie würden Sie es noch sagen?

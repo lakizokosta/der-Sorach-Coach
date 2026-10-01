@@ -5,12 +5,13 @@ words:
   - Ich
   - war
   - krank
-  - Deshalb
+  - deshalb
   - habe
   - ich
   - die
   - Vorlesung
   - verpasst
+  - .
 commas:
   - 2
 ---

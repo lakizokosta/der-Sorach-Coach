@@ -4,21 +4,21 @@ type: multi-select
 lemma: Filiale
 set: AUF_DER_BANK
 focus: synonym
-replace: Filiale
+replace: In unserer Filiale
 hint: "Wortschatz — Bank vor Ort"
 options:
-  - Bankfiliale
-  - Zweigstelle
-  - Geldautomat
-  - Online-Banking
-  - TAN
+  - In unserer Bankfiliale
+  - In unserer Zweigstelle
+  - Am Geldautomaten
+  - Im Online-Banking
+  - Per Post
 correct:
-  - Bankfiliale
-  - Zweigstelle
+  - In unserer Bankfiliale
+  - In unserer Zweigstelle
 ---
 
 Wie würden Sie es noch sagen?
 
 In unserer Filiale beraten wir Sie gern persönlich.
 
-Welche Wörter oder Ausdrücke passen auch statt «Filiale»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «In unserer Filiale»? Wählen Sie alle richtigen Antworten.

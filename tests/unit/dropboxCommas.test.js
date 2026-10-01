@@ -138,6 +138,48 @@ describe('resolveDropboxCommas', () => {
     ).toEqual([2]);
   });
 
+  it('puts the Nebensatz comma after the final auxiliary, not after the participle', () => {
+    expect(
+      resolveDropboxCommas({
+        words: ['Nachdem', 'ich', 'die', 'Nachricht', 'gelesen', 'hatte', 'rief', 'Karl', 'zurück', '.'],
+        hint: 'Plusquamperfekt',
+      }),
+    ).toEqual([5]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Weil', 'das', 'Wetter', 'schlecht', 'war', 'blieben', 'wir', 'drinnen', '.'],
+        hint: 'Konjunktion — Weil',
+      }),
+    ).toEqual([4]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Sobald', 'ich', 'im', 'Hotel', 'angekommen', 'bin', 'gehen', 'wir', 'essen', '.'],
+        hint: 'Konditionalsatz',
+      }),
+    ).toEqual([5]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Wenn', 'mir', 'mehr', 'Zeit', 'bliebe', 'würde', 'ich', 'ein', 'Praktikum', 'machen', '.'],
+        hint: 'Konjunktiv II',
+      }),
+    ).toEqual([4]);
+  });
+
+  it('does not treat um without zu or V2 Da as subordinators', () => {
+    expect(
+      resolveDropboxCommas({
+        words: ['Kümmerst', 'du', 'dich', 'um', 'die', 'Patienten', '?', '—', 'Ich', 'kümmere', 'mich', 'darum', '.'],
+        hint: 'Pronominaladverb',
+      }),
+    ).toEqual([]);
+    expect(
+      resolveDropboxCommas({
+        words: ['Da', 'ist', 'jemand', 'der', 'mir', 'helfen', 'kann', '.'],
+        hint: 'Indefinitpronomen',
+      }),
+    ).toEqual([]);
+  });
+
   it('does not add comma for Als Kind / Während des (no Nebensatz)', () => {
     expect(
       resolveDropboxCommas({

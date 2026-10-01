@@ -4,21 +4,21 @@ type: multi-select
 lemma: Valuta
 set: AUF_DER_BANK
 focus: synonym
-replace: Valuta
+replace: Die Valuta
 hint: "Wortschatz — Datum der Gutschrift"
 options:
-  - Wertstellung
-  - Buchungsdatum
-  - Gebühr
-  - PIN
-  - TAN
+  - Die Wertstellung
+  - Der Wertstellungstag
+  - Die Gebühr
+  - Der Betrag
+  - Die IBAN
 correct:
-  - Wertstellung
-  - Buchungsdatum
+  - Die Wertstellung
+  - Der Wertstellungstag
 ---
 
 Wie würden Sie es noch sagen?
 
 Die Valuta der Überweisung ist der nächste Werktag.
 
-Welche Wörter oder Ausdrücke passen auch statt «Valuta»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Valuta»? Wählen Sie alle richtigen Antworten.

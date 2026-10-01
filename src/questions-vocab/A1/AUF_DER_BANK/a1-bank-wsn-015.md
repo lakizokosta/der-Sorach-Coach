@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kontostand
 set: AUF_DER_BANK
 focus: synonym
-replace: Kontostand
+replace: mein Kontostand
 hint: "Wortschatz — wie viel auf dem Konto ist"
 options:
-  - Guthaben
-  - Saldo
-  - PIN
-  - IBAN
-  - Brief
+  - mein Guthaben
+  - mein Saldo
+  - meine Miete
+  - mein Gehalt
+  - meine Gebühr
 correct:
-  - Guthaben
-  - Saldo
+  - mein Guthaben
+  - mein Saldo
 ---
 
 Wie würdest du es noch sagen?
 
 Wie hoch ist mein Kontostand?
 
-Welche Wörter oder Ausdrücke passen auch statt «Kontostand»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «mein Kontostand»? Wähle alle richtigen Antworten.

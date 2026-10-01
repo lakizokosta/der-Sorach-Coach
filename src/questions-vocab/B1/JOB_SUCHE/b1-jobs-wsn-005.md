@@ -8,13 +8,13 @@ replace: Referenz
 hint: "Wortschatz — schriftliche Bestätigung eines früheren Vorgesetzten"
 options:
   - Empfehlung
-  - Referenzschreiben
+  - Fürsprache
   - Kündigung
-  - Gehalt
-  - Urlaub
+  - Abmahnung
+  - Absage
 correct:
   - Empfehlung
-  - Referenzschreiben
+  - Fürsprache
 ---
 
 Wie würden Sie es noch sagen?

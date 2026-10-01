@@ -4,21 +4,21 @@ type: multi-select
 lemma: Sparkonto
 set: AUF_DER_BANK
 focus: synonym
-replace: Sparkonto
+replace: ein Sparkonto
 hint: "Wortschatz — zum Sparen"
 options:
-  - Spareinlage
-  - Tagesgeldkonto
-  - Girokonto
-  - Kredit
-  - Gebühr
+  - ein Tagesgeldkonto
+  - ein Sparbuch
+  - ein Girokonto
+  - einen Kredit
+  - eine Kreditkarte
 correct:
-  - Spareinlage
-  - Tagesgeldkonto
+  - ein Tagesgeldkonto
+  - ein Sparbuch
 ---
 
 Wie würden Sie es noch sagen?
 
 Für Ihre Ersparnisse empfehle ich ein Sparkonto.
 
-Welche Wörter oder Ausdrücke passen auch statt «Sparkonto»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ein Sparkonto»? Wählen Sie alle richtigen Antworten.

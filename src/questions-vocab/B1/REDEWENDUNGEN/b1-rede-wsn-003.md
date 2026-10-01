@@ -9,9 +9,9 @@ hint: "Redewendung — Bild mit Wasser und Wäschebecken"
 options:
   - sehr erfahren
   - nicht leicht zu überlisten
-  - ein Brett vor dem Kopf haben
-  - sich zum Affen machen
-  - die Flinte ins Korn werfen
+  - noch ganz unerfahren
+  - leicht zu täuschen
+  - völlig neu
 correct:
   - sehr erfahren
   - nicht leicht zu überlisten

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Diagnose
 set: BEIM_ARZT
 focus: synonym
-replace: Diagnose
+replace: Die Diagnose
 hint: "Wortschatz — ärztliches Ergebnis"
 options:
-  - Befund
-  - Feststellung
-  - Rezept
-  - Impfung
-  - Termin
+  - Der Befund
+  - Das Untersuchungsergebnis
+  - Das Rezept
+  - Die Impfung
+  - Der Termin
 correct:
-  - Befund
-  - Feststellung
+  - Der Befund
+  - Das Untersuchungsergebnis
 ---
 
 Wie würden Sie es noch sagen?
 
-Die Diagnose lautet auf eine leichte Entzündung.
+Die Diagnose lautet: eine leichte Entzündung.
 
-Welche Wörter oder Ausdrücke passen auch statt «Diagnose»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Diagnose»? Wählen Sie alle richtigen Antworten.

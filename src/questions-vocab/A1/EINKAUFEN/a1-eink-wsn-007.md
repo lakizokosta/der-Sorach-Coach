@@ -8,13 +8,13 @@ replace: möchte
 hint: "Wortschatz — höfliche Bitte an der Theke"
 options:
   - hätte gern
-  - hätte gerne
-  - brauche
+  - nehme
+  - verkaufe
+  - backe
   - esse
-  - koche
 correct:
   - hätte gern
-  - hätte gerne
+  - nehme
 ---
 
 Wie würdest du es noch sagen?

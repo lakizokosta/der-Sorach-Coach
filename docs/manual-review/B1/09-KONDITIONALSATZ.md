@@ -102,7 +102,7 @@
 ### 7. `b1-kond-007` · select-one
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
+> ___ der Arzt kommt, gehen wir ins Behandlungszimmer. (Konditionalsatz)
 
 **Optionen:**
 - Damit
@@ -312,7 +312,7 @@
 ### 22. `b1-kond-022` · select-one
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
+> ___ der Arzt kommt, gehen wir ins Behandlungszimmer. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -522,7 +522,7 @@
 ### 37. `b1-kond-037` · select-one
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
+> ___ der Arzt kommt, gehen wir ins Behandlungszimmer. (Konditionalsatz)
 
 **Optionen:**
 - Obwohl
@@ -780,7 +780,7 @@
 ### 57. `b1-kond-in-007` · input-text
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
+> ___ der Arzt kommt, gehen wir ins Behandlungszimmer. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -930,7 +930,7 @@
 ### 72. `b1-kond-in-022` · input-text
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
+> ___ der Arzt kommt, gehen wir ins Behandlungszimmer. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 
@@ -1080,7 +1080,7 @@
 ### 87. `b1-kond-in-037` · input-text
 
 **Aufgabe:**
-> ___ der Arzt kommt, warten wir im Wartezimmer. (Konditionalsatz)
+> ___ der Arzt kommt, gehen wir ins Behandlungszimmer. (Konditionalsatz)
 
 **Antwort:** `Sobald`
 

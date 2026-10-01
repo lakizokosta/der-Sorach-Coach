@@ -4,16 +4,16 @@ type: multi-select
 lemma: Symptom
 set: BEIM_ARZT
 focus: synonym
-replace: Symptom
+replace: Symptome
 hint: "Wortschatz — Anzeichen einer Krankheit"
 options:
-  - Beschwerde
+  - Beschwerden
   - Krankheitszeichen
-  - Rezept
-  - Impfung
-  - Termin
+  - Rezepte
+  - Impfungen
+  - Termine
 correct:
-  - Beschwerde
+  - Beschwerden
   - Krankheitszeichen
 ---
 
@@ -21,4 +21,4 @@ Wie würden Sie es noch sagen?
 
 Welche Symptome haben Sie genau?
 
-Welche Wörter oder Ausdrücke passen auch statt «Symptom»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Symptome»? Wählen Sie alle richtigen Antworten.

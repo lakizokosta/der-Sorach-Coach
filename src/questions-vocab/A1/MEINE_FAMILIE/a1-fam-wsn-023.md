@@ -4,21 +4,21 @@ type: multi-select
 lemma: alt
 set: MEINE_FAMILIE
 focus: synonym
-replace: alt
+replace: sehr alt
 hint: "Wortschatz — viele Jahre"
 options:
-  - betagt
-  - hoch in Jahren
-  - jung
-  - klein
-  - neu
+  - hochbetagt
+  - sehr betagt
+  - sehr jung
+  - sehr klein
+  - sehr krank
 correct:
-  - betagt
-  - hoch in Jahren
+  - hochbetagt
+  - sehr betagt
 ---
 
 Wie würdest du es noch sagen?
 
 Meine Großmutter ist schon sehr alt.
 
-Welche Wörter oder Ausdrücke passen auch statt «alt»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «sehr alt»? Wähle alle richtigen Antworten.

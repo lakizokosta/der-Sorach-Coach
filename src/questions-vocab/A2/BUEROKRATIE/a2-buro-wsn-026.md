@@ -9,9 +9,9 @@ hint: "Wortschatz — Geld für eine Amtsleistung"
 options:
   - eine Verwaltungsgebühr
   - eine Amtsgebühr
-  - Termin
-  - Brief
-  - Schalter
+  - eine Wartezeit
+  - eine Strafe
+  - eine Kopie
 correct:
   - eine Verwaltungsgebühr
   - eine Amtsgebühr

@@ -8,13 +8,13 @@ replace: Regeneration
 hint: "Wortschatz — körperliche nach Belastung"
 options:
   - Erholung
-  - Erholungsphase
+  - Ruhe
   - Wettkampf
   - Sponsoring
   - Event
 correct:
   - Erholung
-  - Erholungsphase
+  - Ruhe
 ---
 
 Wie würden Sie es noch sagen?

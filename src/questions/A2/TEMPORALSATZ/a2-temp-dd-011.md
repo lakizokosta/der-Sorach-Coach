@@ -6,7 +6,7 @@ words:
   - ihr
   - müde
   - seid
-  - solltet
+  - geht
   - schlafen
   - .
 commas:

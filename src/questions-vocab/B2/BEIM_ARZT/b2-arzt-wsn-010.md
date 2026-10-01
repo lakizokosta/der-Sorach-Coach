@@ -7,18 +7,18 @@ focus: synonym
 replace: Einweisung
 hint: "Wortschatz — Aufnahme ins Krankenhaus"
 options:
-  - Krankenhausaufnahme
+  - Krankenhauseinweisung
   - stationäre Aufnahme
   - Entlassung
   - Ambulanz
   - Rezept
 correct:
-  - Krankenhausaufnahme
+  - Krankenhauseinweisung
   - stationäre Aufnahme
 ---
 
 Wie würden Sie es noch sagen?
 
-Der Hausarzt veranlasst die Einweisung ins Krankenhaus.
+Der Hausarzt veranlasst die Einweisung.
 
 Welche Wörter oder Ausdrücke passen auch statt «Einweisung»? Wählen Sie alle richtigen Antworten.

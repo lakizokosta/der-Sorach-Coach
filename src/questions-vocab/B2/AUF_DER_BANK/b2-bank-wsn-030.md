@@ -8,13 +8,13 @@ replace: Verwahrentgelt
 hint: "Wortschatz — Gebühr auf Guthaben"
 options:
   - Negativzins
-  - Depositengebühr
+  - Verwahrungsentgelt
   - Dispokredit
   - Hypothek
   - PIN
 correct:
   - Negativzins
-  - Depositengebühr
+  - Verwahrungsentgelt
 ---
 
 Wie würden Sie es noch sagen?

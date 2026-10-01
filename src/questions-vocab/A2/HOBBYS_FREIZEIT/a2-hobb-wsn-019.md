@@ -4,21 +4,21 @@ type: multi-select
 lemma: Radtour
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Radtour
+replace: eine Radtour
 hint: "Wortschatz — Fahrt mit dem Fahrrad als Ausflug"
 options:
-  - Fahrradtour
-  - Fahrradausflug
-  - Langeweile
-  - Konzert
-  - Yoga
+  - eine Fahrradtour
+  - einen Fahrradausflug
+  - eine Wanderung
+  - eine Autofahrt
+  - eine Zugfahrt
 correct:
-  - Fahrradtour
-  - Fahrradausflug
+  - eine Fahrradtour
+  - einen Fahrradausflug
 ---
 
 Wie würden Sie es noch sagen?
 
 Am Sonntag machen Sie eine Radtour ans Meer.
 
-Welche Wörter oder Ausdrücke passen auch statt «Radtour»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «eine Radtour»? Wählen Sie alle richtigen Antworten.

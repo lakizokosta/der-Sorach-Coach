@@ -8,13 +8,13 @@ replace: Zahnschmerzen
 hint: "Wortschatz — Schmerz im Mund"
 options:
   - Zahnweh
-  - Schmerz im Zahn
+  - Schmerzen im Zahn
   - Kopfschmerzen
   - Halsschmerzen
   - Fieber
 correct:
   - Zahnweh
-  - Schmerz im Zahn
+  - Schmerzen im Zahn
 ---
 
 Wie würden Sie es noch sagen?

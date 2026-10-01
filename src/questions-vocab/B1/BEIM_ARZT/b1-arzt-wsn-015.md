@@ -9,9 +9,9 @@ hint: "Wortschatz — offizielle Bescheinigung"
 options:
   - eine Bescheinigung
   - eine ärztliche Bescheinigung
-  - Rezept
-  - Überweisung
-  - Impfpass
+  - ein Rezept
+  - eine Überweisung
+  - einen Impfpass
 correct:
   - eine Bescheinigung
   - eine ärztliche Bescheinigung

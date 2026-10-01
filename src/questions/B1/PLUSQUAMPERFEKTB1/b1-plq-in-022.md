@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Plusquamperfektform bzw. Konjunktion:
 
-___, Markus eintrat, hatte Sara bereits gedeckt.
+___ Markus eintrat, hatte Sara bereits gedeckt.

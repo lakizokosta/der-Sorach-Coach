@@ -5,9 +5,11 @@ words:
   - Sie
   - bereitet
   - sich
-  - für
+  - auf
   - das
   - Fest
+  - vor
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Reflexiv + Verb vorbereiten)

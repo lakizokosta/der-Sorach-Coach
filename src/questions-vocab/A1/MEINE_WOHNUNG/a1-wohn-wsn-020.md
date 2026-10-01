@@ -4,21 +4,21 @@ type: multi-select
 lemma: Sofa
 set: MEINE_WOHNUNG
 focus: synonym
-replace: Sofa
+replace: auf dem Sofa
 hint: "Wortschatz — im Wohnzimmer sitzen"
 options:
-  - Couch
-  - Sitzgarnitur
-  - Bett
-  - Stuhl
-  - Regal
+  - auf der Couch
+  - auf dem Kanapee
+  - auf dem Stuhl
+  - auf dem Balkon
+  - auf dem Teppich
 correct:
-  - Couch
-  - Sitzgarnitur
+  - auf der Couch
+  - auf dem Kanapee
 ---
 
 Wie würdest du es noch sagen?
 
 Abends sitze ich gern auf dem Sofa.
 
-Welche Wörter oder Ausdrücke passen auch statt «Sofa»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «auf dem Sofa»? Wähle alle richtigen Antworten.

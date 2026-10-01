@@ -8,13 +8,13 @@ replace: Formularvordruck
 hint: "Wortschatz — vorbereitetes Antragsformular"
 options:
   - Antragsvordruck
-  - amtlicher Vordruck
+  - amtlichen Vordruck
   - Bescheid
   - Termin
-  - Gebühr
+  - Stempel
 correct:
   - Antragsvordruck
-  - amtlicher Vordruck
+  - amtlichen Vordruck
 ---
 
 Wie würden Sie es noch sagen?

@@ -4,21 +4,21 @@ type: multi-select
 lemma: Beratung
 set: AUF_DER_BANK
 focus: synonym
-replace: Beratung
+replace: Die Beratung
 hint: "Wortschatz — Mitarbeiter erklärt"
 options:
-  - Kundenberatung
-  - Gespräch am Schalter
-  - Abhebung
-  - Einzahlung
-  - PIN
+  - Die Kundenberatung
+  - Das Gespräch
+  - Die Abhebung
+  - Die Einzahlung
+  - Die PIN
 correct:
-  - Kundenberatung
-  - Gespräch am Schalter
+  - Die Kundenberatung
+  - Das Gespräch
 ---
 
 Wie würdest du es noch sagen?
 
 Die Beratung am Schalter war sehr hilfreich.
 
-Welche Wörter oder Ausdrücke passen auch statt «Beratung»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Die Beratung»? Wähle alle richtigen Antworten.

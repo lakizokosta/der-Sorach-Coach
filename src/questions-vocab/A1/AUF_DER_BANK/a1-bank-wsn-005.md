@@ -7,14 +7,14 @@ focus: synonym
 replace: Geldautomaten
 hint: "Wortschatz — Bargeld abholen"
 options:
-  - Bankautomat
-  - Automat der Bank
-  - Schalter
-  - Kasse
+  - Bankautomaten
+  - Automaten der Bank
   - Briefkasten
+  - Fahrkartenautomaten
+  - Kaffeeautomaten
 correct:
-  - Bankautomat
-  - Automat der Bank
+  - Bankautomaten
+  - Automaten der Bank
 ---
 
 Wie würdest du es noch sagen?

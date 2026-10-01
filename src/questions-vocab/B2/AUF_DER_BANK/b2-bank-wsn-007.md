@@ -4,21 +4,21 @@ type: multi-select
 lemma: Derivat
 set: AUF_DER_BANK
 focus: synonym
-replace: Derivat
+replace: Derivate
 hint: "Wortschatz — komplexes Finanzinstrument"
 options:
-  - Finanzderivat
-  - Termingeschäft
-  - Girokonto
-  - Sparkonto
-  - Lastschrift
+  - Finanzderivate
+  - Termingeschäfte
+  - Girokonten
+  - Sparkonten
+  - Lastschriften
 correct:
-  - Finanzderivat
-  - Termingeschäft
+  - Finanzderivate
+  - Termingeschäfte
 ---
 
 Wie würden Sie es noch sagen?
 
 Derivate setzen wir nur nach ausführlicher Beratung ein.
 
-Welche Wörter oder Ausdrücke passen auch statt «Derivat»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Derivate»? Wählen Sie alle richtigen Antworten.

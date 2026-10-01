@@ -7,14 +7,14 @@ focus: synonym
 replace: ein Wettkampf
 hint: "Wortschatz — sportlicher zwischen Teams"
 options:
+  - ein Wettbewerb
   - ein Wettstreit
-  - eine Konkurrenz
-  - Chor
-  - Theater
-  - Basteln
+  - eine Chorprobe
+  - ein Theaterbesuch
+  - ein Bastelkurs
 correct:
+  - ein Wettbewerb
   - ein Wettstreit
-  - eine Konkurrenz
 ---
 
 Wie würden Sie es noch sagen?

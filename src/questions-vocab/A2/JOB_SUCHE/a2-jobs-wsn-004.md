@@ -4,21 +4,21 @@ type: multi-select
 lemma: Bewerbung
 set: JOB_SUCHE
 focus: synonym
-replace: Bewerbung
+replace: Ihre Bewerbung
 hint: "Wortschatz — Unterlagen für eine offene Stelle"
 options:
-  - Bewerbungsmappe
-  - Stellenbewerbung
-  - Gehalt
-  - Urlaub
-  - Kündigung
+  - Ihre Bewerbungsmappe
+  - Ihre Bewerbungsunterlagen
+  - Ihre Kündigung
+  - Ihren Urlaubsantrag
+  - Ihre Krankmeldung
 correct:
-  - Bewerbungsmappe
-  - Stellenbewerbung
+  - Ihre Bewerbungsmappe
+  - Ihre Bewerbungsunterlagen
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie schicken Ihre Bewerbung an die Firma.
 
-Welche Wörter oder Ausdrücke passen auch statt «Bewerbung»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Ihre Bewerbung»? Wählen Sie alle richtigen Antworten.

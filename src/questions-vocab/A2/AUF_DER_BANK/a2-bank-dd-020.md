@@ -6,9 +6,8 @@ set: AUF_DER_BANK
 focus: word
 hint: "Wortschatz — neues Konto"
 words:
-  - Zum
-  - Konto
-  - eröffnen
+  - Zur
+  - Kontoeröffnung
   - brauchen
   - wir
   - Ihren

@@ -10,8 +10,8 @@ options:
   - Nacht im Hotel
   - Hotelübernachtung
   - Mitgliedschaft
-  - Turnier
-  - Chor
+  - Chorprobe
+  - Kletterstunde
 correct:
   - Nacht im Hotel
   - Hotelübernachtung

@@ -6,6 +6,9 @@ words:
   - gebe
   - der
   - Frau
+  - das
+  - Buch
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Dativ — der Frau geben)

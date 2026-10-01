@@ -7,18 +7,18 @@ focus: synonym
 replace: Bett
 hint: "Wortschatz — zum Schlafen"
 options:
-  - Schlafbett
-  - Bettgestell
-  - Couch
+  - Doppelbett
+  - Ehebett
+  - Sofa
   - Tisch
   - Herd
 correct:
-  - Schlafbett
-  - Bettgestell
+  - Doppelbett
+  - Ehebett
 ---
 
 Wie würdest du es noch sagen?
 
-Mein Bett steht am Fenster.
+Unser Bett steht am Fenster.
 
 Welche Wörter oder Ausdrücke passen auch statt «Bett»? Wähle alle richtigen Antworten.

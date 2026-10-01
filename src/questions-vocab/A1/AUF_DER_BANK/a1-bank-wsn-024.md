@@ -11,7 +11,7 @@ options:
   - Ticketnummer
   - PIN
   - IBAN
-  - Kontostand
+  - Hausnummer
 correct:
   - Wartenummer
   - Ticketnummer

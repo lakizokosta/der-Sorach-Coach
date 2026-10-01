@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kinder
 set: SICH_VORSTELLEN
 focus: synonym
-replace: Kinder
+replace: zwei Kinder
 hint: "Wortschatz — junge Familienmitglieder"
 options:
-  - Söhne und Töchter
-  - Nachwuchs
-  - Eltern
-  - Geschwister
-  - Freunde
+  - einen Sohn und eine Tochter
+  - zwei Kids
+  - zwei Geschwister
+  - zwei Enkelkinder
+  - zwei Cousins
 correct:
-  - Söhne und Töchter
-  - Nachwuchs
+  - einen Sohn und eine Tochter
+  - zwei Kids
 ---
 
 Wie würdest du es noch sagen?
 
-Ich habe zwei Kinder.
+Ich habe zwei Kinder: Max und Lea.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kinder»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «zwei Kinder»? Wähle alle richtigen Antworten.

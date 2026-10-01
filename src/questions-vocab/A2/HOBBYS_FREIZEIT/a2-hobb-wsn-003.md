@@ -4,21 +4,21 @@ type: multi-select
 lemma: Konzert
 set: HOBBYS_FREIZEIT
 focus: synonym
-replace: Konzert
+replace: auf ein Konzert
 hint: "Wortschatz — Live-Musik vor Publikum"
 options:
-  - Musikveranstaltung
-  - Live-Auftritt
-  - Fitnessstudio
-  - Radtour
-  - Yoga
+  - auf eine Musikveranstaltung
+  - zu einem Live-Auftritt
+  - ins Fitnessstudio
+  - auf eine Radtour
+  - zum Yoga
 correct:
-  - Musikveranstaltung
-  - Live-Auftritt
+  - auf eine Musikveranstaltung
+  - zu einem Live-Auftritt
 ---
 
 Wie würden Sie es noch sagen?
 
 Am Samstag gehen wir auf ein Konzert.
 
-Welche Wörter oder Ausdrücke passen auch statt «Konzert»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «auf ein Konzert»? Wählen Sie alle richtigen Antworten.

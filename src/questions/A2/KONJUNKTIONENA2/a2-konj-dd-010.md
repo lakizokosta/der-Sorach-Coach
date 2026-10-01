@@ -6,10 +6,10 @@ words:
   - fragt
   - ob
   - wir
-  - mit
   - zum
   - Zoo
-  - kommen
+  - mitkommen
+  - .
 commas:
   - 1
 ---

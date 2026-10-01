@@ -7,14 +7,14 @@ focus: synonym
 replace: ein dreimonatiges Praktikum
 hint: "Wortschatz — praktische Erfahrung im Betrieb"
 options:
-  - ein Betriebspraktikum
-  - eine Praxisphase
-  - Gehalt
-  - Kündigung
-  - Urlaub
+  - ein dreimonatiges Betriebspraktikum
+  - eine dreimonatige Praxisphase
+  - eine dreimonatige Kündigungsfrist
+  - ein dreimonatiger Urlaub
+  - eine dreimonatige Pause
 correct:
-  - ein Betriebspraktikum
-  - eine Praxisphase
+  - ein dreimonatiges Betriebspraktikum
+  - eine dreimonatige Praxisphase
 ---
 
 Wie würden Sie es noch sagen?

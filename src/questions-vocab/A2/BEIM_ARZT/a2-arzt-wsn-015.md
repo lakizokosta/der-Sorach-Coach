@@ -4,21 +4,21 @@ type: multi-select
 lemma: Arzt
 set: BEIM_ARZT
 focus: synonym
-replace: Arzt
+replace: Der Arzt
 hint: "Wortschatz — behandelt Patienten"
 options:
-  - Doktor
-  - Mediziner
-  - Apotheker
-  - Krankenschwester
-  - Patient
+  - Der Doktor
+  - Der Mediziner
+  - Der Apotheker
+  - Der Patient
+  - Der Krankenpfleger
 correct:
-  - Doktor
-  - Mediziner
+  - Der Doktor
+  - Der Mediziner
 ---
 
 Wie würden Sie es noch sagen?
 
 Der Arzt untersucht Sie gleich.
 
-Welche Wörter oder Ausdrücke passen auch statt «Arzt»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Der Arzt»? Wählen Sie alle richtigen Antworten.

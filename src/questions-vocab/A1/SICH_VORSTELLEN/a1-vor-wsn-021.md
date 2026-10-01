@@ -4,21 +4,21 @@ type: multi-select
 lemma: gut
 set: SICH_VORSTELLEN
 focus: synonym
-replace: gut
+replace: ganz gut
 hint: "Wortschatz — positiv über Sprache"
 options:
-  - fließend
   - ordentlich
+  - nicht schlecht
   - schlecht
-  - langsam
-  - leise
+  - nur wenig
+  - gar kein
 correct:
-  - fließend
   - ordentlich
+  - nicht schlecht
 ---
 
 Wie würdest du es noch sagen?
 
-Ich spreche schon ganz gut Deutsch.
+Ich spreche ganz gut Deutsch.
 
-Welche Wörter oder Ausdrücke passen auch statt «gut»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «ganz gut»? Wähle alle richtigen Antworten.

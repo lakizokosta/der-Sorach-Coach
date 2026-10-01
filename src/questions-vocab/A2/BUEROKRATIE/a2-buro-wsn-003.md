@@ -4,21 +4,21 @@ type: multi-select
 lemma: Antrag
 set: BUEROKRATIE
 focus: synonym
-replace: einen Antrag
+replace: stellen einen Antrag auf
 hint: "Wortschatz — offizielle Bitte an die Behörde"
 options:
-  - ein Gesuch
-  - ein Antragsschreiben
-  - Brief
-  - Schalter
-  - Gebühr
+  - beantragen
+  - bitten um
+  - verzichten auf
+  - warten auf
+  - sprechen über
 correct:
-  - ein Gesuch
-  - ein Antragsschreiben
+  - beantragen
+  - bitten um
 ---
 
 Wie würden Sie es noch sagen?
 
 Sie stellen einen Antrag auf Wohngeld.
 
-Welche Wörter oder Ausdrücke passen auch statt «einen Antrag»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «stellen einen Antrag auf»? Wählen Sie alle richtigen Antworten.

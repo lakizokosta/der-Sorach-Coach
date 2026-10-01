@@ -4,21 +4,21 @@ type: multi-select
 lemma: Schnupfen
 set: BEIM_ARZT
 focus: synonym
-replace: Schnupfen
+replace: einen Schnupfen
 hint: "Wortschatz — Nase läuft"
 options:
-  - laufende Nase
-  - verkühlte Nase
-  - Husten
-  - Fieber
-  - Attest
+  - eine laufende Nase
+  - eine Erkältung
+  - einen Husten
+  - einen Sonnenbrand
+  - ein gebrochenes Bein
 correct:
-  - laufende Nase
-  - verkühlte Nase
+  - eine laufende Nase
+  - eine Erkältung
 ---
 
 Wie würden Sie es noch sagen?
 
-Im Winter habe ich oft Schnupfen.
+Im Winter habe ich oft einen Schnupfen.
 
-Welche Wörter oder Ausdrücke passen auch statt «Schnupfen»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «einen Schnupfen»? Wählen Sie alle richtigen Antworten.

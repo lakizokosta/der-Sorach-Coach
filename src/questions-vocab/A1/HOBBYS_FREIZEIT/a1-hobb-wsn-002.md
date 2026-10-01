@@ -8,17 +8,17 @@ replace: Sport
 hint: "Wortschatz — körperliche Aktivität"
 options:
   - Bewegung
-  - sportliche Betätigung
-  - Kino
-  - Film
+  - Training
   - Langeweile
+  - Fernsehen
+  - Stress
 correct:
   - Bewegung
-  - sportliche Betätigung
+  - Training
 ---
 
 Wie würdest du es noch sagen?
 
-Am Samstag mache ich gern Sport.
+Sport ist gut für die Gesundheit.
 
 Welche Wörter oder Ausdrücke passen auch statt «Sport»? Wähle alle richtigen Antworten.

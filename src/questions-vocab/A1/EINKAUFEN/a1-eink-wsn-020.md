@@ -4,21 +4,21 @@ type: multi-select
 lemma: Angebot
 set: EINKAUFEN
 focus: synonym
-replace: Angebot
+replace: im Angebot
 hint: "Wortschatz — heute besonders günstig"
 options:
-  - Sonderangebot
-  - Aktion
-  - Preis
-  - Rechnung
-  - Kasse
+  - im Sonderangebot
+  - heute billiger
+  - im Regal
+  - im Korb
+  - heute teurer
 correct:
-  - Sonderangebot
-  - Aktion
+  - im Sonderangebot
+  - heute billiger
 ---
 
 Wie würdest du es noch sagen?
 
 Die Äpfel sind im Angebot — nur 99 Cent.
 
-Welche Wörter oder Ausdrücke passen auch statt «Angebot»? Wähle alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «im Angebot»? Wähle alle richtigen Antworten.

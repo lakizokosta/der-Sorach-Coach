@@ -4,21 +4,21 @@ type: multi-select
 lemma: Kontoauszug
 set: AUF_DER_BANK
 focus: synonym
-replace: Kontoauszug
+replace: Den Kontoauszug
 hint: "Wortschatz — detaillierte Buchungsliste"
 options:
-  - Umsatznachweis
-  - Kontobewegungsübersicht
-  - Vertrag
-  - PIN
-  - TAN
+  - Die Kontoübersicht
+  - Die Umsatzübersicht
+  - Die Kreditkarte
+  - Den Vertrag
+  - Die neue PIN
 correct:
-  - Umsatznachweis
-  - Kontobewegungsübersicht
+  - Die Kontoübersicht
+  - Die Umsatzübersicht
 ---
 
 Wie würden Sie es noch sagen?
 
 Den Kontoauszug erhalten Sie monatlich per Post.
 
-Welche Wörter oder Ausdrücke passen auch statt «Kontoauszug»? Wählen Sie alle richtigen Antworten.
+Welche Wörter oder Ausdrücke passen auch statt «Den Kontoauszug»? Wählen Sie alle richtigen Antworten.
