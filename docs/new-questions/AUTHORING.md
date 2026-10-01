@@ -340,6 +340,14 @@ focus: word
 - ✅ `Als wir in Berlin lebten, lernte ich viel.`
 - Код: `src/utils/dropboxCommas.js`; патч: `node scripts/patch-dropbox-commas.mjs`
 
+### 2026-10-01 — trennbare Verben im Nebensatz: Präfix nicht abtrennen
+- Симптом (`a2-konj-in-010`): `Er fragt, ob wir mit zum Zoo kommen.` — приставка *mit* оторвана от глагола внутри Nebensatz.
+- Правило: в Nebensatz (после *ob/dass/weil/wenn/als…*, в Relativsatz, в косвенном вопросе) отделяемый глагол стоит **слитно в конце**. Приставка отделяется только в Hauptsatz (V2/V1).
+- Проверка набора: скан всех Nebensätze в `src/questions*` и `scripts/` на «приставка … глагол в конце» — других случаев нет.
+- ❌ `Er fragt, ob wir mit zum Zoo kommen.`
+- ✅ `Er fragt, ob wir zum Zoo mitkommen.`
+- Источник: `scripts/a2-input-text-data.mjs`
+
 ### 2026-09-22 — Modalverben A2: контекст, один верный Modal
 - Симптом: `Ich ___ heute nicht arbeiten` + options *kann/will/darf/muss* — все грамматически возможны; система принимает только *muss*.
 - Правило для **select-one / input-text** Modalverben (A1–B2, будущие темы):

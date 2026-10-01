@@ -36,7 +36,7 @@ const BANK_RAW = {
     ['Sie sagt, ___ sie nächste Woche Urlaub macht. (Konjunktion — Nebensatz)', 'dass'],
     ['___ du Zeit hast, ruf mich an. (Konjunktion — Bedingung)', 'Wenn'],
     ['Es ist wichtig, ___ wir pünktlich sind. (Konjunktion — Nebensatz)', 'dass'],
-    ['Er fragt, ___ wir mit zum Zoo kommen. (Konjunktion — indirekte Frage)', 'ob'],
+    ['Er fragt, ___ wir zum Zoo mitkommen. (Konjunktion — indirekte Frage)', 'ob'],
     ['Ich bleibe zu Hause, ___ ich noch viel zu tun habe. (Konjunktion — Grund)', 'weil'],
     ['Kommst du mit, ___ du Zeit hast? (Konjunktion — Bedingung)', 'wenn'],
     ['___ du müde bist, solltest du dich ausruhen. (Konjunktion — Bedingung)', 'Wenn'],

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion:
 
-Er fragt, ___ wir mit zum Zoo kommen.
+Er fragt, ___ wir zum Zoo mitkommen.
