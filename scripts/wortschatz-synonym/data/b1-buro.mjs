@@ -67,7 +67,7 @@ export const B1_BURO = [
   {
     lemma: 'Beglaubigung',
     replace: 'Beglaubigung',
-    hint: 'Wortschatz — amtliche Bestätigung einer Kopie',
+    hint: 'Wortschatz — Stempel vom Amt auf einer Kopie',
     context: 'Die Beglaubigung der Kopie kostet fünf Euro.',
     options: ['amtliche Bestätigung', 'Echtheitsbestätigung', 'Übersetzung', 'Vernichtung', 'Zustellung'],
     correct: ['amtliche Bestätigung', 'Echtheitsbestätigung'],
@@ -107,7 +107,7 @@ export const B1_BURO = [
   {
     lemma: 'Unterlagen',
     replace: 'Unterlagen',
-    hint: 'Wortschatz — Dokumente zum Antrag',
+    hint: 'Wortschatz — was man zum Antrag mitbringt',
     context: 'Reichen Sie alle Unterlagen vollständig ein.',
     options: ['Dokumente', 'Papiere', 'Termine', 'Wartenummern', 'Gebühren'],
     correct: ['Dokumente', 'Papiere'],

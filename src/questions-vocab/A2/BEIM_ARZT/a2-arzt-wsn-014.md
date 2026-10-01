@@ -5,7 +5,7 @@ lemma: krank
 set: BEIM_ARZT
 focus: synonym
 replace: krank
-hint: "Wortschatz — nicht gesund"
+hint: "Wortschatz — man fühlt sich schlecht und bleibt im Bett"
 options:
   - erkrankt
   - nicht gesund

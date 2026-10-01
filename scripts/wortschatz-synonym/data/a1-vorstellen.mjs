@@ -69,8 +69,8 @@ export const SICH_VORSTELLEN = [
     replace: '28 Jahre alt',
     hint: 'Wortschatz — wie viele Jahre',
     context: 'Ich bin 28 Jahre alt.',
-    options: ['28', 'achtundzwanzig Jahre alt', '28 Jahre verheiratet', 'seit 28 Tagen hier', '1,28 Meter groß'],
-    correct: ['28', 'achtundzwanzig Jahre alt'],
+    options: ['achtundzwanzig', 'achtundzwanzig Jahre alt', '28 Jahre verheiratet', 'seit 28 Tagen hier', '1,28 Meter groß'],
+    correct: ['achtundzwanzig', 'achtundzwanzig Jahre alt'],
   },
   {
     lemma: 'Freund',

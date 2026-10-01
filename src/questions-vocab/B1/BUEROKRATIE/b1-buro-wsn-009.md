@@ -5,7 +5,7 @@ lemma: Beglaubigung
 set: BUEROKRATIE
 focus: synonym
 replace: Beglaubigung
-hint: "Wortschatz — amtliche Bestätigung einer Kopie"
+hint: "Wortschatz — Stempel vom Amt auf einer Kopie"
 options:
   - amtliche Bestätigung
   - Echtheitsbestätigung

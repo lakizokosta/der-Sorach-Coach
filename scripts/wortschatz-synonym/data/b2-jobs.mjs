@@ -91,7 +91,7 @@ export const B2_JOBS = [
   {
     lemma: 'Arbeitsbedingungen',
     replace: 'Arbeitsbedingungen',
-    hint: 'Wortschatz — konkrete Rahmenbedingungen der Beschäftigung',
+    hint: 'Wortschatz — unter welchen Umständen man arbeitet',
     context: 'Ihre Arbeitsbedingungen wurden im Tarifvertrag verbessert.',
     options: ['Beschäftigungsbedingungen', 'Rahmenbedingungen', 'Gehalt', 'Urlaub', 'Lebenslauf'],
     correct: ['Beschäftigungsbedingungen', 'Rahmenbedingungen'],
@@ -179,7 +179,7 @@ export const B2_JOBS = [
   {
     lemma: 'Mitbestimmung',
     replace: 'Mitbestimmung',
-    hint: 'Wortschatz — Beteiligung der Belegschaft an Entscheidungen',
+    hint: 'Wortschatz — Mitsprache der Belegschaft im Betrieb',
     context: 'Ihre Mitbestimmung ist im Betriebsverfassungsgesetz geregelt.',
     options: ['Mitwirkung', 'Beteiligung', 'Kündigung', 'Urlaub', 'Bewerbung'],
     correct: ['Mitwirkung', 'Beteiligung'],

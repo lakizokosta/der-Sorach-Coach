@@ -51,7 +51,7 @@ export const B1_REDE = [
   {
     lemma: 'auf die lange Bank schieben',
     replace: 'auf die lange Bank schieben',
-    hint: 'Redewendung — eine Aufgabe auf später verschieben',
+    hint: 'Redewendung — eine unangenehme Aufgabe liegen lassen',
     context: 'Sie wollen den Antrag nicht sofort ausfüllen, sondern auf die lange Bank schieben.',
     options: ['auf später verschieben', 'hinauszögern', 'sofort erledigen', 'gleich abschicken', 'direkt einreichen'],
     correct: ['auf später verschieben', 'hinauszögern'],

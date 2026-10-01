@@ -5,7 +5,7 @@ lemma: Arbeitsbedingungen
 set: JOB_SUCHE
 focus: synonym
 replace: Arbeitsbedingungen
-hint: "Wortschatz — konkrete Rahmenbedingungen der Beschäftigung"
+hint: "Wortschatz — unter welchen Umständen man arbeitet"
 options:
   - Beschäftigungsbedingungen
   - Rahmenbedingungen

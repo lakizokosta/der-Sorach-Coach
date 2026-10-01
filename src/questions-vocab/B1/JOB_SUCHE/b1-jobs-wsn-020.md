@@ -5,7 +5,7 @@ lemma: Homeoffice
 set: JOB_SUCHE
 focus: synonym
 replace: im Homeoffice
-hint: "Wortschatz — Arbeiten von zu Hause aus"
+hint: "Wortschatz — Arbeitsplatz in der eigenen Wohnung"
 options:
   - von zu Hause aus
   - in Telearbeit

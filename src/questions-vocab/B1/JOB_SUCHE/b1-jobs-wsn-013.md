@@ -5,7 +5,7 @@ lemma: Verantwortung
 set: JOB_SUCHE
 focus: synonym
 replace: Verantwortung
-hint: "Wortschatz — Pflichten und Entscheidungen im Job"
+hint: "Wortschatz — Aufgaben, für die man im Job geradesteht"
 options:
   - Zuständigkeiten
   - Pflichten

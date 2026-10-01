@@ -5,7 +5,7 @@ lemma: Mitbestimmung
 set: JOB_SUCHE
 focus: synonym
 replace: Mitbestimmung
-hint: "Wortschatz — Beteiligung der Belegschaft an Entscheidungen"
+hint: "Wortschatz — Mitsprache der Belegschaft im Betrieb"
 options:
   - Mitwirkung
   - Beteiligung

@@ -67,7 +67,7 @@ export const A2_BURO = [
   {
     lemma: 'Brief',
     replace: 'per Brief',
-    hint: 'Wortschatz — schriftliche Nachricht per Post',
+    hint: 'Wortschatz — Nachricht auf Papier im Umschlag',
     context: 'Sie erhalten den Bescheid per Brief.',
     options: ['per Post', 'auf dem Postweg', 'per E-Mail', 'per Telefon', 'am Schalter'],
     correct: ['per Post', 'auf dem Postweg'],

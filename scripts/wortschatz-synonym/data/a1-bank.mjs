@@ -59,7 +59,7 @@ export const A1_BANK = [
   {
     lemma: 'abheben',
     replace: 'abheben',
-    hint: 'Wortschatz — Geld vom Konto holen',
+    hint: 'Wortschatz — Bargeld am Automaten bekommen',
     context: 'Am Automaten möchte ich 100 Euro abheben.',
     options: ['holen', 'ziehen', 'einzahlen', 'überweisen', 'unterschreiben'],
     correct: ['holen', 'ziehen'],
@@ -83,7 +83,7 @@ export const A1_BANK = [
   {
     lemma: 'Bargeld',
     replace: 'Bargeld',
-    hint: 'Wortschatz — Münzen und Scheine in der Hand',
+    hint: 'Wortschatz — Geld, das man anfassen kann',
     context: 'Hast du Bargeld dabei?',
     options: ['Münzen und Scheine', 'Geld in bar', 'eine Karte', 'ein Formular', 'einen Brief'],
     correct: ['Münzen und Scheine', 'Geld in bar'],

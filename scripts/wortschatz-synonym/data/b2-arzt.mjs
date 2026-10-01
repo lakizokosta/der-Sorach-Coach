@@ -35,7 +35,7 @@ export const B2_ARZT = [
   {
     lemma: 'stationär',
     replace: 'stationär',
-    hint: 'Wortschatz — mit Aufenthalt in der Klinik',
+    hint: 'Wortschatz — mit Übernachtung auf der Station',
     context: 'Bei Komplikationen behandeln wir Sie stationär.',
     options: ['im Krankenhaus', 'in der Klinik', 'ambulant', 'extern', 'nüchtern'],
     correct: ['im Krankenhaus', 'in der Klinik'],
@@ -83,7 +83,7 @@ export const B2_ARZT = [
   {
     lemma: 'Therapie',
     replace: 'Therapie',
-    hint: 'Wortschatz — medizinische Behandlung',
+    hint: 'Wortschatz — Maßnahmen zur Heilung',
     context: 'Wir passen die Therapie an Ihre Beschwerden an.',
     options: ['Behandlung', 'Heilbehandlung', 'Anamnese', 'Aufnahme', 'Verordnung'],
     correct: ['Behandlung', 'Heilbehandlung'],
@@ -123,7 +123,7 @@ export const B2_ARZT = [
   {
     lemma: 'Beschwerden',
     replace: 'Beschwerden',
-    hint: 'Wortschatz — subjektive Symptome',
+    hint: 'Wortschatz — was der Patient selbst spürt',
     context: 'Schildern Sie Ihre aktuellen Beschwerden möglichst präzise.',
     options: ['Symptome', 'Leiden', 'Befunde', 'Verordnungen', 'Aufnahmen'],
     correct: ['Symptome', 'Leiden'],

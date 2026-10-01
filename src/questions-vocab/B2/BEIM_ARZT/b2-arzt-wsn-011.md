@@ -5,7 +5,7 @@ lemma: Therapie
 set: BEIM_ARZT
 focus: synonym
 replace: Therapie
-hint: "Wortschatz — medizinische Behandlung"
+hint: "Wortschatz — Maßnahmen zur Heilung"
 options:
   - Behandlung
   - Heilbehandlung

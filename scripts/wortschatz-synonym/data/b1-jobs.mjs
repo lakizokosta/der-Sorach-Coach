@@ -99,7 +99,7 @@ export const B1_JOBS = [
   {
     lemma: 'Verantwortung',
     replace: 'Verantwortung',
-    hint: 'Wortschatz — Pflichten und Entscheidungen im Job',
+    hint: 'Wortschatz — Aufgaben, für die man im Job geradesteht',
     context: 'In der neuen Rolle übernehmen Sie mehr Verantwortung.',
     options: ['Zuständigkeiten', 'Pflichten', 'Urlaub', 'Freizeit', 'Pausen'],
     correct: ['Zuständigkeiten', 'Pflichten'],
@@ -155,7 +155,7 @@ export const B1_JOBS = [
   {
     lemma: 'Homeoffice',
     replace: 'im Homeoffice',
-    hint: 'Wortschatz — Arbeiten von zu Hause aus',
+    hint: 'Wortschatz — Arbeitsplatz in der eigenen Wohnung',
     context: 'Zweimal pro Woche arbeiten Sie im Homeoffice.',
     options: ['von zu Hause aus', 'in Telearbeit', 'im Büro', 'in der Kantine', 'beim Kunden'],
     correct: ['von zu Hause aus', 'in Telearbeit'],

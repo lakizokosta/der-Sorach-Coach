@@ -5,7 +5,7 @@ lemma: auf die lange Bank schieben
 set: REDEWENDUNGEN
 focus: synonym
 replace: auf die lange Bank schieben
-hint: "Redewendung — eine Aufgabe auf später verschieben"
+hint: "Redewendung — eine unangenehme Aufgabe liegen lassen"
 options:
   - auf später verschieben
   - hinauszögern

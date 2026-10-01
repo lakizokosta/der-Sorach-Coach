@@ -5,7 +5,7 @@ lemma: Unterlagen
 set: BUEROKRATIE
 focus: synonym
 replace: Unterlagen
-hint: "Wortschatz — Dokumente zum Antrag"
+hint: "Wortschatz — was man zum Antrag mitbringt"
 options:
   - Dokumente
   - Papiere

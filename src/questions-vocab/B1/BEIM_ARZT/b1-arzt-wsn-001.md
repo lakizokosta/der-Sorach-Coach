@@ -5,7 +5,7 @@ lemma: Untersuchung
 set: BEIM_ARZT
 focus: synonym
 replace: Untersuchung
-hint: "Wortschatz — ärztliche Kontrolle"
+hint: "Wortschatz — der Arzt prüft den Körper"
 options:
   - Kontrolle
   - Überprüfung

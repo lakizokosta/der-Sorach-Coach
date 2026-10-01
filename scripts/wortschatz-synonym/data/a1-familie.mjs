@@ -187,7 +187,7 @@ export const MEINE_FAMILIE = [
   {
     lemma: 'lieb',
     replace: 'lieb',
-    hint: 'Wortschatz — freundlich zur Familie',
+    hint: 'Wortschatz — gut zu anderen Menschen',
     context: 'Meine Schwester ist sehr lieb.',
     options: ['nett', 'freundlich', 'böse', 'laut', 'frech'],
     correct: ['nett', 'freundlich'],

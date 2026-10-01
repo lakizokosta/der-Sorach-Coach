@@ -107,7 +107,7 @@ export const A2_ARZT = [
   {
     lemma: 'krank',
     replace: 'krank',
-    hint: 'Wortschatz — nicht gesund',
+    hint: 'Wortschatz — man fühlt sich schlecht und bleibt im Bett',
     context: 'Ich bin krank und kann heute nicht arbeiten.',
     options: ['erkrankt', 'nicht gesund', 'gesund', 'fit', 'fröhlich'],
     correct: ['erkrankt', 'nicht gesund'],

@@ -5,7 +5,7 @@ lemma: Beschwerden
 set: BEIM_ARZT
 focus: synonym
 replace: Beschwerden
-hint: "Wortschatz — subjektive Symptome"
+hint: "Wortschatz — was der Patient selbst spürt"
 options:
   - Symptome
   - Leiden

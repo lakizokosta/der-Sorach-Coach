@@ -5,7 +5,7 @@ lemma: lieb
 set: MEINE_FAMILIE
 focus: synonym
 replace: lieb
-hint: "Wortschatz — freundlich zur Familie"
+hint: "Wortschatz — gut zu anderen Menschen"
 options:
   - nett
   - freundlich

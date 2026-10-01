@@ -5,7 +5,7 @@ lemma: Brief
 set: BUEROKRATIE
 focus: synonym
 replace: per Brief
-hint: "Wortschatz — schriftliche Nachricht per Post"
+hint: "Wortschatz — Nachricht auf Papier im Umschlag"
 options:
   - per Post
   - auf dem Postweg

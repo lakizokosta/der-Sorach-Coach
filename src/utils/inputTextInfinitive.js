@@ -6,7 +6,7 @@
  * separable-verb particle + finite `correct` answer (verb topics only).
  */
 
-import verbLemmas from '@/data/verbLemmas.json';
+import verbLemmas from '../data/verbLemmas.json' with { type: 'json' };
 
 function stripTrailingPromptHint(text) {
   return String(text || '')

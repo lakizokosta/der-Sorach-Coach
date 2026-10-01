@@ -3,7 +3,7 @@ export const B1_ARZT = [
   {
     lemma: 'Untersuchung',
     replace: 'Untersuchung',
-    hint: 'Wortschatz — ärztliche Kontrolle',
+    hint: 'Wortschatz — der Arzt prüft den Körper',
     context: 'Der Arzt führt eine gründliche Untersuchung durch.',
     options: ['Kontrolle', 'Überprüfung', 'Überweisung', 'Krankschreibung', 'Impfung'],
     correct: ['Kontrolle', 'Überprüfung'],

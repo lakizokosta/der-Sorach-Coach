@@ -397,6 +397,15 @@ focus: word
 - ✅ `replace: einen Ohrwurm` / correct `eine Melodie im Kopf`, `ein Lied im Ohr`
 - Источник: `scripts/wortschatz-synonym/data/*.mjs` (+ `.md` в `src/questions-vocab/*/*/*-wsn-*.md`).
 
+### 2026-10-01 — Synonym: hint не должен содержать правильный вариант (CI `questions:verify:vocab`)
+- Симптом: после замены опций правильный ответ дословно стоит в `hint` — `hint: Geld vom Konto holen` + correct `holen`; `hint: nicht gesund` + correct `nicht gesund`. CI и Cloudflare-сборка падают.
+- Правило:
+  1. После любой правки `options`/`correct` перечитать `hint`: ни один правильный вариант (целым словом/фразой) в нём не встречается. Подсказку менять **только** в synonym-данных и `-wsn-` файле — у `so/in/ms/dd` она общая.
+  2. Числа в опциях — словом (`achtundzwanzig`), не `28`: YAML читает голое число как number, и `correct` не совпадает с `options`.
+  3. Перед коммитом: `npm run questions:verify:vocab`.
+- ❌ `hint: "Wortschatz — ärztliche Kontrolle"` / correct `Kontrolle`
+- ✅ `hint: "Wortschatz — der Arzt prüft den Körper"` / correct `Kontrolle`
+
 ### 2026-09-22 — Modalverben A2: контекст, один верный Modal
 - Симптом: `Ich ___ heute nicht arbeiten` + options *kann/will/darf/muss* — все грамматически возможны; система принимает только *muss*.
 - Правило для **select-one / input-text** Modalverben (A1–B2, будущие темы):

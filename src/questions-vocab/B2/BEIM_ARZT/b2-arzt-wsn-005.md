@@ -5,7 +5,7 @@ lemma: stationär
 set: BEIM_ARZT
 focus: synonym
 replace: stationär
-hint: "Wortschatz — mit Aufenthalt in der Klinik"
+hint: "Wortschatz — mit Übernachtung auf der Station"
 options:
   - im Krankenhaus
   - in der Klinik

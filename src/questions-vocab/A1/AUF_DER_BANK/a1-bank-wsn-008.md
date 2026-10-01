@@ -5,7 +5,7 @@ lemma: abheben
 set: AUF_DER_BANK
 focus: synonym
 replace: abheben
-hint: "Wortschatz — Geld vom Konto holen"
+hint: "Wortschatz — Bargeld am Automaten bekommen"
 options:
   - holen
   - ziehen
