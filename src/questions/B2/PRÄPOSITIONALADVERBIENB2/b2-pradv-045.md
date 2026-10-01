@@ -2,11 +2,11 @@
 id: b2-pradv-045
 type: select-one
 options:
-  - denke
-  - denkst
-  - gedacht
-  - denken
-correct: denkst
+  - Woran
+  - Womit
+  - Worin
+  - Worauf
+correct: Womit
 ---
 
-Woran ___ du bei der Entscheidung? (Pronominaladverb)
+Du finanzierst dein Studium mit einem Stipendium. — ___ finanzierst du dein Studium? (Pronominaladverb)

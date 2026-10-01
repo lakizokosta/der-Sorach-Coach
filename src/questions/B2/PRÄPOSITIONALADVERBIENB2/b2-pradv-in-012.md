@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-012
 type: input-text
-hint: Pronominaladverb — bauen / baut / baute / gebaut
+hint: Pronominaladverb — Präp. auf
 correct:
-  - baut
+  - darauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Hierauf ___ die ganze Argumentation.
+Wartest du auf eine Antwort der Behörde? — Ich warte ___.

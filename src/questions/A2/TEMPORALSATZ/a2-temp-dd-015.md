@@ -7,8 +7,7 @@ words:
   - Pause
   - essen
   - wir
-commas:
-  - 2
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

@@ -7,12 +7,9 @@ focus: word
 words:
   - Wir
   - wohnen
-  - mit
+  - bei
   - unseren
   - Eltern
-commas:
-  - 2
-  - 4
 ---
 
 Ordne die Wörter: (Mit den Eltern wohnen)

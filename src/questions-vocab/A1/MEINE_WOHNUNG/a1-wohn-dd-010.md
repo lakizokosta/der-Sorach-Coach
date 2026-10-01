@@ -10,8 +10,6 @@ words:
   - im
   - zweiten
   - Stock
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Stockwerk)

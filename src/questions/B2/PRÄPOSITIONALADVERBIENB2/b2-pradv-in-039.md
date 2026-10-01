@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-039
 type: input-text
-hint: Pronominaladverb — haben / habt / hattet / hättet
+hint: Pronominaladverb — Präp. für
 correct:
-  - habt
+  - dafür
 ---
 
 Ergänze das Pronominaladverb:
 
-Worüber ___ ihr gestern gesprochen?
+Interessierst du dich für das Forschungsthema? — Ich interessiere mich ___.

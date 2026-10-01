@@ -116,7 +116,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onOutsideClick));
       {{ question.hint }}
     </div>
 
-    <div class="lesen-text">
+    <div class="lesen-text lesen-text--preline">
       <template v-for="(seg, i) in segments" :key="i">
         <span v-if="seg.type === 'text'">{{ seg.value }}</span>
         <button
@@ -153,3 +153,10 @@ onBeforeUnmount(() => document.removeEventListener('click', onOutsideClick));
     </div>
   </div>
 </template>
+
+<style scoped>
+/* Allow Vorgeschichte + dialogue line breaks in the prompt body. */
+.lesen-text--preline {
+  white-space: pre-wrap;
+}
+</style>

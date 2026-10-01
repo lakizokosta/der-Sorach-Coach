@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-Ich hoffe, ___ von euch kann mir helfen.
+Ist denn ___ von der Familie zu Hause?

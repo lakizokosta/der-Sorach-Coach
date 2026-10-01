@@ -7,9 +7,13 @@ words:
   - schon
   - jemanden
   - kennengelernt
-  - ja
+  - ?
+  - Ja
   - zwei
   - Kollegen
+  - .
+commas:
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

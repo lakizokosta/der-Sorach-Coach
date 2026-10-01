@@ -4,10 +4,9 @@ type: dropbox
 words:
   - Ich
   - kann
-  - dir
-  - beim
-  - Formular
-  - helfen
+  - nicht
+  - Fußball
+  - spielen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

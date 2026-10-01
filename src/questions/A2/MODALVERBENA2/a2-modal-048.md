@@ -2,11 +2,11 @@
 id: a2-modal-048
 type: select-one
 options:
-  - Will
-  - Darf
-  - Kann
-  - Soll
-correct: Darf
+  - dürfen
+  - wollen
+  - können
+  - sollen
+correct: wollen
 ---
 
-___ ich hier parken? (Modalverb + Verb dürfen)
+Die Freunde haben beschlossen: Wir ___ zusammen kochen. (Modalverb + Verb wollen)

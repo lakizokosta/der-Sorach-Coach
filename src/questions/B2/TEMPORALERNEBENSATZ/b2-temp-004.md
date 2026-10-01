@@ -9,4 +9,4 @@ options:
 correct: Während
 ---
 
-___, ich studierte, arbeitete ich nebenbei. (Grammatikform)
+___ ich studierte, arbeitete ich nebenbei. (Grammatikform)

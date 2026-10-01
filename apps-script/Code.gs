@@ -115,6 +115,7 @@ function doGet(e) {
       case 'validateCode':       return json(validateCode(e.parameter));
       case 'validateMagicToken': return json(validateMagicToken(e.parameter));
       case 'requestMagicLink':   return json(requestMagicLink(e.parameter));
+      case 'refreshMagicSession': return json(refreshMagicSession_(e.parameter));
       case 'monitorNotify':      return json(handleMonitorNotify_(e.parameter));
       default:                   return json({ ok: false, error: 'Unknown action' });
     }
@@ -1522,16 +1523,16 @@ function verifyTrainingAccess_(body) {
   const deviceId = String(body.deviceId || '').trim();
 
   if (email && sessionToken) {
-    if (!validateMagicSession_(email, sessionToken)) {
-      return { ok: false, error: 'Session abgelaufen' };
+    if (validateMagicSession_(email, sessionToken)) {
+      const ent = getEntitlementsForEmail_(email);
+      if (!ent.isPremium) return { ok: false, error: 'Premium erforderlich' };
+      return {
+        ok: true,
+        isPremium: true,
+        trainingJwt: issueTrainingJwt_({ premium: true, email: email }),
+      };
     }
-    const ent = getEntitlementsForEmail_(email);
-    if (!ent.isPremium) return { ok: false, error: 'Premium erforderlich' };
-    return {
-      ok: true,
-      isPremium: true,
-      trainingJwt: issueTrainingJwt_({ premium: true, email: email }),
-    };
+    // Fall through: sessionToken may belong to a code session, not magic-link.
   }
 
   if (code && sessionToken) {

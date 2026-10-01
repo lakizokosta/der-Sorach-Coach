@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Er hat Überstunden gemacht. ___, ist er müde.
+Er hat Überstunden gemacht. ___ ist er müde.

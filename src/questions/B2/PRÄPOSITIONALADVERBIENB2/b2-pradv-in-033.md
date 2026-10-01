@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-033
 type: input-text
-hint: Pronominaladverb — gelöst / lösen / löst / löstest
+hint: Pronominaladverb — Präp. an
 correct:
-  - löst
+  - daran
 ---
 
 Ergänze das Pronominaladverb:
 
-Womit ___ man das Problem?
+Denkst du bei der Entscheidung an die Risiken? — Ja, ich denke ___.

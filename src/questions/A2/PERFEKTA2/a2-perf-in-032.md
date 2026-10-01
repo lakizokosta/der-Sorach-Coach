@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Perfektform:
 
-Sie ___ sehr gut für die Gäste gekocht.
+Sie (sie, Sg.) ___ sehr gut für die Gäste gekocht.

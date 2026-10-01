@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-034
 type: input-text
-hint: Pronominaladverb — warte / warten / wartest / wartete
+hint: Pronominaladverb — Präp. auf
 correct:
-  - warte
+  - darauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Darauf ___ ich nicht.
+Baut die Argumentation auf dieser These? — Ja, sie baut ___.

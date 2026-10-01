@@ -22,6 +22,7 @@ const rateBuckets = new Map();
 
 const ALLOWED_ORIGINS = [
   'https://lernziel-deutsch.de',
+  'https://www.lernziel-deutsch.de',
   'http://localhost',
   'http://127.0.0.1',
 ];
@@ -208,6 +209,7 @@ async function verifyTrainingAccess(request, env, params) {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify(body),
+      signal: AbortSignal.timeout(15000),
     });
     const text = await res.text();
     if (!text) return { ok: false, error: 'Empty backend response' };
@@ -230,7 +232,8 @@ async function loadLevelPool(level) {
   const loader = LEVEL_IMPORTS[upper];
   if (!loader) return [];
   const mod = await loader();
-  levelCache[upper] = mod.default || [];
+  const data = mod && (mod.default ?? mod);
+  levelCache[upper] = Array.isArray(data) ? data : [];
   return levelCache[upper];
 }
 

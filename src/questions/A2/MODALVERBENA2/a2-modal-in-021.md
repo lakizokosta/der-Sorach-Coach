@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-021
 type: input-text
-hint: Modalverb + Verb wollen
+hint: Modalverb + Verb sollen
 correct:
-  - wollen
+  - sollt
 ---
 
 Ergänze die Modalverbform:
 
-Wir ___ morgen früh losfahren.
+Der Lehrer erklärt: Ihr ___ im Unterricht leise sein.

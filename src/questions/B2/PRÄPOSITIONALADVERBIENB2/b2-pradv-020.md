@@ -2,11 +2,11 @@
 id: b2-pradv-020
 type: select-one
 options:
-  - finanzierte
-  - finanzierst
-  - finanzier
-  - finanzieren
-correct: finanzierst
+  - Worüber
+  - Womit
+  - Worauf
+  - Worin
+correct: Womit
 ---
 
-Womit ___ du dein Studium? (Pronominaladverb)
+Du finanzierst dein Studium mit einem Stipendium. — ___ finanzierst du dein Studium? (Pronominaladverb)

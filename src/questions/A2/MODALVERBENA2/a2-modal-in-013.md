@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-___ ich das Fenster öffnen?
+Mir ist warm. ___ ich bitte das Fenster öffnen?

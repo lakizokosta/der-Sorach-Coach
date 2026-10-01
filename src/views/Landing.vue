@@ -1,6 +1,8 @@
 <script setup>
 /**
- * Landing — game-first home. Tarife & Login live on Premium Hub (`/premium?hub=1`).
+ * Landing — same layout for free and Premium.
+ * Premium only unlocks features on this page (hub, Niveau, Schwächen) + profile.
+ * Tarife checkout: `/premium?hub=1`.
  */
 
 import { computed, ref } from 'vue';
@@ -14,6 +16,7 @@ import SchwaechenCard from '@/components/SchwaechenCard.vue';
 import LegalFooter from '@/components/LegalFooter.vue';
 import NiveauTestBlock from '@/components/NiveauTestBlock.vue';
 import ConversionSheet from '@/components/ConversionSheet.vue';
+import TrainingHubPanel from '@/components/TrainingHubPanel.vue';
 import { useAuth } from '@/composables/useAuth.js';
 import { useStreak } from '@/composables/useStreak.js';
 import { useXp } from '@/composables/useXp.js';
@@ -30,6 +33,7 @@ const { state: xp, level } = useXp();
 const { isPremium, isBasis } = usePremium();
 const { level: cefrLevel } = useCefrLevel();
 const conversionSheetOpen = ref(false);
+const conversionVariant = ref('niveau');
 
 const summaryText = computed(() => {
   const parts = [];
@@ -45,24 +49,18 @@ const summaryText = computed(() => {
   return parts.join(' &nbsp;·&nbsp; ');
 });
 
-const continueLevel = computed(() => cefrLevel.value || 'A1');
-
-const continueLabel = computed(() =>
-  cefrLevel.value
-    ? t('landing.premiumContinue', { level: cefrLevel.value })
-    : t('landing.premiumContinueDefault'),
-);
-
-const showLocalPremiumBanner = computed(
-  () => (isPremium.value || isBasis.value) && !isLoggedIn.value,
-);
+const hubLevel = computed(() => cefrLevel.value || 'A1');
 
 const showProgressSection = computed(
   () =>
+    isPremium.value ||
     isLoggedIn.value ||
     streak.currentStreak > 0 ||
     xp.totalXP > 0,
 );
+
+/** Always show Mein Profil; locked teaser for free/Basis without access. */
+const profileLocked = computed(() => !isPremium.value);
 
 const showFreeBadge = computed(
   () => !isPremium.value && !isBasis.value,
@@ -74,20 +72,33 @@ function startTrainer(lvl) {
   router.push({ name: 'trainer', query: { level: lvl, mode: 'free' } });
 }
 
-function continuePractice() {
-  startTrainer(continueLevel.value);
-}
-
 function openPremiumHub() {
   router.push({ name: 'premium', query: { hub: '1' } });
 }
 
-function onNiveauLocked() {
+function openConversion(variant = 'checkout') {
+  conversionVariant.value = variant;
   conversionSheetOpen.value = true;
+}
+
+function onNiveauLocked() {
+  openConversion('niveau');
+}
+
+function onPremiumLocked() {
+  openConversion('checkout');
 }
 
 function openProfile() {
   router.push({ name: 'profile' });
+}
+
+function onProfileClick() {
+  if (profileLocked.value && !isLoggedIn.value) {
+    openConversion('checkout');
+    return;
+  }
+  openProfile();
 }
 </script>
 
@@ -108,61 +119,35 @@ function openProfile() {
         class="landing-summary"
         v-html="summaryText"
       />
+
+      <div class="landing-logged-in-actions landing-logged-in-actions--hero">
+        <button
+          type="button"
+          class="landing-profile-btn"
+          :class="{ 'landing-profile-btn--locked': profileLocked }"
+          @click="onProfileClick"
+        >
+          {{ t('landing.profileBtn') }}
+          <span v-if="profileLocked" class="landing-profile-btn__lock" aria-hidden="true">💎</span>
+        </button>
+      </div>
+
+      <div
+        v-if="showProgressSection"
+        class="landing-daily-goal-hero"
+      >
+        <DailyGoalCard />
+      </div>
     </header>
 
     <div class="landing-stack">
-      <div
-        v-if="showLocalPremiumBanner"
-        class="landing-premium-banner landing-block"
-      >
-        <p class="landing-premium-banner__title">{{ t('landing.premiumActiveLocal') }}</p>
-        <p class="landing-premium-banner__hint">{{ t('landing.premiumActiveLocalHint') }}</p>
-        <button
-          type="button"
-          class="landing-premium-banner__btn"
-          @click="continuePractice"
-        >
-          {{ continueLabel }}
-        </button>
-        <button
-          v-if="isPremium"
-          type="button"
-          class="landing-more-btn landing-more-btn--secondary"
-          @click="openPremiumHub"
-        >
-          {{ t('premium.topicsHeading') }} →
-        </button>
-      </div>
-
-      <div
-        v-else-if="isLoggedIn && (isPremium || isBasis)"
-        class="landing-premium-banner landing-premium-banner--ok landing-block"
-      >
-        <p class="landing-premium-banner__title">{{ t('landing.premiumActiveLoggedIn') }}</p>
-        <button
-          type="button"
-          class="landing-premium-banner__btn"
-          @click="continuePractice"
-        >
-          {{ continueLabel }}
-        </button>
-        <button
-          v-if="isPremium"
-          type="button"
-          class="landing-more-btn landing-more-btn--secondary"
-          @click="openPremiumHub"
-        >
-          {{ t('premium.topicsHeading') }} →
-        </button>
-      </div>
-
       <section
         class="landing-section landing-section--levels landing-block"
         :aria-label="t('landing.sectionStart')"
       >
         <div class="landing-level-pick">
           <h2 class="landing-level-pick__title">{{ t('landing.levelPickTitle') }}</h2>
-          <p class="landing-level-pick__hint">{{ t('landing.startA1Hint') }}</p>
+          <p v-if="!isPremium" class="landing-level-pick__hint">{{ t('landing.startA1Hint') }}</p>
         </div>
 
         <div class="level-grid level-grid--landing">
@@ -202,7 +187,15 @@ function openProfile() {
 
         <NiveauTestBlock @locked="onNiveauLocked" />
 
+        <TrainingHubPanel
+          class="landing-block"
+          :locked="!isPremium"
+          :initial-level="hubLevel"
+          @unlock="onPremiumLocked"
+        />
+
         <button
+          v-if="!isPremium"
           type="button"
           class="landing-more-btn"
           @click="openPremiumHub"
@@ -220,17 +213,10 @@ function openProfile() {
           <span class="landing-divider__label">{{ t('landing.sectionDashboard') }}</span>
         </div>
 
-        <div v-if="isLoggedIn" class="landing-logged-in-actions">
-          <button type="button" class="landing-profile-btn" @click="openProfile">
-            {{ t('landing.profileBtn') }}
-          </button>
-        </div>
-
         <div class="landing-progress">
-          <DailyGoalCard />
           <BonusMissionsCard />
-          <SchwaechenCard />
           <ActivityCalendar />
+          <SchwaechenCard @locked="onPremiumLocked" />
         </div>
       </section>
     </div>
@@ -239,7 +225,7 @@ function openProfile() {
 
     <ConversionSheet
       v-model="conversionSheetOpen"
-      variant="niveau"
+      :variant="conversionVariant"
       plan="3months"
     />
   </div>

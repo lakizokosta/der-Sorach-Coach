@@ -1,11 +1,12 @@
 ---
 id: b2-indef-in-041
 type: input-text
-hint: Indefinitpronomen — alles / etwas / jemand / niemand
+hint: Indefinitpronomen — Alles / Etwas / Nichts / Niemand
 correct:
-  - etwas
+  - Niemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Er hat ___ Interessantes berichtet.
+Nach dem Alarm war der Flur leer.
+___ darf den Raum betreten.

@@ -1,11 +1,11 @@
 ---
 id: b2-indef-in-021
 type: input-text
-hint: Indefinitpronomen — alles / etwas / jemand / niemand
+hint: Indefinitpronomen — etwas / jemanden / niemand / niemanden
 correct:
-  - etwas
+  - jemanden
 ---
 
 Ergänze das Indefinitpronomen:
 
-Sie möchte ___ Neues ausprobieren.
+Sie sucht ___ , der Italienisch spricht.

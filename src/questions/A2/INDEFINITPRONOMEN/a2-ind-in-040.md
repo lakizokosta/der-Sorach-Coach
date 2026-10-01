@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-040
 type: input-text
-hint: Indefinitpronomen — Verneinung Person, Akk. = niemanden
+hint: Indefinitpronomen — Verneinung Person = niemand
 correct:
-  - niemanden
+  - niemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Ich sehe ___ auf der Straße.
+Hier ist ___ zu Hause.

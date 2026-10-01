@@ -11,8 +11,6 @@ words:
   - trinke
   - ich
   - Kaffee
-commas:
-  - 3
 ---
 
 Ordne die Wörter: (Balkon)

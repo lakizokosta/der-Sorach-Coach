@@ -298,6 +298,11 @@ export default {
     placementShareTitle: 'My German level',
     placementShareText:
       'My German level: {level} — placement test with Der SprachCoach 🇩🇪',
+    sessionShare: '📤 Share result',
+    sessionShareTitle: 'My training session',
+    sessionShareText:
+      '{scorePct}% correct ({correct}/{answered} questions) — Der SprachCoach 🇩🇪',
+    schwaechenShareLabel: 'Weak spots training',
   },
   funnel: {
     sheetAria: 'Premium offer',
@@ -332,7 +337,7 @@ export default {
     hintLocked: 'Train weak topics — Premium only. Tap for details.',
     unlock: '💎 Unlock Premium',
     aria: 'Weakness mode',
-    countPremium: 'Premium',
+    countPremium: '💎 Premium',
     countEmpty: '0 / 3 topics',
     countSummary: '{errors} errors · {topics} topics',
     hintEmpty: 'No weak spots recorded yet. Tap for more info.',

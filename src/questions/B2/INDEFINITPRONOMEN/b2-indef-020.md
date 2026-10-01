@@ -2,11 +2,11 @@
 id: b2-indef-020
 type: select-one
 options:
-  - Etwas
-  - Nichts
-  - Jemand
-  - Niemand
-correct: Jemand
+  - etwas
+  - nichts
+  - niemand
+  - jemand
+correct: niemand
 ---
 
-___ hat die Tür offengelassen. (Indefinitpronomen)
+Im leeren Büro war heute Morgen ___ . (Indefinitpronomen)

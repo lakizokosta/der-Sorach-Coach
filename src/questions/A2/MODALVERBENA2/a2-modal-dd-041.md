@@ -4,11 +4,9 @@ type: dropbox
 words:
   - Ich
   - kann
-  - leider
-  - nicht
-  - zur
-  - Einladung
-  - kommen
+  - keine
+  - E-Mail
+  - senden
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

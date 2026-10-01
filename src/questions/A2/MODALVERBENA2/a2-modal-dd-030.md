@@ -2,12 +2,10 @@
 id: a2-modal-dd-030
 type: dropbox
 words:
-  - Darf
-  - ich
-  - das
-  - Fenster
-  - öffnen
-  - ?
+  - Du
+  - sollst
+  - mehr
+  - schlafen
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

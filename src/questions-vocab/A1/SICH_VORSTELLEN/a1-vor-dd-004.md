@@ -10,8 +10,6 @@ words:
   - ein
   - bisschen
   - Deutsch
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Sprachen)

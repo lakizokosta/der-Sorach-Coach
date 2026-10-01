@@ -46,10 +46,187 @@ export const VOCAB_SETS = {
         accent: '#4a8f6a',
       },
     },
+    {
+      key: 'AUF_DER_BANK',
+      name: 'Auf der Bank',
+      desc: 'Konto, Geld, EC-Karte, einzahlen, abheben',
+      theme: {
+        tint: 'rgba(255, 210, 100, 0.14)',
+        accent: '#9a7b2a',
+      },
+    },
+    {
+      key: 'HOBBYS_FREIZEIT',
+      name: 'Hobbys & Freizeit',
+      desc: 'Sport, Kino, lesen, Verein, Freizeit',
+      theme: {
+        tint: 'rgba(140, 200, 160, 0.14)',
+        accent: '#4a9a6a',
+      },
+    },
   ],
-  A2: [],
-  B1: [],
-  B2: [],
+  A2: [
+    {
+      key: 'BEIM_ARZT',
+      name: 'Beim Arzt',
+      desc: 'Symptome, Termin, Rezept, Apotheke',
+      theme: {
+        tint: 'rgba(120, 180, 200, 0.14)',
+        accent: '#2f7a8a',
+        image: '/themes/theme-beim-arzt.png',
+      },
+    },
+    {
+      key: 'AUF_DER_BANK',
+      name: 'Auf der Bank',
+      desc: 'Girokonto, Überweisung, Online-Banking, Kontoauszug',
+      theme: {
+        tint: 'rgba(255, 210, 100, 0.14)',
+        accent: '#9a7b2a',
+      },
+    },
+    {
+      key: 'HOBBYS_FREIZEIT',
+      name: 'Hobbys & Freizeit',
+      desc: 'Interesse, trainieren, Ausflug, Verein, entspannen',
+      theme: {
+        tint: 'rgba(130, 190, 170, 0.14)',
+        accent: '#3d8a6a',
+      },
+    },
+    {
+      key: 'JOB_SUCHE',
+      name: 'Jobsuche',
+      desc: 'Bewerbung, Lebenslauf, Gehalt, Vorstellungsgespräch',
+      theme: {
+        tint: 'rgba(180, 170, 210, 0.14)',
+        accent: '#5a5a9a',
+      },
+    },
+    {
+      key: 'BUEROKRATIE',
+      name: 'Bürokratie',
+      desc: 'Bürgeramt, Formular, Antrag, Termin, Behörde',
+      theme: {
+        tint: 'rgba(140, 150, 170, 0.14)',
+        accent: '#5a6278',
+      },
+    },
+  ],
+  B1: [
+    {
+      key: 'BEIM_ARZT',
+      name: 'Beim Arzt',
+      desc: 'Untersuchung, Überweisung, Krankschreibung, Nebenwirkungen',
+      theme: {
+        tint: 'rgba(120, 180, 200, 0.14)',
+        accent: '#2f7a8a',
+        image: '/themes/theme-beim-arzt.png',
+      },
+    },
+    {
+      key: 'AUF_DER_BANK',
+      name: 'Auf der Bank',
+      desc: 'Kredit, Zinsen, Lastschrift, SEPA, Dispo',
+      theme: {
+        tint: 'rgba(255, 210, 100, 0.14)',
+        accent: '#9a7b2a',
+      },
+    },
+    {
+      key: 'HOBBYS_FREIZEIT',
+      name: 'Hobbys & Freizeit',
+      desc: 'Leidenschaft, Verein, Theater, Chor, Freizeitgestaltung',
+      theme: {
+        tint: 'rgba(150, 180, 200, 0.14)',
+        accent: '#4a7a9a',
+      },
+    },
+    {
+      key: 'JOB_SUCHE',
+      name: 'Jobsuche',
+      desc: 'Arbeitsvertrag, Karriere, Probezeit, Personalabteilung',
+      theme: {
+        tint: 'rgba(170, 165, 210, 0.14)',
+        accent: '#4a4a8a',
+      },
+    },
+    {
+      key: 'BUEROKRATIE',
+      name: 'Bürokratie',
+      desc: 'Ausländerbehörde, Bescheid, Widerspruch, Unterlagen',
+      theme: {
+        tint: 'rgba(130, 140, 165, 0.14)',
+        accent: '#4a5268',
+      },
+    },
+    {
+      key: 'REDEWENDUNGEN',
+      name: 'Deutsch Redewendungen',
+      desc: 'Redewendungen, Sprichwörter, Umgangssprache',
+      theme: {
+        tint: 'rgba(200, 170, 140, 0.14)',
+        accent: '#8a6840',
+      },
+    },
+  ],
+  B2: [
+    {
+      key: 'BEIM_ARZT',
+      name: 'Beim Arzt',
+      desc: 'Anamnese, Klinik, ambulant/stationär, Verträglichkeit',
+      theme: {
+        tint: 'rgba(120, 180, 200, 0.14)',
+        accent: '#2f7a8a',
+        image: '/themes/theme-beim-arzt.png',
+      },
+    },
+    {
+      key: 'AUF_DER_BANK',
+      name: 'Auf der Bank',
+      desc: 'Kontokorrent, Bonität, Depot, Compliance, Valuta',
+      theme: {
+        tint: 'rgba(255, 210, 100, 0.14)',
+        accent: '#9a7b2a',
+      },
+    },
+    {
+      key: 'HOBBYS_FREIZEIT',
+      name: 'Hobbys & Freizeit',
+      desc: 'Freizeitverhalten, Vereinsleben, Kulturangebot, Lifestyle',
+      theme: {
+        tint: 'rgba(160, 170, 210, 0.14)',
+        accent: '#5a6a9a',
+      },
+    },
+    {
+      key: 'JOB_SUCHE',
+      name: 'Jobsuche',
+      desc: 'Arbeitsmarkt, Recruiting, Tarifvertrag, Karriereplanung',
+      theme: {
+        tint: 'rgba(150, 160, 220, 0.14)',
+        accent: '#4a508a',
+      },
+    },
+    {
+      key: 'BUEROKRATIE',
+      name: 'Bürokratie',
+      desc: 'Verwaltungsakt, Rechtsmittel, Akteneinsicht, Verfahrensfrist',
+      theme: {
+        tint: 'rgba(120, 130, 160, 0.14)',
+        accent: '#3a4460',
+      },
+    },
+    {
+      key: 'REDEWENDUNGEN',
+      name: 'Deutsch Redewendungen',
+      desc: 'Redewendungen, Sprichwörter, feste Wendungen',
+      theme: {
+        tint: 'rgba(190, 160, 130, 0.14)',
+        accent: '#7a5830',
+      },
+    },
+  ],
 };
 
 /**

@@ -2,11 +2,11 @@
 id: a2-modal-035
 type: select-one
 options:
-  - darf
-  - will
-  - soll
-  - kann
-correct: kann
+  - müssen
+  - dürfen
+  - sollen
+  - wollen
+correct: wollen
 ---
 
-Er ___ sehr gut Deutsch. (Modalverb + Verb können)
+Wir essen kein Fleisch — wir ___ Vegetarier bleiben. (Modalverb + Verb wollen)

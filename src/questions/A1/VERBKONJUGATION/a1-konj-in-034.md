@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Präsensform des Verbs:
 
-Sie ___ in Hamburg.
+Sie (sie, Pl.) ___ in Hamburg.

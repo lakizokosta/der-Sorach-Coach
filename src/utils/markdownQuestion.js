@@ -156,6 +156,27 @@ function parseFrontmatter(block) {
     }
     const key = match[1];
     const inline = match[2];
+    const inlineTrim = inline.trim();
+
+    // YAML block scalar: `muster: |` / `muster: >`
+    if (inlineTrim === '|' || inlineTrim === '>') {
+      const blockLines = [];
+      i += 1;
+      while (i < lines.length) {
+        const next = lines[i];
+        if (next.trim() === '') {
+          blockLines.push('');
+          i += 1;
+          continue;
+        }
+        const indented = next.match(/^\s{2,}(.*)$/);
+        if (!indented) break;
+        blockLines.push(indented[1]);
+        i += 1;
+      }
+      result[key] = blockLines.join('\n').replace(/\s+$/, '');
+      continue;
+    }
 
     if (cleanValue(inline) !== '') {
       result[key] = coerceScalar(inline.trim());
@@ -336,6 +357,31 @@ export function parseQuestionFile(raw, context) {
         }
         return { correct, options: opts };
       });
+      break;
+    }
+    case 'free-write': {
+      const pflicht = Array.isArray(meta.pflicht)
+        ? meta.pflicht.map(String).filter(Boolean)
+        : [];
+      if (pflicht.length < 2) {
+        throw new Error(`free-write needs at least 2 pflicht words (${context?.path})`);
+      }
+      let muster = '';
+      if (typeof meta.muster === 'string') {
+        muster = meta.muster.trim();
+      } else if (Array.isArray(meta.muster)) {
+        muster = meta.muster.map(String).join('\n').trim();
+      }
+      if (!muster) {
+        throw new Error(`free-write needs "muster" (${context?.path})`);
+      }
+      if (!body) {
+        throw new Error(`free-write needs a prompt body (${context?.path})`);
+      }
+      question.pflicht = pflicht;
+      question.muster = muster;
+      question.minWords = Number(meta.minWords) > 0 ? Number(meta.minWords) : 12;
+      question.focus = question.focus || 'writing';
       break;
     }
     default:

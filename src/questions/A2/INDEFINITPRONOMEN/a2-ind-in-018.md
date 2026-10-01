@@ -1,11 +1,12 @@
 ---
 id: a2-ind-in-018
 type: input-text
-hint: Indefinitpronomen — unpersönliches Subjekt = man
+hint: Indefinitpronomen — unbestimmte Person = jemand
 correct:
-  - Man
+  - jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ muss die Hausaufgaben machen.
+Du suchst Hilfe im Kurs.
+Kann ___ mir helfen?

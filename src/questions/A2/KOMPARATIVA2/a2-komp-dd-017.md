@@ -2,14 +2,16 @@
 id: a2-komp-dd-017
 type: dropbox
 words:
-  - Trotzdem
+  - Ich
   - gewann
-  - ich
-  - als
-  - stärkerer
-  - Sportler
+  - weil
+  - mein
+  - Gegner
+  - schwächer
+  - war
+  - .
 commas:
-  - 2
+  - 1
 ---
 
 Ordne die Wörter zum richtigen Satz: (Komparativ — stark)

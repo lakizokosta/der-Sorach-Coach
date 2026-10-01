@@ -9,4 +9,4 @@ options:
 correct: Deshalb
 ---
 
-Er hat viel gelernt. ___, hat er die Prüfung bestanden. (Konjunktionaladverb)
+Er hat viel gelernt. ___ hat er die Prüfung bestanden. (Konjunktionaladverb)

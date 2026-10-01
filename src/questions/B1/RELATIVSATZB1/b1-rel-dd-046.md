@@ -12,7 +12,7 @@ words:
   - neu
 commas:
   - 1
-  - 5
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Relativsatz)

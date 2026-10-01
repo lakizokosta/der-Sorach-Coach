@@ -8,4 +8,4 @@ correct:
 
 Ergänze den Demonstrativartikel:
 
-Ich kenne ___ Politiker aus dem Fernsehen.
+Ich kenne nicht diesen, sondern ___ Politiker aus dem Fernsehen.

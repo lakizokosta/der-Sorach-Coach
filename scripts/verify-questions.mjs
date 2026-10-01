@@ -29,6 +29,18 @@ const counts = { 'select-one': 0, 'multi-select': 0, dropbox: 0, 'input-text': 0
 let errors = 0;
 let total = 0;
 
+/** @param {string[]} words */
+function dropboxDialogueParticleBroken(words) {
+  const particleRe = /^(ja|nein|doch|Ja|Nein|Doch)$/;
+  const pIdx = words.findIndex((w, i) => i > 0 && particleRe.test(String(w)));
+  if (pIdx < 0) return false;
+  const qIdx = words.indexOf('?');
+  const dotIdx = words.indexOf('.');
+  const qBeforeParticle = qIdx >= 0 && qIdx < pIdx;
+  const dotAfterParticle = dotIdx > pIdx;
+  return !qBeforeParticle || !dotAfterParticle;
+}
+
 for (const file of walk(ROOT)) {
   total += 1;
   const rel = relative(ROOT, file);
@@ -36,6 +48,13 @@ for (const file of walk(ROOT)) {
   try {
     const q = parseQuestionFile(readFileSync(file, 'utf8'), { level, topic, path: rel });
     counts[q.type] = (counts[q.type] || 0) + 1;
+    if (q.type === 'dropbox' && dropboxDialogueParticleBroken(q.words || [])) {
+      errors += 1;
+      // eslint-disable-next-line no-console
+      console.error(
+        `✘ ${rel}: dropbox mini-dialogue needs «?» before Ja/Nein/Doch and «.» after the answer`,
+      );
+    }
   } catch (err) {
     errors += 1;
     // eslint-disable-next-line no-console

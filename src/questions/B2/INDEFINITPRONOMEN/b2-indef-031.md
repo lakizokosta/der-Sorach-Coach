@@ -2,11 +2,12 @@
 id: b2-indef-031
 type: select-one
 options:
-  - etwas
-  - alles
-  - jemand
-  - nichts
-correct: alles
+  - Etwas
+  - Niemand
+  - Alles
+  - Jemand
+correct: Niemand
 ---
 
-Sie hat ___ gefunden, was sie suchte. (Indefinitpronomen)
+Nach dem Streit war die Küche leer.
+___ wollte noch sprechen. (Indefinitpronomen)

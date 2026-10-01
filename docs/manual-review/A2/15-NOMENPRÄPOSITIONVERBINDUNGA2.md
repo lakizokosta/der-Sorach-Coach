@@ -172,7 +172,7 @@
 ### 12. `a2-npv-012` · select-one
 
 **Aufgabe:**
-> Sie hat Teilnahme ___ dem Kurs. (Nomen-Präposition)
+> Ihre Teilnahme ___ dem Kurs ist kostenlos. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -382,7 +382,7 @@
 ### 27. `a2-npv-027` · select-one
 
 **Aufgabe:**
-> Sie hat Teilnahme ___ dem Kurs. (Nomen-Präposition)
+> Ihre Teilnahme ___ dem Kurs ist kostenlos. (Nomen-Präposition)
 
 **Optionen:**
 - zu
@@ -592,7 +592,7 @@
 ### 42. `a2-npv-042` · select-one
 
 **Aufgabe:**
-> Sie hat Teilnahme ___ dem Kurs. (Nomen-Präposition)
+> Ihre Teilnahme ___ dem Kurs ist kostenlos. (Nomen-Präposition)
 
 **Optionen:**
 - auf
@@ -830,7 +830,7 @@
 ### 62. `a2-npv-in-012` · input-text
 
 **Aufgabe:**
-> Sie nimmt Teil ___ dem Kurs. (Nomen-Präp. — Teilnahme)
+> Ihre Teilnahme ___ dem Kurs ist kostenlos. (Nomen-Präp. — Teilnahme)
 
 **Antwort:** `an`
 
@@ -1000,7 +1000,7 @@
 ### 79. `a2-npv-in-029` · input-text
 
 **Aufgabe:**
-> Sie nimmt Teil ___ dem Kurs. (Nomen-Präp. — Teilnahme)
+> Ihre Teilnahme ___ dem Kurs ist kostenlos. (Nomen-Präp. — Teilnahme)
 
 **Antwort:** `an`
 
@@ -1170,7 +1170,7 @@
 ### 96. `a2-npv-in-046` · input-text
 
 **Aufgabe:**
-> Sie nimmt Teil ___ dem Kurs. (Nomen-Präp. — Teilnahme)
+> Ihre Teilnahme ___ dem Kurs ist kostenlos. (Nomen-Präp. — Teilnahme)
 
 **Antwort:** `an`
 

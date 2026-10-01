@@ -2,11 +2,11 @@
 id: b2-pradv-003
 type: select-one
 options:
-  - finanziert
-  - finanzierte
-  - finanzieren
-  - finanzierst
-correct: finanzierst
+  - davon
+  - dabei
+  - damit
+  - darüber
+correct: darüber
 ---
 
-Womit ___ du dein Studium? (Pronominaladverb)
+Habt ihr gestern über die Reform gesprochen? — Ja, wir haben ___ gesprochen. (Pronominaladverb)

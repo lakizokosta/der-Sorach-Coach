@@ -4,9 +4,9 @@ type: select-one
 options:
   - etwas
   - nichts
-  - jemand
   - niemand
-correct: jemand
+  - jemand
+correct: niemand
 ---
 
-Ist ___ zu Hause? (Indefinitpronomen)
+Ohne Ausweis darf ___ den Raum betreten. (Indefinitpronomen)

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Perfektform:
 
-Sie ___ sich beim Sport verletzt.
+Sie (sie, Sg.) ___ sich beim Sport verletzt.

@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-022
 type: input-text
-hint: Pronominaladverb — haben / habt / hat / hattet
+hint: Pronominaladverb — Präp. in
 correct:
-  - habt
+  - Worin
 ---
 
 Ergänze das Pronominaladverb:
 
-Worüber ___ ihr gestern gesprochen?
+Der Unterschied besteht in der Methode. — ___ besteht der Unterschied?

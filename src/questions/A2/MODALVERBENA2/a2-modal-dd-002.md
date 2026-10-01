@@ -2,9 +2,11 @@
 id: a2-modal-dd-002
 type: dropbox
 words:
-  - Ich
+  - Heute
+  - ist
+  - Feiertag
+  - ich
   - muss
-  - heute
   - nicht
   - arbeiten
 ---

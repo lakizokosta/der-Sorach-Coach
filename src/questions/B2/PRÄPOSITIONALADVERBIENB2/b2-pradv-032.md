@@ -2,11 +2,11 @@
 id: b2-pradv-032
 type: select-one
 options:
-  - wäre
-  - ist
-  - sind
-  - sein
-correct: ist
+  - darin
+  - darauf
+  - damit
+  - dafür
+correct: darauf
 ---
 
-Daran ___ nichts zu ändern. (Pronominaladverb)
+Habt ihr euch auf einen Termin geeinigt? — Ja, wir haben uns ___ geeinigt. (Pronominaladverb)

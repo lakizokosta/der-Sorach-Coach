@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-016
 type: input-text
-hint: Modalverb + Verb Konjunktiv II — können/du
+hint: Modalverb + Verb können
 correct:
-  - könntest
+  - kann
 ---
 
 Ergänze die Modalverbform:
 
-Du ___ auch mitmachen.
+Ohne Schlüssel ___ ich die Tür nicht öffnen.

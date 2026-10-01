@@ -9,4 +9,4 @@ options:
 correct: Deshalb
 ---
 
-Ich war krank. ___, habe ich die Vorlesung verpasst. (Konjunktionaladverb)
+Ich war krank. ___ habe ich die Vorlesung verpasst. (Konjunktionaladverb)

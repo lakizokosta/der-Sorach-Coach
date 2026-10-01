@@ -11,6 +11,7 @@ words:
   - unser
   - Fest
   - aus
+  - .
 commas:
   - 4
 ---

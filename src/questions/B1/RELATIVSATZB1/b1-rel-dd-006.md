@@ -12,7 +12,7 @@ words:
   - heute
 commas:
   - 1
-  - 5
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Relativsatz)

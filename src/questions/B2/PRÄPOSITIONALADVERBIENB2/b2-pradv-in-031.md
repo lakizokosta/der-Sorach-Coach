@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-031
 type: input-text
-hint: Pronominaladverb — achte / achten / achtete / geachtet
+hint: Pronominaladverb — Präp. in
 correct:
-  - achten
+  - darin
 ---
 
 Ergänze das Pronominaladverb:
 
-Worauf ___ Sie besonders?
+Der Unterschied liegt in der Methode. — Der Unterschied besteht ___.

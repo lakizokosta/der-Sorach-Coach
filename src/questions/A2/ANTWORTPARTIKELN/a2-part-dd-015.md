@@ -8,6 +8,9 @@ words:
   - schön
   - aber
   - windig
+  - .
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — aber)

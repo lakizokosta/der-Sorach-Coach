@@ -4,8 +4,9 @@ type: dropbox
 words:
   - Du
   - kaufst
-  - Brot
   - heute
+  - Brot
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Präsens + Verb kaufen)

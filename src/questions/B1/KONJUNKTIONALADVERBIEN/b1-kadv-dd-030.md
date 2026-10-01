@@ -10,6 +10,8 @@ words:
   - wir
   - einen
   - Experten
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

@@ -11,8 +11,6 @@ words:
   - Apartment
   - in
   - Berlin
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Wohnung mieten)

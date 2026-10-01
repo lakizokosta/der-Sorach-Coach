@@ -10,8 +10,6 @@ words:
   - wohnt
   - in
   - Berlin
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Tante)

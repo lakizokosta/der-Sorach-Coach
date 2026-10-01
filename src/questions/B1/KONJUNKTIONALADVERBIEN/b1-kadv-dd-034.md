@@ -10,6 +10,8 @@ words:
   - lohnt
   - es
   - sich
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

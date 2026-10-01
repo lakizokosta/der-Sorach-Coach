@@ -7,10 +7,12 @@ words:
   - auf
   - gute
   - Ratschläge
+  - ?
   - —
   - Ich
   - höre
   - darauf
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Pronominaladverb)

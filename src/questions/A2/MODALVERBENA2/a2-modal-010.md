@@ -9,4 +9,4 @@ options:
 correct: wollen
 ---
 
-Wir ___ heute ins Schwimmbad gehen. (Modalverb + Verb wollen)
+Wir haben Lust darauf: Wir ___ heute ins Schwimmbad gehen. (Modalverb + Verb wollen)

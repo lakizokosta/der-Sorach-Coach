@@ -9,6 +9,7 @@ words:
   - sind
   - wir
   - glücklich
+  - .
 commas:
   - 3
 ---

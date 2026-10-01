@@ -3,7 +3,7 @@ id: b1-demo-in-020
 type: input-text
 hint: Demonstrativartikel — neutr., Nom./Akk.
 correct:
-  - Jenes
+  - Dieses
 ---
 
 Ergänze den Demonstrativartikel:

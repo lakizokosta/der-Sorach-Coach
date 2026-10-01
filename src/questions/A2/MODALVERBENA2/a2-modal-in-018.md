@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Du ___ mehr Wasser trinken.
+Mama erinnert dich: Du ___ höflich grüßen.

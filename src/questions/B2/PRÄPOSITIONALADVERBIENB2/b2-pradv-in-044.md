@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-044
 type: input-text
-hint: Pronominaladverb — haben / habt / hat / hätten
+hint: Pronominaladverb — Präp. auf
 correct:
-  - haben
+  - Worauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Darauf ___ wir uns geeinigt.
+Ihre Kritik bezieht sich auf den Bericht. — ___ bezieht sich Ihre Kritik?

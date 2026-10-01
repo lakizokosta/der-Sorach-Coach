@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-030
 type: input-text
-hint: Indefinitpronomen — unpersönliches Subjekt = man
+hint: Indefinitpronomen — Verneinung Person, Akk. = niemanden
 correct:
-  - Man
+  - niemanden
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ kann Fehler machen.
+Ich kenne ___ von den Gästen hier.

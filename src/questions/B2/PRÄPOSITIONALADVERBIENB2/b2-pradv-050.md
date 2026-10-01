@@ -2,11 +2,11 @@
 id: b2-pradv-050
 type: select-one
 options:
-  - löstest
-  - löste
-  - löst
-  - lösen
-correct: löst
+  - Woran
+  - Worüber
+  - Womit
+  - Worauf
+correct: Womit
 ---
 
-Womit ___ man das Problem? (Pronominaladverb)
+Man löst das Problem mit einem Kompromiss. — ___ löst man das Problem? (Pronominaladverb)

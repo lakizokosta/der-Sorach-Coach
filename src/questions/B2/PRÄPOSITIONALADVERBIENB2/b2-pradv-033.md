@@ -2,11 +2,11 @@
 id: b2-pradv-033
 type: select-one
 options:
-  - löstest
-  - lösen
-  - löst
-  - gelöst
-correct: löst
+  - darin
+  - damit
+  - daran
+  - dabei
+correct: daran
 ---
 
-Womit ___ man das Problem? (Pronominaladverb)
+Denkst du bei der Entscheidung an die Risiken? — Ja, ich denke ___. (Pronominaladverb)

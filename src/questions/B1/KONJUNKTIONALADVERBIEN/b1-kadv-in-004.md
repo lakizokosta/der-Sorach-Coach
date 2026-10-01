@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Das Projekt ist teuer. ___, lohnt es sich.
+Das Projekt ist teuer. ___ lohnt es sich.

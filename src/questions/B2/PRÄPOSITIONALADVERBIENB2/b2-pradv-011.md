@@ -2,11 +2,11 @@
 id: b2-pradv-011
 type: select-one
 options:
-  - denke
-  - dachte
-  - gedacht
-  - denkst
-correct: denkst
+  - daran
+  - dabei
+  - davon
+  - damit
+correct: damit
 ---
 
-Woran ___ du bei der Entscheidung? (Pronominaladverb)
+Löst man das Problem mit einem Kompromiss? — Ja, man löst es ___. (Pronominaladverb)

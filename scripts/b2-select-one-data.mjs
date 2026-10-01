@@ -204,25 +204,66 @@ export function genModalsatz() {
 }
 
 export function genIndefinitpronomen() {
-  return bank([
-    ['Hast du ___ in der Menge gesehen?', 'jemanden', ['jemand', 'niemand', 'niemanden', 'etwas']],
-    ['Das Thema ist mir völlig neu; ich habe ___ davon gehört.', 'nichts', ['etwas', 'niemand', 'jemand', 'alles']],
-    ['___ hat die Tür offengelassen.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
-    ['Sie möchte ___ Neues ausprobieren.', 'etwas', ['nichts', 'niemand', 'jemand', 'alles']],
-    ['___ war zu Hause, als ich anrief.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
-    ['Kennst du ___ hier?', 'jemanden', ['jemand', 'niemand', 'niemanden', 'etwas']],
-    ['Er hat ___ Interessantes berichtet.', 'etwas', ['nichts', 'niemand', 'jemand', 'alles']],
-    ['___ darf den Raum betreten.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
-    ['Brauchst du ___ von mir?', 'etwas', ['nichts', 'niemand', 'jemand', 'alles']],
-    ['___ hat mir diese Nachricht geschickt.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
-    ['Sie hat ___ Falsches gesagt.', 'nichts', ['etwas', 'niemand', 'jemand', 'alles']],
-    ['Ist ___ zu Hause?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
-    ['Er vertraut ___ , das ist seine Schwäche.', 'jemandem', ['jemanden', 'jemand', 'etwas', 'niemandem']],
-    ['Sie hat ___ gefunden, was sie suchte.', 'alles', ['nichts', 'etwas', 'niemand', 'jemand']],
+  /** 50 unique: 25 inline context + 25 Vorgeschichte (unambiguous correct). */
+  const inline = [
+    ['Hast du ___ von deinen Freunden in der Menge gesehen?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Kennst du ___ von den Kollegen hier?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
     ['Ich hoffe, ___ von euch kann mir helfen.', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
-    ['Ich habe ___ Besonderes erwartet.', 'etwas', ['nichts', 'niemand', 'jemand', 'alles']],
-    ['___ weiß die Antwort auf diese Frage.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
-  ], 91);
+    ['Sie möchte unbedingt ___ Neues ausprobieren.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Das Thema ist mir völlig neu; ich habe ___ davon gehört.', 'nichts', ['etwas', 'jemand', 'niemand', 'alles']],
+    ['Er vertraut leider ___ , das ist seine Schwäche.', 'jemandem', ['jemanden', 'jemand', 'etwas', 'niemandem']],
+    ['Sie hat genau ___ gefunden, was sie suchte.', 'alles', ['nichts', 'etwas', 'niemand', 'jemand']],
+    ['Brauchst du noch ___ von diesen Unterlagen?', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Nach dem lauten Knall war plötzlich ___ im Raum.', 'niemand', ['jemand', 'etwas', 'nichts', 'alles']],
+    ['___ von den Gästen hat die Tür offengelassen.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Er hat uns ___ wirklich Interessantes berichtet.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Ohne Ausweis darf ___ den Raum betreten.', 'niemand', ['jemand', 'etwas', 'nichts', 'alles']],
+    ['___ aus dem Team hat mir diese Nachricht geschickt.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Sie hat bewusst ___ Falsches gesagt.', 'nichts', ['etwas', 'jemand', 'niemand', 'alles']],
+    ['Ist denn ___ von der Familie zu Hause?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Ich habe ___ Besonderes von dir erwartet.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Bei dieser Frage weiß leider ___ die Antwort.', 'niemand', ['jemand', 'etwas', 'nichts', 'alles']],
+    ['Hast du schon ___ von deinen Nachbarn getroffen?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Wir brauchen noch ___ Hilfe von dir.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Im leeren Büro war heute Morgen ___ .', 'niemand', ['jemand', 'etwas', 'nichts', 'alles']],
+    ['Sie sucht ___ , der Italienisch spricht.', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Nach dem Diebstahl fehlte uns ___ Wichtiges.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Trotz der Einladung kam ___ zu der Feier.', 'niemand', ['jemand', 'etwas', 'nichts', 'alles']],
+    ['Kann ___ von euch mir kurz helfen?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Ich habe in dem Brief ___ Ungewöhnliches gelesen.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+  ];
+
+  const vorgeschichte = [
+    ['Du suchst deinen Bruder in der Menge.\nHast du ___ dort gesehen?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Die Wohnung war dunkel und still.\n___ war zu Hause, als ich anrief.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Du bist neu in der Stadt und kennst kaum Leute.\nKennst du ___ hier?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Es klopft unerwartet an der Tür.\nIst ___ zu Hause?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Du erwartest eine wichtige Sendung.\nHat ___ das Paket angenommen?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Nach dem Streit war die Küche leer.\n___ wollte noch sprechen.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Du brauchst Unterstützung beim Umzug.\nKann ___ von euch mir helfen?', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Der Zeuge will niemanden belasten.\nEr hat ___ Verdächtiges gesehen.', 'nichts', ['etwas', 'jemand', 'niemand', 'alles']],
+    ['Du suchst eine Ansprechperson im Büro.\nHast du ___ vom Empfang getroffen?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Die Prüfung war unfair schwer.\n___ wusste die richtige Antwort.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Du willst etwas Ungewöhnliches ausprobieren.\nMöchtest du ___ Neues testen?', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Das Thema ist brandneu für dich.\nIch habe ___ davon gehört.', 'nichts', ['etwas', 'jemand', 'niemand', 'alles']],
+    ['Sie vertraut zu schnell fremden Menschen.\nSie vertraut leider ___ .', 'jemandem', ['jemanden', 'jemand', 'etwas', 'niemandem']],
+    ['Alles auf der Liste ist erledigt.\nSie hat ___ gefunden, was sie suchte.', 'alles', ['nichts', 'etwas', 'niemand', 'jemand']],
+    ['Du fragst nach den Unterlagen auf dem Tisch.\nBrauchst du noch ___ davon?', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Nach dem Alarm war der Flur leer.\n___ darf den Raum betreten.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Eine anonyme Nachricht liegt im Postfach.\n___ hat mir diese Nachricht geschickt.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Sie will die Wahrheit sagen.\nSie hat ___ Falsches gesagt.', 'nichts', ['etwas', 'jemand', 'niemand', 'alles']],
+    ['Du wartest auf Freunde an der Haltestelle.\nHast du ___ von ihnen gesehen?', 'jemanden', ['jemand', 'niemanden', 'etwas', 'niemand']],
+    ['Der Bericht soll spannend sein.\nEr hat ___ Interessantes berichtet.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Die Tür steht offen, aber niemand meldet sich.\n___ hat die Tür offengelassen.', 'Jemand', ['Niemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Du erwartest eine Überraschung.\nIch habe ___ Besonderes erwartet.', 'etwas', ['nichts', 'jemand', 'niemand', 'alles']],
+    ['Im Konferenzraum ist es still.\n___ weiß die Antwort auf diese Frage.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+    ['Du suchst Hilfe bei den Anwesenden.\nIch hoffe, ___ von euch kann helfen.', 'jemand', ['niemand', 'etwas', 'nichts', 'alles']],
+    ['Nach dem Brand war das Gebäude geräumt.\n___ war noch im Gebäude.', 'Niemand', ['Jemand', 'Etwas', 'Nichts', 'Alles']],
+  ];
+
+  const items = [...inline, ...vorgeschichte];
+  if (items.length !== 50) throw new Error(`Indefinitpronomen: expected 50, got ${items.length}`);
+  return bank(items, 91);
 }
 
 export function genIndirekteRede() {
@@ -270,24 +311,35 @@ export function genPraepositionenGenitiv() {
 }
 
 export function genPraepositionaleAdverbienB2() {
+  // Gap = Pronominaladverb (da-/wo-), never the verb. First clause pins the Präposition.
+  const da = ['darauf', 'daran', 'dafür', 'darüber', 'damit', 'darin', 'davon', 'dabei'];
+  const wo = ['Worauf', 'Woran', 'Womit', 'Worüber', 'Worin'];
   return bank([
-    ['Worauf ___ sich Ihre Kritik?', 'bezieht', ['beziehen', 'beziehst', 'bezog', 'bezogen']],
-    ['Ich denke oft daran, wie es ___ war.', 'früher', ['früh', 'frühest', 'frühe', 'frühes']],
-    ['Womit ___ du dein Studium?', 'finanzierst', ['finanzier', 'finanziert', 'finanzierte', 'finanzieren']],
-    ['Darauf ___ ich mich schon lange.', 'freue', ['freuen', 'freust', 'freute', 'gefreut']],
-    ['Worüber ___ ihr gestern gesprochen?', 'habt', ['hat', 'haben', 'hattet', 'hättet']],
-    ['Damit ___ ich nichts anfangen.', 'kann', ['können', 'konntet', 'könnte', 'gekonnt']],
-    ['Hieran ___ man die Qualität.', 'erkennt', ['erkennen', 'erkennst', 'erkannte', 'erkannt']],
-    ['Daran ___ ich mich noch gut.', 'erinnere', ['erinnern', 'erinnerst', 'erinnerte', 'erinnert']],
-    ['Worin ___ der Unterschied?', 'besteht', ['bestehen', 'bestehst', 'bestand', 'bestanden']],
-    ['Darauf ___ wir uns geeinigt.', 'haben', ['hat', 'hatte', 'hätten', 'habt']],
-    ['Woran ___ du bei der Entscheidung?', 'denkst', ['denken', 'denke', 'dachte', 'gedacht']],
-    ['Hierauf ___ die ganze Argumentation.', 'baut', ['bauen', 'baust', 'baute', 'gebaut']],
-    ['Damit ___ er sein ganzes Leben.', 'hat', ['haben', 'hatte', 'hätte', 'habt']],
-    ['Worauf ___ Sie besonders?', 'achten', ['achtet', 'achte', 'achtete', 'geachtet']],
-    ['Daran ___ nichts zu ändern.', 'ist', ['sind', 'war', 'wäre', 'sein']],
-    ['Womit ___ man das Problem?', 'löst', ['lösen', 'löstest', 'löste', 'gelöst']],
-    ['Darauf ___ ich nicht.', 'warte', ['warten', 'wartest', 'wartete', 'gewartet']],
+    ['Bezieht sich Ihre Kritik auf den Bericht? — Ja, sie bezieht sich ___.', 'darauf', da],
+    ['Freust du dich schon lange auf die Premiere? — Ich freue mich schon lange ___.', 'darauf', da],
+    ['Habt ihr gestern über die Reform gesprochen? — Ja, wir haben ___ gesprochen.', 'darüber', da],
+    ['Kannst du mit dem Vorschlag etwas anfangen? — Nein, ich kann ___ nichts anfangen.', 'damit', da],
+    ['Erinnerst du dich noch an das Gespräch? — Ich erinnere mich noch gut ___.', 'daran', da],
+    ['Der Unterschied liegt in der Methode. — Der Unterschied besteht ___.', 'darin', da],
+    ['Habt ihr euch auf einen Termin geeinigt? — Ja, wir haben uns ___ geeinigt.', 'darauf', da],
+    ['Denkst du bei der Entscheidung an die Risiken? — Ja, ich denke ___.', 'daran', da],
+    ['Baut die Argumentation auf dieser These? — Ja, sie baut ___.', 'darauf', da],
+    ['Achten Sie besonders auf die Formalia? — Ja, wir achten besonders ___.', 'darauf', da],
+    ['Löst man das Problem mit einem Kompromiss? — Ja, man löst es ___.', 'damit', da],
+    ['Wartest du auf eine Antwort der Behörde? — Ich warte ___.', 'darauf', da],
+    ['Hat er sein ganzes Leben mit diesem Glauben verbracht? — Ja, er hat ___ sein ganzes Leben verbracht.', 'damit', da],
+    ['Interessierst du dich für das Forschungsthema? — Ich interessiere mich ___.', 'dafür', da],
+    ['Glaubst du an den neuen Plan? — Ich glaube ___.', 'daran', da],
+    ['Hältst du viel von dem Vorschlag? — Ich halte wenig ___.', 'davon', da],
+    ['Hilfst du bei dem Forschungsprojekt? — Ja, ich helfe ___.', 'dabei', da],
+    ['Ärgerst du dich über die Entscheidung? — Ich ärgere mich ___.', 'darüber', da],
+    ['Ihre Kritik bezieht sich auf den Bericht. — ___ bezieht sich Ihre Kritik?', 'Worauf', wo],
+    ['Du finanzierst dein Studium mit einem Stipendium. — ___ finanzierst du dein Studium?', 'Womit', wo],
+    ['Ihr habt gestern über die Reform gesprochen. — ___ habt ihr gestern gesprochen?', 'Worüber', wo],
+    ['Der Unterschied besteht in der Methode. — ___ besteht der Unterschied?', 'Worin', wo],
+    ['Du denkst bei der Entscheidung an die Risiken. — ___ denkst du bei der Entscheidung?', 'Woran', wo],
+    ['Sie achten besonders auf die Formalia. — ___ achten Sie besonders?', 'Worauf', wo],
+    ['Man löst das Problem mit einem Kompromiss. — ___ löst man das Problem?', 'Womit', wo],
   ], 121);
 }
 
@@ -368,7 +420,7 @@ export function genPassiversatz() {
     ['Das Fenster ___ sich nicht öffnen.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
     ['Diese Frage ist nicht zu ___ .', 'beantworten', ['beantwortet', 'beantwortend', 'beantwortete', 'beantwortetes']],
     ['Das Ergebnis ___ sich nicht vorhersagen.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
-    ['Die Daten sind leicht zu ___ .', 'auswerten', ['ausgewertet', 'auswertend', 'auswertete', 'auswertetes']],
+    ['Die Daten sind leicht ___ .', 'auszuwerten', ['zu auswerten', 'ausgewertet', 'auswertend', 'auswerten']],
     ['Der Fehler ___ sich schnell beheben.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
     ['Die Maschine ist leicht zu ___ .', 'bedienen', ['bedient', 'bedienend', 'bediente', 'bedientes']],
     ['Die Tür ___ sich nicht schließen.', 'lässt', ['ist', 'wird', 'hat', 'wurde']],
@@ -450,22 +502,22 @@ export function genTekamolo() {
 
 export function genTemporaleNebensatz() {
   return bank([
-    ['___, er gegessen hatte, ging er spazieren.', 'Nachdem', ['Bevor', 'Während', 'Bis', 'Seitdem']],
-    ['___, sie ankommt, rufe ich dich an.', 'Sobald', ['Obwohl', 'Bevor', 'Während', 'Bis']],
+    ['___ er gegessen hatte, ging er spazieren.', 'Nachdem', ['Bevor', 'Während', 'Bis', 'Seitdem']],
+    ['___ sie ankommt, rufe ich dich an.', 'Sobald', ['Obwohl', 'Bevor', 'Während', 'Bis']],
     ['Er wartete, ___ der Zug abfuhr.', 'bis', ['nachdem', 'bevor', 'während', 'seitdem']],
-    ['___, ich studierte, arbeitete ich nebenbei.', 'Während', ['Nachdem', 'Bevor', 'Bis', 'Seitdem']],
-    ['___, er das Buch gelesen hatte, verstand er alles.', 'Nachdem', ['Bevor', 'Während', 'Bis', 'Seitdem']],
-    ['___, du gehst, schließe bitte die Tür.', 'Bevor', ['Nachdem', 'Während', 'Bis', 'Seitdem']],
+    ['___ ich studierte, arbeitete ich nebenbei.', 'Während', ['Nachdem', 'Bevor', 'Bis', 'Seitdem']],
+    ['___ er das Buch gelesen hatte, verstand er alles.', 'Nachdem', ['Bevor', 'Während', 'Bis', 'Seitdem']],
+    ['___ du gehst, schließe bitte die Tür.', 'Bevor', ['Nachdem', 'Während', 'Bis', 'Seitdem']],
     ['Sie wohnt hier, ___ sie ein Kind war.', 'seitdem', ['nachdem', 'bevor', 'während', 'bis']],
-    ['___, der Film begann, kamen noch viele Zuschauer.', 'Bevor', ['Nachdem', 'Während', 'Bis', 'Seitdem']],
-    ['___, er krank war, blieb er zu Hause.', 'Solange', ['Nachdem', 'Bevor', 'Bis', 'Seitdem']],
+    ['___ der Film begann, kamen noch viele Zuschauer.', 'Bevor', ['Nachdem', 'Während', 'Bis', 'Seitdem']],
+    ['___ er krank war, blieb er zu Hause.', 'Solange', ['Nachdem', 'Bevor', 'Bis', 'Seitdem']],
     ['Er ruhte sich aus, ___ er gearbeitet hatte.', 'nachdem', ['bevor', 'während', 'bis', 'seitdem']],
-    ['___, sie den Vertrag unterschrieb, beriet sie sich.', 'Bevor', ['Nachdem', 'Während', 'Bis', 'Seitdem']],
-    ['___, wir redeten, klingelte das Telefon.', 'Während', ['Nachdem', 'Bevor', 'Bis', 'Seitdem']],
-    ['___, das Meeting zu Ende war, gingen alle.', 'Sobald', ['Bis', 'Bevor', 'Während', 'Seitdem']],
+    ['___ sie den Vertrag unterschrieb, beriet sie sich.', 'Bevor', ['Nachdem', 'Während', 'Bis', 'Seitdem']],
+    ['___ wir redeten, klingelte das Telefon.', 'Während', ['Nachdem', 'Bevor', 'Bis', 'Seitdem']],
+    ['___ das Meeting zu Ende war, gingen alle.', 'Sobald', ['Bis', 'Bevor', 'Während', 'Seitdem']],
     ['Er lernte Deutsch, ___ er in Deutschland lebte.', 'während', ['nachdem', 'bevor', 'bis', 'seitdem']],
-    ['___, ich angekommen bin, melde ich mich.', 'Sobald', ['Nachdem', 'Bevor', 'Während', 'Bis']],
-    ['___, der Kurs begann, kannten sich alle.', 'Bevor', ['Nachdem', 'Während', 'Bis', 'Seitdem']],
+    ['___ ich angekommen bin, melde ich mich.', 'Sobald', ['Nachdem', 'Bevor', 'Während', 'Bis']],
+    ['___ der Kurs begann, kannten sich alle.', 'Bevor', ['Nachdem', 'Während', 'Bis', 'Seitdem']],
     ['Sie arbeitet dort, ___ sie ihren Abschluss machte.', 'seitdem', ['nachdem', 'bevor', 'während', 'bis']],
   ], 201);
 }

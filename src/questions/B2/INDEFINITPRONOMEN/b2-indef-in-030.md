@@ -1,11 +1,12 @@
 ---
 id: b2-indef-in-030
 type: input-text
-hint: Indefinitpronomen — etwas / jemandem / jemanden / niemandem
+hint: Indefinitpronomen — alles / jemand / nichts / niemand
 correct:
-  - jemandem
+  - jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Er vertraut ___ , das ist seine Schwäche.
+Du erwartest eine wichtige Sendung.
+Hat ___ das Paket angenommen?

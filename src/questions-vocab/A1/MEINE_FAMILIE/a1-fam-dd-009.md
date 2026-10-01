@@ -11,9 +11,6 @@ words:
   - haben
   - drei
   - Enkel
-commas:
-  - 2
-  - 4
 ---
 
 Ordne die Wörter: (Enkel)

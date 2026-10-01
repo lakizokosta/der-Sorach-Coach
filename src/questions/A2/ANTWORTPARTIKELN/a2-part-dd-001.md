@@ -7,11 +7,15 @@ words:
   - zur
   - Einladung
   - mit
-  - nein
+  - ?
+  - Nein
   - ich
   - habe
   - keine
   - Zeit
+  - .
+commas:
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)

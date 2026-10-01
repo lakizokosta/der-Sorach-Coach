@@ -2,11 +2,11 @@
 id: b2-pradv-017
 type: select-one
 options:
-  - wartest
-  - warten
-  - warte
-  - gewartet
-correct: warte
+  - dafür
+  - daran
+  - dabei
+  - darüber
+correct: dabei
 ---
 
-Darauf ___ ich nicht. (Pronominaladverb)
+Hilfst du bei dem Forschungsprojekt? — Ja, ich helfe ___. (Pronominaladverb)

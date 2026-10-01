@@ -6,11 +6,14 @@ words:
   - spricht
   - fließend
   - Englisch
-  - Außerdem
+  - außerdem
   - kann
   - sie
   - auch
   - Französisch
+  - .
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

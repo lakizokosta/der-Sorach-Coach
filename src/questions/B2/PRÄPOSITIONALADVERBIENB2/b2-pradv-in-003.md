@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-003
 type: input-text
-hint: Pronominaladverb — finanzieren / finanzierst / finanziert / finanzierte
+hint: Pronominaladverb — Präp. über
 correct:
-  - finanzierst
+  - darüber
 ---
 
 Ergänze das Pronominaladverb:
 
-Womit ___ du dein Studium?
+Habt ihr gestern über die Reform gesprochen? — Ja, wir haben ___ gesprochen.

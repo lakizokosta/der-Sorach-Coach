@@ -4,6 +4,7 @@ type: dropbox
 words:
   - Er
   - kann
+  - schon
   - sehr
   - gut
   - Deutsch

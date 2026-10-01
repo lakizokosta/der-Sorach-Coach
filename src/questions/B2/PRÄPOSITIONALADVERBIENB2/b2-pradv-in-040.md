@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-040
 type: input-text
-hint: Pronominaladverb — gekonnt / kann / können / könnte
+hint: Pronominaladverb — Präp. an
 correct:
-  - kann
+  - daran
 ---
 
 Ergänze das Pronominaladverb:
 
-Damit ___ ich nichts anfangen.
+Glaubst du an den neuen Plan? — Ich glaube ___.

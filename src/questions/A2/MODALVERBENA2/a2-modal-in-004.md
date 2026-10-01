@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Wir ___ morgen früh losfahren.
+Unser Plan steht fest: Wir ___ morgen früh losfahren.

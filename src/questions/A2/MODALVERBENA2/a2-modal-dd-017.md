@@ -2,12 +2,10 @@
 id: a2-modal-dd-017
 type: dropbox
 words:
-  - Ich
-  - hätte
-  - gern
-  - ein
-  - bisschen
-  - Ruhe
+  - Du
+  - musst
+  - Hausaufgaben
+  - machen
 ---
 
-Ordne die Wörter zum richtigen Satz: (Modalverben — höflicher Wunsch)
+Ordne die Wörter zum richtigen Satz: (Modalverben)

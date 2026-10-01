@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-006
 type: input-text
-hint: Pronominaladverb — kann / können / könnte / konntet
+hint: Pronominaladverb — Präp. in
 correct:
-  - kann
+  - darin
 ---
 
 Ergänze das Pronominaladverb:
 
-Damit ___ ich nichts anfangen.
+Der Unterschied liegt in der Methode. — Der Unterschied besteht ___.

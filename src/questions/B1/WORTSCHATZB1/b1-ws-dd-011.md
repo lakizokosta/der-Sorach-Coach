@@ -5,11 +5,12 @@ words:
   - Er
   - hat
   - eine
-  - verantwortliche
+  - verantwortungsvolle
   - Stellung
   - in
   - der
   - Firma
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Wortschatz B1)

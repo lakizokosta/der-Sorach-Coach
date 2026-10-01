@@ -11,8 +11,6 @@ words:
   - modern
   - und
   - hell
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Küche beschreiben)

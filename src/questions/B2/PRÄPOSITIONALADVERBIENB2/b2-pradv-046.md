@@ -2,11 +2,11 @@
 id: b2-pradv-046
 type: select-one
 options:
-  - baust
-  - baute
-  - baut
-  - bauen
-correct: baut
+  - Woran
+  - Womit
+  - Worüber
+  - Worauf
+correct: Worüber
 ---
 
-Hierauf ___ die ganze Argumentation. (Pronominaladverb)
+Ihr habt gestern über die Reform gesprochen. — ___ habt ihr gestern gesprochen? (Pronominaladverb)

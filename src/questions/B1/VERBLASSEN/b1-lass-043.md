@@ -9,4 +9,4 @@ options:
 correct: lässt
 ---
 
-Sie ___ die Kinder von der Oma abholen. (Verben lassen)
+Sie (sie, Sg.) ___ die Kinder von der Oma abholen (Verben lassen).

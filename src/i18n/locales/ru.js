@@ -298,6 +298,11 @@ export default {
     placementShareTitle: 'Мой уровень немецкого',
     placementShareText:
       'Мой уровень: {level} — Einstufungtest с Der SprachCoach 🇩🇪',
+    sessionShare: '📤 Поделиться результатом',
+    sessionShareTitle: 'Моя тренировка',
+    sessionShareText:
+      '{scorePct}% правильно ({correct}/{answered} вопросов) — Der SprachCoach 🇩🇪',
+    schwaechenShareLabel: 'Тренировка слабых мест',
   },
   funnel: {
     sheetAria: 'Предложение Premium',
@@ -332,7 +337,7 @@ export default {
     hintLocked: 'Тренировка слабых тем — только с Premium. Нажми для подробностей.',
     unlock: '💎 Открыть Premium',
     aria: 'Режим слабых мест',
-    countPremium: 'Premium',
+    countPremium: '💎 Premium',
     countEmpty: '0 / 3 тем',
     countSummary: '{errors} ошибок · {topics} тем',
     hintEmpty: 'Слабых мест пока нет. Нажми для подробностей.',

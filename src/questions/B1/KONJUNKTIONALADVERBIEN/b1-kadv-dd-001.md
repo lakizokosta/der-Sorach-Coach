@@ -7,11 +7,14 @@ words:
   - den
   - ganzen
   - Tag
-  - Trotzdem
+  - trotzdem
   - sind
   - wir
   - spazieren
   - gegangen
+  - .
+commas:
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

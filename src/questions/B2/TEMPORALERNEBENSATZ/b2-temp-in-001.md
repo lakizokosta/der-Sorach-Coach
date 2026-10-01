@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, er gegessen hatte, ging er spazieren.
+___ er gegessen hatte, ging er spazieren.

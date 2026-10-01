@@ -2,11 +2,12 @@
 id: b2-indef-040
 type: select-one
 options:
-  - jemand
-  - jemanden
-  - niemanden
+  - nichts
+  - etwas
   - niemand
-correct: jemanden
+  - jemand
+correct: etwas
 ---
 
-Kennst du ___ hier? (Indefinitpronomen)
+Du fragst nach den Unterlagen auf dem Tisch.
+Brauchst du noch ___ davon? (Indefinitpronomen)

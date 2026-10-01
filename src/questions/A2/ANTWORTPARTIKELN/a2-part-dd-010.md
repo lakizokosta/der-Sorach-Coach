@@ -9,6 +9,9 @@ words:
   - sehr
   - für
   - Tanzsport
+  - .
+commas:
+  - 0
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — ja)

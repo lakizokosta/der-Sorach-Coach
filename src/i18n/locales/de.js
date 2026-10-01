@@ -301,6 +301,11 @@ export default {
     placementShareTitle: 'Mein Deutsch-Niveau',
     placementShareText:
       'Mein Deutsch-Niveau: {level} — Einstufungtest mit Der SprachCoach 🇩🇪',
+    sessionShare: '📤 Ergebnis teilen',
+    sessionShareTitle: 'Mein Training',
+    sessionShareText:
+      '{scorePct}% richtig ({correct}/{answered} Fragen) — Der SprachCoach 🇩🇪',
+    schwaechenShareLabel: 'Schwächen trainieren',
   },
   funnel: {
     sheetAria: 'Premium-Angebot',
@@ -335,7 +340,7 @@ export default {
     hintLocked: 'Gezielt schwache Themen üben — nur mit Premium. Tippe für Details.',
     unlock: '💎 Premium freischalten',
     aria: 'Schwächen-Modus',
-    countPremium: 'Premium',
+    countPremium: '💎 Premium',
     countEmpty: '0 / 3 Themen',
     countSummary: '{errors} Fehler · {topics} Themen',
     hintEmpty: 'Noch keine Schwachstellen erfasst. Tippe für mehr Infos.',

@@ -2,11 +2,11 @@
 id: a2-modal-045
 type: select-one
 options:
-  - müssen
-  - können
-  - wollen
-  - sollen
-correct: wollen
+  - muss
+  - kann
+  - darf
+  - soll
+correct: darf
 ---
 
-Wir ___ am Wochenende ausruhen. (Modalverb + Verb wollen)
+Nur mit Ticket ___ man in den Zug einsteigen. (Modalverb + Verb dürfen)

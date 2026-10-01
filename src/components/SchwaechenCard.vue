@@ -16,6 +16,8 @@ const { t } = useI18n();
 const { isPremium } = usePremium();
 const { state: xp } = useXp();
 
+const emit = defineEmits(['locked']);
+
 const weakTopics = computed(() =>
   getWeakestTopics(xp.topicWrong, xp.topicCorrect, 3),
 );
@@ -51,13 +53,21 @@ function startSchwaechen() {
   router.push({ name: 'trainer', query: { mode: 'schwaechen' } });
 }
 
-function openPremium() {
-  router.push({ name: 'premium', query: { hub: '1' } });
+function unlockPremium() {
+  emit('locked');
+}
+
+function goTopics() {
+  router.push({ name: 'landing' });
 }
 </script>
 
 <template>
-  <details class="schwaechen-card" :aria-label="t('schwaechen.aria')">
+  <details
+    class="schwaechen-card"
+    :class="{ 'schwaechen-card--locked': !isPremium }"
+    :aria-label="t('schwaechen.aria')"
+  >
     <summary class="schwaechen-card__summary">
       <div class="schwaechen-card__row">
         <span class="schwaechen-card__title">{{ t('schwaechen.title') }}</span>
@@ -83,7 +93,7 @@ function openPremium() {
         <button
           type="button"
           class="schwaechen-card__cta schwaechen-card__cta--upsell"
-          @click="openPremium"
+          @click="unlockPremium"
         >
           {{ t('schwaechen.unlock') }}
         </button>
@@ -94,7 +104,7 @@ function openPremium() {
         <button
           type="button"
           class="schwaechen-card__cta schwaechen-card__cta--ghost"
-          @click="openPremium"
+          @click="goTopics"
         >
           {{ t('schwaechen.toTopics') }}
         </button>

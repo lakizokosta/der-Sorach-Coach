@@ -2,11 +2,11 @@
 id: a2-modal-028
 type: select-one
 options:
-  - Kann
-  - Darf
-  - Soll
-  - Will
-correct: Darf
+  - können
+  - müssen
+  - sollen
+  - wollen
+correct: müssen
 ---
 
-___ ich das Fenster öffnen? (Modalverb + Verb dürfen)
+Der Bus fährt gleich. Wir ___ jetzt zur Haltestelle eilen. (Modalverb + Verb müssen)

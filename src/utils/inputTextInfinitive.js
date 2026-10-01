@@ -1,9 +1,12 @@
 /**
  * Resolves the verb infinitive shown as a learner hint on input-text gaps.
  * Only shown when the gap is clearly a verb (topic, prompt tag, or lemma).
- * Sources (in order): frontmatter `lemma`, trailing `(Verb …)` in the prompt body,
+ * Sources (in order): frontmatter `lemma`, YAML/prompt «Verb …» hint,
+ * `verbLemmas.json`, trailing `(Verb …)` in the prompt body,
  * separable-verb particle + finite `correct` answer (verb topics only).
  */
+
+import verbLemmas from '../data/verbLemmas.json' with { type: 'json' };
 
 function stripTrailingPromptHint(text) {
   return String(text || '')
@@ -56,10 +59,14 @@ const FINITE_TO_INF = {
   habe: 'haben', hast: 'haben', hat: 'haben', haben: 'haben', habt: 'haben', hatte: 'haben',
   werde: 'werden', wirst: 'werden', wird: 'werden', werdet: 'werden', wurde: 'werden',
   kann: 'können', kannst: 'können', können: 'können', könnt: 'können', konnte: 'können',
-  muss: 'müssen', musst: 'müssen', müssen: 'müssen', müsst: 'müssen', musste: 'müssen',
+  muss: 'müssen', musst: 'müssen', müssen: 'müssen', müsst: 'müssen',   musste: 'müssen',
   darf: 'dürfen', darfst: 'dürfen', dürfen: 'dürfen', dürft: 'dürfen', durfte: 'dürfen',
   will: 'wollen', willst: 'wollen', wollen: 'wollen', wollt: 'wollen', wollte: 'wollen',
   soll: 'sollen', sollst: 'sollen', sollen: 'sollen', sollt: 'sollen', sollte: 'sollen',
+  wusste: 'wissen', wusstest: 'wissen', wussten: 'wissen', wusstet: 'wissen',
+  weiß: 'wissen', weißt: 'wissen', wisst: 'wissen',
+  war: 'sein', warst: 'sein', waren: 'sein', wart: 'sein',
+  wäre: 'sein', wärest: 'sein', wären: 'sein', wäret: 'sein',
 };
 
 /**
@@ -68,10 +75,11 @@ const FINITE_TO_INF = {
  */
 function looksLikeInfinitive(word) {
   const w = String(word || '').toLowerCase().trim();
-  if (!w || /\s/.test(w) || PERSON.test(w) || NON_VERB_WORDS.has(w)) return false;
+  if (!w || /\s/.test(w) || PERSON.test(w)) return false;
   if (/^(?:sein|haben|werden|tun|wissen|können|müssen|sollen|dürfen|wollen|mögen|möchten)$/.test(w)) {
     return true;
   }
+  if (NON_VERB_WORDS.has(w)) return false;
   return /(?:en|eln|ern)$/i.test(w) && w.length >= 4;
 }
 
@@ -92,7 +100,7 @@ function finiteToInfinitive(word) {
   const w = String(word || '').toLowerCase().trim();
   if (!w || isBlockedNonVerb(w)) return '';
   if (FINITE_TO_INF[w]) return FINITE_TO_INF[w];
-  if (/(?:en|eln|ern)$/i.test(w)) return w;
+  if (/(?:en|eln|ern)$/i.test(w) && looksLikeInfinitive(w)) return w;
   // 2nd person -st (kaufst, machst) — not 3rd person liest (handled in map).
   if (/[a-zäöüß]{3,}st$/i.test(w) && w.length >= 6) {
     const stem = w.slice(0, -2);
@@ -162,6 +170,31 @@ function infinitiveFromTrailingParen(promptBody) {
 }
 
 /**
+ * @param {string} hint  Frontmatter or trailing hint (e.g. «Präteritum + Verb wissen»).
+ * @return {string}
+ */
+function infinitiveFromQuestionHint(hint) {
+  const m = String(hint || '').match(/\bVerb\s+([a-zäöüß-]+)/i);
+  if (!m) return '';
+  const v = m[1].toLowerCase();
+  return looksLikeInfinitive(v) ? v : '';
+}
+
+/** Passiv hints: «Passiv + Verb prüfen» or «Passiv + Hilfsverb werden». */
+function infinitiveFromPassivHint(hint) {
+  const h = String(hint || '');
+  const hilfs = h.match(/^Passiv\s*\+\s*Hilfsverb\s+([a-zäöüß-]+)/i);
+  if (hilfs) {
+    const v = hilfs[1].toLowerCase();
+    return looksLikeInfinitive(v) ? v : '';
+  }
+  const m = h.match(/^Passiv\s*\+\s*Verb\s+([a-zäöüß-]{4,})/i);
+  if (!m) return '';
+  const v = m[1].toLowerCase();
+  return looksLikeInfinitive(v) ? v : '';
+}
+
+/**
  * @param {{ prompt?: string, correct?: string[], topic?: string, lemma?: string }} question
  * @return {boolean}
  */
@@ -204,25 +237,42 @@ function infinitiveFromSeparableVerb(correct, promptBody) {
 export function resolveInputTextInfinitive(question) {
   const lemma = String(question.lemma || '').trim().toLowerCase();
   const focusWord = String(question.focus || '').toLowerCase() === 'word';
+  const correctRaw = Array.isArray(question.correct) ? question.correct[0] : '';
+  const correct = String(correctRaw || '').trim();
+  const correctLc = correct.toLowerCase();
 
   if (lemma) {
     if (focusWord) {
-      if (looksLikeInfinitive(lemma)) return lemma;
-      const correct = Array.isArray(question.correct) ? question.correct[0] : '';
+      // Vocab identity gaps (lemma ≈ answer): never show Infinitiv.
+      // Nouns like Husten/Niesen end in -en and would spoil the answer
+      // as «Infinitiv: husten».
+      if (!correct || correctLc === lemma) return '';
+      // Conjugation-style vocab only: infinitive lemma + finite answer.
+      if (!looksLikeInfinitive(lemma)) return '';
       const fromAnswer = finiteToInfinitive(correct);
-      if (fromAnswer && looksLikeInfinitive(fromAnswer)) return fromAnswer;
+      if (fromAnswer && fromAnswer === lemma) return lemma;
       return '';
     }
+    // Non-vocab lemma: still hide when it equals the gap answer (same leak).
+    if (correctLc && correctLc === lemma) return '';
     return lemma;
   }
+
+  const hintLine = question.hint || '';
+  const hintVerb = infinitiveFromQuestionHint(hintLine) || infinitiveFromPassivHint(hintLine);
+  if (hintVerb && isVerbGapContext(question)) return hintVerb;
 
   const fromParen = infinitiveFromTrailingParen(question.prompt || '');
   if (fromParen && isVerbGapContext(question)) return fromParen;
 
   if (!isVerbGapContext(question)) return '';
 
+  if (correctLc && verbLemmas[correctLc]) {
+    const fromDict = String(verbLemmas[correctLc]).toLowerCase();
+    if (looksLikeInfinitive(fromDict)) return fromDict;
+  }
+
   const topic = String(question.topic || '').toUpperCase();
-  const correct = Array.isArray(question.correct) ? question.correct[0] : '';
   if (/TRENNBAREVERBEN/.test(topic)) {
     const sep = infinitiveFromSeparableVerb(correct, question.prompt || '');
     if (sep) return sep;

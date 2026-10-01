@@ -3,15 +3,17 @@ id: b1-kaus-dd-002
 type: dropbox
 words:
   - Weil
-  - er
+  - die
+  - Studentin
   - fleißig
   - war
   - bestand
-  - die
-  - Studentin
-  - sofort
+  - sie
+  - ihre
+  - Prüfung
+  - .
 commas:
-  - 3
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — weil)

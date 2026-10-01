@@ -1,11 +1,12 @@
 ---
 id: a2-ind-in-038
 type: input-text
-hint: Indefinitpronomen — unbestimmte Person = jemand
+hint: Indefinitpronomen — Verneinung Person, Akk. = niemanden
 correct:
-  - jemand
+  - niemanden
 ---
 
 Ergänze das Indefinitpronomen:
 
-Kann ___ mir am Bankschalter helfen?
+Die Straße ist voller Fremder.
+Ich sehe ___ von meiner Familie.

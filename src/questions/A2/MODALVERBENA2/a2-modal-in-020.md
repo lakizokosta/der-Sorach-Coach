@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-___ ich hier am Bankschalter fragen?
+Im Museum: „Handy aus!“ — ___ man hier telefonieren?

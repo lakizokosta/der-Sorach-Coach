@@ -32,7 +32,7 @@
 ### 2. `b1-pradv-002` · select-one
 
 **Aufgabe:**
-> Wann denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
+> Denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
 
 **Optionen:**
 - darauf
@@ -242,7 +242,7 @@
 ### 17. `b1-pradv-017` · select-one
 
 **Aufgabe:**
-> Wann denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
+> Denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
 
 **Optionen:**
 - damit
@@ -452,7 +452,7 @@
 ### 32. `b1-pradv-032` · select-one
 
 **Aufgabe:**
-> Wann denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
+> Denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
 
 **Optionen:**
 - darauf
@@ -662,7 +662,7 @@
 ### 47. `b1-pradv-047` · select-one
 
 **Aufgabe:**
-> Wann denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
+> Denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
 
 **Optionen:**
 - dafür
@@ -730,7 +730,7 @@
 ### 52. `b1-pradv-in-002` · input-text
 
 **Aufgabe:**
-> Wann denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
+> Denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
 
 **Antwort:** `daran`
 
@@ -880,7 +880,7 @@
 ### 67. `b1-pradv-in-017` · input-text
 
 **Aufgabe:**
-> Wann denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
+> Denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
 
 **Antwort:** `daran`
 
@@ -1030,7 +1030,7 @@
 ### 82. `b1-pradv-in-032` · input-text
 
 **Aufgabe:**
-> Wann denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
+> Denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
 
 **Antwort:** `daran`
 
@@ -1180,7 +1180,7 @@
 ### 97. `b1-pradv-in-047` · input-text
 
 **Aufgabe:**
-> Wann denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
+> Denkst du an den Termin? — Ich denke ___. (Pronominaladverb)
 
 **Antwort:** `daran`
 

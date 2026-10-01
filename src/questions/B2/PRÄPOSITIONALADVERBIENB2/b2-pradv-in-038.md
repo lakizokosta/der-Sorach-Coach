@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-038
 type: input-text
-hint: Pronominaladverb — freue / freuen / freust / freute
+hint: Pronominaladverb — Präp. mit
 correct:
-  - freue
+  - damit
 ---
 
 Ergänze das Pronominaladverb:
 
-Darauf ___ ich mich schon lange.
+Hat er sein ganzes Leben mit diesem Glauben verbracht? — Ja, er hat ___ sein ganzes Leben verbracht.

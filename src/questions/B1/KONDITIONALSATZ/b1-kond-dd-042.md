@@ -11,6 +11,7 @@ words:
   - ich
   - dich
 commas:
+  - 3
   - 4
 ---
 

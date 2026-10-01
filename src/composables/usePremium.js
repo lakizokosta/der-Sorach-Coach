@@ -473,12 +473,35 @@ async function refreshEntitlementsFromServer() {
  * credentials or activation codes exist. Transient outages restore the last
  * grace snapshot instead of stripping paid access.
  *
+ * UI unlocks after a short cap even if the backend hangs — otherwise the
+ * bootstrap overlay ("Zugriff wird geprüft…") can block the whole app.
+ *
  * @return {Promise<void>}
  */
 export async function bootstrapEntitlements() {
   entitlements.ready = false;
-  await refreshEntitlementsFromServer();
-  entitlements.ready = true;
+  const BOOTSTRAP_UI_MS = 4000;
+  const refreshPromise = refreshEntitlementsFromServer();
+  let timeoutId;
+  try {
+    const winner = await Promise.race([
+      refreshPromise.then(() => 'done'),
+      new Promise((resolve) => {
+        timeoutId = setTimeout(() => resolve('timeout'), BOOTSTRAP_UI_MS);
+      }),
+    ]);
+    if (winner === 'timeout') {
+      const grace = readGraceSnapshot();
+      if (grace && (grace.isPremium || grace.isBasis)) {
+        applyGraceSnapshot(grace);
+      }
+      // Keep refresh running; do not await it (would re-block the overlay).
+      refreshPromise.catch(() => {});
+    }
+  } finally {
+    if (timeoutId) clearTimeout(timeoutId);
+    entitlements.ready = true;
+  }
 }
 
 /**
@@ -503,17 +526,23 @@ export async function revalidateOnLoad() {
 }
 
 /**
- * Credentials for premium API requests (activation code + code session).
+ * Credentials for premium API requests (activation code + sessions).
+ *
+ * Magic-link sessions live in `useAuth`; code sessions live in sessionStorage.
+ * The Worker checks `email + sessionToken` as a magic session first — so when
+ * an e-mail is present we must send the magic token, not the code token.
  *
  * @return {{premiumCode:string, basisCode:string, email:string, sessionToken:string, trainingJwt:string}}
  */
 export function getPremiumRequestContext() {
   const { state: auth } = useAuth();
+  const magicSession = String(auth.sessionToken || '').trim();
+  const codeSession = readSessionToken();
   return {
     premiumCode: state.premiumCode,
     basisCode: state.basisCode,
     email: auth.email || '',
-    sessionToken: readSessionToken(),
+    sessionToken: magicSession || codeSession,
     trainingJwt,
   };
 }
@@ -562,9 +591,8 @@ export async function signOutUser() {
     }
   }
   logout();
-  clearSessionToken();
   clearGraceSnapshot();
-  clearEntitlements();
+  clearAll();
   entitlements.ready = true;
   backendDegraded.active = false;
   backendDegraded.message = '';

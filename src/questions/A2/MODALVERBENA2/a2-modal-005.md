@@ -9,4 +9,4 @@ options:
 correct: kann
 ---
 
-Er ___ sehr gut Deutsch. (Modalverb + Verb können)
+Nach drei Jahren Kurs ___ er schon sehr gut Deutsch. (Modalverb + Verb können)

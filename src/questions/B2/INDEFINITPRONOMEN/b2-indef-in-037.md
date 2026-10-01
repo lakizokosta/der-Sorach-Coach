@@ -1,11 +1,12 @@
 ---
 id: b2-indef-in-037
 type: input-text
-hint: Indefinitpronomen — Alles / Etwas / Jemand / Nichts
+hint: Indefinitpronomen — alles / jemand / nichts / niemand
 correct:
-  - Jemand
+  - nichts
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ hat die Tür offengelassen.
+Das Thema ist brandneu für dich.
+Ich habe ___ davon gehört.

@@ -6,10 +6,13 @@ words:
   - Nachrichten
   - sind
   - alarmierend
-  - Dennoch
+  - dennoch
   - bleiben
   - viele
   - ruhig
+  - .
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

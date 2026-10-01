@@ -18,6 +18,7 @@
 import { computed, nextTick, onMounted, ref } from 'vue';
 import { wrapWordsForDictionary } from '@/utils/dictionary.js';
 import { stripTrailingPromptHint, normalizeGapAnswer } from '@/utils/markdownQuestion.js';
+import { resolveInputTextGapCue } from '@/utils/inputTextGapCue.js';
 import { resolveSpatialScene } from '@/utils/prepositionSpatial.js';
 import PrepositionSpatialHint from '@/components/PrepositionSpatialHint.vue';
 import { useI18n } from '@/i18n/index.js';
@@ -60,6 +61,13 @@ const showSpatialHint = computed(() => spatialScene.value !== null);
 const verbInfinitive = computed(() => String(props.question.verbInfinitive || '').trim());
 
 const shuffledWordChoices = ref([]);
+
+/** Base form in parentheses after the gap (always visible; Tipp keeps case/details). */
+const gapCue = computed(() => {
+  if (verbInfinitive.value) return '';
+  if (shuffledWordChoices.value.length) return '';
+  return resolveInputTextGapCue(props.question);
+});
 
 onMounted(() => {
   nextTick(() => inputRef.value?.focus());
@@ -220,6 +228,7 @@ const inputStyle = computed(() => {
         @keydown="onKeyDown"
       />
       <span v-html="partRightHtml" />
+      <span v-if="gapCue" class="fill-gap-cue"> ({{ gapCue }})</span>
     </div>
 
     <p v-if="verbInfinitive" class="fill-infinitive-hint">

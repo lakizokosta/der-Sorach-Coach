@@ -2,11 +2,11 @@
 id: a2-modal-024
 type: select-one
 options:
-  - will
-  - muss
-  - kann
-  - soll
-correct: muss
+  - Dürft
+  - Wollt
+  - Könnt
+  - Sollt
+correct: Wollt
 ---
 
-Sie ___ jeden Tag trainieren. (Modalverb + Verb müssen)
+Habt ihr Lust? ___ ihr mit uns ins Kino kommen? (Modalverb + Verb wollen)

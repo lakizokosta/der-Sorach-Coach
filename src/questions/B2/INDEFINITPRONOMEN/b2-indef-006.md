@@ -2,11 +2,11 @@
 id: b2-indef-006
 type: select-one
 options:
-  - niemanden
-  - jemanden
-  - jemand
   - etwas
-correct: jemanden
+  - jemandem
+  - jemanden
+  - niemandem
+correct: jemandem
 ---
 
-Kennst du ___ hier? (Indefinitpronomen)
+Er vertraut leider ___ , das ist seine Schwäche. (Indefinitpronomen)

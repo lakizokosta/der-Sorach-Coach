@@ -3,9 +3,9 @@ id: b2-indef-in-024
 type: input-text
 hint: Indefinitpronomen — etwas / jemand / nichts / niemand
 correct:
-  - etwas
+  - jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Er hat ___ Interessantes berichtet.
+Kann ___ von euch mir kurz helfen?

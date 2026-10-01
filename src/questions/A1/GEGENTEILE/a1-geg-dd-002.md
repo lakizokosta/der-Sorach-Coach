@@ -4,8 +4,9 @@ type: dropbox
 words:
   - Er
   - läuft
-  - langsam
   - heute
+  - langsam
+  - .
 ---
 
 [Sport] Ordne die Wörter zum richtigen Satz: (Gegenteil — schnell / langsam)

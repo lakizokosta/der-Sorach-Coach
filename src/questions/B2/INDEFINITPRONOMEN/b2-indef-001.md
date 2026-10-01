@@ -2,11 +2,11 @@
 id: b2-indef-001
 type: select-one
 options:
-  - etwas
   - niemand
   - niemanden
+  - etwas
   - jemanden
 correct: jemanden
 ---
 
-Hast du ___ in der Menge gesehen? (Indefinitpronomen)
+Hast du ___ von deinen Freunden in der Menge gesehen? (Indefinitpronomen)

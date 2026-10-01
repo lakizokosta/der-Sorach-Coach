@@ -2,11 +2,11 @@
 id: b2-pradv-005
 type: select-one
 options:
-  - haben
-  - habt
-  - hättet
-  - hat
-correct: habt
+  - dafür
+  - daran
+  - damit
+  - davon
+correct: daran
 ---
 
-Worüber ___ ihr gestern gesprochen? (Pronominaladverb)
+Erinnerst du dich noch an das Gespräch? — Ich erinnere mich noch gut ___. (Pronominaladverb)

@@ -2,11 +2,11 @@
 id: b2-pradv-041
 type: select-one
 options:
-  - erkennst
-  - erkennen
-  - erkennt
-  - erkannt
-correct: erkennt
+  - darüber
+  - dabei
+  - davon
+  - dafür
+correct: davon
 ---
 
-Hieran ___ man die Qualität. (Pronominaladverb)
+Hältst du viel von dem Vorschlag? — Ich halte wenig ___. (Pronominaladverb)

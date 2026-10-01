@@ -3,7 +3,7 @@ id: b1-konz-024
 type: select-one
 options:
   - Deshalb
-  - Dass
+  - Trotzdem
   - Obschon
   - Weil
 correct: Obschon

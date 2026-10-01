@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, wir redeten, klingelte das Telefon.
+___ wir redeten, klingelte das Telefon.

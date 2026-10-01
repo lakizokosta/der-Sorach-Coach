@@ -2,11 +2,11 @@
 id: b2-pradv-048
 type: select-one
 options:
-  - achtete
-  - achten
-  - achtet
-  - geachtet
-correct: achten
+  - Worüber
+  - Woran
+  - Worauf
+  - Worin
+correct: Woran
 ---
 
-Worauf ___ Sie besonders? (Pronominaladverb)
+Du denkst bei der Entscheidung an die Risiken. — ___ denkst du bei der Entscheidung? (Pronominaladverb)

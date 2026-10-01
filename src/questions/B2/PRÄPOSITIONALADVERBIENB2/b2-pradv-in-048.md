@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-048
 type: input-text
-hint: Pronominaladverb — achten / achtet / achtete / geachtet
+hint: Pronominaladverb — Präp. an
 correct:
-  - achten
+  - Woran
 ---
 
 Ergänze das Pronominaladverb:
 
-Worauf ___ Sie besonders?
+Du denkst bei der Entscheidung an die Risiken. — ___ denkst du bei der Entscheidung?

@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-035
 type: input-text
-hint: Indefinitpronomen — unpersönliches Subjekt = man
+hint: Indefinitpronomen — Verneinung Sache = nichts
 correct:
-  - Man
+  - nichts
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ muss die Hausaufgaben machen.
+Ich habe ___ davon gehört.

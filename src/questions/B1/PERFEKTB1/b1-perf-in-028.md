@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Perfektform:
 
-Sie ___ ein wichtiges Gespräch geführt.
+Sie (sie, Sg.) ___ ein wichtiges Gespräch geführt.

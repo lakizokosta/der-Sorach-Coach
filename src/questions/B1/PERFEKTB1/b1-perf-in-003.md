@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Perfektform:
 
-Sie ___ sich für den Kurs angemeldet.
+Sie (sie, Sg.) ___ sich für den Kurs angemeldet.

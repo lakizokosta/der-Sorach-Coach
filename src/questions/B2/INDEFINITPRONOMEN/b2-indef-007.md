@@ -2,11 +2,11 @@
 id: b2-indef-007
 type: select-one
 options:
-  - niemand
-  - nichts
   - etwas
+  - nichts
   - alles
-correct: etwas
+  - jemand
+correct: alles
 ---
 
-Er hat ___ Interessantes berichtet. (Indefinitpronomen)
+Sie hat genau ___ gefunden, was sie suchte. (Indefinitpronomen)

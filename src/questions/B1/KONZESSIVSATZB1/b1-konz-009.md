@@ -2,7 +2,7 @@
 id: b1-konz-009
 type: select-one
 options:
-  - Damit
+  - Trotzdem
   - Deshalb
   - Dass
   - Obschon

@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-033
 type: input-text
-hint: Indefinitpronomen — Verneinung Sache = nichts
+hint: Indefinitpronomen — unbestimmte Sache = etwas
 correct:
-  - nichts
+  - etwas
 ---
 
 Ergänze das Indefinitpronomen:
 
-Ich habe ___ davon gehört.
+Hier stimmt ___ nicht.

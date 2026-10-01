@@ -1,7 +1,7 @@
 ---
 id: b1-pass-in-008
 type: input-text
-hint: Passiv + Verb fen
+hint: Passiv + Hilfsverb werden
 correct:
   - werden
 ---

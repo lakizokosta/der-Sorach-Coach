@@ -4,11 +4,12 @@ type: dropbox
 words:
   - Sie
   - hat
+  - heute
   - keine
   - Lust
   - auf
   - Sport
-  - heute
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Nomen-Präposition)

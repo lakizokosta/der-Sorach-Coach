@@ -9,4 +9,4 @@ options:
 correct: Darf
 ---
 
-___ ich hier parken? (Modalverb + Verb dürfen)
+Schild: „Parken verboten“. ___ ich hier trotzdem parken? (Modalverb + Verb dürfen)

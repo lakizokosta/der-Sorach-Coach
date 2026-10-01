@@ -2,11 +2,11 @@
 id: a2-modal-032
 type: select-one
 options:
-  - kann
-  - will
   - muss
+  - will
+  - kann
   - soll
-correct: muss
+correct: kann
 ---
 
-Ich ___ heute nicht arbeiten. (Modalverb + Verb müssen)
+Ohne Brille ___ sie die Tafel nicht lesen. (Modalverb + Verb können)

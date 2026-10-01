@@ -12,6 +12,7 @@ words:
   - im
   - Büro
   - kalt
+  - .
 commas:
   - 4
 ---

@@ -4,7 +4,7 @@ type: select-one
 options:
   - Deshalb
   - Obschon
-  - Damit
+  - Trotzdem
   - Weil
 correct: Obschon
 ---

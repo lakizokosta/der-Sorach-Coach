@@ -9,4 +9,4 @@ options:
 correct: Bevor
 ---
 
-___, der Kurs begann, kannten sich alle. (Grammatikform)
+___ der Kurs begann, kannten sich alle. (Grammatikform)

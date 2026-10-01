@@ -5,8 +5,9 @@ words:
   - Er
   - besteht
   - auf
-  - pünktliche
+  - pünktlicher
   - Zahlung
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (bestehen auf)

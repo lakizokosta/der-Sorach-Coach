@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Verb-Nomen-Verbindung:
 
-Sie ___ ein großes Interesse an dem Thema.
+Sie (sie, Sg.) ___ ein großes Interesse an dem Thema.

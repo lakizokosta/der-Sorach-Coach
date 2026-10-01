@@ -105,6 +105,13 @@ function writeBankTopic(folder, prefix, questions) {
   return n;
 }
 
+/** Strip da-/wo-/hier- (+ linking -r-) → managed preposition (darauf→auf, womit→mit). */
+function prepFromPronominal(form) {
+  let s = String(form || '').toLowerCase().replace(/^(wo|da|hier)/, '');
+  if (/^r[aeiouäöü]/.test(s)) s = s.slice(1);
+  return s;
+}
+
 function writeSelectOneTopic(folder, prefix, label, questions, { caseLabels } = {}) {
   mkdirSync(join(ROOT, folder), { recursive: true });
   let n = 0;
@@ -113,7 +120,11 @@ function writeSelectOneTopic(folder, prefix, label, questions, { caseLabels } = 
     const id = `${prefix}-${num}`;
     const path = join(ROOT, folder, `${id}.md`);
     if (!FORCE && existsSync(path)) return;
-    const hint = closedSetHint(label, q.correct, q.options || []);
+    let hint = closedSetHint(label, q.correct, q.options || []);
+    if (folder === 'PRÄPOSITIONALADVERBIENB2') {
+      const prep = prepFromPronominal(q.correct);
+      if (prep) hint = `Pronominaladverb — Präp. ${prep}`;
+    }
     const caseLabel = caseLabels?.[i % caseLabels.length];
     const { prompt } = buildInputTextPrompt({
       topic: folder,

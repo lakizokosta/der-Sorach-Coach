@@ -2,11 +2,11 @@
 id: b2-indef-014
 type: select-one
 options:
+  - etwas
   - nichts
   - alles
-  - jemand
   - niemand
-correct: alles
+correct: nichts
 ---
 
-Sie hat ___ gefunden, was sie suchte. (Indefinitpronomen)
+Sie hat bewusst ___ Falsches gesagt. (Indefinitpronomen)

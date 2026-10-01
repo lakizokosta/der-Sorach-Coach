@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-020
 type: input-text
-hint: Indefinitpronomen — unbestimmte Sache = etwas
+hint: Indefinitpronomen — unpersönliches Subjekt = man
 correct:
-  - etwas
+  - Man
 ---
 
 Ergänze das Indefinitpronomen:
 
-Ich habe ___ Wichtiges vergessen.
+___ muss die Hausaufgaben machen.

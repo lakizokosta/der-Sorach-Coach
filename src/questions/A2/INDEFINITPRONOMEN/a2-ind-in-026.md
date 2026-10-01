@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-Es gibt ___ Neues im Radio.
+Hast du ___ Interesse an Sport?

@@ -6,6 +6,8 @@ words:
   - hören
   - dem
   - Reiseführer
+  - zu
+  - .
 ---
 
 [Reisen] Ordne die Wörter zum richtigen Satz: (Dativ — dem Reiseführer zuhören)

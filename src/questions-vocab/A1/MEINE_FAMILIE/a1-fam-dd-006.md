@@ -10,8 +10,6 @@ words:
   - kommt
   - aus
   - Österreich
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Onkel)

@@ -2,11 +2,11 @@
 id: a2-modal-022
 type: select-one
 options:
-  - muss
-  - kann
-  - will
-  - darf
-correct: kann
+  - müssen
+  - können
+  - wollen
+  - dürfen
+correct: können
 ---
 
-Ich ___ leider nicht kommen. (Modalverb + Verb können)
+Mit dem kaputten Auto ___ wir nicht fahren. (Modalverb + Verb können)

@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-002
 type: input-text
-hint: Pronominaladverb — früh / frühe / früher / frühest
+hint: Pronominaladverb — Präp. auf
 correct:
-  - früher
+  - darauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Ich denke oft daran, wie es ___ war.
+Freust du dich schon lange auf die Premiere? — Ich freue mich schon lange ___.

@@ -6,9 +6,12 @@ words:
   - ihr
   - müde
   - seid
-  - solltet
+  - ruht
   - euch
-  - ausruhen
+  - aus
+  - .
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktion — Wenn)

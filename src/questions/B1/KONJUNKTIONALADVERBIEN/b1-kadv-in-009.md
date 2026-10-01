@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Sie studiert Medizin. ___, jobbt sie nebenbei.
+Sie studiert Medizin. ___ jobbt sie nebenbei.

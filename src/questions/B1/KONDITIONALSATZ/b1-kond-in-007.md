@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Konditional):
 
-___ der Arzt kommt, warten wir im Wartezimmer.
+___ der Arzt kommt, gehen wir ins Behandlungszimmer.

@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Pronominaladverb:
 
-Wann denkst du an den Termin? — Ich denke ___.
+Denkst du an den Termin? — Ich denke ___.

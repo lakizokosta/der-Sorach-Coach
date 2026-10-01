@@ -9,4 +9,4 @@ options:
 correct: kann
 ---
 
-Ich ___ dir helfen. (Modalverb + Verb können)
+Tom spricht fünf Sprachen. Besonders gut ___ er Spanisch. (Modalverb + Verb können)

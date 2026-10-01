@@ -10,8 +10,6 @@ words:
   - Lehrer
   - von
   - Beruf
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Beruf nennen)

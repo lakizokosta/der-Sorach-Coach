@@ -9,8 +9,6 @@ words:
   - Mutter
   - kocht
   - gern
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Mutter)

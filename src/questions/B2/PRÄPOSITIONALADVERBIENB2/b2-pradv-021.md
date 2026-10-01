@@ -2,11 +2,11 @@
 id: b2-pradv-021
 type: select-one
 options:
-  - freust
-  - freue
-  - gefreut
-  - freuen
-correct: freue
+  - Woran
+  - Worüber
+  - Worin
+  - Worauf
+correct: Worüber
 ---
 
-Darauf ___ ich mich schon lange. (Pronominaladverb)
+Ihr habt gestern über die Reform gesprochen. — ___ habt ihr gestern gesprochen? (Pronominaladverb)

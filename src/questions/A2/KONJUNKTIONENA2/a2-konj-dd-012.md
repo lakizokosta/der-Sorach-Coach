@@ -6,9 +6,11 @@ words:
   - du
   - mit
   - wenn
-  - ihr
-  - Zeit
-  - habt
+  - der
+  - Kurs
+  - vorbei
+  - ist
+  - ?
 commas:
   - 2
 ---

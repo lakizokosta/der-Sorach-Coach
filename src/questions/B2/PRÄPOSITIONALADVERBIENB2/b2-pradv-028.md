@@ -2,11 +2,11 @@
 id: b2-pradv-028
 type: select-one
 options:
-  - denken
-  - dachte
-  - denkst
-  - gedacht
-correct: denkst
+  - damit
+  - darin
+  - darüber
+  - daran
+correct: darüber
 ---
 
-Woran ___ du bei der Entscheidung? (Pronominaladverb)
+Habt ihr gestern über die Reform gesprochen? — Ja, wir haben ___ gesprochen. (Pronominaladverb)

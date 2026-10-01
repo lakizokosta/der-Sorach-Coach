@@ -11,6 +11,7 @@ words:
   - fühlt
   - sich
   - besser
+  - .
 commas:
   - 1
   - 5

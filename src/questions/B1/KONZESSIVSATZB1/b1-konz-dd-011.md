@@ -7,9 +7,10 @@ words:
   - Politik
   - umstritten
   - ist
-  - diskutieren
+  - schweigen
   - viele
   - Menschen
+  - .
 commas:
   - 4
 ---

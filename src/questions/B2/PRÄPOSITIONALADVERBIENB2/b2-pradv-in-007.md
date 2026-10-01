@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-007
 type: input-text
-hint: Pronominaladverb — erkannt / erkannte / erkennst / erkennt
+hint: Pronominaladverb — Präp. auf
 correct:
-  - erkennt
+  - darauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Hieran ___ man die Qualität.
+Habt ihr euch auf einen Termin geeinigt? — Ja, wir haben uns ___ geeinigt.

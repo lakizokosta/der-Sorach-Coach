@@ -9,4 +9,4 @@ options:
 correct: arbeiten
 ---
 
-Sie ___ im Büro in der Stadt. (Präsens + Verb arbeiten — sie (Pl.))
+Sie (sie, Pl.) ___ im Büro in der Stadt. (Präsens + Verb arbeiten)

@@ -2,11 +2,11 @@
 id: a2-modal-020
 type: select-one
 options:
-  - muss
-  - will
-  - kann
-  - soll
-correct: kann
+  - Kann
+  - Will
+  - Darf
+  - Soll
+correct: Darf
 ---
 
-Er ___ sehr gut Deutsch. (Modalverb + Verb können)
+Im Museum: „Handy aus!“ — ___ man hier telefonieren? (Modalverb + Verb dürfen)

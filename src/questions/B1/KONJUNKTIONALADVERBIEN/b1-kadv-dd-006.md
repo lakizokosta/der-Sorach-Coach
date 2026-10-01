@@ -5,12 +5,16 @@ words:
   - Der
   - Arzt
   - riet
+  - ihm
   - zur
   - Ruhe
-  - Trotzdem
-  - arbeitet
+  - trotzdem
+  - arbeitete
   - er
   - weiter
+  - .
+commas:
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

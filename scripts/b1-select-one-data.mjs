@@ -239,7 +239,7 @@ export function genKonditionalsatz() {
     ['___ ich die Stelle bekomme, ziehe ich um.', 'Wenn', ['Weil', 'Obwohl', 'Dass', 'Damit']],
     ['___ die Prüfung schwer ist, bleibe ich ruhig.', 'Wenn', ['Weil', 'Obwohl', 'Dass', 'Damit']],
     ['___ du Fragen hast, schreib mir.', 'Falls', ['Weil', 'Obwohl', 'Dass', 'Damit']],
-    ['___ der Arzt kommt, warten wir im Wartezimmer.', 'Sobald', ['Weil', 'Obwohl', 'Dass', 'Damit']],
+    ['___ der Arzt kommt, gehen wir ins Behandlungszimmer.', 'Sobald', ['Weil', 'Obwohl', 'Dass', 'Damit']],
     ['___ das Gesetz verabschiedet wird, ändert sich vieles.', 'Wenn', ['Weil', 'Obwohl', 'Dass', 'Damit']],
     ['___ du dich erkältest, bleib zu Hause.', 'Falls', ['Weil', 'Obwohl', 'Dass', 'Damit']],
     ['___ wir eingecheckt haben, gehen wir essen.', 'Sobald', ['Weil', 'Obwohl', 'Dass', 'Damit']],
@@ -261,21 +261,21 @@ export function genKonditionalsatz() {
 
 export function genKonzessivsatzB1() {
   const items = [
-    ['___ er wenig schläft, arbeitet er sehr produktiv.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Damit']],
-    ['Sie geht joggen, ___ es kalt ist.', 'obwohl', ['weil', 'deshalb', 'dass', 'damit']],
-    ['___ das Essen teuer war, hat es gut geschmeckt.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ er wenig schläft, arbeitet er sehr produktiv.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
+    ['Sie geht joggen, ___ es kalt ist.', 'obwohl', ['weil', 'deshalb', 'dass', 'trotzdem']],
+    ['___ das Essen teuer war, hat es gut geschmeckt.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Er ist müde; ___ hat er Überstunden gemacht.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ die Prüfung schwer war, hat sie bestanden.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ die Prüfung schwer war, hat sie bestanden.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Das Projekt ist schwierig; ___ geben wir nicht auf.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ er kein Auto hat, kommt er immer pünktlich.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ er kein Auto hat, kommt er immer pünktlich.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Die Nachrichten sind negativ, ___ bleibt er optimistisch.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ das Medikament teuer ist, kauft er es.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ das Medikament teuer ist, kauft er es.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Es regnet, ___ fahren wir in den Urlaub.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ die Politik umstritten ist, diskutieren viele Menschen.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ die Politik umstritten ist, schweigen viele Menschen.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Sie hat wenig Zeit, ___ hilft sie uns.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ die Vorlesung lang war, war sie interessant.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ die Vorlesung lang war, war sie interessant.', 'Obschon', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
     ['Der Verkehr ist schlimm, ___ kommt er rechtzeitig an.', 'trotzdem', ['weil', 'obwohl', 'dass', 'damit']],
-    ['___ die Umwelt belastet ist, reisen viele weiter viel.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Damit']],
+    ['___ die Umwelt belastet ist, reisen viele weiter viel.', 'Obwohl', ['Weil', 'Deshalb', 'Dass', 'Trotzdem']],
   ];
   return ensure50(() => {
     const out = [];
@@ -289,21 +289,21 @@ export function genKonzessivsatzB1() {
 
 export function genKonjunktionaladverbien() {
   const items = [
-    ['Es regnete den ganzen Tag. ___, sind wir spazieren gegangen.', 'Trotzdem', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
-    ['Er hat viel gelernt. ___, hat er die Prüfung bestanden.', 'Deshalb', ['Trotzdem', 'Weil', 'Dennoch', 'Denn']],
-    ['Sie spricht fließend Englisch. ___, kann sie auch Französisch.', 'Außerdem', ['Deshalb', 'Trotzdem', 'Weil', 'Denn']],
-    ['Das Projekt ist teuer. ___, lohnt es sich.', 'Dennoch', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
-    ['Ich war krank. ___, habe ich die Vorlesung verpasst.', 'Deshalb', ['Trotzdem', 'Weil', 'Außerdem', 'Denn']],
-    ['Der Arzt riet zur Ruhe. ___, arbeitet er weiter.', 'Trotzdem', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
-    ['Die Nachrichten sind alarmierend. ___, bleiben viele ruhig.', 'Dennoch', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
-    ['Er hat Überstunden gemacht. ___, ist er müde.', 'Deshalb', ['Trotzdem', 'Weil', 'Außerdem', 'Denn']],
-    ['Sie studiert Medizin. ___, jobbt sie nebenbei.', 'Außerdem', ['Deshalb', 'Trotzdem', 'Weil', 'Denn']],
-    ['Das Hotel war laut. ___, haben wir gut geschlafen.', 'Trotzdem', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
-    ['Die Politik ändert sich. ___, reagieren die Bürger.', 'Deshalb', ['Trotzdem', 'Weil', 'Außerdem', 'Denn']],
-    ['Das Essen war teuer. ___, war die Qualität hoch.', 'Dennoch', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
-    ['Er spart Energie. ___, senkt er seine Kosten.', 'Deshalb', ['Trotzdem', 'Weil', 'Außerdem', 'Denn']],
-    ['Sie hat wenig Erfahrung. ___, bekommt sie die Stelle.', 'Trotzdem', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
-    ['Wir brauchen Hilfe. ___, rufen wir einen Experten.', 'Deshalb', ['Trotzdem', 'Weil', 'Außerdem', 'Denn']],
+    ['Es regnete den ganzen Tag. ___ sind wir spazieren gegangen.', 'Trotzdem', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
+    ['Er hat viel gelernt. ___ hat er die Prüfung bestanden.', 'Deshalb', ['Trotzdem', 'Weil', 'Dennoch', 'Denn']],
+    ['Sie spricht fließend Englisch. ___ kann sie auch Französisch.', 'Außerdem', ['Deshalb', 'Trotzdem', 'Weil', 'Denn']],
+    ['Das Projekt ist teuer. ___ lohnt es sich.', 'Dennoch', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
+    ['Ich war krank. ___ habe ich die Vorlesung verpasst.', 'Deshalb', ['Trotzdem', 'Weil', 'Außerdem', 'Denn']],
+    ['Der Arzt riet ihm zur Ruhe. ___ arbeitete er weiter.', 'Trotzdem', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
+    ['Die Nachrichten sind alarmierend. ___ bleiben viele ruhig.', 'Dennoch', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
+    ['Er hat Überstunden gemacht. ___ ist er müde.', 'Deshalb', ['Trotzdem', 'Weil', 'Außerdem', 'Denn']],
+    ['Sie studiert Medizin. ___ jobbt sie nebenbei.', 'Außerdem', ['Deshalb', 'Trotzdem', 'Weil', 'Denn']],
+    ['Das Hotel war laut. ___ haben wir gut geschlafen.', 'Trotzdem', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
+    ['Die Politik ändert sich. ___ reagieren die Bürger.', 'Deshalb', ['Trotzdem', 'Weil', 'Außerdem', 'Denn']],
+    ['Das Essen war günstig. ___ war die Qualität hoch.', 'Dennoch', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
+    ['Er spart Energie. ___ senkt er seine Kosten.', 'Deshalb', ['Trotzdem', 'Weil', 'Außerdem', 'Denn']],
+    ['Sie hat wenig Erfahrung. ___ bekommt sie die Stelle.', 'Trotzdem', ['Deshalb', 'Weil', 'Außerdem', 'Denn']],
+    ['Wir brauchen Hilfe. ___ rufen wir einen Experten.', 'Deshalb', ['Trotzdem', 'Weil', 'Außerdem', 'Denn']],
   ];
   return ensure50(() => {
     const out = [];
@@ -486,7 +486,7 @@ export function genPraepositionaleErgaenzung() {
 export function genPraepositionaleAdverbien() {
   const items = [
     ['Interessierst du dich für den Kurs? — Ja, ich interessiere mich ___.', 'dafür', ['darauf', 'daran', 'darüber', 'damit']],
-    ['Wann denkst du an den Termin? — Ich denke ___.', 'daran', ['darauf', 'dafür', 'darüber', 'damit']],
+    ['Denkst du an den Termin? — Ich denke ___.', 'daran', ['darauf', 'dafür', 'darüber', 'damit']],
     ['Freust du dich auf die Reise? — Ich freue mich ___.', 'darauf', ['daran', 'dafür', 'darüber', 'damit']],
     ['Sprichst du über das Problem? — Ja, wir sprechen ___.', 'darüber', ['darauf', 'daran', 'dafür', 'damit']],
     ['Hoffst du auf bessere Zeiten? — Ich hoffe ___.', 'darauf', ['daran', 'dafür', 'darüber', 'damit']],

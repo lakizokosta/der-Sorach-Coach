@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Verbform (trennbares Verb):
 
-Sie ___ um 7 Uhr auf.
+Sie (sie, Sg.) ___ um 7 Uhr auf.

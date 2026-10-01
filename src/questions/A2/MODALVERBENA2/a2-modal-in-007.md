@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Ich ___ leider nicht zur Einladung kommen.
+Ich bin krank. Ich ___ leider nicht zur Party kommen.

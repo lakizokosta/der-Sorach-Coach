@@ -6,7 +6,8 @@ words:
   - sitze
   - in
   - meinem
-  - Bus
+  - Auto
+  - .
 ---
 
 [Transport] Ordne die Wörter zum richtigen Satz: (Possessivartikel — meinem)

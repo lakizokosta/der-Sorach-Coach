@@ -9,4 +9,4 @@ options:
 correct: muss
 ---
 
-Ich ___ heute nicht arbeiten. (Modalverb + Verb müssen)
+Heute ist Feiertag. Laut Vertrag ___ ich nicht arbeiten. (Modalverb + Verb müssen)

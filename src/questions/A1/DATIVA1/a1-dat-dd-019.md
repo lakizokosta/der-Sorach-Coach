@@ -6,6 +6,8 @@ words:
   - schenke
   - meiner
   - Mutter
+  - Blumen
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Dativ — meiner Mutter schenken)

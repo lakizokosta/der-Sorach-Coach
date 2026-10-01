@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-023
 type: input-text
-hint: Modalverb + Verb sollen
+hint: Modalverb + Verb müssen
 correct:
-  - sollst
+  - muss
 ---
 
 Ergänze die Modalverbform:
 
-Du ___ leiser sprechen.
+Vor der Prüfung ___ er noch zwei Stunden lernen.

@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-041
 type: input-text
-hint: Pronominaladverb — erkannt / erkennen / erkennst / erkennt
+hint: Pronominaladverb — Präp. von
 correct:
-  - erkennt
+  - davon
 ---
 
 Ergänze das Pronominaladverb:
 
-Hieran ___ man die Qualität.
+Hältst du viel von dem Vorschlag? — Ich halte wenig ___.

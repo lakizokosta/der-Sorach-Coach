@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Er ___ sehr gut Deutsch.
+Nach drei Jahren Kurs ___ er schon sehr gut Deutsch.

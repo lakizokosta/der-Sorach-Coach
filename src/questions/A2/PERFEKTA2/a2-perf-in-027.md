@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Perfektform:
 
-Sie ___ spät nach Hause gekommen.
+Sie (sie, Sg.) ___ spät nach Hause gekommen.

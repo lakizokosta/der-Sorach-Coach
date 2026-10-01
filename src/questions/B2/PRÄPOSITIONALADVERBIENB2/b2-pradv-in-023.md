@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-023
 type: input-text
-hint: Pronominaladverb — gekonnt / kann / könnte / konntet
+hint: Pronominaladverb — Präp. an
 correct:
-  - kann
+  - Woran
 ---
 
 Ergänze das Pronominaladverb:
 
-Damit ___ ich nichts anfangen.
+Du denkst bei der Entscheidung an die Risiken. — ___ denkst du bei der Entscheidung?

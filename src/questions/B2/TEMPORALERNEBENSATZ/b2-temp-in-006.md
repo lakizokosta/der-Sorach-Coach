@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, du gehst, schließe bitte die Tür.
+___ du gehst, schließe bitte die Tür.

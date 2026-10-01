@@ -10,6 +10,8 @@ words:
   - trinke
   - ich
   - lieber
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — aber)

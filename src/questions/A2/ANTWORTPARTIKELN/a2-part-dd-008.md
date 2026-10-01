@@ -8,11 +8,15 @@ words:
   - der
   - Panne
   - dabei
-  - nein
+  - ?
+  - Nein
   - ich
   - war
   - nur
   - Zuschauer
+  - .
+commas:
+  - 6
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — nein)

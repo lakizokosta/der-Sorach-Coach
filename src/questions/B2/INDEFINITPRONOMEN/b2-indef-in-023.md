@@ -1,11 +1,11 @@
 ---
 id: b2-indef-in-023
 type: input-text
-hint: Indefinitpronomen — etwas / jemand / jemanden / niemand
+hint: Indefinitpronomen — alles / etwas / jemand / niemand
 correct:
-  - jemanden
+  - niemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Kennst du ___ hier?
+Trotz der Einladung kam ___ zu der Feier.

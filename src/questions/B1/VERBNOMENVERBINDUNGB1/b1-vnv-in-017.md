@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Verb-Nomen-Verbindung:
 
-Sie ___ einen wichtigen Beitrag zur Diskussion.
+Sie (sie, Sg.) ___ einen wichtigen Beitrag zur Diskussion.

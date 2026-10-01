@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Präsensform des Verbs:
 
-Sie ___ einen Kuchen.
+Sie (sie, Sg.) ___ einen Kuchen.

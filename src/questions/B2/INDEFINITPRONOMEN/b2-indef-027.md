@@ -3,10 +3,11 @@ id: b2-indef-027
 type: select-one
 options:
   - Etwas
-  - Jemand
-  - Alles
   - Niemand
-correct: Jemand
+  - Alles
+  - Jemand
+correct: Niemand
 ---
 
-___ hat mir diese Nachricht geschickt. (Indefinitpronomen)
+Die Wohnung war dunkel und still.
+___ war zu Hause, als ich anrief. (Indefinitpronomen)

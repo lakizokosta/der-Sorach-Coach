@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Du ___ den Arzt anrufen.
+Der Apotheker rät: Du ___ den Arzt anrufen.

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, er das Buch gelesen hatte, verstand er alles.
+___ er das Buch gelesen hatte, verstand er alles.

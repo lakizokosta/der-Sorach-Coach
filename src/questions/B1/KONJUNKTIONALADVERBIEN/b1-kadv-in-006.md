@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Der Arzt riet zur Ruhe. ___, arbeitet er weiter.
+Der Arzt riet ihm zur Ruhe. ___ arbeitete er weiter.

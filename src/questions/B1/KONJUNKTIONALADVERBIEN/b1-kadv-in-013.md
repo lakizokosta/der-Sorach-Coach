@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Er spart Energie. ___, senkt er seine Kosten.
+Er spart Energie. ___ senkt er seine Kosten.

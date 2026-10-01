@@ -2,7 +2,7 @@
 id: b1-demo-dd-050
 type: dropbox
 words:
-  - Jenes
+  - Dieses
   - Hotel
   - war
   - deutlich

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Präteritumsform:
 
-Sie ___ sehr freundlich am Bankschalter.
+Sie (sie, Sg.) ___ sehr freundlich am Bankschalter.

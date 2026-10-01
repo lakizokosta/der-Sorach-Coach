@@ -5,10 +5,13 @@ words:
   - Sie
   - studiert
   - Medizin
-  - Außerdem
+  - außerdem
   - jobbt
   - sie
   - nebenbei
+  - .
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

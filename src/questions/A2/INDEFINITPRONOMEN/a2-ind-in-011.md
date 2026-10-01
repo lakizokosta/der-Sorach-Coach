@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-Ich kenne ___ hier in der neuen Stadt.
+Ich kenne ___ von den Gästen hier.

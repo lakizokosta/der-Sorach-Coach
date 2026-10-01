@@ -2,11 +2,11 @@
 id: a2-modal-047
 type: select-one
 options:
-  - soll
-  - darf
-  - will
-  - muss
-correct: muss
+  - sollen
+  - dürfen
+  - wollen
+  - müssen
+correct: müssen
 ---
 
-Ich ___ heute nicht arbeiten. (Modalverb + Verb müssen)
+Vor der Reise ___ wir noch die Koffer packen. (Modalverb + Verb müssen)

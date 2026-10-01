@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Verb-Nomen-Verbindung:
 
-Sie ___ eine Diagnose.
+Sie (sie, Sg.) ___ eine Diagnose.

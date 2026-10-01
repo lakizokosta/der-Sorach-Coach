@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Du ___ leiser sprechen.
+Die Nachbarn schlafen. Du ___ leiser sprechen.

@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Die Nachrichten sind alarmierend. ___, bleiben viele ruhig.
+Die Nachrichten sind alarmierend. ___ bleiben viele ruhig.

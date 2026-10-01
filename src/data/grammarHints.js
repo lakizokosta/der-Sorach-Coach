@@ -287,6 +287,11 @@ export const GRAMMAR_HINTS = {
     RU: 'Отделяемые: ge- между приставкой и корнем. Неотделяемые: БЕЗ ge-. -ieren: БЕЗ ge-.',
     EN: 'Separable: ge- between prefix and stem. Non-separable: NO ge-. -ieren: NO ge-.',
   },
+  PLUSQUAMPERFEKTB1: {
+    DE: 'Plusquamperfekt = hatte/war + Partizip II (Vorzeitigkeit). Typisch nach nachdem. Auch mit bevor/als: Vorzeitigkeit im Hauptsatz.',
+    RU: 'Plusquamperfekt = hatte/war + Partizip II (предшествование). Типично после nachdem. Также с bevor/als.',
+    EN: 'Plusquamperfekt = hatte/war + past participle (anteriority). Typical after nachdem; also with bevor/als.',
+  },
   PRÄPOSITIONENGENITIVB1: {
     DE: 'wegen, trotz, während, statt, aufgrund, innerhalb, außerhalb. Mask./neutr.: des+(e)s. Fem./pl.: der.',
     RU: 'wegen, trotz, während, statt, aufgrund. Муж./ср.: des+(e)s. Жен./мн.: der.',
@@ -418,6 +423,11 @@ export const GRAMMAR_HINTS = {
     DE: 'was nach alles/nichts/etwas/das/Superlativ. wer/wen/wem ohne Bezugsnomen. wo für Orte. wo(r)+Präp. für Sachen.',
     RU: 'was после alles/nichts/etwas. wer/wen/wem без антецедента. wo для мест. wo(r)+предлог.',
     EN: 'was after alles/nichts/etwas. wer/wen/wem without antecedent. wo for places. wo(r)+prep.',
+  },
+  RELATIVSATZERWEITERTB2: {
+    DE: 'Präp. + Relativpronomen (mit dem, in der…). was nach alles/nichts/etwas/Superlativ. wo / wohin / woher / worauf / womit / wodurch… Genitiv: dessen / deren.',
+    RU: 'Предлог + относительное местоимение. was после alles/nichts/etwas. wo / worauf / womit… Genitiv: dessen / deren.',
+    EN: 'Prep. + relative pronoun. was after alles/nichts/etwas. wo / worauf / womit… Genitive: dessen / deren.',
   },
   TEKAMOLO: {
     DE: 'Reihenfolge: Temporal, Kausal, Modal, Lokal. Zeit VOR Ort! Pronomen stehen davor.',

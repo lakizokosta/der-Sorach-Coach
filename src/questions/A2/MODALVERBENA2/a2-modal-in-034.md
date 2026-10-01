@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-034
 type: input-text
-hint: Modalverb + Verb haben
+hint: Modalverb + Verb sollen
 correct:
-  - hätte
+  - sollt
 ---
 
 Ergänze die Modalverbform:
 
-Ich ___ gern ein bisschen Ruhe.
+Kinder, der Zahnarzt sagt: Ihr ___ jeden Abend die Zähne putzen!

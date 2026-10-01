@@ -6,6 +6,9 @@ words:
   - schickt
   - ihrer
   - Freundin
+  - eine
+  - Karte
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Possessivartikel — ihrer)

@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-013
 type: input-text
-hint: Pronominaladverb — haben / habt / hat / hatte
+hint: Pronominaladverb — Präp. mit
 correct:
-  - hat
+  - damit
 ---
 
 Ergänze das Pronominaladverb:
 
-Damit ___ er sein ganzes Leben.
+Hat er sein ganzes Leben mit diesem Glauben verbracht? — Ja, er hat ___ sein ganzes Leben verbracht.

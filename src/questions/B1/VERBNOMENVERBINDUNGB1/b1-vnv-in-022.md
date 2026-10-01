@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Verb-Nomen-Verbindung:
 
-Sie ___ ein Praktikum in einer Klinik.
+Sie (sie, Sg.) ___ ein Praktikum in einer Klinik.

@@ -2,11 +2,11 @@
 id: b2-indef-021
 type: select-one
 options:
-  - alles
   - niemand
-  - jemand
+  - niemanden
   - etwas
-correct: etwas
+  - jemanden
+correct: jemanden
 ---
 
-Sie möchte ___ Neues ausprobieren. (Indefinitpronomen)
+Sie sucht ___ , der Italienisch spricht. (Indefinitpronomen)

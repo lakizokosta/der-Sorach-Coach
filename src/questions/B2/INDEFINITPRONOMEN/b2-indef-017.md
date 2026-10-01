@@ -2,11 +2,11 @@
 id: b2-indef-017
 type: select-one
 options:
-  - Alles
-  - Etwas
-  - Nichts
-  - Niemand
-correct: Niemand
+  - alles
+  - etwas
+  - nichts
+  - niemand
+correct: niemand
 ---
 
-___ weiß die Antwort auf diese Frage. (Indefinitpronomen)
+Bei dieser Frage weiß leider ___ die Antwort. (Indefinitpronomen)

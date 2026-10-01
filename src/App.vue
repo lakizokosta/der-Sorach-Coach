@@ -1,7 +1,7 @@
 <script setup>
 /**
  * App — top-level layout. Renders the active route plus persistent FABs
- * (login on Premium Hub, Support / Kontakt) and their modals.
+ * (Anmelden above Support / Kontakt) and their modals.
  */
 
 import { computed, ref } from 'vue';
@@ -19,7 +19,7 @@ import { useI18n } from '@/i18n/index.js';
 
 const route = useRoute();
 const { isLoggedIn } = useAuth();
-const { isPremium, isBasis, entitlementsReady, backendDegraded } = usePremium();
+const { isBasis, entitlementsReady, backendDegraded } = usePremium();
 const { t } = useI18n();
 
 const bootstrapping = computed(() => hasBackend() && !entitlementsReady.value);
@@ -27,8 +27,9 @@ const bootstrapping = computed(() => hasBackend() && !entitlementsReady.value);
 const showContact = ref(false);
 const { showLogin, openLogin, closeLogin } = useLoginModal();
 
+/** Anmelden for free + Premium-without-login (needed for Mein Profil). */
 const showLoginFab = computed(() => {
-  if (!hasBackend() || isLoggedIn.value || isPremium.value) return false;
+  if (!hasBackend() || isLoggedIn.value) return false;
   if (route.name === 'trainer') return false;
   if (route.name === 'landing') return !isBasis.value;
   return route.name === 'premium' && route.query.hub === '1';

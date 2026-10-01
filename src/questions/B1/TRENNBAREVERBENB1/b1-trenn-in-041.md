@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Verbform (trennbares Verb):
 
-Sie ___ um 22 Uhr ein.
+Sie (sie, Sg.) ___ um 22 Uhr ein.

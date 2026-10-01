@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-045
 type: input-text
-hint: Modalverb + Verb sollen
+hint: Modalverb + Verb dürfen
 correct:
-  - sollst
+  - darf
 ---
 
 Ergänze die Modalverbform:
 
-Du ___ den Arzt anrufen.
+Nur mit Ticket ___ man in den Zug einsteigen.

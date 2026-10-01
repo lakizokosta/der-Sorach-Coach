@@ -3,9 +3,9 @@ id: b2-indef-in-012
 type: input-text
 hint: Indefinitpronomen — etwas / jemand / nichts / niemand
 correct:
-  - jemand
+  - niemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Ist ___ zu Hause?
+Ohne Ausweis darf ___ den Raum betreten.

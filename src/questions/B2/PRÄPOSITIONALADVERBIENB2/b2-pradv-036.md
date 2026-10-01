@@ -2,11 +2,11 @@
 id: b2-pradv-036
 type: select-one
 options:
-  - früh
-  - früher
-  - frühes
-  - frühe
-correct: früher
+  - darüber
+  - damit
+  - dafür
+  - daran
+correct: damit
 ---
 
-Ich denke oft daran, wie es ___ war. (Pronominaladverb)
+Löst man das Problem mit einem Kompromiss? — Ja, man löst es ___. (Pronominaladverb)

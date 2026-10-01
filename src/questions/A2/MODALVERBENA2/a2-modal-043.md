@@ -2,11 +2,11 @@
 id: a2-modal-043
 type: select-one
 options:
-  - Muss
-  - Will
-  - Soll
-  - Darf
-correct: Darf
+  - muss
+  - darf
+  - soll
+  - will
+correct: will
 ---
 
-___ ich das Fenster öffnen? (Modalverb + Verb dürfen)
+Lisa hat den Wunsch: Sie ___ Sängerin werden. (Modalverb + Verb wollen)

@@ -820,7 +820,7 @@
 ### 61. `a2-konj-in-010` · input-text
 
 **Aufgabe:**
-> Er fragt, ___ wir mit zum Zoo kommen. (Konjunktion — indirekte Frage)
+> Er fragt, ___ wir zum Zoo mitkommen. (Konjunktion — indirekte Frage)
 
 **Antwort:** `ob`
 
@@ -990,7 +990,7 @@
 ### 78. `a2-konj-in-027` · input-text
 
 **Aufgabe:**
-> Er fragt, ___ wir mit zum Zoo kommen. (Konjunktion — indirekte Frage)
+> Er fragt, ___ wir zum Zoo mitkommen. (Konjunktion — indirekte Frage)
 
 **Antwort:** `ob`
 
@@ -1160,7 +1160,7 @@
 ### 95. `a2-konj-in-044` · input-text
 
 **Aufgabe:**
-> Er fragt, ___ wir mit zum Zoo kommen. (Konjunktion — indirekte Frage)
+> Er fragt, ___ wir zum Zoo mitkommen. (Konjunktion — indirekte Frage)
 
 **Antwort:** `ob`
 

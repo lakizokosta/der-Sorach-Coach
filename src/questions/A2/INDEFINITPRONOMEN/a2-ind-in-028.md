@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-028
 type: input-text
-hint: Indefinitpronomen — Verneinung Person, Akk. = niemanden
+hint: Indefinitpronomen — unbestimmte Sache = etwas
 correct:
-  - niemanden
+  - etwas
 ---
 
 Ergänze das Indefinitpronomen:
 
-Ich kenne ___ hier in der neuen Stadt.
+Es gibt ___ Neues im Radio.

@@ -8,9 +8,9 @@ words:
   - Kosten
   - gehen
   - wir
-  - trotzdem
   - auf
   - Reisen
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Genitiv-Präposition)

@@ -4,7 +4,6 @@ type: dropbox
 words:
   - Wir
   - wollen
-  - zusammen
   - ins
   - Schwimmbad
   - gehen

@@ -1,11 +1,11 @@
 ---
 id: b2-indef-in-006
 type: input-text
-hint: Indefinitpronomen — etwas / jemand / jemanden / niemanden
+hint: Indefinitpronomen — etwas / jemandem / jemanden / niemandem
 correct:
-  - jemanden
+  - jemandem
 ---
 
 Ergänze das Indefinitpronomen:
 
-Kennst du ___ hier?
+Er vertraut leider ___ , das ist seine Schwäche.

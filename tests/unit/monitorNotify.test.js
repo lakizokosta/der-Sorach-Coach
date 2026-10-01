@@ -1,25 +1,77 @@
 import { describe, it, expect } from 'vitest';
 import {
   shouldSendMonitorEmail,
+  isMonitorOutageDetected,
   isGasMonitorDown,
   monitorExitCode,
 } from '@/utils/monitorNotify.js';
 
+describe('isMonitorOutageDetected', () => {
+  it('detects GAS OAuth 403', () => {
+    expect(isMonitorOutageDetected({
+      checks: { gas: { kind: 'oauth403', httpStatus: 403 } },
+    })).toBe(true);
+  });
+
+  it('detects worker health failure', () => {
+    expect(isMonitorOutageDetected({
+      messages: ['Worker /api/health failed: timeout'],
+      checks: { gas: { kind: 'ok', ok: true } },
+    })).toBe(true);
+  });
+
+  it('detects worker reporting GAS unreachable', () => {
+    expect(isMonitorOutageDetected({
+      checks: { gas: { kind: 'ok', ok: true }, worker: { gasReachable: false } },
+    })).toBe(true);
+  });
+
+  it('ignores stale deploy log OAuth expiry when GAS is up', () => {
+    expect(isMonitorOutageDetected({
+      level: 'fail',
+      messages: ['OAuth token expired (deploy 35d ago, lifetime 7d, mode=testing)'],
+      checks: {
+        redeployEmailDue: false,
+        gas: { kind: 'ok', ok: true, httpStatus: 200 },
+        worker: { gasReachable: true },
+      },
+    })).toBe(false);
+  });
+
+  it('ignores proactive redeploy reminder', () => {
+    expect(isMonitorOutageDetected({
+      level: 'warn',
+      messages: ['OAuth token expires in ~24 hours (deploy day 6/7, mode=testing)'],
+      checks: { redeployEmailDue: true, gas: { kind: 'ok', ok: true } },
+    })).toBe(false);
+  });
+
+  it('ignores latency-only warn', () => {
+    expect(isMonitorOutageDetected({
+      level: 'warn',
+      messages: ['GAS latency 9000ms — cold start or sheet bloat'],
+      checks: { gas: { kind: 'ok', ok: true } },
+    })).toBe(false);
+  });
+});
+
 describe('shouldSendMonitorEmail', () => {
-  it('sends on fail level', () => {
-    expect(shouldSendMonitorEmail({ level: 'fail' })).toBe(true);
+  it('sends only on detected outage', () => {
+    expect(shouldSendMonitorEmail({
+      checks: { gas: { kind: 'html' } },
+    })).toBe(true);
   });
 
-  it('sends on proactive redeployEmailDue even when level is warn', () => {
-    expect(shouldSendMonitorEmail({ level: 'warn', checks: { redeployEmailDue: true } })).toBe(true);
-  });
-
-  it('does not send for latency-only warn', () => {
-    expect(shouldSendMonitorEmail({ level: 'warn', checks: { redeployEmailDue: false } })).toBe(false);
+  it('does not send for log-only fail', () => {
+    expect(shouldSendMonitorEmail({
+      level: 'fail',
+      messages: ['OAuth token expired (deploy 35d ago, lifetime 7d, mode=testing)'],
+      checks: { gas: { kind: 'ok', ok: true } },
+    })).toBe(false);
   });
 
   it('does not send when all OK', () => {
-    expect(shouldSendMonitorEmail({ level: 'ok' })).toBe(false);
+    expect(shouldSendMonitorEmail({ level: 'ok', checks: { gas: { kind: 'ok', ok: true } } })).toBe(false);
   });
 });
 
@@ -38,10 +90,15 @@ describe('isGasMonitorDown', () => {
 });
 
 describe('monitorExitCode', () => {
-  it('returns 1 on fail, 2 on proactive warn, 0 on ok', () => {
-    expect(monitorExitCode('fail', false)).toBe(1);
-    expect(monitorExitCode('warn', true)).toBe(2);
-    expect(monitorExitCode('ok', false)).toBe(0);
-    expect(monitorExitCode('warn', false)).toBe(0);
+  it('returns 1 only when outage detected', () => {
+    expect(monitorExitCode({
+      checks: { gas: { kind: 'oauth403' } },
+    })).toBe(1);
+    expect(monitorExitCode({
+      level: 'fail',
+      messages: ['OAuth token expired (deploy 35d ago, lifetime 7d, mode=testing)'],
+      checks: { gas: { kind: 'ok', ok: true } },
+    })).toBe(0);
+    expect(monitorExitCode({ level: 'ok', checks: { gas: { kind: 'ok', ok: true } } })).toBe(0);
   });
 });

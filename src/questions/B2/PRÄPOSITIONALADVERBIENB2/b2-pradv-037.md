@@ -2,11 +2,11 @@
 id: b2-pradv-037
 type: select-one
 options:
-  - finanziert
-  - finanzierst
-  - finanzieren
-  - finanzier
-correct: finanzierst
+  - darin
+  - darauf
+  - damit
+  - dabei
+correct: darauf
 ---
 
-Womit ___ du dein Studium? (Pronominaladverb)
+Wartest du auf eine Antwort der Behörde? — Ich warte ___. (Pronominaladverb)

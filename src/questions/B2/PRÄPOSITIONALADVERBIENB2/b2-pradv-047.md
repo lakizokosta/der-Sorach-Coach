@@ -2,11 +2,11 @@
 id: b2-pradv-047
 type: select-one
 options:
-  - hatte
-  - hätte
-  - habt
-  - hat
-correct: hat
+  - Woran
+  - Womit
+  - Worüber
+  - Worin
+correct: Worin
 ---
 
-Damit ___ er sein ganzes Leben. (Pronominaladverb)
+Der Unterschied besteht in der Methode. — ___ besteht der Unterschied? (Pronominaladverb)

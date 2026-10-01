@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-008
 type: input-text
-hint: Pronominaladverb — erinnere / erinnern / erinnert / erinnerte
+hint: Pronominaladverb — Präp. an
 correct:
-  - erinnere
+  - daran
 ---
 
 Ergänze das Pronominaladverb:
 
-Daran ___ ich mich noch gut.
+Denkst du bei der Entscheidung an die Risiken? — Ja, ich denke ___.

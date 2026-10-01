@@ -9,4 +9,4 @@ options:
 correct: Trotzdem
 ---
 
-Das Hotel war laut. ___, haben wir gut geschlafen. (Konjunktionaladverb)
+Das Hotel war laut. ___ haben wir gut geschlafen. (Konjunktionaladverb)

@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, sie den Vertrag unterschrieb, beriet sie sich.
+___ sie den Vertrag unterschrieb, beriet sie sich.

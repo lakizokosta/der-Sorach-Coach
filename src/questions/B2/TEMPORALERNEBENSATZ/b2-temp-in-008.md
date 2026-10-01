@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Konjunktion (Temporal):
 
-___, der Film begann, kamen noch viele Zuschauer.
+___ der Film begann, kamen noch viele Zuschauer.

@@ -2,11 +2,11 @@
 id: a2-modal-018
 type: select-one
 options:
-  - Muss
-  - Darf
-  - Kann
-  - Will
-correct: Darf
+  - musst
+  - sollst
+  - kannst
+  - darfst
+correct: sollst
 ---
 
-___ ich hier parken? (Modalverb + Verb dürfen)
+Mama erinnert dich: Du ___ höflich grüßen. (Modalverb + Verb sollen)

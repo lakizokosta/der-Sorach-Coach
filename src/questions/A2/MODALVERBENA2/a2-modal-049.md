@@ -2,11 +2,11 @@
 id: a2-modal-049
 type: select-one
 options:
-  - müssen
-  - wollen
-  - sollen
-  - können
-correct: wollen
+  - musst
+  - sollst
+  - willst
+  - kannst
+correct: sollst
 ---
 
-Wir ___ morgen früh losfahren. (Modalverb + Verb wollen)
+Die Lehrerin rät: Du ___ mehr üben. (Modalverb + Verb sollen)

@@ -2,11 +2,11 @@
 id: b2-pradv-012
 type: select-one
 options:
-  - bauen
-  - baut
-  - gebaut
-  - baute
-correct: baut
+  - dabei
+  - darauf
+  - darüber
+  - dafür
+correct: darauf
 ---
 
-Hierauf ___ die ganze Argumentation. (Pronominaladverb)
+Wartest du auf eine Antwort der Behörde? — Ich warte ___. (Pronominaladverb)

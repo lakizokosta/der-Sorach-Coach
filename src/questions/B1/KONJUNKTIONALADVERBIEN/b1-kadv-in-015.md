@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Wir brauchen Hilfe. ___, rufen wir einen Experten.
+Wir brauchen Hilfe. ___ rufen wir einen Experten.

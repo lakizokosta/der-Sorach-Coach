@@ -9,4 +9,4 @@ options:
 correct: lesen
 ---
 
-Sie ___ ein Buch über Reisen. (Präsens + Verb lesen — sie (Pl.))
+Sie (sie, Pl.) ___ ein Buch über Reisen. (Präsens + Verb lesen)

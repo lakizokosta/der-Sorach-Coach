@@ -6,8 +6,6 @@ words:
   - kann
   - leider
   - nicht
-  - zur
-  - Einladung
   - kommen
 ---
 

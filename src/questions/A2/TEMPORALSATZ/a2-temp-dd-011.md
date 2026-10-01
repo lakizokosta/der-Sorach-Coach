@@ -6,8 +6,11 @@ words:
   - ihr
   - müde
   - seid
-  - solltet
+  - geht
   - schlafen
+  - .
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Temporalsatz)

@@ -9,8 +9,6 @@ words:
   - Nichte
   - heißt
   - Sophie
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Nichte)

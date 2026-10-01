@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-022
 type: input-text
-hint: Indefinitpronomen — unbestimmte Person, Nom. = jemand
+hint: Indefinitpronomen — unbestimmte Sache = etwas
 correct:
-  - Jemand
+  - etwas
 ---
 
 Ergänze das Indefinitpronomen:
 
-___ war bei der Panne sehr nett.
+Ich habe ___ Wichtiges vergessen.

@@ -3,10 +3,9 @@ id: a2-modal-dd-043
 type: dropbox
 words:
   - Sie
-  - muss
-  - jeden
-  - Tag
-  - trainieren
+  - will
+  - Sängerin
+  - werden
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

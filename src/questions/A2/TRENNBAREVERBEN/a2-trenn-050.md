@@ -9,4 +9,4 @@ options:
 correct: macht
 ---
 
-Sie ___ das Licht aus. (Trennbares Verb + Verb machen)
+Sie (sie, Sg.) ___ das Licht aus. (Trennbares Verb + Verb machen)

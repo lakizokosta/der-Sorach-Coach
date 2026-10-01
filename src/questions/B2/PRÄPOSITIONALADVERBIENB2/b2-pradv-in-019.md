@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-019
 type: input-text
-hint: Pronominaladverb — frühe / früher / frühes / frühest
+hint: Pronominaladverb — Präp. auf
 correct:
-  - früher
+  - Worauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Ich denke oft daran, wie es ___ war.
+Ihre Kritik bezieht sich auf den Bericht. — ___ bezieht sich Ihre Kritik?

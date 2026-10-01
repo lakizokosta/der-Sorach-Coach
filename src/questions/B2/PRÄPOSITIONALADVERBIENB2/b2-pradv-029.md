@@ -2,11 +2,11 @@
 id: b2-pradv-029
 type: select-one
 options:
-  - baust
-  - baut
-  - gebaut
-  - bauen
-correct: baut
+  - daran
+  - damit
+  - dafür
+  - darüber
+correct: damit
 ---
 
-Hierauf ___ die ganze Argumentation. (Pronominaladverb)
+Kannst du mit dem Vorschlag etwas anfangen? — Nein, ich kann ___ nichts anfangen. (Pronominaladverb)

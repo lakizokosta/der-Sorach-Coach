@@ -64,14 +64,14 @@ import {
 } from '@/utils/placementTest.js';
 import { setCefrLevel } from '@/composables/useCefrLevel.js';
 import { useNickname } from '@/composables/useNickname.js';
-import { sharePlacementCard } from '@/utils/shareCard.js';
+import { sharePlacementCard, shareSessionCard } from '@/utils/shareCard.js';
 import { useI18n } from '@/i18n/index.js';
 import { PRICES_EUR } from '@/data/payment.js';
 
 const route = useRoute();
 const { t } = useI18n();
 const router = useRouter();
-const { isPremium, isBasis } = usePremium();
+const { isPremium, isBasis, entitlementsReady } = usePremium();
 const { addXP, state: xpState, level: liveLevel, MASTERY_THRESHOLD } = useXp();
 const { state: streakState } = useStreak();
 const { displayName } = useNickname();
@@ -208,6 +208,21 @@ const topicPoolHint = computed(() => {
   });
 });
 
+/** Label for session result screen and share card (level · topic). */
+const sessionTopicLabel = computed(() => {
+  if (vocabMode.value && vocabSetLabel.value) {
+    return `${level.value} · ${vocabSetLabel.value}`;
+  }
+  if (topic.value) {
+    const found = (PREMIUM_TOPICS[level.value] || []).find(
+      (item) => item.key.toUpperCase() === String(topic.value).toUpperCase(),
+    );
+    return found ? `${level.value} · ${found.name}` : `${level.value} · ${topic.value}`;
+  }
+  if (schwaechenMode.value) return t('trainer.schwaechenShareLabel');
+  return level.value;
+});
+
 const xpPerAnswer = computed(() => (isPremium.value ? 2 : 1));
 
 /** Canonical topic key for mastery / XP attribution. */
@@ -316,6 +331,11 @@ async function ensureAccessBeforeLoad() {
   if (!hasBackend()) {
     if (needsPremium) return false;
     return isPremium.value || isBasis.value;
+  }
+
+  // Bootstrap already confirmed access — avoid a second blocking GAS round-trip on every click.
+  if (entitlementsReady.value && (isPremium.value || isBasis.value)) {
+    return true;
   }
 
   const verified = await verifyEntitlementsLive();
@@ -709,6 +729,29 @@ function sharePlacementResult() {
   });
 }
 
+function shareSessionResult() {
+  if (answered.value === 0 || placementDetectedLevel.value || freeTimeExpired.value) return;
+  shareSessionCard({
+    scorePct: scorePct.value,
+    answered: answered.value,
+    correct: correct.value,
+    wrong: wrongCount.value,
+    xpEarned: finalXp.value,
+    streak: streakState.currentStreak,
+    levelNum: liveLevel.num,
+    levelName: liveLevel.name,
+    nickname: displayName.value,
+    sessionLabel: sessionTopicLabel.value,
+    headline: sessionResultHeadline.value,
+    shareTitle: t('trainer.sessionShareTitle'),
+    shareText: t('trainer.sessionShareText', {
+      scorePct: scorePct.value,
+      correct: correct.value,
+      answered: answered.value,
+    }),
+  });
+}
+
 /**
  * Ends the session, persists XP & streak and renders the result screen.
  *
@@ -723,19 +766,10 @@ function finish(reason) {
 }
 
 /**
- * Re-routes after the session ends (back to landing or premium menu).
+ * Re-routes after the session ends (back to landing home).
  */
 function exitSession() {
-  if (route.query.returnTo === 'hub') {
-    router.push({
-      name: 'premium',
-      query: { hub: '1', level: level.value },
-    });
-    return;
-  }
-  if (placementMode.value || schwaechenMode.value) router.push({ name: 'landing' });
-  else if (isPremium.value) router.push({ name: 'premium' });
-  else router.push({ name: 'landing' });
+  router.push({ name: 'landing' });
 }
 
 /**
@@ -826,6 +860,14 @@ const placementBreakdownRows = computed(() =>
 const freeTimeExpired = computed(
   () => finishReason.value === 'Zeit abgelaufen' && !isPremium.value && !isBasis.value,
 );
+
+const sessionResultHeadline = computed(() => {
+  if (freeTimeExpired.value) return t('trainer.freeTimeExpiredTitle');
+  if (placementDetectedLevel.value) return `Dein Niveau: ${placementDetectedLevel.value}`;
+  if (scorePct.value >= 80) return t('trainer.excellent');
+  if (scorePct.value >= 60) return t('trainer.goodJob');
+  return t('trainer.keepPracticing');
+});
 
 /** Sticky upsell bar in free trainer mode (Concept A). */
 const showFunnelSticky = computed(
@@ -983,6 +1025,7 @@ watch(lastAnswerResolved, (resolved) => {
     <LzdLogo />
     <h2>{{ t('trainer.noQuestions') }}</h2>
     <p v-if="schwaechenMode">{{ t('schwaechen.bodyNoErrors') }}</p>
+    <p v-else-if="placementMode">{{ t('trainer.noQuestionsLevel') }}</p>
     <p v-else>{{ t('trainer.noQuestionsTopic') }}</p>
     <button class="soft-btn" type="button" @click="exitSession">{{ t('trainer.back') }}</button>
   </div>
@@ -1172,6 +1215,15 @@ watch(lastAnswerResolved, (resolved) => {
           @click="sharePlacementResult"
         >
           {{ t('trainer.placementShare') }}
+        </button>
+
+        <button
+          v-if="!placementDetectedLevel && !freeTimeExpired && answered > 0"
+          type="button"
+          class="trainer-placement-share"
+          @click="shareSessionResult"
+        >
+          {{ t('trainer.sessionShare') }}
         </button>
 
         <button

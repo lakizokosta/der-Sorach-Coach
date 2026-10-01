@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Reflexivform:
 
-Sie ___ sich im Spiegel.
+Sie (sie, Sg.) ___ sich im Spiegel.

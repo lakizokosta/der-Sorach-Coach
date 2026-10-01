@@ -12,7 +12,7 @@ words:
   - Inhalt
   - spannend
 commas:
-  - 3
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obschon)

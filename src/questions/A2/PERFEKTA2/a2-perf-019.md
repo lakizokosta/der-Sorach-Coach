@@ -9,4 +9,4 @@ options:
 correct: ist
 ---
 
-Sie ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)
+Sie (sie, Sg.) ___ nach Berlin gefahren. (Perfekt + Hilfsverb sein)

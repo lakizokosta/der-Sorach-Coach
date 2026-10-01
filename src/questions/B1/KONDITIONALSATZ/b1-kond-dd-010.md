@@ -3,15 +3,17 @@ id: b1-kond-dd-010
 type: dropbox
 words:
   - Sobald
-  - wir
+  - ich
   - im
   - Hotel
   - angekommen
-  - sind
+  - bin
   - gehen
+  - wir
   - essen
+  - .
 commas:
-  - 6
+  - 5
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

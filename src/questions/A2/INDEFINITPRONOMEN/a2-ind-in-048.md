@@ -1,11 +1,11 @@
 ---
 id: a2-ind-in-048
 type: input-text
-hint: Indefinitpronomen — unbestimmte Sache = etwas
+hint: Indefinitpronomen — unbestimmte Person, Nom. = jemand
 correct:
-  - etwas
+  - Jemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Hier stimmt ___ nicht.
+___ hat die Tür offen gelassen.

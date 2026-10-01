@@ -10,6 +10,8 @@ words:
   - bleiben
   - viele
   - ruhig
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

@@ -2,11 +2,12 @@
 id: b2-indef-043
 type: select-one
 options:
-  - niemand
-  - nichts
+  - jemand
   - etwas
+  - nichts
   - alles
-correct: etwas
+correct: nichts
 ---
 
-Brauchst du ___ von mir? (Indefinitpronomen)
+Sie will die Wahrheit sagen.
+Sie hat ___ Falsches gesagt. (Indefinitpronomen)

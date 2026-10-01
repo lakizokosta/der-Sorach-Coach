@@ -4,9 +4,9 @@ type: select-one
 options:
   - Deshalb
   - Obwohl
-  - Damit
+  - Trotzdem
   - Weil
 correct: Obwohl
 ---
 
-___ die Politik umstritten ist, diskutieren viele Menschen. (Konzessivsatz)
+___ die Politik umstritten ist, schweigen viele Menschen. (Konzessivsatz)

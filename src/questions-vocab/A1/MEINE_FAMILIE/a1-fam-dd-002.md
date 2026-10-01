@@ -12,9 +12,6 @@ words:
   - und
   - eine
   - Schwester
-commas:
-  - 2
-  - 6
 ---
 
 Ordne die Wörter: (Geschwister)

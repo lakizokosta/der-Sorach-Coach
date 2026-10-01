@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-037
 type: input-text
-hint: Modalverb + Verb dürfen
+hint: Modalverb + Verb können
 correct:
-  - Darf
+  - kann
 ---
 
 Ergänze die Modalverbform:
 
-___ ich hier am Bankschalter fragen?
+Nach dem Intensivkurs ___ ich schon Briefe auf Deutsch schreiben.

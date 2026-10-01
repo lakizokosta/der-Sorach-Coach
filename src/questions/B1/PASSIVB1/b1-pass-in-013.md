@@ -1,7 +1,7 @@
 ---
 id: b1-pass-in-013
 type: input-text
-hint: Passiv + Verb hren
+hint: Passiv + Verb durchführen
 correct:
   - wird
 ---

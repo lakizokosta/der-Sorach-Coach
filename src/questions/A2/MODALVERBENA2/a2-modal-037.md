@@ -9,4 +9,4 @@ options:
 correct: kann
 ---
 
-Ich ___ leider nicht kommen. (Modalverb + Verb können)
+Nach dem Intensivkurs ___ ich schon Briefe auf Deutsch schreiben. (Modalverb + Verb können)

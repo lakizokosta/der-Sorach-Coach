@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Konjunktionaladverb:
 
-Sie hat wenig Erfahrung. ___, bekommt sie die Stelle.
+Sie hat wenig Erfahrung. ___ bekommt sie die Stelle.

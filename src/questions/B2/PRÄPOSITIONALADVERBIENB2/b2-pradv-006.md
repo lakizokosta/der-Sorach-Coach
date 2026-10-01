@@ -2,11 +2,11 @@
 id: b2-pradv-006
 type: select-one
 options:
-  - konntet
-  - kann
-  - können
-  - könnte
-correct: kann
+  - davon
+  - darin
+  - damit
+  - daran
+correct: darin
 ---
 
-Damit ___ ich nichts anfangen. (Pronominaladverb)
+Der Unterschied liegt in der Methode. — Der Unterschied besteht ___. (Pronominaladverb)

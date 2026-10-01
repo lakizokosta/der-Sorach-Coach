@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-043
 type: input-text
-hint: Modalverb + Verb müssen
+hint: Modalverb + Verb wollen
 correct:
-  - muss
+  - will
 ---
 
 Ergänze die Modalverbform:
 
-Sie ___ jeden Tag trainieren.
+Lisa hat den Wunsch: Sie ___ Sängerin werden.

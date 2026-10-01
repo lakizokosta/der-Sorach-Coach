@@ -2,11 +2,11 @@
 id: b2-indef-013
 type: select-one
 options:
-  - jemand
-  - etwas
-  - niemandem
-  - jemandem
-correct: jemandem
+  - Etwas
+  - Nichts
+  - Alles
+  - Jemand
+correct: Jemand
 ---
 
-Er vertraut ___ , das ist seine Schwäche. (Indefinitpronomen)
+___ aus dem Team hat mir diese Nachricht geschickt. (Indefinitpronomen)

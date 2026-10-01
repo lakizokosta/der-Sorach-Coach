@@ -2,11 +2,11 @@
 id: a2-modal-017
 type: select-one
 options:
-  - darf
-  - muss
-  - soll
-  - kann
-correct: muss
+  - darfst
+  - musst
+  - sollst
+  - kannst
+correct: musst
 ---
 
-Ich ___ heute nicht arbeiten. (Modalverb + Verb müssen)
+Für den Kurs ___ du Hausaufgaben machen. (Modalverb + Verb müssen)

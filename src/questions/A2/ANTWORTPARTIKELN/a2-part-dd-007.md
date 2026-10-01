@@ -6,10 +6,12 @@ words:
   - du
   - schon
   - Deutsch
-  - ja
+  - ?
+  - Ja
   - seit
   - einem
   - Jahr
+  - .
 commas:
   - 4
 ---

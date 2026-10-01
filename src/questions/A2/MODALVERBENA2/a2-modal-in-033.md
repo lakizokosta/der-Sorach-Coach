@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-033
 type: input-text
-hint: Modalverb + Verb Konjunktiv II — können/du
+hint: Modalverb + Verb müssen
 correct:
-  - könntest
+  - muss
 ---
 
 Ergänze die Modalverbform:
 
-Du ___ auch mitmachen.
+Laut Fahrplan ___ der Zug um acht abfahren.

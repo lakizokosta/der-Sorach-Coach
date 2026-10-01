@@ -5,7 +5,7 @@ options:
   - Dass
   - Obwohl
   - Weil
-  - Damit
+  - Trotzdem
 correct: Obwohl
 ---
 

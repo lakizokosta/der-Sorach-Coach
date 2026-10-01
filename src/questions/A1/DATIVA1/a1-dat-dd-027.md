@@ -6,6 +6,9 @@ words:
   - singt
   - den
   - Kindern
+  - ein
+  - Lied
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Dativ — den Kindern singen)

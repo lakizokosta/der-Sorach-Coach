@@ -2,11 +2,11 @@
 id: b2-pradv-034
 type: select-one
 options:
-  - warten
-  - warte
-  - wartete
-  - wartest
-correct: warte
+  - damit
+  - darauf
+  - darüber
+  - dafür
+correct: darauf
 ---
 
-Darauf ___ ich nicht. (Pronominaladverb)
+Baut die Argumentation auf dieser These? — Ja, sie baut ___. (Pronominaladverb)

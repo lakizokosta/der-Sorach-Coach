@@ -2,11 +2,11 @@
 id: b2-pradv-004
 type: select-one
 options:
-  - freuen
-  - freue
-  - gefreut
-  - freute
-correct: freue
+  - darüber
+  - damit
+  - davon
+  - dafür
+correct: damit
 ---
 
-Darauf ___ ich mich schon lange. (Pronominaladverb)
+Kannst du mit dem Vorschlag etwas anfangen? — Nein, ich kann ___ nichts anfangen. (Pronominaladverb)

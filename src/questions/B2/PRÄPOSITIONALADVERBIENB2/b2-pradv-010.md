@@ -2,11 +2,11 @@
 id: b2-pradv-010
 type: select-one
 options:
-  - hat
-  - haben
-  - hätten
-  - hatte
-correct: haben
+  - dabei
+  - darauf
+  - darüber
+  - dafür
+correct: darauf
 ---
 
-Darauf ___ wir uns geeinigt. (Pronominaladverb)
+Achten Sie besonders auf die Formalia? — Ja, wir achten besonders ___. (Pronominaladverb)

@@ -6,10 +6,13 @@ words:
   - Projekt
   - ist
   - teuer
-  - Dennoch
+  - dennoch
   - lohnt
   - es
   - sich
+  - .
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

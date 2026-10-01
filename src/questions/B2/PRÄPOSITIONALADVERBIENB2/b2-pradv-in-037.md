@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-037
 type: input-text
-hint: Pronominaladverb — finanzier / finanzieren / finanzierst / finanziert
+hint: Pronominaladverb — Präp. auf
 correct:
-  - finanzierst
+  - darauf
 ---
 
 Ergänze das Pronominaladverb:
 
-Womit ___ du dein Studium?
+Wartest du auf eine Antwort der Behörde? — Ich warte ___.

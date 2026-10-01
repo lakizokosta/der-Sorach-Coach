@@ -2,11 +2,11 @@
 id: b2-pradv-022
 type: select-one
 options:
-  - haben
-  - hattet
-  - habt
-  - hat
-correct: habt
+  - Woran
+  - Womit
+  - Worin
+  - Worauf
+correct: Worin
 ---
 
-Worüber ___ ihr gestern gesprochen? (Pronominaladverb)
+Der Unterschied besteht in der Methode. — ___ besteht der Unterschied? (Pronominaladverb)

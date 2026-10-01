@@ -4,9 +4,10 @@ type: dropbox
 words:
   - Fahr
   - links
-  - auf
+  - in
   - die
   - Straße
+  - .
 ---
 
 [Transport] Ordne die Wörter zum richtigen Satz: (Wechselpräp. — auf die Straße (Bewegung))

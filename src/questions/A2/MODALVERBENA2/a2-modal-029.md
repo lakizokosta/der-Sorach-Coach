@@ -2,11 +2,11 @@
 id: a2-modal-029
 type: select-one
 options:
-  - darf
-  - muss
-  - soll
-  - kann
-correct: muss
+  - müssen
+  - wollen
+  - sollen
+  - können
+correct: wollen
 ---
 
-Er ___ pünktlich sein. (Modalverb + Verb müssen)
+Anna und Paul ___ nächsten Sommer heiraten — sie haben es beschlossen. (Modalverb + Verb wollen)

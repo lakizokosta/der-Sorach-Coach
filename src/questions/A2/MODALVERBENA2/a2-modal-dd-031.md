@@ -2,12 +2,11 @@
 id: a2-modal-dd-031
 type: dropbox
 words:
-  - Er
-  - muss
-  - pünktlich
-  - zur
-  - Arbeit
-  - sein
+  - Ich
+  - darf
+  - kein
+  - Auto
+  - fahren
 ---
 
 Ordne die Wörter zum richtigen Satz: (Modalverben)

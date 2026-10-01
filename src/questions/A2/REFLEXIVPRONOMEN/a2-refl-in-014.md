@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Reflexivform:
 
-Sie ___ sich für das Fest.
+Sie (sie, Sg.) ___ sich für das Fest.

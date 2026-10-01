@@ -2,11 +2,11 @@
 id: b2-pradv-015
 type: select-one
 options:
-  - war
-  - wäre
-  - sein
-  - ist
-correct: ist
+  - dafür
+  - damit
+  - darin
+  - daran
+correct: daran
 ---
 
-Daran ___ nichts zu ändern. (Pronominaladverb)
+Glaubst du an den neuen Plan? — Ich glaube ___. (Pronominaladverb)

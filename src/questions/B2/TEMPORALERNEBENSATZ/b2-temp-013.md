@@ -9,4 +9,4 @@ options:
 correct: Sobald
 ---
 
-___, das Meeting zu Ende war, gingen alle. (Grammatikform)
+___ das Meeting zu Ende war, gingen alle. (Grammatikform)

@@ -1,11 +1,11 @@
 ---
 id: b2-indef-in-019
 type: input-text
-hint: Indefinitpronomen — alles / etwas / nichts / niemand
+hint: Indefinitpronomen — alles / etwas / jemand / nichts
 correct:
-  - nichts
+  - etwas
 ---
 
 Ergänze das Indefinitpronomen:
 
-Das Thema ist mir völlig neu; ich habe ___ davon gehört.
+Wir brauchen noch ___ Hilfe von dir.

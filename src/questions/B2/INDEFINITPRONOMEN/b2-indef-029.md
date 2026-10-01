@@ -9,4 +9,5 @@ options:
 correct: jemand
 ---
 
+Es klopft unerwartet an der Tür.
 Ist ___ zu Hause? (Indefinitpronomen)

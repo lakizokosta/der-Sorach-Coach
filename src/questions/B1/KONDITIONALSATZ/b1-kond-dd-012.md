@@ -10,8 +10,9 @@ words:
   - informiere
   - ich
   - dich
+  - .
 commas:
-  - 4
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konditionalsatz)

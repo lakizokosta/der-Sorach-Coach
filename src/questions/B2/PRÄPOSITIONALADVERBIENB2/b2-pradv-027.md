@@ -2,11 +2,11 @@
 id: b2-pradv-027
 type: select-one
 options:
-  - habt
-  - hatte
-  - hätten
-  - haben
-correct: haben
+  - davon
+  - dabei
+  - darüber
+  - darauf
+correct: darauf
 ---
 
-Darauf ___ wir uns geeinigt. (Pronominaladverb)
+Freust du dich schon lange auf die Premiere? — Ich freue mich schon lange ___. (Pronominaladverb)

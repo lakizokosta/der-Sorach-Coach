@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Wir ___ heute ins Schwimmbad gehen.
+Wir haben Lust darauf: Wir ___ heute ins Schwimmbad gehen.

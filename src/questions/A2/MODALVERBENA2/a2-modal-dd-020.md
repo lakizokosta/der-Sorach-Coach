@@ -3,11 +3,9 @@ id: a2-modal-dd-020
 type: dropbox
 words:
   - Darf
-  - ich
+  - man
   - hier
-  - am
-  - Bankschalter
-  - fragen
+  - telefonieren
   - ?
 ---
 

@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-025
 type: input-text
-hint: Pronominaladverb — erinnere / erinnern / erinnerst / erinnert
+hint: Pronominaladverb — Präp. mit
 correct:
-  - erinnere
+  - Womit
 ---
 
 Ergänze das Pronominaladverb:
 
-Daran ___ ich mich noch gut.
+Man löst das Problem mit einem Kompromiss. — ___ löst man das Problem?

@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-021
 type: input-text
-hint: Pronominaladverb — freue / freuen / freust / gefreut
+hint: Pronominaladverb — Präp. über
 correct:
-  - freue
+  - Worüber
 ---
 
 Ergänze das Pronominaladverb:
 
-Darauf ___ ich mich schon lange.
+Ihr habt gestern über die Reform gesprochen. — ___ habt ihr gestern gesprochen?

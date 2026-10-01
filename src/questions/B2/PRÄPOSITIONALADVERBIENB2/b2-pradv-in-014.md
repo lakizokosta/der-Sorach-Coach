@@ -1,11 +1,11 @@
 ---
 id: b2-pradv-in-014
 type: input-text
-hint: Pronominaladverb — achte / achten / achtet / achtete
+hint: Pronominaladverb — Präp. für
 correct:
-  - achten
+  - dafür
 ---
 
 Ergänze das Pronominaladverb:
 
-Worauf ___ Sie besonders?
+Interessierst du dich für das Forschungsthema? — Ich interessiere mich ___.

@@ -3,16 +3,18 @@ id: b1-konz-dd-001
 type: dropbox
 words:
   - Obwohl
-  - es
+  - er
+  - unter
   - Schlafmangel
-  - gibt
+  - leidet
   - arbeitet
   - der
   - Kollege
   - sehr
   - produktiv
+  - .
 commas:
-  - 3
+  - 4
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konzessivsatz — obwohl)

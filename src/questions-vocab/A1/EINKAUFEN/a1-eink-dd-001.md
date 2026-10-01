@@ -10,8 +10,6 @@ words:
   - Brot
   - und
   - Milch
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Im Supermarkt einkaufen)

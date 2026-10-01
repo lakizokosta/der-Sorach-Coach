@@ -6,11 +6,14 @@ words:
   - Hotel
   - war
   - laut
-  - Trotzdem
+  - trotzdem
   - haben
   - wir
   - gut
   - geschlafen
+  - .
+commas:
+  - 3
 ---
 
 Ordne die Wörter zum richtigen Satz: (Konjunktionaladverb)

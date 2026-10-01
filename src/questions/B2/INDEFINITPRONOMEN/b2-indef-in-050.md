@@ -1,11 +1,12 @@
 ---
 id: b2-indef-in-050
 type: input-text
-hint: Indefinitpronomen — alles / etwas / jemand / nichts
+hint: Indefinitpronomen — Alles / Jemand / Nichts / Niemand
 correct:
-  - etwas
+  - Niemand
 ---
 
 Ergänze das Indefinitpronomen:
 
-Ich habe ___ Besonderes erwartet.
+Nach dem Brand war das Gebäude geräumt.
+___ war noch im Gebäude.

@@ -2,11 +2,11 @@
 id: b2-pradv-026
 type: select-one
 options:
-  - bestehen
-  - besteht
-  - bestand
-  - bestehst
-correct: besteht
+  - damit
+  - darauf
+  - darüber
+  - dabei
+correct: darauf
 ---
 
-Worin ___ der Unterschied? (Pronominaladverb)
+Bezieht sich Ihre Kritik auf den Bericht? — Ja, sie bezieht sich ___. (Pronominaladverb)

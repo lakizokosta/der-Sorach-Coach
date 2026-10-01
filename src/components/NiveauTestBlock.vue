@@ -1,6 +1,6 @@
 <script setup>
 /**
- * Niveau-Test entry — active for Premium, inactive upsell for Free/Basis.
+ * Niveau-Test entry — locked gray for Free/Basis, active for Premium.
  */
 
 import { useRouter } from 'vue-router';
@@ -33,7 +33,7 @@ function onClick() {
       :class="{
         'level-card': isPremium,
         'niveau-test-btn--unlocked': isPremium,
-        'niveau-test-btn--inactive': !isPremium,
+        'niveau-test-btn--locked': !isPremium,
       }"
       @click="onClick"
     >

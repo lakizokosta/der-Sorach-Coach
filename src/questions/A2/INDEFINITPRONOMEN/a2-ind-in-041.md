@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-Hast du ___ Interesse an Sport?
+Ich habe ___ Wichtiges vergessen.

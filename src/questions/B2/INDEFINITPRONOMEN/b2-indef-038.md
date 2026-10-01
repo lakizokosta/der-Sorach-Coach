@@ -2,11 +2,12 @@
 id: b2-indef-038
 type: select-one
 options:
-  - nichts
-  - jemand
+  - jemanden
   - etwas
-  - alles
-correct: etwas
+  - jemandem
+  - niemandem
+correct: jemandem
 ---
 
-Sie möchte ___ Neues ausprobieren. (Indefinitpronomen)
+Sie vertraut zu schnell fremden Menschen.
+Sie vertraut leider ___ . (Indefinitpronomen)

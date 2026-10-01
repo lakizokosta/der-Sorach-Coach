@@ -1,11 +1,11 @@
 ---
 id: b2-indef-in-011
 type: input-text
-hint: Indefinitpronomen — alles / etwas / nichts / niemand
+hint: Indefinitpronomen — alles / etwas / jemand / nichts
 correct:
-  - nichts
+  - etwas
 ---
 
 Ergänze das Indefinitpronomen:
 
-Sie hat ___ Falsches gesagt.
+Er hat uns ___ wirklich Interessantes berichtet.

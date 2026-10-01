@@ -8,4 +8,4 @@ correct:
 
 Ergänze das Indefinitpronomen:
 
-Ich habe ___ Besonderes erwartet.
+Ich habe ___ Besonderes von dir erwartet.

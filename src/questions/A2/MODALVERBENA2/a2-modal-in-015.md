@@ -8,4 +8,4 @@ correct:
 
 Ergänze die Modalverbform:
 
-Wir ___ am Wochenende ausruhen.
+Unser Wunsch fürs Wochenende: Wir ___ einfach ausruhen.

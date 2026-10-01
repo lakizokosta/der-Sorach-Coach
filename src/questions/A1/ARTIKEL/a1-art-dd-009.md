@@ -5,7 +5,10 @@ words:
   - Der
   - Freund
   - wohnt
-  - nah
+  - in
+  - der
+  - Nähe
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Artikel — der Freund)

@@ -9,4 +9,4 @@ options:
 correct: Bevor
 ---
 
-___, der Film begann, kamen noch viele Zuschauer. (Grammatikform)
+___ der Film begann, kamen noch viele Zuschauer. (Grammatikform)

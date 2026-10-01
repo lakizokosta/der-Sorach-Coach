@@ -1,11 +1,11 @@
 ---
 id: a2-modal-in-044
 type: input-text
-hint: Modalverb + Verb wollen
+hint: Modalverb + Verb sollen
 correct:
-  - wollen
+  - sollt
 ---
 
 Ergänze die Modalverbform:
 
-Wir ___ heute ins Schwimmbad gehen.
+Der Zettel an der Tür: „Ruhe!“ — Ihr ___ leiser sein.

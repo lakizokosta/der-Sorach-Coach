@@ -9,4 +9,4 @@ options:
 correct: hat
 ---
 
-Sie ___ sehr gut gekocht. (Perfekt + Hilfsverb haben)
+Sie (sie, Sg.) ___ sehr gut gekocht. (Perfekt + Hilfsverb haben)

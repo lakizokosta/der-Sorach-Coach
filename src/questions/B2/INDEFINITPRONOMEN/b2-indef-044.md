@@ -2,11 +2,12 @@
 id: b2-indef-044
 type: select-one
 options:
-  - Etwas
-  - Jemand
-  - Niemand
-  - Nichts
-correct: Jemand
+  - niemanden
+  - jemanden
+  - jemand
+  - etwas
+correct: jemanden
 ---
 
-___ hat mir diese Nachricht geschickt. (Indefinitpronomen)
+Du wartest auf Freunde an der Haltestelle.
+Hast du ___ von ihnen gesehen? (Indefinitpronomen)

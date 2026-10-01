@@ -8,6 +8,7 @@ words:
   - oder
   - du
   - bleibst
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Antwortpartikel — oder)

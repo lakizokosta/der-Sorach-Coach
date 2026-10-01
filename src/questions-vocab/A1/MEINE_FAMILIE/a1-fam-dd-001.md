@@ -9,8 +9,6 @@ words:
   - ist
   - meine
   - Familie
-commas:
-  - 2
 ---
 
 Ordne die Wörter: (Familie zeigen)

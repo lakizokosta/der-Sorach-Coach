@@ -10,6 +10,8 @@ words:
   - habe
   - wenig
   - geschlafen
+commas:
+  - 2
 ---
 
 Ordne die Wörter zum richtigen Satz: (Kausalsatz — denn)

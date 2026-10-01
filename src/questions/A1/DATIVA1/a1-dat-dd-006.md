@@ -6,6 +6,9 @@ words:
   - erzähle
   - den
   - Kindern
+  - eine
+  - Geschichte
+  - .
 ---
 
 Ordne die Wörter zum richtigen Satz: (Dativ — den Kindern erzählen)

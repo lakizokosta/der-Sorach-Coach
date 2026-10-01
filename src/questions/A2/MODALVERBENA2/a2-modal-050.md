@@ -2,11 +2,11 @@
 id: a2-modal-050
 type: select-one
 options:
-  - muss
-  - kann
-  - will
-  - darf
-correct: kann
+  - Kann
+  - Darf
+  - Will
+  - Muss
+correct: Darf
 ---
 
-Er ___ sehr gut Deutsch. (Modalverb + Verb können)
+Schild am Pool: „Nicht springen!“ — ___ man hier springen? (Modalverb + Verb dürfen)

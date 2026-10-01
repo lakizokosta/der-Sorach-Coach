@@ -16,7 +16,7 @@
 ### 1. `b2-temp-001` · select-one
 
 **Aufgabe:**
-> ___, er gegessen hatte, ging er spazieren. (Grammatikform)
+> ___ er gegessen hatte, ging er spazieren. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -30,7 +30,7 @@
 ### 2. `b2-temp-002` · select-one
 
 **Aufgabe:**
-> ___, sie ankommt, rufe ich dich an. (Grammatikform)
+> ___ sie ankommt, rufe ich dich an. (Grammatikform)
 
 **Optionen:**
 - Obwohl
@@ -58,7 +58,7 @@
 ### 4. `b2-temp-004` · select-one
 
 **Aufgabe:**
-> ___, ich studierte, arbeitete ich nebenbei. (Grammatikform)
+> ___ ich studierte, arbeitete ich nebenbei. (Grammatikform)
 
 **Optionen:**
 - Bis
@@ -72,7 +72,7 @@
 ### 5. `b2-temp-005` · select-one
 
 **Aufgabe:**
-> ___, er das Buch gelesen hatte, verstand er alles. (Grammatikform)
+> ___ er das Buch gelesen hatte, verstand er alles. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -86,7 +86,7 @@
 ### 6. `b2-temp-006` · select-one
 
 **Aufgabe:**
-> ___, du gehst, schließe bitte die Tür. (Grammatikform)
+> ___ du gehst, schließe bitte die Tür. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -114,7 +114,7 @@
 ### 8. `b2-temp-008` · select-one
 
 **Aufgabe:**
-> ___, der Film begann, kamen noch viele Zuschauer. (Grammatikform)
+> ___ der Film begann, kamen noch viele Zuschauer. (Grammatikform)
 
 **Optionen:**
 - Nachdem
@@ -128,7 +128,7 @@
 ### 9. `b2-temp-009` · select-one
 
 **Aufgabe:**
-> ___, er krank war, blieb er zu Hause. (Grammatikform)
+> ___ er krank war, blieb er zu Hause. (Grammatikform)
 
 **Optionen:**
 - Bevor
@@ -156,7 +156,7 @@
 ### 11. `b2-temp-011` · select-one
 
 **Aufgabe:**
-> ___, sie den Vertrag unterschrieb, beriet sie sich. (Grammatikform)
+> ___ sie den Vertrag unterschrieb, beriet sie sich. (Grammatikform)
 
 **Optionen:**
 - Seitdem
@@ -170,7 +170,7 @@
 ### 12. `b2-temp-012` · select-one
 
 **Aufgabe:**
-> ___, wir redeten, klingelte das Telefon. (Grammatikform)
+> ___ wir redeten, klingelte das Telefon. (Grammatikform)
 
 **Optionen:**
 - Nachdem
@@ -184,7 +184,7 @@
 ### 13. `b2-temp-013` · select-one
 
 **Aufgabe:**
-> ___, das Meeting zu Ende war, gingen alle. (Grammatikform)
+> ___ das Meeting zu Ende war, gingen alle. (Grammatikform)
 
 **Optionen:**
 - Bevor
@@ -212,7 +212,7 @@
 ### 15. `b2-temp-015` · select-one
 
 **Aufgabe:**
-> ___, ich angekommen bin, melde ich mich. (Grammatikform)
+> ___ ich angekommen bin, melde ich mich. (Grammatikform)
 
 **Optionen:**
 - Bis
@@ -226,7 +226,7 @@
 ### 16. `b2-temp-016` · select-one
 
 **Aufgabe:**
-> ___, der Kurs begann, kannten sich alle. (Grammatikform)
+> ___ der Kurs begann, kannten sich alle. (Grammatikform)
 
 **Optionen:**
 - Nachdem
@@ -254,7 +254,7 @@
 ### 18. `b2-temp-018` · select-one
 
 **Aufgabe:**
-> ___, er gegessen hatte, ging er spazieren. (Grammatikform)
+> ___ er gegessen hatte, ging er spazieren. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -268,7 +268,7 @@
 ### 19. `b2-temp-019` · select-one
 
 **Aufgabe:**
-> ___, sie ankommt, rufe ich dich an. (Grammatikform)
+> ___ sie ankommt, rufe ich dich an. (Grammatikform)
 
 **Optionen:**
 - Bis
@@ -296,7 +296,7 @@
 ### 21. `b2-temp-021` · select-one
 
 **Aufgabe:**
-> ___, ich studierte, arbeitete ich nebenbei. (Grammatikform)
+> ___ ich studierte, arbeitete ich nebenbei. (Grammatikform)
 
 **Optionen:**
 - Bevor
@@ -310,7 +310,7 @@
 ### 22. `b2-temp-022` · select-one
 
 **Aufgabe:**
-> ___, er das Buch gelesen hatte, verstand er alles. (Grammatikform)
+> ___ er das Buch gelesen hatte, verstand er alles. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -324,7 +324,7 @@
 ### 23. `b2-temp-023` · select-one
 
 **Aufgabe:**
-> ___, du gehst, schließe bitte die Tür. (Grammatikform)
+> ___ du gehst, schließe bitte die Tür. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -352,7 +352,7 @@
 ### 25. `b2-temp-025` · select-one
 
 **Aufgabe:**
-> ___, der Film begann, kamen noch viele Zuschauer. (Grammatikform)
+> ___ der Film begann, kamen noch viele Zuschauer. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -366,7 +366,7 @@
 ### 26. `b2-temp-026` · select-one
 
 **Aufgabe:**
-> ___, er krank war, blieb er zu Hause. (Grammatikform)
+> ___ er krank war, blieb er zu Hause. (Grammatikform)
 
 **Optionen:**
 - Nachdem
@@ -394,7 +394,7 @@
 ### 28. `b2-temp-028` · select-one
 
 **Aufgabe:**
-> ___, sie den Vertrag unterschrieb, beriet sie sich. (Grammatikform)
+> ___ sie den Vertrag unterschrieb, beriet sie sich. (Grammatikform)
 
 **Optionen:**
 - Nachdem
@@ -408,7 +408,7 @@
 ### 29. `b2-temp-029` · select-one
 
 **Aufgabe:**
-> ___, wir redeten, klingelte das Telefon. (Grammatikform)
+> ___ wir redeten, klingelte das Telefon. (Grammatikform)
 
 **Optionen:**
 - Bevor
@@ -422,7 +422,7 @@
 ### 30. `b2-temp-030` · select-one
 
 **Aufgabe:**
-> ___, das Meeting zu Ende war, gingen alle. (Grammatikform)
+> ___ das Meeting zu Ende war, gingen alle. (Grammatikform)
 
 **Optionen:**
 - Bis
@@ -450,7 +450,7 @@
 ### 32. `b2-temp-032` · select-one
 
 **Aufgabe:**
-> ___, ich angekommen bin, melde ich mich. (Grammatikform)
+> ___ ich angekommen bin, melde ich mich. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -464,7 +464,7 @@
 ### 33. `b2-temp-033` · select-one
 
 **Aufgabe:**
-> ___, der Kurs begann, kannten sich alle. (Grammatikform)
+> ___ der Kurs begann, kannten sich alle. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -492,7 +492,7 @@
 ### 35. `b2-temp-035` · select-one
 
 **Aufgabe:**
-> ___, er gegessen hatte, ging er spazieren. (Grammatikform)
+> ___ er gegessen hatte, ging er spazieren. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -506,7 +506,7 @@
 ### 36. `b2-temp-036` · select-one
 
 **Aufgabe:**
-> ___, sie ankommt, rufe ich dich an. (Grammatikform)
+> ___ sie ankommt, rufe ich dich an. (Grammatikform)
 
 **Optionen:**
 - Obwohl
@@ -534,7 +534,7 @@
 ### 38. `b2-temp-038` · select-one
 
 **Aufgabe:**
-> ___, ich studierte, arbeitete ich nebenbei. (Grammatikform)
+> ___ ich studierte, arbeitete ich nebenbei. (Grammatikform)
 
 **Optionen:**
 - Bevor
@@ -548,7 +548,7 @@
 ### 39. `b2-temp-039` · select-one
 
 **Aufgabe:**
-> ___, er das Buch gelesen hatte, verstand er alles. (Grammatikform)
+> ___ er das Buch gelesen hatte, verstand er alles. (Grammatikform)
 
 **Optionen:**
 - Seitdem
@@ -562,7 +562,7 @@
 ### 40. `b2-temp-040` · select-one
 
 **Aufgabe:**
-> ___, du gehst, schließe bitte die Tür. (Grammatikform)
+> ___ du gehst, schließe bitte die Tür. (Grammatikform)
 
 **Optionen:**
 - Nachdem
@@ -590,7 +590,7 @@
 ### 42. `b2-temp-042` · select-one
 
 **Aufgabe:**
-> ___, der Film begann, kamen noch viele Zuschauer. (Grammatikform)
+> ___ der Film begann, kamen noch viele Zuschauer. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -604,7 +604,7 @@
 ### 43. `b2-temp-043` · select-one
 
 **Aufgabe:**
-> ___, er krank war, blieb er zu Hause. (Grammatikform)
+> ___ er krank war, blieb er zu Hause. (Grammatikform)
 
 **Optionen:**
 - Bevor
@@ -632,7 +632,7 @@
 ### 45. `b2-temp-045` · select-one
 
 **Aufgabe:**
-> ___, sie den Vertrag unterschrieb, beriet sie sich. (Grammatikform)
+> ___ sie den Vertrag unterschrieb, beriet sie sich. (Grammatikform)
 
 **Optionen:**
 - Während
@@ -646,7 +646,7 @@
 ### 46. `b2-temp-046` · select-one
 
 **Aufgabe:**
-> ___, wir redeten, klingelte das Telefon. (Grammatikform)
+> ___ wir redeten, klingelte das Telefon. (Grammatikform)
 
 **Optionen:**
 - Bevor
@@ -660,7 +660,7 @@
 ### 47. `b2-temp-047` · select-one
 
 **Aufgabe:**
-> ___, das Meeting zu Ende war, gingen alle. (Grammatikform)
+> ___ das Meeting zu Ende war, gingen alle. (Grammatikform)
 
 **Optionen:**
 - Bevor
@@ -688,7 +688,7 @@
 ### 49. `b2-temp-049` · select-one
 
 **Aufgabe:**
-> ___, ich angekommen bin, melde ich mich. (Grammatikform)
+> ___ ich angekommen bin, melde ich mich. (Grammatikform)
 
 **Optionen:**
 - Bevor
@@ -702,7 +702,7 @@
 ### 50. `b2-temp-050` · select-one
 
 **Aufgabe:**
-> ___, der Kurs begann, kannten sich alle. (Grammatikform)
+> ___ der Kurs begann, kannten sich alle. (Grammatikform)
 
 **Optionen:**
 - Nachdem
