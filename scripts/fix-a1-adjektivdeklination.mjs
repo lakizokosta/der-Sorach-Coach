@@ -12,7 +12,7 @@ import { restoreAdjektivSelectOne } from './generate-a1-select-one.mjs';
 import { ADJEKTIVDEKLINATIONA1 as DROPBOX_BANK } from './a1-dropbox-data-2.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DIR = join(__dirname, '..', 'src', 'questions', 'A1', 'ADJEKTIVDEKLINATIONA1');
+const DIR = join(__dirname, '..', 'src', 'site', 'questions', 'A1', 'ADJEKTIVDEKLINATIONA1');
 
 function loadAdjInputBank() {
   const src = readFileSync(join(__dirname, 'generate-a1-input-text.mjs'), 'utf8');

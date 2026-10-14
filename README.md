@@ -10,7 +10,7 @@ The rebuild deliberately follows the **KISS principle**:
 
 - **Pure JavaScript** (no TypeScript) and modern ES modules.
 - **Composition API** with `<script setup>` for every component.
-- **One stylesheet** (`src/styles/main.css`) — no CSS frameworks, no Sass,
+- **One stylesheet** (`src/site/styles/main.css`) — no CSS frameworks, no Sass,
   no per-component CSS Modules.
 - **No third-party state library** — local component state, a couple of
   small composables, and `localStorage` for persistence are enough.
@@ -89,55 +89,56 @@ der-Sorach-Coach/
 ├── public/
 │   └── favicon.svg         # extracted from the original page
 └── src/
-    ├── main.js             # createApp + router + global CSS
-    ├── App.vue             # shell + persistent Kontakt FAB
-    ├── router/
-    │   └── index.js        # 4 named routes: landing / trainer / premium / profile
-    ├── views/
-    │   ├── Landing.vue     # home screen, level picker, plan comparison
-    │   ├── Trainer.vue     # question flow, timer, summary, upsells
-    │   ├── Premium.vue     # demo activation + topic picker
-    │   └── Profile.vue     # XP / streak / mastery dashboard + share card
-    ├── components/
-    │   ├── LzdLogo.vue
-    │   ├── ContactModal.vue        # POSTs to sendContactForm endpoint
-    │   ├── BootstrapHandler.vue    # ?stripe_success / ?activate / ?mltoken
-    │   ├── GrammarTip.vue
-    │   ├── DictionaryPopup.vue
-    │   └── questions/
-    │       ├── QuestionRenderer.vue   # dispatcher (4 types)
-    │       ├── MultipleChoice.vue     # type: 'select-one'
-    │       ├── MultiSelect.vue        # type: 'multi-select'
-    │       ├── DragDrop.vue           # type: 'dropbox'
-    │       └── FillBlank.vue          # type: 'input-text'
-    ├── composables/
-    │   ├── useStorage.js   # safe localStorage wrapper
-    │   ├── useStreak.js    # daily streak + freezes + medals
-    │   ├── useXp.js        # XP, level, per-topic mastery
-    │   ├── usePremium.js   # async activateCode + revalidateOnLoad
-    │   ├── useAuth.js      # 7-day Magic-Link user session
-    │   └── useTimer.js     # count-up / count-down timer
-    ├── data/
-    │   ├── payment.js        # SCRIPT_URL + Stripe / PayPal config
-    │   ├── grammarHints.js   # DE / RU / EN explanations
-    │   ├── premiumTopics.js  # A1–B2 topic catalogue
-    │   ├── stopwords.js      # words that should NOT trigger the dictionary
-    │   └── questions.js      # build-time Markdown question loader
-    ├── utils/
-    │   ├── api.js               # Apps Script HTTP client
-    │   ├── deviceId.js          # canvas fingerprint + sticky device ID
-    │   ├── random.js            # Fisher-Yates shuffle
-    │   ├── queue.js             # AdaptiveQueue (repeat-on-wrong)
-    │   ├── markdownQuestion.js  # frontmatter parser for question MDs
-    │   ├── dictionary.js        # MyMemory lookup + word wrapping
-    │   └── shareCard.js         # Canvas → PNG → Web Share / download
-    ├── questions/                  # ★ the question bank lives here ★
-    │   ├── A1/<TOPIC>/<slug>.md
-    │   ├── A2/<TOPIC>/<slug>.md
-    │   ├── B1/<TOPIC>/<slug>.md
-    │   └── B2/<TOPIC>/<slug>.md
-    └── styles/
-        └── main.css
+    └── site/
+        ├── main.js             # createApp + router + global CSS
+        ├── App.vue             # shell + persistent Kontakt FAB
+        ├── router/
+        │   └── index.js        # 4 named routes: landing / trainer / premium / profile
+        ├── views/
+        │   ├── Landing.vue     # home screen, level picker, plan comparison
+        │   ├── Trainer.vue     # question flow, timer, summary, upsells
+        │   ├── Premium.vue     # demo activation + topic picker
+        │   └── Profile.vue     # XP / streak / mastery dashboard + share card
+        ├── components/
+        │   ├── LzdLogo.vue
+        │   ├── ContactModal.vue        # POSTs to sendContactForm endpoint
+        │   ├── BootstrapHandler.vue    # ?stripe_success / ?activate / ?mltoken
+        │   ├── GrammarTip.vue
+        │   ├── DictionaryPopup.vue
+        │   └── questions/
+        │       ├── QuestionRenderer.vue   # dispatcher (4 types)
+        │       ├── MultipleChoice.vue     # type: 'select-one'
+        │       ├── MultiSelect.vue        # type: 'multi-select'
+        │       ├── DragDrop.vue           # type: 'dropbox'
+        │       └── FillBlank.vue          # type: 'input-text'
+        ├── composables/
+        │   ├── useStorage.js   # safe localStorage wrapper
+        │   ├── useStreak.js    # daily streak + freezes + medals
+        │   ├── useXp.js        # XP, level, per-topic mastery
+        │   ├── usePremium.js   # async activateCode + revalidateOnLoad
+        │   ├── useAuth.js      # 7-day Magic-Link user session
+        │   └── useTimer.js     # count-up / count-down timer
+        ├── data/
+        │   ├── payment.js        # SCRIPT_URL + Stripe / PayPal config
+        │   ├── grammarHints.js   # DE / RU / EN explanations
+        │   ├── premiumTopics.js  # A1–B2 topic catalogue
+        │   ├── stopwords.js      # words that should NOT trigger the dictionary
+        │   └── questions.js      # build-time Markdown question loader
+        ├── utils/
+        │   ├── api.js               # Apps Script HTTP client
+        │   ├── deviceId.js          # canvas fingerprint + sticky device ID
+        │   ├── random.js            # Fisher-Yates shuffle
+        │   ├── queue.js             # AdaptiveQueue (repeat-on-wrong)
+        │   ├── markdownQuestion.js  # frontmatter parser for question MDs
+        │   ├── dictionary.js        # MyMemory lookup + word wrapping
+        │   └── shareCard.js         # Canvas → PNG → Web Share / download
+        ├── questions/                  # ★ the question bank lives here ★
+        │   ├── A1/<TOPIC>/<slug>.md
+        │   ├── A2/<TOPIC>/<slug>.md
+        │   ├── B1/<TOPIC>/<slug>.md
+        │   └── B2/<TOPIC>/<slug>.md
+        └── styles/
+            └── main.css
 
 apps-script/
 ├── Code.gs           # Backend: Stripe/PayPal webhooks → code + activation e-mail,
@@ -199,16 +200,16 @@ A topic is considered "mastered" after **50 correct answers** on it
 ## Question bank — Markdown on disk
 
 All questions live as small Markdown files under
-`src/questions/<LEVEL>/<TOPIC>/<slug>.md`. Vite scans the folder at
+`src/site/questions/<LEVEL>/<TOPIC>/<slug>.md`. Vite scans the folder at
 **build time** via `import.meta.glob`, parses every file through the
-tiny frontmatter parser in `src/utils/markdownQuestion.js` and ships the
+tiny frontmatter parser in `src/site/utils/markdownQuestion.js` and ships the
 result inside the production bundle. There is no runtime fetch and no
 server round-trip — adding a question is purely a file-system change.
 
 ### Folder layout
 
 ```
-src/questions/
+src/site/questions/
 ├── A1/
 │   ├── ARTIKEL/
 │   │   ├── a1-art-1.md
@@ -225,7 +226,7 @@ src/questions/
 - The **level** comes from the first folder (must be `A1`, `A2`, `B1`,
   or `B2`).
 - The **topic key** comes from the second folder (uppercase, matches
-  the `key` field in `src/data/premiumTopics.js`).
+  the `key` field in `src/site/data/premiumTopics.js`).
 - The file name is purely human-readable — the canonical id lives in
   the frontmatter.
 
@@ -233,7 +234,7 @@ src/questions/
 
 Each `.md` file is a YAML frontmatter block followed by the question
 prompt (free-form text). Four `type` values are supported and they map
-1:1 to the four components in `src/components/questions/`:
+1:1 to the four components in `src/site/components/questions/`:
 
 | `type:`        | UI                | Required frontmatter            |
 | -------------- | ----------------- | ------------------------------- |
@@ -318,7 +319,7 @@ Als Kind ___ ich oft im Park gespielt. (haben)
 ### Randomization, topic gating, repeat-on-wrong
 
 - **Randomization** — `AdaptiveQueue` shuffles the question pool once
-  per session with Fisher–Yates (`src/utils/random.js`).
+  per session with Fisher–Yates (`src/site/utils/random.js`).
 - **Repeat-on-wrong** — when the learner answers a question incorrectly
   the queue re-inserts it 2–5 positions deeper so it pops up again
   before the session ends. A question is dropped after 3 wrong attempts
@@ -417,7 +418,7 @@ so they can paste in the activation code they received by e-mail.
                                          │ webhook / IPN
                                          ▼
                             ┌─────────────────────────┐
-                            │ Google Apps Script       │  ← src/data/payment.js · SCRIPT_URL
+                            │ Google Apps Script       │  ← src/site/data/payment.js · SCRIPT_URL
                             │ (payments backend)        │
                             │  • generates code         │
                             │  • emails code to buyer   │
@@ -428,7 +429,7 @@ so they can paste in the activation code they received by e-mail.
                                          │ fetch (GET / POST)
                                          ▼
                               [Vue 3 SPA in browser]
-                                src/utils/api.js
+                                src/site/utils/api.js
 ```
 
 The full backend source is checked in under **`apps-script/`**:
@@ -454,7 +455,7 @@ remains usable offline.
 
 ### Configuring the checkout URLs
 
-All URLs live in **one place** — `src/data/payment.js`:
+All URLs live in **one place** — `src/site/data/payment.js`:
 
 ```js
 export const SCRIPT_URL =
@@ -521,15 +522,15 @@ When `SCRIPT_URL` is empty:
 
 ### Dictionary popup (Premium)
 
-`src/utils/dictionary.js` wraps every non-stop-word in the question
+`src/site/utils/dictionary.js` wraps every non-stop-word in the question
 prompt with a clickable `<span>`. Clicking calls the public
 [MyMemory translation API](https://mymemory.translated.net/) and shows the
 result in a small floating popup (`DictionaryPopup.vue`). Stopwords live in
-`src/data/stopwords.js` so common function words don't pollute the UI.
+`src/site/data/stopwords.js` so common function words don't pollute the UI.
 
 ### Share card
 
-`src/utils/shareCard.js` renders a 1080×1080 PNG with the learner's
+`src/site/utils/shareCard.js` renders a 1080×1080 PNG with the learner's
 level, XP, streak and mastered-topic count using the HTML5 Canvas API,
 then:
 
@@ -552,7 +553,7 @@ No images leave the device unless the OS share sheet does so.
 - **Imports**: absolute via the `@` alias (`@/components/...`) for any
   cross-folder import; relative for siblings.
 - **CSS**: BEM-ish class prefixes (`card`, `card-title`, `small-note`,
-  `level-btn`, …). All styles live in `src/styles/main.css` to keep the
+  `level-btn`, …). All styles live in `src/site/styles/main.css` to keep the
   surface area small.
 - **No `console.log` in production paths** except where the original
   page intentionally logged (e.g. demo contact submission).
@@ -567,7 +568,7 @@ No images leave the device unless the OS share sheet does so.
 | `npm run build`            | Production build → `dist/`.                   |
 | `npm run preview`          | Serve the production build locally.           |
 | `npm run deploy`           | `vite build && wrangler deploy` (Cloudflare). |
-| `npm run questions:verify` | Lint every `src/questions/**/*.md` through the parser. |
+| `npm run questions:verify` | Lint every `src/site/questions/**/*.md` through the parser. |
 
 ---
 

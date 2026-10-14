@@ -15,11 +15,11 @@ import { BANK as A2_BANK } from './a2-dropbox-data.mjs';
 import * as D1 from './a1-dropbox-data.mjs';
 import * as D2 from './a1-dropbox-data-2.mjs';
 import * as D3 from './a1-dropbox-data-3.mjs';
-import { resolveDropboxCommas } from '../src/utils/dropboxCommas.js';
+import { resolveDropboxCommas } from '../src/site/utils/dropboxCommas.js';
 import { md as b2md, assertUnique as b2assert } from './b2-dropbox-shared.mjs';
 import { BANK as B2_BANK } from './b2-dropbox-data.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 
 const B1_TOPICS = {
   ADJEKTIVDEKLINATIONB1: 'b1-adj-dd',

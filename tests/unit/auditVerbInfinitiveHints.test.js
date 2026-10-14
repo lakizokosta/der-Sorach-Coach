@@ -2,8 +2,8 @@ import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';
 import { describe, expect, it } from 'vitest';
 
-import verbLemmas from '../../src/data/verbLemmas.json';
-import { parseQuestionFile } from '../../src/utils/markdownQuestion.js';
+import verbLemmas from '../../src/site/data/verbLemmas.json';
+import { parseQuestionFile } from '../../src/site/utils/markdownQuestion.js';
 
 function* walk(dir) {
   for (const entry of readdirSync(dir)) {
@@ -75,7 +75,7 @@ function authoritativeInfinitive(q) {
 
 /** Collect every input-text that shows a Tipp infinitive. */
 function collectInfinitiveHints() {
-  const roots = [resolve('src/questions'), resolve('src/questions-vocab')];
+  const roots = [resolve('src/site/questions'), resolve('src/site/questions-vocab')];
   /** @type {!Array<{ path: string, shown: string, expected: string, correct: string, hint: string }>} */
   const rows = [];
 
@@ -83,8 +83,8 @@ function collectInfinitiveHints() {
     for (const file of walk(root)) {
       const rel = relative(process.cwd(), file);
       const parts = rel.split(/[/\\]/);
-      const level = parts[2];
-      const topic = parts[3];
+      const level = parts[3];
+      const topic = parts[4];
       let q;
       try {
         q = parseQuestionFile(readFileSync(file, 'utf8'), { level, topic, path: rel });

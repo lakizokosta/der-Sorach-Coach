@@ -24,6 +24,7 @@ const ROOT = join(
   dirname(fileURLToPath(import.meta.url)),
   '..',
   'src',
+  'site',
   'questions',
   'B1',
   'PLUSQUAMPERFEKTB1',

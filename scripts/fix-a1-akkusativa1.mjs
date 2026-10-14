@@ -12,7 +12,7 @@ import { restoreAkkusativSelectOne } from './generate-a1-select-one.mjs';
 import { AKKUSATIVA1 as DROPBOX_BANK } from './a1-dropbox-data-3.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DIR = join(__dirname, '..', 'src', 'questions', 'A1', 'AKKUSATIVA1');
+const DIR = join(__dirname, '..', 'src', 'site', 'questions', 'A1', 'AKKUSATIVA1');
 
 function loadAkkInputBank() {
   const src = readFileSync(join(__dirname, 'generate-a1-input-text.mjs'), 'utf8');

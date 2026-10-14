@@ -12,7 +12,7 @@ import { restoreWechselSelectOne } from './generate-a1-select-one.mjs';
 import { WECHSELPRÄPOSITIONEN as DROPBOX_BANK } from './a1-dropbox-data-2.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DIR = join(__dirname, '..', 'src', 'questions', 'A1', 'WECHSELPRÄPOSITIONEN');
+const DIR = join(__dirname, '..', 'src', 'site', 'questions', 'A1', 'WECHSELPRÄPOSITIONEN');
 
 /** @param {{ id: string, theme: string, sent: string, correct: string, options: string[], hint: string }} q */
 function selectMd(q) {

@@ -13,7 +13,7 @@ import { md } from './a2-select-one-shared.mjs';
 import * as G from './a2-select-one-data.mjs';
 import { verbFormHint } from './topic-context-hints.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A2');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'A2');
 
 const TOPICS = {
   ANTWORTPARTIKELN: { prefix: 'a2-part', gen: G.genAntwortpartikeln },

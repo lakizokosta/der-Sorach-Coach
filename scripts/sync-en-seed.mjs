@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Writes src/data/vocabulary-seed-en.json from scripts/en-seed-overrides.mjs.
+ * Writes src/site/data/vocabulary-seed-en.json from scripts/en-seed-overrides.mjs.
  * Run after editing EN overrides: npm run dictionary:seed-en
  */
 
@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 import { EN_SEED_OVERRIDES } from './en-seed-overrides.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const OUT = join(ROOT, 'src', 'data', 'vocabulary-seed-en.json');
+const OUT = join(ROOT, 'src', 'site', 'data', 'vocabulary-seed-en.json');
 
 const sorted = Object.fromEntries(
   Object.entries(EN_SEED_OVERRIDES).sort(([a], [b]) => a.localeCompare(b)),

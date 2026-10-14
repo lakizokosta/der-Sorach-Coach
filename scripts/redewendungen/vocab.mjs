@@ -1,4 +1,4 @@
-/** Lemmas to merge into src/data/vocabulary.json (lowercase keys). */
+/** Lemmas to merge into src/site/data/vocabulary.json (lowercase keys). */
 
 export const newVocabEntries = {
   // ——— B1 (DeutschAkademie) ———

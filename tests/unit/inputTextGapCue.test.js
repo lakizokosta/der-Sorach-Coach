@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { resolveInputTextGapCue } from '../../src/utils/inputTextGapCue.js';
+import { resolveInputTextGapCue } from '../../src/site/utils/inputTextGapCue.js';
 
 describe('resolveInputTextGapCue', () => {
   it('uses lemma when present', () => {

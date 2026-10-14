@@ -15,9 +15,9 @@ alwaysApply: true
 
 ## Workflow черновиков
 1. Сначала писать в `docs/new-questions/<тема>/` (один вопрос = один `.md`) для ручной проверки.
-2. В банк (`src/questions/` или `src/questions-vocab/`) — только после OK владельца.
-3. Новые слова — сразу в `src/data/vocabulary.json` (`pos`, `ru`, `en`, `gender` для существительных).
-4. Vocab-сет: ключ в `vocabularySets.js` + папка `src/questions-vocab/<LEVEL>/<KEY>/` при переносе.
+2. В банк (`src/site/questions/` или `src/site/questions-vocab/`) — только после OK владельца.
+3. Новые слова — сразу в `src/site/data/vocabulary.json` (`pos`, `ru`, `en`, `gender` для существительных).
+4. Vocab-сет: ключ в `vocabularySets.js` + папка `src/site/questions-vocab/<LEVEL>/<KEY>/` при переносе.
 
 ## Согласованные параметры (по умолчанию)
 - Регистр с врачом/официальным лицом: **Sie** (формально).

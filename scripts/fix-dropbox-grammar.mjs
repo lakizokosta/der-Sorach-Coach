@@ -89,7 +89,7 @@ function patchMd(file) {
 }
 
 let mdCount = 0;
-for (const file of walkMd(join(ROOT, 'src', 'questions'))) {
+for (const file of walkMd(join(ROOT, 'src', 'site', 'questions'))) {
   if (patchMd(file)) mdCount += 1;
 }
 

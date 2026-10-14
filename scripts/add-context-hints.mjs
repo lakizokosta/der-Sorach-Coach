@@ -9,7 +9,7 @@ import { dirname, join, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { applyHintToBody, contextHintForTopic, POSSESSIV_TOPICS } from './topic-context-hints.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 
 function* walkMd(dir) {
   for (const entry of readdirSync(dir)) {

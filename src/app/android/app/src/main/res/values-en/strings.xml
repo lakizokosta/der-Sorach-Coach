@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English. Texts mirror src/site/i18n/locales/en.js where keys exist. -->
+<resources>
+    <string name="locale_switcher">Interface language</string>
+
+    <string name="landing_subtitle">Speak German like a pro — 10 minutes a day is enough.</string>
+    <string name="landing_slogan">Your trainer for every situation</string>
+    <string name="landing_free_start">Start free · No sign-up required</string>
+    <string name="landing_level_pick_title">Choose your level</string>
+    <string name="landing_start_hint">10 minutes a day · no login needed</string>
+    <string name="level_a1">Beginner</string>
+    <string name="level_a2">Basics</string>
+    <string name="level_b1">Everyday</string>
+    <string name="level_b2">Advanced</string>
+    <string name="day">day</string>
+    <string name="days">days</string>
+
+    <string name="daily_goal_title">🎯 Today’s goal</string>
+    <string name="daily_goal_title_done">✅ Daily goal reached!</string>
+    <string name="daily_goal_count">%1$d / %2$d questions</string>
+
+    <string name="legal_agb">Terms</string>
+    <string name="legal_privacy">Privacy</string>
+    <string name="legal_imprint">Imprint</string>
+
+    <string name="trainer_loading">Loading questions…</string>
+    <string name="trainer_back">← Back</string>
+    <string name="trainer_back_short">Back</string>
+    <string name="trainer_next">Next</string>
+    <string name="trainer_finish">🏁 Finish &amp; results</string>
+    <string name="trainer_wrong_retry">❌ Wrong! Try again.</string>
+    <string name="trainer_question">Question %1$d of %2$d</string>
+    <string name="trainer_topic_pool">Current topic: %1$s (%2$d tasks)</string>
+    <string name="trainer_no_questions">No questions found</string>
+    <string name="trainer_no_questions_body">No questions for this topic yet.</string>
+    <string name="trainer_free_label">Free - %1$s</string>
+    <string name="trainer_streak_badge">🔥 Day %1$d</string>
+    <string name="trainer_infinitive_hint">Infinitive: %1$s</string>
+    <string name="trainer_word_choices_hint">Possible words:</string>
+    <string name="trainer_fill_blank_default">Fill in the blank:</string>
+    <string name="trainer_fill_blank_tip_hint">Tip: tap 💡 Tip to see possible forms.</string>
+
+    <string name="q_check">✔ Check</string>
+    <string name="q_check_plain">Check</string>
+    <string name="q_tip">💡 Tip</string>
+    <string name="q_retry">↺ Try again</string>
+    <string name="q_enter_answer">Please enter an answer first!</string>
+    <string name="q_place_words">Please arrange the words first!</string>
+    <string name="q_correct">✅ Correct! Well done!</string>
+    <string name="q_wrong_answer">❌ Not correct. Correct answer:</string>
+    <string name="q_wrong_solution">❌ Not correct. Correct solution:</string>
+    <string name="q_dropbox_default_prompt">Put the words in the right order:</string>
+    <string name="q_dropbox_placeholder">Tap the words ↓</string>
+    <string name="q_textgaps_helper">Tap a gap and choose the correct form.</string>
+    <string name="q_satzanalyse">📌 SENTENCE ANALYSIS</string>
+
+    <string name="toast_bonus_xp">+1 bonus XP</string>
+    <string name="toast_tier">🎁 +%1$d XP — %2$d-question bonus</string>
+    <string name="toast_level_up">🎉 Lv%1$d — %2$s!</string>
+    <string name="toast_mastered">🏆 Topic mastered!</string>
+
+    <string name="result_excellent">🏆 Excellent!</string>
+    <string name="result_good_job">💪 Well done!</string>
+    <string name="result_keep_practicing">📚 Keep practising!</string>
+    <string name="result_time_expired_title">⏱️ Free minutes used up</string>
+    <string name="result_time_expired_message">Your 10 free minutes for today are used up — come back tomorrow!</string>
+    <string name="result_session_ended">Session ended</string>
+    <string name="result_questions">Questions</string>
+    <string name="result_correct">Correct</string>
+    <string name="result_wrong">Wrong</string>
+    <string name="result_score">Score</string>
+    <string name="result_new_round">▶ Start a new round</string>
+    <string name="result_tomorrow">Practice again tomorrow</string>
+    <string name="result_wrong_topics">📋 Topics with mistakes</string>
+    <string name="result_topic_errors">❌ %1$d mistakes</string>
+    <string name="trainer_premium_label">Premium - %1$s</string>
+    <string name="trainer_topic_label">Premium - %1$s / %2$s</string>
+    <string name="trainer_vocab_label">📚 Vocabulary · %1$s / %2$s</string>
+    <string name="trainer_schwaechen_label">🎯 Weakness mode — %1$s</string>
+    <string name="trainer_placement_label">Level test · %1$d questions (A1→B2) — %2$s · doesn’t count toward the daily goal</string>
+    <string name="trainer_xp2_badge">💎 ×2 XP</string>
+    <string name="trainer_locked_title">💎 Premium only</string>
+    <string name="trainer_locked_body">This training is part of Premium. Sign in with the email you bought with, or activate your code.</string>
+    <string name="result_placement_title">🎯 Your level: %1$s</string>
+    <string name="result_placement_done">Level test completed</string>
+    <string name="result_placement_explain">Training recommendations now follow %1$s.</string>
+    <string name="result_train_level">▶ Train %1$s</string>
+    <string name="result_test_level">Test my level</string>
+    <string name="result_train_topic">▶ Train</string>
+
+    <string name="landing_profile">🏅 My profile</string>
+    <string name="landing_niveau_test">Placement test (A1–B2)</string>
+    <string name="landing_niveau_retest">Placement test · %1$s (A1–B2)</string>
+    <string name="landing_niveau_hint_premium">60 random questions (15 per level, A1→B2).</string>
+    <string name="landing_niveau_hint_locked">Placement test requires Premium.</string>
+    <string name="landing_section_dashboard">Your progress</string>
+    <string name="badge_premium">💎 Premium</string>
+    <string name="sign_in_button">🔑 Sign in</string>
+    <string name="premium_active">💎 Premium active</string>
+    <string name="basis_active">⏱️ Basis active</string>
+
+    <string name="hub_title">Premium training</string>
+    <string name="hub_locked_hint">Topic preview — trainable with Premium.</string>
+    <string name="hub_mode_topics">By topic</string>
+    <string name="hub_mode_vocab">Vocabulary</string>
+    <string name="hub_questions_count">%1$d questions</string>
+    <string name="hub_vocab_empty">No vocabulary sets for %1$s yet.</string>
+    <string name="hub_basis_banner">⏱️ Basis active — unlimited time. Topic training requires 💎 Premium.</string>
+
+    <string name="schwaechen_title">🎯 Weakness mode</string>
+    <string name="schwaechen_count_premium">💎 Premium</string>
+    <string name="schwaechen_count_empty">0 / 3 topics</string>
+    <string name="schwaechen_count_summary">%1$d errors · %2$d topics</string>
+    <string name="schwaechen_body_locked">Train your 3 weakest topics — Premium only.</string>
+    <string name="schwaechen_body_no_errors">No errors recorded yet. Start a topic session — weak spots will appear here.</string>
+    <string name="schwaechen_list_title">Your 3 topics with the most errors:</string>
+    <string name="schwaechen_train">▶ Train weak spots</string>
+    <string name="schwaechen_error_count">%1$d errors</string>
+
+    <string name="calendar_title">📅 Activity calendar</string>
+    <string name="calendar_count">%1$d / %2$d days</string>
+    <string-array name="calendar_day_labels"><item>Mon</item><item>Tue</item><item>Wed</item><item>Thu</item><item>Fri</item><item>Sat</item><item>Sun</item></string-array>
+    <string name="calendar_legend_less">less</string>
+    <string name="calendar_legend_active">active</string>
+    <string name="calendar_legend_today">today</string>
+
+    <string name="account_title">🔑 Sign in &amp; Premium</string>
+    <string name="account_status_active">Status: active</string>
+    <string name="account_status_inactive">Status: not active</string>
+    <string name="account_premium_until">💎 Premium until %1$s</string>
+    <string name="account_basis">⏱️ Basis active — no time limit</string>
+    <string name="account_free">Free — 10 minutes a day</string>
+    <string name="account_logged_in_as">👤 %1$s</string>
+    <string name="account_code_on_device">🔑 Code: %1$s</string>
+    <string name="account_sync_note">XP, streak and daily goal sync with your account — including the website.</string>
+    <string name="account_sign_out">Sign out</string>
+    <string name="account_checking">Checking access…</string>
+    <string name="account_login_title">📧 Sign in with email</string>
+    <string name="account_login_intro">Premium already active, e.g. on the website? Enter the same email and you’ll get a login link. No password, up to 2 devices.</string>
+    <string name="account_email_hint">Your login email</string>
+    <string name="account_send_link">📧 Link to my email</string>
+    <string name="account_sending">Sending link…</string>
+    <string name="account_link_sent">✔ Link sent! Open your inbox (%1$s).</string>
+    <string name="account_link_sent_delayed">✔ Link likely sent — check your inbox (%1$s).</string>
+    <string name="account_paste_title">🔗 Paste login link</string>
+    <string name="account_paste_intro">Long-press the link in the email, copy it and paste it here. Opening it in the browser signs you in there instead of in the app.</string>
+    <string name="account_paste_hint">https://lernziel-deutsch.de/?mltoken=…</string>
+    <string name="account_paste_clipboard">📋 Paste</string>
+    <string name="account_login">Sign in</string>
+    <string name="account_logging_in">Signing in…</string>
+    <string name="account_logged_in_free">✔ Signed in. No Premium is active for this account.</string>
+    <string name="account_code_title">🔑 Activation code</string>
+    <string name="account_code_intro">A code belongs to the device it is first activated on. Used elsewhere already? Sign in with email above.</string>
+    <string name="account_code_hint">e.g. BASIS_… or PREMIUM-…</string>
+    <string name="account_activate">Activate</string>
+    <string name="account_activating">Activating…</string>
+    <string name="account_premium_activated">✔ Premium activated!</string>
+    <string name="account_basis_activated">✔ Time limit removed!</string>
+    <string name="account_err_invalid_email">✖ Please enter a valid email.</string>
+    <string name="account_err_invalid_link">✖ That is not a login link.</string>
+    <string name="account_err_enter_code">✖ Please enter a code.</string>
+    <string name="account_err">✖ %1$s</string>
+    <string name="account_unlock">🔑 Sign in / activate code</string>
+
+    <string name="profile_title_mini">🏅 My progress</string>
+    <string name="profile_subtitle_mini">Your learning status at a glance</string>
+    <string name="profile_title_full">🏅 My profile</string>
+    <string name="profile_xp_line">⭐ %1$d XP · %2$d XP to Lv%3$d</string>
+    <string name="profile_xp_max">⭐ %1$d XP · Maximum level!</string>
+    <string name="profile_streak">🔥 Streak</string>
+    <string name="profile_current">Current</string>
+    <string name="profile_record">Record 🏆</string>
+    <string name="profile_active_days">Active days</string>
+    <string name="profile_freezes">Freezes</string>
+    <string name="profile_placement">📊 Placement test · %1$s</string>
+    <string name="profile_placement_total">%1$d%% correct overall</string>
+    <string name="profile_topics">📚 All topics</string>
+    <string name="profile_topics_count">%1$d / %2$d mastered</string>
+    <string name="profile_login_hint">📱 Sign in to keep your progress on up to 2 devices.</string>
+    <string name="profile_upsell_title">💎 More with Premium</string>
+    <string name="profile_upsell_1">Topic progress &amp; mastery (50/50)</string>
+    <string name="profile_upsell_2">Weakness mode &amp; grammar tips</string>
+    <string name="profile_upsell_3">Streak freezes &amp; ×2 XP</string>
+</resources>

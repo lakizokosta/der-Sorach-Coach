@@ -7,7 +7,7 @@
 | **Premium** (тема) | Только папка `LEVEL/TOPIC/` → `getQuestionsByTopic` |
 | **Free** (кнопка A1 / A2 / B1 на главной) | **Все** темы уровня вместе → shuffle в `AdaptiveQueue` |
 
-То есть каждый новый `.md` в `src/questions/B1/PASSIVB1/`:
+То есть каждый новый `.md` в `src/site/questions/B1/PASSIVB1/`:
 - попадает в Premium-тему «Passiv»;
 - **и** автоматически в Free-пул **B1** (вперемешку с Konjunktiv, Relativsatz и т.д.).
 
@@ -18,7 +18,7 @@
 ## Структура папок (обязательно)
 
 ```
-src/questions/
+src/site/questions/
   <LEVEL>/          ← A1 | A2 | B1 | B2
     <TOPIC_KEY>/    ← точно как key в premiumTopics.js
       slug.md       ← один вопрос = один файл
@@ -28,9 +28,9 @@ src/questions/
 
 | Тема в Premium | Папка |
 | --- | --- |
-| A1 · Artikel | `src/questions/A1/ARTIKEL/` |
-| A1 · Akkusativ | `src/questions/A1/AKKUSATIVA1/` |
-| B1 · Passiv | `src/questions/B1/PASSIVB1/` |
+| A1 · Artikel | `src/site/questions/A1/ARTIKEL/` |
+| A1 · Akkusativ | `src/site/questions/A1/AKKUSATIVA1/` |
+| B1 · Passiv | `src/site/questions/B1/PASSIVB1/` |
 
 **Ошибки сейчас в репо (перенести при миграции с Blogger):**
 
@@ -153,7 +153,7 @@ npm run questions:stats
 ### 2. Создать папку (если нет)
 
 ```bash
-mkdir -p src/questions/A1/WECHSELPRÄPOSITIONEN
+mkdir -p src/site/questions/A1/WECHSELPRÄPOSITIONEN
 ```
 
 ### 3. Скопировать шаблон
@@ -175,7 +175,7 @@ npm run dev                # тест в браузере
 ### 5. Деплой
 
 ```bash
-git add src/questions/
+git add src/site/questions/
 git commit -m "Add questions for TOPIC"
 git push
 ```
@@ -232,7 +232,7 @@ Cloudflare пересоберёт бандл — **отдельный JS не н
 
 ## Чеклист одной темы
 
-- [ ] Папка `src/questions/<LEVEL>/<KEY>/` совпадает с `premiumTopics.js`
+- [ ] Папка `src/site/questions/<LEVEL>/<KEY>/` совпадает с `premiumTopics.js`
 - [ ] ≥5 файлов `.md` (или свой минимум)
 - [ ] `npm run questions:verify` — без ошибок
 - [ ] Premium: тема открывается, бейдж count > 0

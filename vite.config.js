@@ -7,7 +7,7 @@ function questionsGlobRefresh() {
   return {
     name: 'questions-glob-refresh',
     configureServer(server) {
-      const pattern = /[/\\]src[/\\]questions[/\\].+\.md$/;
+      const pattern = /[/\\]src[/\\]site[/\\]questions[/\\].+\.md$/;
       const restart = (file) => {
         if (!pattern.test(file)) return;
         server.config.logger.info('Question bank changed — restarting dev server…', {
@@ -22,12 +22,12 @@ function questionsGlobRefresh() {
 }
 
 // Vite configuration for Der SprachCoach.
-// Uses the official Vue plugin and exposes the `@` alias for the `src` folder.
+// Uses the official Vue plugin and exposes the `@` alias for the `src/site` folder.
 export default defineConfig({
   plugins: [vue(), questionsGlobRefresh()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@': fileURLToPath(new URL('./src/site', import.meta.url)),
     },
   },
   server: {

@@ -8,11 +8,11 @@ import { mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'n
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { PREMIUM_TOPICS } from '../src/data/premiumTopics.js';
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
+import { PREMIUM_TOPICS } from '../src/site/data/premiumTopics.js';
+import { parseQuestionFile } from '../src/site/utils/markdownQuestion.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const QUESTIONS_ROOT = resolve(__dirname, '..', 'src', 'questions');
+const QUESTIONS_ROOT = resolve(__dirname, '..', 'src', 'site', 'questions');
 const OUT_ROOT = resolve(__dirname, '..', 'docs', 'manual-review');
 
 const TYPE_ORDER = ['select-one', 'multi-select', 'input-text', 'dropbox', 'text-gaps'];
@@ -43,7 +43,7 @@ function compareId(a, b) {
   return a.localeCompare(b);
 }
 
-/** @param {import('../src/utils/markdownQuestion.js').ParsedQuestion} q */
+/** @param {import('../src/site/utils/markdownQuestion.js').ParsedQuestion} q */
 function formatQuestion(q, index) {
   const lines = [];
   lines.push(`### ${index}. \`${q.id}\` · ${q.type}`);
@@ -111,7 +111,7 @@ function exportTopic(level, topic, meta) {
 
   if (!files.length) return null;
 
-  /** @type {Map<string, import('../src/utils/markdownQuestion.js').ParsedQuestion[]>} */
+  /** @type {Map<string, import('../src/site/utils/markdownQuestion.js').ParsedQuestion[]>} */
   const byType = new Map();
   let total = 0;
 
@@ -232,7 +232,7 @@ for (const level of levels) {
 const readme = [];
 readme.push('# Manuelle Fragenprüfung');
 readme.push('');
-readme.push('Checklisten aller Fragen aus `src/questions/`, gruppiert nach Niveau und Thema.');
+readme.push('Checklisten aller Fragen aus `src/site/questions/`, gruppiert nach Niveau und Thema.');
 readme.push('');
 readme.push('**Aktualisieren:** `npm run questions:export-review`');
 readme.push('');
@@ -243,7 +243,7 @@ readme.push('');
 readme.push('1. Thema aus der Tabelle unten öffnen.');
 readme.push('2. Jede Frage lesen — Satz, Hinweis, Antworten.');
 readme.push('3. `- [ ] OK` abhaken oder unter **Fehler / Anmerkung** notieren.');
-readme.push('4. Fehler im Quellfile unter `src/questions/<LEVEL>/<TOPIC>/` korrigieren.');
+readme.push('4. Fehler im Quellfile unter `src/site/questions/<LEVEL>/<TOPIC>/` korrigieren.');
 readme.push('');
 readme.push('## Übersicht');
 readme.push('');

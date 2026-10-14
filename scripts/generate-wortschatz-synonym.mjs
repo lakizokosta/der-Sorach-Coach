@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Generate «Wie würdest du es noch sagen?» multi-select tasks into
- * src/questions-vocab/<LEVEL>/<SET>/.
+ * src/site/questions-vocab/<LEVEL>/<SET>/.
  *
  * Usage: node scripts/generate-wortschatz-synonym.mjs
  */
@@ -17,7 +17,7 @@ import { renderSynonymQuestion } from './wortschatz-synonym/emit.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
-const outRoot = path.join(root, 'src', 'questions-vocab');
+const outRoot = path.join(root, 'src', 'site', 'questions-vocab');
 
 const ALL_SETS = [
   ...a1SynonymSets,

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Sends redeploy alert e-mails when shouldSendMonitorEmail(report) is true.
- * Decision logic: src/utils/monitorNotify.js (unit-tested).
+ * Decision logic: src/site/utils/monitorNotify.js (unit-tested).
  */
 
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 import {
   isGasMonitorDown,
   shouldSendMonitorEmail,
-} from '../src/utils/monitorNotify.js';
+} from '../src/site/utils/monitorNotify.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -32,7 +32,7 @@ if (!shouldSendMonitorEmail(report)) {
 const level = 'fail';
 const deployDate = String(report.checks?.deployLog?.lastDeployAt || 'unknown');
 
-const paymentJs = readFileSync(join(ROOT, 'src/data/payment.js'), 'utf8');
+const paymentJs = readFileSync(join(ROOT, 'src/site/data/payment.js'), 'utf8');
 const defaultScriptUrl = paymentJs.match(/export const SCRIPT_URL\s*=\s*'([^']+)'/)?.[1] || '';
 
 const SCRIPT_URL = process.env.SCRIPT_URL || defaultScriptUrl;

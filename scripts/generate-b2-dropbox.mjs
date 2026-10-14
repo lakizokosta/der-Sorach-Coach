@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 import { md, assertUnique } from './b2-dropbox-shared.mjs';
 import { BANK } from './b2-dropbox-data.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B2');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'B2');
 
 const FORCE = process.argv.includes('--force');
 const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);

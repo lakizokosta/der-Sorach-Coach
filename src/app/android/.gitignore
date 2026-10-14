@@ -1,0 +1,9 @@
+.gradle/
+build/
+local.properties
+.idea/
+.kotlin/
+*.iml
+captures/
+# Generated from src/site by scripts/export-android-assets.mjs during the build
+app/src/main/assets/
