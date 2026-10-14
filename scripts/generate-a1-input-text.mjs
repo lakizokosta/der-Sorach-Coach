@@ -13,7 +13,7 @@ import {
   extractParentheticalHint,
 } from './input-text-prompt-shared.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A1');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'A1');
 
 const TOPICS = {
   POSSESSIVARTIKEL: 'a1-poss-in',

@@ -19,7 +19,7 @@ import {
   extractParentheticalHint,
 } from './input-text-prompt-shared.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A2');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'A2');
 
 const TOPICS = {
   ANTWORTPARTIKELN: 'a2-part-in',

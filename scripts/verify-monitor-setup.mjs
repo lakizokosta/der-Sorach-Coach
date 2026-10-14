@@ -7,7 +7,7 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseDeployLog, assessOAuthDeployStatus } from '../src/utils/gasDeployLog.js';
+import { parseDeployLog, assessOAuthDeployStatus } from '../src/site/utils/gasDeployLog.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -44,8 +44,8 @@ console.log('\nMonitor e-mail — production pre-flight\n');
 
 mustExist('scripts/monitor-gas-backend.mjs', 'Monitor script');
 mustExist('scripts/notify-monitor.mjs', 'Notify script');
-mustExist('src/utils/gasDeployLog.js', 'gasDeployLog utils');
-mustExist('src/utils/monitorNotify.js', 'monitorNotify utils');
+mustExist('src/site/utils/gasDeployLog.js', 'gasDeployLog utils');
+mustExist('src/site/utils/monitorNotify.js', 'monitorNotify utils');
 mustExist('.github/workflows/backend-health.yml', 'Hourly health workflow');
 mustExist('.github/workflows/gas-redeploy-email.yml', 'Daily redeploy reminder workflow');
 mustExist('docs/ops/gas-deploy-log.json', 'Deploy log');
@@ -63,10 +63,10 @@ if (!codeGs.includes('handleMonitorNotify_')) {
   ok('Code.gs contains handleMonitorNotify_');
 }
 
-const paymentJs = readFileSync(join(ROOT, 'src/data/payment.js'), 'utf8');
+const paymentJs = readFileSync(join(ROOT, 'src/site/data/payment.js'), 'utf8');
 const scriptUrl = paymentJs.match(/export const SCRIPT_URL\s*=\s*'([^']+)'/)?.[1] || '';
 if (!scriptUrl || !scriptUrl.includes('script.google.com')) {
-  fail('src/data/payment.js — SCRIPT_URL not configured');
+  fail('src/site/data/payment.js — SCRIPT_URL not configured');
 } else {
   ok(`SCRIPT_URL configured (${scriptUrl.slice(0, 48)}…)`);
 }

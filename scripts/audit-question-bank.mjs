@@ -8,9 +8,9 @@ import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
+import { parseQuestionFile } from '../src/site/utils/markdownQuestion.js';
 
-const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 const LEVELS = new Set(['A1', 'A2', 'B1', 'B2']);
 
 /** @type {{ rel: string, code: string, msg: string }[]} */

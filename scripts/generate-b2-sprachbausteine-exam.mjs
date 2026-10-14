@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 
 import { TEIL1, TEIL2, validateTasks } from './b2-sprachbausteine-exam-data.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B2', 'SPRACHBAUSTEINEB2');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'B2', 'SPRACHBAUSTEINEB2');
 
 function mdTextGaps({ id, hint, text, gaps }) {
   const optLines = gaps.map((g) => `  - ${g.options.join(',')}`).join('\n');

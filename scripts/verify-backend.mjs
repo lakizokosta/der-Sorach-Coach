@@ -18,7 +18,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const paymentJs = readFileSync(join(__dirname, '../src/data/payment.js'), 'utf8');
+const paymentJs = readFileSync(join(__dirname, '../src/site/data/payment.js'), 'utf8');
 const defaultUrl = paymentJs.match(/export const SCRIPT_URL\s*=\s*'([^']+)'/)?.[1] || '';
 
 const SCRIPT_URL = process.env.SCRIPT_URL || defaultUrl;
@@ -27,7 +27,7 @@ const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || '';
 const withWebhook = process.argv.includes('--webhook');
 
 if (!SCRIPT_URL) {
-  console.error('No SCRIPT_URL — set env or configure src/data/payment.js');
+  console.error('No SCRIPT_URL — set env or configure src/site/data/payment.js');
   process.exit(1);
 }
 

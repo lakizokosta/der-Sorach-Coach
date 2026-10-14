@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@': fileURLToPath(new URL('./src/site', import.meta.url)),
     },
   },
   test: {
@@ -14,7 +14,7 @@ export default defineConfig({
     include: ['tests/unit/**/*.test.js'],
     coverage: {
       provider: 'v8',
-      include: ['src/utils/**', 'src/composables/**'],
+      include: ['src/site/utils/**', 'src/site/composables/**'],
       exclude: ['**/*.vue'],
     },
   },

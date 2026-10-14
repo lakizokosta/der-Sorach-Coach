@@ -10,10 +10,10 @@ import { mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'n
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
+import { parseQuestionFile } from '../src/site/utils/markdownQuestion.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = resolve(__dirname, '..', 'src', 'questions');
+const ROOT = resolve(__dirname, '..', 'src', 'site', 'questions');
 const OUT_DIR = resolve(__dirname, '..', 'server-questions');
 
 /** @param {string} dir @return {string[]} */

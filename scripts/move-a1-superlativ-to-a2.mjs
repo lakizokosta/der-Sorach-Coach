@@ -8,13 +8,13 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const A2_DIR = join(ROOT, 'src', 'questions', 'A2', 'SUPERLATIVA2');
+const A2_DIR = join(ROOT, 'src', 'site', 'questions', 'A2', 'SUPERLATIVA2');
 
 /** @type {Array<{ a1Id: string, a1Path: string, a2Id: string, a2Content: string, a1Replacement: string }>} */
 const MOVES = [
   {
     a1Id: 'a1-adj-in-033',
-    a1Path: 'src/questions/A1/ADJEKTIVDEKLINATIONA1/a1-adj-in-033.md',
+    a1Path: 'src/site/questions/A1/ADJEKTIVDEKLINATIONA1/a1-adj-in-033.md',
     a2Id: 'a2-sup-in-001',
     a2Content: `---
 id: a2-sup-in-001
@@ -40,7 +40,7 @@ Das ist mein ___ Buch. (lieb, neutr., Nom.)
 mkdirSync(A2_DIR, { recursive: true });
 
 for (const m of MOVES) {
-  const a2Path = join(ROOT, 'src', 'questions', 'A2', 'SUPERLATIVA2', `${m.a2Id}.md`);
+  const a2Path = join(ROOT, 'src', 'site', 'questions', 'A2', 'SUPERLATIVA2', `${m.a2Id}.md`);
   if (!existsSync(a2Path)) {
     writeFileSync(a2Path, m.a2Content, 'utf8');
     console.log(`Created ${m.a2Id}`);

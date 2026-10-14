@@ -8,7 +8,7 @@ import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, basename, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 
 const GENITIV_TOPICS = new Set([
   'GENITIVA2',

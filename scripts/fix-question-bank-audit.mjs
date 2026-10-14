@@ -5,9 +5,9 @@ import { readFileSync, writeFileSync, readdirSync, statSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
+import { parseQuestionFile } from '../src/site/utils/markdownQuestion.js';
 
-const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 
 function* walk(dir) {
   for (const e of readdirSync(dir)) {

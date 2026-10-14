@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url';
 import { md, assertUnique } from './b1-dropbox-shared.mjs';
 import { BANK } from './b1-dropbox-data.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B1');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'B1');
 
 const TOPICS = {
   ADJEKTIVDEKLINATIONB1: 'b1-adj-dd',

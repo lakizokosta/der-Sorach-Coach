@@ -9,7 +9,7 @@ import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 
 function parseListBlock(fm, key) {
   const inline = fm.match(new RegExp(`^${key}:[ \\t]*(\\S.*)$`, 'm'));

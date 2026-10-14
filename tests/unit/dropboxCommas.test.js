@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { resolveDropboxCommas } from '../../src/utils/dropboxCommas.js';
+import { resolveDropboxCommas } from '../../src/site/utils/dropboxCommas.js';
 
 describe('resolveDropboxCommas', () => {
   it('adds comma before trotzdem when it opens a second Hauptsatz (V2)', () => {

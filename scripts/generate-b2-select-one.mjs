@@ -13,7 +13,7 @@ import * as G from './b2-select-one-data.mjs';
 import { genAkkusativDativobjektWordOrder } from './b2-obj-word-order-data.mjs';
 import { verbFormHint } from './topic-context-hints.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B2');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'B2');
 
 const FORCE = process.argv.includes('--force');
 const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);

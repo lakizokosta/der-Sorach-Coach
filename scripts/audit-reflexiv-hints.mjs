@@ -6,7 +6,7 @@ import { join, basename, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { verbFormHint } from './topic-context-hints.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 const PERSON = /^(ich|du|er|sie|wir|ihr|Sie|man|es)$/i;
 
 function* walkMd(dir) {

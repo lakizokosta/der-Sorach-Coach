@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 
 import { possessivWhoFromForm } from './topic-context-hints.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 
 const TOPICS = new Set(['POSSESSIVARTIKEL', 'POSSESSIVARTIKELA2', 'POSSESSIVARTIKELB1']);
 

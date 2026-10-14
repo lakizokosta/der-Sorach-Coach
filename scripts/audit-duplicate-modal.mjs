@@ -11,9 +11,9 @@ import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
+import { parseQuestionFile } from '../src/site/utils/markdownQuestion.js';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 
 /** @type {{ inf: string, finite: RegExp }[]} */
 const MODAL_INFINITIVES = [

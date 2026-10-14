@@ -11,19 +11,19 @@ const LEVELS = ['A1', 'A2', 'B1', 'B2'];
 
 /** @type {Record<string, Record<string, () => Promise<string>>>} */
 const LEVEL_LOADERS = {
-  A1: import.meta.glob('/src/questions-vocab/A1/**/*.md', {
+  A1: import.meta.glob('/src/site/questions-vocab/A1/**/*.md', {
     query: '?raw',
     import: 'default',
   }),
-  A2: import.meta.glob('/src/questions-vocab/A2/**/*.md', {
+  A2: import.meta.glob('/src/site/questions-vocab/A2/**/*.md', {
     query: '?raw',
     import: 'default',
   }),
-  B1: import.meta.glob('/src/questions-vocab/B1/**/*.md', {
+  B1: import.meta.glob('/src/site/questions-vocab/B1/**/*.md', {
     query: '?raw',
     import: 'default',
   }),
-  B2: import.meta.glob('/src/questions-vocab/B2/**/*.md', {
+  B2: import.meta.glob('/src/site/questions-vocab/B2/**/*.md', {
     query: '?raw',
     import: 'default',
   }),

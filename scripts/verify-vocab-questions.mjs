@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Lints every Wortschatz question in `src/questions-vocab/` through the same
+ * Lints every Wortschatz question in `src/site/questions-vocab/` through the same
  * parser the SPA uses. Also checks that hints do not reveal the answer.
  * Exits non-zero on errors. Run after every new vocab set or question batch.
  */
@@ -9,10 +9,10 @@ import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
+import { parseQuestionFile } from '../src/site/utils/markdownQuestion.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = resolve(__dirname, '..', 'src', 'questions-vocab');
+const ROOT = resolve(__dirname, '..', 'src', 'site', 'questions-vocab');
 
 /** @param {string} dir */
 function* walk(dir) {

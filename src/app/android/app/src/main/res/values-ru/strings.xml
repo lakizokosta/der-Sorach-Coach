@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Russian. Texts mirror src/site/i18n/locales/ru.js where keys exist. -->
+<resources>
+    <string name="locale_switcher">Язык интерфейса</string>
+
+    <string name="landing_subtitle">Немецкий как у профи — достаточно 10 минут в день.</string>
+    <string name="landing_slogan">Твой тренер на все случаи</string>
+    <string name="landing_free_start">Начни бесплатно · Регистрация не нужна</string>
+    <string name="landing_level_pick_title">Выбери свой уровень</string>
+    <string name="landing_start_hint">10 минут в день · вход не нужен</string>
+    <string name="level_a1">Начинающий</string>
+    <string name="level_a2">Базовый</string>
+    <string name="level_b1">Повседневный</string>
+    <string name="level_b2">Продвинутый</string>
+    <string name="day">день</string>
+    <string name="days">дней</string>
+
+    <string name="daily_goal_title">🎯 Цель на сегодня</string>
+    <string name="daily_goal_title_done">✅ Цель достигнута!</string>
+    <string name="daily_goal_count">%1$d / %2$d вопросов</string>
+
+    <string name="legal_agb">Условия</string>
+    <string name="legal_privacy">Конфиденциальность</string>
+    <string name="legal_imprint">Импрессум</string>
+
+    <string name="trainer_loading">Загрузка вопросов…</string>
+    <string name="trainer_back">← Назад</string>
+    <string name="trainer_back_short">Назад</string>
+    <string name="trainer_next">Далее</string>
+    <string name="trainer_finish">🏁 Завершить и результат</string>
+    <string name="trainer_wrong_retry">❌ Неверно! Попробуй ещё раз.</string>
+    <string name="trainer_question">Вопрос %1$d из %2$d</string>
+    <string name="trainer_topic_pool">Текущая тема: %1$s (%2$d заданий)</string>
+    <string name="trainer_no_questions">Вопросы не найдены</string>
+    <string name="trainer_no_questions_body">Для этой темы пока нет вопросов.</string>
+    <string name="trainer_free_label">Бесплатно - %1$s</string>
+    <string name="trainer_streak_badge">🔥 День %1$d</string>
+    <string name="trainer_infinitive_hint">Инфинитив: %1$s</string>
+    <string name="trainer_word_choices_hint">Возможные слова:</string>
+    <string name="trainer_fill_blank_default">Заполните пропуск:</string>
+    <string name="trainer_fill_blank_tip_hint">Подсказка: возможные формы — под кнопкой 💡 Подсказка.</string>
+
+    <string name="q_check">✔ Проверить</string>
+    <string name="q_check_plain">Проверить</string>
+    <string name="q_tip">💡 Подсказка</string>
+    <string name="q_retry">↺ Ещё раз</string>
+    <string name="q_enter_answer">Сначала введи ответ!</string>
+    <string name="q_place_words">Сначала расставь слова!</string>
+    <string name="q_correct">✅ Верно! Отлично!</string>
+    <string name="q_wrong_answer">❌ Неверно. Правильный ответ:</string>
+    <string name="q_wrong_solution">❌ Неверно. Правильное решение:</string>
+    <string name="q_dropbox_default_prompt">Составь предложение из слов:</string>
+    <string name="q_dropbox_placeholder">Нажимай на слова ↓</string>
+    <string name="q_textgaps_helper">Нажми на пропуск и выбери правильную форму.</string>
+    <string name="q_satzanalyse">📌 РАЗБОР ПРЕДЛОЖЕНИЯ</string>
+
+    <string name="toast_bonus_xp">+1 бонус-XP</string>
+    <string name="toast_tier">🎁 +%1$d XP — бонус за %2$d вопросов</string>
+    <string name="toast_level_up">🎉 Lv%1$d — %2$s!</string>
+    <string name="toast_mastered">🏆 Тема освоена!</string>
+
+    <string name="result_excellent">🏆 Отлично!</string>
+    <string name="result_good_job">💪 Хорошо!</string>
+    <string name="result_keep_practicing">📚 Продолжай тренироваться!</string>
+    <string name="result_time_expired_title">⏱️ Бесплатные минуты закончились</string>
+    <string name="result_time_expired_message">Твои бесплатные 10 минут на сегодня истекли — приходи завтра!</string>
+    <string name="result_session_ended">Сессия завершена</string>
+    <string name="result_questions">Вопросов</string>
+    <string name="result_correct">Верно</string>
+    <string name="result_wrong">Неверно</string>
+    <string name="result_score">Результат</string>
+    <string name="result_new_round">▶ Начать новый раунд</string>
+    <string name="result_tomorrow">Продолжить завтра</string>
+    <string name="result_wrong_topics">📋 Темы с ошибками</string>
+    <string name="result_topic_errors">❌ Ошибок: %1$d</string>
+    <string name="trainer_premium_label">Premium - %1$s</string>
+    <string name="trainer_topic_label">Premium - %1$s / %2$s</string>
+    <string name="trainer_vocab_label">📚 Словарь · %1$s / %2$s</string>
+    <string name="trainer_schwaechen_label">🎯 Режим слабых мест — %1$s</string>
+    <string name="trainer_placement_label">Тест уровня · %1$d вопросов (A1→B2) — %2$s · не входит в цель дня</string>
+    <string name="trainer_xp2_badge">💎 ×2 XP</string>
+    <string name="trainer_locked_title">💎 Только с Premium</string>
+    <string name="trainer_locked_body">Эта тренировка входит в Premium. Войди с e-mail, указанной при покупке, или активируй код.</string>
+    <string name="result_placement_title">🎯 Твой уровень: %1$s</string>
+    <string name="result_placement_done">Тест уровня завершён</string>
+    <string name="result_placement_explain">Рекомендации теперь подбираются под %1$s.</string>
+    <string name="result_train_level">▶ Тренировать %1$s</string>
+    <string name="result_test_level">Проверить уровень</string>
+    <string name="result_train_topic">▶ Тренировать</string>
+
+    <string name="landing_profile">🏅 Мой профиль</string>
+    <string name="landing_niveau_test">Тест уровня (A1–B2)</string>
+    <string name="landing_niveau_retest">Тест уровня · %1$s (A1–B2)</string>
+    <string name="landing_niveau_hint_premium">60 случайных вопросов (15 на уровень, A1→B2).</string>
+    <string name="landing_niveau_hint_locked">Тест уровня только с Premium.</string>
+    <string name="landing_section_dashboard">Твой прогресс</string>
+    <string name="badge_premium">💎 Premium</string>
+    <string name="sign_in_button">🔑 Вход</string>
+    <string name="premium_active">💎 Premium активен</string>
+    <string name="basis_active">⏱️ Basis активен</string>
+
+    <string name="hub_title">Premium-тренировка</string>
+    <string name="hub_locked_hint">Превью тем — доступно с Premium.</string>
+    <string name="hub_mode_topics">По теме</string>
+    <string name="hub_mode_vocab">Словарь</string>
+    <string name="hub_questions_count">%1$d вопросов</string>
+    <string name="hub_vocab_empty">Для %1$s пока нет наборов слов.</string>
+    <string name="hub_basis_banner">⏱️ Basis активен — без лимита времени. Темы только с 💎 Premium.</string>
+
+    <string name="schwaechen_title">🎯 Режим слабых мест</string>
+    <string name="schwaechen_count_premium">💎 Premium</string>
+    <string name="schwaechen_count_empty">0 / 3 тем</string>
+    <string name="schwaechen_count_summary">%1$d ошибок · %2$d тем</string>
+    <string name="schwaechen_body_locked">Тренируй 3 самые слабые темы — только с Premium.</string>
+    <string name="schwaechen_body_no_errors">Ошибок пока нет. Начни тренировку по темам — здесь появятся слабые места.</string>
+    <string name="schwaechen_list_title">3 темы с наибольшим числом ошибок:</string>
+    <string name="schwaechen_train">▶ Тренировать слабые места</string>
+    <string name="schwaechen_error_count">%1$d ошибок</string>
+
+    <string name="calendar_title">📅 Календарь активности</string>
+    <string name="calendar_count">%1$d / %2$d дней</string>
+    <string-array name="calendar_day_labels"><item>Пн</item><item>Вт</item><item>Ср</item><item>Чт</item><item>Пт</item><item>Сб</item><item>Вс</item></string-array>
+    <string name="calendar_legend_less">меньше</string>
+    <string name="calendar_legend_active">активен</string>
+    <string name="calendar_legend_today">сегодня</string>
+
+    <string name="account_title">🔑 Вход и Premium</string>
+    <string name="account_status_active">Статус: активен</string>
+    <string name="account_status_inactive">Статус: не активен</string>
+    <string name="account_premium_until">💎 Premium до %1$s</string>
+    <string name="account_basis">⏱️ Basis активен — без лимита времени</string>
+    <string name="account_free">Бесплатно — 10 минут в день</string>
+    <string name="account_logged_in_as">👤 %1$s</string>
+    <string name="account_code_on_device">🔑 Код: %1$s</string>
+    <string name="account_sync_note">XP, Streak и цель дня синхронизируются с аккаунтом — и с сайтом.</string>
+    <string name="account_sign_out">Выйти</string>
+    <string name="account_checking">Проверка доступа…</string>
+    <string name="account_login_title">📧 Вход по e-mail</string>
+    <string name="account_login_intro">Premium уже активен, например на сайте? Введи ту же e-mail — придёт ссылка для входа. Без пароля, до 2 устройств.</string>
+    <string name="account_email_hint">E-mail для входа</string>
+    <string name="account_send_link">📧 Ссылку на мою e-mail</string>
+    <string name="account_sending">Отправка ссылки…</string>
+    <string name="account_link_sent">✔ Ссылка отправлена! Открой почту (%1$s).</string>
+    <string name="account_link_sent_delayed">✔ Ссылка, скорее всего, отправлена — проверь почту (%1$s).</string>
+    <string name="account_paste_title">🔗 Вставить ссылку для входа</string>
+    <string name="account_paste_intro">Нажми и удерживай ссылку в письме, скопируй её и вставь сюда. Если открыть её в браузере, вход выполнится там, а не в приложении.</string>
+    <string name="account_paste_hint">https://lernziel-deutsch.de/?mltoken=…</string>
+    <string name="account_paste_clipboard">📋 Вставить</string>
+    <string name="account_login">Войти</string>
+    <string name="account_logging_in">Вход…</string>
+    <string name="account_logged_in_free">✔ Вход выполнен. Для этого аккаунта Premium не активен.</string>
+    <string name="account_code_title">🔑 Код активации</string>
+    <string name="account_code_intro">Код привязывается к устройству, на котором его активировали первым. Уже использован? Тогда войди по e-mail выше.</string>
+    <string name="account_code_hint">напр. BASIS_… или PREMIUM-…</string>
+    <string name="account_activate">Активировать</string>
+    <string name="account_activating">Активация…</string>
+    <string name="account_premium_activated">✔ Premium активирован!</string>
+    <string name="account_basis_activated">✔ Лимит времени снят!</string>
+    <string name="account_err_invalid_email">✖ Введи корректный e-mail.</string>
+    <string name="account_err_invalid_link">✖ Это не ссылка для входа.</string>
+    <string name="account_err_enter_code">✖ Введи код.</string>
+    <string name="account_err">✖ %1$s</string>
+    <string name="account_unlock">🔑 Войти / активировать код</string>
+
+    <string name="profile_title_mini">🏅 Мой прогресс</string>
+    <string name="profile_subtitle_mini">Твой уровень с первого взгляда</string>
+    <string name="profile_title_full">🏅 Мой профиль</string>
+    <string name="profile_xp_line">⭐ %1$d XP · ещё %2$d XP до Lv%3$d</string>
+    <string name="profile_xp_max">⭐ %1$d XP · Максимальный уровень!</string>
+    <string name="profile_streak">🔥 Streak</string>
+    <string name="profile_current">Сейчас</string>
+    <string name="profile_record">Рекорд 🏆</string>
+    <string name="profile_active_days">Активных дней</string>
+    <string name="profile_freezes">Заморозки</string>
+    <string name="profile_placement">📊 Тест уровня · %1$s</string>
+    <string name="profile_placement_total">%1$d%% верно всего</string>
+    <string name="profile_topics">📚 Все темы</string>
+    <string name="profile_topics_count">%1$d / %2$d освоено</string>
+    <string name="profile_login_hint">📱 Войди, чтобы сохранять прогресс на до 2 устройствах.</string>
+    <string name="profile_upsell_title">💎 Больше с Premium</string>
+    <string name="profile_upsell_1">Прогресс по темам и мастерство (50/50)</string>
+    <string name="profile_upsell_2">Режим слабых мест и грамматические подсказки</string>
+    <string name="profile_upsell_3">Заморозки Streak и ×2 XP</string>
+</resources>
