@@ -9,10 +9,10 @@ import { readdirSync, statSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { PREMIUM_TOPICS } from '../src/data/premiumTopics.js';
+import { PREMIUM_TOPICS } from '../src/site/data/premiumTopics.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = resolve(__dirname, '..', 'src', 'questions');
+const ROOT = resolve(__dirname, '..', 'src', 'site', 'questions');
 
 /** @type {Map<string, number>} key = "LEVEL/TOPIC" */
 const counts = new Map();
@@ -90,4 +90,4 @@ if (orphans.length) {
 }
 
 console.log('Free mode A1–B1: each level uses getQuestionsByLevel() → all topics shuffled together.');
-console.log('Add files: src/questions/<LEVEL>/<TOPIC_KEY>/slug.md → npm run questions:verify\n');
+console.log('Add files: src/site/questions/<LEVEL>/<TOPIC_KEY>/slug.md → npm run questions:verify\n');

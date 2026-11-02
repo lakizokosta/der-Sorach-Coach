@@ -18,7 +18,7 @@ import * as B2G from './b2-select-one-data.mjs';
 import { md as b2SelectMd } from './b2-select-one-shared.mjs';
 import { verbFormHint } from './topic-context-hints.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 
 function buildA2InputPrompt(item, topicKey) {
   const raw = item[0].replace(/^\[[^\]]+]\s+/, '');

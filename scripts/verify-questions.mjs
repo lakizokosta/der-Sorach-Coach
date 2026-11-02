@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Lints every Markdown question file in `src/questions/` through the
+ * Lints every Markdown question file in `src/site/questions/` through the
  * same parser the SPA uses at build time. Exits non-zero on the first
  * malformed file. Use as a pre-commit check.
  */
@@ -9,10 +9,10 @@ import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
+import { parseQuestionFile } from '../src/site/utils/markdownQuestion.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = resolve(__dirname, '..', 'src', 'questions');
+const ROOT = resolve(__dirname, '..', 'src', 'site', 'questions');
 
 /** Recursively yields every `.md` file under `dir` (skips `_` folders). */
 function* walk(dir) {

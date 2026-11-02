@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generate Auf der Bank Wortschatz questions into src/questions-vocab/
+ * Generate Auf der Bank Wortschatz questions into src/site/questions-vocab/
  * and merge new lemmas into vocabulary.json.
  *
  * Usage: node scripts/generate-auf-der-bank.mjs
@@ -17,7 +17,7 @@ import { renderQuestion } from './auf-der-bank/emit.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
-const outRoot = path.join(root, 'src', 'questions-vocab');
+const outRoot = path.join(root, 'src', 'site', 'questions-vocab');
 
 const TYPE_DIR = {
   'select-one': null,
@@ -68,7 +68,7 @@ function validate(q) {
 }
 
 function mergeVocabulary() {
-  const vocabPath = path.join(root, 'src/data/vocabulary.json');
+  const vocabPath = path.join(root, 'src/site/data/vocabulary.json');
   const vocab = JSON.parse(fs.readFileSync(vocabPath, 'utf8'));
   let added = 0;
   let enriched = 0;

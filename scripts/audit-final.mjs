@@ -12,11 +12,11 @@ import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
+import { parseQuestionFile } from '../src/site/utils/markdownQuestion.js';
 import { duplicateModalIssue } from './audit-duplicate-modal.mjs';
 import { collectAmbiguousDistractorIssues } from './audit-ambiguous-distractors.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 const LEVELS = new Set(['A1', 'A2', 'B1', 'B2']);
 
 /** @type {{ sev: string, rel: string, id: string, cat: string, msg: string }[]} */

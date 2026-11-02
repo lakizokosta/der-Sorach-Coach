@@ -25,7 +25,7 @@ Outgoing mail uses the script owner account; a second account causes OAuth 403 /
 5. Deploy → New deployment → Web app:
    - Execute as: **Me**
    - Who has access: **Anyone**
-6. Copy the `/exec` URL into `src/data/payment.js` → `SCRIPT_URL`.
+6. Copy the `/exec` URL into `src/site/data/payment.js` → `SCRIPT_URL`.
 7. Rebuild and deploy the SPA (`npm run build` + deploy).
 8. Stripe: webhook URL = `/exec?action=stripeWebhook&secret=WEBHOOK_SECRET`
 9. Stripe Payment Links: success redirect = `https://lernziel-deutsch.de/?stripe_success=1`
@@ -51,10 +51,10 @@ Outgoing mail uses the script owner account; a second account causes OAuth 403 /
 ## URL rules
 - `APP_BASE_URL` / `BASE_URL` must be `https://lernziel-deutsch.de` (no `/#/`).
 - E-mail links must look like `https://lernziel-deutsch.de/?activate=CODE` (query BEFORE hash).
-- Keep `APP_BASE_URL` in sync in both `apps-script/Code.gs` and `src/data/payment.js`.
+- Keep `APP_BASE_URL` in sync in both `apps-script/Code.gs` and `src/site/data/payment.js`.
 
 ## Two separate deploys
 | What | Where | When to redeploy |
 | --- | --- | --- |
-| Frontend (Vue SPA) | Cloudflare / hosting | After UI or `src/` changes |
+| Frontend (Vue SPA) | Cloudflare / hosting | After UI or `src/site/` changes |
 | Backend (Code.gs) | Google Apps Script | After `apps-script/Code.gs` changes |

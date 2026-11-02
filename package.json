@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "npm run dictionary:build && npm run questions:export-server && vite build",
     "questions:export-server": "node scripts/export-server-questions.mjs",
+    "android:assets": "node scripts/export-android-assets.mjs",
     "preview": "vite preview",
     "deploy": "npm run build && wrangler deploy",
     "questions:verify": "node scripts/verify-questions.mjs",

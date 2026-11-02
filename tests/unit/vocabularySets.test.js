@@ -3,7 +3,7 @@ import { readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { VOCAB_SETS, getVocabSetsForLevel } from '@/data/vocabularySets.js';
 
-const VOCAB_ROOT = join(process.cwd(), 'src', 'questions-vocab');
+const VOCAB_ROOT = join(process.cwd(), 'src', 'site', 'questions-vocab');
 
 function listSetFolders(level) {
   const dir = join(VOCAB_ROOT, level);

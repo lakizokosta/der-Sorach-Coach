@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 import { VERBKONJUGATION as DROPBOX_BANK } from './a1-dropbox-data.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DIR = join(__dirname, '..', 'src', 'questions', 'A1', 'VERBKONJUGATION');
+const DIR = join(__dirname, '..', 'src', 'site', 'questions', 'A1', 'VERBKONJUGATION');
 
 const IRREGULAR_INF = new Set(['sein', 'haben', 'werden', 'tun']);
 

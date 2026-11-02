@@ -1,6 +1,6 @@
 ---
 description: Пунктуация и грамматика в .md-заданиях тренажёра
-globs: docs/new-questions/**/*.md,src/questions/**/*.md,src/questions-vocab/**/*.md,scripts/**/*frage*,scripts/**/*arzt*,scripts/generate-*-drafts.mjs
+globs: docs/new-questions/**/*.md,src/site/questions/**/*.md,src/site/questions-vocab/**/*.md,scripts/**/*frage*,scripts/**/*arzt*,scripts/generate-*-drafts.mjs
 alwaysApply: false
 ---
 

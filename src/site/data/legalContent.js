@@ -3,7 +3,7 @@
  * Do not edit the text here; update docs/extra.md instead.
  */
 
-import extraRaw from '../../docs/extra.md?raw';
+import extraRaw from '../../../docs/extra.md?raw';
 
 /** @type {Array<{ slug: string, marker: string }>} */
 const SECTIONS = [

@@ -14,7 +14,7 @@ import { fileURLToPath } from 'node:url';
 import { md } from './b1-select-one-shared.mjs';
 import { SPRACH_STANDALONE, LESEN_SERIES } from './b1-sprachbausteine-exam-data.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B1', 'SPRACHBAUSTEINEB1');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'B1', 'SPRACHBAUSTEINEB1');
 
 function mdTextGaps({ id, hint, text, gaps }) {
   const optLines = gaps.map((g) => `  - ${g.options.join(',')}`).join('\n');

@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 /**
- * Ensures `src/data/vocabularySets.js` matches the filesystem under
- * `src/questions-vocab/`. Exits non-zero on mismatch.
+ * Ensures `src/site/data/vocabularySets.js` matches the filesystem under
+ * `src/site/questions-vocab/`. Exits non-zero on mismatch.
  */
 
 import { readdirSync, statSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { VOCAB_SETS } from '../src/data/vocabularySets.js';
+import { VOCAB_SETS } from '../src/site/data/vocabularySets.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = resolve(__dirname, '..', 'src', 'questions-vocab');
+const ROOT = resolve(__dirname, '..', 'src', 'site', 'questions-vocab');
 const LEVELS = ['A1', 'A2', 'B1', 'B2'];
 
 /**

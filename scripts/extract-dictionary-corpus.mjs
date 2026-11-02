@@ -9,10 +9,10 @@ import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
-import { DICT_STOPWORDS } from '../src/data/stopwords.js';
+import { parseQuestionFile } from '../src/site/utils/markdownQuestion.js';
+import { DICT_STOPWORDS } from '../src/site/data/stopwords.js';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 const OUT = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs', 'dictionary-corpus-stats.json');
 
 const PRONOUNS = new Set([
@@ -60,7 +60,7 @@ const INTERNATIONAL = new Set([
 
 const TOKEN_RE = /[A-Za-zÄÖÜäöüß]+/g;
 
-/** @param {import('../src/utils/markdownQuestion.js').Question} q */
+/** @param {import('../src/site/utils/markdownQuestion.js').Question} q */
 function collectStrings(q) {
   const parts = [q.prompt || '', q.hint || ''];
   if (q.options) parts.push(...q.options.map(String));

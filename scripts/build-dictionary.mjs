@@ -3,9 +3,9 @@
  * Build local dictionary assets from the question bank.
  *
  * Outputs:
- *   src/data/verbLemmas.json   — inflected verb form → infinitive
- *   src/data/adjLemmas.json    — inflected adj form → positiv
- *   src/data/vocabulary.json   — lemma → { pos, ru, en, gender? }
+ *   src/site/data/verbLemmas.json   — inflected verb form → infinitive
+ *   src/site/data/adjLemmas.json    — inflected adj form → positiv
+ *   src/site/data/vocabulary.json   — lemma → { pos, ru, en, gender? }
  *   docs/dictionary-wordlist.csv — review list (lemma, pos, freq, status)
  *
  * Usage:
@@ -18,22 +18,22 @@ import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 
-import { parseQuestionFile, stripTrailingPromptHint } from '../src/utils/markdownQuestion.js';
-import { isDictStopword } from '../src/data/stopwords.js';
-import { isDictMetaSkipped } from '../src/data/dictMeta.js';
-import { NOUN_FORM_LEMMAS } from '../src/data/nounLemmaForms.js';
-import { VERB_FORM_LEMMAS } from '../src/data/verbLemmaForms.js';
+import { parseQuestionFile, stripTrailingPromptHint } from '../src/site/utils/markdownQuestion.js';
+import { isDictStopword } from '../src/site/data/stopwords.js';
+import { isDictMetaSkipped } from '../src/site/data/dictMeta.js';
+import { NOUN_FORM_LEMMAS } from '../src/site/data/nounLemmaForms.js';
+import { VERB_FORM_LEMMAS } from '../src/site/data/verbLemmaForms.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const QROOT = join(ROOT, 'src', 'questions');
-const SEED_PATH = join(ROOT, 'src', 'data', 'vocabulary-seed.json');
-const SEED_EN_PATH = join(ROOT, 'src', 'data', 'vocabulary-seed-en.json');
+const QROOT = join(ROOT, 'src', 'site', 'questions');
+const SEED_PATH = join(ROOT, 'src', 'site', 'data', 'vocabulary-seed.json');
+const SEED_EN_PATH = join(ROOT, 'src', 'site', 'data', 'vocabulary-seed-en.json');
 
 const fetchTranslations = process.argv.includes('--fetch-translations');
 const fetchLimitArg = process.argv.find((a) => a.startsWith('--fetch-limit='));
 const fetchLimit = fetchLimitArg ? Number(fetchLimitArg.split('=')[1]) : 0;
 const MEMORY_URL = 'https://api.mymemory.translated.net/get';
-const VOCAB_PATH = join(ROOT, 'src', 'data', 'vocabulary.json');
+const VOCAB_PATH = join(ROOT, 'src', 'site', 'data', 'vocabulary.json');
 
 const TOKEN_RE = /[A-Za-zÄÖÜäöüß]+/g;
 
@@ -86,7 +86,7 @@ function parseHintLemma(hint) {
   return null;
 }
 
-/** @param {import('../src/utils/markdownQuestion.js').Question} q */
+/** @param {import('../src/site/utils/markdownQuestion.js').Question} q */
 function collectCorrectForms(q) {
   if (!q.correct) return [];
   return Array.isArray(q.correct) ? q.correct.map(String) : [String(q.correct)];
@@ -280,9 +280,9 @@ function writeVocabularyOutputs() {
     };
   }
 
-  writeFileSync(join(ROOT, 'src', 'data', 'verbLemmas.json'), JSON.stringify(verbLemmas, null, 0));
-  writeFileSync(join(ROOT, 'src', 'data', 'adjLemmas.json'), JSON.stringify(adjLemmas, null, 0));
-  writeFileSync(join(ROOT, 'src', 'data', 'nounLemmas.json'), JSON.stringify(nounLemmas, null, 0));
+  writeFileSync(join(ROOT, 'src', 'site', 'data', 'verbLemmas.json'), JSON.stringify(verbLemmas, null, 0));
+  writeFileSync(join(ROOT, 'src', 'site', 'data', 'adjLemmas.json'), JSON.stringify(adjLemmas, null, 0));
+  writeFileSync(join(ROOT, 'src', 'site', 'data', 'nounLemmas.json'), JSON.stringify(nounLemmas, null, 0));
   writeFileSync(VOCAB_PATH, JSON.stringify(vocabularyOut, null, 2));
 
   const csvLines = [

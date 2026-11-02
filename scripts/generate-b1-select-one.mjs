@@ -15,7 +15,7 @@ import { verbFormHint } from './topic-context-hints.mjs';
 const FORCE = process.argv.includes('--force');
 const TOPIC_ARG = process.argv.find((a) => a.startsWith('--topic='))?.slice(8);
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'B1');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'B1');
 
 const TOPICS = {
   ADJEKTIVDEKLINATIONB1: { prefix: 'b1-adj', gen: G.genAdjektivdeklinationB1 },

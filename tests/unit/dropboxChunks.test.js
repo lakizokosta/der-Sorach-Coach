@@ -3,7 +3,7 @@ import {
   chunkifyDropboxWords,
   commaAfterChunk,
   flattenDropboxChunks,
-} from '../../src/utils/dropboxChunks.js';
+} from '../../src/site/utils/dropboxChunks.js';
 
 describe('chunkifyDropboxWords', () => {
   it('keeps single-word chips for short sentences', () => {

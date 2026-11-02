@@ -12,7 +12,7 @@ import { BANK as A1_BANK } from './generate-a1-input-text.mjs';
 import { BANK as A2_BANK } from './a2-input-text-data.mjs';
 import { transformHint } from './fix-input-text-hints.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 
 /**
  * @param {string} level

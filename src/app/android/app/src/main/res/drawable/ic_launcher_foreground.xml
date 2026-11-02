@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo letters inside the 72dp safe zone of a 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="600"
+    android:viewportHeight="600">
+    <group android:translateX="100" android:translateY="100">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M80,112 L100,135 L90,135 L90,268 L145,268 L145,290 L70,290 L70,135 L60,135 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M157,115 H232 V135 L179,270 H232 V290 H157 V270 L210,135 H157 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M244,115 H268 A62,87.5 0,0 1,268 290 H244 Z M280,140 A32,62 0,0 1,280 265 Z" />
+    </group>
+</vector>

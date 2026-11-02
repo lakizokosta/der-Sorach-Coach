@@ -1,8 +1,8 @@
 import { readFileSync } from 'node:fs';
 
 import { describe, expect, it } from 'vitest';
-import { parseQuestionFile } from '../../src/utils/markdownQuestion.js';
-import { resolveInputTextInfinitive } from '../../src/utils/inputTextInfinitive.js';
+import { parseQuestionFile } from '../../src/site/utils/markdownQuestion.js';
+import { resolveInputTextInfinitive } from '../../src/site/utils/inputTextInfinitive.js';
 
 describe('resolveInputTextInfinitive', () => {
   it('does not leak noun lemma as Infinitiv on focus:word gaps', () => {
@@ -19,7 +19,7 @@ describe('resolveInputTextInfinitive', () => {
 
   it('parsed Konjunktiv II sein gap shows infinitive sein', () => {
     const q = parseQuestionFile(
-      readFileSync('src/questions/B1/KONJUNKTIV2/b1-k2-in-003.md', 'utf8'),
+      readFileSync('src/site/questions/B1/KONJUNKTIV2/b1-k2-in-003.md', 'utf8'),
       { level: 'B1', topic: 'KONJUNKTIV2', path: 'B1/KONJUNKTIV2/b1-k2-in-003.md' },
     );
     expect(q.verbInfinitive).toBe('sein');

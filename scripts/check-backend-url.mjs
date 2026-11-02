@@ -9,13 +9,13 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const paymentJs = readFileSync(
-  join(dirname(fileURLToPath(import.meta.url)), '../src/data/payment.js'),
+  join(dirname(fileURLToPath(import.meta.url)), '../src/site/data/payment.js'),
   'utf8',
 );
 const url = paymentJs.match(/export const SCRIPT_URL\s*=\s*'([^']+)'/)?.[1] || '';
 
 if (!url) {
-  console.error('SCRIPT_URL is empty in src/data/payment.js');
+  console.error('SCRIPT_URL is empty in src/site/data/payment.js');
   process.exit(1);
 }
 
@@ -29,7 +29,7 @@ if (res.status === 403) {
   console.error('   The Web App is not public. Redeploy on script.google.com:');
   console.error('   Deploy → New deployment → Web app');
   console.error('   Execute as: Me  |  Who has access: Anyone');
-  console.error('   Then paste the new /exec URL into src/data/payment.js');
+  console.error('   Then paste the new /exec URL into src/site/data/payment.js');
   process.exit(1);
 }
 

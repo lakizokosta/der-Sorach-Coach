@@ -14,7 +14,7 @@ import {
   taskInstruction,
 } from './input-text-prompt-shared.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions');
 
 function* walkMd(dir) {
   for (const entry of readdirSync(dir)) {

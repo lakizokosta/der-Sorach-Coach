@@ -20,13 +20,13 @@ if (!WEBHOOK_SECRET) {
   process.exit(1);
 }
 
-const paymentJs = readFileSync(join(ROOT, 'src/data/payment.js'), 'utf8');
+const paymentJs = readFileSync(join(ROOT, 'src/site/data/payment.js'), 'utf8');
 const SCRIPT_URL = process.env.SCRIPT_URL
   || paymentJs.match(/export const SCRIPT_URL\s*=\s*'([^']+)'/)?.[1]
   || '';
 
 if (!SCRIPT_URL) {
-  console.error('SCRIPT_URL not found in src/data/payment.js');
+  console.error('SCRIPT_URL not found in src/site/data/payment.js');
   process.exit(1);
 }
 

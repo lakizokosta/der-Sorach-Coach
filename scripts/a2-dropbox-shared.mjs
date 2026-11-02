@@ -1,6 +1,6 @@
 /** Shared helpers for A2 dropbox generation. */
 
-import { resolveDropboxCommas } from '../src/utils/dropboxCommas.js';
+import { resolveDropboxCommas } from '../src/site/utils/dropboxCommas.js';
 
 export function md(id, prompt, words, hint = '') {
   const lines = words.map((w) => `  - ${w}`).join('\n');

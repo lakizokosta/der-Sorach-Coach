@@ -15,19 +15,19 @@ const LEVELS = ['A1', 'A2', 'B1', 'B2'];
 
 /** @type {Record<string, Record<string, () => Promise<string>>>} */
 const LEVEL_LOADERS = {
-  A1: import.meta.glob('/src/questions/A1/**/*.md', {
+  A1: import.meta.glob('/src/site/questions/A1/**/*.md', {
     query: '?raw',
     import: 'default',
   }),
-  A2: import.meta.glob('/src/questions/A2/**/*.md', {
+  A2: import.meta.glob('/src/site/questions/A2/**/*.md', {
     query: '?raw',
     import: 'default',
   }),
-  B1: import.meta.glob('/src/questions/B1/**/*.md', {
+  B1: import.meta.glob('/src/site/questions/B1/**/*.md', {
     query: '?raw',
     import: 'default',
   }),
-  B2: import.meta.glob('/src/questions/B2/**/*.md', {
+  B2: import.meta.glob('/src/site/questions/B2/**/*.md', {
     query: '?raw',
     import: 'default',
   }),
@@ -35,7 +35,7 @@ const LEVEL_LOADERS = {
 
 /**
  * Extracts the level + topic + filename slug from an absolute import
- * path. Example: `/src/questions/A1/ARTIKEL/001-tisch.md`
+ * path. Example: `/src/site/questions/A1/ARTIKEL/001-tisch.md`
  *   → { level: 'A1', topic: 'ARTIKEL', slug: '001-tisch' }
  *
  * @param {string} path

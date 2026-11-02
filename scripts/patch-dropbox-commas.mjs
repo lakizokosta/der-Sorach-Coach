@@ -9,13 +9,13 @@ import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 
-import { parseQuestionFile } from '../src/utils/markdownQuestion.js';
-import { resolveDropboxCommas } from '../src/utils/dropboxCommas.js';
+import { parseQuestionFile } from '../src/site/utils/markdownQuestion.js';
+import { resolveDropboxCommas } from '../src/site/utils/dropboxCommas.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const QROOTS = [
-  join(ROOT, 'src', 'questions'),
-  join(ROOT, 'src', 'questions-vocab'),
+  join(ROOT, 'src', 'site', 'questions'),
+  join(ROOT, 'src', 'site', 'questions-vocab'),
 ];
 
 function* walk(dir) {

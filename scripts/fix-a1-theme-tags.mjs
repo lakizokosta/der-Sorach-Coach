@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync, readdirSync, statSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A1');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'A1');
 
 /** Keep [Theme] only on dropbox when the scene benefits from it. */
 const DROPBOX_KEEP = new Set(['Transport', 'Reisen', 'Stadt', 'Sport', 'Wetter']);

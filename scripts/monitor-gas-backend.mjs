@@ -2,7 +2,7 @@
 /**
  * GAS backend monitor — proactive + reactive alerts.
  *
- * Logic lives in src/utils/gasDeployLog.js (unit-tested).
+ * Logic lives in src/site/utils/gasDeployLog.js (unit-tested).
  * Proactive e-mail: exactly when OAuth token expires in ~24h.
  *
  * Exit codes: 0 OK | 1 outage detected (e-mail due)
@@ -17,13 +17,13 @@ import {
   classifyGasPingResponse,
   DEFAULT_OAUTH_TOKEN_LIFETIME_DAYS,
   parseDeployLog,
-} from '../src/utils/gasDeployLog.js';
-import { monitorExitCode, shouldSendMonitorEmail } from '../src/utils/monitorNotify.js';
+} from '../src/site/utils/gasDeployLog.js';
+import { monitorExitCode, shouldSendMonitorEmail } from '../src/site/utils/monitorNotify.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 
-const paymentJs = readFileSync(join(ROOT, 'src/data/payment.js'), 'utf8');
+const paymentJs = readFileSync(join(ROOT, 'src/site/data/payment.js'), 'utf8');
 const defaultScriptUrl = paymentJs.match(/export const SCRIPT_URL\s*=\s*'([^']+)'/)?.[1] || '';
 
 const SCRIPT_URL = process.env.SCRIPT_URL || defaultScriptUrl;

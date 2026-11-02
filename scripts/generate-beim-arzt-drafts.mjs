@@ -69,7 +69,7 @@ function writeReadme(counts) {
 
 **Правила авторства:** [../AUTHORING.md](../AUTHORING.md) (§4.1 дистракторы — A2/B1/B2)
 
-**Status:** Entwurf zur manuellen Prüfung — noch **nicht** im Fragenbank (\`src/questions-vocab/\`).
+**Status:** Entwurf zur manuellen Prüfung — noch **nicht** im Fragenbank (\`src/site/questions-vocab/\`).
 
 **Thema:** Beim Arzt  
 **Niveaus:** A2 · B1 · B2  
@@ -98,7 +98,7 @@ function writeReadme(counts) {
 
 1. Datei öffnen → Satz, Hint, Antwort, Distraktoren prüfen.
 2. Typische Fehler notieren (Genus, Kollokation, uneindeutige Lücke, zu leichter Distraktor).
-3. Nach Freigabe: nach \`src/questions-vocab/<LEVEL>/BEIM_ARZT/\` übertragen und in \`vocabularySets.js\` registrieren.
+3. Nach Freigabe: nach \`src/site/questions-vocab/<LEVEL>/BEIM_ARZT/\` übertragen und in \`vocabularySets.js\` registrieren.
 
 ## Regenerieren
 
@@ -106,13 +106,13 @@ function writeReadme(counts) {
 node scripts/generate-beim-arzt-drafts.mjs
 \`\`\`
 
-Neue Lemmata werden in \`src/data/vocabulary.json\` ergänzt (bestehende Einträge nicht überschrieben, außer fehlende \`ru\`/\`en\`/\`gender\`).
+Neue Lemmata werden in \`src/site/data/vocabulary.json\` ergänzt (bestehende Einträge nicht überschrieben, außer fehlende \`ru\`/\`en\`/\`gender\`).
 `;
   fs.writeFileSync(path.join(outRoot, 'README.md'), readme, 'utf8');
 }
 
 function mergeVocabulary() {
-  const vocabPath = path.join(root, 'src/data/vocabulary.json');
+  const vocabPath = path.join(root, 'src/site/data/vocabulary.json');
   const vocab = JSON.parse(fs.readFileSync(vocabPath, 'utf8'));
   let added = 0;
   let enriched = 0;

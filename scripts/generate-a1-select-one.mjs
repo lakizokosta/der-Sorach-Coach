@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 import { verbFormHint } from './topic-context-hints.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(__dirname, '..', 'src', 'questions', 'A1');
+const ROOT = join(__dirname, '..', 'src', 'site', 'questions', 'A1');
 
 const TOPICS = {
   POSSESSIVARTIKEL: 'a1-poss',

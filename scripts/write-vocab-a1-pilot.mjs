@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 import { MEINE_WOHNUNG } from './vocab-sets/meine-wohnung.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const BASE = join(ROOT, 'src', 'questions-vocab', 'A1');
+const BASE = join(ROOT, 'src', 'site', 'questions-vocab', 'A1');
 
 /** @param {string} dir @param {string} name @param {string} body */
 function writeQ(dir, name, body) {

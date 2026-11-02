@@ -12,7 +12,7 @@ import { restoreNegationSelectOne } from './generate-a1-select-one.mjs';
 import { NEGATION as DROPBOX_BANK } from './a1-dropbox-data-3.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DIR = join(__dirname, '..', 'src', 'questions', 'A1', 'NEGATION');
+const DIR = join(__dirname, '..', 'src', 'site', 'questions', 'A1', 'NEGATION');
 
 function dropboxMd(id, item) {
   const prefix = item.theme ? `[${item.theme}] ` : '';

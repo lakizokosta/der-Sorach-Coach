@@ -23,6 +23,7 @@ const ROOT = join(
   dirname(fileURLToPath(import.meta.url)),
   '..',
   'src',
+  'site',
   'questions',
   'B2',
   'RELATIVSATZERWEITERTB2',

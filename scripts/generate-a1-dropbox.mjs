@@ -7,7 +7,7 @@ import * as D1 from './a1-dropbox-data.mjs';
 import * as D2 from './a1-dropbox-data-2.mjs';
 import * as D3 from './a1-dropbox-data-3.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'questions', 'A1');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'site', 'questions', 'A1');
 
 const DROPBOX_KEEP_THEME = new Set(['Transport', 'Reisen', 'Stadt', 'Sport', 'Wetter']);
 
